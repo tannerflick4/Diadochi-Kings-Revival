@@ -499,13 +499,6 @@ evaluate_extra_duel_result_score_effect = { # [SPECIAL CIRCUMSTANCES - OPTIONAL]
 			value = 1
 		}
 	}
-	if = {
-		limit = { event_target:combatant_2 = { religion_group = pagan_group } }
-		subtract_variable = {
-			which = duel_result_score #(50 + X) - Y
-			value = 3
-		}
-	}
 	if = { #If you go after someone you care about, small malus...
 		limit = {
 			OR = {

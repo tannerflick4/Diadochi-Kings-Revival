@@ -148,20 +148,9 @@ character_event = {
 	}
 	
 	option = {
-		name = EVTOPTC37001 # Mention a Church career...
-		tooltip_info = diplomacy
-		trigger = {
-			religion_group = christian
-			diplomacy = 8
-		}
-		FROM = { character_event = { id = 37003 tooltip = EVTTOOLTIP37003 } }
-	}
-	
-	option = {
 		name = EVTOPTD37001 # Diplomatically refuse
 		tooltip_info = diplomacy
 		trigger = {
-			NOT = { religion_group = christian }
 			diplomacy = 8
 		}
 		FROM = { character_event = { id = 37003 tooltip = EVTTOOLTIP37003 } }
@@ -299,10 +288,6 @@ character_event = {
 			modifier = {
 				factor = 2.5
 				trait = ambitious
-			}
-			modifier = {
-				factor = 5.0
-				religion_group = muslim
 			}
 			modifier = {
 				factor = 0.25
@@ -473,10 +458,6 @@ character_event = {
 			modifier = {
 				factor = 2.5
 				trait = ambitious
-			}
-			modifier = {
-				factor = 5.0
-				religion_group = muslim
 			}
 			modifier = {
 				factor = 0.25
@@ -1042,7 +1023,6 @@ character_event = {
 	ai = no
 	capable_only = yes
 	prisoner = no
-	religion_group = christian
 	war = no
 	lacks_dlc = "Zeus"
 	
@@ -1056,7 +1036,7 @@ character_event = {
 	immediate = {
 		random_courtier = {
 			limit = {
-				religion_group = christian
+				religion_group = ROOT
 				is_ruler = no
 				has_ambition = obj_get_married
 				is_marriage_adult = yes
@@ -1111,15 +1091,6 @@ character_event = {
 	option = {
 		name = EVTOPTA37051 # Promise that you'll arrange it
 		FROM = { character_event = { id = 37052 tooltip = EVTTOOLTIP37052 } }
-	}
-	
-	option = {
-		name = EVTOPTB37051 # Mention a Church career...
-		trigger = {
-			religion_group = christian
-			FROM = { religion_group = christian }
-		}
-		FROM = { character_event = { id = 37053 tooltip = EVTTOOLTIP37053 } }
 	}
 }
 
@@ -1279,36 +1250,6 @@ character_event = {
 					can_marry = FROM
 				}
 				add_spouse = FROM
-			}
-		}
-	}
-	
-	option = {
-		name = EVTOPTB37055 # You're off to the monastery!
-		trigger = {
-			religion_group = christian
-			FROM = { religion_group = christian }
-			FROM = {
-				is_married = no
-			}
-			any_realm_lord = {
-				is_theocracy = yes
-			}
-		}
-		random_realm_lord = {
-			limit = {
-				is_theocracy = yes
-			}
-			reverse_banish = FROM
-		}
-		FROM = { 
-			cancel_ambition = yes
-			remove_character_modifier = promised_a_marriage
-			clr_character_flag = flag_promised_marriage
-			opinion = {
-				who = ROOT
-				modifier = opinion_sent_to_church
-				months = 120
 			}
 		}
 	}

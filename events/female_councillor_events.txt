@@ -839,8 +839,6 @@ character_event = {
 			has_religion_feature = religion_feature_bon
 			primary_title = { has_law = status_of_women_3 }
 			primary_title = { has_law = status_of_women_4 }
-			religion = cathar
-			religion = messalian
 			has_game_rule = {
 				name = gender
 				value = all
@@ -914,10 +912,6 @@ character_event = {
 						NOR = {
 							ROOT = { primary_title = { has_law = status_of_women_2 } }
 							ROOT = { primary_title = { has_law = status_of_women_1 } }
-							AND = {
-								ROOT = { religion_group = pagan_group }
-								religion_group = pagan_group
-							}
 							any_spouse = { character = ROOT }
 							any_child = { character = ROOT }
 						}
@@ -979,12 +973,8 @@ character_event = {
 					factor = 0
 					OR = {
 						NOT = { intrigue = 15 }
-						FROM = { primary_title = { has_law = status_of_women_2 } } 
-						FROM = { primary_title = { has_law = status_of_women_1 } } 
-						AND = {
-							FROM = { religion_group = pagan_group }
-							religion_group = pagan_group
-						}
+						FROM = { primary_title = { has_law = status_of_women_2 } }
+						FROM = { primary_title = { has_law = status_of_women_1 } }
 					}
 				}
 				FROM = { character_event = { id = 77795 } } 
@@ -1300,8 +1290,6 @@ character_event = {
 			has_religion_feature = religion_patriarchal
 			has_religion_feature = religion_equal
 			has_religion_feature = religion_feature_bon
-			religion = cathar
-			religion = messalian
 			has_game_rule = {
 				name = gender
 				value = all
@@ -1413,10 +1401,6 @@ character_event = {
 						NOR = {
 							ROOT = { primary_title = { has_law = status_of_women_2 } }
 							ROOT = { primary_title = { has_law = status_of_women_1 } }
-							AND = {
-								ROOT = { religion_group = pagan_group }
-								religion_group = pagan_group
-							}
 							any_spouse = { character = ROOT }
 							any_child = { character = ROOT }
 						}
@@ -1498,10 +1482,6 @@ character_event = {
 			NOR = { 
 				FROM = { primary_title = { has_law = status_of_women_2 } }
 				FROM = { primary_title = { has_law = status_of_women_1 } } 
-				AND = {
-					FROM = { religion_group = pagan_group }
-					religion_group = pagan_group
-				}
 			}			
 		}
 

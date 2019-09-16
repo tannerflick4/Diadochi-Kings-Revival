@@ -6109,7 +6109,6 @@ this_is_diplomatic_culture_trigger = { #Not really about culture - Used in AI vo
 		is_merchant_republic = yes
 	} 
 	OR = { 
-		religion_group = christian
 		religion = judaism_main
 		religion = zoroastrian_main
 		religion = greek_main

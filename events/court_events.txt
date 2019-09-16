@@ -224,44 +224,6 @@ character_event = {
 			}
 		}		
 	}
-	option = {
-		name = {
-			text = EVTOPTC73001 # These are books created by satan!
-			trigger = {
-				religion_group = christian
-			}
-		}
-		name = {
-			text = EVTOPTD73001 # These are books created by Shaytan!
-			trigger = {
-				religion_group = muslim
-			}
-		}
-		trigger = {
-			OR = {
-				religion_group = christian
-				religion_group = muslim
-			}
-		}
-		ai_chance = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT= { trait = zealous }
-			}
-		}
-		spouse = {
-			if = {
-				limit = {
-					NOT = {
-						religion_group = muslim
-					}
-				}
-				add_trait = chaste
-			}
-		}
-		piety = 10
-	}
 }
 
 #A famous writer proposes to compose your family chronicles ## A talented artist proposes to paint a portrait of your father
@@ -553,29 +515,6 @@ character_event = {
 			add_trait = ambitious
 		}
 	}
-	option = {
-		name = EVTOPTD73006 #Send him to confess his sins
-		trigger = {
-			OR = {
-				religion_group = christian
-				religion_group = muslim
-			}
-		}
-		event_target:knocked_up_maid = {
-			if = {
-				limit = {
-					religion_group = christian
-				}
-				add_trait = chaste
-			}
-			if = {
-				limit = {
-					religion_group = muslim
-				}
-				piety = -10
-			}
-		}
-	}
 }
 	
 ### Bored wife: Your wife wants latest fashion fad.... ###
@@ -639,20 +578,7 @@ character_event = {
 		}
 		add_trait = charitable
 		character_event = { id = 73005 days = 10 tooltip = EVTTOOLTIP73005 }
-	}	
-	option = {
-		name = EVTOPTB73007 #Let's go to the church instead, darling
-		trigger = {
-			religion_group = christian
-		}
-		if = {
-			limit = { trait = cynical }
-			prestige = -5
-		}
-		add_trait = zealous
-		spouse = { add_trait = zealous }
-		
-	}	
+	}
 	option = {
 		name = EVTOPTC73007 #Shoo, this is my money you're talking about
 		trigger = {
@@ -1542,18 +1468,9 @@ character_event = {
 	lacks_dlc = "Zeus"
 	
 	trigger = {
-		NOT = {
-			religion_group = muslim
-		}
 		OR = {
 			is_theocracy = yes
-			AND = {
-				is_ruler = no
-				NOT = { religion = orthodox }
-				NOT = { is_heresy_of = orthodox }
-				NOT = { religion = miaphysite }
-				NOT = { is_heresy_of = miaphysite }
-			}
+			is_ruler = no
 		}
 		independent = no
 		is_councillor = no
@@ -1592,14 +1509,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA73230
-		if = {
-			limit = {
-				NOT = {
-					religion_group = muslim
-				}
-			}
-			liege = { letter_event = { id = 73231 tooltip = EVTTOOLTIP73231 } }
-		}
+		liege = { letter_event = { id = 73231 tooltip = EVTTOOLTIP73231 } }
 	}
 }
 
