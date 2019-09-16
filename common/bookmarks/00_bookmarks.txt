@@ -1,3 +1,9 @@
+bm_tsf4 = {
+	name = "TSF4"
+	desc = "TSF4_DESC"
+	date = 400.1.1
+}
+
 bm_rise_of_macedonia = {
 	name = "BM_RISE_OF_MACEDONIA"
 	desc = "BM_RISE_OF_MACEDONIA_DESC"
