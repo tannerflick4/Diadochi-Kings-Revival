@@ -1,0 +1,30 @@
+# 35001-36000 for Egyptian dynasties
+
+35001 = {
+	name = "Nakhthorheb"
+	culture = egyptian
+}
+35002 = {
+	name = "Nefaarud"
+	culture = egyptian
+}
+35003 = { 	
+	name = "Tnephachthos" 	
+	culture = egyptian
+}
+35004 = { 	
+	name = "Amasis" 	
+	culture = egyptian
+}
+35005 = {
+	name = "Augilai"
+	culture = egyptian
+}
+35006 = { # Not used currently
+	name = "Ammonioi"
+	culture = egyptian
+}
+35007 = { # Not used currently
+	name = "Oasitai"
+	culture = egyptian
+}

@@ -1,0 +1,26 @@
+417.1.1 = {
+	holder = 90321 # Fravarti, satrap of Persia
+	liege = k_p_persia
+}
+446.1.1 = { # 330 BC
+	holder = 1201 # Peukestas
+	liege="k_s_persia"
+}
+460.1.1 = {
+	holder = 401 # Antigonus
+	liege = k_s_phrygia
+}
+466.1.1 = {
+	holder = 1001 # Seleukos
+	liege = k_s_babylonia
+}
+467.1.1 = {
+	liege = e_syria
+}
+482.1.1 = {
+	holder = 1002 # Antiochos
+	liege = k_s_persia
+}
+495.8.1 = {
+	liege = e_syria
+}

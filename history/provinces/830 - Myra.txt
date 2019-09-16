@@ -1,0 +1,19 @@
+# 830 - Myra
+
+# County Title
+title = c_myra
+
+# Settlements
+max_settlements = 5
+b_myra_myra = castle
+b_arykanda_myra = castle
+b_limyra_myra = city
+b_olympos_myra = temple
+b_phaselis_myra = city
+
+# Misc
+culture = luwian
+religion = anatolian_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,18 @@
+# 122 - Tripolis
+
+# County Title
+title = c_tripolis
+
+# Settlements
+max_settlements = 4
+b_tripolis_tripolis = castle
+b_saama_tripolis = temple
+b_botrys_tripolis = city
+b_arqa_tripolis = castle
+
+# Misc
+culture = punic
+religion = canaanite_main
+
+# History
+# Can be filled when things change around the province

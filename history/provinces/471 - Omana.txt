@@ -1,0 +1,18 @@
+# 471 - Omana
+
+# County Title
+title = c_omana
+
+# Settlements
+max_settlements = 4
+b_omana_omana = castle
+b_atta_omana = city
+b_muftala_omana = castle
+b_domana_omana = city
+
+# Misc
+culture = arabic
+religion = arabic_main
+
+# History
+# Can be filled when things change around the province

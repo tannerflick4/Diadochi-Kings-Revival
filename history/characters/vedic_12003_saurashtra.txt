@@ -1,0 +1,38 @@
+# 120201-120300 for the Kathi dynasty
+120201 = {
+	name = "Pitambara" # King of Saurastra Made up
+	dynasty = 12047 # Saurashtra
+	religion = jainism_main
+	culture = shauraseni
+	father = 120202
+	411.1.1 = { # 365 BC
+		birth="yes"
+	}
+	481.1.1 = { # 295 BC
+		death="yes"
+	}
+}
+120202 = {
+	name = "Gopinatha" # King of Saurastra Made up
+	dynasty = 12047 # Saurashtra
+	religion = jainism_main
+	culture = shauraseni
+	391.1.1 = { # 386 BC 
+		birth="yes"
+	}
+	451.1.1 = { # 325 BC
+		death="yes"
+	}
+}
+120203 = {
+	name = "Bhishma" # King of Saurastra Made up
+	dynasty = 12047 # Saurashtra
+	religion = jainism_main
+	culture = shauraseni
+	438.1.1 = { # 338 BC
+		birth="yes"
+	}
+	517.1.1 = { # 259 BC
+		death="yes"
+	}
+}

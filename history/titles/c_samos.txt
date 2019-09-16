@@ -1,0 +1,28 @@
+410.1.1 = { # 366 BC
+	holder = 53302 # Demosthenes
+	liege = k_r_athens
+}
+438.8.2 = { # 338 BC, Battle of Chaeronea
+	liege = d_r_athens
+}
+454.1.1 = {
+	holder = 201 # Menander, Satrap of Lydia
+	liege = k_s_lydia
+}
+457.5.1 = {
+	holder = 401 # Antigonos
+	liege = k_s_phrygia
+}
+467.1.1 = {
+	liege = e_asia
+}
+475.1.1 = {
+	holder = 402 # Demetrios Poliorketes
+}
+485.1.1 = {
+	holder = 601 # Ptolemy
+	liege = e_egypt
+}
+491.1.1 = {
+	holder = 602 # Ptolemy II
+}

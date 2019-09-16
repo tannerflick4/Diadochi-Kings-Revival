@@ -1,0 +1,26 @@
+# 21301-21400 for the Tarantinoi dynasty
+21301 = {
+	name = "Zephyros" # Tarentum
+	dynasty = 2014 # Tarantinoi
+	religion = greek_main
+	culture = doric
+	390.1.1 = { # 386 BC Made up
+		birth="yes"
+	}
+	459.1.1 = { # 317 BC Made up
+		death="yes"
+	}
+}
+21302 = {
+	name = "Linos" # Tarentum
+	dynasty = 2014 # Tarantinoi
+	religion = greek_main
+	culture = doric
+	father = 21301
+	429.1.1 = { # 347 BC Made up
+		birth="yes"
+	}
+	501.1.1 = { # 275 BC Made up
+		death="yes"
+	}
+}

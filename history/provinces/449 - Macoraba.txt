@@ -1,0 +1,16 @@
+# 449 - Macoraba
+
+# County Title
+title = c_macoraba
+
+# Settlements
+max_settlements = 2
+b_macoraba_macoraba = castle
+b_ambe_macoraba = city
+
+# Misc
+culture = arabic
+religion = arabic_main
+
+# History
+# Can be filled when things change around the province

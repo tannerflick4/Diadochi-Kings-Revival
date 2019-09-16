@@ -1,0 +1,18 @@
+# 915 - Munigua
+
+# County Title
+title = c_munigua
+
+# Settlements
+max_settlements = 4
+b_munigua_munigua = castle
+b_naeva_munigua = city
+b_iporca_munigua = castle
+#b_leptis_munigua = city
+
+# Misc
+culture = turdetanian
+religion = iberian_main
+
+# History
+# Can be filled when things change around the province

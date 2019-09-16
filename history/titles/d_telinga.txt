@@ -1,0 +1,12 @@
+405.1.1 = { # 371 BC
+	holder = 121801 # Govinda
+}
+456.1.1 = { # 320 BC
+	holder = 121802 # Sada
+}
+482.1.1 = { # 294 BC
+	liege = e_india
+}
+485.1.1 = { # 291 BC
+	holder = 121803 # Riktavarna
+}

@@ -1,0 +1,18 @@
+# 272 - Bactra
+
+# County Title
+title = c_bactra
+
+# Settlements
+max_settlements = 4
+b_bactra_bactra = castle
+b_aornos_bactra = city
+b_azar_i_asp_bactra = temple
+b_menapia_bactra = castle
+
+# Misc
+culture = bactrian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

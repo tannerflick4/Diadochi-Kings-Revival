@@ -1,0 +1,38 @@
+417.1.1 = {
+	holder = 90701
+	liege = k_p_arachosia
+}
+447.7.1 = { # 329 BC
+	holder = 20101 # Sibyrtios
+	liege="k_s_gedrosia"
+}
+453.6.10 = {
+	holder = 1301 # Tlepolemos
+	liege="k_s_carmania"
+}
+460.1.1 = {
+	holder = 401 # Antigonus
+	liege = k_s_phrygia
+}
+467.1.1 = {
+	liege = e_asia
+}
+469.1.1 = {
+	holder = 1001 # Seleukos
+	liege = e_syria
+}
+482.1.1 = {
+	holder = 1002 # Antiochos
+	liege = k_s_persia
+}
+483.1.1 = {
+	holder = 90801 # Bagadata
+	liege = d_persis
+}
+498.1.1 = { # 278 BC
+	holder = 90801 # Oborzos
+}
+500.1.1 = { # 276 BC
+	holder = 1002 # Antiochos	
+	liege = e_syria
+}

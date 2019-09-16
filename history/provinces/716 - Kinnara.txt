@@ -1,0 +1,15 @@
+# 716 - Kinnara
+
+# County Title
+title = c_kinnara
+
+# Settlements
+max_settlements = 1
+b_kinnara_kinnara = castle
+
+# Misc
+culture = vedic # Magadhi
+religion = buddhism_main
+
+# History
+# Can be filled when things change around the province

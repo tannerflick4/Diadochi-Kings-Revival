@@ -1,0 +1,18 @@
+# 693 - Kalingapur
+
+# County Title
+title = c_kalingapur
+
+# Settlements
+max_settlements = 4
+b_kalingapur_kalingapur = castle
+b_manipura_kalingapur = city
+b_mahendram_kalingapur = temple
+b_dandagula_kalingapur = city
+
+# Misc
+culture = telegu
+religion = jainism_main
+
+# History
+# Can be filled when things change around the province

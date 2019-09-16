@@ -1,0 +1,18 @@
+# 763 - Agastyavati
+
+# County Title
+title = c_agastyavati
+
+# Settlements
+max_settlements = 4
+b_agastyavati_agastyavati = castle
+b_naskila_agastyavati = city
+b_deopalli_agastyavati = city
+b_saivala_agastyavati = temple
+
+# Misc
+culture = maharashtri
+religion = jainism_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,16 @@
+# 456 - Raida
+
+# County Title
+title = c_raida
+
+# Settlements
+max_settlements = 2
+b_raida_raida = castle
+b_sapphar_raida = castle
+
+# Misc
+culture = arabic
+religion = arabic_main
+
+# History
+# Can be filled when things change around the province

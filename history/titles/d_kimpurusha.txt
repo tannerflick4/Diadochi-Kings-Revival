@@ -1,0 +1,6 @@
+412.1.1 = { # 364 BC
+	holder = 121901 # Sihahnu
+}
+477.1.1 = { # 299 BC
+	holder = 121902 # Sthita
+}

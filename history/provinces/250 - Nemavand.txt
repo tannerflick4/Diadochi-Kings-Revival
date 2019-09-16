@@ -1,0 +1,18 @@
+# 250 - Nemavand
+
+# County Title
+title = c_nemavand
+
+# Settlements
+max_settlements = 4
+b_nemavand_nemavand = castle
+b_harsin_nemavand = temple
+b_thebarga_nemavand = city
+b_khurramabad_nemavand = castle
+
+# Misc
+culture = elamite
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

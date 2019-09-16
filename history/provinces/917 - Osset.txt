@@ -1,0 +1,17 @@
+# 917 - Osset
+
+# County Title
+title = c_osset
+
+# Settlements
+max_settlements = 3
+b_osset_osset = castle
+b_olontigi_osset = city
+b_maenuba_osset = city
+
+# Misc
+culture = old_tartessian
+religion = iberian_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,26 @@
+# 370101-370200 for the Kodinya dynasty
+370101 = {
+	name = "Murunda" # Made up
+	dynasty = 37001
+	religion = zoroastrian_main
+	culture = tocharian
+	394.1.1 = { # 382 BC
+		birth="yes"
+	}
+	466.1.1 = { # 310 BC
+		death="yes"
+	}
+}
+370102 = {
+	name = "Sapalbiz" # Made up
+	dynasty = 37001
+	religion = zoroastrian_main
+	culture = tocharian
+	father = 370101
+	420.1.1 = { # 356 BC
+		birth="yes"
+	}
+	501.1.1 = { # 275 BC
+		death="yes"
+	}
+}

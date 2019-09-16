@@ -1,0 +1,17 @@
+# 887 - Qiuci
+
+# County Title
+title = c_qiuci
+
+# Settlements
+max_settlements = 3
+
+b_qiuci_qiuci = castle # Kucha
+b_quli_qiuci = city
+b_wulei_qiuci = temple
+
+culture = tocharian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

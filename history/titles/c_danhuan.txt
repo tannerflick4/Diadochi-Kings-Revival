@@ -1,0 +1,6 @@
+417.1.1 = { # 359 BC
+	holder = 370401 # Jitugha
+}
+470.1.1 = {
+	holder = 370402 # Cmaga
+}

@@ -1,0 +1,21 @@
+# 372 - Thagaste
+
+# County Title
+title = c_thagaste
+
+# Settlements
+max_settlements = 5
+b_thagaste_thagaste = castle
+b_madauros_thagaste = temple
+b_simitthu_thagaste = city
+b_zattara_thagaste = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_calama_thagaste
+
+# Misc
+culture = berber
+religion = berber_main
+
+# History
+# Can be filled when things change around the province

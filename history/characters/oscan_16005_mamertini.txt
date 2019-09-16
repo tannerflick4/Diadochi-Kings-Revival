@@ -1,0 +1,13 @@
+# 160401-160500 for the Mamertini dynasty
+160401 = {
+	name = "Seppiis" # Mamertine leader
+	dynasty = 16005 # Mamertini
+	religion = roman_main
+	culture = oscan
+	433.1.1 = { # 343 BC
+		birth="yes"
+	}
+	501.1.1 = { # 275 BC
+		death="yes"
+	}
+}

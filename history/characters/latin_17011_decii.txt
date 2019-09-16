@@ -1,0 +1,18 @@
+# 171001-171100 for the Decii dynasty
+171001 = {
+	name = "Publius" # Decius Mus
+	dynasty = 17011 # Decii
+	religion = roman_main
+	culture = latin
+	
+	add_trait = brave
+	
+	423.1.1 = { # 353 BC Made up
+		birth="yes"
+	}
+	481.1.1 = { # 295 BC
+		death = {
+			death_reason = death_battle
+		}
+	}
+}

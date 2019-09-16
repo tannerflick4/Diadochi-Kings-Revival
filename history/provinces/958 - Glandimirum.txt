@@ -1,0 +1,19 @@
+# 958 - Glandimirum
+
+# County Title
+title = c_glandimirum
+
+# Settlements
+max_settlements = 4
+b_glandimirum_glandimirum = castle
+b_burbida_glandimirum = castle
+b_koilobriga_glandimirum = castle
+#b_salientes_glandimirum = city
+
+
+# Misc
+culture = gallaecian
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,4 @@
+# 410001-420000 for Turdetanian characters -- Split
+	# 410001-410100 for the Tartessioi dynasty
+	# 410101-410200 for the Mirobrigenses dynasty
+	

@@ -1,0 +1,19 @@
+# 262 - Pura
+
+# County Title
+title = c_pura
+
+# Settlements
+max_settlements = 5
+b_pura_pura = castle
+b_dagasira_pura = temple
+b_samydaces_pura = city
+b_troesa_pura = city
+b_canasis_pura = castle
+
+# Misc
+culture = persian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

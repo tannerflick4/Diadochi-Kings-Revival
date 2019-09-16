@@ -1,0 +1,17 @@
+# 67 - Paroikopolis
+
+# County Title
+title = c_paroikopolis
+
+# Settlements
+max_settlements = 4
+b_paroikopolis_paroikopolis = castle
+b_neine_paroikopolis = city
+b_doberos_paroikopolis = temple
+
+# Misc
+culture = paeonian
+religion = illyrian_main
+
+# History
+# Can be filled when things change around the province

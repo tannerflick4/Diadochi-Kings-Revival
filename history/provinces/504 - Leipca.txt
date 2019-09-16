@@ -1,0 +1,16 @@
+# 504 - Leipca
+
+# County Title
+title = c_leipca
+
+# Settlements
+max_settlements = 2
+b_leipca_leipca = castle
+b_frikol_leipca = city
+
+# Misc
+culture = sarmatian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

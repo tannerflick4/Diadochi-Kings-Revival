@@ -1,0 +1,17 @@
+# 412 - Napoca
+
+# County Title
+title = c_napoca
+
+# Settlements
+max_settlements = 3
+b_napoca_napoca = castle
+b_saratel_napoca = city
+b_optatiana_napoca = castle
+
+# Misc
+culture = dacian
+religion = zalmoxism
+
+# History
+# Can be filled when things change around the province

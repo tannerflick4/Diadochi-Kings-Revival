@@ -1,0 +1,19 @@
+# 822 - Arachotoi
+
+# County Title
+title = c_arachotoi
+
+# Settlements
+max_settlements = 5
+b_arachotoi_arachotoi = castle
+b_parabeste_arachotoi = city
+b_ariaspe_arachotoi = city
+b_thyraii_arachotoi = castle
+b_arafaci_arachotoi = city
+
+# Misc
+culture = arian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

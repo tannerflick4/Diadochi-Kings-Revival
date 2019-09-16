@@ -1,0 +1,14 @@
+416.1.1 = { # 360 BC
+	holder = 140203
+	liege = d_sirmium
+}
+430.1.1 = { # 346 BC
+	holder = 230403 # Divisiacus of the Eravisci
+	liege = 0
+}
+436.1.1 = {
+	holder = 230402 # Eporedix of the Eravisci
+}
+443.1.1 = { # 333 BC
+	holder = 230401 # Donnotaurus of the Eravisci tribe
+}

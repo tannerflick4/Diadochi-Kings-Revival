@@ -1,0 +1,81 @@
+# 350001-350015 for Nakhthorheb characters
+
+350001 = {
+	name = "Nekthnebef" # Nectanebo II of egypt
+	dynasty = 35001
+	culture = egyptian
+	religion = kemetic
+	father = 350002
+	add_trait = zealous
+	add_trait = tough_soldier
+	stewardship = 8
+	398.1.1 = { # 378 BC, made up
+		birth="yes"
+	}
+	440.1.1 = { # 336 BC, made up
+		death="yes"
+	}
+}
+350002 = {
+	name = "Tjahepimu" #father of Nectanebo II
+	dynasty = 35001
+	culture = egyptian
+	religion = kemetic
+	father = 350003
+	
+	374.1.1 = { # 402 BC, made up
+		birth="yes"
+	}
+	406.1.1 = { # 370 BC, made up
+		death="yes"
+	}
+}
+350003 = {
+	name = "Nekthnebef" #Nekthnebef, 30th dynasty, 380-362 BCE
+	dynasty = 35001
+	culture = egyptian
+	religion = kemetic
+	add_trait = just
+	add_trait = tough_soldier
+	stewardship = 12
+	356.1.1 = { # 420 BC, made up
+		birth="yes"
+	}
+	414.1.1 = { # 362 BC
+		death="yes"
+	}
+}
+350004 = {
+	name = "Djedhor" #Teos/Tachos, after 360 BC lives in Persia
+	dynasty = 35001
+	culture = egyptian
+	religion = kemetic
+	add_trait = cruel
+	add_trait = greedy
+	father = 350003
+	372.1.1 = { # 404 BC, made up
+		birth="yes"
+	}
+	416.1.1 = { # 360 BC, lives in Persia
+		employer = 90311
+	}
+	436.1.1 = { # 340 BC, made up
+		death="yes"
+	}
+}
+350005 = {
+	name = "Khedebneithirbinet" #purported child of Djedhor
+	dynasty = 35001
+	culture = egyptian
+	religion = kemetic
+	father = 350004
+	396.1.1 = { # 380 BC, made up
+		birth="yes"
+	}
+	416.1.1 = { # 360 BC, lives in Persia
+		employer = 90311
+	}
+	446.1.1 = { # 330 BC, made up
+		death="yes"
+	}
+}

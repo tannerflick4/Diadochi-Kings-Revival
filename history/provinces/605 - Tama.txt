@@ -1,0 +1,19 @@
+# 605 - Tama
+
+# County Title
+title = c_tama
+
+# Settlements
+max_settlements = 5
+b_ahsiket_tama = castle
+b_osh_tama = city
+b_saimalu_tash_tama = temple
+b_andijan_tama = castle
+b_kokand_tama = castle
+
+# Misc
+culture = sogdian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

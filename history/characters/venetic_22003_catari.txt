@@ -1,0 +1,39 @@
+# 220201-220300 for the Catari dynasty
+220201 = {
+	name = "Moicus" # Catari leader, made up
+	dynasty = 22003 # Catari
+	religion = illyrian_main
+	culture = venetic
+	father = 220202
+	415.1.1 = { # 361 BC
+		birth="yes"
+	}
+	460.1.1 = { # 316 BC
+		death="yes"
+	}
+}
+220202 = {
+	name = "Volso" # Catari leader, made up
+	dynasty = 22003 # Catari
+	religion = illyrian_main
+	culture = venetic
+	376.1.1 = { # 400 BC
+		birth="yes"
+	}
+	434.1.1 = { # 342 BC
+		death="yes"
+	}
+}
+220203 = {
+	name = "Moicus" # Catari leader, made up
+	dynasty = 22003 # Catari
+	religion = illyrian_main
+	culture = venetic
+	father = 220201
+	444.1.1 = { # 332 BC
+		birth="yes"
+	}
+	511.1.1 = { # 265 BC
+		death="yes"
+	}
+}

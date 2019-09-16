@@ -1,0 +1,22 @@
+# 361 - Thapsus
+
+# County Title
+title = c_thapsus
+
+# Settlements
+max_settlements = 6
+b_hadrumetum_thapsus = city
+b_thapsus_thapsus = castle
+b_bararus_thapsus = temple
+b_thysdrus_thapsus = castle
+b_uluzibbira_thapsus = city
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_lepti_minus_thapsus = city
+
+# Misc
+culture = punic
+religion = punic_main
+
+# History
+# Can be filled when things change around the province

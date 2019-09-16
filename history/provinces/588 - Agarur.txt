@@ -1,0 +1,15 @@
+# 588 - Agarur
+
+# County Title
+title = c_agarur
+
+# Settlements
+max_settlements = 1
+b_agarur_agarur = castle
+
+# Misc
+culture = scythian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,20 @@
+# 22 - Argos
+
+# County Title
+title = c_argos # for example c_corinth
+
+# Settlements
+max_settlements = 6 # Should be reevaluated
+b_argos_argos = castle
+b_nemea_argos = temple
+b_epidauros_argos = city
+b_methana_argos = castle
+b_asine_argos = city
+b_philenorion_argos = temple
+
+# Misc
+culture = doric
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

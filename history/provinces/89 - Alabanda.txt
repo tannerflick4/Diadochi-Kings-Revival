@@ -1,0 +1,18 @@
+# 89 - Alabanda
+
+# County Title
+title = c_alabanda
+
+# Settlements
+max_settlements = 4
+b_alabanda_alabanda = castle
+b_lagina_alabanda = temple
+b_gerga_alabanda = city
+b_alinda_alabanda = castle
+
+# Misc
+culture = luwian
+religion = anatolian_main
+
+# History
+# Can be filled when things change around the province

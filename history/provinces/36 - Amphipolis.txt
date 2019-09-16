@@ -1,0 +1,21 @@
+# 36 - Amphipolis
+
+# County Title
+title = c_amphipolis # for example c_corinth
+
+# Settlements
+max_settlements = 4
+b_amphipolis_amphipolis = castle
+b_aulon_amphipolis = temple
+b_kerdylion_amphipolis = castle
+b_argilos_amphipolis = city
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province
+420.1.1 = { # 356 BC, Amphipolis macedonianised at a uncertain date
+	culture = macedonian
+}

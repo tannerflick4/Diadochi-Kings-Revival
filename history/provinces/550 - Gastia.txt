@@ -1,0 +1,16 @@
+# 550 - Gastia
+
+# County Title
+title = c_gastia
+
+# Settlements
+max_settlements = 2
+b_gastia_gastia = castle
+b_bratakol_gastia = city
+
+# Misc
+culture = scythian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

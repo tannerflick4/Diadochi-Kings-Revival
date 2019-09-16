@@ -1,0 +1,26 @@
+# 386 - Sirmium
+
+# County Title
+title = c_sirmium
+
+# Settlements
+max_settlements = 6
+b_sirmium_sirmium = castle
+b_drinum_sirmium = temple
+b_cusum_sirmium = city
+b_malata_sirmium = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_bassiana_sirmium
+# b_milata_sirmium
+
+# Misc
+culture = illyrian
+religion = illyrian_main
+
+# History
+# Can be filled when things change around the province
+490.1.1 = { # 286 BC
+	culture = gaul
+	religion = celtic_main
+}

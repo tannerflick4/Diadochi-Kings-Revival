@@ -1,0 +1,18 @@
+# 837 - Aizanoi
+
+# County Title
+title = c_aizanoi
+
+# Settlements
+max_settlements = 4
+b_aizanoi_aizanoi = castle
+b_aliana_aizanoi = city
+b_palox_aizanoi = city
+b_kotiaion_aizanoi = castle
+
+# Misc
+culture = phrygian
+religion = phrygian_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,18 @@
+# 213 - Calata
+
+# County Title
+title = c_calata
+
+# Settlements
+max_settlements = 4
+b_calata_calata = castle
+b_isumbo_calata = temple
+b_elegoana_calata = city
+b_bagauna_calata = castle
+
+# Misc
+culture = armenian
+religion = armenian_main
+
+# History
+# Can be filled when things change around the province

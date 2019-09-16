@@ -1,0 +1,16 @@
+446.1.1 = { # 330 BC
+	holder = 1201 # Peukestas
+	liege="e_macedonia"
+}
+460.1.1 = {
+	holder = 0
+	liege = 0
+}
+482.1.1 = {
+	holder = 1002 # Antiochus I
+	liege = e_syria
+}
+495.8.1 = {
+	holder = 0
+	liege = 0
+}

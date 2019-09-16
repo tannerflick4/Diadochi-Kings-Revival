@@ -1,0 +1,17 @@
+# 648 - Octodurus
+
+# County Title
+title = c_octodurus
+
+# Settlements
+max_settlements = 3
+b_octodurus_octodurus = castle
+b_tarnaiae_octodurus = city
+b_sedurus_octodurus = city
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

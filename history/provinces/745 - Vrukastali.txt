@@ -1,0 +1,17 @@
+# 745 - Vrukastali
+
+# County Title
+title = c_vrukastali
+
+# Settlements
+max_settlements = 3
+b_vrukastali_vrukastali = castle
+b_makandi_vrukastali = city
+b_kampilya_vrukastali = city
+
+# Misc
+culture = shauraseni
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

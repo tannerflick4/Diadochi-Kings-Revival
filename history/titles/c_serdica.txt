@@ -1,0 +1,20 @@
+417.1.1 = {
+	holder = 40114
+}
+418.1.1 = {
+	holder = 40124 # Amadocus
+	liege = d_moesia
+}
+420.1.1 = { # 356 BC
+	holder = 150005
+	liege = d_paeonia
+}
+436.1.1 = {
+	holder = 150001
+}
+461.1.1 = {
+	holder = 150002 # Audoleon
+}
+491.1.1 = {
+	holder = 150003 # Ariston
+}

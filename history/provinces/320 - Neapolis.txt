@@ -1,0 +1,24 @@
+# 320 - Neapolis
+
+# County Title
+title = c_neapolis # for example c_corinth
+
+# Settlements
+max_settlements = 6 # Should be reevaluated
+b_neapolis = castle
+b_cumae_neapolis = castle
+b_ischia_neapolis = city
+b_dicaearchia_neapolis = temple
+
+# Possible baronies: (Always add a # in front of a line with these!)
+#
+#
+#
+#
+
+# Misc
+culture = doric
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

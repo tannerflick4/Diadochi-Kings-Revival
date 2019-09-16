@@ -1,0 +1,39 @@
+# 121601-121700 fpr the Kalinga dynasty
+121601 = {
+	name = "Svami" # Made up
+	dynasty = 12119
+	religion = jainism_main
+	culture = telegu
+	381.1.1 = { # 395 BC
+		birth="yes"
+	}
+	457.1.1 = { # 319 BC
+		death="yes"
+	}
+}
+121602 = {
+	name = "Sundara" # Made up
+	dynasty = 12119
+	religion = jainism_main
+	culture = telegu
+	father = 121601
+	410.1.1 = { # 366 BC
+		birth="yes"
+	}
+	478.1.1 = { # 298 BC
+		death="yes"
+	}
+}
+121603 = {
+	name = "Simuka" # Made up
+	dynasty = 12119
+	religion = jainism_main
+	culture = telegu
+	father = 121602
+	434.1.1 = { # 342 BC
+		birth="yes"
+	}
+	520.1.1 = { # 256 BC
+		death="yes"
+	}
+}

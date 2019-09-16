@@ -1,0 +1,19 @@
+# 233 - Ardabil
+
+# County Title
+title = c_ardabil
+
+# Settlements
+max_settlements = 5
+b_ardabil_ardabil = castle
+b_piri_ardabil = temple
+b_charax_ardabil = city
+b_mishkinshahr_ardabil = castle
+b_cyropolis_ardabil = city
+
+# Misc
+culture = median
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

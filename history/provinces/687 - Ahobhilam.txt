@@ -1,0 +1,16 @@
+# 687 - Ahobhilam
+
+# County Title
+title = c_ahobhilam
+
+# Settlements
+max_settlements = 2
+b_ahobhilam_ahobhilam = castle
+b_kottis_ahobhilam = city
+
+# Misc
+culture = telegu
+religion = dravidian_main
+
+# History
+# Can be filled when things change around the province

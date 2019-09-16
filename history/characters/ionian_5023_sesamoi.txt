@@ -1,0 +1,13 @@
+# 51701-51800 for the Sesamoi dynasty
+51701 = {
+	name = "Eukleides" # Initial ruler of Sesamus, Made up
+	dynasty = 5023 # Sesamoi
+	religion = greek_main
+	culture = ionian
+	432.1.1 = { # Made up
+		birth="yes" # 344 BC
+	}
+	486.1.1 = { # Made up
+		death="yes" # 290 BC
+	}
+}

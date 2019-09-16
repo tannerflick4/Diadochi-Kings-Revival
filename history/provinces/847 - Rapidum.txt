@@ -1,0 +1,17 @@
+# 847 - Rapidum
+
+# County Title
+title = c_rapidum
+
+# Settlements
+max_settlements = 3
+b_rapidum_rapidum = castle
+b_auzia_rapidum = city
+b_tatilti_rapidum = castle
+
+# Misc
+culture = berber
+religion = berber_main
+
+# History
+# Can be filled when things change around the province

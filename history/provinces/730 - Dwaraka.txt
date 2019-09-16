@@ -1,0 +1,17 @@
+# 730 - Dwaraka
+
+# County Title
+title = c_dwaraka
+
+# Settlements
+max_settlements = 3
+b_dwaraka_dwaraka = castle 
+b_monoglosson_dwaraka = city
+b_astakapra_dwaraka = city
+
+# Misc
+culture = shauraseni
+religion = jainism_main
+
+# History
+# Can be filled when things change around the province

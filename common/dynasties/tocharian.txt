@@ -1,0 +1,158 @@
+# 37001-38000 for Tocharian characters
+
+37001 = {
+	name = "Kodinya"
+	culture = tocharian
+}
+37002 = {
+	name = "Subhadra"
+	culture = tocharian
+}
+37003 = {
+	name = "Peta-Avana"
+	culture = tocharian
+}
+37004 = {
+	name = "Kustana"
+	culture = tocharian
+}
+37005 = {
+	name = "Hvamna"
+	culture = tocharian
+}
+37006 = {
+	name = "Arivaga"
+	culture = tocharian
+}
+37007 = {
+	name = "Klasemci"
+	culture = tocharian
+}
+37008 = {
+	name = "Cuvalayina"
+	culture = tocharian
+}
+37009 = {
+	name = "Sothamga"
+	culture = tocharian
+}
+37010 = {
+	name = "Camkura"
+	culture = tocharian
+}
+37011 = {
+	name = "Nukamja"
+	culture = tocharian
+}
+37012 = {
+	name = "Cadota"
+	culture = tocharian
+}
+37013 = {
+	name = "Vasu"
+	culture = tocharian
+}
+37014 = {
+	name = "Ageta"
+	culture = tocharian
+}
+37015 = {
+	name = "Cozbo"
+	culture = tocharian
+}
+37016 = {
+	name = "Apsu"
+	culture = tocharian
+}
+37017 = {
+	name = "Karyottau"
+	culture = tocharian
+}
+37018 = {
+	name = "Po"
+	culture = tocharian
+}
+37019 = {
+	name = "Vrganicita"
+	culture = tocharian
+}
+37020 = {
+	name = "Calmadana"
+	culture = tocharian
+}
+37021 = {
+	name = "Pisalyi"
+	culture = tocharian
+}
+37022 = {
+	name = "Jitugha"
+	culture = tocharian
+}
+37023 = {
+	name = "Duki"
+	culture = tocharian
+}
+37024 = {
+	name = "Pisali"
+	culture = tocharian
+}
+37025 = {
+	name = "Visha"
+	culture = tocharian
+}
+37026 = {
+	name = "Hinaza"
+	culture = tocharian
+}
+37027 = {
+	name = "Gaysata"
+	culture = tocharian
+}
+37028 = {
+	name = "Ustaka"
+	culture = tocharian
+}
+37029 = {
+	name = "Birgamdara"
+	culture = tocharian
+}
+37030 = {
+	name = "Phamnaa"
+	culture = tocharian
+}
+37031 = {
+	name = "Ca"
+	culture = tocharian
+}
+37032 = {
+	name = "Yuttina"
+	culture = tocharian
+}
+37033 = {
+	name = "Karyortane"
+	culture = tocharian
+}
+37034 = {
+	name = "Guzdi"
+	culture = tocharian
+}
+37035 = {
+	name = "Kroraina"
+	culture = tocharian
+}
+37036 = {
+	name = "Yarkhoto"
+	culture = tocharian
+}
+37037 = {
+	name = "Hinaysa"
+	culture = tocharian
+}
+37038 = {
+	name = "Kushana"
+	culture = tocharian
+}
+37039 = {
+	name = "Abdali"
+	culture = tocharian
+}

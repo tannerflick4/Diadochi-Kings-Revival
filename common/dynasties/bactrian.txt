@@ -1,0 +1,5 @@
+# 10001-11000 for bactrian dynasties
+10001 = {
+	name = "Oxyartes"
+	culture = bactrian
+}

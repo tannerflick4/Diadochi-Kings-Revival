@@ -1,0 +1,13 @@
+# 330701-330800 for the Pissyri dynasty
+330701 = {
+	name = "Akrosander" # Made up
+	dynasty = 33008 # Pissyri / Dahae
+	religion = zoroastrian_main
+	culture = scythian
+	395.1.1 = { # 381 BC
+		birth="yes"
+	}
+	449.1.1 = { # 327 BC
+		death="yes"
+	}
+}

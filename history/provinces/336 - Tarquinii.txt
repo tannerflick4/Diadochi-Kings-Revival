@@ -1,0 +1,24 @@
+# 336 - Tarquinii
+
+# County Title
+title = c_tarquinii # for example c_corinth
+
+# Settlements
+max_settlements = 6 # Should be reevaluated
+b_tarquinii_tarquinii = castle
+b_tuscania_tarquinii = temple
+b_blera_tarquinii = city
+b_punicum_tarquinii = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+#
+#
+#
+#
+
+# Misc
+culture = etruscan
+religion = etruscan_main
+
+# History
+# Can be filled when things change around the province

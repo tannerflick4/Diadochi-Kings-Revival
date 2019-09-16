@@ -1,0 +1,17 @@
+# 572 - Sautaska
+
+# County Title
+title = c_sautaska
+
+# Settlements
+max_settlements = 3
+b_sautaska_sautaska = castle
+b_askaca_sautaska = city
+b_abragasti_sautaska = temple
+
+# Misc
+culture = chorasmian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

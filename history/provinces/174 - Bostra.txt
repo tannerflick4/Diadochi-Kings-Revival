@@ -1,0 +1,22 @@
+# 174 - Bostra
+
+# County Title
+title = c_bostra
+
+# Settlements
+max_settlements = 6
+b_bostra_bostra = castle
+b_dionysias_bostra = temple
+b_canatha_bostra = city
+b_sounoa_bostra = castle
+b_adraha_bostra = temple
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_philippopolis_bostra 
+
+# Misc
+culture = nabataean
+religion = arabic_main
+
+# History
+# Can be filled when things change around the province

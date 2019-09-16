@@ -1,0 +1,39 @@
+# 120801-120900 for the Chera dynasty
+120801 = {
+	name = "Parthivachudamani" # Made up
+	dynasty = 12137
+	religion = hinduism_main
+	culture = tamil
+	393.1.1 = { # 383 BC
+		birth="yes"
+	}
+	454.1.1 = { # 322 BC
+		death="yes"
+	}
+}
+120802 = {
+	name = "Palaik" # made up
+	dynasty = 12137
+	religion = hinduism_main
+	culture = tamil
+	father = 120801
+	421.1.1 = { # 355 BC
+		birth="yes"
+	}
+	488.1.1 = { # 288 BC
+		death="yes"
+	}
+}
+120803 = {
+	name = "Perumpoot" # Made up
+	dynasty = 12137
+	religion = hinduism_main
+	culture = tamil
+	father = 120802
+	444.1.1 = { # 332 BC
+		birth="yes"
+	}
+	523.1.1 = { # 253 BC
+		death="yes"
+	}
+}

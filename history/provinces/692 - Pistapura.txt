@@ -1,0 +1,16 @@
+# 692 - Pistapura
+
+# County Title
+title = c_pistapura
+
+# Settlements
+max_settlements = 2
+b_pistapura_pistapura = castle
+b_rajanagari_pistapura = city
+
+# Misc
+culture = telegu
+religion = dravidian_main
+
+# History
+# Can be filled when things change around the province

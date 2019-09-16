@@ -1,0 +1,9 @@
+413.1.1 = { # 363 BC
+	holding_dynasty = 5048 # Kyrenoi
+	holder = 54201 # Hieronymos
+	liege = d_r_cyrene
+}
+454.1.1 = { # Ophellas and the Ptolemies take over
+	holder = 0
+	liege = 0
+}

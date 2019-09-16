@@ -1,0 +1,13 @@
+# 300001-300101 for the Gangrani dynasty
+300001 = {
+	name = "Mutallu" # Ruler of Gangra, made up
+	dynasty = 30001
+	religion = anatolian_main
+	culture = luwian
+	433.1.1 = { # Made up
+		birth="yes" # 343 BC
+	}
+	497.1.1 = { # Made up
+		death="yes" # 279 BC
+	}
+}

@@ -1,0 +1,39 @@
+# 330501-330600 for the Thyssagetae dynasty
+330501 = {
+	name = "Azes" # Made up
+	dynasty = 33006 # Thyssagetai
+	religion = scythian_main
+	culture = scythian
+	father = 330503
+	428.1.1 = { # 348 BC
+		birth="yes"
+	}
+	482.1.1 = { # 294 BC
+		death="yes"
+	}
+}
+330502 = {
+	name = "Sariakos" # Made up
+	dynasty = 33006 # Thyssagetai
+	religion = scythian_main
+	culture = scythian
+	father = 330501
+	448.1.1 = { # 328 BC
+		birth="yes"
+	}
+	516.1.1 = { # 260 BC
+		death="yes"
+	}
+}
+330503 = {
+	name = "Scylurus" # Made up
+	dynasty = 33006 # Thyssagetai
+	religion = scythian_main
+	culture = scythian
+	399.1.1 = { # 377 BC
+		birth="yes"
+	}
+	448.1.1 = { # 328 BC
+		death="yes"
+	}
+}

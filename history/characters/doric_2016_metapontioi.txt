@@ -1,0 +1,26 @@
+# 21501-21600 for the Metapontioi dynasty
+21501 = {
+	name = "Hyakinthos" # Tarentum
+	dynasty = 2016 # Metapontioi
+	religion = greek_main
+	culture = doric
+	400.1.1 = { # 376 BC Made up
+		birth="yes"
+	}
+	466.1.1 = { # 310 BC Made up
+		death="yes"
+	}
+}
+21502 = {
+	name = "Agapetos" # Tarentum
+	dynasty = 2016 # Metapontioi
+	religion = greek_main
+	culture = doric
+	father = 21501
+	430.1.1 = { # 346 BC Made up
+		birth="yes"
+	}
+	503.1.1 = { # 273 BC Made up
+		death="yes"
+	}
+}

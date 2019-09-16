@@ -1,0 +1,50 @@
+# 270001-2709010 for the Troglodytae dynasty
+270001 = {
+	name = "Cotiso" # Made up
+	dynasty = 27001 # Troglodytae
+	culture = dacian
+	religion = zalmoxism
+	father = 270004
+	394.1.1 = { # 382 BC, Made up
+		birth="yes"
+	}
+	474.1.1 = { # 300 BC, Made up
+		death="yes"
+	}
+}
+270002 = {
+	name = "Bastiza" # Made up
+	dynasty = 27001 # Troglodytae
+	culture = dacian
+	religion = zalmoxism
+	418.1.1 = { # Made up
+		birth="yes" # 358 BC
+	}
+	492.1.1 = { # Made up
+		death="yes" # 284 BC
+	}
+}
+270003 = {
+	name = "Dapyg" # Made up
+	dynasty = 27001
+	culture = dacian
+	religion = zalmoxism
+	445.1.1 = { # Made up
+		birth="yes" # 331 BC
+	}
+	526.1.1 = { # Made up
+		death="yes" # 250 BC
+	}
+}
+270004 = {
+	name = "Komakiza" # Made up
+	dynasty = 27001 # Troglodytae
+	culture = dacian
+	religion = zalmoxism
+	368.1.1 = {
+		birth="yes" # 408 BC Made Up
+	}
+	427.1.1 = {
+		death="yes" # 349 BC Made Up
+	}
+}

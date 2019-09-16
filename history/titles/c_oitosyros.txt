@@ -1,0 +1,10 @@
+417.1.1 = { # 359 BC
+	holder = 330503 # Scylurus
+	liege = k_gaumizda
+}
+448.1.1 = { # 328 BC
+	holder = 330501 # Azes
+}
+482.1.1 = { # 294 BC
+	holder = 330502 # Sariakos
+}

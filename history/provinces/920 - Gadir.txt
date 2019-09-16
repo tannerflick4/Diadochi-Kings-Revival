@@ -1,0 +1,20 @@
+# 920 - Gadir
+
+# County Title
+title = c_gadir
+
+# Settlements
+max_settlements = 6
+b_gadir_gadir = castle
+b_turirecina_gadir = city
+b_asido_gadir = castle
+b_mercablum_gadir = city
+b_ebora_gadir = city
+b_memestheus_gadir = temple
+
+# Misc
+culture = punic
+religion = punic_main
+
+# History
+# Can be filled when things change around the province

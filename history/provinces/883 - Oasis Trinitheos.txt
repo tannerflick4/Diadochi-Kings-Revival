@@ -1,0 +1,15 @@
+# 883 - Oasis Trinitheos
+
+# County Title
+title = c_oasis_trinitheos
+
+# Settlements
+max_settlements = 2
+b_trinitheos_trinitheos = castle
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

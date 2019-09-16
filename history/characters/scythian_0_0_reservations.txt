@@ -1,0 +1,10 @@
+# 330001-340000 for Scythian characters
+	# 330001-3306020 for the Parni dynasty
+	# 3306021-330200 for the Chorasmiai dynasty
+	# 330201-330300 for the Amyrgioi dynasty
+	# 330301-330400 for the Massagetae dynasty
+	# 330401-330500 for the Apasiakai dynasty
+	# 330501-330600 for the Thyssagetae dynasty
+	# 330601-330700 for the Tauroi dynasty
+	# 330701-330800 for the Pissyri dynasty
+	

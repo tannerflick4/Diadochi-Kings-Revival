@@ -1,0 +1,7 @@
+# 280001-290000 for Raetic characters
+	# 280001-280100 for the Vindelici dynasty
+	# 280101-280200 for the Lepontii dynasty
+	# 280201-280300 for the Isarci dynasty
+	# 280301-280400 for the Vennones dynasty
+	# 280401-280500 for the Venostes dynasty	
+	# 280501-280600 for the Catubrini dynasty	

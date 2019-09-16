@@ -1,0 +1,24 @@
+438.8.2 = { # 338 BC, Battle of Chaeronea
+	holder = 53302 # Demosthenes
+	liege = e_macedonia
+}
+441.1.1 = { # 335 BC
+	holder = 53402 # Lycurgus
+}
+453.1.1 = { # 323 BC
+	holder = 53403 # Habron
+}
+453.6.10 = { # 323 BC
+	liege = k_s_macedon
+}
+459.7.1 = { # 317 BC
+	holder = 0
+	liege = 0
+}
+469.1.1 = { # 307 BC
+	holder = 53403 # Habron
+	liege = e_asia
+}
+491.1.1 = { # 285 BC
+	holder = 53503 # Zephyros, fictional
+}

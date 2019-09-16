@@ -1,0 +1,4 @@
+490.1.1 = { # 286 BC
+	holder = 120305 # Vitashoka
+	liege = e_india
+}

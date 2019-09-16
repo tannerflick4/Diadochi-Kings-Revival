@@ -1,0 +1,18 @@
+# 916 - Lastigi
+
+# County Title
+title = c_lastigi
+
+# Settlements
+max_settlements = 4
+b_lastigi_lastigi = castle
+#b_italica_lastigi = city
+#b_laelia_lastigi = castle
+b_paisoula_lastigi = castle
+
+# Misc
+culture = old_tartessian
+religion = iberian_main
+
+# History
+# Can be filled when things change around the province

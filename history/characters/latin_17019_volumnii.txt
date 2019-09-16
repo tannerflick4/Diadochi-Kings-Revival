@@ -1,0 +1,16 @@
+# 171801-171900 for the Volumnii dynasty
+171801 = {
+	name = "Lucius" # Volumnius Flamma Violens
+	dynasty = 17019 # Volumnii
+	religion = roman_main
+	culture = latin
+	
+	add_trait = tough_soldier
+	
+	436.1.1 = { # 340 BC Made up
+		birth="yes"
+	}
+	503.1.1 = { # 273 BC Made up
+		death="yes"
+	}
+}

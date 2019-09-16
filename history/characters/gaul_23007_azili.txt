@@ -1,0 +1,39 @@
+# 230501-230600 for the Azili dynasty
+230501 = {
+	name = "Intudiomaros" # Azili leader, made up
+	dynasty = 23007 # Azili
+	culture = gaul
+	religion = celtic_main
+	father = 230503
+	420.1.1 = {
+		birth="yes"
+	}
+	455.1.1 = {
+		death="yes"
+	}
+}
+230502 = {
+	name = "Tasgetius" # Azili Made up
+	dynasty = 23007 # Azili
+	culture = gaul
+	religion = celtic_main
+	father = 230501
+	437.1.1 = { # 339 BC
+		birth="yes"
+	}
+	499.1.1 = { # 277 BC
+		death="yes"
+	}
+}
+230503 = {
+	name = "Divico" # Azili leader, made up
+	dynasty = 23007 # Azili
+	culture = gaul
+	religion = celtic_main
+	395.1.1 = { # 381 BC
+		birth="yes"
+	}
+	441.1.1 = { # 335 BC
+		death="yes"
+	}
+}

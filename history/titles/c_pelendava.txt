@@ -1,0 +1,13 @@
+394.1.1 = { # 382 BC
+	liege="d_getae"
+	holder = 270304 # Bikilis
+}
+440.1.1 = { # 336 BC
+	holder = 270303 # Tiati
+}
+451.1.1 = { # 325 BC
+	holder = 270301 # Zyraxes
+}
+465.1.1 = { # 311 BC
+	holder = 270302 # Vezina
+}

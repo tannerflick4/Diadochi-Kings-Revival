@@ -1,0 +1,23 @@
+417.1.1 = {
+	holder = 80003 # Orontes
+	liege = k_p_armenia
+}
+432.1.1 = {
+	holder = 90314 # Darius III of Persia
+}
+440.1.1 = {
+	holder = 80004 # Orontes, son of the other Orontes
+}
+445.10.1 = {
+	holder = 80001 # Mithrenes
+}
+446.1.1 = { # 331 BC
+	holder = 80101 # Arkha, Made up
+	liege = 0
+}
+455.1.1 = { # 321 BC
+	liege = k_armenia
+}
+483.1.1 = { # 293 BC
+	holder = 80002 # Orontes III
+}

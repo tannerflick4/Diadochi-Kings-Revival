@@ -1,0 +1,52 @@
+# 51401-51500 for the Pharoi dynasty
+51401 = {
+	name = "Eukleides" # Ruler of Pharos, Made up
+	dynasty = 5020 # Pharoi
+	religion = greek_main
+	culture = ionian
+	father = 51402
+	380.1.1 = { # 396 BC, Made up
+		birth="yes"
+	}
+	471.1.1 = { # 305 BC
+		death="yes"
+	}
+}
+51402 = {
+	name = "Taurosthenes" # Ruler of Pharos, Made up
+	dynasty = 5020 # Pharoi
+	religion = greek_main
+	culture = ionian
+	357.1.1 = { # 419 BC, Made up
+		birth="yes"
+	}
+	426.1.1 = { # 350 BC
+		death="yes"
+	}
+}
+51403 = {
+	name = "Eukleides" # Ruler of Pharos, Made up
+	dynasty = 5020 # Pharoi
+	religion = greek_main
+	culture = ionian
+	father = 51401
+	422.1.1 = { # 354 BC, Made up
+		birth="yes"
+	}
+	496.1.1 = { # 280 BC
+		death="yes"
+	}
+}
+51404 = {
+	name = "Gennadios" # Ruler of Pharos, Made up
+	dynasty = 5020 # Pharoi
+	religion = greek_main
+	culture = ionian
+	father = 51403
+	445.1.1 = { # 331 BC, Made up
+		birth="yes"
+	}
+	506.1.1 = { # 270 BC
+		death="yes"
+	}
+}

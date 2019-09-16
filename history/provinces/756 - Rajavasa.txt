@@ -1,0 +1,16 @@
+# 756 - Rajavasa
+
+# County Title
+title = c_rajavasa
+
+# Settlements
+max_settlements = 2
+b_rajavasa_rajavasa = castle
+b_anantanaga_rajavasa = city
+
+# Misc
+culture = gandhari
+religion = buddhism_main
+
+# History
+# Can be filled when things change around the province

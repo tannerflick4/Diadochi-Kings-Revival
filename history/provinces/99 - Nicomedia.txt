@@ -1,0 +1,22 @@
+# 99 - Nicomedia
+
+# County Title
+title = c_nicomedia # for example c_corinth
+
+# Settlements
+max_settlements = 6
+b_astacus_nicomedia = castle
+b_chalcedon_nicomedia = city
+b_agyronion_nicomedia = temple
+b_sirkanos_nicomedia = castle
+b_kalasyrta_nicomedia = temple
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_nicomedia_nicomedia
+
+# Misc
+culture = doric
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

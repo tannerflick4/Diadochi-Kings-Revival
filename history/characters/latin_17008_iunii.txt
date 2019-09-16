@@ -1,0 +1,17 @@
+# 170701-170800 for the Iunii dynasty
+170701 = {
+	name = "Gaius" # Iunius Bubulcus Brutus
+	dynasty = 17008 # Iunii
+	religion = roman_main
+	culture = latin
+	
+	add_trait = zealous
+	add_trait = tough_soldier
+	
+	423.1.1 = { # 353 BC Made up
+		birth="yes"
+	}
+	477.1.1 = { # 299 BC Made up
+		death="yes"
+	}
+}

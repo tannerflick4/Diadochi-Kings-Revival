@@ -1,0 +1,9 @@
+410.1.1 = { # 366 BC
+	holder = 80203 # Aramu
+}
+453.1.1 = { # 323 BC
+	holder = 80201 # Sarduri
+}
+483.1.1 = { # 293 BC
+	holder = 80202 # Tigran
+}

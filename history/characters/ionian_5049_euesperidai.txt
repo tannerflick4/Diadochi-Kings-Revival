@@ -1,0 +1,26 @@
+# 54301-54400 for the Euesperidai dynasty
+54301 = {
+	name = "Kleisthenes" # Cyrene, Made Up
+	dynasty = 5049 # Euesperidai
+	religion = greek_main
+	culture = ionian
+	385.1.1 = {
+		birth="yes" # 391 BC Made Up
+	}
+	447.1.1 = {
+		death="yes" # 329 BC Made Up
+	}
+}
+54302 = {
+	name = "Eirenaios" # Cyrene, Made Up
+	dynasty = 5049 # Euesperidai
+	religion = greek_main
+	culture = ionian
+	father = 54301
+	421.1.1 = {
+		birth="yes" # 355 BC Made Up
+	}
+	494.1.1 = {
+		death="yes" # 282 BC Made Up
+	}
+}

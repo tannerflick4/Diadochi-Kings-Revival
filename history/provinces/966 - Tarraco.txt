@@ -1,0 +1,16 @@
+# 966 - Tarraco
+
+# County Title
+title = c_tarraco
+
+# Settlements
+max_settlements = 2
+b_tarraco_tarraco = castle
+b_kesse_tarraco = castle
+
+# Misc
+culture = iberian
+religion = iberian_main
+
+# History
+# Can be filled when things change around the province

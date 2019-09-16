@@ -1,0 +1,20 @@
+# 223 - Mtskheta
+
+# County Title
+title = c_mtskheta
+
+# Settlements
+max_settlements = 6
+b_mtskheta_mtskheta = castle
+b_zalissa_mtskheta = temple
+b_seusamora_mtskheta = city
+b_tli_mtskheta = castle
+b_caspia_mtskheta = city
+b_cumania_mtskheta = castle
+
+# Misc
+culture = georgian
+religion = georgian_main
+
+# History
+# Can be filled when things change around the province

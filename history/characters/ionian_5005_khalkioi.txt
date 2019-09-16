@@ -1,0 +1,39 @@
+# 50401-50500 for the Khalkioi dynasty
+50401 = {
+	name = "Drakon" # Tyras
+	dynasty = 5005 # Khalkioi
+	religion = greek_main
+	culture = ionian
+	father = 50403
+	411.1.1 = { # 365 BC Made up
+		birth="yes"
+	}
+	482.1.1 = { # 294 BC Made up
+		death="yes"
+	}
+}
+50402 = {
+	name = "Neophytos" # Tyras
+	dynasty = 5005 # Khalkioi
+	religion = greek_main
+	culture = ionian
+	father = 50401
+	444.1.1 = { # 332 BC Made up
+		birth="yes"
+	}
+	512.1.1 = { # 264 BC Made up
+		death="yes"
+	}
+}
+50403 = {
+	name = "Epaphros" # Tyras
+	dynasty = 5005 # Khalkioi
+	religion = greek_main
+	culture = ionian
+	375.1.1 = {
+		birth="yes" # 401 BC Made Up
+	}
+	438.1.1 = {
+		death="yes" # 338 BC Made Up
+	}
+}

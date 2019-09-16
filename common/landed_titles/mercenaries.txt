@@ -1,0 +1,243 @@
+d_mamertines = {
+	color = { 130 173 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0.33
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = d_mamertines_composition
+}
+d_cretan = {
+	color= { 130 173 70 }
+	color2= { 255 255 255 }
+	
+	capital = 8 # Kydonia
+	
+	religion = greek_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0.33
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = d_cretan_composition
+}
+d_greek_cav = {
+	color= { 130 173 70 }
+	color2= { 255 255 255 }
+	
+	capital = 20 # Delphi
+	
+	religion = greek_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0.33
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = d_greek_cav_composition
+}
+d_thracian_cav = {
+	color= { 130 173 70 }
+	color2= { 255 255 255 }
+	
+	capital = 40 # Orestias/Edirne
+	
+	religion = thracian_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0.33
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = d_thracian_cav_composition
+}
+d_thracian_peltasts = {
+	color= { 130 173 70 }
+	color2= { 255 255 255 }
+	
+	capital = 40 # Orestias/Edirne
+	
+	religion = thracian_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0.33
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = d_thracian_peltasts_composition
+}
+d_pontic_spearmen = {
+	color= { 130 173 70 }
+	color2= { 255 255 255 }
+	
+	capital = 56 # Phanagoria
+	
+	religion = greek_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0.33
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = d_pontic_spearmen_composition
+}
+d_carian_warband = {
+	color= { 130 173 70 }
+	color2= { 255 255 255 }
+	
+	capital = 89 # Alabanda
+	
+	religion = anatolian_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0.33
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = d_carian_warband_composition
+}
+d_greek_skirmishers = {
+	color= { 130 173 70 }
+	color2= { 255 255 255 }
+	
+	capital = 26 # Olympia
+	
+	religion = greek_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0.33
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = d_greek_skirmishers_composition
+}
+d_greek_pikemen = {
+	color= { 130 173 70 }
+	color2= { 255 255 255 }
+	
+	capital = 4 # Andros
+	
+	religion = greek_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0.33
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = d_greek_pikemen_composition
+}

@@ -1,0 +1,16 @@
+# 777 - Visnapuri
+
+# County Title
+title = c_visnapuri
+
+# Settlements
+max_settlements = 2
+b_visnapuri_visnapuri = castle
+b_valmika_visnapuri = castle
+
+# Misc
+culture = maharashtri
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

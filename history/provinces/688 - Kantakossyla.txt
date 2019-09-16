@@ -1,0 +1,16 @@
+# 688 - Kantakossyla
+
+# County Title
+title = c_kantakossyla
+
+# Settlements
+max_settlements = 2
+b_kantakossyla_kantakossyla = castle
+b_pitoura_kantakossyla = castle
+
+# Misc
+culture = telegu
+religion = dravidian_main
+
+# History
+# Can be filled when things change around the province

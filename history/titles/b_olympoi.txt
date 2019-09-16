@@ -1,0 +1,9 @@
+439.1.1 = { # 337 BC
+	holding_dynasty = 2005
+	liege="k_r_syracuse"
+	holder = 20401
+}
+459.1.1 = { # End of 'democracy' in Syracuse
+	liege = 0
+	holder = 0
+}

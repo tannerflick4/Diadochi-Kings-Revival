@@ -1,0 +1,25 @@
+# 170401-170500 for the Poetelii dynasty
+170401 = {
+	name = "Gaius" # Poetelius Libo Visolus
+	dynasty = 17005 # Poetelii
+	religion = roman_main
+	culture = latin
+	423.1.1 = { # 353 BC Made up
+		birth="yes"
+	}
+	473.1.1 = { # 303 BC Made up
+		death="yes"
+	}
+}
+170402 = {
+	name = "Marcus" # Poetelius Libo
+	dynasty = 17005 # Poetelii
+	religion = roman_main
+	culture = latin
+	423.1.1 = { # 353 BC Made up
+		birth="yes"
+	}
+	473.1.1 = { # 303 BC Made up
+		death="yes"
+	}
+}

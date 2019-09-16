@@ -1,0 +1,26 @@
+# 22601-22700 for the Kerkyroi dynasty
+22601 = {
+	name = "Prokopios" # Ruler of Corfu, Made up
+	dynasty = 2027 # Kerkyroi
+	religion = greek_main
+	culture = doric
+	father = 22602
+	425.1.1 = { # Made up
+		birth="yes" # 353 BC
+	}
+	490.1.1 = { # Made up
+		death="yes" # 286 BC
+	}
+}
+22602 = {
+	name = "Euphranor" # Ruler of Corfu, Made up
+	dynasty = 2027 # Kerkyroi
+	religion = greek_main
+	culture = doric
+	386.1.1 = { # 390 BC
+		birth="yes"
+	}
+	443.1.1 = { # 333 BC
+		death="yes" 
+	}
+}

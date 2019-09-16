@@ -1,0 +1,18 @@
+# 671 - Syanantapur
+
+# County Title
+title = c_syanantapur
+
+# Settlements
+max_settlements = 4
+b_syanantapur_syanantapur = castle
+b_agastyakuta_syanantapur = temple
+b_balita_syanantapur = city
+b_elankoros_syanantapur = city
+
+# Misc
+culture = tamil
+religion = jainism_main
+
+# History
+# Can be filled when things change around the province

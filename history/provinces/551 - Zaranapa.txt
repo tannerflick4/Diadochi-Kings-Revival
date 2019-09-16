@@ -1,0 +1,15 @@
+# 551 - Zaranapa
+
+# County Title
+title = c_zaranapa
+
+# Settlements
+max_settlements = 1
+b_zaranapa_zaranapa = castle
+
+# Misc
+culture = scythian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

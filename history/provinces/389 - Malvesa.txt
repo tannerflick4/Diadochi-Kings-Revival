@@ -1,0 +1,20 @@
+# 389 - Malvesa
+
+# County Title
+title = c_malvesa
+
+# Settlements
+max_settlements = 4
+b_malvesa_malvesa = castle
+b_domavium_malvesa = city
+b_salinae_malvesa = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_risa_malvesa
+
+# Misc
+culture = illyrian
+religion = illyrian_main
+
+# History
+# Can be filled when things change around the province

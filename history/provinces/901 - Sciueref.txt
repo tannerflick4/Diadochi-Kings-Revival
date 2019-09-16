@@ -1,0 +1,17 @@
+# 901 - Sciueref
+
+# County Title
+title = c_sciueref
+
+# Settlements
+max_settlements = 3
+b_sciueref_sciueref = castle
+b_shergia_sciueref = city
+b_garbia_sciueref = city
+
+# Misc
+culture = berber
+religion = berber_main
+
+# History
+# Can be filled when things change around the province

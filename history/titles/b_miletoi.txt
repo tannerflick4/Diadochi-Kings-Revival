@@ -1,0 +1,8 @@
+407.1.1 = { # 369 BC
+	holding_dynasty = 5006 # Miletioi
+	liege="k_r_tyras"
+	holder = 50501
+}
+455.1.1 = { # 321 BC
+	holder = 50502 # Iason
+}

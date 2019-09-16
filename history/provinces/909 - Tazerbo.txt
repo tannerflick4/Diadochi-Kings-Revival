@@ -1,0 +1,15 @@
+# 909 - Tazerbo
+
+# County Title
+title = c_tazerbo
+
+# Settlements
+max_settlements = 1
+b_tazerbo_tazerbo = castle
+
+# Misc
+culture = berber
+religion = berber_main
+
+# History
+# Can be filled when things change around the province

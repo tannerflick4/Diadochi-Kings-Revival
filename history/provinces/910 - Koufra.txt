@@ -1,0 +1,16 @@
+# 910 - Koufra
+
+# County Title
+title = c_koufra
+
+# Settlements
+max_settlements = 2
+b_koufra_koufra = castle
+b_buma_koufra = castle
+
+# Misc
+culture = berber
+religion = berber_main
+
+# History
+# Can be filled when things change around the province

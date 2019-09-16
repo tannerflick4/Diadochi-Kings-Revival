@@ -1,0 +1,16 @@
+# 614 - Banubalapa
+
+# County Title
+title = c_banubalapa
+
+# Settlements
+max_settlements = 2
+b_banubalapa_banubalapa = castle
+b_chivayabrata_banubalapa = city
+
+# Misc
+culture = scythian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

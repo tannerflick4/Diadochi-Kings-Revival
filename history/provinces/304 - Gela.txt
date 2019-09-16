@@ -1,0 +1,24 @@
+# 304 - Gela
+
+# County Title
+title = c_gela # for example c_corinth
+
+# Settlements
+max_settlements = 6 # Should be reevaluated
+b_gela = castle
+b_camarina_gela = castle
+b_casmenai_gela = city
+
+# Possible baronies: (Always add a # in front of a line with these!)
+#
+#
+#
+#
+
+# Misc
+culture = doric
+religion = greek_main
+
+# History
+439.1.1 = { b_gela = city } # 337 BC
+459.1.1 = { b_gela = castle } # 317 BC

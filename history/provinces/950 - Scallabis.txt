@@ -1,0 +1,19 @@
+# 950 - Scallabis
+
+# County Title
+title = c_scallabis
+
+# Settlements
+max_settlements = 4
+b_scallabis_scallabis = castle
+b_sellium_scallabis = city
+b_londobris_scallabis = city
+#b_cos_scallabis = castle
+
+
+# Misc
+culture = celtiberian
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,26 @@
+# 50701-50800 for the Propontioi dynasty
+50701 = {
+	name = "Nikandros" # Tyras
+	dynasty = 5008 # Propontioi
+	religion = greek_main
+	culture = ionian
+	399.1.1 = { # 377 BC Made up
+		birth="yes"
+	}
+	469.1.1 = { # 307 BC Made up
+		death="yes"
+	}
+}
+50702 = {
+	name = "Ariston" # Tyras
+	dynasty = 5008 # Propontioi
+	religion = greek_main
+	culture = ionian
+	father = 50701
+	427.1.1 = { # 349 BC Made up
+		birth="yes"
+	}
+	497.1.1 = { # 279 BC Made up
+		death="yes"
+	}
+}

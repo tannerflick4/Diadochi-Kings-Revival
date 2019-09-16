@@ -1,0 +1,17 @@
+# 258 - Bam
+
+# County Title
+title = c_bam
+
+# Settlements
+max_settlements = 3
+b_bam_bam = castle
+b_caumata_bam = temple
+b_paradana_bam = city
+
+# Misc
+culture = persian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

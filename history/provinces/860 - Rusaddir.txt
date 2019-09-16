@@ -1,0 +1,15 @@
+# 860 - Rusaddir
+
+# County Title
+title = c_rusaddir
+
+# Settlements
+max_settlements = 2
+b_minka_rusaddir = city
+b_rusaddir_rusaddir = castle
+
+# Misc
+culture = punic
+religion = punic_main
+
+# History

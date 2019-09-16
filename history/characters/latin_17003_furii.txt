@@ -1,0 +1,25 @@
+# 170201-170300 for the Furii dynasty
+170201 = {
+	name = "Lucius" # Furius Camillus
+	dynasty = 17003 # Furii
+	religion = roman_main
+	culture = latin
+	423.1.1 = { # 353 BC Made up
+		birth="yes"
+	}
+	473.1.1 = { # 303 BC Made up
+		death="yes"
+	}
+}
+170202 = {
+	name = "Lucius" # Furius Camillus
+	dynasty = 17003 # Furii
+	religion = roman_main
+	culture = latin
+	366.1.1 = { # 410 BC Made Up
+		birth="yes"
+	}
+	459.1.1 = { # 317 BC Made Up
+		death="yes"
+	}
+}

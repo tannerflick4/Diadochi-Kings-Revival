@@ -1,0 +1,18 @@
+# 886 - Shule
+
+# County Title
+title = c_shule
+
+# Settlements
+max_settlements = 4
+
+b_shule_shule = castle # Kashgar
+b_weitou_shule = city
+b_gumo_wensu = temple
+b_wensu_shule = city
+
+culture = khotanese
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

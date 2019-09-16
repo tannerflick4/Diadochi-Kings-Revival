@@ -1,0 +1,14 @@
+# 400001-400100 for the Turdetani dynasty
+400001 = {
+	name = "Gargoris" # Made up Turdetani leader
+	dynasty = 40001
+	culture = turdetanian
+	religion = iberian_main
+	
+	390.1.1 = { # 386 BC, Made up
+		birth="yes"
+	}
+	466.1.1 = { # 310 BC
+		death="yes"
+	}
+}

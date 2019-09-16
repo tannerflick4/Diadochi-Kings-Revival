@@ -1,0 +1,13 @@
+start_date = 417.4.1 # Philip II starts his reign
+last_start_date = 495.8.1
+end_date = 1252.1.1 # 476, End of Antiquity
+character = {	
+	16	#_CHDEF_AGE_OF_ADULTHOOD_ 	
+	45	#_CHDEF_MAX_CHILD_BIRTH_AGE_
+	3	#_CHDEF_CHILD_BIRTH_TO_PREGNANCY_WAIT_ (months)
+	2 	#_CHDEF_BASE_NR_OF_CHILDREN_PER_COUPLE_ ( The number of children allowed per couple )
+	30	#_CHDEF_COURT_SIZE_CHILD_PENALTY_THRESHOLD_ ( When the total number of characters in a country is above this, one less child will be allowed per UNLANDED couple )
+}
+diplomacy = {}
+economy = {}
+military = {}

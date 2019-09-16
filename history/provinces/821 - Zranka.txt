@@ -1,0 +1,18 @@
+# 821 - Zranka
+
+# County Title
+title = c_zranka
+
+# Settlements
+max_settlements = 4
+b_zranka_zranka = castle
+b_rhambacia_zranka = city
+b_euergetarum_zranka = city
+b_hariaspa_zranka = city
+
+# Misc
+culture = arian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

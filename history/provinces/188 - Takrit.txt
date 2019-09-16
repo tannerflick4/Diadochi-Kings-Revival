@@ -1,0 +1,17 @@
+# 188 - Takrit
+
+# County Title
+title = c_takrit
+
+# Settlements
+max_settlements = 3
+b_takrit_takrit = castle
+b_dura_takrit = temple
+b_samarra_takrit = city
+
+# Misc
+culture = aramaic
+religion = marduk_cult
+
+# History
+# Can be filled when things change around the province

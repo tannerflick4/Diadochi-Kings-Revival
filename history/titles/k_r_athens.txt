@@ -1,0 +1,12 @@
+410.1.1 = { # 366 BC
+	holder = 53102 # Hyperides
+}
+421.1.1 = { # 355 BC
+	holder = 53501 # Eubulus
+}
+434.1.1 = { # 342 BC
+	holder = 53302 # Demosthenes
+}
+438.8.2 = { # 338 BC, Battle of Chaeronea
+	holder = 0
+}

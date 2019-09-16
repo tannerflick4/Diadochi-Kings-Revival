@@ -1,0 +1,15 @@
+# 564 - Satapada
+
+# County Title
+title = c_satapada
+
+# Settlements
+max_settlements = 1
+b_satapada_satapada = castle
+
+# Misc
+culture = scythian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

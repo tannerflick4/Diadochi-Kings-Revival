@@ -1,0 +1,14 @@
+# 55001-55100 for the Amastrioi dynasty	
+55001 = {
+	name = "Eumenes" # Tyrant of Amastris, later surrendered the city to Pontus
+	dynasty = 5056
+	culture = ionian
+	religion = greek_main
+	
+	464.1.1 = { # 312 BC, Made up
+		birth="yes"
+	}
+	532.1.1 = { # 244 BC, Made up
+		death="yes"
+	}
+}

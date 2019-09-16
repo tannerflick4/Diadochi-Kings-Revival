@@ -1,0 +1,18 @@
+# 420 - Eturamina
+
+# County Title
+title = c_eturamina
+
+# Settlements
+max_settlements = 4
+b_eturamina_eturamina = castle
+b_griselica_eturamina = city
+b_sanitium_eturamina = castle
+b_salinae_eturamina = castle
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

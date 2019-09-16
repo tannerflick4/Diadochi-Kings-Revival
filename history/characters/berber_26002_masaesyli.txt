@@ -1,0 +1,39 @@
+# 260101-260200 for the Masaesyli dynasty
+260101 = { # Made up
+	name = "Stembanos"
+	dynasty = 26002 # Masaesyli
+	religion = berber_main
+	culture = berber
+	father = 260103
+	416.1.1 = { # 360 BC
+		birth="yes"
+	}
+	471.1.1 = { # 305 BC
+		death="yes"
+	}
+}
+260102 = {
+	name = "Iaphtenus" # Masaesyli, Made up
+	dynasty = 26002 # Masaesyli
+	religion = berber_main
+	culture = berber
+	father = 260101
+	444.1.1 = { # 332 BC
+		birth="yes"
+	}
+	500.1.1 = { # 276 BC
+		death="yes"
+	}
+}
+260103 = { # Made up
+	name = "Igerus"
+	dynasty = 26002 # Masaesyli
+	religion = berber_main
+	culture = berber
+	381.1.1 = {
+		birth="yes" # 395 BC Made Up
+	}
+	436.1.1 = { 
+		death="yes" # 340 BC Made Up
+	}
+}

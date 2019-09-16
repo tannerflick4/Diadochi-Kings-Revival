@@ -1,0 +1,45 @@
+# 70001-70100 for the Parnavazi dynasty
+70001 = {
+	name = "Parnavazi"
+	dynasty = 7001 # Parnavazi
+	religion = georgian_main
+	culture = georgian
+	father = 70002
+	
+	add_trait = skilled_tactician
+	
+	450.1.1 = {
+		birth="yes" # 326 BC
+	}
+	540.1.1 = {
+		death="yes" # 236 BC
+	}
+}
+70002 = {
+	name = "Uplos"
+	dynasty = 7001 # Parnavazi
+	religion = georgian_main
+	culture = georgian
+	father = 70003
+	413.1.1 = {
+		birth="yes" # 363 BC Made Up
+	}
+	451.1.1 = { # 325 BC Made Up
+		death = {
+			death_reason = death_murder
+			killer = 70101 # Azo
+		}
+	}
+}
+70003 = {
+	name = "Mtskhetos"
+	dynasty = 7001 # Parnavazi
+	religion = georgian_main
+	culture = georgian
+	377.1.1 = {
+		birth="yes" # 399 BC Made Up
+	}
+	435.1.1 = {
+		death="yes" # 341 BC Made Up
+	}
+}

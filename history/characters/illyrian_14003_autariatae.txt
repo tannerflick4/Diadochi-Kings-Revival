@@ -1,0 +1,39 @@
+# 140201-140300 for the Autariatae dynasty
+140201 = {
+	name = "Pleurias" # King of Autariatae, Made up
+	dynasty = 14003 # Autariatae
+	religion = illyrian_main
+	culture = illyrian
+	father = 140203
+	421.1.1 = { # 355 BC Made up
+		birth="yes"
+	}
+	471.1.1 = { # 305 BC Made up
+		death="yes"
+	}
+}
+140202 = {
+	name = "Opis" # Autariate Made up
+	dynasty = 14003 # Autariatae
+	religion = illyrian_main
+	culture = illyrian
+	father = 140201
+	452.1.1 = { # 324 BC
+		birth="yes"
+	}
+	511.1.1 = { # 265 BC
+		death="yes"
+	}
+}
+140203 = {
+	name = "Ionios" # King of Autaritae, Made up
+	dynasty = 14003 # Autariatae
+	religion = illyrian_main
+	culture = illyrian
+	389.1.1 = {
+		birth="yes" # 387 BC
+	}
+	449.1.1 = {
+		death="yes" # 327 BC
+	}
+}

@@ -1,0 +1,10 @@
+# 90001-100000 for persian characters
+	# 90001-90100 for the Aturpat dynasty
+	# 90101-90200 for the Phrataphernes dynasty
+	# 90201-90300 for the Artabazus dynasty
+	# 90301-90400 for the Achaemenid dynasty
+	# 90401-90500 for the Arminai dynasty
+	# 90501-90600 for the Sabaces dynasty
+	# 90601-90700 for the Mazaces dynasty
+	# 90701-90800 for the Barsaentes dynasty
+	# 90801-90900 for the Bagadata dynasty

@@ -1,0 +1,18 @@
+# 833 - Pappa
+
+# County Title
+title = c_pappa
+
+# Settlements
+max_settlements = 4
+b_pappa_pappa = castle
+b_anaboura_pappa = city
+#b_neapolis_pappa = city
+#b_antiocheia_pappa = castle
+
+# Misc
+culture = luwian
+religion = anatolian_main
+
+# History
+# Can be filled when things change around the province

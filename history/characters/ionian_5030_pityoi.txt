@@ -1,0 +1,39 @@
+# 52401-52500 for the Pityoi dynasty
+52401 = {
+	name = "Nikephoros" # Pityous, Made up
+	dynasty = 5030 # Pityoi
+	religion = greek_main
+	culture = ionian
+	father = 52403
+	428.1.1 = {
+		birth="yes" # 348 BC, Made up
+	}
+	481.1.1 = {
+		death="yes" # 295 BC, Made up
+	}
+}
+52402 = {
+	name = "Theodoros" # Pityous, Made up
+	dynasty = 5030
+	religion = greek_main
+	culture = ionian
+	father = 52401
+	467.1.1 = {
+		birth="yes" # 309 BC, Made up
+	}
+	518.1.1 = {
+		death="yes" # 258 BC, Made up
+	}
+}
+52403 = {
+	name = "Nikandros" # Pityous, Made up
+	dynasty = 5030
+	religion = greek_main
+	culture = ionian
+	382.1.1 = {
+		birth="yes" # 394 BC
+	}
+	447.1.1 = {
+		death="yes" # 329 BC
+	}
+}

@@ -1,0 +1,14 @@
+# 390301-390400 for the Layetani dynasty
+390301 = {
+	name = "Biurtan" # Made up Cassetani leader
+	dynasty = 39004
+	culture = iberian
+	religion = iberian_main
+	
+	393.1.1 = { # 383 BC, Made up
+		birth="yes"
+	}
+	468.1.1 = { # 308 BC
+		death="yes"
+	}
+}

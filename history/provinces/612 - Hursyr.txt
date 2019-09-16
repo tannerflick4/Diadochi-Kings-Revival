@@ -1,0 +1,16 @@
+# 612 - Hursyr
+
+# County Title
+title = c_hursyr
+
+# Settlements
+max_settlements = 2
+b_hursyr_hursyr = castle
+b_brinpasu_hursyr = city
+
+# Misc
+culture = scythian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

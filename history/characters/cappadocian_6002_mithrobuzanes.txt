@@ -1,0 +1,15 @@
+# 60101-60200 for the Mithrobuzanes dynasty
+60101 = {
+	name = "Mithrobuzanes" # Achaemenid satrap of Cappadocia
+	dynasty = 6002 # Mithrobuzanes
+	religion = anatolian_main
+	culture = cappadocian
+	372.1.1 = { # 404 BC made up
+		birth="yes"
+	}
+	442.1.1 = { # 334 BC
+		death = {
+			death_reason = death_battle
+		}
+	}
+}

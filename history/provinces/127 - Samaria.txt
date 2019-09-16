@@ -1,0 +1,19 @@
+# 127 - Samaria
+
+# County Title
+title = c_samaria
+
+# Settlements
+max_settlements = 5
+b_samaria_samaria = castle
+b_geth_samaria = temple
+b_roob_samaria = city
+b_sepphoris_samaria = castle
+b_narbata_samaria = castle
+
+# Misc
+culture = israelite
+religion = judaism_main
+
+# History
+# Can be filled when things change around the province

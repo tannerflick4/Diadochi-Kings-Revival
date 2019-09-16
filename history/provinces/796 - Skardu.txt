@@ -1,0 +1,15 @@
+# 796 - Skardu
+
+# County Title
+title = c_skardu
+
+# Settlements
+max_settlements = 1
+b_skardu_skardu = castle
+
+# Misc
+culture = gandhari
+religion = buddhism_main
+
+# History
+# Can be filled when things change around the province

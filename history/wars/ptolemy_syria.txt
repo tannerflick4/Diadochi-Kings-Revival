@@ -1,0 +1,17 @@
+name = "Ptolemy's invasion of Syria"
+
+casus_belli = {
+	actor = 601 # Ptolemy
+	recipient = 30101 # Laomedon, Satrap of Syria
+	casus_belli = diadochi_king_cb
+	landed_title = k_syria
+	date = 455.1.1 # 321 BC
+}
+455.1.1 = { # 321 BC	
+	add_attacker = 601 # Ptolemy
+	add_defender = 30101 # Laomedon, Satrap of Syria
+}
+456.1.1 = { # 320 BC	
+	rem_attacker = 601 # Ptolemy
+	rem_defender = 30101 # Laomedon, Satrap of Syria
+}

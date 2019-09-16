@@ -1,0 +1,8 @@
+421.1.1 = { # 355 BC
+	holding_dynasty = 2021
+	liege="d_r_rhodes"
+	holder = 22001
+}
+459.1.1 = {
+	holder = 22002
+}

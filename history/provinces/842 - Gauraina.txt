@@ -1,0 +1,18 @@
+# 842 - Gauraina
+
+# County Title
+title = c_gauraina
+
+# Settlements
+max_settlements = 4
+b_gauraina_gauraina = castle
+b_taranta_gauraina = city
+b_euspena_gauraina = castle
+b_dalanda_gauraina = city
+
+# Misc
+culture = cappadocian
+religion = anatolian_main
+
+# History
+# Can be filled when things change around the province

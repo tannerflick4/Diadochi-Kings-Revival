@@ -1,0 +1,7 @@
+# 29001-30000 for Nubian dynasties
+
+29001 = {
+	name = "Napata"
+	culture = nubian
+}
+29002 = { 	name = "Kashta" culture = nubian}

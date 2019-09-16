@@ -1,0 +1,10 @@
+# 390001-400000 for Iberian characters -- Split
+	# 390001-390100 for the Indiketes dynasty
+	# 390101-390200 for the Laketanoi dynasty
+	# 390201-390300 for the Kassetanoi dynasty
+	# 390301-390400 for the Laietanoi dynasty
+	# 390401-390500 for the Ilerkauones dynasty
+	# 390501-390600 for the Edetanoi dynasty
+	# 390601-390700 for the Kontestanoi dynasty
+	# 390701-390800 for the Bastetanoi dynasty
+	# 390801-390900 for the Ilergetai dynasty

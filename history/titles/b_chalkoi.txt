@@ -1,0 +1,11 @@
+411.1.1 = { # 365 BC	
+	holding_dynasty = 5005 # Khalkioi
+	liege="k_r_tyras"
+	holder = 50403 # Epaphros
+}
+438.1.1 = { # 338 BC
+	holder = 50401
+}
+482.1.1 = { # 296 BC
+	holder = 50402 # Neophytos
+}

@@ -1,0 +1,52 @@
+# 54601-54700 for the Azaroi dynasty
+54601 = {
+	name = "Tremison" # Azara, Made Up
+	dynasty = 5052 # Azaroi
+	religion = greek_main
+	culture = ionian
+	377.1.1 = {
+		birth="yes" # 399 BC
+	}
+	453.1.1 = {
+		death="yes" # 323 BC
+	}
+}
+54602 = {
+	name = "Eutropios" # Azara, Made Up
+	dynasty = 5052 # Azaroi
+	religion = greek_main
+	culture = ionian
+	father = 54601
+	408.1.1 = {
+		birth="yes" # 368 BC
+	}
+	475.1.1 = {
+		death="yes" # 301 BC
+	}
+}
+54603 = {
+	name = "Pelagios" # Azara, Made Up
+	dynasty = 5052 # Azaroi
+	religion = greek_main
+	culture = ionian
+	father = 54602
+	435.1.1 = {
+		birth="yes" # 341 BC
+	}
+	497.1.1 = {
+		death="yes" # 279 BC
+	}
+}
+54604 = {
+	name = "Euripides" # Azara, Made Up
+	dynasty = 5052 # Azaroi
+	religion = greek_main
+	culture = ionian
+	father = 54603
+	458.1.1 = {
+		birth="yes" # 318 BC
+	}
+	523.1.1 = {
+		death="yes" # 253 BC
+	}
+}

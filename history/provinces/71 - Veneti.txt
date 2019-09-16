@@ -1,0 +1,20 @@
+# 71 - Veneti
+
+# County Title
+title = c_veneti # for example c_corinth
+
+# Settlements
+max_settlements = 4
+b_tergeste_veneti = castle
+b_pola_veneti = city
+b_albona_veneti = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_parentium_veneti
+
+# Misc
+culture = venetic
+religion = illyrian_main
+
+# History
+# Can be filled when things change around the province

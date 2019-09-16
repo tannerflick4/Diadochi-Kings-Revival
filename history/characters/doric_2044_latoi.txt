@@ -1,0 +1,16 @@
+# 24301-24400 for the Latoi dynasty
+24301 = {
+	name = "Nearkhos" # Alexandrian admiral
+	dynasty = 2044 # Latoi
+	religion = greek_main
+	culture = doric
+	
+	add_trait = diligent
+	
+	416.1.1 = { # 360 BC
+		birth="yes"
+	}
+	476.1.1 = { # 300 BC
+		death="yes"
+	}
+}

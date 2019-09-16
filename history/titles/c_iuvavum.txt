@@ -1,0 +1,9 @@
+399.1.1 = { # 377 BC
+	holder = 231601 # Ambisontes
+}
+446.1.1 = { # 330 BC
+	holder = 231602 # Ambisontes
+}
+471.1.1 = { # 305 BC
+	holder = 231603 # Ambisontes
+}

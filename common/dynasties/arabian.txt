@@ -1,0 +1,29 @@
+# 32001-33000 for Arabian dynasties
+32001 = {
+	name = "Banubari"
+	culture = arabic
+}
+32002 = {
+	name = "Saraceni"
+	culture = arabic
+}
+32003 = {
+	name = "Yitha"
+	culture = arabic
+}
+32004 = {
+	name = "Watar"
+	culture = arabic
+}
+32005 = {
+	name = "Timnaam"
+	culture = arabic
+}
+32006 = {
+	name = "Omani"
+	culture = arabic
+}
+32007 = {
+	name = "Leantini" 
+	culture = arabic
+}

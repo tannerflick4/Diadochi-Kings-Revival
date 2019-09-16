@@ -1,0 +1,15 @@
+# 579 - Abragaru
+
+# County Title
+title = c_abragaru
+
+# Settlements
+max_settlements = 1
+b_abragaru_abragaru = castle
+
+# Misc
+culture = chorasmian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

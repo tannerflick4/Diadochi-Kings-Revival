@@ -1,0 +1,17 @@
+# 285 - Automula
+
+# County Title
+title = c_automula
+
+# Settlements
+max_settlements = 3
+b_saraswatapura_automula = castle
+b_raivata_automula = temple
+b_automula_automula = castle
+
+# Misc
+culture = shauraseni
+religion = jainism_main
+
+# History
+# Can be filled when things change around the province

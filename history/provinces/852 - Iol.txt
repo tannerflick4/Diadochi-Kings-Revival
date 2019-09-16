@@ -1,0 +1,17 @@
+# 852 - Iol
+
+# County Title
+title = c_iol
+
+# Settlements
+max_settlements = 4
+b_tipasa_iol = city
+b_iol_iol = castle
+b_elephantaria_iol = temple
+b_calventi_iol = city
+
+# Misc
+culture = punic
+religion = punic_main
+
+# History

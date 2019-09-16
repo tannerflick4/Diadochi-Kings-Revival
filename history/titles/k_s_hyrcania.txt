@@ -1,0 +1,14 @@
+446.1.1 = { # 330 BC
+	holder = 1301 # Tlepolemos
+	liege="e_macedonia"
+}
+453.6.10 = {
+	holder = 90101 # Phrataphernes
+}
+454.1.1 = {
+	holder = 1401 # Philip of Sogdiana
+}
+460.1.1 = {
+	holder = 0
+	liege = 0
+}

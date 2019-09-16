@@ -1,0 +1,23 @@
+# 30 - Ilium
+
+# County Title
+title = c_ilium # for example c_corinth
+
+# Settlements
+max_settlements = 5 # Should be reevaluated
+b_ilium_ilium = castle
+b_dodona_ilium = temple
+b_torone_ilium = city
+b_paramythia_ilium = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_elina_ilium
+# b_klimatia_ilium
+# b_passaron_ilium
+
+# Misc
+culture = doric
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

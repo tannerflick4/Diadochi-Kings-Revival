@@ -1,0 +1,88 @@
+# 80001-80100 for the Yervanduni dynasty
+80001 = {
+	name = "Mihran" # King of Armenia
+	dynasty = 8001 # Yervanduni
+	religion = armenian_main
+	culture = armenian
+	father = 80004
+	409.1.1 = { # Made up
+		birth="yes" # 367 BC
+	}
+	459.1.1 = {
+		death="yes" # 317 BC
+	}
+}
+80002 = {
+	name = "Yervand" # Orontes III
+	dynasty = 8001 # Yervanduni
+	religion = armenian_main
+	culture = armenian
+	father = 80001
+	435.1.1 = { # Made up
+		birth="yes" # 341 BC
+	}
+	516.1.1 = { # 260 BC
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+80003 = {
+	name = "Yervand" # Orontid/Achaemenid Satrap of Armenia
+	dynasty = 8001 # Yervanduni
+	religion = armenian_main
+	culture = armenian
+	
+	add_trait = content # He was loyal to the Persians, to a degree
+	add_trait = greedy # He became rich
+	
+	352.1.1 = { # 424 BC made up
+		birth="yes"
+	}
+	432.1.1 = { # 344 BC
+		death="yes"
+	}
+}
+80004 = {
+	name = "Yervand" # Orontid/Achaemenid Satrap of Armenia, son of 80003, father of 80001
+	dynasty = 8001 # Yervanduni
+	religion = armenian_main
+	culture = armenian
+	father = 80003
+	387.1.1 = { # 390 BC made up
+		birth="yes"
+	}
+	445.10.1 = { # 331 BC
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+80005 = {
+	name = "Shamash" # Sames, son of Orontes III
+	dynasty = 8001 # Yervanduni
+	religion = armenian_main
+	culture = armenian
+	father = 80002
+	462.1.1 = { # 315 BC made up
+		birth="yes"
+	}
+	516.1.1 = { # 260 BC
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+80006 = {
+	name = "Arshama" # Arsames I, son of Sames
+	dynasty = 8001 # Yervanduni
+	religion = armenian_main
+	culture = armenian
+	father = 80005
+	487.1.1 = { # 290 BC made up
+		birth="yes"
+	}
+	538.1.1 = { # 228 BC
+		death="yes"
+	}
+}

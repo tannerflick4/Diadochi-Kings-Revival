@@ -1,0 +1,16 @@
+# 523 - Paradatapa
+
+# County Title
+title = c_paradatapa
+
+# Settlements
+max_settlements = 2
+b_paradatapa_paradatapa = castle
+b_hurmizda_paradatapa = city
+
+# Misc
+culture = sarmatian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

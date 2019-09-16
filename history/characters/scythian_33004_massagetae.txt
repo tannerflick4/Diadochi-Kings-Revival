@@ -1,0 +1,26 @@
+# 330301-330400 for the Massagetae dynasty
+330301 = {
+	name = "Skunxa" # Made up
+	dynasty = 33004 # Massagetai
+	religion = scythian_main
+	culture = scythian
+	father = 330302
+	420.1.1 = { # 356 BC
+		birth="yes"
+	}
+	496.1.1 = { # 280 BC
+		death="yes"
+	}
+}
+330302 = {
+	name = "Kanites" # Made up
+	dynasty = 33004 # Massagetai
+	religion = scythian_main
+	culture = scythian
+	395.1.1 = { # 381 BC
+		birth="yes"
+	}
+	454.1.1 = { # 322 BC
+		death="yes"
+	}
+}

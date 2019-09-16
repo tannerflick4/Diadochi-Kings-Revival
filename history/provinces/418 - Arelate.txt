@@ -1,0 +1,18 @@
+# 418 - Arelate
+
+# County Title
+title = c_arelate
+
+# Settlements
+max_settlements = 4
+b_arelate_arelate = castle
+b_rhodanousia_arelate = city
+b_tarusco_arelate = city
+b_ugenum_arelate = castle
+
+# Misc
+culture = punic
+religion = canaanite_main
+
+# History
+# Can be filled when things change around the province

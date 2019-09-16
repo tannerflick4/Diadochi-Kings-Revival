@@ -1,0 +1,14 @@
+# 390201-390300 for the Cassetani dynasty
+390201 = {
+	name = "Urcebas" # Made up Cassetani leader
+	dynasty = 39003
+	culture = iberian
+	religion = iberian_main
+	
+	391.1.1 = { # 385 BC, Made up
+		birth="yes"
+	}
+	468.1.1 = { # 308 BC
+		death="yes"
+	}
+}

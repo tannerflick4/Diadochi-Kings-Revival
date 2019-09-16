@@ -1,0 +1,16 @@
+# 450 - Thomala
+
+# County Title
+title = c_thomala
+
+# Settlements
+max_settlements = 2
+b_thomala_thomala = castle
+b_zaabram_thomala = city
+
+# Misc
+culture = arabic
+religion = arabic_main
+
+# History
+# Can be filled when things change around the province

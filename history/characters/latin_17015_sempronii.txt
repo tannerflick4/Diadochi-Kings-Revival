@@ -1,0 +1,13 @@
+# 171401-171500 for the Sempronii dynasty
+171401 = {
+	name = "Publius" # Sempronius Sophus
+	dynasty = 17015 # Sempronii
+	religion = roman_main
+	culture = latin
+	443.1.1 = { # 333 BC Made up
+		birth="yes"
+	}
+	509.1.1 = { # 267 BC Made up
+		death="yes"
+	}
+}

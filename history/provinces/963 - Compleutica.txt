@@ -1,0 +1,18 @@
+# 963 - Compleutica
+
+# County Title
+title = c_compleutica
+
+# Settlements
+max_settlements = 4
+b_compleutica_compleutica = castle
+b_veniatia_compleutica = city
+#b_civitas_baniensum_compleutica = city
+#b_civitas_zoelarum_compleutica = city
+
+# Misc
+culture = celtiberian
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

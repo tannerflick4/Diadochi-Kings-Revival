@@ -1,0 +1,18 @@
+# 581 - Khiva
+
+# County Title
+title = c_khiva
+
+# Settlements
+max_settlements = 4
+b_khiva_khiva = castle
+b_boradvara_khiva = castle
+b_frisco_khiva = temple
+b_kutili_khiva = temple
+
+# Misc
+culture = chorasmian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

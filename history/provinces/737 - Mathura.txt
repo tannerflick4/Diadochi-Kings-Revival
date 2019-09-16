@@ -1,0 +1,17 @@
+# 737 - Mathura
+
+# County Title
+title = c_mathura
+
+# Settlements
+max_settlements = 3
+b_mathura_mathura = castle
+b_batankaisara_mathura = city
+b_yamaprastha_mathura = city
+
+# Misc
+culture = shauraseni
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

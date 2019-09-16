@@ -1,0 +1,29 @@
+# 633 - Crenides
+
+# County Title
+title = c_crenides
+
+# Settlements
+max_settlements = 4
+b_crenides_crenides = castle
+b_tripolis_crenides = city
+b_domeros_crenides = city
+b_ciropolis_crenides = castle
+
+# b_philippi_crenides = castle
+
+# Misc
+culture = thracian
+religion = thracian_main
+
+# History
+# Can be filled when things change around the province
+420.1.1 = { # 356 BC, Philip founds Philippi
+	#name = "Philippoi"
+	# ^ Doesn't seem to work properly. It assumes the name even before 420
+	b_philippi_crenides = castle
+	remove_settlement = b_crenides_crenides
+	capital = b_philippi_crenides
+	culture = macedonian
+	religion = greek_main
+}

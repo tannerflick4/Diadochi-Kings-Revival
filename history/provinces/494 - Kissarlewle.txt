@@ -1,0 +1,17 @@
+# 494 - Kissarlewle
+
+# County Title
+title = c_kissarlewle
+
+# Settlements
+max_settlements = 3
+b_kissarlewle_kissarlewle = castle
+b_iaca_kissarlewle = city
+b_mabaga_kissarlewle = temple
+
+# Misc
+culture = sarmatian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

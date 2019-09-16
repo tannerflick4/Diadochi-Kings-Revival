@@ -1,0 +1,42 @@
+# 140201-140200 for the Taulantii dynasty
+140101 = {
+	name = "Glaucias" # King of Taulanti
+	dynasty = 14002 # Taulantii
+	religion = illyrian_main
+	culture = illyrian
+	father = 140103
+	
+	add_trait = kind
+		
+	431.1.1 = { # 360 BC
+		birth="yes"
+	}
+	474.1.1 = { # 302 BC
+		death="yes"
+	}
+}
+140102 = {
+	name = "Grabos" # King of Taulantii
+	dynasty = 14002 # Taulantii
+	religion = illyrian_main
+	culture = illyrian
+	375.1.1 = { # 401 BC, Made up
+		birth="yes" 
+	}
+	420.1.1 = { # 356 BC
+		death="yes"
+	}
+}
+140103 = {
+	name = "Pleuratus" # King of Taulantii
+	dynasty = 14002 # Taulantii
+	religion = illyrian_main
+	culture = illyrian
+	father = 140102
+	397.1.1 = { # 379 BC, Made up
+		birth="yes"
+	}
+	441.1.1 = { # 335 BC
+		death="yes"
+	}
+}

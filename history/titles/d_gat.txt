@@ -1,0 +1,9 @@
+391.1.1 = { # 385 BC
+	holder = 260901 # Sammerus
+}
+445.1.1 = { # 331 BC
+	holder = 260902 # Uzza
+}
+456.1.1 = { # 320 BC
+	holder = 260903 # Tabathus
+}

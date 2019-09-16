@@ -1,0 +1,15 @@
+# 783 - Mirzapur
+
+# County Title
+title = c_mirzapur
+
+# Settlements
+max_settlements = 1
+b_mirzapur_mirzapur = castle
+
+# Misc
+culture = maharashtri
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

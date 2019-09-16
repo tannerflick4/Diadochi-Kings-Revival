@@ -1,0 +1,19 @@
+# 719 - Pataliputra
+
+# County Title
+title = c_pataliputra
+
+# Settlements
+max_settlements = 5
+b_pataliputra_pataliputra = castle
+b_rajagriha_pataliputra = castle
+b_girivraja_pataliputra = city
+b_kakouthis_pataliputra = castle
+b_dosara_pataliputra = city
+
+# Misc
+culture = vedic # Magadhi
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

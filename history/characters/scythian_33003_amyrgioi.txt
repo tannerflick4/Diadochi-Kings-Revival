@@ -1,0 +1,26 @@
+# 330201-330300 for the Amyrgioi dynasty
+330201 = {
+	name = "Kanites" # Made up
+	dynasty = 33003 # Amyrgioi
+	religion = zoroastrian_main
+	culture = scythian
+	father = 330202
+	430.1.1 = { # 346 BC
+		birth="yes"
+	}
+	502.1.1 = { # 274 BC
+		death="yes"
+	}
+}
+330202 = {
+	name = "Protothyes" # Made up
+	dynasty = 33003 # Amyrgioi
+	religion = zoroastrian_main
+	culture = scythian
+	398.1.1 = { # 378 BC
+		birth="yes"
+	}
+	451.1.1 = { # 325 BC
+		death="yes"
+	}
+}

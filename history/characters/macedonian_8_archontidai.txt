@@ -1,0 +1,18 @@
+# 701-800 for the Archontidai dynasty
+701 = {
+	name = "Archon" # Archon, Satrap of Babylon
+	dynasty = 8 # Archontidai
+	religion = greek_main
+	culture = macedonian
+	429.1.1 = {
+		birth="yes" # 347 BC, Made up. Archon is first mentioned in Alexanders campaign in India
+	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	455.1.1 = {
+		death = {
+			death_reason = death_battle # Died in battle against Dokimos in 321 BC
+		}
+	}
+}

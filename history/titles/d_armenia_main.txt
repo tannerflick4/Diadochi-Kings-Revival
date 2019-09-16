@@ -1,0 +1,10 @@
+453.6.10 = {
+	holder = 80001 # King of Armenia
+	liege = k_s_armenia
+}
+455.1.1 = {
+	liege = k_armenia
+}
+459.1.1 = {
+	holder = 80002 # Orontes III
+}

@@ -1,0 +1,58 @@
+# 53101-53200 for the Hyperidai dynasty
+53101 = {
+	name = "Glaokippos" # Father of Hyperides
+	dynasty = 5037 # Hyperidai
+	religion = greek_main
+	culture = ionian
+	354.1.1 = { # Made up
+		birth="yes" # 422 BC
+	}
+	410.1.1 = { # Made up
+		death="yes" # 366 BC
+	}
+}
+53102 = {
+	name = "Hyperides" # Politician in Athens
+	dynasty = 5037 # Hyperidai
+	religion = greek_main
+	culture = ionian
+	father = 53101
+	
+	add_trait = gregarious
+	add_trait = martial_cleric
+	
+	386.1.1 = {
+		birth="yes" # 390 BC
+	}
+	454.1.1 = { # 322 BC
+		death = {
+			death_reason = death_execution
+		}
+	}
+}
+53103 = {
+	name = "Athanasios" # Politician in Athens, Made up
+	dynasty = 5037 # Hyperidai
+	religion = greek_main
+	culture = ionian
+	father = 53102
+	421.1.1 = {
+		birth="yes" # 355 BC
+	}
+	497.1.1 = {
+		death="yes" # 279 BC
+	}
+}
+53104 = {
+	name = "Hyperides" # Politician in Athens, Made up
+	dynasty = 5037 # Hyperidai
+	religion = greek_main
+	culture = ionian
+	father = 53103
+	444.1.1 = {
+		birth="yes" # 332 BC
+	}
+	508.1.1 = {
+		death="yes" # 268 BC
+	}
+}

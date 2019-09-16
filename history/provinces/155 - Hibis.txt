@@ -1,0 +1,17 @@
+# 155 - Hibis
+
+# County Title
+title = c_hibis
+
+# Settlements
+max_settlements = 3
+b_hibis_hibis = castle
+b_parammon_hibis = temple
+b_tchonemyris_hibis = city
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,9 @@
+339.1.1 = { # 437 BC
+	holder = 120401 # Pandukabhaya
+}
+409.1.1 = { # 367 BC
+	holder = 120402 # Mutasiva
+}
+469.1.1 = { # 307 BC
+	holder = 120403 # Devanampiya Tiss
+}

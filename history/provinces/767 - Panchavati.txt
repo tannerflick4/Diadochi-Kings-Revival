@@ -1,0 +1,17 @@
+# 767 - Panchavati
+
+# County Title
+title = c_panchavati
+
+# Settlements
+max_settlements = 3
+b_panchavati_panchavati = castle
+b_lata_panchavati = temple
+b_tiagoura_panchavati = city
+
+# Misc
+culture = maharashtri
+religion = jainism_main
+
+# History
+# Can be filled when things change around the province

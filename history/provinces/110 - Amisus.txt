@@ -1,0 +1,19 @@
+# 110 - Amisus
+
+# County Title
+title = c_amisus # for example c_corinth
+
+# Settlements
+max_settlements = 5
+b_amisus_amisus = castle
+b_gadilon_amisus = temple
+b_eupatoria_amisus = city
+b_chadisia_amisus = castle
+b_ankon_amisus = castle
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

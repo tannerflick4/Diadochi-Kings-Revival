@@ -1,0 +1,6 @@
+455.1.1 = { # 321 BC
+	holder = 120301 # Chandragupta Maurya
+}
+478.1.1 = { # 298 BC
+	holder = 120302 # Bindusara Maurya
+}

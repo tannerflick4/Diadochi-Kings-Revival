@@ -1,0 +1,4 @@
+490.1.1 = { # 286 BC
+	holder = 120303 # Susima Maurya
+	liege = e_india
+}

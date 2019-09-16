@@ -1,0 +1,18 @@
+# 236 - Gaznik
+
+# County Title
+title = c_gaznik
+
+# Settlements
+max_settlements = 4
+b_gaznik_gaznik = castle
+b_ormi_gaznik = temple
+b_siraganon_gaznik = city
+b_salmas_gaznik = castle
+
+# Misc
+culture = armenian
+religion = armenian_main
+
+# History
+# Can be filled when things change around the province

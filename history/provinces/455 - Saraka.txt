@@ -1,0 +1,18 @@
+# 455 - Saraka
+
+# County Title
+title = c_saraka
+
+# Settlements
+max_settlements = 4
+b_saraka_saraka = castle
+b_save_saraka = castle
+b_meda_saraka = temple
+b_achoma_saraka = castle
+
+# Misc
+culture = arabic
+religion = arabic_main
+
+# History
+# Can be filled when things change around the province

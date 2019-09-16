@@ -1,0 +1,26 @@
+# 52101-52200 for the Pontioi dynasty
+52101 = {
+	name = "Theodoulos" # Ruler of Trapezous
+	dynasty = 5027 # Pontioi
+	religion = greek_main
+	culture = ionian
+	394.1.1 = { # Made up
+		birth="yes" # 382 BC
+	}
+	466.1.1 = { # Made up
+		death="yes" # 310 BC
+	}
+}
+52102 = {
+	name = "Hippokrates" # Ruler of Trapezous
+	dynasty = 5027
+	religion = greek_main
+	culture = ionian
+	father = 52101 
+	432.1.1 = { # Made up
+		birth="yes" # 344 BC
+	}
+	517.1.1 = { # Made up
+		death="yes" # 259 BC
+	}
+}

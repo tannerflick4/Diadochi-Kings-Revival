@@ -1,0 +1,33 @@
+417.1.1 = { # 359 BC
+	holder = 90323
+	liege = k_p_lydia
+}
+439.1.1 = { # 337 BC
+	holder = 130001 # Mithridates
+}
+442.1.1 = { # 334 BC
+	liege = e_persia
+}
+446.1.1 = { # 330 BC
+	liege = k_s_mysia
+}
+457.3.1 = { # 319 BC
+	liege = k_s_phrygia
+}
+467.1.1 = { # 309 BC
+	liege = e_asia
+}
+474.1.1 = { # 302 BC
+	holder = 401 # Antigonos after ousting the Mithridatids
+}
+475.1.1 = { # 301 BC
+	holder = 3301
+	liege = d_phrygia
+}
+495.2.1 = {
+	holder = 1001 # Seleukos
+	liege = e_syria
+}
+495.8.1 = {
+	holder = 1002 # Antiochos
+}

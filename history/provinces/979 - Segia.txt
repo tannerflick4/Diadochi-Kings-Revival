@@ -1,0 +1,16 @@
+# 979 - Segia
+
+# County Title
+title = c_segia
+
+# Settlements
+max_settlements = 2
+b_sekia_segia = castle
+b_iaka_segia = temple
+
+# Misc
+culture = aquitanian
+religion = aquitanian_main
+
+# History
+# Can be filled when things change around the province

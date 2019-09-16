@@ -1,0 +1,16 @@
+# 201-300 for the Menandridai dynasty
+201 = {
+	name = "Menandros" # Menander, Satrap of Lydia
+	dynasty = 3 # Menandridai
+	religion = greek_main
+	culture = macedonian	
+	411.1.1 = {
+		birth="yes" # 365 BC Made up
+	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	458.1.1 = {
+		death="yes" # 318 BC Made up. Menander is mentioned last attacking Eumenes after he escaped from Nora.
+	}
+}

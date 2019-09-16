@@ -1,0 +1,18 @@
+# 368 - Rusazus
+
+# County Title
+title = c_rusazus
+
+# Settlements
+max_settlements = 4
+b_saldae_rusazus = city
+b_rusazus_rusazus = castle
+b_bida_rusazus = castle
+b_rusippisir_rusazus = city
+
+# Misc
+culture = punic
+religion = punic_main
+
+# History
+# Can be filled when things change around the province

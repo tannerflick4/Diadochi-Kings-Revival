@@ -1,0 +1,20 @@
+# 373 - Zabi
+
+# County Title
+title = c_zabi
+
+# Settlements
+max_settlements = 4
+b_zabi_zabi = castle
+b_equizeto_zabi = city
+b_aras_zabi = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_lemellef_zabi = castle
+
+# Misc
+culture = berber
+religion = berber_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,18 @@
+# 263 - Chodda
+
+# County Title
+title = c_chodda
+
+# Settlements
+max_settlements = 4
+b_chodda_chodda = castle
+b_badara_chodda = temple
+b_cyiza_chodda = city
+b_mosarna_chodda = city
+
+# Misc
+culture = arian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

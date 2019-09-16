@@ -1,0 +1,26 @@
+# 52801-52900 for the Tanaioi dynasty
+52801 = {
+	name = "Basileios" # Tanais, Made up
+	dynasty = 5034 # Tanaioi
+	religion = greek_main
+	culture = ionian
+	444.1.1 = {
+		birth="yes" # 332 BC, Made up
+	}
+	497.1.1 = {
+		death="yes" # 279 BC, Made up
+	}
+}
+52802 = {
+	name = "Demosthenes" # Tanais, Made up
+	dynasty = 5034 # Tanaioi
+	religion = greek_main
+	culture = ionian
+	father = 52801 # Basileios
+	474.1.1 = {
+		birth="yes" # 302 BC, Made up
+	}
+	538.1.1 = {
+		death="yes" # 238 BC, Made up
+	}
+}

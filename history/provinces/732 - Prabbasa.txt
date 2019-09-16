@@ -1,0 +1,16 @@
+# 732 - Prabbasa
+
+# County Title
+title = c_prabbasa
+
+# Settlements
+max_settlements = 2
+b_prabbasa_prabbasa = castle
+b_ahirvati_prabbasa = castle
+
+# Misc
+culture = shauraseni
+religion = jainism_main
+
+# History
+# Can be filled when things change around the province

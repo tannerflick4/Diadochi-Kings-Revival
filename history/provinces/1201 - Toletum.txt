@@ -1,0 +1,18 @@
+# 1201 - Toletum
+
+# County Title
+title = c_toletum
+
+# Settlements
+max_settlements = 4
+b_toletum_toletum = castle
+b_consabura_toletum = city
+b_alce_toletum = temple
+#b_cumarius_toletum = castle
+
+# Misc
+culture = celtiberian
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

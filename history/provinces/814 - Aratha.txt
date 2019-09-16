@@ -1,0 +1,17 @@
+# 814 - Aratha
+
+# County Title
+title = c_aratha
+
+# Settlements
+max_settlements = 3
+b_aratha_aratha = castle
+b_ariaca_aratha = city
+b_maruca_aratha = castle
+
+# Misc
+culture = bactrian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

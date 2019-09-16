@@ -1,0 +1,9 @@
+412.1.1 = { # 364 BC
+	holder = 260103 # Igerus
+}
+436.1.1 = { # 340 BC
+	holder = 260101 # Stembanos of the Masaesyli
+}
+471.1.1 = { # 305 BC
+	holder = 260102 # Iaphtenus
+}

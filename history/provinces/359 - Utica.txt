@@ -1,0 +1,20 @@
+# 359 - Utica
+
+# County Title
+title = c_utica
+
+# Settlements
+max_settlements = 6
+b_rusicmona_utica = city
+b_utica_utica = castle
+b_ucres_utica = temple
+b_uzalis_utica = castle
+b_gunela_utica = city
+b_membrone_utica = city
+
+# Misc
+culture = punic
+religion = punic_main
+
+# History
+# Can be filled when things change around the province

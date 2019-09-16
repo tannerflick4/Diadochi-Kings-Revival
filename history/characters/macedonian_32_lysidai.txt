@@ -1,0 +1,14 @@
+# 3101-3200 for the Lysidai dynasty
+3101 = {
+	name = "Lysias" # Seleucid general turned into Anatolian dynast
+	dynasty = 32
+	culture = macedonian
+	religion = greek_main
+	
+	433.1.1 = { # 343 BC, Made up
+		birth="yes"
+	}
+	505.1.1 = { # 271 BC, Made up
+		death="yes"
+	}
+}

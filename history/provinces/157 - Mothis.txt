@@ -1,0 +1,18 @@
+# 157 - Mothis
+
+# County Title
+title = c_mothis
+
+# Settlements
+max_settlements = 4
+b_mothis_mothis = castle
+b_trimithis_mothis = temple
+b_kellis_mothis = city
+b_thenete_mothis = castle
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

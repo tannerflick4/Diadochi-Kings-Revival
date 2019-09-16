@@ -1,0 +1,17 @@
+# 717 - Navadwipa
+
+# County Title
+title = c_navadwipa
+
+# Settlements
+max_settlements = 3
+b_navadwipa_navadwipa = castle
+b_pertalis_navadwipa = city
+b_katadoupe_navadwipa = city
+
+# Misc
+culture = vedic # Magadhi
+religion = buddhism_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,14 @@
+# 390001-390100 for the Indiketes dynasty
+390001 = {
+	name = "Baisebilos" # Made up Indiketes leader
+	dynasty = 39001
+	culture = iberian
+	religion = iberian_main
+	
+	390.1.1 = { # 386 BC, Made up
+		birth="yes"
+	}
+	466.1.1 = { # 310 BC
+		death="yes"
+	}
+}

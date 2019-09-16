@@ -1,0 +1,16 @@
+# 495 - Scodizdaronma
+
+# County Title
+title = c_scodizdaronma
+
+# Settlements
+max_settlements = 2
+b_scodizdaronma_scodizdaronma = castle
+b_vadasca_scodizdaronma = castle
+
+# Misc
+culture = sarmatian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

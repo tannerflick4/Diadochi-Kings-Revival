@@ -1,0 +1,38 @@
+# 280301-280400 for the Vennones dynasty
+280301 = {
+	name = "Larce" # Made up
+	dynasty = 28004 # Vennones
+	religion = etruscan_main
+	culture = raetic
+	395.1.1 = {
+		birth="yes" # 381 BC
+	}
+	463.1.1 = {
+		death="yes" # 313 BC
+	}
+}
+280302 = {
+	name = "Sethre" # Made up
+	dynasty = 28004 # Vennones
+	religion = etruscan_main
+	culture = raetic
+	father = 280301
+	431.1.1 = {
+		birth="yes" # 345 BC
+	}
+	505.1.1 = {
+		death="yes" # 271 BC
+	}
+}
+280303 = {
+	name = "Lucie" # Made up
+	dynasty = 28004 # Vennones
+	religion = etruscan_main
+	culture = raetic
+	457.1.1 = {
+		birth="yes" # 319 BC
+	}
+	514.1.1 = {
+		death="yes" # 262 BC
+	}
+}

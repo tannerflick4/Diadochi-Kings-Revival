@@ -1,0 +1,27 @@
+# 420201-420300 for the Belli dynasty
+420201 = {
+	name = "Ablon" # Made up Belli leader
+	dynasty = 42003
+	culture = celtiberian
+	religion = celtic_main
+	
+	386.1.1 = { # 390 BC, Made up
+		birth="yes"
+	}
+	467.1.1 = { # 308 BC
+		death="yes"
+	}
+}
+420202 = {
+	name = "Lubbo" # Made up Belli leader
+	dynasty = 42003
+	culture = celtiberian
+	religion = celtic_main
+	
+	426.1.1 = { # 350 BC, Made up
+		birth="yes"
+	}
+	506.1.1 = { # 270 BC
+		death="yes"
+	}
+}

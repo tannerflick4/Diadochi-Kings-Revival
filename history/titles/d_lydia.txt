@@ -1,0 +1,4 @@
+475.1.1 = {
+	holder = 30002 # Agathokles
+	liege = k_odrysia
+}

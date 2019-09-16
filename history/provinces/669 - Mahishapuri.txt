@@ -1,0 +1,18 @@
+# 669 - Mahishapuri
+
+# County Title
+title = c_mahishapuri
+
+# Settlements
+max_settlements = 4
+b_mahishapuri_mahishapuri = castle
+b_brahmagiri_mahishapuri = temple
+b_kolwa_mahishapuri = city
+b_tyndis_mahishapuri = city
+
+# Misc
+culture = tamil
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

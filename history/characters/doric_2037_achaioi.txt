@@ -1,0 +1,52 @@
+# 23601-23700 for the Achaioi dynasty
+23601 = {
+	name = "Xenon" # Ruler of Achaia, Made up
+	dynasty = 2037 # Achaioi
+	religion = greek_main
+	culture = doric
+	387.1.1 = {
+		birth="yes" # 387 BC
+	}
+	429.1.1 = { 
+		death="yes" # 347 BC
+	}
+}
+23602 = {
+	name = "Diodoros" # Ruler of Achaia, Made up
+	dynasty = 2037 # Achaioi
+	religion = greek_main
+	culture = doric
+	father = 23601
+	406.1.1 = {
+		birth="yes" # 380 BC
+	}
+	453.1.1 = {
+		death="yes" # 323 BC
+	}
+}
+23603 = {
+	name = "Linos" # Ruler of Achaia, Made up
+	dynasty = 2037 # Achaioi
+	religion = greek_main
+	culture = doric
+	father = 23602
+	430.1.1 = {
+		birth="yes" # 346 BC
+	}
+	486.1.1 = {
+		death="yes" # 290 BC
+	}
+}
+23604 = {
+	name = "Nikandros" # Ruler of Achaia, Made up
+	dynasty = 2037 # Achaioi
+	religion = greek_main
+	culture = doric
+	father = 23603
+	451.1.1 = {
+		birth="yes" # 325 BC
+	}
+	507.1.1 = {
+		death="yes" # 269 BC
+	}
+}

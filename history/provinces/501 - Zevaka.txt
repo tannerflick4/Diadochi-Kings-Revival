@@ -1,0 +1,17 @@
+# 501 - Zevaka
+
+# County Title
+title = c_zevaka
+
+# Settlements
+max_settlements = 3
+b_zevaka_zevaka = castle
+b_api_zevaka = temple
+b_astaka_zevaka = city
+
+# Misc
+culture = sarmatian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

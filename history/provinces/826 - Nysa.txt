@@ -1,0 +1,19 @@
+# 826 - Nysa
+
+# County Title
+title = c_nysa
+
+# Settlements
+max_settlements = 5
+b_nysa_nysa = castle
+b_tralles_nysa = city
+b_anineta_nysa = castle
+b_kanoura_nysa = city
+#b_tripolis_nysa = city
+
+# Misc
+culture = luwian
+religion = anatolian_main
+
+# History
+# Can be filled when things change around the province

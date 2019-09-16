@@ -1,0 +1,25 @@
+# 2709011-2706020 for the Ablocenses dynasty
+2709011 = {
+	name = "Dabyg" # Made up
+	dynasty = 27002 # Albocenses
+	culture = dacian
+	religion = zalmoxism
+	404.1.1 = { # 372 BC, Made up
+		birth="yes"
+	}
+	464.1.1 = { # 312 BC, Made up
+		death="yes"
+	}
+}
+2709012 = {
+	name = "Scorylo" # Made up
+	dynasty = 27002
+	culture = dacian
+	religion = zalmoxism
+	434.1.1 = { # Made up
+		birth="yes" # 342 BC
+	}
+	504.1.1 = {
+		death="yes" # 272 BC
+	}
+}

@@ -1,0 +1,27 @@
+# 421401-421500 for the Cantabri dynasty
+421401 = {
+	name = "Botilkos" # Made up Cantabri leader
+	dynasty = 42015
+	culture = celtiberian
+	religion = celtic_main
+	
+	384.1.1 = { # 392 BC, Made up
+		birth="yes"
+	}
+	466.1.1 = { # 309 BC
+		death="yes"
+	}
+}
+421402 = {
+	name = "Touto" 
+	dynasty = 42015
+	culture = celtiberian
+	religion = celtic_main
+	
+	444.1.1 = { 
+		birth="yes"
+	}
+	524.1.1 = {
+		death="yes"
+	}
+}

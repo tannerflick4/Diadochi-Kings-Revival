@@ -1,0 +1,19 @@
+# 140 - Heliopolis
+
+# County Title
+title = c_heliopolis
+
+# Settlements
+max_settlements = 5
+b_heliopolis_heliopolis = castle
+b_athribis_heliopolis = temple
+b_letopolis_heliopolis = city
+b_kerkasoros_heliopolis = castle
+b_leontopolis_heliopolis = city
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

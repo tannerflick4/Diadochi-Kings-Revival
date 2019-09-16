@@ -1,0 +1,22 @@
+# 302 - Selinus
+
+# County Title
+title = c_selinus # for example c_corinth
+
+# Settlements
+max_settlements = 6 # Should be reevaluated
+b_selinus = castle
+b_heraclea_selinus = city
+
+# Possible baronies: (Always add a # in front of a line with these!)
+#
+#
+#
+#
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

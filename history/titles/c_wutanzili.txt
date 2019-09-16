@@ -1,0 +1,6 @@
+417.1.1 = { # 359 BC
+	holder = 370201 # Goboziko
+}
+468.1.1 = {
+	holder = 370202 # Tsina
+}

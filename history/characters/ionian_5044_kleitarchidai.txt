@@ -1,0 +1,13 @@
+# 53801-53900 for the Kleitarchidai dynasty
+53801 = {
+	name = "Kleitarchos" # Tyrant of Eretria
+	dynasty = 5044 # Kleitarchidai
+	religion = greek_main
+	culture = ionian
+	395.1.1 = { # Made up
+		birth="yes" # 381 BC
+	}
+	448.1.1 = { # Made up
+		death="yes" # 328 BC
+	}
+}

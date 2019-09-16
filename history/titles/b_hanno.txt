@@ -1,0 +1,17 @@
+413.1.1 = { # 363 BC
+	holding_dynasty = 25002 # Hanno
+	holder = 250104 # Hanno the Great
+	liege = k_carthage
+}
+436.1.1 = { # 340 BC
+	holder = 250104 # Hanno the Great
+}
+439.1.1 = { # 337 BC
+	holder = 250103 # Gisgo I
+}
+446.1.1 = { # 330 BC
+	holder = 250101 # Hamilcar II
+}
+467.1.1 = { # 309 BC
+	holder = 250102 # Bomilcar
+}

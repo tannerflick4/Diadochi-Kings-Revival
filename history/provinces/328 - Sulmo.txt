@@ -1,0 +1,24 @@
+# 328 - Sulmo
+
+# County Title
+title = c_sulmo # for example c_corinth
+
+# Settlements
+max_settlements = 6 # Should be reevaluated
+b_volana_sulmo = castle
+b_cutina_sulmo = temple
+b_teate_sulmo = city
+b_aufina_sulmo = city
+
+# Possible baronies: (Always add a # in front of a line with these!)
+#
+#
+#
+#
+
+# Misc
+culture = oscan
+religion = roman_main
+
+# History
+# Can be filled when things change around the province

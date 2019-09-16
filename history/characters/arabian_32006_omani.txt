@@ -1,0 +1,39 @@
+# 320501-330600 for the Omani dynasty
+320501 = {
+	name = "Wadal-L'el" # Majan, Made up
+	dynasty = 32006 # Omani
+	culture = arabic
+	religion = arabic_main
+	400.1.1 = {
+		birth="yes" # 376 BC, Made up
+	}
+	461.1.1 = {
+		death="yes" # 315 BC, Made up
+	}
+}
+320502 = {
+	name = "Cain" # Majan, Made up
+	dynasty = 32006 # Omani
+	culture = arabic
+	religion = arabic_main
+	father = 320501
+	432.1.1 = {
+		birth="yes" # 344 BC, Made up
+	}
+	487.1.1 = {
+		death="yes" # 289 BC, Made up
+	}
+}
+320503 = {
+	name = "Dani'el" # Majan, Made up
+	dynasty = 32006 # Omani
+	culture = arabic
+	religion = arabic_main
+	father = 320502
+	454.1.1 = {
+		birth="yes" # 322 BC, Made up
+	}
+	516.1.1 = {
+		death="yes" # 260 BC, Made up
+	}
+}

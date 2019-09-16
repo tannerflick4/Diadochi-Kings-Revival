@@ -1,0 +1,20 @@
+# 434 - Luxovium
+
+# County Title
+title = c_luxovium
+
+# Settlements
+max_settlements = 4
+b_luxovium_luxovium = castle
+b_uruncis_luxovium = city
+b_larga_luxovium = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_basilia_luxovium
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

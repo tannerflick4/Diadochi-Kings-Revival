@@ -1,0 +1,16 @@
+# 684 - Nrirgunta
+
+# County Title
+title = c_nrirgunta
+
+# Settlements
+max_settlements = 2
+b_nrirgunta_nrirgunta = castle
+b_modogoula_nrirgunta = city
+
+# Misc
+culture = kannada
+religion = dravidian_main
+
+# History
+# Can be filled when things change around the province

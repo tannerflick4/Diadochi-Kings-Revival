@@ -1,0 +1,448 @@
+# 40101-40200 for the Odrysae dynasty
+40101 = {
+	name = "Seuthes" # Seuthes III, king of Thracia
+	dynasty = 4002 # Odrysae
+	religion = thracian_main
+	culture = thracian
+	father = 40114 # Kotys I
+	
+	add_trait = ambitious
+	
+	414.1.1 = { # 362 BC Made up
+		birth="yes"
+	}
+	476.1.1 = { # 300 BC
+		death="yes"
+	}
+}
+40102 = {
+	name = "Kotys" # Cotys II
+	dynasty = 4002 # Odrysae
+	religion = thracian_main
+	culture = thracian
+	father = 40101
+	442.1.1 = { # Made up
+		birth="yes" # 334 BC
+	}
+	496.1.1 = {
+		death="yes" # 280 BC
+	}
+}
+40103 = {
+	name = "Teres" # Teres I of the Odrysians
+	dynasty = 4002 # Odrysae
+	religion = thracian_main
+	culture = thracian
+	
+	add_trait = ambitious
+	add_trait = skilled_tactician
+	
+	282.1.1 = { # Made up
+		birth="yes" # 494 BC
+	}
+	331.1.1 = { # 445 BC
+		death = {
+			death_reason = death_battle # Against the Triballi
+		}
+	}
+}
+40104 = {
+	name = "Sparadokos" # Sparadocus I of the Odrysians
+	dynasty = 4002 # Odrysae
+	religion = thracian_main
+	culture = thracian
+	father = 40103 # Teres I
+	308.1.1 = { # Made up
+		birth="yes" # 468 BC
+	}
+	345.1.1 = { # Made up
+		death="yes" # 431 BC
+	}
+}
+
+40105 = {
+	name = "Seuthes" # Seuthes I of the Odrysians
+	dynasty = 4002 # Odrysae
+	religion = thracian_main
+	culture = thracian
+	father = 40104 # Sparadokos
+	
+	add_trait = greedy
+	
+	339.1.1 = { # Made up
+		birth="yes" # 437 BC
+	}
+	366.1.1 = { # Made up
+		death="yes" # 410 BC
+	}
+}
+
+40106 = {
+	name = "Hebryzelmis" # Hebryzelmis I of the Odrysians
+	dynasty = 4002 # Odrysae
+	religion = thracian_main
+	culture = thracian
+	father = 40105 # Seuthes I
+	362.1.1 = { # Made up
+		birth="yes" # 414 BC
+	}
+	392.1.1 = { # Made up
+		death="yes" # 384 BC
+	}
+}
+
+40107 = {
+	name = "Sitalkes" # Sitalkes I of the Odrysians
+	dynasty = 4002 # Odrysae
+	religion = thracian_main
+	culture = thracian
+	father = 40103 # Teres I
+	
+	add_trait = skilled_tactician
+	add_trait = ambitious
+	
+	314.1.1 = { # Made up
+		birth="yes" # 462 BC
+	}
+	352.1.1 = { # 324 BC
+		death = {
+			death_reason = death_battle # Against the Triballi
+		}
+	}
+}
+
+40108 = {
+	name = "Sadokos" # Son of Sitalkes I
+	dynasty = 4002 # Odrysae
+	religion = thracian_main
+	culture = thracian
+	father = 40107 # Sitalkes I
+	330.1.1 = { # Made up
+		birth="yes" # 446 BC
+	}
+	392.1.1 = { # Made up
+		death="yes" # 384 BC
+	}
+}
+
+40109 = {
+	name = "Teres" # Son of Sitalkes I
+	dynasty = 4002 # Odrysae
+	religion = thracian_main
+	culture = thracian
+	father = 40107 # Sitalkes I
+	336.1.1 = { # Made up
+		birth="yes" # 440 BC
+	}
+	368.1.1 = { # Made up
+		death="yes" # 408 BC
+	}
+}
+40110 = {
+	name = "Sitalkes" # Son of Sitalkes I
+	dynasty = 4002 # Odrysae
+	religion = thracian_main
+	culture = thracian
+	father = 40107 # Sitalkes I
+	347.1.1 = { # Made up
+		birth="yes" # 429 BC
+	}
+	421.1.1 = { # Made up
+		death="yes" # 355 BC
+	}
+}
+40111 = {
+	name = "Amadokos" # Amadocus I of the Odrysians
+	dynasty = 4002 # Odrysae
+	religion = thracian_main
+	culture = thracian
+	father = 40103 # Teres I
+	329.1.1 = { # Made up
+		birth="yes" # 347 BC
+	}
+	387.1.1 = { # Made up
+		death="yes" # 389 BC 
+	}
+}
+40112 = {
+	name = "Maisades" # Son of Teres I
+	dynasty = 4002 # Odrysae
+	religion = thracian_main
+	culture = thracian
+	father = 40103 # Teres I
+	323.1.1 = { # Made up
+		birth="yes" # 453 BC
+	}
+	372.1.1 = { # Made up
+		death="yes" # 402 BC
+	}
+}
+40113 = {
+	name = "Seuthes" # Seuthes II of the Odrysae
+	dynasty = 4002 # Odrysae
+	religion = thracian_main
+	culture = thracian
+	father = 40112 # Maisades
+	
+	add_trait = ambitious
+	add_trait = deceitful
+	
+	342.1.1 = { # Made up
+		birth="yes" # 437 BC
+	}
+	385.1.1 = { # Made up
+		death="yes" # 391 BC
+	}
+}
+40114 = {
+	name = "Kotys" # Kotys I of the Odrysae
+	dynasty = 4002 # Odrysae
+	religion = thracian_main
+	culture = thracian
+	father = 40113 # Seuthes II
+	373.1.1 = { # Made up
+		birth="yes" # 403 BC
+	}
+	418.1.1 = { # 358 BC
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+40115 = {
+	name = "Berisades" # Berisades I of Northern Thrace
+	dynasty = 4002 # Odrysae
+	religion = thracian_main
+	culture = thracian
+	father = 40114 # Kotys I
+	389.1.1 = { # Made up
+		birth="yes" # 387 BC
+	}
+	424.1.1 = {
+		death="yes" # 352 BC
+	}
+}
+40116 = {
+	name = "Ketriporis" # Cetriporis I of Northern Thrace
+	dynasty = 4002 # Odrysae
+	religion = thracian_main
+	culture = thracian
+	father = 40115 # Berisades I
+	405.1.1 = { # Made up
+		birth="yes" # 371 BC
+	}
+	448.1.1 = { # Made up
+		death="yes" # 328 BC
+	}
+}
+40117 = {
+	name = "Monounios" # Brother of Cetriporis I
+	dynasty = 4002 # Odrysae
+	religion = thracian_main
+	culture = thracian
+	father = 40115 # Berisades I
+	415.1.1 = { # Made up
+		birth="yes" # 361 BC
+	}
+	434.1.1 = { # Made up
+		death="yes" # 342 BC
+	}
+}
+40118 = {
+	name = "Skostokos" # Brother of Cetriporis I
+	dynasty = 4002 # Odrysae
+	religion = thracian_main
+	culture = thracian
+	father = 40115 # Berisades I
+	419.1.1 = { # Made up
+		birth="yes" # 357 BC
+	}
+	487.1.1 = { # Made up
+		death="yes" # 289 BC
+	}
+}
+40119 = {
+	name = "Kersobleptes" # King of eastern thrace
+	dynasty = 4002 # Odrysae
+	religion = thracian_main
+	culture = thracian
+	father = 40114 # Kotys I
+	
+	add_trait = ambitious
+	
+	408.1.1 = { # Made up
+		birth="yes" # 368 BC
+	}
+	438.1.1 = { # Made up
+		death="yes" # 338 BC
+	}
+}
+40120 = {
+	name = "Iolaos" # Son of Kersobleptes
+	dynasty = 4002 # Odrysae
+	religion = thracian_main
+	culture = thracian
+	father = 40119 # Kersobleptes I
+	425.1.1 = { # Made up
+		birth="yes" # 351 BC
+	}
+	484.1.1 = {
+		death="yes" # 292 BC
+	}
+}
+40121 = {
+	name = "Poseidonios" # Son of Kersobleptes
+	dynasty = 4002 # Odrysae
+	religion = thracian_main
+	culture = thracian
+	father = 40119 # Kersobleptes I
+	432.1.1 = { # Made up
+		birth="yes" # 344 BC
+	}
+	446.1.1 = { # Made up
+		death="yes" # 330 BC
+	}
+}
+40122 = {
+	name = "Medistas" # Son of Kersobleptes
+	dynasty = 4002 # Odrysae
+	religion = thracian_main
+	culture = thracian
+	father = 40119 # Kersobleptes I
+	436.1.1 = {
+		birth="yes" # 340 BC
+	}
+	491.1.1 = { # Made up
+		death="yes" # 285 BC
+	}
+}
+40123 = {
+	name = "Teres" # Son of Kersobleptes
+	dynasty = 4002 # Odrysae
+	religion = thracian_main
+	culture = thracian
+	father = 40119 # Kersobleptes I
+	438.1.1 = { # Made up
+		birth="yes" # 338 BC
+	}
+	482.1.1 = { # Made up
+		death="yes" # 294 BC
+	}
+}
+40124 = {
+	name = "Amadokos" # Amadocus II of southern Thrace
+	dynasty = 4002 # Odrysae
+	religion = thracian_main
+	culture = thracian
+	father = 40114 # Kotys I
+	400.1.1 = { # Made up
+		birth="yes" # 376 BC
+	}
+	425.1.1 = { # Made up
+		death="yes" # 351 BC
+	}
+}
+40125 = {
+	name = "Teres" # Teres II of southern Thrace
+	dynasty = 4002 # Odrysae
+	religion = thracian_main
+	culture = thracian
+	father = 40124 # Amadocus II
+	415.1.1 = { # Made up
+		birth="yes" # 361 BC
+	}
+	448.1.1 = { # Made up
+		death="yes" # 328 BC
+	}
+}
+40126 = {
+	name = "Raizdos" # Raizdos I
+	dynasty = 4002 # Odrysae
+	religion = thracian_main
+	culture = thracian
+	father = 40102 # Kotys II
+	469.1.1 = { # Made up
+		birth="yes" # 307 BC
+	}
+	504.1.1 = { # Made up
+		death="yes" # 272 BC
+	}
+}
+40127 = {
+	name = "Kotys" # Kotys III
+	dynasty = 4002 # Odrysae
+	religion = thracian_main
+	culture = thracian
+	father = 40126 # Raizdos I
+	485.1.1 = { # Made up
+		birth="yes" # 291 BC
+	}
+	538.1.1 = { # Made up
+		death="yes" # 238 BC
+	}
+}
+40128 = {
+	name = "Rhebulas" # Son of Seuthes III
+	dynasty = 4002 # Odrysae
+	religion = thracian_main
+	culture = thracian
+	father = 40101 # Seuthes III
+	446.1.1 = { # Made up
+		birth="yes" # 330 BC
+	}
+	468.1.1 = { # Made up
+		death="yes" # 308 BC
+	}
+}
+40129 = {
+	name = "Hebryzelmis" # Son of Seuthes III
+	dynasty = 4002 # Odrysae
+	religion = thracian_main
+	culture = thracian
+	father = 40101 # Seuthes III
+	450.1.1 = { # Made up
+		birth="yes" # 326 BC
+	}
+	487.1.1 = { # Made up
+		death="yes" # 289 BC
+	}
+}
+40130 = {
+	name = "Teres" # Son of Seuthes III
+	dynasty = 4002 # Odrysae
+	religion = thracian_main
+	culture = thracian
+	father = 40101 # Seuthes III
+	453.1.1 = { # Made up
+		birth="yes" # 323 BC
+	}
+	507.1.1 = { # Made up
+		death="yes" # 269 BC
+	}
+}
+40131 = {
+	name = "Sadokos" # Son of Seuthes III
+	dynasty = 4002 # Odrysae
+	religion = thracian_main
+	culture = thracian
+	father = 40101 # Seuthes III
+	462.1.1 = { # Made up
+		birth="yes" # 314 BC
+	}
+	499.1.1 = { # Made up
+		death="yes" # 277 BC
+	}
+}
+40132 = {
+	name = "Sadalas" # Son of Seuthes III
+	dynasty = 4002 # Odrysae
+	religion = thracian_main
+	culture = thracian
+	father = 40101 # Seuthes III
+	468.1.1 = { # Made up
+		birth="yes" # 308 BC
+	}
+	516.1.1 = { # Made up
+		death="yes" # 260 BC
+	}
+}

@@ -1,0 +1,19 @@
+# 138 - Canopus
+
+# County Title
+title = c_canopus
+
+# Settlements
+max_settlements = 5
+b_canopus_canopus = castle
+b_anthylla_canopus = temple
+b_thonis_canopus = city
+b_bolbotine_canopus = castle
+b_naucratis_canopus = city
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

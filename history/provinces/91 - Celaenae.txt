@@ -1,0 +1,18 @@
+# 91 - Celaenae
+
+# County Title
+title = c_celaenae # for example c_corinth
+
+# Settlements
+max_settlements = 4
+b_celaenae_celaenae = castle
+b_motella_celaenae = temple
+b_temenouthyrai_celaenae = city
+b_akmonia_celaenae = castle
+
+# Misc
+culture = phrygian
+religion = phrygian_main
+
+# History
+# Can be filled when things change around the province

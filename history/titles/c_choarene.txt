@@ -1,0 +1,29 @@
+417.1.1 = {
+	holder = 90322 # Made up Satrap of Media
+	liege = k_p_media
+}
+446.1.1 = { # 330 BC
+	holder = 90325 # Oxydates
+	liege = k_s_media
+}
+448.1.1 = { # 328 BC
+	holder = 90001 # Aturpat
+}
+453.6.10 = {
+	holder = 1101
+}
+462.1.1 = {
+	holder = 401 # Antigonus
+	liege = k_s_phrygia
+}
+467.1.1 = {
+	liege = e_asia
+}
+469.1.1 = {
+	holder = 1001 # Seleukos
+	liege = e_syria
+}
+482.1.1 = { # 294 BC
+	holder = 3001 # Patrokles
+	liege = d_parthia
+}

@@ -1,0 +1,35 @@
+# 160201-160300 for the Pontii dynasty
+160201 = {
+	name = "Gaiis" # Gaius Pontius, Samnite leader
+	dynasty = 16003 # Pontii
+	religion = roman_main
+	culture = oscan
+	father = 160202
+	
+	add_trait = skilled_tactician
+	add_trait = proud
+	
+	423.1.1 = { # 353 BC made up
+		birth="yes"
+	}
+	461.1.1 = { # 315 BC made up
+		death = {
+			death_reason = death_execution
+		}
+	}
+}
+160202 = {
+	name = "Herenniis" # Herennius Pontius, Samnite leader
+	dynasty = 16003 # Pontii
+	religion = roman_main
+	culture = oscan
+	
+	add_trait = trusting
+	
+	394.1.1 = { # 382 BC Made Up
+		birth="yes"
+	}
+	456.1.1 = { # 320 BC Made Up
+		death="yes"
+	}
+}

@@ -1,0 +1,16 @@
+# 680 - Gokama
+
+# County Title
+title = c_gokama
+
+# Settlements
+max_settlements = 2
+b_gokama_gokama = castle
+b_naoura_gokama = city
+
+# Misc
+culture = kannada
+religion = dravidian_main
+
+# History
+# Can be filled when things change around the province

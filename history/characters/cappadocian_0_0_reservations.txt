@@ -1,0 +1,3 @@
+# 60001-70000 for cappadocian characters
+	# 60001-60100 for the Datama dynasty
+	# 60101-60200 for the Mithrobuzanes dynasty

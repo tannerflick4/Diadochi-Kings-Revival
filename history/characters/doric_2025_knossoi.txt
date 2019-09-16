@@ -1,0 +1,26 @@
+# 22401-22500 for the Knossoi dynasty
+22401 = {
+	name = "Xenon" # Ruler of Knossos, Made up
+	dynasty = 2025 # Knossioi
+	religion = greek_main
+	culture = doric
+	father = 22402
+	439.1.1 = { # Made up
+		birth="yes" # 337 BC
+	}
+	508.1.1 = { # Made up
+		death="yes" # 268 BC
+	}
+}
+22402 = {
+	name = "Xenon" # Ruler of Knossos, Made up
+	dynasty = 2025 # Knossioi
+	religion = greek_main
+	culture = doric
+	407.1.1 = { # 369 BC, Made up
+		birth="yes"
+	}
+	450.1.1 = { # 326 BC, Made up
+		death="yes" 
+	}
+}

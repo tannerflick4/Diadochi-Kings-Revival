@@ -1,0 +1,17 @@
+# 283 - Sogdorum Regia
+
+# County Title
+title = c_sogdorum_regia
+
+# Settlements
+max_settlements = 3
+b_banagara_sogdorum_regia = castle
+b_cuni_sogdorum_regia = temple
+b_sogdorum_regia_sogdorum_regia = city
+
+# Misc
+culture = shauraseni
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

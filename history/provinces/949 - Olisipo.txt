@@ -1,0 +1,17 @@
+# 949 - Olisipo
+
+# County Title
+title = c_olisipo
+
+# Settlements
+max_settlements = 3
+b_olisipo_olisipo = castle
+b_ierabriga_olisipo = castle
+b_eburobrittium_olisipo = city
+
+# Misc
+culture = celtiberian
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

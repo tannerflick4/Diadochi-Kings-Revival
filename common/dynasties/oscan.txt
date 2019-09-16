@@ -1,0 +1,22 @@
+# 16001-17000 for oscan dynasties
+
+16001 = {
+	name = "Numestrani"
+	culture = oscan
+}
+16002 = {
+	name = "Bruttii"
+	culture = oscan
+}
+16003 = {
+	name = "Pontii"
+	culture = oscan
+}
+16004 = {
+	name = "Frentani"
+	culture = oscan
+}
+16005 = {
+	name = "Mamertini"
+	culture = oscan
+}

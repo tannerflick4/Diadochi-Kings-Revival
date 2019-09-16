@@ -1,0 +1,26 @@
+# 21201-21300 for the Spartiatai dynasty
+21201 = {
+	name = "Leonidas" # Tarentum
+	dynasty = 2013 # Spartiatai
+	religion = greek_main
+	culture = doric
+	378.1.1 = { # 398 BC Made up
+		birth="yes"
+	}
+	458.1.1 = { # 318 BC Made up
+		death="yes"
+	}
+}
+21202 = {
+	name = "Paramonos" # Tarentum
+	dynasty = 2013 # Spartiatai
+	religion = greek_main
+	culture = doric
+	father = 21201
+	405.1.1 = { # 371 BC Made up
+		birth="yes"
+	}
+	497.1.1 = { # 279 BC Made up
+		death="yes"
+	}
+}

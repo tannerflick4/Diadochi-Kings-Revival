@@ -1,0 +1,17 @@
+# 518 - Kissarun
+
+# County Title
+title = c_kissarun
+
+# Settlements
+max_settlements = 3
+b_kissarun_kissarun = castle
+b_astakol_kissarun = city
+#b_darankar_kissarun = castle
+
+# Misc
+culture = sarmatian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

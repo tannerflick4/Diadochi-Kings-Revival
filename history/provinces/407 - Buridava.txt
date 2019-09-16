@@ -1,0 +1,18 @@
+# 407 - Buridava
+
+# County Title
+title = c_buridava
+
+# Settlements
+max_settlements = 4
+b_buridava_buridava = castle
+b_cetatemi_buridava = city
+b_cumidava_buridava = castle
+b_ramidava_buridava = temple
+
+# Misc
+culture = dacian
+religion = zalmoxism
+
+# History
+# Can be filled when things change around the province

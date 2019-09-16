@@ -1,0 +1,17 @@
+# 931 - Laminium
+
+# County Title
+title = c_laminium
+
+# Settlements
+max_settlements = 3
+b_laminium_laminium = castle
+b_alaba_laminium = city
+#b_murum_laminium = castle
+
+# Misc
+culture = celtiberian
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

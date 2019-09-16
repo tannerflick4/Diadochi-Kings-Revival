@@ -1,0 +1,17 @@
+# 540 - Dargaku
+
+# County Title
+title = c_dargaku
+
+# Settlements
+max_settlements = 3
+b_dargaku_dargaku = castle
+b_kutili_dargaku = temple
+b_hurta_dargaku = city
+
+# Misc
+culture = scythian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

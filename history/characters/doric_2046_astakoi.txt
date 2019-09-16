@@ -1,0 +1,26 @@
+# 24501-24600 for the Astakoi dynasty
+24501 = {
+	name = "Nearkhos" # Made Up
+	dynasty = 2046
+	religion = greek_main
+	culture = doric	
+	393.1.1 = { # 383 BC
+		birth="yes" 
+	}
+	465.1.1 = { # 311 BC
+		death="yes"
+	}
+}
+24502 = {
+	name = "Agapios" # Made Up
+	dynasty = 2046
+	religion = greek_main
+	culture = doric	
+	father = 24501
+	428.1.1 = { # 348 BC
+		birth="yes" 
+	}
+	482.1.1 = { # 294 BC
+		death="yes"
+	}
+}

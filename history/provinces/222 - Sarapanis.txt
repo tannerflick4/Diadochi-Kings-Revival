@@ -1,0 +1,18 @@
+# 222 - Sarapanis
+
+# County Title
+title = c_sarapanis
+
+# Settlements
+max_settlements = 4
+b_sarapanis_sarapanis = castle
+b_artanissa_sarapanis = temple
+b_sura_sarapanis = city
+b_skandis_sarapanis = castle
+
+# Misc
+culture = georgian
+religion = georgian_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,17 @@
+# 470 - Cabana
+
+# County Title
+title = c_cabana
+
+# Settlements
+max_settlements = 3
+b_cabana_cabana = castle
+b_sarcoa_cabana = city
+b_thiogar_cabana = castle
+
+# Misc
+culture = arabic
+religion = arabic_main
+
+# History
+# Can be filled when things change around the province

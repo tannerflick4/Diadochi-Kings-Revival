@@ -1,0 +1,17 @@
+# 752 - Vitabhya
+
+# County Title
+title = c_vitabhya
+
+# Settlements
+max_settlements = 3
+b_vitabhya_vitabhya = castle
+b_subhumika_vitabhya = city
+b_gandharva_vitabhya = city
+
+# Misc
+culture = shauraseni
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

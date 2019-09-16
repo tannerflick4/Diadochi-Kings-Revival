@@ -1,0 +1,22 @@
+# 9 - Knossos
+# County Title
+title = c_knossos # for example c_corinth
+
+# Settlements
+max_settlements = 5 # Should be reevaluated
+b_knossos_knossos = castle
+b_plati_knossos = temple
+b_gortyn_knossos = city
+b_praisos_knossos = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_olous_knossos = castle
+# b_itanos_knossos = temple
+# b_hierapytna_knossos = city
+
+# Misc
+culture = doric
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

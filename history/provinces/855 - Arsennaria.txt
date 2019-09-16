@@ -1,0 +1,16 @@
+# 855 - Arsennaria
+
+# County Title
+title = c_arsennaria
+
+# Settlements
+max_settlements = 2
+b_arsennaria_arsennaria = castle
+b_quiza_cenitana_arsennaria = city
+
+# Misc
+culture = berber
+religion = berber_main
+
+# History
+# Can be filled when things change around the province

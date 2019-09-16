@@ -1,0 +1,23 @@
+# 978 - Numantia
+
+# County Title
+title = c_numantia
+
+# Settlements
+max_settlements = 5
+b_numantia_numantia = castle
+b_okalakom_numantia = castle
+b_tabaniu_numantia = city
+b_bursau_numantia = city
+b_terkakom_numantia = temple
+
+# Misc
+culture = celtiberian
+religion = celtic_main
+
+
+
+
+
+# History
+# Can be filled when things change around the province

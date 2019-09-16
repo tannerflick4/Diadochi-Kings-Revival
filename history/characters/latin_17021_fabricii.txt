@@ -1,0 +1,16 @@
+# 172001-172100 for the Fabricii dynasty
+172001 = {
+	name = "Gaius" # Fabricius Luscinus
+	dynasty = 17021 # Fabricii
+	religion = roman_main
+	culture = latin
+	
+	add_trait = charitable
+	
+	443.1.1 = { # 333 BC Made up
+		birth="yes"
+	}
+	509.1.1 = { # 267 BC Made up
+		death="yes"
+	}
+}

@@ -1,0 +1,16 @@
+# 563 - Karsapatak
+
+# County Title
+title = c_karsapatak
+
+# Settlements
+max_settlements = 2
+b_karsapatak_karsapatak = castle
+b_asata_karsapatak = city
+
+# Misc
+culture = scythian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

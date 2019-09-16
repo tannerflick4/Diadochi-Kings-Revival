@@ -1,0 +1,55 @@
+407.1.1 = { # 369 BC
+	holder = 53601 # Tremison
+}
+419.1.1 = { # 357 BC
+	holder = 53602 # Ploutarchos
+}
+427.1.1 = { # 349 BC
+	holder = 53501 # Eubulus
+	liege = k_r_athens
+}
+430.1.1 = { # 346 BC
+	holder = 53801 # Kleitarchos
+	liege = 0
+}
+435.1.1 = { # 341 BC
+	holder = 53702 # Kallias
+	liege = d_euboia
+}
+451.1.1 = { # 325 BC
+	holder = 802 # Alexander
+	liege = e_macedonia
+}
+453.6.10 = {
+	holder = 1
+	liege = k_s_macedon
+}
+457.1.1 = {
+	holder = 1601 # Polyperchon
+}
+459.9.1 = {
+	holder = 2 # Kassandros
+	liege = k_macedon
+}
+463.6.1 = {
+	holder = 411 # Ptolemy, nephew of Antigonos
+	liege = k_s_phrygia
+}
+466.1.1 = {
+	liege = 0
+}
+467.1.1 = {
+	holder = 601 # Ptolemy I
+	liege = e_egypt
+}
+468.3.1 = {
+	holder = 2 # Kassandros
+	liege = k_macedon	
+}
+473.8.1 = {
+	holder = 402 # Demetrius
+	liege = e_asia
+}
+493.1.1 = {
+	holder = 408 # Antigonos Gonatas
+}

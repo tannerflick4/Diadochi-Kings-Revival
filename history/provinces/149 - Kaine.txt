@@ -1,0 +1,18 @@
+# 149 - Kaine
+
+# County Title
+title = c_kaine
+
+# Settlements
+max_settlements = 4
+b_kaine_kaine = castle
+b_apollonopolis_kaine = temple
+b_coptos_kaine = temple
+b_thbakat_kaine = city
+
+# Misc
+culture = egyptian 
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

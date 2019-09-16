@@ -1,0 +1,16 @@
+# 527 - Naradvara
+
+# County Title
+title = c_naradvara
+
+# Settlements
+max_settlements = 2
+b_naradvara_naradvara = castle
+b_dakus_naradvara = castle
+
+# Misc
+culture = sarmatian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,16 @@
+# 524 - Manur
+
+# County Title
+title = c_manur
+
+# Settlements
+max_settlements = 2
+b_manur_manur = castle
+b_batyakissar_manur = temple
+
+# Misc
+culture = sarmatian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

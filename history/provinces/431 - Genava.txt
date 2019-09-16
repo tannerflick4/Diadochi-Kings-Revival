@@ -1,0 +1,18 @@
+# 431 - Genava
+
+# County Title
+title = c_geneva
+
+# Settlements
+max_settlements = 4
+b_geneva_geneva = castle
+b_boutae_geneva = temple
+b_vintium_geneva = city
+b_albinnum_geneva = castle
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

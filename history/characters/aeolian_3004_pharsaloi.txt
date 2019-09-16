@@ -1,0 +1,19 @@
+# 30301-30400 for the Pharsaloi dynasty
+30301 = {
+	name = "Menon" # Ruler of Pharsalus
+	dynasty = 3004 # Pharsaloi
+	religion = greek_main
+	culture = aeolian
+	
+	diplomacy = 8
+	
+	add_trait = skilled_tactician
+	add_trait = cavalry_leader
+	
+	410.1.1 = { # Made up
+		birth="yes" # 366 BC
+	}
+	455.1.1 = { 
+		death="yes" # 321 BC
+	}
+}

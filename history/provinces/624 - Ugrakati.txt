@@ -1,0 +1,16 @@
+# 624 - Ugrakati
+
+# County Title
+title = c_ugrakati
+
+# Settlements
+max_settlements = 2
+b_ugrakati_ugrakati = castle
+b_bratavadasz_ugrakati = castle
+
+# Misc
+culture = scythian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

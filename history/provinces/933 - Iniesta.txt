@@ -1,0 +1,17 @@
+# 933 - Iniesta
+
+# County Title
+title = c_iniesta
+
+# Settlements
+max_settlements = 3
+b_iniesta_iniesta = castle
+#b_putea_iniesta = castle
+#b_valeria_iniesta = castle
+
+# Misc
+culture = celtiberian
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,18 @@
+# 209 - Karkathiokerta
+
+# County Title
+title = c_karkathiokerta
+
+# Settlements
+max_settlements = 4
+b_karkatiokerta_karkathiokerta = castle
+b_dabanas_karkathiokerta = temple
+b_nabaris_karkathiokerta = city
+b_saphchai_karkathiokerta = castle
+
+# Misc
+culture = armenian
+religion = armenian_main
+
+# History
+# Can be filled when things change around the province

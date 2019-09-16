@@ -1,0 +1,39 @@
+# 370301-370400 for the Cadota dynasty
+370301 = {
+	name = "Ype" # Made up
+	dynasty = 37012
+	religion = zoroastrian_main
+	culture = tocharian
+	381.1.1 = { # 395 BC
+		birth="yes"
+	}
+	459.1.1 = { # 317 BC
+		death="yes"
+	}
+}
+370302 = {
+	name = "Tsaga" # Made up
+	dynasty = 37012
+	religion = zoroastrian_main
+	culture = tocharian
+	father = 370301
+	407.1.1 = { # 369 BC
+		birth="yes"
+	}
+	482.1.1 = { # 294 BC
+		death="yes"
+	}
+}
+370303 = {
+	name = "Pgi" # Made up
+	dynasty = 37012
+	religion = zoroastrian_main
+	culture = tocharian
+	father = 370302
+	431.1.1 = { # 345 BC
+		birth="yes"
+	}
+	519.1.1 = { # 257 BC
+		death="yes"
+	}
+}

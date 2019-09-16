@@ -1,0 +1,22 @@
+# 627 - Pieria
+
+# County Title
+title = c_pieria
+
+# Settlements
+max_settlements = 5
+b_aigai_pieria = castle
+b_pydna_pieria = city
+b_methone_pieria = city
+b_dion_pieria = temple
+b_pimpleia_pieria = city
+
+# Misc
+culture = macedonian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province
+422.1.1 = { # 354 BC, Philip II destroys Methone
+	remove_settlement = b_methone_pieria
+}

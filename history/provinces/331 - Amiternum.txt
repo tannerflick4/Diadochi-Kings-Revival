@@ -1,0 +1,24 @@
+# 331 - Amiternum
+
+# County Title
+title = c_amiternum # for example c_corinth
+
+# Settlements
+max_settlements = 6 # Should be reevaluated
+b_amiternum_amiternum = castle
+b_testrina_amiternum = temple
+b_reate_amiternum = city
+b_casperia_amiternum = city
+
+# Possible baronies: (Always add a # in front of a line with these!)
+#
+#
+#
+#
+
+# Misc
+culture = umbrian
+religion = roman_main
+
+# History
+# Can be filled when things change around the province

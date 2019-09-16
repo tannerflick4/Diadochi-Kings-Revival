@@ -1,0 +1,17 @@
+# 406 - Banita
+
+# County Title
+title = c_banita
+
+# Settlements
+max_settlements = 3
+b_banita_banita = castle
+b_polovragi_banita = castle
+b_arutela_banita = city
+
+# Misc
+culture = dacian
+religion = zalmoxism
+
+# History
+# Can be filled when things change around the province

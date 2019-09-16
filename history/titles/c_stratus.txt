@@ -1,0 +1,21 @@
+405.1.1 = { # 371 BC
+	holder = 23201
+}
+436.1.1 = { # 340 BC
+	holder = 23202
+}
+438.8.2 = { # 338 BC, Battle of Chaeronea
+	liege = e_macedonia
+}
+453.6.10 = { # 323 BC
+	liege = k_s_macedon
+}
+459.10.1 = { # 317 BC
+	liege = k_macedon
+}
+479.1.1 = { # 397 BC
+	liege = 0 # Cut off from Macedonia
+}
+480.1.1 = { # 296 BC
+	holder = 23203
+}

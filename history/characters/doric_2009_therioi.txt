@@ -1,0 +1,26 @@
+# 20801-20900 for the Therioi dynasty
+20801 = {
+	name = "Hippolytos" # Byzantion
+	dynasty = 2009 # Therioi
+	religion = greek_main
+	culture = doric
+	390.1.1 = { # 386 BC Made up
+		birth="yes"
+	}
+	461.1.1 = { # 315 BC Made up
+		death="yes"
+	}
+}
+20802 = {
+	name = "Kyrillos" # Byzantion
+	dynasty = 2009 # Therioi
+	religion = greek_main
+	culture = doric
+	father = 20801
+	421.1.1 = { # 355 BC Made up
+		birth="yes"
+	}
+	498.1.1 = { # 278 BC Made up
+		death="yes"
+	}
+}

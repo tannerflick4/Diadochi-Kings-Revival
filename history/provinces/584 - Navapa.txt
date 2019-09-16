@@ -1,0 +1,16 @@
+# 584 - Navapa
+
+# County Title
+title = c_navapa
+
+# Settlements
+max_settlements = 2
+b_navapa_navapa = castle
+b_satapasu_navapa = city
+
+# Misc
+culture = scythian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

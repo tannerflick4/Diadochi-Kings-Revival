@@ -1,0 +1,15 @@
+# 867 - Galapha
+
+# County Title
+title = c_galapha
+
+# Settlements
+max_settlements = 1
+b_galapha_galapha = castle
+
+# Misc
+culture = berber
+religion = berber_main
+
+# History
+# Can be filled when things change around the province

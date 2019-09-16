@@ -1,0 +1,8 @@
+405.1.1 = { # 371 BC
+	holder = 421601 # Thurro
+	liege = d_astures
+}
+466.1.2 = { # 308 BC
+	holder = 421602 # Belsu
+	liege = d_astures
+}

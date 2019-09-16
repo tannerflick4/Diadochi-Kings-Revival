@@ -1,0 +1,19 @@
+# 832 - Perge
+
+# County Title
+title = c_perge
+
+# Settlements
+max_settlements = 5
+b_perge_perge = castle
+b_sillyon_perge = city
+b_aspendos_perge = city
+b_pednelissos_perge = castle
+b_selge_perge = castle
+
+# Misc
+culture = arcadian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

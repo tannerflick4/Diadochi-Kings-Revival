@@ -1,0 +1,14 @@
+# 420601-420700 for the Turboletae dynasty
+420601 = {
+	name = "Elazunos" # Made up Carpetani leader
+	dynasty = 42007
+	culture = celtiberian
+	religion = celtic_main
+	
+	384.1.1 = { # 392 BC, Made up
+		birth="yes"
+	}
+	467.1.1 = { # 308 BC
+		death="yes"
+	}
+}

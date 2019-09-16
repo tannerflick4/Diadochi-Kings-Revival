@@ -1,0 +1,18 @@
+# 654 - Aguntum
+
+# County Title
+title = c_aguntum
+
+# Settlements
+max_settlements = 4
+b_aguntum_aguntum = castle
+b_londum_aguntum = city
+b_ibligo_aguntum = city
+b_osopus_aguntum = city
+
+# Misc
+culture = venetic
+religion = illyrian_main
+
+# History
+# Can be filled when things change around the province

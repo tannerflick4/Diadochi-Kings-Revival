@@ -1,0 +1,20 @@
+# 135 - Tanis
+
+# County Title
+title = c_tanis
+
+# Settlements
+max_settlements = 6
+b_tanis_tanis = castle
+b_mendes_tanis = temple
+b_tamiathis_tanis = city
+b_thmouis_tanis = castle
+b_thenessos_tanis = city
+b_kalamine_tanis = city
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

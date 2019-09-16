@@ -1,0 +1,17 @@
+# 63 - Parthus
+
+# County Title
+title = c_parthus # for example c_corinth
+
+# Settlements
+max_settlements = 3
+b_parthus_parthus = castle
+b_kerax_parthus = temple
+b_beue_parthus = castle
+
+# Misc
+culture = illyrian
+religion = illyrian_main
+
+# History
+# Can be filled when things change around the province

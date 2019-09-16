@@ -1,0 +1,39 @@
+# 220101-220200 for the Liburni dynasty
+220101 = {
+	name = "Volcus" # Liburni leader, Made up
+	dynasty = 22002 # Liburni
+	religion = illyrian_main
+	culture = venetic
+	father = 220102
+	422.1.1 = {
+		birth="yes" # 354 BC, Made up
+	}
+	470.1.1 = {
+		death="yes" # 306 BC, Made up
+	}
+}
+220102 = {
+	name = "Bonimus" # Liburni leader, Made up
+	dynasty = 22002 # Liburni
+	religion = illyrian_main
+	culture = venetic
+	390.1.1 = {
+		birth="yes" # 386 BC, Made up
+	}
+	442.1.1 = { # 334 BC
+		death="yes"
+	}
+}
+220103 = {
+	name = "Caminis" # Liburni leader, Made up
+	dynasty = 22002 # Liburni
+	religion = illyrian_main
+	culture = venetic
+	father = 220101
+	444.1.1 = {
+		birth="yes" # 332 BC, Made up
+	}
+	503.1.1 = { # 273 BC
+		death="yes"
+	}
+}

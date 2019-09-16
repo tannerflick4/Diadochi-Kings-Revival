@@ -1,0 +1,18 @@
+# 1202 - Tamusia
+
+# County Title
+title = c_tamusia
+
+# Settlements
+max_settlements = 4
+b_tamusia_tamusia = castle
+#b_turgalium_tamusia = castle
+b_tongobriga_tamusia = castle
+b_lacipea_tamusia = castle
+
+# Misc
+culture = lusitanian
+religion = lusitanian_main
+
+# History
+# Can be filled when things change around the province

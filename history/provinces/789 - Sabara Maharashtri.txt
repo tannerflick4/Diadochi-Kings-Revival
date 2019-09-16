@@ -1,0 +1,15 @@
+# 789 - Sabara Maharashtri
+
+# County Title
+title = c_sabara_maharashtri
+
+# Settlements
+max_settlements = 1
+b_sabara_sabara_maharashtri = castle
+
+# Misc
+culture = maharashtri
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

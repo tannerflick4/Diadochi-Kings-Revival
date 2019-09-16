@@ -1,0 +1,4 @@
+495.2.1 = { # 281 BC, Defeat of Lysimachus
+	holder = 3101 # Lysias
+	liege = e_syria
+}

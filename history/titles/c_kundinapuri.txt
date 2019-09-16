@@ -1,0 +1,10 @@
+401.1.1 = { # 375 BC
+	holder = 122001 # Sahaja
+	liege = d_taitilaka
+}
+463.1.1 = { # 313 BC
+	holder = 122002 # Harishena
+}
+491.1.1 = { # 285 BC
+	holder = 122003 # Kartavirya
+}

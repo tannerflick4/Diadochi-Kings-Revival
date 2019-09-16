@@ -1,0 +1,16 @@
+# 686 - Kalligeris
+
+# County Title
+title = c_kalligeris
+
+# Settlements
+max_settlements = 2
+b_kalligeris_kalligeris = castle
+b_risyamuka_kalligeris = temple
+
+# Misc
+culture = kannada
+religion = dravidian_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,6 @@
+405.1.1 = { # 371 BC
+	holder = 370001 # Ramatsoga
+}
+455.1.1 = { # 321 BC
+	holder = 370002 # Navote
+}

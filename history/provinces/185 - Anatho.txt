@@ -1,0 +1,17 @@
+# 185 - Anatho
+
+# County Title
+title = c_anatho
+
+# Settlements
+max_settlements = 3
+b_anatho_anatho = castle
+b_haradu_anatho = city
+b_biblada_anatho = castle
+
+# Misc
+culture = aramaic
+religion = marduk_cult
+
+# History
+# Can be filled when things change around the province

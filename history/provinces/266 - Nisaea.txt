@@ -1,0 +1,18 @@
+# 266 - Nisaea
+
+# County Title
+title = c_nisaea
+
+# Settlements
+max_settlements = 4
+b_nisaea_nisaea = castle
+b_abarbina_nisaea = city
+b_guriana_nisaea = castle
+b_astasana_nisaea = temple
+
+# Misc
+culture = parthian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

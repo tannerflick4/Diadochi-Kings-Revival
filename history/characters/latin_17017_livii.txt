@@ -1,0 +1,13 @@
+# 171601-171700 for the Livii dynasty
+171601 = {
+	name = "Marcus" # Livius Denter
+	dynasty = 17018 # Livii
+	religion = roman_main
+	culture = latin
+	443.1.1 = { # 333 BC Made up
+		birth="yes"
+	}
+	509.1.1 = { # 267 BC Made up
+		death="yes"
+	}
+}

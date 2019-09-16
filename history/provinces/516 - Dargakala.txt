@@ -1,0 +1,16 @@
+# 516 - Dargakala
+
+# County Title
+title = c_dargakala
+
+# Settlements
+max_settlements = 2
+b_dargakala_dargakala = castle
+b_agaruti_dargakala = castle
+
+# Misc
+culture = sarmatian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

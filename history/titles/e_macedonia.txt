@@ -1,0 +1,17 @@
+426.1.1 = {
+	holder = 803	
+	law = succ_tanistry
+	law = agnatic_succession
+}
+440.10.1 = {
+	holder = 802
+}
+453.6.10 = {
+	holder = 801
+}
+459.12.25 = {
+	holder = 808 # Alexandros IV
+}
+467.1.1 = {
+	holder = 0
+}

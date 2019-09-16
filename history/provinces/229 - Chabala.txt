@@ -1,0 +1,17 @@
+# 229 - Chabala
+
+# County Title
+title = c_chabala
+
+# Settlements
+max_settlements = 3
+b_chabala_chabala = castle
+b_sioda_chabala = city
+b_nyudi_chabala = city
+
+# Misc
+culture = albanian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

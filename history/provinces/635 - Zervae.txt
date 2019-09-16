@@ -1,0 +1,17 @@
+# 635 - Zervae
+
+# County Title
+title = c_zervae
+
+# Settlements
+max_settlements = 3
+b_zervae_zervae = castle
+b_plotinoupolis_zervae = city
+b_dymae_zervae = city
+
+# Misc
+culture = thracian
+religion = thracian_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,15 @@
+# 291 - Attock
+
+# County Title
+title = c_attock
+
+# Settlements
+max_settlements = 1
+b_sindhu_attock = castle
+
+# Misc
+culture = shauraseni
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

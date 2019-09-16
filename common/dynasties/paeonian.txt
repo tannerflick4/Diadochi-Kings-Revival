@@ -1,0 +1,6 @@
+# 15001-16000 for paeonian dynasties
+
+15001 = {
+	name = "Agis"
+	culture = paeonian
+}

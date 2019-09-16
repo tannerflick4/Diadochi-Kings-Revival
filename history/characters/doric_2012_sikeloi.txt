@@ -1,0 +1,26 @@
+# 21101-21200 for the Sikeloi dynasty
+21101 = {
+	name = "Basileios" # Byzantion
+	dynasty = 2012 # Sikeloi
+	religion = greek_main
+	culture = doric
+	401.1.1 = { # 375 BC Made up
+		birth="yes"
+	}
+	474.1.1 = { # 301 BC Made up
+		death="yes"
+	}
+}
+21102 = {
+	name = "Asklepiades" # Byzantion
+	dynasty = 2012 # Sikeloi
+	religion = greek_main
+	culture = doric
+	father = 21101
+	429.1.1 = { # 347 Made up
+		birth="yes"
+	}
+	514.1.1 = { # 262 BC Made up
+		death="yes"
+	}
+}

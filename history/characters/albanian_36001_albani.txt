@@ -1,0 +1,37 @@
+# 36001-36101 for the Albani dynasty
+360001 = {
+	name = "Parnajom" # Made Up
+	dynasty = 36001
+	culture = albanian
+	religion = zoroastrian_main
+	371.1.1 = {
+		birth="yes" # 405 BC Made Up
+	}
+	445.1.1 = {
+		death="yes" # 331 BC Made Up
+	}
+}
+360002 = {
+	name = "Artavazd" # Made Up
+	dynasty = 36001
+	culture = albanian
+	religion = zoroastrian_main
+	403.1.1 = { # 373 BC Made Up
+		birth="yes"
+	}
+	472.1.1 = {
+		death="yes" # 304 BC Made Up
+	}
+}
+360003 = {
+	name = "Rusa" # Made Up
+	dynasty = 36001
+	culture = albanian
+	religion = zoroastrian_main
+	455.1.1 = {
+		birth="yes" # 321 BC Made Up
+	}
+	512.1.1 = {
+		death="yes" # 264 BC Made Up
+	}
+}

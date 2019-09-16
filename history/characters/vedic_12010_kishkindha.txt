@@ -1,0 +1,26 @@
+# 120901-121000 for the Kishkindha dynasty
+120901 = {
+	name = "Harivarma" # Made up
+	dynasty = 12125
+	religion = dravidian_main
+	culture = kannada
+	396.1.1 = { # 380 BC
+		birth="yes"
+	}
+	465.1.1 = { # 311 BC
+		death="yes"
+	}
+}
+120902 = {
+	name = "Simhavarma"
+	dynasty = 12125
+	religion = dravidian_main
+	culture = kannada
+	father = 120901
+	424.1.1 = { # 352 BC
+		birth="yes"
+	}
+	506.1.1 = { # 270 BC
+		death="yes"
+	}
+}

@@ -1,0 +1,17 @@
+# 51 - Arbitus
+
+# County Title
+title = c_arbitus # for example c_corinth
+
+# Settlements
+max_settlements = 3
+b_arbitus_arbitus = castle
+b_iridava_arbitus = city
+b_tegris_arbitus = castle
+
+# Misc
+culture = thracian
+religion = thracian_main
+
+# History
+# Can be filled when things change around the province

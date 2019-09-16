@@ -1,0 +1,17 @@
+# 281 - Pharsaga
+
+# County Title
+title = c_pharsaga
+
+# Settlements
+max_settlements = 3
+b_pharsaga_pharsaga = castle
+b_cottabura_pharsaga = city
+b_musarna_pharsaga = temple
+
+# Misc
+culture = arian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,16 @@
+# 2301-2400 for the Ampimakos dynasty
+2301 = {
+	name = "Ampimakos" # Later satrap of Assyria (Mesopotamia)
+	dynasty = 24 # Ampimakos
+	religion = greek_main
+	culture = macedonian
+	420.1.1 = { # 356 BC Made up
+		birth="yes"
+	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	464.1.1 = { # 312 BC
+		death="yes"
+	}
+}

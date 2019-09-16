@@ -1,0 +1,20 @@
+# 7 - Corfu
+
+# County Title
+title = c_corfu # for example c_corinth
+# Settlements
+
+max_settlements = 3
+b_corcyra_corfu = castle
+b_artemis_corfu = temple
+b_kassiope_corfu = city
+
+# Misc
+
+culture = doric
+religion = greek_main
+
+
+# History
+
+# Can be filled when things change around the province

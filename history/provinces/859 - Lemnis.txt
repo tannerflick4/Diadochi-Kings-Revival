@@ -1,0 +1,17 @@
+# 859 - Lemnis
+
+# County Title
+title = c_lemnis
+
+# Settlements
+max_settlements = 3
+b_lemnis_lemnis = castle
+b_fratres_lemnis = city
+b_syrorum_lemnis = castle
+
+# Misc
+culture = berber
+religion = berber_main
+
+# History
+# Can be filled when things change around the province

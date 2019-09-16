@@ -1,0 +1,15 @@
+# 868 - Tillibari
+
+# County Title
+title = c_tillibari
+
+# Settlements
+max_settlements = 3
+b_tillibari_tillibari = castle
+
+# Misc
+culture = berber
+religion = berber_main
+
+# History
+# Can be filled when things change around the province

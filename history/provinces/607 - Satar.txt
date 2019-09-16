@@ -1,0 +1,16 @@
+# 607 - Satar
+
+# County Title
+title = c_satar
+
+# Settlements
+max_settlements = 2
+b_satar_satar = castle
+b_daar_satar = castle
+
+# Misc
+culture = scythian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,18 @@
+# 953 - Egitania
+
+# County Title
+title = c_egitania
+
+# Settlements
+max_settlements = 4
+b_egitania_egitania = castle
+#b_ocelum_egitania = castle
+#b_veniensis_egitania = city
+b_alpedrinha_egitania = castle
+
+# Misc
+culture = lusitanian
+religion = lusitanian_main
+
+# History
+# Can be filled when things change around the province

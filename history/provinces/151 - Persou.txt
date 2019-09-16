@@ -1,0 +1,16 @@
+# 151 - Persou
+
+# County Title
+title = c_persou
+
+# Settlements
+max_settlements = 2
+b_persou_persou = castle
+b_myos_hormos = city 
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

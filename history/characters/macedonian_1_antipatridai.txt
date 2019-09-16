@@ -1,0 +1,320 @@
+# 1-100 for the Antipatridai dynasty
+1 = {	
+	name = "Antipatros" # Antipater, Regent of Macedon
+	dynasty = 1 # Antipatridai
+	religion = greek_main 
+	culture = macedonian
+	father = 15 # Iollas
+	
+	diplomacy = 8
+	
+	add_trait = tough_soldier
+	add_trait = content
+	add_trait = kind
+	
+	379.1.1 = {
+		birth="yes" # 397 BC
+	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	457.1.1 = {
+		death="yes" # 319 BC, Natural causes
+	}
+}
+2 = {
+	name = "Kassandros" # Cassander, son of Antipater
+	dynasty = 1
+	religion = greek_main
+	culture = macedonian
+	father = 1 # Antipater
+	#employer = 801 # Philip III
+	
+	add_trait = tough_soldier
+	add_trait = ambitious
+	add_trait = deceitful	
+	
+	418.1.1 = { # 358 BC
+		birth="yes"
+	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	461.1.1 = { # 315 BC
+		add_spouse = 810 # Thessalonice
+	}
+	479.1.1 = { # 297 BC
+		death="yes"
+	}
+}
+3 = {
+	name = "Phila" # Daughter of Antipater
+	dynasty = 1
+	religion = greek_main
+	culture = macedonian
+	female = yes
+	father = 1
+	
+	add_trait = kind
+	add_trait = diligent
+	
+	424.1.1 = { # 352 BC Made up
+		birth="yes"
+	}
+	489.1.1 = { # 287 BC
+		death="yes"
+	}
+}
+4 = {
+	name = "Eurydike" # Daughter of Antipater, later wife of Ptolemy
+	dynasty = 1
+	religion = greek_main
+	culture = macedonian
+	female = yes
+	father = 1
+	425.1.1 = { # 351 BC Made up
+		birth="yes"
+	}
+	490.1.1 = { # 286 BC Made up
+		death="yes"
+	}
+}
+5 = {
+	name = "Nikaia" # Daughter of Antipater
+	dynasty = 1
+	religion = greek_main
+	culture = macedonian
+	female = yes
+	father = 1
+	441.1.1 = { # 335 BC
+		birth="yes"
+	}
+	474.1.1 = { # 302 BC
+		death="yes"
+	}
+}
+6 = {
+	name = "Iollas" # Son of Antipater
+	dynasty = 1
+	religion = greek_main
+	culture = macedonian
+	father = 1
+	425.1.1 = { # 351 BC Made up
+		birth="yes"
+	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	454.1.1 = { # 322 BC
+		death="yes"
+	}
+}
+7 = {
+	name = "Pleistarkhos" # Son of Antipater
+	dynasty = 1
+	religion = greek_main
+	culture = macedonian
+	father = 1
+	
+	add_trait = misguided_warrior
+	
+	440.1.1 = { # 336 BC Made up
+		birth="yes"
+	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	476.1.1 = { # 300 BC Made up
+		death="yes"
+	}
+}
+8 = {
+	name = "Philippos" # Son of Antipater
+	dynasty = 1
+	religion = greek_main
+	culture = macedonian
+	father = 1
+	
+	add_trait = tough_soldier
+	
+	441.1.1 = { # 335 BC Made up
+		birth="yes"
+	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	490.1.1 = { # 286 BC Made up
+		death="yes"
+	}
+}
+9 = {
+	name = "Nikanor" # Son of Antipater
+	dynasty = 1
+	religion = greek_main
+	culture = macedonian
+	father = 1
+	445.1.1 = { # 331 BC Made up
+		birth="yes"
+	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	458.1.1 = { # 318 BC Made up
+		death = {
+			death_reason = death_execution
+			killer = 10011 # Olympias
+		}
+	}
+}
+10 = {
+	name = "Alexarchos" # Son of Antipater
+	dynasty = 1
+	religion = greek_main
+	culture = macedonian
+	father = 1
+	447.1.1 = { # 329 BC Made up
+		birth="yes"
+	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	476.1.1 = { # 300 BC Made up
+		death="yes"
+	}
+}
+11 = {
+	name = "Triparadeisos" # Son of Antipater
+	dynasty = 1
+	religion = greek_main
+	culture = macedonian
+	father = 1
+	450.1.1 = { # 326 BC Made up
+		birth="yes"
+	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	489.1.1 = { # 287 BC Made up
+		death="yes"
+	}
+}
+12 = {
+	name = "Philippos" # IV
+	dynasty = 1
+	religion = greek_main
+	culture = macedonian
+	father = 2 # Kassandros
+	mother = 810 # Thessalonike
+	
+	health = 3
+	
+	#add_trait = diadochi_king
+	
+	462.1.1 = { # Made up
+		birth="yes" # 314 BC
+	}
+	479.4.1 = {
+		death="yes" # 297 BC
+	}
+}
+13 = {
+	name = "Antipatros" # II
+	dynasty = 1
+	religion = greek_main
+	culture = macedonian
+	father = 2 # Kassandros
+	mother = 810 # Thessalonike
+	
+	#add_trait = diadochi_king
+	add_trait = deceitful
+	
+	464.1.1 = { # Made up
+		birth="yes" # 314 BC
+	}
+	481.1.1 = {
+		add_trait = kinslayer # Killed his mother
+	}
+	482.1.1 = { # 294 BC
+		death = {
+			death_reason = death_murder
+			killer = 30001 # Lysimachus
+		}
+	}
+}
+14 = {
+	name = "Alexandros" # V
+	dynasty = 1
+	religion = greek_main
+	culture = macedonian
+	father = 2 # Kassandros
+	mother = 810 # Thessalonike
+	
+	#add_trait = diadochi_king
+	add_trait = trusting
+	
+	465.1.1 = { # Made up
+		birth="yes" # 314 BC
+	}
+	482.1.1 = { # 294 BC
+		death = {
+			death_reason = death_murder
+			killer = 402 # Demetrius
+		}
+	}
+}
+15 = {
+	name = "Iollas" # Father of Antipater(the regent)
+	dynasty = 1
+	religion = greek_main
+	culture = macedonian
+	356.1.1 = { # Made up
+		birth="yes" # 420 BC
+	}
+	400.1.1 = { # Made up
+		death="yes" # 376 BC
+	}
+}
+16 = { 
+	name = "Kassandros" # Brother of Antipater(the regent)
+	dynasty = 1
+	religion = greek_main
+	culture = macedonian
+	father = 15 # Iollas
+	391.1.1 = { # Made up
+		birth="yes" # 385 BC
+	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	454.1.1 = { # Made up
+		death="yes" # 322 BC
+	}
+}
+17 = {
+	name = "Antigon" # Antigone, mother of Berenike I
+	dynasty = 1
+	religion = greek_main
+	culture = macedonian
+	father = 16
+	female = yes
+	410.1.1 = { # Made up
+		birth="yes" # 366 BC
+	}
+	469.1.1 = {
+		death="yes" # 307 BC
+	}
+}
+18 = {
+	name = "Antipatros" # Son of Philip, brother of Cassander(King of Macedonia)
+	dynasty = 1
+	religion = greek_main
+	culture = macedonian
+	father = 8
+	#add_trait = diadochi_king
+	462.1.1 = { # Made up
+		birth="yes" # 314 BC
+	}
+	523.1.1 = { # Made up
+		death="yes" # 253 BC
+	}
+}

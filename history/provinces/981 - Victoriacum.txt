@@ -1,0 +1,16 @@
+# 981 - Victoriacum
+
+# County Title
+title = c_victoriacum
+
+# Settlements
+max_settlements = 2
+b_victoriacum_victoriacum = castle
+b_kalakorikos_victoriacum = castle
+
+# Misc
+culture = aquitanian
+religion = aquitanian_main
+
+# History
+# Can be filled when things change around the province

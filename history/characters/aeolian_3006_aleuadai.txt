@@ -1,0 +1,13 @@
+# 30501-30600 for the Aleuadai dynasty
+30501 = {
+	name = "Thrasydaios" # Ruler of Larissa
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	393.1.1 = { # Made up
+		birth="yes" # 383 BC
+	}
+	434.1.1 = { # Made up
+		death="yes" # 342 BC
+	}
+}

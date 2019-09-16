@@ -1,0 +1,16 @@
+# 576 - Dranpa
+
+# County Title
+title = c_dranpa
+
+# Settlements
+max_settlements = 2
+b_dranpa_dranpa = castle
+b_arikol_dranpa = city
+
+# Misc
+culture = chorasmian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

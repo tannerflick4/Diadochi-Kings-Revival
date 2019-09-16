@@ -1,0 +1,18 @@
+# 228 - Dioscurias
+
+# County Title
+title = c_dioscurias
+
+# Settlements
+max_settlements = 4
+b_dioscurias_dioscurias = castle
+b_gyenos_dioscurias = city
+b_tzibile_dioscurias = castle
+b_tracheia_dioscurias = castle
+
+# Misc
+culture = georgian
+religion = georgian_main
+
+# History
+# Can be filled when things change around the province

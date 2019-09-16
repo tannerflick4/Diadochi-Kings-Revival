@@ -1,0 +1,18 @@
+# 943 - Acci
+
+# County Title
+title = c_acci
+
+# Settlements
+max_settlements = 4
+b_acci_acci = castle
+#b_vergilia_acci = city
+b_iliberri_acci = city
+b_bactara_acci = castle
+
+# Misc
+culture = turdetanian
+religion = iberian_main
+
+# History
+# Can be filled when things change around the province

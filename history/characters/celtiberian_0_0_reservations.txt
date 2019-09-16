@@ -1,0 +1,27 @@
+# 420001-430000 for Celtiberian characters -- Split
+	# 420001-420100 for the Olkades dynasty
+	# 420101-420200 for the Lusiones dynasty
+	# 420201-420300 for the Belloi dynasty
+	# 420301-420400 for the Tittoi dynasty
+	# 420401-420500 for the Areuakoi dynasty
+	# 420501-420600 for the Turboletai dynasty
+	# 420601-420700 for the Karpetanoi dynasty
+	# 420701-420800 for the Oretanoi dynasty
+	# 420801-420900 for the Turduloi dynasty
+	# 420901-421000 for the Keltikoi dynasty
+	# 421001-421100 for the Lobetanoi dynasty
+	# 421101-421200 for the Turduloi Veteres dynasty
+	# 421201-421300 for the Uakkaioi dynasty
+	# 421301-421400 for the Turmodigoi dynasty
+	# 421401-421500 for the Kantabroi dynasty
+	# 421501-421600 for the Astures dynasty
+	# 421601-421700 for the Zoelai dynasty
+
+
+
+
+
+
+
+
+	

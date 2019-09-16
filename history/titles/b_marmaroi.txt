@@ -1,0 +1,8 @@
+403.1.1 = { # 373 BC
+	holding_dynasty = 5008 # Propontioi
+	liege="k_r_tyras"
+	holder = 50701
+}
+469.1.1 = {
+	holder = 50702 # Ariston
+}

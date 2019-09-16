@@ -1,0 +1,39 @@
+# 230101-230200 for the Insubres dynasty
+230101 = {
+	name = "Dumnorix" # Insubres leader, Made up
+	dynasty = 23002 # Insubres
+	religion = celtic_main
+	culture = gaul
+	father = 230103
+	421.1.1 = { # 355 BC Made up
+		birth="yes"
+	}
+	471.1.1 = { # 305 BC Made up
+		death="yes"
+	}
+}
+230102 = {
+	name = "Vertico" # Insubres Made up
+	dynasty = 23002 # Insubres
+	culture = gaul
+	religion = celtic_main
+	father = 230101
+	441.1.1 = { # 335 BC
+		birth="yes"
+	}
+	501.1.1 = { # 275 BC
+		death="yes"
+	}
+}
+230103 = {
+	name = "Liscus" # Insubres leader, Made up
+	dynasty = 23002 # Insubres
+	religion = celtic_main
+	culture = gaul
+	395.1.1 = { # Made up
+		birth="yes" # 381 BC
+	}
+	446.1.1 = { # Made up
+		death="yes" # 330 BC
+	}
+}

@@ -1,0 +1,13 @@
+# 172201-172300 for the Popillii dynasty
+172201 = {
+	name = "Marcus" # Popillius Laenas
+	dynasty = 17023 # Popillii
+	religion = roman_main
+	culture = latin
+	366.1.1 = { # 410 BC Made up
+		birth="yes"
+	}
+	438.1.1 = { # 338 BC Made up
+		death="yes"
+	}
+}

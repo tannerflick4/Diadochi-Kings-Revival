@@ -1,0 +1,17 @@
+# 894 - Suoju
+
+# County Title
+title = c_suoju
+
+# Settlements
+max_settlements = 3
+
+b_suoju_suoju = castle # Yarkand
+b_xiye_suoju = city
+b_pishan_suoju = temple
+
+culture = khotanese
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

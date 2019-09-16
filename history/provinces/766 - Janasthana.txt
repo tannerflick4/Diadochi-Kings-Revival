@@ -1,0 +1,15 @@
+# 766 - Janasthana
+
+# County Title
+title = c_janasthana
+
+# Settlements
+max_settlements = 1
+b_janasthana_janasthana = castle
+
+# Misc
+culture = maharashtri
+religion = jainism_main
+
+# History
+# Can be filled when things change around the province

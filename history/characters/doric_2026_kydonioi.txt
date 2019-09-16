@@ -1,0 +1,39 @@
+# 22501-22600 for the Kydonioi dynasty
+22501 = {
+	name = "Hieronymos" # Ruler of Kydonia, Made up
+	dynasty = 2026 # Kydonioi
+	religion = greek_main
+	culture = doric
+	father = 22503
+	411.1.1 = { # Made up
+		birth="yes" # 365 BC
+	}
+	469.1.1 = { # Made up
+		death="yes" # 307 BC
+	}
+}
+22502 = {
+	name = "Archelaos" # Ruler of Kydonia, Made up
+	dynasty = 2026 # Kydonioi
+	religion = greek_main
+	culture = doric
+	father = 22501
+	429.1.1 = { # Made up
+		birth="yes" # 347 BC
+	}
+	501.1.1 = { # Made up
+		death="yes" # 275 BC
+	}
+}
+22503 = {
+	name = "Leonidas" # Ruler of Kydonia, Made up
+	dynasty = 2026 # Kydonioi
+	religion = greek_main
+	culture = doric
+	375.1.1 = { # Made up
+		birth="yes" # 401 BC
+	}
+	439.1.1 = {
+		death="yes" # 337 BC
+	}
+}

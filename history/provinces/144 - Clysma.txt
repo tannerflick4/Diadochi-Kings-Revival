@@ -1,0 +1,15 @@
+# 144 - Clysma
+
+# County Title
+title = c_clysma
+
+# Settlements
+max_settlements = 1
+b_clysma_clysma = castle
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

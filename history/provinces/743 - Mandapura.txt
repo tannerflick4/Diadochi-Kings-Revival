@@ -1,0 +1,16 @@
+# 743 - Mandapura
+
+# County Title
+title = c_mandapura
+
+# Settlements
+max_settlements = 2
+b_mandapura_mandapura = castle
+b_chamasodbheda_mandapura = city
+
+# Misc
+culture = shauraseni
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

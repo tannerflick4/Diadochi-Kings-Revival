@@ -1,0 +1,15 @@
+# 569 - Katipatak
+
+# County Title
+title = c_katipatak
+
+# Settlements
+max_settlements = 1
+b_katipatak_katipatak = castle
+
+# Misc
+culture = scythian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

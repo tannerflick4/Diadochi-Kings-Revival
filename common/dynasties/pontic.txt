@@ -1,0 +1,4 @@
+13001 = {
+	name = "Mithridates"
+	culture = pontic
+}

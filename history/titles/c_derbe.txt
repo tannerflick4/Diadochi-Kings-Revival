@@ -1,0 +1,28 @@
+417.1.1 = {
+	holder = 90323
+	liege = k_p_lydia
+}
+442.1.1 = {
+	holder = 90314
+}
+446.1.1 = { # 330 BC
+	holder = 50101 # Eumenes
+	liege = k_s_cappadocia
+}
+458.5.1 = {
+	liege = d_cappadocia
+}
+460.1.1 = {
+	holder = 401 # Antigonus
+	liege = k_s_phrygia
+}
+467.1.1 = {
+	liege = e_asia
+}
+475.1.1 = {
+	holder = 1001 # Seleukos
+	liege = e_syria
+}
+495.8.1 = {
+	holder = 1002 # Antiochus
+}

@@ -1,0 +1,17 @@
+# 199 - Ur
+
+# County Title
+title = c_ur
+
+# Settlements
+max_settlements = 3
+b_ur_ur = castle
+b_eridu_ur = temple
+b_nina_ur = city
+
+# Misc
+culture = akkadian
+religion = marduk_cult
+
+# History
+# Can be filled when things change around the province

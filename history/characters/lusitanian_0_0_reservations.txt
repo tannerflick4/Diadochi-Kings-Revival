@@ -1,0 +1,9 @@
+# 430001-440000 for Lusitanian characters -- Split
+	# 430001-420100 for the Lusitani dynasty
+	# 430101-430200 for the Elbocori dynasty
+	# 430201-430300 for the Paesuri dynasty
+	# 430301-430400 for the Vettones dynasty
+	
+
+
+	

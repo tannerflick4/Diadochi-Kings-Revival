@@ -1,0 +1,26 @@
+# 21801-21900 for the Delphioi dynasty
+21801 = {
+	name = "Euphranor" # Rhodes
+	dynasty = 2019 # Delphioi
+	religion = greek_main
+	culture = doric
+	379.1.1 = { # 397 BC Made up
+		birth="yes"
+	}
+	466.1.1 = { # 310 BC Made up
+		death="yes"
+	}
+}
+21802 = {
+	name = "Amyntas" # Rhodes
+	dynasty = 2019 # Delphioi
+	religion = greek_main
+	culture = doric
+	father = 21801
+	422.1.1 = { # 354 BC Made up
+		birth="yes"
+	}
+	502.1.1 = { # 274 BC Made up
+		death="yes"
+	}
+}

@@ -1,0 +1,10 @@
+435.1.1 = { # 341 BC
+	holder = 53702 # Kallias
+}
+438.8.2 = { # 338 BC, Battle of Chaeronea
+	liege = e_macedonia
+}
+451.1.1 = {
+	holder = 0
+	liege = 0
+}

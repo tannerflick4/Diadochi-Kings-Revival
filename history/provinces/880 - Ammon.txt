@@ -1,0 +1,16 @@
+# 880 - Ammon
+
+# County Title
+title = c_ammon
+
+# Settlements
+max_settlements = 4
+b_ammon_ammon = castle
+b_giarabub_ammon = city
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

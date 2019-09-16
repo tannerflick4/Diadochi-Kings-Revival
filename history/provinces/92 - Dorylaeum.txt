@@ -1,0 +1,18 @@
+# 92 - Dorylaeum
+
+# County Title
+title = c_dorylaeum # for example c_corinth
+
+# Settlements
+max_settlements = 4
+b_dorylaeum_dorylaeum = castle
+b_eiokome_dorylaeum = temple
+b_midaion_dorylaeum = castle
+b_lamounia_dorylaeum = castle
+
+# Misc
+culture = phrygian
+religion = phrygian_main
+
+# History
+# Can be filled when things change around the province

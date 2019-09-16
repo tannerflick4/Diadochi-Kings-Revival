@@ -1,0 +1,6 @@
+437.1.1 = { # 339 BC
+	holder = 340202 # Spalahores
+}
+453.1.1 = { # 323 BC
+	holder = 340201 # Idanthyrsus
+}

@@ -1,0 +1,39 @@
+# 30601-30700 for the Theagenidai dynasty
+30601 = {
+	name = "Theogenes" # Ruler of Boeotia
+	dynasty = 3007 # Theagenidai
+	religion = greek_main
+	culture = aeolian
+	383.1.1 = { # Made up
+		birth="yes" # 393 BC
+	}
+	441.1.1 = { # Made up
+		death="yes" # 335 BC
+	}
+}
+30602 = {
+	name = "Ophellas" # Made up
+	dynasty = 3007 # Theagenidai
+	religion = greek_main
+	culture = aeolian
+	father = 30601
+	417.1.1 = {
+		birth="yes" # 359 BC
+	}
+	441.1.1 = {
+		death="yes" # 335 BC
+	}
+}
+30603 = {
+	name = "Theogenes" # Ruler of Boeotia, Made up
+	dynasty = 3007 # Theagenidai
+	religion = greek_main
+	culture = aeolian
+	father = 30602
+	439.1.1 = {
+		birth="yes" # 337 BC
+	}
+	503.1.1 = {
+		death="yes" # 273 BC
+	}
+}

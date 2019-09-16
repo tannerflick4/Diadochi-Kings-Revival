@@ -1,0 +1,90 @@
+# 320201-330300 for the Yitha dynasty
+320201 = {
+	name = "Abyada" # Ma'in
+	dynasty = 32003 # Yitha
+	culture = arabic
+	religion = arabic_main
+	father = 320207
+	418.1.1 = {
+		birth="yes" # 358 BC Made up
+	}
+	477.1.1 = {
+		death="yes" # 299 BC Made up
+	}
+}
+320202 = {
+	name = "Ilyafa" # Ma'in
+	dynasty = 32003
+	culture = arabic
+	religion = arabic_main
+	father = 320201
+	453.1.1 = {
+		birth="yes" # 323 BC Made up
+	}
+	494.1.1 = {
+		death="yes" # 282 BC Made up
+	}
+}
+320203 = {
+	name = "Abkarib" # Ma'in
+	dynasty = 32003
+	culture = arabic
+	religion = arabic_main
+	father = 320202
+	476.1.1 = {
+		birth="yes" # 300 BC Made up
+	}
+	535.1.1 = {
+		death="yes" # 241 BC Made up
+	}
+}
+320204 = {
+	name = "Aush'Allah" # Hadramaut, Made up
+	dynasty = 32003
+	culture = arabic
+	religion = arabic_main
+	401.1.1 = {
+		birth="yes" # 375 BC, Made up
+	}
+	474.1.1 = {
+		death="yes" # 302 BC, Made up
+	}
+}
+320205 = {
+	name = "Ausos" # Hadramaut, Made up
+	dynasty = 32003
+	culture = arabic
+	religion = arabic_main
+	father = 320204
+	433.1.1 = {
+		birth="yes" # 343 BC, Made up
+	}
+	480.1.1 = {
+		death="yes" # 296 BC, Made up
+	}
+}
+320206 = {
+	name = "Tym-Dushara" # Hadramaut, Made up
+	dynasty = 32003
+	culture = arabic
+	religion = arabic_main
+	father = 320205
+	462.1.1 = {
+		birth="yes" # 314 BC, Made up
+	}
+	503.1.1 = {
+		death="yes" # 273 BC, Made up
+	}
+}
+320207 = {
+	name = "Abkarib" # Ma'in Made up
+	dynasty = 32003
+	culture = arabic
+	religion = arabic_main
+	390.1.1 = { # 386 BC
+		birth="yes"
+	}
+	450.1.1 = { # 326 BC
+		death="yes"
+	}
+}

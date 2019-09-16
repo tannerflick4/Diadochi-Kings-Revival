@@ -1,0 +1,18 @@
+# 447 - Ausara
+
+# County Title
+title = c_ausara
+
+# Settlements
+max_settlements = 4
+b_ausara_ausara = castle
+b_mochoura_ausara = temple
+b_thoumna_ausara = castle
+b_hibra_ausara = temple
+
+# Misc
+culture = arabic
+religion = arabic_main
+
+# History
+# Can be filled when things change around the province

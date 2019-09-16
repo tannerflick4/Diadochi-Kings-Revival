@@ -1,0 +1,57 @@
+# 170301-170400 for the Fabii dynasty
+170301 = {
+	name = "Quintus" # Fabius Maximus Rullianus
+	dynasty = 17004 # Fabii
+	religion = roman_main
+	culture = latin
+	father = 170303
+	
+	add_trait = wroth
+	
+	423.1.1 = { # 353 BC Made up
+		birth="yes"
+	}
+	482.1.1 = { # 294 BC Made up
+		death="yes"
+	}
+}
+170302 = {
+	name = "Quintus" # Fabius Maximus Gurges
+	dynasty = 17004 # Fabii
+	religion = roman_main
+	culture = latin
+	father = 170301
+	443.1.1 = { # 333 BC Made up
+		birth="yes"
+	}
+	509.1.1 = { # 267 BC Made up
+		death="yes"
+	}
+}
+170303 = {
+	name = "Marcus" # Fabius Ambustus
+	dynasty = 17004 # Fabii
+	religion = roman_main
+	culture = latin
+	
+	add_trait = tough_soldier
+	
+	371.1.1 = { # 405 BC Made up
+		birth="yes"
+	}
+	445.1.1 = { # 321 BC Made up
+		death="yes"
+	}
+}
+170304 = {
+	name = "Gaius" # Fabius Ambustus
+	dynasty = 17004 # Fabii
+	religion = roman_main
+	culture = latin
+	368.1.1 = { # 408 BC Made Up
+		birth="yes"
+	}
+	452.1.1 = { # 324 BC Made Up
+		death="yes"
+	}
+}

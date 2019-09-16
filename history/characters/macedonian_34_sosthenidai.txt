@@ -1,0 +1,14 @@
+# 3301-3400 for the Sosthenidai dynasty
+3301 = {
+	name = "Sosthenes" # Lysimachian officer and king of macedonia in the interregnum
+	dynasty = 34
+	culture = macedonian
+	religion = greek_main
+	
+	438.1.1 = { # 338 BC, Made up
+		birth="yes"
+	}
+	499.1.1 = { # 277 BC
+		death="yes"
+	}
+}

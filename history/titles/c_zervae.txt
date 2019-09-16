@@ -1,0 +1,20 @@
+417.1.1 = {
+	holder = 40114
+}
+418.1.1 = {
+	holder = 40115 # Berisades
+	liege = d_rhodope
+}
+424.1.1 = {
+	holder = 40116 # Ketriporis
+}
+438.1.1 = {
+	liege="d_odrysia"
+	holder = 40101
+}
+476.1.1 = {
+	holder = 40102 # Cotys II
+}
+495.2.1 = {
+	liege = k_odrysia
+}

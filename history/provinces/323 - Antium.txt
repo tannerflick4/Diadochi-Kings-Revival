@@ -1,0 +1,23 @@
+# 323 - Antium
+
+# County Title
+title = c_antium # for example c_corinth
+
+# Settlements
+max_settlements = 6 # Should be reevaluated
+b_antium_antium = castle
+b_aphrodisium_antium = temple
+b_lanuvium_antium = city
+
+# Possible baronies: (Always add a # in front of a line with these!)
+#
+#
+#
+#
+
+# Misc
+culture = latin
+religion = roman_main
+
+# History
+# Can be filled when things change around the province

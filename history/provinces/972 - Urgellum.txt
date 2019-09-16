@@ -1,0 +1,16 @@
+# 972- Urgellum
+
+# County Title
+title = c_urgellum
+
+# Settlements
+max_settlements = 2
+b_arketurki_urgellum = temple
+b_eso_urgellum = castle
+
+# Misc
+culture = iberian
+religion = iberian_main
+
+# History
+# Can be filled when things change around the province

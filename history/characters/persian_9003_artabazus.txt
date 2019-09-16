@@ -1,0 +1,85 @@
+# 90201-90300 for the Artabazus dynasty
+90201 = {
+	name = "Barsine" # Barsine, supposed lover of Alexander
+	dynasty = 9003 # Artabazus
+	religion = zoroastrian_main
+	culture = persian
+	female = yes
+	father = 90205
+	413.1.1 = { # 363 BC
+		birth="yes"
+	}
+	467.1.1 = { # 309 BC
+		death = {
+			death_reason = death_murder
+			killer = 2
+		}
+	}
+}
+90202 = {
+	name = "Heracles" # Heracles of Macedon, supposed bastard of Alexander
+	dynasty = 9003 # Artabazus
+	religion = greek_main
+	culture = persian
+	mother = 90201
+	
+	add_trait = bastard
+	
+	449.1.1 = { # 327 BC
+		birth="yes"
+	}
+	453.6.10 = {
+		add_claim=e_macedonia
+	}
+	467.1.1 = { # 309 BC
+		death = {
+			death_reason = death_murder
+			killer = 2
+		}
+	}
+}
+90203 = {
+	name = "Artacama" # Second of wife of Ptolemy
+	dynasty = 9003 # Artabazus
+	religion = zoroastrian_main
+	culture = persian
+	father = 90205
+	female = yes
+	415.1.1 = { # 361 BC Made up
+		birth="yes"
+	}
+	452.1.1 = { # 324 BC
+		add_spouse = 601
+	}
+	455.1.1 = { # 321 BC Made up
+		death="yes"
+	}
+}
+90204 = {
+	name = "Amastris" # Amastris, wife of Lysimachus
+	dynasty = 9003 # Artabazus
+	religion = zoroastrian_main
+	culture = persian
+	female = yes
+	435.1.1 = { # Made up
+		birth="yes" # 341 BC
+	}
+	492.1.1 = { # 284 BC
+		death = {
+			death_reason = death_murder
+			killer = 50002 # Her son Clearchus II
+		}
+	}
+}
+90205 = {
+	name = "Artavazhda" # Artabazos, temporary satrap of Bactria
+	dynasty = 9003 # Artabazus
+	religion = zoroastrian_main
+	culture = persian
+	387.1.1 = { # 389 BC
+		birth="yes"
+	}
+	448.1.1 = { # 328 BC
+		death="yes"
+	}
+}

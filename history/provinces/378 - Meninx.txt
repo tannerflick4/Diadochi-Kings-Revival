@@ -1,0 +1,19 @@
+# 378 - Meninx
+
+# County Title
+title = c_meninx
+
+# Settlements
+max_settlements = 5
+b_tacape_meninx = city
+b_haribus_meninx = castle
+b_put_meninx = castle
+b_gigthis_meninx = city
+b_pisida_meninx = city
+
+# Misc
+culture = berber
+religion = berber_main
+
+# History
+# Can be filled when things change around the province

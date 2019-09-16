@@ -1,0 +1,18 @@
+# 441 - Pdeme
+
+# County Title
+title = c_pdeme
+
+# Settlements
+max_settlements = 4
+b_pdeme_pdeme = castle
+b_noa_pdeme = temple
+b_gugo_pdeme = city
+b_acina_pdeme = city
+
+# Misc
+culture = nubian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,16 @@
+# 575 - Mahta
+
+# County Title
+title = c_mahta
+
+# Settlements
+max_settlements = 2
+b_mahta_mahta = castle
+b_arpaxais_mahta = castle
+
+# Misc
+culture = chorasmian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

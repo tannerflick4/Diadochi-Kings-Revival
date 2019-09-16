@@ -1,0 +1,5 @@
+# 30001-40000 for Luwian dynasties
+30001 = {
+	name = "Gangrani"
+	culture = luwian
+}

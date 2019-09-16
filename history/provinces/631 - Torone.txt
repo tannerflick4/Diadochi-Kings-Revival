@@ -1,0 +1,18 @@
+# 631 - Torone
+
+# County Title
+title = c_torone
+
+# Settlements
+max_settlements = 4
+b_torone_torone = castle
+b_akanthos_torone = city
+b_dion_torone = temple
+b_singos_torone = city
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

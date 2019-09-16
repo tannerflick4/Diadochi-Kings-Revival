@@ -1,0 +1,17 @@
+# 655 - Tridentium
+
+# County Title
+title = c_tridentium
+
+# Settlements
+max_settlements = 3
+b_tridentium_tridentium = castle
+b_anaunion_tridentium = temple
+b_ligeris_tridentium = city
+
+# Misc
+culture = raetic
+religion = etruscan_main
+
+# History
+# Can be filled when things change around the province

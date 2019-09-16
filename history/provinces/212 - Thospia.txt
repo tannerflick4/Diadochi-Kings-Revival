@@ -1,0 +1,21 @@
+# 212 - Thospia
+
+# County Title
+title = c_thospia
+
+# Settlements
+max_settlements = 5
+b_thospia_thospia = castle
+b_artemita_thospia = temple
+b_arest_thospia = city
+b_vastauna_thospia = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_molchia_thospia
+
+# Misc
+culture = armenian
+religion = armenian_main
+
+# History
+# Can be filled when things change around the province

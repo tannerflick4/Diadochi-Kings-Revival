@@ -1,0 +1,39 @@
+# 250001-250100 for the Barca dynasty
+250001 = { # Made up
+	name = "Hasdrubaal"
+	dynasty = 25001 # Barca
+	religion = punic_main
+	culture = punic
+	father = 250003
+	428.1.1 = { # 348 BC
+		birth="yes"
+	}
+	486.1.1 = { # 290 BC
+		death="yes"
+	}
+}
+250002 = {
+	name = "Baalhanno" # Barca
+	dynasty = 25001 # Barca
+	religion = punic_main
+	culture = punic
+	father = 250001
+	448.1.1 = { # 328 BC
+		birth="yes"
+	}
+	508.1.1 = { # 268 BC
+		death="yes"
+	}
+}
+250003 = { # Made up
+	name = "Baalhanno"
+	dynasty = 25001 # Barca
+	religion = punic_main
+	culture = punic
+	392.1.1 = { 
+		birth="yes" # 384 BC Made Up
+	}
+	451.1.1 = { 
+		death="yes" # 325 BC Made Up
+	}
+}

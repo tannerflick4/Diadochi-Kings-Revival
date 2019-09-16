@@ -1,0 +1,21 @@
+# 925 - Malaca
+
+# County Title
+title = c_malaca
+
+# Settlements
+max_settlements = 5
+b_malaca_malaca = castle
+b_iluro_malaca = city
+#b_nescania_malaca = castle
+b_aratispi_malaca = temple
+b_menova_malaca = city
+
+# Misc
+culture = punic
+religion = punic_main
+
+
+
+# History
+# Can be filled when things change around the province

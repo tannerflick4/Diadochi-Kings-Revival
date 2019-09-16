@@ -1,0 +1,13 @@
+# 51601-51700 for the Phaleroi dynasty
+51601 = {
+	name = "Demetrios" # Cassandrian tyrant ruling over Athens
+	dynasty = 5022 # Phalerioi
+	religion = greek_main
+	culture = ionian
+	426.1.1 = {
+		birth="yes" # 350 BC
+	}
+	496.1.1 = {
+		death="yes" # 280 BC
+	}
+}

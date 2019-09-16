@@ -1,0 +1,16 @@
+# 478 - Syavaporata
+
+# County Title
+title = c_syavaporata
+
+# Settlements
+max_settlements = 2
+b_syavaporata_syavaporata = castle
+b_udkol_syavaporata = city
+
+# Misc
+culture = scythian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

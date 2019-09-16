@@ -1,0 +1,9 @@
+395.1.1 = { # 381 BC
+	holder = 260701 # Bercanus
+}
+440.1.1 = { # 336 BC
+	holder = 260702 # Tegamas
+}
+471.1.1 = { # 305 BC
+	holder = 260703 # Bercanus
+}

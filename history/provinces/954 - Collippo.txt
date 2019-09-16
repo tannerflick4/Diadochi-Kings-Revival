@@ -1,0 +1,17 @@
+# 954 - Collippo
+
+# County Title
+title = c_collippo
+
+# Settlements
+max_settlements = 3
+b_collippo_collippo = castle
+b_conimbriga_collippo = city
+b_elbocoris_collippo = castle
+
+# Misc
+culture = lusitanian
+religion = lusitanian_main
+
+# History
+# Can be filled when things change around the province

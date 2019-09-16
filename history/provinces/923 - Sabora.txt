@@ -1,0 +1,19 @@
+# 923 - Sabora
+
+# County Title
+title = c_sabora
+
+# Settlements
+max_settlements = 4
+b_sabora_sabora = castle
+b_irni_sabora = city
+#b_ocurri_sabora = castle
+b_lacilbula_sabora = castle
+
+# Misc
+culture = turdetanian
+religion = iberian_main
+
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,17 @@
+# 490 - Katipanti
+
+# County Title
+title = c_katipanti
+
+# Settlements
+max_settlements = 3
+b_katipanti_katipanti = castle
+b_madugau_katipanti = city
+b_syavataka_katipanti = castle
+
+# Misc
+culture = sarmatian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

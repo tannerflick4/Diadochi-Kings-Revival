@@ -1,0 +1,16 @@
+# 556 - Hvarzgasti
+
+# County Title
+title = c_hvarzgasti
+
+# Settlements
+max_settlements = 2
+b_hvarzgasti_hvarzgasti = castle
+b_kusca_hvarzgasti = castle
+
+# Misc
+culture = scythian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

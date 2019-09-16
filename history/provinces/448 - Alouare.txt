@@ -1,0 +1,17 @@
+# 448 - Alouare
+
+# County Title
+title = c_alouare
+
+# Settlements
+max_settlements = 3
+b_alouare_alouare = castle
+b_iathrippa_alouare = castle
+b_baema_alouare = city
+
+# Misc
+culture = arabic
+religion = arabic_main
+
+# History
+# Can be filled when things change around the province

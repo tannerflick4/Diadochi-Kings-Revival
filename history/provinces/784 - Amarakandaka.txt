@@ -1,0 +1,15 @@
+# 784 - Amarakandaka
+
+# County Title
+title = c_amarakandaka
+
+# Settlements
+max_settlements = 1
+b_amarakandaka_amarakandaka = castle
+
+# Misc
+culture = maharashtri
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

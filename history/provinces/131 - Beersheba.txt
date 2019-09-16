@@ -1,0 +1,18 @@
+# 131 - Beersheba
+
+# County Title
+title = c_beersheba
+
+# Settlements
+max_settlements = 4
+b_beersheba_beersheba = castle
+b_betomolachon_beersheba = temple
+b_elousa_beersheba = city
+b_mampsis_beersheba = castle
+
+# Misc
+culture = israelite
+religion = judaism_main
+
+# History
+# Can be filled when things change around the province

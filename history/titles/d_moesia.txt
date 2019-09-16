@@ -1,0 +1,16 @@
+417.1.1 = {
+	holder = 40114
+}
+418.1.1 = {
+	holder = 40124 # Amadocus
+}
+425.1.1 = {
+	holder = 40125 # Teres
+}
+429.4.1 = {
+	liege = e_macedonia
+}
+438.1.1 = {
+	liege = 0
+	holder = 0
+}

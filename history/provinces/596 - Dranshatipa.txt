@@ -1,0 +1,16 @@
+# 596 - Dranshatipa
+
+# County Title
+title = c_dranshatipa
+
+# Settlements
+max_settlements = 2
+b_dranshatipa_dranshatipa = castle
+b_ugraku_dranshatipa = castle
+
+# Misc
+culture = scythian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

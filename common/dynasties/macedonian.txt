@@ -1,0 +1,142 @@
+# 1-1000 for macedonian dynasties
+
+1 = {
+	name = "Antipatridai"
+	culture = macedonian
+}
+2 = {
+	name = "Leonnatidai"
+	culture = macedonian
+}
+3 = {
+	name = "Menandridai"
+	culture = macedonian
+}
+4 = {
+	name = "Parmenidai"
+	culture = macedonian
+}
+5 = {
+	name = "Antigonidai"
+	culture = macedonian
+}
+6 = {
+	name = "Philotidai"
+	culture = macedonian
+}
+7 = {
+	name = "Ptolemaioi"
+	culture = macedonian
+}
+8 = {
+	name = "Archontidai"
+	culture = macedonian
+}
+9 = {
+	name = "Argeadai"
+	culture = macedonian
+}
+10 = {
+	name = "Orestai"
+	culture = macedonian
+}
+11 = {
+	name = "Seleukidai"
+	culture = macedonian
+}
+12 = {
+	name = "Peithonidai"
+	culture = macedonian
+}
+13 = {
+	name = "Peukestidai"
+	culture = macedonian
+}
+14 = {
+	name = "Tlepolemaioi"
+	culture = macedonian
+}
+15 = {
+	name = "Philippidai"
+	culture = macedonian
+}
+16 = {
+	name = "Agenoridai"
+	culture = macedonian
+}
+17 = {
+	name = "Simmiadai"
+	culture = macedonian
+}
+18 = {
+	name = "Krateridai"
+	culture = macedonian
+}
+19 = {
+	name = "Silenidai"
+	culture = macedonian
+}
+20 = {
+	name = "Arridaioi"
+	culture = macedonian
+}
+21 = {
+	name = "Leukoi"
+	culture = macedonian
+}
+22 = {
+	name = "Stageiritai"
+	culture = macedonian
+}
+23 = {
+	name = "Philoxenoi"
+	culture = macedonian
+}
+24 = {
+	name = "Ampimakos"
+	culture = macedonian
+}
+25 = {
+	name = "Antigenidai"
+	culture = macedonian
+}
+26 = {
+	name = "Stasandridai"
+	culture = macedonian
+}
+27 = {
+	name = "Korrhaioi"
+	culture = macedonian
+}
+28 = {
+	name = "Arrhidaioi"
+	culture = macedonian
+}
+29 = {
+	name = "Dokimidai"
+	culture = macedonian
+}
+30 = {
+	name = "Dropidai"
+	culture = macedonian
+}
+31 = {
+	name = "Patroklidai"
+	culture = macedonian
+}
+32 = {
+	name = "Lysidai"
+	culture = macedonian
+}
+33 = {
+	name = "Eupolemidai"
+	culture = macedonian
+}
+34 = {
+	name = "Sosthenidai"
+	culture = macedonian
+}
+35 = {
+	name = "Aphrodisioi"
+	culture = macedonian
+}

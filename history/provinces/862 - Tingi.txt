@@ -1,0 +1,18 @@
+# 862 - Tingi
+
+# County Title
+title = c_tingi
+
+# Settlements
+max_settlements = 5
+b_septem_tingi = city
+b_tingi_tingi = castle
+b_zilil_tingi = city
+b_tabernae_tingi = castle
+b_cottae_tingi = city
+
+# Misc
+culture = punic
+religion = punic_main
+
+# History

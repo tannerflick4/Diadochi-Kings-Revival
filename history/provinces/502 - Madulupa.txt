@@ -1,0 +1,15 @@
+# 502 - Madulupa
+
+# County Title
+title = c_madulupa
+
+# Settlements
+max_settlements = 1
+b_madulupa_madulupa = castle
+
+# Misc
+culture = sarmatian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

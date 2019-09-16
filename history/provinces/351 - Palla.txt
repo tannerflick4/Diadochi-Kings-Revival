@@ -1,0 +1,22 @@
+# 351 - Palla
+
+# County Title
+title = c_palla # for example c_corinth
+
+# Settlements
+max_settlements = 6 # Should be reevaluated
+b_urcinium_palla = city
+b_palla_palla = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+#
+#
+#
+#
+
+# Misc
+culture = etruscan
+religion = etruscan_main
+
+# History
+# Can be filled when things change around the province

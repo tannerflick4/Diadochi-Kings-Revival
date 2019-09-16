@@ -1,0 +1,8 @@
+405.1.1 = { # 371 BC
+	holder = 420001 # Eskutino
+	liege = d_olcades
+}
+465.1.2 = { # 311 BC
+	holder = 420002 # Builbos
+	liege = d_olcades
+}

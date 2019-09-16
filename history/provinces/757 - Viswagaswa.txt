@@ -1,0 +1,15 @@
+# 757 - Viswagaswa
+
+# County Title
+title = c_viswagaswa
+
+# Settlements
+max_settlements = 1
+b_viswagaswa_viswagaswa = castle
+
+# Misc
+culture = shauraseni
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

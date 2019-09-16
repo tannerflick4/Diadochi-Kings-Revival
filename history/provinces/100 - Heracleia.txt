@@ -1,0 +1,19 @@
+# 100 - Heracleia
+
+# County Title
+title = c_heraclea_pontica # for example c_corinth
+
+# Settlements
+max_settlements = 5
+b_heraclea_heraclea_pontica = castle
+b_elaios_heraclea_pontica = temple
+b_kales_heraclea_pontica = city
+b_metroon_heraclea_pontica = city
+b_dadybra_heraclea_pontica = castle
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

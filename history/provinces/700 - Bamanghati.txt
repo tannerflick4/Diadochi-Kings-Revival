@@ -1,0 +1,15 @@
+# 700 - Bamanghati
+
+# County Title
+title = c_bamanghati
+
+# Settlements
+max_settlements = 1
+b_bamanghati_bamanghati = castle
+
+# Misc
+culture = telegu
+religion = jainism_main
+
+# History
+# Can be filled when things change around the province

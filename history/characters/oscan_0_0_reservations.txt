@@ -1,0 +1,6 @@
+# 160001-170000 for oscan characters
+	# 160001-160100 for the Numestrani dynasty
+	# 160101-160200 for the Bruttii dynasty
+	# 160201-160300 for the Pontii dynasty
+	# 160301-160400 for the Frentani dynasty
+	# 160401-160500 for the Mamertini dynasty

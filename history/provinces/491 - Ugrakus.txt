@@ -1,0 +1,16 @@
+# 491 - Ugrakus
+
+# County Title
+title = c_ugrakus
+
+# Settlements
+max_settlements = 2
+b_ugrakus_ugrakus = castle
+b_chivayabrata_ugrakus = city
+
+# Misc
+culture = sarmatian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

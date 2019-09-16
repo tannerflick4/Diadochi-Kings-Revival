@@ -1,0 +1,16 @@
+# 663 - Katharagama
+
+# County Title
+title = c_katharagama
+
+# Settlements
+max_settlements = 2
+b_katharigama_katharigama = castle
+b_maagrammon_katharigama = city
+
+# Misc
+culture = tamil
+religion = dravidian_main
+
+# History
+# Can be filled when things change around the province

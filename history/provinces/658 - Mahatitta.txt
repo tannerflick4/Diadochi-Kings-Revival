@@ -1,0 +1,16 @@
+# 658 - Mahatitta
+
+# County Title
+title = c_mahatitta
+
+# Settlements
+max_settlements = 2
+b_mahatitta_mahatitta = castle
+b_modoutou_mahatitta = city
+
+# Misc
+culture = sinhala
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

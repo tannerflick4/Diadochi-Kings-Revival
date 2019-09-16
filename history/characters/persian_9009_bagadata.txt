@@ -1,0 +1,31 @@
+# 90801-90900 for the Bagadata dynasty
+90801 = {
+	name = "Bagadata" # Bagadat I, Seleucid satrap of Persis. Later rebelled
+	dynasty = 9009
+	culture = persian
+	religion = zoroastrian_main
+	
+	437.1.1 = { # 339 BC, Made up
+		birth="yes"
+	}
+	498.1.1 = { # 278 BC, Made up
+		death="yes"
+	}
+}
+90802 = {
+	name = "Wahbarz" # Oborzos, son of Bagadata
+	dynasty = 9009
+	culture = persian
+	religion = zoroastrian_main
+	
+	father = 90801
+	
+	458.1.1 = { # 318 BC, Made up
+		birth="yes"
+	}
+	500.1.1 = { # 276 BC, Made up
+		death = {
+			death_reason = death_execution
+		}
+	}
+}

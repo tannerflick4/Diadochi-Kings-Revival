@@ -1,0 +1,19 @@
+# 22301-22400 for the Kratesipoloi dynasty
+22301 = {
+	name = "Kratesipolis" # Wife of Alexander, son of Polyperchon
+	dynasty = 2024 # Kratesipoloi
+	religion = greek_main
+	culture = doric
+	female = yes
+	
+	add_trait = fair
+	add_trait = kind
+	add_trait = deceitful
+	
+	433.1.1 = { # Made up
+		birth="yes" # 343 BC
+	}
+	470.1.1 = { # Made up
+		death="yes" # 306 BC
+	}
+}

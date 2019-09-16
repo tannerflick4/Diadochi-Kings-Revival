@@ -1,0 +1,20 @@
+# 1206 - Capera
+
+# County Title
+title = c_capera
+
+# Settlements
+max_settlements = 1
+b_capera_capera = castle
+
+# Misc
+culture = celtiberian
+religion = celtic_main
+
+
+
+
+
+
+# History
+# Can be filled when things change around the province

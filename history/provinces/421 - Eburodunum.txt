@@ -1,0 +1,20 @@
+# 421 - Eburodunum
+
+# County Title
+title = c_eburodunum
+
+# Settlements
+max_settlements = 4
+b_eburodunum_eburodunum = castle
+b_sedena_eburodunum = city
+b_rigomagus_eburodunum = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_mustae_calmes_eburodunum
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

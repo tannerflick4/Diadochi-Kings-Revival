@@ -1,0 +1,18 @@
+# 911 - Praesidium
+
+# County Title
+title = c_praesidium
+
+# Settlements
+max_settlements = 4
+b_praesidium_praesidium = castle
+b_ossonoba_praesidium = city
+b_tharsis_praesidium = castle
+#b_serpa_praesidium = castle
+
+# Misc
+culture = old_tartessian
+religion = iberian_main
+
+# History
+# Can be filled when things change around the province

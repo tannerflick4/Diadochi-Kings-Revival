@@ -1,0 +1,33 @@
+# 22701-22800 for the Agathoklidai dynasty
+22701 = {
+	name = "Agathokles" # King of Sicily
+	dynasty = 2028 # Agathoklidai
+	religion = greek_main
+	culture = doric
+	
+	health = 3 # Plagued by ill-health
+	
+	add_trait = cruel
+	add_trait = diligent
+	
+	415.1.1 = { # Made up
+		birth="yes" # 361 BC
+	}
+	487.1.1 = { # Made up
+		death="yes" # 289 BC
+	}
+}
+22702 = {
+	name = "Lanassa" # Daughter of Agathocles, wife of Pyrrhus and Demetrius
+	dynasty = 2028 # Agathoklidai
+	religion = greek_main
+	culture = doric
+	female = yes
+	father = 22701
+	451.1.1 = { # Made up
+		birth="yes" # 325 BC
+	}
+	507.1.1 = { # Made up
+		death="yes" # 269 BC
+	}
+}

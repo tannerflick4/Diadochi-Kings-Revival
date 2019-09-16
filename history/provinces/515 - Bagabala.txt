@@ -1,0 +1,15 @@
+# 515 - Bagabala
+
+# County Title
+title = c_bagabala
+
+# Settlements
+max_settlements = 1
+b_bagabala_bagabala = castle
+
+# Misc
+culture = sarmatian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

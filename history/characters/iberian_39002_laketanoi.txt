@@ -1,0 +1,14 @@
+# 390101-390200 for the Lacetani dynasty
+390101 = {
+	name = "Baisebilos" # Made up Lacetani leader
+	dynasty = 39002
+	culture = iberian
+	religion = iberian_main
+	
+	392.1.1 = { # 384 BC, Made up
+		birth="yes"
+	}
+	467.1.1 = { # 309 BC
+		death="yes"
+	}
+}

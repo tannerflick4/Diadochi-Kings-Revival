@@ -1,0 +1,16 @@
+415.1.1 = { # 361 BC
+	holder = 320104 # Abd'allah
+	liege = d_lihyan
+}
+442.1.1 = { # 336 BC
+	holder = 320103
+}
+465.1.1 = { # 311 BC, Made up
+	liege = 0
+}
+475.1.1 = { # 301 BC, Made up
+	holder = 320101 # Waqi'ha'el
+}
+490.1.1 = {
+	holder = 320102 # Wahab-Allah
+}

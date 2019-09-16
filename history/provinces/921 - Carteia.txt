@@ -1,0 +1,20 @@
+# 921 - Carteia
+
+# County Title
+title = c_carteia
+
+# Settlements
+max_settlements = 5
+b_carteia_carteia = castle
+b_belo_carteia = city
+b_tingentera_carteia = city
+#b_mellaria_carteia = city
+b_onoba_carteia = castle
+
+# Misc
+culture = turdetanian
+religion = iberian_main
+
+
+# History
+# Can be filled when things change around the province

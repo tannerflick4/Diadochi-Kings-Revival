@@ -1,0 +1,18 @@
+# 397 - Senia
+
+# County Title
+title = c_senia
+
+# Settlements
+max_settlements = 4
+b_senia_senia = castle
+b_apsarus_senia = city
+b_curicum_senia = city
+b_tarsatica_senia = castle
+
+# Misc
+culture = venetic
+religion = illyrian_main
+
+# History
+# Can be filled when things change around the province

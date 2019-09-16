@@ -1,0 +1,16 @@
+# 934 - Kili
+
+# County Title
+title = c_kili
+
+# Settlements
+max_settlements = 2
+b_kili_kili = castle
+b_kelin_kili = city
+
+# Misc
+culture = iberian
+religion = iberian_main
+
+# History
+# Can be filled when things change around the province

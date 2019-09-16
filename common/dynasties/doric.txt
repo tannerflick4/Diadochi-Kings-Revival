@@ -1,0 +1,198 @@
+#1001-2000 for doric(formerly Epirote) dynasties
+1001 = {
+	name = "Aiakidai"
+	culture = doric
+}
+1002 = {
+	name = "Sosandridai"
+	culture = doric
+}
+1003 = {
+	name = "Menedamidai"
+	culture = doric
+}
+# 2001-3000 for doric dynasties
+2001 = {
+	name = "Agiadai"
+	culture = doric
+}
+2002 = {
+	name = "Sibyrtiadai"
+	culture = doric
+}
+2003 = {
+	name = "Korinthioi"
+	culture = doric
+}
+2004 = {
+	name = "Pylioi"
+	culture = doric
+}
+2005 = {
+	name = "Olympioi"
+	culture = doric
+}
+2006 = {
+	name = "Leukioi"
+	culture = doric
+}
+2007 = {
+	name = "Zakynthioi"
+	culture = doric
+}
+2008 = {
+	name = "Megarioi"
+	culture = doric
+}
+2009 = {
+	name = "Therioi"
+	culture = doric
+}
+2010 = {
+	name = "Argioi"
+	culture = doric
+}
+2011 = {
+	name = "Lakones"
+	culture = doric
+}
+2012 = {
+	name = "Sikeloi"
+	culture = doric
+}
+2013 = {
+	name = "Spartiatai"
+	culture = doric
+}
+2014 = {
+	name = "Tarantinoi"
+	culture = doric
+}
+2015 = {
+	name = "Kallipolioi"
+	culture = doric
+}
+2016 = {
+	name = "Metapontioi"
+	culture = doric
+}
+2017 = {
+	name = "Sipontioi"
+	culture = doric
+}
+2018 = {
+	name = "Rhodioi"
+	culture = doric
+}
+2019 = {
+	name = "Delphioi"
+	culture = doric
+}
+2020 = {
+	name = "Epidaurioi"
+	culture = doric
+}
+2021 = {
+	name = "Kosoi"
+	culture = doric
+}
+2022 = {
+	name = "Messenioi"
+	culture = doric
+}
+2023 = {
+	name = "Aetolioi"
+	culture = doric
+}
+2024 = {
+	name = "Kratesipoloi"
+	culture = doric
+}
+2025 = {
+	name = "Knossioi"
+	culture = doric
+}
+2026 = {
+	name = "Kydonioi"
+	culture = doric
+}
+2027 = {
+	name = "Kerkyroi" 
+	culture = doric
+}
+2028 = {
+	name = "Agathoklidai" 
+	culture = doric
+}
+2029 = {
+	name = "Syrakousioi"
+	culture = doric
+}
+2030 = {
+	name = "Neapolitai"
+	culture = doric
+}
+2031 = {
+	name = "Theotimidai" # Leaders of Phocis during 3rd Sacred war, might be incorrect
+	culture = doric
+}
+2032 = {
+	name = "Phalaikoi" # Leader of Phocis, might be incorrect
+	culture = doric
+}
+2033 = {
+	name = "Akarnanioi"
+	culture = doric
+}
+2034 = {
+	name = "Kephallenioi"
+	culture = doric
+}
+2035 = {
+	name = "Korinthoi"
+	culture = doric
+}
+2036 = {
+	name = "Argolidai"
+	culture = doric
+}
+2037 = {
+	name = "Achaioi"
+	culture = doric
+}
+2038 = {
+	name = "Elidai"
+	culture = doric
+}
+2039 = {
+	name = "Messenidai"
+	culture = doric
+}
+2040 = {
+	name = "Epidamnioi"
+	culture = doric
+}
+2041 = { 
+	name = "Dionysidai"
+	culture = doric
+}
+2042 = {
+	name = "Hipparinidai"
+	culture = doric
+}
+2043 = {
+	name = "Timodemidai"
+	culture = doric
+}
+2044 = {
+	name = "Latoi"
+	culture = doric
+}
+2045 = {
+	name = "Malidai"
+	culture = doric
+}
+2046 = { 
+	name = "Astakioi"
+	culture = doric
+}

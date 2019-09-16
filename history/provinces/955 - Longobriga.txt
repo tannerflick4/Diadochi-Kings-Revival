@@ -1,0 +1,18 @@
+# 955 - Longobriga
+
+# County Title
+title = c_longobriga
+
+# Settlements
+max_settlements = 4
+b_longobriga_longobriga = castle
+b_medubriga_longobriga = castle
+b_caliabriga_longobriga = city
+#b_aravorum_longobriga = city
+
+# Misc
+culture = lusitanian
+religion = lusitanian_main
+
+# History
+# Can be filled when things change around the province

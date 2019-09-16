@@ -1,0 +1,17 @@
+# 761 - Semylla
+
+# County Title
+title = c_semylla
+
+# Settlements
+max_settlements = 3
+b_semylla_semylla = castle
+b_mahabaleswara_semylla = temple
+b_mandagara_semylla = city
+
+# Misc
+culture = maharashtri
+religion = buddhism_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,26 @@
+# 21601-21700 for the Sipontioi dynasty
+21601 = {
+	name = "Kleomenes" # Tarentum
+	dynasty = 2017 # Sipontioi
+	religion = greek_main
+	culture = doric
+	383.1.1 = { # 367 BC Made up
+		birth="yes"
+	}
+	471.1.1 = { # 305 BC Made up
+		death="yes"
+	}
+}
+21602 = {
+	name = "Hermes" # Tarentum
+	dynasty = 2017 # Sipontioi
+	religion = greek_main
+	culture = doric
+	father = 21601
+	422.1.1 = { # 354 BC Made up
+		birth="yes"
+	}
+	498.1.1 = { # 278 BC Made up
+		death="yes"
+	}
+}

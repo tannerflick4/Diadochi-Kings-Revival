@@ -1,0 +1,26 @@
+# 14001-15000 for illyrian dynasties
+
+14001 = {
+	name = "Dardani"
+	culture = illyrian
+}
+14002 = {
+	name = "Taulantii"
+	culture = illyrian
+}
+14003 = {
+	name = "Autariatae"
+	culture = illyrian
+}
+14004 = {
+	name = "Dalmatae"
+	culture = illyrian
+}
+14005 = {
+	name = "Iapyges"
+	culture = illyrian
+}
+14006 = {
+	name = "Ardiaei"
+	culture = illyrian
+}

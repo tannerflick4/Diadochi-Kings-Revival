@@ -1,0 +1,22 @@
+# 74 - Sala
+
+# County Title
+title = c_sala
+
+# Settlements
+max_settlements = 4
+b_sala_sala = castle
+b_savaria_sala = temple
+b_bassiana_sala = city
+b_mestrianis_sala = castle
+
+# Misc
+culture = illyrian
+religion = illyrian_main
+
+# History
+# Can be filled when things change around the province
+446.1.1 = { # 330 BC
+	culture = gaul
+	religion = celtic_main
+}

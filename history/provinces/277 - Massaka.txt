@@ -1,0 +1,17 @@
+# 277 - Massaka # Actually named Uraga in game
+
+# County Title
+title = c_massaka
+
+# Settlements
+max_settlements = 3
+b_uraga_massaka = castle
+b_puskalavati_massaka = city
+b_aoritos_massaka = city
+
+# Misc
+culture = gandhari
+religion = buddhism_main
+
+# History
+# Can be filled when things change around the province

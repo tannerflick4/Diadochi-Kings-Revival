@@ -1,0 +1,17 @@
+# 729 - Bhrigukaksha
+
+# County Title
+title = c_bhrigukaksha
+
+# Settlements
+max_settlements = 3
+b_bhrigukaksha_bhrigukaksha = castle
+b_kammoni_bhrigukaksha = city
+b_vadodara_bhrigukaksha = castle
+
+# Misc
+culture = shauraseni
+religion = jainism_main
+
+# History
+# Can be filled when things change around the province

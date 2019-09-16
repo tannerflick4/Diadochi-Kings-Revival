@@ -1,0 +1,19 @@
+# 182 - Nisibin
+
+# County Title
+title = c_nisibin
+
+# Settlements
+max_settlements = 5
+b_nisibin_nisibin = castle
+b_shilloh_nisibin = temple
+b_macharta_nisibin = city
+b_korde_nisibin = castle
+b_arzamon_nisibin = castle
+
+# Misc
+culture = aramaic
+religion = marduk_cult
+
+# History
+# Can be filled when things change around the province

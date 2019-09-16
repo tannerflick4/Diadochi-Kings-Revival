@@ -1,0 +1,18 @@
+# 840 - Euaissa
+
+# County Title
+title = c_euaissa
+
+# Settlements
+max_settlements = 4
+b_euaissa_euaissa = castle
+b_kampai_euaissa = city
+b_soanda_euaissa = castle
+b_ochras_euaissa = castle
+
+# Misc
+culture = cappadocian
+religion = anatolian_main
+
+# History
+# Can be filled when things change around the province

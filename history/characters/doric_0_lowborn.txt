@@ -1,0 +1,45 @@
+# 29901-30000 for the doric Lowborns
+29901 = {
+	name = "Doris" # Wife of Dionysius the Elder
+	dynasty = 0 # Lowborn	
+	religion = greek_main
+	culture = doric
+	female = yes
+	357.1.1 = { # 419 BC Made Up
+		birth="yes"
+	}
+	413.1.1 = {
+		death="yes" # 363 BC Made Up
+	}
+}
+29902 = {
+	name = "Nysaios" # Tyrant of Syracuse
+	dynasty = 0 # Lowborn	
+	religion = greek_main
+	culture = doric
+	374.1.1 = { # 402 BC Made Up
+		birth="yes"
+	}
+	430.1.1 = { # 346 BC Made Up
+		death="yes"
+	}
+}
+29903 = {
+	name = "Pythia" # Pythia of Delphi
+	dynasty = 0 # Lowborn
+	religion = greek_main
+	culture = doric
+	
+	female = yes
+	
+	# This character is very generic, should probably die in the startup event
+	1.1.1 = { 
+		birth="yes"
+		effect = {
+			set_character_flag = is_pythia
+		}
+	}
+	900.1.1 = {
+		death="yes"
+	}
+}

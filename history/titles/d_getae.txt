@@ -1,0 +1,9 @@
+389.1.1 = { # 387 BC
+	holder = 40203 # Langarus
+}
+430.1.1 = { # 346 BC
+	holder = 40201 # Cothelas
+}
+476.1.1 = { # 300 BC
+	holder = 40202 # Dromichaetes
+}

@@ -1,0 +1,17 @@
+# 232 - Aharawan
+
+# County Title
+title = c_aharawan
+
+# Settlements
+max_settlements = 3
+b_aharawan_aharawan = castle
+b_chaharla_aharawan = temple
+b_pharambara_aharawan = castle
+
+# Misc
+culture = median
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

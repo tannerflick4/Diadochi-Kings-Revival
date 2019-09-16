@@ -1,0 +1,16 @@
+# 500 - Brinvaski
+
+# County Title
+title = c_brinvaski
+
+# Settlements
+max_settlements = 2
+b_brinvaski_brinvaski = castle
+b_frica_brinvaski = temple
+
+# Misc
+culture = sarmatian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,74 @@
+# 23001-24000 for gaul characters
+
+23001 = {
+	name = "Senones"
+	culture = gaul
+}
+23002 = {
+	name = "Insubres"
+	culture = gaul
+}
+23003 = {
+	name = "Boii"
+	culture = gaul
+}
+23004 = {
+	name = "Norici"
+	culture = gaul
+}
+23005 = {
+	name = "Taurisci"
+	culture = gaul
+}
+23006 = {
+	name = "Eravisci"
+	culture = gaul
+}
+23007 = {
+	name = "Azili"
+	culture = gaul
+}
+23008 = {
+	name = "Breuci"
+	culture = gaul
+}
+23009 = {
+	name = "Scordisci"
+	culture = gaul
+}
+23010 = {
+	name = "Bastarnae"
+	culture = gaul
+}
+23011 = {
+	name = "Saluvii"
+	culture = gaul
+}
+23012 = {
+	name = "Vocontii"
+	culture = gaul
+}
+23013 = {
+	name = "Allobroges"
+	culture = gaul
+}
+23014 = {
+	name = "Aedui"
+	culture = gaul
+}
+23015 = {
+	name = "Sequani"
+	culture = gaul
+}
+23016 = {
+	name = "Salassi"
+	culture = gaul
+}
+23017 = {
+	name = "Sevaces"
+	culture = gaul
+}
+23018 = {
+	name = "Ambisontes"
+	culture = gaul
+}

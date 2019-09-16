@@ -1,0 +1,14 @@
+# 200001-200100 for the Dardanii dynasty
+200001 = {
+	name = "Trebiis" # Made up
+	dynasty = 20001 # Dardanii
+	religion = roman_main
+	culture = umbrian
+	father = 200102
+	421.1.1 = { # 355 BC Made up
+		birth="yes"
+	}
+	471.1.1 = { # 305 BC Made up
+		death="yes"
+	}
+}

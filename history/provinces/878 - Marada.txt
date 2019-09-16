@@ -1,0 +1,15 @@
+# 878 - Marada
+
+# County Title
+title = c_marada
+
+# Settlements
+max_settlements = 1
+b_marada_marada = castle
+
+# Misc
+culture = berber
+religion = berber_main
+
+# History
+# Can be filled when things change around the province

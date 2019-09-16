@@ -1,0 +1,20 @@
+# 829 - Attouda
+
+# County Title
+title = c_attouda
+
+# Settlements
+max_settlements = 5
+b_attouda_attouda = castle
+b_aphrodisias_attouda = temple
+b_harpasa_attouda = city
+b_trapezopolis_attouda = castle
+
+#b_antiocheia_attouda = city
+
+# Misc
+culture = luwian
+religion = anatolian_main
+
+# History
+# Can be filled when things change around the province

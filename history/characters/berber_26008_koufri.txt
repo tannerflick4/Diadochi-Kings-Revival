@@ -1,0 +1,59 @@
+# 260701-260800 for the Koufri dynasty
+260701 = {
+	name = "Bercanus" # Made up
+	dynasty = 26008
+	culture = berber
+	religion = berber_main
+
+	373.1.1 = { # 403 BC
+		birth="yes"
+	}
+	440.1.1 = { # 336 BC
+		death="yes"
+	}
+}
+260702 = {
+	name = "Tegamas" # Made up
+	dynasty = 26008
+	culture = berber
+	religion = berber_main
+
+	father = 260701
+
+	414.1.1 = { # 362 BC
+		birth="yes"
+	}
+	471.1.1 = { # 305 BC
+		death="yes"
+	}
+}
+260703 = {
+	name = "Bercanus" # Made up
+	dynasty = 26008
+	culture = berber
+	religion = berber_main
+
+	father = 260702
+
+	451.1.1 = { # 325 BC
+		birth="yes"
+	}
+	512.1.1 = { # 264 BC
+		death="yes"
+	}
+}
+260704 = {
+	name = "Siphales" # Made up
+	dynasty = 26008
+	culture = berber
+	religion = berber_main
+
+	father = 260703
+
+	472.1.1 = { # 304 BC
+		birth="yes"
+	}
+	531.1.1 = { # 245 BC
+		death="yes"
+	}
+}

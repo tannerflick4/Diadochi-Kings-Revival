@@ -1,0 +1,27 @@
+# 430101-430200 for the Elbocori dynasty
+430101 = {
+	name = "Taporus" # Made up Elbocori leader
+	dynasty = 43002
+	culture = lusitanian
+	religion = lusitanian_main
+	
+	370.1.1 = { # 406 BC, Made up
+		birth="yes"
+	}
+	444.1.1 = { # 332 BC
+		death="yes"
+	}
+}
+430102 = {
+	name = "Vendicus" # Made up Elbocori leader
+	dynasty = 43002
+	culture = lusitanian
+	religion = lusitanian_main
+	
+	430.1.1 = { # 346 BC, Made up
+		birth="yes"
+	}
+	500.1.1 = { # 276 BC
+		death="yes"
+	}
+}

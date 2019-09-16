@@ -1,0 +1,17 @@
+# 239 - Hulwan
+
+# County Title
+title = c_hulwan
+
+# Settlements
+max_settlements = 3
+b_hulwan_hulwan = castle
+b_zagrou_pylai_hulwan = temple
+b_syarazur_hulwan = castle
+
+# Misc
+culture = median
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

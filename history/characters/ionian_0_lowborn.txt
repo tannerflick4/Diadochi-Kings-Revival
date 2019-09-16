@@ -1,0 +1,29 @@
+# 59901-60000 for the Lowborns
+59901 = {
+	name = "Kalippos" # Tyrant of Syracuse
+	dynasty = 0 # Lowborn
+	religion = greek_main
+	culture = ionian
+	389.1.1 = {  
+		birth="yes" # 387 BC Made Up
+	}
+	424.1.1 = { # 352 BC
+		death = {
+			death_reason = death_murder
+			killer = 24006
+		}
+	}
+}
+59902 = {
+	name = "AI" # Added to fix a bug that has the last dying character in the dynasty view before they are even born.
+	dynasty = 0
+	religion = greek_main
+	culture = ionian
+	
+	1.1.1 = {
+		birth="yes"
+	}
+	1000.1.1 = {
+		death="yes"
+	}
+}

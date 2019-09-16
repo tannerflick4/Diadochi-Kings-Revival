@@ -1,0 +1,7 @@
+416.1.1 = { # 360 BC
+	holder = 121101 # Avinita
+	liege = d_gomanta
+}
+474.1.1 = { # 302 BC
+	holder = 121102 # Shivamara
+}

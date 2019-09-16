@@ -1,0 +1,19 @@
+# 70101-70200 for the Azo dynasty
+70101 = {
+	name = "Azo"
+	dynasty = 7002 # Azo
+	religion = georgian_main
+	culture = georgian
+	
+	add_trait = cruel
+	add_trait = arbitrary
+	
+	419.1.1 = {
+		birth="yes" # 357 BC
+	}
+	474.1.1 = {
+		death = {
+			death_reason = death_battle # 302 BC
+		}	
+	}
+}

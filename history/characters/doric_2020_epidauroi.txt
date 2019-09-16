@@ -1,0 +1,26 @@
+# 21901-22000 for the Epidauroi dynasty
+21901 = {
+	name = "Demokritos" # Rhodes
+	dynasty = 2020 # Epidauroi
+	religion = greek_main
+	culture = doric
+	401.1.1 = { # 375 BC Made up
+		birth="yes"
+	}
+	475.1.1 = { # 301 BC Made up
+		death="yes"
+	}
+}
+21902 = {
+	name = "Xenon" # Rhodes
+	dynasty = 2020 # Epidauroi
+	religion = greek_main
+	culture = doric
+	father = 21901
+	430.1.1 = { # 346 BC Made up
+		birth="yes"
+	}
+	497.1.1 = { # 279 BC Made up
+		death="yes"
+	}
+}

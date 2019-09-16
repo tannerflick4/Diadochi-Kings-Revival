@@ -1,0 +1,25 @@
+# 395 - Segestica
+
+# County Title
+title = c_segestica
+
+# Settlements
+max_settlements = 5
+b_segestica_segestica = castle
+b_andautonia_segestica = city
+b_colapis_segestica = city
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_varianae_segestica
+# b_balissae_segestica
+
+# Misc
+culture = illyrian
+religion = illyrian_main
+
+# History
+# Can be filled when things change around the province
+476.1.1 = { # 300 BC
+	culture = gaul
+	religion = celtic_main
+}

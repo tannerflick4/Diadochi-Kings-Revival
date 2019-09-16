@@ -1,0 +1,26 @@
+# 20901-21000 for the Argioi dynasty
+20901 = {
+	name = "Isidoros" # Byzantion
+	dynasty = 2010 # Argioi
+	religion = greek_main
+	culture = doric
+	404.1.1 = { # 372 BC Made up
+		birth="yes"
+	}
+	468.1.1 = { # 308 BC Made up
+		death="yes"
+	}
+}
+20902 = {
+	name = "Hermolaos" # Byzantion
+	dynasty = 2010 # Argioi
+	religion = greek_main
+	culture = doric
+	father = 20901
+	418.1.1 = { # 358 BC Made up
+		birth="yes"
+	}
+	499.1.1 = { # 277 BC Made up
+		death="yes"
+	}
+}

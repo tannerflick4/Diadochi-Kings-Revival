@@ -1,0 +1,17 @@
+# 914 - Artigi
+
+# County Title
+title = c_artigi
+
+# Settlements
+max_settlements = 3
+b_artigi_artigi = castle
+b_brutobriga_artigi = city
+#b_metellinum_artigi = city
+
+# Misc
+culture = celtiberian
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

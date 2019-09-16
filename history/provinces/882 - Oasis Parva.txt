@@ -1,0 +1,15 @@
+# 882 - Oasis Parva
+
+# County Title
+title = c_oasis_parva
+
+# Settlements
+max_settlements = 2
+b_parva_parva = castle
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

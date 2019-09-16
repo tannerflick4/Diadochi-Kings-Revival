@@ -1,0 +1,54 @@
+# 320101-330200 for the Saraceni dynasty
+320101 = {
+	name = "Waqi'ha'el" # Ausara, Made up
+	dynasty = 32002 # Saraceni
+	culture = arabic
+	religion = arabic_main
+	father = 320103
+	439.1.1 = {
+		birth="yes" # 337 BC Made up
+	}
+	490.1.1 = {
+		death="yes" # 286 BC Made up
+	}
+}
+320102 = {
+	name = "Wahab-Allah" # Ausara, Made up
+	dynasty = 32002
+	culture = arabic
+	religion = arabic_main
+	477.1.1 = {
+		birth="yes" # 299 BC Made up
+	}
+	493.1.1 = {
+		add_spouse = 320003 # Gamilat
+	}
+	541.1.1 = {
+		death="yes" # 235 BC Made up
+	}
+}
+320103 = {
+	name = "Dani'el" # Ausara Made up
+	dynasty = 32002
+	culture = arabic
+	religion = arabic_main
+	father = 320104
+	419.1.1 = { # 357 BC
+		birth="yes"
+	}
+	475.1.1 = { # 301 BC
+		death="yes"
+	}
+}
+320104 = {
+	name = "Abd'allah" # Ausara Made up
+	dynasty = 32002
+	culture = arabic
+	religion = arabic_main
+	395.1.1 = { # 381 BC
+		birth="yes"
+	}
+	442.1.1 = { # 334 BC
+		death="yes"
+	}
+}

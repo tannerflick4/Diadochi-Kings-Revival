@@ -1,0 +1,12 @@
+412.1.1 = { # 364 BC
+	holder = 230904
+}
+427.1.1 = { # 349 BC, Greeks take over
+	holder = 51503
+}
+441.1.1 = { # 335 BC
+	holder = 51501 # Heliodoros of Massilia
+}
+461.1.1 = {
+	holder = 51502
+}

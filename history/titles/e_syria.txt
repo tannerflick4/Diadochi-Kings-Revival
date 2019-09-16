@@ -1,0 +1,6 @@
+467.1.1 = {
+	holder = 1001 # Seleukos I
+}
+495.8.1 = {
+	holder = 1002 # Antiochos I
+}

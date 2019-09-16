@@ -1,0 +1,23 @@
+# 194 - Opis
+
+# County Title
+title = c_opis
+
+# Settlements
+max_settlements = 7
+b_opis_opis = castle
+b_aberta_opis = temple
+b_bagdata_opis = city
+b_aspanbor_opis = castle
+b_coche_opis = city
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_seleucia_opis
+# b_ctesiphon_opis
+
+# Misc
+culture = akkadian
+religion = marduk_cult
+
+# History
+# Can be filled when things change around the province

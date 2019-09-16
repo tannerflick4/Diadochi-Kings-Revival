@@ -1,0 +1,52 @@
+# 230901-231000 for the Saluvii dynasty
+230901 = {
+	name = "Adiatunnus" # Made up
+	dynasty = 23011 # Saluvii
+	culture = gaul
+	religion = celtic_main
+	father = 230904
+	394.1.1 = { # Made up
+		birth="yes" # 382 BC
+	}
+	462.1.1 = { # Made up
+		death="yes" # 314 BC
+	}
+}
+230902 = {
+	name = "Galba" # Saluvii Made up
+	dynasty = 23011 # Saluvii
+	culture = gaul
+	religion = celtic_main
+	father = 230901
+	415.1.1 = { # 361 BC
+		birth="yes"
+	}
+	473.1.1 = { # 303 BC
+		death="yes"
+	}
+}
+230903 = {
+	name = "Brennus" # Saluvii Made up
+	dynasty = 23011 # Saluvii
+	culture = gaul
+	religion = celtic_main
+	father = 230902
+	434.1.1 = { # 342 BC
+		birth="yes"
+	}
+	496.1.1 = { # 280 BC
+		death="yes"
+	}
+}
+230904 = {
+	name = "Adiatunnus" # Made up
+	dynasty = 23011 # Saluvii
+	culture = gaul
+	religion = celtic_main
+	375.1.1 = { # Made up
+		birth="yes" # 401 BC
+	}
+	435.1.1 = { # Made up
+		death="yes" # 341 BC
+	}
+}

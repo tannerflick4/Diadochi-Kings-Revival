@@ -1,0 +1,23 @@
+# 98 - Nicaea
+
+# County Title
+title = c_nicaea # for example c_corinth
+
+# Settlements
+max_settlements = 6
+b_ancore_nicaea = castle
+b_kabia_nicaea = temple
+b_terbos_nicaea = castle
+b_otrioa_nicaea = city
+b_mygdum_nicaea = castle
+b_syllanta_nicaea = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_nicaea_nicaea
+
+# Misc
+culture = thracian
+religion = thracian_main
+
+# History
+# Can be filled when things change around the province

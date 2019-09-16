@@ -1,0 +1,25 @@
+# 2401-2500 for the Antigenidai dynasty
+2401 = {
+	name = "Antigenes" # Later satrap of Susiana
+	dynasty = 25 # Antigenidai
+	religion = greek_main
+	culture = macedonian
+	
+	add_trait = tough_soldier
+	
+	411.1.1 = {
+		birth="yes" # 365 BC Made up
+	}
+	434.1.1 = { # 340 BC
+		add_trait = maimed # Lost an eye
+	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	460.1.1 = { # 316 BC
+		death = {
+			death_reason = death_execution
+			killer = 401 # Antigonus
+		}
+	}
+}

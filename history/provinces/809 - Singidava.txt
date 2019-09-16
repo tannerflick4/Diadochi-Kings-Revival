@@ -1,0 +1,17 @@
+# 809 - Singidava
+
+# County Title
+title = c_singidava
+
+# Settlements
+max_settlements = 3
+b_singidava_singidava = castle
+b_ulpianum_singidava = city
+b_resculum_singidava = castle
+
+# Misc
+culture = dacian
+religion = zalmoxism
+
+# History
+# Can be filled when things change around the province

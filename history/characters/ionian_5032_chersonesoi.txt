@@ -1,0 +1,52 @@
+# 52601-52700 for the Chersonesoi dynasty
+52601 = {
+	name = "Eukleides" # Chersonesos, Made up
+	dynasty = 5032 # Chersonesoi
+	religion = greek_main
+	culture = ionian
+	father = 52603
+	439.1.1 = {
+		birth="yes" # 337 BC, Made up
+	}
+	504.1.1 = {
+		death="yes" # 272 BC, Made up
+	}
+}
+52602 = {
+	name = "Hermes" # Chersonesos, Made up
+	dynasty = 5032 # Chersonesoi
+	religion = greek_main
+	culture = ionian
+	father = 52601 # Eukleides
+	465.1.1 = {
+		birth="yes" # 311 BC, Made up
+	}
+	518.1.1 = {
+		death="yes" # 258 BC, Made up
+	}
+}
+52603 = {
+	name = "Prytanis" # Chersonesos, Made up
+	dynasty = 5032 # Chersonesoi
+	religion = greek_main
+	culture = ionian
+	father = 52604
+	393.1.1 = {
+		birth="yes" # 383 BC
+	}
+	451.1.1 = {
+		death="yes" # 325 BC
+	}
+}
+52604 = {
+	name = "Dionysios" # Chersonesos, Made up
+	dynasty = 5032 # Chersonesoi
+	religion = greek_main
+	culture = ionian
+	361.1.1 = {
+		birth="yes" # 415 BC
+	}
+	434.1.1 = {
+		death="yes" # 342 BC
+	}
+}

@@ -1,0 +1,8 @@
+416.1.1 = { # 360 BC
+	holding_dynasty = 2014
+	liege="k_r_tarentum"
+	holder= 21301
+}
+459.1.1 = {
+	holder = 21302
+}

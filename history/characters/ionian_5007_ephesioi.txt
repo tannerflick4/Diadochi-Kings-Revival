@@ -1,0 +1,26 @@
+# 50601-50700 for the Ephesioi dynasty
+50601 = {
+	name = "Lykourgos" # Tyras
+	dynasty = 5007 # Ephesioi
+	religion = greek_main
+	culture = ionian
+	397.1.1 = { # 381 BC Made up
+		birth="yes"
+	}
+	459.1.1 = { # 317 BC Made up
+		death="yes"
+	}
+}
+50602 = {
+	name = "Demosthenes" # Tyras
+	dynasty = 5007 # Ephesioi
+	religion = greek_main
+	culture = ionian
+	father = 50601
+	425.1.1 = { # 351 BC Made up
+		birth="yes"
+	}
+	496.1.1 = { # 280 BC Made up
+		death="yes"
+	}
+}

@@ -1,0 +1,9 @@
+405.1.1 = { # 371 BC
+	holder = 270501 # Daizus of the Caucoenses
+}
+455.1.1 = { # 321 BC
+	holder = 270502 # Natoporus
+}
+487.1.1 = { # 289 BC
+	holder = 270503 # Rigozus
+}

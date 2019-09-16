@@ -1,0 +1,17 @@
+# 775 - Bhojakata
+
+# County Title
+title = c_bhojakata
+
+# Settlements
+max_settlements = 3
+b_bhojakata_bhojakata = castle
+b_nagagoura_bhojakata = city
+b_sambuka_bhojakata = temple
+
+# Misc
+culture = maharashtri
+religion = buddhism_main
+
+# History
+# Can be filled when things change around the province

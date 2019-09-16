@@ -1,0 +1,16 @@
+# 485 - Satiporata
+
+# County Title
+title = c_satiporata
+
+# Settlements
+max_settlements = 2
+b_satiporata_satiporata = castle
+b_madumata_satiporata = temple
+
+# Misc
+culture = scythian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

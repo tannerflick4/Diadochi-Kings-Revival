@@ -1,0 +1,37 @@
+# 270501-270600 for the Caucoenses dynasty
+270501 = {
+	name = "Daizus" # Made up
+	dynasty = 27006 # Caucoenses
+	culture = dacian
+	religion = zalmoxism
+	376.1.1 = { # 400 BC, Made up
+		birth="yes"
+	}
+	455.1.1 = { # 321 BC, Made up
+		death="yes"
+	}
+}
+270502 = {
+	name = "Natoporus" # Made up
+	dynasty = 27006
+	culture = dacian
+	religion = zalmoxism
+	408.1.1 = { # Made up
+		birth="yes" # 368 BC
+	}
+	487.1.1 = { # Made up
+		death="yes" # 289 BC
+	}
+}
+270503 = {
+	name = "Rigozus" # Made up
+	dynasty = 27006
+	culture = dacian
+	religion = zalmoxism
+	428.1.1 = { # Made up
+		birth="yes" # 348 BC
+	}
+	513.1.1 = { # Made up
+		death="yes" # 263 BC
+	}
+}

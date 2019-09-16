@@ -1,0 +1,31 @@
+# 18 - Athens
+
+# County Title
+title = c_athens # for example c_corinth
+
+# Settlements
+max_settlements = 7
+b_athens_athens = city
+b_acropolis_athens = castle
+b_sounion_athens = temple
+b_thorikos_athens = castle
+b_eleusis_athens = temple
+b_piraios_athens = city
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_eleutherai_athens = castle
+# b_oropos_athens = temple
+# b_marathon_athens = city
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province
+459.1.1 = { # 317 BC, Oligarchy
+	capital = b_acropolis_athens
+}
+469.1.1 = { # 307 BC
+	capital = b_athens_athens
+}

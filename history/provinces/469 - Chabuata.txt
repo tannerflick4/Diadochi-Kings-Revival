@@ -1,0 +1,18 @@
+# 469 - Chabuata
+
+# County Title
+title = c_chabuata
+
+# Settlements
+max_settlements = 4
+b_chabuata_chabuata = castle
+b_appa_chabuata = city
+b_rhegana_chabuata = city
+b_cryptus_chabuata = city
+
+# Misc
+culture = arabic
+religion = arabic_main
+
+# History
+# Can be filled when things change around the province

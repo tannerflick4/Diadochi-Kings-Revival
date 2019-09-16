@@ -1,0 +1,14 @@
+# 390401-390500 for the Ilercavones dynasty
+390401 = {
+	name = "Iltiradin" # Made up Ilercavones leader
+	dynasty = 39005
+	culture = iberian
+	religion = iberian_main
+	
+	383.1.1 = { # 393 BC, Made up
+		birth="yes"
+	}
+	465.1.1 = { # 311 BC
+		death="yes"
+	}
+}

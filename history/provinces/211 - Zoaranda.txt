@@ -1,0 +1,18 @@
+# 211 - Zoaranda
+
+# County Title
+title = c_zoaranda
+
+# Settlements
+max_settlements = 4
+b_zoaranda_zoaranda = castle
+b_cymiza_zoaranda = temple
+b_dauduana_zoaranda = city
+b_phora_zoaranda = castle
+
+# Misc
+culture = armenian
+religion = armenian_main
+
+# History
+# Can be filled when things change around the province

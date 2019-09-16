@@ -1,0 +1,18 @@
+# 344 - Vercellae
+
+# County Title
+title = c_vercellae # for example c_corinth
+
+# Settlements
+max_settlements = 4
+b_vercellae_vercellae = castle
+b_novaria_vercellae = city
+b_cuttiae_vercellae = castle
+b_retovium_vercellae = temple
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

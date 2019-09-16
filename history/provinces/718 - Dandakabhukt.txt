@@ -1,0 +1,16 @@
+# 718 - Dandakabhukt
+
+# County Title
+title = c_dandakabhukt
+
+# Settlements
+max_settlements = 2
+b_dandakabhukt_dandakabhukt = castle
+b_malini_dandakabhukt = city
+
+# Misc
+culture = vedic # Magadhi
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

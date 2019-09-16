@@ -1,0 +1,12 @@
+379.1.1 = { # 397 BC
+	holder = 270904 # Dardanos
+}
+431.1.1 = { # 345 BC
+	holder = 270903 # Dardanos
+}
+445.1.1 = { # 331 BC
+	holder = 270901 # Rescuturme of the Costoboci
+}
+460.1.1 = { # 316 BC
+	holder = 270902 # Daiza
+}

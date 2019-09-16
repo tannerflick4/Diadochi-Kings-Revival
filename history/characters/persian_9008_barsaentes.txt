@@ -1,0 +1,13 @@
+# 90701-90800 for the Barsaentes dynasty
+90701 = {
+	name = "Barsaentes" # Last Achaemenid of Arachosia
+	dynasty = 9008 # Barsaentes
+	religion = zoroastrian_main
+	culture = persian
+	395.1.1 = { # 381 BC made up
+		birth="yes"
+	}
+	450.1.1 = { # 326 BC made up
+		death="yes"
+	}
+}

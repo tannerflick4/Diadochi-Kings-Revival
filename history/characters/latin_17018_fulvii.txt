@@ -1,0 +1,13 @@
+# 171701-171800 for the Fulvii dynasty
+171701 = {
+	name = "Marcus" # Fulvius Paetinus
+	dynasty = 17018 # Fulvii
+	religion = roman_main
+	culture = latin
+	443.1.1 = { # 333 BC Made up
+		birth="yes"
+	}
+	509.1.1 = { # 267 BC Made up
+		death="yes"
+	}
+}

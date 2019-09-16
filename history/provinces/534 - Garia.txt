@@ -1,0 +1,16 @@
+# 534 - Garia
+
+# County Title
+title = c_garia
+
+# Settlements
+max_settlements = 2
+b_garia_garia = castle
+b_huar_garia = city
+
+# Misc
+culture = scythian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

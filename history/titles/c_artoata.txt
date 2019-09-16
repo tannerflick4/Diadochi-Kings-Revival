@@ -1,0 +1,15 @@
+417.1.1 = {
+	holder = 90701
+	liege = k_p_arachosia
+}
+447.7.1 = { # 329 BC
+	holder = 20101 # Sibyrtios
+	liege="k_s_gedrosia"
+}
+456.1.1 = { # 320 BC
+	holder = 121401 # Rurak
+	liege = k_sindhu
+}
+469.1.1 = { # 307 BC
+	holder = 121403 # Harak
+}

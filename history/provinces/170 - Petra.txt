@@ -1,0 +1,23 @@
+# 170 - Petra
+
+# County Title
+title = c_petra
+
+# Settlements
+max_settlements = 6
+b_petra_petra = castle
+b_sobora_petra = temple
+b_negla_petra = city
+b_manopsora_petra = castle
+b_phaino_petra = castle
+
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_arindela_petra
+
+# Misc
+culture = nabataean
+religion = arabic_main
+
+# History
+# Can be filled when things change around the province

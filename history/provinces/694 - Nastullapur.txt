@@ -1,0 +1,15 @@
+# 694 - Nastullapur
+
+# County Title
+title = c_nastullapur
+
+# Settlements
+max_settlements = 1
+b_nastullapur_nastullapur = castle
+
+# Misc
+culture = telegu
+religion = dravidian_main
+
+# History
+# Can be filled when things change around the province

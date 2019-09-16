@@ -1,0 +1,17 @@
+# 159 - Paraetonium
+
+# County Title
+title = c_paraetonium
+
+# Settlements
+max_settlements = 3
+b_paraetonium_paraetonium = castle
+b_apis_paraetonium = temple
+b_selenis_paraetonium = castle
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

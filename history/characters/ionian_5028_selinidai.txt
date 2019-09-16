@@ -1,0 +1,26 @@
+# 52201-52300 for the Selinidai dynasty
+52201 = {
+	name = "Anaxagoras" # Selinus, made up
+	dynasty = 5028 # Selinidai
+	religion = greek_main
+	culture = ionian
+	father = 52202
+	418.1.1 = { # 358 BC
+		birth="yes"
+	}
+	500.1.1 = { # 276 BC
+		death="yes"
+	}
+}
+52202 = {
+	name = "Alexios" # Selinus, made up
+	dynasty = 5028
+	religion = greek_main
+	culture = ionian
+	376.1.1 = { 
+		birth="yes" # 400 BC Made Up
+	}
+	450.1.1 = {
+		death="yes" # 326 BC Made Up
+	}
+}

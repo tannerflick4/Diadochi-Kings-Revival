@@ -1,0 +1,17 @@
+# 806 - Sacidava
+
+# County Title
+title = c_sacidava
+
+# Settlements
+max_settlements = 3
+b_sacidava_sacidava = castle
+b_stenarum_sacidava = castle
+b_sandava_sacidava = city
+
+# Misc
+culture = dacian
+religion = zalmoxism
+
+# History
+# Can be filled when things change around the province

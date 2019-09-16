@@ -1,0 +1,23 @@
+# 352 - Olbia Sardinia
+
+# County Title
+title = c_olbia_sardinia # for example c_corinth
+
+# Settlements
+max_settlements = 6 # Should be reevaluated
+b_tibula_olbia_sardinia = city
+b_olbia_olbia_sardinia = castle
+b_feronia_olbia_sardinia = temple
+
+# Possible baronies: (Always add a # in front of a line with these!)
+#
+#
+#
+#
+
+# Misc
+culture = punic
+religion = punic_main
+
+# History
+# Can be filled when things change around the province

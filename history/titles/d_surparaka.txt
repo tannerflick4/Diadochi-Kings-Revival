@@ -1,0 +1,7 @@
+416.1.1 = { # 360 BC
+	holder = 121701 # Devasena
+	liege = k_maharashtrika
+}
+472.1.1 = { # 304 BC
+	holder = 121702 # Prithvisena
+}

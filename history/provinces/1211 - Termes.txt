@@ -1,0 +1,21 @@
+# 1211 - Termes
+
+# County Title
+title = c_termes
+
+# Settlements
+max_settlements = 2
+b_termes_termes = castle
+b_sekotias_termes = city
+
+# Misc
+culture = celtiberian
+religion = celtic_main
+
+
+
+
+
+
+# History
+# Can be filled when things change around the province

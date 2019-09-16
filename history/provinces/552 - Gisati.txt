@@ -1,0 +1,16 @@
+# 552 - Gisati
+
+# County Title
+title = c_gisati
+
+# Settlements
+max_settlements = 2
+b_gisati_gisati = castle
+b_aluthpada_gisati = castle
+
+# Misc
+culture = scythian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

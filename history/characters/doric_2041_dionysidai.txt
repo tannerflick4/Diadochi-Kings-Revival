@@ -1,0 +1,182 @@
+# 24001-24100 for the Dionysidai dynasty
+24001 = {
+	name = "Dionysios" # Dionysius the Elder, Tyrant of Syracuse
+	dynasty = 2041 # Dionysidai
+	religion = greek_main
+	culture = doric
+	father = 24004
+	
+	add_trait = cruel
+	add_trait = paranoid
+	add_trait = wroth
+	add_trait = skilled_tactician
+	
+	334.1.1 = { # 432 BC
+		birth="yes"
+	}
+	378.1.1 = { # 398 BC Made Up
+		add_spouse = 29901 # Doris
+		add_spouse = 24104 # Aristomache
+	}
+	409.1.1 = { # 367 BC
+		death="yes"
+		# The cause of death is disputed.
+	}
+}
+24002 = {
+	name = "Dionysios" # Dionysius II of Syracuse
+	dynasty = 2041 # Dionysidai
+	religion = greek_main
+	culture = doric
+	father = 24001 # Dionysius the Elder
+	mother = 29901 # Doris
+	
+	add_trait = hedonist
+	add_trait = cruel
+	add_trait = arbitrary
+	
+	379.1.1 = { # 397 BC
+		birth="yes"
+	}
+	396.1.1 = { # 380 BC
+		add_spouse = 24007 # Sophrosyne
+	}
+	433.1.1 = { # 343 BC
+		death="yes"
+	}
+}
+24003 = {
+	name = "Hipparinos" # Tyrant of Syracuse
+	dynasty = 2041 # Dionysidai
+	religion = greek_main
+	culture = doric
+	father = 24001 # Dionysius the Elder
+	mother = 24104 # Aristomache
+	387.1.1 = { # 389 BC Made Up
+		birth="yes"
+	}
+	425.1.1 = { # 351 BC Made Up
+		death = {
+			death_reason = death_murder
+			killer = 24105 # Aretaios
+		}
+	}
+}
+24004 = {
+	name = "Dionysios" # Made up father of Dionysius the Elder
+	dynasty = 2041 # Dionysidai
+	religion = greek_main
+	culture = doric
+	319.1.1 = {
+		birth="yes" # 457 BC Made Up
+	}
+	359.1.1 = {
+		death="yes" # 417 BC Made Up
+	}
+}
+24005 = { 
+	name = "Leptines" # Brother of Dionysius the Elder  
+	dynasty = 2041 # Dionysidai
+	religion = greek_main
+	culture = doric
+	father = 24004
+	
+	add_trait = brave
+	add_trait = tough_soldier
+	add_trait = kind
+	
+	348.1.1 = { 
+		birth="yes" # 428 BC Made Up
+	}
+	401.1.1 = { # 375 BC
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+24006 = {
+	name = "Leptines" # Son of Letines 
+	dynasty = 2041 # Dionysidai
+	religion = greek_main
+	culture = doric
+	
+	add_trait = tough_soldier
+	
+	father = 24005
+	382.1.1 = {
+		birth="yes" # 394 BC Made Up
+	}
+	439.1.1 = {
+		death="yes" # 337 BC Made Up
+	}
+}
+24007 = {
+	name = "Sophrosyne" # Daughter of Dionysius the Elder 
+	dynasty = 2041 # Dionysidai
+	religion = greek_main
+	culture = doric
+	female = yes
+	father = 24001 # Dionysius the Elder
+	mother = 24104 # Aristomache
+	380.1.1 = { 
+		birth="yes" # 396 BC Made Up
+	}
+	429.1.1 = {	# 347 BC Made Up
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+24008 = {
+	name = "Arete" # Daughter of Dionysius the Elder
+	dynasty = 2041 # Dionysidai
+	religion = greek_main
+	culture = doric
+	female = yes
+	father = 24001 # Dionysius the Elder
+	mother = 24104 # Aristomache
+	381.1.1 = { # 395 BC Made Up
+		birth="yes"
+	}
+	429.1.1 = {	# 347 BC Made Up
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+24009 = {
+	name = "Thearides" # Son of Dionysius the Elder
+	# Source: Plutarch, Life of Dion
+	dynasty = 2041 # Dionysidai
+	religion = greek_main
+	culture = doric
+	father = 24001 # Dionysius the Elder
+	mother = 29901 # Doris
+	382.1.1 = { # 394 BC Made Up
+		birth="yes"
+	}
+	398.1.1 = { # 378 BC Made Up
+		add_spouse = 24008 # Arete
+	}
+	399.1.1 = { # 377 BC Made Up
+		death="yes"
+	}
+}
+24010 = {
+	name = "Apollokrates" # Son of Dionysius II
+	dynasty = 2041 # Dionysidai
+	religion = greek_main
+	culture = doric
+	father = 24002 # Dionysios II
+	mother = 24007 # Sophrosyne
+	
+	add_trait = slothful
+	add_trait = drunkard
+	
+	399.1.1 = { 
+		birth="yes" # 377 BC Made Up
+	}
+	446.1.1 = {
+		death="yes" # 330 BC Made Up
+	}
+}

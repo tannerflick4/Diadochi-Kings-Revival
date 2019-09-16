@@ -1,0 +1,19 @@
+# 458 - Saba
+
+# County Title
+title = c_saba
+
+# Settlements
+max_settlements = 6
+b_saba_saba = castle
+b_nagia_saba = city
+b_nossa_saba = castle
+b_caripeta_saba = castle
+b_miraba_saba = temple
+
+# Misc
+culture = arabic
+religion = arabic_main
+
+# History
+# Can be filled when things change around the province

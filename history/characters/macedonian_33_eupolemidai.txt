@@ -1,0 +1,14 @@
+# 3201-3300 for the Epolemidai dynasty
+3201 = {
+	name = "Eupolemos"
+	dynasty = 33
+	culture = macedonian
+	religion = greek_main
+	
+	445.1.1 = { # 331 BC, Made up
+		birth="yes"
+	}
+	499.1.1 = { # 277 BC, Made up
+		death="yes"
+	}
+}

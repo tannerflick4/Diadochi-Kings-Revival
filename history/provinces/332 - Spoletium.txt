@@ -1,0 +1,24 @@
+# 332 - Spoletium
+
+# County Title
+title = c_spoletium # for example c_corinth
+
+# Settlements
+max_settlements = 6 # Should be reevaluated
+b_spoletium_spoletium = castle
+b_treva_spoletium = city
+b_ameria_spoletium = castle
+b_mevania_spoletium = temple
+
+# Possible baronies: (Always add a # in front of a line with these!)
+#
+#
+#
+#
+
+# Misc
+culture = umbrian
+religion = roman_main
+
+# History
+# Can be filled when things change around the province

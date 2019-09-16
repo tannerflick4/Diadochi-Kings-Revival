@@ -1,0 +1,39 @@
+# 50301-50400 for the Tyrioi dynasty
+50301 = {
+	name = "Alkaios" # Tyras, Made Up
+	dynasty = 5004 # Tyrioi
+	religion = greek_main
+	culture = ionian
+	father = 50303
+	377.1.1 = { # 399 BC Made up
+		birth="yes"
+	}
+	462.1.1 = { # 314 BC Made up
+		death="yes"
+	}
+}
+50302 = {
+	name = "Hippolytos" # Tyras, Made Up
+	dynasty = 5004 # Tyrioi
+	religion = greek_main
+	culture = ionian
+	father = 50301
+	420.1.1 = { # 356 BC Made up
+		birth="yes"
+	}
+	500.1.1 = { # 276 BC Made up
+		death="yes"
+	}
+}
+50303 = {
+	name = "Heliodoros" # Tyras, Made Up
+	dynasty = 5004 # Tyrioi
+	religion = greek_main
+	culture = ionian
+	352.1.1 = {
+		birth="yes" # 424 BC Made Up
+	}
+	428.1.1 = {
+		death="yes" # 348 BC Made Up
+	}
+}

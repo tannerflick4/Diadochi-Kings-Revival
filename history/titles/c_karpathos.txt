@@ -1,0 +1,7 @@
+413.1.1 = { # 363 BC	
+	holder = 21801 # Patrician Eupranor of Rhodes
+	liege = d_r_rhodes
+}
+466.1.1 = { # 310 BC
+	holder = 21802 # Amyntas
+}

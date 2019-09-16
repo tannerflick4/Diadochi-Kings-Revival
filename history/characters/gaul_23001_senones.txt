@@ -1,0 +1,52 @@
+# 230001-230100 for the Senones dynasty
+230001 = {
+	name = "Brennus" # Senones leader, Made up
+	dynasty = 23001 # Senones
+	religion = celtic_main
+	culture = gaul
+	father = 230004
+	421.1.1 = { # 355 BC Made up
+		birth="yes"
+	}
+	471.1.1 = { # 305 BC Made up
+		death="yes"
+	}
+}
+230002 = {
+	name = "Bathanatos" # Senones Made up
+	dynasty = 23001 # Senones
+	culture = gaul
+	religion = celtic_main
+	father = 230001
+	438.1.1 = { # 338 BC
+		birth="yes"
+	}
+	518.1.1 = { # 258 BC
+		death="yes"
+	}
+}
+230003 = {
+	name = "Diviciacus" # Made up
+	dynasty = 23001 # Senones
+	culture = gaul
+	religion = celtic_main
+	358.1.1 = { # Made up
+		birth="yes" # 418 BC
+	}
+	428.1.1 = { # Made up
+		death="yes" # 348 BC
+	}
+}
+230004 = {
+	name = "Cavarinus" # Made up
+	dynasty = 23001 # Senones
+	culture = gaul
+	religion = celtic_main
+	father = 230003
+	385.1.1 = { # Made up
+		birth="yes" # 391 BC
+	}
+	441.1.1 = { # Made up
+		death="yes" # 335 BC
+	}
+}

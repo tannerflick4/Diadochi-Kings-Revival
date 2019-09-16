@@ -1,0 +1,16 @@
+# 724 - Asthagoura
+
+# County Title
+title = c_asthagoura
+
+# Settlements
+max_settlements = 2
+b_asthagoura_asthagoura = castle
+b_chitrakuta_asthagoura = city
+
+# Misc
+culture = vedic # Magadhi
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

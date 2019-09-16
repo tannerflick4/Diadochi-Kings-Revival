@@ -1,0 +1,15 @@
+# 903 - Gat
+
+# County Title
+title = c_gat
+
+# Settlements
+max_settlements = 1
+b_gat_gat = castle
+
+# Misc
+culture = berber
+religion = berber_main
+
+# History
+# Can be filled when things change around the province

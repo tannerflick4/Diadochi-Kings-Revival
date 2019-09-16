@@ -1,0 +1,17 @@
+# 765 - Pratisthana
+
+# County Title
+title = c_pratisthana
+
+# Settlements
+max_settlements = 3
+b_pratishtana_pratishtana = castle
+b_rastrika_pratishtana = castle
+b_paithana_pratishtana = city
+
+# Misc
+culture = maharashtri
+religion = jainism_main
+
+# History
+# Can be filled when things change around the province

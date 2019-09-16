@@ -1,0 +1,122 @@
+# 40001-40100 for the Bithyni dynasty
+40001 = {
+	name = "Zipoetes" # King of Bithynia
+	dynasty = 4001 # Bithyni
+	religion = thracian_main
+	culture = thracian
+	father = 40004 # Bas
+	
+	add_trait = tough_soldier
+	
+	422.1.1 = {
+		birth="yes" # 354 BC
+	}
+	498.1.1 = {
+		death="yes" # 278 BC, Natural Death
+	}
+}
+40002 = {
+	name = "Doedalses" # First known bithynian dynast
+	dynasty = 4001 # Bithyni
+	religion = thracian_main
+	culture = thracian	
+	325.1.1 =  { # Made up
+		birth="yes" # 451 BC
+	}
+	383.1.1 = { # Made up
+		death="yes" # 393 BC
+	}
+}
+40003 = {
+	name = "Boteiras" # Son of Doedalses. Bithynian dynast
+	dynasty = 4001 # Bithyni
+	religion = thracian_main
+	culture = thracian
+	father = 40002 # Doedalses
+	353.1.1 = { # Made up
+		birth="yes" # 423 BC
+	}
+	400.1.1 = {
+		death="yes" # 376 BC
+	}
+}
+40004 = {
+	name = "Bas" # First independent Bithynian dynast
+	dynasty = 4001 # Bithyni
+	religion = thracian_main
+	culture = thracian
+	father = 40003 # Boteiras
+	379.1.1 = {
+		birth="yes" # 397 BC
+	}
+	450.1.1 = {
+		death="yes" # 326 BC
+	}
+}
+40005 = {
+	name = "Nikomedes" # King of Bithynia
+	dynasty = 4001 # Bithyni
+	religion = thracian_main
+	culture = thracian
+	father = 40001 # Zipoetes I
+	
+	add_trait = proud
+	
+	473.1.1 = { # Made upish
+		birth="yes" # 303 BC
+	}
+	498.1.1 = { # 278 BC
+		add_trait = kinslayer
+	}
+	521.1.1 = {
+		death="yes" # 255 BC
+	}
+}
+40006 = {
+	name = "Bas" # Killed by Nikomedes I on his succession, name and birthdates unknown
+	dynasty = 4001 # Bithyni
+	religion = thracian_main
+	culture = thracian
+	father = 40001 # Zipoetes I
+	480.1.1 = { # Made up
+		birth="yes" # 296 BC
+	}	
+	498.1.1 = { # 278 BC
+		death = {
+			death_reason = death_execution
+			killer = 40005 # Nikomedes I
+		}
+	}
+}
+40007 = {
+	name = "Doedalses" # Killed by Nikomedes I on his succession, name and birthdates unknown
+	dynasty = 4001 # Bithyni
+	religion = thracian_main
+	culture = thracian
+	father = 40001 # Zipoetes I
+	477.1.1 = { # Made up
+		birth="yes" # 299 BC
+	}
+	498.1.1 = { # 278 BC
+		death = {
+			death_reason = death_execution
+			killer = 40005 # Nikomedes I
+		}
+	}
+}
+40008 = {
+	name = "Zipoetes" # Zipoetes II, revolted against Nikomedes I(This is why the Galatians were brought into Asia-minor)
+	dynasty = 4001 # Bithyni
+	religion = thracian_main
+	culture = thracian
+	father = 40001 # Zipoetes I
+	482.1.1 = { # Made up
+		birth="yes" # 294 BC
+	}
+	500.1.1 = { # 276 BC
+		death = {
+			death_reason = death_execution
+			killer = 40005 # Nikomedes I
+		}
+	}
+}

@@ -1,0 +1,16 @@
+# 676 - Kalahasti
+
+# County Title
+title = c_kalahasti
+
+# Settlements
+max_settlements = 2
+b_kalahasti_kalahasti = castle
+b_melange_kalahasti = city
+
+# Misc
+culture = tamil
+religion = dravidian_main
+
+# History
+# Can be filled when things change around the province

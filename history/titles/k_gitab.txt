@@ -1,0 +1,6 @@
+416.1.1 = { # 360 BC
+	holder = 330202 # Protothyes
+}
+451.1.1 = {
+	holder = 330201 # Kanites
+}

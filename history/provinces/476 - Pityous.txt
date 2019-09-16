@@ -1,0 +1,17 @@
+# 476 - Pityous
+
+# County Title
+title = c_pityous
+
+# Settlements
+max_settlements = 3
+b_pityous_pityous = castle
+b_torikos_pityous = city
+b_masaitike_pityous = castle
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

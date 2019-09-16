@@ -1,0 +1,16 @@
+# 565 - Giarun
+
+# County Title
+title = c_giarun
+
+# Settlements
+max_settlements = 2
+b_giarun_giarun = castle
+b_cali_giarun = temple
+
+# Misc
+culture = scythian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

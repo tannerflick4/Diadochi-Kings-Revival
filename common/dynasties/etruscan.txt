@@ -1,0 +1,38 @@
+# 18001-19000 for Etruscan dynasties
+
+18001 = {
+	name = "Arrunsuna"
+	culture = etruscan
+}
+18002 = {
+	name = "Lausa"
+	culture = etruscan
+}
+18003 = {
+	name = "Matsuna"
+	culture = etruscan
+}
+18004 = {
+	name = "Porsenna"
+	culture = etruscan
+}
+18005 = {
+	name = "Tarchuin"
+	culture = etruscan
+}
+18006 = {
+	name = "Thelesa"
+	culture = etruscan
+}
+18007 = {
+	name = "Tlesnana"
+	culture = etruscan
+}
+18008 = {
+	name = "Velianas"
+	culture = etruscan
+}
+18009 = {
+	name = "Vipinas"
+	culture = etruscan
+}

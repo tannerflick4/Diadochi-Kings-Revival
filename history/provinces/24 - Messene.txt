@@ -1,0 +1,18 @@
+# 24 - Messene
+
+# County Title
+title = c_messene # for example c_corinth
+
+# Settlements
+max_settlements = 4 # Should be reevaluated
+b_messene_messene = castle
+b_andania_messene = temple
+b_methone_messene = city
+b_pylos_messene = castle
+
+# Misc
+culture = doric
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

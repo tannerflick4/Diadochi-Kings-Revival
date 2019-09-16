@@ -1,0 +1,16 @@
+# 879 - Augila
+
+# County Title
+title = c_augila
+
+# Settlements
+max_settlements = 3
+b_augila_augila = castle
+b_gialo_augila = temple
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,19 @@
+# 440 - Pachoras
+
+# County Title
+title = c_pachoras
+
+# Settlements
+max_settlements = 5
+b_pachoras_pachoras = castle
+b_premis_pachoras = city
+b_nalote_pachoras = city
+b_abu_simbel_pachoras = temple
+b_boon_pachoras = castle
+
+# Misc
+culture = nubian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

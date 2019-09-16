@@ -1,0 +1,16 @@
+# 548 - Sinua
+
+# County Title
+title = c_sinua
+
+# Settlements
+max_settlements = 2
+b_sinua_sinua = castle
+b_padalo_sinua = city
+
+# Misc
+culture = scythian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,20 @@
+# 2601-2700 for the Korrhaioi dynasty
+2601 = {
+	name = "Stratonike" # Wife of Antigonus
+	dynasty = 27 # Korrhaioi
+	religion = greek_main
+	culture = macedonian
+	female = yes
+	
+	add_trait = gregarious
+	
+	394.1.1 = {
+		birth="yes" # 382 BC Made up
+	}
+	439.1.1 = { # 337 BC Made up
+		add_spouse = 401
+	}
+	475.1.1 = { # 301 BC
+		death="yes"
+	}
+}

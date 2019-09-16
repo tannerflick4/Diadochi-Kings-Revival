@@ -1,0 +1,37 @@
+# 39001-40000 for Iberian dynasties
+39001 = {
+	name = "Indiketes"
+	culture = iberian
+}
+39002 = {
+	name = "Laketanoi"
+	culture = iberian
+}
+39003 = {
+	name = "Kassetanoi"
+	culture = iberian
+}
+39004 = {
+	name = "Laietanoi"
+	culture = iberian
+}
+39005 = {
+	name = "Ilerkauones"
+	culture = iberian
+}
+39006 = {
+	name = "Edetanoi"
+	culture = iberian
+}
+39007 = {
+	name = "Kontestanoi"
+	culture = iberian
+}
+39008 = {
+	name = "Bastetanoi"
+	culture = iberian
+}
+39009 = {
+	name = "Ilergetai"
+	culture = iberian
+}

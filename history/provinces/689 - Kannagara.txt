@@ -1,0 +1,18 @@
+# 689 - Kannagara
+
+# County Title
+title = c_kannagara
+
+# Settlements
+max_settlements = 4
+b_kannagara_kannagara = castle
+b_alosygni_kannagara = city
+b_benagouron_kannagara = castle
+b_koddoura_kannagara = city
+
+# Misc
+culture = telegu
+religion = dravidian_main
+
+# History
+# Can be filled when things change around the province

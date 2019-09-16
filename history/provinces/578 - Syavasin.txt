@@ -1,0 +1,16 @@
+# 578 - Syavasin
+
+# County Title
+title = c_syavasin
+
+# Settlements
+max_settlements = 2
+b_syavasin_syavasin = castle
+b_katikol_syavasin = castle
+
+# Misc
+culture = chorasmian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

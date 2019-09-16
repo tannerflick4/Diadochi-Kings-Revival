@@ -1,0 +1,27 @@
+# 430001-430100 for the Lusitani dynasty
+430001 = {
+	name = "Iccauos" # Made up Lusitani leader
+	dynasty = 43001
+	culture = lusitanian
+	religion = lusitanian_main
+	
+	370.1.1 = { # 406 BC, Made up
+		birth="yes"
+	}
+	445.1.1 = { # 331 BC
+		death="yes"
+	}
+}
+430002 = {
+	name = "Ambatus" # Made up Lusitani leader
+	dynasty = 43001
+	culture = lusitanian
+	religion = lusitanian_main
+	
+	420.1.1 = { # 356 BC, Made up
+		birth="yes"
+	}
+	500.1.1 = { # 276 BC
+		death="yes"
+	}
+}

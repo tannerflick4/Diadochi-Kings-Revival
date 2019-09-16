@@ -1,0 +1,14 @@
+# 31001-32000 for Nabataean dynasties
+
+31001 = {
+	name = "Al-Batra"
+	culture = nabataean
+}
+31002 = {
+	name = "Aqaba"
+	culture = nabataean
+}
+31003 = {
+	name = "Lihyani"
+	culture = nabataean
+}

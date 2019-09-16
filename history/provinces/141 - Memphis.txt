@@ -1,0 +1,20 @@
+# 141 - Memphis
+
+# County Title
+title = c_memphis
+
+# Settlements
+max_settlements = 6
+b_memphis_memphis = castle
+b_bousiris_memphis = temple # Abusir
+b_toachris_memphis = city
+b_troia_memphis = castle
+b_takeiris_memphis = city
+b_skenai_mandrai_memphis = castle
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

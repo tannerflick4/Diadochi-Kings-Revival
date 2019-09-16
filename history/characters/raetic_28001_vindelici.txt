@@ -1,0 +1,39 @@
+# 280001-280100 for the Vindelici dynasty
+280001 = {
+	name = "Laris" # Made up
+	dynasty = 28001 # Vindelici
+	religion = etruscan_main
+	culture = raetic
+	father = 280003
+	392.1.1 = { # 384 BC
+		birth="yes" # Made up
+	}
+	477.1.1 = { # 299 BC
+		death="yes" # Made up
+	}
+}
+280002 = {
+	name = "Tages" # Vindelici Made up
+	dynasty = 28001 # Vindelici
+	religion = etruscan_main
+	culture = raetic
+	father = 280001
+	416.1.1 = { # 360 BC
+		birth="yes"
+	}
+	502.1.1 = { # 274 BC
+		death="yes"
+	}
+}
+280003 = {
+	name = "Aranth" # Made up
+	dynasty = 28001 # Vindelici
+	religion = etruscan_main
+	culture = raetic
+	371.1.1 = { # 405 BC
+		birth="yes" # Made up
+	}
+	427.1.1 = { # 349 BC
+		death="yes"
+	}
+}

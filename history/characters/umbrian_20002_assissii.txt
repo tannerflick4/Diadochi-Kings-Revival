@@ -1,0 +1,26 @@
+# 200101-200200 for the Assissii dynasty
+200101 = {
+	name = "Minatus" # Made up
+	dynasty = 20002 # Assissii
+	religion = roman_main
+	culture = umbrian
+	father = 200001
+	441.1.1 = { # 335 BC Made up
+		birth="yes"
+	}
+	501.1.1 = { # 275 BC Made up
+		death="yes"
+	}
+}
+200102 = {
+	name = "Pacciis"
+	dynasty = 20002 # Assissii
+	religion = roman_main
+	culture = umbrian
+	396.1.1 = {
+		birth="yes" # 380 BC
+	}
+	447.1.1 = {
+		death="yes" # 329 BC
+	}
+}

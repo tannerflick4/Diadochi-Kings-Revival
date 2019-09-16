@@ -1,0 +1,52 @@
+# 320301-330400 for the Watar dynasty
+320301 = {
+	name = "Karib'il" # Saba, Made up
+	dynasty = 32004 # Watar
+	culture = arabic
+	religion = arabic_main
+	father = 320303
+	436.1.1 = {
+		birth="yes" # 340 BC Made up
+	}
+	480.1.1 = {
+		death="yes" # 296 BC Made up
+	}
+}
+320302 = {
+	name = "Rav'el" # Saba, Made up
+	dynasty = 32004
+	culture = arabic
+	religion = arabic_main
+	father = 320301
+	465.1.1 = {
+		birth="yes" # 311 BC
+	}
+	535.1.1 = {
+		death="yes" # 241 BC
+	}
+}
+320303 = {
+	name = "Ausos" # Saba Made up
+	dynasty = 32004 # Watar
+	culture = arabic
+	religion = arabic_main
+	father = 320304
+	416.1.1 = { # 360 BC
+		birth="yes"
+	}
+	468.1.1 = { # 308 BC
+		death="yes"
+	}
+}
+320304 = {
+	name = "Thaim'alba'ali" # Saba Made up
+	dynasty = 32004 # Watar
+	culture = arabic
+	religion = arabic_main
+	396.1.1 = { # 380 BC
+		birth="yes"
+	}
+	446.1.1 = { # 330 BC
+		death="yes"
+	}
+}

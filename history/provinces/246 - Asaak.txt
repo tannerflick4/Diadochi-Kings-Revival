@@ -1,0 +1,17 @@
+# 246 - Asaak
+
+# County Title
+title = c_asaak
+
+# Settlements
+max_settlements = 3
+b_asaak_asaak = castle
+b_dara_asaak = city
+b_tusa_asaak = castle
+
+# Misc
+culture = parthian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

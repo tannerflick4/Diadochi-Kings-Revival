@@ -1,0 +1,17 @@
+# 937 - Saetabis
+
+# County Title
+title = c_saetabis
+
+# Settlements
+max_settlements = 3
+b_saetabis_saetabis = castle
+b_saltigi_saetabis = city
+b_ikalesken_saetabis = castle
+
+# Misc
+culture = iberian
+religion = iberian_main
+
+# History
+# Can be filled when things change around the province

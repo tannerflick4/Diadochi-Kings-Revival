@@ -1,0 +1,15 @@
+# 772 - Ujjayani
+
+# County Title
+title = c_ujjayani
+
+# Settlements
+max_settlements = 1
+b_ujjayani_ujjayani = castle
+
+# Misc
+culture = maharashtri
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

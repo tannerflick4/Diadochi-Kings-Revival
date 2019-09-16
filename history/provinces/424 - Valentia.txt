@@ -1,0 +1,18 @@
+# 424 - Valentia
+
+# County Title
+title = c_valentia
+
+# Settlements
+max_settlements = 4
+b_valentia_valentia = castle
+b_soio_valentia = city
+b_umbennum_valentia = castle
+b_abla_helviorum_valentia = castle
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

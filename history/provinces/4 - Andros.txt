@@ -1,0 +1,21 @@
+# 4 - Andros
+
+# County Title
+title = c_andros # for example c_corinth
+
+# Settlements
+max_settlements = 4 # Should be reevaluated
+b_karthaia_andros = city
+b_palaeopolis_andros = castle
+b_delos_andros = temple
+b_mykonos_andros = city
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province
+459.1.1 = { # 317 BC, Oligarchy
+	capital = b_palaeopolis_andros
+}

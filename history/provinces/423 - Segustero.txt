@@ -1,0 +1,17 @@
+# 423 - Segustero
+
+# County Title
+title = c_segustero
+
+# Settlements
+max_settlements = 3
+b_segustero_segustero = castle
+b_mons_seleucus_segustero = temple
+b_noiomagos_segustero = castle
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

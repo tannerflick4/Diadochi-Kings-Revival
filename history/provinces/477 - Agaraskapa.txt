@@ -1,0 +1,16 @@
+# 477 - Agaraskapa
+
+# County Title
+title = c_agaraskapa
+
+# Settlements
+max_settlements = 2
+b_agaraskapa_agaraskapa = castle
+b_bratakol_agaraskapa = city
+
+# Misc
+culture = scythian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

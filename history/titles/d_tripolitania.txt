@@ -1,0 +1,10 @@
+413.1.1 = { # 363 BC
+	holder = 250003 # Baalhanno
+	liege = k_carthage
+}
+451.1.1 = { # 325 BC
+	holder = 250001 # Hasdrubal of the Barca family
+}
+486.1.1 = { # 290 BC
+	holder = 250002
+}

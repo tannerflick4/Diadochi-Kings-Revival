@@ -1,0 +1,21 @@
+# 208 - Arsamosata
+
+# County Title
+title = c_arsamosata
+
+# Settlements
+max_settlements = 5
+b_balisbiga_arsamosata = castle
+b_colchis_arsamosata = temple
+b_anzitene_arsamosata = city
+b_dadima_arsamosata = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_arsamosata_arsamosata
+
+# Misc
+culture = armenian
+religion = armenian_main
+
+# History
+# Can be filled when things change around the province

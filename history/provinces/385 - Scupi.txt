@@ -1,0 +1,18 @@
+# 385 - Scupi
+
+# County Title
+title = c_scupi
+
+# Settlements
+max_settlements = 4
+b_scupi_scupi = castle
+b_ulpiana_scupi = castle
+b_therauda_scupi = city
+b_vicinianum_scupi = temple
+
+# Misc
+culture = illyrian
+religion = illyrian_main
+
+# History
+# Can be filled when things change around the province

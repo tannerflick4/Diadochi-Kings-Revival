@@ -1,0 +1,19 @@
+# 922 - Suel
+
+# County Title
+title = c_suel
+
+# Settlements
+max_settlements = 4
+b_suel_suel = castle
+b_salduba_suel = city
+b_cartima_suel = castle
+#b_arunda_suel = castle
+
+# Misc
+culture = turdetanian
+religion = iberian_main
+
+
+# History
+# Can be filled when things change around the province

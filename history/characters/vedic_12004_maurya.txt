@@ -1,0 +1,94 @@
+# 120301-120400 for the Maurya dynasty
+120301 = {
+	name = "Chandragupta" # First emperor of India
+	dynasty = 12142 # Maurya
+	religion = hinduism_main
+	culture = vedic
+	add_trait = brilliant_strategist
+	436.1.1 = {
+		birth="yes" # 340 BC
+	}
+	453.1.1 = { # 323 BC
+		add_spouse = 129901
+	}
+	476.1.1 = { # 300 BC
+		religion = jainism_main
+	}
+	478.1.1 = {
+		death="yes" # 298 BC
+	}
+}
+120302 = {
+	name = "Bindusara" # Successor to Chandragupta
+	dynasty = 12142 # Maurya
+	religion = hinduism_main
+	culture = vedic
+	father = 120301
+	mother = 129901
+	add_trait = brilliant_strategist
+	add_trait = cynical
+	456.1.1 = {
+		birth="yes" # 320 BC
+	}
+	472.1.1 = { # 304 BC
+		add_spouse = 129902
+	}
+	504.1.1 = {
+		death="yes" # 272 BC
+	}
+}
+120303 = {
+	name = "Susima" # Brother of Ashoka the Great
+	dynasty = 12142 # Maurya
+	religion = hinduism_main
+	culture = vedic
+	father = 120302
+	add_trait = naive_appeaser
+	472.1.1 = { # 304 BC
+		birth="yes"
+	}
+	502.1.1 = { # 274 BC
+		death="yes"
+	}
+}
+120304 = {
+	name = "Ashoka" # Ashoka the Great
+	dynasty = 12142 # Maurya
+	religion = hinduism_main
+	culture = vedic
+	father = 120302
+	mother = 129902
+	add_trait = twin
+	add_trait = skilled_tactician
+	add_trait = cruel
+	add_trait = wroth
+	472.8.7 = { # 304 BC
+		birth="yes"
+	}
+	517.1.1 = { # 259 BC
+		religion = buddhism_main
+		remove_trait = cruel
+		remove_trait = wroth
+	}
+	542.1.1 = { # 232 BC
+		death="yes"
+	}
+}
+120305 = {
+	name = "Vitashoka" # Brother of Ashoka the Great
+	dynasty = 12142 # Maurya
+	religion = hinduism_main
+	culture = vedic
+	father = 120302
+	mother = 129902
+	add_trait = twin
+	472.8.7 = { # 304 BC
+		birth="yes"
+	}
+	518.1.1 = { # 258 BC
+		religion = buddhism_main
+	}
+	522.1.1 = { # 252 BC
+		death="yes"
+	}
+}

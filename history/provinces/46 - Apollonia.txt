@@ -1,0 +1,18 @@
+# 46 - Apollonia
+
+# County Title
+title = c_apollonia # for example c_corinth
+
+# Settlements
+max_settlements = 4
+b_apollonia_apollonia = castle
+b_chersonesos_apollonia = temple
+b_anchialus_apollonia = city
+b_mesembria_apollonia = castle
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

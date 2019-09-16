@@ -1,0 +1,16 @@
+# 621 - Targitaios
+
+# County Title
+title = c_targitaios
+
+# Settlements
+max_settlements = 2
+b_targitaios_targitaios = castle
+b_gikol_targitaios = city
+
+# Misc
+culture = chorasmian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

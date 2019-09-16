@@ -1,0 +1,1850 @@
+thracian_group = {
+	thracian = {
+		graphical_cultures = { byzantinegfx }
+  
+		color = { 0.6 0.3 0 }
+
+		male_names = {
+			Abrupolis_Abrupolis Amatokos_Amatokos Bas_Bas Beithys_Beithys Bergaios_Bergaios Berisades_Berisades Boteiras_Boteiras Cersobleptes_Cersobleptes 
+			Cetriporis_Cetriporis Cosingas_Cosingas Cothelas Cotys_Cotys Diegylis_Diegylis Doedalses_Doedalses Dromichaetes_Dromichaetes Etazeta_Etazeta Getas_Getas 
+			Hebryzelmis_Hebryzelmis Langarus_Langarus Olorus_Olorus Pleurates_Pleurates Pleuratus_Pleuratus Rabocentus_Rabocentus Raiskoyporis_Raiskoyporis Raizdos_Raizdos 
+			Rhescuporis_Rhescuporis Rhoemetalces_Rhoemetalces Roigos_Roigos Sadalas_Sadalas Seuthes_Seuthes Sitalces_Sitalces Sparatocos_Sparatocos Syrmus_Syrmus 
+			Teres_Teres Ziaelas_Ziaelas Zibelmius_Zibelmius Zipoetes_Zipoetes Ziselmius_Ziselmius Zisemis_Zisemis        
+		}
+		female_names = {
+			Pythodoris_Pythodoris Sura_Sura Tryphaena_Tryphaena        
+		}
+  
+		from_dynasty_prefix = "of "
+    		dynasty_title_names = yes
+		modifier = thracian_culture_modifier
+	}
+	phrygian = {
+		graphical_cultures = { byzantinegfx }
+  
+		color = { 0 0.4 0.5 }
+
+		male_names = {
+			Abrupolis_Abrupolis Adrastus Amatokos_Amatokos Bas_Bas Beithys_Beithys Bergaios_Bergaios Berisades_Berisades Boteiras_Boteiras 
+			Cersobleptes_Cersobleptes Cetriporis_Cetriporis Cosingas_Cosingas Cotys_Cotys Diegylis_Diegylis Doedalses_Doedalses Dromichaetes_Dromichaetes Etazeta_Etazeta 
+			Getas_Getas Gordias Hebryzelmis_Hebryzelmis Langarus_Langarus Midas Olorus_Olorus Pleurates_Pleurates Pleuratus_Pleuratus 
+			Rabocentus_Rabocentus Raiskoyporis_Raiskoyporis Raizdos_Raizdos Rhescuporis_Rhescuporis Rhoemetalces_Rhoemetalces Roigos_Roigos Sadalas_Sadalas Seuthes_Seuthes 
+			Sitalces_Sitalces Sparatocos_Sparatocos Syrmus_Syrmus Teres_Teres Ziaelas_Ziaelas Zibelmius_Zibelmius Zipoetes_Zipoetes Ziselmius_Ziselmius 
+			Zisemis_Zisemis        
+		}
+		female_names = {
+			Eurynome Pythodoris_Pythodoris Sura_Sura Tryphaena_Tryphaena        
+		}
+  
+		from_dynasty_prefix = "of "
+    
+		modifier = anatolian_culture_modifier
+	}
+	dacian = {
+		graphical_cultures = { byzantinegfx }
+		color = { 0.4 0.2 0.1 }
+
+		male_names = {
+			Bastiza Bikilis Brasus Burebista Comosicus Cotiso Dablosa Daizus 
+			Damanais Dapyg Dardanos Decaeneus Decebalus Dicomes Diegis Diurpaneus 
+			Driglisa Dromichaetes Komakiza Komozoi Mucapor Mucatra Natoporus Oroles 
+			Petoporus Pieporus Rescuturme Rigozus Scorylo Tarbus Thiamarkos Tiati 
+			Tsinna Tsiru Vezina Zyraxes        
+		}
+		female_names = {
+			Brasia Comosia Cotisa Daiza Damanaia Dardana Diegia Diurpanea 
+			Komozia Natopora Orola Petopora Piepora Scoryla Tarba Vezineia 
+			Zia Zyraxa        
+		}
+  
+		from_dynasty_prefix = "of "
+	
+		modifier = thracian_culture_modifier
+	}
+}
+illyrian_group = {
+	illyrian = {
+		graphical_cultures = { byzantinegfx }
+  
+		color = { 0.1 1.0 0.5 }
+  
+		male_names = {
+			Agron Artas Ballaios Bardhyll Bato Caeria Cleitus Demetrius 
+			Epulon Galaurus Gentius Glaucias Grabos Ionios Longarus Monunius 
+			Mytilus Opis Pinnes Pleuratus Pleurias Scerdilaidas Sirras Testimos 
+			Teuta Verzi        
+		}
+		female_names = {
+			Pythodoris_Pythodoris Sura_Sura Tryphaena_Tryphaena        
+		}
+  
+		from_dynasty_prefix = "of "
+    
+		modifier = illyrian_culture_modifier
+		dynasty_title_names = yes
+	}
+	paeonian = {
+		graphical_cultures = { byzantinegfx }
+  
+		color = { 0.1 0.8 0.4 }
+  
+		male_names = {
+			Agis Ariston Audoleon Bastareus Didas Dokidan Dokim Dropion 
+			Dyplaios Euergetes Langarus Leon Lycceius Mantyes Nicharchos Patraus 
+			Pigres Symnon Teutamado Teutaos        
+		}
+		female_names = {
+			Pythodoris_Pythodoris Sura_Sura Tryphaena_Tryphaena        
+		}
+  
+		from_dynasty_prefix = "of "
+    
+		modifier = illyrian_culture_modifier
+	}
+}
+celtic = {
+	ligurian = {
+		graphical_cultures = { celticgfx }
+  
+		color = { 0.4 0.9 0.3 }
+  
+		male_names = {
+			Acco_Acco Adiatunnus_Adiatunnus Ambiorix_Ambiorix Andecomborius_Andecomborius Bathanatos_Bathanatos Boduognatus_Boduognatus Brennus_Brennus Camulogenus_Camulogenus Catuvolcus_Catuvolcus 
+			Cavarinus_Cavarinus Cavarus_Cavarus Cerethrius_Cerethrius Cingetorix_Cingetorix Commius_Commius Conconnetodumnus_Conconnetodumnus Convictolitavis_Convictolitavis Cotuatus_Cotuatus 
+			Cotus_Cotus Critasirus_Critasirus Diviciacus_Diviciacus Divico_Divico Donnotaurus_Donnotaurus Dumnorix_Dumnorix Eporedix_Eporedix Galba_Galba 
+			Iccius_Iccius Indutiomaros_Indutiomaros Liscus_Liscus Litaviccus_Litaviccus Lucterius_Lucterius Orgetorix_Orgetorix Tasgetius_Tasgetius Teutomatus_Teutomatus 
+			Vercassivellaunus_Vercassivellaunus Vercingetorix_Vercingetorix Vertico_Vertico Viridomaros_Viridomaros Viridovix_Viridovix        
+		}
+		female_names = {
+			Amena_Amena Apirka_Apirka Birkita_Birkita Brietta_Brietta Galena_Galena Genovefa_Genovefa Kyna_Kyna Mavis_Mavis 
+			Treva_Treva Vevila_Vevila       
+		}
+  
+		from_dynasty_prefix = "of "
+		dynasty_title_names = yes
+		modifier = celtic_culture_modifier
+	}
+	gaul = {
+		graphical_cultures = { celticgfx }
+  
+		color = { 0.2 0.8 0 }
+  
+		male_names = {
+			Acco_Acco Adiatunnus_Adiatunnus Ambiorix_Ambiorix Andecomborius_Andecomborius Bathanatos_Bathanatos Boduognatus_Boduognatus Brennus_Brennus Camulogenus_Camulogenus Catuvolcus_Catuvolcus 
+			Cavarinus_Cavarinus Cavarus_Cavarus Cerethrius_Cerethrius Cingetorix_Cingetorix Commius_Commius Conconnetodumnus_Conconnetodumnus Convictolitavis_Convictolitavis Cotuatus_Cotuatus 
+			Cotus_Cotus Critasirus_Critasirus Diviciacus_Diviciacus Divico_Divico Donnotaurus_Donnotaurus Dumnorix_Dumnorix Eporedix_Eporedix Galba_Galba 
+			Iccius_Iccius Indutiomaros_Indutiomaros Liscus_Liscus Litaviccus_Litaviccus Lucterius_Lucterius Orgetorix_Orgetorix Tasgetius_Tasgetius Teutomatus_Teutomatus 
+			Vercassivellaunus_Vercassivellaunus Vercingetorix_Vercingetorix Vertico_Vertico Viridomaros_Viridomaros Viridovix_Viridovix        
+		}
+		female_names = {
+			Amena_Amena Apirka_Apirka Birkita_Birkita Brietta_Brietta Galena_Galena Genovefa_Genovefa Kyna_Kyna Mavis_Mavis 
+			Treva_Treva Vevila_Vevila        
+		}
+  
+		from_dynasty_prefix = "of "    		
+		dynasty_title_names = yes
+		modifier = celtic_culture_modifier
+	}
+	celtiberian = {
+		graphical_cultures = { celticgfx }
+  
+		color = { 0.38 0.75 0.17 }
+  
+		male_names = {
+			Ablon_Ablon Adingibas_Adingibas Aios_Aios Akuios_Akuios Alukio_Alukio Ambon_Ambon Arkanta_Arkanta Aualos_Aualos Auaro_Auaro Ausa_Ausa Babpo_Babpo Belsu_Belsu Bilinos_Bilinos Bodo_Bodo Botilkos_Botilkos Builbos_Builbos Buntalos_Buntalos Burzu_Burzu Kakiro_Kakiro Kado_Kado Karo_Karo Kauekas_Kauekas Kesarus_Kesarus Durato_Durato Elaukos_Elaukos Elazunos_Elazunos Elguismio_Elguismio Elkua_Elkua Eskutino_Eskutino Hilerno_Hilerno Indibil_Indibil Indortes_Indortes Istolakio_Istolakio Kaiaitos_Kaiaitos Karbelos_Karbelos Kasilos_Kasilos Kaukirino_Kaukirino Koitu_Koitu Kontuzos_Kontuzos Lesson_Lesson Letondon_Letondon Letontu_Letontu Leukon_Leukon Likinos_Likinos Liteno_Liteno Lubbo_Lubbo Luxinio_Luxinio Magauarikos_Magauarikos Melmanios_Melmanios Mezukenos_Mezukenos Olindikos_Olindikos Ordumeles_Ordumeles Pirreso_Pirreso Redukenos_Redukenos Retogenes_Retogenes Retukenos_Retukenos Sanion_Sanion Segisamo_Segisamo Sekilos_Sekilos Sekontios_Sekontios Sekonzos_Sekonzos Sigilos_Sigilos Skirtunos_Skirtunos Sleitiu_Sleitiu Suisetarten_Suisetarten  Tarbantu_Tarbantu Teitebas_Teitebas Terkinos_Terkinos Thurro_Thurro Tiokenesos_Tiokenesos Tiresio_Tiresio Tirtanos_Tirtanos Tirtukue_Tirtukue Touto_Touto Tueizu_Tueizu Tureno_Tureno Ultinos_Ultinos Umarbeles_Umarbeles Umarilo_Umarilo Uxentio_Uxentio
+		}
+		female_names = {
+			Ama_Ama Amena_Amena Amia_Amia Ana_Ana Apirka_Apirka Aunia_Aunia Birkita_Birkita Brietta_Brietta Galena_Galena Genouefa_Genouefa Kara_Kara Kyna_Kyna Mauis_Mauis Nunn_Nunn Sikounin_Sikounin Stena_Stena Treva_Treva Ueuila_Ueuila        
+		}
+  
+	 		
+		
+		modifier = celtic_culture_modifier
+	}
+	galatian = {
+		graphical_cultures = { celticgfx }
+  
+		color = { 0.3 0.85 0.1 }
+  
+		male_names = {
+			Acco_Acco Adiatunnus_Adiatunnus Ambioriks_Ambiorix Andecomborius_Andecomborius Bathanatos_Bathanatos Boduognatus_Boduognatus Brennus_Brennus Camulogenus_Camulogenus Catuvolcus_Catuvolcus 
+			Cavarinus_Cavarinus Cavarus_Cavarus Cerethrius_Cerethrius Cingetoriks_Cingetorix Commius_Commius Conconnetodumnus_Conconnetodumnus Convictolitavis_Convictolitavis Cotuatus_Cotuatus 
+			Cotus_Cotus Critasirus_Critasirus Diviciacus_Diviciacus Divico_Divico Donnotaurus_Donnotaurus Dumnoriks_Dumnorix Eporediks_Eporedix Galba_Galba 
+			Iccius_Iccius Indutiomarus_Indutiomaros Liscus_Liscus Litaviccus_Litaviccus Lucterius_Lucterius Orgetoriks_Orgetorix Tasgetius_Tasgetius Teutomatus_Teutomatus 
+			Vercassivellaunus_Vercassivellaunus Vercingetoriks_Vercingetorix Vertico_Vertico Viridomarus_Viridomaros Viridoviks_Viridovix        
+		}
+		female_names = {
+			Amena_Amena Apirka_Apirka Birkita_Birkita Brietta_Brietta Galena_Galena Genovefa_Genovefa Kyna_Kyna Mavis_Mavis 
+			Treva_Treva Vevila_Vevila        
+		}
+  
+		from_dynasty_prefix = "of "
+		dynasty_title_names = yes
+		modifier = anatolian_culture_modifier
+	}
+	gallaecian = {
+		graphical_cultures = { celticgfx }
+  
+		color = { 0.5 0.9 0.5 }
+  
+		male_names = {
+			Ablon_Ablon Adingibas_Adingibas Aios_Aios Akuios_Akuios Alukio_Alukio Ambon_Ambon Arkanta_Arkanta Aualos_Aualos Auaro_Auaro Ausa_Ausa Babpo_Babpo Belsu_Belsu Bilinos_Bilinos Bodo_Bodo Botilkos_Botilkos Builbos_Builbos Buntalos_Buntalos Burzu_Burzu Kakiro_Kakiro Kado_Kado Karo_Karo Katuenos_Katuenos Kauekas_Kauekas Kloutios_Kloutios Kundigos_Kundigos Kuntinos_Kuntinos Durato_Durato Elaukos_Elaukos Elazunos_Elazunos Elguismio_Elguismio Elkua_Elkua Eskutino_Eskutino Hilerno_Hilerno Ikkalos_Ikkalos Indibil_Indibil Indortes_Indortes Istolakio_Istolakio Kaiaitos_Kaiaitos Karbelos_Karbelos Kasilos_Kasilos Kaukirino_Kaukirino Koitu_Koitu Kontuzos_Kontuzos Leoni_Leoni Letondon_Letondon Letontu_Letontu Leukon_Leukon Likinos_Likinos Liteno_Liteno Lubbo_Lubbo Luxinio_Luxinio Magauarikos_Magauarikos Meiduenos_Meiduenos Mezukenos_Mezukenos Olindikos_Olindikos Ordumeles_Ordumeles Pirreso_Pirreso Redukenos_Redukenos Retogenes_Retogenes Retukenos_Retukenos Sanion_Sanion Segisamo_Segisamo Sekilos_Sekilos Sekontios_Sekontios Sekonzos_Sekonzos Sigilo_Sigilo Skirtunos_Skirtunos Sleitiu_Sleitiu Suisetarten_Suisetarten  Tarbantu_Tarbantu Teitebas_Teitebas Terkinos_Terkinos Thurro_Thurro Tiokenesos_Tiokenesos Tiresio_Tiresio Tirtanos_Tirtanos Tirtukue_Tirtukue Toutonus_Toutonus Tueizu_Tueizu Tureno_Tureno Ultinos_Ultinos Umarbeles_Umarbeles Umarilo_Umarilo Uesukloti_Uesukloti
+		}
+		female_names = {
+			Ama_Ama Amena_Amena Amia_Amia Ana_Ana Apirka_Apirka Aunia_Aunia Birkita_Birkita Brietta_Brietta Galena_Galena Genouefa_Genouefa Kara_Kara Kyna_Kyna Mauis_Mauis Nunn_Nunn Sikounin_Sikounin Stena_Stena Treua_Treua Ueuila_Ueuila        
+		}
+  
+		 		
+	
+		modifier = celtic_culture_modifier
+	}
+}
+levantine_group = { 
+	punic = {
+		graphical_cultures = { muslimgfx  }
+  
+		color = { 0.6 0.6 1 }
+
+		male_names = {
+			Abdashmon Abdenna Abdeshmun Abdimilki Abdmelqart Abdmilkot Abdosir Abdshed 
+			Abdshesm Abdusmun Abdzaphon Aderbaal Admagon Adonibaal Ahimilk Ahiram 
+			Ahotmilk Akbar Annobaal Anobaal Aqhat Ashdabor Ashtartyaton Ashtzaph 
+			Azrubaal Baalfadi Baalhanno Baalshillek Baalyaton Baraket Binmilqart Bodashtart 
+			Bodeshmun Bodinelqart Bodmelqart Bodtanit Bostar Danel_Daniel Eshmunamash Eshmunazar 
+			Eshmunkhilletz Eshmunshalokh Germelqart Hamilket Hamon Hannibaal Hanno Hasdrubaal Hiram 
+			Kanmi Khamelqart Khilletzbaal Khimilk�t Magon Maharbaal Melqartpilles Menahilim 
+			Milkherem Milkpilles Milkyaton Mithonbaal Philosir Pimyaton Rib-Addi Sakarbaal 
+			Shafat Tabnit Tanubda Yaroah Yehawwielon Yutpan Zimrida
+		}
+		female_names = {
+			Abdosir Abdtanit Amatashtart Amatbaal Amma Ammobaal Amotmilqart Arashtibaal 
+			Arisha Arishat Arishot Arshut Ashdanot Ashdonbaal Ashmonrabti Astarte 
+			Azibal Barkitbaal Batnoam Birkana Birkanda Bisha Bitnima Demna 
+			Domina Elissa Emeshmun Hannah Imashmon Imashtart Mitunbaal Muttunbaal 
+			Pawly Quarta Saphanbaal Septy Shiba Sisa Ummashtart Yasha 
+			Zibqet        
+		}
+  
+		founder_named_dynasties = yes
+
+		male_patronym = "bin "
+		female_patronym = "bitt "
+		prefix = yes
+  
+		modifier = punic_culture_modifier
+	} 
+	israelite = {
+		graphical_cultures = { muslimgfx }
+  
+		color = { 0.6 0.7 1 }
+
+		male_names = {
+			Adalya_Adalya Adam_Adam Adinah_Adinah Adlai Adoniyah Aharon Amaryahu_Amaryahu Amnon_Amnon 
+			Amos Amram Anaiah Aran Ari'el_Ari'el Arieh Asa_Asa Asaf 
+			Asher Avi'el_Avi'el Avidan Avihu_Avihu Avima'el_Avima'el Avimelekh Aviram Avishay 
+			Avner Avraham Avram Avshalom Azaryah_Azaryah Azazyahu_Azazyahu Azri'el_Azri'el Barak 
+			Barukh Belshatzzar Benayahu Binyamin Boaz Chananyah_Chananyah Chanokh Chavaqquq 
+			Chizqiyahu_Chizqiyahu Dan Daniyyel_Daniel Daryawesh_Daryawesh Dawid Delayahu_Delayahu Efrayim Ehum 
+			Eiran Eitan El'azar_El'azar Eli Eli'ezer_Eli'ezer Elifalet Elifelet Elihu_Elihu 
+			Elisha Eliyyahu Elkanah_Elkanah Enosh Esaw Ezer Ezra_Ezra Gavri'el_Gavri'el 
+			Gedalyahu_Gedalyahu Gemaryahu_Gemaryahu Gershom Gershon Gid'on Gilad Haran Hevel_Hevel 
+			Hillel Hiram Hoshea Immanuel Ira Itamar_Itamar Ittay_Ittay Iyyov_Iyyov 
+			Kalev_Kalev Kayin_Kayin Keinan Kenanyahu Koresh_Koresh Lemuel_Lemuel Lewi Lot 
+			Machli Mal'akhi Mattan_Mattan Mattanyahu Mattityahu Melech_Melech Menachem Menashsheh_Menashsheh 
+			Meshullam Mikha'el Mikhah Mordokhay Moshe Nachum_Nachum Nadav Natan 
+			Nechemyah Neriah_Neriah Netanyahu Nethanel Noach Ofrah Omri_Omri Ovadyah_Ovadyah 
+			Oved Peleg_Peleg Penuel Pinchas_Pinchas Rafa'el Reuven Satan_Satan Seraiah 
+			Sha'ul She'alti'el_She'alti'el Shelomoh Shem Shema'yah Shemu'el Shet_Shet Shimon 
+			Shimshon Talmai Teman_Teman Terach Toviyyah_Toviyyah Tzefanyah_Tzefanyah Tzidkiyahu_Tzidkiyahu Tzion 
+			Tzivah Uri_Uri Uriy'el_Uriy'el Uriyah_Uriyah Uzzi_Uzzi Uzziel Uzziyyah_Uzziyyah Ya'rah_Ya'rah 
+			Yaakov Yachin_Yachin Yadon Yair_Yair Yared Yechezkel_Yechezkel Yechi'el_Yechi'el Yedidyah 
+			Yefet Yeho'ash_Yeho'ash Yehochanan Yehonatan Yehoram Yehoshafat Yehoshua_Yehoshua Yehoyakhin 
+			Yehoyakim Yehu_Yehu Yehudah Yehudi Yered_Yered Yeriyahu Yesha'yahu_Yesha'yahu Yeshua 
+			Yiftach Yirmiyahu Yishai_Yishai Yishma'el Yishmeray Yisra'el Yissakhar_Yissakhar Yitzhak 
+			Yo'ash_Yo'ash Yoav Yochanan Yoel Yonah Yonatan Yoram Yosef 
+			Yoshiyahu_Yoshiyahu Yotam_Yotam Zekharyah Zevadyah Zevulun_Zevulun
+		}
+		female_names = {
+			Achinoam Asenat_Asenat Ashtoret_Ashtoret Atarah_Atarah Avigayil Avishag_Avishag Avital_Avital Basmat_Basmat 
+			Bat-Sheva Beulah_Beulah Bityah_Bityah Chaggit Channah Chawwah_Chawwah Cheftzi-Bah Chuldah_Chuldah 
+			Delilah Devorah Dinah_Dinah Ednah Efrat_Efrat Elisheba Ester Hadassah_Hadassah 
+			Hagar_Hagar Hodiyah_Hodiyah Ketzi'ah_Ketzi'ah Le'ah Machalat Meheitav'el_Meheitav'el Merav_Merav Mikhal 
+			Miriam Moriah Na'amah_Na'amah Na'omi No'ah Orpah_Orpah Rachel Rivqah_Rivqah 
+			Rut Sarah Shifra_Shifra Shoshannah_Shoshannah Shulammit Tamar_Tamar Tirtzah Tzillah 
+			Tzipporah Washti_Washti Yael_Yael Yedidah Yehudit Yemima Yiskah_Yiskah Yocheved 
+			Zilpah        
+		}
+  
+		from_dynasty_prefix = "of "
+    
+		modifier = near_eastern_culture_modifier
+	}
+	nabataean = {
+		graphical_cultures = { muslimgfx }
+  
+		color = { 0.8 0.6 0 }
+
+		male_names = {
+			Abd'allah_Abd'allah Abd-Dushara_Abd-Dushara Adnun_Adnun Amat_Amat Aush'allah_Aush'allah Ausos_Ausos Cain_Cain Dani'el_Daniel 
+			Garm'alba'ali_Garm'alba'ali Hana_Hana Paran_Paran Rav'el_Rav'el Thaim'alba'ali_Thaim'alba'ali Tym-Dushara_Tym-Dushara Ushba'al_Ushba'al Wadal-L'el_Wadal-L'el 
+			Wahab-Allah_Wahab-Allah Waqi'ha'el_Waqi'ha'el Zabin_Zabin        
+		}
+		female_names = {
+			Amat'allahi_Amat'allahi Ammayu_Ammayu Aphityu_Aphityu Gamilat_Gamilat Hab-Allahi_Hab-Allahi Haganu_Haganu Hagru_Hagru Han-Allahi_Han-Allahi 
+			Huldu_Huldu Kalbu_Kalbu Nashgu_Nashgu Shalm-Lahi_Shalm-Lahi Shaqilat_Shaqilat Shumrahu_Shumrahu Walu_Walu Waqilu_Waqilu 
+		}
+  
+		from_dynasty_prefix = "of "
+    
+		modifier = arabic_culture_modifier
+	}
+	aramaic = {
+		graphical_cultures = { muslimgfx }
+  
+		color = { 0 0.2 0.5 }
+
+		male_names = {
+			Adalya_Adalya Adinah_Adinah Amaryahu_Amaryahu Amnon_Amnon Ari'el_Ari'el Asa_Asa Avi'el_Avi'el Avihu_Avihu 
+			Avima'el_Avima'el Avira Azaryah_Azaryah Azazyahu_Azazyahu Azri'el_Azri'el Chananyah_Chananyah Chizqiyahu_Chizqiyahu Daryawesh_Daryawesh 
+			Delayahu_Delayahu El'azar_El'azar Eli'ezer_Eli'ezer Elihu_Elihu Elkanah_Elkanah Ezra_Ezra Gavri'el_Gavri'el Gedalyahu_Gedalyahu 
+			Gemaryahu_Gemaryahu Hevel_Hevel Itamar_Itamar Ittay_Ittay Iyyov_Iyyov Kalev_Kalev Kayin_Kayin Koresh_Koresh 
+			Lemuel_Lemuel Mattan_Mattan Melech_Melech Menashsheh_Menashsheh Nachum_Nachum Neriah_Neriah Omri_Omri Ovadyah_Ovadyah 
+			Peleg_Peleg Pinchas_Pinchas Rockmeil Satan_Satan She'alti'el_She'alti'el Shet_Shet Te'oma Teman_Teman 
+			Toviyyah_Toviyyah Tzefanyah_Tzefanyah Tzidkiyahu_Tzidkiyahu Uri_Uri Uriy'el_Uriy'el Uriyah_Uriyah Uzzi_Uzzi Uzziyyah_Uzziyyah 
+			Ya'rah_Ya'rah Yachin_Yachin Yair_Yair Yechezkel_Yechezkel Yechi'el_Yechi'el Yeho'ash_Yeho'ash Yehoshu'a_Yehoshua Yehu_Yehu 
+			Yered_Yered Yesha'yahu_Yesha'yahu Yishai_Yishai Yissakhar_Yissakhar Yo'ash_Yo'ash Yoshiyahu_Yoshiyahu Yotam_Yotam Zevulun_Zevulun 
+		}
+		female_names = {
+			Asenat_Asenat Ashtoret_Ashtoret Atarah_Atarah Avishag_Avishag Avital_Avital Basmat_Basmat Beulah_Beulah Bityah_Bityah 
+			Chawwah_Chawwah Chuldah_Chuldah Dinah_Dinah Efrat_Efrat Hadassah_Hadassah Hagar_Hagar Hodiyah_Hodiyah Ketzi'ah_Ketzi'ah 
+			Meheitav'el_Meheitav'el Merav_Merav Na'amah_Na'amah Orpah_Orpah Rivqah_Rivqah Shifra_Shifra Shoshannah_Shoshannah Tamar_Tamar 
+			Washti_Washti Yael_Yael Yiskah_Yiskah       
+		}
+  
+		from_dynasty_prefix = "of "
+    
+		modifier = near_eastern_culture_modifier
+	}
+	akkadian = {
+		graphical_cultures = { muslimgfx }
+  
+		color = { 0 0.2 0.9 }
+
+		male_names = {
+			Adad-Nerari Adad-Salulu Adasi Ahur-Apla-Idi Ashur-Bel-Kala Ashur-Bel-Nisheshu Ashur-Dan Ashur-Dugul 
+			Ashur-Etel-Ilani Ashur-Nadin-Ahhe Ashur-Nirari Ashur-Rabi Ashur-Resh-Ishi Ashur-Rim-Nisheshu Ashur-Shaduni Ashur-Uballit 
+			Ashurbanipal Asinum Assur-Ah-Iddin Bazaya Bel-Bani Bel-Nerari Enlil-Nasir Erishum 
+			Igurkapkapu Ilkunum Ilushumma Ipqi-Ishtar Iptar-Sin Ishme-Dagan Libaya Lullaya 
+			Marduk-Nadin-Akhe Mut-Ashkur Naram-Suen Nasir-Sin Nur-Ili Pudi-Ilu Puzur-Ashur Rimush 
+			Shalmaneser Shamash-Shum-Ukin Shamshi-Adad Sharma-Adad Sharrukin Shu-Ninua Sin-Ah-Eriba Sin-Namir 
+			Tukulti-Apal-Esharra Tukulti-Ninib Tukulti-Ninurta       
+		}
+ 		female_names = {
+			Naqiya-Zakutu Anat Asherah Ereshkigal Inanna Ishtar Lilith Nanaya Nina Tanith Tiamat
+		}
+  
+		from_dynasty_prefix = "of "
+    
+		modifier = near_eastern_culture_modifier
+	}
+	arabic = {
+		graphical_cultures = { muslimgfx }
+		
+		color = { 0.8 0.7 0.4 }
+		
+		male_names = {
+			Abd'allah_Abd'allah Abd-Dushara_Abd-Dushara Adnun_Adnun Amat_Amat Aush'allah_Aush'allah Ausos_Ausos Cain_Cain Dani'el_Daniel 
+			Garm'alba'ali_Garm'alba'ali Hana_Hana Paran_Paran Rav'el_Rav'el Thaim'alba'ali_Thaim'alba'ali Tym-Dushara_Tym-Dushara Ushba'al_Ushba'al Wadal-L'el_Wadal-L'el 
+			Wahab-Allah_Wahab-Allah Waqi'ha'el_Waqi'ha'el Zabin_Zabin        
+		}
+		female_names = {
+			Amat'allahi_Amat'allahi Ammayu_Ammayu Aphityu_Aphityu Gamilat_Gamilat Hab-Allahi_Hab-Allahi Haganu_Haganu Hagru_Hagru Han-Allahi_Han-Allahi 
+			Huldu_Huldu Kalbu_Kalbu Nashgu_Nashgu Shalm-Lahi_Shalm-Lahi Shaqilat_Shaqilat Shumrahu_Shumrahu Walu_Walu Waqilu_Waqilu 
+		}
+  
+		from_dynasty_prefix = "of "
+    
+		modifier = arabic_culture_modifier
+	}
+}
+anatolian_group = {
+	luwian = {
+		graphical_cultures = { byzantinegfx }
+  
+		color = { 0 0.5 0.5 }
+
+		male_names = {
+			Alexandros_Alexandros Anittas_Anittas Arkesilas_Arkesilas Arnuwandas_Arnuwandas Diogenes_Diogenes Dionysios_Dionysios Ermdumnou_Ermdumnou Eumenes_Eumenes 
+			Hattusilis_Hattusilis Herodotus_Herodotus Kassandros_Kassandros Katuzili_Katuzili Laomedon_Laomedon Lubarna_Lubarna Lysimachos_Lysimachos Manapa-Tarhunda_Manapa-Tarhunda 
+			Mursilis_Mursilis Mutallu_Mutallu Muwatallis_Muwatallis Olympos_Olympos Piyamaradu_Piyamaradu Sapalulme_Sapalulme Suppiluliuma_Suppiluliuma Telipinus_Telipinus 
+			Tibe_Tibe Tudhaliyas_Tudhaliyas Ura-Tarhundas_Ura-Tarhundas Wazzije_Wazzije Xenophon_Xenophon       
+		}
+		female_names = {
+			Alexandra_Alexandra Apollonia_Apollonia Charis_Charis Eudokia_Eudokia Helene_Helene Kassandra_Kassandra Melitta_Melitta Olympias_Olympias 
+			Pherenike_Pherenike Pudukhepa_Pudukhepa Roxane_Roxane Zenobia_Zenobia        
+		}
+  
+		from_dynasty_prefix = "of "
+    
+		modifier = anatolian_culture_modifier
+	}
+	cappadocian = {
+		graphical_cultures = { muslimgfx }
+  
+		color = { 0.8 0.7 0.6 }
+  
+		male_names = {
+			Anittas_Anittas Ariyamna_Ariyamna Arnuwandas_Arnuwandas Arshaka_Arshaka Artaxshasa_Artaxshasa Aryawratha_Aryawratha Bagabuxsha_Bagabuxsha Darayavahu_Darayavahu Ermdumnou_Ermdumnou 
+			Hattusilis_Hattusilis Haxamanish_Haxamanish Kambuyija_Kambuyija Katuzili_Katuzili Kuru_Kuru Lubarna_Lubarna Manapa-Tarhunda_Manapa-Tarhunda Mursilis_Mursilis 
+			Mutallu_Mutallu Muwatallis_Muwatallis Piyamaradu_Piyamaradu Sapalulme_Sapalulme Suppiluliuma_Suppiluliuma Telipinus_Telipinus Tibe_Tibe Tudhaliyas_Tudhaliyas 
+			Ura-Tarhundas_Ura-Tarhundas Uvaxshtra_Uvaxshtra Vishtaspa_Vishtaspa Wazzije_Wazzije Xshayarshan_Xshayarshan        
+		}
+		female_names = {
+			Asabana_Asabana Barsine_Barsine Franghad_Franghad Frenay_Frenay Huchithra_Huchithra Hutaosa_Hutaosa Hvovi_Hvovi Jagkrut_Jagkrut 
+			Kanuka_Kanuka Pudukhepa_Pudukhepa Thriti_Thriti Tushnamatay_Tushnamatay Urudhayant_Urudhayant Uxshenti_Uxshenti Zairichi_Zairichi        
+		}
+  
+		from_dynasty_prefix = "of "
+  
+		modifier = anatolian_culture_modifier
+	}
+}
+eastern_african = {
+	egyptian = {
+		graphical_cultures = { muslimgfx }
+  
+		color = { 0.9 0.8 0 }
+  
+		male_names = {
+			Aahotepre_Aahotepre Addaya_Addaya Ahmes_Ahmes Ahmose_Ahmose Akhenaten_Akhenaten Akhraten_Akhraten Amenemhat_Amenemhat Amenemipet_Amenemipet 
+			Amenemnisu_Amenemnisu Amenemope_Amenemope Amenemopet_Amenemopet Amenhotep_Amenhotep Amenmesse_Amenmesse Amenmose_Amenmose Ameny_Ameny Amethu_Amethu 
+			Amun_Amun Amyrtaeus_Amyrtaeus Anedjib_Anedjib Anen_Anen Anhotep_Anhotep Ankhaf_Ankhaf Ankhefensekhmet_Ankhefensekhmet Ankherfenedjef_Ankherfenedjef 
+			Ankhkherednefer_Ankhkherednefer Ankhmakis_Ankhmakis Ankhmare_Ankhmare Ankhmasis_Ankhmasis Ankhreshet_Ankhreshet Ankhtifi_Ankhtifi Ankhu_Ankhu Apepi_Apepi 
+			Aperel_Aperel Apries_Apries Ashakhet_Ashakhet Babaef_Babaef Bakenkhonsu_Bakenkhonsu Bakenraef_Bakenraef Baufra_Baufra Bebi_Bebi 
+			Bebiankh_Bebiankh Bek_Bek Buneb_Buneb Dagi_Dagi Dedi_Dedi Dedumose_Dedumose Den_Den Didia_Didia 
+			Djaty_Djaty Djau_Djau Djedefhor_Djedefhor Djedefptah_Djedefptah Djedefre_Djedefre Djedhor_Djedhor Djedi_Djedi Djediufankh_Djediufankh 
+			Djedkare_Djedkare Djedkhonsuefankh_Djedkhonsuefankh Djedptahiufankh_Djedptahiufankh Djehuti_Djehuti Djehuty_Djehuty Djer_Djer Djet_Djet Djoser_Djoser 
+			Duaenhor_Duaenhor Duaenre_Duaenre Hakor_Hakor Hannu_Hannu Hapusenab_Hapusenab Harkhebi_Harkhebi Harkhuf_Harkhuf Harsiese_Harsiese 
+			Harsiotef_Harsiotef Harwa_Harwa Hemaka_Hemaka Hemiunu_Hemiunu Hepu_Hepu Heqanakht_Heqanakht Herihor_Herihor Hesy-Na_Hesy-Na 
+			Hewernef_Hewernef Hor-Aha_Hor-Aha Hor_Hor Horbaef_Horbaef Horemheb_Horemheb Hori_Hori Hornakht_Hornakht Hotepibre_Hotepibre 
+			Hotepsekhemwy_Hotepsekhemwy Hsekiu_Hsekiu Hunefer_Hunefer Huni_Huni Huy_Huy Huya_Huya Ibi_Ibi Ibiau_Ibiau 
+			Ienheru_Ienheru Imhotep_Imhotep Imyremeshaw_Imyremeshaw Ineni_Ineni Ini_Ini Inkaef_Inkaef Intef_Intef Intefiqer_Intefiqer 
+			Iry-Hor_Iry-Hor Isesi-Ankh_Isesi-Ankh Isu_Isu Itisen_Itisen Itu_Itu Iufaa_Iufaa Iufni_Iufni Iumin_Iumin 
+			Iunre_Iunre Iuput_Iuput Iynefer_Iynefer Ka_Ka Kaemqed_Kaemqed Kaemsekhem_Kaemsekhem Kagemni_Kagemni Kakhent_Kakhent 
+			Kamose_Kamose Kanefer_Kanefer Kawab_Kawab Khaba_Khaba Khabash_Khabash Khabekhnet_Khabekhnet Khaemtir_Khaemtir Khaemweset_Khaemweset 
+			Khafra_Khafra Khamudi_Khamudi Khasekhemwy_Khasekhemwy Khawy_Khawy Khay_Khay Khayu_Khayu Khendjer_Khendjer Khentimeresh_Khentimeresh 
+			Kheti_Kheti Khnumhotep_Khnumhotep Khufu_Khufu Khufukhaf_Khufukhaf Khyan_Khyan Mahu_Mahu Maiherpi_Maiherpi Manetho_Manetho 
+			Masaharta_Masaharta Maya_Maya Menes_Menes Menkare_Menkare Menkaure_Menkaure Menkauthor_Menkauthor Menkheperraseneb_Menkheperraseneb Menkheperre_Menkheperre 
+			Menna_Menna Mentuherkhepeshef_Mentuherkhepeshef Mentuhotep_Mentuhotep Merefnebef_Merefnebef Merenhor_Merenhor Merenptah_Merenptah Merenre_Merenre Mereruka_Mereruka 
+			Merhotepre_Merhotepre Merikare_Merikare Merneferre_Merneferre Meru_Meru Meryatum_Meryatum Merymose_Merymose Meryptah_Meryptah Meryre_Meryre 
+			Merysekhmet_Merysekhmet Meryteti_Meryteti Mindjedef_Mindjedef Minkhaf_Minkhaf Minmontu_Minmontu Minmose_Minmose Minnefer_Minnefer Montuherkhopshef_Montuherkhopshef 
+			Nakht_Nakht Nakhthoreb_Nakhthoreb Nakhtmin_Nakhtmin Nakhtnebef_Nakhtnebef Nakhtpaaten_Nakhtpaaten Narmer_Narmer Nastasen_Nastasen Nebamakhet_Nebamakhet 
+			Nebamun_Nebamun Nebiriau_Nebiriau Nebit_Nebit Nebmaatre_Nebmaatre Nebneteru_Nebneteru Nebnuni_Nebnuni Nebre_Nebre Nebwenenef_Nebwenenef 
+			Neby_Neby Necho_Necho Nectanebo_Nectanebo Nedjem_Nedjem Neferetnebty_Neferetnebty Neferfre_Neferfre Neferhotep_Neferhotep Neferirkare_Neferirkare 
+			Neferkahor_Neferkahor Neferkamin_Neferkamin Neferkare_Neferkare Neferkau_Neferkau Neferkauhor_Neferkauhor Neferkaure_Neferkaure Nefermaat_Nefermaat Neferneferuaten_Neferneferuaten 
+			Neferronpet_Neferronpet Nefersheshemre_Nefersheshemre Nehesy_Nehesy Nehi_Nehi Neitiqerty_Neitiqerty Nekauba_Nekauba Nemtyemsaf_Nemtyemsaf Nepherites_Nepherites 
+			Neserkauhor_Neserkauhor Neterkheperre_Neterkheperre Netjeraperef_Netjeraperef Netjerkare_Netjerkare Nikare_Nikare Nikaure_Nikaure Nimlot_Nimlot Nykara_Nykara 
+			Nynetjer_Nynetjer Nyuserre_Nyuserre Pabasa_Pabasa Pahemnetjer_Pahemnetjer Panehesy_Panehesy Paraemheb_Paraemheb Pareherwenemef_Pareherwenemef Parennefer_Parennefer 
+			Paser_Paser Pashedu_Pashedu Paweraa_Paweraa Pawura_Pawura Pebekkamen_Pebekkamen Pediamenopet_Pediamenopet Pennesuttawy_Pennesuttawy Pensekhmet_Pensekhmet 
+			Pentawer_Pentawer Penthu_Penthu Pepi_Pepi Perneb_Perneb Petubastis_Petubastis Photep_Photep Piankh_Piankh Pihuri_Pihuri 
+			Pimay_Pimay Pinedjem_Pinedjem Pinehesy_Pinehesy Pipi_Pipi Psammuthes_Psammuthes Psamtik_Psamtik Psusennes_Psusennes Ptahhotep_Ptahhotep 
+			Ptahmose_Ptahmose Ptahshepses_Ptahshepses Puimre_Puimre Qa'a_Qa'a Qakare_Qakare Qar_Qar Qen_Qen Qenna_Qenna 
+			Raemka_Raemka Raherka_Raherka Rahotep_Rahotep Ramesses_Ramesses Ramessesnakht_Ramessesnakht Ramose_Ramose Raneb_Raneb Ranefer_Ranefer 
+			Rashepses_Rashepses Rawer_Rawer Rehuerdjersen_Rehuerdjersen Rekhmire_Rekhmire Renseneb_Renseneb Roma-Roi_Roma-Roi Rudamun_Rudamun Sabef_Sabef 
+			Sabu_Sabu Sahure_Sahure Sakir-Har_Sakir-Har Salitis_Salitis Sanakht_Sanakht Sankhenre_Sankhenre Sedjefakare_Sedjefakare Sehetepre_Sehetepre 
+			Sekhemib-Perenmaat_Sekhemib-Perenmaat Sekhemkare_Sekhemkare Sekhemkhet_Sekhemkhet Sekhemre_Sekhemre Semenkare_Semenkare Semenre_Semenre Semerkhet_Semerkhet Senakhtenre_Senakhtenre 
+			Seneb_Seneb Senebhenaf_Senebhenaf Senebi_Senebi Senedj_Senedj Senedjemib_Senedjemib Senenmut_Senenmut Senewosret-Ankh_Senewosret-Ankh Sennedjem_Sennedjem 
+			Sennefer_Sennefer Senneferi_Senneferi Senusret_Senusret Seqenre_Seqenre Serfka_Serfka Setau_Setau Seth-Peribsen_Seth-Peribsen Seti-Merenptah_Seti-Merenptah 
+			Seti_Seti Setnakhte_Setnakhte Seuserenre_Seuserenre Sewadjkare_Sewadjkare Shedsu-Nefertum_Shedsu-Nefertum Shepseska_Shepseska Shepseskaf_Shepseskaf Shepseskare_Shepseskare 
+			Shepsesneb_Shepsesneb Shery_Shery Sheshi_Sheshi Sheshonk_Sheshonk Siamun_Siamun Siatum_Siatum Siese_Siese Simut_Simut 
+			Siptah_Siptah Smendes_Smendes Smenkhkare_Smenkhkare Sneferu_Sneferu Sneferukhaf_Sneferukhaf Sobekemhat_Sobekemhat Sobekemsaf_Sobekemsaf Sobekhotep_Sobekhotep 
+			Sobeknakht_Sobeknakht Taharqa_Taharqa Takelot_Takelot Tao_Tao Tefnakht_Tefnakht Teos_Teos Teta_Teta Teti_Teti 
+			Thamphthis_Thamphthis Thutmose_Thutmose Tjanefer_Tjanefer Tutankhamun_Tutankhamun Tutkheperre_Tutkheperre Tutu_Tutu Unas_Unas Useramen_Useramen 
+			Userhet_Userhet Userkaf_Userkaf Userkare_Userkare Usermontu_Usermontu Wadjmose_Wadjmose Wahibre_Wahibre Wakhare_Wakhare Webensenu_Webensenu 
+			Wegaf_Wegaf Wehemka_Wehemka Weneg_Weneg Weni_Weni Wentawet_Wentawet Wetka_Wetka Yanhamu_Yanhamu Yaqub-Har_Yaqub-Har 
+			Yuny_Yuny Yuya_Yuya Zamonth_Zamonth        
+		}
+		female_names = {
+			Aat_Aat Abar_Abar Ahaneith_Ahaneith Ahhotep_Ahhotep Ahmose_Ahmose Amenemopet_Amenemopet Amenia_Amenia Amenirdas_Amenirdas 
+			Ankhesenamen_Ankhesenamen Ankhesenpaaten_Ankhesenpaaten Ankhesenpepi_Ankhesenpepi Ankhnesferibre_Ankhnesferibre Artakama_Artakama Atakhebasken_Atakhebasken Aya_Aya Baketwernel_Baketwernel 
+			Behenu_Behenu Beketamun_Beketamun Beketaten_Beketaten Benerib_Benerib Betrest_Betrest Bintanath_Bintanath Bunefer_Bunefer Dakhamunzu_Dakhamunzu 
+			Djefatnebi_Djefatnebi Djefatsen_Djefatsen Djeseretnebti_Djeseretnebti Duaentopet_Duaentopet Duathathor_Duathathor Gautseshen_Gautseshen Gilukhipa_Gilukhipa Hatshepsut_Hatshepsut 
+			Hedjetnebu_Hedjetnebu Hekenuhedjet_Hekenuhedjet Hemetre_Hemetre Henutmehyt_Henutmehyt Henutmire_Henutmire Henutsen_Henutsen Henuttaneb_Henuttaneb Henuttawy_Henuttawy 
+			Henutwati_Henutwati Herneith_Herneith Hetepheres_Hetepheres Hetephernebti_Hetephernebti Hui_Hui Iaret_Iaret Inenek-Inti_Inenek-Inti Inetkawes_Inetkawes 
+			Ipu_Ipu Iput_Iput Isesu_Isesu Iset_Iset Isetemkheb_Isetemkheb Isetnofret_Isetnofret Itet_Itet Kapes_Kapes 
+			Karomama_Karomama Kekheretnebti_Kekheretnebti Keminub_Keminub Khamerernebty_Khamerernebty Khedebneithirbinet_Khedebneithirbinet Khenemetnferhedjet_Khenemetnferhedjet Khensa_Khensa Khentetka_Khentetka 
+			Khenthap_Khenthap Khentkaus_Khentkaus Khenut_Khenut Khuit_Khuit Kiya_Kiya Maatkare_Maatkare Maia_Maia Mehytenweshkhet_Mehytenweshkhet 
+			Meketaten_Meketaten Menhet_Menhet Menwi_Menwi Mereret_Mereret Meresamun_Meresamun Meresankh_Meresankh Meret-Isesi_Meret-Isesi Meretseger_Meretseger 
+			Merit-Ptah_Merit-Ptah Meritamen_Meritamen Meritites_Meritites Merneith_Merneith Merti_Merti Merytre-Hatshepsut_Merytre-Hatshepsut Mutbenret_Mutbenret Mutemwiya_Mutemwiya 
+			Mutnedjmet_Mutnedjmet Mutnofret_Mutnofret Nakhtneith_Nakhtneith Nakhtubasterau_Nakhtubasterau Naparye_Naparye Nauny_Nauny Nebet_Nebet Nebetah_Nebetah 
+			Nebetia_Nebetia Nebetiunet_Nebetiunet Nebetnehat_Nebetnehat Nebettawy_Nebettawy Nebtu_Nebtu Nebty-Tepites_Nebty-Tepites Nebtyemneferes_Nebtyemneferes Nedjeftet_Nedjeftet 
+			Nedjemib_Nedjemib Neferhetepes_Neferhetepes Neferneferure_Neferneferure Nefertari_Nefertari Neferthenut_Neferthenut Nefertiabet_Nefertiabet Nefertiti_Nefertiti Nefertkau_Nefertkau 
+			Nefertnesu_Nefertnesu Neferu_Neferu Neferuptah_Neferuptah Neferure_Neferure Nefrubity_Nefrubity Neith_Neith Neithhotep_Neithhotep Nesitanebetashru_Nesitanebetashru 
+			Nesitaudjatakhet_Nesitaudjatakhet Neskhons_Neskhons Nimaethap_Nimaethap Nitocris_Nitocris Nofret_Nofret Nubhetepi-Khered_Nubhetepi-Khered Nubkhaes_Nubkhaes Nubkhaesbed_Nubkhaesbed 
+			Nubwenet_Nubwenet Pageti_Pageti Patareshnes_Patareshnes Peksater_Peksater Penebui_Penebui Persenet_Persenet Peseshet_Peseshet Pyhia_Pyhia 
+			Qalhata_Qalhata Rekhetre_Rekhetre Reputnebty_Reputnebty Repytnub_Repytnub Satiah_Satiah Scota_Scota Sekhmakh_Sekhmakh Semat_Semat 
+			Senseneb_Senseneb Serethor_Serethor Seshemetka_Seshemetka Sesheshet_Sesheshet Setepenre_Setepenre Shepenupet_Shepenupet Sitamun_Sitamun Sitdjehuti_Sitdjehuti 
+			Sithathoriunet_Sithathoriunet Sitre_Sitre Sobekneferu_Sobekneferu Tabekenamun_Tabekenamun Tabiry_Tabiry Tadukhipa_Tadukhipa Takahatenamun_Takahatenamun Takhat_Takhat 
+			Takhuit_Takhuit Tashedkhonsu_Tashedkhonsu Tawerettenru_Tawerettenru Tentamun_Tentamun Tentkheta_Tentkheta Teti_Teti Tetisheri_Tetisheri Tey_Tey 
+			Tia_Tia Tiaa_Tiaa Tiy-Merenese_Tiy-Merenese Tiye_Tiye Tjuyu_Tjuyu Twosret_Twosret Tyti_Tyti Udjebten_Udjebten 
+		}
+  
+		from_dynasty_prefix = "of "
+  
+		modifier = african_culture_modifier
+	}
+	nubian = {
+		graphical_cultures = { africangfx muslimgfx }
+  
+		color = { 0.9 1 0 }
+  
+		male_names = {
+			Aahotepre_Aahotepre Addaya_Addaya Ahmes_Ahmes Ahmose_Ahmose Akhenaten_Akhenaten Akhraten_Akhraten Alara Amanibakhi 
+			Amanineteyerike Amenemhat_Amenemhat Amenemipet_Amenemipet Amenemnisu_Amenemnisu Amenemope_Amenemope Amenemopet_Amenemopet Amenhotep_Amenhotep Amenmesse_Amenmesse 
+			Amenmose_Amenmose Ameny_Ameny Amethu_Amethu Amun_Amun Amyrtaeus_Amyrtaeus Analmaye Anedjib_Anedjib Anen_Anen 
+			Anhotep_Anhotep Ankhaf_Ankhaf Ankhefensekhmet_Ankhefensekhmet Ankherfenedjef_Ankherfenedjef Ankhkherednefer_Ankhkherednefer Ankhmakis_Ankhmakis Ankhmare_Ankhmare Ankhmasis_Ankhmasis 
+			Ankhreshet_Ankhreshet Ankhtifi_Ankhtifi Ankhu_Ankhu Anlamani Apepi_Apepi Aperel_Aperel Apries_Apries Aramatle-Qo 
+			Ashakhet_Ashakhet Aspelta Atlanersa Babaef_Babaef Bakenkhonsu_Bakenkhonsu Bakenraef_Bakenraef Baskakeren Baufra_Baufra 
+			Bebi_Bebi Bebiankh_Bebiankh Bek_Bek Buneb_Buneb Dagi_Dagi Dedi_Dedi Dedumose_Dedumose Den_Den 
+			Didia_Didia Djaty_Djaty Djau_Djau Djedefhor_Djedefhor Djedefptah_Djedefptah Djedefre_Djedefre Djedhor_Djedhor Djedi_Djedi 
+			Djediufankh_Djediufankh Djedkare_Djedkare Djedkhonsuefankh_Djedkhonsuefankh Djedptahiufankh_Djedptahiufankh Djehuti_Djehuti Djehuty_Djehuty Djer_Djer Djet_Djet 
+			Djoser_Djoser Duaenhor_Duaenhor Duaenre_Duaenre Hakor_Hakor Hannu_Hannu Hapusenab_Hapusenab Harkhebi_Harkhebi Harkhuf_Harkhuf 
+			Haronnophris Harsiese_Harsiese Harsiotef_Harsiotef Harwa_Harwa Hemaka_Hemaka Hemiunu_Hemiunu Hepu_Hepu Heqanakht_Heqanakht 
+			Herihor_Herihor Hesy-Na_Hesy-Na Hewernef_Hewernef Hor-Aha_Hor-Aha Hor_Hor Horbaef_Horbaef Horemheb_Horemheb Hori_Hori 
+			Hornakht_Hornakht Hotepibre_Hotepibre Hotepsekhemwy_Hotepsekhemwy Hsekiu_Hsekiu Hugronaphor Hunefer_Hunefer Huni_Huni Huy_Huy 
+			Huya_Huya Ibi_Ibi Ibiau_Ibiau Ienheru_Ienheru Imhotep_Imhotep Imyremeshaw_Imyremeshaw Ineni_Ineni Ini_Ini 
+			Inkaef_Inkaef Intef_Intef Intefiqer_Intefiqer Iry-Hor_Iry-Hor Isesi-Ankh_Isesi-Ankh Isu_Isu Itisen_Itisen Itu_Itu 
+			Iufaa_Iufaa Iufni_Iufni Iumin_Iumin Iunre_Iunre Iuput_Iuput Iynefer_Iynefer Ka_Ka Kaemqed_Kaemqed 
+			Kaemsekhem_Kaemsekhem Kagemni_Kagemni Kakhent_Kakhent Kamose_Kamose Kanefer_Kanefer Kashta Kawab_Kawab Khaba_Khaba 
+			Khabash_Khabash Khabekhnet_Khabekhnet Khaemtir_Khaemtir Khaemweset_Khaemweset Khafra_Khafra Khamudi_Khamudi Khasekhemwy_Khasekhemwy Khawy_Khawy 
+			Khay_Khay Khayu_Khayu Khendjer_Khendjer Khentimeresh_Khentimeresh Kheti_Kheti Khnumhotep_Khnumhotep Khufu_Khufu Khufukhaf_Khufukhaf 
+			Khyan_Khyan Mahu_Mahu Maiherpi_Maiherpi Malewiebamani Manetho_Manetho Masaharta_Masaharta Maya_Maya Menes_Menes 
+			Menkare_Menkare Menkaure_Menkaure Menkauthor_Menkauthor Menkheperraseneb_Menkheperraseneb Menkheperre_Menkheperre Menna_Menna Mentuherkhepeshef_Mentuherkhepeshef Mentuhotep_Mentuhotep 
+			Merefnebef_Merefnebef Merenhor_Merenhor Merenptah_Merenptah Merenre_Merenre Mereruka_Mereruka Merhotepre_Merhotepre Merikare_Merikare Merneferre_Merneferre 
+			Meru_Meru Meryatum_Meryatum Merymose_Merymose Meryptah_Meryptah Meryre_Meryre Merysekhmet_Merysekhmet Meryteti_Meryteti Mindjedef_Mindjedef 
+			Minkhaf_Minkhaf Minmontu_Minmontu Minmose_Minmose Minnefer_Minnefer Montuherkhopshef_Montuherkhopshef Nakht_Nakht Nakhthoreb_Nakhthoreb Nakhtmin_Nakhtmin 
+			Nakhtnebef_Nakhtnebef Nakhtpaaten_Nakhtpaaten Narmer_Narmer Nasakhma Nastasen_Nastasen Nebamakhet_Nebamakhet Nebamun_Nebamun Nebiriau_Nebiriau 
+			Nebit_Nebit Nebmaatre_Nebmaatre Nebneteru_Nebneteru Nebnuni_Nebnuni Nebre_Nebre Nebwenenef_Nebwenenef Neby_Neby Necho_Necho 
+			Nectanebo_Nectanebo Nedjem_Nedjem Neferetnebty_Neferetnebty Neferfre_Neferfre Neferhotep_Neferhotep Neferirkare_Neferirkare Neferkahor_Neferkahor Neferkamin_Neferkamin 
+			Neferkare_Neferkare Neferkau_Neferkau Neferkauhor_Neferkauhor Neferkaure_Neferkaure Nefermaat_Nefermaat Neferneferuaten_Neferneferuaten Neferronpet_Neferronpet Nefersheshemre_Nefersheshemre 
+			Nehesy_Nehesy Nehi_Nehi Neitiqerty_Neitiqerty Nekauba_Nekauba Nemtyemsaf_Nemtyemsaf Nepherites_Nepherites Neserkauhor_Neserkauhor Neterkheperre_Neterkheperre 
+			Netjeraperef_Netjeraperef Netjerkare_Netjerkare Nikare_Nikare Nikaure_Nikaure Nimlot_Nimlot Nykara_Nykara Nynetjer_Nynetjer Nyuserre_Nyuserre 
+			Pabasa_Pabasa Pahemnetjer_Pahemnetjer Panehesy_Panehesy Paraemheb_Paraemheb Pareherwenemef_Pareherwenemef Parennefer_Parennefer Paser_Paser Pashedu_Pashedu 
+			Paweraa_Paweraa Pawura_Pawura Pebekkamen_Pebekkamen Pediamenopet_Pediamenopet Pennesuttawy_Pennesuttawy Pensekhmet_Pensekhmet Pentawer_Pentawer Penthu_Penthu 
+			Pepi_Pepi Perneb_Perneb Petubastis_Petubastis Photep_Photep Piankh_Piankh Pihuri_Pihuri Pimay_Pimay Pinedjem_Pinedjem 
+			Pinehesy_Pinehesy Pipi_Pipi Piye Psammuthes_Psammuthes Psamtik_Psamtik Psusennes_Psusennes Ptahhotep_Ptahhotep Ptahmose_Ptahmose 
+			Ptahshepses_Ptahshepses Puimre_Puimre Qa'a_Qa'a Qakare_Qakare Qar_Qar Qen_Qen Qenna_Qenna Raemka_Raemka 
+			Raherka_Raherka Rahotep_Rahotep Ramesses_Ramesses Ramessesnakht_Ramessesnakht Ramose_Ramose Raneb_Raneb Ranefer_Ranefer Rashepses_Rashepses 
+			Rawer_Rawer Rehuerdjersen_Rehuerdjersen Rekhmire_Rekhmire Renseneb_Renseneb Roma-Roi_Roma-Roi Rudamun_Rudamun Sabef_Sabef Sabu_Sabu 
+			Sahure_Sahure Sakir-Har_Sakir-Har Salitis_Salitis Sanakht_Sanakht Sankhenre_Sankhenre Sedjefakare_Sedjefakare Sehetepre_Sehetepre Sekhemib-Perenmaat_Sekhemib-Perenmaat 
+			Sekhemkare_Sekhemkare Sekhemkhet_Sekhemkhet Sekhemre_Sekhemre Semenkare_Semenkare Semenre_Semenre Semerkhet_Semerkhet Senakhtenre_Senakhtenre Seneb_Seneb 
+			Senebhenaf_Senebhenaf Senebi_Senebi Senedj_Senedj Senedjemib_Senedjemib Senenmut_Senenmut Senewosret-Ankh_Senewosret-Ankh Senkamanisken Sennedjem_Sennedjem 
+			Sennefer_Sennefer Senneferi_Senneferi Senusret_Senusret Seqenre_Seqenre Serfka_Serfka Setau_Setau Seth-Peribsen_Seth-Peribsen Seti-Merenptah_Seti-Merenptah 
+			Seti_Seti Setnakhte_Setnakhte Seuserenre_Seuserenre Sewadjkare_Sewadjkare Shabaka Shebitku Shedsu-Nefertum_Shedsu-Nefertum Shepseska_Shepseska 
+			Shepseskaf_Shepseskaf Shepseskare_Shepseskare Shepsesneb_Shepsesneb Shery_Shery Sheshi_Sheshi Sheshonk_Sheshonk Siamun_Siamun Siaspiqa 
+			Siatum_Siatum Siese_Siese Simut_Simut Siptah_Siptah Smendes_Smendes Smenkhkare_Smenkhkare Sneferu_Sneferu Sneferukhaf_Sneferukhaf 
+			Sobekemhat_Sobekemhat Sobekemsaf_Sobekemsaf Sobekhotep_Sobekhotep Sobeknakht_Sobeknakht Taharqa_Taharqa Takelot_Takelot Talakhamani Tantamani 
+			Tao_Tao Tefnakht_Tefnakht Teos_Teos Teta_Teta Teti_Teti Thamphthis_Thamphthis Thutmose_Thutmose Tjanefer_Tjanefer 
+			Tutankhamun_Tutankhamun Tutkheperre_Tutkheperre Tutu_Tutu Unas_Unas Useramen_Useramen Userhet_Userhet Userkaf_Userkaf Userkare_Userkare 
+			Usermontu_Usermontu Wadjmose_Wadjmose Wahibre_Wahibre Wakhare_Wakhare Webensenu_Webensenu Wegaf_Wegaf Wehemka_Wehemka Weneg_Weneg 
+			Weni_Weni Wentawet_Wentawet Wetka_Wetka Yanhamu_Yanhamu Yaqub-Har_Yaqub-Har Yuny_Yuny Yuya_Yuya Zamonth_Zamonth 
+		}
+		female_names = {
+			Aat_Aat Abar_Abar Ahaneith_Ahaneith Ahhotep_Ahhotep Ahmose_Ahmose Amenemopet_Amenemopet Amenia_Amenia Amenirdas_Amenirdas 
+			Ankhesenamen_Ankhesenamen Ankhesenpaaten_Ankhesenpaaten Ankhesenpepi_Ankhesenpepi Ankhnesferibre_Ankhnesferibre Artakama_Artakama Atakhebasken_Atakhebasken Aya_Aya Baketwernel_Baketwernel 
+			Behenu_Behenu Beketamun_Beketamun Beketaten_Beketaten Benerib_Benerib Betrest_Betrest Bintanath_Bintanath Bunefer_Bunefer Dakhamunzu_Dakhamunzu 
+			Djefatnebi_Djefatnebi Djefatsen_Djefatsen Djeseretnebti_Djeseretnebti Duaentopet_Duaentopet Duathathor_Duathathor Gautseshen_Gautseshen Gilukhipa_Gilukhipa Hatshepsut_Hatshepsut 
+			Hedjetnebu_Hedjetnebu Hekenuhedjet_Hekenuhedjet Hemetre_Hemetre Henutmehyt_Henutmehyt Henutmire_Henutmire Henutsen_Henutsen Henuttaneb_Henuttaneb Henuttawy_Henuttawy 
+			Henutwati_Henutwati Herneith_Herneith Hetepheres_Hetepheres Hetephernebti_Hetephernebti Hui_Hui Iaret_Iaret Inenek-Inti_Inenek-Inti Inetkawes_Inetkawes 
+			Ipu_Ipu Iput_Iput Isesu_Isesu Iset_Iset Isetemkheb_Isetemkheb Isetnofret_Isetnofret Itet_Itet Kapes_Kapes 
+			Karomama_Karomama Kekheretnebti_Kekheretnebti Keminub_Keminub Khamerernebty_Khamerernebty Khedebneithirbinet_Khedebneithirbinet Khenemetnferhedjet_Khenemetnferhedjet Khensa_Khensa Khentetka_Khentetka 
+			Khenthap_Khenthap Khentkaus_Khentkaus Khenut_Khenut Khuit_Khuit Kiya_Kiya Maatkare_Maatkare Maia_Maia Mehytenweshkhet_Mehytenweshkhet 
+			Meketaten_Meketaten Menhet_Menhet Menwi_Menwi Mereret_Mereret Meresamun_Meresamun Meresankh_Meresankh Meret-Isesi_Meret-Isesi Meretseger_Meretseger 
+			Merit-Ptah_Merit-Ptah Meritamen_Meritamen Meritites_Meritites Merneith_Merneith Merti_Merti Merytre-Hatshepsut_Merytre-Hatshepsut Mutbenret_Mutbenret Mutemwiya_Mutemwiya 
+			Mutnedjmet_Mutnedjmet Mutnofret_Mutnofret Nakhtneith_Nakhtneith Nakhtubasterau_Nakhtubasterau Naparye_Naparye Nauny_Nauny Nebet_Nebet Nebetah_Nebetah 
+			Nebetia_Nebetia Nebetiunet_Nebetiunet Nebetnehat_Nebetnehat Nebettawy_Nebettawy Nebtu_Nebtu Nebty-Tepites_Nebty-Tepites Nebtyemneferes_Nebtyemneferes Nedjeftet_Nedjeftet 
+			Nedjemib_Nedjemib Neferhetepes_Neferhetepes Neferneferure_Neferneferure Nefertari_Nefertari Neferthenut_Neferthenut Nefertiabet_Nefertiabet Nefertiti_Nefertiti Nefertkau_Nefertkau 
+			Nefertnesu_Nefertnesu Neferu_Neferu Neferuptah_Neferuptah Neferure_Neferure Nefrubity_Nefrubity Neith_Neith Neithhotep_Neithhotep Nesitanebetashru_Nesitanebetashru 
+			Nesitaudjatakhet_Nesitaudjatakhet Neskhons_Neskhons Nimaethap_Nimaethap Nitocris_Nitocris Nofret_Nofret Nubhetepi-Khered_Nubhetepi-Khered Nubkhaes_Nubkhaes Nubkhaesbed_Nubkhaesbed 
+			Nubwenet_Nubwenet Pageti_Pageti Patareshnes_Patareshnes Pebatjma Peksater_Peksater Penebui_Penebui Persenet_Persenet Peseshet_Peseshet 
+			Pyhia_Pyhia Qalhata_Qalhata Rekhetre_Rekhetre Reputnebty_Reputnebty Repytnub_Repytnub Satiah_Satiah Scota_Scota Sekhmakh_Sekhmakh 
+			Semat_Semat Senseneb_Senseneb Serethor_Serethor Seshemetka_Seshemetka Sesheshet_Sesheshet Setepenre_Setepenre Shepenupet_Shepenupet Sitamun_Sitamun 
+			Sitdjehuti_Sitdjehuti Sithathoriunet_Sithathoriunet Sitre_Sitre Sobekneferu_Sobekneferu Tabekenamun_Tabekenamun Tabiry_Tabiry Tadukhipa_Tadukhipa Takahatenamun_Takahatenamun 
+			Takhat_Takhat Takhuit_Takhuit Tashedkhonsu_Tashedkhonsu Tawerettenru_Tawerettenru Tentamun_Tentamun Tentkheta_Tentkheta Teti_Teti Tetisheri_Tetisheri 
+			Tey_Tey Tia_Tia Tiaa_Tiaa Tiy-Merenese_Tiy-Merenese Tiye_Tiye Tjuyu_Tjuyu Twosret_Twosret Tyti_Tyti 
+			Udjebten_Udjebten        
+		}
+  
+		from_dynasty_prefix = "of "
+  
+		modifier = african_culture_modifier
+	}
+}
+north_african = {
+	berber = {
+		graphical_cultures = { muslimgfx }
+		
+		color = { 1 0.8 0.3 }
+		
+		male_names = {
+			Abacandus Abazius Abidines Acadaius Adalus Aderbalus Adergazus Admerus Adumus Aelalus Agamas Agaphaes Agdadas Agdunes Agecheres Agilus 
+			Aleames Amaius Amauales Ambaius Amdegus Amellas Amennaius Amessanus Amodus Amraius Annaberus Antalus Aphagus Apherus Aras Asires Auinagus 
+			Aulagus Auzalus Axerus Axilus Bagaius Bercanus Capussa Causena Cenanus Cucundus Cussiles Gaesanus Gala Ganimus Gildus Gumerus Iabdas Iagmuras Iaphtenus 
+			Iattius Icenus Igerus Igidres Iglaphus Ilaius Ilienus Immegaras Immelus Ionis Iphseres Irgenus Isalces Issamus Itberus Juba Jugurtha Lacumaches 
+			Leunis Maesares Magsenus Massinissa Mastanabalus Maziccus Medenus Mellalus Mennadus Mezuares Misagenes Missenus Oesalces Ogoestanus 
+			Phrauses Salomonus Sammerus Siphales Sissa Stembanos Sugotus Tabathus Tannus Tapharinas Tegamas Tilaedus Tiphanus Uregus 
+			Uzmires Uzza Zelalsen
+		}
+		female_names = {
+			Azzia Adiana Bahacca Baghnata Bibea Canea Duripha Dasinia Edza Pharissa Phedada Pheruddia Gedduta Gida Ganima Guraea Guedia Hedda Herrua 
+			Ittyna Izza Gadira Eddega Cahina Canimanna Cenua Quella Lalla Laesa Lemta Lomasia Lunea Luizza Mamma Massa Megidda Menna Menza Mernissa 
+			Meassa Randea Rula Seccura Silea Simanna Tadephia Tadla Taphrara Taphsua Taguilla Taccama Taleata Tamenta Tamimunta Tamrusta Tanasarta 
+			Tanebba Tanesta Taninna Tariuelta Tassa Tasselaeta Tatea Taucinta Tauentia Taunatta Taerea Tassira Tarurta Tella Temsia Tophita Tigmea 
+			Ticinna Tilellea Timmea Tisenta Tizemta Tiziria Trea Tuderta Turecta Oltaphea Guentia Unissa Zadianta Zarga Zagua Zamba Zibba Zilgumma 
+			Zunagga Zuina Zuira
+		}
+		
+		# founder_named_dynasties = yes 
+		
+		from_dynasty_prefix = "of " # from
+		
+		male_patronym = "bun "
+		female_patronym = "bitt "
+		prefix = yes 
+
+		modifier = african_culture_modifier
+
+		dynasty_title_names = yes
+	}
+}
+caucasian = {
+	armenian = {
+		graphical_cultures = { byzantinegfx }
+  
+		color = { 0.8 0 0.2 }
+
+		male_names = {
+			Ara_Ara Aram_Aram Aramu_Aramu Argishti_Argishti Arkha_Arkha Artashes_Artaxshasa Artavazd_Artavardiya Haldita_Haldita 
+			Ispuinis_Ispuinis Menua_Menua Mihran_Mithridates Rusa_Rusa Sarduri_Sarduri Tigran_Tigran Trdat_Turdat Yervand_Yervand
+		}
+		female_names = {
+			Barsine_Barsine Frenay_Frenay Ghadana_Ghadana Huchithra_Huchithra Jagkrut_Jagkrut Pouruchista_Pouruchista Thriti_Thriti Uxshenti_Uxshenti 
+			Vadhut_Vadhut        
+		}
+  
+		from_dynasty_prefix = "of "
+   
+		modifier = anatolian_culture_modifier
+	}
+	georgian = {
+		graphical_cultures = { byzantinegfx }
+  
+		color = { 0.4 0 0.4 }
+
+		male_names = {
+			Aku_Aku Amazasp_Amazasp Arshak_Arshaka Azo_Azo Mihrdat_Mithridates Mirian_Mirian Parnajom_Parnajom Parnavazi_Parnavazi 
+			Pharsman_Pharasmanes Radamistus_Adam Saurmag_Saurmag
+		}
+		female_names = {
+			Asabana_Asabana Barsine_Barsine Franghad_Franghad Humaya_Humaya Hutaosa_Hutaosa Paesanghanu_Paesanghanu Tushnamatay_Tushnamatay Urudhayant_Urudhayant 
+			Vadhut_Vadhut Zenobia_Zenobia       			
+		}
+  
+		from_dynasty_prefix = "of "
+   
+		modifier = anatolian_culture_modifier
+	}
+	albanian = {
+		graphical_cultures = { byzantinegfx }
+  
+		color = { 0.5 0 0.5 }
+
+		male_names = {
+			Aku_Aku Amazasp_Amazasp Ara_Ara Aram_Aram Aramu_Aramu Argishti_Argishti Arkha_Arkha Arshak_Arshaka Artashes_Artaxshasa Artavazd_Artavardiya Azo_Azo Haldita_Haldita 
+			Ispuinis_Ispuinis Menua_Menua Mihran_Mithridates Mirian_Mirian Parnajom_Parnajom Parnavazi_Parnavazi Pharsman_Pharasmanes Radamistus_Adam Rusa_Rusa Sarduri_Sarduri 
+			Saurmag_Saurmag Tigran_Tigran Trdat_Turdat Yervand_Yervand
+		}
+		female_names = {
+			Asabana_Asabana Barsine_Barsine Franghad_Franghad Frenay_Frenay Ghadana_Ghadana Huchithra_Huchithra Humaya_Humaya Hutaosa_Hutaosa Jagkrut_Jagkrut Paesanghanu_Paesanghanu
+			Pouruchista_Pouruchista Thriti_Thriti Tushnamatay_Tushnamatay Urudhayant_Urudhayant Uxshenti_Uxshenti Vadhut_Vadhut Zenobia_Zenobia
+		}
+  
+		from_dynasty_prefix = "of "
+   
+		modifier = anatolian_culture_modifier
+	}
+}
+iranian = {
+	persian = {
+		graphical_cultures = { persiangfx muslimgfx }
+  
+		color = { 0.9 0 0.3 }
+  
+		male_names = {
+			Ardumanish_Ardumanish Ariyabrdhna_Ariyabrdhna Ariyamna_Ariyamna Arshaka_Arshaka Arshama_Arshama Artavardiya_Artavardiya Artaxshasa_Artaxshasa Arxa_Arkha 
+			Aryawratha_Aryawratha Asina_Asina Aspacanah_Aspacanah Atamaita_Atamaita Athiyabaushna_Athiyabaushna Aturpat_Aturpat Bagabigna_Bagabigna Bagabuxsha_Bagabuxsha 
+			Bardiya_Bardiya Cincixri_Cincixri Cisantaxma_Cisantaxma Cishpi_Cishpi Dadarshi_Dadarshi Darayavahu_Darayavahu Datuvahya_Datuvahya Frada_Frada 
+			Fravarti_Fravarti Gaubaruva_Gaubaruva Haldita_Haldita Haxamanish_Haxamanish Imanish_Imanish Kambuyija_Kambuyija Kuru_Kuru Marduniya_Marduniya 
+			Martiya_Martiya Mithradatha_Mithridates Pharsman_Pharasmanes Phrataphernes_Phrataphernes Taxmaspada_Taxmaspada Thuxra_Thuxra Upadarma_Upadarma Utana_Utana Uvaxshtra_Uvaxshtra Vahauka_Vahauka Vahumisa_Vahumisa 
+			Vahyavishdapaya_Vahyavishdapaya Vahyazdata_Vahyazdata Vayaspara_Vayaspara Vindafarnah_Vindafarnah Vindarna_Vindarna Vishtaspa_Vishtaspa Xshathrita_Xshathrita Xshayarshan_Xshayarshan 
+		}
+		female_names = {
+			Asabana_Asabana Artacama Barsine_Barsine Dughdho-Va_Dughdho-Va Eredat-Fedhri_Eredat-Fedhri Franghad_Franghad Frenay_Frenay Huchithra_Huchithra Humaya_Humaya 
+			Hutaosa_Hutaosa Hvaredhay_Hvaredhay Hvovi_Hvovi Jagkrut_Jagkrut Kanuka_Kanuka Paesanghanu_Paesanghanu Pouruchista_Pouruchista Srutat-Fedhri_Srutat-Fedhri 
+			Thriti_Thriti Tushnamatay_Tushnamatay Urudhayant_Urudhayant Ushtavaiti_Ushtavaiti Uxshenti_Uxshenti Vadhut_Vadhut Vanghu-Fedhri_Vanghu-Fedhri Vispa-Thaurvo-Ashtray_Vispa-Thaurvo-Ashtray 
+			Zairichi_Zairichi       
+		}
+  
+		from_dynasty_prefix = "of "
+		dynasty_title_names = yes
+		modifier = settled_iranian_culture_modifier
+	}
+	scythian = {
+		graphical_cultures = { persiangfx muslimgfx }
+  
+		color = { 0.9 0.6 0 }
+  
+		male_names = {
+			Adraspus_Adraspus Aelis_Aelis Ailios_Ailios Akrosander_Akrosander Anacharsis_Anacharsis Arapeithes_Arapeithes Atheas_Atheas Azes_Azes 
+			Azilises_Azilises Charaspes_Charaspes Idanthyrsus_Idanthyrsus Kanites_Kanites Kharahostes_Kharahostes Madyes_Madyes Moga_Moga Omarg_Omarg 
+			Palacus_Palacus Protothyes_Protothyes Sariakos_Sariakos Saulius_Saulius Scyles_Scyles Scylurus_Scylurus Skunxa_Skunxa Spalagadames_Spalagadames 
+			Spalahores_Spalahores Spalirises_Spalirises Vonones_Vonones Zeionises_Zeionises       
+		}
+		female_names = {
+			Amestris_Amestris Amytis_Amytis Anzaza_Anzaza Artazostre_Artazostre Artystone_Artystone Atossa_Atossa Barsine_Barsine Damaspia_Damaspia 
+			Mandane_Mandane Parmys_Parmys Parysatis_Parysatis Phaedymia_Phaedymia Rinu_Rinu Stateira_Stateira Vashti_Vashti        
+		}
+  
+		from_dynasty_prefix = ""
+  		dynasty_title_names = yes
+		modifier = nomadic_iranian_culture_modifier
+	}
+	bactrian = {
+		graphical_cultures = { persiangfx muslimgfx }
+  
+		color = { 0.7 0 0.2 }
+  
+		male_names = {
+			Aetava_Aetava Aevo-Gafya_Aevo-Gafya Aevo-Sared_Aevo-Sared Aghraeradha_Aghraeradha Ahum-Stut_Ahum-Stut Ainyava_Ainyava Aipi-Vanghav_Aipi-Vanghav Airyava_Airyava 
+			Aithwyav_Aithwyav Aoikhmatastura_Aoikhmatastura Aoshnara_Aoshnara Ara_Ara Arejat-Aspa_Arejat-Aspa Arenavak_Arenavak Arezo-Shamana_Arezo-Shamana Arshya_Arshya 
+			Artavardiya_Artavardiya Asha-Shyaothna_Asha-Shyaothna Ashahura_Ashahura Ashasairyank_Ashasairyank Ashasaredha_Ashasaredha Ashastu_Ashastu Ashaurvaedha_Ashaurvaedha Ashavanghav_Ashavanghav 
+			Ashavazdah_Ashavazdah Asho-Raochah_Asho-Raochah Ashta-Aurvant_Ashta-Aurvant Ashti-Gafya_Ashti-Gafya Aspachanah_Aspachanah Astvat-Ereta_Astvat-Ereta Athwya_Athwya Aurvasara_Aurvasara 
+			Aurvat-Aspa_Aurvat-Aspa Avaraoshtri_Avaraoshtri Avaregav_Avaregav Avarethrabah_Avarethrabah Avaya_Avaya Axnangha_Axnangha Axrura_Axrura Axtya_Axtya 
+			Ayo-Astay_Ayo-Astay Azata_Azata Bangha_Bangha Baremna_Baremna Berezavant_Berezavant Berezishnav_Berezishnav Bivandangha_Bivandangha Budhra_Budhra 
+			Byarshan_Byarshan Chaxshnay_Chaxshnay Daevo-Tbish_Daevo-Tbish Dahaka_Dahaka Dangha_Dangha Darshinika_Darshinika Dashtaghnay_Dashtaghnay Dashtayanay_Dashtayanay 
+			Dazgaraspa_Dazgaraspa Duraekaeta_Duraekaeta Duraesruta_Duraesruta Erezavant-Daingheush_Erezavant-Daingheush Erezraspa_Erezraspa Frachithra_Frachithra Frachya_Frachya Fradat-Nar_Fradat-Nar 
+			Fradat-Vanghav_Fradat-Vanghav Franya_Franya Fraorasa_Fraorasa Frarazay_Frarazay Frashaoshtra_Frashaoshtra Frasrutar_Frasrutar Frayaodha_Frayaodha Frayazenta_Frayazenta 
+			Frenah_Frenah Frinaspa_Frinaspa Fro-Hakafra_Fro-Hakafra Gaevanay_Gaevanay Gandarewa_Gandarewa Gaomant_Gaomant Garshta_Garshta Gaya-Maretan_Gaya-Maretan 
+			Gayadhastay_Gayadhastay Gravaratav_Gravaratav Hanghaurvah_Hanghaurvah Haoshyangha_Haoshyangha Haosravah_Haosravah Hushyaothna_Hushyaothna Hvadaena_Hvadaena Hvare-Chaeshman_Hvare-Chaeshman 
+			Hvare-Chithra_Hvare-Chithra Hvo-Gva_Hvo-Gva Isat-Vastra_Isat-Vastra Isvant_Isvant Jamaspa_Jamaspa Jannara_Jannara Jaro-Danghav_Jaro-Danghav Jaro-Vanghav_Jaro-Vanghav 
+			Jishtay_Jishtay Kaeva_Kaeva Kaosha_Kaosha Karsna_Karsna Kasupitav_Kasupitav Kata_Kata Katav_Katav Kavata_Kavata 
+			Kavay_Kavay Keresaspa_Keresaspa Keresavazdah_Keresavazdah Maidyoi-Mangha_Maidyoi-Mangha Manush-Chitra_Manush-Chitra Marezishmyah_Marezishmyah Mathravaka_Mathravaka Mayava_Mayava 
+			Mazdayasna_Mazdayasna Nanarastay_Nanarastay Naotara_Naotara Nemo-Vanghav_Nemo-Vanghav Neremyazdana_Neremyazdana Paeshatah_Paeshatah Paro-Dasma_Paro-Dasma Parshat-Gav_Parshat-Gav 
+			Parshinta_Parshinta Perethvafsman_Perethvafsman Pesho-Tanu_Pesho-Tanu Pouru-Bangha_Pouru-Bangha Pouru-Jira_Pouru-Jira Pourudhaxshtay_Pourudhaxshtay Pourushaspa_Pourushaspa Pourushtay_Pourushtay 
+			Raochas-Chaeshman_Raochas-Chaeshman Rashtare-Vaghenti_Rashtare-Vaghenti Ravant_Ravant Sadhanah_Sadhanah Saena_Saena Saimuzhi_Saimuzhi Sama_Sama Sanghangha_Sanghangha 
+			Sayuzhdri_Sayuzhdri Snaoya_Snaoya Spengha_Spengha Spento-Xratav_Spento-Xratav Spitay_Spitay Sruto-Spadha_Sruto-Spadha Staotar_Staotar 
+			Stipay_Stipay Stivant_Stivant Syavarshan_Syavarshan Taurvaetay_Taurvaetay Taxma_Taxma Thraetaona_Thraetaona Thrimithwant_Thrimithwant Thrit_Thrit 
+			Thrita_Thrita Tiro-Nakathwa_Tiro-Nakathwa Tumaspa_Tumaspa Tura_Tura Urudhav_Urudhav Urvatat-Nara_Urvatat-Nara Usadhan_Usadhan Usan_Usan 
+			Ushtra_Ushtra Usinemah_Usinemah Usmanar_Usmanar Uspanav_Uspanav Utayutay_Utayutay Uxshan_Uxshan Uxshyat-Ereta_Uxshyat-Ereta Uxshyat-Nemah_Uxshyat-Nemah 
+			Uzava_Uzava Uzya_Uzya Vaedhangha_Vaedhangha Vagerezan_Vagerezan Vahmaedhata_Vahmaedhata Vanghudhata_Vanghudhata Varakasa_Varakasa Varaza_Varaza 
+			Varesmapa_Varesmapa Varesmo-Raochah_Varesmo-Raochah Varshna_Varshna Varshnay_Varshnay Vidhisravah_Vidhisravah Viraspa_Viraspa Vishtaspa_Vishtaspa Visruta_Visruta 
+			Visrutar_Visrutar Vistarav_Vistarav Vivahvant_Vivahvant Vivareshva_Vivareshva Vohu-Data_Vohu-Data Vohu-Nemah_Vohu-Nemah Vohu-Peresa_Vohu-Peresa Vohuraochah_Vohuraochah 
+			Vohushtra_Vohushtra Vohvastay_Vohvastay Vohvazdah_Vohvazdah Vyatana_Vyatana Xshathro-Chinah_Xshathro-Chinah Xshtavay_Xshtavay Xshviwraspa_Xshviwraspa Xvadhata_Xvadhata 
+			Yaetush-Gav_Yaetush-Gav Yima_Yima Zairita_Zairita Zairyank_Zairyank Zaosha_Zaosha Zavan_Zavan Zbaurvant_Zbaurvant Zighray_Zighray 
+			Zrayangha_Zrayangha Zrazdatay_Zrazdatay        
+		}
+		female_names = {
+			Asabana_Asabana Apama_Apama Barsine_Barsine Dughdho-Va_Dughdho-Va Eredat-Fedhri_Eredat-Fedhri Franghad_Franghad Frenay_Frenay Huchithra_Huchithra Humaya_Humaya 
+			Hutaosa_Hutaosa Hvaredhay_Hvaredhay Hvovi_Hvovi Jagkrut_Jagkrut Kanuka_Kanuka Paesanghanu_Paesanghanu Pouruchista_Pouruchista Raoxshna Srutat-Fedhri_Srutat-Fedhri 
+			Thriti_Thriti Tushnamatay_Tushnamatay Urudhayant_Urudhayant Ushtavaiti_Ushtavaiti Uxshenti_Uxshenti Vadhut_Vadhut Vanghu-Fedhri_Vanghu-Fedhri Vispa-Thaurvo-Ashtray_Vispa-Thaurvo-Ashtray 
+			Zairichi_Zairichi        
+		}
+  
+		from_dynasty_prefix = "of "
+		dynasty_title_names = yes
+		modifier = settled_iranian_culture_modifier
+	}
+	parthian = {
+		graphical_cultures = { persiangfx muslimgfx }
+  
+		color = { 0.8 0.1 0.3 }
+  
+		male_names = {
+			Ardavan_Artabanus Ardumanish_Ardumanish Ariyabrdhna_Ariyabrdhna Ariyamna_Ariyamna Arshaka_Arshaka Arshama_Arshama Artavardiya_Artavardiya Artaxshasa_Artaxshasa 
+			Arxa_Arkha Aryawratha_Aryawratha Asina_Asina Aspacanah_Aspacanah Atamaita_Atamaita Athiyabaushna_Athiyabaushna Aturpat_Aturpat Bagabigna_Bagabigna 
+			Bagabuxsha_Bagabuxsha Bardiya_Bardiya Cincixri_Cincixri Cinnamus Cisantaxma_Cisantaxma Cishpi_Cishpi Dadarshi_Dadarshi Darayavahu_Darayavahu 
+			Datuvahya_Datuvahya Frada_Frada Fravarti_Fravarti Gaubaruva_Gaubaruva Gotarz_Gotarzes Haldita_Haldita Haxamanish_Haxamanish Imanish_Imanish 
+			Kambuyija_Kambuyija Khusraw_Osroes Kuru_Kuru Marduniya_Marduniya Martiya_Martiya Mihrdat_Mithridates Orodes_Orodes Pacorus_Pacorus 
+			Parthamaspates_Parthamaspates Phraates_Phraates Phrataphernes_Phrataphernes Phriapatius Sanatruk_Sanatruk Shahrvaraz Taxmaspada_Taxmaspada Thuxra_Thuxra Turdat_Turdat Upadarma_Upadarma 
+			Utana_Utana Uvaxshtra_Uvaxshtra Vahauka_Vahauka Vahumisa_Vahumisa Vahyavishdapaya_Vahyavishdapaya Vahyazdata_Vahyazdata Vardanes_Vardanes 
+			Vayaspara_Vayaspara Vindafarnah_Vindafarnah Vindarna_Vindarna Vishtaspa_Vishtaspa Vonones_Vonones Walagash_Vologases Xshathrita_Xshathrita Xshayarshan_Xshayarshan        
+		}
+		female_names = {
+			Asabana_Asabana Barsine_Barsine Dughdho-Va_Dughdho-Va Eredat-Fedhri_Eredat-Fedhri Franghad_Franghad Frenay_Frenay Huchithra_Huchithra Humaya_Humaya 
+			Hutaosa_Hutaosa Hvaredhay_Hvaredhay Hvovi_Hvovi Jagkrut_Jagkrut Kanuka_Kanuka Paesanghanu_Paesanghanu Pouruchista_Pouruchista Srutat-Fedhri_Srutat-Fedhri 
+			Thriti_Thriti Tushnamatay_Tushnamatay Urudhayant_Urudhayant Ushtavaiti_Ushtavaiti Uxshenti_Uxshenti Vadhut_Vadhut Vanghu-Fedhri_Vanghu-Fedhri Vispa-Thaurvo-Ashtray_Vispa-Thaurvo-Ashtray 
+			Zairichi_Zairichi        
+		}
+  
+		from_dynasty_prefix = "of "
+		dynasty_title_names = yes
+		modifier = settled_iranian_culture_modifier
+	}
+	sarmatian = {
+		graphical_cultures = { persiangfx muslimgfx }
+  
+		color = { 0.8 0.5 0 }
+  
+		male_names = {
+			Adraspus_Adraspus Aelis_Aelis Ailios_Ailios Akrosander_Akrosander Anacharsis_Anacharsis Arapeithes_Arapeithes Atheas_Atheas Azes_Azes 
+			Azilises_Azilises Charaspes_Charaspes Idanthyrsus_Idanthyrsus Kanites_Kanites Kharahostes_Kharahostes Madyes_Madyes Moga_Moga Omarg_Omarg 
+			Palacus_Palacus Protothyes_Protothyes Sariakos_Sariakos Saulius_Saulius Scyles_Scyles Scylurus_Scylurus Skunxa_Skunxa Spalagadames_Spalagadames 
+			Spalahores_Spalahores Spalirises_Spalirises Vonones_Vonones Zeionises_Zeionises        
+		}
+		female_names = {
+			Amestris_Amestris Amytis_Amytis Anzaza_Anzaza Artazostre_Artazostre Artystone_Artystone Atossa_Atossa Barsine_Barsine Damaspia_Damaspia 
+			Mandane_Mandane Parmys_Parmys Parysatis_Parysatis Phaedymia_Phaedymia Rinu_Rinu Stateira_Stateira Vashti_Vashti        
+		}
+  		dynasty_title_names = yes
+		from_dynasty_prefix = ""
+  
+		modifier = nomadic_iranian_culture_modifier
+	}
+	sogdian = {
+		graphical_cultures = { persiangfx muslimgfx }
+  
+		color = { 0.7 0.1 0.2 }
+  
+		male_names = {
+			Aetava_Aetava Aevo-Gafya_Aevo-Gafya Aevo-Sared_Aevo-Sared Aghraeradha_Aghraeradha Ahum-Stut_Ahum-Stut Ainyava_Ainyava Aipi-Vanghav_Aipi-Vanghav Airyava_Airyava 
+			Aithwyav_Aithwyav Aoikhmatastura_Aoikhmatastura Aoshnara_Aoshnara Ara_Ara Arejat-Aspa_Arejat-Aspa Arenavak_Arenavak Arezo-Shamana_Arezo-Shamana Arshya_Arshya 
+			Artavardiya_Artavardiya Asha-Shyaothna_Asha-Shyaothna Ashahura_Ashahura Ashasairyank_Ashasairyank Ashasaredha_Ashasaredha Ashastu_Ashastu Ashaurvaedha_Ashaurvaedha Ashavanghav_Ashavanghav 
+			Ashavazdah_Ashavazdah Asho-Raochah_Asho-Raochah Ashta-Aurvant_Ashta-Aurvant Ashti-Gafya_Ashti-Gafya Aspachanah_Aspachanah Astvat-Ereta_Astvat-Ereta Athwya_Athwya Aurvasara_Aurvasara 
+			Aurvat-Aspa_Aurvat-Aspa Avaraoshtri_Avaraoshtri Avaregav_Avaregav Avarethrabah_Avarethrabah Avaya_Avaya Axnangha_Axnangha Axrura_Axrura Axtya_Axtya 
+			Ayo-Astay_Ayo-Astay Azata_Azata Bangha_Bangha Baremna_Baremna Berezavant_Berezavant Berezishnav_Berezishnav Bivandangha_Bivandangha Budhra_Budhra 
+			Byarshan_Byarshan Chaxshnay_Chaxshnay Daevo-Tbish_Daevo-Tbish Dahaka_Dahaka Dangha_Dangha Darshinika_Darshinika Dashtaghnay_Dashtaghnay Dashtayanay_Dashtayanay 
+			Dazgaraspa_Dazgaraspa Duraekaeta_Duraekaeta Duraesruta_Duraesruta Erezavant-Daingheush_Erezavant-Daingheush Erezraspa_Erezraspa Frachithra_Frachithra Frachya_Frachya Fradat-Nar_Fradat-Nar 
+			Fradat-Vanghav_Fradat-Vanghav Franya_Franya Fraorasa_Fraorasa Frarazay_Frarazay Frashaoshtra_Frashaoshtra Frasrutar_Frasrutar Frayaodha_Frayaodha Frayazenta_Frayazenta 
+			Frenah_Frenah Frinaspa_Frinaspa Fro-Hakafra_Fro-Hakafra Gaevanay_Gaevanay Gandarewa_Gandarewa Gaomant_Gaomant Garshta_Garshta Gaya-Maretan_Gaya-Maretan 
+			Gayadhastay_Gayadhastay Gravaratav_Gravaratav Hanghaurvah_Hanghaurvah Haoshyangha_Haoshyangha Haosravah_Haosravah Hushyaothna_Hushyaothna Hvadaena_Hvadaena Hvare-Chaeshman_Hvare-Chaeshman 
+			Hvare-Chithra_Hvare-Chithra Hvo-Gva_Hvo-Gva Isat-Vastra_Isat-Vastra Isvant_Isvant Jamaspa_Jamaspa Jannara_Jannara Jaro-Danghav_Jaro-Danghav Jaro-Vanghav_Jaro-Vanghav 
+			Jishtay_Jishtay Kaeva_Kaeva Kaosha_Kaosha Karsna_Karsna Kasupitav_Kasupitav Kata_Kata Katav_Katav Kavata_Kavata 
+			Kavay_Kavay Keresaspa_Keresaspa Keresavazdah_Keresavazdah Maidyoi-Mangha_Maidyoi-Mangha Manush-Chitra_Manush-Chitra Marezishmyah_Marezishmyah Mathravaka_Mathravaka Mayava_Mayava 
+			Mazdayasna_Mazdayasna Nanarastay_Nanarastay Naotara_Naotara Nemo-Vanghav_Nemo-Vanghav Neremyazdana_Neremyazdana Paeshatah_Paeshatah Paro-Dasma_Paro-Dasma Parshat-Gav_Parshat-Gav 
+			Parshinta_Parshinta Perethvafsman_Perethvafsman Pesho-Tanu_Pesho-Tanu Pouru-Bangha_Pouru-Bangha Pouru-Jira_Pouru-Jira Pourudhaxshtay_Pourudhaxshtay Pourushaspa_Pourushaspa Pourushtay_Pourushtay 
+			Raochas-Chaeshman_Raochas-Chaeshman Rashtare-Vaghenti_Rashtare-Vaghenti Ravant_Ravant Sadhanah_Sadhanah Saena_Saena Saimuzhi_Saimuzhi Sama_Sama Sanghangha_Sanghangha 
+			Sayuzhdri_Sayuzhdri Snaoya_Snaoya Spengha_Spengha Spento-Xratav_Spento-Xratav Spitay_Spitay Sruto-Spadha_Sruto-Spadha Staotar_Staotar 
+			Stipay_Stipay Stivant_Stivant Syavarshan_Syavarshan Taurvaetay_Taurvaetay Taxma_Taxma Thraetaona_Thraetaona Thrimithwant_Thrimithwant Thrit_Thrit 
+			Thrita_Thrita Tiro-Nakathwa_Tiro-Nakathwa Tumaspa_Tumaspa Tura_Tura Urudhav_Urudhav Urvatat-Nara_Urvatat-Nara Usadhan_Usadhan Usan_Usan 
+			Ushtra_Ushtra Usinemah_Usinemah Usmanar_Usmanar Uspanav_Uspanav Utayutay_Utayutay Uxshan_Uxshan Uxshyat-Ereta_Uxshyat-Ereta Uxshyat-Nemah_Uxshyat-Nemah 
+			Uzava_Uzava Uzya_Uzya Vaedhangha_Vaedhangha Vagerezan_Vagerezan Vahmaedhata_Vahmaedhata Vanghudhata_Vanghudhata Varakasa_Varakasa Varaza_Varaza 
+			Varesmapa_Varesmapa Varesmo-Raochah_Varesmo-Raochah Varshna_Varshna Varshnay_Varshnay Vidhisravah_Vidhisravah Viraspa_Viraspa Vishtaspa_Vishtaspa Visruta_Visruta 
+			Visrutar_Visrutar Vistarav_Vistarav Vivahvant_Vivahvant Vivareshva_Vivareshva Vohu-Data_Vohu-Data Vohu-Nemah_Vohu-Nemah Vohu-Peresa_Vohu-Peresa Vohuraochah_Vohuraochah 
+			Vohushtra_Vohushtra Vohvastay_Vohvastay Vohvazdah_Vohvazdah Vyatana_Vyatana Xshathro-Chinah_Xshathro-Chinah Xshtavay_Xshtavay Xshviwraspa_Xshviwraspa Xvadhata_Xvadhata 
+			Yaetush-Gav_Yaetush-Gav Yima_Yima Zairita_Zairita Zairyank_Zairyank Zaosha_Zaosha Zavan_Zavan Zbaurvant_Zbaurvant Zighray_Zighray 
+			Zrayangha_Zrayangha Zrazdatay_Zrazdatay        
+		}
+		female_names = {
+			Asabana_Asabana Apama_Apama Barsine_Barsine Dughdho-Va_Dughdho-Va Eredat-Fedhri_Eredat-Fedhri Franghad_Franghad Frenay_Frenay Huchithra_Huchithra Humaya_Humaya 
+			Hutaosa_Hutaosa Hvaredhay_Hvaredhay Hvovi_Hvovi Jagkrut_Jagkrut Kanuka_Kanuka Paesanghanu_Paesanghanu Pouruchista_Pouruchista Raoxshna Srutat-Fedhri_Srutat-Fedhri 
+			Thriti_Thriti Tushnamatay_Tushnamatay Urudhayant_Urudhayant Ushtavaiti_Ushtavaiti Uxshenti_Uxshenti Vadhut_Vadhut Vanghu-Fedhri_Vanghu-Fedhri Vispa-Thaurvo-Ashtray_Vispa-Thaurvo-Ashtray 
+			Zairichi_Zairichi        
+		}
+  
+		from_dynasty_prefix = "of "
+		dynasty_title_names = yes
+		modifier = settled_iranian_culture_modifier
+	}
+	median = {
+		graphical_cultures = { persiangfx muslimgfx }
+  
+		color = { 0.8 0 0 }
+  
+		male_names = {
+			Ardumanish_Ardumanish Ariyabrdhna_Ariyabrdhna Ariyamna_Ariyamna Arshaka_Arshaka Arshama_Arshama Artavardiya_Artavardiya Artaxshasa_Artaxshasa Arxa_Arkha 
+			Aryawratha_Aryawratha Asina_Asina Aspacanah_Aspacanah Atamaita_Atamaita Athiyabaushna_Athiyabaushna Aturpat_Aturpat Bagabigna_Bagabigna Bagabuxsha_Bagabuxsha 
+			Bardiya_Bardiya Cincixri_Cincixri Cisantaxma_Cisantaxma Cishpi_Cishpi Dadarshi_Dadarshi Darayavahu_Darayavahu Datuvahya_Datuvahya Frada_Frada 
+			Fravarti_Fravarti Gaubaruva_Gaubaruva Haldita_Haldita Haxamanish_Haxamanish Imanish_Imanish Kambuyija_Kambuyija Kuru_Kuru Marduniya_Marduniya 
+			Martiya_Martiya Mithradatha_Mithridates Pharsman_Pharasmanes Phrataphernes_Phrataphernes Taxmaspada_Taxmaspada Thuxra_Thuxra Upadarma_Upadarma Utana_Utana Uvaxshtra_Uvaxshtra Vahauka_Vahauka Vahumisa_Vahumisa 
+			Vahyavishdapaya_Vahyavishdapaya Vahyazdata_Vahyazdata Vayaspara_Vayaspara Vindafarnah_Vindafarnah Vindarna_Vindarna Vishtaspa_Vishtaspa Xshathrita_Xshathrita Xshayarshan_Xshayarshan 
+		}
+		female_names = {
+			Asabana_Asabana Artacama Barsine_Barsine Dughdho-Va_Dughdho-Va Eredat-Fedhri_Eredat-Fedhri Franghad_Franghad Frenay_Frenay Huchithra_Huchithra Humaya_Humaya 
+			Hutaosa_Hutaosa Hvaredhay_Hvaredhay Hvovi_Hvovi Jagkrut_Jagkrut Kanuka_Kanuka Paesanghanu_Paesanghanu Pouruchista_Pouruchista Srutat-Fedhri_Srutat-Fedhri 
+			Thriti_Thriti Tushnamatay_Tushnamatay Urudhayant_Urudhayant Ushtavaiti_Ushtavaiti Uxshenti_Uxshenti Vadhut_Vadhut Vanghu-Fedhri_Vanghu-Fedhri Vispa-Thaurvo-Ashtray_Vispa-Thaurvo-Ashtray 
+			Zairichi_Zairichi       
+		}
+  
+		from_dynasty_prefix = "of "
+		dynasty_title_names = yes
+		modifier = settled_iranian_culture_modifier
+	}
+	arian = {
+		graphical_cultures = { persiangfx muslimgfx }
+  
+		color = { 0.7 0.1 0.5 }
+  
+		male_names = {
+			Ardumanish_Ardumanish Ariyabrdhna_Ariyabrdhna Ariyamna_Ariyamna Arshaka_Arshaka Arshama_Arshama Artavardiya_Artavardiya Artaxshasa_Artaxshasa Arxa_Arkha 
+			Aryawratha_Aryawratha Asina_Asina Aspacanah_Aspacanah Atamaita_Atamaita Athiyabaushna_Athiyabaushna Aturpat_Aturpat Bagabigna_Bagabigna Bagabuxsha_Bagabuxsha 
+			Bardiya_Bardiya Cincixri_Cincixri Cisantaxma_Cisantaxma Cishpi_Cishpi Dadarshi_Dadarshi Darayavahu_Darayavahu Datuvahya_Datuvahya Frada_Frada 
+			Fravarti_Fravarti Gaubaruva_Gaubaruva Haldita_Haldita Haxamanish_Haxamanish Imanish_Imanish Kambuyija_Kambuyija Kuru_Kuru Marduniya_Marduniya 
+			Martiya_Martiya Mithradatha_Mithridates Pharsman_Pharasmanes Phrataphernes_Phrataphernes Taxmaspada_Taxmaspada Thuxra_Thuxra Upadarma_Upadarma Utana_Utana Uvaxshtra_Uvaxshtra Vahauka_Vahauka Vahumisa_Vahumisa 
+			Vahyavishdapaya_Vahyavishdapaya Vahyazdata_Vahyazdata Vayaspara_Vayaspara Vindafarnah_Vindafarnah Vindarna_Vindarna Vishtaspa_Vishtaspa Xshathrita_Xshathrita Xshayarshan_Xshayarshan 
+		}
+		female_names = {
+			Asabana_Asabana Artacama Barsine_Barsine Dughdho-Va_Dughdho-Va Eredat-Fedhri_Eredat-Fedhri Franghad_Franghad Frenay_Frenay Huchithra_Huchithra Humaya_Humaya 
+			Hutaosa_Hutaosa Hvaredhay_Hvaredhay Hvovi_Hvovi Jagkrut_Jagkrut Kanuka_Kanuka Paesanghanu_Paesanghanu Pouruchista_Pouruchista Srutat-Fedhri_Srutat-Fedhri 
+			Thriti_Thriti Tushnamatay_Tushnamatay Urudhayant_Urudhayant Ushtavaiti_Ushtavaiti Uxshenti_Uxshenti Vadhut_Vadhut Vanghu-Fedhri_Vanghu-Fedhri Vispa-Thaurvo-Ashtray_Vispa-Thaurvo-Ashtray 
+			Zairichi_Zairichi       
+		}
+  
+		from_dynasty_prefix = "of "
+		dynasty_title_names = yes
+		modifier = settled_iranian_culture_modifier
+	}
+	middle_persian = {
+		graphical_cultures = { persiangfx muslimgfx }
+  
+		color = { 0.7 0.1 0.5 }
+		
+		male_names = {
+			Adur Aparvez Ardavan_Artabanus Ardaxshir_Artaxshasa Ardumanish_Ardumanish Ariyabrdhna_Ariyabrdhna Ariyamna_Ariyamna Arshaka_Arshaka Arshama_Arshama Artavardiya_Artavardiya Arxa_Arkha Aryawratha_Aryawratha 
+			Asina_Asina Aspacanah_Aspacanah Atamaita_Atamaita Athiyabaushna_Athiyabaushna Aturpat_Aturpat Bagabigna_Bagabigna Bagabuxsha_Bagabuxsha Bardiya_Bardiya Cincixri_Cincixri Cisantaxma_Cisantaxma Cishpi_Cishpi 
+			Dadarshi_Dadarshi Darayavahu_Darayavahu Datuvahya_Datuvahya Frada_Frada Frahat Frasiyab Fravarti_Fravarti Fredun Gaubaruva_Gaubaruva Gotarz_Gotarzes Haldita_Haldita Haxamanish_Haxamanish Hormizd Imanish_Imanish Jamshed 
+			Jawed Kambuyija_Kambuyija Kawad Khwarshed Kuru_Kuru Mah-Izad Marduniya_Marduniya Martiya_Martiya Mehrdad_Mithridates Narseh Orodes_Orodes Pacorus_Pacorus Papak Parthamaspates_Parthamaspates Peroz Pharsman_Pharasmanes 
+			Phrataphernes_Phrataphernes Pishin Sasan Shabuhr Shahriyar Spandiyar Taxmaspada_Taxmaspada Thuxra_Thuxra Upadarma_Upadarma Utana_Utana Uvaxshtra_Uvaxshtra Vahauka_Vahauka Vahumisa_Vahumisa Vahyavishdapaya_Vahyavishdapaya 
+			Vahyazdata_Vahyazdata Vayaspara_Vayaspara Vindafarnah_Vindafarnah Vindarna_Vindarna Vishtaspa_Vishtaspa Wahram Walaxsh_Vologases Wistahm Xshathrita_Xshathrita Xshayarshan_Xshayarshan Xusro_Osroes Yazdakird Zamasp 
+			Zardusht
+		}
+		
+		female_names = {
+			Asabana_Asabana Apama_Apama Barsine_Barsine Dughdho-Va_Dughdho-Va Eredat-Fedhri_Eredat-Fedhri Franghad_Franghad Frenay_Frenay Huchithra_Huchithra Humaya_Humaya 
+			Hutaosa_Hutaosa Hvaredhay_Hvaredhay Hvovi_Hvovi Jagkrut_Jagkrut Kanuka_Kanuka Paesanghanu_Paesanghanu Pouruchista_Pouruchista Raoxshna Srutat-Fedhri_Srutat-Fedhri 
+			Thriti_Thriti Tushnamatay_Tushnamatay Urudhayant_Urudhayant Ushtavaiti_Ushtavaiti Uxshenti_Uxshenti Vadhut_Vadhut Vanghu-Fedhri_Vanghu-Fedhri Vispa-Thaurvo-Ashtray_Vispa-Thaurvo-Ashtray 
+			Zairichi_Zairichi
+		}
+		
+		from_dynasty_prefix = "of "
+		dynasty_title_names = yes
+		modifier = settled_iranian_culture_modifier
+	}
+	indo_scythian = {
+		graphical_cultures = { persiangfx muslimgfx }
+  
+		color = { 0.7 0.1 0.5 }
+		
+		male_names = {
+			Adraspus_Adraspus Aelis_Aelis Ailios_Ailios Ajuna Akrosander_Akrosander Anacharsis_Anacharsis Arapeithes_Arapeithes Arsakes Aspavarman Atheas_Atheas Azes_Azes Azilises_Azilises Bagamira Bagareva Bagavharna 
+			Bhadayasa Bhimajuna Bhratadarman Bhumaka Charaspes_Charaspes Chastana Damajadasri Damasena Datarvharna Datayola Ghsamotika Hagamasha Hagana Hajatria Hvaramira Idanthyrsus_Idanthyrsus Indravarman Indravasu 
+			Jayadaman Jivadaman Kanites_Kanites Kharahostes_Kharahostes Kharapallana Kozana Koziya Kusulaka Liaka Madyes_Madyes Mamvadi Miratkhma Miravhara Moga_Moga Nahapana Omarg_Omarg Palacus_Palacus Patika 
+			Protothyes_Protothyes Rajuvula Rudradaman Rudrasena Samghadaman Sariakos_Sariakos Sasan Saulius_Saulius Scyles_Scyles Scylurus_Scylurus Simhasena Skunxa_Skunxa Sodasa Spalagadames_Spalagadames 
+			Spalahores_Spalahores Spalirises_Spalirises Vanaspara Vijayamitra Vijayasena Viradaman Vispavarman Visvasena Visvasimha Vonones_Vonones Yasodaman Yolamira Yolatakhma Zeionises_Zeionises
+		}
+		
+		female_names = {
+			Amestris_Amestris Amytis_Amytis Anzaza_Anzaza Artazostre_Artazostre Artystone_Artystone Atossa_Atossa Barsine_Barsine Damaspia_Damaspia Mandane_Mandane Parmys_Parmys Parysatis_Parysatis Phaedymia_Phaedymia 
+			Rinu_Rinu Rukhana Shishirena Stateira_Stateira Uttara Vashti_Vashti Vasumitra
+		}
+		
+		from_dynasty_prefix = "of "
+  
+		modifier = settled_iranian_culture_modifier
+	}
+	chorasmian = {
+		graphical_cultures = { persiangfx muslimgfx }
+  
+		color = { 0.8 0.5 0 }
+  
+		male_names = {
+			Aetava_Aetava Aevo-Gafya_Aevo-Gafya Aevo-Sared_Aevo-Sared Aghraeradha_Aghraeradha Ahum-Stut_Ahum-Stut Ainyava_Ainyava Aipi-Vanghav_Aipi-Vanghav Airyava_Airyava 
+			Aithwyav_Aithwyav Aoikhmatastura_Aoikhmatastura Aoshnara_Aoshnara Ara_Ara Arejat-Aspa_Arejat-Aspa Arenavak_Arenavak Arezo-Shamana_Arezo-Shamana Arshya_Arshya 
+			Artavardiya_Artavardiya Asha-Shyaothna_Asha-Shyaothna Ashahura_Ashahura Ashasairyank_Ashasairyank Ashasaredha_Ashasaredha Ashastu_Ashastu Ashaurvaedha_Ashaurvaedha Ashavanghav_Ashavanghav 
+			Ashavazdah_Ashavazdah Asho-Raochah_Asho-Raochah Ashta-Aurvant_Ashta-Aurvant Ashti-Gafya_Ashti-Gafya Aspachanah_Aspachanah Astvat-Ereta_Astvat-Ereta Athwya_Athwya Aurvasara_Aurvasara 
+			Aurvat-Aspa_Aurvat-Aspa Avaraoshtri_Avaraoshtri Avaregav_Avaregav Avarethrabah_Avarethrabah Avaya_Avaya Axnangha_Axnangha Axrura_Axrura Axtya_Axtya 
+			Ayo-Astay_Ayo-Astay Azata_Azata Bangha_Bangha Baremna_Baremna Berezavant_Berezavant Berezishnav_Berezishnav Bivandangha_Bivandangha Budhra_Budhra 
+			Byarshan_Byarshan Chaxshnay_Chaxshnay Daevo-Tbish_Daevo-Tbish Dahaka_Dahaka Dangha_Dangha Darshinika_Darshinika Dashtaghnay_Dashtaghnay Dashtayanay_Dashtayanay 
+			Dazgaraspa_Dazgaraspa Duraekaeta_Duraekaeta Duraesruta_Duraesruta Erezavant-Daingheush_Erezavant-Daingheush Erezraspa_Erezraspa Frachithra_Frachithra Frachya_Frachya Fradat-Nar_Fradat-Nar 
+			Fradat-Vanghav_Fradat-Vanghav Franya_Franya Fraorasa_Fraorasa Frarazay_Frarazay Frashaoshtra_Frashaoshtra Frasrutar_Frasrutar Frayaodha_Frayaodha Frayazenta_Frayazenta 
+			Frenah_Frenah Frinaspa_Frinaspa Fro-Hakafra_Fro-Hakafra Gaevanay_Gaevanay Gandarewa_Gandarewa Gaomant_Gaomant Garshta_Garshta Gaya-Maretan_Gaya-Maretan 
+			Gayadhastay_Gayadhastay Gravaratav_Gravaratav Hanghaurvah_Hanghaurvah Haoshyangha_Haoshyangha Haosravah_Haosravah Hushyaothna_Hushyaothna Hvadaena_Hvadaena Hvare-Chaeshman_Hvare-Chaeshman 
+			Hvare-Chithra_Hvare-Chithra Hvo-Gva_Hvo-Gva Isat-Vastra_Isat-Vastra Isvant_Isvant Jamaspa_Jamaspa Jannara_Jannara Jaro-Danghav_Jaro-Danghav Jaro-Vanghav_Jaro-Vanghav 
+			Jishtay_Jishtay Kaeva_Kaeva Kaosha_Kaosha Karsna_Karsna Kasupitav_Kasupitav Kata_Kata Katav_Katav Kavata_Kavata 
+			Kavay_Kavay Keresaspa_Keresaspa Keresavazdah_Keresavazdah Maidyoi-Mangha_Maidyoi-Mangha Manush-Chitra_Manush-Chitra Marezishmyah_Marezishmyah Mathravaka_Mathravaka Mayava_Mayava 
+			Mazdayasna_Mazdayasna Nanarastay_Nanarastay Naotara_Naotara Nemo-Vanghav_Nemo-Vanghav Neremyazdana_Neremyazdana Paeshatah_Paeshatah Paro-Dasma_Paro-Dasma Parshat-Gav_Parshat-Gav 
+			Parshinta_Parshinta Perethvafsman_Perethvafsman Pesho-Tanu_Pesho-Tanu Pouru-Bangha_Pouru-Bangha Pouru-Jira_Pouru-Jira Pourudhaxshtay_Pourudhaxshtay Pourushaspa_Pourushaspa Pourushtay_Pourushtay 
+			Raochas-Chaeshman_Raochas-Chaeshman Rashtare-Vaghenti_Rashtare-Vaghenti Ravant_Ravant Sadhanah_Sadhanah Saena_Saena Saimuzhi_Saimuzhi Sama_Sama Sanghangha_Sanghangha 
+			Sayuzhdri_Sayuzhdri Snaoya_Snaoya Spengha_Spengha Spento-Xratav_Spento-Xratav Spitay_Spitay Sruto-Spadha_Sruto-Spadha Staotar_Staotar 
+			Stipay_Stipay Stivant_Stivant Syavarshan_Syavarshan Taurvaetay_Taurvaetay Taxma_Taxma Thraetaona_Thraetaona Thrimithwant_Thrimithwant Thrit_Thrit 
+			Thrita_Thrita Tiro-Nakathwa_Tiro-Nakathwa Tumaspa_Tumaspa Tura_Tura Urudhav_Urudhav Urvatat-Nara_Urvatat-Nara Usadhan_Usadhan Usan_Usan 
+			Ushtra_Ushtra Usinemah_Usinemah Usmanar_Usmanar Uspanav_Uspanav Utayutay_Utayutay Uxshan_Uxshan Uxshyat-Ereta_Uxshyat-Ereta Uxshyat-Nemah_Uxshyat-Nemah 
+			Uzava_Uzava Uzya_Uzya Vaedhangha_Vaedhangha Vagerezan_Vagerezan Vahmaedhata_Vahmaedhata Vanghudhata_Vanghudhata Varakasa_Varakasa Varaza_Varaza 
+			Varesmapa_Varesmapa Varesmo-Raochah_Varesmo-Raochah Varshna_Varshna Varshnay_Varshnay Vidhisravah_Vidhisravah Viraspa_Viraspa Vishtaspa_Vishtaspa Visruta_Visruta 
+			Visrutar_Visrutar Vistarav_Vistarav Vivahvant_Vivahvant Vivareshva_Vivareshva Vohu-Data_Vohu-Data Vohu-Nemah_Vohu-Nemah Vohu-Peresa_Vohu-Peresa Vohuraochah_Vohuraochah 
+			Vohushtra_Vohushtra Vohvastay_Vohvastay Vohvazdah_Vohvazdah Vyatana_Vyatana Xshathro-Chinah_Xshathro-Chinah Xshtavay_Xshtavay Xshviwraspa_Xshviwraspa Xvadhata_Xvadhata 
+			Yaetush-Gav_Yaetush-Gav Yima_Yima Zairita_Zairita Zairyank_Zairyank Zaosha_Zaosha Zavan_Zavan Zbaurvant_Zbaurvant Zighray_Zighray 
+			Zrayangha_Zrayangha Zrazdatay_Zrazdatay        
+		}
+		female_names = {
+			Asabana_Asabana Apama_Apama Barsine_Barsine Dughdho-Va_Dughdho-Va Eredat-Fedhri_Eredat-Fedhri Franghad_Franghad Frenay_Frenay Huchithra_Huchithra Humaya_Humaya 
+			Hutaosa_Hutaosa Hvaredhay_Hvaredhay Hvovi_Hvovi Jagkrut_Jagkrut Kanuka_Kanuka Paesanghanu_Paesanghanu Pouruchista_Pouruchista Raoxshna Srutat-Fedhri_Srutat-Fedhri 
+			Thriti_Thriti Tushnamatay_Tushnamatay Urudhayant_Urudhayant Ushtavaiti_Ushtavaiti Uxshenti_Uxshenti Vadhut_Vadhut Vanghu-Fedhri_Vanghu-Fedhri Vispa-Thaurvo-Ashtray_Vispa-Thaurvo-Ashtray 
+			Zairichi_Zairichi        
+		}
+  
+		from_dynasty_prefix = "of "
+		dynasty_title_names = yes
+		modifier = nomadic_iranian_culture_modifier
+	}
+	khotanese = {
+		graphical_cultures = { persiangfx muslimgfx }
+        color = { 0.4 0.2 0.75  }
+        
+		male_names = {
+            Alysanna Arsa Aryamgula Asi Baga Bahudhiva Bamdaka Bhadra Bradaysaa Brika Capastaka Ceguti Chika Daisai Dharma Dum Dzatsi Gostana Gulai Harka 
+			Haskadatta Huyi Hvam Hvarda Hvardamaya Hvimdu Ikam Irasamga Jabgu Jajahasa Kamnai Kayam Kharusa Khina Khuradatta Khvarnarse Kimashana Kimashani 
+			Kimatcuna Kirtti Kriti Kunala Kushtana Mamatti Manohara Murlimin Naganpaka Nipandaka Padatcaina Pakyau Phimduka Presamdha Punarrjam Punekula 
+			Purgula Raghu Samgai Samgaka Samgalaka Sangrama Sayausa Sham Shambhava Shikshananda Shinganca Shiresala Shirvamdai Shribhadra Shtrugize Shudamgula 
+			Shura Sidaka Sihya Siladharma Simhyi Sthavira Sudarrjam Sudhana Sumauna Sumtharaka Tayasham Tcusyau Tcuttehi Vadhaga Vagiti Vaham Vahana 
+			Vardhana Varman Vasudeva Vidakai Vidaram Vijita Vijitasimha Vikrama Virsha Visaram Vishirapumna Visma Ysambasta Zambasta
+        }
+        female_names = {
+            Alsamgya Alyonj Armaiti Dharmadasi Khivyaina Maya Nanda Nirmala Praniyata Safali Shandramata Shri Tisyarakshita Vimala Vimalaprabha Yavalac
+        }
+
+        from_dynasty_prefix = "nava "
+        male_patronym = "puri "
+        female_patronym = "duda "
+		dynasty_title_names = yes
+        modifier = nomadic_iranian_culture_modifier
+    }
+}
+far_eastern = {
+	tocharian = { 
+		graphical_cultures = { mongolgfx muslimgfx }
+
+        color = { 0.1 0.05 0.2 }
+
+        male_names = {
+            Acila Acokisgiya Acufiaya Acuiiiya Acuni Acuniya Agisala Alyaya Amgoka Amguvaka Amkvaga Amkvage Amtgiya Amti Amto Anamdasena Anandavarman Angi 
+			Anugaya Apcula Apemna Apgaya Apge Apgeya Apigo Apmya Apniya Apta Aputa Aralyi Arcaka Ardharasa Argi Argiceya Arispa Arjuna 
+			Arselis Arsina Aryasa Asamma Asan Asdhaya Asena Asham Asoga Asuraga Athama Augala Avana Aya Ayila Azuraka Bagusaina Balasena Balasura Balavama 
+			Bhagarka Bhagasena Bhagusena Bharsavadhi Bhasdha Bhatiga Bhatisama Bhatra Bhimasena Bhoti Bimmasena Bimna Brahmi Buddhacinga Buddhaisra Buddhatala 
+			Budhaghosa Budhamitra Budhanamti Budhapliarma Budharacfii Budharachi Budharachida Budhavama Budhaya Budhila Budhosa Bushi Bushibi Caclota Cacuka 
+			Cadhi Cadhiya Cadota Cagusena Cakasa Cakla Cakola Caku Cakurata Cakuraya Cakuvala Cakvala Calmadana Calmasa Camaga Camaka Camca Camja Campe 
+			Camtgala Canaga Caneya Cangeya Capeya Capnuneya Capyana Caru Caruveta Casgeya Casmina Cataraga Cataraka Catata Cateya Catgila Catisa Catmage Cato 
+			Catugeya Caule Cetrakirti Cgito Chakir Chhu Cigha Cigita Cikimto Cimaga Cimaka Cimga Cimge Cimgse Cimnaphara Cimola Cinama Cinapliara Cinasa 
+			Cinasena Cinika Cinyasa Cipitga Citughi Cmaga Codiru Codistri Conakara Cramaena Cugapa Cupoga Cuvalayina Dadavala Dajapala Danutreya Darova Daruge 
+			Devaputra Dhaci Dhaffiadara Dhafhapala Dhagiya Dhalnapriya Dhalnena Dhamaja Dhamakama Dhamalada Dhamamitra Dhamapala Dhamapri Dhamapriya Dhamasa 
+			Dhamasena Dhamasira Dhamasretha Dhameca Dhamila Dhammaramna Dhamnapala Dhamnila Dhapaya Dharma Dharmapriya Dharmaraksha Dhraka Dmusvamta Dryaehi 
+			Gamasena Gamca Gapika Gara Garaspa Gersivas Girmitra Goboziko Govadara Grananaprema Grasdha Gronasena Gronga Grumbat Heraus Hormazd_Hormazd 
+			Huvishka Jarge Jayasa Jebhatra Jepriya Jeyabhatra Jeyaka Jhanacamdre Jihmaya Jimoya Jitugha Jivadeya Jivaka Jivamitra Jivasama Jnanasene Kacana 
+			Kacano Kaci Kadphises Kake Kakeya Kala Kalasdha Kalu Kalyanadhama Kalyanakarimitra Kalyigeya Kamaya Kamcgeya Kamci Kamciya Kame Kamjaka Kamjiya 
+			Kamki Kamkuca Kanasaga Kandik Kane Kanika Kanishka Kapge Kapgeya Kapota Kapotae Kapumca Karamtsa Kararntsa Kartsa Katge Katila Kaucasshe Kayamdaga 
+			Kecana Keniga Kenika Keyumars Khara Khingila Khosa Kidara Kilyage Kilyagi Kilyagiya Kilyama Kipunada Kirteya Kirti Kirtisama Klemjiya Kogitasasa 
+			Koiiaya Kolamte Kolasi Koleta Kolgeya Kolyisa Kompala Koneta Kosgashka Kranaya Kreya Kriti Kroae Krunbin Ktesana Kua Kuamca Kuber Kude Kuiiita 
+			Kujula Kukita Kulavardhana Kulbhu Kuleya Kuluca Kumarajiva Kumdho Kumpara Kumsena Kumtsena Kunala Kungas Kungeya Kunita Kupsimta Kupsuda Kupsuta 
+			Kurage Kurageya Kusamta Kusanasena Kustanagga Kusulaka Kutaga Kutgeya Kutre Kutreya Kuuna Kuunge Kuvaya Kuvayici Kuvifieya Kuvineya Kvinaga 
+			Kyutseya Lakunagita Lala Lampurta Larishka Larsu Latsangi Layimmaka Laza Ldasa Lepata Lgipava Liaka Lipatga Livarazma Lokaksema Lokakshema 
+			Lugaya Luhrasp Lustu Luthu Lyimgaya Lyimge Lyimimna Lyimo Lyimsu Lyipama Lyipamma Lyipana Lyipatga Lyipe Lyipeya Lyipta Lyivrasma Lyupe 
+			Mahagiri Mahiri Mahiriya Mairi Makasa Maltsuta Mangeya Manigeya Manigi Marega Masaga Masdhige Mayiri Meghima Mendre Metroma Micgae Micorca 
+			Mihirakula Mitrapala Mitro Mochabudhi Mochakama Mochapri Mochapriya Mochasena Mogata Moge Mogecika Mogeya Mogi Mogiya Molyina Mosdhaya Motega 
+			Moteka Motge Mudhaiitsa Muldeya Multeya Murunda Mutrasra Mutreya Namarazma Namata Namdasena Namdhaka Nammasura Namsuka Namtiga Namtipala Napugi 
+			Narasaka Naravahanadatta Narsita Nasova Nastimta Natasrrmi Navote Nimeya Nyanaviri Oga Ogaca Ogiya Onugi Opave Opge Opgeya Opimta Opuge Pabis 
+			Pacgoyae Pagina Pago Pakhi Pakusena Pakuva Pakuvaya Pakvaya Palge Palnamto Palugeya Pamcama Pamcatva Pamcimna Pamcina Panagara Parneya Parpana 
+			Parsu Parsuge Parvata Pataya Patika Patraya Payina Peco Pepiya Pepriya Pgeca Pgena Pgeya Pgi Pgina Pgita Pgiya Pgoco Pgu Phaklu 
+			Phamaja Phapaya Phuinaseva Phumaseva Phuvasena Picga Pigita Pite Piteca Piteya Pitga Pitseya Plata Platga Pleya Pogana Ponicga Ponigana Porkota 
+			Portsaya Posarsa Priska Priyapata Priyaratna Priyasri Priyavada Priyavaga Priyosa Prusdhaya Pugo Pultsaya Pumfiabala Pumfiadeva Pumfiasena 
+			Pumiiasena Pumnabala Pumnavamta Pumnavati Pumnyabala Pumnyasa Punamo Purnabala Purnadana Purnasa Purnasena Purnnyabala Pursavara Purzavara Puse 
+			Pusgari Racgeya Rahulatga Ramaka Ramastso Ramatsoga Ramsotsa Rasena Raspara Rasvara Rathapala Ricikga Ricilkga Ridhasena Ripti Rohana Rokitsi 
+			Ronaprema Ropgeya Rtveladze Rutra Rutrapala Rutrasena Rutraya Sa-Nu Saca Sacha Sadarsana Sadaskana Sagamovi Sagamoya Sagana Sagapeya Sagima 
+			Sagimoya Sakha Sakhusa Salanavira Salar Salueya Saluveta Saluviya Salve Salveta Samajha Samamnera Samasena Sambhava Samca Sameka Samgaparana 
+			Samgarachi Samgaratha Samgasira Samgasri Samgha Samghabudhi Samghadharima Samghaparana Samghapriya Samgharachi Samgharaclii Samghasena Samghila 
+			Samghosa Samluve Sammapri Sammarya Samngo Samogata Sanab Sanaga Sapalbiz Sapuga Saraspa Sarivara Sarmagarachiya Sarngarama Sarpe Sarpiga Saru 
+			Sarvasrre Sarvatrata Sarviga Sekla Semniga Seraka Sevasena Sgasi Shahanshahi Shahi Shaka Sictnaya Sigayita Signaya Silaprabha Silaprava Sira 
+			Sirasa Sirmitra Siru Sirzata Siyavush Smati Socara Somcaka Somjaka Sotaya Sotuge Spaktanik Spalyaya Spirta Spyi-pri Srasdha Srimitra Sriste 
+			Srivamma Srustinga Sruthe Sucama Sucamma Sugi Sugika Sugita Sugiya Sugnuta Suguta Suhavati Sujada Sujata Sukmana Sumadata Sumata Sunamta Sundara 
+			Suryamitra Sutahar Suthu Suvarnamasuga Suvarnapala Suvaya Suyama Svaka Svaneya Svarasena Svarnabala Svaya Tagira Tagu Tajaka Takra Takto Tamaspa 
+			Tamcano Tamcgeya Tameya Tami Tamjaka Tatiga Tgaca Tiraphara Tirapiiara Titsa Togaja Tolayana Tomgraka Toramana Tryaclii Tryaehi Tsaga Tsagirsta 
+			Tsaroka Tsgatsi Tsimava Tsimaya Tsina Tsomgo Tsordhoe Tsugenamma Tsugesila Tsugesla Tsugiya Tumpala Tusana Ucadhina Ugra Upasena Upateyu Uvasena 
+			Uyage Vahana Vajesa Vammasula Vamto Vamtuavana Vanamato Vanamkha Vapika Vapo Varhran Varpa Varpe Varpeya Vasishka Vaskushana Vasmana Vasudeva Vato 
+			Vekumjiya Vemasena Vespasi Vidhura Viharavala Vijaya-Bala Vijaya-Dharma Vijaya-Jaya Vijaya-Kirti Vijaya-Sambhava Vijaya-Samgrama Vijaya-Sastra 
+			Vijaya-Simha Vijaya-Sura Vijaya-Vahana Vijaya-Vikrama Vijaya-Virya Vima Vinayaditya Vishtapsi Vua Vugaca Vugeya Vugica Vugina Vuginga Vugto Vukimna
+			Vukimtga Vukto Vumeya Vurdhiya Vuru Vusmeka Vutsava Vyarivala Winanne Wrauske Yagpu YanaSrimitra Yapgu Yasala Yehu-La Yen Yilaga Yili Yipicga 
+			Yipiya Yirumdhina Yitaka Yogasena Yonge Yonu Ype Yudhishthira Zagimoya
+		}
+        female_names = {
+            Apisae Argiyotgisaae Atamsiyae Cakuvaae Camasriae Camavati Camoae Camtamnoae Camtroae Catisae Catroae Cimikae Cinasyaniyae Cinga Cukapae 
+			Dhamasriae Dirsateyae Kacaka Kaciyae Kamcgoae Koloae Konuma Konumae Koparsaniae Kosenae Kosenaya Kuti Laroae Lyimisoae Lyipaae Mumtritsae 
+			Namilgaae Namisyanae Namsanae Paluvisae Pgisa Priyaniae Pumfiavatiyae Pumnalazaae Ramasri Ramasriae Ramatiae Ramomtiae Ramotiyae Saganapaae 
+			Saluvaae Saluve Samapriae Samoae Sariyae Sarpina Sarpinae Sarvasriae Simasriae Smagasae Smitsae Somjagrrae Somjasrryae Sriyavamtiae Sugisae 
+			Sugnumae Supriyae Suvisae Tamasyanae Tamcina Tilutamaae Tsimnaae Tsinae Visaliae Vuruvisaae
+		}
+
+        from_dynasty_prefix = "auz "
+		dynasty_title_names = yes
+        founder_named_dynasties = yes
+
+        modifier = nomadic_iranian_culture_modifier
+    }
+}
+indian = { # Indo-Aryan
+	vedic = { # Magadhi
+		graphical_cultures = { indiangfx muslimgfx }
+  
+		color = { 0.45 0.0 0.0 }
+  
+		male_names = {
+			Agnimitra Ajatashatru Amoghabhuti Andhraka Anjana Anuruddha Ashoka Avanti Bala Bhagabhadra Bhanu Bhaskar Bhattiya Bhumimitra Bhutapala Bhuti Bimbisara Bindusara Brahmadatta Brihadrata Buddha Budha 
+			Chandra Chandragupta Chandramukha Dandapani Dasaratha Dashasidkhaka Devabhuti Devadahasakka Devavarman Dhadhivahana Dhana Dhatarattha Ganapati Ghatotkacha Ghosha Govishanaka Kaivarta Kakavarna 
+			Kalashoka Kalyana Kumara Mahanandin Mahapadma Mahendra Munda Nagadasaka Narasimha Narayana Neera Pandhuka Panghupati Pulindaka Puru Pushya Pushyamitra Rama Rashtrapala Salisuka Samprati Samudra 
+			Satadhanvan Shashank Shishunaga Shiva Shuddhodana Siddhartha Sihahanu Skanda Sri Sthita Suppabuddha Supratisthita Susarman Susthita Udayabhadra Vainya Vajramitra Vasudeva Vasujyeshtha Vasumitra Vishnu
+		}
+		female_names = {
+			Abha Anula Asandhimitra Charumati Charuvaki Chitra Dattadevi Devi Dhruvadevi Dhruvaswamini Durdhara Gautami Kubernaga Kumaradevi Maya Padmavati Padmini Pottha Prabhavati Ranmanika Sanghamitra Sivali Soma Sundari 
+			Swarnapali Tishyaraksha Tissa Uttara Viharamahadevi Yasodhara
+		}
+  
+		from_dynasty_prefix = "of "
+		dynasty_title_names = yes
+		modifier = indian_culture_modifier
+	}
+	shauraseni = {
+		graphical_cultures = { indiangfx muslimgfx }
+  
+		color = { 1.0 0.0 0.0 }
+		
+		male_names = {
+			Abhimanyu Achyuta Agnimitra Ahinak Amirvan Anamitra Ansh Antar Arjuna Avantiputta Bahuk Bal Bhadraghosha Bhan Bhanumitra Bhima Bhishma Bhumimitra Bideerakh Brihaddatt Brihaddhaul Brihaddhwaj 
+			Brihadrath Chitrangada Dadror Damagupta Devanik Dhritarashtra Dhruvimitra Duryodhana Dushasana Har Harak Harikeert Indramitra Ishman Janamejaya Jayagupta Jayamitra Kagnish Kampjayi Kapish Karna Ket 
+			Khangar Kunak Kuru Linglaav Mahasen Manasjit Mangalmitra Mitravan Mohri Nahakman Nakula Pandu Parashara Parikshit Paripat Phalgunimitra Prajapatimitra Prasann Purushottama Pushkar Pushyapata 
+			Rudragupta Rurak Sahadeva Shah Shakuni Shantanu Som Sridhar Sudaav Sumantra Sunder Surat Suryamitra Sutjaya Vangapala Varunamitra Vichitravirya Vijay Vishnumitra Vyasa Yajnapala Yudhisthira Yugasena
+		}
+		
+		female_names = {
+			Abha Anula Asandhimitra Charumati Charuvaki Chitra Dattadevi Devi Dhruvadevi Dhruvaswamini Durdhara Gautami Kubernaga Kumaradevi Maya Padmavati Padmini Pottha Prabhavati Ranmanika Sanghamitra Sivali Soma Sundari 
+			Swarnapali Tishyaraksha Tissa Uttara Viharamahadevi Yasodhara
+		}
+		
+		from_dynasty_prefix = "of "
+		dynasty_title_names = yes
+		modifier = indian_culture_modifier
+	}
+	gandhari = {
+		graphical_cultures = { indiangfx muslimgfx }
+  
+		color = { 0.6 0.3 0.0 }
+		
+		male_names = {
+			Ambhi Ashvajit Avadagasha Ayatayus Brihatka Dharamapala Dharma Dridhasena Kshemya Kunjarghatavarshan Panini Pingala Narayanapala Nayapala Niramitra Rajyapala Sanjaya Senajit Shashigupta Somapi 
+			Srutanjaya Srutasrava Subrata Suchi Sukshatra Sumati Susuma Vipra Vyadi
+		}
+		
+		female_names = {
+			Abha Anula Asandhimitra Charumati Charuvaki Chitra Dattadevi Devi Dhruvadevi Dhruvaswamini Durdhara Gautami Kubernaga Kumaradevi Maya Padmavati Padmini Pottha Prabhavati Ranmanika Sanghamitra Sivali Soma Sundari 
+			Swarnapali Tishyaraksha Tissa Uttara Viharamahadevi Yasodhara
+		}
+		
+		from_dynasty_prefix = "of "
+		dynasty_title_names = yes
+		modifier = indian_culture_modifier
+	}
+	maharashtri = {
+		graphical_cultures = { indiangfx muslimgfx }
+  
+		color = { 0.8 0.2 0.0 }
+		
+		male_names = {
+			Ajaka Amitrakarshana Ananta Arjuna Aryaka Bodhi Brahmadatta Damaghosha Damodarasena Devasena Dhristaketu Divakarasena Durjaya Harishena Jayadhvaja Kartavirya Mahasena Mahisha Mahishmant Nandivardhana 
+			Narendrasena Palaka Pradyota Pravarasena Prithvisena Pulika Rudrasena Sahaja Sahanja Sahasranika Sarabha Sarvasena Satanika Shishupala Suketu Suvahu Talajangha Udayana Uparichara Varttivarddhana 
+			Vasudana Vindhyasena Vindhyashakti Visakhayupa Vishvabhu Vitihotra
+		}
+		
+		female_names = {
+			Abha Anula Asandhimitra Charumati Charuvaki Chitra Dattadevi Devi Dhruvadevi Dhruvaswamini Durdhara Gautami Kubernaga Kumaradevi Maya Padmavati Padmini Pottha Prabhavati Ranmanika Sanghamitra Sivali Soma Sundari 
+			Swarnapali Tishyaraksha Tissa Uttara Viharamahadevi Yasodhara
+		}
+		
+		from_dynasty_prefix = "of "
+		dynasty_title_names = yes
+		modifier = indian_culture_modifier
+	}
+	sinhala = {
+		graphical_cultures = { indiangfx muslimgfx }
+  
+		color = { 1.0 0.3 0.3 }
+		
+		male_names = {
+			Abhaya Amandagamani Asela Bhatika Bhatikabhaya Bodhi Buddhadasa Chandamukha Chora Chulabhaya Cula Darubhatika Devanampiya Dutthagamani Gajabahu Gothabhaya Ilanaga Jettha Kanirajanu Kanittha 
+			Kavan Khallata Kuda Kumara Kutakanna Lanja Mahadathika Mahakuli Mahallaka Mahanaga Mahanama Mahasiva Mahatissa Mittasena Mutasiva Naga Niliya Pandukabhaya Panduvasdeva Saddha Sangha Siri 
+			Siva Soththisena Subharaja Suratissa Thulatthana Tissa Upatissa Uttiya Vankanasika Vasabha Vattagamani Vatuka Vijaya Voharika Yassalalaka
+		}
+		
+		female_names = {
+			Abha Anula Asandhimitra Charumati Charuvaki Chitra Dattadevi Devi Dhruvadevi Dhruvaswamini Durdhara Gautami Kubernaga Kumaradevi Maya Padmavati Padmini Pottha Prabhavati Ranmanika Sanghamitra Sivali Soma Sundari 
+			Swarnapali Tishyaraksha Tissa Uttara Viharamahadevi Yasodhara
+		}
+		
+		from_dynasty_prefix = "of "
+		dynasty_title_names = yes
+		modifier = indian_culture_modifier
+	}
+}
+dravidian = {
+	telegu = {
+		graphical_cultures = { indiangfx muslimgfx }
+  
+		color = { 0.8 0.8 0.0 }
+		
+		male_names = {
+			Apilaka Badukha Bhattaraka Cakora Cetaraja Canda Gautamiputra Govinda Hala Hastivarma Indra Janssraya Kharavela Krishna Kudepasiri Kuntala Lambodara Madhariputra Madhav Mahasada Mahendra Mallakarni 
+			Manchana Mandalarna Meghasvati Nandi Pulamavi Pulomavi Purindrasena Purnotsanga Riktavarna Sada Sakasena Satakarni Shivaskanda Simuka Sivasvati Skandasvati Skandhastambhi Sri Sundara Svami Svati 
+			Svatikarna Varma Vashishtiputra Vasisthiputra Vijaya Vijayadeva Vijayanandi Vikramendra Yajna
+		}
+		
+		female_names = {
+			Abha Anula Asandhimitra Charumati Charuvaki Chitra Dattadevi Devi Dhruvadevi Dhruvaswamini Durdhara Gautami Kubernaga Kumaradevi Maya Padmavati Padmini Pottha Prabhavati Ranmanika Sanghamitra Sivali Soma Sundari 
+			Swarnapali Tishyaraksha Tissa Uttara Viharamahadevi Yasodhara
+		}
+		
+		from_dynasty_prefix = "of "
+		dynasty_title_names = yes
+		modifier = indian_culture_modifier
+	}
+	kannada = {
+		graphical_cultures = { indiangfx muslimgfx }
+  
+		color = { 0.8 0.6 0.0 }
+		
+		male_names = {
+			Avinita Bagitarha Bhuvikarma Durvinita Harivarma Harivarman Kakusthavarma Kangavarma Kirtivarman Konganivarman Krishna Madhava Mangalesa Mayurasharma Mrigeshavarma Mushkara Polavira Pulakesi Raghu
+			Ravivarma Santivarma Shivamandhativarma Shivamara Simhavarma Srivikrama Tadangala Varma Vijayaditya Vikramaditya Vinayaditya Vishnugopa Vishnuvarma
+		}
+		
+		female_names = {
+			Abha Anula Asandhimitra Charumati Charuvaki Chitra Dattadevi Devi Dhruvadevi Dhruvaswamini Durdhara Gautami Kubernaga Kumaradevi Maya Padmavati Padmini Pottha Prabhavati Ranmanika Sanghamitra Sivali Soma Sundari 
+			Swarnapali Tishyaraksha Tissa Uttara Viharamahadevi Yasodhara
+		}
+		
+		from_dynasty_prefix = "of "
+		dynasty_title_names = yes
+		modifier = indian_culture_modifier
+	}
+	tamil = {
+		graphical_cultures = { indiangfx muslimgfx }
+  
+		color = { 1.0 0.7 0.2 }
+		
+		male_names = {
+			Aai Adu Akutai Ambalathu Analapratapa Aran Aricil Aryaman Atiyan Bharata Caet Cenni Cerupazhi Chandrajit Chel Cheliyan Chenni Chera Cheral Cheralathan Chitradhavan Chitraratha Chitrasva Cholavarman 
+			Dhundhumara Dirghabahu Dushyanta Ellagan Erinda Evvi Gilli Ikshvaku Ilam Ilanjaetcenni Ilavanthagaipalli Irasasuya Irumporai Irungoch Jembiyan Jozhan Jozhiyav Kadumko Kadunkilli Kakkaipatiniyar 
+			Kakshivat Kakutstha Kannanar Kantamanar Kapilar Kappiyanar Kappiyarruk Karikaalan Karikala Kezhu Kilar Killi Kochaet Kochchengannan Kochenganaan Kopperun Kottu Kula Kumatturk Kuraapalli Kuttuvan 
+			Maei Mandhatri Manu Marutta Mavalavan Mrityujit Muchukunda Mudiththalai Mudukudumi Musiri Mutriya Mutrtraththu Nacellaiyar Nakkan Nalangilli Nalluruththiran Narendrapati Narmudi Nedum Nedumudi Nedun 
+			Nedungop Nedunj Palaik Palyane Panchapa Paqradakkai Parakesarin Paranar Parthivachudamani Pattu Perum Perumpoot Perun Perunar Perunarkilli Perunatkilli Perungilli Perunjenni Perunkilli Perunkunrurk 
+			Peruvalaththaan Peruvaludhi Peruvaludi Prithu Prithulaksha Pudappandiyan Puranjaya Rajakesarivarman Rudrajit Sankriti Satyavrata Selva Senguttuvan Sibi Suraguru Thiru Thunjiya Tiruvalluvar Ukkirap 
+			Uparichara Uruvapakraer Vael Vaenalangilli Vaer Vaetta Valabha Valiathan Varcembiyan Vasu Vena Vendhi Vikukshi Visvajit Vyaghraketu Yuvanasva
+		}
+		
+		female_names = {
+			Abha Anula Asandhimitra Charumati Charuvaki Chitra Dattadevi Devi Dhruvadevi Dhruvaswamini Durdhara Gautami Kubernaga Kumaradevi Maya Padmavati Padmini Pottha Prabhavati Ranmanika Sanghamitra Sivali Soma Sundari 
+			Swarnapali Tishyaraksha Tissa Uttara Viharamahadevi Yasodhara
+		}
+		
+		from_dynasty_prefix = "of "
+		dynasty_title_names = yes
+		modifier = indian_culture_modifier
+	}
+}
+near_eastern = {
+	elamite = {
+		graphical_cultures = { muslimgfx }
+		
+		color = { 1 0.85 0 }
+		
+		male_names = {
+			Humban-Tahra Humban-Umena Humban-Nikas Sutruk-Nahhunte Kudur-Nahhunte Humban-Haltas Urtak
+			Te-Umman Tammaritu Hallutas-Insusinak Atta-Hamiti-Insusinak Hutran-Tepti Humban-Sutruk Silhak-Insusinak
+			Tepti-Humban-Insusinak Kidinu Insusinak-Sunkir-Nappipir Tan-Ruhurater Salla Tepti-Ahar Igi-Ahar Pahir-Issan
+			Attar-Kittah Unpahas-Naparisa Kidin-Hutran Untas-Naparisa Naparisa-Untas Kutir-Nahhunte Hutelutus-Insusinak
+			Silhina-Hamru-Lagamar
+		}
+		female_names = {
+			Ishme-Karab Kiririsha Lagamar Manzat Narundi Niarzina Pinikir Shiashum
+		}
+		
+		from_dynasty_prefix = "of "
+		
+		modifier = near_eastern_culture_modifier
+	}
+}
+hellenic = {
+	graphical_cultures = { easterngfx }
+ 
+	aeolian = {
+		graphical_cultures = { byzantinegfx }
+  
+		color = { 0.4 0.8 0.8 }
+
+		male_names = {
+			Achaios_Achaios Adeimantos_Adeimantos Agapetos_Agapetos Agathon_Agathon Ainesidemos_Ainesidemos Aischines_Aischines Aischylos_Aischylos Aisopos_Aisopos Akakios_Akakios Akron_Akron Alexandros_Alexandros 
+			 Alexis_Alexis Alkaios_Alkaios Alkiphron_Alkiphron Ambrosios_Ambrosios Ampelios_Ampelios Amyntas_Amyntas 
+		 Anaxagoras_Anaxagoras Anaxilas_Anaxilas Anaximenes_Anaximenes Androkles_Androkles Andronikos_Andronikos Androtion_Androtion Antiphon_Antiphon Aphrodisios_Aphrodisios Apollodoros_Apollodoros Apollonios_Apollonios
+			Araros_Araros Archelaos_Archelaos Archimedes_Archimedes Archippos_Archippos Argyros_Argyros Aristarchos_Aristarchos Aristeides_Aristeides Aristogeiton_Aristogeiton Aristokles_Aristokles 
+			Ariston_Ariston Aristophanes_Aristophanes Aristoteles_Aristoteles Arkadios_Arkadios Arkesilas_Arkesilas Arkesios_Arkesios Arsenios_Arsenios Artemidoros_Artemidoros Asklepiades_Asklepiades 
+		Atrtemisios_Atrtemisios Basileios_Basileios Bion_Bion Chariton_Chariton Chrysanthos_Chrysanthos Damasias_Damasias Dareios_Dareios 
+			Demetrios_Demetrios Demokritos_Demokritos Demosthenes_Demosthenes Dexippos_Dexippos Diodorus_Diodorus Diodotos_Diodotos Diogenes_Diogenes Diokles_Diokles Dionysodoros_Dionysodoros 
+			Drakon_Drakon Eirenaios_Eirenaios Ekphantos_Ekphantos Epaminondas_Epaminondas Epaphroditos_Epaphroditos Epikouros_Epikouros Epiktetos_Epiktetos Epilykos_Epilykos Erasistratos_Erasistratos Eratosthenes_Eratosthenes Euaristos_Euaristos Euboulos_Euboulos Eudoxos_Eudoxos
+			Eukleides_Eukleides Euktemon_Euktemon Eumenes_Eumenes Euphemios_Euphemios Euphranor_Euphranor Euripides_Euripides Eusebios_Eusebios Eustathios_Eustathios 
+			Eutychios_Eutychios Eutychos_Eutychos Galenos_Galenos Gelon_Gelon Glaukon_Glaukon Harmodios_Harmodios Heliodoros_Heliodoros Herakleitos_Herakleitos 
+			Hermias_Hermias Hermogenes_Hermogenes Hermokrates_Hermokrates Hermolaos_Hermolaos Herodes_Herodes Herodotus_Herodotus Heron_Heron Hesiod_Hesiod 
+			Hiketas_Hiketas Hieron_Hieron Hieronymos_Hieronymos Hippalos_Hippalos Hipparchos_Hipparchos Hippokrates_Hippokrates Hippolytos_Hippolytos Hipponax_Hipponax Homeros_Homeros Hyakinthos_Hyakinthos Hypsikles_Hypsikles 
+			Hypatos_Hypatos Iason_Iason Ion_Ion Iphikrates_Iphikrates Isagoras_Isagoras Isidoros_Isidoros Isokrates_Isokrates Kallias_Kallias Kallikrates_Kallikrates Kallisthenes_Kallisthenes Kallistos_Kallistos Karneades_Karneades 
+			Kassandros_Kassandros Kephalos_Kephalos Kleisthenes_Kleisthenes Kleitos_Kleitos Kleon_Kleon Konon_Konon Kylon_Kylon Kyros_Kyros Laomedon_Laomedon 
+			Leon_Leon Leukon_Leukon Linos_Linos Loukianos_Loukianos Lykourgos_Lykourgos Lysandros_Lysandros Lysimachos_Lysimachos Mantitheos_Mantitheos Megakles_Megakles Menexenos_Menexenos Menon_Menon Metrodoros_Metrodoros Miltiades_Miltiades 
+			Myron_Myron Neophytos_Neophytos Nikandros_Nikandros Nikanor_Nikanor Nikephoros_Nikephoros Nikias_Nikias Nikolaos_Nikolaos Nikomachos_Nikomachos Nikomedes_Nikomedes Nikokreon_Nikokreon 
+			Olympiodoros_Olympiodoros Ophellas_Ophellas Pankratios_Pankratios Pantaleon_Pantaleon Parmenion_Parmenion Pausanias_Pausanias Periandros_Periandros Perikles_Perikles Pheidias_Pheidias Philandros_Philandros Philokrates_Philokrates Phokion_Phokion
+			Platon_Platon Ploutarchos_Ploutarchos Praxiteles_Praxiteles Prodikos_Prodikos Sokrates_Sokrates Solon_Solon Sosigenes_Sosigenes Stilpon_Stilpon 
+			Straton_Straton Themistokles_Themistokles Theodoros_Theodoros Theodosios_Theodosios Theodotos_Theodotos Theophanes_Theophanes Theron_Theron Thrasyboulos_Thrasyboulos
+			Tychon_Tychon Xenon_Xenon Xenophon_Xenophon Zephyros_Zephyros Zeuxidamas_Zeuxidamas        
+		}
+		female_names = {
+			Adrasteia_Adrasteia Agathe_Agathe Aglaia_Aglaia Alexandra_Alexandra Alkippe_Alkippe Amastris_Amastris Anthousa_Anthousa Antigone_Antigone Aphrodisia_Aphrodisia 
+			Apollonia_Apollonia Aristomache_Aristomache Arsinoe_Arsinoe Artemisia_Artemisia Aspasia_Aspasia Athanasia_Athanasia Athenais_Athenais Berenike_Pherenike Charis_Charis 
+			Charmion_Charmion Chloe_Chloe Chrysanthe_Chrysanthe Demetria_Demetria Demostrate_Demostrate Eirene_Eirene Elpis_Elpis Euanthe_Euanthe 
+			Eudokia_Eudokia Eudoxia_Eudoxia Eugeneia_Eugeneia Eulalia_Eulalia Eumelia_Eumelia Eunike_Eunike Euphemia_Euphemia Euphrasia_Euphrasia 
+			Eupraxia_Eupraxia Eurydike_Eurydike Euthalia_Euthalia Euthymia_Euthymia Eutropia_Eutropia Eutychia_Eutychia Gaiane_Gaiane Galene_Galene Hagne_Hagne 
+			Helene_Helene Hypatia_Hypatia Isidora_Isidora Kallisto_Kallisto Kallistrate_Kallistrate Kassandra_Kassandra Korinna_Korinna Laodike_Laodike Ligeia_Ligeia 
+			Lysandra_Lysandra Lysistrate_Lysistrate Melissa_Melissa Metrodora_Metrodora Myrrine_Myrrine Nikaia_Nikaia Nike_Nike Olympias_Olympias Pelagia_Pelagia 
+			Phila_Phila Phoibe_Phoibe Photine_Photine Ptolemais_Ptolemais Rhode_Rhode Roxane_Roxane Sappho_Sappho Sophia_Sophia 
+			Sostrate_Sostrate Stratonike_Stratonike Syntyche_Syntyche Thais_Thais Theodora_Theodora Theodosia_Theodosia Theokleia_Theokleia Theophania_Theophania Thessalonike_Thessalonike
+			Timo_Timo Timothea_Timothea Tryphaina_Tryphaina Tryphosa_Tryphosa Xanthe_Xanthe Xanthippe_Xanthippe Xenia_Xenia Xeno_Xeno 
+			Zenais_Zenais Zenobia_Zenobia Zoe_Zoe Zosime_Zosime                
+		}
+  
+		from_dynasty_prefix = "of "
+   
+		modifier = hellenic_culture_modifier
+	}
+	arcadian = {
+		graphical_cultures = { byzantinegfx }
+  
+		color = { 0.4 1 0.5 }
+
+		male_names = {
+			Achaios_Achaios Adeimantos_Adeimantos Agapetos_Agapetos Agathon_Agathon Ainesidemos_Ainesidemos Aischines_Aischines Aischylos_Aischylos Aisopos_Aisopos Akakios_Akakios Akron_Akron Alexandros_Alexandros 
+			 Alexis_Alexis Alkaios_Alkaios Alkiphron_Alkiphron Ambrosios_Ambrosios Ampelios_Ampelios Amyntas_Amyntas 
+		 Anaxagoras_Anaxagoras Anaxilas_Anaxilas Anaximenes_Anaximenes Androkles_Androkles Andronikos_Andronikos Androtion_Androtion Antiphon_Antiphon Aphrodisios_Aphrodisios Apollodoros_Apollodoros Apollonios_Apollonios
+			Araros_Araros Archelaos_Archelaos Archimedes_Archimedes Archippos_Archippos Argyros_Argyros Aristarchos_Aristarchos Aristeides_Aristeides Aristogeiton_Aristogeiton Aristokles_Aristokles 
+			Ariston_Ariston Aristophanes_Aristophanes Aristoteles_Aristoteles Arkadios_Arkadios Arkesilas_Arkesilas Arkesios_Arkesios Arsenios_Arsenios Artemidoros_Artemidoros Asklepiades_Asklepiades 
+		Atrtemisios_Atrtemisios Basileios_Basileios Bion_Bion Chariton_Chariton Chrysanthos_Chrysanthos Damasias_Damasias Dareios_Dareios 
+			Demetrios_Demetrios Demokritos_Demokritos Demosthenes_Demosthenes Dexippos_Dexippos Diodorus_Diodorus Diodotos_Diodotos Diogenes_Diogenes Diokles_Diokles Dionysodoros_Dionysodoros 
+			Drakon_Drakon Eirenaios_Eirenaios Ekphantos_Ekphantos Epaminondas_Epaminondas Epaphroditos_Epaphroditos Epikouros_Epikouros Epiktetos_Epiktetos Epilykos_Epilykos Erasistratos_Erasistratos Eratosthenes_Eratosthenes Euaristos_Euaristos Euboulos_Euboulos Eudoxos_Eudoxos
+			Eukleides_Eukleides Euktemon_Euktemon Eumenes_Eumenes Euphemios_Euphemios Euphranor_Euphranor Euripides_Euripides Eusebios_Eusebios Eustathios_Eustathios 
+			Eutychios_Eutychios Eutychos_Eutychos Galenos_Galenos Gelon_Gelon Glaukon_Glaukon Harmodios_Harmodios Heliodoros_Heliodoros Herakleitos_Herakleitos 
+			Hermias_Hermias Hermogenes_Hermogenes Hermokrates_Hermokrates Hermolaos_Hermolaos Herodes_Herodes Herodotus_Herodotus Heron_Heron Hesiod_Hesiod 
+			Hiketas_Hiketas Hieron_Hieron Hieronymos_Hieronymos Hippalos_Hippalos Hipparchos_Hipparchos Hippokrates_Hippokrates Hippolytos_Hippolytos Hipponax_Hipponax Homeros_Homeros Hyakinthos_Hyakinthos Hypsikles_Hypsikles 
+			Hypatos_Hypatos Iason_Iason Ion_Ion Iphikrates_Iphikrates Isagoras_Isagoras Isidoros_Isidoros Isokrates_Isokrates Kallias_Kallias Kallikrates_Kallikrates Kallisthenes_Kallisthenes Kallistos_Kallistos Karneades_Karneades 
+			Kassandros_Kassandros Kephalos_Kephalos Kleisthenes_Kleisthenes Kleitos_Kleitos Kleon_Kleon Konon_Konon Kylon_Kylon Kyros_Kyros Laomedon_Laomedon 
+			Leon_Leon Leukon_Leukon Linos_Linos Loukianos_Loukianos Lykourgos_Lykourgos Lysandros_Lysandros Lysimachos_Lysimachos Mantitheos_Mantitheos Megakles_Megakles Menexenos_Menexenos Menon_Menon Metrodoros_Metrodoros Miltiades_Miltiades 
+			Myron_Myron Neophytos_Neophytos Nikandros_Nikandros Nikanor_Nikanor Nikephoros_Nikephoros Nikias_Nikias Nikolaos_Nikolaos Nikomachos_Nikomachos Nikomedes_Nikomedes Nikokreon_Nikokreon 
+			Olympiodoros_Olympiodoros Ophellas_Ophellas Pankratios_Pankratios Pantaleon_Pantaleon Parmenion_Parmenion Pausanias_Pausanias Periandros_Periandros Perikles_Perikles Pheidias_Pheidias Philandros_Philandros Philokrates_Philokrates Phokion_Phokion
+			Platon_Platon Ploutarchos_Ploutarchos Praxiteles_Praxiteles Prodikos_Prodikos Sokrates_Sokrates Solon_Solon Sosigenes_Sosigenes Stilpon_Stilpon 
+			Straton_Straton Themistokles_Themistokles Theodoros_Theodoros Theodosios_Theodosios Theodotos_Theodotos Theophanes_Theophanes Theron_Theron Thrasyboulos_Thrasyboulos
+			Tychon_Tychon Xenon_Xenon Xenophon_Xenophon Zephyros_Zephyros Zeuxidamas_Zeuxidamas        
+		}
+		female_names = {
+			Adrasteia_Adrasteia Agathe_Agathe Aglaia_Aglaia Alexandra_Alexandra Alkippe_Alkippe Amastris_Amastris Anthousa_Anthousa Antigone_Antigone Aphrodisia_Aphrodisia 
+			Apollonia_Apollonia Aristomache_Aristomache Arsinoe_Arsinoe Artemisia_Artemisia Aspasia_Aspasia Athanasia_Athanasia Athenais_Athenais Berenike_Pherenike Charis_Charis 
+			Charmion_Charmion Chloe_Chloe Chrysanthe_Chrysanthe Demetria_Demetria Demostrate_Demostrate Eirene_Eirene Elpis_Elpis Euanthe_Euanthe 
+			Eudokia_Eudokia Eudoxia_Eudoxia Eugeneia_Eugeneia Eulalia_Eulalia Eumelia_Eumelia Eunike_Eunike Euphemia_Euphemia Euphrasia_Euphrasia 
+			Eupraxia_Eupraxia Eurydike_Eurydike Euthalia_Euthalia Euthymia_Euthymia Eutropia_Eutropia Eutychia_Eutychia Gaiane_Gaiane Galene_Galene Hagne_Hagne 
+			Helene_Helene Hypatia_Hypatia Isidora_Isidora Kallisto_Kallisto Kallistrate_Kallistrate Kassandra_Kassandra Korinna_Korinna Laodike_Laodike Ligeia_Ligeia 
+			Lysandra_Lysandra Lysistrate_Lysistrate Melissa_Melissa Metrodora_Metrodora Myrrine_Myrrine Nikaia_Nikaia Nike_Nike Olympias_Olympias Pelagia_Pelagia 
+			Phila_Phila Phoibe_Phoibe Photine_Photine Ptolemais_Ptolemais Rhode_Rhode Roxane_Roxane Sappho_Sappho Sophia_Sophia 
+			Sostrate_Sostrate Stratonike_Stratonike Syntyche_Syntyche Thais_Thais Theodora_Theodora Theodosia_Theodosia Theokleia_Theokleia Theophania_Theophania Thessalonike_Thessalonike
+			Timo_Timo Timothea_Timothea Tryphaina_Tryphaina Tryphosa_Tryphosa Xanthe_Xanthe Xanthippe_Xanthippe Xenia_Xenia Xeno_Xeno 
+			Zenais_Zenais Zenobia_Zenobia Zoe_Zoe Zosime_Zosime                
+		}
+  
+		from_dynasty_prefix = "of "
+   
+		modifier = hellenic_culture_modifier
+	}
+	doric = {
+		graphical_cultures = { byzantinegfx }
+  
+		color = { 0.4 0.7 1 }
+
+		male_names = {
+			Achaios_Achaios Adeimantos_Adeimantos Agapetos_Agapetos Agathon_Agathon Ainesidemos_Ainesidemos Aischines_Aischines Aischylos_Aischylos Aisopos_Aisopos Akakios_Akakios Akron_Akron Alexandros_Alexandros 
+			 Alexis_Alexis Alkaios_Alkaios Alkiphron_Alkiphron Ambrosios_Ambrosios Ampelios_Ampelios Amyntas_Amyntas 
+		 Anaxagoras_Anaxagoras Anaxilas_Anaxilas Anaximenes_Anaximenes Androkles_Androkles Andronikos_Andronikos Androtion_Androtion Antiphon_Antiphon Aphrodisios_Aphrodisios Apollodoros_Apollodoros Apollonios_Apollonios
+			Araros_Araros Archelaos_Archelaos Archimedes_Archimedes Archippos_Archippos Argyros_Argyros Aristarchos_Aristarchos Aristeides_Aristeides Aristogeiton_Aristogeiton Aristokles_Aristokles 
+			Ariston_Ariston Aristophanes_Aristophanes Aristoteles_Aristoteles Arkadios_Arkadios Arkesilas_Arkesilas Arkesios_Arkesios Arsenios_Arsenios Artemidoros_Artemidoros Asklepiades_Asklepiades 
+		Atrtemisios_Atrtemisios Basileios_Basileios Bion_Bion Chariton_Chariton Chrysanthos_Chrysanthos Damasias_Damasias Dareios_Dareios 
+			Demetrios_Demetrios Demokritos_Demokritos Demosthenes_Demosthenes Dexippos_Dexippos Diodorus_Diodorus Diodotos_Diodotos Diogenes_Diogenes Diokles_Diokles Dionysodoros_Dionysodoros 
+			Drakon_Drakon Eirenaios_Eirenaios Ekphantos_Ekphantos Epaminondas_Epaminondas Epaphroditos_Epaphroditos Epikouros_Epikouros Epiktetos_Epiktetos Epilykos_Epilykos Erasistratos_Erasistratos Eratosthenes_Eratosthenes Euaristos_Euaristos Euboulos_Euboulos Eudoxos_Eudoxos
+			Eukleides_Eukleides Euktemon_Euktemon Eumenes_Eumenes Euphemios_Euphemios Euphranor_Euphranor Euripides_Euripides Eusebios_Eusebios Eustathios_Eustathios 
+			Eutychios_Eutychios Eutychos_Eutychos Galenos_Galenos Gelon_Gelon Glaukon_Glaukon Harmodios_Harmodios Heliodoros_Heliodoros Herakleitos_Herakleitos 
+			Hermias_Hermias Hermogenes_Hermogenes Hermokrates_Hermokrates Hermolaos_Hermolaos Herodes_Herodes Herodotus_Herodotus Heron_Heron Hesiod_Hesiod 
+			Hiketas_Hiketas Hieron_Hieron Hieronymos_Hieronymos Hippalos_Hippalos Hipparchos_Hipparchos Hippokrates_Hippokrates Hippolytos_Hippolytos Hipponax_Hipponax Homeros_Homeros Hyakinthos_Hyakinthos Hypsikles_Hypsikles 
+			Hypatos_Hypatos Iason_Iason Ion_Ion Iphikrates_Iphikrates Isagoras_Isagoras Isidoros_Isidoros Isokrates_Isokrates Kallias_Kallias Kallikrates_Kallikrates Kallisthenes_Kallisthenes Kallistos_Kallistos Karneades_Karneades 
+			Kassandros_Kassandros Kephalos_Kephalos Kleisthenes_Kleisthenes Kleitos_Kleitos Kleon_Kleon Konon_Konon Kylon_Kylon Kyros_Kyros Laomedon_Laomedon 
+			Leon_Leon Leukon_Leukon Linos_Linos Loukianos_Loukianos Lykourgos_Lykourgos Lysandros_Lysandros Lysimachos_Lysimachos Mantitheos_Mantitheos Megakles_Megakles Menexenos_Menexenos Menon_Menon Metrodoros_Metrodoros Miltiades_Miltiades 
+			Myron_Myron Neophytos_Neophytos Nikandros_Nikandros Nikanor_Nikanor Nikephoros_Nikephoros Nikias_Nikias Nikolaos_Nikolaos Nikomachos_Nikomachos Nikomedes_Nikomedes Nikokreon_Nikokreon 
+			Olympiodoros_Olympiodoros Ophellas_Ophellas Pankratios_Pankratios Pantaleon_Pantaleon Parmenion_Parmenion Pausanias_Pausanias Periandros_Periandros Perikles_Perikles Pheidias_Pheidias Philandros_Philandros Philokrates_Philokrates Phokion_Phokion
+			Platon_Platon Ploutarchos_Ploutarchos Praxiteles_Praxiteles Prodikos_Prodikos Sokrates_Sokrates Solon_Solon Sosigenes_Sosigenes Stilpon_Stilpon 
+			Straton_Straton Themistokles_Themistokles Theodoros_Theodoros Theodosios_Theodosios Theodotos_Theodotos Theophanes_Theophanes Theron_Theron Thrasyboulos_Thrasyboulos
+			Tychon_Tychon Xenon_Xenon Xenophon_Xenophon Zephyros_Zephyros Zeuxidamas_Zeuxidamas        
+		}
+		female_names = {
+			Adrasteia_Adrasteia Agathe_Agathe Aglaia_Aglaia Alexandra_Alexandra Alkippe_Alkippe Amastris_Amastris Anthousa_Anthousa Antigone_Antigone Aphrodisia_Aphrodisia 
+			Apollonia_Apollonia Aristomache_Aristomache Arsinoe_Arsinoe Artemisia_Artemisia Aspasia_Aspasia Athanasia_Athanasia Athenais_Athenais Berenike_Pherenike Charis_Charis 
+			Charmion_Charmion Chloe_Chloe Chrysanthe_Chrysanthe Demetria_Demetria Demostrate_Demostrate Eirene_Eirene Elpis_Elpis Euanthe_Euanthe 
+			Eudokia_Eudokia Eudoxia_Eudoxia Eugeneia_Eugeneia Eulalia_Eulalia Eumelia_Eumelia Eunike_Eunike Euphemia_Euphemia Euphrasia_Euphrasia 
+			Eupraxia_Eupraxia Eurydike_Eurydike Euthalia_Euthalia Euthymia_Euthymia Eutropia_Eutropia Eutychia_Eutychia Gaiane_Gaiane Galene_Galene Hagne_Hagne 
+			Helene_Helene Hypatia_Hypatia Isidora_Isidora Kallisto_Kallisto Kallistrate_Kallistrate Kassandra_Kassandra Korinna_Korinna Laodike_Laodike Ligeia_Ligeia 
+			Lysandra_Lysandra Lysistrate_Lysistrate Melissa_Melissa Metrodora_Metrodora Myrrine_Myrrine Nikaia_Nikaia Nike_Nike Olympias_Olympias Pelagia_Pelagia 
+			Phila_Phila Phoibe_Phoibe Photine_Photine Ptolemais_Ptolemais Rhode_Rhode Roxane_Roxane Sappho_Sappho Sophia_Sophia 
+			Sostrate_Sostrate Stratonike_Stratonike Syntyche_Syntyche Thais_Thais Theodora_Theodora Theodosia_Theodosia Theokleia_Theokleia Theophania_Theophania Thessalonike_Thessalonike
+			Timo_Timo Timothea_Timothea Tryphaina_Tryphaina Tryphosa_Tryphosa Xanthe_Xanthe Xanthippe_Xanthippe Xenia_Xenia Xeno_Xeno 
+			Zenais_Zenais Zenobia_Zenobia Zoe_Zoe Zosime_Zosime                
+		}
+  
+		from_dynasty_prefix = "of "
+  
+		modifier = hellenic_culture_modifier
+	}
+	ionian = { 
+		graphical_cultures = { byzantinegfx }
+  
+		color = { 0.4 0.8 1 }
+
+		male_names = {
+			Achaios_Achaios Adeimantos_Adeimantos Agapetos_Agapetos Agathon_Agathon Ainesidemos_Ainesidemos Aischines_Aischines Aischylos_Aischylos Aisopos_Aisopos Akakios_Akakios Akron_Akron Alexandros_Alexandros 
+			 Alexis_Alexis Alkaios_Alkaios Alkiphron_Alkiphron Ambrosios_Ambrosios Ampelios_Ampelios Amyntas_Amyntas 
+		 Anaxagoras_Anaxagoras Anaxilas_Anaxilas Anaximenes_Anaximenes Androkles_Androkles Andronikos_Andronikos Androtion_Androtion Antiphon_Antiphon Aphrodisios_Aphrodisios Apollodoros_Apollodoros Apollonios_Apollonios
+			Araros_Araros Archelaos_Archelaos Archimedes_Archimedes Archippos_Archippos Argyros_Argyros Aristarchos_Aristarchos Aristeides_Aristeides Aristogeiton_Aristogeiton Aristokles_Aristokles 
+			Ariston_Ariston Aristophanes_Aristophanes Aristoteles_Aristoteles Arkadios_Arkadios Arkesilas_Arkesilas Arkesios_Arkesios Arsenios_Arsenios Artemidoros_Artemidoros Asklepiades_Asklepiades 
+		Atrtemisios_Atrtemisios Basileios_Basileios Bion_Bion Chariton_Chariton Chrysanthos_Chrysanthos Damasias_Damasias Dareios_Dareios 
+			Demetrios_Demetrios Demokritos_Demokritos Demosthenes_Demosthenes Dexippos_Dexippos Diodorus_Diodorus Diodotos_Diodotos Diogenes_Diogenes Diokles_Diokles Dionysodoros_Dionysodoros 
+			Drakon_Drakon Eirenaios_Eirenaios Ekphantos_Ekphantos Epaminondas_Epaminondas Epaphroditos_Epaphroditos Epikouros_Epikouros Epiktetos_Epiktetos Epilykos_Epilykos Erasistratos_Erasistratos Eratosthenes_Eratosthenes Euaristos_Euaristos Euboulos_Euboulos Eudoxos_Eudoxos
+			Eukleides_Eukleides Euktemon_Euktemon Eumenes_Eumenes Euphemios_Euphemios Euphranor_Euphranor Euripides_Euripides Eusebios_Eusebios Eustathios_Eustathios 
+			Eutychios_Eutychios Eutychos_Eutychos Galenos_Galenos Gelon_Gelon Glaukon_Glaukon Harmodios_Harmodios Heliodoros_Heliodoros Herakleitos_Herakleitos 
+			Hermias_Hermias Hermogenes_Hermogenes Hermokrates_Hermokrates Hermolaos_Hermolaos Herodes_Herodes Herodotus_Herodotus Heron_Heron Hesiod_Hesiod 
+			Hiketas_Hiketas Hieron_Hieron Hieronymos_Hieronymos Hippalos_Hippalos Hipparchos_Hipparchos Hippokrates_Hippokrates Hippolytos_Hippolytos Hipponax_Hipponax Homeros_Homeros Hyakinthos_Hyakinthos Hypsikles_Hypsikles 
+			Hypatos_Hypatos Iason_Iason Ion_Ion Iphikrates_Iphikrates Isagoras_Isagoras Isidoros_Isidoros Isokrates_Isokrates Kallias_Kallias Kallikrates_Kallikrates Kallisthenes_Kallisthenes Kallistos_Kallistos Karneades_Karneades 
+			Kassandros_Kassandros Kephalos_Kephalos Kleisthenes_Kleisthenes Kleitos_Kleitos Kleon_Kleon Konon_Konon Kylon_Kylon Kyros_Kyros Laomedon_Laomedon 
+			Leon_Leon Leukon_Leukon Linos_Linos Loukianos_Loukianos Lykourgos_Lykourgos Lysandros_Lysandros Lysimachos_Lysimachos Mantitheos_Mantitheos Megakles_Megakles Menexenos_Menexenos Menon_Menon Metrodoros_Metrodoros Miltiades_Miltiades 
+			Myron_Myron Neophytos_Neophytos Nikandros_Nikandros Nikanor_Nikanor Nikephoros_Nikephoros Nikias_Nikias Nikolaos_Nikolaos Nikomachos_Nikomachos Nikomedes_Nikomedes Nikokreon_Nikokreon 
+			Olympiodoros_Olympiodoros Ophellas_Ophellas Pankratios_Pankratios Pantaleon_Pantaleon Parmenion_Parmenion Pausanias_Pausanias Periandros_Periandros Perikles_Perikles Pheidias_Pheidias Philandros_Philandros Philokrates_Philokrates Phokion_Phokion
+			Platon_Platon Ploutarchos_Ploutarchos Praxiteles_Praxiteles Prodikos_Prodikos Sokrates_Sokrates Solon_Solon Sosigenes_Sosigenes Stilpon_Stilpon 
+			Straton_Straton Themistokles_Themistokles Theodoros_Theodoros Theodosios_Theodosios Theodotos_Theodotos Theophanes_Theophanes Theron_Theron Thrasyboulos_Thrasyboulos
+			Tychon_Tychon Xenon_Xenon Xenophon_Xenophon Zephyros_Zephyros Zeuxidamas_Zeuxidamas        
+		}
+		female_names = {
+			Adrasteia_Adrasteia Agathe_Agathe Aglaia_Aglaia Alexandra_Alexandra Alkippe_Alkippe Amastris_Amastris Anthousa_Anthousa Antigone_Antigone Aphrodisia_Aphrodisia 
+			Apollonia_Apollonia Aristomache_Aristomache Arsinoe_Arsinoe Artemisia_Artemisia Aspasia_Aspasia Athanasia_Athanasia Athenais_Athenais Berenike_Pherenike Charis_Charis 
+			Charmion_Charmion Chloe_Chloe Chrysanthe_Chrysanthe Demetria_Demetria Demostrate_Demostrate Eirene_Eirene Elpis_Elpis Euanthe_Euanthe 
+			Eudokia_Eudokia Eudoxia_Eudoxia Eugeneia_Eugeneia Eulalia_Eulalia Eumelia_Eumelia Eunike_Eunike Euphemia_Euphemia Euphrasia_Euphrasia 
+			Eupraxia_Eupraxia Eurydike_Eurydike Euthalia_Euthalia Euthymia_Euthymia Eutropia_Eutropia Eutychia_Eutychia Gaiane_Gaiane Galene_Galene Hagne_Hagne 
+			Helene_Helene Hypatia_Hypatia Isidora_Isidora Kallisto_Kallisto Kallistrate_Kallistrate Kassandra_Kassandra Korinna_Korinna Laodike_Laodike Ligeia_Ligeia 
+			Lysandra_Lysandra Lysistrate_Lysistrate Melissa_Melissa Metrodora_Metrodora Myrrine_Myrrine Nikaia_Nikaia Nike_Nike Olympias_Olympias Pelagia_Pelagia 
+			Phila_Phila Phoibe_Phoibe Photine_Photine Ptolemais_Ptolemais Rhode_Rhode Roxane_Roxane Sappho_Sappho Sophia_Sophia 
+			Sostrate_Sostrate Stratonike_Stratonike Syntyche_Syntyche Thais_Thais Theodora_Theodora Theodosia_Theodosia Theokleia_Theokleia Theophania_Theophania Thessalonike_Thessalonike
+			Timo_Timo Timothea_Timothea Tryphaina_Tryphaina Tryphosa_Tryphosa Xanthe_Xanthe Xanthippe_Xanthippe Xenia_Xenia Xeno_Xeno 
+			Zenais_Zenais Zenobia_Zenobia Zoe_Zoe Zosime_Zosime                
+		}
+  
+		from_dynasty_prefix = "of "
+  
+		modifier = hellenic_culture_modifier
+	}
+	macedonian = {
+		graphical_cultures = { byzantinegfx }
+  
+		color = { 1 0.4 0.2 }
+
+		male_names = {
+			Achaios_Achaios Adeimantos_Adeimantos Agapetos_Agapetos Agathon_Agathon Ainesidemos_Ainesidemos Aischines_Aischines Aischylos_Aischylos Aisopos_Aisopos Akakios_Akakios Akron_Akron Alexandros_Alexandros 
+			 Alexis_Alexis Alkaios_Alkaios Alkiphron_Alkiphron Ambrosios_Ambrosios Ampelios_Ampelios Amyntas_Amyntas 
+		 Anaxagoras_Anaxagoras Anaxilas_Anaxilas Anaximenes_Anaximenes Androkles_Androkles Andronikos_Andronikos Androtion_Androtion Antiphon_Antiphon Aphrodisios_Aphrodisios Apollodoros_Apollodoros Apollonios_Apollonios
+			Araros_Araros Archelaos_Archelaos Archimedes_Archimedes Archippos_Archippos Argyros_Argyros Aristarchos_Aristarchos Aristeides_Aristeides Aristogeiton_Aristogeiton Aristokles_Aristokles 
+			Ariston_Ariston Aristophanes_Aristophanes Aristoteles_Aristoteles Arkadios_Arkadios Arkesilas_Arkesilas Arkesios_Arkesios Arsenios_Arsenios Artemidoros_Artemidoros Asklepiades_Asklepiades 
+		Atrtemisios_Atrtemisios Basileios_Basileios Bion_Bion Chariton_Chariton Chrysanthos_Chrysanthos Damasias_Damasias Dareios_Dareios 
+			Demetrios_Demetrios Demokritos_Demokritos Demosthenes_Demosthenes Dexippos_Dexippos Diodorus_Diodorus Diodotos_Diodotos Diogenes_Diogenes Diokles_Diokles Dionysodoros_Dionysodoros 
+			Drakon_Drakon Eirenaios_Eirenaios Ekphantos_Ekphantos Epaminondas_Epaminondas Epaphroditos_Epaphroditos Epikouros_Epikouros Epiktetos_Epiktetos Epilykos_Epilykos Erasistratos_Erasistratos Eratosthenes_Eratosthenes Euaristos_Euaristos Euboulos_Euboulos Eudoxos_Eudoxos
+			Eukleides_Eukleides Euktemon_Euktemon Eumenes_Eumenes Euphemios_Euphemios Euphranor_Euphranor Euripides_Euripides Eusebios_Eusebios Eustathios_Eustathios 
+			Eutychios_Eutychios Eutychos_Eutychos Galenos_Galenos Gelon_Gelon Glaukon_Glaukon Harmodios_Harmodios Heliodoros_Heliodoros Herakleitos_Herakleitos 
+			Hermias_Hermias Hermogenes_Hermogenes Hermokrates_Hermokrates Hermolaos_Hermolaos Herodes_Herodes Herodotus_Herodotus Heron_Heron Hesiod_Hesiod 
+			Hiketas_Hiketas Hieron_Hieron Hieronymos_Hieronymos Hippalos_Hippalos Hipparchos_Hipparchos Hippokrates_Hippokrates Hippolytos_Hippolytos Hipponax_Hipponax Homeros_Homeros Hyakinthos_Hyakinthos Hypsikles_Hypsikles 
+			Hypatos_Hypatos Iason_Iason Ion_Ion Iphikrates_Iphikrates Isagoras_Isagoras Isidoros_Isidoros Isokrates_Isokrates Kallias_Kallias Kallikrates_Kallikrates Kallisthenes_Kallisthenes Kallistos_Kallistos Karneades_Karneades 
+			Kassandros_Kassandros Kephalos_Kephalos Kleisthenes_Kleisthenes Kleitos_Kleitos Kleon_Kleon Konon_Konon Kylon_Kylon Kyros_Kyros Laomedon_Laomedon 
+			Leon_Leon Leukon_Leukon Linos_Linos Loukianos_Loukianos Lykourgos_Lykourgos Lysandros_Lysandros Lysimachos_Lysimachos Mantitheos_Mantitheos Megakles_Megakles Menexenos_Menexenos Menon_Menon Metrodoros_Metrodoros Miltiades_Miltiades 
+			Myron_Myron Neophytos_Neophytos Nikandros_Nikandros Nikanor_Nikanor Nikephoros_Nikephoros Nikias_Nikias Nikolaos_Nikolaos Nikomachos_Nikomachos Nikomedes_Nikomedes Nikokreon_Nikokreon 
+			Olympiodoros_Olympiodoros Ophellas_Ophellas Pankratios_Pankratios Pantaleon_Pantaleon Parmenion_Parmenion Pausanias_Pausanias Periandros_Periandros Perikles_Perikles Pheidias_Pheidias Philandros_Philandros Philokrates_Philokrates Phokion_Phokion
+			Platon_Platon Ploutarchos_Ploutarchos Praxiteles_Praxiteles Prodikos_Prodikos Sokrates_Sokrates Solon_Solon Sosigenes_Sosigenes Stilpon_Stilpon 
+			Straton_Straton Themistokles_Themistokles Theodoros_Theodoros Theodosios_Theodosios Theodotos_Theodotos Theophanes_Theophanes Theron_Theron Thrasyboulos_Thrasyboulos
+			Tychon_Tychon Xenon_Xenon Xenophon_Xenophon Zephyros_Zephyros Zeuxidamas_Zeuxidamas        
+		}
+		female_names = {
+			Adrasteia_Adrasteia Agathe_Agathe Aglaia_Aglaia Alexandra_Alexandra Alkippe_Alkippe Amastris_Amastris Anthousa_Anthousa Antigone_Antigone Aphrodisia_Aphrodisia 
+			Apollonia_Apollonia Aristomache_Aristomache Arsinoe_Arsinoe Artemisia_Artemisia Aspasia_Aspasia Athanasia_Athanasia Athenais_Athenais Berenike_Pherenike Charis_Charis 
+			Charmion_Charmion Chloe_Chloe Chrysanthe_Chrysanthe Demetria_Demetria Demostrate_Demostrate Eirene_Eirene Elpis_Elpis Euanthe_Euanthe 
+			Eudokia_Eudokia Eudoxia_Eudoxia Eugeneia_Eugeneia Eulalia_Eulalia Eumelia_Eumelia Eunike_Eunike Euphemia_Euphemia Euphrasia_Euphrasia 
+			Eupraxia_Eupraxia Eurydike_Eurydike Euthalia_Euthalia Euthymia_Euthymia Eutropia_Eutropia Eutychia_Eutychia Gaiane_Gaiane Galene_Galene Hagne_Hagne 
+			Helene_Helene Hypatia_Hypatia Isidora_Isidora Kallisto_Kallisto Kallistrate_Kallistrate Kassandra_Kassandra Korinna_Korinna Laodike_Laodike Ligeia_Ligeia 
+			Lysandra_Lysandra Lysistrate_Lysistrate Melissa_Melissa Metrodora_Metrodora Myrrine_Myrrine Nikaia_Nikaia Nike_Nike Olympias_Olympias Pelagia_Pelagia 
+			Phila_Phila Phoibe_Phoibe Photine_Photine Ptolemais_Ptolemais Rhode_Rhode Roxane_Roxane Sappho_Sappho Sophia_Sophia 
+			Sostrate_Sostrate Stratonike_Stratonike Syntyche_Syntyche Thais_Thais Theodora_Theodora Theodosia_Theodosia Theokleia_Theokleia Theophania_Theophania Thessalonike_Thessalonike
+			Timo_Timo Timothea_Timothea Tryphaina_Tryphaina Tryphosa_Tryphosa Xanthe_Xanthe Xanthippe_Xanthippe Xenia_Xenia Xeno_Xeno 
+			Zenais_Zenais Zenobia_Zenobia Zoe_Zoe Zosime_Zosime                
+		}
+  
+		from_dynasty_prefix = "of "
+  
+		modifier = hellenic_culture_modifier
+	}
+	pontic = {
+		graphical_cultures = { byzantinegfx }
+  
+		color = { 0.7 0.6 0.5 }
+
+		male_names = {
+			Achaemenes_Haxamanish Ariamnes_Ariyamna Ariarathes_Aryawratha Ariobarzanes_Ariyabrdhna Arsaces_Arshaka Arsames_Arshama Artabanus_Artabanus Artavasdes_Artavardiya Artaxerxes_Artaxshasa Atropates_Aturpat 
+			Cambyses_Kambuyija Cyaxares_Uvaxshtra Cyrus_Kuru Darius_Darayavahu Gobryas_Gaubaruva Gotarzes_Gotarzes Hydarnes_Vindarna Hystaspes_Vishtaspa Intaphernes_Vindafarnah Mardonius_Marduniya Megabyzus_Bagabuxsha 
+			Mithridates_Mithridates Orodes_Orodes Osroes_Osroes Otanes_Utana Pacorus_Pacorus Parthamaspates_Parthamaspetes Phraates_Phraates Phrataphernes_Phrataphernes Sanatruces_Sanatruk Smerdis_Bardiya Teispes_Cishpi 
+			Tiridates_Turdat Vardanes_Vardanes Vonones_Vonones Xerxes_Xshayarshan       
+		}
+		female_names = {
+			Agape_Agape Agathe_Agathe Aikaterine_Aikaterine Alexandra_Alexandra Ambrosia_Ambrosia Anastasia_Anastasia Anthousa_Anthousa Aphrodisia_Aphrodisia 
+			Apollonia_Apollonia Aristomache_Aristomache Artemisia_Artemisia Aspasia_Aspasia Athanasia_Athanasia Athenais_Athenais Berenike_Pherenike Charis_Charis 
+			Charmion_Charmion Chloe_Chloe Chrysanthe_Chrysanthe Demetria_Demetria Demostrate_Demostrate Eirene_Eirene Elpis_Elpis Euanthe_Euanthe 
+			Eudokia_Eudokia Eudoxia_Eudoxia Eugeneia_Eugeneia Eulalia_Eulalia Eumelia_Eumelia Eunike_Eunike Euphemia_Euphemia Euphrasia_Euphrasia 
+			Eupraxia_Eupraxia Eurydike_Eurydike Euthalia_Euthalia Euthymia_Euthymia Eutropia_Eutropia Eutychia_Eutychia Gaiane_Gaiane Galene_Galene Hagne_Hagne 
+			Helene_Helene Hypatia_Hypatia Isidora_Isidora Kallisto_Kallisto Kallistrate_Kallistrate Kassandra_Kassandra Kleopatria Korinna_Korinna 
+			Ligeia_Ligeia Lysandra_Lysandra Lysistrate_Lysistrate Melissa_Melissa Metrodora_Metrodora Myrrine_Myrrine Nikaia_Nikaia Nike_Nike Olympias_Olympias 
+			Pelagia_Pelagia Phila_Phila Phoibe_Phoibe Photine_Photine Ptolemais_Ptolemais Rhode_Rhode Roxane_Roxane Sappho_Sappho 
+			Sophia_Sophia Sostrate_Sostrate Stratonike_Stratonike Syntyche_Syntyche Thais_Thais Theodora_Theodora Theodosia_Theodosia Theokleia_Theokleia Theophania_Theophania 
+			Theophila_Theophila Timo_Timo Timothea_Timothea Tryphaina_Tryphaina Tryphosa_Tryphosa Xanthe_Xanthe Xanthippe_Xanthippe Xenia_Xenia 
+			Xeno_Xeno Zenais_Zenais Zenobia_Zenobia Zoe_Zoe Zosime_Zosime
+		}
+  
+		from_dynasty_prefix = "of "
+  
+		modifier = greco_persian_culture_modifier
+	}
+	koine = {
+		graphical_cultures = { byzantinegfx }
+		
+		color = { 0.4 0.8 1 }
+		
+		male_names = {
+			Achaios_Achaios Adeimantos_Adeimantos Agapetos_Agapetos Agathon_Agathon Ainesidemos_Ainesidemos Aischines_Aischines Aischylos_Aischylos Aisopos_Aisopos Akakios_Akakios Akron_Akron Alexandros_Alexandros 
+			 Alexis_Alexis Alkaios_Alkaios Alkiphron_Alkiphron Ambrosios_Ambrosios Ampelios_Ampelios Amyntas_Amyntas 
+		 Anaxagoras_Anaxagoras Anaxilas_Anaxilas Anaximenes_Anaximenes Androkles_Androkles Andronikos_Andronikos Androtion_Androtion Antiphon_Antiphon Aphrodisios_Aphrodisios Apollodoros_Apollodoros Apollonios_Apollonios
+			Araros_Araros Archelaos_Archelaos Archimedes_Archimedes Archippos_Archippos Argyros_Argyros Aristarchos_Aristarchos Aristeides_Aristeides Aristogeiton_Aristogeiton Aristokles_Aristokles 
+			Ariston_Ariston Aristophanes_Aristophanes Aristoteles_Aristoteles Arkadios_Arkadios Arkesilas_Arkesilas Arkesios_Arkesios Arsenios_Arsenios Artemidoros_Artemidoros Asklepiades_Asklepiades 
+		Atrtemisios_Atrtemisios Basileios_Basileios Bion_Bion Chariton_Chariton Chrysanthos_Chrysanthos Damasias_Damasias Dareios_Dareios 
+			Demetrios_Demetrios Demokritos_Demokritos Demosthenes_Demosthenes Dexippos_Dexippos Diodorus_Diodorus Diodotos_Diodotos Diogenes_Diogenes Diokles_Diokles Dionysodoros_Dionysodoros 
+			Drakon_Drakon Eirenaios_Eirenaios Ekphantos_Ekphantos Epaminondas_Epaminondas Epaphroditos_Epaphroditos Epikouros_Epikouros Epiktetos_Epiktetos Epilykos_Epilykos Erasistratos_Erasistratos Eratosthenes_Eratosthenes Euaristos_Euaristos Euboulos_Euboulos Eudoxos_Eudoxos
+			Eukleides_Eukleides Euktemon_Euktemon Eumenes_Eumenes Euphemios_Euphemios Euphranor_Euphranor Euripides_Euripides Eusebios_Eusebios Eustathios_Eustathios 
+			Eutychios_Eutychios Eutychos_Eutychos Galenos_Galenos Gelon_Gelon Glaukon_Glaukon Harmodios_Harmodios Heliodoros_Heliodoros Herakleitos_Herakleitos 
+			Hermias_Hermias Hermogenes_Hermogenes Hermokrates_Hermokrates Hermolaos_Hermolaos Herodes_Herodes Herodotus_Herodotus Heron_Heron Hesiod_Hesiod 
+			Hiketas_Hiketas Hieron_Hieron Hieronymos_Hieronymos Hippalos_Hippalos Hipparchos_Hipparchos Hippokrates_Hippokrates Hippolytos_Hippolytos Hipponax_Hipponax Homeros_Homeros Hyakinthos_Hyakinthos Hypsikles_Hypsikles 
+			Hypatos_Hypatos Iason_Iason Ion_Ion Iphikrates_Iphikrates Isagoras_Isagoras Isidoros_Isidoros Isokrates_Isokrates Kallias_Kallias Kallikrates_Kallikrates Kallisthenes_Kallisthenes Kallistos_Kallistos Karneades_Karneades 
+			Kassandros_Kassandros Kephalos_Kephalos Kleisthenes_Kleisthenes Kleitos_Kleitos Kleon_Kleon Konon_Konon Kylon_Kylon Kyros_Kyros Laomedon_Laomedon 
+			Leon_Leon Leukon_Leukon Linos_Linos Loukianos_Loukianos Lykourgos_Lykourgos Lysandros_Lysandros Lysimachos_Lysimachos Mantitheos_Mantitheos Megakles_Megakles Menexenos_Menexenos Menon_Menon Metrodoros_Metrodoros Miltiades_Miltiades 
+			Myron_Myron Neophytos_Neophytos Nikandros_Nikandros Nikanor_Nikanor Nikephoros_Nikephoros Nikias_Nikias Nikolaos_Nikolaos Nikomachos_Nikomachos Nikomedes_Nikomedes Nikokreon_Nikokreon 
+			Olympiodoros_Olympiodoros Ophellas_Ophellas Pankratios_Pankratios Pantaleon_Pantaleon Parmenion_Parmenion Pausanias_Pausanias Periandros_Periandros Perikles_Perikles Pheidias_Pheidias Philandros_Philandros Philokrates_Philokrates Phokion_Phokion
+			Platon_Platon Ploutarchos_Ploutarchos Praxiteles_Praxiteles Prodikos_Prodikos Sokrates_Sokrates Solon_Solon Sosigenes_Sosigenes Stilpon_Stilpon 
+			Straton_Straton Themistokles_Themistokles Theodoros_Theodoros Theodosios_Theodosios Theodotos_Theodotos Theophanes_Theophanes Theron_Theron Thrasyboulos_Thrasyboulos
+			Tychon_Tychon Xenon_Xenon Xenophon_Xenophon Zephyros_Zephyros Zeuxidamas_Zeuxidamas        
+		}
+		female_names = {
+			Adrasteia_Adrasteia Agathe_Agathe Aglaia_Aglaia Alexandra_Alexandra Alkippe_Alkippe Amastris_Amastris Anthousa_Anthousa Antigone_Antigone Aphrodisia_Aphrodisia 
+			Apollonia_Apollonia Aristomache_Aristomache Arsinoe_Arsinoe Artemisia_Artemisia Aspasia_Aspasia Athanasia_Athanasia Athenais_Athenais Berenike_Pherenike Charis_Charis 
+			Charmion_Charmion Chloe_Chloe Chrysanthe_Chrysanthe Demetria_Demetria Demostrate_Demostrate Eirene_Eirene Elpis_Elpis Euanthe_Euanthe 
+			Eudokia_Eudokia Eudoxia_Eudoxia Eugeneia_Eugeneia Eulalia_Eulalia Eumelia_Eumelia Eunike_Eunike Euphemia_Euphemia Euphrasia_Euphrasia 
+			Eupraxia_Eupraxia Eurydike_Eurydike Euthalia_Euthalia Euthymia_Euthymia Eutropia_Eutropia Eutychia_Eutychia Gaiane_Gaiane Galene_Galene Hagne_Hagne 
+			Helene_Helene Hypatia_Hypatia Isidora_Isidora Kallisto_Kallisto Kallistrate_Kallistrate Kassandra_Kassandra Korinna_Korinna Laodike_Laodike Ligeia_Ligeia 
+			Lysandra_Lysandra Lysistrate_Lysistrate Melissa_Melissa Metrodora_Metrodora Myrrine_Myrrine Nikaia_Nikaia Nike_Nike Olympias_Olympias Pelagia_Pelagia 
+			Phila_Phila Phoibe_Phoibe Photine_Photine Ptolemais_Ptolemais Rhode_Rhode Roxane_Roxane Sappho_Sappho Sophia_Sophia 
+			Sostrate_Sostrate Stratonike_Stratonike Syntyche_Syntyche Thais_Thais Theodora_Theodora Theodosia_Theodosia Theokleia_Theokleia Theophania_Theophania Thessalonike_Thessalonike
+			Timo_Timo Timothea_Timothea Tryphaina_Tryphaina Tryphosa_Tryphosa Xanthe_Xanthe Xanthippe_Xanthippe Xenia_Xenia Xeno_Xeno 
+			Zenais_Zenais Zenobia_Zenobia Zoe_Zoe Zosime_Zosime                
+		}
+  
+		from_dynasty_prefix = "of "
+  
+		modifier = hellenic_culture_modifier
+	}
+}
+italian = {
+	graphical_cultures = { easterngfx }
+ 
+	oscan = {
+		graphical_cultures = { byzantinegfx }
+  
+		color = { 0.5 0.1 0 }
+
+		male_names = {
+			Ancus_Ancus Attiis_Attiis Deciis_Deciis Gaiis_Gaius Heriis_Heriis Mariis_Mariis Mettiis_Mettiis Minatus_Minatus Miniis_Miniis 
+			Neriis_Neriis Noviis_Noviis Numeriis_Numeriis Oviis_Oviis Pacciis_Pacciis Pompo_Pompo Salviis_Salviis Seppiis_Seppiis 
+			Statiis_Statiis Taurus_Taurus Trebiis_Trebiis Vettiis_Vettiis Vibiis_Vibiis        
+		}
+		female_names = {
+			Anca_Anca Attia_Attia Decia_Decia Heria_Heria Maria_Maria Mettia_Mettia Minata_Minata Minia_Minia 
+			Neria_Neria Novia_Novia Numa_Numa Numeria_Numeria Ovia_Ovia Paccia_Paccia Pompa_Pompa Salvia_Salvia 
+			Seppia_Seppia Stattia_Stattia Trebia_Trebia Vettia_Vettia Vibia_Vibia        
+		}
+  
+		from_dynasty_prefix = "of "
+   
+		modifier = italic_culture_modifier
+	}
+	latin = {
+		graphical_cultures = { byzantinegfx }
+  
+		color = { 0.5 0 0 }
+
+		male_names = {
+			Accius Aelius Aemilius Aeschinus Aesopus Afranius Ambivius Andronicus 
+			Annius Antonius Appius Apollodorus Aristyllus Arrius Atilius Aulus_Aulus Aurelius 
+			Bathyllus Battus Biblios Brutus Caecilius Caelius Calvus Capaneus 
+			Cassius Claudius Clodius Colunella Cornelius Crassus Dardanus Decimus_Deciis 
+			Demetrius Diphilus Domitianus Ennius Eugenius Eusebius Eustathius Gaius_Gaius 
+			Gemellus Gouneus Gratian Gustinus Hesychius Hortensius Idaeus Julian 
+			Julius Lapidus Lepidus Livius Lucius_Lucius Marcellinus Marcellus Marcus_Marcus 
+			Maxentius Maximus Micio Naevius Octavian Octavius Ogulnius Oppius 
+			Otho Paetus Paulinus Paulus_Paulus Perpertius Persius Philetas Photius 
+			Plautus Poppaeus Posthumus Publius Quintillus Quintus_Pompo Regillus Servius Spurius Statius 
+			Syncellus Tiberius_Tiberius Titus_Titus Traianus Turpilius Turpio Urgulanus Valerian 
+			Valerius Varus Vespasian Vitellius Volusius        
+		}
+		female_names = {
+			Accia Aelia Aemilia Aeshchina Aesopa Aetia Afrania Agrippina 
+			Ambivia Andronica Annia Antonia Antonilla Apollodoria Aristylla Arria 
+			Arriana Arrianilla Atilia Aulia Aurelia Bathylla Battia Brutia 
+			Caecilia Calvia Capanea Casina Cassia Claudia Clodia Colunellina 
+			Corbulina Cornelia Crassia Dardania Decia_Decia Demetria Didymia Diphilia 
+			Domitia Domitilla Drusilla Ennia Eugenia Eusebia Eustathia Gaetulica 
+			Gemella Gounea Gratiana Gustina Hesychia Hortensia Idaea Julia 
+			Lapida Lepida Lesbia Livia Livilla Lucia Lucilla 
+			Marcella Maxentia Maxima Messalina Naevia Octavia Ogulnia Oppia 
+			Optima Otholina Paetina Paula Paulina Perpertia Phileta Photia 
+			Plautia Poppaea Posthuma Quintia_Pompa Quintillia Regilla Servia Statia 
+			Syncellia Theodosia Tiberia Traiana Turpia Turpilia Urgulania Urgulanilla 
+			Valeria Varia Vespasia Vitellia Volusia        
+		}
+  
+		from_dynasty_prefix = "of "
+   
+		modifier = italic_culture_modifier
+	}
+	umbrian = {
+		graphical_cultures = { byzantinegfx }
+  
+		color = { 0.5 0.1 0.1 }
+
+		male_names = {
+			Ancus_Ancus Attiis_Attiis Deciis_Deciis Gaiis_Gaius Heriis_Heriis Mariis_Mariis Mettiis_Mettiis Minatus_Minatus Miniis_Miniis 
+			Neriis_Neriis Noviis_Noviis Numeriis_Numeriis Oviis_Oviis Pacciis_Pacciis Pompo_Pompo Salviis_Salviis Seppiis_Seppiis 
+			Statiis_Statiis Taurus_Taurus Trebiis_Trebiis Vettiis_Vettiis Vibiis_Vibiis        
+		}
+		female_names = {
+			Anca_Anca Attia_Attia Decia_Decia Heria_Heria Maria_Maria Mettia_Mettia Minata_Minata Minia_Minia 
+			Neria_Neria Novia_Novia Numa_Numa Numeria_Numeria Ovia_Ovia Paccia_Paccia Pompa_Pompa Salvia_Salvia 
+			Seppia_Seppia Stattia_Stattia Trebia_Trebia Vettia_Vettia Vibia_Vibia        
+		}
+  
+		from_dynasty_prefix = "of "
+   
+		modifier = italic_culture_modifier
+	}
+	picene = {
+		graphical_cultures = { byzantinegfx }
+  
+		color = { 0.6 0 0 }
+
+		male_names = {
+			Ancus_Ancus Attiis_Attiis Deciis_Deciis Gaiis_Gaius Heriis_Heriis Mariis_Mariis Mettiis_Mettiis Minatus_Minatus Miniis_Miniis 
+			Neriis_Neriis Noviis_Noviis Numeriis_Numeriis Oviis_Oviis Pacciis_Pacciis Pompo_Pompo Salviis_Salviis Seppiis_Seppiis 
+			Statiis_Statiis Taurus_Taurus Trebiis_Trebiis Vettiis_Vettiis Vibiis_Vibiis        
+		}
+		female_names = {
+			Anca_Anca Attia_Attia Decia_Decia Heria_Heria Maria_Maria Mettia_Mettia Minata_Minata Minia_Minia 
+			Neria_Neria Novia_Novia Numa_Numa Numeria_Numeria Ovia_Ovia Paccia_Paccia Pompa_Pompa Salvia_Salvia 
+			Seppia_Seppia Stattia_Stattia Trebia_Trebia Vettia_Vettia Vibia_Vibia        
+		}
+  
+		from_dynasty_prefix = "of "
+   
+		modifier = italic_culture_modifier
+	}
+}
+tyrhenian = {
+	graphical_cultures = { easterngfx }
+ 
+	etruscan = {
+		graphical_cultures = { byzantinegfx }
+  
+		color = { 0.4 0 0 }
+
+		male_names = {
+			Aranth_Aranth Arruns_Arruns Aule_Aulus Cae_Gaius Caile_Caile Cneve_Cneve Cuinte_Cuinte Karcuna_Karcuna 
+			Lar_Lar Larce_Larce Laris_Laris Larth_Larth Lucie_Lucius Mamarce_Mamarce Marce_Marcus Metie_Metie 
+			Pavle_Paulus Puplie_Puplie Sethre_Sethre Spurie_Spurie Spurinna_Spurinna Tages_Tages Tarquin_Tarquin Thefarie_Tiberius 
+			Thocero_Thocero Tite_Titus Vel_Vel Velthur_Velthur Vipie_Vipie        
+		}
+		female_names = {
+			Arntlei_Arntlei Fasti_Fasti Hasti_Hasti Larthi_Larthi Lethi_Lethi Ramtha_Ramtha Rantha_Rantha Raunthu_Raunthu 
+			Seianti_Seianti Sethra_Sethra Thana_Thana Thanchvil_Thanchvil Tita_Tita Velia_Velia        
+		}
+  
+		from_dynasty_prefix = "of "
+   
+		modifier = tyrhenian_culture_modifier
+	}
+	raetic = {
+		graphical_cultures = { byzantinegfx }
+  
+		color = { 0.2 0.8 0.1 }
+
+		male_names = {
+			Aranth_Aranth Arruns_Arruns Aule_Aulus Cae_Gaius Caile_Caile Cneve_Cneve Cuinte_Cuinte Karcuna_Karcuna 
+			Lar_Lar Larce_Larce Laris_Laris Larth_Larth Lucie_Lucius Mamarce_Mamarce Marce_Marcus Metie_Metie 
+			Pavle_Paulus Puplie_Puplie Sethre_Sethre Spurie_Spurie Spurinna_Spurinna Tages_Tages Tarquin_Tarquin Thefarie_Tiberius 
+			Thocero_Thocero Tite_Titus Vel_Vel Velthur_Velthur Vipie_Vipie        
+		}
+		female_names = {
+			Arntlei_Arntlei Fasti_Fasti Hasti_Hasti Larthi_Larthi Lethi_Lethi Ramtha_Ramtha Rantha_Rantha Raunthu_Raunthu 
+			Seianti_Seianti Sethra_Sethra Thana_Thana Thanchvil_Thanchvil Tita_Tita Velia_Velia        
+		}
+  
+		from_dynasty_prefix = "of "
+		dynasty_title_names = yes
+		modifier = tyrhenian_culture_modifier
+	}
+}
+north_italic = {
+	graphical_cultures = { easterngfx }
+ 
+	venetic = {
+		graphical_cultures = { byzantinegfx }
+  
+		color = { 0.4 1 0.4 }
+
+		male_names = {
+			Aetor Avitus Barcinus Boninus Buzetius Caminis Ceunus Clausus 
+			Cliticus Curticus Darmo Hospolis Hostiducis Hostiices Iafus Lambicus 
+			Lastimeis Malavicus Mamaester Moicus Oclatinus Oeplus Opiavus Oplus 
+			Pasinus Patalius Picusis Plaetorius Recus Tarnis Tetenus Trosius 
+			Turus Vesclevesis Viniocus Virno Volscus Volsetis Volso Volsonus 
+			Volsounus Volsus Voltimesis Zupricus        
+		}
+		female_names = {
+			Acaica Aeia Avita Colatina Dumma Marica Menda Opia 
+			Suioca Toruca Vadica Velsouna Volaesa Volsouna Voltissa        
+		}
+  
+		from_dynasty_prefix = "of "   		
+		dynasty_title_names = yes
+		modifier = illyrian_culture_modifier
+	}
+}
+iberian = {
+	
+	iberian = {
+	graphical_cultures = { celticgfx }
+	
+	color = { 0.91 0.65 0.5 }
+	
+	male_names = {
+		Abadutiker_Abadutiker Abararban_Abararban Abartanban_Abartanban Abartiaigis_Abartiaigis Aibekeres_Aibekeres Aiunesker_Aiunesker Alorildui_Alorildui Alortigis_Alortigis Amusiko_Amusiko Andobales_Andobales Antorbanen_Antorbanen Arbiskar_Arbiskar Argisabam_Argisabam Argitibasar_Argitibasar Argitiker_Argitiker Armitalsko_Armitalsko Atabeles_Atabeles Atinbelaur_Atinbelaur Bagarok_Bagarok Bailar_Bailar Baisebilos_Baisebilos Baisetas_Baisetas Baitesir_Baitesir Balakertar_Balakertar Balkaldur_Balkaldur Balkeadin_Balkeadin Balkebe_Balkebe Balkeskar_Balkeskar Balkar_Balkar Bartar_Bartar Basirtir_Basirtir Baspedas_Baspedas Bastartine_Bastartine Bedule_Bedule Belasbaisereban_Belasbaisereban Bilinos_Bilinos Bilisteges_Bilisteges Binturke_Binturke Biosildun_Biosildun Biulakos_Biulakos Biurbetin_Biurbetin Biurdiki_Biurdiki Biurtan_Biurtan Biurtetel_Biurtetel Biurtibes_Biurtibes Biurtilaur_Biurtilaur Bodilkas_Bodilkas Boutintibas_Boutintibas Budar_Budar Busadines_Busadines Kaikonbe_Kaikonbe Kerdubeles_Kerdubeles Kulkas_Kulkas Edekon_Edekon Ertebas_Ertebas Eterindu_Eterindu Garokan_Garokan Ikeatin_Ikeatin Ieorbeles_Ieorbeles Ieortas_Ieortas Ildutas_Ildutas Iltiradin_Iltiradin Indibil_Indibil Indikortes_Indikortes Indo_Indo Isbataris_Isbataris Iskeradin_Iskeradin Iskerbeles_Iskerbeles Katulatin_Katulatin Korbis_Korbis Korribilo_Korribilo Lagunas_Lagunas Mandonio_Mandonio Nabarsosin_Nabarsosin Nisunin_Nisunin Orison_Orison Orisos_Orisos Otigirteker_Otigirteker Sakarbik_Sakarbik Sakarisker_Sakarisker Seihar_Seihar Selgiterar_Selgiterar Sinebetin_Sinebetin Situbolai_Situbolai Sosian_Sosian Sosinbiuru_Sosinbiuru Sosintacer_Sosintacer Talskubilos_Talskubilos Tarkunbiur_Tarkunbiur Tibaste_Tibaste Turibas_Turibas Ultidikan_Ultidikan Unibelos_Unibelos Unibetin_Unibetin Untigorisar_Untigorisar Urauken_Urauken Urkaildu_Urkaildu Urkebas_Urkebas Urketikes_Urketikes
+		}
+		female_names = {
+			Auruningika_Auruningika Aretaunin_Aretaunin Kanine_Kanine Daleninar_Daleninar Edereta_Edereta Nisunin_Nisunin Sikedunin_Sikedunin Sikounin_Sikounin Similke_Similke
+		}
+		
+			
+		
+		modifier = iberian_culture_modifier
+	}
+}
+lusitanian = {
+	
+	lusitanian = {
+	graphical_cultures = { celticgfx }
+	
+	color = { 0.85 0.4 0.15 }
+	
+	male_names = {
+		Ambatos_Ambatos Arauos_Arauos Bibablos_Bibalos Bouiani_Bouiani Bouati_Bouati Bouaulos_Bouaulos Bouios_Bouios Buanos_Buanos Kailobrigos_Kailobrigos Kankilos_Kankilos Kankilios_Kankilios Kasapos_Kasapos Kasabios_Kasabios Kilenos_Kilenos Koporos_Koporos Kumelios_Kumelios Kundigos_Kundigos Kuntinos_Kuntinos Kuntios_Kuntios Equaisos_Equaisos Ikkauos_Ikkauos Ikkalos_Ikkalos Ikkianos_Ikkianos Ikkonios_Ikkonios Leoni_Leoni Matugenos_Matugenos Melmandos_Melmandos Pekunios_Pekunios Seuros_Seuros Taporos_Taporos Taurilios_Taurilios Taurokos_Taurokos Uendikos_Uendikos 
+		}
+		female_names = {
+			Ama_Ama Amena_Amena Amia_Amia Ana_Ana Apirka_Apirka Aunia_Aunia Birkita_Birkita  Bouana_Bouana Bouia_Bouia Kilena_Kilena Genouefa_Genouefa Kara_Kara Kyna_Kyna Mauis_Mauis Nunn_Nunn Sikounin_Sikounin Stena_Stena Treua_Treua Ueuila_Ueuila  
+		}
+		
+				
+		
+		modifier = lusitanian_culture_modifier
+	}
+}
+
+
+tartessian = {
+	
+	turdetanian = {
+	graphical_cultures = { celticgfx }
+	
+	color = { 0 0.5 1 }
+	
+	male_names = {
+		Argantodanos_Argantodanos Arganthonios_Arganthonios Attenes_Attenes Belsu_Belsu Bilinos_Bilinos Bodo_Bodo Botilkos_Botilkos Builbos_Builbos Kaikonbe_Kaikonbe Kulchas_Kulchas Gargoris_Gargoris Habis_Habis Indo_Indo Kalbo_Kalbo Luxinio_Luxinio Magauarico_Magauarico Melmanios_Melmanios Mezukenos_Mezukenos Tiokenesos_Tiokenesos Tiresio_Tiresio Tirtanos_Tirtanos Sakarbik_Sakarbik Sakarisker_Sakarisker Seihar_Seihar Selgiterar_Selgiterar Sinebetin_Sinebetin
+		}
+		female_names = {
+			Ama_Ama Amena_Amena Amia_Amia Ana_Ana Apirka_Apirka Aunia_Aunia Birkita_Birkita  Bouana_Bouana Bouia_Bouia Kilena_Kilena Genouefa_Genouefa Kara_Kara Kyna_Kyna Mauis_Mauis Nunn_Nunn Sikounin_Sikounin Stena_Stena Treua_Treua Ueuila_Ueuila   
+		}
+		
+			
+	
+		modifier = tartessian_culture_modifier
+	}
+	
+	old_tartessian = {
+	graphical_cultures = { celticgfx }
+	
+	color = { 0.55 0.2 0.10 }
+	
+	male_names = {
+		
+		}
+		female_names = {
+			Ama_Ama Amena_Amena Amia_Amia Ana_Ana Apirka_Apirka Aunia_Aunia Birkita_Birkita  Bouana_Bouana Bouia_Bouia Kilena_Kilena Genouefa_Genouefa Kara_Kara Kyna_Kyna Mauis_Mauis Nunn_Nunn Sikounin_Sikounin Stena_Stena Treua_Treua Ueuila_Ueuila     
+		}
+		
+				
+		
+		modifier = tartessian_culture_modifier
+	}
+}
+aquitanian = {
+	
+	aquitanian = {
+	graphical_cultures = { celticgfx }
+	
+	color = { 0 0.76 0.31 }
+	
+	male_names = {
+		Abisunhar_Abisunhar Andereseni_Andereseni Baiserte_Baiserte Belexkonis_Belexkonis Bihossi_Bihossi Biurtetel_Biurtetel Biurtibes_Biurtibes Biurtilaur_Biurtilaur Kison_Kison Kissonbonnis_Kissonbonnis Dusanharis_Dusanharis Ennebox_Ennebox Gerexo_Gerexo Halskotarris_Halskotarris Hanna_Hanna Harbelex_Harbelex Illurberrixo_Illurberrixo Korbis_Korbis Laurko_Laurko Otigirteker_Otigirteker Sembe_Sembe Sembekkoni_Sembekkoni Senios_Senios Serhuhoris_Serhuhoris Talskonis_Talskonis Ummesahar_Ummesahar
+		}
+		female_names = {
+			Andere_Andere Aretaunin_Aretaunin Kanine_Kanine Daleninar_Daleninar Edereta_Edereta Neskato_Neskato Nisunin_Nisunin Sikedunin_Sikedunin Sikounin_Sikounin Similke_Similke
+		}
+		
+				
+		
+		modifier = aquitanian_culture_modifier
+	}
+}

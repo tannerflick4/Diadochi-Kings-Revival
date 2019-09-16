@@ -1,0 +1,15 @@
+# 793 - Avisari
+
+# County Title
+title = c_avisari
+
+# Settlements
+max_settlements = 1
+b_avisari_avisari = castle
+
+# Misc
+culture = gandhari
+religion = buddhism_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,233 @@
+# 801-900 for the Argeadai dynasty
+801 = {
+	name = "Philippos" # Philip III
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	father = 803 # Philip II
+	
+	add_trait = imbecile # This trait still causes a regency
+	add_trait = legit_bastard
+	
+	417.1.1 = { # 359 BC
+		birth="yes"
+	}
+	# We don't want the Diadochi hating him because of the trait
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	459.12.25 = { # 317 BC
+		death = {
+			death_reason = death_execution
+			killer = 10011 # Olympias
+		}
+	}
+}
+802 = {
+	name = "Alexandros" # Alexander the Great
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	father = 803 # Philip II
+	mother = 10011
+	
+	martial = 10
+	
+	add_trait = quick
+	add_trait = brilliant_strategist
+	add_trait = proud
+	add_trait = ambitious
+	add_trait = brave
+	add_trait = wroth
+	add_trait = chaste
+	add_trait = drunkard
+	
+	420.7.21 = { # 356 BC
+		birth="yes"
+	}
+	446.1.1 = { # 330 BC
+		add_trait = paranoid # After the whole Parmenion affair
+	}
+	449.1.1 = { # 327 BC
+		add_spouse = 100001 # Roxane
+	}
+	453.6.10 = { # 323 BC
+		death="yes"
+	}
+}
+803 = {
+	name = "Philippos" # Philip II
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	father =  804 # Amyntas III
+		
+	add_trait = quick
+	add_trait = brilliant_strategist
+	add_trait = proud
+	add_trait = ambitious
+	add_trait = brave
+	add_trait = patient
+	add_trait = cruel
+	
+	394.1.1 = { # 382 BC
+		birth="yes"
+	}
+	419.1.1 = { # 357 BC
+		add_spouse = 10011 # Olympias
+	}
+	440.10.1 = { # 336 BC
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+804 = {
+	name = "Amyntas" # Amyntas III
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	add_trait = charismatic_negotiator
+	
+	364.1.1 = { # 412 BC Made up
+		birth="yes"
+	}
+	406.1.1 = { # 370 BC
+		death="yes"
+	}
+}
+805 = {
+	name = "Alexandros" # Alexander II
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	father = 804 # Amyntas III
+	389.1.1 = { # 387 BC Made up
+		birth="yes"
+	}
+	407.1.1 = { # 369 BC
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+806 = {
+	name = "Perdikkas" # Perdiccas III
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	father = 804 # Amyntas III
+	
+	add_trait = misguided_warrior
+	
+	391.1.1 = { # 385 BC Made up
+		birth="yes"
+	}
+	417.1.1 = { # 359 BC
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+807 = {
+	name = "Amyntas" # Amyntas IV
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	father = 806 # Perdiccas III
+	411.1.1 = { # 365 BC
+		birth="yes"
+	}
+	440.10.15 = { # 336 BC
+		death = {
+			death_reason = death_execution
+			killer = 802 # Alexander the Great
+		}
+	}
+}
+808 = {
+	name = "Alexandros" # Alexander IV
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	#employer = 801 # Philip III
+	father = 802 # Alexander the Great
+	mother = 100001 # Roxane
+	
+	# We don't want the Diadochi hating him because of the trait
+	#add_trait = diadochi_king
+		
+	453.8.1 = { # 323 BC
+		birth="yes"
+		add_claim = e_macedonia
+	}
+	467.1.1 = { # 310 BC
+		death = {
+			death_reason = death_murder
+			killer = 2 # Cassander
+		}
+	}
+}
+809 = {
+	name = "Kleopatra" # Alexander's sister
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	employer = 801 # Philip III
+	female = yes
+	father = 803 # Philip II
+	mother = 10011
+	419.1.1 = { # 357 BC
+		birth="yes"
+	}
+	440.10.1 = { # 336 BC
+		add_spouse = 10008 # Alexandros I
+	}
+	453.6.10 = {
+		add_claim=e_macedonia
+	}
+	468.1.1 = { # 308 BC
+		death = {
+			death_reason = death_murder
+			killer = 401 # Antigonus
+		}
+	}
+}
+810 = {
+	name = "Thessalonike" # Daughter of Philip II
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	female = yes
+	father = 803 # Philip II
+	424.1.1 = {
+		birth="yes" # 352 BC
+	}
+	481.1.1 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+811 = {
+	name = "Kleomenes" # First satrap of Egypt
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	add_trait = greedy
+	
+	409.1.1 = { # 376 BC made up
+		birth="yes"
+	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	454.1.1 = { # 322 BC
+		death = {
+			death_reason = death_execution
+			killer = 601 # Ptolemy
+		}
+	}
+}

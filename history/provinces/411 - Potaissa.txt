@@ -1,0 +1,21 @@
+# 411 - Potaissa
+
+# County Title
+title = c_potaissa
+
+# Settlements
+max_settlements = 4
+b_potaissa_potaissa = castle
+b_moresti_potaissa = city
+b_singhisoara_potaissa = city
+
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_hydata_potaissa
+
+# Misc
+culture = dacian
+religion = zalmoxism
+
+# History
+# Can be filled when things change around the province

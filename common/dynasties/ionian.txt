@@ -1,0 +1,205 @@
+# 5001-6000 for ionian dynasties
+5001 = {
+	name = "Klearchidai"
+	culture = ionian
+}
+5002 = {
+	name = "Eumenidai"
+	culture = ionian
+}
+5003 = {
+	name = "Spartokidai"
+	culture = ionian
+}
+5004 = {
+	name = "Tyrioi"
+	culture = ionian
+}
+5005 = {
+	name = "Chalkioi"
+	culture = ionian
+}
+5006 = {
+	name = "Miletioi"
+	culture = ionian
+}
+5007 = {
+	name = "Ephesioi"
+	culture = ionian
+}
+5008 = {
+	name = "Propontioi"
+	culture = ionian
+}
+5009 = {
+	name = "Chalkidioi"
+	culture = ionian
+}
+5010 = {
+	name = "Skyrioi"
+	culture = ionian
+}
+5011 = {
+	name = "Lemnioi"
+	culture = ionian
+}
+5012 = {
+	name = "Ithakesioi"
+	culture = ionian
+}
+5013 = {
+	name = "Kytherioi"
+	culture = ionian
+}
+5019 = {
+	name = "Attalidai"
+	culture = ionian
+}
+5020 = {
+	name = "Pharioi"
+	culture = ionian
+}
+5021 = {
+	name = "Massaliotai"
+	culture = ionian
+}
+5022 = {
+	name = "Phalerioi" 
+	culture = ionian
+}
+5023 = {
+	name = "Sesamoi"
+	culture = ionian
+}
+5024 = {
+	name = "Sinopeis"
+	culture = ionian
+}
+5025 = {
+	name = "Amisioi"
+	culture = ionian
+}
+5026 = {
+	name = "Polemonioi"
+	culture = ionian
+}
+5027 = {
+	name = "Pontioi"
+	culture = ionian
+}
+5028 = {
+	name = "Selinidai"
+	culture = ionian
+}
+5029 = {
+	name = "Himerioi"
+	culture = ionian
+}
+5030 = { # Pityous
+	name = "Pityoi"
+	culture = ionian
+}
+5031 = { # Gorgippia
+	name = "Gorgippoi"
+	culture = ionian
+}
+5032 = { # Chersonesos
+	name = "Chersonesoi"
+	culture = ionian
+}
+5033 = { # Kerkinitis
+	name = "Kerkinitoi"
+	culture = ionian
+}
+5034 = { # Tanais
+	name = "Tanaidai"
+	culture = ionian
+}
+5035 = { # Amphipolis
+	name = "Amphipolioi"
+	culture = ionian
+}
+5036 = { # Chalcidice
+	name = "Euthykratidai"
+	culture = ionian
+}
+5037 = {
+	name = "Hyperidai" # Athenian family
+	culture = ionian
+}
+5038 = {
+	name = "Aischinidai" # Athenian family
+	culture = ionian
+}
+5039 = {
+	name = "Demosthenidai" # Athenian family
+	culture = ionian
+}
+5040 = {
+	name = "Lykourgidai" # Athenian family
+	culture = ionian
+}
+5041 = {
+	name = "Eboulidai" # Athenian family
+	culture = ionian
+}
+5042 = {
+	name = "Eretrioi" # Tyrants of Eretria, Euboia
+	culture = ionian
+}
+5043 = {
+	name = "Mnesarchidai" # Tyrants of Chalcis, Euboia
+	culture = ionian
+}
+5044 = {
+	name = "Kleitarchidai" # Tyrants of Eretria, Euboia
+	culture = ionian
+}
+5045 = {
+	name = "Kosidai" # Kos
+	culture = ionian
+}
+5046 = {
+	name = "Chioi" # Chios
+	culture = ionian
+}
+5047 = {
+	name = "Battiadai" # Cyrene
+	culture = ionian
+}
+5048 = {
+	name = "Kyrenioi" # Cyrene
+	culture = ionian
+}
+5049 = {
+	name = "Euesperidai" # Cyrene
+	culture = ionian
+}
+5050 = {
+	name = "Barkoi" # Cyrene
+	culture = ionian
+}
+5051 = {
+	name = "Damioi" # Cyrene
+	culture = ionian
+}
+5052 = {
+	name = "Azaroi" # Azara
+	culture = ionian
+}
+5053 = {
+	name = "Karkinioi" # Karkine
+	culture = ionian
+}
+5054 = {
+	name = "Miletioi" # Dynasty for Demodamas of Miletus, Seleucid Satrap
+	culture = ionian
+}
+5055 = {
+	name = "Phokritoi"
+	culture = ionian
+}
+5056 = {
+	name = "Amastrioi"
+	culture = ionian
+}

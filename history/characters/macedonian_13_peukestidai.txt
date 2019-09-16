@@ -1,0 +1,20 @@
+# 1201-1300 for the Peukestidai dynasty
+1201 = {
+	name = "Peukestas" # Peucestas, satrap of Persia
+	dynasty = 13 # Peukestidai
+	religion = greek_main
+	culture = macedonian
+	
+	add_trait = hedonist
+	add_trait = tough_soldier
+	
+	416.1.1 = { # 360 BC Made up
+		birth="yes"
+	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	462.1.1 = { # 314 BC Made up
+		death="yes"
+	}
+}

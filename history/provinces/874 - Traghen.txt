@@ -1,0 +1,15 @@
+# 874 - Traghen
+
+# County Title
+title = c_traghen
+# Settlements
+max_settlements = 3
+b_traghen_traghen = castle
+b_murzuch_traghen = temple
+
+# Misc
+culture = berber
+religion = berber_main
+
+# History
+# Can be filled when things change around the province

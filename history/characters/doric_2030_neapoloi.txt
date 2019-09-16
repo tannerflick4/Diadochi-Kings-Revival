@@ -1,0 +1,26 @@
+# 22901-23000 for the Neapoloi dynasty
+22901 = {
+	name = "Herodes" # Neapolis, Made up
+	dynasty = 2030 # Neapoloi
+	religion = greek_main
+	culture = doric
+	father = 22902
+	393.1.1 = { # 383 BC
+		birth="yes"
+	}
+	474.1.1 = { # 302 BC
+		death="yes"
+	}
+}
+22902 = {
+	name = "Limos" # Neapolis, Made up
+	dynasty = 2030 # Neapoloi
+	religion = greek_main
+	culture = doric
+	368.1.1 = { # 408 BC Made Up
+		birth="yes"
+	}
+	441.1.1 = { # 335 BC Made Up
+		death="yes"
+	}
+}

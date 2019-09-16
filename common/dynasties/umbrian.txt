@@ -1,0 +1,10 @@
+# 20001-21000 for Umbrian dynasties
+
+20001 = {
+	name = "Dardanii"
+	culture = umbrian
+}
+20002 = {
+	name = "Assisii"
+	culture = umbrian
+}

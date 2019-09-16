@@ -1,0 +1,14 @@
+# 865 - Sala
+
+# County Title
+title = c_sala_africa
+
+# Settlements
+max_settlements = 1
+b_sala_africa_sala = city
+
+# Misc
+culture = punic
+religion = punic_main
+
+# History

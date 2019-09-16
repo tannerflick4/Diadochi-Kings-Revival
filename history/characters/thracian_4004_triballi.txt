@@ -1,0 +1,39 @@
+# 40301-40400 for the Triballi dynasty
+40301 = {
+	name = "Syrmus" # King of the Triballi
+	dynasty = 4004 # Triballi
+	religion = thracian_main
+	culture = thracian
+	father = 40302
+	393.1.1 = {
+		birth="yes" # 383 BC, Made up
+	}
+	459.1.1 = {
+		death="yes" # 317 BC, Made up
+	}
+}
+40302 = {
+	name = "Hales" # King of the Triballi
+	dynasty = 4004 # Triballi
+	religion = thracian_main
+	culture = thracian
+	363.1.1 = {
+		birth="yes" # 413 BC, Made up
+	}
+	432.1.1 = {
+		death="yes" # 344 BC, Made up
+	}
+}
+40303 = {
+	name = "Ziaelas" # King of the Triballi, Made up
+	dynasty = 4004 # Triballi
+	religion = thracian_main
+	culture = thracian
+	father = 40301
+	436.1.1 = {
+		birth="yes" # 340 BC, Made up
+	}
+	502.1.1 = {
+		death="yes" # 274 BC, Made up
+	}
+}

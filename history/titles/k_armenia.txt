@@ -1,0 +1,6 @@
+455.1.1 = {
+	holder = 80001 # Mithrenes of Armenia
+}
+459.1.1 = {
+	holder = 80002 # Orontes III
+}

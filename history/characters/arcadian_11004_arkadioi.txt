@@ -1,0 +1,39 @@
+# 110201-110300 for the Arkadioi dynasty
+110201 = {
+	name = "Aphrodisios" # Ruler of Arcadia, Made up
+	dynasty = 11004 # Arkadioi
+	religion = greek_main
+	culture = arcadian
+	365.1.1 = {
+		birth="yes" # 411 BC
+	}
+	437.1.1 = {
+		death="yes" # 339 BC
+	}
+}
+110202 = {
+	name = "Theodoulos"
+	dynasty = 11004 # Arkadioi
+	religion = greek_main
+	culture = arcadian
+	father = 110201
+	388.1.1 = {
+		birth="yes" # 388 BC
+	}
+	437.1.1 = {
+		death="yes" # 339 BC
+	}
+}
+110203 = {
+	name = "Tychon" # Ruler of Arcadia, Made up
+	dynasty = 11004 # Arkadioi
+	religion = greek_main
+	culture = arcadian
+	father = 110202
+	420.1.1 = {
+		birth="yes" # 356 BC
+	}
+	504.1.1 = {
+		death="yes" # 272 BC
+	}
+}

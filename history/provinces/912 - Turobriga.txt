@@ -1,0 +1,18 @@
+# 912 - Turobriga
+
+# County Title
+title = c_turobriga
+
+# Settlements
+max_settlements = 4
+b_turobriga_turobriga = castle
+b_nertobriga_turobriga = castle
+b_alajar_turobriga = castle
+#b_arruci_turobriga = city
+
+# Misc
+culture = celtiberian
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,21 @@
+# 380 - Lepcis Magna
+
+# County Title
+title = c_lepcis_magna
+
+# Settlements
+max_settlements = 5
+b_thubactis_lepcis_magna = city
+b_lepcis_magna_lepcis_magna = castle
+b_kinyps_lepcis_magna = temple
+b_gaphara_lepcis_magna = city
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_quintiliana_lepcis_magna
+
+# Misc
+culture = berber
+religion = berber_main
+
+# History
+# Can be filled when things change around the province

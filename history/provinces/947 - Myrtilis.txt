@@ -1,0 +1,17 @@
+# 947 - Myrtilis
+
+# County Title
+title = c_myrtilis
+
+# Settlements
+max_settlements = 3
+b_myrtilis_myrtilis = castle
+b_arandis_myrtilis = castle
+b_vipascens_myrtilis = castle
+
+# Misc
+culture = celtiberian
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

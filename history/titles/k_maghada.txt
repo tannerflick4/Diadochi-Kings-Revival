@@ -1,0 +1,9 @@
+412.1.1 = { # 364 BC
+	holder = 121301 # Mahapadma Nanda
+}
+447.1.1 = { # 329 BC
+	holder = 121302 # Dhana Nanda
+}
+455.1.1 = { # 321 BC
+	holder = 0
+}

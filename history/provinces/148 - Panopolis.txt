@@ -1,0 +1,18 @@
+# 148 - Panopolis
+
+# County Title
+title = c_panopolis
+
+# Settlements
+max_settlements = 4
+b_panopolis_panopolis = castle
+b_selino_panopolis = castle
+b_muthis_panopolis = castle
+b_antaiopolis_panopolis = city
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

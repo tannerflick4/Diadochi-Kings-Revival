@@ -1,0 +1,24 @@
+# 253 - Pasargadae
+
+# County Title
+title = c_pasargadae
+
+# Settlements
+max_settlements = 7
+b_pasargadae_pasargadae = castle
+b_persepolis_pasargadae = castle
+b_seraz_pasargadae = temple
+b_tukrash_pasargadae = city
+b_malyan_pasargadae = city
+b_kaupirrish_pasargadae = castle
+b_rakkan_pasargadae = castle
+
+# Misc
+culture = persian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province
+446.5.1 = { # 330 BC, Alexander destroys Persepolis
+	remove_settlement = b_persepolis_pasargadae
+}

@@ -1,0 +1,20 @@
+# 443 - Napata
+
+# County Title
+title = c_napata
+
+# Settlements
+max_settlements = 6
+b_napata_napata = castle
+b_cortum_napata = temple
+b_mambli_napata = city
+b_dumana_napata = city
+b_pago_napata = castle
+b_zamnes_napata = city
+
+# Misc
+culture = nubian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

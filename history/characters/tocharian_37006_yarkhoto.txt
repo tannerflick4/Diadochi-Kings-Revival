@@ -1,0 +1,26 @@
+# 370501-370600 for the Yarkhoto dynasty
+370501 = {
+	name = "Manigi" # Made up
+	dynasty = 37036
+	religion = zoroastrian_main
+	culture = tocharian
+	392.1.1 = { # 384 BC
+		birth="yes"
+	}
+	466.1.1 = { # 310 BC
+		death="yes"
+	}
+}
+370502 = {
+	name = "Gamca" # Made up
+	dynasty = 37036
+	religion = zoroastrian_main
+	culture = tocharian
+	father = 370501
+	418.1.1 = { # 358 BC
+		birth="yes"
+	}
+	504.1.1 = { # 272 BC
+		death="yes"
+	}
+}

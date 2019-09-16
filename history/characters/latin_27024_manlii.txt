@@ -1,0 +1,20 @@
+# 172301-172400 for the Manlii dynasty
+172301 = {
+	name = "Titus" # Manlius Torquatus
+	dynasty = 17024 # Manlii
+	religion = roman_main
+	culture = latin
+	
+	add_trait = zealous
+	add_trait = diligent
+	
+	394.1.1 = { # 382 BC Made Up
+		birth="yes"
+	}
+	436.1.1 = { # 340 BC
+		add_trait = kinslayer # Killed his own son
+	}
+	442.1.1 = { # 334 BC Made Up
+		death="yes"
+	}
+}

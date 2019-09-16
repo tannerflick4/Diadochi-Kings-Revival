@@ -1,0 +1,28 @@
+# 420101-420200 for the Lusiones dynasty
+420101 = {
+	name = "Hilerno" # Made up Lusiones leader
+	dynasty = 42002
+	culture = celtiberian
+	religion = celtic_main
+	
+	386.1.1 = { # 390 BC, Made up
+		birth="yes"
+	}
+	467.1.1 = { # 309 BC
+		death="yes"
+	}
+}
+420102 = {
+	name = "Elaukos" # Made up Lusiones leader
+	dynasty = 42002
+	culture = celtiberian
+	religion = celtic_main
+	
+	416.1.1 = { # 360 BC, Made up
+		birth="yes"
+	}
+	496.1.1 = { # 280 BC
+		death="yes"
+	}
+}
+

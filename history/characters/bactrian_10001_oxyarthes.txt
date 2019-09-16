@@ -1,0 +1,38 @@
+# 100001-100100 for the Oxyarthes dynasty
+100001 = {
+	name = "Raoxshna"
+	dynasty = 10001 # Oxyarthes
+	religion = zoroastrian_main
+	culture = bactrian
+	#employer = 801 # Philip III
+	father = 100002
+	female = yes
+	
+	add_trait = ambitious
+	add_trait = deceitful
+	
+	433.1.1 = { # 343 BC
+		birth="yes"
+	}
+	449.1.1 = { # 327 BC
+		add_spouse = 802 # Alexander the Great
+	}
+	466.1.1 = { # 310 BC
+		death = {
+			death_reason = death_murder
+			killer = 2 # Cassander
+		}
+	}
+}
+100002 = {
+	name = "Hushyaothna" # Oxyartes, satrap of Paropamisia and father of Roxane
+	dynasty = 10001 # Oxyarthes
+	religion = zoroastrian_main
+	culture = bactrian
+	408.1.1 = { # 368 BC Made up
+		birth="yes"
+	}
+	471.1.1 = { # 305 BC Made up
+		death="yes"
+	}
+}

@@ -1,0 +1,4 @@
+# 80001-90000 for armenian characters
+	# 80001-80100 for the Yervanduni dynasty
+	# 80101-80200 for the Kamani dynasty
+	# 80201-80300 for the Amari dynasty

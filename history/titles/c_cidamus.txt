@@ -1,0 +1,9 @@
+412.1.1 = { # 363 BC
+	holder = 260501 # Gaesanus
+}
+458.1.1 = { # 318 BC
+	holder = 260502 # Gaesanus
+}
+476.1.1 = { # 300 BC
+	holder = 260503 # Iglaphus
+}

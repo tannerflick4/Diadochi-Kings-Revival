@@ -1,0 +1,9 @@
+402.1.1 = { # 374 BC
+	holder = 280003
+}
+427.1.1 = { # 349 BC
+	holder = 280001 # Laris of the Vindelici
+}
+477.1.1 = { # 299 BC
+	holder = 280002
+}

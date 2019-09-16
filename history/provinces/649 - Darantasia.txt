@@ -1,0 +1,17 @@
+# 649 - Darantasia
+
+# County Title
+title = c_darantasia
+
+# Settlements
+max_settlements = 3
+b_darantasia_darantasia = castle
+b_axima_darantasia = city
+b_obilonna_darantasia = castle
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

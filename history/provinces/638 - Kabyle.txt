@@ -1,0 +1,18 @@
+# 638 - Kabyle
+
+# County Title
+title = c_kabyle
+
+# Settlements
+max_settlements = 4
+b_kabyle_kabyle = castle
+b_marcellae_kabyle = castle
+b_tonzus_kabyle = city
+b_arzus_kabyle = temple
+
+# Misc
+culture = thracian
+religion = thracian_main
+
+# History
+# Can be filled when things change around the province

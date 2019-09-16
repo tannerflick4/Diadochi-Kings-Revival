@@ -1,0 +1,22 @@
+# 2901-3000 for the Dropidai dynasty
+2901 = {
+	name = "Kleitos" # Cleitus the Black
+	dynasty = 30 # Dropidai
+	religion = greek_main
+	culture = macedonian
+	
+	add_trait = ambitious
+	add_trait = honest
+	add_trait = brave
+	add_trait = envious
+	
+	410.1.1 = { # 375 BC
+		birth="yes"
+	}
+	448.6.1 = { # 328 BC
+		death = {
+			death_reason = death_murder
+			killer = 802 # Alexander the great
+		}
+	}
+}

@@ -1,0 +1,14 @@
+# 420701-420800 for the Oretani dynasty
+420701 = {
+	name = "Terkinos" # Made up Oretani leader
+	dynasty = 42008
+	culture = celtiberian
+	religion = celtic_main
+	
+	380.1.1 = { # 396 BC, Made up
+		birth="yes"
+	}
+	467.1.1 = { # 308 BC
+		death="yes"
+	}
+}

@@ -1,0 +1,21 @@
+# 374 - Thubunae
+
+# County Title
+title = c_thubunae
+
+# Settlements
+max_settlements = 5
+b_thubunae_thubunae = castle
+b_mesarfelta_thubunae = city
+b_zarai_thubunae = castle
+b_lamasba_thubunae = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_macri_thubunae
+
+# Misc
+culture = berber
+religion = berber_main
+
+# History
+# Can be filled when things change around the province

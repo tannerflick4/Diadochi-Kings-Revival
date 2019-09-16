@@ -1,0 +1,16 @@
+# 532 - Poratamata
+
+# County Title
+title = c_poratamata
+
+# Settlements
+max_settlements = 2
+b_poratamata_poratamata = castle
+b_vadasca_poratamata = castle
+
+# Misc
+culture = scythian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

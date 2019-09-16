@@ -1,0 +1,19 @@
+# 446 - Dedan
+
+# County Title
+title = c_dedan
+
+# Settlements
+max_settlements = 5
+b_dedan_dedan = castle
+b_egra_dedan = castle
+b_badais_dedan = temple
+b_akra_dedan = city
+#b_phoinikon_kome = city
+
+# Misc
+culture = nabataean
+religion = arabic_main
+
+# History
+# Can be filled when things change around the province

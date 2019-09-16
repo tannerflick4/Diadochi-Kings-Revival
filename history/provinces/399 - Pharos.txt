@@ -1,0 +1,18 @@
+# 399 - Pharos
+
+# County Title
+title = c_pharos
+
+# Settlements
+max_settlements = 4
+b_pharos_pharos = castle
+b_korkyra_melaina_pharos = city
+b_tragurium_pharos = city
+b_rider_pharos = castle
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,17 @@
+# 158 - Antiphrai
+
+# County Title
+title = c_antiphrai
+
+# Settlements
+max_settlements = 3
+b_antiphrai_antiphrai = castle
+b_pnigeus_antiphrai = temple
+b_derras_antiphrai = city
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

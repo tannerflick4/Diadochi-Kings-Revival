@@ -1,0 +1,23 @@
+# 322 - Terracina
+
+# County Title
+title = c_terracina # for example c_corinth
+
+# Settlements
+max_settlements = 6 # Should be reevaluated
+b_terracina_terracina = castle
+b_fundi_terracina = city
+b_ausona_terracina = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+#
+#
+#
+#
+
+# Misc
+culture = latin
+religion = roman_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,4 @@
+495.2.1 = {
+	holder = 1007 # Achaios
+	liege = e_syria
+}

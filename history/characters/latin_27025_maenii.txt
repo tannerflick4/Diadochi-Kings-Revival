@@ -1,0 +1,17 @@
+# 172401-172500 for the Maenii dynasty
+172401 = {
+	name = "Gaius" # Maenius
+	dynasty = 17025 # Maenii
+	religion = roman_main
+	culture = latin
+	
+	add_trait = tough_soldier
+	add_trait = proud
+	
+	382.1.1 = { # 394 BC Made Up
+		birth="yes"
+	}
+	475.1.1 = { # 301 BC Made Up
+		death="yes"
+	}
+}

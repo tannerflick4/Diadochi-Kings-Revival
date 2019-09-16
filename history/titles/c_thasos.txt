@@ -1,0 +1,25 @@
+405.1.1 = { # 371 BC
+	holder = 53501 # Euboulos
+	liege = k_r_athens
+}
+436.1.1 = { # 340 BC
+	holder = 803 # Philip II
+	liege = e_macedonia
+}
+440.10.1 = { # 336 BC
+	holder = 802 # Alexander
+}
+453.6.10 = { # 323 BC
+	holder = 30001 # Lysimachus
+	liege = k_s_thrace
+}
+467.1.1 = { # 309 BC
+	liege = k_odrysia
+}
+495.2.1 = { # 281 BC
+	holder = 603 # Arsinoe II
+	liege = k_macedon
+}
+495.8.1 = { # 281 BC
+	holder = 604 # Ptolemaios Keraunos
+}

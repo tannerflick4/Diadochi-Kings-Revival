@@ -1,0 +1,9 @@
+406.1.1 = { # 370 BC
+	holder = 52504 # Kleon
+}
+426.1.1 = { # 350 BC, Made up
+	holder = 52501 # Paramonos
+}
+465.1.1 = {
+	holder = 52503 # Paramonos 
+}

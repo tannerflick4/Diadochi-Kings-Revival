@@ -1,0 +1,16 @@
+# 1205 - Miaccum
+
+# County Title
+title = c_miaccum
+
+# Settlements
+max_settlements = 2
+b_miaccum_miaccum = castle
+#b_mantua_miaccum = castle
+
+# Misc
+culture = celtiberian
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,21 @@
+# 207 - Ani Kamah
+
+# County Title
+title = c_ani_kamah
+
+# Settlements
+max_settlements = 5
+b_ani_kamah = castle
+b_palios_ani_kamah = temple
+b_anzita_ani_kamah = city
+b_mertikerton_ani_kamah = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_chosomachon_ani_kamah = castle
+
+# Misc
+culture = armenian
+religion = armenian_main
+
+# History
+# Can be filled when things change around the province

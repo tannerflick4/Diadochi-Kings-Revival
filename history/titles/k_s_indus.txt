@@ -1,0 +1,8 @@
+447.7.1 = { # 329 BC
+	holder = 1501 # Peithon Agenoros
+	liege="e_macedonia"
+}
+456.1.1 = {
+	holder = 0
+	liege = 0
+}

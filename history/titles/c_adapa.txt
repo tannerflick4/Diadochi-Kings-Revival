@@ -1,0 +1,7 @@
+416.1.1 = { # 360 BC
+	holder = 340102 # Scyles
+	liege = k_argimpasa
+}
+445.1.1 = { # 331 BC
+	holder = 340101 # Palacus
+}

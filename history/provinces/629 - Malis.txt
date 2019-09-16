@@ -1,0 +1,17 @@
+# 629 - Malis
+
+# County Title
+title = c_malis
+
+# Settlements
+max_settlements = 3
+b_trachis_malis = castle
+b_chaleion_malis = temple
+b_naupactus_malis = city
+
+# Misc
+culture = doric
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

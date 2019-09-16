@@ -1,0 +1,14 @@
+# 390501-390600 for the Edetani dynasty
+390501 = {
+	name = "Lagunas" # Made up Edetani leader
+	dynasty = 39006
+	culture = iberian
+	religion = iberian_main
+	
+	382.1.1 = { # 394 BC, Made up
+		birth="yes"
+	}
+	465.1.1 = { # 311 BC
+		death="yes"
+	}
+}

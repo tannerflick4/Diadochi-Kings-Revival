@@ -1,0 +1,49 @@
+# 170001-170100 for the Sulpicii dynasty
+170001 = {
+	name = "Gaius" # Sulpicius Longus
+	dynasty = 17001 # Sulpicii
+	religion = roman_main
+	culture = latin
+	423.1.1 = { # 353 BC Made up
+		birth="yes"
+	}
+	473.1.1 = { # 303 BC Made up
+		death="yes"
+	}
+}
+170002 = {
+	name = "Publius" # Sulpicius Saverrio
+	dynasty = 17001 # Sulpicii
+	religion = roman_main
+	culture = latin
+	443.1.1 = { # 333 BC Made up
+		birth="yes"
+	}
+	509.1.1 = { # 267 BC Made up
+		death="yes"
+	}
+}
+170003 = {
+	name = "Gaius" # Sulpicius Peticus
+	dynasty = 17001 # Sulpicii
+	religion = roman_main
+	culture = latin
+	355.1.1 = { # 421 BC Made Up
+		birth="yes"
+	}
+	434.1.1 = { # 342 BC Made Up
+		death="yes"
+	}
+}
+170004 = {
+	name = "Servius" # Sulpicius Camerinus Rufus
+	dynasty = 17001 # Sulpicii
+	religion = roman_main
+	culture = latin
+	370.1.1 = { # 406 BC Made Up
+		birth="yes"
+	}
+	462.1.1 = { # 314 BC Made Up
+		death="yes"
+	}
+}

@@ -1,0 +1,215 @@
+# Geographical regions
+# Regions can be declared with one or more of the following fields:
+#	duchies = { }, takes duchy title names declared in landed_titles.txt
+#	counties = { }, takes county title names declared in landed_titles.txt
+#	provinces = { }, takes province id numbers declared in /history/provinces
+#	regions = { }, a region can also include other regions, however the subregions needs to be declared before the parent region. 
+#		E.g. If the region world_europe contains the region world_europe_west then world_europe_west needs to be declared as a region before (i.e. higher up in this file) world_europe.
+
+###########################################################################
+# World Regions
+#	These groups are mutually exclusive on the same tier
+###########################################################################
+
+world_europe_west_brittania = {
+	duchies = {
+		#NOTE NEEDS CHANGED WHEN BRITAIN CODED
+		d_gallia_transalpina d_gallia_inter_fluvio d_gallia_lugdunensis d_helvetia d_raetia d_alpes_cottiae d_alpes_poeninae d_alpes_vennonae d_alpes_raetica
+	}
+}
+world_europe_west_germania = {
+	duchies = {
+		#NOTE NEEDS CHANGED WHEN GERMANIA CODED
+		d_gallia_transalpina d_gallia_inter_fluvio d_gallia_lugdunensis d_helvetia d_raetia d_alpes_cottiae d_alpes_poeninae d_alpes_vennonae d_alpes_raetica
+	}
+}
+world_europe_west_francia = {
+	duchies = {
+		#NOTE NEEDS CHANGED WHEN GAUL CODED
+		d_gallia_transalpina d_gallia_inter_fluvio d_gallia_lugdunensis d_helvetia d_raetia d_alpes_cottiae d_alpes_poeninae d_alpes_vennonae d_alpes_raetica
+	}
+}
+world_europe_west_iberia = {
+	duchies = {
+		#Kingdom of Iberia
+		d_sicoria d_cessetania d_laetania d_edetania d_contestania d_bastetania d_baliares 
+		#k_turdetania
+		d_tartessos d_turdulia d_turdetania d_bastulia 
+		#k_hispa
+		d_vasconia d_cantabria d_vaccaea d_celtiberia d_carpetania d_oretania 
+		#k_lusitania
+		d_vettonia d_lusitania d_celticia d_cuneus 
+		#k_gallaecia
+		d_callaecia d_asturia 
+	}
+}
+world_europe_west = {
+	regions = {
+		world_europe_west_iberia world_europe_west_francia 
+	}
+}
+world_europe_north = {
+	duchies = {
+		#NOTE NEEDS CHANGED WHEN GERMANIA/GAUL/BRITAIN CODED
+		d_gallia_transalpina d_gallia_inter_fluvio d_gallia_lugdunensis d_helvetia d_raetia d_alpes_cottiae d_alpes_poeninae d_alpes_vennonae d_alpes_raetica
+	}
+}
+world_europe_south_east = { 
+	duchies = {
+		#Greece
+		d_peloponnese d_attike d_aetolia d_crete d_euboia d_cyclades d_ionian_islands d_thessaly d_chalcidice 
+		#Epirus
+		d_epirus 
+		#Macedonia
+		d_lowermacedon d_uppermacedon 
+		#Illyria
+		d_dardania d_dalmatia d_triballia d_paeonia d_epidamnia 
+		#Odrysia
+		d_mikra_skythia d_odrysia d_moesia d_rhodope d_propontis 
+	}
+}
+world_europe_south_italy = { 
+	duchies = {
+		d_campania d_samnium d_picenum d_gallia_transpadana d_venetia
+		d_latium d_umbria d_etruria d_liguria d_gallia_cispadana
+		#Sicily
+		d_sicani d_sicels d_bruttium d_lucania d_apulia d_calabria 
+	}
+}
+world_europe_south = {
+	regions = {
+		world_europe_south_east world_europe_south_italy
+	}
+}
+world_europe_east = {
+	duchies = {
+		#k_pannonia
+		d_liburnia d_pelso d_noricum d_segestica d_sirmium 
+	}
+}
+world_asia_minor = {
+	duchies = {
+		#Lydia
+		d_mysia d_lydia d_caria d_lycia d_pisidia d_pamphylia d_phrygia d_bithynia d_paphlagonia 
+		#Cilcia
+		d_cilicia 
+		#Cappadocia
+		d_cappadocia d_pontus d_lycaonia 
+	}
+}
+world_middle_east_jerusalem = {
+	duchies = {
+		#Levant
+		d_syria d_phoenicia d_israel d_judea 
+	}
+}
+world_middle_east_arabia = {
+	duchies = {
+		#Arabia
+		d_ma_in d_himyar d_qataban d_saba d_hadramaut 
+		#Maka
+		d_majan d_gerrha 
+		#Nabatae
+		d_sinai d_nabataea d_lihyan d_bostra 
+	}
+}
+world_india_deccan = {
+	duchies = {
+		d_lanka d_sinhala d_dravida d_chola d_pandya d_kerala d_mushika 
+		d_tulunga d_kishkindha d_gomanta d_konkana 
+		d_odra d_kalinga d_telinga d_andhraka 
+	}
+}
+world_india_bengal = {
+	duchies = {
+		d_vanga d_vardhamana d_utkala d_maghada d_suparsa d_nishada 
+		d_videha d_malla d_kimpurusha 
+	}
+}
+world_india_rajastan = {
+	duchies = {
+		d_anarta d_saraswata d_surashtra d_panchala d_kuru d_surasena d_nishkuta d_kasmira d_uttara_jyotisha d_gandhara
+		d_sivi d_madra d_trigarta d_sindhu d_yaudheya d_sudra d_abhira d_surparaka d_anupa d_dandaka d_heheya
+		d_matsya d_salwa d_vakataka d_kekala d_taitilaka d_malava d_kunti 
+		d_karusha d_dasarna d_mekala 
+	}
+}
+world_persia = {
+	duchies = {
+		#Media
+		d_paytakaran d_matiene d_media d_hyrcania d_parthia 
+		#Persia
+		d_susa d_persis d_carmana 
+		#Ariana
+		d_gedrosia d_drangiana d_arachosia
+		#Bactria
+		d_bactria d_margiane d_sogdiana d_aria 
+	}
+}
+world_africa_north = {
+	duchies = {
+	d_garama d_tripolitania_inferior d_dedris d_baracum d_zella d_zuila d_kawar d_gat 
+	d_hibis d_ammon d_augila d_oasis_parva d_koufra 
+	d_delta d_memphis d_lykopolis d_thebes d_aigyptos_aktaios 
+	d_cyrene
+	d_elymians d_corsica d_sardinia d_zeugitana d_byzacena d_tripolitania d_hipponensis 
+	d_atlas d_aurasium d_ancorarisis d_mazisis 
+	d_bavaresis d_maurusis d_tingitana d_volubisis 
+	}
+}
+world_africa_west = {
+	duchies = {
+	d_garama d_tripolitania_inferior d_dedris d_baracum d_zella d_zuila d_kawar d_gat 
+	}
+}
+world_africa_east = {
+	duchies = {
+		d_delta d_memphis d_lykopolis d_thebes d_aigyptos_aktaios 
+		d_pselchis d_meroe 
+	}
+}
+world_africa = {
+	regions = {
+		world_africa_north
+	}
+}
+world_steppe_tarim = {
+	duchies = {
+		d_kashgaria d_khotan d_turfan d_urumchi 
+	}
+}
+world_steppe_west = {
+	duchies = {
+		d_katipa d_bagaporata d_syavaporata d_katipanti d_kissarlewle d_zevaka d_blamizda 
+		d_kusdvara d_leipca d_lipsoxais d_alud d_argimpasa 
+		d_kissarun d_paradatapa d_syavakuspa d_hvarzkutipa 
+	}
+}
+world_steppe_east = {
+	duchies = {
+		d_colaxais d_dakus d_oirpata d_dargaku d_pantilo d_gaumizda d_paradatab 
+		d_hvarzgasti d_zarkarun d_borun d_artabagapa d_narapa d_sautaska 
+		d_axsainabaladapa d_aspamesakapa d_padakus d_tabititope d_tamajara 
+		d_dsargalapa d_ugrakati d_gitab d_hvargaosa 
+	}
+}
+world_steppe = {
+	regions = {
+		world_steppe_west world_steppe_east world_steppe_tarim
+	}
+}
+world_europe = {
+	regions = {
+		world_europe_west world_europe_south world_europe_east
+	}
+}
+world_middle_east = {
+	regions = {
+		world_middle_east_arabia world_middle_east_jerusalem
+	}
+}
+world_india = {
+	regions = {
+		world_india_deccan world_india_bengal world_india_rajastan
+	}
+}

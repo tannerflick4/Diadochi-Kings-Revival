@@ -1,0 +1,21 @@
+# 69 - Delminium
+
+# County Title
+title = c_delminium # for example c_corinth
+
+# Settlements
+max_settlements = 5
+b_delminium_delminium = castle
+b_aequum_delminium = city
+b_pelva_delminium = temple
+b_salvium_delminium = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_osinium_delminium
+
+# Misc
+culture = illyrian
+religion = illyrian_main
+
+# History
+# Can be filled when things change around the province

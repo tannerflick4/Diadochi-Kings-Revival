@@ -1,0 +1,40 @@
+# 130001-130101 for the Mithridates dynasty
+130001 = {
+	name = "Mithridates" # Mithridates of Cius
+	dynasty = 13001 # Mithridates
+	religion = zoroastrian_main
+	culture = persian
+	
+	add_trait = deceitful
+	
+	390.1.1 = { # 386 BC
+		birth="yes"
+	}
+	474.1.1 = { # 302 BC
+		death = {
+			death_reason = death_murder
+			killer = 401 # Antigonus
+		}
+	}
+}
+130002 = {
+	name = "Mithridates" # Mithridates, first king of Pontus
+	dynasty = 13001 # Mithridates
+	religion = zoroastrian_main
+	culture = persian
+	father = 130001
+	
+	martial = 10 # Needed to have Pontus survive against Cappadocian rushing
+	
+	add_trait = tough_soldier	
+	
+	441.1.1 = { # 335 BC Made up
+		birth="yes"
+	}
+	495.1.1 = { # 281 BC
+		give_nickname = nick_ktistes
+	}
+	510.1.1 = { # 266 BC
+		death="yes"
+	}
+}

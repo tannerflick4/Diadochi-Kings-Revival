@@ -1,0 +1,1940 @@
+egyptian_religion = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade # Should be changed or removed entirely
+	playable = yes
+	
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0 # never try to convert
+	
+	kemetic = {
+		graphical_culture = westerngfx
+
+		icon = 53
+		color = { 0.8 0.8 0.6 }
+		heresy_icon = 53
+		
+		crusade_name = "CRUSADE"
+		scripture_name = THE_BOOK_OF_THE_DEAD
+		god_names = {
+			GOD_AMUN GOD_HORUS GOD_MAAT GOD_ISIS GOD_OSIRIS GOD_RA GOD_SET GOD_THOTH
+		}
+		
+		can_grant_divorce = yes
+		can_grant_claim = yes
+		can_call_crusade = no
+		
+		female_temple_holders = yes
+		max_consorts = 3
+		
+		#intermarry = kemetic	
+		#intermarry = atenist
+		
+		intermarry = berber_main
+		
+		intermarry = illyrian_main
+		
+		intermarry = thracian_main
+		intermarry = zalmoxism
+		
+		intermarry = celtic_main
+		
+		intermarry = punic_main
+		intermarry = canaanite_main	
+		
+		intermarry = zoroastrian_main
+		intermarry = zurvanism
+		intermarry = scythian_main
+		intermarry = hinduism_main
+		intermarry = armenian_main	
+		
+		#intermarry = judaism_main	
+		
+		intermarry = jainism_main
+		intermarry = buddhism_main
+		
+		intermarry = georgian_main	
+		
+		intermarry = anatolian_main
+		intermarry = phrygian_main
+		
+		intermarry = marduk_cult	
+		
+		intermarry = arabic_main
+		
+		intermarry = greek_main
+		intermarry = roman_main
+		intermarry = pontic_main
+								
+		#intermarry = etruscan_main	
+						
+		intermarry = dravidian_main
+	}
+	atenist = {		
+		graphical_culture = westerngfx
+		parent = kemetic
+
+		icon = 53
+		color = { 0.9 0.9 0.6 }
+		
+		crusade_name = "CRUSADE"
+		scripture_name = GREAT_HYMN_TO_ATEN
+		god_names = {
+			GOD_ATEN
+		}
+		
+		can_grant_divorce = yes
+		can_grant_claim = yes
+		can_call_crusade = no
+		
+		female_temple_holders = yes
+		max_consorts = 3
+		
+		#intermarry = kemetic	
+		#intermarry = atenist
+		
+		intermarry = berber_main
+		
+		intermarry = illyrian_main
+		
+		intermarry = thracian_main
+		intermarry = zalmoxism
+		
+		intermarry = celtic_main
+		
+		intermarry = punic_main
+		intermarry = canaanite_main	
+		
+		intermarry = zoroastrian_main
+		intermarry = zurvanism
+		intermarry = scythian_main
+		intermarry = hinduism_main
+		intermarry = armenian_main	
+		
+		#intermarry = judaism_main	
+		
+		intermarry = jainism_main
+		intermarry = buddhism_main
+		
+		intermarry = georgian_main	
+		
+		intermarry = anatolian_main
+		intermarry = phrygian_main
+		
+		intermarry = marduk_cult	
+		
+		intermarry = arabic_main
+		
+		intermarry = greek_main
+		intermarry = roman_main
+		intermarry = pontic_main
+								
+		#intermarry = etruscan_main	
+						
+		intermarry = dravidian_main
+	}
+}
+north_african_religion = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade # Should be changed or removed entirely
+	playable = yes
+	
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0 # never try to convert
+	
+	berber_main = {
+		graphical_culture = westerngfx
+
+		icon = 5
+		color = { 0.7 0.5 0 }
+		
+		crusade_name = "CRUSADE"
+		scripture_name = PLACEHOLDER
+		god_names = {
+			GOD_NEITH GOD_AMENT GOD_AMUN GOD_TANIT GOD_GURZIL GOD_IFRI
+		}
+		
+		can_grant_divorce = yes
+		can_grant_claim = yes
+		can_call_crusade = no
+		#allow_looting = yes
+		#peace_prestige_loss = yes # Lose Prestige while at peace
+		raised_vassal_opinion_loss = no
+		
+		max_consorts = 3
+		
+		intermarry = kemetic	
+		intermarry = atenist
+		
+		#intermarry = berber_main
+		
+		intermarry = illyrian_main
+		
+		intermarry = thracian_main
+		intermarry = zalmoxism
+		
+		intermarry = celtic_main
+		
+		intermarry = punic_main
+		intermarry = canaanite_main	
+		
+		intermarry = zoroastrian_main
+		intermarry = zurvanism
+		intermarry = scythian_main
+		intermarry = hinduism_main
+		intermarry = armenian_main	
+		
+		#intermarry = judaism_main	
+		
+		intermarry = jainism_main
+		intermarry = buddhism_main
+		
+		intermarry = georgian_main	
+		
+		intermarry = anatolian_main
+		intermarry = phrygian_main
+		
+		intermarry = marduk_cult	
+		
+		intermarry = arabic_main
+		
+		intermarry = greek_main
+		intermarry = roman_main
+		intermarry = pontic_main
+								
+		#intermarry = etruscan_main	
+						
+		intermarry = dravidian_main
+	}
+}
+illyrian_religion = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade # Should be changed or removed entirely
+	playable = yes
+	
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0 # never try to convert
+	
+	illyrian_main = {
+		graphical_culture = westerngfx
+
+		icon = 5
+		color = { 0.9 0.7 0 }
+		
+		crusade_name = "CRUSADE"
+		scripture_name = PLACEHOLDER
+		god_names = {
+			GOD_EIA GOD_MALESOCUS GOD_BORIA GOD_IRIA
+		}
+		
+		can_grant_divorce = yes
+		can_grant_claim = yes
+		can_call_crusade = no
+		#allow_looting = yes
+		#peace_prestige_loss = yes # Lose Prestige while at peace
+		raised_vassal_opinion_loss = no
+		
+		max_consorts = 3
+		
+		intermarry = kemetic	
+		intermarry = atenist
+		
+		intermarry = berber_main
+		
+		#intermarry = illyrian_main
+		
+		intermarry = thracian_main
+		intermarry = zalmoxism
+		
+		intermarry = celtic_main
+		
+		intermarry = punic_main
+		intermarry = canaanite_main	
+		
+		intermarry = zoroastrian_main
+		intermarry = zurvanism
+		intermarry = scythian_main
+		intermarry = hinduism_main
+		intermarry = armenian_main	
+		
+		#intermarry = judaism_main	
+		
+		intermarry = jainism_main
+		intermarry = buddhism_main
+		
+		intermarry = georgian_main	
+		
+		intermarry = anatolian_main
+		intermarry = phrygian_main
+		
+		intermarry = marduk_cult	
+		
+		intermarry = arabic_main
+		
+		intermarry = greek_main
+		intermarry = roman_main
+		intermarry = pontic_main
+								
+		#intermarry = etruscan_main	
+						
+		intermarry = dravidian_main
+	}
+}
+daco_thracian_religion = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade # Should be changed or removed entirely
+	playable = yes
+	
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0 # never try to convert
+	
+	thracian_main = {
+		graphical_culture = westerngfx
+
+		icon = 5
+		color = { 0.8 0.4 0.1 }
+		
+		crusade_name = "CRUSADE"
+		scripture_name = PLACEHOLDER
+		god_names = {
+			GOD_SABAZIOS GOD_ZIBELTHIURDOS GOD_KOTYS GOD_BENDIS GOD_ZALMOXIS
+		}
+		
+		can_grant_divorce = yes
+		can_grant_claim = yes
+		can_call_crusade = no
+		#allow_looting = yes
+		#peace_prestige_loss = yes # Lose Prestige while at peace
+		raised_vassal_opinion_loss = no
+		
+		max_consorts = 3
+		
+		intermarry = kemetic	
+		intermarry = atenist
+		
+		intermarry = berber_main
+		
+		intermarry = illyrian_main
+		
+		#intermarry = thracian_main
+		#intermarry = zalmoxism
+		
+		intermarry = celtic_main
+		
+		intermarry = punic_main
+		intermarry = canaanite_main	
+		
+		intermarry = zoroastrian_main
+		intermarry = zurvanism
+		intermarry = scythian_main
+		intermarry = hinduism_main
+		intermarry = armenian_main	
+		
+		#intermarry = judaism_main	
+		
+		intermarry = jainism_main
+		intermarry = buddhism_main
+		
+		intermarry = georgian_main	
+		
+		intermarry = anatolian_main
+		intermarry = phrygian_main
+		
+		intermarry = marduk_cult	
+		
+		intermarry = arabic_main
+		
+		intermarry = greek_main
+		intermarry = roman_main
+		intermarry = pontic_main
+								
+		#intermarry = etruscan_main	
+						
+		intermarry = dravidian_main
+	}
+	zalmoxism = {
+		graphical_culture = westerngfx
+
+		icon = 5
+		color = { 0.1 0.5 0.8 }
+		
+		crusade_name = "CRUSADE"
+		scripture_name = PLACEHOLDER
+		god_names = {
+			GOD_ZALMOXIS
+		}
+		
+		can_grant_divorce = yes
+		can_grant_claim = yes
+		can_call_crusade = no
+		#allow_looting = yes
+		#peace_prestige_loss = yes # Lose Prestige while at peace
+		raised_vassal_opinion_loss = no
+		
+		max_consorts = 3
+		
+		intermarry = kemetic	
+		intermarry = atenist
+		
+		intermarry = berber_main
+		
+		intermarry = illyrian_main
+		
+		#intermarry = thracian_main
+		#intermarry = zalmoxism
+		
+		intermarry = celtic_main
+		
+		intermarry = punic_main
+		intermarry = canaanite_main	
+		
+		intermarry = zoroastrian_main
+		intermarry = zurvanism
+		intermarry = scythian_main
+		intermarry = hinduism_main
+		intermarry = armenian_main	
+		
+		#intermarry = judaism_main	
+		
+		intermarry = jainism_main
+		intermarry = buddhism_main
+		
+		intermarry = georgian_main	
+		
+		intermarry = anatolian_main
+		intermarry = phrygian_main
+		
+		intermarry = marduk_cult	
+		
+		intermarry = arabic_main
+		
+		intermarry = greek_main
+		intermarry = roman_main
+		intermarry = pontic_main
+								
+		#intermarry = etruscan_main	
+						
+		intermarry = dravidian_main
+	}
+}
+celtic_religion = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade # Should be changed or removed entirely
+	playable = yes
+	
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0 # never try to convert
+	
+	celtic_main = {
+		graphical_culture = westerngfx
+
+		icon = 67
+		color = { 0.2 0.6 0.2 }
+		
+		crusade_name = "CRUSADE"
+		scripture_name = PLACEHOLDER
+		god_names = {
+			GOD_AMBISAGRUS GOD_ANEXTIOMARUS GOD_ANKOU GOD_CERNUNNOS GOD_LENUS GOD_LEUCETIOS GOD_LUGUS GOD_RUDIANOS GOD_AGRONA GOD_DAMARA GOD_SULIS
+		}
+		
+		can_grant_divorce = yes
+		can_grant_claim = yes
+		can_call_crusade = no
+		#allow_looting = yes
+		#peace_prestige_loss = yes # Lose Prestige while at peace
+		raised_vassal_opinion_loss = no
+		
+		max_consorts = 3
+		
+		intermarry = kemetic	
+		intermarry = atenist
+		
+		intermarry = berber_main
+		
+		intermarry = illyrian_main
+		
+		intermarry = thracian_main
+		intermarry = zalmoxism
+		
+		#intermarry = celtic_main
+		
+		intermarry = punic_main
+		intermarry = canaanite_main	
+		
+		intermarry = zoroastrian_main
+		intermarry = zurvanism
+		intermarry = scythian_main
+		intermarry = hinduism_main
+		intermarry = armenian_main	
+		
+		#intermarry = judaism_main	
+		
+		intermarry = jainism_main
+		intermarry = buddhism_main
+		
+		intermarry = georgian_main	
+		
+		intermarry = anatolian_main
+		intermarry = phrygian_main
+		
+		intermarry = marduk_cult	
+		
+		intermarry = arabic_main
+		
+		intermarry = greek_main
+		intermarry = roman_main
+		intermarry = pontic_main
+								
+		#intermarry = etruscan_main	
+						
+		intermarry = dravidian_main
+	}
+}
+punic_religion = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade # Should be changed or removed entirely
+	playable = yes
+	
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0 # never try to convert
+	
+	punic_main = {
+		graphical_culture = westerngfx
+
+		icon = 5
+		color = { 0.1 0.7 0.1 }
+		
+		crusade_name = "CRUSADE"
+		scripture_name = PLACEHOLDER
+		god_names = {
+			GOD_BAALHAMMON GOD_TANIT
+		}
+		
+		can_grant_divorce = yes
+		can_grant_claim = yes
+		can_call_crusade = no
+		
+		max_consorts = 3
+		
+		intermarry = kemetic		
+		intermarry = berber_main
+		
+		intermarry = kemetic	
+		intermarry = atenist
+		
+		intermarry = berber_main
+		
+		intermarry = illyrian_main
+		
+		intermarry = thracian_main
+		intermarry = zalmoxism
+		
+		intermarry = celtic_main
+		
+		#intermarry = punic_main
+		#intermarry = canaanite_main	
+		
+		intermarry = zoroastrian_main
+		intermarry = zurvanism
+		intermarry = scythian_main
+		intermarry = hinduism_main
+		intermarry = armenian_main	
+		
+		#intermarry = judaism_main	
+		
+		intermarry = jainism_main
+		intermarry = buddhism_main
+		
+		intermarry = georgian_main	
+		
+		intermarry = anatolian_main
+		intermarry = phrygian_main
+		
+		intermarry = marduk_cult	
+		
+		intermarry = arabic_main
+		
+		intermarry = greek_main
+		intermarry = roman_main
+		intermarry = pontic_main
+								
+		#intermarry = etruscan_main	
+						
+		intermarry = dravidian_main
+	}
+	canaanite_main = {
+		graphical_culture = westerngfx
+
+		icon = 5
+		color = { 0.1 0.7 0.1 }
+		
+		crusade_name = "CRUSADE"
+		scripture_name = PLACEHOLDER
+		god_names = {
+			GOD_EL GOD_BAAL GOD_DAGON GOD_YAHWEH GOD_MELQART GOD_SHAPASH
+		}
+		
+		can_grant_divorce = yes
+		can_grant_claim = yes
+		can_call_crusade = no
+		
+		max_consorts = 3
+		
+		intermarry = kemetic	
+		intermarry = atenist
+		
+		intermarry = berber_main
+		
+		intermarry = illyrian_main
+		
+		intermarry = thracian_main
+		intermarry = zalmoxism
+		
+		intermarry = celtic_main
+		
+		#intermarry = punic_main
+		#intermarry = canaanite_main	
+		
+		intermarry = zoroastrian_main
+		intermarry = zurvanism
+		intermarry = scythian_main
+		intermarry = hinduism_main
+		intermarry = armenian_main	
+		
+		#intermarry = judaism_main	
+		
+		intermarry = jainism_main
+		intermarry = buddhism_main
+		
+		intermarry = georgian_main	
+		
+		intermarry = anatolian_main
+		intermarry = phrygian_main
+		
+		intermarry = marduk_cult	
+		
+		intermarry = arabic_main
+		
+		intermarry = greek_main
+		intermarry = roman_main
+		intermarry = pontic_main
+								
+		#intermarry = etruscan_main	
+						
+		intermarry = dravidian_main
+	}
+}
+indo_iranian_religion = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade # Should be changed or removed entirely
+	playable = yes
+	
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0 # never try to convert
+
+	zoroastrian_main = {
+		graphical_culture = westerngfx
+		icon = 10
+		color = { 0.3 0.6 0.3 }
+		crusade_name = "CRUSADE"
+		scripture_name = THE_GATHAS
+		god_names = {
+			GOD_AHURA_MAZDA GOD_AMESHA_SPENTA GOD_MITHRA GOD_ZURVAN
+		}
+		can_grant_divorce = yes
+		can_call_crusade = no
+		priests_can_marry = yes
+		
+		max_consorts = 3
+		
+		intermarry = kemetic	
+		intermarry = atenist
+		
+		intermarry = berber_main
+		
+		intermarry = illyrian_main
+		
+		intermarry = thracian_main
+		intermarry = zalmoxism
+		
+		intermarry = celtic_main
+		
+		intermarry = punic_main
+		intermarry = canaanite_main	
+		
+		#intermarry = zoroastrian_main
+		#intermarry = zurvanism
+		#intermarry = scythian_main
+		#intermarry = hinduism_main
+		#intermarry = armenian_main	
+		
+		#intermarry = judaism_main	
+		
+		intermarry = jainism_main
+		intermarry = buddhism_main
+		
+		intermarry = georgian_main	
+		
+		intermarry = anatolian_main
+		intermarry = phrygian_main
+		
+		intermarry = marduk_cult	
+		
+		intermarry = arabic_main
+		
+		intermarry = greek_main
+		intermarry = roman_main
+		intermarry = pontic_main
+								
+		#intermarry = etruscan_main	
+						
+		intermarry = dravidian_main
+	}
+	zurvanism = {
+		graphical_culture = westerngfx
+
+		icon = 11
+		color = { 0 0.8 0 }
+		crusade_name = "CRUSADE"
+		scripture_name = THE_GATHAS
+		god_names = {
+			GOD_ZURVAN GOD_AHURA_MAZDA GOD_ANGRA_MAINYU
+		}
+		can_grant_divorce = yes
+		can_call_crusade = no
+		priests_can_marry = yes
+		
+		max_consorts = 3
+		
+		intermarry = kemetic	
+		intermarry = atenist
+		
+		intermarry = berber_main
+		
+		intermarry = illyrian_main
+		
+		intermarry = thracian_main
+		intermarry = zalmoxism
+		
+		intermarry = celtic_main
+		
+		intermarry = punic_main
+		intermarry = canaanite_main	
+		
+		#intermarry = zoroastrian_main
+		#intermarry = zurvanism
+		#intermarry = scythian_main
+		#intermarry = hinduism_main
+		#intermarry = armenian_main	
+		
+		#intermarry = judaism_main	
+		
+		intermarry = jainism_main
+		intermarry = buddhism_main
+		
+		intermarry = georgian_main	
+		
+		intermarry = anatolian_main
+		intermarry = phrygian_main
+		
+		intermarry = marduk_cult	
+		
+		intermarry = arabic_main
+		
+		intermarry = greek_main
+		intermarry = roman_main
+		intermarry = pontic_main
+								
+		#intermarry = etruscan_main	
+						
+		intermarry = dravidian_main
+	}
+	scythian_main = {
+		graphical_culture = westerngfx
+		icon = 5
+		color = { 0.3 0.8 0.3 }
+		crusade_name = "CRUSADE"
+		scripture_name = PLACEHOLDER
+		god_names = {
+			GOD_TABITI GOD_PAPAIOS GOD_API GOD_OITOSYROS GOD_ARGIMPASA GOD_THAGIMASIDAS GOD_ARES
+		}
+		can_grant_divorce = yes
+		can_call_crusade = no
+		priests_can_marry = no
+		#allow_looting = yes
+		#peace_prestige_loss = yes # Lose Prestige while at peace
+		raised_vassal_opinion_loss = no
+		defensive_attrition = yes
+		
+		max_consorts = 3
+		
+		intermarry = kemetic	
+		intermarry = atenist
+		
+		intermarry = berber_main
+		
+		intermarry = illyrian_main
+		
+		intermarry = thracian_main
+		intermarry = zalmoxism
+		
+		intermarry = celtic_main
+		
+		intermarry = punic_main
+		intermarry = canaanite_main	
+		
+		#intermarry = zoroastrian_main
+		#intermarry = zurvanism
+		#intermarry = scythian_main
+		#intermarry = hinduism_main
+		#intermarry = armenian_main	
+		
+		#intermarry = judaism_main	
+		
+		intermarry = jainism_main
+		intermarry = buddhism_main
+		
+		intermarry = georgian_main	
+		
+		intermarry = anatolian_main
+		intermarry = phrygian_main
+		
+		intermarry = marduk_cult	
+		
+		intermarry = arabic_main
+		
+		intermarry = greek_main
+		intermarry = roman_main
+		intermarry = pontic_main
+								
+		#intermarry = etruscan_main	
+						
+		intermarry = dravidian_main
+	}
+	hinduism_main = {
+		graphical_culture = westerngfx
+		icon = 55
+		color = { 0.4 0.9 0.0 }
+		crusade_name = "CRUSADE"
+		scripture_name = THE_VEDAS
+		god_names = {
+			GOD_INDRA GOD_AGNI GOD_SOMA GOD_MITRA GOD_USHAS
+		}
+		can_grant_divorce = yes
+		can_call_crusade = no
+		priests_can_marry = yes
+		
+		max_consorts = 3
+		
+		intermarry = kemetic	
+		intermarry = atenist
+		
+		intermarry = berber_main
+		
+		intermarry = illyrian_main
+		
+		intermarry = thracian_main
+		intermarry = zalmoxism
+		
+		intermarry = celtic_main
+		
+		intermarry = punic_main
+		intermarry = canaanite_main	
+		
+		#intermarry = zoroastrian_main
+		#intermarry = zurvanism
+		#intermarry = scythian_main
+		#intermarry = hinduism_main
+		#intermarry = armenian_main	
+		
+		#intermarry = judaism_main	
+		
+		intermarry = jainism_main
+		intermarry = buddhism_main
+		
+		intermarry = georgian_main	
+		
+		intermarry = anatolian_main
+		intermarry = phrygian_main
+		
+		intermarry = marduk_cult	
+		
+		intermarry = arabic_main
+		
+		intermarry = greek_main
+		intermarry = roman_main
+		intermarry = pontic_main
+								
+		#intermarry = etruscan_main	
+						
+		intermarry = dravidian_main
+	}
+	armenian_main = {
+		graphical_culture = westerngfx
+		icon = 5
+		color = { 0.6 0.0 0.0 }
+		crusade_name = "CRUSADE"
+		scripture_name = PLACEHOLDER
+		god_names = {
+			GOD_ARAMAZD GOD_ANAHIT GOD_VAHAGN GOD_ASTGHIK GOD_NANE GOD_ARA GOD_MIHR GOD_TIR GOD_AMANOR GOD_TSOVINAR GOD_SPANDARAMET GOD_HAYK GOD_ARAY GOD_BARSAMIN
+		}
+		can_grant_divorce = yes
+		can_call_crusade = no
+		priests_can_marry = yes
+		
+		max_consorts = 3
+		
+		intermarry = kemetic	
+		intermarry = atenist
+		
+		intermarry = berber_main
+		
+		intermarry = illyrian_main
+		
+		intermarry = thracian_main
+		intermarry = zalmoxism
+		
+		intermarry = celtic_main
+		
+		intermarry = punic_main
+		intermarry = canaanite_main	
+		
+		#intermarry = zoroastrian_main
+		#intermarry = zurvanism
+		#intermarry = scythian_main
+		#intermarry = hinduism_main
+		#intermarry = armenian_main	
+		
+		#intermarry = judaism_main	
+		
+		intermarry = jainism_main
+		intermarry = buddhism_main
+		
+		intermarry = georgian_main	
+		
+		intermarry = anatolian_main
+		intermarry = phrygian_main
+		
+		intermarry = marduk_cult	
+		
+		intermarry = arabic_main
+		
+		intermarry = greek_main
+		intermarry = roman_main
+		intermarry = pontic_main
+								
+		#intermarry = etruscan_main	
+						
+		intermarry = dravidian_main
+	}
+}
+abrahamic_religion = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade # Should be changed or removed entirely
+	playable = yes
+	
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0 # never try to convert
+	
+	judaism_main = {
+		graphical_culture = westerngfx
+		icon = 52
+		color = { 0.5 0.5 0.0 }
+		crusade_name = "CRUSADE"
+		scripture_name = THE_TANAKH
+		god_names = {
+			GOD_YAHWEH
+		}
+		can_grant_divorce = yes
+		can_call_crusade = no
+		priests_can_marry = yes
+		
+		#No intermarriage
+	}
+}
+indian_religion = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade # Should be changed or removed entirely
+	playable = yes
+	
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0 # never try to convert
+	
+	jainism_main = {
+		graphical_culture = westerngfx
+		icon = 5
+		color = { 0.9 0.7 0.2 }
+		crusade_name = "CRUSADE"
+		scripture_name = THE_AGAMAS
+		god_names = {
+			GOD_RISHABHA GOD_MAHAVIRA
+		}
+		can_grant_divorce = yes
+		can_call_crusade = no
+		priests_can_marry = no
+		female_temple_holders = yes
+		
+		intermarry = kemetic	
+		intermarry = atenist
+		
+		intermarry = berber_main
+		
+		intermarry = illyrian_main
+		
+		intermarry = thracian_main
+		intermarry = zalmoxism
+		
+		intermarry = celtic_main
+		
+		intermarry = punic_main
+		intermarry = canaanite_main	
+		
+		intermarry = zoroastrian_main
+		intermarry = zurvanism
+		intermarry = scythian_main
+		intermarry = hinduism_main
+		intermarry = armenian_main	
+		
+		#intermarry = judaism_main	
+		
+		#intermarry = jainism_main
+		intermarry = buddhism_main
+		
+		intermarry = georgian_main	
+		
+		intermarry = anatolian_main
+		intermarry = phrygian_main
+		
+		intermarry = marduk_cult	
+		
+		intermarry = arabic_main
+		
+		intermarry = greek_main
+		intermarry = roman_main
+		intermarry = pontic_main
+								
+		#intermarry = etruscan_main	
+						
+		intermarry = dravidian_main
+	}
+	buddhism_main = {
+		graphical_culture = westerngfx
+		icon = 14
+		color = { 0.8 0.2 0.8 }
+		crusade_name = "CRUSADE"
+		scripture_name = THE_BUDDHAVACANA
+		god_names = {
+			GOD_BUDDHA
+		}
+		can_grant_divorce = yes
+		can_call_crusade = no
+		priests_can_marry = no
+		female_temple_holders = yes
+		
+		intermarry = kemetic	
+		intermarry = atenist
+		
+		intermarry = berber_main
+		
+		intermarry = illyrian_main
+		
+		intermarry = thracian_main
+		intermarry = zalmoxism
+		
+		intermarry = celtic_main
+		
+		intermarry = punic_main
+		intermarry = canaanite_main	
+		
+		intermarry = zoroastrian_main
+		intermarry = zurvanism
+		intermarry = scythian_main
+		intermarry = hinduism_main
+		intermarry = armenian_main	
+		
+		#intermarry = judaism_main	
+		
+		#intermarry = jainism_main
+		#intermarry = buddhism_main
+		
+		intermarry = georgian_main	
+		
+		intermarry = anatolian_main
+		intermarry = phrygian_main
+		
+		intermarry = marduk_cult	
+		
+		intermarry = arabic_main
+		
+		intermarry = greek_main
+		intermarry = roman_main
+		intermarry = pontic_main
+								
+		#intermarry = etruscan_main	
+						
+		intermarry = dravidian_main
+	}
+}
+caucasian_religion = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade # Should be changed or removed entirely
+	playable = yes
+	
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0 # never try to convert
+	
+	georgian_main = {
+		graphical_culture = westerngfx
+		icon = 5
+		color = { 0.9 0.7 0.6 }
+		crusade_name = "CRUSADE"
+		scripture_name = PLACEHOLDER
+		god_names = {
+			GOD_ARMAZI
+		}
+		can_grant_divorce = yes
+		can_call_crusade = no
+		priests_can_marry = no
+		
+		max_consorts = 3
+		
+		intermarry = kemetic	
+		intermarry = atenist
+		
+		intermarry = berber_main
+		
+		intermarry = illyrian_main
+		
+		intermarry = thracian_main
+		intermarry = zalmoxism
+		
+		intermarry = celtic_main
+		
+		intermarry = punic_main
+		intermarry = canaanite_main	
+		
+		intermarry = zoroastrian_main
+		intermarry = zurvanism
+		intermarry = scythian_main
+		intermarry = hinduism_main
+		intermarry = armenian_main	
+		
+		#intermarry = judaism_main	
+		
+		intermarry = jainism_main
+		intermarry = buddhism_main
+		
+		#intermarry = georgian_main	
+		
+		intermarry = anatolian_main
+		intermarry = phrygian_main
+		
+		intermarry = marduk_cult	
+		
+		intermarry = arabic_main
+		
+		intermarry = greek_main
+		intermarry = roman_main
+		intermarry = pontic_main
+								
+		#intermarry = etruscan_main	
+						
+		intermarry = dravidian_main
+	}
+}
+anatolian_religion = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade # Should be changed or removed entirely
+	playable = yes
+	
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0 # never try to convert
+	
+	anatolian_main = {
+		graphical_culture = westerngfx
+		icon = 5
+		color = { 0.2 0.7 0.5 }
+		crusade_name = "CRUSADE"
+		scripture_name = PLACEHOLDER
+		god_names = {
+			GOD_ALALUS GOD_ARINNITI GOD_ARMA GOD_ELLEL GOD_LELWANI GOD_TARHUNT GOD_SARRUMA
+		}
+		can_grant_divorce = yes
+		can_call_crusade = no
+		priests_can_marry = no
+		
+		max_consorts = 3
+		
+		intermarry = kemetic	
+		intermarry = atenist
+		
+		intermarry = berber_main
+		
+		intermarry = illyrian_main
+		
+		intermarry = thracian_main
+		intermarry = zalmoxism
+		
+		intermarry = celtic_main
+		
+		intermarry = punic_main
+		intermarry = canaanite_main	
+		
+		intermarry = zoroastrian_main
+		intermarry = zurvanism
+		intermarry = scythian_main
+		intermarry = hinduism_main
+		intermarry = armenian_main	
+		
+		#intermarry = judaism_main	
+		
+		intermarry = jainism_main
+		intermarry = buddhism_main
+		
+		intermarry = georgian_main	
+		
+		#intermarry = anatolian_main
+		#intermarry = phrygian_main
+		
+		intermarry = marduk_cult	
+		
+		intermarry = arabic_main
+		
+		intermarry = greek_main
+		intermarry = roman_main
+		intermarry = pontic_main
+								
+		#intermarry = etruscan_main	
+						
+		intermarry = dravidian_main
+	}
+	phrygian_main = {
+		graphical_culture = westerngfx
+		icon = 5
+		color = { 0.2 0.7 0.7 }
+		crusade_name = "CRUSADE"
+		scripture_name = PLACEHOLDER
+		god_names = {
+			GOD_KUBELEYA GOD_SABAZIOS
+		}
+		can_grant_divorce = yes
+		can_call_crusade = no
+		priests_can_marry = no
+		
+		max_consorts = 3
+		
+		intermarry = kemetic	
+		intermarry = atenist
+		
+		intermarry = berber_main
+		
+		intermarry = illyrian_main
+		
+		intermarry = thracian_main
+		intermarry = zalmoxism
+		
+		intermarry = celtic_main
+		
+		intermarry = punic_main
+		intermarry = canaanite_main	
+		
+		intermarry = zoroastrian_main
+		intermarry = zurvanism
+		intermarry = scythian_main
+		intermarry = hinduism_main
+		intermarry = armenian_main	
+		
+		#intermarry = judaism_main	
+		
+		intermarry = jainism_main
+		intermarry = buddhism_main
+		
+		intermarry = georgian_main	
+		
+		#intermarry = anatolian_main
+		#intermarry = phrygian_main
+		
+		intermarry = marduk_cult	
+		
+		intermarry = arabic_main
+		
+		intermarry = greek_main
+		intermarry = roman_main
+		intermarry = pontic_main
+								
+		#intermarry = etruscan_main	
+						
+		intermarry = dravidian_main
+	}
+}
+mesopotamian_religion = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade # Should be changed or removed entirely
+	playable = yes
+	
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0 # never try to convert
+	
+	marduk_cult = { # Mesopotamian
+		graphical_culture = westerngfx
+		icon = 5
+		color = { 0.3 0.5 1.0 }
+		crusade_name = "CRUSADE"
+		scripture_name = PLACEHOLDER
+		god_names = {
+			GOD_MARDUK GOD_NABU GOD_ASHUR GOD_MULLISSU GOD_NINURTA GOD_ZABABA
+		}
+		can_grant_divorce = yes
+		can_call_crusade = no
+		priests_can_marry = no
+		female_temple_holders = yes
+		max_consorts = 3
+		
+		intermarry = kemetic	
+		intermarry = atenist
+		
+		intermarry = berber_main
+		
+		intermarry = illyrian_main
+		
+		intermarry = thracian_main
+		intermarry = zalmoxism
+		
+		intermarry = celtic_main
+		
+		intermarry = punic_main
+		intermarry = canaanite_main	
+		
+		intermarry = zoroastrian_main
+		intermarry = zurvanism
+		intermarry = scythian_main
+		intermarry = hinduism_main
+		intermarry = armenian_main	
+		
+		#intermarry = judaism_main	
+		
+		intermarry = jainism_main
+		intermarry = buddhism_main
+		
+		intermarry = georgian_main	
+		
+		intermarry = anatolian_main
+		intermarry = phrygian_main
+		
+		#intermarry = marduk_cult	
+		
+		intermarry = arabic_main
+		
+		intermarry = greek_main
+		intermarry = roman_main
+		intermarry = pontic_main
+								
+		#intermarry = etruscan_main	
+						
+		intermarry = dravidian_main
+	}
+}
+arabic_religion = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade # Should be changed or removed entirely
+	playable = yes
+	
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0 # never try to convert
+	
+	arabic_main = {
+		graphical_culture = westerngfx
+		icon = 51
+		color = { 0.5 0.7 0.2 }
+		crusade_name = "CRUSADE"
+		scripture_name = PLACEHOLDER
+		god_names = {
+			GOD_HUBAL GOD_AL_LAT GOD_AL_UZZA GOD_MANAT GOD_MANAF GOD_WADD GOD_AMM GOD_TA_LAB GOD_DHU_L_HALASA GOD_AL_QAUM GOD_DUSHARA 
+		}
+		can_grant_divorce = yes
+		can_call_crusade = no
+		priests_can_marry = no
+		
+		max_consorts = 3
+		
+		intermarry = kemetic	
+		intermarry = atenist
+		
+		intermarry = berber_main
+		
+		intermarry = illyrian_main
+		
+		intermarry = thracian_main
+		intermarry = zalmoxism
+		
+		intermarry = celtic_main
+		
+		intermarry = punic_main
+		intermarry = canaanite_main	
+		
+		intermarry = zoroastrian_main
+		intermarry = zurvanism
+		intermarry = scythian_main
+		intermarry = hinduism_main
+		intermarry = armenian_main	
+		
+		#intermarry = judaism_main	
+		
+		intermarry = jainism_main
+		intermarry = buddhism_main
+		
+		intermarry = georgian_main	
+		
+		intermarry = anatolian_main
+		intermarry = phrygian_main
+		
+		intermarry = marduk_cult	
+		
+		#intermarry = arabic_main
+		
+		intermarry = greek_main
+		intermarry = roman_main
+		intermarry = pontic_main
+								
+		#intermarry = etruscan_main	
+						
+		intermarry = dravidian_main
+	}
+}
+greek_religion = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade # Should be changed or removed entirely
+	playable = yes
+	
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0 # never try to convert
+	
+	greek_main = {
+		graphical_culture = westerngfx
+
+		icon = 16
+		color = { 0.2 0.4 0.3 }
+		
+		crusade_name = "CRUSADE"
+		scripture_name = PLACEHOLDER
+		god_names = {
+			GOD_ZEUS GOD_HERA GOD_POSEIDON GOD_DEMETER GOD_ATHENA GOD_DIONYSUS GOD_APOLLO GOD_ARTEMIS GOD_ARES GOD_APHRODITE GOD_HEPHAESTUS GOD_HERMES
+		}
+		
+		can_grant_divorce = yes
+		can_grant_claim = yes
+		can_call_crusade = no
+		priests_can_marry = yes
+		
+		max_wives = 4
+		
+		intermarry = kemetic	
+		intermarry = atenist
+		
+		intermarry = berber_main
+		
+		intermarry = illyrian_main
+		
+		intermarry = thracian_main
+		intermarry = zalmoxism
+		
+		intermarry = celtic_main
+		
+		intermarry = punic_main
+		intermarry = canaanite_main	
+		
+		intermarry = zoroastrian_main
+		intermarry = zurvanism
+		intermarry = scythian_main
+		intermarry = hinduism_main
+		intermarry = armenian_main	
+		
+		#intermarry = judaism_main	
+		
+		intermarry = jainism_main
+		intermarry = buddhism_main
+		
+		intermarry = georgian_main	
+		
+		intermarry = anatolian_main
+		intermarry = phrygian_main
+		
+		intermarry = marduk_cult	
+		
+		intermarry = arabic_main
+		
+		#intermarry = greek_main
+		#intermarry = roman_main
+		#intermarry = pontic_main
+								
+		#intermarry = etruscan_main	
+						
+		intermarry = dravidian_main
+	}
+	roman_main = {
+		graphical_culture = westerngfx
+
+		icon = 16
+		color = { 0.2 0.3 0.6 }
+		
+		crusade_name = "CRUSADE"
+		scripture_name = PLACEHOLDER
+		god_names = {
+			GOD_JUNO GOD_VESTA GOD_MINERVA GOD_CERES GOD_DIANA GOD_VENUS GOD_MARS GOD_MERCURIUS GOD_JOVE GOD_NEPTUNUS GOD_VULCANUS GOD_APOLLO
+		}
+		
+		can_grant_divorce = yes
+		can_grant_claim = yes
+		can_call_crusade = no
+		priests_can_marry = yes
+		max_consorts = 2
+		
+		intermarry = kemetic	
+		intermarry = atenist
+		
+		intermarry = berber_main
+		
+		intermarry = illyrian_main
+		
+		intermarry = thracian_main
+		intermarry = zalmoxism
+		
+		intermarry = celtic_main
+		
+		intermarry = punic_main
+		intermarry = canaanite_main	
+		
+		intermarry = zoroastrian_main
+		intermarry = zurvanism
+		intermarry = scythian_main
+		intermarry = hinduism_main
+		intermarry = armenian_main	
+		
+		#intermarry = judaism_main	
+		
+		intermarry = jainism_main
+		intermarry = buddhism_main
+		
+		intermarry = georgian_main	
+		
+		intermarry = anatolian_main
+		intermarry = phrygian_main
+		
+		intermarry = marduk_cult	
+		
+		intermarry = arabic_main
+		
+		#intermarry = greek_main
+		#intermarry = roman_main
+		#intermarry = pontic_main
+								
+		#intermarry = etruscan_main	
+						
+		intermarry = dravidian_main
+	}
+	pontic_main = {
+		graphical_culture = westerngfx
+
+		icon = 16
+		color = { 0.1 0.7 0.5 }
+		
+		crusade_name = "CRUSADE"
+		scripture_name = PLACEHOLDER
+		god_names = {
+			GOD_ZEUS_STRATIOS GOD_MEN_PHARNACOU GOD_CYBELE GOD_APOLLO GOD_MITHRAS
+		}
+		
+		can_grant_divorce = yes
+		can_grant_claim = yes
+		can_call_crusade = no
+		priests_can_marry = yes
+
+		max_wives = 4
+		
+		intermarry = kemetic	
+		intermarry = atenist
+		
+		intermarry = berber_main
+		
+		intermarry = illyrian_main
+		
+		intermarry = thracian_main
+		intermarry = zalmoxism
+		
+		intermarry = celtic_main
+		
+		intermarry = punic_main
+		intermarry = canaanite_main	
+		
+		intermarry = zoroastrian_main
+		intermarry = zurvanism
+		intermarry = scythian_main
+		intermarry = hinduism_main
+		intermarry = armenian_main	
+		
+		#intermarry = judaism_main	
+		
+		intermarry = jainism_main
+		intermarry = buddhism_main
+		
+		intermarry = georgian_main	
+		
+		intermarry = anatolian_main
+		intermarry = phrygian_main
+		
+		intermarry = marduk_cult	
+		
+		intermarry = arabic_main
+		
+		#intermarry = greek_main
+		#intermarry = roman_main
+		#intermarry = pontic_main
+								
+		#intermarry = etruscan_main	
+						
+		intermarry = dravidian_main
+	}
+}
+italian_religion = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade # Should be changed or removed entirely
+	playable = yes
+	
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0 # never try to convert
+	
+	etruscan_main = {
+		graphical_culture = westerngfx
+
+		icon = 5
+		color = { 0.1 0.5 0.8 }
+		
+		crusade_name = "CRUSADE"
+		scripture_name = "THE_ORACLES"
+		god_names = {
+			GOD_TINIA GOD_UNI GOD_MENRVA GOD_CEL GOD_ARITIMI GOD_PACHA
+		}
+		
+		can_grant_divorce = yes
+		can_grant_claim = yes
+		can_call_crusade = no
+		
+		# No intermarriage for now
+	}
+}
+dravidian_religion = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade # Should be changed or removed entirely
+	playable = yes
+	
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0 # never try to convert
+	
+	dravidian_main = {
+		graphical_culture = westerngfx
+
+		icon = 5
+		color = { 0.1 0.5 0.8 }
+		
+		crusade_name = "CRUSADE"
+		scripture_name = PLACEHOLDER
+		god_names = {
+			GOD_AYYANAR GOD_VEERAN GOD_AMMAN
+		}
+		
+		can_grant_divorce = yes
+		can_grant_claim = yes
+		can_call_crusade = no
+		female_temple_holders = yes
+		
+		max_consorts = 3
+		
+		intermarry = kemetic	
+		intermarry = atenist
+		
+		intermarry = berber_main
+		
+		intermarry = illyrian_main
+		
+		intermarry = thracian_main
+		intermarry = zalmoxism
+		
+		intermarry = celtic_main
+		
+		intermarry = punic_main
+		intermarry = canaanite_main	
+		
+		intermarry = zoroastrian_main
+		intermarry = zurvanism
+		intermarry = scythian_main
+		intermarry = hinduism_main
+		intermarry = armenian_main	
+		
+		#intermarry = judaism_main	
+		
+		intermarry = jainism_main
+		intermarry = buddhism_main
+		
+		intermarry = georgian_main	
+		
+		intermarry = anatolian_main
+		intermarry = phrygian_main
+		
+		intermarry = marduk_cult	
+		
+		intermarry = arabic_main
+		
+		intermarry = greek_main
+		intermarry = roman_main
+		intermarry = pontic_main
+								
+		#intermarry = etruscan_main	
+						
+		#intermarry = dravidian_main
+	}
+}
+lusitanian_religion = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade # Should be changed or removed entirely
+	playable = yes
+	
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0 # never try to convert
+	
+	lusitanian_main = {
+		graphical_culture = westerngfx
+
+		icon = 67
+		color = { 0.62 0.19 0.06 }
+		
+		crusade_name = "CRUSADE"
+		scripture_name = PLACEHOLDER
+		god_names = {
+			GOD_ENDOVELICUS GOD_ATAEGINA GOD_NABIA GOD_TREBARUNA GOD_BANDUA GOD_REU GOD_MUNIDIS
+		}
+		
+		can_grant_divorce = yes
+		can_grant_claim = yes
+		can_call_crusade = no
+		#allow_looting = yes
+		#peace_prestige_loss = yes # Lose Prestige while at peace
+		raised_vassal_opinion_loss = no
+		
+		max_consorts = 3
+		
+		intermarry = kemetic	
+		intermarry = atenist
+		
+		intermarry = berber_main
+		
+		intermarry = illyrian_main
+		
+		intermarry = thracian_main
+		intermarry = zalmoxism
+		
+		#intermarry = celtic_main
+		
+		intermarry = punic_main
+		intermarry = canaanite_main	
+		
+		intermarry = zoroastrian_main
+		intermarry = zurvanism
+		intermarry = scythian_main
+		intermarry = hinduism_main
+		intermarry = armenian_main	
+		
+		#intermarry = judaism_main	
+		
+		intermarry = jainism_main
+		intermarry = buddhism_main
+		
+		intermarry = georgian_main	
+		
+		intermarry = anatolian_main
+		intermarry = phrygian_main
+		
+		intermarry = marduk_cult	
+		
+		intermarry = arabic_main
+		
+		intermarry = greek_main
+		intermarry = roman_main
+		intermarry = pontic_main
+								
+		#intermarry = etruscan_main	
+						
+		intermarry = dravidian_main
+	}
+}
+iberian_religion = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade # Should be changed or removed entirely
+	playable = yes
+	
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0 # never try to convert
+	
+	iberian_main = {
+		graphical_culture = westerngfx
+
+		icon = 67
+		color = { 0.9 0.8 0.9 }
+		
+		crusade_name = "CRUSADE"
+		scripture_name = PLACEHOLDER
+		god_names = {
+			GOD_BENKOTA
+		}
+		
+		can_grant_divorce = yes
+		can_grant_claim = yes
+		can_call_crusade = no
+		#allow_looting = yes
+		#peace_prestige_loss = yes # Lose Prestige while at peace
+		raised_vassal_opinion_loss = no
+		
+		max_consorts = 3
+		
+		intermarry = kemetic	
+		intermarry = atenist
+		
+		intermarry = berber_main
+		
+		intermarry = illyrian_main
+		
+		intermarry = thracian_main
+		intermarry = zalmoxism
+		
+		#intermarry = celtic_main
+		
+		intermarry = punic_main
+		intermarry = canaanite_main	
+		
+		intermarry = zoroastrian_main
+		intermarry = zurvanism
+		intermarry = scythian_main
+		intermarry = hinduism_main
+		intermarry = armenian_main	
+		
+		#intermarry = judaism_main	
+		
+		intermarry = jainism_main
+		intermarry = buddhism_main
+		
+		intermarry = georgian_main	
+		
+		intermarry = anatolian_main
+		intermarry = phrygian_main
+		
+		intermarry = marduk_cult	
+		
+		intermarry = arabic_main
+		
+		intermarry = greek_main
+		intermarry = roman_main
+		intermarry = pontic_main
+								
+		#intermarry = etruscan_main	
+						
+		intermarry = dravidian_main
+
+		intermarry = lusitanian_main
+
+		#intermarry = iberian_main
+	}
+}
+aquitanian_religion = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade # Should be changed or removed entirely
+	playable = yes
+	
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0 # never try to convert
+	
+	aquitanian_main = {
+		graphical_culture = westerngfx
+
+		icon = 67
+		color = { 0 0.76 0.31 }
+		
+		crusade_name = "CRUSADE"
+		scripture_name = PLACEHOLDER
+		god_names = {
+			GOD_BAIGORIXO GOD_ILUNNO GOD_ARIXONI GOD_ARTAHE GOD_ILURBERRIXO GOD_ASTOILUNO GOD_HARAVSONI GOD_LEHERENNO
+		}
+		
+		can_grant_divorce = yes
+		can_grant_claim = yes
+		can_call_crusade = no
+		#allow_looting = yes
+		#peace_prestige_loss = yes # Lose Prestige while at peace
+		raised_vassal_opinion_loss = no
+		
+		max_consorts = 3
+		
+		intermarry = kemetic	
+		intermarry = atenist
+		
+		intermarry = berber_main
+		
+		intermarry = illyrian_main
+		
+		intermarry = thracian_main
+		intermarry = zalmoxism
+		
+		#intermarry = celtic_main
+		
+		intermarry = punic_main
+		intermarry = canaanite_main	
+		
+		intermarry = zoroastrian_main
+		intermarry = zurvanism
+		intermarry = scythian_main
+		intermarry = hinduism_main
+		intermarry = armenian_main	
+		
+		#intermarry = judaism_main	
+		
+		intermarry = jainism_main
+		intermarry = buddhism_main
+		
+		intermarry = georgian_main	
+		
+		intermarry = anatolian_main
+		intermarry = phrygian_main
+		
+		intermarry = marduk_cult	
+		
+		intermarry = arabic_main
+		
+		intermarry = greek_main
+		intermarry = roman_main
+		intermarry = pontic_main
+								
+		#intermarry = etruscan_main	
+						
+		intermarry = dravidian_main
+
+		intermarry = lusitanian_main
+
+		#intermarry = iberian_main
+	}
+}

@@ -1,0 +1,21 @@
+# 12 - Kos
+# County Title
+title = c_kos # for example c_corinth
+
+# Settlements
+max_settlements = 4 # Should be reevaluated
+b_kos_kos = castle
+b_nisyros_kos = temple
+b_telos_kos = city
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_antimachia_kos = castle
+# b_pothaia_kos = temple
+# b_leros_kos = city
+
+# Misc
+culture = doric
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

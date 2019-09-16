@@ -1,0 +1,7 @@
+# 140001-150000 for illyrian characters
+	# 140001-140100 for the Dardani dynasty
+	# 140101-140200 for the Taulantii dynasty
+	# 140201-140300 for the Autariatae dynasty
+	# 140301-140400 for the Delmatae dynasty
+	# 140401-140500 for the Messapii dynasty
+	# 140501-140600 for the Ardiaei dynasty

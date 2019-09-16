@@ -1,0 +1,16 @@
+# 866 - Volubis
+
+# County Title
+title = c_volubis
+
+# Settlements
+max_settlements = 2
+b_volubis_volubis = castle
+b_tocolosida_volubis = castle
+
+# Misc
+culture = berber
+religion = berber_main
+
+# History
+# Can be filled when things change around the province

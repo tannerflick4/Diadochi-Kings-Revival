@@ -1,0 +1,18 @@
+# 438 - Ovilava
+
+# County Title
+title = c_ovilava
+
+# Settlements
+max_settlements = 4
+b_ovilava_ovilava = castle
+b_lentia_ovilava = city
+b_vetonianis_ovilava = temple
+b_lauriacum_ovilava = city
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

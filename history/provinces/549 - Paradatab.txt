@@ -1,0 +1,16 @@
+# 549 - Paradatab
+
+# County Title
+title = c_paradatab
+
+# Settlements
+max_settlements = 2
+b_paradatab_paradatab = castle
+b_jarakol_paradatab = city
+
+# Misc
+culture = scythian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

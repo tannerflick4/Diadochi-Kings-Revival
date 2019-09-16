@@ -1,0 +1,19 @@
+# 221 - Harmozike
+
+# County Title
+title = c_harmozike
+
+# Settlements
+max_settlements = 5
+b_harmozike_harmozike = castle
+b_baraza_harmozike = temple
+b_kavtiskhevi_harmozike = city
+b_samunis_harmozike = castle
+b_zalissa_harmozike = city
+
+# Misc
+culture = georgian
+religion = georgian_main
+
+# History
+# Can be filled when things change around the province

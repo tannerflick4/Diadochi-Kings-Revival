@@ -1,0 +1,17 @@
+# 634 - Oraion
+
+# County Title
+title = c_oraion
+
+# Settlements
+max_settlements = 3
+b_oraion_oraion = castle
+b_topeiros_oraion = castle
+b_porsulae_oraion = city
+
+# Misc
+culture = thracian
+religion = thracian_main
+
+# History
+# Can be filled when things change around the province

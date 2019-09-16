@@ -1,0 +1,20 @@
+# 197 - Nippur
+
+# County Title
+title = c_nippur
+
+# Settlements
+max_settlements = 4
+b_nippur_nippur = castle
+b_dabrum_nippur = temple
+b_isin_nippur = city
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_apamea_nippur
+
+# Misc
+culture = akkadian
+religion = marduk_cult
+
+# History
+# Can be filled when things change around the province

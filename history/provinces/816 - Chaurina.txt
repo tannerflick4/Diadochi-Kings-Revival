@@ -1,0 +1,17 @@
+# 816 - Chaurina
+
+# County Title
+title = c_chaurina
+
+# Settlements
+max_settlements = 3
+b_chaurina_chaurina = castle
+b_astasana_chaurina = city
+b_barbalana_chaurina = city
+
+# Misc
+culture = parthian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

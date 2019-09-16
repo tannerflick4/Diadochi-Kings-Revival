@@ -1,0 +1,14 @@
+# 30701-30800 for the Kymioi dynasty
+30701 = { 
+	name = "Herakleides" # of Cyme, Lysimachid governor of Heracleia Pontika
+	dynasty = 3008
+	culture = aeolian
+	religion = greek_main
+	
+	449.1.1 = { # 327 BC, Made up
+		birth="yes"
+	}
+	496.1.1 = { # 280 BC, Made up
+		death="yes"
+	}
+}

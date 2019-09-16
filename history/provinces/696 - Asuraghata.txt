@@ -1,0 +1,17 @@
+# 696 - Asuraghata
+
+# County Title
+title = c_asuraghata
+
+# Settlements
+max_settlements = 3
+b_asuraghata_asuraghata = castle
+b_samapa_asuraghata = city
+b_swetaka_asuraghata = city
+
+# Misc
+culture = telegu
+religion = jainism_main
+
+# History
+# Can be filled when things change around the province

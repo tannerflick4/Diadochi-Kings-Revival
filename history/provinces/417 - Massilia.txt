@@ -1,0 +1,22 @@
+# 417 - Massilia
+
+# County Title
+title = c_massilia
+
+# Settlements
+max_settlements = 6
+b_massilia_massilia = castle
+b_olbia_massilia = temple
+b_borma_massilia = castle
+b_taurois_massilia = city
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_citharista_massilia
+# b_carsicis_massilia
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

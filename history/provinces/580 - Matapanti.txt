@@ -1,0 +1,16 @@
+# 580 - Matapanti
+
+# County Title
+title = c_matapanti
+
+# Settlements
+max_settlements = 2
+b_matapanti_matapanti = castle
+b_frica_matapanti = temple
+
+# Misc
+culture = chorasmian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

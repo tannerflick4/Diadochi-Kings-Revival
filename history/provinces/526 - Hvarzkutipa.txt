@@ -1,0 +1,17 @@
+# 526 - Hvarzkutipa
+
+# County Title
+title = c_hvarzkutipa
+
+# Settlements
+max_settlements = 3
+b_hvarzkutipa_hvarzkutipa = castle
+b_saca_hvarzkutipa = city
+#b_navaca_hvarzkutipa = temple
+
+# Misc
+culture = sarmatian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

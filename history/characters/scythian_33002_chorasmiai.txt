@@ -1,0 +1,39 @@
+# 3306021-330200 for the Chorasmiai dynasty
+3306021 = {
+	name = "Phrataphernes" # King of Chorasmia
+	dynasty = 33002 # Chorasmiai
+	religion = zoroastrian_main
+	culture = chorasmian
+	father = 3306023
+	416.1.1 = { # 360 BC Made up
+		birth="yes"
+	}
+	479.1.1 = { # 297 BC Made up
+		death="yes"
+	}
+}
+3306022 = {
+	name = "Pharsman" # King of Chorasmia
+	dynasty = 33002 # Chorasmiai
+	religion = zoroastrian_main
+	culture = chorasmian
+	father = 3306021
+	436.1.1 = { # 340 BC Made up
+		birth="yes"
+	}
+	505.1.1 = { # 271 BC Made up
+		death="yes"
+	}
+}
+3306023 = {
+	name = "Pharsman" # Made up King of Chorasmia
+	dynasty = 33002 # Chorasmiai
+	religion = zoroastrian_main
+	culture = chorasmian
+	390.1.1 = { # 387 BC
+		birth="yes"
+	}
+	438.1.1 = { # 338 BC
+		death="yes"
+	}
+}

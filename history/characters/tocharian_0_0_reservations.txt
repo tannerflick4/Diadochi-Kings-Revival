@@ -1,0 +1,10 @@
+# 370001-380000 for Tocharian characters
+	# 370001-370100 for the Kroraina dynasty
+	# 370101-370200 for the Kodinya dynasty
+	# 370201-370300 for the Sothamga dynasty
+	# 370301-370400 for the Cadota dynasty
+	# 370401-370500 for the Vasu dynasty
+	# 370501-370600 for the Yarkhoto dynasty
+	# 370601-370700 for the Hvamna dynasty
+	# 370701-370800 for the Subhadra dynasty
+	# 370801-370900 for the Cozbo dynasty

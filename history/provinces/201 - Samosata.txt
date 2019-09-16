@@ -1,0 +1,21 @@
+# 201 - Samosata
+
+# County Title
+title = c_samosata
+
+# Settlements
+max_settlements = 5
+b_tharsa_samosata = castle
+b_perre_samosata = temple
+b_charmodara_samosata = city
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_samosata_samosata
+# b_arsameia_samosata
+
+# Misc
+culture = luwian
+religion = anatolian_main
+
+# History
+# Can be filled when things change around the province

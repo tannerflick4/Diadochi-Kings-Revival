@@ -1,0 +1,18 @@
+# 252 - Cyropolis
+
+# County Title
+title = c_cyropolis
+
+# Settlements
+max_settlements = 4
+b_cyropolis_cyropolis = castle
+b_siraf_cyropolis = city
+b_gogana_cyropolis = city
+b_mammica_cyropolis = castle
+
+# Misc
+culture = persian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

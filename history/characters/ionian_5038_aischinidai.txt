@@ -1,0 +1,55 @@
+# 53201-53300 for the Aischinidai dynasty
+53201 = {
+	name = "Atrometos" # Father of Aischines
+	dynasty = 5038 # Aischinidai
+	religion = greek_main
+	culture = ionian
+	363.1.1 = { # Made up
+		birth="yes" # 413 BC
+	}
+	425.1.1 = { # Made up
+		death="yes" # 351 BC
+	}
+}
+53202 = {
+	name = "Aischines" # Politician in Athens
+	dynasty = 5038 # Aischinidai
+	religion = greek_main
+	culture = ionian
+	father = 53201
+	
+	add_trait = charismatic_negotiator
+	
+	387.1.1 = {
+		birth="yes" # 389 BC
+	}
+	462.1.1 = {
+		death="yes" # 314 BC
+	}
+}
+53203 = {
+	name = "Linos" # Politician in Athens, Made up
+	dynasty = 5038 # Aischinidai
+	religion = greek_main
+	culture = ionian
+	father = 53202
+	430.1.1 = {
+		birth="yes" # 346 BC
+	}
+	487.1.1 = {
+		death="yes" # 289 BC
+	}
+}
+53204 = {
+	name = "Hermes" # Politician in Athens, Made up
+	dynasty = 5038 # Aischinidai
+	religion = greek_main
+	culture = ionian
+	father = 53203
+	458.1.1 = {
+		birth="yes" # 318 BC
+	}
+	523.1.1 = {
+		death="yes" # 253 BC
+	}
+}

@@ -1,0 +1,18 @@
+# 206 - Sinoria
+
+# County Title
+title = c_sinoria
+
+# Settlements
+max_settlements = 4
+b_sinoria_sinoria = castle
+b_salmalasso_sinoria = temple
+b_darucinte_sinoria = city
+b_kaballa_sinoria = castle
+
+# Misc
+culture = armenian
+religion = armenian_main
+
+# History
+# Can be filled when things change around the province

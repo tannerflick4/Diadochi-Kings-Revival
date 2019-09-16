@@ -1,0 +1,16 @@
+# 499 - Vaskila
+
+# County Title
+title = c_vaskila
+
+# Settlements
+max_settlements = 2
+b_vaskila_vaskila = castle
+b_bagarma_vaskila = temple
+
+# Misc
+culture = sarmatian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

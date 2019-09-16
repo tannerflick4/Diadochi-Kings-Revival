@@ -1,0 +1,15 @@
+# 725 - Kusavati
+
+# County Title
+title = c_kusavati
+
+# Settlements
+max_settlements = 1
+b_kusavati_kusavati = castle
+
+# Misc
+culture = vedic # Magadhi
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

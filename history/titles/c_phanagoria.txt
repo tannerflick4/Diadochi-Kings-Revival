@@ -1,0 +1,25 @@
+389.1.1 = { # 387 BC
+	holder = 50207 # Leukon I
+	liege = k_bosphorus
+}
+429.1.1 = { # 347 BC
+	holder = 50208 # Spartacus III
+}
+434.1.1 = { # 342 BC
+	holder = 50201 # Pairisades I
+}
+467.1.1 = { # 309 BC
+	holder = 50202 # Satyros
+}
+467.4.1 = { # 309 BC
+	holder = 50204 # Prytanis
+}
+468.1.1 = { # 308 BC
+	holder = 50203 # Eumelos
+}
+473.1.1 = { # 303 BC
+	holder = 50205 # Spartacus IV
+}
+492.1.1 = { # 284 BC
+	holder = 50206 # Pairisades II
+}

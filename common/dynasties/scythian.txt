@@ -1,0 +1,34 @@
+# 33001-34000 for Scythian dynasties
+
+33001 = {
+	name = "Parni"
+	culture = scythian
+}
+33002 = {
+	name = "Chorasmiai"
+	culture = scythian
+}
+33003 = {
+	name = "Amyrgioi"
+	culture = scythian
+}
+33004 = {
+	name = "Massagetai"
+	culture = scythian
+}
+33005 = {
+	name = "Apasiakai"
+	culture = scythian
+}
+33006 = {
+	name = "Thyssagetai"
+	culture = scythian
+}
+33007 = {
+	name = "Tauroi"
+	culture = scythian
+}
+33008 = {
+	name = "Pissyri"
+	culture = scythian
+}

@@ -1,0 +1,17 @@
+# 506 - Lipsoxais
+
+# County Title
+title = c_lipsoxais
+
+# Settlements
+max_settlements = 3
+b_lipsoxais_lipsoxais = castle
+b_kaca_lipsoxais = castle
+b_lewlekol_lipsoxais = temple
+
+# Misc
+culture = sarmatian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

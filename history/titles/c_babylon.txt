@@ -1,0 +1,22 @@
+417.1.1 = {
+	holder = 90324
+	liege = k_p_babylon
+}
+446.1.1 = { # 330 BC
+	holder = 701 # Archon of Babylonia
+	liege = k_s_babylonia
+}
+453.6.10 = {
+	holder = 801
+	liege = e_macedonia
+}
+459.12.25 = {
+	holder = 808
+}
+467.1.1 = {
+	holder = 1001 # Seleucus
+	liege = e_syria
+}
+495.8.1 = {
+	holder = 1002 # Antiochus
+}

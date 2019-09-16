@@ -1,0 +1,56 @@
+# 250101-250200 for the Hanno dynasty
+250101 = {
+	name = "Hamilket" # Hamilcar II, King of Carthage 330-309 BC
+	dynasty = 25002 # Hanno 
+	religion = punic_main
+	culture = punic
+	father = 250103
+	411.1.1 = { # 365 BC, Made up
+		birth="yes"
+	}
+	467.1.1 = {
+		death="yes" # 309 BC
+	}	
+}
+250102 = {
+	name = "Bodmelqart" # Bomilcar, last proper King of Carthage
+	dynasty = 25002 # Hanno 
+	religion = punic_main
+	culture = punic
+	father = 250101
+	436.1.1 = { # 340 BC Made up
+		birth="yes"
+	}
+	496.1.1 = { # 280 BC Made up
+		death="yes"
+	}
+}
+250103 = {
+	name = "Gisco" # Gisgo, King of Carthage 337-330 BC
+	dynasty = 25002 # Hanno 
+	religion = punic_main
+	culture = punic
+	father = 250104
+	389.1.1 = { # 387 BC Made Up
+		birth="yes"
+	}
+	446.1.1 = { # 330 BC
+		death="yes"
+	}
+}
+250104 = {
+	name = "Hanno" # Hanno The Great, King of Carthage 340-337 BC
+	dynasty = 25002 # Hanno 
+	religion = punic_main
+	culture = punic
+	
+	add_trait = ambitious
+	add_trait = greedy
+	
+	370.1.1 = { # 406 BC Made Up
+		birth="yes"
+	}
+	439.1.1 = { # 337 BC
+		death="yes"
+	}
+}

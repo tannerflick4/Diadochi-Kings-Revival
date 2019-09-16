@@ -1,0 +1,14 @@
+# 3001-3100 for the Patrolidai dynasty
+3001 = {
+	name = "Patrokles" # Patrokles, the explorer-general. Used as Satrap of Parthia
+	dynasty = 31
+	culture = macedonian
+	religion = greek_main
+	
+	436.1.1 = { # 340 BC, Made up
+		birth="yes"
+	}
+	512.1.1 = { # 264 BC, Made up
+		death="yes"
+	}
+}

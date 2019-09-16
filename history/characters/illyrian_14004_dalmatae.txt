@@ -1,0 +1,39 @@
+# 140301-140400 for the Delmatae dynasty
+140301 = {
+	name = "Grabos" # King of Dalmatae, Made up
+	dynasty = 14004 # Dalmatae
+	religion = illyrian_main
+	culture = illyrian
+	father = 140303
+	421.1.1 = { # 355 BC Made up
+		birth="yes"
+	}
+	471.1.1 = { # 305 BC Made up
+		death="yes"
+	}
+}
+140302 = {
+	name = "Epulon" # Dalmatae Made up
+	dynasty = 14004 # Dalmatae
+	religion = illyrian_main
+	culture = illyrian
+	father = 140301
+	444.1.1 = { # 332 BC
+		birth="yes"
+	}
+	496.1.1 = { # 280 BC
+		death="yes"
+	}
+}
+140303 = {
+	name = "Pinnes" # King of Dalmatae, Made up
+	dynasty = 14004 # Dalmatae
+	religion = illyrian_main
+	culture = illyrian
+	392.1.1 = { # 384 BC Made up
+		birth="yes"
+	}
+	445.1.1 = { # 331 BC Made up
+		death="yes"
+	}
+}

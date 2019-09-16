@@ -1,0 +1,16 @@
+# 780 - Savira
+
+# County Title
+title = c_savira
+
+# Settlements
+max_settlements = 2
+b_savira_savira = castle
+b_vetrakiya_savira = city
+
+# Misc
+culture = maharashtri
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

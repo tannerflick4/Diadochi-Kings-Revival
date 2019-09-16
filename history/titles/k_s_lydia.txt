@@ -1,0 +1,8 @@
+446.1.1 = { # 330 BC
+	holder = 201 # Menander, Satrap of Lydia
+	liege = e_macedonia
+}
+457.5.1 = { # 319 BC
+	holder = 0
+	liege = 0
+}

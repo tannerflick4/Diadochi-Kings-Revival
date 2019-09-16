@@ -1,0 +1,18 @@
+# 217 - Paracata
+
+# County Title
+title = c_paracata
+
+# Settlements
+max_settlements = 4
+b_paracata_paracata = castle
+b_catispi_paracata = temple
+b_arxata_paracata = city
+b_shawarshan_paracata = castle
+
+# Misc
+culture = armenian
+religion = armenian_main
+
+# History
+# Can be filled when things change around the province

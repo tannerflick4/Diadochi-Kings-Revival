@@ -1,0 +1,52 @@
+# 260201-260300 for the Mauri dynasty
+260201 = { 
+	name = "Mastanabalus" # Mauri king, Made up
+	dynasty = 26003 # Mauri
+	religion = berber_main
+	culture = berber
+	372.1.1 = { # 404 BC Made up
+		birth="yes"
+	}
+	435.1.1 = { # 341 BC
+		death="yes"
+	}
+}
+260202 = { 
+	name = "Tannus" # Mauri king, Made up
+	dynasty = 26003 # Mauri
+	religion = berber_main
+	culture = berber
+	father = 260201
+	408.1.1 = { # 368 BC Made Up
+		birth="yes"
+	}
+	462.1.1 = { # 314 BC Made Up
+		death="yes"
+	}
+}
+260203 = {
+	name = "Capussa" # Mauri king, Made up
+	dynasty = 26003 # Mauri
+	religion = berber_main
+	culture = berber
+	father = 260202
+	433.1.1 = { # 343 BC Made Up
+		birth="yes"
+	}
+	500.1.1 = { # 276 BC Made Up
+		death="yes"
+	}
+}
+260204 = {
+	name = "Sugotus" # Mauri king, Made up
+	dynasty = 26003 # Mauri
+	religion = berber_main
+	culture = berber
+	father = 260203
+	461.1.1 = { # 315 BC
+		birth="yes"
+	}
+	524.1.1 = { # 252 BC
+		death="yes"
+	}
+}

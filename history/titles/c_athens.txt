@@ -1,0 +1,30 @@
+410.1.1 = { # 366 BC
+	holder = 53102 # Hyperides
+	liege = k_r_athens
+}
+421.1.1 = { # 355 BC
+	holder = 53501 # Eubulus
+}
+434.1.1 = { # 342 BC
+	holder = 53302 # Demosthenes
+}
+438.8.2 = { # 338 BC, Battle of Chaeronea
+	liege = d_r_athens
+}
+441.1.1 = { # 335 BC
+	holder = 53402 # Lycurgus
+}
+453.1.1 = { # 323 BC
+	holder = 53403 # Habron
+}
+459.7.1 = { # 317 BC
+	holder = 51601 # Demetrius of Phaleron
+	liege = d_attike
+}
+469.1.1 = { # 307 BC
+	holder = 53403 # Habron
+	liege = d_r_athens
+}
+491.1.1 = { # 285 BC
+	holder = 53503 # Zephyros, fictional
+}

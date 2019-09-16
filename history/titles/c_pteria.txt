@@ -1,0 +1,31 @@
+417.1.1 = {
+	holder = 60003 # Ariamnes
+	liege = k_p_cappadocia
+}
+426.1.1 = {
+	holder = 60101 # Mithrobuzanes
+}
+442.1.1 = {
+	holder = 60001 # Ariarathes, King of Cappadocia
+}
+446.1.1 = {
+	liege = k_cappadocia
+}
+454.1.1 = {
+	holder = 50101 # Eumenes
+	liege = k_s_cappadocia
+}
+458.5.1 = {
+	liege = d_cappadocia
+}
+460.1.1 = {
+	holder = 401 # Antigonus
+	liege = k_s_phrygia
+}
+467.1.1 = {
+	liege = e_asia
+}
+475.1.1 = {
+	holder = 60002 # Ariarathes II
+	liege = d_cappadocia
+}

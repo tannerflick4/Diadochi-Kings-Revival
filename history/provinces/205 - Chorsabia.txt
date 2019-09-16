@@ -1,0 +1,18 @@
+# 205 - Chorsabia
+
+# County Title
+title = c_chorsabia
+
+# Settlements
+max_settlements = 4
+b_chorsabia_chorsabia = castle
+b_kalkh_chorsabia = temple
+b_til_chorsabia = city
+b_tordan_chorsabia = castle
+
+# Misc
+culture = armenian
+religion = armenian_main
+
+# History
+# Can be filled when things change around the province

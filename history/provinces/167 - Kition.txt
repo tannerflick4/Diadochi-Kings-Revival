@@ -1,0 +1,18 @@
+# 167 - Kition
+
+# County Title
+title = c_kition
+
+# Settlements
+max_settlements = 4
+b_kition_kition = castle
+b_amathus_kition = city
+b_idalion_kition = castle
+b_tamassos_kition = castle
+
+# Misc
+culture = arcadian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

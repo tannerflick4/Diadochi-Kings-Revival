@@ -1,0 +1,52 @@
+# 23301-23400 for the Kephallenioi dynasty
+23301 = {
+	name = "Galenos" # Ruler of Cephalonia, Made up
+	dynasty = 2034 # Kephallenioi
+	religion = greek_main
+	culture = doric
+	365.1.1 = {
+		birth="yes" # 411 BC 
+	}
+	434.1.1 = {
+		death="yes" # 342 BC
+	}
+}
+23302 = {
+	name = "Epiktetos" # Ruler of Cephalonia, Made up
+	dynasty = 2034 # Kephallenioi
+	religion = greek_main
+	culture = doric
+	father = 23301
+	404.1.1 = { # Made up
+		birth="yes" # 372 BC
+	}
+	443.1.1 = { # Made up
+		death="yes" # 333 BC
+	}
+}
+23303 = {
+	name = "Epiktetos" # Ruler of Cephalonia, Made up
+	dynasty = 2034 # Kephallenioi
+	religion = greek_main
+	culture = doric
+	father = 23302
+	435.1.1 = {
+		birth="yes" # 341 BC
+	}
+	489.1.1 = { 
+		death="yes" # 287 BC
+	}
+}
+23304 = {
+	name = "Paramonos" # Ruler of Cephalonia, Made up
+	dynasty = 2034 # Kephallenioi
+	religion = greek_main
+	culture = doric
+	father = 23303
+	457.1.1 = { 
+		birth="yes" # 319 BC
+	}
+	521.1.1 = {
+		death="yes" # 255 BC
+	}
+}

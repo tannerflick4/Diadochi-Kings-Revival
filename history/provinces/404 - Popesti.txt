@@ -1,0 +1,17 @@
+# 404 - Popesti
+
+# County Title
+title = c_popesti
+
+# Settlements
+max_settlements = 3
+b_popesti_popesti = castle
+b_alexandria_popesti = city
+b_telendova_popesti = temple
+
+# Misc
+culture = dacian
+religion = zalmoxism
+
+# History
+# Can be filled when things change around the province

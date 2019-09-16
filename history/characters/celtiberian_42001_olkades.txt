@@ -1,0 +1,27 @@
+# 420001-420100 for the Olcades dynasty
+420001 = {
+	name = "Eskutino" # Made up Olcades leader
+	dynasty = 42001
+	culture = celtiberian
+	religion = celtic_main
+	
+	385.1.1 = { # 391 BC, Made up
+		birth="yes"
+	}
+	465.1.1 = { # 311 BC
+		death="yes"
+	}
+}
+420002 = {
+	name = "Builbos" # Made up Olcades leader
+	dynasty = 42001
+	culture = celtiberian
+	religion = celtic_main
+	
+	416.1.1 = { # 360 BC, Made up
+		birth="yes"
+	}
+	496.1.1 = { # 280 BC
+		death="yes"
+	}
+}

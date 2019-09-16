@@ -1,0 +1,9 @@
+416.1.1 = { # 360 BC
+	holder = 320501 # Wadal-L'el
+}
+461.1.1 = { # 315 BC
+	holder = 320502 # Cain
+}
+487.1.1 = { # 289 BC
+	holder = 320503 # Dani'el
+}

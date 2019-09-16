@@ -1,0 +1,18 @@
+# 3 - Eretria
+
+# County Title
+title = c_eretria # for example c_corinth
+
+# Settlements
+max_settlements = 4 # Should be reevaluated
+b_eretria_eretria = castle
+b_tamynai_eretria = temple
+b_karystos_eretria = city
+b_styra_eretria = castle
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

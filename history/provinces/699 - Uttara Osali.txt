@@ -1,0 +1,15 @@
+# 699 - Uttara Osali
+
+# County Title
+title = c_uttara_osali
+
+# Settlements
+max_settlements = 1
+b_uttara_osali_uttara_osali = castle
+
+# Misc
+culture = telegu
+religion = jainism_main
+
+# History
+# Can be filled when things change around the province

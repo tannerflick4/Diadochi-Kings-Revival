@@ -1,0 +1,17 @@
+# 537 - Dakus
+
+# County Title
+title = c_dakus
+
+# Settlements
+max_settlements = 3
+b_dakus_dakus = castle
+b_papaios_dakus = temple
+b_targitaios_dakus = temple
+
+# Misc
+culture = scythian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

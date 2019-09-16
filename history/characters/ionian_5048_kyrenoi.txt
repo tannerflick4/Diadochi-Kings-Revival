@@ -1,0 +1,13 @@
+# 54201-54300 for the Kyrenoi dynasty
+54201 = {
+	name = "Hieronymos" # Cyrene, Made Up
+	dynasty = 5048 # Kyrenoi
+	religion = greek_main
+	culture = ionian
+	400.1.1 = {
+		birth="yes" # 376 BC Made Up
+	}
+	483.1.1 = {
+		death="yes" # 293 BC Made Up
+	}
+}

@@ -1,0 +1,18 @@
+# 153 - Syene
+
+# County Title
+title = c_syene
+
+# Settlements
+max_settlements = 4
+b_syene_syene = castle
+b_omboi_syene = temple
+b_elephantine_syene = city
+b_telelis_syene = castle
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

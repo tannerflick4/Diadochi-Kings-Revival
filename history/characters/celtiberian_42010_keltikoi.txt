@@ -1,0 +1,14 @@
+# 420901-421000 for the Celtici dynasty
+420901 = {
+	name = "Kasilos" # Made up Celtici leader
+	dynasty = 42010
+	culture = celtiberian
+	religion = celtic_main
+	
+	385.1.1 = { # 391 BC, Made up
+		birth="yes"
+	}
+	466.1.1 = { # 309 BC
+		death="yes"
+	}
+}

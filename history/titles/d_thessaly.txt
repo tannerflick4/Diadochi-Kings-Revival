@@ -1,0 +1,32 @@
+402.1.1 = { # 374 BC
+	holder = 30402 # Jason
+}
+406.1.1 = { # 370 BC
+	holder = 30403 # Polydoros
+}
+407.1.1 = { # 371 BC
+	holder = 30405 # Polyphron
+}
+407.2.1 = { # 371 BC
+	holder = 30406 # Alexandros
+}
+418.1.1 = { # 358 BC
+	holder = 30407 # Tisiphonos
+}
+421.1.1 = { # 355 BC
+ 	holder = 30409 # Lykophron
+}
+424.1.1 = { # 352 BC
+	holder = 803 # Philip II
+	liege = k_macedon
+}
+426.1.1 = {
+	liege = e_macedonia
+}
+440.10.1 = {
+	holder = 802
+}
+453.6.10 = {
+	holder = 0
+	liege = 0
+}

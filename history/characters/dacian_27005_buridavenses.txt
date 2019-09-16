@@ -1,0 +1,51 @@
+# 270401-270500 for the Buridavenses dynasty
+270401 = {
+	name = "Oroles" # Made up
+	dynasty = 27005 # Buridavenses
+	culture = dacian
+	religion = zalmoxism
+	father = 270403
+	441.1.1 = { # 335 BC, Made up
+		birth="yes"
+	}
+	467.1.1 = { # 309 BC, Made up
+		death="yes"
+	}
+}
+270402 = {
+	name = "Mucapor" # Made up
+	dynasty = 27005
+	culture = dacian
+	religion = zalmoxism
+	464.1.1 = { # Made up
+		birth="yes" # 312 BC
+	}
+	526.1.1 = { # Made up
+		death="yes" # 250 BC
+	}
+}
+270403 = {
+	name = "Scorylo" # Made up
+	dynasty = 27005 # Buridavenses
+	culture = dacian
+	religion = zalmoxism
+	father = 270404
+	420.1.1 = {
+		birth="yes" # 356 BC Made Up
+	}
+	452.1.1 = {
+		death="yes" # 324 BC Made Up
+	}
+}
+270404 = {
+	name = "Dicomes" # Made up
+	dynasty = 27005 # Buridavenses
+	culture = dacian
+	religion = zalmoxism
+	388.1.1 = {
+		birth="yes" # 388 BC Made Up
+	}
+	434.1.1 = {
+		death="yes" # 342 BC Made Up
+	}
+}

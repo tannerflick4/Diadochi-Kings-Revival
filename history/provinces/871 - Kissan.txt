@@ -1,0 +1,15 @@
+# 871 - Kissan
+
+# County Title
+title = c_kissan
+
+# Settlements
+max_settlements = 1
+b_kissan_kissan = castle
+
+# Misc
+culture = berber
+religion = berber_main
+
+# History
+# Can be filled when things change around the province

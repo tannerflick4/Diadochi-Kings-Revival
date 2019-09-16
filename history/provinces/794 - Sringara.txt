@@ -1,0 +1,15 @@
+# 794 - Sringara
+
+# County Title
+title = c_sringara
+
+# Settlements
+max_settlements = 1
+b_sringara_sringara = castle
+
+# Misc
+culture = gandhari
+religion = buddhism_main
+
+# History
+# Can be filled when things change around the province

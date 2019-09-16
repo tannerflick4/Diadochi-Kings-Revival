@@ -1,0 +1,18 @@
+# 841 - Nyssa
+
+# County Title
+title = c_nyssa
+
+# Settlements
+max_settlements = 4
+b_nyssa_nyssa = castle
+b_andraka_nyssa = city
+b_parnassos_nyssa = castle
+b_nitazi_nyssa = castle
+
+# Misc
+culture = cappadocian
+religion = anatolian_main
+
+# History
+# Can be filled when things change around the province

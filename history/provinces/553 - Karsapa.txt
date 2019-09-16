@@ -1,0 +1,15 @@
+# 553 - Karsapa
+
+# County Title
+title = c_karsapa
+
+# Settlements
+max_settlements = 1
+b_karsapa_karsapa = castle
+
+# Misc
+culture = scythian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

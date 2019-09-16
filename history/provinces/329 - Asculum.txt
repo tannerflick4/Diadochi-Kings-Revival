@@ -1,0 +1,24 @@
+# 329 - Asculum
+
+# County Title
+title = c_asculum # for example c_corinth
+
+# Settlements
+max_settlements = 6 # Should be reevaluated
+b_asculum_asculum = castle
+b_novana_asculum = city
+b_hadria_asculum = temple
+b_vicus_badies_asculum = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+#
+#
+#
+#
+
+# Misc
+culture = picene
+religion = roman_main
+
+# History
+# Can be filled when things change around the province

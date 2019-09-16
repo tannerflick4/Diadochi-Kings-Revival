@@ -1,0 +1,52 @@
+# 270701-270800 for the Ansamenses dynasty
+270701 = {
+	name = "Tarbus" # Made up
+	dynasty = 27008 # Ansamenses
+	culture = dacian
+	religion = zalmoxism
+	father = 270703
+	426.1.1 = { # 350 BC, Made up
+		birth="yes"
+	}
+	463.1.1 = { # 313 BC, Made up
+		death="yes"
+	}
+}
+270702 = {
+	name = "Decaeneus" # Made up
+	dynasty = 27008 # Ansamenses
+	culture = dacian
+	religion = zalmoxism
+	father = 270701
+	445.1.1 = { # Made up
+		birth="yes" # 351 BC
+	}
+	513.1.1 = { # Made up
+		death="yes" # 263 BC
+	}
+}
+270703 = {
+	name = "Diurpaneus" # Made up
+	dynasty = 27008 # Ansamenses
+	culture = dacian
+	religion = zalmoxism
+	father = 270704
+	387.1.1 = {
+		birth="yes" # 389 BC Made Up
+	}
+	446.1.1 = {
+		death="yes" # 330 BC Made Up
+	}
+}
+270704 = {
+	name = "Comosicus" # Made up
+	dynasty = 27008 # Ansamenses
+	culture = dacian
+	religion = zalmoxism
+	360.1.1 = {
+		birth="yes" # 416 BC Made Up
+	}
+	429.1.1 = {
+		death="yes" # 347 BC Made Up
+	}
+}

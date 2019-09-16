@@ -1,0 +1,200 @@
+# 10001-10100 for the Aiakidai dynasty
+10001 = {
+	name = "Aiakides" # Aeacides, King of Epirus
+	dynasty = 1001 # Aiakidai
+	religion = greek_main
+	culture = doric
+	father = 10003 # Arybbas
+	mother = 10007 # Troas
+	420.1.1 = { # 356 BC, made up
+		birth="yes" 
+	}	
+	463.1.1 = { # 313 BC, Died in battle vs Macedonians
+		death = {
+			death_reason = death_battle 
+		}
+	}
+}
+10002 = {
+	name = "Neoptolemos" # Neoptolemus, satrap of Armenia
+	dynasty = 1001 # Aiakidai
+	religion = greek_main
+	culture = doric
+	
+	add_trait = strong # First to scale the walls of Gaza
+	add_trait = stressed # Restless
+	add_trait = deceitful
+	add_trait = tough_soldier
+	
+	424.1.1 = {
+		birth="yes" # 354 BC
+	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	455.1.1 = {
+		death = {
+			death_reason = death_battle # 321 BC Died in battle against Eumenes
+		}
+	}
+}
+10003 = {
+	name = "Arybbas" # Arybbas, King of Epirus
+	dynasty = 1001 # Aiakidai
+	religion = greek_main
+	culture = doric
+	father = 10006
+	384.1.1 = { # 394 BC Made up
+		birth="yes"
+	}
+	418.1.1 = {
+		add_spouse = 10007 # Troas
+	}
+	457.1.1 = { # 319 BC Made up
+		death="yes"
+	}
+}
+10004 = {
+	name = "Alketas" # Alcetas II, King of Epirus
+	dynasty = 1001 # Aiakidai
+	religion = greek_main
+	culture = doric
+	father = 10003	# Arybbas
+	mother = 10007 # Troas
+	
+	add_trait = wroth # He had a temper
+	
+	415.1.1 = { # 361 BC Made up
+		birth="yes"
+	}
+	469.1.1 = { # 307 BC
+		death = {
+			death_reason = death_execution
+		}
+	}
+}
+10005 = {
+	name = "Neoptolemos" # Neoptolemus I, King of Epirus
+	dynasty = 1001 # Aiakidai
+	religion = greek_main
+	culture = doric
+	father = 10006
+	381.1.1 = { # 397 BC Made up
+		birth="yes"
+	}
+	416.1.1 = { # 360 BC
+		death="yes"
+	}
+}
+10006 = {
+	name = "Alketas" # Alcetas I, King of Epirus
+	dynasty = 1001 # Aiakidai
+	religion = greek_main
+	culture = doric
+	356.1.1 = { # 422 BC Made up
+		birth="yes"
+	}
+	406.1.1 = { # 370 BC
+		death="yes"
+	}
+}
+10007 = {
+	name = "Troas" # Troas, daughter of Neoptolemus I
+	dynasty = 1001 # Aiakidai
+	religion = greek_main
+	culture = doric
+	female = yes
+	father = 10005 # Neoptolemus I
+	398.1.1 = { # 378 BC Made up
+		birth="yes"
+	}
+	418.1.1 = {
+		add_spouse = 10003 # Arybbas
+	}
+	457.1.1 = { # 319 BC Made up
+		death="yes"
+	}
+}
+10008 = {
+	name = "Alexandros" # Alexander I, King of Epirus
+	dynasty = 1001 # Aiakidai
+	religion = greek_main
+	culture = doric
+	father = 10005
+	
+	add_trait = skilled_tactician
+	
+	406.1.1 = { # 370 BC
+		birth="yes"
+	}
+	440.10.1 = { # 336 BC
+		add_spouse = 809 # Kleopatra of Macedon
+	}
+	445.1.1 = { # 331 BC
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+10009 = {
+	name = "Neoptolemos" # Neoptolemus II, King of Epirus
+	dynasty = 1001 # Aiakidai
+	religion = greek_main
+	culture = doric
+	father = 10008 # Alexander I
+	mother = 809 # Kleopatra of Macedon
+	445.1.1 = { #331 BC
+		birth="yes"
+	}
+	479.1.1 = { # 297 BC
+		death="yes"
+	}
+}
+10010 = {
+	name = "Pyrrhos" # The famous Pyrrhus of Epirus
+	dynasty = 1001 # Aiakidai
+	religion = greek_main
+	culture = doric
+	father = 10001 # Aiakides
+	
+	martial = 10
+	
+	add_trait = brilliant_strategist
+	add_trait = wroth
+	add_trait = stressed
+	add_trait = kind
+	
+	457.1.1 = {
+		birth="yes" # 319 BC
+	}
+	481.1.1 = { # 295 BC
+		add_spouse = 22702 # Lanassa
+	}
+	485.1.1 = { # 291 BC
+		remove_spouse = 22702 # Lanassa married Demetrius
+	}
+	504.1.1 = {
+		death="yes" # 272 BC
+	}
+}
+10011 = {
+	name = "Olympias" # Alexander's mother
+	dynasty = 1001 # Aiakidai
+	religion = greek_main
+	culture = doric
+	father = 10005 # Neoptolemus I
+	female = yes
+	
+	add_trait = envious
+	add_trait = intricate_webweaver
+	add_trait = proud
+	
+	401.1.1 = { # 375 BC
+		birth="yes"
+	}
+	460.1.15 = { # 316 BC
+		death = {
+			death_reason = death_execution
+		}
+	}
+}

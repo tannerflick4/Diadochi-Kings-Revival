@@ -1,0 +1,16 @@
+# 582 - Satakata
+
+# County Title
+title = c_satakata
+
+# Settlements
+max_settlements = 2
+b_satakata_satakata = castle
+b_iaca_satakata = city
+
+# Misc
+culture = chorasmian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

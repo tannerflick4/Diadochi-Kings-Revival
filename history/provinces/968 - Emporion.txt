@@ -1,0 +1,21 @@
+# 968 - Emporion
+
+# County Title
+title = c_emporion
+
+# Settlements
+max_settlements = 2
+b_emporion_emporion = city
+b_rhode_emporion = castle
+
+# Misc
+culture = ionian
+religion = greek_main
+
+
+
+
+
+
+# History
+# Can be filled when things change around the province

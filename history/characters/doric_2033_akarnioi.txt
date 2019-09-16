@@ -1,0 +1,39 @@
+# 23201-23300 for the Akarnioi dynasty
+23201 = {
+	name = "Pelagios" # Ruler of Acarnania, Made up
+	dynasty = 2033 # Akarnioi
+	religion = greek_main
+	culture = doric
+	379.1.1 = {
+		birth="yes" # 397 BC
+	}
+	436.1.1 = { 
+		death="yes" # 340 BC
+	}
+}
+23202 = {
+	name = "Loukianos" # Ruler of Acarnania, Made up
+	dynasty = 2033 # Akarnioi
+	religion = greek_main
+	culture = doric
+	father = 23201
+	407.1.1 = {
+		birth="yes" # 369 BC
+	}
+	480.1.1 = {
+		death="yes" # 296 BC
+	}
+}
+23203 = {
+	name = "Pelagios" # Ruler of Acarnania, Made up
+	dynasty = 2033 # Akarnioi
+	religion = greek_main
+	culture = doric
+	father = 23202
+	439.1.1 = { # Made up
+		birth="yes" # 337 BC
+	}
+	502.1.1 = { # Made up
+		death="yes" # 274 BC
+	}
+}

@@ -1,0 +1,39 @@
+# 54401-54500 for the Barkoi dynasty
+54401 = {
+	name = "Theodoros" # Cyrene, Made Up
+	dynasty = 5050 # Barkoi
+	religion = greek_main
+	culture = ionian
+	380.1.1 = {
+		birth="yes" # 396 BC Made Up
+	}
+	447.1.1 = {
+		death="yes" # 329 BC Made Up
+	}
+}
+54402 = {
+	name = "Anaxagoras" # Cyrene, Made Up
+	dynasty = 5050 # Barkoi
+	religion = greek_main
+	culture = ionian
+	father = 54401
+	403.1.1 = {
+		birth="yes" # 373 BC Made Up
+	}
+	455.1.1 = {
+		death="yes" # 321 BC Made Up
+	}
+}
+54403 = {
+	name = "Xenophon" # Cyrene, Made Up
+	dynasty = 5050 # Barkoi
+	religion = greek_main
+	culture = ionian
+	father = 54402
+	439.1.1 = {
+		birth="yes" # 337 BC Made Up
+	}
+	491.1.1 = {
+		death="yes" # 285 BC Made Up
+	}
+}

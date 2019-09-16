@@ -1,0 +1,46 @@
+# 90001-90100 for the Aturpat dynasty
+90001 = {
+	name = "Aturpat" # Atropates, satrap of Lesser Media
+	dynasty = 9001 # Aturpat
+	religion = zoroastrian_main
+	culture = persian
+	
+	add_trait = content
+	
+	406.1.1 = {
+		birth="yes" # 370 BC
+	}
+	480.1.1 = {
+		death="yes" # 296 BC, made up
+	}
+}
+90002 = {
+	name = "Frenay" # Unnamed daughter of Atropates, wife of Perdiccas
+	dynasty = 9001 # Aturpat
+	religion = zoroastrian_main
+	culture = persian
+	female = yes
+	father = 90001
+	431.1.1 = { # 345 BC Made up
+		birth="yes"
+	}
+	452.1.1 = { # 324 BC
+		add_spouse = 901 # Perdiccas
+	}
+	462.1.1 = { # 314 BC Made up
+		death="yes"
+	}
+}
+90003 = {
+	name = "Bardiya" # Made up king of Atropatene
+	dynasty = 9001 # Aturpat
+	religion = zoroastrian_main
+	culture = persian
+	father = 90001
+	443.1.1 = { # Made up
+		birth="yes" # 343 BC
+	}
+	509.1.1 = { # Made up
+		death="yes" # 267 BC
+	}
+}

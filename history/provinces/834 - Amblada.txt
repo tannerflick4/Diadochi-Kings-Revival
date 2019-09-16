@@ -1,0 +1,18 @@
+# 834 - Amblada
+
+# County Title
+title = c_amblada
+
+# Settlements
+max_settlements = 4
+b_amblada_amblada = castle
+b_mistea_amblada = city
+b_ouasada_amblada = city
+b_isaura_amblada = castle
+
+# Misc
+culture = luwian
+religion = anatolian_main
+
+# History
+# Can be filled when things change around the province

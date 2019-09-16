@@ -1,0 +1,20 @@
+# 435 - Arae Flaviae
+
+# County Title
+title = c_arae_flaviae
+
+# Settlements
+max_settlements = 4
+b_tenedo_arae_flaviae = castle
+b_tasgetium_arae_flaviae = city
+b_constantia_arae_flaviae = city
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_arae_flaviae_arae_flaviae
+
+# Misc
+culture = raetic
+religion = etruscan_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,16 @@
+# 603 - Ugravarka
+
+# County Title
+title = c_ugravarka
+
+# Settlements
+max_settlements = 2
+b_ugravarka_ugravarka = castle
+b_lewleca_ugravarka = temple
+
+# Misc
+culture = scythian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

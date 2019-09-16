@@ -1,0 +1,16 @@
+# 643 - Kashkar
+
+# County Title
+title = c_kashkar
+
+# Settlements
+max_settlements = 2
+b_kashkar_kashkar = castle
+b_apamea_kashkar = city
+
+# Misc
+culture = akkadian
+religion = marduk_cult
+
+# History
+# Can be filled when things change around the province

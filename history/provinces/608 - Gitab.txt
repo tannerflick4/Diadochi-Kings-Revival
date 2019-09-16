@@ -1,0 +1,17 @@
+# 608 - Gitab
+
+# County Title
+title = c_gitab
+
+# Settlements
+max_settlements = 3
+b_gitab_gitab = castle
+b_garukol_gitab = city
+b_bagaca_gitab = temple
+
+# Misc
+culture = scythian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,99 @@
+# 1701-1800 for the Krateridai dynasty
+1701 = {
+	name = "Krateros" # Krateros, 'guardian' of Philotas
+	dynasty = 18 # Krateridai
+	religion = greek_main
+	culture = macedonian
+	father = 1704
+	#employer = 501 # Philotas
+	
+	add_trait = tough_soldier
+	add_trait = heavy_infantry_leader
+	add_trait = inspiring_leader
+	add_trait = brave
+	
+	406.1.1 = { # 370 BC
+		birth="yes"
+	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	454.1.1 = { # 322 BC
+		add_spouse = 3 # Phila
+	}
+	455.1.1 = { # 321 BC
+		death = {
+			death_reason = death_battle
+			killer = 50101 # Eumenes
+		}
+	}
+}
+1702 = {
+	name = "Krateros" # Son of Craterus, the general
+	dynasty = 18 # Krateridai
+	religion = greek_main
+	culture = macedonian
+	father = 1701 # Krateros
+	mother = 3 # Phila
+	
+	#add_trait = diadochi_king
+	add_trait = scholarly_theologian
+	
+	455.1.1 = {
+		birth="yes" # 321 BC
+	}
+	513.1.1 = {
+		death="yes" # 263 BC
+	}
+}
+1703 = {
+	name = "Alexandros" # Grandson of Craterus, the general
+	dynasty = 18 # Krateridai
+	religion = greek_main
+	culture = macedonian
+	father = 1702 # Craterus the son
+	
+	#add_trait = diadochi_king
+	add_trait = deceitful
+	add_trait = ambitious
+	add_trait = skilled_tactician
+	
+	498.1.1 = { # Made up
+		birth="yes" # 278 BC
+	}
+	529.1.1 = {
+		death = {
+			death_reason = death_murder
+			killer = 408 # Antigonos Gonatas
+		}
+	}
+}
+1704 = {
+	name = "Alexandros" # Father of Craterus, the general
+	dynasty = 18 # Krateridai
+	religion = greek_main
+	culture = macedonian
+	
+	368.1.1 = { # Made up
+		birth="yes" # 408 BC
+	}
+	433.1.1 = { # Made up
+		death="yes" # 343 BC
+	}
+}
+1705 = {
+	name = "Amphoteros" # Brother of Craterus, the general
+	dynasty = 18 # Krateridai
+	religion = greek_main
+	culture = macedonian
+	father = 1704
+	409.1.1 = { # Made up
+		birth="yes" # 367 BC
+	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	462.1.1 = { # Made up
+		death="yes" # 314 BC
+	}
+}

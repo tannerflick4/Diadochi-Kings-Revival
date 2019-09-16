@@ -1,0 +1,158 @@
+# 350051-350075 for Amasis characters
+
+350051 = {
+	name = "Ahmose" #Amasis II, 570-526 BCE, last of the great pharaohs 
+	dynasty = 35004
+	culture = egyptian
+	religion = kemetic
+	add_trait = strong
+	add_trait = brave
+	add_trait = paranoid
+	add_trait = cruel
+	add_trait = just
+	intrigue = 7
+	martial = 10 
+	stewardship = 7
+	diplomacy = 7
+	190.1.1 = { #586 BCE, made up
+		birth="yes"
+	}
+	250.1.1 = { #526 BCE
+		death="yes"
+	}
+}
+350052 = {
+	name = "Psamtik" #Psamtik III
+	dynasty = 35004
+	culture = egyptian
+	religion = kemetic
+	father = 350051
+	216.1.1 = { #560 BCE, made up
+		birth="yes"
+	}
+	251.1.1 = { #525 BCE 
+		death = {
+			death_reason = death_battle
+			killer = 90302 #Cambyses
+		}
+	}
+}
+350053 = {
+	name = "Ahmose" #son of Psamtik III
+	dynasty = 35004
+	culture = egyptian
+	religion = kemetic
+	father = 350052
+	232.1.1 = { #544 BCE, made up
+		birth="yes"
+	}
+	251.1.1 = { #525 BCE 
+		death = {
+			death_reason = death_execution
+			killer = 90302 #Cambyses
+		}
+	}
+}
+350054 = {
+	name = "Ahmose" #Ahmose D
+	dynasty = 35004
+	culture = egyptian
+	religion = kemetic
+	father = 350051
+	236.1.1 = { #540 BCE, made up
+		birth="yes"
+	}
+	288.1.1 = { #488 BCE, made up
+		death="yes"
+	}
+}
+350055 = {
+	name = "Aryandes" #satrap of Egypt
+	dynasty = 35004
+	culture = egyptian
+	religion = kemetic
+	father = 350051
+	252.1.1 = { #535 BCE, made up
+		birth="yes"
+	}
+	312.1.1 = { #510 BCE 
+		death = {
+			death_reason = death_execution
+			killer = 90302 #Cambyses
+		}
+	}	
+}
+350056 = {
+	name = "Amenirdisu" #revolts with Inaros
+	dynasty = 35004
+	culture = egyptian
+	religion = kemetic
+	father = 350055
+	290.1.1 = { #486 BCE, made up
+		birth="yes"
+	}
+	332.1.1 = { #444 BCE, made up
+		death="yes"
+	}
+}
+350057 = {
+	name = "Pausiris" #father of Amyrtaeus, also killed by Nepherites
+	dynasty = 35004
+	culture = egyptian
+	religion = kemetic
+	father = 350056
+	320.1.1 = { #456 BCE, made up
+		birth="yes"
+	}
+	376.10.1 = { #398 BCE 
+		death = {
+			death_reason = death_execution
+			killer = 350016 #Nepherites I, at Memphis
+		}
+	}
+}
+350058 = {
+	name = "Amenirdisu" #ruler of Egypt, 404-399
+	dynasty = 35004
+	culture = egyptian
+	religion = kemetic
+	father = 350057
+	341.1.1 = { #435 BCE, made up
+		birth="yes"
+	}
+	376.10.1 = { #398 BCE 
+		death = {
+			death_reason = death_execution
+			killer = 350016 #Nepherites I, at Memphis
+		}
+	}
+}
+350059 = {
+	name = "Pasenenkhonsu" #son of Psamtik III, father of Inaros II
+	dynasty = 35004
+	culture = egyptian
+	religion = kemetic
+	father = 350052
+	245.1.1 = { #531 BCE, made up
+		birth="yes"
+	}
+	301.1.1 = { #475 BCE
+		death="yes"
+	}
+}
+350060 = {
+	name = "Inarus" #Inaros II
+	dynasty = 35004
+	culture = egyptian
+	religion = kemetic
+	father = 350059
+	280.1.1 = { #496 BCE, made up
+		birth="yes"
+	}
+	322.1.1 = { #454 BCE
+		death = {
+			death_reason = death_execution
+			killer = 90307 #wife of Artaxerxes I, Amestris
+		}
+	}
+}

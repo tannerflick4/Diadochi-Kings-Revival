@@ -1,0 +1,18 @@
+# 463 - Neogilla
+
+# County Title
+title = c_neogilla
+
+# Settlements
+max_settlements = 3
+b_neogilla_neogilla = castle
+b_ausara_neogilla = city
+b_banum_neogilla = city
+#b_embolum_neogilla = castle
+
+# Misc
+culture = arabic
+religion = arabic_main
+
+# History
+# Can be filled when things change around the province

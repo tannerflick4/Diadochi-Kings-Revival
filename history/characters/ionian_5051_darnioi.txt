@@ -1,0 +1,26 @@
+# 54501-54600 for the Darnioi dynasty
+54501 = {
+	name = "Eirenaios" # Cyrene, Made Up
+	dynasty = 5051 # Darnioi
+	religion = greek_main
+	culture = ionian
+	403.1.1 = {
+		birth="yes" # 373 BC Made Up
+	}
+	448.1.1 = {
+		death="yes" # 328 BC Made Up
+	}
+}
+54502 = {
+	name = "Eumenes" # Cyrene, Made Up
+	dynasty = 5051 # Darnioi
+	religion = greek_main
+	culture = ionian
+	father = 54501
+	429.1.1 = {
+		birth="yes" # 347 BC Made Up
+	}
+	475.1.1 = {
+		death="yes" # 301 BC Made Up
+	}
+}

@@ -1,0 +1,11 @@
+453.6.10 = {
+	holder = 1
+	liege = e_macedonia
+}
+457.1.1 = {
+	holder = 1601 # Polyperchon
+}
+467.1.1 = {
+	holder = 0
+	liege = 0
+}

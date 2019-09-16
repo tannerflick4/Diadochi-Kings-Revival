@@ -1,0 +1,26 @@
+# 52301-52400 for the Himerioi dynasty
+52301 = {
+	name = "Lykourgos" # Himera, made up
+	dynasty = 5029 # Himerioi
+	religion = greek_main
+	culture = ionian
+	father = 52302
+	435.1.1 = { # 341 BC
+		birth="yes"
+	}
+	520.1.1 = { # 256 BC
+		death="yes"
+	}
+}
+52302 = {
+	name = "Iason" # Himera, made up
+	dynasty = 5029
+	religion = greek_main
+	culture = ionian
+	405.1.1 = {
+		birth="yes" # 371 BC Made Up
+	}
+	462.1.1 = {
+		death="yes" # 314 BC Made Up
+	}
+}

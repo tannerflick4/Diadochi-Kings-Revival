@@ -1,0 +1,20 @@
+# 430 - Augusta Praetoria
+
+# County Title
+title = c_augusta_praetoria
+
+# Settlements
+max_settlements = 3
+b_eudracinum_augusta_praetoria = castle
+b_arebrigium_augusta_praetoria = city
+b_ariolica_augusta_praetoria = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_augusta_praetoria_augusta_praetoria
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

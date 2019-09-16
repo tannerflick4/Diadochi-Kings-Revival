@@ -1,0 +1,18 @@
+# 738 - Indraprastha
+
+# County Title
+title = c_indraprastha
+
+# Settlements
+max_settlements = 4
+b_indraprastha_indraprastha = castle
+b_salibhavana_indraprastha = city
+b_rohitaka_indraprastha = castle
+b_swarnaprastha_indraprastha = city
+
+# Misc
+culture = shauraseni
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

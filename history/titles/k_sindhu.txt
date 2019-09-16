@@ -1,0 +1,14 @@
+402.1.1 = { # 374 BC
+	holder = 121401 # Rurak
+}
+451.1.1 = {
+	holder = 0
+	liege = 0
+}
+456.1.1 = { # 320 BC
+	holder = 121401 # Rurak
+	liege = e_india
+}
+469.1.1 = { # 307 BC
+	holder = 121403 # Harak
+}

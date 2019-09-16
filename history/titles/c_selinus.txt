@@ -1,0 +1,10 @@
+402.1.1 = { # 374 BC
+	holder = 52202
+	liege = k_syracuse
+}
+428.1.1 = { # 348 BC
+	liege = 0
+}
+450.1.1 = { # 326 BC
+	holder = 52201
+}

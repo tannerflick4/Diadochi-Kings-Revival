@@ -1,0 +1,19 @@
+# 1222 - Cromiussa
+
+# County Title
+title = c_cromiussa
+
+# Settlements
+max_settlements = 4
+b_kromioussa_cromiussa = castle
+#b_pollentia_cromiussa = city
+#b_palmaria_cromiussa = temple
+b_bocchoris_cromiussa = castle
+
+# Misc
+culture = punic
+religion = punic_main
+
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,52 @@
+# 310201-310300 for the Lihyani dynasty
+310201 = {
+	name = "Mas'ud" # Lihyan
+	dynasty = 31003 # Lihyani
+	religion = arabic_main
+	culture = nabataean
+	father = 310204
+	420.1.1 = {
+		birth="yes" # 356 BC Made up
+	}
+	465.1.1 = {
+		death="yes" # 311 BC Made up
+	}
+}
+310202 = {
+	name = "Shahr" # Lihyan
+	dynasty = 31003 # Lihyani
+	religion = arabic_main
+	culture = nabataean
+	father = 310201 # Mas'ud
+	461.1.1 = {
+		birth="yes" # 315 BC Made up
+	}
+	519.1.1 = {
+		death="yes" # 257 BC Made up
+	}
+}
+310203 = {
+	name = "Hinas" # Lihyan, Made up
+	dynasty = 31003 # Lihyani
+	religion = arabic_main
+	culture = nabataean
+	father = 310202 # Shahr
+	500.1.1 = {
+		birth="yes" # 276 BC Made up
+	}
+	537.1.1 = {
+		death="yes" # 239 BC Made up
+	}
+}
+310204 = {
+	name = "Hana" # Lihyan Made up
+	dynasty = 31003 # Lihyani
+	religion = arabic_main
+	culture = nabataean
+	399.1.1 = { # 377 BC
+		birth="yes"
+	}
+	445.1.1 = { # 331 BC
+		death="yes"
+	}
+}

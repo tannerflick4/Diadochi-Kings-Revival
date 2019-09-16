@@ -1,0 +1,16 @@
+# 514 - Arungasti
+
+# County Title
+title = c_arungasti
+
+# Settlements
+max_settlements = 2
+b_arungasti_arungasti = castle
+b_badar_arungasti = city
+
+# Misc
+culture = sarmatian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

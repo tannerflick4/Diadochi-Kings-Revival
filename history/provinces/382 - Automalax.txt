@@ -1,0 +1,20 @@
+# 382 - Automalax
+
+# County Title
+title = c_automalax
+
+# Settlements
+max_settlements = 4
+b_boreum_automalax = city
+b_automalax_automalax = castle
+b_comidanum_automalax = city
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_tugulus_automalax
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

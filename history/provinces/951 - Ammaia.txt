@@ -1,0 +1,18 @@
+# 951 - Ammaia
+
+# County Title
+title = c_ammaia
+
+# Settlements
+max_settlements = 4
+b_ammaia_ammaia = castle
+#b_tubucci_ammaia = city
+b_aritium_ammaia = city
+b_matusarum_ammaia = castle
+
+# Misc
+culture = lusitanian
+religion = lusitanian_main
+
+# History
+# Can be filled when things change around the province

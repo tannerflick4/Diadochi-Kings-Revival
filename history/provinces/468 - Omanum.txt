@@ -1,0 +1,19 @@
+# 468 - Omanum
+
+# County Title
+title = c_omanum
+
+# Settlements
+max_settlements = 5
+b_omanum_omanum = castle
+b_nagara_omanum = temple
+b_latea_omanum = city
+b_hieracum_omanum = city
+#b_libanotophoros_omanum = city
+
+# Misc
+culture = arabic
+religion = arabic_main
+
+# History
+# Can be filled when things change around the province

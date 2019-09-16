@@ -1,0 +1,17 @@
+# 661 - Lankapuri
+
+# County Title
+title = c_lankapuri
+
+# Settlements
+max_settlements = 3
+b_lankapuri_lankapuri = castle
+b_nikumbila_lankapuri = castle
+b_kelaniya_lankapuri = city
+
+# Misc
+culture = tamil
+religion = dravidian_main
+
+# History
+# Can be filled when things change around the province

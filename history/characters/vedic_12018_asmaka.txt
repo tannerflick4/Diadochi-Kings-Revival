@@ -1,0 +1,26 @@
+# 121701-121800 for the Asmaka dynasty
+121701 = {
+	name = "Devasena" # Made up
+	dynasty = 12115
+	religion = jainism_main
+	culture = maharashtri
+	399.1.1 = { # 377 BC
+		birth="yes"
+	}
+	472.1.1 = { # 304 BC
+		death="yes"
+	}
+}
+121702 = {
+	name = "Prithvisena" # Made up
+	dynasty = 12115
+	religion = jainism_main
+	culture = maharashtri
+	father = 121701
+	424.1.1 = { # 352 BC
+		birth="yes"
+	}
+	506.1.1 = { # 270 BC
+		death="yes"
+	}
+}

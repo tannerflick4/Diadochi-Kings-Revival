@@ -1,0 +1,22 @@
+# 68 - Dardani
+
+# County Title
+title = c_dardani # for example c_corinth
+
+# Settlements
+max_settlements = 6 
+b_dardania_dardani = castle
+b_venden_dardani = castle
+b_celiana_dardani = city
+b_trepica_dardani = city
+b_runica_dardani = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_socanica_dardani
+
+# Misc
+culture = illyrian
+religion = illyrian_main
+
+# History
+# Can be filled when things change around the province

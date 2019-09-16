@@ -1,0 +1,16 @@
+# 340 - Karavapana
+
+# County Title
+title = c_karavapana
+
+# Settlements
+max_settlements = 2
+b_karavapana_karavapana = castle
+b_plaksha_karavapana = city
+
+# Misc
+culture = shauraseni
+religion = buddhism_main
+
+# History
+# Can be filled when things change around the province

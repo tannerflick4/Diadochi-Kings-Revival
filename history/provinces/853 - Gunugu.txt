@@ -1,0 +1,16 @@
+# 853 - Gunugu
+
+# County Title
+title = c_gunugu
+
+# Settlements
+max_settlements = 2
+b_gunugu_gunugu = castle
+b_cartili_gunugu = city
+
+# Misc
+culture = berber
+religion = berber_main
+
+# History
+# Can be filled when things change around the province

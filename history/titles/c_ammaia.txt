@@ -1,0 +1,8 @@
+405.1.1 = { # 371 BC
+	holder = 430101 # Taporus
+	liege = d_lusitani
+}
+444.1.2 = { # 332 BC
+	holder = 430102 # Vendicus
+	liege = d_lusitani
+}

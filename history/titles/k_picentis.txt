@@ -1,0 +1,10 @@
+410.1.1 = { # 366 BC
+	holder = 190003	
+	law = succ_feudal_elective
+}
+451.1.1 = { # 325 BC
+	holder = 190001
+}
+471.1.1 = { # 305 BC
+	holder = 190002
+}

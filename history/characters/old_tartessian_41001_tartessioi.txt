@@ -1,0 +1,14 @@
+# 410001-410100 for the Tartessii dynasty
+410001 = {
+	name = "Arganthonios" # Made up Tartessii leader
+	dynasty = 41001
+	culture = old_tartessian
+	religion = iberian_main
+	
+	389.1.1 = { # 387 BC, Made up
+		birth="yes"
+	}
+	466.1.1 = { # 310 BC
+		death="yes"
+	}
+}

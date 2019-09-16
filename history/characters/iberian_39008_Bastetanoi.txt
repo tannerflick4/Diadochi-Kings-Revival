@@ -1,0 +1,14 @@
+# 390701-390800 for the Bastetani dynasty
+390701 = {
+	name = "Aiunesker" # Made up Bastetani leader
+	dynasty = 39008
+	culture = iberian
+	religion = iberian_main
+	
+	381.1.1 = { # 395 BC, Made up
+		birth="yes"
+	}
+	464.1.1 = { # 312 BC
+		death="yes"
+	}
+}

@@ -1,0 +1,51 @@
+405.1.1 = { # 371 BC
+	holder = 53501 # Euboulos
+	liege = k_r_athens
+}
+420.1.1 = { # 356 BC
+	holder = 53001	
+	liege = d_chalcidice
+}
+428.1.1 = { # 348 BC
+	holder = 803 # Philip II
+	liege = e_macedonia
+}
+440.10.1 = { # 336 BC
+	holder = 802
+}
+453.6.10 = { # 323 BC
+	holder = 1
+	liege = k_s_macedon
+}
+457.1.1 = { # 319 BC
+	holder = 1601 # Polyperchon
+}
+459.10.1 = { # 317 BC
+	holder = 2 # Kassandros
+	liege = k_macedon
+}
+479.1.1 = { # 297 BC
+	holder = 12 # Philippos IV
+}
+479.4.1 = { # 297 BC
+	holder = 13 # Antipater II
+}
+482.1.1 = { # 294 BC
+	holder = 402 # Demetrios
+	liege = e_asia
+}
+488.1.1 = { # 288 BC
+	holder = 10010 # Pyrrhus
+	liege = k_epirus
+}
+488.7.1 = { # 288 BC
+	holder = 30001 # Lysimachus
+	liege = k_odrysia
+}
+495.2.1 = { # 281 BC
+	holder = 603 # Arsinoe II
+	liege = k_macedon
+}
+495.8.1 = { # 281 BC
+	holder = 604 # Ptolemaios Keraunos
+}

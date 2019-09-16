@@ -1,0 +1,16 @@
+# 701 - Sada
+
+# County Title
+title = c_sada
+
+# Settlements
+max_settlements = 2
+b_sada_sada = castle
+b_mayuragiri_sada = temple
+
+# Misc
+culture = vedic # Magadhi
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

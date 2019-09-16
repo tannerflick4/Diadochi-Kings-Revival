@@ -1,0 +1,16 @@
+# 519 - Bagia
+
+# County Title
+title = c_bagia
+
+# Settlements
+max_settlements = 2
+b_bagia_bagia = castle
+b_abrapo_bagia = temple
+
+# Misc
+culture = sarmatian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,6 @@
+413.1.1 = { # 363 BC
+	holder = 121501 # Nayapala
+}
+463.1.1 = { # 313 BC
+	holder = 121502 # Pingala
+}

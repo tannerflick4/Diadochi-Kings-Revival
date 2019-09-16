@@ -1,0 +1,18 @@
+# 1220 - Untikesken
+
+# County Title
+title = c_untikesken
+
+# Settlements
+max_settlements = 3
+b_untikesken_untikesken= castle
+b_abariltur_untikesken = castle
+b_ilturo_untikesken = temple
+
+
+# Misc
+culture = iberian
+religion = iberian_main
+
+# History
+# Can be filled when things change around the province

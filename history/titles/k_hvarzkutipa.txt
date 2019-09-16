@@ -1,0 +1,6 @@
+413.1.1 = { # 363 BC
+	holder = 340002 # Azes
+}
+460.1.1 = { # 316 BC
+	holder = 340001 # Akrosander
+}

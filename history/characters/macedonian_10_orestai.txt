@@ -1,0 +1,28 @@
+# 901-1000 for the Orestai dynasty
+901 = {
+	name = "Perdikkas" # Perdiccas, Regent
+	dynasty = 10 # Orestai
+	religion = greek_main
+	culture = macedonian
+	#employer = 801 # Philip III
+	
+	add_trait = tough_soldier
+	add_trait = ambitious
+	add_trait = deceitful
+	
+	420.1.1 = { # 356 BC Made up
+		birth="yes"
+	}
+	452.1.1 = { # 324 BC
+		add_spouse = 90002 # Atropates' daughter
+	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	455.1.1 = { # 321 BC
+		death = {
+			death_reason = death_murder
+			killer = 1101 # Peithon
+		}
+	}
+}

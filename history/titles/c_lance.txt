@@ -1,0 +1,8 @@
+405.1.1 = { # 371 BC
+	holder = 421501 # Tureno
+	liege = d_astures
+}
+466.1.2 = { 
+	holder = 421502 # Sleitiu
+	liege = d_astures
+}

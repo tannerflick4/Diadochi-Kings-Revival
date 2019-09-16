@@ -1,0 +1,39 @@
+# 23701-23800 for the Elidai dynasty
+23701 = {
+	name = "Anaxagoras" # Ruler of Elis, Made up
+	dynasty = 2038 # Elidai
+	religion = greek_main
+	culture = doric
+	410.1.1 = {
+		birth="yes" # 366 BC
+	}
+	485.1.1 = {
+		death="yes" # 291 BC
+	}
+}
+23702 = {
+	name = "Hilarion" # Made up
+	dynasty = 2038 # Elidai
+	religion = greek_main
+	culture = doric
+	father = 23701
+	426.1.1 = {
+		birth="yes" # 350 BC
+	}
+	449.1.1 = {
+		death="yes" # 327 BC
+	}
+}
+23703 = {
+	name = "Theodosios" # Made up, ruler of Elis
+	dynasty = 2038 # Elidai
+	religion = greek_main
+	culture = doric
+	father = 23702
+	445.1.1 = {
+		birth="yes" # 331 BC
+	}
+	514.1.1 = {
+		death="yes" # 262 BC
+	}
+}

@@ -1,0 +1,20 @@
+# 166 - Paphos
+
+# County Title
+title = c_paphos
+
+# Settlements
+max_settlements = 4
+b_paphos_paphos = castle 
+b_soloi_paphos = city
+b_kourion_paphos = city
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_marion_paphos
+
+# Misc
+culture = arcadian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

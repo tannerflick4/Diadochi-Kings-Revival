@@ -1,0 +1,26 @@
+# 51901-52000 for the Amisoi dynasty
+51901 = {
+	name = "Iason" # Ruler of Amisos, Made up
+	dynasty = 5025 # Amisoi
+	religion = greek_main
+	culture = ionian
+	father = 51902
+	437.1.1 = { # Made up
+		birth="yes" # 339 BC
+	}
+	511.1.1 = { # Made up
+		death="yes" # 265 BC
+	}
+}
+51902 = {
+	name = "Androkles" # Ruler of Amisos, Made up	
+	dynasty = 5025 # Amisoi
+	religion = greek_main
+	culture = ionian
+	403.1.1 = {
+		birth="yes" # 373 BC
+	}
+	459.1.1 = {
+		death="yes" # 317 BC
+	}
+}

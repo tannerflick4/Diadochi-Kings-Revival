@@ -1,0 +1,26 @@
+# 120501-120600 for the Lanka dynasty
+120501 = {
+	name = "Kappiyanar" # Made up
+	dynasty = 12135
+	religion = dravidian_main
+	culture = tamil
+	395.1.1 = { # 381 BC
+		birth="yes"
+	}
+	473.1.1 = { # 303 BC
+		death="yes"
+	}
+}
+120502 = {
+	name = "Mudukudumi" # Made up
+	dynasty = 12135
+	religion = dravidian_main
+	culture = tamil
+	father = 120501
+	415.1.1 = { # 361 BC
+		birth="yes"
+	}
+	498.1.1 = { # 278 BC
+		death="yes"
+	}
+}

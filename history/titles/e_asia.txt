@@ -1,0 +1,9 @@
+467.1.1 = {
+	holder = 401 # Antigonos I
+}
+475.1.1 = {
+	holder = 402 # Demetrios Poliorketes
+}
+493.1.1 = {
+	holder = 408 # Antigonos Gonatas
+}

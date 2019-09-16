@@ -1,0 +1,8 @@
+# 320001-330000 for Arabian characters
+	# 320001-330100 for the Banubari dynasty
+	# 320101-330200 for the Saraceni dynasty
+	# 320201-330300 for the Yitha dynasty
+	# 320301-330400 for the Watar dynasty
+	# 320401-330500 for the Timnaam dynasty
+	# 320501-330600 for the Omani dynasty
+	# 320601-330700 for the Leantini dynasty

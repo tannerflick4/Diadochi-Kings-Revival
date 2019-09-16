@@ -1,0 +1,18 @@
+# 152 - Latopolis
+
+# County Title
+title = c_latopolis
+
+# Settlements
+max_settlements = 4
+b_latopolis_latopolis = castle
+b_apollopolis_latopolis = temple
+b_hierakonpolis_latopolis = city
+b_pathyris_latopolis = city
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

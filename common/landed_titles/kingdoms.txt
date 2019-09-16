@@ -1,0 +1,9291 @@
+k_bosphorus = {
+	color= { 50 0 50 }
+	color2= { 255 255 255 }
+	
+	capital = 55 # Pantikapaion
+	
+	d_sindica = {
+		color= { 50 0 25 }
+		color2= { 255 255 255 }
+		
+		c_phanagoria = {
+			color= { 50 0 25 }
+			color2= { 255 255 255 }
+			
+			b_phanagoria = {
+			}
+			b_hermonassa_phanagoria ={
+			}			
+			b_satyrou_mnema_phanagoria = {
+			}
+			b_tyrambe_phanagoria = {
+			}
+			b_kepoi_phanagoria = {
+			}
+		}
+		c_gorgippia = {
+			color= { 60 10 25 }
+			color2= { 255 255 255 }
+						
+			b_gorgippia_gorgippia = {
+			}
+			b_bata_gorgippia = {
+			}
+			b_torikos_gorgippia = {
+			}
+		}
+		c_pityous = {
+			color= { 40 0 15 }
+			color2= { 255 255 255 }
+								
+			b_pityous_pityous = {
+			}
+			b_torikos_pityous = {
+			}
+			b_masaitike_pityous = {
+			}
+		}
+		c_tanais = {
+			color= { 50 10 35 }
+			color2= { 255 255 255 }
+			
+			b_tanais_tanais = {
+			}
+			b_hygreis_tanais = {
+			}
+			b_karoia_tanais = {
+			}
+		}
+		c_azara = {
+			color= { 50 10 15 }
+			color2= { 255 255 255 }
+			
+			b_azara_azara = {
+			}
+			b_pataroue_azara = {
+			}
+			b_labrys_azara = {
+			}
+		}
+	}
+	d_taurica = {
+		color= { 75 0 25 }
+		color2= { 255 255 255 }
+		
+		c_pantikapaion = {
+			color= { 75 0 25 }
+			color2= { 255 255 255 }
+			
+			b_pantikapaion = {
+			}
+			b_nymphaion_pantikapaion = {
+			}
+			b_kimmerikon_pantikapaion = {
+			}			
+			b_sauromateion_pantikapaion = {
+			}
+			b_kazeka_pantikapaion = {
+			}
+		}
+		c_kerkinitis = {
+			color= { 85 10 25 }
+			color2= { 255 255 255 }
+			
+			b_kerkinitis = {
+			}
+			b_kalos_limen_kerkinitis = {
+			}			
+			b_charax_kerkinitis = {
+			}
+		}
+		c_chersonesos = {
+			color= { 65 0 15 }
+			color2= { 255 255 255 }
+			
+			b_chersonesos_chersonesos = {
+			}
+			b_theodosia_chersonesos = {
+			}
+			b_parthenion_chersonesos = {
+			}
+			b_lagyra_chersonesos = {
+			}
+		}
+	}
+	d_tyras = {
+		color= { 100 0 25 }
+		color2= { 255 255 255 }
+				
+		c_tyras = {
+			color= { 100 0 25 }
+			color2= { 255 255 255 }
+			
+			b_tyras_tyras = {
+			}
+			b_nikonion_tyras = {
+			}
+			b_antiphilou_tyras = {
+			}
+			b_kremniskoi_tyras = {
+			}
+		}
+		c_olbia = {
+			color= { 90 10 15 }
+			color2= { 255 255 255 }
+			
+			b_olbia_olbia = {
+			}
+			b_hippalaou_akra_olbia = {
+			}
+			b_scopuli_olbia = {
+			}
+			b_isiakon_limen_olbia = {
+			}
+		}
+		c_karkine = {
+			color= { 90 20 35 }
+			color2= { 255 255 255 }
+			
+			b_karkine_karkine = {
+			}
+			b_taphros_karkine = {
+			}
+		}
+	}
+}
+k_epirus = {
+	color= { 0 175 75 }
+	color2= { 255 255 255 }
+	
+	capital = 29 # Ambracia
+	
+	allow = {
+		culture = doric
+	}
+	
+	d_epirus = {
+		color= { 0 175 75 }
+		color2= { 255 255 255 }
+		
+		c_ambracia = {
+			color= { 0 175 75 }
+			color2= { 255 255 255 }
+			
+			b_ambracia_ambracia = {
+			}
+			b_ephyra_ambracia = {
+			}
+			b_nicopolis_ambracia = {
+			}
+			b_ambracus_ambracia = {
+			}
+			b_kassiope_ambracia = {
+			}
+			b_pandosia_ambracia = {
+			}
+			b_euroia_ambracia = {
+			}
+		}
+		c_ilium = {
+			color= { 10 165 75 }
+			color2= { 255 255 255 }
+			
+			b_ilium_ilium = {
+			}
+			b_dodona_ilium = {
+			}
+			b_torone_ilium = {
+			}
+			b_paramythia_ilium = {
+			}
+			b_elina_ilium = {
+			}
+			b_klimatia_ilium = {
+			}
+			b_passaron_ilium = {
+			}
+		}
+		c_amantia = {
+			color= { 0 185 65 }
+			color2= { 255 255 255 }
+			
+			b_amantia_amantia = {
+			}
+			b_phoinike_amantia = {
+			}
+			b_chimaira_amantia = {
+			}
+			b_omphalion_amantia = {
+			}
+			b_onchesmos_amantia = {
+			}
+			b_orikon_amantia = {
+			}
+			b_kestria_amantia = {
+			}
+		}
+	}
+}
+k_odrysia = {
+	color= { 150 75 0 }
+	color2= { 255 255 255 }
+	
+	capital = 39 # Seuthopolis
+	
+	allow = {
+		culture = thracian
+		liege = {
+			not = { has_landed_title = e_persia }
+			not = { has_landed_title = e_macedonia }
+		}
+	}	
+	
+	d_mikra_skythia = {
+		color= { 125 50 0 }
+		color2= { 255 255 255 }
+		
+		c_odessos = {
+			color= { 125 40 10 }
+			color2= { 255 255 255 }
+			
+			b_odessos_odessos = {
+			}
+			b_callatis_odessos = {
+			}
+			b_tomis_odessos = {
+			}
+			b_dionysiopolis_odessos = {
+			}
+		}
+		c_histria = {
+			color= { 125 50 0 }
+			color2= { 255 255 255 }
+			
+			b_histria_histria = {
+			}
+			b_halmyris_histria = {
+			}
+			b_suhat_histria = {
+			}
+			b_troesmis_histria = {
+			}
+		}
+		c_durostorum = {
+			color= { 125 50 0 }
+			color2= { 255 255 255 }
+			
+			b_durostorum_durostorum = {
+			}
+			b_axiopolis_durostorum = {
+			}
+			b_sucidava_durostorum = {
+			}
+		}		
+		c_apollonia = {
+			color= { 115 30 20 }
+			color2= { 255 255 255 }
+			
+			b_apollonia_apollonia = {
+			}
+			b_chersonesos_apollonia = {
+			}
+			b_anchialus_apollonia = {
+			}
+			b_mesembria_apollonia = {
+			}
+		}
+	}
+	d_odrysia = {
+		color= { 150 75 0 }
+		color2= { 255 255 255 }
+		
+		c_orestias = {
+			color= { 140 65 0 }
+			color2= { 255 255 255 }
+			
+			b_bergoule_orestias = {
+			}
+			b_orestias_orestias = {
+			}
+			b_burtudizon_orestias = {
+			}
+			b_drousipara_orestias = {
+				holy_site = thracian_main
+			}
+			b_narco_orestias = {
+			}			
+		}
+		c_kabyle = {
+			color= { 165 70 0 }
+			color2= { 255 255 255 }
+		
+			b_kabyle_kabyle = {
+			}
+			b_marcellae_kabyle = {
+			}
+			b_tonzus_kabyle = {
+			}
+			b_arzus_kabyle = {
+			}
+		}
+		c_beroe = {
+			color= { 140 55 0 }
+			color2= { 255 255 255 }
+			
+			b_beroe_beroe = {
+			}
+			b_pizus_beroe = {
+			}
+			b_semota_beroe = {
+			}
+			b_parambole_beroe = {
+			}
+		}
+		c_philippopolis = {
+			color= { 150 75 0 }
+			color2= { 255 255 255 }
+			
+			b_philippopolis_philippopolis = {
+			}
+			b_douvanli_philippopolis = {
+			}
+			b_bessapara_philippopolis = {
+			}
+			b_eumolpias_philippopolis = {
+			}
+			b_sernota_philippopolis = {
+			}
+		}
+	}
+	d_moesia = {
+		color= { 150 75 25 }
+		color2= { 255 255 255 }
+		
+		c_seuthopolis = {
+			color= { 150 75 25 }
+			color2= { 255 255 255 }
+			
+			b_seuthopolis_seuthopolis = {
+			}
+			b_longinopara_seuthopolis = {
+				holy_site = thracian_main
+			}
+			b_oescus_seuthopolis = {
+			}
+			b_storgosia_seuthopolis = {
+			}
+			b_tylis_seuthopolis = {
+			}
+		}
+		c_arbitus = {
+			color= { 160 75 35 }
+			color2= { 255 255 255 }
+			
+			b_arbitus_arbitus = {
+			}
+			b_iridava_arbitus = {
+			}
+			b_tegris_arbitus = {
+			}
+		}		
+		c_montana = {
+			color= { 140 65 25 }
+			color2= { 255 255 255 }
+			
+			b_montana_montana = {
+			}
+			b_tautiomosis_montana = {
+			}
+			b_vorovum_montana = {
+			}
+			b_meldia_montana = {
+			}
+		}
+	}
+	d_rhodope = {
+		color= { 125 50 25 }
+		color2= { 255 255 255 }
+		
+		c_maroneia = {
+			color= { 125 50 25 }
+			color2= { 255 255 255 }
+			
+			b_maroneia_maroneia = {
+			}
+			b_mesembria_maroneia = {
+			}
+			b_ainos_maroneia = {
+			}
+		}
+		c_abdera = {
+			color= { 125 40 35 }
+			color2= { 255 255 255 }
+			
+			b_abdera_abdera = {
+			}
+			b_bergepolis_abdera = {
+			}
+			b_dikaia_abdera = {
+			}
+		}		
+		c_amphipolis = {
+			color= { 145 40 35 }
+			color2= { 255 255 255 }
+			
+			b_amphipolis_amphipolis = {
+			}
+			b_aulon_amphipolis = {
+			}
+			b_kerdylion_amphipolis = {
+			}
+			b_argilos_amphipolis = {
+			}
+		}
+		c_thasos = {
+			color= { 115 35 55 }
+			color2= { 255 255 255 }
+			
+			b_thasos_thasos = {
+			}
+			b_koinyra_thasos = {
+			}
+			b_alyke_thasos = {
+			}
+		}
+		c_oraion = {
+			color= { 105 55 30 }
+			color2= { 255 255 255 }
+						
+			b_oraion_oraion = {
+			}
+			b_topeiros_oraion = {
+			}
+			b_porsulae_oraion = {
+			}			
+		}
+		c_crenides = {
+			color= { 125 50 25 }
+			color2= { 255 255 255 }
+						
+			b_crenides_crenides = {
+			}
+			b_tripolis_crenides = {
+			}
+			b_domeros_crenides = {
+			}
+			b_ciropolis_crenides = {
+			}	
+			b_philippi_crenides = {
+			}
+		}			
+		c_zervae = {
+			color= { 125 50 25 }
+			color2= { 255 255 255 }
+			
+			b_zervae_zervae = {
+			}
+			b_plotinoupolis_zervae = {
+			}
+			b_dymae_zervae = {
+			}
+		}
+	}
+	d_propontis = {
+		color= { 150 75 25 }
+		color2= { 255 255 255 }
+	
+		c_lysimachia = {
+			color= { 150 65 35 }
+			color2= { 255 255 255 }
+					
+			b_perinthus_lysimachia = {
+			}
+			b_aproi_lysimachia = {
+			}
+			b_bisanthe_lysimachia = {
+			}
+			b_deris_lysimachia = {
+			}
+			b_lysimachia_lysimachia = {
+			}
+		}
+		c_byzantion = {
+			color= { 150 75 25 }
+			color2= { 255 255 255 }
+		
+			b_byzantion_byzantion = {
+			}
+			b_chalcaea_byzantion = {
+				holy_site = zalmoxism
+				holy_site = thracian_main
+			}
+			b_selymbria_byzantion  = {
+			}
+			b_blachernae_byzantion = {
+			}
+		}
+		c_thracian_chersonese = {
+			color= { 140 85 15 }
+			color2= { 255 255 255 }			
+			
+			b_kardia_thracian_chersonese = {
+			}
+			b_sestos_thracian_chersonese = {
+			}
+			b_pactya_thracian_chersonese = {
+			}
+			b_drabos_thracian_chersonese = {
+			}
+		}
+	}
+}
+k_magna_graecia = {
+	color= { 75 175 225 }
+	color2= { 255 255 255 }
+	
+	allow = {
+		culture_group = hellenic
+	}
+	
+	d_sicani = {
+		color= { 75 200 175 }
+		color2= { 255 255 255 }
+		
+		c_selinus = {
+			color= { 75 200 175 }
+			color2= { 255 255 255 }
+			
+			b_selinus = {
+			}
+			b_heraclea_selinus = {
+			}
+		}
+		c_himera = {
+			color= { 65 190 175 }
+			color2= { 255 255 255 }
+			
+			b_himera = {
+			}
+			b_chimaera_himera = {
+			}
+			b_calacte_himera = {
+			}
+		}
+		
+		c_maleth = {
+			color={ 116 190 175 }
+			color2={ 255 255 255 }
+			
+			b_maleth_maleth = {
+			}
+		}
+	}
+	
+	d_sicels = {
+		color= { 75 175 225 }
+		color2= { 255 255 255 }
+		
+		c_gela = {
+			color= { 85 165 225 }
+			color2= { 255 255 255 }
+			
+			b_gela = {
+			}
+			b_camarina_gela = {
+			}
+			b_casmenai_gela = {
+			}
+		}
+		c_syracuse = {
+			color= { 75 175 225 }
+			color2= { 255 255 255 }
+			
+			b_syracuse = {
+			}
+			b_leontinoi_syracuse = {
+			}
+			b_catania_syracuse = {
+			}
+		}
+		c_sicels = {
+			color= { 85 175 215 }
+			color2= { 255 255 255 }
+			
+			b_agira = {
+			}
+		}
+		c_messana = {
+			color= { 75 165 235 }
+			color2= { 255 255 255 }
+			
+			b_messana = {			
+			}
+			b_tauromenium_messana = {
+			}
+		}
+	}
+	d_bruttium = {
+		color= { 75 150 225 }
+		color2= { 255 255 255 }
+		
+		c_rhegium = {
+			color= { 65 140 225 }
+			color2= { 255 255 255 }
+			
+			b_rhegium = {
+			}
+			b_scyllaeum_rhegium = {
+			}
+			b_locri_rhegium = {
+			}
+		}
+		c_terina = {
+			color= { 85 160 225 }
+			color2= { 255 255 255 }
+			
+			b_terina = {
+			}
+			b_medma_terina = {
+			}
+			b_caulonia_terina = {
+			}
+			b_scylletium_terina = {
+			}
+		}
+		c_croton = {
+			color= { 75 150 225 }
+			color2= { 255 255 255 }
+			
+			b_croton = {
+			}
+			b_petelia_croton = {
+			}
+		}
+	}
+	d_lucania = {
+		color= { 75 150 255 }
+		color2= { 255 255 255 }
+		
+		c_thurii = {
+			color= { 75 150 255 }
+			color2= { 255 255 255 }
+			
+			b_thurii = {
+			}
+			b_sybaris_thurii = {
+			}
+		}
+		c_heracleia_sicily = {
+			color= { 75 160 245 }
+			color2= { 255 255 255 }
+			
+			b_heracleia_sicily = {
+			}
+			b_siris_heracleia_sicily = {
+			}
+		}
+		c_elea = {
+			color= { 65 140 255 }
+			color2= { 255 255 255 }
+			
+			b_elea = {
+			}
+			b_laus_elea = {
+			}
+			b_pixous_elea = {
+			}
+		}
+	}
+	d_apulia = {
+		color= { 75 200 200 }
+		color2= { 255 255 255 }
+		
+		c_metapontum = {
+			color= { 75 190 210 }
+			color2= { 255 255 255 }
+			
+			b_metapontum_metapontum = {
+			}
+			b_barium_metapontum = {
+			}
+			b_rubi_metapontum = {
+			}
+			b_norba_metapontum = {
+			}
+		}
+		c_salapia = {
+			color= { 65 210 200 }
+			color2= { 255 255 255 }
+			
+			b_salapia_salapia = {
+			}
+			b_acerina_salapia = {
+			}
+			b_cannae_salapia = {
+			}
+			b_canusium_salapia = {
+			}
+		}
+		c_arpi = {
+			color= { 75 200 200 }
+			color2= { 255 255 255 }
+			
+			b_arpi = {
+			}
+			b_sipontum_arpi = {
+			}
+		}
+	}
+	d_calabria = {
+		color= { 75 175 175 }
+		color2= { 255 255 255 }
+		
+		c_tarentum = {
+			color= { 75 175 175 }
+			color2= { 255 255 255 }
+			
+			b_tarentum = {
+			}
+		}
+		c_brundisium = {
+			color= { 65 165 175 }
+			color2= { 255 255 255 }
+			
+			b_brundisium = {
+			}
+			b_calipolis_brundisium = {
+			}
+		}
+	}
+}
+k_lydia = {
+	color= { 0 125 125 }
+	color2= { 255 255 255 }
+	
+	allow = {
+		liege = {
+			not = { has_landed_title = e_persia }
+			not = { has_landed_title = e_macedonia }
+		}
+	}
+	
+	capital = 81 # Sardis
+	
+	d_mysia = {
+		color= { 0 100 100 }
+		color2= { 255 255 255 }
+		
+		c_abydos = {
+			color= { 0 110 110 }
+			color2= { 255 255 255 }
+			
+			b_lampsacus_abydos = {
+			}
+			b_assos_abydos = {
+			}
+			b_illion_abydos = {
+			}
+			b_kebren_abydos = {
+			}
+			b_parium_abydos = {
+			}
+			b_antigoneia_abydos = {
+			}
+		}
+		c_pergamum = {
+			color= { 0 100 100 }
+			color2= { 255 255 255 }
+			
+			b_pergamum_pergamum = {
+			}
+			b_asklepielon_pergamum = {
+			}
+			b_adramyttium_pergamum = {
+			}
+			b_elaea_pergamum = {
+			}
+			b_heracleia_pergamum = {
+			}
+			b_pitane_pergamum = {
+			}
+		}
+		c_cyzicus = {
+			color= { 10 90 100 }
+			color2= { 255 255 255 }
+			
+			b_cyzicus_cyzicus = {
+			}
+			b_plakia_cyzicus = {
+			}
+			b_halone_cyzicus = {
+			}
+			b_zeleia_cyzicus = {
+			}
+			b_artace_cyzicus = {
+			}
+		}
+		c_lesbos = {
+			color= { 0 90 90 }
+			color2= { 255 255 255 }
+			
+			b_mytilene_lesbos = {
+			}
+			b_therma_lesbos = {
+			}
+			b_eresos_lesbos = {
+			}
+			b_arisba_lesbos = {
+			}
+			b_sigron_lesbos = {
+			}
+			b_pyrra_lesbos = {
+			}
+			b_hiera_lesbos = {
+			}
+		}
+		c_lemnos = {
+			color= { 10 100 110 }
+			color2= { 255 255 255 }
+		
+			b_hephaistia_lemnos = {
+			}
+			b_samothrace_lemnos = {
+			}
+			b_myrina_lemnos = {
+			}
+			b_imbros_lemnos = {
+			}
+		}
+		c_daskyleion = {
+			color= { 0 110 110 }
+			color2= { 255 255 255 }
+			
+			b_daskyleion_daskyleion = {
+			}
+			b_ergasteria_daskyleion = {
+			}
+			b_miletopolis_daskyleion = {
+			}
+			b_poimanenon_daskyleion = {
+			}
+		}
+		c_pelopia = {
+			color= { 10 90 110 }
+			color2= { 255 255 255 }
+		
+			b_pelopia_pelopia = {
+			} 
+			b_indi_pelopia = {
+			} 
+			b_hyssa_pelopia = {
+			}
+			b_karena_pelopia = {
+			}
+			b_thyateira_pelopia = {
+			}
+			b_stratonikeia_pelopia = {
+			}
+		}
+		
+	}
+	d_lydia = {
+		color= { 0 125 125 }
+		color2= { 255 255 255 }
+		
+		c_smyrna = {
+			color= { 10 115 125 }
+			color2= { 255 255 255 }
+						
+			b_smyrna_smyrna = {
+			}
+			b_magnesia_smyrna = {
+			}
+			b_phocaea_smyrna = {
+			}
+			b_cyme_smyrna = {
+			}
+			b_melampagos_smyrna = {
+			}
+		}
+		c_ephesus = {
+			color= { 0 135 135 }
+			color2= { 255 255 255 }
+			
+			b_ephesus_ephesus = {
+			}
+			b_colophon_ephesus = { # Temple of Artemis
+				holy_site = greek_main
+				holy_site = anatolian_main
+			}
+			b_magnesia_ephesus = {
+			}
+			b_notion_ephesus = {
+			}
+			b_klaros_ephesus = {
+			}
+		}
+		c_sardis = {
+			color= { 0 125 125 }
+			color2= { 255 255 255 }
+						
+			b_sardis_sardis = {
+			}
+			b_tmolos_sardis = {
+			}
+			b_tateikome_sardis = {
+			}
+			b_myloukome_sardis = {
+			}
+			b_boukolion_sardis = {
+			}
+			b_philadelphia_sardis = {
+			}
+		}
+		c_chios = {
+			color= { 10 115 125 }
+			color2= { 255 255 255 }
+			
+			b_chios_chios = {
+			}
+			b_kardamyle_chios = {
+			}
+			b_psyra_chios = {
+			}
+			b_babrantion_chios = {
+			}
+		}
+		c_samos = {
+			color= { 0 135 115 }
+			color2= { 255 255 255 }
+		
+			b_samos_samos = {
+			}
+			b_korsiai_samos = {
+				holy_site = zalmoxism
+			}
+			b_histoi_samos = {
+			}
+			b_drakanon_samos = {
+			}
+		}
+		c_erythrai = {			
+			color= { 10 135 125 }
+			color2= { 255 255 255 }
+			
+			b_erythrai_erythrai = {
+			}
+			b_klazomenai_erythrai = {
+			}
+			b_teos_erythrai = {
+			}
+			b_chyton_erythrai = {
+			}
+			b_embaton_erythrai = {
+			}
+		}
+		c_nysa = {			
+			color= { 0 105 125 }
+			color2= { 255 255 255 }
+			
+			b_nysa_nysa = {
+			}
+			b_tralles_nysa = {
+			}
+			b_anineta_nysa = {
+			}
+			b_kanoura_nysa = {
+			}
+			b_tripolis_nysa = {
+			}
+		}
+		c_saittai = {			
+			color= { 0 125 105 }
+			color2= { 255 255 255 }
+			
+			b_saittai_saittai = {
+			}
+			b_tabala_saittai = {
+			}
+			b_silandos_saittai = {
+			}
+			b_koresa_saittai = {
+			}
+			b_emoddi_saittai = {
+			}
+		}
+	}
+	d_caria = {
+		color= { 0 75 75 }
+		color2= { 255 255 255 }
+		
+		c_miletus = {
+			color= { 10 85 75 }
+			color2= { 255 255 255 }
+			
+			b_miletus_miletus = {
+			}
+			b_kanossos_miletus = {
+			}
+			b_iasos_miletus = {
+			}
+			b_mylasa_miletus = {
+			}			
+			b_didyma_miletus = { # Oracle of Didyma
+				holy_site = greek_main
+			}
+			b_priene_miletus = {
+			}
+		}
+		c_halicarnassus = {
+			color= { 0 75 75 }
+			color2= { 255 255 255 }
+			
+			b_halicarnassus_halicarnassus = {
+			}
+			b_lagina_halicarnassus = {
+			}
+			b_bargylia_halicarnassus = {
+			}
+			b_pargasa_halicarnassus = {
+			}
+			b_hydissos_halicarnassus = {
+			}
+			b_theangela_halicarnassus = {
+			}
+		}
+		c_kos = {
+			color= { 0 85 85 }
+			color2= { 255 255 255 }
+			
+			b_kos_kos = {
+			}
+			b_nisyros_kos = {
+			}
+			b_telos_kos = {
+			}
+			b_antimachia_kos = {
+			}
+			b_pothaia_kos = {
+			}
+			b_leros_kos = {
+			}
+		}
+		c_rhodos = {
+			color= { 10 65 75 }
+			color2= { 255 255 255 }
+			
+			b_rhodos_rhodos = {
+			}
+			b_lindos_rhodos = {
+			}
+			b_ialyssos_rhodos = {
+			}
+			b_kameiros_rhodos = {
+			}
+		}
+		c_karpathos = {
+			color= { 10 85 75 }
+			color2= { 255 255 255 }
+		
+			b_potidaio_karpathos = {
+			}
+			b_arkesia_karpathos = {
+			}
+			b_nisiros_karpathos = {
+			}
+		}
+		c_alabanda = {
+			color= { 10 75 65 }
+			color2= { 255 255 255 }
+			
+			b_alabanda_alabanda = {
+			}
+			b_lagina_alabanda = {
+			}
+			b_gerga_alabanda = {
+			}
+			b_alinda_alabanda = {
+			}
+		}
+		c_knidos = {
+			color= { 0 75 75 }
+			color2= { 255 255 255 }
+			
+			b_knidos_knidos = {
+			}
+			b_kaunos_knidos = {
+			}
+			b_syme_knidos = {
+			}
+			b_pisillis_knidos = {
+			}
+			b_pasanda_knidos = {
+			}
+		}
+		c_attouda = {
+			color= { 0 75 75 }
+			color2= { 255 255 255 }
+			
+			b_attouda_attouda = {
+			}
+			b_aphrodisias_attouda = {
+			}
+			b_harpasa_attouda = {
+			}
+			b_trapezopolis_attouda = {
+			}
+			b_antiocheia_attouda = {
+			}
+		}
+	}
+	d_lycia = {
+		color= { 0 50 75 }
+		color2= { 255 255 255 }
+		
+		c_xanthos = {
+			color= { 0 50 75 }
+			color2= { 255 255 255 }
+			
+			b_xanthos_xanthos = {
+			}
+			b_patara_xanthos = {
+			}			
+			b_telmessos_xanthos = {
+			}
+			b_pinara_xanthos = {
+			}
+			b_tlos_xanthos = {
+			}
+		}
+		c_myra = {
+			color= { 10 60 75 }
+			color2= { 255 255 255 }
+		
+			b_myra_myra = {
+			}
+			b_arykanda_myra = {
+			}
+			b_limyra_myra = {
+			}
+			b_olympos_myra = {
+			}
+			b_phaselis_myra = {
+			}
+		}
+		c_oenoanda = {
+			color= { 0 40 65 }
+			color2= { 255 255 255 }
+		
+			b_oenoanda_oenoanda = {
+			}
+			b_balboura_oenoanda = {
+			}
+			b_boubon_oenoanda = {
+			}
+			b_orpeena_oenoanda = {
+			}
+		}
+	}
+	d_pisidia = {
+		color= { 0 75 100 }
+		color2= { 255 255 255 }
+				
+		c_sagalassos = {
+			color= { 0 75 100 }
+			color2= { 255 255 255 }
+			
+			b_sagalassos_sagalassos = {
+			}
+			b_apollonia_sagalassos = {
+			}
+			b_parlais_sagalassos = {
+			}			
+			b_konana_sagalassos = {
+			}
+			b_seleukeia_sagalassos = {
+			}
+		}
+		c_pappa = {
+			color= { 10 85 100 }
+			color2= { 255 255 255 }
+			
+			b_pappa_pappa = {
+			}
+			b_anaboura_pappa = {
+			}
+			b_neapolis_pappa = {
+			}
+			b_antiocheia_pappa = {
+			}
+		}
+		c_amblada = {
+			color= { 0 65 110 }
+			color2= { 255 255 255 }
+		
+			b_amblada_amblada = {
+			}
+			b_mistea_amblada = {
+			}
+			b_ouasada_amblada = {
+			}
+			b_isaura_amblada = {
+			}
+		}
+	}
+	d_pamphylia = {
+		color= { 25 100 100 }
+		color2= { 255 255 255 }
+		
+		c_termessos = {
+			color= { 35 90 100 }
+			color2= { 255 255 255 }
+			
+			b_termessos_termessos = {
+			}
+			b_ariassos_termessos = {
+			}
+			b_magydos_termessos = {
+			}			
+			b_isinda_termessos = {
+			}
+			b_attaleia_termessos = {
+			}
+		}
+		c_side = {
+			color= { 15 90 100 }
+			color2= { 255 255 255 }
+			
+			b_side_side = {
+			}
+			b_korakesion_side = {
+			}
+			b_etenna_side = {
+			}			
+			b_manava_side = {
+			}
+		}
+		c_perge = {
+			color= { 25 100 100 }
+			color2= { 255 255 255 }
+			
+			b_perge_perge = {
+			}
+			b_sillyon_perge = {
+			}
+			b_aspendos_perge = {
+			}
+			b_pednelissos_perge = {
+			}
+			b_selge_perge = {
+			}
+		}
+	}
+	d_phrygia = {
+		color= { 0 100 125 }
+		color2= { 255 255 255 }
+		
+		c_celaenae = {
+			color= { 0 100 125 }
+			color2= { 255 255 255 }
+			
+			b_celaenae_celaenae = {
+			}
+			b_motella_celaenae = {
+			}
+			b_temenouthyrai_celaenae = {
+			}
+			b_akmonia_celaenae = {
+			}
+		}
+		c_dorylaeum = {
+			color= { 10 90 125 }
+			color2= { 255 255 255 }
+			
+			b_dorylaeum_dorylaeum = {
+			}
+			b_eiokome_dorylaeum = {
+			}
+			b_midaion_dorylaeum = {
+			}			
+			b_lamounia_dorylaeum = {
+			}
+		}
+		c_ipsus = {
+			color= { 0 90 115 }
+			color2= { 255 255 255 }
+			
+			b_ipsus_ipsus = {
+			}
+			b_dokimeion_ipsus = {
+			}
+			b_brouzos_ipsus = {
+			}
+			b_prymnessos_ipsus = {
+			}
+		}
+		c_aizanoi = {
+			color= { 10 90 135 }
+			color2= { 255 255 255 }
+			
+			b_aizanoi_aizanoi = {
+			}
+			b_aliana_aizanoi = {
+			}
+			b_palox_aizanoi = {
+			}
+			b_kotiaion_aizanoi = {
+			}
+		}
+		c_gordium = {
+			color= { 10 100 115 }
+			color2= { 255 255 255 }
+			
+			b_gordium_gordium = {
+			}
+			b_aurania_gordium = {
+			}
+			b_mnizos_gordium = {
+			}
+			b_spaleia_gordium = {
+			}
+		}
+		c_pessinus = {
+			color= { 0 110 135 }
+			color2= { 255 255 255 }
+			
+			b_amorion_pessinus = {
+			}
+			b_pessinus_pessinus = {
+			}
+			b_tolastochora_pessinus = {
+			}
+			b_goeleon_pessinus = {
+			}
+		}
+		c_ancyra = {
+			color= { 10 110 125 }
+			color2= { 255 255 255 }
+			
+			b_ancyra_ancyra = {
+			}
+			b_malos_ancyra = {
+			}
+			b_androna_ancyra = {
+			}
+			b_gorbeus_ancyra = {
+			}
+			b_ikotorion_ancyra = {
+			}
+		}
+		
+	}
+	d_bithynia = {
+		color= { 100 75 50 }
+		color2= { 255 255 255 }
+		
+		c_heraclea_pontica = {
+			color= { 90 75 40 }
+			color2= { 255 255 255 }
+			
+			b_heraclea_heraclea_pontica = {
+			}
+			b_elaios_heraclea_pontica = {
+			}
+			b_kales_heraclea_pontica = {
+			}
+			b_metroon_heraclea_pontica = {
+			}			
+			b_dadybra_heraclea_pontica = {
+			}
+		}
+		c_cius = {
+			color= { 110 75 60 }
+			color2= { 255 255 255 }
+			
+			b_cius_cius = {
+			}
+			b_apollonia_cius = {
+			}
+			b_myrleia_cius = {
+			}
+			b_eikote_cius = {
+			}
+			b_prusa_cius = {
+			}
+		}
+		c_nicaea = {
+			color= { 90 65 50 }
+			color2= { 255 255 255 }
+			
+			b_ancore_nicaea = {
+			}
+			b_kabia_nicaea = {
+				holy_site = thracian_main
+			}
+			b_terbos_nicaea = {
+			}
+			b_otrioa_nicaea = {
+			}
+			b_mygdum_nicaea = {
+			}
+			b_syllanta_nicaea = {
+			}
+			b_nicaea_nicaea = {
+			}
+		}
+		c_nicomedia = {
+			color= { 100 75 50 }
+			color2= { 255 255 255 }
+			
+			b_astacus_nicomedia = {
+			}
+			b_chalcedon_nicomedia = {
+			}
+			b_agyronion_nicomedia = {
+			}
+			b_sirkanos_nicomedia = {
+			}
+			b_kalasyrta_nicomedia = {
+			}
+			b_nicomedia_nicomedia = {
+			}
+		}
+		c_bithynion = {
+			color= { 110 85 50 }
+			color2= { 255 255 255 }
+			
+			b_bithynion_bithynion = {
+			}
+			b_dia_bithynion = {
+			}
+			b_embolos_bithynion = {
+			}
+			b_kratela_bithynion = {
+			}
+			b_prusias_ad_hypium_bithynion = {
+			}
+		}
+	}
+	d_paphlagonia = {
+		color= { 0 50 100 }
+		color2= { 255 255 255 }
+		
+		c_amastris = {
+			color= { 10 60 100 }
+			color2= { 255 255 255 }
+			
+			b_sesamus_amastris = {
+			}
+			b_ziporea_amastris = {
+			}
+			b_tium_amastris = {
+			}
+			b_kytoros_amastris = {
+			}
+			b_amastris_amastris = {
+			}
+		}
+		c_sinope = {
+			color= { 0 60 90 }
+			color2= { 255 255 255 }
+			
+			b_karousa_sinope = {
+			}
+			b_pteria_sinope = {
+			}
+			b_sinope_sinope = {
+			}
+			b_zaliges_sinope = {
+			}
+			b_kyptasia_sinope = {
+			}
+			b_stephane_sinope = {
+			}
+		}
+		c_gangra = {
+			color= { 0 50 100 }
+			color2= { 255 255 255 }
+			
+			b_gangra_gangra = {
+			}
+			b_kobara_gangra = {
+			}
+			b_anadynata_gangra = {
+			}
+			b_zeita_gangra = {
+			}
+		}
+		c_kimiatene = {
+			color= { 0 40 110 }
+			color2= { 255 255 255 }
+			
+			b_kimiata_kimiatene = {
+			}
+			b_kandara_kimiatene = {
+			}
+			b_aiginetes_kimiatene = {
+			}
+			b_garios_kimiatene = {
+			}
+		}
+	}
+}
+k_cilicia = {
+	color= { 125 150 125 }
+	color2= { 255 255 255 }
+	
+	capital = 106 # Tarsus
+	
+	allow = {
+		liege = {
+			not = { has_landed_title = e_persia }
+			not = { has_landed_title = e_macedonia }
+		}
+	}
+        
+    latin = "Cilicia"
+	
+	d_cilicia = {
+		color= { 125 150 125 }
+		color2= { 255 255 255 }
+		
+		c_syedra = {
+			color= { 135 150 115 }
+			color2= { 255 255 255 }
+			
+			b_syedra_syedra = {
+			}
+			b_laertes_syedra = {
+			}
+			b_selinous_syedra = {
+			}
+			b_marassa_syedra = {
+			}
+			b_ano_kothradis_syedra = {
+			}
+		}
+		c_celenderis = {
+			color= { 135 160 125 }
+			color2= { 255 255 255 }
+			
+			b_celenderis_celenderis = {
+			}
+			b_aphrodisias_celenderis = {
+			}
+			b_corycus_celenderis = {
+			}
+			b_ninica_celenderis = {
+			}
+			b_holmoi_celenderis = {
+			}
+			b_seleucia_celenderis = {
+			}
+		}
+		c_tarsus = {
+			color= { 125 150 125 }
+			color2= { 255 255 255 }
+			
+			b_tarsus_tarsus = {
+			}
+			b_anchialeia_tarsus = {
+			}
+			b_soloi_tarsus = {
+			}
+			b_podandus_tarsus = {
+			}
+			b_elaioussa_tarsus = {
+			}
+			b_magarsa_tarsus = {
+			}
+		}
+		c_adana = {
+			color= { 135 140 125 }
+			color2= { 255 255 255 }
+			
+			b_adana_adana = {
+			}
+			b_mallos_adana = {
+			}
+			b_aigai_adana = {
+			}
+			b_anazarbos_adana = {
+			}
+			b_hierapolis_adana = {
+			}
+			b_mopsouhestia_adana = {
+			}
+		}
+	}
+}
+
+k_cappadocia = {
+	color= { 200 175 150}
+	color2= { 255 255 255 }
+	
+	capital = 117 # Mazaka
+	
+	allow = {
+		culture_group = anatolian_group
+		liege = {
+			not = { has_landed_title = e_persia }
+			not = { has_landed_title = e_macedonia }
+		}
+	}
+	
+	cappadocian = "Katpatuka"
+    persian = "Katpatuka"
+	
+	d_cappadocia = {
+		color= { 200 175 150}
+		color2= { 255 255 255 }
+		
+		c_tyana = {
+			color= { 210 165 150 }
+			color2= { 255 255 255 }
+			
+			b_tyana_tyana = {
+			}
+			b_cybistra_tyana = {
+			}
+			b_andabalis_tyana = {
+			}
+			b_ardistama_tyana = {
+			}
+		}
+		c_cataonia = {
+			color= { 190 185 150 }
+			color2= { 255 255 255 }
+			
+			b_comana_cataonia = {
+			}
+			b_kokousos_cataonia = {
+				holy_site = anatolian_main
+			}
+			b_tanadaris_cataonia = {
+			}
+			b_ulnia_cataonia = {
+			}
+		}
+		c_pteria = {
+			color= { 200 185 140 }
+			color2= { 255 255 255 }
+			
+			b_pteria_pteria = {
+			}
+			b_agranai_pteria = {
+				holy_site = anatolian_main
+			}
+			b_sibora_pteria = {
+			}
+			b_sarmalius_pteria = {
+			}
+			b_tavium_pteria = {
+			}
+		}
+		c_mazaka = {
+			color= { 200 175 150 }
+			color2= { 255 255 255 }
+			
+			b_moutalaske_mazaka = {
+			}
+			b_mazaka_mazaka = {
+			}
+			b_eulepa_mazaka = {
+			}
+			b_archalla_mazaka = {
+			}
+			b_arasaxa_mazaka = {
+			}
+			b_armaxa_mazaka = {
+			}
+		}
+		c_euaissa = {
+			color= { 210 165 150 }
+			color2= { 255 255 255 }
+			
+			b_euaissa_euaissa = {
+			}
+			b_kampai_euaissa = {
+			}
+			b_soanda_euaissa = {
+			}
+			b_ochras_euaissa = {
+			}
+		}
+		c_nyssa = {
+			color= { 200 185 160 }
+			color2= { 255 255 255 }
+			
+			b_nyssa_nyssa = {
+			}
+			b_andraka_nyssa = {
+			}
+			b_parnassos_nyssa = {
+			}
+			b_nitazi_nyssa = {
+			}
+		}
+		c_gauraina = {
+			color= { 180 175 150 }
+			color2= { 255 255 255 }
+			
+			b_gauraina_gauraina = {
+			}
+			b_taranta_gauraina = {
+			}
+			b_euspena_gauraina = {
+			}
+			b_dalanda_gauraina = {
+			}
+		}
+	}
+	d_pontus = {
+		color= { 175 150 125 }
+		color2= { 255 255 255 }
+		
+		c_amisus = {
+			color= { 185 150 115 }
+			color2= { 255 255 255 }
+			
+			b_amisus_amisus = {
+			}
+			b_gadilon_amisus = {
+			}
+			b_eupatoria_amisus = {
+			}
+			b_chadisia_amisus = {
+			}
+			b_ankon_amisus = {
+			}
+		}
+		c_polemonion = {
+			color= { 175 160 115 }
+			color2= { 255 255 255 }
+			
+			b_polemonion_polemonion = {
+			}
+			b_phabda_polemonion = {
+			}
+			b_stamene_polemonion = {
+			}
+			b_sauronisena_polemonion = {
+			}
+		}
+		c_trapezous = {
+			color= { 165 140 125 }
+			color2= { 255 255 255 }
+			
+			b_trapezous_trapezous = {
+			}
+			b_hieron_oros_trapezous = {
+			}
+			b_kordyle_trapezous = {
+			}
+			b_kaballa_trapezous = {
+			}
+			b_kerasous_trapezous = {
+			}
+		}
+		c_amaseia = {
+			color= { 175 150 125 }
+			color2= { 255 255 255 }	
+
+			b_amaseia_amaseia = {
+			}
+			b_carissa_amaseia = {
+			}
+			b_cromen_amaseia = {
+			}
+			b_diakopa_amaseia = {
+			}
+			b_kizari_amaseia = {
+			}
+		}
+		c_zela = {
+			color= { 185 140 125 }
+			color2= { 255 255 255 }	
+			
+			b_zela_zela = {
+			}
+			b_komana_zela = {
+			}
+			b_dadasa_zela = {
+			}
+			b_syderos_zela = {
+			}
+		}
+		c_megalopolis_cappadocia = {
+			color= { 175 140 115 }
+			color2= { 255 255 255 }
+			
+			b_karana_megalopolis_cappadocia = {
+			}
+			b_phiara_megalopolis_cappadocia = {
+			}
+			b_kamisa_megalopolis_cappadocia = {
+			}
+			b_pedachthoe_megalopolis_cappadocia = {
+			}
+		}
+	}
+	d_lycaonia = {
+		color= { 200 175 125 }
+		color2= { 255 255 255 }
+		
+		c_iconium = {
+			color= { 200 175 125 }
+			color2= { 255 255 255 }
+			
+			b_iconium_iconium = {
+			}
+			b_salarama_iconium = {
+			}
+			b_zizima_iconium = {
+			}			
+			b_caballucome_iconium = {
+			}
+		}
+		c_lystra = {
+			color= { 200 165 135 }
+			color2= { 255 255 255 }
+			
+			b_lystra_lystra = {
+			}
+			b_kilistra_lystra = {
+			}
+			b_korna_lystra = {
+			}
+			b_taspa_lystra = {
+			}
+			b_kodylessos_lystra = {
+			}
+		}
+		c_garsaura = {
+			color= { 200 175 125 }
+			color2= { 255 255 255 }
+			
+			b_garsaura_garsaura = {
+			}
+			b_koropassos_garsaura = {
+			}
+			b_momasson_garsaura = {
+			}
+			b_salambriai_garsaura = {
+			}
+		}
+		c_derbe = {			
+			color= { 200 175 125 }
+			color2= { 255 255 255 }
+			
+			b_derbe_derbe = {
+			}
+			b_laranda_derbe = {
+			}
+			b_hyde_derbe = {
+			}
+			b_thebasa_derbe = {
+			}
+		}
+	}
+}
+k_egypt = {
+	color= { 225 200 0 }
+	color2= { 255 255 255 }
+	
+	capital = 141 # Memphis
+	
+	allow = {
+		culture_group = eastern_african
+		liege = {
+			not = { has_landed_title = e_persia }
+			not = { has_landed_title = e_macedonia }
+		}
+	}
+	
+	d_delta = {
+		color= { 225 200 25 }
+		color2= { 255 255 255 }
+		
+		c_tanis = {
+			color= { 225 190 15 }
+			color2= { 255 255 255 }
+			
+			egyptian = Djannet
+			
+			b_tanis_tanis = {
+				egyptian = Djannet
+			}
+			b_mendes_tanis = {
+				egyptian = Anpet
+			}
+			b_tamiathis_tanis = {
+			}
+			b_thmouis_tanis = {
+			}
+			b_thenessos_tanis = {
+			}
+			b_kalamine_tanis = {
+			}
+		}
+		
+		c_sebennytos = {
+			color= { 225 210 35 }
+			color2= { 255 255 255 }
+			egyptian = Tjebnutjer
+			
+			b_sebennytos_sebennytos = {
+				egyptian = Tjebnutjer
+			}
+			b_bousiris_sebennytos = {
+				egyptian = "Per Wasir"
+			}
+			b_kynopolis_sebennytos = {
+			}
+			b_diospolis_kato_sebennytos = {
+			}
+			b_isieion_sebennytos = {
+				egyptian = Hebyt
+			}
+			b_natho_sebennytos = {
+			}
+		}
+		c_bouto = {
+			color= { 215 200 15 }
+			color2= { 255 255 255 }
+			egyptian = "Per Wadyat"
+			
+			b_bouto_bouto = {
+				egyptian = "Per Wadyat"
+			}
+			b_xois_bouto = {
+				egyptian = Hasw
+			}
+			b_sais_bouto = {
+				egyptian = Zau
+			}
+			b_kabasa_bouto = {
+			}
+			b_pachnamounis_bouto = {
+			}
+			b_phragonis_bouto = {
+			}
+		}
+		c_canopus = {
+			color= { 225 210 35 }
+			color2= { 255 255 255 }
+			egyptian = "Pikuat"
+			
+			b_canopus_canopus = {
+				egyptian = "Pikuat"
+			}
+			b_anthylla_canopus = {
+			}
+			b_thonis_canopus = {
+			}
+			b_bolbotine_canopus = {
+				egyptian = "Khito"
+			}
+			b_naucratis_canopus = {
+				egyptian = "Naj krd"
+			}
+		}
+		c_alexandria = {
+			color= { 225 200 25 }
+			color2= { 255 255 255 }
+			egyptian = "Ra Katit"
+			
+			b_alexandria_alexandria = {
+				egyptian = "Ra Katit"
+			}
+			b_mareia_alexandria = {
+			egyptian = Mrjt
+			}
+			b_taposiris_megale_alexandria = {
+			}
+			b_hierakonpolis_alexandria = {
+			}
+			b_schedia_alexandria = {
+			}
+			b_pharos_alexandria = {
+			}
+			b_thebyrchyth_alexandria = {
+			}
+		}
+	}
+	d_memphis = {
+		color= { 225 200 0 }
+		color2= { 255 255 255 }
+		egyptian = "Men Nefer"
+				
+		c_memphis = {
+			color= { 225 200 0 }
+			color2= { 255 255 255 }
+			egyptian = "Men Nefer"
+			
+			b_memphis_memphis = {
+				egyptian = "Men Nefer"
+			}
+			b_bousiris_memphis = {			
+				holy_site = kemetic
+				holy_site = atenist
+			}
+			b_toachris_memphis = {
+			}
+			b_troia_memphis = {
+			}
+			b_takeiris_memphis = {
+			}
+			b_skenai_mandrai_memphis = {
+			}
+		}
+		c_aphroditopolis = {
+			color= { 215 210 0 }
+			color2= { 255 255 255 }
+			egyptian = "Tp-jhw"
+			
+			b_aphroditopolis_aphroditopolis = {
+				egyptian = "Tp-jhw"
+			}
+			b_kerke_aphroditopolis = {
+			}
+			b_parembole_aphroditopolis = {
+			}
+			b_ankyronpolis_aphroditopolis = {
+				egyptian = "Teudjoi"
+			}
+			b_thmoinepsi_aphroditopolis = {
+			}
+		}
+		c_crocodilopolis = {
+			color= { 235 200 10 }
+			color2= { 255 255 255 }
+			egyptian = "Shedyet"
+			
+			b_crocodilopolis_crocodilopolis = {
+				egyptian = "Shedyet"
+			}
+			b_haueris_crocodilopolis = {
+			egyptian = "Hwt-wrt"
+			}
+			b_heracleopolis_crocodilopolis = {
+			egyptian = "Henen-Nesut"
+			}
+			b_taleithis_crocodilopolis = {
+			}
+			b_bousiris_crocodilopolis = {
+			}
+			b_psenaryo_crocodilopolis = {
+			}
+		}
+		c_clysma = {
+			color= { 215 190 0 }
+			color2= { 255 255 255 }
+			
+			b_clysma_clysma = {
+			}
+		}
+		c_oxyrhynchus = {
+			color= { 225 190 10 }
+			color2= { 255 255 255 }
+			egyptian = "Per-Medjed"
+			
+			b_oxyrhynchus_oxyrhynchus = {
+				egyptian = "Per-Medjed"
+			}
+			b_taampemou_oxyrhynchus = {
+			}
+			b_takolkeilis_oxyrhynchus = {
+			}
+			b_hipponon_oxyrhynchus = {
+			}
+			b_terbe_oxyrhynchus = {
+			}
+		}
+		c_antinoopolis = {
+			color= { 215 180 0 }
+			color2= { 255 255 255 }
+			egyptian = "Akhetaten"
+			
+			b_antinoopolis_antinoopolis = {
+			}
+			b_thmoresis_antinoopolis = {
+			}
+			b_akhetaten_antinoopolis = {
+				holy_site = atenist
+			}
+			b_alabastronpolis_antinoopolis = {
+			egyptian = "Hbnw"
+			}
+		}
+		c_heliopolis = {
+			color= { 205 200 10 }
+			color2= { 255 255 255 }
+			egyptian = "Iunu"
+			
+			b_heliopolis_heliopolis = {
+				egyptian = "Iunu"
+			}
+			b_athribis_heliopolis = {
+				egyptian = "Hut-Repyt"
+			}
+			b_letopolis_heliopolis = {
+			}
+			b_kerkasoros_heliopolis = {
+			}
+			b_leontopolis_heliopolis = {
+				egyptian = "Ney-ta-hut"
+			}
+		}
+	}
+	d_lykopolis = {
+		color= { 225 225 0 }
+		color2= { 255 255 255 }
+		egyptian = "Zawty"
+		
+		c_lykopolis = {
+			color= { 225 225 0 }
+			color2= { 255 255 255 }
+			egyptian = "Zawty"
+			
+			b_lykopolis_lykopolis = {
+				egyptian = "Zawty"
+			}
+			b_hermopolis_lykopolis = {
+				egyptian = "Khmun"
+			}
+			b_hierakion_lykopolis = {
+			}
+			b_toeto_lykopolis = {
+			}			
+		}
+		c_panopolis = {
+			color= { 215 225 10 }
+			color2= { 255 255 255 }
+			egyptian = "Khent-Min"
+			
+			b_panopolis_panopolis = {
+				egyptian = "Khent-Min"
+			}
+			b_selino_panopolis = {
+			}
+			b_muthis_panopolis = {
+			}
+			b_antaiopolis_panopolis = {
+				egyptian = "Tjebu"
+			}
+		}
+		c_kaine = {
+			color= { 215 235 0 }
+			color2= { 255 255 255 }
+			egyptian = "Gebtu"
+			
+			b_kaine_kaine = {
+			}
+			b_apollonopolis_kaine = {
+				egyptian = "Gesy"
+			}
+			b_coptos_kaine = {
+				egyptian = "Gebtu"
+			}
+			b_thbakat_kaine = {
+			}
+		}
+		c_persou = {
+			color= { 235 235 0 }
+			color2= { 255 255 255 }
+			
+			b_persou_persou = {
+			}
+			b_myos_hormos = {
+			}
+		}
+		c_diospolis_mikra = {
+			color= { 235 225 10 }
+			color2= { 255 255 255 }
+			egyptian = "Hut-Sekhem"
+			
+			b_diospolis_mikra_diospolis_mikra = {
+				egyptian = "Hut-Sekhem"
+			}
+			b_memnonia_diospolis_mikra = { # Ramesseum
+				holy_site = kemetic
+				holy_site = atenist
+				egyptian = "Ramesseum"
+			}
+			b_abydos_diospolis_mikra = {
+				egyptian = "Abedju"
+			}
+			b_this_diospolis_mikra = {
+				egyptian = "Tayini"
+			}
+			b_ptolemais_hermeiou_diospolis_mikra = {
+			}
+		}
+		c_qubba = {
+			color= { 225 205 10 }
+			color2= { 255 255 255 }
+			
+			b_qubba_qubba = {
+			}
+		}
+	}
+	d_thebes = {
+		color= { 200 175 0 }
+		color2= { 255 255 255 }
+		egyptian = "Waset"
+		
+		c_thebes_egypt = {
+			color= { 200 175 0 }
+			color2= { 255 255 255 }
+			egyptian = "Waset"
+			
+			b_thebes_thebes_egypt = {
+				egyptian = "Waset"
+			}
+			b_petemout_thebes_egypt = {
+			}
+			b_touphion_thebes_egypt = {
+			}
+			b_karnak_thebes_egypt = {
+				holy_site = kemetic
+				holy_site = atenist
+				egyptian = "Ipet-Isut"
+			}
+			b_luxor_thebes_egypt = {
+				holy_site = kemetic
+				holy_site = atenist
+				egyptian = "Ipet-Resyt"
+			}
+			b_kastron_thebon_thebes_egypt = {
+			}
+		}
+		c_latopolis = {
+			color= { 200 165 10 }
+			color2= { 255 255 255 }
+			egyptian = "Tasenet"
+			
+			b_latopolis_latopolis = {
+				egyptian = "Tasenet"
+			}
+			b_apollopolis_latopolis = {
+				egyptian = "Mesen"
+			}
+			b_hierakonpolis_latopolis = {
+				egyptian = "Nekhen"
+			}
+			b_pathyris_latopolis = {
+			}
+		}
+		c_syene = {
+			color= { 210 165 0 }
+			color2= { 255 255 255 }
+			egyptian = "Swenett"
+			
+			b_syene_syene = {
+				egyptian = "Swenett"
+			}
+			b_omboi_syene = {
+				holy_site = kemetic
+				egyptian = "Nubt"
+			}
+			b_elephantine_syene = {
+				egyptian = "Abu"
+			}
+			b_telelis_syene = {
+			}
+		}
+		c_berenike = {
+			color= { 190 175 10 }
+			color2= { 255 255 255 }
+			
+			b_nechesia_berenike = {
+			}
+			b_apollonos_berenike = {
+			}
+			b_berenike_berenike = {
+			}
+		}
+		c_eileithiopolis = {
+			color= { 210 165 10 }
+			color2= { 255 255 255 }
+			egyptian = "Nekheb"
+			
+			b_eileithiopolis_eileithiopolis = {
+				egyptian = "Nekheb"
+			}
+			b_contra_apollonos_eileithiopolis = {
+			}
+			b_contra_latopolin_eileithiopolis = {
+			}
+		}
+	}
+	d_aigyptos_aktaios = {
+		color= { 225 175 0 }
+		color2= { 255 255 255 }
+		
+		c_antiphrai = {
+			color= { 235 175 10 }
+			color2= { 255 255 255 }
+			
+			b_antiphrai_antiphrai = {
+			}
+			b_pnigeus_antiphrai = {
+			}
+			b_derras_antiphrai = {
+			}
+		}
+		c_paraetonium = {
+			color= { 225 175 0 }
+			color2= { 255 255 255 }
+			
+			b_paraetonium_paraetonium = {
+			}
+			b_apis_paraetonium = {
+			}
+			b_selenis_paraetonium = {
+			}
+		}
+		c_catabathmus = {
+			color= { 215 185 0 }
+			color2= { 255 255 255 }
+			
+			b_catabathmus_catabathmus = {
+			}
+			b_menelaos_paraetonium = {
+			}
+			b_kardamis_paraetonium = {
+			}
+		}
+		c_petras_mikros = {
+			color= { 225 185 10 }
+			color2= { 255 255 255 }
+			
+			b_petras_mikros_petras_mikros = {
+			}
+			b_paliouros_petras_mikros = {
+			}
+			b_antipyrgos_petras_mikros = {
+			}
+		}
+	}
+}
+k_cyrene = {
+	color= { 225 200 125 }
+	color2= { 255 255 255 }
+	
+	capital = 163 # Cyrene
+	
+	d_cyrene = {
+		color= { 225 200 125 }
+		color2= { 255 255 255 }
+		
+		c_darnis = {
+			color= { 215 210 125 }
+			color2= { 255 255 255 }
+			
+			b_darnis_darnis = {
+			}
+			b_naustathmos_darnis = {
+			}
+			b_chersis_darnis = {
+			}
+			b_hydrax_darnis = {
+			}
+		}
+		c_cyrene = {
+			color= { 225 200 125 }
+			color2= { 255 255 255 }
+			
+			b_cyrene_cyrene = {
+			}
+			b_balagrae_cyrene = {
+			}
+			b_apollonia_cyrene = {
+			}
+			b_artamis_cyrene = {
+			}
+			b_phycous_cyrene = {
+			}
+			b_semeros_cyrene = {
+			}
+		}
+		c_barke = {
+			color= { 215 190 125 }
+			color2= { 255 255 255 }
+			
+			b_barke_barke = {
+			}
+			b_chairekla_barke = {
+			}
+			b_taucheira_barke = {
+			}
+			b_kainopolis_barke = {
+			}
+			b_ptolemais_barke = {
+			}
+		}
+		c_euesperides = {
+			color= { 215 200 115 }
+			color2= { 255 255 255 }
+			
+			b_euesperides_euesperides = {
+			}
+			b_ampalaontes_euesperides = {
+			}
+			b_berenike_euesperides = {
+			}
+		}
+	}
+}
+k_syria = {
+	color= { 0 75 100 }
+	color2= { 255 255 255 }
+
+	capital = 120 # Antiocheia
+
+	allow = {
+		liege = {
+			not = { has_landed_title = e_persia }
+			not = { has_landed_title = e_macedonia }
+		}
+	}
+
+	d_syria = {
+		color= { 0 75 100 }
+		color2= { 255 255 255 }
+
+		c_myriandos = {
+			color= { 10 65 100 }
+			color2= { 255 255 255 }
+
+			b_myriandos_myriandos = {
+			}
+			b_kilikiai_pylai_myriandos = {
+			}
+			b_alexandria_myriandos = {
+			}
+			b_issus_myriandos = {
+			}
+			b_epiphaneia_myriandos = {
+			}
+		}
+		c_antiocheia = {
+			color= { 0 75 100 }
+			color2= { 255 255 255 }
+
+			b_rhosos_antiocheia = {
+			}
+			b_bytyllion_antiocheia = {
+			}
+			b_georgia_antiocheia = {
+			}
+			b_charandama_antiocheia = {
+			}
+			b_antiocheia_antiocheia = {
+			}
+			b_seleukeia_antiocheia = {
+			}
+			b_heracleia_antiocheia = {
+			}
+		}
+		c_arados = {
+			color= { 0 85 90 }
+			color2= { 255 255 255 }
+
+			b_arados_arados = {
+			}
+			b_marsya_arados = {
+				holy_site = canaanite_main
+				holy_site = punic_main
+			}
+			b_gabala_arados = {
+			}
+			b_raphaneai_arados = {
+			}
+			b_laodikeia_arados = {
+			}
+		}
+		c_palmyra = {
+			color= { 10 85 100 }
+			color2= { 255 255 255 }
+
+			b_palmyra_palmyra = {
+			}
+			b_aueria_palmyra = {
+			}
+			b_gennaes_palmyra = {
+			}
+			b_danova_palmyra = {
+			}
+			b_nazala_palmyra = {
+			}
+		}
+		c_hierapolis = {
+			color= { 0 65 110 }
+			color2= { 255 255 255 }
+
+			b_hierapolis_hierapolis = {
+			}
+			b_gabboula_hierapolis = {
+				holy_site = anatolian_main
+			}
+			b_amphipolis_hierapolis = {
+			}
+			b_eragiza_hierapolis = {
+			}
+		}
+		c_zeugma = {
+			color= { 10 75 110 }
+			color2= { 255 255 255 }
+
+			b_zeugma_zeugma = {
+			}
+			b_nisibyn_zeugma = {
+			}
+			b_capersana_zeugma = {
+			}
+			b_ourima_zeugma = {
+			}
+		}
+		c_damascus = {
+			color= { 175 125 0 }
+			color2= { 255 255 255 }
+
+			b_damascus_damascus = {
+			}
+			b_lebaba_damascus = {
+			}
+			b_dan_damascus = {
+			}
+			b_abila_damascus = {
+			}
+			b_paneas_damascus = {
+			}
+		}
+	}
+	d_phoenicia = {
+		color= { 150 150 255 }
+		color2= { 255 255 255 }
+
+		c_tripolis = {
+			color= { 140 160 255 }
+			color2= { 255 255 255 }
+
+			b_tripolis_tripolis = {
+			}
+			b_saama_tripolis = {
+			}
+			b_botrys_tripolis = {
+			}
+			b_arqa_tripolis = {
+			}
+		}
+		c_byblos = {
+			color= { 150 140 245 }
+			color2= { 255 255 255 }
+
+			b_byblos_byblos = {
+			}
+			b_nihata_byblos = {
+			}
+			b_berytus_byblos = {
+			}
+			b_borrama_byblos = {
+			}
+		}
+		c_sidon = {
+			color= { 160 140 255 }
+			color2= { 255 255 255 }
+
+			b_sidon_sidon = {
+			}
+			b_alsos_asklepiou_sidon = {
+				holy_site = canaanite_main
+				holy_site = punic_main
+			}
+			b_sarepta_sidon = {
+			}
+			b_platanos_sidon = {
+			}
+			b_baithmare_sidon = {
+			}
+		}
+		c_tyrus = {
+			color= { 150 150 255 }
+			color2= { 255 255 255 }
+
+			b_tyrus_tyrus = {
+			}
+			b_hammon_tyrus = {
+				holy_site = canaanite_main
+				holy_site = punic_main
+			}
+			b_ake_tyrus = {
+			}
+			b_sinde_tyrus = {
+			}
+			b_palaiotyros_tyrus = {
+			}
+		}
+	}
+	d_israel = {
+		color= { 150 175 225 }
+		color2= { 255 255 255 }
+
+		c_apollonia_israel = {
+			color= { 140 165 225 }
+			color2= { 255 255 255 }
+
+			b_dora_apollonia_israel = {
+			}
+			b_apollonia_apollonia_israel = {
+				holy_site = canaanite_main
+				holy_site = punic_main
+			}
+			b_jaffa_apollonia_israel = {
+			}
+			b_husifa_apollonia_israel = {
+			}
+		}
+		c_samaria = {
+			color= { 150 175 225 }
+			color2= { 255 255 255 }
+
+			b_samaria_samaria = {
+			}
+			b_geth_samaria = {
+				holy_site = judaism_main
+			}
+			b_roob_samaria = {
+			}
+			b_sepphoris_samaria = {
+			}
+			b_narbata_samaria = {
+			}
+		}
+		c_jericho = {
+			color= { 150 185 215 }
+			color2= { 255 255 255 }
+
+			b_jericho_jericho = {
+			}
+			b_gabaon_jericho = {
+			}
+			b_archelais_jericho = {
+			}
+			b_thamna_jericho = {
+			}
+		}
+	}
+	d_judea = {
+		color= { 150 175 255 }
+		color2= { 255 255 255 }
+
+		c_gaza = {
+			color= { 140 185 255 }
+			color2= { 255 255 255 }
+
+			b_gaza_gaza = {
+			}
+			b_raphia_gaza = {
+			}
+			b_ashqelon_gaza = {
+			}
+			b_ashdod_gaza = {
+			}
+			b_aser_gaza = {
+			}
+		}
+		c_jerusalem = {
+			color= { 150 175 255 }
+			color2= { 255 255 255 }
+
+			b_jerusalem_jerusalem = {
+			}
+			b_temple_mount_jerusalem = {
+				holy_site = judaism_main
+			}
+			b_engaddai_jerusalem = {
+			}
+			b_bethar_jerusalem = {
+			}
+			b_bethlehem_jerusalem = {
+			}
+			b_gabaon_jerusalem = {
+			}
+		}
+		c_beersheba = {
+			color= { 160 175 245 }
+			color2= { 255 255 255 }
+
+			b_beersheba_beersheba = {
+			}
+			b_betomolachon_beersheba = {
+				holy_site = judaism_main
+				holy_site = canaanite_main
+			}
+			b_elousa_beersheba = {
+			}
+			b_mampsis_beersheba = {
+			}
+		}
+	}
+}
+k_assyria = {
+	color= { 0 50 125 }
+	color2= { 255 255 255 }
+	
+	capital = 191 # Nineveh
+	
+	allow = {
+		or = {
+			culture = aramaic
+			culture = akkadian
+		}
+		liege = {
+			not = { has_landed_title = e_persia }
+			not = { has_landed_title = e_macedonia }
+		}
+	}
+
+    akkadian = "Ashur"
+	
+	d_osroene = {
+		color= { 0 50 100 }
+		color2= { 255 255 255 }
+		
+		c_edessa = {
+			color= { 0 50 100 }
+			color2= { 255 255 255 }
+			
+			b_adma_edessa = {
+			}
+			b_ballatha_edessa = {
+			}
+			b_birtha_edessa = {
+			}
+			b_bathnae_edessa = {
+			}
+			b_edessa_edessa = {
+			}
+		}
+		c_harran = {
+			color= { 10 40 100 }
+			color2= { 255 255 255 }
+			
+			b_harran_harran = {
+			}
+			b_alagma_harran = {
+			}
+			b_dabana_harran = {
+			}
+			b_fadana_harran = {
+			}
+		}
+		c_amida = {
+			color= { 0 60 110 }
+			color2= { 255 255 255 }
+			
+			b_amida_amida = {
+			}
+			b_abame_amida = {
+			}
+			b_charcha_amida = {
+			}
+			b_sardeoua_amida = {
+			}
+			b_antiochia_arabis = {
+			}
+		}
+		c_nisibin = {
+			color= { 10 50 90 }
+			color2= { 255 255 255 }
+			
+			b_nisibin_nisibin = {
+			}
+			b_shilloh_nisibin = {
+			}
+			b_macharta_nisibin = {
+			}
+			b_korde_nisibin = {
+			}
+			b_arzamon_nisibin = {
+			}
+		}
+		c_resaina = {
+			color= { 0 40 110 }
+			color2= { 255 255 255 }
+			
+			b_resaina_resaina = {
+			}
+			b_hamidi_resaina = {
+			}
+			b_thanuris_resaina = {
+			}
+			b_shadikanni_resaina = {
+			}
+			b_thapsacus_resaina = {
+			}
+		}
+	}
+	d_tharthar = {
+		color= { 0 75 125 }
+		color2= { 255 255 255 }
+		
+		c_terqa = {
+			color= { 0 75 125 }
+			color2= { 255 255 255 }
+			
+			b_terqa_terqa = {
+			}
+			b_gabalein_terqa = {
+			}
+			b_sirhi_terqa = {
+			}
+			b_doura_terqa = {
+			}
+		}
+		c_anatho = {
+			color= { 10 65 125 }
+			color2= { 255 255 255 }
+			
+			b_anatho_anatho = {
+			}
+			b_haradu_anatho = {
+			}
+			b_biblada_anatho = {
+			}
+		}
+	}
+	d_ashur = {
+		color= { 0 50 125 }
+		color2= { 255 255 255 }
+	
+		c_pinaka = {
+			color= { 10 60 125 }
+			color2= { 255 255 255 }
+			
+			b_pinaka_pinaka = {
+			}
+			b_sareisa_pinaka = {
+			}
+			b_hiaspis_pinaka = {
+			}
+			b_satalka_pinaka = {
+			}
+		}
+		c_ashur = {
+			color= { 0 50 125 }
+			color2= { 255 255 255 }
+			
+			b_ashur_ashur = {
+			}
+			b_vicat_ashur = {
+				holy_site = marduk_cult
+			}
+			b_balad_ashur = {
+			}
+			b_apku_ashur = {
+			}
+			b_singara_ashur = {
+			}
+			b_hatra_ashur = {
+			}
+		}
+		c_takrit = {
+			color= { 0 60 135 }
+			color2= { 255 255 255 }
+
+			b_takrit_takrit = {
+			}
+			b_dura_takrit = {
+			}
+			b_samarra_takrit = {
+			}
+		}
+		c_arrapha = {
+			color= { 10 50 135 }
+			color2= { 255 255 255 }
+
+			b_arrapha_arrapha = {
+			}
+			b_nashom_arrapha = {
+			}
+			b_nuzi_arrapha = {
+			}
+			b_arzuhin_arrapha = {
+			}
+		}
+		c_arbela = {
+			color= { 10 40 125 }
+			color2= { 255 255 255 }
+
+			b_arbela_arbela = {
+			}
+			b_orava_arbela = {
+			}
+			b_hazza_arbela = {
+			}
+			b_kilizu_arbela = {
+			}
+			b_corcura_arbela = {
+			}
+		}
+		c_nineveh = {
+			color= { 10 50 115 }
+			color2= { 255 255 255 }
+
+			b_kalhu_nineveh = {
+			}
+			b_dur_sharrukin_nineveh = {
+				holy_site = marduk_cult
+			}
+			b_mosul_nineveh = {
+			}
+			b_nineveh_nineveh = {
+			}
+			b_gaugamela_nineveh = {
+			}
+		}
+	}
+}
+k_babylonia = {
+	color= { 0 50 225 }
+	color2= { 255 255 255 }
+	
+	capital = 195 # Babylon
+	
+	allow = {
+		culture = akkadian
+		liege = {
+			not = { has_landed_title = e_persia }
+			not = { has_landed_title = e_macedonia }
+		}
+	}
+	
+	d_babylonia = {
+		color= { 0 50 225 }
+		color2= { 255 255 255 }
+		
+		c_maskin = {
+			color= { 10 40 225 }
+			color2= { 255 255 255 }
+			
+			b_maskin_maskin = {
+			}
+			b_dur_kurigalzu = {
+			}
+			b_idu_maskin = {
+			}
+			b_awana_maskin = {
+			}
+		}
+		c_sippar = {
+			color= { 10 50 215 }
+			color2= { 255 255 255 }
+			
+			b_sippar_sippar = {
+			}
+			b_vologesias_sippar = {
+			}
+			b_neardea_sippar = {
+			}
+			b_cunaxa_sippar = {
+			}
+		}
+		c_opis = {
+			color= { 0 40 235 }
+			color2= { 255 255 255 }
+			
+			b_opis_opis = {
+			}
+			b_aberta_opis = {
+			}
+			b_bagdata_opis = {
+			}
+			b_aspanbor_opis = {
+			}
+			b_coche_opis = {
+			}
+			b_seleucia_opis = {
+			}
+			b_ctesiphon_opis = {
+			}
+		}
+		c_babylon = {
+			color= { 0 50 225 }
+			color2= { 255 255 255 }
+			
+			b_babylon_babylon = {
+			}
+			b_cutha_babylon = {
+				holy_site = marduk_cult
+			}
+			b_borsippa_babylon = {
+			}
+			b_kish_babylon = {
+			}
+			b_dilbat_babylon = {
+			}
+			b_gurumu_babylon = {
+			}
+			b_skaple_babylon = {
+			}
+		}
+	}
+	d_sumer = {
+		color= { 0 25 175 }
+		color2= { 255 255 255 }
+	
+		c_marad = {
+			color= { 10 15 175 }
+			color2= { 255 255 255 }
+			
+			b_marad_marad = {
+			}
+			b_aqola_marad = {
+			}
+			b_hira_marad = {
+			}
+			b_qadassiya_marad = {
+			}
+		}
+		c_nippur = {
+			color= { 0 15 165 }
+			color2= { 255 255 255 }
+			
+			b_nippur_nippur = {
+			}
+			b_dabrum_nippur = {
+				holy_site = marduk_cult
+			}
+			b_isin_nippur = {
+			}
+			b_apamea_nippur = {
+			}
+		}
+		c_uruk = {
+			color= { 0 25 175 }
+			color2= { 255 255 255 }
+			
+			b_uruk_uruk = {
+			}
+			b_girsu_uruk = {
+			}
+			b_larsa_uruk = {
+			}
+		}
+		c_ur = {
+			color= { 10 25 185 }
+			color2= { 255 255 255 }
+			
+			b_ur_ur = {
+			}
+			b_eridu_ur = {
+				holy_site = marduk_cult
+			}
+			b_nina_ur = {
+			}
+		}
+		c_charax = {
+			color= { 10 25 165 }
+			color2= { 255 255 255 }
+			
+			b_charax_charax = {
+			}
+			b_teredon_charax = {
+			}
+			b_apologos_charax = {
+			}
+			b_forat_charax = {
+			}
+			b_failaka_charax = {
+			}
+		}
+		c_kashkar = {
+			color= { 15 35 160 }
+			color2= { 255 255 255 }
+						
+			b_kashkar_kashkar = {
+			}
+			b_apamea_kashkar = {
+			}
+		}
+	}
+}
+k_armenia = {
+	color= { 200 0 50 }
+	color2= { 255 255 255 }
+	
+	capital = 218 # Armavir
+	
+	allow = {
+		or = {
+			culture = armenian
+			culture = albanian
+		}
+		liege = {
+			not = { has_landed_title = e_persia }
+			not = { has_landed_title = e_macedonia }
+		}
+	}
+	
+	d_lesser_armenia = {
+		color= { 200 25 50 }
+		color2= { 255 255 255 }
+		
+		c_melitene = {
+			color= { 200 25 50 }
+			color2= { 255 255 255 }
+			
+			b_melitene_melitene = {
+			}
+			b_arca_melitene = {
+				holy_site = anatolian_main
+			}
+			b_sartona_melitene = {
+			}
+			b_leugaisa_melitene = {
+			}
+			b_semissos_melitene = {
+			}
+		}
+		c_gundusa = {
+			color= { 190 15 50 }
+			color2= { 255 255 255 }
+			
+			b_gundusa_gundusa = {
+			}
+			b_euspena_gundusa = {
+			}
+			b_argaous_gundusa = {
+			}
+			b_zoana_gundusa = {
+			}
+		}
+		c_chorsabia = {
+			color= { 200 35 60 }
+			color2= { 255 255 255 }
+			
+			b_chorsabia_chorsabia = {
+			}
+			b_kalkh_chorsabia = {
+			}
+			b_til_chorsabia = {
+			}
+			b_tordan_chorsabia = {
+			}
+		}
+		c_sinoria = {
+			color= { 210 25 40 }
+			color2= { 255 255 255 }
+			
+			b_sinoria_sinoria = {
+			}
+			b_salmalasso_sinoria = {
+			}
+			b_darucinte_sinoria = {
+			}
+			b_kaballa_sinoria = {
+			}
+		}
+	}
+	d_upper_armenia = {
+		color= { 200 25 75 }
+		color2= { 255 255 255 }
+		
+		c_ani_kamah = {
+			color= { 200 25 75 }
+			color2= { 255 255 255 }
+			
+			b_ani_kamah = {
+			}
+			b_palios_ani_kamah = {
+			}
+			b_anzita_ani_kamah = {
+			}
+			b_mertikerton_ani_kamah = {
+			}
+			b_chosomachon_ani_kamah = {
+			}
+		}
+		c_karin = {
+			color= { 210 15 75 }
+			color2= { 255 255 255 }
+			
+			b_karin_karin = {
+			}
+			b_adconfluentes_karin = {
+			}
+			b_elegeia_karin = {
+			}
+			b_bizana_karin = {
+			}
+			b_gymnias_karin = {
+			}
+		}
+		c_ashtishat = {
+			color= { 200 35 85 }
+			color2= { 255 255 255 }
+			
+			b_ashtishat_ashtishat = {
+			}
+			b_kitharizon_ashtishat = {
+			}
+			b_artales_ashtishat = {
+			}
+		}
+	}
+	d_sophene = {
+		color= { 175 0 50 }
+		color2= { 255 255 255 }
+		
+		c_arsamosata = {
+			color= { 165 10 50 }
+			color2= { 255 255 255 }
+			
+			b_balisbiga_arsamosata = {
+			}
+			b_colchis_arsamosata = {
+			}
+			b_anzitene_arsamosata = {
+			}
+			b_dadima_arsamosata = {
+			}
+			b_arsamosata_arsamosata = {
+			}
+		}
+		c_karkathiokerta = {
+			color= { 175 0 50 }
+			color2= { 255 255 255 }
+			
+			b_karkatiokerta_karkathiokerta = {
+			}
+			b_dabanas_karkathiokerta = {
+			}
+			b_nabaris_karkathiokerta = {
+			}
+			b_saphchai_karkathiokerta = {
+			}
+		}
+		c_tigranocerta = {
+			color= { 175 10 40 }
+			color2= { 255 255 255 }
+			
+			b_maipa_tigranocerta = {
+			}
+			b_colchana_tigranocerta = {
+			}
+			b_sophanene_tigranocerta = {
+			}
+			b_mambre_tigranocerta = {
+			}
+			b_tigranocerta_tigranocerta = {
+			}
+			b_sitai_tigranocerta = {
+			}
+		}
+	}
+	d_van = {
+		color= { 150 0 50 }
+		color2= { 255 255 255 }
+		
+		c_zoaranda = {
+			color= { 140 10 50 }
+			color2= { 255 255 255 }
+			
+			b_zoaranda_zoaranda = {
+			}
+			b_cymiza_zoaranda = {
+			}
+			b_dauduana_zoaranda = {
+			}
+			b_phora_zoaranda = {
+			}
+		}
+		c_thospia = {
+			color= { 150 0 50}
+			color2= { 255 255 255 }
+			
+			b_thospia_thospia = {
+			}
+			b_artemita_thospia = {
+			}
+			b_arest_thospia = {
+			}
+			b_vastauna_thospia = {
+			}
+			b_molchia_thospia = {
+			}
+		}
+		c_calata = {
+			color= { 150 10 60 }
+			color2= { 255 255 255 }
+			
+			b_calata_calata = {
+			}
+			b_isumbo_calata = {
+			}
+			b_elegoana_calata = {
+			}
+			b_bagauna_calata = {
+			}
+		}
+	}
+	d_armenia_main = {
+		color= { 200 0 50 }
+		color2= { 255 255 255 }
+		
+		c_eruandakert = {
+			color= { 200 10 40 }
+			color2= { 255 255 255 }
+			
+			b_eruandakert_eruandakert = {
+			}
+			b_ani_eruandakert = {
+			}
+			b_chadas_eruandakert = {
+			}
+		}
+		c_paracata = {
+			color= { 210 0 40 }
+			color2= { 255 255 255 }
+			
+			b_paracata_paracata = {
+			}
+			b_catispi_paracata = {
+			}
+			b_arxata_paracata = {
+			}
+			b_shawarshan_paracata = {
+			}
+		}
+		c_armavir = {
+			color= { 200 0 50 }
+			color2= { 255 255 255 }
+			
+			b_armavir_armavir = {
+			}
+			b_kainepolis_armavir = {
+				holy_site = armenian_main
+			}
+			b_motene_armavir = {
+			}
+			b_gornae_armavir = {
+			}
+			b_doubios_armavir = {
+			}
+			b_artaxata_armavir = {
+			}
+		}
+		c_shalat = {
+			color= { 190 0 60 }
+			color2= { 255 255 255 }
+			
+			b_shalat_shalat = {
+			}
+			b_naxouana_shalat = {
+			}
+			b_nakorzan_shalat = {
+			}
+			b_sikan_shalat = {
+			}
+		}
+	}
+	d_commagene = {
+		color= { 150 25 50 }
+		color2= { 255 255 255 }
+	
+		c_samosata = {
+			color= { 150 25 50 }
+			color2= { 255 255 255 }
+		
+			b_tharsa_samosata = {
+			}
+			b_perre_samosata = {
+			}
+			b_charmodara_samosata = {
+			}
+			b_samosata_samosata = {
+			}
+			b_arsameia_samosata = {
+			}
+		}
+		c_adatha = {
+			color= { 150 35 40 }
+			color2= { 255 255 255 }
+		
+			b_adatha_adatha = {
+			}
+			b_rhabaine_adatha = {
+			}
+			b_tyba_adatha = {
+			}
+			b_ulnia_adatha = {
+			}
+		}
+	}
+}
+k_georgia = {
+	color= { 100 0 100 }
+	color2= { 255 255 255 }
+	
+	capital = 223 # Mtskheta
+	
+	allow = {
+		or = {
+			culture = georgian
+			culture = albanian
+		}
+	}
+	
+	d_iberia = {
+		color= { 100 0 100 }
+		color2= { 255 255 255 }
+		
+		c_harmozike = {
+			color= { 110 10 100 }
+			color2= { 255 255 255 }
+		
+			b_harmozike_harmozike = {
+			}
+			b_baraza_harmozike = {
+			}
+			b_kavtiskhevi_harmozike = {
+			}
+			b_samunis_harmozike = {
+			}
+			b_zalissa_harmozike = {
+			}
+		}
+		c_sarapanis = {
+			color= { 90 0 110 }
+			color2= { 255 255 255 }
+		
+			b_sarapanis_sarapanis = {
+			}
+			b_artanissa_sarapanis = {
+			}
+			b_sura_sarapanis = {
+			}
+			b_skandis_sarapanis = {
+			}
+		}
+		c_mtskheta = {
+			color= { 100 0 100 }
+			color2= { 255 255 255 }
+		
+			b_mtskheta_mtskheta = {
+			}
+			b_zalissa_mtskheta = {
+			}
+			b_seusamora_mtskheta = {
+			}
+			b_tli_mtskheta = {
+			}
+			b_caspia_mtskheta = {
+			}
+			b_cumania_mtskheta = {
+			}
+		}
+		c_sanua = {
+			color= { 90 0 90 }
+			color2= { 255 255 255 }
+		
+			b_sanua_sanua = {
+			}
+			b_tegoda_sanua = {
+			}
+			b_osica_sanua = {
+			}
+			b_niga_sanua = {
+			}
+		}
+	}
+	d_colchis = {
+		color= { 100 25 100 }
+		color2= { 255 255 255 }
+	
+		c_apsaros = {
+			color= { 110 15 100 }
+			color2= { 255 255 255 }
+		
+			b_apsaros_apsaros = {
+			}
+			b_morthoula_apsaros = {
+			}
+			b_bathys_limen_apsaros = {
+			}
+			b_kissa_apsaros = {
+			}
+		}
+		c_phasis = {
+			color= { 90 35 100 }
+			color2= { 255 255 255 }
+		
+			b_phasis_phasis = {
+			}
+			b_simagre_phasis = {
+			}
+			b_chaladidi_phasis = {
+			}
+			b_archaiopolis_phasis = {
+			}
+			b_onogouris_phasis = {
+			}
+		}
+		c_kotais = {
+			color= { 100 25 100 }
+			color2= { 255 255 255 }
+		
+			b_kotais_kotais = {
+			}
+			b_vani_kotais = {
+			}
+			b_rhodopolis_kotais = {
+			}
+			b_telephis_kotais = {
+			}
+			b_surium_kotais = {
+			}
+			b_namarriu_kotais = {
+			}
+		}
+		c_dioscurias = {
+			color= { 110 25 90 }
+			color2= { 255 255 255 }
+		
+			b_dioscurias_dioscurias = {
+			}
+			b_gyenos_dioscurias = {
+			}
+			b_tzibile_dioscurias = {
+			}
+			b_tracheia_dioscurias = {
+			}
+		}
+	}
+	d_albania = {
+		color= { 125 0 125 }
+		color2= { 255 255 255 }
+	
+		c_chabala = {
+			color= { 125 0 125 }
+			color2= { 255 255 255 }
+		
+			b_chabala_chabala = {
+			}
+			b_sioda_chabala = {
+			}
+			b_nyudi_chabala = {
+			}
+		}
+		c_sanina = {
+			color= { 115 10 125 }
+			color2= { 255 255 255 }
+		
+			b_sanina_sanina = {
+			}
+			b_gaetara_sanina = {
+			}
+			b_camachia_sanina = {
+			}
+			b_shemakha_sanina = {
+			}
+		}
+		c_amaras = {
+			color= { 135 0 115 }
+			color2= { 255 255 255 }
+		
+			b_amaras_amaras = {
+			}
+			b_taoa_amaras = {
+			}
+			b_sataphara_amaras = {
+			}
+		}
+	}
+}
+k_macedon = {
+	color= { 200 100 50 }
+	color2= { 255 255 255 }
+	
+	capital = 34 # Pella
+	
+	allow = {
+		culture = macedonian
+		liege = {
+			not = { has_landed_title = e_persia }
+			not = { has_landed_title = e_macedonia }
+		}
+	}
+    
+	latin = "Macedonia"
+	
+	d_lowermacedon = {
+		color= { 200 100 50 }
+		color2= { 255 255 255 }
+			
+		c_pella = {
+			color= { 200 100 50 }
+			color2= { 255 255 255 }
+			
+			b_pella_pella = {
+			}
+			b_gortynia_pella = {
+			}
+			b_edessa_pella = {
+			}
+			b_europos_pella = {
+			}
+			b_beroia_pella = {
+			}
+			b_allante_pella = {
+			}
+		}
+		c_pieria = {
+			color= { 210 90 50 }
+			color2= { 255 255 255 }
+			
+			b_aigai_pieria = {
+			}
+			b_pydna_pieria = {
+			}
+			b_methone_pieria = {
+			}
+			b_dion_pieria = { # Mount Olympus			
+				holy_site = greek_main
+				holy_site = pontic_main
+			}
+			b_pimpleia_pieria = {
+			}
+		}
+		c_crestonia = {
+			color= { 200 110 40 }
+			color2= { 255 255 255 }
+			
+			b_herakleia_sintike_crestonia = {
+			}
+			b_berge_crestonia = {
+			}
+			b_sirra_crestonia = {
+			}
+			b_skotoussa_crestonia = {
+			}
+		}
+	}
+	d_uppermacedon = {
+		color= { 200 100 25 }
+		color2= { 255 255 255 }
+		
+		c_orestis = {
+			color= { 200 100 25 }
+			color2= { 255 255 255 }
+			
+			b_heracleia_lyncestis_orestis = {
+			}
+			b_lychnidos_orestis = {
+			}
+			b_stuberra_orestis = {
+			}
+			b_pelagonia_orestis = {
+			}
+		}
+		c_pyli = {
+			color= { 190 100 15 }
+			color2= { 255 255 255 }			
+			
+			b_aiane_pyli = {
+			}
+			b_keletron_pyli = {
+			}
+			b_eratyra_pyli = {
+			}
+		}
+	}
+}
+k_illyria = {
+	color= { 25 255 125 }
+	color2= { 255 255 255 }
+	
+	allow = {
+		culture_group = illyrian_group
+	}
+	
+	d_dardania = {
+		color= { 25 255 125 }
+		color2= { 255 255 255 }
+		
+		c_scupi = {
+			color= { 25 215 135 }
+			color2= { 255 255 255 }
+			
+			b_scupi_scupi = {
+			}
+			b_ulpiana_scupi = {
+			}
+			b_therauda_scupi = {
+			}
+			b_vicinianum_scupi = {
+			}
+		}
+		c_naissus = {
+			color= { 35 255 115 }
+			color2= { 255 255 255 }
+			
+			b_naissus_naissus = {
+			}
+			b_mediana_naissus = {
+			}
+			b_ulunus_naissus = {
+			}
+			b_grarariana_naissus = {
+			}
+			b_remesiana_naissus = {
+			}
+		}
+		c_dardani = {
+			color= { 25 255 125 }
+			color2= { 255 255 255 }
+			
+			b_dardania_dardani = {
+			}
+			b_venden_dardani = {
+			}
+			b_celiana_dardani = {
+			}
+			b_trepica_dardani = {
+			}
+			b_runica_dardani = {
+			}
+			b_socanica_dardani = {
+			}
+		}
+	}
+	
+	d_dalmatia = {
+		color= { 25 255 100 }
+		color2= { 255 255 255 }
+		
+		c_pharos = {
+			color= { 35 245 100 }
+			color2= { 255 255 255 }
+			
+			b_pharos_pharos = {
+			}
+			b_korkyra_melaina_pharos = {
+			}
+			b_tragurium_pharos = {
+			}
+			b_rider_pharos = {
+			}
+		}
+		c_salonica = {
+			color= { 15 255 90 }
+			color2= { 255 255 255 }
+			
+			b_salonica_salonica = {
+			}
+			b_spalatum_salonica = {
+			}
+			b_oneum_salonica = {
+			}
+			b_muccurum_salonica = {
+			}
+			b_pituntium_salonica = {
+			}
+		}
+		c_delminium = {
+			color= { 25 255 100 }
+			color2= { 255 255 255 }
+			
+			b_delminium_delminium = {
+			}
+			b_aequum_delminium = {
+			}
+			b_pelva_delminium = {
+			}
+			b_salvium_delminium = {
+			}
+			b_osinium_delminium = {
+			}
+		}
+		c_rhizon = {
+			color= { 25 245 110 }
+			color2= { 255 255 255 }
+			
+			b_rhizon_rhizon = {
+			}
+			b_stagnum_rhizon = {
+			}
+			b_epidaurum_rhizon = {
+			}
+			b_salthua_rhizon = {
+			}
+		}
+		c_scodra = {
+			color= { 35 255 90 }
+			color2= { 255 255 255 }
+			
+			b_scodra_scodra = {
+			}
+			b_bouthoe_scodra = {
+			}
+			b_olcinium_scodra = {
+			}
+			b_meteon_scodra = {
+			}
+			b_doclea_scodra = {
+			}
+		}
+	}
+	
+	d_triballia = {
+		color= { 25 225 125 }
+		color2= { 255 255 255 }
+		
+		c_ratiaria = {
+			color= { 35 215 125 }
+			color2= { 255 255 255 }
+			
+			b_ratiaria_ratiaria = {
+			}
+			b_bononia_ratiaria = {
+			}
+			b_almus_ratiaria = {
+				holy_site = thracian_main
+			}
+			b_romuliana_ratiaria = {
+			}
+		}
+		c_singidunum = {
+			color= { 25 225 125 }
+			color2= { 255 255 255 }
+			
+			b_margum_singidunum = {
+			}
+			b_oktabon_singidunum = {
+			}
+			b_lederata_singidunum = {
+			}
+			b_singidunum_singidunum = {
+			}
+			b_viminacium_singidunum = {
+			}
+		}
+	}
+	
+	d_paeonia = {
+		color= { 25 200 100 }
+		color2= { 255 255 255 }
+	
+		c_paroikopolis = {
+			color= { 25 200 100 }
+			color2= { 255 255 255 }
+		
+			b_paroikopolis_paroikopolis = {
+			}
+			b_neine_paroikopolis = {
+			}
+			b_doberos_paroikopolis = {
+			}
+		}
+		c_stobi = {
+			color= { 25 200 110 }
+			color2= { 255 255 255 }
+				
+			b_stobi_stobi = {
+			}
+			b_bylazora_stobi = {
+			}						
+			b_gurbita_stobi = {
+			}
+			b_bargala_stobi = {
+			}
+		}
+		c_serdica = {			
+			color= { 35 190 100 }
+			color2= { 255 255 255 }			
+			
+			b_serdika_serdika = {
+			}
+			b_scretisca_serdika = {
+			}
+			b_burgaraca_serdika = {
+			}
+			b_meldia_serdika = {
+			}
+		}
+	}
+	d_epidamnia = {
+		color= { 50 255 125 }
+		color2= { 255 255 255 }
+	
+		c_epidamnos = {
+			color= { 50 255 125 }
+			color2= { 255 255 255 }
+					
+			b_epidamnos_epidamnos = {
+			}
+			b_lissus_epidamnos = {
+			}
+			b_albanopolis_epidamnos = {
+			}
+			b_clodiana_epidamnos = {
+			}
+		}
+		c_apollonia_epidamnia = {			
+			color= { 40 245 135 }
+			color2= { 255 255 255 }
+			
+			b_apollonia_apollonia_epidamnia = {
+			}
+			b_dimalion_apollonia_epidamnia = {
+			}
+			b_nikaia_apollonia_epidamnia = {
+			}
+		}
+		c_parthus = {
+			color= { 60 255 115 }
+			color2= { 255 255 255 }
+		
+			b_parthus_parthus = {
+			}
+			b_kerax_parthus = {
+			}
+			b_beue_parthus = {
+			}
+		}	
+	}
+}
+k_pannonia = {
+	color= { 50 200 100 }
+	color2= { 255 255 255 }
+	
+	d_liburnia = {
+		color= { 50 200 125 }
+		color2= { 255 255 255 }
+		
+		c_ortopla = {
+			color= { 50 190 115 }
+			color2= { 255 255 255 }
+			
+			b_ortopla_ortopla = {
+			}
+			b_arupium_ortopla = {
+			}
+			b_cissa_ortopla = {
+			}
+			b_arba_ortopla = {
+			}
+		}
+		c_senia = {
+			color= { 60 200 135 }
+			color2= { 255 255 255 }
+			
+			b_senia_senia = {
+			}
+			b_apsarus_senia = {
+			}
+			b_curicum_senia = {
+			}
+			b_tarsatica_senia = {
+			}
+		}
+		c_iader = {
+			color= { 50 200 125 }
+			color2= { 255 255 255 }
+			
+			b_iader_iader = {
+			}
+			b_aenona_iader = {
+			}
+			b_nedinum_iader = {
+			}
+			b_burnum_iader = {
+			}
+			b_scardona_iader = {
+			}
+		}
+	}
+	d_pelso = {
+		color= { 50 200 100 }
+		color2= { 255 255 255 }
+		
+		c_scarbantia = {
+			color= { 40 200 90 }
+			color2= { 255 255 255 }
+			
+			b_scarbantia_scarbantia = {
+			}
+			b_mursella_scarbantia = {
+			}
+			b_muteno_scarbantia = {
+			}
+			b_arrabona_scarbantia = {
+			}
+		}
+		c_tricciana = {
+			color= { 50 200 100 }
+			color2= { 255 255 255 }
+			
+			b_tricciana_tricciana = {
+			}
+			b_gorsium_tricciana = {
+			}
+			b_lussomana_tricciana = {
+			}
+			b_floriana_tricciana = {
+			}
+			b_brigetio_tricciana = {
+			}
+			b_aquincum_tricciana = {
+			}
+		}
+		c_sopianae = {
+			color= { 60 190 100 }
+			color2= { 255 255 255 }
+			
+			b_sopianae_sopianae = {
+			}
+			b_altinum_sopianae = {
+			}
+			b_alisca_sopianae = {
+			}
+			b_iovia_sopianae = {
+			}
+		}
+		c_sala = {
+			color= { 50 190 90 }
+			color2= { 255 255 255 }
+			
+			b_sala_sala = {
+			}
+			b_savaria_sala = {
+			}
+			b_bassiana_sala = {
+			}
+			b_mestrianis_sala = {
+			}
+		}
+		c_mursa = {
+			color= { 40 185 100 }
+			color2= { 255 255 255 }
+			
+			b_mursa_mursa = {
+			}
+			b_mursella_mursa = {
+			}
+			b_donatlanis_mursa = {
+			}
+		}
+	}
+	d_noricum = {
+		color= { 50 200 75 }
+		color2= { 255 255 255 }
+		
+		c_emona = {
+			color= { 50 190 65 }
+			color2= { 255 255 255 }
+			
+			b_emona_emona = {
+			}
+			b_nauportus_emona = {
+			}
+			b_camium_emona = {
+			}
+			b_acervo_emona = {
+			}
+		}
+		c_virunum = {
+			color= { 50 200 75 }
+			color2= { 255 255 255 }
+			
+			b_virunum_virunum = {
+			}
+			b_iuenna_virunum = {
+			}
+			b_teurnia_virunum = {
+			}
+			b_santicum_virunum = {
+			}
+		}
+		c_ovilava = {
+			color= { 60 190 75 }
+			color2= { 255 255 255 }
+			
+			b_ovilava_ovilava = {
+			}
+			b_lentia_ovilava = {
+			}
+			b_vetonianis_ovilava = {
+			}
+			b_lauriacum_ovilava = {
+			}
+		}
+	}
+	d_segestica = {
+		color= { 50 175 100 }
+		color2= { 255 255 255 }
+		
+		c_splonum = {
+			color= { 50 165 90 }
+			color2= { 255 255 255 }
+			
+			b_splonum_splonum = {
+			}
+			b_raetinium_splonum = {
+			}
+			b_marsonia_splonum = {
+			}
+			b_leucono_splonum = {
+			}
+		}
+		c_segestica = {
+			color= { 50 175 100 }
+			color2= { 255 255 255 }
+			
+			b_segestica_segestica = {
+			}
+			b_andautonia_segestica = {
+			}
+			b_colapis_segestica = {
+			}
+			b_varianae_segestica = {
+			}
+			b_balissae_segestica = {
+			}
+		}
+	}
+	d_sirmium = {
+		color= { 50 175 125 }
+		color2= { 255 255 255 }
+		
+		c_malvesa = {
+			color= { 60 165 125 }
+			color2= { 255 255 255 }
+			
+			b_malvesa_malvesa = {
+			}
+			b_domavium_malvesa = {
+			}
+			b_salinae_malvesa = {
+			}
+			b_risa_malvesa = {
+			}
+		}
+		c_cibalae = {
+			color= { 40 175 115 }
+			color2= { 255 255 255 }
+			
+			b_cibalae_cibalae = {
+			}
+			b_comacum_cibalae = {
+			}
+			b_causilena_cibalae = {
+			}
+			b_cuccium_cibalae = {
+			}
+		}
+		c_sirmium = {
+			color= { 50 175 125 }
+			color2= { 255 255 255 }
+			
+			b_sirmium_sirmium = {
+			}
+			b_drinum_sirmium = {
+			}
+			b_cusum_sirmium = {
+			}
+			b_malata_sirmium = {
+			}
+			b_bassiana_sirmium = {
+			}
+			b_milata_sirmium = {
+			}
+		}
+	}
+}
+k_greece = {
+	color= { 100 200 255 }
+	color2= { 255 255 255 }
+	
+	allow = {
+		or = {
+			culture = aeolian
+			culture = arcadian
+			culture = doric
+			culture = ionian
+		}
+		liege = {
+			not = { has_landed_title = e_persia }
+			not = { has_landed_title = e_macedonia }
+		}
+	}
+	
+	d_peloponnese = {
+		color= { 100 175 255 }
+		color2= { 255 255 255 }
+	
+		c_corinth = {
+			color= { 100 175 255 }
+			color2= { 255 255 255 }
+		
+			b_acrocorinth_corinth = {
+			}
+			b_isthmia_corinth = {
+			}
+			b_corinth_corinth = {
+			}
+			b_sikyon_corinth = {
+			}
+			b_peraion_corinth = {
+			}
+			b_megara_corinth = {
+			}
+		}
+		c_argos = {
+			color= { 90 165 245 }
+			color2= { 255 255 255 }
+		
+			b_argos_argos = {
+			}
+			b_nemea_argos = {
+			}
+			b_epidauros_argos = {
+			}
+			b_methana_argos = {
+			}
+			b_asine_argos = {
+			}
+			b_philenorion_argos = {
+			}
+		}
+		c_sparta = {
+			color= { 110 185 255 }
+			color2= { 255 255 255 }
+		
+			b_sparta_sparta = {
+			}
+			b_alagonia_sparta = {
+			}
+			b_epidauros_sparta = {
+			}
+			b_gytheion_sparta = {
+			}
+			b_tainaron_sparta = {
+			}
+			b_las_sparta = {
+			}
+		}
+		c_megalopolis = {
+			color= { 110 175 245 }
+			color2= { 255 255 255 }
+		
+			b_megalopolis_megalopolis = {
+			}
+			b_brenthe_megalopolis = {
+			}
+			b_mantineia_megalopolis = {
+			}
+			b_tegea_megalopolis = {
+			}
+			b_orchomenos_megalopolis = {
+			}
+			b_lykosoura_megalopolis = {
+			}
+		}
+		c_olympia = {
+			color= { 100 165 245 }
+			color2= { 255 255 255 }
+		
+			b_elis_olympia = {
+			}
+			b_olympia_olympia = { # Olympia
+				holy_site = greek_main
+				holy_site = pontic_main
+			}
+			b_dyme_olympia = {
+			}
+			b_lepreon_olympia = {
+			}
+			b_hypana_olympia = {
+			}
+		}
+		c_patras = {
+			color = { 90 185 255 }
+			color2= { 255 255 255 }
+		
+			b_patras_patras = {
+			}
+			b_kynaithai_patras = {
+			}
+			b_aigion_patras = {
+			}
+			b_aigeira_patras = {
+			}
+			b_pellene_patras = {
+			}
+		}
+		c_messene = {
+			color = { 110 165 255 }
+			color2= { 255 255 255 }
+		
+			b_messene_messene = {
+			}
+			b_andania_messene = {
+			}
+			b_methone_messene = {
+			}
+			b_pylos_messene = {
+			}
+		}
+	}
+	d_attike = {
+		color= { 100 200 255 }
+		color2= { 255 255 255 }
+	
+		c_athens = {
+			color= { 100 200 255 }
+			color2= { 255 255 255 }
+		
+			b_acropolis_athens = {
+			}
+			b_athens_athens = {
+			}
+			b_sounion_athens = {
+			}
+			b_thorikos_athens = {
+			}
+			b_eleusis_athens = {
+			}
+			b_piraios_athens = {
+			}
+			b_eleutherai_athens = {
+			}
+			b_oropos_athens = {
+			}
+			b_marathon_athens = {
+			}
+		}
+		c_thebes = {
+			color= { 110 190 255 }
+			color2= { 255 255 255 }
+		
+			b_thebes_thebes = {
+			}
+			b_askra_thebes = {
+			}
+			b_orchomenos_thebes = {
+			}
+			b_chaironeia_thebes = {
+			}
+			b_thisbe_thebes = {
+			}
+			b_plataea_thebes = {
+			}
+		}	
+		c_delphi = {
+			color= { 90 210 255 }
+			color2= { 255 255 255 }
+		
+			b_kythinion_delphi = {
+			}
+			b_delphi_delphi = { # Oracle of Delphi
+				holy_site = greek_main
+			}
+			b_pindos_delphi = {
+			}
+			b_antikyra_delphi = {
+			}
+		}
+	}
+	d_aetolia = {
+		color= { 100 225 225 }
+		color2= { 255 255 255 }
+		
+		c_malis = {
+			color= { 100 215 215 }
+			color2= { 255 255 255 }
+			
+			b_trachis_malis = {
+			}
+			b_chaleion_malis = {
+			}
+			b_naupactus_malis = {
+			}
+		}		
+		c_thermos = {
+			color= { 90 235 225 }
+			color2= { 255 255 255 }
+			
+			b_thermos_thermos = {
+			}
+			b_trichonion_thermos = {
+			}
+			b_kallipolis_thermos = {
+			}
+			b_phystion_thermos = {
+			}
+			b_bouttos_thermos = {
+			}
+			b_oineon_thermos = {
+			}
+		}
+		c_stratus = {
+			color= { 100 225 225 }
+			color2= { 255 255 255 }
+		
+			b_stratus_stratus = {
+			}
+			b_phara_stratus = {
+			}
+			b_leucas_stratus = {
+			}
+			b_tyrrheion_stratus = {
+			}
+			b_oiniadai_stratus = {
+			}
+		}
+	}
+	d_crete = {
+		color= { 100 200 225 }
+		color2= { 255 255 255 }
+	
+		c_kydonia = {
+			color= { 100 200 225 }
+			color2= { 255 255 255 }
+		
+			b_kydonia_kydonia = {
+			}
+			b_sybrita_kydonia = {
+			}
+			b_lappa_kydonia = {
+			}
+			b_rhithymna_kydonia = {
+			}
+			b_eleutherna_kydonia = {
+			}
+			b_minoa_kydonia = {
+			}
+			b_polyrrenia_kydonia = {
+			}
+		}
+		c_knossos = {
+			color= { 90 200 215 }
+			color2= { 255 255 255 }
+		
+			b_knossos_knossos = {
+			}
+			b_plati_knossos = {
+			}
+			b_gortyn_knossos = {
+			}
+			b_praisos_knossos = {
+			}
+			b_olous_knossos = {
+			}
+			b_itanos_knossos = {
+			}
+			b_hierapytna_knossos = {
+			}
+		}
+	}
+	d_euboia = {
+		color= { 100 175 200 }
+		color2= { 255 255 255 }
+	
+		c_chalcis = {
+			color= { 100 175 200 }
+			color2= { 255 255 255 }
+		
+			b_chalcis_chalcis = {
+			}
+			b_dion_chalcis = {
+			}
+			b_aidepsos_chalcis = {
+			}
+			b_argoura_chalcis = {
+			}
+			b_histiaia_chalcis = {
+			}
+			b_poseidion_chalcis = {
+			}
+			b_kerinthos_chalcis = {
+			}
+		}
+		c_eretria = {
+			color= { 90 175 190 }
+			color2= { 255 255 255 }
+		
+			b_eretria_eretria = {
+			}
+			b_tamynai_eretria = {
+			}
+			b_karystos_eretria = {
+			}
+			b_styra_eretria = {
+			}
+		}
+		c_sporades = {
+			color= { 110 165 200 }
+			color2= { 255 255 255 }
+		
+			b_ikos_sporades = {
+			}
+			b_skyros_sporades = {
+			}
+			b_paparethos_sporades = {
+			}
+			b_skiathos_sporades = {
+			}
+		}
+	}
+	d_cyclades = {
+		color= { 100 175 225 }
+		color2= { 255 255 255 }
+	
+		c_andros = {
+			color= { 90 165 210 }
+			color2= { 255 255 255 }
+		
+		
+			b_palaeopolis_andros = {
+			}
+			b_delos_andros = {
+			}
+			b_karthaia_andros = {
+			}
+			b_mykonos_andros = {
+			}
+		}
+		c_naxos = {
+			color= { 100 175 225 }
+			color2= { 255 255 255 }
+		
+			b_naxos_naxos = {
+			}
+			b_paros_naxos = {
+			}
+			b_ios_naxos = {
+			}
+			b_arkesine_naxos = {
+			}
+			b_melos_naxos = {
+			}
+			b_anaphe_naxos = {
+			}
+			b_minoa_naxos = {
+			}
+		}
+	}
+	d_ionian_islands = {
+		color= { 100 175 175 }
+		color2= { 255 255 255 }
+	
+		c_cephalonia = {
+			color= { 110 185 175 }
+			color2= { 255 255 255 }
+		
+			b_same_cephalonia = {
+			}
+			b_ithaca_cephalonia = {
+			}
+			b_pronnoi_cephalonia = {
+			}
+			b_zakynthos_cephalonia = {
+			}
+		}
+		c_corfu = {
+			color= { 100 175 150 }
+			color2= { 255 255 255 }
+		
+			b_corcyra_corfu = {
+			}
+			b_artemis_corfu = {
+			}
+			b_kassiope_corfu = {
+			}
+		}
+	}
+	d_thessaly = {
+		color= { 100 200 200 }
+		color2= { 255 255 255 }
+		
+		title = "TAGUS"
+		
+		c_lamia = {
+			color= { 100 190 190 }
+			color2= { 255 255 255 }
+		
+			b_lamia_lamia = {
+			}
+			b_pharsalus_lamia = {
+			}
+			b_pherai_lamia = {
+			}
+			b_proerna_lamia = {
+			}			
+			b_iton_lamia = {
+			}
+		}
+		c_larissa = {
+			color= { 100 200 200 }
+			color2= { 255 255 255 }
+		
+			b_larissa_larissa = {
+			}
+			b_olooson_larissa = {
+			}
+			b_atrax_larissa = {
+			}
+			b_krannon_larissa = {
+			}
+			b_gonnoi_larissa = {
+			}
+		}
+		c_trikka = {			
+			color= { 100 210 210 }
+			color2= { 255 255 255 }
+			
+			b_trikka_trikka = {
+			}
+			b_kierion_trikka = {
+			}
+			b_athena_itonia_trikka = {
+			}
+			b_ithome_trikka = {
+			}
+		}
+		c_magnesia = {
+			color= { 120 200 200 }
+			color2= { 255 255 255 }
+			
+			b_methone_magnesia = {
+			}
+			b_kasthaneia_magnesia = {
+			}
+			b_kourope_magnesia = {
+			}
+			b_rhizous_magnesia = {
+			}
+			b_demetrias_magnesia = {
+			}
+		}
+	}
+	d_chalcidice = {
+		color= { 100 175 200 }
+		color2= { 255 255 255 }
+				
+		c_chalkidiki = {
+			color= { 100 175 200 }
+			color2= { 255 255 255 }
+			
+			b_olynthos_chalkidiki = {
+			}			
+			b_stageira_chalkidiki = {
+			}
+			b_kalindoia_chalkidiki = {
+			}
+			b_anthemous_chalkidiki = {
+			}
+			b_thessalonika_chalkidiki = {
+			}
+		}
+		c_poteidaia = {
+			color= { 90 185 190 }
+			color2= { 255 255 255 }
+			
+			b_poteidaia_poteidaia = {
+			}
+			b_mende_poteidaia = {
+			}
+			b_aphytis_poteidaia = {
+			}
+			b_skione_poteidaia = {
+			}
+		}
+		c_torone = {
+			color= { 110 185 210 }
+			color2= { 255 255 255 }
+						
+			b_torone_torone = {
+			}
+			b_akanthos_torone = {
+			}
+			b_dion_torone = {
+			}
+			b_singos_torone = {
+			}
+		}
+	}
+}
+k_nabataea = {
+	color= { 200 150 0 }
+	color2= { 255 255 255 }
+	
+	allow = {
+		culture = nabataean
+	}
+	
+	d_sinai = {
+		color= { 200 150 25 }
+		color2= { 255 255 255 }
+		egyptian = "Mafkat"
+	
+		c_pelusium = {
+			color= { 200 150 25 }
+			color2= { 255 255 255 }
+			egyptian = "Per Amun"
+		
+			b_pelusium_pelusium = {
+				egyptian = "Per Amun"
+			}
+			b_ostrakine_pelusium = {
+			}
+			b_rhinocolura_pelusium = {
+				egyptian = "Rngrn"
+			}
+			b_gerra_pelusium = {
+			}
+		}
+		c_rhaithou = {
+			color= { 190 150 25 }
+			color2= { 255 255 255 }
+			egyptian = "Dw Mafkat"
+		
+			b_rhaithou_rhaithou = {
+				egyptian = "Dw Mafkat"
+			}
+			b_pharan_rhaithou = {
+			}
+			b_arandara_rhaithou = {
+			}
+		}
+		c_aelana = {
+			color= { 200 160 25 }
+			color2= { 255 255 255 }
+	
+			b_aelana_aelana = {
+			}
+			b_sobata_aelana = {
+			}
+			b_eboda_aelana = {
+			}
+		}
+	}
+	d_nabataea = {
+		color= { 200 150 0 }
+		color2= { 255 255 255 }
+	
+		c_auara = {
+			color= { 190 160 0 }
+			color2= { 255 255 255 }
+		
+			b_auara_auara = {
+			}
+			b_aramaua_auara = {
+			}
+			b_makna_auara = {
+			}
+			b_ankale_auara = {
+			}
+		}
+		c_petra = {
+			color= { 200 150 0 }
+			color2= { 255 255 255 }
+		
+			b_petra_petra = {
+			}
+			b_sobora_petra = {
+			}
+			b_negla_petra = {
+			}
+			b_manopsora_petra = {
+			}
+			b_phaino_petra = {
+			}
+			b_arindela_petra = {
+			}
+		}
+		c_characmoba = {
+			color= { 200 140 10 }
+			color2= { 255 255 255 }
+		
+			b_characmoba_characmoba = {
+			}
+			b_areopolis_characmoba = {
+			}
+			b_adara_characmoba = {
+			}
+			b_louetha_characmoba = {
+			}
+		}
+		c_madaba = {
+			color= { 190 150 10 }
+			color2= { 255 255 255 }
+		
+			b_madaba_madaba = {
+			}
+			b_esbous_madaba = {
+				holy_site = judaism_main
+			}
+			b_ziza_madaba = {
+			}
+			b_valtha_madaba = {
+			}
+			b_elealeh_madaba = {
+			}
+		}
+	}
+	d_lihyan = {
+		color= { 175 150 0 }
+		color2= { 255 255 255 }
+		
+		c_modiana = {
+			color= { 185 150 10 }
+			color2= { 255 255 255 }
+			
+			b_modiana_modiana = {
+			}
+			b_madiaba_modiana = {
+			}
+			b_laba_modiana = {
+			}
+		}
+		c_dedan = {
+			color= { 175 150 0 }
+			color2= { 255 255 255 }
+			
+			b_dedan_dedan = {
+			}
+			b_egra_dedan = {
+			}
+			b_badais_dedan = {
+			}
+			b_akra_dedan = {
+			}
+			b_phoinikon_kome = {
+			}
+		}
+		c_ausara = {
+			color= { 165 160 0 }
+			color2= { 255 255 255 }
+			
+			b_ausara_ausara = {
+			}
+			b_mochoura_ausara = {
+			}
+			b_thoumna_ausara = {
+			}
+			b_hibra_ausara = {
+			}
+		}
+		c_alouare = {
+			color= { 185 160 10 }
+			color2= { 255 255 255 }
+			
+			b_alouare_alouare = {
+			}
+			b_iathrippa_alouare = {
+			}
+			b_baema_alouare = {
+			}
+		}
+	}
+	d_bostra = {
+		color= { 175 125 0 }
+		color2= { 255 255 255 }
+	
+		c_gadara = {
+			color= { 165 135 0 }
+			color2= { 255 255 255 }
+		
+			b_gadara_gadara = {
+			}
+			b_abila_gadara = {
+				holy_site = judaism_main
+			}
+			b_hippos_gadara = {
+			}
+			b_gerasa_gadara = {
+			}
+		}
+		c_bostra = {
+			color= { 185 115 0 }
+			color2= { 255 255 255 }
+		
+			b_bostra_bostra = {
+			}
+			b_dionysias_bostra = {
+			}
+			b_canatha_bostra = {
+			}
+			b_sounoa_bostra = {
+			}
+			b_adraha_bostra = {
+			}
+			b_philippopolis_bostra = {
+			}
+		}
+	}
+}
+k_italy = {
+	color= { 125 0 0 }
+	color2= { 255 255 255 }
+	
+	allow = {
+		or = {
+			culture_group = italian
+			culture_group = tyrhenian
+			culture_group = north_italic
+		}
+	}
+	
+	d_campania = {
+		color= { 125 0 25 }
+		color2= { 255 255 255 }
+		
+		c_irna = {
+			color= { 125 10 15 }
+			color2= { 255 255 255 }
+			
+			b_irna = {
+			}
+			b_paestum_irna = {
+			}
+		}
+		c_neapolis = {
+			color= { 115 10 25 }
+			color2= { 255 255 255 }
+			
+			b_neapolis = {
+			}
+			b_capua_neapolis = {
+			}
+			b_cumae_neapolis = {
+			}
+			b_ischia_neapolis = {
+			}
+			b_dicaearchia_neapolis = {
+			}
+		}
+		c_capua = {
+			color= { 125 0 25 }
+			color2= { 255 255 255 }
+			
+			b_capua_capua = {
+			}
+			b_casilimum_capua = {
+			}
+			b_vulturnum_capua = {
+			}
+			b_cales_capua = {
+			}
+		}
+	}
+	d_samnium = {
+		color= { 125 25 0 }
+		color2= { 255 255 255 }
+		
+		c_venusia = {
+			color= { 135 15 0 }
+			color2= { 255 255 255 }
+			
+			b_venusia_venusia = {
+			}
+			b_strapellum_venusia = {
+			}
+			b_bantia_venusia = {
+			}
+			b_acherontia_venusia = {
+			}
+			b_ferentium_venusia = {
+			}
+		}
+		c_beneventum = {
+			color= { 125 35 10 }
+			color2= { 255 255 255 }
+			
+			b_beneventum_beneventum = {
+			}
+			b_chivia_beneventum = {
+			}
+			b_telesia_beneventum = {
+				holy_site = roman_main
+			}
+			b_melae_beneventum = {
+			}
+		}
+		c_bovianum = {
+			color= { 125 25 0 }
+			color2= { 255 255 255 }
+			
+			b_bovianum_bovianum = {
+			}
+			b_aeserina_bovianum = {
+			}
+			b_aquilonia_bovianum = {
+			}
+			b_treventum_bovianum = {
+			}
+		}
+		c_sulmo = {
+			color= { 115 25 10 }
+			color2= { 255 255 255 }
+			
+			b_volana_sulmo = {
+			}
+			b_cutina_sulmo = {
+			}
+			b_teate_sulmo = {
+			}
+			b_aufina_sulmo = {
+			}
+		}
+	}
+	d_latium = {
+		color= { 125 0 0 }
+		color2= { 255 255 255 }
+		
+		c_terracina = {
+			color= { 135 10 0 }
+			color2= { 255 255 255 }
+			
+			b_terracina_terracina = {
+			}
+			b_fundi_terracina = {
+			}
+			b_ausona_terracina = {
+			}
+		}
+		c_antium = {
+			color= { 125 10 10 }
+			color2= { 255 255 255 }
+			
+			b_antium_antium = {
+			}
+			b_aphrodisium_antium = {
+			}
+			b_lanuvium_antium = {
+			}
+		}
+		c_roma = {
+			color= { 125 0 0 }
+			color2= { 255 255 255 }
+			
+			b_roma_roma = {
+			}
+			b_ostia_roma = {
+			}
+			b_vialaurentina_roma = {
+			}
+			b_aricia_roma = {
+				holy_site = etruscan_main
+				holy_site = roman_main
+			}
+			b_picana_roma = {
+			}
+		}
+	}
+	d_umbria = {
+		color= { 125 25 25 }
+		color2= { 255 255 255 }
+		
+		c_amiternum = {
+			color= { 125 15 15 }
+			color2= { 255 255 255 }
+			
+			b_amiternum_amiternum = {
+			}
+			b_testrina_amiternum = {
+			}
+			b_reate_amiternum = {
+			}
+			b_casperia_amiternum = {
+			}
+		}
+		c_spoletium = {
+			color= { 125 35 35 }
+			color2= { 255 255 255 }
+			
+			b_spoletium_spoletium = {
+			}
+			b_treva_spoletium = {
+			}
+			b_ameria_spoletium = {
+			}
+			b_mevania_spoletium = {
+				holy_site = roman_main
+			}
+		}
+		c_iguvium = {
+			color= { 125 25 25 }
+			color2= { 255 255 255 }
+			
+			b_iguvium_iguvium = {
+			}
+			b_attidoim_iguvium = {
+			}
+			b_assisium_iguvium = {
+			}
+			b_nuceria_iguvium = {
+			}
+		}
+		c_sarsina = {
+			color= { 115 35 25 }
+			color2= { 255 255 255 }
+			
+			b_ariminum_sarsina = {
+			}
+			b_sarsina_sarsina = {
+			}
+			b_piseurum_sarsina = {
+			}
+			b_gatis_sarsina = {
+			}
+		}
+	}
+	d_etruria = {
+		color= { 100 0 0 }
+		color2= { 255 255 255 }
+		
+		c_veii = {
+			color= { 110 10 0 }
+			color2= { 255 255 255 }
+			
+			b_veii_veii = {
+			}
+			b_laurium_veii = {
+			}
+			b_frenae_veii = {
+			}
+			b_pyrgos_veii = {
+			}
+		}
+		c_tarquinii = {
+			color= { 90 0 10 }
+			color2= { 255 255 255 }
+			
+			b_tarquinii_tarquinii = {
+			}
+			b_tuscania_tarquinii = {
+				holy_site = etruscan_main
+				holy_site = roman_main
+			}
+			b_blera_tarquinii = {
+			}
+			b_punicum_tarquinii = {
+			}
+		}
+		c_arretium = {
+			color= { 100 10 10 }
+			color2= { 255 255 255 }
+			
+			b_arretium_arretium = {
+			}
+			b_cortona_arretium = {
+			}
+			b_aquileia_arretium = {
+			}
+			b_biturgia_arretium = {
+			}
+		}
+		c_vetulonia = {
+			color= { 110 0 10 }
+			color2= { 255 255 255 }
+			
+			b_vetulonia_vetulonia = {
+			}
+			b_cossa_vetulonia = {
+			}
+			b_salobro_vetulonia = {
+			}
+			b_rustellae_vetulonia = {
+			}
+		}
+		c_pisae = {
+			color= { 100 0 0 }
+			color2= { 255 255 255 }
+			
+			b_pisae_pisae = {
+			}
+			b_populonium_pisae = {
+			}
+			b_luca_pisae = {
+			}
+			b_fiorentia_pisae = {
+				holy_site = etruscan_main
+			}
+			b_pistoria_pisae = {
+			}
+		}
+	}
+	d_picenum = {
+		color= { 150 0 0 }
+		color2= { 255 255 255 }
+		
+		c_asculum = {
+			color= { 150 0 0 }
+			color2= { 255 255 255 }
+			
+			b_asculum_asculum = {
+			}
+			b_novana_asculum = {
+			}
+			b_hadria_asculum = {
+			}
+			b_vicus_badies_asculum = {
+			}
+		}
+		c_ancona = {
+			color= { 160 0 10 }
+			color2= { 255 255 255 }
+			
+			b_ancona_ancona = {
+			}
+			b_firmum_ancona = {
+			}
+			b_sentium_ancona = {
+			}
+			b_faleria_ancona = {
+				holy_site = roman_main
+			}
+		}
+	}
+}
+k_cisalpine_gaul = {
+	color= { 100 255 75 }
+	color2= { 255 255 255 }
+	
+	allow = {
+		or = {
+			culture = gaul
+			culture = ligurian
+		}
+	}
+	
+	d_liguria = {
+		color= { 100 225 75 }
+		color2= { 255 255 255 }
+		
+		c_luna = {
+			color= { 100 225 75 }
+			color2= { 255 255 255 }
+			
+			b_luna_luna = {
+			}
+			b_boron_luna = {
+			}
+			b_segeste_luna = {
+			}
+			b_ricina_luna = {
+			}
+		}
+		c_albingaunum = {
+			color= { 110 215 75 }
+			color2= { 255 255 255 }
+									
+			b_albingaunum_albingaunum = {
+			}
+			b_pullopice_albingaunum = {
+			}
+			b_albium_intilium_albingaunum = {
+			}
+		}
+		c_vardagate = {
+			color= { 90 225 65 }
+			color2= { 255 255 255 }
+			
+			b_industria_vardagate = {
+			}
+			b_vardagate_vardagate = {
+			}
+		}
+		c_taurasia = {
+			color= { 110 235 75 }
+			color2= { 255 255 255 }
+			
+			b_pollentia_taurasia = {
+			}
+			b_pedona_taurasia = {
+			}
+			b_carreum_potentia_taurasia = {
+			}
+		}
+		c_genua = {
+			color= { 110 215 85 }
+			color2= { 255 255 255 }
+						
+			b_stalia_genua = {
+			}
+			b_hasta_genua = {
+			}
+			b_coeba_genua = {
+			}
+			b_savo_genua = {
+			}
+			b_genua_genua = {
+			}
+		}
+	}
+	d_gallia_transpadana = {
+		color= { 100 255 75 }
+		color2= { 255 255 255 }
+		
+		c_vercellae = {
+			color= { 100 255 60 }
+			color2= { 255 255 255 }
+			
+			b_vercellae_vercellae = {
+			}
+			b_novaria_vercellae = {
+			}
+			b_cuttiae_vercellae = {
+			}
+			b_retovium_vercellae = {
+			}
+		}
+		c_mediolanum = {
+			color= { 100 255 75 }
+			color2= { 255 255 255 }
+			
+			b_mediolanum_mediolanum = {
+			}
+			b_comum_mediolanum = {
+			}
+			b_modicia_mediolanum = {
+			}
+		}
+		c_brixia = {
+			color= { 100 240 75 }
+			color2= { 255 255 255 }
+			
+			b_brixia_brixia = {
+			}
+			b_bergomum_brixia = {
+			}
+			b_spina_brixia = {
+			}
+		}
+		c_eporedia = {			
+			color= { 110 255 85 }
+			color2= { 255 255 255 }
+			
+			b_eporedia_eporedia = {
+			}
+			b_bugella_eporedia = {
+			}
+			b_victumulae_eporedia = {
+			}
+		}
+		c_augusta_taurinorum = {
+			color= { 90 245 55 }
+			color2= { 255 255 255 }
+			
+			latin = "Augusta Taurinorum"
+			
+			b_augusta_taurinorum_augusta_taurinorum = {
+				latin = "Augusta Taurinorum"
+			}
+			b_quadrata_augusta_taurinorum = {
+			}
+			b_ad_fines_augusta_taurinorum = {
+			}
+		}
+	}
+	d_gallia_cispadana = {
+		color= { 100 200 75 }
+		color2= { 255 255 255 }
+		
+		c_placentia = {
+			color= { 100 190 85 }
+			color2= { 255 255 255 }
+			
+			b_placentia_placentia = {
+			}
+			b_veleia_placentia = {
+			}
+			b_barderate_placentia = {
+			}
+		}
+		c_parma = {
+			color= { 90 200 85 }
+			color2= { 255 255 255 }
+			
+			b_parma_parma = {
+			}
+			b_cremona_parma = {
+			}
+			b_aquinium_parma = {
+			}
+		}
+		c_bononia = {
+			color= { 100 200 75 }
+			color2= { 255 255 255 }
+			
+			b_bononia_bononia = {
+			}
+			b_mutina_bononia = {
+			}
+			b_campi_bononia = {
+			}
+		}
+		c_ravenna = {
+			color= { 90 200 65 }
+			color2= { 255 255 255 }
+			
+			b_ravenna_ravenna = {
+			}
+			b_spina_ravenna = {
+			}
+			b_favrentia_ravenna = {
+			}
+			b_solana_ravenna = {
+				holy_site = etruscan_main
+			}
+		}
+	}
+	d_venetia = {
+		color= { 100 255 100 }
+		color2= { 255 255 255 }
+		
+		c_veneti = {
+			color= { 100 255 100 }
+			color2= { 255 255 255 }
+		
+			b_tergeste_veneti = {
+			}
+			b_pola_veneti = {
+			}
+			b_albona_veneti = {
+			}
+			b_parentium_veneti = {
+			}
+		}
+		c_altinum = {
+			color= { 110 255 90 }
+			color2= { 255 255 255 }
+			
+			b_altinum_altinum = {
+			}
+			b_opitergum_altinum = {
+			}
+			b_flamonia_altinum = {
+			}
+			b_artemia_altinum = {
+			}
+		}
+		c_patavium = {
+			color= { 100 245 90 }
+			color2= { 255 255 255 }
+			
+			b_patavium_patavium = {
+			}
+			b_vicentia_patavium = {
+			}
+			b_ateate_patavium = {
+			}
+		}
+		c_verona = {
+			color= { 110 245 100 }
+			color2= { 255 255 255 }
+			
+			b_verona_verona = {
+			}
+			b_mantua_verona = {
+			}
+			b_bedriacum_verona = {
+			}
+		}
+		c_bellunum = {				
+			color= { 100 255 100 }
+			color2= { 255 255 255 }
+			
+			b_bellunum_bellunum = {
+			}
+			b_feltria_bellunum = {
+			}
+			b_littamum_bellunum = {
+			}
+		}
+		c_aguntum = {
+			color= { 100 255 100 }
+			color2= { 255 255 255 }
+			
+			b_aguntum_aguntum = {
+			}
+			b_londum_aguntum = {
+			}
+			b_ibligo_aguntum = {
+			}
+			b_osopus_aguntum = {
+			}
+		}
+	}
+}
+k_cyprus = {
+	color= { 100 255 125 }
+	color2= { 255 255 255 }
+	
+	allow = {
+		liege = {
+			not = { has_landed_title = e_persia }
+			not = { has_landed_title = e_macedonia }
+		}
+	}
+	
+	d_cyprus = {
+		color= { 100 255 125 }
+		color2= { 255 255 255 }
+	
+		c_paphos = {
+			color= { 103 255 128 }
+			color2= { 255 255 255 }
+		
+			b_paphos_paphos = {
+			}		
+			b_soloi_paphos = {
+			}
+			b_kourion_paphos = {
+			}
+			b_marion_paphos = {
+			}
+		}
+		c_kition = {
+			color= { 106 255 131 }
+			color2= { 255 255 255 }
+		
+			b_kition_kition = {
+			}
+			b_amathus_kition = {
+			}
+			b_idalion_kition = {
+			}
+			b_tamassos_kition = {
+			}
+		}
+		c_salamis = {
+			color= { 100 255 125 }
+			color2= { 255 255 255 }
+		
+			b_salamis_salamis = {
+			}
+			b_chytroi_salamis = {
+			}
+			b_ledrai_salamis = {
+			}
+			b_lapithos_salamis = {
+			}
+			b_karpasia_salamis = {
+			}
+		}
+	}
+}
+k_carthage = {
+	color= { 255 255 150 }
+	color2= { 255 255 255 }
+	
+	capital = 360 # Carthage
+	
+	allow = {
+		culture = punic
+	}
+	
+	d_elymians = {
+		color= { 255 255 125 }
+		color2= { 255 255 255 }
+		
+		c_elymians = {
+			color= { 255 245 115 }
+			color2= { 255 255 255 }
+			
+			b_segesta_elymians = {
+			}
+			b_parthenicum_elymians = {
+			}
+			b_inycon_elymians = {
+			}
+			b_hykkara_elymians = {
+			}
+		}
+		c_lilybaeum = {
+			color= { 255 255 125 }
+			color2= { 255 255 255 }
+			
+			b_lilybaeum_lilybaeum = {
+			}
+			b_motya_lilybaeum = {
+			}
+			b_drepanum_lilybaeum = {
+			}
+			b_eryx_lilybaeum = {
+			}
+		}
+	}
+	d_corsica = {
+		color= { 255 255 175 }
+		color2= { 255 255 255 }
+		
+		c_aleria = {
+			color= { 255 255 175 }
+			color2= { 255 255 255 }
+			
+			b_aleria_aleria = {
+			}
+			b_mariana_aleria = {
+				holy_site = etruscan_main
+			}
+			b_clunium_aleria = {
+			}
+		}
+		c_palla = {
+			color= { 245 255 185 }
+			color2= { 255 255 255 }
+			
+			b_palla_palla = {
+			}
+			b_urcinium_palla = {
+			}
+		}
+	}
+	d_sardinia = {
+		color= { 255 225 150 }
+		color2= { 255 255 255 }
+		
+		c_olbia_sardinia = {
+			color= { 255 215 160 }
+			color2= { 255 255 255 }
+			
+			b_olbia_olbia_sardinia = {
+			}
+			b_tibula_olbia_sardinia = {
+			}
+			b_feronia_olbia_sardinia = {
+			}
+		}
+		c_tharros = {
+			color= { 245 235 150 }
+			color2= { 255 255 255 }
+			
+			b_bosa_tharros = {
+			}
+			b_cormis_tharros = {
+			}
+			b_othoca_tharros = {
+			}
+		}
+		c_caralis = {
+			color= { 255 225 150 }
+			color2= { 255 255 255 }
+			
+			b_caralis_caralis = {
+			}
+			b_pupullum_caralis = {
+			}
+			b_nora_caralis = {
+			}
+		}
+	}	
+	d_zeugitana = {
+		color= { 255 255 150 }
+		color2= { 255 255 255 }
+		
+		c_utica = {
+			color= { 255 245 140 }
+			color2= { 255 255 255 }
+			
+			b_utica_utica = {
+			}
+			b_ucres_utica = {
+			}
+			b_rusicmona_utica = {
+			}
+			b_uzalis_utica = {
+			}
+			b_gunela_utica = {
+			}
+			b_membrone_utica = {
+			}
+		}
+		c_carthage = {
+			color= { 255 255 150 }
+			color2= { 255 255 255 }
+			
+			b_carthage_carthage = {
+			}
+			b_thuburbo_carthage = {
+				holy_site = punic_main
+			}
+			b_capri_carthage = {
+			}
+			b_pupput_carthage = {
+			}
+			b_uthina_carthage = {
+			}
+			b_segermes_carthage = {
+			}
+			b_biia_carthage = {
+			}
+		}
+		c_thizika = {
+			color= { 245 245 150 }
+			color2= { 255 255 255 }
+			
+			b_thizika_thizika = {
+			}
+			b_uzali_sar = {
+			}
+			b_matar_thizika = {
+			}
+			b_ureu_thizika = {
+			}
+			b_abitina_thizika = {
+			}
+		}
+		c_thabraca = {
+			color= { 255 245 160 }
+			color2= { 255 255 255 }
+			
+			b_thabraca_thabraca = {
+			}
+			b_tuniza_thabraca = {
+			}
+			b_thubi_thabraca = {
+			}
+			b_thunigaba_thabraca = {
+			}
+		}
+	}
+	d_byzacena = {
+		color= { 255 225 175 }
+		color2= { 255 255 255 }
+		
+		c_thapsus = {
+			color= { 255 225 175 }
+			color2= { 255 255 255 }
+			
+			b_thapsus_thapsus = {
+			}
+			b_bararus_thapsus = {
+			}
+			b_hadrumetum_thapsus = {
+			}
+			b_thysdrus_thapsus = {
+			}
+			b_uluzibbira_thapsus = {
+			}
+			b_lepti_minus_thapsus = {
+			}
+		}
+		c_thaenae = {
+			color= { 255 215 185 }
+			color2= { 255 255 255 }
+			
+			b_thaenae_thaenae = {
+			}
+			b_tabira_thaenae = {
+			}
+			b_cercina_thaenae = {
+			}
+			b_taparura_thaenae = {
+			}
+		}
+		c_thala = {
+			color= { 245 225 165 }
+			color2= { 255 255 255 }
+			
+			b_thala_thala = {
+			}
+			b_sufes_thala = {
+			}
+			b_ammaedara_thala = {
+			}
+			b_thelepte_thala = {
+			}
+			b_cillium_thala = {
+			}
+		}
+	}
+	d_tripolitania = {
+		color= { 255 225 125 }
+		color2= { 255 255 255 }
+		
+		c_meninx = {
+			color= { 245 225 115 }
+			color2= { 255 255 255 }
+			
+			b_haribus_meninx = {
+			}
+			b_tacape_meninx = {
+			}
+			b_put_meninx = {
+			}
+			b_gigthis_meninx = {
+			}
+			b_pisida_meninx = {
+			}
+		}
+		c_oea = {
+			color= { 245 235 125 }
+			color2= { 255 255 255 }
+			
+			b_oea_oea = {
+			}
+			b_sabratha_oea = {
+			}
+			b_locri_oea = {
+			}
+			b_amarea_oea = {
+			}
+		}
+		c_lepcis_magna = {
+			color= { 255 225 125 }
+			color2= { 255 255 255 }
+			
+			b_lepcis_magna_lepcis_magna = {
+			}
+			b_kinyps_lepcis_magna = {
+			}
+			b_gaphara_lepcis_magna = {
+			}
+			b_thubactis_lepcis_magna = {
+			}
+			b_quintiliana_lepcis_magna = {
+			}
+		}
+		c_euphranta = {
+			color= { 255 235 135 }
+			color2= { 255 255 255 }
+			
+			b_euphranta_euphranta = {
+			}
+			b_zure_euphranta = {
+			}
+			b_scina_euphranta = {
+			}
+			b_gholaia_euphranta = {
+			}
+			b_zacazama_euphranta = {
+			}
+		}
+		c_automalax = {
+			color= { 255 215 115 }
+			color2= { 255 255 255 }
+			
+			b_automalax_automalax = {
+			}
+			b_boreum_automalax = {
+			}
+			b_comidanum_automalax = {
+			}
+			b_tugulus_automalax = {
+			}
+		}
+	}
+	d_hipponensis = {
+		color= { 255 225 100 }
+		color2= { 255 255 255 }
+		
+		c_hippo = {
+			color= { 255 225 100 }
+			color2= { 255 255 255 }
+			
+			b_hippo_hippo = {
+			}
+			b_rusicade_hippo = {
+			}
+			b_sulluctu_hippo = {
+			}
+			b_zacca_hippo = {
+			}
+			b_tacatua_hippo = {
+			}
+		}
+		c_igilgili = {
+			color= { 255 215 90 }
+			color2= { 255 255 255 }
+			
+			b_igilgili_igilgili = {
+			}
+			b_choba_igilgili = {
+			}
+			b_chullu_igilgili = {
+			}
+			b_muslubium_igilgili = {
+			}
+			b_tucca_igilgili = {
+			}
+		}
+		c_rusazus = {
+			color= { 245 215 100 }
+			color2= { 255 255 255 }
+			
+			b_rusazus_rusazus = {
+			}
+			b_saldae_rusazus = {
+			}
+			b_bida_rusazus = {
+			}
+			b_rusippisir_rusazus = {
+			}
+		}
+		c_rusguniae = {
+			color= { 245 215 90 }
+			color2= { 255 255 255 }
+						
+			b_rusguniae_rusguniae = {
+			}
+			b_obori_rusguniae = {
+			}
+			b_icosium_rusguniae = {
+			}
+		}
+		c_iol = {
+			color= { 255 235 110 }
+			color2= { 255 255 255 }
+						
+			b_iol_iol = {
+			}
+			b_tipasa_iol = {
+			}
+			b_elephantaria_iol = {
+			}
+			b_calventi_iol = {
+			}
+		}
+	}
+}
+k_numidia = {
+	color= { 255 200 75 }
+	color2= { 255 255 255 }
+	
+	capital = 371 # Cirta
+	
+	allow = {
+		culture = berber
+	}
+	
+	d_atlas = {
+		color= { 255 200 50 }
+		color2= { 255 255 255 }
+		
+		c_tubusuctu = {
+			color= { 255 190 40 }
+			color2= { 255 255 255 }
+			
+			b_tubusuctu_tubusuctu = {
+			}
+			b_ausum_tubusuctu = {
+			}
+			b_sertei_tubusuctu = {
+			}
+			b_lesbi_tubusuctu = {
+			}
+		}
+		c_satafis = {
+			color= { 245 210 50 }
+			color2= { 255 255 255 }
+			
+			b_satafis_satafis = {
+			}
+			b_sitifis_satafis = {
+			}
+			b_mopthi_satafis = {
+			}
+			b_cuicul_satafis = {
+			}
+			b_novar_satafis = {
+			}
+		}
+		c_zabi = {
+			color= { 245 200 60 }
+			color2= { 255 255 255 }
+			
+			b_zabi_zabi = {
+			}
+			b_equizeto_zabi = {
+			}
+			b_aras_zabi = {
+			}
+			b_lemellef_zabi = {
+			}
+		}
+		c_thubunae = {
+			color= { 255 200 50 }
+			color2= { 255 255 255 }
+			
+			b_thubunae_thubunae = {
+			}
+			b_mesarfelta_thubunae = {
+			}
+			b_zarai_thubunae = {
+			}
+			b_lamasba_thubunae = {
+			}
+			b_macri_thubunae = {
+			}
+		}
+	}
+	d_aurasium = {
+		color= { 255 200 75 }
+		color2= { 255 255 255 }
+		
+		c_cirta = {
+			color= { 255 200 75 }
+			color2= { 255 255 255 }
+			
+			b_cirta_cirta = {
+			}
+			b_saddar_cirta = {
+			}
+			b_tiddis_cirta = {
+			}
+			b_milev_cirta = {
+			}
+			b_sila_cirta = {
+			}
+			b_phua_cirta = {
+			}
+		}
+		c_thagaste = {
+			color= { 245 190 75 }
+			color2= { 255 255 255 }
+			
+			b_thagaste_thagaste = {
+			}
+			b_madauros_thagaste = {
+			}
+			b_simitthu_thagaste = {
+			}
+			b_zattara_thagaste = {
+			}
+			b_calama_thagaste = {
+			}
+		}
+		c_thabudeos = {
+			color= { 255 210 85 }
+			color2= { 255 255 255 }
+			
+			b_thabudeos_thabudeos = {
+			}
+			b_vescera_thabudeos = {
+			}
+			b_badias_thabudeos = {
+			}
+			b_tfilzi_thabudeos = {
+			}
+		}
+		c_theveste = {
+			color= { 245 210 75 }
+			color2= { 255 255 255 }
+			
+			b_theveste_theveste = {
+			}
+			b_cedias_theveste = {
+			}
+			b_vatari_theveste = {
+			}
+			b_turratenses_theveste = {
+			}
+		}
+		c_capsa = {
+			color= { 245 200 65 }
+			color2= { 255 255 255 }
+			
+			b_capsa_capsa = {
+			}
+			b_thiges_capsa = {
+			}
+			b_cerva_capsa = {
+			}
+			b_tullis_tamalleni = {
+			}
+		}
+	}
+	d_ancorarisis = { # Made up from Ancorarius Mons
+		color= { 255 200 100 }
+		color2= { 255 255 255 }
+		
+		c_gunugu = {
+			color= { 245 190 100 }
+			color2= { 255 255 255 }
+			
+			b_gunugu_gunugu = {
+			}
+			b_cartili_gunugu = {
+			}
+		}
+		c_cartenna = {
+			color= { 255 200 100 }
+			color2= { 255 255 255 }
+			
+			b_cartenna_cartenna = {
+			}
+			b_laguntum_cartenna = {
+			}
+		}
+		c_arsennaria = {
+			color= { 255 190 110 }
+			color2= { 255 255 255 }
+			
+			b_arsennaria_arsennaria = {
+			}
+			b_quiza_cenitana_arsennaria = {
+			}
+		}
+	}
+	d_mazisis = { # Made up from the Mazices tribe
+		color= { 225 200 75 }
+		color2= { 255 255 255 }
+		
+		c_rapidum = {
+			color= { 225 210 85 }
+			color2= { 255 255 255 }
+						
+			b_rapidum_rapidum = {
+			}
+			b_auzia_rapidum = {
+			}
+			b_tatilti_rapidum = {
+			}
+		}
+		c_uzinaza = {
+			color= { 215 200 85 }
+			color2= { 255 255 255 }
+						
+			b_uzinaza_uzinaza = {
+			}
+		}
+		c_columnata = {
+			color= { 235 200 85 }
+			color2= { 255 255 255 }
+						
+			b_columnata_columnata = {
+			}
+		}
+		c_mina = {
+			color= { 225 200 75 }
+			color2= { 255 255 255 }
+						
+			b_mina_mina = {
+			}
+			b_gadaum_mina = {
+			}
+			b_vagal_mina = {
+			}
+		}
+		c_tigava = {
+			color= { 215 190 75 }
+			color2= { 255 255 255 }
+						
+			b_tigava_tigava = {
+			}
+			b_tingitana_tigava = {
+			}
+		}
+	}
+}
+k_mauretania = {
+	color= { 200 150 50 }
+	color2= { 255 255 255 }
+	
+	capital = 866 # Volubis
+	
+	allow = {
+		culture = berber
+	}
+	
+	d_bavaresis = { # Made up from Bavares tribe
+		color= { 200 150 75 }
+		color2= { 255 255 255 }
+		
+		c_regiae = {
+			color= { 200 140 65 }
+			color2= { 255 255 255 }
+						
+			b_regiae_regiae = {
+			}
+			b_tasaccora_regiae = {
+			}
+			b_albulae_regiae = {
+			}
+			b_puerorum_regiae = {
+			}
+		}
+		c_tigit = {
+			color= { 190 160 75 }
+			color2= { 255 255 255 }
+						
+			b_tigit_tigit = {
+			}
+			b_lucu_tigit = {
+			}
+			b_kaputtasaccora_tigit = {
+			}
+		}
+		c_siga = {
+			color= { 200 150 75 }
+			color2= { 255 255 255 }
+						
+			b_siga_siga = {
+			}
+			b_camarata_siga = {
+			}
+			b_tepidae_siga = {
+			}
+			b_pomaria_siga = {
+			}
+		}
+	}
+	d_maurusis = { # Made up from the Maurusii tribe
+		color= { 200 150 25 }
+		color2= { 255 255 255 }
+		
+		c_lemnis = {
+			color= { 200 150 25 }
+			color2= { 255 255 255 }
+						
+			b_lemnis_lemnis = {
+			}
+			b_fratres_lemnis = {
+			}
+			b_syrorum_lemnis = {
+			}
+		}
+		c_rusaddir = {
+			color= { 190 140 25 }
+			color2= { 255 255 255 }
+						
+			b_rusaddir_rusaddir = {
+			}
+			b_minka_rusaddir = {
+			}
+		}
+		c_cobueta = {
+			color= { 210 150 35 }
+			color2= { 255 255 255 }
+					
+			b_cobueta_cobueta = {
+			}
+			b_paraetina_cobueta = {
+			}
+		}
+	}
+	d_tingitana = {
+		color= { 175 150 50 }
+		color2= { 255 255 255 }
+		
+		c_tingi = {
+			color= { 175 150 50 }
+			color2= { 255 255 255 }
+						
+			b_tingi_tingi = {
+			}
+			b_septem_tingi = {
+			}
+			b_zilil_tingi = {
+			}
+			b_tabernae_tingi = {
+			}
+			b_cottae_tingi = {
+			}
+		}
+		c_lixus = {
+			color= { 185 150 60 }
+			color2= { 255 255 255 }
+						
+			b_lixus_lixus = {
+			}
+			b_frigidae_lixus = {
+			}
+			b_babba_lixus = {
+			}
+		}
+	}
+	d_volubisis = {
+		color= { 200 150 50 }
+		color2= { 255 255 255 }
+		
+		c_banasa = {
+			color= { 200 160 60 }
+			color2= { 255 255 255 }
+						
+			b_banasa_banasa = {
+			}
+			b_thamusida_banasa = {
+			}
+		}
+		c_sala_africa = {
+			color= { 190 140 50 }
+			color2= { 255 255 255 }
+					
+			b_sala_africa_sala = {
+			}
+		}
+		c_volubis = {
+			color= { 200 150 50 }
+			color2= { 255 255 255 }
+						
+			b_volubis_volubis = {
+			}
+			b_tocolosida_volubis = {
+			}
+		}
+		c_galapha = {
+			color= { 210 150 40 }
+			color2= { 255 255 255 }
+						
+			b_galapha_galapha = {
+			}
+		}
+	}
+}
+k_dacia = {
+	color= { 100 50 25 }
+	color2= { 255 255 255 }
+	
+	capital = 408 # Sarmizegetusa
+	
+	allow = {
+		or = {
+			culture = dacian
+			culture = thracian
+		}
+	}
+	
+	d_dacia_paropos = {
+		color= { 50 25 0 }
+		color2= { 255 255 255 }
+		
+		c_cotnari = {
+			color= { 60 25 10 }
+			color2= { 255 255 255 }
+			
+			b_cotnari_cotnari = {
+			}
+			b_stincesti_cotnari = {
+			}
+			b_petrodava_cotnari = {
+			}
+			b_lunca_ciurei_cotnari = {
+			}
+		}
+		c_poroboridava = {
+			color= { 50 25 0 }
+			color2= { 255 255 255 }
+			
+			b_poroboridava_poroboridava = {
+			}
+			b_poienesti_poroboridava = {
+			}
+			b_barbosi_poroboridava = {
+			}
+			b_birsesti_poroboridava = {
+			}
+		}
+	}
+	d_getae = {
+		color= { 75 25 0 }
+		color2= { 255 255 255 }
+		
+		c_arcidava = {
+			color= { 75 15 10 }
+			color2= { 255 255 255 }
+			
+			b_arcidava_arcidava = {
+			}
+			b_berzobis_arcidava = {
+			}
+			b_aizis_arcidava = {
+				holy_site = zalmoxism
+			}
+			b_tibiscum_arcidava = {
+			}
+		}
+		c_diema = {
+			color= { 85 25 10 }
+			color2= { 255 255 255 }
+			
+			b_diema_diema = {
+			}
+			b_drobeta_diema = {
+			}
+			b_tapae_diema = {
+			}
+			b_banita_diema = {
+			}
+		}
+		c_pelendava = {
+			color= { 65 35 0 }
+			color2= { 255 255 255 }
+			
+			b_pelendava_pelendava = {
+			}
+			b_calarasi_pelendava = {
+			}
+			b_sucidava_pelendava = {
+			}
+			b_cotofeni_pelendava = {
+			}
+		}
+		c_popesti = {
+			color= { 85 25 0 }
+			color2= { 255 255 255 }
+			
+			b_popesti_popesti = {
+			}
+			b_alexandria_popesti = {
+			}
+			b_telendova_popesti = {
+			}
+		}
+		c_bucuresti = {
+			color= { 75 25 0 }
+			color2= { 255 255 255 }
+			
+			b_bucuresti_bucuresti = {
+			}
+			b_piscul_bucuresti = {
+			}
+			b_argidava_bucuresti = {
+				holy_site = zalmoxism
+			}
+			b_tirgsor_bucuresti = {
+			}
+		}
+	}
+	d_dacia = {
+		color= { 100 50 25 }
+		color2= { 255 255 255 }
+		
+		c_banita = {
+			color= { 100 60 35 }
+			color2= { 255 255 255 }
+			
+			b_banita_banita = {
+			}
+			b_polovragi_banita = {
+			}
+			b_arutela_banita = {
+			}
+		}
+		c_buridava = {
+			color= { 110 40 25 }
+			color2= { 255 255 255 }
+			
+			b_buridava_buridava = {
+			}
+			b_cetatemi_buridava = {
+			}
+			b_cumidava_buridava = {
+			}
+			b_ramidava_buridava = {
+			}
+		}
+		c_sarmizegetusa = {
+			color= { 100 50 25 }
+			color2= { 255 255 255 }
+			
+			b_sarmizegetusa_sarmizegetusa = {
+			}
+			b_blidaru_sarmizegetusa = {
+			}
+			b_cugir_sarmizegetusa = {
+				holy_site = zalmoxism
+			}
+			b_costeti_sarmizegetusa = {
+			}
+			b_piatra_rosie_sarmizegetusa = {
+			}
+		}
+		c_apulum = {
+			color= { 100 60 15 }
+			color2= { 255 255 255 }
+			
+			b_apulum_apulum = {
+			}
+			b_capilna_apulum = {
+			}
+			b_tilisca_apulum = {
+			}
+			b_cedonia_apulum = {
+			}
+		}
+		c_surcea = {
+			color= { 100 40 15 }
+			color2= { 255 255 255 }
+			
+			b_surcea_surcea = {
+			}
+			b_sincraieni_surcea = {
+			}
+			b_covasna_surcea = {
+			}
+			b_angustia_surcea = {
+			}
+		}
+		c_potaissa = {
+			color= { 90 40 25 }
+			color2= { 255 255 255 }
+			
+			b_potaissa_potaissa = {
+			}
+			b_moresti_potaissa = {
+			}
+			b_singhisoara_potaissa = {
+			}
+			b_hydata_potaissa = {
+			}
+		}
+		c_napoca = {
+			color= { 110 50 35 }
+			color2= { 255 255 255 }
+			
+			b_napoca_napoca = {
+			}
+			b_saratel_napoca = {
+			}
+			b_optatiana_napoca = {
+			}			
+		}
+		c_germisara = {
+			color= { 90 50 15 }
+			color2= { 255 255 255 }
+			
+			b_germisara_germisara = {
+			}
+			b_rosia_montana_germisara = {
+			}
+			b_piatra_craivii_germisara = {
+			}
+			b_brucia_germisara = {
+			}
+		}
+		c_sacidava = {
+			color= { 100 60 45 }
+			color2= { 255 255 255 }
+			
+			b_sacidava_sacidava = {
+			}
+			b_stenarum_sacidava = {
+			}
+			b_sandava_sacidava = {
+			}
+		}
+		c_zurobara = {
+			color= { 80 30 25 }
+			color2= { 255 255 255 }
+			
+			b_zurobara_zurobara = {
+			}
+			b_micia_zurobara = {
+			}
+		}
+		c_partiskon = {
+			color= { 75 25 25 }
+			color2= { 255 255 255 }
+			
+			b_partiskon_partiskon = {
+			}
+			b_bormanum_partiskon = {
+			}
+		}
+		c_singidava = {
+			color= { 90 60 25 }
+			color2= { 255 255 255 }
+			
+			b_singidava_singidava = {
+			}
+			b_ulpianum_singidava = {
+			}
+			b_resculum_singidava = {
+			}
+		}
+		c_porolissum = {
+			color= { 100 60 35 }
+			color2= { 255 255 255 }
+			
+			b_porolissum_porolissum = {
+			}
+			b_dakidava_porolissum = {
+			}
+			b_certiae_porolissum = {
+			}
+		}
+	}
+}
+k_gallia = {
+	color= { 50 200 0 }
+	color2= { 255 255 255 }
+	
+	allow = {
+		or = {
+			culture = gaul
+			culture = ligurian
+		}
+	}
+	
+	d_gallia_transalpina = {
+		color= { 50 225 0 }
+		color2= { 255 255 255 }
+		
+		c_nice = {
+			color= { 60 215 0 }
+			color2= { 255 255 255 }
+			
+			b_nice_nice = {
+			}
+			b_heracles_monoikos_nice = {
+			}
+			b_antipolis_nice = {
+			}
+			b_navelis_nice = {
+			}
+		}
+		c_massilia = {
+			color= { 50 225 0 }
+			color2= { 255 255 255 }
+			
+			b_massilia_massilia = {
+			}
+			b_olbia_massilia = {
+			}
+			b_borma_massilia = {
+			}
+			b_taurois_massilia = {
+			}
+			b_citharista_massilia = {
+			}
+			b_carsicis_massilia = {
+			}
+		}
+		c_arelate = {
+			color= { 40 225 10 }
+			color2= { 255 255 255 }
+			
+			b_arelate_arelate = {
+			}
+			b_rhodanousia_arelate = {
+			}
+			b_tarusco_arelate = {
+			}
+			b_ugenum_arelate = {
+			}
+		}
+		c_aquae_sextae = {
+			color= { 50 235 10 }
+			color2= { 255 255 255 }
+			
+			b_endremont_aquae_sextae = {
+			}
+			b_cabellio_aquae_sextae = {
+			}
+			b_glanum_aquae_sextae = {
+			}
+			b_aramo_aquae_sextae = {
+			}
+		}
+		c_eturamina = {
+			color= { 60 235 0 }
+			color2= { 255 255 255 }
+			
+			b_eturamina_eturamina = {
+			}
+			b_griselica_eturamina = {
+			}
+			b_sanitium_eturamina = {
+			}
+			b_salinae_eturamina = {
+			}
+		}
+		c_eburodunum = {
+			color= { 60 225 10 }
+			color2= { 255 255 255 }
+			
+			b_eburodunum_eburodunum = {
+			}
+			b_sedena_eburodunum = {
+			}
+			b_rigomagus_eburodunum = {
+			}
+			b_mustae_calmes_eburodunum = {
+			}
+		}
+	}
+	d_gallia_inter_fluvio = {
+		color= { 50 255 0 }
+		color2= { 255 255 255 }
+		
+		c_arausio = {
+			color= { 50 255 0 }
+			color2= { 255 255 255 }
+			
+			b_arausio_arausio = {
+			}
+			b_avennio_arausio = {
+			}
+			b_senomagos_arausio = {
+			}
+			b_vasio_arausio = {
+			}
+			b_vindalium_arausio = {
+			}
+		}
+		c_segustero = {
+			color= { 50 245 10 }
+			color2= { 255 255 255 }
+			
+			b_segustero_segustero = {
+			}
+			b_mons_seleucus_segustero = {
+			}
+			b_noiomagos_segustero = {
+			}
+		}
+		c_valentia = {
+			color= { 60 255 10 }
+			color2= { 255 255 255 }
+			
+			b_valentia_valentia = {
+			}
+			b_soio_valentia = {
+			}
+			b_umbennum_valentia = {
+			}
+			b_abla_helviorum_valentia = {
+			}
+		}
+		c_lucus = {
+			color= { 40 245 0 }
+			color2= { 255 255 255 }
+			
+			b_lucus_lucus = {
+			}
+			b_vologatae_lucus = {
+			}
+			b_dea_vocontiorum_lucus = {
+			}
+			b_altonum_lucus = {
+			}
+		}
+	}
+	d_gallia_lugdunensis = {
+		color= { 50 200 0 }
+		color2= { 255 255 255 }
+		
+		c_lugdunum = {
+			color= { 50 200 0 }
+			color2= { 255 255 255 }
+			
+			b_lugdunum_lugdunum = {
+			}
+			b_vienne_lugdunum = {
+			}
+			b_bergusium_lugdunum = {
+			}
+			b_brioratis_lugdunum = {
+			}
+			b_ludna_lugdunum = {
+			}
+			b_lunna_lugdunum = {
+			}
+		}
+		c_cabilonnum = {
+			color= { 50 190 10 }
+			color2= { 255 255 255 }
+			
+			b_cabilonnum_cabilonnum = {
+			}
+			b_tinurtium_cabilonnum = {
+			}
+			b_pons_dubris_cabilonnum = {
+			}
+		}
+		c_andematunnum = {
+			color= { 40 210 0 }
+			color2= { 255 255 255 }
+			
+			b_andematunnum_andematunnum = {
+			}
+			b_varcia_andematunnum = {
+			}
+			b_castrum_divionense = {
+			}
+		}
+		c_vesontio = {
+			color= { 60 210 0 }
+			color2= { 255 255 255 }
+			
+			b_vesontio_vesontio = {
+			}
+			b_epamanduodurum_vesontio = {
+			}
+			b_ariorica_vesontio = {
+			}
+			b_ledo_vesontio = {
+			}
+		}
+		c_luxovium = {
+			color= { 50 190 10 }
+			color2= { 255 255 255 }
+			
+			b_luxovium_luxovium = {
+			}
+			b_uruncis_luxovium = {
+			}
+			b_larga_luxovium = {
+			}
+			b_basilia_luxovium = {
+			}
+		}
+	}
+	d_helvetia = {
+		color= { 50 225 25 }
+		color2= { 255 255 255 }
+		
+		c_geneva = {
+			color= { 50 215 15 }
+			color2= { 255 255 255 }
+			
+			b_geneva_geneva = {
+			}
+			b_boutae_geneva = {
+			}
+			b_vintium_geneva = {
+			}
+			b_albinnum_geneva = {
+			}
+		}
+		c_aventicum = {
+			color= { 50 225 25 }
+			color2= { 255 255 255 }
+			
+			b_aventicum_aventicum = {
+			}
+			b_lousonna_aventicum = {
+			}
+			b_salodurum_aventicum = {
+			}
+			b_eburodunum_aventicum = {
+			}
+			b_petinesca_aventicum = {
+			}
+		}
+		c_cularo = {
+			color= { 50 225 25 }
+			color2= { 255 255 255 }
+			
+			b_cularo_cularo = {
+			}
+			b_mantala_cularo = {
+			}
+			b_lemincum_cularo = {
+			}
+			b_labisco_cularo = {
+			}
+		}
+	}
+	d_raetia = {
+		color= { 50 200 25 }
+		color2= { 255 255 255 }
+		
+		c_arae_flaviae = {
+			color= { 60 190 25 }
+			color2= { 255 255 255 }
+			
+			b_tenedo_arae_flaviae = {
+			}
+			b_tasgetium_arae_flaviae = {
+			}
+			b_constantia_arae_flaviae = {
+			}
+			b_arae_flaviae_arae_flaviae = {
+			}
+		}
+		c_cambodunum = {
+			color= { 60 200 35 }
+			color2= { 255 255 255 }
+			
+			b_cambodunum_cambodunum = {
+			}
+			b_abodiacum_cambodunum = {
+			}
+			b_damasia_cambodunum = {
+			}
+			b_vemania_cambodunum = {
+			}
+		}
+		c_iuvavum = {
+			color= { 50 200 25 }
+			color2= { 255 255 255 }
+			
+			b_iuvavum_iuvavum = {
+			}
+			b_cucullae_iuvavum = {
+			}
+			b_anisus_iuvavum = {
+			}
+			b_bedaium_iuvavum = {
+			}
+			b_laciacis_iuvavum = {
+			}
+		}
+	}
+	d_alpes_cottiae = {
+		color= { 50 255 25 }
+		color2= { 255 255 255 }
+		
+		c_durotincum = {			
+			color= { 40 240 35 }
+			color2= { 255 255 255 }
+						
+			b_durotincum_durotincum = {
+			}
+			b_catorissium_durotincum = {
+			}
+		}		
+		c_brigantio = {
+			color= { 50 255 25 }
+			color2= { 255 255 255 }
+			
+			b_brigantio_brigantio = {
+			}
+			b_gaesao_brigantio = {
+			}
+			b_segusio_brigantio = {
+			}
+			b_druantium_brigantio = {
+			}
+		}
+	}
+	d_alpes_poeninae = {
+		color= { 75 225 0 }
+		color2= { 255 255 255 }
+		
+		c_octodurus = {
+			color= { 75 225 0 }
+			color2= { 255 255 255 }
+			
+			b_octodurus_octodurus = {
+			}
+			b_tarnaiae_octodurus = {
+			}
+			b_sedurus_octodurus = {
+			}			
+		}
+		c_darantasia = {
+			color= { 65 235 10 }
+			color2= { 255 255 255 }
+			
+			b_darantasia_darantasia = {
+			}
+			b_axima_darantasia = {
+			}
+			b_obilonna_darantasia = {
+			}			
+		}
+		c_augusta_praetoria = {
+			color= { 85 215 15 }
+			color2= { 255 255 255 }
+			
+			b_eudracinum_augusta_praetoria = {
+			}
+			b_arebrigium_augusta_praetoria = {
+			}
+			b_ariolica_augusta_praetoria = {
+			}
+			b_augusta_praetoria_augusta_praetoria = {
+			}
+		}
+	}
+	d_alpes_vennonae = {
+		color= { 75 200 25 }
+		color2= { 255 255 255 }
+		
+		c_clunia = {		
+			color= { 65 190 35 }
+			color2= { 255 255 255 }
+			
+			b_clunia_clunia = {
+			}
+			b_magia_clunia = {
+			}			
+		}
+		c_curia = {
+			color= { 75 200 25 }
+			color2= { 255 255 255 }
+			
+			b_curia_curia = {
+			}
+			b_lapidaria_curia = {
+			}
+			b_murus_curia = {
+			}
+		}
+	}
+	d_alpes_raetica = {
+		color= { 75 175 25 }
+		color2= { 255 255 255 }
+		
+		c_tridentium = {
+			color= { 75 175 25 }
+			color2= { 255 255 255 }
+			
+			b_tridentium_tridentium = {
+			}
+			b_anaunion_tridentium = {
+			}
+			b_ligeris_tridentium = {
+			}
+		}
+		c_scarbia = {
+			color= { 85 155 15 }
+			color2= { 255 255 255 }
+		
+			b_scarbia_scarbia = {
+			}
+			b_teriolis_scarbia = {
+			}
+		}
+		c_mastiacum = {
+			color= { 65 165 35 }
+			color2= { 255 255 255 }
+		
+			b_mastiacum_mastiacum = {
+			}
+			b_albianum_mastiacum = {
+			}
+		}
+	}
+}
+k_kush = {
+	color={ 225 255 0 }
+	color2={ 255 255 255 }
+	
+	capital = 444 # Meroe
+	
+	allow = {
+		culture = nubian
+		liege = {
+			not = { has_landed_title = e_persia }
+			not = { has_landed_title = e_macedonia }
+		}
+	}
+	
+	d_pselchis = {
+		color={ 225 255 25 }
+		color2={ 255 255 255 }
+		egyptian = "Pselqet"
+		
+		c_pselchis = {
+			color={ 225 255 25 }
+			color2={ 255 255 255 }
+			egyptian = "Pselqet"
+			
+			b_pselchis_pselchis = {
+				egyptian = "Pselqet"
+			}
+			b_per_ptah_pselchis = {
+			}
+			b_tachompso_pselchis = {
+			}
+			b_kortia_pselchis = {
+			}
+			b_hierasykaminos_pselchis = {
+				egyptian = "Tkmst"
+			}
+		}
+		c_pachoras = {
+			color={ 225 245 15 }
+			color2={ 255 255 255 }
+			egyptian = "Shtp-ntrw"
+			
+			b_pachoras_pachoras = {
+				egyptian = "Shtp-ntrw"
+			}
+			b_premis_pachoras = {
+				egyptian = "Prmt"
+			}
+			b_nalote_pachoras = {
+			}
+			b_abu_simbel_pachoras = {
+				egyptian = "Per Ramassu"
+			}
+			b_boon_pachoras = {
+			}
+		}
+		c_pdeme = {
+			color={ 235 255 35 }
+			color2={ 255 255 255 }
+			
+			b_pdeme_pdeme = {
+			}
+			b_noa_pdeme = {
+			}
+			b_gugo_pdeme = {
+			}
+			b_acina_pdeme = {
+			}
+		}
+	}
+	d_meroe = {
+		color={ 225 255 0 }
+		color2={ 255 255 255 }
+		
+		c_patinga = {
+			color={ 225 245 10 }
+			color2={ 255 255 255 }
+			
+			b_patinga_patinga = {
+			}
+			b_orsum_patinga = {
+			}
+			b_pnups_patinga = {
+			}
+			b_prummu_patinga = {
+			}
+		}
+		c_napata = {
+			color={ 215 255 10 }
+			color2={ 255 255 255 }
+			
+			b_napata_napata = {
+			}
+			b_cortum_napata = {
+			}
+			b_mambli_napata = {
+			}
+			b_dumana_napata = {
+			}
+			b_pago_napata = {
+			}
+			b_zamnes_napata = {
+			}
+		}
+		c_meroe = {
+			color={ 225 255 0 }
+			color2={ 255 255 255 }
+			
+			b_meroe_meroe = {
+			}
+			b_hafir_meroe = {
+			}
+			b_araba_meroe = {
+			}
+			b_mallo_meroe = {
+			}
+			b_galim_meroe = {
+			}
+			b_darou_meroe = {
+			}
+		}
+	}
+}
+k_arabia = {
+	color={ 200 175 100 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		or = {
+			culture = nabataean
+			culture = arabic
+		}
+	}
+	
+	d_ma_in = {
+		color={ 200 175 125 }
+		color2={ 255 255 255 }
+		
+		c_macoraba = {
+			color={ 200 185 115 }
+			color2={ 255 255 255 }
+			
+			b_macoraba_macoraba = {
+			}
+			b_ambe_macoraba = {
+			}
+		}
+		c_thomala = {
+			color={ 210 165 125 }
+			color2={ 255 255 255 }
+			
+			b_thomala_thomala = {
+			}
+			b_zaabram_thomala = {
+			}
+		}
+		c_anagrana = {
+			color={ 200 175 125 }
+			color2={ 255 255 255 }
+			
+			b_anagrana_anagrana = {
+			}
+			b_marma_anagrana = {
+			}
+			b_phoda_anagrana = {
+			}
+			b_baitios_anagrana = {
+			}
+		}
+	}
+	d_himyar = {
+		color={ 200 175 75 }
+		color2={ 255 255 255 }
+		
+		c_akme = {
+			color={ 200 165 65 }
+			color2={ 255 255 255 }
+			
+			b_akme_akme = {
+			}
+			b_badeo_akme = {
+			}
+			b_adedou_akme = {
+			}
+		}
+		c_akila = {
+			color={ 200 175 75 }
+			color2={ 255 255 255 }
+			
+			b_akila_akila = {
+			}
+			b_mousa_akila = {
+			}
+			b_ocelis_akila = {
+			}
+			b_sabe_akila = {
+			}
+		}
+		c_saraka = {
+			color={ 190 185 75 }
+			color2={ 255 255 255 }
+			
+			b_saraka_saraka = {
+			}
+			b_save_saraka = {
+			}
+			b_meda_saraka = {
+			}
+			b_achoma_saraka = {
+			}
+		}
+		c_raida = {
+			color={ 210 175 65 }
+			color2={ 255 255 255 }
+			
+			b_raida_raida = {
+			}
+			b_sapphar_raida = {
+			}
+		}
+	}
+	d_qataban = {
+		color={ 200 150 100 }
+		color2={ 255 255 255 }
+		
+		c_adane = {
+			color={ 190 140 100 }
+			color2={ 255 255 255 }
+			
+			b_adane_adane = {
+			}
+			b_mesala_adane = {
+			}
+			b_abisama_adane = {
+			}
+		}
+		c_tamna = {
+			color={ 200 150 100 }
+			color2={ 255 255 255 }
+			
+			b_tamna_tamna = {
+			}
+			b_marimatha_tamna = {
+			}
+			b_sarounon_tamna = {
+			}
+			b_dela_tamna = {
+			}
+		}
+		c_tretos = {
+			color={ 210 150 110 }
+			color2={ 255 255 255 }
+			
+			b_tretos_tretos = {
+			}
+			b_bana_tretos = {
+			}
+			b_hyela_tretos = {
+			}
+		}
+	}
+	d_saba = {
+		color={ 200 175 100 }
+		color2={ 255 255 255 }
+		
+		c_saba = {
+			color={ 200 175 100 }
+			color2={ 255 255 255 }
+			
+			b_saba_saba = {
+			}
+			b_nagia_saba = {
+			}
+			b_nossa_saba = {
+			}
+			b_caripeta_saba = {
+			}
+			b_miraba_saba = {
+			}
+		}
+		c_karna = {
+			color={ 190 165 100 }
+			color2={ 255 255 255 }
+			
+			b_karna_karna = {
+			}
+			b_cardava_karna = {
+			}
+			b_amnestum_karna = {
+			}
+			b_nestus_karna = {
+			}
+			b_labaetia_karna = {
+			}
+		}
+		c_sabatha = {
+			color={ 200 185 90 }
+			color2={ 255 255 255 }
+			
+			b_sabatha_sabatha = {
+			}
+			b_loula_sabatha = {
+			}
+			b_thamna_sabatha = {
+			}
+			b_yodona_sabatha = {
+			}
+		}
+	}
+	d_hadramaut = {
+		color={ 175 125 75 }
+		color2={ 255 255 255 }
+		
+		c_thialemath = {
+			color={ 175 115 65 }
+			color2={ 255 255 255 }
+			
+			b_thialemath_thialemath = {
+			}
+			b_macala_thialemath = {
+			}
+			b_dela_thialemath = {
+			}
+			b_abifama_thialemath = {
+			}
+		}
+		c_neogilla = {
+			color={ 165 125 65 }
+			color2={ 255 255 255 }
+			
+			b_neogilla_neogilla = {
+			}
+			b_ausara_neogilla = {
+			}
+			b_banum_neogilla = {
+			}
+			b_embolum_neogilla = {
+			}
+		}
+		c_hadramaut = {
+			color={ 175 125 75 }
+			color2={ 255 255 255 }
+			
+			b_hadramaut_hadramaut = {
+			}
+			b_vodona_hadramaut = {
+			}
+			b_mapha_hadramaut = {
+			}
+			b_rheda_hadramaut = {
+			}
+			b_madafara_hadramaut = {
+			}
+		}
+		c_abyssa = {
+			color={ 185 135 75 }
+			color2={ 255 255 255 }
+			
+			b_abyssa_abyssa = {
+			}
+			b_methath_abyssa = {
+			}
+			b_trulla_abyssa = {
+			}
+		}
+	}
+}
+k_maka = {
+	color={ 200 150 75 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		or = {
+			culture = nabataean
+			culture = arabic
+		}
+		liege = {
+			not = { has_landed_title = e_persia }
+			not = { has_landed_title = e_macedonia }
+		}
+	}
+	
+	d_majan = {
+		color={ 200 150 75 }
+		color2={ 255 255 255 }
+		
+		c_thabanne = {
+			color={ 210 140 75 }
+			color2={ 255 255 255 }
+			
+			b_thabanne_thabanne = {
+			}
+			b_tretos_thabanne = {
+			}
+			b_thialemath_thabanne = {
+			}
+		}
+		c_lala = {
+			color={ 200 160 65 }
+			color2={ 255 255 255 }
+			
+			b_lala_lala = {
+			}
+			b_marmatha_lala = {
+			}
+			b_ange_lala = {
+			}
+			b_astoa_lala = {
+			}
+		}
+		c_omanum = {
+			color={ 200 150 75 }
+			color2={ 255 255 255 }
+			
+			b_omanum_omanum = {
+			}
+			b_nagara_omanum = {
+			}
+			b_latea_omanum = {
+			}
+			b_hieracum_omanum = {
+			}
+			b_libanotophoros_omanum = {
+			}
+		}
+		c_chabuata = {
+			color={ 210 140 75 }
+			color2={ 255 255 255 }
+			
+			b_chabuata_chabuata = {
+			}
+			b_appa_chabuata = {
+			}
+			b_rhegana_chabuata = {
+			}
+			b_cryptus_chabuata = {
+			}
+		}
+	}
+	d_gerrha = {
+		color={ 200 125 50 }
+		color2={ 255 255 255 }
+		
+		c_cabana = {
+			color={ 210 115 50 }
+			color2={ 255 255 255 }
+			
+			b_cabana_cabana = {
+			}
+			b_sarcoa_cabana = {
+			}
+			b_thiogar_cabana = {
+			}
+		}
+		c_omana = {
+			color={ 190 125 40 }
+			color2={ 255 255 255 }
+			
+			b_omana_omana = {
+			}
+			b_atta_omana = {
+			}
+			b_muftala_omana = {
+			}
+			b_domana_omana = {
+			}
+		}
+		c_gerrha = {
+			color={ 200 125 50 }
+			color2={ 255 255 255 }
+			
+			b_gerrha_gerrha = {
+			}
+			b_sata_gerrha = {
+			}
+			b_tilbana_gerrha = {
+			}
+			b_ibirtha_gerrha = {
+			}
+			b_ithar_gerrha = {
+			}
+		}
+		c_adari = {
+			color={ 190 125 60 }
+			color2={ 255 255 255 }
+			
+			b_adari_adari = {
+			}
+			b_itamos_adari = {
+			}
+			b_digima_adari = {
+			}
+		}
+	}
+}
+k_tarim = {
+	color = { 79 138 51 }
+	color2={ 255 255 255 }
+	
+	d_kashgaria = {
+		color={ 185 210 142 }
+		color2={ 255 255 255 }
+		
+		c_lithinos = {
+			color={ 185 210 142 }
+			color2={ 255 255 255 }
+			
+			b_lithinos_pyrgos_lithinos = {
+			}
+		}
+		c_shule = {
+			color={ 185 210 142 }
+			color2={ 255 255 255 }
+			
+			b_shule_shule = {
+			}
+			b_weitou_shule = {
+			}
+			b_gumo_wensu = {
+			}
+			b_wensu_shule = {
+			}
+		}
+		c_suoju = {
+			color={ 185 210 142 }
+			color2={ 255 255 255 }
+			
+			b_suoju_suoju = {
+			}
+			b_xiye_suoju = {
+			}
+			b_pishan_suoju = {
+			}
+		}
+		c_qiuci = {
+			color={ 185 210 142 }
+			color2={ 255 255 255 }
+			
+			b_qiuci_qiuci = {
+			}
+			b_quli_qiuci = {
+			}
+			b_wulei_qiuci = {
+			}
+		}
+	}
+	d_khotan = {
+		color={ 155 170 132 }
+		color2={ 255 255 255 }
+		
+		c_yutian = {
+			color={ 155 170 132 }
+			color2={ 255 255 255 }
+			
+			b_yutian_yutian = {
+			}
+			b_qule_yutian = {
+			}
+		}
+		c_hanmi = {
+			color={ 155 170 132 }
+			color2={ 255 255 255 }
+			
+			b_hanmi_hanmi = {
+			}
+			b_jingjue_hanmi = {
+			}
+		}
+		c_qiemo = {
+			color={ 155 170 132 }
+			color2={ 255 255 255 }
+			
+			b_qiemo_qiemo = {
+			}
+			b_ronglu_qiemo = {
+			}
+			b_xiaoyuan_qiemo = {
+			}
+		}
+	}
+	d_turfan = {
+		color={ 163 241 28 }
+		color2={ 255 255 255 }
+		
+		c_loulan = {
+			color={ 163 241 28 }
+			color2={ 255 255 255 }
+			
+			b_loulan_loulan = {
+			}
+			b_moshan_loulan = {
+			}
+		}
+		c_yanqi = {
+			color={ 163 241 28 }
+			color2={ 255 255 255 }
+			
+			b_yanqi_yanqi = {
+			}
+			b_weili_yanqi = {
+			}
+			b_weixu_yanqi = {
+			}
+		}
+		c_guhu = {
+			color={ 163 241 28 }
+			color2={ 255 255 255 }
+			
+			b_guhu_guhu = {
+			}
+			b_nearer_jushi = {
+			}
+		}
+	}
+	d_urumchi = {
+		color = { 85 138 51 }
+		color2={ 255 255 255 }
+		
+		c_wutanzili = {
+			color = { 85 138 51 }
+			color2={ 255 255 255 }
+			
+			b_wutanzili_wutanzili = {
+			}
+		}
+		c_jumi = {
+			color = { 85 138 51 }
+			color2={ 255 255 255 }
+			
+			b_western_jumi_jumi = {
+			}
+			b_eastern_jumi_jumi = {
+			}
+			b_jie_jumi = {
+			}
+		}
+		c_danhuan = {
+			color = { 85 138 51 }
+			color2={ 255 255 255 }
+			
+			b_danhuan_danhuan = {
+			}
+			b_beilu_danhuan = {
+			}
+			b_further_beilu_danhuan = {
+			}
+		}
+		c_yulishi = {
+			color = { 85 138 51 }
+			color2={ 255 255 255 }
+			
+			b_yulishi_yulishi = {
+			}
+			b_further_jushi_yulishi = {
+			}
+		}
+		c_pulei = {
+			color = { 85 138 51 }
+			color2={ 255 255 255 }
+			
+			b_pulei_pulei = {
+			}
+			b_further_pulei_pulei = {
+			}
+		}
+	}
+}
+k_phazania = {
+	color={ 225 175 75 }
+	color2={ 255 255 255 }
+	
+	d_garama = {
+		color={ 225 175 75 }
+		color2={ 255 255 255 }
+		
+		c_garama = {
+			color={ 225 175 75 }
+			color2={ 255 255 255 }
+			
+			b_garama_garama = {
+			}
+			b_tinda_garama = {
+			}
+			b_lecksair_garama = {
+			}
+			b_tulua_garama = {
+			}
+		}
+		c_sabae = {
+			color={ 215 185 75 }
+			color2={ 255 255 255 }
+			
+			b_sabae_sabae = {
+			}
+			b_chlef_sabae = {
+			}
+			b_goddua_sabae = {
+			}
+		}
+		c_traghen = {
+			color={ 235 175 65 }
+			color2={ 255 255 255 }
+			
+			b_traghen_traghen = {
+			}
+			b_murzuch_traghen = {
+			}
+			b_terbu_traghen = {
+			}
+		}
+	}
+	d_tripolitania_inferior = {
+		color={ 200 200 75 }
+		color2={ 255 255 255 }
+		
+		c_cidamus = {
+			color={ 190 200 85 }
+			color2={ 255 255 255 }
+			
+			b_cidamus_cidamus = {
+			}
+		}
+		c_thenetos = {
+			color={ 200 200 75 }
+			color2={ 255 255 255 }
+			
+			b_thenetos_thenetos = {
+			}
+			b_thamascaltin_thenetos = {
+			}
+			b_vinaza_thenetos = {
+			}
+		}
+		c_tillibari = {
+			color={ 190 190 75 }
+			color2={ 255 255 255 }
+			
+			b_tillibari_tillibari = {
+			}
+			b_thebelami_tillibari = {
+			}
+			b_ad_amadum_tillibari = {
+			}
+		}
+		c_gholaia = {
+			color={ 200 210 85 }
+			color2={ 255 255 255 }
+			
+			b_gholaia_gholaia = {
+			}
+			b_ghirza_gholaia = {
+			}
+			b_magrusa_gholaia = {
+			}
+		}
+	}
+	d_dedris = {
+		color={ 255 175 75 }
+		color2={ 255 255 255 }
+		
+		c_dedris = {
+			color={ 255 175 75 }
+			color2={ 255 255 255 }
+			
+			b_dedris_dedris = {
+			}
+			b_hassi_dedris = {
+			}
+		}
+		c_kissan = {
+			color={ 245 175 85 }
+			color2={ 255 255 255 }
+			
+			b_kissan_kissan = {
+			}
+		}
+	}
+	d_baracum = {
+		color={ 225 150 75 }
+		color2={ 255 255 255 }
+		
+		c_baracum = {
+			color={ 225 150 75 }
+			color2={ 255 255 255 }
+			
+			b_baracum_baracum = {
+			}
+		}
+		c_sciueref = {
+			color={ 215 140 75 }
+			color2={ 255 255 255 }
+			
+			b_sciueref_sciueref = {
+			}
+			b_shergia_sciueref = {
+			}
+			b_garbia_sciueref = {
+			}
+		}
+	}
+	d_zella = {
+		color={ 225 175 50 }
+		color2={ 255 255 255 }
+
+		c_waddan = {
+			color={ 215 175 60 }
+			color2={ 255 255 255 }
+			
+			b_waddan_waddan = {
+			}
+		}
+		c_zella = {
+			color={ 225 175 50 }
+			color2={ 255 255 255 }
+						
+			b_zella_zella = {
+			}
+		}
+	}
+	d_zuila = {
+		color={ 255 175 125 }
+		color2={ 255 255 255 }
+
+		c_zuila = {
+			color={ 213 163 109 }
+			color2={ 255 255 255 }
+			
+			b_zuila_zuila = {
+			}
+			b_terbu_zuila = {
+			}
+			b_tmessa_zuila = {
+			}
+		}
+		c_tumma = {
+			color={ 213 163 109 }
+			color2={ 255 255 255 }
+			
+			b_tumma_tumma = {
+			}
+		}
+	}
+	d_kawar = {		
+		color={ 200 150 75 }
+		color2={ 255 255 255 }
+
+		c_djado = {
+			color={ 210 140 75 }
+			color2={ 255 255 255 }
+			
+			b_djado_djado = {
+			}
+		}
+		c_kawar = {
+			color={ 200 150 75 }
+			color2={ 255 255 255 }
+			
+			b_dirkou_kawar = {
+			}
+			b_bilma_kawar = {
+			}
+		}
+	}
+	d_gat = {		
+		color={ 175 175 75 }
+		color2={ 255 255 255 }
+
+		c_gat = {
+			color={ 175 175 75 }
+			color2={ 255 255 255 }
+			
+			b_gat_gat = {
+			}
+		}
+		c_djanet = {
+			color={ 170 170 75 }
+			color2={ 255 255 255 }
+			
+			b_djanet_djanet = {
+			}
+		}
+	}
+}
+k_oasis = {
+	color = { 255 150 0 }
+	color2={ 255 255 255 }
+	
+	d_hibis = {
+		color= { 255 150 0 }
+		color2= { 255 255 255 }
+		egyptian = Hebet
+		
+		c_hibis = {
+			color= { 255 150 0 }
+			color2= { 255 255 255 }
+			egyptian = Hebet
+			
+			b_hibis_hibis = {
+				egyptian = Hebet
+			}
+			b_parammon_hibis = {
+			}
+			b_tchonemyris_hibis = {
+			}
+		}
+		c_kysis = {
+			color= { 245 150 10 }
+			color2= { 255 255 255 }
+			
+			egyptian = Kaish
+			
+			b_kysis_kysis = {
+				egyptian = Kaish
+			}
+			b_tabennese_kysis = {
+			}
+			b_mounesis_kysis = {
+			}
+		}
+		c_mothis = {
+			color= { 245 160 0 }
+			color2= { 255 255 255 }
+			
+			egyptian = "Per Mut"
+			
+			b_mothis_mothis = {
+				egyptian = "Per Mut"
+			}
+			b_trimithis_mothis = {
+			}
+			b_kellis_mothis = {
+			}
+			b_thenete_mothis = {
+			}
+		}
+	}
+	d_ammon = {
+		color={ 255 175 0 }
+		color2={ 255 255 255 }
+		
+		c_ammon = {
+			color={ 245 175 10 }
+			color2={ 255 255 255 }
+			
+			b_ammon_ammon = {
+			}
+			b_giarabub_ammon = {
+			}
+			b_ghargart_ammon = {
+			}
+			b_sitra_ammon = {
+			}
+		}
+		c_klimax = {
+			color={ 255 185 10 }
+			color2={ 255 255 255 }
+			
+			b_klimax_klimax = {
+			}
+			b_alexandrou_parembole_klimax = {
+			}
+		}
+	}
+	d_augila = {
+		color={ 255 150 25 }
+		color2={ 255 255 255 }
+		
+		c_augila = {
+			color={ 255 150 25 }
+			color2={ 255 255 255 }
+			
+			b_augila_augila = {
+			}
+			b_gialo_augila = {
+			}
+			b_gicherra_augila = {
+			}
+		}
+		c_marada = {
+			color={ 255 140 35 }
+			color2={ 255 255 255 }
+			
+			b_marada_marada = {
+			}
+		}
+	}
+	d_oasis_parva = {
+		color={ 255 150 50 }
+		color2={ 255 255 255 }
+		
+		egyptian = Djesdjes
+		
+		c_oasis_parva = {
+			color={ 255 150 50 }
+			color2={ 255 255 255 }
+			
+			egyptian = Djesdjes
+			
+			b_parva_parva = {
+				egyptian = Djesdjes
+			}
+			b_mandishah_parva = {
+			}
+		}
+		c_oasis_trinitheos = {
+			color={ 255 140 40 }
+			color2={ 255 255 255 }
+			
+			egyptian = Ta-jhw
+			
+			b_trinitheos_trinitheos = {
+				egyptian = Ta-jhw
+			}
+			b_ain_bishay_trinitheos = {
+			}
+		}
+	}
+	d_koufra = {		
+		color={ 255 125 25 }
+		color2={ 255 255 255 }
+		
+		c_tazerbo = {
+			color={ 245 115 25 }
+			color2={ 255 255 255 }
+			
+			b_tazerbo_tazerbo = {
+			}
+		}
+		c_koufra = {
+			color={ 255 125 25 }
+			color2={ 255 255 255 }
+			
+			b_koufra_koufra = {
+			}
+			b_buma_koufra = {
+			}
+		}
+	}
+}
+k_lusitania = {
+	color={ 170 60 25 }
+	color2={ 255 255 255 }
+
+	d_vettonia = {
+		color={ 165 85 60 }
+		color2={ 255 255 255 }
+		
+		c_ocelum = {
+			color={ 205 205 15 }
+			color2={ 255 255 255 }
+
+			b_okelodouron_ocelum = {
+			}
+			b_eldana_ocelum = {
+			}
+			b_mirobriga_ocelum = {
+			}
+			b_bletisa_ocelum = {
+			}
+		}
+		c_lama = {
+			color={ 225 225 75 }
+			color2={ 255 255 255 }
+
+			b_lama_lama = {
+			}
+			b_tourmogon_lama = {
+			}
+			b_caesarobriga_lama = {
+			}
+			b_rusticana_lama = {
+			}
+		}			
+		c_tamusia = {
+			color={ 205 105 15 }
+			color2={ 255 255 255 }
+
+			b_tamusia_tamusia = {
+			}
+			b_turgalium_tamusia = {
+			}
+			b_tongobriga_tamusia = {
+			}
+			b_lacipea_tamusia = {
+			}
+		}
+	}
+	d_lusitania = {
+		color={ 170 60 25 }
+		color2={ 255 255 255 }
+		
+		c_longobriga = {
+			color={ 135 150 40 }
+			color2={ 255 255 255 }
+
+			b_longobriga_longobriga = {
+			}
+			b_medubriga_longobriga = {
+			}
+			b_caliabriga_longobriga = {
+			}
+			b_aravorum_longobriga = {
+			}
+		}
+		c_egitania = {
+			color={ 155 100 20 }
+			color2={ 255 255 255 }
+
+			b_egitania_egitania = {
+			}
+			b_ocelum_egitania = {
+			}
+			b_veniensis_egitania = {
+			}
+			b_alpedrinha_egitania = {
+			}
+		}
+		c_collippo = {
+			color={ 100 100 20 }
+			color2={ 255 255 255 }
+
+			b_collippo_collippo = {
+			}
+			b_conimbriga_collippo = {
+			}
+			b_elbocoris_collippo = {
+			}
+		}
+		c_talabriga = {
+			color={ 55 65 220 }
+			color2={ 255 255 255 }
+
+			b_talabrica_talabriga = {
+			}
+			b_aeminium_talabriga = {
+			}
+			b_langobriga_talabriga = {
+			}
+			b_lamecum_talabriga = {
+			}
+		}
+		c_scallabis = {
+			color={ 200 50 90 }
+			color2= {255 255 255 }
+
+			b_scallabis_scallabis = {
+			}
+			b_sellium_scallabis = {
+			}
+			b_londobris_scallabis = {
+			}
+			b_cos_scallabis = {
+			}
+		}
+	}
+	d_celticia = {
+		color={ 230 75 25 }
+		color2={ 255 255 255 }
+
+		c_olisipo = {
+			color={ 220 240 90 }
+			color2={ 255 255 255 }
+
+			b_olisipo_olisipo = {
+			}
+			b_ierabriga_olisipo = {
+			}
+			b_eburobrittium_olisipo = {
+			}
+		}
+		c_ammaia = {
+			color={ 20 75 120 }
+			color2={ 255 255 255 }
+
+			b_ammaia_ammaia = {
+			}
+			b_tubucci_ammaia = {
+			}
+			b_aritium_ammaia = {
+			}
+			b_matusarum_ammaia = {
+			}
+		}
+		c_ebora = {
+			color={ 205 165 70 }
+			color2={ 255 255 255 }
+
+			b_ebora_ebora = {
+			}
+			b_salacia_ebora = {
+			}
+			b_malateca_ebora = {
+			}
+			b_mirobriga_ebora = {
+			}
+			b_calanta_ebora = {
+			}
+			b_caetobriga_ebore = {
+			}
+		}
+		c_badua = {
+			color={ 105 105 75 }
+			color2={ 255 255 255 }
+
+			b_badua_badua = {
+			}
+			b_plagiaria_badua = {
+			}
+			b_elvas_badua = {
+			}
+			b_emerita_badua = {
+			}
+		}
+	}
+	d_cuneus = {
+		color={ 255 165 70 }
+		color2={ 255 255 255 }
+
+		c_lacobriga = {			
+			color={ 155 165 70 }
+			color2={ 255 255 255 }
+
+			b_lacobriga_lacobriga = {
+			}
+			b_murtinhal_lacobriga = {
+			}
+			b_lagos_lacobriga = {
+			}
+		}
+		c_myrtilis = {
+			color={ 100 165 70 }
+			color2={ 255 255 255 }	
+
+			b_myrtilis_myrtilis = {
+			}
+			b_arandis_myrtilis = {
+			}
+			b_vipascens_myrtilis = {
+			}	
+		}
+		c_ossonoba = {
+			color={ 50 165 70 }
+			color2={ 255 255 255 }		
+
+			b_ossunba_ossonoba = {
+			}
+			b_cilpes_ossonoba = {
+			}
+			b_balsa_ossonoba = {
+			}
+			b_esuris_ossonoba = {
+			}
+		}
+	}
+}
+k_gallaecia = {
+	color={ 40 160 45 }
+	color2={ 255 255 255 }
+	
+	d_callaecia = {
+		color={ 65 200 75 }
+		color2={ 255 255 255 }
+		
+		c_brigantium = {
+			color={ 40 100 40 }
+			color2={ 255 255 255 }
+
+			b_brigantium_brigantium = {
+			}
+			b_antabron_brigantium = {
+			}
+			b_assegonia_brigantium = {
+			}
+			b_iria_flavia_brigantium = {
+			}
+		}
+		c_glandimirum = {
+			color={ 40 150 40 }
+			color2={ 255 255 255 }
+
+			b_glandimirum_glandimirum = {
+			}
+			b_burbida_glandimirum = {
+			}
+			b_koilobriga_glandimirum = {
+			}
+			b_salientes_glandimirum = {
+			}
+		}
+		c_bracara = {
+			color={ 35 45 225 }
+			color2={ 255 255 255 }
+
+			b_bracara_bracara = {
+			}
+			b_cale_bracara = {
+			}
+			b_briteiros_bracara = {
+			}
+			b_arae_flaviae_bracara = {
+			}
+		}
+	}
+	d_asturia = {
+		color={ 5 125 10 }
+		color2={ 255 255 255 }
+		
+		c_coana = {
+			color={ 65 100 160 }
+			color2={ 255 255 255 }
+
+			b_coana_coana = {
+			}
+			b_dactionum_coana = {
+			}
+			b_flavionava_coana = {
+			}
+		}
+		c_asturica = {
+			color={ 75 100 25 }
+			color2={ 255 255 255 }
+
+			b_asturica_asturica = {
+			}
+			b_nemetobriga_asturica = {
+			}
+			b_cabanca_asturica = {
+			}
+			b_petavonium_asturica = {
+			}
+			b_baeduna_asturica = {
+			}
+		}
+		c_compleutica = {
+			color={ 85 120 35 }
+			color2={ 255 255 255 }
+
+			b_compleutica_compleutica = {
+			}
+			b_veniatia_compleutica = {
+			}
+			b_civitas_baniensum_compleutica = {
+			}
+			b_civitas_zoelarum_compleutica = {
+			}
+		}
+		c_lance = {
+			color={ 5 125 10 }
+			color2={ 255 255 255 }
+
+			b_lance_lance = {
+			}
+		}
+	}
+}
+k_hispa = {
+	color={ 51 102 0 }
+	color2={ 255 255 255 }
+	
+	d_vasconia = {
+		color ={ 0 102 124 }
+		color2 = { 255 255 255 }
+
+		c_segia = {
+			color={ 0 153 124 }
+			color2={ 255 255 255 }
+			
+			b_sekia_segia = {
+			}
+			b_iaka_segia = {
+			}
+		}
+		c_oiasso = {
+			color={ 51 51 73 }
+			color2={ 255 255 255 }
+			
+			b_oiarso_oiasso = {
+			}
+		}
+		c_victoriacum = {
+			color={ 102 102 73 }
+			color2={ 255 255 255 }
+			
+			b_victoriacum_victoriacum = {
+			}
+			b_kalakorikos_victoriacum = {
+			}
+		}
+	}
+	d_cantabria = {
+		color={ 0 51 124 }
+		color2={ 255 255 255 }
+
+		c_brigaecium = {
+			color={ 10 200 160 }
+			color2={ 255 255 255 }
+			
+			b_brigaecium_brigaecium = {
+			}
+		}
+		c_palantia = {
+			color={ 15 250 175 }
+			color2={ 255 255 255 }
+			
+			b_palantia_palantia = {
+			}
+		}
+		c_aracelium = {
+			color={ 40 200 150 }
+			color2={ 255 255 255 }
+			
+			b_aracelium_aracelium = {
+			}
+		}
+		c_saldania = {
+			color={ 20 205 170 }
+			color2={ 255 255 255 }
+			
+			b_saldania_saldania = {
+			}
+			b_morecanodounon_saldania = {
+			}
+		}
+		c_gebala = {
+			color={ 30 200 150 }
+			color2={ 255 255 255 }
+			
+			b_gebala_gebala={
+			}
+			b_koueliokos_gebala={
+			}
+		}
+		c_virovesca = {
+			color={ 20 130 135 }
+			color2={ 255 255 255 }
+			
+			b_virovesca_virovesca = { 
+			}
+			b_sekobirikes_virovesca = {
+			}
+		}
+	}
+	d_vaccaea = {
+		color={ 204 136 221 }
+		color2={ 255 255 255 }
+
+		c_salmantica = {
+			color= { 130 75 160 }
+			color2={ 255 255 255 }
+
+			b_helmantica_salmantica = {
+			}
+		}
+		c_nivaria = {
+			color={ 125 60 130 }
+			color2={ 255 255 255 }
+
+			b_nivaria_nivaria = {
+			}
+		}
+		c_segovia = {
+			color={ 100 40 100 }
+			color2={ 255 255 255 }
+
+			b_segovia_segovia = {
+			}
+		}
+		c_amallobriga = {
+			color={ 25 110 200 }
+			color2={ 255 255 255 }
+
+			b_amallobriga_amallobriga= {
+			}
+		}
+		c_turbes = {
+			color={ 20 10 145 }
+			color2={ 255 255 255 }
+
+			b_turbes_turbes = {
+			}
+		}
+	}
+	d_celtiberia = {
+		color={ 153 136 221 }
+		color2={ 255 255 255 }
+
+		c_termes = {
+			color={ 170 105 20 }
+			color2={ 255 255 255 }
+
+			b_termes_termes = {
+			}
+			b_sekotias_termes = {
+			}
+		}
+		c_bilbilis = {
+			color={ 200 20 130 }
+			color2={ 255 255 255 }
+
+			b_bilbilis_bilbilis = {
+			}
+		}
+		c_klunia = { 
+			color={ 120 115 180 }
+			color2={ 255 255 255 }
+
+			b_kolounioku_klunia = {
+			}
+			b_letaisama_klunia = {
+			}
+		}
+		c_numantia = { 
+			color={ 135 145 80 }
+			color2={ 255 255 255 }
+
+			b_numantia_numantia = {
+			}
+			b_okalakom_numantia = {
+			}
+			b_tabaniu_numantia = {
+			}
+			b_bursau_numantia = {
+			}
+			b_terkakom_numantia = {
+			}
+		}
+		c_loutia = {
+			color={ 190 55 200 }
+			color2={ 255 255 255 }
+
+			b_lutiakos_loutia = {
+			}
+			b_aratikos_loutia = {
+			}
+		}
+		c_ocules = {
+			color={ 120 110 20 }
+			color2={ 255 255 255 }
+
+			b_ocules_ocules = {
+			}
+			b_segobriga_ocules = {
+			}
+			b_opta_ocules = {
+			}
+		}
+		c_iniesta = {
+			color={ 25 150 100 }
+			color2={ 255 255 255 }
+
+			b_iniesta_iniesta = {
+			}
+			b_putea_iniesta = {
+			}
+			b_valeria_iniesta = {
+			}
+		}
+	}
+	d_carpetania = {
+		color={ 153 85 170}
+		color2={ 255 255 255 }
+		
+		c_miaccum = {
+			color={ 55 50 100 }
+			color2={ 255 255 255 }
+
+			b_miaccum_miaccum = {
+			}
+			b_mantua_miaccum = {
+			}
+		}
+		c_toletum = {
+			color={ 60 180 30 }
+			color2={ 255 255 255 }
+
+			b_toletum_toletum = {
+			}
+			b_consabura_toletum = {
+			}
+			b_alce_toletum = {
+			}
+			b_cumarius_toletum = {
+			}
+		}
+		c_arriaca = {
+			color={ 130 50 60 }
+			color2={ 255 255 255 }
+
+			b_arriaca_arriaca = {
+			}
+			b_complutum_arriaca = {
+			}
+			b_brittablo_arriaca = {
+			}
+			b_caesada_arriaca = {
+			}
+		}
+	}
+	d_oretania = {
+		color={ 60 160 140 }
+		color2={ 255 255 255 }
+		
+		c_laminium = {
+			color={ 60 100 130 }
+			color2={ 255 255 255 }
+
+			b_laminium_laminium = {
+			}
+			b_alaba_laminium = {
+			}
+			b_murum_laminium = {
+			}
+		}
+		c_edeba = {
+			color={ 30 20 110 }
+			color2={ 255 255 255 }
+
+			b_edeba_edeba = {
+			}
+			b_mentesa_edeba = {
+			}
+			b_ilugo_edeba = {
+			}
+			b_baesucci_edeba = {
+			}
+			b_baecula_edeba = {
+			}
+		}
+		c_tugia = {
+			color={ 135 20 155 }
+			color2={ 255 255 255 }
+
+			b_tugia_tugia = {
+			}
+		}
+		c_libisosa = {
+			color={ 120 130 100 }
+			color2={ 255 255 255 }
+
+			b_libisosa_libisosa = {
+			}
+			b_caput_libisosa = {
+			}
+		}
+	}
+}
+k_iberia = {
+	color={ 153 51 0 }
+	color2={ 255 255 255 }
+
+	d_sicoria = {		
+		color={ 185 95 65 }
+		color2={ 255 255 255 }
+
+		c_osca = {
+			color={ 134 95 65 }
+			color2={ 255 255 255 }
+			
+			b_osca_osca = {
+			}
+			b_sesars_osca = {
+			}
+			b_bolskan_osca = {
+			}
+		}
+		c_labitulosa = {
+			color={ 236 95 65 }
+			color2={ 255 255 255 }
+			
+			b_labitulosa_labitulosa = {
+			}
+			b_ore_labitulosa = {
+			}
+		}
+		c_urgellum = {
+			color={ 185 146 65 }
+			color2={ 255 255 255 }
+			
+			b_arketurki_urgellum = {
+			}
+			b_eso_urgellum = {
+			}
+		}
+	}
+	d_cessetania = {
+		color={ 235 95 45 }
+		color2={ 255 255 255 }
+
+		c_ilerda = {
+			color={ 184 95 45 }
+			color2={ 255 255 255 }
+			
+			b_iltirta_ilerda = {
+			}
+		}
+		c_olcastrum = {
+			color={ 235 146 45 }
+			color2={ 255 255 255 }
+			
+			b_olcastrum_olcastrum ={
+			}
+		}
+		c_tarraco = {
+			color={ 235 44 45 }
+			color2={ 255 255 255 }
+			
+			b_tarraco_tarraco = {
+			}
+			b_kesse_tarraco = {
+			}
+		}
+	}
+	d_laetania = {
+		color={ 160 80 45 }
+		color2={ 255 255 255 }
+
+		c_auso = {
+			color={ 109 80 45 }
+			color2={ 255 255 255 }
+			
+			b_auso_auso = {
+			}
+			b_iltirkesken_auso = {
+			}
+		}
+		c_baetulo = {
+			color={ 58 80 45 }
+			color2={ 255 255 255 }
+			
+			b_baitolo_baetulo = {
+			}
+			b_barkeno_baetulo = {
+			}
+			b_lauro_baetulo = {
+			}
+			b_eusti_baetulo = {
+			}
+		}
+		c_untikesken = {
+			color={ 160 29 45 }
+			color2={ 255 255 255 }
+			
+			b_untikesken_untikesken = {
+			}
+			b_abariltur_untikesken = {
+			}
+			b_ilturo_untikesken = {
+			}
+		}
+		c_sebendounon = {
+			color={ 160 80 96 }
+			color2={ 255 255 255 }
+			
+			b_sebendounon_sebendounon = {
+			}
+		}
+		c_emporion = {
+			color={ 109 80 96 }
+			color2={ 255 255 255 }
+			
+			b_emporion_emporion = {
+			}
+			b_rhode_emporion = {
+			}
+		}
+	}
+	d_edetania = {
+		color={ 240 160 130 }
+		color2={ 255 255 255 }
+
+		c_indibilis = {
+			color={ 190 160 130 }
+			color2={ 255 255 255 }
+			
+			b_indibilis_indibilis = {
+			}
+			b_iltirkesken_indibilis = {
+			}
+		}
+		c_saguntum = {
+			color={ 240 110 130 }
+			color2={ 255 255 255 }
+			
+			b_arse_saguntum = {
+			}
+			b_sucro_saguntum = {
+			}
+			b_valentia_saguntum = {
+			}
+		}
+		c_kili = {
+			color={ 240 160 80 }
+			color2={ 255 255 255 }
+			
+			b_kili_kili = {
+			}
+			b_kelin_kili = {
+			}
+		}
+		c_contrebia = {
+			color={ 240 160 130 }
+			color2={ 255 255 255 }
+
+			b_kontrebia_contrebia = {
+			}
+			b_tamaniu_contrebia = {
+			}
+			b_itukoite_contrebia = {
+			}
+			b_sekaisa_contrebia = {
+			}
+		}
+	}
+	d_contestania = {
+		color={ 185 75 0 }
+		color2={ 255 255 255 }
+
+		c_dianum = {
+			color={ 135 75 0 }
+			color2={ 255 255 255 }
+			
+			b_hemeroskopion_dianum = {
+			}
+			b_saiti_dianum = {
+			}
+			b_ilici_dianum = {
+			}
+		}
+		c_saetabis = {
+			color={ 85 75 0 }
+			color2={ 255 255 255 }
+			
+			b_saetabis_saetabis = {
+			}
+			b_saltigi_saetabis = {
+			}
+			b_ikalesken_saetabis = {
+			}
+		}
+		c_ilorci = {
+			color={ 185 155 0 }
+			color2={ 255 255 255} 
+			
+			b_ilorci_ilorci = {
+			}
+		}
+	}
+	d_bastetania = {
+		color={ 135 20 5 }
+		color2={ 255 255 255 }
+
+		c_carthago_nova = {
+			color={ 85 20 5 }
+			color2={ 255 255 255 }
+			
+			b_mastia_carthago_nova = {
+			}
+			b_baria_carthago_nova = {
+			}
+			b_tagilit_carthago_nova = {
+			}
+		}
+		c_murgi = {
+			color={ 135 70 5 }
+			color2={ 255 255 255 }
+			
+			b_murgi_murgi = {
+			}
+		}
+		c_basti = {
+			color={ 135 20 55 }
+			color2={ 255 255 255 }
+			
+			b_basti_basti = {
+			}
+		}
+		c_bergastrum = {
+			color={ 135 20 105 }
+			color2={ 255 255 255 }
+			
+			b_bergastrum_bergastrum = {
+			}
+		}
+	}
+	d_baliares = {
+		color={ 200 170 65 }
+		color2={ 255 255 255 }
+
+		c_ebusos = {
+			color={ 250 170 65 }
+			color2={ 255 255 255 }
+			
+			b_ibossim_ebusos = {
+			}
+		}
+		c_cromiussa = {
+			color={ 250 220 65 }
+			color2={ 255 255 255 }
+			
+			b_kromioussa_cromiussa= {
+			}
+			b_pollentia_cromiussa = {
+			}
+			b_palmaria_cromiussa = {
+			}
+			b_bocchoris_cromiussa = {
+			}
+		}
+		c_nura = {
+			color={ 250 220 115 }
+			color2={ 255 255 255 }
+			
+			b_nura_nura = {
+			}
+		}
+	}
+}
+k_turdetania = {
+	color={ 51 153 204 }
+	color2={ 255 255 255 }
+
+	d_tartessos = {
+		color={ 45 150 170 }
+		color2={ 255 255 255 }
+
+		c_praesidium = {
+			color={ 95 150 170 }
+			color2={ 255 255 255 }
+
+			b_praesidium_praesidium = {
+			}
+			b_ossonoba_praesidium = {
+			}
+			b_tharsis_praesidium = {
+			}
+			b_serpa_praesidium = {
+			}
+		}
+		c_turobriga = {
+			color={ 145 150 170 }
+			color2={ 255 255 255 }
+
+			b_turobriga_turobriga = {
+			}
+			b_nertobriga_turobriga = {
+			}
+			b_alajar_turobriga = {
+			}
+			b_arruci_turobriga = {
+			}
+		}
+		c_lastigi = {
+			color={ 195 150 170 }
+			color2={ 255 255 255 }
+
+			b_lastigi_lastigi = {
+			}
+			b_italica_lastigi = {
+			}
+			b_laelia_lastigi = {
+			}
+			b_paisoula_lastigi = {
+			}
+		}
+		c_osset = {
+			color={ 45 200 170 }
+			color2={ 255 255 255 }
+
+			b_osset_osset = {
+			}
+			b_olontigi_osset = {
+			}
+			b_maenuba_osset = {
+			}
+		}
+	}
+	d_turdulia = {
+		color={ 45 250 170 }
+		color2={ 255 255 255 }
+
+		c_segida = {
+			color={ 45 250 120 }
+			color2={ 255 255 255 }
+
+			b_segida_segida = {
+			}
+			b_seria_segida = {
+			}
+			b_vama_segida = {
+			}
+			b_caspiana_segida = {
+			}
+			b_phornakis_segida = {
+			}
+		}
+		c_artigi = {
+			color={ 45 250 220 }
+			color2={ 255 255 255 }
+
+			b_artigi_artigi = {
+			}
+			b_brutobriga_artigi = {
+			}
+			b_metellinum_artigi = {
+			}
+		}
+		c_munigua = {
+			color={ 95 250 220 }
+			color2={ 255 255 255 }
+
+			b_munigua_munigua = {
+			}
+			b_naeva_munigua = {
+			}
+			b_iporca_munigua = {
+			}
+			b_leptis_munigua = {
+			}
+		}
+		c_mirobriga = {
+			color={ 135 250 220 }
+			color2={ 255 255 255 }
+
+			b_mirobirga_mirobriga = {
+			}
+			b_baedro_mirobriga = {
+			}
+			b_solia_mirobriga = {
+			}
+		}
+		c_corduba = {
+			color={ 45 100 170 }
+			color2={ 255 255 255 }
+
+			b_corduba_corduba = {
+			}
+			b_carbula_corduba = {
+			}
+			b_detumo_corduba = {
+			}
+			b_sisapo_corduba = {
+			}
+			b_oretum_corduba = {
+			}
+			b_carcuvium_corduba = {
+			}
+		}
+	}
+	d_turdetania = {
+		color={ 45 50 170 }
+		color2={ 255 255 255 }
+
+		c_carissa = {
+			color={ 45 0 220 }
+			color2={ 255 255 255 }
+
+			b_carissa_carissa = {
+			}
+			b_salpensa_carissa = {
+			}
+			b_callet_carissa = {
+			}
+			b_burdoga_carissa = {
+			}
+			b_urgia_carissa = {
+			}
+		}
+		c_hispalis = {
+			color={ 45 0 120 }
+			color2={ 255 255 255 }
+
+			b_hispalis_hispalis = {
+			}
+			b_carmo_hispalis = {
+			}
+			b_basiloppo_hispalis = {
+			}
+			b_oducia_hispalis = {
+			}
+		}
+		c_segida_turdetania = {
+			color={ 95 50 120 }
+			color2={ 255 255 255 }
+
+			b_segida_segida_turdetania = {
+			}
+			b_olbulcula_segida_turdetania = {
+			}
+			b_astigi_segida_turdetania = {
+			}
+			b_urso_segida_turdetania = {
+			}
+			b_lauro_segida_turdetania = {
+			}
+		}
+		c_ulia = {
+			color={ 95 100 220 }
+			color2={ 255 255 255 }
+
+			b_ulia_ulia = {
+			}
+			b_igabrum_ulia = {
+			}
+			b_cisimbrium_ulia = {
+			}
+			b_ipolcobulcola_ulia = {
+			}
+			b_urgao_ulia = {
+			}
+		}
+		c_acci = {
+			color={ 95 100 170 }
+			color2={ 255 255 255 }
+
+			b_acci_acci = {
+			}
+			b_vergilia_acci = {
+			}
+			b_iliberri_acci = {
+			}
+			b_bactara_acci = {
+			}
+		}
+	}
+	d_bastulia = {
+		color={ 100 70 255 }
+		color2={ 255 255 255 }
+
+		c_gadir = {
+			color={ 150 70 255 }
+			color2={ 255 255 255 }
+
+			b_gadir_gadir = {
+			}
+			b_turirecina_gadir = {
+			}
+			b_asido_gadir = {
+			}
+			b_mercablum_gadir = {
+			}
+			b_ebora_gadir = {
+			}
+			b_memestheus_gadir = {
+			}
+		}
+		c_carteia = {
+			color={ 200 70 255 }
+			color2={ 255 255 255 }
+
+			b_carteia_carteia = {
+			}
+			b_belo_carteia = {
+			}
+			b_tingentera_carteia = {
+			}
+			b_mellaria_carteia = {
+			}
+			b_onoba_carteia = {
+			}
+		}
+		c_sabora = {
+			color={ 250 70 255 }
+			color2={ 255 255 255 }
+
+			b_sabora_sabora = {
+			}
+			b_irni_sabora = {
+			}
+			b_ocurri_sabora = {
+			}
+			b_lacilbula_sabora = {
+			}
+		}
+		c_suel = {
+			color={ 150 70 205 }
+			color2={ 255 255 255 }
+
+			b_suel_suel = {
+			}
+			b_salduba_suel = {
+			}
+			b_cartima_suel = {
+			}
+			b_arunda_suel = {
+			}
+		}
+		c_malaca = {
+			color={ 200 20 205 }
+			color2={ 255 255 255 }
+
+			b_malaca_malaca = {
+			}
+			b_iluro_malaca = {
+			}
+			b_nescania_malaca = {
+			}
+			b_aratispi_malaca = {
+			}
+			b_menova_malaca = {
+			}
+		}
+		c_sexi = {
+			color={ 150 70 155 }
+			color2={ 255 255 255 }
+
+			b_sexi_sexi = {
+			}
+			b_selambina_sexi = {
+			}
+			b_abdera_sexi = {
+			}
+		}
+	}
+}
+
+# Titular titles
+k_israel = {
+	color= { 150 175 255 }
+	color2= { 255 255 255 }
+
+	capital = 130 # Jerusalem
+
+	allow = {
+		culture = israelite
+		liege = {
+			not = { has_landed_title = e_persia }
+			not = { has_landed_title = e_macedonia }
+		}
+	}
+}

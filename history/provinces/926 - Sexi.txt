@@ -1,0 +1,18 @@
+# 926 - Sexi
+
+# County Title
+title = c_sexi
+
+# Settlements
+max_settlements = 3
+b_sexi_sexi = castle
+b_selambina_sexi = city
+b_abdera_sexi = city
+
+# Misc
+culture = punic
+religion = punic_main
+
+
+# History
+# Can be filled when things change around the province

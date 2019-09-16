@@ -1,0 +1,16 @@
+# 759 - Prasthala
+
+# County Title
+title = c_prasthala
+
+# Settlements
+max_settlements = 2
+b_prasthala_prasthala = castle
+b_lomasa_prasthala = city
+
+# Misc
+culture = shauraseni
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,25 @@
+390.1.1 = {
+	holder = 53301 # Demosthenes, the father
+	liege = k_r_athens
+}
+399.1.1 = { # 377 BC
+	holder = 53302 # Demosthenes
+}
+438.8.2 = { # 338 BC, Battle of Chaeronea
+	liege = d_r_athens
+}
+454.1.1 = { # 322 BC
+	holder = 53303 # Nikandros, fictional
+}
+459.7.1 = { # 317 BC, Oligarchy
+	liege = d_attike
+}
+461.10.1 = { # 315 BC
+	liege = k_s_phrygia
+}
+469.1.1 = { # 307 BC
+	liege = d_r_athens
+}
+502.1.1 = { # 274 BC
+	holder = 53304 # Demosthenes, fictional
+}

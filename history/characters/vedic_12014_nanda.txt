@@ -1,0 +1,160 @@
+# 121301-121400 for the Nanda dynasty
+121301 = {
+	name = "Mahapadma" # Mahapadma Nanda
+	dynasty = 12144
+	religion = hinduism_main
+	culture = vedic
+	add_trait = cruel
+	add_trait = ambitious
+	add_trait = greedy
+	376.1.1 = { # 400 BC
+		birth="yes"
+	}
+	447.1.1 = { # 329 BC
+		death="yes"
+	}
+}
+121302 = {
+	name = "Dhana" # Dhana Nanda
+	dynasty = 12144
+	religion = jainism_main
+	culture = vedic
+	father = 121301
+	add_trait = cruel
+	add_trait = ambitious
+	add_trait = greedy
+	406.1.1 = { # 370 BC made up
+		birth="yes"
+	}
+	455.1.1 = { # 321 BC
+		death="yes"
+	}
+}
+121303 = {
+	name = "Pandhuka"
+	dynasty = 12144
+	religion = hinduism_main
+	culture = vedic
+	father = 121301
+	add_trait = cruel
+	add_trait = ambitious
+	add_trait = greedy
+	408.1.1 = { # 368 BC made up
+		birth="yes"
+	}
+	448.1.1 = { # 328 BC made up
+		death="yes"
+	}
+}
+121304 = {
+	name = "Panghupati"
+	dynasty = 12144
+	religion = hinduism_main
+	culture = vedic
+	father = 121301
+	add_trait = cruel
+	add_trait = ambitious
+	add_trait = greedy
+	410.1.1 = { # 366 BC made up
+		birth="yes"
+	}
+	448.1.1 = { # 328 BC made up
+		death="yes"
+	}
+}
+121305 = {
+	name = "Bhutapala"
+	dynasty = 12144
+	religion = hinduism_main
+	culture = vedic
+	father = 121301
+	add_trait = cruel
+	add_trait = ambitious
+	add_trait = greedy
+	412.1.1 = { # 364 BC made up
+		birth="yes"
+	}
+	448.1.1 = { # 328 BC made up
+		death="yes"
+	}
+}
+121306 = {
+	name = "Rashtrapala"
+	dynasty = 12144
+	religion = hinduism_main
+	culture = vedic
+	father = 121301
+	add_trait = cruel
+	add_trait = ambitious
+	add_trait = greedy
+	414.1.1 = { # 362 BC made up
+		birth="yes"
+	}
+	450.1.1 = { # 326 BC made up
+		death="yes"
+	}
+}
+121307 = {
+	name = "Govishanaka"
+	dynasty = 12144
+	religion = hinduism_main
+	culture = vedic
+	father = 121301
+	add_trait = cruel
+	add_trait = ambitious
+	add_trait = greedy
+	416.1.1 = { # 360 BC made up
+		birth="yes"
+	}
+	450.1.1 = { # 326 BC made up
+		death="yes"
+	}
+}
+121308 = {
+	name = "Dashasidhaka"
+	dynasty = 12144
+	religion = hinduism_main
+	culture = vedic
+	father = 121301
+	add_trait = cruel
+	add_trait = ambitious
+	add_trait = greedy
+	418.1.1 = { # 358 BC made up
+		birth="yes"
+	}
+	450.1.1 = { # 326 BC made up
+		death="yes"
+	}
+}
+121309 = {
+	name = "Kaivarta"
+	dynasty = 12144
+	religion = hinduism_main
+	culture = vedic
+	father = 121301
+	add_trait = cruel
+	add_trait = ambitious
+	add_trait = greedy
+	420.1.1 = { # 354 BC made up
+		birth="yes"
+	}
+	453.1.1 = { # 323 BC made up
+		death="yes"
+	}
+}
+121310 = {
+	name = "Mahendra"
+	dynasty = 12144
+	religion = hinduism_main
+	culture = vedic
+	father = 121301
+	add_trait = cruel
+	add_trait = ambitious
+	add_trait = greedy
+	422.1.1 = { # 352 BC made up
+		birth="yes"
+	}
+	453.1.1 = { # 323 BC made up
+		death="yes"
+	}
+}

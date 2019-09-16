@@ -1,0 +1,38 @@
+# 180001-180100 for the Arrunsuna dynasty
+180001 = {
+	name = "Cuinte" # Etruscan leader, Made up
+	dynasty = 18001 # Arrunsuna
+	religion = etruscan_main
+	culture = etruscan
+	421.1.1 = { # 355 BC Made up
+		birth="yes"
+	}
+	471.1.1 = { # 305 BC Made up
+		death="yes"
+	}
+}
+180002 = {
+	name = "Cae" # Etruscan, Made up
+	dynasty = 18001 # Arrunsuna
+	religion = etruscan_main
+	culture = etruscan
+	father = 180001
+	453.1.1 = { # 323 BC
+		birth="yes"
+	}
+	533.1.1 = { # 243 BC
+		death="yes"
+	}
+}
+180003 = {
+	name = "Cae" # Etruscan, Made up
+	dynasty = 18001 # Arrunsuna
+	religion = etruscan_main
+	culture = etruscan
+	390.1.1 = {
+		birth="yes" # 386 BC
+	}
+	444.1.1 = {
+		death="yes" # 332 BC
+	}
+}

@@ -1,0 +1,18 @@
+# 392 - Scarbantia
+
+# County Title
+title = c_scarbantia
+
+# Settlements
+max_settlements = 4
+b_scarbantia_scarbantia = castle
+b_mursella_scarbantia = city
+b_muteno_scarbantia = temple
+b_arrabona_scarbantia = city
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,18 @@
+# 193 - Sippar
+
+# County Title
+title = c_sippar
+
+# Settlements
+max_settlements = 4
+b_sippar_sippar = castle
+b_vologesias_sippar = temple
+b_neardea_sippar = city
+b_cunaxa_sippar = city
+
+# Misc
+culture = akkadian
+religion = marduk_cult
+
+# History
+# Can be filled when things change around the province

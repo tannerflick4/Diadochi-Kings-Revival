@@ -1,0 +1,26 @@
+# 20401-20500 for the Olympioi dynasty
+20401 = {
+	name = "Pankratios" # Syracuse
+	dynasty = 2005 # Olympioi
+	religion = greek_main
+	culture = doric
+	397.1.1 = { # 379 BC Made up
+		birth="yes"
+	}
+	468.1.1 = { # 308 BC Made up
+		death="yes"
+	}
+}
+20402 = {
+	name = "Agathon" # Syracuse
+	dynasty = 2005 # Olympioi
+	religion = greek_main
+	culture = doric
+	father = 20401
+	417.1.1 = { # 359 BC Made up
+		birth="yes"
+	}
+	491.1.1 = { # 285 BC Made up
+		death="yes"
+	}
+}

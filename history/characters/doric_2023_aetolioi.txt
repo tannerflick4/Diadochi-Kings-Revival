@@ -1,0 +1,52 @@
+# 22201-22300 for the Aetolioi dynasty
+22201 = {
+	name = "Eutychios" # Strategos of the Aetolian league, Made up
+	dynasty = 2023 # Aetolioi
+	religion = greek_main
+	culture = doric
+	father = 22204
+	422.1.1 = { # Made up
+		birth="yes" # 354 BC
+	}
+	478.1.1 = { # Made up
+		death="yes" # 298 BC
+	}
+}
+22202 = {
+	name = "Apollonaris" # Strategos of the Aetolian League, Made up
+	dynasty = 2023 # Aetolioi
+	religion = greek_main
+	culture = doric
+	father = 22201
+	451.1.1 = { # Made up
+		birth="yes" # 325 BC
+	}
+	493.1.1 = { # Made up
+		death="yes" # 283 BC
+	}
+}
+22203 = {
+	name = "Diodoros" # Strategos of the Aetolian League, Made up
+	dynasty = 2023 # Aetolioi
+	religion = greek_main
+	culture = doric
+	father = 22201
+	463.1.1 = { # Made up
+		birth="yes" # 313 BC
+	}
+	520.1.1 = { # Made up
+		death="yes" # 256 BC
+	}
+}
+22204 = {
+	name = "Kleisthenes" # Leader of the Aetolian League, made up
+	dynasty = 2023 # Aetolioi
+	religion = greek_main
+	culture = doric
+	386.1.1 = { # Made up
+		birth="yes" # 390 BC
+	}
+	449.1.1 = {
+		death="yes" # 327 BC
+	}
+}

@@ -1,0 +1,21 @@
+# 437 - Iuvavum
+
+# County Title
+title = c_iuvavum
+
+# Settlements
+max_settlements = 5
+b_iuvavum_iuvavum = castle
+b_cucullae_iuvavum = city
+b_anisus_iuvavum = castle
+b_bedaium_iuvavum = city
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_laciacis_iuvavum
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

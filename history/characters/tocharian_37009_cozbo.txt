@@ -1,0 +1,39 @@
+# 370801-370900 for the Cozbo dynasty
+370801 = {
+	name = "Yogasena" # Made up
+	dynasty = 37015
+	religion = zoroastrian_main
+	culture = tocharian
+	379.1.1 = { # 397 BC
+		birth="yes"
+	}
+	454.1.1 = { # 322 BC
+		death="yes"
+	}
+}
+370802 = {
+	name = "Pumiiasena" # Made up
+	dynasty = 37015
+	religion = zoroastrian_main
+	culture = tocharian
+	father = 370801
+	403.1.1 = { # 373 BC
+		birth="yes"
+	}
+	481.1.1 = { # 295 BC
+		death="yes"
+	}
+}
+370803 = {
+	name = "Arselis" # Made up
+	dynasty = 37015
+	religion = zoroastrian_main
+	culture = tocharian
+	father = 370802
+	434.1.1 = { # 342 BC
+		birth="yes"
+	}
+	525.1.1 = { # 251 BC
+		death="yes"
+	}
+}

@@ -1,0 +1,24 @@
+# 333 - Iguvium
+
+# County Title
+title = c_iguvium # for example c_corinth
+
+# Settlements
+max_settlements = 6 # Should be reevaluated
+b_iguvium_iguvium = castle
+b_attidoim_iguvium = castle
+b_assisium_iguvium = city
+b_nuceria_iguvium = temple
+
+# Possible baronies: (Always add a # in front of a line with these!)
+#
+#
+#
+#
+
+# Misc
+culture = umbrian
+religion = roman_main
+
+# History
+# Can be filled when things change around the province

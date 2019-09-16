@@ -1,0 +1,22 @@
+# 427 - Lugdunum
+
+# County Title
+title = c_lugdunum
+
+# Settlements
+max_settlements = 6
+b_lugdunum_lugdunum = castle
+b_vienne_lugdunum = temple
+b_bergusium_lugdunum = castle
+b_brioratis_lugdunum = city
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_ludna_lugdunum
+# b_lunna_lugdunum
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

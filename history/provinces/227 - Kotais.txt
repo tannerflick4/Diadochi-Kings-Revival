@@ -1,0 +1,20 @@
+# 227 - Kotais
+
+# County Title
+title = c_kotais
+
+# Settlements
+max_settlements = 6
+b_kotais_kotais = castle
+b_vani_kotais = temple
+b_rhodopolis_kotais = city
+b_telephis_kotais = castle
+b_surium_kotais = city
+b_namarriu_kotais = temple
+
+# Misc
+culture = georgian
+religion = georgian_main
+
+# History
+# Can be filled when things change around the province

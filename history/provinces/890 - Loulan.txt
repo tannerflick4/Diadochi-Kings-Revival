@@ -1,0 +1,16 @@
+# 890 - Loulan
+
+# County Title
+title = c_loulan
+
+# Settlements
+max_settlements = 2
+
+b_loulan_loulan = castle # Kroran
+b_moshan_loulan = city
+
+culture = tocharian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

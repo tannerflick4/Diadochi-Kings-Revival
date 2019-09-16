@@ -1,0 +1,17 @@
+# 628 - Crestonia
+
+# County Title
+title = c_crestonia
+
+# Settlements
+max_settlements = 4
+b_herakleia_sintike_crestonia = castle
+b_berge_crestonia = castle
+b_sirra_crestonia = city
+b_skotoussa_crestonia = city
+
+# Misc
+culture = macedonian
+religion = greek_main
+
+# History

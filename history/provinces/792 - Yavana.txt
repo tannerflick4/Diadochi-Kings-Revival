@@ -1,0 +1,18 @@
+# 792 - Yavana
+
+# County Title
+title = c_yavana
+
+# Settlements
+max_settlements = 4
+b_yavana_yavana = castle
+b_arigaion_yavana = castle
+b_peukelaotis_yavana = city
+b_purushapura_yavana = castle
+
+# Misc
+culture = gandhari
+religion = buddhism_main
+
+# History
+# Can be filled when things change around the province

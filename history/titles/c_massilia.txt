@@ -1,0 +1,9 @@
+399.1.1 = { # 377 BC
+	holder = 51503
+}
+441.1.1 = { # 335 BC
+	holder = 51501 # Heliodoros of Massilia
+}
+461.1.1 = {
+	holder = 51502
+}

@@ -1,0 +1,20 @@
+# 1215 - Brigaecium
+
+# County Title
+title = c_brigaecium
+
+# Settlements
+max_settlements = 1
+b_brigaecium_brigaecium= castle
+
+# Misc
+culture = celtiberian
+religion = celtic_main
+
+
+
+
+
+
+# History
+# Can be filled when things change around the province

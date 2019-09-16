@@ -1,0 +1,18 @@
+# 73 - Ratiaria
+
+# County Title
+title = c_ratiaria
+
+# Settlements
+max_settlements = 4
+b_ratiaria_ratiaria = castle
+b_bononia_ratiaria = city
+b_almus_ratiaria = temple
+b_romuliana_ratiaria = castle
+
+# Misc
+culture = thracian
+religion = thracian_main
+
+# History
+# Can be filled when things change around the province

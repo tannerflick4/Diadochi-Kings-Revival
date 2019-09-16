@@ -1,0 +1,14 @@
+# 421201-421300 for the Uakkaioi dynasty
+421201 = {
+	name = "Tirtanos" # Made up Vaccaei leader
+	dynasty = 42013
+	culture = celtiberian
+	religion = celtic_main
+	
+	385.1.1 = { # 391 BC, Made up
+		birth="yes"
+	}
+	466.1.1 = { # 309 BC
+		death="yes"
+	}
+}

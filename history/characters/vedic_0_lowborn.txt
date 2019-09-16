@@ -1,0 +1,31 @@
+# 129901-130000 for the Lowborns
+129901 = {
+	name = "Durdhara" # Chandragupta's wife
+	religion = hinduism_main
+	culture = vedic
+	female = yes
+	436.1.1 = { # 340 BC Made up
+		birth="yes"
+	}
+	453.1.1 = { # 323 BC
+		add_spouse = 120301
+	}
+	504.1.2 = { # 320 BC
+		death="yes"
+	}
+}
+129902 = {
+	name = "Dharma" # Wife of Bindusara
+	religion = hinduism_main
+	culture = vedic
+	female = yes
+	456.1.1 = { # 320 BC
+		birth="yes"
+	}
+	472.1.1 = { # 304 BC
+		add_spouse = 120302
+	}
+	503.1.1 = { # 273 BC
+		death="yes"
+	}
+}

@@ -1,0 +1,9 @@
+413.1.1 = { # 363 BC
+	holder = 52403 # Nikandros
+}
+447.1.1 = { # 329 BC, Made up
+	holder = 52401 # Nikephoros
+}
+481.1.1 = { # 295 BC, Made up
+	holder = 52402 # Theodoros
+}

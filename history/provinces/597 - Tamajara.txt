@@ -1,0 +1,16 @@
+# 597 - Tamajara
+
+# County Title
+title = c_tamajara
+
+# Settlements
+max_settlements = 2
+b_tamajara_tamajara = castle
+b_raognapruha_tamajara = city
+
+# Misc
+culture = scythian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

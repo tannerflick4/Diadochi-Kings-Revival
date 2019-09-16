@@ -1,0 +1,17 @@
+# 928 - Mirobriga
+
+# County Title
+title = c_mirobriga
+
+# Settlements
+max_settlements = 3
+b_mirobirga_mirobriga = castle
+b_baedro_mirobriga = castle
+b_solia_mirobriga = temple
+
+# Misc
+culture = celtiberian
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

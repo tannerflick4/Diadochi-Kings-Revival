@@ -1,0 +1,19 @@
+# 96 - Ancyra
+
+# County Title
+title = c_ancyra # for example c_corinth
+
+# Settlements
+max_settlements = 5
+b_ancyra_ancyra = castle
+b_malos_ancyra = temple
+b_androna_ancyra = city
+b_gorbeus_ancyra = castle
+b_ikotorion_ancyra = castle
+
+# Misc
+culture = phrygian
+religion = phrygian_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,39 @@
+# 231001-231100 for the Vocontii dynasty
+231001 = {
+	name = "Vercingetorix" # Made up
+	dynasty = 23012 # Vocontii
+	culture = gaul
+	religion = celtic_main
+	381.1.1 = { # Made up
+		birth="yes" # 395 BC
+	}
+	470.1.1 = { # Made up
+		death="yes" # 306 BC
+	}
+}
+231002 = {
+	name = "Eporedix" # Vocontii Made up
+	dynasty = 23012 # Vocontii
+	culture = gaul
+	religion = celtic_main
+	father = 231001
+	402.1.1 = { # 374 BC
+		birth="yes"
+	}
+	479.1.1 = { # 297 BC
+		death="yes"
+	}
+}
+231003 = {
+	name = "Indutiomaros" # Vocontii Made up
+	dynasty = 23012 # Vocontii
+	culture = gaul
+	religion = celtic_main
+	father = 231002
+	427.1.1 = { # 349 BC
+		birth="yes"
+	}
+	498.1.1 = { # 278 BC
+		death="yes"
+	}
+}

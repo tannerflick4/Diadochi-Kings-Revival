@@ -1,0 +1,16 @@
+# 660 - Anuradhapura
+
+# County Title
+title = c_anuradhapura
+
+# Settlements
+max_settlements = 2
+b_anuradhapura_anuradhapura = castle
+b_sigiriya_anuradhapura = castle
+
+# Misc
+culture = sinhala
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

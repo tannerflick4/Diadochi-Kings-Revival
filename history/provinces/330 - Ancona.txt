@@ -1,0 +1,24 @@
+# 330 - Ancona
+
+# County Title
+title = c_ancona # for example c_corinth
+
+# Settlements
+max_settlements = 6 # Should be reevaluated
+b_ancona_ancona = castle
+b_firmum_ancona = city
+b_sentium_ancona = castle
+b_faleria_ancona = temple
+
+# Possible baronies: (Always add a # in front of a line with these!)
+#
+#
+#
+#
+
+# Misc
+culture = picene
+religion = roman_main
+
+# History
+# Can be filled when things change around the province

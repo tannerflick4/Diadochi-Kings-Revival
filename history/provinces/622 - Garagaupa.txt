@@ -1,0 +1,16 @@
+# 622 - Garagaupa
+
+# County Title
+title = c_garagaupa
+
+# Settlements
+max_settlements = 2
+b_garugaupa_garugaupa = castle
+b_garaska_garugaupa = city
+
+# Misc
+culture = chorasmian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

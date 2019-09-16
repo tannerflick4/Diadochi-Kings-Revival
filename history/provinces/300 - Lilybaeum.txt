@@ -1,0 +1,18 @@
+# 300 - Lilybaeum
+
+# County Title
+title = c_lilybaeum # for example c_corinth
+
+# Settlements
+max_settlements = 4
+b_motya_lilybaeum = city
+b_lilybaeum_lilybaeum = castle
+b_drepanum_lilybaeum = city
+b_eryx_lilybaeum = castle
+
+# Misc
+culture = punic
+religion = punic_main
+
+# History
+# Can be filled when things change around the province

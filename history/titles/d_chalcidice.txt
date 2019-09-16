@@ -1,0 +1,9 @@
+405.1.1 = { # 371 BC
+	holder = 53001
+}
+428.1.1 = { # 348 BC
+	holder = 0
+}
+440.10.1 = { # 336 BC, Philip II dies
+	de_jure_liege = k_macedon
+}

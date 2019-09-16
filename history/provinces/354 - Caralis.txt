@@ -1,0 +1,23 @@
+# 354 - Caralis
+
+# County Title
+title = c_caralis # for example c_corinth
+
+# Settlements
+max_settlements = 6 # Should be reevaluated
+b_pupullum_caralis = city
+b_caralis_caralis = castle
+b_nora_caralis = temple
+
+# Possible baronies: (Always add a # in front of a line with these!)
+#
+#
+#
+#
+
+# Misc
+culture = punic
+religion = punic_main
+
+# History
+# Can be filled when things change around the province

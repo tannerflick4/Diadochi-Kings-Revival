@@ -1,0 +1,19 @@
+# 109 - Lystra
+
+# County Title
+title = c_lystra # for example c_corinth
+
+# Settlements
+max_settlements = 5
+b_lystra_lystra = castle
+b_kilistra_lystra = castle
+b_korna_lystra = city
+b_taspa_lystra = city
+b_kodylessos_lystra = castle
+
+# Misc
+culture = luwian
+religion = anatolian_main
+
+# History
+# Can be filled when things change around the province

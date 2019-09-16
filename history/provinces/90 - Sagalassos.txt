@@ -1,0 +1,21 @@
+# 90 - Sagalassos
+
+# County Title
+title = c_sagalassos
+
+# Settlements
+max_settlements = 5
+b_sagalassos_sagalassos = castle
+b_apollonia_sagalassos = temple
+b_parlais_sagalassos = city
+b_konana_sagalassos = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_seleukeia_sagalassos
+
+# Misc
+culture = luwian
+religion = anatolian_main
+
+# History
+# Can be filled when things change around the province

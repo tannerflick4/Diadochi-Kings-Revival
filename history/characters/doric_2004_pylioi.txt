@@ -1,0 +1,26 @@
+# 20301-20400 for the Pylioi dynasty
+20301 = {
+	name = "Hilarion" # Syracuse
+	dynasty = 2004 # Pylioi
+	religion = greek_main
+	culture = doric
+	393.1.1 = { # 383 BC Made up
+		birth="yes"
+	}
+	469.1.1 = { # 307 BC Made up
+		death="yes"
+	}
+}
+20302 = {
+	name = "Kleon" # Syracuse
+	dynasty = 2004 # Pylioi
+	religion = greek_main
+	culture = doric
+	father = 20301
+	436.1.1 = { # 340 BC Made up
+		birth="yes"
+	}
+	491.1.1 = { # 285 BC Made up
+		death="yes"
+	}
+}

@@ -1,0 +1,4 @@
+475.1.1 = { # 301 BC
+	holder = 3301
+	liege = k_odrysia
+}

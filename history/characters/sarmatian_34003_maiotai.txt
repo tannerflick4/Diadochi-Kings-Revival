@@ -1,0 +1,26 @@
+# 340201-340300 for the Maiotai dynasty
+340201 = {
+	name = "Idanthyrsus" # Made up
+	dynasty = 34003 # Maiotai
+	religion = scythian_main
+	culture = sarmatian
+	father = 340202
+	430.1.1 = { # 346 BC
+		birth="yes"
+	}
+	515.1.1 = { # 261 BC
+		death="yes"
+	}
+}
+340202 = {
+	name = "Spalahores" # Made up
+	dynasty = 34003 # Maiotai
+	religion = scythian_main
+	culture = sarmatian
+	400.1.1 = { # 376 BC
+		birth="yes"
+	}
+	453.1.1 = { # 323 BC
+		death="yes"
+	}
+}

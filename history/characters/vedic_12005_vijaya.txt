@@ -1,0 +1,43 @@
+# 120401-120500 for the Vijaya dynasty
+120401 = {
+	name = "Pandukabhaya" # Founder of the Anuradhapura kKingdom
+	dynasty = 12143
+	religion = hinduism_main
+	culture = sinhala
+	
+	add_trait = humble
+	
+	302.1.1 = { # 474 BC
+		birth="yes"
+	}
+	409.1.1 = { # 367 BC
+		death="yes"
+	}
+}
+120402 = {
+	name = "Mutasiva"
+	dynasty = 12143
+	religion = hinduism_main
+	culture = sinhala
+	father = 120401
+	383.1.1 = { # 393 BC made up
+		birth="yes"
+	}
+	469.1.1 = { # 307 BC
+		death="yes"
+	}
+}
+120403 = {
+	name = "Devanampiya Tissa"
+	dynasty = 12143
+	religion = hinduism_main
+	culture = sinhala
+	father = 120402
+	439.1.1 = { # 337 BC made up
+		birth="yes"
+	}
+	
+	509.1.1 = { # 267 BC
+		death="yes"
+	}
+}

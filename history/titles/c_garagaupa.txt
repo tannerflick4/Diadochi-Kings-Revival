@@ -1,0 +1,10 @@
+408.1.1 = { # 368 BC
+	holder = 3306023 # Pharsman
+	liege = k_khiva
+}
+438.1.1 = { # 338 BC
+	holder = 3306021 # Phrataphernes
+}
+479.1.1 = { # 297 BC
+	holder = 3306022 # Pharsman
+}

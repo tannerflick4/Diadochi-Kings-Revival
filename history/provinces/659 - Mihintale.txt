@@ -1,0 +1,17 @@
+# 659 - Mihintale
+
+# County Title
+title = c_mihintale
+
+# Settlements
+max_settlements = 3
+b_mihintale_mihintale = castle
+b_gokanna_mihintale = city
+b_nagadiba_mihintale = city
+
+# Misc
+culture = sinhala
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

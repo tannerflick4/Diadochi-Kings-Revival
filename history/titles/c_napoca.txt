@@ -1,0 +1,12 @@
+397.1.1 = { # 379 BC
+	holder = 270704 # Comosicus
+}
+429.1.1 = { # 347 BC
+	holder = 270703 # Diurpaneus
+}
+446.1.1 = { # 330 BC
+	holder = 270701 # Tarbus of the Ansamenses
+}
+463.1.1 = { # 313 BC
+	holder = 270702 # Decaeneus
+}

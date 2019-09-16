@@ -1,0 +1,18 @@
+# 462 - Thialemath
+
+# County Title
+title = c_thialemath
+
+# Settlements
+max_settlements = 3
+b_thialemath_thialemath = castle
+b_macala_thialemath = city
+b_dela_thialemath = temple
+#b_abifama_thialemath = city
+
+# Misc
+culture = arabic
+religion = arabic_main
+
+# History
+# Can be filled when things change around the province

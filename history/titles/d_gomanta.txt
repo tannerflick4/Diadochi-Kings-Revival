@@ -1,0 +1,9 @@
+416.1.1 = { # 360 BC
+	holder = 121101 # Avinita
+}
+474.1.1 = { # 302 BC
+	holder = 121102 # Shivamara
+}
+482.1.1 = { # 294 BC
+	liege = e_india
+}

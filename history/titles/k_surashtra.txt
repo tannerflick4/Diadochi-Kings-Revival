@@ -1,0 +1,12 @@
+407.1.1 = { # 369 BC
+	holder = 120202 # Gopinatha
+}
+451.1.1 = { # 325 BC
+	holder = 120201 # Pitambara
+}
+476.1.1 = { # 300 BC
+	liege = e_india
+}
+481.1.1 = {
+	holder = 120203 # Bhishma
+}

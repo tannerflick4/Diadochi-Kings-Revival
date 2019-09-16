@@ -1,0 +1,18 @@
+# 403 - Pelendava
+
+# County Title
+title = c_pelendava
+
+# Settlements
+max_settlements = 4
+b_pelendava_pelendava = castle
+b_calarasi_pelendava = city
+b_sucidava_pelendava = city
+b_cotofeni_pelendava = castle
+
+# Misc
+culture = dacian
+religion = zalmoxism
+
+# History
+# Can be filled when things change around the province

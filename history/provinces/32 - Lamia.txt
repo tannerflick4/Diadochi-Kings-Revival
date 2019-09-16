@@ -1,0 +1,19 @@
+# 32 - Lamia
+
+# County Title
+title = c_lamia # for example c_corinth
+
+# Settlements
+max_settlements = 5
+b_pherai_lamia = castle
+b_lamia_lamia = castle
+b_iton_lamia = temple
+b_pharsalus_lamia = city
+b_proerna_lamia = city
+
+# Misc
+culture = aeolian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

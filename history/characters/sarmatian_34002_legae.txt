@@ -1,0 +1,26 @@
+# 340101-340200 for the Legae dynasty
+340101 = {
+	name = "Palacus" # Made up
+	dynasty = 34002 # Legae
+	religion = scythian_main
+	culture = sarmatian
+	father = 340102
+	430.1.1 = { # 346 BC
+		birth="yes"
+	}
+	507.1.1 = { # 269 BC
+		death="yes"
+	}
+}
+340102 = {
+	name = "Scyles" # Made up
+	dynasty = 34002 # Legae
+	religion = scythian_main
+	culture = sarmatian
+	398.1.1 = { # 378 BC
+		birth="yes"
+	}
+	445.1.1 = { # 331 BC
+		death="yes"
+	}
+}

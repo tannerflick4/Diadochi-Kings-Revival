@@ -1,0 +1,39 @@
+# 320601-330700 for the Leantini dynasty
+320601 = {
+	name = "Adnun" # Gerrha, Made up
+	dynasty = 32007 # Leantini
+	culture = arabic
+	religion = arabic_main
+	father = 320603
+	428.1.1 = {
+		birth="yes" # 348 BC Made up
+	}
+	459.1.1 = {
+		death="yes" # 317 BC Made up
+	}
+}
+320602 = {
+	name = "Wabab-Allah" # Gerrha, Made up
+	dynasty = 32007 # Leantini
+	culture = arabic
+	religion = arabic_main
+	father = 320601
+	447.1.1 = {
+		birth="yes" # 329 BC, Made up
+	}
+	505.1.1 = {
+		death="yes" # 271 BC, Made up
+	}
+}
+320603 = {
+	name = "Zabin" # Gerrha Made up
+	dynasty = 32007 # Leantini
+	culture = arabic
+	religion = arabic_main
+	395.1.1 = { # 381 BC made up
+		birth="yes"
+	}
+	447.1.1 = { # 329 BC
+		death="yes"
+	}
+}

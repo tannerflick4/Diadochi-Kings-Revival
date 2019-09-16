@@ -1,0 +1,37 @@
+# 9001-10000 for persian dynasties
+9001 = {
+	name = "Aturpat"
+	culture = persian
+}
+9002 = {
+	name = "Phrataphernes"
+	culture = persian
+}
+9003 = {
+	name = "Artabazus"
+	culture = persian
+}
+9004 = {
+	name = "Haxamanisiya"
+	culture = persian
+}
+9005 = {
+	name = "Arminai"
+	culture = persian
+}
+9006 = {
+	name = "Sabaces"
+	culture = persian
+}
+9007 = {
+	name = "Mazaces"
+	culture = persian
+}
+9008 = {
+	name = "Barsaentes"
+	culture = persian
+}
+9009 = {
+	name = "Bagadata"
+	culture = persian
+}

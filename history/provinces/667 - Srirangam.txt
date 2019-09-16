@@ -1,0 +1,16 @@
+# 667 - Srirangam 
+
+# County Title
+title = c_srirangam
+
+# Settlements
+max_settlements = 2
+b_srirangam_srirangam = castle
+b_bata_srirangam = castle
+
+# Misc
+culture = tamil
+religion = jainism_main
+
+# History
+# Can be filled when things change around the province

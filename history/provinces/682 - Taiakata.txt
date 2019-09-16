@@ -1,0 +1,18 @@
+# 682 - Taiakata
+
+# County Title
+title = c_taiakata
+
+# Settlements
+max_settlements = 4
+b_taiakata_taiakata = castle
+b_mandagara_taiakata = city
+b_toparon_taiakata = castle
+b_milizigeris_taiakata = city
+
+# Misc
+culture = kannada
+religion = dravidian_main
+
+# History
+# Can be filled when things change around the province

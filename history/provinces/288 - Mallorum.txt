@@ -1,0 +1,15 @@
+# 288 - Mallorum
+
+# County Title
+title = c_mallorum
+
+# Settlements
+max_settlements = 1
+b_mulasthana_mallorum = castle
+
+# Misc
+culture = shauraseni
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

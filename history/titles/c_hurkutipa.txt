@@ -1,0 +1,11 @@
+376.1.1 = { # 400 BC
+	holder = 330602 # Ateas
+	liege = k_katipa
+}
+437.1.1 = { # 339 BC
+	holder = 340202 # Spalahores
+	liege = k_kissarlewle
+}
+453.1.1 = { # 323 BC
+	holder = 340201 # Idanthyrsus
+}

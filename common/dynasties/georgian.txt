@@ -1,0 +1,13 @@
+# 7001-8000 for georgian dynasties
+7001 = {
+	name = "Parnavazi"
+	culture = georgian
+}
+7002 = {
+	name = "Azo"
+	culture = georgian
+}
+7003 = {
+	name = "Aieti"
+	culture = georgian
+}

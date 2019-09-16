@@ -1,0 +1,52 @@
+# 260301-260400 for the Garamantes dynasty
+260301 = { 
+	name = "Axerus"
+	dynasty = 26004
+	religion = berber_main
+	culture = berber
+	384.1.1 = { # 392 BC, Made up
+		birth="yes"
+	}
+	460.1.1 = { # 316 BC, Made up
+		death="yes"
+	}
+}
+260302 = { 
+	name = "Bagaius"
+	dynasty = 26004
+	religion = berber_main
+	culture = berber
+	father = 260301
+	418.1.1 = { # 358 BC, Made up
+		birth="yes"
+	}
+	462.1.1 = { # 314 BC, Made up
+		death="yes"
+	}
+}
+260303 = { 
+	name = "Siphales"
+	dynasty = 26004
+	religion = berber_main
+	culture = berber
+	father = 260302
+	445.1.1 = { # 331 BC, Made up
+		birth="yes"
+	}
+	512.1.1 = { # 264 BC, Made up
+		death="yes"
+	}
+}
+260304 = { 
+	name = "Bagaius"
+	dynasty = 26004
+	religion = berber_main
+	culture = berber
+	father = 260303
+	474.1.1 = { # 302 BC, Made up
+		birth="yes"
+	}
+	528.1.1 = { # 248 BC, Made up
+		death="yes"
+	}
+}

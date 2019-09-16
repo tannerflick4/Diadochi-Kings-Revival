@@ -1,0 +1,18 @@
+# 169 - Auara
+
+# County Title
+title = c_auara
+
+# Settlements
+max_settlements = 4
+b_auara_auara = castle
+b_aramaua_auara = temple
+b_makna_auara = city
+b_ankale_auara = castle
+
+# Misc
+culture = nabataean
+religion = arabic_main
+
+# History
+# Can be filled when things change around the province

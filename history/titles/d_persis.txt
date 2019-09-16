@@ -1,0 +1,22 @@
+468.1.1 = {
+	holder = 1001 # Seleukos
+}
+482.1.1 = {
+	holder = 1002 # Antiochos
+}
+483.1.1 = {
+	holder = 90801 # Bagadata
+	liege = k_s_persia
+}
+495.8.1 = { # 281 BC
+	liege = e_syria
+}
+496.1.1 = { # 280 BC
+	liege = 0
+}
+498.1.1 = { # 278 BC
+	holder = 90801 # Oborzos
+}
+500.1.1 = { # 276 BC
+	holder = 1002 # Antiochos	
+}

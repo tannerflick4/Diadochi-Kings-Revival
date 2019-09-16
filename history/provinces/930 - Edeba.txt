@@ -1,0 +1,19 @@
+# 930 - Edeba
+
+# County Title
+title = c_edeba
+
+# Settlements
+max_settlements = 5
+b_edeba_edeba = castle
+b_mentesa_edeba = temple
+b_ilugo_edeba = castle
+#b_baesucci_edeba = castle
+#b_baecula_edeba = castle
+
+# Misc
+culture = celtiberian
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

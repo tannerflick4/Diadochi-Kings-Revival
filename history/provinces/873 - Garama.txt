@@ -1,0 +1,17 @@
+# 873 - Garama
+
+# County Title
+title = c_garama
+
+# Settlements
+max_settlements = 4
+b_garama_garama = castle
+b_tinda_garama = city
+b_lecksair_garama = temple
+
+# Misc
+culture = berber
+religion = berber_main
+
+# History
+# Can be filled when things change around the province

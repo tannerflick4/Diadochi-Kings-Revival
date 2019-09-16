@@ -1,0 +1,6 @@
+# 24001-25000 for Sogdian dynasties
+
+24001 = {
+	name = "Spitamenes"
+	culture = sogdian
+}

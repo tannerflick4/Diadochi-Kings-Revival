@@ -1,0 +1,18 @@
+# 839 - Zela
+
+# County Title
+title = c_zela
+
+# Settlements
+max_settlements = 4
+b_zela_zela = castle
+b_komana_zela = temple
+b_dadasa_zela = castle
+b_syderos_zela = city
+
+# Misc
+culture = cappadocian
+religion = anatolian_main
+
+# History
+# Can be filled when things change around the province

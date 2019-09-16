@@ -1,0 +1,45 @@
+226.1.1 = {
+	holder = 90301 # Cyrus the Great
+}
+246.12.1 = {
+	holder = 90302 # Cambyses II
+}
+254.1.1 = {
+	holder = 90303 # Bardiya
+}
+255.1.1 = {
+	holder = 90305 # Darius the Great
+}
+290.10.1 = {
+	holder = 90306 # Xerxes the Great
+}
+311.1.1 = {
+	holder = 90307 # Artaxerxes I
+}
+352.12.25 = {
+	holder = 90308 # Xerxes II
+}
+353.2.1 = {
+	holder = 90309 # Sogdianus
+}
+353.8.1 = {
+	holder = 90310 # Darius II
+}
+370.1.1 = {
+	holder = 90311 # Artaxerxes II
+}
+418.1.1 = {
+	holder = 90312 # Artaxerxes III
+}
+438.9.25 = {
+	holder = 90313 # Artaxerxes IV
+}
+440.1.1 = {
+	holder = 90314 # Darius III
+}
+446.1.1 = {
+	holder = 90320 # Artaxerxes V 'Bessus'
+}
+447.7.1 = { # 329 BC
+	holder = 0
+}

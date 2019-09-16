@@ -1,0 +1,18 @@
+# 231 - Spandaran
+
+# County Title
+title = c_spandaran
+
+# Settlements
+max_settlements = 4
+b_spandaran_sparandaran = castle
+b_balanrot_spandaran = temple
+b_warthan_sparandaran = city
+b_mish_sparandaran = castle
+
+# Misc
+culture = median
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

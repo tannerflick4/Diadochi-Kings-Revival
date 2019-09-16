@@ -1,0 +1,7 @@
+412.1.1 = {
+	liege = d_r_byzantion
+	holder = 21001
+}
+472.1.1 = {
+	holder = 20702
+}

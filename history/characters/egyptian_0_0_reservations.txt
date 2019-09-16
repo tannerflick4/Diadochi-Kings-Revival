@@ -1,0 +1,4 @@
+# 350001-360000 for Egyptian characters
+	# 350001-350015 for the Nakhthorheb dynasty ("30th dynasty")
+	# 350016-350030 for the Nepherites/Nefaarud ("29th dynasty")
+	# 350031-350100 for the Augilai

@@ -1,0 +1,22 @@
+# 1801-1900 for the Silenidai dynasty
+1801 = {
+	name = "Ophellas" # Governor of Cyrene
+	dynasty = 19 # Silenidai
+	religion = greek_main
+	culture = macedonian
+	
+	add_trait = ambitious
+	add_trait = tough_soldier
+	
+	420.1.1 = { # 356 BC Made up
+		birth="yes"
+	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	468.1.1 = { # 308 BC
+		death = {
+			death_reason = death_battle
+		}
+	}
+}

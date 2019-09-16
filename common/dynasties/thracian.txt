@@ -1,0 +1,17 @@
+# 4001-5000 for thracian dynasties
+4001 = {
+	name = "Bithyni"
+	culture = thracian
+}
+4002 = {
+	name = "Odrysae"
+	culture = thracian
+}
+4003 = {
+	name = "Getae"
+	culture = thracian
+}
+4004 = {
+	name = "Triballi"
+	culture = thracian
+}

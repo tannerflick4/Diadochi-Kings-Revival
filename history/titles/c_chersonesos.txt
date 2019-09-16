@@ -1,0 +1,9 @@
+395.1.1 = { # 381 BC
+	holder = 52604 # Dionysios
+}
+434.1.1 = { # 342 BC
+	holder = 52603 # Prytanis
+}
+451.1.1 = { # 325 BC, Made up
+	holder = 52601 # Eukleides
+}

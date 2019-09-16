@@ -1,0 +1,13 @@
+# 90601-90700 for the Mazaces dynasty
+90601 = {
+	name = "Mazaces" # Last Persian satrap of Egypt
+	dynasty = 9007 # Mazaces
+	religion = zoroastrian_main
+	culture = persian
+	403.1.1 = { # 373 BC made up
+		birth="yes"
+	}
+	453.1.1 = { # 323 BC made up
+		death="yes"
+	}
+}

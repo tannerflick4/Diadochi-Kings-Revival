@@ -1,0 +1,15 @@
+# 90501-90600 for the Sabaces dynasty
+90501 = {
+	name = "Sabaces" # Satrap of Egypt to 333 BC
+	dynasty = 9006 # Sabaces
+	religion = zoroastrian_main
+	culture = persian
+	403.1.1 = { # 373 BC made up
+		birth="yes"
+	}
+	443.1.1 = { # 333 BC
+		death = {
+			death_reason = death_battle
+		}
+	}
+}

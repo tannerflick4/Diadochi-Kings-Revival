@@ -1,0 +1,39 @@
+# 230401-230500 for the Eravisci dynasty
+230401 = {
+	name = "Donnotaurus" # Eravisci leader, made up
+	dynasty = 23006 # Eravisci
+	culture = gaul
+	religion = celtic_main
+	father = 230402
+	438.1.1 = {
+		birth="yes" # 338 BC, Made up
+	}
+	496.1.1 = {
+		death="yes" # 280 BC, Made up 
+	}
+}
+230402 = {
+	name = "Eporedix" # Eravisci, Made up
+	dynasty = 23006 # Eravisci
+	culture = gaul
+	religion = celtic_main
+	father = 230403
+	418.1.1 = {
+		birth="yes" # 358 BC
+	}
+	443.1.1 = {
+		death="yes" # 333 BC
+	}
+}
+230403 = {
+	name = "Divisiacus" # Eravisci, Made up
+	dynasty = 23006 # Eravisci
+	culture = gaul
+	religion = celtic_main
+	383.1.1 = {
+		birth="yes" # 393 BC
+	}
+	436.1.1 = {
+		death="yes" # 340 BC
+	}
+}

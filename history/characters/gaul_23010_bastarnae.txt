@@ -1,0 +1,39 @@
+# 230801-230900 for the Bastarnae dynasty
+230801 = {
+	name = "Acco" # Made up
+	dynasty = 23010 # Bastarnae
+	culture = gaul
+	religion = celtic_main
+	father = 230803
+	421.1.1 = { # 355 BC
+		birth = "421.1.1"
+	}
+	470.1.1 = { # 306 BC
+		death = "470.1.1" 
+	}
+}
+230802 = {
+	name = "Liscus" # Bastarnae, made up
+	dynasty = 23010 # Bastarnae
+	culture = gaul
+	religion = celtic_main
+	father = 230801
+	448.1.1 = { # 328 BC
+		birth="yes"
+	}
+	511.1.1 = { # 265 BC
+		death="yes"
+	}
+}
+230803 = {
+	name = "Teutomatus" # Made up
+	dynasty = 23010 # Bastarnae
+	culture = gaul
+	religion = celtic_main
+	379.1.1 = {
+		birth="yes" # 397 BC Made Up
+	}
+	451.1.1 = {
+		death="yes" # 325 BC Made Up
+	}
+}

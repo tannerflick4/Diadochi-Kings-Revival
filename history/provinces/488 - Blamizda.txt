@@ -1,0 +1,16 @@
+# 488 - Blamizda
+
+# County Title
+title = c_blamizda
+
+# Settlements
+max_settlements = 2
+b_blamizda_blamizda = castle
+b_jaraca_blamizda = temple
+
+# Misc
+culture = sarmatian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

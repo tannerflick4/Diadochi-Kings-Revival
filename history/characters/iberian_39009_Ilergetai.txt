@@ -1,0 +1,14 @@
+# 390801-390900 for the Ilergetae dynasty
+390801 = {
+	name = "Armitalsko" # Made up Ilergetae leader
+	dynasty = 39009
+	culture = iberian
+	religion = iberian_main
+	
+	383.1.1 = { # 393 BC, Made up
+		birth="yes"
+	}
+	464.1.1 = { # 312 BC
+		death="yes"
+	}
+}

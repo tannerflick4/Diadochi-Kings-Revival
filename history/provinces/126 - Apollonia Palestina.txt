@@ -1,0 +1,18 @@
+# 126 - Apollonia
+
+# County Title
+title = c_apollonia_israel
+
+# Settlements
+max_settlements = 4
+b_dora_apollonia_israel = castle
+b_apollonia_apollonia_israel = temple
+b_jaffa_apollonia_israel = city
+b_husifa_apollonia_israel = castle
+
+# Misc
+culture = israelite
+religion = judaism_main
+
+# History
+# Can be filled when things change around the province

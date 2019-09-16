@@ -1,0 +1,17 @@
+417.1.1 = {
+	holder = 60003 # Ariamnes
+	liege = k_p_cappadocia
+}
+426.1.1 = {
+	holder = 60101 # Mithrobuzanes
+}
+442.1.1 = {
+	holder = 60001 # Ariarathes, King of Cappadocia
+}
+444.1.1 = { # 332 BC
+	holder = 51801 # Ploutarchos, Made up
+	liege = 0
+}
+462.1.1 = {
+	holder = 51802 # Pelagios, Made up
+}

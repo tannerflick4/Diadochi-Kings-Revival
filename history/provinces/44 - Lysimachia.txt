@@ -1,0 +1,21 @@
+# 44 - Lysimachia
+
+# County Title
+title = c_lysimachia # for example c_corinth
+
+# Settlements
+max_settlements = 4
+b_perinthus_lysimachia = castle
+b_aproi_lysimachia = castle
+b_bisanthe_lysimachia = city
+b_deris_lysimachia = city
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_lysimachia_lysimachia
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,16 @@
+# 778 - Kognabanda
+
+# County Title
+title = c_kognabanda
+
+# Settlements
+max_settlements = 2
+b_kognabanda_kognabanda = castle
+b_vidisa_kognabanda = city
+
+# Misc
+culture = maharashtri
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

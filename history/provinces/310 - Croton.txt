@@ -1,0 +1,22 @@
+# 310 - Croton
+
+# County Title
+title = c_croton # for example c_corinth
+
+# Settlements
+max_settlements = 6 # Should be reevaluated
+b_croton = castle
+b_petelia_croton = city
+
+# Possible baronies: (Always add a # in front of a line with these!)
+#
+#
+#
+#
+
+# Misc
+culture = oscan
+religion = roman_main
+
+# History
+# Can be filled when things change around the province

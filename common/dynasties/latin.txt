@@ -1,0 +1,110 @@
+# 17001-18000 for Latin dynasties
+
+17001 = {
+	name = "Sulpicii"
+	culture = latin
+}
+17002 = {
+	name = "Papirii"
+	culture = latin
+}
+17003 = {
+	name = "Furii"
+	culture = latin
+}
+17004 = {
+	name = "Fabii"
+	culture = latin
+}
+17005 = {
+	name = "Poetelii"
+	culture = latin
+}
+17006 = {
+	name = "Veturii"
+	culture = latin
+}
+17007 = {
+	name = "Folii"
+	culture = latin
+}
+17008 = {
+	name = "Iunii"
+	culture = latin
+}
+17009 = {
+	name = "Nautii"
+	culture = latin
+}
+17010 = {
+	name = "Valerii"
+	culture = latin
+}
+17011 = {
+	name = "Decii"
+	culture = latin
+}
+17012 = {
+	name = "Claudii"
+	culture = latin
+}
+17013 = {
+	name = "Marcii"
+	culture = latin
+}
+17014 = {
+	name = "Postumii"
+	culture = latin
+}
+17015 = {
+	name = "Sempronii"
+	culture = latin
+}
+17016 = {
+	name = "Cornelii"
+	culture = latin
+}
+17017 = {
+	name = "Livii"
+	culture = latin
+}
+17018 = {
+	name = "Fulvii"
+	culture = latin
+}
+17019 = {
+	name = "Volumnii"
+	culture = latin
+}
+17020 = {
+	name = "Servilii"
+	culture = latin
+}
+17021 = {
+	name = "Fabricii"
+	culture = latin
+}
+17022 = {
+	name = "Aemilii"
+	culture = latin
+}
+17023 = {
+	name = "Popillii"
+	culture = latin
+}
+17024 = {
+	name = "Manlii"
+	culture = latin
+}
+17025 = {
+	name = "Maenii"
+	culture = latin
+}
+17026 = {
+	name = "Domitii"
+	culture = latin
+}
+17027 = {
+	name = "Publilii"
+	culture = latin
+}

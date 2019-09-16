@@ -1,0 +1,37 @@
+# 171101-171200 for the Claudii dynasty
+171101 = {
+	name = "Appius" # Claudius Caecus
+	dynasty = 17012 # Claudii
+	religion = roman_main
+	culture = latin
+	436.1.1 = { # 340 BC Made up
+		birth="yes"
+	}
+	503.1.1 = { # 273 BC Made up
+		death="yes"
+	}
+}
+171102 = {
+	name = "Marcus" # Claudius Marcellus
+	dynasty = 17012 # Claudii
+	religion = roman_main
+	culture = latin
+	443.1.1 = { # 333 BC Made up
+		birth="yes"
+	}
+	509.1.1 = { # 267 BC Made up
+		death="yes"
+	}
+}
+171103 = {
+	name = "Gaius" # Claudius Marcellus
+	dynasty = 17012 # Claudii
+	religion = roman_main
+	culture = latin
+	443.1.1 = { # 333 BC Made up
+		birth="yes"
+	}
+	509.1.1 = { # 267 BC Made up
+		death="yes"
+	}
+}

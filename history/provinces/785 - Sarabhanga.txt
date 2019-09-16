@@ -1,0 +1,15 @@
+# 785 - Sarabhanga
+
+# County Title
+title = c_sarabhanga
+
+# Settlements
+max_settlements = 1
+b_sarabhanga_sarabhanga = castle
+
+# Misc
+culture = maharashtri
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

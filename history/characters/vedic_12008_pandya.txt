@@ -1,0 +1,26 @@
+# 120701-120800 for the Pandya dynasty
+120701 = {
+	name = "Nedunj Cheliyan" # Made up, inspired by a real ruler
+	dynasty = 12134
+	religion = jainism_main
+	culture = tamil
+	398.1.1 = { # 378 BC
+		birth="yes"
+	}
+	466.1.1 = { # 310 BC
+		death="yes"
+	}
+}
+120702 = {
+	name = "Pudappandiyan" # Made up, inspired by a real ruler
+	dynasty = 12134
+	religion = jainism_main
+	culture = tamil
+	father = 120701
+	429.1.1 = { # 347 BC
+		birth="yes"
+	}
+	501.1.1 = { # 275 BC
+		death="yes"
+	}
+}

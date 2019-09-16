@@ -1,0 +1,19 @@
+# 104 - Syedra
+
+# County Title
+title = c_syedra # for example c_corinth
+
+# Settlements
+max_settlements = 5
+b_syedra_syedra = castle
+b_laertes_syedra = temple
+b_selinous_syedra = city
+b_marassa_syedra = castle
+b_ano_kothradis_syedra = temple
+
+# Misc
+culture = arcadian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

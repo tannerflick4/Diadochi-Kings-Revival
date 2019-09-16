@@ -1,0 +1,17 @@
+# 939 - Carthago Nova
+
+# County Title
+title = c_carthago_nova
+
+# Settlements
+max_settlements = 3
+b_mastia_carthago_nova = city
+b_baria_carthago_nova = castle
+b_tagilit_carthago_nova = castle
+
+# Misc
+culture = iberian
+religion = iberian_main
+
+# History
+# Can be filled when things change around the province

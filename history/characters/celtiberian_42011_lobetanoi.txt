@@ -1,0 +1,14 @@
+# 421001-421100 for the Lobetani dynasty
+421001 = {
+	name = "Retukenos" # Made up Lobetani leader
+	dynasty = 42011
+	culture = celtiberian
+	religion = celtic_main
+	
+	383.1.1 = { # 393 BC, Made up
+		birth="yes"
+	}
+	467.1.1 = { # 308 BC
+		death="yes"
+	}
+}

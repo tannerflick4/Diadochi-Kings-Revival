@@ -1,0 +1,16 @@
+# 678 - Tennagora
+
+# County Title
+title = c_tennagora
+
+# Settlements
+max_settlements = 2
+b_tennagora_tennagora = castle
+b_koneripatty_tennagora = castle
+
+# Misc
+culture = tamil
+religion = dravidian_main
+
+# History
+# Can be filled when things change around the province

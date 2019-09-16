@@ -1,0 +1,7 @@
+407.1.1 = { # 369 BC
+	holder = 20001
+	liege = k_sparta
+}
+467.1.1 = { # 309 BC
+	holder = 20003
+}

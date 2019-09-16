@@ -1,0 +1,18 @@
+# 114 - Tyana
+
+# County Title
+title = c_tyana # for example c_corinth
+
+# Settlements
+max_settlements = 4
+b_tyana_tyana = castle
+b_cybistra_tyana = temple
+b_andabalis_tyana = city
+b_ardistama_tyana = castle
+
+# Misc
+culture = cappadocian
+religion = anatolian_main
+
+# History
+# Can be filled when things change around the province

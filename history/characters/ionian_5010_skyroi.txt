@@ -1,0 +1,26 @@
+# 50901-51000 for the Skyroi dynasty
+50901 = {
+	name = "Perikles" # Olbia
+	dynasty = 5010 # Skyroi
+	religion = greek_main
+	culture = ionian
+	397.1.1 = { # 379 BC Made up
+		birth="yes"
+	}
+	472.1.1 = { # 304 BC Made up
+		death="yes"
+	}
+}
+50902 = {
+	name = "Alexios" # Olbia
+	dynasty = 5010 # Skyroi
+	religion = greek_main
+	culture = ionian
+	father = 50901
+	429.1.1 = { # 347 BC Made up
+		birth="yes"
+	}
+	503.1.1 = { # 273 BC Made up
+		death="yes"
+	}
+}

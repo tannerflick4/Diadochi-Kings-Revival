@@ -1,0 +1,18 @@
+# 482 - Scythian Neapolis
+
+# County Title
+title = c_scythian_neapolis
+
+# Settlements
+max_settlements = 4
+b_scythian_neapolis_scythian_neapolis = castle
+b_api_scythian_neapolis = temple
+b_kissarkol_scythian_neapolis = castle
+b_sakol_scythian_neapolis = city
+
+# Misc
+culture = scythian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

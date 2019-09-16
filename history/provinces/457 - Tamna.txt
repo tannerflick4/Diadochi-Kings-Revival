@@ -1,0 +1,18 @@
+# 457 - Tamna
+
+# County Title
+title = c_tamna
+
+# Settlements
+max_settlements = 4
+b_tamna_tamna = castle
+b_marimatha_tamna = city
+b_sarounon_tamna = temple
+b_dela_tamna = castle
+
+# Misc
+culture = arabic
+religion = arabic_main
+
+# History
+# Can be filled when things change around the province

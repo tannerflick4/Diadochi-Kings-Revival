@@ -1,0 +1,17 @@
+# 171301-171400 for the Postumii dynasty
+171301 = {
+	name = "Lucius" # Postumius Megellus
+	dynasty = 17014 # Postumii
+	religion = roman_main
+	culture = latin
+	
+	add_trait = skilled_tactician
+	add_trait = envious
+	
+	435.1.1 = { # 345 BC Made up
+		birth="yes"
+	}
+	516.1.1 = { # 260 BC Made up
+		death="yes"
+	}
+}

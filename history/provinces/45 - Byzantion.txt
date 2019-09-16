@@ -1,0 +1,20 @@
+# 45 - Byzantion
+
+# County Title
+title = c_byzantion # for example c_corinth
+
+# Settlements
+max_settlements = 4
+b_byzantion_byzantion = city
+b_chalcaea_byzantion = temple
+b_selymbria_byzantion = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_blachernae_byzantion
+
+# Misc
+culture = doric
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

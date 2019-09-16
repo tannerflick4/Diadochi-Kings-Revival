@@ -1,0 +1,20 @@
+# 1210 - Segovia
+
+# County Title
+title = c_segovia
+
+# Settlements
+max_settlements = 1
+b_segovia_segovia = castle
+
+# Misc
+culture = celtiberian
+religion = celtic_main
+
+
+
+
+
+
+# History
+# Can be filled when things change around the province

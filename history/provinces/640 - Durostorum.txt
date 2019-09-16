@@ -1,0 +1,17 @@
+# 640 - Durostorum
+
+# County Title
+title = c_durostorum
+
+# Settlements
+max_settlements = 3
+b_durostorum_durostorum = castle
+b_axiopolis_durostorum = city
+b_sucidava_durostorum = city
+
+# Misc
+culture = thracian
+religion = thracian_main
+
+# History
+# Can be filled when things change around the province

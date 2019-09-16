@@ -1,0 +1,8 @@
+405.1.1 = { # 371 BC
+	holder = 430301 # Taurocus
+	liege = d_vettones
+}
+444.1.2 = { # 332 BC
+	holder = 430302 # Leoni
+	liege = d_vettones
+}

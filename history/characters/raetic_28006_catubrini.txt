@@ -1,0 +1,52 @@
+# 280501-280600 for the Catubrini dynasty	
+280501 = {
+	name = "Tages" # Made up
+	dynasty = 28006 # Catubrini
+	religion = etruscan_main
+	culture = raetic
+	364.1.1 = {
+		birth="yes" # 412 BC
+	}
+	437.1.1 = {
+		death="yes" # 339 BC
+	}
+}
+280502 = {
+	name = "Pavle" # Made up
+	dynasty = 28006 # Catubrini
+	religion = etruscan_main
+	culture = raetic
+	father = 280501
+	389.1.1 = {
+		birth="yes" # 387 BC
+	}
+	436.1.1 = {
+		death="yes" # 340 BC
+	}
+}
+280503 = {
+	name = "Vel" # Made up
+	dynasty = 28006 # Catubrini
+	religion = etruscan_main
+	culture = raetic
+	father = 280502
+	423.1.1 = {
+		birth="yes" # 353 BC
+	}
+	490.1.1 = {
+		death="yes" # 286 BC
+	}
+}
+280504 = {
+	name = "Lar" # Made up
+	dynasty = 28006 # Catubrini
+	religion = etruscan_main
+	culture = raetic
+	father = 280503
+	450.1.1 = {
+		birth="yes" # 326 BC
+	}
+	522.1.1 = {
+		death="yes" # 254 BC
+	}
+}

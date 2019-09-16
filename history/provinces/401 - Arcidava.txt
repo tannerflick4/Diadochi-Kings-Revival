@@ -1,0 +1,18 @@
+# 401 - Arcidava
+
+# County Title
+title = c_arcidava
+
+# Settlements
+max_settlements = 4
+b_arcidava_arcidava = castle
+b_berzobis_arcidava = city
+b_aizis_arcidava = temple
+b_tibiscum_arcidava = castle
+
+# Misc
+culture = dacian
+religion = zalmoxism
+
+# History
+# Can be filled when things change around the province

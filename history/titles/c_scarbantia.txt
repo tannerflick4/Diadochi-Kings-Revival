@@ -1,0 +1,9 @@
+403.1.1 = {
+	holder = 230503 # Azili
+}
+441.1.1 = {
+	holder = 230501 # Intudiomaros of the Azili
+}
+455.1.1 = {
+	holder = 230502
+}

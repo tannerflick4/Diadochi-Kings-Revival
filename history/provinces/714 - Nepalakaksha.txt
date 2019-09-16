@@ -1,0 +1,16 @@
+# 714 - Nepalakaksha
+
+# County Title
+title = c_nepalakaksha
+
+# Settlements
+max_settlements = 2
+b_nepalakaksha_nepalakaksha = castle
+b_heorta_nepalakaksha = city
+
+# Misc
+culture = vedic # Magadhi
+religion = buddhism_main
+
+# History
+# Can be filled when things change around the province

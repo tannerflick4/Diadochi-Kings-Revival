@@ -1,0 +1,13 @@
+# 90401-90500 for the Arminai dynasty
+90401 = {
+	name = "Martiya" # Ruler of Chorsabia, Made up
+	dynasty = 9005 # Arminai
+	religion = zoroastrian_main
+	culture = persian
+	423.1.1 = { # Made up
+		birth="yes" # 353 BC
+	}
+	505.1.1 = { # Made up
+		death="yes" # 271 BC
+	}
+}

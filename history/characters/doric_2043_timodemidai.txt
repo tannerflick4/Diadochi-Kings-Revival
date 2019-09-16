@@ -1,0 +1,54 @@
+# 24201-24300 for the Timodemidai dynasty
+24201 = {
+	name = "Timodemos" # Father of Timoleon
+	dynasty = 2043 # Timodemidai
+	religion = greek_main
+	culture = doric
+	340.1.1 = { # 436 BC Made Up
+		birth="yes"
+	}
+	396.1.1 = { # 380 BC Made Up
+		death="yes"
+	}
+}
+24202 = {
+	name = "Timophanes" # Brother of Timoleon
+	dynasty = 2043 # Timodemidai
+	religion = greek_main
+	culture = doric
+	father = 24201
+	
+	add_trait = deceitful
+	
+	361.1.1 = { # 415 BC Made Up
+		birth="yes"
+	}
+	411.1.1 = { # 365 BC Made Up
+		death = {
+			death_reason = death_murder
+			killer = 24203 # Timoleon
+		}
+	}
+}
+24203 = {
+	name = "Timoleon" # Timoleon
+	dynasty = 2043 # Timodemidai
+	religion = greek_main
+	culture = doric
+	father = 24201
+	
+	add_trait = brilliant_strategist
+	add_trait = kind
+	add_trait = charitable
+	add_trait = humble
+	
+	365.1.1 = { # 411 BC
+		birth="yes"
+	}
+	411.1.1 = { # 365 BC Made Up
+		add_trait = kinslayer # Killed his brother
+	}
+	439.1.1 = { # 337 BC Made Up
+		death="yes"
+	}
+}

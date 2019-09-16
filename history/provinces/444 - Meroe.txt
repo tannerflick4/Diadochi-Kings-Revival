@@ -1,0 +1,22 @@
+# 444 - Meroe
+
+# County Title
+title = c_meroe
+
+# Settlements
+max_settlements = 6
+b_meroe_meroe = castle
+b_hafir_meroe = temple
+b_araba_meroe = city
+b_mallo_meroe = city
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_galim_meroe
+# b_darou_meroe
+
+# Misc
+culture = nubian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

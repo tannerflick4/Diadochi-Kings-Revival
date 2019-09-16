@@ -1,0 +1,21 @@
+# 162 - Darnis
+
+# County Title
+title = c_darnis
+
+# Settlements
+max_settlements = 4
+b_darnis_darnis = city
+b_naustathmos_darnis = temple
+b_chersis_darnis = city
+b_hydrax_darnis = castle
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province
+454.1.1 = { # Ophellas and the Ptolemies take over
+	b_darnis_darnis = castle
+}

@@ -1,0 +1,16 @@
+# 511 - Adapa
+
+# County Title
+title = c_adapa
+
+# Settlements
+max_settlements = 2
+b_adapa_adapa = castle
+b_navaud_adapa = city
+
+# Misc
+culture = sarmatian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

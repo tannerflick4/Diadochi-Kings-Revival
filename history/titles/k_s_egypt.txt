@@ -1,0 +1,11 @@
+446.1.1 = { # 330 BC
+	holder = 811 # Kleomenes
+	liege = e_macedonia
+}
+453.6.10 = {
+	holder = 601 # Ptolemy
+}
+467.1.1 = {
+	holder = 0
+	liege = 0
+}

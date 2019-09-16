@@ -1,0 +1,18 @@
+# 234 - Praaspa
+
+# County Title
+title = c_praaspa
+
+# Settlements
+max_settlements = 4
+b_praaspa_praaspa = castle
+b_gaunarga_praaspa = temple
+b_gabras_praaspa = city
+b_gamaraa_praaspa = city
+
+# Misc
+culture = median
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,18 @@
+# 108 - Iconium
+
+# County Title
+title = c_iconium # for example c_corinth
+
+# Settlements
+max_settlements = 4
+b_iconium_iconium = castle
+b_salarama_iconium = temple
+b_zizima_iconium = city
+b_caballucome_iconium = castle
+
+# Misc
+culture = phrygian
+religion = phrygian_main
+
+# History
+# Can be filled when things change around the province

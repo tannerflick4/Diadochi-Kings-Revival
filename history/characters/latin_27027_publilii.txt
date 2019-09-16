@@ -1,0 +1,13 @@
+# 172601-172700 for the Publilii dynasty
+172601 = {
+	name = "Quintus" # Publilius Philo
+	dynasty = 17027 # Publilii
+	religion = roman_main
+	culture = latin
+	390.1.1 = { # 386 BC Made Up
+		birth="yes"
+	}
+	475.1.1 = { # 301 BC Made Up
+		death="yes"
+	}
+}

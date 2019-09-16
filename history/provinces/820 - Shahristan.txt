@@ -1,0 +1,17 @@
+# 820 - Shahristan
+
+# County Title
+title = c_shahristan
+
+# Settlements
+max_settlements = 3
+b_shahristan_shahristan = castle
+b_karkuya_shahristan = city
+b_dahan_i_golaman_shahristan = temple
+
+# Misc
+culture = arian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

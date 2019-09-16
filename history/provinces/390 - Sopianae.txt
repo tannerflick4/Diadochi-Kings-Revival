@@ -1,0 +1,22 @@
+# 390 - Sopianae
+
+# County Title
+title = c_sopianae
+
+# Settlements
+max_settlements = 4
+b_sopianae_sopianae = castle
+b_altinum_sopianae = temple
+b_alisca_sopianae = castle
+b_iovia_sopianae = city
+
+# Misc
+culture = illyrian
+religion = illyrian_main
+
+# History
+# Can be filled when things change around the province
+476.1.1 = { # 300 BC
+	culture = gaul
+	religion = celtic_main
+}

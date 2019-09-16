@@ -1,0 +1,9 @@
+417.1.1 = {
+	holder = 370801 # Yogasena
+}
+454.1.1 = {
+	holder = 370802 # Pumiiasena
+}
+481.1.1 = {
+	holder = 370803 # Arselis
+}

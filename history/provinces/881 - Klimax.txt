@@ -1,0 +1,15 @@
+# 881 - Klimax
+
+# County Title
+title = c_klimax
+
+# Settlements
+max_settlements = 2
+b_klimax_klimax= castle
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

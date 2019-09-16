@@ -1,0 +1,6 @@
+417.1.1 = { # 359 BC
+	holder = 370101 # Murunda
+}
+466.1.1 = {
+	holder = 370102 # Sapalbiz
+}

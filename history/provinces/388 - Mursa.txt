@@ -1,0 +1,21 @@
+# 388 - Mursa
+
+# County Title
+title = c_mursa
+
+# Settlements
+max_settlements = 3
+b_mursa_mursa = castle
+b_mursella_mursa = city
+b_donatlanis_mursa = temple
+
+# Misc
+culture = illyrian
+religion = illyrian_main
+
+# History
+# Can be filled when things change around the province
+490.1.1 = { # 286 BC
+	culture = gaul
+	religion = celtic_main
+}

@@ -1,0 +1,19 @@
+# 367 - Igilgili
+
+# County Title
+title = c_igilgili
+
+# Settlements
+max_settlements = 5
+b_choba_igilgili = city
+b_igilgili_igilgili = castle
+b_chullu_igilgili = castle
+b_muslubium_igilgili = city
+b_tucca_igilgili = castle
+
+# Misc
+culture = punic
+religion = punic_main
+
+# History
+# Can be filled when things change around the province

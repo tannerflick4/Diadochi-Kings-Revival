@@ -1,0 +1,22 @@
+# 8 - kydonia
+# County Title
+title = c_kydonia # for example c_corinth
+
+# Settlements
+max_settlements = 5 # Should be reevaluated
+b_kydonia_kydonia = castle
+b_sybrita_kydonia = temple
+b_lappa_kydonia = city
+b_rhithymna_kydonia = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_eleutherna_kydonia = castle
+# b_minoa_kydonia = temple
+# b_polyrrenia_kydonia = city
+
+# Misc
+culture = doric
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

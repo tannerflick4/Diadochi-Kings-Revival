@@ -1,0 +1,18 @@
+# 918 - Hispalis
+
+# County Title
+title = c_hispalis
+
+# Settlements
+max_settlements = 4
+b_hispalis_hispalis = castle
+b_carmo_hispalis = castle
+b_basiloppo_hispalis = city
+b_oducia_hispalis = city
+
+# Misc
+culture = turdetanian
+religion = iberian_main
+
+# History
+# Can be filled when things change around the province

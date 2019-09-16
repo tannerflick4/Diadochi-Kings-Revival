@@ -1,0 +1,18 @@
+# 668 - Satyaputra
+
+# County Title
+title = c_satyaputra
+
+# Settlements
+max_settlements = 4
+b_satyaputra_satyaputra = castle
+b_nilagiri_satyaputra = temple
+b_selour_satyaputra = city
+b_kourelloura_satyaputra = castle
+
+# Misc
+culture = tamil
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

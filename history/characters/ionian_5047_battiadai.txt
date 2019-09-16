@@ -1,0 +1,39 @@
+# 54101-54200 for the Battiadai dynasty
+54101 = {
+	name = "Eukleides" # Cyrene, Made Up
+	dynasty = 5047 # Battiadai
+	religion = greek_main
+	culture = ionian
+	374.1.1 = {
+		birth="yes" # 402 BC Made Up
+	}
+	426.1.1 = {
+		death="yes" # 350 BC Made Up
+	}
+}
+54102 = {
+	name = "Zephyros" # Cyrene, Made Up
+	dynasty = 5047 # Battiadai
+	religion = greek_main
+	culture = ionian
+	father = 54101
+	400.1.1 = {
+		birth="yes" # 376 BC Made Up
+	}
+	446.1.1 = {
+		death="yes" # 330 BC Made Up
+	}
+}
+54103 = {
+	name = "Hieronymos" # Cyrene, Made Up
+	dynasty = 5047 # Battiadai
+	religion = greek_main
+	culture = ionian
+	father = 54102
+	413.1.1 = {
+		birth="yes" # 363 BC Made Up
+	}
+	470.1.1 = {
+		death="yes" # 306 BC Made Up
+	}
+}

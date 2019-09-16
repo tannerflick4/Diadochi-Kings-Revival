@@ -1,0 +1,15 @@
+# 764 - Balistali
+
+# County Title
+title = c_balistali
+
+# Settlements
+max_settlements = 1
+b_balistali_balistali = castle
+
+# Misc
+culture = maharashtri
+religion = buddhism_main
+
+# History
+# Can be filled when things change around the province

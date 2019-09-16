@@ -1,0 +1,18 @@
+# 95 - Pessinus
+
+# County Title
+title = c_pessinus # for example c_corinth
+
+# Settlements
+max_settlements = 4
+b_amorion_pessinus = castle
+b_pessinus_pessinus = temple
+b_tolastochora_pessinus = city
+b_goeleon_pessinus = castle
+
+# Misc
+culture = phrygian
+religion = phrygian_main
+
+# History
+# Can be filled when things change around the province

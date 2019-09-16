@@ -1,0 +1,22 @@
+# 393 - Virunum
+
+# County Title
+title = c_virunum
+
+# Settlements
+max_settlements = 4
+b_virunum_virunum = castle
+b_iuenna_virunum = castle
+b_teurnia_virunum = city
+b_santicum_virunum = city
+
+# Misc
+culture = venetic
+religion = illyrian_main
+
+# History
+# Can be filled when things change around the province
+446.1.1 = { # 330 BC
+	culture = gaul
+	religion = celtic_main
+}

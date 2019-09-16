@@ -1,0 +1,27 @@
+# 450001-450100 for the Uaskones dynasty
+450001 = {
+	name = "Abisunhar" # Made up Uaskones leader
+	dynasty = 45001
+	culture = aquitanian
+	religion = aquitanian_main
+	
+	385.1.1 = { # 391 BC, Made up
+		birth="yes"
+	}
+	465.1.1 = { # 311 BC
+		death="yes"
+	}
+}
+450002 = {
+	name = "Serhuhoris" # Made up Uaskones leader
+	dynasty = 45001
+	culture = aquitanian
+	religion = aquitanian_main
+	
+	416.1.1 = { # 360 BC, Made up
+		birth="yes"
+	}
+	496.1.1 = { # 280 BC
+		death="yes"
+	}
+}

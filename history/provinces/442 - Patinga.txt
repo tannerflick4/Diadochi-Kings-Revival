@@ -1,0 +1,18 @@
+# 442 - Patinga
+
+# County Title
+title = c_patinga
+
+# Settlements
+max_settlements = 4
+b_patinga_patinga = castle
+b_orsum_patinga = city
+b_pnups_patinga = castle
+b_prummu_patinga = city
+
+# Misc
+culture = nubian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,17 @@
+# 845 - Eileithiopolis
+
+# County Title
+title = c_eileithiopolis
+
+# Settlements
+max_settlements = 3
+b_eileithiopolis_eileithiopolis = castle
+b_contra_apollonos_eileithiopolis = city
+b_contra_latopolin_eileithiopolis = city
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

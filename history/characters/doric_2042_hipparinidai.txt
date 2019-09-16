@@ -1,0 +1,77 @@
+# 24101-24200 for the Hipparinidai dynasty
+24101 = {
+	name = "Hipparinos" # Father of Dion
+	dynasty = 2042 # Hipparinidai
+	religion = greek_main
+	culture = doric
+	342.1.1 = {
+		birth="yes" # 434 BC Made Up
+	}
+	383.1.1 = {
+		death="yes" # 393 BC Made Up
+	}
+}
+24102 = {
+	name = "Dion" # Adviser to the Dionysiuses and later Tyrant
+	dynasty = 2042 # Hipparinidai
+	religion = greek_main
+	culture = doric
+	father = 24101
+	
+	add_trait = charismatic_negotiator
+	add_trait = kind
+	
+	368.1.1 = {
+		birth="yes" # 408 BC
+	}
+	399.1.1 = { # 377 BC Made Up
+		add_spouse = 24008 # Arete
+	}
+	422.1.1 = { # 354 BC
+		death = {
+			death_reason = death_murder
+			killer = 59901 # Calippus
+		}
+	}
+}
+24103 = {
+	name = "Megacles" # Brother of Dion
+	dynasty = 2042 # Hipparinidai
+	religion = greek_main
+	culture = doric
+	father = 24101
+	371.1.1 = {
+		birth="yes" # 405 BC Made Up
+	}
+	423.1.1 = {
+		death="yes" # 353 BC Made Up
+	}
+}
+24104 = {
+	name = "Aristomache" # Wife of Dionysius the Elder, Sister of Dion
+	dynasty = 2042 # Hipparinidai
+	religion = greek_main
+	culture = doric
+	father = 24101
+	female = yes
+	361.1.1 = {
+		birth="yes" # 415 BC Made Up
+	}
+	413.1.1 = {
+		death="yes" # 363 BC Made Up
+	}
+}
+24105 = {
+	name = "Aretaios" # Son of Dion
+	dynasty = 2042 # Hipparinidai
+	religion = greek_main
+	culture = doric
+	father = 24102 # Dion
+	mother = 24008 # Arete 
+	402.1.1 = {
+		birth="yes" # 374 BC Made Up
+	}
+	427.1.1 = { 
+		death="yes" # 349 BC Made Up
+	}
+}

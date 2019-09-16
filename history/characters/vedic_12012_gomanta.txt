@@ -1,0 +1,26 @@
+# 121101-121200 for the Gomanta dynasty
+121101 = {
+	name = "Avinita" # Made up
+	dynasty = 12129
+	religion = dravidian_main
+	culture = kannada
+	400.1.1 = { # 376 BC
+		birth="yes"
+	}
+	474.1.1 = { # 302 BC
+		death="yes"
+	}
+}
+121102 = {
+	name = "Shivamara" # Made up
+	dynasty = 12129
+	religion = dravidian_main
+	culture = kannada
+	father = 121101
+	431.1.1 = { # 345 BC
+		birth="yes"
+	}
+	499.1.1 = { # 276 BC
+		death="yes"
+	}
+}

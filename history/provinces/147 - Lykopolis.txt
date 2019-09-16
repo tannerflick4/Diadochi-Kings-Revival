@@ -1,0 +1,18 @@
+# 147 - Lykopolis
+
+# County Title
+title = c_lykopolis
+
+# Settlements
+max_settlements = 4
+b_lykopolis_lykopolis = castle
+b_hermopolis_lykopolis = city
+b_hierakion_lykopolis = castle
+b_toeto_lykopolis = city
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

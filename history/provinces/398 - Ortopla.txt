@@ -1,0 +1,18 @@
+# 398 - Ortopla
+
+# County Title
+title = c_ortopla
+
+# Settlements
+max_settlements = 4
+b_ortopla_ortopla = castle
+b_arupium_ortopla = castle
+b_cissa_ortopla = city
+b_arba_ortopla = city
+
+# Misc
+culture = venetic
+religion = illyrian_main
+
+# History
+# Can be filled when things change around the province

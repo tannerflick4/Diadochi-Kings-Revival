@@ -1,0 +1,16 @@
+# 610 - Dsargalapa
+
+# County Title
+title = c_dsargalapa
+
+# Settlements
+max_settlements = 2
+b_dsargalapa_dsargalapa = castle
+#b_darankol_dsargalapa = city
+
+# Misc
+culture = scythian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

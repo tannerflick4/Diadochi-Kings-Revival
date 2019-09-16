@@ -1,0 +1,18 @@
+# 1203 - Lama
+
+# County Title
+title = c_lama
+
+# Settlements
+max_settlements = 4
+b_lama_lama = castle
+b_tourmogon_lama = city
+#b_caesarobriga_lama = city
+b_rusticana_lama = castle
+
+# Misc
+culture = lusitanian
+religion = lusitanian_main
+
+# History
+# Can be filled when things change around the province

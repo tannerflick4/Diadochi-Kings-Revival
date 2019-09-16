@@ -1,0 +1,18 @@
+411.1.1 = { # 365 BC
+	holder = 50004 # Clearchus
+}
+423.1.1 = { # 353 BC
+	holder = 50006 # Satyrus
+}
+430.1.1 = { # 346 BC
+	holder = 50007 # Timotheus
+}
+438.1.1 = { # 338 BC
+	holder = 50001 # Dionysius
+}
+471.1.1 = { # 305 BC
+	holder = 90204 # Amastris
+}
+492.1.1 = { # 284 BC
+	holder = 0
+}

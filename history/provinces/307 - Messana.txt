@@ -1,0 +1,22 @@
+# 307 - Messana
+
+# County Title
+title = c_messana # for example c_corinth
+
+# Settlements
+max_settlements = 6 # Should be reevaluated
+b_messana = city
+b_tauromenium_messana = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+#
+#
+#
+#
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History
+459.1.1 = { b_messana = castle }

@@ -1,0 +1,20 @@
+# 929 - Corduba
+
+# County Title
+title = c_corduba
+
+# Settlements
+max_settlements = 6
+b_corduba_corduba = castle
+#b_carbula_corduba = city
+#b_detumo_corduba = city
+b_sisapo_corduba = castle
+b_oretum_corduba = city
+#b_carcuvium_corduba = castle
+
+# Misc
+culture = turdetanian
+religion = iberian_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,18 @@
+# 383 - Montana
+
+# County Title
+title = c_montana
+
+# Settlements
+max_settlements = 4
+b_montana_montana = castle
+b_tautiomosis_montana = city
+b_vorovum_montana = city
+b_meldia_montana = castle
+
+# Misc
+culture = thracian
+religion = thracian_main
+
+# History
+# Can be filled when things change around the province

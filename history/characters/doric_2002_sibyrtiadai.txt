@@ -1,0 +1,19 @@
+# 20101-20200 for the Sibyrtiadai dynasty
+20101 = {
+	name = "Sibyrtios" # Sibyrtius, satrap of Arachosia and Gedrosia
+	dynasty = 2002 # Sibyrtiadai
+	religion = greek_main
+	culture = doric
+	
+	add_trait = craven
+	
+	421.1.1 = { # 355 BC Made up
+		birth="yes"
+	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	486.1.1 = { # 290 BC Made up
+		death="yes"
+	}
+}

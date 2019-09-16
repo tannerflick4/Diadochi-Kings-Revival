@@ -1,0 +1,16 @@
+# 498 - Kusporata
+
+# County Title
+title = c_kusporata
+
+# Settlements
+max_settlements = 2
+b_kusporata_kusporata = castle
+b_dargakol_kusporata = city
+
+# Misc
+culture = sarmatian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

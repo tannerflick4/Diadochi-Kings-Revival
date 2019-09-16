@@ -1,0 +1,19 @@
+# 827 - Saittai
+
+# County Title
+title = c_saittai
+
+# Settlements
+max_settlements = 5
+b_saittai_saittai = castle
+b_tabala_saittai = castle
+b_silandos_saittai = castle
+b_koresa_saittai = temple
+b_emoddi_saittai = temple
+
+# Misc
+culture = luwian
+religion = anatolian_main
+
+# History
+# Can be filled when things change around the province

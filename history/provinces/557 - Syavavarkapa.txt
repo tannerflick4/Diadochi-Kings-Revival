@@ -1,0 +1,16 @@
+# 557 - Syavavarkapa
+
+# County Title
+title = c_syavavarkapa
+
+# Settlements
+max_settlements = 2
+b_syavavarkapa_syavavarkapa = castle
+b_pasukol_syavavarkapa = city
+
+# Misc
+culture = scythian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

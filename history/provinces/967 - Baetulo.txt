@@ -1,0 +1,18 @@
+# 967 - Baetulo
+
+# County Title
+title = c_baetulo
+
+# Settlements
+max_settlements = 4
+b_baitolo_baetulo = castle
+b_barkeno_baetulo = castle
+b_lauro_baetulo = temple
+b_eusti_baetulo = city
+
+# Misc
+culture = iberian
+religion = iberian_main
+
+# History
+# Can be filled when things change around the province

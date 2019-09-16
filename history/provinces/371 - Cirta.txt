@@ -1,0 +1,20 @@
+# 371 - Cirta
+
+# County Title
+title = c_cirta
+
+# Settlements
+max_settlements = 6
+b_cirta_cirta = castle
+b_saddar_cirta = temple
+b_tiddis_cirta = city
+b_milev_cirta = castle
+b_sila_cirta = castle
+b_phua_cirta = castle
+
+# Misc
+culture = berber
+religion = berber_main
+
+# History
+# Can be filled when things change around the province

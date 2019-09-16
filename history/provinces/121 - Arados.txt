@@ -1,0 +1,21 @@
+# 121 - Arados
+
+# County Title
+title = c_arados
+
+# Settlements
+max_settlements = 5
+b_arados_arados = castle
+b_marsya_arados = temple
+b_gabala_arados = city
+b_raphaneai_arados = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_laodikeia_arados
+
+# Misc
+culture = punic
+religion = canaanite_main
+
+# History
+# Can be filled when things change around the province

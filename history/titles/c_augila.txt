@@ -1,0 +1,6 @@
+413.1.1 = { # 363 BC
+	holder = 350076 # Duanre
+}
+471.1.1 = { # 305 BC
+	holder = 350077 # Ahmose
+}

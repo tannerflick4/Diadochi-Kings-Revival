@@ -1,0 +1,18 @@
+# 952 - Badua
+
+# County Title
+title = c_badua
+
+# Settlements
+max_settlements = 4
+b_badua_badua = castle
+b_plagiaria_badua = city
+b_elvas_badua = city
+#b_emerita_badua = city
+
+# Misc
+culture = lusitanian
+religion = lusitanian_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,18 @@
+# 230 - Sanina
+
+# County Title
+title = c_sanina
+
+# Settlements
+max_settlements = 4
+b_sanina_sanina = castle
+b_gaetara_sanina = city
+b_camachia_sanina = castle
+b_shemakha_sanina = castle
+
+# Misc
+culture = albanian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

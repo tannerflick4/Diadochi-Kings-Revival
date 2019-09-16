@@ -1,0 +1,39 @@
+# 121201-121300 for the Konkana dynasty
+121201 = {
+	name = "Mangalesa" # Made up
+	dynasty = 12122
+	religion = dravidian_main
+	culture = kannada
+	381.1.1 = { # 395 BC
+		birth="yes"
+	}
+	452.1.1 = { # 324 BC
+		death="yes"
+	}
+}
+121202 = {
+	name = "Tadangala" # Made up
+	dynasty = 12122
+	religion = dravidian_main
+	culture = kannada
+	father = 121201
+	405.1.1 = { # 371 BC
+		birth="yes"
+	}
+	468.1.1 = { # 308 BC
+		death="yes"
+	}
+}
+121203 = {
+	name = "Varma" # Made up
+	dynasty = 12122
+	religion = dravidian_main
+	culture = kannada
+	father = 121202
+	431.1.1 = { # 345 BC
+		birth="yes"
+	}
+	505.1.1 = { # 271 BC
+		death="yes"
+	}
+}

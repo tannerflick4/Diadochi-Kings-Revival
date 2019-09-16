@@ -1,0 +1,19 @@
+# 124 - Sidon
+
+# County Title
+title = c_sidon
+
+# Settlements
+max_settlements = 5
+b_sidon_sidon = castle
+b_alsos_asklepiou_sidon = temple
+b_sarepta_sidon = city
+b_platanos_sidon = castle
+b_baithmare_sidon = temple
+
+# Misc
+culture = punic
+religion = canaanite_main
+
+# History
+# Can be filled when things change around the province

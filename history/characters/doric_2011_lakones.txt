@@ -1,0 +1,26 @@
+# 21001-21100 for the Lakones dynasty
+21001 = {
+	name = "Demosthenes" # Byzantion
+	dynasty = 2011 # Lakones
+	religion = greek_main
+	culture = doric
+	382.1.1 = { # 394 BC Made up
+		birth="yes"
+	}
+	460.1.1 = { # 316 BC Made up
+		death="yes"
+	}
+}
+21002 = {
+	name = "Themistokles" # Byzantion
+	dynasty = 2011 # Lakones
+	religion = greek_main
+	culture = doric
+	father = 21001
+	413.1.1 = { # 363 BC Made up
+		birth="yes"
+	}
+	491.1.1 = { # 285 BC Made up
+		death="yes"
+	}
+}

@@ -1,0 +1,19 @@
+# 913 - Segida
+
+# County Title
+title = c_segida
+
+# Settlements
+max_settlements = 5
+b_segida_segida = castle
+b_seria_segida = temple
+b_vama_segida = castle
+b_caspiana_segida = city
+#b_phornakis_segida = city
+
+# Misc
+culture = celtiberian
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

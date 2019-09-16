@@ -1,0 +1,19 @@
+# 200 - Charax
+
+# County Title
+title = c_charax
+
+# Settlements
+max_settlements = 5
+b_charax_charax = castle
+b_teredon_charax = temple
+b_apologos_charax = city
+b_forat_charax = castle
+b_failaka_charax = city
+
+# Misc
+culture = akkadian
+religion = marduk_cult
+
+# History
+# Can be filled when things change around the province

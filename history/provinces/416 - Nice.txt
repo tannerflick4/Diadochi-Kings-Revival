@@ -1,0 +1,22 @@
+# 416 - Nice
+
+# County Title
+title = c_nice
+
+# Settlements
+max_settlements = 4
+b_nice_nice = castle
+b_heracles_monoikos_nice = temple
+b_antipolis_nice = city
+b_navelis_nice = castle
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province
+476.1.1 = { # 300 BC	
+	culture = ionian
+	religion = greek_main
+}

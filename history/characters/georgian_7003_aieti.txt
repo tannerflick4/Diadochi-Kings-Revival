@@ -1,0 +1,39 @@
+# 70201-70300 for the Aieti dynasty
+70201 = {
+	name = "Aku"
+	dynasty = 7003 # Aieti
+	religion = georgian_main
+	culture = georgian
+	father = 70203
+	412.1.1 = {
+		birth="yes" # 364 BC, Made up
+	}
+	471.1.1 = {
+		death="yes" # 305 BC, Made up
+	}
+}
+70202 = {
+	name = "Kuji" # King of Colchis
+	dynasty = 7003 # Aieti
+	religion = georgian_main
+	culture = georgian
+	father = 70201
+	439.1.1 = { # Made up
+		birth="yes" # 337 BC
+	}
+	496.1.1 = { # Made up
+		death="yes" # 280 BC
+	}
+}
+70203 = {
+	name = "Mirian" # Colchis, Made Up
+	dynasty = 7003 # Aieti
+	religion = georgian_main
+	culture = georgian
+	378.1.1 = { 
+		birth="yes" # 398 BC Made Up
+	}
+	428.1.1 = {
+		death="yes" # 348 BC Made Up
+	}
+}

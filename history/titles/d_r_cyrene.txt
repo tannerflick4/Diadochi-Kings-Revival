@@ -1,0 +1,13 @@
+413.1.1 = { # 363 BC
+	holder = 54201 # Hieronymos
+	liege = d_r_cyrene
+}
+435.1.1 = { # 341 BC, Persians conquer Egypt
+	liege = e_persia
+}
+444.6.1 = { # 332 BC, Alexander conquers Egypt
+	liege = 0
+}
+454.1.1 = { # Ophellas and the Ptolemies take over Cyrene
+	holder = 0
+}

@@ -1,0 +1,16 @@
+# 851 - Tigava
+
+# County Title
+title = c_tigava
+
+# Settlements
+max_settlements = 2
+b_tigava_tigava = castle
+b_tingitana_tigava = castle
+
+# Misc
+culture = berber
+religion = berber_main
+
+# History
+# Can be filled when things change around the province

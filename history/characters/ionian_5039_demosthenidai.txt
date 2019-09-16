@@ -1,0 +1,57 @@
+# 53301-53400 for the Demosthenidai dynasty
+53301 = {
+	name = "Demosthenes" # Father of the famous Demosthenes
+	dynasty = 5039 # Demosthenidai
+	religion = greek_main
+	culture = ionian
+	366.1.1 = { # Made up
+		birth="yes" # 410 BC
+	}
+	399.1.1 = {
+		death="yes" # 377 BC
+	}
+}
+53302 = {
+	name = "Demosthenes" # Politician in Athens
+	dynasty = 5039 # Demosthenidai
+	religion = greek_main
+	culture = ionian
+	father = 53301
+	
+	add_trait = grey_eminence
+	
+	392.1.1 = {
+		birth="yes" # 384 BC
+	}
+	454.1.1 = { # 322 BC
+		death = {
+			death_reason = death_suicide
+		}
+	}
+}
+53303 = {
+	name = "Nikandros" # Politician in Athens, Made up
+	dynasty = 5039 # Demosthenidai
+	religion = greek_main
+	culture = ionian
+	father = 53302
+	428.1.1 = {
+		birth="yes" # 348 BC
+	}
+	502.1.1 = {
+		death="yes" # 274 BC	
+	}
+}
+53304 = {
+	name = "Demosthenes" # Politician in Athens, Made up
+	dynasty = 5039 # Demosthenidai
+	religion = greek_main
+	culture = ionian
+	father = 53303
+	453.1.1 = {
+		birth="yes" # 323 BC
+	}
+	520.1.1 = {
+		death="yes" # 256 BC
+	}
+}

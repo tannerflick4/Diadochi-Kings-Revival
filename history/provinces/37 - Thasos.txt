@@ -1,0 +1,23 @@
+# 37 - Thasos
+
+# County Title
+title = c_thasos # for example c_corinth
+
+# Settlements
+max_settlements = 3
+b_thasos_thasos = castle
+b_koinyra_thasos = temple
+b_alyke_thasos = city
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province
+405.1.1 = {
+	capital = b_alyke_thasos
+}
+436.1.1 = {
+	capital = b_thasos_thasos
+}

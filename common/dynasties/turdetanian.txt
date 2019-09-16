@@ -1,0 +1,9 @@
+# 40001-41000 for Turdetanian dynasties
+40001 = {
+	name = "Turdetanoi"
+	culture = turdetanian
+}
+40002 = {
+	name = "Kouneoi"
+	culture = turdetanian
+}

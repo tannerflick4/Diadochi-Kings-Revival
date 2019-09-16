@@ -1,0 +1,26 @@
+# 121901-122000 for the Kimpurusha dynasty
+121901 = {
+	name = "Sihahanu" # Made up
+	dynasty = 12057
+	religion = buddhism_main
+	culture = vedic
+	395.1.1 = { # 381 BC
+		birth="yes"
+	}
+	477.1.1 = { # 299 BC
+		death="yes"
+	}
+}
+121902 = {
+	name = "Sthita" # Made up
+	dynasty = 12057
+	religion = buddhism_main
+	culture = vedic
+	father = 121901
+	422.1.1 = { # 354 BC
+		birth="yes"
+	}
+	508.1.1 = { # 268 BC
+		death="yes"
+	}
+}

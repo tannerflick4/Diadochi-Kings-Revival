@@ -1,0 +1,115 @@
+# 51501-51600 for the Massaliotai dynasty
+51501 = {
+	name = "Heliodoros" # Ruler of Massilia, Made up
+	dynasty = 5021 # Massalioi
+	religion = greek_main
+	culture = ionian
+	father = 51503
+	390.1.1 = { # Made up
+		birth="yes" # 385 BC
+	}
+	461.1.1 = { # Made up
+		death="yes" # 315 BC
+	}
+}
+51502 = {
+	name = "Anaxagoras" # Massilia, Made up
+	dynasty = 5021 # Massalioi
+	religion = greek_main
+	culture = ionian
+	father = 51501
+	414.1.1 = { # 361 BC
+		birth="yes"
+	}
+	501.1.1 = { # 274 BC
+		death="yes"
+	}
+}
+51503 = {
+	name = "Paramonos" # Ruler of Massilia, Made up
+	dynasty = 5021 # Massalioi
+	religion = greek_main
+	culture = ionian
+	360.1.1 = { # Made up
+		birth="yes" # 416 BC
+	}
+	441.1.1 = { # 335 BC
+		death="yes"
+	}
+}
+51504 = {
+	name = "Hypsikles" # Ruler of Emporion, Made up
+	dynasty = 5021 # Massalioi
+	religion = greek_main
+	culture = ionian
+	360.1.1 = { # Made up
+		birth="yes" # 416 BC
+	}
+	441.1.1 = { # 335 BC
+		death="yes"
+	}
+}
+51505 = {
+	name = "Nikokreon" # Ruler of Emporion, Made up
+	dynasty = 5021 # Massalioi
+	religion = greek_main
+	culture = ionian
+	father = 51504
+	390.1.1 = { # Made up
+		birth="yes" # 385 BC
+	}
+	461.1.1 = { # Made up
+		death="yes" # 315 BC
+	}
+}
+51506 = {
+	name = "Prodikos" # Ruler of Emporion, Made up
+	dynasty = 5021 # Massalioi
+	religion = greek_main
+	culture = ionian
+	father = 51505
+	414.1.1 = { # 361 BC
+		birth="yes"
+	}
+	501.1.1 = { # 274 BC
+		death="yes"
+	}
+}
+51507 = {
+	name = "Glaukon" # Ruler of Emporion, Made up
+	dynasty = 5021 # Massalioi
+	religion = greek_main
+	culture = ionian
+	360.1.1 = { # Made up
+		birth="yes" # 416 BC
+	}
+	441.1.1 = { # 335 BC
+		death="yes"
+	}
+}
+51508 = {
+	name = "Eudoxos" # Ruler of Emporion, Made up
+	dynasty = 5021 # Massalioi
+	religion = greek_main
+	culture = ionian
+	father = 51507
+	390.1.1 = { # Made up
+		birth="yes" # 385 BC
+	}
+	461.1.1 = { # Made up
+		death="yes" # 315 BC
+	}
+}
+51509 = {
+	name = "Phokion" # Ruler of Emporion, Made up
+	dynasty = 5021 # Massalioi
+	religion = greek_main
+	culture = ionian
+	father = 51508
+	414.1.1 = { # 361 BC
+		birth="yes"
+	}
+	501.1.1 = { # 274 BC
+		death="yes"
+	}
+}

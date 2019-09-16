@@ -1,0 +1,17 @@
+# 11 - Rhodos
+# County Title
+title = c_rhodos # for example c_corinth
+
+# Settlements
+max_settlements = 4 # Should be reevaluated
+b_rhodos_rhodos = city
+b_lindos_rhodos = temple
+b_ialyssos_rhodos = city
+b_kameiros_rhodos = castle
+
+# Misc
+culture = doric
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,17 @@
+# 160 - Catabathmus
+
+# County Title
+title = c_catabathmus
+
+# Settlements
+max_settlements = 3
+b_catabathmus_catabathmus = castle
+b_menelaos_paraetonium = city
+b_kardamis_paraetonium = castle
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

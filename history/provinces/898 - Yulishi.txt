@@ -1,0 +1,16 @@
+# 898 - Yulishi
+
+# County Title
+title = c_yulishi
+
+# Settlements
+max_settlements = 2
+
+b_yulishi_yulishi = castle
+b_further_jushi_yulishi = city
+
+culture = tocharian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

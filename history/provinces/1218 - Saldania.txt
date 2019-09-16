@@ -1,0 +1,21 @@
+# 1218 - Saldania
+
+# County Title
+title = c_saldania
+
+# Settlements
+max_settlements = 2
+b_saldania_saldania= castle
+b_morecanodounon_saldania = city
+
+# Misc
+culture = celtiberian
+religion = celtic_main
+
+
+
+
+
+
+# History
+# Can be filled when things change around the province

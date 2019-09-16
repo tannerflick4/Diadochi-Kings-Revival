@@ -1,0 +1,26 @@
+# 370701-370800 for the Subhadra dynasty
+370701 = {
+	name = "Parsu" # Made up
+	dynasty = 37002
+	religion = zoroastrian_main
+	culture = tocharian
+	398.1.1 = { # 378 BC
+		birth="yes"
+	}
+	467.1.1 = { # 309 BC
+		death="yes"
+	}
+}
+370702 = {
+	name = "Sugi" # Made up
+	dynasty = 37002
+	religion = zoroastrian_main
+	culture = tocharian
+	father = 370701
+	426.1.1 = { # 350 BC
+		birth="yes"
+	}
+	514.1.1 = { # 262 BC
+		death="yes"
+	}
+}

@@ -1,0 +1,29 @@
+# 90101-90200 for the Phrataphernes dynasty
+90101 = {
+	name = "Phrataphernes" # Phrataphernes, satrap of Parthia and Hyrcania
+	dynasty = 9002 # Phrataphernes
+	religion = zoroastrian_main
+	culture = persian
+	
+	add_trait = kind
+	
+	410.1.1 = { # 366 BC Made up
+		birth="yes"
+	}
+	454.1.1 = { # 322 BC
+		death="yes"
+	}
+}
+90102 = {
+	name = "Pharsman" # Son of Phrataphernes
+	dynasty = 9002 # Phrataphernes
+	religion = zoroastrian_main
+	culture = persian
+	father = 90101
+	435.1.1 = { # 341 BC Made up
+		birth="yes"
+	}
+	474.1.1 = { # 304 BC Made up
+		death="yes"
+	}
+}

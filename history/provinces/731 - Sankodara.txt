@@ -1,0 +1,17 @@
+# 731 - Sankodara
+
+# County Title
+title = c_sankadara
+
+# Settlements
+max_settlements = 3
+b_sankadara_sankadara = castle
+b_antardwipa_sankadara = city
+b_kanthi_sankadara = castle
+
+# Misc
+culture = shauraseni
+religion = jainism_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,22 @@
+# 2001-2100 for the Leukoi dynasty
+2001 = {
+	name = "Kleitos" # the White, Later satrap of Lydia
+	dynasty = 21 # Leukoi
+	religion = greek_main
+	culture = macedonian
+	
+	add_trait = wroth
+	
+	420.1.1 = { # 356 BC Made up
+		birth="yes"
+	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	458.1.1 = { # 318 BC Made up
+		death = {
+			death_reason = death_murder
+			killer = 30001 # Lysimachus
+		}
+	}
+}

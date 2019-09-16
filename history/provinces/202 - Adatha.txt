@@ -1,0 +1,18 @@
+# 202 - Adatha
+
+# County Title
+title = c_adatha
+
+# Settlements
+max_settlements = 4
+b_adatha_adatha = castle
+b_rhabaine_adatha = temple
+b_tyba_adatha = city
+b_ulnia_adatha = castle
+
+# Misc
+culture = luwian
+religion = anatolian_main
+
+# History
+# Can be filled when things change around the province

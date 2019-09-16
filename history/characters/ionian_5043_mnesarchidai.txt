@@ -1,0 +1,42 @@
+# 53701-53800 for the Mnesarchidai dynasty
+53701 = {
+	name = "Mnesarchos" # Tyrant of Chalcis
+	dynasty = 5043 # Mnesarchidai
+	religion = greek_main
+	culture = ionian
+	347.1.1 = { # Made up
+		birth="yes" # 429 BC
+	}
+	414.1.1 = { # Made up
+		death="yes" # 362 BC
+	}
+}
+53702 = {
+	name = "Kallias" # Tyrant of Chalcis
+	dynasty = 5043 # Mnesarchidai
+	religion = greek_main
+	culture = ionian
+	father = 53701
+	
+	add_trait = ambitious
+	
+	380.1.1 = { # Made up
+		birth="yes" # 396 BC
+	}
+	451.1.1 = { # Made up
+		death="yes" # 325 BC
+	}
+}
+53703 = {
+	name = "Taurosthenes" # Brother of Kallias
+	dynasty = 5043 # Mnesarchidai
+	religion = greek_main
+	culture = ionian
+	father = 53701
+	390.1.1 = { # Made up
+		birth="yes" # 386 BC
+	}
+	437.1.1 = { # Made up
+		death="yes" # 339 BC
+	}
+}

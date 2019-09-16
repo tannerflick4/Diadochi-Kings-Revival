@@ -1,0 +1,16 @@
+# 807 - Zurobara
+
+# County Title
+title = c_zurobara
+
+# Settlements
+max_settlements = 2
+b_zurobara_zurobara = castle
+b_micia_zurobara = castle
+
+# Misc
+culture = dacian
+religion = zalmoxism
+
+# History
+# Can be filled when things change around the province

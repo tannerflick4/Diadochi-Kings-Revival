@@ -1,0 +1,16 @@
+# 509 - Alud
+
+# County Title
+title = c_alud
+
+# Settlements
+max_settlements = 2
+b_alud_alud = castle
+b_katibla_alud = castle
+
+# Misc
+culture = sarmatian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,19 @@
+# 240 - Ecbatana
+
+# County Title
+title = c_ecbatana
+
+# Settlements
+max_settlements = 5
+b_ecbatana_ecbatana = castle
+b_bisutun_ecbatana = temple
+b_kangavar_ecbatana = city
+b_denabaran_ecbatana = city
+b_malaver_ecbatana = castle
+
+# Misc
+culture = median
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,15 @@
+# 705 - Aganagara
+
+# County Title
+title = c_aganagara
+
+# Settlements
+max_settlements = 1
+b_aganagara_aganagara = castle
+
+# Misc
+culture = vedic # Magadhi
+religion = buddhism_main
+
+# History
+# Can be filled when things change around the province

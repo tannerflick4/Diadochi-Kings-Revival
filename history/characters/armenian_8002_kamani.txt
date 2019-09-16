@@ -1,0 +1,13 @@
+# 80101-80200 for the Kamani dynasty
+80101 = {
+	name = "Arkha" # Ruler of Ani Kamah, Made up
+	dynasty = 8002 # Kamani
+	religion = armenian_main
+	culture = armenian
+	414.1.1 = { # Made up
+		birth="yes" # 362 BC
+	}
+	483.1.1 = { # Made up
+		death="yes" # 293 BC
+	}
+}

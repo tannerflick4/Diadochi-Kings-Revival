@@ -1,0 +1,21 @@
+376.1.1 = { # 400 BC
+	holder = 330602 # Ateas
+	liege = k_katipa
+}
+437.1.1 = {
+	holder = 803 # Philip II
+	liege = e_macedonia
+}
+440.10.1 = {
+	holder = 802
+}
+453.6.10 = {
+	liege="d_odrysia"
+	holder = 40101
+}
+476.1.1 = {
+	holder = 40102 # Cotys II
+}
+495.2.1 = {
+	liege = k_odrysia
+}

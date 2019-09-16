@@ -1,0 +1,19 @@
+# 828 - Knidos
+
+# County Title
+title = c_knidos
+
+# Settlements
+max_settlements = 5
+b_knidos_knidos = castle
+b_kaunos_knidos = city
+b_syme_knidos = temple
+b_pisillis_knidos = city
+b_pasanda_knidos = castle
+
+# Misc
+culture = doric
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

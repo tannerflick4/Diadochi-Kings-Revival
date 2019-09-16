@@ -1,0 +1,12 @@
+405.1.1 = { # 371 BC
+	holder = 260301 # Axerus
+}
+460.1.1 = { # 316 BC
+	holder = 260302 # Bagaius
+}
+462.1.1 = { # 314 BC
+	holder = 260303 # Siphales
+}
+512.1.1 = { # 264 BC
+	holder = 260304 # Bagaius
+}

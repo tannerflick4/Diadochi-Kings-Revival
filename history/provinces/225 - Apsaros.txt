@@ -1,0 +1,18 @@
+# 225 - Apsaros
+
+# County Title
+title = c_apsaros
+
+# Settlements
+max_settlements = 4
+b_apsaros_apsaros = castle
+b_morthoula_apsaros = temple
+b_bathys_limen_apsaros = city
+b_kissa_apsaros = castle
+
+# Misc
+culture = georgian
+religion = georgian_main
+
+# History
+# Can be filled when things change around the province

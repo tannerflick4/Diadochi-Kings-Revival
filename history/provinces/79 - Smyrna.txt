@@ -1,0 +1,19 @@
+# 79 - Smyrna
+
+# County Title
+title = c_smyrna # for example c_corinth
+
+# Settlements
+max_settlements = 5
+b_smyrna_smyrna = castle
+b_magnesia_smyrna = temple
+b_phocaea_smyrna = city
+b_cyme_smyrna = city
+b_melampagos_smyrna = castle
+
+# Misc
+culture = aeolian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

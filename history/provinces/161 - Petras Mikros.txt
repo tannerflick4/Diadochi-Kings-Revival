@@ -1,0 +1,17 @@
+# 161 - Petras Mikros
+
+# County Title
+title = c_petras_mikros
+
+# Settlements
+max_settlements = 3
+b_petras_mikros_petras_mikros = castle
+b_paliouros_petras_mikros = temple
+b_antipyrgos_petras_mikros = city
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

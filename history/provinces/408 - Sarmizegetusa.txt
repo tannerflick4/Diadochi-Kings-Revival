@@ -1,0 +1,21 @@
+# 408 - Sarmizegetusa
+
+# County Title
+title = c_sarmizegetusa
+
+# Settlements
+max_settlements = 5
+b_sarmizegetusa_sarmizegetusa = castle
+b_blidaru_sarmizegetusa = city
+b_cugir_sarmizegetusa = temple
+b_costeti_sarmizegetusa = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_piatra_rosie_sarmizegetusa
+
+# Misc
+culture = dacian
+religion = zalmoxism
+
+# History
+# Can be filled when things change around the province

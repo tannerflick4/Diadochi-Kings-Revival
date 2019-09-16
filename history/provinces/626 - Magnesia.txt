@@ -1,0 +1,21 @@
+# 626 - Magnesia
+
+# County Title
+title = c_magnesia
+
+# Settlements
+max_settlements = 5
+b_methone_magnesia = castle
+b_kasthaneia_magnesia = city
+b_kourope_magnesia = temple
+b_rhizous_magnesia = city
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_demetrias_magnesia
+
+# Misc
+culture = aeolian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

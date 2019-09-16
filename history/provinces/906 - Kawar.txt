@@ -1,0 +1,16 @@
+# 906 - Kawar
+
+# County Title
+title = c_kawar
+
+# Settlements
+max_settlements = 2
+b_dirkou_kawar = castle
+b_bilma_kawar = castle
+
+# Misc
+culture = berber
+religion = berber_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,18 @@
+# 171 - Characmoba
+
+# County Title
+title = c_characmoba
+
+# Settlements
+max_settlements = 4
+b_characmoba_characmoba = castle
+b_areopolis_characmoba = temple
+b_adara_characmoba = city
+b_louetha_characmoba = castle
+
+# Misc
+culture = nabataean
+religion = arabic_main
+
+# History
+# Can be filled when things change around the province

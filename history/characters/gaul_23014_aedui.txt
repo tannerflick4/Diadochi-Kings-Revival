@@ -1,0 +1,39 @@
+# 231201-231300 for the Aedui dynasty
+231201 = {
+	name = "Intudiomaros" # Made up
+	dynasty = 23014 # Aedui
+	culture = gaul
+	religion = celtic_main
+	father = 231203
+	427.1.1 = {# Made up
+		birth="yes" # 349 BC
+	}
+	461.1.1 = { # Made up
+		death="yes" # 315 BC
+	}
+}
+231202 = {
+	name = "Ambiorix" # Aedui Made up
+	dynasty = 23014 # Aedui
+	culture = gaul
+	religion = celtic_main
+	father = 231201
+	448.1.1 = { # 328 BC
+		birth="yes"
+	}
+	511.1.1 = { # 265 BC
+		death="yes"
+	}
+}
+231203 = {
+	name = "Teutomatus" # Made up
+	dynasty = 23014 # Aedui
+	culture = gaul
+	religion = celtic_main
+	387.1.1 = {# Made up
+		birth="yes" # 389 BC
+	}
+	443.1.1 = { # 333 BC
+		death="yes"
+	}
+}

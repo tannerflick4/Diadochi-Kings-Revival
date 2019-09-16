@@ -1,0 +1,54 @@
+# 121401-121500 for the Ror dynasty
+121401 = {
+	name = "Rurak" # King of Sindhu
+	dynasty = 12145
+	religion = hinduism_main
+	culture = shauraseni
+	385.1.1 = { # 391 BC made up
+		birth="yes"
+	}
+	469.1.1 = { # 307 BC made up
+		death="yes"
+	}
+}
+121402 = {
+	name = "Mushika" # Possibly not a member of the Ror dynasty, but definitely some form of Sindhi king
+	dynasty = 12145
+	religion = hinduism_main
+	culture = shauraseni
+	father = 121401
+	412.1.1 = { # 364 BC made up
+		birth="yes"
+	}
+	453.2.1 = { # 323 BC, killed by Peithon Agenoros
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+121403 = {
+	name = "Harak" # King of Sindhu
+	dynasty = 12145
+	religion = hinduism_main
+	culture = shauraseni
+	father = 121401
+	418.1.1 = { # 358 BC made up
+		birth="yes"
+	}
+	504.1.1 = { # 272 BC made up
+		death="yes"
+	}
+}
+121404 = {
+	name = "Devanik" # King of Sindhu
+	dynasty = 12145
+	religion = hinduism_main
+	culture = shauraseni
+	father = 121403
+	447.1.1 = { # 329 BC made up
+		birth="yes"
+	}
+	522.1.1 = { # 254 BC made up
+		death="yes"
+	}
+}

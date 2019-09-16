@@ -1,0 +1,16 @@
+# 854 - Cartenna
+
+# County Title
+title = c_cartenna
+
+# Settlements
+max_settlements = 2
+
+b_laguntum_cartenna = city
+b_cartenna_cartenna = castle
+
+# Misc
+culture = punic
+religion = punic_main
+
+# History

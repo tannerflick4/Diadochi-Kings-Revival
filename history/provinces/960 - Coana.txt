@@ -1,0 +1,17 @@
+# 960 - Coana
+
+# County Title
+title = c_coana
+
+# Settlements
+max_settlements = 3
+b_coana_coana = castle
+b_dactionum_coana = city
+#b_flavionava_coana = city
+
+# Misc
+culture = gallaecian
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

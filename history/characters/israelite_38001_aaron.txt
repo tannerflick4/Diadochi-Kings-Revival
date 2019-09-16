@@ -1,0 +1,74 @@
+# 380001-380100 for the Aaron dynasty
+380001 = {
+	name = "Jaddua" # High priest during Alexander's invasion
+	dynasty = 38001
+	culture = israelite
+	religion = judaism_main
+	
+	380.1.1 = { # 396 BC, Made up
+		birth="yes"
+	}
+	456.1.1 = { # 320 BC
+		death="yes"
+	}
+}
+380002 = {
+	name = "Onias" # High priest after Jaddua
+	dynasty = 38001
+	culture = israelite
+	religion = judaism_main
+	
+	father = 380001
+	
+	424.1.1 = { # 352 BC, Made up
+		birth="yes"
+	}
+	496.1.1 = { # 280 BC, Made up
+		death="yes"
+	}
+}
+380003 = {
+	name = "Manasseh" # Son of Jaddua, High priest after Eleazar
+	dynasty = 38001
+	culture = israelite
+	religion = judaism_main
+	
+	father = 380001
+	
+	433.1.1 = { # 343 BC, Made up
+		birth="yes"
+	}
+	536.1.1 = { # 240 BC
+		death="yes"
+	}
+}
+380004 = {
+	name = "Simon" # High Priest after Onias
+	dynasty = 38001
+	culture = israelite
+	religion = judaism_main
+	
+	father = 380002
+	
+	441.1.1 = { # 335 BC, Made up
+		birth="yes"
+	}
+	516.1.1 = { # 260 BC
+		death="yes"
+	}
+}
+380005 = {
+	name = "Eleazar" # High Priest after Simon
+	dynasty = 38001
+	culture = israelite
+	religion = judaism_main
+	
+	father = 380002
+	
+	445.1.1 = { # 331 BC, Made up
+		birth="yes"
+	}
+	531.1.1 = { # 245 BC
+		death="yes"
+	}
+}

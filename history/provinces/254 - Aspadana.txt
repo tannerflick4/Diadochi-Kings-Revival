@@ -1,0 +1,18 @@
+# 254 - Aspadana
+
+# County Title
+title = c_aspadana
+
+# Settlements
+max_settlements = 4
+b_aspadana_aspadana = castle
+b_arbua_aspadana = temple
+b_axima_aspadana = city
+b_tabae_aspadana = city
+
+# Misc
+culture = persian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

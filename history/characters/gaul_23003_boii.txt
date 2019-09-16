@@ -1,0 +1,39 @@
+# 230201-230300 for the Boii dynasty
+230201 = {
+	name = "Teutomatus" # Boii leader, Made up
+	dynasty = 23003 # Boii
+	religion = celtic_main
+	culture = gaul
+	father = 230203
+	421.1.1 = { # 355 BC Made up
+		birth="yes"
+	}
+	471.1.1 = { # 305 BC Made up
+		death="yes"
+	}
+}
+230202 = {
+	name = "Donnotaurus" # Boii Made up
+	dynasty = 23003 # Boii
+	culture = gaul
+	religion = celtic_main
+	father = 230201
+	445.1.1 = { # 331 BC
+		birth="yes"
+	}
+	510.1.1 = { # 266 BC
+		death="yes"
+	}
+}
+230203 = {
+	name = "Iccius" # Boii leader, Made up
+	dynasty = 23003 # Boii
+	religion = celtic_main
+	culture = gaul
+	396.1.1 = {
+		birth="yes" # 380 BC
+	}
+	447.1.1 = {
+		death="yes" # 329 BC
+	}
+}

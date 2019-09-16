@@ -1,0 +1,18 @@
+# 1207 - Ocelum
+
+# County Title
+title = c_ocelum
+
+# Settlements
+max_settlements = 4
+b_okelodouron_ocelum = castle
+b_eldana_ocelum = city
+b_mirobriga_ocelum = city
+b_bletisa_ocelum = castle
+
+# Misc
+culture = lusitanian
+religion = lusitanian_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,21 @@
+# 102 - Sinope
+
+# County Title
+title = c_sinope # for example c_corinth
+
+# Settlements
+max_settlements = 6
+b_sinope_sinope = castle
+b_karousa_sinope = city
+b_pteria_sinope = temple
+b_zaliges_sinope = city
+
+#b_kyptasia_sinope = castle
+#b_stephane_sinope = city
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,18 @@
+# 1204 - Arriaca
+
+# County Title
+title = c_arriaca
+
+# Settlements
+max_settlements = 4
+b_arriaca_arriaca = castle
+#b_complutum_arriaca = city
+b_brittablo_arriaca = temple
+#b_caesada_arriaca = city
+
+# Misc
+culture = celtiberian
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

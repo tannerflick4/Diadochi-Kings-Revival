@@ -1,0 +1,48 @@
+417.1.1 = { # 359 BC
+	holder = 53102 # Hyperides
+	liege = k_r_athens
+}
+421.1.1 = { # 355 BC
+	holder = 53201 # Atrometos
+}
+425.1.1 = { # 351 BC
+	holder = 53202 # Aischines
+}
+438.8.2 = { # 338 BC, Battle of Chaeronea
+	liege = d_r_athens
+}
+446.1.1 = { # 330 BC, Aischines goes into exile
+	holder = 53203 # Linos, fictional
+}
+459.7.1 = { # 317 BC, Oligarchy
+	liege = d_attike
+}
+469.1.1 = { # 307 BC
+	holder = 2 # Kassandros
+	liege = k_macedon
+}
+479.1.1 = { # 297 BC
+	holder = 12 # Philippos IV
+}
+479.4.1 = { # 297 BC
+	holder = 13 # Antipater II
+}
+482.1.1 = { # 294 BC
+	holder = 402 # Demetrios
+	liege = e_asia
+}
+488.1.1 = { # 288 BC
+	holder = 10010 # Pyrrhus
+	liege = k_epirus
+}
+488.7.1 = { # 288 BC
+	holder = 30001 # Lysimachus
+	liege = k_odrysia
+}
+495.2.1 = { # 281 BC
+	holder = 603 # Arsinoe II
+	liege = k_macedon
+}
+495.8.1 = { # 281 BC
+	holder = 604 # Ptolemaios Keraunos
+}

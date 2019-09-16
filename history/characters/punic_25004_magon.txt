@@ -1,0 +1,52 @@
+# 250301-250400 for the Magon dynasty
+250301 = { # Made up
+	name = "Hannibaal"
+	dynasty = 25004 # Magon
+	religion = punic_main
+	culture = punic
+	father = 250304
+	417.1.1 = { # 359 BC
+		birth="yes"
+	}
+	465.1.1 = { # 311 BC
+		death="yes"
+	}
+}
+250302 = {
+	name = "Menahilim" # Magon
+	dynasty = 25004 # Magon
+	religion = punic_main
+	culture = punic
+	father = 250301
+	452.1.1 = { # 324 BC
+		birth="yes"
+	}
+	517.1.1 = { # 259 BC
+		death="yes"
+	}
+}
+250303 = {
+	name = "Hanno" # The III
+	dynasty = 25004 # Magon
+	religion = punic_main
+	culture = punic
+	father = 250304
+	410.1.1 = { # 366 BC Made Up
+		birth="yes"
+	}
+	436.1.1 = { # 340 BC
+		death="yes"
+	}
+}
+250304 = {
+	name = "Magon" # The III
+	dynasty = 25004 # Magon
+	religion = punic_main
+	culture = punic
+	389.1.1 = { # 387 BC Made Up
+		birth="yes"
+	}
+	432.1.1 = { # 344 BC Made Up
+		death="yes"
+	}
+}

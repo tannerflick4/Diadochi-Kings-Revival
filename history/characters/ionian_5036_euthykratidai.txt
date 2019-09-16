@@ -1,0 +1,17 @@
+# 53001-53100 for the Euthykratidai dynasty
+53001 = {
+	name = "Euthykrates" # Chief official of Olynthus, ruler of Chalcidice
+	dynasty = 5036 # Euthykratidai
+	religion = greek_main
+	culture = ionian
+	
+	add_trait = deceitful
+	add_trait = greedy
+	
+	367.1.1 = { # Made up
+		birth="yes" # 409 BC
+	}
+	440.1.1 = { # Made up
+		death="yes" # 336 BC
+	}
+}

@@ -1,0 +1,18 @@
+# 180 - Harran
+
+# County Title
+title = c_harran
+
+# Settlements
+max_settlements = 4
+b_harran_harran = castle
+b_alagma_harran = temple
+b_dabana_harran = city
+b_fadana_harran = castle
+
+# Misc
+culture = aramaic
+religion = marduk_cult
+
+# History
+# Can be filled when things change around the province

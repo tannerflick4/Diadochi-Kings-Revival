@@ -1,0 +1,44 @@
+# 1601-1700 for the Simmiadai dynasty
+1601 = {
+	name = "Polyperchon" # Polyperchon, eventual regent 
+	dynasty = 17 # Simmiadai
+	religion = greek_main
+	culture = macedonian
+	#employer = 1 # Antipater
+	
+	add_trait = misguided_warrior
+	
+	416.1.1 = { # 360 BC
+		birth="yes"
+	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	479.1.1 = { # 297 BC, Known to be alive at 304 BC
+		death="yes"
+	}
+}
+1602 = {
+	name = "Alexandros" # Son of Polyperchon
+	dynasty = 17 # Simmiadai
+	religion = greek_main
+	culture = macedonian
+	father = 1601 # Polyperchon
+	
+	add_trait = skilled_tactician
+	
+	428.1.1 = { # Made up
+		birth="yes" # 348 BC
+	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	457.1.1 = {
+		add_spouse = 22301 # Kratesipolis
+	}
+	462.1.1 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}

@@ -1,0 +1,5 @@
+# 220001-230000 for venetic characters
+	# 220001-220100 for the Veneti dynasty
+	# 220101-220200 for the Liburni dynasty
+	# 220201-220300 for the Catari dynasty
+	

@@ -1,0 +1,39 @@
+# 280101-280200 for the Lepontii dynasty
+280101 = {
+	name = "Spurie" # Made up
+	dynasty = 28002 # Lepontii
+	religion = etruscan_main
+	culture = raetic
+	father = 280103
+	425.1.1 = { # 351 BC
+		birth="yes" # Made up
+	}
+	472.1.1 = { # 304 BC
+		death="yes" # Made up 
+	}
+}
+280102 = {
+	name = "Lar" # Lepontii Made up
+	dynasty = 28002
+	religion = etruscan_main
+	culture = raetic
+	father = 280101
+	452.1.1 = { # 324 BC
+		birth="yes"
+	}
+	513.1.1 = { # 263 BC
+		death="yes"
+	}
+}
+280103 = {
+	name = "Tages" # Made up
+	dynasty = 28002 # Lepontii
+	religion = etruscan_main
+	culture = raetic
+	408.1.1 = { # 368 BC
+		birth="yes" # Made up
+	}
+	435.1.1 = { # 341 BC
+		death="yes"
+	}	
+}

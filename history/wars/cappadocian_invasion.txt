@@ -1,0 +1,19 @@
+name = "Macedonian invasion of Katpatuka"
+
+casus_belli = {
+	actor = 801 # Philippos III
+	recipient = 60001 # Ariarathes of Cappadocia
+	casus_belli = invasion_other
+	landed_title = k_cappadocia
+	date = 453.6.10
+}
+453.6.10 = {
+	add_attacker = 801 # Philippos III
+	#add_attacker = 50101 # Eumenes
+	add_defender = 60001 # Ariarathes of Cappadocia
+}
+454.1.1 = {
+	rem_attacker = 801 # Philippos III
+	#rem_attacker = 50101 # Eumenes
+	rem_defender = 60001 # Ariarathes of Cappadocia
+}

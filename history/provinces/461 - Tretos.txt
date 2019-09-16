@@ -1,0 +1,17 @@
+# 461 - Tretos
+
+# County Title
+title = c_tretos
+
+# Settlements
+max_settlements = 3
+b_tretos_tretos = castle
+b_bana_tretos = city
+b_hyela_tretos = city
+
+# Misc
+culture = arabic
+religion = arabic_main
+
+# History
+# Can be filled when things change around the province

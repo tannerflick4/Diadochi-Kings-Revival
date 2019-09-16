@@ -1,0 +1,18 @@
+415.1.1 = { # 361 BC
+	holder = 54501 # Eirenaios
+	liege = d_r_cyrene
+}
+448.1.1 = { # 328 BC
+	holder = 54502 # Eumenes
+}
+454.1.1 = { # Ophellas and the Ptolemies take over
+	holder = 1801
+	liege = d_cyrene
+}
+468.1.1 = { # 308 BC, Ophellas dies
+	holder = 601 # Ptolemy
+	liege = e_egypt
+}
+491.1.1 = { # 285 BC
+	holder = 602 # Ptolemy II
+}

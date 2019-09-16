@@ -1,0 +1,31 @@
+417.1.1 = {
+	holder = 40114
+}
+418.1.1 = {
+	holder = 40115 # Berisades
+	liege = d_rhodope
+}
+424.1.1 = {
+	holder = 40116 # Ketriporis
+}
+429.1.1 = {
+	holder = 803 # Philip II
+	liege = e_macedonia
+}
+440.10.1 = {
+	holder = 802
+}
+453.6.10 = {
+	holder = 30001 # Lysimachus
+	liege = k_s_thrace
+}
+467.1.1 = {
+	liege = k_odrysia
+}
+495.2.1 = {
+	holder = 603 # Arsinoe II
+	liege = k_macedon
+}
+495.8.1 = {
+	holder = 604 # Ptolemaios Keraunos
+}

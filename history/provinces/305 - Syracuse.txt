@@ -1,0 +1,24 @@
+# 305 - Syracuse
+
+# County Title
+title = c_syracuse # for example c_corinth
+
+# Settlements
+max_settlements = 6 # Should be reevaluated
+b_syracuse = castle
+b_leontinoi_syracuse = castle
+b_catania_syracuse = temple
+
+# Possible baronies: (Always add a # in front of a line with these!)
+#
+#
+#
+#
+
+# Misc
+culture = doric
+religion = greek_main
+
+# History
+439.1.1 = { b_syracuse = city } # 337 BC
+459.1.1 = { b_syracuse = castle } # 317 BC

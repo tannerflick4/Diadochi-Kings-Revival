@@ -1,0 +1,14 @@
+446.1.1 = { # 330 BC
+	holder = 90325 # Oxydates
+	liege="e_macedonia"
+}
+448.1.1 = { # 328 BC
+	holder = 90001 # Aturpat
+}
+453.6.10 = {
+	holder = 1101 # Peithon
+}
+462.1.1 = {
+	holder = 0
+	liege = 0
+}

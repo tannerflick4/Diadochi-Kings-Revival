@@ -1,0 +1,39 @@
+# 230301-230400 for the Norici dynasty
+230301 = {
+	name = "Liscus" # Norici leader, Made up
+	dynasty = 23004 # Norici
+	culture = gaul
+	religion = celtic_main
+	father = 230303
+	421.1.1 = {
+		birth="yes" # 355 BC, Made up
+	}
+	460.1.1 = {
+		death="yes" # 315 BC, Made up
+	}
+}
+230302 = {
+	name = "Cavarus" # Norici Made up
+	dynasty = 23004 # Norici
+	culture = gaul
+	religion = celtic_main
+	father = 230301
+	445.1.1 = { # 331 BC
+		birth="yes"
+	}
+	512.1.1 = { # 264 BC
+		death="yes"
+	}
+}
+230303 = {
+	name = "Conconnetodumnus" # Norici Made up
+	dynasty = 23004 # Norici
+	culture = gaul
+	religion = celtic_main
+	387.1.1 = { # 389 BC
+		birth="yes"
+	}
+	449.1.1 = { # 327 BC, Made up
+		death="yes"
+	}
+}

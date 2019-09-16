@@ -1,0 +1,17 @@
+# 452 - Akme
+
+# County Title
+title = c_akme
+
+# Settlements
+max_settlements = 3
+b_akme_akme = castle
+b_badeo_akme = temple
+b_adedou_akme = city
+
+# Misc
+culture = arabic
+religion = arabic_main
+
+# History
+# Can be filled when things change around the province

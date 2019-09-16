@@ -1,0 +1,52 @@
+# 52501-52600 for the Gorgippoi dynasty
+52501 = {
+	name = "Paramonos" # Gorgippia, Made up
+	dynasty = 5031 # Gorgippoi
+	religion = greek_main
+	culture = ionian
+	father = 52504
+	400.1.1 = {
+		birth="yes" # 376 BC, Made up
+	}
+	465.1.1 = {
+		death="yes" # 311 BC, Made up
+	}
+}
+52502 = {
+	name = "Nikandros" # Gorgippia, Made up
+	dynasty = 5031 # Gorgippoi
+	religion = greek_main
+	culture = ionian
+	father = 52501
+	418.1.1 = {
+		birth="yes" # 358 BC, Made up
+	}
+	454.1.1 = {
+		death="yes" # 322 BC, Made up
+	}
+}
+52503 = {
+	name = "Paramonos" # Gorgippia, Made up
+	dynasty = 5031 # Gorgippoi
+	religion = greek_main
+	culture = ionian
+	father = 52502
+	443.1.1 = {
+		birth="yes" # 333 BC, Made up
+	}
+	511.1.1 = {
+		death="yes" # 265 BC, Made up
+	}
+}
+52504 = {
+	name = "Kleon" # Gorgippia, Made up
+	dynasty = 5031 # Gorgippoi
+	religion = greek_main
+	culture = ionian
+	374.1.1 = {
+		birth="yes" # 402 BC
+	}
+	426.1.1 = {
+		death="yes" # 350 BC
+	}
+}

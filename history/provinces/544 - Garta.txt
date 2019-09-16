@@ -1,0 +1,15 @@
+# 544 - Garta
+
+# County Title
+title = c_garta
+
+# Settlements
+max_settlements = 1
+b_garta_garta = castle
+
+# Misc
+culture = scythian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

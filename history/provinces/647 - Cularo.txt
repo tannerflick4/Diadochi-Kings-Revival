@@ -1,0 +1,18 @@
+# 647 - Cularo
+
+# County Title
+title = c_cularo
+
+# Settlements
+max_settlements = 4
+b_cularo_cularo = castle
+b_mantala_cularo = castle
+b_lemincum_cularo = city
+b_labisco_cularo = temple
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

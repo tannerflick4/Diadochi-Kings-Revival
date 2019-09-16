@@ -1,0 +1,17 @@
+# 974 - Osca
+
+# County Title
+title = c_osca
+
+# Settlements
+max_settlements = 3
+b_osca_osca = castle
+b_sesars_osca = city
+b_bolskan_osca = temple
+
+# Misc
+culture = aquitanian
+religion = aquitanian_main
+
+# History
+# Can be filled when things change around the province

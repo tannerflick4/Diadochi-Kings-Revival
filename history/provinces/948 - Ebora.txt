@@ -1,0 +1,20 @@
+# 948 - Ebora
+
+# County Title
+title = c_ebora
+
+# Settlements
+max_settlements = 6
+b_ebora_ebora = castle
+b_salacia_ebora = city
+#b_malateca_ebora = city
+b_mirobriga_ebora = castle
+b_calanta_ebora = temple
+#b_caetobriga_ebore = city
+
+# Misc
+culture = celtiberian
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

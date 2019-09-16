@@ -1,0 +1,18 @@
+# 273 - Drapsaka
+
+# County Title
+title = c_drapsaka
+
+# Settlements
+max_settlements = 4
+b_drapsaca_drapsaka = castle
+b_astakana_drapsaka = city
+b_merus_drapsaka = city
+b_arigaea_drapsaka = castle
+
+# Misc
+culture = bactrian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

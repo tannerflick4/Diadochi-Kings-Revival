@@ -1,0 +1,26 @@
+# 260001-260100 for the Massylii dynasty
+260001 = { 
+	name = "Zelalsen" # Massylii king, Made up
+	dynasty = 26001 # Massylii
+	religion = berber_main
+	culture = berber
+	father = 260002
+	412.1.1 = { # 364 BC Made up
+		birth="yes"
+	}
+	502.1.1 = { # 274 BC
+		death="yes"
+	}
+}
+260002 = { 
+	name = "Maesares" # Massylii king, Made Up
+	dynasty = 26001 # Massylii
+	religion = berber_main
+	culture = berber
+	371.1.1 = {
+		birth="yes" # 405 BC Made Up
+	}
+	451.1.1 = {
+		death="yes" # 325 BC Made Up
+	}
+}

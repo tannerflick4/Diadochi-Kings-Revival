@@ -1,0 +1,16 @@
+# 282 - Artoata
+
+# County Title
+title = c_artoata
+
+# Settlements
+max_settlements = 2
+b_nagara_artoata = castle
+b_artoata_artoata = city
+
+# Misc
+culture = arian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

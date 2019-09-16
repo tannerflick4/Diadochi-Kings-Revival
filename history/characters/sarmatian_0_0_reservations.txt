@@ -1,0 +1,5 @@
+# 340001-350000 for Sarmatian characters
+	# 340001-340100 for the Sirakes dynasty
+	# 340101-340200 for the Legae dynasty
+	# 340201-340300 for the Maiotai dynasty
+	

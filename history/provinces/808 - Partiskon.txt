@@ -1,0 +1,16 @@
+# 808 - Partiskon
+
+# County Title
+title = c_partiskon
+
+# Settlements
+max_settlements = 2
+b_partiskon_partiskon = castle
+b_bormanum_partiskon = castle
+
+# Misc
+culture = dacian
+religion = zalmoxism
+
+# History
+# Can be filled when things change around the province

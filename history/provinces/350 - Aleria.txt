@@ -1,0 +1,23 @@
+# 350 - Aleria
+
+# County Title
+title = c_aleria # for example c_corinth
+
+# Settlements
+max_settlements = 6 # Should be reevaluated
+b_clunium_aleria = city
+b_aleria_aleria = castle
+b_mariana_aleria = temple
+
+# Possible baronies: (Always add a # in front of a line with these!)
+#
+#
+#
+#
+
+# Misc
+culture = etruscan
+religion = etruscan_main
+
+# History
+# Can be filled when things change around the province

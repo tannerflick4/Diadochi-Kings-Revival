@@ -1,0 +1,19 @@
+415.1.1 = {
+	liege = k_r_athens
+	holder = 21701
+}
+421.1.1 = { # 355 BC, Won Social war
+	liege = 0
+}
+438.8.2 = { # 338 BC, Battle of Chaeronea
+	liege = e_macedonia
+}
+453.6.9 = {
+	liege="k_s_caria"
+}
+454.1.1 = {
+	holder = 21702 # Theodoros
+}
+463.1.1 = {
+	liege = 0
+}

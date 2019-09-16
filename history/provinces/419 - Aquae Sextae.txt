@@ -1,0 +1,18 @@
+# 419 - Aquae Sextae
+
+# County Title
+title = c_aquae_sextae
+
+# Settlements
+max_settlements = 4
+b_endremont_aquae_sextae = castle
+b_cabellio_aquae_sextae = city
+b_glanum_aquae_sextae = castle
+b_aramo_aquae_sextae = city
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

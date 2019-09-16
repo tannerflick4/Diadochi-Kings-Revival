@@ -1,0 +1,65 @@
+# 120601-120700 for the Chola dynasty
+120601 = {
+	name = "Nedun Jembiyan" # Chola king
+	dynasty = 12133
+	religion = dravidian_main
+	culture = tamil
+	371.1.1 = { # 405 BC made up
+		birth="yes"
+	}
+	431.1.1 = { # 345 BC
+		death="yes"
+	}
+}
+120602 = {
+	name = "Nakkan Aran Jozhan" # Chola king
+	dynasty = 12133
+	religion = dravidian_main
+	culture = tamil
+	father = 120601
+	397.1.1 = { # 379 BC made up
+		birth="yes"
+	}
+	446.1.1 = { # 330 BC
+		death="yes"
+	}
+}
+120603 = {
+	name = "Ambalathu Irungoch Chenni" # Chola king
+	dynasty = 12133
+	religion = dravidian_main
+	culture = tamil
+	father = 120602
+	429.1.1 = { # 347 BC made up
+		birth="yes"
+	}
+	460.1.1 = { # 316 BC
+		death="yes"
+	}
+}
+120604 = {
+	name = "Perunar Killi" # Chola king
+	dynasty = 12133
+	religion = dravidian_main
+	culture = tamil
+	father = 120603
+	451.1.1 = { # 325 BC made up
+		birth="yes"
+	}
+	490.1.1 = { # 286 BC
+		death="yes"
+	}
+}
+120605 = {
+	name = "Kochaet Cenni"
+	dynasty = 12133
+	religion = dravidian_main
+	culture = tamil
+	father = 120604
+	470.1.1 = { # 306 BC made up
+		birth="yes"
+	}
+	501.1.1 = { # 275 BC
+		death="yes"
+	}
+}

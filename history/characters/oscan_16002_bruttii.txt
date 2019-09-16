@@ -1,0 +1,39 @@
+# 160101-160200 for the Bruttii dynasty
+160101 = {
+	name = "Seppiis" # Bruttii
+	dynasty = 16002 # Bruttii
+	religion = roman_main
+	culture = oscan
+	father = 160103
+	423.1.1 = { # 353 BC made up
+		birth="yes"
+	}
+	483.1.1 = { # 303 BC made up
+		death="yes"
+	}
+}
+160102 = {
+	name = "Pompo" # Bruttii
+	dynasty = 16002 # Bruttii
+	religion = roman_main
+	culture = oscan
+	father = 160101
+	453.1.1 = { # 323 BC Made up
+		birth="yes"
+	}
+	518.1.1 = { # 258 BC Made up
+		death="yes"
+	}
+}
+160103 = {
+	name = "Ancus" # Bruttii, Made up
+	dynasty = 16002 # Bruttii
+	religion = roman_main
+	culture = oscan
+	371.1.1 = { # 405 BC Made Up
+		birth="yes"
+	}
+	444.1.1 = { # 332 BC Made Up
+		death="yes"
+	}
+}

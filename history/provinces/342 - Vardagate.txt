@@ -1,0 +1,16 @@
+# 342 - Vardagate
+
+# County Title
+title = c_vardagate # for example c_corinth
+
+# Settlements
+max_settlements = 2
+b_vardagate_vardagate = castle
+b_industria_vardagate = city
+
+# Misc
+culture = ligurian
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

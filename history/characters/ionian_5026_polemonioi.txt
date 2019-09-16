@@ -1,0 +1,25 @@
+# 52001-52100 for the Polemonioi dynasty
+52001 = {
+	name = "Zephyros" # Ruler of Polemonion, Made up
+	dynasty = 5026 # Polemonioi
+	religion = greek_main
+	culture = ionian
+	401.1.1 = { # Made up
+		birth="yes" # 375 BC
+	}
+	475.1.1 = { # Made up
+		death="yes" # 301 BC
+	}
+}
+52002 = {
+	name = "Euphemios" # Ruler of Polemonion, Made up
+	dynasty = 5026 # Polemonioi
+	religion = greek_main
+	culture = ionian
+	432.1.1 = {
+		birth="yes" # 344 BC
+	}
+	499.1.1 = {
+		death="yes" # 277 BC
+	}
+}

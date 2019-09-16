@@ -1,0 +1,27 @@
+# 420301-420400 for the Titti dynasty
+420301 = {
+	name = "Retogenes" # Made up Titti leader
+	dynasty = 42004
+	culture = celtiberian
+	religion = celtic_main
+	
+	385.1.1 = { # 391 BC, Made up
+		birth="yes"
+	}
+	467.1.1 = { # 308 BC
+		death="yes"
+	}
+}
+420302 = {
+	name = "Suisetarten" # Made up Titti leader
+	dynasty = 42004
+	culture = celtiberian
+	religion = celtic_main
+	
+	415.1.1 = { # 361 BC, Made up
+		birth="yes"
+	}
+	497.1.1 = { # 279 BC
+		death="yes"
+	}
+}

@@ -1,0 +1,17 @@
+# 568 - Narapa
+
+# County Title
+title = c_narapa
+
+# Settlements
+max_settlements = 3
+b_narapa_narapa = castle
+b_asata_narapa = castle
+b_karsaca_narapa = city
+
+# Misc
+culture = scythian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

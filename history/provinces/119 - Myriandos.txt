@@ -1,0 +1,19 @@
+# 119 - Myriandos
+
+# County Title
+title = c_myriandos # for example c_corinth
+
+# Settlements
+max_settlements = 5
+b_myriandos_myriandos = castle
+b_kilikiai_pylai_myriandos = temple
+b_alexandria_myriandos = city
+b_issus_myriandos = castle
+b_epiphaneia_myriandos = temple
+
+# Misc
+culture = luwian
+religion = anatolian_main
+
+# History
+# Can be filled when things change around the province

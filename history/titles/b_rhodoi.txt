@@ -1,0 +1,11 @@
+417.1.1 = { # 359 BC
+	holding_dynasty = 2018
+	liege = k_r_athens
+	holder = 21701
+}
+421.1.1 = { # 355 BC
+	liege = d_r_rhodes
+}
+454.1.1 = {
+	holder = 21702 # Theodoros
+}

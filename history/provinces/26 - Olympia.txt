@@ -1,0 +1,19 @@
+# 26 - Olympia
+
+# County Title
+title = c_olympia # for example c_corinth
+
+# Settlements
+max_settlements = 5
+b_elis_olympia = castle
+b_olympia_olympia = temple
+b_dyme_olympia = city
+b_lepreon_olympia = castle
+b_hypana_olympia = temple
+
+# Misc
+culture = doric
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

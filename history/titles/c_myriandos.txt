@@ -1,0 +1,22 @@
+417.1.1 = {
+	holder = 90324
+	liege = k_p_babylon
+}
+446.1.1 = { # 330 BC
+	holder = 501 # Philotas, Satrap of Cilicia
+	liege = k_s_cilicia
+}
+460.1.1 = {
+	holder = 401 # Antigonus
+	liege = k_s_phrygia
+}
+467.1.1 = {
+	liege = e_asia
+}
+475.1.1 = {
+	holder = 1001 # Seleukos
+	liege = e_syria
+}
+495.8.1 = {
+	holder = 1002 # Antiochus
+}

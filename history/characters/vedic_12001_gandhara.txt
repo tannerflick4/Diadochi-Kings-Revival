@@ -1,0 +1,18 @@
+# 120001-120100 for the Taksxila dynasty
+120001 = {
+	name = "Ambhi" # Taxiles, satrap of Punjab
+	dynasty = 12001 # Gandhara
+	religion = buddhism_main
+	culture = gandhari
+	
+	add_trait = humble
+	add_trait = patient
+	add_trait = charitable
+	
+	411.1.1 = { # 365 BC Made up
+		birth="yes"
+	}
+	456.1.1 = { # 320 BC Made up
+		death="yes"
+	}
+}

@@ -1,0 +1,16 @@
+# 976 - Loutia
+
+# County Title
+title = c_loutia
+
+# Settlements
+max_settlements = 2
+b_lutiakos_loutia = castle
+b_aratikos_loutia = temple
+
+# Misc
+culture = celtiberian
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

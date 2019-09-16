@@ -1,0 +1,20 @@
+# 83 - Halicarnassus
+
+# County Title
+title = c_halicarnassus # for example c_corinth
+
+# Settlements
+max_settlements = 6
+b_halicarnassus_halicarnassus = castle
+b_lagina_halicarnassus = temple
+b_bargylia_halicarnassus = city
+b_pargasa_halicarnassus = temple
+b_hydissos_halicarnassus = castle
+b_theangela_halicarnassus = castle
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

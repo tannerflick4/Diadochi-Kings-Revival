@@ -1,0 +1,21 @@
+# 366 - Hippo
+
+# County Title
+title = c_hippo
+
+# Settlements
+max_settlements = 5
+b_rusicade_hippo = city
+b_hippo_hippo = castle
+b_sulluctu_hippo = castle
+b_zacca_hippo = city
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_tacatua_hippo
+
+# Misc
+culture = punic
+religion = punic_main
+
+# History
+# Can be filled when things change around the province

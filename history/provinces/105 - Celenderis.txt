@@ -1,0 +1,22 @@
+# 105 - Celenderis
+
+# County Title
+title = c_celenderis # for example c_corinth
+
+# Settlements
+max_settlements = 6
+b_celenderis_celenderis = castle
+b_aphrodisias_celenderis = temple
+b_corycus_celenderis = city
+b_ninica_celenderis = castle
+b_holmoi_celenderis = city
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_seleucia_celenderis
+
+# Misc
+culture = luwian
+religion = anatolian_main
+
+# History
+# Can be filled when things change around the province

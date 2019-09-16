@@ -1,0 +1,15 @@
+# 623 - Karsabaga
+
+# County Title
+title = c_karsabaga
+
+# Settlements
+max_settlements = 1
+b_karsabaga_karsabaga = castle
+
+# Misc
+culture = scythian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

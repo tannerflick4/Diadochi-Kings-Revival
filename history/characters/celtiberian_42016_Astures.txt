@@ -1,0 +1,27 @@
+# 421501-421600 for the Astures dynasty
+421501 = {
+	name = "Tureno" # Made up Astures leader
+	dynasty = 42016
+	culture = celtiberian
+	religion = celtic_main
+	
+	384.1.1 = { # 392 BC, Made up
+		birth="yes"
+	}
+	466.1.1 = { # 309 BC
+		death="yes"
+	}
+}
+421502 = {
+	name = "Sleitiu" 
+	dynasty = 42016
+	culture = celtiberian
+	religion = celtic_main
+	
+	444.1.1 = { 
+		birth="yes"
+	}
+	524.1.1 = {
+		death="yes"
+	}
+}

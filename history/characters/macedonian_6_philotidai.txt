@@ -1,0 +1,19 @@
+# 501-600 for the Philotidai dynasty
+501 = {
+	name = "Philotas" # Philotas, Satrap of Cilicia
+	dynasty = 6 # Philotidai
+	religion = greek_main
+	culture = macedonian
+	422.1.1 = {
+		birth="yes" # 354 BC, Made up
+	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	460.1.1 = { # 316 BC
+		death = {
+			death_reason = death_execution # Made up, but he fell into Antigonus' hands after escaping from a prison of Antigonus.
+			killer = 401
+		}
+	}
+}

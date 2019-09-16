@@ -1,0 +1,18 @@
+# 956 - Talabriga
+
+# County Title
+title = c_talabriga
+
+# Settlements
+max_settlements = 4
+b_talabrica_talabriga = castle
+#b_aeminium_talabriga = city
+b_langobriga_talabriga = castle
+#b_lamecum_talabriga = city
+
+# Misc
+culture = celtiberian
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

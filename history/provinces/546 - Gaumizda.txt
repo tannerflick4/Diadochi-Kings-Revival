@@ -1,0 +1,17 @@
+# 546 - Gaumizda
+
+# County Title
+title = c_gaumizda
+
+# Settlements
+max_settlements = 3
+b_gaumizda_gaumizda = castle
+b_kissarca_gaumizda = castle
+b_gaukol_gaumizda = city
+
+# Misc
+culture = scythian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

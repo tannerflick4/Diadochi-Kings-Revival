@@ -1,0 +1,23 @@
+# 29 - Ambracia
+
+# County Title
+title = c_ambracia # for example c_corinth
+
+# Settlements
+max_settlements = 6 # Should be reevaluated
+b_ambracia_ambracia = castle
+b_ephyra_ambracia = temple
+b_nicopolis_ambracia = city
+b_ambracus_ambracia = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_kassiope_ambracia
+# b_pandosia_ambracia
+# b_euroia_ambracia
+
+# Misc
+culture = doric
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

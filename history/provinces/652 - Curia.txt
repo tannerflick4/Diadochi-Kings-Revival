@@ -1,0 +1,17 @@
+# 652 - Curia
+
+# County Title
+title = c_curia
+
+# Settlements
+max_settlements = 3
+b_curia_curia = castle
+b_lapidaria_curia = temple
+b_murus_curia = castle
+
+# Misc
+culture = raetic
+religion = etruscan_main
+
+# History
+# Can be filled when things change around the province

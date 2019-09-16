@@ -1,0 +1,41 @@
+# 26001-27000 for Berber dynasties
+26001 = {
+	name = "Massylii"
+	culture = berber
+}
+26002 = {
+	name = "Masaesyli"
+	culture = berber
+}
+26003 = {
+	name = "Mauri"
+	culture = berber
+}
+26004 = {
+	name = "Garamantes"
+	culture = berber
+}
+26005 = {
+	name = "Gamphasantes"
+	culture = berber
+}
+26006 = {
+	name = "Tidamensioi"
+	culture = berber
+}
+26007 = {
+	name = "Macae"
+	culture = berber
+}
+26008 = {
+	name = "Koufri"
+	culture = berber
+}
+26009 = {
+	name = "Kawari"
+	culture = berber
+}
+26010 = {
+	name = "Gati"
+	culture = berber
+}

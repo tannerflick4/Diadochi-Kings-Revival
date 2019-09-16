@@ -1,0 +1,109 @@
+# 50201-50300 for the Spartokidai dynasty
+50201 = {
+	name = "Pairisades" # Pairisades I, King of Bosporus
+	dynasty = 5003 # Spartokidai # Spartokidai
+	religion = greek_main
+	culture = ionian
+	father = 50207
+	407.1.1 = { # 369 BC Made up
+		birth="yes"
+	}
+	467.1.1 = { # 309 BC
+		death="yes"
+	}
+}
+50202 = {
+	name = "Satyrus" # Satyrus II, King of Bosporus
+	dynasty = 5003 # Spartokidai
+	religion = greek_main
+	culture = ionian
+	father = 50201 # Pairisades I
+	445.1.1 = { # 331 BC Made up
+		birth="yes"
+	}
+	467.4.1 = { # 310 BC
+		death="yes"
+	}
+}
+50203 = {
+	name = "Eumelos" # Eumelos, king of Bosporus
+	dynasty = 5003 # Spartokidai
+	religion = greek_main
+	culture = ionian
+	father = 50201 # Pairisades I
+	444.1.1 = { # 332 BC Made up
+		birth="yes"
+	}
+	473.1.1 = { # 304 BC
+		death="yes"
+	}
+}
+50204 = {
+	name = "Prytanis" # Bosporan King
+	dynasty = 5003 # Spartokidai
+	religion = greek_main
+	culture = ionian
+	father = 50201
+	447.1.1 = { # 329 BC Made up
+		birth="yes"
+	}
+	468.1.1 = { # 308 BC
+		death="yes"
+	}
+}
+50205 = {
+	name = "Sparatokos" # Bosporan King
+	dynasty = 5003 # Spartokidai
+	religion = greek_main
+	culture = ionian
+	father = 50203
+	457.1.1 = { # 309 BC Made up
+		birth="yes"
+	}
+	492.1.1 = { # 284 BC
+		death="yes"
+	}
+}
+50206 = {
+	name = "Pairisades" # Bosporan King
+	dynasty = 5003 # Spartokidai
+	religion = greek_main
+	culture = ionian
+	father = 50205
+	477.1.1 = { # 289 BC Made up
+		birth="yes"
+	}
+	527.1.1 = { # 250 BC
+		death="yes"
+	}
+}
+50207 = {
+	name = "Leukon" # I, Bosporan King
+	dynasty = 5003 # Spartokidai
+	religion = greek_main
+	culture = ionian
+	
+	add_trait = skilled_tactician
+	add_trait = diligent
+	add_trait = greedy
+	
+	371.1.1 = { # 405 BC made up
+		birth="yes"
+	}
+	429.1.1 = { # 347 BC
+		death="yes"
+	}
+}
+50208 = {
+	name = "Sparatokos" # Bosporan King
+	dynasty = 5003 # Spartokidai
+	religion = greek_main
+	culture = ionian
+	father = 50207
+	391.1.1 = { # 385 BC
+		birth="yes"
+	}
+	434.1.1 = { # 342 BC
+		death="yes"
+	}
+}

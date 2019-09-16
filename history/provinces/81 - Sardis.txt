@@ -1,0 +1,20 @@
+# 81 - Sardis
+
+# County Title
+title = c_sardis # for example c_corinth
+
+# Settlements
+max_settlements = 6
+b_sardis_sardis = castle
+b_tmolos_sardis = castle
+b_tateikome_sardis = castle
+b_myloukome_sardis = city
+b_boukolion_sardis = city
+#b_philadelphia_sardis = city
+
+# Misc
+culture = luwian
+religion = anatolian_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,20 @@
+# 844 - Diospolis Mikra
+
+# County Title
+title = c_diospolis_mikra
+
+# Settlements
+max_settlements = 5
+b_diospolis_mikra_diospolis_mikra = castle
+b_memnonia_diospolis_mikra = temple # Ramessium
+b_abydos_diospolis_mikra = castle
+b_this_diospolis_mikra = city
+
+#b_ptolemais_hermeiou_diospolis_mikra = castle
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,14 @@
+# 400101-400200 for the Counei dynasty
+400101 = {
+	name = "Melmanios" # Made up Counei leader
+	dynasty = 40002
+	culture = turdetanian
+	religion = iberian_main
+	
+	383.1.1 = { # 393 BC, Made up
+		birth="yes"
+	}
+	465.1.1 = { # 311 BC
+		death="yes"
+	}
+}

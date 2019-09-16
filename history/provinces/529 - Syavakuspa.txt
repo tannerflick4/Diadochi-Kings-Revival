@@ -1,0 +1,16 @@
+# 529 - Syavakuspa
+
+# County Title
+title = c_syavakuspa
+
+# Settlements
+max_settlements = 2
+b_syavakuspa_syavakuspa = castle
+b_gikol_syavakuspa = city
+
+# Misc
+culture = sarmatian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

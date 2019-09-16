@@ -1,0 +1,21 @@
+# 23 - Sparta
+
+# County Title
+title = c_sparta # for example c_corinth
+
+# Settlements
+max_settlements = 6 
+b_sparta_sparta = castle
+b_alagonia_sparta = temple
+b_epidauros_sparta = city
+b_gytheion_sparta = castle
+b_tainaron_sparta = city
+b_las_sparta = castle
+
+
+# Misc
+culture = doric
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

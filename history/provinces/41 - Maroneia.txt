@@ -1,0 +1,17 @@
+# 41 - Maroneia
+
+# County Title
+title = c_maroneia # for example c_corinth
+
+# Settlements
+max_settlements = 3
+b_maroneia_maroneia = castle
+b_mesembria_maroneia = temple
+b_ainos_maroneia = city
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

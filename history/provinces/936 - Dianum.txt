@@ -1,0 +1,20 @@
+# 936 - Dianum
+
+# County Title
+title = c_dianum
+
+# Settlements
+max_settlements = 3
+b_hemeroskopion_dianum = city
+b_saiti_dianum = castle
+b_ilici_dianum = castle
+
+# Misc
+culture = ionian
+religion = greek_main
+
+
+
+
+# History
+# Can be filled when things change around the province

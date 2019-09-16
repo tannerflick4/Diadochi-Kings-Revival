@@ -1,0 +1,18 @@
+# 670 - Mohodayapur
+
+# County Title
+title = c_mohodayapur
+
+# Settlements
+max_settlements = 4
+b_mohodayapur_mohodayapur = castle
+b_aloe_mohodayapur = castle
+b_tropina_mohodayapur = city
+b_paloura_mohodayapur = castle
+
+# Misc
+culture = tamil
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

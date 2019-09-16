@@ -1,0 +1,8 @@
+459.7.1 = {
+	holder = 51601 # Demetrius of Phaleron
+	liege = k_macedon
+}
+469.1.1 = {
+	holder = 0
+	liege = 0
+}

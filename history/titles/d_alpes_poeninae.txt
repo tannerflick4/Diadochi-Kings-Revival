@@ -1,0 +1,9 @@
+392.1.1 = { # 384 BC
+	holder = 231403
+}
+424.1.1 = { # 352 BC
+	holder = 231401 # Cotus of the Salassi
+}
+468.1.1 = { # 308 BC
+	holder = 231402
+}

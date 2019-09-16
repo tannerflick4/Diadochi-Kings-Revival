@@ -1,0 +1,11 @@
+417.1.1 = {
+	holder = 140003 # Bardyllis
+	liege = d_dardania
+}
+418.1.1 = {
+	holder = 140001 # Cleitus, leader of the dardanians
+}
+466.1.1 = { # 310 BC
+	holder = 230704 # Molistomos
+	liege = k_tylis
+}

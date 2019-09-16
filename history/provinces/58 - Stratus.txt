@@ -1,0 +1,19 @@
+# 58 - Stratus
+
+# County Title
+title = c_stratus # for example c_corinth
+
+# Settlements
+max_settlements = 5
+b_stratus_stratus = castle
+b_phara_stratus = temple
+b_leucas_stratus = city
+b_tyrrheion_stratus = castle
+b_oiniadai_stratus = castle
+
+# Misc
+culture = doric
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

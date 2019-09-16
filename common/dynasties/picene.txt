@@ -1,0 +1,6 @@
+# 19001-20000 for Picene dynasties
+
+19001 = {
+	name = "Picus"
+	culture = picene
+}

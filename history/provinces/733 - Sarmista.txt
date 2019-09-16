@@ -1,0 +1,16 @@
+# 733 - Sarmista
+
+# County Title
+title = c_sarmista
+
+# Settlements
+max_settlements = 2
+b_sarmista_sarmista = castle
+b_sristhali_sarmista = castle
+
+# Misc
+culture = shauraseni
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

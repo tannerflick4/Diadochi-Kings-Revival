@@ -1,0 +1,23 @@
+# 313 - Elea
+
+# County Title
+title = c_elea # for example c_corinth
+
+# Settlements
+max_settlements = 6 # Should be reevaluated
+b_elea = castle
+b_laus_elea = city
+b_pixous_elea = temple
+
+# Possible baronies: (Always add a # in front of a line with these!)
+#
+#
+#
+#
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

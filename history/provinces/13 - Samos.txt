@@ -1,0 +1,17 @@
+# 13 - Samos
+# County Title
+title = c_samos # for example c_corinth
+
+# Settlements
+max_settlements = 6 # Should be reevaluated
+b_samos_samos = castle
+b_korsiai_samos = temple
+b_histoi_samos = city
+b_drakanon_samos = castle
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

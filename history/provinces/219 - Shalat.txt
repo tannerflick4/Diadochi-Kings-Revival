@@ -1,0 +1,24 @@
+# 219 - Shalat
+
+# County Title
+title = c_shalat
+
+# Settlements
+max_settlements = 4
+b_shalat_shalat = castle
+b_naxouana_shalat = temple
+b_nakorzan_shalat = city
+b_sikan_shalat = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+#
+#
+#
+#
+
+# Misc
+culture = armenian
+religion = armenian_main
+
+# History
+# Can be filled when things change around the province

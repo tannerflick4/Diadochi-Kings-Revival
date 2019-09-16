@@ -1,0 +1,15 @@
+# 522 - Madula
+
+# County Title
+title = c_madula
+
+# Settlements
+max_settlements = 1
+b_madula_madula = castle
+
+# Misc
+culture = sarmatian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,19 @@
+# 464 - Hadramaut
+
+# County Title
+title = c_hadramaut
+
+# Settlements
+max_settlements = 5
+b_hadramaut_hadramaut = castle
+b_vodona_hadramaut = city
+b_mapha_hadramaut = city
+b_rheda_hadramaut = castle
+b_madafara_hadramaut = city
+
+# Misc
+culture = arabic
+religion = arabic_main
+
+# History
+# Can be filled when things change around the province

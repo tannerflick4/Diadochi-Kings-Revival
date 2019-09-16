@@ -1,0 +1,23 @@
+# 357 - Bononia
+
+# County Title
+title = c_bononia # for example c_corinth
+
+# Settlements
+max_settlements = 6 # Should be reevaluated
+b_bononia_bononia = castle
+b_mutina_bononia = temple
+b_campi_bononia = city
+
+# Possible baronies: (Always add a # in front of a line with these!)
+#
+#
+#
+#
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,53 @@
+# 52701-52800 for the Kerkinitoi dynasty
+52701 = {
+	name = "Alexis" # Kerkinitis, Made up
+	dynasty = 5033 # Kerkinitoi
+	religion = greek_main
+	culture = ionian
+	father = 52704
+	416.1.1 = {
+		birth="yes" # 360 BC, Made up
+	}
+	464.1.1 = {
+		death="yes" # 312 BC, Made up
+	}
+}
+52702 = {
+	name = "Zephyros" # Kerkinitis, Made up
+	dynasty = 5033 # Kerkinitoi
+	religion = greek_main
+	culture = ionian
+	father = 52701 # Alexis
+	451.1.1 = {
+		birth="yes" # 325 BC, Made up
+	}
+	489.1.1 = {
+		death="yes" # 287 BC, Made up
+	}
+}
+52703 = {
+	name = "Chrysanthe" # Kerkinitis, Made up	
+	dynasty = 5033 # Kerkinitoi
+	religion = greek_main
+	culture = ionian
+	father = 52702 # Zephyros
+	female = yes
+	471.1.1 = {
+		birth="yes" # 305 BC, Made up
+	}
+	522.1.1 = {
+		death="yes" # 244 BC, Made up
+	}
+}
+52704 = {
+	name = "Perikles" # Kerkinitis, Made up
+	dynasty = 5033 # Kerkinitoi
+	religion = greek_main
+	culture = ionian
+	391.1.1 = {
+		birth="yes" # 385 BC
+	}
+	423.1.1 = {
+		death="yes" # 353 BC
+	}
+}

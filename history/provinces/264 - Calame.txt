@@ -1,0 +1,18 @@
+# 264 - Calame
+
+# County Title
+title = c_calame
+
+# Settlements
+max_settlements = 4
+b_calame_calame = castle
+b_cysa_temple = temple
+b_pasua_calame = city
+b_colta_calame = city
+
+# Misc
+culture = arian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

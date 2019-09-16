@@ -1,0 +1,21 @@
+# 214 - Karin
+
+# County Title
+title = c_karin
+
+# Settlements
+max_settlements = 5
+b_karin_karin = castle
+b_adconfluentes_karin = temple
+b_elegeia_karin = city
+b_bizana_karin = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_gymnias_karin
+
+# Misc
+culture = armenian
+religion = armenian_main
+
+# History
+# Can be filled when things change around the province

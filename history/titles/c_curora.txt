@@ -1,0 +1,29 @@
+417.1.1 = {
+	holder = 90701
+	liege = k_p_arachosia
+}
+447.7.1 = { # 329 BC
+	holder = 110001 # Stasanor
+	liege="k_s_aria"
+}
+455.1.1 = {
+	holder = 110101 # Stasander
+}
+460.1.1 = {
+	holder = 401 # Antigonus
+	liege = k_s_phrygia
+}
+467.1.1 = {
+	liege = e_asia
+}
+470.1.1 = {
+	holder = 1001 # Seleukos
+	liege = e_syria
+}
+473.1.1 = {
+	holder = 120301
+	liege = e_india
+}
+478.1.1 = {
+	holder = 120302
+}

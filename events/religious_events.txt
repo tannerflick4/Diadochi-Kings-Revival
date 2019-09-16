@@ -1,0 +1,1518 @@
+###################################
+#
+# Events for Religion
+#
+# Id 39000 - 39999 is reserved
+#
+###################################
+
+# Written by Henrik F�hraeus, Johan Andersson & Niklas Strid
+
+########################################
+# HERESIES
+########################################
+
+# Heresy appears out of "nowhere"
+province_event = {
+	id = 39000
+	desc = "EVTDESC39000"
+	picture = "GFX_evt_stone_church"
+	border = "GFX_event_normal_frame_religion"
+	
+	lacks_dlc = "Sons of Abraham"
+	
+	trigger = {
+		is_heretic = no
+		has_heresies = yes
+		NOT = { province_id = 333 } # Rome
+		NOT = { province_id = 497 } # Thrace
+		NOT = { province_id = 719 } # Mecca
+	}
+	
+	mean_time_to_happen = {
+		months = 9600
+		modifier = {
+			factor = 2.0
+			religion_authority = 0.6
+		}
+		modifier = {
+			factor = 2.0
+			religion_authority = 0.8
+		}
+		modifier = {
+			factor = 2
+			has_game_rule = {
+				name = religious_conversion
+				value = slower
+			}
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { religion_authority = 0.2 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { religion_authority = 0.4 }
+		}
+	}
+	
+	immediate = {
+		become_heretic = yes
+		set_province_flag = heresy_in_province
+		add_province_modifier = {
+			name = religious_unrest
+			duration = 730
+		}
+		owner = {
+			if = {
+				limit = { ai = no }
+				chronicle = {
+					entry = CHRONICLE_HERESY_SPREAD
+					picture = GFX_evt_heretic
+				}
+			}
+		}
+		owner = {
+			any_liege = {
+				if = {
+					limit = { ai = no }
+					chronicle = {
+						entry = CHRONICLE_HERESY_SPREAD
+						picture = GFX_evt_heretic
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = {
+			text = "EVTOPTA39000"
+			trigger = { owner = { NOT = { religion = ROOT } } }
+		}
+		name = {
+			text = "EVTOPTB39000"
+			trigger = { owner = { religion = ROOT } }
+		}
+		if = {
+			limit = { 
+				ruler = { is_parent_religion = ROOT }
+			}
+			ruler = { piety = -10 }
+		}
+		if = {
+			limit = {
+				owner = {
+					top_liege = {
+						NOT = {
+							any_realm_province = {
+								religion = ROOT
+								has_province_modifier = heretic_stronghold
+							}
+						}
+					}
+				}
+			}
+			add_province_modifier = {
+				name = heretic_stronghold
+				duration = 3650
+			}
+		}
+		# News spread
+		hidden_tooltip = {
+			owner = {
+				top_liege = {
+					if = {
+						limit = {
+							NOT = { character = PREV }
+						}
+						character_event = { id = 39400 days = 2 }
+					}
+					any_vassal = {
+						limit = {
+							OR = {
+								is_parent_religion = ROOT
+								religion = ROOT
+							}
+						}
+						character_event = { id = 39400 days = 2 }
+					}
+				}
+			}
+		}
+	}
+}
+
+# News spread in realm
+character_event = {
+	id = 39400
+	desc = "EVTDESC39400"
+	picture = GFX_evt_heretic
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA39400"
+		trigger = {
+			NOT = { religion = FROM }
+			religion_group = FROM
+		}
+	}
+	option = {
+		name = "EXCELLENT"
+		trigger = {
+			religion = FROM
+		}
+	}
+	option = {
+		name = "EVTOPTB39400"
+		trigger = {
+			NOT = { religion_group = FROM }
+		}
+	}
+}
+
+# Heresy spreads to a neighboring province
+province_event = {
+	id = 39001
+	desc = "EVTDESC39001"
+	picture = "GFX_evt_stone_church"
+	border = "GFX_event_normal_frame_religion"
+	
+	lacks_dlc = "Sons of Abraham"
+	
+	trigger = {
+		is_heretic = no
+		has_heresies = yes
+		owner = { is_heretic = no }
+		
+		any_neighbor_province = {
+			has_owner = yes
+			is_heresy_of = ROOT
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1200
+		modifier = {
+			factor = 2.0
+			religion_authority = 0.6
+		}
+		modifier = {
+			factor = 2.0
+			religion_authority = 0.8
+		}
+		modifier = {
+			factor = 2
+			has_game_rule = {
+				name = religious_conversion
+				value = slower
+			}
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { religion_authority = 0.2 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { religion_authority = 0.4 }
+		}
+		modifier = {
+			factor = 0.75
+			any_neighbor_province = {
+				has_owner = yes
+				is_heresy_of = ROOT
+				ROOT = {
+					any_neighbor_province = {
+						is_heresy_of = ROOT
+						NOT = { province_id = PREVPREV }
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			any_neighbor_province = {
+				has_owner = yes
+				is_heresy_of = ROOT
+				has_province_modifier = heretic_stronghold
+			}
+		}
+	}
+	
+	immediate = {
+		random_neighbor_province = {
+			limit = {
+				is_heresy_of = ROOT
+			}
+			reverse_religion = ROOT
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA39001"
+		if = {
+			limit = { 
+				ruler = { is_parent_religion = ROOT }
+			}
+			ruler = { piety = -10 }
+		}
+	}
+}
+
+# Character picks up the provincial heresy
+character_event = {
+	id = 39010
+	desc = "EVTDESC39010"
+	picture = GFX_evt_heretic
+	border = "GFX_event_normal_frame_religion"
+	
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+	lacks_dlc = "Sons of Abraham"
+	
+	trigger = {
+		is_heretic = no
+		OR = {
+			is_ruler = no
+			is_theocracy = no
+		}
+		location = {
+			is_heresy_of = ROOT
+		}
+		
+		can_change_religion = yes
+		NOT = { is_inaccessible_trigger = yes }
+	}
+	
+	mean_time_to_happen = {
+		months = 360
+		modifier = {
+			factor = 0.25
+			trait = cynical
+		}
+		modifier = {
+			factor = 5.0
+			trait = zealous
+		}
+		modifier = {
+			factor = 2.0
+			religion_authority = 0.6
+		}
+		modifier = {
+			factor = 2.0
+			religion_authority = 0.8
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { religion_authority = 0.2 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { religion_authority = 0.4 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA39010"
+		ai_chance = { factor = 100 }
+		location = {
+			reverse_religion = ROOT
+		}
+	}
+	option = {
+		name = "EVTOPTB39010"
+		ai_chance = { factor = 0 }
+	}
+}
+
+# Heretic character attempts to spread the faith
+character_event = {
+	id = 39020
+	desc = "EVTDESC39020"
+	picture = GFX_evt_heretic
+	border = "GFX_event_normal_frame_religion"
+	
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+	lacks_dlc = "Sons of Abraham"
+	
+	trigger = {
+		is_ruler = no
+		
+		is_heretic = yes
+		employer = {
+			NOT = { religion = ROOT }
+		}
+		any_courtier = {
+			age = 16
+			is_parent_religion = ROOT
+			is_heretic = no
+			prisoner = no
+			NOT = { trait = incapable }
+			reverse_opinion = { who = ROOT value = 25 }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 10.0
+			trait = cynical
+		}
+		modifier = {
+			factor = 0.25
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.5
+			trait = diligent
+		}
+		modifier = {
+			factor = 3.0
+			trait = slothful
+		}
+		modifier = {
+			factor = 2.0
+			NOT = { religion_authority = 0.2 }
+		}
+		modifier = {
+			factor = 2.0
+			NOT = { religion_authority = 0.4 }
+		}
+		modifier = {
+			factor = 0.75
+			religion_authority = 0.6
+		}
+		modifier = {
+			factor = 0.75
+			religion_authority = 0.8
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA39020"
+		random_courtier = {
+			limit = {
+				age = 16
+				is_parent_religion = ROOT
+				is_heretic = no
+				prisoner = no
+				NOT = { trait = incapable }
+				reverse_opinion = { who = ROOT value = 25 }
+			}
+			character_event = { id = 39021 tooltip = EVTTOOLTIP39021 }
+		}
+	}
+}
+
+# A heretic character approaches me
+character_event = {
+	id = 39021
+	desc = "EVTDESC39021"
+	picture = GFX_evt_heretic
+	border = "GFX_event_normal_frame_religion"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA39021" # Embrace the heresy
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0.5
+				independent = yes
+			}
+			modifier = {
+				factor = 0.25
+				tier = KING
+			}
+			modifier = {
+				factor = 0.25
+				tier = EMPEROR
+			}
+		}
+		hidden_tooltip = {
+			FROM = { character_event = { id = 39022 days = 4 } }
+		}
+		religion = FROM
+	}
+	option = {
+		name = "EVTOPTB39021" # Demand abandonment of heresy
+		tooltip_info = diplomacy
+		trigger = {
+			is_liege_of = FROM
+			diplomacy = 6
+		}
+		ai_chance = { factor = 25 }
+		hidden_tooltip = {
+			FROM = { character_event = { id = 39023 days = 3 } }
+		}
+	}
+	option = {
+		name = "EVTOPTC39021" # Have the heretic jailed!
+		#tooltip_info = 
+		trigger = {
+			is_liege_of = FROM
+			OR = {
+				trait = wroth
+				trait = zealous
+				trait = lunatic
+			}
+			OR = {
+				NOT = { is_close_relative = FROM }
+				trait = lunatic
+			}
+		}
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 10
+				trait = zealous
+			}
+		}
+		piety = 10
+		hidden_tooltip = {
+			FROM = { character_event = { id = 39024 days = 2 } }
+		}
+	}
+	option = {
+		name = "EVTOPTD39021" # Just say no
+		ai_chance = { factor = 25 }
+		hidden_tooltip = {
+			FROM = { character_event = { id = 39025 days = 4 } }
+		}
+	}
+}
+
+# The heretic succeeded
+character_event = {
+	id = 39022
+	desc = "EVTDESC39022"
+	picture = GFX_evt_heretic
+	border = "GFX_event_normal_frame_religion"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA39022" # Good news!
+		piety = 10
+		opinion = {
+			modifier = opinion_successful_conversion
+			who = FROM
+			years = 5
+		}
+	}
+}
+
+# The heretic is asked to abandon the heresy
+character_event = {
+	id = 39023
+	desc = "EVTDESC39023"
+	picture = GFX_evt_heretic
+	border = "GFX_event_normal_frame_religion"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA39023" # Never!
+		hidden_tooltip = {
+			FROM = { character_event = { id = 39025 days = 4 } }
+		}
+	}
+	option = {
+		name = "EVTOPTB39023" # Very well
+		religion = FROM
+		hidden_tooltip = {
+			FROM = { character_event = { id = 39026 days = 4 } }
+		}
+	}
+}
+
+# Guards come to arrest the heretic
+character_event = {
+	id = 39024
+	desc = "EVTDESC39024"
+	picture = GFX_evt_heretic
+	border = "GFX_event_normal_frame_religion"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA39024" # Accept judgement
+		opinion = {
+			modifier = opinion_betrayed
+			who = FROM
+			years = 10
+		}
+		imprison = FROM
+	}
+	option = {
+		name = "EVTOPTB39024" # Attempt to escape
+		tooltip_info = intrigue
+		trigger = {
+			intrigue = 6
+		}
+		opinion = {
+			modifier = opinion_betrayed
+			who = FROM
+			years = 10
+		}
+		random_list = {
+			67 = { imprison = FROM }
+			33 = { banish = yes }
+		}
+	}
+}
+
+# One character failed to convert the other
+character_event = {
+	id = 39025
+	desc = "EVTDESC39025"
+	picture = GFX_evt_heretic
+	border = "GFX_event_normal_frame_religion"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA39025"
+		opinion = {
+			modifier = opinion_failed_conversion
+			who = FROM
+			years = 2
+		}
+	}
+}
+
+# The heretic accepts reconversion
+character_event = {
+	id = 39026
+	desc = "EVTDESC39026"
+	picture = GFX_evt_heretic
+	border = "GFX_event_normal_frame_religion"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA39026"
+		piety = 10
+		opinion = {
+			modifier = opinion_successful_conversion
+			who = FROM
+			years = 5
+		}
+	}
+}
+
+# TODO: Can some religions be proselytised?
+
+# Vassal accepts religious conversion demand. 
+# Fired from 'on_vassal_accepts_religious_conversion'
+# FROMFROM is the demander. FROM is the target vassal. ROOT is the current character. Fires for the target and each of his/her courtiers and direct vassals (but not for characters below the target's vassals).
+character_event = {
+	id = 39700
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { religion = FROMFROM }
+		OR = {
+			character = FROM
+			AND = {
+				is_ruler = no
+				NOT = { trait = zealous }
+				religion = FROM # Will not change religion if already different from the vassal's
+			}
+		}
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				character = FROM
+			}
+			opinion = {
+				who = FROMFROM
+				modifier = opinion_demanded_conversion
+			}
+			if = {
+				limit = {
+					prisoner = yes
+					host = {
+						character = FROMFROM
+					}
+				}
+				imprison = no
+			}
+		}
+	}
+	
+	option = { # No sympathy for the old religion
+		ai_chance = {
+			factor = 100
+		}
+		clr_religion_char_flag_effect = yes #Must clear all old flags to avoid double traits
+		add_religion_char_flag_effect = yes
+		religion = FROMFROM
+		if = {
+			limit = {
+				religion_group = indian_group
+			}
+			character_event = { id = RoI.120 } # Assign Indian religion branch
+		}
+		if = {
+			limit = {
+				character = FROM
+			}
+			character_event = { id = MNM.3949 days = 3 random = 10 }
+		}
+	}
+	
+	option = { # Sympathy for the old religion
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				OR = {
+					trait = zealous
+					NOT = { age = 12 }
+				}
+			}
+			modifier = {
+				factor = 10
+				trait = cynical
+				age = 12
+			}
+		}
+		if = {
+			limit = {
+				religion_group = christian
+			}
+			add_trait = sympathy_christendom
+		}
+		if = {
+			limit = {
+				religion_group = muslim
+			}
+			add_trait = sympathy_islam
+		}
+		if = {
+			limit = {
+				religion_group = pagan_group
+			}
+			add_trait = sympathy_pagans
+		}
+		if = {
+			limit = {
+				religion_group = zoroastrian_group
+			}
+			add_trait = sympathy_zoroastrianism
+		}
+		if = {
+			limit = {
+				religion_group = jewish_group
+			}
+			add_trait = sympathy_judaism
+		}
+		if = {
+			limit = {
+				religion_group = indian_group
+			}
+			add_trait = sympathy_indian
+		}
+
+		clr_religion_char_flag_effect = yes #Must clear all old flags to avoid double traits
+		add_religion_char_flag_effect = yes
+		religion = FROMFROM
+		if = {
+			limit = {
+				religion_group = indian_group
+			}
+			character_event = { id = RoI.120 } # Assign Indian religion branch
+		}
+		if = {
+			limit = {
+				character = FROM
+			}
+			character_event = { id = MNM.3949 days = 3 random = 10 }
+		}
+	}
+}
+
+# TODO: Support khurmazta?
+
+################################
+# Jade Dragon religious events
+################################
+
+### Zoroastrian Jashan-e Sadah
+
+# Invitations Sent (Liege)
+character_event = {
+	id = 39820
+	desc = EVTDESC39820
+	picture = GFX_evt_marriage_zoroastrian_group
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = EVTOPTA39820
+		any_vassal = {
+			limit = {
+				age = 16
+				prisoner = no
+				war = no
+				NOT = { trait = incapable }
+			}
+			character_event = { id = 39821 tooltip = EVTTOOLTIP_39821 }
+		}
+		hidden_tooltip = { character_event = { id = 39823 days = 10 } }
+	}
+}
+
+# Invitations Received (Vassals)
+character_event = {
+	id = 39821
+	desc = EVTDESC39821
+	picture = GFX_evt_feast
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA39821
+		trigger = {
+			OR = {
+				religion = zoroastrian_main
+				religion = zurvanism
+			}
+		}
+		set_character_flag = attending_sadah
+		set_character_flag = do_not_disturb
+		if = {
+			limit = { trait = in_hiding	}
+			remove_trait = in_hiding
+			add_character_modifier = {
+				name = went_out_of_hiding_timer
+				duration = 180
+				hidden = yes
+			}
+			hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
+		}
+	}
+	option = {
+		name = EVTOPTB39821
+		trigger = {
+			NOT = {
+				OR = {
+					religion = zoroastrian_main
+					religion = zurvanism
+				}
+			}
+		}
+		FROM = {
+			character_event = { id = 39822 days = 5 tooltip = DIPLOWINDOW_REJECT }
+			opinion = {
+				modifier = opinion_refused_sadah
+				who = ROOT
+			}
+		}
+	}
+}
+
+# Invitation Refused (Liege)
+character_event = {
+	id = 39822
+	desc = EVTDESC39822
+	picture = GFX_evt_rival_rulers
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA39822
+		tooltip = {
+			opinion = {
+				modifier = opinion_refused_sadah
+				who = FROM
+			}
+		}
+	}
+}
+
+# Celebration Begins (Liege)
+character_event = {
+	id = 39823
+	desc = EVTDESC39823
+	picture = GFX_evt_prospering_province
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = EVTOPTA39823
+		custom_tooltip = {
+			text = sadah_begins1
+			hidden_tooltip = {
+				any_vassal = {
+					limit = { has_character_flag = attending_sadah }
+					character_event = { id = 39824 }
+				}
+				character_event = { id = 39830 days = 2 }
+			}
+		}
+	}
+}
+
+# Celebration Begins (Vassals)
+character_event = {
+	id = 39824
+	desc = EVTDESC39824
+	picture = GFX_evt_jewish_market
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA39824
+		custom_tooltip = {
+			text = sadah_begins1
+			hidden_tooltip = {
+				character_event = { id = 39831 days = 2 }
+			}
+		}
+	}
+}
+
+# Feast Begins (Liege)
+character_event = {
+	id = 39825
+	desc = EVTDESC39825
+	picture = GFX_evt_feast
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = EVTOPTA39825
+		
+			hidden_tooltip = {
+				character_event = { id = 39827 days = 25 }
+			}
+		}
+	}
+
+# Feast Begins (Vassals)
+character_event = {
+	id = 39826
+	desc = EVTDESC39826
+	picture = GFX_evt_feast
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA39825
+		set_character_flag = sadah_feast_vassal
+	}
+}
+
+# Feast Ends (Liege)
+character_event = {
+	id = 39827
+	desc = EVTDESC39827
+	picture = GFX_evt_powerful_ruler
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = EVTOPTA39827
+		any_vassal = {
+			limit = { has_character_flag = attending_sadah }
+			opinion = {
+				modifier = opinion_held_sadah
+				who = ROOT
+			}
+		}
+		hidden_tooltip = {
+			any_vassal = {
+				limit = { has_character_flag = attending_sadah }
+				character_event = { id = 39828 }
+			}
+		}
+		add_character_modifier = {
+			name = jd_held_sadah_timer
+			duration = 1825
+		}
+		prestige = 200
+		piety = 100
+		clr_character_flag = holding_sadah_feast
+		clr_character_flag = feast_drunkard
+		clr_character_flag = feast_gluttonous
+		clr_character_flag = feast_lunatic
+		clr_character_flag = feast_lustful
+		clr_character_flag = feast_homosexual
+		clr_character_flag = do_not_disturb
+	}
+}
+
+# Feast Ends (Vassals)
+character_event = {
+	id = 39828
+	desc = EVTDESC39828
+	picture = GFX_evt_feast
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA39827
+		clr_character_flag = attending_sadah
+		clr_character_flag = sadah_feast_vassal
+		clr_character_flag = feast_drunkard
+		clr_character_flag = feast_gluttonous
+		clr_character_flag = feast_lunatic
+		clr_character_flag = feast_lustful
+		clr_character_flag = feast_friendship
+		clr_character_flag = feast_homosexual
+		clr_character_flag = do_not_disturb
+	}
+}
+
+# Fire prayer (Liege)
+character_event = {
+	id = 39830
+	desc = EVTDESC39830
+	picture = GFX_evt_religious_exultation
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = EVTOPTA39823
+		trigger = {
+		    NOT = { trait = zealous }
+			NOT = { trait = cynical }
+			NOT = { trait = charitable }
+			NOT = { trait = theologian }
+			NOT = { trait = slothful }
+			NOT = { trait = administrator }
+			NOT = { trait = stressed }
+			NOT = { trait = proud }
+			NOT = { trait = lunatic }
+			NOT = { trait = lustful }
+			NOT = { trait = poet }
+			NOT = { trait = tough_soldier }
+			NOT = { trait = skilled_tactician }
+			NOT = { trait = brilliant_strategist }
+			NOT = { trait = detached_priest }
+			NOT = { trait = martial_cleric }
+			NOT = { trait = possessed }
+			NOT = { trait = arbitrary }
+			NOT = { trait = seducer }
+			NOT = { trait = seductress }
+			NOT = { trait = depressed }
+			NOT = { trait = humble }
+			NOT = { trait = content }
+			NOT = { trait = gardener }
+			NOT = { trait = gregarious }
+			NOT = { has_fair_trait_trigger = yes }
+			NOT = { trait = charismatic_negotiator }
+			NOT = { trait = midas_touched }
+			NOT = { trait = grey_eminence }
+		}
+		custom_tooltip = {
+			text = sadah_begins
+			hidden_tooltip = {
+				character_event = { id = 39825 days = 10 }
+			}
+		}
+	}
+	option = {
+		name = EVTOPT39830_SCHOLAR
+		tooltip_info = yes
+		custom_tooltip = { text = EVTOPT39830_SCHOLAR_TT }
+		trigger = {
+			OR = {
+				trait = scholarly_theologian
+				trait = mastermind_theologian
+			}
+		}
+		add_character_modifier = {
+			name = green_fingers
+			duration = 1825
+		}
+		custom_tooltip = {
+			text = sadah_begins
+			hidden_tooltip = {
+				character_event = { id = 39825 days = 10 }
+			}
+		}
+	}
+	option = {
+		name = EVTOPT39830_SOLDIER
+		tooltip_info = yes
+		custom_tooltip = { text = EVTOPT39830_SOLDIER_TT }
+		trigger = {
+			OR = {
+				trait = tough_soldier
+				trait = skilled_tactician
+				trait = brilliant_strategist
+			}
+		}
+		add_character_modifier = {
+			name = diligent_liege_morale
+			duration = 1825
+		}
+		custom_tooltip = {
+			text = sadah_begins
+			hidden_tooltip = {
+				character_event = { id = 39825 days = 10 }
+			}
+		}
+	}
+	option = {
+		name = EVTOPT39830_HUMBLE
+		tooltip_info = yes
+		custom_tooltip = { text = EVTOPT39830_HUMBLE_TT }
+		trigger = {
+			OR = {
+				trait = humble
+				trait = content
+				trait = gardener
+			}
+		}
+		add_character_modifier = {
+			name = green_fingers
+			duration = 1825
+		}
+		custom_tooltip = {
+			text = sadah_begins
+			hidden_tooltip = {
+				character_event = { id = 39825 days = 10 }
+			}
+		}
+	}
+	option = {
+		name = EVTOPT39830_GREG
+		tooltip_info = yes
+		custom_tooltip = { text = EVTOPT39830_GREG_TT }
+		trigger = {
+			OR = {
+				trait = gregarious
+				has_fair_trait_trigger = yes
+				trait = charismatic_negotiator
+				trait = midas_touched
+				trait = grey_eminence
+			}
+		}
+		add_character_modifier = {
+			name = popular_ruler
+			duration = 1825
+		}
+		custom_tooltip = {
+			text = sadah_begins
+			hidden_tooltip = {
+				character_event = { id = 39825 days = 10 }
+			}
+		}
+	}
+	option = {
+		name = EVTOPT39830_GLUTTON
+		tooltip_info = yes
+		custom_tooltip = { text = EVTOPT39830_GLUTTON_TT }
+		trigger = {
+			OR = {
+				trait = gluttonous
+				trait = drunkard
+				trait = hedonist
+			}
+		}
+		add_character_modifier = {
+			name = the_reveller
+			duration = 1825
+		}
+		custom_tooltip = {
+			text = sadah_begins
+			hidden_tooltip = {
+				character_event = { id = 39825 days = 10 }
+			}
+		}
+	}
+	option = {
+		name = EVTOPT39830_POET
+		tooltip_info = poet
+		trigger = {
+			trait = poet
+		}
+		add_character_modifier = {
+			name = aspiring_poet
+			duration = 1825
+		}
+		custom_tooltip = {
+			text = sadah_begins
+			hidden_tooltip = {
+				character_event = { id = 39825 days = 10 }
+			}
+		}
+	}
+	option = {
+		name = EVTOPT39830_LUNATIC
+		tooltip_info = lunatic
+		trigger = {
+			trait = lunatic
+		}
+		add_character_modifier = {
+			name = foolish_behavior
+			duration = 1825
+		}
+		custom_tooltip = {
+			text = sadah_begins
+			hidden_tooltip = {
+				character_event = { id = 39825 days = 10 }
+			}
+		}
+	}
+	option = {
+		name = EVTOPT39830_LUST
+		tooltip_info = yes
+		custom_tooltip = { text = EVTOPT39830_LUST_TT }
+		trigger = {
+			OR = {
+				trait = lustful
+				trait = seducer
+				trait = seductress
+			}
+		}
+		add_character_modifier = {
+			name = seizing_the_day
+			duration = 1825
+		}
+		custom_tooltip = {
+			text = sadah_begins
+			hidden_tooltip = {
+				character_event = { id = 39825 days = 10 }
+			}
+		}
+	}
+	option = {
+		name = EVTOPT39830_PROUD
+		tooltip_info = proud
+		trigger = {
+			trait = proud
+		}
+		add_character_modifier = {
+			name = the_pompous
+			duration = 1825
+		}
+		custom_tooltip = {
+			text = sadah_begins
+			hidden_tooltip = {
+				character_event = { id = 39825 days = 10 }
+			}
+		}
+	}
+	option = {
+		name = EVTOPT39830_STRESSED
+		tooltip_info = yes
+		custom_tooltip = { text = EVTOPT39830_STRESSED_TT }
+		trigger = {
+			OR = {
+				trait = stressed
+				trait = depressed
+			}
+		}
+		add_character_modifier = {
+			name = blessing_of_health
+			duration = 1825
+		}
+		custom_tooltip = {
+			text = sadah_begins
+			hidden_tooltip = {
+				character_event = { id = 39825 days = 10 }
+			}
+		}
+	}
+	option = {
+		name = EVTOPT39830_ADMIN
+		tooltip_info = administrator
+		trigger = {
+			trait = administrator
+		}
+		add_character_modifier = {
+			name = inspired_peasantry
+			duration = 1825
+		}
+		custom_tooltip = {
+			text = sadah_begins
+			hidden_tooltip = {
+				character_event = { id = 39825 days = 10 }
+			}
+		}
+	}
+	option = {
+		name = EVTOPT39830_THEO
+		tooltip_info = yes
+		custom_tooltip = { text = EVTOPT39830_THEO_TT }
+		trigger = {
+			OR = {
+				trait = theologian
+				trait = detached_priest
+				trait = martial_cleric
+			}
+		}
+		add_character_modifier = {
+			name = renewed_faith
+			duration = 1825
+		}
+		custom_tooltip = {
+			text = sadah_begins
+			hidden_tooltip = {
+				character_event = { id = 39825 days = 10 }
+			}
+		}
+	}
+	option = {
+		name = EVTOPT39830_POSS
+		tooltip_info = possessed
+		trigger = {
+			trait = possessed
+		}
+		add_character_modifier = {
+			name = peasant_crisis
+			duration = 1825
+		}
+		custom_tooltip = {
+			text = sadah_begins
+			hidden_tooltip = {
+				character_event = { id = 39825 days = 10 }
+			}
+		}
+	}
+	option = {
+		name = EVTOPT39830_CHAR
+		tooltip_info = charitable
+		trigger = {
+			trait = charitable
+		}
+		add_character_modifier = {
+			name = recently_donated_to_charity
+			duration = 1825
+		}
+		custom_tooltip = {
+			text = sadah_begins
+			hidden_tooltip = {
+				character_event = { id = 39825 days = 10 }
+			}
+		}
+	}
+	option = {
+		name = EVTOPT39830_ZEAL
+		tooltip_info = zealous
+		trigger = {
+			trait = zealous
+		}
+		add_character_modifier = {
+			name = inspired_warriors
+			duration = 1825
+		}
+		custom_tooltip = {
+			text = sadah_begins
+			hidden_tooltip = {
+				character_event = { id = 39825 days = 10 }
+			}
+		}
+	}
+	option = {
+		name = EVTOPT39830_CYNIC
+		tooltip_info = yes
+		custom_tooltip = { text = EVTOPT39830_CYNIC_TT }
+		trigger = {
+			OR = {
+				trait = cynical
+				trait = slothful
+				trait = arbitrary
+			}
+		}
+		add_character_modifier = {
+			name = annoyed_religious
+			duration = 1825
+		}
+		custom_tooltip = {
+			text = sadah_begins
+			hidden_tooltip = {
+				character_event = { id = 39825 days = 10 }
+			}
+		}
+	}
+}
+
+# Fire prayer (vassal)
+character_event = {
+	id = 39831
+	desc = EVTDESC39831
+	picture = GFX_evt_religious_exultation
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = EVTOPTA39823
+		trigger = {
+			NOR = {
+				trait = cynical
+				trait = theologian
+				trait = slothful
+				trait = stressed
+				trait = lustful
+				trait = detached_priest
+				trait = martial_cleric
+				trait = arbitrary
+				trait = seducer
+				trait = seductress
+				trait = depressed
+				trait = gregarious
+				trait = underhanded_rogue
+				trait = charismatic_negotiator
+			}
+		}
+		custom_tooltip = {
+			text = sadah_begins1
+			hidden_tooltip = {
+				character_event = { id = 39826 days = 10 }
+			}
+		}
+	}
+	option = {
+		name = EVTOPT39831_HEDONIST
+		tooltip_info = yes
+		custom_tooltip = { text = EVTOPT39831_HEDONIST_TT }
+		trigger = {
+			OR = {
+				trait = hedonist
+				trait = drunkard
+				trait = gluttonous
+				trait = lustful
+				trait = seducer
+				trait = seductress
+			}
+		}
+		add_character_modifier = {
+			name = invigorated
+			duration = 1825
+		}
+		custom_tooltip = {
+			text = sadah_begins
+			hidden_tooltip = {
+				character_event = { id = 39826 days = 10 }
+			}
+		}
+	}
+	option = {
+		name = EVTOPT39831_CYNIC
+		tooltip_info = yes
+		custom_tooltip = { text = EVTOPT39831_CYNIC_TT }
+		trigger = {
+			OR = {
+				trait = cynical
+				trait = arbitrary
+			}
+		}
+		add_character_modifier = {
+			name = church_unfunny
+			duration = 1825
+		}
+		custom_tooltip = {
+			text = sadah_begins
+			hidden_tooltip = {
+				character_event = { id = 39826 days = 10 }
+			}
+		}
+	}
+	option = {
+		name = EVTOPT39830_SCHOLAR
+		tooltip_info = yes
+		custom_tooltip = { text = EVTOPT39831_SCHOLAR_TT }
+		trigger = {
+			OR = {
+				trait = theologian
+				trait = detached_priest
+				trait = martial_cleric
+				trait = scholarly_theologian
+				trait = mastermind_theologian
+			}
+		}
+		add_character_modifier = {
+			name = discussed_scripture
+			duration = 1825
+		}
+		custom_tooltip = {
+			text = sadah_begins
+			hidden_tooltip = {
+				character_event = { id = 39826 days = 10 }
+			}
+		}
+	}
+	option = {
+		name = EVTOPT39831_GREG
+		tooltip_info = yes
+		custom_tooltip = { text = EVTOPT39831_GREG_TT }
+		trigger = {
+			OR = {
+				trait = gregarious
+				trait = charismatic_negotiator
+				trait = underhanded_rogue
+			}
+		}
+		add_character_modifier = {
+			name = took_stroll_small_talk
+			duration = 1825
+		}
+		custom_tooltip = {
+			text = sadah_begins
+			hidden_tooltip = {
+				character_event = { id = 39826 days = 10 }
+			}
+		}
+	}
+	option = {
+		name = EVTOPT39831_STRESSED
+		tooltip_info = yes
+		custom_tooltip = { text = EVTOPT39830_STRESSED_TT }
+		trigger = {
+			OR = {
+				trait = stressed
+				trait = depressed
+			}
+		}
+		add_character_modifier = {
+			name = blessing_of_health
+			duration = 1825
+		}
+		custom_tooltip = {
+			text = sadah_begins
+			hidden_tooltip = {
+				character_event = { id = 39826 days = 10 }
+			}
+		}
+	}
+}

@@ -1,0 +1,112 @@
+# 601-700 for the Ptolemaioi dynasty
+601 = {
+	name = "Ptolemaios" # Ptolemy, Satrap of Egypt and founder of the Ptolemaic empire/dynasty
+	dynasty = 7 # Ptolemaioi
+	religion = greek_main
+	culture = macedonian
+	
+	add_trait = ambitious
+	add_trait = tough_soldier
+	add_trait = greedy
+	add_trait = temperate
+	add_trait = patient
+	
+	409.1.1 = {
+		birth="yes" # 367 BC
+	}
+	452.1.1 = { # 324 BC
+		add_spouse = 90203 # Artacama
+	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	455.1.1 = { # 321 BC
+		add_spouse = 4 # Eurydike
+	}
+	472.1.1 = { # 304 BC, End of siege of Rhodes
+		give_nickname = nick_soter
+	}
+	493.1.1 = {
+		death="yes" # 283 BC
+	}
+}
+602 = {
+	name = "Ptolemaios" # Ptolemaios II
+	dynasty = 7 # Ptolemaioi
+	religion = greek_main
+	culture = macedonian
+	father = 601
+			
+	#add_trait = diadochi_king
+	add_trait = scholarly_theologian
+	
+	467.1.1 = { # 309 BC
+		birth="yes"
+	}
+	493.1.1 = { # 283 BC
+		give_nickname = nick_philadelphos
+	}
+	530.1.1 = { # 246 BC
+		death="yes"
+	}
+}
+603 = {
+	name = "Arsinoe" # Arsinoe II
+	dynasty = 7 # Ptolemaioi
+	religion = greek_main
+	culture = macedonian
+	female = yes
+	father = 601
+	mother = 4
+	
+	add_trait = gregarious
+	
+	460.1.1 = {
+		birth="yes" # 316 BC
+	}
+	514.1.1 = { # Made up
+		death="yes" # 262
+	}
+}
+604 = {
+	name = "Ptolemaios" # Keraunos
+	dynasty = 7 # Ptolemaioi
+	religion = greek_main
+	culture = macedonian
+	father = 601
+	mother = 4
+	
+	#add_trait = diadochi_king
+	add_trait = intricate_webweaver
+	add_trait = deceitful
+	add_trait = wroth
+	add_trait = proud
+	
+	457.1.1 = { # Made up
+		birth="yes" # 319 BC
+	}
+	495.8.1 = {
+		add_spouse = 603 # Arsinoe II
+	}
+	495.8.1 = { # 281 BC, on killing Seleucus
+		give_nickname = nick_keraunos
+	}
+	497.1.1 = {
+		death="yes" # 279 BC
+	}
+}
+605 = {
+	name = "Meleagros" # Temporary King of Macedon
+	dynasty = 7 # Ptolemaioi
+	religion = greek_main
+	culture = macedonian
+	father = 601
+	mother = 4
+	#add_trait = diadochi_king
+	458.1.1 = { # 318 BC Made up
+		birth="yes"
+	}
+	500.1.1 = { # 276 BC made up
+		death="yes"
+	}
+}

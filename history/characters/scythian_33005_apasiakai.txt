@@ -1,0 +1,39 @@
+# 330401-330500 for the Apasiakai dynasty
+330401 = {
+	name = "Ailios" # Made up
+	dynasty = 33005 # Apasiakai
+	religion = scythian_main
+	culture = scythian
+	father = 330402
+	436.1.1 = { # 352 BC
+		birth="yes"
+	}
+	507.1.1 = { # 269 BC
+		death="yes"
+	}
+}
+330402 = {
+	name = "Saulius" # Made up
+	dynasty = 33005 # Apasiakai
+	religion = scythian_main
+	culture = scythian
+	father = 330403
+	416.1.1 = { # 360 BC
+		birth="yes"
+	}
+	477.1.1 = { # 299 BC
+		death="yes"
+	}
+}
+330403 = {
+	name = "Ailios" # Made up
+	dynasty = 33005 # Apasiakai
+	religion = scythian_main
+	culture = scythian
+	391.1.1 = { # 386 BC
+		birth="yes"
+	}
+	450.1.1 = { # 326 BC
+		death="yes"
+	}
+}

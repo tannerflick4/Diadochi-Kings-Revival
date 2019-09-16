@@ -1,0 +1,17 @@
+# 215 - Ashtishat
+
+# County Title
+title = c_ashtishat
+
+# Settlements
+max_settlements = 3
+b_ashtishat_ashtishat = castle
+b_kitharizon_ashtishat = city
+b_artales_ashtishat = castle
+
+# Misc
+culture = armenian
+religion = armenian_main
+
+# History
+# Can be filled when things change around the province

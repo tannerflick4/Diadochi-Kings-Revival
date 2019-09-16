@@ -1,0 +1,29 @@
+# 19 - Thebes
+
+# County Title
+title = c_thebes # for example c_corinth
+
+# Settlements
+max_settlements = 6
+b_thebes_thebes = castle
+b_askra_thebes = temple
+b_orchomenos_thebes = city
+b_chaironeia_thebes = castle
+b_thisbe_thebes = city
+b_plataea_thebes = castle
+
+
+# Misc
+culture = aeolian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province
+441.1.1 = { # 335 BC, Alexander destroys Thebes
+	remove_settlement = b_thebes_thebes
+	capital = b_chaironeia_thebes
+}
+461.1.1 = { # 315 BC, Cassander rebuilds Thebes
+	b_thebes_thebes = castle
+	capital = b_thebes_thebes
+}

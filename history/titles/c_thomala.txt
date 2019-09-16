@@ -1,0 +1,13 @@
+410.1.1 = { # 366 BC
+	holder = 320207 # Abkarib
+	liege = d_ma_in
+}
+450.1.1 = { # 326 BC
+	holder = 320201 # Abyada
+}
+477.1.1 = { # 299 BC, Made up
+	holder = 320202 # Ilyafa
+}
+494.1.1 = { # 282 BC, Made up
+	holder = 320203 # Abkarib
+}

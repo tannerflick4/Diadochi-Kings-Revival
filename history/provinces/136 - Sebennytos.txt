@@ -1,0 +1,20 @@
+# 136 - Sebennytos
+
+# County Title
+title = c_sebennytos
+
+# Settlements
+max_settlements = 6
+b_sebennytos_sebennytos = castle
+b_bousiris_sebennytos = temple
+b_kynopolis_sebennytos = city
+b_diospolis_kato_sebennytos = castle
+b_isieion_sebennytos = city
+b_natho_sebennytos = city
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

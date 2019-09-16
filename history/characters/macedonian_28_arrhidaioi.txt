@@ -1,0 +1,18 @@
+# 2701-2800 for the Arrhidaioi dynasty
+2701 = {
+	name = "Arrhidaios" # Later satrap of Mysia
+	dynasty = 28 # Arrhidaioi
+	religion = greek_main
+	culture = macedonian
+	415.1.1 = {
+		birth="yes"
+	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	457.3.1 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}

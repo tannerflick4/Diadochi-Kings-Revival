@@ -1,0 +1,26 @@
+# 22001-22100 for the Kosoi dynasty
+22001 = {
+	name = "Kosamas" # Rhodes
+	dynasty = 2021 # Kosoi
+	religion = greek_main
+	culture = doric
+	392.1.1 = { # 384 BC Made up
+		birth="yes"
+	}
+	459.1.1 = { # 317 BC Made up
+		death="yes"
+	}
+}
+22002 = {
+	name = "Diodotos" # Rhodes
+	dynasty = 2021 # Kosoi
+	religion = greek_main
+	culture = doric
+	father = 22001
+	435.1.1 = { # 341 BC Made up
+		birth="yes"
+	}
+	502.1.1 = { # 274 BC Made up
+		death="yes"
+	}
+}

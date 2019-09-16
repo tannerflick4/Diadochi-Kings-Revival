@@ -1,0 +1,23 @@
+# 31 - Amantia
+
+# County Title
+title = c_amantia # for example c_corinth
+
+# Settlements
+max_settlements = 5 # Should be reevaluated
+b_amantia_amantia = castle
+b_phoinike_amantia = temple
+b_chimaira_amantia = city
+b_omphalion_amantia = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_onchesmos_amantia
+# b_orikon_amantia
+# b_kestria_amantia
+
+# Misc
+culture = doric
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

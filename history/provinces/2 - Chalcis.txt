@@ -1,0 +1,23 @@
+# 2 - Chalcis
+
+# County Title
+title = c_chalcis # for example c_corinth
+
+# Settlements
+max_settlements = 5 # Should be reevaluated
+b_chalcis_chalcis = castle
+b_dion_chalcis = temple
+b_aidepsos_chalcis = city
+b_argoura_chalcis = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_histiaia_chalcis = castle
+# b_poseidion_chalcis = temple
+# b_kerinthos_chalcis = city
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

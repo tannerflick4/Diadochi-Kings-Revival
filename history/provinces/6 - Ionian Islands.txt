@@ -1,0 +1,22 @@
+# 6 - Ionian Islands
+
+# County Title
+
+title = c_cephalonia # for example c_corinth
+
+
+# Settlements
+
+max_settlements = 4
+b_same_cephalonia = castle
+b_ithaca_cephalonia = city
+b_pronnoi_cephalonia = temple
+b_zakynthos_cephalonia = castle
+
+# Misc
+
+culture = doric
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

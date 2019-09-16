@@ -1,0 +1,14 @@
+# 390601-390700 for the Contestani dynasty
+390601 = {
+	name = "Belasbaisereban" # Made up Contestani leader
+	dynasty = 39007
+	culture = iberian
+	religion = iberian_main
+	
+	381.1.1 = { # 395 BC, Made up
+		birth="yes"
+	}
+	464.1.1 = { # 312 BC
+		death="yes"
+	}
+}

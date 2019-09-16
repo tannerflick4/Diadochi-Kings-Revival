@@ -1,0 +1,19 @@
+# 125 - Tyrus
+
+# County Title
+title = c_tyrus
+
+# Settlements
+max_settlements = 5
+b_tyrus_tyrus = castle
+b_hammon_tyrus = temple
+b_ake_tyrus = city
+b_sinde_tyrus = castle
+b_palaiotyros_tyrus = city
+
+# Misc
+culture = punic
+religion = canaanite_main
+
+# History
+# Can be filled when things change around the province

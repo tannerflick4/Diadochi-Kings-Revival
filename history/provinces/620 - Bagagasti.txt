@@ -1,0 +1,16 @@
+# 620 - Bagagasti
+
+# County Title
+title = c_bagagasti
+
+# Settlements
+max_settlements = 2
+b_bagagasti_bagagasti = castle
+b_dasadvara_bagagasti = castle
+
+# Misc
+culture = scythian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

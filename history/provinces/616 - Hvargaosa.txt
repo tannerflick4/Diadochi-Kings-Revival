@@ -1,0 +1,17 @@
+# 616 - Hvargoasa
+
+# County Title
+title = c_hvargaosa
+
+# Settlements
+max_settlements = 3
+b_hvargaosa_hvargaosa = castle
+b_gaukol_hvargoasa = city
+b_katika_hvargoasa = castle
+
+# Misc
+culture = scythian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

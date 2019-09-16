@@ -1,0 +1,19 @@
+# 1501-1600 for the Agenoridai dynasty
+1501 = {
+	name = "Peithon" # Peithon, satrap of Gandhara
+	dynasty = 16 # Agenoridai
+	religion = greek_main
+	culture = macedonian
+	416.1.1 = { # 360 BC Made up
+		birth="yes"
+	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	464.1.1 = { # 312 BC
+		death = {
+			death_reason = death_battle
+			killer = 601 # Ptolemy
+		}
+	}
+}

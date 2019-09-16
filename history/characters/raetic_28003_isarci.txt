@@ -1,0 +1,39 @@
+# 280201-280300 for the Isarci dynasty
+280201 = {
+	name = "Vel" # Made up
+	dynasty = 28003 # Isarci
+	religion = etruscan_main
+	culture = raetic
+	father = 280203
+	408.1.1 = { # 368 BC
+		birth="yes" # Made up
+	}
+	477.1.1 = { # 299 BC
+		death="yes" # Made up
+	}
+}
+280202 = {
+	name = "Karcuna" # Isarci Made up
+	dynasty = 28003 # Isarci
+	religion = etruscan_main
+	culture = raetic
+	father = 280201
+	427.1.1 = { # 349 BC
+		birth="yes"
+	}
+	516.1.1 = { # 263 BC
+		death="yes"
+	}
+}
+280203 = {
+	name = "Puplie" # Made up
+	dynasty = 28003 # Isarci
+	religion = etruscan_main
+	culture = raetic
+	375.1.1 = { # 401 BC
+		birth="yes" # Made up
+	}
+	440.1.1 = { # 336 BC
+		death="yes"
+	}
+}

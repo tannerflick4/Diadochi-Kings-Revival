@@ -1,0 +1,8 @@
+446.1.1 = { # 330 BC
+	holder = 301 # Asander, Satrap of Caria, grandson of Parmenion
+	liege = e_macedonia
+}
+463.1.1 = {
+	holder = 0
+	liege = 0
+}

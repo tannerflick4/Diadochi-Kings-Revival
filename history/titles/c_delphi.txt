@@ -1,0 +1,40 @@
+412.1.1 = { # 364 BC
+	holder = 23101 # Phalaikos
+}
+420.1.1 = { # 356 BC
+	holder = 23003 # Philomelos
+}
+421.1.1 = { # 355 BC
+	holder = 23002 # Onomarchus
+}
+423.1.1 = { # 353 BC
+	holder = 23004 # Phallyos
+}
+430.1.1 = { # 346 BC
+	holder = 23101 # Phalaikos
+}
+430.7.19 = {
+	holder = 803 # Philip II
+	liege = e_macedonia
+}
+440.10.1 = {
+	holder = 802
+}
+453.6.10 = {
+	holder = 1
+	liege = k_s_macedon
+}
+457.1.1 = {
+	holder = 1601 # Polyperchon
+}
+459.10.1 = {
+	holder = 2 # Kassandros
+	liege = k_macedon
+}
+473.8.1 = {
+	holder = 402 # Demetrius
+	liege = e_asia
+}
+493.1.1 = {
+	holder = 408 # Antigonos Gonatas
+}

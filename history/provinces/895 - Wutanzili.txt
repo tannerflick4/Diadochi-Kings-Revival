@@ -1,0 +1,15 @@
+# 895 - Wutanzili
+
+# County Title
+title = c_wutanzili
+
+# Settlements
+max_settlements = 1
+
+b_wutanzili_wutanzili = castle
+
+culture = tocharian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

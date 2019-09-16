@@ -1,0 +1,18 @@
+# 409 - Apulum
+
+# County Title
+title = c_apulum
+
+# Settlements
+max_settlements = 4
+b_apulum_apulum = castle
+b_capilna_apulum = castle
+b_tilisca_apulum = city
+b_cedonia_apulum = castle
+
+# Misc
+culture = dacian
+religion = zalmoxism
+
+# History
+# Can be filled when things change around the province

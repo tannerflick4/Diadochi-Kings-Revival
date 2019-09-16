@@ -1,0 +1,18 @@
+# 128 - Jericho
+
+# County Title
+title = c_jericho
+
+# Settlements
+max_settlements = 4
+b_jericho_jericho = castle
+b_gabaon_jericho = temple
+b_archelais_jericho = city
+b_thamna_jericho = castle
+
+# Misc
+culture = israelite
+religion = judaism_main
+
+# History
+# Can be filled when things change around the province

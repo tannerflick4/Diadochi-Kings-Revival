@@ -1,0 +1,19 @@
+# 142 - Aphroditopolis
+
+# County Title
+title = c_aphroditopolis
+
+# Settlements
+max_settlements = 5
+b_aphroditopolis_aphroditopolis = castle
+b_kerke_aphroditopolis = temple
+b_parembole_aphroditopolis = city
+b_ankyronpolis_aphroditopolis = castle
+b_thmoinepsi_aphroditopolis = city
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

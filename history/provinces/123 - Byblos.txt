@@ -1,0 +1,18 @@
+# 123 - Byblos
+
+# County Title
+title = c_byblos
+
+# Settlements
+max_settlements = 4
+b_byblos_byblos = castle
+b_nihata_byblos = temple
+b_berytus_byblos = city
+b_borrama_byblos = castle
+
+# Misc
+culture = punic
+religion = canaanite_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,10 @@
+397.1.1 = { # 379 BC
+	holder = 121201 # Mangalesa
+	liege = d_konkana
+}
+452.1.1 = { # 324 BC
+	holder = 121202 # Tadangala
+}
+468.1.1 = { # 308 BC
+	holder = 121203 # Varma
+}

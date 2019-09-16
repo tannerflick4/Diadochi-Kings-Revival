@@ -1,0 +1,9 @@
+404.1.1 = { # 372 BC
+	holder = 270603 # Pieporus
+}
+436.1.1 = { # 340 BC
+	holder = 270601 # Mucapor of the Ratacenses
+}
+465.1.1 = { # 311 BC
+	holder = 270602 # Scorylo
+}

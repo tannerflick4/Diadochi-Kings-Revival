@@ -1,0 +1,13 @@
+415.1.1 = { # 361 BC, Made up
+	holder = 320001 # Hana
+	liege = d_lihyan
+}
+465.1.1 = { # 311 BC, Made up
+	liege = 0
+}
+468.1.1 = { # 308 BC, Made up
+	holder = 320002 # Abd Dushara
+}
+491.1.1 = { # 285 BC, Made up
+	holder = 320003 # Gamilat
+}

@@ -1,0 +1,16 @@
+# 2201-2300 for the Philoxenoi dynasty
+2201 = {
+	name = "Philoxenos" # Later satrap of Cilicia
+	dynasty = 23 # Philoxenoi
+	religion = greek_main
+	culture = macedonian
+	420.1.1 = { # 356 BC Made up
+		birth="yes"
+	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	456.1.1 = { # 320 BC Made up
+		death="yes"
+	}
+}

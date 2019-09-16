@@ -1,0 +1,16 @@
+# 932 - Libisosa
+
+# County Title
+title = c_libisosa
+
+# Settlements
+max_settlements = 2
+b_libisosa_libisosa = castle
+b_caput_libisosa = castle
+
+# Misc
+culture = celtiberian
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

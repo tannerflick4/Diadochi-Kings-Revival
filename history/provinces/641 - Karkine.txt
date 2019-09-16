@@ -1,0 +1,16 @@
+# 641 - Karkine
+
+# County Title
+title = c_karkine
+
+# Settlements
+max_settlements = 2
+b_karkine_karkine = castle
+b_taphros_karkine = city
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

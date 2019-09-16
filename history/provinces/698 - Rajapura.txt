@@ -1,0 +1,16 @@
+# 698 - Rajapura
+
+# County Title
+title = c_rajapura
+
+# Settlements
+max_settlements = 2
+b_rajapura_rajapura = castle
+b_sisupalapuri_rajapura = city
+
+# Misc
+culture = telegu
+religion = jainism_main
+
+# History
+# Can be filled when things change around the province

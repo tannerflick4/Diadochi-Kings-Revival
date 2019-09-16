@@ -1,0 +1,19 @@
+# 459 - Karna
+
+# County Title
+title = c_karna
+
+# Settlements
+max_settlements = 4
+b_karna_karna = castle
+b_cardava_karna = temple
+b_amnestum_karna = castle
+b_nestus_karna = temple
+b_labaetia_karna = castle
+
+# Misc
+culture = arabic
+religion = arabic_main
+
+# History
+# Can be filled when things change around the province

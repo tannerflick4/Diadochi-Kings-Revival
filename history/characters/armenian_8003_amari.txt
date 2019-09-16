@@ -1,0 +1,39 @@
+# 80201-80300 for the Amari dynasty
+80201 = {
+	name = "Sarduri" # Ruler of Amaras, made up
+	dynasty = 8003 # Amari
+	religion = armenian_main
+	culture = armenian
+	father = 80203 # Aramu
+	409.1.1 = { # Made up
+		birth="yes" # 367 BC
+	}
+	483.1.1 = { # Made up
+		death="yes" # 293 BC
+	}
+}
+80202 = {
+	name = "Tigran" # Ruler of Amaras, made up
+	dynasty = 8003 # Amari
+	religion = armenian_main
+	culture = armenian
+	father = 80201
+	429.1.1 = { # 347 BC
+		birth="yes"
+	}
+	512.1.1 = { # 264 BC
+		death="yes"
+	}
+}
+80203 = {
+	name = "Aramu" # Ruler of Amaras, made up
+	dynasty = 8003 # Amari
+	religion = armenian_main
+	culture = armenian
+	373.1.1 = {
+		birth="yes" # 403 BC Made Up
+	}
+	453.1.1 = {
+		death="yes" # 323 BC Made Up
+	}
+}

@@ -1,0 +1,18 @@
+# 945 - Ossonoba
+
+# County Title
+title = c_ossonoba
+
+# Settlements
+max_settlements = 4
+b_ossunba_ossonoba = castle
+b_cilpes_ossonoba = castle
+b_balsa_ossonoba = city
+#b_esuris_ossonoba = city
+
+# Misc
+culture = old_tartessian
+religion = iberian_main
+
+# History
+# Can be filled when things change around the province

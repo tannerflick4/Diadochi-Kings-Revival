@@ -1,0 +1,26 @@
+# 20601-20700 for the Zakyntioi dynasty
+20601 = {
+	name = "Nikanor" # Syracuse
+	dynasty = 2007 # Zakyntioi
+	religion = greek_main
+	culture = doric
+	382.1.1 = { # 394 BC Made up
+		birth="yes"
+	}
+	468.1.1 = { # 308 BC Made up
+		death="yes"
+	}
+}
+20602 = {
+	name = "Leontios" # Syracuse
+	dynasty = 2007 # Zakyntioi
+	religion = greek_main
+	culture = doric
+	father = 20601
+	435.1.1 = { # 341 BC Made up
+		birth="yes"
+	}
+	491.1.1 = { # 285 BC Made up
+		death="yes"
+	}
+}

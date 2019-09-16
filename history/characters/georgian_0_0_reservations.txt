@@ -1,0 +1,4 @@
+# 70001-80000 for georgian characters
+	# 70001-70100 for the Parnavazi dynasty
+	# 70101-70200 for the Azo dynasty
+	# 70201-70300 for the Aieti dynasty

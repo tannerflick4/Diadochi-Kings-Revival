@@ -1,0 +1,16 @@
+# 744 - Kanjakubja
+
+# County Title
+title = c_kanjakubja
+
+# Settlements
+max_settlements = 2
+b_kanjakubja_kanjakubja = castle
+b_krivi_kanjakubja = city
+
+# Misc
+culture = shauraseni
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

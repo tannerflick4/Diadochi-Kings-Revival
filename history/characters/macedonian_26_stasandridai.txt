@@ -1,0 +1,16 @@
+# 2501-2600 for the Stasandridai dynasty
+2501 = {
+	name = "Stasandros" # Later satrap of Aria
+	dynasty = 26 # Stasandridai
+	religion = greek_main
+	culture = macedonian
+	420.1.1 = { # 356 BC Made up
+		birth="yes"
+	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	464.1.1 = { # 312 BC
+		death="yes"
+	}
+}

@@ -1,0 +1,20 @@
+# 249 - Susa
+
+# County Title
+title = c_susa
+
+# Settlements
+max_settlements = 6
+b_susa_susa = castle
+b_dezful_susa = temple
+b_agines_susa = temple
+b_rostag_kavadad_susa = city
+b_sostrate_susa = city
+b_elymais_susa = castle
+
+# Misc
+culture = elamite
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

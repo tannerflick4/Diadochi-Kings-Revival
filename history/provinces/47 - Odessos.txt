@@ -1,0 +1,18 @@
+# 47 - Odessos
+
+# County Title
+title = c_odessos # for example c_corinth
+
+# Settlements
+max_settlements = 4
+b_odessos_odessos = castle
+b_callatis_odessos = city
+b_tomis_odessos = castle
+b_dionysiopolis_odessos = temple
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

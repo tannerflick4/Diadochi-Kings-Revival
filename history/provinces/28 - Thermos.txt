@@ -1,0 +1,22 @@
+# 28 - Thermos
+
+# County Title
+title = c_thermos # for example c_corinth
+
+# Settlements
+max_settlements = 5
+b_thermos_thermos = castle
+b_trichonion_thermos = city
+b_kallipolis_thermos = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_phystion_thermos = castle
+# b_bouttos_thermos = temple
+# b_oineon_thermos = city
+
+# Misc
+culture = doric
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

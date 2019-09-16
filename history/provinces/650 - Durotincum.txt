@@ -1,0 +1,16 @@
+# 650 - Durotincum
+
+# County Title
+title = c_durotincum
+
+# Settlements
+max_settlements = 2
+b_durotincum_durotincum = castle
+b_catorissium_durotincum = castle
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

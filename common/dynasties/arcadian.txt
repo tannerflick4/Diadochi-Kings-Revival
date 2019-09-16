@@ -1,0 +1,17 @@
+# 11001-12000 for arcadian dynasties
+11001 = {
+	name = "Siloi"
+	culture = arcadian
+}
+11002 = {
+	name = "Tegeatai"
+	culture = arcadian
+}
+11003 = {
+	name = "Stasandridai"
+	culture = arcadian
+}
+11004 = {
+	name = "Arkadioi"
+	culture = arcadian
+}

@@ -1,0 +1,16 @@
+# 679 - Saupamike
+
+# County Title
+title = c_saupamike
+
+# Settlements
+max_settlements = 2
+b_saupamike_saupamike = castle
+b_olochoira_saupamike = city
+
+# Misc
+culture = kannada
+religion = dravidian_main
+
+# History
+# Can be filled when things change around the province

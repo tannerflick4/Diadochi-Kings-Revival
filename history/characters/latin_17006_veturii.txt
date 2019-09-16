@@ -1,0 +1,17 @@
+# 170501-170600 for the Veturii dynasty
+170501 = {
+	name = "Titus" # Veturius Calvinus
+	dynasty = 17006 # Veturii
+	religion = roman_main
+	culture = latin
+	
+	add_trait = misguided_warrior
+	add_trait = craven
+	
+	423.1.1 = { # 353 BC Made up
+		birth="yes"
+	}
+	473.1.1 = { # 303 BC Made up
+		death="yes"
+	}
+}

@@ -1,0 +1,17 @@
+# 900 - Gholaia
+
+# County Title
+title = c_gholaia
+
+# Settlements
+max_settlements = 3
+b_gholaia_gholaia = castle
+b_ghirza_gholaia = city
+b_magrusa_gholaia = city
+
+# Misc
+culture = berber
+religion = berber_main
+
+# History
+# Can be filled when things change around the province

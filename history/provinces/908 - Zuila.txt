@@ -1,0 +1,17 @@
+# 908 - Zuila
+
+# County Title
+title = c_zuila
+
+# Settlements
+max_settlements = 3
+b_zuila_zuila = castle
+b_terbu_zuila = city
+b_tmessa_zuila = castle
+
+# Misc
+culture = berber
+religion = berber_main
+
+# History
+# Can be filled when things change around the province

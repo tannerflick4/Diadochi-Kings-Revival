@@ -1,0 +1,50 @@
+# 270301-270400 for the Polutacenses dynasty
+270301 = {
+	name = "Zyraxes" # Made up
+	dynasty = 27004 # Polutatenses
+	culture = dacian
+	religion = zalmoxism
+	father = 270303
+	414.1.1 = { # 362 BC, Made up
+		birth="yes"
+	}
+	465.1.1 = { # 311 BC, Made up
+		death="yes"
+	}
+}
+270302 = {
+	name = "Vezina" # Made up
+	dynasty = 27004
+	culture = dacian
+	religion = zalmoxism
+	443.1.1 = { # Made up
+		birth="yes" # 333 BC
+	}
+	501.1.1 = { # Made up
+		death="yes" # 275 BC
+	}
+}
+270303 = {
+	name = "Tiati" # Made up
+	dynasty = 27004 # Polutatenses
+	culture = dacian
+	religion = zalmoxism
+	388.1.1 = {
+		birth="yes" # 388 BC Made Up
+	}
+	451.1.1 = {
+		death="yes" # 325 BC Made Up
+	}
+}
+270304 = {
+	name = "Bikilis" # Made up
+	dynasty = 27004 # Polutatenses
+	culture = dacian
+	religion = zalmoxism
+	362.1.1 = {
+		birth="yes" # 414 BC Made Up
+	}
+	440.1.1 = {
+		death="yes" # 336 BC Made Up
+	}
+}

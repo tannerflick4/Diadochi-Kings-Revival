@@ -1,0 +1,21 @@
+412.1.1 = { #364 BC
+	holder = 22204
+}
+438.8.2 = { # 338 BC, Battle of Chaeronea
+	liege = e_macedonia
+}
+449.1.1 = { # 327 BC
+	holder = 22201 # Eutychios of the Aetolian league
+}
+453.6.10 = { # 323 BC
+	liege = k_s_macedon
+}
+453.9.1 = {
+	liege = 0 # Lamian war
+}
+478.1.1 = {
+	holder = 22202 # Apollonaris, Made up
+}
+493.1.1 = {
+	holder = 22203 # Diodoros, Made up
+}

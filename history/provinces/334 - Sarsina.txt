@@ -1,0 +1,24 @@
+# 334 - Sarsina
+
+# County Title
+title = c_sarsina # for example c_corinth
+
+# Settlements
+max_settlements = 6 # Should be reevaluated
+b_ariminum_sarsina = castle
+b_sarsina_sarsina = city
+b_piseurum_sarsina = city
+b_gatis_sarsina = temple
+
+# Possible baronies: (Always add a # in front of a line with these!)
+#
+#
+#
+#
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

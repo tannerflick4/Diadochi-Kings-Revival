@@ -1,0 +1,16 @@
+# 973 - Labitulosa
+
+# County Title
+title = c_labitulosa
+
+# Settlements
+max_settlements = 2
+b_labitulosa_labitulosa = castle
+b_ore_labitulosa = castle
+
+# Misc
+culture = iberian
+religion = iberian_main
+
+# History
+# Can be filled when things change around the province

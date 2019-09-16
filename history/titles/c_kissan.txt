@@ -1,0 +1,9 @@
+413.1.1 = { # 363 BC
+	holder = 260401 # Admerus
+}
+454.1.1 = { # 322 BC
+	holder = 260402 # Cussiles
+}
+504.1.1 = { # 272 BC
+	holder = 260403 # Admerus
+}

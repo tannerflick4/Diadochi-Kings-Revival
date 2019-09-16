@@ -1,0 +1,18 @@
+# 204 - Gundusa
+
+# County Title
+title = c_gundusa
+
+# Settlements
+max_settlements = 4
+b_gundusa_gundusa = castle
+b_euspena_gundusa = temple
+b_argaous_gundusa = city
+b_zoana_gundusa = castle
+
+# Misc
+culture = cappadocian
+religion = anatolian_main
+
+# History
+# Can be filled when things change around the province

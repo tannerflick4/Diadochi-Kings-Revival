@@ -1,0 +1,31 @@
+# 170101-170200 for the Papirii dynasty
+170101 = {
+	name = "Lucius" # Papirius Cursor
+	dynasty = 17002 # Papirii
+	religion = roman_main
+	culture = latin
+	
+	add_trait = skilled_tactician
+	add_trait = diligent
+	add_trait = strong
+	add_trait = brave
+	
+	423.1.1 = { # 353 BC Made up
+		birth="yes"
+	}
+	484.1.1 = { # 292 BC Made up
+		death="yes"
+	}
+}
+170102 = {
+	name = "Lucius" # Papirius Crassus
+	dynasty = 17002 # Papirii
+	religion = roman_main
+	culture = latin
+	377.1.1 = { # 399 BC Made Up
+		birth="yes"
+	}
+	450.1.1 = { # 326 BC Made Up
+		death="yes"
+	}
+}

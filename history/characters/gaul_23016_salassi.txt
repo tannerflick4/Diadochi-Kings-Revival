@@ -1,0 +1,39 @@
+# 231401-231500 for the Salassi dynasty
+231401 = {
+	name = "Cotus" # Made up
+	dynasty = 23016 # Salassi
+	culture = gaul
+	religion = celtic_main
+	father = 231403
+	382.1.1 = { # Made up
+		birth="yes" # 394 BC
+	}
+	468.1.1 = { # Made up
+		death="yes" # 308 BC
+	}
+}
+231402 = {
+	name = "Lucterius" # Salassi Made up
+	dynasty = 23016 # Salassi
+	culture = gaul
+	religion = celtic_main
+	father = 231401
+	410.1.1 = { # 366 BC
+		birth="yes"
+	}
+	499.1.1 = { # 277 BC
+		death="yes"
+	}
+}
+231403 = {
+	name = "Orgetorix" # Made up
+	dynasty = 23016 # Salassi
+	culture = gaul
+	religion = celtic_main
+	359.1.1 = { # Made up
+		birth="yes" # 417 BC
+	}
+	424.1.1 = { # 352 BC
+		death="yes"
+	}
+}

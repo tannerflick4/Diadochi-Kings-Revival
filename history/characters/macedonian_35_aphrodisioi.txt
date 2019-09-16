@@ -1,0 +1,14 @@
+# 3401-3500 for the Aphrodisioi dynasty
+3401 = {
+	name = "Aphrodisias" # Seleucid general. Used as small count in Phrygia
+	dynasty = 35
+	culture = macedonian
+	religion = greek_main
+	
+	445.1.1 = { # 331 BC, Made up
+		birth="yes"
+	}
+	501.1.1 = { # 275 BC, Made up
+		death="yes"
+	}
+}

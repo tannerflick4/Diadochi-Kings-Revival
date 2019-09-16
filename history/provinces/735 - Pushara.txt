@@ -1,0 +1,16 @@
+# 735 - Pushara
+
+# County Title
+title = c_pushara
+
+# Settlements
+max_settlements = 2
+b_pushara_pushara = castle
+b_mrittikavati_pushara = city
+
+# Misc
+culture = shauraseni
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

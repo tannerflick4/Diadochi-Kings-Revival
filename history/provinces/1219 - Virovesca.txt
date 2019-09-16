@@ -1,0 +1,21 @@
+# 1219 - Virovesca
+
+# County Title
+title = c_virovesca
+
+# Settlements
+max_settlements = 2
+b_virovesca_virovesca= castle
+b_sekobirikes_virovesca = castle
+
+# Misc
+culture = celtiberian
+religion = celtic_main
+
+
+
+
+
+
+# History
+# Can be filled when things change around the province

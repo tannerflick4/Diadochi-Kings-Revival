@@ -1,0 +1,12 @@
+413.1.1 = { # 364 BC
+	holder = 320304 # Thaim'alba'ali
+}
+446.1.1 = { # 330 BC
+	holder = 320303 # Ausos
+}
+468.1.1 = { # 308 BC, Made up
+	holder = 320301 # Karib'il
+}
+480.1.1 = { # 296 BC Made up
+	holder = 320302 # Rav'el
+}

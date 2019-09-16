@@ -1,0 +1,17 @@
+# 891 - Qiemo
+
+# County Title
+title = c_qiemo
+
+# Settlements
+max_settlements = 3
+
+b_qiemo_qiemo = castle # Qarqan
+b_ronglu_qiemo = city
+b_xiaoyuan_qiemo = temple
+
+culture = tocharian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

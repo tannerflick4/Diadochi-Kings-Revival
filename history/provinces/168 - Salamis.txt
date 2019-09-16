@@ -1,0 +1,21 @@
+# 168 - Salamis
+
+# County Title
+title = c_salamis
+
+# Settlements
+max_settlements = 5
+b_salamis_salamis = castle
+b_chytroi_salamis = castle
+b_ledrai_salamis = castle
+b_lapithos_salamis = city
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_karpasia_salamis
+
+# Misc
+culture = arcadian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,15 @@
+# 869 - Thenetos
+
+# County Title
+title = c_thenetos
+
+# Settlements
+max_settlements = 3
+b_thenetos_thenetos = castle
+
+# Misc
+culture = berber
+religion = berber_main
+
+# History
+# Can be filled when things change around the province

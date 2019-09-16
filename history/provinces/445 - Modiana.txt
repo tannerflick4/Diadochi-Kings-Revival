@@ -1,0 +1,17 @@
+# 445 - Modiana
+
+# County Title
+title = c_modiana
+
+# Settlements
+max_settlements = 3
+b_modiana_modiana = castle
+b_madiaba_modiana = castle
+b_laba_modiana = temple
+
+# Misc
+culture = nabataean
+religion = arabic_main
+
+# History
+# Can be filled when things change around the province

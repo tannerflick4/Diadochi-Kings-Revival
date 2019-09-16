@@ -1,0 +1,19 @@
+# 172 - Madaba
+
+# County Title
+title = c_madaba
+
+# Settlements
+max_settlements = 5
+b_madaba_madaba = castle
+b_esbous_madaba = temple
+b_ziza_madaba = city
+b_valtha_madaba = castle
+b_elealeh_madaba = castle
+
+# Misc
+culture = nabataean
+religion = arabic_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,17 @@
+# 454 - Adane
+
+# County Title
+title = c_adane
+
+# Settlements
+max_settlements = 3
+b_adane_adane = castle
+b_mesala_adane = city
+b_abisama_adane = castle
+
+# Misc
+culture = arabic
+religion = arabic_main
+
+# History
+# Can be filled when things change around the province

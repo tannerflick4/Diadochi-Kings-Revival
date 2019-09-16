@@ -1,0 +1,27 @@
+# 430201-430300 for the Paesuri dynasty
+430201 = {
+	name = "Coporus" # Made up Paesuri leader
+	dynasty = 43003
+	culture = lusitanian
+	religion = lusitanian_main
+	
+	369.1.1 = { # 407 BC, Made up
+		birth="yes"
+	}
+	445.1.1 = { # 331 BC
+		death="yes"
+	}
+}
+430202 = {
+	name = "Cancilius" # Made up Paesuri leader
+	dynasty = 43003
+	culture = lusitanian
+	religion = lusitanian_main
+	
+	430.1.1 = { # 346 BC, Made up
+		birth="yes"
+	}
+	500.1.1 = { # 276 BC
+		death="yes"
+	}
+}

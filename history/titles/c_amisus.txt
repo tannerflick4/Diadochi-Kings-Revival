@@ -1,0 +1,16 @@
+417.1.1 = {
+	holder = 60003 # Ariamnes
+	liege = k_p_cappadocia
+}
+426.1.1 = {
+	holder = 60101 # Mithrobuzanes
+}
+434.1.1 = {
+	holder = 51902 # Androkles, Made Up Tyrant
+}
+444.1.1 = { # 332 BC
+	liege = 0
+}
+459.1.1 = {
+	holder = 51901
+}

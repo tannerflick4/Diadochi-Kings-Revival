@@ -1,0 +1,17 @@
+# 675 - Kanchipura
+
+# County Title
+title = c_kanchipura
+
+# Settlements
+max_settlements = 3
+b_kanchipura_kanchipura = castle
+b_calamina_kanchipura = city
+b_pandipatna_kanchipura = city
+
+# Misc
+culture = tamil
+religion = dravidian_main
+
+# History
+# Can be filled when things change around the province

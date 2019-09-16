@@ -1,0 +1,36 @@
+393.1.1 = {
+	holder = 10006 # Alcetas I
+}
+406.1.1 = {
+	holder = 10005 # Neoptolemus I
+}
+416.1.1 = {
+	holder = 10003 # Arybbas
+}
+426.1.1 = {
+	holder = 10008 # Alexander I
+	liege = e_macedonia
+}
+445.1.1 = {
+	holder = 10001 # Aeacides
+}
+459.10.1 = {
+	holder = 0
+	liege = 0
+}
+463.1.1 = {
+	holder = 10001 # Aeacides
+	liege = 0
+}
+463.7.1 = {
+	holder = 10004 # Alcetas II
+}
+469.1.1 = {
+	holder = 10010 # Pyrrhus
+}
+474.1.1 = {
+	holder = 10009 # Neoptolemos II
+}
+479.1.1 = {
+	holder = 10010 # Pyrrhus
+}

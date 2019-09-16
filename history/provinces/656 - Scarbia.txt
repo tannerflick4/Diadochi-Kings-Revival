@@ -1,0 +1,16 @@
+# 656 - Scarbia
+
+# County Title
+title = c_scarbia
+
+# Settlements
+max_settlements = 2
+b_scarbia_scarbia = castle
+b_teriolis_scarbia = city
+
+# Misc
+culture = raetic
+religion = etruscan_main
+
+# History
+# Can be filled when things change around the province

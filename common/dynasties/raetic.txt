@@ -1,0 +1,25 @@
+# 28001-29000 for Raetic dynasties
+28001 = {
+	name = "Vindelici"
+	culture = raetic
+}
+28002 = {
+	name = "Lepontii"
+	culture = raetic
+}
+28003 = {
+	name = "Isarci"
+	culture = raetic
+}
+28004 = {
+	name = "Vennones"
+	culture = raetic
+}
+28005 = {
+	name = "Venostes"
+	culture = raetic
+}
+28006 = {
+	name = "Catubrini"
+	culture = raetic
+}

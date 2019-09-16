@@ -1,0 +1,16 @@
+# 1221 - Ebusos
+
+# County Title
+title = c_ebusos
+
+# Settlements
+max_settlements = 1
+b_ibossim_ebusos = castle
+
+# Misc
+culture = punic
+religion = punic_main
+
+
+# History
+# Can be filled when things change around the province

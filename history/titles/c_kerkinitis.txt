@@ -1,0 +1,12 @@
+407.1.1 = { # 369 BC, Made Up
+	holder = 52704 # Perikles
+}
+423.1.1 = { # 353 BC, Made up
+	holder = 52701 # Alexis
+}
+464.1.1 = { # 312 BC, Made up
+	holder = 52702 # Zephyros
+}
+489.1.1 = { # 287 BC, Made up
+	holder = 52703 # Chrysanthe
+}

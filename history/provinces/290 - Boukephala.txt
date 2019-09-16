@@ -1,0 +1,16 @@
+# 290 - Boukephala
+
+# County Title
+title = c_boukephala
+
+# Settlements
+max_settlements = 2
+b_bucephala_boukephala = castle
+b_nicaea_boukephala = city
+
+# Misc
+culture = shauraseni
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

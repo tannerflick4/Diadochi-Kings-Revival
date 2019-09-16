@@ -1,0 +1,25 @@
+415.1.1 = { # 361 BC
+	holder = 54001
+	liege = k_r_athens
+}
+421.1.1 = { # 355 BC, Won Social war
+	liege = 0
+}
+438.8.2 = { # 338 BC, Battle of Chaeronea
+	liege = e_macedonia
+}
+446.1.1 = { # 330 BC
+	liege = k_s_lydia
+}
+453.1.1 = { # 323 BC
+	holder = 54002
+}
+457.5.1 = { # 319 BC
+	liege = k_s_phrygia
+}
+467.1.1 = { # 309 BC
+	liege = e_asia
+}
+485.1.1 = { # 291 BC
+	liege = e_egypt
+}

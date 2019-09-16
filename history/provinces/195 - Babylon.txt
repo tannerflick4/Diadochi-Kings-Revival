@@ -1,0 +1,21 @@
+# 195 - Babylon
+
+# County Title
+title = c_babylon
+
+# Settlements
+max_settlements = 7
+b_babylon_babylon = castle
+b_cutha_babylon = temple
+b_borsippa_babylon = city
+b_kish_babylon = castle
+b_dilbat_babylon = city
+b_gurumu_babylon = castle
+b_skaple_babylon = city
+
+# Misc
+culture = akkadian
+religion = marduk_cult
+
+# History
+# Can be filled when things change around the province

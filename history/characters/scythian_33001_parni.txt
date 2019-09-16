@@ -1,0 +1,13 @@
+# 330001-3306020 for the Parni dynasty
+330001 = {
+	name = "Adraspus" # Made up
+	dynasty = 33001 # Parni / Dahae
+	religion = zoroastrian_main
+	culture = scythian
+	433.1.1 = { # 343 BC
+		birth="yes"
+	}
+	512.1.1 = { # 264 BC
+		death="yes"
+	}
+}

@@ -1,0 +1,30 @@
+417.1.1 = {
+	holder = 90701
+	liege = k_p_arachosia
+}
+447.7.1 = { # 329 BC
+	holder = 20101 # Sibyrtios
+	liege="k_s_gedrosia"
+}
+460.1.1 = {
+	holder = 401 # Antigonus
+	liege = k_s_phrygia
+}
+467.1.1 = {
+	liege = e_asia
+}
+471.1.1 = {
+	holder = 1001 # Seleukos I
+	liege = e_syria
+}
+473.1.1 = {
+	holder = 120301
+	liege = e_india
+}
+478.1.1 = {
+	holder = 120302
+}
+490.1.1 = { # 286 BC
+	holder = 120303 # Susima Maurya
+	liege = d_gandhara
+}

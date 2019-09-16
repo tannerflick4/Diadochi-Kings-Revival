@@ -1,0 +1,24 @@
+# 335 - Veii
+
+# County Title
+title = c_veii # for example c_corinth
+
+# Settlements
+max_settlements = 6 # Should be reevaluated
+b_veii_veii = castle
+b_laurium_veii = city
+b_frenae_veii = city
+b_pyrgos_veii = temple
+
+# Possible baronies: (Always add a # in front of a line with these!)
+#
+#
+#
+#
+
+# Misc
+culture = etruscan
+religion = etruscan_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,12 @@
+399.1.1 = { # 377 BC
+	holder = 121001 # Kangavarma
+}
+456.1.1 = { # 320 BC
+	holder = 121002 # Madhava
+}
+475.1.1 = { # 301 BC
+	holder = 121003 # Polavira
+}
+482.1.1 = { # 294 BC
+	liege = e_india
+}

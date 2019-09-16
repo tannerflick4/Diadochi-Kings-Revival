@@ -1,0 +1,11 @@
+# 260001-270000 for Berber characters
+	# 260001-260100 for the Massylii dynasty
+	# 260101-260200 for the Masaesyli dynasty
+	# 260201-260300 for the Mauri dynasty
+	# 260301-260400 for the Garamantes dynasty
+	# 260401-260500 for the Gamphasantes dynasty
+	# 260501-260600 for the Tidamensioi dynasty
+	# 260601-260700 for the Macae dynasty
+	# 260701-260800 for the Koufri dynasty
+	# 260801-260900 for the Kawari dynasty
+	# 260901-261000 for the Gati dynasty

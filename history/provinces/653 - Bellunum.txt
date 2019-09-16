@@ -1,0 +1,17 @@
+# 653 - Bellunum
+
+# County Title
+title = c_bellunum
+
+# Settlements
+max_settlements = 3
+b_bellunum_bellunum = castle
+b_feltria_bellunum = city
+b_littamum_bellunum = castle
+
+# Misc
+culture = venetic
+religion = illyrian_main
+
+# History
+# Can be filled when things change around the province

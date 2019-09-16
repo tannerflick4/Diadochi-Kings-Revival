@@ -1,0 +1,14 @@
+# 22001-23000 for venetic dynasties
+
+22001 = {
+	name = "Veneti"
+	culture = venetic
+}
+22002 = {
+	name = "Liburni"
+	culture = venetic
+}
+22003 = {
+	name = "Catari"
+	culture = venetic
+}

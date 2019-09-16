@@ -1,0 +1,24 @@
+# 636 - Thracian Chersonese
+
+# County Title
+title = c_thracian_chersonese # for example c_corinth
+
+# Settlements
+max_settlements = 4
+b_kardia_thracian_chersonese = castle
+b_sestos_thracian_chersonese = castle
+b_pactya_thracian_chersonese = city
+b_drabos_thracian_chersonese = city
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province
+405.1.1 = {
+	capital = b_pactya_thracian_chersonese
+}
+438.1.1 = {
+	capital = b_kardia_thracian_chersonese
+}

@@ -1,0 +1,18 @@
+# 838 - Kimiatene
+
+# County Title
+title = c_kimiatene
+
+# Settlements
+max_settlements = 4
+b_kimiata_kimiatene = castle
+b_kandara_kimiatene = castle
+b_aiginetes_kimiatene = city
+b_garios_kimiatene = city
+
+# Misc
+culture = luwian
+religion = anatolian_main
+
+# History
+# Can be filled when things change around the province

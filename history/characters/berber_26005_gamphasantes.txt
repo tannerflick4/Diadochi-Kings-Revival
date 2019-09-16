@@ -1,0 +1,44 @@
+# 260401-260500 for the Gamphasantes dynasty
+260401 = {
+	name = "Admerus" # Made up
+	dynasty = 26005
+	culture = berber
+	religion = berber_main
+
+	400.1.1 = { # 376 BC, Made up
+		birth="yes"
+	}
+	454.1.1 = { # 322 BC, Made up
+		death="yes"
+	}
+}
+260402 = {
+	name = "Cussiles" # Made up
+	dynasty = 26005
+	culture = berber
+	religion = berber_main
+
+	father = 260401
+
+	431.1.1 = { # 345 BC, Made up
+		birth="yes"
+	}
+	504.1.1 = { # 272 BC, Made up
+		death="yes"
+	}
+}
+260403 = {
+	name = "Admerus" # Made up
+	dynasty = 26005
+	culture = berber
+	religion = berber_main
+
+	father = 260401
+
+	467.1.1 = { # 309 BC, Made up
+		birth="yes"
+	}
+	510.1.1 = { # 266 BC, Made up
+		death="yes"
+	}
+}

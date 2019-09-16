@@ -1,0 +1,11 @@
+413.1.1 = { # 363 BC
+	holding_dynasty = 25003 # Hasdrubaal
+	holder = 250203 # Hasdrubaal
+	liege = k_carthage
+}
+420.1.1 = { # 356 BC
+	holder = 250201 # Magon of the family of Hasdrubal
+}
+463.1.1 = { # 313 BC
+	holder = 250202
+}

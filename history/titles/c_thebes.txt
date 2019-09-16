@@ -1,0 +1,32 @@
+414.1.1 = { # 362 BC
+	holder = 30601
+}
+438.8.2 = { # 338 BC, Battle of Chaeronea
+	liege = e_macedonia
+}
+441.1.1 = { # 335 BC
+	holder = 30603
+}
+453.6.10 = { # 323 BC
+	liege = k_s_macedon
+}
+459.9.1 = { # 317 BC
+	liege = k_macedon
+}
+463.6.1 = { # 313 BC
+	holder = 411 # Ptolemy, nephew of Antigonos
+	liege = k_s_phrygia
+}
+466.1.1 = { # 310 BC
+	liege = 0
+}
+467.1.1 = { # 309 BC
+	holder = 30603
+	liege = e_egypt
+}
+468.3.1 = { # 308 BC
+	liege = k_macedon	
+}
+473.8.1 = { # 303 BC
+	liege = e_asia
+}

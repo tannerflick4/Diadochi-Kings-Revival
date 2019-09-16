@@ -1,0 +1,16 @@
+# 673 - Rajapuri
+
+# County Title
+title = c_rajapuri
+
+# Settlements
+max_settlements = 2
+b_rajapuri_rajapuri = castle
+b_sabarigiri_rajapuri = temple
+
+# Misc
+culture = tamil
+religion = jainism_main
+
+# History
+# Can be filled when things change around the province

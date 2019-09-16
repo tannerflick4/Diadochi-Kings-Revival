@@ -1,0 +1,13 @@
+# 170601-170700 for the Folii dynasty
+170601 = {
+	name = "Marcus" # Folius Flaccinator
+	dynasty = 17007 # Folii
+	religion = roman_main
+	culture = latin
+	423.1.1 = { # 353 BC Made up
+		birth="yes"
+	}
+	473.1.1 = { # 303 BC Made up
+		death="yes"
+	}
+}

@@ -1,0 +1,20 @@
+# 251 - Bushahr
+
+# County Title
+title = c_bushahr
+
+# Settlements
+max_settlements = 4
+b_bushahr_bushahr = castle
+b_borazjan_bushahr = temple
+b_rishahr_bushahr = city
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_kharg_bushahr = city
+
+# Misc
+culture = persian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

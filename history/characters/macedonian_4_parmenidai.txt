@@ -1,0 +1,19 @@
+# 301-400 for the Parmenidai dynasty
+301 = {
+	name = "Asandros" # Asander, Satrap of Caria, grandson of Parmenion
+	dynasty = 4 # Parmenidai
+	religion = greek_main
+	culture = macedonian
+	
+	add_trait = misguided_warrior
+	
+	414.1.1 = {
+		birth="yes" # 362 BC Made up
+	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	463.1.1 = {
+		death="yes" # 313 BC Made up. Asander was last mentioned being in a war against Antigonus(He rebelled against him). His satrapy was taken from him by Antigonus, so it is possible he was executed by Antigonus.
+	}
+}

@@ -1,0 +1,6 @@
+444.1.1 = { # 332 BC
+	holder = 60001 # Ariarathes, King of Cappadocia
+}
+454.1.1 = {
+	holder = 0
+}

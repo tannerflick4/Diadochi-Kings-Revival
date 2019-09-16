@@ -1,0 +1,17 @@
+# 220 - Amaras
+
+# County Title
+title = c_amaras
+
+# Settlements
+max_settlements = 3
+b_amaras_amaras = castle
+b_taoa_amaras = temple
+b_sataphara_amaras = city
+
+# Misc
+culture = armenian
+religion = armenian_main
+
+# History
+# Can be filled when things change around the province

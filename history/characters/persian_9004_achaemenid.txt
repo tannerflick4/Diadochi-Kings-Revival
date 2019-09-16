@@ -1,0 +1,403 @@
+# 90301-90400 for the Achaemenid dynasty
+90301 = {
+	name = "Kuru" # Cyrus the Great, Persian emperor
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	father = 90317
+	
+	add_trait = brilliant_strategist
+	add_trait = ambitious
+	add_trait = quick
+	add_trait = diligent
+	add_trait = charitable
+	add_trait = proud
+	
+	190.1.1 = { # 576 BC
+		birth="yes"
+	}
+	246.12.1 = { # 530 BC
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+90302 = {
+	name = "Kambuyija" # Cambyses II, Persian emperor
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	father = 90301
+	
+	add_trait = ambitious
+	add_trait = tough_soldier
+	add_trait = patient
+	
+	210.1.1 = { # 566 BC Made up
+		birth="yes"
+	}
+	254.1.1 = { # 522 BC
+		death="yes"
+	}
+}
+90303 = {
+	name = "Bardiya" # Bardiya, Persian emperor
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	father = 90301
+	
+	add_trait = strong
+	add_trait = charitable
+	
+	211.1.1 = { # 565 BC Made up
+		birth="yes"
+	}
+	255.1.1 = { # 521 BC
+		death="yes"
+	}
+}
+90304 = {
+	name = "Vishtaspa" # Hystaspes, father of Darius the Great
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	father = 90319
+	206.1.1 = { # 570 BC Made up
+		birth="yes"
+	}
+	246.12.1 = { # 530 BC Made up
+		death="yes"
+	}
+}
+90305 = {
+	name = "Darayavahu" # Darius the Great, Persian emperor
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	father = 90304
+	
+	add_trait = deceitful
+	add_trait = midas_touched
+	add_trait = proud
+	add_trait = ambitious
+	add_trait = charitable
+	add_trait = cruel
+	
+	226.1.1 = { # 550 BC
+		birth="yes"
+	}
+	290.10.1 = { # 486 BC
+		death="yes"
+	}
+}
+90306 = {
+	name = "Xshayarshan" # Xerxes the Great, Persian emperor
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	father = 90305
+	
+	add_trait = greedy
+	add_trait = zealous
+	add_trait = ambitious
+	add_trait = proud
+	
+	258.1.1 = { # 518 BC
+		birth="yes"
+	}
+	311.1.1 = { # 465 BC
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+90307 = {
+	name = "Artaxshasa" # Artaxerxes I, Persian emperor
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	father = 90306
+	
+	add_trait = charitable
+	
+	288.1.1 = { # 488 BC Made up
+		birth="yes"
+	}
+	352.12.25 = { # 424 BC
+		death="yes"
+	}
+}
+90308 = {
+	name = "Xshayarshan" # Xerxes II, Persian emperor
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	father = 90307
+	308.1.1 = { # 468 BC Made up
+		birth="yes"
+	}
+	353.2.1 = { # 423 BC
+		death = {
+			death_reason = death_murder
+			killer = 90309
+		}
+	}
+}
+90309 = {
+	name = "Sogdianus" # Sogdianus, Persian emperor
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	father = 90307
+	313.1.1 = { # 463 BC Made up
+		birth="yes"
+	}
+	353.8.1 = { # 423 BC
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+90310 = {
+	name = "Darayavahu" # Darius II, Persian emperor
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	father = 90307
+	
+	add_trait = bastard
+	add_trait = deceitful
+	
+	318.1.1 = { # 457 BC Made up
+		birth="yes"
+	}
+	370.1.1 = { # 405 BC
+		death="yes"
+	}
+}
+90311 = {
+	name = "Artaxshasa" # Artaxerxes II, Persian emperor
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	father = 90310
+	
+	add_trait = envious
+	add_trait = deceitful
+	
+	340.1.1 = { # 435 BC
+		birth="yes"
+	}
+	418.1.1 = { # 358 BC
+		death="yes"
+	}
+}
+90312 = {
+	name = "Artaxshasa" # Artaxerxes III, Persian emperor
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	father = 90311
+	
+	add_trait = tough_soldier
+	add_trait = cruel
+	add_trait = charitable
+	add_trait = diligent
+	
+	360.1.1 = { # 415 BC Made up
+		birth="yes"
+	}
+	418.1.1 = { # 358 BC
+		add_trait = kinslayer # Apparently killed most of his family
+	}
+	438.9.25 = { # 338 BC
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+90313 = {
+	name = "Artaxshasa" # Artaxerxes IV, Persian emperor
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	father = 90312
+	
+	add_trait = weak
+	
+	400.1.1 = { # 375 BC Made up
+		birth="yes"
+	}
+	440.1.1 = { # 336 BC
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+90314 = {
+	name = "Darayavahu" # Darius III, last Persian emperor
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	
+	add_trait = duelist
+	add_trait = tough_soldier
+	add_trait = craven
+	add_trait = slothful
+	
+	395.1.1 = { # 380 BC
+		birth="yes"
+	}
+	446.1.1 = { # 330 BC
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+90315 = {
+	name ="Cishpi" # Teispes, King of Anshan
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	91.1.1 = { # 685 BC Made up
+		birth="yes"
+	}
+	136.1.1 = { # 640 BC
+		death="yes"
+	}
+}
+90316 = {
+	name = "Kuru" # Cyrus, King of Anshan
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	father = 90315
+	116.1.1 = { # 660 BC Made up
+		birth="yes"
+	}
+	196.1.1 = { # 580 BC
+		death="yes"
+	}
+}
+90317 = {
+	name = "Kambuyija" # Cambyses I, King of Anshan
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	father = 90316
+	
+	add_trait = kind
+	
+	176.1.1 = { # 600 BC
+		birth="yes"
+	}
+	217.1.1 = { # 559 BC
+		death="yes"
+	}
+}
+90318 = {
+	name = "Ariyamna" # Ariaramnes
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	father = 90315
+	120.1.1 = { # 656 BC Made up
+		birth="yes"
+	}
+	206.1.1 = { # 570 BC Made up
+		death="yes"
+	}
+}
+90319 = {
+	name = "Arshama" # Arsames
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	father = 90318
+	166.1.1 = { # 610 BC
+		birth="yes"
+	}
+	256.1.1 = { # 520 BC
+		death="yes"
+	}
+}
+90320 = {
+	name = "Artaxshasa" # Artaxerxes V Bessus
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	
+	add_trait = ambitious
+	add_trait = proud
+	add_trait = deceitful
+	
+	400.1.1 = { # 376 BC made up
+		birth="yes"
+	}
+	447.7.1 = { # 329 BC
+		death="yes"
+	}
+}
+90321 = {
+	name = "Fravarti" # Made up Achaemenid Satrap of Persia
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	393.1.1 = { # 383 BC made up
+		birth="yes"
+	}
+	456.1.1 = { # 320 BC made up
+		death="yes"
+	}
+}
+90322 = {
+	name = "Vahyazdata" # Made up Achaemenid Satrap of Media
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	395.1.1 = { # 381 BC made up
+		birth="yes"
+	}
+	448.1.1 = { # 328 BC made up
+		death="yes"
+	}
+}
+90323 = {
+	name = "Spithridates" # Last Achaemenid satrap of Lydia
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	400.1.1 = { # 376 BC made up
+		birth="yes"
+	}
+	442.1.1 = { # 334 BC
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+90324 = {
+	name = "Kuru" # Made up Achaemenid Satrap of Babylon
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	393.1.1 = { # 383 BC made up
+		birth="yes"
+	}
+	456.1.1 = { # 320 BC made up
+		death="yes"
+	}
+}
+90325 = {
+	name = "Oxydates" # First Alexandrian satrap of Media
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	415.1.1 = { # 361 BC Made up
+		birth="yes"
+	}
+	449.1.1 = { # 327 BC made up
+		death="yes"
+	}
+}

@@ -1,0 +1,8 @@
+405.1.1 = { # 371 BC
+	holder = 420401 # Sekontios
+	liege = d_arevaci
+}
+467.1.2 = { # 308 BC
+	holder = 420402 # Tiokenesos
+	liege = d_arevaci
+}

@@ -1,0 +1,25 @@
+# 339 - Pisae
+
+# County Title
+title = c_pisae # for example c_corinth
+
+# Settlements
+max_settlements = 6 # Should be reevaluated
+b_pisae_pisae = castle
+b_populonium_pisae = city
+b_luca_pisae = city
+b_fiorentia_pisae = temple
+b_pistoria_pisae = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+#
+#
+#
+#
+
+# Misc
+culture = etruscan
+religion = etruscan_main
+
+# History
+# Can be filled when things change around the province

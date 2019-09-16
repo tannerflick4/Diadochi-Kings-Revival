@@ -1,0 +1,18 @@
+# 365 - Thabraca
+
+# County Title
+title = c_thabraca
+
+# Settlements
+max_settlements = 4
+b_tuniza_thabraca = city
+b_thabraca_thabraca = castle
+b_thubi_thabraca = castle
+b_thunigaba_thabraca = city
+
+# Misc
+culture = punic
+religion = punic_main
+
+# History
+# Can be filled when things change around the province

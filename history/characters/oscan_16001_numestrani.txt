@@ -1,0 +1,39 @@
+# 160001-160100 for the Numestrani dynasty
+160001 = {
+	name = "Neriis" # Lucani
+	dynasty = 16001 # Numestrani
+	religion = roman_main
+	culture = oscan
+	father = 160003
+	423.1.1 = { # 353 BC made up
+		birth="yes"
+	}
+	483.1.1 = { # 303 BC made up
+		death="yes"
+	}
+}
+160002 = {
+	name = "Miniis" # Lucani
+	dynasty = 16001 # Numestrani
+	religion = roman_main
+	culture = oscan
+	father = 160001
+	448.1.1 = { # 328 BC Made up
+		birth="yes"
+	}
+	508.1.1 = { # 268 BC Made up
+		death="yes"
+	}
+}
+160003 = {
+	name = "Neriis" # Lucani, Made Up
+	dynasty = 16001 # Numestrani
+	religion = roman_main
+	culture = oscan
+	398.1.1 = { # 373 BC Made Up
+		birth="yes"
+	}
+	462.1.1 = { # 314 BC Made Up
+		death="yes"
+	}
+}

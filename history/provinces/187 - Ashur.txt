@@ -1,0 +1,22 @@
+# 187 - Ashur
+
+# County Title
+title = c_ashur
+
+# Settlements
+max_settlements = 6
+b_ashur_ashur = castle
+b_vicat_ashur = temple #Tell Ibra
+b_balad_ashur = city
+b_apku_ashur = castle # Tell Abu Marya
+b_singara_ashur = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_hatra_ashur
+
+# Misc
+culture = aramaic
+religion = marduk_cult
+
+# History
+# Can be filled when things change around the province

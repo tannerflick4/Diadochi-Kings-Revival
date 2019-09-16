@@ -1,0 +1,6 @@
+# 44001-45000 for Gallaecian dynasties
+44001 = {
+	name = "Kallaikoi"
+	culture = gallaecian
+}
+

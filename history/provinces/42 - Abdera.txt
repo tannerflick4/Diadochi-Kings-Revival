@@ -1,0 +1,17 @@
+# 42 - Abdera
+
+# County Title
+title = c_abdera # for example c_corinth
+
+# Settlements
+max_settlements = 3
+b_abdera_abdera = castle
+b_bergepolis_abdera = temple
+b_dikaia_abdera = city
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

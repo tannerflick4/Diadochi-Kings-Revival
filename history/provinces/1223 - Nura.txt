@@ -1,0 +1,16 @@
+# 1223 - Nura
+
+# County Title
+title = c_nura
+
+# Settlements
+max_settlements = 1
+b_nura_nura = castle
+
+# Misc
+culture = punic
+religion = punic_main
+
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,16 @@
+# 702 - Dantapura
+
+# County Title
+title = c_dantapura
+
+# Settlements
+max_settlements = 2
+b_dantapura_dantapura = castle
+b_medinipuri_dantapura = city
+
+# Misc
+culture = vedic # Magadhi
+religion = buddhism_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,44 @@
+# 40201-40300 for the Getae dynasty
+40201 = {
+	name = "Cothelas" # King of Getae
+	dynasty = 4003 # Getae
+	religion = "zalmoxism"
+	culture = thracian
+	father = 40203
+	415.1.1 = { # 361 BC Made up
+		birth="yes"
+	}
+	476.1.1 = { # 300 BC Made up
+		death="yes"
+	}
+}
+40202 = {
+	name = "Dromichaetes" # King of Getae
+	dynasty = 4003 # Getae
+	religion = "zalmoxism"
+	culture = thracian
+	father = 40201
+	
+	add_trait = kind
+	
+	445.1.1 = { # 331 BC Made up
+		birth="yes"
+	}
+	497.1.1 = { # 279 BC
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+40203 = {
+	name = "Langarus" # King of Getae, Made up
+	dynasty = 4003 # Getae
+	religion = "zalmoxism"
+	culture = thracian
+	389.1.1 = {
+		birth="yes" # 387 BC Made Up
+	}
+	430.1.1 = {
+		death="yes" # 346 BC Made Up
+	}
+}

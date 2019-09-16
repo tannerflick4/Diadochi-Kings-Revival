@@ -1,0 +1,26 @@
+# 370001-370100 for Kroraina dynasty
+370001 = {
+	name = "Ramatsoga" # Made up
+	dynasty = 37035
+	religion = zoroastrian_main
+	culture = tocharian
+	388.1.1 = { # 388 BC
+		birth="yes"
+	}
+	455.1.1 = { # 321 BC
+		death="yes"
+	}
+}
+370002 = {
+	name = "Navote" # Made up
+	dynasty = 37035
+	religion = zoroastrian_main
+	culture = tocharian
+	father = 370001
+	420.1.1 = { # 356 BC
+		birth="yes"
+	}
+	498.1.1 = { # 287 BC
+		death="yes"
+	}
+}

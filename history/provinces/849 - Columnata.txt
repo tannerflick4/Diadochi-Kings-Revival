@@ -1,0 +1,15 @@
+# 849 - Columnata
+
+# County Title
+title = c_columnata
+
+# Settlements
+max_settlements = 1
+b_columnata_columnata = castle
+
+# Misc
+culture = berber
+religion = berber_main
+
+# History
+# Can be filled when things change around the province

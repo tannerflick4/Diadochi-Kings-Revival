@@ -1,0 +1,18 @@
+# 59 - Orestis
+
+# County Title
+title = c_orestis # for example c_corinth
+
+# Settlements
+max_settlements = 4
+b_heracleia_lyncestis_orestis = castle
+b_lychnidos_orestis = city
+b_stuberra_orestis = city
+b_pelagonia_orestis = castle
+
+# Misc
+culture = macedonian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

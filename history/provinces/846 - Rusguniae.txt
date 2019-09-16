@@ -1,0 +1,16 @@
+# 846 - Rusguniae
+
+# County Title
+title = c_rusguniae
+
+# Settlements
+max_settlements = 3
+b_obori_rusguniae = city
+b_rusguniae_rusguniae = castle
+b_icosium_rusguniae = castle
+
+# Misc
+culture = punic
+religion = punic_main
+
+# History

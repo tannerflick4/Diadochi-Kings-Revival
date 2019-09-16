@@ -1,0 +1,18 @@
+# 196 - Marad
+
+# County Title
+title = c_marad
+
+# Settlements
+max_settlements = 4
+b_marad_marad = castle
+b_aqola_marad = temple
+b_hira_marad = city
+b_qadassiya_marad = castle
+
+# Misc
+culture = akkadian
+religion = marduk_cult
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,13 @@
+# 171901-172000 for the Servilii dynasty
+171901 = {
+	name = "Gaius" # Servilius Tucca
+	dynasty = 17020 # Servilii
+	religion = roman_main
+	culture = latin
+	443.1.1 = { # 333 BC Made up
+		birth="yes"
+	}
+	509.1.1 = { # 267 BC Made up
+		death="yes"
+	}
+}

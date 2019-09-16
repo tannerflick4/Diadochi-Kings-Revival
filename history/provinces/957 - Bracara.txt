@@ -1,0 +1,18 @@
+# 957 - Bracara
+
+# County Title
+title = c_bracara
+
+# Settlements
+max_settlements = 4
+b_bracara_bracara = castle
+b_cale_bracara = city
+b_briteiros_bracara = temple
+#b_arae_flaviae_bracara = city
+
+# Misc
+culture = gallaecian
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,23 @@
+# 2101-2200 for the Stageiritai dynasty
+2101 = {
+	name = "Nikanor" # Later satrap of Cappadocia
+	dynasty = 22 # Stageiritai
+	religion = greek_main
+	culture = macedonian
+	
+	add_trait = tough_soldier
+	add_trait = content
+	
+	420.1.1 = { # 356 BC Made up
+		birth="yes"
+	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	464.1.1 = { # 312 BC
+		death = {
+			death_reason = death_battle
+			killer = 1001 # Seleucus
+		}
+	}
+}

@@ -1,0 +1,26 @@
+# 51802-51900 for the Sinopeis dynasty
+51801 = {
+	name = "Ploutarchos" # Ruler of Sinope, Made up
+	dynasty = 5024 # Sinopeis
+	religion = greek_main
+	culture = ionian
+	378.1.1 = { # Made up
+		birth="yes" # 398 BC
+	}
+	462.1.1 = { # Made up
+		death="yes" # 314 BC
+	}
+}
+51802 = {
+	name = "Pelagios" # Ruler of Sinope, Made up
+	dynasty = 5024 # Sinopeis
+	religion = greek_main
+	culture = ionian
+	father = 51801
+	418.1.1 = { # Made up
+		birth="yes" # 358 BC
+	}
+	507.1.1 = { # Made up
+		death="yes" # 269 BC
+	}
+}

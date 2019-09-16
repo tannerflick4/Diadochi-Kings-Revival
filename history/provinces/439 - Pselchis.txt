@@ -1,0 +1,21 @@
+# 439 - Pselchis
+
+# County Title
+title = c_pselchis
+
+# Settlements
+max_settlements = 5
+b_pselchis_pselchis = castle
+b_per_ptah_pselchis = temple
+b_tachompso_pselchis = city
+b_kortia_pselchis = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_hierasykaminos_pselchis
+
+# Misc
+culture = nubian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

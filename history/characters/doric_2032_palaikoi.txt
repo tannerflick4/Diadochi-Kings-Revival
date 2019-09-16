@@ -1,0 +1,15 @@
+# 23101-23200 for the Palaikoi dynasty
+23101 = {
+	name = "Phalaikos" # Leader of Phokis
+	dynasty = 2032 # Palaikoi
+	religion = greek_main
+	culture = doric
+	386.1.1 = { # Made up
+		birth="yes" # 390 BC
+	}
+	433.1.1 = { # 343 BC
+		death = {
+			death_reason = death_battle
+		}
+	}
+}

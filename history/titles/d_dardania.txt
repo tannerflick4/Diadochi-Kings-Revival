@@ -1,0 +1,15 @@
+417.1.1 = {
+	holder = 140003 # Bardyllis
+}
+418.1.1 = {
+	holder = 140001 # Cleitus, leader of the dardanians
+}
+466.1.1 = {
+	liege = k_tylis
+}
+481.1.1 = {
+	holder = 140002
+}
+486.1.1 = {
+	holder = 140004
+}

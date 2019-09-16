@@ -1,0 +1,16 @@
+# 681 - Gomantaka
+
+# County Title
+title = c_gomantaka
+
+# Settlements
+max_settlements = 2
+b_gomantaka_gomantaka = castle
+b_vadgaon_gomantaka = castle
+
+# Misc
+culture = kannada
+religion = dravidian_main
+
+# History
+# Can be filled when things change around the province

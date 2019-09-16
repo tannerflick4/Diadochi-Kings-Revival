@@ -1,0 +1,26 @@
+# 310101-310200 for the Aqaba dynasty
+310101 = {
+	name = "Adnun"
+	dynasty = 31002 # Aqaba
+	religion = arabic_main
+	culture = nabataean
+	398.1.1 = { # 378 BC made up
+		birth="yes"
+	}
+	483.1.1 = { # 293 BC Made up
+		death="yes"
+	}
+}
+310102 = {
+	name = "Cain"
+	dynasty = 31002 # Aqaba
+	religion = arabic_main
+	culture = nabataean
+	father = 310101
+	421.1.1 = { # 355 BC Made up
+		birth="yes"
+	}
+	515.1.1 = { # 261 BC Made up
+		death="yes"
+	}
+}

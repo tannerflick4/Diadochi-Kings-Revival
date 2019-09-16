@@ -1,0 +1,18 @@
+# 394 - Emona
+
+# County Title
+title = c_emona
+
+# Settlements
+max_settlements = 4
+b_emona_emona = castle
+b_nauportus_emona = city
+b_camium_emona = temple
+b_acervo_emona = castle
+
+# Misc
+culture = venetic
+religion = illyrian_main
+
+# History
+# Can be filled when things change around the province

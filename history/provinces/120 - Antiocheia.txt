@@ -1,0 +1,23 @@
+# 120 - Antiocheia
+
+# County Title
+title = c_antiocheia
+
+# Settlements
+max_settlements = 7
+b_rhosos_antiocheia = castle
+b_bytyllion_antiocheia = temple
+b_georgia_antiocheia = city
+b_charandama_antiocheia = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_antiocheia_antiocheia
+# b_seleukeia_antiocheia
+# b_heracleia_antiocheia
+
+# Misc
+culture = aramaic
+religion = marduk_cult
+
+# History
+# Can be filled when things change around the province

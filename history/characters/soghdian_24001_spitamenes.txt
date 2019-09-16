@@ -1,0 +1,17 @@
+# 240001-240101 for the Spitamenes dynasty
+240001 = {
+	name = "Apama" # Wife of Seleukos
+	dynasty = 24001 # Spitamenes
+	religion = zoroastrian_main
+	culture = sogdian
+	female = yes
+	432.1.1 = { # 344 BC Made up
+		birth="yes"
+	}
+	452.1.1 = { # 324 BC
+		add_spouse = 1001 # Seleukos
+	}
+	476.1.1 = { # 300 BC
+		death="yes"
+	}
+}

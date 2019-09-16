@@ -1,0 +1,10 @@
+395.1.1 = { # 381 BC
+	holder = 40302 # Hales of the Triballi
+	liege = d_triballia
+}
+432.1.1 = {
+	holder = 40301 # Syrmus, king of the Triballi
+}
+459.1.1 = { # 317 BC
+	holder = 40303 # Triballi
+}

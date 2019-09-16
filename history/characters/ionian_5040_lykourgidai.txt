@@ -1,0 +1,56 @@
+# 53401-53500 for the Lykourgidai dynasty
+53401 = {
+	name = "Lykophron" # Father of Lykourgos
+	dynasty = 5040 # Lykourgidai
+	religion = greek_main
+	culture = ionian
+	348.1.1 = {
+		birth="yes" # 428 BC
+	}
+	394.1.1 = {
+		death="yes" # 382 BC
+	}
+}
+53402 = {
+	name = "Lykourgos" # Athenian Politician
+	dynasty = 5040 # Lykourgidai
+	religion = greek_main
+	culture = ionian
+	father = 53401
+	
+	add_trait = diligent
+	add_trait = thrifty_clerk
+	
+	380.1.1 = {
+		birth="yes" # 396 BC
+	}
+	453.1.1 = {
+		death="yes" # 323 BC
+	}
+}
+53403 = {
+	name = "Habron" # Son of Lykourgos
+	dynasty = 5040 # Lykourgidai
+	religion = greek_main
+	culture = ionian
+	father = 53402
+	415.1.1 = { # Made up
+		birth="yes" # 361 BC
+	}
+	491.1.1 = { # Made up
+		death="yes" # 285 BC
+	}
+}
+53404 = {
+	name = "Lykophron" # Made up
+	dynasty = 5040 # Lykourgidai
+	religion = greek_main
+	culture = ionian
+	father = 53403
+	458.1.1 = {
+		birth="yes" # 318 BC
+	}
+	522.1.1 = {
+		death="yes" # 254 BC
+	}
+}

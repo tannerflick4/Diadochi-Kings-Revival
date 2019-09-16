@@ -1,0 +1,1009 @@
+# Persian satrapies
+k_p_egypt = {
+	color= { 225 200 0 }
+	color2= { 255 255 255 }
+	
+	capital = 141 # Memphis
+	
+	allow = {
+		liege = {
+			has_landed_title = e_persia
+		}
+	}
+	
+	title = "XSHASHAPAVAN"
+	short_name = yes
+	dynasty_title_names = no
+}
+k_p_cappadocia = {
+	color= { 200 175 150}
+	color2= { 255 255 255 }
+	
+	capital = 117 # Cappadocia
+	
+	allow = {
+		liege = {
+			has_landed_title = e_persia
+		}
+	}
+	
+	title = "XSHASHAPAVAN"
+	short_name = yes
+	dynasty_title_names = no
+}
+k_p_armenia = {
+	color= { 200 0 50 }
+	color2= { 255 255 255 }
+	
+	capital = 218 # Armavir
+	
+	allow = {
+		liege = {
+			has_landed_title = e_persia
+		}
+	}
+	
+	title = "XSHASHAPAVAN"
+	short_name = yes
+	dynasty_title_names = no
+}
+k_p_bactria = {
+	color= { 175 0 50 }
+	color2= { 255 255 255 }
+	
+	capital = 272 # Bactra
+	
+	allow = {
+		liege = {
+			has_landed_title = e_persia
+		}
+	}
+	
+	title = "XSHASHAPAVAN"
+	short_name = yes
+	dynasty_title_names = no
+}
+k_p_persia = {
+	color= { 225 0 75 }
+	color2= { 255 255 255 }
+	
+	capital = 253 # Pasargadae
+	
+	allow = {
+		liege = {
+			has_landed_title = e_persia
+		}
+	}
+	
+	title = "XSHASHAPAVAN"
+	short_name = yes
+	dynasty_title_names = no
+}
+k_p_media = {
+	color= { 200 0 75 }
+	color2= { 255 255 255 }
+	
+	capital = 240 # Ecbatana
+	
+	allow = {
+		liege = {
+			has_landed_title = e_persia
+		}
+	}
+	
+	title = "XSHASHAPAVAN"
+	short_name = yes
+	dynasty_title_names = no
+}
+k_p_lydia = {
+	color= { 0 125 125 }
+	color2= { 255 255 255 }
+	
+	capital = 81 # Sardis
+	
+	allow = {
+		liege = {
+			has_landed_title = e_persia
+		}
+	}
+	
+	title = "XSHASHAPAVAN"
+	short_name = yes
+	dynasty_title_names = no
+}
+k_p_arachosia = {
+	color= { 225 0 100 }
+	color2= { 255 255 255 }
+	
+	capital = 280 # Tazora
+	
+	allow = {
+		liege = {
+			has_landed_title = e_persia
+		}
+	}
+	
+	title = "XSHASHAPAVAN"
+	short_name = yes
+	dynasty_title_names = no
+}
+k_p_babylon = {
+	color= { 0 50 225 }
+	color2= { 255 255 255 }
+	
+	capital = 195 # Babylon
+	
+	allow = {
+		liege = {
+			has_landed_title = e_persia
+		}
+	}
+	
+	title = "XSHASHAPAVAN"
+	short_name = yes
+	dynasty_title_names = no
+}
+# Macedonian satrapies
+k_s_macedon = {
+	color= { 200 100 25 }
+	color2= { 255 255 255 }
+	
+	capital = 34 # Pella
+	
+	allow = {
+		liege = {
+			has_landed_title = e_macedonia
+		}
+	}
+
+	title = "STRATEGOS"
+	short_name = yes
+}
+k_s_thrace = {
+	color= { 150 75 0 }
+	color2= { 255 255 255 }
+	
+	capital = 44 # Lysimachia
+	
+	allow = {
+		liege = {
+			has_landed_title = e_macedonia
+		}
+	}
+	
+	title = "STRATEGOS"
+	short_name = yes
+}
+k_s_mysia = {
+	color= { 0 100 100 }
+	color2= { 255 255 255 }
+	
+	capital = 88 # Daskyleion
+	
+	allow = {
+		liege = {
+			has_landed_title = e_macedonia
+		}
+	}
+	
+	title = "SATRAP"
+	short_name = yes
+}
+k_s_lydia = {
+	color= { 0 125 125 }
+	color2= { 255 255 255 }
+	
+	capital = 81 # Sardis
+	
+	allow = {
+		liege = {
+			has_landed_title = e_macedonia
+		}
+	}
+	
+	title = "SATRAP"
+	short_name = yes
+}
+k_s_caria = {
+	color= { 0 75 75 }
+	color2= { 255 255 255 }
+	
+	capital = 83 # Halicarnassus
+	
+	allow = {
+		liege = {
+			has_landed_title = e_macedonia
+		}
+	}
+	
+	title = "SATRAP"
+	short_name = yes
+}
+k_s_phrygia = {
+	color= { 0 100 125 }
+	color2= { 255 255 255 }
+	
+	capital = 91 # Celaenae
+	
+	allow = {
+		liege = {
+			has_landed_title = e_macedonia
+		}
+	}
+	
+	title = "SATRAP"
+	short_name = yes
+}
+k_s_cilicia = {
+	color= { 125 150 125 }
+	color2= { 255 255 255 }
+	
+	capital = 106 # Tarsus
+	
+	allow = {
+		liege = {
+			has_landed_title = e_macedonia
+		}
+	}
+	
+	title = "SATRAP"
+	short_name = yes
+}
+k_s_cappadocia = {
+	color= { 200 175 150}
+	color2= { 255 255 255 }
+	
+	capital = 117 # Cappadocia
+	
+	allow = {
+		liege = {
+			has_landed_title = e_macedonia
+		}
+	}
+	
+	title = "SATRAP"
+	short_name = yes
+}
+
+k_s_syria = {
+	color= { 0 75 100 }
+	color2= { 255 255 255 }
+	
+	capital = 175 # Damascus
+	
+	allow = {
+		liege = {
+			has_landed_title = e_macedonia
+		}
+	}
+	
+	title = "SATRAP"
+	short_name = yes
+}
+k_s_egypt = {
+	color= { 225 200 0 }
+	color2= { 255 255 255 }
+	
+	capital = 139 # Alexandria
+	
+	allow = {
+		liege = {
+			has_landed_title = e_macedonia
+		}
+	}
+	
+	title = "SATRAP"
+	short_name = yes
+}
+k_s_assyria = {
+	color= { 0 50 125 }
+	color2= { 255 255 255 }
+	
+	capital = 187 # Assur
+	
+	allow = {
+		liege = {
+			has_landed_title = e_macedonia
+		}
+	}
+	
+	title = "SATRAP"
+	short_name = yes
+}
+k_s_babylonia = {
+	color= { 0 50 225 }
+	color2= { 255 255 255 }
+	
+	capital = 194 # Opis
+	
+	allow = {
+		liege = {
+			has_landed_title = e_macedonia
+		}
+	}
+	
+	title = "SATRAP"
+	short_name = yes
+}
+k_s_armenia = {
+	color= { 200 0 50 }
+	color2= { 255 255 255 }
+	
+	capital = 218 # Armavir
+	
+	allow = {
+		liege = {
+			has_landed_title = e_macedonia
+		}
+	}
+	
+	title = "SATRAP"
+	short_name = yes
+}
+k_s_media = {
+	color= { 200 0 75 }
+	color2= { 255 255 255 }
+	
+	capital = 240 # Ecbatana
+	
+	allow = {
+		liege = {
+			has_landed_title = e_macedonia
+		}
+	}
+	
+	title = "SATRAP"
+	short_name = yes
+}
+k_s_persia = {
+	color= { 225 0 75 }
+	color2= { 255 255 255 }
+	
+	capital = 253 # Pasargadae
+	
+	allow = {
+		liege = {
+			has_landed_title = e_macedonia
+		}
+	}
+	
+	title = "SATRAP"
+	short_name = yes
+}
+k_s_carmania = {
+	color= { 225 0 100 }
+	color2= { 255 255 255 }
+	
+	capital = 257 # Carmania
+	
+	allow = {
+		liege = {
+			has_landed_title = e_macedonia
+		}
+	}
+	
+	title = "SATRAP"
+	short_name = yes
+}
+k_s_gedrosia = {
+	color= { 255 0 125 }
+	color2= { 255 255 255 }
+	
+	capital = 265 # Soxetra
+	
+	allow = {
+		liege = {
+			has_landed_title = e_macedonia
+		}
+	}
+	
+	title = "SATRAP"
+	short_name = yes
+}
+k_s_hyrcania = {
+	color= { 200 25 50 }
+	color2= { 255 255 255 }
+	
+	capital = 244 # Hecatombylos
+	
+	allow = {
+		liege = {
+			has_landed_title = e_macedonia
+		}
+	}
+	
+	title = "SATRAP"
+	short_name = yes
+}
+k_atropatene = {
+	color= { 200 0 100 }
+	color2= { 255 255 255 }
+	
+	capital = 233 # Ardabil
+	
+	allow = {
+		liege = {
+			has_landed_title = e_macedonia
+		}
+	}
+}
+k_s_indus = {
+	color= { 100 200 100 }
+	color2= { 255 255 255 }
+	
+	capital = 284 # Gynaikon Limen
+	
+	allow = {
+		liege = {
+			has_landed_title = e_macedonia
+		}
+	}
+	
+	title = "SATRAP"
+	short_name = yes
+}
+k_s_aria = {
+	color= { 255 0 100 }
+	color2= { 255 255 255 }
+	
+	capital = 822 # Arachotoi
+	
+	allow = {
+		liege = {
+			has_landed_title = e_macedonia
+		}
+	}
+	
+	title = "SATRAP"
+	short_name = yes
+}
+k_s_bactria = {
+	color= { 175 0 50 }
+	color2= { 255 255 255 }
+	
+	capital = 272 # Bactra
+	
+	allow = {
+		liege = {
+			has_landed_title = e_macedonia
+		}
+	}
+	
+	title = "SATRAP"
+	short_name = yes
+}
+# Others
+k_porus = {
+	color= { 90 200 115 }
+	color2= { 255 255 255 }
+	
+	capital = 289 # Asibipura
+	
+	allow = {
+		always = no
+	}
+}
+k_taxila = {
+	color= { 100 200 100 }
+	color2= { 255 255 255 }
+	
+	capital = 292 # Taxila
+	
+	allow = {
+		always = no
+	}
+}
+k_parapomisia = {
+	color= { 100 200 125 }
+	color2= { 255 255 255 }
+	
+	capital = 273 # Drapsaka
+	
+	allow = {
+		always = no
+	}
+}
+
+k_sparta = {
+	color= { 110 185 255 }
+	color2= { 255 255 255 }
+	
+	capital = 23 # Sparta
+	
+	allow = {
+		culture = doric
+	}
+}
+k_bithynia = {
+	color= { 100 75 50 }
+	color2= { 255 255 255 }
+	
+	capital = 98 # Nicaea
+}
+k_dardania = {
+	color= { 25 255 125 }
+	color2= { 255 255 255 }
+	
+	capital = 68 # Dardani
+}
+k_heraclea_pontica = {
+	color= { 65 100 65 }
+	color2= { 255 255 255 }
+	
+	capital = 100 # Heraclea Pontica
+	
+	allow = {
+		always = no
+	}
+	
+	title = "TYRANNOS"
+	short_name = yes
+}
+k_pontus = {
+	color= { 175 150 125 }
+	color2= { 255 255 255 }
+	
+	capital = 112 # Trapezous
+	
+	allow = {
+		or = {
+			culture = pontic
+			religion = pontic_main
+		}
+	}
+}
+k_saurastra = {
+	color= { 100 200 75 }
+	color2= { 255 255 255 }
+	
+	capital = 285 # Automula
+}
+d_lucani = {
+	color= { 75 150 255 }
+	color2= { 255 255 255 }
+	
+	capital = 311 # Thurii
+	
+	title = "MEDDIX"
+	short_name = yes
+}
+d_bruttii = {
+	color= { 75 150 225 }
+	color2= { 255 255 255 }
+	
+	capital = 310 # Croton
+	
+	title = "MEDDIX"
+	short_name = yes
+}
+k_rome = {
+	color= { 125 0 0 }
+	color2= { 255 255 255 }
+	
+	capital = 324 # Roma
+	
+	title = "CONSUL"
+	short_name = yes
+}
+k_samnites = {
+	color= { 125 25 0 }
+	color2= { 255 255 255 }
+	
+	capital = 326 # Beneventum
+	
+	title = "MEDDIX"
+	short_name = yes
+}
+k_messapii = {
+	color= { 75 200 200 }
+	color2= { 255 255 255 }
+	
+	capital = 316 # Arpi
+}
+k_picentis = {
+	color= { 150 0 0 }
+	color2= { 255 255 255 }
+	
+	capital = 330 # Ancona
+	
+	title = "UHTUR"
+	short_name = yes
+}
+k_umbri = {
+	color= { 125 25 25 }
+	color2= { 255 255 255 }
+	
+	capital = 332 # Spoletium
+	
+	title = "UHTUR"
+	short_name = yes
+}
+k_ligures = {
+	color= { 100 225 75 }
+	color2= { 255 255 255 }
+	
+	capital = 341 # Albingaunum
+}
+k_veneti = {
+	color= { 100 255 100 }
+	color2= { 255 255 255 }
+	
+	capital = 71 # Veneti
+}
+k_senones = {
+	color= { 50 255 100 }
+	color2= { 255 255 255 }
+	
+	capital = 334 # Sarsina
+}
+k_insubres = {
+	color= { 100 255 75 }
+	color2= { 255 255 255 }
+	
+	capital = 345 # Mediolanum
+}
+k_boii = {
+	color= { 100 200 75 }
+	color2= { 255 255 255 }
+	
+	capital = 357 # Bononia
+}
+k_colchis = {
+	color= { 100 25 100 }
+	color2= { 255 255 255 }
+	
+	capital = 226 # Phasis
+}
+k_syracuse = {
+	color = { 159 191 223 }
+	color2= { 255 255 255 }
+	
+	capital = 305 # Syracuse
+	
+	title = "TYRANNOS"
+	short_name = yes
+}
+k_tylis = {
+	color= { 100 200 75 }
+	color2= { 255 255 255 }
+	
+	capital = 68 # Dardani
+}
+# Republics
+k_r_athens = {
+	color= { 100 200 255 }
+	color2= { 255 255 255 }
+	
+	capital = 18 # Athens
+	culture = ionian
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+
+k_r_syracuse = {
+	color = { 75 175 225 }
+	color2= { 255 255 255 }
+	
+	capital = 305 # Syracuse
+	culture = doric
+	
+	title = "BASILEUS"
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+
+k_r_tyras = {
+	color = { 100 0 25 }
+	color2= { 255 255 255 }
+	
+	capital = 52 # Tyras
+	culture = ionian
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+
+k_r_olbia = {
+	color= { 90 10 15 }
+	color2= { 255 255 255 }
+	
+	capital = 53 # Olbia
+	culture = ionian
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+
+d_r_byzantion = {
+	color= { 150 75 25 }
+	color2= { 255 255 255 }
+	
+	capital = 45 # Byzantion
+	culture = doric
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+
+k_r_tarentum = {
+	color= { 75 175 175 }
+	color2= { 255 255 255 }
+	
+	capital = 317 # Tarentum
+	culture = doric
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+
+d_r_athens = {
+	color= { 100 200 255 }
+	color2= { 255 255 255 }
+	
+	capital = 18 # Athens
+	culture = ionian
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+
+d_r_rhodes = {
+	color= { 10 65 75 }
+	color2= { 255 255 255 }
+	
+	capital = 11 # Rhodes
+	culture = doric
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+
+d_r_cyrene = {
+	color= { 225 200 125 }
+	color2= { 255 255 255 }
+	
+	capital = 163 # Cyrene
+	culture = ionian
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+
+######################################
+# Historical Merchant Republic Palaces
+######################################
+
+# SYRACUSE:
+
+b_korinthoi = {
+	culture = doric
+	religion = greek_main
+}
+b_pyloi = {
+	culture = doric
+	religion = greek_main
+}
+b_olympoi = {
+	culture = doric
+	religion = greek_main
+}
+b_leukoi = {
+	culture = doric
+	religion = greek_main
+}
+b_zakynthoi = {
+	culture = doric
+	religion = greek_main
+}
+
+# TYRAS:
+
+b_tyroi = {
+	culture = ionian
+	religion = greek_main
+}
+b_chalkoi = {
+	culture = ionian
+	religion = greek_main
+}
+b_miletoi = {
+	culture = ionian
+	religion = greek_main
+}
+b_ephesoi = {
+	culture = ionian
+	religion = greek_main
+}
+b_marmaroi = {
+	culture = ionian
+	religion = greek_main
+}
+
+# OLBIA:
+
+b_chalkidikoi = {
+	culture = ionian
+	religion = greek_main
+}
+b_skyroi = {
+	culture = ionian
+	religion = greek_main
+}
+b_lemnoi = {
+	culture = ionian
+	religion = greek_main
+}
+b_ithakoi = {
+	culture = ionian
+	religion = greek_main
+}
+b_kythiroi = {
+	culture = ionian
+	religion = greek_main
+}
+
+# BYZANTION:
+
+b_megaroi = {
+	culture = doric
+	religion = greek_main
+}
+b_theroi = {
+	culture = doric
+	religion = greek_main
+}
+b_argoloi = {
+	culture = doric
+	religion = greek_main
+}
+b_lakonoi = {
+	culture = doric
+	religion = greek_main
+}
+b_sikeloi = {
+	culture = doric
+	religion = greek_main
+}
+
+# TARENTUM:
+
+b_spartoi = {
+	culture = doric
+	religion = greek_main
+}
+b_tarentoi = {
+	culture = doric
+	religion = greek_main
+}
+b_kalipoloi = {
+	culture = doric
+	religion = greek_main
+}
+b_metapontoi = {
+	culture = doric
+	religion = greek_main
+}
+b_sipontoi = {
+	culture = doric
+	religion = greek_main
+}
+
+# ATHENS:
+
+b_hyperidai = {
+	culture = ionian
+	religion = greek_main
+}
+b_aischinidai = {
+	culture = ionian
+	religion = greek_main
+}
+b_demosthenidai = {
+	culture = ionian
+	religion = greek_main
+}
+b_lykourgidai = {
+	culture = ionian
+	religion = greek_main
+}
+b_eboulidai = {
+	culture = ionian
+	religion = greek_main
+}
+
+# RHODES:
+
+b_rhodoi = {
+	culture = doric
+	religion = greek_main
+}
+b_delphoi = {
+	culture = doric
+	religion = greek_main
+}
+b_epidauroi = {
+	culture = doric
+	religion = greek_main
+}
+b_kosoi = {
+	culture = doric
+	religion = greek_main
+}
+b_messenioi = {
+	culture = doric
+	religion = greek_main
+}
+
+# CYRENE
+
+b_battiadai = {
+	culture = ionian
+	religion = greek_main
+}
+b_kyrenioi = {
+	culture = ionian
+	religion = greek_main
+}
+b_euesperidai = {
+	culture = ionian
+	religion = greek_main
+}
+b_barkoi = {
+	culture = ionian
+	religion = greek_main
+}
+b_darnioi = {
+	culture = ionian
+	religion = greek_main
+}
+
+# Carthage
+b_magon = {
+	culture = punic
+	religion = punic_main
+}
+b_barca = {
+	culture = punic
+	religion = punic_main
+}
+b_hanno = {
+	culture = punic
+	religion = punic_main
+}
+b_hasdrubal = {
+	culture = punic
+	religion = punic_main
+}
+b_dido = {
+	culture = punic
+	religion = punic_main
+}

@@ -1,0 +1,19 @@
+# 112 - Trapezous
+
+# County Title
+title = c_trapezous # for example c_corinth
+
+# Settlements
+max_settlements = 5
+b_trapezous_trapezous = castle
+b_hieron_oros_trapezous = temple
+b_kordyle_trapezous = city
+b_kaballa_trapezous = castle
+b_kerasous_trapezous = city
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

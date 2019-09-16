@@ -1,0 +1,9 @@
+# 30001-40000 for aeolian characters
+	# 30001-30100 for the Lysimakhidai dynasty
+	# 30101-30200 for the Larikhidai dynasty
+	# 30201-30300 for the Arkesilidai dynasty
+	# 30301-30400 for the Pharsaloi dynasty
+	# 30401-30500 for the Iasonidai dynasty
+	# 30501-30600 for the Aleuadai dynasty
+	# 30601-30700 for the Theagenidai dynasty
+	# 30701-30800 for the Kymioi dynasty

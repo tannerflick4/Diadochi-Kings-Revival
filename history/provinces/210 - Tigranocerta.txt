@@ -1,0 +1,22 @@
+# 210 - Tigranocerta
+
+# County Title
+title = c_tigranocerta
+
+# Settlements
+max_settlements = 6
+b_maipa_tigranocerta = castle
+b_colchana_tigranocerta = temple
+b_sophanene_tigranocerta = city
+b_mambre_tigranocerta = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_tigranocerta_tigranocerta
+# b_sitai_tigranocerta
+
+# Misc
+culture = armenian
+religion = armenian_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,15 @@
+# 877 - Waddan
+
+# County Title
+title = c_waddan
+
+# Settlements
+max_settlements = 1
+b_waddan_waddan = castle
+
+# Misc
+culture = berber
+religion = berber_main
+
+# History
+# Can be filled when things change around the province

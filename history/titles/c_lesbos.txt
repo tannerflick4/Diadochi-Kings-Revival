@@ -1,0 +1,31 @@
+417.1.1 = {
+	holder = 90323
+	liege = k_p_lydia
+}
+442.1.1 = {
+	holder = 90314
+}
+446.1.1 = { # 330 BC
+	holder = 101 # Leonnatus, Satrap of Hellespontine Phrygia
+	liege = k_s_mysia
+}
+454.1.1 = {
+	holder = 2701 # Arrhidaios
+}
+457.2.1 = {
+	holder = 401 # Antigonos
+	liege = k_s_phrygia
+}
+467.1.1 = {
+	liege = e_asia
+}
+475.1.1 = {
+	holder = 402 # Demetrios
+}
+485.1.1 = {
+	holder = 601 # Ptolemy
+	liege = e_egypt
+}
+491.1.1 = {
+	holder = 602 # Ptolemy II
+}

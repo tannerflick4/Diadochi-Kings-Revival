@@ -1,0 +1,18 @@
+# 20 - Delphi
+
+# County Title
+title = c_delphi # for example c_corinth
+
+# Settlements
+max_settlements = 4 # Should be reevaluated
+b_kythinion_delphi = castle
+b_delphi_delphi = temple
+b_pindos_delphi = city
+b_antikyra_delphi = castle
+
+# Misc
+culture = doric
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

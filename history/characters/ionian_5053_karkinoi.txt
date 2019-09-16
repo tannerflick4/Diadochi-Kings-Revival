@@ -1,0 +1,39 @@
+# 54701-54800 for the Karkinoi dynasty
+54701 = {
+	name = "Hesperos" # Karkine, Made Up
+	dynasty = 5053 # Karkinoi
+	religion = greek_main
+	culture = ionian
+	390.1.1 = {
+		birth="yes" # 386 BC
+	}
+	457.1.1 = {
+		death="yes" # 319 BC
+	}
+}
+54702 = {
+	name = "Eumenes" # Karkine, Made Up
+	dynasty = 5053 # Karkinoi
+	religion = greek_main
+	culture = ionian
+	father = 54701
+	414.1.1 = {
+		birth="yes" # 362 BC
+	}
+	455.1.1 = {
+		death="yes" # 321 BC
+	}
+}
+54703 = {
+	name = "Hilarion" # Karkine, Made Up
+	dynasty = 5053 # Karkinoi
+	religion = greek_main
+	culture = ionian
+	father = 54702
+	445.1.1 = {
+		birth="yes" # 331 BC
+	}
+	510.1.1 = {
+		death="yes" # 266 BC
+	}
+}

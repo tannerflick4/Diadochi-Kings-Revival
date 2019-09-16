@@ -1,0 +1,17 @@
+# 428 - Cabilonnum
+
+# County Title
+title = c_cabilonnum
+
+# Settlements
+max_settlements = 3
+b_cabilonnum_cabilonnum = castle
+b_tinurtium_cabilonnum = city
+b_pons_dubris_cabilonnum = city
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,17 @@
+# 289 - Aibipura
+
+# County Title
+title = c_asibipura
+
+# Settlements
+max_settlements = 3
+b_asibipura_asibipura = castle
+b_divyakutta_asibipura = city
+b_sacala_asibipura = castle
+
+# Misc
+culture = shauraseni
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,17 @@
+# 857 - Tigit
+
+# County Title
+title = c_tigit
+
+# Settlements
+max_settlements = 3
+b_tigit_tigit = castle
+b_lucu_tigit = castle
+b_kaputtasaccora_tigit = castle
+
+# Misc
+culture = berber
+religion = berber_main
+
+# History
+# Can be filled when things change around the province

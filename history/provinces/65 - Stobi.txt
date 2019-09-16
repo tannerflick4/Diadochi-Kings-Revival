@@ -1,0 +1,18 @@
+# 65 - Stobi
+
+# County Title
+title = c_stobi # for example c_corinth
+
+# Settlements
+max_settlements = 4
+b_stobi_stobi = castle
+b_bylazora_stobi = city
+b_gurbita_stobi = castle
+b_bargala_stobi = city
+
+# Misc
+culture = paeonian
+religion = illyrian_main
+
+# History
+# Can be filled when things change around the province

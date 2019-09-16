@@ -1,0 +1,19 @@
+# 183 - Resaina
+
+# County Title
+title = c_resaina
+
+# Settlements
+max_settlements = 5
+b_resaina_resaina = castle
+b_hamidi_resaina = temple
+b_thanuris_resaina = city
+b_shadikanni_resaina = temple
+b_thapsacus_resaina = city
+
+# Misc
+culture = aramaic
+religion = marduk_cult
+
+# History
+# Can be filled when things change around the province

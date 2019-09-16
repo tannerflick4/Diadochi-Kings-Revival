@@ -1,0 +1,226 @@
+# 401-500 for the Antigonidai dynasty
+401 = {
+	name = "Antigonos" # Antigonus, the one eyed
+	dynasty = 5 # Antigonidai
+	religion = greek_main
+	culture = macedonian
+	father = 406
+	
+	health = 8 # We will want him to live long
+	
+	add_trait = skilled_tactician
+	add_trait = ambitious
+	add_trait = greedy
+	add_trait = proud
+	add_trait = deceitful
+		
+	394.1.1 = {
+		birth="yes" # 382 BC
+	}
+	439.1.1 = { # 337 BC Made up
+		add_spouse = 2601
+	}
+	443.1.1 = { # 333 BC, Antigonos becomes satrap of Phrygia
+		add_trait = maimed
+		give_nickname = nick_monophthalmos
+	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	475.1.1 = {
+		death = {
+			death_reason = death_battle # 301 BC, died in the battle of Ipsus
+		}
+	}
+}
+402 = {
+	name = "Demetrios" # Demetrius Poliorcetes, son of Antigonus
+	dynasty = 5 # Antigonidai
+	religion = greek_main
+	culture = macedonian
+	father = 401
+	mother = 2601
+	
+	add_trait = skilled_tactician
+	add_trait = brave
+	add_trait = wroth
+	add_trait = lustful
+	add_trait = proud
+	add_trait = fair
+	add_trait = hedonist
+	add_trait = ambitious
+	add_trait = arbitrary
+	add_trait = deceitful
+	
+	439.1.1 = { # 337 BC
+		birth="yes"
+	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	457.1.1 = { # 319 BC
+		add_spouse = 3 # Phila
+	}
+	472.1.1 = { # 304 BC, End of siege of Rhodes
+		give_nickname = nick_poliorketes
+	}
+	485.1.1 = { # 291 BC
+		add_spouse = 22702 # Lanassa
+	}
+	493.1.1 = { # 283 BC
+		death="yes"
+	}
+}
+403 = {
+	name = "Philippos" # Son of Antigonus
+	dynasty = 5 # Antigonidai
+	religion = greek_main
+	culture = macedonian
+	father = 401
+	mother = 2601
+	441.1.1 = { # 335 BC Made up
+		birth="yes"
+	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	470.1.1 = { # 306 BC
+		death="yes"
+	}
+}
+404 = {
+	name = "Telephoros" # Nephew of Antigonos
+	dynasty = 5 # Antigonidai
+	religion = greek_main
+	culture = macedonian
+	father = 405
+	
+	add_trait = ambitious
+	add_trait = tough_soldier
+	
+	430.1.1 = { # Made up
+		birth="yes" # 346 BC
+	}
+	466.1.1 = { # Made up
+		death="yes" # 310 BC
+	}
+}
+405 = {
+	name = "Harpalas" # Uncle of Antigonos
+	dynasty = 5 # Antigonidai
+	religion = greek_main
+	culture = macedonian
+	father = 407
+	
+	add_trait = greedy
+	add_trait = arbitrary
+	
+	392.1.1 = { # Made up
+		birth="yes" # 386 BC
+	}
+	453.1.1 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+406 = {
+	name = "Philippos" # Father of Antigonos
+	dynasty = 5 # Antigonidai
+	religion = greek_main
+	culture = macedonian
+	father = 407
+	377.1.1 = { # Made up
+		birth="yes" # 399 BC
+	}
+	450.1.1 = { # 326 BC
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+407 = {
+	name = "Macharas" # Grandfather of Antigonos
+	dynasty = 5 # Antigonidai
+	religion = greek_main
+	culture = macedonian
+	355.1.1 = { # Made up
+		birth="yes" # 421 BC
+	}
+	425.1.1 = { # Made up
+		death="yes" # 351 BC
+	}
+}
+408 = {
+	name = "Antigonos" # Gonatas
+	dynasty = 5 # Antigonidai
+	religion = greek_main
+	culture = macedonian
+	father = 402
+	mother = 3
+	
+	add_trait = skilled_tactician
+	add_trait = kind
+	add_trait = humble
+	add_trait = patient
+	
+	#add_trait = diadochi_king
+	457.1.1 = {
+		birth="yes" # 319 BC
+		give_nickname = nick_gonatas
+	}
+	498.1.1 = {
+		add_spouse = 1010 # Phila II
+	}
+	537.1.1 = {
+		death="yes" # 237 BC
+	}
+}
+409 = {
+	name = "Phila" # Sister of Macharas and wife of Philip II
+	dynasty = 5 # Antigonidai
+	religion = greek_main
+	culture = macedonian
+	female = yes
+	389.1.1 = { # Made up
+		birth="yes" # 387 BC
+	}
+	427.1.1 = { # Made up
+		death="yes" # 349 BC
+	}
+}
+410 = {
+	name = "Stratonike" # Daughter of Demetrius Poliorketes and wife of Seleucus I and Antiochus I
+	dynasty = 5 # Antigonidai
+	religion = greek_main
+	culture = macedonian
+	father = 402 # Demetrius
+	mother = 3 # Phila
+	female = yes
+	459.1.1 = { # Made up(ish)
+		birth="yes" # 317 BC
+	}
+	515.1.1 = { # Made up
+		death="yes" # 261 BC
+	}
+}
+411 = {
+	name = "Ptolemaios" # Nephew of Antigonos
+	dynasty = 5 # Antigonidai
+	religion = greek_main
+	culture = macedonian
+	father = 405
+	
+	add_trait = skilled_tactician
+	add_trait = ambitious
+	
+	433.1.1 = { # Made up
+		birth="yes" # 343 BC
+	}
+	467.1.1 = { # 309 BC
+		death = {
+			death_reason = death_murder
+			killer = 601 # Ptolemaios I
+		}
+	}
+}

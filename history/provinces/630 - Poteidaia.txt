@@ -1,0 +1,22 @@
+# 630 - Poteidaia
+
+# County Title
+title = c_poteidaia # for example c_corinth
+
+# Settlements
+max_settlements = 4
+b_poteidaia_poteidaia = city
+b_mende_poteidaia = castle
+b_aphytis_poteidaia = city
+b_skione_poteidaia = castle
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province
+420.1.1 = { # 356 BC, Philip destroys Poteideia
+	remove_settlement = b_poteidaia_poteidaia
+	capital = b_mende_poteidaia
+}

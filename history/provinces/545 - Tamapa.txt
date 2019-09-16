@@ -1,0 +1,16 @@
+# 545 - Tamapa
+
+# County Title
+title = c_tamapa
+
+# Settlements
+max_settlements = 2
+b_tamapa_tamapa = castle
+b_satapasu_tamapa = city
+
+# Misc
+culture = scythian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,18 @@
+# 405 - Bucuresti
+
+# County Title
+title = c_bucuresti
+
+# Settlements
+max_settlements = 4
+b_bucuresti_bucuresti = castle
+b_piscul_bucuresti = city
+b_argidava_bucuresti = temple
+b_tirgsor_bucuresti = castle
+
+# Misc
+culture = dacian
+religion = zalmoxism
+
+# History
+# Can be filled when things change around the province

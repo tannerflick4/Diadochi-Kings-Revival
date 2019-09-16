@@ -1,0 +1,19 @@
+# 154 - Berenike
+
+# County Title
+title = c_berenike
+
+# Settlements
+max_settlements = 3
+b_nechesia_berenike = castle
+b_apollonos_berenike = temple
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_berenike_berenike
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

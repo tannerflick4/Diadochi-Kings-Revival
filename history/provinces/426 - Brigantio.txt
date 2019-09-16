@@ -1,0 +1,16 @@
+# 426 - Brigantio
+
+# County Title
+title = c_brigantio
+
+# Settlements
+max_settlements = 2
+b_brigantio_brigantio = castle
+b_druantium_brigantio = castle
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

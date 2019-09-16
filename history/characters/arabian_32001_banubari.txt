@@ -1,0 +1,40 @@
+# 320001-330100 for the Banubari dynasty
+320001 = {
+	name = "Hana" # Alouare, Made up
+	dynasty = 32001 # Banubari
+	culture = arabic
+	religion = arabic_main
+	393.1.1 = {
+		birth="yes" # 383 BC Made up
+	}
+	468.1.1 = {
+		death="yes" # 308 BC Made up
+	}
+}
+320002 = {
+	name = "Abd-Dushara" # Alouare, Made up
+	dynasty = 32001
+	culture = arabic
+	religion = arabic_main
+	father = 320001
+	433.1.1 = {
+		birth="yes" # 343 BC Made up
+	}
+	491.1.1 = {
+		death="yes" # 285 BC Made up
+	}
+}
+320003 = {
+	name = "Gamilat" # Alouare, Made up
+	dynasty = 32001
+	culture = arabic
+	religion = arabic_main
+	female = yes
+	father = 320002
+	472.1.1 = {
+		birth="yes" # 304 BC Made up
+	}
+	526.1.1 = {
+		death="yes" # 250 BC Made up
+	}
+}

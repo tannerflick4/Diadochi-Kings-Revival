@@ -1,0 +1,24 @@
+# 1101-1200 for the Peithonidai dynasty
+1101 = { 
+	name = "Peithon" # Peithon, satrap of Greater Media
+	dynasty = 12 # Peithonidai
+	religion = greek_main
+	culture = macedonian
+	
+	add_trait = tough_soldier
+	add_trait = ambitious
+	add_trait = trusting
+	
+	421.1.1 = { # 355 BC
+		birth="yes"
+	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	462.1.1 = { # 314 BC
+		death = {
+			death_reason = death_execution
+			killer = 401 # Antigonus
+		}
+	}
+}

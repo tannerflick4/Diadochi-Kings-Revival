@@ -1,0 +1,19 @@
+# 235 - Adar Gushnasp
+
+# County Title
+title = c_adar_gushnasp
+
+# Settlements
+max_settlements = 5
+b_gaza_adar_gushnasp = castle
+b_adar_gushnasp_adar_gushnasp = temple
+b_ganzak_adar_gushnasp = city
+b_giaur_adar_gushnasp = castle
+b_sheytanabad_adar_gushnasp = temple
+
+# Misc
+culture = median
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

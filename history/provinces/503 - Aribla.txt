@@ -1,0 +1,16 @@
+# 503 - Aribla
+
+# County Title
+title = c_aribla
+
+# Settlements
+max_settlements = 2
+b_aribla_aribla = castle
+b_bakol_aribla = city
+
+# Misc
+culture = sarmatian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

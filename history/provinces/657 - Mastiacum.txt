@@ -1,0 +1,16 @@
+# 657 - Mastiacum
+
+# County Title
+title = c_mastiacum
+
+# Settlements
+max_settlements = 2
+b_mastiacum_mastiacum = castle
+b_albianum_mastiacum = castle
+
+# Misc
+culture = raetic
+religion = etruscan_main
+
+# History
+# Can be filled when things change around the province

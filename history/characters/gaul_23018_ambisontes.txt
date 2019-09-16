@@ -1,0 +1,37 @@
+# 231601-231700 for the Ambisontes dynasty
+231601 = {
+	name = "Ambiorix" # Made up
+	dynasty = 23018 # Ambisontes
+	culture = gaul
+	religion = celtic_main
+	378.1.1 = {
+		birth="yes" # 398 BC
+	}
+	446.1.1 = {
+		death="yes" # 330 BC
+	}
+}
+231602 = {
+	name = "Critasirus" # Made up
+	dynasty = 23018 # Ambisontes
+	culture = gaul
+	religion = celtic_main
+	414.1.1 = {
+		birth="yes" # 362 BC
+	}
+	471.1.1 = {
+		death="yes" # 305 BC
+	}
+}
+231603 = {
+	name = "Divico" # Made up
+	dynasty = 23018 # Ambisontes
+	culture = gaul
+	religion = celtic_main
+	445.1.1 = {
+		birth="yes" # 321 BC
+	}
+	518.1.1 = {
+		death="yes" # 258 BC
+	}
+}

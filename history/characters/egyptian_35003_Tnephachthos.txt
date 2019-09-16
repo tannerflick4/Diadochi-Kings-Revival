@@ -1,0 +1,180 @@
+# 350031-350075 for Tnephachthos characters
+
+350031 = {
+	name = "Basa" #grandfather of Tefnakht
+	dynasty = 35003
+	culture = egyptian
+	religion = kemetic
+	1.1.1 = { #arbitrary
+		birth="yes"
+	}
+	19.1.1 = { #arbitrary
+		death="yes"
+	}
+}
+350032 = {
+	name = "Gemnefsutkapu" #father of Tefnakht
+	dynasty = 35003
+	culture = egyptian
+	religion = kemetic
+	father = 350031
+	1.1.2 = { #arbitrary
+		birth="yes"
+	}
+	30.1.1 = { # 746 BCE, made up
+		death="yes"
+	}
+}
+350033 = {
+	name = "Tefnakht" #Tefnakht, rules 732-730 BCE as Pharaoh and to 725 BCE as local ruler, "24th dynasty"
+	dynasty = 35003
+	culture = egyptian
+	religion = kemetic
+	father = 350032 
+	20.1.1 = { # 756 BC, made up
+		birth="yes"
+	}
+	51.1.1 = { # 725 BC
+		death="yes"
+	}
+}
+350034 = {
+	name = "Bakenranef" #Bocchoris, killed by Shabaka, 725-720 (721-720 as Pharaoh) 
+	dynasty = 35003
+	culture = egyptian
+	religion = kemetic
+	father = 350033
+	add_trait = just
+	add_trait = ugly
+	36.1.1 = { # 740 BC, made up
+		birth="yes"
+	}
+	56.1.1 = { # 720 BC
+		death = {
+			death_reason = death_murder
+			killer = 290205 #Shabaka
+		}
+	}
+}
+350035 = {
+	name = "Nekau" #fictional relation of Bakenranef, father of Tefnakht II
+	dynasty = 35003
+	culture = egyptian
+	religion = kemetic
+	father = 350033 
+	40.1.1 = { # 736 BC, made up
+		birth="yes"
+	}
+	91.1.1 = { # 685 BC
+		death="yes"
+	}
+}
+
+350036 = {
+	name = "Tefnakht" #Tefnakht II, rules 685-678 BCE
+	dynasty = 35003
+	culture = egyptian
+	religion = kemetic
+	father = 350035
+	64.1.1 = { # 712 BC, made up
+		birth="yes"
+	}
+	98.1.1 = { # 678 BC
+		death="yes"
+	}
+}
+350037 = {
+	name = "Nekauba" #Nechepsos, 678-672 BCE
+	dynasty = 35003
+	culture = egyptian
+	religion = kemetic
+	father = 350036
+	80.1.1 = { # 696 BC, made up
+		birth="yes"
+	}
+	104.1.1 = { # 672 BC
+		death="yes"
+	}
+}
+350038 = {
+	name = "Nekau" #Necho, 672-664 BCE
+	dynasty = 35003
+	culture = egyptian
+	religion = kemetic
+	father = 350036
+	81.1.1 = { # 695 BC, made up
+		birth="yes"
+	}
+	112.1.1 = { # 664 BC
+		death="yes"
+	}
+}
+350039 = {
+	name = "Psamtik" #Psamtik, 664-610 BCE, 656 reunifies Egypt
+	dynasty = 35003
+	culture = egyptian
+	religion = kemetic
+	father = 350038
+	97.1.1 = { # 679 BC, made up
+		birth="yes"
+	}
+	166.1.1 = { # 610 BC
+		death="yes"
+	}
+}
+350040 = {
+	name = "Nitiqret" #daughter of Psamtik
+	dynasty = 35003
+	culture = egyptian
+	religion = kemetic
+	father = 350039
+	female = yes
+	113.1.1 = { # 663 BC, made up
+		birth="yes"
+	}
+	191.1.1 = { # 585 BC 
+		death="yes"
+	}
+}
+350041 = {
+	name = "Nekau" #Necho II, 610-595 BCE
+	dynasty = 35003
+	culture = egyptian
+	religion = kemetic
+	father = 350039
+	112.1.1 = { # 664 BC, made up
+		birth="yes"
+	}
+	181.1.1 = { # 595 BC
+		death="yes"
+	}
+}
+350042  = {
+	name = "Psamtik" #Psamtik II, 595-589 BCE
+	dynasty = 35003
+	culture = egyptian
+	religion = kemetic
+	father = 350041
+	146.1.1 = { # 630 BC, made up
+		birth="yes"
+	}
+	187.1.1 = { # 589 BC
+		death="yes"
+	}
+}
+350043  = {
+	name = "Wahibre" #Apries or Waphres, 589-570 BCE
+	dynasty = 35003
+	culture = egyptian
+	religion = kemetic
+	father = 350042
+	176.1.1 = { # 600  BCE
+		birth="yes"
+	}
+	209.1.1 = { # 567 BC
+		death = {
+			death_reason = death_murder
+			killer = 350051 #Ahmoses II
+		}
+	}
+}

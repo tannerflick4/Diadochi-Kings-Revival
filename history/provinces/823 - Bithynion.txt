@@ -1,0 +1,20 @@
+# 823 - Bithynion
+
+# County Title
+title = c_bithynion
+
+# Settlements
+max_settlements = 5
+b_bithynion_bithynion = castle
+b_dia_bithynion = city
+b_embolos_bithynion = city
+b_kratela_bithynion = castle
+
+#b_prusias_ad_hypium_bithynion = castle
+
+# Misc
+culture = thracian
+religion = thracian_main
+
+# History
+# Can be filled when things change around the province

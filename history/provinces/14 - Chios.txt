@@ -1,0 +1,17 @@
+# 14 - Chios
+# County Title
+title = c_chios # for example c_corinth
+
+# Settlements
+max_settlements = 6 # Should be reevaluated
+b_chios_chios = castle
+b_kardamyle_chios = temple
+b_psyra_chios = city
+b_babrantion_chios = castle
+
+# Misc 
+culture = ionian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

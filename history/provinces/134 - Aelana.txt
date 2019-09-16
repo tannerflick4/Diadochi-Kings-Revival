@@ -1,0 +1,17 @@
+# 134 - Aelana
+
+# County Title
+title = c_aelana
+
+# Settlements
+max_settlements = 3
+b_aelana_aelana = castle
+b_sobata_aelana = city
+b_eboda_aelana = castle
+
+# Misc
+culture = nabataean
+religion = arabic_main
+
+# History
+# Can be filled when things change around the province

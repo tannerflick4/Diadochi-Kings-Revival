@@ -1,0 +1,10 @@
+405.1.1 = { # 371 BC
+	holder = 121801 # Govinda
+	liege = d_telinga
+}
+456.1.1 = { # 320 BC
+	holder = 121802 # Sada
+}
+485.1.1 = { # 291 BC
+	holder = 121803 # Riktavarna
+}

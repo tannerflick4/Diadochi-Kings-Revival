@@ -1,0 +1,45 @@
+# 60001-60100 for the Datama dynasty
+60001 = {
+	name = "Aryawratha" # Ariarathes I, Achaemenid satrap of Cappadocia and later the first king of Cappadocia
+	dynasty = 6001 # Datama
+	religion = anatolian_main
+	culture = cappadocian
+	father = 60003
+	
+	add_trait = content # Loyal
+	
+	372.1.1 = { # 404 BC
+		birth="yes"
+	}	
+	454.1.1 = {
+		death = { # 322 BC, imprisoned and crucified by Perdikkas
+			death_reason = death_execution
+			killer = 901 # Perdikkas
+		}
+	}
+}
+60002 = {
+	name = "Aryawratha" # Ariarathes II, adopted son of Ariarathes I
+	dynasty = 6001 # Datama
+	religion = anatolian_main
+	culture = cappadocian
+	father = 60001
+	436.1.1 = { # 340 BC Made up
+		birth="yes"
+	}
+	496.1.1 = { # 280 BC
+		death="yes"
+	}
+}
+60003 = {
+	name = "Ariyamna" # Ariamnes, Achaemenid satrap of Cappadocia, father of Ariarathes I
+	dynasty = 6001 # Datama
+	religion = anatolian_main
+	culture = cappadocian
+	355.1.1 = { # 421 BC, made up
+		birth="yes"
+	}
+	426.1.1 = { # 350 BC
+		death="yes"
+	}
+}

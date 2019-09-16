@@ -1,0 +1,18 @@
+# 362 - Thaenae
+
+# County Title
+title = c_thaenae
+
+# Settlements
+max_settlements = 4
+b_cercina_thaenae = city
+b_thaenae_thaenae = castle
+b_tabira_thaenae = temple
+b_taparura_thaenae = city
+
+# Misc
+culture = punic
+religion = punic_main
+
+# History
+# Can be filled when things change around the province

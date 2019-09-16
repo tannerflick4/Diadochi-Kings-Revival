@@ -1,0 +1,98 @@
+# 230701-230800 for the Scordisci dynasty
+230701 = {
+	name = "Critasirus" # Scorcisci leader, Made up
+	dynasty = 23009
+	culture = gaul
+	religion = celtic_main
+	father = 230703
+	416.1.1 = { # 360 BC
+		birth="yes"
+	}
+	476.1.1 = { # 300 BC
+		death="yes"
+	}
+}
+230702 = {
+	name = "Commius" # Scordisci Made up
+	dynasty = 23009
+	culture = gaul
+	religion = celtic_main
+	father = 230701
+	440.1.1 = { # 336 BC
+		birth="yes"
+	}
+	508.1.1 = { # 268 BC
+		death="yes"
+	}
+}
+230703 = { # Scordisci
+	name = "Lucterius"
+	dynasty = 23009
+	culture = gaul
+	religion = celtic_main
+	388.1.1 = { # 388 BC
+		birth="yes" 
+	}
+	429.1.1 = { # 347 BC
+		death="yes" 
+	}
+}
+230704 = {
+	name = "Molistomos" # Gallic conqueror of the Illyrians
+	dynasty = 23009
+	culture = gaul
+	religion = celtic_main
+	440.1.1 = { # 336 BC made up
+		birth="yes"
+	}
+	496.1.1 = { # 280 BC made up
+		death="yes"
+	}
+}
+230705 = {
+	name = "Brennus" # Gallic conqueror of the Balkans
+	dynasty = 23009
+	culture = gaul
+	religion = celtic_main
+	father = 230704
+	
+	add_trait = greedy
+	add_trait = tough_soldier
+	add_trait = wroth
+	
+	460.1.1 = { # 316 BC made up
+		birth="yes"
+	}
+	497.1.1 = { # 279 BC, commit suicide
+		death="yes"
+	}
+}
+230706 = {
+	name = "Cerethrius" # Gallic conqueror of the Balkans
+	dynasty = 23009
+	culture = gaul
+	religion = celtic_main
+	father = 230704
+	462.1.1 = { # 314 BC made up
+		birth="yes"
+	}
+	522.1.1 = { # 254 BC
+		death="yes"
+	}
+}
+230707 = {
+	name = "Bolgios" # Gallic conqueror of the Balkans
+	dynasty = 23009
+	culture = gaul
+	religion = celtic_main
+	father = 230704
+	
+	add_trait = tough_soldier
+	
+	464.1.1 = { # 312 BC made up
+		birth="yes"
+	}
+	517.1.1 = { # 259 BC made up
+		death="yes"
+	}
+}

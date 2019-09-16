@@ -1,0 +1,39 @@
+# 23901-24000 for the Epidamnoi dynasty
+23901 = {
+	name = "Hermokrates" # Ruler of Epidamnos, Made up
+	dynasty = 2040 # Epidamnioi
+	religion = greek_main
+	culture = doric
+	367.1.1 = { # 409 BC
+		birth="yes"
+	}
+	431.1.1 = { # 345 BC
+		death="yes"
+	}
+}
+23902 = {
+	name = "Chariton" # Ruler of Epidamnos, Made up
+	dynasty = 2040 # Epidamnioi
+	religion = greek_main
+	culture = doric
+	father = 23901
+	396.1.1 = { # 380 BC, Made up
+		birth="yes"
+	}
+	441.1.1 = { # 335 BC, Made up
+		death="yes"
+	}
+}
+23903 = {
+	name = "Hermokrates" # Ruler of Epidamnos, Made up
+	dynasty = 2040 # Epidamnioi
+	religion = greek_main
+	culture = doric
+	father = 23902
+	422.1.1 = { # 354 BC, Made up
+		birth="yes"
+	}
+	479.1.1 = { # 297 BC, Made up
+		death="yes"
+	}
+}

@@ -1,0 +1,19 @@
+# 962 - Asturica
+
+# County Title
+title = c_asturica
+
+# Settlements
+max_settlements = 5
+b_asturica_asturica = castle
+b_nemetobriga_asturica = city
+b_cabanca_asturica = city
+#b_petavonium_asturica = castle
+#b_baeduna_asturica = city
+
+# Misc
+culture = celtiberian
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

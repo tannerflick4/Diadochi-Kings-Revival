@@ -1,0 +1,17 @@
+# 1200 - Ocules
+
+# County Title
+title = c_ocules
+
+# Settlements
+max_settlements = 3
+b_ocules_ocules = castle
+b_segobriga_ocules = city
+b_opta_ocules = castle
+
+# Misc
+culture = celtiberian
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

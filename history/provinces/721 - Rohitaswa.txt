@@ -1,0 +1,15 @@
+# 721 - Rohitaswa
+
+# County Title
+title = c_rohitaswa
+
+# Settlements
+max_settlements = 1
+b_rohitaswa_rohitaswa = castle
+
+# Misc
+culture = vedic # Magadhi
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

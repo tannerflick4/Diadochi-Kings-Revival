@@ -1,0 +1,39 @@
+# 54001-54100 for the Chiosoi dynasty
+54001 = {
+	name = "Sosigenes" # Ruler of Chios, Made up
+	dynasty = 5046 # Choisoi
+	religion = greek_main
+	culture = ionian
+	397.1.1 = {
+		birth="yes" # 379 BC
+	}
+	453.1.1 = {
+		death="yes" # 323 BC
+	}
+}
+54002 = {
+	name = "Theodoulos" # Ruler of Chios, Made up
+	dynasty = 5046 # Choisoi
+	religion = greek_main
+	culture = ionian
+	father = 54001
+	430.1.1 = {
+		birth="yes" # 346 BC
+	}
+	502.1.1 = {
+		death="yes" # 274 BC
+	}
+}
+54003 = {
+	name = "Sosigenes" # Ruler of Chios, Made up
+	dynasty = 5046 # Choisoi
+	religion = greek_main
+	culture = ionian
+	father = 54002
+	451.1.1 = {
+		birth="yes" # 325 BC
+	}
+	516.1.1 = {
+		death="yes" # 260 BC
+	}
+}

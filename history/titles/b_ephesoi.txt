@@ -1,0 +1,8 @@
+397.1.1 = { # 367 BC
+	holding_dynasty = 5007 # Ephesoi
+	liege="k_r_tyras"
+	holder = 50601
+}
+459.1.1 = { # 317 BC
+	holder = 50602 # Demosthenes
+}

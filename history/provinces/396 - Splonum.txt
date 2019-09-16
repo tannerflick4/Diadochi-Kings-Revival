@@ -1,0 +1,18 @@
+# 396 - Splonum
+
+# County Title
+title = c_splonum
+
+# Settlements
+max_settlements = 4
+b_splonum_splonum = castle
+b_raetinium_splonum = city
+b_marsonia_splonum = city
+b_leucono_splonum = temple
+
+# Misc
+culture = illyrian
+religion = illyrian_main
+
+# History
+# Can be filled when things change around the province

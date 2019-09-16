@@ -1,0 +1,18 @@
+# 665 - Kaverapuri
+
+# County Title
+title = c_kaverapuri
+
+# Settlements
+max_settlements = 4
+b_kaverapuri_kaverapuri = castle
+b_nikama_kaverapuri = city
+b_karmara_kaverapuri = castle
+b_kouroula_kaverapuri = city
+
+# Misc
+culture = tamil
+religion = jainism_main
+
+# History
+# Can be filled when things change around the province

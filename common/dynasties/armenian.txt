@@ -1,0 +1,13 @@
+# 8001-9000 for armenian dynasties
+8001 = {
+	name = "Yervanduni"
+	culture = armenian
+}
+8002 = {
+	name = "Kamani"
+	culture = armenian
+}
+8003 = {
+	name = "Amari"
+	culture = armenian
+}

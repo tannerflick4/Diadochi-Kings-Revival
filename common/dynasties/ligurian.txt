@@ -1,0 +1,6 @@
+# 21001-22000 for Ligurian dynasties
+
+21001 = {
+	name = "Genuates"
+	culture = ligurian
+}

@@ -1,0 +1,9 @@
+403.1.1 = { # 373 BC
+	holder = 230803 # Teutomatus
+}
+451.1.1 = { # 325 BC
+	holder = 230801 # Acco
+}
+470.1.1 = { # 306 BC
+	holder = 230802 # Liscus
+}

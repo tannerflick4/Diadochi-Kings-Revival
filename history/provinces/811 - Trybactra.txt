@@ -1,0 +1,21 @@
+# 811 - Trybactra
+
+# County Title
+title = c_trybactra
+
+# Settlements
+max_settlements = 4
+b_trybactra_trybactra = castle
+b_buxarak_trybactra = city # Bukhara
+b_xenippa_trybactra = castle
+#b_alexandria_oxiana_trybactra = city
+
+# Misc
+culture = sogdian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province
+449.1.1 = { # 327 BC
+	b_alexandria_oxiana_trybactra = city
+}

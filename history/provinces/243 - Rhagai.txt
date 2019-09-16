@@ -1,0 +1,19 @@
+# 243 - Rhagai
+
+# County Title
+title = c_rhagai
+
+# Settlements
+max_settlements = 5
+b_rhagai_rhagai = castle
+b_charax_rhagai = temple
+b_galla_rhagai = city
+b_amol_rhagai = city
+b_khuvar_rhagai = castle
+
+# Misc
+culture = parthian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,18 @@
+454.1.1 = {
+	holder = 50101 # Eumenes
+	liege = k_s_cappadocia
+}
+458.5.1 = {
+	liege = k_s_phrygia
+}
+458.6.1 = {
+	liege = e_macedonia
+}
+460.1.1 = {
+	holder = 0
+	liege = 0
+}
+475.1.1 = {
+	holder = 60002 # Ariarathes II
+	liege = e_syria
+}

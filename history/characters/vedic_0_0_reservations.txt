@@ -1,0 +1,24 @@
+# 120001-130000 for vedic/Indian characters
+	# 120001-120100 for the Gandhara dynasty
+	# 120101-120200 for the Puru dynasty
+	# 120201-120300 for the Saurashtra dynasty
+	# 120301-120400 for the Maurya dynasty
+	# 120401-120500 for the Vijaya dynasty
+	# 120501-120600 for the Lanka dynasty
+	# 120601-120700 for the Chola dynasty
+	# 120701-120800 for the Pandya dynasty
+	# 120801-120900 for the Chera dynasty
+	# 120901-121000 for the Kishkindha dynasty
+	# 121001-121100 for the Tulunga dynasty
+	# 121101-121200 for the Gomanta dynasty
+	# 121201-121300 for the Konkana dynasty
+	# 121301-121400 for the Nanda dynasty
+	# 121401-121500 for the Ror dynasty
+	# 121501-121600 for the Kamboja dynasty
+	# 121601-121700 for the Kalinga dynasty
+	# 121701-121800 for the Asmaka dynasty
+	# 121801-121900 for the Satavahana dynasty
+	# 121901-122000 for the Kimpurusha dynasty
+	# 122001-122100 for the Kosala (Maharashtri) dynasty
+	
+	# 129901-130000 for the Lowborns

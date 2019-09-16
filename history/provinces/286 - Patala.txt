@@ -1,0 +1,16 @@
+# 286 - Patala
+
+# County Title
+title = c_patala
+
+# Settlements
+max_settlements = 2
+b_patala_patala = castle
+b_udapana_patala = city
+
+# Misc
+culture = shauraseni
+religion = jainism_main
+
+# History
+# Can be filled when things change around the province

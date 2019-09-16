@@ -1,0 +1,21 @@
+412.1.1 = {
+	holder = 21001
+}
+438.8.2 = { # 338 BC, Battle of Chaeronea
+	liege = e_macedonia
+}
+453.6.9 = {
+	liege="k_s_thrace"
+}
+460.1.1 = {
+	holder = 20701
+}
+467.1.1 = {
+	liege = k_odrysia
+}
+472.1.1 = {
+	holder = 20702
+}
+495.2.1 = {
+	liege = 0
+}

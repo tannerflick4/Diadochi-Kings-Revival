@@ -1,0 +1,5 @@
+# 40001-50000 for thracian characters
+	# 40001-40100 for the Bithyni dynasty
+	# 40101-40200 for the Odrysae dynasty
+	# 40201-40300 for the Getae dynasty
+	# 40301-40400 for the Triballi dynasty

@@ -1,0 +1,30 @@
+417.1.1 = {
+	holder = 80003 # Orontes
+	liege = k_p_armenia
+}
+432.1.1 = {
+	holder = 90314 # Darius III of Persia
+}
+440.1.1 = {
+	holder = 80004 # Orontes, son of the other Orontes
+}
+445.10.1 = {
+	holder = 80001 # Mithrenes
+}
+446.1.1 = { # 330 BC
+	liege = k_s_armenia
+}
+453.6.10 = {
+	holder = 10002 # Neoptolemos, Satrap of Armenia
+	liege = k_s_armenia
+}
+455.1.1 = {
+	holder = 80001 # Mithrenes of Armenia
+	liege = k_armenia
+}
+459.1.1 = {
+	holder = 80002 # Orontes III
+}
+479.1.1 = {
+	holder = 80005 # Sames
+}

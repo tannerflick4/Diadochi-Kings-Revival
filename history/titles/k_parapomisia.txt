@@ -1,0 +1,10 @@
+450.1.1 = { # 326 BC
+	holder = 100002 # Oxyartes
+	liege="e_macedonia"
+}
+467.1.1 = {
+	liege = 0
+}
+471.1.1 = {
+	holder = 0
+}

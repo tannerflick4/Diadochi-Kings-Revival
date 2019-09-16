@@ -1,0 +1,12 @@
+415.1.1 = { # 361 BC
+	holder = 70203 # Mirian
+}
+428.1.1 = { # 348 BC
+	holder = 70201 # Aku, King of Colchis
+}
+471.1.1 = { # 305 BC
+	holder = 70202 # Kuji
+}
+475.1.1 = { # 301 BC
+	holder = 0
+}

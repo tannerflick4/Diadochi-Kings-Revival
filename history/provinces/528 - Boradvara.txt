@@ -1,0 +1,16 @@
+# 528 - Boradvara
+
+# County Title
+title = c_boradvara
+
+# Settlements
+max_settlements = 2
+b_boradvara_boradvara = castle
+b_batyakissar_boradvara = temple
+
+# Misc
+culture = sarmatian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

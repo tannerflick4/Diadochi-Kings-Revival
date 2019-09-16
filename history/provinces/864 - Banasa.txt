@@ -1,0 +1,16 @@
+# 864 - Banasa
+
+# County Title
+title = c_banasa
+
+# Settlements
+max_settlements = 2
+b_banasa_banasa = castle
+b_thamusida_banasa = city
+
+# Misc
+culture = berber
+religion = berber_main
+
+# History
+# Can be filled when things change around the province

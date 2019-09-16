@@ -1,0 +1,26 @@
+# 50501-50600 for the Miletioi dynasty
+50501 = {
+	name = "Hieronymos" # Tyras
+	dynasty = 5006 # Miletioi
+	religion = greek_main
+	culture = ionian
+	387.1.1 = { # 389 BC Made up
+		birth="yes"
+	}
+	455.1.1 = { # 321 BC Made up
+		death="yes"
+	}
+}
+50502 = {
+	name = "Iason" # Tyras
+	dynasty = 5006 # Miletioi
+	religion = greek_main
+	culture = ionian
+	father = 50501
+	433.1.1 = { # 343 BC Made up
+		birth="yes"
+	}
+	500.1.1 = { # 276 BC Made up
+		death="yes"
+	}
+}

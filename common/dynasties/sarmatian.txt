@@ -1,0 +1,14 @@
+# 34001-35000 for Sarmatian dynasties
+
+34001 = {
+	name = "Sirakes"
+	culture = sarmatian
+}
+34002 = {
+	name = "Legae"
+	culture = sarmatian
+}
+34003 = {
+	name = "Maiotai"
+	culture = sarmatian
+}

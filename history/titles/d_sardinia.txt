@@ -1,0 +1,13 @@
+401.1.1 = { # 375 BC
+	holder = 250304 # Magon III of Carthage
+}
+432.1.1 = { # 344 BC 
+	holder = 250303 # Hanno III of Carthage
+}
+436.1.1 = { # 340 BC
+	holder = 250301 # Hannibal of the Magon family
+	liege = k_carthage
+}
+465.1.1 = { # 311 BC
+	holder = 250302 # Menahilim
+} 

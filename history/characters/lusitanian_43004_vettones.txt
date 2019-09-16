@@ -1,0 +1,27 @@
+# 430301-430400 for the Vettones dynasty
+430301 = {
+	name = "Taurocus" # Made up Vettones leader
+	dynasty = 43004
+	culture = lusitanian
+	religion = lusitanian_main
+	
+	370.1.1 = { # 406 BC, Made up
+		birth="yes"
+	}
+	444.1.1 = { # 332 BC
+		death="yes"
+	}
+}
+430302 = {
+	name = "Leoni" # Made up Vettones leader
+	dynasty = 43004
+	culture = lusitanian
+	religion = lusitanian_main
+	
+	430.1.1 = { # 346 BC, Made up
+		birth="yes"
+	}
+	500.1.1 = { # 276 BC
+		death="yes"
+	}
+}

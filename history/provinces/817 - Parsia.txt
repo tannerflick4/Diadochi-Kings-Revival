@@ -1,0 +1,17 @@
+# 817 - Parsia
+
+# County Title
+title = c_parsia
+
+# Settlements
+max_settlements = 3
+b_parsia_parsia = castle
+b_tribasina_parsia = castle
+b_zimira_parsia = city
+
+# Misc
+culture = arian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

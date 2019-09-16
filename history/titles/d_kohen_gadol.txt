@@ -1,0 +1,27 @@
+405.1.1 = { # 371 BC
+	law = succ_primogeniture
+	holder = 380001 # Jeddua
+	liege = k_p_babylon
+}
+446.1.1 = { # 330 BC
+	liege = k_s_syria
+}
+456.1.1 = { # 320 BC
+	holder = 380002 # Onias
+	liege = k_s_egypt
+}
+461.3.1 = { # 315 BC
+	liege = k_s_phrygia
+} 
+464.11.1 = { # 312 BC
+	liege = k_s_egypt
+}
+465.2.1 = { # 311 BC
+	liege = k_s_phrygia
+}
+467.1.1 = { # 309 BC
+	liege = e_asia
+}
+474.10.1 = { # 302 BC
+	liege = e_egypt
+}

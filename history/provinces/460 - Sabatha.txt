@@ -1,0 +1,18 @@
+# 460 - Sabatha
+
+# County Title
+title = c_sabatha
+
+# Settlements
+max_settlements = 3
+b_sabatha_sabatha = castle
+b_loula_sabatha = temple
+b_thamna_sabatha = city
+#b_yodona_sabatha = city
+
+# Misc
+culture = arabic
+religion = arabic_main
+
+# History
+# Can be filled when things change around the province

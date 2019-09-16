@@ -1,0 +1,21 @@
+# 381 - Euphranta
+
+# County Title
+title = c_euphranta
+
+# Settlements
+max_settlements = 4
+b_scina_euphranta = city
+b_euphranta_euphranta = castle
+b_zure_euphranta = temple
+b_gholaia_euphranta = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_zacazama_euphranta
+
+# Misc
+culture = berber
+religion = berber_main
+
+# History
+# Can be filled when things change around the province

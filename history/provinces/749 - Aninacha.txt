@@ -1,0 +1,15 @@
+# 749 - Aninacha
+
+# County Title
+title = c_aninacha
+
+# Settlements
+max_settlements = 1
+b_aninacha_aninacha = castle
+
+# Misc
+culture = shauraseni
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

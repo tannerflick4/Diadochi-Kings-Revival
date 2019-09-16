@@ -1,0 +1,16 @@
+# 707 - Balipura
+
+# County Title
+title = c_balipura
+
+# Settlements
+max_settlements = 2
+b_balipura_balipura = castle
+b_souannagoura_balipura = castle
+
+# Misc
+culture = vedic # Magadhi
+religion = buddhism_main
+
+# History
+# Can be filled when things change around the province

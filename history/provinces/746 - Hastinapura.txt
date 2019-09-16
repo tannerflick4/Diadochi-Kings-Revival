@@ -1,0 +1,16 @@
+# 746 - Hastinapura
+
+# County Title
+title = c_hastinapura
+
+# Settlements
+max_settlements = 2
+b_hastinapura_hastinapura = castle
+b_vardhamana_hastinapura = city
+
+# Misc
+culture = shauraseni
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

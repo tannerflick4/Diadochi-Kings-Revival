@@ -1,0 +1,15 @@
+402.1.1 = { # 374 BC
+	holder = 121401 # Rurak
+	liege = k_sindhu
+}
+451.1.1 = {
+	holder = 1501 # Peithon Agenoros
+	liege = k_s_indus
+}
+456.1.1 = { # 320 BC
+	holder = 121401 # Rurak
+	liege = k_sindhu
+}
+469.1.1 = { # 307 BC
+	holder = 121403 # Harak
+}

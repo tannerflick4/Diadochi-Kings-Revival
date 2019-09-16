@@ -1,0 +1,16 @@
+# 30201-30300 for the Arkesilidai dynasty
+30201 = {
+	name = "Arkesilas" # Arkesilas, Satrap of Assyria
+	dynasty = 3003 # Arkesilidai
+	religion = greek_main
+	culture = aeolian
+	400.1.1 = { # 376 BC
+		birth="yes"
+	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	457.1.1 = { # 319 BC
+		death="yes" # I couldn't find any records of this guy, which could mean he didn't take part in any major event, so he could just have died of old age.
+	}
+}

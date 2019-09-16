@@ -1,0 +1,10 @@
+453.6.10 = {
+	holder = 90001 # Atropates, king of Atropatene
+	liege = e_macedonia
+}
+455.1.1 = {
+	liege = 0
+}
+480.1.1 = {
+	holder = 90003
+}

@@ -1,0 +1,17 @@
+# 706 - Paundra
+
+# County Title
+title = c_paundra
+
+# Settlements
+max_settlements = 3
+b_paundra_paundra = castle
+b_pundranagara_paundra = city
+b_kelyna_paundra = city
+
+# Misc
+culture = vedic # Magadhi
+religion = buddhism_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,26 @@
+# 20701-20800 for the Megarioi dynasty
+20701 = {
+	name = "Sosigenes" # Byzantion
+	dynasty = 2008 # Megarioi
+	religion = greek_main
+	culture = doric
+	392.1.1 = { # 374 BC Made up
+		birth="yes"
+	}
+	472.1.1 = { # 304 BC Made up
+		death="yes"
+	}
+}
+20702 = {
+	name = "Zotikos" # Byzantion
+	dynasty = 2008 # Megarioi
+	religion = greek_main
+	culture = doric
+	father = 20701
+	420.1.1 = { # 354 BC Made up
+		birth="yes"
+	}
+	502.1.1 = { # 274 BC Made up
+		death="yes"
+	}
+}

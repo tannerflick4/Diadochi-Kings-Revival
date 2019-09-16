@@ -1,0 +1,18 @@
+# 453 - Akila
+
+# County Title
+title = c_akila
+
+# Settlements
+max_settlements = 4
+b_akila_akila = castle
+b_mousa_akila = temple
+b_ocelis_akila = city
+b_sabe_akila = castle
+
+# Misc
+culture = arabic
+religion = arabic_main
+
+# History
+# Can be filled when things change around the province

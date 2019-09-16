@@ -1,0 +1,16 @@
+# 697 - Arkapuri
+
+# County Title
+title = c_arkapuri
+
+# Settlements
+max_settlements = 2
+b_arkapuri_arkapuri = castle
+b_tosali_arkapuri = city
+
+# Misc
+culture = telegu
+religion = jainism_main
+
+# History
+# Can be filled when things change around the province

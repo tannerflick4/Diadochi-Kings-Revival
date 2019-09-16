@@ -1,0 +1,39 @@
+# 190001-190100 for the Picus dynasty
+190001 = {
+	name = "Taurus" # Picentis leader, Made up
+	dynasty = 19001 # Picus
+	religion = roman_main
+	culture = picene
+	father = 190003
+	421.1.1 = { # 355 BC Made up
+		birth="yes"
+	}
+	471.1.1 = { # 305 BC Made up
+		death="yes"
+	}
+}
+190002 = {
+	name = "Vibiis" # Made up
+	dynasty = 19001 # Picus
+	religion = roman_main
+	culture = picene
+	father = 190001
+	441.1.1 = { # 335 BC Made up
+		birth="yes"
+	}
+	511.1.1 = { # 265 BC Made up
+		death="yes"
+	}
+}
+190003 = {
+	name = "Taurus" # Made up
+	dynasty = 19001 # Picus
+	religion = roman_main
+	culture = picene
+	379.1.1 = { # Made up
+		birth="yes" # 397 BC
+	}
+	451.1.1 = {
+		death="yes" # 325 BC
+	}
+}

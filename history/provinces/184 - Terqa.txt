@@ -1,0 +1,18 @@
+# 184 - Terqa
+
+# County Title
+title = c_terqa
+
+# Settlements
+max_settlements = 4
+b_terqa_terqa = castle
+b_gabalein_terqa = temple
+b_sirhi_terqa = city
+b_doura_terqa = city
+
+# Misc
+culture = aramaic
+religion = marduk_cult
+
+# History
+# Can be filled when things change around the province

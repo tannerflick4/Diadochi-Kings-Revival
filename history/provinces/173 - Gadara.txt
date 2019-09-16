@@ -1,0 +1,18 @@
+# 173 - Gadara
+
+# County Title
+title = c_gadara
+
+# Settlements
+max_settlements = 4
+b_gadara_gadara = castle
+b_abila_gadara = temple
+b_hippos_gadara = city
+b_gerasa_gadara = castle
+
+# Misc
+culture = nabataean
+religion = arabic_main
+
+# History
+# Can be filled when things change around the province

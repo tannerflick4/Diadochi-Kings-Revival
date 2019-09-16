@@ -1,0 +1,38 @@
+# 270601-270700 for the Ratacenses dynasty
+270601 = {
+	name = "Mucapor" # Made up
+	dynasty = 27007 # Ratacenses
+	culture = dacian
+	religion = zalmoxism
+	father = 270603
+	420.1.1 = { # 356 BC, Made up
+		birth="yes"
+	}
+	465.1.1 = { # 311 BC, Made up
+		death="yes"
+	}
+}
+270602 = {
+	name = "Scorylo" # Made up
+	dynasty = 27007
+	culture = dacian
+	religion = zalmoxism
+	426.1.1 = { # Made up
+		birth="yes" # 350 BC
+	}
+	501.1.1 = { # Made up
+		death="yes" # 275 BC
+	}
+}
+270603 = {
+	name = "Pieporus" # Made up
+	dynasty = 27007 # Ratacenses
+	culture = dacian
+	religion = zalmoxism
+	389.1.1 = {
+		birth="yes" # 387 BC Made Up
+	}
+	436.1.1 = {
+		death="yes" # 340 BC Made Up
+	}
+}

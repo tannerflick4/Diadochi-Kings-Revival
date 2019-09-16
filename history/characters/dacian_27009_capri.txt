@@ -1,0 +1,38 @@
+# 270801-270900 for the Capri dynasty
+270801 = {
+	name = "Petoporus" # Made up
+	dynasty = 27009 # Capri
+	culture = dacian
+	religion = zalmoxism
+	father = 270803
+	394.1.1 = { # 382 BC, Made up
+		birth="yes"
+	}
+	454.1.1 = { # 322 BC, Made up
+		death="yes"
+	}
+}
+270802 = {
+	name = "Burebista" # Made up
+	dynasty = 27009 # Capri
+	culture = dacian
+	religion = zalmoxism
+	435.1.1 = { # Made up
+		birth="yes" # 350 BC
+	}
+	497.1.1 = { # Made up
+		death="yes" # 279 BC
+	}
+}
+270803 = {
+	name = "Pieporus" # Made up
+	dynasty = 27009 # Capri
+	culture = dacian
+	religion = zalmoxism
+	360.1.1 = {
+		birth="yes" # 416 BC Made Up
+	}
+	436.1.1 = {
+		death="yes" # 340 BC Made Up
+	}
+}

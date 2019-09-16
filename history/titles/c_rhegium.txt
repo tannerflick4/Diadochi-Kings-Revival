@@ -1,0 +1,21 @@
+409.1.1 = { # 367 BC
+	holder = 24002 # Dionysius II of Syracuse
+}
+419.1.1 = { # 357 BC
+	holder = 24102 # Dion
+}
+422.1.1 = { # 354 BC
+	holder = 59901 # Calippus
+}
+424.1.1 = { # 352 BC
+	holder = 24003 # Hipparinos
+}
+425.1.1 = { # 351 BC
+	holder = 160103 # Ancus
+}
+444.1.1 = { # 332 BC
+	holder = 160101 # Seppiis
+}
+483.1.1 = { # 303 BC
+	holder = 160102 # Pampo
+}

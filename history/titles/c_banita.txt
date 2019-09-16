@@ -1,0 +1,12 @@
+415.1.1 = { # 361 BC
+	holder = 270404 # Dicomes
+}
+434.1.1 = { # 342 BC
+	holder = 270403 # Scorylo
+}
+452.1.1 = { # 324 BC
+	holder = 270401 # Oroles
+}
+467.1.1 = { # 309 BC
+	holder = 270402 # Mucapor
+}

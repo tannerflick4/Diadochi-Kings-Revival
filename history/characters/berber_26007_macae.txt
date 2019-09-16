@@ -1,0 +1,44 @@
+# 260601-260700 for the Macae dynasty
+260601 = {
+	name = "Sugotus" # Made up
+	dynasty = 26007
+	culture = berber
+	religion = berber_main
+
+	392.1.1 = { # 384 BC
+		birth="yes"
+	}
+	453.1.1 = { # 323 BC
+		death="yes"
+	}
+}
+260602 = {
+	name = "Massinissa" # Made up
+	dynasty = 26007
+	culture = berber
+	religion = berber_main
+
+	father = 260601
+
+	430.1.1 = { # 346 BC
+		birth="yes"
+	}
+	502.1.1 = { # 274 BC
+		death="yes"
+	}
+}
+260603 = {
+	name = "Medenus" # Made up
+	dynasty = 26007
+	culture = berber
+	religion = berber_main
+
+	father = 260602
+
+	450.1.1 = { # 326 BC
+		birth="yes"
+	}
+	501.1.1 = { # 275 BC
+		death="yes"
+	}
+}

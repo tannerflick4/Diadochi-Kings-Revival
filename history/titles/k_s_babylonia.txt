@@ -1,0 +1,22 @@
+446.1.1 = { # 330 BC
+	holder = 701 # Archon of Babylonia
+	liege = e_macedonia
+}
+455.1.1 = {
+	holder = 2801 # Antigonos Dokimos
+}
+456.10.1 = {
+	holder = 1001 # Seleukos
+}
+461.1.1 = {
+	holder = 0
+	liege = 0
+}
+465.1.1 = {
+	holder = 1001 # Seleukos
+	liege = e_macedonia
+}
+467.1.1 = {
+	holder = 0
+	liege = 0
+}

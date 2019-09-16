@@ -1,0 +1,23 @@
+# 77 - Pergamon
+
+# County Title
+title = c_pergamum # for example c_corinth
+
+# Settlements
+max_settlements = 7
+b_pergamum_pergamum = castle
+b_asklepielon_pergamum = temple
+b_adramyttium_pergamum = city
+b_elaea_pergamum = castle
+b_pitane_pergamum = city
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_heracleia_pergamum
+# b_pitane_pergamum
+
+# Misc
+culture = aeolian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

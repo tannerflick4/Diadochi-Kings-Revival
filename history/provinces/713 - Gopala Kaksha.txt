@@ -1,0 +1,16 @@
+# 713 - Gopala Kaksha
+
+# County Title
+title = c_gopala_kaksha
+
+# Settlements
+max_settlements = 2
+b_gopala_kaksha_gopala_kaksha = castle
+b_rhappha_gopala_kaksha = city
+
+# Misc
+culture = vedic # Magadhi
+religion = buddhism_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,181 @@
+d_indiketes = {
+	color={ 230 85 85 }
+	color2={ 255 255 255 }
+	
+	allow = {
+	}
+}
+d_lacetani = {
+	color={ 180 85 85 }
+	color2={ 255 255 255 }
+	
+	allow = {
+	}
+}
+d_ilercavones = {
+	color={ 30 85 85 }
+	color2={ 255 255 255 }
+	
+	allow = {
+	}
+}
+d_edetani = {
+	color={ 230 35 85 }
+	color2={ 255 255 255 }
+	
+	allow = {
+	}
+}
+d_contestani = {
+	color={ 230 135 85 }
+	color2={ 255 255 255 }
+	
+	allow = {
+	}
+}
+d_bastetani = {
+	color={ 230 185 85 }
+	color2={ 255 255 255 }
+	
+	allow = {
+	}
+}
+d_ilergetae = {
+	color={ 230 85 35 }
+	color2={ 255 255 255 }
+	
+	allow = {
+	}
+}
+d_turdetani = {
+	color={ 35 70 220 }
+	color2={ 255 255 255 }
+	
+	allow = {
+	}
+}
+d_counei = {
+	color={ 140 35 220 }
+	color2={ 255 255 255 }
+	
+	allow = {
+	}
+}
+d_olcades = {
+	color={ 200 255 140 }
+	color2={ 255 255 255 }
+	
+	allow = {
+	}
+}
+d_carpetani = {
+	color={ 160 255 140 }
+	color2={ 255 255 255 }
+	
+	allow = {
+	}
+}
+d_oretani = {
+	color={ 120 255 140 }
+	color2={ 255 255 255 }
+	
+	allow = {
+	}
+}
+d_turduli = {
+	color={ 80 255 140 }
+	color2={ 255 255 255 }
+	
+	allow = {
+	}
+}
+d_lusitani = {
+	color={ 200 255 100 }
+	color2={ 255 255 255 }
+	
+	allow = {
+	}
+}
+d_celtici = {
+	color={ 200 255 60 }
+	color2={ 255 255 255 }
+	
+	allow = {
+	}
+}
+d_turduli_vetteres = {
+	color={ 200 215 140 }
+	color2={ 255 255 255 }
+	
+	allow = {
+	}
+}
+d_vaccaei = {
+	color={ 200 175 140 }
+	color2={ 255 255 255 }
+	
+	allow = {
+	}
+}
+d_turmodigi = {
+	color={ 160 75 140 }
+	color2={ 255 255 255 }
+	
+	allow = {
+	}
+}
+d_vettones = {
+	color={ 80 175 140 }
+	color2={ 255 255 255 }
+	
+	allow = {
+	}
+}
+d_cantabri = {
+	color={ 50 120 70 }
+	color2={ 255 255 255 }
+	
+	allow = {
+	}
+}
+d_astures = {
+	color={ 50 120 100 }
+	color2={ 255 255 255 }
+	
+	allow = {
+	}
+}
+d_arevaci = {
+	color={ 110 35 0 }
+	color2={ 255 255 255 }
+	
+	allow = {
+	}
+}
+d_belli = {
+	color={ 160 85 50 }
+	color2={ 255 255 255 }
+	
+	allow = {
+	}
+}
+d_titti = {
+	color={ 60 0 50 }
+	color2={ 255 255 255 }
+	
+	allow = {
+	}
+}
+d_turboletae = {
+	color={ 38 84 26 }
+	color2={ 255 255 255 }
+}
+d_callaeci = {
+	color={ 50 100 50 }
+	color2={ 255 255 255 }
+}
+d_vascones = {
+	color={ 255 222 0 }
+	color2={ 255 255 255 }
+}
+

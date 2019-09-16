@@ -1,0 +1,8 @@
+405.1.1 = { # 371 BC
+	holding_dynasty = 5013 # Kytherioi
+	liege="k_r_olbia"
+	holder = 51201
+}
+462.1.1 = { # 314 BC
+	holder = 51202 # Gennadios
+}

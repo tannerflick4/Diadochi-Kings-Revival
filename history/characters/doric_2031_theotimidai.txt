@@ -1,0 +1,61 @@
+# 23001-23100 for the Theotimidai dynasty
+23001 = {
+	name = "Theotimos" # Father of Onomarchus
+	dynasty = 2031 # Theotimidai
+	religion = greek_main
+	culture = doric
+	352.1.1 = { # Made up
+		birth="yes" # 424 BC
+	}
+	415.1.1 = {
+		death="yes" # 361 BC
+	}
+}	
+23002 = {
+	name = "Onomarchos" # Leader of Phokis
+	dynasty = 2031 # Theotimidai
+	religion = greek_main
+	culture = doric
+	father = 23001
+	
+	add_trait = greedy # Stole vast amounts of money from Delphi
+	add_trait = tough_soldier
+	
+	375.1.1 = { # Made up
+		birth="yes" # 401 BC
+	}
+	423.1.1 = { # 353 BC
+		death = {
+			death_reason = death_battle
+			killer = 803 # Philip II
+		}
+	}
+}
+23003 = {
+	name = "Philomelos" # Leader of Phokis
+	dynasty = 2031 # Theotimidai
+	religion = greek_main
+	culture = doric
+	father = 23001
+	380.1.1 = { # Made up
+		birth="yes" # 396 BC
+	}
+	421.1.1 = { # 355 BC
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+23004 = {
+	name = "Phallyos" # Leader of Phokis
+	dynasty = 2031 # Theotimidai
+	religion = greek_main
+	culture = doric
+	father = 23001
+	382.1.1 = { # Made up
+		birth="yes" # 394 BC
+	}
+	430.8.1 = { # Made up
+		death="yes" # 346 BC
+	}
+}

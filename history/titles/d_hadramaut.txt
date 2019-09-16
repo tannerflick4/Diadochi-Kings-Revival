@@ -1,0 +1,9 @@
+417.1.1 = { # 359 BC, Made up
+	holder = 320204 # Aush'Allah
+}
+474.1.1 = { # 302 BC, Made up
+	holder = 320205 # Ausos
+}
+480.1.1 = { # 296 BC, Made up
+	holder = 320206 # Tym-Dushara
+}

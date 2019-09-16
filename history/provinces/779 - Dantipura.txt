@@ -1,0 +1,16 @@
+# 779 - Dantipura
+
+# County Title
+title = c_dantipura
+
+# Settlements
+max_settlements = 2
+b_dantipura_dantipura = castle
+b_eragassa_dantipura = castle
+
+# Misc
+culture = maharashtri
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

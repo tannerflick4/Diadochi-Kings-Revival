@@ -1,0 +1,22 @@
+417.1.1 = {
+	holder = 90323
+	liege = k_p_lydia
+}
+442.1.1 = {
+	holder = 90314
+}
+446.1.1 = { # 330 BC
+	holder = 401 # Antigonus, the one eyed
+	liege = k_s_phrygia
+}
+467.1.1 = {
+	liege = e_asia
+}
+475.1.1 = { # 301 BC
+	holder = 3301
+	liege = d_phrygia
+}
+495.2.1 = {
+	holder = 1007 # Achaios
+	liege = d_pisidia
+}

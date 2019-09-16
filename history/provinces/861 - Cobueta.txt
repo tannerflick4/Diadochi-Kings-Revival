@@ -1,0 +1,16 @@
+# 861 - Cobueta
+
+# County Title
+title = c_cobueta
+
+# Settlements
+max_settlements = 2
+b_cobueta_cobueta = castle
+b_paraetina_cobueta = castle
+
+# Misc
+culture = berber
+religion = berber_main
+
+# History
+# Can be filled when things change around the province

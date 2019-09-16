@@ -1,0 +1,20 @@
+# 25 - Megalopolis
+
+# County Title
+title = c_megalopolis # for example c_corinth
+
+# Settlements
+max_settlements = 6 # Should be reevaluated
+b_megalopolis_megalopolis = castle
+b_brenthe_megalopolis = temple
+b_mantineia_megalopolis = city
+b_tegea_megalopolis = castle
+b_orchomenos_megalopolis = city
+b_lykosoura_megalopolis = city
+
+# Misc
+culture = arcadian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

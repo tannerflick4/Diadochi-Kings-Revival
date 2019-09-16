@@ -1,0 +1,19 @@
+# 265 - Soxetra
+
+# County Title
+title = c_soxetra
+
+# Settlements
+max_settlements = 5
+b_soxetra_soxetra = castle
+b_zetis_soxetra = temple
+b_pagala_soxetra = city
+b_arbis_soxetra = city
+b_bambacia_soxetra = castle
+
+# Misc
+culture = arian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

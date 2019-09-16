@@ -1,0 +1,19 @@
+# 287 - Naagramma
+
+# County Title
+title = c_naagramma
+
+# Settlements
+max_settlements = 5
+b_naagramma_nagramma = castle
+b_sivodbheda_naagramma = city
+b_nagobedha_naagramma = temple
+b_sudra_naagramma = city
+b_roruka_naagramma = castle
+
+# Misc
+culture = shauraseni
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,19 @@
+# 919 - Carissa
+
+# County Title
+title = c_carissa
+
+# Settlements
+max_settlements = 5
+b_carissa_carissa = castle
+b_salpensa_carissa = temple
+b_callet_carissa = castle
+b_burdoga_carissa = castle
+#b_urgia_carissa = temple
+
+# Misc
+culture = turdetanian
+religion = iberian_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,19 @@
+# 815 - Artacoana
+
+# County Title
+title = c_artacoana
+
+# Settlements
+max_settlements = 5
+b_artacoana_artacoana = castle
+b_cartana_artacoana = city
+b_bogadia_artacoana = castle
+#b_alexandria_artacoana = castle
+b_varpna_artacoana = city
+
+# Misc
+culture = bactrian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

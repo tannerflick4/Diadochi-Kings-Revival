@@ -1,0 +1,16 @@
+# 736 - Matsya Puri
+
+# County Title
+title = c_matsya_puri
+
+# Settlements
+max_settlements = 2
+b_matsya_puri_matsya_puri = castle
+b_sakambari_matsya_puri = castle
+
+# Misc
+culture = shauraseni
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

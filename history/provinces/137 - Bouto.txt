@@ -1,0 +1,20 @@
+# 137 - Bouto
+
+# County Title
+title = c_bouto
+
+# Settlements
+max_settlements = 6
+b_bouto_bouto = castle
+b_xois_bouto = temple
+b_sais_bouto = city
+b_kabasa_bouto = castle
+b_pachnamounis_bouto = city
+b_phragonis_bouto = city
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

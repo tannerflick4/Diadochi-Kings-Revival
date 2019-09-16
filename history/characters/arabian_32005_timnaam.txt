@@ -1,0 +1,52 @@
+# 320401-330500 for the Timnaam dynasty
+320401 = {
+	name = "Zabin" # Qataban, Made up
+	dynasty = 32005 # Timnaam
+	culture = arabic
+	religion = arabic_main
+	father = 320403
+	435.1.1 = {
+		birth="yes" # 341 BC, Made up
+	}
+	484.1.1 = {
+		death="yes" # 292 BC, Made up
+	}
+}
+320402 = {
+	name = "Thaim'alba'ali" # Qataban, Made up
+	dynasty = 32005 # Timnaam
+	culture = arabic
+	religion = arabic_main
+	father = 320401
+	471.1.1 = {
+		birth="yes" # 305 BC Made up
+	}
+	517.1.1 = {
+		death="yes" # 259 BC Made up
+	}
+}
+320403 = {
+	name = "Amat" # Qataban Made up
+	dynasty = 32005 # Timnaam
+	culture = arabic
+	religion = arabic_main
+	father = 320404
+	415.1.1 = { # 361 BC made up
+		birth="yes"
+	}
+	444.1.1 = { # 332 BC made up
+		death="yes"
+	}
+}
+320404 = {
+	name = "Ushba'al" # Qataban Made up
+	dynasty = 32005 # Timnaam
+	culture = arabic
+	religion = arabic_main
+	392.1.1 = { # 384 BC
+		birth="yes"
+	}
+	440.1.1 = { # 336 BC
+		death="yes"
+	}
+}

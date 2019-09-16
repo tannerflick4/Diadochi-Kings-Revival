@@ -1,0 +1,17 @@
+# 60 - Pyli
+
+# County Title
+title = c_pyli # for example c_corinth
+
+# Settlements
+max_settlements = 3
+b_aiane_pyli = castle
+b_keletron_pyli = city
+b_eratyra_pyli = castle
+
+# Misc
+culture = macedonian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

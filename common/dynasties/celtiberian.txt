@@ -1,0 +1,70 @@
+# 42001-43000 for Celtiberian dynasties
+42001 = {
+	name = "Olkades"
+	culture = celtiberian
+}
+42002 = {
+	name = "Lusiones"
+	culture = celtiberian
+}
+42003 = {
+	name = "Belloi"
+	culture = celtiberian
+}
+42004 = {
+	name = "Tittoi"
+	culture = celtiberian
+}
+42005 = {
+	name = "Areuakoi"
+	culture = celtiberian
+}
+42006 = {
+	name = "Turboletai"
+	culture = celtiberian
+}
+42007 = {
+	name = "Karpetanoi"
+	culture = celtiberian
+}
+42008 = {
+	name = "Oretanoi"
+	culture = celtiberian
+}
+42009 = {
+	name = "Turduloi"
+	culture = celtiberian
+}
+42010 = {
+	name = "Keltikoi"
+	culture = celtiberian
+}
+42011 = {
+	name = "Lobetanoi"
+	culture = celtiberian
+}
+42012 = {
+	name = "Turduloi Veteres"
+	culture = celtiberian
+}
+42013 = {
+	name = "Uakkaioi"
+	culture = celtiberian
+}
+42014 = {
+	name = "Turmodigoi"
+	culture = celtiberian
+}
+42015 = {
+	name = "Kantabroi"
+	culture = celtiberian
+}
+42016 = { 
+	name = "Astures"
+	culture = celtiberian
+}
+42017 = { 
+	name = "Zoelai"
+	culture = celtiberian
+}
+	

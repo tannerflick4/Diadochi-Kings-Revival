@@ -1,0 +1,15 @@
+# 980 - Oiasso
+
+# County Title
+title = c_oiasso
+
+# Settlements
+max_settlements = 1
+b_oiarso_oiasso = castle
+
+# Misc
+culture = aquitanian
+religion = aquitanian_main
+
+# History
+# Can be filled when things change around the province

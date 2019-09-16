@@ -1,0 +1,23 @@
+# 346 - Brixia
+
+# County Title
+title = c_brixia # for example c_corinth
+
+# Settlements
+max_settlements = 6 # Should be reevaluated
+b_brixia_brixia = castle
+b_bergomum_brixia = city
+b_spina_brixia = temple
+
+# Possible baronies: (Always add a # in front of a line with these!)
+#
+#
+#
+#
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

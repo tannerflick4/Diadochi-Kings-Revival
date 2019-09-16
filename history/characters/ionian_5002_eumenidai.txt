@@ -1,0 +1,27 @@
+# 50101-50200 for the Eumenidai dynasty
+50101 = {
+	name = "Eumenes" # Eumenes of Cardia, Satrap of Cappadocia
+	dynasty = 5002 # Eumenidai
+	religion = greek_main
+	culture = ionian
+	
+	stewardship = 8
+	diplomacy = 3
+	
+	add_trait = skilled_tactician
+	add_trait = brave
+	add_trait = content
+	
+	414.1.1 = {
+		birth="yes" # 362 BC
+	}
+	#453.6.10 = { # 323 BC
+	#	add_trait = diadochi_king	
+	#}
+	460.1.1 = { # 316 BC
+		death = { 
+			death_reason = death_execution
+			killer = 401 # Antigonus
+		}
+	}
+}

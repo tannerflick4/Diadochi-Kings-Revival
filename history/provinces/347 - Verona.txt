@@ -1,0 +1,23 @@
+# 347 - Verona
+
+# County Title
+title = c_verona # for example c_corinth
+
+# Settlements
+max_settlements = 6 # Should be reevaluated
+b_verona_verona = castle
+b_mantua_verona = temple
+b_bedriacum_verona = city
+
+# Possible baronies: (Always add a # in front of a line with these!)
+#
+#
+#
+#
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

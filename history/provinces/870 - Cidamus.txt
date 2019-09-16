@@ -1,0 +1,15 @@
+# 870 - Cidamus
+
+# County Title
+title = c_cidamus
+
+# Settlements
+max_settlements = 1
+b_cidamus_cidamus = castle
+
+# Misc
+culture = berber
+religion = berber_main
+
+# History
+# Can be filled when things change around the province

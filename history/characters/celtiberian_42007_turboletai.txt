@@ -1,0 +1,27 @@
+# 420501-420600 for the Turboletae dynasty
+420501 = {
+	name = "Karbelos" # Made up Turboletae leader
+	dynasty = 42006
+	culture = celtiberian
+	religion = celtic_main
+	
+	385.1.1 = { # 391 BC, Made up
+		birth="yes"
+	}
+	467.1.1 = { # 308 BC
+		death="yes"
+	}
+}
+420502 = {
+	name = "Kaukirino" # Made up Turboletae leader
+	dynasty = 42006
+	culture = celtiberian
+	religion = celtic_main
+	
+	426.1.1 = { # 350 BC, Made up
+		birth="yes"
+	}
+	498.1.1 = { # 278 BC
+		death="yes"
+	}
+}

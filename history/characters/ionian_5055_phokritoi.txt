@@ -1,0 +1,14 @@
+# 54901-55000 for the Phokritoi dynasty	
+54901 = {
+	name = "Phokritos" # Governor of Heracleia Pontika
+	dynasty = 5055
+	culture = ionian
+	religion = greek_main
+	
+	454.1.1 = { # 322 BC, Made up
+		birth="yes"
+	}
+	525.1.1 = { # 251 BC, Made up
+		death="yes" 
+	}
+}

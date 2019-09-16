@@ -1,0 +1,16 @@
+# 889 - Guhu
+
+# County Title
+title = c_guhu
+
+# Settlements
+max_settlements = 2
+
+b_guhu_guhu = castle
+b_nearer_jushi = city # Turfan
+
+culture = tocharian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

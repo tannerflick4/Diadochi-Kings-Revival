@@ -1,0 +1,603 @@
+# 12001-13000 for vedic dynasties
+
+# Gandhari
+12001 = {
+	name = "Gandhara"
+	culture = gandhari
+}
+12002 = {
+	name = "Kamboja"
+	culture = gandhari
+}
+12003 = {
+	name = "Bahlika"
+	culture = gandhari
+}
+12004 = {
+	name = "Kasmira"
+	culture = gandhari
+}
+12005 = {
+	name = "Naga"
+	culture = gandhari
+}
+12006 = {
+	name = "Rishika"
+	culture = gandhari
+}
+12007 = {
+	name = "Loha"
+	culture = gandhari
+}
+12008 = {
+	name = "Darada"
+	culture = gandhari
+}
+12009 = {
+	name = "Abhisara"
+	culture = gandhari
+}
+12010 = {
+	name = "Aroosa"
+	culture = gandhari
+}
+12011 = {
+	name = "Uttara Jyotisha"
+	culture = gandhari
+}
+
+# Shauraseni
+12012 = {
+	name = "Suhma"
+	culture = shauraseni
+}
+12013 = {
+	name = "Sumala"
+	culture = shauraseni
+}
+12014 = {
+	name = "Dasarna"
+	culture = shauraseni
+}
+12015 = {
+	name = "Karnata"
+	culture = shauraseni
+}
+12016 = {
+	name = "Sindhu"
+	culture = shauraseni
+}
+12017 = {
+	name = "Pancha Nada"
+	culture = shauraseni
+}
+12018 = {
+	name = "Sauvira"
+	culture = shauraseni
+}
+12019 = {
+	name = "Sudra"
+	culture = shauraseni
+}
+12020 = {
+	name = "Graminiya"
+	culture = shauraseni
+}
+12021 = {
+	name = "Mlecha"
+	culture = shauraseni
+}
+12022 = {
+	name = "Kachcha"
+	culture = shauraseni
+}
+12023 = {
+	name = "Dwaraka"
+	culture = shauraseni
+}
+12024 = {
+	name = "Anarta"
+	culture = shauraseni
+}
+12025 = {
+	name = "Saraswata"
+	culture = shauraseni
+}
+12026 = {
+	name = "Abhira"
+	culture = shauraseni
+}
+12027 = {
+	name = "Yaudheya"
+	culture = shauraseni
+}
+12028 = {
+	name = "Ambastha"
+	culture = shauraseni
+}
+12029 = {
+	name = "Malava"
+	culture = shauraseni
+}
+12030 = {
+	name = "Turvasa"
+	culture = shauraseni
+}
+12031 = {
+	name = "Dwarapla"
+	culture = shauraseni
+}
+12032 = {
+	name = "Sivi"
+	culture = shauraseni
+}
+12033 = {
+	name = "Madhyama Keya"
+	culture = shauraseni
+}
+12034 = {
+	name = "Kekaya"
+	culture = shauraseni
+}
+12035 = {
+	name = "Mahetta"
+	culture = shauraseni
+}
+12036 = {
+	name = "Madra"
+	culture = shauraseni
+}
+12037 = {
+	name = "Bahlika"
+	culture = shauraseni
+}
+12038 = {
+	name = "Utsava Sanketa"
+	culture = shauraseni
+}
+12039 = {
+	name = "Trigarta"
+	culture = shauraseni
+}
+12040 = {
+	name = "Matta Mayuraka"
+	culture = shauraseni
+}
+12041 = {
+	name = "Vatadhana"
+	culture = shauraseni
+}
+12042 = {
+	name = "Sairisaka"
+	culture = shauraseni
+}
+12043 = {
+	name = "Salwa"
+	culture = shauraseni
+}
+12044 = {
+	name = "Gosringa"
+	culture = shauraseni
+}
+12045 = {
+	name = "Nishada"
+	culture = shauraseni
+}
+12046 = {
+	name = "Gurjara"
+	culture = shauraseni
+}
+12047 = {
+	name = "Saurashtra"
+	culture = shauraseni
+}
+12048 = {
+	name = "Patachara"
+	culture = shauraseni
+}
+12049 = {
+	name = "Yakrilloma"
+	culture = shauraseni
+}
+12050 = {
+	name = "Matsya"
+	culture = shauraseni
+}
+12051 = {
+	name = "Kuru"
+	culture = shauraseni
+}
+12052 = {
+	name = "Panchala"
+	culture = shauraseni
+}
+12053 = {
+	name = "Usinara"
+	culture = shauraseni
+}
+12054 = {
+	name = "Surasena"
+	culture = shauraseni
+}
+
+# Magadhi
+12055 = {
+	name = "Pisacha"
+	culture = vedic
+}
+12056 = {
+	name = "Kinnara"
+	culture = vedic
+}
+12057 = {
+	name = "Kimpurusha"
+	culture = vedic
+}
+12058 = {
+	name = "Kulinda"
+	culture = vedic
+}
+12059 = {
+	name = "Yaksha"
+	culture = vedic
+}
+12060 = {
+	name = "Harataka"
+	culture = vedic
+}
+12061 = {
+	name = "Gandharva"
+	culture = vedic
+}
+12062 = {
+	name = "Harivarsha"
+	culture = vedic
+}
+12063 = {
+	name = "Nepa"
+	culture = vedic
+}
+12064 = {
+	name = "Kosala"
+	culture = vedic
+}
+12065 = {
+	name = "Bharga"
+	culture = vedic
+}
+12066 = {
+	name = "Nishada"
+	culture = vedic
+}
+12067 = {
+	name = "Kasi"
+	culture = vedic
+}
+12068 = {
+	name = "Malada"
+	culture = vedic
+}
+12069 = {
+	name = "Matsya"
+	culture = vedic
+}
+12070 = {
+	name = "Suparsa"
+	culture = vedic
+}
+12071 = {
+	name = "Malla"
+	culture = vedic
+}
+12072 = {
+	name = "Sakya"
+	culture = vedic
+}
+12073 = {
+	name = "Kirata"
+	culture = vedic
+}
+12074 = {
+	name = "Bhallata"
+	culture = vedic
+}
+12075 = {
+	name = "Videha"
+	culture = vedic
+}
+12076 = {
+	name = "Vaisali"
+	culture = vedic
+}
+12077 = {
+	name = "Magadha"
+	culture = vedic
+}
+12078 = {
+	name = "Kikata"
+	culture = vedic
+}
+12079 = {
+	name = "Atavi"
+	culture = vedic
+}
+12080 = {
+	name = "Utkala"
+	culture = vedic
+}
+12081 = {
+	name = "Vanga"
+	culture = vedic
+}
+12082 = {
+	name = "Suhma"
+	culture = vedic
+}
+12083 = {
+	name = "Prasuhma"
+	culture = vedic
+}
+12084 = {
+	name = "Pundra"
+	culture = vedic
+}
+12085 = {
+	name = "Vardhamana"
+	culture = vedic
+}
+12086 = {
+	name = "Karvata"
+	culture = vedic
+}
+12087 = {
+	name = "Pragjyotisha"
+	culture = vedic
+}
+12088 = {
+	name = "Kausika Kaksha"
+	culture = vedic
+}
+12089 = {
+	name = "Uluka"
+	culture = vedic
+}
+12090 = {
+	name = "Saka"
+	culture = vedic
+}
+
+# Maharashtri
+12091 = {
+	name = "Malava"
+	culture = maharashtri
+}
+12092 = {
+	name = "Jamvaka"
+	culture = maharashtri
+}
+12093 = {
+	name = "Avanti"
+	culture = maharashtri
+}
+12094 = {
+	name = "Heheya"
+	culture = maharashtri
+}
+12095 = {
+	name = "Anupa"
+	culture = maharashtri
+}
+12096 = {
+	name = "Surparaka"
+	culture = maharashtri
+}
+12097 = {
+	name = "Dandaka"
+	culture = maharashtri
+}
+12098 = {
+	name = "Nava Rashtra"
+	culture = maharashtri
+}
+12099 = {
+	name = "Kunti"
+	culture = maharashtri
+}
+12100 = {
+	name = "Nishadha"
+	culture = maharashtri
+}
+12101 = {
+	name = "Kichaka"
+	culture = maharashtri
+}
+12102 = {
+	name = "Karusha"
+	culture = maharashtri
+}
+12103 = {
+	name = "Dasarna"
+	culture = maharashtri
+}
+12104 = {
+	name = "Chedi"
+	culture = maharashtri
+}
+12105 = {
+	name = "Vatsa"
+	culture = maharashtri
+}
+12106 = {
+	name = "Pulinda"
+	culture = maharashtri
+}
+12107 = {
+	name = "Mekala"
+	culture = maharashtri
+}
+12108 = {
+	name = "Pasubhumi"
+	culture = maharashtri
+}
+12109 = {
+	name = "Kekala"
+	culture = maharashtri
+}
+12110 = {
+	name = "Kosala"
+	culture = maharashtri
+}
+12111 = {
+	name = "Taitilaka"
+	culture = maharashtri
+}
+12112 = {
+	name = "Sabara"
+	culture = maharashtri
+}
+12113 = {
+	name = "Vidarbha"
+	culture = maharashtri
+}
+12114 = {
+	name = "Vakataka"
+	culture = maharashtri
+}
+12115 = {
+	name = "Asmaka"
+	culture = maharashtri
+}
+
+# Sinhala
+12116 = {
+	name = "Tamraparni"
+	culture = sinhala
+}
+12117 = {
+	name = "Sinhala"
+	culture = sinhala
+}
+
+# Telegu
+12118 = {
+	name = "Odra"
+	culture = telegu
+}
+12119 = {
+	name = "Kalinga"
+	culture = telegu
+}
+12120 = {
+	name = "Telinga"
+	culture = telegu
+}
+12121 = {
+	name = "Andhraka"
+	culture = telegu
+}
+
+# Kannada
+12122 = {
+	name = "Konkana"
+	culture = kannada
+}
+12123 = {
+	name = "Karavira"
+	culture = kannada
+}
+12124 = {
+	name = "Kuntala"
+	culture = kannada
+}
+12125 = {
+	name = "Kishkindha"
+	culture = kannada
+}
+12126 = {
+	name = "Karanataka"
+	culture = kannada
+}
+12127 = {
+	name = "Vanavasi"
+	culture = kannada
+}
+12128 = {
+	name = "Tulunga"
+	culture = kannada
+}
+12129 = {
+	name = "Gomanta"
+	culture = kannada
+}
+12130 = {
+	name = "Gorashtra"
+	culture = kannada
+}
+
+# Tamil
+12131 = {
+	name = "Dravida"
+	culture = tamil
+}
+12132 = {
+	name = "Kanchi"
+	culture = tamil
+}
+12133 = {
+	name = "Chola"
+	culture = tamil
+}
+12134 = {
+	name = "Pandya"
+	culture = tamil
+}
+12135 = {
+	name = "Lanka"
+	culture = tamil
+}
+12136 = {
+	name = "Kerala"
+	culture = tamil
+}
+12137 = {
+	name = "Chera"
+	culture = tamil
+}
+12138 = {
+	name = "Kolaputra"
+	culture = tamil
+}
+12139 = {
+	name = "Mushika"
+	culture = tamil
+}
+12140 = {
+	name = "Mahashaka"
+	culture = tamil
+}
+
+# Historical
+12141 = {
+	name = "Puru"
+	culture = shauraseni
+}
+12142 = {
+	name = "Maurya"
+	culture = vedic
+}
+12143 = {
+	name = "Vijaya"
+	culture = sinhala
+}
+12144 = {
+	name = "Nanda"
+	culture = vedic
+}
+12145 = {
+	name = "Ror"
+	culture = shauraseni
+}
+12146 = {
+	name = "Satavahana"
+	culture = telegu
+}

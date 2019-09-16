@@ -1,0 +1,24 @@
+# 349 - Altinum
+
+# County Title
+title = c_altinum # for example c_corinth
+
+# Settlements
+max_settlements = 6 # Should be reevaluated
+b_altinum_altinum = castle
+b_opitergum_altinum = city
+b_flamonia_altinum = castle
+b_artemia_altinum = temple
+
+# Possible baronies: (Always add a # in front of a line with these!)
+#
+#
+#
+#
+
+# Misc
+culture = venetic
+religion = illyrian_main
+
+# History
+# Can be filled when things change around the province

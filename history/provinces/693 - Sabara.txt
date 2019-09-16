@@ -1,0 +1,16 @@
+# 693 - Sabara
+
+# County Title
+title = c_sabara
+
+# Settlements
+max_settlements = 2
+b_sabara_sabara = castle
+b_sippara_sabara = castle
+
+# Misc
+culture = telegu
+religion = dravidian_main
+
+# History
+# Can be filled when things change around the province

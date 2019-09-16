@@ -1,0 +1,8 @@
+414.1.1 = { # 362 BC
+	holding_dynasty = 5009 # Khalkidioi
+	liege="k_r_olbia"
+	holder = 50801
+}
+455.1.1 = { # 321 BC
+	holder = 50802 # Heliodoros
+}

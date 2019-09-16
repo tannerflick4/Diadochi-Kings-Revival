@@ -1,0 +1,21 @@
+# 257 - Carmana
+
+# County Title
+title = c_carmana
+
+# Settlements
+max_settlements = 5
+b_carmana_carmana = castle
+b_nepista_carmana = temple
+b_chodda_carmana = city
+b_alexandria_carmana = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_apamea_carmana
+
+# Misc
+culture = persian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

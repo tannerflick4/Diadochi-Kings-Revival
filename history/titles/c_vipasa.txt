@@ -1,0 +1,18 @@
+412.1.1 = { # 364 BC
+	holder = 121301 # Mahapadma Nanda
+	liege = k_maghada
+}
+447.1.1 = { # 329 BC
+	holder = 121302 # Dhana Nanda
+}
+455.1.1 = { # 321 BC
+	holder = 120301 # Chandragupta Maurya
+	liege = e_india
+}
+456.1.1 = {
+	holder = 120101 # Porus
+	liege = k_pancha_nada
+}
+459.1.1 = { # 317 BC
+	holder = 120102 # Malayketu
+}

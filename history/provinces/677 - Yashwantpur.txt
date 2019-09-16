@@ -1,0 +1,16 @@
+# 677 - Yashwantpur
+
+# County Title
+title = c_yashwantpur
+
+# Settlements
+max_settlements = 2
+b_yashwantpur_yashwantpur = castle
+b_athirala_yashwantpur = castle
+
+# Misc
+culture = tamil
+religion = dravidian_main
+
+# History
+# Can be filled when things change around the province

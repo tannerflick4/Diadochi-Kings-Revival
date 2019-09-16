@@ -1,0 +1,13 @@
+405.1.1 = { # 371 BC
+	holder = 270004 # Komakiza
+	liege="d_getae"
+}
+427.1.1 = { # 349 BC
+	holder = 270001 # Cotiso
+}
+474.1.1 = { # 300 BC
+	holder = 270002 # Bastiza
+}
+492.1.1 = { # 284 BC
+	holder = 270003 # Dapyg
+}

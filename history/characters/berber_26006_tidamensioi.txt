@@ -1,0 +1,44 @@
+# 260501-260600 for the Tidamensioi dynasty
+260501 = {
+	name = "Gaesanus" # Made up
+	dynasty = 26006
+	culture = berber
+	religion = berber_main
+
+	393.1.1 = { # 383 BC
+		birth="yes"
+	}
+	458.1.1 = { # 318 BC
+		death="yes"
+	}
+}
+260502 = {
+	name = "Gaesanus" # Made up
+	dynasty = 26006
+	culture = berber
+	religion = berber_main
+
+	father = 260501
+
+	424.1.1 = { # 352 BC
+		birth="yes"
+	}
+	476.1.1 = { # 300 BC
+		death="yes"
+	}
+}
+260503 = {
+	name = "Iglaphus" # Made up
+	dynasty = 26006
+	culture = berber
+	religion = berber_main
+
+	father = 260502
+
+	463.1.1 = { # 313 BC
+		birth="yes"
+	}
+	530.1.1 = { # 246 BC
+		death="yes"
+	}
+}

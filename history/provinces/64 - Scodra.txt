@@ -1,0 +1,21 @@
+# 64 - Scodra
+
+# County Title
+title = c_scodra # for example c_corinth
+
+# Settlements
+max_settlements = 5
+b_scodra_scodra = castle
+b_bouthoe_scodra = city
+b_olcinium_scodra = city
+b_meteon_scodra = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_doclea_scodra
+
+# Misc
+culture = illyrian
+religion = illyrian_main
+
+# History
+# Can be filled when things change around the province

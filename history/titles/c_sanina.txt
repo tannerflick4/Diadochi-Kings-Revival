@@ -1,0 +1,9 @@
+394.1.1 = { # 382 BC
+	holder = 360001 # Parnajom
+}
+445.1.1 = { # 331 BC
+	holder = 360002 # Artavazd
+}
+472.1.1 = { # 304 BC
+	holder = 360003 # Rusa
+}

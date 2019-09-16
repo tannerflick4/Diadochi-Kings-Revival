@@ -1,0 +1,10 @@
+412.1.1 = { # 364 BC
+	holder = 320603 # Zabin
+	liege = d_gerrha
+}
+447.1.1 = { # 329 BC Made up
+	holder = 320601 # Adnun
+}
+459.1.1 = { # 317 BC Made up
+	holder = 320602 # Wabab-Allah
+}

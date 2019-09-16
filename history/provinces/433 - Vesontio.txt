@@ -1,0 +1,18 @@
+# 433 - Vesontio
+
+# County Title
+title = c_vesontio
+
+# Settlements
+max_settlements = 4
+b_vesontio_vesontio = castle
+b_epamanduodurum_vesontio = castle
+b_ariorica_vesontio = city
+b_ledo_vesontio = castle
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

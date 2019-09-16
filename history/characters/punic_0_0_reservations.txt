@@ -1,0 +1,6 @@
+# 250001-260000 for Punic characters
+	# 250001-250100 for the Barca dynasty
+	# 250101-250200 for the Hanno dynasty
+	# 250201-250300 for the Hasdrubal dynasty
+	# 250301-250400 for the Magon dynasty
+	# 250401-250500 for the Dido dynasty	

@@ -1,0 +1,18 @@
+# 858 - Siga
+
+# County Title
+title = c_siga
+
+# Settlements
+max_settlements = 4
+b_siga_siga = castle
+b_camarata_siga = city
+b_tepidae_siga = city
+b_pomaria_siga = castle
+
+# Misc
+culture = berber
+religion = berber_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,16 @@
+# 583 - Pasuporata
+
+# County Title
+title = c_pasuporata
+
+# Settlements
+max_settlements = 2
+b_pasuporata_pasuporata = castle
+b_koli_pasuporata = temple
+
+# Misc
+culture = chorasmian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

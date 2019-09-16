@@ -1,0 +1,20 @@
+# 924 - Segida
+
+# County Title
+title = c_segida_turdetania
+
+# Settlements
+max_settlements = 5
+b_segida_segida_turdetania = castle
+b_olbulcula_segida_turdetania = castle
+b_astigi_segida_turdetania = city
+#b_urso_segida_turdetania = castle
+#b_lauro_segida_turdetania = castle
+
+# Misc
+culture = turdetanian
+religion = iberian_main
+
+
+# History
+# Can be filled when things change around the province

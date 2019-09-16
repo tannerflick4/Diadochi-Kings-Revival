@@ -1,0 +1,18 @@
+# 831 - Oenoanda
+
+# County Title
+title = c_oenoanda
+
+# Settlements
+max_settlements = 4
+b_oenoanda_oenoanda = castle
+b_balboura_oenoanda = castle
+b_boubon_oenoanda = city
+b_orpeena_oenoanda = castle
+
+# Misc
+culture = luwian
+religion = anatolian_main
+
+# History
+# Can be filled when things change around the province

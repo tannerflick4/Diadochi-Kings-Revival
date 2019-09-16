@@ -1,0 +1,28 @@
+# 120101-120200 for the Yaduvanshi dynasty
+120101 = {
+	name = "Purushottama" # Porus, satrap of Indus
+	dynasty = 12141 # Puru
+	religion = hinduism_main
+	culture = shauraseni
+	
+	add_trait = skilled_tactician
+	
+	394.1.1 = { # 382 BC Made up
+		birth="yes"
+	}
+	459.1.1 = { # 317 BC
+		death="yes"
+	}
+}
+120102 = {
+	name = "Malayketu" # Porus' successor
+	dynasty = 12141 # Puru
+	religion = hinduism_main
+	culture = shauraseni
+	442.1.1 = { # 334 BC made up
+		birth="yes"
+	}
+	524.1.1 = { # 252 BC made up
+		death="yes"
+	}
+}

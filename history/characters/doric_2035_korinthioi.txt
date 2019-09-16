@@ -1,0 +1,39 @@
+# 23401-23500 for the Korinthioi dynasty
+23401 = {
+	name = "Archelaos" # Ruler of Corinth, Made up
+	dynasty = 2035 # Korinthioi
+	religion = greek_main
+	culture = doric
+	389.1.1 = {
+		birth="yes" # 387 BC
+	}
+	446.1.1 = {
+		death="yes" # 330 BC
+	}
+}
+23402 = {
+	name = "Euphranor" # Ruler of Corinth, Made up
+	dynasty = 2035 # Korinthioi
+	religion = greek_main
+	culture = doric
+	father = 23401
+	413.1.1 = {
+		birth="yes" # 363 BC
+	}
+	455.1.1 = {
+		death="yes" # 321 BC
+	}
+}
+23403 = {
+	name = "Nikandros" # Ruler of Corinth, Made up
+	dynasty = 2035 # Korinthioi
+	religion = greek_main
+	culture = doric
+	father = 23402
+	447.1.1 = {
+		birth="yes" # 329 BC
+	}
+	499.1.1 = {
+		death="yes" # 277 BC
+	}
+}

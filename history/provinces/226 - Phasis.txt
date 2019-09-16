@@ -1,0 +1,19 @@
+# 226 - Phasis
+
+# County Title
+title = c_phasis
+
+# Settlements
+max_settlements = 5
+b_phasis_phasis = castle
+b_simagre_phasis = temple
+b_chaladidi_phasis = city
+b_archaiopolis_phasis = castle
+b_onogouris_phasis = temple
+
+# Misc
+culture = georgian
+religion = georgian_main
+
+# History
+# Can be filled when things change around the province

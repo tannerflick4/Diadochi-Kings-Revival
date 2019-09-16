@@ -1,0 +1,14 @@
+# 54801-54900 for the Miletioi dynasty	
+54801 = {
+	name="Demodamas" # Demodamas of Miletus
+	dynasty = 5054
+	culture = ionian
+	religion = greek_main
+	
+	444.1.1 = { # 332 BC, Made up
+		birth="yes"
+	}
+	518.1.1 = { # 258 BC, Made up. This is a convenient date for Diodotus I to become Satrap
+		death="yes"
+	}
+}

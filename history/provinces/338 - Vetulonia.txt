@@ -1,0 +1,24 @@
+# 338 - Vetulonia
+
+# County Title
+title = c_vetulonia # for example c_corinth
+
+# Settlements
+max_settlements = 6 # Should be reevaluated
+b_vetulonia_vetulonia = castle
+b_cossa_vetulonia = city
+b_salobro_vetulonia = temple
+b_rustellae_vetulonia = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+#
+#
+#
+#
+
+# Misc
+culture = etruscan
+religion = etruscan_main
+
+# History
+# Can be filled when things change around the province

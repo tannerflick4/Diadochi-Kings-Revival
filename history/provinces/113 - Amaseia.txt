@@ -1,0 +1,19 @@
+# 113 - Amaseia
+
+# County Title
+title = c_amaseia # for example c_corinth
+
+# Settlements
+max_settlements = 5
+b_amaseia_amaseia = castle
+b_carissa_amaseia = city
+b_cromen_amaseia = castle
+b_diakopa_amaseia = castle
+b_kizari_amaseia = castle
+
+# Misc
+culture = cappadocian
+religion = anatolian_main
+
+# History
+# Can be filled when things change around the province

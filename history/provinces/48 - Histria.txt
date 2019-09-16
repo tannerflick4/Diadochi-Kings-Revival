@@ -1,0 +1,20 @@
+# 48 - Histria
+
+# County Title
+title = c_histria # for example c_corinth
+
+# Settlements
+max_settlements = 4
+b_histria_histria = castle
+b_halmyris_histria = temple
+b_suhat_histria = city
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_troesmis_histria
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

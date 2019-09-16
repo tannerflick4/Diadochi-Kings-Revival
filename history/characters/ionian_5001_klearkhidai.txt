@@ -1,0 +1,132 @@
+# 50001-50100 for the Klearkhidai dynasty
+50001 = {
+	name = "Dionysios" # Tyrant of Heracleia Pontika
+	dynasty = 5001 # Klearkhidai
+	religion = greek_main
+	culture = ionian
+	father = 50004
+	
+	add_trait = gluttonous
+	add_trait = just
+	add_trait = kind
+	
+	416.1.1 = {
+		birth="yes" # 360 BC
+	}
+	454.1.1 = {
+		add_spouse = 90204 # Amastris
+	}
+	471.1.1 = {
+		death="yes" # 305 BC
+	}
+}
+50002 = {
+	name = "Klearkhos" # Clearchus II of Heracleia Pontica
+	dynasty = 5001 # Klearkhidai
+	religion = greek_main
+	culture = ionian
+	father = 50001
+	mother = 90204
+	
+	add_trait = cruel
+	add_trait = deceitful
+	
+	466.1.1 = { # Made up
+		birth="yes" # 310 BC
+	}
+	492.1.1 = { # 284 BC
+		death = {
+			death_reason = death_murder
+			killer = 30001 # Lysimachus
+		}
+	}
+}
+50003 = {
+	name = "Oxyathres" # Son of Dionysius of Heracleia
+	dynasty = 5001 # Klearkhidai
+	religion = greek_main
+	culture = ionian
+	father = 50001
+	mother = 90204
+	
+	add_trait = cruel
+	add_trait = deceitful
+	
+	469.1.1 = { # Made up
+		birth="yes" # 307 BC 
+	}
+	492.1.1 = { # 284 BC
+		death = {
+			death_reason = death_murder
+			killer = 30001 # Lysimachus
+		}
+	}
+}
+50004 = {
+	name = "Klearkhos" # Tyrant of Heracleia Pontika
+	dynasty = 5001 # Klearkhidai
+	religion = greek_main
+	culture = ionian
+	father = 50005
+	
+	add_trait = deceitful
+	add_trait = cruel
+	add_trait = paranoid
+	add_trait = proud
+	
+	375.1.1 = {
+		birth="yes" # 401 BC
+	}
+	423.1.1 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+50005 = {
+	name = "Klearkhos" # Father of Clearchus, Made Up
+	dynasty = 5001 # Klearkhidai
+	religion = greek_main
+	culture = ionian
+	344.1.1 = {
+		birth="yes" # 423 BC, Made Up
+	}
+	418.1.1 = {
+		death="yes" # 358 BC, Made Up
+	}
+}
+50006 = {
+	name = "Satyros" # Tyrant of Heracleia Pontika
+	dynasty = 5001 # Klearkhidai
+	religion = greek_main
+	culture = ionian
+	father = 50005
+	
+	add_trait = cruel
+	add_trait = wroth
+	
+	381.1.1 = {
+		birth="yes" # 395 BC Made Up
+	}
+	430.1.1 = {
+		death="yes" # 346 BC Made Up
+	}
+}
+50007 = {
+	name = "Timotheos" # Tyrant of Heracleia Pontika
+	dynasty = 5001 # Klearkhidai
+	religion = greek_main
+	culture = ionian
+	father = 50004
+	
+	add_trait = kind
+	add_trait = charitable
+	add_trait = just
+	
+	413.1.1 = {
+		birth="yes" # 363 BC Made Up
+	}
+	438.1.1 = {
+		death="yes" # 338 BC
+	}
+}

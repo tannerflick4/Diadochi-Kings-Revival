@@ -1,0 +1,38 @@
+# 2706021-270300 for the Saldenses dynasty
+2706021 = {
+	name = "Komakiza" # Made up
+	dynasty = 27003 # Saldenses
+	culture = dacian
+	religion = zalmoxism
+	father = 2706023
+	424.1.1 = { # 370 BC, Made up
+		birth="yes"
+	}
+	455.1.1 = { # 321 BC, Made up
+		death="yes"
+	}
+}
+2706022 = {
+	name = "Komakiza" # Made up
+	dynasty = 27003
+	culture = dacian
+	religion = zalmoxism
+	433.1.1 = { # Made up
+		birth="yes" # 443 BC
+	}
+	511.1.1 = { # Made up
+		death="yes" # 265 BC
+	}
+}
+2706023 = {
+	name = "Mucapor" # Made up
+	dynasty = 27003 # Saldenses
+	culture = dacian
+	religion = zalmoxism
+	369.1.1 = {
+		birth="yes" # 407 BC Made Up
+	}
+	424.1.1 = {
+		death="yes" # 352 BC Made Up
+	}
+}

@@ -1,0 +1,25 @@
+408.1.1 = { # 368 BC
+	holder = 23801
+}
+438.8.2 = { # 338 BC, Battle of Chaeronea
+	liege = e_macedonia
+}
+445.1.1 = { # 331 BC
+	holder = 23802 
+}
+453.6.10 = { # 323 BC
+	liege = k_s_macedon
+}
+457.1.1 = { # 319 BC
+	holder = 1601 # Polyperchon
+}
+467.1.1 = { # 309 BC
+	liege = d_peloponnese
+}
+479.1.1 = { # 297 BC
+	holder = 23802
+	liege = e_asia
+}
+490.1.1 = { # 286 BC
+	holder = 23803
+}

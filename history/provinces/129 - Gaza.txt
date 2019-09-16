@@ -1,0 +1,19 @@
+# 129 - Gaza
+
+# County Title
+title = c_gaza
+
+# Settlements
+max_settlements = 5
+b_gaza_gaza = castle
+b_raphia_gaza = temple
+b_ashqelon_gaza = city
+b_ashdod_gaza = castle
+b_aser_gaza = temple
+
+# Misc
+culture = israelite
+religion = judaism_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,16 @@
+# 2801-2900 for the Dokimai dynasty
+2801 = {
+	name = "Antigonos" # Perdikkan satrap of Babylon
+	dynasty = 29 # Dokimai
+	religion = greek_main
+	culture = macedonian
+	404.1.1 = { # Made up
+		birth="yes" # 372 BC
+	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	477.1.1 = { # Made up
+		death="yes" # 299 BC
+	}
+}

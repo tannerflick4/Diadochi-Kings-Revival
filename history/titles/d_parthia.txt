@@ -1,0 +1,10 @@
+469.1.1 = {
+	holder = 1001 # Seleukos
+}
+482.1.1 = { # 294 BC
+	holder = 3001 # Patrokles
+	liege = k_s_persia
+}
+495.8.1 = {
+	liege = e_syria
+}

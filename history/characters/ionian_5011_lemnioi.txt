@@ -1,0 +1,26 @@
+# 51001-51100 for the Lemnioi dynasty
+51001 = {
+	name = "Kleon" # Olbia
+	dynasty = 5011 # Lemnioi
+	religion = greek_main
+	culture = ionian
+	387.1.1 = { # 389 BC Made up
+		birth="yes"
+	}
+	454.1.1 = { # 322 BC Made up
+		death="yes"
+	}
+}
+51002 = {
+	name = "Epaphros" # Olbia
+	dynasty = 5011 # Lemnioi
+	religion = greek_main
+	culture = ionian
+	father = 51001
+	414.1.1 = { # 362 BC Made up
+		birth="yes"
+	}
+	498.1.1 = { # 278 BC Made up
+		death="yes"
+	}
+}

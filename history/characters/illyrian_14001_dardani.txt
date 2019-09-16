@@ -1,0 +1,64 @@
+# 140001-140100 for the Dardani dynasty
+140001 = {
+	name = "Cleitus" # Cleitus, King of Dardania
+	dynasty = 14001 # Dardani
+	religion = illyrian_main
+	culture = illyrian
+	father = 140003
+	
+	add_trait = underhanded_rogue
+	
+	411.1.1 = { # 365 BC Made up
+		birth="yes"
+	}
+	481.1.1 = { # 295 BC
+		death="yes"
+	}
+}
+140002 = {
+	name = "Bardhyll" # Bardyllis II, King of Dardania
+	dynasty = 14001 # Dardani
+	religion = illyrian_main
+	culture = illyrian
+	father = 140001
+	446.1.1 = { # 330 BC Made up
+		birth="yes"
+	}
+	486.1.1 = { # 290 BC Made up
+		death="yes"
+	}
+}
+140003 = {
+	name = "Bardhyll" # Bardyllis I, King of Dardania
+	dynasty = 14001 # Dardani
+	religion = illyrian_main
+	culture = illyrian
+	
+	add_trait = just
+	add_trait = fortune_builder
+	add_trait = cruel
+	add_trait = patient
+	
+	324.1.1 = { # 448 BC
+		birth="yes"
+	}
+	418.1.1 = { # 358 BC
+		death="yes"
+	}
+}
+140004 = {
+	name = "Monunius" # Monunius I, King of Dardania
+	dynasty = 14001 # Dardani
+	religion = illyrian_main
+	culture = illyrian
+	father = 140002
+	
+	add_trait = skilled_tactician
+	
+	474.1.1 = { # 302 BC
+		birth="yes"
+	}
+	506.1.1 = { # 270 BC
+		death="yes"
+	}
+}

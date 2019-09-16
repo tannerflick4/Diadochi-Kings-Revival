@@ -1,0 +1,23 @@
+# 308 - Rhegium
+
+# County Title
+title = c_rhegium # for example c_corinth
+
+# Settlements
+max_settlements = 6 # Should be reevaluated
+b_rhegium = castle
+b_scyllaeum_rhegium = city
+b_locri_rhegium = temple
+
+# Possible baronies: (Always add a # in front of a line with these!)
+#
+#
+#
+#
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

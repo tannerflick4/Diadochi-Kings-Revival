@@ -1,0 +1,16 @@
+# 651 - Clunia
+
+# County Title
+title = c_clunia
+
+# Settlements
+max_settlements = 2
+b_clunia_clunia = castle
+b_magia_clunia = castle
+
+# Misc
+culture = raetic
+religion = etruscan_main
+
+# History
+# Can be filled when things change around the province

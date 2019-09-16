@@ -1,0 +1,39 @@
+# 231101-231200 for the Allobroges dynasty
+231101 = {
+	name = "Cavarus" # Made up
+	dynasty = 23013 # Allobroges
+	culture = gaul
+	religion = celtic_main
+	father = 231103
+	405.1.1 = { # Made up
+		birth="yes" # 371 BC
+	}
+	462.1.1 = { # Made up
+		death="yes" # 314 BC
+	}
+}
+231102 = {
+	name = "Cavarinus" # Allobroges Made up
+	dynasty = 23013 # Allobroges
+	culture = gaul
+	religion = celtic_main
+	father = 231101
+	433.1.1 = { # 343 BC
+		birth="yes"
+	}
+	515.1.1 = { # 261 BC
+		death="yes"
+	}
+}
+231103 = {
+	name = "Ambiorix" # Made up
+	dynasty = 23013 # Allobroges
+	culture = gaul
+	religion = celtic_main
+	379.1.1 = { # Made up
+		birth="yes" # 397 BC
+	}
+	436.1.1 = { # Made up
+		death="yes" # 340 BC
+	}
+}

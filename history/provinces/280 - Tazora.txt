@@ -1,0 +1,17 @@
+# 280 - Tazora
+
+# County Title
+title = c_tazora
+
+# Settlements
+max_settlements = 3
+b_tazora_tazora = castle
+b_gauzaca_tazora = temple
+#b_alexandropolis_tazora = castle
+
+# Misc
+culture = arian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

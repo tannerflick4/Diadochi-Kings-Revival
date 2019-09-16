@@ -1,0 +1,15 @@
+# 772 - Mahishmati
+
+# County Title
+title = c_mahishmati
+
+# Settlements
+max_settlements = 1
+b_mahishmati_mahishmati = castle
+
+# Misc
+culture = maharashtri
+religion = jainism_main
+
+# History
+# Can be filled when things change around the province

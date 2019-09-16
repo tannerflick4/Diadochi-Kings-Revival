@@ -1,0 +1,15 @@
+# 872 - Dedris
+
+# County Title
+title = c_dedris
+
+# Settlements
+max_settlements = 2
+b_dedris_dedris = castle
+
+# Misc
+culture = berber
+religion = berber_main
+
+# History
+# Can be filled when things change around the province

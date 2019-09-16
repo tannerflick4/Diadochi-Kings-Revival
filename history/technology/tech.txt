@@ -1,0 +1,503 @@
+# India
+technology = {
+	titles = {
+		d_lanka
+		d_sinhala
+		d_dravida
+		d_chola
+		d_pandya
+		d_kerala
+		d_mushika
+		d_tulunga
+		d_kishkindha
+		d_gomanta
+		d_konkana
+		d_odra
+		d_kalinga
+		d_telinga
+		d_andhraka
+		d_vanga
+		d_vardhamana
+		d_utkala
+		d_maghada
+		d_suparsa
+		d_nishada
+		d_videha
+		d_malla
+		d_kimpurusha
+		d_anarta
+		d_saraswata
+		d_surashtra
+		d_panchala
+		d_kuru
+		d_surasena
+		d_nishkuta
+		d_kasmira
+		d_uttara_jyotisha
+		d_gandhara
+		d_sivi
+		d_madra
+		d_trigarta
+		d_sindhu
+		d_yaudheya
+		d_sudra
+		d_matsya
+		d_salwa
+		d_abhira
+		d_surparaka
+		d_anupa
+		d_dandaka
+		d_heheya
+		d_vakataka
+		d_kekala
+		d_taitilaka
+		d_malava
+		d_kunti
+		d_karusha
+		d_dasarna
+		d_mekala
+	}
+	417 = {
+		military = 1
+		economy = 1
+		culture = 1
+	}
+	800 = {
+		military = 2
+		economy = 2
+		culture = 2
+	}
+}
+
+# Persia
+technology = {
+	titles = {
+		d_paytakaran
+		d_matiene
+		d_media
+		d_hyrcania
+		d_parthia
+		d_susa
+		d_persis
+		d_carmana
+		d_gedrosia
+		d_drangiana
+		d_arachosia
+		d_bactria
+		d_margiane
+		d_sogdiana
+		d_aria
+	}
+	417 = {
+		military = 1
+		economy = 1
+		culture = 1
+	}
+	800 = {
+		military = 2
+		economy = 2
+		culture = 2
+	}
+}
+
+# Steppe
+technology = {
+	titles = {
+		d_katipa
+		d_bagaporata
+		d_syavaporata
+		d_katipanti
+		d_kissarlewle
+		d_zevaka
+		d_blamizda
+		d_kusdvara
+		d_leipca
+		d_lipsoxais
+		d_alud
+		d_argimpasa
+		d_kissarun
+		d_paradatapa
+		d_syavakuspa
+		d_hvarzkutipa
+		d_colaxais
+		d_dakus
+		d_oirpata
+		d_dargaku
+		d_pantilo
+		d_gaumizda
+		d_paradatab
+		d_hvarzgasti
+		d_zarkarun
+		d_borun
+		d_artabagapa
+		d_narapa
+		d_sautaska
+		d_targitaios
+		d_mahta
+		d_khiva
+		d_axsainabaladapa
+		d_aspamesakapa
+		d_padakus
+		d_tabititope
+		d_tamajara
+		d_dsargalapa
+		d_ugrakati
+		d_gitab
+		d_hvargaosa
+	}
+	417 = {
+		military = 1
+		economy = 1
+		culture = 1
+	}
+	800 = {
+		military = 2
+		economy = 2
+		culture = 2
+	}
+}
+
+# Africa
+technology = {
+	titles = {
+		d_delta
+		d_memphis
+		d_lykopolis
+		d_thebes
+		d_aigyptos_aktaios
+		d_cyrene
+		d_elymians
+		d_corsica
+		d_sardinia
+		d_zeugitana
+		d_byzacena
+		d_tripolitania
+		d_hipponensis
+		d_atlas
+		d_aurasium
+		d_ancorarisis
+		d_mazisis
+		d_bavaresis
+		d_maurusis
+		d_tingitana
+		d_volubisis
+		d_pselchis
+		d_meroe
+		d_hibis
+		d_ammon
+		d_augila
+		d_oasis_parva
+		d_garama
+		d_dedris
+		d_baracum
+		d_tripolitania_inferior
+		d_zella
+		d_zuila
+		d_gat
+		d_koufra
+		d_kawar
+	}
+	417 = {
+		military = 1
+		economy = 1
+		culture = 1
+	}
+	800 = {
+		military = 2
+		economy = 2
+		culture = 2
+	}
+}
+
+# Bosporus
+technology = {
+	titles = {
+		d_sindica
+		d_taurica
+		d_tyras
+	}
+	417 = {
+		military = 1
+		economy = 1
+		culture = 1
+	}
+	800 = {
+		military = 2
+		economy = 2
+		culture = 2
+	}
+}
+
+# Balkans/Greece
+technology = {
+	titles = {
+		d_epirus
+		d_mikra_skythia
+		d_odrysia
+		d_moesia
+		d_rhodope
+		d_propontis
+		d_lowermacedon
+		d_uppermacedon
+		d_dardania
+		d_dalmatia
+		d_triballia
+		d_paeonia
+		d_epidamnia
+		d_liburnia
+		d_pelso
+		d_noricum
+		d_segestica
+		d_sirmium
+		d_peloponnese
+		d_attike
+		d_aetolia
+		d_crete
+		d_euboia
+		d_cyclades
+		d_ionian_islands
+		d_thessaly
+		d_chalcidice
+		d_dacia_paropos
+		d_getae
+		d_dacia
+	}
+	417 = {
+		military = 1
+		economy = 1
+		culture = 1
+	}
+	800 = {
+		military = 2
+		economy = 2
+		culture = 2
+	}
+}
+
+# Caucasus
+technology = {
+	titles = {
+		d_lesser_armenia
+		d_upper_armenia
+		d_sophene
+		d_van
+		d_armenia_main
+		d_commagene
+		d_iberia
+		d_colchis
+		d_albania
+	}
+	417 = {
+		military = 1
+		economy = 1
+		culture = 1
+	}
+	800 = {
+		military = 2
+		economy = 2
+		culture = 2
+	}
+}
+
+# Anatolia
+technology = {
+	titles = {
+		d_mysia
+		d_lydia
+		d_caria
+		d_lycia
+		d_pisidia
+		d_pamphylia
+		d_phrygia
+		d_bithynia
+		d_paphlagonia
+		d_cilicia
+		d_cappadocia
+		d_pontus
+		d_lycaonia
+	}
+	417 = {
+		military = 1
+		economy = 1
+		culture = 1
+	}
+	800 = {
+		military = 2
+		economy = 2
+		culture = 2
+	}
+}
+
+# Near East
+technology = {
+	titles = {
+		d_osroene
+		d_tharthar
+		d_ashur
+		d_syria
+		d_babylonia
+		d_sumer
+		d_phoenicia
+		d_israel
+		d_judea
+		d_cyprus
+	}
+	417 = {
+		military = 1
+		economy = 1
+		culture = 1
+	}
+	800 = {
+		military = 2
+		economy = 2
+		culture = 2
+	}
+}
+
+# Arabia
+technology = {
+	titles = {
+		d_sinai
+		d_nabataea
+		d_bostra
+		d_lihyan
+		d_ma_in
+		d_himyar
+		d_qataban
+		d_saba
+		d_hadramaut
+		d_majan
+		d_gerrha
+	}
+	417 = {
+		military = 1
+		economy = 1
+		culture = 1
+	}
+	800 = {
+		military = 2
+		economy = 2
+		culture = 2
+	}
+}
+
+# Italy
+technology = {
+	titles = {
+		d_sicani
+		d_sicels
+		d_bruttium
+		d_lucania
+		d_apulia
+		d_calabria
+		d_campania
+		d_samnium
+		d_latium
+		d_umbria
+		d_etruria
+		d_picenum
+		d_liguria
+		d_gallia_transpadana
+		d_gallia_cispadana
+		d_venetia
+	}
+	417 = {
+		military = 1
+		economy = 1
+		culture = 1
+	}
+	800 = {
+		military = 2
+		economy = 2
+		culture = 2
+	}
+}
+
+# Gaul
+technology = {
+	titles = {
+		d_gallia_transalpina
+		d_gallia_inter_fluvio
+		d_gallia_lugdunensis
+		d_helvetia
+		d_raetia
+		d_alpes_cottiae
+		d_alpes_poeninae
+		d_alpes_vennonae
+		d_alpes_raetica
+	}
+	417 = {
+		military = 1
+		economy = 1
+		culture = 1
+	}
+	800 = {
+		military = 2
+		economy = 2
+		culture = 2
+	}
+}
+
+# Central Asia
+technology = {
+	titles = {
+		d_kashgaria
+		d_khotan
+		d_turfan
+		d_urumchi
+	}
+	417 = {
+		military = 1
+		economy = 1
+		culture = 1
+	}
+	800 = {
+		military = 2
+		economy = 2
+		culture = 2
+	}
+}
+
+# Iberia
+technology = {
+	titles = {
+		#Lusitania
+		d_vettonia
+		d_lusitania
+		d_celticia
+		d_cuneus
+		#Callaecia
+		d_callaecia
+		d_asturia
+		#Hispa
+		d_vasconia
+		d_cantabria
+		d_vaccaea
+		d_celtiberia
+		d_carpetania
+		d_oretania
+		#Iberia
+		d_sicoria
+		d_cessetania
+		d_laetania
+		d_edetania
+		d_contestania
+		d_bastetania
+		d_baliares
+		#Turdetania
+		d_tartessos
+		d_turdulia
+		d_turdetania
+		d_bastulia
+	}
+	417 = {
+		military = 1
+		economy = 1
+		culture = 1
+	}
+	800 = {
+		military = 2
+		economy = 2
+		culture = 2
+	}
+}

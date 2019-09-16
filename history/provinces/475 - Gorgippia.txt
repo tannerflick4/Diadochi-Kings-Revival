@@ -1,0 +1,17 @@
+# 475 - Gorgippia
+
+# County Title
+title = c_gorgippia
+
+# Settlements
+max_settlements = 3
+b_gorgippia_gorgippia = castle
+b_bata_gorgippia = city
+b_torikos_gorgippia = city
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

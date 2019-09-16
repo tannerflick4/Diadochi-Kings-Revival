@@ -1,0 +1,16 @@
+# 715 - Alaka
+
+# County Title
+title = c_alaka
+
+# Settlements
+max_settlements = 2
+b_alaka_alaka = castle
+b_kailasa_alaka = temple
+
+# Misc
+culture = vedic # Magadhi
+religion = buddhism_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,20 @@
+# 21 - Corinth
+
+# County Title
+title = c_corinth # for example c_corinth
+
+# Settlements
+max_settlements = 6 # Should be reevaluated
+b_acrocorinth_corinth = castle
+b_isthmia_corinth = temple
+b_corinth_corinth = city
+b_sikyon_corinth = castle
+b_peraion_corinth = temple
+b_megara_corinth = city
+
+# Misc
+culture = doric
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

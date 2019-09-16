@@ -1,0 +1,26 @@
+# 370601-370700 for the Hvamna dynasty
+370601 = {
+	name = "Khosa" # Made up
+	dynasty = 37005
+	religion = zoroastrian_main
+	culture = tocharian
+	389.1.1 = { # 387 BC
+		birth="yes"
+	}
+	460.1.1 = { # 316 BC
+		death="yes"
+	}
+}
+370602 = {
+	name = "Pataya" # Made up
+	dynasty = 37005
+	religion = zoroastrian_main
+	culture = tocharian
+	father = 370601
+	418.1.1 = { # 358 BC
+		birth="yes"
+	}
+	502.1.1 = { # 274 BC
+		death="yes"
+	}
+}

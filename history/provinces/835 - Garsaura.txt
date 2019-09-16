@@ -1,0 +1,18 @@
+# 835 - Garsaura
+
+# County Title
+title = c_garsaura
+
+# Settlements
+max_settlements = 4
+b_garsaura_garsaura = castle
+b_koropassos_garsaura = city
+b_momasson_garsaura = castle
+b_salambriai_garsaura = castle
+
+# Misc
+culture = luwian
+religion = anatolian_main
+
+# History
+# Can be filled when things change around the province

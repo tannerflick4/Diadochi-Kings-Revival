@@ -1,0 +1,17 @@
+# 946 - Lacobriga
+
+# County Title
+title = c_lacobriga
+
+# Settlements
+max_settlements = 3
+b_lacobriga_lacobriga = castle
+b_murtinhal_lacobriga = city
+b_lagos_lacobriga = city
+
+# Misc
+culture = old_tartessian
+religion = iberian_main
+
+# History
+# Can be filled when things change around the province

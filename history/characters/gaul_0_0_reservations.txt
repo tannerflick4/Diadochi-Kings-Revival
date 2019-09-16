@@ -1,0 +1,18 @@
+# 230001-240000 for gaul characters
+	# 230001-230100 for the Senones dynasty
+	# 230101-230200 for the Insubres dynasty
+	# 230201-230300 for the Boii dynasty
+	# 230301-230400 for the Norici dynasty
+	# 230401-230500 for the Eravisci dynasty
+	# 230501-230600 for the Azili dynasty
+	# 230601-230700 for the Breuci dynasty
+	# 230701-230800 for the Scordisci dynasty
+	# 230801-230900 for the Bastarnae dynasty
+	# 230901-231000 for the Saluvii dynasty
+	# 231001-231100 for the Vocontii dynasty
+	# 231101-231200 for the Allobroges dynasty
+	# 231201-231300 for the Aedui dynasty
+	# 231301-231400 for the Sequani dynasty
+	# 231401-231500 for the Salassi dynasty
+	# 231501-231600 for the Sevaces dynasty
+	# 231601-231700 for the Ambisontes dynasty

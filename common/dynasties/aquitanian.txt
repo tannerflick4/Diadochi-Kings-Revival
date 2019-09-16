@@ -1,0 +1,6 @@
+# 45001-46000 for Gallaecian dynasties
+45001 = {
+	name = "Uaskones"
+	culture = aquitanian
+}
+

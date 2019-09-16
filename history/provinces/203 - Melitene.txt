@@ -1,0 +1,19 @@
+# 203 - Melitene
+
+# County Title
+title = c_melitene
+
+# Settlements
+max_settlements = 5
+b_melitene_melitene = castle
+b_arca_melitene = temple
+b_sartona_melitene = city
+b_leugaisa_melitene = castle
+b_semissos_melitene = temple
+
+# Misc
+culture = cappadocian
+religion = anatolian_main
+
+# History
+# Can be filled when things change around the province

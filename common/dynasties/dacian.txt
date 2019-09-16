@@ -1,0 +1,45 @@
+# 27001-28000 for dacian dynasties
+27001 = {
+	name = "Troglodytae"
+	culture = dacian
+}
+27002 = {
+	name = "Albocenses"
+	culture = dacian
+}
+27003 = {
+	name = "Saldenses"
+	culture = dacian
+}
+27004 = {
+	name = "Potulatenses"
+	culture = dacian
+}
+27005 = {
+	name = "Buridavenses"
+	culture = dacian
+}
+27006 = {
+	name = "Caucoenses"
+	culture = dacian
+}
+27007 = {
+	name = "Ratacenses"
+	culture = dacian
+}
+27008 = {
+	name = "Ansamenses"
+	culture = dacian
+}
+27009 = {
+	name = "Carpi"
+	culture = dacian
+}
+27010 = {
+	name = "Costoboci"
+	culture = dacian
+}
+27011 = {
+	name = "Apulli"
+	culture = dacian
+}

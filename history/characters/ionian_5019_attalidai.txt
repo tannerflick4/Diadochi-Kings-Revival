@@ -1,0 +1,284 @@
+# 51301-51400 for the Attalidai dynasty
+51301 = {
+	name = "Philetairos" # Founder of the Attalid dynasty
+	dynasty = 5019 # Attalidai
+	religion = greek_main
+	culture = ionian
+	
+	add_trait = charitable
+	add_trait = midas_touched
+	add_trait = eunuch
+	
+	father = 51302
+	
+	433.1.1 = { # 343 BC
+		birth="yes"
+	}
+	#453.6.10 = { # 323 BC
+	#	add_trait = diadochi_king	
+	#}
+	475.1.1 = { # 301 BC
+		wealth = 1000 # He was sitting on a treasury afterall
+	}
+	513.1.1 = { # 263 BC
+		death="yes"
+	}
+}
+51302 = {
+	name = "Attalos" # Father of Philetairos
+	dynasty = 5019
+	religion = greek_main
+	culture = ionian
+	
+	402.1.1 = { # 374 BC, Made up
+		birth="yes"
+	}
+	465.1.1 = { # 311 BC, Made up
+		death="yes"
+	}
+}
+51303 = {
+	name = "Eumenes" # Father of Eumenes I
+	dynasty = 5019
+	religion = greek_main
+	culture = ionian
+	
+	father = 51302
+	
+	437.1.1 = { # 339 BC, Made up
+		birth="yes"
+	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	505.1.1 = { # 271 BC, Made up
+		death="yes"
+	}
+}
+51304 = {
+	name = "Eumenes" # Eumenes I
+	dynasty = 5019
+	religion = greek_main
+	culture = ionian
+	
+	father = 51303
+	
+	add_trait = ambitious
+	add_trait = tough_soldier
+	#add_trait = diadochi_king
+	
+	fertility = 0.1
+	
+	462.1.1 = { # 314 BC, Made up
+		birth="yes"
+	}
+	535.1.1 = { # 241 BC
+		death="yes"
+	}
+}
+51305 = {
+	name = "Philetairos" # Brother of Eumenes I
+	dynasty = 5019
+	religion = greek_main
+	culture = ionian
+	
+	father = 51303
+	
+	#add_trait = diadochi_king
+	
+	464.1.1 = { # 312 BC, Made up
+		birth="yes"
+	}
+	515.1.1 = { # 261 BC, Made up
+		death="yes"
+	}
+}
+51306 = {
+	name = "Attalos" # Grandfather of Attalus I
+	dynasty = 5019
+	religion = greek_main
+	culture = ionian
+	
+	father = 51302
+	
+	439.1.1 = { # 337 BC, Made up
+		birth="yes"
+	}
+	#453.1.1 = {
+	#	add_trait = diadochi_king
+	#}
+	506.1.1 = { # 270 BC, Made up
+		death="yes"
+	}
+}
+51307 = {
+	name = "Attalos" # Father of Attalus I
+	dynasty = 5019
+	religion = greek_main
+	culture = ionian
+	
+	father = 51306
+	
+	#add_trait = diadochi_king
+	
+	473.1.1 = { # 303 BC, Made up
+		birth="yes"
+	}
+	# Should be a marriage to Antiochis, daughter of Achaios
+	526.1.1 = { # 250 BC, Made up
+		death="yes"
+	}
+}
+51308 = {
+	name = "Eumenes" # Uncle of Attalus I
+	dynasty = 5019
+	religion = greek_main
+	culture = ionian
+	
+	father = 51306
+	
+	#add_trait = diadochi_king
+	
+	475.1.1 = { # 301 BC, Made up
+		birth="yes"
+	}
+	551.1.1 = { # 225 BC, Made up
+		death="yes"
+	}
+}
+51309 = {
+	name = "Attalos" # Attalus I
+	dynasty = 5019
+	religion = greek_main
+	culture = ionian
+	
+	father = 51307
+	#mother should be Antiochis, daughter of Achaios
+	
+	add_trait = brilliant_strategist
+	add_trait = proud
+	add_trait = gregarious
+	add_trait = ambitious
+	#add_trait = diadochi_king
+
+	507.1.1 = { # 269 BC
+		birth="yes"
+	}
+	579.1.1 = { # 197 BC
+		death="yes"
+	}
+}
+51310 = {
+	name = "Eumenes" # Eumenes II
+	dynasty = 5019
+	religion = greek_main
+	culture = ionian
+	
+	father = 51309
+	
+	add_trait = gregarious
+	add_trait = underhanded_rogue
+	#add_trait = diadochi_king
+	
+	544.1.1 = { # 232 BC, Made up
+		birth="yes"
+	}
+	# Should marry Stratonice of Pergamon somewhere
+	617.1.1 = { # 159 BC
+		death="yes"
+	}
+}
+51311 = {
+	name = "Attalos" # Attalus III
+	dynasty = 5019
+	religion = greek_main
+	culture = ionian
+	
+	father = 51310
+	# mother should be Stratonice of Pergamon
+	
+	add_trait = scholar
+	#add_trait = diadochi_king
+	
+	606.1.1 = { # 170 BC
+		birth="yes"
+	}
+	643.1.1 = { # 133 BC
+		death="yes" 
+	}
+}
+51312 = {
+	name = "Eumenes" # III, also known as Aristonicus
+	dynasty = 5019
+	religion = greek_main
+	culture = ionian
+	
+	father = 51310
+	
+	add_trait = bastard
+	add_trait = proud
+	#add_trait = diadochi_king
+	
+	611.1.1 = { # 165 BC, Made up
+		birth="yes"
+	}
+	647.1.1 = { # 129 BC
+		death = {
+			death_reason = death_execution
+		}
+	}
+}
+51313 = {
+	name = "Attalos" # II
+	dynasty = 5019
+	religion = greek_main
+	culture = ionian
+	
+	father = 51309
+	
+	add_trait = skilled_tactician
+	add_trait = gregarious
+	add_trait = honest
+	#add_trait = diadochi_king
+	
+	556.1.1 = { # 220 BC
+		birth="yes"
+	}
+	638.1.1 = { # 138 BC
+		death="yes"
+	}
+}
+51314 = {
+	name = "Philetairos" # Son of Attalus I
+	dynasty = 5019
+	religion = greek_main
+	culture = ionian
+	
+	father = 51309
+	
+	#add_trait = diadochi_king
+	
+	559.1.1 = { # 217 BC, Made up
+		birth="yes"
+	}
+	625.1.1 = { # 151 BC, Made up
+		death="yes"
+	}
+}
+51315 = {
+	name = "Athenaios" # Son of Attalus I
+	dynasty = 5019
+	religion = greek_main
+	culture = ionian
+	
+	father = 51309
+	
+	#add_trait = diadochi_king
+	
+	563.1.1 = { # 213 BC, Made up
+		birth="yes"
+	}
+	597.1.1 = { # 179 BC, Made up
+		death="yes"
+	}
+}

@@ -1,0 +1,16 @@
+# 712 - Kapilayastu
+
+# County Title
+title = c_kapilayastu
+
+# Settlements
+max_settlements = 2
+b_kapilayastu_kapilayastu = castle
+b_sravasti_kapilayastu = city
+
+# Misc
+culture = vedic # Magadhi
+religion = buddhism_main
+
+# History
+# Can be filled when things change around the province

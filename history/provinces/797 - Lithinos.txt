@@ -1,0 +1,15 @@
+# 797 - Lithinos
+
+# County Title
+title = c_lithinos
+
+# Settlements
+max_settlements = 1
+b_lithinos_pyrgos_lithinos = castle
+
+# Misc
+culture = khotanese
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

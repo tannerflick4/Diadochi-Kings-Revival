@@ -1,0 +1,29 @@
+417.1.1 = {
+	holder = 90324
+	liege = k_p_babylon
+}
+446.1.1 = { # 330 BC
+	holder = 30101 # Laomedon, Satrap of Syria
+	liege = k_s_syria
+}
+456.1.1 = {
+	holder = 601 # Ptolemy
+	liege = k_s_egypt
+}
+462.8.1 = { 
+	holder = 401 # Antigonus
+	liege = k_s_phrygia
+}
+467.1.1 = {
+	liege = e_asia
+}
+475.1.1 = {
+	holder = 402 # Demetrius
+}
+490.1.1 = {
+	holder = 601 # Ptolemy I
+	liege = e_egypt
+}
+491.1.1 = {
+	holder = 602 # Ptolemy II
+}

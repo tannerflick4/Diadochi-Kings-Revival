@@ -1,0 +1,17 @@
+# 672 - Kumari
+
+# County Title
+title = c_kumari
+
+# Settlements
+max_settlements = 3
+b_kumari_kumari = castle
+b_mahendragiri_kumari = temple
+b_kolchoi_kumari = city
+
+# Misc
+culture = tamil
+religion = jainism_main
+
+# History
+# Can be filled when things change around the province

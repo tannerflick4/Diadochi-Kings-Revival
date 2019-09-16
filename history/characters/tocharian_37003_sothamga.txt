@@ -1,0 +1,26 @@
+# 370201-370300 for the Sothamga dynasty
+370201 = {
+	name = "Goboziko" # Made up
+	dynasty = 37009
+	religion = zoroastrian_main
+	culture = tocharian
+	399.1.1 = { # 377 BC
+		birth="yes"
+	}
+	468.1.1 = { # 308 BC
+		death="yes"
+	}
+}
+370202 = {
+	name = "Tsina" # Made up
+	dynasty = 37009
+	religion = zoroastrian_main
+	culture = tocharian
+	father = 370201
+	428.1.1 = { # 348 BC
+		birth="yes"
+	}
+	512.1.1 = { # 264 BC
+		death="yes"
+	}
+}

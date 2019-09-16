@@ -1,0 +1,17 @@
+# 645 - Eporedia
+
+# County Title
+title = c_eporedia
+
+# Settlements
+max_settlements = 3
+b_eporedia_eporedia = castle
+b_bugella_eporedia = city
+b_victumulae_eporedia = city
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

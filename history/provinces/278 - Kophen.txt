@@ -1,0 +1,19 @@
+# 278 - Kophen
+
+# County Title
+title = c_kophen
+
+# Settlements
+max_settlements = 5
+b_capissa_kophen = castle # Actually localised to Kabura
+b_alexandria_kophen = city
+b_ortespana_kophen = temple
+b_andaca_kophen = castle
+b_arigaeum_kophen = city
+
+# Misc
+culture = arian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

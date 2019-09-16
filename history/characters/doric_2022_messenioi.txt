@@ -1,0 +1,26 @@
+# 22101-22200 for the Messenioi dynasty
+22101 = {
+	name = "Apollonaris" # Rhodes
+	dynasty = 2022 # Messenioi
+	religion = greek_main
+	culture = doric
+	388.1.1 = { # 388 BC Made up
+		birth="yes"
+	}
+	466.1.1 = { # 310 BC Made up
+		death="yes"
+	}
+}
+22102 = {
+	name = "Erasmos" # Rhodes
+	dynasty = 2022 # Messenioi
+	religion = greek_main
+	culture = doric
+	father = 22101
+	412.1.1 = { # 364 BC Made up
+		birth="yes"
+	}
+	515.1.1 = { # 261 BC Made up
+		death="yes"
+	}
+}

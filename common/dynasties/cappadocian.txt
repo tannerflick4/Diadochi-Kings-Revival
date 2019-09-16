@@ -1,0 +1,9 @@
+# 6001 - 7000 reserved for cappadocian dynasties
+6001 = {
+	name = "Datama"
+	culture = cappadocian
+}
+6002 = {
+	name = "Mithrobuzanes"
+	culture = cappadocian
+}

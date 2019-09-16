@@ -1,0 +1,8 @@
+404.1.1 = { # 372 BC
+	holding_dynasty = 5011 # Lemnioi
+	liege="k_r_olbia"
+	holder = 51001
+}
+454.1.1 = { # 322 BC
+	holder = 51002 # Epaphros
+}

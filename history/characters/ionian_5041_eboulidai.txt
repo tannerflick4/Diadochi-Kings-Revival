@@ -1,0 +1,42 @@
+# 53501-53600 for the Eboulidai dynasty
+53501 = {
+	name = "Euboulos" # Athenian politician
+	dynasty = 5041 # Euboulidai
+	religion = greek_main
+	culture = ionian
+	
+	add_trait = midas_touched
+	
+	371.1.1 = {
+		birth="yes" # 405 BC
+	}
+	441.1.1 = {
+		death="yes" # 335 BC
+	}
+}
+53502 = {
+	name = "Euboulos" # Made up
+	dynasty = 5041 # Euboulidai
+	religion = greek_main
+	culture = ionian
+	father = 53501
+	403.1.1 = {
+		birth="yes" # 373 BC
+	}
+	468.1.1 = {
+		death="yes" # 308 BC
+	}
+}
+53503 = {
+	name = "Zephyros" # Made up
+	dynasty = 5041 # Euboulidai
+	religion = greek_main
+	culture = ionian
+	father = 53502
+	440.1.1 = {
+		birth="yes" # 336 BC
+	}
+	514.1.1 = {
+		death="yes" # 262 BC
+	}
+}

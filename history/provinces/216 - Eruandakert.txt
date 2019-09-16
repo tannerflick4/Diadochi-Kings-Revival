@@ -1,0 +1,17 @@
+# 216 - Eruandakert
+
+# County Title
+title = c_eruandakert
+
+# Settlements
+max_settlements = 3
+b_eruandakert_eruandakert = castle
+b_ani_eruandakert = city
+b_chadas_eruandakert = castle
+
+# Misc
+culture = armenian
+religion = armenian_main
+
+# History
+# Can be filled when things change around the province

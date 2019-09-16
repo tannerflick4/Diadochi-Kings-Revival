@@ -1,0 +1,19 @@
+# 27 - Patras
+
+# County Title
+title = c_patras # for example c_corinth
+
+# Settlements
+max_settlements = 5
+b_patras_patras = castle
+b_kynaithai_patras = temple
+b_aigion_patras = city
+b_aigeira_patras = castle
+b_pellene_patras = city
+
+# Misc
+culture = doric
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

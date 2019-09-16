@@ -1,0 +1,17 @@
+# 477 - Bagaporata
+
+# County Title
+title = c_bagaporata
+
+# Settlements
+max_settlements = 3
+b_bagaporata_bagaporata = castle
+b_hurbla_bagaporata = temple
+#b_navakol_bagaporata = city
+
+# Misc
+culture = scythian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

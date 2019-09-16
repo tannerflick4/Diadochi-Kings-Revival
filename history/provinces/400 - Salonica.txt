@@ -1,0 +1,21 @@
+# 400 - Salonica
+
+# County Title
+title = c_salonica
+
+# Settlements
+max_settlements = 5
+b_salonica_salonica = castle
+b_spalatum_salonica = city
+b_oneum_salonica = city
+b_muccurum_salonica = city
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_pituntium_salonica
+
+# Misc
+culture = illyrian
+religion = illyrian_main
+
+# History
+# Can be filled when things change around the province

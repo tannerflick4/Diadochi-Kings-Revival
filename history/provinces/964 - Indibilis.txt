@@ -1,0 +1,16 @@
+# 964 - Indibilis
+
+# County Title
+title = c_indibilis
+
+# Settlements
+max_settlements = 2
+b_indibilis_indibilis = castle
+b_iltirkesken_indibilis = city
+
+# Misc
+culture = iberian
+religion = iberian_main
+
+# History
+# Can be filled when things change around the province

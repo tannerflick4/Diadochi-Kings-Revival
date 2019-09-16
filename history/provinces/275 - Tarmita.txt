@@ -1,0 +1,19 @@
+# 275 - Tarmita
+
+# County Title
+title = c_tarmita
+
+# Settlements
+max_settlements = 5
+b_tarmita_tarmita = castle
+b_chorienes_tarmita = castle
+b_pareitakai_tarmita = castle
+b_marouka_tarmita = castle
+b_cholbisina_tarmita = city
+
+# Misc
+culture = sogdian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

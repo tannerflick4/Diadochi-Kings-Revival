@@ -1,0 +1,14 @@
+# 421201-421300 for the Turmodigi dynasty
+421201 = {
+	name = "Sekilos" # Made up Turmodigi leader
+	dynasty = 42014
+	culture = celtiberian
+	religion = celtic_main
+	
+	384.1.1 = { # 392 BC, Made up
+		birth="yes"
+	}
+	466.1.1 = { # 309 BC
+		death="yes"
+	}
+}

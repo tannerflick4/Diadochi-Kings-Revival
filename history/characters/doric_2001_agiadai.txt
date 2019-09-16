@@ -1,0 +1,59 @@
+# 20001-20100 for the Agiadai dynasty
+20001 = {
+	name = "Kleomenes" # Cleomenes II, King of Sparta
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	396.1.1 = { # 380 BC, made up
+		birth="yes" 
+	}	
+	467.1.1 = { # 309 BC, Natural as there are no causes of death known
+		death="yes" 
+	}
+}
+20002 = {
+	name = "Akrotatos" # Acrotatus I, son of Cleomenes II
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	father = 20001
+	
+	add_trait = cruel
+	
+	416.1.1 = { # Made up
+		birth="yes" # 360 BC
+	}
+	464.1.1 = { # Made up
+		death="yes" # 312 BC
+	}
+}
+20003 = {
+	name = "Areios" # Areus I, Agiad king of Sparta
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	father = 20002
+	439.1.1 = { # Made up
+		birth="yes" # 337 BC
+	}
+	511.1.1 = {
+		death="yes" # 265 BC
+	}
+}
+20004 = {
+	name = "Kleonymos" # Brief ruler of Corfu, son of Cleomenes II
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	father = 20001
+	
+	add_trait = wroth
+	add_trait = cruel
+	
+	432.1.1 = { # Made up
+		birth="yes" # 344 BC
+	}
+	511.1.1 = { # Made up
+		death="yes" # 265 BC
+	}
+}

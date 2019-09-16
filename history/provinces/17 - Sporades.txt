@@ -1,0 +1,22 @@
+# 17 - Sporades
+# County Title
+title = c_sporades # for example c_corinth
+
+# Settlements
+max_settlements = 4 # Should be reevaluated
+b_paparethos_sporades = city
+b_ikos_sporades = castle
+b_skyros_sporades = temple
+b_skiathos_sporades = castle
+
+# Misc
+
+culture = ionian
+religion = greek_main
+
+
+# History
+# Can be filled when things change around the province
+459.1.1 = { # 317 BC, Oligarchy
+	capital = b_ikos_sporades
+}

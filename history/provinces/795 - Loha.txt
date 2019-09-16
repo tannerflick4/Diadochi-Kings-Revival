@@ -1,0 +1,15 @@
+# 795 - Loha
+
+# County Title
+title = c_loha
+
+# Settlements
+max_settlements = 1
+b_loha_loha = castle
+
+# Misc
+culture = gandhari
+religion = buddhism_main
+
+# History
+# Can be filled when things change around the province

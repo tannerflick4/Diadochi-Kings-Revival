@@ -1,0 +1,18 @@
+# 856 - Regiae
+
+# County Title
+title = c_regiae
+
+# Settlements
+max_settlements = 4
+b_regiae_regiae = castle
+b_tasaccora_regiae = castle
+b_albulae_regiae = city
+b_puerorum_regiae = city
+
+# Misc
+culture = berber
+religion = berber_main
+
+# History
+# Can be filled when things change around the province

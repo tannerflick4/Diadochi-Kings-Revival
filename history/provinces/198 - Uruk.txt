@@ -1,0 +1,17 @@
+# 198 - Uruk
+
+# County Title
+title = c_uruk
+
+# Settlements
+max_settlements = 3
+b_uruk_uruk = castle
+b_girsu_uruk = temple
+b_larsa_uruk = city
+
+# Misc
+culture = akkadian
+religion = marduk_cult
+
+# History
+# Can be filled when things change around the province

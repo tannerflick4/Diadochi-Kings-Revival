@@ -1,0 +1,39 @@
+# 250201-250300 for the Hasdrubal dynasty
+250201 = { # Made up	
+	name = "Magon"
+	dynasty = 25003 # Hasdrubal
+	religion = punic_main
+	culture = punic
+	father = 250203
+	395.1.1 = { # 381 BC
+		birth="yes"
+	}
+	463.1.1 = { # 313 BC
+		death="yes"
+	}
+}
+250202 = {
+	name = "Bodtanit" # Hasdrubal
+	dynasty = 25003 # Hasdrubal
+	religion = punic_main
+	culture = punic
+	father = 250201
+	420.1.1 = { # 356 BC
+		birth="yes"
+	}
+	500.1.1 = { # 276 BC
+		death="yes"
+	}
+}
+250203 = { # Made up	
+	name = "Hasdrubaal"
+	dynasty = 25003 # Hasdrubal
+	religion = punic_main
+	culture = punic
+	360.1.1 = { 
+		birth="yes" # 416 BC Made Up
+	}
+	420.1.1 = {
+		death="yes" # 356 BC Made Up
+	}
+}

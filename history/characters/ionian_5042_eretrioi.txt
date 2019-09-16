@@ -1,0 +1,29 @@
+# 53601-53700 for the Eretrioi dynasty
+53601 = {
+	name = "Tremison" # Tyrant of Eretria
+	dynasty = 5042 # Eretrioi
+	religion = greek_main
+	culture = ionian
+	369.1.1 = { # Made up
+		birth="yes" # 407 BC 
+	}
+	419.1.1 = { # Made up
+		death="yes" # 357 BC
+	}
+}
+53602 = {
+	name = "Ploutarchos" # Tyrant of Eretria
+	dynasty = 5042 # Eretrioi
+	religion = greek_main
+	culture = ionian
+	father = 53601
+	
+	add_trait = wroth
+	
+	392.1.1 = { # Made up
+		birth="yes" # 384 BC
+	}
+	433.1.1 = { # Made up
+		death="yes" # 343 BC
+	}
+}

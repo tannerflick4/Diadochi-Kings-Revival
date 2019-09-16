@@ -1,0 +1,18 @@
+# 636 - Serdica
+
+# County Title
+title = c_serdica
+
+# Settlements
+max_settlements = 4
+b_serdika_serdika = castle
+b_scretisca_serdika = city
+b_burgaraca_serdika = city
+b_meldia_serdika = castle
+
+# Misc
+culture = paeonian
+religion = illyrian_main
+
+# History
+# Can be filled when things change around the province

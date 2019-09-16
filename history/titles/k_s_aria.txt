@@ -1,0 +1,11 @@
+447.7.1 = { # 329 BC
+	holder = 110001 # Stasanor
+	liege="e_macedonia"
+}
+455.1.1 = {
+	holder = 110101 # Stasander
+}
+460.1.1 = {
+	holder = 0
+	liege = 0
+}

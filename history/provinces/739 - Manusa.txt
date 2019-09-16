@@ -1,0 +1,16 @@
+# 739 - Manusa
+
+# County Title
+title = c_manusa
+
+# Settlements
+max_settlements = 2
+b_manusa_manusa = castle
+b_kurukhetra_manusa = castle
+
+# Misc
+culture = shauraseni
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

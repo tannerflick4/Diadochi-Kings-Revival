@@ -1,0 +1,18 @@
+# 369 - Tubusuctu
+
+# County Title
+title = c_tubusuctu
+
+# Settlements
+max_settlements = 4
+b_tubusuctu_tubusuctu = castle
+b_ausum_tubusuctu = city
+b_sertei_tubusuctu = castle
+b_lesbi_tubusuctu = castle
+
+# Misc
+culture = berber
+religion = berber_main
+
+# History
+# Can be filled when things change around the province

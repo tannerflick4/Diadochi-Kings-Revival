@@ -1,0 +1,18 @@
+# 843 - Antinoopolis
+
+# County Title
+title = c_antinoopolis
+
+# Settlements
+max_settlements = 4
+#b_antinoopolis_antinoopolis = castle
+b_thmoresis_antinoopolis = castle
+b_akhetaten_antinoopolis = temple
+b_alabastronpolis_antinoopolis = city
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

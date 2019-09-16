@@ -1,0 +1,15 @@
+# 969 - Sebendounon
+
+# County Title
+title = c_sebendounon
+
+# Settlements
+max_settlements = 1
+b_sebendounon_sebendounon = castle
+
+# Misc
+culture = iberian
+religion = iberian_main
+
+# History
+# Can be filled when things change around the province

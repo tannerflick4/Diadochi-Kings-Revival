@@ -1,0 +1,26 @@
+# 5 - Naxos
+
+# County Title
+title = c_naxos # for example c_corinth
+
+# Settlements
+max_settlements = 5 # Should be reevaluated
+b_ios_naxos = city
+b_naxos_naxos = castle
+b_paros_naxos = temple
+b_arkesine_naxos = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_melos_naxos = castle
+# b_anaphe_naxos = temple
+# b_minoa_naxos = city
+
+# Misc
+culture = ionian
+religion = greek_main
+
+#History
+# Can be filled when things change around the province
+459.1.1 = { # 317 BC, Oligarchy
+	capital = b_naxos_naxos
+}

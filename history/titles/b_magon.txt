@@ -1,0 +1,8 @@
+413.1.1 = { # 363 BC
+	holding_dynasty = 25004 # Magon
+	holder = 250304 # Magon III
+	liege = k_carthage
+}
+432.1.1 = { # 344 BC 
+	holder = 250303 # Hanno III of Carthage
+}

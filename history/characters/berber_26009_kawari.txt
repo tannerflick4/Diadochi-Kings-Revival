@@ -1,0 +1,44 @@
+# 260801-260900 for the Kawari dynasty
+260801 = {
+	name = "Capussa"
+	dynasty = 26009
+	culture = berber
+	religion = berber_main
+
+	385.1.1 = { # 391 BC
+		birth="yes"
+	}
+	456.1.1 = { # 320 BC
+		death="yes"
+	}
+}
+260802 = {
+	name = "Immelus"
+	dynasty = 26009
+	culture = berber
+	religion = berber_main
+
+	father = 260801
+
+	428.1.1 = { # 348 BC
+		birth="yes"
+	}
+	493.1.1 = { # 283 BC
+		death="yes"
+	}
+}
+260803 = {
+	name = "Immelus"
+	dynasty = 26009
+	culture = berber
+	religion = berber_main
+
+	father = 260802
+
+	459.1.1 = { # 317 BC
+		birth="yes"
+	}
+	505.1.1 = { # 271 BC
+		death="yes"
+	}
+}

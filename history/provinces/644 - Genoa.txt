@@ -1,0 +1,25 @@
+# 644 - Genoa
+
+# County Title
+title = c_genua
+
+# Settlements
+max_settlements = 4
+b_stalia_genua = castle
+b_hasta_genua = city
+b_coeba_genua = castle
+b_savo_genua = city
+
+#b_genua_genua = castle
+
+# Misc
+culture = ligurian
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province
+567.1.1 = { # 209 BC, Stalia destroyed by carthage
+	remove_settlement = b_stalia_genua
+	b_genua_genua = castle
+	capital = b_genua_genua
+}

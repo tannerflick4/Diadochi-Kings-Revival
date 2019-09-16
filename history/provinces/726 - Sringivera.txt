@@ -1,0 +1,17 @@
+# 726 - Sringivera
+
+# County Title
+title = c_sringivera
+
+# Settlements
+max_settlements = 3
+b_sringivera_sringivera = castle
+b_kasi_sringivera = city
+b_prayaga_sringivera = city
+
+# Misc
+culture = vedic # Magadhi
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,39 @@
+# 121801-121900 for the Satavahana dynasty
+121801 = {
+	name = "Govinda" # Made up
+	dynasty = 12146
+	religion = dravidian_main
+	culture = telegu
+	388.1.1 = { # 388 BC
+		birth="yes"
+	}
+	456.1.1 = { # 320 BC
+		death="yes"
+	}
+}
+121802 = {
+	name = "Sada" # Made up
+	dynasty = 12146
+	religion = dravidian_main
+	culture = telegu
+	father = 121801
+	412.1.1 = { # 364 BC
+		birth="yes"
+	}
+	485.1.1 = { # 291 BC
+		death="yes"
+	}
+}
+121803 = {
+	name = "Riktavarna" # Made up, possible father of Simuka
+	dynasty = 12146
+	religion = dravidian_main
+	culture = telegu
+	father = 121802
+	443.1.1 = { # 333 BC
+		birth="yes"
+	}
+	525.1.1 = { # 251 BC
+		death="yes"
+	}
+}

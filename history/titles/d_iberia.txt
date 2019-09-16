@@ -1,0 +1,15 @@
+409.1.1 = { # 367 BC
+	holder = 70003 # Mtskhetos
+}
+435.1.1 = { # 341 BC
+	holder = 70002 # Uplos
+}
+451.1.1 = { # 325 BC
+	holder = 70101 # Azo
+}
+474.1.1 = { # 302 BC
+	holder = 70001 # Pharnavazi
+}
+475.1.1 = { # 301 BC
+	liege = k_georgia
+}

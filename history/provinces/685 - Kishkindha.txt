@@ -1,0 +1,16 @@
+# 685 - Kishkindha
+
+# County Title
+title = c_kishkindha
+
+# Settlements
+max_settlements = 2
+b_kishkindha_kishkindha = castle
+b_bhatkuli_kishkindha = castle
+
+# Misc
+culture = kannada
+religion = dravidian_main
+
+# History
+# Can be filled when things change around the province

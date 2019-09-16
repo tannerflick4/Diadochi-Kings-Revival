@@ -1,0 +1,31 @@
+417.1.1 = {
+	holder = 90312 # Artaxerxes III
+	liege = k_p_bactria
+}
+418.1.1 = {
+	holder = 90313 # Artaxerxes IV
+}
+438.9.25 = {
+	holder = 90320 # Artaxerxes V Bessus
+}
+447.7.1 = { # 329 BC
+	holder = 90205 # Artabazos
+	liege="k_s_bactria"
+}
+448.1.1 = { # 328 BC
+	holder = 2901 # Cleitus the Black
+}
+448.6.1 = {
+	holder = 1401 # Philip
+}
+455.1.1 = {
+	holder = 110001 # Stasanor
+}
+471.1.1 = {
+	holder = 1001 # Seleukos
+	liege = e_syria
+}
+482.1.1 = { # 294 BC
+	holder = 3001 # Patrokles
+	liege = d_parthia
+}

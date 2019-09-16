@@ -1,0 +1,15 @@
+# 774 - Bhokardan
+
+# County Title
+title = c_bhokardan
+
+# Settlements
+max_settlements = 1
+b_bhokardan_bhokardan = castle
+
+# Misc
+culture = maharashtri
+religion = jainism_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,16 @@
+417.1.1 = {
+	holder = 80003 # Orontes
+	liege = e_persia
+}
+432.1.1 = {
+	holder = 90314 # Darius III of Persia
+}
+440.1.1 = {
+	holder = 80004 # Orontes, son of the other Orontes
+}
+445.10.1 = {
+	holder = 80001 # Mithrenes
+}
+446.1.1 = {
+	holder = 0
+}

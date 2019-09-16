@@ -1,0 +1,39 @@
+# 231501-231600 for the Sevaces dynasty
+231501 = {
+	name = "Critasirus" # Made up
+	dynasty = 23017 # Sevaces
+	culture = gaul
+	religion = celtic_main
+	father = 231503
+	433.1.1 = { # Made up
+		birth="yes" # 343 BC
+	}
+	484.1.1 = { # Made up
+		death="yes" # 292 BC
+	}
+}
+231502 = {
+	name = "Tasgetius" # Sevaces Made up
+	dynasty = 23017 # Sevaces
+	culture = gaul
+	religion = celtic_main
+	father = 231501
+	451.1.1 = { # 325 BC
+		birth="yes"
+	}
+	509.1.1 = { # 267 BC
+		death="yes"
+	}
+}
+231503 = {
+	name = "Vercingetorix" # Made up
+	dynasty = 23017 # Sevaces
+	culture = gaul
+	religion = celtic_main
+	394.1.1 = { # Made up
+		birth="yes" # 382 BC
+	}
+	452.1.1 = { # 324 BC
+		death="yes"
+	}
+}

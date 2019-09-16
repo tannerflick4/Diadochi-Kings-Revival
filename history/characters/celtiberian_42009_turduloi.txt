@@ -1,0 +1,14 @@
+# 420801-420900 for the Turduli dynasty
+420801 = {
+	name = "Ultinos" # Made up Turduli leader
+	dynasty = 42009
+	culture = celtiberian
+	religion = celtic_main
+	
+	385.1.1 = { # 391 BC, Made up
+		birth="yes"
+	}
+	466.1.1 = { # 309 BC
+		death="yes"
+	}
+}

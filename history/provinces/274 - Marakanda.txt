@@ -1,0 +1,18 @@
+# 274 - Marakanda
+
+# County Title
+title = c_marakanda
+
+# Settlements
+max_settlements = 4
+b_maracanda_marakanda = castle # Samarkand
+b_nautaca_marakanda = castle
+b_kish_marakanda = castle
+b_dushanbe_marakanda = city
+
+# Misc
+culture = sogdian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

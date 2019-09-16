@@ -1,0 +1,7 @@
+400.1.1 = { # 376 BC
+	holder = 40004 # Bas
+	liege = d_bithynia
+}
+450.1.1 = { # 326 BC
+	holder = 40001 # Zipoetes I
+}

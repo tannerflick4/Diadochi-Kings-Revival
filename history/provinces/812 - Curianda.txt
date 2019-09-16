@@ -1,0 +1,17 @@
+# 812 - Curianda
+
+# County Title
+title = c_curianda
+
+# Settlements
+max_settlements = 3
+b_curianda_curianda = castle
+b_nysa_curianda = castle
+b_ora_curianda = city
+
+# Misc
+culture = bactrian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

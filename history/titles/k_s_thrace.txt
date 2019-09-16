@@ -1,0 +1,8 @@
+453.6.10 = {
+	holder = 30001 # Lysimachus
+	liege = e_macedonia
+}
+467.1.1 = {
+	holder = 0
+	liege = 0
+}

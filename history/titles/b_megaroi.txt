@@ -1,0 +1,8 @@
+415.1.1 = {
+	holding_dynasty = 2008
+	liege="d_r_byzantion"
+	holder = 20701
+}
+472.1.1 = {
+	holder = 20702
+}

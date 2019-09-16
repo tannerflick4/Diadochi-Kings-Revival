@@ -1,0 +1,17 @@
+# 415 - Poroboridava
+
+# County Title
+title = c_poroboridava
+# Settlements
+max_settlements = 4
+b_poroboridava_poroboridava = castle
+b_poienesti_poroboridava = temple
+b_barbosi_poroboridava = city
+b_birsesti_poroboridava = castle
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

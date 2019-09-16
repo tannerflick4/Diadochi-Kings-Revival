@@ -1,0 +1,10 @@
+414.1.1 = { # 362 BC
+	holder = 260801 # Capussa
+	liege = d_kawar
+}
+456.1.1 = { # 320 BC
+	holder = 260802 # Immelus
+}
+493.1.1 = { # 283 BC
+	holder = 260803 # Immelus
+}

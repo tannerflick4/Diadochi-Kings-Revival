@@ -1,0 +1,16 @@
+# 292 - Taxila
+
+# County Title
+title = c_taxila
+
+# Settlements
+max_settlements = 2
+b_taxila_taxila = castle
+b_rudera_taxila = city
+
+# Misc
+culture = gandhari
+religion = buddhism_main
+
+# History
+# Can be filled when things change around the province

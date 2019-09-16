@@ -1,0 +1,16 @@
+# 875 - Sabae
+
+# County Title
+title = c_sabae
+
+# Settlements
+max_settlements = 3
+b_sabae_sabae = castle
+b_chlef_sabae = city
+
+# Misc
+culture = berber
+religion = berber_main
+
+# History
+# Can be filled when things change around the province

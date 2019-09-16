@@ -1,0 +1,9 @@
+411.1.1 = { # 365 BC
+	holder = 280103
+}
+435.1.1 = { # 341 BC
+	holder = 280101 # Spurie of the Lepontii
+}
+472.1.1 = { # 304 BC
+	holder = 280102
+}

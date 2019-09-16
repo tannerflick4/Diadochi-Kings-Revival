@@ -1,0 +1,26 @@
+# 51101-51200 for the Ithakesioi dynasty
+51101 = {
+	name = "Methodios" # Olbia
+	dynasty = 5012 # Ithakesioi
+	religion = greek_main
+	culture = ionian
+	403.1.1 = { # 373 BC Made up
+		birth="yes"
+	}
+	477.1.1 = { # 299 BC Made up
+		death="yes"
+	}
+}
+51102 = {
+	name = "Damianos" # Olbia
+	dynasty = 5012 # Ithakesioi
+	religion = greek_main
+	culture = ionian
+	father = 51101
+	426.1.1 = { # 350 BC Made up
+		birth="yes"
+	}
+	503.1.1 = { # 273 BC Made up
+		death="yes"
+	}
+}

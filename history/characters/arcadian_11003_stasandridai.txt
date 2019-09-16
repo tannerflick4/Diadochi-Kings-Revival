@@ -1,0 +1,19 @@
+# 110101-110200 for the Stasandridai dynasty
+110101 = {
+	name = "Stasandros" # Satrap of Aria after Triparadisus
+	dynasty = 11003 # Stasandridai
+	religion = greek_main
+	culture = arcadian
+	398.1.1 = {
+		birth="yes"
+	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	460.1.1 = {
+		death = {
+			death_reason = death_murder
+			killer = 401 # Antigonus
+		}
+	}
+}

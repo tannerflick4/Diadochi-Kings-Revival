@@ -1,0 +1,39 @@
+# 121001-121100 for the Tulunga dynasty
+121001 = {
+	name = "Kangavarma" # Made up
+	dynasty = 12128
+	religion = dravidian_main
+	culture = kannada
+	383.1.1 = { # 393 BC
+		birth="yes"
+	}
+	456.1.1 = { # 320 BC
+		death="yes"
+	}
+}
+121002 = {
+	name = "Madhava" # Made up
+	dynasty = 12128
+	religion = dravidian_main
+	culture = kannada
+	father = 121001
+	407.1.1 = { # 369 BC
+		birth="yes"
+	}
+	475.1.1 = { # 301 BC
+		death="yes"
+	}
+}
+121003 = {
+	name = "Polavira" # Made up
+	dynasty = 12128
+	religion = dravidian_main
+	culture = kannada
+	father = 121002
+	433.1.1 = { # 343 BC
+		birth="yes"
+	}
+	505.1.1 = { # 271 BC
+		death="yes"
+	}
+}

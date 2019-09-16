@@ -1,0 +1,4 @@
+# 110001-120000 for arcadian characters 
+	# 110001-110100 for the Siloi dynasty
+	# 110101-110200 for the Stasandridai dynasty
+	# 110201-110300 for the Arkadioi dynasty

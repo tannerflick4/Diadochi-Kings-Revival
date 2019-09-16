@@ -1,0 +1,4571 @@
+e_rebels = {
+	rebel = yes
+	landless = yes
+	primary = yes
+
+	culture = doric
+	tribe = yes
+
+	color={ 0 0 0 }
+	color2={ 0 0 0 }
+}
+e_macedonia = {
+	color= { 200 100 50 }
+	color2= { 255 255 255 }
+	
+	capital = 34 # Pella
+	
+	allow = {
+		culture = macedonian
+	}
+}
+e_persia = {
+	color= { 225 0 75 }
+	color2= { 255 255 255 }
+	
+	persian = Parsa
+	parthian = Parsa
+	median = Parsa
+	arian = Parsa
+	
+	capital = 253 # Pasargadae
+	
+	allow = {
+		or = {
+			culture_group = iranian
+			culture = armenian
+		}
+	}
+	
+	k_media = {
+		color= { 200 0 75 }
+		color2= { 255 255 255 }
+		
+		persian = Mada
+		parthian = Mada
+		median = Mada
+		arian = Mada
+	
+		allow = {
+			culture_group = iranian
+			liege = {
+				not = { has_landed_title = e_persia }
+				not = { has_landed_title = e_macedonia }
+			}
+		}
+	
+		d_paytakaran = {
+			color= { 200 0 100 }
+			color2= { 255 255 255 }
+		
+			c_spandaran = {
+				color= { 200 10 110 }
+				color2= { 255 255 255 }
+			
+				b_spandaran_sparandaran = {
+				}
+				b_balanrot_spandaran = {
+				}
+				b_warthan_sparandaran = {
+				}
+				b_mish_sparandaran = {
+				}
+			}
+			c_aharawan = {
+				color= { 210 10 100 }
+				color2= { 255 255 255 }
+			
+				b_aharawan_aharawan = {
+				}
+				b_chaharla_aharawan = {
+				}
+				b_pharambara_aharawan = {
+				}
+			}
+			c_ardabil = {
+				color= { 200 0 100 }
+				color2= { 255 255 255 }
+			
+				b_ardabil_ardabil = {
+				}
+				b_piri_ardabil = {
+				}
+				b_charax_ardabil = {
+				}
+				b_mishkinshahr_ardabil = {
+				}
+				b_cyropolis_ardabil = {
+				}
+			}
+		}
+		d_matiene = {
+			color= { 200 0 50 }
+			color2= { 255 255 255 }
+		
+			c_praaspa = {
+				color= { 210 10 50 }
+				color2= { 255 255 255 }
+			
+				b_praaspa_praaspa = {
+				}
+				b_gaunarga_praaspa = {
+				}
+				b_gabras_praaspa = {
+				}
+				b_gamaraa_praaspa = {
+				}
+			}
+			c_adar_gushnasp = {
+				color= { 200 0 50 }
+				color2= { 255 255 255 }
+			
+				b_gaza_adar_gushnasp = {
+				}
+				b_adar_gushnasp_adar_gushnasp = {
+					holy_site = zoroastrian_main
+					holy_site = armenian_main
+					holy_site = zurvanism
+					holy_site = pontic_main
+				}
+				b_ganzak_adar_gushnasp = {
+				}
+				b_giaur_adar_gushnasp = {
+				}
+				b_sheytanabad_adar_gushnasp = {
+				}
+			}
+			c_gaznik = {
+				color= { 200 10 40 }
+				color2= { 255 255 255 }
+			
+				b_gaznik_gaznik = {
+				}
+				b_ormi_gaznik = {
+				}
+				b_siraganon_gaznik = {
+				}
+				b_salmas_gaznik = {
+				}
+			}
+			c_morunda = {
+				color= { 190 10 50 }
+				color2= { 255 255 255 }
+			
+				b_morunda_morunda = {
+				}
+				b_chauon_morunda = {
+				}
+				b_tasuk_morunda = {
+				}
+				b_zarawand_morunda = {
+				}
+				b_arnay_morunda = {
+				}
+			}
+		}
+		d_media = { # Media Proper
+			color= { 200 0 75 }
+			color2= { 255 255 255 }
+			
+			persian = Mada
+			parthian = Mada
+			median = Mada
+			arian = Mada
+			
+			c_daskara = {
+				color= { 210 10 75 }
+				color2= { 255 255 255 }
+				
+				b_daskara_daskara = {
+				}
+				b_artemita_daskara = {
+				}
+				b_dastagird_daskara = {
+				}
+				b_jalula_daskara = {
+				}
+			}
+			c_hulwan = {
+				color= { 190 0 65 }
+				color2= { 255 255 255 }
+				
+				b_hulwan_hulwan = {
+				}
+				b_zagrou_pylai_hulwan = {
+				}
+				b_syarazur_hulwan = {
+				}
+			}
+			c_ecbatana = {
+				color= { 200 0 75 }
+				color2= { 255 255 255 }
+				
+				b_ecbatana_ecbatana = {
+				}
+				b_bisutun_ecbatana = {
+				}
+				b_kangavar_ecbatana = {
+				}
+				b_denabaran_ecbatana = {
+				}
+				b_malaver_ecbatana = {
+				}
+			}
+			c_aganzana = {
+				color= { 210 0 65 }
+				color2= { 255 255 255 }
+				
+				b_aganzana_aganzana = {
+				}
+				b_gaza_aganzana = {
+				}
+				b_veraspe_aganzana = {
+				}
+				b_vera_aganzana = {
+				}
+			}
+			c_saveh = {
+				color= { 210 10 75 }
+				color2= { 255 255 255 }
+				
+				b_saveh_saveh = {
+				}
+				b_choana_saveh = {
+				}
+				b_goyman_saveh = {
+				}
+				b_gauna_saveh = {
+				}
+			}
+		}
+		d_hyrcania = {
+			color= { 200 25 50 }
+			color2= { 255 255 255 }
+			
+			persian = Varkana
+			parthian = Varkana
+			median = Varkana
+			arian = Varkana
+			
+			c_rhagai = {
+				color= { 210 25 40 }
+				color2= { 255 255 255 }
+				
+				b_rhagai_rhagai = {
+				}
+				b_charax_rhagai = {
+				}
+				b_galla_rhagai = {
+				}
+				b_amol_rhagai = {
+				}
+				b_khuvar_rhagai = {
+				}
+			}
+			c_hecatombylos = {
+				color= { 200 25 50 }
+				color2= { 255 255 255 }
+				
+				b_hecatombylos_hecatombylos = {
+				}
+				b_damghan_hecatombylos = {
+				}
+				b_sariya_hecatombylos = {
+				}
+				b_semnan_hecatombylos = {
+				}
+				b_karabshahr_hecatombylos = {
+				}
+			}
+			c_zadracarta = {
+				color= { 190 15 50 }
+				color2= { 255 255 255 }
+				
+				b_zadracarta_zadracarta = {
+				}
+				b_bistam_zadracarta = {
+				}
+				b_arghiyan_zadracarta = {
+				}
+				b_kabudan_zadracarta = {
+				}
+			}
+			c_asaak = {
+				color= { 200 35 40 }
+				color2= { 255 255 255 }
+				
+				b_asaak_asaak = {
+				}
+				b_dara_asaak = {
+				}
+				b_tusa_asaak = {
+				}
+			}
+		}
+		d_parthia = {
+			color= { 200 25 75 }
+			color2= { 255 255 255 }
+			
+			persian = Parthava
+			parthian = Parthava
+			median = Parthava
+			arian = Parthava
+			
+			c_tabus = {
+				color= { 210 15 75 }
+				color2= { 255 255 255 }
+				
+				b_tabus_tabus = {
+				}
+				b_darium_tabus = {
+				}
+				b_ecbatana_tabus = {
+				}
+			}
+			c_choarene = {
+				color= { 190 25 85 }
+				color2= { 255 255 255 }
+				
+				b_choana_choarene = {
+				}
+				b_canatha_choarene = {
+				}
+				b_simpsimidi_choarene = {
+				}
+			}
+			c_susia = {
+				color= { 200 25 75 }
+				color2= { 255 255 255 }
+				
+				b_susia_susia = {
+				}
+				b_vishpauzatis_susia = {
+					holy_site = zoroastrian_main
+					holy_site = armenian_main
+					holy_site = zurvanism
+					holy_site = pontic_main
+				}
+				b_nisaea_susia = {
+				}
+			}
+		}
+	}
+	k_persia = {
+		color= { 225 0 75 }
+		color2= { 255 255 255 }
+		
+		persian = Parsa
+		parthian = Parsa
+		median = Parsa
+		arian = Parsa
+		
+		allow = {
+			culture_group = iranian
+			liege = {
+				not = { has_landed_title = e_persia }
+				not = { has_landed_title = e_macedonia }
+			}
+		}
+		
+		d_susa = {
+			color= { 225 0 50 }
+			color2= { 255 255 255 }
+			
+			persian = Susha
+			parthian = Susha
+			median = Susha
+			arian = Susha
+			
+			c_madhar = {
+				color= { 215 10 50 }
+				color2= { 255 255 255 }
+				
+				b_madhar_madhar = {
+				}
+				b_nina_madhar = {
+				}
+				b_khurra_madhar = {
+				}
+			}
+			c_soloke = {
+				color= { 235 10 50 }
+				color2= { 255 255 255 }
+				
+				b_soloke_soloke = {
+				}
+				b_urzan_soloke = {
+				}
+				b_arragan_soloke = {
+				}
+				b_ram_soloke = {
+				}
+			}
+			c_susa = {
+				color= { 225 0 50 }
+				color2= { 255 255 255 }
+				
+				b_susa_susa = {
+				}
+				b_dezful_susa = {
+				}
+				b_agines_susa = {
+				}
+				b_rostag_kavadad_susa = {
+				}
+				b_sostrate_susa = {
+				}
+				b_elymais_susa = {
+				}
+			}
+			c_nemavand = {
+				color= { 235 0 60 }
+				color2= { 255 255 255 }
+				
+				b_nemavand_nemavand = {
+				}
+				b_harsin_nemavand = {
+				}
+				b_thebarga_nemavand = {
+				}
+				b_khurramabad_nemavand = {
+				}
+			}
+		}
+		d_persis = {
+			color= { 225 0 75 }
+			color2= { 255 255 255 }
+			
+			persian = Parsa
+			parthian = Parsa
+			median = Parsa
+			arian = Parsa
+			
+			c_bushahr = {
+				color= { 215 10 75 }
+				color2= { 255 255 255 }
+				
+				b_bushahr_bushahr = {
+				}
+				b_borazjan_bushahr = {
+				}
+				b_rishahr_bushahr = {
+				}
+				b_kharg_bushahr = {
+				}
+			}
+			c_cyropolis = {
+				color= { 215 0 85 }
+				color2= { 255 255 255 }
+				
+				b_cyropolis_cyropolis = {
+				}
+				b_siraf_cyropolis = {
+				}
+				b_gogana_cyropolis = {
+				}
+				b_mammica_cyropolis = {
+				}
+			}
+			c_pasargadae = {
+				color= { 225 0 75 }
+				color2= { 255 255 255 }
+				
+				b_pasargadae_pasargadae = {
+				}
+				b_seraz_pasargadae = {
+					holy_site = zoroastrian_main
+					holy_site = armenian_main
+					holy_site = zurvanism
+					holy_site = pontic_main
+				}
+				b_tukrash_pasargadae = {
+				}
+				b_malyan_pasargadae = {
+				}
+				b_kaupirrish_pasargadae = {
+				}
+				b_rakkan_pasargadae = {
+				}
+				b_persepolis_pasargadae = {
+				}
+			}
+			c_aspadana = {
+				color= { 235 10 75 }
+				color2= { 255 255 255 }
+				
+				b_aspadana_aspadana = {
+				}
+				b_arbua_aspadana = {
+				}
+				b_axima_aspadana = {
+				}
+				b_tabae_aspadana = {
+				}
+			}
+		}
+		d_carmana = {
+			color= { 225 0 100 }
+			color2= { 255 255 255 }
+			
+			persian = Karmana
+			parthian = Karmana
+			median = Karmana
+			arian = Karmana
+			
+			c_harmozeia = {
+				color= { 215 10 100 }
+				color2= { 255 255 255 }
+				
+				b_harmozeia_harmozeia = {
+				}
+				b_rudera_harmozeia = {
+				}
+				b_sidone_harmozeia = {
+				}
+				b_portospana_harmozeia = {
+				}
+			}
+			c_taruana = {
+				color= { 225 10 110 }
+				color2= { 255 255 255 }
+				
+				b_taruana_taruana = {
+				}
+				b_ormus_taruana = {
+				}
+				b_sabis_taruana = {
+				}
+				b_harmuza_taruana = {
+				}
+			}
+			c_carmana = {
+				color= { 225 0 100 }
+				color2= { 255 255 255 }
+				
+				b_carmana_carmana = {
+				}
+				b_nepista_carmana = {
+				}
+				b_chodda_carmana = {
+				}
+				b_alexandria_carmana = {
+				}
+				b_apamea_carmana = {
+				}
+			}
+			c_bam = {
+				color= { 215 0 110 }
+				color2= { 255 255 255 }
+				
+				b_bam_bam = {
+				}
+				b_caumata_bam = {
+				}
+				b_paradana_bam = {
+				}
+			}
+		}
+	}
+	k_ariana = {
+		color= { 255 0 100 }
+		color2= { 255 255 255 }
+		
+		persian = Ariana
+		parthian = Ariana
+		median = Ariana
+		arian = Ariana
+	
+		allow = {
+			culture_group = iranian
+			liege = {
+				not = { has_landed_title = e_persia }
+				not = { has_landed_title = e_macedonia }
+			}
+		}
+		
+		d_gedrosia = {
+			color= { 255 0 125 }
+			color2= { 255 255 255 }
+			
+			persian = Maka
+			parthian = Maka
+			median = Maka
+			arian = Maka
+			
+			c_pura = {
+				color= { 255 0 125 }
+				color2= { 255 255 255 }
+				
+				b_pura_pura = {
+				}
+				b_dagasira_pura = {
+				}
+				b_samydaces_pura = {
+				}
+				b_troesa_pura = {
+				}
+				b_canasis_pura = {
+				}
+			}
+			c_chodda = {
+				color= { 255 10 115 }
+				color2= { 255 255 255 }
+				
+				b_chodda_chodda = {
+				}
+				b_badara_chodda = {
+				}
+				b_cyiza_chodda = {
+				}
+				b_mosarna_chodda = {
+				}
+			}
+			c_calame = {
+				color= { 245 10 125 }
+				color2= { 255 255 255 }
+				
+				b_calame_calame = {
+				}
+				b_cysa_temple = {
+				}
+				b_pasua_calame = {
+				}
+				b_colta_calame = {
+				}
+			}
+			c_soxetra = {
+				color= { 245 0 135 }
+				color2= { 255 255 255 }
+				
+				b_soxetra_soxetra = {
+				}
+				b_zetis_soxetra = {
+				}
+				b_pagala_soxetra = {
+				}
+				b_arbis_soxetra = {
+				}
+				b_bambacia_soxetra = {
+				}
+			}
+		}
+		d_drangiana = {
+			color= { 255 0 75 }
+			color2= { 255 255 255 }
+			
+			persian = Zranka
+			parthian = Zranka
+			median = Zranka
+			arian = Zranka
+		
+			c_carura = {
+				color= { 255 10 65 }
+				color2= { 255 255 255 }
+				
+				b_carura_carura = {
+				}
+				b_gari_carura = {
+				}
+				b_bigis_carura = {
+				}
+			}
+			c_prophtasia = {
+				color= { 245 10 75 }
+				color2= { 255 255 255 }
+			
+				b_prophtasia_prophtasia = {
+				}
+				b_phrada_prophtasia = {
+				}
+				b_alexandreia_prophtasia = {
+				}
+				b_tauzaca_prophtasia = {
+				}
+			}
+			c_shahristan = {
+				color= { 235 10 75 }
+				color2= { 255 255 255 }
+				
+				b_shahristan_shahristan = {
+				}
+				b_karkuya_shahristan = {
+				}
+				b_dahan_i_golaman_shahristan = {
+					holy_site = zoroastrian_main
+					holy_site = zurvanism
+				}
+			}
+			c_zranka = {
+				color= { 255 0 75 }
+				color2= { 255 255 255 }
+				
+				b_zranka_zranka = {
+				}
+				b_rhambacia_zranka = {
+				}
+				b_euergetarum_zranka = {
+				}
+				b_hariaspa_zranka = {
+				}
+			}
+		}
+		d_arachosia = {
+			color= { 255 25 100 }
+			color2= { 255 255 255 }
+			
+			persian = Harauvatish
+			parthian = Harauvatish
+			median = Harauvatish
+			arian = Harauvatish
+		
+			c_tazora = {
+				color= { 255 15 110 }
+				color2= { 255 255 255 }
+			
+				b_tazora_tazora = {
+				}
+				b_gauzaca_tazora = {
+				}
+				b_alexandropolis_tazora = {
+				}
+			}
+			c_pharsaga = {
+				color= { 255 35 90 }
+				color2= { 255 255 255 }
+			
+				b_pharsaga_pharsaga = {
+				}
+				b_cottabura_pharsaga = {
+				}
+				b_musarna_pharsaga = {
+				}
+			}
+			c_kophen = {
+				color= { 235 15 100 }
+				color2= { 255 255 255 }
+			
+				b_capissa_kophen = {
+				}
+				b_alexandria_kophen = {
+				}
+				b_ortespana_kophen = {
+				}
+				b_andaca_kophen = {
+				}
+				b_arigaeum_kophen = {
+				}
+			}
+			c_arachotoi = {
+				color= { 255 25 100 }
+				color2= { 255 255 255 }
+								
+				b_arachotoi_arachotoi = {
+				}
+				b_parabeste_arachotoi = {
+				}
+				b_ariaspe_arachotoi = {
+				}
+				b_thyraii_arachotoi = {
+				}
+				b_arafaci_arachotoi = {
+				}
+			}
+			c_artoata = {
+				color={ 245 35 110 }
+				color2={ 255 255 255 }
+				
+				b_nagara_artoata = {
+				}
+				b_artoata_artoata = {
+				}
+			}
+		}
+	}
+	k_bactria = {
+		color= { 175 0 50 }
+		color2= { 255 255 255 }
+		
+		persian = Baxtrish
+		parthian = Baxtrish
+		median = Baxtrish
+		arian = Baxtrish
+		
+		capital = 272 # Bactra
+		
+		allow = {
+			culture_group = iranian
+			liege = {
+				not = { has_landed_title = e_persia }
+				not = { has_landed_title = e_macedonia }
+			}
+		}
+	
+		d_bactria = {
+			color= { 175 0 50 }
+			color2= { 255 255 255 }
+			
+			persian = Baxtrish
+			parthian = Baxtrish
+			median = Baxtrish
+			arian = Baxtrish
+		
+			c_bactra = {
+				color= { 175 0 50 }
+				color2= { 255 255 255 }
+			
+				b_bactra_bactra = {
+				}
+				b_aornos_bactra = {
+				}
+				b_azar_i_asp_bactra = {
+					holy_site = zoroastrian_main
+					holy_site = armenian_main
+					holy_site = zurvanism
+				}
+				b_menapia_bactra = {
+				}
+			}
+			c_drapsaka = {
+				color= { 185 0 40 }
+				color2= { 255 255 255 }
+			
+				b_drapsaca_drapsaka = {
+				}
+				b_astakana_drapsaka = {
+				}
+				b_merus_drapsaka = {
+				}
+				b_arigaea_drapsaka = {
+				}
+			}
+			c_curianda = {
+				color= { 185 10 50 }
+				color2= { 255 255 255 }
+								
+				b_curianda_curianda = {
+				}
+				b_nysa_curianda = {
+				}
+				b_ora_curianda = {
+				}
+			}	
+			c_charracarta = {
+				color= { 175 10 40 }
+				color2= { 255 255 255 }
+				
+				b_charracarta_charracarta = {
+				}
+				b_aspiona_charracarta = {
+				}
+				b_eucratidea_charracarta = {
+				}
+			}	
+		}
+		d_margiane = {			
+			color= { 175 50 50 }
+			color2= { 255 255 255 }
+			
+			c_nisaea = {
+				color= { 175 50 50 }
+				color2= { 255 255 255 }
+			
+				b_nisaea_nisaea = {
+				}
+				b_abarbina_nisaea = {
+				}
+				b_guriana_nisaea = {
+				}
+				b_astasana_nisaea = {
+				}
+			}
+			c_alexandria_bactria = {
+				color= { 175 60 60 }
+				color2= { 255 255 255 }
+							
+				b_alexandria_bactria_alexandria_bactria = {
+				}
+				b_antiocheia_alexandria_bactria = {
+				}
+				b_iasonion_alexandria_bactria = {
+				}
+				b_kuskmeikhan_alexandria_bactria = {
+				}
+			}
+			c_aratha = {
+				color= { 165 40 50 }
+				color2= { 255 255 255 }
+				
+				b_aratha_aratha = {
+				}
+				b_ariaca_aratha = {
+				}
+				b_maruca_aratha = {
+				}				
+			}
+		}
+		d_sogdiana = {
+			color= { 175 25 50 }
+			color2= { 255 255 255 }
+			
+			persian = Suguda
+			parthian = Suguda
+			median = Suguda
+			arian = Suguda
+		
+			c_marakanda = {
+				color= { 165 15 50 }
+				color2= { 255 255 255 }
+			
+				
+				b_maracanda_marakanda = {
+				}
+				b_nautaca_marakanda = {
+				}
+				b_kish_marakanda = {
+				}
+				b_dushanbe_marakanda = {
+				}
+			}
+			c_tarmita = {
+				color= { 165 25 60 }
+				color2= { 255 255 255 }
+							
+				b_tarmita_tarmita = {
+				}
+				b_chorienes_tarmita = {
+				}
+				b_pareitakai_tarmita = {
+				}
+				b_marouka_tarmita = {
+				}
+				b_cholbisina_tarmita = {
+				}
+			}
+			c_alexandria_eschate = {
+				color= { 185 15 50 }
+				color2= { 255 255 255 }
+			
+				b_alexandria_eschate_alexandria_eschate = {
+				}
+				b_kurushkatha_alexandria_eschate = {
+				}
+				b_batkent_alexandria_eschate = {
+				}
+			}
+			c_trybactra = {
+				color= { 155 25 40 }
+				color2= { 255 255 255 }
+								
+				b_trybactra_trybactra = {
+				}
+				b_buxarak_trybactra = {
+				}
+				b_xenippa_trybactra = {
+				}
+				b_alexandria_oxiana_trybactra = {
+				}
+			}
+			c_tama = {
+				color= { 185 15 50 }
+				color2= { 255 255 255 }
+
+				b_ahsiket_tama = {
+				}
+				b_osh_tama = {
+				}
+				b_saimalu_tash_tama = {
+				}
+				b_andijan_tama = {
+				}
+				b_kokand_tama = {
+				}
+			}
+		}
+		d_aria = {			
+			color= { 200 0 50 }
+			color2= { 255 255 255 }
+			
+			c_artacoana = {			
+				color= { 200 0 50 }
+				color2= { 255 255 255 }
+				
+				b_artacoana_artacoana = {
+				}
+				b_cartana_artacoana = {
+				}
+				b_bogadia_artacoana = {
+				}
+				b_alexandria_artacoana = {
+				}
+				b_varpna_artacoana = {
+				}
+			}
+			c_chaurina = {
+				color= { 190 10 50 }
+				color2= { 255 255 255 }
+				
+				b_chaurina_chaurina = {
+				}
+				b_astasana_chaurina = {
+				}
+				b_barbalana_chaurina = {
+				}
+			}
+			c_parsia = {
+				color= { 200 10 40 }
+				color2= { 255 255 255 }
+				
+				b_parsia_parsia = {
+				}
+				b_tribasina_parsia = {
+				}
+				b_zimira_parsia = {
+				}
+			}
+		}
+	}
+}
+e_india = {
+	color= { 100 200 100 }
+	color2= { 255 255 255 }
+	
+	capital = 719 # Pataliputra
+	
+	allow = {
+		or = {
+			culture_group = indian
+			culture_group = dravidian
+		}
+	}
+	
+	k_sri_lanka = {
+		color = { 221 187 80 }
+		color2={ 255 255 255 }
+		
+		capital = 660 # Anuradhapura
+		
+		allow = {
+			or = {
+				culture_group = indian
+				culture_group = dravidian
+			}
+		}
+		
+		d_lanka = {
+			color = { 231 195 85 }
+			color2={ 255 255 255 }
+			
+			c_lankapuri = {
+				color = { 231 195 85 }
+				color2={ 255 255 255 }
+				
+				b_lankapuri_lankapuri = {
+				}
+				b_nikumbila_lankapuri = {
+				}
+				b_kelaniya_lankapuri = {
+				}
+			}
+			c_odoka = {
+				color = { 231 195 85 }
+				color2={ 255 255 255 }
+				
+				b_odoka_odoka = {
+				}
+				b_dagana_odoka = {
+				}
+				b_oulippada_odoka = {
+				}
+			}
+			c_katharagama = {
+				color = { 231 195 85 }
+				color2={ 255 255 255 }
+				
+				b_katharigama_katharigama = {
+				}
+				b_maagrammon_katharigama = {
+				}
+			}
+			c_mahiyangama = {
+				color = { 231 195 85 }
+				color2={ 255 255 255 }
+				
+				b_mahiyangama_mahiyangama = {
+				}
+				b_suvelagiri_mahiyangama = {
+				}
+			}
+		}
+		d_sinhala = {
+			color = { 181 155 55 }
+			color2={ 255 255 255 }
+			
+			c_mahatitta = {
+				color = { 181 155 55 }
+				color2={ 255 255 255 }
+				
+				b_mahatitta_mahatitta = {
+				}
+				b_modoutou_mahatitta = {
+				}
+			}
+			c_mihintale = {
+				color = { 181 155 55 }
+				color2={ 255 255 255 }
+				
+				b_mihintale_mihintale = {
+				}
+				b_gokanna_mihintale = {
+				}
+				b_nagadiba_mihintale = {
+				}
+			}
+			c_anuradhapura = {
+				color = { 181 155 55 }
+				color2={ 255 255 255 }
+				
+				b_anuradhapura_anuradhapura = {
+				}
+				b_sigiriya_anuradhapura = {
+				}
+			}
+		}
+	}
+	k_tamilakam = {
+		color={ 200 25 65 }
+		color2={ 255 255 255 }
+		
+		capital = 666 # Madurai, THE NUMBER OF THE BEAST!!
+		
+		allow = {
+			or = {
+				culture_group = indian
+				culture_group = dravidian
+			}
+		}
+		
+		d_dravida = {
+			color={ 140 65 65 }
+			color2={ 255 255 255 }
+			
+			c_yashwantpur = {
+				color={ 140 65 65 }
+				color2={ 255 255 255 }
+				
+				b_yashwantpur_yashwantpur = {
+				}
+				b_athirala_yashwantpur = {
+				}
+			}
+			c_kalahasti = {
+				color={ 140 65 65 }
+				color2={ 255 255 255 }
+				
+				b_kalahasti_kalahasti = {
+				}
+				b_melange_kalahasti = {
+				}
+			}
+			c_kanchipura = {
+				color={ 140 65 65 }
+				color2={ 255 255 255 }
+				
+				b_kanchipura_kanchipura = {
+				}
+				b_calamina_kanchipura = {
+				}
+				b_pandipatna_kanchipura = {
+				}
+			}
+		}
+		d_chola = {
+			color={ 180 80 130 }
+			color2={ 255 255 255 }
+			
+			c_tennagora = {
+				color={ 180 80 130 }
+				color2={ 255 255 255 }
+				
+				b_tennagora_tennagora = {
+				}
+				b_koneripatty_tennagora = {
+				}
+			}
+			c_podouke = {
+				color={ 180 80 130 }
+				color2={ 255 255 255 }
+				
+				b_podouke_podouke = {
+				}
+				b_souboura_podouke = {
+				}
+				b_sopatma_podouke = {
+				}
+				b_karige_podouke = {
+				}
+			}
+		}
+		d_pandya = {
+			color={ 140 75 75 }
+			color2={ 255 255 255 }
+			
+			c_kaverapuri = {
+				color={ 140 75 75 }
+				color2={ 255 255 255 }
+				
+				b_kaverapuri_kaverapuri = {
+				}
+				b_nikama_kaverapuri = {
+				}
+				b_karmara_kaverapuri = {
+				}
+				b_kouroula_kaverapuri = {
+				}
+			}
+			c_madura = {
+				color={ 140 75 75 }
+				color2={ 255 255 255 }
+				
+				b_madura_madura = {
+				}
+				b_perinkari_madura = {
+				}
+				b_akour_madura = {
+				}
+			}
+			c_srirangam = {
+				color={ 140 75 75 }
+				color2={ 255 255 255 }
+				
+				b_srirangam_srirangam = {
+				}
+				b_bata_srirangam = {
+				}
+			}
+		}
+		d_kerala = {
+			color={ 200 120 120 }
+			color2={ 255 255 255 }
+			
+			c_kumari = {
+				color={ 200 120 120 }
+				color2={ 255 255 255 }
+				
+				b_kumari_kumari = {
+				}
+				b_mahendragiri_kumari = {
+				}
+				b_kolchoi_kumari = {
+				}
+			}
+			c_rajapuri = {
+				color={ 200 120 120 }
+				color2={ 255 255 255 }
+				
+				b_rajapuri_rajapuri = {
+				}
+				b_sabarigiri_rajapuri = {
+				}
+			}
+			c_syanantapur = {
+				color={ 200 120 120 }
+				color2={ 255 255 255 }
+				
+				b_syanantapur_syanantapur = {
+				}
+				b_agastyakuta_syanantapur = {
+				}
+				b_balita_syanantapur = {
+				}
+				b_elankoros_syanantapur = {
+				}
+			}
+		}
+		d_mushika = {
+			color={ 188 133 35 }
+			color2={ 255 255 255 }
+			
+			c_mahishapuri = {
+				color= { 140 200 100 }
+				color2= { 255 255 255 }
+				
+				b_mahishapuri_mahishapuri = {
+				}
+				b_brahmagiri_mahishapuri = {
+				}
+				b_kolwa_mahishapuri = {
+				}
+				b_tyndis_mahishapuri = {
+				}
+			}
+			c_satyaputra = {
+				color= { 140 200 100 }
+				color2= { 255 255 255 }
+				
+				b_satyaputra_satyaputra = {
+				}
+				b_nilagiri_satyaputra = {
+				}
+				b_selour_satyaputra = {
+				}
+				b_kourelloura_satyaputra = {
+				}
+			}
+			c_mohodayapur = {
+				color= { 140 200 100 }
+				color2= { 255 255 255 }
+				
+				b_mohodayapur_mohodayapur = {
+				}
+				b_aloe_mohodayapur = {
+				}
+				b_tropina_mohodayapur = {
+				}
+				b_paloura_mohodayapur = {
+				}
+			}
+		}
+		
+	}
+	k_karnataka = {
+		color={ 150 20 0 }
+		color2={ 255 255 255 }
+		
+		capital = 682 # Taiakata
+		
+		allow = {
+			or = {
+				culture_group = indian
+				culture_group = dravidian
+			}
+		}
+		
+		d_tulunga = {
+			color={ 110 25 2 }
+			color2={ 255 255 255 }
+			
+			c_saupamike = {
+				color={ 110 25 2 }
+				color2={ 255 255 255 }
+				
+				b_saupamike_saupamike = {
+				}
+				b_olochoira_saupamike = {
+				}
+			}
+			c_kalligeris = {
+				color={ 110 25 2 }
+				color2={ 255 255 255 }
+				
+				b_kalligeris_kalligeris = {
+				}
+				b_risyamuka_kalligeris = {
+				}
+			}
+		}
+		d_kishkindha = {
+			color={ 108 23 29 }
+			color2={ 255 255 255 }
+			
+			c_kishkindha = {
+				color={ 108 23 29 }
+				color2={ 255 255 255 }
+				
+				b_kishkindha_kishkindha = {
+				}
+				b_bhatkuli_kishkindha = {
+				}
+			}
+			c_nrirgunta = {
+				color={ 108 23 29 }
+				color2={ 255 255 255 }
+				
+				b_nrirgunta_nrirgunta = {
+				}
+				b_modogoula_nrirgunta = {
+				}
+			}
+		}
+		d_gomanta = {
+			color={ 178 93 29 }
+			color2={ 255 255 255 }
+			
+			c_gokama = {
+				color={ 178 93 29 }
+				color2={ 255 255 255 }
+				
+				b_gokama_gokama = {
+				}
+				b_naoura_gokama = {
+				}
+			}
+			c_gomantaka = {
+				color={ 178 93 29 }
+				color2={ 255 255 255 }
+				
+				b_gomantaka_gomantaka = {
+				}
+				b_vadgaon_gomantaka = {
+				}
+			}
+		}
+		d_konkana = {
+			color={ 150 20 0 }
+			color2={ 255 255 255 }
+			
+			c_taiakata = {
+				color={ 150 20 0 }
+				color2={ 255 255 255 }
+				
+				b_taiakata_taiakata = {
+				}
+				b_mandagara_taiakata = {
+				}
+				b_toparon_taiakata = {
+				}
+				b_milizigeris_taiakata = {
+				}
+			}
+			c_kolhapuri = {
+				color={ 150 20 0 }
+				color2={ 255 255 255 }
+				
+				b_kolhapuri_kolhapuri = {
+				}
+			}
+		}
+	}
+	k_kalinga = {
+		color={ 195 50 55 }
+		color2={ 220 220 0 }
+		
+		capital = 695 # Kalingapur
+		
+		allow = {
+			or = {
+				culture_group = indian
+				culture_group = dravidian
+			}
+		}
+		
+		d_odra = {
+			color={ 185 39 45 }
+			color2={ 255 255 255 }
+			
+			c_bamanghati = {
+				color={ 185 39 45 }
+				color2={ 255 255 255 }
+				
+				b_bamanghati_bamanghati = {
+				}
+			}
+			c_uttara_osali = {
+				color={ 185 39 45 }
+				color2={ 255 255 255 }
+				
+				b_uttara_osali_uttara_osali = {
+				}
+			}
+			c_rajapura = {
+				color={ 185 39 45 }
+				color2={ 255 255 255 }
+				
+				b_rajapura_rajapura = {
+				}
+				b_sisupalapuri_rajapura = {
+				}
+			}
+		}
+		d_kalinga = {
+			color={ 195 50 55 }
+			color2={ 220 220 0 }
+			
+			c_arkapuri = {
+				color={ 195 50 55 }
+				color2={ 220 220 0 }
+				
+				b_arkapuri_arkapuri = {
+				}
+				b_tosali_arkapuri = {
+				}
+			}
+			c_asuraghata = {
+				color={ 195 50 55 }
+				color2={ 220 220 0 }
+				
+				b_asuraghata_asuraghata = {
+				}
+				b_samapa_asuraghata = {
+				}
+				b_swetaka_asuraghata = {
+				}
+			}
+			c_kalingapur = {
+				color={ 195 50 55 }
+				color2={ 220 220 0 }
+				
+				b_kalingapur_kalingapur = {
+				}
+				b_manipura_kalingapur = {
+				}
+				b_mahendram_kalingapur = {
+				}
+				b_dandagula_kalingapur = {
+				}
+			}
+		}
+		d_telinga = {
+			color={ 130 0 20 }
+			color2={ 255 255 255 }
+			
+			c_sabara = {
+				color={ 130 0 20 }
+				color2={ 255 255 255 }
+				
+				b_sabara_sabara = {
+				}
+				b_sippara_sabara = {
+				}
+			}
+			c_nastullapur = {
+				color={ 130 0 20 }
+				color2={ 255 255 255 }
+				
+				b_nastullapur_nastullapur = {
+				}
+			}
+			c_pistapura = {
+				color={ 130 0 20 }
+				color2={ 255 255 255 }
+				
+				b_pistapura_pistapura = {
+				}
+				b_rajanagari_pistapura = {
+				}
+			}
+			c_korounkala = {
+				color={ 130 0 20 }
+				color2={ 255 255 255 }
+				
+				b_korounkala_korounkala = {
+				}
+			}
+		}
+		d_andhraka = {
+			color={ 110 0 20 }
+			color2={ 220 220 20 }
+			
+			c_kannagara = {
+				color={ 110 0 20 }
+				color2={ 220 220 20 }
+				
+				b_kannagara_kannagara = {
+				}
+				b_alosygni_kannagara = {
+				}
+				b_benagouron_kannagara = {
+				}
+				b_koddoura_kannagara = {
+				}
+			}
+			c_nanigaina = {
+				color={ 110 0 20 }
+				color2={ 220 220 20 }
+				
+				b_nanigaina_nanigaina = {
+				}
+			}
+			c_kantakossyla = {
+				color={ 110 0 20 }
+				color2={ 220 220 20 }
+				
+				b_kantakossyla_kantakossyla = {
+				}
+				b_pitoura_kantakossyla = {
+				}
+			}
+			c_ahobhilam = {
+				color={ 110 0 20 }
+				color2={ 220 220 20 }
+				
+				b_ahobhilam_ahobhilam = {
+				}
+				b_kottis_ahobhilam = {
+				}
+			}
+		}
+	}
+	k_ganga = {
+		color = { 32 128 55 }
+		color2={ 255 255 20 }
+		
+		capital = 704 # Tamralipti
+		
+		allow = {
+			or = {
+				culture_group = indian
+				culture_group = dravidian
+			}
+		}
+		
+		d_vanga = {
+			color = { 30 125 55 }
+			color2={ 255 255 255 }
+			
+			c_tamralipti = {
+				color = { 30 125 55 }
+				color2={ 255 255 255 }
+				
+				b_tamralipti_tamralipti = {
+				}
+				b_selampoura_tamralipti = {
+				}
+			}
+			c_navadwipa = {
+				color = { 30 125 55 }
+				color2={ 255 255 255 }
+				
+				b_navadwipa_navadwipa = {
+				}
+				b_pertalis_navadwipa = {
+				}
+				b_katadoupe_navadwipa = {
+				}
+			}
+			c_aganagara = {
+				color = { 30 125 55 }
+				color2={ 255 255 255 }
+				
+				b_aganagara_aganagara = {
+				}
+			}
+		}
+		d_vardhamana = {
+			color = { 36 175 65 }
+			color2={ 255 255 255 }
+			
+			c_paundra = {
+				color = { 36 175 65 }
+				color2={ 255 255 255 }
+				
+				b_paundra_paundra = {
+				}
+				b_pundranagara_paundra = {
+				}
+				b_kelyna_paundra = {
+				}
+			}
+			c_balipura = {
+				color = { 36 175 65 }
+				color2= { 255 255 255 }
+				
+				b_balipura_balipura = {
+				}
+				b_souannagoura_balipura = {
+				}
+			}
+			c_devaprastha = {
+				color = { 36 175 65 }
+				color2= { 255 255 255 }
+				
+				b_devaprastha_devaprastha = {
+				}
+				b_champapuri_devaprastha = {
+				}
+			}
+		}
+		d_utkala = {
+			color = { 40 160 40 }
+			color2= { 255 255 255 }
+			
+			c_sada = {
+				color = { 40 160 40 }
+				color2= { 255 255 255 }
+				
+				b_sada_sada = {
+				}
+				b_mayuragiri_sada = {
+				}
+			}
+			c_dantapura = {
+				color = { 40 160 40 }
+				color2= { 255 255 255 }
+				
+				b_dantapura_dantapura = {
+				}
+				b_medinipuri_dantapura = {
+				}
+			}
+			c_chandrakata = {
+				color = { 40 160 40 }
+				color2= { 255 255 255 }
+				
+				b_chandrakata_chandrakata = {
+				}
+			}
+		}
+	}
+	k_maghada = {
+		color = { 40 160 40 }
+		color2= { 255 255 255 }
+		
+		capital = 719 # Pataliputra
+		
+		allow = {
+			or = {
+				culture_group = indian
+				culture_group = dravidian
+			}
+		}
+		
+		d_maghada = {
+			color = { 35 165 35 }
+			color2= { 255 255 255 }
+			
+			c_pataliputra = {
+				color = { 35 165 35 }
+				color2= { 255 255 255 }
+				
+				b_pataliputra_pataliputra = {
+				}
+				b_rajagriha_pataliputra = {
+				}
+				b_girivraja_pataliputra = {
+				}
+				b_kakouthis_pataliputra = {
+				}
+				b_dosara_pataliputra = {
+				}
+			}
+			c_dandakabhukt = {
+				color = { 35 165 35 }
+				color2= { 255 255 255 }
+				
+				b_dandakabhukt_dandakabhukt = {
+				}
+				b_malini_dandakabhukt = {
+				}
+			}
+			c_asura = {
+				color = { 35 165 35 }
+				color2= { 255 255 255 }
+				
+				b_asura_asura = {
+				}
+			}
+		}
+		d_suparsa = {
+			color = { 20 125 20 }
+			color2= { 255 255 255 }
+			
+			c_rohitaswa = {
+				color = { 20 125 20 }
+				color2= { 255 255 255 }
+				
+				b_rohitaswa_rohitaswa = {
+				}
+			}
+			c_asthagoura = {
+				color = { 20 125 20 }
+				color2= { 255 255 255 }
+				
+				b_asthagoura_asthagoura = {
+				}
+				b_chitrakuta_asthagoura = {
+				}
+			}
+		}
+		d_nishada = {
+			color = { 60 200 60 }
+			color2= { 255 255 255 }
+			
+			c_kusavati = {
+				color = { 60 200 60 }
+				color2= { 255 255 255 }
+				
+				b_kusavati_kusavati = {
+				}
+			}
+			c_sringivera = {
+				color = { 60 200 60 }
+				color2= { 255 255 255 }
+				
+				b_sringivera_sringivera = {
+				}
+				b_kasi_sringivera = {
+				}
+				b_prayaga_sringivera = {
+				}
+			}
+			c_ayodhya = {
+				color = { 60 200 60 }
+				color2= { 255 255 255 }
+				
+				b_ayodhya_ayodhya = {
+				}
+				b_nandi_grama_ayodhya = {
+				}
+			}
+		}
+	}
+	k_nipalaya = {
+		color={ 6 127 80 }
+		color2={ 255 255 255 }
+		
+		capital = 712 # Kapilavastu
+		
+		allow = {
+			or = {
+				culture_group = indian
+				culture_group = dravidian
+			}
+		}
+		
+		d_videha = {
+			color={ 15 140 50 }
+			color2={ 255 255 255 }
+			
+			c_modagiri = {
+				color={ 15 140 50 }
+				color2= { 255 255 255 }
+				
+				b_modagiri_modagiri = {
+				}
+				b_vaisali_modagiri = {
+				}
+			}
+			c_mithila = {
+				color={ 15 140 50 }
+				color2= { 255 255 255 }
+				
+				b_mithila_mithila = {
+				}
+				b_sita_mithila = {
+				}
+			}
+			c_sankasya = {
+				color={ 15 140 50 }
+				color2= { 255 255 255 }
+				
+				b_sankasya_sankasya = {
+				}
+			}
+		}
+		d_malla = {
+			color={ 15 220 80 }
+			color2= { 255 255 255 }
+			
+			c_kapilayastu = {
+				color={ 15 220 80 }
+				color2= { 255 255 255 }
+				
+				b_kapilayastu_kapilayastu = {
+				}
+				b_sravasti_kapilayastu = {
+				}
+			}
+			c_gopala_kaksha = {
+				color={ 15 220 80 }
+				color2= { 255 255 255 }
+				
+				b_gopala_kaksha_gopala_kaksha = {
+				}
+				b_rhappha_gopala_kaksha = {
+				}
+			}
+			c_nepalakaksha = {
+				color={ 15 220 80 }
+				color2= { 255 255 255 }
+				
+				b_nepalakaksha_nepalakaksha = {
+				}
+				b_heorta_nepalakaksha = {
+				}
+			}
+		}
+		d_kimpurusha = {
+			color={ 40 200 150 }
+			color2= { 255 255 255 }
+			
+			c_alaka = {
+				color={ 40 200 150 }
+				color2= { 255 255 255 }
+				
+				b_alaka_alaka = {
+				}
+				b_kailasa_alaka = {
+				}
+			}
+			c_kinnara = {
+				color={ 40 200 150 }
+				color2= { 255 255 255 }
+				
+				b_kinnara_kinnara = {
+				}
+			}
+		}
+	}
+	k_surashtra = {
+		color={ 155 80 28 }
+		color2={ 255 255 255 }
+		
+		capital = 728 # Surashtra
+		
+		allow = {
+			or = {
+				culture_group = indian
+				culture_group = dravidian
+			}
+		}
+		
+		d_anarta = {
+			color={ 195 50 10 }
+			color2={ 255 255 255 }
+			
+			c_sankadara = {
+				color={ 195 50 10 }
+				color2={ 255 255 255 }
+				
+				b_sankadara_sankadara = {
+				}
+				b_antardwipa_sankadara = {
+				}
+				b_kanthi_sankadara = {
+				}
+			}
+			c_dwaraka = {
+				color={ 195 50 10 }
+				color2={ 255 255 255 }
+				
+				b_dwaraka_dwaraka = {
+				}
+				b_monoglosson_dwaraka = {
+				}
+				b_astakapra_dwaraka = {
+				}
+			}
+			c_automula = {
+				color={ 195 50 10 }
+				color2={ 255 255 255 }
+				
+				b_saraswatapura_automula = {
+				}
+				b_raivata_automula = {
+				}
+				b_automula_automula = {
+				}
+			}
+		}
+		d_saraswata = {
+			color={ 200 150 90 }
+			color2={ 255 255 255 }
+			
+			c_prabbasa = {
+				color={ 200 150 90 }
+				color2={ 255 255 255 }
+				
+				b_prabbasa_prabbasa = {
+				}
+				b_ahirvati_prabbasa = {
+				}
+			}
+			c_sarmista = {
+				color={ 200 150 90 }
+				color2={ 255 255 255 }
+				
+				b_sarmista_sarmista = {
+				}
+				b_sristhali_sarmista = {
+				}
+			}
+		}
+		d_surashtra = {
+			color={ 220 100 50 }
+			color2={ 255 255 255 }
+			
+			c_bhrigukaksha = {
+				color={ 220 100 50 }
+				color2={ 255 255 255 }
+				
+				b_bhrigukaksha_bhrigukaksha = {
+				}
+				b_kammoni_bhrigukaksha = {
+				}
+				b_vadodara_bhrigukaksha = {
+				}
+			}
+			c_surashtra = {
+				color={ 220 100 50 }
+				color2={ 255 255 255 }
+				
+				b_surashtra_surashtra = {
+				}
+				b_nousaripa_surashtra = {
+				}
+				b_poulipoula_surashtra = {
+				}
+			}
+		}
+	}
+	k_ganga_yamuna = {
+		color={ 220 150 75 }
+		color2={ 255 255 255 }
+		
+		capital = 739 # Manusa
+		
+		allow = {
+			or = {
+				culture_group = indian
+				culture_group = dravidian
+			}
+		}
+		
+		d_panchala = {
+			color={ 100 25 3 }
+			color2={ 255 255 255 }
+			
+			c_laharpur = {
+				color={ 100 25 3 }
+				color2={ 255 255 255 }
+				
+				b_laharpur_laharpur = {
+				}
+			}
+			c_ahichatra = {
+				color={ 100 25 3 }
+				color2={ 255 255 255 }
+				
+				b_ahichatra_ahichatra = {
+				}
+			}
+			c_aninacha = {
+				color={ 100 25 3 }
+				color2={ 255 255 255 }
+				
+				b_aninacha_aninacha = {
+				}
+			}
+		}
+		d_kuru = {
+			color={ 210 65 12 }
+			color2={ 255 255 255 }
+			
+			c_haridwara = {
+				color={ 210 65 12 }
+				color2={ 255 255 255 }
+				
+				b_haridwara_haridwara = {
+				}
+				b_badari_haridwara = {
+				}
+				b_yamunotri_haridwara = {
+				}
+			}
+			c_paramana_koti = {
+				color={ 210 65 12 }
+				color2={ 255 255 255 }
+				
+				b_paramana_koti_paramana_koti = {
+				}
+				b_varanavati_paramana_koti = {
+				}
+			}
+			c_hastinapura = {
+				color={ 210 65 12 }
+				color2={ 255 255 255 }
+				
+				b_hastinapura_hastinapura = {
+				}
+				b_vardhamana_hastinapura = {
+				}
+			}
+			c_vrukastali = {
+				color={ 210 65 12 }
+				color2={ 255 255 255 }
+				
+				b_vrukastali_vrukastali = {
+				}
+				b_makandi_vrukastali = {
+				}
+				b_kampilya_vrukastali = {
+				}
+			}
+			c_kanjakubja = {
+				color={ 210 65 12 }
+				color2={ 255 255 255 }
+				
+				b_kanjakubja_kanjakubja = {
+				}
+				b_krivi_kanjakubja = {
+				}
+			}
+		}
+		d_surasena = {
+			color={ 150 45 10 }
+			color2={ 255 255 255 }
+			
+			c_karavapana = {
+				color={ 150 45 10 }
+				color2={ 255 255 255 }
+				
+				b_karavapana_karavapana = {
+				}
+				b_plaksha_karavapana = {
+				}
+			}
+			c_manusa = {
+				color={ 150 45 10 }
+				color2={ 255 255 255 }
+				
+				b_manusa_manusa = {
+				}
+				b_kurukhetra_manusa = {
+				}
+			}
+			c_indraprastha = {
+				color={ 150 45 10 }
+				color2={ 255 255 255 }
+				
+				b_indraprastha_indraprastha = {
+				}
+				b_salibhavana_indraprastha = {
+				}
+				b_rohitaka_indraprastha = {
+				}
+				b_swarnaprastha_indraprastha = {
+				}
+			}
+			c_mathura = {
+				color={ 150 45 10 }
+				color2={ 255 255 255 }
+				
+				b_mathura_mathura = {
+				}
+				b_batankaisara_mathura = {
+				}
+				b_yamaprastha_mathura = {
+				}
+			}
+		}
+	}
+	k_gandhara = {
+		color={ 255 90 20 }
+		color2={ 255 255 255 }
+		
+		capital = 292 # Taxila
+		
+		allow = {
+			or = {
+				culture_group = indian
+				culture_group = dravidian
+			}
+		}
+		
+		d_nishkuta = {
+			color={ 234 100 21 }
+			color2={ 255 255 255 }
+			
+			c_skardu = {
+				color={ 234 100 21 }
+				color2={ 255 255 255 }
+				
+				b_skardu_skardu = {
+				}
+			}
+			c_loha = {
+				color={ 234 100 21 }
+				color2={ 255 255 255 }
+				
+				b_loha_loha = {
+				}
+			}
+		}
+		d_kasmira = {
+			color={ 180 110 41 }
+			color2={ 255 255 255 }
+			
+			c_sringara = {
+				color={ 180 110 41 }
+				color2={ 255 255 255 }
+				
+				b_sringara_sringara = {
+				}
+			}
+			c_avisari = {
+				color={ 180 110 41 }
+				color2={ 255 255 255 }
+				
+				b_avisari_avisari = {
+				}
+			}
+		}
+		d_uttara_jyotisha = {
+			color={ 255 150 31 }
+			color2={ 255 255 255 }
+			
+			c_taxila = {
+				color={ 255 150 31 }
+				color2={ 255 255 255 }
+				
+				b_taxila_taxila = {
+				}
+				b_rudera_taxila = {
+				}
+			}
+			c_rajavasa = {
+				color={ 255 150 31 }
+				color2={ 255 255 255 }
+				
+				b_rajavasa_rajavasa = {
+				}
+				b_anantanaga_rajavasa = {
+				}
+			}
+		}
+		d_gandhara = {
+			color={ 255 90 20 }
+			color2={ 255 255 255 }
+			
+			c_massaka = {
+				color={ 255 90 20 }
+				color2={ 255 255 255 }
+				
+				b_uraga_massaka = {
+				}
+				b_puskalavati_massaka = {
+				}
+				b_aoritos_massaka = {
+				}
+			}
+			c_yavana = {
+				color={ 255 90 20 }
+				color2={ 255 255 255 }
+				
+				b_yavana_yavana = {
+				}
+				b_arigaion_yavana = {
+				}
+				b_peukelaotis_yavana = {
+				}
+				b_purushapura_yavana = {
+				}
+			}
+			c_kapisa = {
+				color={ 255 90 20 }
+				color2={ 255 255 255 }
+				
+				b_kapisa_kapisa = {
+				}
+			}
+		}
+	}
+	k_pancha_nada = {
+		color={ 200 70 0 }
+		color2={ 255 255 255 }
+		
+		capital = 289 # Asibipura
+		
+		allow = {
+			or = {
+				culture_group = indian
+				culture_group = dravidian
+			}
+		}
+		
+		d_sivi = {
+			color={ 194 67 10 }
+			color2={ 255 255 255 }
+			
+			c_attock = {
+				color={ 194 67 10 }
+				color2={ 255 255 255 }
+				
+				b_sindhu_attock = {
+				}
+			}
+			c_bandobene = {
+				color={ 194 67 10 }
+				color2={ 255 255 255 }
+				
+				b_artoata_bandobene = {
+				}
+				b_massaga_bandobene = {
+				}
+			}
+			c_singhapura = {
+				color={ 194 67 10 }
+				color2={ 255 255 255 }
+				
+				b_singhapura_singhapura = {
+				}
+				b_amara_singhapura = {
+				}
+			}
+		}
+		d_madra = {
+			color={ 144 47 0 }
+			color2={ 255 255 255 }
+			
+			c_mallorum = {
+				color={ 144 47 0 }
+				color2={ 255 255 255 }
+				
+				b_mulasthana_mallorum = {
+				}
+			}
+			c_asibipura = {
+				color={ 144 47 0 }
+				color2={ 255 255 255 }
+				
+				b_asibipura_asibipura = {
+				}
+				b_divyakutta_asibipura = {
+				}
+				b_sacala_asibipura = {
+				}
+			}
+			c_boukephala = {
+				color={ 144 47 0 }
+				color2={ 255 255 255 }
+				
+				b_bucephala_boukephala = {
+				}
+				b_nicaea_boukephala = {
+				}
+			}
+		}
+		d_trigarta = {
+			color={ 150 60 30 }
+			color2={ 255 255 255 }
+			
+			c_sapta_saraswati = {
+				color={ 150 60 30 }
+				color2={ 255 255 255 }
+				
+				b_sapta_saraswati_sapta_saraswati = {
+				}
+			}
+			c_prasthala = {
+				color={ 150 60 30 }
+				color2={ 255 255 255 }
+				
+				b_prasthala_prasthala = {
+				}
+				b_lomasa_prasthala = {
+				}
+			}
+			c_vipasa = {
+				color={ 150 60 30 }
+				color2={ 255 255 255 }
+				
+				b_vipasa_vipasa = {
+				}
+			}
+			c_viswagaswa = {
+				color={ 150 60 30 }
+				color2={ 255 255 255 }
+				
+				b_viswagaswa_viswagaswa = {
+				}
+			}
+		}
+	}
+	k_sindhu = {
+		color={ 225 135 20 }
+		color2={ 255 255 255 }
+		
+		capital = 287 # Nagramma
+		
+		allow = {
+			or = {
+				culture_group = indian
+				culture_group = dravidian
+			}
+		}
+		
+		d_sindhu = {
+			color={ 240 135 20 }
+			color2={ 255 255 255 }
+			
+			c_sogdorum_regia = {
+				color={ 240 135 20 }
+				color2={ 255 255 255 }
+				
+				b_banagara_sogdorum_regia = {
+				}
+				b_cuni_sogdorum_regia = {
+				}
+				b_sogdorum_regia_sogdorum_regia = {
+				}
+			}
+			c_gynaikon_limen = {
+				color={ 240 135 20 }
+				color2={ 255 255 255 }
+				
+				b_oxiana_gynaikon_limen = {
+				}
+				b_sindomana_gynaikon_limen = {
+				}
+				b_sacola_gynaikon_limen = {
+				}
+				b_barbara_gynaikon_limen = {
+				}
+			}
+		}
+		d_yaudheya = {
+			color={ 200 105 18 }
+			color2={ 255 255 255 }
+			
+			c_gargasrota = {
+				color={ 200 105 18 }
+				color2={ 255 255 255 }
+				
+				b_gargasrota_gargasrota = {
+				}
+				b_alexandreia_gargasrota = {
+				}
+			}
+			c_vitabhya = {
+				color={ 200 105 18 }
+				color2={ 255 255 255 }
+				
+				b_vitabhya_vitabhya = {
+				}
+				b_subhumika_vitabhya = {
+				}
+				b_gandharva_vitabhya = {
+				}
+			}
+		}
+		d_sudra = {
+			color={ 225 135 20 }
+			color2={ 255 255 255 }
+			
+			c_naagramma = {
+				color={ 225 135 20 }
+				color2={ 255 255 255 }
+				
+				b_naagramma_nagramma = {
+				}
+				b_sivodbheda_naagramma = {
+				}
+				b_nagobedha_naagramma = {
+				}
+				b_sudra_naagramma = {
+				}
+				b_roruka_naagramma = {
+				}
+			}
+			c_patala = {
+				color={ 225 135 20 }
+				color2={ 255 255 255 }
+				
+				b_patala_patala = {
+				}
+				b_udapana_patala = {
+				}
+			}
+		}
+	}
+	k_matsya = {
+		color={ 255 200 25 }
+		color2={ 255 255 255 }
+		
+		capital = 760 # Viratapuri
+		
+		allow = {
+			or = {
+				culture_group = indian
+				culture_group = dravidian
+			}
+		}
+		
+		d_matsya = {
+			color={ 245 200 20 }
+			color2={ 255 255 255 }
+			
+			c_viratapuri = {
+				color={ 245 200 20 }
+				color2={ 255 255 255 }
+				
+				b_viratapuri_viratapuri = {
+				}
+				b_upaplavya_viratapuri = {
+				}
+			}
+			c_dwaita = {
+				color={ 245 200 20 }
+				color2={ 255 255 255 }
+				
+				b_dwaita_dwaita = {
+				}
+				b_nagadhanvana_dwaita = {
+				}
+			}
+			c_matsya_puri = {
+				color={ 245 200 20 }
+				color2={ 255 255 255 }
+				
+				b_matsya_puri_matsya_puri = {
+				}
+				b_sakambari_matsya_puri = {
+				}
+			}
+		}
+		d_salwa = {
+			color={ 210 150 15 }
+			color2={ 255 255 255 }
+			
+			c_vinasana = {
+				color={ 225 135 20 }
+				color2={ 255 255 255 }
+				
+				b_vinasana_vinasana = {
+				}
+				b_sankha_vinasana = {
+				}
+			}
+			c_pushara = {
+				color={ 225 135 20 }
+				color2={ 255 255 255 }
+				
+				b_pushara_pushara = {
+				}
+				b_mrittikavati_pushara = {
+				}
+			}
+		}
+		d_abhira = {
+			color={ 150 110 5 }
+			color2={ 255 255 255 }
+			
+			c_mandapura = {
+				color={ 225 135 20 }
+				color2={ 255 255 255 }
+				
+				b_mandapura_mandapura = {
+				}
+				b_chamasodbheda_mandapura = {
+				}
+			}
+			c_ekalavya = {
+				color={ 225 135 20 }
+				color2={ 255 255 255 }
+				
+				b_ekalavya_ekalavya = {
+				}
+			}
+		}
+	}
+	k_maharashtrika = {
+		color={ 150 0 20 }
+		color2={ 255 255 255 }
+		
+		capital = 766 # Janasthana
+		
+		allow = {
+			or = {
+				culture_group = indian
+				culture_group = dravidian
+			}
+		}
+		
+		d_surparaka = {
+			color={ 155 5 30 }
+			color2={ 255 255 255 }
+			
+			c_semylla = {
+				color={ 155 5 30 }
+				color2={ 255 255 255 }
+				
+				b_semylla_semylla = {
+				}
+				b_mahabaleswara_semylla = {
+				}
+				b_mandagara_semylla = {
+				}
+			}
+			c_matanga = {
+				color={ 155 5 30 }
+				color2={ 255 255 255 }
+				
+				b_matanga_matanga = {
+				}
+				b_souppara_matanga = {
+				}
+				b_kalyani_matanga = {
+				}
+			}
+			c_agastyavati = {
+				color={ 155 5 30 }
+				color2={ 255 255 255 }
+				
+				b_agastyavati_agastyavati = {
+				}
+				b_naskila_agastyavati = {
+				}
+				b_deopalli_agastyavati = {
+				}
+				b_saivala_agastyavati = {
+				}
+			}
+		}
+		d_anupa = {
+			color={ 115 20 40 }
+			color2={ 255 255 255 }
+			
+			c_panchavati = {
+				color={ 115 20 40 }
+				color2={ 255 255 255 }
+				
+				b_panchavati_panchavati = {
+				}
+				b_lata_panchavati = {
+				}
+				b_tiagoura_panchavati = {
+				}
+			}
+			c_surpana = {
+				color={ 115 20 40 }
+				color2={ 255 255 255 }
+				
+				b_surpana_surpana = {
+				}
+			}
+		}
+		d_dandaka = {
+			color={ 120 50 90 }
+			color2={ 255 255 255 }
+			
+			c_janasthana = {
+				color={ 120 50 90 }
+				color2={ 255 255 255 }
+				
+				b_janasthana_janasthana = {
+				}
+			}
+			c_pratisthana = {
+				color={ 120 50 90 }
+				color2={ 255 255 255 }
+				
+				b_pratishtana_pratishtana = {
+				}
+				b_rastrika_pratishtana = {
+				}
+				b_paithana_pratishtana = {
+				}
+			}
+			c_balistali = {
+				color={ 120 50 90 }
+				color2={ 255 255 255 }
+				
+				b_balistali_balistali = {
+				}
+			}
+		}
+		d_heheya = {
+			color={ 220 99 85 }
+			color2={ 255 255 255 }
+			
+			c_mahishmati = {
+				color={ 220 99 85 }
+				color2={ 255 255 255 }
+				
+				b_mahishmati_mahishmati = {
+				}
+			}
+			c_bhokardan = {
+				color={ 220 99 85 }
+				color2={ 255 255 255 }
+				
+				b_bhokardan_bhokardan = {
+				}
+			}
+		}
+		d_vakataka = {
+			color={ 255 70 160 }
+			color2={ 255 255 255 }
+			
+			c_siripalla = {
+				color={ 255 70 160 }
+				color2={ 255 255 255 }
+				
+				b_siripalla_siripalla = {
+				}
+				b_tripuri_siripalla = {
+				}
+			}
+			c_bhojakata = {
+				color={ 255 70 160 }
+				color2={ 255 255 255 }
+				
+				b_bhojakata_bhojakata = {
+				}
+				b_nagagoura_bhojakata = {
+				}
+				b_sambuka_bhojakata = {
+				}
+			}
+		}
+	}
+	k_dakshina_kosala = {
+		color={ 68 208 51 }
+		color2={ 255 255 255 }
+		
+		capital = 786 # Sripura
+		
+		allow = {
+			or = {
+				culture_group = indian
+				culture_group = dravidian
+			}
+		}
+		
+		d_kekala = {
+			color={ 58 178 41 }
+			color2={ 255 255 255 }
+			
+			c_amarakandaka = {
+				color={ 58 178 41 }
+				color2={ 255 255 255 }
+				
+				b_amarakandaka_amarakandaka = {
+				}
+			}
+			c_bilaspur = {
+				color={ 58 178 41 }
+				color2={ 255 255 255 }
+				
+				b_bilaspur_bilaspur = {
+				}
+			}
+			c_sripura = {
+				color={ 58 178 41 }
+				color2={ 255 255 255 }
+				
+				b_sripura_sripura = {
+				}
+				b_sarabhapura_sripura = {
+				}
+			}
+		}
+		d_taitilaka = {
+			color={ 150 235 91 }
+			color2={ 255 255 255 }
+			
+			c_sabara_maharashtri = {
+				color={ 255 70 160 }
+				color2={ 255 255 255 }
+				
+				b_sabara_sabara_maharashtri = {
+				}
+			}
+			c_sisupalgarh = {
+				color={ 150 235 91 }
+				color2={ 255 255 255 }
+				
+				b_sisupalgarh_sisupalgarh = {
+				}
+			}
+			c_kundinapuri = {
+				color={ 150 235 91 }
+				color2={ 255 255 255 }
+				
+				b_kundinapuri_kundinapuri = {
+				}
+			}
+		}
+	}
+	k_avanti = {
+		color={ 205 60 10 }
+		color2={ 255 255 255 }
+		
+		capital = 772 # Ujjayani
+		
+		allow = {
+			or = {
+				culture_group = indian
+				culture_group = dravidian
+			}
+		}
+		
+		d_malava = {
+			color={ 225 155 77 }
+			color2={ 255 255 255 }
+			
+			c_madhyamika = {
+				color={ 225 155 77 }
+				color2={ 255 255 255 }
+				
+				b_madyamika_madyamika = {
+				}
+				b_udayapuri_madyamika = {
+				}
+			}
+			c_lava = {
+				color={ 225 155 77 }
+				color2={ 255 255 255 }
+				
+				b_lava_lava = {
+				}
+			}
+		}
+		d_kunti = {
+			color={ 180 110 40 }
+			color2={ 255 255 255 }
+			
+			c_bhojapuri = {
+				color={ 180 110 40 }
+				color2={ 255 255 255 }
+				
+				b_bhojapuri_bhojapuri = {
+				}
+			}
+			c_ujjayani = {
+				color={ 180 110 40 }
+				color2={ 255 255 255 }
+				
+				b_ujjayani_ujjayani = {
+				}
+			}
+		}
+		d_karusha = {
+			color={ 120 50 10 }
+			color2={ 255 255 255 }
+			
+			c_savira = {
+				color={ 120 50 10 }
+				color2={ 255 255 255 }
+				
+				b_savira_savira = {
+				}
+				b_vetrakiya_savira = {
+				}
+			}
+			c_dantipura = {
+				color={ 120 50 10 }
+				color2={ 255 255 255 }
+				
+				b_dantipura_dantipura = {
+				}
+				b_eragassa_dantipura = {
+				}
+			}
+			c_kognabanda = {
+				color={ 120 50 10 }
+				color2={ 255 255 255 }
+				
+				b_kognabanda_kognabanda = {
+				}
+				b_vidisa_kognabanda = {
+				}
+			}
+		}
+		d_dasarna = {
+			color={ 205 60 10 }
+			color2={ 255 255 255 }
+			
+			c_suktivati = {
+				color={ 205 60 10 }
+				color2={ 255 255 255 }
+				
+				b_suktivati_suktivati = {
+				}
+			}
+			c_visnapuri = {
+				color={ 205 60 10 }
+				color2={ 255 255 255 }
+				
+				b_visnapuri_visnapuri = {
+				}
+				b_valmika_visnapuri = {
+				}
+			}
+		}
+		d_mekala = {
+			color={ 108 23 29 }
+			color2={ 255 255 255 }
+			
+			c_kausambi = {
+				color={ 150 235 91 }
+				color2={ 255 255 255 }
+				
+				b_kausambi_kausambi = {
+				}
+				b_ozoana_kausambi = {
+				}
+				b_ekachakra_kausambi = {
+				}
+			}
+			c_mirzapur = {
+				color={ 150 235 91 }
+				color2={ 255 255 255 }
+				
+				b_mirzapur_mirzapur = {
+				}
+			}
+			c_sarabhanga = {
+				color={ 150 235 91 }
+				color2={ 255 255 255 }
+				
+				b_sarabhanga_sarabhanga = {
+				}
+			}
+		}
+	}
+}
+e_asia = { # Antigonid
+	color= { 0 200 200 }
+	color2= { 255 255 255 }
+	
+	capital = 91 # Celaenae
+	
+	allow = {
+		always = no
+	}
+}
+e_syria = { # Seleucid
+	color= { 200 200 200 }
+	color2= { 255 255 255 }
+	
+	capital = 120 # Antiocheia
+	
+	allow = {
+		always = no
+	}
+	
+	male_names = {
+		Alexandros Antiochos Demetrios Philippos Seleukos
+	}
+}
+e_egypt = { # Ptolemaic
+	color= { 225 200 0 }
+	color2= { 255 255 255 }
+	
+	capital = 139 # Alexandria
+	
+	allow = {
+		always = no
+	}
+	
+	male_names = {
+		Ptolemaios
+	}
+}
+e_rome = {	
+	color= { 125 0 0 }
+	color2= { 255 255 255 }
+	
+	capital = 324 # Roma
+	
+	allow = {
+		culture = latin
+	}
+	
+	title = "CONSUL"
+	short_name = yes
+}
+e_italia = {
+	color= { 125 0 0 }
+	color2= { 255 255 255 }
+	
+	capital = 332 # Spoletium
+	
+	allow = {
+		or = {
+			culture_group = italian
+			culture_group = tyrhenian
+			culture_group = north_italic
+		}
+		NOT = {
+			culture = latin
+			has_landed_title = e_rome			
+			has_landed_title = k_rome
+		}
+	}
+}
+e_gallia = {	
+	color= { 50 200 0 }
+	color2= { 255 255 255 }
+	
+	capital = 427 # Lugdunum
+	
+	allow = {
+		culture_group = celtic
+	}
+}
+e_dacia = {	
+	color= { 100 50 25 }
+	color2= { 255 255 255 }
+	
+	capital = 408 # Sarmizegetusa
+	
+	allow = {
+		culture = dacian
+	}
+}
+e_illyria = {	
+	color= { 25 255 125 }
+	color2= { 255 255 255 }
+	
+	capital = 69 # Delminium
+	
+	allow = {
+		culture_group = illyrian_group
+	}
+}
+e_hellas = {	
+	color= { 100 200 255 }
+	color2= { 255 255 255 }
+	
+	capital = 18 # Athens
+	
+	allow = {
+		or = {
+			culture = aeolian
+			culture = arcadian
+			culture = doric
+			culture = ionian
+		}
+	}
+}
+e_africa = {	
+	color= { 255 255 150 }
+	color2= { 255 255 255 }
+	
+	capital = 360 # Carthage
+	
+	allow = {
+		or = {
+			culture_group = north_african
+			culture_group = eastern_african
+			culture = punic
+		}
+	}
+}
+e_thracia = {	
+	color= { 150 75 0 }
+	color2= { 255 255 255 }
+	
+	capital = 38 # Philipopolis
+	
+	allow = {
+		culture = thracian
+	}
+}
+e_skudatpa = { # Scythia
+	color= { 225 150 0 }
+	color2= { 255 255 255 }
+	
+	k_katipa = {
+		color= { 225 150 0 }
+		color2= { 255 255 255 }
+		
+		d_katipa = {
+			color= { 225 150 0 }
+			color2= { 255 255 255 }
+			
+			c_katipa = {
+				color= { 215 150 10 }
+				color2= { 255 255 255 }
+				
+				b_katipa_katipa = {
+				}
+				b_kolmizda_katipa = {
+				}				
+			}
+			c_scythian_neapolis = {
+				color= { 225 150 0 }
+				color2= { 255 255 255 }
+					
+				b_scythian_neapolis_scythian_neapolis = {
+				}
+				b_api_scythian_neapolis = {
+				}
+				b_kissarkol_scythian_neapolis = {
+				}
+				b_sakol_scythian_neapolis = {
+				}				
+			}
+			c_arunca = {
+				color= { 225 140 10 }
+				color2= { 255 255 255 }
+					
+				b_arunca_arunca = {
+				}
+				b_takol_arunca = {
+				}				
+			}
+			c_katarun = {
+				color= { 215 160 0 }
+				color2= { 255 255 255 }
+				
+				b_katarun_katarun = {
+				}
+				b_zurkol_katarun = {
+				}				
+			}
+			c_rasin = {
+				color= { 235 160 0 }
+				color2= { 255 255 255 }
+											
+				b_rasin_rasin = {
+				}
+				b_pruhaca_rasin = {
+				}
+			}
+		}
+		d_bagaporata = {
+			color= { 225 175 0 }
+			color2= { 255 255 255 }
+			
+			c_agaraskapa = {
+				color= { 215 165 0 }
+				color2= { 255 255 255 }				
+				
+				b_agaraskapa_agaraskapa = {
+				}
+				b_bratakol_agaraskapa = {
+				}
+			}
+			c_bagaporata = {
+				color= { 225 175 0 }
+				color2= { 255 255 255 }				
+				
+				b_bagaporata_bagaporata = {
+				}
+				b_hurbla_bagaporata = {
+				}
+				b_navakol_bagaporata = {
+				}
+			}
+		}
+		d_syavaporata = {
+			color= { 225 150 25 }
+			color2= { 255 255 255 }
+			
+			c_madupa = {
+				color= { 215 150 15 }
+				color2= { 255 255 255 }				
+				
+				b_madupa_madupa = {
+				}
+			}
+			c_syavaporata = {
+				color= { 225 150 25 }
+				color2= { 255 255 255 }				
+				
+				b_syavaporata_syavaporata = {
+				}
+				b_udkol_syavaporata = {
+				}
+			}
+			c_satiporata = {				
+				color= { 225 160 35 }
+				color2= { 255 255 255 }
+				
+				b_satiporata_satiporata = {
+				}
+				b_madumata_satiporata = {
+				}
+			}
+			c_xessagarpa = {				
+				color= { 215 160 25 }
+				color2= { 255 255 255 }				
+				
+				b_xessagarpa_xessagarpa = {
+				}
+			}
+		}
+	}
+	k_kissarlewle = {
+		color= { 200 125 0 }
+		color2= { 255 255 255 }
+		
+		d_katipanti = {			
+			color= { 200 100 0 }
+			color2= { 255 255 255 }
+			
+			c_katipanti = {			
+				color= { 200 100 0 }
+				color2= { 255 255 255 }
+				
+				b_katipanti_katipanti = {
+				}
+				b_madugau_katipanti = {
+				}
+				b_syavataka_katipanti = {
+				}
+			}
+			c_ugrakus = {			
+				color= { 200 110 10 }
+				color2= { 255 255 255 }
+				
+				b_ugrakus_ugrakus = {
+				}
+				b_chivayabrata_ugrakus = {
+				}
+			}
+			c_scodizdaronma = {							
+				color= { 210 90 0 }
+				color2= { 255 255 255 }
+				
+				b_scodizdaronma_scodizdaronma = {
+				}
+				b_vadasca_scodizdaronma = {
+				}
+			}
+		}
+		d_kissarlewle = {			
+			color= { 200 125 0 }
+			color2= { 255 255 255 }			
+			
+			c_paraporatapanti = {				
+				color= { 210 125 10 }
+				color2= { 255 255 255 }
+				
+				b_paraporatapanti_paraporatapanti = {
+				}
+			}
+			c_upanti = {
+				color= { 200 115 10 }
+				color2= { 255 255 255 }
+				
+				b_upanti_upanti = {
+				}
+				b_arikol_upanti = {
+				}
+			}
+			c_kissarlewle = {
+				color= { 200 125 0 }
+				color2= { 255 255 255 }
+				
+				b_kissarlewle_kissarlewle = {
+				}
+				b_iaca_kissarlewle = {
+				}
+				b_mabaga_kissarlewle = {
+				}
+			}
+			c_vaskila = {
+				color= { 190 115 0 }
+				color2= { 255 255 255 }
+				
+				b_vaskila_vaskila = {
+				}
+				b_bagarma_vaskila = {
+				}
+			}
+		}
+		d_zevaka = {
+			color= { 200 150 0 }
+			color2= { 255 255 255 }
+			
+			c_varkataka = {
+				color= { 210 150 10 }
+				color2= { 255 255 255 }
+				
+				b_varkataka_varktaka = {
+				}
+			}
+			c_kusporata = {
+				color= { 190 140 0 }
+				color2= { 255 255 255 }
+				
+				b_kusporata_kusporata = {
+				}
+				b_dargakol_kusporata = {
+				}
+			}
+			c_zevaka = {
+				color= { 200 150 0 }
+				color2= { 255 255 255 }
+				
+				b_zevaka_zevaka = {
+				}
+				b_api_zevaka = {
+				}
+				b_astaka_zevaka = {
+				}
+			}
+		}
+		d_blamizda = {
+			color= { 200 125 25 }
+			color2= { 255 255 255 }
+			
+			c_blamizda = {
+				color= { 200 125 25 }
+				color2= { 255 255 255 }
+				
+				b_blamizda_blamizda = {
+				}
+				b_jaraca_blamizda = {
+				}
+			}
+			c_payporata = {
+				color= { 200 115 15 }
+				color2= { 255 255 255 }
+				
+				b_payporata_payporata = {
+				}
+			}
+		}
+		d_kusdvara = {
+			color= { 200 100 25 }
+			color2= { 255 255 255 }
+			
+			c_kusdvara = {
+				color= { 200 100 25 }
+				color2= { 255 255 255 }
+				
+				b_kusdvara_kusdvara = {
+				}
+				b_vaskica_kusdvara = {
+				}
+			}
+			c_brinvaski = {
+				color= { 190 90 25 }
+				color2= { 255 255 255 }
+				
+				b_brinvaski_brinvaski = {
+				}
+				b_frica_brinvaski = {
+				}
+			}
+			c_aribla = {
+				color= { 200 90 15 }
+				color2= { 255 255 255 }
+				
+				b_aribla_aribla = {
+				}
+				b_bakol_aribla = {
+				}
+			}
+		}
+		d_leipca = {
+			color= { 200 100 50 }
+			color2= { 255 255 255 }
+			
+			c_madulupa = {
+				color= { 200 90 40 }
+				color2= { 255 255 255 }
+				
+				b_madulupa_madulupa = {
+				}
+			}
+			c_leipca = {
+				color= { 200 100 50 }
+				color2= { 255 255 255 }
+				
+				b_leipca_leipca = {
+				}
+				b_frikol_leipca = {
+				}
+			}
+			c_hurkutipa = {
+				color= { 210 110 50 }
+				color2= { 255 255 255 }
+				
+				b_hurkutipa_hurkutipa = {
+				}
+			}
+		}
+	}
+	k_argimpasa = {
+		color= { 175 100 0 }
+		color2= { 255 255 255 }
+		
+		d_lipsoxais = {
+			color= { 175 100 25 }
+			color2= { 255 255 255 }
+			
+			c_lipsoxais = {
+				color= { 175 100 25 }
+				color2= { 255 255 255 }
+				
+				b_lipsoxais_lipsoxais = {
+				}
+				b_kaca_lipsoxais = {
+				}
+				b_lewlekol_lipsoxais = {
+				}
+			}
+			c_abralu = {
+				color= { 165 110 25 }
+				color2= { 255 255 255 }
+				
+				b_abralu_abralu = {
+				}
+				b_garukol_abralu = {
+				}
+			}
+			c_lopa = {
+				color= { 175 110 15 }
+				color2= { 255 255 255 }
+				
+				b_lopa_lopa = {
+				}
+			}
+			c_arparadata = {
+				color= { 185 100 35 }
+				color2= { 255 255 255 }
+				
+				b_arparadata_arparadata = {
+				}
+			}
+		}
+		d_alud = {
+			color= { 175 125 0 }
+			color2= { 255 255 255 }
+			
+			c_alud = {
+				color= { 175 125 0 }
+				color2= { 255 255 255 }
+				
+				b_alud_alud = {
+				}
+				b_katibla_alud = {
+				}
+			}
+			c_agarmadupa = {
+				color= { 175 115 10 }
+				color2= { 255 255 255 }
+				
+				b_agarmadupa_agarmadupa = {
+				}
+				b_zevakar_agarmadupa = {
+				}
+			}
+			c_bagabala = {
+				color= { 165 125 10 }
+				color2= { 255 255 255 }
+				
+				b_bagabala_bagabala = {
+				}
+			}
+			c_dargakala = {
+				color= { 165 135 0 }
+				color2= { 255 255 255 }
+				
+				b_dargakala_dargakala = {
+				}
+				b_agaruti_dargakala = {
+				}
+			}
+		}
+		d_argimpasa = {
+			color= { 175 100 0 }
+			color2= { 255 255 255 }
+			
+			c_adapa = {
+				color= { 185 110 0 }
+				color2= { 255 255 255 }
+				
+				b_adapa_adapa = {
+				}
+				b_navaud_adapa = {
+				}
+			}
+			c_dapanti = {
+				color= { 175 90 10 }
+				color2= { 255 255 255 }
+				
+				b_dapanti_dapanti = {
+				}
+				b_tada_dapanti = {
+				}
+			}
+			c_argimpasa = {
+				color= { 175 100 0 }
+				color2= { 255 255 255 }
+				
+				b_argimpasa_argimpasa = {
+				}
+				b_pruhaca_argimpasa = {
+				}
+				b_lokol_argimpasa = {
+				}
+			}
+			c_arungasti = {
+				color= { 165 90 0 }
+				color2= { 255 255 255 }
+				
+				b_arungasti_arungasti = {
+				}
+				b_badar_arungasti = {
+				}
+			}
+		}
+	}
+	k_hvarzkutipa = {
+		color= { 150 75 0 }
+		color2= { 255 255 255 }
+		
+		d_kissarun = {
+			color= { 150 75 25 }
+			color2= { 255 255 255 }
+			
+			c_kissarun = {
+				color= { 150 75 25 }
+				color2= { 255 255 255 }
+				
+				b_kissarun_kissarun = {
+				}
+				b_astakol_kissarun = {
+				}
+				b_darankar_kissarun = {
+				}
+			}
+			c_bagia = {
+				color= { 150 65 15 }
+				color2= { 255 255 255 }
+				
+				b_bagia_bagia = {
+				}
+				b_abrapo_bagia = {
+				}
+			}			
+			c_badyasko = {
+				color= { 140 65 25 }
+				color2= { 255 255 255 }
+				
+				b_badyasko_badyasko = {
+				}
+			}
+		}
+		d_paradatapa = {
+			color= { 150 75 50 }
+			color2= { 255 255 255 }
+			
+			c_gipa = {
+				color= { 150 65 60 }
+				color2= { 255 255 255 }
+				
+				b_gipa_gipa = {
+				}
+			}
+			c_astakol = {
+				color= { 140 75 40 }
+				color2= { 255 255 255 }
+				
+				b_astakol_astakol = {
+				}
+				b_batyasko_astakol = {
+				}
+			}
+			c_madula = {
+				color= { 150 65 40 }
+				color2= { 255 255 255 }
+				
+				b_madula_madula = {
+				}
+			}
+			c_paradatapa = {
+				color= { 150 75 50 }
+				color2= { 255 255 255 }
+				
+				b_paradatapa_paradatapa = {
+				}
+				b_hurmizda_paradatapa = {
+				}
+			}
+		}
+		d_syavakuspa = {
+			color= { 150 100 25 }
+			color2= { 255 255 255 }
+			
+			c_manur = {
+				color= { 150 110 15 }
+				color2= { 255 255 255 }
+				
+				b_manur_manur = {
+				}
+				b_batyakissar_manur = {
+				}
+			}
+			c_syavakuspa = {
+				color= { 150 100 25 }
+				color2= { 255 255 255 }
+
+				b_syavakuspa_syavakuspa = {
+				}
+				b_gikol_syavakuspa = {
+				}
+			}
+			c_brinar = {
+				color= { 140 90 25 }
+				color2= { 255 255 255 }
+				
+				b_brinar_brinar = {
+				}
+			}
+		}
+		d_hvarzkutipa = {
+			color= { 150 75 0 }
+			color2= { 255 255 255 }
+			
+			c_hvarzkutipa = {
+				color= { 150 75 0 }
+				color2= { 255 255 255 }
+				
+				b_hvarzkutipa_hvarzkutipa = {
+				}
+				b_saca_hvarzkutipa = {
+				}
+				b_navaca_hvarzkutipa = {
+				}
+			}
+			c_naradvara = {
+				color= { 160 75 10 }
+				color2= { 255 255 255 }
+				
+				b_naradvara_naradvara = {
+				}
+				b_dakus_naradvara = {
+				}
+			}
+			c_boradvara = {
+				color= { 160 65 0 }
+				color2= { 255 255 255 }
+				
+				b_boradvara_boradvara = {
+				}
+				b_batyakissar_boradvara = {
+				}
+			}
+		}
+	}
+	k_gaumizda = {
+		color= { 150 100 0 }
+		color2= { 255 255 255 }
+		
+		d_colaxais = {
+			color= { 150 125 0 }
+			color2= { 255 255 255 }
+			
+			c_navasati = {
+				color= { 140 115 0 }
+				color2= { 255 255 255 }
+				
+				b_navasati_navasati = {
+				}
+			}
+			c_poratamata = {
+				color= { 150 115 10 }
+				color2= { 255 255 255 }
+				
+				b_poratamata_poratamata = {
+				}
+				b_vadasca_poratamata = {
+				}
+			}
+			c_colaxais = {
+				color= { 150 125 0 }
+				color2= { 255 255 255 }
+				
+				b_colaxais_colaxais = {
+				}
+				b_manur_colaxais = {
+				}
+				b_kukol_colaxais = {
+				}
+			}
+			c_borapanti = {
+				color= { 160 135 0 }
+				color2= { 255 255 255 }
+				
+				b_borapanti_borapanti = {
+				}
+			}
+		}
+		d_dakus = {
+			color= { 150 100 25 }
+			color2= { 255 255 255 }
+			
+			c_garia = {
+				color= { 160 110 25 }
+				color2= { 255 255 255 }
+				
+				b_garia_garia = {
+				}
+				b_huar_garia = {
+				}
+			}
+			c_poratapanti = {
+				color= { 140 90 25 }
+				color2= { 255 255 255 }
+				
+				b_poratapanti_poratapanti = {
+				}
+				b_agarma_poratapanti = {
+				}
+			}
+			c_dakus = {
+				color= { 150 100 25 }
+				color2= { 255 255 255 }
+				
+				b_dakus_dakus = {
+				}
+				b_papaios_dakus = {
+				}
+				b_targitaios_dakus = {
+				}
+			}
+			c_kataki = {
+				color= { 150 90 35 }
+				color2= { 255 255 255 }
+				
+				b_kataki_kataki = {
+				}
+			}
+		}
+		d_oirpata = {
+			color= { 150 100 50 }
+			color2= { 255 255 255 }
+			
+			c_oirpata = {
+				color= { 150 100 50 }
+				color2= { 255 255 255 }
+				
+				b_oirpata_oirpata = {
+				}
+				b_matasco_oirpata = {
+				}
+			}
+			c_syavaparupa = {
+				color= { 150 90 40 }
+				color2= { 255 255 255 }
+				
+				b_syavaparupa_syavaparupa = {
+				}
+			}
+			c_sinua = {
+				color= { 140 90 50 }
+				color2= { 255 255 255 }
+				
+				b_sinua_sinua = {
+				}
+				b_padalo_sinua = {
+				}
+			}
+		}
+		d_dargaku = {
+			color= { 150 125 25 }
+			color2= { 255 255 255 }
+			
+			c_dargaku = {
+				color= { 150 125 25 }
+				color2= { 255 255 255 }
+				
+				b_dargaku_dargaku = {
+				}
+				b_kutili_dargaku = {
+				}
+				b_hurta_dargaku = {
+				}
+			}
+			c_frilewle = {
+				color= { 140 135 25 }
+				color2= { 255 255 255 }
+				
+				b_frilewle_frilewle = {
+				}
+			}
+			c_amapa = {
+				color= { 150 135 35 }
+				color2= { 255 255 255 }
+				
+				b_amapa_amapa = {
+				}
+				b_abdradvara_amapa = {
+				}
+			}
+		}
+		d_pantilo = {
+			color= { 150 125 50 }
+			color2= { 255 255 255 }
+			
+			c_pantilo = {
+				color= { 150 125 50 }
+				color2= { 255 255 255 }
+				
+				b_pantilo_pantilo = {
+				}
+				b_vadaskol_pantilo = {
+				}
+			}
+			c_karsapa = {
+				color= { 150 115 40 }
+				color2= { 255 255 255 }
+				
+				b_karsapa_karsapa = {
+				}
+			}
+			c_hurka = {
+				color= { 160 135 50 }
+				color2= { 255 255 255 }
+				
+				b_hurka_hurka = {
+				}
+				b_hvarsyr_hurka = {
+				}
+			}
+		}
+		d_gaumizda = {
+			color= { 150 100 0 }
+			color2= { 255 255 255 }
+			
+			c_garta = {
+				color= { 150 90 10 }
+				color2= { 255 255 255 }
+				
+				b_garta_garta = {
+				}
+			}
+			c_tamapa = {
+				color= { 160 90 0 }
+				color2= { 255 255 255 }
+				
+				b_tamapa_tamapa = {
+				}
+				b_satapasu_tamapa = {
+				}
+			}
+			c_gaumizda = {
+				color= { 150 100 0 }
+				color2= { 255 255 255 }
+				
+				b_gaumizda_gaumizda = {
+				}
+				b_kissarca_gaumizda = {
+				}
+				b_gaukol_gaumizda = {
+				}
+			}
+			c_gisati = {
+				color= { 140 100 10 }
+				color2= { 255 255 255 }
+				
+				b_gisati_gisati = {
+				}
+				b_aluthpada_gisati = {
+				}
+			}
+		}
+		d_paradatab = {
+			color= { 150 150 50 }
+			color2= { 255 255 255 }
+			
+			c_oitosyros = {
+				color= { 140 140 50 }
+				color2= { 255 255 255 }
+				
+				b_oitosyros_oitosyros = {
+				}
+				b_katika_oitosyros = {
+				}
+			}
+			c_paradatab = {
+				color= { 150 150 50 }
+				color2= { 255 255 255 }
+				
+				b_paradatab_paradatab = {
+				}
+				b_jarakol_paradatab = {
+				}
+			}
+			c_gastia = {
+				color= { 150 140 40 }
+				color2= { 255 255 255 }
+				
+				b_gastia_gastia = {
+				}
+				b_bratakol_gastia = {
+				}
+			}
+			c_zaranapa = {
+				color= { 140 150 40 }
+				color2= { 255 255 255 }
+				
+				b_zaranapa_zaranapa = {
+				}
+			}
+		}
+	}
+	k_zarkarun = {		
+		color= { 175 125 0 }
+		color2= { 255 255 255 }
+		
+		d_hvarzgasti = {
+			color= { 175 125 25 }
+			color2= { 255 255 255 }
+			
+			c_garuabra = {
+				color= { 175 115 15 }
+				color2= { 255 255 255 }
+				
+				b_garuabra_garuabra = {
+				}
+			}
+			c_hvarzgasti = {
+				color= { 175 125 25 }
+				color2= { 255 255 255 }
+				
+				b_hvarzgasti_hvarzgasti = {
+				}
+				b_kusca_hvarzgasti = {
+				}
+			}
+			c_karsapatak = {
+				color= { 185 115 25 }
+				color2= { 255 255 255 }
+				
+				b_karsapatak_karsapatak = {
+				}
+				b_asata_karsapatak = {
+				}
+			}
+			c_satapada = {
+				color= { 175 135 35 }
+				color2= { 255 255 255 }
+			
+				b_satapada_satapada = {
+				}
+			}
+		}
+		d_zarkarun = {
+			color= { 175 125 0 }
+			color2= { 255 255 255 }
+			
+			c_syavavarkapa = {
+				color= { 165 135 0 }
+				color2= { 255 255 255 }
+								
+				b_syavavarkapa_syavavarkapa = {
+				}
+				b_pasukol_syavavarkapa = {
+				}
+			}
+			c_hurmizda = {
+				color= { 175 135 10 }
+				color2= { 255 255 255 }
+								
+				b_hurmizda_hurmizda = {
+				}
+				b_udca_hurmizda = {
+				}
+			}
+			c_zarkarun = {
+				color= { 175 125 0 }
+				color2= { 255 255 255 }
+								
+				b_zarkarun_zarkarun = {
+				}
+				b_arkol_zarkarun = {
+				}
+				b_arunkol_zarkarun = {
+				}
+			}
+		}
+		d_borun = {
+			color= { 175 125 0 }
+			color2= { 255 255 255 }
+			
+			c_pasumata = {
+				color= { 175 140 10 }
+				color2= { 255 255 255 }
+								
+				b_pasumata_pasumata = {
+				}
+			}
+			c_borun = {
+				color= { 175 150 0 }
+				color2= { 255 255 255 }
+								
+				b_borun_borun = {
+				}
+				b_varkazura_borun = {
+				}
+				b_tagasti_borun = {
+				}
+			}
+			c_daranpa = {
+				color= { 165 150 10 }
+				color2= { 255 255 255 }
+								
+				b_daranpa_daranpa = {
+				}
+				b_borabala_daranpa = {
+				}
+			}
+		}
+	}
+	k_narapa = {
+		color= { 200 150 0 }
+		color2= { 255 255 255 }
+		
+		d_artabagapa = {			
+			color= { 200 150 25 }
+			color2= { 255 255 255 }
+			
+			c_giarun = {
+				color= { 200 140 35 }
+				color2= { 255 255 255 }
+				
+				b_giarun_giarun = {
+				}
+				b_cali_giarun = {
+				}
+			}
+			c_kusgau = {
+				color= { 200 160 15 }
+				color2= { 255 255 255 }
+								
+				b_kusgau_kusgau = {
+				}
+			}
+			c_artabagapa = {
+				color= { 200 150 25 }
+				color2= { 255 255 255 }
+								
+				b_artabagapa_artabagapa = {
+				}
+				b_axsainakol_artabagapa = {
+				}
+			}
+		}
+		d_narapa = {
+			color= { 200 150 0 }
+			color2= { 255 255 255 }
+			
+			c_narapa = {
+				color= { 200 150 0 }
+				color2= { 255 255 255 }
+								
+				b_narapa_narapa = {
+				}
+				b_asata_narapa = {
+				}
+				b_karsaca_narapa = {
+				}
+			}
+			c_katipatak = {
+				color= { 200 140 10 }
+				color2= { 255 255 255 }
+								
+				b_katipatak_katipatak = {
+				}
+			}
+			c_bagagasti = {
+				color= { 190 150 10 }
+				color2= { 255 255 255 }
+								
+				b_bagagasti_bagagasti = {
+				}
+				b_dasadvara_bagagasti = {
+				}
+			}
+		}
+		d_sautaska = {
+			color= { 200 175 0 }
+			color2= { 255 255 255 }
+			
+			c_zurklopa = {
+				color= { 210 175 10 }
+				color2= { 255 255 255 }
+								
+				b_zurklopa_zurklopa = {
+				}
+			}
+			c_kutipanti = {
+				color= { 190 185 0 }
+				color2= { 255 255 255 }
+								
+				b_kutipanti_kutipanti = {
+				}
+				b_frikol_kutipanti = {
+				}
+			}
+			c_sautaska = {
+				color= { 200 175 0 }
+				color2= { 255 255 255 }
+								
+				b_sautaska_sautaska = {
+				}
+				b_askaca_sautaska = {
+				}
+				b_abragasti_sautaska = {
+				}
+			}
+		}	
+	}
+	k_khiva = {
+		color= { 225 175 0 }
+		color2= { 255 255 255 }
+		
+		d_targitaios = {
+			color= { 225 175 25 }
+			color2= { 255 255 255 }
+			
+			c_matapanti = {
+				color= { 235 165 25 }
+				color2= { 255 255 255 }
+								
+				b_matapanti_matapanti = {
+				}
+				b_frica_matapanti = {
+				}
+			}
+			c_targitaios = {
+				color= { 225 175 25 }
+				color2= { 255 255 255 }
+								
+				b_targitaios_targitaios = {
+				}
+				b_gikol_targitaios = {
+				}
+			}
+		}
+		d_mahta = {
+			color= { 225 200 0 }
+			color2= { 255 255 255 }
+			
+			c_mahta = {
+				color= { 225 200 0 }
+				color2= { 255 255 255 }
+								
+				b_mahta_mahta = {
+				}
+				b_arpaxais_mahta = {
+				}
+			}
+			c_dranpa = {
+				color= { 215 200 10 }
+				color2= { 255 255 255 }
+								
+				b_dranpa_dranpa = {
+				}
+				b_arikol_dranpa = {
+				}
+			}
+			c_navia = {
+				color= { 225 210 10 }
+				color2= { 255 255 255 }
+								
+				b_navia_navia = {
+				}
+			}
+			c_syavasin = {
+				color= { 235 190 0 }
+				color2= { 255 255 255 }
+								
+				b_syavasin_syavasin = {
+				}
+				b_katikol_syavasin = {
+				}
+			}
+		}
+		d_khiva = {
+			color= { 225 175 0 }
+			color2= { 255 255 255 }
+			
+			c_abragaru = {
+				color= { 225 165 10 }
+				color2= { 255 255 255 }
+								
+				b_abragaru_abragaru = {
+				}
+			}
+			c_khiva = {
+				color= { 225 175 0 }
+				color2= { 255 255 255 }
+								
+				b_khiva_khiva = {
+				}
+				b_boradvara_khiva = {
+				}
+				b_frisco_khiva = {
+				}
+				b_kutili_khiva = {
+				}
+			}
+			c_satakata = {
+				color= { 215 165 0 }
+				color2= { 255 255 255 }
+								
+				b_satakata_satakata = {
+				}
+				b_iaca_satakata = {
+				}
+			}
+			c_pasuporata = {
+				color= { 215 175 10 }
+				color2= { 255 255 255 }
+								
+				b_pasuporata_pasuporata = {
+				}
+				b_koli_pasuporata = {
+				}
+			}
+			c_garagaupa = {
+				color= { 225 185 10 }
+				color2= { 255 255 255 }
+								
+				b_garugaupa_garugaupa = {
+				}
+				b_garaska_garugaupa = {
+				}
+			}
+		}
+	}
+	k_padakus = {
+		color= { 255 200 0 }
+		color2= { 255 255 255 }
+		
+		d_axsainabaladapa = {
+			color= { 255 200 25 }
+			color2= { 255 255 255 }
+			
+			c_navapa = {
+				color= { 255 210 15 }
+				color2= { 255 255 255 }
+								
+				b_navapa_navapa = {
+				}
+				b_satapasu_navapa = {
+				}
+			}
+			c_takuti = {
+				color= { 245 190 25 }
+				color2= { 255 255 255 }
+								
+				b_takuti_takuti = {
+				}
+				b_syrar_takuti = {
+				}
+			}
+			c_xola_xayasa = {
+				color= { 245 200 35 }
+				color2= { 255 255 255 }
+								
+				b_xola_xayasa_xola_xayasa = {
+				}
+			}
+			c_axsainabaladapa = {
+				color= { 255 200 25 }
+				color2= { 255 255 255 }
+								
+				b_axsainabaladapa_axsainabaladapa = {
+				}
+				b_pokol_axsainabaladapa = {
+				}
+			}
+		}
+		d_aspamesakapa = {
+			color= { 255 200 50 }
+			color2= { 255 255 255 }
+			
+			c_aspamesakapa = {
+				color= { 255 200 50 }
+				color2= { 255 255 255 }
+								
+				b_aspamesakapa_aspamesakapa = {
+				}
+				b_takol_aspamesakapa = {
+				}
+				b_vaskikol_aspamesakapa = {
+				}
+			}
+			c_thagimasadas = {
+				color= { 255 210 40 }
+				color2= { 255 255 255 }
+								
+				b_thagimasadas_thagimasadas = {
+				}
+				b_syrar_thagimasadas = {
+				}
+			}
+			c_satagau = {
+				color= { 245 200 40 }
+				color2= { 255 255 255 }
+								
+				b_satagau_satagau = {
+				}
+			}
+			c_agarur = {
+				color= { 245 190 50 }
+				color2= { 255 255 255 }
+								
+				b_agarur_agarur = {
+				}
+			}
+		}
+		d_padakus = {
+			color= { 255 200 0 }
+			color2= { 255 255 255 }
+			
+			c_tabar = {
+				color= { 245 210 0 }
+				color2= { 255 255 255 }
+								
+				b_tabar_tabar = {
+				}
+				b_urori_tabar = {
+				}
+			}
+			c_syrmizda = {
+				color= { 245 190 0 }
+				color2= { 255 255 255 }
+								
+				b_syrmizda_syrmizda = {
+				}
+			}
+			c_kutifriarpa = {
+				color= { 255 210 10 }
+				color2= { 255 255 255 }
+								
+				b_kutifriarpa_kutifriarpa = {
+				}
+				b_vesla_kutifriarpa = {
+				}
+			}
+			c_tadvara = {
+				color= { 255 190 10 }
+				color2= { 255 255 255 }
+								
+				b_tadvara_tadvara = {
+				}
+			}
+			c_padakus = {
+				color= { 255 200 0 }
+				color2= { 255 255 255 }
+								
+				b_padakus_padakus = {
+				}
+				b_loca_padakus = {
+				}
+				b_katibla_padakus = {
+				}
+			}
+		}
+		d_tabititope = {
+			color= { 255 225 0 }
+			color2= { 255 255 255 }
+			
+			c_takati = {
+				color= { 255 215 10 }
+				color2= { 255 255 255 }
+								
+				b_takati_takati = {
+				}
+			}
+			c_tabititope = {
+				color= { 255 225 0 }
+				color2= { 255 255 255 }
+								
+				b_tabititope_tabititope = {
+				}
+				b_stanasati_tabititope = {
+				}
+			}
+			c_astaku = {
+				color= { 245 235 0 }
+				color2= { 255 255 255 }
+								
+				b_astaku_astaku = {
+				}
+			}
+			c_tabsyr = {
+				color= { 255 235 10 }
+				color2= { 255 255 255 }
+								
+				b_tabsyr_tabsyr = {
+				}
+			}
+			c_dranshatipa = {
+				color= { 245 225 10 }
+				color2= { 255 255 255 }
+								
+				b_dranshatipa_dranshatipa = {
+				}
+				b_ugraku_dranshatipa = {
+				}
+			}
+			c_gaukuti = {
+				color= { 245 235 0 }
+				color2= { 255 255 255 }
+								
+				b_gaukuti_gaukuti = {
+				}
+			}
+		}
+		d_tamajara = {
+			color= { 255 225 25 }
+			color2= { 255 255 255 }
+			
+			c_tamajara = {
+				color= { 255 225 25 }
+				color2= { 255 255 255 }
+								
+				b_tamajara_tamajara = {
+				}
+				b_raognapruha_tamajara = {
+				}
+			}
+			c_ugravarka = {
+				color= { 245 215 25 }
+				color2= { 255 255 255 }
+								
+				b_ugravarka_ugravarka = {
+				}
+				b_lewleca_ugravarka = {
+				}
+			}
+			c_karsabaga = {
+				color= { 255 235 15 }
+				color2= { 255 255 255 }
+								
+				b_karsabaga_karsabaga = {
+				}
+			}
+		}
+	}
+	k_gitab = {
+		color= { 255 175 0 }
+		color2= { 255 255 255 }
+		
+		d_dsargalapa = {
+			color= { 255 175 25 }
+			color2= { 255 255 255 }
+			
+			c_pantipari = {
+				color= { 245 165 25 }
+				color2= { 255 255 255 }
+								
+				b_pantipari_pantipari = {
+				}
+			}
+			c_dsargalapa = {
+				color= { 255 175 25 }
+				color2= { 255 255 255 }
+								
+				b_dsargalapa_dsargalapa = {
+				}
+				b_darankol_dsargalapa = {
+				}
+			}
+		}
+		d_ugrakati = {
+			color= { 255 200 0 }
+			color2= { 255 255 255 }
+			
+			c_satar = {
+				color= { 255 190 10 }
+				color2= { 255 255 255 }
+				
+				b_satar_satar = {
+				}
+				b_daar_satar = {
+				}
+			}
+			c_ugraporata = {
+				color= { 245 200 10 }
+				color2= { 255 255 255 }
+								
+				b_ugraporata_ugraporata = {
+				}
+			}
+			c_ugrakati = {
+				color= { 255 200 0 }
+				color2= { 255 255 255 }
+								
+				b_ugrakati_ugrakati = {
+				}
+				b_bratavadasz_ugrakati = {
+				}
+			}
+		}
+		d_gitab = {
+			color= { 255 175 0 }
+			color2= { 255 255 255 }
+			
+			c_gitab = {
+				color= { 255 175 0 }
+				color2= { 255 255 255 }
+								
+				b_gitab_gitab = {
+				}
+				b_garukol_gitab = {
+				}
+				b_bagaca_gitab = {
+				}
+			}
+			c_navapada = {
+				color= { 245 175 10 }
+				color2= { 255 255 255 }
+								
+				b_navapada_navapada = {
+				}
+			}
+			c_hursyr = {
+				color= { 255 185 10 }
+				color2= { 255 255 255 }
+								
+				b_hursyr_hursyr = {
+				}
+				b_brinpasu_hursyr = {
+				}
+			}
+		}
+		d_hvargaosa = {
+			color= { 255 200 25 }
+			color2= { 255 255 255 }
+			
+			c_ris = {
+				color= { 245 210 25 }
+				color2= { 255 255 255 }
+								
+				b_ris_ris = {
+				}
+				b_bagapanti_ris = {
+				}
+			}
+			c_banubalapa = {
+				color= { 255 190 35 }
+				color2= { 255 255 255 }
+								
+				b_banubalapa_banubalapa = {
+				}
+				b_chivayabrata_banubalapa = {
+				}
+			}
+			c_lobrata = {
+				color= { 245 210 25 }
+				color2= { 255 255 255 }
+								
+				b_lobrata_lobrata = {
+				}
+			}
+			c_hvargaosa = {
+				color= { 255 200 25 }
+				color2= { 255 255 255 }
+								
+				b_hvargaosa_hvargaosa = {
+				}
+				b_gaukol_hvargoasa = {
+				}
+				b_katika_hvargoasa = {
+				}
+			}
+			c_kissarvadasz = {
+				color= { 255 210 35 }
+				color2= { 255 255 255 }
+								
+				b_kissarvadasz_kissarvadasz = {
+				}
+				b_huar_kissarvadasz = {
+				}
+			}
+		}
+	}
+}

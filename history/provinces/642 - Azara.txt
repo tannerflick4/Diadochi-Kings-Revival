@@ -1,0 +1,17 @@
+# 642 - Azara
+
+# County Title
+title = c_azara
+
+# Settlements
+max_settlements = 3
+b_azara_azara = castle
+b_pataroue_azara = city
+b_labrys_azara = castle
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

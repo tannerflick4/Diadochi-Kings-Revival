@@ -1,0 +1,9 @@
+384.1.1 = { # 392 BC
+	holder = 2706023 # Mucapor
+}
+424.1.1 = { # 352 BC
+	holder = 2706021 # Komakiza
+}
+455.1.1 = { # 321 BC
+	holder = 2706022 # Komakiza
+}

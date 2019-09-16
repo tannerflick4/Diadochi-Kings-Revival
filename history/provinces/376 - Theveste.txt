@@ -1,0 +1,18 @@
+# 376 - Theveste
+
+# County Title
+title = c_theveste
+
+# Settlements
+max_settlements = 4
+b_theveste_theveste = castle
+b_cedias_theveste = temple
+b_vatari_theveste = castle
+b_turratenses_theveste = castle
+
+# Misc
+culture = berber
+religion = berber_main
+
+# History
+# Can be filled when things change around the province

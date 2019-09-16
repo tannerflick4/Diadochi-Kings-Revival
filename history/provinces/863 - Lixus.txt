@@ -1,0 +1,16 @@
+# 863 - Lixus
+
+# County Title
+title = c_lixus
+
+# Settlements
+max_settlements = 3
+b_frigidae_lixus = city
+b_lixus_lixus = castle
+b_babba_lixus = city
+
+# Misc
+culture = punic
+religion = punic_main
+
+# History

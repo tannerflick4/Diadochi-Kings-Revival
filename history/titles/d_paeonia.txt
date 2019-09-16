@@ -1,0 +1,28 @@
+417.4.1 = {
+	holder = 150004
+}
+418.1.1 = {
+	holder = 150005
+	liege = k_macedon
+}
+426.1.1 = {
+	liege = e_macedonia
+}
+436.1.1 = {
+	holder = 150001
+}
+453.6.10 = {
+	liege = k_s_macedon
+}
+459.10.1 = {
+	liege = k_macedon
+}
+461.1.1 = {
+	holder = 150002 # Audoleon
+}
+466.1.1 = {
+	liege = k_tylis
+}
+491.1.1 = {
+	holder = 150003 # Ariston
+}

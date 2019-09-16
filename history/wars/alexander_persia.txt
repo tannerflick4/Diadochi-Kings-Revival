@@ -1,0 +1,21 @@
+name = "Alexander's invasion of Parsa"
+
+casus_belli = {
+	actor = 802 # Alexandros
+	recipient = 90314 # Darius III
+	casus_belli = invasion
+	landed_title = e_persia
+	date = 442.4.1
+}
+442.4.1 = { # 334 BC
+	add_attacker = 802 # Alexander
+	add_defender = 90314 # Darius III
+}
+446.1.1 = { # 330 BC
+	rem_defender = 90314 # Darius III
+	add_defender = 90320 # Artaxerxes V 'Bessus'
+}
+447.7.1 = { # 329 BC
+	rem_attacker = 802 # Alexander
+	rem_defender = 90320 # Bessus dies
+}

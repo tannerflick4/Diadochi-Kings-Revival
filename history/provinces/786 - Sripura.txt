@@ -1,0 +1,16 @@
+# 786 - Sripura
+
+# County Title
+title = c_sripura
+
+# Settlements
+max_settlements = 2
+b_sripura_sripura = castle
+b_sarabhapura_sripura = city
+
+# Misc
+culture = maharashtri
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

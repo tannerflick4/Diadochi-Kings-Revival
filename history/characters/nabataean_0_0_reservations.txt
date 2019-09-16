@@ -1,0 +1,4 @@
+# 310001-320000 for Nabataean characters
+	# 310001-310100 for the Al-Batra dynasty
+	# 310101-310200 for the Aqaba dynasty
+	# 310201-310300 for the Lihyani dynasty

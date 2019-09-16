@@ -1,0 +1,11 @@
+388.1.1 = { # 388 BC
+	holding_dynasty = 5004 # Tyrioi
+	liege="k_r_tyras"
+	holder = 50303 # Heliodoros
+}
+428.1.1 = { # 348 BC
+	holder = 50301 # Alkaios
+}
+462.1.1 = { # 314 BC
+	holder = 50302 # Hippolytos
+}

@@ -1,0 +1,17 @@
+417.1.1 = {
+	holder = 40114 # Kotys
+	liege = k_odrysia
+}
+418.1.1 = {
+	holder = 40119 #Kersobleptes
+	liege = d_odrysia
+}
+438.1.1 = {
+	holder = 40101
+}
+476.1.1 = {
+	holder = 40102 # Cotys II
+}
+495.2.1 = {
+	liege = k_odrysia
+}

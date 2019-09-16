@@ -1,0 +1,18 @@
+# 436 - Cambodunum
+
+# County Title
+title = c_cambodunum
+
+# Settlements
+max_settlements = 4
+b_cambodunum_cambodunum = castle
+b_abodiacum_cambodunum = city
+b_damasia_cambodunum = castle
+b_vemania_cambodunum = castle
+
+# Misc
+culture = raetic
+religion = etruscan_main
+
+# History
+# Can be filled when things change around the province

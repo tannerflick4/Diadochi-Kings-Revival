@@ -1,0 +1,26 @@
+# 370401-370500 for the Vasu dynasty
+370401 = {
+	name = "Jitugha" # Made up
+	dynasty = 37013
+	religion = zoroastrian_main
+	culture = tocharian
+	400.1.1 = { # 376 BC
+		birth="yes"
+	}
+	470.1.1 = { # 306 BC
+		death="yes"
+	}
+}
+370402 = {
+	name = "Cmaga" # Made up
+	dynasty = 37013
+	religion = zoroastrian_main
+	culture = tocharian
+	father = 370401
+	428.1.1 = { # 348 BC
+		birth="yes"
+	}
+	510.1.1 = { # 266 BC
+		death="yes"
+	}
+}

@@ -1,0 +1,18 @@
+# 975 - Contrebia
+
+# County Title
+title = c_contrebia
+
+# Settlements
+max_settlements = 4
+b_kontrebia_contrebia = castle
+b_tamaniu_contrebia = city
+b_itukoite_contrebia = city
+b_sekaisa_contrebia = temple
+
+# Misc
+culture = celtiberian
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

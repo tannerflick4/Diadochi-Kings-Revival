@@ -1,0 +1,17 @@
+# 473 - Adari
+
+# County Title
+title = c_adari
+
+# Settlements
+max_settlements = 3
+b_adari_adari = castle
+b_itamos_adari = city
+b_digima_adari = castle
+
+# Misc
+culture = arabic
+religion = arabic_main
+
+# History
+# Can be filled when things change around the province

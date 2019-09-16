@@ -1,0 +1,16 @@
+# 1301-1400 for the Tlepolemaios dynasty
+1301 = {
+	name = "Tlepolemos" # Tlepolemus, satrap of Carmania
+	dynasty = 14 # Tlepolemaioi
+	religion = greek_main
+	culture = macedonian
+	414.1.1 = { # 362 BC Made up
+		birth="yes"
+	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	475.1.1 = { # 301 BC Made up
+		death="yes"
+	}
+}

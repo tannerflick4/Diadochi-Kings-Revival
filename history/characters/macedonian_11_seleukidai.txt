@@ -1,0 +1,286 @@
+# 1001-1100 for the Seleukidai dynasty
+1001 = {
+	name = "Seleukos"
+	dynasty = 11 # Seleukidai
+	religion = greek_main
+	culture = macedonian
+	#employer = 801 # Philip III
+	father = 1004 # Antiochos
+	
+	add_trait = brilliant_strategist
+	add_trait = charitable
+	add_trait = patient
+	add_trait = trusting
+	add_trait = ambitious
+	add_trait = diligent
+	add_trait = kind
+	
+	418.1.1 = { # 358 BC
+		birth="yes"
+	}
+	452.1.1 = { # 324 BC
+		add_spouse = 240001 # Apama
+	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	467.1.1 = { # 309 BC, End of Babylonian war
+		give_nickname = nick_nikator
+	}
+	476.1.1 = {
+		add_spouse = 410 # Stratonice
+	}
+	482.1.1 = {
+		remove_spouse = 410 # Stratonice to Antiochus
+	}
+	495.8.1 = { # 281 BC
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+1002 = {
+	name = "Antiochos" # Antiochus, son of Seleucus
+	dynasty = 11 # Seleukidai
+	religion = greek_main
+	culture = macedonian
+	father = 1001
+	mother = 240001
+	
+	add_trait = charitable
+	
+	453.1.1 = { # 323 BC Made up
+		birth="yes"
+	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
+	482.1.1 = {
+		add_spouse = 410 # Stratonice
+	}
+	501.1.1 = { # 275 BC
+		give_nickname = nick_soter
+	}
+	515.1.1 = { # 261 BC
+		death="yes"
+	}
+}
+
+1003 = {
+	name = "Seleukos" # Grandfather of Seleucus I
+	dynasty = 11 # Seleukidai
+	religion = greek_main
+	culture = macedonian
+	359.1.1 = { # Made up
+		birth="yes" # 417 BC
+	}
+	421.1.1 = { # Made up
+		death="yes" # 355 BC
+	}
+}
+1004 = {
+	name = "Antiochos" # Father of Seleucus I
+	dynasty = 11 # Seleukidai
+	religion = greek_main
+	culture = macedonian
+	father = 1003
+	
+	add_trait = tough_soldier
+	
+	393.1.1 = { # Made up
+		birth="yes" # 383 BC
+	}
+	433.1.1 = { # Made up
+		death="yes" # 343 BC
+	}
+}
+1005 = {
+	name = "Ptolemaios" # Uncle of Seleucus I
+	dynasty = 11 # Seleukidai
+	religion = greek_main
+	culture = macedonian
+	father = 1003
+	
+	add_trait = brave
+	
+	402.1.1 = { # Made up
+		birth="yes" # 374 BC
+	}
+	443.11.1 = {
+		death = {
+			death_reason = death_battle # Issus
+			killer = 90314 # Darius III
+		}
+	}
+}
+1006 = {
+	name = "Didymeia" # Sister of Seleucus I
+	dynasty = 11 # Seleukidai
+	religion = greek_main
+	culture = macedonian
+	female = yes
+	father = 1004
+	423.1.1 = { # Made up
+		birth="yes" # 353 BC
+	}
+	468.1.1 = { # Made up
+		death="yes" # 308 BC
+	}
+}
+1007 = {
+	name = "Achaios" # Son of Seleucus I
+	dynasty = 11 # Seleukidai
+	religion = greek_main
+	culture = macedonian
+	father = 1001
+	mother = 240001
+	
+	#add_trait = diadochi_king
+	add_trait = charitable
+		
+	463.1.1 = { # Made up
+		birth="yes" # 313 BC
+	}
+	518.1.1 = { # Made up
+		death="yes" # 258 BC
+	}
+}
+1008 = {
+	name = "Apama" # Daughter of Seleucus I
+	dynasty = 11 # Seleukidai
+	religion = greek_main
+	culture = macedonian
+	father = 1001
+	mother = 240001
+	female = yes
+	459.1.1 = { # Made up
+		birth="yes" # 317 BC
+	}
+	499.1.1 = { # Made up
+		death="yes" # 277 BC
+	}
+}
+1009 = {
+	name = "Laodike" # Daughter of Seleucus I
+	dynasty = 11 # Seleukidai
+	religion = greek_main
+	culture = macedonian
+	father = 1001
+	mother = 240001
+	female = yes
+	460.1.1 = { # Made up
+		birth="yes" # 316 BC
+	}
+	523.1.1 = { # Made up
+		death="yes" # 253 BC
+	}
+}
+1010 = {
+	name = "Phila" # Daughter of Seleucus I by Stratonike
+	dynasty = 11 # Seleukidai
+	religion = greek_main
+	culture = macedonian
+	father = 1001 # Seleucus
+	mother = 410 # Stratonike
+	female = yes
+	480.1.1 = { # Made up
+		birth="yes" # 296 BC
+	}
+	541.1.1 = { # Made up
+		death="yes" # 235 BC 
+	}
+}
+1011 = {
+	name = "Seleukos" # Son of Antiochus I, executed for rebellion
+	dynasty = 11 # Seleukidai
+	religion = greek_main
+	culture = macedonian
+	father = 1002 # Antiochus
+	mother = 410 # Stratonike
+	
+	#add_trait = diadochi_king
+	add_trait = deceitful
+	
+	484.1.1 = { # Made up
+		birth="yes" # 292 BC
+	}
+	508.1.1 = { # 268 BC
+		death = {
+			death_reason = death_execution
+			killer = 1002 # Antiochus I
+		}
+	}
+}
+1012 = {
+	name = "Antiochos" # Antiochus II
+	dynasty = 11 # Seleukidai
+	religion = greek_main
+	culture = macedonian
+	father = 1002 # Antiochus
+	mother = 410 # Stratonike
+	
+	#add_trait = diadochi_king
+	add_trait = hedonist
+	add_trait = drunkard
+	add_trait = lustful	
+	
+	490.1.1 = {
+		birth="yes" # 286 BC
+	}
+	530.1.1 = {
+		death="yes" # 246 BC
+	}
+}
+1013 = {
+	name = "Laodike" # Daughter of Antiochus I
+	dynasty = 11 # Seleukidai
+	religion = greek_main
+	culture = macedonian
+	father = 1002 # Antiochus
+	mother = 410 # Stratonike
+	female = yes
+	485.1.1 = { # Made up
+		birth="yes" # 291 BC
+	}
+	514.1.1 = { # Made up
+		death="yes" # 262 BC
+	}
+}
+1014 = {
+	name = "Apama" # Daughter of Antiochus I
+	dynasty = 11 # Seleukidai
+	religion = greek_main
+	culture = macedonian
+	father = 1002 # Antiochus
+	mother = 410 # Stratonike
+	female = yes
+	
+	add_trait = lustful
+	add_trait = deceitful
+	
+	486.1.1 = { # Made up
+		birth="yes" # 290 BC
+	}
+	551.1.1 = { # Made up
+		death="yes" # 225 BC
+	}
+}
+1015 = {
+	name = "Stratonike" # Daughter of Antiochus I
+	dynasty = 11 # Seleukidai
+	religion = greek_main
+	culture = macedonian
+	father = 1002 # Antiochus
+	mother = 410 # Stratonike
+	female = yes
+	
+	add_trait = envious
+	add_trait = deceitful
+	
+	494.1.1 = { # Made up
+		birth="yes" # 282 BC
+	}
+	553.1.1 = { # Made up
+		death="yes" # 223 BC
+	}
+}

@@ -1,0 +1,21 @@
+# 25001-26000 for Punic dynasties
+25001 = {
+	name = "Barca"
+	culture = punic
+}
+25002 = {
+	name = "Hanno" # Based on the family of Hanno the Great
+	culture = punic
+}
+25003 = {
+	name = "Hasdrubal" # Based on the family of Hasdrubal the Fair
+	culture = punic
+}
+25004 = {
+	name = "Magon"
+	culture = punic
+}
+25005 = {
+	name = "Dido"
+	culture = punic
+}

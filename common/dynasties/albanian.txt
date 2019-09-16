@@ -1,0 +1,5 @@
+# 36001-37000 for Albanian dynasties
+36001 = {
+	name = "Albani"
+	culture = albanian
+}

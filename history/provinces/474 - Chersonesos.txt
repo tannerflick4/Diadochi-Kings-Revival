@@ -1,0 +1,18 @@
+# 474 - Chersonesos
+
+# County Title
+title = c_chersonesos
+
+# Settlements
+max_settlements = 4
+b_chersonesos_chersonesos = castle
+b_theodosia_chersonesos = city
+b_parthenion_chersonesos = temple
+b_lagyra_chersonesos = castle
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

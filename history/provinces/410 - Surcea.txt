@@ -1,0 +1,20 @@
+# 410 - Surcea
+
+# County Title
+title = c_surcea
+
+# Settlements
+max_settlements = 4
+b_surcea_surcea = castle
+b_sincraieni_surcea = city
+b_covasna_surcea = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_angustia_surcea
+
+# Misc
+culture = dacian
+religion = zalmoxism
+
+# History
+# Can be filled when things change around the province

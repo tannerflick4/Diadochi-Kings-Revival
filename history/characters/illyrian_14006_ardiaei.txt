@@ -1,0 +1,39 @@
+# 140501-140600 for the Ardiaei dynasty
+140501 = {
+	name = "Galaurus" # Ardiaei leader, Made up
+	dynasty = 14006 # Ardiaei
+	religion = illyrian_main
+	culture = illyrian
+	father = 140503
+	423.1.1 = { # 353 BC
+		birth="yes"
+	}
+	473.1.1 = {
+		death="yes"
+	}
+}
+140502 = {
+	name = "Verzi" # Ardiaei Made up
+	dynasty = 14006 # Ardiaei
+	religion = illyrian_main
+	culture = illyrian
+	father = 140501
+	442.1.1 = { # 334 BC
+		birth="yes"
+	}
+	525.1.1 = { # 251 BC
+		death="yes"
+	}
+}
+140503 = {
+	name = "Rhoemetalces" # Ardiaei leader, Made up
+	dynasty = 14006 # Ardiaei
+	religion = illyrian_main
+	culture = illyrian
+	379.1.1 = { # 397 BC
+		birth="yes"
+	}
+	439.1.1 = { # 337 BC
+		death="yes"
+	}
+}

@@ -1,0 +1,65 @@
+# 150001-150100 for the Agis dynasty
+150001 = {
+	name = "Patraus" # King of Paeonia
+	dynasty = 15001 # Agis
+	religion = illyrian_main
+	culture = paeonian
+	father = 150005
+	421.1.1 = { # 355 BC
+		birth="yes"
+	}
+	461.1.1 = { # 315 BC
+		death="yes"
+	}
+}
+150002 = {
+	name = "Audoleon" # King of Paeonia
+	dynasty = 15001 # Agis
+	religion = illyrian_main
+	culture = paeonian
+	father = 150001
+	446.1.1 = { # Made up
+		birth="yes" # 330 BC
+	}
+	491.1.1 = { 
+		death="yes" # 285 BC
+	}
+}
+150003 = {
+	name = "Ariston" # King of Paeonia
+	dynasty = 15001 # Agis
+	religion = illyrian_main
+	culture = paeonian
+	father = 150002
+	462.1.1 = { # Made up
+		birth="yes" # 314 BC
+	}
+	498.1.1 = {
+		death="yes" # 278 BC
+	}
+}
+150004 = {
+	name = "Agis" # King of Paeonia
+	dynasty = 15001 # Agis
+	religion = illyrian_main
+	culture = paeonian
+	348.1.1 = { # Made up
+		birth="yes" # 428 BC 
+	}
+	418.1.1 = {
+		death="yes" # 358 BC
+	}
+}
+150005 = {
+	name = "Lykkeios" # King of Paeonia
+	dynasty = 15001 # Agis
+	religion = illyrian_main
+	culture = paeonian
+	father = 150004
+	385.1.1 = { # Made up
+		birth="yes" # 391 BC
+	}
+	436.1.1 = {
+		death="yes" # 340 BC
+	}
+}

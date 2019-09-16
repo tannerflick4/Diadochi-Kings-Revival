@@ -1,0 +1,17 @@
+# 935 - Saguntum
+
+# County Title
+title = c_saguntum
+
+# Settlements
+max_settlements = 3
+b_arse_saguntum = castle
+b_sucro_saguntum = castle
+#b_valentia_saguntum = city
+
+# Misc
+culture = iberian
+religion = iberian_main
+
+# History
+# Can be filled when things change around the province

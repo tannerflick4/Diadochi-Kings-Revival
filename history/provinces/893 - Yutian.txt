@@ -1,0 +1,16 @@
+# 893 - Yutian
+
+# County Title
+title = c_yutian
+
+# Settlements
+max_settlements = 2
+
+b_yutian_yutian = castle # Khotan
+b_qule_yutian = city
+
+culture = khotanese
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

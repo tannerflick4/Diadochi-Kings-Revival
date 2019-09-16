@@ -1,0 +1,13 @@
+# 52901-53000 for the Amphipoloi dynasty
+52901 = { 
+	name = "Hierax" # Amphipolitan envoy to Athens, ruler of Amphipolis
+	dynasty = 5035 # Amphipoloi
+	religion = greek_main
+	culture = ionian
+	400.1.1 = { # Made up
+		birth="yes" # 376 BC
+	}
+	452.1.1 = { # Made up
+		death="yes" # 324 BC
+	}
+}

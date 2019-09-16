@@ -1,0 +1,26 @@
+# 21401-21500 for the Kallipolioi dynasty
+21401 = {
+	name = "Prokopios" # Tarentum 
+	dynasty = 2015 # Kallipolioi
+	religion = greek_main
+	culture = doric
+	403.1.1 = { # 373 BC Made up
+		birth="yes"
+	}
+	463.1.1 = { # 313 BC Made up
+		death="yes"
+	}
+}
+21402 = {
+	name = "Hesiod" # Tarentum
+	dynasty = 2015 # Kallipolioi
+	religion = greek_main
+	culture = doric
+	father = 21401
+	427.1.1 = { # 349 BC Made up
+		birth="yes"
+	}
+	499.1.1 = { # 277 BC Made up
+		death="yes"
+	}
+}

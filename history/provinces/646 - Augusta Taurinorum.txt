@@ -1,0 +1,17 @@
+# 646 - Augusta Taurinorum
+
+# County Title
+title = c_augusta_taurinorum
+
+# Settlements
+max_settlements = 3
+b_augusta_taurinorum_augusta_taurinorum = castle
+b_quadrata_augusta_taurinorum = castle
+b_ad_fines_augusta_taurinorum = city
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

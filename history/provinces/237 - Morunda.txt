@@ -1,0 +1,19 @@
+# 237 - Morunda
+
+# County Title
+title = c_morunda
+
+# Settlements
+max_settlements = 5
+b_morunda_morunda = castle
+b_chauon_morunda = temple
+b_tasuk_morunda = city
+b_zarawand_morunda = castle
+b_arnay_morunda = castle
+
+# Misc
+culture = median
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,22 @@
+# 218 - Armavir
+
+# County Title
+title = c_armavir
+
+# Settlements
+max_settlements = 6
+b_armavir_armavir = castle
+b_kainepolis_armavir = temple
+b_motene_armavir = city
+b_gornae_armavir = castle
+b_doubios_armavir = castle
+
+# Possible baronies: (Always add a # in front of a line with these!)
+# b_artaxata_armavir
+
+# Misc
+culture = armenian
+religion = armenian_main
+
+# History
+# Can be filled when things change around the province

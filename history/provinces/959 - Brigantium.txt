@@ -1,0 +1,18 @@
+# 959 - Brigantium
+
+# County Title
+title = c_brigantium
+
+# Settlements
+max_settlements = 4
+b_brigantium_brigantium = castle
+b_antabron_brigantium = city
+b_assegonia_brigantium = castle
+#b_iria_flavia_brigantium = city
+
+# Misc
+culture = gallaecian
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,17 @@
+# 343 - Taurasia
+
+# County Title
+title = c_taurasia # for example c_corinth
+
+# Settlements
+max_settlements = 3
+b_pollentia_taurasia = castle
+b_pedona_taurasia = castle
+b_carreum_potentia_taurasia = city
+
+# Misc
+culture = ligurian
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

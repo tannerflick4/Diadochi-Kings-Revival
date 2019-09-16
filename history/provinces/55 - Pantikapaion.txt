@@ -1,0 +1,19 @@
+# 55 - Pantikapaion
+
+# County Title
+title = c_pantikapaion # for example c_corinth
+
+# Settlements
+max_settlements = 5 # Should be reevaluated
+b_pantikapaion = castle
+b_nymphaion_pantikapaion = temple
+b_kimmerikon_pantikapaion = city
+#b_sauromateion_pantikapaion = castle
+b_kazeka_pantikapaion = city
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

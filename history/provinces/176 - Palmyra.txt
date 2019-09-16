@@ -1,0 +1,19 @@
+# 176 - Palmyra
+
+# County Title
+title = c_palmyra
+
+# Settlements
+max_settlements = 5
+b_palmyra_palmyra = castle
+b_aueria_palmyra = temple
+b_gennaes_palmyra = city
+b_danova_palmyra = castle
+b_nazala_palmyra = city
+
+# Misc
+culture = aramaic
+religion = marduk_cult
+
+# History
+# Can be filled when things change around the province

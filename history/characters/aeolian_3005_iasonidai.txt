@@ -1,0 +1,161 @@
+# 30401-30500 for the Iasonidai dynasty
+30401 = {
+	name = "Lykophron" # Of Pherae
+	dynasty = 3005 # Iasonidai
+	religion = greek_main
+	culture = aeolian
+	327.1.1 = { # Made up
+		birth="yes" # 449 BC
+	}
+	386.1.1 = {
+		death="yes" # 390 BC
+	}
+}
+30402 = {
+	name = "Iason" # Of Pherae
+	dynasty = 3005 # Iasonidai
+	religion = greek_main
+	culture = aeolian
+	father = 30401
+	
+	add_trait = skilled_tactician
+	add_trait = ambitious
+		
+	353.1.1 = { # Made up
+		birth="yes" # 423 BC
+	}
+	406.1.1 = { # 370 BC
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+30403 = {
+	name = "Polydoros" # Of Pherae, brother of Jason
+	dynasty = 3005 # Iasonidai
+	religion = greek_main
+	culture = aeolian
+	father = 30401
+	355.1.1 = { # Made up
+		birth="yes" # 421 BC
+	}
+	407.1.1 = { # 369 BC
+		death = {
+			death_reason = death_murder
+			killer = 30405
+		}
+	}
+}
+30404 = {
+	name = "Alexandros" # brother of Jason
+	dynasty = 3005 # Iasonidai
+	religion = greek_main
+	culture = aeolian
+	father = 30401
+	359.1.1 = { # Made up
+		birth="yes" # 417 BC
+	}
+	418.1.1 = {
+		death="yes" # 358 BC
+	}
+}
+30405 = {
+	name = "Polyphron" # brother of Jason
+	dynasty = 3005 # Iasonidai
+	religion = greek_main
+	culture = aeolian
+	father = 30401
+	
+	add_trait = cruel
+	
+	365.1.1 = { # Made up
+		birth="yes" # 411 BC
+	}
+	407.2.1 = {
+		death = {
+			death_reason = death_murder
+			killer = 30406
+		}
+	}
+}
+30406 = {
+	name = "Alexandros" # Alexander of Pherae
+	dynasty = 3005 # Iasonidai
+	religion = greek_main
+	culture = aeolian
+	father = 30402
+	
+	add_trait = ambitious
+	# This guy is a perfect example of a tyrant
+	add_trait = cruel
+	add_trait = deceitful
+	add_trait = wroth
+	add_trait = craven
+	add_trait = arbitrary
+	
+	389.1.1 = { # Made up
+		birth="yes" # 387 BC
+	}
+	408.1.1 = {
+		add_spouse = 30410
+	}
+	418.1.1 = { # 358 BC
+		death = {
+			death_reason = death_murder
+			killer = 30407
+		}
+	}
+}
+30407 = {
+	name = "Tisiphonos" # Later Tyrant of Pherae
+	dynasty = 3005 # Iasonidai
+	religion = greek_main
+	culture = aeolian
+	father = 30403
+	390.1.1 = { # Made up
+		birth="yes" # 386 BC
+	}
+	421.1.1 = { # Made up
+		death="yes" # 355 BC
+	}
+}
+30408 = {
+	name = "Pytholaos" # Brother of Tisiphonos
+	dynasty = 3005 # Iasonidai
+	religion = greek_main
+	culture = aeolian
+	father = 30403
+	397.1.1 = { # Made up
+		birth="yes" # 379 BC
+	}
+	424.1.1 = { # Made up
+		death="yes" # 352 BC
+	}
+}
+30409 = {
+	name = "Lykophron" # Brother of Tisiphonos
+	dynasty = 3005 # Iasonidai
+	religion = greek_main
+	culture = aeolian
+	father = 30403
+	399.1.1 = { # Made up
+		birth="yes" # 377 BC
+	}
+	454.1.1 = { # Made up
+		death="yes" # 322 BC
+	}
+}
+30410 = {
+	name = "Thebe" # Sister of Tisiphonos and wife of Alexandros
+	dynasty = 3005 # Iasonidai
+	religion = greek_main
+	culture = aeolian
+	father = 30403
+	female = yes
+	392.1.1 = { # Made up
+		birth="yes" # 384 BC
+	}
+	420.1.1 = { # Made up
+		death="yes" # 356 BC
+	}
+}

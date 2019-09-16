@@ -1,0 +1,25 @@
+417.1.1 = {
+	holder = 40114 # Kotys
+	liege = k_odrysia
+}
+418.1.1 = {
+	holder = 40119 #Kersobleptes
+	liege = d_odrysia
+}
+438.1.1 = {
+	holder = 40101
+}
+453.6.10 = {
+	holder = 30001 # Lysimachus
+	liege = k_s_thrace
+}
+467.1.1 = {
+	liege = k_odrysia
+}
+495.2.1 = {
+	holder = 603 # Arsinoe II
+	liege = k_macedon
+}
+495.8.1 = {
+	holder = 604 # Ptolemaios Keraunos
+}

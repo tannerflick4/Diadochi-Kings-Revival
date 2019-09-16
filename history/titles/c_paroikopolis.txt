@@ -1,0 +1,16 @@
+417.4.1 = {
+	holder = 150004
+	liege = d_paeonia
+}
+418.1.1 = {
+	holder = 150005
+}
+436.1.1 = {
+	holder = 150001
+}
+461.1.1 = {
+	holder = 150002 # Audoleon
+}
+491.1.1 = {
+	holder = 150003 # Ariston
+}

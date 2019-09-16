@@ -1,0 +1,27 @@
+# 440001-440100 for the Callaeci dynasty
+440001 = {
+	name = "Skirtunos" # Made up Callaeci leader
+	dynasty = 44001
+	culture = gallaecian
+	religion = celtic_main
+	
+	385.1.1 = { # 391 BC, Made up
+		birth="yes"
+	}
+	465.1.1 = { # 311 BC
+		death="yes"
+	}
+}
+440002 = {
+	name = "Sanion" # Made up Callaeci leader
+	dynasty = 44001
+	culture = celtiberian
+	religion = celtic_main
+	
+	416.1.1 = { # 360 BC, Made up
+		birth="yes"
+	}
+	496.1.1 = { # 280 BC
+		death="yes"
+	}
+}

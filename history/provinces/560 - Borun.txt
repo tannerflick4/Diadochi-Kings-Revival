@@ -1,0 +1,17 @@
+# 560 - Borun
+
+# County Title
+title = c_borun
+
+# Settlements
+max_settlements = 3
+b_borun_borun = castle
+b_varkazura_borun = castle
+b_tagasti_borun = temple
+
+# Misc
+culture = scythian
+religion = scythian_main
+
+# History
+# Can be filled when things change around the province

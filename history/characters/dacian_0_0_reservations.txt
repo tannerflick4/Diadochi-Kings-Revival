@@ -1,0 +1,12 @@
+# 270001-280000 for dacian characters
+	# 270001-2709010 for the Troglodytae dynasty
+	# 2709011-2706020 for the Albocenses dynasty
+	# 2706021-270300 for the Saldenses dynasty
+	# 270301-270400 for the Polutacenses dynasty
+	# 270401-270500 for the Buridavenses dynasty
+	# 270501-270600 for the Caucoenses dynasty
+	# 270601-270700 for the Ratacenses dynasty
+	# 270701-270800 for the Ansamenses dynasty
+	# 270801-270900 for the Capri dynasty
+	# 270901-271000 for the Costoboci dynasty
+	# 271001-271100 for the Apulli dynasty

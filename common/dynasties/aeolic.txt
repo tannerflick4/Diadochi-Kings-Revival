@@ -1,0 +1,33 @@
+# 3001-4000 for aeolic dynasties
+3001 = {
+	name = "Lysimachidai" # Family of Lysimachus, Satrap of Thrace and later king of Macedonia
+	culture = aeolian
+}
+3002 = {
+	name = "Larichidai" # Family of Laomedon, Satrap of Syria(Later annexed by Ptolemy I)
+	culture = aeolian
+}
+3003 = {
+	name = "Arkesilidai" # Family of Arkesilas, Satrap of Assyria
+	culture = aeolian
+}
+3004 = {
+	name = "Pharsaloi"
+	culture = aeolian
+}
+3005 = {
+	name = "Iasonidai" # Tyrants of Pherae, might not be correct
+	culture = aeolian
+}
+3006 = {
+	name = "Aleuadai"
+	culture = aeolian
+}
+3007 = {
+	name = "Theagenidai"
+	culture = aeolian
+}
+3008 = {
+	name = "Kymioi"
+	culture = aeolian
+}

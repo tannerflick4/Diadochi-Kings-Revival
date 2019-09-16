@@ -1,0 +1,39 @@
+# 220001-220100 for the Veneti dynasty
+220001 = {
+	name = "Avitus" # Veneti leader, Made up
+	dynasty = 22001 # Veneti
+	religion = illyrian_main
+	culture = venetic
+	father = 220003
+	421.1.1 = { # 355 BC Made up
+		birth="yes"
+	}
+	471.1.1 = { # 305 BC Made up
+		death="yes"
+	}
+}
+220002 = {
+	name = "Aetor" # Veneti leader, Made up
+	dynasty = 22001 # Veneti
+	religion = illyrian_main
+	culture = venetic
+	father = 220001
+	441.1.1 = { # 335 BC
+		birth="yes"
+	}
+	511.1.1 = { # 265 BC
+		death="yes"
+	}
+}
+220003 = {
+	name = "Oeplus" # Veneti leader, Made up
+	dynasty = 22001 # Veneti
+	religion = illyrian_main
+	culture = venetic
+	379.1.1 = { # 397 BC
+		birth="yes"
+	}
+	432.1.1 = { # 344 BC
+		death="yes"
+	}
+}

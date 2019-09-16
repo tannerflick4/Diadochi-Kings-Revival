@@ -1,0 +1,18 @@
+# 52 - Tyras
+
+# County Title
+title = c_tyras # for example c_corinth
+
+# Settlements
+max_settlements = 4 
+b_tyras_tyras = city
+b_nikonion_tyras = city
+b_antiphilou_tyras = castle
+b_kremniskoi_tyras = castle
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

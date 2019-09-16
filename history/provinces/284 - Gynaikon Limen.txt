@@ -1,0 +1,18 @@
+# 284 - Gynaikon Limen
+
+# County Title
+title = c_gynaikon_limen
+
+# Settlements
+max_settlements = 4
+b_oxiana_gynaikon_limen = castle
+b_sindomana_gynaikon_limen = city
+b_sacola_gynaikon_limen = temple
+b_barbara_gynaikon_limen = castle
+
+# Misc
+culture = shauraseni
+religion = hinduism_main
+
+# History
+# Can be filled when things change around the province

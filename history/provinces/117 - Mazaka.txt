@@ -1,0 +1,20 @@
+# 117 - Mazaka
+
+# County Title
+title = c_mazaka # for example c_corinth
+
+# Settlements
+max_settlements = 6
+b_moutalaske_mazaka = castle
+b_mazaka_mazaka = temple
+b_eulepa_mazaka = city
+b_archalla_mazaka = castle
+b_arasaxa_mazaka = temple
+b_armaxa_mazaka = castle
+
+# Misc
+culture = cappadocian
+religion = anatolian_main
+
+# History
+# Can be filled when things change around the province

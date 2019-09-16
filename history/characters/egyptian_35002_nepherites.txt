@@ -1,0 +1,57 @@
+# 350016-350030 for Nepherites characters
+
+350016 = {
+	name = "Nefaarud" # Nepherites I of Egypt, rules 399-393 BCE
+	dynasty = 35002
+	culture = egyptian
+	religion = kemetic
+	331.1.1 = { # 445 BC, made up
+		birth="yes"
+	}
+	383.1.1 = { # 393 BC 
+		death="yes"
+	}
+}
+350017 = {
+	name = "Pasherienmut" #Muthis/Psammuthes, rules 393-392 BCE, tenuous existence 
+	dynasty = 35002
+	culture = egyptian
+	religion = kemetic
+	father = 350016
+	351.1.1 = { # 425 BC, made up
+		birth="yes"
+	}
+	391.1.1 = { # 385 BC, made up
+		death="yes"
+	}
+}
+350018 = {
+	name = "Akoris" #Hakor, rules 393-380
+	dynasty = 35002
+	culture = egyptian
+	religion = kemetic
+	father = 350016 #debatable, could be son, grandson, or separate dynasty
+	353.1.1 = { # 423 BC, made up
+		birth="yes"
+	}
+	396.1.1 = { # 380 BC
+		death="yes"
+	}
+}
+350019 = {
+	name = "Nefaarud" #Nepherites II, rules 380 BCE and is killed by Nectanebo I
+	dynasty = 35002
+	culture = egyptian
+	religion = kemetic
+	father = 350018
+	372.1.1 = { # 404 BC, made up
+		birth="yes"
+	}
+	396.6.1 = { # 380 BC
+		death = {
+			death_reason = death_murder
+			killer = 350003
+		}
+	}
+}
+

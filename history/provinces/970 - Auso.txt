@@ -1,0 +1,16 @@
+# 970 - Auso
+
+# County Title
+title = c_auso
+
+# Settlements
+max_settlements = 2
+b_auso_auso = castle
+b_iltirkesken_auso = castle
+
+# Misc
+culture = iberian
+religion = iberian_main
+
+# History
+# Can be filled when things change around the province

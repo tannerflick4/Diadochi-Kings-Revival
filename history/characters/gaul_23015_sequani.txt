@@ -1,0 +1,52 @@
+# 231301-231400 for the Sequani dynasty
+231301 = {
+	name = "Diviciacus" # Made up
+	dynasty = 23015 # Sequani
+	culture = gaul
+	religion = celtic_main
+	father = 231303
+	441.1.1 = { # Made up
+		birth="yes" # 335 BC
+	}
+	469.1.1 = { # Made up
+		death="yes" # 307 BC
+	}
+}
+231302 = {
+	name = "Divico" # Sequani Made up
+	dynasty = 23015 # Sequani
+	culture = gaul
+	religion = celtic_main
+	father = 231301
+	464.1.1 = { # 312 BC
+		birth="yes"
+	}
+	540.1.1 = { # 236 BC
+		death="yes"
+	}
+}
+231303 = {
+	name = "Dumnorix" # Made up
+	dynasty = 23015 # Sequani
+	culture = gaul
+	religion = celtic_main
+	father = 231304
+	418.1.1 = { # Made up
+		birth="yes" # 358 BC
+	}
+	448.1.1 = { # Made up
+		death="yes" # 328 BC
+	}
+}
+231304 = {
+	name = "Eporedix" # Made up
+	dynasty = 23015 # Sequani
+	culture = gaul
+	religion = celtic_main
+	382.1.1 = { # Made up
+		birth="yes" # 394 BC
+	}
+	438.1.1 = { # Made up
+		death="yes" # 338 BC
+	}
+}

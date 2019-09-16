@@ -1,0 +1,17 @@
+# 888 - Yanqi
+
+# County Title
+title = c_yanqi
+
+# Settlements
+max_settlements = 3
+
+b_yanqi_yanqi = castle # Karaxahr
+b_weili_yanqi = temple
+b_weixu_yanqi = city
+
+culture = tocharian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

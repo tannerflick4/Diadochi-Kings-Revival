@@ -1,0 +1,55 @@
+# 330601-330700 for the Tauroi dynasty
+330601 = {
+	name = "Vonones" # Made up
+	dynasty = 33007 # Tauroi
+	religion = scythian_main
+	culture = scythian
+	father = 330604
+	435.1.1 = { # 341 BC
+		birth="yes"
+	}
+	498.1.1 = { # 278 BC
+		death="yes"
+	}
+}
+330602 = {
+	name = "Atheas" # King who fought and was defeated by Philip of Macedon
+	dynasty = 33007 # Tauroi
+	religion = scythian_main
+	culture = scythian
+	347.1.1 = { # 429 BC
+		birth="yes"
+	}
+	437.1.1 = { # 339 BC
+		death = {
+			death_reason = death_battle
+			killer = 803
+		}
+	}
+}
+330603 = {
+	name = "Moga" # Made up
+	dynasty = 33007 # Tauroi
+	religion = scythian_main
+	culture = scythian
+	father = 330602
+	376.1.1 = { # 400 BC made up
+		birth="yes"
+	}
+	420.1.1 = { # 356 BC made up
+		death="yes"
+	}
+}
+330604 = {
+	name = "Omarg" # Made up
+	dynasty = 33007 # Tauroi
+	religion = scythian_main
+	culture = scythian
+	father = 330603
+	400.1.1 = { # 376 BC made up
+		birth="yes"
+	}
+	453.1.1 = { # 323 BC made up
+		death="yes"
+	}
+}

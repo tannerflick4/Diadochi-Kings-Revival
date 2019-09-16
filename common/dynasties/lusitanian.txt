@@ -1,0 +1,17 @@
+# 43001-44000 for Lusitanian dynasties
+43001 = {
+	name = "Lusitani"
+	culture = celtiberian
+}
+43002 = {
+	name = "Elbocori"
+	culture = celtiberian
+}
+43003 = {
+	name = "Paesuri"
+	culture = celtiberian
+}
+43004 = {
+	name = "Vettones"
+	culture = celtiberian
+}

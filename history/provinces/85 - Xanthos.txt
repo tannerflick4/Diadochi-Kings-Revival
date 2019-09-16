@@ -1,0 +1,19 @@
+# 85 - Xanthos
+
+# County Title
+title = c_xanthos # for example c_corinth
+
+# Settlements
+max_settlements = 5
+b_xanthos_xanthos = castle
+b_patara_xanthos = temple
+b_telmessos_xanthos = city
+b_pinara_xanthos = city
+b_tlos_xanthos = city
+
+# Misc
+culture = luwian
+religion = anatolian_main
+
+# History
+# Can be filled when things change around the province

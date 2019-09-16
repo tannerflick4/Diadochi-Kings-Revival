@@ -1,0 +1,17 @@
+# 156 - Kysis
+
+# County Title
+title = c_kysis
+
+# Settlements
+max_settlements = 3
+b_kysis_kysis = castle
+b_tabennese_kysis = temple
+b_mounesis_kysis = city
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province
