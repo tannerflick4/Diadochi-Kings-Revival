@@ -7819,12 +7819,12 @@ character_event = { # Generate 'Fake Family' for characters without any
 		
 		if = { # Caste fix
 			limit = {
-				religion = hindu
+				religion = hinduism_main
 				trait = kshatriya
 			}
 			any_child = {
 				limit = {
-					religion = hindu
+					religion = hinduism_main
 					NOT = { trait = kshatriya }
 				}
 				add_trait = kshatriya

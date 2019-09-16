@@ -256,140 +256,6 @@ character_event = {
 	
 	is_triggered_only = yes
 	
-	option = { #Christianity
-		name = {
-			text = EVTOPTAHF23003
-			trigger = {
-				is_alternate_start = no
-			}
-		}
-		name = {
-			text = EVTOPTAHF23003_ALT
-			trigger = {
-				is_alternate_start = yes
-			}
-		}
-		trigger = {
-			NOT = { religion_group = christian } #Random World safety check.
-		}
-		add_trait = sympathy_christendom
-		clr_character_flag = flag_picking_sympathy
-		ai_chance = { 
-			factor = 25 
-			modifier = { 
-				factor = 0 
-				liege = { 
-					OR = { 
-						trait = sympathy_islam
-						trait = sympathy_zoroastrianism
-						trait = sympathy_judaism
-						trait = sympathy_indian 
-					}
-				}
-			}
-			modifier = { 
-				factor = 0 
-				top_liege = { 
-					OR = { 
-						trait = sympathy_islam
-						trait = sympathy_zoroastrianism
-						trait = sympathy_judaism
-						trait = sympathy_indian 
-					}
-				}
-			}
-			modifier = { 
-				factor = 0.25
-				spouse = { 
-					OR = { 
-						trait = sympathy_islam
-						trait = sympathy_zoroastrianism
-						trait = sympathy_judaism
-						trait = sympathy_indian 
-					}
-				}
-			}
-			modifier = { 
-				factor = 1.5
-				any_demesne_province = { 
-					religion_group = christian
-				}
-			}
-			modifier = { 
-				factor = 1.5
-				any_courtier_or_vassal = { 
-					religion_group = christian
-				}
-			}
-		}
-	}
-	option = { #Islam
-		name = {
-			text = EVTOPTBHF23003
-			trigger = {
-				is_alternate_start = no
-			}
-		}
-		name = {
-			text = EVTOPTBHF23003_ALT
-			trigger = {
-				is_alternate_start = yes
-			}
-		}
-		trigger = {
-			NOT = { religion_group = muslim } #Random World safety check.
-		}
-		add_trait = sympathy_islam
-		clr_character_flag = flag_picking_sympathy
-		ai_chance = { 
-			factor = 25 
-			modifier = { 
-				factor = 0 
-				liege = { 
-					OR = { 
-						trait = sympathy_christendom
-						trait = sympathy_zoroastrianism
-						trait = sympathy_judaism
-						trait = sympathy_indian 
-					}
-				}
-			}
-			modifier = { 
-				factor = 0 
-				top_liege = { 
-					OR = { 
-						trait = sympathy_christendom
-						trait = sympathy_zoroastrianism
-						trait = sympathy_judaism
-						trait = sympathy_indian 
-					}
-				}
-			}
-			modifier = { 
-				factor = 0.25
-				spouse = { 
-					OR = { 
-						trait = sympathy_christendom
-						trait = sympathy_zoroastrianism
-						trait = sympathy_judaism
-						trait = sympathy_indian 
-					}
-				}
-			}
-			modifier = { 
-				factor = 1.5
-				any_demesne_province = { 
-					religion_group = muslim
-				}
-			}
-			modifier = { 
-				factor = 1.5
-				any_courtier_or_vassal = { 
-					religion_group = muslim
-				}
-			}
-		}
-	}
 	option = { #Jews
 		name = {
 			text = EVTOPTCHF23003
@@ -404,7 +270,7 @@ character_event = {
 			}
 		}
 		trigger = {
-			NOT = { religion_group = jewish_group } #Random World safety check.
+			NOT = { religion = judaism_main } #Random World safety check.
 		}
 		add_trait = sympathy_judaism
 		clr_character_flag = flag_picking_sympathy
@@ -445,14 +311,14 @@ character_event = {
 			}
 			modifier = { 
 				factor = 1.5
-				any_demesne_province = { 
-					religion_group = jewish_group
+				any_demesne_province = {
+					religion = judaism_main
 				}
 			}
 			modifier = { 
 				factor = 1.5
 				any_courtier_or_vassal = { 
-					religion_group = jewish_group
+					religion = judaism_main
 				}
 			}
 		}
@@ -506,25 +372,25 @@ character_event = {
 			modifier = { 
 				factor = 1.5
 				any_demesne_province = { 
-					religion_group = indian_group
+					is_dharmic_religion_trigger = yes
 				}
 			}
 			modifier = { 
 				factor = 1.5
 				any_courtier_or_vassal = { 
-					religion_group = indian_group
+					is_dharmic_religion_trigger = yes
 				}
 			}
 			modifier = { 
 				factor = 1.5
 				any_demesne_province = { 
-					religion_group = zoroastrian_group
+					is_dharmic_religion_trigger = yes
 				}
 			}
 			modifier = { 
 				factor = 1.5
 				any_courtier_or_vassal = { 
-					religion_group = zoroastrian_group
+					religion = zoroastrian_main
 				}
 			}
 		}
@@ -555,7 +421,7 @@ character_event = {
 			}
 		}
 		trigger = {
-			NOT = { religion_group = zoroastrian_group } #Random World safety check.
+			NOT = { religion = zoroastrian_main } #Random World safety check.
 		}
 		add_trait = sympathy_zoroastrianism
 		clr_character_flag = flag_picking_sympathy
@@ -600,13 +466,13 @@ character_event = {
 			modifier = { 
 				factor = 1.5
 				any_demesne_province = { 
-					religion_group = zoroastrian_group
+					religion = zoroastrian_main
 				}
 			}
 			modifier = { 
 				factor = 1.5
 				any_courtier_or_vassal = { 
-					religion_group = zoroastrian_group
+					religion = zoroastrian_main
 				}
 			}
 		}
@@ -625,7 +491,7 @@ character_event = {
 			}
 		}
 		trigger = {
-			NOT = { religion_group = indian_group } #Random World safety check.
+			NOT = { is_dharmic_religion_trigger = yes } #Random World safety check.
 		}
 		add_trait = sympathy_indian
 		clr_character_flag = flag_picking_sympathy
@@ -737,18 +603,6 @@ character_event = {
 					trait = sympathy_indian 
 				}
 			}
-			modifier = { 
-				factor = 1.5
-				any_demesne_province = { 
-					religion_group = pagan_group
-				}
-			}
-			modifier = { 
-				factor = 1.5
-				any_courtier_or_vassal = { 
-					religion_group = pagan_group
-				}
-			}
 		}
 	}
 	option = { #Return
@@ -780,8 +634,7 @@ character_event = {
 	trigger = { 
 		OR = { 
 			has_religion_feature = religion_haruspicy 
-			religion = hellenic_pagan
-			religion = hellenic_pagan_reformed
+			religion_group = greek_group
 		} 
 		NOR = {
 			has_character_modifier = divination_crit_success
