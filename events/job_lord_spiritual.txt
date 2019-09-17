@@ -201,7 +201,7 @@ character_event = {
 		
 		modifier = {
 			factor = 0.6
-			religion = hindu
+			religion = hinduism_main
 	    	any_owned_bloodline = {
     			has_bloodline_flag = bloodline_faster_hindu
     		}
@@ -228,14 +228,11 @@ character_event = {
 			factor = 3.0
 			has_job_action = action_inquisition
 			OR = {
-				religion = hindu
-				religion = buddhist
+				religion = hinduism_main
+				religion = buddhism_main
 			}
 			location = {
-				religion_group = indian_group
-				NOT = {
-					religion = taoist
-				}
+				has_dharmic_religion_trigger = yes
 			}
 		}
 		# Jains have a hard time converting everyone
@@ -243,19 +240,6 @@ character_event = {
 			factor = 3.0
 			has_job_action = action_inquisition
 			religion = jainism_main
-		}
-		
-		modifier = {
-			factor = 3.0
-			has_job_action = action_inquisition
-			religion_group = pagan_group
-			is_reformed_religion = no
-			location = {
-				OR = {
-					NOT = { religion_group = pagan_group }
-					is_reformed_religion = yes
-				}
-			}
 		}
 		modifier = {
 			factor = 1.5
@@ -437,11 +421,6 @@ character_event = {
 		modifier = {
 			factor = 0.75
 			religion_authority = 0.8
-		}
-		modifier = {
-			factor = 3.0
-			religion_group = pagan_group
-			is_reformed_religion = no
 		}
 	}
 	
@@ -691,9 +670,6 @@ character_event = {
 		name = "EVTOPTA20021"
 		trigger = {
 			NOT = {
-				religion_group = muslim
-			}
-			NOT = {
 				trait = wroth
 			}
 		}
@@ -709,20 +685,6 @@ character_event = {
 		}
 		add_trait = wounded
 		add_trait = zealous
-		liege = { letter_event = { id = 20022 tooltip = "EVTTOOLTIP20022" } }
-	}
-	option = {
-		name = "EVTOPTC20021"
-		trigger = {
-			religion_group = muslim
-			NOT = {
-				AND = {
-					trait = wroth
-					NOT = { trait = humble }
-				}
-			}
-		}
-		add_trait = wounded
 		liege = { letter_event = { id = 20022 tooltip = "EVTTOOLTIP20022" } }
 	}
 }
@@ -782,8 +744,7 @@ character_event = {
 		NOT = { has_character_modifier = bedridden_illness }
 		NOT = { trait = incapable }
 		NOT = { has_religion_feature = religion_cosmopolitan }
-		NOT = { religion_group = pagan_group }
-		NOT = { religion_group = indian_group }
+		has_dharmic_religion_trigger = no
 		trait = zealous
 		location = {
 			any_province_lord = {
@@ -870,20 +831,6 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA20030"
-		trigger = {
-			NOT = {
-				religion_group = muslim
-			}
-		}
-		FROM = {
-			liege = { letter_event = { id = 20032 tooltip = "EVTTOOLTIP20032" } }
-		}
-	}
-	option = {
-		name = "EVTOPTB20030"
-		trigger = {
-			religion_group = muslim
-		}
 		FROM = {
 			liege = { letter_event = { id = 20032 tooltip = "EVTTOOLTIP20032" } }
 		}
@@ -967,18 +914,6 @@ letter_event = {
 	
 	option = {
 		name = "EVTOPTA20033"
-		trigger = {
-			NOT = {
-				religion_group = muslim
-			}
-		}
-		piety = 5
-	}
-	option = {
-		name = "EVTOPTB20033"
-		trigger = {
-			religion_group = muslim
-		}
 		piety = 5
 	}
 }
@@ -1167,335 +1102,6 @@ letter_event = {
 	}
 }
 
-# Chaplain arrives at Pagan capital
-character_event = {
-	id = 39650
-	desc = EVTDESC39650
-	picture = GFX_evt_bishop
-	border = GFX_event_normal_frame_religion
-	
-	min_age = 16
-	capable_only = yes
-	prisoner = no
-	has_job_title = yes
-	
-	trigger = {
-		has_job_action = action_inquisition
-		NOT = { has_character_modifier = in_seclusion }
-		NOT = { has_character_modifier = bedridden_illness }
-		NOT = { trait = incapable }
-		NOT = { has_character_flag = preacher_arrives }
-		location = {
-			owner = {
-				NOT = { character = ROOT }
-				NOT = { is_liege_of = ROOT }
-				NOT = { religion = ROOT }
-				religion_group = pagan_group
-				NOT = { same_realm = ROOT }
-				NOT = { has_character_flag = flag_converting_baptism }
-				NOT = { has_character_modifier = baptism_request_cooldown }
-				controls_religion = no
-			}
-		}
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
-	
-	option = {
-		name = EVTOPTA39650
-		set_character_flag = preacher_arrives
-		location = {
-			owner = {
-				character_event = { id = 39600 days = 4 tooltip = EVTTOOLTIP39600 }
-			}
-		}
-	}
-}
-
-# Chaplain has a chance of converting the Pagan lord
-character_event = {
-	id = 39651
-	desc = EVTDESC39651
-	picture = GFX_evt_bishop
-	border = GFX_event_normal_frame_religion
-	
-	min_age = 16
-	capable_only = yes
-	prisoner = no
-	has_character_flag = preacher_arrives
-	has_job_title = yes
-	
-	trigger = {
-		has_job_action = action_inquisition
-		NOT = { has_character_modifier = in_seclusion }
-		NOT = { has_character_modifier = bedridden_illness }
-		NOT = { trait = incapable }
-		location = {
-			owner = {
-				is_adult = yes
-				NOT = { trait = incapable }
-				NOT = { character = ROOT }
-				NOT = { is_liege_of = ROOT }
-				NOT = { religion = ROOT }
-				religion_group = pagan_group
-				is_reformed_religion = no
-				NOT = { same_realm = ROOT }
-				controls_religion = no
-				NOT = { has_character_flag = flag_converting_baptism }
-				NOT = { has_character_modifier = baptism_request_cooldown }
-				# at_location = ROOT
-			}
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 120
-
-		job_event_mtth_modifier_learning_score = yes
-	
-		modifier = {
-			factor = 1.5
-			has_religion_feature = religion_proselytizing
-		}
-		modifier = {
-			factor = 2.0
-			NOT = { religion_authority = 0.4 }
-		}
-		modifier = {
-			factor = 2.0
-			NOT = { religion_authority = 0.2 }
-		}
-		modifier = {
-			factor = 0.75
-			religion_authority = 0.6
-		}
-		modifier = {
-			factor = 0.75
-			religion_authority = 0.8
-		}
-		# Local Pagan religion authority
-		modifier = {
-			factor = 0.75
-			location = {
-				owner = {
-					NOT = { religion_authority = 0.2 }
-				}
-			}
-		}
-		modifier = {
-			factor = 0.75
-			location = {
-				owner = {
-					NOT = { religion_authority = 0.4 }
-				}
-			}
-		}
-		modifier = {
-			factor = 2
-			location = {
-				owner = {
-					religion_authority = 0.6
-				}
-			}
-		}
-		modifier = {
-			factor = 2
-			location = {
-				owner = {
-					religion_authority = 0.8
-				}
-			}
-		}
-	}
-	
-	option = {
-		name = EVTOPTA39651
-		hidden_tooltip = {
-			location = {
-				owner = {
-					character_event = { id = 39601 days = 1 }
-				}
-			}
-		}
-	}
-}
-
-# Chaplain converts Pagan courtier
-character_event = {
-	id = 39652
-	desc = EVTDESC39652
-	picture = GFX_evt_bishop
-	border = GFX_event_normal_frame_religion
-	
-	min_age = 16
-	capable_only = yes
-	prisoner = no
-	has_character_flag = preacher_arrives
-	has_job_title = yes
-	
-	trigger = {
-		has_job_action = action_inquisition
-		NOT = { has_character_modifier = in_seclusion }
-		NOT = { has_character_modifier = bedridden_illness }
-		NOT = { trait = incapable }
-		location = {
-			owner = {
-				NOT = { character = ROOT }
-				NOT = { is_liege_of = ROOT }
-				NOT = { religion = ROOT }
-				religion_group = pagan_group
-				is_reformed_religion = no
-				NOT = { same_realm = ROOT }
-			}
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 120
-	
-		job_event_mtth_modifier_learning_score = yes
-
-		modifier = {
-			factor = 1.5
-			has_religion_feature = religion_proselytizing
-		}
-		modifier = {
-			factor = 2.0
-			NOT = { religion_authority = 0.4 }
-		}
-		modifier = {
-			factor = 2.0
-			NOT = { religion_authority = 0.2 }
-		}
-		modifier = {
-			factor = 0.75
-			religion_authority = 0.6
-		}
-		modifier = {
-			factor = 0.75
-			religion_authority = 0.8
-		}
-	}
-	
-	option = {
-		name = EVTOPTA39652
-		hidden_tooltip = {
-			location = {
-				owner = {
-					random_courtier = {
-						limit = { 
-							age = 10
-							prisoner = no
-							at_location = ROOT
-							NOT = { trait = incapable }
-							ai = yes
-							religion_group = pagan_group
-						}
-						character_event = { id = 39610 days = 1 }
-					}
-				}
-			}
-		}
-	}
-}
-
-# Chaplain squabbles with other chaplain
-character_event = {
-	id = 39653
-	desc = EVTDESC39653
-	picture = GFX_evt_bishop
-	border = GFX_event_normal_frame_religion
-	
-	min_age = 16
-	capable_only = yes
-	prisoner = no
-	has_character_flag = preacher_arrives
-	has_job_title = yes
-	
-	trigger = {
-		has_job_action = action_inquisition
-		NOT = { has_character_modifier = in_seclusion }
-		NOT = { has_character_modifier = bedridden_illness }
-		NOT = { trait = incapable }
-		location = {
-			owner = {
-				NOT = { character = ROOT }
-				NOT = { is_liege_of = ROOT }
-				NOT = { religion = ROOT }
-				religion_group = pagan_group
-				NOT = { same_realm = ROOT }
-			}
-		}
-		any_playable_ruler = {
-			any_courtier = {
-				has_job_action = action_inquisition
-				has_character_flag = preacher_arrives
-				at_location = ROOT
-				NOT = { character = ROOT }
-				NOT = { same_liege = ROOT }
-			}
-		}			
-	}
-	
-	mean_time_to_happen = {
-		months = 120
-	}
-	
-	option = {
-		name = EVTOPTA39653
-		hidden_tooltip = {
-			random_playable_ruler = {
-				limit = {
-					any_courtier = {
-						has_job_action = action_inquisition
-						has_character_flag = preacher_arrives
-						at_location = ROOT
-						NOT = { character = ROOT }
-						NOT = { same_liege = ROOT }
-					}
-				}
-				random_courtier = {
-					limit = {
-						has_job_action = action_inquisition
-						has_character_flag = preacher_arrives
-						at_location = ROOT
-						NOT = { character = ROOT }
-						NOT = { same_liege = ROOT }
-					}
-					character_event = { id = 39611 days = 1 }
-				}
-			}
-		}
-	}
-}
-
-# Clear preacher_arrives flag
-character_event = {
-	id = 39654
-	hide_window = yes
-	
-	min_age = 16
-	capable_only = yes
-	prisoner = no
-	has_character_flag = preacher_arrives
-	
-	trigger = {
-		NOT = { has_job_action = action_inquisition }
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
-	
-	immediate = {
-		clr_character_flag = preacher_arrives
-	}
-}
-
-
-
 ##############################
 # LORD SPIRITUAL
 # JOB: action_improve_rel_relations
@@ -1629,7 +1235,7 @@ character_event = {
 		NOT = { has_character_modifier = in_seclusion }
 		NOT = { has_character_modifier = bedridden_illness }
 		NOT = { trait = incapable }
-		NOT = { religion_group = indian_group }
+		has_dharmic_religion_trigger = no
 		religion_head = {
 			NOT = { character = liege }
 		}
@@ -1840,22 +1446,14 @@ character_event = {
 		NOT = { has_character_modifier = in_seclusion }
 		NOT = { has_character_modifier = bedridden_illness }
 		NOT = { trait = incapable }
-		NOT = { religion_group = indian_group }
+		has_dharmic_religion_trigger = no
 		NOT = { has_religion_feature = religion_cosmopolitan }
 		is_heretic = no
 		has_secret_religion = no
-		OR = {
-			religion_group = christian
-			religion_group = muslim
-			religion_group = jewish_group
-		}
+		religion = judaism_main
 		liege = {
 			is_heretic = no
-			OR = {
-				religion_group = christian
-				religion_group = muslim
-				religion_group = jewish_group
-			}
+			religion = judaism_main
 		}
 		NOT = {
 			religion_head = { character = ROOT }

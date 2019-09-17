@@ -415,7 +415,7 @@ character_event = {
     	}
 		random_independent_ruler = {
 			limit = {
-				religion_group = muslim
+				#religion_group = muslim # TODO: Add another condition here?
 				NOT = { ROOT = { top_liege = { character = PREVPREV } } }
 				is_landed = yes
 				any_realm_province = { 
@@ -1647,16 +1647,6 @@ character_event = {
 
 				}
 				20 = {
-					trigger = { 
-						event_target:target_province = { religion_group = christian }
-					}
-					add_artifact = fingerbone_of_saint
-					new_artifact = {
-						set_creation_date = 1.1.1
-			    		save_event_target_as = found_artifact
-					}
-				}
-				20 = {
 					trigger = {
 						NOT = { has_artifact = emerald_scepter }
 					}
@@ -1858,7 +1848,10 @@ character_event = {
 
     #Sword
     option = { 
-        trigger = { NOR = { religion_group = muslim has_dharmic_religion_trigger = yes } has_character_flag = weaponsmith }
+        trigger = { 
+			has_dharmic_religion_trigger = no 
+			has_character_flag = weaponsmith 
+		}
         name = EVTOPTA_MNM_9118
         custom_tooltip = { text = EVTOPTA_MNM_9118_TT }
         hidden_effect = { event_target:smith = { set_character_flag = weapon_sword } }
@@ -1869,7 +1862,7 @@ character_event = {
 	#Zweihander Sword
     option = { 
         trigger = { 
-        	NOR = { religion_group = muslim has_dharmic_religion_trigger = yes }
+        	has_dharmic_religion_trigger = no
         	OR = {
 				likes_germanics = yes
 				likes_latino_iberians = yes
@@ -1886,7 +1879,10 @@ character_event = {
 
     #Scimitar
     option = {
-        trigger = { OR = { religion_group = muslim has_dharmic_religion_trigger = yes } has_character_flag = weaponsmith }
+        trigger = {
+			has_dharmic_religion_trigger = yes
+			has_character_flag = weaponsmith 
+		}
         name = EVTOPTB_MNM_9118
         custom_tooltip = { text = EVTOPTB_MNM_9118_TT }
         hidden_effect = { event_target:smith = { set_character_flag = weapon_scimitar } }
@@ -1927,11 +1923,6 @@ character_event = {
         custom_tooltip = { text = EVTOPTE_MNM_9118_TT }
         hidden_effect = { event_target:smith = { set_character_flag = weapon_mace } }
         scaled_wealth = { value = -1.5 min = -75 max = -150 }
-        ai_chance = { 
-        	factor = 1
-        	modifier = { religion = norse_pagan factor = 5 }
-        	modifier = { religion = norse_pagan_reformed factor = 5 }
-        }
     }
 
     #Bow
@@ -2554,8 +2545,7 @@ character_event = { #What happens at the meeting
 				OR = {
 					has_religion_feature = religion_feature_zun
 					has_religion_feature = religion_holy_family
-					religion = messalian
-					religion = zoroastrian
+					religion = zoroastrian_main
 					NOT = { is_close_relative = FROM }
 					FROM = { any_spouse = { character = ROOT } }
 				}
@@ -2805,8 +2795,7 @@ character_event = { #Seduction reaction
 			OR = {
 				FROM = { has_religion_feature = religion_feature_zun }
 				FROM = { has_religion_feature = religion_holy_family }
-				FROM = { religion = messalian }
-				FROM = { religion = zoroastrian }
+				FROM = { religion = zoroastrian_main }
 				NOT = { is_close_relative = FROM }
 				any_spouse = { character = FROM }
 				ai = no
@@ -2857,8 +2846,7 @@ character_event = { #Seduction reaction
 			OR = {
 				FROM = { has_religion_feature = religion_feature_zun }
 				FROM = { has_religion_feature = religion_holy_family }
-				FROM = { religion = messalian }
-				FROM = { religion = zoroastrian }
+				FROM = { religion = zoroastrian_main }
 				NOT = { is_close_relative = FROM }
 				any_spouse = { character = FROM }
 				ai = no
@@ -3257,33 +3245,26 @@ character_event = {
     }
 }
 
-
-
 character_event = {
 	id = LT.20510
 	title = EVT_TITLE_LT_20510
 	desc = {
-		trigger = { religion_group = pagan_group }
+		trigger = {
+			NOR = {
+				religion = judaism_main
+				has_dharmic_religion_trigger = yes
+			}
+		}
 		text = EVTDESC_LT_20510_pagan
 		picture = GFX_evt_bad_news
 	}
 	desc = {
-		trigger = { religion_group = christian }
-		text = EVTDESC_LT_20510_christian
-		picture = GFX_evt_bad_news
-	}
-	desc = {
-		trigger = { religion_group = muslim }
-		text = EVTDESC_LT_20510_muslim
-		picture = GFX_evt_bad_news
-	}
-	desc = {
-		trigger = { religion_group = jewish_group }
+		trigger = { religion = judaism_main }
 		text = EVTDESC_LT_20510_jewish
 		picture = GFX_evt_bad_news
 	}
 	desc = {
-		trigger = { religion_group = indian_group }
+		trigger = { has_dharmic_religion_trigger = yes }
 		text = EVTDESC_LT_20510_indian
 		picture = GFX_evt_bad_news
 	}
@@ -3379,23 +3360,24 @@ character_event = {
 	id = LT.20520
 	title = EVT_TITLE_LT_20510
 	desc = {
-		trigger = { religion_group = pagan_group }
+		trigger = { 
+			NOR = {
+				religion = judaism_main
+				has_dharmic_religion_trigger = yes
+			}
+		}
 		text = EVTDESC_LT_20520_pagan
 		picture = GFX_evt_feast_hf
 	}
 	desc = {
 		trigger = {
-			OR = {
-				religion_group = christian
-				religion_group = jewish_group
-				religion_group = muslim
-			}
+			religion = judaism_main
 		}
 		text = EVTDESC_LT_20520_monoteist
 		picture = GFX_evt_died_funeral
 	}
 	desc = { #Indian traditions with respect to funeral vary much, between cremation and burial, so it is better not to be specific...
-		trigger = { religion_group = indian_group }
+		trigger = { has_dharmic_religion_trigger = yes }
 		text = EVTDESC_LT_20520_indian
 		picture = GFX_evt_india_temple
 	}
@@ -3427,27 +3409,13 @@ character_event = {
 		name = {
 			text = EVTOPTA_LT_20520_polyteist
 			trigger = {
-				OR = {
-					religion_group = pagan_group
-					religion_group = indian_group
-				}
+				NOT = { religion = judaism_main }
 			}
 		}
 		name = {
 			text = EVTOPTA_LT_20520_monoteist
 			trigger = {
-				OR = {
-					religion_group = christian
-					religion_group = jewish_group
-				}
-			}
-		}
-		name = {
-			text = EVTOPTA_LT_20520_muslim
-			trigger = {
-				OR = {
-					religion_group = muslim
-				}
+				religion = judaism_main
 			}
 		}
 		custom_tooltip = { text = EVTOPTA_LT_20520_TT }

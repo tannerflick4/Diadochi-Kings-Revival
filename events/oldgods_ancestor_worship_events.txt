@@ -1615,8 +1615,6 @@ character_event = {
 		if = { 
 			limit = {
 				NOR = { 
-					religion = cathar
-					religion = messalian
 					has_law = status_of_women_3
 					has_law = status_of_women_4
 					has_game_rule = {
@@ -2582,6 +2580,8 @@ character_event = {
 	}
 }
 
+# TODO: Remove main dieties.
+
 #Remove main deity in case of religious conversion
 character_event = {
 	id = TOG.7101
@@ -2591,24 +2591,25 @@ character_event = {
 
 	trigger = {
 		has_minor_deity_trigger = yes
-		NOR = { #Checks that the character isn't reforming
-			AND = {
-				religion = slavic_pagan_reformed
-				FROM = { religion = slavic_pagan }
-			}
-			AND = {
-				religion = west_african_pagan_reformed
-				FROM = { religion = west_african_pagan }
-			}
-			AND = {
-				religion = finnish_pagan_reformed
-				FROM = { religion = finnish_pagan }
-			}
-			AND = {
-				religion = tengri_pagan_reformed
-				FROM = { religion = tengri_pagan }
-			}
-		}
+		always = no
+		#NOR = { #Checks that the character isn't reforming
+		#	AND = {
+		#		religion = slavic_pagan_reformed
+		#		FROM = { religion = slavic_pagan }
+		#	}
+		#	AND = {
+		#		religion = west_african_pagan_reformed
+		#		FROM = { religion = west_african_pagan }
+		#	}
+		#	AND = {
+		#		religion = finnish_pagan_reformed
+		#		FROM = { religion = finnish_pagan }
+		#	}
+		#	AND = {
+		#		religion = tengri_pagan_reformed
+		#		FROM = { religion = tengri_pagan }
+		#	}
+		#}
 	}
 
 	immediate = {
@@ -4925,30 +4926,9 @@ character_event = {
 
 character_event = {
 	id = TOG.7526 
+	desc = EVTDESC_TOG_7526
 	border = GFX_event_normal_frame_economy
 	picture = GFX_evt_irminsul_shrine
-
-	desc = {
-		trigger = { 
-			OR = {
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
-			}
-		}
-		text = EVTDESC_TOG_7526
-		picture = GFX_evt_sun_temple
-	}
-	desc = {
-		trigger = { 
-			NOR = {
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
-			}
-		}
-		text = EVTDESC_TOG_7526
-		picture = GFX_evt_irminsul_shrine
-	}
-
 
 	is_triggered_only = yes
 
@@ -5081,24 +5061,9 @@ character_event = {
 
 	desc = {
 		trigger = { 
-			has_character_flag = monument_for_ancestors 
-			NOR = {
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
-			}
+			has_character_flag = monument_for_ancestors
 		}
 		text = EVTDESC_TOG_7527_ANCESTORS
-	}
-	desc = {
-		trigger = { 
-			has_character_flag = monument_for_ancestors 
-			OR = {
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
-			}
-		}
-		text = EVTDESC_TOG_7527_ANCESTORS
-		picture = GFX_evt_sun_temple
 	}
 	desc = {
 		trigger = { 

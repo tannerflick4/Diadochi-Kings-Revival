@@ -49,12 +49,6 @@ character_event = {
 			has_character_modifier = relic_rumor_medium
 			has_character_modifier = relic_rumor_minor
 		}
-		NOR = {
-			religion = zun_pagan
-			religion = zun_pagan_reformed
-			religion = pagan
-			religion = hellenic_pagan
-		}
 		NOT = {
 			has_alternate_start_parameter = { key = religion_names value = random }
 		}
@@ -86,11 +80,11 @@ character_event = {
 					factor = 0.7
 					ai = yes
 				}
+				# TODO: Implement religion specific modifiers
 				modifier = {
 					factor = 0
 					AND = {
-						religion_group = christian
-						has_artifact = bones_of_st_peter
+						religion = judaism_main
 						has_artifact = staff_of_moses
 						has_artifact = davids_harp
 					}
@@ -98,26 +92,7 @@ character_event = {
 				modifier = {
 					factor = 0
 					AND = {
-						religion_group = jewish_group
-						has_artifact = staff_of_moses
-						has_artifact = davids_harp
-					}
-				}
-				modifier = {
-					factor = 0
-					AND = {
-						religion_group = muslim
-						has_artifact = staff_of_moses
-						has_artifact = davids_harp
-						has_artifact = seal_of_mohammad
-						has_artifact = holy_banner_of_mohammad
-						has_artifact = blessed_mantle
-					}
-				}
-				modifier = {
-					factor = 0
-					AND = {
-						religion_group = zoroastrian_group
+						religion = zoroastrian_main
 						has_artifact = cup_of_jamshid
 						has_artifact = babr_e_bayan
 					}
@@ -125,80 +100,18 @@ character_event = {
 				modifier = {
 					factor = 0
 					AND = {
-						religion_group = indian_group
+						has_dharmic_religion_trigger = yes
 						has_artifact = buddhas_tooth
-					}
-				}
-				modifier = {
-					factor = 0
-					AND = {
-						OR = {
-							religion = norse_pagan
-							religion = norse_pagan_reformed
-						}
-						has_artifact = mjolnir
-						has_artifact = andvaranaut
-					}
-				}
-				modifier = {
-					factor = 0
-					AND = {
-						OR = {
-							religion = west_african_pagan
-							religion = west_african_pagan_reformed
-						}
-						has_artifact = fetish_of_souls
-					}
-				}
-				modifier = {
-					factor = 0
-					AND = {
-						OR = {
-							religion = finnish_pagan
-							religion = finnish_pagan_reformed
-						}
-						has_artifact = sampo
-					}
-				}
-				modifier = {
-					factor = 0
-					AND = {
-						OR = {
-							religion = slavic_pagan
-							religion = slavic_pagan_reformed
-						}
-						has_artifact = axe_of_perun
-					}
-				}
-				modifier = {
-					factor = 0
-					AND = {
-						OR = {
-							religion = tengri_pagan
-							religion = tengri_pagan_reformed
-						}
-						has_artifact = yada_tashy
 					}
 				}
 				event_target:rumor_councillor = { character_event = { id = MNM.9001 } } 
 			}
 			30 = { #Good rumor
+				# TODO: Implement religion specific modifiers
 				modifier = {
 					factor = 0
 					AND = {
-						religion_group = christian
-						has_artifact = crown_of_thorns
-						has_artifact = seamless_robe_of_jesus
-						has_artifact = fragment_of_true_cross
-						has_artifact = holy_foreskin
-						has_artifact = seal_of_solomon
-						has_artifact = image_of_edessa
-					}
-				}
-				modifier = {
-					factor = 0
-					AND = {
-						religion_group = jewish_group
+						religion = judaism_main
 						has_artifact = seal_of_solomon
 						has_artifact = tabernacle
 					}
@@ -206,18 +119,7 @@ character_event = {
 				modifier = {
 					factor = 0
 					AND = {
-						religion_group = muslim
-						has_artifact = seal_of_solomon
-						has_artifact = sword_of_mohammad
-						has_artifact = letter_of_mohammad
-						has_artifact = blessed_sandals
-						has_artifact = cloak_of_mohammad
-					}
-				}
-				modifier = {
-					factor = 0
-					AND = {
-						religion_group = zoroastrian_group
+						religion = zoroastrian_main
 						has_artifact = derafsh_kaviani
 						has_artifact = cyrus_cylinder
 					}
@@ -225,62 +127,20 @@ character_event = {
 				modifier = {
 					factor = 0
 					AND = {
-						religion_group = indian_group
+						has_dharmic_religion_trigger = yes
 						has_artifact = mountain_of_light_diamond
 						has_artifact = elaborate_danda
 						has_artifact = sarira
 						has_artifact = sariraka_actual_body_part
 					}
 				}
-				modifier = {
-					factor = 0
-					AND = {
-						OR = {
-							religion = norse_pagan
-							religion = norse_pagan_reformed
-						}
-						has_artifact = gjallarhorn
-					}
-				}
 				event_target:rumor_councillor = { character_event = { id = MNM.9002 } }
 			} 
 			60 = { #Weak rumor
-				modifier = { 
-					factor = 0 
-					AND = {
-						religion_group = pagan_group 
-						has_artifact = famous_head
-						has_artifact = famous_tongue
-						has_artifact = infamous_tongue
-						has_artifact = famous_hand
-						has_artifact = famous_arm
-						has_artifact = famous_foot
-						has_artifact = famous_ancient_weapon
-					}
-				}
 				modifier = {
 					factor = 0
 					AND = {
-						religion_group = christian
-						has_artifact = fingerbone_of_saint
-						has_artifact = famous_head
-						has_artifact = famous_tongue
-						has_artifact = infamous_tongue
-						has_artifact = famous_hand
-						has_artifact = famous_arm
-						has_artifact = famous_foot
-						has_artifact = famous_ancient_weapon
-						has_artifact = chains_of_st_peter
-						has_artifact = right_hand_st_demetrius
-						has_artifact = veil_of_veronica
-						has_artifact = remains_of_st_cessianus
-						has_artifact = weeping_statue
-					}
-				}
-				modifier = {
-					factor = 0
-					AND = {
-						religion_group = jewish_group
+						religion = judaism_main
 						has_artifact = famous_head
 						has_artifact = famous_tongue
 						has_artifact = infamous_tongue
@@ -294,27 +154,7 @@ character_event = {
 				modifier = {
 					factor = 0
 					AND = {
-						religion_group = muslim
-						has_artifact = mohammads_beard
-						OR = {
-							has_artifact = blessed_mantle #safeguard so you don't end up with two waters
-							has_artifact = water_of_blessed_mantle
-						}
-						has_artifact = famous_head
-						has_artifact = famous_tongue
-						has_artifact = infamous_tongue
-						has_artifact = famous_hand
-						has_artifact = famous_arm
-						has_artifact = famous_foot
-						has_artifact = famous_ancient_weapon
-						has_artifact = mohammads_bowl
-						has_artifact = tooth_of_mohammad
-					}
-				}
-				modifier = {
-					factor = 0
-					AND = {
-						religion_group = zoroastrian_group
+						religion = zoroastrian_main
 						has_artifact = haoma_sapling
 						has_artifact = keshmar_cypress_branch
 						has_artifact = famous_head
@@ -329,7 +169,7 @@ character_event = {
 				modifier = {
 					factor = 0
 					AND = {
-						religion_group = indian_group
+						has_dharmic_religion_trigger = yes
 						has_artifact = famous_head
 						has_artifact = famous_tongue
 						has_artifact = infamous_tongue
@@ -941,175 +781,16 @@ character_event = {
 					character_event = { id = MNM.9841 } #receive "Ancient Rusty Weapon" event
 				}
 
-				#Christian artifacts
-				10 = {
-					modifier = { factor = 0 NOT = { religion_group = christian } }
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
-					modifier = {
-						factor = 0
-						has_artifact = bones_of_st_peter
-					}
-					narrative_event = { id = MNM.9804 } #receive "Bones of St. Peter" event
-				}
-
-				10 = {
-					modifier = { factor = 0 NOT = { religion_group = christian } }
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_medium } }
-					modifier = {
-						factor = 0
-						has_artifact = seamless_robe_of_jesus
-					}
-					character_event = { id = MNM.9805 } #receive "Seamless Robe of Jesus" event
-				}
-				10 = {
-					modifier = { factor = 0 NOT = { religion_group = christian } }
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_medium } }
-					modifier = {
-						factor = 0
-						has_artifact = crown_of_thorns
-					}
-					#Insert artifact event here
-					character_event = { id = MNM.9806 } #Crown of Thorns
-				}
-				20 = {
-					modifier = { factor = 0 NOT = { religion_group = christian } }
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_medium } }
-					modifier = {
-						factor = 0
-						has_artifact = fragment_of_true_cross
-					}
-					#Insert artifact event here
-					character_event = { id = MNM.9807 } #Fragment of the True Cross
-				}
-				20 = {
-					modifier = { factor = 0 NOT = { religion_group = christian } }
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_medium } }
-					modifier = {
-						factor = 0
-						has_artifact = holy_foreskin
-					}
-					#Insert artifact event here
-					character_event = { id = MNM.9808 } #Holy Foreskin
-				}
-
-				20 = {
-					modifier = { 
-						factor = 0 
-						NOT = { 
-							religion_group = christian
-						} 
-					}
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_minor } }
-					modifier = {
-						factor = 0
-						has_artifact = fingerbone_of_saint
-					}
-					#Insert artifact event here
-					character_event = { id = MNM.9809 } #Fingerbone of Saint
-				}
-
-				10 = {
-					modifier = { 
-						factor = 0 
-						NOT = { 
-							religion_group = christian
-						} 
-					}
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_minor } }
-					modifier = {
-						factor = 0
-						has_artifact = chains_of_st_peter
-					}
-					#Insert artifact event here
-					character_event = { id = MNM.9842 } #Chains of St. Peter
-				}
-
-				10 = {
-					modifier = { 
-						factor = 0 
-						NOT = { 
-							religion_group = christian
-						} 
-					}
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_minor } }
-					modifier = {
-						factor = 0
-						has_artifact = right_hand_st_demetrius
-					}
-					#Insert artifact event here
-					character_event = { id = MNM.9843 } #Right Hand of St. Demetrius
-				}
-
-				10 = {
-					modifier = { 
-						factor = 0 
-						NOT = { 
-							religion_group = christian
-						} 
-					}
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_minor } }
-					modifier = {
-						factor = 0
-						has_artifact = veil_of_veronica
-					}
-					#Insert artifact event here
-					character_event = { id = MNM.9844 } #Veil of Veronica
-				}
-
-				10 = {
-					modifier = { 
-						factor = 0 
-						NOT = { 
-							religion_group = christian
-						} 
-					}
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_minor } }
-					modifier = {
-						factor = 0
-						has_artifact = remains_of_st_cessianus
-					}
-					#Insert artifact event here
-					character_event = { id = MNM.9845 } #Remains of St. Cessianus
-				}
-
-				10 = {
-					modifier = { 
-						factor = 0 
-						NOT = { 
-							religion_group = christian
-						} 
-					}
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_minor } }
-					modifier = {
-						factor = 0
-						has_artifact = weeping_statue
-					}
-					#Insert artifact event here
-					character_event = { id = MNM.9846 } #Weeping Statue
-				}
-
-				20 = {
-					modifier = { factor = 0 NOT = { religion_group = christian } }
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_medium } }
-					modifier = {
-						factor = 0
-						has_artifact = image_of_edessa
-					}
-					#Insert artifact event here
-					character_event = { id = MNM.9847 } #Image of Edessa
-				}
-
+				# TODO: Implement religion specific modifiers
 				#Jewish artifacts
 				10 = {
 					modifier = {
 						factor = 0 
 						NOR = { 
-							religion_group = jewish_group
-							religion_group = christian
-							religion_group = muslim
+							religion = judaism_main
 						}
 					}
-					modifier = { factor = 0.5 NOT = { religion_group = jewish_group } }
+					modifier = { factor = 0.5 NOT = { religion = judaism_main } }
 					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
 					modifier = {
 						factor = 0
@@ -1122,12 +803,10 @@ character_event = {
 					modifier = {
 						factor = 0 
 						NOR = { 
-							religion_group = jewish_group
-							religion_group = christian
-							religion_group = muslim
+							religion = judaism_main
 						}
 					}
-					modifier = { factor = 0.5 NOT = { religion_group = jewish_group } }
+					modifier = { factor = 0.5 NOT = { religion = judaism_main } }
 					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
 					modifier = {
 						factor = 0
@@ -1140,12 +819,10 @@ character_event = {
 					modifier = {
 						factor = 0 
 						NOR = { 
-							religion_group = jewish_group
-							religion_group = christian
-							religion_group = muslim
+							religion = judaism_main
 						}
 					}
-					modifier = { factor = 0.5 NOT = { religion_group = jewish_group } }
+					modifier = { factor = 0.5 NOT = { religion = judaism_main } }
 					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_medium } }
 					modifier = {
 						factor = 0
@@ -1156,7 +833,7 @@ character_event = {
 				}
 
 				20 = {
-					modifier = { factor = 0 NOT = { religion_group = jewish_group } }
+					modifier = { factor = 0 NOT = { religion = judaism_main } }
 					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_medium } }
 					modifier = {
 						factor = 0
@@ -1166,7 +843,7 @@ character_event = {
 					character_event = { id = MNM.9853 } #The Tabernacle
 				}
 				5 = {
-					modifier = { factor = 0 NOR = { religion_group = jewish_group religion_group = christian } }
+					modifier = { factor = 0 NOR = { religion = judaism_main } }
 					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
 					modifier = {
 						factor = 0
@@ -1180,7 +857,7 @@ character_event = {
 					modifier = { 
 						factor = 0 
 						NOT = { 
-							religion_group = jewish_group
+							religion = judaism_main
 						} 
 					}
 					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_minor } }
@@ -1192,127 +869,9 @@ character_event = {
 					character_event = { id = MNM.9854 } #King David's Sling
 				}
 
-				#Muslim artifacts
-				10 = {
-					modifier = { factor = 0 NOT = { religion_group = muslim } }
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
-					modifier = {
-						factor = 0
-						has_artifact = seal_of_mohammad
-					}
-					#Insert artifact event here
-					narrative_event = { id = MNM.9820 } #Seal of Mohammad
-				}
-				10 = {
-					modifier = { factor = 0 NOT = { religion_group = muslim } }
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
-					modifier = {
-						factor = 0
-						has_artifact = holy_banner_of_mohammad
-					}
-					#Insert artifact event here
-					narrative_event = { id = MNM.9821 } #Holy Banner of Mohammad
-				}
-				10 = {
-					modifier = { factor = 0 NOT = { religion_group = muslim } }
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
-					modifier = {
-						factor = 0
-						has_artifact = blessed_mantle
-					}
-					#Insert artifact event here
-					narrative_event = { id = MNM.9822 } #Blessed mantle
-				}
-
-				10 = {
-					modifier = { factor = 0 NOT = { religion_group = muslim } }
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_medium } }
-					modifier = {
-						factor = 0
-						has_artifact = sword_of_mohammad
-					}
-					#Insert artifact event here
-					character_event = { id = MNM.9823 } #Sword of Mohammad
-				}
-				20 = {
-					modifier = { factor = 0 NOT = { religion_group = muslim } }
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_medium } }
-					modifier = {
-						factor = 0
-						has_artifact = letter_of_mohammad
-					}
-					#Insert artifact event here
-					character_event = { id = MNM.9824 } #Letter of Mohammad
-				}
-
-				10 = {
-					modifier = { factor = 0 NOT = { religion_group = muslim } }
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_minor } }
-					modifier = {
-						factor = 0
-						has_artifact = mohammads_beard
-					}
-					#Insert artifact event here
-					character_event = { id = MNM.9825 } #Mohammad's Beard
-				}
-				20 = {
-					modifier = { factor = 0 NOT = { religion_group = muslim } }
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_minor } }
-					modifier = {
-						factor = 0
-						has_artifact = water_of_blessed_mantle
-					}
-					#Insert artifact event here
-					character_event = { id = MNM.9826 } #Water of the Blessed Mantle
-				}
-
-				20 = {
-					modifier = { factor = 0 NOT = { religion_group = muslim } }
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_medium } }
-					modifier = {
-						factor = 0
-						has_artifact = cloak_of_mohammad
-					}
-					#Insert artifact event here
-					character_event = { id = MNM.9848 } #Cloak of Mohammad
-				}
-
-				10 = {
-					modifier = { factor = 0 NOT = { religion_group = muslim } }
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_minor } }
-					modifier = {
-						factor = 0
-						has_artifact = tooth_of_mohammad
-					}
-					#Insert artifact event here
-					character_event = { id = MNM.9849 } #Tooth of Mohammad
-				}
-
-				10 = {
-					modifier = { factor = 0 NOT = { religion_group = muslim } }
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_minor } }
-					modifier = {
-						factor = 0
-						has_artifact = mohammads_bowl
-					}
-					#Insert artifact event here
-					character_event = { id = MNM.9850 } #Mohammad's Bowl
-				}
-
-				20 = {
-					modifier = { factor = 0 NOT = { religion_group = muslim } }
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_medium } }
-					modifier = {
-						factor = 0
-						has_artifact = blessed_sandals
-					}
-					#Insert artifact event here
-					character_event = { id = MNM.9851 } #Blessed Sandals
-				}
-
 				#Zoroastrian artifacts
 				10 = {
-					modifier = { factor = 0 NOT = { religion_group = zoroastrian_group } }
+					modifier = { factor = 0 NOT = { religion = zoroastrian_main } }
 					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
 					modifier = {
 						factor = 0
@@ -1325,7 +884,7 @@ character_event = {
 					modifier = { 
 						factor = 0 
 						NOR = { 
-							religion_group = zoroastrian_group 
+							religion = zoroastrian_main 
 							culture_group = iranian
 						} 
 					}
@@ -1342,10 +901,10 @@ character_event = {
 					modifier = { 
 						factor = 0 
 						NOR = { 
-							religion_group = zoroastrian_group 
+							religion = zoroastrian_main 
 							culture_group = iranian
 							has_landed_title = e_persia
-							has_landed_title = k_persia
+							#has_landed_title = k_persia # TODO: Add component kingdoms here?
 						} 
 					}
 					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_medium } }
@@ -1358,7 +917,7 @@ character_event = {
 				}
 
 				10 = {
-					modifier = { factor = 0 NOT = { religion_group = zoroastrian_group } }
+					modifier = { factor = 0 NOT = { religion = zoroastrian_main } }
 					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_minor } }
 					modifier = {
 						factor = 0
@@ -1368,7 +927,7 @@ character_event = {
 					character_event = { id = MNM.9833 } #Haoma Sapling
 				}
 				20 = {
-					modifier = { factor = 0 NOT = { religion_group = zoroastrian_group } }
+					modifier = { factor = 0 NOT = { religion = zoroastrian_main } }
 					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_minor } }
 					modifier = {
 						factor = 0
@@ -1382,7 +941,7 @@ character_event = {
 					modifier = { 
 						factor = 0 
 						NOR = { 
-							religion_group = zoroastrian_group 
+							religion = zoroastrian_main 
 							culture_group = iranian
 						} 
 					}
@@ -1400,7 +959,7 @@ character_event = {
 					modifier = { 
 						factor = 0 
 						NOT = {
-							religion_group = indian_group
+							has_dharmic_religion_trigger = yes
 						}
 					}
 					modifier = {
@@ -1418,7 +977,7 @@ character_event = {
 					modifier = { 
 						factor = 0 
 						NOT = {
-							religion_group = indian_group
+							has_dharmic_religion_trigger = yes
 						}
 					}
 					modifier = {
@@ -1434,7 +993,7 @@ character_event = {
 				}
 				10 = {
 					trigger = {
-						religion_group = indian_group
+						has_dharmic_religion_trigger = yes
 						has_character_modifier = relic_rumor_major	
 						NOT = { has_artifact = mountain_of_light_diamond }
 					}
@@ -1444,13 +1003,13 @@ character_event = {
 					modifier = { 
 						factor = 0 
 						NOT = {
-							religion_group = indian_group
+							has_dharmic_religion_trigger = yes
 						}
 					}
 					modifier = { 
 						factor = 0.5
 						NOT = {
-							religion = buddhist
+							religion = buddhism_main
 						}
 					}
 					modifier = {
@@ -1468,13 +1027,13 @@ character_event = {
 					modifier = { 
 						factor = 0 
 						NOT = {
-							religion_group = indian_group
+							has_dharmic_religion_trigger = yes
 						}
 					}
 					modifier = { 
 						factor = 0.5
 						NOT = {
-							religion = buddhist
+							religion = buddhism_main
 						}
 					}
 					modifier = {
@@ -1488,133 +1047,6 @@ character_event = {
 					#Insert artifact event here
 					character_event = { id = MNM.9204 } #Looking for a Body part of Buddha
 				}
-				
-
-				##Pagan artifacts##
-				#Germanic artifacts
-				20 = {
-					modifier = { 
-						factor = 0 
-						NOR = {
-							religion = norse_pagan
-							religion = norse_pagan_reformed
-						}
-					}
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_medium } }
-					modifier = {
-						factor = 0
-						has_artifact = gjallarhorn
-					}
-					#Insert artifact event here
-					character_event = { id = MNM.9600 } #Gjallarhorn
-				}
-
-				10 = {
-					modifier = { 
-						factor = 0 
-						NOR = {
-							religion = norse_pagan
-							religion = norse_pagan_reformed
-						}
-					}
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
-					modifier = {
-						factor = 0
-						has_artifact = andvaranaut
-					}
-					#Insert artifact event here
-					narrative_event = { id = MNM.9601 } #Andvaranaut/Andvari's Gift
-				}
-
-				10 = {
-					modifier = { 
-						factor = 0 
-						NOR = {
-							religion = norse_pagan
-							religion = norse_pagan_reformed
-						}
-					}
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
-					modifier = {
-						factor = 0
-						has_artifact = mjolnir
-					}
-					#Insert artifact event here
-					narrative_event = { id = MNM.9602 } #Mjolnir
-				}
-
-				#West African artifacts
-				10 = {
-					modifier = { 
-						factor = 0 
-						NOR = {
-							religion = west_african_pagan
-							religion = west_african_pagan_reformed
-						}
-					}
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
-					modifier = {
-						factor = 0
-						has_artifact = fetish_of_souls
-					}
-					#Insert artifact event here
-					narrative_event = { id = MNM.9603 } #Fetish of Souls
-				}
-
-				#Finnish artifacts
-				10 = {
-					modifier = { 
-						factor = 0 
-						NOR = {
-							religion = finnish_pagan
-							religion = finnish_pagan_reformed
-						}
-					}
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
-					modifier = {
-						factor = 0
-						has_artifact = sampo
-					}
-					#Insert artifact event here
-					narrative_event = { id = MNM.9604 } #Sampo/Mill of Fortune
-				}
-
-				#Slavic artifacts
-				10 = {
-					modifier = { 
-						factor = 0 
-						NOR = {
-							religion = slavic_pagan
-							religion = slavic_pagan_reformed
-						}
-					}
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
-					modifier = {
-						factor = 0
-						has_artifact = axe_of_perun
-					}
-					#Insert artifact event here
-					narrative_event = { id = MNM.9605 } #Axe of Perun
-				}
-
-				#Tengri artifacts
-				10 = {
-					modifier = { 
-						factor = 0 
-						NOR = {
-							religion = tengri_pagan
-							religion = tengri_pagan_reformed
-						}
-					}
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
-					modifier = {
-						factor = 0
-						has_artifact = yada_tashy
-					}
-					#Insert artifact event here
-					narrative_event = { id = MNM.9607 } #Yada Tashy/Rain Stone
-				}
-
 			}
 		}
 	}
@@ -8118,14 +7550,6 @@ character_event = {
 				}
     			factor = 3
 			}
-    		modifier = {
-    			NOR = {
-    				wealth = 25
-    				yearly_income = 5
-    				religion_group = pagan_group
-				}
-    			factor = 0
-			}
     	}
     }
 
@@ -8212,17 +7636,8 @@ character_event = {
     id = MNM.9105
     picture = GFX_evt_treasure_chamber
     border = GFX_event_normal_frame_economy
-
-    desc = {
-    	trigger = { religion_group = christian }
-    	text = EVTDESC_MNM_9105
-    	picture = GFX_evt_holy_emperor
-    }
-    desc = {
-    	trigger = { NOT = { religion_group = christian } }
-    	text = EVTDESC_MNM_9105
-    	picture = GFX_evt_treasure_chamber
-    }
+    desc = EVTDESC_MNM_9105
+    picture = GFX_evt_treasure_chamber
 
     is_triggered_only = yes
     
@@ -8258,19 +7673,11 @@ character_event = {
     id = MNM.9106
     picture = GFX_evt_treasure_chamber
     border = GFX_event_normal_frame_economy
+    desc = EVTDESC_MNM_9106
+    picture = GFX_evt_treasure_chamber
 
     is_triggered_only = yes
 
-    desc = {
-    	trigger = { religion_group = christian }
-    	text = EVTDESC_MNM_9106
-    	picture = GFX_evt_holy_emperor
-    }
-    desc = {
-    	trigger = { NOT = { religion_group = christian } }
-    	text = EVTDESC_MNM_9106
-    	picture = GFX_evt_treasure_chamber
-    }
     
     trigger = {
     	OR = {
@@ -8945,7 +8352,8 @@ character_event = {
     #Sword
     option = { 
         trigger = { 
-        	NOR = { religion_group = muslim has_dharmic_religion_trigger = yes } has_character_flag = weaponsmith 
+        	has_dharmic_religion_trigger = no
+			has_character_flag = weaponsmith 
         	have_all_weaponsmith_swords_all_flags_trigger = no
         }
         name = EVTOPTA_MNM_9118
@@ -8957,7 +8365,8 @@ character_event = {
     #Scimitar
     option = {
         trigger = { 
-        	OR = { religion_group = muslim has_dharmic_religion_trigger = yes } has_character_flag = weaponsmith 
+        	has_dharmic_religion_trigger = yes
+			has_character_flag = weaponsmith 
         	have_all_weaponsmith_scimitar_all_flags_trigger = no
     	}
         name = EVTOPTB_MNM_9118
@@ -9008,8 +8417,6 @@ character_event = {
         hidden_tooltip = { FROM = { set_character_flag = weapon_mace } }
         ai_chance = { 
         	factor = 1
-        	modifier = { religion = norse_pagan factor = 5 }
-        	modifier = { religion = norse_pagan_reformed factor = 5 }
         }
     }
 
@@ -9531,14 +8938,6 @@ character_event = {
     				tier = DUKE
     			}
     			factor = 3
-    		}
-    		modifier = {
-    			NAND = {
-    				wealth = 75
-    				yearly_income = 7.5
-    				religion_group = pagan_group
-    			}
-    			factor = 0
     		}
     	}
     }
@@ -10418,10 +9817,7 @@ character_event = {
 		        if = {
 		        	limit = { 
 		        		FROM = {
-			        		OR = {
-			        			religion_group = christian 
-			        			religion_group = jewish_group
-							}
+			        		religion = judaism_main
 						}
 		        	}
 		        	add_artifact = crown_of_majesty
@@ -10430,21 +9826,6 @@ character_event = {
 		        	new_artifact = { set_artifact_flag = stolen_by_smith }
 		        	add_artifact = sword_of_heroes
 		        	new_artifact = { set_artifact_flag = stolen_by_smith }
-		        	new_artifact = { set_artifact_flag = stolen_by_smith }
-		        }
-		        else_if = {
-		        	limit = { 
-		        		FROM = {
-			        		OR = {
-			        			religion_group = muslim 
-			        			religion = west_african_pagan
-			        			religion = west_african_pagan_reformed
-			        		}
-			        	}
-		        	}
-		        	add_artifact = dagger_of_glory
-		        	new_artifact = { set_artifact_flag = stolen_by_smith }
-		        	add_artifact = ruby_bracelets
 		        	new_artifact = { set_artifact_flag = stolen_by_smith }
 		        }
 		        else_if = {
@@ -10466,30 +9847,12 @@ character_event = {
 		        else_if = {
 		        	limit = { 
 		        		FROM = {
-			        		OR = {
-			        			religion_group = zoroastrian_group
-			        			religion = zun_pagan
-			        			religion = zun_pagan_reformed
-							}
+			        		religion = zoroastrian_main
 						}
 					}
 		        	add_artifact = circlet_of_the_heavens
 		        	new_artifact = { set_artifact_flag = stolen_by_smith }
 		        	add_artifact = staff_of_majesty
-		        	new_artifact = { set_artifact_flag = stolen_by_smith }
-		        }
-		        else_if = {
-		        	limit = {
-		        		FROM = {
-			        		OR = {
-			        			religion = norse_pagan
-			        			religion = norse_pagan_reformed
-			        		}
-			        	}
-		        	}
-		        	add_artifact = crown_of_crows
-		        	new_artifact = { set_artifact_flag = stolen_by_smith }
-		        	add_artifact = sword_of_heroes
 		        	new_artifact = { set_artifact_flag = stolen_by_smith }
 		        }
 		        else = {
@@ -10503,10 +9866,7 @@ character_event = {
 				if = {
 		        	limit = { 
 		        		FROM = {
-			        		OR = {
-			        			religion_group = christian 
-			        			religion_group = jewish_group
-							}
+			        		religion = judaism_main
 						}
 		        	}
 		        	add_artifact = crown_of_pearls
@@ -10514,21 +9874,6 @@ character_event = {
 		        	add_artifact = ruby_scepter
 		        	new_artifact = { set_artifact_flag = stolen_by_smith }
 		        	add_artifact = golden_sword
-		        	new_artifact = { set_artifact_flag = stolen_by_smith }
-		        }
-		        else_if = {
-		        	limit = { 
-		        		FROM = {
-			        		OR = {
-			        			religion_group = muslim 
-			        			religion = west_african_pagan
-			        			religion = west_african_pagan_reformed
-			        		}
-			        	}
-		        	}
-		        	add_artifact = bejeweled_dagger
-		        	new_artifact = { set_artifact_flag = stolen_by_smith }
-		        	add_artifact = golden_bracelets
 		        	new_artifact = { set_artifact_flag = stolen_by_smith }
 		        }
 		        else_if = {
@@ -10550,30 +9895,12 @@ character_event = {
 		        else_if = {
 		        	limit = { 
 		        		FROM = {
-			        		OR = {
-			        			religion_group = zoroastrian_group
-			        			religion = zun_pagan
-			        			religion = zun_pagan_reformed
-							}
+			        		religion = zoroastrian_main
 						}
 					}
 		        	add_artifact = circlet_of_the_heavens
 		        	new_artifact = { set_artifact_flag = stolen_by_smith }
 		        	add_artifact = golden_staff
-		        	new_artifact = { set_artifact_flag = stolen_by_smith }
-		        }
-		        else_if = {
-		        	limit = { 
-		        		FROM = {
-			        		OR = {
-			        			religion = norse_pagan
-			        			religion = norse_pagan_reformed
-			        		}
-			        	}
-		        	}
-		        	add_artifact = crown_of_the_sea
-		        	new_artifact = { set_artifact_flag = stolen_by_smith }
-		        	add_artifact = golden_sword
 		        	new_artifact = { set_artifact_flag = stolen_by_smith }
 		        }
 		        else = {
@@ -10585,12 +9912,9 @@ character_event = {
 			}
 			cheap_jewels = { 
 		        if = {
-		        	limit = {
+		        	limit = { 
 		        		FROM = {
-			        		OR = {
-			        			religion_group = christian 
-			        			religion_group = jewish_group
-							}
+			        		religion = judaism_main
 						}
 		        	}
 		        	add_artifact = the_lily_crown
@@ -10598,21 +9922,6 @@ character_event = {
 		        	add_artifact = noble_scepter
 		        	new_artifact = { set_artifact_flag = stolen_by_smith }
 		        	add_artifact = engraved_sword
-		        	new_artifact = { set_artifact_flag = stolen_by_smith }
-		        }
-		        else_if = {
-		        	limit = {
-		        		FROM = {
-			        		OR = {
-			        			religion_group = muslim 
-			        			religion = west_african_pagan
-			        			religion = west_african_pagan_reformed
-			        		}
-			        	}
-		        	}
-		        	add_artifact = engraved_dagger
-		        	new_artifact = { set_artifact_flag = stolen_by_smith }
-		        	add_artifact = silver_bracelets
 		        	new_artifact = { set_artifact_flag = stolen_by_smith }
 		        }
 		        else_if = {
@@ -10634,30 +9943,12 @@ character_event = {
 		        else_if = {
 		        	limit = { 
 		        		FROM = {
-			        		OR = {
-			        			religion_group = zoroastrian_group
-			        			religion = zun_pagan
-			        			religion = zun_pagan_reformed
-							}
+			        		religion = zoroastrian_main
 						}
 					}
 		        	add_artifact = circlet_of_twilight
 		        	new_artifact = { set_artifact_flag = stolen_by_smith }
 		        	add_artifact = silver_staff
-		        	new_artifact = { set_artifact_flag = stolen_by_smith }
-		        }
-		        else_if = {
-		        	limit = {
-		        		FROM = {
-			        		OR = {
-			        			religion = norse_pagan
-			        			religion = norse_pagan_reformed
-			        		}
-			        	}
-		        	}
-		        	add_artifact = iron_crown
-		        	new_artifact = { set_artifact_flag = stolen_by_smith }
-		        	add_artifact = engraved_sword
 		        	new_artifact = { set_artifact_flag = stolen_by_smith }
 		        }
 		        else = {

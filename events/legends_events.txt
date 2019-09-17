@@ -6,7 +6,7 @@
 #
 #########################################
 #
-# Written by Sara Wendel-Örtqvist
+# Written by Sara Wendel-ï¿½rtqvist
 
 ### Robin Hood ###
 narrative_event = {
@@ -25,10 +25,6 @@ narrative_event = {
 		NOT = { has_global_flag = robin_hood_existed }
 		in_command = no
 		is_ill = no
-		OR = {
-			religion_group = christian
-			religion_group = pagan_group
-		}
 		NOT = {
 			has_character_flag = killed_robin_hood
 		}
@@ -1643,20 +1639,6 @@ narrative_event = {
 	}
 	
 	is_triggered_only = yes
-	
-	option = {
-		name = "EVTOPTA10103" #By using exorcism
-		trigger = {
-			religion_group = christian
-		}
-		set_character_flag = choose_solution_gh
-		narrative_event = {
-			id = 10104
-			days = 5
-			random = 10
-			tooltip = "EVTTOOLTIP10104"
-		}
-	}
 	
 	option = {
 		name = "EVTOPTB10103" #By feeding it cattle

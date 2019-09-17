@@ -151,23 +151,6 @@ character_event = {
 			repeat_event = { id = MNM.10011 days = 90 random = 640 }
 			break = yes
 		}
-		#Assassins
-		if = {
-			limit = {
-				interested_in_society = the_assassins
-				NOT = { has_character_flag = ongoing_recruitment }
-			}
-
-			random_society_member = {
-				limit = {
-					society_member_of = the_assassins
-					#is_within_diplo_range = ROOT
-					is_society_grandmaster = no
-				}
-				save_event_target_as = assassins_recruiter
-				character_event = { id = MNM.10012 }
-			}
-		}
 		#Satanists
 		if = {
 			limit = {
@@ -297,31 +280,6 @@ character_event = {
 			character_event = { id = MNM.3420 } 
 		}
 	}	
-}
-
-character_event = { 
-	id = MNM.10012
-	hide_window = yes
-
-	is_triggered_only = yes
-
-	immediate = {
-		FROM = {
-			if = {
-				limit = { NOT = { has_character_flag = ongoing_recruitment } }
-				set_character_flag = assassins_attempted_recruitment
-				set_character_flag = ongoing_recruitment
-				if = {
-					limit = { NOT = { religion = shiite } }
-					character_event = { id = MNM.6020 } 
-				}
-				if = {
-					limit = { religion = shiite }
-					character_event = { id = MNM.6022 } 
-				}
-			}
-		}
-	}
 }
 
 character_event = {
@@ -722,11 +680,6 @@ character_event = {
 				modifier = {
 					factor = 2
 					higher_tier_than = BARON
-				}
-				modifier = {
-					factor = 3
-					true_religion = shiite
-					can_join_society = the_assassins
 				}
 				
 				random_list = {
@@ -1186,102 +1139,6 @@ character_event = {
 							is_landed = no
 						}
 						join_society = hermetics
-						random_list = { # Artificially increase society influence for balance purposes
-							75 = {
-								modifier = {
-									factor = 0
-									society_influence >= 30
-								}
-								add_mission_succeed_influence_effect = yes
-							}
-							25 = {
-							}
-						}
-						if = {
-							limit = {
-								NOT = {
-									society = {
-										any_society_member = {
-											is_society_grandmaster = yes
-										}
-									}
-								}
-							}
-							set_society_grandmaster = yes
-						}
-					}
-					500 = { 
-						trigger = {
-							can_join_society = the_assassins
-						}
-						modifier = {
-							factor = 0.5
-							is_landed = no
-						}
-						modifier = {
-							factor = 0.1
-							NOR = { 
-								true_religion = shiite 
-								AND = {
-									trait = sympathy_islam
-									trait = deceitful
-									NOT = { trait = zealous }
-									OR = {
-										trait = schemer
-										trait = elusive_shadow
-										intrigue = 18
-									}
-								}
-							}
-						}
-						modifier = {
-							factor = 0
-							NOT = { true_religion = shiite }
-							trait = zealous
-						}
-						modifier = {
-							factor = 0
-							NOT = { intrigue = 6 }
-						}
-						modifier = {
-							factor = 2
-							true_religion = shiite
-							is_landed = yes
-						}
-						modifier = {
-							factor = 5
-							true_religion = shiite
-							NOT = { trait = decadent }
-							OR = {
-								trait = zealous
-								trait = schemer
-								trait = elusive_shadow
-								trait = deceitful
-								trait = ambitious
-								intrigue = 18
-							}
-						}
-						modifier = {
-							factor = 2
-							the_assassins = { num_of_society_members < 20 }
-						}
-						modifier = {
-							factor = 2
-							the_assassins = { num_of_society_members < 15 }
-						}
-						modifier = {
-							factor = 2
-							the_assassins = { num_of_society_members < 10 }
-						}
-						if = {
-							limit = {
-								NOT = {
-									religion = shiite
-								}
-							}
-							set_secret_religion = shiite
-						}
-						join_society = the_assassins
 						random_list = { # Artificially increase society influence for balance purposes
 							75 = {
 								modifier = {

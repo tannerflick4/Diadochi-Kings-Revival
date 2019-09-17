@@ -24,26 +24,7 @@ namespace = HFP
 character_event = {
 	id = HFP.24001
 	desc = EVTDESCHFP24001
-	picture = { 
-		trigger = { 
-			NOR = {  
-				capital_scope = { region = world_africa }
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
-			}
-		} 
-		picture = GFX_evt_elder_council
-	}
-	picture = { 
-		trigger = { 
-			OR = {  
-				capital_scope = { region = world_africa }
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
-			}
-		} 
-		picture = GFX_evt_west_african_ruler
-	}
+	picture = GFX_evt_elder_council
 	border = GFX_event_normal_frame_diplomacy
 	
 	is_triggered_only = yes
@@ -150,26 +131,7 @@ character_event = {
 	id = HFP.24003
 	desc = EVTDESCHFP24003
 	
-	picture = { 
-		trigger = { 
-			NOR = {  
-				capital_scope = { region = world_africa }
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
-			}
-		} 
-		picture = GFX_evt_elder_council
-	}
-	picture = { 
-		trigger = { 
-			OR = {  
-				capital_scope = { region = world_africa }
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
-			}
-		} 
-		picture = GFX_evt_west_african_ruler
-	}
+	picture = GFX_evt_elder_council
 	border = GFX_event_normal_frame_diplomacy
 	
 	is_triggered_only = yes
@@ -328,26 +290,7 @@ character_event = {
 	id = HFP.24005
 	desc = EVTDESCHFP24005
 	
-	picture = { 
-		trigger = { 
-			NOR = {  
-				capital_scope = { region = world_africa }
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
-			}
-		} 
-		picture = GFX_evt_elder_council
-	}
-	picture = { 
-		trigger = { 
-			OR = {  
-				capital_scope = { region = world_africa }
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
-			}
-		} 
-		picture = GFX_evt_west_african_ruler
-	}
+	picture = GFX_evt_elder_council
 	border = GFX_event_normal_frame_diplomacy
 	
 	is_triggered_only = yes
@@ -411,26 +354,7 @@ character_event = {
 	id = HFP.24006
 	desc = EVTDESCHFP24006
 	
-	picture = { 
-		trigger = { 
-			NOR = {  
-				capital_scope = { region = world_africa }
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
-			}
-		} 
-		picture = GFX_evt_elder_council
-	}
-	picture = { 
-		trigger = { 
-			OR = {  
-				capital_scope = { region = world_africa }
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
-			}
-		} 
-		picture = GFX_evt_west_african_ruler
-	}
+	picture = GFX_evt_elder_council
 	border = GFX_event_normal_frame_diplomacy
 	hide_new = yes
 	portrait = event_target:scoped_ruler
@@ -829,26 +753,7 @@ character_event = {
 		text = EVTDESCBHFP24007
 	}
 	
-	picture = { 
-		trigger = { 
-			NOR = {  
-				capital_scope = { region = world_africa }
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
-			}
-		} 
-		picture = GFX_evt_elder_council
-	}
-	picture = { 
-		trigger = { 
-			OR = {  
-				capital_scope = { region = world_africa }
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
-			}
-		} 
-		picture = GFX_evt_west_african_ruler
-	}
+	picture = GFX_evt_elder_council
 	border = GFX_event_normal_frame_diplomacy
 	hide_new = yes
 	portrait = FROM
@@ -950,26 +855,7 @@ character_event = {
 		text = EVTDESCBHFP24008
 	}
 	
-	picture = { 
-		trigger = { 
-			NOR = {  
-				capital_scope = { region = world_africa }
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
-			}
-		} 
-		picture = GFX_evt_elder_council
-	}
-	picture = { 
-		trigger = { 
-			OR = {  
-				capital_scope = { region = world_africa }
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
-			}
-		} 
-		picture = GFX_evt_west_african_ruler
-	}
+	picture = GFX_evt_elder_council
 	border = GFX_event_normal_frame_diplomacy
 	
 	is_triggered_only = yes
@@ -993,27 +879,7 @@ character_event = {
 character_event = {
 	id = HFP.24009
 	desc = EVTDESCAHFP24009
-	
-	picture = { 
-		trigger = { 
-			NOR = {  
-				capital_scope = { region = world_africa }
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
-			}
-		} 
-		picture = GFX_evt_elder_council
-	}
-	picture = { 
-		trigger = { 
-			OR = {  
-				capital_scope = { region = world_africa }
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
-			}
-		} 
-		picture = GFX_evt_west_african_ruler
-	}
+	picture = GFX_evt_elder_council
 	border = GFX_event_normal_frame_diplomacy
 	
 	is_triggered_only = yes
@@ -1039,27 +905,7 @@ character_event = {
 	desc = EVTDESCHFP24010
 	hide_new = yes
 	portrait = event_target:scoped_ruler
-	
-	picture = { 
-		trigger = { 
-			NOR = {  
-				capital_scope = { region = world_africa }
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
-			}
-		} 
-		picture = GFX_evt_elder_council
-	}
-	picture = { 
-		trigger = { 
-			OR = {  
-				capital_scope = { region = world_africa }
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
-			}
-		} 
-		picture = GFX_evt_west_african_ruler
-	}
+	picture = GFX_evt_elder_council
 	border = GFX_event_normal_frame_diplomacy
 	
 	is_triggered_only = yes
@@ -1464,27 +1310,7 @@ character_event = {
 		} 
 		text = EVTDESCBHFP24011
 	}
-	
-	picture = { 
-		trigger = { 
-			NOR = {  
-				capital_scope = { region = world_africa }
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
-			}
-		} 
-		picture = GFX_evt_elder_council
-	}
-	picture = { 
-		trigger = { 
-			OR = {  
-				capital_scope = { region = world_africa }
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
-			}
-		} 
-		picture = GFX_evt_west_african_ruler
-	}
+	picture = GFX_evt_elder_council
 	border = GFX_event_normal_frame_diplomacy
 	
 	is_triggered_only = yes
@@ -1572,27 +1398,7 @@ character_event = {
 character_event = {
 	id = HFP.24012
 	desc = EVTDESCAHFP24012
-	
-	picture = { 
-		trigger = { 
-			NOR = {  
-				capital_scope = { region = world_africa }
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
-			}
-		} 
-		picture = GFX_evt_elder_council
-	}
-	picture = { 
-		trigger = { 
-			OR = {  
-				capital_scope = { region = world_africa }
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
-			}
-		} 
-		picture = GFX_evt_west_african_ruler
-	}
+	picture = GFX_evt_elder_council
 	border = GFX_event_normal_frame_diplomacy
 	
 	is_triggered_only = yes
@@ -1616,27 +1422,7 @@ character_event = {
 character_event = {
 	id = HFP.24013
 	desc = EVTDESCAHFP24013
-	
-	picture = { 
-		trigger = { 
-			NOR = {  
-				capital_scope = { region = world_africa }
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
-			}
-		} 
-		picture = GFX_evt_elder_council
-	}
-	picture = { 
-		trigger = { 
-			OR = {  
-				capital_scope = { region = world_africa }
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
-			}
-		} 
-		picture = GFX_evt_west_african_ruler
-	}
+	picture = GFX_evt_elder_council
 	border = GFX_event_normal_frame_diplomacy
 	
 	is_triggered_only = yes
@@ -1706,27 +1492,7 @@ character_event = {
 	desc = EVTDESCAHFP24015
 	hide_new = yes
 	portrait = FROM
-	
-	picture = { 
-		trigger = { 
-			NOR = {  
-				capital_scope = { region = world_africa }
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
-			}
-		} 
-		picture = GFX_evt_elder_council
-	}
-	picture = { 
-		trigger = { 
-			OR = {  
-				capital_scope = { region = world_africa }
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
-			}
-		} 
-		picture = GFX_evt_west_african_ruler
-	}
+	picture = GFX_evt_elder_council
 	border = GFX_event_normal_frame_diplomacy
 	
 	is_triggered_only = yes
@@ -2166,27 +1932,7 @@ character_event = {
 character_event = {
 	id = HFP.24017
 	desc = EVTDESCHFP24017
-	
-	picture = { 
-		trigger = { 
-			NOR = {  
-				capital_scope = { region = world_africa }
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
-			}
-		} 
-		picture = GFX_evt_elder_council
-	}
-	picture = { 
-		trigger = { 
-			OR = {  
-				capital_scope = { region = world_africa }
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
-			}
-		} 
-		picture = GFX_evt_west_african_ruler
-	}
+	picture = GFX_evt_elder_council
 	border = GFX_event_normal_frame_diplomacy
 	
 	is_triggered_only = yes
@@ -2203,27 +1949,7 @@ character_event = {
 character_event = {
 	id = HFP.24018
 	desc = EVTDESCHFP24018
-	
-	picture = { 
-		trigger = { 
-			NOR = {  
-				capital_scope = { region = world_africa }
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
-			}
-		} 
-		picture = GFX_evt_elder_council
-	}
-	picture = { 
-		trigger = { 
-			OR = {  
-				capital_scope = { region = world_africa }
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
-			}
-		} 
-		picture = GFX_evt_west_african_ruler
-	}
+	picture = GFX_evt_elder_council
 	border = GFX_event_normal_frame_diplomacy
 	
 	is_triggered_only = yes
@@ -2413,27 +2139,7 @@ character_event = {
 character_event = {
 	id = HFP.24021
 	desc = EVTDESCHFP24021
-	
-	picture = { 
-		trigger = { 
-			NOR = {  
-				capital_scope = { region = world_africa }
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
-			}
-		} 
-		picture = GFX_evt_elder_council
-	}
-	picture = { 
-		trigger = { 
-			OR = {  
-				capital_scope = { region = world_africa }
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
-			}
-		} 
-		picture = GFX_evt_west_african_ruler
-	}
+	picture = GFX_evt_elder_council
 	border = GFX_event_normal_frame_diplomacy
 	
 	is_triggered_only = yes
@@ -2682,27 +2388,7 @@ character_event = {
 character_event = {
 	id = HFP.24023
 	desc = EVTDESCHFP24023
-	
-	picture = { 
-		trigger = { 
-			NOR = {  
-				capital_scope = { region = world_africa }
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
-			}
-		} 
-		picture = GFX_evt_elder_council
-	}
-	picture = { 
-		trigger = { 
-			OR = {  
-				capital_scope = { region = world_africa }
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
-			}
-		} 
-		picture = GFX_evt_west_african_ruler
-	}
+	picture = GFX_evt_elder_council
 	border = GFX_event_normal_frame_diplomacy
 	
 	is_triggered_only = yes
@@ -2835,8 +2521,7 @@ character_event = {
 						}
 					}
 				}
-				NOR = { 
-					religion_group = muslim 
+				NOR = {
 					has_religion_feature = religion_matriarchal
 					has_religion_feature = religion_patriarchal
 				}

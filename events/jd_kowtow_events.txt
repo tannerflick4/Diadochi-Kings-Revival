@@ -1171,7 +1171,7 @@ character_event = {
 		trigger = {
 			NOR = {
 				trait = zealous
-				religion_group = indian_group # Eastern religion group
+				has_dharmic_religion_trigger = yes # Eastern religion group
 			}
 		}
 		add_trait = sympathy_indian # Sympathy for eastern religions
@@ -1183,7 +1183,7 @@ character_event = {
 		if = {
 			limit = {
 				trait = zealous
-				NOT = { religion_group = indian_group } # Eastern religion group 
+				NOT = { has_dharmic_religion_trigger = yes } # Eastern religion group 
 			}
 			remove_trait = zealous
 		}
@@ -1206,7 +1206,7 @@ character_event = {
 		name = EVTOPTC_JD_32216
 		trigger = {
 			trait = zealous
-			NOT = { religion_group = indian_group } # Eastern religion group 
+			NOT = { has_dharmic_religion_trigger = yes } # Eastern religion group 
 		}
 		
 		piety = 30

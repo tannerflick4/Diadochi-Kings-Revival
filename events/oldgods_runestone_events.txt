@@ -599,27 +599,6 @@ character_event = {
 		}
 	}
 	option = {
-		name = EVTOPTV_TOG_501
-		tooltip_info = zealous
-		trigger = {
-			trait = zealous
-			OR = {
-				religion = norse_pagan
-				religion = norse_pagan_reformed
-			}
-			NOT = {
-				trait = lunatic
-				trait = possessed
-				is_dumb_trigger = yes
-			}
-		}
-
-		custom_tooltip = {
-			text = runestone_carved
-			hidden_tooltip = { narrative_event = { id = TOG.569 days = 60 random = 10 } }
-		}
-	}
-	option = {
 		name = EVTOPTX_TOG_501
 		tooltip_info = cruel
 		trigger = {
@@ -646,25 +625,6 @@ character_event = {
 			text = runestone_carved
 			hidden_tooltip = { narrative_event = { id = TOG.572 days = 60 random = 10 } }
 		}
-	}
-	option = {
-		name = EVTOPTZ_TOG_501
-		tooltip_info = zealous
-		trigger = {
-			trait = zealous
-			religion_group = christian
-			NOT = {
-				trait = lunatic
-				trait = possessed
-				is_dumb_trigger = yes
-			}
-		}
-		
-		custom_tooltip = {
-			text = runestone_carved
-			hidden_tooltip = { narrative_event = { id = TOG.570 days = 60 random = 10 } }
-		}
-			
 	}
 }
 

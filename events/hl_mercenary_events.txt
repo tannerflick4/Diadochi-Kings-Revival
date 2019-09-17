@@ -899,42 +899,13 @@ character_event = {
 				capital_scope = {
 					owner = {
 						OR = {
-							AND = {
-								religion_group = christian
-								ROOT = {
-									trait = sympathy_christendom
-								}
-							}
-							AND = {
-								religion_group = muslim
-								ROOT = {
-									trait = sympathy_islam
-								}
-							}
-							AND = {
-								religion_group = pagan_group
-								ROOT = {
-									trait = sympathy_pagans
-								}
-							}
-							AND = {
-								religion_group = zoroastrian_group
-								ROOT = {
-									trait = sympathy_zoroastrianism
-								}
-							}
-							AND = {
-								religion_group = jewish_group
-								ROOT = {
-									trait = sympathy_judaism
-								}
-							}
-							AND = {
-								religion_group = indian_group
-								ROOT = {
-									trait = sympathy_indian
-								}
-							}
+							# TODO: Handle sympathies
+							#AND = {
+							#	religion_group = christian
+							#	ROOT = {
+							#		trait = sympathy_christendom
+							#	}
+							#}
 						}
 					}
 				}

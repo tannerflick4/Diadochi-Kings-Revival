@@ -305,24 +305,6 @@ character_event = {
 			give_nickname = nick_the_unchaste
 		}
 		
-		if = {
-			limit = {
-				religion_group = christian
-				OR = {
-					AND = {
-						is_ruler = yes
-						is_theocracy = yes
-					}
-					is_ascetic_trigger = yes
-				}
-			}
-			add_character_modifier = {
-				name = adulterous_priest
-				years = 20
-			}
-			piety = -100
-		}
-		
 		event_target:target_adulterer = {
 			ROOT = {
 				if = {
@@ -443,8 +425,7 @@ character_event = {
 					if = {
 						limit = {
 							is_close_relative = PREV
-							NOT = { religion = messalian }
-							NOT = { religion = zoroastrian }
+							NOT = { religion = zoroastrian_main }
 						}
 						add_character_modifier = {
 							name = incestuous_adulteress
@@ -455,8 +436,7 @@ character_event = {
 						limit = {
 							OR = {
 								NOT = { is_close_relative = PREV }
-								religion = messalian
-								religion = zoroastrian
+								religion = zoroastrian_main
 							}
 						}
 						add_character_modifier = {
@@ -518,31 +498,16 @@ character_event = {
 					
 					if = {
 						limit = { same_sex = PREV }
-						if = {
-							limit = {
-								religion_group = pagan_group
-							}
-							add_character_modifier = {
-								name = known_sodomite_pagan
-								years = 20
-							}
-						}
-						if = {
-							limit = {
-								NOT = { religion_group = pagan_group }
-							}
-							add_character_modifier = {
-								name = known_sodomite
-								years = 20
-							}
+						add_character_modifier = {
+							name = known_sodomite
+							years = 20
 						}
 					}
 					
 					if = {
 						limit = {
 							is_close_relative = PREV
-							NOT = { religion = messalian }
-							NOT = { religion = zoroastrian }
+							NOT = { religion = zoroastrian_main }
 						}
 						add_character_modifier = {
 							name = incestuous_adulterer
@@ -554,18 +519,12 @@ character_event = {
 							is_married = yes
 							OR = {
 								NOT = { is_close_relative = PREV }
-								religion = messalian
-								religion = zoroastrian
+								religion = zoroastrian_main
 							}
 						}
-						if = {
-							limit = {
-								NOT = { religion_group = pagan_group }
-							}
-							add_character_modifier = {
-								name = adulterer
-								years = 10
-							}
+						add_character_modifier = {
+							name = adulterer
+							years = 10
 						}
 					}
 				}
@@ -1591,11 +1550,7 @@ narrative_event = {
 	hide_new = yes
 	
 	trigger = {
-		can_call_crusade = yes
-		ROOT = { religion_group = christian }
-		new_character = {
-			religion_group = muslim
-		}
+		always = no # No crusades.
 	}
 	
 	option = {
@@ -1649,12 +1604,7 @@ narrative_event = {
 	hide_new = yes
 	
 	trigger = {
-		can_call_crusade = yes
-		ROOT = { religion_group = christian }
-		new_character = {
-			NOT = { religion_group = muslim }
-			NOT = { religion_group = christian }
-		}
+		always = no # No crusades
 	}
 	
 	option = {
@@ -1708,11 +1658,7 @@ narrative_event = {
 	hide_new = yes
 	
 	trigger = {
-		can_call_crusade = yes
-		ROOT = { religion_group = christian }
-		new_character = {
-			religion_group = christian
-		}
+		always = no # No crusades.
 	}
 	
 	option = {
@@ -1766,11 +1712,7 @@ narrative_event = {
 	hide_new = yes	
 	
 	trigger = {
-		can_call_crusade = yes
-		ROOT = { religion_group = muslim }
-		new_character = {
-			religion_group = christian
-		}
+		always = no # No jihads
 	}
 	
 	option = {
@@ -1824,12 +1766,7 @@ narrative_event = {
 	hide_new = yes	
 	
 	trigger = {
-		can_call_crusade = yes
-		ROOT = { religion_group = muslim }
-		new_character = {
-			NOT = { religion_group = muslim }
-			NOT = { religion_group = christian }
-		}
+		always = no # No jihads
 	}
 	
 	option = {
@@ -1883,11 +1820,7 @@ narrative_event = {
 	hide_new = yes	
 	
 	trigger = {
-		can_call_crusade = yes
-		ROOT = { religion_group = muslim }
-		new_character = {
-			religion_group = muslim
-		}
+		always = no # No jihads
 	}
 	
 	option = {
@@ -1941,11 +1874,7 @@ narrative_event = {
 	hide_new = yes	
 	
 	trigger = {
-		can_call_crusade = yes
-		ROOT = { religion_group = pagan_group }
-		new_character = {
-			religion_group = christian
-		}
+		always = no # No great holy wars
 	}
 	
 	option = {
@@ -1999,11 +1928,7 @@ narrative_event = {
 	hide_new = yes	
 	
 	trigger = {
-		can_call_crusade = yes
-		ROOT = { religion_group = pagan_group }
-		new_character = {
-			religion_group = muslim
-		}
+		always = no # No great holy wars
 	}
 	
 	option = {
@@ -2057,12 +1982,7 @@ narrative_event = {
 	hide_new = yes	
 	
 	trigger = {
-		can_call_crusade = yes
-		ROOT = { religion_group = pagan_group }
-		new_character = {
-			NOT = { religion_group = muslim }
-			NOT = { religion_group = christian }
-		}
+		always = no # No great holy wars
 	}
 	
 	option = {
@@ -2109,40 +2029,7 @@ narrative_event = {
 	picture = GFX_evt_battle
 	border = GFX_event_narrative_frame_war
 	
-	desc = {
-		text = EVTDESC327
-		trigger = {
-			OR = {
-				new_character = {
-					NOT = { religion_group = christian }
-					NOT = { religion_group = muslim }
-				}
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	desc = {
-		text = EVTDESC327_MUSLIMS
-		trigger = {
-			new_character = {
-				religion_group = muslim
-			}
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	desc = {
-		text = EVTDESC327_CHRIST
-		trigger = {
-			new_character = {
-				religion_group = christian
-			}
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
+	desc = EVTDESC327
 	
 	is_triggered_only = yes
 	major = yes
@@ -2150,8 +2037,7 @@ narrative_event = {
 	hide_new = yes
 	
 	trigger = {
-		can_call_crusade = yes
-		ROOT = { religion_group = zoroastrian_group }
+		always = no # No great holy wars
 	}
 	
 	option = {
@@ -2198,31 +2084,7 @@ narrative_event = {
 	picture = GFX_evt_battle
 	border = GFX_event_narrative_frame_war
 	
-	desc = {
-		text = EVTDESC328
-		trigger = {
-			new_character = {
-				NOT = { religion_group = christian }
-				NOT = { religion_group = muslim }
-			}
-		}
-	}
-	desc = {
-		text = EVTDESC328_MUSLIMS
-		trigger = {
-			new_character = {
-				religion_group = muslim
-			}
-		}
-	}
-	desc = {
-		text = EVTDESC328_CHRIST
-		trigger = {
-			new_character = {
-				religion_group = christian
-			}
-		}
-	}
+	desc = EVTDESC328
 	
 	is_triggered_only = yes
 	major = yes
@@ -2230,8 +2092,7 @@ narrative_event = {
 	hide_new = yes
 	
 	trigger = {
-		can_call_crusade = yes
-		ROOT = { religion_group = jewish_group }
+		always = no # No great holy wars
 	}
 	
 	option = {
@@ -2915,18 +2776,7 @@ diploresponse_event = {
 		ai = no
 	}
 
-	desc = {
-		text = EVTDESC236
-		trigger = {
-			religion_group = christian
-		}
-	}
-	desc = {
-		text = EVTDESC236_NC
-		trigger = {
-			NOT = { religion_group = christian }
-		}
-	}
+	desc = EVTDESC236
 
 	option = {
 		name = "OK"
@@ -3513,14 +3363,12 @@ character_event = {
 				has_character_modifier = jd_princess
 			}
 		}
-		NOR = { 
-			religion_group = muslim 
+		NOT = { 
 			has_character_flag = recieved_royal_marriage_aid_duty
 		}
 		OR = {
 			AND = {
-				NOT = { religion = zoroastrian }
-				NOT = { religion = messalian }
+				NOT = { religion = zoroastrian_main }
 				NOT = { has_religion_feature = religion_holy_family }
 				NOT = { has_religion_feature = religion_feature_zun }
 			}
@@ -3609,7 +3457,7 @@ character_event = {
 	desc = EVTDESC501
 	picture = GFX_evt_marriage_zoroastrian_group
 	
-	religion = zoroastrian
+	religion = zoroastrian_main
 	
 	is_triggered_only = yes
 	
@@ -3730,134 +3578,6 @@ character_event = {
 		}
 	}
 }
-
-# On-action event: Messalian close kin marriage
-character_event = {
-	id = 502
-	desc = EVTDESC502
-	picture = GFX_evt_marriage
-	
-	religion = messalian
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		new_character = { is_close_relative = FROM }
-		OR = {
-			FROM = { character = ROOT }
-			AND = {
-				FROM = {
-					dynasty = ROOT
-					is_primary_heir = ROOT
-				}
-				new_character = {
-					NOT = { character = ROOT }
-				}
-			}
-		}
-	}
-	
-	option = {
-		name = EVTOPTA500
-		scaled_wealth = {
-			value = 0.5
-			min = 10
-		}
-		if = {
-			limit = { tier = EMPEROR }
-			piety = 300
-		}
-		if = {
-			limit = { tier = KING }
-			piety = 200
-		}
-		if = {
-			limit = { tier = DUKE }
-			piety = 100
-		}
-		if = {
-			limit = { tier = COUNT }
-			piety = 50
-		}
-		if = {
-			limit = { tier = BARON }
-			piety = 25
-		}
-	}
-	option = {
-		name = EVTOPTB500
-		
-		if = {
-			limit = { tier = EMPEROR }
-			piety = 300
-		}
-		if = {
-			limit = { tier = KING }
-			piety = 200
-		}
-		if = {
-			limit = { tier = DUKE }
-			piety = 100
-		}
-		if = {
-			limit = { tier = COUNT }
-			piety = 50
-		}
-		if = {
-			limit = { tier = BARON }
-			piety = 25
-		}
-		
-		if = {
-			limit = {
-				NOT = { yearly_income = 50 }
-			}
-			if = {
-				limit = { tier = EMPEROR }
-				prestige = 150
-			}
-			if = {
-				limit = { tier = KING }
-				prestige = 50
-			}
-			if = {
-				limit = { tier = DUKE }
-				prestige = 25
-			}
-			if = {
-				limit = { tier = COUNT }
-				prestige = 13
-			}
-			if = {
-				limit = { tier = BARON }
-				prestige = 6
-			}
-			break = yes
-		}
-		
-		if = {
-			limit = { tier = EMPEROR }
-			prestige = 300
-		}
-		if = {
-			limit = { tier = KING }
-			prestige = 200
-		}
-		if = {
-			limit = { tier = DUKE }
-			prestige = 100
-		}
-		if = {
-			limit = { tier = COUNT }
-			prestige = 50
-		}
-		if = {
-			limit = { tier = BARON }
-			prestige = 25
-		}
-	}
-}
-
 
 # Approve or disapprove of de facto Law Change
 letter_event = {
@@ -4626,7 +4346,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { religion = hindu }
+		NOT = { religion = hinduism_main }
 	}
 	
 	immediate = {
@@ -5089,18 +4809,6 @@ narrative_event = {
 					}
 				}
 			}
-		}
-	}
-
-	immediate = {
-		if = {
-			limit = {
-				FROM = {
-					religion_group = christian
-				}
-				has_global_flag = 4th_crusade_official
-			}
-			character_event = { id = HFP.41199 }
 		}
 	}
 	

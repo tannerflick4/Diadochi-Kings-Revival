@@ -56,7 +56,7 @@ character_event = {
 									female_can_hold_minor_commander_title_trigger = yes
 								}
 								OR = {
-									NOT = { religion = hindu }
+									NOT = { religion = hinduism_main }
 									trait = kshatriya
 								}
 								is_adult = yes
@@ -193,7 +193,7 @@ character_event = {
 									female_can_hold_minor_commander_title_trigger = yes
 								}
 								OR = {
-									NOT = { religion = hindu }
+									NOT = { religion = hinduism_main }
 									trait = kshatriya
 								}
 								is_adult = yes
@@ -1117,20 +1117,7 @@ character_event = {
 #War Sacrifice power.
 character_event = {
 	id = HF.25021
-	desc = {
-		trigger = {
-			religion_group = pagan_group
-		}
-		text = EVTDESCAHF25021
-	}
-	desc = {
-		trigger = { 
-			NOT = {
-				religion_group = pagan_group
-			}
-		}
-		text = EVTDESCBHF25021
-	}
+	desc = EVTDESCBHF25021
 	picture = GFX_evt_religious_exultation
 	border = GFX_event_normal_frame_religion
 	hide_new = yes
@@ -1388,7 +1375,7 @@ character_event = {
 			manpower = -150
 		}
 		if = { 
-			limit = { NOR = { religion_group = pagan_group has_religion_feature = religion_ritual_sacrifice } }
+			limit = { NOT = { has_religion_feature = religion_ritual_sacrifice } }
 			tiered_high_piety_negative_effect = yes 
 		}
 		add_blood_splatter_effect = yes
@@ -1408,22 +1395,6 @@ character_event = {
 		add_society_currency_medium_effect = yes
 		clr_character_flag = flag_picking_war_sacrifice
 	}
-#	option = { #Sacrifice wealth
-#		name = EVTOPTDHF25021
-#		if = { 
-#			limit = { ai = no }
-#			scaled_wealth = { value = -0.25 min = -25 max = -75 } 
-#		}
-#		if = { 
-#			limit = { NOT = { religion_group = pagan_group } }
-#			tiered_piety_negative_effect = yes 
-#		}
-#		hidden_tooltip = { character_event = { id = HF.25025 } } 
-#		add_character_modifier = { 
-#			modifier = lodge_war_sacrifice_1
-#			years = 5 
-#		}
-#	}
 }
 
 #Sacrificed relative to the gods.
@@ -2408,10 +2379,8 @@ narrative_event = {
 		trigger = {
 			OR = { 
 				society_member_of = warrior_lodge_hellenic 
-				religion = hellenic_pagan
-				religion = hellenic_pagan_reformed
-				secret_religion = hellenic_pagan
-				secret_religion = hellenic_pagan_reformed
+				religion_group = greek_group
+				secret_religion_group = greek_group
 				can_join_society = warrior_lodge_hellenic
 			}
 		}
@@ -2427,11 +2396,9 @@ narrative_event = {
 		name = EVTOPTBHF25026
 		trigger = {
 			NOR = { 
-				society_member_of = warrior_lodge_hellenic 
-				religion = hellenic_pagan
-				religion = hellenic_pagan_reformed
-				secret_religion = hellenic_pagan
-				secret_religion = hellenic_pagan_reformed
+				society_member_of = warrior_lodge_hellenic
+				religion_group = greek_group
+				secret_religion_group = greek_group
 			}
 		}
 	}
@@ -4699,27 +4666,6 @@ character_event = {
 				}
 			}
 		}
-	}
-}
-#on_startup event giving masks to Grand Masters of the Warrior Lodge.
-character_event = {
-	id = HF.25057
-	hide_window = yes
-
-	is_triggered_only = yes
-
-	trigger = { 
-		is_save_game = no
-		society_member_of = warrior_lodge_west_african
-		society_rank = 4
-		OR = { 
-			religion = west_african_pagan 
-			religion = west_african_pagan_reformed
-		}
-	}
-
-	immediate = {
-		generate_mask_effect = yes
 	}
 }
 

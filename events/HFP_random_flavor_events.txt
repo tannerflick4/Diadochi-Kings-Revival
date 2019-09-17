@@ -1128,32 +1128,7 @@ character_event = {
 #Educator receives event.
 character_event = {
 	id = HFP.30032
-	desc = {
-		text = EVTDESCHFPA30032
-		trigger = {
-			NOT = { trait = lefthanded }
-			NOR = { 
-				religion_group = christian
-				religion_group = muslim 
-			}
-		}
-	}
-	desc = {
-		text = EVTDESCHFPB30032
-		trigger = {
-			NOT = { trait = lefthanded }
-			OR = { 
-				religion_group = christian
-				religion_group = muslim 
-			}
-		}
-	}
-	desc = {
-		text = EVTDESCHFPC30032
-		trigger = {
-			trait = lefthanded
-		}
-	}
+	desc = EVTDESCHFPA30032
 	picture = GFX_evt_child_sword
 
 	is_triggered_only = yes
@@ -1167,38 +1142,6 @@ character_event = {
 			prisoner = no
 			trait = lefthanded
 			NOT = { trait = incapable }
-		}
-	}
-	
-	option = { #Teach of how ungodly it is.
-		name = EVTOPTAHFP30032
-		trigger = { 
-			OR = { 
-				religion_group = christian
-				religion_group = muslim 
-			}
-		}
-		custom_tooltip = { text = tooltip_HFP30032_A }
-		FROM = { set_character_flag = flag_lefthanded_learning }
-		hidden_tooltip = { FROM = { character_event = { id = HFP.30033 } } }
-		ai_chance = { 
-			factor = 50 
-			modifier = { 
-				factor = 0.2
-				trait = lefthanded
-			} 
-			modifier = { 
-				factor = 1.5
-				trait = zealous
-			}
-			modifier = { 
-				factor = 1.5
-				trait = theologian
-			}
-			modifier = { 
-				factor = 0
-				trait = cynical
-			}
 		}
 	}
 	option = { #Teach of impractical it is.
@@ -1467,11 +1410,6 @@ character_event = { #Meteorite falls
 	
 	trigger = {
 		is_adult = yes
-		
-		ROOT = {
-			government = feudal_government
-			religion_group = christian
-		}
 		
 		NOT = {
 			has_character_flag = meteorite_fall
@@ -1922,7 +1860,7 @@ character_event = {
 									female_can_hold_minor_commander_title_trigger = yes
 								}
 								OR = {
-									NOT = { religion = hindu }
+									NOT = { religion = hinduism_main }
 									trait = kshatriya
 								}
 								is_adult = yes

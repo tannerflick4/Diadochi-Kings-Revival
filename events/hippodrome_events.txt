@@ -32,11 +32,7 @@ narrative_event = {
 			has_landed_title = e_byzantium
 			has_landed_title = e_roman_empire
 		}
-		OR = {
-			religion_group = christian
-			religion = hellenic_pagan
-			religion = hellenic_pagan_reformed
-		}
+		religion_group = greek_group # TODO: Should this be limited to just roman or all greeks?
 		NOT = { has_global_flag = hippodrome_scheme }
 		in_command = no
 		capital_scope = { province_id = 496 }
@@ -421,8 +417,8 @@ narrative_event = {
 			dynasty = NONE
 			female = no
 			age = 57
-			religion = orthodox
-			culture = greek
+			religion = greek_main # TODO: Check the religion
+			culture = macedonian # TODO: Check the culture
 			trait = dwarf
 			trait = ugly
 			trait = quick
@@ -494,11 +490,7 @@ character_event = {
 	trigger = {
 		has_dlc = "Legacy of Rome"
 		in_command = no
-		OR = {
-			religion_group = christian
-			religion = hellenic_pagan
-			religion = hellenic_pagan_reformed
-		}
+		religion_group = greek_group # TODO: Should this be limited to just roman or all greeks?
 		OR = {
 			has_landed_title = e_byzantium
 			has_landed_title = e_roman_empire

@@ -31,7 +31,6 @@ character_event = {
 		death_no_trace_trigger = no
 		OR = {
 			religion = zoroastrian_main
-			religion = zurvanism
 			any_owned_bloodline = {
 				has_bloodline_flag = bloodline_sky_burial
 			}

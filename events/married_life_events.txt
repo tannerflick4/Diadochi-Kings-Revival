@@ -2154,10 +2154,10 @@ character_event = {
 	portrait = event_target:my_spouse
 	
 	trigger = {
-		NOT = { religion = jain }
+		NOT = { religion = jainism_main }
 		any_spouse = {
 			NOT = { trait = incapable }
-			NOT = { religion = jain }
+			NOT = { religion = jainism_main }
 			prisoner = no
 			is_alive = yes
 			is_abroad = no
@@ -2178,7 +2178,7 @@ character_event = {
 		random_spouse = {
 			limit = {
 				NOT = { trait = incapable }
-				NOT = { religion = jain }
+				NOT = { religion = jainism_main }
 				prisoner = no
 				is_alive = yes
 				is_abroad = no
@@ -2663,9 +2663,6 @@ character_event = {
 		}
 		NOT = {
 			has_character_modifier = learning_advice
-		}
-		NOT = {
-			religion_group = muslim
 		}
 		spouse = {
 			NOT = { trait = incapable }
@@ -3513,14 +3510,6 @@ character_event = {
 		NOT = {
 			demesne_size = 1
 		}
-		NOT = {
-			religion_group = muslim
-		}
-		spouse = {
-			NOT = {
-				religion_group = muslim
-			}
-		}
 		independent = no
 		any_courtier = {
 			OR = {
@@ -4274,7 +4263,7 @@ character_event = {
 	option = {
 		name = "EVTOPTC30088"
 		trigger = {
-			NOT = { religion = jain }
+			NOT = { religion = jainism_main }
 			NOT = {
 				has_character_flag = failed_hunt
 				has_character_flag = perfect_hunt
@@ -5301,87 +5290,5 @@ character_event = {
 	option = {
 		name = "EVTOPTB30105"
 		piety = 10
-	}
-}
-
-### Wife offers advice - Muslim: Learning ###
-character_event = {
-	id = 30110
-	desc = "EVTDESC30110"
-	picture = GFX_evt_council
-	
-	min_age = 20
-	only_men = yes
-	prisoner = no
-	capable_only = yes
-	religion_group = muslim
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		is_councillor = no
-		NOT = {
-			learning = 8
-		}
-		NOT = {
-			has_character_modifier = learning_advice
-		}
-		spouse = {
-			learning = 10
-			prisoner = no
-			is_alive = yes
-			is_abroad = no
-			at_location = ROOT
-			is_dumb_trigger = no
-			NOT = {	
-				has_opinion_modifier = { who = ROOT modifier = opinion_denied_advice }
-			}
-		}
-	}
-	
-	weight_multiplier = {
-		days = 1
-		
-		modifier = {
-			factor = 2
-			spouse = { trait = diligent }
-		}
-		modifier = {
-			factor = 0.5
-			spouse = { trait = content }
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA30110"
-		add_character_modifier = {
-			name = learning_advice
-			duration = 1825
-		}
-		random_list = {
-			20 = {
-				change_learning = 1
-			}
-			80 = {
-				add_trait = content
-				hidden_tooltip = {
-					character_event = {
-						id = 38279 #Notify Content
-					}
-				}
-			}
-		}
-	}
-	
-	option = {
-		name = "EVTOPTB30110"
-		prestige = 10
-		spouse = {
-			opinion = {
-				modifier = opinion_denied_advice
-				who = ROOT
-				years = 2
-			}
-		}
 	}
 }

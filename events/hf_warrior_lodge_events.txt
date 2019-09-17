@@ -546,14 +546,6 @@ letter_event = { #SUCCESS: Welcome to the society!
             add_society_currency_medium_effect = yes
         }
 
-        if = { # Give Sympathy trait if appropriate...
-            limit = {
-                NOT = { religion_group = pagan_group }
-            }
-            #Give Sympathy trait
-            add_trait = sympathy_pagans
-        }
-
         hidden_effect = {
             clr_character_flag = was_actually_injured
             clr_character_flag = was_mildly_injured
