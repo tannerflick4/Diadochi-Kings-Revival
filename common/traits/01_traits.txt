@@ -4,7 +4,7 @@
 
 # Muslim equivalent of Crusader (HARD STATUS - DO NOT REMOVE!)
 mujahid = {
-	potential {
+	potential = {
 		always = no
 	}
 	

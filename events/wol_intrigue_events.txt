@@ -2,7 +2,7 @@
 #
 # Way of Life - Intrigue Events
 #
-# Written by Henrik Fåhraeus
+# Written by Henrik Fï¿½hraeus
 #
 # ID Range: WoL.2000 to WoL.2999
 #
@@ -1041,8 +1041,7 @@ character_event = {
 							AND = {
 								liege = { religion_group = PREV }
 								NOT = { liege = { religion = PREV } }
-								NOT = { religion_group = pagan_group }
-								NOT = { religion_group = indian_group }
+								NOT = { has_dharmic_religion_trigger = yes }
 							}
 						}
 					}
@@ -1053,13 +1052,7 @@ character_event = {
 			if = {
 				limit = {
 					FROMFROMFROM = {
-						OR = {
-							NOT = { liege = { religion_group = PREV } }
-							AND = {
-								NOT = { liege = { religion = PREV } }
-								religion_group = pagan_group
-							}
-						}
+						NOT = { liege = { religion_group = PREV } }
 					}
 				}
 				set_character_flag = charge_infidel

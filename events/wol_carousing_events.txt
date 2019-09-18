@@ -26,15 +26,6 @@ letter_event = {
 			factor = 1
 			modifier = {
 				factor = 0
-				religion_group = muslim
-				NOR = {
-					trait = decadent
-					trait = hedonist
-					trait = drunkard
-				}
-			}
-			modifier = {
-				factor = 0
 				is_rival = FROMFROM
 			}
 			modifier = {
@@ -147,16 +138,8 @@ letter_event = {
 		piety = 30
 		prestige = 30
 		trigger = {
-			OR = {
-				AND = {
-					religion_group = muslim
-					trait = zealous
-				}
-				AND = {
-					has_minor_title = title_guru
-					NOT = { has_character_flag = fake_guru }
-				}
-			}
+			has_minor_title = title_guru
+			NOT = { has_character_flag = fake_guru }
 		}
 		ai_chance = {
 			factor = 1

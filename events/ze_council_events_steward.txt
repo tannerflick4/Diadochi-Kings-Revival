@@ -1,4 +1,4 @@
-#Written by Markus Olsén
+#Written by Markus Olsï¿½n
 #ZE.3000 - ZE.3001 Steward borrows money
 #ZE.3002 - ZE.3003 Steward collects money but wants land
 #ZE.3004 - ZE.3010 Steward builds statue for liege
@@ -29,18 +29,14 @@ character_event = {
 			}
 			prisoner = no
 		}
-		OR = {
-			religion_group = christian
-			religion_group = muslim
-			religion_group = zoroastrian_group
-		}
+		religion = zoroastrian_main
 		prisoner = no
 		is_nomadic = no
 		is_adult = yes
 		NOR = { 
 			trait = incapable
 			is_inaccessible_trigger = yes
-			religion_group = jewish_group
+			religion = judaism_main
 			has_character_modifier = borrowed_from_jews
 			has_character_modifier = expelled_jewish
 			has_character_flag = ZE.3000_flag

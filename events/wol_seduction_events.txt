@@ -239,6 +239,7 @@ character_event = {
 # Lover's disease notification
 character_event = {
 	id = WoL.40
+	desc = EVTDESC_WOL_40_NC
 	picture = GFX_evt_bad_news
 	border = GFX_event_normal_frame_religion
 	
@@ -248,19 +249,6 @@ character_event = {
 		NOR = {
 			has_character_modifier = minor_disease_herpes
 			trait = lovers_pox
-		}
-	}
-	
-	desc = {
-		text = EVTDESC_WOL_40
-		trigger = {
-			religion_group = christian
-		}
-	}
-	desc = {
-		text = EVTDESC_WOL_40_NC
-		trigger = {
-			NOT = { religion_group = christian }
 		}
 	}
 	
@@ -512,8 +500,7 @@ character_event = {
 			limit = {
 				FROM = {
 					is_close_relative = event_target:target_lover_1
-					NOT = { religion = messalian }
-					NOT = { religion = zoroastrian }
+					NOT = { religion = zoroastrian_main }
 				}
 			}
 			set_character_flag = scandal_temp_incest
@@ -537,19 +524,6 @@ character_event = {
 				}
 			}
 			set_character_flag = scandal_temp_f_homo
-			break = yes
-		}
-		if = {
-			limit = {
-				FROM = {
-					religion_group = christian
-					OR = {
-						is_priest = yes
-						is_ascetic_trigger = yes
-					}
-				}
-			}
-			set_character_flag = scandal_temp_priest
 			break = yes
 		}
 		if = {
@@ -1065,29 +1039,8 @@ character_event = {
 		
 		if = {
 			limit = {
-				religion_group = christian
-				OR = {
-					AND = {
-						is_ruler = yes
-						is_theocracy = yes
-					}
-					is_ascetic_trigger = yes
-				}
-			}
-			tooltip = {
-				add_character_modifier = {
-					name = adulterous_priest
-					years = 20
-				}
-			}
-			piety = -100
-		}
-		
-		if = {
-			limit = {
 				is_close_relative = FROMFROM
-				NOT = { religion = messalian }
-				NOT = { religion = zoroastrian }
+				NOT = { religion = zoroastrian_main }
 			}
 			if = {
 				limit = {
@@ -1116,20 +1069,6 @@ character_event = {
 			prestige = -50
 			
 			break = yes
-		}
-		
-		if = {
-			limit = {
-				is_female = no
-				is_married = yes
-				NOT = { religion_group = pagan_group }
-			}
-			tooltip = {
-				add_character_modifier = {
-					name = adulterer
-					years = 20
-				}
-			}
 		}
 		
 		if = {
@@ -1233,22 +1172,6 @@ character_event = {
 				add_character_modifier = {
 					name = cradle_robber
 					years = 5
-				}
-			}
-		}
-		
-		if = {
-			limit = {
-				religion_group = christian
-				OR = {
-					is_priest = yes
-					is_ascetic_trigger = yes
-				}
-			}
-			tooltip = {
-				add_character_modifier = {
-					name = adulterous_priest
-					years = 20
 				}
 			}
 		}
@@ -1827,9 +1750,8 @@ character_event = {
 		name = EVTOPTA_WOL_99
 		trigger = {
 			is_female = yes
-			NOT = { religion_group = muslim }
-			NOT = { religion_group = zoroastrian_group }
-			NOT = { religion_group = indian_group }
+			NOT = { religion = zoroastrian_main }
+			NOT = { has_dharmic_religion_trigger = yes }
 		}
 		ai_chance = {
 			factor = 100
@@ -1844,9 +1766,8 @@ character_event = {
 		trigger = {
 			is_female = yes
 			OR = {
-				religion_group = muslim
-				religion_group = zoroastrian_group
-				religion_group = indian_group
+				religion = zoroastrian_main
+				has_dharmic_religion_trigger = yes
 			}
 		}
 		ai_chance = {
@@ -5890,8 +5811,7 @@ character_event = {
 			modifier = {
 				factor = 0.5
 				is_close_relative = FROM
-				NOT = { religion = messalian }
-				NOT = { religion = zoroastrian }
+				NOT = { religion = zoroastrian_main }
 				NOT = {
 					OR = {
 						trait = arbitrary
@@ -6428,8 +6348,7 @@ character_event = {
 			modifier = {
 				factor = 0.5
 				is_close_relative = FROM
-				NOT = { religion = messalian }
-				NOT = { religion = zoroastrian }
+				NOT = { religion = zoroastrian_main }
 				NOT = {
 					OR = {
 						trait = arbitrary
@@ -6553,8 +6472,7 @@ character_event = {
 			modifier = {
 				factor = 0.5
 				is_close_relative = FROM
-				NOT = { religion = messalian }
-				NOT = { religion = zoroastrian }
+				NOT = { religion = zoroastrian_main }
 				NOT = {
 					OR = {
 						trait = arbitrary
@@ -6656,8 +6574,7 @@ character_event = {
 			modifier = {
 				factor = 0.5
 				is_close_relative = FROM
-				NOT = { religion = messalian }
-				NOT = { religion = zoroastrian }
+				NOT = { religion = zoroastrian_main }
 				NOT = {
 					OR = {
 						trait = arbitrary
@@ -6765,8 +6682,7 @@ character_event = {
 			modifier = {
 				factor = 0.5
 				is_close_relative = FROM
-				NOT = { religion = messalian }
-				NOT = { religion = zoroastrian }
+				NOT = { religion = zoroastrian_main }
 				NOT = {
 					OR = {
 						trait = arbitrary
@@ -6853,8 +6769,7 @@ character_event = {
 			modifier = {
 				factor = 0.5
 				is_close_relative = FROM
-				NOT = { religion = messalian }
-				NOT = { religion = zoroastrian }
+				NOT = { religion = zoroastrian_main }
 				NOT = {
 					OR = {
 						trait = arbitrary
@@ -7805,8 +7720,7 @@ character_event = {
 			modifier = {
 				factor = 0.5
 				is_close_relative = FROM
-				NOT = { religion = messalian }
-				NOT = { religion = zoroastrian }
+				NOT = { religion = zoroastrian_main }
 				NOT = {
 					OR = {
 						trait = arbitrary
@@ -7931,8 +7845,7 @@ character_event = {
 			modifier = {
 				factor = 0.5
 				is_close_relative = FROM
-				NOT = { religion = messalian }
-				NOT = { religion = zoroastrian }
+				NOT = { religion = zoroastrian_main }
 				NOT = {
 					OR = {
 						trait = arbitrary
@@ -8035,8 +7948,7 @@ character_event = {
 			modifier = {
 				factor = 0.5
 				is_close_relative = FROM
-				NOT = { religion = messalian }
-				NOT = { religion = zoroastrian }
+				NOT = { religion = zoroastrian_main }
 				NOT = {
 					OR = {
 						trait = arbitrary
@@ -8145,8 +8057,7 @@ character_event = {
 			modifier = {
 				factor = 0.5
 				is_close_relative = FROM
-				NOT = { religion = messalian }
-				NOT = { religion = zoroastrian }
+				NOT = { religion = zoroastrian_main }
 				NOT = {
 					OR = {
 						trait = arbitrary
@@ -8236,8 +8147,7 @@ character_event = {
 			modifier = {
 				factor = 0.5
 				is_close_relative = FROM
-				NOT = { religion = messalian }
-				NOT = { religion = zoroastrian }
+				NOT = { religion = zoroastrian_main }
 				NOT = {
 					OR = {
 						trait = arbitrary
@@ -10073,208 +9983,6 @@ character_event = {
 # RANDOM SEDUCTION EVENTS
 ######################################################
 
-# Flirting at confession - attraction vs priest
-character_event = {
-	id = WoL.500
-	
-	desc = EVTDESC_WOL_500
-	picture = GFX_evt_monk
-	border = GFX_event_normal_frame_intrigue
-	
-	min_age = 16
-	max_age = 65
-	only_playable = yes
-	religion_group = christian
-	only_capable = yes
-	prisoner = no
-	
-	trigger = {
-		has_focus = focus_seduction
-		is_ill = no
-		has_regent = no
-		any_realm_character = {
-			is_priest = yes
-			religion = ROOT
-			ai = yes
-			prisoner = no
-			has_regent = no
-			is_ill = no
-			NOT = { age = 65 }
-			NOT = {
-				OR = {
-					trait = incapable
-					trait = infirm
-					trait = eunuch
-					trait = celibate
-					trait = inbred
-					trait = imbecile
-				}
-			}
-			NOT = { is_lover = ROOT }
-			NOT = { character = ROOT }
-			OR = {
-				AND = {
-					trait = homosexual
-					ROOT = { trait = homosexual }
-					same_sex = ROOT
-				}
-				AND = {
-					NOT = { trait = homosexual }
-					NOT = { ROOT = { trait = homosexual } }
-					NOT = { same_sex = ROOT }
-				}
-			}
-			NOT = {
-				has_opinion_modifier = {
-					who = ROOT
-					modifier = opinion_seduced_lustful_worship
-				}
-			}
-			NOT = { is_close_relative = ROOT }
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 60
-		modifier = {
-			factor = 0.25
-			OR = {
-				trait = arbitrary
-				trait = lustful
-				trait = cynical
-				trait = hedonist
-				trait = seducer
-				trait = seductress
-			}
-		}
-		modifier = {
-			factor = 4.0
-			trait = chaste
-		}
-		modifier = {
-			factor = 4.0
-			trait = zealous
-		}
-		modifier = {
-			factor = 4.0
-			OR = {
-				has_ugly_trait_trigger = yes
-				trait = dwarf
-				trait = inbred
-				trait = imbecile
-				trait = clubfooted
-				trait = harelip
-				trait = hunchback
-				trait = gluttonous
-				trait = eunuch
-			}
-		}
-		modifier = {
-			factor = 0.5
-			trait = just
-		}
-	}
-	
-	immediate = {
-		random_realm_character = {
-			limit = {
-				is_priest = yes
-				religion = ROOT
-				ai = yes
-				prisoner = no
-				has_regent = no
-				is_ill = no
-				NOT = { age = 65 }
-				NOT = {
-					OR = {
-						trait = incapable
-						trait = infirm
-						trait = eunuch
-						trait = celibate
-						trait = inbred
-						trait = imbecile
-					}
-				}
-				NOT = { is_lover = ROOT }
-				NOT = { character = ROOT }
-				OR = {
-					AND = {
-						trait = homosexual
-						ROOT = { trait = homosexual }
-						same_sex = ROOT
-					}
-					AND = {
-						NOT = { trait = homosexual }
-						NOT = { ROOT = { trait = homosexual } }
-						NOT = { same_sex = ROOT }
-					}
-				}
-				NOT = {
-					has_opinion_modifier = {
-						who = ROOT
-						modifier = opinion_seduced_lustful_worship
-					}
-				}
-				NOT = { is_close_relative = ROOT }
-			}
-			save_event_target_as = target_priest
-		}
-	}
-	
-	option = {
-		name = EVTOPTA_WOL_500 # Go for it
-		ai_chance = {
-			factor = 100
-		}
-		
-		event_target:target_priest = {
-			opinion = {
-				who = ROOT
-				modifier = opinion_seduced_lustful_worship
-			}
-		}
-		
-		hidden_tooltip = {
-			# Chance of impregnation
-			if = {
-				limit = { is_female = yes }
-				event_target:target_priest = { character_event = { id = WoL.97 } }
-				break = yes
-			}
-			event_target:target_priest = { character_event = { id = WoL.98 } }
-		}
-		
-#		log = "WoL.500: [Root.GetTitledName] tumbles priest - [target_priest.GetTitledName]"
-	}
-	
-	option = {
-		name = EVTOPTB_WOL_500 # No
-		ai_chance = {
-			factor = 10
-			modifier = {
-				factor = 30 # More dangerous for fertile married women
-				is_female = yes
-				NOT = { age = 45 }
-				OR = {
-					is_consort = yes
-					is_married = yes
-				}
-				NOT = {
-					OR = {
-						trait = homosexual
-						trait = arbitrary
-						trait = lustful
-						trait = hedonist
-					}
-				}
-			}
-		}
-		
-		piety = 10
-	}
-}
-
-
 # Female: Seduce handsome guard. Can appear at court (chance of Syphilitic, Cruel, Pregnancy).
 character_event = {
 	id = WoL.520
@@ -10735,8 +10443,8 @@ character_event = {
 				holder_scope = {
 					create_character = {
 						dynasty = none
-						religion = hellenic_pagan
-						culture = irish
+						religion = greek_main # TODO: Is this the right religion?
+						culture = gaul # TODO: Is this the right culture?
 						female = yes
 						dna="gppniiosfag"
 						age = 20

@@ -14735,10 +14735,7 @@ random_coronation_events_effect = {
 						}
 						NOT = { event_target:coronation_priest = { character = PREV } }
 						NOT = { event_target:coronation_ruler = { character = PREV } }
-						OR = { 
-							trait = cynical
-							christian
-						}
+						trait = cynical
 					}
 				}
 			}

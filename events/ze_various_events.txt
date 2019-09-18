@@ -868,10 +868,6 @@ character_event = {
 					NOT = { religion = FROM }
 				}
 				modifier = {
-					factor = 0
-					religion_group = pagan_group
-				}
-				modifier = {
 					factor = 0.5
 					trait = zealous
 				}

@@ -26,7 +26,7 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 	only_rulers = yes
-	religion_group = zoroastrian_group
+	religion = zoroastrian_main
 
 	weight_multiplier = {
 		days = 1

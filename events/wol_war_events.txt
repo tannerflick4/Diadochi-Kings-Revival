@@ -76,12 +76,7 @@ character_event = {
 			}
 			modifier = {
 				factor = 0.3
-				religion = jain
-			}
-			modifier = {
-				religion_group = christian
-				is_priest = yes
-				factor = 0
+				religion = jainism_main
 			}
 			modifier = {
 				is_female = no
@@ -3445,7 +3440,7 @@ character_event = {
 
 #######################################
 # WAR FOCUS PULSE EVENTS
-# by Henrik Fåhraeus
+# by Henrik Fï¿½hraeus
 #######################################
 
 # Martial Education improved
@@ -4052,18 +4047,7 @@ character_event = {
 		add_trait = organizer
 	}
 	option = { # Holy Warrior
-		name = { 
-			text = EVTOPTD_WOL_11304
-			trigger = {
-				NOT = { religion_group = muslim }
-			}
-		}
-		name = {
-			text = EVTOPTD_WOL_11304_MUSLIM
-			trigger = {
-				religion_group = muslim
-			}
-		}
+		name = EVTOPTD_WOL_11304
 		ai_chance = {
 			factor = 1000
 		}

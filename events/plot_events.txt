@@ -255,11 +255,6 @@ character_event = {
 				has_plot = plot_gain_fellow_vassal_title
 			}
 			is_plot_active = no
-			OR = {
-				NOT = { religion_group = muslim }
-				trait = hedonist
-				trait = drunkard
-			}
 			NOT = { has_character_flag = event7040 }
 			NOT = {
 				plot_target_char = {
@@ -396,11 +391,6 @@ character_event = {
 				has_plot = plot_kill_spouse
 			}
 			is_plot_active = no
-			OR = {
-				NOT = { religion_group = muslim }
-				trait = hedonist
-				trait = drunkard
-			}
 			NOT = { has_character_flag = event7041 }
 			NOT = {
 				plot_target_char = {
@@ -3049,8 +3039,9 @@ letter_event = {
 				higher_tier_than = BARON
 				FROM = {
 					OR = { # If the old liege can use the subjugation CB, give no claims
-						NOT = { religion_group = pagan_group }
-						NOT = { culture_group = ROOT }
+						# TODO: Add subjugation people here
+						#NOT = { religion_group = pagan_group }
+						#NOT = { culture_group = ROOT }
 					}
 				}
 			}
@@ -3346,8 +3337,9 @@ letter_event = {
 				higher_tier_than = BARON
 				FROM = {
 					OR = { # If the old liege can use the subjugation CB, give no claims
-						NOT = { religion_group = pagan_group }
-						NOT = { culture_group = ROOT }
+						# TODO: Add subjugation people here
+						#NOT = { religion_group = pagan_group }
+						#NOT = { culture_group = ROOT }
 					}
 				}
 			}
@@ -3783,12 +3775,6 @@ character_event = {
 			at_location = ROOT # The Plot Head needs to be at the target's location to get a chance
 			NOT = { trait = incapable }
 			NOT = { is_inaccessible_trigger = yes }
-			OR = {
-				NOT = { religion_group = muslim }
-				trait = decadent
-				trait = hedonist
-				trait = drunkard
-			}
 		}
 		OR = {
 			NOT = { has_character_flag = murder_in_motion }

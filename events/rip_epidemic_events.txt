@@ -6,7 +6,7 @@
 ###########################################
 
 # Written by:
-# Markus Olsén
+# Markus Olsï¿½n
 # David Ballantyne
 # Milla Isaksson
 # Mathilda Bjarnehed
@@ -50,8 +50,8 @@ character_event = {
 					factor = 0
 					OR = {
 						has_character_modifier = expelled_jewish
-						religion_group = jewish_group
-						any_realm_province = { religion_group = jewish_group }
+						religion = judaism_main
+						any_realm_province = { religion = judaism_main }
 						any_owned_bloodline = {
 							has_bloodline_flag = jewish_saintly_bloodline
 						}
@@ -80,7 +80,7 @@ character_event = {
 				modifier = {
 					factor = 0
 					NAND = {
-						religion_group = indian_group
+						has_dharmic_religion_trigger = yes
 						job_spymaster = { always = yes }
 					}
 				}
@@ -726,7 +726,7 @@ character_event = { #head of religion chimes in. could be player.
 			modifier = {
 				factor = 10
 				OR = {
-					religion = jewish
+					religion = judaism_main
 					trait = sympathy_judaism
 				}
 			}
@@ -742,7 +742,7 @@ character_event = { #head of religion chimes in. could be player.
 		#yeah, jews are to blame
 		trigger = {
 			NOR = {
-				religion = jewish
+				religion = judaism_main
 				trait = sympathy_judaism
 			}
 		}
@@ -852,7 +852,7 @@ character_event = { #you decide what to do
 		}
 		prestige = -100
 			scaled_wealth = 2
-			banish_religion = jewish
+			banish_religion = judaism_main
 			if = {
 				limit = { trait = sympathy_judaism }
 				remove_trait = sympathy_judaism
@@ -885,7 +885,7 @@ character_event = { #you decide what to do
 				}
 			}
 			any_friend = {
-				limit = { religion_group = jewish_group }
+				limit = { religion = judaism_main }
 				remove_friend = ROOT
 			}
 	}
@@ -2049,21 +2049,17 @@ character_event = {
 	}
 }
 
-
-
-
 ##BLAME GAME: Bad Hindu - there is unrest and you're to blame
 character_event = {
 	id = RIP.13500
 	picture = GFX_evt_plague_spreading
 	desc = EVTDESC_RIP_13500
 	border = GFX_event_normal_frame_religion
-	
-	religion_group = indian_group
 
 	is_triggered_only = yes
 
 	trigger = {
+		has_dharmic_religion_trigger = yes
 		job_spymaster = {
 			always = yes
 			ai = yes
@@ -2731,7 +2727,7 @@ character_event = {
 
 		trigger = {
 			NOT = { 
-				religion = jain
+				religion = jainism_main
 			}
 		}
 	}
