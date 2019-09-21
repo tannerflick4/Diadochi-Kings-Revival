@@ -703,7 +703,6 @@ is_learned_trigger = {
 		trait = scholarly_theologian
 		trait = mastermind_theologian
 		trait = physician
-		trait = faqih
 	}
 }
 
@@ -1358,8 +1357,6 @@ is_inaccessible_trigger = { #Remember to write this "is_inaccessible_trigger = n
 			OR = {
 				has_character_flag = flag_holding_great_tribal_festival
 				trait = in_hiding
-				trait = on_hajj
-				trait = on_pilgrimage
 				trait = on_indian_pilgrimage
 				trait = kow_tow_travels
 				trait = travelling
@@ -1708,15 +1705,13 @@ female_can_hold_minor_title_trigger = {
 		OR = {
 			custom_tooltip = {
 				text = tooltip_feminist_liege_religion_feature
-				AND = {
-					OR = {
-						has_religion_feature = religion_equal
-						has_religion_feature = religion_matriarchal
-					}
-					liege = {
-						has_religion_feature = religion_equal
-						has_religion_feature = religion_matriarchal
-					}
+				OR = {
+					has_religion_feature = religion_equal
+					has_religion_feature = religion_matriarchal
+				}
+				liege = {
+					has_religion_feature = religion_equal
+					has_religion_feature = religion_matriarchal
 				}
 			}
 			primary_title = {
@@ -2119,7 +2114,7 @@ FROMs_religion_is_playable_trigger = {
 				NOT = {	has_dlc = "Rajas of India" }
 			}
 			AND = { #Means you're not allowed to play the Zoroastrians
-				FROM = { religion_group = zoroastrian_main }
+				FROM = { religion = zoroastrian_main }
 				NOT = { has_dlc = "The Old Gods" }
 			}
 		}
@@ -2129,10 +2124,8 @@ FROMs_religion_is_playable_trigger = {
 			FROM = { religion = judaism_main }
 			NOT = { has_dlc = "Sons of Abraham" }
 		}
-		AND = {
-			religion = judaism_main
-			has_dlc = "Sons of Abraham"
-		}
+		religion = judaism_main
+		has_dlc = "Sons of Abraham"
 	}
 	trigger_if = {
 		limit = {
@@ -2145,14 +2138,12 @@ FROMs_religion_is_playable_trigger = {
 			}
 			NOT = { has_dlc = "Rajas of India" }
 		}
-		AND = {
-			OR = {
-				religion = buddhism_main
-				religion = hinduism_main
-				religion = jainism_main
-			}
-			has_dlc = "Rajas of India" 
+		OR = {
+			religion = buddhism_main
+			religion = hinduism_main
+			religion = jainism_main
 		}
+		has_dlc = "Rajas of India"
 	}
 }
 
@@ -2184,10 +2175,8 @@ ROOTs_religion_is_playable_trigger = { #For targeted decision where FROM is the 
 			religion = judaism_main
 			NOT = { has_dlc = "Sons of Abraham" }
 		}
-		AND = {
-			religion = judaism_main
-			has_dlc = "Sons of Abraham"
-		}
+		religion = judaism_main
+		has_dlc = "Sons of Abraham"
 	}
 	trigger_if = {
 		limit = {
@@ -2198,14 +2187,12 @@ ROOTs_religion_is_playable_trigger = { #For targeted decision where FROM is the 
 			}
 			NOT = { has_dlc = "Rajas of India" }
 		}
-		AND = {
-			OR = {
-				religion = buddhism_main
-				religion = hinduism_main
-				religion = jainism_main
-			}
-			has_dlc = "Rajas of India" 
+		OR = {
+			religion = buddhism_main
+			religion = hinduism_main
+			religion = jainism_main
 		}
+		has_dlc = "Rajas of India"
 	}
 }
 
@@ -2237,10 +2224,8 @@ ROOTs_secret_religion_is_playable_trigger = {
 			secret_religion = judaism_main
 			NOT = { has_dlc = "Sons of Abraham" }
 		}
-		AND = {
-			secret_religion = judaism_main
-			has_dlc = "Sons of Abraham"
-		}
+		secret_religion = judaism_main
+		has_dlc = "Sons of Abraham"
 	}
 	trigger_if = {
 		limit = {
@@ -2251,24 +2236,20 @@ ROOTs_secret_religion_is_playable_trigger = {
 			}
 			NOT = { has_dlc = "Rajas of India" }
 		}
-		AND = {
-			OR = {
-				secret_religion = buddhism_main
-				secret_religion = hinduism_main
-				secret_religion = jainism_main
-			}
-			has_dlc = "Rajas of India" 
+		OR = {
+			secret_religion = buddhism_main
+			secret_religion = hinduism_main
+			secret_religion = jainism_main
 		}
+		has_dlc = "Rajas of India"
 	}
 	trigger_if = {
 		limit = {
 			secret_religion = zoroastrian_main
 			NOT = { has_dlc = "The Old Gods" }
 		}
-		AND = {
-			secret_religion = zoroastrian_main
-			has_dlc = "The Old Gods"
-		}
+		secret_religion = zoroastrian_main
+		has_dlc = "The Old Gods"
 	}
 }
 
@@ -3025,6 +3006,7 @@ has_cult_of_kali_prerequisites = {
 	has_common_devilworship_prerequisites = yes
 	OR = {
 		religion = hinduism_main
+		secret_religion = hinduism_main
 	}
 }
 
@@ -3574,8 +3556,6 @@ can_be_asked_to_leave_court_trigger = {
 			OR = {
 				has_character_flag = flag_holding_great_tribal_festival
 				trait = in_hiding
-				trait = on_hajj
-				trait = on_pilgrimage
 				trait = on_indian_pilgrimage
 				trait = kow_tow_travels
 				trait = travelling
@@ -5713,68 +5693,58 @@ can_build_walls_trigger = {
 	holding_type = castle
 	hidden_tooltip = { NOT = { has_building = ca_wall_5 } }
 	OR = { 
-		AND = { 
-			custom_tooltip = { 
-				text = tooltip_can_build_ca_wall_1
-				hidden_tooltip = { 
-					NOR = { 
-						is_building = ca_wall_1 
-						has_building = ca_wall_1
-					}
-					location = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
-				}
-			}
-		}
-		AND = { 
-			custom_tooltip = { 
-				text = tooltip_can_build_ca_wall_2
-				hidden_tooltip = { 
+		custom_tooltip = { 
+			text = tooltip_can_build_ca_wall_1
+			hidden_tooltip = { 
+				NOR = { 
+					is_building = ca_wall_1 
 					has_building = ca_wall_1
-					NOR = { 
-						is_building = ca_wall_2 
-						has_building = ca_wall_2
-					}
-					location = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
 				}
+				location = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
 			}
 		}
-		AND = { 
-			custom_tooltip = { 
-				text = tooltip_can_build_ca_wall_3
-				hidden_tooltip = { 
+		custom_tooltip = { 
+			text = tooltip_can_build_ca_wall_2
+			hidden_tooltip = { 
+				has_building = ca_wall_1
+				NOR = { 
+					is_building = ca_wall_2 
 					has_building = ca_wall_2
-					NOR = { 
-						is_building = ca_wall_3 
-						has_building = ca_wall_3
-					}
-					location = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
 				}
+				location = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
 			}
 		}
-		AND = { 
-			custom_tooltip = { 
-				text = tooltip_can_build_ca_wall_4
-				hidden_tooltip = { 
+		custom_tooltip = { 
+			text = tooltip_can_build_ca_wall_3
+			hidden_tooltip = { 
+				has_building = ca_wall_2
+				NOR = { 
+					is_building = ca_wall_3 
 					has_building = ca_wall_3
-					NOR = { 
-						is_building = ca_wall_4 
-						has_building = ca_wall_4
-					}
-					location = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
 				}
+				location = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
 			}
 		}
-		AND = { 
-			custom_tooltip = { 
-				text = tooltip_can_build_ca_wall_5
-				hidden_tooltip = { 
+		custom_tooltip = { 
+			text = tooltip_can_build_ca_wall_4
+			hidden_tooltip = { 
+				has_building = ca_wall_3
+				NOR = { 
+					is_building = ca_wall_4 
 					has_building = ca_wall_4
-					NOR = { 
-						is_building = ca_wall_5 
-						has_building = ca_wall_5
-					}
-					location = { TECH_FORTIFICATIONS_CONSTRUCTION = 8 }
 				}
+				location = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
+			}
+		}
+		custom_tooltip = { 
+			text = tooltip_can_build_ca_wall_5
+			hidden_tooltip = { 
+				has_building = ca_wall_4
+				NOR = { 
+					is_building = ca_wall_5 
+					has_building = ca_wall_5
+				}
+				location = { TECH_FORTIFICATIONS_CONSTRUCTION = 8 }
 			}
 		}
 	}
@@ -6880,15 +6850,16 @@ has_at_least_3_traits_opposite_prev_trigger = {
 	}
 }
 
-has_any_sympathy_trait_trigger = { 
-	OR = {
-		trait = sympathy_christendom
-		trait = sympathy_islam
-		trait = sympathy_pagans
-		trait = sympathy_zoroastrianism
-		trait = sympathy_judaism
-		trait = sympathy_indian
-	}
+has_any_sympathy_trait_trigger = {
+	always = no # TODO: Add sympathies here
+	#OR = {
+	#	trait = sympathy_christendom
+	#	trait = sympathy_islam
+	#	trait = sympathy_pagans
+	#	trait = sympathy_zoroastrianism
+	#	trait = sympathy_judaism
+	#	trait = sympathy_indian
+	#}
 }
 
 preferred_gender_based_on_laws_trigger = {

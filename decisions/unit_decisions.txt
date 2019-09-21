@@ -1,0 +1,133 @@
+decisions = {
+
+	conscript_merchant_ships = {
+		only_playable = yes
+		is_high_prio = yes
+		ai_check_interval = 12
+
+		potential = {
+			is_playable = yes
+			OR = {
+				ai = no
+				year = 1100
+			}
+			NOT = {
+				has_earmarked_regiments = conscripted_merchant_ships
+			}
+			has_overseas_holdings = yes
+		}
+		allow = {
+			war = yes
+			wealth = 50
+		}
+		effect = {
+			wealth = -50
+			spawn_fleet = {
+				province = closest # closest sea zone
+				owner = ROOT
+				disband_on_peace = yes
+				earmark = conscripted_merchant_ships
+				troops =
+				{
+					galleys = { 20 20 }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					any_war = {
+						OR = {
+							defender = { character = ROOT }
+							attacker = { character = ROOT }
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	raise_tribal_units = {
+		only_playable = yes
+		is_high_prio = yes
+		is_mercenary = yes
+		ai_check_interval = 12
+
+		potential = {
+			NOT = {
+				has_dlc = "Legacy of Rome"
+			}
+			is_playable = yes
+			is_tribal = yes
+			is_landed = yes
+			OR = {
+				ai = no
+				any_war = {
+					OR = {
+						any_defender = {
+							character = ROOT
+							is_primary_war_defender = yes
+						}
+						any_attacker = {
+							character = ROOT
+							is_primary_war_attacker = yes
+						}
+					}
+				}
+			}
+		}
+		allow = {
+			war = yes
+			prestige = 500
+		}
+		effect = {
+			prestige = -500
+			if = {
+				limit = {
+					culture_group = iranian
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = {
+								archers = { 500 500 }
+								light_infantry = { 1500 1500 }
+								light_cavalry = { 500 500 }
+							}
+							attrition = 1.0
+							disband_on_peace = yes
+							maintenance_multiplier = 0.5
+						}
+					}
+				}
+				break = yes
+			}
+			capital_scope = {
+				PREV = {
+					spawn_unit = {
+						owner = ROOT
+						province = PREV
+						home = PREV
+						troops = {
+							archers = { 500 500 }
+							light_infantry = { 1500 1500 }
+							heavy_infantry = { 300 300 }
+							light_cavalry = { 200 200 }
+						}
+						attrition = 1.0
+						disband_on_peace = yes
+						maintenance_multiplier = 0.5
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0 # decisions with the "is_mercenary" will not be calculated from the script
+		}
+	}
+}
