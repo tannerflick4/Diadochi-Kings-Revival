@@ -1078,26 +1078,7 @@ character_event = {
 #Viking Trait Gained
 character_event = {
 	id = TGF.3320
-	desc = { 
-		trigger = { 
-			OR = {
-				any_owned_bloodline = {
-					has_bloodline_flag = bloodline_viking
-				}
-			}
-		} 
-		text = EVTDESC_TOG_3320
-	}
-	desc = { 
-		trigger = { 
-			NOR = {
-				any_owned_bloodline = {
-					has_bloodline_flag = bloodline_viking
-				}
-			}
-		} 
-		text = EVTDESC_TOG_3320_HF
-	}
+	desc = EVTDESC_TOG_3320_HF
 	picture = { 
 		trigger = { is_female = no } 
 		picture = GFX_evt_vikings_arriving_oldgods
@@ -1119,257 +1100,25 @@ character_event = {
 	trigger = {
 		OR = {
 			has_dlc = "The Old Gods"
-			any_owned_bloodline = {
-				has_bloodline_flag = bloodline_viking
-			}
 			AND = {
 				has_religion_feature = religion_adventuring
 				has_religion_feature = religion_seafaring
 			}
 			has_religion_feature = religion_feature_norse
 		}
-		NOR = { 
-			trait = viking
-			trait = pirate
-			trait = ravager
-			trait = seaking
-			trait = sea_queen
-		}
-		OR = {
-			any_owned_bloodline = {
-				has_bloodline_flag = bloodline_viking
-			}
-			AND = {
-				has_religion_feature = religion_adventuring
-				has_religion_feature = religion_seafaring
-			}
+		NOT = { trait = pirate }
+		AND = {
+			has_religion_feature = religion_adventuring
+			has_religion_feature = religion_seafaring
 		}
 		FROM = { always = yes }
 	}
 	
 	option = {
 		name = EVTOPTA_TOG_3320
-		if = {
-			limit = {
-				any_owned_bloodline = {
-					has_bloodline_flag = bloodline_viking
-				}
-			}
-			set_character_flag = acquired_pirate_trait_by_bloodline
-		}
 		add_trait = pirate
 		hidden_tooltip = {
 			set_variable = { which = viking_raids value = 0 }
 		}
-	}
-}
-
-#Ravager 
-character_event = {
-	id = TGF.3321
-	desc = { 
-		trigger = { 
-			OR = {
-				any_owned_bloodline = {
-					has_bloodline_flag = bloodline_viking
-				}
-			}
-		} 
-		text = TOG.3321.d
-	}
-	desc = { 
-		trigger = { 
-			NOR = {
-				any_owned_bloodline = {
-					has_bloodline_flag = bloodline_viking
-				}
-			}
-		} 
-		text = EVTDESC_TOG_3321_HF
-	}
-	picture = { 
-		trigger = { is_female = no } 
-		picture = GFX_evt_vikings_arriving_oldgods
-	}
-	picture = { 
-		trigger = { is_female = yes } 
-		picture = GFX_evt_norse_tempest
-	}
-	border = GFX_event_normal_frame_war
-	
-	hide_from = yes
-	
-	is_triggered_only = yes
-	
-	min_age = 16
-	capable_only = yes
-	prisoner = no
-	
-	trigger = {
-		OR = {
-			has_dlc = "The Old Gods"
-			any_owned_bloodline = {
-				has_bloodline_flag = bloodline_viking
-			}
-			AND = {
-				has_religion_feature = religion_adventuring
-				has_religion_feature = religion_seafaring
-			}
-			has_religion_feature = religion_feature_norse
-		}
-		OR = {
-			trait = viking
-			trait = pirate
-		}
-		NOR = { 
-			trait = ravager
-			trait = seaking
-			trait = sea_queen
-		}
-		OR = {
-			any_owned_bloodline = {
-				has_bloodline_flag = bloodline_viking
-			}
-			AND = {
-				has_religion_feature = religion_adventuring
-				has_religion_feature = religion_seafaring
-			}
-		}
-		check_variable = { which = viking_raids value = 50 }
-		FROM = { always = yes }
-	}
-	
-	option = {
-		name = TOG.3321.a
-		if = {
-			limit = { 
-				trait = pirate
-			}
-			remove_trait = pirate
-		}
-		if = {
-			limit = { 
-				trait = viking
-			}
-			remove_trait = viking
-		}
-		add_trait = ravager
-	}
-}
-
-#Sea King
-character_event = {
-	id = TGF.3322
-	desc = TOG.3322.d
-	picture = { 
-		trigger = { is_female = no } 
-		picture = GFX_evt_vikings_arriving_oldgods
-	}
-	picture = { 
-		trigger = { is_female = yes } 
-		picture = GFX_evt_norse_tempest
-	}
-	border = GFX_event_normal_frame_war
-	
-	hide_from = yes
-	
-	is_triggered_only = yes
-	
-	min_age = 16
-	capable_only = yes
-	prisoner = no
-	
-	trigger = {
-		OR = {
-			has_dlc = "The Old Gods"
-			any_owned_bloodline = {
-				has_bloodline_flag = bloodline_viking
-			}
-			AND = {
-				has_religion_feature = religion_adventuring
-				has_religion_feature = religion_seafaring
-			}
-			has_religion_feature = religion_feature_norse
-		}
-		trait = ravager
-		NOR = { 
-			trait = seaking
-			trait = sea_queen
-		}
-		OR = {
-			any_owned_bloodline = {
-				has_bloodline_flag = bloodline_viking
-			}
-			AND = {
-				has_religion_feature = religion_adventuring
-				has_religion_feature = religion_seafaring
-			}
-		}
-		check_variable = { which = viking_raids value = 100 }
-		FROM = { always = yes }
-	}
-	
-	option = {
-		name = TOG.3322.a
-		remove_trait = ravager
-		if = {
-			limit = {
-				is_female = no
-			}
-			add_trait = seaking
-		}
-		if = {
-			limit = {
-				is_female = yes
-			}
-			add_trait = sea_queen
-		}
-	}
-}
-
-character_event = {
-	id = TGF.3323
-	
-	hide_window = yes
-	
-	is_triggered_only = yes
-	
-	min_age = 16
-	capable_only = yes
-	prisoner = no
-	
-	trigger = {
-		OR = {
-			has_dlc = "The Old Gods"
-			any_owned_bloodline = {
-				has_bloodline_flag = bloodline_viking
-			}
-			AND = {
-				has_religion_feature = religion_adventuring
-				has_religion_feature = religion_seafaring
-			}
-			has_religion_feature = religion_feature_norse
-		}
-		OR = {
-			trait = pirate
-			trait = viking
-			trait = ravager
-			trait = seaking #Top trait, but there's still chance of gaining a Bloodline if variable goes high enough.
-			trait = sea_queen
-		}
-		OR = {
-			any_owned_bloodline = {
-				has_bloodline_flag = bloodline_viking
-			}
-			AND = {
-				has_religion_feature = religion_adventuring
-				has_religion_feature = religion_seafaring
-			}
-		}
-		FROM = { always = yes }
-	}
-	
-	immediate = {
-		change_variable = { which = viking_raids value = 1 }
 	}
 }

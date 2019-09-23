@@ -1730,7 +1730,6 @@ character_event = {
 			limit = {
 				NOT = { trait = craven }
 				NOT = { trait = brave }
-				NOT = { trait = berserker }
 			}
 			add_trait = craven
 			break = yes
@@ -2522,7 +2521,6 @@ character_event = {
 				NOR = {
 					trait = brave
 					trait = craven
-					trait = berserker
 				}
 			}
 			random = {

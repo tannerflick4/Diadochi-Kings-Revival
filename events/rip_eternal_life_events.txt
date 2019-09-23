@@ -260,12 +260,12 @@ narrative_event = {
 	desc = {
 		text = EVTDSC_RIP_21001
 		picture = GFX_evt_council_arabic
-		trigger = { culture_group = arabic }	
+		trigger = { culture = arabic }	
 	}
 	desc = {
 		text = EVTDSC_RIP_21001
 		picture = GFX_evt_council
-		trigger = { NOT = { culture_group = arabic } }
+		trigger = { NOT = { culture = arabic } }
 	}
 	border = GFX_event_narrative_frame_religion
 	is_triggered_only = yes
@@ -2411,25 +2411,6 @@ narrative_event = {
 		custom_tooltip = { text = EVTOPTA_RIP_21122_TOOLTIP } 
 		
 		add_trait = immortal
-                if = { 
-                    limit = { 
-                    	is_female = no 
-                    	has_dlc = "Holy Fury"
-                    }
-                    create_bloodline = {
-                        type = immortal_bloodline_01
-                    }       
-                }
-                if = { 
-                    limit = { 
-                    	is_female = yes 
-                    	has_dlc = "Holy Fury"
-                    }
-                    create_bloodline = {
-                        type = immortal_bloodline_01
-                        inheritance = matrilineal
-                    }       
-                }
 
 		if = {
 			limit = { trait = incapable }
@@ -2495,25 +2476,6 @@ narrative_event = {
 		custom_tooltip = { text = EVTOPTA_RIP_21124_TOOLTIP } 
 		
 		add_trait = immortal
-                if = { 
-                    limit = { 
-                    	is_female = no 
-                    	has_dlc = "Holy Fury"
-                    }
-                    create_bloodline = {
-                        type = immortal_bloodline_01
-                    }       
-                }
-                if = { 
-                    limit = { 
-                    	is_female = yes 
-                    	has_dlc = "Holy Fury"
-                    }
-                    create_bloodline = {
-                        type = immortal_bloodline_01
-                        inheritance = matrilineal
-                    }       
-                }
 
 		if = {
 			limit = { trait = incapable }
@@ -3354,25 +3316,6 @@ narrative_event = {
 		custom_tooltip = { text = EVTOPTA_RIP_21222_TOOLTIP }
 		
 		add_trait = immortal
-                if = { 
-                    limit = { 
-                    	is_female = no 
-                    	has_dlc = "Holy Fury"
-                    }
-                    create_bloodline = {
-                        type = immortal_bloodline_01
-                    }       
-                }
-                if = { 
-                    limit = { 
-                    	is_female = yes 
-                    	has_dlc = "Holy Fury"
-                    }
-                    create_bloodline = {
-                        type = immortal_bloodline_01
-                        inheritance = matrilineal
-                    }       
-                }
 
 		if = {
 			limit = { trait = incapable }
@@ -3438,25 +3381,6 @@ narrative_event = {
 		custom_tooltip = { text = EVTOPTA_RIP_21224_TOOLTIP }
 		
 		add_trait = immortal
-                if = { 
-                    limit = { 
-                    	is_female = no 
-                    	has_dlc = "Holy Fury"
-                    }
-                    create_bloodline = {
-                        type = immortal_bloodline_01
-                    }       
-                }
-                if = { 
-                    limit = { 
-                    	is_female = yes 
-                    	has_dlc = "Holy Fury"
-                    }
-                    create_bloodline = {
-                        type = immortal_bloodline_01
-                        inheritance = matrilineal
-                    }       
-                }
 
 		if = {
 			limit = { trait = incapable }
@@ -4250,25 +4174,6 @@ narrative_event = {
 		name = EVTOPTA_RIP_21322
 		custom_tooltip = { text = EVTOPTA_RIP_21322_TOOLTIP } 
 		add_trait = immortal
-                if = { 
-                    limit = { 
-                    	is_female = no 
-                    	has_dlc = "Holy Fury"
-                    }
-                    create_bloodline = {
-                        type = immortal_bloodline_01
-                    }       
-                }
-                if = { 
-                    limit = { 
-                    	is_female = yes 
-                    	has_dlc = "Holy Fury"
-                    }
-                    create_bloodline = {
-                        type = immortal_bloodline_01
-                        inheritance = matrilineal
-                    }       
-                }
 
 		if = {
 			limit = { trait = incapable }
@@ -4332,25 +4237,6 @@ narrative_event = {
 		name = EVTOPTA_RIP_21324
 		custom_tooltip = { text = EVTOPTA_RIP_21324_TOOLTIP } 
 		add_trait = immortal
-                if = { 
-                    limit = { 
-                    	is_female = no 
-                    	has_dlc = "Holy Fury"
-                    }
-                    create_bloodline = {
-                        type = immortal_bloodline_01
-                    }       
-                }
-                if = { 
-                    limit = { 
-                    	is_female = yes 
-                    	has_dlc = "Holy Fury"
-                    }
-                    create_bloodline = {
-                        type = immortal_bloodline_01
-                        inheritance = matrilineal
-                    }       
-                }
 
 		if = {
 			limit = { trait = incapable }
@@ -5180,25 +5066,6 @@ narrative_event = {
 		name = EVTOPTA_RIP_21422
 		custom_tooltip = { text = EVTOPTA_RIP_21422_TOOLTIP } 
 		add_trait = immortal
-                if = { 
-                    limit = { 
-                    	is_female = no 
-                    	has_dlc = "Holy Fury"
-                    }
-                    create_bloodline = {
-                        type = immortal_bloodline_01
-                    }       
-                }
-                if = { 
-                    limit = { 
-                    	is_female = yes 
-                    	has_dlc = "Holy Fury"
-                    }
-                    create_bloodline = {
-                        type = immortal_bloodline_01
-                        inheritance = matrilineal
-                    }       
-                }
 
 		if = {
 			limit = { trait = incapable }

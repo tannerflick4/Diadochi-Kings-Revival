@@ -2779,13 +2779,6 @@ character_event = {
 			}
 			modifier = {
 				factor = 0.25
-				OR = {
-					culture_group = baltic
-					culture_group = finno_ugric  # The most stubborn pagans
-				}
-			}
-			modifier = {
-				factor = 0.25
 				trait = paranoid
 			}
 		}
@@ -5622,9 +5615,8 @@ character_event = {
 
 				if = {
 					limit = { 
-						NOR = {
+						NOT = {
 							trait = craven 
-							trait = berserker 
 						} 
 						NOT = { has_dlc = "Zeus" } 
 					}
@@ -6173,7 +6165,7 @@ character_event = {
 		custom_tooltip = { text = EVTOPTB_RIP_29201_TOOLTIP }
 
 		if = {
-			limit = { NOR = { trait = craven trait = berserker } }
+			limit = { NOT = { trait = craven } }
 
 			random = {
 				chance = 20
@@ -10494,22 +10486,6 @@ narrative_event = {
 						combat_rating = 40
 					}
 				}
-				25 = {
-					modifier = {
-						factor = 15
-						any_courtier = {
-							culture = horse
-						}
-					}
-					modifier = {
-						factor = 10
-						any_courtier = {
-							culture = horse
-							trait = immortal
-						}
-					}
-					set_character_flag = immortal_rival_horse
-				}
 			}
 		}
 	}
@@ -10660,7 +10636,6 @@ character_event = {
 				trait = impaler
 				trait = cynical
 				trait = strong
-				trait = berserker
 				trait = envious
 				historical = yes
 			}
@@ -10728,46 +10703,7 @@ character_event = {
 				trait = honest
 				trait = robust
 				trait = brave
-				trait = sea_queen
 				trait = hunter
-				historical = yes
-			}
-		}
-		if = {
-			limit = {
-				has_character_flag = immortal_rival_horse
-			}
-			create_character = {
-				random_traits = no
-				name = "Incitatus"
-				dynasty = none
-				religion = celtic_main # TODO: Is this correct?
-				culture = gaul # TODO: Is this correct?
-				female = no
-				age = 2200
-				immortal_age = 20
-				attributes = {
-					martial = 8
-					diplomacy = 18
-					stewardship = 12
-					intrigue = 18
-					learning = 16
-				}
-				health = 6
-				fertility = 0.8
-				trait = elusive_shadow
-				trait = genius
-				trait = fair
-				trait = patient
-				trait = immortal
-				trait = cruel
-				trait = wroth
-				trait = strong
-				trait = robust
-				trait = stubborn
-				trait = schemer
-				trait = cynical
-				trait = horse
 				historical = yes
 			}
 		}
@@ -10777,91 +10713,6 @@ character_event = {
 			save_event_target_as = immortal_rival
 		}
 		character_event = { id = RIP.30308 days = 1 } #clears flags in one spot, hidden event
-		hidden_effect = {
-			if = {
-				limit = {
-					has_character_flag = immortal_rival_horse 
-				}
-				if = {	#horse councillor? 
-					limit = {
-						any_courtier = {
-							ai = yes
-							is_alive = yes
-							culture = horse
-							has_job_title = yes								
-						}
-					}
-					random_courtier = {
-							limit = {
-								ai = yes
-								is_alive = yes
-								culture = horse
-								has_job_title = yes	
-							}
-						save_event_target_as = immortal_horse_victim
-						death = { death_reason = death_execution_horses killer = event_target:immortal_rival }				
-					}
-					break = yes
-				}
-				if = { #any horse?
-					limit = {
-						any_courtier = {
-							ai = yes
-							is_alive = yes
-							culture = horse
-							NOT = {
-								event_target:immortal_rival = {
-									character = THIS 
-								}
-							}
-						}
-					}
-					random_courtier = {
-							limit = {
-								ai = yes
-								is_alive = yes
-								culture = horse
-								NOT = {
-									event_target:immortal_rival = {
-										character = THIS 
-									}
-								}
-							}
-						save_event_target_as = immortal_horse_victim
-						death = { death_reason = death_execution_horses killer = event_target:immortal_rival }	
-					}
-					break = yes
-				}
-				if = { #backup victim
-					limit = {
-						any_courtier = {
-							ai = yes
-							is_alive = yes
-							OR = {
-								has_job_title = yes
-								is_close_relative = ROOT
-								is_consort = ROOT
-								is_married = ROOT
-							}				
-						}
-					}
-					random_courtier = {
-							limit = {
-								ai = yes
-								is_alive = yes
-								OR = {
-									has_job_title = yes
-									is_close_relative = ROOT
-									is_consort = ROOT
-									is_married = ROOT
-								}
-							}
-						save_event_target_as = immortal_horse_victim
-						death = { death_reason = death_execution_horses killer = event_target:immortal_rival }	
-					}
-				}
-			}
-		}
 	}	
 	
 	desc = {
@@ -10888,26 +10739,6 @@ character_event = {
 		}
 		text = RIP.30301.d.shieldmaiden
 	}
-	desc = {
-		trigger = { 
-			has_character_flag = immortal_rival_horse 
-			any_courtier = {
-				culture = horse
-			}
-		}
-		text = RIP.30301.d.horse
-	}
-	desc = {
-		trigger = { 
-			has_character_flag = immortal_rival_horse 
-			NOT = {
-				any_courtier = {
-					culture = horse
-				}
-			}
-		}
-		text = RIP.30301.d.horse2
-	}
 
 	is_triggered_only = yes	
 
@@ -10921,211 +10752,8 @@ character_event = {
 				trait = severely_injured
 				trait = infirm
 				trait = craven
-				trait = berserker
 			}
 		}
-		if = {
-			limit = {
-				combat_rating_diff = { who = event_target:immortal_rival value = 50 }
-			}
-			custom_tooltip = { text = holmgang_chances_great } #Tooltip reuse FTW
-			hidden_tooltip = {
-				random_list = {
-					84 = {
-						long_character_event = { id = RIP.30302 days = 0 }
-					}
-					10 = {
-						long_character_event = { id = RIP.30303 days = 0 }
-					}
-					5 = {
-						long_character_event = { id =  RIP.30304 days = 0 }
-					}
-					1 = {
-						long_character_event = { id =  RIP.30305 days = 0 }
-					}
-				}
-			}
-			break = yes
-		}
-		if = {
-			limit = {
-				combat_rating_diff = { who = event_target:immortal_rival value = 30 }
-				NOT = {
-					combat_rating_diff = { who = event_target:immortal_rival value = 50 }
-				}
-			}
-			custom_tooltip = { text = holmgang_chances_very_good }
-			hidden_tooltip = {
-				random_list = {
-					70 = {
-						long_character_event = { id = RIP.30302 days = 0 }
-					}
-					15 = {
-						long_character_event = { id = RIP.30303 days = 0 }
-					}
-					10 = {
-						long_character_event = { id = RIP.30304 days = 0 }
-					}
-					5 = {
-						long_character_event = { id =  RIP.30305 days = 0 }
-					}
-				}
-			}
-			break = yes
-		}
-		if = {
-			limit = {
-				combat_rating_diff = { who = event_target:immortal_rival value = 10 }
-				NOT = {
-					combat_rating_diff = { who = event_target:immortal_rival value = 30 }
-				}
-			}
-			custom_tooltip = { text = holmgang_chances_good }
-			hidden_tooltip = {
-				random_list = {
-					60 = {
-						long_character_event = { id = RIP.30302 days = 0 }
-					}
-					20 = {
-						long_character_event = { id = RIP.30303 days = 0 }
-					}
-					15 = {
-						long_character_event = { id =  RIP.30304 days = 0 }
-					}
-					5 = {
-						long_character_event = { id =  RIP.30305 days = 0 }
-					}
-				}
-			}
-			break = yes
-		}
-		if = {
-			limit = {
-				NOT = {
-					combat_rating_diff = { who = event_target:immortal_rival value = 10 }
-					event_target:immortal_rival = {
-						combat_rating_diff = { who = ROOT value = 10 }
-					}
-				}
-			}
-			custom_tooltip = { text = holmgang_chances_even }
-			hidden_tooltip = {
-				random_list = {
-					20 = {
-						long_character_event = { id = RIP.30302 days = 0 }
-					}
-					20 = {
-						long_character_event = { id = RIP.30303 days = 0 }
-					}
-					20 = {
-						long_character_event = { id =  RIP.30304 days = 0 }
-					}
-					40 = {
-						long_character_event = { id =  RIP.30305 days = 0 }
-					}
-				}
-			}
-			break = yes
-		}
-		if = {
-			limit = {
-				event_target:immortal_rival = {
-					combat_rating_diff = { who = ROOT value = 10 }
-				}
-				NOT = {
-					event_target:immortal_rival = {
-						combat_rating_diff = { who = ROOT value = 30 }
-					}
-				}
-			}
-			custom_tooltip = { text = holmgang_chances_poor }
-			hidden_tooltip = {
-				random_list = {
-					5 = {
-						long_character_event = { id = RIP.30302 days = 0 }
-					}
-					15 = {
-						long_character_event = { id = RIP.30303 days = 0 }
-					}
-					20 = {
-						long_character_event = { id =  RIP.30304 days = 0 }
-					}
-					60 = {
-						long_character_event = { id =  RIP.30305 days = 0 }
-					}
-				}
-			}
-			break = yes
-		}
-		if = {
-			limit = {
-				event_target:immortal_rival = {
-					combat_rating_diff = { who = ROOT value = 30 }
-				}
-				NOT = {
-					event_target:immortal_rival = {
-						combat_rating_diff = { who = ROOT value = 50 }
-					}
-				}
-			}
-			custom_tooltip = { text = holmgang_chances_very_poor }
-			hidden_tooltip = {
-				random_list = {
-					1 = {
-						long_character_event = { id = RIP.30302 days = 0 }
-					}
-					4 = {
-						long_character_event = { id = RIP.30303 days = 0 }
-					}
-					15 = {
-						long_character_event = { id =  RIP.30304 days = 0 }
-					}
-					80 = {
-						long_character_event = { id =  RIP.30305 days = 0 }
-					}
-				}
-			}
-			break = yes
-		}
-		if = {
-			limit = {
-				event_target:immortal_rival = {
-					combat_rating_diff = { who = ROOT value = 50 }
-				}
-			}
-			custom_tooltip = { text = holmgang_chances_terrible }
-			hidden_tooltip = {
-				random_list = {					
-					1 = {
-						long_character_event = { id = RIP.30303 days = 0 }
-					}
-					9 = {
-						long_character_event = { id =  RIP.30304 days = 0 }
-					}
-					90 = {
-						long_character_event = { id =  RIP.30305 days = 0 }
-					}
-				}
-			}
-			break = yes
-		}
-		
-	}
-	option = { #fight. berserker
-		name = placeholdername_33 #RIP.30301.berserkfight
-		add_blood_splatter_effect = yes
-		trigger = {
-			health = 2
-			trait = berserker
-			NOR = {
-				is_incapable = yes
-				trait = severely_injured
-				trait = infirm
-				trait = craven
-			}
-		}
-		tooltip_info = berserker
-		custom_tooltip = { text = placeholdername_5 }
 		if = {
 			limit = {
 				combat_rating_diff = { who = event_target:immortal_rival value = 50 }
@@ -11322,7 +10950,6 @@ character_event = {
 				is_incapable = yes
 				trait = severely_injured
 				trait = infirm
-				trait = berserker
 			}
 		}
 		add_blood_splatter_effect = yes
@@ -11621,13 +11248,6 @@ long_character_event = { # win - no wound
 	
 	desc = {
 		trigger = { 
-			trait = berserker 
-		}
-		text = placeholdername_3 #RIP.30302.d.berserker
-		
-	}
-	desc = {
-		trigger = { 
 			trait = craven 
 		}
 		text = placeholdername_7 #RIP.30302.d.craven
@@ -11637,8 +11257,7 @@ long_character_event = { # win - no wound
 
 	option = {
 		trigger = {
-			NOR = {
-				trait = berserker
+			NOT = {
 				trait = craven
 			}
 		}
@@ -11657,16 +11276,6 @@ long_character_event = { # win - no wound
 		}
 		custom_tooltip = { text = placeholdername_34 }
 	}
-	option = {
-		trigger = {
-			trait = berserker
-		}
-		name = placeholdername_4
-		event_target:immortal_rival = {
-			death = { death_reason = death_duel killer = ROOT }
-		}
-		custom_tooltip = { text = placeholdername_34 }
-	}
 }
 
 long_character_event = { # win - wound
@@ -11675,12 +11284,6 @@ long_character_event = { # win - wound
 	border = GFX_event_long_frame_war
 	picture = GFX_evt_melee
 	
-	desc = {
-		trigger = { 
-			trait = berserker 
-		}
-		text = placeholdername_3 #RIP.30302.d.berserker
-	}
 	desc = {
 		trigger = { 
 			trait = craven 
@@ -11692,8 +11295,7 @@ long_character_event = { # win - wound
 
 	option = {
 		trigger = {
-			NOR = {
-				trait = berserker
+			NOT = {
 				trait = craven
 			}
 		}
@@ -11714,17 +11316,6 @@ long_character_event = { # win - wound
 		add_trait_wounded_effect = yes
 		custom_tooltip = { text = placeholdername_34 }
 	}
-	option = {
-		trigger = {
-			trait = berserker
-		}
-		name = placeholdername_6
-		event_target:immortal_rival = {
-			death = { death_reason = death_duel killer = ROOT }
-		}
-		add_trait_wounded_effect = yes
-		custom_tooltip = { text = placeholdername_34 }
-	}
 }
 
 long_character_event = { # win - maimed
@@ -11733,12 +11324,6 @@ long_character_event = { # win - maimed
 	border = GFX_event_long_frame_war
 	picture = GFX_evt_melee
 	
-	desc = {
-		trigger = { 
-			trait = berserker 
-		}
-		text = placeholdername_3 #RIP.30302.d.berserker
-	}
 	desc = {
 		trigger = { 
 			trait = craven 
@@ -11776,25 +11361,6 @@ long_character_event = { # win - maimed
 			}
 				add_maimed_trait_effect = yes
 			custom_tooltip = { text = placeholdername_34 }
-			break = yes
-		}
-		add_trait_wounded_effect = yes
-		custom_tooltip = { text = placeholdername_34 }
-	}
-	option = {
-		trigger = {
-			trait = berserker
-		}
-		name = placeholdername_6
-		event_target:immortal_rival = {
-			death = { death_reason = death_duel killer = ROOT }
-		}
-		if = {
-			limit = {
-				can_be_maimed_trigger = yes
-			}
-				add_maimed_trait_effect = yes
-			custom_tooltip = { text = placeholdername_34 }	
 			break = yes
 		}
 		add_trait_wounded_effect = yes

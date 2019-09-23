@@ -225,13 +225,7 @@ character_event = {
         			}
         			30 = {
         				trigger = {
-        					OR = {
-        						trait = pirate
-        						trait = viking
-        						trait = ravager
-        						trait = sea_queen
-        						trait = seaking
-        					}
+        					trait = pirate
         				}
         				modifier = {
         					factor = 0.1

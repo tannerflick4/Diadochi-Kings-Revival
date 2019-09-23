@@ -1639,7 +1639,6 @@ character_event = {
 								OR = {
 									trait = mystic
 									trait = scholar
-									trait = faqih
 									trait = theologian
 								}
 							}
@@ -16875,12 +16874,6 @@ character_event = {
 		trigger = { 
 			trait = kind
 			any_war = {
-				NOT = { 
-					OR = {
-						using_cb = crusade
-						using_cb = new_crusade
-					}
-				}
 				OR = { 
 					attacker = { character = FROM }
 					defender = { character = FROM } 
@@ -17124,18 +17117,6 @@ character_event = {
 		tiered_piety_reward_effect = yes
 		hidden_tooltip = {
 			any_war = {
-				limit = {
-					NOT = { 
-						OR = {
-							using_cb = crusade
-							using_cb = new_crusade
-						}
-					}
-					OR = { 
-						attacker = { character = FROM }
-						defender = { character = FROM } 
-					}
-				}
 				end_war = whitepeace
 			}
 		}

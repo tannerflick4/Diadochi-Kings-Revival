@@ -30,8 +30,12 @@ character_event = {
 				value = off
 			}
 		}
-		culture_group = altaic
-		NOT = { culture = khitan }
+		OR = {
+			culture = scythian
+			culture = sarmatian
+			culture = indo_scythian
+			culture = chorasmian
+		}
 		OR = {
 			father = {
 				OR = {
@@ -207,8 +211,12 @@ narrative_event = {
 	
 	trigger = {
 		has_dlc = "Horse Lords"
-		culture_group = altaic
-		NOT = { culture = khitan }
+		OR = {
+			culture = scythian
+			culture = sarmatian
+			culture = indo_scythian
+			culture = chorasmian
+		}
 		age = 5
 		NOT = { age = 10 }
 		NOT = {	any_sibling = { is_older_than = ROOT } }
@@ -2096,11 +2104,6 @@ character_event = {
 	immediate = {
 		random_list = {
 			10 = {				# Inherits Wolf's Blood
-				modifier = {
-					factor = 1.5
-					culture_group = altaic
-					NOT = { culture = khitan }
-				}
 				modifier = {
 					factor = 2
 					OR = {

@@ -1366,10 +1366,7 @@ character_event = {
 			50 = { # Poetry is Nice
 				modifier = {
 					factor = 1.2
-					OR = {
-						trait = scholar
-						trait = faqih
-					}
+					trait = scholar
 				}
 				modifier = {
 					factor = 1.2

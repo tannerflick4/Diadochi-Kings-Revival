@@ -2552,7 +2552,7 @@ character_event = {
 			factor = 0
 		}
 		if = { 
-			limit = { NOR = { trait = berserker trait = craven } }
+			limit = { NOT = { trait = craven } }
 			add_trait = craven
 		}
 	}

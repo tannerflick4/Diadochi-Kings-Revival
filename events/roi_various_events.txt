@@ -3241,7 +3241,7 @@ character_event = {
 		name = EVTOPTB_RoI_153
 		prestige = -100
 		if = {
-			limit = { NOR = { trait = craven trait = berserker } }
+			limit = { NOT = { trait = craven } }
 			add_trait = craven
 		}
 		random_demesne_province = {
@@ -3377,11 +3377,9 @@ character_event = {
 		has_dlc = "Rajas of India"
 		NOT = { has_character_flag = crazed_elephant }
 		capital_scope = {
+			# TODO: Add full range of elephants.
 			OR = {
 				region = world_india
-				duchy = { title = d_sistan }
-				duchy = { title = d_baluchistan }
-				duchy = { title = d_kerman }
 			}
 		}
 	}
@@ -4372,8 +4370,10 @@ character_event = {
 	desc = EVTDESC_RoI_146
 	picture = GFX_evt_large_army
 
+
+	# TODO: Is this appropriate?
 	ai = no
-	culture = greek
+	culture_group = hellenic
 	has_dlc = "Rajas of India"
 	war = yes
 	
@@ -4557,7 +4557,7 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "Rajas of India"
-		trait = sympathy_indian
+		#trait = sympathy_indian TODO: Add.
 		any_realm_character = {
 			has_dharmic_religion_trigger = yes
 			NOT = { is_friend = ROOT }
@@ -4598,7 +4598,7 @@ character_event = {
 		}
 		OR = {
 			has_dharmic_religion_trigger = yes
-			trait = sympathy_indian
+			#trait = sympathy_indian TODO: Add.
 		}
 		NOT = { has_character_flag = do_not_disturb }
 		NOT = { is_inaccessible_trigger = yes }
@@ -5297,10 +5297,7 @@ character_event = {
 		has_dharmic_religion_trigger = yes
 		has_dlc = "Rajas of India"
 		NOT = { religion_authority = 0.3 }
-		OR = {
-			culture_group = dravidian_group
-			culture_group = indo_aryan_group
-		}
+		culture_group = indian
 		any_independent_ruler = {
 			any_realm_province = {
 				has_dharmic_religion_trigger = yes

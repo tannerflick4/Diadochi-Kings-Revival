@@ -2075,7 +2075,6 @@ character_event = {
         }
 
         prestige = 15
-        add_trait = berserker
 
         if = { limit = { has_character_flag = someone_is_hurt }
             event_target:kinslayer_target = {
@@ -2172,7 +2171,6 @@ character_event = {
     }
     option = { #W-wait, what did I do? [OPTIONAL: "only" maiming the other person]
         name = EVTOPTB_HF_10056
-        add_trait = berserker
 
         event_target:kinslayer_target = {
             show_scope_change = no
@@ -2204,7 +2202,6 @@ character_event = {
     option = { #W-wait, what did I do? [OPTIONAL: "only" maiming the other person] KIND VERSION
         name = EVTOPTC_HF_10056
         tooltip_info = kind
-        add_trait = berserker
 
         event_target:kinslayer_target = {
             show_scope_change = no
@@ -2608,16 +2605,9 @@ character_event = {
         }
 
         prestige = 15
-
-        if = { limit = { NOT = { trait = berserker } }
-            add_trait = berserker
-        }
     }
     option = { #W-wait, what did I do? [OPTIONAL: "only" maiming the other person]
-        name = EVTOPTB_HF_10070 
-        if = { limit = { NOT = { trait = berserker } }
-            add_trait = berserker
-        }
+        name = EVTOPTB_HF_10070
 
         if = {
             limit = { trait = cruel }
@@ -2650,7 +2640,6 @@ character_event = {
     option = { #W-wait, what did I do? [OPTIONAL: "only" maiming the other person] KIND VERSION
         name = EVTOPTC_HF_10056
         tooltip_info = kind
-        add_trait = berserker
 
         event_target:kinslayer_target = {
             show_scope_change = no

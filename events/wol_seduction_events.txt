@@ -7261,8 +7261,6 @@ character_event = {
 							character = ROOT
 							character = PREV
 							trait = incapable
-							trait = on_hajj
-							trait = on_pilgrimage
 							trait = in_hiding
 							in_command = yes
 							has_character_modifier = in_meditation
@@ -7307,8 +7305,6 @@ character_event = {
 								NOT = { character = PREV }
 								NOT = { trait = incapable }
 								NOR = {
-									trait = on_hajj
-									trait = on_pilgrimage
 									trait = in_hiding
 									in_command = yes
 									has_character_modifier = in_meditation
@@ -10439,7 +10435,7 @@ character_event = {
 	
 	immediate = {
 		hidden_tooltip = { # Hidden so the Pope does not appear as a portrait for affected characters
-			k_papal_state = {
+			b_delphi_delphi = { # TODO: Is delphi correct for this?
 				holder_scope = {
 					create_character = {
 						dynasty = none

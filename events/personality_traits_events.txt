@@ -2006,7 +2006,6 @@ character_event = {
 			personality_traits = 5
 			trait = craven
 			trait = brave
-			trait = berserker
 		}
 	}
 	

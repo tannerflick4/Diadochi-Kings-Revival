@@ -727,10 +727,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				OR = {
-					trait = craven
-					trait = berserker
-				}
+				trait = craven
 				NOT = {
 					trait = shy
 				}
@@ -740,9 +737,8 @@ character_event = {
 		if = {
 			limit = {
 				trait = shy
-				NOR = {
+				NOT = {
 					trait = craven
-					trait = berserker
 				}
 			}
 			add_trait = craven
@@ -821,13 +817,10 @@ character_event = {
 		name = "EVTOPTA64013" #Accept I'm a failure
 		random_list = {
 			30 = {
-				if = {
-					limit = { NOT = { trait = berserker } }
-					add_trait = craven
-					hidden_tooltip = {
-						character_event = {
-							id = 38257 #Notify Craven
-						}
+				add_trait = craven
+				hidden_tooltip = {
+					character_event = {
+						id = 38257 #Notify Craven
 					}
 				}
 			}
@@ -3432,12 +3425,10 @@ character_event = {
 		prestige = -50
 		random = {
 			chance = 10
-			if = { limit = { NOT = { trait = berserker } } 
-				add_trait = craven
-				hidden_tooltip = {
-					character_event = {
-						id = 38257 #Notify Craven
-					}
+			add_trait = craven
+			hidden_tooltip = {
+				character_event = {
+					id = 38257 #Notify Craven
 				}
 			}
 		}

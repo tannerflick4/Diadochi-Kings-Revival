@@ -8,7 +8,6 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { trait = berserker }
 	}
 
 	weight_multiplier = {
@@ -224,7 +223,6 @@ character_event = {
 	trigger = {
 		NOT = { trait = wounded }
 		can_be_maimed_trigger = yes
-		NOT = { trait = berserker }
 		is_alive = yes
 	}
 	
@@ -401,7 +399,6 @@ character_event = {
 				trait = disfigured 
 			}
 		}
-		NOT = { trait = berserker }
 		is_alive = yes
 	}
 	
@@ -1435,7 +1432,6 @@ character_event = {
 		is_alive = yes
 		NOT = { trait = brave }
 		NOT = { trait = craven }
-		NOT = { trait = berserker }
 	}
 	
 	weight_multiplier = {

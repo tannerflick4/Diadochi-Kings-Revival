@@ -135,7 +135,6 @@ character_event = {
                     NOR = {
                         trait = craven
                         trait = brave
-                        trait = berserker 
                     }
                 }
                 random = {
@@ -571,7 +570,6 @@ character_event = {
                     NOR = {
                         trait = craven
                         trait = brave
-                        trait = berserker 
                     }
                 }
                 random = {

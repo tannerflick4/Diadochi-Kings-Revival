@@ -297,7 +297,6 @@ character_event = {
     		#### INJURIES...
 			10 = {
 				trigger = {
-					NOT = { trait = berserker }
 					NOT = { is_indomitable_trigger = yes }  #The "Indomitable" power blocks "very bad stuff"
 				}
 				bad_soldier_outcome_score = yes
@@ -314,7 +313,6 @@ character_event = {
 			15 = {
 				trigger = {
 					NOT = { trait = wounded }
-					NOT = { trait = berserker }
 					is_alive = yes
 				}
 				bad_soldier_outcome_score = yes
@@ -330,7 +328,6 @@ character_event = {
 						trait = one_legged 
 						trait = disfigured 
 					}
-					NOT = { trait = berserker }
 					is_alive = yes
 				}
 				bad_soldier_outcome_score = yes
@@ -630,7 +627,6 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { trait = berserker }
 	}
 
 	desc = {
@@ -1319,7 +1315,6 @@ character_event = {
 
 	trigger = {
 		NOT = { trait = wounded }
-		NOT = { trait = berserker }
 		is_alive = yes
 	}
 
@@ -1608,7 +1603,6 @@ character_event = {
 			trait = one_legged 
 			trait = disfigured 
 		}
-		NOT = { trait = berserker }
 		is_alive = yes
 	}
 	
@@ -5860,7 +5854,6 @@ character_event = {
 		event_target:battlefield_location = {
 			OR = {
 				region = world_africa_west
-				region = world_africa_central
 				region = world_africa_east
 			}
 			OR = {

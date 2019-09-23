@@ -1387,7 +1387,6 @@ province_event = {
 				OR = {
 					region = world_steppe
 					region = world_persia
-					region = world_himalayas
 				}
 			}
 			province_event = { id = WoL.10130 }

@@ -1932,13 +1932,10 @@ character_event = {
 				}
 			}
 			30 = {
-				if = {
-					limit = { NOT = { trait = berserker } }
-					add_trait = craven
-					hidden_tooltip = {
-						character_event = {
-							id = 38257 #Notify Craven
-						}
+				add_trait = craven
+				hidden_tooltip = {
+					character_event = {
+						id = 38257 #Notify Craven
 					}
 				}
 			}
@@ -2558,13 +2555,10 @@ character_event = {
 				}
 			}
 			30 = {
-				if = {
-					limit = { NOT = { trait = berserker } }
-					add_trait = craven
-					hidden_tooltip = {
-						character_event = {
-							id = 38257 #Notify Craven
-						}
+				add_trait = craven
+				hidden_tooltip = {
+					character_event = {
+						id = 38257 #Notify Craven
 					}
 				}
 			}
@@ -2949,13 +2943,10 @@ character_event = {
 				}
 			}
 			30 = {
-				if = {
-					limit = { NOT = { trait = berserker } }
-					add_trait = craven
-					hidden_tooltip = {
-						character_event = {
-							id = 38257 #Notify Craven
-						}
+				add_trait = craven
+				hidden_tooltip = {
+					character_event = {
+						id = 38257 #Notify Craven
 					}
 				}
 			}

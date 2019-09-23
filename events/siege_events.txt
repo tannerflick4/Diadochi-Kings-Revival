@@ -1241,15 +1241,12 @@ character_event = {
 				}
 			}
 		}
-		if = {
-			limit = { NOR = { trait = craven trait = berserker } }
-			random = {
-				chance = 50
-				add_trait = craven
-				hidden_tooltip = {
-					character_event = {
-						id = 38257 #Notify Craven
-					}
+		random = {
+			chance = 50
+			add_trait = craven
+			hidden_tooltip = {
+				character_event = {
+					id = 38257 #Notify Craven
 				}
 			}
 		}
@@ -1311,14 +1308,6 @@ character_event = {
 		new_character = {
 			NOT = { has_landed_title = e_rebels }
 			rebel = no
-			NOT = { # Handled by SSI.61
-				OR = {
-					has_landed_title = e_mexikha
-					any_liege = {
-						has_landed_title = e_mexikha
-					}
-				}
-			}
 		}
 		
 		OR = {

@@ -2371,7 +2371,7 @@ character_event = {
 				}
 				modifier = { #Context
 					factor = 0
-					FROM = { religion_group = greek_group }
+					FROM = { religion_group = greek_religion }
 				}
 				modifier = { #Try to pick opposite traits if any are available
 					factor = 1.5

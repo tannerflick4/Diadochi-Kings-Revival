@@ -1315,10 +1315,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA30032"
-		if = {
-			limit = { NOT = { trait = berserker } }
-			add_trait = craven
-		}
+		add_trait = craven
 	}
 	option = {
 		name = "EVTOPTB30032"
@@ -1419,10 +1416,7 @@ letter_event = {
 	option = {
 		name = "EVTOPTA30036"
 		prestige = -10
-		if = {
-			limit = { NOT = { trait = berserker } }
-			add_trait = craven
-		}
+		add_trait = craven
 	}
 	
 	option = {

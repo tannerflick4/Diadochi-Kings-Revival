@@ -142,10 +142,7 @@ character_event = {
 			}
 			random_list = {
 				90 = {
-					if = {
-						limit = { NOT = { trait = berserker } }
-						add_trait = craven
-					}
+					add_trait = craven
 				}
 				10 = {
 					add_trait = brave

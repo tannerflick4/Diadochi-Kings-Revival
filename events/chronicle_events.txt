@@ -1096,26 +1096,8 @@ character_event = {
 	
 	trigger = {
 		OR = {
-			FROM = { title = b_roma }
-			FROM = { title = b_constantinople }
-			FROM = { title = b_bagdad }
-			FROM = { title = b_indraprastha }
-			FROM = { title = b_jerusalem }
-			FROM = { title = b_mecca }
-			FROM = { title = b_alexandria }
-			FROM = { title = b_cordoba }
-			AND = {
-				year = 900
-				FROM = { title = b_venezia }
-			}
-			AND = {
-				year = 1164
-				FROM = { title = b_koln }
-			}
-			AND = {
-				year = 1200
-				FROM = { title = b_paris }
-			}
+			# TODO: Add more?
+			FROM = { title = b_roma_roma }
 		}
 	}
 
@@ -1149,26 +1131,8 @@ character_event = {
 	
 	trigger = {
 		OR = {
-			FROM = { title = b_roma }
-			FROM = { title = b_constantinople }
-			FROM = { title = b_bagdad }
-			FROM = { title = b_indraprastha }
-			FROM = { title = b_jerusalem }
-			FROM = { title = b_mecca }
-			FROM = { title = b_alexandria }
-			FROM = { title = b_cordoba }
-			AND = {
-				year = 900
-				FROM = { title = b_venezia }
-			}
-			AND = {
-				year = 1164
-				FROM = { title = b_koln }
-			}
-			AND = {
-				year = 1200
-				FROM = { title = b_paris }
-			}
+			# TODO: Add others?
+			FROM = { title = b_roma_roma }
 		}
 	}
 

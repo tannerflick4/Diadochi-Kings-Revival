@@ -3441,13 +3441,10 @@ character_event = {
 
     		martial = 18
     		trait = shieldmaiden
-    		trait = berserker
     		has_lifestyle_martial_trigger = yes
     		this_is_sea_raider_trigger = yes
     		has_crusade_trait_trigger = yes
     	}
-
-    	
 
     	OR = {
     		any_friend = { 	

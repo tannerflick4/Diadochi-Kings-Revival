@@ -730,16 +730,10 @@ character_event = {
 		
 		job_event_mtth_modifier_stewardship_score = yes
 
-		modifier = { #Roman Renaissance.
-			factor = 0.5
-			has_global_flag = flag_started_roman_renaissance
-			liege = { culture = roman }
-			location = { county = { culture_group = latin } }
-		}
 		modifier = {
 			factor = 0.75
 			liege = {
-				culture = roman
+				culture = latin
 	    		any_owned_bloodline = {
     				has_bloodline_flag = bloodline_faster_roman
     			}
@@ -747,32 +741,8 @@ character_event = {
 		}
 		modifier = { #Greek culture is more impervious to Romanization.
 			factor = 2
-			liege = { culture = roman }
-			location = { county = { culture = greek } }
-		}
-		modifier = {
-			factor = 0.25
-			location = {
-				county = {
-					OR = {
-						culture = zhangzhung
-						culture = sumpa
-					}
-					owner = {
-						culture = bodpa
-						OR = {
-							any_owned_bloodline = {
-								has_bloodline_flag = bloodline_songtsen_gampo
-							}
-							top_liege = {
-								any_owned_bloodline = {
-									has_bloodline_flag = bloodline_songtsen_gampo
-								}
-							}
-						}
-					}
-				}
-			}
+			liege = { culture = latin }
+			location = { county = { culture_group = hellenic } }
 		}
 	}
 	

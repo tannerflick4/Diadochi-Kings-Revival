@@ -180,7 +180,7 @@ character_event = {
 			modifier = {
 				factor = 1.75
 				has_character_flag = being_recruited_by_the_bacchants
-				culture = roman 	#Decadence
+				culture = latin 	#Decadence
 			}
 			modifier = {
 				factor = 1.5
@@ -12246,11 +12246,7 @@ character_event = {
 		if = {
 			limit = {
 				FROMFROM = {
-					OR = {
-						trait = on_hajj
-						is_inaccessible_trigger = yes
-						trait = on_pilgrimage
-					}
+					is_inaccessible_trigger = yes
 				}
 			}
 			break = yes

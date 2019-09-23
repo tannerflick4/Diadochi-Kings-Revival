@@ -908,7 +908,7 @@ character_event = {
 			factor = 1
 		}
 		if = {
-			limit = { NOR = { trait = craven trait = berserker } }
+			limit = { NOT = { trait = craven } }
 			add_trait = craven
 		}
 		remove_character_modifier = studying_the_stars

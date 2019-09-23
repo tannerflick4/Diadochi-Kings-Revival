@@ -2009,18 +2009,6 @@ character_event = {
             	set_description = artifact_description_smith_tier_2
             }
         }
-		if = {
-            limit = { FROM = { has_character_flag = zweihanded_sword } }
-            hidden_effect = {
-            	add_artifact = zweihander_sword
-            }
-            set_character_flag = zweihanded_sword
-            #set_character_flag = sword_tier_2
-            new_artifact = {
-            	set_name = artifact_name
-            	set_description = artifact_description_smith_tier_2
-            }
-        }
         if = {
             limit = { FROM = { has_character_flag = weapon_scimitar } }
            	hidden_effect = {
@@ -3773,25 +3761,6 @@ character_event = {
 	    	event_target:target_wonder = {
 		    	trigger_switch = {
 		    		on_trigger = has_wonder_flag
-		    		gives_artifact_bells = {
-		    			PREV = {
-		    				add_artifact = wonder_artifact_bells
-		    				new_artifact = {
-								set_name = looted_wonder_artifact_bells_rename
-								set_description = looted_wonder_artifact_bells_desc
-								set_creation_date = 1.1.1
-	    						save_event_target_as = looted_artifact
-				    		}
-						}
-						if = {
-							limit = { has_wonder_upgrade = upgrade_bells }
-							destroy_wonder_upgrade = upgrade_bells
-						}
-						if = {
-							limit = { has_wonder_upgrade = upgrade_bells_golden }
-							destroy_wonder_upgrade = upgrade_bells_golden
-						}
-		    		}
 		    		gives_artifact_book = {
 		    			PREV = {
 		    				add_random_book_effect = yes

@@ -7285,7 +7285,7 @@ character_event = {
 		prestige = -10
 		
 		if = {
-			limit = { NOR = { trait = craven trait = berserker } }
+			limit = { NOT = { trait = craven } }
 			random = {
 				chance = 15
 				add_trait = craven
@@ -10620,9 +10620,7 @@ character_event = {
 			60 = {
 			}
 			20 = {
-				if = { limit = { NOT = { trait = berserker } } 
-					add_trait = craven
-				}
+				add_trait = craven
 			}
 			20 = {
 				remove_trait = mystic
@@ -12907,10 +12905,7 @@ character_event = {
 		name = EVTOPTB3635
 		if = {
 			limit = {
-				NOR = {
-					trait = craven
-					trait = berserker
-				}
+				NOT = { trait = craven }
 			}
 			add_trait = craven
 		}

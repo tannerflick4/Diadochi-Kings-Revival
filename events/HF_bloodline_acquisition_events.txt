@@ -3875,45 +3875,6 @@ character_event = { # Child of Destiny launches Adventure
 				}
 			}
 		}
-		
-		if = { # If the war starts
-			limit = {
-				any_war = {
-					using_cb = kingdom_adventure
-				}
-			}
-			# Create some fantastic commander characters
-			spawn_fantastic_commander_effect = yes
-			spawn_fantastic_commander_effect = yes
-			spawn_fantastic_commander_effect = yes
-			
-			add_trait = disinherited
-			
-			# Notify Parents
-			father = { character_event = { id = HF.291 } }
-			mother = { character_event = { id = HF.291 } }
-			if = {
-				limit = {
-					liege = {
-						NOR = {
-							is_parent_of = event_target:child_of_destiny
-							character = event_target:child_of_destiny
-						}
-					}
-				}
-				liege = { character_event = { id = HF.291 } }
-			}
-		}
-		else_if = { # If the entire thing somehow fails, remove the flag and try again
-			limit = {
-				NOT = {
-					any_war = {
-						using_cb = kingdom_adventure
-					}
-				}
-			}
-			clr_character_flag = child_of_destiny_adventure
-		}
 	}
 		
 	after = { # Back to the journey tombola!

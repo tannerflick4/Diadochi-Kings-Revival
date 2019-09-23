@@ -246,7 +246,7 @@ character_event = {
 						modifier = {
 							factor = 0
 							NOR = {
-								religio = zoroastrian_main
+								religion = zoroastrian_main
 								religion = judaism_main
 							}
 						}
@@ -679,7 +679,6 @@ character_event = {
 							NOR = {
 								religion = zoroastrian_main
 								religion = judaism_main
-								culture = khazar
 							}
 						}
 						create_character = {
@@ -1243,80 +1242,6 @@ character_event = {
 					remove_trait = theologian
 					remove_trait = imbecile
 					remove_trait = slow	
-					random_list = { # Random chance to add Physician
-						50 = {
-							add_trait = physician
-							change_learning = -2
-						}
-						50 = {
-							
-						}
-					}
-					if = {
-						limit = {
-							has_dharmic_religion_trigger = yes
-						}
-						add_trait = brahmin
-						character_event = { id = RoI.30121 }
-					}
-					random_list = { # Is the Physician a Quack?
-						90 = {
-						}
-						10 = {
-							set_character_flag = physician_is_quack
-						}
-					}
-					save_event_target_as = recruited_physician_target
-					character_event = { id = RIP.11052 }
-				}
-			}
-			5 = { # Well-Traveled Pilgrim (Mystic)
-				modifier = {
-					factor = 0
-					AND = {
-						has_character_flag = got_physician_well_traveled_pilgrim
-						NOT = { had_character_flag = { flag = got_physician_well_traveled_pilgrim days = 3650 } }
-					}
-				}
-				create_character = {
-					religion = ROOT
-					culture = ROOT
-					dynasty = none
-					age = 41
-					random_traits = yes
-					female = no
-					attributes = {
-						learning = 6
-					}
-					health = 6
-					trait = scholarly_theologian 
-					trait = mystic
-					trait = pilgrim
-					trait = humble
-					flag = is_court_physician
-					flag = physician_well_traveled_pilgrim
-				}
-				new_character = {
-					add_scarred_medium_effect = yes
-					set_character_flag = no_court_invites
-					remove_trait = scholar
-					remove_trait = proud
-					remove_trait = socializer
-					remove_trait = gamer
-					remove_trait = hedonist
-					remove_trait = duelist
-					remove_trait = hunter
-					remove_trait = strategist
-					remove_trait = administrator
-					remove_trait = architect
-					remove_trait = gardener
-					remove_trait = schemer
-					remove_trait = impaler
-					remove_trait = seducer
-					remove_trait = seductress
-					remove_trait = theologian
-					remove_trait = imbecile
-					remove_trait = slow
 					random_list = { # Random chance to add Physician
 						50 = {
 							add_trait = physician

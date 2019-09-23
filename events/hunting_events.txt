@@ -7,7 +7,7 @@
 # Deer Park ID: 4075
 #
 #############################################
-#Written by Johan Andersson, Chris King & Sara Wendel-Örtqvist
+#Written by Johan Andersson, Chris King & Sara Wendel-ï¿½rtqvist
 
 
 #A Majestic Stag
@@ -665,12 +665,9 @@ character_event = {
 		prestige = 5
 		random_list = {
 			70 = {}
-			30 = { 
-				if = { 
-					limit = { NOT = { trait = berserker } }
-					add_trait = craven 
-					hidden_tooltip = { character_event = { id = 38257 } } 
-				}
+			30 = {
+				add_trait = craven 
+				hidden_tooltip = { character_event = { id = 38257 } } 
 			}
 		}
 	}
@@ -1339,11 +1336,8 @@ character_event = {
 	}
 	option = {
 		name = "EVTOPTB36045"
-		if = {
-			limit = { NOT = { trait = berserker } }
-			add_trait = craven
-			hidden_tooltip = { character_event = { id = 38257 } } 
-		}
+		add_trait = craven
+		hidden_tooltip = { character_event = { id = 38257 } } 
 	}
 }
 

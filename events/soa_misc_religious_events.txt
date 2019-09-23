@@ -42,7 +42,7 @@ character_event = {
 	min_age = 16
 	
 	trigger = {
-		trait = sympathy_zoroastrianism
+		#trait = sympathy_zoroastrianism
 		has_dlc = "Sons of Abraham"
 		any_courtier = {
 			religion = zoroastrian_main
@@ -85,7 +85,7 @@ character_event = {
 	min_age = 16
 	
 	trigger = {
-		trait = sympathy_judaism
+		#trait = sympathy_judaism
 		has_dlc = "Sons of Abraham"
 		any_courtier = {
 			religion = judaism_main

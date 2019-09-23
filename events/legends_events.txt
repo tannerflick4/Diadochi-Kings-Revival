@@ -320,9 +320,8 @@ narrative_event = {
 		prestige = -10
 		if = {
 			limit = {	
-				NOR = {
+				NOT = {
 					trait = craven
-					trait = berserker
 				}
 			}
 			add_trait = craven
@@ -330,10 +329,7 @@ narrative_event = {
 		}
 		if = {
 			limit = {	
-				OR = {
-					trait = craven
-					trait = berserker
-				}
+				trait = craven
 				NOT = {
 					trait = slothful
 				}
@@ -798,9 +794,8 @@ narrative_event = {
 		clr_character_flag = robin_hood
 		if = {
 			limit = {
-				NOR = {
+				NOT = {
 					trait = craven
-					trait = berserker
 				}
 			}
 			add_trait = craven
@@ -809,7 +804,6 @@ narrative_event = {
 			limit = {
 				OR = {
 					trait = craven
-					trait = berserker
 				}
 				NOT = {
 					trait = deceitful

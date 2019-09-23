@@ -406,14 +406,8 @@ character_event = {
 	trigger = {
 		has_dlc = "Legacy of Rome"
 		in_command = no
-		OR = {
-			has_landed_title = e_byzantium
-			has_landed_title = e_roman_empire
-		}
-		capital_scope = { province_id = 496 }
-		any_vassal = {
-			has_landed_title = d_varangian_guard
-		}
+		has_landed_title = k_roma
+		capital_scope = { title = c_roma }
 	}
 	
 	mean_time_to_happen = {
@@ -421,29 +415,8 @@ character_event = {
 	}
 	
 	option = {
-		name = EVTOPTALoR.840
-		character_event = { id = LoR.841 days = 3 tooltip = EVTTOOLTIPLoR.841 }
-	}
-	option = {
 		name = EVTOPTBLoR.840
 		character_event = { id = LoR.842 days = 3 tooltip = EVTTOOLTIPLoR.842 }
-	}
-}
-
-# Varangian Guard unleashed
-character_event = {
-	id = LoR.841
-	desc = EVTDESCLoR.841
-	picture = GFX_evt_battle_byzantine
-	
-	hide_from = yes
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = EVTOPTALoR.841
-		scaled_wealth = -0.25
-		prestige = -100
 	}
 }
 

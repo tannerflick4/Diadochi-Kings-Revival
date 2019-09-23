@@ -472,12 +472,13 @@ character_event = {
 		has_focus = focus_theology
 		is_priest = no
 		NOT = { trait = zealous }
-		NOT = { trait = sympathy_christendom }
-		NOT = { trait = sympathy_islam }
-		NOT = { trait = sympathy_pagans }
-		NOT = { trait = sympathy_zoroastrianism }
-		NOT = { trait = sympathy_judaism }
-		NOT = { trait = sympathy_indian }
+		# TODO: Add sympathies.
+		#NOT = { trait = sympathy_christendom }
+		#NOT = { trait = sympathy_islam }
+		#NOT = { trait = sympathy_pagans }
+		#NOT = { trait = sympathy_zoroastrianism }
+		#NOT = { trait = sympathy_judaism }
+		#NOT = { trait = sympathy_indian }
 		NOT = { has_character_flag = wol_theology_view_other_religions }
 		any_realm_character = {
 			NOT = { religion_group = ROOT }
@@ -530,15 +531,16 @@ character_event = {
 		}
 		FROM = {
 			show_scope_change = no
-			trigger_switch = {
-				on_trigger = religion_group
-				christian = { ROOT = { add_trait = sympathy_christendom } }
-				muslim = { ROOT = { add_trait = sympathy_islam } }
-				pagan_group = { ROOT = { add_trait = sympathy_pagans } }
-				zoroastrian_group = { ROOT = { add_trait = sympathy_zoroastrianism } }
-				jewish_group = { ROOT = { add_trait = sympathy_judaism } }
-				indian_group = { ROOT = { add_trait = sympathy_indian } }
-			}
+			# TODO: Add sympathies.
+			#trigger_switch = {
+			#	on_trigger = religion_group
+			#	christian = { ROOT = { add_trait = sympathy_christendom } }
+			#	muslim = { ROOT = { add_trait = sympathy_islam } }
+			#	pagan_group = { ROOT = { add_trait = sympathy_pagans } }
+			#	zoroastrian_group = { ROOT = { add_trait = sympathy_zoroastrianism } }
+			#	jewish_group = { ROOT = { add_trait = sympathy_judaism } }
+			#	indian_group = { ROOT = { add_trait = sympathy_indian } }
+			#}
 		}
 	}
 	option = {
@@ -982,8 +984,6 @@ character_event = {
 	}
 
 	trigger = {
-		NOT = { trait = on_pilgrimage }
-		NOT = { trait = on_hajj }
 	}
 	
 	option = {
