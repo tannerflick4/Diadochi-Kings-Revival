@@ -1501,10 +1501,8 @@ add_maimed_trait_effect = {
 	}
 	if = {
 		limit = {
-			AND = {
-				has_dlc = "Reapers"
-				NOT = { trait = severely_injured }
-			}
+			has_dlc = "Reapers"
+			NOT = { trait = severely_injured }
 		}
 		add_trait = severely_injured
 		hidden_tooltip = {
@@ -2230,10 +2228,10 @@ prisoner_mutilate_effect = {
 	random = {
 		chance = 20
 		if = {
-				limit = { NOR = { trait = craven trait = berserker } }
-				add_trait = craven
-				hidden_tooltip = { character_event = { id = 38257 } }
-			}
+			limit = { NOT = { trait = craven } }
+			add_trait = craven
+			hidden_tooltip = { character_event = { id = 38257 } }
+		}
 	}
 	
 	random_list = {
@@ -2273,7 +2271,7 @@ prisoner_mutilate_effect = {
 jailor_mutilate_effect = {
 	
 	if = {
-		limit = { NOR = { trait = craven trait = berserker } }
+		limit = { NOR = { trait = craven } }
 		random = {
 			chance = 20
 			add_trait = craven
@@ -2324,7 +2322,7 @@ prisoner_torture_effect = {
 		}
 		10 = {
 			if = {
-				limit = { NOR = { trait = craven trait = berserker } }
+				limit = { NOT = { trait = craven } }
 				add_trait = craven
 				hidden_tooltip = { character_event = { id = 38257 } }
 			}
@@ -2355,11 +2353,11 @@ jailor_torture_effect = {
 			}
 		10 = {
 			if = {
-				limit = { OR = { trait = craven trait = berserker } }
+				limit = { trait = craven }
 				health = -0.5
 			}
 			if = {
-				limit = { NOR = { trait = craven trait = berserker } }
+				limit = { NOT = { trait = craven } }
 				add_trait = craven
 			}
 		}
@@ -2676,19 +2674,6 @@ give_epidemic_disease_effect = {
 		set_character_flag = developing_illness
 
 		character_event = { id = RIP.5019 }
-
-		break = yes
-	}
-	if = {
-		limit = { 
-			location = { disease = syphilis }
-			NOT = { has_character_flag = immune_syphilis }
-		}
-
-		set_character_flag = got_syphilis
-		set_character_flag = developing_illness
-
-		character_event = { id = RIP.5014 }
 
 		break = yes
 	}
@@ -15212,11 +15197,7 @@ random_list = {
 		modifier = { 
 			factor = 1.5
 			trait = blinded
-		} 
-		modifier = { 
-			factor = 1.5
-			trait = berserker
-		} 
+		}
 		modifier = { 
 			factor = 1.25
 			trait = lovers_pox
@@ -15582,11 +15563,7 @@ random_list = {
 		modifier = { 
 			factor = 1.5
 			trait = blinded
-		} 
-		modifier = { 
-			factor = 1.5
-			trait = berserker
-		} 
+		}
 		modifier = { 
 			factor = 1.25
 			trait = lovers_pox
@@ -17363,107 +17340,89 @@ tiered_high_piety_negative_effect = {
 }
 #Used for gluttonous and hedonistic actions.
 gain_weight_small_effect = {
-	custom_tooltip = {
-		hidden_tooltip = {
+	hidden_tooltip = {
 		change_variable = { which = physique_variable value = 5 }
-		}
 	}
 } 
 gain_weight_medium_effect = {
-	custom_tooltip = {
-		hidden_tooltip = {
+	hidden_tooltip = {
 		change_variable = { which = physique_variable value = 10 }
-		}
 	}
 } 
 gain_weight_large_effect = {
-	custom_tooltip = {
-		hidden_tooltip = {
+	hidden_tooltip = {
 		change_variable = { which = physique_variable value = 15 }
-		}
 	}
 }
 
 #Used for training and balanced lifestyle.
 balance_weight_small_effect =  {
-	custom_tooltip = {
-		hidden_tooltip = {
-			#If variable is above 1, reduce it. If it's below 1 increase it.
-			if = { 
-				limit = {
-					check_variable = { which = physique_variable value = 1 }
-				}
-				change_variable = { which = physique_variable value = -2 }
+	hidden_tooltip = {
+		#If variable is above 1, reduce it. If it's below 1 increase it.
+		if = { 
+			limit = {
+				check_variable = { which = physique_variable value = 1 }
 			}
-			if = { 
-				limit = {
-					NOT = { check_variable = { which = physique_variable value = -1 } }
-				}
-				change_variable = { which = physique_variable value = 2 }
+			change_variable = { which = physique_variable value = -2 }
+		}
+		if = { 
+			limit = {
+				NOT = { check_variable = { which = physique_variable value = -1 } }
 			}
+			change_variable = { which = physique_variable value = 2 }
 		}
 	}
 } 
 balance_weight_medium_effect = {
-	custom_tooltip = {
-		hidden_tooltip = {
-			#If variable is above 1, reduce it. If it's below 1 increase it.
-			if = { 
-				limit = {
-					check_variable = { which = physique_variable value = 1 }
-				}
-				change_variable = { which = physique_variable value = -5 }
+	hidden_tooltip = {
+		#If variable is above 1, reduce it. If it's below 1 increase it.
+		if = { 
+			limit = {
+				check_variable = { which = physique_variable value = 1 }
 			}
-			if = { 
-				limit = {
-					NOT = { check_variable = { which = physique_variable value = -1 } }
-				}
-				change_variable = { which = physique_variable value = 5 }
+			change_variable = { which = physique_variable value = -5 }
+		}
+		if = { 
+			limit = {
+				NOT = { check_variable = { which = physique_variable value = -1 } }
 			}
+			change_variable = { which = physique_variable value = 5 }
 		}
 	}
 } 
 
 balance_weight_large_effect = { #Should be used rarely.
-	custom_tooltip = {
-		hidden_tooltip = {
-			#If variable is above 1, reduce it. If it's below 1 increase it.
-			if = { 
-				limit = {
-					check_variable = { which = physique_variable value = 1 }
-				}
-				change_variable = { which = physique_variable value = -10 }
+	hidden_tooltip = {
+		#If variable is above 1, reduce it. If it's below 1 increase it.
+		if = { 
+			limit = {
+				check_variable = { which = physique_variable value = 1 }
 			}
-			if = { 
-				limit = {
-					NOT = { check_variable = { which = physique_variable value = -1 } }
-				}
-				change_variable = { which = physique_variable value = 10 }
+			change_variable = { which = physique_variable value = -10 }
+		}
+		if = { 
+			limit = {
+				NOT = { check_variable = { which = physique_variable value = -1 } }
 			}
+			change_variable = { which = physique_variable value = 10 }
 		}
 	}
 } 
 
 #Used for seclusions, fasting, dungeon starvation, etc.
 lose_weight_small_effect = {
-	custom_tooltip = {
-		hidden_tooltip = {
+	hidden_tooltip = {
 		change_variable = { which = physique_variable value = -6 } #Because of the way trigger works, checks if you are below -5/-10/-15
-		}
 	}
 } 
 lose_weight_medium_effect = {
-	custom_tooltip = {
-		hidden_tooltip = {
-	change_variable = { which = physique_variable value = -11 }
-		}
+	hidden_tooltip = {
+		change_variable = { which = physique_variable value = -11 }
 	}
 } 
 lose_weight_large_effect = {
-	custom_tooltip = {
-		hidden_tooltip = {
-	change_variable = { which = physique_variable value = -16 }
-		}
+	hidden_tooltip = {
+		change_variable = { which = physique_variable value = -16 }
 	}
 }  
 
@@ -19382,7 +19341,7 @@ spawn_debutante_effect = {
 			if = {
 				limit = {
 					OR = {
-						religion_group = greek_group
+						religion_group = greek_religion
 						religion = marduk_cult
 						has_religion_feature = religion_astrology
 					}
@@ -19415,208 +19374,11 @@ spawn_debutante_effect = {
 }
 
 transfer_crown_on_abdication_effect = {
-	if = {
-		limit = { 
-			has_landed_title = e_hre
-			any_artifact = { artifact_type = crown_hre } 
-		}
-			current_heir = { save_event_target_as = crown_hre_heir }
-			any_artifact = { 
-				limit = { artifact_type = crown_hre }
-				transfer_artifact = {
-					from = PREV
-					to = event_target:crown_hre_heir
-				} 
-			}
-	}
-	if = {
-		limit = { 
-			has_landed_title = e_byzantium
-			any_artifact = { artifact_type = crown_byzantine }
-		}
-			current_heir = { save_event_target_as = crown_byzantine_heir }
-			any_artifact = { 
-				limit = { artifact_type = crown_byzantine }
-				transfer_artifact = {
-					from = PREV
-					to = event_target:crown_byzantine_heir
-				} 
-			}
-	}
-	if = {
-		limit = { 
-			has_landed_title = e_persia
-			any_artifact = { artifact_type = crown_pahlavi }
-		}
-			current_heir = { save_event_target_as = crown_pahlavi_heir }
-			any_artifact = { 
-				limit = { artifact_type = crown_pahlavi }
-				transfer_artifact = {
-					from = PREV
-					to = event_target:crown_pahlavi_heir
-				} 
-			}
-	}
-	if = {
-		limit = { 
-			has_landed_title = d_norse_pagan_reformed
-			any_artifact = { artifact_type = crown_fylkir }
-		}
-			current_heir = { save_event_target_as = crown_fylkir_heir }
-			any_artifact = { 
-				limit = { artifact_type = crown_fylkir }
-				transfer_artifact = {
-					from = PREV
-					to = event_target:crown_fylkir_heir
-				} 
-			}
-	}
-	if = {
-		limit = { 
-			has_landed_title = d_tengri_pagan_reformed
-			any_artifact = { artifact_type = crown_tengri_fylkir }
-		}
-			current_heir = { save_event_target_as = crown_tengri_fylkir_heir }
-			any_artifact = { 
-				limit = { artifact_type = crown_tengri_fylkir }
-				transfer_artifact = {
-					from = PREV
-					to = event_target:crown_tengri_fylkir_heir
-				} 
-			}
-	}
-	if = {
-		limit = { 
-			has_landed_title = d_slavic_pagan_reformed
-			any_artifact = { artifact_type = crown_slavic_fylkir }
-		}
-			current_heir = { save_event_target_as = crown_slavic_fylkir_heir }
-			any_artifact = { 
-				limit = { artifact_type = crown_slavic_fylkir }
-				transfer_artifact = {
-					from = PREV
-					to = event_target:crown_slavic_fylkir_heir
-				} 
-			}
-	}
-	if = {
-		limit = { 
-			has_landed_title = d_baltic_pagan_reformed
-			any_artifact = { artifact_type = crown_romuva_fylkir }
-		}
-			current_heir = { save_event_target_as = crown_romuva_fylkir_heir }
-			any_artifact = { 
-				limit = { artifact_type = crown_romuva_fylkir }
-				transfer_artifact = {
-					from = PREV
-					to = event_target:crown_romuva_fylkir_heir
-				} 
-			}
-	}
-	if = {
-		limit = { 
-			has_landed_title = d_finnish_pagan_reformed
-			any_artifact = { artifact_type = crown_finnish_fylkir }
-		}
-			current_heir = { save_event_target_as = crown_finnish_fylkir_heir }
-			any_artifact = { 
-				limit = { artifact_type = crown_finnish_fylkir }
-				transfer_artifact = {
-					from = PREV
-					to = event_target:crown_finnish_fylkir_heir
-				} 
-			}
-	}
-	if = {
-		limit = { 
-			has_landed_title = d_west_african_pagan_reformed
-			any_artifact = { artifact_type = crown_west_african_fylkir }
-		}
-			current_heir = { save_event_target_as = crown_west_african_fylkir_heir }
-			any_artifact = { 
-				limit = { artifact_type = crown_west_african_fylkir }
-				transfer_artifact = {
-					from = PREV
-					to = event_target:crown_west_african_fylkir_heir
-				} 
-			}
-	}
-	if = {
-		limit = { 
-			has_landed_title = d_zun_pagan_reformed
-			any_artifact = { artifact_type = crown_zun_fylkir }
-		}
-			current_heir = { save_event_target_as = crown_zun_fylkir_heir }
-			any_artifact = { 
-				limit = { artifact_type = crown_zun_fylkir }
-				transfer_artifact = {
-					from = PREV
-					to = event_target:crown_zun_fylkir_heir
-				} 
-			}
-	}
-	if = {
-		limit = { 
-			has_landed_title = d_bon_reformed
-			any_artifact = { artifact_type = scepter_bon_fylkir }
-		}
-			current_heir = { save_event_target_as = scepter_bon_fylkir_heir }
-			any_artifact = { 
-				limit = { artifact_type = scepter_bon_fylkir }
-				transfer_artifact = {
-					from = PREV
-					to = event_target:scepter_bon_fylkir_heir
-				} 
-			}
-	}
-	if = {
-		limit = { 
-			has_landed_title = d_aztec_reformed
-			any_artifact = { artifact_type = crown_aztec_fylkir }
-		}
-			current_heir = { save_event_target_as = crown_aztec_fylkir_heir }
-			any_artifact = { 
-				limit = { artifact_type = crown_aztec_fylkir }
-				transfer_artifact = {
-					from = PREV
-					to = event_target:crown_aztec_fylkir_heir
-				} 
-			}
-	}
-	if = {
-		limit = { 
-			has_landed_title = k_hellenic_pagan
-			any_artifact = { artifact_type = scepter_hellenic_fylkir }
-		}
-			current_heir = { save_event_target_as = scepter_hellenic_fylkir_heir }
-			any_artifact = { 
-				limit = { artifact_type = scepter_hellenic_fylkir }
-				transfer_artifact = {
-					from = PREV
-					to = event_target:scepter_hellenic_fylkir_heir
-				} 
-			}
-	}
+# TODO: Transfer crowns to next character,
+
 	#Now transfer all other remaining artifacts to the player_heir, who may or may not be the current_heir.
 	player_heir = { save_event_target_as = scoped_player_heir }
-	any_artifact = { 
-		limit = { 
-			NOR = {
-				artifact_type = crown_hre
-				artifact_type = crown_byzantine 
-				artifact_type = crown_pahlavi
-				artifact_type = crown_fylkir
-				artifact_type = crown_tengri_fylkir
-				artifact_type = crown_slavic_fylkir
-				artifact_type = crown_romuva_fylkir
-				artifact_type = crown_finnish_fylkir
-				artifact_type = crown_west_african_fylkir
-				artifact_type = crown_zun_fylkir
-				artifact_type = scepter_bon_fylkir 
-				artifact_type = crown_aztec_fylkir
-				artifact_type = scepter_hellenic_fylkir 
-			}
-		}
+	any_artifact = {
 		transfer_artifact = {
 			from = PREV
 			to = event_target:scoped_player_heir
