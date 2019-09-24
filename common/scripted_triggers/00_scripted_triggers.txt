@@ -851,8 +851,7 @@ can_be_chancellor_trigger = {
 					is_female = yes 
 					OR = { 
 						liege = { has_religion_feature = religion_matriarchal } 
-						liege = { has_religion_feature = religion_equal } 
-						liege = { has_religion_feature = religion_feature_bon } 
+						liege = { has_religion_feature = religion_equal }
 					} 
 				}
 				trait = horse # So we can have female glitterhoofs! :D
@@ -920,8 +919,7 @@ can_be_marshal_trigger = {
 					is_female = yes 
 					OR = { 
 						liege = { has_religion_feature = religion_matriarchal } 
-						liege = { has_religion_feature = religion_equal } 
-						liege = { has_religion_feature = religion_feature_bon } 
+						liege = { has_religion_feature = religion_equal }
 					} 
 				}
 				trait = horse # So we can have female glitterhoofs! :D
@@ -992,8 +990,7 @@ can_be_treasurer_trigger = {
 					is_female = yes 
 					OR = { 
 						liege = { has_religion_feature = religion_matriarchal } 
-						liege = { has_religion_feature = religion_equal } 
-						liege = { has_religion_feature = religion_feature_bon } 
+						liege = { has_religion_feature = religion_equal }
 					} 
 				}
 				trait = horse # So we can have female glitterhoofs! :D
@@ -1062,8 +1059,7 @@ can_be_spymaster_trigger = {
 					is_female = yes 
 					OR = { 
 						liege = { has_religion_feature = religion_matriarchal } 
-						liege = { has_religion_feature = religion_equal } 
-						liege = { has_religion_feature = religion_feature_bon } 
+						liege = { has_religion_feature = religion_equal }
 					} 
 				}
 				trait = horse # So we can have female glitterhoofs! :D
@@ -1211,6 +1207,56 @@ can_be_councilmember_king_trigger = {
 			}
 		} 
 	}
+	OR = {
+		AND = { #Patriarchal religions can only hire males. Matriarchal religions can only hire females.
+			is_female = no 
+			NOT = { liege = { has_religion_feature = religion_matriarchal } } 
+		}
+		AND = {
+			is_female = yes 
+			NOT = { liege = { has_religion_feature = religion_patriarchal } } 
+		}
+		AND = {
+			is_female = yes
+			liege = {
+				primary_title = {
+					OR = {
+						has_law = status_of_women_1
+						has_law = status_of_women_2
+						has_law = status_of_women_3
+					}
+				}
+			}
+			is_landed = yes
+		}
+		OR = {
+			AND = { 
+				is_female = yes
+				liege = { primary_title = { has_law = status_of_women_4 } } 
+			}
+			has_game_rule = {
+				name = gender
+				value = all
+			}
+		}
+	}
+	is_adult = yes
+}
+
+can_be_councilmember_emperor_trigger = {
+	independent = no
+	prisoner = no
+	NOT = { trait = incapable }
+	NOT = { trait = in_hiding }
+	NOT = { has_character_modifier = resigned_in_anger }
+	NOT = { 
+		liege = { 
+			has_opinion_modifier = {
+				who = ROOT	
+				modifier = opinion_resigned_from_council 
+			} 
+		} 
+	}
 	AND = {
 		OR = {
 			AND = { #Patriarchal religions can only hire males. Matriarchal religions can only hire females.
@@ -1219,7 +1265,10 @@ can_be_councilmember_king_trigger = {
 			}
 			AND = {
 				is_female = yes 
-				NOT = { liege = { has_religion_feature = religion_patriarchal } } 
+				OR = { 
+					liege = { has_religion_feature = religion_matriarchal } 
+					liege = { has_religion_feature = religion_equal }
+				} 
 			}
 			AND = {
 				is_female = yes
@@ -1246,64 +1295,6 @@ can_be_councilmember_king_trigger = {
 			}
 		}
 		is_adult = yes
-	}
-}
-
-can_be_councilmember_emperor_trigger = {
-	independent = no
-	prisoner = no
-	NOT = { trait = incapable }
-	NOT = { trait = in_hiding }
-	NOT = { has_character_modifier = resigned_in_anger }
-	NOT = { 
-		liege = { 
-			has_opinion_modifier = {
-				who = ROOT	
-				modifier = opinion_resigned_from_council 
-			} 
-		} 
-	}
-	OR = {
-		AND = {
-			OR = {
-				AND = { #Patriarchal religions can only hire males. Matriarchal religions can only hire females.
-					is_female = no 
-					NOT = { liege = { has_religion_feature = religion_matriarchal } } 
-				}
-				AND = {
-					is_female = yes 
-					OR = { 
-						liege = { has_religion_feature = religion_matriarchal } 
-						liege = { has_religion_feature = religion_equal } 
-						liege = { has_religion_feature = religion_feature_bon } 
-					} 
-				}
-				AND = {
-					is_female = yes
-					liege = {
-						primary_title = {
-							OR = {
-								has_law = status_of_women_1
-								has_law = status_of_women_2
-								has_law = status_of_women_3
-							}
-						}
-					}
-					is_landed = yes
-				}
-				OR = {
-					AND = { 
-						is_female = yes
-						liege = { primary_title = { has_law = status_of_women_4 } } 
-					}
-					has_game_rule = {
-						name = gender
-						value = all
-					}
-				}
-			}
-			is_adult = yes
-		}
 	}
 }
 

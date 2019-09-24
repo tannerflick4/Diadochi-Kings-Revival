@@ -1,8 +1,9 @@
 egyptian_religion = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
-	crusade_cb = crusade # Should be changed or removed entirely
 	playable = yes
+	
+	color = { 0.8 0.8 0.6 }
 	
 	ai_convert_same_group = 0 # never try to convert
 	ai_convert_other_group = 0 # never try to convert
@@ -137,8 +138,9 @@ egyptian_religion = {
 north_african_religion = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
-	crusade_cb = crusade # Should be changed or removed entirely
 	playable = yes
+	
+	color = { 0.7 0.5 0 }
 	
 	ai_convert_same_group = 0 # never try to convert
 	ai_convert_other_group = 0 # never try to convert
@@ -211,8 +213,9 @@ north_african_religion = {
 illyrian_religion = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
-	crusade_cb = crusade # Should be changed or removed entirely
 	playable = yes
+
+	color = { 0.9 0.7 0 }
 	
 	ai_convert_same_group = 0 # never try to convert
 	ai_convert_other_group = 0 # never try to convert
@@ -285,8 +288,9 @@ illyrian_religion = {
 daco_thracian_religion = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
-	crusade_cb = crusade # Should be changed or removed entirely
 	playable = yes
+	
+	color = { 0.8 0.4 0.1 }
 	
 	ai_convert_same_group = 0 # never try to convert
 	ai_convert_other_group = 0 # never try to convert
@@ -423,8 +427,9 @@ daco_thracian_religion = {
 celtic_religion = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
-	crusade_cb = crusade # Should be changed or removed entirely
 	playable = yes
+	
+	color = { 0.2 0.6 0.2 }
 	
 	ai_convert_same_group = 0 # never try to convert
 	ai_convert_other_group = 0 # never try to convert
@@ -432,7 +437,7 @@ celtic_religion = {
 	celtic_main = {
 		graphical_culture = westerngfx
 
-		icon = 67
+		icon = 16 # TODO: Use the right icon
 		color = { 0.2 0.6 0.2 }
 		
 		crusade_name = "CRUSADE"
@@ -497,8 +502,9 @@ celtic_religion = {
 punic_religion = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
-	crusade_cb = crusade # Should be changed or removed entirely
 	playable = yes
+
+	color = { 0.1 0.7 0.1 }
 	
 	ai_convert_same_group = 0 # never try to convert
 	ai_convert_other_group = 0 # never try to convert
@@ -520,9 +526,6 @@ punic_religion = {
 		can_call_crusade = no
 		
 		max_consorts = 3
-		
-		intermarry = kemetic		
-		intermarry = berber_main
 		
 		intermarry = kemetic	
 		intermarry = atenist
@@ -632,8 +635,9 @@ punic_religion = {
 indo_iranian_religion = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
-	crusade_cb = crusade # Should be changed or removed entirely
 	playable = yes
+	
+	color = { 0.3 0.6 0.3 }
 	
 	ai_convert_same_group = 0 # never try to convert
 	ai_convert_other_group = 0 # never try to convert
@@ -937,8 +941,9 @@ indo_iranian_religion = {
 abrahamic_religion = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
-	crusade_cb = crusade # Should be changed or removed entirely
 	playable = yes
+	
+	color = { 0.5 0.5 0.0 }
 	
 	ai_convert_same_group = 0 # never try to convert
 	ai_convert_other_group = 0 # never try to convert
@@ -962,8 +967,9 @@ abrahamic_religion = {
 indian_religion = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
-	crusade_cb = crusade # Should be changed or removed entirely
 	playable = yes
+	
+	color = { 0.9 0.7 0.2 }
 	
 	ai_convert_same_group = 0 # never try to convert
 	ai_convert_other_group = 0 # never try to convert
@@ -1086,8 +1092,9 @@ indian_religion = {
 caucasian_religion = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
-	crusade_cb = crusade # Should be changed or removed entirely
 	playable = yes
+	
+	color = { 0.9 0.7 0.6 }
 	
 	ai_convert_same_group = 0 # never try to convert
 	ai_convert_other_group = 0 # never try to convert
@@ -1154,8 +1161,9 @@ caucasian_religion = {
 anatolian_religion = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
-	crusade_cb = crusade # Should be changed or removed entirely
 	playable = yes
+
+	color = { 0.2 0.7 0.5 }
 	
 	ai_convert_same_group = 0 # never try to convert
 	ai_convert_other_group = 0 # never try to convert
@@ -1280,8 +1288,9 @@ anatolian_religion = {
 mesopotamian_religion = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
-	crusade_cb = crusade # Should be changed or removed entirely
 	playable = yes
+	
+	color = { 0.3 0.5 1.0 }
 	
 	ai_convert_same_group = 0 # never try to convert
 	ai_convert_other_group = 0 # never try to convert
@@ -1348,8 +1357,9 @@ mesopotamian_religion = {
 arabic_religion = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
-	crusade_cb = crusade # Should be changed or removed entirely
 	playable = yes
+	
+	color = { 0.5 0.7 0.2 }
 	
 	ai_convert_same_group = 0 # never try to convert
 	ai_convert_other_group = 0 # never try to convert
@@ -1416,8 +1426,9 @@ arabic_religion = {
 greek_religion = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
-	crusade_cb = crusade # Should be changed or removed entirely
 	playable = yes
+		
+	color = { 0.2 0.4 0.3 }
 	
 	ai_convert_same_group = 0 # never try to convert
 	ai_convert_other_group = 0 # never try to convert
@@ -1611,8 +1622,9 @@ greek_religion = {
 italian_religion = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
-	crusade_cb = crusade # Should be changed or removed entirely
 	playable = yes
+	
+	color = { 0.1 0.5 0.8 }
 	
 	ai_convert_same_group = 0 # never try to convert
 	ai_convert_other_group = 0 # never try to convert
@@ -1639,8 +1651,9 @@ italian_religion = {
 dravidian_religion = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
-	crusade_cb = crusade # Should be changed or removed entirely
 	playable = yes
+	
+	color = { 0.1 0.5 0.8 }
 	
 	ai_convert_same_group = 0 # never try to convert
 	ai_convert_other_group = 0 # never try to convert
@@ -1711,8 +1724,9 @@ dravidian_religion = {
 lusitanian_religion = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
-	crusade_cb = crusade # Should be changed or removed entirely
 	playable = yes
+	
+	color = { 0.62 0.19 0.06 }
 	
 	ai_convert_same_group = 0 # never try to convert
 	ai_convert_other_group = 0 # never try to convert
@@ -1720,7 +1734,7 @@ lusitanian_religion = {
 	lusitanian_main = {
 		graphical_culture = westerngfx
 
-		icon = 67
+		icon = 16 # TODO: Use the right icon
 		color = { 0.62 0.19 0.06 }
 		
 		crusade_name = "CRUSADE"
@@ -1785,8 +1799,9 @@ lusitanian_religion = {
 iberian_religion = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
-	crusade_cb = crusade # Should be changed or removed entirely
 	playable = yes
+		
+	color = { 0.9 0.8 0.9 }
 	
 	ai_convert_same_group = 0 # never try to convert
 	ai_convert_other_group = 0 # never try to convert
@@ -1794,7 +1809,7 @@ iberian_religion = {
 	iberian_main = {
 		graphical_culture = westerngfx
 
-		icon = 67
+		icon = 16 # TODO: Use the right icon
 		color = { 0.9 0.8 0.9 }
 		
 		crusade_name = "CRUSADE"
@@ -1863,8 +1878,9 @@ iberian_religion = {
 aquitanian_religion = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
-	crusade_cb = crusade # Should be changed or removed entirely
 	playable = yes
+
+	color = { 0 0.76 0.31 }
 	
 	ai_convert_same_group = 0 # never try to convert
 	ai_convert_other_group = 0 # never try to convert
@@ -1872,7 +1888,7 @@ aquitanian_religion = {
 	aquitanian_main = {
 		graphical_culture = westerngfx
 
-		icon = 67
+		icon = 16 # TODO: Use the right icon
 		color = { 0 0.76 0.31 }
 		
 		crusade_name = "CRUSADE"
