@@ -661,7 +661,7 @@ character_event = {
 		religion = FROMFROM
 		if = {
 			limit = {
-				religion_group = indian_group
+				has_dharmic_religion_trigger = yes
 			}
 			character_event = { id = RoI.120 } # Assign Indian religion branch
 		}
@@ -689,49 +689,20 @@ character_event = {
 				age = 12
 			}
 		}
-		if = {
-			limit = {
-				religion_group = christian
-			}
-			add_trait = sympathy_christendom
-		}
-		if = {
-			limit = {
-				religion_group = muslim
-			}
-			add_trait = sympathy_islam
-		}
-		if = {
-			limit = {
-				religion_group = pagan_group
-			}
-			add_trait = sympathy_pagans
-		}
-		if = {
-			limit = {
-				religion_group = zoroastrian_group
-			}
-			add_trait = sympathy_zoroastrianism
-		}
-		if = {
-			limit = {
-				religion_group = jewish_group
-			}
-			add_trait = sympathy_judaism
-		}
-		if = {
-			limit = {
-				religion_group = indian_group
-			}
-			add_trait = sympathy_indian
-		}
+		# TODO: Sympathies
+		#if = {
+		#	limit = {
+		#		religion_group = christian
+		#	}
+		#	add_trait = sympathy_christendom
+		#}
 
 		clr_religion_char_flag_effect = yes #Must clear all old flags to avoid double traits
 		add_religion_char_flag_effect = yes
 		religion = FROMFROM
 		if = {
 			limit = {
-				religion_group = indian_group
+				has_dharmic_religion_trigger = yes
 			}
 			character_event = { id = RoI.120 } # Assign Indian religion branch
 		}
@@ -790,10 +761,7 @@ character_event = {
 	option = {
 		name = EVTOPTA39821
 		trigger = {
-			OR = {
-				religion = zoroastrian_main
-				religion = zurvanism
-			}
+			religion = zoroastrian_main
 		}
 		set_character_flag = attending_sadah
 		set_character_flag = do_not_disturb
@@ -812,10 +780,7 @@ character_event = {
 		name = EVTOPTB39821
 		trigger = {
 			NOT = {
-				OR = {
-					religion = zoroastrian_main
-					religion = zurvanism
-				}
+				religion = zoroastrian_main
 			}
 		}
 		FROM = {

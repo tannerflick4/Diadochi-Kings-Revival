@@ -1858,16 +1858,6 @@ character_event = {
         show_portrait = event_target:my_duel_target
         duel_someone_effect = yes
         add_2_points_to_legendary_progress_effect = yes # Great progress on journey!
-        hidden_effect = {
-            if = {
-                limit = {
-                    has_character_flag = WL_desc_Z    
-                }
-                event_target:combatant_2 = {
-                    set_graphical_culture = bear
-                }
-            }
-        }
     }
 
     option = { #You somehow avoid fighting...
@@ -2433,17 +2423,6 @@ character_event = {
     immediate = {
         set_winner_flags_and_save_opponent_effect = yes
 
-        hidden_effect = {
-            if = {
-                limit = {
-                    event_target:combatant_1 = { has_character_flag = WL_desc_Z }
-                }
-                event_target:combatant_2 = {
-                    set_graphical_culture = bear
-                }
-            }
-        }
-
         random_list = {
         	5 = { # You will be injured somehow (flags already set)...
                 bad_soldier_outcome_score = yes #Increases risk, if you are bad at this...
@@ -2699,16 +2678,6 @@ character_event = {
             if = { limit = { has_character_flag = is_legendary_duel } } #means you were the instigator/hero
             current_heir = { save_event_target_as = new_story_owner } #So your heir will find out what happened and can be referred to in text...
         }
-        hidden_effect = {
-            if = {
-                limit = {
-                    event_target:combatant_1 = { has_character_flag = WL_desc_Z }
-                }
-                event_target:combatant_2 = {
-                    set_graphical_culture = bear
-                }
-            }
-        }
 
         if = {
             limit = { multiplayer = yes }
@@ -2800,16 +2769,6 @@ character_event = {
         hidden_effect = {
             if = { limit = { has_character_flag = is_legendary_duel } } #means you were the instigator/hero
             current_heir = { save_event_target_as = new_story_owner } #So your heir will find out what happened and can be referred to in text...
-        }
-        hidden_effect = {
-            if = {
-                limit = {
-                    event_target:combatant_1 = { has_character_flag = WL_desc_Z }
-                }
-                event_target:combatant_2 = {
-                    set_graphical_culture = bear
-                }
-            }
         }
 
         if = {

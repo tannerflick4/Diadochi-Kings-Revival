@@ -126,12 +126,7 @@ has_pious_trait_trigger = {
 		trait = chaste
 		trait = humble
 		trait = content
-		trait = on_pilgrimage
-		trait = pilgrim
 		is_ascetic_trigger = yes
-		trait = hajjaj
-		trait = on_hajj
-		trait = ashari
 		trait = shieldmaiden
 		trait = zealous
 	}
@@ -685,7 +680,6 @@ has_lifestyle_learning_trigger = {
 		trait = scholar
 		trait = theologian
 		trait = mystic
-		trait = faqih
 	}
 }
 
@@ -703,7 +697,6 @@ is_learned_trigger = {
 		trait = scholarly_theologian
 		trait = mastermind_theologian
 		trait = physician
-		trait = faqih
 	}
 }
 
@@ -858,8 +851,7 @@ can_be_chancellor_trigger = {
 					is_female = yes 
 					OR = { 
 						liege = { has_religion_feature = religion_matriarchal } 
-						liege = { has_religion_feature = religion_equal } 
-						liege = { has_religion_feature = religion_feature_bon } 
+						liege = { has_religion_feature = religion_equal }
 					} 
 				}
 				trait = horse # So we can have female glitterhoofs! :D
@@ -927,17 +919,14 @@ can_be_marshal_trigger = {
 					is_female = yes 
 					OR = { 
 						liege = { has_religion_feature = religion_matriarchal } 
-						liege = { has_religion_feature = religion_equal } 
-						liege = { has_religion_feature = religion_feature_bon } 
+						liege = { has_religion_feature = religion_equal }
 					} 
 				}
 				trait = horse # So we can have female glitterhoofs! :D
 				AND = {
 					liege = {
 						primary_title = {
-							OR = {
-								has_law = status_of_women_3
-							}
+							has_law = status_of_women_3
 						}
 					}
 					OR = {
@@ -1001,8 +990,7 @@ can_be_treasurer_trigger = {
 					is_female = yes 
 					OR = { 
 						liege = { has_religion_feature = religion_matriarchal } 
-						liege = { has_religion_feature = religion_equal } 
-						liege = { has_religion_feature = religion_feature_bon } 
+						liege = { has_religion_feature = religion_equal }
 					} 
 				}
 				trait = horse # So we can have female glitterhoofs! :D
@@ -1071,8 +1059,7 @@ can_be_spymaster_trigger = {
 					is_female = yes 
 					OR = { 
 						liege = { has_religion_feature = religion_matriarchal } 
-						liege = { has_religion_feature = religion_equal } 
-						liege = { has_religion_feature = religion_feature_bon } 
+						liege = { has_religion_feature = religion_equal }
 					} 
 				}
 				trait = horse # So we can have female glitterhoofs! :D
@@ -1220,6 +1207,56 @@ can_be_councilmember_king_trigger = {
 			}
 		} 
 	}
+	OR = {
+		AND = { #Patriarchal religions can only hire males. Matriarchal religions can only hire females.
+			is_female = no 
+			NOT = { liege = { has_religion_feature = religion_matriarchal } } 
+		}
+		AND = {
+			is_female = yes 
+			NOT = { liege = { has_religion_feature = religion_patriarchal } } 
+		}
+		AND = {
+			is_female = yes
+			liege = {
+				primary_title = {
+					OR = {
+						has_law = status_of_women_1
+						has_law = status_of_women_2
+						has_law = status_of_women_3
+					}
+				}
+			}
+			is_landed = yes
+		}
+		OR = {
+			AND = { 
+				is_female = yes
+				liege = { primary_title = { has_law = status_of_women_4 } } 
+			}
+			has_game_rule = {
+				name = gender
+				value = all
+			}
+		}
+	}
+	is_adult = yes
+}
+
+can_be_councilmember_emperor_trigger = {
+	independent = no
+	prisoner = no
+	NOT = { trait = incapable }
+	NOT = { trait = in_hiding }
+	NOT = { has_character_modifier = resigned_in_anger }
+	NOT = { 
+		liege = { 
+			has_opinion_modifier = {
+				who = ROOT	
+				modifier = opinion_resigned_from_council 
+			} 
+		} 
+	}
 	AND = {
 		OR = {
 			AND = { #Patriarchal religions can only hire males. Matriarchal religions can only hire females.
@@ -1228,7 +1265,10 @@ can_be_councilmember_king_trigger = {
 			}
 			AND = {
 				is_female = yes 
-				NOT = { liege = { has_religion_feature = religion_patriarchal } } 
+				OR = { 
+					liege = { has_religion_feature = religion_matriarchal } 
+					liege = { has_religion_feature = religion_equal }
+				} 
 			}
 			AND = {
 				is_female = yes
@@ -1255,64 +1295,6 @@ can_be_councilmember_king_trigger = {
 			}
 		}
 		is_adult = yes
-	}
-}
-
-can_be_councilmember_emperor_trigger = {
-	independent = no
-	prisoner = no
-	NOT = { trait = incapable }
-	NOT = { trait = in_hiding }
-	NOT = { has_character_modifier = resigned_in_anger }
-	NOT = { 
-		liege = { 
-			has_opinion_modifier = {
-				who = ROOT	
-				modifier = opinion_resigned_from_council 
-			} 
-		} 
-	}
-	OR = {
-		AND = {
-			OR = {
-				AND = { #Patriarchal religions can only hire males. Matriarchal religions can only hire females.
-					is_female = no 
-					NOT = { liege = { has_religion_feature = religion_matriarchal } } 
-				}
-				AND = {
-					is_female = yes 
-					OR = { 
-						liege = { has_religion_feature = religion_matriarchal } 
-						liege = { has_religion_feature = religion_equal } 
-						liege = { has_religion_feature = religion_feature_bon } 
-					} 
-				}
-				AND = {
-					is_female = yes
-					liege = {
-						primary_title = {
-							OR = {
-								has_law = status_of_women_1
-								has_law = status_of_women_2
-								has_law = status_of_women_3
-							}
-						}
-					}
-					is_landed = yes
-				}
-				OR = {
-					AND = { 
-						is_female = yes
-						liege = { primary_title = { has_law = status_of_women_4 } } 
-					}
-					has_game_rule = {
-						name = gender
-						value = all
-					}
-				}
-			}
-			is_adult = yes
-		}
 	}
 }
 
@@ -1358,8 +1340,6 @@ is_inaccessible_trigger = { #Remember to write this "is_inaccessible_trigger = n
 			OR = {
 				has_character_flag = flag_holding_great_tribal_festival
 				trait = in_hiding
-				trait = on_hajj
-				trait = on_pilgrimage
 				trait = on_indian_pilgrimage
 				trait = kow_tow_travels
 				trait = travelling
@@ -1708,15 +1688,13 @@ female_can_hold_minor_title_trigger = {
 		OR = {
 			custom_tooltip = {
 				text = tooltip_feminist_liege_religion_feature
-				AND = {
-					OR = {
-						has_religion_feature = religion_equal
-						has_religion_feature = religion_matriarchal
-					}
-					liege = {
-						has_religion_feature = religion_equal
-						has_religion_feature = religion_matriarchal
-					}
+				OR = {
+					has_religion_feature = religion_equal
+					has_religion_feature = religion_matriarchal
+				}
+				liege = {
+					has_religion_feature = religion_equal
+					has_religion_feature = religion_matriarchal
 				}
 			}
 			primary_title = {
@@ -1760,15 +1738,13 @@ female_can_hold_minor_commander_title_trigger = {
 			}
 			custom_tooltip = {
 				text = tooltip_feminist_liege_religion_feature
-				AND = {
-					OR = {
-						has_religion_feature = religion_equal
-						has_religion_feature = religion_matriarchal
-					}
-					liege = {
-						has_religion_feature = religion_equal
-						has_religion_feature = religion_matriarchal
-					}
+				OR = {
+					has_religion_feature = religion_equal
+					has_religion_feature = religion_matriarchal
+				}
+				liege = {
+					has_religion_feature = religion_equal
+					has_religion_feature = religion_matriarchal
 				}
 			}
 			primary_title = {
@@ -2119,7 +2095,7 @@ FROMs_religion_is_playable_trigger = {
 				NOT = {	has_dlc = "Rajas of India" }
 			}
 			AND = { #Means you're not allowed to play the Zoroastrians
-				FROM = { religion_group = zoroastrian_main }
+				FROM = { religion = zoroastrian_main }
 				NOT = { has_dlc = "The Old Gods" }
 			}
 		}
@@ -2129,10 +2105,8 @@ FROMs_religion_is_playable_trigger = {
 			FROM = { religion = judaism_main }
 			NOT = { has_dlc = "Sons of Abraham" }
 		}
-		AND = {
-			religion = judaism_main
-			has_dlc = "Sons of Abraham"
-		}
+		religion = judaism_main
+		has_dlc = "Sons of Abraham"
 	}
 	trigger_if = {
 		limit = {
@@ -2145,14 +2119,12 @@ FROMs_religion_is_playable_trigger = {
 			}
 			NOT = { has_dlc = "Rajas of India" }
 		}
-		AND = {
-			OR = {
-				religion = buddhism_main
-				religion = hinduism_main
-				religion = jainism_main
-			}
-			has_dlc = "Rajas of India" 
+		OR = {
+			religion = buddhism_main
+			religion = hinduism_main
+			religion = jainism_main
 		}
+		has_dlc = "Rajas of India"
 	}
 }
 
@@ -2184,10 +2156,8 @@ ROOTs_religion_is_playable_trigger = { #For targeted decision where FROM is the 
 			religion = judaism_main
 			NOT = { has_dlc = "Sons of Abraham" }
 		}
-		AND = {
-			religion = judaism_main
-			has_dlc = "Sons of Abraham"
-		}
+		religion = judaism_main
+		has_dlc = "Sons of Abraham"
 	}
 	trigger_if = {
 		limit = {
@@ -2198,14 +2168,12 @@ ROOTs_religion_is_playable_trigger = { #For targeted decision where FROM is the 
 			}
 			NOT = { has_dlc = "Rajas of India" }
 		}
-		AND = {
-			OR = {
-				religion = buddhism_main
-				religion = hinduism_main
-				religion = jainism_main
-			}
-			has_dlc = "Rajas of India" 
+		OR = {
+			religion = buddhism_main
+			religion = hinduism_main
+			religion = jainism_main
 		}
+		has_dlc = "Rajas of India"
 	}
 }
 
@@ -2237,10 +2205,8 @@ ROOTs_secret_religion_is_playable_trigger = {
 			secret_religion = judaism_main
 			NOT = { has_dlc = "Sons of Abraham" }
 		}
-		AND = {
-			secret_religion = judaism_main
-			has_dlc = "Sons of Abraham"
-		}
+		secret_religion = judaism_main
+		has_dlc = "Sons of Abraham"
 	}
 	trigger_if = {
 		limit = {
@@ -2251,24 +2217,20 @@ ROOTs_secret_religion_is_playable_trigger = {
 			}
 			NOT = { has_dlc = "Rajas of India" }
 		}
-		AND = {
-			OR = {
-				secret_religion = buddhism_main
-				secret_religion = hinduism_main
-				secret_religion = jainism_main
-			}
-			has_dlc = "Rajas of India" 
+		OR = {
+			secret_religion = buddhism_main
+			secret_religion = hinduism_main
+			secret_religion = jainism_main
 		}
+		has_dlc = "Rajas of India"
 	}
 	trigger_if = {
 		limit = {
 			secret_religion = zoroastrian_main
 			NOT = { has_dlc = "The Old Gods" }
 		}
-		AND = {
-			secret_religion = zoroastrian_main
-			has_dlc = "The Old Gods"
-		}
+		secret_religion = zoroastrian_main
+		has_dlc = "The Old Gods"
 	}
 }
 
@@ -2737,208 +2699,8 @@ has_my_liege_secret_religion_truly_trigger = {
 }
 
 is_in_prevs_interesting_society_trigger = {
-	OR = {
-		AND = {
-			society_member_of = secret_religious_society_catholic
-			PREV = { interested_in_society = secret_religious_society_catholic }
-		}
-		AND = {
-			society_member_of = secret_religious_society_cathar
-			PREV = { interested_in_society = secret_religious_society_cathar }
-		}
-		AND = {
-			society_member_of = secret_religious_society_fraticelli
-			PREV = { interested_in_society = secret_religious_society_fraticelli }
-		}
-		AND = {
-			society_member_of = secret_religious_society_waldensian
-			PREV = { interested_in_society = secret_religious_society_waldensian }
-		}
-		AND = {
-			society_member_of = secret_religious_society_lollard
-			PREV = { interested_in_society = secret_religious_society_lollard }
-		}
-		AND = {
-			society_member_of = secret_religious_society_orthodox
-			PREV = { interested_in_society = secret_religious_society_orthodox }
-		}
-		AND = {
-			society_member_of = secret_religious_society_miaphysite
-			PREV = { interested_in_society = secret_religious_society_miaphysite }
-		}
-		AND = {
-			society_member_of = secret_religious_society_monophysite
-			PREV = { interested_in_society = secret_religious_society_monophysite }
-		}
-		AND = {
-			society_member_of = secret_religious_society_bogomilist
-			PREV = { interested_in_society = secret_religious_society_bogomilist }
-		}
-		AND = {
-			society_member_of = secret_religious_society_monothelite
-			PREV = { interested_in_society = secret_religious_society_monothelite }
-		}
-		AND = {
-			society_member_of = secret_religious_society_iconoclast
-			PREV = { interested_in_society = secret_religious_society_iconoclast }
-		}
-		AND = {
-			society_member_of = secret_religious_society_paulician
-			PREV = { interested_in_society = secret_religious_society_paulician }
-		}
-		AND = {
-			society_member_of = secret_religious_society_nestorian
-			PREV = { interested_in_society = secret_religious_society_nestorian }
-		}
-		AND = {
-			society_member_of = secret_religious_society_messalian
-			PREV = { interested_in_society = secret_religious_society_messalian }
-		}
-		AND = {
-			society_member_of = secret_religious_society_sunni
-			PREV = { interested_in_society = secret_religious_society_sunni }
-		}
-		AND = {
-			society_member_of = secret_religious_society_zikri
-			PREV = { interested_in_society = secret_religious_society_zikri }
-		}
-		AND = {
-			society_member_of = secret_religious_society_yazidi
-			PREV = { interested_in_society = secret_religious_society_yazidi }
-		}
-		AND = {
-			society_member_of = secret_religious_society_ibadi
-			PREV = { interested_in_society = secret_religious_society_ibadi }
-		}
-		AND = {
-			society_member_of = secret_religious_society_kharijite
-			PREV = { interested_in_society = secret_religious_society_kharijite }
-		}
-		AND = {
-			society_member_of = secret_religious_society_shiite
-			PREV = { interested_in_society = secret_religious_society_shiite }
-		}
-		AND = {
-			society_member_of = secret_religious_society_druze
-			PREV = { interested_in_society = secret_religious_society_druze }
-		}
-		AND = {
-			society_member_of = secret_religious_society_hurufi
-			PREV = { interested_in_society = secret_religious_society_hurufi }
-		}
-		AND = {
-			society_member_of = secret_religious_society_jewish
-			PREV = { interested_in_society = secret_religious_society_jewish }
-		}
-		AND = {
-			society_member_of = secret_religious_society_karaite
-			PREV = { interested_in_society = secret_religious_society_karaite }
-		}
-		AND = {
-			society_member_of = secret_religious_society_samaritan
-			PREV = { interested_in_society = secret_religious_society_samaritan }
-		}
-		AND = {
-			society_member_of = secret_religious_society_zoroastrian
-			PREV = { interested_in_society = secret_religious_society_zoroastrian }
-		}
-		AND = {
-			society_member_of = secret_religious_society_mazdaki
-			PREV = { interested_in_society = secret_religious_society_mazdaki }
-		}
-		AND = {
-			society_member_of = secret_religious_society_manichean
-			PREV = { interested_in_society = secret_religious_society_manichean }
-		}
-		AND = {
-			society_member_of = secret_religious_society_khurmazta
-			PREV = { interested_in_society = secret_religious_society_khurmazta }
-		}
-		AND = {
-			society_member_of = secret_religious_society_bon
-			PREV = { interested_in_society = secret_religious_society_bon }
-		}
-		AND = {
-			society_member_of = secret_religious_society_taoist
-			PREV = { interested_in_society = secret_religious_society_taoist }
-		}
-		AND = {
-			society_member_of = secret_religious_society_hindu
-			PREV = { interested_in_society = secret_religious_society_hindu}
-		}
-		AND = {
-			society_member_of = secret_religious_society_buddhist
-			PREV = { interested_in_society = secret_religious_society_buddhist }
-		}
-		AND = {
-			society_member_of = secret_religious_society_jain
-			PREV = { interested_in_society = secret_religious_society_jain }
-		}
-		AND = {
-			society_member_of = secret_religious_society_norse_pagan_reformed
-			PREV = { interested_in_society = secret_religious_society_norse_pagan_reformed }
-		}
-		AND = {
-			society_member_of = secret_religious_society_slavic_pagan_reformed
-			PREV = { interested_in_society = secret_religious_society_slavic_pagan_reformed }
-		}
-		AND = {
-			society_member_of = secret_religious_society_tengri_pagan_reformed
-			PREV = { interested_in_society = secret_religious_society_tengri_pagan_reformed }
-		}
-		AND = {
-			society_member_of = secret_religious_society_baltic_pagan_reformed
-			PREV = { interested_in_society = secret_religious_society_baltic_pagan_reformed }
-		}
-		AND = {
-			society_member_of = secret_religious_society_finnish_pagan_reformed
-			PREV = { interested_in_society = secret_religious_society_finnish_pagan_reformed }
-		}
-		AND = {
-			society_member_of = secret_religious_society_west_african_pagan_reformed
-			PREV = { interested_in_society = secret_religious_society_west_african_pagan_reformed }
-		}
-		AND = {
-			society_member_of = secret_religious_society_zun_pagan_reformed
-			PREV = { interested_in_society = secret_religious_society_zun_pagan_reformed }
-		}
-		AND = {
-			society_member_of = secret_religious_society_norse_pagan
-			PREV = { interested_in_society = secret_religious_society_norse_pagan }
-		}
-		AND = {
-			society_member_of = secret_religious_society_slavic_pagan
-			PREV = { interested_in_society = secret_religious_society_slavic_pagan }
-		}
-		AND = {
-			society_member_of = secret_religious_society_tengri_pagan
-			PREV = { interested_in_society = secret_religious_society_tengri_pagan }
-		}
-		AND = {
-			society_member_of = secret_religious_society_baltic_pagan
-			PREV = { interested_in_society = secret_religious_society_baltic_pagan }
-		}
-		AND = {
-			society_member_of = secret_religious_society_finnish_pagan
-			PREV = { interested_in_society = secret_religious_society_finnish_pagan }
-		}
-		AND = {
-			society_member_of = secret_religious_society_west_african_pagan
-			PREV = { interested_in_society = secret_religious_society_west_african_pagan }
-		}
-		AND = {
-			society_member_of = secret_religious_society_zun_pagan
-			PREV = { interested_in_society = secret_religious_society_zun_pagan }
-		}
-		AND = {
-			society_member_of = secret_religious_society_aztec
-			PREV = { interested_in_society = secret_religious_society_aztec }
-		}
-		AND = {
-			society_member_of = secret_religious_society_aztec_reformed
-			PREV = { interested_in_society = secret_religious_society_aztec_reformed }
-		}
-	}
+	# TODO: Add secret religious societies here.
+	always = no
 }
 
 shares_prevs_secret_religion_trigger = {
@@ -3025,6 +2787,7 @@ has_cult_of_kali_prerequisites = {
 	has_common_devilworship_prerequisites = yes
 	OR = {
 		religion = hinduism_main
+		secret_religion = hinduism_main
 	}
 }
 
@@ -3140,6 +2903,7 @@ looting_artifact_event_religious_artifacts_trigger = {
 #				ROOT = { religion = catholic }
 #			}
 #		}
+	}
 }
 
 have_duplicate_goldsmith_artifacts_flag_okay_trigger = {
@@ -3573,8 +3337,6 @@ can_be_asked_to_leave_court_trigger = {
 			OR = {
 				has_character_flag = flag_holding_great_tribal_festival
 				trait = in_hiding
-				trait = on_hajj
-				trait = on_pilgrimage
 				trait = on_indian_pilgrimage
 				trait = kow_tow_travels
 				trait = travelling
@@ -4552,71 +4314,28 @@ has_grace_massive_trigger = {
 
 #Always put this at the end of your triggers!
 china_diplo_interaction_trigger = { 
-	offmap_china = {
-		governor = { 
-			NOT = { war_with = PREVPREV } 
-			is_within_diplo_range = PREVPREV
-		}
-		NOT = { has_policy = china_isolationist }
-	}
-	conditional_tooltip = { 
-		trigger = { government = chinese_imperial_government }
-		custom_tooltip = { 
-			text = china_offmap_decisions_pretender_emperor_tt
-			always = no
-		}
-	}
+	always = no
 }
 
 china_is_suffering_trigger = {
-	offmap_china = {
-		OR = {
-			has_status = china_unrest
-			has_status = china_civil_war
-			has_status = china_famine
-			has_status = china_plague
-			has_status = china_mongol_invasion
-			has_status = china_jurchen_invasion
-		}
-	}
+	always = no
 }
 
 china_is_fine_trigger = { #"fine", read like "fiii-iine", i.e. China is currently treating the world as their oyster
-	offmap_china = {
-		OR = {
-			has_status = china_golden_age
-			has_status = china_stable
-		}
-		OR = {
-			has_policy = china_open
-			has_policy = china_expansionist
-		}
-	}
+	always = no
 }
 
 china_is_stable_open_trigger = {
-	offmap_china = {
-		has_status = china_stable
-		has_policy = china_open
-	}
+	always = no
 }
 china_is_stable_expansionist_trigger = {
-	offmap_china = {
-		has_status = china_stable
-		has_policy = china_expansionist
-	}
+	always = no
 }
 china_is_golden_age_open_trigger = {
-	offmap_china = {
-		has_status = china_golden_age
-		has_policy = china_open
-	}
+	always = no
 }
 china_is_golden_age_expansionist_trigger = {
-	offmap_china = {
-		has_status = china_golden_age
-		has_policy = china_expansionist
-	}
+	always = no
 }
 
 
@@ -4636,61 +4355,12 @@ china_offmap_tribute_decisions_enabled_trigger = {
 
 #What goes into the two triggers above...
 china_offmap_decisions_enabled_trigger = { 
-	offmap_china = {
-		NOT = { has_policy = china_isolationist }
-		custom_tooltip = {
-			text = china_offmap_decisions_enabled_trigger_war_tt #"Is at peace with §Y[From.GetTitledFirstName]§!"
-			NOT = { governor = { war_with = FROM } }
-		}
-		governor = {
-			show_scope_change = no
-			is_within_diplo_range = FROM
-			hidden_trigger  = { NOT = { character = FROM } } #Governor cannot use boon/tributes decisions
-		}
-	}
-	custom_tooltip = {
-		text = china_offmap_boon_decisions_enabled_trigger_raiding_tt
-		FROM = {
-			NOR = {
-				has_character_modifier = china_raid_active
-				has_character_modifier = china_raid_grace_cd
-			}
-		}
-	}
-	hidden_trigger = { has_dlc = "Jade Dragon" }
-	conditional_tooltip = { 
-		trigger = { FROM = { primary_title = { has_title_flag = rebel_general_title } } }
-		custom_tooltip = { 
-			text = china_offmap_decisions_pretender_emperor_tt
-			always = no
-		}
-	}
-	conditional_tooltip = { 
-		trigger = { FROM = { has_character_modifier = failed_invasion_of_china } }
-		custom_tooltip = { 
-			text = china_offmap_decisions_failed_invasion_tt
-			always = no
-		}
-	}
+	always = no
 }
 
 #Found in the 00_offmap_powers file... and the conditions for the force open china decision
 china_offmap_hostile_decisions_enabled_trigger = {
-	offmap_china = {
-		custom_tooltip = {
-			text = china_offmap_decisions_enabled_trigger_war_tt #"Is at peace with §Y[From.GetTitledFirstName]§!"
-			NOT = { governor = { war_with = FROM } }
-		}
-		governor = {
-			show_scope_change = no
-			is_within_diplo_range = FROM
-			hidden_trigger  = { NOT = { character = FROM } } #Governor cannot use boon/tributes decisions
-		}
-		offmap_ruler = {
-			NOT = { dynasty = FROM }
-		}
-	}
-	hidden_trigger = { has_dlc = "Jade Dragon" }
+	always = no
 }
 
 #Used with Sending Tribute characters to China...
@@ -4707,46 +4377,15 @@ local_third_party_score_great_trigger = {
 
 # For checking the Chinese Emperor's likes & dislikes
 is_liked_by_China_trigger = {
-	liked_by_offmap = {
-        type = offmap_china
-    }
-    NOT = {
-        disliked_by_offmap = {
-            type = offmap_china
-        }
-    }
-    offmap_china = {
-        show_scope_change = no
-        custom_tooltip = { text = emperor_likes_THIS_tt }
-    }
+	always = no
 }
 
 is_disliked_by_China_trigger = {
-	disliked_by_offmap = {
-        type = offmap_china
-    }
-    NOT = {
-		liked_by_offmap = {
-            type = offmap_china
-        }
-    }
-    offmap_china = {
-        show_scope_change = no
-        custom_tooltip = { text = emperor_dislikes_THIS_tt }
-    }
+	always = no
 }
 
 is_liked_and_disliked_by_China = {
-    disliked_by_offmap = {
-        type = offmap_china
-    }
-    liked_by_offmap = {
-        type = offmap_china
-    }
-    offmap_china = {
-        show_scope_change = no
-        custom_tooltip = { text = emperor_has_ambiguous_feelings_of_THIS_tt }
-    }
+    always = no
 }
 
 #Used in the invasion script...
@@ -4803,26 +4442,19 @@ likes_tributaries = {
 	context = tributary # Not a trigger, but used by the 'liked_by_offmap' & 'disliked_by_offmap' triggers
 }
 likes_indians = {
-	culture_group = indo_aryan_group
+	culture_group = indian
 }
 likes_dravidians = {
-	culture_group = dravidian_group
+	culture_group = dravidian
 }
 likes_tibetans = {
-	culture_group = tibetan_group
+	always = no # No tibetans
 }
 likes_germanics = {
-	OR = {
-		culture_group = north_germanic
-		culture_group = central_germanic
-		culture_group = west_germanic
-	}
+	always = no # TODO: Add germanic cultures.
 }
 likes_latino_iberians = {
-	OR = {
-		culture_group = latin
-		culture_group = iberian
-	}
+	always = no # No latino iberians
 }
 likes_byzantines = {
 	culture_group = byzantine
@@ -4922,59 +4554,8 @@ silk_road_trade_post_trigger = {
 		text = silk_road_province_desc
 		hidden_tooltip = {
 			OR = {
+				# TODO: Add silk road posts.
 				province_id = 1491
-				province_id = 1498
-				province_id = 1478
-				province_id = 1359
-				province_id = 1365
-				province_id = 1448
-				province_id = 1440
-				province_id = 1439
-				province_id = 678
-				province_id = 764
-				province_id = 802
-				province_id = 596
-				province_id = 667
-				province_id = 693
-				province_id = 649
-				province_id = 646
-				province_id = 641
-				province_id = 630
-				province_id = 1180
-				province_id = 1297
-				province_id = 1127
-				province_id = 1220
-				province_id = 1114
-				province_id = 1221
-				province_id = 1446
-				province_id = 868
-				province_id = 719
-				province_id = 1338
-				province_id = 1369
-				province_id = 858
-				province_id = 903
-				province_id = 1185
-				province_id = 1129
-				province_id = 1318
-				province_id = 1297
-				province_id = 1163
-				province_id = 1154
-				province_id = 1151
-				province_id = 1481
-				province_id = 1115
-				province_id = 1288
-				province_id = 796
-				province_id = 1362
-				province_id = 728
-				province_id = 774
-				province_id = 620
-				province_id = 1794
-				province_id = 775
-				province_id = 775
-				province_id = 633
-				province_id = 664
-				province_id = 644
-				province_id = 1797
 			}
 		}
 	}
@@ -5227,15 +4808,15 @@ this_has_terrible_opinion_modifier_of_root_trigger = {
 the_hunt_for_an_artifact_has_made_enough_progress_trigger = {
 	OR = {
 		AND = {
-			event_target:relic_ruler = { check_variable = { which = relic_score value = 8 } } #15 } } old value
+			event_target:relic_ruler = { check_variable = { which = relic_score value = 8 } } #15 old value
 			event_target:relic_ruler = { has_character_modifier = relic_rumor_minor } 
 		}
 		AND = {
-			event_target:relic_ruler = { check_variable = { which = relic_score value = 14 } } #25 } } old value
+			event_target:relic_ruler = { check_variable = { which = relic_score value = 14 } } #25 old value
 			event_target:relic_ruler = { has_character_modifier = relic_rumor_medium } 
 		}
 		AND = {
-			event_target:relic_ruler = { check_variable = { which = relic_score value = 20 } } #40 } } old value
+			event_target:relic_ruler = { check_variable = { which = relic_score value = 20 } } #40 old value
 			event_target:relic_ruler = { has_character_modifier = relic_rumor_major } 
 		}
 	}
@@ -5667,250 +5248,239 @@ martyrs_death_trigger = {
   		death_reason = death_sacrificed_norse
   		death_reason = death_sacrificed_ancestors
   		death_reason = death_execution_aztec_sacrifice
-  		
 	}
 }
 can_build_hillfort_trigger = {
-						OR = { 
-							AND = { 
-										NOR = { 
-											is_building = tb_hillfort_1 
-											has_building = tb_hillfort_1 
-										}
-										location = { TECH_CASTLE_CONSTRUCTION = 0 }
-							}
-							AND = { 
-										has_building = tb_hillfort_1
-										NOR = { 
-											is_building = tb_hillfort_2 
-											has_building = tb_hillfort_2 
-										}
-										location = { TECH_CASTLE_CONSTRUCTION = 0 }
-							}
-							AND = { 
-										has_building = tb_hillfort_2
-										NOR = { 
-											is_building = tb_hillfort_3 
-											has_building = tb_hillfort_3 
-										}
-										location = { TECH_CASTLE_CONSTRUCTION = 1 }
-							}
-							AND = { 
-										has_building = tb_hillfort_3
-										NOR = { 
-												is_building = tb_hillfort_4 
-												has_building = tb_hillfort_4 
-											}
-										location = { TECH_CASTLE_CONSTRUCTION = 1 }
-							}
-						}
+	OR = { 
+		AND = { 
+			NOR = { 
+				is_building = tb_hillfort_1 
+				has_building = tb_hillfort_1 
+			}
+			location = { TECH_CASTLE_CONSTRUCTION = 0 }
+		}
+		AND = { 
+			has_building = tb_hillfort_1
+			NOR = { 
+				is_building = tb_hillfort_2 
+				has_building = tb_hillfort_2 
+			}
+			location = { TECH_CASTLE_CONSTRUCTION = 0 }
+		}
+		AND = { 
+			has_building = tb_hillfort_2
+			NOR = { 
+				is_building = tb_hillfort_3 
+				has_building = tb_hillfort_3 
+			}
+			location = { TECH_CASTLE_CONSTRUCTION = 1 }
+		}
+		AND = { 
+			has_building = tb_hillfort_3
+			NOR = { 
+				is_building = tb_hillfort_4 
+				has_building = tb_hillfort_4 
+			}
+			location = { TECH_CASTLE_CONSTRUCTION = 1 }
+		}
+	}
 }
 can_build_defensive_fortifications_trigger = {
-						holding_type = tribal
-						hidden_tooltip = { 
-							NOR = { 
-								is_building = tb_defensive_fortifications_4
-								has_building = tb_defensive_fortifications_4
-							}
-						}
-						OR = { 
-							AND = { 
-								custom_tooltip = { 
-									text = tooltip_can_build_tb_defensive_fortifications_1
-									hidden_tooltip = { 
-										NOR = { 
-											is_building = tb_defensive_fortifications_1 
-											has_building = tb_defensive_fortifications_1
-										}
-										location = { TECH_CASTLE_CONSTRUCTION = 0 }
-									}
-								}
-							}
-							AND = { 
-								custom_tooltip = { 
-									text = tooltip_can_build_tb_defensive_fortifications_2 
-									hidden_tooltip = { 
-										has_building = tb_defensive_fortifications_1
-										NOR = { 
-											is_building = tb_defensive_fortifications_2 
-											has_building = tb_defensive_fortifications_2 
-										}
-										location = { TECH_CASTLE_CONSTRUCTION = 0 }
-									}
-								}
-							}
-							AND = { 
-								custom_tooltip = { 
-									text = tooltip_can_build_tb_defensive_fortifications_3
-									hidden_tooltip = { 
-										has_building = tb_defensive_fortifications_2
-										NOR = { 
-											is_building = tb_defensive_fortifications_3 
-											has_building = tb_defensive_fortifications_3 
-										}
-										location = { TECH_CASTLE_CONSTRUCTION = 1 }
-									}
-								}
-							}
-							AND = { 
-								custom_tooltip = { 
-									text = tooltip_can_build_tb_defensive_fortifications_4
-									hidden_tooltip = { 
-										has_building = tb_defensive_fortifications_3
-										NOR = { 
-											is_building = tb_defensive_fortifications_4 
-											has_building = tb_defensive_fortifications_4 
-										}
-										location = { TECH_CASTLE_CONSTRUCTION = 1 }
-									}
-								}
-							}
-						}
+	holding_type = tribal
+	hidden_tooltip = { 
+		NOR = { 
+			is_building = tb_defensive_fortifications_4
+			has_building = tb_defensive_fortifications_4
+		}
+	}
+	OR = { 
+		AND = { 
+			custom_tooltip = { 
+				text = tooltip_can_build_tb_defensive_fortifications_1
+				hidden_tooltip = { 
+					NOR = { 
+						is_building = tb_defensive_fortifications_1 
+						has_building = tb_defensive_fortifications_1
+					}
+					location = { TECH_CASTLE_CONSTRUCTION = 0 }
+				}
+			}
+		}
+		AND = { 
+			custom_tooltip = { 
+				text = tooltip_can_build_tb_defensive_fortifications_2 
+				hidden_tooltip = { 
+					has_building = tb_defensive_fortifications_1
+					NOR = { 
+						is_building = tb_defensive_fortifications_2 
+						has_building = tb_defensive_fortifications_2 
+					}
+					location = { TECH_CASTLE_CONSTRUCTION = 0 }
+				}
+			}
+		}
+		AND = { 
+			custom_tooltip = { 
+				text = tooltip_can_build_tb_defensive_fortifications_3
+				hidden_tooltip = { 
+					has_building = tb_defensive_fortifications_2
+					NOR = { 
+						is_building = tb_defensive_fortifications_3 
+						has_building = tb_defensive_fortifications_3 
+					}
+					location = { TECH_CASTLE_CONSTRUCTION = 1 }
+				}
+			}
+		}
+		AND = { 
+			custom_tooltip = { 
+				text = tooltip_can_build_tb_defensive_fortifications_4
+				hidden_tooltip = { 
+					has_building = tb_defensive_fortifications_3
+					NOR = { 
+						is_building = tb_defensive_fortifications_4 
+						has_building = tb_defensive_fortifications_4 
+					}
+					location = { TECH_CASTLE_CONSTRUCTION = 1 }
+				}
+			}
+		}
+	}
 }
 can_build_walls_trigger = {
-						holding_type = castle
-						hidden_tooltip = { NOT = { has_building = ca_wall_5 } }
-						OR = { 
-							AND = { 
-								custom_tooltip = { 
-									text = tooltip_can_build_ca_wall_1
-									hidden_tooltip = { 
-										NOR = { 
-											is_building = ca_wall_1 
-											has_building = ca_wall_1
-										}
-										location = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
-									}
-								}
-							}
-							AND = { 
-								custom_tooltip = { 
-									text = tooltip_can_build_ca_wall_2
-									hidden_tooltip = { 
-										has_building = ca_wall_1
-										NOR = { 
-											is_building = ca_wall_2 
-											has_building = ca_wall_2
-										}
-										location = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
-									}
-								}
-							}
-							AND = { 
-								custom_tooltip = { 
-									text = tooltip_can_build_ca_wall_3
-									hidden_tooltip = { 
-										has_building = ca_wall_2
-										NOR = { 
-											is_building = ca_wall_3 
-											has_building = ca_wall_3
-										}
-										location = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
-									}
-								}
-							}
-							AND = { 
-								custom_tooltip = { 
-									text = tooltip_can_build_ca_wall_4
-									hidden_tooltip = { 
-										has_building = ca_wall_3
-										NOR = { 
-											is_building = ca_wall_4 
-											has_building = ca_wall_4
-										}
-										location = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
-									}
-								}
-							}
-							AND = { 
-								custom_tooltip = { 
-									text = tooltip_can_build_ca_wall_5
-									hidden_tooltip = { 
-										has_building = ca_wall_4
-										NOR = { 
-											is_building = ca_wall_5 
-											has_building = ca_wall_5
-										}
-										location = { TECH_FORTIFICATIONS_CONSTRUCTION = 8 }
-									}
-								}
-							}
-						}
+	holding_type = castle
+	hidden_tooltip = { NOT = { has_building = ca_wall_5 } }
+	OR = { 
+		custom_tooltip = { 
+			text = tooltip_can_build_ca_wall_1
+			hidden_tooltip = { 
+				NOR = { 
+					is_building = ca_wall_1 
+					has_building = ca_wall_1
+				}
+				location = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+			}
+		}
+		custom_tooltip = { 
+			text = tooltip_can_build_ca_wall_2
+			hidden_tooltip = { 
+				has_building = ca_wall_1
+				NOR = { 
+					is_building = ca_wall_2 
+					has_building = ca_wall_2
+				}
+				location = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
+			}
+		}
+		custom_tooltip = { 
+			text = tooltip_can_build_ca_wall_3
+			hidden_tooltip = { 
+				has_building = ca_wall_2
+				NOR = { 
+					is_building = ca_wall_3 
+					has_building = ca_wall_3
+				}
+				location = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
+			}
+		}
+		custom_tooltip = { 
+			text = tooltip_can_build_ca_wall_4
+			hidden_tooltip = { 
+				has_building = ca_wall_3
+				NOR = { 
+					is_building = ca_wall_4 
+					has_building = ca_wall_4
+				}
+				location = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
+			}
+		}
+		custom_tooltip = { 
+			text = tooltip_can_build_ca_wall_5
+			hidden_tooltip = { 
+				has_building = ca_wall_4
+				NOR = { 
+					is_building = ca_wall_5 
+					has_building = ca_wall_5
+				}
+				location = { TECH_FORTIFICATIONS_CONSTRUCTION = 8 }
+			}
+		}
+	}
 }
 can_build_castle_fortifications_trigger = {
-						holding_type = castle
-						hidden_tooltip = { 
-							NOR = { 
-								is_building = ca_wall_q_5
-								has_building = ca_wall_q_5
-							}
-						}
-						OR = { 
-							AND = { 
-								custom_tooltip = { 
-									text = tooltip_can_build_ca_wall_q_1
-									hidden_tooltip = { 
-										NOR = { 
-											is_building = ca_wall_q_1
-											has_building = ca_wall_q_1
-										}
-										location = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
-									}
-								}
-							}
-							AND = { 
-								custom_tooltip = { 
-									text = tooltip_can_build_ca_wall_q_2
-									hidden_tooltip = { 
-										has_building = ca_wall_q_1
-										NOR = { 
-											is_building = ca_wall_q_2 
-											has_building = ca_wall_q_2
-										}
-										location = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
-									}
-								}
-							}
-							AND = { 
-								custom_tooltip = { 
-									text = tooltip_can_build_ca_wall_q_3
-									hidden_tooltip = { 
-										has_building = ca_wall_q_2
-										NOR = { 
-											is_building = ca_wall_q_3 
-											has_building = ca_wall_q_3
-										}
-										location = { TECH_FORTIFICATIONS_CONSTRUCTION = 3 }
-									}
-								}
-							}
-							AND = { 
-								custom_tooltip = { 
-									text = tooltip_can_build_ca_wall_q_4
-									hidden_tooltip = { 
-										has_building = ca_wall_q_3
-										NOR = { 
-											is_building = ca_wall_q_4 
-											has_building = ca_wall_q_4 
-										}
-									}
-								}
-								location = { TECH_FORTIFICATIONS_CONSTRUCTION = 5 }
-							}
-							AND = { 
-								custom_tooltip = { 
-									text = tooltip_can_build_ca_wall_q_5
-									hidden_tooltip = { 
-										has_building = ca_wall_q_4
-										NOR = { 
-											is_building = ca_wall_q_5 
-											has_building = ca_wall_q_5
-										}
-										location = { TECH_FORTIFICATIONS_CONSTRUCTION = 7 }
-									}
-								}
-							}
-						}
+	holding_type = castle
+	hidden_tooltip = { 
+		NOR = { 
+			is_building = ca_wall_q_5
+			has_building = ca_wall_q_5
+		}
+	}
+	OR = { 
+		AND = { 
+			custom_tooltip = { 
+				text = tooltip_can_build_ca_wall_q_1
+				hidden_tooltip = { 
+					NOR = { 
+						is_building = ca_wall_q_1
+						has_building = ca_wall_q_1
+					}
+					location = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+				}
+			}
+		}
+		AND = { 
+			custom_tooltip = { 
+				text = tooltip_can_build_ca_wall_q_2
+				hidden_tooltip = { 
+					has_building = ca_wall_q_1
+					NOR = { 
+						is_building = ca_wall_q_2 
+						has_building = ca_wall_q_2
+					}
+					location = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
+				}
+			}
+		}
+		AND = { 
+			custom_tooltip = { 
+				text = tooltip_can_build_ca_wall_q_3
+				hidden_tooltip = { 
+					has_building = ca_wall_q_2
+					NOR = { 
+						is_building = ca_wall_q_3 
+						has_building = ca_wall_q_3
+					}
+					location = { TECH_FORTIFICATIONS_CONSTRUCTION = 3 }
+				}
+			}
+		}
+		AND = { 
+			custom_tooltip = { 
+				text = tooltip_can_build_ca_wall_q_4
+				hidden_tooltip = { 
+					has_building = ca_wall_q_3
+					NOR = { 
+						is_building = ca_wall_q_4 
+						has_building = ca_wall_q_4 
+					}
+				}
+			}
+			location = { TECH_FORTIFICATIONS_CONSTRUCTION = 5 }
+		}
+		AND = { 
+			custom_tooltip = { 
+				text = tooltip_can_build_ca_wall_q_5
+				hidden_tooltip = { 
+					has_building = ca_wall_q_4
+					NOR = { 
+						is_building = ca_wall_q_5 
+						has_building = ca_wall_q_5
+					}
+					location = { TECH_FORTIFICATIONS_CONSTRUCTION = 7 }
+				}
+			}
+		}
+	}
 }
 
 personal_grievance_trigger = {
@@ -6109,7 +5679,6 @@ this_is_diplomatic_culture_trigger = { #Not really about culture - Used in AI vo
 		is_merchant_republic = yes
 	} 
 	OR = { 
-		religion_group = christian
 		religion = judaism_main
 		religion = zoroastrian_main
 		religion = greek_main
@@ -6131,10 +5700,6 @@ this_is_spiritual_culture_trigger = { #Not really about culture - Used in AI vot
 this_is_sea_raider_trigger = {
 	OR = { 
 		trait = pirate
-		trait = viking
-		trait = ravager
-		trait = seaking
-		trait = sea_queen
 	}
 }
 
@@ -6939,15 +6504,16 @@ has_at_least_3_traits_opposite_prev_trigger = {
 	}
 }
 
-has_any_sympathy_trait_trigger = { 
-	OR = {
-		trait = sympathy_christendom
-		trait = sympathy_islam
-		trait = sympathy_pagans
-		trait = sympathy_zoroastrianism
-		trait = sympathy_judaism
-		trait = sympathy_indian
-	}
+has_any_sympathy_trait_trigger = {
+	always = no # TODO: Add sympathies here
+	#OR = {
+	#	trait = sympathy_christendom
+	#	trait = sympathy_islam
+	#	trait = sympathy_pagans
+	#	trait = sympathy_zoroastrianism
+	#	trait = sympathy_judaism
+	#	trait = sympathy_indian
+	#}
 }
 
 preferred_gender_based_on_laws_trigger = {
@@ -7320,7 +6886,6 @@ region_africa_west_central_or_east_trigger = {
 	OR = {
 		region = world_africa_west
 		region = world_africa_east
-		region = world_africa_central
 	}
 }
 
@@ -7383,173 +6948,6 @@ ere_elective_politician_titles_trigger = { #Used in Imperial Elective to determi
 	} 
 }
 
-can_still_be_commander_byzantine_trigger = { 
-	NOT = { 
-		primary_title = { temporary = yes } 
-	}
-	liege = { 
-		character = FROMFROM 
-		has_law = succ_byzantine_elective
-	}
-	OR = {
-		AND = {
-			OR = {
-				male_can_hold_minor_title_trigger = yes
-				female_can_hold_minor_commander_title_trigger = yes
-			}
-			OR = {
-				NOT = { religion = hinduism_main }
-				trait = kshatriya
-			}
-			is_adult = yes
-		}
-		has_character_flag = special_marshal
-	}
-	
-	prisoner = no
-	NOT = { trait = incapable }
- 	NOT = { trait = sick_incapable }
-	NOT = { is_inaccessible_trigger = yes }
-	NOT = { has_character_flag = guru }
-	NOT = { has_character_modifier = refusing_to_lead }
-	NOR = { 
-		war_with = FROMFROM
-		any_liege = {  
-			war_with = FROMFROM
-		}
-	}
-	OR = { 
-		higher_real_tier_than = BARON #Either potential commander is vassal...
-		NOT = { #...Or there are no valid vassal candidates that can be commanders.
-			custom_tooltip = { 
-				text = tooltip_byzantine_empire_can_appoint_commanders
-				liege = { 
-					any_vassal = { 
-						higher_real_tier_than = BARON
-						NOT = { 
-							primary_title = { temporary = yes } 
-						}
-						OR = {
-							AND = {
-								OR = {
-									male_can_hold_minor_title_trigger = yes
-									female_can_hold_minor_commander_title_trigger = yes
-								}
-								OR = {
-									NOT = { religion = hinduism_main }
-									trait = kshatriya
-								}
-								is_adult = yes
-							}
-							has_character_flag = special_marshal
-						}
-						
-						prisoner = no
-						NOT = { trait = incapable }
-						NOT = { is_inaccessible_trigger = yes }
-						NOT = { has_character_flag = guru }
-						NOT = { has_character_modifier = refusing_to_lead }
-						NOR = {
-							has_job_title = job_chancellor
-							has_job_title = job_marshal
-							has_job_title = job_treasurer
-							has_job_title = job_spymaster
-							has_job_title = job_spiritual
-							has_minor_title = title_commander
-						}
-					} 
-				} 
-			} 
-		}
-	}
-}
-
-can_still_be_marshal_byzantine_trigger = {
-	liege = { 
-		character = FROMFROM
-		has_law = succ_byzantine_elective
-	}
-	NOR = { 
-		war_with = FROMFROM
-		any_liege = {  
-			war_with = FROMFROM
-		}
-	}
-	OR = {
-		AND = {
-			OR = {
-				AND = { #Patriarchal religions can only hire males. Matriarchal religions can only hire females.
-					is_female = no 
-					NOT = { liege = { has_religion_feature = religion_matriarchal } } 
-				}
-				AND = {
-					is_female = yes 
-					OR = { 
-						liege = { has_religion_feature = religion_matriarchal } 
-						liege = { has_religion_feature = religion_equal } 
-						liege = { has_religion_feature = religion_feature_bon } 
-					} 
-				}
-				trait = horse # So we can have female glitterhoofs! :D
-				AND = {
-					liege = {
-						primary_title = {
-							OR = {
-								has_law = status_of_women_3
-							}
-						}
-					}
-					OR = {
-						liege = {
-							OR = {
-								dynasty = ROOT
-								is_close_relative = ROOT
-								any_spouse = { character = ROOT }
-								any_consort = { character = ROOT }
-							}
-						}
-						is_landed = yes
-						
-					}
-				}
-				OR = {
-					AND = { 
-						is_female = yes
-						liege = { primary_title = { has_law = status_of_women_4 } } 
-					}
-					has_game_rule = {
-						name = gender
-						value = all
-					}
-				}
-			}
-			OR = {
-				NOT = { religion = hinduism_main }
-				trait = kshatriya
-			}
-			is_adult = yes
-		}
-		has_character_flag = special_marshal
-	}
-	
-	independent = no
-	prisoner = no
-	NOT = { trait = incapable }
- 	NOT = { trait = sick_incapable }
-	NOT = { trait = in_hiding }
-	NOT = { has_character_flag = guru }
-	NOT = { has_character_modifier = resigned_in_anger }
-	NOT = { 
-		liege = { 
-			has_opinion_modifier = {
-				who = ROOT	
-				modifier = opinion_resigned_from_council 
-			} 
-		} 
-	}
-}
-
-
 is_mongol_empire_leader_trigger = {
 	OR = {
 		has_landed_title = e_il-khanate
@@ -7563,6 +6961,3 @@ is_mongol_empire_leader_trigger = {
 		top_liege = { has_landed_title = e_mongol_empire }
 	}
 }
-
-
-

@@ -260,12 +260,12 @@ narrative_event = {
 	desc = {
 		text = EVTDSC_RIP_21001
 		picture = GFX_evt_council_arabic
-		trigger = { culture_group = arabic }	
+		trigger = { culture = arabic }	
 	}
 	desc = {
 		text = EVTDSC_RIP_21001
 		picture = GFX_evt_council
-		trigger = { NOT = { culture_group = arabic } }
+		trigger = { NOT = { culture = arabic } }
 	}
 	border = GFX_event_narrative_frame_religion
 	is_triggered_only = yes
@@ -822,8 +822,8 @@ narrative_event = {
 				name = "Idunn"
 				dna = chaehghfacw
 				dynasty = none
-				religion = norse_pagan
-				culture = norse
+				religion = celtic_main # TODO: Is this the right religion?
+				culture = gaul # TODO: Is this the right culture?
 				female = yes
 				age = 17
 				health = 15
@@ -879,8 +879,8 @@ narrative_event = {
 			create_character = {
 				random_traits = no
 				dynasty = none
-				religion = west_african_pagan
-				culture = manden
+				religion = celtic_main # TODO: Is this the right religion?
+				culture = gaul # TODO: Is this the right culture?
 				female = yes
 				age = 36
 				health = 15
@@ -943,8 +943,8 @@ narrative_event = {
 				name = "Cleopatra"
 				random_traits = no
 				dynasty = none
-				religion = hurufi
-				culture = egyptian_arabic
+				religion = celtic_main # TODO: Is this the right religion?
+				culture = gaul # TODO: Is this the right culture?
 				female = yes
 				age = 72
 				health = 15
@@ -1004,8 +1004,8 @@ narrative_event = {
 			create_character = {
 				random_traits = no
 				dynasty = none
-				religion = buddhist
-				culture = sinhala
+				religion = celtic_main # TODO: Is this the right religion?
+				culture = gaul # TODO: Is this the right culture?
 				female = yes
 				age = 9
 				health = 15
@@ -1147,8 +1147,8 @@ narrative_event = {
 				name = "Idunn"
 				dna = chaehghfacw
 				dynasty = none
-				religion = norse_pagan
-				culture = norse
+				religion = celtic_main # TODO: Is this the right religion?
+				culture = gaul # TODO: Is this the right culture?
 				female = yes
 				age = 17
 				health = 15
@@ -1203,8 +1203,8 @@ narrative_event = {
 			create_character = {
 				random_traits = no
 				dynasty = none
-				religion = west_african_pagan
-				culture = manden
+				religion = celtic_main # TODO: Is this the right religion?
+				culture = gaul # TODO: Is this the right culture?
 				female = yes
 				age = 36
 				health = 15
@@ -1269,8 +1269,8 @@ narrative_event = {
 				name = "Cleopatra"
 				random_traits = no
 				dynasty = none
-				religion = hurufi
-				culture = egyptian_arabic
+				religion = celtic_main # TODO: Is this the right religion?
+				culture = gaul # TODO: Is this the right culture?
 				female = yes
 				age = 72
 				health = 15
@@ -1329,8 +1329,8 @@ narrative_event = {
 			create_character = {
 				random_traits = no
 				dynasty = none
-				religion = buddhist
-				culture = sinhala
+				religion = celtic_main # TODO: Is this the right religion?
+				culture = gaul # TODO: Is this the right culture?
 				female = yes
 				age = 9
 				attributes = {
@@ -1616,38 +1616,17 @@ narrative_event = {
 			limit = { trait = zealous }
 			remove_trait = zealous
 		}
-		if = {
-			limit = {
-				FROM = { religion_group = pagan_group }
-				NOT = { 
-					trait = sympathy_pagans 
-					FROM = { religion_group = ROOT }
-				} 
-			}
-			add_trait = sympathy_pagans
-		}
-
-		if = {
-			limit = {
-				FROM = { religion_group = muslim } 
-				NOT = { 
-					trait = sympathy_islam 
-					FROM = { religion_group = ROOT }
-				} 
-			}
-			add_trait = sympathy_islam
-		}
-
-		if = {
-			limit = {
-				FROM = { religion_group = indian_group } 
-				NOT = { 
-					trait = sympathy_indian 
-					FROM = { religion_group = ROOT }
-				} 
-			}
-			add_trait = sympathy_indian
-		}
+		# TODO: Handle sympathies.
+		#if = {
+		#	limit = {
+		#		FROM = { religion_group = pagan_group }
+		#		NOT = { 
+		#			trait = sympathy_pagans 
+		#			FROM = { religion_group = ROOT }
+		#		} 
+		#	}
+		#	add_trait = sympathy_pagans
+		#}
 	}
 	#Leave for different religion
 	option = {
@@ -2432,25 +2411,6 @@ narrative_event = {
 		custom_tooltip = { text = EVTOPTA_RIP_21122_TOOLTIP } 
 		
 		add_trait = immortal
-                if = { 
-                    limit = { 
-                    	is_female = no 
-                    	has_dlc = "Holy Fury"
-                    }
-                    create_bloodline = {
-                        type = immortal_bloodline_01
-                    }       
-                }
-                if = { 
-                    limit = { 
-                    	is_female = yes 
-                    	has_dlc = "Holy Fury"
-                    }
-                    create_bloodline = {
-                        type = immortal_bloodline_01
-                        inheritance = matrilineal
-                    }       
-                }
 
 		if = {
 			limit = { trait = incapable }
@@ -2516,25 +2476,6 @@ narrative_event = {
 		custom_tooltip = { text = EVTOPTA_RIP_21124_TOOLTIP } 
 		
 		add_trait = immortal
-                if = { 
-                    limit = { 
-                    	is_female = no 
-                    	has_dlc = "Holy Fury"
-                    }
-                    create_bloodline = {
-                        type = immortal_bloodline_01
-                    }       
-                }
-                if = { 
-                    limit = { 
-                    	is_female = yes 
-                    	has_dlc = "Holy Fury"
-                    }
-                    create_bloodline = {
-                        type = immortal_bloodline_01
-                        inheritance = matrilineal
-                    }       
-                }
 
 		if = {
 			limit = { trait = incapable }
@@ -3375,25 +3316,6 @@ narrative_event = {
 		custom_tooltip = { text = EVTOPTA_RIP_21222_TOOLTIP }
 		
 		add_trait = immortal
-                if = { 
-                    limit = { 
-                    	is_female = no 
-                    	has_dlc = "Holy Fury"
-                    }
-                    create_bloodline = {
-                        type = immortal_bloodline_01
-                    }       
-                }
-                if = { 
-                    limit = { 
-                    	is_female = yes 
-                    	has_dlc = "Holy Fury"
-                    }
-                    create_bloodline = {
-                        type = immortal_bloodline_01
-                        inheritance = matrilineal
-                    }       
-                }
 
 		if = {
 			limit = { trait = incapable }
@@ -3459,25 +3381,6 @@ narrative_event = {
 		custom_tooltip = { text = EVTOPTA_RIP_21224_TOOLTIP }
 		
 		add_trait = immortal
-                if = { 
-                    limit = { 
-                    	is_female = no 
-                    	has_dlc = "Holy Fury"
-                    }
-                    create_bloodline = {
-                        type = immortal_bloodline_01
-                    }       
-                }
-                if = { 
-                    limit = { 
-                    	is_female = yes 
-                    	has_dlc = "Holy Fury"
-                    }
-                    create_bloodline = {
-                        type = immortal_bloodline_01
-                        inheritance = matrilineal
-                    }       
-                }
 
 		if = {
 			limit = { trait = incapable }
@@ -4271,25 +4174,6 @@ narrative_event = {
 		name = EVTOPTA_RIP_21322
 		custom_tooltip = { text = EVTOPTA_RIP_21322_TOOLTIP } 
 		add_trait = immortal
-                if = { 
-                    limit = { 
-                    	is_female = no 
-                    	has_dlc = "Holy Fury"
-                    }
-                    create_bloodline = {
-                        type = immortal_bloodline_01
-                    }       
-                }
-                if = { 
-                    limit = { 
-                    	is_female = yes 
-                    	has_dlc = "Holy Fury"
-                    }
-                    create_bloodline = {
-                        type = immortal_bloodline_01
-                        inheritance = matrilineal
-                    }       
-                }
 
 		if = {
 			limit = { trait = incapable }
@@ -4353,25 +4237,6 @@ narrative_event = {
 		name = EVTOPTA_RIP_21324
 		custom_tooltip = { text = EVTOPTA_RIP_21324_TOOLTIP } 
 		add_trait = immortal
-                if = { 
-                    limit = { 
-                    	is_female = no 
-                    	has_dlc = "Holy Fury"
-                    }
-                    create_bloodline = {
-                        type = immortal_bloodline_01
-                    }       
-                }
-                if = { 
-                    limit = { 
-                    	is_female = yes 
-                    	has_dlc = "Holy Fury"
-                    }
-                    create_bloodline = {
-                        type = immortal_bloodline_01
-                        inheritance = matrilineal
-                    }       
-                }
 
 		if = {
 			limit = { trait = incapable }
@@ -5201,25 +5066,6 @@ narrative_event = {
 		name = EVTOPTA_RIP_21422
 		custom_tooltip = { text = EVTOPTA_RIP_21422_TOOLTIP } 
 		add_trait = immortal
-                if = { 
-                    limit = { 
-                    	is_female = no 
-                    	has_dlc = "Holy Fury"
-                    }
-                    create_bloodline = {
-                        type = immortal_bloodline_01
-                    }       
-                }
-                if = { 
-                    limit = { 
-                    	is_female = yes 
-                    	has_dlc = "Holy Fury"
-                    }
-                    create_bloodline = {
-                        type = immortal_bloodline_01
-                        inheritance = matrilineal
-                    }       
-                }
 
 		if = {
 			limit = { trait = incapable }

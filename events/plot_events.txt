@@ -255,11 +255,6 @@ character_event = {
 				has_plot = plot_gain_fellow_vassal_title
 			}
 			is_plot_active = no
-			OR = {
-				NOT = { religion_group = muslim }
-				trait = hedonist
-				trait = drunkard
-			}
 			NOT = { has_character_flag = event7040 }
 			NOT = {
 				plot_target_char = {
@@ -396,11 +391,6 @@ character_event = {
 				has_plot = plot_kill_spouse
 			}
 			is_plot_active = no
-			OR = {
-				NOT = { religion_group = muslim }
-				trait = hedonist
-				trait = drunkard
-			}
 			NOT = { has_character_flag = event7041 }
 			NOT = {
 				plot_target_char = {
@@ -1187,32 +1177,7 @@ letter_event = {
 		}
 		FROM = {
 			faction_succ_feudal_elective = { # The target (title) of the faction
-				if = {
-					limit = {
-						NOR = { 
-							title = e_hre 
-							has_title_flag = alternate_hre
-						}
-					}
-					add_law_w_cooldown = succ_feudal_elective
-					#succession = {
-					#	base_type = feudal_elective
-					#	voting_rules = feudal_elective
-					#}
-				}
-				if = {
-					limit = {
-						OR = { 
-							title = e_hre 
-							has_title_flag = alternate_hre
-						}
-					}
-					add_law_w_cooldown = succ_hre_elective
-					#succession = {
-					#	base_type = feudal_elective
-					#	voting_rules = hre_feudal_elective
-					#}
-				}
+				add_law_w_cooldown = succ_feudal_elective
 			}
 		}
 	}
@@ -3049,8 +3014,9 @@ letter_event = {
 				higher_tier_than = BARON
 				FROM = {
 					OR = { # If the old liege can use the subjugation CB, give no claims
-						NOT = { religion_group = pagan_group }
-						NOT = { culture_group = ROOT }
+						# TODO: Add subjugation people here
+						#NOT = { religion_group = pagan_group }
+						#NOT = { culture_group = ROOT }
 					}
 				}
 			}
@@ -3346,8 +3312,9 @@ letter_event = {
 				higher_tier_than = BARON
 				FROM = {
 					OR = { # If the old liege can use the subjugation CB, give no claims
-						NOT = { religion_group = pagan_group }
-						NOT = { culture_group = ROOT }
+						# TODO: Add subjugation people here
+						#NOT = { religion_group = pagan_group }
+						#NOT = { culture_group = ROOT }
 					}
 				}
 			}
@@ -3783,12 +3750,6 @@ character_event = {
 			at_location = ROOT # The Plot Head needs to be at the target's location to get a chance
 			NOT = { trait = incapable }
 			NOT = { is_inaccessible_trigger = yes }
-			OR = {
-				NOT = { religion_group = muslim }
-				trait = decadent
-				trait = hedonist
-				trait = drunkard
-			}
 		}
 		OR = {
 			NOT = { has_character_flag = murder_in_motion }
@@ -19507,29 +19468,11 @@ letter_event = {
 					add_law_w_cooldown = succession_voting_power_1
 				}
 				if = {
-					limit = { NOT = { has_law = succ_byzantine_elective } }
 					custom_tooltip = {
 						text = overthrow_text
 						hidden_tooltip = {
 							if = {
 								limit = { 
-									title = e_hre
-									NOT = { has_law = succ_hre_elective }
-									NOT = { has_law = succ_feudal_elective }
-									has_law = law_voting_power_1
-									has_law = banish_voting_power_1
-									has_law = execution_voting_power_1
-									has_law = revoke_title_voting_power_1
-									has_law = grant_title_voting_power_1
-									has_law = imprison_voting_power_1
-									has_law = war_voting_power_1						
-								}
-								add_law_w_cooldown = succ_hre_elective
-							}
-							if = {
-								limit = { 
-									NOT = { title = e_hre }
-									NOT = { has_law = succ_hre_elective }
 									NOT = { has_law = succ_feudal_elective }
 									has_law = law_voting_power_1
 									has_law = banish_voting_power_1
@@ -19545,7 +19488,6 @@ letter_event = {
 								limit = {
 									NOT = { has_law = succ_gavelkind }
 									NOT = { has_law = succ_feudal_elective }
-									NOT = { has_law = succ_hre_elective }
 									NAND = {
 										has_law = succ_feudal_elective
 										has_law = law_voting_power_1
@@ -19851,30 +19793,8 @@ character_event = {
 				limit = { has_law = succession_voting_power_0 }
 				add_law_w_cooldown = succession_voting_power_1
 			}
-			if = {
-				limit = { 
-					NOT =  { has_law = succ_byzantine_elective } 
-					OR =  { 
-						title = e_hre 
-						has_title_flag = alternate_hre
-					} 
-					NOT =  { has_law = succ_feudal_elective } 
-				}
-				add_law_w_cooldown = succ_hre_elective
-			}
-			if = {
-				limit = { 
-					NOR =  { 
-						title = e_hre 
-						has_title_flag = alternate_hre
-						has_law = succ_feudal_elective 
-						has_law = succ_byzantine_elective
-					} 
-				}
-				add_law_w_cooldown = succ_feudal_elective
-			}
+			add_law_w_cooldown = succ_feudal_elective
 		}
-
 	}
 	
 	option = {

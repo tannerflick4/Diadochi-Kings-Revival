@@ -591,12 +591,6 @@ character_event = {
 		}
 		if = { 
 			limit = { 
-				trait = on_pilgrimage
-			}
-			change_variable = { which = physique_variable value = -2 }
-		}
-		if = { 
-			limit = { 
 				trait = on_indian_pilgrimage
 			}
 			change_variable = { which = physique_variable value = -2 }
@@ -659,48 +653,6 @@ character_event = {
 		}
 		if = { 
 			limit = { 
-				trait = varangian
-				NOT = { check_variable = { which = physique_variable value = -1 } }
-			}
-			change_variable = { which = physique_variable value = 1 }
-		}
-		if = { 
-			limit = { 
-				trait = varangian
-				check_variable = { which = physique_variable value = 1 }
-			}
-			change_variable = { which = physique_variable value = -1 }
-		}
-		if = { 
-			limit = { 
-				trait = berserker
-				NOT = { check_variable = { which = physique_variable value = -1 } }
-			}
-			change_variable = { which = physique_variable value = 1 }
-		}
-		if = { 
-			limit = { 
-				trait = berserker
-				check_variable = { which = physique_variable value = 1 }
-			}
-			change_variable = { which = physique_variable value = -1 }
-		}
-		if = { 
-			limit = { 
-				trait = viking
-				NOT = { check_variable = { which = physique_variable value = -1 } }
-			}
-			change_variable = { which = physique_variable value = 1 }
-		}
-		if = { 
-			limit = { 
-				trait = viking
-				check_variable = { which = physique_variable value = 1 }
-			}
-			change_variable = { which = physique_variable value = -1 }
-		}
-		if = { 
-			limit = { 
 				trait = pirate
 				NOT = { check_variable = { which = physique_variable value = -1 } }
 			}
@@ -709,20 +661,6 @@ character_event = {
 		if = { 
 			limit = { 
 				trait = pirate
-				check_variable = { which = physique_variable value = 1 }
-			}
-			change_variable = { which = physique_variable value = -1 }
-		}
-		if = { 
-			limit = { 
-				trait = ravager
-				NOT = { check_variable = { which = physique_variable value = -1 } }
-			}
-			change_variable = { which = physique_variable value = 1 }
-		}
-		if = { 
-			limit = { 
-				trait = ravager
 				check_variable = { which = physique_variable value = 1 }
 			}
 			change_variable = { which = physique_variable value = -1 }
@@ -754,35 +692,6 @@ character_event = {
 				NOT = { check_variable = { which = physique_variable value = -1 } }
 			}
 			change_variable = { which = physique_variable value = 1 }
-		}
-		if = { 
-			limit = { 
-				OR = { 
-					trait = crusader 
-					trait = mujahid
-					trait = valhalla_bound
-					trait = eagle_warrior
-					trait = sun_warrior 
-					trait = ukkos_shield
-					trait = nyames_shield
-					trait = peruns_chosen
-					trait = romuvas_own
-					trait = tengri_warrior
-					trait = shaddai
-					trait = gondi_shahansha
-
-				}
-				NOT = { check_variable = { which = physique_variable value = -1 } }
-			}
-			change_variable = { which = physique_variable value = 2 }
-		}
-		if = { 
-			limit = { 
-				OR = { trait = crusader 
-				}
-				check_variable = { which = physique_variable value = 1 }
-			}
-			change_variable = { which = physique_variable value = -2 }
 		}
 		if = { 
 			limit = { 
@@ -808,12 +717,6 @@ character_event = {
 		if = { 
 			limit = { 
 				trait = kow_tow_travels
-			}
-			change_variable = { which = physique_variable value = -2 }
-		}
-		if = { 
-			limit = { 
-				trait = on_hajj
 			}
 			change_variable = { which = physique_variable value = -2 }
 		}
@@ -1159,7 +1062,7 @@ character_event = {
 		#Status
 		if = { 
 			limit = { 
-				religion = buddhist
+				religion = buddhism_main
 			}
 			change_variable = { which = physique_variable value = -1 }
 		}
@@ -1866,8 +1769,7 @@ character_event = {
 				any_lover = { is_married = ROOT }
 			}
 			NOR = { 
-				trait = shieldmaiden 
-				trait = sea_queen
+				trait = shieldmaiden
 				has_character_flag = special_marshal
 			}
 			liege = { 
@@ -3794,21 +3696,17 @@ character_event = {
 			AND = { 
 				NOT = { trait = cynical }
 				trait = theologian
-				OR = { 
-					religion_group = christian
-					religion_group = muslim
-					religion_group = jewish_group
-					religion_group = indian_group
+				OR = {
+					religion = judaism_main
+					has_dharmic_religion_trigger = yes
 				}
 			}
 			AND = { 
 				NOT = { trait = cynical }
 				has_focus = focus_theology
-				OR = { 
-					religion_group = christian
-					religion_group = muslim
-					religion_group = jewish_group
-					religion_group = indian_group
+				OR = {
+					religion = judaism_main
+					has_dharmic_religion_trigger = yes
 				}
 			}
 			trait = paranoid
@@ -4042,10 +3940,8 @@ character_event = {
 				}
 				modifier = {
 					factor = 0
-					NOT = { religion_group = christian }
-					NOT = { religion_group = muslim }
-					NOT = { religion_group = jewish_group }
-					NOT = { religion_group = indian_group }
+					NOT = { religion = judaism_main }
+					NOT = { has_dharmic_religion_trigger = yes }
 				}
 				set_character_flag = flag_malnourished_for_faith
 			} 
@@ -6195,11 +6091,7 @@ character_event = {
 						OR = { 
 							AND = { #Moralizers against fat
 								ROOT = { check_variable = { which = physique_variable value = 7 } } 
-								OR = { 
-									religion_group = christian
-									religion_group = muslim
-									religion_group = indian_group
-								}
+								has_dharmic_religion_trigger = yes
 								OR = { 
 									trait = zealous
 									trait = temperate
@@ -6245,11 +6137,7 @@ character_event = {
 						OR = { 
 							AND = { #Moralizers against fat
 								ROOT = { check_variable = { which = physique_variable value = 7 } } 
-								OR = { 
-									religion_group = christian
-									religion_group = muslim
-									religion_group = indian_group
-								}
+								has_dharmic_religion_trigger = yes
 								OR = { 
 									trait = zealous
 									trait = temperate
@@ -6389,11 +6277,7 @@ character_event = {
 								OR = { 
 									AND = { #Moralizers against fat
 										ROOT = { check_variable = { which = physique_variable value = 7 } } 
-										OR = { 
-											religion_group = christian
-											religion_group = muslim
-											religion_group = indian_group
-										}
+										has_dharmic_religion_trigger = yes
 										OR = { 
 											trait = zealous
 											trait = temperate
@@ -6437,11 +6321,7 @@ character_event = {
 								OR = { 
 									AND = { #Moralizers against fat
 										ROOT = { check_variable = { which = physique_variable value = 7 } } 
-										OR = { 
-											religion_group = christian
-											religion_group = muslim
-											religion_group = indian_group
-										}
+										has_dharmic_religion_trigger = yes
 										OR = { 
 											trait = zealous
 											trait = temperate
@@ -6481,11 +6361,7 @@ character_event = {
 									OR = { 
 										AND = { #Moralizers against fat
 											ROOT = { check_variable = { which = physique_variable value = 7 } } 
-											OR = { 
-												religion_group = christian
-												religion_group = muslim
-												religion_group = indian_group
-											}
+											has_dharmic_religion_trigger = yes
 											OR = { 
 												trait = zealous
 												trait = temperate
@@ -6520,11 +6396,7 @@ character_event = {
 								OR = { 
 									AND = { #Moralizers against fat
 										ROOT = { check_variable = { which = physique_variable value = 7 } } 
-										OR = { 
-											religion_group = christian
-											religion_group = muslim
-											religion_group = indian_group
-										}
+										has_dharmic_religion_trigger = yes
 										OR = { 
 											trait = zealous
 											trait = temperate
@@ -6563,11 +6435,7 @@ character_event = {
 									OR = { 
 										AND = { #Moralizers against fat
 											ROOT = { check_variable = { which = physique_variable value = 7 } } 
-											OR = { 
-												religion_group = christian
-												religion_group = muslim
-												religion_group = indian_group
-											}
+											has_dharmic_religion_trigger = yes
 											OR = { 
 												trait = zealous
 												trait = temperate
@@ -6602,11 +6470,7 @@ character_event = {
 								OR = { 
 									AND = { #Moralizers against fat
 										ROOT = { check_variable = { which = physique_variable value = 7 } } 
-										OR = { 
-											religion_group = christian
-											religion_group = muslim
-											religion_group = indian_group
-										}
+										has_dharmic_religion_trigger = yes
 										OR = { 
 											trait = zealous
 											trait = temperate
@@ -6825,11 +6689,7 @@ character_event = {
 					trait = theologian
 					is_theocracy = yes
 				}
-				OR = { 
-					religion_group = christian
-					religion_group = muslim
-					religion_group = indian_group
-				}
+				has_dharmic_religion_trigger = yes
 			}
 			modifier = {
 				factor = 1.5
@@ -6881,11 +6741,7 @@ character_event = {
 					trait = theologian
 					is_theocracy = yes
 				}
-				OR = { 
-					religion_group = christian
-					religion_group = muslim
-					religion_group = indian_group
-				}
+				has_dharmic_religion_trigger = yes
 			}
 			modifier = {
 				factor = 1.5
@@ -7083,11 +6939,7 @@ character_event = {
 					trait = theologian
 					is_theocracy = yes
 				}
-				OR = { 
-					religion_group = christian
-					religion_group = muslim
-					religion_group = indian_group
-				}
+				has_dharmic_religion_trigger = yes
 			}
 			modifier = {
 				factor = 1.5

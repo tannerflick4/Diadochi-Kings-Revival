@@ -91,30 +91,11 @@ character_event = {
 				OR = { 
 					trait = cynical
 					NOT = { religion = FROM }
-					event_target:potential_antagonized = { 
-						trait = sympathy_christendom
-						ROOT = { NOT = { religion_group = christian } }
-					}
-					event_target:potential_antagonized = { 
-						trait = sympathy_islam
-						ROOT = { NOT = { religion_group = muslim } }
-					}
-					event_target:potential_antagonized = { 
-						trait = sympathy_pagans
-						ROOT = { NOT = { religion_group = pagan_group } }
-					}
-					event_target:potential_antagonized = { 
-						trait = sympathy_zoroastrianism
-						ROOT = { NOT = { religion_group = zoroastrian_group } }
-					}
-					event_target:potential_antagonized = { 
-						trait = sympathy_judaism
-						ROOT = { NOT = { religion_group = jewish_group } }
-					}
-					event_target:potential_antagonized = { 
-						trait = sympathy_indian
-						ROOT = { NOT = { religion_group = indian_group } }
-					}
+					# TODO: Add sympathies
+					#event_target:potential_antagonized = { 
+					#	trait = sympathy_christendom
+					#	ROOT = { NOT = { religion_group = christian } }
+					#}
 				}
 			}
 			#Trait compatibility modifiers - Already so much in common, why fight?
@@ -441,30 +422,11 @@ character_event = {
 				}
 				OR = {
 					religion_group = ROOT
-					AND = {
-						ROOT = { trait = sympathy_christendom }
-						religion_group = christian
-					}
-					AND = {
-						ROOT = { trait = sympathy_islam }
-						religion_group = muslim
-					}
-					AND = {
-						ROOT = { trait = sympathy_pagans }
-						religion_group = pagan_group
-					}
-					AND = {
-						ROOT = { trait = sympathy_zoroastrianism }
-						religion_group = zoroastrian_group
-					}
-					AND = {
-						ROOT = { trait = sympathy_judaism }
-						religion_group = jewish_group
-					}
-					AND = {
-						ROOT = { trait = sympathy_indian }
-						religion_group = indian_group
-					}
+					# TODO: Add sympathies.
+					#AND = {
+					#	ROOT = { trait = sympathy_christendom }
+					#	religion_group = christian
+					#}
 				}
 				NOR = {
 					has_opinion_modifier = { who = FROM modifier = opinion_rebuked_appeaser_cooldown }
@@ -473,11 +435,6 @@ character_event = {
 					is_friend = ROOT
 					has_character_flag = flag_character_being_swayed
 					has_character_flag = flag_character_being_antagonized
-					AND = {
-						religion_group = pagan_group
-						NOT = { religion = ROOT }
-						ROOT = { trait = zealous }
-					}
 				}
 			}
 			save_event_target_as = potential_swayed
@@ -1682,7 +1639,6 @@ character_event = {
 								OR = {
 									trait = mystic
 									trait = scholar
-									trait = faqih
 									trait = theologian
 								}
 							}
@@ -7000,30 +6956,7 @@ character_event = {
 			limit = { 
 				NOT = { religion_group = FROM } 
 				OR = { 
-					AND = { 
-						FROM = { religion_group = christian }
-						NOT = { trait = sympathy_christendom } 
-					} 
-					AND = { 
-						FROM = { religion_group = muslim }
-						NOT = { trait = sympathy_islam } 
-					} 
-					AND = { 
-						FROM = { religion_group = zoroastrian_group }
-						NOT = { trait = sympathy_zoroastrianism } 
-					} 
-					AND = { 
-						FROM = { religion_group = pagan_group }
-						NOT = { trait = sympathy_pagans } 
-					} 
-					AND = { 
-						FROM = { religion_group = jewish_group }
-						NOT = { trait = sympathy_judaism } 
-					} 
-					AND = { 
-						FROM = { religion_group = indian_group }
-						NOT = { trait = sympathy_indian } 
-					} 
+					# TODO: Handle sympathies
 				}
 			} 
 			custom_tooltip = { text = tooltip_21076_sympathy } 
@@ -7132,60 +7065,16 @@ character_event = {
 				years = 5
 			}
 		}
-		if = { 
-			limit = { 
-				NOT = { religion_group = FROM } 
-				NOT = { trait = sympathy_christendom }
-				FROM = { religion_group = christian }
-				FROM = { has_character_flag = flag_appease_kind_religion }
-			} 
-			random = { chance = 30 add_trait = sympathy_christendom }
-		} 
-		if = { 
-			limit = { 
-				NOT = { religion_group = FROM } 
-				NOT = { trait = sympathy_islam }
-				FROM = { religion_group = muslim }
-				FROM = { has_character_flag = flag_appease_kind_religion }
-			} 
-			random = { chance = 30 add_trait = sympathy_islam }
-		} 
-		if = { 
-			limit = { 
-				NOT = { religion_group = FROM } 
-				NOT = { trait = sympathy_pagans }
-				FROM = { religion_group = pagan_group }
-				FROM = { has_character_flag = flag_appease_kind_religion }
-			} 
-			random = { chance = 30 add_trait = sympathy_pagans }
-		} 
-		if = { 
-			limit = { 
-				NOT = { religion_group = FROM } 
-				NOT = { trait = sympathy_zoroastrianism }
-				FROM = { religion_group = zoroastrian_group }
-				FROM = { has_character_flag = flag_appease_kind_religion }
-			} 
-			random = { chance = 30 add_trait = sympathy_zoroastrianism }
-		} 
-		if = { 
-			limit = { 
-				NOT = { religion_group = FROM } 
-				NOT = { trait = sympathy_judaism }
-				FROM = { religion_group = jewish_group }
-				FROM = { has_character_flag = flag_appease_kind_religion }
-			} 
-			random = { chance = 30 add_trait = sympathy_judaism }
-		} 
-		if = { 
-			limit = { 
-				NOT = { religion_group = FROM } 
-				NOT = { trait = sympathy_indian }
-				FROM = { religion_group = indian_group }
-				FROM = { has_character_flag = flag_appease_kind_religion }
-			} 
-			random = { chance = 30 add_trait = sympathy_indian }
-		} 
+		# TODO: Add sympathies
+		#if = { 
+		#	limit = { 
+		#		NOT = { religion_group = FROM } 
+		#		NOT = { trait = sympathy_christendom }
+		#		FROM = { religion_group = christian }
+		#		FROM = { has_character_flag = flag_appease_kind_religion }
+		#	} 
+		#	random = { chance = 30 add_trait = sympathy_christendom }
+		#}
 		hidden_tooltip = { FROM = { character_event = { id = HF.21078 days = 10 } } }
 		ai_chance = { 
 			factor = 50 
@@ -7373,54 +7262,15 @@ character_event = {
 				}
 			}
 		}
-		if = { 
-			limit = { 
-				NOT = { religion_group = FROM } 
-				NOT = { trait = sympathy_christendom }
-				FROM = { religion_group = christian }
-			} 
-			random = { chance = 30 add_trait = sympathy_christendom }
-		} 
-		if = { 
-			limit = { 
-				NOT = { religion_group = FROM } 
-				NOT = { trait = sympathy_islam }
-				FROM = { religion_group = muslim }
-			} 
-			random = { chance = 30 add_trait = sympathy_islam }
-		} 
-		if = { 
-			limit = { 
-				NOT = { religion_group = FROM } 
-				NOT = { trait = sympathy_pagans }
-				FROM = { religion_group = pagan_group }
-			} 
-			random = { chance = 30 add_trait = sympathy_pagans }
-		} 
-		if = { 
-			limit = { 
-				NOT = { religion_group = FROM } 
-				NOT = { trait = sympathy_zoroastrianism }
-				FROM = { religion_group = zoroastrian_group }
-			} 
-			random = { chance = 30 add_trait = sympathy_zoroastrianism }
-		} 
-		if = { 
-			limit = { 
-				NOT = { religion_group = FROM } 
-				NOT = { trait = sympathy_judaism }
-				FROM = { religion_group = jewish_group }
-			} 
-			random = { chance = 30 add_trait = sympathy_judaism }
-		} 
-		if = { 
-			limit = { 
-				NOT = { religion_group = FROM } 
-				NOT = { trait = sympathy_indian }
-				FROM = { religion_group = indian_group }
-			} 
-			random = { chance = 30 add_trait = sympathy_indian }
-		}
+		# TODO: Add sympathies
+		#if = { 
+		#	limit = { 
+		#		NOT = { religion_group = FROM } 
+		#		NOT = { trait = sympathy_christendom }
+		#		FROM = { religion_group = christian }
+		#	} 
+		#	random = { chance = 30 add_trait = sympathy_christendom }
+		#}
 		clr_character_flag = flag_appease_kind_approach
 		clr_character_flag = flag_appease_kind_health
 		clr_character_flag = flag_appease_kind_religion
@@ -17024,12 +16874,6 @@ character_event = {
 		trigger = { 
 			trait = kind
 			any_war = {
-				NOT = { 
-					OR = {
-						using_cb = crusade
-						using_cb = new_crusade
-					}
-				}
 				OR = { 
 					attacker = { character = FROM }
 					defender = { character = FROM } 
@@ -17273,18 +17117,6 @@ character_event = {
 		tiered_piety_reward_effect = yes
 		hidden_tooltip = {
 			any_war = {
-				limit = {
-					NOT = { 
-						OR = {
-							using_cb = crusade
-							using_cb = new_crusade
-						}
-					}
-					OR = { 
-						attacker = { character = FROM }
-						defender = { character = FROM } 
-					}
-				}
 				end_war = whitepeace
 			}
 		}

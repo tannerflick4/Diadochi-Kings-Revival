@@ -1,84 +1,26 @@
 # Referenced by the "Join Crusade" button in the Crusade view for Crusades using the new Crusade system
 pledge_crusade_effect = {
-	pledge_crusade_participation = yes
-	piety = 100
-	add_character_modifier = {
-		name = recently_pledged_to_crusade_cooldown
-		hidden = yes
-		duration = 45
-	}
-
-        trigger_switch = {
-            on_trigger = tier
-            EMPEROR = { add_to_crusade_prestige_pot = 2000 add_to_crusade_piety_pot = 800 }
-            KING = { add_to_crusade_prestige_pot = 1000 add_to_crusade_piety_pot = 400 }
-            DUKE = { add_to_crusade_prestige_pot = 500 add_to_crusade_piety_pot = 200 }
-            COUNT = { add_to_crusade_prestige_pot = 250 add_to_crusade_piety_pot = 100 }
-            BARON = { add_to_crusade_prestige_pot = 125 add_to_crusade_piety_pot = 100 }
-        }
-
-	random = {
-		chance = 50
-		add_to_crusade_artifact_pot = 1
-	}
-
-	if = {
-		limit = {
-			trait = excommunicated
-		}
-		rightful_religious_head_scope = {
-			character_event = { id = HFP.41056 }
-		}
-	}
-
-	remove_character_modifier = not_pledged_to_crusade
+	# Unused
 }
 
 # Referenced by the "Leave Crusade" button in the Crusade view for Crusades using the new Crusade system
 unpledge_crusade_effect = {
-	pledge_crusade_participation = no
-	piety = -300
-	add_character_modifier = {
-		name = recently_unpledged_to_crusade_cooldown
-		hidden = yes
-		duration = 365
-	}
-
-	trigger_switch = {
-		on_trigger = tier
-		EMPEROR = { add_to_crusade_prestige_pot = -2000 add_to_crusade_piety_pot = -800 }
-		KING = { add_to_crusade_prestige_pot = -1000 add_to_crusade_piety_pot = -400 }
-		DUKE = { add_to_crusade_prestige_pot = -500 add_to_crusade_piety_pot = -200 }
-		COUNT = { add_to_crusade_prestige_pot = -250 add_to_crusade_piety_pot = -100 }
-		BARON = { add_to_crusade_prestige_pot = -125 add_to_crusade_piety_pot = -100 }
-	}
-
-	random = {
-		chance = 50
-		add_to_crusade_artifact_pot = -1
-	}
-
-	add_character_modifier = {
-		name = not_pledged_to_crusade
-		years = 3
-	}
-
-	set_character_flag = asked_to_pledge
+	# Unused
 }
 
 # Referenced by the "Join Crusade" button in the Crusade defender view for Crusades using the new Crusade system
 defender_pledge_crusade_effect = {
-	pledge_crusade_defense = yes
+	# Unused
 }
 
 # Referenced by the "Leave Crusade" button in the Crusade defender view for Crusades using the new Crusade system
 defender_unpledge_crusade_effect = {
-	pledge_crusade_defense = no
+	# Unused
 }
 
 # Referenced by the "Contribute to Pot" button in the Crusade view for Crusades using the new Crusade system
 contribute_to_crusade_pot_effect = {
-	character_event = { id = HFP.41088 }
+	# Unused
 }
 
 # Referenced by getting artifacts from a Crusade
@@ -88,7 +30,7 @@ crusade_give_artifact_effect = {
 
 # Referenced by the "Select Receiver Stance" button in the Crusade view for Crusades using the new Crusade system
 select_crusade_receiver_stance_effect = {
-	character_event = { id = HFP.41091 }
+	# Unused
 }
 
 # Crusader King/Queen set up 
@@ -97,11 +39,11 @@ setting_up_the_crusader_kingdom_effect = {
 }
 
 battle_commander_counter_positive_effect = {
-	crusader_commander_counter_positive_effect = yes
+	# Unused
 }
 
 battle_commander_counter_negative_effect = {
-	crusader_commander_counter_negative_effect = yes
+	# Unused
 }
 
 # Crusader Commander counter
@@ -138,6 +80,5 @@ check_if_reconquista_finished_effect = {
 }
 
 check_war_effect = {
-	check_if_reconquista_finished_effect = yes
-	check_holy_order_donation_effect = yes
+	# Unused
 }

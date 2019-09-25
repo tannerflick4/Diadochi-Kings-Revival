@@ -222,14 +222,6 @@ character_event = {
 							trait = trusting
 							trait = zealous
 							AND = { 
-								trait = erudite 
-								NOR = { 
-									religion = hellenic_pagan
-									religion = hellenic_pagan_reformed
-								}
-								ROOT = { religion_group = pagan_group }
-							}
-							AND = { 
 								trait = cynical 
 								religion = ROOT
 							}
@@ -2376,18 +2368,10 @@ character_event = {
 				modifier = { 
 					factor = 0
 					NOT = { trait = erudite }
-				}	
-				modifier = { #Context
-					factor = 0
-					FROM = { NOT = { religion_group = pagan_group } }
 				}
 				modifier = { #Context
 					factor = 0
-					FROM = { religion = hellenic_pagan }
-				}
-				modifier = { #Context
-					factor = 0
-					FROM = { religion = hellenic_pagan_reformed }
+					FROM = { religion_group = greek_religion }
 				}
 				modifier = { #Try to pick opposite traits if any are available
 					factor = 1.5

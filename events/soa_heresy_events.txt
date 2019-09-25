@@ -5,7 +5,7 @@
 # ID SoA 4000-4999 is reserved
 #
 ###########################################
-# Written by Henrik Fåhraeus
+# Written by Henrik Fï¿½hraeus
 ###########################################
 
 namespace = SoA
@@ -298,8 +298,6 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "Sons of Abraham"
-		
-		NOT = { religion_group = pagan_group }
 
 		is_heretic = no # Heretics, already people of strong conviction, never change religion spontaneously
 
@@ -317,7 +315,6 @@ character_event = {
 			
 		
 		location = {
-			NOT = { religion_group = pagan_group }
 			religion_group = ROOT
 			NOT = { religion = ROOT }
 			OR = {

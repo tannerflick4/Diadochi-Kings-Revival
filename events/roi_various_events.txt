@@ -488,7 +488,7 @@ character_event = {
 			limit = { 
 				is_close_relative = ROOT
 				NOT = { trait = zealous }
-				religion = hindu
+				religion = hinduism_main
 				NOT = { trait = shaivist_hindu }
 			}
 			add_trait = shaivist_hindu
@@ -497,7 +497,7 @@ character_event = {
 			limit = { 
 				is_consort = no
 				NOT = { trait = zealous }
-				religion = hindu
+				religion = hinduism_main
 				NOT = { trait = shaivist_hindu }
 			}
 			add_trait = shaivist_hindu
@@ -540,7 +540,7 @@ character_event = {
 			limit = { 
 				is_close_relative = ROOT
 				NOT = { trait = zealous }
-				religion = hindu
+				religion = hinduism_main
 				NOT = { trait = vaishnavist_hindu }
 			}
 			add_trait = vaishnavist_hindu
@@ -549,7 +549,7 @@ character_event = {
 			limit = { 
 				is_consort = no
 				NOT = { trait = zealous }
-				religion = hindu
+				religion = hinduism_main
 				NOT = { trait = vaishnavist_hindu }
 			}
 			add_trait = vaishnavist_hindu
@@ -592,7 +592,7 @@ character_event = {
 			limit = { 
 				is_close_relative = ROOT
 				NOT = { trait = zealous }
-				religion = hindu
+				religion = hinduism_main
 				NOT = { trait = shaktist_hindu }
 			}
 			add_trait = shaktist_hindu
@@ -601,7 +601,7 @@ character_event = {
 			limit = { 
 				is_consort = no
 				NOT = { trait = zealous }
-				religion = hindu
+				religion = hinduism_main
 				NOT = { trait = shaktist_hindu }
 			}
 			add_trait = shaktist_hindu
@@ -644,7 +644,7 @@ character_event = {
 			limit = { 
 				is_close_relative = ROOT
 				NOT = { trait = zealous }
-				religion = hindu
+				religion = hinduism_main
 				NOT = { trait = smartist_hindu }
 			}
 			add_trait = smartist_hindu
@@ -653,7 +653,7 @@ character_event = {
 			limit = { 
 				is_consort = no
 				NOT = { trait = zealous }
-				religion = hindu
+				religion = hinduism_main
 				NOT = { trait = smartist_hindu }
 			}
 			add_trait = smartist_hindu
@@ -725,7 +725,7 @@ character_event = {
 			limit = { 
 				is_close_relative = ROOT
 				NOT = { trait = zealous }
-				religion = buddhist
+				religion = buddhism_main
 				NOT = { trait = mahayana_buddhist }
 			}
 			add_trait = mahayana_buddhist
@@ -734,7 +734,7 @@ character_event = {
 			limit = { 
 				is_consort = no
 				NOT = { trait = zealous }
-				religion = buddhist
+				religion = buddhism_main
 				NOT = { trait = mahayana_buddhist }
 			}
 			add_trait = mahayana_buddhist
@@ -777,7 +777,7 @@ character_event = {
 			limit = { 
 				is_close_relative = ROOT
 				NOT = { trait = zealous }
-				religion = buddhist
+				religion = buddhism_main
 				NOT = { trait = vajrayana_buddhist }
 			}
 			add_trait = vajrayana_buddhist
@@ -786,7 +786,7 @@ character_event = {
 			limit = { 
 				is_consort = no
 				NOT = { trait = zealous }
-				religion = buddhist
+				religion = buddhism_main
 				NOT = { trait = vajrayana_buddhist }
 			}
 			add_trait = vajrayana_buddhist
@@ -829,7 +829,7 @@ character_event = {
 			limit = { 
 				is_close_relative = ROOT
 				NOT = { trait = zealous }
-				religion = buddhist
+				religion = buddhism_main
 				NOT = { trait = theravada_buddhist }
 			}
 			add_trait = theravada_buddhist
@@ -838,7 +838,7 @@ character_event = {
 			limit = { 
 				is_consort = no
 				NOT = { trait = zealous }
-				religion = buddhist
+				religion = buddhism_main
 				NOT = { trait = theravada_buddhist }
 			}
 			add_trait = theravada_buddhist
@@ -910,7 +910,7 @@ character_event = {
 			limit = { 
 				is_close_relative = ROOT
 				NOT = { trait = zealous }
-				religion = jain
+				religion = jainism_main
 				NOT = { trait = digambara_jain }
 			}
 			add_trait = digambara_jain
@@ -919,7 +919,7 @@ character_event = {
 			limit = { 
 				is_consort = no
 				NOT = { trait = zealous }
-				religion = jain
+				religion = jainism_main
 				NOT = { trait = digambara_jain }
 			}
 			add_trait = digambara_jain
@@ -962,7 +962,7 @@ character_event = {
 			limit = { 
 				is_close_relative = ROOT
 				NOT = { trait = zealous }
-				religion = jain
+				religion = jainism_main
 				NOT = { trait = svetambara_jain }
 			}
 			add_trait = svetambara_jain
@@ -971,7 +971,7 @@ character_event = {
 			limit = { 
 				is_consort = no
 				NOT = { trait = zealous }
-				religion = jain
+				religion = jainism_main
 				NOT = { trait = svetambara_jain }
 			}
 			add_trait = svetambara_jain
@@ -1062,7 +1062,7 @@ character_event = {
 	
 	immediate = {
 		if = {
-			limit = { religion = hindu }
+			limit = { religion = hinduism_main }
 			random_list = {
 				10 = { add_trait = shaivist_hindu }
 				10 = { add_trait = vaishnavist_hindu }
@@ -1071,7 +1071,7 @@ character_event = {
 			}
 		}
 		if = {
-			limit = { religion = buddhist }
+			limit = { religion = buddhism_main }
 			random_list = {
 				10 = { add_trait = mahayana_buddhist }
 				10 = { add_trait = vajrayana_buddhist }
@@ -1079,7 +1079,7 @@ character_event = {
 			}
 		}
 		if = {
-			limit = { religion = jain }
+			limit = { religion = jainism_main }
 			random_list = {
 				10 = { add_trait = digambara_jain }
 				10 = { add_trait = svetambara_jain }
@@ -1484,8 +1484,6 @@ character_event = {
 	picture = GFX_evt_reincarnation
 	border = GFX_event_normal_frame_religion
 	
-	religion_group = indian_group
-	
 	is_triggered_only = yes
 	
 	trigger = {
@@ -1710,8 +1708,8 @@ character_event = {
 	trigger = {
 		has_dlc = "Rajas of India"
 		OR = {
-			religion = buddhist
-			religion = jain
+			religion = buddhism_main
+			religion = jainism_main
 		}
 		NOT = {
 			has_alternate_start_parameter = {
@@ -1735,7 +1733,7 @@ character_event = {
 		custom_tooltip = { text = realm_hindus_insulted }
 		hidden_tooltip = {
 			any_realm_character  = {
-				limit = { religion = hindu }
+				limit = { religion = hinduism_main }
 				opinion = {
 					who = ROOT
 					years = 2
@@ -1757,7 +1755,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA_RoI_204
-		religion = hindu
+		religion = hinduism_main
 		add_trait = shaivist_hindu
 		set_character_flag = india_converted
 		add_character_modifier = {
@@ -1767,7 +1765,7 @@ character_event = {
 	}
 	option = {
 		name = EVTOPTB_RoI_204
-		religion = hindu
+		religion = hinduism_main
 		add_trait = shaivist_hindu
 		set_character_flag = india_converted
 	}
@@ -1792,8 +1790,8 @@ character_event = {
 	trigger = {
 		has_dlc = "Rajas of India"
 		OR = {
-			religion = hindu
-			religion = jain
+			religion = hinduism_main
+			religion = jainism_main
 		}
 		NOT = {
 			has_alternate_start_parameter = {
@@ -1817,7 +1815,7 @@ character_event = {
 		custom_tooltip = { text = realm_buddhists_insulted }
 		hidden_tooltip = {
 			any_realm_character  = {
-				limit = { religion = buddhist }
+				limit = { religion = buddhism_main }
 				opinion = {
 					who = ROOT
 					years = 2
@@ -1839,7 +1837,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA_RoI_207
-		religion = buddhist
+		religion = buddhism_main
 		add_trait = mahayana_buddhist
 		set_character_flag = india_converted
 		add_character_modifier = {
@@ -1849,7 +1847,7 @@ character_event = {
 	}
 	option = {
 		name = EVTOPTB_RoI_207
-		religion = buddhist
+		religion = buddhism_main
 		add_trait = mahayana_buddhist
 		set_character_flag = india_converted
 	}
@@ -1874,8 +1872,8 @@ character_event = {
 	trigger = {
 		has_dlc = "Rajas of India"
 		OR = {
-			religion = hindu
-			religion = buddhist
+			religion = hinduism_main
+			religion = buddhism_main
 		}
 		NOT = {
 			has_alternate_start_parameter = {
@@ -1899,7 +1897,7 @@ character_event = {
 		custom_tooltip = { text = realm_jains_insulted }
 		hidden_tooltip = {
 			any_realm_character  = {
-				limit = { religion = jain }
+				limit = { religion = jainism_main }
 				opinion = {
 					who = ROOT
 					years = 2
@@ -1921,7 +1919,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA_RoI_210
-		religion = jain
+		religion = jainism_main
 		add_trait = digambara_jain
 		set_character_flag = india_converted
 		add_character_modifier = {
@@ -1931,7 +1929,7 @@ character_event = {
 	}
 	option = {
 		name = EVTOPTB_RoI_210
-		religion = jain
+		religion = jainism_main
 		add_trait = digambara_jain
 		set_character_flag = india_converted
 	}
@@ -3243,7 +3241,7 @@ character_event = {
 		name = EVTOPTB_RoI_153
 		prestige = -100
 		if = {
-			limit = { NOR = { trait = craven trait = berserker } }
+			limit = { NOT = { trait = craven } }
 			add_trait = craven
 		}
 		random_demesne_province = {
@@ -3379,11 +3377,9 @@ character_event = {
 		has_dlc = "Rajas of India"
 		NOT = { has_character_flag = crazed_elephant }
 		capital_scope = {
+			# TODO: Add full range of elephants.
 			OR = {
 				region = world_india
-				duchy = { title = d_sistan }
-				duchy = { title = d_baluchistan }
-				duchy = { title = d_kerman }
 			}
 		}
 	}
@@ -3502,7 +3498,6 @@ character_event = {
 	ai = no
 	only_capable = yes
 	prisoner = no
-	religion_group = indian_group
 	
 	trigger = {
 		has_dharmic_religion_trigger = yes
@@ -3550,7 +3545,6 @@ character_event = {
 	ai = no
 	only_capable = yes
 	prisoner = no
-	religion_group = indian_group
 	
 	trigger = {
 		has_dharmic_religion_trigger = yes
@@ -4376,8 +4370,10 @@ character_event = {
 	desc = EVTDESC_RoI_146
 	picture = GFX_evt_large_army
 
+
+	# TODO: Is this appropriate?
 	ai = no
-	culture = greek
+	culture_group = hellenic
 	has_dlc = "Rajas of India"
 	war = yes
 	
@@ -4561,9 +4557,9 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "Rajas of India"
-		trait = sympathy_indian
+		#trait = sympathy_indian TODO: Add.
 		any_realm_character = {
-			religion_group = indian_group
+			has_dharmic_religion_trigger = yes
 			NOT = { is_friend = ROOT }
 		}
 	}
@@ -4572,7 +4568,7 @@ character_event = {
 		name = EVTOPTA_RoI_400
 		random_realm_character = {
 			limit = {
-				religion_group = indian_group
+				has_dharmic_religion_trigger = yes
 			}
 			add_friend = ROOT
 		}
@@ -4602,7 +4598,7 @@ character_event = {
 		}
 		OR = {
 			has_dharmic_religion_trigger = yes
-			trait = sympathy_indian
+			#trait = sympathy_indian TODO: Add.
 		}
 		NOT = { has_character_flag = do_not_disturb }
 		NOT = { is_inaccessible_trigger = yes }
@@ -4689,7 +4685,7 @@ character_event = {
 	ai = no
 	only_capable = yes
 	prisoner = no
-	religion = hindu
+	religion = hinduism_main
 	
 	trigger = {
 		has_dlc = "Rajas of India"
@@ -4750,7 +4746,7 @@ character_event = {
 	ai = no
 	only_capable = yes
 	prisoner = no
-	religion = hindu
+	religion = hinduism_main
 	
 	trigger = {
 		has_dlc = "Rajas of India"
@@ -4860,8 +4856,8 @@ character_event = {
 		has_dlc = "Rajas of India"
 		in_command = no
 		OR = {
-			religion = buddhist
-			religion = jain
+			religion = buddhism_main
+			religion = jainism_main
 		}
 	}
 
@@ -4904,17 +4900,17 @@ character_event = {
 	trigger = {
 		has_dlc = "Rajas of India"
 		in_command = no
-		NOT = { religion_group = indian_group }
+		NOT = { has_dharmic_religion_trigger = yes }
 		any_demesne_province  = {
-			NOT = { religion_group = indian_group }
+			NOT = { has_dharmic_religion_trigger = yes }
 		}
 		OR = {
 			any_realm_province  = {
-				religion = jain
+				religion = jainism_main
 			}
 			any_demesne_province  = {
 				any_neighbor_province = {
-					religion = jain
+					religion = jainism_main
 				}
 			}
 		}
@@ -4924,7 +4920,7 @@ character_event = {
 		name = EVTOPTA_RoI_412
 		random_demesne_province  = {
 			limit = {
-				NOT = { religion_group = indian_group }
+				NOT = { has_dharmic_religion_trigger = yes }
 			}
 		}
 	}
@@ -4937,7 +4933,7 @@ character_event = {
 		custom_tooltip = { text = realm_jains_upset }
 		hidden_tooltip = {
 			any_realm_character  = {
-				limit = { religion = jain }
+				limit = { religion = jainism_main }
 				opinion = {
 					who = ROOT
 					years = 4
@@ -4951,7 +4947,7 @@ character_event = {
 		custom_tooltip = { text = sacrilege_tooltip }
 		hidden_tooltip = {
 			any_realm_character  = {
-				limit = { religion = jain }
+				limit = { religion = jainism_main }
 				opinion = {
 					who = ROOT
 					years = 4
@@ -4959,7 +4955,7 @@ character_event = {
 				}
 			}
 			any_playable_ruler  = {
-				limit = { religion = jain }
+				limit = { religion = jainism_main }
 				opinion = {
 					who = ROOT
 					years = 4
@@ -4979,8 +4975,6 @@ character_event = {
 	id = RoI.3500
 
 	hide_window = yes
-	
-	religion_group = indian_group
 	
 	is_triggered_only = yes
 	
@@ -5048,8 +5042,6 @@ character_event = {
 
 	hide_window = yes
 	
-	religion_group = indian_group
-	
 	is_triggered_only = yes
 	
 	trigger = {
@@ -5107,8 +5099,6 @@ character_event = {
 	id = RoI.3510
 
 	hide_window = yes
-	
-	religion_group = indian_group
 	
 	is_triggered_only = yes
 	
@@ -5176,8 +5166,6 @@ character_event = {
 
 	hide_window = yes
 	
-	religion_group = indian_group
-	
 	is_triggered_only = yes
 	
 	trigger = {
@@ -5235,8 +5223,6 @@ character_event = {
 	id = RoI.3530
 
 	hide_window = yes
-	
-	religion_group = indian_group
 	
 	is_triggered_only = yes
 	
@@ -5297,66 +5283,6 @@ character_event = {
 	}
 }
 
-# Religious unrest removed
-#character_event = {
-#	id = RoI.3536
-#
-#	hide_window = yes
-#	
-#	is_triggered_only = yes
-#	
-#	trigger = {
-#		has_dlc = "Rajas of India"
-#		religion_group = indian_group
-#		religion_authority = 0.5
-#		any_demesne_province = {
-#			religion = ROOT
-#			has_province_modifier = religious_tension
-#		}
-#	}
-#
-#	immediate = {
-#		random_demesne_province = {
-#			limit = {
-#				religion = ROOT
-#				has_province_modifier = religious_tension
-#			}
-#			province_event = { id = RoI.3537 }
-#		}
-#	}
-#}
-
-# Province bounce event
-#province_event = {
-#	id = RoI.3537
-#
-#	hide_window = yes
-#	
-#	is_triggered_only = yes
-#	
-#	immediate = {
-#		FROM = {
-#			character_event = { id = RoI.3539 }
-#		}
-#	}
-#}
-
-#character_event = {
-#	id = RoI.3539
-#	desc = EVTDESC_RoI_3539
-#	picture = GFX_evt_india_temple
-#	border = GFX_event_normal_frame_religion
-#
-#	is_triggered_only = yes
-#
-#	option = {
-#		name = EVTOPTA_RoI_3539
-#		FROM = {
-#			remove_province_modifier = religious_tension
-#		}
-#	}
-#}
-
 # Province converts to other religion!
 character_event = {
 	id = RoI.3520
@@ -5366,16 +5292,12 @@ character_event = {
 	is_triggered_only = yes
 	
 	only_playable = yes
-	religion_group = indian_group
 	
 	trigger = {
 		has_dharmic_religion_trigger = yes
 		has_dlc = "Rajas of India"
 		NOT = { religion_authority = 0.3 }
-		OR = {
-			culture_group = dravidian_group
-			culture_group = indo_aryan_group
-		}
+		culture_group = indian
 		any_independent_ruler = {
 			any_realm_province = {
 				has_dharmic_religion_trigger = yes
@@ -5436,7 +5358,7 @@ province_event = {
 		}
 		if = {
 			limit = {
-				religion = hindu
+				religion = hinduism_main
 				NOT = {
 					any_neighbor_province = {
 						has_dharmic_religion_trigger = yes
@@ -5446,15 +5368,15 @@ province_event = {
 				}
 			}
 			random_list = {
-				10 = { religion = buddhist }
-				10 = { religion = jain }
+				10 = { religion = buddhism_main }
+				10 = { religion = jainism_main }
 			}
 			FROM = { character_event = { id = RoI.3525 } }
 			break = yes
 		}
 		if = {
 			limit = {
-				religion = buddhist
+				religion = buddhism_main
 				NOT = {
 					any_neighbor_province = {
 						has_dharmic_religion_trigger = yes
@@ -5464,15 +5386,15 @@ province_event = {
 				}
 			}
 			random_list = {
-				10 = { religion = hindu }
-				10 = { religion = jain }
+				10 = { religion = hinduism_main }
+				10 = { religion = jainism_main }
 			}
 			FROM = { character_event = { id = RoI.3525 } }
 			break = yes
 		}
 		if = {
 			limit = {
-				religion = jain
+				religion = jainism_main
 				NOT = {
 					any_neighbor_province = {
 						has_dharmic_religion_trigger = yes
@@ -5482,8 +5404,8 @@ province_event = {
 				}
 			}
 			random_list = {
-				10 = { religion = buddhist }
-				10 = { religion = hindu }
+				10 = { religion = buddhism_main }
+				10 = { religion = hinduism_main }
 			}
 			FROM = { character_event = { id = RoI.3525 } }
 		}
@@ -5513,7 +5435,7 @@ province_event = {
 	trigger = {
 		has_province_modifier = temple_corruption
 		owner = {
-			NOT = { religion_group = indian_group }
+			NOT = { has_dharmic_religion_trigger = yes }
 		}
 	}
 	
@@ -5535,7 +5457,7 @@ province_event = {
 	trigger = {
 		has_province_modifier = local_death_cult
 		owner = {
-			NOT = { religion_group = indian_group }
+			NOT = { has_dharmic_religion_trigger = yes }
 		}
 	}
 	
@@ -5547,24 +5469,3 @@ province_event = {
 		remove_province_modifier = local_death_cult
 	}
 }
-
-#character_event = {	
-#	id = RoI.3552
-#	hide_window = yes
-
-#	religion_group = indian_group
-#	trigger = {
-#		OR = {
-#			religion = hindu
-#			religion = buddhist
-#		}
-#	}
-
-#	is_triggered_only = yes
-
-#	trigger = {
-
-#	}
-
-
-#}

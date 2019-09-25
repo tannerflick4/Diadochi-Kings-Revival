@@ -818,15 +818,16 @@ character_event = {
 		name = "EVTOPTA_HL_10401"
 		event_target:merc_location = {
 			owner = {
-				trigger_switch = {
-					on_trigger = religion_group
-					christian 			= { FROM = { add_trait = sympathy_christendom } }
-					muslim 				= { FROM = { add_trait = sympathy_islam } }
-					pagan_group 		= { FROM = { add_trait = sympathy_pagans } }
-					zoroastrian_group 	= { FROM = { add_trait = sympathy_zoroastrianism } }
-					jewish_group 		= { FROM = { add_trait = sympathy_judaism } }
-					indian_group 		= { FROM = { add_trait = sympathy_indian } }
-				}
+				# TODO: Add sympathies.
+				#trigger_switch = {
+				#	on_trigger = religion_group
+				#	christian 			= { FROM = { add_trait = sympathy_christendom } }
+				#	muslim 				= { FROM = { add_trait = sympathy_islam } }
+				#	pagan_group 		= { FROM = { add_trait = sympathy_pagans } }
+				#	zoroastrian_group 	= { FROM = { add_trait = sympathy_zoroastrianism } }
+				#	jewish_group 		= { FROM = { add_trait = sympathy_judaism } }
+				#	indian_group 		= { FROM = { add_trait = sympathy_indian } }
+				#}
 			}
 		}
 	}
@@ -899,42 +900,13 @@ character_event = {
 				capital_scope = {
 					owner = {
 						OR = {
-							AND = {
-								religion_group = christian
-								ROOT = {
-									trait = sympathy_christendom
-								}
-							}
-							AND = {
-								religion_group = muslim
-								ROOT = {
-									trait = sympathy_islam
-								}
-							}
-							AND = {
-								religion_group = pagan_group
-								ROOT = {
-									trait = sympathy_pagans
-								}
-							}
-							AND = {
-								religion_group = zoroastrian_group
-								ROOT = {
-									trait = sympathy_zoroastrianism
-								}
-							}
-							AND = {
-								religion_group = jewish_group
-								ROOT = {
-									trait = sympathy_judaism
-								}
-							}
-							AND = {
-								religion_group = indian_group
-								ROOT = {
-									trait = sympathy_indian
-								}
-							}
+							# TODO: Handle sympathies
+							#AND = {
+							#	religion_group = christian
+							#	ROOT = {
+							#		trait = sympathy_christendom
+							#	}
+							#}
 						}
 					}
 				}
@@ -986,38 +958,39 @@ character_event = {
 						}
 					}
 
-					if = {
-						limit = {
-							ROOT = {
-								NOT = { trait = zealous }
-								NOT = { religion_group = PREVPREV }
-							}
-						}
-						ROOT = {
-							if = { limit = { trait = sympathy_christendom } remove_trait = sympathy_christendom }
-							if = { limit = { trait = sympathy_islam } remove_trait = sympathy_islam }
-							if = { limit = { trait = sympathy_pagans } remove_trait = sympathy_pagans }
-							if = { limit = { trait = sympathy_zoroastrianism } remove_trait = sympathy_zoroastrianism }
-							if = { limit = { trait = sympathy_judaism } remove_trait = sympathy_judaism }
-							if = { limit = { trait = sympathy_indian } remove_trait = sympathy_indian }
-						}
-						random_list = {
-							25 = {}
-							75 = {
-								PREV = {
-									trigger_switch = {
-										on_trigger = religion_group
-										christian 			= { ROOT = { add_trait = sympathy_christendom } }
-										muslim 				= { ROOT = { add_trait = sympathy_islam } }
-										pagan_group 		= { ROOT = { add_trait = sympathy_pagans } }
-										zoroastrian_group 	= { ROOT = { add_trait = sympathy_zoroastrianism } }
-										jewish_group 		= { ROOT = { add_trait = sympathy_judaism } }
-										indian_group 		= { ROOT = { add_trait = sympathy_indian } }
-									}
-								}
-							}
-						}
-					}
+					#if = {
+					#	limit = {
+					#		ROOT = {
+					#			NOT = { trait = zealous }
+					#			NOT = { religion_group = PREVPREV }
+					#		}
+					#	}
+					#	ROOT = {
+					#		if = { limit = { trait = sympathy_christendom } remove_trait = sympathy_christendom }
+					#		if = { limit = { trait = sympathy_islam } remove_trait = sympathy_islam }
+					#		if = { limit = { trait = sympathy_pagans } remove_trait = sympathy_pagans }
+					#		if = { limit = { trait = sympathy_zoroastrianism } remove_trait = sympathy_zoroastrianism }
+					#		if = { limit = { trait = sympathy_judaism } remove_trait = sympathy_judaism }
+					#		if = { limit = { trait = sympathy_indian } remove_trait = sympathy_indian }
+					#	}
+					#	random_list = {
+					#		25 = {}
+					#		75 = {
+					#			PREV = {
+					#				# TODO: Add sympathies.
+					#				trigger_switch = {
+					#					on_trigger = religion_group
+					#					christian 			= { ROOT = { add_trait = sympathy_christendom } }
+					#					muslim 				= { ROOT = { add_trait = sympathy_islam } }
+					#					pagan_group 		= { ROOT = { add_trait = sympathy_pagans } }
+					#					zoroastrian_group 	= { ROOT = { add_trait = sympathy_zoroastrianism } }
+					#					jewish_group 		= { ROOT = { add_trait = sympathy_judaism } }
+					#					indian_group 		= { ROOT = { add_trait = sympathy_indian } }
+					#				}
+					#			}
+					#		}
+					#	}
+					#}
 				}
 			}
 		}

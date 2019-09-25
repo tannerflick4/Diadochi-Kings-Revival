@@ -138,39 +138,6 @@ character_event = {
 		name = EVTOPTA_WoL_6100
 		military_techpoints = 30
 		if = {
-			limit = {
-				OR = {
-					religion_group = christian
-					religion_group = muslim
-				}
-			}
-			if = {
-				limit = {
-					NOT = { trait = zealous }
-					NOT = { trait = cynical }
-				}
-				random = {
-					chance = 50
-					add_trait = cynical
-					hidden_tooltip = {
-						character_event = { id = 38258 } # Notification
-					}
-				}
-			}
-			if = {
-				limit = {
-					trait = zealous
-				}
-				random = {
-					chance = 50
-					remove_trait = zealous
-					hidden_tooltip = {
-						character_event = { id = 38310 } # Notification
-					}
-				}
-			}
-		}
-		if = {
 			limit = { NOT = { trait = diligent } }
 			random = {
 				chance = 20
@@ -253,9 +220,7 @@ character_event = {
 						is_adult = yes
 						trait = zealous
 						at_location = ROOT
-						NOT = { religion = zun_pagan }
-						NOT = { religion = zun_pagan_reformed }
-						NOT = { religion = buddhist }
+						NOT = { religion = buddhism_main }
 						OR = {
 							mother = { character = ROOT }
 							father = { character = ROOT }
@@ -278,9 +243,7 @@ character_event = {
 				is_adult = yes
 				trait = zealous
 				at_location = ROOT
-				NOT = { religion = zun_pagan }
-				NOT = { religion = zun_pagan_reformed }
-				NOT = { religion = buddhist }
+				NOT = { religion = buddhism_main }
 				OR = {
 					mother = { character = ROOT }
 					father = { character = ROOT }
@@ -473,7 +436,6 @@ character_event = {
 			limit = {
 				religion_head = { is_alive = yes }
 				religion_head = { ai = yes }
-				NOT = { religion = zun_pagan_reformed }
 			}
 			religion_head = {
 				character_event = { id = WoL.6151 } # Religious head opines
@@ -612,11 +574,7 @@ character_event = {
 				10 = {
 					modifier = {
 						factor = 0
-						OR = {
-							religion = zun_pagan
-							religion = zun_pagan_reformed
-							religion = buddhist
-						}
+						religion = buddhism_main
 					}
 					give_nickname = nick_priest_hater
 				}
@@ -624,9 +582,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				NOT = { religion = zun_pagan }
-				NOT = { religion = zun_pagan_reformed }
-				NOT = { religion = buddhist }
+				NOT = { religion = buddhism_main }
 			}
 			add_character_modifier = {
 				name = annoyed_religious
@@ -642,9 +598,7 @@ character_event = {
 							is_priest = yes
 							trait = zealous
 						}
-						NOT = { religion = zun_pagan }
-						NOT = { religion = zun_pagan_reformed }
-						NOT = { religion = buddhist }
+						NOT = { religion = buddhism_main }
 					}
 					opinion = {
 						modifier = opinion_heretic
@@ -674,9 +628,7 @@ character_event = {
 	option = {
 		name = EVTOPTD_WoL_6170 # This is heretical - I must burn it!
 		trigger = {
-			NOT = { religion = zun_pagan }
-			NOT = { religion = zun_pagan_reformed }
-			NOT = { religion = buddhist }
+			NOT = { religion = buddhism_main }
 		}
 		remove_character_modifier = studying_the_stars
 		if = {
@@ -956,7 +908,7 @@ character_event = {
 			factor = 1
 		}
 		if = {
-			limit = { NOR = { trait = craven trait = berserker } }
+			limit = { NOT = { trait = craven } }
 			add_trait = craven
 		}
 		remove_character_modifier = studying_the_stars
@@ -1159,13 +1111,6 @@ character_event = {
 				}
 				10 = {
 					give_nickname = nick_the_accursed
-				}
-				10 = {
-					modifier = {
-						factor = 0
-						NOT = { religion_group = christian }
-					}
-					give_nickname = nick_the_black
 				}
 			}
 		}

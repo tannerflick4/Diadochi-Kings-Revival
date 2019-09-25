@@ -222,12 +222,6 @@ add_random_book_effect = {
                 add_artifact = speculum_regale
             }
             50 = {
-                add_artifact = cookbook_3_roman
-            }
-            50 = {
-                add_artifact = cookbook_3_arabic
-            }
-            50 = {
                 add_artifact = a_history_of_churches
             }
 

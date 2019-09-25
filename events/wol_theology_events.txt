@@ -7,7 +7,7 @@
 ###########################################
 
 # Written by Tobias Bodlund
-# Tweaks and additional events by Henrik Fåhraeus
+# Tweaks and additional events by Henrik Fï¿½hraeus
 
 namespace = WoL
 
@@ -33,19 +33,15 @@ character_event = {
 		NOT = { has_character_flag = studied_religious_myths }
 	}
 
-	desc = {
+	desc = { # Scriptures
 		trigger = {
-			OR = {
-				NOT = { religion_group = pagan_group } # Scriptures
-				is_reformed_religion = yes
-			}
+			religion = judaism_main
 		}
 		text = EVTDESC_WoL_7000_non_unref_pagan
 	}
-	desc = {
+	desc = { # Stories
 		trigger = {
-			religion_group = pagan_group # Stories
-			is_reformed_religion = no
+			NOT = { religion = judaism_main }
 		}
 		text = EVTDESC_WoL_7000_unref_pagan
 	}
@@ -57,10 +53,7 @@ character_event = {
 	option = {
 		name = EVTOPTA_WoL_7000 # Yes, study scriptures
 		trigger = {
-			OR = {
-				NOT = { religion_group = pagan_group }
-				is_reformed_religion = yes
-			}
+			religion = judaism_main
 		}
 		piety = 20
 		hidden_tooltip = { character_event = { id = WoL.7001 days = 90 } }
@@ -68,8 +61,7 @@ character_event = {
 	option = {
 		name = EVTOPTB_WoL_7000 # Yes, listen to stories
 		trigger = {
-			religion_group = pagan_group
-			is_reformed_religion = no
+			NOT = { religion = judaism_main }
 		}
 		piety = 20
 		hidden_tooltip = { character_event = { id = WoL.7001 days = 90 } }
@@ -96,17 +88,13 @@ character_event = {
 
 	desc = {
 		trigger = {
-			OR = {
-				NOT = { religion_group = pagan_group } # Scriptures
-				is_reformed_religion = yes
-			}
+			religion = judaism_main
 		}
 		text = EVTDESC_WoL_7001_non_unref_pagan
 	}
 	desc = {
 		trigger = {
-			religion_group = pagan_group # Stories
-			is_reformed_religion = no
+			NOT = { religion = judaism_main }
 		}
 		text = EVTDESC_WoL_7001_unref_pagan
 	}
@@ -114,10 +102,7 @@ character_event = {
 	option = {
 		name = EVTOPTA_WoL_7001 # Scriptures
 		trigger = {
-			OR = {
-				NOT = { religion_group = pagan_group }
-				is_reformed_religion = yes
-			}
+			religion = judaism_main
 		}
 		piety = 20
 		add_character_modifier = {
@@ -154,8 +139,7 @@ character_event = {
 	option = {
 		name = EVTOPTB_WoL_7001 # Stories
 		trigger = {
-			religion_group = pagan_group # Stories
-			is_reformed_religion = no
+			NOT = { religion = judaism_main }
 		}
 		piety = 20
 		add_character_modifier = {
@@ -284,10 +268,8 @@ character_event = {
 	trigger = {
 		has_focus = focus_theology
 		in_command = no
-		NOT = { religion_group = christian }
-		NOT = { religion_group = muslim }
-		NOT = { religion_group = jewish_group }
-		NOT = { religion_group = indian_group }
+		NOT = { religion = judaism_main }
+		NOT = { has_dharmic_religion_trigger = yes }
 		NOT = { is_inaccessible_trigger = yes }
 		NOT = { has_character_flag = do_not_disturb }
 		NOT = { has_character_flag = wol_theology_visited_holy_site }
@@ -490,12 +472,13 @@ character_event = {
 		has_focus = focus_theology
 		is_priest = no
 		NOT = { trait = zealous }
-		NOT = { trait = sympathy_christendom }
-		NOT = { trait = sympathy_islam }
-		NOT = { trait = sympathy_pagans }
-		NOT = { trait = sympathy_zoroastrianism }
-		NOT = { trait = sympathy_judaism }
-		NOT = { trait = sympathy_indian }
+		# TODO: Add sympathies.
+		#NOT = { trait = sympathy_christendom }
+		#NOT = { trait = sympathy_islam }
+		#NOT = { trait = sympathy_pagans }
+		#NOT = { trait = sympathy_zoroastrianism }
+		#NOT = { trait = sympathy_judaism }
+		#NOT = { trait = sympathy_indian }
 		NOT = { has_character_flag = wol_theology_view_other_religions }
 		any_realm_character = {
 			NOT = { religion_group = ROOT }
@@ -548,15 +531,16 @@ character_event = {
 		}
 		FROM = {
 			show_scope_change = no
-			trigger_switch = {
-				on_trigger = religion_group
-				christian = { ROOT = { add_trait = sympathy_christendom } }
-				muslim = { ROOT = { add_trait = sympathy_islam } }
-				pagan_group = { ROOT = { add_trait = sympathy_pagans } }
-				zoroastrian_group = { ROOT = { add_trait = sympathy_zoroastrianism } }
-				jewish_group = { ROOT = { add_trait = sympathy_judaism } }
-				indian_group = { ROOT = { add_trait = sympathy_indian } }
-			}
+			# TODO: Add sympathies.
+			#trigger_switch = {
+			#	on_trigger = religion_group
+			#	christian = { ROOT = { add_trait = sympathy_christendom } }
+			#	muslim = { ROOT = { add_trait = sympathy_islam } }
+			#	pagan_group = { ROOT = { add_trait = sympathy_pagans } }
+			#	zoroastrian_group = { ROOT = { add_trait = sympathy_zoroastrianism } }
+			#	jewish_group = { ROOT = { add_trait = sympathy_judaism } }
+			#	indian_group = { ROOT = { add_trait = sympathy_indian } }
+			#}
 		}
 	}
 	option = {
@@ -571,7 +555,7 @@ character_event = {
 # Question own faith
 character_event = {
 	id = WoL.7050
-	
+	desc = EVTDESC_WoL_7050_PAGAN
 	picture = GFX_evt_religious_exultation
 	border = GFX_event_normal_frame_religion
 	
@@ -580,34 +564,6 @@ character_event = {
 	only_playable = yes
 	min_age =  16
 	capable_only = yes
-	
-	desc = {
-		text = EVTDESC_WoL_7050
-		trigger = {
-			OR = {
-				NOT = { religion_group = pagan_group }
-				is_reformed_religion = yes
-				has_alternate_start_parameter = {
-					key = religion_names
-					value = random
-				}
-			}
-		}
-	}
-	
-	desc = {
-		text = EVTDESC_WoL_7050_PAGAN
-		trigger = {
-			religion_group = pagan_group
-			is_reformed_religion = no
-			NOT = {
-				has_alternate_start_parameter = {
-					key = religion_names
-					value = random
-				}
-			}
-		}
-	}
 
 	trigger = {
 		has_focus = focus_theology
@@ -695,10 +651,8 @@ character_event = {
 		is_heretic = no
 		trait = zealous
 		OR = {
-			religion_group = christian
-			religion_group = muslim
-			religion_group = zoroastrian_group
-			religion_group = jewish_group
+			religion = zoroastrian_main
+			religion = judaism_main
 		}
 		NOT = { has_character_flag = wol_theology_heretic }
 	}
@@ -804,27 +758,6 @@ character_event = {
 				10 = {
 					give_nickname = nick_the_holy
 				}
-				10 = {
-					modifier = {
-						factor = 0
-						NOT = { religion_group = christian }
-					}
-					give_nickname = nick_the_apostle
-				}
-				10 = {
-					modifier = {
-						factor = 0
-						NOT = { religion_group = christian }
-					}
-					give_nickname = nick_the_confessor
-				}
-				10 = {
-					modifier = {
-						factor = 0
-						NOT = { religion_group = christian }
-					}
-					give_nickname = nick_the_blessed
-				}
 			}
 		}
 	}
@@ -887,20 +820,21 @@ character_event = {
 	desc = {
 		text = EVTDESC_WoL_7080
 		trigger = {
-			NOR = {
-				religion_group = pagan_group
-				religion_group = muslim
-				has_dharmic_religion_trigger = yes
+			OR = {
+				religion = judaism_main
+				religion = zoroastrian_main
 			}
 		}
 	}
 	desc = {
 		text = EVTDESC_WoL_7080_PAGAN
-		trigger = { religion_group = pagan_group }
-	}
-	desc = {
-		text = EVTDESC_WoL_7080_MUSLIM
-		trigger = { religion_group = muslim }
+		trigger = { 
+			NOR = { 
+				has_dharmic_religion_trigger = yes
+				religion = judaism_main
+				religion = zoroastrian_main
+			} 
+		}
 	}
 	desc = {
 		text = EVTDESC_WoL_7080_INDIAN
@@ -1018,20 +952,19 @@ character_event = {
 	desc = {
 		text = EVTDESC_WoL_7091
 		trigger = {
-			NOR = {
-				trait = lunatic
-				religion_group = pagan_group
-				has_dharmic_religion_trigger = yes
-			}
+			religion = zoroastrian_main
+			religion = judaism_main
+			NOT = { trait = Lunatic }
 		}
 	}
 	desc = {
 		text = EVTDESC_WoL_7091_PAGAN
 		trigger = {
-			NOT = {
+			NOR = {
+				religion = zoroastrian_main
+				religion = judaism_main
 				trait = lunatic				
 			}
-			religion_group = pagan_group
 		}
 	}
 	desc = {
@@ -1051,8 +984,6 @@ character_event = {
 	}
 
 	trigger = {
-		NOT = { trait = on_pilgrimage }
-		NOT = { trait = on_hajj }
 	}
 	
 	option = {
@@ -1153,51 +1084,6 @@ character_event = {
 		}
 	}
 	option = {
-		name = EVTOPT_WoL_7091_LUSTFUL
-		ai_chance = {
-			factor = 10
-			modifier = {
-				factor = 0
-				trait = hedonist
-			}
-		}
-		trigger = {
-			trait = lustful
-			religion_group = christian
-		}
-		remove_trait = lustful
-		piety = 100
-		random = {
-			chance = 10
-			add_trait = chaste
-			character_event = { id = 38274 } # Notify Chaste
-		}
-		if = {
-			limit = {
-				NOT = { trait = temperate }
-				NOT = { trait = gluttonous }
-			}
-			random = {
-				chance = 20
-				add_trait = temperate
-			lose_weight_small_effect = yes
-			weight_trait_check_effect = yes
-				character_event = { id = 38276 } # Notify Temperate
-			}
-		}
-		if = {
-			limit = {
-				NOT = { trait = diligent }
-				NOT = { trait = slothful }
-			}
-			random = {
-				chance = 10
-				add_trait = diligent
-				character_event = { id = 38256 } # Notify Diligent
-			}
-		}
-	}
-	option = {
 		name = EVTOPT_WoL_7091_BLIND
 		trigger = {
 			trait = blinded
@@ -1266,28 +1152,6 @@ character_event = {
 			factor = 1000
 		}
 		remove_trait = leper
-	}
-	
-	option = {
-		name = EVTOPT_WoL_7091_CHASTE
-		trigger = {
-			trait = chaste
-			NOR = {
-				religion_group = christian
-				has_dharmic_religion_trigger = yes
-			}
-		}
-		ai_chance = {
-			factor = 100
-		}
-		remove_trait = chaste
-		
-		piety = 50
-		random = {
-			chance = 50
-			add_trait = lustful
-			character_event = { id = 38272 } # Notify Lustful
-		}
 	}
 	
 	option = {

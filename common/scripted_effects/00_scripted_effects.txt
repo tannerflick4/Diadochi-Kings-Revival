@@ -1501,10 +1501,8 @@ add_maimed_trait_effect = {
 	}
 	if = {
 		limit = {
-			AND = {
-				has_dlc = "Reapers"
-				NOT = { trait = severely_injured }
-			}
+			has_dlc = "Reapers"
+			NOT = { trait = severely_injured }
 		}
 		add_trait = severely_injured
 		hidden_tooltip = {
@@ -2006,15 +2004,13 @@ increase_depopulation_effect = {
 			40 = {
 				modifier = {
 					factor = 1.5
-					AND = {
-						any_province_holding = {
-							OR = {
-								holding_type = nomad
-								holding_type = tribal
-							}
+					any_province_holding = {
+						OR = {
+							holding_type = nomad
+							holding_type = tribal
 						}
-						NOT = { num_of_settlements = 3 }
 					}
+					NOT = { num_of_settlements = 3 }
 				}
 				modifier = {
 					factor = 1.2
@@ -2071,15 +2067,13 @@ increase_depopulation_effect = {
 			20 = {
 				modifier = {
 					factor = 4
-					AND = {
-						any_province_holding = {
-							OR = {
-								holding_type = nomad
-								holding_type = tribal
-							}
+					any_province_holding = {
+						OR = {
+							holding_type = nomad
+							holding_type = tribal
 						}
-						NOT = { num_of_settlements = 3 }
 					}
+					NOT = { num_of_settlements = 3 }
 				}
 				modifier = {
 					factor = 1.4
@@ -2141,15 +2135,13 @@ increase_depopulation_effect = {
 			5 = {
 				modifier = {
 					factor = 15
-					AND = {
-						any_province_holding = {
-							OR = {
-								holding_type = nomad
-								holding_type = tribal
-							}
+					any_province_holding = {
+						OR = {
+							holding_type = nomad
+							holding_type = tribal
 						}
-						NOT = { num_of_settlements = 3 }
 					}
+					NOT = { num_of_settlements = 3 }
 				}
 				modifier = {
 					factor = 1.5
@@ -2236,10 +2228,10 @@ prisoner_mutilate_effect = {
 	random = {
 		chance = 20
 		if = {
-				limit = { NOR = { trait = craven trait = berserker } }
-				add_trait = craven
-				hidden_tooltip = { character_event = { id = 38257 } }
-			}
+			limit = { NOT = { trait = craven } }
+			add_trait = craven
+			hidden_tooltip = { character_event = { id = 38257 } }
+		}
 	}
 	
 	random_list = {
@@ -2279,7 +2271,7 @@ prisoner_mutilate_effect = {
 jailor_mutilate_effect = {
 	
 	if = {
-		limit = { NOR = { trait = craven trait = berserker } }
+		limit = { NOR = { trait = craven } }
 		random = {
 			chance = 20
 			add_trait = craven
@@ -2330,7 +2322,7 @@ prisoner_torture_effect = {
 		}
 		10 = {
 			if = {
-				limit = { NOR = { trait = craven trait = berserker } }
+				limit = { NOT = { trait = craven } }
 				add_trait = craven
 				hidden_tooltip = { character_event = { id = 38257 } }
 			}
@@ -2361,11 +2353,11 @@ jailor_torture_effect = {
 			}
 		10 = {
 			if = {
-				limit = { OR = { trait = craven trait = berserker } }
+				limit = { trait = craven }
 				health = -0.5
 			}
 			if = {
-				limit = { NOR = { trait = craven trait = berserker } }
+				limit = { NOT = { trait = craven } }
 				add_trait = craven
 			}
 		}
@@ -2682,19 +2674,6 @@ give_epidemic_disease_effect = {
 		set_character_flag = developing_illness
 
 		character_event = { id = RIP.5019 }
-
-		break = yes
-	}
-	if = {
-		limit = { 
-			location = { disease = syphilis }
-			NOT = { has_character_flag = immune_syphilis }
-		}
-
-		set_character_flag = got_syphilis
-		set_character_flag = developing_illness
-
-		character_event = { id = RIP.5014 }
 
 		break = yes
 	}
@@ -5147,7 +5126,8 @@ monastic_order_purity_effect = {
 				factor = 2
 				piety = 1000
 			}
-			character_event = { id = MNM.4400 days = 10 random = 10 }
+			#character_event = { id = MNM.4400 days = 10 random = 10 }
+			# TODO: Add back this event.
 		}
 	}
 }
@@ -10860,7 +10840,7 @@ spawn_good_commander_effect = {
 			if = {
 				limit = {
 					OR = {
-						religion_group = greek_group
+						religion_group = greek_religion
 						religion = marduk_cult
 						has_religion_feature = religion_astrology
 					}
@@ -11046,7 +11026,7 @@ spawn_great_commander_effect = {
 			if = {
 				limit = {
 					OR = {
-						religion_group = greek_group
+						religion_group = greek_religion
 						religion = marduk_cult
 						has_religion_feature = religion_astrology
 					}
@@ -12553,92 +12533,6 @@ raiding_adventurer_war_declaration_effect = {
 	}
 }
 
-
-#Grace effects
-add_grace_trivial_effect = {
-	add_offmap_currency = {
-		offmap = offmap_china
-		value = 100
-	}
-}
-
-add_grace_minor_effect = {
-	add_offmap_currency = {
-		offmap = offmap_china
-		value = 200
-	}
-}
-
-add_grace_medium_effect = {
-	add_offmap_currency = {
-		offmap = offmap_china
-		value = 300
-	}	
-}
-
-add_grace_major_effect = {
-	add_offmap_currency = {
-		offmap = offmap_china
-		value = 500
-	}
-}
-
-add_grace_massive_effect = {
-	add_offmap_currency = {
-		offmap = offmap_china
-		value = 1000
-	}
-}
-
-add_grace_super_huge_effect = {
-	add_offmap_currency = {
-		offmap = offmap_china
-		value = 2000
-	}
-}
-
-detract_grace_trivial_effect = {
-	add_offmap_currency = {
-		offmap = offmap_china
-		value = -100
-	}
-}
-
-detract_grace_minor_effect = {
-	add_offmap_currency = {
-		offmap = offmap_china
-		value = -200
-	}
-}
-
-detract_grace_medium_effect = {
-	add_offmap_currency = {
-		offmap = offmap_china
-		value = -300
-	}
-}
-
-detract_grace_major_effect = {
-	add_offmap_currency = {
-		offmap = offmap_china
-		value = -500
-	}
-}
-
-detract_grace_massive_effect = {
-	add_offmap_currency = {
-		offmap = offmap_china
-		value = -1000
-	}
-}
-
-detract_grace_super_huge_effect = {
-	add_offmap_currency = {
-		offmap = offmap_china
-		value = -2000
-	}
-}
-
 set_china_boon_cd_effect = {  #added via tribute to China decisions... Always one year.
 	add_character_modifier = {
 		hidden = yes
@@ -13414,74 +13308,6 @@ china_war_spawn_troops_no_disband_effect = {
 }
 
 china_war_modify_variables_by_status_effect = {
-	# variable: china_war_troop_quality
-	# variable: china_war_troop_quantity
-	# variable: china_war_minimum_commander_martial
-	# variable: china_war_target_match_mult
-	
-	random_list = {
-		1 = {
-			trigger = {
-				offmap_china = { has_status = china_stable }
-			}
-			change_variable = { which = china_war_troop_quality value = 1 }
-			change_variable = { which = china_war_minimum_commander_martial value = 3 }
-		}
-		1 = {
-			trigger = {
-				offmap_china = { has_status = china_unrest }
-			}
-			change_variable = { which = china_war_troop_quantity value = -6 }
-			change_variable = { which = china_war_target_match_mult value = -0.15 }
-		}
-		1 = {
-			trigger = {
-				offmap_china = { has_status = china_civil_war }
-			}
-			change_variable = { which = china_war_troop_quantity value = -6 }
-			change_variable = { which = china_war_target_match_mult value = -0.25 }
-			change_variable = { which = china_war_troop_quality value = -1 }
-			change_variable = { which = china_war_minimum_commander_martial value = -6 }
-		}
-		1 = {
-			trigger = {
-				OR = {
-					offmap_china = { has_status = china_jurchen_invasion }
-					offmap_china = { has_status = china_mongol_invasion }
-				}
-			}
-			change_variable = { which = china_war_troop_quantity value = -7 }
-			change_variable = { which = china_war_target_match_mult value = -0.4 }
-			change_variable = { which = china_war_troop_quality value = -1 }
-			change_variable = { which = china_war_minimum_commander_martial value = -2 }
-		}
-		1 = {
-			trigger = {
-				offmap_china = { has_status = china_famine }
-			}
-			change_variable = { which = china_war_troop_quantity value = -4 }
-			change_variable = { which = china_war_target_match_mult value = -0.30 }
-			change_variable = { which = china_war_troop_quality value = -2 }
-			change_variable = { which = china_war_minimum_commander_martial value = -2 }
-		}
-		1 = {
-			trigger = {
-				offmap_china = { has_status = china_plague }
-			}
-			change_variable = { which = china_war_troop_quantity value = -6 }
-			change_variable = { which = china_war_target_match_mult value = -0.35 }
-			change_variable = { which = china_war_troop_quality value = -1 }
-			change_variable = { which = china_war_minimum_commander_martial value = -4 }
-		}
-		1 = {
-			trigger = {
-				offmap_china = { has_status = china_golden_age }
-			}
-			change_variable = { which = china_war_target_match_mult value = 0.65 }
-			change_variable = { which = china_war_troop_quality value = 2 }
-			change_variable = { which = china_war_minimum_commander_martial value = 5 }
-		}
-	}
 }
 
 
@@ -14735,10 +14561,7 @@ random_coronation_events_effect = {
 						}
 						NOT = { event_target:coronation_priest = { character = PREV } }
 						NOT = { event_target:coronation_ruler = { character = PREV } }
-						OR = { 
-							trait = cynical
-							christian
-						}
+						trait = cynical
 					}
 				}
 			}
@@ -15374,11 +15197,7 @@ random_list = {
 		modifier = { 
 			factor = 1.5
 			trait = blinded
-		} 
-		modifier = { 
-			factor = 1.5
-			trait = berserker
-		} 
+		}
 		modifier = { 
 			factor = 1.25
 			trait = lovers_pox
@@ -15744,11 +15563,7 @@ random_list = {
 		modifier = { 
 			factor = 1.5
 			trait = blinded
-		} 
-		modifier = { 
-			factor = 1.5
-			trait = berserker
-		} 
+		}
 		modifier = { 
 			factor = 1.25
 			trait = lovers_pox
@@ -16619,12 +16434,10 @@ tiered_prestige_reward_effect = {
 tiered_piety_reward_effect = {
 	if = {
 		limit = {
-			AND = { 
-				is_ruler = no
-				spouse = { is_ruler = no }
-				father_even_if_dead = { is_ruler = no }
-				mother_even_if_dead = { is_ruler = no }
-			}
+			is_ruler = no
+			spouse = { is_ruler = no }
+			father_even_if_dead = { is_ruler = no }
+			mother_even_if_dead = { is_ruler = no }
 		}
 		piety = 5
 	}
@@ -17075,12 +16888,10 @@ tiered_prestige_negative_effect = {
 tiered_piety_negative_effect = {
 	if = {
 		limit = {
-			AND = { 
-				is_ruler = no
-				spouse = { is_ruler = no }
-				father_even_if_dead = { is_ruler = no }
-				mother_even_if_dead = { is_ruler = no }
-			}
+			is_ruler = no
+			spouse = { is_ruler = no }
+			father_even_if_dead = { is_ruler = no }
+			mother_even_if_dead = { is_ruler = no }
 		}
 		piety = -5
 	}
@@ -17529,107 +17340,89 @@ tiered_high_piety_negative_effect = {
 }
 #Used for gluttonous and hedonistic actions.
 gain_weight_small_effect = {
-	custom_tooltip = {
-		hidden_tooltip = {
+	hidden_tooltip = {
 		change_variable = { which = physique_variable value = 5 }
-		}
 	}
 } 
 gain_weight_medium_effect = {
-	custom_tooltip = {
-		hidden_tooltip = {
+	hidden_tooltip = {
 		change_variable = { which = physique_variable value = 10 }
-		}
 	}
 } 
 gain_weight_large_effect = {
-	custom_tooltip = {
-		hidden_tooltip = {
+	hidden_tooltip = {
 		change_variable = { which = physique_variable value = 15 }
-		}
 	}
 }
 
 #Used for training and balanced lifestyle.
 balance_weight_small_effect =  {
-	custom_tooltip = {
-		hidden_tooltip = {
-			#If variable is above 1, reduce it. If it's below 1 increase it.
-			if = { 
-				limit = {
-					check_variable = { which = physique_variable value = 1 }
-				}
-				change_variable = { which = physique_variable value = -2 }
+	hidden_tooltip = {
+		#If variable is above 1, reduce it. If it's below 1 increase it.
+		if = { 
+			limit = {
+				check_variable = { which = physique_variable value = 1 }
 			}
-			if = { 
-				limit = {
-					NOT = { check_variable = { which = physique_variable value = -1 } }
-				}
-				change_variable = { which = physique_variable value = 2 }
+			change_variable = { which = physique_variable value = -2 }
+		}
+		if = { 
+			limit = {
+				NOT = { check_variable = { which = physique_variable value = -1 } }
 			}
+			change_variable = { which = physique_variable value = 2 }
 		}
 	}
 } 
 balance_weight_medium_effect = {
-	custom_tooltip = {
-		hidden_tooltip = {
-			#If variable is above 1, reduce it. If it's below 1 increase it.
-			if = { 
-				limit = {
-					check_variable = { which = physique_variable value = 1 }
-				}
-				change_variable = { which = physique_variable value = -5 }
+	hidden_tooltip = {
+		#If variable is above 1, reduce it. If it's below 1 increase it.
+		if = { 
+			limit = {
+				check_variable = { which = physique_variable value = 1 }
 			}
-			if = { 
-				limit = {
-					NOT = { check_variable = { which = physique_variable value = -1 } }
-				}
-				change_variable = { which = physique_variable value = 5 }
+			change_variable = { which = physique_variable value = -5 }
+		}
+		if = { 
+			limit = {
+				NOT = { check_variable = { which = physique_variable value = -1 } }
 			}
+			change_variable = { which = physique_variable value = 5 }
 		}
 	}
 } 
 
 balance_weight_large_effect = { #Should be used rarely.
-	custom_tooltip = {
-		hidden_tooltip = {
-			#If variable is above 1, reduce it. If it's below 1 increase it.
-			if = { 
-				limit = {
-					check_variable = { which = physique_variable value = 1 }
-				}
-				change_variable = { which = physique_variable value = -10 }
+	hidden_tooltip = {
+		#If variable is above 1, reduce it. If it's below 1 increase it.
+		if = { 
+			limit = {
+				check_variable = { which = physique_variable value = 1 }
 			}
-			if = { 
-				limit = {
-					NOT = { check_variable = { which = physique_variable value = -1 } }
-				}
-				change_variable = { which = physique_variable value = 10 }
+			change_variable = { which = physique_variable value = -10 }
+		}
+		if = { 
+			limit = {
+				NOT = { check_variable = { which = physique_variable value = -1 } }
 			}
+			change_variable = { which = physique_variable value = 10 }
 		}
 	}
 } 
 
 #Used for seclusions, fasting, dungeon starvation, etc.
 lose_weight_small_effect = {
-	custom_tooltip = {
-		hidden_tooltip = {
+	hidden_tooltip = {
 		change_variable = { which = physique_variable value = -6 } #Because of the way trigger works, checks if you are below -5/-10/-15
-		}
 	}
 } 
 lose_weight_medium_effect = {
-	custom_tooltip = {
-		hidden_tooltip = {
-	change_variable = { which = physique_variable value = -11 }
-		}
+	hidden_tooltip = {
+		change_variable = { which = physique_variable value = -11 }
 	}
 } 
 lose_weight_large_effect = {
-	custom_tooltip = {
-		hidden_tooltip = {
-	change_variable = { which = physique_variable value = -16 }
-		}
+	hidden_tooltip = {
+		change_variable = { which = physique_variable value = -16 }
 	}
 }  
 
@@ -18849,7 +18642,7 @@ fire_haruspicy_event_effect = {
 			limit = { 
 				attacker = { 
 					OR = { 
-						religion_group = greek_group
+						religion_group = greek_religion
 						has_religion_feature = religion_haruspicy 
 					} 
 				} 
@@ -18862,7 +18655,7 @@ fire_haruspicy_event_effect = {
 			limit = { 
 				defender = { 
 					OR = { 
-						religion_group = greek_group
+						religion_group = greek_religion
 						has_religion_feature = religion_haruspicy 
 					} 
 				} 
@@ -19548,7 +19341,7 @@ spawn_debutante_effect = {
 			if = {
 				limit = {
 					OR = {
-						religion_group = greek_group
+						religion_group = greek_religion
 						religion = marduk_cult
 						has_religion_feature = religion_astrology
 					}
@@ -19581,208 +19374,11 @@ spawn_debutante_effect = {
 }
 
 transfer_crown_on_abdication_effect = {
-	if = {
-		limit = { 
-			has_landed_title = e_hre
-			any_artifact = { artifact_type = crown_hre } 
-		}
-			current_heir = { save_event_target_as = crown_hre_heir }
-			any_artifact = { 
-				limit = { artifact_type = crown_hre }
-				transfer_artifact = {
-					from = PREV
-					to = event_target:crown_hre_heir
-				} 
-			}
-	}
-	if = {
-		limit = { 
-			has_landed_title = e_byzantium
-			any_artifact = { artifact_type = crown_byzantine }
-		}
-			current_heir = { save_event_target_as = crown_byzantine_heir }
-			any_artifact = { 
-				limit = { artifact_type = crown_byzantine }
-				transfer_artifact = {
-					from = PREV
-					to = event_target:crown_byzantine_heir
-				} 
-			}
-	}
-	if = {
-		limit = { 
-			has_landed_title = e_persia
-			any_artifact = { artifact_type = crown_pahlavi }
-		}
-			current_heir = { save_event_target_as = crown_pahlavi_heir }
-			any_artifact = { 
-				limit = { artifact_type = crown_pahlavi }
-				transfer_artifact = {
-					from = PREV
-					to = event_target:crown_pahlavi_heir
-				} 
-			}
-	}
-	if = {
-		limit = { 
-			has_landed_title = d_norse_pagan_reformed
-			any_artifact = { artifact_type = crown_fylkir }
-		}
-			current_heir = { save_event_target_as = crown_fylkir_heir }
-			any_artifact = { 
-				limit = { artifact_type = crown_fylkir }
-				transfer_artifact = {
-					from = PREV
-					to = event_target:crown_fylkir_heir
-				} 
-			}
-	}
-	if = {
-		limit = { 
-			has_landed_title = d_tengri_pagan_reformed
-			any_artifact = { artifact_type = crown_tengri_fylkir }
-		}
-			current_heir = { save_event_target_as = crown_tengri_fylkir_heir }
-			any_artifact = { 
-				limit = { artifact_type = crown_tengri_fylkir }
-				transfer_artifact = {
-					from = PREV
-					to = event_target:crown_tengri_fylkir_heir
-				} 
-			}
-	}
-	if = {
-		limit = { 
-			has_landed_title = d_slavic_pagan_reformed
-			any_artifact = { artifact_type = crown_slavic_fylkir }
-		}
-			current_heir = { save_event_target_as = crown_slavic_fylkir_heir }
-			any_artifact = { 
-				limit = { artifact_type = crown_slavic_fylkir }
-				transfer_artifact = {
-					from = PREV
-					to = event_target:crown_slavic_fylkir_heir
-				} 
-			}
-	}
-	if = {
-		limit = { 
-			has_landed_title = d_baltic_pagan_reformed
-			any_artifact = { artifact_type = crown_romuva_fylkir }
-		}
-			current_heir = { save_event_target_as = crown_romuva_fylkir_heir }
-			any_artifact = { 
-				limit = { artifact_type = crown_romuva_fylkir }
-				transfer_artifact = {
-					from = PREV
-					to = event_target:crown_romuva_fylkir_heir
-				} 
-			}
-	}
-	if = {
-		limit = { 
-			has_landed_title = d_finnish_pagan_reformed
-			any_artifact = { artifact_type = crown_finnish_fylkir }
-		}
-			current_heir = { save_event_target_as = crown_finnish_fylkir_heir }
-			any_artifact = { 
-				limit = { artifact_type = crown_finnish_fylkir }
-				transfer_artifact = {
-					from = PREV
-					to = event_target:crown_finnish_fylkir_heir
-				} 
-			}
-	}
-	if = {
-		limit = { 
-			has_landed_title = d_west_african_pagan_reformed
-			any_artifact = { artifact_type = crown_west_african_fylkir }
-		}
-			current_heir = { save_event_target_as = crown_west_african_fylkir_heir }
-			any_artifact = { 
-				limit = { artifact_type = crown_west_african_fylkir }
-				transfer_artifact = {
-					from = PREV
-					to = event_target:crown_west_african_fylkir_heir
-				} 
-			}
-	}
-	if = {
-		limit = { 
-			has_landed_title = d_zun_pagan_reformed
-			any_artifact = { artifact_type = crown_zun_fylkir }
-		}
-			current_heir = { save_event_target_as = crown_zun_fylkir_heir }
-			any_artifact = { 
-				limit = { artifact_type = crown_zun_fylkir }
-				transfer_artifact = {
-					from = PREV
-					to = event_target:crown_zun_fylkir_heir
-				} 
-			}
-	}
-	if = {
-		limit = { 
-			has_landed_title = d_bon_reformed
-			any_artifact = { artifact_type = scepter_bon_fylkir }
-		}
-			current_heir = { save_event_target_as = scepter_bon_fylkir_heir }
-			any_artifact = { 
-				limit = { artifact_type = scepter_bon_fylkir }
-				transfer_artifact = {
-					from = PREV
-					to = event_target:scepter_bon_fylkir_heir
-				} 
-			}
-	}
-	if = {
-		limit = { 
-			has_landed_title = d_aztec_reformed
-			any_artifact = { artifact_type = crown_aztec_fylkir }
-		}
-			current_heir = { save_event_target_as = crown_aztec_fylkir_heir }
-			any_artifact = { 
-				limit = { artifact_type = crown_aztec_fylkir }
-				transfer_artifact = {
-					from = PREV
-					to = event_target:crown_aztec_fylkir_heir
-				} 
-			}
-	}
-	if = {
-		limit = { 
-			has_landed_title = k_hellenic_pagan
-			any_artifact = { artifact_type = scepter_hellenic_fylkir }
-		}
-			current_heir = { save_event_target_as = scepter_hellenic_fylkir_heir }
-			any_artifact = { 
-				limit = { artifact_type = scepter_hellenic_fylkir }
-				transfer_artifact = {
-					from = PREV
-					to = event_target:scepter_hellenic_fylkir_heir
-				} 
-			}
-	}
+# TODO: Transfer crowns to next character,
+
 	#Now transfer all other remaining artifacts to the player_heir, who may or may not be the current_heir.
 	player_heir = { save_event_target_as = scoped_player_heir }
-	any_artifact = { 
-		limit = { 
-			NOR = {
-				artifact_type = crown_hre
-				artifact_type = crown_byzantine 
-				artifact_type = crown_pahlavi
-				artifact_type = crown_fylkir
-				artifact_type = crown_tengri_fylkir
-				artifact_type = crown_slavic_fylkir
-				artifact_type = crown_romuva_fylkir
-				artifact_type = crown_finnish_fylkir
-				artifact_type = crown_west_african_fylkir
-				artifact_type = crown_zun_fylkir
-				artifact_type = scepter_bon_fylkir 
-				artifact_type = crown_aztec_fylkir
-				artifact_type = scepter_hellenic_fylkir 
-			}
-		}
+	any_artifact = {
 		transfer_artifact = {
 			from = PREV
 			to = event_target:scoped_player_heir
@@ -21890,46 +21486,6 @@ add_same_commander_trait_as_FROM = {
 			}
 			add_trait = winter_soldier
 		}
-		if = {
-			limit = {
-				NOT = {
-					trait = logistics_expert
-				}
-				culture_group = chinese_group
-				FROM = { trait = logistics_expert }
-			}
-			add_trait = logistics_expert
-		}
-		if = {
-			limit = {
-				NOT = {
-					trait = master_of_flame
-				}
-				culture_group = chinese_group
-				FROM = { trait = master_of_flame }
-			}
-			add_trait = master_of_flame
-		}
-		if = {
-			limit = {
-				NOT = {
-					trait = sapper
-				}
-				culture_group = chinese_group
-				FROM = { trait = sapper }
-			}
-			add_trait = sapper
-		}
-		if = {
-			limit = {
-				NOT = {
-					trait = levy_coordinator
-				}
-				culture_group = chinese_group
-				FROM = { trait = levy_coordinator }
-			}
-			add_trait = levy_coordinator
-		}
 		#10 = {
 		#	add_trait_wounded_effect = yes
 		#}
@@ -21937,32 +21493,6 @@ add_same_commander_trait_as_FROM = {
 }
 
 landless_pope_effect = {
-	if = {
-		limit = {
-			has_landed_title = k_papal_state
-			NOT = {
-				catholic = {
-					is_name_randomized = yes
-				}
-			}
-		}
-		if = {
-			limit = {
-				NOR = {
-					any_demesne_province = {
-						always = yes
-					}
-					any_realm_lord = {
-						any_demesne_province = {
-							always = yes
-						}
-					}
-				}
-			}
-			character_event = { id = HFP.40034 }
-			character_event = { id = HFP.40035 }
-		}
-	}
 }
 
 # Used for rains in African regions...
@@ -22614,452 +22144,18 @@ clr_flags_introduce_heir_effect = {
 }
 
 generate_mask_effect = {
-	random_list = { 
-		20 = { 
-			add_artifact = crown_african_mask_1
-			new_artifact = {
-				random_list = { 
-					20 = { set_name = crown_african_mask_1_random_a } #Randomize names to avoid too much repetition.
-					20 = { set_name = crown_african_mask_1_random_b }
-					20 = { set_name = crown_african_mask_1_random_c }
-					20 = { set_name = crown_african_mask_1_random_d } 
-				}
-			}
-		}
-		20 = { 
-			add_artifact = crown_african_mask_2
-			new_artifact = {
-				random_list = { 
-					20 = { set_name = crown_african_mask_2_random_a } #Randomize names to avoid too much repetition.
-					20 = { set_name = crown_african_mask_2_random_b }
-					20 = { set_name = crown_african_mask_2_random_c }
-					20 = { set_name = crown_african_mask_2_random_d } 
-				}
-			}
-		}
-		20 = { 
-			add_artifact = crown_african_mask_3
-			new_artifact = {
-				random_list = { 
-					20 = { set_name = crown_african_mask_3_random_a } #Randomize names to avoid too much repetition.
-					20 = { set_name = crown_african_mask_3_random_b }
-					20 = { set_name = crown_african_mask_3_random_c }
-					20 = { set_name = crown_african_mask_3_random_d } 
-				}
-			}
-		}
-		20 = { 
-			add_artifact = crown_african_mask_4
-			new_artifact = {
-				random_list = { 
-					20 = { set_name = crown_african_mask_4_random_a } #Randomize names to avoid too much repetition.
-					20 = { set_name = crown_african_mask_4_random_b }
-					20 = { set_name = crown_african_mask_4_random_c }
-					20 = { set_name = crown_african_mask_4_random_d } 
-				}
-			}
-		}
-		20 = { 
-			add_artifact = crown_african_mask_5
-			new_artifact = {
-				random_list = { 
-					20 = { set_name = crown_african_mask_5_random_a } #Randomize names to avoid too much repetition.
-					20 = { trigger = { ROOT = { NOT = { dynasty = none } } } set_name = crown_african_mask_5_random_b }
-					20 = { set_name = crown_african_mask_5_random_c }
-					20 = { set_name = crown_african_mask_5_random_d } 
-				}
-			}
-		}
-		20 = { 
-			add_artifact = crown_african_mask_6
-			new_artifact = {
-				random_list = { 
-					20 = { set_name = crown_african_mask_6_random_a } #Randomize names to avoid too much repetition.
-					20 = { set_name = crown_african_mask_6_random_b }
-					20 = { trigger = { ROOT = { NOT = { dynasty = none } } } set_name = crown_african_mask_6_random_c }
-					20 = { set_name = crown_african_mask_6_random_d } 
-				}
-			}
-		}
-		20 = { 
-			add_artifact = crown_african_mask_7
-			new_artifact = {
-				random_list = { 
-					20 = { set_name = crown_african_mask_7_random_a } #Randomize names to avoid too much repetition.
-					20 = { set_name = crown_african_mask_7_random_b }
-					20 = { set_name = crown_african_mask_7_random_c }
-					20 = { set_name = crown_african_mask_7_random_d } 
-				}
-			}
-		}
-		20 = { 
-			add_artifact = crown_african_mask_8
-			new_artifact = {
-				random_list = { 
-					20 = { set_name = crown_african_mask_8_random_a } #Randomize names to avoid too much repetition.
-					20 = { set_name = crown_african_mask_8_random_b }
-					20 = { set_name = crown_african_mask_8_random_c }
-					20 = { set_name = crown_african_mask_8_random_d } 
-				}
-			}
-		}
-	}
 }
 
 reformation_god_names_changes_effect = { #Reforming religion with certain Doctrines might result in gods being added/removed/changed.
 	ROOT = { #The Reformer scope.
-		if = {
-			limit = { 
-				NOT = {
-					has_alternate_start_parameter = { key = religion_names value = random }
-				}
-			}
-			if = { #A ruler reforms Norse Paganism.
-				limit = {
-					has_dlc = "Holy Fury" 
-					religion = norse_pagan_reformed
-					OR = { 
-						has_religion_feature = religion_matriarchal
-						has_religion_feature = religion_patriarchal
-						has_religion_feature = religion_dogmatic
-					}
-				}
-				remove_god_names = yes
-				remove_evil_god_names = yes
-				if = { #Religion is not sexist, add just Dogmatic set.
-					limit = {
-						NOR = {
-							has_religion_feature = religion_matriarchal
-							has_religion_feature = religion_patriarchal
-						}
-					}
-					set_high_god_name = GOD_THE_ALLFATHER
-					add_god_name = GOD_THE_ALLFATHER_2
-					add_evil_god_name = LOKI
-					add_evil_god_name = HEL
-					add_evil_god_name = FENRIR
-					add_evil_god_name = JORMUNGANDR
-				}
-				if = { #Religion is Patriarchal
-					limit = {
-						has_religion_feature = religion_patriarchal
-					}
-					set_high_god_name = GOD_ODIN
-					add_god_name = GOD_ODIN_2
-					if = { 
-						limit = {
-							NOT = { has_religion_feature = religion_dogmatic }
-						}
-						add_god_name = GOD_THOR
-						add_god_name = GOD_THE_THUNDERER
-						add_god_name = GOD_THE_ALLFATHER
-						add_god_name = GOD_TYR
-					}
-					add_evil_god_name = GOD_FRIGG
-					add_evil_god_name = HEL
-					add_evil_god_name = GOD_SIF
-					add_evil_god_name = GOD_SKADI
-				}
-				if = { #Religion is Matriarchal
-					limit = {
-						has_religion_feature = religion_matriarchal
-					}
-					set_high_god_name = GOD_FRIGG
-					add_god_name = GOD_FRIGG_2
-					if = { 
-						limit = {
-							NOT = { has_religion_feature = religion_dogmatic }
-						}
-						add_god_name = GOD_SIF
-						add_god_name = GOD_THE_ALLMOTHER
-						add_god_name = GOD_SKADI
-						add_god_name = GOD_FREY
-					}
-					add_evil_god_name = LOKI
-					add_evil_god_name = GOD_THE_THUNDERER
-					add_evil_god_name = FENRIR
-					add_evil_god_name = JORMUNGANDR
-				}
-			}
-			if = { #A ruler reforms Tengri Paganism.
-				limit = {
-					has_dlc = "Holy Fury" 
-					religion = tengri_pagan_reformed
-					OR = { 
-						has_religion_feature = religion_matriarchal
-						has_religion_feature = religion_patriarchal
-						has_religion_feature = religion_dogmatic
-					}
-				}
-				remove_god_names = yes
-				remove_evil_god_names = yes
-				if = { #Religion is not sexist, add just Dogmatic set.
-					limit = {
-						NOR = {
-							has_religion_feature = religion_matriarchal
-							has_religion_feature = religion_patriarchal
-						}
-					}
-					set_high_god_name = GOD_TENGRI
-					add_god_name = GOD_TENGRI_2
-					add_evil_god_name = ERLIK
-					add_evil_god_name = KOMUR_HAN
-				}
-				if = { #Religion is Patriarchal
-					limit = {
-						has_religion_feature = religion_patriarchal
-					}
-					set_high_god_name = GOD_TENGRI  
-					add_god_name = GOD_TENGRI_2
-					add_god_name = GOD_TUNG-AK
-					add_evil_god_name = GOD_AK_ANA 
-					add_evil_god_name = KOMUR_HAN
-				}
-				if = { #Religion is Matriarchal
-					limit = {
-						has_religion_feature = religion_matriarchal
-					}
-					set_high_god_name = GOD_UMAY
-					add_god_name = GOD_UMAY_2
-					add_god_name = GOD_AK_ANA
-					add_god_name = GOD_KUBAI
-					add_evil_god_name = ERLIK
-					add_evil_god_name = KOMUR_HAN
-				}
-			}
-			if = { #A ruler reforms Baltic Paganism.
-				limit = {
-					has_dlc = "Holy Fury" 
-					religion = baltic_pagan_reformed
-					OR = { 
-						has_religion_feature = religion_matriarchal
-						has_religion_feature = religion_patriarchal
-						has_religion_feature = religion_dogmatic
-					}
-				}
-				remove_god_names = yes
-				remove_evil_god_names = yes
-				if = { #Religion is not sexist, add just Dogmatic set.
-					limit = {
-						NOR = {
-							has_religion_feature = religion_matriarchal
-							has_religion_feature = religion_patriarchal
-						}
-					}
-					set_high_god_name = GOD_DIEVAS
-					add_god_name = GOD_DIEVAS_2
-					add_evil_god_name = VELNIAS
-				}
-				if = { #Religion is Patriarchal
-					limit = {
-						has_religion_feature = religion_patriarchal
-					}
-					set_high_god_name = GOD_DIEVAS
-					add_god_name = GOD_DIEVAS_2
-					add_god_name = GOD_PERKUNAS  
-					add_evil_god_name = GOD_LAIMA
-				}
-				if = { #Religion is Matriarchal
-					limit = {
-						has_religion_feature = religion_matriarchal
-					}
-					set_high_god_name = GOD_GABIJA
-					add_god_name = GOD_GABIJA_2
-					add_god_name = GOD_LAIMA  
-					add_evil_god_name = VELNIAS
-				}
-			}
-
-			if = { #A ruler reforms Finnish Paganism.
-				limit = {
-					has_dlc = "Holy Fury" 
-					religion = finnish_pagan_reformed
-					OR = { 
-						has_religion_feature = religion_matriarchal
-						has_religion_feature = religion_patriarchal
-						has_religion_feature = religion_dogmatic
-					}
-				}
-				remove_god_names = yes
-				remove_evil_god_names = yes
-				if = { #Religion is not sexist, add just Dogmatic set.
-					limit = {
-						NOR = {
-							has_religion_feature = religion_matriarchal
-							has_religion_feature = religion_patriarchal
-						}
-					}
-					set_high_god_name = GOD_UKKO
-					add_god_name = GOD_UKKO_2
-					add_evil_god_name = TUONI
-				}
-				if = { #Religion is Patriarchal
-					limit = {
-						has_religion_feature = religion_patriarchal
-					}
-					set_high_god_name = GOD_UKKO
-					add_god_name = GOD_UKKO_2
-					if = { 
-						limit = {
-							NOT = { has_religion_feature = religion_dogmatic }
-						}
-						add_god_name = GOD_PERKELE 
-						add_god_name = GOD_JUMI
-						add_god_name = GOD_THE_GREAT_BEAR
-						add_god_name = GOD_TAPIO
-						add_god_name = GOD_TAARA
-						add_god_name = GOD_OMOL
-					}
-					add_evil_god_name = GOD_MASTOR_AVA
-					add_evil_god_name = GOD_KALMA
-				}
-				if = { #Religion is Matriarchal
-					limit = {
-						has_religion_feature = religion_matriarchal
-					}
-					set_high_god_name = GOD_KUU
-					add_god_name = GOD_KUU_2
-					if = { 
-						limit = {
-							NOT = { has_religion_feature = religion_dogmatic }
-						}
-						add_god_name = GOD_MASTOR_AVA 
-						add_god_name = GOD_KALMA
-						add_god_name = GOD_THE_GREAT_BEAR
-					}
-					add_evil_god_name = TUONI 
-					add_evil_god_name = TUONETAR
-				}
-			}
-
-			if = { #A ruler reforms Aztec Paganism.
-				limit = {
-					has_dlc = "Holy Fury" 
-					religion = aztec_reformed
-					OR = { 
-						has_religion_feature = religion_matriarchal
-						has_religion_feature = religion_patriarchal
-						has_religion_feature = religion_dogmatic
-						has_religion_feature = religion_proselytizing
-					}
-				}
-				remove_god_names = yes
-				remove_evil_god_names = yes
-				if = { #Religion is not sexist, add just Proselytizing set.
-					limit = {
-						NOR = {
-							has_religion_feature = religion_matriarchal
-							has_religion_feature = religion_patriarchal
-						}
-						has_religion_feature = religion_proselytizing
-					}
-					set_high_god_name = GOD_QUETZALCOATL
-					add_god_name = GOD_QUETZALCOATL_2
-					add_evil_god_name = GOD_TEZCATLIPOCA
-				}
-				if = { #Religion is not sexist, add just Dogmatic set.
-					limit = {
-						NOR = {
-							has_religion_feature = religion_matriarchal
-							has_religion_feature = religion_patriarchal
-						}
-						has_religion_feature = religion_dogmatic
-					}
-					set_high_god_name = GOD_HUITZILOPOCHTLI
-					add_god_name = GOD_HUITZILOPOCHTLI_2
-					add_evil_god_name = TLAZOLTEOTL
-				}
-				if = { #Religion is Patriarchal
-					limit = {
-						has_religion_feature = religion_patriarchal
-					}
-					set_high_god_name = GOD_HUITZILOPOCHTLI 
-					add_god_name = GOD_HUITZILOPOCHTLI_2   
-					add_god_name = GOD_XIPE_TOTEC 
-					add_god_name = GOD_TEZCATLIPOCA
-					add_god_name = GOD_QUETZALCOATL
-					add_god_name = GOD_TLALOC
-					add_evil_god_name = TLAZOLTEOTL 
-					add_evil_god_name = GOD_MICTLANTECUHTLI 
-					add_evil_god_name = XOLOTL
-				}
-				if = { #Religion is Matriarchal
-					limit = {
-						has_religion_feature = religion_matriarchal
-					}
-					set_high_god_name = GOD_CIHUACOATL
-					add_god_name = GOD_CIHUACOATL_2
-					add_god_name = GOD_MALINALXOCHITL 
-					add_god_name = GOD_METZTLI
-					add_god_name = GOD_TONACACIHUATL
-					add_evil_god_name = TLAZOLTEOTL 
-					add_evil_god_name = GOD_MICTLANTECUHTLI 
-					add_evil_god_name = XOLOTL
-				}
-			}
-
-			if = { #A ruler reforms Slavic Paganism.
-				limit = {
-					has_dlc = "Holy Fury" 
-					religion = slavic_pagan_reformed
-					OR = { 
-						has_religion_feature = religion_matriarchal
-						has_religion_feature = religion_patriarchal
-						has_religion_feature = religion_dogmatic
-					}
-				}
-				remove_god_names = yes
-				remove_evil_god_names = yes
-				if = { #Religion is not sexist, add just Dogmatic set.
-					limit = {
-						NOR = {
-							has_religion_feature = religion_matriarchal
-							has_religion_feature = religion_patriarchal
-						}
-					}
-					set_high_god_name = GOD_PERUN
-					add_god_name = GOD_PERUN_2
-					add_evil_god_name = GOD_VELES
-					add_evil_god_name = CHERNOBOG
-				}
-				if = { #Religion is Patriarchal
-					limit = {
-						has_religion_feature = religion_patriarchal
-					}
-					set_high_god_name = GOD_PERUN
-					add_god_name = GOD_PERUN_2
-					if = { 
-						limit = {
-							NOT = { has_religion_feature = religion_dogmatic }
-						}
-						add_god_name = GOD_JARILO 
-						add_god_name = GOD_SVAROG 
-						add_god_name = GOD_TRIGLAV 
-						add_god_name = GOD_RADEGAST 
-					}
-					add_evil_god_name = GOD_VELES
-					add_evil_god_name = GOD_MEDEINA
-				}
-				if = { #Religion is Matriarchal
-					limit = {
-						has_religion_feature = religion_matriarchal
-					}
-					set_high_god_name = GOD_MEDEINA
-					add_god_name = GOD_MEDEINA_2
-					if = { 
-						limit = {
-							NOT = { has_religion_feature = religion_dogmatic }
-						}
-						add_god_name = GOD_DODOLA 
-						add_god_name = GOD_KOSTROMA
-						add_god_name = GOD_MARZANNA
-					}
-					add_evil_god_name = GOD_VELES 
-					add_evil_god_name = CHERNOBOG
-				}
-			}
-		}
-
+		#if = {
+		#	limit = { 
+		#		NOT = {
+		#			has_alternate_start_parameter = { key = religion_names value = random }
+		#		}
+		#	}
+			# TODO: Add reformist religions logic?
+		#}
 		if = {
 			limit = { #Holy Family actually becomes Holy.
 				has_dlc = "Holy Fury" 
@@ -23240,159 +22336,6 @@ murder_bloodline_check_effect = {
 		}
 		set_character_flag = flag_about_to_murder_bloodline
 		narrative_event = { id = HF.24048 days = 25 random = 25 }
-	}
-}
-
-princely_elective_german_elector_setup_effect = {
-	e_hre = { 
-		#County of Koln
-		#County of Mainz
-		#County of Trier
-		#Duchy of Bohemia
-		#Duchy of Franconia
-		#Duchy of Saxony
-		#Duchy of Brandenburg
-		save_persistent_event_target = { name = hre_title_1_per scope = c_koln }
-		save_persistent_event_target = { name = hre_title_2_per scope = c_mainz }
-		save_persistent_event_target = { name = hre_title_3_per scope = c_trier }
-		save_persistent_event_target = { name = hre_title_4_per scope = d_bohemia }
-		save_persistent_event_target = { name = hre_title_5_per scope = d_franconia }
-		save_persistent_event_target = { name = hre_title_6_per scope = d_saxony }
-		save_persistent_event_target = { name = hre_title_7_per scope = d_brandenburg }
-	}
-}
-
-princely_elective_french_elector_setup_effect = {
-	e_hre = { 
-		#County of Amiens
-		#County of Reims
-		#County of Anjou
-		#Duchy of Aquitaine
-		#Duchy of Burgundy
-		#Duchy of Normandy
-		#Duchy of Champagne
-		save_persistent_event_target = { name = hre_title_1_per scope = c_amiens }
-		save_persistent_event_target = { name = hre_title_2_per scope = c_reims }
-		save_persistent_event_target = { name = hre_title_3_per scope = c_anjou }
-		save_persistent_event_target = { name = hre_title_4_per scope = d_aquitaine }
-		save_persistent_event_target = { name = hre_title_5_per scope = d_burgundy }
-		save_persistent_event_target = { name = hre_title_6_per scope = d_normandy }
-		save_persistent_event_target = { name = hre_title_7_per scope = d_champagne }
-	}
-}
-
-princely_elective_italian_elector_setup_effect = {
-	e_hre = { 
-		#County of Rome
-		#County of Ravenna
-		#County of Genoa
-		#Duchy of Latium
-		#Duchy of Milan
-		#Duchy of Tuscany
-		#Duchy of Pisa
-		save_persistent_event_target = { name = hre_title_1_per scope = c_roma }
-		save_persistent_event_target = { name = hre_title_2_per scope = c_ravenna }
-		save_persistent_event_target = { name = hre_title_3_per scope = c_genoa }
-		save_persistent_event_target = { name = hre_title_4_per scope = d_latium }
-		save_persistent_event_target = { name = hre_title_5_per scope = d_lombardia }
-		save_persistent_event_target = { name = hre_title_6_per scope = d_toscana }
-		save_persistent_event_target = { name = hre_title_7_per scope = d_pisa }
-	}
-}
-
-princely_elective_spain_elector_setup_effect = {
-	e_hre = { 
-		#County of Santiago
-		#County of Cordoba
-		#County of Leon
-		#Duchy of Barcelona
-		#Duchy of Castille
-		#Duchy of Portucale
-		#Duchy of Seville
-		save_persistent_event_target = { name = hre_title_1_per scope = c_santiago }
-		save_persistent_event_target = { name = hre_title_2_per scope = c_leon }
-		save_persistent_event_target = { name = hre_title_3_per scope = c_cordoba }
-		save_persistent_event_target = { name = hre_title_4_per scope = d_barcelona }
-		save_persistent_event_target = { name = hre_title_5_per scope = d_castilla }
-		save_persistent_event_target = { name = hre_title_6_per scope = d_porto }
-		save_persistent_event_target = { name = hre_title_7_per scope = d_sevilla }
-	}
-}
-
-princely_elective_britannia_elector_setup_effect = {
-	e_hre = { 
-		#County of Kent
-		#County of Worcester
-		#County of Durham
-		#Duchy of Mercia
-		#Duchy of Meath
-		#Duchy of Albany
-		#Duchy of Gwynedd
-		save_persistent_event_target = { name = hre_title_1_per scope = c_kent }
-		save_persistent_event_target = { name = hre_title_2_per scope = c_worcester }
-		save_persistent_event_target = { name = hre_title_3_per scope = c_durham }
-		save_persistent_event_target = { name = hre_title_4_per scope = d_mercia }
-		save_persistent_event_target = { name = hre_title_5_per scope = d_meath }
-		save_persistent_event_target = { name = hre_title_6_per scope = d_albany }
-		save_persistent_event_target = { name = hre_title_7_per scope = d_gwynedd }
-	}
-}
-
-princely_elective_apply_elector_setup_effect = { 
-	if = {
-		limit = {
-			capital_scope = {
-				region = world_europe_south_italy
-			}
-		}
-		hidden_tooltip = {
-			princely_elective_italian_elector_setup_effect = yes
-		}
-	}
-	else_if = {
-		limit = {
-			capital_scope = {
-				region = world_europe_west_francia
-			}
-		}
-		hidden_tooltip = {
-			princely_elective_french_elector_setup_effect = yes
-		}
-	}
-	else_if = {
-		limit = {
-			capital_scope = {
-				region = world_europe_west_germania
-			}
-		}
-		hidden_tooltip = {
-			princely_elective_german_elector_setup_effect = yes
-		}
-	}
-	else_if = {
-		limit = {
-			capital_scope = {
-				region = world_europe_west_iberia
-			}
-		}
-		hidden_tooltip = {
-			princely_elective_spain_elector_setup_effect = yes
-		}
-	}
-	else_if = {
-		limit = {
-			capital_scope = {
-				region = world_europe_west_brittania
-			}
-		}
-		hidden_tooltip = {
-			princely_elective_britannia_elector_setup_effect = yes
-		}
-	}
-	else = { #If outside usual borders, default to Germania.
-		hidden_tooltip = {
-			princely_elective_german_elector_setup_effect = yes
-		}
 	}
 }
 

@@ -5,7 +5,7 @@
 #                                         #
 ###########################################
 
-# Written by Markus Olsén
+# Written by Markus Olsï¿½n
 # Additional writing by Mathilda Bjarnehed & Milla Isaksson
 
 namespace = RIP
@@ -2738,7 +2738,6 @@ character_event = {
 					NOR = { 
 						trait = craven
 						trait = brave
-						trait = berserker
 					}
 				}
 				add_trait = craven
@@ -4898,22 +4897,13 @@ character_event = {
 				modifier = {
 					factor = 1.5
 					FROM = {
-						OR = {
-							trait = scholar
-							trait = mutazilite
-						}
+						trait = scholar
 					}
 				}
 				modifier = {
 					factor = 1.2
 					FROM = {
 						is_smart_trigger = yes
-					}
-				}
-				modifier = {
-					factor = 5
-					FROM = {
-						culture = horse
 					}
 				}
 				modifier = {
@@ -4955,12 +4945,6 @@ character_event = {
 				set_character_flag = correct_diagnosis
 			}
 			60 = {
-				modifier = {
-					factor = 0
-					FROM = {
-						culture = horse
-					}
-				}
 				modifier = {
 					factor = 1.2
 					FROM = {
@@ -5050,15 +5034,6 @@ character_event = {
 				}
 				
 				if = {
-					limit = {	#horse
-						FROM = {
-							culture = horse
-						}	
-					}
-					set_character_flag = EVTDESC_RIP_11045_has_tuberculosis_flag_horse
-					break = yes
-				}
-				if = {
 					limit = {
 						has_character_flag = correct_diagnosis #Really good doctors know for sure
 						FROM = {
@@ -5124,15 +5099,6 @@ character_event = {
 						has_character_flag = faulty_diagnosis
 						has_character_flag = got_typhoid_fever
 					}
-				}
-				if = {
-					limit = {	#horse
-						FROM = {
-							culture = horse
-						}	
-					}
-					set_character_flag = EVTDESC_RIP_11045_has_typhoid_fever_flag_horse
-					break = yes
 				}
 				if = {
 					limit = {
@@ -5203,15 +5169,6 @@ character_event = {
 				}
 				
 				if = {
-					limit = {	#horse
-						FROM = {
-							culture = horse
-						}	
-					}
-					set_character_flag = EVTDESC_RIP_11045_has_typhus_flag_horse
-					break = yes
-				}
-				if = {
 					limit = {
 						has_character_flag = correct_diagnosis #Really good doctors know for sure
 						FROM = {
@@ -5279,15 +5236,6 @@ character_event = {
 					}
 				}
 				
-				if = {
-					limit = {	#horse
-						FROM = {
-							culture = horse
-						}	
-					}
-					set_character_flag = EVTDESC_RIP_11045_has_bubonic_plague_flag_horse
-					break = yes
-				}
 				if = {
 					limit = {
 						has_character_flag = correct_diagnosis #Really good doctors know for sure
@@ -5357,15 +5305,6 @@ character_event = {
 				}
 				
 				if = {
-					limit = {	#horse
-						FROM = {
-							culture = horse
-						}	
-					}
-					set_character_flag = EVTDESC_RIP_11045_has_measles_flag_horse
-					break = yes
-				}
-				if = {
 					limit = {
 						has_character_flag = correct_diagnosis #Really good doctors know for sure
 						FROM = {
@@ -5433,15 +5372,6 @@ character_event = {
 					}
 				}
 				
-				if = {
-					limit = {	#horse
-						FROM = {
-							culture = horse
-						}	
-					}
-					set_character_flag = EVTDESC_RIP_11045_has_smallpox_flag_horse
-					break = yes
-				}
 				if = {
 					limit = {
 						has_character_flag = correct_diagnosis #Really good doctors know for sure
@@ -5522,15 +5452,6 @@ character_event = {
 				}
 				
 				if = {
-					limit = {	#horse
-						FROM = {
-							culture = horse
-						}	
-					}
-					set_character_flag = EVTDESC_RIP_11045_has_aztec_disease_flag_horse
-					break = yes
-				}
-				if = {
 					limit = {
 						has_character_flag = correct_diagnosis #Really good doctors know for sure
 						FROM = {
@@ -5598,15 +5519,6 @@ character_event = {
 					}
 				}
 				
-				if = {
-					limit = {	#horse
-						FROM = {
-							culture = horse
-						}	
-					}
-					set_character_flag = EVTDESC_RIP_11045_has_flu_flag_horse
-					break = yes
-				}
 				if = {
 					limit = {
 						has_character_flag = correct_diagnosis #Really good doctors know for sure
@@ -5753,15 +5665,6 @@ character_event = {
 				}
 				
 				if = {
-					limit = {	#horse
-						FROM = {
-							culture = horse
-						}	
-					}
-					set_character_flag = EVTDESC_RIP_11045_has_gout_flag_horse
-					break = yes
-				}
-				if = {
 					limit = {
 						has_character_flag = correct_diagnosis #Really good doctors know for sure
 						FROM = {
@@ -5829,15 +5732,6 @@ character_event = {
 					}
 				}
 				
-				if = {
-					limit = {	#horse
-						FROM = {
-							culture = horse
-						}	
-					}
-					set_character_flag = EVTDESC_RIP_11045_has_food_poisoning_flag_horse
-					break = yes
-				}
 				if = {
 					limit = {
 						has_character_flag = correct_diagnosis #Really good doctors know for sure
@@ -5907,15 +5801,6 @@ character_event = {
 				}
 				
 				if = {
-					limit = {	#horse
-						FROM = {
-							culture = horse
-						}	
-					}
-					set_character_flag = EVTDESC_RIP_11045_has_rabies_flag_horse
-					break = yes
-				}
-				if = {
 					limit = {
 						has_character_flag = correct_diagnosis #Really good doctors know for sure
 						FROM = {
@@ -5983,15 +5868,6 @@ character_event = {
 					}
 				}
 				
-				if = {
-					limit = {	#horse
-						FROM = {
-							culture = horse
-						}	
-					}
-					set_character_flag = EVTDESC_RIP_11045_has_cancer_flag_horse
-					break = yes
-				}
 				if = {
 					limit = {
 						has_character_flag = correct_diagnosis #Really good doctors know for sure
@@ -6061,15 +5937,6 @@ character_event = {
 				}
 				
 				if = {
-					limit = {	#horse
-						FROM = {
-							culture = horse
-						}	
-					}
-					set_character_flag = EVTDESC_RIP_11045_has_pneumonia_flag_horse
-					break = yes
-				}
-				if = {
 					limit = {
 						has_character_flag = correct_diagnosis #Really good doctors know for sure
 						FROM = {
@@ -6138,15 +6005,6 @@ character_event = {
 				}
 				
 				if = {
-					limit = {	#horse
-						FROM = {
-							culture = horse
-						}	
-					}
-					set_character_flag = EVTDESC_RIP_11045_has_syphilis_flag_horse
-					break = yes
-				}
-				if = {
 					limit = {
 						has_character_flag = correct_diagnosis #Really good doctors know for sure
 						FROM = {
@@ -6214,15 +6072,6 @@ character_event = {
 					}
 				}
 				
-				if = {
-					limit = {	#horse
-						FROM = {
-							culture = horse
-						}	
-					}
-					set_character_flag = EVTDESC_RIP_11045_not_serious_flag_horse
-					break = yes
-				}
 				if = {
 					limit = {
 						has_character_flag = correct_diagnosis #Really good doctors know for sure
@@ -7220,91 +7069,6 @@ character_event = {
 			5 = { set_character_flag = EVTDESC_RIP_11046_GENERAL_14_FLAG }
 			5 = { set_character_flag = EVTDESC_RIP_11046_GENERAL_15_FLAG }
 			5 = { set_character_flag = EVTDESC_RIP_11046_GENERAL_16_FLAG }
-			1 = { 
-				modifier = {
-					factor = 0 
-					NOT = { 
-						FROMFROM = {
-							culture = horse
-						}
-					}
-				}
-				modifier = {
-					factor = 1000 
-						FROMFROM = {
-							culture = horse
-						}
-				}
-				set_character_flag = EVTDESC_RIP_11046_HORSE_1_FLAG
-			}
-			1 = { 
-				modifier = {
-					factor = 0 
-					NOT = { 
-						FROMFROM = {
-							culture = horse
-						}
-					}
-				}
-				modifier = {
-					factor = 1000 
-						FROMFROM = {
-							culture = horse
-						}
-				}
-				set_character_flag = EVTDESC_RIP_11046_HORSE_2_FLAG
-			}
-			1 = { 
-				modifier = {
-					factor = 0 
-					NOT = { 
-						FROMFROM = {
-							culture = horse
-						}
-					}
-				}
-				modifier = {
-					factor = 1000 
-						FROMFROM = {
-							culture = horse
-						}
-				}
-				set_character_flag = EVTDESC_RIP_11046_HORSE_3_FLAG
-			}
-			1 = { 
-				modifier = {
-					factor = 0 
-					NOT = { 
-						FROMFROM = {
-							culture = horse
-						}
-					}
-				}
-				modifier = {
-					factor = 1000 
-						FROMFROM = {
-							culture = horse
-						}
-				}
-				set_character_flag = EVTDESC_RIP_11046_HORSE_4_FLAG
-			}
-			1 = { 
-				modifier = {
-					factor = 0 
-					NOT = { 
-						FROMFROM = {
-							culture = horse
-						}
-					}
-				}
-				modifier = {
-					factor = 1000 
-						FROMFROM = {
-							culture = horse
-						}
-				}
-				set_character_flag = EVTDESC_RIP_11046_HORSE_5_FLAG
-			}
 		}
 	}
 

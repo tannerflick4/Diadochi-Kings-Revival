@@ -8,7 +8,7 @@
 #
 ###################################
 #
-# Written by Sara Wendel-Örtqvist
+# Written by Sara Wendel-ï¿½rtqvist
 
 ################################################################################
 # Events just for lowly counts. (some for dukes)
@@ -31,8 +31,7 @@ character_event = {
 	trigger = {
 		tier = count
 		in_command = no
-		NOT = { religion_group = muslim }
-		NOT = { religion_group = jewish_group }
+		NOT = { religion = judaism_main }
 		OR = {
 			trait = greedy
 			trait = midas_touched
@@ -87,178 +86,6 @@ character_event = {
 	}
 }
 
-### Blasphemy! ###
-character_event = {
-	id = 4040
-	desc = EVTDESC4040
-	picture = GFX_evt_bishop
-	
-	is_triggered_only = yes
-	
-	only_playable = yes
-	min_age = 20
-	capable_only = yes
-	prisoner = no
-	religion_group = christian
-	war = no
-	
-	trigger = {
-		in_command = no
-		piety = 50
-		tier = count
-		NOT = {
-			has_character_modifier = church_unfunny
-		}
-		job_spiritual = {
-			is_priest = yes
-			piety = 50
-			OR = {
-				trait = celibate
-				trait = chaste
-				trait = zealous
-			}
-		}
-	}
-	
-	weight_multiplier = {
-		days = 1
-		
-		modifier = {
-			factor = 3
-			trait = just
-		}
-		modifier = {
-			factor = 0.66
-			trait = arbitrary
-		}
-	}
-	
-	option = { 
-		name = EVTOPTA4040 #Ignore
-		add_character_modifier = {
-			name = church_unfunny
-			duration = 90
-		}
-	}
-	
-	option = {
-		name = EVTOPTB4040 #Imprisonment
-		add_character_modifier = {
-			name = imprison_lawbreakers
-			duration = 60
-		}
-	}
-	
-	option = {
-		name = EVTOPTC4040 #Punish cook
-		tooltip_info = arbitrary
-		trigger = {
-			trait = arbitrary
-		}
-		add_character_modifier = {
-			name = punish_cook
-			duration = 60
-		}
-	}
-	
-	option = {
-		name = EVTOPTD4040 #Hanged
-		tooltip_info = zealous
-		trigger = {
-			trait = zealous
-		}
-		add_character_modifier = {
-			name = kill_lawbreakers
-			duration = 60
-		}
-	}
-}
-
-### Blasphemy! - Muslim ###
-character_event = {
-	id = 4041
-	desc = EVTDESC4041
-	picture = GFX_evt_bishop
-	
-	is_triggered_only = yes
-	
-	only_playable = yes
-	min_age = 20
-	capable_only = yes
-	prisoner = no
-	religion_group = muslim
-	war = no
-	
-	trigger = {
-		in_command = no
-		piety = 50
-		tier = count
-		NOT = {
-			has_character_modifier = church_unfunny
-		}
-		job_spiritual = {
-			is_priest = yes
-			OR = {
-				piety = 50
-				trait = zealous
-			}
-		}
-	}
-	
-	weight_multiplier = {
-		days = 1
-		
-		modifier = {
-			factor = 3
-			trait = just
-		}
-		modifier = {
-			factor = 0.66
-			trait = arbitrary
-		}
-	}
-	
-	option = { 
-		name = EVTOPTA4040 #Ignore
-		add_character_modifier = {
-			name = unfunny_imam
-			duration = 90
-		}
-	}
-	
-	option = {
-		name = EVTOPTB4040 #Imprisonment
-		add_character_modifier = {
-			name = imprison_lawbreakers
-			duration = 60
-		}
-	}
-	
-	option = {
-		name = EVTOPTC4040 #Punish cook
-		tooltip_info = arbitrary
-		trigger = {
-			trait = arbitrary
-		}
-		add_character_modifier = {
-			name = punish_cook
-			duration = 60
-		}
-	}
-	
-	option = {
-		name = EVTOPTD4040 #Hanged
-		tooltip_info = zealous
-		trigger = {
-			trait = zealous
-		}
-		add_character_modifier = {
-			name = kill_lawbreakers
-			duration = 60
-		}
-	}
-}
-
 #Wolf hunting - Luparii
 character_event = {
 	id = 4085
@@ -275,8 +102,7 @@ character_event = {
 	war = no
 	
 	trigger = {
-		NOT = {	religion_group = muslim }
-		NOT = {	religion_group = jewish_group }
+		NOT = {	religion = judaism_main }
 		in_command = no
 		tier = count
 		NOT = {
@@ -456,7 +282,6 @@ character_event = {
 		OR = {
 			trait = chaste
 			trait = lustful
-			religion_group = muslim
 		}
 		NOT = { is_inaccessible_trigger = yes }
 	}
@@ -2072,7 +1897,7 @@ character_event = {
 	
 	trigger = {
 		in_command = no
-		NOT = { religion = jain }
+		NOT = { religion = jainism_main }
 		OR = {
 			trait = falconer
 			trait = hunter
@@ -2622,240 +2447,6 @@ character_event = {
 	}
 }
 
-#Jousting
-character_event = {
-	id = 4120
-	desc = EVTDESC4120
-	picture = GFX_evt_joust
-	
-	is_triggered_only = yes
-	
-	min_age = 20
-	only_men = yes
-	only_playable = yes
-	capable_only = yes
-	prisoner = no
-	religion_group = christian
-	war = no
-	friends = yes
-	rivals = yes
-	
-	trigger = {
-		in_command = no
-		any_courtier = {
-			martial = 15
-			reverse_opinion = { who = ROOT value = 25 }
-		}
-		NOT = {
-			has_character_modifier = the_pompous
-		}
-		NOT = {
-			has_character_modifier = the_cynical
-		}
-		NOT = { is_inaccessible_trigger = yes }
-	}
-	
-	weight_multiplier = {
-		days = 1
-		
-		modifier = {
-			factor = 2.5
-			trait = arbitrary
-		}
-		
-		modifier = {
-			factor = 0.8
-			trait = kind
-		}
-	}
-	
-	option = {
-		name = EVTOPTA4120
-		prestige = 10
-	}
-	
-	option = {
-		name = EVTOPTB4120
-		add_character_modifier = {
-			name = the_cynical
-			duration = 90
-		}
-	}
-	
-	option = {
-		name = EVTOPTC4120
-		tooltip_info = proud
-		trigger = {
-			trait = proud
-			any_courtier = {
-				martial = 15
-			}
-		}
-		any_courtier = {
-			limit = {
-				martial = 15
-				reverse_opinion = { who = ROOT value = 25 }
-			}
-			score_value = { #Prioritizes selecting an interesting courtier...
-	            value = 10
-        		interesting_courtier_selection_score = yes
-	        }
-			opinion = {
-				modifier = proud_pos
-				who = ROOT
-				years = 1
-			}
-		}
-	}
-	
-	option = {
-		name = EVTOPTD4120
-		tooltip_info = brave
-		trigger = {
-			trait = brave
-			NOT = {
-				trait = cynical
-			}
-		}
-		prestige = 15
-	}
-	
-	option = {
-		name = EVTOPTE4120
-		tooltip_info = gregarious
-		trigger = {
-			trait = gregarious
-			NOT = {
-				trait = brave
-			}
-		}
-		add_character_modifier = {
-			name = the_pompous
-			duration = 90
-		}
-	}
-	
-	option = {
-		name = EVTOPTF4120
-		trigger = {
-			NOT = {
-				trait = charitable
-			}
-		}
-		add_trait = charitable
-	}
-}
-
-#Tournaments
-character_event = {
-	id = 4125
-	desc = EVTDESC4125
-	picture = GFX_evt_joust
-	
-	is_triggered_only = yes
-	
-	min_age = 20
-	only_playable = yes
-	only_men = yes
-	capable_only = yes
-	prisoner = no
-	religion_group = christian
-	war = no
-	
-	trigger = {
-		in_command = no
-		martial = 15
-		intrigue = 10
-		OR = {
-			tier = duke
-			tier = count
-		}
-		NOT = {
-			has_character_modifier = the_cynical
-		}
-		NOT = {
-			has_character_modifier = the_pitiful
-		}
-		any_vassal = {
-			opinion = { who = ROOT value = 20 }
-			trait = brave
-		}
-		NOT = { is_inaccessible_trigger = yes }
-	}
-	
-	weight_multiplier = {
-		days = 1
-		
-		modifier = {
-			factor = 5
-			trait = cynical
-		}
-	
-		modifier = {
-			factor = 2.5
-			trait = charitable
-		}
-	}
-	
-	option = {
-		name = EVTOPTA4125
-		add_character_modifier = {
-			name = the_cynical
-			duration = 180
-		}
-	}
-	
-	option = {
-		name = EVTOPTB4125
-		tooltip_info = wroth
-		trigger = {
-			trait = wroth
-		}
-		scaled_wealth = -0.05
-		prestige = 15
-	}
-	
-	option = {
-		name = EVTOPTC4125
-		tooltip_info = slow
-		trigger = {
-			is_dumb_trigger = yes
-		}
-		add_character_modifier = {
-			name = the_pitiful
-			duration = 90
-		}
-	}
-	
-	option = {
-		name = EVTOPTD4125
-		tooltip_info = gregarious
-		trigger = {
-			trait = gregarious
-		}
-		piety = 10
-	}
-	
-	option = {
-		name = EVTOPTE4125
-		any_vassal = {
-			limit = {
-				opinion = { who = ROOT value = 20 }
-				trait = brave
-			}
-			score_value = { #Prioritizes selecting an interesting courtier...
-	            value = 10
-        		interesting_courtier_selection_score = yes
-	        }
-			opinion = {
-				modifier = opinion_approves
-				who = ROOT
-				years = 2
-			}
-		}
-	}
-}
-
 #Festivals
 character_event = {
 	id = 4130
@@ -3289,126 +2880,6 @@ character_event = {
 	}
 }
 
-#A Lord Returns to Sing about the Queen of Elfland
-character_event = {
-	id = 4150
-	desc = EVTDESC4150
-	picture = GFX_evt_jugglers
-	
-	is_triggered_only = yes
-	
-	min_age = 20
-	only_playable = yes
-	only_men = yes
-	capable_only = yes
-	prisoner = no
-	religion_group = christian
-	war = no
-	
-	trigger = {
-		in_command = no
-		father_even_if_dead = {
-			is_alive = no
-		}
-		is_dumb_trigger = no
-		NOT = {
-			trait = kind
-			has_character_modifier = the_suspicious
-			has_character_modifier = the_kind
-		}
-	}
-	
-	weight_multiplier = {
-		days = 1
-		
-		modifier = {
-			factor = 5
-			trait = trusting
-		}
-		
-		modifier = {
-			factor = 0.75
-			trait = gregarious
-		}
-	}
-	
-	option = {
-		name = EVTOPTA4150
-		add_trait = kind
-	}
-	
-	option = {
-		name = EVTOPTB4150
-		tooltip_info = cynical
-		trigger = {
-			trait = cynical
-			NOT = {
-				trait = paranoid
-			}
-		}
-		add_trait = paranoid
-	}
-	
-	option = {
-		name = EVTOPTC4150
-		tooltip_info = wroth
-		trigger = {
-			trait = wroth
-		}
-		prestige = -10
-		change_martial = 1
-	}
-	
-	option = {
-		name = EVTOPTD4150
-		tooltip_info = arbitrary
-		trigger = {
-			trait = arbitrary
-			NOT = {
-				trait = gregarious
-			}
-		}
-		add_character_modifier = {
-			name = the_suspicious
-			duration = 90
-		}
-	}
-	
-	option = {
-		name = EVTOPTE4150
-		ai_chance = {
-			factor = 0
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			age = 65
-			female = no
-			attributes = {
-				learning = 8
-			}
-		}
-		new_character = {
-			give_nickname = nick_the_clueless
-		}
-	}
-	
-	option = {
-		name = EVTOPTF4150
-		tooltip_info = gregarious
-		trigger = {
-			trait = gregarious
-			NOT = {
-				trait = wroth
-			}
-		}
-		add_character_modifier = {
-			name = the_kind
-			duration = 90
-		}
-	}
-}
-
 #Troubadours - Travelling musician who sang of courtly love
 character_event = {
 	id = 4155
@@ -3421,7 +2892,6 @@ character_event = {
 	only_playable = yes
 	capable_only = yes
 	prisoner = no
-	religion_group = christian
 	war = no
 	
 	trigger = {

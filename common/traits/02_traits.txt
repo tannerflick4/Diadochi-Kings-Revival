@@ -182,31 +182,6 @@ heresiarch = {
 	child_insult = INSULT_PEABRAIN
 }
 
-berserker = {
-	potential = {
-		OR = {
-			religion = norse_pagan
-			religion = norse_pagan_reformed
-		}
-	}
-	martial = 4
-	diplomacy = -2
-	combat_rating = 25 #old value: 3
-	
-	same_opinion = 10
-	
-	ai_rationality = -5
-	
-	male_compliment = COMPL_BERSERKER
-	female_compliment = COMPL_BERSERKER
-	male_insult = INSULT_LUNATIC
-	female_insult = INSULT_LUNATIC
-	child_insult = INSULT_TROLL
-	male_insult_adj = INSULT_CRAZED
-	female_insult_adj = INSULT_CRAZED
-	child_insult_adj = INSULT_CRAZY
-}
-
 # Babies can be born sickly
 sickly = {
 	is_health = yes
@@ -2630,7 +2605,7 @@ blessed_ancestor = {
 zodiac_aquarius = {
 	potential = {
 		OR = {
-			religion_group = greek_religion
+			religion_group = greek_main
 			religion = marduk_cult
 			has_religion_feature = religion_astrology
 		}
@@ -2657,7 +2632,7 @@ zodiac_aries = {
 	}
 	potential = {
 		OR = {
-			religion_group = greek_religion
+			religion_group = greek_main
 			religion = marduk_cult
 			has_religion_feature = religion_astrology
 		}
@@ -2681,7 +2656,7 @@ zodiac_cancer = {
 	}
 	potential = {
 		OR = {
-			religion_group = greek_religion
+			religion_group = greek_main
 			religion = marduk_cult
 			has_religion_feature = religion_astrology
 		}
@@ -2703,7 +2678,7 @@ zodiac_capricorn = {
 	}
 	potential = {
 		OR = {
-			religion_group = greek_religion
+			religion_group = greek_main
 			religion = marduk_cult
 			has_religion_feature = religion_astrology
 		}
@@ -2725,7 +2700,7 @@ zodiac_gemini = {
 	}
 	potential = {
 		OR = {
-			religion_group = greek_religion
+			religion_group = greek_main
 			religion = marduk_cult
 			has_religion_feature = religion_astrology
 		}
@@ -2748,7 +2723,7 @@ zodiac_leo = {
 	}
 	potential = {
 		OR = {
-			religion_group = greek_religion
+			religion_group = greek_main
 			religion = marduk_cult
 			has_religion_feature = religion_astrology
 		}
@@ -2773,7 +2748,7 @@ zodiac_libra = {
 	}
 	potential = {
 		OR = {
-			religion_group = greek_religion
+			religion_group = greek_main
 			religion = marduk_cult
 			has_religion_feature = religion_astrology
 		}
@@ -2796,7 +2771,7 @@ zodiac_pisces = {
 	}
 	potential = {
 		OR = {
-			religion_group = greek_religion
+			religion_group = greek_main
 			religion = marduk_cult
 			has_religion_feature = religion_astrology
 		}
@@ -2819,7 +2794,7 @@ zodiac_sagittarius = {
 	}
 	potential = {
 		OR = {
-			religion_group = greek_religion
+			religion_group = greek_main
 			religion = marduk_cult
 			has_religion_feature = religion_astrology
 		}
@@ -2842,7 +2817,7 @@ zodiac_scorpio = {
 	}
 	potential = {
 		OR = {
-			religion_group = greek_religion
+			religion_group = greek_main
 			religion = marduk_cult
 			has_religion_feature = religion_astrology
 		}
@@ -2866,7 +2841,7 @@ zodiac_taurus = {
 	}
 	potential = {
 		OR = {
-			religion_group = greek_religion
+			religion_group = greek_main
 			religion = marduk_cult
 			has_religion_feature = religion_astrology
 		}
@@ -2888,7 +2863,7 @@ zodiac_virgo = {
 	}
 	potential = {
 		OR = {
-			religion_group = greek_religion
+			religion_group = greek_main
 			religion = marduk_cult
 			has_religion_feature = religion_astrology
 		}

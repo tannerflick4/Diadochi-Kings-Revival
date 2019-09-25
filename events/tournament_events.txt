@@ -585,10 +585,7 @@ character_event = {
 		NOT = {
 			has_character_flag = tournament_has_ended
 		}
-		NOR = {
-			trait = craven
-			trait = berserker
-		}
+		NOT = { trait = craven }
 		top_liege = {
 			has_character_flag = tournament_begins
 			NOT = {

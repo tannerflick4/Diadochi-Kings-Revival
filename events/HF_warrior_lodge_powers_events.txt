@@ -41,45 +41,6 @@ character_event = {
 		name = EVTOPTCHF25000
 		
 		trigger = {
-			OR = { 
-				NOT = { ROOT = { has_law = succ_byzantine_elective } }  #Either not Imperial...
-				NOT = { #...Or there are no valid vassal candidates that can be commanders.
-					any_vassal = { 
-						higher_real_tier_than = BARON
-						NOT = { 
-							primary_title = { temporary = yes } 
-						}
-						OR = {
-							AND = {
-								OR = {
-									male_can_hold_minor_title_trigger = yes
-									female_can_hold_minor_commander_title_trigger = yes
-								}
-								OR = {
-									NOT = { religion = hindu }
-									trait = kshatriya
-								}
-								is_adult = yes
-							}
-							has_character_flag = special_marshal
-						}
-				
-						prisoner = no
-						NOT = { trait = incapable }
-						NOT = { is_inaccessible_trigger = yes }
-						NOT = { has_character_flag = guru }
-						NOT = { has_character_modifier = refusing_to_lead }
-						NOR = {
-							has_job_title = job_chancellor
-							has_job_title = job_marshal
-							has_job_title = job_treasurer
-							has_job_title = job_spymaster
-							has_job_title = job_spiritual
-							has_minor_title = title_commander
-						}
-					} 
-				}
-			}
 			any_realm_character = {
 				NOT = {
 					higher_tier_than = BARON
@@ -178,45 +139,6 @@ character_event = {
     option = {
         name = EVTOPTAHF25000
         trigger = {
-			OR = { 
-				NOT = { ROOT = { has_law = succ_byzantine_elective } }  #Either not Imperial...
-				NOT = { #...Or there are no valid vassal candidates that can be commanders.
-					any_vassal = { 
-						higher_real_tier_than = BARON
-						NOT = { 
-							primary_title = { temporary = yes } 
-						}
-						OR = {
-							AND = {
-								OR = {
-									male_can_hold_minor_title_trigger = yes
-									female_can_hold_minor_commander_title_trigger = yes
-								}
-								OR = {
-									NOT = { religion = hindu }
-									trait = kshatriya
-								}
-								is_adult = yes
-							}
-							has_character_flag = special_marshal
-						}
-				
-						prisoner = no
-						NOT = { trait = incapable }
-						NOT = { is_inaccessible_trigger = yes }
-						NOT = { has_character_flag = guru }
-						NOT = { has_character_modifier = refusing_to_lead }
-						NOR = {
-							has_job_title = job_chancellor
-							has_job_title = job_marshal
-							has_job_title = job_treasurer
-							has_job_title = job_spymaster
-							has_job_title = job_spiritual
-							has_minor_title = title_commander
-						}
-					} 
-				}
-			}
             OR = {
                 AND = {
                     tier = COUNT
@@ -1117,20 +1039,7 @@ character_event = {
 #War Sacrifice power.
 character_event = {
 	id = HF.25021
-	desc = {
-		trigger = {
-			religion_group = pagan_group
-		}
-		text = EVTDESCAHF25021
-	}
-	desc = {
-		trigger = { 
-			NOT = {
-				religion_group = pagan_group
-			}
-		}
-		text = EVTDESCBHF25021
-	}
+	desc = EVTDESCBHF25021
 	picture = GFX_evt_religious_exultation
 	border = GFX_event_normal_frame_religion
 	hide_new = yes
@@ -1388,7 +1297,7 @@ character_event = {
 			manpower = -150
 		}
 		if = { 
-			limit = { NOR = { religion_group = pagan_group has_religion_feature = religion_ritual_sacrifice } }
+			limit = { NOT = { has_religion_feature = religion_ritual_sacrifice } }
 			tiered_high_piety_negative_effect = yes 
 		}
 		add_blood_splatter_effect = yes
@@ -1408,22 +1317,6 @@ character_event = {
 		add_society_currency_medium_effect = yes
 		clr_character_flag = flag_picking_war_sacrifice
 	}
-#	option = { #Sacrifice wealth
-#		name = EVTOPTDHF25021
-#		if = { 
-#			limit = { ai = no }
-#			scaled_wealth = { value = -0.25 min = -25 max = -75 } 
-#		}
-#		if = { 
-#			limit = { NOT = { religion_group = pagan_group } }
-#			tiered_piety_negative_effect = yes 
-#		}
-#		hidden_tooltip = { character_event = { id = HF.25025 } } 
-#		add_character_modifier = { 
-#			modifier = lodge_war_sacrifice_1
-#			years = 5 
-#		}
-#	}
 }
 
 #Sacrificed relative to the gods.
@@ -2408,10 +2301,8 @@ narrative_event = {
 		trigger = {
 			OR = { 
 				society_member_of = warrior_lodge_hellenic 
-				religion = hellenic_pagan
-				religion = hellenic_pagan_reformed
-				secret_religion = hellenic_pagan
-				secret_religion = hellenic_pagan_reformed
+				religion_group = greek_religion
+				secret_religion_group = greek_religion
 				can_join_society = warrior_lodge_hellenic
 			}
 		}
@@ -2427,11 +2318,9 @@ narrative_event = {
 		name = EVTOPTBHF25026
 		trigger = {
 			NOR = { 
-				society_member_of = warrior_lodge_hellenic 
-				religion = hellenic_pagan
-				religion = hellenic_pagan_reformed
-				secret_religion = hellenic_pagan
-				secret_religion = hellenic_pagan_reformed
+				society_member_of = warrior_lodge_hellenic
+				religion_group = greek_religion
+				secret_religion_group = greek_religion
 			}
 		}
 	}
@@ -4315,411 +4204,6 @@ character_event = {
 				}
 			}
 		}
-	}
-}
-
-#Receive Carved Totem Artifact.
-character_event = {
-	id = HF.25046
-	desc = EVTDESCHF25046
-	picture = GFX_evt_west_african_ruler
-	border = GFX_event_normal_frame_religion
-
-	is_triggered_only = yes
-
-	immediate = { 
-		random_list = { 
-			33 = { sound_effect = create_fetish_01 } 
-			33 = { sound_effect = create_fetish_02 } 
-			33 = { sound_effect = create_fetish_03 } 
-		}
-	}
-
-	option = { 
-		name = EVTOPTAHF25046
-		custom_tooltip = { text = TOOLTIP_EVTOPTAHF25046 } 
-		hidden_tooltip = {
-			clr_character_flag = flag_ordered_fetish_creation
-			add_artifact = scepter_african_1
-			new_artifact = {
-				random_list = { 
-					20 = { trigger = { ROOT = { NOT = { dynasty = none } } } set_name = scepter_african_1_random_a } #Randomize names to avoid too much repetition.
-					20 = { set_name = scepter_african_1_random_b }
-					20 = { trigger = { ROOT = { NOT = { dynasty = none } } } set_name = scepter_african_1_random_c }
-					20 = { set_name = scepter_african_1_random_d } 
-				}
-			}
-		}
-	}
-}
-#Receive Ivory Idol Artifact.
-character_event = {
-	id = HF.25047
-	desc = EVTDESCHF25047
-	picture = GFX_evt_west_african_ruler
-	border = GFX_event_normal_frame_religion
-
-	is_triggered_only = yes
-
-	immediate = { 
-		random_list = { 
-			33 = { sound_effect = create_fetish_01 } 
-			33 = { sound_effect = create_fetish_02 } 
-			33 = { sound_effect = create_fetish_03 } 
-		}
-	}
-
-	option = { 
-		name = EVTOPTAHF25047
-		custom_tooltip = { text = TOOLTIP_EVTOPTAHF25047 } 
-		hidden_tooltip = {
-			clr_character_flag = flag_ordered_fetish_creation
-			add_artifact = scepter_african_2
-			new_artifact = {
-				random_list = { 
-					20 = { set_name = scepter_african_2_random_a } #Randomize names to avoid too much repetition.
-					20 = { set_name = scepter_african_2_random_b }
-					20 = { set_name = scepter_african_2_random_c }
-					20 = { set_name = scepter_african_2_random_d } 
-				}
-			}
-		}
-	}
-}
-
-#Receive Rainstick Artifact.
-character_event = {
-	id = HF.25048
-	desc = EVTDESCHF25048
-	picture = GFX_evt_west_african_ruler
-	border = GFX_event_normal_frame_religion
-
-	is_triggered_only = yes
-
-	immediate = { 
-		random_list = { 
-			33 = { sound_effect = create_fetish_01 } 
-			33 = { sound_effect = create_fetish_02 } 
-			33 = { sound_effect = create_fetish_03 } 
-		}
-	}
-
-	option = { 
-		name = EVTOPTAHF25048
-		custom_tooltip = { text = TOOLTIP_EVTOPTAHF25048 } 
-		hidden_tooltip = {
-			clr_character_flag = flag_ordered_fetish_creation
-			add_artifact = scepter_african_3
-			new_artifact = {
-				random_list = { 
-					20 = { set_name = scepter_african_3_random_a } #Randomize names to avoid too much repetition.
-					20 = { set_name = scepter_african_3_random_b }
-					20 = { set_name = scepter_african_3_random_c }
-					20 = { set_name = scepter_african_3_random_d } 
-				}
-			}
-		}
-	}
-}
-
-#Receive Top Tier Inspiring Mask
-character_event = {
-	id = HF.25049
-	desc = EVTDESCHF25049
-	picture = GFX_evt_west_african_ruler
-	border = GFX_event_normal_frame_religion
-
-	is_triggered_only = yes
-
-	immediate = { 
-		random_list = { 
-			33 = { sound_effect = create_fetish_01 } 
-			33 = { sound_effect = create_fetish_02 } 
-			33 = { sound_effect = create_fetish_03 } 
-		}
-	}
-
-	option = { 
-		name = EVTOPTAHF25049
-		custom_tooltip = { text = TOOLTIP_EVTOPTAHF25049 } 
-		hidden_tooltip = {
-			clr_character_flag = flag_ordered_fetish_creation
-			add_artifact = crown_african_mask_1
-			new_artifact = {
-				random_list = { 
-					20 = { set_name = crown_african_mask_1_random_a } #Randomize names to avoid too much repetition.
-					20 = { set_name = crown_african_mask_1_random_b }
-					20 = { set_name = crown_african_mask_1_random_c }
-					20 = { set_name = crown_african_mask_1_random_d } 
-				}
-			}
-		}
-	}
-}
-
-#Receive Top Tier Terrifying Mask
-character_event = {
-	id = HF.25050
-	desc = EVTDESCHF25050
-	picture = GFX_evt_west_african_ruler
-	border = GFX_event_normal_frame_religion
-
-	is_triggered_only = yes
-
-	immediate = { 
-		random_list = { 
-			33 = { sound_effect = create_fetish_01 } 
-			33 = { sound_effect = create_fetish_02 } 
-			33 = { sound_effect = create_fetish_03 } 
-		}
-	}
-
-	option = { 
-		name = EVTOPTAHF25050
-		custom_tooltip = { text = TOOLTIP_EVTOPTAHF25050 } 
-		hidden_tooltip = {
-			clr_character_flag = flag_ordered_fetish_creation
-			add_artifact = crown_african_mask_2
-			new_artifact = {
-				random_list = { 
-					20 = { set_name = crown_african_mask_2_random_a } #Randomize names to avoid too much repetition.
-					20 = { set_name = crown_african_mask_2_random_b }
-					20 = { set_name = crown_african_mask_2_random_c }
-					20 = { set_name = crown_african_mask_2_random_d } 
-				}
-			}
-		}
-	}
-}
-
-#Receive Mid Tier Unyielding Mask
-character_event = {
-	id = HF.25051
-	desc = EVTDESCHF25051
-	picture = GFX_evt_west_african_ruler
-	border = GFX_event_normal_frame_religion
-
-	is_triggered_only = yes
-
-	immediate = { 
-		random_list = { 
-			33 = { sound_effect = create_fetish_01 } 
-			33 = { sound_effect = create_fetish_02 } 
-			33 = { sound_effect = create_fetish_03 } 
-		}
-	}
-
-	option = { 
-		name = EVTOPTAHF25051
-		custom_tooltip = { text = TOOLTIP_EVTOPTAHF25051 } 
-		hidden_tooltip = {
-			clr_character_flag = flag_ordered_fetish_creation
-			add_artifact = crown_african_mask_3
-			new_artifact = {
-				random_list = { 
-					20 = { set_name = crown_african_mask_3_random_a } #Randomize names to avoid too much repetition.
-					20 = { set_name = crown_african_mask_3_random_b }
-					20 = { set_name = crown_african_mask_3_random_c }
-					20 = { set_name = crown_african_mask_3_random_d } 
-				}
-			}
-		}
-	}
-}
-
-#Receive Mid Tier Ruthless Mask
-character_event = {
-	id = HF.25052
-	desc = EVTDESCHF25052
-	picture = GFX_evt_west_african_ruler
-	border = GFX_event_normal_frame_religion
-
-	is_triggered_only = yes
-
-	immediate = { 
-		random_list = { 
-			33 = { sound_effect = create_fetish_01 } 
-			33 = { sound_effect = create_fetish_02 } 
-			33 = { sound_effect = create_fetish_03 } 
-		}
-	}
-
-	option = { 
-		name = EVTOPTAHF25052
-		custom_tooltip = { text = TOOLTIP_EVTOPTAHF25052 } 
-		hidden_tooltip = {
-			clr_character_flag = flag_ordered_fetish_creation
-			add_artifact = crown_african_mask_4
-			new_artifact = {
-				random_list = { 
-					20 = { set_name = crown_african_mask_4_random_a } #Randomize names to avoid too much repetition.
-					20 = { set_name = crown_african_mask_4_random_b }
-					20 = { set_name = crown_african_mask_4_random_c }
-					20 = { set_name = crown_african_mask_4_random_d } 
-				}
-			}
-		}
-	}
-}
-
-#Receive Mid Tier Trickster Mask
-character_event = {
-	id = HF.25053
-	desc = EVTDESCHF25053
-	picture = GFX_evt_west_african_ruler
-	border = GFX_event_normal_frame_religion
-
-	is_triggered_only = yes
-
-	immediate = { 
-		random_list = { 
-			33 = { sound_effect = create_fetish_01 } 
-			33 = { sound_effect = create_fetish_02 } 
-			33 = { sound_effect = create_fetish_03 } 
-		}
-	}
-
-	option = { 
-		name = EVTOPTAHF25053
-		custom_tooltip = { text = TOOLTIP_EVTOPTAHF25053 } 
-		hidden_tooltip = {
-			clr_character_flag = flag_ordered_fetish_creation
-			add_artifact = crown_african_mask_5
-			new_artifact = {
-				random_list = { 
-					20 = { set_name = crown_african_mask_5_random_a } #Randomize names to avoid too much repetition.
-					20 = { trigger = { ROOT = { NOT = { dynasty = none } } } set_name = crown_african_mask_5_random_b }
-					20 = { set_name = crown_african_mask_5_random_c }
-					20 = { set_name = crown_african_mask_5_random_d } 
-				}
-			}
-		}
-	}
-}
-
-#Receive Low Tier Angry Mask
-character_event = {
-	id = HF.25054
-	desc = EVTDESCHF25054
-	picture = GFX_evt_west_african_ruler
-	border = GFX_event_normal_frame_religion
-
-	is_triggered_only = yes
-
-	immediate = { 
-		random_list = { 
-			33 = { sound_effect = create_fetish_01 } 
-			33 = { sound_effect = create_fetish_02 } 
-			33 = { sound_effect = create_fetish_03 } 
-		}
-	}
-
-	option = { 
-		name = EVTOPTAHF25054
-		custom_tooltip = { text = TOOLTIP_EVTOPTAHF25054 } 
-		hidden_tooltip = {
-			clr_character_flag = flag_ordered_fetish_creation
-			add_artifact = crown_african_mask_6
-			new_artifact = {
-				random_list = { 
-					20 = { set_name = crown_african_mask_6_random_a } #Randomize names to avoid too much repetition.
-					20 = { set_name = crown_african_mask_6_random_b }
-					20 = { trigger = { ROOT = { NOT = { dynasty = none } } } set_name = crown_african_mask_6_random_c }
-					20 = { set_name = crown_african_mask_6_random_d } 
-				}
-			}
-		}
-	}
-}
-
-#Receive Low Tier Staunch Mask
-character_event = {
-	id = HF.25055
-	desc = EVTDESCHF25055
-	picture = GFX_evt_west_african_ruler
-	border = GFX_event_normal_frame_religion
-
-	is_triggered_only = yes
-
-	immediate = { 
-		random_list = { 
-			33 = { sound_effect = create_fetish_01 } 
-			33 = { sound_effect = create_fetish_02 } 
-			33 = { sound_effect = create_fetish_03 } 
-		}
-	}
-
-	option = { 
-		name = EVTOPTAHF25055
-		custom_tooltip = { text = TOOLTIP_EVTOPTAHF25055 } 
-		hidden_tooltip = {
-			clr_character_flag = flag_ordered_fetish_creation
-			add_artifact = crown_african_mask_7
-			new_artifact = {
-				random_list = { 
-					20 = { set_name = crown_african_mask_7_random_a } #Randomize names to avoid too much repetition.
-					20 = { set_name = crown_african_mask_7_random_b }
-					20 = { set_name = crown_african_mask_7_random_c }
-					20 = { set_name = crown_african_mask_7_random_d } 
-				}
-			}
-		}
-	}
-}
-
-#Receive Low Tier Fleeting Mask
-character_event = {
-	id = HF.25056
-	desc = EVTDESCHF25056
-	picture = GFX_evt_west_african_ruler
-	border = GFX_event_normal_frame_religion
-
-	is_triggered_only = yes
-
-	immediate = { 
-		random_list = { 
-			33 = { sound_effect = create_fetish_01 } 
-			33 = { sound_effect = create_fetish_02 } 
-			33 = { sound_effect = create_fetish_03 } 
-		}
-	}
-
-	option = { 
-		name = EVTOPTAHF25056
-		custom_tooltip = { text = TOOLTIP_EVTOPTAHF25056 } 
-		hidden_tooltip = {
-			clr_character_flag = flag_ordered_fetish_creation
-			add_artifact = crown_african_mask_8
-			new_artifact = {
-				random_list = { 
-					20 = { set_name = crown_african_mask_8_random_a } #Randomize names to avoid too much repetition.
-					20 = { set_name = crown_african_mask_8_random_b }
-					20 = { set_name = crown_african_mask_8_random_c }
-					20 = { set_name = crown_african_mask_8_random_d } 
-				}
-			}
-		}
-	}
-}
-#on_startup event giving masks to Grand Masters of the Warrior Lodge.
-character_event = {
-	id = HF.25057
-	hide_window = yes
-
-	is_triggered_only = yes
-
-	trigger = { 
-		is_save_game = no
-		society_member_of = warrior_lodge_west_african
-		society_rank = 4
-		OR = { 
-			religion = west_african_pagan 
-			religion = west_african_pagan_reformed
-		}
-	}
-
-	immediate = {
-		generate_mask_effect = yes
 	}
 }
 

@@ -924,8 +924,6 @@ character_event = {
 			trait = humble
 			trait = erudite
 			trait = theologian
-			trait = faqih
-			trait = hafiz
 			is_inaccessible_trigger = yes
 		}
 		
@@ -949,8 +947,6 @@ character_event = {
 							trait = humble
 							trait = erudite
 							trait = theologian
-							trait = faqih
-							trait = hafiz
 						}
 					}
 				}
@@ -989,8 +985,6 @@ character_event = {
 								trait = humble
 								trait = erudite
 								trait = theologian
-								trait = faqih
-								trait = hafiz
 							}
 						}
 					}
@@ -1693,8 +1687,6 @@ character_event = {
 					is_female = yes
 					ROOT = {
 						OR = {
-							religion = cathar
-							religion = messalian
 							primary_title = { has_law = status_of_women_4 }
 							has_game_rule = {
 								name = gender
@@ -1732,8 +1724,6 @@ character_event = {
 						is_female = yes
 						ROOT = { 
 							OR = { 
-								religion = cathar
-								religion = messalian
 								primary_title = { has_law = status_of_women_4 }
 								has_game_rule = {
 									name = gender
@@ -1839,7 +1829,7 @@ character_event = {
 				}
 			}
 		}
-		If = {
+		if = {
 			limit = {
 				NOT = {
 					trait = charitable

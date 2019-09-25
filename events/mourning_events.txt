@@ -71,12 +71,6 @@ character_event = {
 	option = {
 		name = EVTOPTB24501
 		add_trait = depressed
-		if = {
-			limit = {
-				religion_group = christian
-			}
-			add_trait = celibate
-		}
 	}	
 }
 
@@ -148,10 +142,7 @@ character_event = {
 			}
 			random_list = {
 				90 = {
-					if = {
-						limit = { NOT = { trait = berserker } }
-						add_trait = craven
-					}
+					add_trait = craven
 				}
 				10 = {
 					add_trait = brave
@@ -576,33 +567,7 @@ character_event = {
 	}
 
 	option = {
-		name = EVTOPTA4140
-		trigger = {
-			religion_group = christian
-		}
-		add_character_modifier = {
-			name = the_sincere
-			years = 5
-		}
-	}
-	option = {
-		name = EVTOPTD4140
-		trigger = {
-			religion_group = muslim
-		}
-		add_character_modifier = {
-			name = the_sincere
-			years = 5
-		}
-	}
-	option = {
 		name = EVTOPTE4140
-		trigger = {
-			NOT = {
-				religion_group = muslim
-				religion_group = christian
-			}
-		}
 		add_character_modifier = {
 			name = the_sincere
 			years = 5

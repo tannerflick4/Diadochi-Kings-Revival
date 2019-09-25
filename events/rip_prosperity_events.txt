@@ -598,10 +598,8 @@ province_event = { # Province Modifier Tombola
 			10 = { # Jewish Settlement
 				modifier = {
 					factor = 0
-					NOR = {
-						owner = { religion_group = christian }
-						owner = { religion_group = muslim }
-						owner = { religion_group = zoroastrian_group }
+					NOT = {
+						owner = { religion = zoroastrian_main }
 					}
 				}
 				modifier = {
@@ -615,7 +613,7 @@ province_event = { # Province Modifier Tombola
 					OR = {
 						has_province_modifier = jewish_settlement_province
 						has_province_modifier = religious_settlement_province
-						religion_group = jewish_group 
+						religion = judaism_main 
 					}
 				}
 				modifier = {
@@ -635,11 +633,7 @@ province_event = { # Province Modifier Tombola
 			10 = { # Religious Settlement
 				modifier = {
 					factor = 0
-					OR = {
-						owner = { religion_group = christian }
-						owner = { religion_group = muslim }
-						owner = { religion_group = zoroastrian_group }
-					}
+					owner = { religion = zoroastrian_main }
 				}
 				modifier = {
 					factor = 0
@@ -1002,17 +996,9 @@ province_event = { #Monetary Incentives for culture conversion
 			}
 		}
 		modifier = {
-			factor = 0.8
-			has_global_flag = flag_started_roman_renaissance
-			culture_group = latin
-			owner = {
-				culture = roman
-			}
-		}
-		modifier = {
 			factor = 0.75
 			owner = {
-				culture = roman
+				culture = latin
 	    		any_owned_bloodline = {
     				has_bloodline_flag = bloodline_faster_roman
     			}

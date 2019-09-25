@@ -599,27 +599,6 @@ character_event = {
 		}
 	}
 	option = {
-		name = EVTOPTV_TOG_501
-		tooltip_info = zealous
-		trigger = {
-			trait = zealous
-			OR = {
-				religion = norse_pagan
-				religion = norse_pagan_reformed
-			}
-			NOT = {
-				trait = lunatic
-				trait = possessed
-				is_dumb_trigger = yes
-			}
-		}
-
-		custom_tooltip = {
-			text = runestone_carved
-			hidden_tooltip = { narrative_event = { id = TOG.569 days = 60 random = 10 } }
-		}
-	}
-	option = {
 		name = EVTOPTX_TOG_501
 		tooltip_info = cruel
 		trigger = {
@@ -646,25 +625,6 @@ character_event = {
 			text = runestone_carved
 			hidden_tooltip = { narrative_event = { id = TOG.572 days = 60 random = 10 } }
 		}
-	}
-	option = {
-		name = EVTOPTZ_TOG_501
-		tooltip_info = zealous
-		trigger = {
-			trait = zealous
-			religion_group = christian
-			NOT = {
-				trait = lunatic
-				trait = possessed
-				is_dumb_trigger = yes
-			}
-		}
-		
-		custom_tooltip = {
-			text = runestone_carved
-			hidden_tooltip = { narrative_event = { id = TOG.570 days = 60 random = 10 } }
-		}
-			
 	}
 }
 
@@ -2298,35 +2258,5 @@ narrative_event = {
 				picture = GFX_evt_runestone_raising_oldgods
 			}
 		}
-	}
-}
-
-# Runestones can no longer be commissioned
-character_event = {
-	id = TOG.580
-	desc = EVTDESC_TOG_580
-	picture = GFX_evt_runestone_raising_oldgods
-	border = GFX_event_normal_frame_diplomacy
-	
-	only_playable = yes
-	ai = no
-	culture_group = north_germanic
-	
-	trigger = {
-		year = 1150
-		NOT = { has_character_flag = runestones_halted }
-		NOT = {
-			has_alternate_start_parameter = { key = religion_names value = random }
-		}
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
-	
-	option = {
-		name = EVTOPTA_TOG_580
-		custom_tooltip = { text = no_more_runestones }
-		set_character_flag = runestones_halted
 	}
 }

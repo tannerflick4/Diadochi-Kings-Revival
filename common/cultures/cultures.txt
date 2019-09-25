@@ -1791,8 +1791,6 @@ lusitanian = {
 		modifier = lusitanian_culture_modifier
 	}
 }
-
-
 tartessian = {
 	
 	turdetanian = {

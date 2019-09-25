@@ -5145,11 +5145,6 @@ character_event = {
 			}
 			piety = 100
 		}
-
-		if = { 
-			limit = { has_character_flag = flag_hunting_bear_finnish OR = { religion = finnish_pagan religion = finnish_pagan_reformed } }
-			hidden_tooltip = { character_event = { id = HF.25626 } } #Fluff.
-		}
 		ai_chance = { factor = 20 }
 	}
 	option = { #Take meat to share with society members.
@@ -5181,13 +5176,6 @@ character_event = {
 
 		hidden_tooltip = { character_event = { id = HF.25628 } } #Fluff.
 		ai_chance = { factor = 20 }
-	}
-	option = { #Tengri finds eagle.
-		name = EVTOPTDHF25620
-		trigger = { has_character_flag = flag_hunting_eagle_tengri OR = { religion = tengri_pagan religion = tengri_pagan_reformed } }
-		custom_tooltip = { text = TT_EVTOPTDHF252620 }
-		hidden_tooltip = { character_event = { id = HF.25629 } } #Fluff.
-		ai_chance = { factor = 50 }
 	}
 
 	after = { 

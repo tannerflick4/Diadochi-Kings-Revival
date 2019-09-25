@@ -6,7 +6,7 @@
 #
 #############################################
 # Written by Johan Andersson
-# Adjusted by Henrik Fåhraeus
+# Adjusted by Henrik Fï¿½hraeus
 
 #If in the red  => increase revolt risk in a province.
 province_event = {
@@ -157,29 +157,7 @@ province_event = {
 	}
 
 	option = {
-		name = EVTOPTA68001
-		trigger = {
-			owner = {
-				religion_group = christian
-			}
-		}
-	}
-	option = {
-		name = EVTOPTB68001
-		trigger = {
-			owner = {
-				religion_group = muslim
-			}
-		}
-	}
-	option = {
 		name = EVTOPTA88283
-		trigger = {
-			owner = {
-				NOT = { religion_group = christian }
-				NOT = { religion_group = muslim }
-			}
-		}
 	}
 }
 
@@ -519,7 +497,6 @@ province_event = {
 						is_active = yes
 						has_wonder_upgrade_flag = defensive
 						has_wonder_upgrade_flag = unit
-						has_wonder_upgrade = upgrade_temple_guards
 					}
 				}
 				any_neighbor_province = {
@@ -528,7 +505,6 @@ province_event = {
 						is_active = yes
 						has_wonder_upgrade_flag = defensive
 						has_wonder_upgrade_flag = unit
-						has_wonder_upgrade = upgrade_temple_guards
 					}
 				}
 			}
@@ -552,7 +528,6 @@ province_event = {
 						has_wonder_upgrade_flag = defensive
 						has_wonder_upgrade_flag = unit
 						NOR = { #Fallback if we add the flags to more upgrades
-							has_wonder_upgrade = upgrade_temple_guards
 							has_wonder_upgrade = upgrade_retinue
 						}
 					}
@@ -564,7 +539,6 @@ province_event = {
 						has_wonder_upgrade_flag = defensive
 						has_wonder_upgrade_flag = unit
 						NOR = { #Fallback if we add the flags to more upgrades
-							has_wonder_upgrade = upgrade_temple_guards
 							has_wonder_upgrade = upgrade_retinue
 						}
 					}
@@ -844,14 +818,12 @@ province_event = {
 				any_demesne_wonder = {
 					is_active = yes
 					has_wonder_upgrade_flag = defensive
-					has_wonder_upgrade = upgrade_temple_guards
 				}
 				any_neighbor_province = {
 					has_wonder = yes
 					wonder = {
 						is_active = yes
 						has_wonder_upgrade_flag = defensive
-						has_wonder_upgrade = upgrade_temple_guards
 					}
 				}
 			}
@@ -866,7 +838,6 @@ province_event = {
 					has_wonder_upgrade_flag = defensive
 					has_wonder_upgrade_flag = unit
 					NOR = { #Fallback if we add the flags to more upgrades
-						has_wonder_upgrade = upgrade_temple_guards
 						has_wonder_upgrade = upgrade_retinue
 					}
 				}
@@ -877,7 +848,6 @@ province_event = {
 						has_wonder_upgrade_flag = defensive
 						has_wonder_upgrade_flag = unit
 						NOR = { #Fallback if we add the flags to more upgrades
-							has_wonder_upgrade = upgrade_temple_guards
 							has_wonder_upgrade = upgrade_retinue
 						}
 					}

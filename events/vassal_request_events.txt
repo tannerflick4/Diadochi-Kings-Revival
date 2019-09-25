@@ -3,7 +3,7 @@
 # Vassal Request Events: 63000 - 63999
 #
 ######################################
-# by Henrik Fåhraeus
+# by Henrik Fï¿½hraeus
 ######################################
 
 ##########################################################
@@ -1776,12 +1776,7 @@ letter_event = {
 		}
 	}
 	option = {
-		name = EVTOPTB63061 # Very well (Non-Muslim)
-		trigger = {
-			NOT = {
-				religion_group = muslim
-			}
-		}
+		name = EVTOPTB63061 # Very well
 		FROM = {
 			letter_event = { id = 63063 days = 1 tooltip = EVTTOOLTIP63063 }
 			opinion = {
@@ -1807,38 +1802,6 @@ letter_event = {
 				primary_title = { has_law = city_tax_3 }
 			}
 			primary_title = { approve_law = city_tax_2 }
-		}
-	}
-	option = {
-		name = EVTOPTB63061 # Very well (Muslim)
-		trigger = {
-			religion_group = muslim
-		}
-		FROM = {
-			letter_event = { id = 63063 days = 1 tooltip = EVTTOOLTIP63063 }
-			opinion = {
-				modifier = opinion_accepted_city_tax_law
-				who = ROOT
-				months = 60
-			}
-		}
-		if = {
-			limit = {
-				primary_title = { has_law = city_tax_1 }
-			}
-			primary_title = { add_law = city_tax_0 }
-		}
-		if = {
-			limit = {
-				primary_title = { has_law = city_tax_2 }
-			}
-			primary_title = { add_law = city_tax_1 }
-		}
-		if = {
-			limit = {
-				primary_title = { has_law = city_tax_3 }
-			}
-			primary_title = { add_law = city_tax_2 }
 		}
 	}
 	option = {
@@ -1982,11 +1945,6 @@ character_event = {
 				trait = ambitious
 			}
 			modifier = {
-				factor = 10.0
-				religion_group = pagan_group
-				is_reformed_religion = no
-			}
-			modifier = {
 				factor = 0.2
 				NOT = {
 					opinion = { who = liege value = 0 }
@@ -2051,11 +2009,6 @@ character_event = {
 			modifier = {
 				factor = 10.0
 				trait = ambitious
-			}
-			modifier = {
-				factor = 10.0
-				religion_group = pagan_group
-				is_reformed_religion = no
 			}
 			modifier = {
 				factor = 0.2

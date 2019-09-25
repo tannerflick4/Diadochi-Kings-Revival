@@ -69,7 +69,7 @@ character_event = {
             }
             modifier = {
                 factor = 0.3
-                religion = jain
+                religion = jainism_main
             }
         }
         if = {
@@ -135,7 +135,6 @@ character_event = {
                     NOR = {
                         trait = craven
                         trait = brave
-                        trait = berserker 
                     }
                 }
                 random = {
@@ -418,12 +417,7 @@ character_event = {
             }
             modifier = {
                 factor = 0.3
-                religion = jain
-            }
-            modifier = {
-                religion_group = christian
-                is_priest = yes
-                factor = 0
+                religion = jainism_main
             }
             modifier = {
                 is_female = no
@@ -576,7 +570,6 @@ character_event = {
                     NOR = {
                         trait = craven
                         trait = brave
-                        trait = berserker 
                     }
                 }
                 random = {

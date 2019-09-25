@@ -1595,8 +1595,7 @@ character_event = {
     			10 = { add_trait = genius }
     			10 = { add_trait = quick }
     			10 = { add_trait = shrewd }
-    			10 = { trigger = { NOT = { religion_group = muslim } } add_trait = scholar }
-    			10 = { trigger = { religion_group = muslim } add_trait = faqih }
+    			10 = { add_trait = scholar }
     			10 = { add_trait = mystic }
     			10 = { add_trait = gardener }
     			10 = { trigger = { has_dlc = Reapers} add_trait = physician }
@@ -1832,11 +1831,7 @@ letter_event = {
 	    			any_realm_title = {
 	    				tier = DUKE
 	    				OR = {
-	    					title = d_alexandria
-	    					title = d_damietta
-	    					title = d_cairo
-	    					title = d_aswan
-	    					title = d_nobatia
+							# TODO: Add interesting regions here.
 	    					region = world_middle_east_jerusalem
 							region = world_europe_south_east
 							region = world_asia_minor
@@ -14037,13 +14032,6 @@ character_event = {
 				trait = temperate
 			}
 			modifier = {
-				factor = 6
-				AND = {
-					religion_group = muslim
-					NOT = { trait = decadent }
-				}
-			}
-			modifier = {
 				factor = 3
 				trait = shy
 			}
@@ -14112,7 +14100,6 @@ character_event = {
 					OR = {
 						trait = erudite
 						trait = scholar
-						trait = faqih
 						trait = diligent
 					}
 				}
@@ -14123,7 +14110,6 @@ character_event = {
 					NOR = {
 						trait = erudite
 						trait = scholar
-						trait = faqih
 						trait = diligent
 					}
 				}

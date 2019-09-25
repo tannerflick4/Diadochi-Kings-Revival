@@ -18,17 +18,7 @@ is_member_of_any_warrior_lodge_trigger = {
 	custom_tooltip = {
 		text = is_member_of_any_warrior_lodge_tt
 		hidden_trigger = {
-			OR = {
-				society_member_of = warrior_lodge_norse
-				society_member_of = warrior_lodge_tengri
-				society_member_of = warrior_lodge_baltic
-				society_member_of = warrior_lodge_finnish
-				society_member_of = warrior_lodge_slavic
-				society_member_of = warrior_lodge_west_african
-				society_member_of = warrior_lodge_zun
-				society_member_of = warrior_lodge_bon
-				society_member_of = warrior_lodge_hellenic
-			}
+			society_member_of = warrior_lodge_hellenic
 		}
 	}
 }
@@ -138,38 +128,6 @@ has_religion_matching_joined_warrior_lodge_trigger = {
 
 has_religion_matching_available_warrior_lodge_trigger = {
 	OR = {
-		AND = {
-			religion_openly_norse_or_reformed_trigger = yes
-			warrior_lodge_norse = { society_has_members = yes }
-		}
-		AND = {
-			religion_openly_tengri_or_reformed_trigger = yes
-			warrior_lodge_tengri = { society_has_members = yes }
-		}
-		AND = {
-			religion_openly_baltic_or_reformed_trigger = yes
-			warrior_lodge_baltic = { society_has_members = yes }
-		}
-		AND = {
-			religion_openly_finnish_or_reformed_trigger = yes
-			warrior_lodge_finnish = { society_has_members = yes }
-		}
-		AND = {
-			religion_openly_slavic_or_reformed_trigger = yes
-			warrior_lodge_slavic = { society_has_members = yes }
-		}
-		AND = {
-			religion_openly_west_african_or_reformed_trigger = yes
-			warrior_lodge_west_african = { society_has_members = yes }
-		}
-		AND = {
-			religion_openly_zun_or_reformed_trigger = yes
-			warrior_lodge_zun = { society_has_members = yes }
-		}
-		AND = {
-			religion_openly_bon_or_reformed_trigger = yes
-			warrior_lodge_bon = { society_has_members = yes }
-		}
 		AND = {
 			religion_openly_hellenic_or_reformed_trigger = yes
 			warrior_lodge_hellenic = { society_has_members = yes }
@@ -353,110 +311,6 @@ special_join_warrior_lodge_trigger = {
 	custom_tooltip = {
 		text = special_join_warrior_lodge_trigger_tt
 		OR = {
-			AND = {
-				FROM = { is_society = warrior_lodge_norse }
-				custom_tooltip = {
-					text = has_liege_vassal_or_neighbor_of_norse_religion_tt
-					hidden_trigger = {
-						OR = {
-							any_vassal = { religion_openly_norse_or_reformed_trigger = yes }
-							any_liege = { religion_openly_norse_or_reformed_trigger = yes }
-							any_neighbor_independent_ruler = { religion_openly_norse_or_reformed_trigger = yes }
-						}
-					}
-				}
-			}
-			AND = {
-				FROM = { is_society = warrior_lodge_tengri }
-				custom_tooltip = {
-					text = has_liege_vassal_or_neighbor_of_tengri_religion_tt
-					hidden_trigger = {
-						OR = {
-							any_vassal = { religion_openly_tengri_or_reformed_trigger = yes }
-							any_liege = { religion_openly_tengri_or_reformed_trigger = yes }
-							any_neighbor_independent_ruler = { religion_openly_tengri_or_reformed_trigger = yes }
-						}
-					}
-				}
-			}
-			AND = {
-				FROM = { is_society = warrior_lodge_baltic }
-				custom_tooltip = {
-					text = has_liege_vassal_or_neighbor_of_baltic_religion_tt
-					hidden_trigger = {
-						OR = {
-							any_vassal = { religion_openly_baltic_or_reformed_trigger = yes }
-							any_liege = { religion_openly_baltic_or_reformed_trigger = yes }
-							any_neighbor_independent_ruler = { religion_openly_baltic_or_reformed_trigger = yes }
-						}
-					}
-				}
-			}
-			AND = {
-				FROM = { is_society = warrior_lodge_finnish }
-				custom_tooltip = {
-					text = has_liege_vassal_or_neighbor_of_finnish_religion_tt
-					hidden_trigger = {
-						OR = {
-							any_vassal = { religion_openly_finnish_or_reformed_trigger = yes }
-							any_liege = { religion_openly_finnish_or_reformed_trigger = yes }
-							any_neighbor_independent_ruler = { religion_openly_finnish_or_reformed_trigger = yes }
-						}
-					}
-				}
-			}
-			AND = {
-				FROM = { is_society = warrior_lodge_slavic }
-				custom_tooltip = {
-					text = has_liege_vassal_or_neighbor_of_slavic_religion_tt
-					hidden_trigger = {
-						OR = {
-							any_vassal = { religion_openly_slavic_or_reformed_trigger = yes }
-							any_liege = { religion_openly_slavic_or_reformed_trigger = yes }
-							any_neighbor_independent_ruler = { religion_openly_slavic_or_reformed_trigger = yes }
-						}
-					}
-				}
-			}
-			AND = {
-				FROM = { is_society = warrior_lodge_west_african }
-				custom_tooltip = {
-					text = has_liege_vassal_or_neighbor_of_west_african_religion_tt
-					hidden_trigger = {
-						OR = {
-							any_vassal = { religion_openly_west_african_or_reformed_trigger = yes }
-							any_liege = { religion_openly_west_african_or_reformed_trigger = yes }
-							any_neighbor_independent_ruler = { religion_openly_west_african_or_reformed_trigger = yes }
-						}
-					}
-				}
-			}
-			AND = {
-				FROM = { is_society = warrior_lodge_zun }
-				custom_tooltip = {
-					text = has_liege_vassal_or_neighbor_of_zun_religion_tt
-					hidden_trigger = {
-						OR = {
-							any_vassal = { religion_openly_zun_or_reformed_trigger = yes }
-							any_liege = { religion_openly_zun_or_reformed_trigger = yes }
-							any_neighbor_independent_ruler = { religion_openly_zun_or_reformed_trigger = yes }
-						}
-					}
-				}
-			}
-			AND = {
-				FROM = { is_society = warrior_lodge_bon }
-				custom_tooltip = {
-					text = has_liege_vassal_or_neighbor_of_bon_religion_tt
-					hidden_trigger = {
-						OR = {
-							any_vassal = { religion_openly_bon_or_reformed_trigger = yes }
-							any_liege = { religion_openly_bon_or_reformed_trigger = yes }
-							any_neighbor_independent_ruler = { religion_openly_bon_or_reformed_trigger = yes }
-						}
-					}
-				}
-			}
 			AND = {
 				FROM = { is_society = warrior_lodge_hellenic }
 				custom_tooltip = {

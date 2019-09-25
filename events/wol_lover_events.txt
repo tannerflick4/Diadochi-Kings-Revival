@@ -32,8 +32,6 @@ character_event = {
 		}
 		NOT = { trait = infirm }
 		NOT = { is_inaccessible_trigger = yes }
-		NOT = { trait = on_hajj }
-		NOT = { trait = on_pilgrimage }
 		NOT = { trait = imbecile }
 		NOT = { trait = inbred }
 		
@@ -44,7 +42,6 @@ character_event = {
 			NOT = { trait = infirm }
 			NOT = { is_inaccessible_trigger = yes }
 			NOT = { trait = incapable }
-			NOT = { trait = on_pilgrimage }
 			any_lover = {
 				NOT = { character = ROOT }
 				NOT = { has_character_modifier = wol_court_tomcat }
@@ -123,7 +120,6 @@ character_event = {
 				NOT = { trait = infirm }
 				NOT = { is_inaccessible_trigger = yes }
 				NOT = { trait = incapable }
-				NOT = { trait = on_pilgrimage }
 				NOT = { has_character_modifier = wol_court_tomcat }
 				NOT = { has_character_modifier = wol_court_vixen }
 				NOT = {
@@ -2016,7 +2012,6 @@ character_event = {
 			OR = {
 				trait = wroth
 				trait = duelist
-				trait = berserker
 				trait = brave
 				is_strong_trigger = yes
 			}
@@ -2445,10 +2440,6 @@ character_event = {
 			}
 			modifier = {
 				factor = 3.0
-				trait = berserker
-			}
-			modifier = {
-				factor = 3.0
 				trait = brave
 			}
 			modifier = {
@@ -2611,10 +2602,6 @@ character_event = {
 				trait = duelist
 			}
 			modifier = {
-				factor = 3.0
-				trait = berserker
-			}
-			modifier = {
 				factor = 1.5
 				duelist_skill_is_high_group_trigger = yes
 			}
@@ -2648,10 +2635,6 @@ character_event = {
 			modifier = {
 				factor = 3.0
 				FROM = { trait = duelist }
-			}
-			modifier = {
-				factor = 3.0
-				FROM = { trait = berserker }
 			}
 			modifier = {
 				factor = 1.5

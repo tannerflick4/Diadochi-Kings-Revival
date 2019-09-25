@@ -68,8 +68,8 @@ character_event = {
 					if = {
 						limit = {
 							OR = {
-								religion = buddhist
-								religion = jain
+								religion = buddhism_main
+								religion = jainism_main
 							}
 						}
 						random_list = {
@@ -80,26 +80,7 @@ character_event = {
 					}
 					if = {
 						limit = {
-							religion = hindu
-							ROOT = {
-								ai = no
-								religion = hindu
-							}
-							year = 1150
-							NOT = { year = 1250 }
-							NOT = { has_global_flag = basava }
-						}
-						set_name = Basava
-						set_character_flag = is_basava
-						set_global_flag = basava
-						culture = marathi
-						add_trait = shaivist_hindu
-						add_trait = brahmin
-						add_trait = brave
-					}
-					if = {
-						limit = {
-							religion = hindu
+							religion = hinduism_main
 							NOT = { has_character_flag = basava }
 						}
 						random_list = {
@@ -148,8 +129,8 @@ character_event = {
 					if = {
 						limit = {
 							OR = {
-								religion = buddhist
-								religion = jain
+								religion = buddhism_main
+								religion = jainism_main
 							}
 						}
 						random_list = {
@@ -160,7 +141,7 @@ character_event = {
 					}
 					if = {
 						limit = {
-							religion = hindu
+							religion = hinduism_main
 						}
 						random_list = {
 							85 = { add_trait = brahmin }
@@ -313,8 +294,8 @@ character_event = {
 			has_dlc = "Jade Dragon"
 		}
 		OR = {
-			religion = buddhist
-			religion = jain
+			religion = buddhism_main
+			religion = jainism_main
 		}
 		any_courtier = {
 			has_minor_title = title_guru
@@ -443,8 +424,8 @@ character_event = {
 	trigger = {
 		has_dlc = "Rajas of India"
 		OR = {
-			religion = buddhist
-			religion = jain
+			religion = buddhism_main
+			religion = jainism_main
 		}
 		any_courtier = {
 			has_minor_title = title_guru
@@ -492,8 +473,8 @@ character_event = {
 	trigger = {
 		has_dlc = "Rajas of India"
 		OR = {
-			religion = buddhist
-			religion = jain
+			religion = buddhism_main
+			religion = jainism_main
 		}
 		any_courtier = {
 			has_minor_title = title_guru
@@ -537,7 +518,6 @@ character_event = {
 	only_capable = yes
 	prisoner = no
 	min_age = 16
-	religion_group = indian_group
 	
 	trigger = {
 		has_dharmic_religion_trigger = yes
@@ -587,7 +567,6 @@ character_event = {
 	only_capable = yes
 	prisoner = no
 	min_age = 16
-	religion_group = indian_group
 	
 	trigger = {
 		has_dharmic_religion_trigger = yes
@@ -637,7 +616,6 @@ character_event = {
 	only_capable = yes
 	prisoner = no
 	min_age = 16
-	religion_group = indian_group
 	
 	trigger = {
 		has_dharmic_religion_trigger = yes
@@ -719,7 +697,6 @@ character_event = {
 	only_capable = yes
 	prisoner = no
 	min_age = 16
-	religion_group = indian_group
 	
 	trigger = {
 		has_dharmic_religion_trigger = yes
@@ -800,7 +777,6 @@ character_event = {
 	only_capable = yes
 	prisoner = no
 	min_age = 16
-	religion_group = indian_group
 	
 	trigger = {
 		has_dharmic_religion_trigger = yes
@@ -851,7 +827,6 @@ character_event = {
 	only_capable = yes
 	prisoner = no
 	min_age = 16
-	religion_group = indian_group
 	
 	trigger = {
 		has_dharmic_religion_trigger = yes
@@ -902,7 +877,6 @@ character_event = {
 	only_capable = yes
 	prisoner = no
 	min_age = 16
-	religion_group = indian_group
 	
 	trigger = {
 		has_dharmic_religion_trigger = yes
@@ -953,7 +927,7 @@ character_event = {
 	only_capable = yes
 	prisoner = no
 	min_age = 16
-	religion = jain
+	religion = jainism_main
 	
 	trigger = {
 		has_dlc = "Rajas of India"
@@ -999,7 +973,7 @@ character_event = {
 	only_capable = yes
 	prisoner = no
 	min_age = 16
-	religion = jain
+	religion = jainism_main
 	
 	trigger = {
 		has_dlc = "Rajas of India"
@@ -1264,7 +1238,7 @@ character_event = {
 	only_capable = yes
 	prisoner = no
 	min_age = 16
-	religion = buddhist
+	religion = buddhism_main
 	
 	trigger = {
 		has_dlc = "Rajas of India"
@@ -1452,7 +1426,7 @@ character_event = {
 	min_age = 16
 	only_capable = yes
 	prisoner = no
-	religion = hindu
+	religion = hinduism_main
 	
 	is_triggered_only = yes
 
@@ -1560,7 +1534,7 @@ character_event = {
 	only_capable = yes
 	prisoner = no
 	min_age = 16
-	religion = buddhist
+	religion = buddhism_main
 	
 	trigger = {
 		has_dlc = "Rajas of India"
@@ -1622,7 +1596,7 @@ narrative_event = {
 	option = {
 		name = EVTOPTA_RoI_3402
 		trigger = {
-			religion = hindu
+			religion = hinduism_main
 		}
 		if = {
 			limit = { trait = stressed }
@@ -1636,7 +1610,7 @@ narrative_event = {
 	option = {
 		name = EVTOPTB_RoI_3402
 		trigger = {
-			religion = buddhist
+			religion = buddhism_main
 		}
 		if = {
 			limit = { trait = stressed }
@@ -1650,7 +1624,7 @@ narrative_event = {
 	option = {
 		name = EVTOPTC_RoI_3402
 		trigger = {
-			religion = jain
+			religion = jainism_main
 		}
 		if = {
 			limit = { trait = stressed }

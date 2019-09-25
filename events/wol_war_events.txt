@@ -76,12 +76,7 @@ character_event = {
 			}
 			modifier = {
 				factor = 0.3
-				religion = jain
-			}
-			modifier = {
-				religion_group = christian
-				is_priest = yes
-				factor = 0
+				religion = jainism_main
 			}
 			modifier = {
 				is_female = no
@@ -131,7 +126,6 @@ character_event = {
 					NOR = {
 						trait = craven
 						trait = brave
-						trait = berserker 
 					}
 				}
 				random = {
@@ -3445,7 +3439,7 @@ character_event = {
 
 #######################################
 # WAR FOCUS PULSE EVENTS
-# by Henrik Fåhraeus
+# by Henrik Fï¿½hraeus
 #######################################
 
 # Martial Education improved
@@ -3554,8 +3548,8 @@ character_event = {
 			AND = {
 				NOT = { trait = war_elephant_leader }
 				OR = {
-					culture_group = indo_aryan_group
-					culture_group = dravidian_group
+					# TODO: Others?
+					culture_group = indian
 					any_demesne_province = {
 						terrain = jungle
 					}
@@ -3654,8 +3648,8 @@ character_event = {
 		trigger = {
 			NOT = { trait = war_elephant_leader }
 			OR = {
-				culture_group = indo_aryan_group
-				culture_group = dravidian_group
+				# TODO: More cultures?
+				culture_group = indian
 				any_demesne_province = {
 					terrain = jungle
 				}
@@ -3694,16 +3688,6 @@ character_event = {
 				NOT = { trait = desert_terrain_leader }
 				any_demesne_province = {
 					terrain = desert
-				}
-			}
-			AND = {
-				NOT = { trait = winter_soldier }
-				OR = {
-					culture_group = north_germanic
-					culture_group = baltic
-					culture_group = east_slavic
-					culture_group = west_slavic
-					culture_group = finno_ugric
 				}
 			}
 		}
@@ -3771,17 +3755,6 @@ character_event = {
 		name = EVTOPTB_WOL_11302 # Rough Terrain
 		ai_chance = {
 			factor = 100
-			modifier = {
-				factor = 2
-				OR = {
-					culture_group = north_germanic
-					culture_group = baltic
-					culture_group = east_slavic
-					culture_group = west_slavic
-					culture_group = finno_ugric
-					is_tribal = yes
-				}
-			}
 		}
 		trigger = {
 			NOT = { trait = rough_terrain_leader }
@@ -3810,23 +3783,6 @@ character_event = {
 			}
 		}
 		add_trait = desert_terrain_leader
-	}
-	option = {
-		name = EVTOPTE_WOL_11302 # Winter Soldier
-		ai_chance = {
-			factor = 150
-		}
-		trigger = {
-			NOT = { trait = winter_soldier }
-			OR = {
-				culture_group = north_germanic
-				culture_group = baltic
-				culture_group = east_slavic
-				culture_group = west_slavic
-				culture_group = finno_ugric
-			}
-		}
-		add_trait = winter_soldier
 	}
 	
 	option = {
@@ -4052,18 +4008,7 @@ character_event = {
 		add_trait = organizer
 	}
 	option = { # Holy Warrior
-		name = { 
-			text = EVTOPTD_WOL_11304
-			trigger = {
-				NOT = { religion_group = muslim }
-			}
-		}
-		name = {
-			text = EVTOPTD_WOL_11304_MUSLIM
-			trigger = {
-				religion_group = muslim
-			}
-		}
+		name = EVTOPTD_WOL_11304
 		ai_chance = {
 			factor = 1000
 		}

@@ -118,14 +118,15 @@ e_persia = {
 			c_adar_gushnasp = {
 				color= { 200 0 50 }
 				color2= { 255 255 255 }
+
+				holy_site = zoroastrian_main
+				holy_site = armenian_main
+				holy_site = zurvanism
+				holy_site = pontic_main
 			
 				b_gaza_adar_gushnasp = {
 				}
 				b_adar_gushnasp_adar_gushnasp = {
-					holy_site = zoroastrian_main
-					holy_site = armenian_main
-					holy_site = zurvanism
-					holy_site = pontic_main
 				}
 				b_ganzak_adar_gushnasp = {
 				}
@@ -336,14 +337,15 @@ e_persia = {
 			c_susia = {
 				color= { 200 25 75 }
 				color2= { 255 255 255 }
+
+				holy_site = zoroastrian_main
+				holy_site = armenian_main
+				holy_site = zurvanism
+				holy_site = pontic_main
 				
 				b_susia_susia = {
 				}
 				b_vishpauzatis_susia = {
-					holy_site = zoroastrian_main
-					holy_site = armenian_main
-					holy_site = zurvanism
-					holy_site = pontic_main
 				}
 				b_nisaea_susia = {
 				}
@@ -470,13 +472,14 @@ e_persia = {
 				color= { 225 0 75 }
 				color2= { 255 255 255 }
 				
+				holy_site = zoroastrian_main
+				holy_site = armenian_main
+				holy_site = zurvanism
+				holy_site = pontic_main
+				
 				b_pasargadae_pasargadae = {
 				}
 				b_seraz_pasargadae = {
-					holy_site = zoroastrian_main
-					holy_site = armenian_main
-					holy_site = zurvanism
-					holy_site = pontic_main
 				}
 				b_tukrash_pasargadae = {
 				}
@@ -686,13 +689,14 @@ e_persia = {
 				color= { 235 10 75 }
 				color2= { 255 255 255 }
 				
+				holy_site = zoroastrian_main
+				holy_site = zurvanism
+
 				b_shahristan_shahristan = {
 				}
 				b_karkuya_shahristan = {
 				}
 				b_dahan_i_golaman_shahristan = {
-					holy_site = zoroastrian_main
-					holy_site = zurvanism
 				}
 			}
 			c_zranka = {
@@ -812,15 +816,16 @@ e_persia = {
 			c_bactra = {
 				color= { 175 0 50 }
 				color2= { 255 255 255 }
+
+				holy_site = zoroastrian_main
+				holy_site = armenian_main
+				holy_site = zurvanism
 			
 				b_bactra_bactra = {
 				}
 				b_aornos_bactra = {
 				}
 				b_azar_i_asp_bactra = {
-					holy_site = zoroastrian_main
-					holy_site = armenian_main
-					holy_site = zurvanism
 				}
 				b_menapia_bactra = {
 				}

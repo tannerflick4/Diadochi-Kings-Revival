@@ -883,10 +883,6 @@ pick_blood_games_winner_effect = {
 						event_target:blood_games_potential_winner_1 = { trait = quick }
 					}
 					modifier = {
-						factor = 1.05 
-						event_target:blood_games_potential_winner_1 = { trait = berserker }
-					}
-					modifier = {
 						factor = 0.95 
 						event_target:blood_games_potential_winner_1 = { trait = craven }
 					}
@@ -1118,10 +1114,6 @@ pick_blood_games_winner_effect = {
 					modifier = {
 						factor = 1.05 
 						event_target:blood_games_potential_winner_2 = { trait = quick }
-					}
-					modifier = {
-						factor = 1.05 
-						event_target:blood_games_potential_winner_2 = { trait = berserker }
 					}
 					modifier = {
 						factor = 0.95 
@@ -1357,10 +1349,6 @@ pick_blood_games_winner_effect = {
 						event_target:blood_games_potential_winner_3 = { trait = quick }
 					}
 					modifier = {
-						factor = 1.05 
-						event_target:blood_games_potential_winner_3 = { trait = berserker }
-					}
-					modifier = {
 						factor = 0.95 
 						event_target:blood_games_potential_winner_3 = { trait = craven }
 					}
@@ -1593,10 +1581,6 @@ pick_blood_games_winner_effect = {
 						event_target:blood_games_potential_winner_4 = { trait = quick }
 					}
 					modifier = {
-						factor = 1.05 
-						event_target:blood_games_potential_winner_4 = { trait = berserker }
-					}
-					modifier = {
 						factor = 0.95 
 						event_target:blood_games_potential_winner_4 = { trait = craven }
 					}
@@ -1827,10 +1811,6 @@ pick_blood_games_winner_effect = {
 					modifier = {
 						factor = 1.05 
 						event_target:blood_games_potential_winner_5 = { trait = quick }
-					}
-					modifier = {
-						factor = 1.05 
-						event_target:blood_games_potential_winner_5 = { trait = berserker }
 					}
 					modifier = {
 						factor = 0.95 
@@ -3147,10 +3127,6 @@ pick_potential_brawling_winners_effect = {
 				event_target:tribal_festival_brawling_potential_winner_1 = { trait = quick }
 			}
 			modifier = {
-				factor = 1.05 
-				event_target:tribal_festival_brawling_potential_winner_1 = { trait = berserker }
-			}
-			modifier = {
 				factor = 0.95 
 				event_target:tribal_festival_brawling_potential_winner_1 = { trait = craven }
 			}
@@ -3315,10 +3291,6 @@ pick_potential_brawling_winners_effect = {
 			modifier = {
 				factor = 1.05 
 				event_target:tribal_festival_brawling_potential_winner_2 = { trait = quick }
-			}
-			modifier = {
-				factor = 1.05 
-				event_target:tribal_festival_brawling_potential_winner_2 = { trait = berserker }
 			}
 			modifier = {
 				factor = 0.95 
@@ -3511,10 +3483,6 @@ pick_potential_brawling_winners_effect = {
 			modifier = {
 				factor = 1.05 
 				event_target:great_tribal_festival_host = { trait = quick }
-			}
-			modifier = {
-				factor = 1.05 
-				event_target:great_tribal_festival_host = { trait = berserker }
 			}
 			modifier = {
 				factor = 0.95 
@@ -3825,22 +3793,6 @@ pick_potential_drinking_winners_effect = {
 				event_target:tribal_festival_drinking_potential_winner_1 = { trait = pirate }
 			}
 			modifier = {
-				factor = 1.05 
-				event_target:tribal_festival_drinking_potential_winner_1 = { trait = viking }
-			}
-			modifier = {
-				factor = 1.15 
-				event_target:tribal_festival_drinking_potential_winner_1 = { trait = ravager }
-			}
-			modifier = {
-				factor = 1.25 
-				event_target:tribal_festival_drinking_potential_winner_1 = { trait = seaking }
-			}
-			modifier = {
-				factor = 1.25 
-				event_target:tribal_festival_drinking_potential_winner_1 = { trait = sea_queen }
-			}
-			modifier = {
 				factor = 0.75 
 				event_target:tribal_festival_drinking_potential_winner_1 = { trait = feeble }
 			}
@@ -3942,22 +3894,6 @@ pick_potential_drinking_winners_effect = {
 			modifier = {
 				factor = 1.05 
 				event_target:tribal_festival_drinking_potential_winner_2 = { trait = pirate }
-			}
-			modifier = {
-				factor = 1.05 
-				event_target:tribal_festival_drinking_potential_winner_2 = { trait = viking }
-			}
-			modifier = {
-				factor = 1.15 
-				event_target:tribal_festival_drinking_potential_winner_2 = { trait = ravager }
-			}
-			modifier = {
-				factor = 1.25 
-				event_target:tribal_festival_drinking_potential_winner_2 = { trait = seaking }
-			}
-			modifier = {
-				factor = 1.25 
-				event_target:tribal_festival_drinking_potential_winner_2 = { trait = sea_queen }
 			}
 			modifier = {
 				factor = 0.75 
@@ -4066,22 +4002,6 @@ pick_potential_drinking_winners_effect = {
 			modifier = {
 				factor = 1.05 
 				event_target:great_tribal_festival_host = { trait = pirate }
-			}
-			modifier = {
-				factor = 1.05 
-				event_target:great_tribal_festival_host = { trait = viking }
-			}
-			modifier = {
-				factor = 1.15 
-				event_target:great_tribal_festival_host = { trait = ravager }
-			}
-			modifier = {
-				factor = 1.25 
-				event_target:great_tribal_festival_host = { trait = seaking }
-			}
-			modifier = {
-				factor = 1.25 
-				event_target:great_tribal_festival_host = { trait = sea_queen }
 			}
 			modifier = {
 				factor = 0.75 
@@ -4403,22 +4323,6 @@ pick_potential_eating_winners_effect = {
 				event_target:tribal_festival_eating_potential_winner_1 = { trait = pirate }
 			}
 			modifier = {
-				factor = 1.05 
-				event_target:tribal_festival_eating_potential_winner_1 = { trait = viking }
-			}
-			modifier = {
-				factor = 1.15 
-				event_target:tribal_festival_eating_potential_winner_1 = { trait = ravager }
-			}
-			modifier = {
-				factor = 1.25 
-				event_target:tribal_festival_eating_potential_winner_1 = { trait = seaking }
-			}
-			modifier = {
-				factor = 1.25 
-				event_target:tribal_festival_eating_potential_winner_1 = { trait = sea_queen }
-			}
-			modifier = {
 				factor = 0.75 
 				event_target:tribal_festival_eating_potential_winner_1 = { trait = feeble }
 			}
@@ -4524,22 +4428,6 @@ pick_potential_eating_winners_effect = {
 			modifier = {
 				factor = 1.05 
 				event_target:tribal_festival_eating_potential_winner_2 = { trait = pirate }
-			}
-			modifier = {
-				factor = 1.05 
-				event_target:tribal_festival_eating_potential_winner_2 = { trait = viking }
-			}
-			modifier = {
-				factor = 1.15 
-				event_target:tribal_festival_eating_potential_winner_2 = { trait = ravager }
-			}
-			modifier = {
-				factor = 1.25 
-				event_target:tribal_festival_eating_potential_winner_2 = { trait = seaking }
-			}
-			modifier = {
-				factor = 1.25 
-				event_target:tribal_festival_eating_potential_winner_2 = { trait = sea_queen }
 			}
 			modifier = {
 				factor = 0.75 
@@ -4652,22 +4540,6 @@ pick_potential_eating_winners_effect = {
 			modifier = {
 				factor = 1.05 
 				event_target:great_tribal_festival_host = { trait = pirate }
-			}
-			modifier = {
-				factor = 1.05 
-				event_target:great_tribal_festival_host = { trait = viking }
-			}
-			modifier = {
-				factor = 1.15 
-				event_target:great_tribal_festival_host = { trait = ravager }
-			}
-			modifier = {
-				factor = 1.25 
-				event_target:great_tribal_festival_host = { trait = seaking }
-			}
-			modifier = {
-				factor = 1.25 
-				event_target:great_tribal_festival_host = { trait = sea_queen }
 			}
 			modifier = {
 				factor = 0.75 
@@ -5127,10 +4999,6 @@ pick_potential_taming_winners_effect = {
 				event_target:tribal_festival_taming_potential_winner_1 = { trait = quick }
 			}
 			modifier = {
-				factor = 1.05 
-				event_target:tribal_festival_taming_potential_winner_1 = { trait = berserker }
-			}
-			modifier = {
 				factor = 0.95 
 				event_target:tribal_festival_taming_potential_winner_1 = { trait = craven }
 			}
@@ -5295,10 +5163,6 @@ pick_potential_taming_winners_effect = {
 			modifier = {
 				factor = 1.05 
 				event_target:tribal_festival_taming_potential_winner_2 = { trait = quick }
-			}
-			modifier = {
-				factor = 1.05 
-				event_target:tribal_festival_taming_potential_winner_2 = { trait = berserker }
 			}
 			modifier = {
 				factor = 0.95 
@@ -5491,10 +5355,6 @@ pick_potential_taming_winners_effect = {
 			modifier = {
 				factor = 1.05 
 				event_target:great_tribal_festival_host = { trait = quick }
-			}
-			modifier = {
-				factor = 1.05 
-				event_target:great_tribal_festival_host = { trait = berserker }
 			}
 			modifier = {
 				factor = 0.95 
@@ -8204,10 +8064,6 @@ warrior_lodge_arm_wrestling_first_round_effect = {
 					event_target:arm_wrestling_fighter_1 = { trait = sturdy }
 				}
 				modifier = {
-					factor = 1.5 
-					event_target:arm_wrestling_fighter_1 = { trait = berserker }
-				}
-				modifier = {
 					factor = 0.95 
 					event_target:arm_wrestling_fighter_1 = { trait = craven }
 				}
@@ -8372,10 +8228,6 @@ warrior_lodge_arm_wrestling_first_round_effect = {
 				modifier = {
 					factor = 1.25 
 					event_target:arm_wrestling_fighter_2 = { trait = sturdy }
-				}
-				modifier = {
-					factor = 1.5 
-					event_target:arm_wrestling_fighter_2 = { trait = berserker }
 				}
 				modifier = {
 					factor = 0.95 
@@ -8559,10 +8411,6 @@ warrior_lodge_arm_wrestling_second_round_effect = {
 					event_target:arm_wrestling_fighter_1 = { trait = sturdy }
 				}
 				modifier = {
-					factor = 1.5 
-					event_target:arm_wrestling_fighter_1 = { trait = berserker }
-				}
-				modifier = {
 					factor = 0.95 
 					event_target:arm_wrestling_fighter_1 = { trait = craven }
 				}
@@ -8738,10 +8586,6 @@ warrior_lodge_arm_wrestling_second_round_effect = {
 				modifier = {
 					factor = 1.25 
 					event_target:arm_wrestling_fighter_2 = { trait = sturdy }
-				}
-				modifier = {
-					factor = 1.5 
-					event_target:arm_wrestling_fighter_2 = { trait = berserker }
 				}
 				modifier = {
 					factor = 0.95 
@@ -10415,22 +10259,6 @@ pick_potential_WL_drinking_finalists_effect = {
 				event_target:warrior_lodge_drinking_finalist_1 = { trait = pirate }
 			}
 			modifier = {
-				factor = 1.05 
-				event_target:warrior_lodge_drinking_finalist_1 = { trait = viking }
-			}
-			modifier = {
-				factor = 1.15 
-				event_target:warrior_lodge_drinking_finalist_1 = { trait = ravager }
-			}
-			modifier = {
-				factor = 1.25 
-				event_target:warrior_lodge_drinking_finalist_1 = { trait = seaking }
-			}
-			modifier = {
-				factor = 1.25 
-				event_target:warrior_lodge_drinking_finalist_1 = { trait = sea_queen }
-			}
-			modifier = {
 				factor = 0.75 
 				event_target:warrior_lodge_drinking_finalist_1 = { trait = feeble }
 			}
@@ -10530,22 +10358,6 @@ pick_potential_WL_drinking_finalists_effect = {
 			modifier = {
 				factor = 1.05 
 				event_target:warrior_lodge_drinking_finalist_2 = { trait = pirate }
-			}
-			modifier = {
-				factor = 1.05 
-				event_target:warrior_lodge_drinking_finalist_2 = { trait = viking }
-			}
-			modifier = {
-				factor = 1.15 
-				event_target:warrior_lodge_drinking_finalist_2 = { trait = ravager }
-			}
-			modifier = {
-				factor = 1.25 
-				event_target:warrior_lodge_drinking_finalist_2 = { trait = seaking }
-			}
-			modifier = {
-				factor = 1.25 
-				event_target:warrior_lodge_drinking_finalist_2 = { trait = sea_queen }
 			}
 			modifier = {
 				factor = 0.75 
@@ -10660,22 +10472,6 @@ pick_potential_WL_drinking_winner_effect = {
 				event_target:warrior_lodge_drinking_finalist_1 = { trait = pirate }
 			}
 			modifier = {
-				factor = 1.05 
-				event_target:warrior_lodge_drinking_finalist_1 = { trait = viking }
-			}
-			modifier = {
-				factor = 1.15 
-				event_target:warrior_lodge_drinking_finalist_1 = { trait = ravager }
-			}
-			modifier = {
-				factor = 1.25 
-				event_target:warrior_lodge_drinking_finalist_1 = { trait = seaking }
-			}
-			modifier = {
-				factor = 1.25 
-				event_target:warrior_lodge_drinking_finalist_1 = { trait = sea_queen }
-			}
-			modifier = {
 				factor = 0.75 
 				event_target:warrior_lodge_drinking_finalist_1 = { trait = feeble }
 			}
@@ -10788,22 +10584,6 @@ pick_potential_WL_drinking_winner_effect = {
 			modifier = {
 				factor = 1.05 
 				event_target:warrior_lodge_drinking_finalist_2 = { trait = pirate }
-			}
-			modifier = {
-				factor = 1.05 
-				event_target:warrior_lodge_drinking_finalist_2 = { trait = viking }
-			}
-			modifier = {
-				factor = 1.15 
-				event_target:warrior_lodge_drinking_finalist_2 = { trait = ravager }
-			}
-			modifier = {
-				factor = 1.25 
-				event_target:warrior_lodge_drinking_finalist_2 = { trait = seaking }
-			}
-			modifier = {
-				factor = 1.25 
-				event_target:warrior_lodge_drinking_finalist_2 = { trait = sea_queen }
 			}
 			modifier = {
 				factor = 0.75 
