@@ -46,6 +46,9 @@
 	culture = macedonian
 	father = 1001
 	mother = 240001
+
+	dna = dfbhcbccden
+	properties = ad0aj000000
 	
 	add_trait = charitable
 	

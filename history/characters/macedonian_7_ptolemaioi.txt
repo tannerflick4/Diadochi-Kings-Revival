@@ -75,6 +75,9 @@
 	culture = macedonian
 	father = 601
 	mother = 4
+
+	dna = bicajbcdebf
+	properties = ai0akj00000
 	
 	#add_trait = diadochi_king
 	add_trait = intricate_webweaver

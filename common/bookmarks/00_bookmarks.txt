@@ -1,156 +1,208 @@
-bm_tsf4 = {
-	name = "TSF4"
-	desc = "TSF4_DESC"
-	date = 400.1.1
-}
-
-bm_rise_of_macedonia = {
-	name = "BM_RISE_OF_MACEDONIA"
-	desc = "BM_RISE_OF_MACEDONIA_DESC"
-	date = 417.4.1
-	
-	selectable_character = {
-		id = 803 # Philip II
-	}
-	selectable_character = {
-		id = 140003 # Bardylis
-	}
-	selectable_character = {
-		id = 40114 # Kotys
-	}
-	selectable_character = {
-		id = 90311 # Artaxerxes II
-	}
-}
-bm_alexanders_invasion = {
-	name = "BM_ALEXANDER_RISES"
-	desc = "BM_ALEXANDER_RISES_DESC"
-	date = 440.10.1
-	
-	selectable_character = {
-		id = 802 # Alexander
-	}
-	selectable_character = {
-		id = 90314 # Darius III
-	}
-}
-bm_fall_of_persia = {
-	name = "BM_END_OF_AN_ERA"
-	desc = "BM_END_OF_AN_ERA_DESC"
-	date = 446.1.1
-
-	selectable_character = {
-		id = 802 # Alexander
-	}
-	selectable_character = {
-		id = 90320 # Bessus
-	}
-	selectable_character = {
-		id = 60001 # Ariarathes
-	}
-}
-bm_death_of_alexander = {
-	name = "BM_DEATH_OF_A_COLOSSUS"
-	desc = "BM_DEATH_OF_A_COLOSSUS_DESC"
-	date = 453.6.10
-	
-	selectable_character = {
-		id = 801 # Philip III
-	}
-	selectable_character = {
-		id = 401 # Antigonos Monopthalmos
-	}
-	selectable_character = {
-		id = 601 # Ptolemaios I
-	}
-	selectable_character = {
-		id = 30001 # Lysimachos
-	}
-	selectable_character = {
-		id = 1101 # Peithon of Media
-	}
-	selectable_character = {
-		id = 1 # Antipatros
-	}
-}
-bm_restoration_of_seleucus = {
-	name = "BM_THE_RESTORATION_OF_SELEUCUS"
-	desc = "BM_THE_RESTORATION_OF_SELEUCUS_DESC"
-	date = 465.1.1
-	
-	selectable_character = {
-		id = 1001 # Seleukos I
-	}
-	selectable_character = {
-		id = 401 # Antigonos Monopthalmos
-	}
-	selectable_character = {
-		id = 601 # Ptolemaios I
-	}
-	selectable_character = {
-		id = 2 # Kassandros I
-	}
-	selectable_character = {
-		id = 30001 # Lysimachos
-	}
-}
-bm_demise_of_the_argeads = {
-	name = "BM_DEMISE_OF_THE_ARGEADS"
-	desc = "BM_DEMISE_OF_THE_ARGEADS_DESC"
-	date = 467.1.1
-	
-	selectable_character = {
-		id = 1001 # Seleukos I
-	}
-	selectable_character = {
-		id = 401 # Antigonos Monopthalmos
-	}
-	selectable_character = {
-		id = 601 # Ptolemaios I
-	}
-	selectable_character = {
-		id = 2 # Kassandros I
-	}
-	selectable_character = {
-		id = 30001 # Lysimachos
-	}
-}
-bm_fall_of_antigonos = {
-	name = "BM_FALL_OF_ANTIGONOS"
-	desc = "BM_FALL_OF_ANTIGONOS_DESC"
-	date = 475.1.1
-	
-	selectable_character = {
-		id = 1001 # Seleukos I
-	}
-	selectable_character = {
-		id = 402 # Demetrios Poliorketes
-	}
-	selectable_character = {
-		id = 601 # Ptolemaios I
-	}
-	selectable_character = {
-		id = 2 # Kassandros I
-	}
-	selectable_character = {
-		id = 30001 # Lysimachos
-	}
-}
+#bm_rise_of_macedonia = {
+#	name = "BM_RISE_OF_MACEDONIA"
+#	desc = "BM_RISE_OF_MACEDONIA_DESC"
+#	date = 417.4.1
+#	
+#	selectable_character = {
+#		id = 803 # Philip II
+#	}
+#	selectable_character = {
+#		id = 140003 # Bardylis
+#	}
+#	selectable_character = {
+#		id = 40114 # Kotys
+#	}
+#	selectable_character = {
+#		id = 90311 # Artaxerxes II
+#	}
+#}
+#bm_alexanders_invasion = {
+#	name = "BM_ALEXANDER_RISES"
+#	desc = "BM_ALEXANDER_RISES_DESC"
+#	date = 440.10.1
+#	
+#	selectable_character = {
+#		id = 802 # Alexander
+#	}
+#	selectable_character = {
+#		id = 90314 # Darius III
+#	}
+#}
+#bm_fall_of_persia = {
+#	name = "BM_END_OF_AN_ERA"
+#	desc = "BM_END_OF_AN_ERA_DESC"
+#	date = 446.1.1
+#
+#	selectable_character = {
+#		id = 802 # Alexander
+#	}
+#	selectable_character = {
+#		id = 90320 # Bessus
+#	}
+#	selectable_character = {
+#		id = 60001 # Ariarathes
+#	}
+#}
+#bm_death_of_alexander = {
+#	name = "BM_DEATH_OF_A_COLOSSUS"
+#	desc = "BM_DEATH_OF_A_COLOSSUS_DESC"
+#	date = 453.6.10
+#	
+#	selectable_character = {
+#		id = 801 # Philip III
+#	}
+#	selectable_character = {
+#		id = 401 # Antigonos Monopthalmos
+#	}
+#	selectable_character = {
+#		id = 601 # Ptolemaios I
+#	}
+#	selectable_character = {
+#		id = 30001 # Lysimachos
+#	}
+#	selectable_character = {
+#		id = 1101 # Peithon of Media
+#	}
+#	selectable_character = {
+#		id = 1 # Antipatros
+#	}
+#}
+#bm_restoration_of_seleucus = {
+#	name = "BM_THE_RESTORATION_OF_SELEUCUS"
+#	desc = "BM_THE_RESTORATION_OF_SELEUCUS_DESC"
+#	date = 465.1.1
+#	
+#	selectable_character = {
+#		id = 1001 # Seleukos I
+#	}
+#	selectable_character = {
+#		id = 401 # Antigonos Monopthalmos
+#	}
+#	selectable_character = {
+#		id = 601 # Ptolemaios I
+#	}
+#	selectable_character = {
+#		id = 2 # Kassandros I
+#	}
+#	selectable_character = {
+#		id = 30001 # Lysimachos
+#	}
+#}
+#bm_demise_of_the_argeads = {
+#	name = "BM_DEMISE_OF_THE_ARGEADS"
+#	desc = "BM_DEMISE_OF_THE_ARGEADS_DESC"
+#	date = 467.1.1
+#	
+#	selectable_character = {
+#		id = 1001 # Seleukos I
+#	}
+#	selectable_character = {
+#		id = 401 # Antigonos Monopthalmos
+#	}
+#	selectable_character = {
+#		id = 601 # Ptolemaios I
+#	}
+#	selectable_character = {
+#		id = 2 # Kassandros I
+#	}
+#	selectable_character = {
+#		id = 30001 # Lysimachos
+#	}
+#}
+#bm_fall_of_antigonos = {
+#	name = "BM_FALL_OF_ANTIGONOS"
+#	desc = "BM_FALL_OF_ANTIGONOS_DESC"
+#	date = 475.1.1
+#	
+#	selectable_character = {
+#		id = 1001 # Seleukos I
+#	}
+#	selectable_character = {
+#		id = 402 # Demetrios Poliorketes
+#	}
+#	selectable_character = {
+#		id = 601 # Ptolemaios I
+#	}
+#	selectable_character = {
+#		id = 2 # Kassandros I
+#	}
+#	selectable_character = {
+#		id = 30001 # Lysimachos
+#	}
+#}
 bm_end_of_diadochi = {
 	name = "BM_END_OF_THE_DIADOCHI_WARS"
 	desc = "BM_END_OF_THE_DIADOCHI_WARS_DESC"
 	date = 495.8.1
 	
+	era = yes						## Will be shown on Era screen.
+	picture = GFX_pick_era_image_1
+
 	selectable_character = {
 		id = 604 # Ptolemaios Keraunos
+		age = 38
+		name = ERA_CHAR_NAME_604
+		title = k_macedon
+		title_name = MACEDONIA
+		
+		character = {
+			dna = bicajbcdebf
+			properties = ai0akj00000
+			religion="greek_main"
+			culture="macedonian"
+			government = feudal_government
+			dynasty=7
+		}
 	}
+
 	selectable_character = {
 		id = 602 # Ptolemaios II
+		age = 28
+		name = ERA_CHAR_NAME_602
+		title = e_egypt
+		title_name = PTOLEMAIC_EGYPT
+		
+		character = {
+			dna = dbcafqiaaar
+			properties = ab0ac000000
+			religion="greek_main"
+			culture="macedonian"
+			government = feudal_government
+			dynasty=7
+		}
 	}
+
 	selectable_character = {
 		id = 1002 # Antiochos I
+		age = 42
+		name = ERA_CHAR_NAME_1002
+		title = e_syria
+		title_name = SELEUCID_EMPIRE
+		
+		character = {
+			dna = dfbhcbccden
+			properties = ad0aj000000
+			religion="greek_main"
+			culture="macedonian"
+			government = feudal_government
+			dynasty=11
+		}
 	}
+
 	selectable_character = {
 		id = 408 # Antigonos Gonatas
+		age = 38
+		name = ERA_CHAR_NAME_408
+		title = e_asia
+		title_name = ANTIGONID_ASIA
+		
+		character = {
+			dna = dbajcjbdcbd
+			properties = al0be000000
+			religion="greek_main"
+			culture="macedonian"
+			government = feudal_government
+			dynasty=5
+		}
 	}
 }
