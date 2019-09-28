@@ -4554,8 +4554,34 @@ silk_road_trade_post_trigger = {
 		text = silk_road_province_desc
 		hidden_tooltip = {
 			OR = {
-				# TODO: Add silk road posts.
-				province_id = 1491
+				province_id = 890 # Loulan
+				province_id = 886 # Shule
+				province_id = 274 # Marakanda
+				province_id = 272 # Baktra
+				province_id = 271 # Alexandria in Margiane
+				province_id = 244 # Hekatombylos
+				province_id = 240 # Ecbatana
+				province_id = 194 # Opis
+				province_id = 180 # Harran
+				province_id = 120 # Antioch
+				province_id = 175 # Damascus
+				province_id = 719 # Pataliputra
+				province_id = 783 # Mirzapur
+				province_id = 737 # Mathura
+				province_id = 292 # Taxila
+				province_id = 286 # Patala
+				province_id = 689 # Kannagara
+				province_id = 704 # Tamralipti
+				province_id = 695 # Kalingapur
+				province_id = 658 # Mahatitta
+				province_id = 666 # Madura
+				province_id = 255 # Harmozeia
+				province_id = 200 # Charax
+				province_id = 195 # Babylon
+				province_id = 463 # Neogilla
+				province_id = 454 # Adan
+				province_id = 449 # Mecca
+				province_id = 139 # Alexandria
 			}
 		}
 	}
