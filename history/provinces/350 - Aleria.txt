@@ -4,16 +4,10 @@
 title = c_aleria # for example c_corinth
 
 # Settlements
-max_settlements = 6 # Should be reevaluated
+max_settlements = 3
 b_clunium_aleria = city
 b_aleria_aleria = castle
 b_mariana_aleria = temple
-
-# Possible baronies: (Always add a # in front of a line with these!)
-#
-#
-#
-#
 
 # Misc
 culture = etruscan

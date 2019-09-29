@@ -5,7 +5,7 @@ title = c_karsapa
 
 # Settlements
 max_settlements = 1
-b_karsapa_karsapa = castle
+b_karsapa_karsapa = tribal
 
 # Misc
 culture = scythian

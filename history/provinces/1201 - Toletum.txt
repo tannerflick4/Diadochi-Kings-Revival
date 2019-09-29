@@ -5,8 +5,8 @@ title = c_toletum
 
 # Settlements
 max_settlements = 4
-b_toletum_toletum = castle
-b_consabura_toletum = city
+b_toletum_toletum = tribal
+#b_consabura_toletum = city
 b_alce_toletum = temple
 #b_cumarius_toletum = castle
 

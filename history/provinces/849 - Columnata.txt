@@ -5,7 +5,7 @@ title = c_columnata
 
 # Settlements
 max_settlements = 1
-b_columnata_columnata = castle
+b_columnata_columnata = tribal
 
 # Misc
 culture = berber

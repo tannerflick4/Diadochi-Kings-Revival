@@ -5,8 +5,8 @@ title = c_hvarzkutipa
 
 # Settlements
 max_settlements = 3
-b_hvarzkutipa_hvarzkutipa = castle
-b_saca_hvarzkutipa = city
+b_hvarzkutipa_hvarzkutipa = tribal
+#b_saca_hvarzkutipa = city
 #b_navaca_hvarzkutipa = temple
 
 # Misc

@@ -5,9 +5,9 @@ title = c_tridentium
 
 # Settlements
 max_settlements = 3
-b_tridentium_tridentium = castle
+b_tridentium_tridentium = tribal
 b_anaunion_tridentium = temple
-b_ligeris_tridentium = city
+#b_ligeris_tridentium = city
 
 # Misc
 culture = raetic

@@ -5,14 +5,11 @@ title = c_lance
 
 # Settlements
 max_settlements = 1
-b_lance_lance = castle
+b_lance_lance = tribal
 
 # Misc
 culture = celtiberian
 religion = celtic_main
-
-
-
 
 
 # History

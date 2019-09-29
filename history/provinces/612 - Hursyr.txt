@@ -5,8 +5,8 @@ title = c_hursyr
 
 # Settlements
 max_settlements = 2
-b_hursyr_hursyr = castle
-b_brinpasu_hursyr = city
+b_hursyr_hursyr = tribal
+#b_brinpasu_hursyr = city
 
 # Misc
 culture = scythian

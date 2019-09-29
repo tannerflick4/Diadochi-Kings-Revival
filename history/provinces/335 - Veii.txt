@@ -4,17 +4,11 @@
 title = c_veii # for example c_corinth
 
 # Settlements
-max_settlements = 6 # Should be reevaluated
+max_settlements = 4
 b_veii_veii = castle
 b_laurium_veii = city
 b_frenae_veii = city
 b_pyrgos_veii = temple
-
-# Possible baronies: (Always add a # in front of a line with these!)
-#
-#
-#
-#
 
 # Misc
 culture = etruscan

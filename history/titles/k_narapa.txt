@@ -1,5 +1,6 @@
 413.1.1 = { # 363 BC
 	holder = 330701 # Akrosander
+	historical_nomad = yes
 }
 449.1.1 = { # 327 BC
 	holder = 330001 # Adraspus

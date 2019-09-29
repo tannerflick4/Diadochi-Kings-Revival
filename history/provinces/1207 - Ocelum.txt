@@ -5,10 +5,10 @@ title = c_ocelum
 
 # Settlements
 max_settlements = 4
-b_okelodouron_ocelum = castle
-b_eldana_ocelum = city
-b_mirobriga_ocelum = city
-b_bletisa_ocelum = castle
+b_okelodouron_ocelum = tribal
+#b_eldana_ocelum = city
+#b_mirobriga_ocelum = city
+#b_bletisa_ocelum = castle
 
 # Misc
 culture = lusitanian

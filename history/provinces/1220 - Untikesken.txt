@@ -5,8 +5,8 @@ title = c_untikesken
 
 # Settlements
 max_settlements = 3
-b_untikesken_untikesken= castle
-b_abariltur_untikesken = castle
+b_untikesken_untikesken = tribal
+#b_abariltur_untikesken = castle
 b_ilturo_untikesken = temple
 
 

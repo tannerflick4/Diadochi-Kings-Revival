@@ -4,17 +4,11 @@
 title = c_arretium # for example c_corinth
 
 # Settlements
-max_settlements = 6 # Should be reevaluated
+max_settlements = 4
 b_arretium_arretium = castle
 b_cortona_arretium = temple
 b_aquileia_arretium = city
 b_biturgia_arretium = castle
-
-# Possible baronies: (Always add a # in front of a line with these!)
-#
-#
-#
-#
 
 # Misc
 culture = etruscan

@@ -5,7 +5,7 @@ title = c_miaccum
 
 # Settlements
 max_settlements = 2
-b_miaccum_miaccum = castle
+b_miaccum_miaccum = tribal
 #b_mantua_miaccum = castle
 
 # Misc

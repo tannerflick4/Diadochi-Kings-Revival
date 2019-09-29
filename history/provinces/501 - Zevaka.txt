@@ -5,9 +5,9 @@ title = c_zevaka
 
 # Settlements
 max_settlements = 3
-b_zevaka_zevaka = castle
+b_zevaka_zevaka = tribal
 b_api_zevaka = temple
-b_astaka_zevaka = city
+#b_astaka_zevaka = city
 
 # Misc
 culture = sarmatian

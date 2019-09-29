@@ -5,10 +5,10 @@ title = c_arelate
 
 # Settlements
 max_settlements = 4
-b_arelate_arelate = castle
-b_rhodanousia_arelate = city
-b_tarusco_arelate = city
-b_ugenum_arelate = castle
+b_arelate_arelate = tribal
+#b_rhodanousia_arelate = city
+#b_tarusco_arelate = city
+#b_ugenum_arelate = castle
 
 # Misc
 culture = punic

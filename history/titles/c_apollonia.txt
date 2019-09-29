@@ -1,24 +1,22 @@
-417.1.1 = {
-	holder = 40114 # Kotys
+417.1.1 = { # 359 BC
+	holder = 55301 # Heron
 	liege = k_odrysia
 }
-418.1.1 = {
-	holder = 40119 #Kersobleptes
+418.1.1 = { # 358 BC
 	liege = d_odrysia
 }
-438.1.1 = {
-	holder = 40101
+442.1.1 = { # 339 BC
+	holder = 55302 # Kallias
 }
-453.6.10 = {
-	holder = 30001 # Lysimachus
+453.6.10 = { # 323 BC
 	liege = k_s_thrace
 }
-467.1.1 = {
+467.1.1 = { # 309 BC
 	liege = k_odrysia
 }
-495.1.1 = {
-	holder = 604 # Ptolemaios Keraunos
+470.1.1 = { # 306 BC
+	holder = 55303 # Kyros
 }
-495.2.1 = {
-	holder = 40102 # Cotys II
+471.1.1 = { # 305 BC
+	holder = 55304 # Kallias
 }

@@ -5,7 +5,7 @@ title = c_tumma
 
 # Settlements
 max_settlements = 1
-b_tumma_tumma = castle
+b_tumma_tumma = tribal
 
 # Misc
 culture = berber

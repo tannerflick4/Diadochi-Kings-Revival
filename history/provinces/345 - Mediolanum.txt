@@ -4,16 +4,10 @@
 title = c_mediolanum # for example c_corinth
 
 # Settlements
-max_settlements = 6 # Should be reevaluated
-b_mediolanum_mediolanum = castle
-b_comum_mediolanum = city
+max_settlements = 3
+b_mediolanum_mediolanum = tribal
+#b_comum_mediolanum = city
 b_modicia_mediolanum = temple
-
-# Possible baronies: (Always add a # in front of a line with these!)
-#
-#
-#
-#
 
 # Misc
 culture = gaul

@@ -5,7 +5,7 @@ title = c_satagau
 
 # Settlements
 max_settlements = 1
-b_satagau_satagau = castle
+b_satagau_satagau = tribal
 
 # Misc
 culture = scythian

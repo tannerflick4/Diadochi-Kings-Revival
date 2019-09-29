@@ -5,9 +5,9 @@ title = c_parthus # for example c_corinth
 
 # Settlements
 max_settlements = 3
-b_parthus_parthus = castle
+b_parthus_parthus = tribal
 b_kerax_parthus = temple
-b_beue_parthus = castle
+#b_beue_parthus = castle
 
 # Misc
 culture = illyrian

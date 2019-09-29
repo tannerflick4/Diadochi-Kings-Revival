@@ -5,10 +5,10 @@ title = c_aguntum
 
 # Settlements
 max_settlements = 4
-b_aguntum_aguntum = castle
-b_londum_aguntum = city
-b_ibligo_aguntum = city
-b_osopus_aguntum = city
+b_aguntum_aguntum = tribal
+#b_londum_aguntum = city
+#b_ibligo_aguntum = city
+#b_osopus_aguntum = city
 
 # Misc
 culture = venetic

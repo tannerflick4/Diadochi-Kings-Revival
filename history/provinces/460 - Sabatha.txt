@@ -5,9 +5,9 @@ title = c_sabatha
 
 # Settlements
 max_settlements = 3
-b_sabatha_sabatha = castle
+b_sabatha_sabatha = tribal
 b_loula_sabatha = temple
-b_thamna_sabatha = city
+#b_thamna_sabatha = city
 #b_yodona_sabatha = city
 
 # Misc

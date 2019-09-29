@@ -5,8 +5,8 @@ title = c_cobueta
 
 # Settlements
 max_settlements = 2
-b_cobueta_cobueta = castle
-b_paraetina_cobueta = castle
+b_cobueta_cobueta = tribal
+#b_paraetina_cobueta = castle
 
 # Misc
 culture = berber

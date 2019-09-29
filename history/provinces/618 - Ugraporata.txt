@@ -5,7 +5,7 @@ title = c_ugraporata
 
 # Settlements
 max_settlements = 1
-b_ugraporata_ugraporata = castle
+b_ugraporata_ugraporata = tribal
 
 # Misc
 culture = scythian

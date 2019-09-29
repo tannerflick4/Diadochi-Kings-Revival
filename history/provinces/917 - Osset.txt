@@ -5,9 +5,9 @@ title = c_osset
 
 # Settlements
 max_settlements = 3
-b_osset_osset = castle
-b_olontigi_osset = city
-b_maenuba_osset = city
+b_osset_osset = tribal
+#b_olontigi_osset = city
+#b_maenuba_osset = city
 
 # Misc
 culture = old_tartessian

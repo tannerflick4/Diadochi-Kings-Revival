@@ -5,8 +5,8 @@ title = c_artigi
 
 # Settlements
 max_settlements = 3
-b_artigi_artigi = castle
-b_brutobriga_artigi = city
+b_artigi_artigi = tribal
+#b_brutobriga_artigi = city
 #b_metellinum_artigi = city
 
 # Misc

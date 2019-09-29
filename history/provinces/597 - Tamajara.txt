@@ -5,8 +5,8 @@ title = c_tamajara
 
 # Settlements
 max_settlements = 2
-b_tamajara_tamajara = castle
-b_raognapruha_tamajara = city
+b_tamajara_tamajara = tribal
+#b_raognapruha_tamajara = city
 
 # Misc
 culture = scythian

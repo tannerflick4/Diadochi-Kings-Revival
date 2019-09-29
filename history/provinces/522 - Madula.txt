@@ -5,7 +5,7 @@ title = c_madula
 
 # Settlements
 max_settlements = 1
-b_madula_madula = castle
+b_madula_madula = tribal
 
 # Misc
 culture = sarmatian

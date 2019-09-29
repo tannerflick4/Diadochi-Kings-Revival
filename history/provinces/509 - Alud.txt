@@ -5,8 +5,8 @@ title = c_alud
 
 # Settlements
 max_settlements = 2
-b_alud_alud = castle
-b_katibla_alud = castle
+b_alud_alud = tribal
+#b_katibla_alud = castle
 
 # Misc
 culture = sarmatian

@@ -5,10 +5,10 @@ title = c_ortopla
 
 # Settlements
 max_settlements = 4
-b_ortopla_ortopla = castle
-b_arupium_ortopla = castle
-b_cissa_ortopla = city
-b_arba_ortopla = city
+b_ortopla_ortopla = tribal
+#b_arupium_ortopla = castle
+#b_cissa_ortopla = city
+#b_arba_ortopla = city
 
 # Misc
 culture = venetic

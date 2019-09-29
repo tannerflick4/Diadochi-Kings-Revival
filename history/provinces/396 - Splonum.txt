@@ -5,9 +5,9 @@ title = c_splonum
 
 # Settlements
 max_settlements = 4
-b_splonum_splonum = castle
-b_raetinium_splonum = city
-b_marsonia_splonum = city
+b_splonum_splonum = tribal
+#b_raetinium_splonum = city
+#b_marsonia_splonum = city
 b_leucono_splonum = temple
 
 # Misc

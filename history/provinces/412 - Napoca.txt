@@ -5,9 +5,9 @@ title = c_napoca
 
 # Settlements
 max_settlements = 3
-b_napoca_napoca = castle
-b_saratel_napoca = city
-b_optatiana_napoca = castle
+b_napoca_napoca = tribal
+#b_saratel_napoca = city
+#b_optatiana_napoca = castle
 
 # Misc
 culture = dacian

@@ -5,7 +5,7 @@ title = c_zaranapa
 
 # Settlements
 max_settlements = 1
-b_zaranapa_zaranapa = castle
+b_zaranapa_zaranapa = tribal
 
 # Misc
 culture = scythian

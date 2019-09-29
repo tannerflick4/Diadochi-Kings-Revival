@@ -5,10 +5,10 @@ title = c_arausio
 
 # Settlements
 max_settlements = 5
-b_arausio_arausio = castle
-b_avennio_arausio = city
+b_arausio_arausio = tribal
+#b_avennio_arausio = city
 b_senomagos_arausio = temple
-b_vasio_arausio = castle
+#b_vasio_arausio = castle
 
 # Possible baronies: (Always add a # in front of a line with these!)
 # b_vindalium_arausio

@@ -5,9 +5,9 @@ title = c_dakus
 
 # Settlements
 max_settlements = 3
-b_dakus_dakus = castle
+b_dakus_dakus = tribal
 b_papaios_dakus = temple
-b_targitaios_dakus = temple
+#b_targitaios_dakus = temple
 
 # Misc
 culture = scythian

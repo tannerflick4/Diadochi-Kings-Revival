@@ -5,7 +5,7 @@ title = c_varkataka
 
 # Settlements
 max_settlements = 1
-b_varkataka_varktaka = castle
+b_varkataka_varktaka = tribal
 
 # Misc
 culture = sarmatian

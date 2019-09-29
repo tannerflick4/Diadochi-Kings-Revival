@@ -15,7 +15,5 @@ b_menova_malaca = city
 culture = punic
 religion = punic_main
 
-
-
 # History
 # Can be filled when things change around the province

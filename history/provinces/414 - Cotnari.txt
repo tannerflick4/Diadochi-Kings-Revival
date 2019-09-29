@@ -5,9 +5,9 @@ title = c_cotnari
 
 # Settlements
 max_settlements = 4
-b_cotnari_cotnari = castle
-b_stincesti_cotnari = city
-b_petrodava_cotnari = city
+b_cotnari_cotnari = tribal
+#b_stincesti_cotnari = city
+#b_petrodava_cotnari = city
 
 # Possible baronies: (Always add a # in front of a line with these!)
 # b_lunca_ciurei_cotnari

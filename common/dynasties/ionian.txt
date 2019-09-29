@@ -203,3 +203,15 @@
 	name = "Amastrioi"
 	culture = ionian
 }
+5057 = {
+	name = "Histrioi"
+	culture = ionian
+}
+5058 = {
+	name = "Odessioi"
+	culture = ionian
+}
+5059 = {
+	name = "Apollonioi"
+	culture = ionian
+}

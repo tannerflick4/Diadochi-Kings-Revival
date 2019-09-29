@@ -4,7 +4,7 @@
 title = c_antium # for example c_corinth
 
 # Settlements
-max_settlements = 6 # Should be reevaluated
+max_settlements = 3
 b_antium_antium = castle
 b_aphrodisium_antium = temple
 b_lanuvium_antium = city

@@ -5,9 +5,9 @@ title = c_collippo
 
 # Settlements
 max_settlements = 3
-b_collippo_collippo = castle
-b_conimbriga_collippo = city
-b_elbocoris_collippo = castle
+b_collippo_collippo = tribal
+#b_conimbriga_collippo = city
+#b_elbocoris_collippo = castle
 
 # Misc
 culture = lusitanian

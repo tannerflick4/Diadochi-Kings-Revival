@@ -5,10 +5,10 @@ title = c_egitania
 
 # Settlements
 max_settlements = 4
-b_egitania_egitania = castle
+b_egitania_egitania = tribal
 #b_ocelum_egitania = castle
 #b_veniensis_egitania = city
-b_alpedrinha_egitania = castle
+#b_alpedrinha_egitania = castle
 
 # Misc
 culture = lusitanian

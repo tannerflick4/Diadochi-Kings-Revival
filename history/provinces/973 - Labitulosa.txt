@@ -5,8 +5,8 @@ title = c_labitulosa
 
 # Settlements
 max_settlements = 2
-b_labitulosa_labitulosa = castle
-b_ore_labitulosa = castle
+b_labitulosa_labitulosa = tribal
+#b_ore_labitulosa = castle
 
 # Misc
 culture = iberian

@@ -4,7 +4,7 @@
 title = c_irna # for example c_corinth
 
 # Settlements
-max_settlements = 6 # Should be reevaluated
+max_settlements = 2
 b_irna = castle
 b_paestum_irna = city
 

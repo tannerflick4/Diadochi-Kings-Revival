@@ -5,7 +5,7 @@ title = c_djanet
 
 # Settlements
 max_settlements = 1
-b_djanet_djanet = castle
+b_djanet_djanet = tribal
 
 # Misc
 culture = berber

@@ -5,8 +5,8 @@ title = c_hvarzgasti
 
 # Settlements
 max_settlements = 2
-b_hvarzgasti_hvarzgasti = castle
-b_kusca_hvarzgasti = castle
+b_hvarzgasti_hvarzgasti = tribal
+#b_kusca_hvarzgasti = castle
 
 # Misc
 culture = scythian

@@ -5,7 +5,7 @@ title = c_iniesta
 
 # Settlements
 max_settlements = 3
-b_iniesta_iniesta = castle
+b_iniesta_iniesta = tribal
 #b_putea_iniesta = castle
 #b_valeria_iniesta = castle
 

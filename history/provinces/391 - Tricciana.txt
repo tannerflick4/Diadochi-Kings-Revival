@@ -5,10 +5,10 @@ title = c_tricciana
 
 # Settlements
 max_settlements = 6
-b_tricciana_tricciana = castle
+b_tricciana_tricciana = tribal
 b_gorsium_tricciana = temple
-b_lussomana_tricciana = city
-b_floriana_tricciana = castle
+#b_lussomana_tricciana = city
+#b_floriana_tricciana = castle
 
 # Possible baronies: (Always add a # in front of a line with these!)
 # b_brigetio_tricciana

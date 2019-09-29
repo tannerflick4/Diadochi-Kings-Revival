@@ -5,7 +5,7 @@ title = c_agarur
 
 # Settlements
 max_settlements = 1
-b_agarur_agarur = castle
+b_agarur_agarur = tribal
 
 # Misc
 culture = scythian

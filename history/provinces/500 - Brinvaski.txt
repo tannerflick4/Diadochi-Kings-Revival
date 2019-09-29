@@ -5,7 +5,7 @@ title = c_brinvaski
 
 # Settlements
 max_settlements = 2
-b_brinvaski_brinvaski = castle
+b_brinvaski_brinvaski = tribal
 b_frica_brinvaski = temple
 
 # Misc

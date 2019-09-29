@@ -5,10 +5,10 @@ title = c_serdica
 
 # Settlements
 max_settlements = 4
-b_serdika_serdika = castle
-b_scretisca_serdika = city
-b_burgaraca_serdika = city
-b_meldia_serdika = castle
+b_serdika_serdika = tribal
+#b_scretisca_serdika = city
+#b_burgaraca_serdika = city
+#b_meldia_serdika = castle
 
 # Misc
 culture = paeonian

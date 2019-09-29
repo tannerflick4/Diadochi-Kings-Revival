@@ -5,9 +5,9 @@ title = c_gaumizda
 
 # Settlements
 max_settlements = 3
-b_gaumizda_gaumizda = castle
-b_kissarca_gaumizda = castle
-b_gaukol_gaumizda = city
+b_gaumizda_gaumizda = tribal
+#b_kissarca_gaumizda = castle
+#b_gaukol_gaumizda = city
 
 # Misc
 culture = scythian

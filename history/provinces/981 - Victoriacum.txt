@@ -5,8 +5,8 @@ title = c_victoriacum
 
 # Settlements
 max_settlements = 2
-b_victoriacum_victoriacum = castle
-b_kalakorikos_victoriacum = castle
+b_victoriacum_victoriacum = tribal
+#b_kalakorikos_victoriacum = castle
 
 # Misc
 culture = aquitanian

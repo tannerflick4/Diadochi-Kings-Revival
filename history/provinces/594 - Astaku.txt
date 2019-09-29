@@ -5,7 +5,7 @@ title = c_astaku
 
 # Settlements
 max_settlements = 1
-b_astaku_astaku = castle
+b_astaku_astaku = tribal
 
 # Misc
 culture = scythian

@@ -5,10 +5,10 @@ title = c_pelendava
 
 # Settlements
 max_settlements = 4
-b_pelendava_pelendava = castle
-b_calarasi_pelendava = city
-b_sucidava_pelendava = city
-b_cotofeni_pelendava = castle
+b_pelendava_pelendava = tribal
+#b_calarasi_pelendava = city
+#b_sucidava_pelendava = city
+#b_cotofeni_pelendava = castle
 
 # Misc
 culture = dacian

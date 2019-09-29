@@ -5,8 +5,8 @@ title = c_naradvara
 
 # Settlements
 max_settlements = 2
-b_naradvara_naradvara = castle
-b_dakus_naradvara = castle
+b_naradvara_naradvara = tribal
+#b_dakus_naradvara = castle
 
 # Misc
 culture = sarmatian

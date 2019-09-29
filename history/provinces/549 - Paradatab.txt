@@ -5,8 +5,8 @@ title = c_paradatab
 
 # Settlements
 max_settlements = 2
-b_paradatab_paradatab = castle
-b_jarakol_paradatab = city
+b_paradatab_paradatab = tribal
+#b_jarakol_paradatab = city
 
 # Misc
 culture = scythian

@@ -5,7 +5,7 @@ title = c_tadvara
 
 # Settlements
 max_settlements = 1
-b_tadvara_tadvara = castle
+b_tadvara_tadvara = tribal
 
 # Misc
 culture = scythian

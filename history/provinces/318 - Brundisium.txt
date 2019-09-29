@@ -4,7 +4,7 @@
 title = c_brundisium # for example c_corinth
 
 # Settlements
-max_settlements = 6 # Should be reevaluated
+max_settlements = 2
 b_brundisium = castle
 b_calipolis_brundisium = city
 

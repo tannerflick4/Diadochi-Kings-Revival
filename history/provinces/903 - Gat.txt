@@ -5,7 +5,7 @@ title = c_gat
 
 # Settlements
 max_settlements = 1
-b_gat_gat = castle
+b_gat_gat = tribal
 
 # Misc
 culture = berber

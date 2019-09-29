@@ -5,8 +5,8 @@ title = c_rasin
 
 # Settlements
 max_settlements = 2
-b_rasin_rasin = castle
-b_pruhaca_rasin = city
+b_rasin_rasin = tribal
+#b_pruhaca_rasin = city
 
 # Misc
 culture = scythian

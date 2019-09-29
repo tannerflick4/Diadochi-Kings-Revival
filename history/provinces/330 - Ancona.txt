@@ -4,7 +4,7 @@
 title = c_ancona # for example c_corinth
 
 # Settlements
-max_settlements = 6 # Should be reevaluated
+max_settlements = 4
 b_ancona_ancona = castle
 b_firmum_ancona = city
 b_sentium_ancona = castle

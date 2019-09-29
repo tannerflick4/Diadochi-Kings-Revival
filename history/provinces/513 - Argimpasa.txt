@@ -5,9 +5,9 @@ title = c_argimpasa
 
 # Settlements
 max_settlements = 3
-b_argimpasa_argimpasa = castle
-b_pruhaca_argimpasa = city
-b_lokol_argimpasa = city
+b_argimpasa_argimpasa = tribal
+#b_pruhaca_argimpasa = city
+#b_lokol_argimpasa = city
 
 # Misc
 culture = sarmatian

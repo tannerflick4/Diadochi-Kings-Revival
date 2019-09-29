@@ -5,9 +5,9 @@ title = c_dargaku
 
 # Settlements
 max_settlements = 3
-b_dargaku_dargaku = castle
+b_dargaku_dargaku = tribal
 b_kutili_dargaku = temple
-b_hurta_dargaku = city
+#b_hurta_dargaku = city
 
 # Misc
 culture = scythian

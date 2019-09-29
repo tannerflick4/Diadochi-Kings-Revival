@@ -5,8 +5,8 @@ title = c_karsapatak
 
 # Settlements
 max_settlements = 2
-b_karsapatak_karsapatak = castle
-b_asata_karsapatak = city
+b_karsapatak_karsapatak = tribal
+#b_asata_karsapatak = city
 
 # Misc
 culture = scythian

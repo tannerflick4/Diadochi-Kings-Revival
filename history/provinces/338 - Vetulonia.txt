@@ -4,17 +4,11 @@
 title = c_vetulonia # for example c_corinth
 
 # Settlements
-max_settlements = 6 # Should be reevaluated
+max_settlements = 4
 b_vetulonia_vetulonia = castle
 b_cossa_vetulonia = city
 b_salobro_vetulonia = temple
 b_rustellae_vetulonia = castle
-
-# Possible baronies: (Always add a # in front of a line with these!)
-#
-#
-#
-#
 
 # Misc
 culture = etruscan

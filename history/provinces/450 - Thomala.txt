@@ -5,8 +5,8 @@ title = c_thomala
 
 # Settlements
 max_settlements = 2
-b_thomala_thomala = castle
-b_zaabram_thomala = city
+b_thomala_thomala = tribal
+#b_zaabram_thomala = city
 
 # Misc
 culture = arabic

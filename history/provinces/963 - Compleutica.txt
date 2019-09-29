@@ -5,8 +5,8 @@ title = c_compleutica
 
 # Settlements
 max_settlements = 4
-b_compleutica_compleutica = castle
-b_veniatia_compleutica = city
+b_compleutica_compleutica = tribal
+#b_veniatia_compleutica = city
 #b_civitas_baniensum_compleutica = city
 #b_civitas_zoelarum_compleutica = city
 

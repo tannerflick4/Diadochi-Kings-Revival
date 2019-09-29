@@ -1,5 +1,6 @@
 376.1.1 = { # 400 BC
 	holder = 330602 # Ateas
+	historical_nomad = yes
 }
 437.1.1 = { # 339 BC
 	holder = 330604 # Omarg

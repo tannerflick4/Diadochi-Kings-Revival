@@ -5,7 +5,7 @@ title = c_paraporatapanti
 
 # Settlements
 max_settlements = 1
-b_paraporatapanti_paraporatapanti = castle
+b_paraporatapanti_paraporatapanti = tribal
 
 # Misc
 culture = sarmatian
