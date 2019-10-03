@@ -41,11 +41,14 @@ province;red;green;blue;x;x
 40;79;169;72;Edirne;x
 41;42;123;148;Maroneia;x
 42;84;126;21;Abdera;x
+43;142;47;45;Amantia;x
 44;168;132;22;Lysimachia;x
 45;0;135;150;Byzantion;x
 46;84;3;36;Apollonia;x
 47;168;207;162;Odessos;x
 48;126;144;24;Histria;x
+49;56;49;58;Malis;x
+50;58;22;22;Pharsalus;x
 51;42;153;153;Arbitus;x
 52;84;156;26;Tyras;x
 53;126;159;154;Olbia;x
@@ -57,6 +60,7 @@ province;red;green;blue;x;x
 59;168;177;157;Lyncestis;x
 60;0;180;30;Elimea;x
 61;42;183;158;Epidamnos;x
+62;25;24;56;Ambracia;x
 63;42;30;168;Parthus;x
 64;168;192;32;Scodra;x
 65;0;195;160;Stobi;x
@@ -69,6 +73,7 @@ province;red;green;blue;x;x
 72;84;141;15;Singidunum;x
 73;126;6;164;Ratiara;x
 74;168;9;37;Sala;x
+75;203;52;216;Orestis;x
 76;168;186;167;Abydos;x
 77;94;133;184;Pergamon;x
 78;168;24;167;Cyzicus;x
@@ -77,6 +82,7 @@ province;red;green;blue;x;x
 81;126;21;39;Sardis;x
 82;168;115;115;Miletus;x
 83;84;18;166;Halicarnassus;x
+84;56;56;37;Oichalia;x
 85;120;58;58;Xanthos;x
 86;42;77;166;Termessos;x
 87;148;164;207;Side;x
