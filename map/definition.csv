@@ -292,6 +292,12 @@ province;red;green;blue;x;x
 291;239;94;234;Attock;x
 292;43;178;65;Taxila;x
 293;84;74;107;Bylazora;x
+294;113;114;124;Ainos;x
+295;74;133;168;Bizye;x
+296;165;38;70;Bergoule;x
+297;110;160;211;Mesembria;x
+298;209;87;85;Bourdepa;x
+299;185;80;206;Pistoros;x
 300;102;169;99;Lilybaeum;x
 301;194;110;140;Elymians;x
 302;135;51;214;Selinus;x
@@ -565,6 +571,8 @@ province;red;green;blue;x;x
 570;226;221;74;Zurklopa;x
 571;203;201;137;Kutipanti;x
 572;143;139;25;Sautaska;x
+573;149;165;84;Novae;x
+574;133;136;163;Oescus;x
 575;95;51;91;Mahta;x
 576;181;43;169;Dranpa;x
 577;119;50;113;Navia;x
