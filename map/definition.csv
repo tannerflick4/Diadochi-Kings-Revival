@@ -265,6 +265,10 @@ province;red;green;blue;x;x
 264;16;65;103;Calame;x
 265;11;87;88;Soxetra;x
 266;19;38;88;Nisaea;x
+267;255;84;198;Albanopolis;x
+268;104;38;35;Uscana;x
+269;107;68;83;Neapolis;x
+270;107;98;40;Scaptobara;x
 271;71;91;141;Alexandria Bactria;x
 272;181;126;156;Bactra;x
 273;118;56;90;Drapsaka;x
@@ -287,6 +291,7 @@ province;red;green;blue;x;x
 290;86;24;40;Boukephala;x
 291;239;94;234;Attock;x
 292;43;178;65;Taxila;x
+293;84;74;107;Bylazora;x
 300;102;169;99;Lilybaeum;x
 301;194;110;140;Elymians;x
 302;135;51;214;Selinus;x
