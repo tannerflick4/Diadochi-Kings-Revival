@@ -720,6 +720,8 @@ province;red;green;blue;x;x
 719;169;62;208;Pataliputra;x
 720;159;22;112;Asura;x
 721;74;119;134;Rohitaswa;x
+722;195;121;198;Hammeum;x
+723;196;66;75;Agruvium;x
 724;41;162;201;Asthagoura;x
 725;112;87;122;Kusavati;x
 726;132;55;161;Sringivera;x
@@ -794,6 +796,14 @@ province;red;green;blue;x;x
 795;68;171;140;Loha;x
 796;132;201;180;Skardu;x
 797;83;220;176;Lithinos;x
+798;26;23;196;Diluntum;x
+799;184;196;117;Narona;x
+800;193;34;58;Baloia;x
+801;124;167;193;Urbate;x
+802;204;91;174;Salinae;x
+803;62;140;51;Romuliana;x
+804;140;29;29;Viminacium;x
+805;39;83;140;Domavium;x
 806;100;122;98;Sacidava;x
 807;108;174;120;Zurobara;x
 808;91;227;114;Partiskon;x
@@ -971,6 +981,9 @@ province;red;green;blue;x;x
 980;43;37;161;Oiasso;x
 981;22;19;80;Victoriacum;x
 982;58;50;211;Gebala;x
+983;178;128;67;Pelva;x
+984;32;24;178;Metulum;x
+985;255;109;225;Marsonia;x
 986;11;30;28;Pyrenees;x
 987;69;168;102;Gaetulia;x
 988;148;168;77;Targa;x
@@ -985,8 +998,10 @@ province;red;green;blue;x;x
 997;33;198;142;Sahara Desert;x
 998;21;79;32;Alpine mountains;x
 999;84;30;83;Carpathian Mountains;x
+1000;64;114;79;Neviodunum;x
 1001;245;245;245;Tiberias Lake;x
 1002;235;235;235;Israel sea;x
+1003;68;71;117;Serota;x
 1004;215;215;215;Anatolia Lake east;x
 1005;205;205;205;Anatolia Lake west;x
 1006;195;195;195;Epirus Border Lake;x
@@ -1075,6 +1090,20 @@ province;red;green;blue;x;x
 1089;123;185;216;Codanus Sinus;x
 1090;65;214;216;Helinium;x
 1091;117;215;216;Flevum Lacus;x
+1092;107;35;112;Celeia;x
+1093;13;38;112;Iovia;x
+1094;112;41;76;Aquincum;x
+1095;107;109;39;Gorsium;x
+1096;126;58;165;Mogentiana;x
+1097;63;29;76;Savaria;x
+1098;76;67;66;Poetovio;x
+1099;58;76;71;Pola;x
+1100;132;65;147;Teurnia;x
+1101;63;147;131;Lauriacum;x
+1102;147;65;73;Cetium;x
+1103;75;147;147;Vindobona;x
+1104;77;132;165;Brigetio;x
+1105;54;165;147;Mursella;x
 1200;23;116;56;Ocules;x
 1201;106;177;78;Toletum;x
 1202;146;177;78;Tamusia;x
