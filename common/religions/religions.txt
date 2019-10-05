@@ -437,7 +437,7 @@ celtic_religion = {
 	celtic_main = {
 		graphical_culture = westerngfx
 
-		icon = 16 # TODO: Use the right icon
+		icon = 67
 		color = { 0.2 0.6 0.2 }
 		
 		crusade_name = "CRUSADE"
@@ -1734,7 +1734,7 @@ lusitanian_religion = {
 	lusitanian_main = {
 		graphical_culture = westerngfx
 
-		icon = 16 # TODO: Use the right icon
+		icon = 5 # TODO: Use the right icon
 		color = { 0.62 0.19 0.06 }
 		
 		crusade_name = "CRUSADE"
@@ -1809,7 +1809,7 @@ iberian_religion = {
 	iberian_main = {
 		graphical_culture = westerngfx
 
-		icon = 16 # TODO: Use the right icon
+		icon = 5 # TODO: Use the right icon
 		color = { 0.9 0.8 0.9 }
 		
 		crusade_name = "CRUSADE"
@@ -1888,7 +1888,7 @@ aquitanian_religion = {
 	aquitanian_main = {
 		graphical_culture = westerngfx
 
-		icon = 16 # TODO: Use the right icon
+		icon = 5 # TODO: Use the right icon
 		color = { 0 0.76 0.31 }
 		
 		crusade_name = "CRUSADE"
