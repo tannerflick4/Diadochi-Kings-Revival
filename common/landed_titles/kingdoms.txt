@@ -291,7 +291,26 @@ k_odrysia = {
 			}
 			b_anchialus_apollonia = {
 			}
-			b_mesembria_apollonia = {
+			b_apollonia1_apollonia = { # needs name
+			}
+		}
+		c_mesembria = {
+			color = { 110 160 211 }
+			color2 = { 255 255 255 }
+			
+			b_mesembria_mesembria = {
+			}
+			b_mesembria1_mesembria = { # needs name
+			}
+			b_mesembria2_mesembria = { # needs name
+			}
+			b_mesembria3_mesembria = { # needs name
+			}
+			b_mesembria4_mesembria = { # needs name
+			}
+			b_mesembria5_mesembria = { # needs name
+			}
+			b_mesembria6_mesembria = { # needs name
 			}
 		}
 	}
@@ -372,7 +391,7 @@ k_odrysia = {
 			}
 			b_longinopara_seuthopolis = {
 			}
-			b_oescus_seuthopolis = {
+			b_seuthopolis1_seuthopolis = { # needs name
 			}
 			b_storgosia_seuthopolis = {
 			}
@@ -401,6 +420,44 @@ k_odrysia = {
 			b_vorovum_montana = {
 			}
 			b_meldia_montana = {
+			}
+		}
+		c_oescus = {
+			color = { 133 136 163 }
+			color2 = { 255 255 255 }
+			
+			b_oescus_oescus = {
+			}
+			b_oescus1_oescus = { # needs name
+			}
+			b_oescus2_oescus = { # needs name
+			}
+			b_oescus3_oescus = { # needs name
+			}
+			b_oescus4_oescus = { # needs name
+			}
+			b_oescus5_oescus = { # needs name
+			}
+			b_oescus6_oescus = { # needs name
+			}
+		}
+		c_novae = {
+			color = { 149 165 84 }
+			color2 = { 255 255 255 }
+			
+			b_novae_novae = {
+			}
+			b_novae1_novae = { # needs name
+			}
+			b_novae2_novae = { # needs name
+			}
+			b_novae3_novae = { # needs name
+			}
+			b_novae4_novae = { # needs name
+			}
+			b_novae5_novae = { # needs name
+			}
+			b_novae6_novae = { # needs name
 			}
 		}
 	}

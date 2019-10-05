@@ -1,4 +1,4 @@
 405.1.1 = { # 371 BC
-	holder = 421201 # Sekilos
+	holder = 421202 # Sekilos
 	liege = d_turmodigi
 }
