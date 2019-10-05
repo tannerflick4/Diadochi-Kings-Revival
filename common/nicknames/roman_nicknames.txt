@@ -1,0 +1,259 @@
+# Planned cognomina
+nick_aculeo = { # prickly, unfriendly
+}
+nick_agricola = { # farmer
+}
+nick_agrippa = { # born feet first
+}
+nick_ahala = { # armpit
+}
+nick_ahenobarbus = { # red beard
+}
+nick_albinus = { # pale, white
+}
+nick_albus = { # white or fair-skinned
+}
+nick_ambustus = { # burnt, scalded
+}
+nick_annalis = { # relating to years = maybe old ?
+}
+nick_aquila = { # eagle
+}
+nick_aquilinus = { # eagle-like
+}
+nick_arvina = { # fat, lard = gluttonous trait
+}
+nick_asellio = { # keeper of donkeys
+}
+nick_asina = { # female donkey
+}
+nick_atelius = { # dark-haired or dark-skinned
+}
+nick_avitus = { # grandfatherly = kind trait? OR old?
+}
+nick_balbus = { # stutterer = stutterer trait
+}
+nick_barba = { # a beard
+}
+nick_barbatus = { # bearded
+}
+nick_bassus = { # plump = gluttonous trait ?
+}
+nick_bestia = { # like an animal
+}
+nick_bibaculus = { # drunkard = drunkard trait
+}
+nick_bibulus = { # drunkard = drunkaed trait
+}
+nick_blaesus = { # speech impediment = stutterer trait
+}
+nick_brocchus = { # toothy
+}
+nick_brutus = { # stupid, dull-witted = slow trait OR imbecile trait
+}
+nick_bubulcus = { # cattle-driver
+}
+nick_bucco = { # fool = slow trait OR imbecile trait
+}
+nick_bulbus = { # bulb, onion
+}
+nick_buteo = { # buzzard
+}
+nick_caecus = { # blind = blinded trait
+}
+nick_caepio = { # onion-seller
+}
+nick_caesar = { # hairy
+}
+nick_calidus = { # hot-headed, rash = wroth trait
+}
+nick_calvinus = { # bald
+}
+nick_calvus = { # bald
+}
+nick_camillus = { # a child who helps during sacrifices
+}
+nick_caninus = { # dog-like
+}
+nick_canus = { # golden-haired or grey-haired
+}
+nick_capito = { # big-headed
+}
+nick_carbo = { # charcoal
+}
+nick_cato = { # shrewd, prudent
+}
+nick_catulus = { # puppy, whelp
+}
+nick_celer = { # quick = quick trait
+}
+nick_celsus = { # tall = tall trait
+}
+nick_cicero = { # chick pea
+}
+nick_cicurinus = { # mild, gentle
+}
+nick_cilo = { # large forehead or large lips
+}
+nick_cincinnatus = { # curly-haired
+}
+nick_cordus = { # born late
+}
+nick_cornicen = { # military bugler
+}
+nick_cornutus = { # horned
+}
+nick_corvinus = { # crow-like
+}
+nick_corvus = { # crow
+}
+nick_costa = { # a rib
+}
+nick_crassipes = { # club-footed = club-footed trait
+}
+nick_crispinus = { # curly-haired
+}
+nick_crispus = { # curly-haired
+}
+nick_culleo = { # leather sack for carrying liquid
+}
+nick_curio = { # priest of a curia = holds a temple holding
+}
+nick_cursor = { # runner, courier
+}
+nick_curva = { # stooping, bent = old?
+}
+nick_dentatus = { # toothy
+}
+nick_denter = { # toothy
+}
+nick_dento = { # toothy
+}
+nick_dives = { # rich, wealthy = rich?
+}
+nick_dolabella = { # hatchet
+}
+nick_dorsuo = { # large back
+}
+nick_figulus = { # potter
+}
+nick_fimbria = { # edge of clothing, fringes
+}
+nick_flaccus = { # floppy ears
+}
+nick_flavus = { # blonde-haired
+}
+nick_florus = { # light-coloured or blooming
+}
+nick_fronto = { # prominent forehead
+}
+nick_fullo = { # a fuller or launderer
+}
+nick_galeo = { # helmet
+}
+nick_gemellus = { # a twin = twin obviously
+}
+nick_gurges = { # greedy, prodigal = greedy trait
+}
+nick_habitus = { # in good physical condition
+}
+nick_helva = { # dun-coloured hair
+}
+nick_imperiosus = { # domineering, dictatorial
+}
+nick_labeo = { # prominent lips
+}
+nick_lactuca = { # lettuce
+}
+nick_laenas = { # a wooly cloak
+}
+nick_lanatus = { # wearing wool
+}
+nick_laterensis = { # person from the hill-side
+}
+nick_lentulus = { # a bit slow = slow trait
+}
+nick_lepidus = { # charming, amusing
+}
+nick_licinus = { # spiky- or bristly-haired
+}
+nick_longus = { # tall = tall trait
+}
+nick_lucullus = { # from lucus (grove)
+}
+nick_lupus = { # wolf
+}
+nick_lurco = { # gluttonous, greedy = gluttonous trait AND greedy trait ?
+}
+nick_macer = { # thin
+}
+nick_macula = { # a spot or blemish
+}
+nick_malleolus = { # hammer
+}
+nick_merenda = { # light afternoon meal = temperate trait ?
+}
+nick_mergus = { # sea-gull
+}
+nick_merula = { # blackbird
+}
+nick_metellus = { # army follower
+}
+nick_murena = { # eel
+}
+nick_mus = { # mouse or rat = craven trait ?
+}
+nick_musca = { # fly
+}
+nick_nasica = { # big-nosed
+}
+nick_naso = { # big-nosed
+}
+nick_natta = { # an artisan
+}
+nick_nepos = { # grandchild
+}
+nick_nero = { # strong
+}
+nick_nerva = { # vigorous
+}
+nick_niger = { # black-skinned or black-haired
+}
+nick_novellus = { # new, new-fangled
+}
+nick_ocella = { # small-eyed
+}
+nick_paetus = { # squinty or blinking
+}
+nick_pansa = { # splay-footed
+}
+nick_paterculus = { # little father
+}
+nick_paullus = { # small
+}
+nick_pavo = { # peacock
+}
+nick_pera = { # shoulder-bag
+}
+nick_pictor = { # painter = painter trait
+}
+nick_piso = { # mortar
+}
+nick_plancus = { # flat-footed
+}
+nick_plautus = { # flat-footed
+}
+nick_poplicola = { # friend of the people
+}
+nick_postumus = { # born after the father's death
+}
+nick_praeconinus = { # a relative of a herald
+}
+nick_praetextatus = { # young = young ruler ?
+}
+nick_priscus = { # very ancient = very old
+}
+nick_proculus = { # born during father's absence = bastard?
+}
+nick_publicola = { # friend of the people
+}

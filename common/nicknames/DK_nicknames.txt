@@ -1,0 +1,300 @@
+nick_chakravartin = {
+	allow = {
+		trait = chakravartin
+	}
+	
+	chance = {
+		factor = 5
+	}
+}
+
+nick_the_animal_protector = {
+	allow = {
+		OR = {
+			religion = hinduism_main
+			religion = jainism_main
+			religion = buddhism_main
+		}
+		trait = vegetarian
+		OR = {
+			trait = kind
+			trait = zealous
+			trait = humble
+			trait = patient
+			trait = charitable
+		}
+		NOT = { trait = cruel }
+		NOT = { trait = envious }
+		NOT = { trait = impaler }
+		NOT = { trait = hunter }
+		NOT = { trait = falconer }
+	}
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 5 #OBJGETNICK
+			has_ambition = obj_get_nick
+		}
+	}
+}
+
+nick_the_compassionate = {
+	allow = {
+		OR = {
+			religion = hinduism_main
+			religion = jainism_main
+			religion = buddhism_main
+		}
+		OR = {
+			trait = kind
+			trait = vegetarian
+			trait = charitable
+		}
+		NOT = { trait = cruel }
+		NOT = { trait = envious }
+		NOT = { trait = impaler }
+		NOT = { trait = hunter }
+		NOT = { trait = falconer }
+	}
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2.0
+			OR = {
+				trait = diligent
+				trait = zealous
+				trait = humble
+			}
+		}
+		modifier = {
+			factor = 0.5
+			OR = {
+				trait = greedy
+				trait = wroth
+				trait = arbitrary
+			}
+		}
+		modifier = {
+			factor = 5 #OBJGETNICK
+			has_ambition = obj_get_nick
+		}
+	}
+}
+
+nick_the_awakened = {
+	allow = {
+		OR = {
+			religion = hinduism_main
+			religion = jainism_main
+			religion = buddhism_main
+		}
+		OR = {
+			trait = retreat_veteran
+			trait = retreat_master
+		}
+		OR = {
+			trait = kind
+			trait = zealous
+			trait = temperate
+			trait = patient
+			trait = humble
+		}
+		NOT = { trait = cruel }
+		NOT = { trait = envious }
+		NOT = { trait = gluttonous }
+		NOT = { trait = arbitrary }
+	}
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2.0
+			OR = {
+				trait = genius
+				trait = quick
+			}
+		}
+		modifier = {
+			factor = 5 #OBJGETNICK
+			has_ambition = obj_get_nick
+		}
+	}
+}
+
+nick_the_realized = {
+	allow = {
+		OR = {
+			religion = jainism_main
+			religion = buddhism_main
+		}
+		OR = {
+			trait = retreat_veteran
+			trait = retreat_master
+		}
+		OR = {
+			trait = kind
+			trait = zealous
+			trait = temperate
+			trait = patient
+			trait = humble
+		}
+		NOT = { trait = cruel }
+		NOT = { trait = envious }
+		NOT = { trait = gluttonous }
+		NOT = { trait = arbitrary }
+	}
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2.0
+			OR = {
+				trait = genius
+				trait = quick
+			}
+		}
+		modifier = {
+			factor = 5 #OBJGETNICK
+			has_ambition = obj_get_nick
+		}
+	}
+}
+
+nick_the_deluded = {
+	allow = {
+		OR = {
+			religion = hinduism_main
+			religion = jainism_main
+			religion = buddhism_main
+		}
+		OR = {
+			trait = proud
+			trait = arbitrary
+			trait = paranoid
+			trait = slothful
+			trait = imbecile
+			trait = slow
+			trait = trusting
+		}
+	}
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			OR = {
+				trait = patient
+				trait = humble
+				trait = zealous
+				trait = just
+				trait = cynical
+			}
+		}
+		modifier = {
+			factor = 5 #OBJGETNICK
+			has_ambition = obj_get_nick
+		}
+	}
+}
+
+nick_the_ever_craving = {
+	allow = {
+		OR = {
+			religion = hinduism_main
+			religion = jainism_main
+			religion = buddhism_main
+		}
+		OR = {
+			trait = greedy
+			trait = gluttonous
+			trait = lustful
+			trait = hedonist
+			trait = ambitious
+		}
+		NOT = { trait = temperate }
+	}
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			OR = {
+				trait = content
+				trait = humble
+				trait = zealous
+				trait = charitable
+				trait = chaste
+			}
+		}
+		modifier = {
+			factor = 5 #OBJGETNICK
+			has_ambition = obj_get_nick
+		}
+	}
+}
+
+nick_the_anger_filled = {
+	allow = {
+		OR = {
+			religion = hinduism_main
+			religion = jainism_main
+			religion = buddhism_main
+		}
+		OR = {
+			trait = cruel
+			trait = wroth
+			trait = arbitrary
+			trait = impaler
+			trait = duelist
+		}
+		NOT = { trait = patient }
+		OR = {
+			trait = wroth
+			NOT = { trait = kind }
+		}
+	}
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			OR = {
+				trait = zealous
+				trait = humble
+				trait = shy
+			}
+		}
+		modifier = {
+			factor = 5 #OBJGETNICK
+			has_ambition = obj_get_nick
+		}
+	}
+}
+
+nick_the_sage = {
+	allow = {
+		OR = {
+			religion = hinduism_main
+			religion = jainism_main
+			religion = buddhism_main
+		}
+		OR = {
+			trait = genius
+			trait = quick
+			trait = retreat_master
+			trait = retreat_veteran
+			trait = scholar
+		}
+		NOT = { trait = cruel }
+		NOT = { trait = arbitrary }
+		NOT = { trait = envious }
+		NOT = { trait = hedonist }
+		NOT = { trait = lustful }
+		NOT = { trait = greedy }
+		NOT = { trait = deceitful }
+		NOT = { trait = impaler }
+		learning = 10
+	}
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 5 #OBJGETNICK
+			has_ambition = obj_get_nick
+		}
+	}
+}
