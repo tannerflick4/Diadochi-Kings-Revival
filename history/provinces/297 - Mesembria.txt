@@ -1,0 +1,20 @@
+# 297 - Mesembria
+
+# County Title
+title = c_mesembria
+
+# Settlements
+max_settlements = 4
+b_mesembria_mesembria = castle
+b_mesembria1_mesembria = temple
+b_mesembria2_mesembria = city
+b_mesembria3_mesembria = castle
+#b_mesembria4_mesembria = temple
+#b_mesembria5_mesembria = city
+#b_mesembria6_mesembria = castle
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History
