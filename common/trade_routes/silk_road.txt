@@ -1,0 +1,123 @@
+silk_road = {
+	wealth = 197			# Total base wealth of silk route
+	trade_post_display_trigger = {
+		OR = {
+			province_id = 890 # Loulan
+			province_id = 886 # Shule
+			province_id = 274 # Marakanda
+			province_id = 272 # Baktra
+			province_id = 271 # Alexandria in Margiane
+			province_id = 244 # Hekatombylos
+			province_id = 240 # Ecbatana
+			province_id = 194 # Opis
+			province_id = 180 # Harran
+			province_id = 120 # Antioch
+			province_id = 175 # Damascus
+			province_id = 719 # Pataliputra
+			province_id = 783 # Mirzapur
+			province_id = 737 # Mathura
+			province_id = 292 # Taxila
+			province_id = 286 # Patala
+			province_id = 689 # Kannagara
+			province_id = 704 # Tamralipti
+			province_id = 695 # Kalingapur
+			province_id = 658 # Mahatitta
+			province_id = 666 # Madura
+			province_id = 255 # Harmozeia
+			province_id = 200 # Charax
+            province_id = 195 # Babylon
+            province_id = 463 # Neogilla
+            province_id = 454 # Adan
+            province_id = 449 # Mecca
+            province_id = 139 # Alexandria
+		}
+	}
+
+	modifier = {			# How the trade route modifies the provinces it passes
+		castle_tax_modifier = 0.10
+		city_tax_modifier = 0.10
+		temple_tax_modifier = 0.10
+		tribal_tax_modifier = 0.10
+		trade_route_value = 15
+		local_movement_speed = 0.20
+		tech_growth_modifier = 0.20
+		icon = 4
+	}
+
+	start = {				# Start provinces of trade route
+		890 # Loulan
+        706 # Paundra
+	}
+
+	# Northern Silk Route
+	path = {	# Loulan - Shule north route
+		890 888 887 886
+	}
+	path = {	# Loulan - Shule south route
+		890 891 892 893 894 886
+	}
+    path = {    # Shule - Lithinos 
+        886 797
+    }
+    path = {    # Lithinos - Charracarta Soghdian route
+        797 276 274 811 813
+    }
+    path = {    # Lithinos - Charracarta Bactrian route
+        797 275 273 272 813
+    }
+    path = {    # Charracarta - Hekatombylos
+        813 814 271 266 246 245 244
+    }
+    path = {    # Hekatombylos - Maskin
+        244 260 242 240 239 238 194 192
+    }
+    path = {    # Maskin - Harran
+        192 185 184 183 180
+    }
+    path = {    # Harran - Antioch
+        180 177 120
+    }
+    path = {    # Harran - Damascus
+        180 176 175
+    }
+
+    # Indian land route.
+    path = { # Paundra to Navadwipa
+        706 717
+    }
+    path = { # Navadwipa to Mirzapur
+        717 718 719 721 724 783
+    }
+    path = { # Mirzapur to Kannagara (into the sea)
+        783 785 786 787 691 690 689 1066
+    }
+    path = { # Mirzapur to Mathura
+        783 782 780 737
+    }
+    path = { # Mathura to Taxila
+        737 738 739 754 758 757 290 292
+    }
+    path = { # Taxila to Drapsaka
+        292 279 791 273
+    }
+    path = { # Taxila to Patala (into the sea)
+        292 755 752 287 286 1060
+    }
+
+    # Indian sea route
+    path = { # Navadwipa to Telinga Samudra
+        717 704 1067 695 1066
+    }
+    path = { # Telinga Samudra to Shauraseni Samudra
+        1066 1065 658 666 1063 1062 1061 1060
+    }
+    path = { # Shauraseni Samudra to Gedrosias Pelagos
+        1060 1058
+    }
+    path = { # Gedrosias Pelagos to Maskin
+        1058 256 255 1059 200 199 198 196 195 193 192
+    }
+    path = { # Gedrosias Pelagos to Alexandria
+        1058 1057 466 1056 463 1055 454 453 1054 1053 449 448 1052 144 140 141 139
+    }
+}
