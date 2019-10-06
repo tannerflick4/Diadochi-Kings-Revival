@@ -2249,10 +2249,10 @@ b_bratavadasz_ugrakati;Bratavadasz;;;;;;;;;;;;;x;
 b_aiane_pyli;Aiane;;;;;;;;;;;;;x;
 b_keletron_pyli;Keletron;;;;;;;;;;;;;x;
 b_eratyra_pyli;Eratyra;;;;;;;;;;;;;x;
-b_heracleia_lyncestis_orestis;Heracleia Lynkestis;;;;;;;;;;;;;x;
-b_lychnidos_orestis;Lychnidos;;;;;;;;;;;;;x;
-b_stuberra_orestis;Stuberra;;;;;;;;;;;;;x;
-b_pelagonia_orestis;Pelagonia;;;;;;;;;;;;;x;
+b_heracleia_lyncestis;Heracleia Lynkestis;;;;;;;;;;;;;x;
+b_lychnidos_lyncestis;Lychnidos;;;;;;;;;;;;;x;
+b_stuberra_lyncestis;Stuberra;;;;;;;;;;;;;x;
+b_pelagonia_lyncestis;Pelagonia;;;;;;;;;;;;;x;
 b_iton_lamia;Iton;;;;;;;;;;;;;x;
 b_trikka_trikka;Trikka;;;;;;;;;;;;;x;
 b_kierion_trikka;Kierion;;;;;;;;;;;;;x;
@@ -3377,3 +3377,17 @@ b_mesembria3_mesembria;Mesembria;;;;;;;;;;;x
 b_mesembria4_mesembria;Mesembria;;;;;;;;;;;x
 b_mesembria5_mesembria;Mesembria;;;;;;;;;;;x
 b_mesembria6_mesembria;Mesembria;;;;;;;;;;;x
+b_oichalia_oichalia;Oichalia;;;;;;;;;;;x
+b_oichalia1_oichalia;Oichalia;;;;;;;;;;;x
+b_oichalia2_oichalia;Oichalia;;;;;;;;;;;x
+b_oichalia3_oichalia;Oichalia;;;;;;;;;;;x
+b_oichalia4_oichalia;Oichalia;;;;;;;;;;;x
+b_oichalia5_oichalia;Oichalia;;;;;;;;;;;x
+b_oichalia6_oichalia;Oichalia;;;;;;;;;;;x
+b_orestis_orestis;Orestis;;;;;;;;;;;x
+b_orestis1_orestis;Orestis;;;;;;;;;;;x
+b_orestis2_orestis;Orestis;;;;;;;;;;;x
+b_orestis3_orestis;Orestis;;;;;;;;;;;x
+b_orestis4_orestis;Orestis;;;;;;;;;;;x
+b_orestis5_orestis;Orestis;;;;;;;;;;;x
+b_orestis6_orestis;Orestis;;;;;;;;;;;x

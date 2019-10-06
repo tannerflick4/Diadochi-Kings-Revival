@@ -443,69 +443,69 @@ character_event = {
 			}
 		}
 	}
-	option = {
-		name = EVTOPTC50010 # Phalaris bloodline.
-		trigger = {
-			NOT = { has_global_flag = flag_phalaris_bloodline }
-			NOT = { has_dynasty_flag = flag_phalaris_event }
-			has_dlc = "Holy Fury"
-			culture = hellenic
-			is_alternate_start = no 
-			primary_title = { title = k_magna_graecia }
-			completely_controls = d_sicels
-			capital_scope = { de_jure_liege = d_sicels } #Must own it AND reside in it.
-			OR = {
-				trait = lunatic
-				trait = possessed
-				trait = impaler
-				trait = cruel
-			}
-			learning = 15
-		}
-		tooltip_info = learning
-		pacifists_lose_piety_effect = yes
-		random_courtier = {
-			limit = {
-				age = 14
-				prisoner = yes
-				host = { character = ROOT }
-				NOT = { has_character_modifier = house_arrest }
-			}
-			character_event = { id = HF.24001 tooltip = "EVTTOOLTIP50014" }
-		}
-	}
-	option = {
-		name = EVTOPTD50010 # Phalaris bloodline. - Alt.
-		trigger = {
-			NOT = { has_global_flag = flag_phalaris_bloodline }
-			NOT = { has_dynasty_flag = flag_phalaris_event }
-			has_dlc = "Holy Fury"
-			culture_group = hellenic
-			is_alternate_start = no 
-			is_female = no
-			independent = yes
-			primary_title = { title = k_magna_graecia }
-			completely_controls = d_sicels
-			capital_scope = { de_jure_liege = d_sicels } #Must own it AND reside in it.
-			OR = {
-				trait = lunatic
-				trait = possessed
-				trait = impaler
-				trait = cruel
-			}
-			has_character_modifier = brazen_bull
-		}
-		pacifists_lose_piety_effect = yes
-		random_courtier = {
-			limit = {
-				age = 14
-				prisoner = yes
-				host = { character = ROOT }
-				NOT = { has_character_modifier = house_arrest }
-			}
-			character_event = { id = HF.24001 tooltip = "EVTTOOLTIP50014" }
-		}
-	}
+	# option = {
+		# name = EVTOPTC50010 # Phalaris bloodline.
+		# trigger = {
+			# NOT = { has_global_flag = flag_phalaris_bloodline }
+			# NOT = { has_dynasty_flag = flag_phalaris_event }
+			# has_dlc = "Holy Fury"
+			# culture = hellenic
+			# is_alternate_start = no 
+			# primary_title = { title = k_magna_graecia }
+			# completely_controls = d_sicels
+			# capital_scope = { de_jure_liege = d_sicels } #Must own it AND reside in it.
+			# OR = {
+				# trait = lunatic
+				# trait = possessed
+				# trait = impaler
+				# trait = cruel
+			# }
+			# learning = 15
+		# }
+		# tooltip_info = learning
+		# pacifists_lose_piety_effect = yes
+		# random_courtier = {
+			# limit = {
+				# age = 14
+				# prisoner = yes
+				# host = { character = ROOT }
+				# NOT = { has_character_modifier = house_arrest }
+			# }
+			# character_event = { id = HF.24001 tooltip = "EVTTOOLTIP50014" }
+		# }
+	# }
+	# option = {
+		# name = EVTOPTD50010 # Phalaris bloodline. - Alt.
+		# trigger = {
+			# NOT = { has_global_flag = flag_phalaris_bloodline }
+			# NOT = { has_dynasty_flag = flag_phalaris_event }
+			# has_dlc = "Holy Fury"
+			# culture_group = hellenic
+			# is_alternate_start = no 
+			# is_female = no
+			# independent = yes
+			# primary_title = { title = k_magna_graecia }
+			# completely_controls = d_sicels
+			# capital_scope = { de_jure_liege = d_sicels } #Must own it AND reside in it.
+			# OR = {
+				# trait = lunatic
+				# trait = possessed
+				# trait = impaler
+				# trait = cruel
+			# }
+			# has_character_modifier = brazen_bull
+		# }
+		# pacifists_lose_piety_effect = yes
+		# random_courtier = {
+			# limit = {
+				# age = 14
+				# prisoner = yes
+				# host = { character = ROOT }
+				# NOT = { has_character_modifier = house_arrest }
+			# }
+			# character_event = { id = HF.24001 tooltip = "EVTTOOLTIP50014" }
+		# }
+	# }
 }
 
 # Tortured
