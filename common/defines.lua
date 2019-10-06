@@ -1509,7 +1509,7 @@ NMilitary = {
 },
 
 NTechnology = {
-	DONT_EXECUTE_TECH_BEFORE = 400,				-- Set this to your earliest starting year
+	DONT_EXECUTE_TECH_BEFORE = 495,				-- Set this to your earliest starting year
 	POINTS_PER_ATTRIBUTE = 0.04,
 
 	BASE_NEIGHBOUR_SPREAD_BONUS = 0.03, 		-- bonus for each neighbour with the tech
@@ -1519,8 +1519,8 @@ NTechnology = {
 	TRADEPOST_SPREAD_BONUS = 0.002, 			-- Spread from trade posts
 	SPYACTION_SPREAD_BONUS = 0.006,				-- Spread from the target of the study technology spymaster action
 
-	IDEAL_YEAR_LEVEL_0 = 400, 					-- the chance to get a progress to this level will increase after this date and decrease before it
-	IDEAL_YEAR_LEVEL_8 = 1500,
+	IDEAL_YEAR_LEVEL_0 = 495, 					-- the chance to get a progress to this level will increase after this date and decrease before it
+	IDEAL_YEAR_LEVEL_8 = 1252,
 	IDEAL_YEAR_AHEAD_PENALTY_INVEST = 0.6,		-- Percent increase in cost pre level ahead of ideal date
 
 	PAGAN_HOME_ATTRITION_REMOVAL_LEVEL = 4.0,
@@ -1580,7 +1580,7 @@ NEngine = {
 	EVENT_PROCESS_OFFSET = 20, 	 -- Events are checked every X day per character or province (1 is ideal, but CPU heavy). Max value of 255
 	COURTIER_EVENT_PROCESS_OFFSET = 50, 	 -- Events are checked every X day for courtiers. Max value of 255
 	COURTIERS_MTTTH_EVENTS = 1,  -- Toggles if courtiers are allowed to run MTTH events or not
-	MISSING_SCRIPTED_SUCCESSOR_ERROR_CUTOFF_YEAR = 400, -- The missing scripted successor error will not be shown before this date
+	MISSING_SCRIPTED_SUCCESSOR_ERROR_CUTOFF_YEAR = 495, -- The missing scripted successor error will not be shown before this date
 	MISSING_SCRIPTED_SUCCESSOR_ERROR_CUTOFF_MONTH = 1,
 	MISSING_SCRIPTED_SUCCESSOR_ERROR_CUTOFF_DAY = 1,
 	COURT_PRUNE_SIZE = 10, 				-- Courts larger than this will be checked for pruning each month
@@ -1849,7 +1849,7 @@ NRulerDesigner =
 
 NLearningScenario =
 {
-	START_YEAR = 400,
+	START_YEAR = 495,
 	START_MONTH = 1,
 	START_DAY = 1,
 	START_CHARACTER = 108500,

@@ -159,6 +159,9 @@
 	culture = macedonian
 	father = 402
 	mother = 3
+
+	dna = dbajcjbdcbd
+	properties = al0be000000
 	
 	add_trait = skilled_tactician
 	add_trait = kind
