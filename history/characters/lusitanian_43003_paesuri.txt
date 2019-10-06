@@ -17,6 +17,8 @@
 	dynasty = 43003
 	culture = lusitanian
 	religion = lusitanian_main
+
+	father = 430201
 	
 	430.1.1 = { # 346 BC, Made up
 		birth="yes"

@@ -1,0 +1,20 @@
+# 84 - Oichalia
+
+# County Title
+title = c_oichalia
+
+# Settlements
+max_settlements = 5
+b_oichalia_oichalia = castle
+b_oichalia1_oichalia = temple
+b_oichalia2_oichalia = city
+#b_oichalia3_oichalia = castle
+#b_oichalia4_oichalia = temple
+#b_oichalia5_oichalia = city
+#b_oichalia6_oichalia = castle
+
+# Misc
+culture = doric
+religion = greek_main
+
+# History

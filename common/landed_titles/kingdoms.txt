@@ -3767,17 +3767,17 @@ k_macedon = {
 		color= { 200 100 25 }
 		color2= { 255 255 255 }
 		
-		c_orestis = {
+		c_lyncestis = {
 			color= { 200 100 25 }
 			color2= { 255 255 255 }
 			
-			b_heracleia_lyncestis_orestis = {
+			b_heracleia_lyncestis = {
 			}
-			b_lychnidos_orestis = {
+			b_lychnidos_lyncestis = {
 			}
-			b_stuberra_orestis = {
+			b_stuberra_lyncestis = {
 			}
-			b_pelagonia_orestis = {
+			b_pelagonia_lyncestis = {
 			}
 		}
 		c_pyli = {
@@ -3789,6 +3789,25 @@ k_macedon = {
 			b_keletron_pyli = {
 			}
 			b_eratyra_pyli = {
+			}
+		}
+		c_orestis = {
+			color= { 203 52 216 }
+			color2= { 255 255 255 }			
+			
+			b_orestis_orestis = {
+			}
+			b_orestis1_orestis = {
+			}
+			b_orestis2_orestis = {
+			}
+			b_orestis3_orestis = {
+			}
+			b_orestis4_orestis = {
+			}
+			b_orestis5_orestis = {
+			}
+			b_orestis6_orestis = {
 			}
 		}
 	}
@@ -4537,6 +4556,25 @@ k_greece = {
 			b_tyrrheion_stratus = {
 			}
 			b_oiniadai_stratus = {
+			}
+		}
+		c_oichalia = {
+			color= { 56 56 37 }
+			color2= { 255 255 255 }
+		
+			b_oichalia_oichalia = {
+			}
+			b_oichalia1_oichalia = {
+			}
+			b_oichalia2_oichalia = {
+			}
+			b_oichalia3_oichalia = {
+			}
+			b_oichalia4_oichalia = {
+			}
+			b_oichalia5_oichalia = {
+			}
+			b_oichalia6_oichalia = {
 			}
 		}
 	}
