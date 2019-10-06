@@ -4,6 +4,9 @@
 437.1.1 = { # 339 BC
 	holder = 280502 # Catubrini
 }
-390.1.1 = { # 286 BC
+446.1.1 = { # 286 BC
 	holder = 280503 # Catubrini
+}
+490.1.1 = {
+	holder = 280504 # Catubrini
 }

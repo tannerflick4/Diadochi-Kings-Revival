@@ -1,0 +1,47 @@
+# Exclusives
+nick_gonatas = { # Of Gonnoi ( Antigonus II Gonatas )
+}
+# Assigned by event
+nick_ktistes = { # The Builder (  Mithridates I of Pontus )
+}
+nick_nikator = { # The Victor ( Seleucus I )
+}
+nick_philadelphos = { # The Brother-Loving ( Ptolemy II )
+}
+nick_philometor = { # The Mother-Loving ( Ptolemy VI )
+}
+nick_philopator = { # The Father-Loving ( Ptolemy IV )
+}
+nick_poliorketes = { # The Besieger ( Demetrius I )
+}
+nick_soter = {
+}
+# Normals
+nick_epiphanes = { # The Glorious ( Ptolemy V, Antiochus IV )
+}
+nick_euergetes = { # The Benefactor ( Ptolemy III )
+}
+nick_keraunos = { # The Lightning Bolt ( Ptolemy Keraunos )
+	
+}
+nick_monophthalmos = { # The One Eyed ( Antigonus I )
+	allow = {
+		culture_group = hellenic
+		trait = maimed
+		NOT = {
+			trait = blinded
+		}
+	}
+	chance = {
+		factor = 1
+	}
+}
+nick_physkon = { # The Sausage, Potbelly ( Ptolemy VIII )
+	allow = {
+		culture_group = hellenic
+		trait = gluttonous
+	}
+	chance = {
+		factor = 1
+	}
+}
