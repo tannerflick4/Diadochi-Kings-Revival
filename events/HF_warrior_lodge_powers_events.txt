@@ -4359,156 +4359,156 @@ character_event = {
 	}
 }
 #on_startup event giving tattoos to Grand Masters/Veterans of the Warrior Lodges who have them.
-character_event = {
-	id = HF.25070
-	hide_window = yes
+# character_event = {
+	# id = HF.25070
+	# hide_window = yes
 
-	is_triggered_only = yes
+	# is_triggered_only = yes
 
-	trigger = { 
-		is_save_game = no
-		society_rank = 3
-		ai = yes
-		is_ruler = no
-		OR = { 
-			society_member_of = warrior_lodge_norse
-			society_member_of = warrior_lodge_baltic
-			society_member_of = warrior_lodge_slavic
-			society_member_of = warrior_lodge_west_african
-		}
-		NOR = { 
-			trait = african_tattoo_1
-			trait = african_tattoo_2
-			trait = african_tattoo_3
-			trait = african_tattoo_4
-			trait = african_tattoo_5
-			trait = african_tattoo_6
-			trait = african_tattoo_7
-			trait = african_tattoo_8
-			trait = african_tattoo_9
-			trait = african_tattoo_10
-			trait = african_tattoo_11
-			trait = african_tattoo_12
-			trait = norse_tattoo_1
-			trait = norse_tattoo_2
-			trait = norse_tattoo_3
-			trait = norse_tattoo_4
-			trait = norse_tattoo_5
-			trait = norse_tattoo_6
-			trait = slavic_tattoo_1
-			trait = slavic_tattoo_2
-			trait = slavic_tattoo_3
-			trait = slavic_tattoo_4
-			trait = slavic_tattoo_5
-			trait = slavic_tattoo_6
-		}
-	}
+	# trigger = { 
+		# is_save_game = no
+		# society_rank = 3
+		# ai = yes
+		# is_ruler = no
+		# OR = { 
+			# society_member_of = warrior_lodge_norse
+			# society_member_of = warrior_lodge_baltic
+			# society_member_of = warrior_lodge_slavic
+			# society_member_of = warrior_lodge_west_african
+		# }
+		# NOR = { 
+			# trait = african_tattoo_1
+			# trait = african_tattoo_2
+			# trait = african_tattoo_3
+			# trait = african_tattoo_4
+			# trait = african_tattoo_5
+			# trait = african_tattoo_6
+			# trait = african_tattoo_7
+			# trait = african_tattoo_8
+			# trait = african_tattoo_9
+			# trait = african_tattoo_10
+			# trait = african_tattoo_11
+			# trait = african_tattoo_12
+			# trait = norse_tattoo_1
+			# trait = norse_tattoo_2
+			# trait = norse_tattoo_3
+			# trait = norse_tattoo_4
+			# trait = norse_tattoo_5
+			# trait = norse_tattoo_6
+			# trait = slavic_tattoo_1
+			# trait = slavic_tattoo_2
+			# trait = slavic_tattoo_3
+			# trait = slavic_tattoo_4
+			# trait = slavic_tattoo_5
+			# trait = slavic_tattoo_6
+		# }
+	# }
 
-	immediate = { 
-		if = {
-			limit = { society_member_of = warrior_lodge_west_african }
+	# immediate = { 
+		# if = {
+			# limit = { society_member_of = warrior_lodge_west_african }
 
-			random_list = { 
-				25 = { 
-					trigger = { NOT = { society_rank = 4 } }
-					add_trait = african_tattoo_1
-				}
-				25 = { 
-					trigger = { NOT = { society_rank = 4 } }
-					add_trait = african_tattoo_2
-				}
-				25 = { 
-					trigger = { NOT = { society_rank = 4 } }
-					add_trait = african_tattoo_3
-				}
-				25 = { 
-					trigger = { NOT = { society_rank = 4 } }
-					add_trait = african_tattoo_4
-				}
-				25 = { 
-					trigger = { society_rank = 4 }
-					add_trait = african_tattoo_5
-				}
-				25 = { 
-					trigger = { society_rank = 4 }
-					add_trait = african_tattoo_6
-				}
-				25 = { 
-					trigger = { society_rank = 4 }
-					add_trait = african_tattoo_7
-				}
-				25 = { 
-					trigger = { society_rank = 4 }
-					add_trait = african_tattoo_8
-				}
-			}
-		}
-		if = {
-			limit = { society_member_of = warrior_lodge_norse }
+			# random_list = { 
+				# 25 = { 
+					# trigger = { NOT = { society_rank = 4 } }
+					# add_trait = african_tattoo_1
+				# }
+				# 25 = { 
+					# trigger = { NOT = { society_rank = 4 } }
+					# add_trait = african_tattoo_2
+				# }
+				# 25 = { 
+					# trigger = { NOT = { society_rank = 4 } }
+					# add_trait = african_tattoo_3
+				# }
+				# 25 = { 
+					# trigger = { NOT = { society_rank = 4 } }
+					# add_trait = african_tattoo_4
+				# }
+				# 25 = { 
+					# trigger = { society_rank = 4 }
+					# add_trait = african_tattoo_5
+				# }
+				# 25 = { 
+					# trigger = { society_rank = 4 }
+					# add_trait = african_tattoo_6
+				# }
+				# 25 = { 
+					# trigger = { society_rank = 4 }
+					# add_trait = african_tattoo_7
+				# }
+				# 25 = { 
+					# trigger = { society_rank = 4 }
+					# add_trait = african_tattoo_8
+				# }
+			# }
+		# }
+		# if = {
+			# limit = { society_member_of = warrior_lodge_norse }
 
-			random_list = { 
-				25 = { 
-					trigger = { NOT = { society_rank = 4 } }
-					add_trait = norse_tattoo_1
-				}
-				25 = { 
-					trigger = { NOT = { society_rank = 4 } }
-					add_trait = norse_tattoo_2
-				}
-				25 = { 
-					trigger = { NOT = { society_rank = 4 } }
-					add_trait = norse_tattoo_3
-				}
-				25 = { 
-					trigger = { society_rank = 4 }
-					add_trait = norse_tattoo_4
-				}
-				25 = { 
-					trigger = { society_rank = 4 }
-					add_trait = norse_tattoo_5
-				}
-				25 = { 
-					trigger = { society_rank = 4 }
-					add_trait = norse_tattoo_6
-				}
-			}
-		}
-		if = {
-			limit = { 
-				OR = { 
-					society_member_of = warrior_lodge_slavic
-					society_member_of = warrior_lodge_baltic
-				}
-			}
-			random_list = { 
-				25 = { 
-					trigger = { NOT = { society_rank = 4 } }
-					add_trait = slavic_tattoo_1
-				}
-				25 = { 
-					trigger = { NOT = { society_rank = 4 } }
-					add_trait = slavic_tattoo_2
-				}
-				25 = { 
-					trigger = { NOT = { society_rank = 4 } }
-					add_trait = slavic_tattoo_3
-				}
-				25 = { 
-					trigger = { society_rank = 4 }
-					add_trait = slavic_tattoo_4
-				}
-				25 = { 
-					trigger = { society_rank = 4 }
-					add_trait = slavic_tattoo_5
-				}
-				25 = { 
-					trigger = { society_rank = 4 }
-					add_trait = slavic_tattoo_6
-				}
-			}
-		}
-	}
-}
+			# random_list = { 
+				# 25 = { 
+					# trigger = { NOT = { society_rank = 4 } }
+					# add_trait = norse_tattoo_1
+				# }
+				# 25 = { 
+					# trigger = { NOT = { society_rank = 4 } }
+					# add_trait = norse_tattoo_2
+				# }
+				# 25 = { 
+					# trigger = { NOT = { society_rank = 4 } }
+					# add_trait = norse_tattoo_3
+				# }
+				# 25 = { 
+					# trigger = { society_rank = 4 }
+					# add_trait = norse_tattoo_4
+				# }
+				# 25 = { 
+					# trigger = { society_rank = 4 }
+					# add_trait = norse_tattoo_5
+				# }
+				# 25 = { 
+					# trigger = { society_rank = 4 }
+					# add_trait = norse_tattoo_6
+				# }
+			# }
+		# }
+		# if = {
+			# limit = { 
+				# OR = { 
+					# society_member_of = warrior_lodge_slavic
+					# society_member_of = warrior_lodge_baltic
+				# }
+			# }
+			# random_list = { 
+				# 25 = { 
+					# trigger = { NOT = { society_rank = 4 } }
+					# add_trait = slavic_tattoo_1
+				# }
+				# 25 = { 
+					# trigger = { NOT = { society_rank = 4 } }
+					# add_trait = slavic_tattoo_2
+				# }
+				# 25 = { 
+					# trigger = { NOT = { society_rank = 4 } }
+					# add_trait = slavic_tattoo_3
+				# }
+				# 25 = { 
+					# trigger = { society_rank = 4 }
+					# add_trait = slavic_tattoo_4
+				# }
+				# 25 = { 
+					# trigger = { society_rank = 4 }
+					# add_trait = slavic_tattoo_5
+				# }
+				# 25 = { 
+					# trigger = { society_rank = 4 }
+					# add_trait = slavic_tattoo_6
+				# }
+			# }
+		# }
+	# }
+# }
 
 #Safety removal on_death and leave_society for Warriors of Ukko event troops.
 character_event = {

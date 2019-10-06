@@ -18,7 +18,7 @@
 	culture = berber
 	religion = berber_main
 
-	father = 260902
+	father = 260901
 
 	413.1.1 = { # 363 BC
 		birth="yes"
@@ -33,7 +33,7 @@
 	culture = berber
 	religion = berber_main
 
-	father = 260903
+	father = 260902
 
 	447.1.1 = { # 329 BC
 		birth="yes"
@@ -48,7 +48,7 @@
 	culture = berber
 	religion = berber_main
 
-	father = 260904
+	father = 260903
 
 	483.1.1 = { # 293 BC
 		birth="yes"

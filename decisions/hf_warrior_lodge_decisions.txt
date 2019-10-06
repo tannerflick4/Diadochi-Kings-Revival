@@ -839,61 +839,61 @@ targeted_decisions = {
 	}
 
 	#Power, rank 1 (Bon only): Toughness
-	warrior_toughness = {
-		is_in_society = yes
+	# warrior_toughness = {
+		# is_in_society = yes
 		
-		filter = self
-		ai_target_filter = self
-		ai_check_interval = 12
+		# filter = self
+		# ai_target_filter = self
+		# ai_check_interval = 12
 		
-		potential = {
-			character = FROM
-			has_dlc = "Holy Fury"
-			is_playable = yes
-			is_adult = yes
-			society_member_of = warrior_lodge_bon
-			society_rank = 1
-			NOT = { has_character_flag = using_toughness } #to stop you spamming the button
-		}
+		# potential = {
+			# character = FROM
+			# has_dlc = "Holy Fury"
+			# is_playable = yes
+			# is_adult = yes
+			# society_member_of = warrior_lodge_bon
+			# society_rank = 1
+			# NOT = { has_character_flag = using_toughness } #to stop you spamming the button
+		# }
 		
-		allow = {
-			has_society_currency_minor_trigger = yes
-			has_religion_matching_joined_warrior_lodge_trigger = yes
-			custom_tooltip = {
-				text = not_already_using_toughness_tt
-				NOT = { has_character_flag = using_toughness }
-			}
-			OR = {
-				trait = wounded
-				trait = severely_injured
-				trait = maimed
-				trait = mangled
-				trait = infection
-			}
-		}
+		# allow = {
+			# has_society_currency_minor_trigger = yes
+			# has_religion_matching_joined_warrior_lodge_trigger = yes
+			# custom_tooltip = {
+				# text = not_already_using_toughness_tt
+				# NOT = { has_character_flag = using_toughness }
+			# }
+			# OR = {
+				# trait = wounded
+				# trait = severely_injured
+				# trait = maimed
+				# trait = mangled
+				# trait = infection
+			# }
+		# }
 		
-		effect = {
-			hidden_tooltip = {
-				character_event = { id = HF.10055 } #Remove physical injury...
-			}
-			set_character_flag = using_toughness
-			detract_society_currency_minor_effect = yes
-		}
+		# effect = {
+			# hidden_tooltip = {
+				# character_event = { id = HF.10055 } #Remove physical injury...
+			# }
+			# set_character_flag = using_toughness
+			# detract_society_currency_minor_effect = yes
+		# }
 		
-		revoke_allowed = { always = no }
+		# revoke_allowed = { always = no }
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				trait = depressed
-			}
-			modifier = {
-				factor = 1.5
-				in_command = yes
-			}
-		}
-	}
+		# ai_will_do = {
+			# factor = 1
+			# modifier = {
+				# factor = 0
+				# trait = depressed
+			# }
+			# modifier = {
+				# factor = 1.5
+				# in_command = yes
+			# }
+		# }
+	# }
 
 	#Power, rank 4: Call to Glory
 	warrior_lodge_call_to_glory = {

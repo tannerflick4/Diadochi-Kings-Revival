@@ -576,7 +576,7 @@ society_decisions = {
 		
 		potential = {
 			is_monastic_member_trigger = yes
-			NOT = { society_member_of = monastic_order_stoics }
+			# NOT = { society_member_of = monastic_order_stoics }
 			OR = {
 				has_quest = quest_monastic_order_donate_to_charity
 				NOT = { has_character_modifier = recently_donated_to_charity}

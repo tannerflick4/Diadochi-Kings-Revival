@@ -174,7 +174,6 @@
 	dynasty = 9 # Argeadai
 	religion = greek_main
 	culture = macedonian
-	employer = 801 # Philip III
 	female = yes
 	father = 803 # Philip II
 	mother = 10011
@@ -186,6 +185,7 @@
 	}
 	453.6.10 = {
 		add_claim=e_macedonia
+		employer = 801 # Philip III
 	}
 	468.1.1 = { # 308 BC
 		death = {
