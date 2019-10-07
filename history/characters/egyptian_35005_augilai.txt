@@ -18,7 +18,7 @@
 	culture = egyptian
 	religion = kemetic
 
-	father = 350031
+	father = 350076
 
 	447.1.1 = { # 329 BC
 		birth="yes"
@@ -33,7 +33,7 @@
 	culture = egyptian
 	religion = kemetic
 
-	father = 350032
+	father = 350077
 
 	478.1.1 = { # 298 BC
 		birth="yes"

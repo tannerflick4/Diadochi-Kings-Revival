@@ -19,10 +19,8 @@ religion = thracian_main
 # History
 # Can be filled when things change around the province
 420.1.1 = { # 356 BC, Philip founds Philippi
-	#name = "Philippoi"
-	# ^ Doesn't seem to work properly. It assumes the name even before 420
-	b_philippi_crenides = castle
 	remove_settlement = b_crenides_crenides
+	b_philippi_crenides = castle
 	capital = b_philippi_crenides
 	culture = macedonian
 	religion = greek_main

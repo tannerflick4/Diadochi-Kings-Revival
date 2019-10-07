@@ -4,14 +4,14 @@
 title = c_thesprotia
 
 # Settlements
-max_settlements = 6 # Should be reevaluated
+max_settlements = 6
 b_thesprotia_thesprotia = castle
 b_thesprotia1_thesprotia = temple
 b_thesprotia2_thesprotia = city
 b_thesprotia3_thesprotia = castle
 b_thesprotia4_thesprotia = temple
 b_thesprotia5_thesprotia = city
-b_thesprotia6_thesprotia = castle
+#b_thesprotia6_thesprotia = castle
 
 # Misc
 culture = doric
