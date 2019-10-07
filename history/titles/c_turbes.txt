@@ -2,3 +2,7 @@
 	holder = 421202 # Sekilos
 	liege = d_turmodigi
 }
+466.1.1 = {
+	holder = 0
+	liege = 0
+}

@@ -2,3 +2,6 @@
 	holder = 421201 # Tirtanos
 	liege = d_vaccaei
 }
+466.1.1 = {
+	holder = 0
+}

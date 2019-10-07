@@ -157,7 +157,7 @@ k_epirus = {
 	color= { 0 175 75 }
 	color2= { 255 255 255 }
 	
-	capital = 29 # Ambracia
+	capital = 62 # Ambracia
 	
 	allow = {
 		culture = doric
@@ -222,6 +222,25 @@ k_epirus = {
 			b_orikon_amantia = {
 			}
 			b_kestria_amantia = {
+			}
+		}
+		c_thesprotia = {
+			color= { 25 24 56 }
+			color2= { 255 255 255 }
+			
+			b_thesprotia_thesprotia = {
+			}
+			b_thesprotia1_thesprotia = {
+			}
+			b_thesprotia2_thesprotia = {
+			}
+			b_thesprotia3_thesprotia = {
+			}
+			b_thesprotia4_thesprotia = {
+			}
+			b_thesprotia5_thesprotia = {
+			}
+			b_thesprotia6_thesprotia = {
 			}
 		}
 	}

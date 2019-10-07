@@ -2,3 +2,7 @@
 	holder = 420801 # Ultinos
 	liege = d_turduli
 }
+466.1.1 = {
+	holder = 0
+	liege = 0
+}

@@ -2,3 +2,7 @@
 	holder = 390801 # Armitalsko
 	liege = d_ilergetae
 }
+464.1.1 = {
+	holder = 0
+	liege = 0
+}

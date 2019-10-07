@@ -2,3 +2,7 @@
 	holder = 390101 # 
 	liege = d_lacetani
 }
+467.1.1 = {
+	holder = 0
+	liege = 0
+}

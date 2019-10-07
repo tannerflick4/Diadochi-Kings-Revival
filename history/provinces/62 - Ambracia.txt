@@ -1,0 +1,20 @@
+# 62 - Ambracia
+
+# County Title
+title = c_ambracia
+
+# Settlements
+max_settlements = 6 # Should be reevaluated
+b_ambracia_ambracia = castle
+b_ephyra_ambracia = temple
+b_nicopolis_ambracia = city
+b_ambracus_ambracia = castle
+#b_kassiope_ambracia = temple
+#b_pandosia_ambracia = city
+#b_euroia_ambracia = castle
+
+# Misc
+culture = doric
+religion = greek_main
+
+# History
