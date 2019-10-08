@@ -1632,7 +1632,6 @@ character_event = {
 							OR = {
 								trait = mystic
 								trait = scholar
-								trait = faqih
 								trait = theologian
 							}
 							persistent_event_target:sway_target = {

@@ -1,12 +1,4 @@
-nick_chakravartin = {
-	allow = {
-		trait = chakravartin
-	}
-	
-	chance = {
-		factor = 5
-	}
-}
+nick_chakravartin = {}
 
 nick_the_animal_protector = {
 	allow = {
@@ -15,7 +7,7 @@ nick_the_animal_protector = {
 			religion = jainism_main
 			religion = buddhism_main
 		}
-		trait = vegetarian
+		# trait = vegetarian
 		OR = {
 			trait = kind
 			trait = zealous
@@ -88,10 +80,10 @@ nick_the_awakened = {
 			religion = jainism_main
 			religion = buddhism_main
 		}
-		OR = {
-			trait = retreat_veteran
-			trait = retreat_master
-		}
+		# OR = {
+			# trait = retreat_veteran
+			# trait = retreat_master
+		# }
 		OR = {
 			trait = kind
 			trait = zealous
@@ -126,10 +118,10 @@ nick_the_realized = {
 			religion = jainism_main
 			religion = buddhism_main
 		}
-		OR = {
-			trait = retreat_veteran
-			trait = retreat_master
-		}
+		# OR = {
+			# trait = retreat_veteran
+			# trait = retreat_master
+		# }
 		OR = {
 			trait = kind
 			trait = zealous
@@ -276,8 +268,8 @@ nick_the_sage = {
 		OR = {
 			trait = genius
 			trait = quick
-			trait = retreat_master
-			trait = retreat_veteran
+			# trait = retreat_master
+			# trait = retreat_veteran
 			trait = scholar
 		}
 		NOT = { trait = cruel }

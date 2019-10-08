@@ -954,7 +954,7 @@ character_event = {
 		trigger = {
 			religion = zoroastrian_main
 			religion = judaism_main
-			NOT = { trait = Lunatic }
+			NOT = { trait = lunatic }
 		}
 	}
 	desc = {

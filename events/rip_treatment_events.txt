@@ -5588,15 +5588,6 @@ character_event = {
 				}
 				
 				if = {
-					limit = {	#horse
-						FROM = {
-							culture = horse
-						}	
-					}
-					set_character_flag = EVTDESC_RIP_11045_has_dysentery_flag_horse
-					break = yes
-				}
-				if = {
 					limit = {
 						has_character_flag = correct_diagnosis #Really good doctors know for sure
 						FROM = {

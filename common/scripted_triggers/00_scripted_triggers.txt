@@ -2297,40 +2297,7 @@ is_murder_quest_target_of_root_trigger = {
 }
 
 assassins_appropriate_target_trigger = {
-	is_within_diplo_range = ROOT
-	is_adult = yes
-	is_quest_target = no
-
-	OR = {
-		is_ruler = no
-		AND = {
-			ROOT = {
-				society_rank = {
-					rank == 3
-					society = the_assassins
-				}
-			}
-			primary_title = { higher_real_tier_than = COUNT }
-		}
-		AND = {
-			ROOT = {
-				society_rank = {
-					rank == 2
-					society = the_assassins
-				}
-			}
-			primary_title = { lower_real_tier_than = EMPEROR }
-		}
-		AND = {
-			ROOT = {
-				society_rank = {
-					rank == 1
-					society = the_assassins
-				}
-			}
-			primary_title = { lower_real_tier_than = DUKE }
-		}
-	}
+	always = no
 }
 
 interesting_face_trigger = {
@@ -4473,12 +4440,7 @@ likes_altaics = {
 	culture_group = altaic
 }
 likes_balto_slavics = {
-	OR = {
-		culture_group = baltic
-		culture_group = east_slavic
-		culture_group = west_slavic
-		culture_group = south_slavic
-	}
+	always = no # Unused
 }
 likes_arabs = {
 	culture_group = arabic
@@ -4487,13 +4449,10 @@ likes_iranians = {
 	culture_group = iranian
 }
 likes_africans = {
-	OR = {
-		culture_group = west_african
-		culture_group = east_african
-	}
+	always = no # Unused
 }
 likes_mesoamericans = {
-	culture_group = mesoamerican
+	always = no # Unused
 }
 likes_muslims = {
 	always = no # Unused
@@ -6951,13 +6910,7 @@ any_neighbor_province_has_light_rain_trigger = {
 }
 
 varangian_guard_events_default_trigger = {
-	ai = yes
-	age = 16
-	is_incapable = no
-	prisoner = no
-	culture_group = north_germanic
-	has_character_flag = serving_varangian
-	has_dlc = "The Old Gods"
+	always = no # Unused
 }
 
 
@@ -6976,15 +6929,5 @@ ere_elective_politician_titles_trigger = { #Used in Imperial Elective to determi
 }
 
 is_mongol_empire_leader_trigger = {
-	OR = {
-		has_landed_title = e_il-khanate
-		has_landed_title = e_golden_horde
-		has_landed_title = e_mongol_empire
-		liege = { has_landed_title = e_il-khanate }
-		liege = { has_landed_title = e_golden_horde }
-		liege = { has_landed_title = e_mongol_empire }
-		top_liege = { has_landed_title = e_il-khanate }
-		top_liege = { has_landed_title = e_golden_horde }
-		top_liege = { has_landed_title = e_mongol_empire }
-	}
+	always = no # Unused
 }

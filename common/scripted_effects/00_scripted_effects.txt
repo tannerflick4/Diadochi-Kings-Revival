@@ -12743,7 +12743,7 @@ root_secret_religion_provinces_convert_effect = {
 	# TODO: Secret religions
 }
 
-random_coronation_events_effect = { commented out until we add coronations
+random_coronation_events_effect = { # commented out until we add coronations
 } 
 
 troubled_pregnancy_chance_low_effect = { 
