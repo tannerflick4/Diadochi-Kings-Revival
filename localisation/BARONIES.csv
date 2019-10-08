@@ -161,7 +161,7 @@ b_orikon_amantia;Orikon;;;;;;;;;;;;;;x
 b_kestria_amantia;Kestria;;;;;;;;;;;;;;x
 b_lamia_lamia;Lamia;;;;;;;;;;;;;;x
 b_kourope_lamia;Kourope;;;;;;;;;;;;;;x
-b_pharsalus_lamia;Pharsalus;;;;;;;;;;;;;;x
+b_lamia1_lamia;Lamia;;;;;;;;;;;;;;x
 b_pherai_lamia;Pherai;;;;;;;;;;;;;;x
 b_proerna_lamia;Proerna;;;;;;;;;;;;;;x
 b_demetrias_lamia;Demetrias;;;;;;;;;;;;;;x
@@ -282,7 +282,7 @@ b_beue_parthus;Beue;;;;;;;;;;;;;;x
 b_scodra;Scodra;;;;;;;;;;;;;;x
 b_stobi_stobi;Stobi;;;;;;;;;;;;;;x
 b_heracleia_stobi;Herakleia;;;;;;;;;;;;;;x
-b_bylazora_stobi;Bylazora;;;;;;;;;;;;;;x
+b_stobi1_stobi;Stobi;;;;;;;;;;;;;;x
 b_suberra_stobi;Suberra;;;;;;;;;;;;;;x
 b_rhizon;Rhizon;;;;;;;;;;;;;;x
 b_astraion;Astraion;;;;;;;;;;;;;;x
@@ -3398,3 +3398,17 @@ b_thesprotia3_thesprotia;Thesprotia;;;;;;;;;;;x
 b_thesprotia4_thesprotia;Thesprotia;;;;;;;;;;;x
 b_thesprotia5_thesprotia;Thesprotia;;;;;;;;;;;x
 b_thesprotia6_thesprotia;Thesprotia;;;;;;;;;;;x
+b_pharsalus_pharsalus;Pharsalus;;;;;;;;;;;x
+b_pharsalus1_pharsalus;Pharsalus;;;;;;;;;;;x
+b_pharsalus2_pharsalus;Pharsalus;;;;;;;;;;;x
+b_pharsalus3_pharsalus;Pharsalus;;;;;;;;;;;x
+b_pharsalus4_pharsalus;Pharsalus;;;;;;;;;;;x
+b_pharsalus5_pharsalus;Pharsalus;;;;;;;;;;;x
+b_pharsalus6_pharsalus;Pharsalus;;;;;;;;;;;x
+b_bylazora_bylazora;Bylazora;;;;;;;;;;;x
+b_bylazora1_bylazora;Bylazora;;;;;;;;;;;x
+b_bylazora2_bylazora;Bylazora;;;;;;;;;;;x
+b_bylazora3_bylazora;Bylazora;;;;;;;;;;;x
+b_bylazora4_bylazora;Bylazora;;;;;;;;;;;x
+b_bylazora5_bylazora;Bylazora;;;;;;;;;;;x
+b_bylazora6_bylazora;Bylazora;;;;;;;;;;;x

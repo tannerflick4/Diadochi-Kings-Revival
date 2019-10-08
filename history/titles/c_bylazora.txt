@@ -1,0 +1,17 @@
+417.1.1 = {
+	holder = 140003 # Bardyllis
+	liege = d_dardania
+}
+418.1.1 = {
+	holder = 150005
+	liege = d_paeonia
+}
+436.1.1 = {
+	holder = 150001
+}
+461.1.1 = {
+	holder = 150002 # Audoleon
+}
+491.1.1 = {
+	holder = 150003 # Ariston
+}

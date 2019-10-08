@@ -1,0 +1,20 @@
+# 293 - Bylazora
+
+# County Title
+title = c_bylazora
+
+# Settlements
+max_settlements = 4
+b_bylazora_bylazora = castle
+b_bylazora1_bylazora = city
+b_bylazora2_bylazora = temple
+b_bylazora3_bylazora = castle
+#b_bylazora4_bylazora = city
+#b_bylazora5_bylazora = temple
+#b_bylazora6_bylazora = castle
+
+# Misc
+culture = paeonian
+religion = illyrian_main
+
+# History

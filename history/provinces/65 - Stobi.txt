@@ -6,7 +6,7 @@ title = c_stobi # for example c_corinth
 # Settlements
 max_settlements = 4
 b_stobi_stobi = castle
-b_bylazora_stobi = city
+b_stobi1_stobi = city
 b_gurbita_stobi = castle
 b_bargala_stobi = city
 

@@ -447,17 +447,17 @@ k_odrysia = {
 			
 			b_oescus_oescus = {
 			}
-			b_oescus1_oescus = { # needs name
+			b_oescus1_oescus = {
 			}
-			b_oescus2_oescus = { # needs name
+			b_oescus2_oescus = {
 			}
-			b_oescus3_oescus = { # needs name
+			b_oescus3_oescus = {
 			}
-			b_oescus4_oescus = { # needs name
+			b_oescus4_oescus = {
 			}
-			b_oescus5_oescus = { # needs name
+			b_oescus5_oescus = {
 			}
-			b_oescus6_oescus = { # needs name
+			b_oescus6_oescus = {
 			}
 		}
 		c_novae = {
@@ -466,17 +466,17 @@ k_odrysia = {
 			
 			b_novae_novae = {
 			}
-			b_novae1_novae = { # needs name
+			b_novae1_novae = {
 			}
-			b_novae2_novae = { # needs name
+			b_novae2_novae = {
 			}
-			b_novae3_novae = { # needs name
+			b_novae3_novae = {
 			}
-			b_novae4_novae = { # needs name
+			b_novae4_novae = {
 			}
-			b_novae5_novae = { # needs name
+			b_novae5_novae = {
 			}
-			b_novae6_novae = { # needs name
+			b_novae6_novae = {
 			}
 		}
 	}
@@ -4024,7 +4024,7 @@ k_illyria = {
 				
 			b_stobi_stobi = {
 			}
-			b_bylazora_stobi = {
+			b_stobi1_stobi = {
 			}						
 			b_gurbita_stobi = {
 			}
@@ -4042,6 +4042,25 @@ k_illyria = {
 			b_burgaraca_serdika = {
 			}
 			b_meldia_serdika = {
+			}
+		}
+		c_bylazora = {
+			color= { 84 74 107 }
+			color2= { 255 255 255 }
+				
+			b_bylazora_bylazora = {
+			}
+			b_bylazora1_bylazora = {
+			}
+			b_bylazora2_bylazora = {
+			}
+			b_bylazora3_bylazora = {
+			}
+			b_bylazora4_bylazora = {
+			}
+			b_bylazora5_bylazora = {
+			}
+			b_bylazora6_bylazora = {
 			}
 		}
 	}
@@ -4769,7 +4788,7 @@ k_greece = {
 		
 			b_lamia_lamia = {
 			}
-			b_pharsalus_lamia = {
+			b_lamia1_lamia = {
 			}
 			b_pherai_lamia = {
 			}
@@ -4819,6 +4838,25 @@ k_greece = {
 			b_rhizous_magnesia = {
 			}
 			b_demetrias_magnesia = {
+			}
+		}
+		c_pharsalus = {
+			color= { 58 22 22 }
+			color2= { 255 255 255 }
+		
+			b_pharsalus_pharsalus = {
+			}
+			b_pharsalus1_pharsalus = {
+			}
+			b_pharsalus2_pharsalus = {
+			}
+			b_pharsalus3_pharsalus = {
+			}
+			b_pharsalus4_pharsalus = {
+			}
+			b_pharsalus5_pharsalus = {
+			}
+			b_pharsalus6_pharsalus = {
 			}
 		}
 	}
