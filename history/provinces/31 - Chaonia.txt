@@ -1,0 +1,20 @@
+# 31 - Chaonia
+
+# County Title
+title = c_chaonia
+
+# Settlements
+max_settlements = 5
+b_chaonia_chaonia = castle
+b_phoinike_chaonia = temple
+b_chimaira_chaonia = city
+b_omphalion_chaonia = castle
+#b_onchesmos_chaonia = temple
+#b_orikon_chaonia = city
+#b_kestria_chaonia = castle
+
+# Misc
+culture = doric
+religion = greek_main
+
+# History

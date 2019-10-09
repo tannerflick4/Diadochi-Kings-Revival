@@ -205,23 +205,23 @@ k_epirus = {
 			b_passaron_ilium = {
 			}
 		}
-		c_amantia = {
+		c_chaonia = {
 			color= { 0 185 65 }
 			color2= { 255 255 255 }
 			
-			b_amantia_amantia = {
+			b_chaonia_chaonia = {
 			}
-			b_phoinike_amantia = {
+			b_phoinike_chaonia = {
 			}
-			b_chimaira_amantia = {
+			b_chimaira_chaonia = {
 			}
-			b_omphalion_amantia = {
+			b_omphalion_chaonia = {
 			}
-			b_onchesmos_amantia = {
+			b_onchesmos_chaonia = {
 			}
-			b_orikon_amantia = {
+			b_orikon_chaonia = {
 			}
-			b_kestria_amantia = {
+			b_kestria_chaonia = {
 			}
 		}
 		c_thesprotia = {
@@ -241,6 +241,25 @@ k_epirus = {
 			b_thesprotia5_thesprotia = {
 			}
 			b_thesprotia6_thesprotia = {
+			}
+		}
+		c_amantia = {
+			color= { 142 47 45 }
+			color2= { 255 255 255 }
+			
+			b_amantia_amantia = {
+			}
+			b_amantia1_amantia = {
+			}
+			b_amantia2_amantia = {
+			}
+			b_amantia3_amantia = {
+			}
+			b_amantia4_amantia = {
+			}
+			b_amantia5_amantia = {
+			}
+			b_amantia6_amantia = {
 			}
 		}
 	}
@@ -4553,15 +4572,15 @@ k_greece = {
 		color= { 100 225 225 }
 		color2= { 255 255 255 }
 		
-		c_malis = {
+		c_trachis = {
 			color= { 100 215 215 }
 			color2= { 255 255 255 }
 			
-			b_trachis_malis = {
+			b_trachis_trachis = {
 			}
-			b_chaleion_malis = {
+			b_chaleion_trachis = {
 			}
-			b_naupactus_malis = {
+			b_naupactus_trachis = {
 			}
 		}		
 		c_thermos = {
@@ -4613,6 +4632,25 @@ k_greece = {
 			b_oichalia5_oichalia = {
 			}
 			b_oichalia6_oichalia = {
+			}
+		}
+		c_malis = {
+			color= { 56 49 58 }
+			color2= { 255 255 255 }
+		
+			b_malis_malis = {
+			}
+			b_malis1_malis = {
+			}
+			b_malis2_malis = {
+			}
+			b_malis3_malis = {
+			}
+			b_malis4_malis = {
+			}
+			b_malis5_malis = {
+			}
+			b_malis6_malis = {
 			}
 		}
 	}

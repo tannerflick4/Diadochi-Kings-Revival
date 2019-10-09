@@ -1,0 +1,20 @@
+# 629 - Malis
+
+# County Title
+title = c_malis
+
+# Settlements
+max_settlements = 3
+b_malis_malis = castle
+b_malis1_malis = temple
+b_malis2_malis = city
+#b_malis3_malis = castle
+#b_malis4_malis = temple
+#b_malis5_malis = city
+#b_malis6_malis = castle
+
+# Misc
+culture = doric
+religion = greek_main
+
+# History

@@ -1,0 +1,16 @@
+# 629 - Trachis
+
+# County Title
+title = c_trachis
+
+# Settlements
+max_settlements = 3
+b_trachis_trachis = castle
+b_chaleion_trachis = temple
+b_naupactus_trachis = city
+
+# Misc
+culture = doric
+religion = greek_main
+
+# History

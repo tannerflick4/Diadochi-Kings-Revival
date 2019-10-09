@@ -1,0 +1,20 @@
+# 43 - Amantia
+
+# County Title
+title = c_amantia
+
+# Settlements
+max_settlements = 5
+b_amantia_amantia = castle
+b_amantia1_amantia = temple
+b_amantia2_amantia = city
+b_amantia3_amantia = castle
+#b_amantia4_amantia = temple
+#b_amantia5_amantia = city
+#b_amantia6_amantia = castle
+
+# Misc
+culture = doric
+religion = greek_main
+
+# History
