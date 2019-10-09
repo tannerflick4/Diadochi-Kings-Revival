@@ -1,0 +1,20 @@
+# 299 - Pistoros
+
+# County Title
+title = c_pistoros
+
+# Settlements
+max_settlements = 4
+b_pistoros_pistoros = castle
+b_pistoros1_pistoros = city
+b_pistoros2_pistoros = temple
+b_pistoros3_pistoros = castle
+#b_pistoros4_pistoros = city
+#b_pistoros5_pistoros = temple
+#b_pistoros6_pistoros = castle
+
+# Misc
+culture = thracian
+religion = thracian_main
+
+# History

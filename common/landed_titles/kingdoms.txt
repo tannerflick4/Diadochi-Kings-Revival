@@ -612,6 +612,44 @@ k_odrysia = {
 			b_neapolis6_neapolis_samothrace = {
 			}
 		}
+		c_scaptobara = {
+			color= { 107 98 40 }
+			color2= { 255 255 255 }
+						
+			b_scaptobara_scaptobara = {
+			}
+			b_scaptobara1_scaptobara = {
+			}
+			b_scaptobara2_scaptobara = {
+			}
+			b_scaptobara3_scaptobara = {
+			}
+			b_scaptobara4_scaptobara = {
+			}
+			b_scaptobara5_scaptobara = {
+			}
+			b_scaptobara6_scaptobara = {
+			}
+		}
+		c_pistoros = {
+			color= { 185 80 206 }
+			color2= { 255 255 255 }
+						
+			b_pistoros_pistoros = {
+			}
+			b_pistoros1_pistoros = {
+			}
+			b_pistoros2_pistoros = {
+			}
+			b_pistoros3_pistoros = {
+			}
+			b_pistoros4_pistoros = {
+			}
+			b_pistoros5_pistoros = {
+			}
+			b_pistoros6_pistoros = {
+			}
+		}
 	}
 	d_propontis = {
 		color= { 150 75 25 }
@@ -3931,6 +3969,25 @@ k_illyria = {
 			b_runica_dardani = {
 			}
 			b_socanica_dardani = {
+			}
+		}
+		c_uscana = {
+			color= { 104 38 35 }
+			color2= { 255 255 255 }
+			
+			b_uscana_uscana = {
+			}
+			b_uscana1_uscana = {
+			}
+			b_uscana2_uscana = {
+			}
+			b_uscana3_uscana = {
+			}
+			b_uscana4_uscana = {
+			}
+			b_uscana5_uscana = {
+			}
+			b_uscana6_uscana = {
 			}
 		}
 	}
