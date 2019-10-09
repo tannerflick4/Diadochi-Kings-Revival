@@ -524,7 +524,36 @@ k_odrysia = {
 			}
 			b_dikaia_abdera = {
 			}
+		}
+		c_oraion = {
+			color= { 105 55 30 }
+			color2= { 255 255 255 }
+						
+			b_oraion_oraion = {
+			}
+			b_topeiros_oraion = {
+			}
+			b_porsulae_oraion = {
+			}			
 		}		
+		c_zervae = {
+			color= { 125 50 25 }
+			color2= { 255 255 255 }
+			
+			b_zervae_zervae = {
+			}
+			b_plotinoupolis_zervae = {
+			}
+			b_dymae_zervae = {
+			}
+		}
+	}
+	d_pangaion = {
+		color = { 145 35 25 }
+		color2= { 255 255 255 }
+		
+		capital = 36 # Amphipolis
+		
 		c_amphipolis = {
 			color= { 145 40 35 }
 			color2= { 255 255 255 }
@@ -549,17 +578,6 @@ k_odrysia = {
 			b_alyke_thasos = {
 			}
 		}
-		c_oraion = {
-			color= { 105 55 30 }
-			color2= { 255 255 255 }
-						
-			b_oraion_oraion = {
-			}
-			b_topeiros_oraion = {
-			}
-			b_porsulae_oraion = {
-			}			
-		}
 		c_crenides = {
 			color= { 125 50 25 }
 			color2= { 255 255 255 }
@@ -574,16 +592,24 @@ k_odrysia = {
 			}	
 			b_philippi_crenides = {
 			}
-		}			
-		c_zervae = {
-			color= { 125 50 25 }
+		}
+		c_neapolis_samothrace = {
+			color= { 107 68 83 }
 			color2= { 255 255 255 }
-			
-			b_zervae_zervae = {
+						
+			b_neapolis_neapolis_samothrace = {
 			}
-			b_plotinoupolis_zervae = {
+			b_neapolis1_neapolis_samothrace = {
 			}
-			b_dymae_zervae = {
+			b_neapolis2_neapolis_samothrace = {
+			}
+			b_neapolis3_neapolis_samothrace = {
+			}
+			b_neapolis4_neapolis_samothrace = {
+			}
+			b_neapolis5_neapolis_samothrace = {
+			}
+			b_neapolis6_neapolis_samothrace = {
 			}
 		}
 	}

@@ -8,7 +8,6 @@
 420.1.1 = { # 356 BC
 	holder = 803 # Philip II
 	liege = k_macedon
-	adjective = PHILIPPI_ADJ
 }
 426.1.1 = { # 350 BC
 	liege = e_macedonia

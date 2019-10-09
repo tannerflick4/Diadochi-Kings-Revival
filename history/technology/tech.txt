@@ -236,6 +236,7 @@ technology = {
 		d_odrysia
 		d_moesia
 		d_rhodope
+		d_pangaion
 		d_propontis
 		d_lowermacedon
 		d_uppermacedon
