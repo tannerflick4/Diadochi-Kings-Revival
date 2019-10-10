@@ -1,0 +1,20 @@
+# 267 - Albanopolis
+
+# County Title
+title = c_albanopolis
+
+# Settlements
+max_settlements = 4
+b_albanopolis_albanopolis = castle
+b_albanopolis1_albanopolis = city
+b_albanopolis2_albanopolis = temple
+b_albanopolis3_albanopolis = castle
+#b_albanopolis4_albanopolis = city
+#b_albanopolis5_albanopolis = temple
+#b_albanopolis6_albanopolis = castle
+
+# Misc
+culture = doric
+religion = greek_main
+
+# History

@@ -7,7 +7,7 @@ title = c_epidamnos # for example c_corinth
 max_settlements = 4
 b_epidamnos_epidamnos = castle
 b_lissus_epidamnos = city
-b_albanopolis_epidamnos = castle
+b_epidamnos1_epidamnos = castle
 b_clodiana_epidamnos = castle
 
 # Possible baronies: (Always add a # in front of a line with these!)

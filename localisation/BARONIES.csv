@@ -2292,7 +2292,7 @@ b_apollonia_apollonia_epidamnia;Apollonia;;;;;;;;;;;;;x;
 b_dimalion_apollonia_epidamnia;Dimalion;;;;;;;;;;;;;x;
 b_nikaia_apollonia_epidamnia;Nikaia;;;;;;;;;;;;;x;
 b_clodiana_epidamnos;Klodiana;;;;;;;;;;;;;x;
-b_albanopolis_epidamnos;Albanopolis;;;;;;;;;;;;;x;
+b_epidamnos1_epidamnos;Epidamnos;;;;;;;;;;;;;x;
 b_crenides_crenides;Krenides;;;;;;;;;;;;;x;
 b_tripolis_crenides;Tripolis;;;;;;;;;;;;;x;
 b_domeros_crenides;Domeros;;;;;;;;;;;;;x;
@@ -3454,3 +3454,10 @@ b_uscana3_uscana;Uscana;;;;;;;;;;;x
 b_uscana4_uscana;Uscana;;;;;;;;;;;x
 b_uscana5_uscana;Uscana;;;;;;;;;;;x
 b_uscana6_uscana;Uscana;;;;;;;;;;;x
+b_albanopolis_albanopolis;Albanopolis;;;;;;;;;;;x
+b_albanopolis1_albanopolis;Albanopolis;;;;;;;;;;;x
+b_albanopolis2_albanopolis;Albanopolis;;;;;;;;;;;x
+b_albanopolis3_albanopolis;Albanopolis;;;;;;;;;;;x
+b_albanopolis4_albanopolis;Albanopolis;;;;;;;;;;;x
+b_albanopolis5_albanopolis;Albanopolis;;;;;;;;;;;x
+b_albanopolis6_albanopolis;Albanopolis;;;;;;;;;;;x

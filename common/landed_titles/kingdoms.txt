@@ -4178,7 +4178,7 @@ k_illyria = {
 			}
 			b_lissus_epidamnos = {
 			}
-			b_albanopolis_epidamnos = {
+			b_epidamnos1_epidamnos = {
 			}
 			b_clodiana_epidamnos = {
 			}
@@ -4204,7 +4204,26 @@ k_illyria = {
 			}
 			b_beue_parthus = {
 			}
-		}	
+		}
+		c_albanopolis = {
+			color= { 255 84 198 }
+			color2= { 255 255 255 }
+		
+			b_albanopolis_albanopolis = {
+			}
+			b_albanopolis1_albanopolis = {
+			}
+			b_albanopolis2_albanopolis = {
+			}
+			b_albanopolis3_albanopolis = {
+			}
+			b_albanopolis4_albanopolis = {
+			}
+			b_albanopolis5_albanopolis = {
+			}
+			b_albanopolis6_albanopolis = {
+			}
+		}
 	}
 }
 k_pannonia = {
