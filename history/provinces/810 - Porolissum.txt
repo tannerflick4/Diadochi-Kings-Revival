@@ -5,9 +5,9 @@ title = c_porolissum
 
 # Settlements
 max_settlements = 3
-b_porolissum_porolissum = castle
-b_dakidava_porolissum = city
-b_certiae_porolissum = castle
+b_porolissum_porolissum = tribal
+#b_dakidava_porolissum = city
+#b_certiae_porolissum = castle
 
 # Misc
 culture = dacian

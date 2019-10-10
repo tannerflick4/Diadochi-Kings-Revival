@@ -5,8 +5,8 @@ title = c_andematunnum
 
 # Settlements
 max_settlements = 3
-b_andematunnum_andematunnum = castle
-b_varcia_andematunnum = castle
+b_andematunnum_andematunnum = tribal
+#b_varcia_andematunnum = castle
 
 # Possible baronies: (Always add a # in front of a line with these!)
 # b_castrum_divionense

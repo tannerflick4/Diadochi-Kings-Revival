@@ -5,10 +5,10 @@ title = c_thabudeos
 
 # Settlements
 max_settlements = 4
-b_thabudeos_thabudeos = castle
-b_vescera_thabudeos = city
-b_badias_thabudeos = castle
-b_tfilzi_thabudeos = castle
+b_thabudeos_thabudeos = tribal
+#b_vescera_thabudeos = city
+#b_badias_thabudeos = castle
+#b_tfilzi_thabudeos = castle
 
 # Misc
 culture = berber

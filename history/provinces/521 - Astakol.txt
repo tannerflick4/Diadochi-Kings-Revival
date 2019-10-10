@@ -5,8 +5,8 @@ title = c_astakol
 
 # Settlements
 max_settlements = 2
-b_astakol_astakol = castle
-b_batyasko_astakol = castle
+b_astakol_astakol = tribal
+#b_batyasko_astakol = castle
 
 # Misc
 culture = sarmatian

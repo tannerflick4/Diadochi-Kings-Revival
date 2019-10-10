@@ -5,9 +5,9 @@ title = c_narapa
 
 # Settlements
 max_settlements = 3
-b_narapa_narapa = castle
-b_asata_narapa = castle
-b_karsaca_narapa = city
+b_narapa_narapa = tribal
+#b_asata_narapa = castle
+#b_karsaca_narapa = city
 
 # Misc
 culture = scythian

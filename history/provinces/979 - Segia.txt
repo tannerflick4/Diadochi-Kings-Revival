@@ -5,7 +5,7 @@ title = c_segia
 
 # Settlements
 max_settlements = 2
-b_sekia_segia = castle
+b_sekia_segia = tribal
 b_iaka_segia = temple
 
 # Misc

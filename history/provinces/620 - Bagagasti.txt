@@ -5,8 +5,8 @@ title = c_bagagasti
 
 # Settlements
 max_settlements = 2
-b_bagagasti_bagagasti = castle
-b_dasadvara_bagagasti = castle
+b_bagagasti_bagagasti = tribal
+#b_dasadvara_bagagasti = castle
 
 # Misc
 culture = scythian

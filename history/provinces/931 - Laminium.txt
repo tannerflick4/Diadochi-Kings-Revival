@@ -5,8 +5,8 @@ title = c_laminium
 
 # Settlements
 max_settlements = 3
-b_laminium_laminium = castle
-b_alaba_laminium = city
+b_laminium_laminium = tribal
+#b_alaba_laminium = city
 #b_murum_laminium = castle
 
 # Misc

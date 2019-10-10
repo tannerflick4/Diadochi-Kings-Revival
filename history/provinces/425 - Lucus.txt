@@ -5,8 +5,8 @@ title = c_lucus
 
 # Settlements
 max_settlements = 4
-b_lucus_lucus = castle
-b_vologatae_lucus = castle
+b_lucus_lucus = tribal
+#b_vologatae_lucus = castle
 b_dea_vocontiorum_lucus = temple
 
 # Possible baronies: (Always add a # in front of a line with these!)

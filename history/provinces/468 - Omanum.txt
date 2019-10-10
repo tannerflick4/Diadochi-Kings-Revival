@@ -5,10 +5,10 @@ title = c_omanum
 
 # Settlements
 max_settlements = 5
-b_omanum_omanum = castle
+b_omanum_omanum = tribal
 b_nagara_omanum = temple
-b_latea_omanum = city
-b_hieracum_omanum = city
+#b_latea_omanum = city
+#b_hieracum_omanum = city
 #b_libanotophoros_omanum = city
 
 # Misc

@@ -5,7 +5,7 @@ title = c_ugravarka
 
 # Settlements
 max_settlements = 2
-b_ugravarka_ugravarka = castle
+b_ugravarka_ugravarka = tribal
 b_lewleca_ugravarka = temple
 
 # Misc

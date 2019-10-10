@@ -4,7 +4,7 @@
 title = c_iguvium # for example c_corinth
 
 # Settlements
-max_settlements = 6 # Should be reevaluated
+max_settlements = 4
 b_iguvium_iguvium = castle
 b_attidoim_iguvium = castle
 b_assisium_iguvium = city

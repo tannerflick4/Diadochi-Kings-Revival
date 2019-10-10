@@ -5,8 +5,8 @@ title = c_upanti
 
 # Settlements
 max_settlements = 2
-b_upanti_upanti = castle
-b_arikol_upanti = city
+b_upanti_upanti = tribal
+#b_arikol_upanti = city
 
 # Misc
 culture = sarmatian

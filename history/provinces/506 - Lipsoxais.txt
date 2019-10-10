@@ -5,8 +5,8 @@ title = c_lipsoxais
 
 # Settlements
 max_settlements = 3
-b_lipsoxais_lipsoxais = castle
-b_kaca_lipsoxais = castle
+b_lipsoxais_lipsoxais = tribal
+#b_kaca_lipsoxais = castle
 b_lewlekol_lipsoxais = temple
 
 # Misc

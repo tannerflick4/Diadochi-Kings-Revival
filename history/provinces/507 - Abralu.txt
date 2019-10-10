@@ -5,8 +5,8 @@ title = c_abralu
 
 # Settlements
 max_settlements = 2
-b_abralu_abralu = castle
-b_garukol_abralu = castle
+b_abralu_abralu = tribal
+#b_garukol_abralu = castle
 
 # Misc
 culture = sarmatian

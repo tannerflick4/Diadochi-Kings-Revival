@@ -5,9 +5,9 @@ title = c_olisipo
 
 # Settlements
 max_settlements = 3
-b_olisipo_olisipo = castle
-b_ierabriga_olisipo = castle
-b_eburobrittium_olisipo = city
+b_olisipo_olisipo = tribal
+#b_ierabriga_olisipo = castle
+#b_eburobrittium_olisipo = city
 
 # Misc
 culture = celtiberian

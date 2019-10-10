@@ -5,7 +5,7 @@ title = c_augila
 
 # Settlements
 max_settlements = 3
-b_augila_augila = castle
+b_augila_augila = tribal
 b_gialo_augila = temple
 
 # Misc

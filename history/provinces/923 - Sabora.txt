@@ -5,10 +5,10 @@ title = c_sabora
 
 # Settlements
 max_settlements = 4
-b_sabora_sabora = castle
-b_irni_sabora = city
+b_sabora_sabora = tribal
+#b_irni_sabora = city
 #b_ocurri_sabora = castle
-b_lacilbula_sabora = castle
+#b_lacilbula_sabora = castle
 
 # Misc
 culture = turdetanian

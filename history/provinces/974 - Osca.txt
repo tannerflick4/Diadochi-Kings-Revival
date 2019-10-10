@@ -5,8 +5,8 @@ title = c_osca
 
 # Settlements
 max_settlements = 3
-b_osca_osca = castle
-b_sesars_osca = city
+b_osca_osca = tribal
+#b_sesars_osca = city
 b_bolskan_osca = temple
 
 # Misc

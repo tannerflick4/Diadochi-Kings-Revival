@@ -5,8 +5,8 @@ title = c_kutipanti
 
 # Settlements
 max_settlements = 2
-b_kutipanti_kutipanti = castle
-b_frikol_kutipanti = city
+b_kutipanti_kutipanti = tribal
+#b_frikol_kutipanti = city
 
 # Misc
 culture = scythian

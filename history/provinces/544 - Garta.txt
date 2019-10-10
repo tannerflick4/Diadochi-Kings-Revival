@@ -5,7 +5,7 @@ title = c_garta
 
 # Settlements
 max_settlements = 1
-b_garta_garta = castle
+b_garta_garta = tribal
 
 # Misc
 culture = scythian

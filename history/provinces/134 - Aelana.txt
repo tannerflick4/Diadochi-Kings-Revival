@@ -5,9 +5,9 @@ title = c_aelana
 
 # Settlements
 max_settlements = 3
-b_aelana_aelana = castle
-b_sobata_aelana = city
-b_eboda_aelana = castle
+b_aelana_aelana = tribal
+#b_sobata_aelana = city
+#b_eboda_aelana = castle
 
 # Misc
 culture = nabataean

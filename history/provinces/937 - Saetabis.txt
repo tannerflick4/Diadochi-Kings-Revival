@@ -5,9 +5,9 @@ title = c_saetabis
 
 # Settlements
 max_settlements = 3
-b_saetabis_saetabis = castle
-b_saltigi_saetabis = city
-b_ikalesken_saetabis = castle
+b_saetabis_saetabis = tribal
+#b_saltigi_saetabis = city
+#b_ikalesken_saetabis = castle
 
 # Misc
 culture = iberian

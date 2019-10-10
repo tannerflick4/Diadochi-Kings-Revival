@@ -5,7 +5,7 @@ title = c_arparadata
 
 # Settlements
 max_settlements = 1
-b_arparadata_arparadata = castle
+b_arparadata_arparadata = tribal
 
 # Misc
 culture = sarmatian

@@ -5,7 +5,7 @@ title = c_dedris
 
 # Settlements
 max_settlements = 2
-b_dedris_dedris = castle
+b_dedris_dedris = tribal
 
 # Misc
 culture = berber

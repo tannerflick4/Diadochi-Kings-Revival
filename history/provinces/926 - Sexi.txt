@@ -13,6 +13,5 @@ b_abdera_sexi = city
 culture = punic
 religion = punic_main
 
-
 # History
 # Can be filled when things change around the province

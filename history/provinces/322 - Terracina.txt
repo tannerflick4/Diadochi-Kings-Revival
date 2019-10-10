@@ -4,7 +4,7 @@
 title = c_terracina # for example c_corinth
 
 # Settlements
-max_settlements = 6 # Should be reevaluated
+max_settlements = 3
 b_terracina_terracina = castle
 b_fundi_terracina = city
 b_ausona_terracina = castle

@@ -5,8 +5,8 @@ title = c_thagimasadas
 
 # Settlements
 max_settlements = 2
-b_thagimasadas_thagimasadas = castle
-b_syrar_thagimasadas = castle
+b_thagimasadas_thagimasadas = tribal
+#b_syrar_thagimasadas = castle
 
 # Misc
 culture = scythian

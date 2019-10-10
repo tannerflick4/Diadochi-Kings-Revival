@@ -5,8 +5,8 @@ title = c_saguntum
 
 # Settlements
 max_settlements = 3
-b_arse_saguntum = castle
-b_sucro_saguntum = castle
+b_arse_saguntum = tribal
+#b_sucro_saguntum = castle
 #b_valentia_saguntum = city
 
 # Misc

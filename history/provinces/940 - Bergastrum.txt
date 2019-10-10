@@ -5,7 +5,7 @@ title = c_bergastrum
 
 # Settlements
 max_settlements = 1
-b_bergastrum_bergastrum = castle
+b_bergastrum_bergastrum = tribal
 
 # Misc
 culture = iberian

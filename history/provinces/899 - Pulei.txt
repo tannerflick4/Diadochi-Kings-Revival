@@ -5,7 +5,6 @@ title = c_pulei
 
 # Settlements
 max_settlements = 2
-
 b_pulei_pulei = castle
 b_further_pulei_pulei = castle
 

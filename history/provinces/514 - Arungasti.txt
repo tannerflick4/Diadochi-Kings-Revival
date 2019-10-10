@@ -5,8 +5,8 @@ title = c_arungasti
 
 # Settlements
 max_settlements = 2
-b_arungasti_arungasti = castle
-b_badar_arungasti = city
+b_arungasti_arungasti = tribal
+#b_badar_arungasti = city
 
 # Misc
 culture = sarmatian

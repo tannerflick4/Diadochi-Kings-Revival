@@ -5,10 +5,10 @@ title = c_characmoba
 
 # Settlements
 max_settlements = 4
-b_characmoba_characmoba = castle
+b_characmoba_characmoba = tribal
 b_areopolis_characmoba = temple
-b_adara_characmoba = city
-b_louetha_characmoba = castle
+#b_adara_characmoba = city
+#b_louetha_characmoba = castle
 
 # Misc
 culture = nabataean

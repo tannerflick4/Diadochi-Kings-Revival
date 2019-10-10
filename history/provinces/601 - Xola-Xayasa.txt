@@ -5,7 +5,7 @@ title = c_xola_xayasa
 
 # Settlements
 max_settlements = 1
-b_xola_xayasa_xola_xayasa = castle
+b_xola_xayasa_xola_xayasa = tribal
 
 # Misc
 culture = scythian

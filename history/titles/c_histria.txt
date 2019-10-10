@@ -1,21 +1,19 @@
-376.1.1 = { # 400 BC
-	holder = 330602 # Ateas
+417.1.1 = { # 359 BC
+	holder = 55101 # Epikouros
 	liege = k_katipa
 }
-437.1.1 = {
-	holder = 803 # Philip II
+436.1.1 = { # 340 BC
+	holder = 55103 # Theron
+}
+437.1.1 = { # 339 BC
 	liege = e_macedonia
 }
-440.10.1 = {
-	holder = 802
+453.6.10 = { # 323 BC
+	liege = d_odrysia
 }
-453.6.10 = {
-	liege="d_odrysia"
-	holder = 40101
+477.1.1 = { # 299 BC
+	holder = 55104 # Epikouros
 }
-476.1.1 = {
-	holder = 40102 # Cotys II
-}
-495.2.1 = {
+495.2.1 = { # 281 BC
 	liege = k_odrysia
 }

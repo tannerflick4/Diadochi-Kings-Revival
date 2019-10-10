@@ -5,9 +5,9 @@ title = c_munigua
 
 # Settlements
 max_settlements = 4
-b_munigua_munigua = castle
-b_naeva_munigua = city
-b_iporca_munigua = castle
+b_munigua_munigua = tribal
+#b_naeva_munigua = city
+#b_iporca_munigua = castle
 #b_leptis_munigua = city
 
 # Misc

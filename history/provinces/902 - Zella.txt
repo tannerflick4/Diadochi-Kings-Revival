@@ -5,7 +5,7 @@ title = c_zella
 
 # Settlements
 max_settlements = 1
-b_zella_zella = castle
+b_zella_zella = tribal
 
 # Misc
 culture = berber

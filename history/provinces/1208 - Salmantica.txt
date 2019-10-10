@@ -5,16 +5,11 @@ title = c_salmantica
 
 # Settlements
 max_settlements = 1
-b_helmantica_salmantica = castle
+b_helmantica_salmantica = tribal
 
 # Misc
 culture = celtiberian
 religion = celtic_main
-
-
-
-
-
 
 # History
 # Can be filled when things change around the province

@@ -5,7 +5,7 @@ title = c_hurkutipa
 
 # Settlements
 max_settlements = 1
-b_hurkutipa_hurkutipa = castle
+b_hurkutipa_hurkutipa = tribal
 
 # Misc
 culture = sarmatian

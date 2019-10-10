@@ -5,7 +5,7 @@ title = c_kusgau
 
 # Settlements
 max_settlements = 1
-b_kusgau_kusgau = castle
+b_kusgau_kusgau = tribal
 
 # Misc
 culture = scythian

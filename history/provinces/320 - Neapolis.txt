@@ -4,7 +4,7 @@
 title = c_neapolis # for example c_corinth
 
 # Settlements
-max_settlements = 6 # Should be reevaluated
+max_settlements = 4
 b_neapolis = castle
 b_cumae_neapolis = castle
 b_ischia_neapolis = city

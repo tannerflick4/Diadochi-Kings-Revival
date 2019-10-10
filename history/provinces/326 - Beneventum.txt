@@ -4,7 +4,7 @@
 title = c_beneventum # for example c_corinth
 
 # Settlements
-max_settlements = 6 # Should be reevaluated
+max_settlements = 4
 b_beneventum_beneventum = castle
 b_chivia_beneventum = city
 b_telesia_beneventum = temple

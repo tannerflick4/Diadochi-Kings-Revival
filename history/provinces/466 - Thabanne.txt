@@ -5,9 +5,9 @@ title = c_thabanne
 
 # Settlements
 max_settlements = 3
-b_thabanne_thabanne = castle
-b_tretos_thabanne = city
-b_thialemath_thabanne = city
+b_thabanne_thabanne = tribal
+#b_tretos_thabanne = city
+#b_thialemath_thabanne = city
 
 # Misc
 culture = arabic

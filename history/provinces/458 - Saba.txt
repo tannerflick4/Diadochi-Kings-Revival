@@ -5,10 +5,10 @@ title = c_saba
 
 # Settlements
 max_settlements = 6
-b_saba_saba = castle
-b_nagia_saba = city
-b_nossa_saba = castle
-b_caripeta_saba = castle
+b_saba_saba = tribal
+#b_nagia_saba = city
+#b_nossa_saba = castle
+#b_caripeta_saba = castle
 b_miraba_saba = temple
 
 # Misc

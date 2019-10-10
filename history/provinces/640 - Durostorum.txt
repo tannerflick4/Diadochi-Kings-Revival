@@ -5,9 +5,9 @@ title = c_durostorum
 
 # Settlements
 max_settlements = 3
-b_durostorum_durostorum = castle
-b_axiopolis_durostorum = city
-b_sucidava_durostorum = city
+b_durostorum_durostorum = tribal
+#b_axiopolis_durostorum = city
+#b_sucidava_durostorum = city
 
 # Misc
 culture = thracian

@@ -5,9 +5,9 @@ title = c_segestica
 
 # Settlements
 max_settlements = 5
-b_segestica_segestica = castle
-b_andautonia_segestica = city
-b_colapis_segestica = city
+b_segestica_segestica = tribal
+#b_andautonia_segestica = city
+#b_colapis_segestica = city
 
 # Possible baronies: (Always add a # in front of a line with these!)
 # b_varianae_segestica

@@ -5,8 +5,8 @@ title = c_poratapanti
 
 # Settlements
 max_settlements = 2
-b_poratapanti_poratapanti = castle
-b_agarma_poratapanti = city
+b_poratapanti_poratapanti = tribal
+#b_agarma_poratapanti = city
 
 # Misc
 culture = scythian

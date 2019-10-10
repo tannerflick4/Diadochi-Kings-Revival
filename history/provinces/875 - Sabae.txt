@@ -5,8 +5,8 @@ title = c_sabae
 
 # Settlements
 max_settlements = 3
-b_sabae_sabae = castle
-b_chlef_sabae = city
+b_sabae_sabae = tribal
+#b_chlef_sabae = city
 
 # Misc
 culture = berber

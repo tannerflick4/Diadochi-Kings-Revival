@@ -5,7 +5,7 @@ title = c_oitosyros
 
 # Settlements
 max_settlements = 2
-b_oitosyros_oitosyros = castle
+b_oitosyros_oitosyros = tribal
 b_katika_oitosyros = temple
 
 # Misc

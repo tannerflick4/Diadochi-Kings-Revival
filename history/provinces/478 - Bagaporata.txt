@@ -5,7 +5,7 @@ title = c_bagaporata
 
 # Settlements
 max_settlements = 3
-b_bagaporata_bagaporata = castle
+b_bagaporata_bagaporata = tribal
 b_hurbla_bagaporata = temple
 #b_navakol_bagaporata = city
 

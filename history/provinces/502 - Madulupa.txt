@@ -5,7 +5,7 @@ title = c_madulupa
 
 # Settlements
 max_settlements = 1
-b_madulupa_madulupa = castle
+b_madulupa_madulupa = tribal
 
 # Misc
 culture = sarmatian

@@ -5,10 +5,10 @@ title = c_emona
 
 # Settlements
 max_settlements = 4
-b_emona_emona = castle
-b_nauportus_emona = city
+b_emona_emona = tribal
+#b_nauportus_emona = city
 b_camium_emona = temple
-b_acervo_emona = castle
+#b_acervo_emona = castle
 
 # Misc
 culture = venetic

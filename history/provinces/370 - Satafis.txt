@@ -5,10 +5,10 @@ title = c_satafis
 
 # Settlements
 max_settlements = 5
-b_satafis_satafis = castle
-b_sitifis_satafis = city
-b_mopthi_satafis = castle
-b_cuicul_satafis = city
+b_satafis_satafis = tribal
+#b_sitifis_satafis = city
+#b_mopthi_satafis = castle
+#b_cuicul_satafis = city
 
 # Possible baronies: (Always add a # in front of a line with these!)
 # b_novar_satafis

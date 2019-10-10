@@ -5,10 +5,10 @@ title = c_beroe
 
 # Settlements
 max_settlements = 4
-b_beroe_beroe = castle
+b_beroe_beroe = tribal
 b_pizus_beroe = temple
-b_semota_beroe = city
-b_parambole_beroe = city
+#b_semota_beroe = city
+#b_parambole_beroe = city
 
 # Misc
 culture = thracian

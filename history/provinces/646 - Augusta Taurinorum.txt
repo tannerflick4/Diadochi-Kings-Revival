@@ -5,9 +5,9 @@ title = c_augusta_taurinorum
 
 # Settlements
 max_settlements = 3
-b_augusta_taurinorum_augusta_taurinorum = castle
-b_quadrata_augusta_taurinorum = castle
-b_ad_fines_augusta_taurinorum = city
+b_augusta_taurinorum_augusta_taurinorum = tribal
+#b_quadrata_augusta_taurinorum = castle
+#b_ad_fines_augusta_taurinorum = city
 
 # Misc
 culture = gaul

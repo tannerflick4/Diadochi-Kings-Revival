@@ -5,8 +5,8 @@ title = c_gitab
 
 # Settlements
 max_settlements = 3
-b_gitab_gitab = castle
-b_garukol_gitab = city
+b_gitab_gitab = tribal
+#b_garukol_gitab = city
 b_bagaca_gitab = temple
 
 # Misc

@@ -5,10 +5,10 @@ title = c_aventicum
 
 # Settlements
 max_settlements = 5
-b_aventicum_aventicum = castle
-b_lousonna_aventicum = city
-b_salodurum_aventicum = castle
-b_eburodunum_aventicum = city
+b_aventicum_aventicum = tribal
+#b_lousonna_aventicum = city
+#b_salodurum_aventicum = castle
+#b_eburodunum_aventicum = city
 
 # Possible baronies: (Always add a # in front of a line with these!)
 # b_petinesca_aventicum

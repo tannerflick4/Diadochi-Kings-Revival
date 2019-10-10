@@ -4,7 +4,7 @@
 title = c_spoletium # for example c_corinth
 
 # Settlements
-max_settlements = 6 # Should be reevaluated
+max_settlements = 4
 b_spoletium_spoletium = castle
 b_treva_spoletium = city
 b_ameria_spoletium = castle

@@ -49,5 +49,8 @@
 	# 54701-54800 for the Karkinoi dynasty
 	# 54801-54900 for the Miletioi dynasty	
 	# 54901-55000 for the Phokritoi dynasty	
-	# 55001-55100 for the Amastrioi dynasty	
+	# 55001-55100 for the Amastrioi dynasty
+	# 55101-55200 for the Histrioi dynasty
+	# 55201-55300 for the Odessioi dynasty
+	# 55301-55400 for the Apollonioi dynasty
 	# 59901-60000 for the Lowborns

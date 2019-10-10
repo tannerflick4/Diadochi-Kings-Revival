@@ -4,17 +4,11 @@
 title = c_altinum # for example c_corinth
 
 # Settlements
-max_settlements = 6 # Should be reevaluated
-b_altinum_altinum = castle
-b_opitergum_altinum = city
-b_flamonia_altinum = castle
+max_settlements = 4
+b_altinum_altinum = tribal
+#b_opitergum_altinum = city
+#b_flamonia_altinum = castle
 b_artemia_altinum = temple
-
-# Possible baronies: (Always add a # in front of a line with these!)
-#
-#
-#
-#
 
 # Misc
 culture = venetic

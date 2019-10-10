@@ -4,16 +4,10 @@
 title = c_parma # for example c_corinth
 
 # Settlements
-max_settlements = 6 # Should be reevaluated
-b_parma_parma = castle
-b_cremona_parma = city
+max_settlements = 3
+b_parma_parma = tribal
+#b_cremona_parma = city
 b_aquinium_parma = temple
-
-# Possible baronies: (Always add a # in front of a line with these!)
-#
-#
-#
-#
 
 # Misc
 culture = gaul

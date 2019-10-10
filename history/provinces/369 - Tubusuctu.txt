@@ -5,10 +5,10 @@ title = c_tubusuctu
 
 # Settlements
 max_settlements = 4
-b_tubusuctu_tubusuctu = castle
-b_ausum_tubusuctu = city
-b_sertei_tubusuctu = castle
-b_lesbi_tubusuctu = castle
+b_tubusuctu_tubusuctu = tribal
+#b_ausum_tubusuctu = city
+#b_sertei_tubusuctu = castle
+#b_lesbi_tubusuctu = castle
 
 # Misc
 culture = berber

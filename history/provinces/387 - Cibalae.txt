@@ -5,10 +5,10 @@ title = c_cibalae
 
 # Settlements
 max_settlements = 4
-b_cibalae_cibalae = castle
-b_comacum_cibalae = city
+b_cibalae_cibalae = tribal
+#b_comacum_cibalae = city
 b_causilena_cibalae = temple
-b_cuccium_cibalae = castle
+#b_cuccium_cibalae = castle
 
 # Misc
 culture = illyrian

@@ -5,7 +5,7 @@ title = c_boradvara
 
 # Settlements
 max_settlements = 2
-b_boradvara_boradvara = castle
+b_boradvara_boradvara = tribal
 b_batyakissar_boradvara = temple
 
 # Misc

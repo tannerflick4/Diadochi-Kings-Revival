@@ -5,11 +5,11 @@ title = c_madaba
 
 # Settlements
 max_settlements = 5
-b_madaba_madaba = castle
+b_madaba_madaba = tribal
 b_esbous_madaba = temple
-b_ziza_madaba = city
-b_valtha_madaba = castle
-b_elealeh_madaba = castle
+#b_ziza_madaba = city
+#b_valtha_madaba = castle
+#b_elealeh_madaba = castle
 
 # Misc
 culture = nabataean

@@ -1,5 +1,6 @@
 417.1.1 = { # 359 BC
 	holder = 330503 # Scylurus
+	historical_nomad = yes
 }
 448.1.1 = { # 328 BC
 	holder = 330501 # Azes

@@ -5,7 +5,7 @@ title = c_gaukuti
 
 # Settlements
 max_settlements = 1
-b_gaukuti_gaukuti = castle
+b_gaukuti_gaukuti = tribal
 
 # Misc
 culture = scythian

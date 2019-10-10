@@ -5,9 +5,9 @@ title = c_gholaia
 
 # Settlements
 max_settlements = 3
-b_gholaia_gholaia = castle
-b_ghirza_gholaia = city
-b_magrusa_gholaia = city
+b_gholaia_gholaia = tribal
+#b_ghirza_gholaia = city
+#b_magrusa_gholaia = city
 
 # Misc
 culture = berber

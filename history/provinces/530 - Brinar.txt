@@ -5,7 +5,7 @@ title = c_brinar
 
 # Settlements
 max_settlements = 1
-b_brinar_brinar = castle
+b_brinar_brinar = tribal
 
 # Misc
 culture = sarmatian

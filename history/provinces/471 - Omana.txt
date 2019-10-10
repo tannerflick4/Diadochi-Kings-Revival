@@ -5,10 +5,10 @@ title = c_omana
 
 # Settlements
 max_settlements = 4
-b_omana_omana = castle
-b_atta_omana = city
-b_muftala_omana = castle
-b_domana_omana = city
+b_omana_omana = tribal
+#b_atta_omana = city
+#b_muftala_omana = castle
+#b_domana_omana = city
 
 # Misc
 culture = arabic

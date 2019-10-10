@@ -4,15 +4,9 @@
 title = c_palla # for example c_corinth
 
 # Settlements
-max_settlements = 6 # Should be reevaluated
+max_settlements = 2
 b_urcinium_palla = city
 b_palla_palla = castle
-
-# Possible baronies: (Always add a # in front of a line with these!)
-#
-#
-#
-#
 
 # Misc
 culture = etruscan

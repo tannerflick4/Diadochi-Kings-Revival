@@ -4,7 +4,7 @@
 title = c_bovianum # for example c_corinth
 
 # Settlements
-max_settlements = 6 # Should be reevaluated
+max_settlements = 4
 b_bovianum_bovianum = castle
 b_aeserina_bovianum = temple
 b_aquilonia_bovianum = city

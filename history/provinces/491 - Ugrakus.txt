@@ -5,8 +5,8 @@ title = c_ugrakus
 
 # Settlements
 max_settlements = 2
-b_ugrakus_ugrakus = castle
-b_chivayabrata_ugrakus = city
+b_ugrakus_ugrakus = tribal
+#b_chivayabrata_ugrakus = city
 
 # Misc
 culture = sarmatian

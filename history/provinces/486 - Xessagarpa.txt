@@ -5,7 +5,7 @@ title = c_xessagarpa
 
 # Settlements
 max_settlements = 1
-b_xessagarpa_xessagarpa = castle
+b_xessagarpa_xessagarpa = tribal
 
 # Misc
 culture = scythian

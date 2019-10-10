@@ -5,8 +5,8 @@ title = c_leipca
 
 # Settlements
 max_settlements = 2
-b_leipca_leipca = castle
-b_frikol_leipca = city
+b_leipca_leipca = tribal
+#b_frikol_leipca = city
 
 # Misc
 culture = sarmatian

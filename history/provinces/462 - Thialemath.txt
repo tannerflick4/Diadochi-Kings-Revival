@@ -5,8 +5,8 @@ title = c_thialemath
 
 # Settlements
 max_settlements = 3
-b_thialemath_thialemath = castle
-b_macala_thialemath = city
+b_thialemath_thialemath = tribal
+#b_macala_thialemath = city
 b_dela_thialemath = temple
 #b_abifama_thialemath = city
 

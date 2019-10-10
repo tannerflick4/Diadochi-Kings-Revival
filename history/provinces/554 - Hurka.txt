@@ -5,8 +5,8 @@ title = c_hurka
 
 # Settlements
 max_settlements = 2
-b_hurka_hurka = castle
-b_hvarsyr_hurka = city
+b_hurka_hurka = tribal
+#b_hvarsyr_hurka = city
 
 # Misc
 culture = scythian

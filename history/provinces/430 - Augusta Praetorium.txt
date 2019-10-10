@@ -5,9 +5,9 @@ title = c_augusta_praetoria
 
 # Settlements
 max_settlements = 3
-b_eudracinum_augusta_praetoria = castle
-b_arebrigium_augusta_praetoria = city
-b_ariolica_augusta_praetoria = castle
+b_eudracinum_augusta_praetoria = tribal
+#b_arebrigium_augusta_praetoria = city
+#b_ariolica_augusta_praetoria = castle
 
 # Possible baronies: (Always add a # in front of a line with these!)
 # b_augusta_praetoria_augusta_praetoria

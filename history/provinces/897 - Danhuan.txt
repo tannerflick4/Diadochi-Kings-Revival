@@ -5,7 +5,6 @@ title = c_danhuan
 
 # Settlements
 max_settlements = 3
-
 b_danhuan_danhuan = castle # Urumchi
 b_beilu_danhuan = city
 b_further_beilu_danhuan = castle

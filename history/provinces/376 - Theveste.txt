@@ -5,10 +5,10 @@ title = c_theveste
 
 # Settlements
 max_settlements = 4
-b_theveste_theveste = castle
+b_theveste_theveste = tribal
 b_cedias_theveste = temple
-b_vatari_theveste = castle
-b_turratenses_theveste = castle
+#b_vatari_theveste = castle
+#b_turratenses_theveste = castle
 
 # Misc
 culture = berber

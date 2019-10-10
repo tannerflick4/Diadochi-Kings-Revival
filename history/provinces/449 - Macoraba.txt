@@ -5,8 +5,8 @@ title = c_macoraba
 
 # Settlements
 max_settlements = 2
-b_macoraba_macoraba = castle
-b_ambe_macoraba = city
+b_macoraba_macoraba = tribal
+#b_ambe_macoraba = city
 
 # Misc
 culture = arabic

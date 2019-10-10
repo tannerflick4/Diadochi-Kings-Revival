@@ -5,7 +5,7 @@ title = c_pantipari
 
 # Settlements
 max_settlements = 1
-b_pantipari_pantipari = castle
+b_pantipari_pantipari = tribal
 
 # Misc
 culture = scythian

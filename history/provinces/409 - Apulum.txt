@@ -5,10 +5,10 @@ title = c_apulum
 
 # Settlements
 max_settlements = 4
-b_apulum_apulum = castle
-b_capilna_apulum = castle
-b_tilisca_apulum = city
-b_cedonia_apulum = castle
+b_apulum_apulum = tribal
+#b_capilna_apulum = castle
+#b_tilisca_apulum = city
+#b_cedonia_apulum = castle
 
 # Misc
 culture = dacian

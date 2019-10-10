@@ -5,8 +5,8 @@ title = c_banubalapa
 
 # Settlements
 max_settlements = 2
-b_banubalapa_banubalapa = castle
-b_chivayabrata_banubalapa = city
+b_banubalapa_banubalapa = tribal
+#b_chivayabrata_banubalapa = city
 
 # Misc
 culture = scythian

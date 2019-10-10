@@ -5,9 +5,9 @@ title = c_octodurus
 
 # Settlements
 max_settlements = 3
-b_octodurus_octodurus = castle
-b_tarnaiae_octodurus = city
-b_sedurus_octodurus = city
+b_octodurus_octodurus = tribal
+#b_tarnaiae_octodurus = city
+#b_sedurus_octodurus = city
 
 # Misc
 culture = gaul

@@ -5,8 +5,8 @@ title = c_axsainabaladapa
 
 # Settlements
 max_settlements = 2
-b_axsainabaladapa_axsainabaladapa = castle
-b_pokol_axsainabaladapa = city
+b_axsainabaladapa_axsainabaladapa = tribal
+#b_pokol_axsainabaladapa = city
 
 # Misc
 culture = scythian

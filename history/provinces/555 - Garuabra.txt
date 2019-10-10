@@ -5,7 +5,7 @@ title = c_garuabra
 
 # Settlements
 max_settlements = 1
-b_garuabra_garuabra = castle
+b_garuabra_garuabra = tribal
 
 # Misc
 culture = scythian

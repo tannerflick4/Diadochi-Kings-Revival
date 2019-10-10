@@ -5,8 +5,8 @@ title = c_coana
 
 # Settlements
 max_settlements = 3
-b_coana_coana = castle
-b_dactionum_coana = city
+b_coana_coana = tribal
+#b_dactionum_coana = city
 #b_flavionava_coana = city
 
 # Misc

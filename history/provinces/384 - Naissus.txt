@@ -5,9 +5,9 @@ title = c_naissus
 
 # Settlements
 max_settlements = 5
-b_naissus_naissus = castle
-b_mediana_naissus = city
-b_ulunus_naissus = castle
+b_naissus_naissus = tribal
+#b_mediana_naissus = city
+#b_ulunus_naissus = castle
 b_grarariana_naissus = temple
 
 # Possible baronies: (Always add a # in front of a line with these!)

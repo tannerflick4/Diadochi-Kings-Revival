@@ -4,7 +4,7 @@
 title = c_venusia # for example c_corinth
 
 # Settlements
-max_settlements = 6 # Should be reevaluated
+max_settlements = 5
 b_venusia_venusia = castle
 b_strapellum_venusia = city
 b_bantia_venusia = castle
