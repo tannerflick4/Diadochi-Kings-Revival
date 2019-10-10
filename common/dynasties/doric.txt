@@ -196,3 +196,7 @@
 	name = "Astakioi"
 	culture = doric
 }
+2047 = { # The Athamanian tribe https://en.wikipedia.org/wiki/Athamanians
+	name = "Athamanes"
+	culture = doric
+}

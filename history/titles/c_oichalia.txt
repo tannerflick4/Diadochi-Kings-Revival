@@ -1,13 +1,12 @@
-412.1.1 = { # 364 BC
-	holder = 22204
-	liege = d_aetolia
+411.1.1 = { # 365 BC
+	holder = 24601 # Theodoros of the Athamanes
 }
-449.1.1 = { # 327 BC
-	holder = 22201 # Eutychios of the Aetolian league
+470.1.1 = { # 306 BC
+	holder = 24602 # Kephalos of the Athamanes
 }
-478.1.1 = {
-	holder = 22202 # Apollonaris, Made up
+477.1.1 = { # 299 BC
+	holder = 24603 # Ainesidemos of the Athamanes
 }
-493.1.1 = {
-	holder = 22203 # Diodoros, Made up
+522.1.1 = { # 254 BC
+	holder = 24604 # Theodoros of the Athamanes
 }

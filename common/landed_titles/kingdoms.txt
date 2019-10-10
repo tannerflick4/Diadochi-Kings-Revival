@@ -262,6 +262,21 @@ k_epirus = {
 			b_amantia6_amantia = {
 			}
 		}
+		c_oichalia = {
+			color= { 56 56 37 }
+			color2= { 255 255 255 }
+		
+			b_oichalia_oichalia = {
+			}
+			b_kraneia_oichalia = {
+			}
+			b_chalkis_oichalia = {
+			}
+			b_argithaia_oichalia = {
+			}
+			b_theudoria_oichalia = {
+			}
+		}
 	}
 }
 k_odrysia = {
@@ -4753,25 +4768,6 @@ k_greece = {
 			b_tyrrheion_stratus = {
 			}
 			b_oiniadai_stratus = {
-			}
-		}
-		c_oichalia = {
-			color= { 56 56 37 }
-			color2= { 255 255 255 }
-		
-			b_oichalia_oichalia = {
-			}
-			b_oichalia1_oichalia = {
-			}
-			b_oichalia2_oichalia = {
-			}
-			b_oichalia3_oichalia = {
-			}
-			b_oichalia4_oichalia = {
-			}
-			b_oichalia5_oichalia = {
-			}
-			b_oichalia6_oichalia = {
 			}
 		}
 		c_malis = {

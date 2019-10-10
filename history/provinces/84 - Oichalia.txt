@@ -4,14 +4,12 @@
 title = c_oichalia
 
 # Settlements
-max_settlements = 5
-b_oichalia_oichalia = castle
-b_oichalia1_oichalia = temple
-b_oichalia2_oichalia = city
-#b_oichalia3_oichalia = castle
-#b_oichalia4_oichalia = temple
-#b_oichalia5_oichalia = city
-#b_oichalia6_oichalia = castle
+max_settlements = 3
+b_oichalia_oichalia = tribal
+#b_kraneia_oichalia = temple
+#b_chalkis_oichalia = city
+#b_argithaia_oichalia = city
+#b_theudoria_oichalia = castle
 
 # Misc
 culture = doric

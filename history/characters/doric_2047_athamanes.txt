@@ -1,0 +1,63 @@
+# 24601-24700 for the Athamanes dynasty
+24601 = {
+	name = "Theodoros" # Made Up
+	dynasty = 2047
+	religion = greek_main
+	culture = doric	
+	395.1.1 = { # 381 BC
+		birth="yes" 
+	}
+	470.1.1 = { # 306 BC
+		death="yes"
+	}
+}
+
+24602 = {
+	name = "Kephalos" # Made Up
+	dynasty = 2047
+	religion = greek_main
+	culture = doric
+
+    father = 24601
+
+	440.1.1 = { # 336 BC
+		birth="yes" 
+	}
+	477.1.1 = { # 299 BC
+		death="yes"
+	}
+}
+
+24603 = {
+	name = "Ainesidemos" # Made Up
+	dynasty = 2047
+	religion = greek_main
+	culture = doric
+
+    father = 24602
+
+	456.1.1 = { # 320 BC
+		birth="yes" 
+	}
+	522.1.1 = { # 254 BC
+		death="yes"
+	}
+}
+
+24604 = {
+	name = "Theodoros" # Historical: https://en.wikipedia.org/wiki/Theodorus_of_Athamania
+	dynasty = 2047
+	religion = greek_main
+	culture = doric
+
+    father = 24603
+
+	494.1.1 = { # 282 BC
+		birth="yes" 
+	}
+	555.1.1 = { # 221 BC
+		death="yes"
+	}
+}
+
+# Historical: https://en.wikipedia.org/wiki/Amynander_of_Athamania
