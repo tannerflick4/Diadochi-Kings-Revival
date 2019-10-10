@@ -338,17 +338,17 @@ k_odrysia = {
 			
 			b_mesembria_mesembria = {
 			}
-			b_mesembria1_mesembria = { # needs name
+			b_mesembria1_mesembria = {
 			}
-			b_mesembria2_mesembria = { # needs name
+			b_mesembria2_mesembria = {
 			}
-			b_mesembria3_mesembria = { # needs name
+			b_mesembria3_mesembria = {
 			}
-			b_mesembria4_mesembria = { # needs name
+			b_mesembria4_mesembria = {
 			}
-			b_mesembria5_mesembria = { # needs name
+			b_mesembria5_mesembria = {
 			}
-			b_mesembria6_mesembria = { # needs name
+			b_mesembria6_mesembria = {
 			}
 		}
 	}
@@ -412,6 +412,44 @@ k_odrysia = {
 			b_eumolpias_philippopolis = {
 			}
 			b_sernota_philippopolis = {
+			}
+		}
+		c_bourdepa = {
+			color= { 209 87 85 }
+			color2= { 255 255 255 }
+			
+			b_bourdepa_bourdepa = {
+			}
+			b_bourdepa1_bourdepa = {
+			}
+			b_bourdepa2_bourdepa = {
+			}
+			b_bourdepa3_bourdepa = {
+			}
+			b_bourdepa4_bourdepa = {
+			}
+			b_bourdepa5_bourdepa = {
+			}
+			b_bourdepa6_bourdepa = {
+			}
+		}
+		c_bergoule = {
+			color= { 165 38 70 }
+			color2= { 255 255 255 }
+			
+			b_bergoule_bergoule = {
+			}
+			b_bergoule1_bergoule = {
+			}
+			b_bergoule2_bergoule = {
+			}
+			b_bergoule3_bergoule = {
+			}
+			b_bergoule4_bergoule = {
+			}
+			b_bergoule5_bergoule = {
+			}
+			b_bergoule6_bergoule = {
 			}
 		}
 	}

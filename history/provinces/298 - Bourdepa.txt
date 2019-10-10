@@ -1,0 +1,20 @@
+# 298 - Bourdepa
+
+# County Title
+title = c_bourdepa
+
+# Settlements
+max_settlements = 4
+b_bourdepa_bourdepa = castle
+b_bourdepa1_bourdepa = city
+b_bourdepa2_bourdepa = temple
+b_bourdepa3_bourdepa = castle
+#b_bourdepa4_bourdepa = city
+#b_bourdepa5_bourdepa = temple
+#b_bourdepa6_bourdepa = castle
+
+# Misc
+culture = thracian
+religion = thracian_main
+
+# History

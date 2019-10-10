@@ -1,0 +1,20 @@
+# 296 - Bergoule
+
+# County Title
+title = c_bergoule
+
+# Settlements
+max_settlements = 4
+b_bergoule_bergoule = castle
+b_bergoule1_bergoule = city
+b_bergoule2_bergoule = temple
+b_bergoule3_bergoule = castle
+#b_bergoule4_bergoule = city
+#b_bergoule5_bergoule = temple
+#b_bergoule6_bergoule = castle
+
+# Misc
+culture = thracian
+religion = thracian_main
+
+# History
