@@ -5,11 +5,11 @@ title = c_ulia
 
 # Settlements
 max_settlements = 5
-b_ulia_ulia = castle
-b_igabrum_ulia = castle
-b_cisimbrium_ulia = city
-b_ipolcobulcola_ulia = castle
-b_urgao_ulia = city
+b_ulia_ulia = tribal
+#b_igabrum_ulia = castle
+#b_cisimbrium_ulia = city
+#b_ipolcobulcola_ulia = castle
+#b_urgao_ulia = city
 
 # Misc
 culture = turdetanian

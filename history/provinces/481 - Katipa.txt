@@ -5,8 +5,8 @@ title = c_katipa
 
 # Settlements
 max_settlements = 2
-b_katipa_katipa = castle
-b_kolmizda_katipa = city
+b_katipa_katipa = tribal
+#b_kolmizda_katipa = city
 
 # Misc
 culture = scythian

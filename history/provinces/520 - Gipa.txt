@@ -5,7 +5,7 @@ title = c_gipa
 
 # Settlements
 max_settlements = 1
-b_gipa_gipa = castle
+b_gipa_gipa = tribal
 
 # Misc
 culture = sarmatian

@@ -5,8 +5,8 @@ title = c_tamapa
 
 # Settlements
 max_settlements = 2
-b_tamapa_tamapa = castle
-b_satapasu_tamapa = city
+b_tamapa_tamapa = tribal
+#b_satapasu_tamapa = city
 
 # Misc
 culture = scythian

@@ -5,10 +5,10 @@ title = c_geneva
 
 # Settlements
 max_settlements = 4
-b_geneva_geneva = castle
+b_geneva_geneva = tribal
 b_boutae_geneva = temple
-b_vintium_geneva = city
-b_albinnum_geneva = castle
+#b_vintium_geneva = city
+#b_albinnum_geneva = castle
 
 # Misc
 culture = gaul

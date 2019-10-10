@@ -5,10 +5,10 @@ title = c_vesontio
 
 # Settlements
 max_settlements = 4
-b_vesontio_vesontio = castle
-b_epamanduodurum_vesontio = castle
-b_ariorica_vesontio = city
-b_ledo_vesontio = castle
+b_vesontio_vesontio = tribal
+#b_epamanduodurum_vesontio = castle
+#b_ariorica_vesontio = city
+#b_ledo_vesontio = castle
 
 # Misc
 culture = gaul

@@ -5,7 +5,7 @@ title = c_tillibari
 
 # Settlements
 max_settlements = 3
-b_tillibari_tillibari = castle
+b_tillibari_tillibari = tribal
 
 # Misc
 culture = berber

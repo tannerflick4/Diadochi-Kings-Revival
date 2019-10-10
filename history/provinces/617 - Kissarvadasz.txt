@@ -5,8 +5,8 @@ title = c_kissarvadasz
 
 # Settlements
 max_settlements = 2
-b_kissarvadasz_kissarvadasz = castle
-b_huar_kissarvadasz = city
+b_kissarvadasz_kissarvadasz = tribal
+#b_huar_kissarvadasz = city
 
 # Misc
 culture = scythian

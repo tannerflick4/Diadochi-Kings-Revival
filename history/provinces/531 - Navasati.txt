@@ -5,7 +5,7 @@ title = c_navasati
 
 # Settlements
 max_settlements = 1
-b_navasati_navasati = castle
+b_navasati_navasati = tribal
 
 # Misc
 culture = scythian

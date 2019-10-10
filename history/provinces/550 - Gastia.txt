@@ -5,8 +5,8 @@ title = c_gastia
 
 # Settlements
 max_settlements = 2
-b_gastia_gastia = castle
-b_bratakol_gastia = city
+b_gastia_gastia = tribal
+#b_bratakol_gastia = city
 
 # Misc
 culture = scythian

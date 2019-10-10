@@ -5,7 +5,7 @@ title = c_payporata
 
 # Settlements
 max_settlements = 1
-b_payporata_payporata = castle
+b_payporata_payporata = tribal
 
 # Misc
 culture = sarmatian

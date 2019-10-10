@@ -5,9 +5,9 @@ title = c_colaxais
 
 # Settlements
 max_settlements = 3
-b_colaxais_colaxais = castle
-b_manur_colaxais = city
-b_kukol_colaxais = castle
+b_colaxais_colaxais = tribal
+#b_manur_colaxais = city
+#b_kukol_colaxais = castle
 
 # Misc
 culture = scythian

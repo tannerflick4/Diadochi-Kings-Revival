@@ -5,9 +5,9 @@ title = c_aspamesakapa
 
 # Settlements
 max_settlements = 3
-b_aspamesakapa_aspamesakapa = castle
+b_aspamesakapa_aspamesakapa = tribal
 b_takol_aspamesakapa = temple
-b_vaskikol_aspamesakapa = castle
+#b_vaskikol_aspamesakapa = castle
 
 # Misc
 culture = scythian

@@ -5,8 +5,8 @@ title = c_garama
 
 # Settlements
 max_settlements = 4
-b_garama_garama = castle
-b_tinda_garama = city
+b_garama_garama = tribal
+#b_tinda_garama = city
 b_lecksair_garama = temple
 
 # Misc

@@ -5,9 +5,9 @@ title = c_cabilonnum
 
 # Settlements
 max_settlements = 3
-b_cabilonnum_cabilonnum = castle
-b_tinurtium_cabilonnum = city
-b_pons_dubris_cabilonnum = city
+b_cabilonnum_cabilonnum = tribal
+#b_tinurtium_cabilonnum = city
+#b_pons_dubris_cabilonnum = city
 
 # Misc
 culture = gaul

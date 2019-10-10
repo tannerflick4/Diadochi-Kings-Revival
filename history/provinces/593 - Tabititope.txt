@@ -5,8 +5,8 @@ title = c_tabititope
 
 # Settlements
 max_settlements = 2
-b_tabititope_tabititope = castle
-b_stanasati_tabititope = city
+b_tabititope_tabititope = tribal
+#b_stanasati_tabititope = city
 
 # Misc
 culture = scythian

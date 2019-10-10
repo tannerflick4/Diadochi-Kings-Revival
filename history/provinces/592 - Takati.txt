@@ -5,7 +5,7 @@ title = c_takati
 
 # Settlements
 max_settlements = 1
-b_takati_takati = castle
+b_takati_takati = tribal
 
 # Misc
 culture = scythian

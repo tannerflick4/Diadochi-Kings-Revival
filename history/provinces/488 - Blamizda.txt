@@ -5,7 +5,7 @@ title = c_blamizda
 
 # Settlements
 max_settlements = 2
-b_blamizda_blamizda = castle
+b_blamizda_blamizda = tribal
 b_jaraca_blamizda = temple
 
 # Misc

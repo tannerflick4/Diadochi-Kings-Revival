@@ -5,8 +5,8 @@ title = c_gunugu
 
 # Settlements
 max_settlements = 2
-b_gunugu_gunugu = castle
-b_cartili_gunugu = city
+b_gunugu_gunugu = tribal
+#b_cartili_gunugu = city
 
 # Misc
 culture = berber

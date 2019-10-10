@@ -5,9 +5,9 @@ title = c_bellunum
 
 # Settlements
 max_settlements = 3
-b_bellunum_bellunum = castle
-b_feltria_bellunum = city
-b_littamum_bellunum = castle
+b_bellunum_bellunum = tribal
+#b_feltria_bellunum = city
+#b_littamum_bellunum = castle
 
 # Misc
 culture = venetic

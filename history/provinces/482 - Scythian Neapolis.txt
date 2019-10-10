@@ -5,10 +5,10 @@ title = c_scythian_neapolis
 
 # Settlements
 max_settlements = 4
-b_scythian_neapolis_scythian_neapolis = castle
-b_api_scythian_neapolis = temple
-b_kissarkol_scythian_neapolis = castle
-b_sakol_scythian_neapolis = city
+b_scythian_neapolis_scythian_neapolis = tribal
+#b_api_scythian_neapolis = temple
+#b_kissarkol_scythian_neapolis = castle
+#b_sakol_scythian_neapolis = city
 
 # Misc
 culture = scythian

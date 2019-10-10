@@ -5,7 +5,7 @@ title = c_ilerda
 
 # Settlements
 max_settlements = 1
-b_iltirta_ilerda = castle
+b_iltirta_ilerda = tribal
 
 # Misc
 culture = iberian

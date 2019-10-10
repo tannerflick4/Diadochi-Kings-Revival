@@ -5,10 +5,10 @@ title = c_acci
 
 # Settlements
 max_settlements = 4
-b_acci_acci = castle
+b_acci_acci = tribal
 #b_vergilia_acci = city
-b_iliberri_acci = city
-b_bactara_acci = castle
+#b_iliberri_acci = city
+#b_bactara_acci = castle
 
 # Misc
 culture = turdetanian

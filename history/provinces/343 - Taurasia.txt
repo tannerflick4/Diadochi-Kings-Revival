@@ -5,9 +5,9 @@ title = c_taurasia # for example c_corinth
 
 # Settlements
 max_settlements = 3
-b_pollentia_taurasia = castle
-b_pedona_taurasia = castle
-b_carreum_potentia_taurasia = city
+b_pollentia_taurasia = tribal
+#b_pedona_taurasia = castle
+#b_carreum_potentia_taurasia = city
 
 # Misc
 culture = ligurian

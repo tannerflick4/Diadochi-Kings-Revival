@@ -5,10 +5,10 @@ title = c_rhizon # for example c_corinth
 
 # Settlements
 max_settlements = 4
-b_rhizon_rhizon = castle
-b_stagnum_rhizon = city
-b_epidaurum_rhizon = city
-b_salthua_rhizon = castle
+b_rhizon_rhizon = tribal
+#b_stagnum_rhizon = city
+#b_epidaurum_rhizon = city
+#b_salthua_rhizon = castle
 
 # Misc
 culture = illyrian

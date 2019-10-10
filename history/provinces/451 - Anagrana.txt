@@ -5,10 +5,10 @@ title = c_anagrana
 
 # Settlements
 max_settlements = 4
-b_anagrana_anagrana = castle
-b_marma_anagrana = city
-b_phoda_anagrana = castle
-b_baitios_anagrana = city
+b_anagrana_anagrana = tribal
+#b_marma_anagrana = city
+#b_phoda_anagrana = castle
+#b_baitios_anagrana = city
 
 # Misc
 culture = arabic

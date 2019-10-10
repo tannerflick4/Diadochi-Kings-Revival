@@ -5,7 +5,7 @@ title = c_dapanti
 
 # Settlements
 max_settlements = 2
-b_dapanti_dapanti = castle
+b_dapanti_dapanti = tribal
 b_tada_dapanti = temple
 
 # Misc

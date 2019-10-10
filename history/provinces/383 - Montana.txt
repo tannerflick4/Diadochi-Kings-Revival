@@ -5,10 +5,10 @@ title = c_montana
 
 # Settlements
 max_settlements = 4
-b_montana_montana = castle
-b_tautiomosis_montana = city
-b_vorovum_montana = city
-b_meldia_montana = castle
+b_montana_montana = tribal
+#b_tautiomosis_montana = city
+#b_vorovum_montana = city
+#b_meldia_montana = castle
 
 # Misc
 culture = thracian

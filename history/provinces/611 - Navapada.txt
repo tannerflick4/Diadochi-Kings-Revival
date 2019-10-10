@@ -5,7 +5,7 @@ title = c_navapada
 
 # Settlements
 max_settlements = 1
-b_navapada_navapada = castle
+b_navapada_navapada = tribal
 
 # Misc
 culture = scythian

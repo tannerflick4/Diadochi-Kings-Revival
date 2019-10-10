@@ -5,10 +5,10 @@ title = c_gadara
 
 # Settlements
 max_settlements = 4
-b_gadara_gadara = castle
+b_gadara_gadara = tribal
 b_abila_gadara = temple
-b_hippos_gadara = city
-b_gerasa_gadara = castle
+#b_hippos_gadara = city
+#b_gerasa_gadara = castle
 
 # Misc
 culture = nabataean

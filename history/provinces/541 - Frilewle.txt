@@ -5,7 +5,7 @@ title = c_frilewle
 
 # Settlements
 max_settlements = 1
-b_frilewle_frilewle = castle
+b_frilewle_frilewle = tribal
 
 # Misc
 culture = scythian

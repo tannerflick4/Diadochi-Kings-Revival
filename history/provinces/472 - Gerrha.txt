@@ -5,11 +5,11 @@ title = c_gerrha
 
 # Settlements
 max_settlements = 5
-b_gerrha_gerrha = castle
+b_gerrha_gerrha = tribal
 b_sata_gerrha = temple
-b_tilbana_gerrha = city
-b_ibirtha_gerrha = castle
-b_ithar_gerrha = city
+#b_tilbana_gerrha = city
+#b_ibirtha_gerrha = castle
+#b_ithar_gerrha = city
 
 # Misc
 culture = arabic

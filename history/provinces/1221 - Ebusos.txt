@@ -11,6 +11,5 @@ b_ibossim_ebusos = castle
 culture = punic
 religion = punic_main
 
-
 # History
 # Can be filled when things change around the province

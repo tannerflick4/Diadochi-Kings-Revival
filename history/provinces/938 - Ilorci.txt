@@ -5,7 +5,7 @@ title = c_ilorci
 
 # Settlements
 max_settlements = 1
-b_ilorci_ilorci = castle
+b_ilorci_ilorci = tribal
 
 # Misc
 culture = iberian

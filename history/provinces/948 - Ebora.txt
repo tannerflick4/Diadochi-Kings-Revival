@@ -5,10 +5,10 @@ title = c_ebora
 
 # Settlements
 max_settlements = 6
-b_ebora_ebora = castle
-b_salacia_ebora = city
+b_ebora_ebora = tribal
+#b_salacia_ebora = city
 #b_malateca_ebora = city
-b_mirobriga_ebora = castle
+#b_mirobriga_ebora = castle
 b_calanta_ebora = temple
 #b_caetobriga_ebore = city
 

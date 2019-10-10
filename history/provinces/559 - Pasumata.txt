@@ -5,7 +5,7 @@ title = c_pasumata
 
 # Settlements
 max_settlements = 1
-b_pasumata_pasumata = castle
+b_pasumata_pasumata = tribal
 
 # Misc
 culture = scythian

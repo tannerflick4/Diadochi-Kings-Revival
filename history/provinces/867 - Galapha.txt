@@ -5,7 +5,7 @@ title = c_galapha
 
 # Settlements
 max_settlements = 1
-b_galapha_galapha = castle
+b_galapha_galapha = tribal
 
 # Misc
 culture = berber

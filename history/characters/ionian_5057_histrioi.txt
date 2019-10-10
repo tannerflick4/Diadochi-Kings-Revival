@@ -1,0 +1,79 @@
+# 55101-55200 for the Histrioi dynasty
+# All rulers here are made up to make Histria playable.
+55101 = {
+	name = "Epikouros"
+	dynasty = 5057
+	culture = ionian
+	religion = greek_main
+	
+	375.1.1 = { # 401 BC, Made up
+		birth="yes"
+	}
+	436.1.1 = { # 340 BC, Made up
+		death="yes"
+	}
+}
+
+55102 = {
+	name = "Solon"
+	dynasty = 5057
+	culture = ionian
+	religion = greek_main
+
+    father = 55101
+	
+	390.1.1 = { # 386 BC, Made up
+		birth="yes"
+	}
+	427.1.1 = { # 349 BC, Made up
+		death="yes"
+	}
+}
+
+55103 = {
+	name = "Theron"
+	dynasty = 5057
+	culture = ionian
+	religion = greek_main
+
+    father = 55102
+	
+	409.1.1 = { # 367 BC, Made up
+		birth="yes"
+	}
+	477.1.1 = { # 299 BC, Made up
+		death="yes"
+	}
+}
+
+55104 = {
+	name = "Epikouros"
+	dynasty = 5057
+	culture = ionian
+	religion = greek_main
+
+    father = 55103
+	
+	457.1.1 = { # 319 BC, Made up
+		birth="yes"
+	}
+	501.1.1 = { # 275 BC, Made up
+		death="yes"
+	}
+}
+
+55105 = {
+	name = "Solon"
+	dynasty = 5057
+	culture = ionian
+	religion = greek_main
+
+    father = 55104
+	
+	481.1.1 = { # 295 BC, Made up
+		birth="yes"
+	}
+	558.1.1 = { # 222 BC, Made up
+		death="yes"
+	}
+}

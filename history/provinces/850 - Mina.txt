@@ -5,9 +5,9 @@ title = c_mina
 
 # Settlements
 max_settlements = 3
-b_mina_mina = castle
-b_gadaum_mina = city
-b_vagal_mina = city
+b_mina_mina = tribal
+#b_gadaum_mina = city
+#b_vagal_mina = city
 
 # Misc
 culture = berber

@@ -5,8 +5,8 @@ title = c_paradatapa
 
 # Settlements
 max_settlements = 2
-b_paradatapa_paradatapa = castle
-b_hurmizda_paradatapa = city
+b_paradatapa_paradatapa = tribal
+#b_hurmizda_paradatapa = city
 
 # Misc
 culture = sarmatian

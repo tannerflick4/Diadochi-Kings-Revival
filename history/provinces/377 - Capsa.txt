@@ -5,9 +5,9 @@ title = c_capsa
 
 # Settlements
 max_settlements = 4
-b_capsa_capsa = castle
-b_thiges_capsa = city
-b_cerva_capsa = city
+b_capsa_capsa = tribal
+#b_thiges_capsa = city
+#b_cerva_capsa = city
 
 # Possible baronies: (Always add a # in front of a line with these!)
 # b_tullis_tamalleni

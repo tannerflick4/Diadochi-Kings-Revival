@@ -5,8 +5,8 @@ title = c_banasa
 
 # Settlements
 max_settlements = 2
-b_banasa_banasa = castle
-b_thamusida_banasa = city
+b_banasa_banasa = tribal
+#b_thamusida_banasa = city
 
 # Misc
 culture = berber

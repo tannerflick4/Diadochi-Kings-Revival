@@ -5,8 +5,8 @@ title = c_syavaporata
 
 # Settlements
 max_settlements = 2
-b_syavaporata_syavaporata = castle
-b_udkol_syavaporata = city
+b_syavaporata_syavaporata = tribal
+#b_udkol_syavaporata = city
 
 # Misc
 culture = scythian

@@ -5,7 +5,7 @@ title = c_murgi
 
 # Settlements
 max_settlements = 1
-b_murgi_murgi = castle
+b_murgi_murgi = city
 
 # Misc
 culture = iberian

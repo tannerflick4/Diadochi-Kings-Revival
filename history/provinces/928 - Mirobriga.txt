@@ -5,8 +5,8 @@ title = c_mirobriga
 
 # Settlements
 max_settlements = 3
-b_mirobirga_mirobriga = castle
-b_baedro_mirobriga = castle
+b_mirobirga_mirobriga = tribal
+#b_baedro_mirobriga = castle
 b_solia_mirobriga = temple
 
 # Misc

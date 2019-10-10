@@ -5,8 +5,8 @@ title = c_adapa
 
 # Settlements
 max_settlements = 2
-b_adapa_adapa = castle
-b_navaud_adapa = city
+b_adapa_adapa = tribal
+#b_navaud_adapa = city
 
 # Misc
 culture = sarmatian

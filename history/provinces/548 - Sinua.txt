@@ -5,8 +5,8 @@ title = c_sinua
 
 # Settlements
 max_settlements = 2
-b_sinua_sinua = castle
-b_padalo_sinua = city
+b_sinua_sinua = tribal
+#b_padalo_sinua = city
 
 # Misc
 culture = scythian

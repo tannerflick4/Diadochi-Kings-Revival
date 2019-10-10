@@ -5,8 +5,8 @@ title = c_katarun
 
 # Settlements
 max_settlements = 2
-b_katarun_katarun = castle
-b_zurkol_katarun = castle
+b_katarun_katarun = tribal
+#b_zurkol_katarun = castle
 
 # Misc
 culture = scythian

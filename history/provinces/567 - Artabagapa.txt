@@ -5,8 +5,8 @@ title = c_artabagapa
 
 # Settlements
 max_settlements = 2
-b_artabagapa_artabagapa = castle
-b_axsainakol_artabagapa = temple
+b_artabagapa_artabagapa = tribal
+#b_axsainakol_artabagapa = temple
 
 # Misc
 culture = scythian

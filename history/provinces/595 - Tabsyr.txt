@@ -5,7 +5,7 @@ title = c_tabsyr
 
 # Settlements
 max_settlements = 1
-b_tabsyr_tabsyr = castle
+b_tabsyr_tabsyr = tribal
 
 # Misc
 culture = scythian

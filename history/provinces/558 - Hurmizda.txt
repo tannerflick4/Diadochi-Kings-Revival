@@ -5,8 +5,8 @@ title = c_hurmizda
 
 # Settlements
 max_settlements = 2
-b_hurmizda_hurmizda = castle
-b_udca_hurmizda = city
+b_hurmizda_hurmizda = tribal
+#b_udca_hurmizda = city
 
 # Misc
 culture = scythian

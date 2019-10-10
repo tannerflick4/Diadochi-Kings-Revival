@@ -4,17 +4,11 @@
 title = c_luna # for example c_corinth
 
 # Settlements
-max_settlements = 6 # Should be reevaluated
-b_luna_luna = castle
-b_boron_luna = city
+max_settlements = 4
+b_luna_luna = tribal
+#b_boron_luna = city
 b_segeste_luna = temple
-b_ricina_luna = castle
-
-# Possible baronies: (Always add a # in front of a line with these!)
-#
-#
-#
-#
+#b_ricina_luna = castle
 
 # Misc
 culture = ligurian

@@ -5,8 +5,8 @@ title = c_garia
 
 # Settlements
 max_settlements = 2
-b_garia_garia = castle
-b_huar_garia = city
+b_garia_garia = tribal
+#b_huar_garia = city
 
 # Misc
 culture = scythian

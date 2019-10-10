@@ -5,8 +5,8 @@ title = c_mursa
 
 # Settlements
 max_settlements = 3
-b_mursa_mursa = castle
-b_mursella_mursa = city
+b_mursa_mursa = tribal
+#b_mursella_mursa = city
 b_donatlanis_mursa = temple
 
 # Misc

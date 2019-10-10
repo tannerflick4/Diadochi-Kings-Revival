@@ -4,17 +4,11 @@
 title = c_tarquinii # for example c_corinth
 
 # Settlements
-max_settlements = 6 # Should be reevaluated
+max_settlements = 4
 b_tarquinii_tarquinii = castle
 b_tuscania_tarquinii = temple
 b_blera_tarquinii = city
 b_punicum_tarquinii = castle
-
-# Possible baronies: (Always add a # in front of a line with these!)
-#
-#
-#
-#
 
 # Misc
 culture = etruscan

@@ -1,5 +1,6 @@
 413.1.1 = { # 363 BC
 	holder = 340002 # Azes
+	historical_nomad = yes
 }
 460.1.1 = { # 316 BC
 	holder = 340001 # Akrosander

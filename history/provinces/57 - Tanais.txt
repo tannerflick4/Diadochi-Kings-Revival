@@ -5,9 +5,9 @@ title = c_tanais # for example c_corinth
 
 # Settlements
 max_settlements = 3
-b_tanais_tanais = castle
-b_hygreis_tanais = castle
-b_karoia_tanais = city
+b_tanais_tanais = tribal
+#b_hygreis_tanais = castle
+#b_karoia_tanais = city
 
 # Misc
 culture = scythian

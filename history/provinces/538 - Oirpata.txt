@@ -5,8 +5,8 @@ title = c_oirpata
 
 # Settlements
 max_settlements = 2
-b_oirpata_oirpata = castle
-b_matasco_oirpata = city
+b_oirpata_oirpata = tribal
+#b_matasco_oirpata = city
 
 # Misc
 culture = scythian

@@ -1,0 +1,79 @@
+# 55301-55400 for the Apollonioi dynasty
+# All rulers here are made up to make Apollonia in Thrace playable.
+55301 = {
+	name = "Heron"
+	dynasty = 5059
+	culture = ionian
+	religion = greek_main
+	
+	395.1.1 = { # 381 BC, Made up
+		birth="yes"
+	}
+	442.1.1 = { # 339 BC, Made up
+		death="yes"
+	}
+}
+
+55302 = {
+	name = "Kallias"
+	dynasty = 5059
+	culture = ionian
+	religion = greek_main
+
+    father = 55301
+	
+	419.1.1 = { # 357 BC, Made up
+		birth="yes"
+	}
+	470.1.1 = { # 306 BC, Made up
+		death="yes"
+	}
+}
+
+55303 = {
+	name = "Kyros"
+	dynasty = 5059
+	culture = ionian
+	religion = greek_main
+
+    father = 55302
+	
+	440.1.1 = { # 336 BC, Made up
+		birth="yes"
+	}
+	471.1.1 = { # 305 BC, Made up
+		death="yes"
+	}
+}
+
+55304 = {
+	name = "Kallias"
+	dynasty = 5059
+	culture = ionian
+	religion = greek_main
+
+    father = 55303
+	
+	457.1.1 = { # 319 BC, Made up
+		birth="yes"
+	}
+	524.1.1 = { # 252 BC, Made up
+		death="yes"
+	}
+}
+
+55305 = {
+	name = "Heron"
+	dynasty = 5059
+	culture = ionian
+	religion = greek_main
+
+    father = 55304
+	
+	486.1.1 = { # 290 BC, Made up
+		birth="yes"
+	}
+	525.1.1 = { # 251 BC, Made up
+		death="yes"
+	}
+}

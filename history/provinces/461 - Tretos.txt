@@ -5,9 +5,9 @@ title = c_tretos
 
 # Settlements
 max_settlements = 3
-b_tretos_tretos = castle
-b_bana_tretos = city
-b_hyela_tretos = city
+b_tretos_tretos = tribal
+#b_bana_tretos = city
+#b_hyela_tretos = city
 
 # Misc
 culture = arabic

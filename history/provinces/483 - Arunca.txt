@@ -5,8 +5,8 @@ title = c_arunca
 
 # Settlements
 max_settlements = 2
-b_arunca_arunca = castle
-b_takol_arunca = city
+b_arunca_arunca = tribal
+#b_takol_arunca = city
 
 # Misc
 culture = scythian

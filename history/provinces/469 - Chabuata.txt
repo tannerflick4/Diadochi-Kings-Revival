@@ -5,10 +5,10 @@ title = c_chabuata
 
 # Settlements
 max_settlements = 4
-b_chabuata_chabuata = castle
-b_appa_chabuata = city
-b_rhegana_chabuata = city
-b_cryptus_chabuata = city
+b_chabuata_chabuata = tribal
+#b_appa_chabuata = city
+#b_rhegana_chabuata = city
+#b_cryptus_chabuata = city
 
 # Misc
 culture = arabic

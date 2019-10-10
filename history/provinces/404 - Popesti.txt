@@ -5,8 +5,8 @@ title = c_popesti
 
 # Settlements
 max_settlements = 3
-b_popesti_popesti = castle
-b_alexandria_popesti = city
+b_popesti_popesti = tribal
+#b_alexandria_popesti = city
 b_telendova_popesti = temple
 
 # Misc

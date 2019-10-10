@@ -5,8 +5,8 @@ title = c_agaraskapa
 
 # Settlements
 max_settlements = 2
-b_agaraskapa_agaraskapa = castle
-b_bratakol_agaraskapa = city
+b_agaraskapa_agaraskapa = tribal
+#b_bratakol_agaraskapa = city
 
 # Misc
 culture = scythian

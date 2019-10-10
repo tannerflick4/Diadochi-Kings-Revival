@@ -5,8 +5,8 @@ title = c_syavakuspa
 
 # Settlements
 max_settlements = 2
-b_syavakuspa_syavakuspa = castle
-b_gikol_syavakuspa = city
+b_syavakuspa_syavakuspa = tribal
+#b_gikol_syavakuspa = city
 
 # Misc
 culture = sarmatian

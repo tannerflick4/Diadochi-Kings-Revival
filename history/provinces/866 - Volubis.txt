@@ -5,8 +5,8 @@ title = c_volubis
 
 # Settlements
 max_settlements = 2
-b_volubis_volubis = castle
-b_tocolosida_volubis = castle
+b_volubis_volubis = tribal
+#b_tocolosida_volubis = castle
 
 # Misc
 culture = berber

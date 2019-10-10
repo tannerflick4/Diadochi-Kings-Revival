@@ -1,0 +1,79 @@
+# 55201-55300 for the Odessioi dynasty
+# All rulers here are made up to make Odessos playable.
+55201 = {
+	name = "Damasias"
+	dynasty = 5058
+	culture = ionian
+	religion = greek_main
+	
+	358.1.1 = { # 418 BC, Made up
+		birth="yes"
+	}
+	435.1.1 = { # 341 BC, Made up
+		death="yes"
+	}
+}
+
+55202 = {
+	name = "Damasias"
+	dynasty = 5058
+	culture = ionian
+	religion = greek_main
+
+    father = 55201
+	
+	403.1.1 = { # 373 BC, Made up
+		birth="yes"
+	}
+	436.1.1 = { # 340 BC, Made up
+		death="yes"
+	}
+}
+
+55203 = {
+	name = "Aischines"
+	dynasty = 5058
+	culture = ionian
+	religion = greek_main
+
+    father = 55202
+	
+	428.1.1 = { # 348 BC, Made up
+		birth="yes"
+	}
+	495.1.1 = { # 281 BC, Made up
+		death="yes"
+	}
+}
+
+55204 = {
+	name = "Diogenes"
+	dynasty = 5058
+	culture = ionian
+	religion = greek_main
+
+    father = 55203
+	
+	470.1.1 = { # 306 BC, Made up
+		birth="yes"
+	}
+	513.1.1 = { # 263 BC, Made up
+		death="yes"
+	}
+}
+
+55205 = {
+	name = "Damasias"
+	dynasty = 5058
+	culture = ionian
+	religion = greek_main
+
+    father = 55204
+	
+	495.1.1 = { # 281 BC, Made up
+		birth="yes"
+	}
+	554.1.1 = { # 222 BC, Made up
+		death="yes"
+	}
+}

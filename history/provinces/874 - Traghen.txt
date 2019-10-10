@@ -2,9 +2,10 @@
 
 # County Title
 title = c_traghen
+
 # Settlements
 max_settlements = 3
-b_traghen_traghen = castle
+b_traghen_traghen = tribal
 b_murzuch_traghen = temple
 
 # Misc

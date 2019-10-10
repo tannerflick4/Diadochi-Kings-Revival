@@ -5,9 +5,9 @@ title = c_myrtilis
 
 # Settlements
 max_settlements = 3
-b_myrtilis_myrtilis = castle
-b_arandis_myrtilis = castle
-b_vipascens_myrtilis = castle
+b_myrtilis_myrtilis = tribal
+#b_arandis_myrtilis = castle
+#b_vipascens_myrtilis = castle
 
 # Misc
 culture = celtiberian

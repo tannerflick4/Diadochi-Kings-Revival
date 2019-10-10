@@ -5,8 +5,8 @@ title = c_satar
 
 # Settlements
 max_settlements = 2
-b_satar_satar = castle
-b_daar_satar = castle
+b_satar_satar = tribal
+b_daar_satar = tribal
 
 # Misc
 culture = scythian

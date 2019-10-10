@@ -5,8 +5,8 @@ title = c_agarmadupa
 
 # Settlements
 max_settlements = 2
-b_agarmadupa_agarmadupa = castle
-b_zevakar_agarmadupa = city
+b_agarmadupa_agarmadupa = tribal
+#b_zevakar_agarmadupa = city
 
 # Misc
 culture = sarmatian

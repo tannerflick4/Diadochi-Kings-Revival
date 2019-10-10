@@ -5,8 +5,8 @@ title = c_tabar
 
 # Settlements
 max_settlements = 2
-b_tabar_tabar = castle
-b_urori_tabar = city
+b_tabar_tabar = tribal
+#b_urori_tabar = city
 
 # Misc
 culture = scythian
