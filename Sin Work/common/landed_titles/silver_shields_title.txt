@@ -1,0 +1,23 @@
+d_silver_shields = {
+	color = { 197 197 197 }
+	color2 = { 255 255 255 }
+	
+	capital = 195 #Babylon
+
+	culture = macedonian
+	religion = greek_main
+	
+	mercenary = yes
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+
+	# Cannot be held as a secondary title
+	primary = yes
+
+	mercenary_type = d_silver_shields_comp
+}
