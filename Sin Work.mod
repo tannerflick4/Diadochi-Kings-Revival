@@ -1,3 +1,3 @@
 name = "DK Work"
 path = "mod/Sin Work"
-dependencies = { "diadochi" }
+dependencies = { "Diadochi Kings" }
