@@ -33,7 +33,7 @@
 	culture = berber
 	religion = berber_main
 
-	father = 260401
+	father = 260402
 
 	467.1.1 = { # 309 BC, Made up
 		birth="yes"

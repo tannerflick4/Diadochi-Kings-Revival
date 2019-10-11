@@ -24,10 +24,11 @@ society_decisions = { # Society decisions are only evaluated by members of socie
 			hidden_tooltip = {
 				OR = { #In some societies, there can only be 1 member at rank 4
 					society_rank < 3
-					NOR = {
-						society_member_of = the_assassins
-						is_devil_worshiper_trigger = yes
-					}
+					# NOR = {
+						# society_member_of = the_assassins
+						# is_devil_worshiper_trigger = yes
+					# }
+					NOT = { is_devil_worshiper_trigger = yes }
 				}
 				society_rank < 4
 				days_in_society > 365
@@ -206,10 +207,10 @@ society_decisions = { # Society decisions are only evaluated by members of socie
 				text = must_have_multiple_rank_4 #Society must allow multiple characters at Rank 4
 				NAND = {
 					society_rank == 3
-					OR = {
-						society_member_of = the_assassins
+					# OR = {
+						# society_member_of = the_assassins
 						is_devil_worshiper_trigger = yes
-					}
+					# }
 				}
 			}
 		}
@@ -260,14 +261,14 @@ society_decisions = { # Society decisions are only evaluated by members of socie
 					character_event = { id = MNM.10002 days = 20 random = 10 } # sends hidden delayed event to self, which then sends request to Leader of the society
 					
 					#Conversus power for benedictines
-					if = {
-						limit = {
-							society_member_of = monastic_order_benedictine
-							society_rank == 3
-						}
+					# if = {
+						# limit = {
+							# society_member_of = monastic_order_benedictine
+							# society_rank == 3
+						# }
 						#character_event = { id = MNM.4600 days = 10 random = 350 }
 						# TODO: Readd if important.
-					}
+					# }
 				}
 			}
 		}
@@ -575,7 +576,7 @@ society_decisions = {
 		
 		potential = {
 			is_monastic_member_trigger = yes
-			NOT = { society_member_of = monastic_order_stoics }
+			# NOT = { society_member_of = monastic_order_stoics }
 			OR = {
 				has_quest = quest_monastic_order_donate_to_charity
 				NOT = { has_character_modifier = recently_donated_to_charity}
@@ -1033,7 +1034,7 @@ targeted_decisions = {
 			NAND = {
 				ai = yes
 				FROM = { ai = yes }
-				NOT = { can_join_society = the_trollcrafters }
+				NOT = { can_join_society = the_cult_of_kali }
 			}
 
 			#Blocks so AI recruits sensible people (who might say no)
@@ -2181,37 +2182,9 @@ targeted_decisions = {
 						}
 					}
 					AND = {
-						society_member_of = the_cold_ones
-						is_society_rank_full = {
-							society = the_cold_ones
-							rank = 1
-						}
-					}
-					AND = {
-						society_member_of = the_plaguebringers
-						is_society_rank_full = {
-							society = the_plaguebringers
-							rank = 1
-						}
-					}
-					AND = {
 						society_member_of = the_cult_of_kali
 						is_society_rank_full = {
 							society = the_cult_of_kali
-							rank = 1
-						}
-					}
-					AND = {
-						society_member_of = the_trollcrafters
-						is_society_rank_full = {
-							society = the_trollcrafters
-							rank = 1
-						}
-					}
-					AND = {
-						society_member_of = the_vodouns
-						is_society_rank_full = {
-							society = the_vodouns
 							rank = 1
 						}
 					}

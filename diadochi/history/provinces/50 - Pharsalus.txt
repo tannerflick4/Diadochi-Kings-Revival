@@ -1,0 +1,20 @@
+# 50 - Pharsalus
+
+# County Title
+title = c_pharsalus
+
+# Settlements
+max_settlements = 5
+b_pharsalus_pharsalus = castle
+b_pharsalus1_pharsalus = city
+b_pharsalus2_pharsalus = temple
+b_pharsalus3_pharsalus = castle
+b_pharsalus4_pharsalus = city
+#b_pharsalus5_pharsalus = temple
+#b_pharsalus6_pharsalus = castle
+
+# Misc
+culture = aeolian
+religion = greek_main
+
+# History

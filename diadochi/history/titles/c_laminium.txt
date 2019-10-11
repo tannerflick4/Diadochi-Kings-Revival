@@ -2,3 +2,7 @@
 	holder = 420601 # Elazunos
 	liege = d_carpetani
 }
+467.1.1 = {
+	holder = 0
+	liege = 0
+}

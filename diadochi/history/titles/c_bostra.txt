@@ -4,7 +4,7 @@
 }
 446.1.1 = { # 330 BC
 	holder = 310002 # Paran
-	liege = d_damascus
+	liege = d_nabataea
 }
 447.1.1 = { # 329 BC
 	holder = 310001 # Zabin

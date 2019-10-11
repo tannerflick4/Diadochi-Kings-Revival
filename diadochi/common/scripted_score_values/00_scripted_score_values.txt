@@ -587,10 +587,10 @@ dishonorable_ai_chance_increase_score = {
     }
     modifier = {
         factor = 2
-        OR = {
-            society_member_of = the_assassins
+        # OR = {
+            # society_member_of = the_assassins
             is_devil_worshiper_trigger = yes
-        }
+        # }
     }
     modifier = {
         factor = 0.5

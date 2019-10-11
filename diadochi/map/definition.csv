@@ -27,9 +27,9 @@ province;red;green;blue;x;x
 26;42;78;13;Olympia;x
 27;126;84;14;Patra;x
 28;84;81;141;Thermos;x
-29;168;87;142;Ambracia;x
+29;168;87;142;Thesprotia;x
 30;0;90;15;Ilium;x
-31;42;93;143;Amantia;x
+31;42;93;143;Chaonia;x
 32;84;96;16;Lamia;x
 33;126;99;144;Larissa;x
 34;168;102;17;Pella;x
@@ -41,11 +41,14 @@ province;red;green;blue;x;x
 40;79;169;72;Edirne;x
 41;42;123;148;Maroneia;x
 42;84;126;21;Abdera;x
+43;142;47;45;Amantia;x
 44;168;132;22;Lysimachia;x
 45;0;135;150;Byzantion;x
 46;84;3;36;Apollonia;x
 47;168;207;162;Odessos;x
 48;126;144;24;Histria;x
+49;56;49;58;Malis;x
+50;58;22;22;Pharsalus;x
 51;42;153;153;Arbitus;x
 52;84;156;26;Tyras;x
 53;126;159;154;Olbia;x
@@ -57,6 +60,7 @@ province;red;green;blue;x;x
 59;168;177;157;Lyncestis;x
 60;0;180;30;Elimea;x
 61;42;183;158;Epidamnos;x
+62;25;24;56;Ambracia;x
 63;42;30;168;Parthus;x
 64;168;192;32;Scodra;x
 65;0;195;160;Stobi;x
@@ -69,6 +73,7 @@ province;red;green;blue;x;x
 72;84;141;15;Singidunum;x
 73;126;6;164;Ratiara;x
 74;168;9;37;Sala;x
+75;203;52;216;Orestis;x
 76;168;186;167;Abydos;x
 77;94;133;184;Pergamon;x
 78;168;24;167;Cyzicus;x
@@ -77,6 +82,7 @@ province;red;green;blue;x;x
 81;126;21;39;Sardis;x
 82;168;115;115;Miletus;x
 83;84;18;166;Halicarnassus;x
+84;56;56;37;Oichalia;x
 85;120;58;58;Xanthos;x
 86;42;77;166;Termessos;x
 87;148;164;207;Side;x
@@ -259,6 +265,10 @@ province;red;green;blue;x;x
 264;16;65;103;Calame;x
 265;11;87;88;Soxetra;x
 266;19;38;88;Nisaea;x
+267;255;84;198;Albanopolis;x
+268;104;38;35;Uscana;x
+269;107;68;83;Neapolis;x
+270;107;98;40;Scaptobara;x
 271;71;91;141;Alexandria Bactria;x
 272;181;126;156;Bactra;x
 273;118;56;90;Drapsaka;x
@@ -281,6 +291,13 @@ province;red;green;blue;x;x
 290;86;24;40;Boukephala;x
 291;239;94;234;Attock;x
 292;43;178;65;Taxila;x
+293;84;74;107;Bylazora;x
+294;113;114;124;Ainos;x
+295;74;133;168;Bizye;x
+296;165;38;70;Bergoule;x
+297;110;160;211;Mesembria;x
+298;209;87;85;Bourdepa;x
+299;185;80;206;Pistoros;x
 300;102;169;99;Lilybaeum;x
 301;194;110;140;Elymians;x
 302;135;51;214;Selinus;x
@@ -554,6 +571,8 @@ province;red;green;blue;x;x
 570;226;221;74;Zurklopa;x
 571;203;201;137;Kutipanti;x
 572;143;139;25;Sautaska;x
+573;149;165;84;Novae;x
+574;133;136;163;Oescus;x
 575;95;51;91;Mahta;x
 576;181;43;169;Dranpa;x
 577;119;50;113;Navia;x
@@ -608,7 +627,7 @@ province;red;green;blue;x;x
 626;169;175;135;Magnesia;x
 627;211;178;136;Pieria;x
 628;185;133;65;Crestonia;x
-629;174;119;214;Malis;x
+629;174;119;214;Trachis;x
 630;150;106;164;Poteidaia;x
 631;106;106;200;Torone;x
 632;148;219;206;Apollonia;x
@@ -701,6 +720,8 @@ province;red;green;blue;x;x
 719;169;62;208;Pataliputra;x
 720;159;22;112;Asura;x
 721;74;119;134;Rohitaswa;x
+722;195;121;198;Hammeum;x
+723;196;66;75;Agruvium;x
 724;41;162;201;Asthagoura;x
 725;112;87;122;Kusavati;x
 726;132;55;161;Sringivera;x
@@ -775,6 +796,14 @@ province;red;green;blue;x;x
 795;68;171;140;Loha;x
 796;132;201;180;Skardu;x
 797;83;220;176;Lithinos;x
+798;26;23;196;Diluntum;x
+799;184;196;117;Narona;x
+800;193;34;58;Baloia;x
+801;124;167;193;Urbate;x
+802;204;91;174;Salinae;x
+803;62;140;51;Romuliana;x
+804;140;29;29;Viminacium;x
+805;39;83;140;Domavium;x
 806;100;122;98;Sacidava;x
 807;108;174;120;Zurobara;x
 808;91;227;114;Partiskon;x
@@ -952,6 +981,9 @@ province;red;green;blue;x;x
 980;43;37;161;Oiasso;x
 981;22;19;80;Victoriacum;x
 982;58;50;211;Gebala;x
+983;178;128;67;Pelva;x
+984;32;24;178;Metulum;x
+985;255;109;225;Marsonia;x
 986;11;30;28;Pyrenees;x
 987;69;168;102;Gaetulia;x
 988;148;168;77;Targa;x
@@ -966,8 +998,10 @@ province;red;green;blue;x;x
 997;33;198;142;Sahara Desert;x
 998;21;79;32;Alpine mountains;x
 999;84;30;83;Carpathian Mountains;x
+1000;64;114;79;Neviodunum;x
 1001;245;245;245;Tiberias Lake;x
 1002;235;235;235;Israel sea;x
+1003;68;71;117;Serota;x
 1004;215;215;215;Anatolia Lake east;x
 1005;205;205;205;Anatolia Lake west;x
 1006;195;195;195;Epirus Border Lake;x
@@ -1056,13 +1090,78 @@ province;red;green;blue;x;x
 1089;123;185;216;Codanus Sinus;x
 1090;65;214;216;Helinium;x
 1091;117;215;216;Flevum Lacus;x
+1092;107;35;112;Celeia;x
+1093;13;38;112;Iovia;x
+1094;112;41;76;Aquincum;x
+1095;107;109;39;Gorsium;x
+1096;126;58;165;Mogentiana;x
+1097;63;29;76;Savaria;x
+1098;76;67;66;Poetovio;x
+1099;58;76;71;Pola;x
+1100;132;65;147;Teurnia;x
+1101;63;147;131;Lauriacum;x
+1102;147;65;73;Cetium;x
+1103;75;147;147;Vindobona;x
+1104;77;132;165;Brigetio;x
+1105;54;165;147;Mursella;x
+1106;205;58;255;Panormos;x
+1107;193;32;27;Adranon;x
+1108;100;193;184;Hippana;x
+1109;5;33;191;Motyon;x
+1110;190;164;191;Henna;x
+1111;68;191;187;Morgantina;x
+1112;143;161;193;Akragas;x
+1113;159;191;78;Tyndaris;x
+1114;255;2;217;Hipponion;x
+1115;125;255;96;Locris;x
+1116;168;221;97;Caprasia;x
+1117;221;221;70;Potentia;x
+1118;219;37;195;Lupiae;x
+1119;53;64;186;Barium;x
+1120;89;102;219;Grumentum;x
+1121;191;59;79;Aeclanum;x
+1122;109;8;13;Aufidena;x
+1123;89;107;83;Histonium;x
+1124;216;80;205;Mevaniola;x
+1125;147;98;0;Saena;x
+1126;22;73;18;Marruvium;x
+1127;59;42;71;Aquileia;x
+1128;71;16;32;Opilergum;x
+1129;112;65;79;Dertona;x
+1130;186;59;162;Bergomum;x
+1131;76;43;64;Cremona;x
+1132;112;23;39;Mutina;x
+1133;83;73;255;Tartessos;x
+1134;255;153;193;Praesidium;x
+1135;145;141;33;Salacia;x
+1136;65;85;216;Ilici;x
+1137;104;209;216;Lucentum;x
+1138;85;103;219;Sucia;x
+1139;219;63;125;Tongobriga;x
+1140;150;105;175;Malamoneda;x
+1141;41;46;158;Urbiaca;x
+1142;158;120;64;Lassira;x
+1143;49;171;198;Capera;x
+1144;89;24;18;Mantua;x
+1145;66;56;27;Tourmogon;x
+1146;99;30;96;Conimpriga;x
+1147;63;45;62;Elbocoris;x
+1148;14;22;61;Caladunum;x
+1149;30;61;22;Dactionum;x
+1150;64;80;206;Gigia;x
+1151;108;204;197;Uttaris;x
+1152;57;43;255;Ocelum;x
+1153;221;31;78;Pailontion;x
+1154;111;175;79;Alisanco;x
+1155;110;15;112;Celsa;x
+1156;51;112;60;Andelos;x
+1157;75;66;206;Nooulon;x
 1200;23;116;56;Ocules;x
 1201;106;177;78;Toletum;x
 1202;146;177;78;Tamusia;x
 1203;61;188;106;Lama;x
 1204;7;78;69;Arriaca;x
 1205;48;134;123;Miaccum;x
-1206;61;188;106;Capera;x
 1207;108;150;123;Ocelum;x
 1208;130;200;155;Salmantica;x
 1209;52;220;111;Nivaria;x

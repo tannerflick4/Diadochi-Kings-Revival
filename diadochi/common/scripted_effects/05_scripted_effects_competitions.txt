@@ -8955,1046 +8955,1046 @@ post_arm_wrestling_flavor_effect = {
 		} 
 	}
 }
-warrior_lodge_flyting_cleanup_effect = {
-	hidden_tooltip = { 
-		if = { 
-			limit = {
-				event_target:flyting_potential_opponent_1 = { is_alive = yes }
-			}
-			event_target:flyting_potential_opponent_1 = { 
-				clr_character_flag = flyting_strong
-				clr_character_flag = flyting_medium
-				clr_character_flag = flyting_weak
-				clr_character_flag = do_not_disturb
-				clr_character_flag = insulting_prowess
-				clr_character_flag = insulting_prowess_relative
-				clr_character_flag = insulting_character
-				clr_character_flag = insulting_character_poet
-				clr_character_flag = insulting_accomplishments
-				clr_character_flag = insulting_accomplishments_liege
-				clr_character_flag = insulting_family
-				clr_character_flag = insulting_family_cruel
-				set_variable = { which = "flything_patience" value = 0 }
-			}
-		}
-		if = { 
-			limit = {
-				event_target:flyting_potential_opponent_2 = { is_alive = yes }
-			}
-			event_target:flyting_potential_opponent_2 = { 
-				clr_character_flag = flyting_strong
-				clr_character_flag = flyting_medium
-				clr_character_flag = flyting_weak
-				clr_character_flag = do_not_disturb
-				clr_character_flag = insulting_prowess
-				clr_character_flag = insulting_prowess_relative
-				clr_character_flag = insulting_character
-				clr_character_flag = insulting_character_poet
-				clr_character_flag = insulting_accomplishments
-				clr_character_flag = insulting_accomplishments_liege
-				clr_character_flag = insulting_family
-				clr_character_flag = insulting_family_cruel
-				set_variable = { which = "flything_patience" value = 0 }
-			}
-		}
-		if = { 
-			limit = {
-				event_target:flyting_potential_opponent_3 = { is_alive = yes }
-			}
-			event_target:flyting_potential_opponent_3 = { 
-				clr_character_flag = flyting_strong
-				clr_character_flag = flyting_medium
-				clr_character_flag = flyting_weak
-				clr_character_flag = do_not_disturb
-				clr_character_flag = insulting_prowess
-				clr_character_flag = insulting_prowess_relative
-				clr_character_flag = insulting_character
-				clr_character_flag = insulting_character_poet
-				clr_character_flag = insulting_accomplishments
-				clr_character_flag = insulting_accomplishments_liege
-				clr_character_flag = insulting_family
-				clr_character_flag = insulting_family_cruel
-				set_variable = { which = "flything_patience" value = 0 }
-			}
-		}
-		if = { 
-			limit = {
-				event_target:flyting_contender_1 = { is_alive = yes }
-			}
-			event_target:flyting_contender_1 = { 
-				clr_character_flag = flyting_strong
-				clr_character_flag = flyting_medium
-				clr_character_flag = flyting_weak
-				clr_character_flag = do_not_disturb
-				clr_character_flag = insulting_prowess
-				clr_character_flag = insulting_prowess_relative
-				clr_character_flag = insulting_character
-				clr_character_flag = insulting_character_poet
-				clr_character_flag = insulting_accomplishments
-				clr_character_flag = insulting_accomplishments_liege
-				clr_character_flag = insulting_family
-				clr_character_flag = insulting_family_cruel
-				set_variable = { which = "flything_patience" value = 0 }
-			}
-		}
-		if = { 
-			limit = {
-				event_target:flyting_contender_2 = { is_alive = yes }
-			}
-			event_target:flyting_contender_2 = { 
-				clr_character_flag = flyting_strong
-				clr_character_flag = flyting_medium
-				clr_character_flag = flyting_weak
-				clr_character_flag = do_not_disturb
-				clr_character_flag = insulting_prowess
-				clr_character_flag = insulting_prowess_relative
-				clr_character_flag = insulting_character
-				clr_character_flag = insulting_character_poet
-				clr_character_flag = insulting_accomplishments
-				clr_character_flag = insulting_accomplishments_liege
-				clr_character_flag = insulting_family
-				clr_character_flag = insulting_family_cruel
-				set_variable = { which = "flything_patience" value = 0 }
-			}
-		}
-		#And ROOT as well, just to be sure.
-		clr_character_flag = flyting_strong
-		clr_character_flag = flyting_medium
-		clr_character_flag = flyting_weak
-		clr_character_flag = do_not_disturb
-		clr_character_flag = insulting_prowess
-		clr_character_flag = insulting_prowess_relative
-		clr_character_flag = insulting_character
-		clr_character_flag = insulting_character_poet
-		clr_character_flag = insulting_accomplishments
-		clr_character_flag = insulting_accomplishments_liege
-		clr_character_flag = insulting_family
-		clr_character_flag = insulting_family_cruel
-		set_variable = { which = "flything_patience" value = 0 }
-	}
-}
+# warrior_lodge_flyting_cleanup_effect = {
+	# hidden_tooltip = { 
+		# if = { 
+			# limit = {
+				# event_target:flyting_potential_opponent_1 = { is_alive = yes }
+			# }
+			# event_target:flyting_potential_opponent_1 = { 
+				# clr_character_flag = flyting_strong
+				# clr_character_flag = flyting_medium
+				# clr_character_flag = flyting_weak
+				# clr_character_flag = do_not_disturb
+				# clr_character_flag = insulting_prowess
+				# clr_character_flag = insulting_prowess_relative
+				# clr_character_flag = insulting_character
+				# clr_character_flag = insulting_character_poet
+				# clr_character_flag = insulting_accomplishments
+				# clr_character_flag = insulting_accomplishments_liege
+				# clr_character_flag = insulting_family
+				# clr_character_flag = insulting_family_cruel
+				# set_variable = { which = "flything_patience" value = 0 }
+			# }
+		# }
+		# if = { 
+			# limit = {
+				# event_target:flyting_potential_opponent_2 = { is_alive = yes }
+			# }
+			# event_target:flyting_potential_opponent_2 = { 
+				# clr_character_flag = flyting_strong
+				# clr_character_flag = flyting_medium
+				# clr_character_flag = flyting_weak
+				# clr_character_flag = do_not_disturb
+				# clr_character_flag = insulting_prowess
+				# clr_character_flag = insulting_prowess_relative
+				# clr_character_flag = insulting_character
+				# clr_character_flag = insulting_character_poet
+				# clr_character_flag = insulting_accomplishments
+				# clr_character_flag = insulting_accomplishments_liege
+				# clr_character_flag = insulting_family
+				# clr_character_flag = insulting_family_cruel
+				# set_variable = { which = "flything_patience" value = 0 }
+			# }
+		# }
+		# if = { 
+			# limit = {
+				# event_target:flyting_potential_opponent_3 = { is_alive = yes }
+			# }
+			# event_target:flyting_potential_opponent_3 = { 
+				# clr_character_flag = flyting_strong
+				# clr_character_flag = flyting_medium
+				# clr_character_flag = flyting_weak
+				# clr_character_flag = do_not_disturb
+				# clr_character_flag = insulting_prowess
+				# clr_character_flag = insulting_prowess_relative
+				# clr_character_flag = insulting_character
+				# clr_character_flag = insulting_character_poet
+				# clr_character_flag = insulting_accomplishments
+				# clr_character_flag = insulting_accomplishments_liege
+				# clr_character_flag = insulting_family
+				# clr_character_flag = insulting_family_cruel
+				# set_variable = { which = "flything_patience" value = 0 }
+			# }
+		# }
+		# if = { 
+			# limit = {
+				# event_target:flyting_contender_1 = { is_alive = yes }
+			# }
+			# event_target:flyting_contender_1 = { 
+				# clr_character_flag = flyting_strong
+				# clr_character_flag = flyting_medium
+				# clr_character_flag = flyting_weak
+				# clr_character_flag = do_not_disturb
+				# clr_character_flag = insulting_prowess
+				# clr_character_flag = insulting_prowess_relative
+				# clr_character_flag = insulting_character
+				# clr_character_flag = insulting_character_poet
+				# clr_character_flag = insulting_accomplishments
+				# clr_character_flag = insulting_accomplishments_liege
+				# clr_character_flag = insulting_family
+				# clr_character_flag = insulting_family_cruel
+				# set_variable = { which = "flything_patience" value = 0 }
+			# }
+		# }
+		# if = { 
+			# limit = {
+				# event_target:flyting_contender_2 = { is_alive = yes }
+			# }
+			# event_target:flyting_contender_2 = { 
+				# clr_character_flag = flyting_strong
+				# clr_character_flag = flyting_medium
+				# clr_character_flag = flyting_weak
+				# clr_character_flag = do_not_disturb
+				# clr_character_flag = insulting_prowess
+				# clr_character_flag = insulting_prowess_relative
+				# clr_character_flag = insulting_character
+				# clr_character_flag = insulting_character_poet
+				# clr_character_flag = insulting_accomplishments
+				# clr_character_flag = insulting_accomplishments_liege
+				# clr_character_flag = insulting_family
+				# clr_character_flag = insulting_family_cruel
+				# set_variable = { which = "flything_patience" value = 0 }
+			# }
+		# }
+		# #And ROOT as well, just to be sure.
+		# clr_character_flag = flyting_strong
+		# clr_character_flag = flyting_medium
+		# clr_character_flag = flyting_weak
+		# clr_character_flag = do_not_disturb
+		# clr_character_flag = insulting_prowess
+		# clr_character_flag = insulting_prowess_relative
+		# clr_character_flag = insulting_character
+		# clr_character_flag = insulting_character_poet
+		# clr_character_flag = insulting_accomplishments
+		# clr_character_flag = insulting_accomplishments_liege
+		# clr_character_flag = insulting_family
+		# clr_character_flag = insulting_family_cruel
+		# set_variable = { which = "flything_patience" value = 0 }
+	# }
+# }
 
-set_flyting_patience_effect = {
-		hidden_tooltip = {
-			set_variable = { which = "flything_patience" value = 10 } #Depending on traits, will be somewhere between 45 and 5.
-			if = {
-				limit = { NOT = { diplomacy = 5 } }
-				change_variable = { which = "flything_patience" value = -2 }
-			}
-			if = {
-				limit = { NOT = { diplomacy = 10 } }
-				change_variable = { which = "flything_patience" value = -2 }
-			}
-			if = {
-				limit = { NOT = { diplomacy = 15 } }
-				change_variable = { which = "flything_patience" value = -2 }
-			}
-			if = {
-				limit = { trait = patient }
-				change_variable = { which = "flything_patience" value = 10 }
-			}
-			if = {
-				limit = { trait = wroth }
-				change_variable = { which = "flything_patience" value = -5 }
-			}
-			if = {
-				limit = { trait = proud }
-				change_variable = { which = "flything_patience" value = -3 }
-			}
-			if = {
-				limit = { trait = envious }
-				change_variable = { which = "flything_patience" value = -2 }
-			}
-			if = {
-				limit = { trait = naive_appeaser }
-				change_variable = { which = "flything_patience" value = 1 }
-			}
-			if = {
-				limit = { trait = underhanded_rogue }
-				change_variable = { which = "flything_patience" value = 2 }
-			}
-			if = {
-				limit = { trait = charismatic_negotiator }
-				change_variable = { which = "flything_patience" value = 3 }
-			}
-			if = {
-				limit = { trait = grey_eminence }
-				change_variable = { which = "flything_patience" value = 4 }
-			}
-			if = {
-				limit = { trait = drunkard }
-				change_variable = { which = "flything_patience" value = -1 }
-			}
-			if = {
-				limit = { trait = stressed }
-				change_variable = { which = "flything_patience" value = -1 }
-			}
-			if = {
-				limit = { trait = depressed }
-				change_variable = { which = "flything_patience" value = -2 }
-			}
-			if = {
-				limit = { trait = lunatic }
-				change_variable = { which = "flything_patience" value = -2 }
-			}
-			if = {
-				limit = { trait = possessed }
-				change_variable = { which = "flything_patience" value = -2 }
-			}
-			if = {
-				limit = { trait = inbred }
-				change_variable = { which = "flything_patience" value = -2 }
-			}
-			if = {
-				limit = { trait = imbecile }
-				change_variable = { which = "flything_patience" value = -2 }
-			}
-			if = {
-				limit = { trait = slow }
-				change_variable = { which = "flything_patience" value = -1 }
-			}
-			if = {
-				limit = { trait = quick }
-				change_variable = { which = "flything_patience" value = 2 }
-			}
-			if = {
-				limit = { trait = genius }
-				change_variable = { which = "flything_patience" value = 4 }
-			}
-			if = {
-				limit = { trait = dull }
-				change_variable = { which = "flything_patience" value = -1 }
-			}
-			if = {
-				limit = { trait = shrewd }
-				change_variable = { which = "flything_patience" value = 1 }
-			}
-			if = {
-				limit = { trait = gamer }
-				change_variable = { which = "flything_patience" value = 3 }
-			}
-			if = {
-				limit = { trait = socializer }
-				change_variable = { which = "flything_patience" value = 2 }
-			}
-			if = {
-				limit = { trait = poet }
-				change_variable = { which = "flything_patience" value = 1 }
-			}
-			if = {
-				limit = { trait = gregarious }
-				change_variable = { which = "flything_patience" value = 1 }
-			}
-			if = {
-				limit = { trait = shy }
-				change_variable = { which = "flything_patience" value = -1 }
-			}
-			if = {
-				limit = { trait = stubborn }
-				change_variable = { which = "flything_patience" value = -1 }
-			}
-			event_target:flyting_contender_2 = {
-				set_variable = { which = "flything_patience" value = 10 } #Depending on traits, will be somewhere between 45 and 5.
-				if = {
-					limit = { NOT = { diplomacy = 5 } }
-					change_variable = { which = "flything_patience" value = -2 }
-				}
-				if = {
-					limit = { NOT = { diplomacy = 10 } }
-					change_variable = { which = "flything_patience" value = -2 }
-				}
-				if = {
-					limit = { NOT = { diplomacy = 15 } }
-					change_variable = { which = "flything_patience" value = -2 }
-				}
-				if = {
-					limit = { trait = patient }
-					change_variable = { which = "flything_patience" value = 10 }
-				}
-				if = {
-					limit = { trait = wroth }
-					change_variable = { which = "flything_patience" value = -5 }
-				}
-				if = {
-					limit = { trait = proud }
-					change_variable = { which = "flything_patience" value = -3 }
-				}
-				if = {
-					limit = { trait = envious }
-					change_variable = { which = "flything_patience" value = -2 }
-				}
-				if = {
-					limit = { trait = naive_appeaser }
-					change_variable = { which = "flything_patience" value = 1 }
-				}
-				if = {
-					limit = { trait = underhanded_rogue }
-					change_variable = { which = "flything_patience" value = 2 }
-				}
-				if = {
-					limit = { trait = charismatic_negotiator }
-					change_variable = { which = "flything_patience" value = 3 }
-				}
-				if = {
-					limit = { trait = grey_eminence }
-					change_variable = { which = "flything_patience" value = 4 }
-				}
-				if = {
-					limit = { trait = drunkard }
-					change_variable = { which = "flything_patience" value = -1 }
-				}
-				if = {
-					limit = { trait = stressed }
-					change_variable = { which = "flything_patience" value = -1 }
-				}
-				if = {
-					limit = { trait = depressed }
-					change_variable = { which = "flything_patience" value = -2 }
-				}
-				if = {
-					limit = { trait = lunatic }
-					change_variable = { which = "flything_patience" value = -2 }
-				}
-				if = {
-					limit = { trait = possessed }
-					change_variable = { which = "flything_patience" value = -2 }
-				}
-				if = {
-					limit = { trait = inbred }
-					change_variable = { which = "flything_patience" value = -2 }
-				}
-				if = {
-					limit = { trait = imbecile }
-					change_variable = { which = "flything_patience" value = -2 }
-				}
-				if = {
-					limit = { trait = slow }
-					change_variable = { which = "flything_patience" value = -1 }
-				}
-				if = {
-					limit = { trait = quick }
-					change_variable = { which = "flything_patience" value = 2 }
-				}
-				if = {
-					limit = { trait = genius }
-					change_variable = { which = "flything_patience" value = 4 }
-				}
-				if = {
-					limit = { trait = dull }
-					change_variable = { which = "flything_patience" value = -1 }
-				}
-				if = {
-					limit = { trait = shrewd }
-					change_variable = { which = "flything_patience" value = 1 }
-				}
-				if = {
-					limit = { trait = gamer }
-					change_variable = { which = "flything_patience" value = 3 }
-				}
-				if = {
-					limit = { trait = socializer }
-					change_variable = { which = "flything_patience" value = 2 }
-				}
-				if = {
-					limit = { trait = poet }
-					change_variable = { which = "flything_patience" value = 1 }
-				}
-				if = {
-					limit = { trait = gregarious }
-					change_variable = { which = "flything_patience" value = 1 }
-				}
-				if = {
-					limit = { trait = shy }
-					change_variable = { which = "flything_patience" value = -1 }
-				}
-				if = {
-					limit = { trait = stubborn }
-					change_variable = { which = "flything_patience" value = -1 }
-				}
-			}
-		}
+# set_flyting_patience_effect = {
+		# hidden_tooltip = {
+			# set_variable = { which = "flything_patience" value = 10 } #Depending on traits, will be somewhere between 45 and 5.
+			# if = {
+				# limit = { NOT = { diplomacy = 5 } }
+				# change_variable = { which = "flything_patience" value = -2 }
+			# }
+			# if = {
+				# limit = { NOT = { diplomacy = 10 } }
+				# change_variable = { which = "flything_patience" value = -2 }
+			# }
+			# if = {
+				# limit = { NOT = { diplomacy = 15 } }
+				# change_variable = { which = "flything_patience" value = -2 }
+			# }
+			# if = {
+				# limit = { trait = patient }
+				# change_variable = { which = "flything_patience" value = 10 }
+			# }
+			# if = {
+				# limit = { trait = wroth }
+				# change_variable = { which = "flything_patience" value = -5 }
+			# }
+			# if = {
+				# limit = { trait = proud }
+				# change_variable = { which = "flything_patience" value = -3 }
+			# }
+			# if = {
+				# limit = { trait = envious }
+				# change_variable = { which = "flything_patience" value = -2 }
+			# }
+			# if = {
+				# limit = { trait = naive_appeaser }
+				# change_variable = { which = "flything_patience" value = 1 }
+			# }
+			# if = {
+				# limit = { trait = underhanded_rogue }
+				# change_variable = { which = "flything_patience" value = 2 }
+			# }
+			# if = {
+				# limit = { trait = charismatic_negotiator }
+				# change_variable = { which = "flything_patience" value = 3 }
+			# }
+			# if = {
+				# limit = { trait = grey_eminence }
+				# change_variable = { which = "flything_patience" value = 4 }
+			# }
+			# if = {
+				# limit = { trait = drunkard }
+				# change_variable = { which = "flything_patience" value = -1 }
+			# }
+			# if = {
+				# limit = { trait = stressed }
+				# change_variable = { which = "flything_patience" value = -1 }
+			# }
+			# if = {
+				# limit = { trait = depressed }
+				# change_variable = { which = "flything_patience" value = -2 }
+			# }
+			# if = {
+				# limit = { trait = lunatic }
+				# change_variable = { which = "flything_patience" value = -2 }
+			# }
+			# if = {
+				# limit = { trait = possessed }
+				# change_variable = { which = "flything_patience" value = -2 }
+			# }
+			# if = {
+				# limit = { trait = inbred }
+				# change_variable = { which = "flything_patience" value = -2 }
+			# }
+			# if = {
+				# limit = { trait = imbecile }
+				# change_variable = { which = "flything_patience" value = -2 }
+			# }
+			# if = {
+				# limit = { trait = slow }
+				# change_variable = { which = "flything_patience" value = -1 }
+			# }
+			# if = {
+				# limit = { trait = quick }
+				# change_variable = { which = "flything_patience" value = 2 }
+			# }
+			# if = {
+				# limit = { trait = genius }
+				# change_variable = { which = "flything_patience" value = 4 }
+			# }
+			# if = {
+				# limit = { trait = dull }
+				# change_variable = { which = "flything_patience" value = -1 }
+			# }
+			# if = {
+				# limit = { trait = shrewd }
+				# change_variable = { which = "flything_patience" value = 1 }
+			# }
+			# if = {
+				# limit = { trait = gamer }
+				# change_variable = { which = "flything_patience" value = 3 }
+			# }
+			# if = {
+				# limit = { trait = socializer }
+				# change_variable = { which = "flything_patience" value = 2 }
+			# }
+			# if = {
+				# limit = { trait = poet }
+				# change_variable = { which = "flything_patience" value = 1 }
+			# }
+			# if = {
+				# limit = { trait = gregarious }
+				# change_variable = { which = "flything_patience" value = 1 }
+			# }
+			# if = {
+				# limit = { trait = shy }
+				# change_variable = { which = "flything_patience" value = -1 }
+			# }
+			# if = {
+				# limit = { trait = stubborn }
+				# change_variable = { which = "flything_patience" value = -1 }
+			# }
+			# event_target:flyting_contender_2 = {
+				# set_variable = { which = "flything_patience" value = 10 } #Depending on traits, will be somewhere between 45 and 5.
+				# if = {
+					# limit = { NOT = { diplomacy = 5 } }
+					# change_variable = { which = "flything_patience" value = -2 }
+				# }
+				# if = {
+					# limit = { NOT = { diplomacy = 10 } }
+					# change_variable = { which = "flything_patience" value = -2 }
+				# }
+				# if = {
+					# limit = { NOT = { diplomacy = 15 } }
+					# change_variable = { which = "flything_patience" value = -2 }
+				# }
+				# if = {
+					# limit = { trait = patient }
+					# change_variable = { which = "flything_patience" value = 10 }
+				# }
+				# if = {
+					# limit = { trait = wroth }
+					# change_variable = { which = "flything_patience" value = -5 }
+				# }
+				# if = {
+					# limit = { trait = proud }
+					# change_variable = { which = "flything_patience" value = -3 }
+				# }
+				# if = {
+					# limit = { trait = envious }
+					# change_variable = { which = "flything_patience" value = -2 }
+				# }
+				# if = {
+					# limit = { trait = naive_appeaser }
+					# change_variable = { which = "flything_patience" value = 1 }
+				# }
+				# if = {
+					# limit = { trait = underhanded_rogue }
+					# change_variable = { which = "flything_patience" value = 2 }
+				# }
+				# if = {
+					# limit = { trait = charismatic_negotiator }
+					# change_variable = { which = "flything_patience" value = 3 }
+				# }
+				# if = {
+					# limit = { trait = grey_eminence }
+					# change_variable = { which = "flything_patience" value = 4 }
+				# }
+				# if = {
+					# limit = { trait = drunkard }
+					# change_variable = { which = "flything_patience" value = -1 }
+				# }
+				# if = {
+					# limit = { trait = stressed }
+					# change_variable = { which = "flything_patience" value = -1 }
+				# }
+				# if = {
+					# limit = { trait = depressed }
+					# change_variable = { which = "flything_patience" value = -2 }
+				# }
+				# if = {
+					# limit = { trait = lunatic }
+					# change_variable = { which = "flything_patience" value = -2 }
+				# }
+				# if = {
+					# limit = { trait = possessed }
+					# change_variable = { which = "flything_patience" value = -2 }
+				# }
+				# if = {
+					# limit = { trait = inbred }
+					# change_variable = { which = "flything_patience" value = -2 }
+				# }
+				# if = {
+					# limit = { trait = imbecile }
+					# change_variable = { which = "flything_patience" value = -2 }
+				# }
+				# if = {
+					# limit = { trait = slow }
+					# change_variable = { which = "flything_patience" value = -1 }
+				# }
+				# if = {
+					# limit = { trait = quick }
+					# change_variable = { which = "flything_patience" value = 2 }
+				# }
+				# if = {
+					# limit = { trait = genius }
+					# change_variable = { which = "flything_patience" value = 4 }
+				# }
+				# if = {
+					# limit = { trait = dull }
+					# change_variable = { which = "flything_patience" value = -1 }
+				# }
+				# if = {
+					# limit = { trait = shrewd }
+					# change_variable = { which = "flything_patience" value = 1 }
+				# }
+				# if = {
+					# limit = { trait = gamer }
+					# change_variable = { which = "flything_patience" value = 3 }
+				# }
+				# if = {
+					# limit = { trait = socializer }
+					# change_variable = { which = "flything_patience" value = 2 }
+				# }
+				# if = {
+					# limit = { trait = poet }
+					# change_variable = { which = "flything_patience" value = 1 }
+				# }
+				# if = {
+					# limit = { trait = gregarious }
+					# change_variable = { which = "flything_patience" value = 1 }
+				# }
+				# if = {
+					# limit = { trait = shy }
+					# change_variable = { which = "flything_patience" value = -1 }
+				# }
+				# if = {
+					# limit = { trait = stubborn }
+					# change_variable = { which = "flything_patience" value = -1 }
+				# }
+			# }
+		# }
 
-}
-warrior_lodge_flyting_winner_selection_effect = { #ROOT and FROM are the contenders.
-	#Loser gets hidden ping, firing event on winner.
-	random_list = { 
-		50 = { #flyting_contender_1 wins
-			modifier = { 
-				factor = 0.5
-				event_target:flyting_contender_1 = { NOT = { check_variable = { which = "flything_patience" value = 5 } } }
-			}
-			modifier = { 
-				factor = 1.25
-				event_target:flyting_contender_1 = { check_variable = { which = "flything_patience" value = 5 } }
-			}
-			modifier = { 
-				factor = 1.25
-				event_target:flyting_contender_1 = { check_variable = { which = "flything_patience" value = 10 } }
-			}
-			modifier = { 
-				factor = 1.25
-				event_target:flyting_contender_1 = { check_variable = { which = "flything_patience" value = 15 } }
-			}
-			modifier = { 
-				factor = 1.25
-				event_target:flyting_contender_1 = { check_variable = { which = "flything_patience" value = 20 } }
-			}
-			modifier = { 
-				factor = 1.25
-				event_target:flyting_contender_1 = { check_variable = { which = "flything_patience" value = 25 } }
-			}
-			modifier = { 
-				factor = 1.25
-				event_target:flyting_contender_1 = { check_variable = { which = "flything_patience" value = 30 } }
-			}
-			modifier = { 
-				factor = 1.25
-				event_target:flyting_contender_1 = { check_variable = { which = "flything_patience" value = 35 } }
-			}
-			modifier = { 
-				factor = 1.25
-				event_target:flyting_contender_1 = { check_variable = { which = "flything_patience" value = 40 } }
-			}
-			modifier = { 
-				factor = 1.25
-				event_target:flyting_contender_1 = { check_variable = { which = "flything_patience" value = 45 } }
-			}
+# }
+# warrior_lodge_flyting_winner_selection_effect = { #ROOT and FROM are the contenders.
+	# #Loser gets hidden ping, firing event on winner.
+	# random_list = { 
+		# 50 = { #flyting_contender_1 wins
+			# modifier = { 
+				# factor = 0.5
+				# event_target:flyting_contender_1 = { NOT = { check_variable = { which = "flything_patience" value = 5 } } }
+			# }
+			# modifier = { 
+				# factor = 1.25
+				# event_target:flyting_contender_1 = { check_variable = { which = "flything_patience" value = 5 } }
+			# }
+			# modifier = { 
+				# factor = 1.25
+				# event_target:flyting_contender_1 = { check_variable = { which = "flything_patience" value = 10 } }
+			# }
+			# modifier = { 
+				# factor = 1.25
+				# event_target:flyting_contender_1 = { check_variable = { which = "flything_patience" value = 15 } }
+			# }
+			# modifier = { 
+				# factor = 1.25
+				# event_target:flyting_contender_1 = { check_variable = { which = "flything_patience" value = 20 } }
+			# }
+			# modifier = { 
+				# factor = 1.25
+				# event_target:flyting_contender_1 = { check_variable = { which = "flything_patience" value = 25 } }
+			# }
+			# modifier = { 
+				# factor = 1.25
+				# event_target:flyting_contender_1 = { check_variable = { which = "flything_patience" value = 30 } }
+			# }
+			# modifier = { 
+				# factor = 1.25
+				# event_target:flyting_contender_1 = { check_variable = { which = "flything_patience" value = 35 } }
+			# }
+			# modifier = { 
+				# factor = 1.25
+				# event_target:flyting_contender_1 = { check_variable = { which = "flything_patience" value = 40 } }
+			# }
+			# modifier = { 
+				# factor = 1.25
+				# event_target:flyting_contender_1 = { check_variable = { which = "flything_patience" value = 45 } }
+			# }
 
-			#Insulting Prowess modifiers
-			modifier = { 
-				factor = 0.5
-				event_target:flyting_contender_1 = {  
-					OR = {  
-						trait = lustful
-						num_of_lovers = 2
-						trait = eunuch
-					}
-					NOR = {  
-						trait = celibate
-						trait = seducer
-						trait = seductress
-						AND = { 
-							trait = chaste 
-							is_married = yes
-						}
-					}
-				}
-				event_target:flyting_contender_2 = { has_character_flag = insulting_prowess }
-			}
-			modifier = { 
-				factor = 0.25
-				event_target:flyting_contender_1 = {  
-					OR = {  
-						trait = lustful
-						num_of_lovers = 2
-						trait = eunuch
-					}
-					NOR = {  
-						trait = celibate
-						trait = seducer
-						trait = seductress
-						AND = { 
-							trait = chaste 
-							is_married = yes
-						}
-					}
-				}
-				event_target:flyting_contender_2 = { has_character_flag = insulting_prowess_relative }
-			}
-			modifier = { 
-				factor = 1.15
-				event_target:flyting_contender_1 = {  
-					OR = {  
-						trait = celibate
-						trait = seducer
-						trait = seductress
-						AND = { 
-							trait = chaste 
-							is_married = yes
-						}
-					}
-					NOR = {  
-						trait = lustful
-						num_of_lovers = 2
-						trait = eunuch
-					}
-				}
-				event_target:flyting_contender_2 = { has_character_flag = insulting_prowess }
-			}
-			modifier = { 
-				factor = 1.05
-				event_target:flyting_contender_1 = {  
-					OR = {  
-						trait = celibate
-						trait = seducer
-						trait = seductress
-						AND = { 
-							trait = chaste 
-							is_married = yes
-						}
-					}
-					NOR = {  
-						trait = lustful
-						num_of_lovers = 2
-						trait = eunuch
-					}
-				}
-				event_target:flyting_contender_2 = { has_character_flag = insulting_prowess_relative }
-			}
+			# #Insulting Prowess modifiers
+			# modifier = { 
+				# factor = 0.5
+				# event_target:flyting_contender_1 = {  
+					# OR = {  
+						# trait = lustful
+						# num_of_lovers = 2
+						# trait = eunuch
+					# }
+					# NOR = {  
+						# trait = celibate
+						# trait = seducer
+						# trait = seductress
+						# AND = { 
+							# trait = chaste 
+							# is_married = yes
+						# }
+					# }
+				# }
+				# event_target:flyting_contender_2 = { has_character_flag = insulting_prowess }
+			# }
+			# modifier = { 
+				# factor = 0.25
+				# event_target:flyting_contender_1 = {  
+					# OR = {  
+						# trait = lustful
+						# num_of_lovers = 2
+						# trait = eunuch
+					# }
+					# NOR = {  
+						# trait = celibate
+						# trait = seducer
+						# trait = seductress
+						# AND = { 
+							# trait = chaste 
+							# is_married = yes
+						# }
+					# }
+				# }
+				# event_target:flyting_contender_2 = { has_character_flag = insulting_prowess_relative }
+			# }
+			# modifier = { 
+				# factor = 1.15
+				# event_target:flyting_contender_1 = {  
+					# OR = {  
+						# trait = celibate
+						# trait = seducer
+						# trait = seductress
+						# AND = { 
+							# trait = chaste 
+							# is_married = yes
+						# }
+					# }
+					# NOR = {  
+						# trait = lustful
+						# num_of_lovers = 2
+						# trait = eunuch
+					# }
+				# }
+				# event_target:flyting_contender_2 = { has_character_flag = insulting_prowess }
+			# }
+			# modifier = { 
+				# factor = 1.05
+				# event_target:flyting_contender_1 = {  
+					# OR = {  
+						# trait = celibate
+						# trait = seducer
+						# trait = seductress
+						# AND = { 
+							# trait = chaste 
+							# is_married = yes
+						# }
+					# }
+					# NOR = {  
+						# trait = lustful
+						# num_of_lovers = 2
+						# trait = eunuch
+					# }
+				# }
+				# event_target:flyting_contender_2 = { has_character_flag = insulting_prowess_relative }
+			# }
 
-			#Insulting Character modifiers
-			modifier = { 
-				factor = 0.5
-				event_target:flyting_contender_1 = {  
-					OR = {  
-						trait = envious
-						trait = shy
-						trait = trusting
-						trait = wroth
-						trait = diligent
-					}
-					NOR = { 
-						trait = humble
-						trait = gregarious
-						trait = kind
-					}
-				}
-				event_target:flyting_contender_2 = { has_character_flag = insulting_character }
-			}
-			modifier = { 
-				factor = 0.25
-				event_target:flyting_contender_1 = {  
-					OR = {  
-						trait = envious
-						trait = shy
-						trait = trusting
-						trait = wroth
-						trait = diligent
-					}
-					NOR = { 
-						trait = humble
-						trait = gregarious
-						trait = kind
-					}
-				}
-				event_target:flyting_contender_2 = { has_character_flag = insulting_character_poet }
-			}
-			modifier = { 
-				factor = 1.15
-				event_target:flyting_contender_1 = { 
-					NOR = {  
-						trait = envious
-						trait = shy
-						trait = trusting
-						trait = wroth
-						trait = diligent
-					}
-					OR = { 
-						trait = humble
-						trait = gregarious
-						trait = kind
-					}
-				}
-				event_target:flyting_contender_2 = { has_character_flag = insulting_character }
-			}
-			modifier = { 
-				factor = 1.05
-				event_target:flyting_contender_1 = {  
-					NOR = {  
-						trait = envious
-						trait = shy
-						trait = trusting
-						trait = wroth
-						trait = diligent
-					}
-					OR = { 
-						trait = humble
-						trait = gregarious
-						trait = kind
-					}
-				}
-				event_target:flyting_contender_2 = { has_character_flag = insulting_character_poet }
-			}
+			# #Insulting Character modifiers
+			# modifier = { 
+				# factor = 0.5
+				# event_target:flyting_contender_1 = {  
+					# OR = {  
+						# trait = envious
+						# trait = shy
+						# trait = trusting
+						# trait = wroth
+						# trait = diligent
+					# }
+					# NOR = { 
+						# trait = humble
+						# trait = gregarious
+						# trait = kind
+					# }
+				# }
+				# event_target:flyting_contender_2 = { has_character_flag = insulting_character }
+			# }
+			# modifier = { 
+				# factor = 0.25
+				# event_target:flyting_contender_1 = {  
+					# OR = {  
+						# trait = envious
+						# trait = shy
+						# trait = trusting
+						# trait = wroth
+						# trait = diligent
+					# }
+					# NOR = { 
+						# trait = humble
+						# trait = gregarious
+						# trait = kind
+					# }
+				# }
+				# event_target:flyting_contender_2 = { has_character_flag = insulting_character_poet }
+			# }
+			# modifier = { 
+				# factor = 1.15
+				# event_target:flyting_contender_1 = { 
+					# NOR = {  
+						# trait = envious
+						# trait = shy
+						# trait = trusting
+						# trait = wroth
+						# trait = diligent
+					# }
+					# OR = { 
+						# trait = humble
+						# trait = gregarious
+						# trait = kind
+					# }
+				# }
+				# event_target:flyting_contender_2 = { has_character_flag = insulting_character }
+			# }
+			# modifier = { 
+				# factor = 1.05
+				# event_target:flyting_contender_1 = {  
+					# NOR = {  
+						# trait = envious
+						# trait = shy
+						# trait = trusting
+						# trait = wroth
+						# trait = diligent
+					# }
+					# OR = { 
+						# trait = humble
+						# trait = gregarious
+						# trait = kind
+					# }
+				# }
+				# event_target:flyting_contender_2 = { has_character_flag = insulting_character_poet }
+			# }
 
-			#Insulting Accomplishments modifiers
-			modifier = { 
-				factor = 0.5
-				event_target:flyting_contender_1 = {  
-					OR = {  
-						trait = ambitious
-						trait = proud
-						trait = stubborn
-						trait = brave
-					}
-					NOR = { 
-						trait = humble
-						trait = content
-						trait = craven
-					}
-				}
-				event_target:flyting_contender_2 = { has_character_flag = insulting_accomplishments }
-			}
-			modifier = { 
-				factor = 0.25
-				event_target:flyting_contender_1 = {  
-					OR = {  
-						trait = ambitious
-						trait = proud
-						trait = stubborn
-						trait = brave
-					}
-					NOR = { 
-						trait = humble
-						trait = content
-						trait = craven
-					}
-				}
-				event_target:flyting_contender_2 = { has_character_flag = insulting_accomplishments_liege }
-			}
-			modifier = { 
-				factor = 1.15
-				event_target:flyting_contender_1 = { 
-					NOR = {  
-						trait = ambitious
-						trait = proud
-						trait = stubborn
-						trait = brave
-					}
-					OR = { 
-						trait = humble
-						trait = content
-						trait = craven
-					}
-				}
-				event_target:flyting_contender_2 = { has_character_flag = insulting_accomplishments }
-			}
-			modifier = { 
-				factor = 1.05
-				event_target:flyting_contender_1 = {  
-					NOR = {  
-						trait = ambitious
-						trait = proud
-						trait = stubborn
-						trait = brave
-					}
-					OR = { 
-						trait = humble
-						trait = content
-						trait = craven
-					}
-				}
-				event_target:flyting_contender_2 = { has_character_flag = insulting_accomplishments_liege }
-			}
+			# #Insulting Accomplishments modifiers
+			# modifier = { 
+				# factor = 0.5
+				# event_target:flyting_contender_1 = {  
+					# OR = {  
+						# trait = ambitious
+						# trait = proud
+						# trait = stubborn
+						# trait = brave
+					# }
+					# NOR = { 
+						# trait = humble
+						# trait = content
+						# trait = craven
+					# }
+				# }
+				# event_target:flyting_contender_2 = { has_character_flag = insulting_accomplishments }
+			# }
+			# modifier = { 
+				# factor = 0.25
+				# event_target:flyting_contender_1 = {  
+					# OR = {  
+						# trait = ambitious
+						# trait = proud
+						# trait = stubborn
+						# trait = brave
+					# }
+					# NOR = { 
+						# trait = humble
+						# trait = content
+						# trait = craven
+					# }
+				# }
+				# event_target:flyting_contender_2 = { has_character_flag = insulting_accomplishments_liege }
+			# }
+			# modifier = { 
+				# factor = 1.15
+				# event_target:flyting_contender_1 = { 
+					# NOR = {  
+						# trait = ambitious
+						# trait = proud
+						# trait = stubborn
+						# trait = brave
+					# }
+					# OR = { 
+						# trait = humble
+						# trait = content
+						# trait = craven
+					# }
+				# }
+				# event_target:flyting_contender_2 = { has_character_flag = insulting_accomplishments }
+			# }
+			# modifier = { 
+				# factor = 1.05
+				# event_target:flyting_contender_1 = {  
+					# NOR = {  
+						# trait = ambitious
+						# trait = proud
+						# trait = stubborn
+						# trait = brave
+					# }
+					# OR = { 
+						# trait = humble
+						# trait = content
+						# trait = craven
+					# }
+				# }
+				# event_target:flyting_contender_2 = { has_character_flag = insulting_accomplishments_liege }
+			# }
 
-			#Insulting Family modifiers
-			modifier = { 
-				factor = 0.5
-				event_target:flyting_contender_1 = {  
-					OR = {  
-						trait = kind
-						has_focus = focus_family
-						any_lover = { is_married = PREV }
-						any_lover = { is_close_relative = PREV }
-						any_friend = { is_married = PREV }
-						any_friend = { is_close_relative = PREV }
-					}
-					NOR = { 
-						trait = cruel
-						trait = impaler
-					}
-				}
-				event_target:flyting_contender_2 = { has_character_flag = insulting_family }
-			}
-			modifier = { 
-				factor = 0.25
-				event_target:flyting_contender_1 = {  
-					OR = {  
-						trait = kind
-						has_focus = focus_family
-						any_lover = { is_married = PREV }
-						any_lover = { is_close_relative = PREV }
-						any_friend = { is_married = PREV }
-						any_friend = { is_close_relative = PREV }
-					}
-					NOR = { 
-						trait = cruel
-						trait = impaler
-					}
-				}
-				event_target:flyting_contender_2 = { has_character_flag = insulting_family_cruel }
-			}
-			modifier = { 
-				factor = 1.15
-				event_target:flyting_contender_1 = { 
-					NOR = {  
-						trait = kind
-						has_focus = focus_family
-						any_lover = { is_married = PREV }
-						any_lover = { is_close_relative = PREV }
-						any_friend = { is_married = PREV }
-						any_friend = { is_close_relative = PREV }
-					}
-					OR = { 
-						trait = cruel
-						trait = impaler
-					}
-				}
-				event_target:flyting_contender_2 = { has_character_flag = insulting_family }
-			}
-			modifier = { 
-				factor = 1.05
-				event_target:flyting_contender_1 = {  
-					NOR = {  
-						trait = kind
-						has_focus = focus_family
-						any_lover = { is_married = PREV }
-						any_lover = { is_close_relative = PREV }
-						any_friend = { is_married = PREV }
-						any_friend = { is_close_relative = PREV }
-					}
-					OR = { 
-						trait = cruel
-						trait = impaler
-					}
-				}
-				event_target:flyting_contender_2 = { has_character_flag = insulting_family_cruel }
-			}
+			# #Insulting Family modifiers
+			# modifier = { 
+				# factor = 0.5
+				# event_target:flyting_contender_1 = {  
+					# OR = {  
+						# trait = kind
+						# has_focus = focus_family
+						# any_lover = { is_married = PREV }
+						# any_lover = { is_close_relative = PREV }
+						# any_friend = { is_married = PREV }
+						# any_friend = { is_close_relative = PREV }
+					# }
+					# NOR = { 
+						# trait = cruel
+						# trait = impaler
+					# }
+				# }
+				# event_target:flyting_contender_2 = { has_character_flag = insulting_family }
+			# }
+			# modifier = { 
+				# factor = 0.25
+				# event_target:flyting_contender_1 = {  
+					# OR = {  
+						# trait = kind
+						# has_focus = focus_family
+						# any_lover = { is_married = PREV }
+						# any_lover = { is_close_relative = PREV }
+						# any_friend = { is_married = PREV }
+						# any_friend = { is_close_relative = PREV }
+					# }
+					# NOR = { 
+						# trait = cruel
+						# trait = impaler
+					# }
+				# }
+				# event_target:flyting_contender_2 = { has_character_flag = insulting_family_cruel }
+			# }
+			# modifier = { 
+				# factor = 1.15
+				# event_target:flyting_contender_1 = { 
+					# NOR = {  
+						# trait = kind
+						# has_focus = focus_family
+						# any_lover = { is_married = PREV }
+						# any_lover = { is_close_relative = PREV }
+						# any_friend = { is_married = PREV }
+						# any_friend = { is_close_relative = PREV }
+					# }
+					# OR = { 
+						# trait = cruel
+						# trait = impaler
+					# }
+				# }
+				# event_target:flyting_contender_2 = { has_character_flag = insulting_family }
+			# }
+			# modifier = { 
+				# factor = 1.05
+				# event_target:flyting_contender_1 = {  
+					# NOR = {  
+						# trait = kind
+						# has_focus = focus_family
+						# any_lover = { is_married = PREV }
+						# any_lover = { is_close_relative = PREV }
+						# any_friend = { is_married = PREV }
+						# any_friend = { is_close_relative = PREV }
+					# }
+					# OR = { 
+						# trait = cruel
+						# trait = impaler
+					# }
+				# }
+				# event_target:flyting_contender_2 = { has_character_flag = insulting_family_cruel }
+			# }
 
-			event_target:flyting_contender_2 = { character_event = { id = HF.25262 } } 
-		}
-		50 = { #flyting_contender_2 wins
-			modifier = { 
-				factor = 0.5
-				event_target:flyting_contender_1 = { NOT = { check_variable = { which = "flything_patience" value = 5 } } }
-			}
-			modifier = { 
-				factor = 1.25
-				event_target:flyting_contender_1 = { check_variable = { which = "flything_patience" value = 5 } }
-			}
-			modifier = { 
-				factor = 1.25
-				event_target:flyting_contender_1 = { check_variable = { which = "flything_patience" value = 10 } }
-			}
-			modifier = { 
-				factor = 1.25
-				event_target:flyting_contender_1 = { check_variable = { which = "flything_patience" value = 15 } }
-			}
-			modifier = { 
-				factor = 1.25
-				event_target:flyting_contender_1 = { check_variable = { which = "flything_patience" value = 20 } }
-			}
-			modifier = { 
-				factor = 1.25
-				event_target:flyting_contender_1 = { check_variable = { which = "flything_patience" value = 25 } }
-			}
-			modifier = { 
-				factor = 1.25
-				event_target:flyting_contender_1 = { check_variable = { which = "flything_patience" value = 30 } }
-			}
-			modifier = { 
-				factor = 1.25
-				event_target:flyting_contender_1 = { check_variable = { which = "flything_patience" value = 35 } }
-			}
-			modifier = { 
-				factor = 1.25
-				event_target:flyting_contender_1 = { check_variable = { which = "flything_patience" value = 40 } }
-			}
-			modifier = { 
-				factor = 1.25
-				event_target:flyting_contender_1 = { check_variable = { which = "flything_patience" value = 45 } }
-			}
+			# event_target:flyting_contender_2 = { character_event = { id = HF.25262 } } 
+		# }
+		# 50 = { #flyting_contender_2 wins
+			# modifier = { 
+				# factor = 0.5
+				# event_target:flyting_contender_1 = { NOT = { check_variable = { which = "flything_patience" value = 5 } } }
+			# }
+			# modifier = { 
+				# factor = 1.25
+				# event_target:flyting_contender_1 = { check_variable = { which = "flything_patience" value = 5 } }
+			# }
+			# modifier = { 
+				# factor = 1.25
+				# event_target:flyting_contender_1 = { check_variable = { which = "flything_patience" value = 10 } }
+			# }
+			# modifier = { 
+				# factor = 1.25
+				# event_target:flyting_contender_1 = { check_variable = { which = "flything_patience" value = 15 } }
+			# }
+			# modifier = { 
+				# factor = 1.25
+				# event_target:flyting_contender_1 = { check_variable = { which = "flything_patience" value = 20 } }
+			# }
+			# modifier = { 
+				# factor = 1.25
+				# event_target:flyting_contender_1 = { check_variable = { which = "flything_patience" value = 25 } }
+			# }
+			# modifier = { 
+				# factor = 1.25
+				# event_target:flyting_contender_1 = { check_variable = { which = "flything_patience" value = 30 } }
+			# }
+			# modifier = { 
+				# factor = 1.25
+				# event_target:flyting_contender_1 = { check_variable = { which = "flything_patience" value = 35 } }
+			# }
+			# modifier = { 
+				# factor = 1.25
+				# event_target:flyting_contender_1 = { check_variable = { which = "flything_patience" value = 40 } }
+			# }
+			# modifier = { 
+				# factor = 1.25
+				# event_target:flyting_contender_1 = { check_variable = { which = "flything_patience" value = 45 } }
+			# }
 
-			#Insulting Prowess modifiers
-			modifier = { 
-				factor = 0.5
-				event_target:flyting_contender_2 = {  
-					OR = {  
-						trait = lustful
-						num_of_lovers = 2
-					}
-					NOR = {  
-						trait = celibate
-						trait = seducer
-						trait = seductress
-						AND = { 
-							trait = chaste 
-							is_married = yes
-						}
-					}
-				}
-				event_target:flyting_contender_1 = { has_character_flag = insulting_prowess }
-			}
-			modifier = { 
-				factor = 0.25
-				event_target:flyting_contender_2 = {  
-					OR = {  
-						trait = lustful
-						num_of_lovers = 2
-					}
-					NOR = {  
-						trait = celibate
-						trait = seducer
-						trait = seductress
-						AND = { 
-							trait = chaste 
-							is_married = yes
-						}
-					}
-				}
-				event_target:flyting_contender_1 = { has_character_flag = insulting_prowess_relative }
-			}
-			modifier = { 
-				factor = 1.15
-				event_target:flyting_contender_2 = {  
-					OR = {  
-						trait = celibate
-						trait = seducer
-						trait = seductress
-						AND = { 
-							trait = chaste 
-							is_married = yes
-						}
-					}
-				}
-				event_target:flyting_contender_1 = { has_character_flag = insulting_prowess }
-			}
-			modifier = { 
-				factor = 1.05
-				event_target:flyting_contender_2 = {  
-					OR = {  
-						trait = celibate
-						trait = seducer
-						trait = seductress
-						AND = { 
-							trait = chaste 
-							is_married = yes
-						}
-					}
-				}
-				event_target:flyting_contender_1 = { has_character_flag = insulting_prowess_relative }
-			}
+			# #Insulting Prowess modifiers
+			# modifier = { 
+				# factor = 0.5
+				# event_target:flyting_contender_2 = {  
+					# OR = {  
+						# trait = lustful
+						# num_of_lovers = 2
+					# }
+					# NOR = {  
+						# trait = celibate
+						# trait = seducer
+						# trait = seductress
+						# AND = { 
+							# trait = chaste 
+							# is_married = yes
+						# }
+					# }
+				# }
+				# event_target:flyting_contender_1 = { has_character_flag = insulting_prowess }
+			# }
+			# modifier = { 
+				# factor = 0.25
+				# event_target:flyting_contender_2 = {  
+					# OR = {  
+						# trait = lustful
+						# num_of_lovers = 2
+					# }
+					# NOR = {  
+						# trait = celibate
+						# trait = seducer
+						# trait = seductress
+						# AND = { 
+							# trait = chaste 
+							# is_married = yes
+						# }
+					# }
+				# }
+				# event_target:flyting_contender_1 = { has_character_flag = insulting_prowess_relative }
+			# }
+			# modifier = { 
+				# factor = 1.15
+				# event_target:flyting_contender_2 = {  
+					# OR = {  
+						# trait = celibate
+						# trait = seducer
+						# trait = seductress
+						# AND = { 
+							# trait = chaste 
+							# is_married = yes
+						# }
+					# }
+				# }
+				# event_target:flyting_contender_1 = { has_character_flag = insulting_prowess }
+			# }
+			# modifier = { 
+				# factor = 1.05
+				# event_target:flyting_contender_2 = {  
+					# OR = {  
+						# trait = celibate
+						# trait = seducer
+						# trait = seductress
+						# AND = { 
+							# trait = chaste 
+							# is_married = yes
+						# }
+					# }
+				# }
+				# event_target:flyting_contender_1 = { has_character_flag = insulting_prowess_relative }
+			# }
 
-			#Insulting Character modifiers
-			modifier = { 
-				factor = 0.5
-				event_target:flyting_contender_2 = {  
-					OR = {  
-						trait = envious
-						trait = shy
-						trait = trusting
-						trait = wroth
-						trait = diligent
-					}
-					NOR = { 
-						trait = humble
-						trait = gregarious
-						trait = kind
-					}
-				}
-				event_target:flyting_contender_1 = { has_character_flag = insulting_character }
-			}
-			modifier = { 
-				factor = 0.25
-				event_target:flyting_contender_2 = {  
-					OR = {  
-						trait = envious
-						trait = shy
-						trait = trusting
-						trait = wroth
-						trait = diligent
-					}
-					NOR = { 
-						trait = humble
-						trait = gregarious
-						trait = kind
-					}
-				}
-				event_target:flyting_contender_1 = { has_character_flag = insulting_character_poet }
-			}
-			modifier = { 
-				factor = 1.15
-				event_target:flyting_contender_2 = { 
-					NOR = {  
-						trait = envious
-						trait = shy
-						trait = trusting
-						trait = wroth
-						trait = diligent
-					}
-					OR = { 
-						trait = humble
-						trait = gregarious
-						trait = kind
-					}
-				}
-				event_target:flyting_contender_1 = { has_character_flag = insulting_character }
-			}
-			modifier = { 
-				factor = 1.05
-				event_target:flyting_contender_2 = {  
-					NOR = {  
-						trait = envious
-						trait = shy
-						trait = trusting
-						trait = wroth
-						trait = diligent
-					}
-					OR = { 
-						trait = humble
-						trait = gregarious
-						trait = kind
-					}
-				}
-				event_target:flyting_contender_1 = { has_character_flag = insulting_character_poet }
-			}
+			# #Insulting Character modifiers
+			# modifier = { 
+				# factor = 0.5
+				# event_target:flyting_contender_2 = {  
+					# OR = {  
+						# trait = envious
+						# trait = shy
+						# trait = trusting
+						# trait = wroth
+						# trait = diligent
+					# }
+					# NOR = { 
+						# trait = humble
+						# trait = gregarious
+						# trait = kind
+					# }
+				# }
+				# event_target:flyting_contender_1 = { has_character_flag = insulting_character }
+			# }
+			# modifier = { 
+				# factor = 0.25
+				# event_target:flyting_contender_2 = {  
+					# OR = {  
+						# trait = envious
+						# trait = shy
+						# trait = trusting
+						# trait = wroth
+						# trait = diligent
+					# }
+					# NOR = { 
+						# trait = humble
+						# trait = gregarious
+						# trait = kind
+					# }
+				# }
+				# event_target:flyting_contender_1 = { has_character_flag = insulting_character_poet }
+			# }
+			# modifier = { 
+				# factor = 1.15
+				# event_target:flyting_contender_2 = { 
+					# NOR = {  
+						# trait = envious
+						# trait = shy
+						# trait = trusting
+						# trait = wroth
+						# trait = diligent
+					# }
+					# OR = { 
+						# trait = humble
+						# trait = gregarious
+						# trait = kind
+					# }
+				# }
+				# event_target:flyting_contender_1 = { has_character_flag = insulting_character }
+			# }
+			# modifier = { 
+				# factor = 1.05
+				# event_target:flyting_contender_2 = {  
+					# NOR = {  
+						# trait = envious
+						# trait = shy
+						# trait = trusting
+						# trait = wroth
+						# trait = diligent
+					# }
+					# OR = { 
+						# trait = humble
+						# trait = gregarious
+						# trait = kind
+					# }
+				# }
+				# event_target:flyting_contender_1 = { has_character_flag = insulting_character_poet }
+			# }
 
-			#Insulting Accomplishments modifiers
-			modifier = { 
-				factor = 0.5
-				event_target:flyting_contender_2 = {  
-					OR = {  
-						trait = ambitious
-						trait = proud
-						trait = stubborn
-						trait = brave
-					}
-					NOR = { 
-						trait = humble
-						trait = content
-						trait = craven
-					}
-				}
-				event_target:flyting_contender_1 = { has_character_flag = insulting_accomplishments }
-			}
-			modifier = { 
-				factor = 0.25
-				event_target:flyting_contender_2 = {  
-					OR = {  
-						trait = ambitious
-						trait = proud
-						trait = stubborn
-						trait = brave
-					}
-					NOR = { 
-						trait = humble
-						trait = content
-						trait = craven
-					}
-				}
-				event_target:flyting_contender_1 = { has_character_flag = insulting_accomplishments_liege }
-			}
-			modifier = { 
-				factor = 1.15
-				event_target:flyting_contender_2 = { 
-					NOR = {  
-						trait = ambitious
-						trait = proud
-						trait = stubborn
-						trait = brave
-					}
-					OR = { 
-						trait = humble
-						trait = content
-						trait = craven
-					}
-				}
-				event_target:flyting_contender_1 = { has_character_flag = insulting_accomplishments }
-			}
-			modifier = { 
-				factor = 1.05
-				event_target:flyting_contender_2 = {  
-					NOR = {  
-						trait = ambitious
-						trait = proud
-						trait = stubborn
-						trait = brave
-					}
-					OR = { 
-						trait = humble
-						trait = content
-						trait = craven
-					}
-				}
-				event_target:flyting_contender_1 = { has_character_flag = insulting_accomplishments_liege }
-			}
+			# #Insulting Accomplishments modifiers
+			# modifier = { 
+				# factor = 0.5
+				# event_target:flyting_contender_2 = {  
+					# OR = {  
+						# trait = ambitious
+						# trait = proud
+						# trait = stubborn
+						# trait = brave
+					# }
+					# NOR = { 
+						# trait = humble
+						# trait = content
+						# trait = craven
+					# }
+				# }
+				# event_target:flyting_contender_1 = { has_character_flag = insulting_accomplishments }
+			# }
+			# modifier = { 
+				# factor = 0.25
+				# event_target:flyting_contender_2 = {  
+					# OR = {  
+						# trait = ambitious
+						# trait = proud
+						# trait = stubborn
+						# trait = brave
+					# }
+					# NOR = { 
+						# trait = humble
+						# trait = content
+						# trait = craven
+					# }
+				# }
+				# event_target:flyting_contender_1 = { has_character_flag = insulting_accomplishments_liege }
+			# }
+			# modifier = { 
+				# factor = 1.15
+				# event_target:flyting_contender_2 = { 
+					# NOR = {  
+						# trait = ambitious
+						# trait = proud
+						# trait = stubborn
+						# trait = brave
+					# }
+					# OR = { 
+						# trait = humble
+						# trait = content
+						# trait = craven
+					# }
+				# }
+				# event_target:flyting_contender_1 = { has_character_flag = insulting_accomplishments }
+			# }
+			# modifier = { 
+				# factor = 1.05
+				# event_target:flyting_contender_2 = {  
+					# NOR = {  
+						# trait = ambitious
+						# trait = proud
+						# trait = stubborn
+						# trait = brave
+					# }
+					# OR = { 
+						# trait = humble
+						# trait = content
+						# trait = craven
+					# }
+				# }
+				# event_target:flyting_contender_1 = { has_character_flag = insulting_accomplishments_liege }
+			# }
 
-			#Insulting Family modifiers
-			modifier = { 
-				factor = 0.5
-				event_target:flyting_contender_2 = {  
-					OR = {  
-						trait = kind
-						has_focus = focus_family
-						any_lover = { is_married = PREV }
-						any_lover = { is_close_relative = PREV }
-						any_friend = { is_married = PREV }
-						any_friend = { is_close_relative = PREV }
-					}
-					NOR = { 
-						trait = cruel
-						trait = impaler
-					}
-				}
-				event_target:flyting_contender_1 = { has_character_flag = insulting_family }
-			}
-			modifier = { 
-				factor = 0.25
-				event_target:flyting_contender_2 = {  
-					OR = {  
-						trait = kind
-						has_focus = focus_family
-						any_lover = { is_married = PREV }
-						any_lover = { is_close_relative = PREV }
-						any_friend = { is_married = PREV }
-						any_friend = { is_close_relative = PREV }
-					}
-					NOR = { 
-						trait = cruel
-						trait = impaler
-					}
-				}
-				event_target:flyting_contender_1 = { has_character_flag = insulting_family_cruel }
-			}
-			modifier = { 
-				factor = 1.15
-				event_target:flyting_contender_2 = { 
-					NOR = {  
-						trait = kind
-						has_focus = focus_family
-						any_lover = { is_married = PREV }
-						any_lover = { is_close_relative = PREV }
-						any_friend = { is_married = PREV }
-						any_friend = { is_close_relative = PREV }
-					}
-					OR = { 
-						trait = cruel
-						trait = impaler
-					}
-				}
-				event_target:flyting_contender_1 = { has_character_flag = insulting_family }
-			}
-			modifier = { 
-				factor = 1.05
-				event_target:flyting_contender_2 = {  
-					NOR = {  
-						trait = kind
-						has_focus = focus_family
-						any_lover = { is_married = PREV }
-						any_lover = { is_close_relative = PREV }
-						any_friend = { is_married = PREV }
-						any_friend = { is_close_relative = PREV }
-					}
-					OR = { 
-						trait = cruel
-						trait = impaler
-					}
-				}
-				event_target:flyting_contender_1 = { has_character_flag = insulting_family_cruel }
-			}
-			event_target:flyting_contender_1 = { character_event = { id = HF.25262 } } 
-		}
-	}
-}
+			# #Insulting Family modifiers
+			# modifier = { 
+				# factor = 0.5
+				# event_target:flyting_contender_2 = {  
+					# OR = {  
+						# trait = kind
+						# has_focus = focus_family
+						# any_lover = { is_married = PREV }
+						# any_lover = { is_close_relative = PREV }
+						# any_friend = { is_married = PREV }
+						# any_friend = { is_close_relative = PREV }
+					# }
+					# NOR = { 
+						# trait = cruel
+						# trait = impaler
+					# }
+				# }
+				# event_target:flyting_contender_1 = { has_character_flag = insulting_family }
+			# }
+			# modifier = { 
+				# factor = 0.25
+				# event_target:flyting_contender_2 = {  
+					# OR = {  
+						# trait = kind
+						# has_focus = focus_family
+						# any_lover = { is_married = PREV }
+						# any_lover = { is_close_relative = PREV }
+						# any_friend = { is_married = PREV }
+						# any_friend = { is_close_relative = PREV }
+					# }
+					# NOR = { 
+						# trait = cruel
+						# trait = impaler
+					# }
+				# }
+				# event_target:flyting_contender_1 = { has_character_flag = insulting_family_cruel }
+			# }
+			# modifier = { 
+				# factor = 1.15
+				# event_target:flyting_contender_2 = { 
+					# NOR = {  
+						# trait = kind
+						# has_focus = focus_family
+						# any_lover = { is_married = PREV }
+						# any_lover = { is_close_relative = PREV }
+						# any_friend = { is_married = PREV }
+						# any_friend = { is_close_relative = PREV }
+					# }
+					# OR = { 
+						# trait = cruel
+						# trait = impaler
+					# }
+				# }
+				# event_target:flyting_contender_1 = { has_character_flag = insulting_family }
+			# }
+			# modifier = { 
+				# factor = 1.05
+				# event_target:flyting_contender_2 = {  
+					# NOR = {  
+						# trait = kind
+						# has_focus = focus_family
+						# any_lover = { is_married = PREV }
+						# any_lover = { is_close_relative = PREV }
+						# any_friend = { is_married = PREV }
+						# any_friend = { is_close_relative = PREV }
+					# }
+					# OR = { 
+						# trait = cruel
+						# trait = impaler
+					# }
+				# }
+				# event_target:flyting_contender_1 = { has_character_flag = insulting_family_cruel }
+			# }
+			# event_target:flyting_contender_1 = { character_event = { id = HF.25262 } } 
+		# }
+	# }
+# }
 
 warrior_lodge_drinking_game_cleanup_effect = {
 	clr_character_flag = do_not_disturb

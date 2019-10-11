@@ -2,3 +2,7 @@
 	holder = 390001
 	liege = d_indiketes
 }
+466.1.1 = {
+	holder = 0
+	liege = 0
+}

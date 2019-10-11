@@ -3,7 +3,7 @@
 }
 418.1.1 = {
 	holder = 40115 # Berisades
-	liege = d_rhodope
+	liege = d_pangaion
 }
 420.1.1 = { # 356 BC
 	holder = 803 # Philip II

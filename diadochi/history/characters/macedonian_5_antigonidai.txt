@@ -144,6 +144,7 @@
 	dynasty = 5 # Antigonidai
 	religion = greek_main
 	culture = macedonian
+	father = 412
 	355.1.1 = { # Made up
 		birth="yes" # 421 BC
 	}
@@ -185,6 +186,7 @@
 	religion = greek_main
 	culture = macedonian
 	female = yes
+	father = 412
 	389.1.1 = { # Made up
 		birth="yes" # 387 BC
 	}
@@ -225,5 +227,17 @@
 			death_reason = death_murder
 			killer = 601 # Ptolemaios I
 		}
+	}
+}
+412 = {
+	name = "Sirras" # Great-Grandfather of Antigonos (fictional, to connect Phila to the dynasty)
+	dynasty = 5 # Antigonidai
+	religion = greek_main
+	culture = macedonian
+	325.1.1 = { # Made up
+		birth="yes" # 451 BC
+	}
+	395.1.1 = { # Made up
+		death="yes" # 381 BC
 	}
 }

@@ -2331,18 +2331,18 @@ faction_succ_feudal_elective = {
 	chance = {
 		factor = 1
 		
-		modifier = {
-			factor = 1.5
-			liege = {  
-				primary_title = { title = e_hre }
-			}
-		}
-		modifier = {
-			factor = 1.5
-			liege = {  
-				primary_title = { has_title_flag = alternate_hre }
-			}
-		}
+		# modifier = {
+			# factor = 1.5
+			# liege = {  
+				# primary_title = { title = e_hre }
+			# }
+		# }
+		# modifier = {
+			# factor = 1.5
+			# liege = {  
+				# primary_title = { has_title_flag = alternate_hre }
+			# }
+		# }
 		modifier = {
 			factor = 0.5
 			liege = {  

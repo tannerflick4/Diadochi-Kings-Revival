@@ -8,7 +8,7 @@ max_settlements = 4
 b_apollonia_apollonia = castle
 b_chersonesos_apollonia = temple
 b_anchialus_apollonia = city
-b_mesembria_apollonia = castle
+b_apollonia1_apollonia = castle
 
 # Misc
 culture = ionian

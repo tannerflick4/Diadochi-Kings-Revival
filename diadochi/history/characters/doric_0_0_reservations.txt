@@ -47,5 +47,6 @@
 	# 24301-24400 for the Latoi dynasty
 	# 24401-24500 for the Malidai dynasty
 	# 24501-24600 for the Astakoi dynasty
+	# 24601-24700 for the Athamanes dynasty
 	
 	# 29901-30000 for the doric Lowborns

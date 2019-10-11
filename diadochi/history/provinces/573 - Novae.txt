@@ -1,0 +1,20 @@
+# 573 - Novae
+
+# County Title
+title = c_novae
+
+# Settlements
+max_settlements = 5
+b_novae_novae = castle
+b_novae1_novae = temple
+b_novae2_novae = city
+b_novae3_novae = castle
+#b_novae4_novae = temple
+#b_novae5_novae = city
+#b_novae6_novae = castle
+
+# Misc
+culture = thracian
+religion = thracian_main
+
+# History

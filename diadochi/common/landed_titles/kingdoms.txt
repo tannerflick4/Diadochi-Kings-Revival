@@ -157,7 +157,7 @@ k_epirus = {
 	color= { 0 175 75 }
 	color2= { 255 255 255 }
 	
-	capital = 29 # Ambracia
+	capital = 62 # Ambracia
 	
 	allow = {
 		culture = doric
@@ -205,23 +205,76 @@ k_epirus = {
 			b_passaron_ilium = {
 			}
 		}
-		c_amantia = {
+		c_chaonia = {
 			color= { 0 185 65 }
+			color2= { 255 255 255 }
+			
+			b_chaonia_chaonia = {
+			}
+			b_phoinike_chaonia = {
+			}
+			b_chimaira_chaonia = {
+			}
+			b_omphalion_chaonia = {
+			}
+			b_onchesmos_chaonia = {
+			}
+			b_orikon_chaonia = {
+			}
+			b_kestria_chaonia = {
+			}
+		}
+		c_thesprotia = {
+			color= { 25 24 56 }
+			color2= { 255 255 255 }
+			
+			b_thesprotia_thesprotia = {
+			}
+			b_thesprotia1_thesprotia = {
+			}
+			b_thesprotia2_thesprotia = {
+			}
+			b_thesprotia3_thesprotia = {
+			}
+			b_thesprotia4_thesprotia = {
+			}
+			b_thesprotia5_thesprotia = {
+			}
+			b_thesprotia6_thesprotia = {
+			}
+		}
+		c_amantia = {
+			color= { 142 47 45 }
 			color2= { 255 255 255 }
 			
 			b_amantia_amantia = {
 			}
-			b_phoinike_amantia = {
+			b_amantia1_amantia = {
 			}
-			b_chimaira_amantia = {
+			b_amantia2_amantia = {
 			}
-			b_omphalion_amantia = {
+			b_amantia3_amantia = {
 			}
-			b_onchesmos_amantia = {
+			b_amantia4_amantia = {
 			}
-			b_orikon_amantia = {
+			b_amantia5_amantia = {
 			}
-			b_kestria_amantia = {
+			b_amantia6_amantia = {
+			}
+		}
+		c_oichalia = {
+			color= { 56 56 37 }
+			color2= { 255 255 255 }
+		
+			b_oichalia_oichalia = {
+			}
+			b_kraneia_oichalia = {
+			}
+			b_chalkis_oichalia = {
+			}
+			b_argithaia_oichalia = {
+			}
+			b_theudoria_oichalia = {
 			}
 		}
 	}
@@ -291,7 +344,26 @@ k_odrysia = {
 			}
 			b_anchialus_apollonia = {
 			}
-			b_mesembria_apollonia = {
+			b_apollonia1_apollonia = { # needs name
+			}
+		}
+		c_mesembria = {
+			color = { 110 160 211 }
+			color2 = { 255 255 255 }
+			
+			b_mesembria_mesembria = {
+			}
+			b_mesembria1_mesembria = {
+			}
+			b_mesembria2_mesembria = {
+			}
+			b_mesembria3_mesembria = {
+			}
+			b_mesembria4_mesembria = {
+			}
+			b_mesembria5_mesembria = {
+			}
+			b_mesembria6_mesembria = {
 			}
 		}
 	}
@@ -357,6 +429,44 @@ k_odrysia = {
 			b_sernota_philippopolis = {
 			}
 		}
+		c_bourdepa = {
+			color= { 209 87 85 }
+			color2= { 255 255 255 }
+			
+			b_bourdepa_bourdepa = {
+			}
+			b_bourdepa1_bourdepa = {
+			}
+			b_bourdepa2_bourdepa = {
+			}
+			b_bourdepa3_bourdepa = {
+			}
+			b_bourdepa4_bourdepa = {
+			}
+			b_bourdepa5_bourdepa = {
+			}
+			b_bourdepa6_bourdepa = {
+			}
+		}
+		c_bergoule = {
+			color= { 165 38 70 }
+			color2= { 255 255 255 }
+			
+			b_bergoule_bergoule = {
+			}
+			b_bergoule1_bergoule = {
+			}
+			b_bergoule2_bergoule = {
+			}
+			b_bergoule3_bergoule = {
+			}
+			b_bergoule4_bergoule = {
+			}
+			b_bergoule5_bergoule = {
+			}
+			b_bergoule6_bergoule = {
+			}
+		}
 	}
 	d_moesia = {
 		color= { 150 75 25 }
@@ -372,7 +482,7 @@ k_odrysia = {
 			}
 			b_longinopara_seuthopolis = {
 			}
-			b_oescus_seuthopolis = {
+			b_seuthopolis1_seuthopolis = { # needs name
 			}
 			b_storgosia_seuthopolis = {
 			}
@@ -403,6 +513,44 @@ k_odrysia = {
 			b_meldia_montana = {
 			}
 		}
+		c_oescus = {
+			color = { 133 136 163 }
+			color2 = { 255 255 255 }
+			
+			b_oescus_oescus = {
+			}
+			b_oescus1_oescus = {
+			}
+			b_oescus2_oescus = {
+			}
+			b_oescus3_oescus = {
+			}
+			b_oescus4_oescus = {
+			}
+			b_oescus5_oescus = {
+			}
+			b_oescus6_oescus = {
+			}
+		}
+		c_novae = {
+			color = { 149 165 84 }
+			color2 = { 255 255 255 }
+			
+			b_novae_novae = {
+			}
+			b_novae1_novae = {
+			}
+			b_novae2_novae = {
+			}
+			b_novae3_novae = {
+			}
+			b_novae4_novae = {
+			}
+			b_novae5_novae = {
+			}
+			b_novae6_novae = {
+			}
+		}
 	}
 	d_rhodope = {
 		color= { 125 50 25 }
@@ -429,7 +577,36 @@ k_odrysia = {
 			}
 			b_dikaia_abdera = {
 			}
+		}
+		c_oraion = {
+			color= { 105 55 30 }
+			color2= { 255 255 255 }
+						
+			b_oraion_oraion = {
+			}
+			b_topeiros_oraion = {
+			}
+			b_porsulae_oraion = {
+			}			
 		}		
+		c_zervae = {
+			color= { 125 50 25 }
+			color2= { 255 255 255 }
+			
+			b_zervae_zervae = {
+			}
+			b_plotinoupolis_zervae = {
+			}
+			b_dymae_zervae = {
+			}
+		}
+	}
+	d_pangaion = {
+		color = { 145 35 25 }
+		color2= { 255 255 255 }
+		
+		capital = 36 # Amphipolis
+		
 		c_amphipolis = {
 			color= { 145 40 35 }
 			color2= { 255 255 255 }
@@ -454,17 +631,6 @@ k_odrysia = {
 			b_alyke_thasos = {
 			}
 		}
-		c_oraion = {
-			color= { 105 55 30 }
-			color2= { 255 255 255 }
-						
-			b_oraion_oraion = {
-			}
-			b_topeiros_oraion = {
-			}
-			b_porsulae_oraion = {
-			}			
-		}
 		c_crenides = {
 			color= { 125 50 25 }
 			color2= { 255 255 255 }
@@ -479,16 +645,62 @@ k_odrysia = {
 			}	
 			b_philippi_crenides = {
 			}
-		}			
-		c_zervae = {
-			color= { 125 50 25 }
+		}
+		c_neapolis_samothrace = {
+			color= { 107 68 83 }
 			color2= { 255 255 255 }
-			
-			b_zervae_zervae = {
+						
+			b_neapolis_neapolis_samothrace = {
 			}
-			b_plotinoupolis_zervae = {
+			b_neapolis1_neapolis_samothrace = {
 			}
-			b_dymae_zervae = {
+			b_neapolis2_neapolis_samothrace = {
+			}
+			b_neapolis3_neapolis_samothrace = {
+			}
+			b_neapolis4_neapolis_samothrace = {
+			}
+			b_neapolis5_neapolis_samothrace = {
+			}
+			b_neapolis6_neapolis_samothrace = {
+			}
+		}
+		c_scaptobara = {
+			color= { 107 98 40 }
+			color2= { 255 255 255 }
+						
+			b_scaptobara_scaptobara = {
+			}
+			b_scaptobara1_scaptobara = {
+			}
+			b_scaptobara2_scaptobara = {
+			}
+			b_scaptobara3_scaptobara = {
+			}
+			b_scaptobara4_scaptobara = {
+			}
+			b_scaptobara5_scaptobara = {
+			}
+			b_scaptobara6_scaptobara = {
+			}
+		}
+		c_pistoros = {
+			color= { 185 80 206 }
+			color2= { 255 255 255 }
+						
+			b_pistoros_pistoros = {
+			}
+			b_pistoros1_pistoros = {
+			}
+			b_pistoros2_pistoros = {
+			}
+			b_pistoros3_pistoros = {
+			}
+			b_pistoros4_pistoros = {
+			}
+			b_pistoros5_pistoros = {
+			}
+			b_pistoros6_pistoros = {
 			}
 		}
 	}
@@ -3710,17 +3922,17 @@ k_macedon = {
 		color= { 200 100 25 }
 		color2= { 255 255 255 }
 		
-		c_orestis = {
+		c_lyncestis = {
 			color= { 200 100 25 }
 			color2= { 255 255 255 }
 			
-			b_heracleia_lyncestis_orestis = {
+			b_heracleia_lyncestis = {
 			}
-			b_lychnidos_orestis = {
+			b_lychnidos_lyncestis = {
 			}
-			b_stuberra_orestis = {
+			b_stuberra_lyncestis = {
 			}
-			b_pelagonia_orestis = {
+			b_pelagonia_lyncestis = {
 			}
 		}
 		c_pyli = {
@@ -3732,6 +3944,25 @@ k_macedon = {
 			b_keletron_pyli = {
 			}
 			b_eratyra_pyli = {
+			}
+		}
+		c_orestis = {
+			color= { 203 52 216 }
+			color2= { 255 255 255 }			
+			
+			b_orestis_orestis = {
+			}
+			b_orestis1_orestis = {
+			}
+			b_orestis2_orestis = {
+			}
+			b_orestis3_orestis = {
+			}
+			b_orestis4_orestis = {
+			}
+			b_orestis5_orestis = {
+			}
+			b_orestis6_orestis = {
 			}
 		}
 	}
@@ -3791,6 +4022,25 @@ k_illyria = {
 			b_runica_dardani = {
 			}
 			b_socanica_dardani = {
+			}
+		}
+		c_uscana = {
+			color= { 104 38 35 }
+			color2= { 255 255 255 }
+			
+			b_uscana_uscana = {
+			}
+			b_uscana1_uscana = {
+			}
+			b_uscana2_uscana = {
+			}
+			b_uscana3_uscana = {
+			}
+			b_uscana4_uscana = {
+			}
+			b_uscana5_uscana = {
+			}
+			b_uscana6_uscana = {
 			}
 		}
 	}
@@ -3929,7 +4179,7 @@ k_illyria = {
 				
 			b_stobi_stobi = {
 			}
-			b_bylazora_stobi = {
+			b_stobi1_stobi = {
 			}						
 			b_gurbita_stobi = {
 			}
@@ -3949,6 +4199,25 @@ k_illyria = {
 			b_meldia_serdika = {
 			}
 		}
+		c_bylazora = {
+			color= { 84 74 107 }
+			color2= { 255 255 255 }
+				
+			b_bylazora_bylazora = {
+			}
+			b_bylazora1_bylazora = {
+			}
+			b_bylazora2_bylazora = {
+			}
+			b_bylazora3_bylazora = {
+			}
+			b_bylazora4_bylazora = {
+			}
+			b_bylazora5_bylazora = {
+			}
+			b_bylazora6_bylazora = {
+			}
+		}
 	}
 	d_epidamnia = {
 		color= { 50 255 125 }
@@ -3962,7 +4231,7 @@ k_illyria = {
 			}
 			b_lissus_epidamnos = {
 			}
-			b_albanopolis_epidamnos = {
+			b_epidamnos1_epidamnos = {
 			}
 			b_clodiana_epidamnos = {
 			}
@@ -3988,7 +4257,26 @@ k_illyria = {
 			}
 			b_beue_parthus = {
 			}
-		}	
+		}
+		c_albanopolis = {
+			color= { 255 84 198 }
+			color2= { 255 255 255 }
+		
+			b_albanopolis_albanopolis = {
+			}
+			b_albanopolis1_albanopolis = {
+			}
+			b_albanopolis2_albanopolis = {
+			}
+			b_albanopolis3_albanopolis = {
+			}
+			b_albanopolis4_albanopolis = {
+			}
+			b_albanopolis5_albanopolis = {
+			}
+			b_albanopolis6_albanopolis = {
+			}
+		}
 	}
 }
 k_pannonia = {
@@ -4439,15 +4727,15 @@ k_greece = {
 		color= { 100 225 225 }
 		color2= { 255 255 255 }
 		
-		c_malis = {
+		c_trachis = {
 			color= { 100 215 215 }
 			color2= { 255 255 255 }
 			
-			b_trachis_malis = {
+			b_trachis_trachis = {
 			}
-			b_chaleion_malis = {
+			b_chaleion_trachis = {
 			}
-			b_naupactus_malis = {
+			b_naupactus_trachis = {
 			}
 		}		
 		c_thermos = {
@@ -4480,6 +4768,25 @@ k_greece = {
 			b_tyrrheion_stratus = {
 			}
 			b_oiniadai_stratus = {
+			}
+		}
+		c_malis = {
+			color= { 56 49 58 }
+			color2= { 255 255 255 }
+		
+			b_malis_malis = {
+			}
+			b_malis1_malis = {
+			}
+			b_malis2_malis = {
+			}
+			b_malis3_malis = {
+			}
+			b_malis4_malis = {
+			}
+			b_malis5_malis = {
+			}
+			b_malis6_malis = {
 			}
 		}
 	}
@@ -4655,7 +4962,7 @@ k_greece = {
 		
 			b_lamia_lamia = {
 			}
-			b_pharsalus_lamia = {
+			b_lamia1_lamia = {
 			}
 			b_pherai_lamia = {
 			}
@@ -4705,6 +5012,25 @@ k_greece = {
 			b_rhizous_magnesia = {
 			}
 			b_demetrias_magnesia = {
+			}
+		}
+		c_pharsalus = {
+			color= { 58 22 22 }
+			color2= { 255 255 255 }
+		
+			b_pharsalus_pharsalus = {
+			}
+			b_pharsalus1_pharsalus = {
+			}
+			b_pharsalus2_pharsalus = {
+			}
+			b_pharsalus3_pharsalus = {
+			}
+			b_pharsalus4_pharsalus = {
+			}
+			b_pharsalus5_pharsalus = {
+			}
+			b_pharsalus6_pharsalus = {
 			}
 		}
 	}

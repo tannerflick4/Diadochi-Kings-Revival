@@ -406,7 +406,7 @@ character_event = {
 	trigger = {
 		has_dlc = "Legacy of Rome"
 		in_command = no
-		has_landed_title = k_roma
+		has_landed_title = k_italy #TODO keep this title? 
 		capital_scope = { title = c_roma }
 	}
 	

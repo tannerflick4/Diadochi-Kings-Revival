@@ -1,6 +1,6 @@
 408.1.1 = { # 368 BC
 	holder = 310003
-	liege = d_damascus
+	liege = d_nabataea
 }
 435.1.1 = { # 341 BC
 	holder = 310002 # Paran

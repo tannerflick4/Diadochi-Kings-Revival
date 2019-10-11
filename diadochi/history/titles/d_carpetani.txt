@@ -2,3 +2,6 @@
 	holder = 420601 # Elazunos
 	
 }
+467.1.1 = {
+	holder = 0
+}

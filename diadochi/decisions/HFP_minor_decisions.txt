@@ -176,7 +176,6 @@ decisions = {
 			is_lowborn = no
 			capital_scope = { region = world_africa }
 			OR = {
-				culture = maghreb_arabic
 				culture_group = eastern_african
 				culture_group = north_african
 			}

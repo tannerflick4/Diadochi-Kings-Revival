@@ -953,7 +953,7 @@ upgrade_symbolic_stupa = {
 		
 	}
 	owner_modifier = {
-		buddhism_main_opinion = 3
+		# buddhism_main_opinion = 3
 	}
 }
 
