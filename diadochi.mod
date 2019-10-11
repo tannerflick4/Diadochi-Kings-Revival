@@ -1,5 +1,5 @@
-name = "Iron Age - Terrarum Antiqua"
-path = "mod/IronAge"
+name = "Diadochi Kings"
+path = "mod/diadochi"
 
 replace_path = "common/alternate_start"
 replace_path = "common/artifact_spawns"
