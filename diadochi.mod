@@ -1,5 +1,7 @@
 name = "Diadochi Kings"
 path = "mod/diadochi"
+user_dir = "Diadochi"
+picture="cover.jpg"
 
 replace_path = "common/alternate_start"
 replace_path = "common/artifact_spawns"
