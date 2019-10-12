@@ -1,6 +1,6 @@
 #1001-2000 for doric(formerly Epirote) dynasties
 1001 = {
-	name = "Aiakidai"
+	name = "Molossoi"
 	culture = doric
 }
 1002 = {
@@ -9,6 +9,18 @@
 }
 1003 = {
 	name = "Menedamidai"
+	culture = doric
+}
+1004 = {
+	name = "Chaones"
+	culture = doric
+}
+1005 = {
+	name = "Thesprotoi"
+	culture = doric
+}
+1006 = {
+	name = "Amantes"
 	culture = doric
 }
 # 2001-3000 for doric dynasties

@@ -163,12 +163,90 @@ k_epirus = {
 		culture = doric
 	}
 	
-	d_epirus = {
-		color= { 0 175 75 }
+	d_epirus_mountains = {
+		color= { 0 200 50 }
+		color2= { 255 255 255 }
+		
+		c_ilium = {
+			color= { 0 198 82 }
+			color2= { 255 255 255 }
+
+			b_ilium_ilium = {
+			}
+			b_dodona_ilium = {
+			}
+			b_passaron_ilium = {
+			}
+			b_eurymenai_ilium = {
+			}
+			b_klimatia_ilium = {
+			}
+			b_helikranon_ilium = {
+			}
+			b_phanota_ilium = {
+			}
+		}
+		c_chaonia = {
+			color= { 0 198 116 }
+			color2= { 255 255 255 }
+			
+			b_chaonia_chaonia = {
+			}
+			b_byllis_chaonia = {
+			}
+			b_dimalion_chaonia = {
+			}
+			b_antipatreia_chaonia = {
+			}
+			b_hektompeion_chaonia = {
+			}
+			b_stefanaphana_chaonia = {
+			}
+			b_nikaia_chaonia = {
+			}
+		}
+		c_amantia = {
+			color= { 0 198 49 }
+			color2= { 255 255 255 }
+			
+			b_amantia_amantia = {
+			}
+			b_aulon_amantia = {
+			}
+			b_palaeste_amantia = {
+			}
+			b_chimaira_amantia = {
+			}
+			b_argyros_amantia = {
+			}
+			b_antigoneia_amantia = {
+			}
+			b_omphalion_amantia = {
+			}
+		}
+		c_oichalia = {
+			color= { 0 153 35 }
+			color2= { 255 255 255 }
+		
+			b_oichalia_oichalia = {
+			}
+			b_kraneia_oichalia = {
+			}
+			b_chalkis_oichalia = {
+			}
+			b_argithaia_oichalia = {
+			}
+			b_theudoria_oichalia = {
+			}
+		}
+	}
+	
+	d_epirus_sea = {
+		color= { 25 150 50 }
 		color2= { 255 255 255 }
 		
 		c_ambracia = {
-			color= { 0 175 75 }
+			color= { 10 160 60 }
 			color2= { 255 255 255 }
 
 			b_ambracia_ambracia = {
@@ -190,46 +268,8 @@ k_epirus = {
 			b_ambracia_ambracia = {
 			}
 		}
-		c_ilium = {
-			color= { 10 165 75 }
-			color2= { 255 255 255 }
-
-			b_ilium_ilium = {
-			}
-			b_dodona_ilium = {
-			}
-			b_passaron_ilium = {
-			}
-			b_eurymenai_ilium = {
-			}
-			b_klimatia_ilium = {
-			}
-			b_helikranon_ilium = {
-			}
-			b_phanota_ilium = {
-			}
-		}
-		c_chaonia = {
-			color= { 0 185 65 }
-			color2= { 255 255 255 }
-			
-			b_chaonia_chaonia = {
-			}
-			b_byllis_chaonia = {
-			}
-			b_dimalion_chaonia = {
-			}
-			b_antipatreia_chaonia = {
-			}
-			b_hektompeion_chaonia = {
-			}
-			b_stefanaphana_chaonia = {
-			}
-			b_nikaia_chaonia = {
-			}
-		}
 		c_thesprotia = {
-			color= { 25 24 56 }
+			color= { 11 158 84 }
 			color2= { 255 255 255 }
 			
 			b_thesprotia_thesprotia = {
@@ -251,38 +291,15 @@ k_epirus = {
 			b_nekromanteion_thesprotia = {
 			}
 		}
-		c_amantia = {
-			color= { 142 47 45 }
-			color2= { 255 255 255 }
-			
-			b_amantia_amantia = {
-			}
-			b_aulon_amantia = {
-			}
-			b_palaeste_amantia = {
-			}
-			b_chimaira_amantia = {
-			}
-			b_argyros_amantia = {
-			}
-			b_antigoneia_amantia = {
-			}
-			b_omphalion_amantia = {
-			}
-		}
-		c_oichalia = {
-			color= { 56 56 37 }
+		c_corfu = {
+			color= { 11 158 109 }
 			color2= { 255 255 255 }
 		
-			b_oichalia_oichalia = {
+			b_corcyra_corfu = {
 			}
-			b_kraneia_oichalia = {
+			b_artemis_corfu = {
 			}
-			b_chalkis_oichalia = {
-			}
-			b_argithaia_oichalia = {
-			}
-			b_theudoria_oichalia = {
+			b_kassiope_corfu = {
 			}
 		}
 	}
@@ -4807,6 +4824,19 @@ k_greece = {
 			b_malis6_malis = {
 			}
 		}
+		c_cephalonia = {
+			color= { 110 185 175 }
+			color2= { 255 255 255 }
+		
+			b_same_cephalonia = {
+			}
+			b_ithaca_cephalonia = {
+			}
+			b_pronnoi_cephalonia = {
+			}
+			b_zakynthos_cephalonia = {
+			}
+		}
 	}
 	d_crete = {
 		color= { 100 200 225 }
@@ -4936,35 +4966,6 @@ k_greece = {
 			b_anaphe_naxos = {
 			}
 			b_minoa_naxos = {
-			}
-		}
-	}
-	d_ionian_islands = {
-		color= { 100 175 175 }
-		color2= { 255 255 255 }
-	
-		c_cephalonia = {
-			color= { 110 185 175 }
-			color2= { 255 255 255 }
-		
-			b_same_cephalonia = {
-			}
-			b_ithaca_cephalonia = {
-			}
-			b_pronnoi_cephalonia = {
-			}
-			b_zakynthos_cephalonia = {
-			}
-		}
-		c_corfu = {
-			color= { 100 175 150 }
-			color2= { 255 255 255 }
-		
-			b_corcyra_corfu = {
-			}
-			b_artemis_corfu = {
-			}
-			b_kassiope_corfu = {
 			}
 		}
 	}
