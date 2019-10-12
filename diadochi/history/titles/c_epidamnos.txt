@@ -7,9 +7,6 @@
 441.1.1 = { # 335 BC
 	holder = 23903
 }
-462.1.1 = { # 314 BC
-	liege = k_macedon
-}
 474.1.1 = { # 302 BC
 	liege = k_epirus
 }

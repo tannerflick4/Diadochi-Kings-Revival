@@ -1,36 +1,19 @@
-393.1.1 = {
-	holder = 10006 # Alcetas I
+405.1.1 = { # 371 BC
+	holder = 10301 # Alexis of the Chaones
 	liege = k_epirus
 }
-406.1.1 = {
-	holder = 10005 # Neoptolemus I
+448.1.1 = { # 328 BC
+	holder = 10303 # Nikandros of the Chaones
 }
-416.1.1 = {
-	holder = 10003 # Arybbas
+459.10.1 = { # 317 BC
+	liege = k_macedon # Cassander takes Epirus.
 }
-426.1.1 = {
-	holder = 10008 # Alexander I
+463.1.1 = { # 313 BC
+	liege = k_epirus # Aeacides takes Epirus back.
 }
-445.1.1 = {
-	holder = 10001 # Aeacides
+481.1.1 = { # 295 BC
+	holder = 10304 # Myron of the Chaones
 }
-459.10.1 = {
-	holder = 2 # Kassandros
-	liege = k_macedon
-}
-463.1.1 = {
-	holder = 10001 # Aeacides
-	liege = k_epirus
-}
-463.7.1 = {
-	holder = 10004 # Alcetas II
-}
-469.1.1 = {
-	holder = 10010 # Pyrrhus
-}
-474.1.1 = {
-	holder = 10009 # Neoptolemos II
-}
-479.1.1 = {
-	holder = 10010 # Pyrrhus
+506.1.1 = { # 270 BC
+	holder = 10305 # Myron of the Chaones
 }

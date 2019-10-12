@@ -1,5 +1,9 @@
 # 10001-20000 for doric(formerly Epirote) characters
-	# 10001-10100 for the Aiakidai dynasty
+	# 10001-10100 for the Mollosoi dynasty
+	# 10301-10400 for the Chaones dynasty
+	# 10401-10500 for the Thesprotoi dynasty
+	# 10501-10600 for the Amantes dynasty
+
 # 20001-30000 for doric characters
 	# 20001-20100 for the Agiadai dynasty
 	# 20101-20200 for the Sibyrtiadai dynasty

@@ -152,7 +152,7 @@ feudal_elective = {
 			OR = { #
 				AND = {
 					higher_real_tier_than = BARON
-					FROMFROM = { real_tier = DUKE } #If the Elector Title is a Duchy, any vassal is an elector, otherwise only Dukes and above.
+					FROMFROM = { real_tier = KING } #If the Elector Title is a Kingdom, any vassal is an elector, otherwise only Dukes and above.
 				}
 				higher_real_tier_than = COUNT
 			}

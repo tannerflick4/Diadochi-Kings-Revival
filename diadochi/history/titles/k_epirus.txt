@@ -1,5 +1,6 @@
 393.1.1 = {
 	holder = 10006 # Alcetas I
+	law = succ_feudal_elective
 }
 406.1.1 = {
 	holder = 10005 # Neoptolemus I

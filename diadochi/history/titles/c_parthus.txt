@@ -17,13 +17,12 @@
 453.6.10 = { # 323 BC
 	liege = k_s_macedon
 }
-459.10.1 = {
+459.10.1 = { # 317 BC
 	liege = k_macedon
 }
-474.1.1 = {
-	holder = 10009
-	liege = k_epirus
+463.1.1 = { # 313 BC
+	liege = 0
 }
-479.1.1 = {
-	holder = 10010
+474.1.1 = { # 302 BC
+	holder = 140104 # Agron of the Taulanti
 }

@@ -4,14 +4,16 @@
 title = c_thesprotia
 
 # Settlements
-max_settlements = 6
-b_thesprotia_thesprotia = castle
-b_thesprotia1_thesprotia = temple
-b_thesprotia2_thesprotia = city
-b_thesprotia3_thesprotia = castle
-b_thesprotia4_thesprotia = temple
-b_thesprotia5_thesprotia = city
-#b_thesprotia6_thesprotia = castle
+max_settlements = 5
+b_thesprotia_thesprotia = tribal
+#b_phoinike_thesprotia
+#b_nikopolis_thesprotia
+#b_pandosia_thesprotia
+#b_elina_thesprotia
+#b_parapotamos_thesprotia
+#b_kestria_thesprotia
+#b_maiandia_thesprotia
+b_nekromanteion_thesprotia = temple
 
 # Misc
 culture = doric

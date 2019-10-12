@@ -4,14 +4,14 @@
 title = c_amantia
 
 # Settlements
-max_settlements = 5
-b_amantia_amantia = castle
-b_amantia1_amantia = temple
-b_amantia2_amantia = city
-b_amantia3_amantia = castle
-#b_amantia4_amantia = temple
-#b_amantia5_amantia = city
-#b_amantia6_amantia = castle
+max_settlements = 4
+b_amantia_amantia = tribal
+#b_aulon_amantia
+#b_palaeste_amantia
+b_chimaira_amantia = temple
+#b_argyros_amantia
+#b_antigoneia_amantia
+#b_omphalion_amantia
 
 # Misc
 culture = doric

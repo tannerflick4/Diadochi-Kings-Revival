@@ -1,4 +1,4 @@
 has_reformed_religion_trigger = {
 	# TODO: NOT unreformed religions
-    is_reformed_religion = yes
+    always = yes
 }

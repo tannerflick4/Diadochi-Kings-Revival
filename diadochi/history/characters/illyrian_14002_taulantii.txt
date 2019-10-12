@@ -8,7 +8,7 @@
 	
 	add_trait = kind
 		
-	431.1.1 = { # 360 BC
+	416.1.1 = { # 360 BC
 		birth="yes"
 	}
 	474.1.1 = { # 302 BC
@@ -37,6 +37,36 @@
 		birth="yes"
 	}
 	441.1.1 = { # 335 BC
+		death="yes"
+	}
+}
+140104 = {
+	name = "Agron" # King of Taulantii, Made up
+	dynasty = 14002 # Taulantii
+	religion = illyrian_main
+	culture = illyrian
+
+	father = 140101
+
+	447.1.1 = { # 329 BC
+		birth="yes"
+	}
+	517.1.1 = { # 259 BC
+		death="yes"
+	}
+}
+140104 = {
+	name = "Glaucias" # King of Taulantii, Made up
+	dynasty = 14002 # Taulantii
+	religion = illyrian_main
+	culture = illyrian
+
+	father = 140104
+
+	485.1.1 = { # 291 BC
+		birth="yes"
+	}
+	531.1.1 = { # 245 BC
 		death="yes"
 	}
 }

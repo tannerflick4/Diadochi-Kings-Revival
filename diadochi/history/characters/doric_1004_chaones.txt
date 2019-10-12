@@ -1,0 +1,74 @@
+# 10301-10400 for the Chaones dynasty
+10301 = {
+	name = "Alexis" # Made up
+	dynasty = 1004
+	religion = greek_main
+	culture = doric
+    
+	390.1.1 = { # 386 BC
+		birth="yes" 
+	}
+	448.1.1 = { # 328 BC
+		death="yes"
+	}
+}
+10302 = {
+	name = "Kleitos" # Made up
+	dynasty = 1004
+	religion = greek_main
+	culture = doric
+
+    father = 10301
+    
+	405.1.1 = { # 371 BC
+		birth="yes" 
+	}
+	447.1.1 = { # 329 BC
+		death="yes"
+	}
+}
+10303 = {
+	name = "Nikandros" # Made up
+	dynasty = 1004
+	religion = greek_main
+	culture = doric
+
+    father = 10302
+    
+	423.1.1 = { # 353 BC
+		birth="yes" 
+	}
+	481.1.1 = { # 295 BC
+		death="yes"
+	}
+}
+10304 = {
+	name = "Myron" # Made up
+	dynasty = 1004
+	religion = greek_main
+	culture = doric
+
+    father = 10303
+    
+	453.1.1 = { # 323 BC
+		birth="yes" 
+	}
+	506.1.1 = { # 270 BC
+		death="yes"
+	}
+}
+10305 = {
+	name = "Myron" # Made up
+	dynasty = 1004
+	religion = greek_main
+	culture = doric
+
+    father = 10304
+    
+	476.1.1 = { # 300 BC
+		birth="yes" 
+	}
+	514.1.1 = { # 262 BC
+		death="yes"
+	}
+}

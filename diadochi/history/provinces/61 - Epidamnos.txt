@@ -6,12 +6,11 @@ title = c_epidamnos # for example c_corinth
 # Settlements
 max_settlements = 4
 b_epidamnos_epidamnos = castle
-b_lissus_epidamnos = city
-b_epidamnos1_epidamnos = castle
-b_clodiana_epidamnos = castle
-
-# Possible baronies: (Always add a # in front of a line with these!)
-# b_dyrrhachium_epidamnos
+#b_pistum_epidamnos
+b_akrolissos_epidamnos = castle
+b_lissos_epidamnos = city
+b_nymphaeum_epidamnos = temple
+#b_dyrrhachium_epidamnos
 
 # Misc
 culture = doric

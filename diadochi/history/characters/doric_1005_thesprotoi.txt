@@ -1,0 +1,74 @@
+# 10401-10500 for the Thesprotoi dynasty
+10401 = {
+	name = "Hiketas" # Made up
+	dynasty = 1005
+	religion = greek_main
+	culture = doric
+
+	375.1.1 = { # 401 BC
+		birth="yes" 
+	}
+	431.1.1 = { # 345 BC
+        death="yes"
+	}
+}
+10402 = {
+	name = "Aristophanes" # Made up
+	dynasty = 1005
+	religion = greek_main
+	culture = doric
+
+    father = 10401
+
+	407.1.1 = { # 369 BC
+		birth="yes" 
+	}
+	467.1.1 = { # 309 BC
+        death="yes"
+	}
+}
+10403 = {
+	name = "Iprikrates" # Made up
+	dynasty = 1005
+	religion = greek_main
+	culture = doric
+
+    father = 10402
+
+	440.1.1 = { # 336 BC
+		birth="yes" 
+	}
+	472.1.1 = { # 304 BC
+        death="yes"
+	}
+}
+10404 = {
+	name = "Gelon" # Made up
+	dynasty = 1005
+	religion = greek_main
+	culture = doric
+
+    father = 10403
+
+	463.1.1 = { # 313 BC
+		birth="yes" 
+	}
+	511.1.1 = { # 265 BC
+        death="yes"
+	}
+}
+10405 = {
+	name = "Adeimantos" # Made up
+	dynasty = 1005
+	religion = greek_main
+	culture = doric
+
+    father = 10404
+
+	500.1.1 = { # 276 BC
+		birth="yes" 
+	}
+	572.1.1 = { # 204 BC
+        death="yes"
+	}
+}
