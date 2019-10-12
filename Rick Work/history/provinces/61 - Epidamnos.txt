@@ -1,0 +1,20 @@
+# 61 - Epidamnos
+
+# County Title
+title = c_epidamnos # for example c_corinth
+
+# Settlements
+max_settlements = 4
+b_epidamnos_epidamnos = castle
+#b_pistum_epidamnos
+b_akrolissos_epidamnos = castle
+b_lissos_epidamnos = city
+b_nymphaeum_epidamnos = temple
+#b_dyrrhachium_epidamnos
+
+# Misc
+culture = doric
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,20 @@
+# 632 - Apollonia
+
+# County Title
+title = c_apollonia_epidamnia # for example c_corinth
+
+# Settlements
+max_settlements = 4
+b_apollonia_apollonia_epidamnia = castle
+#b_genesis_apollonia
+b_clodiana_apollonia_epidamnia = castle
+#b_ad_novas_apollonia
+b_apsos_apollonia_epidamnia = city
+b_stefana_apollonia_epidamnia = city
+
+# Misc
+culture = doric
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

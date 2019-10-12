@@ -1,0 +1,18 @@
+# 267 - Albanopolis
+
+# County Title
+title = c_albanopolis
+
+# Settlements
+max_settlements = 3
+b_albanopolis_albanopolis = tribal
+#b_treiecto_albanopolis
+#b_ad_dianam_albanopolis
+#b_grandavia_albanopolis
+#b_candabia_albanopolis
+
+# Misc
+culture = illyrian
+religion = illyrian_main
+
+# History
