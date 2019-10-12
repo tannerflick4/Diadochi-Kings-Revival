@@ -1,0 +1,355 @@
+# Types:
+# 0 - Light Infantry
+# 1 - Heavy Infantry
+# 2 - Pikemen
+# 3 - Light Cavalry
+# 4 - Heavy Cavalry
+# 5 - Archers
+# 6 - Special Troops
+
+RETTYPE_MAC_PHALANX = { # Argyraspides / Silver Shields
+	
+	first_type = 2
+	first_amount = 250
+	
+	potential = {
+		higher_tier_than = duke
+		or = {
+			culture = macedonian
+			any_realm_province = {
+				culture = macedonian
+			}
+		}
+	}
+	
+	modifier = {
+		pikemen_offensive = 0.4
+		pikemen_defensive = 0.4
+	}
+}
+
+RETTYPE_MAC_CAVALRY = { # Hetairoi / Companion Cavalry
+
+	first_type = 4
+	first_amount = 250
+	
+	potential = {
+		higher_tier_than = duke
+		or = {
+			culture = macedonian
+			any_realm_province = {
+				culture = macedonian
+			}
+		}
+	}
+	
+	modifier = {
+		knights_offensive = 0.4
+		knights_defensive = 0.4
+	}
+}
+
+RETTYPE_HEL_HOPLITE = { # Epilektoi Hoplitai / Elite Hoplites
+
+	first_type = 2
+	first_amount = 250
+	
+	potential = {
+		higher_tier_than = duke
+		or = {
+			culture_group = hellenic
+			any_realm_province = {
+				culture_group = hellenic
+			}
+		}
+	}
+	
+	modifier = {
+		pikemen_offensive = 0.4
+		pikemen_defensive = 0.4
+	}
+}
+
+RETTYPE_HEL_CAVALRY = { # Hippeis Xystophoroi / Heavy Cavalry
+
+	first_type = 4
+	first_amount = 250
+	
+	potential = {
+		higher_tier_than = duke
+		or = {
+			culture_group = hellenic
+			any_realm_province = {
+				culture_group = hellenic
+			}
+		}
+	}
+	
+	modifier = {
+		knights_offensive = 0.4
+		knights_defensive = 0.4
+	}
+}
+
+RETTYPE_PER_CAVALRY = { # Khuveshavagan / Heavy cavalry
+
+	first_type = 4
+	first_amount = 250
+	
+	potential = {
+		higher_tier_than = duke
+		or = {
+			culture = persian
+			culture = median
+			culture = parthian
+			culture = arian
+			any_realm_province = {
+				or = {
+					culture = persian
+					culture = median
+					culture = parthian
+					culture = arian
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		knights_offensive = 0.4
+		knights_defensive = 0.4
+	}
+}
+
+RETTYPE_SCY_CAVALRY = { # Ysaninu Aysiramja / Heavy cavalry
+
+	first_type = 4
+	first_amount = 250
+	
+	potential = {
+		higher_tier_than = duke
+		or = {
+			culture = scythian
+			culture = sarmatian
+			any_realm_province = {
+				or = {
+					culture = scythian
+					culture = sarmatian
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		knights_offensive = 0.4
+		knights_defensive = 0.4
+	}
+}
+
+RETTYPE_SCY_HORSE_ARCHER = { # Spatahaura Hadabara / Elite horse archers
+
+	first_type = 6
+	first_amount = 250
+	
+	special_troops = horse_archers
+	
+	potential = {
+		higher_tier_than = duke
+		or = {
+			culture = scythian
+			culture = sarmatian
+			any_realm_province = {
+				or = {
+					culture = scythian
+					culture = sarmatian
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		horse_archers_offensive = 0.4
+		horse_archers_defensive = 0.4
+	}
+}
+
+RETTYPE_ARM_SPEARMEN = { # Nakhararakan Tiknapah / Elite spearmen
+	
+	first_type = 2
+	first_amount = 250
+	
+	potential = {
+		higher_tier_than = duke
+		or = {
+			culture = armenian
+			any_realm_province = {
+				culture = armenian
+			}
+		}
+	}
+	
+	modifier = {
+		pikemen_offensive = 0.4
+		pikemen_defensive = 0.4
+	}
+}
+
+RETTYPE_ARM_CAVALRY = { # Nakhararakan Aspet / Cataphracts
+
+	first_type = 4
+	first_amount = 250
+	
+	potential = {
+		higher_tier_than = duke
+		or = {
+			culture = armenian
+			any_realm_province = {
+				culture = armenian
+			}
+		}
+	}
+	
+	modifier = {
+		knights_offensive = 0.4
+		knights_defensive = 0.4
+	}
+}
+
+RETTYPE_THR_RHOMPHAIA = { # Thraikioi Rhomphaiaphoroi / Rhomphaia-wielding elite infantry
+
+	first_type = 1
+	first_amount = 250
+	
+	potential = {
+		higher_tier_than = duke
+		or = {
+			culture = thracian
+			culture = dacian
+			any_realm_province = {
+				or = {
+					culture = thracian
+					culture = dacian
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		heavy_infantry_offensive = 0.4
+		heavy_infantry_defensive = 0.4
+	}
+}
+
+RETTYPE_THR_CAVALRY = { # Tarabostes / Heavy cavalry
+
+	first_type = 4
+	first_amount = 250
+	
+	potential = {
+		higher_tier_than = duke
+		or = {
+			culture = thracian
+			culture = dacian
+			any_realm_province = {
+				or = {
+					culture = thracian
+					culture = dacian
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		knights_offensive = 0.4
+		knights_defensive = 0.4
+	}
+}
+
+RETTYPE_CAR_PHALANX = { # Dorkim Kdoshim / Sacred Band phalanx
+
+	first_type = 2
+	first_amount = 250
+	
+	potential = {
+		higher_tier_than = duke
+		or = {
+			culture = punic
+			any_realm_province = {
+				culture = punic
+			}
+		}
+	}
+	
+	modifier = {
+		pikemen_offensive = 0.4
+		pikemen_defensive = 0.4
+	}
+}
+
+RETTYPE_CAR_CAVALRY = { # Ha'Abbirim Ha'Qdosim sel Astarte / Sacred Band cavalry
+
+	first_type = 4
+	first_amount = 250
+	
+	potential = {
+		higher_tier_than = duke
+		or = {
+			culture = punic
+			any_realm_province = {
+				culture = punic
+			}
+		}
+	}
+	
+	modifier = {
+		knights_offensive = 0.4
+		knights_defensive = 0.4
+	}
+}
+
+RETTYPE_AFR_ELEPHANT = { # Elephantes Hulaioi Liboukoi / African elephants
+
+	first_type = 6
+	first_amount = 5
+	
+	special_troops = war_elephants
+	
+	potential = {
+		higher_tier_than = duke
+		or = {
+			culture = nubian
+			any_realm_province = {
+				culture = nubian
+			}
+		}
+	}
+}
+
+RETTYPE_SPA_HOPLITE = { # Spartiatai Hoplitai / Spartan hoplites
+
+	first_type = 2
+	first_amount = 250
+	
+	potential = {
+		has_landed_title = k_sparta
+	}
+	
+	modifier = {
+		pikemen_offensive = 0.4
+		pikemen_defensive = 0.4
+	}
+}
+
+RETTYPE_BOS_ARCHERS = { # Thureopherontes Toxotai / Bosporan heavy archers
+
+	first_type = 5
+	first_amount = 250
+	
+	potential = {
+		has_landed_title = k_bosphorus
+	}
+	
+	modifier = {
+		archers_offensive = 0.4
+		archers_defensive = 0.4
+	}
+}
