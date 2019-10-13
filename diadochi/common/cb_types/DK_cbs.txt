@@ -1,0 +1,383 @@
+# Cultural liberation CB
+cultural_liberation = {
+	name = CB_NAME_CULTURAL_LIBERATION
+	war_name = WAR_NAME_CULTURAL_LIBERATION
+	sprite = 1 # Placeholder	
+	truce_days = 3650
+	is_permanent = yes
+	check_de_jure_tier = DUKE # this scans all dejure duchies for the counties which are held by or vassals(or below) of selected character. Only valid if is_permanent = yes
+	
+	can_use = {
+		ROOT = {
+			independent = yes
+			NOT = {
+				culture = FROM
+			}
+			NOT = {
+				#is_tribal = yes
+				primary_title = {
+					has_law = nomad_settled_0
+				}
+			}
+		}
+		FROM = {
+			independent = yes
+		}
+		OR = {
+			# Target is actually oppressing them...
+			FROM = {
+				OR = {
+					trait = arbitrary
+					trait = cruel # Strap them onto poles
+					trait = greedy # Tax them into space
+				}
+			}
+			ROOT = {
+				OR = {
+					diplomacy = 15 # Or Attacker can make his people think so...
+					intrigue = 15
+					martial = 15 # Or Attacker is a warlord
+				}
+			}
+		}
+	}
+	can_use_title = {
+		any_direct_de_jure_vassal_title = {
+			# Attacker needs a border or is 2 seas away
+			location = {
+				any_neighbor_province = {
+					OR = {
+						AND = {
+							has_owner = yes
+							owner = {
+								OR = {
+									character = ROOT
+									is_liege_or_above = ROOT
+								}
+							}
+						}
+						AND = {
+							is_land = no
+							any_neighbor_province = {
+								OR = {
+									AND = {
+										has_owner = yes
+										owner = {
+											OR = {
+												character = ROOT
+												is_liege_or_above = ROOT
+											}
+										}
+									}
+									AND = {
+										is_land = no
+										any_neighbor_province = {
+											has_owner = yes
+											owner = {
+												OR = {
+													character = ROOT
+													is_liege_or_above = ROOT
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			OR = {
+				AND = {
+					ROOT = {
+						NOT = {
+							culture_group = FROM
+						}
+					}
+					location = {
+						culture_group = ROOT
+						# Has to be owned by FROM. If he has vassals with the same culture, that will invalidate the war.
+						owner = {
+							OR = {
+								character = FROM
+								is_liege_or_above = FROM
+							}
+							NOT = {
+								culture = PREV
+							}
+						}
+					}
+				}
+				AND = {
+					ROOT = {
+						culture_group = FROM
+					}
+					location = {
+						culture = ROOT
+						owner = {
+							OR = {
+								character = FROM
+								is_liege_or_above = FROM
+							}
+							NOT = {
+								culture = PREV
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	is_valid = {
+		ROOT = {
+			independent = yes
+			NOT = {
+				culture = FROM
+			}
+		}
+		FROM = {
+			independent = yes
+		}
+	}
+	is_valid_title = {
+		any_direct_de_jure_vassal_title = {
+			location = {
+				owner = {
+					OR = {
+						character = FROM
+						is_liege_or_above = FROM
+					}
+					NOT = {
+						culture = PREV
+					}
+				}
+				OR = {
+					AND = {
+						ROOT = {
+							NOT = {
+								culture_group = FROM
+							}
+						}
+						culture_group = ROOT
+					}
+					AND = {
+						ROOT = {
+							culture_group = FROM
+						}
+						culture = ROOT
+					}
+				}
+			}
+		}
+	}
+	on_success = {
+		ROOT = {
+			prestige = 150
+			piety = 50
+		}
+		FROM = {
+			prestige = -200
+		}
+	}
+	on_success_title = {
+		if = {
+			limit = {
+				ROOT = {
+					culture_group = FROM
+				}
+			}
+			any_direct_de_jure_vassal_title = {
+				limit = {
+					location = {
+						culture = ROOT
+						owner = {											
+							NOT = {
+								culture = PREV
+							}
+						}
+					}				
+					holder_scope = {
+						OR = {
+							is_liege_or_above = FROM
+							character = FROM
+						}
+					}
+				}
+				if = {
+					limit = {
+						holder_scope = {
+							culture = ROOT
+							lower_tier_than = ROOT	
+							capital_scope = {
+								de_jure_liege_or_above = PREVPREVPREV
+								culture = ROOT
+							}						
+							NOT = {
+								liege = {
+									lower_tier_than = ROOT
+									culture = ROOT
+									capital_scope = {
+										de_jure_liege_or_above = PREVPREVPREVPREV # Duchy
+										culture = ROOT
+									}
+								}
+							}
+						}
+					}
+					holder_scope = {
+						set_defacto_liege = ROOT
+					}
+				}
+				if = {
+					limit = {
+						holder_scope = {
+							OR = {
+								NOT = {
+									culture = ROOT
+								}
+								NOT = {
+									lower_tier_than = ROOT
+								}
+								capital_scope = {
+									OR = {
+										NOT = { de_jure_liege_or_above = PREVPREVPREV }
+										NOT = { culture = ROOT }
+									}
+								}
+							}
+						}
+					}
+					usurp_title = ROOT
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					ROOT = {
+						culture_group = FROM
+					}
+				}
+			}
+			any_direct_de_jure_vassal_title = {
+				limit = {
+					location = {
+						culture_group = ROOT
+						owner = {							
+							NOT = {
+								culture = PREV
+							}
+						}
+					}
+					holder_scope = {
+						OR = {
+							is_liege_or_above = FROM
+							character = FROM
+						}
+					}
+				}
+				if = {
+					limit = {
+						holder_scope = {
+							culture_group = ROOT
+							lower_tier_than = ROOT	
+							capital_scope = {
+								de_jure_liege_or_above = PREVPREVPREV
+								culture_group = ROOT
+							}						
+							NOT = {
+								liege = {
+									lower_tier_than = ROOT
+									culture_group = ROOT
+									capital_scope = {
+										de_jure_liege_or_above = PREVPREVPREVPREV # Duchy
+										culture_group = ROOT
+									}
+								}
+							}
+						}
+					}
+					holder_scope = {
+						set_defacto_liege = ROOT
+					}
+				}
+				if = {
+					limit = {
+						holder_scope = {
+							OR = {
+								NOT = {
+									culture_group = ROOT
+								}
+								NOT = {
+									lower_tier_than = ROOT
+								}
+								capital_scope = {
+									OR = {
+										NOT = { de_jure_liege_or_above = PREVPREVPREV }
+										NOT = { culture_group = ROOT }
+									}
+								}
+							}
+						}
+					}
+					usurp_title = ROOT
+				}
+			}
+		}	
+	}
+	on_fail = {
+		ROOT = {
+			prestige = -50
+		}
+		any_defender = {
+			participation_scaled_prestige = 100
+		}
+	}
+	on_reverse_demand = {
+		ROOT = {
+			prestige = -250
+			custom_tooltip = {
+				text = cultural_liberation_opinion
+				hidden_tooltip = {
+					any_realm_character = {
+						limit = {
+							culture = ROOT
+						}
+						opinion = {
+							who = ROOT
+							years = 8
+							modifier = opinion_failed_liberation
+						}
+					}
+				}
+			}
+			transfer_scaled_wealth = {
+				to = FROM
+				value = 4.0
+			}
+		}
+		any_defender = {
+			participation_scaled_prestige = 350
+		}
+	}
+	
+	attacker_ai_victory_worth = {
+		factor = -1 # always accept
+	}
+	
+	attacker_ai_defeat_worth = {
+		factor = 100
+	}
+
+	defender_ai_victory_worth = {
+		factor = -1 # always accept
+	}
+	
+	defender_ai_defeat_worth = {
+		factor = 100
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}

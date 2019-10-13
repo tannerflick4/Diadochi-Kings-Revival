@@ -29,9 +29,9 @@
 	424.1.1 = {
 		birth="yes" # 354 BC
 	}
-	#453.6.10 = {
-	#	add_trait = diadochi_king
-	#}
+	453.6.10 = {
+		add_trait = diadochi_king
+	}
 	455.1.1 = {
 		death = {
 			death_reason = death_battle # 321 BC Died in battle against Eumenes

@@ -21,9 +21,9 @@
 	452.1.1 = { # 324 BC
 		add_spouse = 240001 # Apama
 	}
-	#453.6.10 = {
-	#	add_trait = diadochi_king
-	#}
+	453.6.10 = {
+		add_trait = diadochi_king
+	}
 	467.1.1 = { # 309 BC, End of Babylonian war
 		give_nickname = nick_nikator
 	}
@@ -46,18 +46,15 @@
 	culture = macedonian
 	father = 1001
 	mother = 240001
-
-	dna = dfbhcbccden
-	properties = ad0aj000000
 	
 	add_trait = charitable
 	
 	453.1.1 = { # 323 BC Made up
 		birth="yes"
 	}
-	#453.6.10 = {
-	#	add_trait = diadochi_king
-	#}
+	453.6.10 = {
+		add_trait = diadochi_king
+	}
 	482.1.1 = {
 		add_spouse = 410 # Stratonice
 	}
@@ -138,7 +135,7 @@
 	father = 1001
 	mother = 240001
 	
-	#add_trait = diadochi_king
+	add_trait = diadochi_king
 	add_trait = charitable
 		
 	463.1.1 = { # Made up
@@ -201,7 +198,7 @@
 	father = 1002 # Antiochus
 	mother = 410 # Stratonike
 	
-	#add_trait = diadochi_king
+	add_trait = diadochi_king
 	add_trait = deceitful
 	
 	484.1.1 = { # Made up
@@ -222,7 +219,7 @@
 	father = 1002 # Antiochus
 	mother = 410 # Stratonike
 	
-	#add_trait = diadochi_king
+	add_trait = diadochi_king
 	add_trait = hedonist
 	add_trait = drunkard
 	add_trait = lustful	

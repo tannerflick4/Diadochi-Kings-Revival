@@ -11,9 +11,9 @@
 	420.1.1 = {
 		birth="yes" # 356 BC
 	}
-	#453.6.10 = {
-	#	add_trait = diadochi_king
-	#}
+	453.6.10 = {
+		add_trait = diadochi_king
+	}
 	454.1.1 = {
 		death = {
 			death_reason = death_battle # 322 BC, Killed in the siege of Lamia

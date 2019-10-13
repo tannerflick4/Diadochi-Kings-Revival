@@ -1,0 +1,149 @@
+slave = {
+	potential = {
+		always = no
+	}
+	lifestyle = yes
+	
+	general_opinion = -10 # Everyone looks down upon a slave
+	
+	diplomacy = -5
+	
+	customizer = no
+	random = no
+}
+senator = {
+	general_opinion = 5
+	monthly_character_prestige = 0.15
+	
+	random = no
+}
+chakravartin = {
+	general_opinion = 30
+	
+	monthly_character_prestige = 0.7
+	
+	diplomacy = 3
+	learning = 3
+	
+	customizer = no
+	random = no
+}
+diadochi_king = {
+	agnatic = yes
+	
+	general_opinion = 10
+	vassal_opinion = 5
+	same_opinion = -20
+	
+	monthly_character_prestige = 0.3
+	
+	customizer = no
+	random = no
+
+	ai_ambition = 20
+	ai_rationality = -20
+}
+king_of_asia = {
+	general_opinion = 10
+	vassal_opinion = 15
+	
+	monthly_character_prestige = 0.7
+	
+	customizer = no
+	random = no
+}
+
+# VIET traits
+bad_priest_buddhist = {
+
+	religious = yes
+
+	potential = {
+		OR = {
+			is_theocracy = yes
+			is_ruler = no
+		}
+	}
+
+	church_opinion = -20
+
+	monthly_character_piety = -1
+
+	customizer = no
+	random = no
+}
+vegetarian = {
+	potential = {
+		OR = {
+			religion = hinduism_main
+			religion_group = indian_religion
+		}
+	}
+	
+	stewardship = -1	
+	intrigue = -1	
+	
+	monthly_character_piety = 0.4
+	health = 0.2
+	same_religion_opinion = 10
+	same_opinion = 10
+}
+retreat_veteran = {
+	potential = {
+		OR = {
+			religion = hinduism_main
+			religion_group = indian_religion
+		}
+	}
+	opposites =  {
+		retreat_master
+	}
+	
+	customizer = no
+	
+	learning = 1
+	
+	monthly_character_piety = 0.1
+	same_religion_opinion = 5
+	same_opinion = 10
+	opposite_opinion = 10
+}
+retreat_master = {
+	potential = {
+		OR = {
+			religion = hinduism_main
+			religion_group = indian_religion
+		}
+	}
+	opposites =  {
+		retreat_veteran
+	}
+	
+	customizer = no
+	
+	learning = 2
+	
+	monthly_character_piety = 0.3
+	same_religion_opinion = 10
+	same_opinion = 10
+	opposite_opinion = 10
+}
+on_retreat = {
+	potential = {
+		OR = {
+			religion = hinduism_main
+			religion_group = indian_religion
+		}
+	}
+	
+	customizer = no
+	
+	monthly_character_piety = 0.5
+	same_religion_opinion = 10
+	fertility = -50.0
+	
+	stewardship = -2
+	intrigue = -2
+	
+	pilgrimage = yes # Will need a regent, but can still be guardian to children
+}

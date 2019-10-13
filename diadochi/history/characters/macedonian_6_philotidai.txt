@@ -7,9 +7,9 @@
 	422.1.1 = {
 		birth="yes" # 354 BC, Made up
 	}
-	#453.6.10 = {
-	#	add_trait = diadochi_king
-	#}
+	453.6.10 = {
+		add_trait = diadochi_king
+	}
 	460.1.1 = { # 316 BC
 		death = {
 			death_reason = death_execution # Made up, but he fell into Antigonus' hands after escaping from a prison of Antigonus.

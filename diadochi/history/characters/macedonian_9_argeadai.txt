@@ -47,6 +47,7 @@
 	}
 	446.1.1 = { # 330 BC
 		add_trait = paranoid # After the whole Parmenion affair
+		add_trait = king_of_asia
 	}
 	449.1.1 = { # 327 BC
 		add_spouse = 100001 # Roxane
@@ -174,6 +175,7 @@
 	dynasty = 9 # Argeadai
 	religion = greek_main
 	culture = macedonian
+	employer = 801 # Philip III
 	female = yes
 	father = 803 # Philip II
 	mother = 10011
@@ -185,7 +187,6 @@
 	}
 	453.6.10 = {
 		add_claim=e_macedonia
-		employer = 801 # Philip III
 	}
 	468.1.1 = { # 308 BC
 		death = {
@@ -221,9 +222,9 @@
 	409.1.1 = { # 376 BC made up
 		birth="yes"
 	}
-	#453.6.10 = {
-	#	add_trait = diadochi_king
-	#}
+	453.6.10 = {
+		add_trait = diadochi_king
+	}
 	454.1.1 = { # 322 BC
 		death = {
 			death_reason = death_execution

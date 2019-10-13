@@ -10,9 +10,9 @@
 	411.1.1 = { # 365 BC, Made up
 		birth="yes" 
 	}
-	#453.6.10 = {
-	#	add_trait = diadochi_king
-	#}
+	453.6.10 = {
+		add_trait = diadochi_king
+	}
 	459.1.1 = { # 317 BC
 		death = {
 			death_reason = death_execution # Made up, last time we hear of him is yielding to a army during a prison escape(which happened to be owned by Antigonus).

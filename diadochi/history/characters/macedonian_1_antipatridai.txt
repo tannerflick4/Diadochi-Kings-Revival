@@ -15,9 +15,9 @@
 	379.1.1 = {
 		birth="yes" # 397 BC
 	}
-	#453.6.10 = {
-	#	add_trait = diadochi_king
-	#}
+	453.6.10 = {
+		trait = diadochi_king
+	}
 	457.1.1 = {
 		death="yes" # 319 BC, Natural causes
 	}
@@ -37,9 +37,9 @@
 	418.1.1 = { # 358 BC
 		birth="yes"
 	}
-	#453.6.10 = {
-	#	add_trait = diadochi_king
-	#}
+	453.6.10 = {
+		add_trait = diadochi_king
+	}
 	461.1.1 = { # 315 BC
 		add_spouse = 810 # Thessalonice
 	}
@@ -102,9 +102,9 @@
 	425.1.1 = { # 351 BC Made up
 		birth="yes"
 	}
-	#453.6.10 = {
-	#	add_trait = diadochi_king
-	#}
+	453.6.10 = {
+		add_trait = diadochi_king
+	}
 	454.1.1 = { # 322 BC
 		death="yes"
 	}
@@ -121,9 +121,9 @@
 	440.1.1 = { # 336 BC Made up
 		birth="yes"
 	}
-	#453.6.10 = {
-	#	add_trait = diadochi_king
-	#}
+	453.6.10 = {
+		add_trait = diadochi_king
+	}
 	476.1.1 = { # 300 BC Made up
 		death="yes"
 	}
@@ -140,9 +140,9 @@
 	441.1.1 = { # 335 BC Made up
 		birth="yes"
 	}
-	#453.6.10 = {
-	#	add_trait = diadochi_king
-	#}
+	453.6.10 = {
+		add_trait = diadochi_king
+	}
 	490.1.1 = { # 286 BC Made up
 		death="yes"
 	}
@@ -156,9 +156,9 @@
 	445.1.1 = { # 331 BC Made up
 		birth="yes"
 	}
-	#453.6.10 = {
-	#	add_trait = diadochi_king
-	#}
+	453.6.10 = {
+		add_trait = diadochi_king
+	}
 	458.1.1 = { # 318 BC Made up
 		death = {
 			death_reason = death_execution
@@ -175,9 +175,9 @@
 	447.1.1 = { # 329 BC Made up
 		birth="yes"
 	}
-	#453.6.10 = {
-	#	add_trait = diadochi_king
-	#}
+	453.6.10 = {
+		add_trait = diadochi_king
+	}
 	476.1.1 = { # 300 BC Made up
 		death="yes"
 	}
@@ -191,9 +191,9 @@
 	450.1.1 = { # 326 BC Made up
 		birth="yes"
 	}
-	#453.6.10 = {
-	#	add_trait = diadochi_king
-	#}
+	453.6.10 = {
+		add_trait = diadochi_king
+	}
 	489.1.1 = { # 287 BC Made up
 		death="yes"
 	}
@@ -208,7 +208,7 @@
 	
 	health = 3
 	
-	#add_trait = diadochi_king
+	add_trait = diadochi_king
 	
 	462.1.1 = { # Made up
 		birth="yes" # 314 BC
@@ -225,7 +225,7 @@
 	father = 2 # Kassandros
 	mother = 810 # Thessalonike
 	
-	#add_trait = diadochi_king
+	add_trait = diadochi_king
 	add_trait = deceitful
 	
 	464.1.1 = { # Made up
@@ -249,7 +249,7 @@
 	father = 2 # Kassandros
 	mother = 810 # Thessalonike
 	
-	#add_trait = diadochi_king
+	add_trait = diadochi_king
 	add_trait = trusting
 	
 	465.1.1 = { # Made up
@@ -283,9 +283,9 @@
 	391.1.1 = { # Made up
 		birth="yes" # 385 BC
 	}
-	#453.6.10 = {
-	#	add_trait = diadochi_king
-	#}
+	453.6.10 = {
+		add_trait = diadochi_king
+	}
 	454.1.1 = { # Made up
 		death="yes" # 322 BC
 	}
@@ -310,7 +310,7 @@
 	religion = greek_main
 	culture = macedonian
 	father = 8
-	#add_trait = diadochi_king
+	add_trait = diadochi_king
 	462.1.1 = { # Made up
 		birth="yes" # 314 BC
 	}

@@ -17,9 +17,9 @@
 	452.1.1 = { # 324 BC
 		add_spouse = 90203 # Artacama
 	}
-	#453.6.10 = {
-	#	add_trait = diadochi_king
-	#}
+	453.6.10 = {
+		add_trait = diadochi_king
+	}
 	455.1.1 = { # 321 BC
 		add_spouse = 4 # Eurydike
 	}
@@ -37,7 +37,7 @@
 	culture = macedonian
 	father = 601
 			
-	#add_trait = diadochi_king
+	add_trait = diadochi_king
 	add_trait = scholarly_theologian
 	
 	467.1.1 = { # 309 BC
@@ -75,11 +75,8 @@
 	culture = macedonian
 	father = 601
 	mother = 4
-
-	dna = bicajbcdebf
-	properties = ai0akj00000
 	
-	#add_trait = diadochi_king
+	add_trait = diadochi_king
 	add_trait = intricate_webweaver
 	add_trait = deceitful
 	add_trait = wroth
@@ -105,7 +102,7 @@
 	culture = macedonian
 	father = 601
 	mother = 4
-	#add_trait = diadochi_king
+	add_trait = diadochi_king
 	458.1.1 = { # 318 BC Made up
 		birth="yes"
 	}

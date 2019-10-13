@@ -16,9 +16,9 @@
 	452.1.1 = { # 324 BC
 		add_spouse = 90002 # Atropates' daughter
 	}
-	#453.6.10 = {
-	#	add_trait = diadochi_king
-	#}
+	453.6.10 = {
+		add_trait = diadochi_king
+	}
 	455.1.1 = { # 321 BC
 		death = {
 			death_reason = death_murder

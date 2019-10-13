@@ -16,9 +16,9 @@
 	416.1.1 = { # 360 BC
 		birth="yes" 
 	}
-	#453.6.10 = { # 323 BC
-	#	add_trait = diadochi_king
-	#}
+	453.6.10 = { # 323 BC
+		add_trait = diadochi_king
+	}
 	455.1.1 = { # 321 BC
 		add_spouse = 5 # Nikaia, daughter of Antipater
 	}
@@ -46,7 +46,7 @@
 	father = 30001
 	mother = 5
 	
-	#add_trait = diadochi_king
+	add_trait = diadochi_king
 	
 	457.1.1 = { # 319 BC, Made up
 		birth="yes"
@@ -102,7 +102,7 @@
 	father = 30001
 	
 	add_trait = bastard
-	#add_trait = diadochi_king
+	add_trait = diadochi_king
 	
 	467.1.1 = { # 309 BC, Made up
 		birth="yes"
@@ -120,7 +120,7 @@
 	father = 30001
 	mother = 603
 	
-	#add_trait = diadochi_king
+	add_trait = diadochi_king
 	
 	477.1.1 = { # 299 BC
 		birth="yes"
@@ -138,7 +138,7 @@
 	father = 30001
 	mother = 603
 	
-	#add_trait = diadochi_king
+	add_trait = diadochi_king
 	
 	479.1.1 = { # 297 BC
 		birth="yes"
@@ -159,7 +159,7 @@
 	father = 30001
 	mother = 603
 	
-	#add_trait = diadochi_king
+	add_trait = diadochi_king
 	
 	482.1.1 = { # 294 BC
 		birth="yes"
@@ -179,7 +179,7 @@
 	
 	father = 30006
 	
-	#add_trait = diadochi_king
+	add_trait = diadochi_king
 	
 	512.1.1 = { # 264 BC, Made up
 		birth="yes"
@@ -196,7 +196,7 @@
 	
 	father = 30009
 	
-	#add_trait = diadochi_king
+	add_trait = diadochi_king
 	
 	541.1.1 = { # 235 BC, Made up
 		birth="yes"
@@ -213,7 +213,7 @@
 	
 	father = 30006
 	
-	#add_trait = diadochi_king
+	add_trait = diadochi_king
 	
 	518.1.1 = { # 258 BC, Made up
 		birth="yes"
@@ -230,7 +230,7 @@
 	
 	father = 30011
 	
-	#add_trait = diadochi_king
+	add_trait = diadochi_king
 	
 	554.1.1 = { # 222 BC, Made up
 		birth="yes"

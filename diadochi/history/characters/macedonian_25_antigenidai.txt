@@ -13,9 +13,9 @@
 	434.1.1 = { # 340 BC
 		add_trait = maimed # Lost an eye
 	}
-	#453.6.10 = {
-	#	add_trait = diadochi_king
-	#}
+	453.6.10 = {
+		add_trait = diadochi_king
+	}
 	460.1.1 = { # 316 BC
 		death = {
 			death_reason = death_execution

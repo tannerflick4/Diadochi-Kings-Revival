@@ -11,9 +11,9 @@
 	420.1.1 = { # 356 BC Made up
 		birth="yes"
 	}
-	#453.6.10 = {
-	#	add_trait = diadochi_king
-	#}
+	453.6.10 = {
+		add_trait = diadochi_king
+	}
 	468.1.1 = { # 308 BC
 		death = {
 			death_reason = death_battle

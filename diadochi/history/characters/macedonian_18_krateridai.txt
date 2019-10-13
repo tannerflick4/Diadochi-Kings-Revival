@@ -15,9 +15,9 @@
 	406.1.1 = { # 370 BC
 		birth="yes"
 	}
-	#453.6.10 = {
-	#	add_trait = diadochi_king
-	#}
+	453.6.10 = {
+		add_trait = diadochi_king
+	}
 	454.1.1 = { # 322 BC
 		add_spouse = 3 # Phila
 	}
@@ -36,7 +36,7 @@
 	father = 1701 # Krateros
 	mother = 3 # Phila
 	
-	#add_trait = diadochi_king
+	add_trait = diadochi_king
 	add_trait = scholarly_theologian
 	
 	455.1.1 = {
@@ -53,7 +53,7 @@
 	culture = macedonian
 	father = 1702 # Craterus the son
 	
-	#add_trait = diadochi_king
+	add_trait = diadochi_king
 	add_trait = deceitful
 	add_trait = ambitious
 	add_trait = skilled_tactician
@@ -90,9 +90,9 @@
 	409.1.1 = { # Made up
 		birth="yes" # 367 BC
 	}
-	#453.6.10 = {
-	#	add_trait = diadochi_king
-	#}
+	453.6.10 = {
+		add_trait = diadochi_king
+	}
 	462.1.1 = { # Made up
 		death="yes" # 314 BC
 	}

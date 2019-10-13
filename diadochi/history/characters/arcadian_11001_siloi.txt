@@ -10,9 +10,9 @@
 	401.1.1 = { # 375 BC Made up
 		birth="yes"
 	}
-	#453.6.10 = {
-	#	add_trait = diadochi_king
-	#}
+	453.6.10 = {
+		add_trait = diadochi_king
+	}
 	471.1.1 = { # 305 BC Made up
 		death="yes"
 	}

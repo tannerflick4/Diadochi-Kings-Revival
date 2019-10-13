@@ -11,9 +11,9 @@
 	416.1.1 = { # 360 BC
 		birth="yes"
 	}
-	#453.6.10 = {
-	#	add_trait = diadochi_king
-	#}
+	453.6.10 = {
+		add_trait = diadochi_king
+	}
 	479.1.1 = { # 297 BC, Known to be alive at 304 BC
 		death="yes"
 	}
@@ -30,9 +30,9 @@
 	428.1.1 = { # Made up
 		birth="yes" # 348 BC
 	}
-	#453.6.10 = {
-	#	add_trait = diadochi_king
-	#}
+	453.6.10 = {
+		add_trait = diadochi_king
+	}
 	457.1.1 = {
 		add_spouse = 22301 # Kratesipolis
 	}

@@ -14,9 +14,9 @@
 	433.1.1 = { # 343 BC
 		birth="yes"
 	}
-	#453.6.10 = { # 323 BC
-	#	add_trait = diadochi_king	
-	#}
+	453.6.10 = { # 323 BC
+		add_trait = diadochi_king	
+	}
 	475.1.1 = { # 301 BC
 		wealth = 1000 # He was sitting on a treasury afterall
 	}
@@ -48,9 +48,9 @@
 	437.1.1 = { # 339 BC, Made up
 		birth="yes"
 	}
-	#453.6.10 = {
-	#	add_trait = diadochi_king
-	#}
+	453.6.10 = {
+		add_trait = diadochi_king
+	}
 	505.1.1 = { # 271 BC, Made up
 		death="yes"
 	}
@@ -65,7 +65,7 @@
 	
 	add_trait = ambitious
 	add_trait = tough_soldier
-	#add_trait = diadochi_king
+	add_trait = diadochi_king
 	
 	fertility = 0.1
 	
@@ -84,7 +84,7 @@
 	
 	father = 51303
 	
-	#add_trait = diadochi_king
+	add_trait = diadochi_king
 	
 	464.1.1 = { # 312 BC, Made up
 		birth="yes"
@@ -104,9 +104,9 @@
 	439.1.1 = { # 337 BC, Made up
 		birth="yes"
 	}
-	#453.1.1 = {
-	#	add_trait = diadochi_king
-	#}
+	453.1.1 = {
+		add_trait = diadochi_king
+	}
 	506.1.1 = { # 270 BC, Made up
 		death="yes"
 	}
@@ -119,7 +119,7 @@
 	
 	father = 51306
 	
-	#add_trait = diadochi_king
+	add_trait = diadochi_king
 	
 	473.1.1 = { # 303 BC, Made up
 		birth="yes"
@@ -137,7 +137,7 @@
 	
 	father = 51306
 	
-	#add_trait = diadochi_king
+	add_trait = diadochi_king
 	
 	475.1.1 = { # 301 BC, Made up
 		birth="yes"
@@ -159,7 +159,7 @@
 	add_trait = proud
 	add_trait = gregarious
 	add_trait = ambitious
-	#add_trait = diadochi_king
+	add_trait = diadochi_king
 
 	507.1.1 = { # 269 BC
 		birth="yes"
@@ -178,7 +178,7 @@
 	
 	add_trait = gregarious
 	add_trait = underhanded_rogue
-	#add_trait = diadochi_king
+	add_trait = diadochi_king
 	
 	544.1.1 = { # 232 BC, Made up
 		birth="yes"
@@ -198,7 +198,7 @@
 	# mother should be Stratonice of Pergamon
 	
 	add_trait = scholar
-	#add_trait = diadochi_king
+	add_trait = diadochi_king
 	
 	606.1.1 = { # 170 BC
 		birth="yes"
@@ -217,7 +217,7 @@
 	
 	add_trait = bastard
 	add_trait = proud
-	#add_trait = diadochi_king
+	add_trait = diadochi_king
 	
 	611.1.1 = { # 165 BC, Made up
 		birth="yes"
@@ -239,7 +239,7 @@
 	add_trait = skilled_tactician
 	add_trait = gregarious
 	add_trait = honest
-	#add_trait = diadochi_king
+	add_trait = diadochi_king
 	
 	556.1.1 = { # 220 BC
 		birth="yes"
@@ -256,7 +256,7 @@
 	
 	father = 51309
 	
-	#add_trait = diadochi_king
+	add_trait = diadochi_king
 	
 	559.1.1 = { # 217 BC, Made up
 		birth="yes"
@@ -273,7 +273,7 @@
 	
 	father = 51309
 	
-	#add_trait = diadochi_king
+	add_trait = diadochi_king
 	
 	563.1.1 = { # 213 BC, Made up
 		birth="yes"

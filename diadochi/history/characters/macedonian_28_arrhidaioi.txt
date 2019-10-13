@@ -7,9 +7,9 @@
 	415.1.1 = {
 		birth="yes"
 	}
-	#453.6.10 = {
-	#	add_trait = diadochi_king
-	#}
+	453.6.10 = {
+		add_trait = diadochi_king
+	}
 	457.3.1 = {
 		death = {
 			death_reason = death_battle

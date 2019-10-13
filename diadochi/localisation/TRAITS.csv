@@ -1,0 +1,131 @@
+zealous;Zealous;;;;;;;;;;;;x
+zealous_desc;This character burns with religious fervor. However they are not neccessarily hostile towards other religions.;;;;;;;;;;;;x
+slave;Slave;;;;;;;;;;;;x
+slave_desc;This character is a slave.;;;;;;;;;;;;x
+senator;Senator;;;;;;;;;;;;x
+senator_desc;This character is a member of the Roman Senate, and is therefore eligible for election as Consul.;;;;;;;;;;;;x
+chakravartin;Chakravartin;;;;;;;;;;;;x
+chakravartin_desc;This character is regarded by the people of India as a just and ethical universal ruler.;;;;;;;;;;;;x
+diadochi_king;Diadochos;;;;;;;;;;;;x
+diadochi_king_desc;This character is a general (or a descendant thereof) of Alexander the Great, and consequently is the rightful heir to his empire.;;;;;;;;;;;;x
+king_of_asia;King of Asia;;;;;;;;;;;;x
+king_of_asia_desc;This character is recognised as the rightful ruler of all of Asia.;;;;;;;;;;;;x
+king_of_sicily;King of Sicily;;;;;;;;;;;;x
+king_of_sicily_desc;This character is recognised as the rightful ruler of the entire island of Sicily.;;;;;;;;;;;;x
+# Patron Deities;;;;;;;;;;;;;
+patron_ahura_mazda;Patron of Ahura Mazda;;;;;;;;;;;;x
+patron_ahura_mazda_desc;This character is a patron of Ahura Mazda, the supreme creator of all that is good and ordered in the world.;;;;;;;;;;;;x
+patron_mithra;Patron of Mithra;;;;;;;;;;;;x
+patron_mithra_desc;This character is a patron of Mithra, the god that oversees contracts and agreements between men.;;;;;;;;;;;;x
+patron_armaiti;Patron of Armaiti;;;;;;;;;;;;x
+patron_armaiti_desc;This character is a patron of Armaiti, the daughter-wife of Ahura Mazda and goddess of the Earth.;;;;;;;;;;;;x
+patron_anahita;Patron of Anahita;;;;;;;;;;;;x
+patron_anahita_desc;This character is a patron of Anahita, the goddess of fertility and the Heavenly River.;;;;;;;;;;;;x
+patron_sraosha;Patron of Sraosha;;;;;;;;;;;;x
+patron_sraosha_desc;This character is a patron of Sraosha, the god whose task is to defend all that is good and ordered from the forces of the Lie.;;;;;;;;;;;;x
+patron_airyaman;Patron of Airyaman;;;;;;;;;;;;x
+patron_airyaman_desc;This character is a patron of Airyaman, the god of harmonius unions and healing.;;;;;;;;;;;;x
+patron_zeus;Patron of Zeus;;;;;;;;;;;;x
+patron_zeus_desc;This character is a patron of Zeus, king of the gods and god of thunder and the sky.;;;;;;;;;;;;x
+patron_hera;Patron of Hera;;;;;;;;;;;;x
+patron_hera_desc;This character is a patron of Hera, sister-wife of Zeus and goddess of the family and marriage.;;;;;;;;;;;;x
+patron_demeter;Patron of Demeter;;;;;;;;;;;;x
+patron_demeter_desc;This character is a patron of Demeter, the goddess of fertility, agriculture, and the seasons.;;;;;;;;;;;;x
+patron_athena;Patron of Athena;;;;;;;;;;;;x
+patron_athena_desc;This character is a patron of Athena, the goddess of wisdom, defense, and strategic warfare.;;;;;;;;;;;;x
+patron_ares;Patron of Ares;;;;;;;;;;;;x
+patron_ares_desc;This character is a patron of Ares, god of war.;;;;;;;;;;;;x
+patron_apollo;Patron of Apollon;;;;;;;;;;;;x
+patron_apollo_desc;This character is a patron of Apollo, the god of the sun, knowledge, and healing.;;;;;;;;;;;;x
+patron_kakusandha;Patron of the Kakusandha Buddha;;;;;;;;;;;;x
+patron_kakusandha_desc;This character is a patron of the Kakusandha Buddha, the first Buddha of this aeon.;;;;;;;;;;;;x
+patron_konagamana;Patron of the Konagamana Buddha;;;;;;;;;;;;x
+patron_konagamana_desc;This character is a patron of the Konagamana Buddha, the second Buddha of this aeon.;;;;;;;;;;;;x
+patron_kassapa;Patron of the Kassapa Buddha;;;;;;;;;;;;x
+patron_kassapa_desc;This character is a patron of the Kassapa Buddha, the third Buddha of this aeon.;;;;;;;;;;;;x
+patron_shakyamuni;Patron of the Shakyamuni Buddha;;;;;;;;;;;;x
+patron_shakyamuni_desc;This character is a patron of the Shakyamuni Buddha, the fourth and most recent Buddha of this aeon.;;;;;;;;;;;;x
+patron_maitreya;Patron of the Maitreya Buddha;;;;;;;;;;;;x
+patron_maitreya_desc;This character is a patron of the Maitreya Buddha, the fifth and forthcoming Buddha of this aeon.;;;;;;;;;;;;x
+patron_indra;Patron of Indra;;;;;;;;;;;;x
+patron_indra_desc;This character is a patron of Indra, king of the gods and god of rain and thunderstorms.;;;;;;;;;;;;x
+patron_agni;Patron of Agni;;;;;;;;;;;;x
+patron_agni_desc;This character is a patron of Agni, the eternally young god of fire and messenger betweens gods and men.;;;;;;;;;;;;x
+patron_varuna;Patron of Varuna;;;;;;;;;;;;x
+patron_varuna_desc;This character is a patron of Varuna, god of the seas and all that reside within them.;;;;;;;;;;;;x
+patron_mitra;Patron of Mitra;;;;;;;;;;;;x
+patron_mitra_desc;This character is a patron of Mitra, the god that oversees contracts and agreements between men.;;;;;;;;;;;;x
+patron_shiva;Patron of Shiva;;;;;;;;;;;;x
+patron_shiva_desc;This character is a patron of Shiva, the Destroyer and Transformer.;;;;;;;;;;;;x
+patron_vishnu;Patron of Vishnu;;;;;;;;;;;;x
+patron_vishnu_desc;This character is a patron of Vishnu, the god of light and separator of the Heaven and the Earth.;;;;;;;;;;;;x
+patron_papaios;Patron of Papaios;;;;;;;;;;;;x
+patron_papaios_desc;This character is a patron of Papaios, the god of thunder and the sky.;;;;;;;;;;;;x
+patron_tabiti;Patron of Tabiti;;;;;;;;;;;;x
+patron_tabiti_desc;This character is a patron of Tabiti, goddess of the family and the household.;;;;;;;;;;;;x
+patron_agin;Patron of Agin;;;;;;;;;;;;x
+patron_agin_desc;This character is a patron Agin, the god of war.;;;;;;;;;;;;x
+patron_oitosyros;Patron of Oitosyros;;;;;;;;;;;;x
+patron_oitosyros_desc;This character is a patron of Oitosyros, god of light and knowledge.;;;;;;;;;;;;x
+patron_api;Patron of Api;;;;;;;;;;;;x
+patron_api_desc;This character is a patron of Api, goddess of the Earth.;;;;;;;;;;;;x
+patron_thagimasidas;Patron of Thagimasidas;;;;;;;;;;;;x
+patron_thagimasidas_desc;This character is a patron of Thagimasidas, god of the sea.;;;;;;;;;;;;x
+patron_aramazd;Patron of Aramazd;;;;;;;;;;;;x
+patron_aramazd_desc;This character is a patron of Aramazd, the father of all gods and the creator of the Heaven and the Earth.;;;;;;;;;;;;x
+patron_anahit;Patron of Anahit;;;;;;;;;;;;x
+patron_anahit_desc;This character is a patron of Anahit, daughter of Aramazd and goddess of fertility and birth.;;;;;;;;;;;;x
+patron_vahagn;Patron of Vahagn;;;;;;;;;;;;x
+patron_vahagn_desc;This character is a patron of Vahagn, the god of thunder and courage, and slayer of dragons.;;;;;;;;;;;;x
+patron_astghik;Patron of Astghik;;;;;;;;;;;;x
+patron_astghik_desc;This character is a patron of Astghik, wife of Vahagn and god of love and beauty.;;;;;;;;;;;;x
+patron_nane;Patron of Nane;;;;;;;;;;;;x
+patron_nane_desc;This character is a patron of Nane, daughter of Aramazd and goddess of war, motherhood, and wisdom.;;;;;;;;;;;;x
+patron_mihr;Patron of Mihr;;;;;;;;;;;;x
+patron_mihr_desc;This character is a patron of Mihr, son of Aramazd and god of light Heaven.;;;;;;;;;;;;x
+patron_zeus_stratios;Patron of Zeus Stratios;;;;;;;;;;;;x
+patron_zeus_stratios_desc;This character is a patron of Zeus Stratios, king of the gods and creator of all that is good and ordered in the world.;;;;;;;;;;;;x
+patron_men_pharnacou;Patron of Men Pharnacou;;;;;;;;;;;;x
+patron_men_pharnacou_desc;This character is a patron of Men Pharnacou, god of the moon.;;;;;;;;;;;;x
+patron_cybele;Patron of Cybele;;;;;;;;;;;;x
+patron_cybele_desc;This character is a patron of Cybele, goddess of fertility and the Earth.;;;;;;;;;;;;x
+patron_apollo_pontic;Patron of Apollo;;;;;;;;;;;;x
+patron_apollo_pontic_desc;This character is a patron of Apollo, the god of the sun, knowledge, and healing.;;;;;;;;;;;;x
+patron_mithras;Patron of Mithras;;;;;;;;;;;;x
+patron_mithras_desc;This character is a patron of Mithras, the god that oversees contracts and agreements between men.;;;;;;;;;;;;x
+patron_marduk;Patron of Marduk;;;;;;;;;;;;x
+patron_marduk_desc;This character is a patron of Marduk, the god of judgement and magic.;;;;;;;;;;;;x
+patron_ashur;Patron of Ashur;;;;;;;;;;;;x
+patron_ashur_desc;This character is a patron of Ashur, god of the wind and ruler over humankind.;;;;;;;;;;;;x
+patron_nabu;Patron of Nabu;;;;;;;;;;;;x
+patron_nabu_desc;This character is a patron of Nabu, the god of wisdom and writing, and son of Marduk.;;;;;;;;;;;;x
+patron_ishtar;Patron of Ishtar;;;;;;;;;;;;x
+patron_ishtar_desc;This character is a patron of Ishtar, goddess of fertility, love, and war.;;;;;;;;;;;;x
+patron_anu;Patron of Anu;;;;;;;;;;;;x
+patron_anu_desc;This character is a patron of Anu, god of Heaven and the sky, and father of all the gods.;;;;;;;;;;;;x
+patron_nergal;Patron of Nergal;;;;;;;;;;;;x
+patron_nergal_desc;This character is a patron of Nergal, the god of pestilence, war, and the destructive sun.;;;;;;;;;;;;x
+patron_jupiter;Patron of Jupiter;;;;;;;;;;;;x
+patron_jupiter_desc;This character is a patron of Jupiter, king of the gods and god of thunder and the sky.;;;;;;;;;;;;x
+patron_juno;Patron of Juno;;;;;;;;;;;;x
+patron_juno_desc;This character is a patron of Juno, sister-wife of Jupiter and goddess of the family and marriage.;;;;;;;;;;;;x
+patron_ceres;Patron of Ceres;;;;;;;;;;;;x
+patron_ceres_desc;This character is a patron of Ceres, the goddess of agriculture and fertility.;;;;;;;;;;;;x
+patron_minerva;Patron of Minerva;;;;;;;;;;;;x
+patron_minerva_desc;This character is a patron of Minerva, the goddess of wisdom, defense, and strategic warfare.;;;;;;;;;;;;x
+patron_mars;Patron of Mars;;;;;;;;;;;;x
+patron_mars_desc;This character is a patron of Mars, god of war.;;;;;;;;;;;;x
+patron_apollo_roman;Patron of Apollo;;;;;;;;;;;;x
+patron_apollo_roman_desc;This character is a patron of Apollo, the god of the sun, knowledge, and healing.;;;;;;;;;;;;x
+patron_tinia;Patron of Tinia;;;;;;;;;;;;x
+patron_tinia_desc;This character is a patron of Tinia, king of the gods and god of thunder and the sky.;;;;;;;;;;;;x
+patron_uni;Patron of Uni;;;;;;;;;;;;x
+patron_uni_desc;This character is a patron of Uni, sister-wife of Jupiter and goddess of the family and marriage.;;;;;;;;;;;;x
+patron_menrva;Patron of Menrva;;;;;;;;;;;;x
+patron_menrva_desc;This character is a patron of Menrva, the goddess of wisdom, defense, and strategic warfare.;;;;;;;;;;;;x
+patron_cel;Patron of Cel;;;;;;;;;;;;x
+patron_cel_desc;This character is a patron of Cel, goddess of the Earth, and mother of giants.;;;;;;;;;;;;x
+patron_aritimi;Patron of Aritimi;;;;;;;;;;;;x
+patron_aritimi_desc;This character is a patron of Aritimi, goddess of the hunt and of wild animals.;;;;;;;;;;;;x
+patron_pacha;Patron of Pacha;;;;;;;;;;;;x
+patron_pacha_desc;This character is a patron of Pacha, the god wine, ecstasy, and music.;;;;;;;;;;;;x

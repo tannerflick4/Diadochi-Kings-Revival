@@ -24,9 +24,9 @@
 		add_trait = maimed
 		give_nickname = nick_monophthalmos
 	}
-	#453.6.10 = {
-	#	add_trait = diadochi_king
-	#}
+	453.6.10 = {
+		add_trait = diadochi_king
+	}
 	475.1.1 = {
 		death = {
 			death_reason = death_battle # 301 BC, died in the battle of Ipsus
@@ -55,9 +55,9 @@
 	439.1.1 = { # 337 BC
 		birth="yes"
 	}
-	#453.6.10 = {
-	#	add_trait = diadochi_king
-	#}
+	453.6.10 = {
+		add_trait = diadochi_king
+	}
 	457.1.1 = { # 319 BC
 		add_spouse = 3 # Phila
 	}
@@ -81,9 +81,9 @@
 	441.1.1 = { # 335 BC Made up
 		birth="yes"
 	}
-	#453.6.10 = {
-	#	add_trait = diadochi_king
-	#}
+	453.6.10 = {
+		add_trait = diadochi_king
+	}
 	470.1.1 = { # 306 BC
 		death="yes"
 	}
@@ -144,7 +144,6 @@
 	dynasty = 5 # Antigonidai
 	religion = greek_main
 	culture = macedonian
-	father = 412
 	355.1.1 = { # Made up
 		birth="yes" # 421 BC
 	}
@@ -159,16 +158,13 @@
 	culture = macedonian
 	father = 402
 	mother = 3
-
-	dna = dbajcjbdcbd
-	properties = al0be000000
 	
 	add_trait = skilled_tactician
 	add_trait = kind
 	add_trait = humble
 	add_trait = patient
 	
-	#add_trait = diadochi_king
+	add_trait = diadochi_king
 	457.1.1 = {
 		birth="yes" # 319 BC
 		give_nickname = nick_gonatas
@@ -186,7 +182,6 @@
 	religion = greek_main
 	culture = macedonian
 	female = yes
-	father = 412
 	389.1.1 = { # Made up
 		birth="yes" # 387 BC
 	}
@@ -227,17 +222,5 @@
 			death_reason = death_murder
 			killer = 601 # Ptolemaios I
 		}
-	}
-}
-412 = {
-	name = "Sirras" # Great-Grandfather of Antigonos (fictional, to connect Phila to the dynasty)
-	dynasty = 5 # Antigonidai
-	religion = greek_main
-	culture = macedonian
-	325.1.1 = { # Made up
-		birth="yes" # 451 BC
-	}
-	395.1.1 = { # Made up
-		death="yes" # 381 BC
 	}
 }

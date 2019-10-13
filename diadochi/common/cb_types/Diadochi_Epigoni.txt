@@ -1,0 +1,1395 @@
+diadochi_king_cb = {
+	name = CB_NAME_DIADOCHI_KING
+	war_name = WAR_NAME_DIADOCHI_KING
+	sprite = 1 # Placeholder
+	truce_days = 1825
+	is_permanent = yes
+	hostile_against_others = yes
+	check_de_jure_tier = KING # this scans all dejure duchies for the counties which are held by or vassals(or below) of selected character. Only valid if is_permanent = yes	
+
+	can_use = {
+		ROOT = {
+			trait = diadochi_king
+			NOT = {
+				has_minor_title = title_regent
+			}
+			liege = {
+				independent = yes
+				has_regent = yes
+				any_vassal = {
+					character = FROM
+				}
+			}
+		}
+		FROM = {
+			trait = diadochi_king
+		}
+	}
+	can_use_title = {
+		any_direct_de_jure_vassal_title = {
+			any_direct_de_jure_vassal_title = {
+				location = {
+					owner = {
+						OR = {
+							character = FROM
+							is_liege_or_above = FROM
+						}
+					}
+					any_neighbor_province = {
+						OR = {
+							AND = {
+								has_owner = yes
+								owner = {
+									OR = {
+										character = ROOT
+										is_liege_or_above = ROOT
+									}
+								}
+							}
+							AND = {
+								is_land = no
+								any_neighbor_province = {
+									has_owner = yes
+									owner = {
+										OR = {
+											character = ROOT
+											is_liege_or_above = ROOT
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	# Must not be at war with Katpatuka
+	can_use_gui = {
+		ROOT = {
+			liege = {
+				OR = {
+					war = no
+					NOT = {
+						any_war = {
+							any_current_enemy = {
+								primary_title = {
+									title = k_cappadocia
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	on_success = {
+		ROOT = {
+			prestige = 200
+			change_variable = {
+				which = "diadochi_threat"
+				value = 1.75
+			}
+		}
+		any_attacker = {
+			participation_scaled_prestige = 150
+		}
+		FROM = {
+			prestige = -250
+			change_variable = {
+				which = "diadochi_threat"
+				value = -5
+			}
+		}
+		any_defender = {
+			participation_scaled_prestige = -100
+		}
+	}
+	on_success_title = { # Kingdom		
+		any_de_jure_vassal_title = {
+			limit = {
+				tier = COUNT
+				holder_scope = {
+					OR = {
+						character = FROM
+						is_liege_or_above = FROM
+					}
+				}
+			}
+			# Demesne gets annexed
+			if = {
+				limit = {
+					holder_scope = {
+						character = FROM
+					}
+				}
+				usurp_title = ROOT
+			}
+			# Direct vassal gets vassalized
+			if = {
+				limit = {
+					location = {
+						owner = {
+							NOT = {
+								character = FROM
+							}
+							liege = {
+								character = FROM
+							}
+							lower_tier_than = ROOT
+							capital_scope = {
+								province_id = PREVPREV
+							}
+						}
+					}
+				}
+				holder_scope = {
+					set_defacto_liege = ROOT
+				}
+			}
+			# Indirect vassal gets vassalized.
+			if = {
+				limit = {
+					holder_scope = {
+						NOT = {
+							OR = {
+								character = FROM
+								liege = {
+									character = FROM
+								}
+							}
+						}
+						capital_scope = {
+							county = {
+								title = PREVPREVPREV
+							}
+						}
+						NOT = {
+							liege = {
+								capital_scope = {
+									de_jure_liege_or_above = PREVPREVPREVPREV
+								}
+							}
+						}
+					}
+				}
+				holder_scope = {
+					set_defacto_liege = ROOT
+				}
+			}
+			# Other lands of vassals get annexed if they are not the capital or outside of this kingdom.
+			if = {
+				limit = {
+					location = {
+						owner = {								
+							NOT = {
+								character = FROM
+							}
+							is_liege_or_above = FROM
+						}
+					}
+					NOT = {
+						holder_scope = {
+							capital_scope = {
+								de_jure_liege_or_above = PREVPREVPREV
+							}
+						}
+					}
+				}
+				usurp_title = ROOT
+			}
+		}
+	}	
+
+	on_fail_title = {
+		any_de_jure_vassal_title = {
+			limit = {
+				tier = COUNT
+				location = {
+					owner = {
+						OR = {
+							character = FROM
+							is_liege_or_above = FROM
+						}
+					}
+					controlled_by = ROOT
+					any_neighbor_province = { # has to have a 'chain' of occupations to a province held by ROOT
+						OR = {
+							AND = {
+								OR = {
+									AND = {
+										controlled_by = ROOT
+										has_owner = yes
+										owner ={
+											OR = {
+												character = FROM
+												is_liege_or_above = FROM
+											}
+										}
+									}
+									is_land = no
+								}
+								any_neighbor_province = {
+									OR = {
+										AND = {
+											OR = {
+												AND = {
+													controlled_by = ROOT
+													has_owner = yes
+													owner ={
+														OR = {
+															character = FROM
+															is_liege_or_above = FROM
+														}
+													}
+												}
+												is_land = no
+											}
+											any_neighbor_province = {
+												OR = {
+													AND = {
+														OR = {
+															AND = {
+																controlled_by = ROOT
+																has_owner = yes
+																owner ={
+																	OR = {
+																		character = FROM
+																		is_liege_or_above = FROM
+																	}
+																}
+															}
+															is_land = no
+														}
+														any_neighbor_province = {
+															OR = {
+																AND = {
+																	OR = {
+																		AND = {
+																			controlled_by = ROOT
+																			has_owner = yes
+																			owner ={
+																				OR = {
+																					character = FROM
+																					is_liege_or_above = FROM
+																				}
+																			}
+																		}
+																		is_land = no
+																	}
+																}
+																AND = {
+																	has_owner = yes
+																	owner = {
+																		OR = {
+																			character = ROOT
+																			is_liege_or_above = ROOT										
+																		}
+																	}
+																}
+															}
+														}
+													}
+													AND = {
+														has_owner = yes
+														owner = {
+															OR = {
+																character = ROOT
+																is_liege_or_above = ROOT										
+															}
+														}
+													}
+												}
+											}
+										}
+										AND = {
+											has_owner = yes
+											owner = {
+												OR = {
+													character = ROOT
+													is_liege_or_above = ROOT										
+												}
+											}
+										}
+									}
+								}
+							}
+							AND = {
+								has_owner = yes
+								owner = {
+									OR = {
+										character = ROOT
+										is_liege_or_above = ROOT										
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			ROOT = {
+				occupy_minors_of_occupied_settlements = FROM
+			}
+			# Demesne gets annexed
+			if = {
+				limit = {
+					holder_scope = {
+						character = FROM
+					}
+				}
+				usurp_title = ROOT
+			}
+			# Direct occupied vassal gets vassalized
+			if = {
+				limit = {
+					location = {
+						owner = {
+							NOT = {
+								character = FROM
+							}
+							liege = {
+								character = FROM
+							}
+							lower_tier_than = ROOT
+							capital_scope = {
+								province_id = PREVPREV
+							}
+						}
+					}
+				}
+				holder_scope = {
+					set_defacto_liege = ROOT
+				}
+			}
+			# Indirect occupied vassal gets vassalized.
+			if = {
+				limit = {
+					location = {
+						controlled_by = ROOT
+					}
+					holder_scope = {
+						NOT = {
+							OR = {
+								character = FROM
+								liege = {
+									character = FROM
+								}
+							}
+						}
+						lower_tier_than = ROOT
+						NOT = {
+							liege = {
+								capital_scope = {
+									de_jure_liege_or_above = PREVPREVPREVPREV
+									controlled_by = ROOT
+								}
+							}
+						}
+					}
+				}
+				holder_scope = {
+					set_defacto_liege = ROOT
+				}
+			}
+			# Other lands of vassals get annexed if they are not the capital or outside of this kingdom.
+			if = {
+				limit = {
+					location = {
+						controlled_by = ROOT
+					}
+					holder_scope = {
+						NOT = {
+							character = FROM
+							capital_scope = {
+								de_jure_liege_or_above = PREVPREVPREV
+								controlled_by = ROOT
+							}
+						}
+					}
+				}
+				usurp_title = ROOT
+			}
+		}
+	}
+	on_fail = {
+		ROOT = {
+			change_variable = {
+				which = "diadochi_threat"
+				value = 0.5
+			}
+		}
+	}
+
+	on_reverse_demand = {
+		ROOT = {
+			prestige = -350
+			transfer_scaled_wealth = {
+				to = FROM
+				value = 1.5
+			}			
+			change_variable = {
+				which = "diadochi_threat"
+				value = -0.5
+			}
+		}
+		FROM = {
+			prestige = 100
+			change_variable = {
+				which = "diadochi_threat"
+				value = 0.3
+			}
+		}
+		any_defender = {
+			participation_scaled_prestige = 250
+		}
+	}
+	on_reverse_demand_title = {
+		any_de_jure_vassal_title = {
+			limit = {
+				tier = COUNT
+				holder_scope = {
+					OR = {
+						character = ROOT
+						is_liege_or_above = ROOT
+					}
+				}
+				location = {
+					any_neighbor_province = {
+						owner = {
+							OR = {
+								character = FROM
+								is_liege_or_above = FROM
+							}
+						}
+					}
+				}
+			}
+			# Demesne gets annexed
+			if = {
+				limit = {
+					holder_scope = {
+						character = ROOT
+					}
+				}
+				usurp_title = FROM	
+			}
+			# Vassalize direct vassals if they have their capital here
+			if = {
+				limit = {
+					holder_scope = {
+						NOT = {
+							character = ROOT
+						}
+						liege = {
+							character = ROOT
+						}
+					}
+					location = {
+						owner = {
+							capital_scope = {
+								province = PREVPREV
+							}
+						}
+					}
+				}
+				holder_scope = {
+					set_defacto_liege = FROM
+				}
+			}
+			# Vassalize indirect vassals if they have their capital here
+			if = {
+				limit = {
+					holder_scope = {
+						NOT = {
+							OR = {
+								character = ROOT
+								character = FROM # Make sure it hasn't just been annexed by FROM so he doesnt make himself independent
+							}
+						}
+						liege = {
+							NOT = { character = ROOT }
+							NOT = {
+								capital_scope = {
+									any_neighbor_province = {
+										owner = {
+											OR = {
+												character = FROM
+												is_liege_or_above = FROM
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				holder_scope = {
+					set_defacto_liege = FROM
+				}
+			}
+			# Take provinces that are not able to be vassalized
+			if = {
+				limit = {
+					holder_scope = {
+						NOT = {
+							OR = {
+								character = ROOT
+								character = FROM # Make sure it hasn't just been annexed by FROM so he doesnt make himself independent
+							}
+							capital_scope = {
+								any_neighbor_province = {
+									owner = {
+										OR = {
+											character = FROM
+											is_liege_or_above = FROM
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				usurp_title = FROM
+			}
+		}
+	}
+
+	attacker_ai_victory_worth = {
+		factor = -1 # always accept
+	}
+	
+	attacker_ai_defeat_worth = {
+		factor = 100
+	}
+
+	defender_ai_victory_worth = {
+		factor = -1 # always accept
+	}
+	
+	defender_ai_defeat_worth = {
+		factor = 100
+	}
+	
+	ai_will_do = {
+		factor = 50
+		modifier = {
+			factor = 1.25
+			FROM = {
+				check_variable = {
+					which = "diadochi_threat"
+					value = 5
+				}
+			}
+		}
+		modifier = {
+			factor = 1.25
+			FROM = {
+				check_variable = {
+					which = "diadochi_threat"
+					value = 9
+				}
+			}
+		}
+		modifier = {
+			factor = 1.25
+			FROM = {
+				check_variable = {
+					which = "diadochi_threat"
+					value = 12
+				}
+			}
+		}
+		modifier = {
+			factor = 1.25
+			FROM = {
+				check_variable = {
+					which = "diadochi_threat"
+					value = 14
+				}
+			}
+		}
+		modifier = {
+			factor = 1.25
+			FROM = {
+				check_variable = {
+					which = "diadochi_threat"
+					value = 15
+				}
+			}
+		}
+		modifier = {
+			factor = 1.25
+			FROM = {
+				check_variable = {
+					which = "diadochi_threat"
+					value = 16
+				}
+			}
+		}
+		modifier = {
+			factor = 1.25
+			FROM = {
+				check_variable = {
+					which = "diadochi_threat"
+					value = 17
+				}
+			}
+		}
+		modifier = {
+			factor = 1.25
+			FROM = {
+				check_variable = {
+					which = "diadochi_threat"
+					value = 18
+				}
+			}
+		}
+		modifier = {
+			factor = 1.25
+			FROM = {
+				check_variable = {
+					which = "diadochi_threat"
+					value = 19
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			FROM = {
+				check_variable = {
+					which = "diadochi_threat"
+					value = 20
+				}
+			}
+		}
+	}
+}
+
+epigoni_king_cb = {
+	name = CB_NAME_EPIGONI_KING
+	war_name = WAR_NAME_EPIGONI_KING
+	sprite = 1 # Placeholder
+	truce_days = 1825
+	is_permanent = yes
+	hostile_against_others = yes
+	check_de_jure_tier = KING # this scans all dejure duchies for the counties which are held by or vassals(or below) of selected character. Only valid if is_permanent = yes
+
+	can_use = {		
+		ROOT = {
+			trait = diadochi_king
+			independent = yes
+		}
+		FROM = {
+			trait = diadochi_king
+			independent = yes
+		}
+	}
+
+	can_use_gui = {	# Principal conditions for the CB
+		FROM = {
+			OR = {
+				NOT = { lower_tier_than = ROOT }
+				has_regent = yes
+				#custom_tooltip = {
+					#text = epigoni_kings_martial_realm_algorithm
+					#hidden_tooltop = {
+						ROOT = {
+							OR = {
+								AND = {
+									attribute_diff = {
+										character = FROM
+										attribute = martial
+										value = 15
+									}
+									FROM = { realm_size = 20 }
+								}
+								AND = {
+									attribute_diff = {
+										character = FROM
+										attribute = martial
+										value = 12
+									}
+									FROM = { realm_size = 35 }
+								}
+								AND = {
+									attribute_diff = {
+										character = FROM
+										attribute = martial
+										value = 9
+									}
+									FROM = { realm_size = 50 }
+								}
+								AND = {
+									attribute_diff = {
+										character = FROM
+										attribute = martial
+										value = 6
+									}
+									FROM = { realm_size = 65 }
+								}
+								AND = {
+									attribute_diff = {
+										character = FROM
+										attribute = martial
+										value = 3
+									}
+									FROM = { realm_size = 80 }
+								}
+								AND = {
+									attribute_diff = {
+										character = FROM
+										attribute = martial
+										value = 0
+									}
+									FROM = { realm_size = 95 }
+								}
+							}
+						}
+					#}
+				#}
+				AND = {
+					is_adult = yes
+					NOT = { ruled_years = 7 }
+					custom_tooltip = {
+						text = epigoni_cb_must_be_one_tier_lower
+						hidden_tooltip = {
+							OR = {
+								AND = {
+									ROOT = { tier = DUKE }
+									FROM = { tier = COUNT }
+								}
+								AND = {
+									ROOT = { tier = KING }
+									FROM = { tier = DUKE }
+								}
+								AND = {
+									ROOT = { tier = EMPEROR }
+									FROM = { tier = KING }
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	can_use_title = {
+		any_direct_de_jure_vassal_title = {
+			any_direct_de_jure_vassal_title = {
+				location = {
+					owner = {
+						OR = {
+							character = FROM
+							is_liege_or_above = FROM
+						}
+					}
+					any_neighbor_province = {
+						OR = {
+							AND = {
+								has_owner = yes
+								owner = {
+									OR = {
+										character = ROOT
+										is_liege_or_above = ROOT
+									}
+								}
+							}
+							AND = {
+								is_land = no
+								any_neighbor_province = {
+									has_owner = yes
+									owner = {
+										OR = {
+											character = ROOT
+											is_liege_or_above = ROOT
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	on_success = {
+		ROOT = {
+			prestige = 200
+			change_variable = {
+				which = "diadochi_threat"
+				value = 1.75
+			}
+		}
+		any_attacker = {
+			participation_scaled_prestige = 150
+		}
+		FROM = {
+			prestige = -250
+			change_variable = {
+				which = "diadochi_threat"
+				value = -5
+			}
+		}
+		any_defender = {
+			participation_scaled_prestige = -100
+		}
+	}
+	on_success_title = { # Kingdom		
+		any_de_jure_vassal_title = {
+			limit = {
+				tier = COUNT
+				holder_scope = {
+					OR = {
+						character = FROM
+						is_liege_or_above = FROM
+					}
+				}
+			}
+			# Demesne gets annexed
+			if = {
+				limit = {
+					holder_scope = {
+						character = FROM
+					}
+				}
+				usurp_title = ROOT
+			}
+			# Direct vassal gets vassalized
+			if = {
+				limit = {
+					location = {
+						owner = {
+							NOT = {
+								character = FROM
+							}
+							liege = {
+								character = FROM
+							}
+							lower_tier_than = ROOT
+							capital_scope = {
+								province_id = PREVPREV
+							}
+						}
+					}
+				}
+				holder_scope = {
+					set_defacto_liege = ROOT
+				}
+			}
+			# Indirect vassal gets vassalized.
+			if = {
+				limit = {
+					holder_scope = {
+						NOT = {
+							OR = {
+								character = FROM
+								liege = {
+									character = FROM
+								}
+							}
+						}
+						capital_scope = {
+							county = {
+								title = PREVPREVPREV
+							}
+						}
+						NOT = {
+							liege = {
+								capital_scope = {
+									de_jure_liege_or_above = PREVPREVPREVPREV
+								}
+							}
+						}
+					}
+				}
+				holder_scope = {
+					set_defacto_liege = ROOT
+				}
+			}
+			# Other lands of vassals get annexed if they are not the capital or outside of this kingdom.
+			if = {
+				limit = {
+					location = {
+						owner = {								
+							NOT = {
+								character = FROM
+							}
+							is_liege_or_above = FROM
+						}
+					}
+					NOT = {
+						holder_scope = {
+							capital_scope = {
+								de_jure_liege_or_above = PREVPREVPREV
+							}
+						}
+					}
+				}
+				usurp_title = ROOT
+			}
+		}
+	}	
+
+	on_fail_title = {
+		any_de_jure_vassal_title = {
+			limit = {
+				tier = COUNT
+				location = {
+					owner = {
+						OR = {
+							character = FROM
+							is_liege_or_above = FROM
+						}
+					}
+					controlled_by = ROOT
+					any_neighbor_province = { # has to have a 'chain' of occupations to a province held by ROOT
+						OR = {
+							AND = {
+								OR = {
+									AND = {
+										controlled_by = ROOT
+										has_owner = yes
+										owner ={
+											OR = {
+												character = FROM
+												is_liege_or_above = FROM
+											}
+										}
+									}
+									is_land = no
+								}
+								any_neighbor_province = {
+									OR = {
+										AND = {
+											OR = {
+												AND = {
+													controlled_by = ROOT
+													has_owner = yes
+													owner ={
+														OR = {
+															character = FROM
+															is_liege_or_above = FROM
+														}
+													}
+												}
+												is_land = no
+											}
+											any_neighbor_province = {
+												OR = {
+													AND = {
+														OR = {
+															AND = {
+																controlled_by = ROOT
+																has_owner = yes
+																owner ={
+																	OR = {
+																		character = FROM
+																		is_liege_or_above = FROM
+																	}
+																}
+															}
+															is_land = no
+														}
+														any_neighbor_province = {
+															OR = {
+																AND = {
+																	OR = {
+																		AND = {
+																			controlled_by = ROOT
+																			has_owner = yes
+																			owner ={
+																				OR = {
+																					character = FROM
+																					is_liege_or_above = FROM
+																				}
+																			}
+																		}
+																		is_land = no
+																	}
+																}
+																AND = {
+																	has_owner = yes
+																	owner = {
+																		OR = {
+																			character = ROOT
+																			is_liege_or_above = ROOT										
+																		}
+																	}
+																}
+															}
+														}
+													}
+													AND = {
+														has_owner = yes
+														owner = {
+															OR = {
+																character = ROOT
+																is_liege_or_above = ROOT										
+															}
+														}
+													}
+												}
+											}
+										}
+										AND = {
+											has_owner = yes
+											owner = {
+												OR = {
+													character = ROOT
+													is_liege_or_above = ROOT										
+												}
+											}
+										}
+									}
+								}
+							}
+							AND = {
+								has_owner = yes
+								owner = {
+									OR = {
+										character = ROOT
+										is_liege_or_above = ROOT										
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			ROOT = {
+				occupy_minors_of_occupied_settlements = FROM
+			}
+			# Demesne gets annexed
+			if = {
+				limit = {
+					holder_scope = {
+						character = FROM
+					}
+				}
+				usurp_title = ROOT
+			}
+			# Direct occupied vassal gets vassalized
+			if = {
+				limit = {
+					location = {
+						owner = {
+							NOT = {
+								character = FROM
+							}
+							liege = {
+								character = FROM
+							}
+							lower_tier_than = ROOT
+							capital_scope = {
+								province_id = PREVPREV
+							}
+						}
+					}
+				}
+				holder_scope = {
+					set_defacto_liege = ROOT
+				}
+			}
+			# Indirect occupied vassal gets vassalized.
+			if = {
+				limit = {
+					location = {
+						controlled_by = ROOT
+					}
+					holder_scope = {
+						NOT = {
+							OR = {
+								character = FROM
+								liege = {
+									character = FROM
+								}
+							}
+						}
+						lower_tier_than = ROOT
+						NOT = {
+							liege = {
+								capital_scope = {
+									de_jure_liege_or_above = PREVPREVPREVPREV
+									controlled_by = ROOT
+								}
+							}
+						}
+					}
+				}
+				holder_scope = {
+					set_defacto_liege = ROOT
+				}
+			}
+			# Other lands of vassals get annexed if they are not the capital or outside of this kingdom.
+			if = {
+				limit = {
+					location = {
+						controlled_by = ROOT
+					}
+					holder_scope = {
+						NOT = {
+							character = FROM
+							capital_scope = {
+								de_jure_liege_or_above = PREVPREVPREV
+								controlled_by = ROOT
+							}
+						}
+					}
+				}
+				usurp_title = ROOT
+			}
+		}
+	}
+	on_fail = {
+		ROOT = {
+			change_variable = {
+				which = "diadochi_threat"
+				value = 0.5
+			}
+		}
+	}
+
+	on_reverse_demand = {
+		ROOT = {
+			prestige = -350
+			transfer_scaled_wealth = {
+				to = FROM
+				value = 1.5
+			}			
+			change_variable = {
+				which = "diadochi_threat"
+				value = -0.5
+			}
+		}
+		FROM = {
+			prestige = 100
+			change_variable = {
+				which = "diadochi_threat"
+				value = 0.3
+			}
+		}
+		any_defender = {
+			participation_scaled_prestige = 250
+		}
+	}
+	on_reverse_demand_title = {
+		any_de_jure_vassal_title = {
+			limit = {
+				tier = COUNT
+				holder_scope = {
+					OR = {
+						character = ROOT
+						is_liege_or_above = ROOT
+					}
+				}
+				location = {
+					any_neighbor_province = {
+						owner = {
+							OR = {
+								character = FROM
+								is_liege_or_above = FROM
+							}
+						}
+					}
+				}
+			}
+			# Demesne gets annexed
+			if = {
+				limit = {
+					holder_scope = {
+						character = ROOT
+					}
+				}
+				usurp_title = FROM	
+			}
+			# Vassalize direct vassals if they have their capital here
+			if = {
+				limit = {
+					holder_scope = {
+						NOT = {
+							character = ROOT
+						}
+						liege = {
+							character = ROOT
+						}
+					}
+					location = {
+						owner = {
+							capital_scope = {
+								province = PREVPREV
+							}
+						}
+					}
+				}
+				holder_scope = {
+					set_defacto_liege = FROM
+				}
+			}
+			# Vassalize indirect vassals if they have their capital here
+			if = {
+				limit = {
+					holder_scope = {
+						NOT = {
+							OR = {
+								character = ROOT
+								character = FROM # Make sure it hasn't just been annexed by FROM so he doesnt make himself independent
+							}
+						}
+						liege = {
+							NOT = { character = ROOT }
+							NOT = {
+								capital_scope = {
+									any_neighbor_province = {
+										owner = {
+											OR = {
+												character = FROM
+												is_liege_or_above = FROM
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				holder_scope = {
+					set_defacto_liege = FROM
+				}
+			}
+			# Take provinces that are not able to be vassalized
+			if = {
+				limit = {
+					holder_scope = {
+						NOT = {
+							OR = {
+								character = ROOT
+								character = FROM # Make sure it hasn't just been annexed by FROM so he doesnt make himself independent
+							}
+							capital_scope = {
+								any_neighbor_province = {
+									owner = {
+										OR = {
+											character = FROM
+											is_liege_or_above = FROM
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				usurp_title = FROM
+			}
+		}
+	}
+
+	attacker_ai_victory_worth = {
+		factor = -1 # always accept
+	}
+	
+	attacker_ai_defeat_worth = {
+		factor = 100
+	}
+
+	defender_ai_victory_worth = {
+		factor = -1 # always accept
+	}
+	
+	defender_ai_defeat_worth = {
+		factor = 100
+	}
+	
+	ai_will_do = {
+		factor = 50
+		modifier = {
+			factor = 1.25
+			FROM = {
+				check_variable = {
+					which = "diadochi_threat"
+					value = 5
+				}
+			}
+		}
+		modifier = {
+			factor = 1.25
+			FROM = {
+				check_variable = {
+					which = "diadochi_threat"
+					value = 9
+				}
+			}
+		}
+		modifier = {
+			factor = 1.25
+			FROM = {
+				check_variable = {
+					which = "diadochi_threat"
+					value = 12
+				}
+			}
+		}
+		modifier = {
+			factor = 1.25
+			FROM = {
+				check_variable = {
+					which = "diadochi_threat"
+					value = 14
+				}
+			}
+		}
+		modifier = {
+			factor = 1.25
+			FROM = {
+				check_variable = {
+					which = "diadochi_threat"
+					value = 15
+				}
+			}
+		}
+		modifier = {
+			factor = 1.25
+			FROM = {
+				check_variable = {
+					which = "diadochi_threat"
+					value = 16
+				}
+			}
+		}
+		modifier = {
+			factor = 1.25
+			FROM = {
+				check_variable = {
+					which = "diadochi_threat"
+					value = 17
+				}
+			}
+		}
+		modifier = {
+			factor = 1.25
+			FROM = {
+				check_variable = {
+					which = "diadochi_threat"
+					value = 18
+				}
+			}
+		}
+		modifier = {
+			factor = 1.25
+			FROM = {
+				check_variable = {
+					which = "diadochi_threat"
+					value = 19
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			FROM = {
+				check_variable = {
+					which = "diadochi_threat"
+					value = 20
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,747 @@
+# Patron Deities
+
+# Zoroastrian
+
+patron_ahura_mazda = {
+	learning = 1
+	diplomacy = 2
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+patron_mithra = {
+	diplomacy = 1
+	stewardship = 1
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+patron_armaiti = {
+	stewardship = 2
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+patron_anahita = {
+	fertility = 0.1
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+patron_sraosha = {
+	martial = 2
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+patron_airyaman = {
+	diplomacy = 1
+	health = 1
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+# Olympian
+
+patron_zeus = {
+	martial = 1
+	diplomacy = 1
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+patron_hera = {
+	stewardship = 2
+	fertility = 0.05
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+patron_demeter = {
+	stewardship = 1
+	fertility = 0.1
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+patron_athena = {
+	learning = 2
+	martial = 1
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+patron_ares = {
+	martial = 2
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+patron_apollo = {
+	health = 1
+	learning = 1
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+# Buddhism
+
+patron_kakusandha = {
+	learning = 2
+	health = 1
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+patron_konagamana = {
+	learning = 1
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+patron_kassapa = {
+	learning = 1
+	diplomacy = 1
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+patron_shakyamuni = {
+	learning = 2
+	intrigue = 1
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+patron_maitreya = {
+	learning = 2
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+# Hinduism
+
+patron_indra = {
+	martial = 2
+	stewardship = 1
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+patron_agni = {
+	martial = 2
+	diplomacy = 1
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+patron_varuna = {
+	stewardship = 2
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+patron_mitra = {
+	diplomacy = 2
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+patron_shiva = {
+	martial = 2
+	learning = 1
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+patron_vishnu = {
+	martial = 1
+	stewardship = 2
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+# Scythian
+
+patron_papaios = {
+	martial = 1
+	diplomacy = 1
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+patron_tabiti = {
+	stewardship = 2
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+patron_agin = {
+	martial = 2
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+patron_oitosyros = {
+	health = 1
+	learning = 1
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+patron_api = {
+	fertility = 0.1
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+patron_thagimasidas = {
+	stewardship = 1
+	diplomacy = 1
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+# Armenian
+
+patron_aramazd = {
+	learning = 1
+	diplomacy = 2
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+patron_anahit = {
+	fertility = 0.1
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+patron_vahagn = {
+	martial = 1
+	health = 1
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+patron_astghik = {
+	fertility = 0.05
+	diplomacy = 1
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+patron_nane = {
+	martial = 2
+	learning = 1
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+patron_mihr = {
+	learning = 2
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+# Greco-Persian
+
+patron_zeus_stratios = {
+	martial = 1
+	diplomacy = 2
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+patron_men_pharnacou = {
+	stewardship = 2
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+patron_cybele = {
+	stewardship = 1
+	fertility = 0.05
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+patron_apollo_pontic = {
+	health = 1
+	learning = 1
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+patron_mithras = {
+	diplomacy = 1
+	stewardship = 1
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+# Mesopotamian
+
+patron_marduk = {
+	learning = 1
+	diplomacy = 1
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+patron_ashur = {
+	diplomacy = 2
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+patron_nabu = {
+	learning = 2
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+patron_ishtar = {
+	martial = 1
+	fertility = 0.05
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+patron_anu = {
+	stewardship = 2
+	diplomacy = 1
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+patron_nergal = {
+	martial = 2
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+# Greco-Italic/Roman
+
+patron_jupiter = {
+	martial = 1
+	diplomacy = 1
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+patron_juno = {
+	stewardship = 2
+	fertility = 0.05
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+patron_ceres = {
+	stewardship = 1
+	fertility = 0.1
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+patron_minerva = {
+	learning = 2
+	martial = 1
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+patron_mars = {
+	martial = 2
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+patron_apollo_roman = {
+	health = 1
+	learning = 1
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+# Etruscan
+
+patron_tinia = {
+	martial = 1
+	diplomacy = 1
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+patron_uni = {
+	stewardship = 2
+	fertility = 0.05
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+patron_menrva = {
+	learning = 2
+	martial = 1
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+patron_cel = {
+	health = 1
+	stewardship = 1
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+patron_aritimi = {
+	martial = 1
+	fertility = 0.05
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
+
+patron_pacha = {
+	martial = 1
+	learning = 1
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}

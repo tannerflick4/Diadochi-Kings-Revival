@@ -7,9 +7,9 @@
 	404.1.1 = { # Made up
 		birth="yes" # 372 BC
 	}
-	#453.6.10 = {
-	#	add_trait = diadochi_king
-	#}
+	453.6.10 = {
+		add_trait = diadochi_king
+	}
 	477.1.1 = { # Made up
 		death="yes" # 299 BC
 	}

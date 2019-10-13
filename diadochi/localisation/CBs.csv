@@ -1,0 +1,27 @@
+CB_NAME_CAPPADOCIAN_WAR;Invade Katpatuka;;;;;;;;;;;;;;x
+WAR_NAME_CAPPADOCIAN_WAR;Macedonian invasion of Katpatuka;;;;;;;;;;;;;;x
+CB_NAME_CULTURAL_LIBERATION;Cultural Liberation of [Title.GetBaseName];;;;;;;;;;;;;;x
+WAR_NAME_CULTURAL_LIBERATION;$ORDER$$FIRST_ADJ$ liberation of $OTHER_TITLE$;;;;;;;;;;;;;;x
+cultural_liberation_desc;§Y$TARGET$§ is oppressing our brethren. We need to liberate them and bring them under our protection!;;;;;;;;;;;;;;x
+cultural_liberation_opinion;All realm characters with your culture won't accept your failure! (§R-15§W opinion of you)\n;;;;;;;;;;;;;;x
+CB_NAME_CONQUEST;Conquest of [Title.GetBaseName];;;;;;;;;;;;;;x
+WAR_NAME_CONQUEST;$ORDER$$FIRST_ADJ$ conquest of $OTHER_TITLE$;;;;;;;;;;;;;;x
+conquest_desc;Might makes right! We don't need reasons to take land.;;;;;;;;;;;;;;x
+CB_NAME_DIADOCHI_KING;Diadochi war of [Title.GetBaseName];;;;;;;;;;;;;;x
+WAR_NAME_DIADOCHI_KING;[Actor.GetFirstName]'s War for $OTHER_TITLE$;;;;;;;;;;;;;;x
+diadochi_king_cb_desc;The previous king has died, leaving the throne without a strong successor. His great conquests are now ruled by the generals whom are all eager to take power. We should attack them before they attack us.;;;;;;;;;;;;;;x
+CB_NAME_EPIGONI_KING;Epigoni war for [Title.GetBaseName];;;;;;;;;;;;;;x
+WAR_NAME_EPIGONI_KING;$ORDER$ [Title.GetAdjective] War;;;;;;;;;;;;;;x
+epigoni_king_cb_desc;The line of the Macedonian Kings has been overthrown, their land being ruled by us and the descendants of the Macedonian generals. We should take their land to establish a new empire ruled by us!;;;;;;;;;;;;;;x
+epigoni_cb_must_be_one_tier_lower;[From.GetTitledName] must only be one tier lower than [Root.GetTitledName].\n;;;;;;;;;;;;;;x
+epigoni_kings_martial_realm_algorithm;The realm size of [From.GetTitledName] is at least 95-(Martial difference between [Root.GetTitledName] and [From.GetTitledName]) * 5.\n;;;;;;;;;;;;;;x
+CB_NAME_INVASION;Invasion of [Title.GetBaseName];;;;;;;;;;;;;;x
+WAR_NAME_INVASION;$ATTACKER$'s invasion of $SECOND$;;;;;;;;;;;;;;x
+invasion_desc;Our country is a strong and powerful one. Our martial prowess will easily defeat $TARGET$ even though they might outnumber us. This is our time to win spear-won land!;;;;;;;;;;;;;;x
+invasion_occupy_occupied_settlements;[Root.GetTitledName] takes all occupied lands.\n;;;;;;;;;;;;;;x
+invasion_vassalize_all_vassals;All vassals of [From.PrimaryTitle.GetBaseName] submit to [Root.GetTitledName]\n;;;;;;;;;;;;;;x
+CB_NAME_INVASION_OTHER;Invasion of [Title.GetBaseName];;;;;;;;;;;;;;x
+WAR_NAME_INVASION_OTHER;$ATTACKER$'s invasion of $SECOND$;;;;;;;;;;;;;;x
+invasion_other_desc;Our enemy holds lands that would belong to one of our vassals. I will invade it on his behalf.;;;;;;;;;;;;;;x 
+invasion_other_occupy_occupied_settlements;[Root.GetFirstName]'s vassal takes all occupied lands.\n;;;;;;;;;;;;;;x
+invasion_other_vassalize_all_vassals;All vassals of [From.PrimaryTitle.GetBaseName] submit to [Root.GetFirstName]'s vassal\n;;;;;;;;;;;;;;x

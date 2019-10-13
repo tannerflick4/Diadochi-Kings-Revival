@@ -10,9 +10,9 @@
 	414.1.1 = {
 		birth="yes" # 362 BC Made up
 	}
-	#453.6.10 = {
-	#	add_trait = diadochi_king
-	#}
+	453.6.10 = {
+		add_trait = diadochi_king
+	}
 	463.1.1 = {
 		death="yes" # 313 BC Made up. Asander was last mentioned being in a war against Antigonus(He rebelled against him). His satrapy was taken from him by Antigonus, so it is possible he was executed by Antigonus.
 	}

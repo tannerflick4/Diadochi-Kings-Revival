@@ -1002,6 +1002,8 @@ imbecile = {
 		quick
 		genius
 	}
+
+	incapacitating = yes
 	
 	diplomacy = -8
 	intrigue = -8
