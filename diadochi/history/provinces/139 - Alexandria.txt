@@ -27,3 +27,6 @@ religion = kemetic
 	b_alexandria_alexandria = castle
 	capital = b_alexandria_alexandria
 }
+472.1.1 = { # 304 BC, End of siege of Rhodes
+	religion = greco_kemetic
+}

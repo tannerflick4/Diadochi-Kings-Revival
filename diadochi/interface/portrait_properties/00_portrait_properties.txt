@@ -1023,73 +1023,10 @@
 	
 	# Martial
 	10 = {
-		factor = 100
+		factor = 90
 		modifier = {
 			factor = 0
-			NOT = { trait = shieldmaiden }
-			NOT = { has_job_title  = job_marshal }
-			NAND = { 
-				has_minor_title = title_commander 
-				is_ruler = no 
-			}
-			#NOT = { martial = 12 }
-			NAND = { 
-				in_command = yes 
-				has_game_rule = {
-					name = martial_headgear
-					value = on
-				}
-			}
-			NOT = {
-				government = order_government
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				AND = {
-					is_female = yes
-					NOT = { trait = shieldmaiden }
-					NOT = { has_minor_title = title_commander }
-					NAND = { 
-						in_command = yes 
-						has_game_rule = {
-							name = martial_headgear
-							value = on
-						}
-					}
-				}
-				AND = {
-					NOT = { government = order_government }
-					real_tier = duke
-					NAND = { 
-						in_command = yes 
-						has_game_rule = {
-							name = martial_headgear
-							value = on
-						}
-					}
-					any_demesne_title = {
-						real_tier = baron
-					}
-				}
-			}
-		}
-		modifier = {
-			factor = 0
-			chinese_martial_modifier_trigger = yes 
-		}
-		modifier = {
-			factor = 0
-			chinese_martial_2_modifier_trigger = yes 
-		}
-		modifier = {
-			factor = 0
-			chinese_generals_modifier_trigger = yes
-		}
-		modifier = {
-			factor = 100 # This ensures that the reverse order check stays matched
-			has_portrait_property = { layer = 5 index = 10 }
+			in_command = yes 
 		}
 	}
 	
@@ -1785,21 +1722,10 @@
 
 	# Martial headgear
 	10 = {
-		factor = 100
+		factor = 90
 		modifier = {
 			factor = 0
-			trait = saint 
-		}
-		modifier = {
-			factor = 0
-			trait = shieldmaiden
-			NAND = { 
-				in_command = yes 
-				has_game_rule = {
-					name = martial_headgear
-					value = on
-				}
-			}
+			in_command = yes 
 		}
 	}
 

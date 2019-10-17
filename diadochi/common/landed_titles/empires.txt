@@ -2947,6 +2947,9 @@ e_egypt = { # Ptolemaic
 	color= { 225 200 0 }
 	color2= { 255 255 255 }
 	
+	title = "PHARAOH_TITLE"
+	title_female = "QUEEN_TITLE"
+	
 	capital = 139 # Alexandria
 	
 	allow = {

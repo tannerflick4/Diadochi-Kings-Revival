@@ -1,0 +1,3 @@
+char_early_attachments_shields_diff.dds
+char_early_no_normal.dds
+char_early_attachments_shields_spec.dds

@@ -17,14 +17,15 @@
 	452.1.1 = { # 324 BC
 		add_spouse = 90203 # Artacama
 	}
-	453.6.10 = {
-		add_trait = diadochi_king
-	}
+	#453.6.10 = {
+	#	add_trait = diadochi_king
+	#}
 	455.1.1 = { # 321 BC
 		add_spouse = 4 # Eurydike
 	}
 	472.1.1 = { # 304 BC, End of siege of Rhodes
 		give_nickname = nick_soter
+		religion = greco_kemetic
 	}
 	493.1.1 = {
 		death="yes" # 283 BC
@@ -37,11 +38,17 @@
 	culture = macedonian
 	father = 601
 			
-	add_trait = diadochi_king
+	#add_trait = diadochi_king
 	add_trait = scholarly_theologian
 	
 	467.1.1 = { # 309 BC
 		birth="yes"
+	}
+	472.1.1 = { # 304 BC, End of siege of Rhodes
+		religion = greco_kemetic
+	}
+	491.1.1 = { # 281 BC
+		religion = greco_kemetic
 	}
 	493.1.1 = { # 283 BC
 		give_nickname = nick_philadelphos
@@ -64,6 +71,9 @@
 	460.1.1 = {
 		birth="yes" # 316 BC
 	}
+	472.1.1 = { # 304 BC, End of siege of Rhodes
+		religion = greco_kemetic
+	}
 	514.1.1 = { # Made up
 		death="yes" # 262
 	}
@@ -75,8 +85,11 @@
 	culture = macedonian
 	father = 601
 	mother = 4
+
+	dna = bicajbcdebf
+	properties = ai0akj00000
 	
-	add_trait = diadochi_king
+	#add_trait = diadochi_king
 	add_trait = intricate_webweaver
 	add_trait = deceitful
 	add_trait = wroth
@@ -84,6 +97,9 @@
 	
 	457.1.1 = { # Made up
 		birth="yes" # 319 BC
+	}
+	472.1.1 = { # 304 BC, End of siege of Rhodes
+		religion = greco_kemetic
 	}
 	495.8.1 = {
 		add_spouse = 603 # Arsinoe II
@@ -102,9 +118,12 @@
 	culture = macedonian
 	father = 601
 	mother = 4
-	add_trait = diadochi_king
+	#add_trait = diadochi_king
 	458.1.1 = { # 318 BC Made up
 		birth="yes"
+	}
+	472.1.1 = { # 304 BC, End of siege of Rhodes
+		religion = greco_kemetic
 	}
 	500.1.1 = { # 276 BC made up
 		death="yes"

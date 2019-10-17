@@ -27,9 +27,12 @@ egyptian_religion = {
 		
 		female_temple_holders = yes
 		max_consorts = 3
+		divine_blood = yes
+		bs_marriage = yes
 		
 		#intermarry = kemetic	
 		#intermarry = atenist
+		#intermarry = greco_kemetic
 		
 		intermarry = berber_main
 		
@@ -90,9 +93,77 @@ egyptian_religion = {
 		
 		female_temple_holders = yes
 		max_consorts = 3
+		divine_blood = yes
+		bs_marriage = yes
 		
 		#intermarry = kemetic	
 		#intermarry = atenist
+		#intermarry = greco_kemetic
+		
+		intermarry = berber_main
+		
+		intermarry = illyrian_main
+		
+		intermarry = thracian_main
+		intermarry = zalmoxism
+		
+		intermarry = celtic_main
+		
+		intermarry = punic_main
+		intermarry = canaanite_main	
+		
+		intermarry = zoroastrian_main
+		intermarry = zurvanism
+		intermarry = scythian_main
+		intermarry = hinduism_main
+		intermarry = armenian_main	
+		
+		#intermarry = judaism_main	
+		
+		intermarry = jainism_main
+		intermarry = buddhism_main
+		
+		intermarry = georgian_main	
+		
+		intermarry = anatolian_main
+		intermarry = phrygian_main
+		
+		intermarry = marduk_cult	
+		
+		intermarry = arabic_main
+		
+		intermarry = greek_main
+		intermarry = roman_main
+		intermarry = pontic_main
+								
+		#intermarry = etruscan_main	
+						
+		intermarry = dravidian_main
+	}
+	greco_kemetic = {
+		graphical_culture = westerngfx
+
+		icon = 53
+		color = { 0.7 0.7 0.6 }
+		
+		crusade_name = "CRUSADE"
+		scripture_name = THE_BOOK_OF_THE_DEAD
+		god_names = {
+			GOD_SERAPIS GOD_ALEXANDROS GOD_ISIS GOD_OSIRIS GOD_HARPOCRATES GOD_HERMANUBIS GOD_THOTH GOD_SET
+		}
+		
+		can_grant_divorce = yes
+		can_grant_claim = yes
+		can_call_crusade = no
+		
+		female_temple_holders = yes
+		max_consorts = 3
+		divine_blood = yes
+		bs_marriage = yes
+		
+		#intermarry = kemetic	
+		#intermarry = atenist
+		#intermarry = greco_kemetic
 		
 		intermarry = berber_main
 		
@@ -168,6 +239,7 @@ north_african_religion = {
 		
 		intermarry = kemetic	
 		intermarry = atenist
+		intermarry = greco_kemetic
 		
 		#intermarry = berber_main
 		
@@ -243,6 +315,7 @@ illyrian_religion = {
 		
 		intermarry = kemetic	
 		intermarry = atenist
+		intermarry = greco_kemetic
 		
 		intermarry = berber_main
 		
@@ -318,6 +391,7 @@ daco_thracian_religion = {
 		
 		intermarry = kemetic	
 		intermarry = atenist
+		intermarry = greco_kemetic
 		
 		intermarry = berber_main
 		
@@ -382,6 +456,7 @@ daco_thracian_religion = {
 		
 		intermarry = kemetic	
 		intermarry = atenist
+		intermarry = greco_kemetic
 		
 		intermarry = berber_main
 		
@@ -457,6 +532,7 @@ celtic_religion = {
 		
 		intermarry = kemetic	
 		intermarry = atenist
+		intermarry = greco_kemetic
 		
 		intermarry = berber_main
 		
@@ -529,6 +605,7 @@ punic_religion = {
 		
 		intermarry = kemetic	
 		intermarry = atenist
+		intermarry = greco_kemetic
 		
 		intermarry = berber_main
 		
@@ -590,6 +667,7 @@ punic_religion = {
 		
 		intermarry = kemetic	
 		intermarry = atenist
+		intermarry = greco_kemetic
 		
 		intermarry = berber_main
 		
@@ -659,6 +737,7 @@ indo_iranian_religion = {
 		
 		intermarry = kemetic	
 		intermarry = atenist
+		intermarry = greco_kemetic
 		
 		intermarry = berber_main
 		
@@ -718,6 +797,7 @@ indo_iranian_religion = {
 		
 		intermarry = kemetic	
 		intermarry = atenist
+		intermarry = greco_kemetic
 		
 		intermarry = berber_main
 		
@@ -780,6 +860,7 @@ indo_iranian_religion = {
 		
 		intermarry = kemetic	
 		intermarry = atenist
+		intermarry = greco_kemetic
 		
 		intermarry = berber_main
 		
@@ -838,6 +919,7 @@ indo_iranian_religion = {
 		
 		intermarry = kemetic	
 		intermarry = atenist
+		intermarry = greco_kemetic
 		
 		intermarry = berber_main
 		
@@ -896,6 +978,7 @@ indo_iranian_religion = {
 		
 		intermarry = kemetic	
 		intermarry = atenist
+		intermarry = greco_kemetic
 		
 		intermarry = berber_main
 		
@@ -990,6 +1073,7 @@ indian_religion = {
 		
 		intermarry = kemetic	
 		intermarry = atenist
+		intermarry = greco_kemetic
 		
 		intermarry = berber_main
 		
@@ -1047,6 +1131,7 @@ indian_religion = {
 		
 		intermarry = kemetic	
 		intermarry = atenist
+		intermarry = greco_kemetic
 		
 		intermarry = berber_main
 		
@@ -1116,6 +1201,7 @@ caucasian_religion = {
 		
 		intermarry = kemetic	
 		intermarry = atenist
+		intermarry = greco_kemetic
 		
 		intermarry = berber_main
 		
@@ -1185,6 +1271,7 @@ anatolian_religion = {
 		
 		intermarry = kemetic	
 		intermarry = atenist
+		intermarry = greco_kemetic
 		
 		intermarry = berber_main
 		
@@ -1243,6 +1330,7 @@ anatolian_religion = {
 		
 		intermarry = kemetic	
 		intermarry = atenist
+		intermarry = greco_kemetic
 		
 		intermarry = berber_main
 		
@@ -1312,6 +1400,7 @@ mesopotamian_religion = {
 		
 		intermarry = kemetic	
 		intermarry = atenist
+		intermarry = greco_kemetic
 		
 		intermarry = berber_main
 		
@@ -1381,6 +1470,7 @@ arabic_religion = {
 		
 		intermarry = kemetic	
 		intermarry = atenist
+		intermarry = greco_kemetic
 		
 		intermarry = berber_main
 		
@@ -1454,6 +1544,7 @@ greek_religion = {
 		
 		intermarry = kemetic	
 		intermarry = atenist
+		intermarry = greco_kemetic
 		
 		intermarry = berber_main
 		
@@ -1515,6 +1606,7 @@ greek_religion = {
 		
 		intermarry = kemetic	
 		intermarry = atenist
+		intermarry = greco_kemetic
 		
 		intermarry = berber_main
 		
@@ -1577,6 +1669,7 @@ greek_religion = {
 		
 		intermarry = kemetic	
 		intermarry = atenist
+		intermarry = greco_kemetic
 		
 		intermarry = berber_main
 		
@@ -1679,6 +1772,7 @@ dravidian_religion = {
 		
 		intermarry = kemetic	
 		intermarry = atenist
+		intermarry = greco_kemetic
 		
 		intermarry = berber_main
 		
@@ -1754,6 +1848,7 @@ lusitanian_religion = {
 		
 		intermarry = kemetic	
 		intermarry = atenist
+		intermarry = greco_kemetic
 		
 		intermarry = berber_main
 		
@@ -1829,6 +1924,7 @@ iberian_religion = {
 		
 		intermarry = kemetic	
 		intermarry = atenist
+		intermarry = greco_kemetic
 		
 		intermarry = berber_main
 		
@@ -1908,6 +2004,7 @@ aquitanian_religion = {
 		
 		intermarry = kemetic	
 		intermarry = atenist
+		intermarry = greco_kemetic
 		
 		intermarry = berber_main
 		
