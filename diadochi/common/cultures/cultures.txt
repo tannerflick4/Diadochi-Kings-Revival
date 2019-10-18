@@ -1,6 +1,6 @@
 thracian_group = {
 	thracian = {
-		graphical_cultures = { byzantinegfx }
+		graphical_cultures = { greekgfx }
   
 		color = { 0.6 0.3 0 }
 
@@ -20,7 +20,7 @@ thracian_group = {
 		modifier = thracian_culture_modifier
 	}
 	phrygian = {
-		graphical_cultures = { byzantinegfx }
+		graphical_cultures = { greekgfx }
   
 		color = { 0 0.4 0.5 }
 
@@ -41,7 +41,7 @@ thracian_group = {
 		modifier = anatolian_culture_modifier
 	}
 	dacian = {
-		graphical_cultures = { byzantinegfx }
+		graphical_cultures = { greekgfx }
 		color = { 0.4 0.2 0.1 }
 
 		male_names = {
@@ -64,7 +64,7 @@ thracian_group = {
 }
 illyrian_group = {
 	illyrian = {
-		graphical_cultures = { byzantinegfx }
+		graphical_cultures = { greekgfx }
   
 		color = { 0.1 1.0 0.5 }
   
@@ -84,7 +84,7 @@ illyrian_group = {
 		dynasty_title_names = yes
 	}
 	paeonian = {
-		graphical_cultures = { byzantinegfx }
+		graphical_cultures = { greekgfx }
   
 		color = { 0.1 0.8 0.4 }
   
@@ -369,7 +369,7 @@ levantine_group = {
 }
 anatolian_group = {
 	luwian = {
-		graphical_cultures = { byzantinegfx }
+		graphical_cultures = { greekgfx }
   
 		color = { 0 0.5 0.5 }
 
@@ -619,7 +619,7 @@ north_african = {
 }
 caucasian = {
 	armenian = {
-		graphical_cultures = { byzantinegfx }
+		graphical_cultures = { greekgfx }
   
 		color = { 0.8 0 0.2 }
 
@@ -637,7 +637,7 @@ caucasian = {
 		modifier = anatolian_culture_modifier
 	}
 	georgian = {
-		graphical_cultures = { byzantinegfx }
+		graphical_cultures = { greekgfx }
   
 		color = { 0.4 0 0.4 }
 
@@ -655,7 +655,7 @@ caucasian = {
 		modifier = anatolian_culture_modifier
 	}
 	albanian = {
-		graphical_cultures = { byzantinegfx }
+		graphical_cultures = { greekgfx }
   
 		color = { 0.5 0 0.5 }
 
@@ -1281,7 +1281,7 @@ hellenic = {
 	graphical_cultures = { easterngfx }
  
 	aeolian = {
-		graphical_cultures = { byzantinegfx }
+		graphical_cultures = { greekgfx }
   
 		color = { 0.4 0.8 0.8 }
 
@@ -1326,7 +1326,7 @@ hellenic = {
 		modifier = hellenic_culture_modifier
 	}
 	arcadian = {
-		graphical_cultures = { byzantinegfx }
+		graphical_cultures = { greekgfx }
   
 		color = { 0.4 1 0.5 }
 
@@ -1371,7 +1371,7 @@ hellenic = {
 		modifier = hellenic_culture_modifier
 	}
 	doric = {
-		graphical_cultures = { byzantinegfx }
+		graphical_cultures = { greekgfx }
   
 		color = { 0.4 0.7 1 }
 
@@ -1416,7 +1416,7 @@ hellenic = {
 		modifier = hellenic_culture_modifier
 	}
 	ionian = { 
-		graphical_cultures = { byzantinegfx }
+		graphical_cultures = { greekgfx }
   
 		color = { 0.4 0.8 1 }
 
@@ -1461,7 +1461,7 @@ hellenic = {
 		modifier = hellenic_culture_modifier
 	}
 	macedonian = {
-		graphical_cultures = { byzantinegfx }
+		graphical_cultures = { greekgfx }
   
 		color = { 1 0.4 0.2 }
 
@@ -1506,7 +1506,7 @@ hellenic = {
 		modifier = hellenic_culture_modifier
 	}
 	pontic = {
-		graphical_cultures = { byzantinegfx }
+		graphical_cultures = { greekgfx }
   
 		color = { 0.7 0.6 0.5 }
 
@@ -1535,7 +1535,7 @@ hellenic = {
 		modifier = greco_persian_culture_modifier
 	}
 	koine = {
-		graphical_cultures = { byzantinegfx }
+		graphical_cultures = { greekgfx }
 		
 		color = { 0.4 0.8 1 }
 		
@@ -1584,7 +1584,7 @@ italian = {
 	graphical_cultures = { easterngfx }
  
 	oscan = {
-		graphical_cultures = { byzantinegfx }
+		graphical_cultures = { greekgfx }
   
 		color = { 0.5 0.1 0 }
 
@@ -1604,7 +1604,7 @@ italian = {
 		modifier = italic_culture_modifier
 	}
 	latin = {
-		graphical_cultures = { byzantinegfx }
+		graphical_cultures = { greekgfx }
   
 		color = { 0.5 0 0 }
 
@@ -1643,7 +1643,7 @@ italian = {
 		modifier = italic_culture_modifier
 	}
 	umbrian = {
-		graphical_cultures = { byzantinegfx }
+		graphical_cultures = { greekgfx }
   
 		color = { 0.5 0.1 0.1 }
 
@@ -1663,7 +1663,7 @@ italian = {
 		modifier = italic_culture_modifier
 	}
 	picene = {
-		graphical_cultures = { byzantinegfx }
+		graphical_cultures = { greekgfx }
   
 		color = { 0.6 0 0 }
 
@@ -1687,7 +1687,7 @@ tyrhenian = {
 	graphical_cultures = { easterngfx }
  
 	etruscan = {
-		graphical_cultures = { byzantinegfx }
+		graphical_cultures = { greekgfx }
   
 		color = { 0.4 0 0 }
 
@@ -1707,7 +1707,7 @@ tyrhenian = {
 		modifier = tyrhenian_culture_modifier
 	}
 	raetic = {
-		graphical_cultures = { byzantinegfx }
+		graphical_cultures = { greekgfx }
   
 		color = { 0.2 0.8 0.1 }
 
@@ -1731,7 +1731,7 @@ north_italic = {
 	graphical_cultures = { easterngfx }
  
 	venetic = {
-		graphical_cultures = { byzantinegfx }
+		graphical_cultures = { greekgfx }
   
 		color = { 0.4 1 0.4 }
 
