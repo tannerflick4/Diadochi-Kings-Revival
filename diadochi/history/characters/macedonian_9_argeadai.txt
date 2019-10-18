@@ -73,6 +73,7 @@
 	
 	394.1.1 = { # 382 BC
 		birth="yes"
+		create_bloodline = { type = bloodline_argead }
 	}
 	419.1.1 = { # 357 BC
 		add_spouse = 10011 # Olympias
