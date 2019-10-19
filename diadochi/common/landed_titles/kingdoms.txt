@@ -265,7 +265,7 @@ k_epirus = {
 			}
 			b_batiai_ambracia = {
 			}
-			b_ambracia_ambracia = {
+			b_ambracia1_ambracia = {
 			}
 		}
 		c_thesprotia = {
