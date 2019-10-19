@@ -6931,3 +6931,10 @@ ere_elective_politician_titles_trigger = { #Used in Imperial Elective to determi
 is_mongol_empire_leader_trigger = {
 	always = no # Unused
 }
+is_single_player_observer_mode = {
+	AND = {
+		multiplayer = no
+		is_local_human_observer = yes
+	}
+}
+
