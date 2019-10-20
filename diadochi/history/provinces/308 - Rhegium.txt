@@ -4,7 +4,7 @@
 title = c_rhegium # for example c_corinth
 
 # Settlements
-max_settlements = 6 # Should be reevaluated
+max_settlements = 3 # tsf4 - 6
 b_rhegium = castle
 b_scyllaeum_rhegium = city
 b_locri_rhegium = temple

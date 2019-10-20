@@ -4,7 +4,7 @@
 title = c_elea # for example c_corinth
 
 # Settlements
-max_settlements = 6 # Should be reevaluated
+max_settlements = 3 # tsf4 - 6
 b_elea = castle
 b_laus_elea = city
 b_pixous_elea = temple

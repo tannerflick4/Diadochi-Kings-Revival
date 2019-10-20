@@ -4,7 +4,7 @@
 title = c_paroikopolis
 
 # Settlements
-max_settlements = 4
+max_settlements = 3 # tsf4 - 6
 b_paroikopolis_paroikopolis = tribal
 #b_neine_paroikopolis = city
 b_doberos_paroikopolis = temple
