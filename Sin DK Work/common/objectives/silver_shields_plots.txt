@@ -11,6 +11,7 @@ plot_win_silver_shields = {
 		is_patrician = no
 		is_merchant_republic = no
 		is_adult = yes
+		culture_group = hellenic
 		primary_title = {
 			higher_tier_than = DUKE
 			temporary = no
@@ -19,6 +20,9 @@ plot_win_silver_shields = {
 		OR = {
 			ai = no
 			war = no
+		}
+		d_silver_shields = {
+			has_holder = yes
 		}
 		NOT = {
 			any_vassal = {
@@ -122,6 +126,7 @@ plot_disband_silver_shields = {
 		is_patrician = no
 		is_merchant_republic = no
 		is_adult = yes
+		culture_group = hellenic
 		primary_title = {
 			higher_tier_than = DUKE
 			temporary = no

@@ -1,0 +1,73 @@
+namespace = silver_shields_events
+character_event = { #Choose your Method - Seizing
+	id = silver_shields_events.1
+	desc = EVTDESCsilver_shields_events.1
+	picture = GFX_evt_large_army
+	border = GFX_event_normal_frame_war
+	is_triggered_only = yes
+
+	capable_only = yes
+	only_rulers = yes
+	prisoner = no
+
+	trigger = {
+		has_plot = plot_win_silver_shields
+		plot_power = 0.8
+	}
+
+	mean_time_to_happen = {
+		years = 10
+	}
+
+	option = {
+		name = EVTOPTAsilver_shields_events.1
+	}
+
+	option = {
+		name = EVTOPTBsilver_shields_events.1
+	}
+
+	option = {
+		name = EVTOPTCsilver_shields_events.1
+	}
+
+	option = {
+		name = EVTOPTDsilver_shields_events.1
+	}
+}
+character_event = { #Choose your Method - Disbanding
+	id = silver_shields_events.2
+	desc = EVTDESCsilver_shields_events.2
+	picture = GFX_evt_large_army
+	border = GFX_event_normal_frame_war
+	is_triggered_only = yes
+
+	capable_only = yes
+	only_rulers = yes
+	prisoner = no
+
+	trigger = {
+		has_plot = plot_disband_silver_shields
+		plot_power = 0.8
+	}
+
+	mean_time_to_happen = {
+		years = 10
+	}
+
+	option = {
+		name = EVTOPTAsilver_shields_events.2
+	}
+
+	option = {
+		name = EVTOPTBsilver_shields_events.2
+	}
+
+	option = {
+		name = EVTOPTCsilver_shields_events.2
+	}
+
+	option = {
+		name = EVTOPTDsilver_shields_events.2
+	}
+}
