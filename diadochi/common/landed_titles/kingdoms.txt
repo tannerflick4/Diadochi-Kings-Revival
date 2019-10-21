@@ -402,9 +402,9 @@ k_odrysia = {
 
 			holy_site = thracian_main
 			
-			b_bergoule_orestias = {
-			}
 			b_orestias_orestias = {
+			}
+			b_orestias1_orestias = {
 			}
 			b_burtudizon_orestias = {
 			}
@@ -490,6 +490,25 @@ k_odrysia = {
 			b_bergoule5_bergoule = {
 			}
 			b_bergoule6_bergoule = {
+			}
+		}
+		c_bizye = {
+			color= { 74 133 168 }
+			color2= { 255 255 255 }
+			
+			b_bizye_bizye = {
+			}
+			b_bizye1_bizye = {
+			}
+			b_bizye2_bizye = {
+			}
+			b_bizye3_bizye = {
+			}
+			b_bizye4_bizye = {
+			}
+			b_bizye5_bizye = {
+			}
+			b_bizye6_bizye = {
 			}
 		}
 	}
@@ -589,7 +608,7 @@ k_odrysia = {
 			}
 			b_mesembria_maroneia = {
 			}
-			b_ainos_maroneia = {
+			b_maroneia1_maroneia = {
 			}
 		}
 		c_abdera = {
@@ -775,6 +794,25 @@ k_odrysia = {
 			b_pactya_thracian_chersonese = {
 			}
 			b_drabos_thracian_chersonese = {
+			}
+		}
+		c_ainos = {
+			color= { 113 114 124 }
+			color2= { 255 255 255 }			
+			
+			b_ainos_ainos = {
+			}
+			b_ainos1_ainos = {
+			}
+			b_ainos2_ainos = {
+			}
+			b_ainos3_ainos = {
+			}
+			b_ainos4_ainos = {
+			}
+			b_ainos5_ainos = {
+			}
+			b_ainos6_ainos = {
 			}
 		}
 	}
