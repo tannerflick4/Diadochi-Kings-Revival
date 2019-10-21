@@ -108,3 +108,11 @@
 	name = "Publilii"
 	culture = latin
 }
+17028 = {
+	name = "Plautii"
+	culture = latin
+}
+17029 = {
+	name = "Junii"
+	culture = latin
+}
