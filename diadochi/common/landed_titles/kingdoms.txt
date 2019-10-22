@@ -4412,7 +4412,7 @@ k_pannonia = {
 			
 			b_scarbantia_scarbantia = {
 			}
-			b_mursella_scarbantia = {
+			b_scarbantia1_scarbantia = {
 			}
 			b_muteno_scarbantia = {
 			}
@@ -4431,7 +4431,7 @@ k_pannonia = {
 			}
 			b_floriana_tricciana = {
 			}
-			b_brigetio_tricciana = {
+			b_tricciana1_tricciana = {
 			}
 			b_aquincum_tricciana = {
 			}
@@ -4468,9 +4468,47 @@ k_pannonia = {
 			
 			b_mursa_mursa = {
 			}
-			b_mursella_mursa = {
+			b_mursa1_mursa = {
 			}
 			b_donatlanis_mursa = {
+			}
+		}
+		c_mursella = {
+			color= { 54 165 147 }
+			color2= { 255 255 255 }
+			
+			b_mursella_mursella = {
+			}
+			b_mursella1_mursella = {
+			}
+			b_mursella2_mursella = {
+			}
+			b_mursella3_mursella = {
+			}
+			b_mursella4_mursella = {
+			}
+			b_mursella5_mursella = {
+			}
+			b_mursella6_mursella = {
+			}
+		}
+		c_brigetio = {
+			color= { 77 132 165 }
+			color2= { 255 255 255 }
+			
+			b_brigetio_brigetio = {
+			}
+			b_brigetio1_brigetio = {
+			}
+			b_brigetio2_brigetio = {
+			}
+			b_brigetio3_brigetio = {
+			}
+			b_brigetio4_brigetio = {
+			}
+			b_brigetio5_brigetio = {
+			}
+			b_brigetio6_brigetio = {
 			}
 		}
 	}
