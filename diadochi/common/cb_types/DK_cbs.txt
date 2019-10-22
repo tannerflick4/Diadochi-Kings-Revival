@@ -13,12 +13,6 @@ cultural_liberation = {
 			NOT = {
 				culture = FROM
 			}
-			NOT = {
-				#is_tribal = yes
-				primary_title = {
-					has_law = nomad_settled_0
-				}
-			}
 		}
 		FROM = {
 			independent = yes

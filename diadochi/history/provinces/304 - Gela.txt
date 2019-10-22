@@ -4,7 +4,7 @@
 title = c_gela # for example c_corinth
 
 # Settlements
-max_settlements = 6 # Should be reevaluated
+max_settlements = 3 # tsf4 - 6
 b_gela = castle
 b_camarina_gela = castle
 b_casmenai_gela = city

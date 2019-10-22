@@ -6,7 +6,7 @@ title = c_scarbantia
 # Settlements
 max_settlements = 4
 b_scarbantia_scarbantia = tribal
-#b_mursella_scarbantia = city
+#b_scarbantia1_scarbantia = city
 b_muteno_scarbantia = temple
 #b_arrabona_scarbantia = city
 

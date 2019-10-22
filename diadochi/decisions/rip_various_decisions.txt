@@ -590,6 +590,14 @@ targeted_decisions = {
 					}
 					move_character = event_target:new_court
 				}
+				any_child = {
+					limit = {
+						is_adult = no
+						liege = { character = FROM }
+						is_primary_heir = no
+					}
+					move_character = event_target:new_court
+				}
 				break = yes
 			}
 			
@@ -616,6 +624,14 @@ targeted_decisions = {
 					}
 					move_character = event_target:new_court
 				}
+				any_child = {
+					limit = {
+						is_adult = no
+						liege = { character = FROM }
+						is_primary_heir = no
+					}
+					move_character = event_target:new_court
+				}
 				break = yes
 			}
 		
@@ -635,6 +651,14 @@ targeted_decisions = {
 				any_spouse = {
 					limit = {
 						liege = { character = FROM }
+					}
+					move_character = event_target:new_court
+				}
+				any_child = {
+					limit = {
+						is_adult = no
+						liege = { character = FROM }
+							is_primary_heir = no
 					}
 					move_character = event_target:new_court
 				}

@@ -7,7 +7,7 @@ title = c_maroneia # for example c_corinth
 max_settlements = 3
 b_maroneia_maroneia = castle
 b_mesembria_maroneia = temple
-b_ainos_maroneia = city
+b_maroneia1_maroneia = city
 
 # Misc
 culture = ionian

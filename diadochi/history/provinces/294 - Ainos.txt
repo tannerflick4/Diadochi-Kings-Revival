@@ -1,0 +1,20 @@
+# 294 - Ainos
+
+# County Title
+title = c_ainos
+
+# Settlements
+max_settlements = 4
+b_ainos_ainos = castle
+b_ainos1_ainos = castle
+b_ainos2_ainos = city
+b_ainos3_ainos = city
+#b_ainos4_ainos = temple
+#b_ainos5_ainos = temple
+#b_ainos6_ainos = castle
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History

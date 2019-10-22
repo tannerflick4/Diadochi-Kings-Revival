@@ -4,7 +4,7 @@
 title = c_terina # for example c_corinth
 
 # Settlements
-max_settlements = 6 # Should be reevaluated
+max_settlements = 4 # tsf4 - 6
 b_terina = castle
 b_medma_terina = city
 b_caulonia_terina = temple

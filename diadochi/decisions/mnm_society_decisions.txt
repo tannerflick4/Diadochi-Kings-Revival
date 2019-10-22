@@ -135,6 +135,7 @@ society_decisions = { # Society decisions are only evaluated by members of socie
 							trait = slothful
 							trait = envious
 							trait = wroth
+							trait = cruel
 							trait = proud
 						}
 					}
@@ -418,6 +419,14 @@ society_decisions = {
 				OR = {
 					NOT = { has_character_flag = holy_seclusion_timer }
 					had_character_flag = { flag = holy_seclusion_timer days = 1000 }
+				}
+			}
+			custom_tooltip = {
+				text = in_meditation_cooldown_tt
+				hidden_trigger = {
+					NOT = {
+						has_character_modifier = in_meditation
+					}
 				}
 			}
 		}
@@ -1303,6 +1312,7 @@ targeted_decisions = {
 			death = {
 				death_reason = death_missing
 			}
+			hidden_effect = { character_event = { id = MNM.7506 } }
 			FROM = {
 				show_scope_change = no
 				increase_visibility_minor_effect = yes

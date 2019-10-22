@@ -4,7 +4,7 @@
 title = c_saba
 
 # Settlements
-max_settlements = 6
+max_settlements = 5 # tsf4 - 6
 b_saba_saba = tribal
 #b_nagia_saba = city
 #b_nossa_saba = castle
