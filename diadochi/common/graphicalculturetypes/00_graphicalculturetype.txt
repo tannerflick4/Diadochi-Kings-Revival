@@ -1,5 +1,6 @@
 # Skin tones are 0 (light), 1 (tan), 2 (dark) and 3 (black)
 
+
 # Western
 
 frankishgfx = {
@@ -12,9 +13,6 @@ germangfx = {
 	skin_tone = 0
 }
 occitangfx = {
-	skin_tone = 0
-}
-trueoccitangfx = {
 	skin_tone = 0
 }
 southerngfx = {
@@ -54,19 +52,11 @@ finnishholygfx = {
 italiangfx = {
 	skin_tone = 0
 }
-romangfx = {
-	skin_tone = 0
+croatsouthslavicgfx = {
+	skin_tone = 1
 }
-dalmatiangfx = {
-	skin_tone = 0
-}
-
-crimeangfx = {
-	skin_tone = 0
-}
-
-outremergfx = {
-	skin_tone = 0
+serbsouthslavicgfx = {
+	skin_tone = 1
 }
 
 # Eastern
@@ -77,19 +67,10 @@ easternslavicgfx = {
 westernslavicgfx = {
 	skin_tone = 0
 }
-croatsouthslavicgfx = {
-	skin_tone = 1
-}
-serbsouthslavicgfx = {
-	skin_tone = 1
-}
 byzantinegfx = {
 	skin_tone = 1
 }
 ugricgfx = {
-	skin_tone = 0
-}
-magyargfx = {
 	skin_tone = 0
 }
 slavicholygfx = {
@@ -97,12 +78,6 @@ slavicholygfx = {
 }
 orthodoxholygfx = {
 	skin_tone = 1
-}
-pagangfx = {
-	skin_tone = 0
-}
-hellenicgfx = {
-	skin_tone = 0
 }
 
 # Indian
@@ -159,14 +134,6 @@ bodpagfx = {
 	skin_tone = 1
 }
 
-berbergfx = {
-	skin_tone = 2
-}
-
-levantinegfx = {
-	skin_tone = 2
-}
-
 #Other
 
 westafricangfx = {
@@ -212,9 +179,144 @@ indiangfx = {
 	skin_tone = 2
 }
 
-# DK Cultures
-greekgfx = {
+#
+##CUSTOM ADDONS
+#
+
+khitangfx = {
 	skin_tone = 1
+}
+
+kushitegfx = {
+	skin_tone = 3
+}
+
+babyloniangfx = {
+	skin_tone = 0 # NOT USED ANYMORE! superceded by armeniangfx-06/2019
+}	
+
+gaulgfx = {
+	skin_tone = 0
+}
+
+celtaegfx = {
+	skin_tone = 0
+}
+
+newceltsgfx = { # replaces old celtae in gaul?
+	skin_tone = 0
+}
+
+illyriangfx = { # replaces old easternslavicgfx in illyria etc using poles
+	skin_tone = 0
+}
+
+celticgfx = {
+	skin_tone = 0
+}
+
+colchiangfx = {
+	skin_tone = 0
+}
+
+etruscangfx = {
+	skin_tone = 0
+}
+
+latingfx = {
+	skin_tone = 0
+}
+
+romangfx = {
+	skin_tone = 0
+}
+
+iberiangfx = {
+	skin_tone = 0 # replaced by newiberiangfx - 06/2019
+}
+
+greekgfx = {
+	skin_tone = 0
+}
+
+macedoniangfx = {
+	skin_tone = 0
+}
+
+phoenigfx = {
+	skin_tone = 1
+}
+
+mesopotamiangfx = {
+	skin_tone = 2
+}
+
+egyptiangfx = {
+	skin_tone = 2
+}
+
+earlyarabicgfx = {
+	skin_tone = 2
+}
+
+scythiangfx = {
+	skin_tone = 2
+}
+
+anatoliangfx = {
+	skin_tone = 2
+}
+
+edomitegfx = {
+	skin_tone = 2
+}
+
+eastafricangfx = {
+	skin_tone = 3
+}
+
+cent_africangfx = {
+	skin_tone = 3
+}
+
+arabgfx = { # redone earlyarabics
+	skin_tone = 2
+}
+
+newegyptiangfx = { # redone new egypitans!
+	skin_tone = 2
+}
+
+newromangfx = { # redone new romans!
+	skin_tone = 1
+}
+
+newnorsegfx = { # redone new norse!
+	skin_tone = 0
+}
+
+newafricangfx = {
+	skin_tone = 3
+}
+
+newscythiangfx = {
+	skin_tone = 1
+}
+
+newpoenigfx = {
+	skin_tone = 1
+}
+
+modromangfx = {
+	skin_tone = 1 # using this name for now?
+}
+
+armeniangfx = {
+	skin_tone = 2 # using this name for now?
+}
+
+newiberiangfx = {
+	skin_tone = 0  # redone new old iberians and used for southern gauls? or aquitanii?
 }
 
 # Hard coded government graphical cultures
