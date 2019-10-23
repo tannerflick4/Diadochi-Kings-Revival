@@ -3989,13 +3989,21 @@ k_macedon = {
 			color= { 200 100 25 }
 			color2= { 255 255 255 }
 			
-			b_heracleia_lyncestis = {
+			b_lyncestis_lyncestis = {
 			}
-			b_lychnidos_lyncestis = {
+			b_heracleia_lyncestis = {
 			}
 			b_stuberra_lyncestis = {
 			}
-			b_pelagonia_lyncestis = {
+			b_pylon_lyncestis = {
+			}
+			b_melitonus_lyncestis = {
+			}
+			b_bryanion_lyncestis = {
+			}
+			b_alkomena_lyncestis = {
+			}
+			b_scirtiana_lyncestis = {
 			}
 		}
 		c_pyli = {
@@ -4004,9 +4012,17 @@ k_macedon = {
 			
 			b_aiane_pyli = {
 			}
-			b_keletron_pyli = {
-			}
 			b_eratyra_pyli = {
+			}
+			b_arnisa_pyli = {
+			}
+			b_grande_pyli = {
+			}
+			b_cellae_pyli = {
+			}
+			b_bokeria_pyli = {
+			}
+			b_elimea_pyli = {
 			}
 		}
 		c_orestis = {
@@ -4015,17 +4031,15 @@ k_macedon = {
 			
 			b_orestis_orestis = {
 			}
-			b_orestis1_orestis = {
+			b_argos_orestikon_orestis = {
 			}
-			b_orestis2_orestis = {
+			b_battyna_orestis = {
 			}
-			b_orestis3_orestis = {
+			b_aiginion_orestis = {
 			}
-			b_orestis4_orestis = {
+			b_phaloreia_orestis = {
 			}
-			b_orestis5_orestis = {
-			}
-			b_orestis6_orestis = {
+			b_keletron_orestis = {
 			}
 		}
 	}

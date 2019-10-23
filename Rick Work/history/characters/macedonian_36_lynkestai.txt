@@ -1,0 +1,208 @@
+# 3501-3600 for the Lynkestai dynasty
+3501 = {
+	name = "Arrhabaios" # Arrhabaeus, fought the spartans in 423 BC
+	dynasty = 36 # Lynkestai
+	religion = greek_main
+	culture = macedonian
+	
+	316.1.1 = { # 460 BC Made up
+		birth="yes"
+	}
+	383.1.1 = { # 393 BC
+		death="yes"
+	}
+}
+3502 = {
+	name = "Sirras" # Sirras, son-in-law of Arrhabaeus historically.
+	dynasty = 36 # Lynkestai
+	religion = greek_main
+	culture = macedonian
+
+    father = 3501
+	
+	334.1.1 = { # 442 BC Made up
+		birth="yes"
+	}
+	390.1.1 = { # 386 BC Made up
+		death="yes"
+	}
+}
+3503 = {
+	name = "Irra" # Daughter of Arrhabaeus
+	dynasty = 36 # Lynkestai
+	religion = greek_main
+	culture = macedonian
+
+    female=yes
+
+    father = 3501
+	
+	336.1.1 = { # 440 BC Made up
+		birth="yes"
+	}
+	379.1.1 = { # 397 BC Made up
+		death="yes"
+	}
+}
+3504 = {
+	name = "Eurydike" # Daughter of Sirras, mother of Philip II
+	dynasty = 36 # Lynkestai
+	religion = greek_main
+	culture = macedonian
+
+    female=yes
+
+    father = 3502
+	
+	369.1.1 = { # 407 BC Made up
+		birth="yes"
+	}
+    # 391 BC, becomes spouse of Amyntas III
+	433.1.1 = { # 343 BC Made up
+		death="yes"
+	}
+}
+3505 = {
+	name = "Arrhabaios" # Made up.
+	dynasty = 36 # Lynkestai
+	religion = greek_main
+	culture = macedonian
+
+    father = 3502
+	
+	376.1.1 = { # 400 BC
+		birth="yes"
+	}
+	413.1.1 = { # 363 BC
+		death="yes"
+	}
+}
+3506 = {
+	name = "Airopos" # https://en.wikipedia.org/wiki/Aeropus_of_Lyncestis.
+	dynasty = 36 # Lynkestai
+	religion = greek_main
+	culture = macedonian
+
+    father = 3505
+	
+	400.1.1 = { # 376 BC Made up
+		birth="yes"
+	}
+	446.1.1 = { # 343 BC Made up
+		death="yes"
+	}
+}
+3507 = {
+	name = "Amyntas" # Hipparch of Alexander.
+	dynasty = 36 # Lynkestai
+	religion = greek_main
+	culture = macedonian
+
+    father = 3505
+	
+	407.1.1 = { # 369 BC Made up
+		birth="yes"
+	}
+	473.1.1 = { # 303 BC Made up
+		death="yes"
+	}
+}
+3508 = {
+	name = "Alexandros" # https://en.wikipedia.org/wiki/Alexander_of_Lyncestis.
+	dynasty = 36 # Lynkestai
+	religion = greek_main
+	culture = macedonian
+
+    father = 3506
+	
+	410.1.1 = { # 366 BC Made up
+		birth="yes"
+	}
+	446.1.1 = { # 330 BC
+		death = {
+            death_reason = death_execution
+            killer = 802 # Alexander the Great.
+        }
+	}
+}
+3509 = {
+	name = "Heromenes" # https://en.wikipedia.org/wiki/Alexander_of_Lyncestis.
+	dynasty = 36 # Lynkestai
+	religion = greek_main
+	culture = macedonian
+
+    father = 3506
+	
+	411.1.1 = { # 365 BC Made up
+		birth="yes"
+	}
+	440.1.1 = { # 336 BC, was implicated in the assassination of Philip II.
+		death = {
+            death_reason = death_execution
+            killer = 802 # Alexander the Great.
+        }
+	}
+}
+3510 = {
+	name = "Arrhabaios" # https://en.wikipedia.org/wiki/Alexander_of_Lyncestis.
+	dynasty = 36 # Lynkestai
+	religion = greek_main
+	culture = macedonian
+
+    father = 3506
+	
+	413.1.1 = { # 363 BC Made up
+		birth="yes"
+	}
+	440.1.1 = { # 336 BC, was implicated in the assassination of Philip II.
+		death = {
+            death_reason = death_execution
+            killer = 802 # Alexander the Great.
+        }
+	}
+}
+3511 = {
+	name = "Arrhabaios" # Made up.
+	dynasty = 36 # Lynkestai
+	religion = greek_main
+	culture = macedonian
+
+    father = 3508
+	
+	431.1.1 = { # 345 BC
+		birth="yes"
+	}
+	484.1.1 = { # 292 BC
+		death="yes"
+	}
+}
+3512 = {
+	name = "Airopos" # Made up.
+	dynasty = 36 # Lynkestai
+	religion = greek_main
+	culture = macedonian
+
+    father = 3511
+	
+	467.1.1 = { # 309 BC
+		birth="yes"
+	}
+	536.1.1 = { # 240 BC
+		death="yes"
+	}
+}
+3513 = {
+	name = "Sirras" # Made up.
+	dynasty = 36 # Lynkestai
+	religion = greek_main
+	culture = macedonian
+
+    father = 3512
+	
+	506.1.1 = { # 270 BC
+		birth="yes"
+	}
+	541.1.1 = { # 235 BC
+		death="yes"
+	}
+}

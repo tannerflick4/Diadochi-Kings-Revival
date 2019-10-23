@@ -269,9 +269,12 @@ b_phara_stratus;Phara;;;;;;;;;;;;;;x
 b_leucas_stratus;Leucas;;;;;;;;;;;;;;x
 b_tyrrheion_stratus;Tyrrheion;;;;;;;;;;;;;;x
 b_oiniadai_stratus;Oiniadai;;;;;;;;;;;;;;x
-b_keletron_orestis;Keletron;;;;;;;;;;;;;;x
+b_orestis_orestis;Orestis;;;;;;;;;;;;;;x
+b_argos_orestikon_orestis;Argos Orestikon;;;;;;;;;;;;;;x
 b_battyna_orestis;Battyna;;;;;;;;;;;;;;x
-b_agyros_orestis;Agyros;;;;;;;;;;;;;;x
+b_aiginion_orestis;Aiginion;;;;;;;;;;;;;;x
+b_phaloreia_orestis;Phaloreia;;;;;;;;;;;;;;x
+b_keletron_orestis;Keletron;;;;;;;;;;;;;;x
 b_pyli_pyli;Pyle;;;;;;;;;;;;;;x
 b_aiginion_pyli;Aiginion;;;;;;;;;;;;;;x
 b_phaloreia_pyli;Phaloreia;;;;;;;;;;;;;;x
@@ -2255,12 +2258,20 @@ b_karsabaga_karsabaga;Karsabaga;;;;;;;;;;;;;x;
 b_ugrakati_ugrakati;Ugrakati;;;;;;;;;;;;;x;
 b_bratavadasz_ugrakati;Bratavadasz;;;;;;;;;;;;;x;
 b_aiane_pyli;Aiane;;;;;;;;;;;;;x;
-b_keletron_pyli;Keletron;;;;;;;;;;;;;x;
 b_eratyra_pyli;Eratyra;;;;;;;;;;;;;x;
-b_heracleia_lyncestis;Heracleia Lynkestis;;;;;;;;;;;;;x;
-b_lychnidos_lyncestis;Lychnidos;;;;;;;;;;;;;x;
+b_arnisa_pyli;Arnisa;;;;;;;;;;;;;x;
+b_grande_pyli;Grande;;;;;;;;;;;;;x;
+b_cellae_pyli;Kellai;;;;;;;;;;;;;x;
+b_bokeria_pyli;Bokeria;;;;;;;;;;;;;x;
+b_elimea_pyli;Elimeia;;;;;;;;;;;;;x;
+b_lyncestis_lyncestis;Lynkestis;;;;;;;;;;;;;x;
+b_heracleia_lyncestis;Herakleia Lynkestis;;;;;;;;;;;;;x;
 b_stuberra_lyncestis;Stuberra;;;;;;;;;;;;;x;
-b_pelagonia_lyncestis;Pelagonia;;;;;;;;;;;;;x;
+b_pylon_lyncestis;Pylon;;;;;;;;;;;;;x;
+b_melitonus_lyncestis;Melitonous;;;;;;;;;;;;;x;
+b_bryanion_lyncestis;Bryanion;;;;;;;;;;;;;x;
+b_alkomena_lyncestis;Alkomena;;;;;;;;;;;;;x;
+b_scirtiana_lyncestis;Skirtiana;;;;;;;;;;;;;x;
 b_iton_lamia;Iton;;;;;;;;;;;;;x;
 b_trikka_trikka;Trikka;;;;;;;;;;;;;x;
 b_oichalia_trikka;Oichalia;;;;;;;;;;;;;x;

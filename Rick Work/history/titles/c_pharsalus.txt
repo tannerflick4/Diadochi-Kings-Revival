@@ -1,0 +1,61 @@
+402.1.1 = { # 374 BC
+	liege = d_thessaly
+}
+406.1.1 = { # 370 BC
+	liege = 0
+}
+415.1.1 = {
+	holder = 30501
+}
+424.1.1 = { # 352 BC
+	holder = 30501 # Thrasydaios of the Aleuadai
+	liege = k_macedon
+}
+426.1.1 = {
+	liege = e_macedonia
+}
+434.1.1 = {
+	holder = 30301 # Menon of Pharsalus
+}
+453.6.10 = {
+	liege = k_s_macedon
+}
+453.9.1 = {
+	liege = 0 # Lamian war
+}
+455.1.1 = {
+	holder = 1 # Antipater
+	liege = k_s_macedon
+}
+457.1.1 = {
+	holder = 1601 # Polyperchon
+}
+459.10.1 = {
+	holder = 2 # Kassandros
+	liege = k_macedon
+}
+479.1.1 = {
+	holder = 12 # Philippos IV
+}
+479.4.1 = {
+	holder = 14 # Alexandros V
+}
+482.1.1 = {
+	holder = 402 # Demetrios
+	liege = e_asia
+}
+488.1.1 = {
+	holder = 10010 # Pyrrhus
+	liege = k_epirus
+}
+488.7.1 = {
+	holder = 30001 # Lysimachus
+	liege = k_odrysia
+}
+495.2.1 = {
+	holder = 603 # Arsinoe II
+	liege = k_macedon
+}
+495.8.1 = {
+	holder = 604 # Ptolemaios Keraunos
+}
