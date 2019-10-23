@@ -6,9 +6,12 @@ title = c_trikka
 # Settlements
 max_settlements = 4
 b_trikka_trikka = castle
-b_kierion_trikka = city
-b_athena_itonia_trikka = temple
-b_ithome_trikka = castle
+b_oichalia_trikka = castle
+b_gomphoi_trikka = temple
+#b_ereikinion_trikka = castle
+#b_pialeia_trikka = city
+#b_pelinna_trikka = city
+b_phayttos_trikka = city
 
 # Misc
 culture = aeolian

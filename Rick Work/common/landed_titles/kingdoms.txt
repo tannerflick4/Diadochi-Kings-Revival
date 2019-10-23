@@ -5134,6 +5134,10 @@ k_greece = {
 			}
 			b_gonnoi_larissa = {
 			}
+			b_malloia_larissa = {
+			}
+			b_mopsion_larissa = {
+			}
 		}
 		c_trikka = {			
 			color= { 100 210 210 }
@@ -5141,11 +5145,17 @@ k_greece = {
 			
 			b_trikka_trikka = {
 			}
-			b_kierion_trikka = {
+			b_oichalia_trikka = {
 			}
-			b_athena_itonia_trikka = {
+			b_gomphoi_trikka = {
 			}
-			b_ithome_trikka = {
+			b_ereikinion_trikka = {
+			}
+			b_pialeia_trikka = {
+			}
+			b_pelinna_trikka = {
+			}
+			b_phayttos_trikka = {
 			}
 		}
 		c_magnesia = {
@@ -5160,7 +5170,11 @@ k_greece = {
 			}
 			b_rhizous_magnesia = {
 			}
-			b_demetrias_magnesia = {
+			b_sykyrion_magnesia = {
+			}
+			b_zeus_akraios_magnesia = {
+			}
+			b_spalauthra_magnesia = {
 			}
 		}
 		c_pharsalus = {
@@ -5169,17 +5183,17 @@ k_greece = {
 		
 			b_pharsalus_pharsalus = {
 			}
-			b_pharsalus1_pharsalus = {
+			b_kierion_pharsalus = {
 			}
-			b_pharsalus2_pharsalus = {
+			b_methylion_pharsalus = {
 			}
-			b_pharsalus3_pharsalus = {
+			b_ekkara_pharsalus = {
 			}
-			b_pharsalus4_pharsalus = {
+			b_thaumakoi_pharsalus = {
 			}
-			b_pharsalus5_pharsalus = {
+			b_proerna_pharsalus = {
 			}
-			b_pharsalus6_pharsalus = {
+			b_ithome_pharsalus = {
 			}
 		}
 	}

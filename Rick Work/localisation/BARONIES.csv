@@ -176,6 +176,8 @@ b_olooson_larissa;Oloosson;;;;;;;;;;;;;;x
 b_atrax_larissa;Atrax;;;;;;;;;;;;;;x
 b_krannon_larissa;Krannon;;;;;;;;;;;;;;x
 b_gonnoi_larissa;Gonnoi;;;;;;;;;;;;;;x
+b_malloia_larissa;Malloia;;;;;;;;;;;;;;x
+b_mopsion_larissa;Mopsion;;;;;;;;;;;;;;x
 b_pella_pella;Pella;;;;;;;;;;;;;;x
 b_gortynia_pella;Gortynia;;;;;;;;;;;;;;x
 b_pydna_pella;Pydna;;;;;;;;;;;;;;x
@@ -2261,14 +2263,19 @@ b_stuberra_lyncestis;Stuberra;;;;;;;;;;;;;x;
 b_pelagonia_lyncestis;Pelagonia;;;;;;;;;;;;;x;
 b_iton_lamia;Iton;;;;;;;;;;;;;x;
 b_trikka_trikka;Trikka;;;;;;;;;;;;;x;
-b_kierion_trikka;Kierion;;;;;;;;;;;;;x;
-b_athena_itonia_trikka;Atheneia Itonia;;;;;;;;;;;;;x;
-b_ithome_trikka;Ithome;;;;;;;;;;;;;x;
+b_oichalia_trikka;Oichalia;;;;;;;;;;;;;x;
+b_gomphoi_trikka;Gomphoi;;;;;;;;;;;;;x;
+b_ereikinion_trikka;Ereikinion;;;;;;;;;;;;;x;
+b_pialeia_trikka;Pialeia;;;;;;;;;;;;;x;
+b_pelinna_trikka;Pelinna;;;;;;;;;;;;;x;
+b_phayttos_trikka;Phayttos;;;;;;;;;;;;;x;
 b_methone_magnesia;Methone;;;;;;;;;;;;;x;
 b_kasthaneia_magnesia;Kasthaneia;;;;;;;;;;;;;x;
 b_kourope_magnesia;Kourope;;;;;;;;;;;;;x;
 b_rhizous_magnesia;Rhizous;;;;;;;;;;;;;x;
-b_demetrias_magnesia;Demetrias;;;;;;;;;;;;;x;
+b_sykyrion_magnesia;Sykyrion;;;;;;;;;;;;;x;
+b_zeus_akraios_magnesia;Zeus Akraios;;;;;;;;;;;;;x;
+b_spalauthra_magnesia;Spalauthra;;;;;;;;;;;;;x;
 b_europos_pella;Europos;;;;;;;;;;;;;x;
 b_allante_pella;Allante;;;;;;;;;;;;;x;
 b_aigai_pieria;Aigai;;;;;;;;;;;;;x;
@@ -3411,13 +3418,13 @@ b_parapotamos_thesprotia;Parapotamos;;;;;;;;;;;x
 b_kestria_thesprotia;Kestria;;;;;;;;;;;x
 b_maiandia_thesprotia;Maiandia;;;;;;;;;;;x
 b_nekromanteion_thesprotia;Nekromanteion;;;;;;;;;;;x
-b_pharsalus_pharsalus;Pharsalus;;;;;;;;;;;x
-b_pharsalus1_pharsalus;Pharsalus;;;;;;;;;;;x
-b_pharsalus2_pharsalus;Pharsalus;;;;;;;;;;;x
-b_pharsalus3_pharsalus;Pharsalus;;;;;;;;;;;x
-b_pharsalus4_pharsalus;Pharsalus;;;;;;;;;;;x
-b_pharsalus5_pharsalus;Pharsalus;;;;;;;;;;;x
-b_pharsalus6_pharsalus;Pharsalus;;;;;;;;;;;x
+b_pharsalus_pharsalus;Pharsalos;;;;;;;;;;;x
+b_kierion_pharsalus;Kierion;;;;;;;;;;;x
+b_methylion_pharsalus;Methylion;;;;;;;;;;;x
+b_ekkara_pharsalus;Ekkara;;;;;;;;;;;x
+b_thaumakoi_pharsalus;Thaumakoi;;;;;;;;;;;x
+b_proerna_pharsalus;Proerna;;;;;;;;;;;x
+b_ithome_pharsalus;Ithome;;;;;;;;;;;x
 b_bylazora_bylazora;Bylazora;;;;;;;;;;;x
 b_bylazora1_bylazora;Bylazora;;;;;;;;;;;x
 b_bylazora2_bylazora;Bylazora;;;;;;;;;;;x
