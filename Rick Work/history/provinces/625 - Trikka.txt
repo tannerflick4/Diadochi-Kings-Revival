@@ -1,0 +1,18 @@
+# 625 - Trikka
+
+# County Title
+title = c_trikka
+
+# Settlements
+max_settlements = 4
+b_trikka_trikka = castle
+b_kierion_trikka = city
+b_athena_itonia_trikka = temple
+b_ithome_trikka = castle
+
+# Misc
+culture = aeolian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

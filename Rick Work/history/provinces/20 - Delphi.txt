@@ -1,0 +1,22 @@
+# 20 - Delphi
+
+# County Title
+title = c_delphi # for example c_corinth
+
+# Settlements
+max_settlements = 5
+b_elateia_delphi
+b_amphikleia_delphi
+b_delphi_delpi
+b_lilaia_delphi
+b_tithorea_delphi
+b_antikyra_delphi
+b_ambrossos_delphi
+b_medeon_delphi
+
+# Misc
+culture = doric
+religion = greek_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,19 @@
+# 33 - larissa
+
+# County Title
+title = c_larissa # for example c_corinth
+
+# Settlements
+max_settlements = 5
+b_larissa_larissa = castle
+b_olooson_larissa = city
+b_atrax_larissa = castle
+b_krannon_larissa = city
+b_gonnoi_larissa = temple
+
+# Misc
+culture = aeolian
+religion = greek_main
+
+# History
+# Can be filled when things change around the province
