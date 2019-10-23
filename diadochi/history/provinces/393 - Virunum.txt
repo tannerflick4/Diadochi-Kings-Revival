@@ -7,7 +7,7 @@ title = c_virunum
 max_settlements = 4
 b_virunum_virunum = tribal
 #b_iuenna_virunum = castle
-#b_teurnia_virunum = city
+#b_virunum1_virunum = city
 #b_santicum_virunum = city
 
 # Misc

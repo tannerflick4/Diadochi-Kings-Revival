@@ -4537,7 +4537,7 @@ k_pannonia = {
 			}
 			b_iuenna_virunum = {
 			}
-			b_teurnia_virunum = {
+			b_virunum1_virunum = {
 			}
 			b_santicum_virunum = {
 			}
@@ -4552,7 +4552,45 @@ k_pannonia = {
 			}
 			b_vetonianis_ovilava = {
 			}
-			b_lauriacum_ovilava = {
+			b_ovilava1_ovilava = {
+			}
+		}
+		c_vindobona = {
+			color= { 75 147 147 }
+			color2= { 255 255 255 }
+			
+			b_vindobona_vindobona = {
+			}
+			b_vindobona1_vindobona = {
+			}
+			b_vindobona2_vindobona = {
+			}
+			b_vindobona3_vindobona = {
+			}
+			b_vindobona4_vindobona = {
+			}
+			b_vindobona5_vindobona = {
+			}
+			b_vindobona6_vindobona = {
+			}
+		}
+		c_cetium = {
+			color= { 147 65 73 }
+			color2= { 255 255 255 }
+			
+			b_cetium_cetium = {
+			}
+			b_cetium1_cetium = {
+			}
+			b_cetium2_cetium = {
+			}
+			b_cetium3_cetium = {
+			}
+			b_cetium4_cetium = {
+			}
+			b_cetium5_cetium = {
+			}
+			b_cetium6_cetium = {
 			}
 		}
 	}

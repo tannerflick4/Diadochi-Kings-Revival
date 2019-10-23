@@ -1606,7 +1606,7 @@ b_muteno_scarbantia;Muteno;;;;;;;;;;;;;x;
 b_arrabona_scarbantia;Arrabona;;;;;;;;;;;;;x;
 b_virunum_virunum;Virunum;;;;;;;;;;;;;x;
 b_iuenna_virunum;Iuenna;;;;;;;;;;;;;x;
-b_teurnia_virunum;Teurnia;;;;;;;;;;;;;x;
+b_virunum1_virunum;Virunum;;;;;;;;;;;;;x;
 b_santicum_virunum;Santicum;;;;;;;;;;;;;x;
 b_emona_emona;Emona;;;;;;;;;;;;;x;
 b_nauportus_emona;Nauportus;;;;;;;;;;;;;x;
@@ -1770,7 +1770,7 @@ b_laciacis_iuvavum;Laciacis;;;;;;;;;;;;;x;
 b_ovilava_ovilava;Ovilava;;;;;;;;;;;;;x;
 b_lentia_ovilava;Lentia;;;;;;;;;;;;;x;
 b_vetonianis_ovilava;Vetonianis;;;;;;;;;;;;;x;
-b_lauriacum_ovilava;Lauriacum;;;;;;;;;;;;;x;
+b_ovilava1_ovilava;Ovilava;;;;;;;;;;;;;x;
 b_pselchis_pselchis;Pselchis;;;;;;;;;;;;;x;
 b_per_ptah_pselchis;Per-Ptah;;;;;;;;;;;;;x;
 b_tachompso_pselchis;Tachompso;;;;;;;;;;;;;x;
@@ -3506,3 +3506,17 @@ b_brigetio3_brigetio;Brigetio;;;;;;;;;;;x
 b_brigetio4_brigetio;Brigetio;;;;;;;;;;;x
 b_brigetio5_brigetio;Brigetio;;;;;;;;;;;x
 b_brigetio6_brigetio;Brigetio;;;;;;;;;;;x
+b_vindobona_vindobona;Vindobona;;;;;;;;;;;x
+b_vindobona1_vindobona;Vindobona;;;;;;;;;;;x
+b_vindobona2_vindobona;Vindobona;;;;;;;;;;;x
+b_vindobona3_vindobona;Vindobona;;;;;;;;;;;x
+b_vindobona4_vindobona;Vindobona;;;;;;;;;;;x
+b_vindobona5_vindobona;Vindobona;;;;;;;;;;;x
+b_vindobona6_vindobona;Vindobona;;;;;;;;;;;x
+b_cetium_cetium;Cetium;;;;;;;;;;;x
+b_cetium1_cetium;Cetium;;;;;;;;;;;x
+b_cetium2_cetium;Cetium;;;;;;;;;;;x
+b_cetium3_cetium;Cetium;;;;;;;;;;;x
+b_cetium4_cetium;Cetium;;;;;;;;;;;x
+b_cetium5_cetium;Cetium;;;;;;;;;;;x
+b_cetium6_cetium;Cetium;;;;;;;;;;;x

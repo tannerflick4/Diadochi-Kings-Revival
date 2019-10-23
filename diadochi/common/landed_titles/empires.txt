@@ -45,6 +45,8 @@ e_persia = {
 		parthian = Mada
 		median = Mada
 		arian = Mada
+		
+		capital = 240 # Ecbatana
 	
 		allow = {
 			culture_group = iranian
@@ -57,6 +59,8 @@ e_persia = {
 		d_paytakaran = {
 			color= { 200 0 100 }
 			color2= { 255 255 255 }
+			
+			capital = 233 # Ardabil
 		
 			c_spandaran = {
 				color= { 200 10 110 }
@@ -101,6 +105,8 @@ e_persia = {
 		d_matiene = {
 			color= { 200 0 50 }
 			color2= { 255 255 255 }
+			
+			capital = 234 # Praaspa
 		
 			c_praaspa = {
 				color= { 210 10 50 }
@@ -172,6 +178,8 @@ e_persia = {
 			parthian = Mada
 			median = Mada
 			arian = Mada
+			
+			capital = 240 # Ecbatana
 			
 			c_daskara = {
 				color= { 210 10 75 }
@@ -248,6 +256,8 @@ e_persia = {
 			median = Varkana
 			arian = Varkana
 			
+			capital = 245 # Zadracarta
+			
 			c_rhagai = {
 				color= { 210 25 40 }
 				color2= { 255 255 255 }
@@ -312,6 +322,8 @@ e_persia = {
 			median = Parthava
 			arian = Parthava
 			
+			capital = 261 # Susia
+			
 			c_tabus = {
 				color= { 210 15 75 }
 				color2= { 255 255 255 }
@@ -361,6 +373,8 @@ e_persia = {
 		median = Parsa
 		arian = Parsa
 		
+		capital = 253 # Pasargadae
+		
 		allow = {
 			culture_group = iranian
 			liege = {
@@ -377,6 +391,8 @@ e_persia = {
 			parthian = Susha
 			median = Susha
 			arian = Susha
+			
+			capital = 249 # Susa
 			
 			c_madhar = {
 				color= { 215 10 50 }
@@ -441,6 +457,8 @@ e_persia = {
 			parthian = Parsa
 			median = Parsa
 			arian = Parsa
+			
+			capital = 253 # Pasargadae
 			
 			c_bushahr = {
 				color= { 215 10 75 }
@@ -514,6 +532,8 @@ e_persia = {
 			parthian = Karmana
 			median = Karmana
 			arian = Karmana
+			
+			capital = 257 # Carmana
 			
 			c_harmozeia = {
 				color= { 215 10 100 }
