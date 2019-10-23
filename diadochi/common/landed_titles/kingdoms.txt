@@ -4462,17 +4462,6 @@ k_pannonia = {
 			b_mestrianis_sala = {
 			}
 		}
-		c_mursa = {
-			color= { 40 185 100 }
-			color2= { 255 255 255 }
-			
-			b_mursa_mursa = {
-			}
-			b_mursa1_mursa = {
-			}
-			b_donatlanis_mursa = {
-			}
-		}
 		c_mursella = {
 			color= { 54 165 147 }
 			color2= { 255 255 255 }
