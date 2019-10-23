@@ -4,7 +4,7 @@
 title = c_himera # for example c_corinth
 
 # Settlements
-max_settlements = 6 # Should be reevaluated
+max_settlements = 3 # tsf4 - 6
 b_himera = castle
 b_chimaera_himera = city
 b_calacte_himera = temple

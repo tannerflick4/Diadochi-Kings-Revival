@@ -1,0 +1,20 @@
+# 1102 - Cetium
+
+# County Title
+title = c_cetium
+
+# Settlements
+max_settlements = 4
+b_cetium_cetium = tribal
+#b_cetium1_cetium = city
+b_cetium2_cetium = temple
+#b_cetium3_cetium = city
+#b_cetium4_cetium = castle
+#b_cetium5_cetium = city
+#b_cetium6_cetium = temple
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History

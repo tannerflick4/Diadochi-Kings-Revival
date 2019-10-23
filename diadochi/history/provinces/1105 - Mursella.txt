@@ -1,0 +1,24 @@
+# 1105 - Mursella
+
+# County Title
+title = c_mursella
+
+# Settlements
+max_settlements = 3
+b_mursella_mursella = tribal
+#b_mursella1_mursella = city
+b_mursella2_mursella = temple
+#b_mursella3_mursella = castle
+#b_mursella4_mursella = city
+#b_mursella5_mursella = temple
+#b_mursella6_mursella = castle
+
+# Misc
+culture = illyrian
+religion = illyrian_main
+
+# History
+490.1.1 = { # 286 BC
+	culture = gaul
+	religion = celtic_main
+}

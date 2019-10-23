@@ -4,7 +4,7 @@
 title = c_syracuse # for example c_corinth
 
 # Settlements
-max_settlements = 6 # Should be reevaluated
+max_settlements = 3 # tsf4 - 6
 b_syracuse = castle
 b_leontinoi_syracuse = castle
 b_catania_syracuse = temple

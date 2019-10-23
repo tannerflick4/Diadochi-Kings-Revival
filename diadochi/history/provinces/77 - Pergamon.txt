@@ -4,7 +4,7 @@
 title = c_pergamum # for example c_corinth
 
 # Settlements
-max_settlements = 7
+max_settlements = 6 # tsf4 - 7
 b_pergamum_pergamum = castle
 b_asklepielon_pergamum = temple
 b_adramyttium_pergamum = city

@@ -8,7 +8,7 @@ max_settlements = 4
 b_ovilava_ovilava = tribal
 #b_lentia_ovilava = city
 b_vetonianis_ovilava = temple
-#b_lauriacum_ovilava = city
+#b_ovilava1_ovilava = city
 
 # Misc
 culture = gaul

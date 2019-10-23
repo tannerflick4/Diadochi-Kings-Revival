@@ -4,7 +4,7 @@
 title = c_thurii # for example c_corinth
 
 # Settlements
-max_settlements = 6 # Should be reevaluated
+max_settlements = 2 # tsf4 - 6
 b_thurii = castle
 b_sybaris_thurii = city
 

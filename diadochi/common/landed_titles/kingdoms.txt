@@ -265,7 +265,7 @@ k_epirus = {
 			}
 			b_batiai_ambracia = {
 			}
-			b_ambracia_ambracia = {
+			b_ambracia1_ambracia = {
 			}
 		}
 		c_thesprotia = {
@@ -402,9 +402,9 @@ k_odrysia = {
 
 			holy_site = thracian_main
 			
-			b_bergoule_orestias = {
-			}
 			b_orestias_orestias = {
+			}
+			b_orestias1_orestias = {
 			}
 			b_burtudizon_orestias = {
 			}
@@ -490,6 +490,25 @@ k_odrysia = {
 			b_bergoule5_bergoule = {
 			}
 			b_bergoule6_bergoule = {
+			}
+		}
+		c_bizye = {
+			color= { 74 133 168 }
+			color2= { 255 255 255 }
+			
+			b_bizye_bizye = {
+			}
+			b_bizye1_bizye = {
+			}
+			b_bizye2_bizye = {
+			}
+			b_bizye3_bizye = {
+			}
+			b_bizye4_bizye = {
+			}
+			b_bizye5_bizye = {
+			}
+			b_bizye6_bizye = {
 			}
 		}
 	}
@@ -589,7 +608,7 @@ k_odrysia = {
 			}
 			b_mesembria_maroneia = {
 			}
-			b_ainos_maroneia = {
+			b_maroneia1_maroneia = {
 			}
 		}
 		c_abdera = {
@@ -775,6 +794,25 @@ k_odrysia = {
 			b_pactya_thracian_chersonese = {
 			}
 			b_drabos_thracian_chersonese = {
+			}
+		}
+		c_ainos = {
+			color= { 113 114 124 }
+			color2= { 255 255 255 }			
+			
+			b_ainos_ainos = {
+			}
+			b_ainos1_ainos = {
+			}
+			b_ainos2_ainos = {
+			}
+			b_ainos3_ainos = {
+			}
+			b_ainos4_ainos = {
+			}
+			b_ainos5_ainos = {
+			}
+			b_ainos6_ainos = {
 			}
 		}
 	}
@@ -4374,7 +4412,7 @@ k_pannonia = {
 			
 			b_scarbantia_scarbantia = {
 			}
-			b_mursella_scarbantia = {
+			b_scarbantia1_scarbantia = {
 			}
 			b_muteno_scarbantia = {
 			}
@@ -4393,7 +4431,7 @@ k_pannonia = {
 			}
 			b_floriana_tricciana = {
 			}
-			b_brigetio_tricciana = {
+			b_tricciana1_tricciana = {
 			}
 			b_aquincum_tricciana = {
 			}
@@ -4430,9 +4468,47 @@ k_pannonia = {
 			
 			b_mursa_mursa = {
 			}
-			b_mursella_mursa = {
+			b_mursa1_mursa = {
 			}
 			b_donatlanis_mursa = {
+			}
+		}
+		c_mursella = {
+			color= { 54 165 147 }
+			color2= { 255 255 255 }
+			
+			b_mursella_mursella = {
+			}
+			b_mursella1_mursella = {
+			}
+			b_mursella2_mursella = {
+			}
+			b_mursella3_mursella = {
+			}
+			b_mursella4_mursella = {
+			}
+			b_mursella5_mursella = {
+			}
+			b_mursella6_mursella = {
+			}
+		}
+		c_brigetio = {
+			color= { 77 132 165 }
+			color2= { 255 255 255 }
+			
+			b_brigetio_brigetio = {
+			}
+			b_brigetio1_brigetio = {
+			}
+			b_brigetio2_brigetio = {
+			}
+			b_brigetio3_brigetio = {
+			}
+			b_brigetio4_brigetio = {
+			}
+			b_brigetio5_brigetio = {
+			}
+			b_brigetio6_brigetio = {
 			}
 		}
 	}
@@ -4461,7 +4537,7 @@ k_pannonia = {
 			}
 			b_iuenna_virunum = {
 			}
-			b_teurnia_virunum = {
+			b_virunum1_virunum = {
 			}
 			b_santicum_virunum = {
 			}
@@ -4476,7 +4552,45 @@ k_pannonia = {
 			}
 			b_vetonianis_ovilava = {
 			}
-			b_lauriacum_ovilava = {
+			b_ovilava1_ovilava = {
+			}
+		}
+		c_vindobona = {
+			color= { 75 147 147 }
+			color2= { 255 255 255 }
+			
+			b_vindobona_vindobona = {
+			}
+			b_vindobona1_vindobona = {
+			}
+			b_vindobona2_vindobona = {
+			}
+			b_vindobona3_vindobona = {
+			}
+			b_vindobona4_vindobona = {
+			}
+			b_vindobona5_vindobona = {
+			}
+			b_vindobona6_vindobona = {
+			}
+		}
+		c_cetium = {
+			color= { 147 65 73 }
+			color2= { 255 255 255 }
+			
+			b_cetium_cetium = {
+			}
+			b_cetium1_cetium = {
+			}
+			b_cetium2_cetium = {
+			}
+			b_cetium3_cetium = {
+			}
+			b_cetium4_cetium = {
+			}
+			b_cetium5_cetium = {
+			}
+			b_cetium6_cetium = {
 			}
 		}
 	}

@@ -1,0 +1,20 @@
+# 1103 - Vindobona
+
+# County Title
+title = c_vindobona
+
+# Settlements
+max_settlements = 4
+b_vindobona_vindobona = tribal
+#b_vindobona1_vindobona = city
+b_vindobona2_vindobona = temple
+#b_vindobona3_vindobona = city
+#b_vindobona4_vindobona = castle
+#b_vindobona5_vindobona = city
+#b_vindobona6_vindobona = temple
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
