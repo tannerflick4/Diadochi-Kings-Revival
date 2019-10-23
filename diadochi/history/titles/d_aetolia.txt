@@ -13,9 +13,9 @@
 453.9.1 = {
 	liege = 0 # Lamian war
 }
-478.1.1 = {
+478.1.1 = { # 298 BC
 	holder = 22202 # Apollonaris, Made up
 }
-493.1.1 = {
+493.1.1 = { # 283 BC
 	holder = 22203 # Diodoros, Made up
 }
