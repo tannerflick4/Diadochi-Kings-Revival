@@ -6,9 +6,11 @@ title = c_chalkidiki # for example c_corinth
 # Settlements
 max_settlements = 5
 b_olynthos_chalkidiki = castle
-b_stageira_chalkidiki = city
-b_kalindoia_chalkidiki = castle
 b_anthemous_chalkidiki = castle
+b_strepsa_chalkidiki = city
+#b_kithas_chalkidiki = castle
+b_mekyberna_chalkidiki = temple
+b_spartolos_chalkidiki = city
 
 # Possible baronies: (Always add a # in front of a line with these!)
 # b_thessalonika_chalkidiki
@@ -21,11 +23,7 @@ religion = greek_main
 # Can be filled when things change around the province
 428.1.1 = { # 348 BC, Philip destroys Olynthus and Stageira
 	remove_settlement = b_olynthos_chalkidiki
-	remove_settlement = b_stageira_chalkidiki
-	capital = b_kalindoia_chalkidiki
-}
-436.1.1 = { # 340 BC, Stageira rebuilt
-	b_stageira_chalkidiki = city	
+	capital = b_anthemous_chalkidiki
 }
 461.1.1 = { # 315 BC, Cassander founds Thessalonika
 	b_thessalonika_chalkidiki = castle

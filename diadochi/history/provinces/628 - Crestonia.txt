@@ -7,8 +7,11 @@ title = c_crestonia
 max_settlements = 4
 b_herakleia_sintike_crestonia = castle
 b_berge_crestonia = castle
-b_sirra_crestonia = city
-b_skotoussa_crestonia = city
+#b_euporia_crestonia = city
+#b_arroios_crestonia = castle
+b_eidomene_crestonia = city
+b_bragylai_crestonia = temple
+#b_chalastra_crestonia = city
 
 # Misc
 culture = macedonian

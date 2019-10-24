@@ -5,12 +5,13 @@ title = c_crenides
 
 # Settlements
 max_settlements = 4
-b_crenides_crenides = castle
-b_tripolis_crenides = city
-b_domeros_crenides = city
-b_ciropolis_crenides = castle
-
-# b_philippi_crenides = castle
+b_skotoussa_crenides = castle
+b_sirra_crenides = city
+b_oldenoi_crenides = city
+b_tripolis_crenides = temple
+#b_hadrianopolis_crenides = castle
+#b_drabeskos_crenides = castle
+#b_ad_duodecimum_crenides = castle
 
 # Misc
 culture = thracian
@@ -18,10 +19,3 @@ religion = thracian_main
 
 # History
 # Can be filled when things change around the province
-420.1.1 = { # 356 BC, Philip founds Philippi
-	remove_settlement = b_crenides_crenides
-	b_philippi_crenides = castle
-	capital = b_philippi_crenides
-	culture = macedonian
-	religion = greek_main
-}

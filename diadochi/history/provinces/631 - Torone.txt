@@ -8,7 +8,10 @@ max_settlements = 4
 b_torone_torone = castle
 b_akanthos_torone = city
 b_dion_torone = temple
-b_singos_torone = city
+#b_singos_torone = city
+b_stageira_torone = city
+#b_kleonai_torone = city
+#b_arnai_torone = castle
 
 # Misc
 culture = ionian
@@ -16,3 +19,9 @@ religion = greek_main
 
 # History
 # Can be filled when things change around the province
+428.1.1 = { # 348 BC, Philip destroys Stageira
+	remove_settlement = b_stageira_torone
+}
+436.1.1 = { # 340 BC, Stageira rebuilt
+    b_stageira_torone = city	
+}

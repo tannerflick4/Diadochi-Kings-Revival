@@ -8,7 +8,10 @@ max_settlements = 4
 b_poteidaia_poteidaia = city
 b_mende_poteidaia = castle
 b_aphytis_poteidaia = city
-b_skione_poteidaia = castle
+#b_skione_poteidaia = castle
+#b_sane_poteidaia = city
+b_therambos_poteidaia = temple
+#b_aige_poteidaia = city
 
 # Misc
 culture = ionian

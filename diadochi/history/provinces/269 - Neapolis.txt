@@ -6,19 +6,22 @@ title = c_neapolis_samothrace
 # Settlements
 max_settlements = 4
 b_neapolis_neapolis_samothrace = castle
-b_neapolis1_neapolis_samothrace = city
-b_neapolis2_neapolis_samothrace = temple
-b_neapolis3_neapolis_samothrace = castle
-#b_neapolis4_neapolis_samothrace = city
-#b_neapolis5_neapolis_samothrace = temple
-#b_neapolis6_neapolis_samothrace = castle
+#b_krenides_neapolis_samothrace = city
+b_akontisma_neapolis_samothrace = temple
+b_pistyros_neapolis_samothrace = city
+#b_purdae_neapolis_samothrace = castle
+#b_oisyme_neapolis_samothrace = city
+#b_antisara_neapolis_samothrace = city
 
 # Misc
-culture = thracian
-religion = thracian_main
+culture = ionian
+religion = greek_main
 
 # History
-420.1.1 = {
+416.1.1 = { # 360 BC, Krenides is founded
+	b_krenides_neapolis_samothrace = city
+}
+420.1.1 = { # 356 BC, Philip founds Philippi
 	culture = macedonian
 	religion = greek_main
 }

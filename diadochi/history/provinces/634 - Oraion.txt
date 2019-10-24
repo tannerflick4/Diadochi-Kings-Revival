@@ -8,6 +8,9 @@ max_settlements = 3
 b_oraion_oraion = tribal
 #b_topeiros_oraion = castle
 #b_porsulae_oraion = city
+#b_anastasioupolis_oraion = city
+#b_kaliva_oraion = castle
+#b_linos_oraion = castle
 
 # Misc
 culture = thracian

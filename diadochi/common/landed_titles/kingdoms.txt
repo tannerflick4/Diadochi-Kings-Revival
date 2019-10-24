@@ -608,7 +608,13 @@ k_odrysia = {
 			}
 			b_mesembria_maroneia = {
 			}
-			b_maroneia1_maroneia = {
+			b_drys_maroneia = {
+			}
+			b_zone_maroneia = {
+			}
+			b_sale_maroneia = {
+			}
+			b_traianoupolis_maroneia = {
 			}
 		}
 		c_abdera = {
@@ -621,6 +627,10 @@ k_odrysia = {
 			}
 			b_dikaia_abdera = {
 			}
+			b_xantheia_abdera = {
+			}
+			b_stryme_abdera = {
+			}
 		}
 		c_oraion = {
 			color= { 105 55 30 }
@@ -631,7 +641,13 @@ k_odrysia = {
 			b_topeiros_oraion = {
 			}
 			b_porsulae_oraion = {
-			}			
+			}
+			b_anastasioupolis_oraion = {
+			}
+			b_kaliva_oraion = {
+			}
+			b_linos_oraion = {
+			}
 		}		
 		c_zervae = {
 			color= { 125 50 25 }
@@ -642,6 +658,12 @@ k_odrysia = {
 			b_plotinoupolis_zervae = {
 			}
 			b_dymae_zervae = {
+			}
+			b_hadrianoupolis_zervae = {
+			}
+			b_doriskos_zervae = {
+			}
+			b_armira_zervae = {
 			}
 		}
 	}
@@ -663,6 +685,12 @@ k_odrysia = {
 			}
 			b_argilos_amphipolis = {
 			}
+			b_myrkinos_amphipolis = {
+			}
+			b_pennana_amphipolis = {
+			}
+			b_phagres_amphipolis = {
+			}
 		}
 		c_thasos = {
 			color= { 115 35 55 }
@@ -678,16 +706,20 @@ k_odrysia = {
 		c_crenides = {
 			color= { 125 50 25 }
 			color2= { 255 255 255 }
-						
-			b_crenides_crenides = {
+
+			b_skotoussa_crenides = {
+			}
+			b_sirra_crenides = {
+			}
+			b_oldenoi_crenides = {
 			}
 			b_tripolis_crenides = {
 			}
-			b_domeros_crenides = {
+			b_hadrianopolis_crenides = {
 			}
-			b_ciropolis_crenides = {
-			}	
-			b_philippi_crenides = {
+			b_drabeskos_crenides = {
+			}
+			b_ad_duodecimum_crenides = {
 			}
 		}
 		c_neapolis_samothrace = {
@@ -696,17 +728,18 @@ k_odrysia = {
 						
 			b_neapolis_neapolis_samothrace = {
 			}
-			b_neapolis1_neapolis_samothrace = {
+			b_krenides_neapolis_samothrace = {
+				macedonian = PHILIPPI
 			}
-			b_neapolis2_neapolis_samothrace = {
+			b_akontisma_neapolis_samothrace = {
 			}
-			b_neapolis3_neapolis_samothrace = {
+			b_pistyros_neapolis_samothrace = {
 			}
-			b_neapolis4_neapolis_samothrace = {
+			b_purdae_neapolis_samothrace = {
 			}
-			b_neapolis5_neapolis_samothrace = {
+			b_oisyme_neapolis_samothrace = {
 			}
-			b_neapolis6_neapolis_samothrace = {
+			b_antisara_neapolis_samothrace = {
 			}
 		}
 		c_scaptobara = {
@@ -715,17 +748,17 @@ k_odrysia = {
 						
 			b_scaptobara_scaptobara = {
 			}
-			b_scaptobara1_scaptobara = {
+			b_sportela_scaptobara = {
 			}
-			b_scaptobara2_scaptobara = {
+			b_neine_scaptobara = {
 			}
-			b_scaptobara3_scaptobara = {
+			b_ciropolis_scaptobara = {
 			}
-			b_scaptobara4_scaptobara = {
+			b_germania_scaptobara = {
 			}
-			b_scaptobara5_scaptobara = {
+			b_debrene_scaptobara = {
 			}
-			b_scaptobara6_scaptobara = {
+			b_orbelos_scaptobara = {
 			}
 		}
 		c_pistoros = {
@@ -3944,9 +3977,11 @@ k_macedon = {
 			}
 			b_europos_pella = {
 			}
-			b_beroia_pella = {
-			}
 			b_allante_pella = {
+			}
+			b_ichnai_pella = {
+			}
+			b_kyrros_pella = {
 			}
 		}
 		c_pieria = {
@@ -3966,6 +4001,10 @@ k_macedon = {
 			}
 			b_pimpleia_pieria = {
 			}
+			b_berroia_pieria = {
+			}
+			b_aloros_pieria = {
+			}
 		}
 		c_crestonia = {
 			color= { 200 110 40 }
@@ -3975,9 +4014,15 @@ k_macedon = {
 			}
 			b_berge_crestonia = {
 			}
-			b_sirra_crestonia = {
+			b_euporia_crestonia = {
 			}
-			b_skotoussa_crestonia = {
+			b_arroios_crestonia = {
+			}
+			b_eidomene_crestonia = {
+			}
+			b_bragylai_crestonia = {
+			}
+			b_chalastra_crestonia = {
 			}
 		}
 	}
@@ -5353,12 +5398,16 @@ k_greece = {
 			color2= { 255 255 255 }
 			
 			b_olynthos_chalkidiki = {
-			}			
-			b_stageira_chalkidiki = {
-			}
-			b_kalindoia_chalkidiki = {
 			}
 			b_anthemous_chalkidiki = {
+			}
+			b_strepsa_chalkidiki = {
+			}
+			b_kithas_chalkidiki = {
+			}
+			b_mekyberna_chalkidiki = {
+			}
+			b_spartolos_chalkidiki = {
 			}
 			b_thessalonika_chalkidiki = {
 			}
@@ -5375,6 +5424,12 @@ k_greece = {
 			}
 			b_skione_poteidaia = {
 			}
+			b_sane_poteidaia = {
+			}
+			b_therambos_poteidaia = {
+			}
+			b_aige_poteidaia = {
+			}
 		}
 		c_torone = {
 			color= { 110 185 210 }
@@ -5387,6 +5442,12 @@ k_greece = {
 			b_dion_torone = {
 			}
 			b_singos_torone = {
+			}
+			b_stageira_torone = {
+			}
+			b_kleonai_torone = {
+			}
+			b_arnai_torone = {
 			}
 		}
 	}

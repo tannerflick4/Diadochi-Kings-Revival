@@ -4,10 +4,12 @@
 title = c_abdera # for example c_corinth
 
 # Settlements
-max_settlements = 3
+max_settlements = 4
 b_abdera_abdera = castle
 b_bergepolis_abdera = temple
 b_dikaia_abdera = city
+#b_xantheia_abdera = city
+#b_stryme_abdera = city
 
 # Misc
 culture = ionian
