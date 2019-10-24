@@ -1,0 +1,24 @@
+# 1097 - Savaria
+
+# County Title
+title = c_savaria
+
+# Settlements
+max_settlements = 4
+b_savaria_savaria = tribal
+b_savaria1_savaria = temple
+#b_savaria2_savaria = city
+#b_savaria3_savaria = castle
+#b_savaria4_savaria = temple
+#b_savaria5_savaria = city
+#b_savaria6_savaria = castle
+
+# Misc
+culture = illyrian
+religion = illyrian_main
+
+# History
+446.1.1 = { # 330 BC
+	culture = gaul
+	religion = celtic_main
+}

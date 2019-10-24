@@ -1,0 +1,20 @@
+# 1098 - Poetovio
+
+# County Title
+title = c_poetovio
+
+# Settlements
+max_settlements = 4
+b_poetovio_poetovio = tribal
+#b_poetovio1_poetovio = city
+#b_poetovio2_poetovio = temple
+#b_poetovio3_poetovio = city
+#b_poetovio4_poetovio = castle
+#b_poetovio5_poetovio = city
+#b_poetovio6_poetovio = temple
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History

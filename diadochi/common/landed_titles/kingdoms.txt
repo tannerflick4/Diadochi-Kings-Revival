@@ -4425,13 +4425,13 @@ k_pannonia = {
 			
 			b_tricciana_tricciana = {
 			}
-			b_gorsium_tricciana = {
+			b_tricciana1_tricciana = {
 			}
 			b_lussomana_tricciana = {
 			}
 			b_floriana_tricciana = {
 			}
-			b_tricciana1_tricciana = {
+			b_tricciana2_tricciana = {
 			}
 			b_aquincum_tricciana = {
 			}
@@ -4455,7 +4455,7 @@ k_pannonia = {
 			
 			b_sala_sala = {
 			}
-			b_savaria_sala = {
+			b_sala1_sala = {
 			}
 			b_bassiana_sala = {
 			}
@@ -4509,6 +4509,82 @@ k_pannonia = {
 			b_brigetio5_brigetio = {
 			}
 			b_brigetio6_brigetio = {
+			}
+		}
+		c_savaria = {
+			color= { 63 29 76 }
+			color2= { 255 255 255 }
+			
+			b_savaria_savaria = {
+			}
+			b_savaria1_savaria = {
+			}
+			b_savaria2_savaria = {
+			}
+			b_savaria3_savaria = {
+			}
+			b_savaria4_savaria = {
+			}
+			b_savaria5_savaria = {
+			}
+			b_savaria6_savaria = {
+			}
+		}
+		c_mogentiana = {
+			color= { 126 58 165 }
+			color2= { 255 255 255 }
+			
+			b_mogentiana_mogentiana = {
+			}
+			b_mogentiana1_mogentiana = {
+			}
+			b_mogentiana2_mogentiana = {
+			}
+			b_mogentiana3_mogentiana = {
+			}
+			b_mogentiana4_mogentiana = {
+			}
+			b_mogentiana5_mogentiana = {
+			}
+			b_mogentiana6_mogentiana = {
+			}
+		}
+		c_gorsium = {
+			color= { 107 109 39 }
+			color2= { 255 255 255 }
+			
+			b_gorsium_gorsium = {
+			}
+			b_gorsium1_gorsium = {
+			}
+			b_gorsium2_gorsium = {
+			}
+			b_gorsium3_gorsium = {
+			}
+			b_gorsium4_gorsium = {
+			}
+			b_gorsium5_gorsium = {
+			}
+			b_gorsium6_gorsium = {
+			}
+		}
+		c_aquincum = {
+			color= { 112 41 76 }
+			color2= { 255 255 255 }
+			
+			b_aquincum_aquincum = {
+			}
+			b_aquincum1_aquincum = {
+			}
+			b_aquincum2_aquincum = {
+			}
+			b_aquincum3_aquincum = {
+			}
+			b_aquincum4_aquincum = {
+			}
+			b_aquincum5_aquincum = {
+			}
+			b_aquincum6_aquincum = {
 			}
 		}
 	}
@@ -4629,6 +4705,25 @@ k_pannonia = {
 			b_teurnia5_teurnia = {
 			}
 			b_teurnia6_teurnia = {
+			}
+		}
+		c_poetovio = {
+			color= { 76 67 66 }
+			color2= { 255 255 255 }
+			
+			b_poetovio_poetovio = {
+			}
+			b_poetovio1_poetovio = {
+			}
+			b_poetovio2_poetovio = {
+			}
+			b_poetovio3_poetovio = {
+			}
+			b_poetovio4_poetovio = {
+			}
+			b_poetovio5_poetovio = {
+			}
+			b_poetovio6_poetovio = {
 			}
 		}
 	}

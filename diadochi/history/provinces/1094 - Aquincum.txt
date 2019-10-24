@@ -1,0 +1,24 @@
+# 1094 - Aquincum
+
+# County Title
+title = c_aquincum
+
+# Settlements
+max_settlements = 6
+b_aquincum_aquincum = tribal
+b_aquincum1_aquincum = temple
+#b_aquincum2_aquincum = city
+#b_aquincum3_aquincum = castle
+#b_aquincum4_aquincum = temple
+#b_aquincum5_aquincum = city
+#b_aquincum6_aquincum = castle
+
+# Misc
+culture = illyrian
+religion = illyrian_main
+
+# History
+446.1.1 = { # 330 BC
+	culture = gaul
+	religion = celtic_main
+}
