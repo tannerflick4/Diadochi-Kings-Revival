@@ -61,7 +61,9 @@
 	dynasty = 9 # Argeadai
 	religion = greek_main
 	culture = macedonian
-	father =  804 # Amyntas III
+
+	father = 804 # Amyntas III
+	mother = 3504 # Eurydike
 		
 	add_trait = quick
 	add_trait = brilliant_strategist
@@ -95,6 +97,9 @@
 	364.1.1 = { # 412 BC Made up
 		birth="yes"
 	}
+	385.1.1 = { # 391 BC Made up
+		add_spouse = 3504 # Eurydike
+	}
 	406.1.1 = { # 370 BC
 		death="yes"
 	}
@@ -104,7 +109,10 @@
 	dynasty = 9 # Argeadai
 	religion = greek_main
 	culture = macedonian
+
 	father = 804 # Amyntas III
+	mother = 3504 # Eurydike
+
 	389.1.1 = { # 387 BC Made up
 		birth="yes"
 	}
@@ -119,7 +127,9 @@
 	dynasty = 9 # Argeadai
 	religion = greek_main
 	culture = macedonian
+
 	father = 804 # Amyntas III
+	mother = 3504 # Eurydike
 	
 	add_trait = misguided_warrior
 	
@@ -137,7 +147,9 @@
 	dynasty = 9 # Argeadai
 	religion = greek_main
 	culture = macedonian
+
 	father = 806 # Perdiccas III
+
 	411.1.1 = { # 365 BC
 		birth="yes"
 	}
@@ -153,7 +165,7 @@
 	dynasty = 9 # Argeadai
 	religion = greek_main
 	culture = macedonian
-	#employer = 801 # Philip III
+
 	father = 802 # Alexander the Great
 	mother = 100001 # Roxane
 	
@@ -178,8 +190,10 @@
 	culture = macedonian
 	employer = 801 # Philip III
 	female = yes
+
 	father = 803 # Philip II
 	mother = 10011
+
 	419.1.1 = { # 357 BC
 		birth="yes"
 	}
@@ -202,7 +216,9 @@
 	religion = greek_main
 	culture = macedonian
 	female = yes
+
 	father = 803 # Philip II
+	
 	424.1.1 = {
 		birth="yes" # 352 BC
 	}

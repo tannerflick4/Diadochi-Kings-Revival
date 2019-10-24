@@ -35,6 +35,13 @@
 	holder = 402 # Demetrius
 	liege = e_asia
 }
-493.1.1 = {
-	holder = 408 # Antigonos Gonatas
+475.1.1 = { # 301 BC
+	holder = 22201 # Eutychios of the Aetolian league
+	liege = d_aetolia
+}
+478.1.1 = { # 298 BC
+	holder = 22202 # Apollonaris, Made up
+}
+493.1.1 = { # 283 BC
+	holder = 22203 # Diodoros, Made up
 }

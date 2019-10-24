@@ -1,26 +1,11 @@
-370.1.1 = { # 406 BC
-	holder = 30401 # Lykophron
-}
-386.1.1 = { # 390 BC
-	holder = 30402 # Jason
-}
 402.1.1 = { # 374 BC
 	liege = d_thessaly
 }
 406.1.1 = { # 370 BC
-	holder = 30403 # Polydoros
+	liege = 0
 }
-407.1.1 = { # 371 BC
-	holder = 30405 # Polyphron
-}
-407.2.1 = { # 371 BC
-	holder = 30406 # Alexandros
-}
-418.1.1 = { # 358 BC
-	holder = 30407 # Tisiphonos
-}
-421.1.1 = { # 355 BC
- 	holder = 30409 # Lykophron
+415.1.1 = {
+	holder = 30501
 }
 424.1.1 = { # 352 BC
 	holder = 30501 # Thrasydaios of the Aleuadai
@@ -49,10 +34,28 @@
 	holder = 2 # Kassandros
 	liege = k_macedon
 }
-473.8.1 = {
-	holder = 402 # Demetrius
+479.1.1 = {
+	holder = 12 # Philippos IV
+}
+479.4.1 = {
+	holder = 14 # Alexandros V
+}
+482.1.1 = {
+	holder = 402 # Demetrios
 	liege = e_asia
 }
-493.1.1 = {
-	holder = 408 # Antigonos Gonatas
+488.1.1 = {
+	holder = 10010 # Pyrrhus
+	liege = k_epirus
+}
+488.7.1 = {
+	holder = 30001 # Lysimachus
+	liege = k_odrysia
+}
+495.2.1 = {
+	holder = 603 # Arsinoe II
+	liege = k_macedon
+}
+495.8.1 = {
+	holder = 604 # Ptolemaios Keraunos
 }

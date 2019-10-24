@@ -1,19 +1,58 @@
-412.1.1 = { # 364 BC
-	holder = 24401 # Malidai
+370.1.1 = { # 406 BC
+	holder = 30401 # Lykophron
 }
-438.8.2 = { # 338 BC, Battle of Chaeronea
-	holder = 24403 # Malidai
+386.1.1 = { # 390 BC
+	holder = 30402 # Jason
+}
+402.1.1 = { # 374 BC
+	liege = d_thessaly
+}
+406.1.1 = { # 370 BC
+	holder = 30403 # Polydoros
+}
+407.1.1 = { # 371 BC
+	holder = 30405 # Polyphron
+}
+407.2.1 = { # 371 BC
+	holder = 30406 # Alexandros
+}
+418.1.1 = { # 358 BC
+	holder = 30407 # Tisiphonos
+}
+421.1.1 = { # 355 BC
+ 	holder = 30409 # Lykophron
+}
+424.1.1 = { # 352 BC
+	holder = 30501 # Thrasydaios of the Aleuadai
+	liege = k_macedon
+}
+426.1.1 = {
 	liege = e_macedonia
 }
-453.6.10 = { # 323 BC
+434.1.1 = {
+	holder = 30301 # Menon of Pharsalus
+}
+453.6.10 = {
 	liege = k_s_macedon
 }
-459.9.1 = { # 317 BC
+453.9.1 = {
+	liege = 0 # Lamian war
+}
+455.1.1 = {
+	holder = 1 # Antipater
+	liege = k_s_macedon
+}
+457.1.1 = {
+	holder = 1601 # Polyperchon
+}
+459.10.1 = {
+	holder = 2 # Kassandros
 	liege = k_macedon
 }
 473.8.1 = {
+	holder = 402 # Demetrius
 	liege = e_asia
 }
-492.1.1 = { # 284 BC
-	holder = 24404 # Malidai
+493.1.1 = {
+	holder = 408 # Antigonos Gonatas
 }

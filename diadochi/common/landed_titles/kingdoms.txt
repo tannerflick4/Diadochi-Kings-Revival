@@ -3989,13 +3989,21 @@ k_macedon = {
 			color= { 200 100 25 }
 			color2= { 255 255 255 }
 			
-			b_heracleia_lyncestis = {
+			b_lyncestis_lyncestis = {
 			}
-			b_lychnidos_lyncestis = {
+			b_heracleia_lyncestis = {
 			}
 			b_stuberra_lyncestis = {
 			}
-			b_pelagonia_lyncestis = {
+			b_pylon_lyncestis = {
+			}
+			b_melitonus_lyncestis = {
+			}
+			b_bryanion_lyncestis = {
+			}
+			b_alkomena_lyncestis = {
+			}
+			b_scirtiana_lyncestis = {
 			}
 		}
 		c_pyli = {
@@ -4004,9 +4012,17 @@ k_macedon = {
 			
 			b_aiane_pyli = {
 			}
-			b_keletron_pyli = {
-			}
 			b_eratyra_pyli = {
+			}
+			b_arnisa_pyli = {
+			}
+			b_grande_pyli = {
+			}
+			b_cellae_pyli = {
+			}
+			b_bokeria_pyli = {
+			}
+			b_elimea_pyli = {
 			}
 		}
 		c_orestis = {
@@ -4015,17 +4031,15 @@ k_macedon = {
 			
 			b_orestis_orestis = {
 			}
-			b_orestis1_orestis = {
+			b_argos_orestikon_orestis = {
 			}
-			b_orestis2_orestis = {
+			b_battyna_orestis = {
 			}
-			b_orestis3_orestis = {
+			b_aiginion_orestis = {
 			}
-			b_orestis4_orestis = {
+			b_phaloreia_orestis = {
 			}
-			b_orestis5_orestis = {
-			}
-			b_orestis6_orestis = {
+			b_keletron_orestis = {
 			}
 		}
 	}
@@ -4462,6 +4476,17 @@ k_pannonia = {
 			b_mestrianis_sala = {
 			}
 		}
+		c_mursa = {
+			color= { 40 185 100 }
+			color2= { 255 255 255 }
+			
+			b_mursa_mursa = {
+			}
+			b_mursa1_mursa = {
+			}
+			b_donatlanis_mursa = {
+			}
+		}
 		c_mursella = {
 			color= { 54 165 147 }
 			color2= { 255 255 255 }
@@ -4851,13 +4876,21 @@ k_greece = {
 
 			holy_site = greek_main
 
-			b_kythinion_delphi = {
+			b_elateia_delphi = {
 			}
-			b_delphi_delphi = { # Oracle of Delphi
+			b_amphikleia_delphi = {
 			}
-			b_pindos_delphi = {
+			b_delphi_delpi = { # Oracle of Delphi
+			}
+			b_lilaia_delphi = {
+			}
+			b_tithorea_delphi = {
 			}
 			b_antikyra_delphi = {
+			}
+			b_ambrossos_delphi = {
+			}
+			b_medeon_delphi = {
 			}
 		}
 	}
@@ -4868,12 +4901,20 @@ k_greece = {
 		c_trachis = {
 			color= { 100 215 215 }
 			color2= { 255 255 255 }
-			
-			b_trachis_trachis = {
+
+			b_amphissa_trachis = {
+			}
+			b_naupactus_trachis = {
 			}
 			b_chaleion_trachis = {
 			}
-			b_naupactus_trachis = {
+			b_apollo_nasiotas_trachis = {
+			}
+			b_krokyleion_trachis = {
+			}
+			b_phalika_trachis = {
+			}
+			b_phaistinos_trachis = {
 			}
 		}		
 		c_thermos = {
@@ -4911,20 +4952,20 @@ k_greece = {
 		c_malis = {
 			color= { 56 49 58 }
 			color2= { 255 255 255 }
-		
-			b_malis_malis = {
+			
+			b_daphnous_malis = {
 			}
-			b_malis1_malis = {
+			b_herakleia_malis = {
 			}
-			b_malis2_malis = {
+			b_lamia_malis = {
 			}
-			b_malis3_malis = {
+			b_larissa_kremaste_malis = {
 			}
-			b_malis4_malis = {
+			b_kallidromon_malis = {
 			}
-			b_malis5_malis = {
+			b_phalara_malis = {
 			}
-			b_malis6_malis = {
+			b_hypate_malis = {
 			}
 		}
 		c_cephalonia = {
@@ -5107,6 +5148,10 @@ k_greece = {
 			}
 			b_gonnoi_larissa = {
 			}
+			b_malloia_larissa = {
+			}
+			b_mopsion_larissa = {
+			}
 		}
 		c_trikka = {			
 			color= { 100 210 210 }
@@ -5114,11 +5159,17 @@ k_greece = {
 			
 			b_trikka_trikka = {
 			}
-			b_kierion_trikka = {
+			b_oichalia_trikka = {
 			}
-			b_athena_itonia_trikka = {
+			b_gomphoi_trikka = {
 			}
-			b_ithome_trikka = {
+			b_ereikinion_trikka = {
+			}
+			b_pialeia_trikka = {
+			}
+			b_pelinna_trikka = {
+			}
+			b_phayttos_trikka = {
 			}
 		}
 		c_magnesia = {
@@ -5133,7 +5184,11 @@ k_greece = {
 			}
 			b_rhizous_magnesia = {
 			}
-			b_demetrias_magnesia = {
+			b_sykyrion_magnesia = {
+			}
+			b_zeus_akraios_magnesia = {
+			}
+			b_spalauthra_magnesia = {
 			}
 		}
 		c_pharsalus = {
@@ -5142,17 +5197,17 @@ k_greece = {
 		
 			b_pharsalus_pharsalus = {
 			}
-			b_pharsalus1_pharsalus = {
+			b_kierion_pharsalus = {
 			}
-			b_pharsalus2_pharsalus = {
+			b_methylion_pharsalus = {
 			}
-			b_pharsalus3_pharsalus = {
+			b_ekkara_pharsalus = {
 			}
-			b_pharsalus4_pharsalus = {
+			b_thaumakoi_pharsalus = {
 			}
-			b_pharsalus5_pharsalus = {
+			b_proerna_pharsalus = {
 			}
-			b_pharsalus6_pharsalus = {
+			b_ithome_pharsalus = {
 			}
 		}
 	}

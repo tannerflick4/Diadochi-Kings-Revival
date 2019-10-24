@@ -89,10 +89,14 @@ b_orchomenos_thebes;Orchomenos;;;;;;;;;;;;;;x
 b_chaironeia_thebes;Chaironeia;;;;;;;;;;;;;;x
 b_thisbe_thebes;Thisbe;;;;;;;;;;;;;;x
 b_plataea_thebes;Plataia;;;;;;;;;;;;;;x
-b_kythinion_delphi;Kythinion;;;;;;;;;;;;;;x
-b_delphi_delphi;Delphi;;;;;;;;;;;;;;x
-b_pindos_delphi;Pindos;;;;;;;;;;;;;;x
+b_elateia_delphi;Elateia;;;;;;;;;;;;;;x
+b_amphikleia_delphi;Amphikleia;;;;;;;;;;;;;;x
+b_delphi_delpi;Delphi;;;;;;;;;;;;;;x
+b_lilaia_delphi;Lilaia;;;;;;;;;;;;;;x
+b_tithorea_delphi;Tithoreia;;;;;;;;;;;;;;x
 b_antikyra_delphi;Antikyra;;;;;;;;;;;;;;x
+b_ambrossos_delphi;Ambrossos;;;;;;;;;;;;;;x
+b_medeon_delphi;Medeon;;;;;;;;;;;;;;x
 b_acrocorinth_corinth;Akrokorinthos;;;;;;;;;;;;;;x
 b_isthmia_corinth;Isthmia;;;;;;;;;;;;;;x
 b_corinth_corinth;Korinthos;;;;;;;;;;;;;;x
@@ -172,6 +176,8 @@ b_olooson_larissa;Oloosson;;;;;;;;;;;;;;x
 b_atrax_larissa;Atrax;;;;;;;;;;;;;;x
 b_krannon_larissa;Krannon;;;;;;;;;;;;;;x
 b_gonnoi_larissa;Gonnoi;;;;;;;;;;;;;;x
+b_malloia_larissa;Malloia;;;;;;;;;;;;;;x
+b_mopsion_larissa;Mopsion;;;;;;;;;;;;;;x
 b_pella_pella;Pella;;;;;;;;;;;;;;x
 b_gortynia_pella;Gortynia;;;;;;;;;;;;;;x
 b_pydna_pella;Pydna;;;;;;;;;;;;;;x
@@ -263,9 +269,12 @@ b_phara_stratus;Phara;;;;;;;;;;;;;;x
 b_leucas_stratus;Leucas;;;;;;;;;;;;;;x
 b_tyrrheion_stratus;Tyrrheion;;;;;;;;;;;;;;x
 b_oiniadai_stratus;Oiniadai;;;;;;;;;;;;;;x
-b_keletron_orestis;Keletron;;;;;;;;;;;;;;x
+b_orestis_orestis;Orestis;;;;;;;;;;;;;;x
+b_argos_orestikon_orestis;Argos Orestikon;;;;;;;;;;;;;;x
 b_battyna_orestis;Battyna;;;;;;;;;;;;;;x
-b_agyros_orestis;Agyros;;;;;;;;;;;;;;x
+b_aiginion_orestis;Aiginion;;;;;;;;;;;;;;x
+b_phaloreia_orestis;Phaloreia;;;;;;;;;;;;;;x
+b_keletron_orestis;Keletron;;;;;;;;;;;;;;x
 b_pyli_pyli;Pyle;;;;;;;;;;;;;;x
 b_aiginion_pyli;Aiginion;;;;;;;;;;;;;;x
 b_phaloreia_pyli;Phaloreia;;;;;;;;;;;;;;x
@@ -1583,6 +1592,9 @@ b_cibalae_cibalae;Cibalae;;;;;;;;;;;;;x;
 b_comacum_cibalae;Comacum;;;;;;;;;;;;;x;
 b_causilena_cibalae;Causilena;;;;;;;;;;;;;x;
 b_cuccium_cibalae;Cuccium;;;;;;;;;;;;;x;
+b_mursa_mursa;Mursa;;;;;;;;;;;;;x;
+b_mursa1_mursa;Mursa;;;;;;;;;;;;;x;
+b_donatlanis_mursa;Donatlanis;;;;;;;;;;;;;x;
 b_malvesa_malvesa;Malvesa;;;;;;;;;;;;;x;
 b_domavium_malvesa;Domavium;;;;;;;;;;;;;x;
 b_salinae_malvesa;Salinae;;;;;;;;;;;;;x;
@@ -2246,22 +2258,35 @@ b_karsabaga_karsabaga;Karsabaga;;;;;;;;;;;;;x;
 b_ugrakati_ugrakati;Ugrakati;;;;;;;;;;;;;x;
 b_bratavadasz_ugrakati;Bratavadasz;;;;;;;;;;;;;x;
 b_aiane_pyli;Aiane;;;;;;;;;;;;;x;
-b_keletron_pyli;Keletron;;;;;;;;;;;;;x;
 b_eratyra_pyli;Eratyra;;;;;;;;;;;;;x;
-b_heracleia_lyncestis;Heracleia Lynkestis;;;;;;;;;;;;;x;
-b_lychnidos_lyncestis;Lychnidos;;;;;;;;;;;;;x;
+b_arnisa_pyli;Arnisa;;;;;;;;;;;;;x;
+b_grande_pyli;Grande;;;;;;;;;;;;;x;
+b_cellae_pyli;Kellai;;;;;;;;;;;;;x;
+b_bokeria_pyli;Bokeria;;;;;;;;;;;;;x;
+b_elimea_pyli;Elimeia;;;;;;;;;;;;;x;
+b_lyncestis_lyncestis;Lynkestis;;;;;;;;;;;;;x;
+b_heracleia_lyncestis;Herakleia Lynkestis;;;;;;;;;;;;;x;
 b_stuberra_lyncestis;Stuberra;;;;;;;;;;;;;x;
-b_pelagonia_lyncestis;Pelagonia;;;;;;;;;;;;;x;
+b_pylon_lyncestis;Pylon;;;;;;;;;;;;;x;
+b_melitonus_lyncestis;Melitonous;;;;;;;;;;;;;x;
+b_bryanion_lyncestis;Bryanion;;;;;;;;;;;;;x;
+b_alkomena_lyncestis;Alkomena;;;;;;;;;;;;;x;
+b_scirtiana_lyncestis;Skirtiana;;;;;;;;;;;;;x;
 b_iton_lamia;Iton;;;;;;;;;;;;;x;
 b_trikka_trikka;Trikka;;;;;;;;;;;;;x;
-b_kierion_trikka;Kierion;;;;;;;;;;;;;x;
-b_athena_itonia_trikka;Atheneia Itonia;;;;;;;;;;;;;x;
-b_ithome_trikka;Ithome;;;;;;;;;;;;;x;
+b_oichalia_trikka;Oichalia;;;;;;;;;;;;;x;
+b_gomphoi_trikka;Gomphoi;;;;;;;;;;;;;x;
+b_ereikinion_trikka;Ereikinion;;;;;;;;;;;;;x;
+b_pialeia_trikka;Pialeia;;;;;;;;;;;;;x;
+b_pelinna_trikka;Pelinna;;;;;;;;;;;;;x;
+b_phayttos_trikka;Phayttos;;;;;;;;;;;;;x;
 b_methone_magnesia;Methone;;;;;;;;;;;;;x;
 b_kasthaneia_magnesia;Kasthaneia;;;;;;;;;;;;;x;
 b_kourope_magnesia;Kourope;;;;;;;;;;;;;x;
 b_rhizous_magnesia;Rhizous;;;;;;;;;;;;;x;
-b_demetrias_magnesia;Demetrias;;;;;;;;;;;;;x;
+b_sykyrion_magnesia;Sykyrion;;;;;;;;;;;;;x;
+b_zeus_akraios_magnesia;Zeus Akraios;;;;;;;;;;;;;x;
+b_spalauthra_magnesia;Spalauthra;;;;;;;;;;;;;x;
 b_europos_pella;Europos;;;;;;;;;;;;;x;
 b_allante_pella;Allante;;;;;;;;;;;;;x;
 b_aigai_pieria;Aigai;;;;;;;;;;;;;x;
@@ -2273,9 +2298,13 @@ b_herakleia_sintike_crestonia;Herakleia  Sintike;;;;;;;;;;;;;x;
 b_berge_crestonia;Berge;;;;;;;;;;;;;x;
 b_sirra_crestonia;Sirra;;;;;;;;;;;;;x;
 b_skotoussa_crestonia;Skotoussa;;;;;;;;;;;;;x;
-b_trachis_trachis;Trachis;;;;;;;;;;;;;x;
-b_chaleion_trachis;Chaleion;;;;;;;;;;;;;x;
+b_amphissa_trachis;Amphissa;;;;;;;;;;;;;x;
 b_naupactus_trachis;Naupaktos;;;;;;;;;;;;;x;
+b_chaleion_trachis;Chaleion;;;;;;;;;;;;;x;
+b_apollo_nasiotas_trachis;Apollo Nasiotas;;;;;;;;;;;;;x;
+b_krokyleion_trachis;Krokyleion;;;;;;;;;;;;;x;
+b_phalika_trachis;Phalika;;;;;;;;;;;;;x;
+b_phaistinos_trachis;Phaistinos;;;;;;;;;;;;;x;
 b_poteidaia_poteidaia;Poteidaia;;;;;;;;;;;;;x;
 b_mende_poteidaia;Mende;;;;;;;;;;;;;x;
 b_aphytis_poteidaia;Aphytis;;;;;;;;;;;;;x;
@@ -3400,13 +3429,13 @@ b_parapotamos_thesprotia;Parapotamos;;;;;;;;;;;x
 b_kestria_thesprotia;Kestria;;;;;;;;;;;x
 b_maiandia_thesprotia;Maiandia;;;;;;;;;;;x
 b_nekromanteion_thesprotia;Nekromanteion;;;;;;;;;;;x
-b_pharsalus_pharsalus;Pharsalus;;;;;;;;;;;x
-b_pharsalus1_pharsalus;Pharsalus;;;;;;;;;;;x
-b_pharsalus2_pharsalus;Pharsalus;;;;;;;;;;;x
-b_pharsalus3_pharsalus;Pharsalus;;;;;;;;;;;x
-b_pharsalus4_pharsalus;Pharsalus;;;;;;;;;;;x
-b_pharsalus5_pharsalus;Pharsalus;;;;;;;;;;;x
-b_pharsalus6_pharsalus;Pharsalus;;;;;;;;;;;x
+b_pharsalus_pharsalus;Pharsalos;;;;;;;;;;;x
+b_kierion_pharsalus;Kierion;;;;;;;;;;;x
+b_methylion_pharsalus;Methylion;;;;;;;;;;;x
+b_ekkara_pharsalus;Ekkara;;;;;;;;;;;x
+b_thaumakoi_pharsalus;Thaumakoi;;;;;;;;;;;x
+b_proerna_pharsalus;Proerna;;;;;;;;;;;x
+b_ithome_pharsalus;Ithome;;;;;;;;;;;x
 b_bylazora_bylazora;Bylazora;;;;;;;;;;;x
 b_bylazora1_bylazora;Bylazora;;;;;;;;;;;x
 b_bylazora2_bylazora;Bylazora;;;;;;;;;;;x
@@ -3414,13 +3443,13 @@ b_bylazora3_bylazora;Bylazora;;;;;;;;;;;x
 b_bylazora4_bylazora;Bylazora;;;;;;;;;;;x
 b_bylazora5_bylazora;Bylazora;;;;;;;;;;;x
 b_bylazora6_bylazora;Bylazora;;;;;;;;;;;x
-b_malis_malis;Malis;;;;;;;;;;;x
-b_malis1_malis;Malis;;;;;;;;;;;x
-b_malis2_malis;Malis;;;;;;;;;;;x
-b_malis3_malis;Malis;;;;;;;;;;;x
-b_malis4_malis;Malis;;;;;;;;;;;x
-b_malis5_malis;Malis;;;;;;;;;;;x
-b_malis6_malis;Malis;;;;;;;;;;;x
+b_daphnous_malis;Daphnous;;;;;;;;;;;x
+b_herakleia_malis;Herakleia;;;;;;;;;;;x
+b_lamia_malis;Lamia;;;;;;;;;;;x
+b_larissa_kremaste_malis;Larissa Kremaste;;;;;;;;;;;x
+b_kallidromon_malis;Kallidromon;;;;;;;;;;;x
+b_phalara_malis;Phalara;;;;;;;;;;;x
+b_hypate_malis;Hypate;;;;;;;;;;;x
 b_amantia_amantia;Amantia;;;;;;;;;;;x
 b_aulon_amantia;Aulon;;;;;;;;;;;x
 b_palaeste_amantia;Palaiste;;;;;;;;;;;x

@@ -34,3 +34,4 @@
 	# 3201-3300 for the Epolemidai dynasty
 	# 3301-3400 for the Sosthenidai dynasty
 	# 3401-3500 for the Aphrodisioi dynasty
+	# 3501-3600 for the Lynkestai dynasty

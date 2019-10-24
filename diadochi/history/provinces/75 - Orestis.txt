@@ -5,13 +5,12 @@ title = c_orestis
 
 # Settlements
 max_settlements = 4
-b_orestis_orestis = castle
-b_orestis1_orestis = city
-b_orestis2_orestis = castle
-#b_orestis3_orestis = temple
-#b_orestis4_orestis = castle
-#b_orestis5_orestis = city
-#b_orestis6_orestis = castle
+b_orestis_orestis = tribal
+#b_argos_orestikon_orestis = castle
+#b_battyna_orestis = city
+#b_aiginion_orestis = castle
+#b_phaloreia_orestis = castle
+#b_keletron_orestis = city
 
 # Misc
 culture = macedonian

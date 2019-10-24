@@ -5,6 +5,8 @@
 	religion = greek_main
 	culture = macedonian
 	#employer = 801 # Philip III
+
+	father = 902
 	
 	add_trait = tough_soldier
 	add_trait = ambitious
@@ -24,5 +26,93 @@
 			death_reason = death_murder
 			killer = 1101 # Peithon
 		}
+	}
+}
+902 = {
+	name = "Orontes" # Father of Perdikkas
+	dynasty = 10 # Orestai
+	religion = greek_main
+	culture = macedonian
+
+	father = 904
+	
+	391.1.1 = { # 385 BC Made up
+		birth="yes"
+	}
+	447.1.1 = { # 329 BC Made up
+		death="yes"
+	}
+}
+903 = {
+	name = "Alketas" # Brother of Perdikkas
+	dynasty = 10 # Orestai
+	religion = greek_main
+	culture = macedonian
+
+	father = 902
+	
+	424.1.1 = { # 352 BC Made up
+		birth="yes"
+	}
+	456.1.1 = { # 320 BC
+		death="yes"
+	}
+}
+904 = {
+	name = "Antiochos" # Father of Orontes, Made up
+	dynasty = 10 # Orestai
+	religion = greek_main
+	culture = macedonian
+	
+	353.1.1 = { # 423 BC
+		birth="yes"
+	}
+	408.1.1 = { # 368 BC
+		death="yes"
+	}
+}
+905 = {
+	name = "Antiochos" # Fictional brother of Perdikkas, Made up
+	dynasty = 10 # Orestai
+	religion = greek_main
+	culture = macedonian
+
+	father = 902
+	
+	428.1.1 = { # 348 BC
+		birth="yes"
+	}
+	471.1.1 = { # 305 BC
+		death="yes"
+	}
+}
+906 = {
+	name = "Perdikkas" # Made up
+	dynasty = 10 # Orestai
+	religion = greek_main
+	culture = macedonian
+
+	father = 905
+	
+	457.1.1 = { # 319 BC
+		birth="yes"
+	}
+	508.1.1 = { # 268 BC
+		death="yes"
+	}
+}
+907 = {
+	name = "Orontes" # Made up
+	dynasty = 10 # Orestai
+	religion = greek_main
+	culture = macedonian
+
+	father = 906
+	
+	489.1.1 = { # 287 BC
+		birth="yes"
+	}
+	559.1.1 = { # 217 BC
+		death="yes"
 	}
 }

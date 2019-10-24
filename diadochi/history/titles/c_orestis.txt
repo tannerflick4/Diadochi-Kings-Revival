@@ -1,50 +1,42 @@
-417.1.1 = {
-	holder = 140003 # Bardyllis
+387.1.1 = { # 389 BC
+	holder = 904 # Antiochos of the Orestai
+}
+408.1.1 = { # 368 BC
+	holder = 902 # Orontes of the Orestai
+}
+417.1.1 = { # 359 BC, Bardyllis briefly takes over.
 	liege = d_dardania
 }
-418.1.1 = {
-	holder = 803  # Philip II
+418.1.1 = { # 358 BC, Philip defeats Bardyllis.
 	liege = k_macedon
 }
-426.1.1 = {
+426.1.1 = { # 350 BC
 	liege = e_macedonia
 }
-440.10.1 = {
-	holder = 802
+447.1.1 = { # 329 BC
+	holder = 905 # Antiochos of the Orestai
 }
-453.6.10 = {
-	holder = 1
+453.6.10 = { # 323 BC, Alexander dies.
 	liege = k_s_macedon
 }
-457.1.1 = {
-	holder = 1601 # Polyperchon
-}
-459.10.1 = {
-	holder = 2 # Kassandros
+459.10.1 = { # 317 BC, Cassander takes over.
 	liege = k_macedon
 }
-479.1.1 = {
-	holder = 12 # Philippos IV
+471.1.1 = { # 305 BC
+	holder = 906 # Perdikkas of the Orestai
 }
-479.4.1 = {
-	holder = 14 # Alexandros V
-}
-482.1.1 = {
-	holder = 402 # Demetrios
+482.1.1 = { # 294 BC, Demetrius takes over.
 	liege = e_asia
 }
-488.1.1 = {
-	holder = 10010 # Pyrrhus
+488.1.1 = { # 288 BC, Pyrrhus takes over.
 	liege = k_epirus
 }
-488.7.1 = {
-	holder = 30001 # Lysimachus
+488.7.1 = { # 288 BC, Lysimachus drives Pyrrhus out.
 	liege = k_odrysia
 }
-495.2.1 = {
-	holder = 603 # Arsinoe II
+495.2.1 = { # 281 BC, Lysimachus dies in battle.
 	liege = k_macedon
 }
-495.8.1 = {
-	holder = 604 # Ptolemaios Keraunos
+508.1.1 = { # 268 BC
+	holder = 907 # Orontes of the Orestai.
 }

@@ -10,6 +10,8 @@ b_olooson_larissa = city
 b_atrax_larissa = castle
 b_krannon_larissa = city
 b_gonnoi_larissa = temple
+#b_malloia_larissa = castle
+#b_mopsion_larissa = city
 
 # Misc
 culture = aeolian
