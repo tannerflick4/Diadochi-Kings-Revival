@@ -1,0 +1,20 @@
+# 1100 - Teurnia
+
+# County Title
+title = c_teurnia
+
+# Settlements
+max_settlements = 4
+b_teurnia_teurnia = tribal
+#b_teurnia1_teurnia = city
+#b_teurnia2_teurnia = temple
+#b_teurnia3_teurnia = city
+#b_teurnia4_teurnia = castle
+#b_teurnia5_teurnia = city
+#b_teurnia6_teurnia = temple
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History

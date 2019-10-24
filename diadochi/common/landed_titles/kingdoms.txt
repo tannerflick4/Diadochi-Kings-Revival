@@ -4593,6 +4593,44 @@ k_pannonia = {
 			b_cetium6_cetium = {
 			}
 		}
+		c_lauriacum = {
+			color= { 63 147 131 }
+			color2= { 255 255 255 }
+			
+			b_lauriacum_lauriacum = {
+			}
+			b_lauriacum1_lauriacum = {
+			}
+			b_lauriacum2_lauriacum = {
+			}
+			b_lauriacum3_lauriacum = {
+			}
+			b_lauriacum4_lauriacum = {
+			}
+			b_lauriacum5_lauriacum = {
+			}
+			b_lauriacum6_lauriacum = {
+			}
+		}
+		c_teurnia = {
+			color= { 132 65 147 }
+			color2= { 255 255 255 }
+			
+			b_teurnia_teurnia = {
+			}
+			b_teurnia1_teurnia = {
+			}
+			b_teurnia2_teurnia = {
+			}
+			b_teurnia3_teurnia = {
+			}
+			b_teurnia4_teurnia = {
+			}
+			b_teurnia5_teurnia = {
+			}
+			b_teurnia6_teurnia = {
+			}
+		}
 	}
 	d_segestica = {
 		color= { 50 175 100 }
@@ -5959,7 +5997,7 @@ k_cisalpine_gaul = {
 		
 			b_tergeste_veneti = {
 			}
-			b_pola_veneti = {
+			b_veneti_veneti = {
 			}
 			b_albona_veneti = {
 			}
@@ -6023,6 +6061,25 @@ k_cisalpine_gaul = {
 			b_ibligo_aguntum = {
 			}
 			b_osopus_aguntum = {
+			}
+		}
+		c_pola = {
+			color= { 58 76 71 }
+			color2= { 255 255 255 }
+			
+			b_pola_pola = {
+			}
+			b_pola1_pola = {
+			}
+			b_pola2_pola = {
+			}
+			b_pola3_pola = {
+			}
+			b_pola4_pola = {
+			}
+			b_pola5_pola = {
+			}
+			b_pola6_pola = {
 			}
 		}
 	}

@@ -6,7 +6,7 @@ title = c_veneti # for example c_corinth
 # Settlements
 max_settlements = 4
 b_tergeste_veneti = tribal
-#b_pola_veneti = city
+#b_veneti_veneti = city
 #b_albona_veneti = castle
 
 # Possible baronies: (Always add a # in front of a line with these!)

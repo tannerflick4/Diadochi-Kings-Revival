@@ -597,6 +597,8 @@ e_persia = {
 		parthian = Ariana
 		median = Ariana
 		arian = Ariana
+		
+		capital = 262 # Pura ?
 	
 		allow = {
 			culture_group = iranian
@@ -614,6 +616,8 @@ e_persia = {
 			parthian = Maka
 			median = Maka
 			arian = Maka
+			
+			capital = 262 # Pura
 			
 			c_pura = {
 				color= { 255 0 125 }
@@ -680,6 +684,8 @@ e_persia = {
 			parthian = Zranka
 			median = Zranka
 			arian = Zranka
+			
+			capital = 821 # Zranka
 		
 			c_carura = {
 				color= { 255 10 65 }
@@ -741,6 +747,8 @@ e_persia = {
 			parthian = Harauvatish
 			median = Harauvatish
 			arian = Harauvatish
+			
+			capital = 822 # Arachotoi
 		
 			c_tazora = {
 				color= { 255 15 110 }
@@ -782,7 +790,7 @@ e_persia = {
 			c_arachotoi = {
 				color= { 255 25 100 }
 				color2= { 255 255 255 }
-								
+				
 				b_arachotoi_arachotoi = {
 				}
 				b_parabeste_arachotoi = {
@@ -832,6 +840,8 @@ e_persia = {
 			parthian = Baxtrish
 			median = Baxtrish
 			arian = Baxtrish
+			
+			capital = 272 # Bactra
 		
 			c_bactra = {
 				color= { 175 0 50 }
@@ -890,6 +900,8 @@ e_persia = {
 			color= { 175 50 50 }
 			color2= { 255 255 255 }
 			
+			capital = 271 # Alexandria Bactria
+			
 			c_nisaea = {
 				color= { 175 50 50 }
 				color2= { 255 255 255 }
@@ -936,12 +948,13 @@ e_persia = {
 			parthian = Suguda
 			median = Suguda
 			arian = Suguda
+			
+			capital = 275 # Tarmita ?
 		
 			c_marakanda = {
 				color= { 165 15 50 }
 				color2= { 255 255 255 }
 			
-				
 				b_maracanda_marakanda = {
 				}
 				b_nautaca_marakanda = {
@@ -1014,6 +1027,8 @@ e_persia = {
 				color= { 200 0 50 }
 				color2= { 255 255 255 }
 				
+				capital = 815 # Artacoana
+				
 				b_artacoana_artacoana = {
 				}
 				b_cartana_artacoana = {
@@ -1080,6 +1095,8 @@ e_india = {
 			color = { 231 195 85 }
 			color2={ 255 255 255 }
 			
+			capital = 661 # Lankapuri
+			
 			c_lankapuri = {
 				color = { 231 195 85 }
 				color2={ 255 255 255 }
@@ -1125,6 +1142,8 @@ e_india = {
 			color = { 181 155 55 }
 			color2={ 255 255 255 }
 			
+			capital = 660 # Anuradhapura
+			
 			c_mahatitta = {
 				color = { 181 155 55 }
 				color2={ 255 255 255 }
@@ -1160,7 +1179,7 @@ e_india = {
 		color={ 200 25 65 }
 		color2={ 255 255 255 }
 		
-		capital = 666 # Madurai, THE NUMBER OF THE BEAST!!
+		capital = 666 # Madurai
 		
 		allow = {
 			or = {
@@ -1172,6 +1191,8 @@ e_india = {
 		d_dravida = {
 			color={ 140 65 65 }
 			color2={ 255 255 255 }
+			
+			capital = 675 # Kanchipura
 			
 			c_yashwantpur = {
 				color={ 140 65 65 }
@@ -1207,6 +1228,8 @@ e_india = {
 			color={ 180 80 130 }
 			color2={ 255 255 255 }
 			
+			capital = 674 # Podouke
+			
 			c_tennagora = {
 				color={ 180 80 130 }
 				color2={ 255 255 255 }
@@ -1233,6 +1256,8 @@ e_india = {
 		d_pandya = {
 			color={ 140 75 75 }
 			color2={ 255 255 255 }
+			
+			capital = 666 # Madurai
 			
 			c_kaverapuri = {
 				color={ 140 75 75 }
@@ -1272,6 +1297,8 @@ e_india = {
 			color={ 200 120 120 }
 			color2={ 255 255 255 }
 			
+			capital = 671 # Syanantapur
+			
 			c_kumari = {
 				color={ 200 120 120 }
 				color2={ 255 255 255 }
@@ -1309,6 +1336,8 @@ e_india = {
 		d_mushika = {
 			color={ 188 133 35 }
 			color2={ 255 255 255 }
+			
+			capital = 669 # Mahishapuri ?
 			
 			c_mahishapuri = {
 				color= { 140 200 100 }
@@ -1359,7 +1388,7 @@ e_india = {
 		capital = 682 # Taiakata
 		
 		allow = {
-			or = {
+			OR = {
 				culture_group = indian
 				culture_group = dravidian
 			}
@@ -1368,6 +1397,8 @@ e_india = {
 		d_tulunga = {
 			color={ 110 25 2 }
 			color2={ 255 255 255 }
+			
+			capital = 679 # Sauparnike ?
 			
 			c_saupamike = {
 				color={ 110 25 2 }
@@ -1391,6 +1422,8 @@ e_india = {
 		d_kishkindha = {
 			color={ 108 23 29 }
 			color2={ 255 255 255 }
+			
+			capital = 685 # Kishkindha
 			
 			c_kishkindha = {
 				color={ 108 23 29 }
