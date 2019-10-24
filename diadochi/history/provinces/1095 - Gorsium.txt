@@ -1,0 +1,24 @@
+# 1095 - Gorsium
+
+# County Title
+title = c_gorsium
+
+# Settlements
+max_settlements = 6
+b_gorsium_gorsium = tribal
+b_gorsium1_gorsium = temple
+#b_gorsium2_gorsium = city
+#b_gorsium3_gorsium = castle
+#b_gorsium4_gorsium = temple
+#b_gorsium5_gorsium = city
+#b_gorsium6_gorsium = castle
+
+# Misc
+culture = illyrian
+religion = illyrian_main
+
+# History
+446.1.1 = { # 330 BC
+	culture = gaul
+	religion = celtic_main
+}

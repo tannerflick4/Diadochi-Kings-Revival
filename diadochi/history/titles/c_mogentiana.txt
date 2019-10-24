@@ -1,0 +1,9 @@
+408.1.1 = { # 368
+	holder = 230403 # Eravisci
+}
+436.1.1 = { # 340
+	holder = 230402
+}
+443.1.1 = { # 333 BC
+	holder = 230401 # Donnotaurus of the Eravisci tribe
+}

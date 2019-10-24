@@ -1,0 +1,20 @@
+# 1102 - Lauriacum
+
+# County Title
+title = c_lauriacum
+
+# Settlements
+max_settlements = 4
+b_lauriacum_lauriacum = tribal
+#b_lauriacum1_lauriacum = city
+b_lauriacum2_lauriacum = temple
+#b_lauriacum3_lauriacum = city
+#b_lauriacum4_lauriacum = castle
+#b_lauriacum5_lauriacum = city
+#b_lauriacum6_lauriacum = temple
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History

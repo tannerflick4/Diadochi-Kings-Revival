@@ -4439,13 +4439,13 @@ k_pannonia = {
 			
 			b_tricciana_tricciana = {
 			}
-			b_gorsium_tricciana = {
+			b_tricciana1_tricciana = {
 			}
 			b_lussomana_tricciana = {
 			}
 			b_floriana_tricciana = {
 			}
-			b_tricciana1_tricciana = {
+			b_tricciana2_tricciana = {
 			}
 			b_aquincum_tricciana = {
 			}
@@ -4469,7 +4469,7 @@ k_pannonia = {
 			
 			b_sala_sala = {
 			}
-			b_savaria_sala = {
+			b_sala1_sala = {
 			}
 			b_bassiana_sala = {
 			}
@@ -4523,6 +4523,82 @@ k_pannonia = {
 			b_brigetio5_brigetio = {
 			}
 			b_brigetio6_brigetio = {
+			}
+		}
+		c_savaria = {
+			color= { 63 29 76 }
+			color2= { 255 255 255 }
+			
+			b_savaria_savaria = {
+			}
+			b_savaria1_savaria = {
+			}
+			b_savaria2_savaria = {
+			}
+			b_savaria3_savaria = {
+			}
+			b_savaria4_savaria = {
+			}
+			b_savaria5_savaria = {
+			}
+			b_savaria6_savaria = {
+			}
+		}
+		c_mogentiana = {
+			color= { 126 58 165 }
+			color2= { 255 255 255 }
+			
+			b_mogentiana_mogentiana = {
+			}
+			b_mogentiana1_mogentiana = {
+			}
+			b_mogentiana2_mogentiana = {
+			}
+			b_mogentiana3_mogentiana = {
+			}
+			b_mogentiana4_mogentiana = {
+			}
+			b_mogentiana5_mogentiana = {
+			}
+			b_mogentiana6_mogentiana = {
+			}
+		}
+		c_gorsium = {
+			color= { 107 109 39 }
+			color2= { 255 255 255 }
+			
+			b_gorsium_gorsium = {
+			}
+			b_gorsium1_gorsium = {
+			}
+			b_gorsium2_gorsium = {
+			}
+			b_gorsium3_gorsium = {
+			}
+			b_gorsium4_gorsium = {
+			}
+			b_gorsium5_gorsium = {
+			}
+			b_gorsium6_gorsium = {
+			}
+		}
+		c_aquincum = {
+			color= { 112 41 76 }
+			color2= { 255 255 255 }
+			
+			b_aquincum_aquincum = {
+			}
+			b_aquincum1_aquincum = {
+			}
+			b_aquincum2_aquincum = {
+			}
+			b_aquincum3_aquincum = {
+			}
+			b_aquincum4_aquincum = {
+			}
+			b_aquincum5_aquincum = {
+			}
+			b_aquincum6_aquincum = {
 			}
 		}
 	}
@@ -4605,6 +4681,63 @@ k_pannonia = {
 			b_cetium5_cetium = {
 			}
 			b_cetium6_cetium = {
+			}
+		}
+		c_lauriacum = {
+			color= { 63 147 131 }
+			color2= { 255 255 255 }
+			
+			b_lauriacum_lauriacum = {
+			}
+			b_lauriacum1_lauriacum = {
+			}
+			b_lauriacum2_lauriacum = {
+			}
+			b_lauriacum3_lauriacum = {
+			}
+			b_lauriacum4_lauriacum = {
+			}
+			b_lauriacum5_lauriacum = {
+			}
+			b_lauriacum6_lauriacum = {
+			}
+		}
+		c_teurnia = {
+			color= { 132 65 147 }
+			color2= { 255 255 255 }
+			
+			b_teurnia_teurnia = {
+			}
+			b_teurnia1_teurnia = {
+			}
+			b_teurnia2_teurnia = {
+			}
+			b_teurnia3_teurnia = {
+			}
+			b_teurnia4_teurnia = {
+			}
+			b_teurnia5_teurnia = {
+			}
+			b_teurnia6_teurnia = {
+			}
+		}
+		c_poetovio = {
+			color= { 76 67 66 }
+			color2= { 255 255 255 }
+			
+			b_poetovio_poetovio = {
+			}
+			b_poetovio1_poetovio = {
+			}
+			b_poetovio2_poetovio = {
+			}
+			b_poetovio3_poetovio = {
+			}
+			b_poetovio4_poetovio = {
+			}
+			b_poetovio5_poetovio = {
+			}
+			b_poetovio6_poetovio = {
 			}
 		}
 	}
@@ -6003,7 +6136,7 @@ k_cisalpine_gaul = {
 		
 			b_tergeste_veneti = {
 			}
-			b_pola_veneti = {
+			b_veneti_veneti = {
 			}
 			b_albona_veneti = {
 			}
@@ -6067,6 +6200,25 @@ k_cisalpine_gaul = {
 			b_ibligo_aguntum = {
 			}
 			b_osopus_aguntum = {
+			}
+		}
+		c_pola = {
+			color= { 58 76 71 }
+			color2= { 255 255 255 }
+			
+			b_pola_pola = {
+			}
+			b_pola1_pola = {
+			}
+			b_pola2_pola = {
+			}
+			b_pola3_pola = {
+			}
+			b_pola4_pola = {
+			}
+			b_pola5_pola = {
+			}
+			b_pola6_pola = {
 			}
 		}
 	}

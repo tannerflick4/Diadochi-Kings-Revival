@@ -1,0 +1,20 @@
+# 1099 - Pola
+
+# County Title
+title = c_pola
+
+# Settlements
+max_settlements = 4
+b_pola_pola = tribal
+#b_pola1_pola = city
+#b_pola2_pola = castle
+#b_pola3_pola = temple
+#b_pola4_pola = castle
+#b_pola5_pola = city
+#b_pola6_pola = castle
+
+# Misc
+culture = venetic
+religion = illyrian_main
+
+# History
