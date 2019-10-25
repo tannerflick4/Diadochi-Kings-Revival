@@ -1,0 +1,24 @@
+# 1003 - Serota
+
+# County Title
+title = c_serota
+
+# Settlements
+max_settlements = 5
+b_serota_serota = tribal
+#b_serota1_serota = city
+#b_serota2_serota = city
+#b_serota3_serota = castle
+#b_serota4_serota = city
+#b_serota5_serota = city
+#b_serota6_serota = castle
+
+# Misc
+culture = illyrian
+religion = illyrian_main
+
+# History
+476.1.1 = { # 300 BC
+	culture = gaul
+	religion = celtic_main
+}

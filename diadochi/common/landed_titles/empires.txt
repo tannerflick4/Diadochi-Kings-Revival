@@ -3210,13 +3210,19 @@ e_skudatpa = { # Scythia
 	color= { 225 150 0 }
 	color2= { 255 255 255 }
 	
+	capital = 481 # Katipa ?
+	
 	k_katipa = {
 		color= { 225 150 0 }
 		color2= { 255 255 255 }
 		
+		capital = 481 # Katipa ?
+		
 		d_katipa = {
 			color= { 225 150 0 }
 			color2= { 255 255 255 }
+			
+			capital = 481 # Katipa ?
 			
 			c_katipa = {
 				color= { 215 150 10 }
@@ -3272,6 +3278,8 @@ e_skudatpa = { # Scythia
 			color= { 225 175 0 }
 			color2= { 255 255 255 }
 			
+			capital = 478 # Bagaporata
+			
 			c_agaraskapa = {
 				color= { 215 165 0 }
 				color2= { 255 255 255 }				
@@ -3296,6 +3304,8 @@ e_skudatpa = { # Scythia
 		d_syavaporata = {
 			color= { 225 150 25 }
 			color2= { 255 255 255 }
+			
+			capital = 480 # Syavaporata
 			
 			c_madupa = {
 				color= { 215 150 15 }
@@ -3335,9 +3345,13 @@ e_skudatpa = { # Scythia
 		color= { 200 125 0 }
 		color2= { 255 255 255 }
 		
+		capital = 494 # Kissarlewle
+		
 		d_katipanti = {			
 			color= { 200 100 0 }
 			color2= { 255 255 255 }
+			
+			capital = 490 # Katipanti
 			
 			c_katipanti = {			
 				color= { 200 100 0 }
@@ -3371,7 +3385,9 @@ e_skudatpa = { # Scythia
 		}
 		d_kissarlewle = {			
 			color= { 200 125 0 }
-			color2= { 255 255 255 }			
+			color2= { 255 255 255 }
+
+			capital = 494 # Kissarlewle
 			
 			c_paraporatapanti = {				
 				color= { 210 125 10 }

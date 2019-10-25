@@ -4646,25 +4646,6 @@ k_pannonia = {
 			b_aquincum6_aquincum = {
 			}
 		}
-		c_iovia = {
-			color= { 13 38 112 }
-			color2= { 255 255 255 }
-			
-			b_iovia_iovia = {
-			}
-			b_iovia1_iovia = {
-			}
-			b_iovia2_iovia = {
-			}
-			b_iovia3_iovia = {
-			}
-			b_iovia4_iovia = {
-			}
-			b_iovia5_iovia = {
-			}
-			b_iovia6_iovia = {
-			}
-		}
 	}
 	d_noricum = {
 		color= { 50 200 75 }
@@ -4854,6 +4835,63 @@ k_pannonia = {
 			b_celeia5_celeia = {
 			}
 			b_celeia6_celeia = {
+			}
+		}
+		c_serota = {
+			color= { 68 71 117 }
+			color2= { 255 255 255 }
+			
+			b_serota_serota = {
+			}
+			b_serota1_serota = {
+			}
+			b_serota2_serota = {
+			}
+			b_serota3_serota = {
+			}
+			b_serota4_serota = {
+			}
+			b_serota5_serota = {
+			}
+			b_serota6_serota = {
+			}
+		}
+		c_neviodunum = {
+			color= { 64 114 79 }
+			color2= { 255 255 255 }
+			
+			b_neviodunum_neviodunum = {
+			}
+			b_neviodunum1_neviodunum = {
+			}
+			b_neviodunum2_neviodunum = {
+			}
+			b_neviodunum3_neviodunum = {
+			}
+			b_neviodunum4_neviodunum = {
+			}
+			b_neviodunum5_neviodunum = {
+			}
+			b_neviodunum6_neviodunum = {
+			}
+		}
+		c_iovia = {
+			color= { 13 38 112 }
+			color2= { 255 255 255 }
+			
+			b_iovia_iovia = {
+			}
+			b_iovia1_iovia = {
+			}
+			b_iovia2_iovia = {
+			}
+			b_iovia3_iovia = {
+			}
+			b_iovia4_iovia = {
+			}
+			b_iovia5_iovia = {
+			}
+			b_iovia6_iovia = {
 			}
 		}
 	}

@@ -1,0 +1,24 @@
+# 1000 - Neviodunum
+
+# County Title
+title = c_neviodunum
+
+# Settlements
+max_settlements = 5
+b_neviodunum_neviodunum = tribal
+#b_neviodunum1_neviodunum = city
+#b_neviodunum2_neviodunum = city
+#b_neviodunum3_neviodunum = castle
+#b_neviodunum4_neviodunum = city
+#b_neviodunum5_neviodunum = city
+#b_neviodunum6_neviodunum = castle
+
+# Misc
+culture = illyrian
+religion = illyrian_main
+
+# History
+476.1.1 = { # 300 BC
+	culture = gaul
+	religion = celtic_main
+}
