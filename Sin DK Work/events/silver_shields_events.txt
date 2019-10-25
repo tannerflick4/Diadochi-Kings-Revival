@@ -1,10 +1,9 @@
 namespace = silver_shields_events
-character_event = { #Choose your Method - Seizing
+character_event = { # Choose your Method - Seizing
 	id = silver_shields_events.1
 	desc = EVTDESCsilver_shields_events.1
 	picture = GFX_evt_large_army
 	border = GFX_event_normal_frame_war
-	is_triggered_only = yes
 
 	capable_only = yes
 	only_rulers = yes
@@ -19,20 +18,338 @@ character_event = { #Choose your Method - Seizing
 		years = 10
 	}
 
-	option = {
+	option = {# Bribe
 		name = EVTOPTAsilver_shields_events.1
+		trigger = {
+			wealth = 700
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.01
+				plot_target_char = {
+					owes_favor_to = ROOT
+				}
+			}
+		}
+		plot_target_char = {
+			character_event = {
+				id = silver_shields_events.11
+			}
+		}
 	}
 
-	option = {
+	option = {# Favor
 		name = EVTOPTBsilver_shields_events.1
+		trigger = {
+			owes_favor_to = ROOT
+		}
+		ai_chance = {
+			factor = 75
+		}
+		plot_target_char = {
+			character_event = {
+				id = silver_shields_events.12
+			}
+		}
 	}
 
-	option = {
+	option = {# Threaten
 		name = EVTOPTCsilver_shields_events.1
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				plot_target_char = {
+					owes_favor_to = ROOT
+				}
+			}
+		}
+		plot_target_char = {
+			character_event = {
+				id = silver_shields_events.13
+			}
+		}
 	}
 
 	option = {
 		name = EVTOPTDsilver_shields_events.1
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 2
+				plot_power < 0.9
+			}
+			modifier = {
+				factor = 1.2
+				plot_power < 1.0
+			}
+			modifier = {
+				factor = 0.1
+				plot_power > 1.0
+			}
+		}
+	}
+}
+character_event = { # Seizing Method - Bribe
+	id = silver_shields_events.11
+	desc = EVTDESCsilver_shields_events.11
+	picture = GFX_evt_large_army
+	border = GFX_event_normal_frame_war
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAsilver_shields_events.11
+		ai_chance = {
+			factor = 70
+		}
+		liege = {
+			save_event_target_as = prev_liege
+		}
+		set_defacto_liege = FROM
+		event_target:prev_liege = {
+			character_event = {
+				id = silver_shields_events.15
+			}
+		}
+		FROM = {
+			character_event = {
+				id = silver_shields_events.14
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTBsilver_shields_events.11
+		ai_chance = {
+			factor = 30
+		}
+		liege = {
+			character_event = {
+				id = silver_shields_events.15
+			}
+		}
+		FROM = {
+			character_event = {
+				id = silver_shields_events.14
+			}
+		}
+	}
+}
+character_event = { # Seizing Method - Favor
+	id = silver_shields_events.12
+	desc = EVTDESCsilver_shields_events.12
+	picture = GFX_evt_large_army
+	border = GFX_event_normal_frame_war
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAsilver_shields_events.12
+		ai_chance = {
+			factor = 90
+		}
+		liege = {
+			save_event_target_as = prev_liege
+		}
+		set_defacto_liege = FROM
+		event_target:prev_liege = {
+			character_event = {
+				id = silver_shields_events.15
+			}
+		}
+		FROM = {
+			character_event = {
+				id = silver_shields_events.14
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTBsilver_shields_events.12
+		ai_chance = {
+			factor = 10
+		}
+		liege = {
+			character_event = {
+				id = silver_shields_events.15
+			}
+		}
+		FROM = {
+			character_event = {
+				id = silver_shields_events.14
+			}
+		}
+	}
+}
+character_event = { # Seizing Method - Threaten
+	id = silver_shields_events.13
+	desc = EVTDESCsilver_shields_events.13
+	picture = GFX_evt_large_army
+	border = GFX_event_normal_frame_war
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAsilver_shields_events.13
+		ai_chance = {
+			factor = 50
+		}
+		liege = {
+			save_event_target_as = prev_liege
+		}
+		set_defacto_liege = FROM
+		event_target:prev_liege = {
+			character_event = {
+				id = silver_shields_events.15
+			}
+		}
+		FROM = {
+			character_event = {
+				id = silver_shields_events.14
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTBsilver_shields_events.13
+		ai_chance = {
+			factor = 50
+		}
+		liege = {
+			character_event = {
+				id = silver_shields_events.15
+			}
+		}
+		FROM = {
+			character_event = {
+				id = silver_shields_events.14
+			}
+		}
+	}
+}
+character_event = { # Seizing Results Informer
+	id = silver_shields_events.14
+	desc = {
+		text = EVTDESCsilver_shields_events.14a
+		trigger = {
+			any_vassal = {
+				has_landed_title = d_silver_shields
+			}
+		}
+	}
+	desc = {
+		text = EVTDESCsilver_shields_events.14b
+		trigger = {
+			NOT = {
+				any_vassal = {
+					has_landed_title = d_silver_shields
+				}
+			}
+		}
+	}
+	picture = GFX_evt_large_army
+	border = GFX_event_normal_frame_war
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAsilver_shields_events.14
+		trigger = {
+			any_vassal = {
+				has_landed_title = d_silver_shields
+			}
+		}
+		d_silver_shields = {
+			holder_scope = {
+				reverse_opinion = {
+					who = ROOT
+					modifier = opinion_very_grateful
+				}
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTBsilver_shields_events.14
+		trigger = {
+			NOT = {
+				any_vassal = {
+					has_landed_title = d_silver_shields
+				}
+			}
+		}
+		d_silver_shields = {
+			holder_scope = {
+				reverse_opinion = {
+					who = ROOT
+					modifier = opinion_betrayed
+				}
+			}
+		}
+	}
+}
+character_event = { # Seizing Results Informer
+	id = silver_shields_events.15
+	desc = {
+		text = EVTDESCsilver_shields_events.15a
+		trigger = {
+			any_vassal = {
+				has_landed_title = d_silver_shields
+			}
+		}
+	}
+	desc = {
+		text = EVTDESCsilver_shields_events.15b
+		trigger = {
+			NOT = {
+				any_vassal = {
+					has_landed_title = d_silver_shields
+				}
+			}
+		}
+	}
+	picture = GFX_evt_large_army
+	border = GFX_event_normal_frame_war
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAsilver_shields_events.15
+		trigger = {
+			any_vassal = {
+				has_landed_title = d_silver_shields
+			}
+		}
+		d_silver_shields = {
+			holder_scope = {
+				reverse_opinion = {
+					who = ROOT
+					modifier = opinion_very_grateful
+				}
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTBsilver_shields_events.15
+		trigger = {
+			NOT = {
+				any_vassal = {
+					has_landed_title = d_silver_shields
+				}
+			}
+		}
+		d_silver_shields = {
+			holder_scope = {
+				reverse_opinion = {
+					who = ROOT
+					modifier = opinion_betrayed
+				}
+			}
+		}
+		FROMFROM = {
+			reverse_opinion = {
+				who = ROOT
+				modifier = opinion_very_grateful
+			}
+		}
 	}
 }
 character_event = { #Choose your Method - Disbanding
@@ -40,7 +357,6 @@ character_event = { #Choose your Method - Disbanding
 	desc = EVTDESCsilver_shields_events.2
 	picture = GFX_evt_large_army
 	border = GFX_event_normal_frame_war
-	is_triggered_only = yes
 
 	capable_only = yes
 	only_rulers = yes
