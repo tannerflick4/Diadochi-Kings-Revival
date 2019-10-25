@@ -4492,7 +4492,7 @@ k_pannonia = {
 			}
 			b_tricciana2_tricciana = {
 			}
-			b_aquincum_tricciana = {
+			b_tricciana3_tricciana = {
 			}
 		}
 		c_sopianae = {
@@ -4505,7 +4505,7 @@ k_pannonia = {
 			}
 			b_alisca_sopianae = {
 			}
-			b_iovia_sopianae = {
+			b_sopianae1_sopianae = {
 			}
 		}
 		c_sala = {
@@ -4644,6 +4644,25 @@ k_pannonia = {
 			b_aquincum5_aquincum = {
 			}
 			b_aquincum6_aquincum = {
+			}
+		}
+		c_iovia = {
+			color= { 13 38 112 }
+			color2= { 255 255 255 }
+			
+			b_iovia_iovia = {
+			}
+			b_iovia1_iovia = {
+			}
+			b_iovia2_iovia = {
+			}
+			b_iovia3_iovia = {
+			}
+			b_iovia4_iovia = {
+			}
+			b_iovia5_iovia = {
+			}
+			b_iovia6_iovia = {
 			}
 		}
 	}
@@ -4816,6 +4835,25 @@ k_pannonia = {
 			b_varianae_segestica = {
 			}
 			b_balissae_segestica = {
+			}
+		}
+		c_celeia = {
+			color= { 107 35 112 }
+			color2= { 255 255 255 }
+			
+			b_celeia_celeia = {
+			}
+			b_celeia1_celeia = {
+			}
+			b_celeia2_celeia = {
+			}
+			b_celeia3_celeia = {
+			}
+			b_celeia4_celeia = {
+			}
+			b_celeia5_celeia = {
+			}
+			b_celeia6_celeia = {
 			}
 		}
 	}

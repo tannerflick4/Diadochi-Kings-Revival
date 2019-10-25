@@ -1,0 +1,24 @@
+# 1092 - Celeia
+
+# County Title
+title = c_celeia
+
+# Settlements
+max_settlements = 5
+b_celeia_celeia = tribal
+#b_celeia1_celeia = city
+#b_celeia2_celeia = city
+#b_celeia3_celeia = castle
+#b_celeia4_celeia = city
+#b_celeia5_celeia = city
+#b_celeia6_celeia = castle
+
+# Misc
+culture = illyrian
+religion = illyrian_main
+
+# History
+476.1.1 = { # 300 BC
+	culture = gaul
+	religion = celtic_main
+}

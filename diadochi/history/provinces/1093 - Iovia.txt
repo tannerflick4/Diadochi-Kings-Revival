@@ -1,0 +1,24 @@
+# 1093 - Iovia
+
+# County Title
+title = c_iovia
+
+# Settlements
+max_settlements = 4
+b_iovia_iovia = tribal
+b_iovia1_iovia = temple
+#b_iovia2_iovia = castle
+#b_iovia3_iovia = city
+#b_iovia4_iovia = castle
+#b_iovia5_iovia = temple
+#b_iovia6_iovia = castle
+
+# Misc
+culture = illyrian
+religion = illyrian_main
+
+# History
+476.1.1 = { # 300 BC
+	culture = gaul
+	religion = celtic_main
+}

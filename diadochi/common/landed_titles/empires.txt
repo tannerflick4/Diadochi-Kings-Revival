@@ -31,7 +31,7 @@ e_persia = {
 	capital = 253 # Pasargadae
 	
 	allow = {
-		or = {
+		OR = {
 			culture_group = iranian
 			culture = armenian
 		}
@@ -1072,7 +1072,7 @@ e_india = {
 	capital = 719 # Pataliputra
 	
 	allow = {
-		or = {
+		OR = {
 			culture_group = indian
 			culture_group = dravidian
 		}
@@ -1085,7 +1085,7 @@ e_india = {
 		capital = 660 # Anuradhapura
 		
 		allow = {
-			or = {
+			OR = {
 				culture_group = indian
 				culture_group = dravidian
 			}
@@ -1182,7 +1182,7 @@ e_india = {
 		capital = 666 # Madurai
 		
 		allow = {
-			or = {
+			OR = {
 				culture_group = indian
 				culture_group = dravidian
 			}
@@ -1473,11 +1473,11 @@ e_india = {
 			color={ 150 20 0 }
 			color2={ 255 255 255 }
 			
+			capital = 682 # Taiakata
+			
 			c_taiakata = {
 				color={ 150 20 0 }
 				color2={ 255 255 255 }
-				
-				capital = 682 # Taiakata
 				
 				b_taiakata_taiakata = {
 				}
@@ -1504,7 +1504,7 @@ e_india = {
 		capital = 695 # Kalingapur
 		
 		allow = {
-			or = {
+			OR = {
 				culture_group = indian
 				culture_group = dravidian
 			}
@@ -1672,7 +1672,7 @@ e_india = {
 		capital = 704 # Tamralipti
 		
 		allow = {
-			or = {
+			OR = {
 				culture_group = indian
 				culture_group = dravidian
 			}
@@ -1788,7 +1788,7 @@ e_india = {
 		capital = 719 # Pataliputra
 		
 		allow = {
-			or = {
+			OR = {
 				culture_group = indian
 				culture_group = dravidian
 			}
@@ -1897,7 +1897,7 @@ e_india = {
 		capital = 712 # Kapilavastu
 		
 		allow = {
-			or = {
+			OR = {
 				culture_group = indian
 				culture_group = dravidian
 			}
@@ -2000,7 +2000,7 @@ e_india = {
 		capital = 728 # Surashtra
 		
 		allow = {
-			or = {
+			OR = {
 				culture_group = indian
 				culture_group = dravidian
 			}
@@ -2009,6 +2009,8 @@ e_india = {
 		d_anarta = {
 			color={ 195 50 10 }
 			color2={ 255 255 255 }
+			
+			capital = 731 # Sankodara ?
 			
 			c_sankadara = {
 				color={ 195 50 10 }
@@ -2048,6 +2050,8 @@ e_india = {
 			color={ 200 150 90 }
 			color2={ 255 255 255 }
 			
+			capital = 732 # Prabbasa
+			
 			c_prabbasa = {
 				color={ 200 150 90 }
 				color2={ 255 255 255 }
@@ -2070,6 +2074,8 @@ e_india = {
 		d_surashtra = {
 			color={ 220 100 50 }
 			color2={ 255 255 255 }
+			
+			capital = 728 # Surashtra
 			
 			c_bhrigukaksha = {
 				color={ 220 100 50 }
@@ -2102,7 +2108,7 @@ e_india = {
 		capital = 739 # Manusa
 		
 		allow = {
-			or = {
+			OR = {
 				culture_group = indian
 				culture_group = dravidian
 			}
@@ -2111,6 +2117,8 @@ e_india = {
 		d_panchala = {
 			color={ 100 25 3 }
 			color2={ 255 255 255 }
+			
+			capital = 750 # Ahichatra
 			
 			c_laharpur = {
 				color={ 100 25 3 }
@@ -2137,6 +2145,8 @@ e_india = {
 		d_kuru = {
 			color={ 210 65 12 }
 			color2={ 255 255 255 }
+			
+			capital = 746 # Hastinapura
 			
 			c_haridwara = {
 				color={ 210 65 12 }
@@ -2192,6 +2202,8 @@ e_india = {
 			color={ 150 45 10 }
 			color2={ 255 255 255 }
 			
+			capital = 739 # Manusa
+			
 			c_karavapana = {
 				color={ 150 45 10 }
 				color2={ 255 255 255 }
@@ -2243,7 +2255,7 @@ e_india = {
 		capital = 292 # Taxila
 		
 		allow = {
-			or = {
+			OR = {
 				culture_group = indian
 				culture_group = dravidian
 			}
@@ -2252,6 +2264,8 @@ e_india = {
 		d_nishkuta = {
 			color={ 234 100 21 }
 			color2={ 255 255 255 }
+			
+			capital = 796 # Skardu ?
 			
 			c_skardu = {
 				color={ 234 100 21 }
@@ -2272,6 +2286,8 @@ e_india = {
 			color={ 180 110 41 }
 			color2={ 255 255 255 }
 			
+			capital = 794 # Sringara
+			
 			c_sringara = {
 				color={ 180 110 41 }
 				color2={ 255 255 255 }
@@ -2290,6 +2306,8 @@ e_india = {
 		d_uttara_jyotisha = {
 			color={ 255 150 31 }
 			color2={ 255 255 255 }
+			
+			capital = 292 # Taxila
 			
 			c_taxila = {
 				color={ 255 150 31 }
@@ -2313,6 +2331,8 @@ e_india = {
 		d_gandhara = {
 			color={ 255 90 20 }
 			color2={ 255 255 255 }
+			
+			capital = 792 # Yavana
 			
 			c_massaka = {
 				color={ 255 90 20 }
@@ -2354,7 +2374,7 @@ e_india = {
 		capital = 289 # Asibipura
 		
 		allow = {
-			or = {
+			OR = {
 				culture_group = indian
 				culture_group = dravidian
 			}
@@ -2363,6 +2383,8 @@ e_india = {
 		d_sivi = {
 			color={ 194 67 10 }
 			color2={ 255 255 255 }
+			
+			capital = 755 # Singhapura
 			
 			c_attock = {
 				color={ 194 67 10 }
@@ -2393,6 +2415,8 @@ e_india = {
 		d_madra = {
 			color={ 144 47 0 }
 			color2={ 255 255 255 }
+			
+			capital = 289 # Asibipura
 			
 			c_mallorum = {
 				color={ 144 47 0 }
@@ -2425,6 +2449,8 @@ e_india = {
 		d_trigarta = {
 			color={ 150 60 30 }
 			color2={ 255 255 255 }
+			
+			capital = 759 # Prasthala
 			
 			c_sapta_saraswati = {
 				color={ 150 60 30 }
@@ -2465,7 +2491,7 @@ e_india = {
 		capital = 287 # Nagramma
 		
 		allow = {
-			or = {
+			OR = {
 				culture_group = indian
 				culture_group = dravidian
 			}
@@ -2474,6 +2500,8 @@ e_india = {
 		d_sindhu = {
 			color={ 240 135 20 }
 			color2={ 255 255 255 }
+			
+			capital = 284 # Gynaikon Limen
 			
 			c_sogdorum_regia = {
 				color={ 240 135 20 }
@@ -2504,6 +2532,8 @@ e_india = {
 			color={ 200 105 18 }
 			color2={ 255 255 255 }
 			
+			capital = 752 # Vitabhya
+			
 			c_gargasrota = {
 				color={ 200 105 18 }
 				color2={ 255 255 255 }
@@ -2528,6 +2558,8 @@ e_india = {
 		d_sudra = {
 			color={ 225 135 20 }
 			color2={ 255 255 255 }
+			
+			capital = 287 # Nagramma
 			
 			c_naagramma = {
 				color={ 225 135 20 }
@@ -2562,7 +2594,7 @@ e_india = {
 		capital = 760 # Viratapuri
 		
 		allow = {
-			or = {
+			OR = {
 				culture_group = indian
 				culture_group = dravidian
 			}
@@ -2571,6 +2603,8 @@ e_india = {
 		d_matsya = {
 			color={ 245 200 20 }
 			color2={ 255 255 255 }
+			
+			capital = 760 # Viratapuri
 			
 			c_viratapuri = {
 				color={ 245 200 20 }
@@ -2604,6 +2638,8 @@ e_india = {
 			color={ 210 150 15 }
 			color2={ 255 255 255 }
 			
+			capital = 742 # Vinasana ?
+			
 			c_vinasana = {
 				color={ 225 135 20 }
 				color2={ 255 255 255 }
@@ -2626,6 +2662,8 @@ e_india = {
 		d_abhira = {
 			color={ 150 110 5 }
 			color2={ 255 255 255 }
+			
+			capital = 743 # Mandapura
 			
 			c_mandapura = {
 				color={ 225 135 20 }
@@ -2652,7 +2690,7 @@ e_india = {
 		capital = 766 # Janasthana
 		
 		allow = {
-			or = {
+			OR = {
 				culture_group = indian
 				culture_group = dravidian
 			}
@@ -2661,6 +2699,8 @@ e_india = {
 		d_surparaka = {
 			color={ 155 5 30 }
 			color2={ 255 255 255 }
+			
+			capital = 763 # Agastyavati
 			
 			c_semylla = {
 				color={ 155 5 30 }
@@ -2702,6 +2742,8 @@ e_india = {
 			color={ 115 20 40 }
 			color2={ 255 255 255 }
 			
+			capital = 767 # Panchavati
+			
 			c_panchavati = {
 				color={ 115 20 40 }
 				color2={ 255 255 255 }
@@ -2724,6 +2766,8 @@ e_india = {
 		d_dandaka = {
 			color={ 120 50 90 }
 			color2={ 255 255 255 }
+			
+			capital = 766 # Janasthana
 			
 			c_janasthana = {
 				color={ 120 50 90 }
@@ -2755,6 +2799,8 @@ e_india = {
 			color={ 220 99 85 }
 			color2={ 255 255 255 }
 			
+			capital = 773 # Mahismati
+			
 			c_mahishmati = {
 				color={ 220 99 85 }
 				color2={ 255 255 255 }
@@ -2773,6 +2819,8 @@ e_india = {
 		d_vakataka = {
 			color={ 255 70 160 }
 			color2={ 255 255 255 }
+			
+			capital = 775 # Bhojakata
 			
 			c_siripalla = {
 				color={ 255 70 160 }
@@ -2803,7 +2851,7 @@ e_india = {
 		capital = 786 # Sripura
 		
 		allow = {
-			or = {
+			OR = {
 				culture_group = indian
 				culture_group = dravidian
 			}
@@ -2812,6 +2860,8 @@ e_india = {
 		d_kekala = {
 			color={ 58 178 41 }
 			color2={ 255 255 255 }
+			
+			capital = 786 # Sripura
 			
 			c_amarakandaka = {
 				color={ 58 178 41 }
@@ -2840,6 +2890,8 @@ e_india = {
 		d_taitilaka = {
 			color={ 150 235 91 }
 			color2={ 255 255 255 }
+			
+			capital = 789 # Sabara Maharashtri ?
 			
 			c_sabara_maharashtri = {
 				color={ 255 70 160 }
@@ -2871,7 +2923,7 @@ e_india = {
 		capital = 772 # Ujjayani
 		
 		allow = {
-			or = {
+			OR = {
 				culture_group = indian
 				culture_group = dravidian
 			}
@@ -2880,6 +2932,8 @@ e_india = {
 		d_malava = {
 			color={ 225 155 77 }
 			color2={ 255 255 255 }
+			
+			capital = 770 # Madhyamika
 			
 			c_madhyamika = {
 				color={ 225 155 77 }
@@ -2902,6 +2956,8 @@ e_india = {
 			color={ 180 110 40 }
 			color2={ 255 255 255 }
 			
+			capital = 772 # Ujjayani
+			
 			c_bhojapuri = {
 				color={ 180 110 40 }
 				color2={ 255 255 255 }
@@ -2920,6 +2976,8 @@ e_india = {
 		d_karusha = {
 			color={ 120 50 10 }
 			color2={ 255 255 255 }
+			
+			capital = 780 # Savira ?
 			
 			c_savira = {
 				color={ 120 50 10 }
@@ -2953,6 +3011,8 @@ e_india = {
 			color={ 205 60 10 }
 			color2={ 255 255 255 }
 			
+			capital = 777 # Visnapuri
+			
 			c_suktivati = {
 				color={ 205 60 10 }
 				color2={ 255 255 255 }
@@ -2973,6 +3033,8 @@ e_india = {
 		d_mekala = {
 			color={ 108 23 29 }
 			color2={ 255 255 255 }
+			
+			capital = 781 # Kausambi
 			
 			c_kausambi = {
 				color={ 150 235 91 }
@@ -3063,7 +3125,7 @@ e_italia = {
 	capital = 332 # Spoletium
 	
 	allow = {
-		or = {
+		OR = {
 			culture_group = italian
 			culture_group = tyrhenian
 			culture_group = north_italic
@@ -3112,7 +3174,7 @@ e_hellas = {
 	capital = 18 # Athens
 	
 	allow = {
-		or = {
+		OR = {
 			culture = aeolian
 			culture = arcadian
 			culture = doric
@@ -3127,7 +3189,7 @@ e_africa = {
 	capital = 360 # Carthage
 	
 	allow = {
-		or = {
+		OR = {
 			culture_group = north_african
 			culture_group = eastern_african
 			culture = punic

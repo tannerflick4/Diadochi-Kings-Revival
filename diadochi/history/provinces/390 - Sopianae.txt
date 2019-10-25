@@ -8,7 +8,7 @@ max_settlements = 4
 b_sopianae_sopianae = tribal
 b_altinum_sopianae = temple
 #b_alisca_sopianae = castle
-#b_iovia_sopianae = city
+#b_sopianae1_sopianae = city
 
 # Misc
 culture = illyrian
