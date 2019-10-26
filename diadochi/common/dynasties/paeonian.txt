@@ -1,6 +1,30 @@
 # 15001-16000 for paeonian dynasties
 
 15001 = {
-	name = "Agis"
+	name = "Derrones"
+	culture = paeonian
+}
+15002 = {
+	name = "Agrianes"
+	culture = paeonian
+}
+15003 = {
+	name = "Almopii"
+	culture = paeonian
+}
+15004 = {
+	name = "Laeaei"
+	culture = paeonian
+}
+15005 = {
+	name = "Doberes"
+	culture = paeonian
+}
+15006 = {
+	name = "Paeoplae"
+	culture = paeonian
+}
+15007 = {
+	name = "Sirapaeones"
 	culture = paeonian
 }

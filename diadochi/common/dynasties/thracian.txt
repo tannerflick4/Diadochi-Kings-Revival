@@ -15,3 +15,179 @@
 	name = "Triballi"
 	culture = thracian
 }
+4005 = {
+	name = "Apsynthii"
+	culture = thracian
+}
+4006 = {
+	name = "Bessi"
+	culture = thracian
+}
+4007 = {
+	name = "Bisaltae"
+	culture = thracian
+}
+4008 = {
+	name = "Brenae"
+	culture = thracian
+}
+4009 = {
+	name = "Crousi"
+	culture = thracian
+}
+4010 = {
+	name = "Cebrenii"
+	culture = thracian
+}
+4011 = {
+	name = "Coelaletae"
+	culture = thracian
+}
+4012 = {
+	name = "Dersaei"
+	culture = thracian
+}
+4013 = {
+	name = "Edones"
+	culture = thracian
+}
+4014 = {
+	name = "Dentheletae"
+	culture = thracian
+}
+4015 = {
+	name = "Derrones"
+	culture = thracian
+}
+4016 = {
+	name = "Digeri"
+	culture = thracian
+}
+4017 = {
+	name = "Dii"
+	culture = thracian
+}
+4018 = {
+	name = "Diobesi"
+	culture = thracian
+}
+4019 = {
+	name = "Dolonci"
+	culture = thracian
+}
+4020 = {
+	name = "Caeni"
+	culture = thracian
+}
+4021 = {
+	name = "Cicones"
+	culture = thracian
+}
+4022 = {
+	name = "Coreli"
+	culture = thracian
+}
+4023 = {
+	name = "Corpili"
+	culture = thracian
+}
+4024 = {
+	name = "Crestones"
+	culture = thracian
+}
+4025 = {
+	name = "Crobyzi"
+	culture = thracian
+}
+4026 = {
+	name = "Maduateni"
+	culture = thracian
+}
+4027 = {
+	name = "Maedi"
+	culture = thracian
+}
+4028 = {
+	name = "Maedobythini"
+	culture = thracian
+}
+4029 = {
+	name = "Melanditae"
+	culture = thracian
+}
+4030 = {
+	name = "Melanophagi"
+	culture = thracian
+}
+4031 = {
+	name = "Nipsaei"
+	culture = thracian
+}
+4032 = {
+	name = "Odomanti"
+	culture = thracian
+}
+4033 = {
+	name = "Paeti"
+	culture = thracian
+}
+4034 = {
+	name = "Pieres"
+	culture = thracian
+}
+4035 = {
+	name = "Sapaei"
+	culture = thracian
+}
+4036 = {
+	name = "Satrae"
+	culture = thracian
+}
+4037 = {
+	name = "Sycaeboae"
+	culture = thracian
+}
+4038 = {
+	name = "Scyrmiadae"
+	culture = thracian
+}
+4039 = {
+	name = "Sinti"
+	culture = thracian
+}
+4040 = {
+	name = "Sithones"
+	culture = thracian
+}
+4041 = {
+	name = "Thyni"
+	culture = thracian
+}
+4042 = {
+	name = "Tilataei"
+	culture = thracian
+}
+4043 = {
+	name = "Tralles"
+	culture = thracian
+}
+4044 = {
+	name = "Tranipsae"
+	culture = thracian
+}
+4045 = {
+	name = "Trausi"
+	culture = thracian
+}
+4046 = {
+	name = "Treres"
+	culture = thracian
+}
+4047 = {
+	name = "Artakii"
+	culture = thracian
+}
+4048 = {
+	name = "Moesi"
+	culture = thracian
+}
