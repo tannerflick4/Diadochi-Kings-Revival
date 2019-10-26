@@ -7,10 +7,12 @@ title = c_histria # for example c_corinth
 max_settlements = 4
 b_histria_histria = castle
 b_halmyris_histria = temple
-b_suhat_histria = city
+#b_suhat_histria = city
+b_troesmis_histria = castle
+b_tomis_histria = city
+#b_libida_histria = temple
+#b_carsium_histria = castle
 
-# Possible baronies: (Always add a # in front of a line with these!)
-# b_troesmis_histria
 
 # Misc
 culture = ionian

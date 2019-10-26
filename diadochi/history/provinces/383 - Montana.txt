@@ -8,7 +8,10 @@ max_settlements = 4
 b_montana_montana = tribal
 #b_tautiomosis_montana = city
 #b_vorovum_montana = city
-#b_meldia_montana = castle
+#b_aedava_montana = city
+#b_variana_montana = city
+#b_pedonianis_montana = castle
+#b_valeriana_montana = city
 
 # Misc
 culture = thracian

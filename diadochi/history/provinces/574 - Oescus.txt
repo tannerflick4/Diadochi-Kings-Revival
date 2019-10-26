@@ -4,14 +4,14 @@
 title = c_oescus
 
 # Settlements
-max_settlements = 5
-b_oescus_oescus = castle
-b_oescus1_oescus = temple
-b_oescus2_oescus = city
-b_oescus3_oescus = castle
-#b_oescus4_oescus = temple
-#b_oescus5_oescus = city
-#b_oescus6_oescus = castle
+max_settlements = 4
+b_oescus_oescus = tribal
+#b_utus_oescus = city
+#b_asamus_oescus = city
+#b_securisca_oescus = castle
+#b_ad_putea_oescus = castle
+#b_storgosia_oescus = castle
+#b_giridava_oescus = temple
 
 # Misc
 culture = thracian

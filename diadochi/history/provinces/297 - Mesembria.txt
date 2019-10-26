@@ -4,14 +4,12 @@
 title = c_mesembria
 
 # Settlements
-max_settlements = 4
+max_settlements = 3
 b_mesembria_mesembria = castle
-b_mesembria1_mesembria = temple
-b_mesembria2_mesembria = city
-b_mesembria3_mesembria = castle
-#b_mesembria4_mesembria = temple
-#b_mesembria5_mesembria = city
-#b_mesembria6_mesembria = castle
+b_anchialus_mesembria = city
+b_aristaeum_mesembria = temple
+#b_naulochos_mesembria = castle
+#b_erite_mesembria = city
 
 # Misc
 culture = ionian

@@ -5,13 +5,13 @@ title = c_bourdepa
 
 # Settlements
 max_settlements = 4
-b_bourdepa_bourdepa = castle
-b_bourdepa1_bourdepa = city
-b_bourdepa2_bourdepa = temple
-b_bourdepa3_bourdepa = castle
-#b_bourdepa4_bourdepa = city
-#b_bourdepa5_bourdepa = temple
-#b_bourdepa6_bourdepa = castle
+b_bourdepa_bourdepa = tribal
+b_armira_bourdepa = temple
+#b_castra_rubra_bourdepa = castle
+#b_arzus_bourdepa = city
+#b_pizus_bourdepa = city
+#b_daphaba_bourdepa = castle
+#b_subzupara_bourdepa = temple
 
 # Misc
 culture = thracian

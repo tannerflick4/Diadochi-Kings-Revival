@@ -5,13 +5,13 @@ title = c_bergoule
 
 # Settlements
 max_settlements = 4
-b_bergoule_bergoule = castle
-b_bergoule1_bergoule = city
-b_bergoule2_bergoule = temple
-b_bergoule3_bergoule = castle
-#b_bergoule4_bergoule = city
-#b_bergoule5_bergoule = temple
-#b_bergoule6_bergoule = castle
+b_bergoule_bergoule = tribal
+#b_narco_bergoule = city
+#b_urisio_bergoule = city
+#b_burtudizon_bergoule = city
+#b_tarpodizo_bergoule = castle
+#b_hadrianoupolis_bergoule = city
+#b_nike_bergoule = temple
 
 # Misc
 culture = thracian

@@ -5,13 +5,13 @@ title = c_pistoros
 
 # Settlements
 max_settlements = 4
-b_pistoros_pistoros = castle
-b_pistoros1_pistoros = city
-b_pistoros2_pistoros = temple
-b_pistoros3_pistoros = castle
-#b_pistoros4_pistoros = city
-#b_pistoros5_pistoros = temple
-#b_pistoros6_pistoros = castle
+b_pistoros_pistoros = tribal
+#b_bessapara_pistoros = city
+#b_soneio_pistoros = castle
+#b_egerica_pistoros = temple
+#b_helice_pistoros = city
+#b_sparata_pistoros = castle
+#b_nicopolis_ad_nestum_pistoros = city
 
 # Misc
 culture = thracian

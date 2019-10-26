@@ -5,13 +5,13 @@ title = c_bizye
 
 # Settlements
 max_settlements = 4
-b_bizye_bizye = castle
-b_bizye1_bizye = city
-b_bizye2_bizye = temple
-b_bizye3_bizye = castle
-#b_bizye4_bizye = city
-#b_bizye5_bizye = temple
-#b_bizye6_bizye = castle
+b_bizye_bizye = tribal
+#b_caenophrurium_bizye = castle
+#b_beodizo_bizye = temple
+#b_tzourouion_bizye = city
+#b_tipaso_bizye = city
+#b_drousipara_bizye = city
+#b_utsurgae_bizye = castle
 
 # Misc
 culture = thracian

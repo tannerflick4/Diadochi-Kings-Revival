@@ -7,8 +7,11 @@ title = c_odessos # for example c_corinth
 max_settlements = 4
 b_odessos_odessos = castle
 b_callatis_odessos = city
-b_tomis_odessos = castle
 b_dionysiopolis_odessos = temple
+#b_gerania_odessos = castle
+#b_bizone_odessos = city
+b_tirizis_odessos = temple
+#b_karon_limen_odessos = city
 
 # Misc
 culture = ionian

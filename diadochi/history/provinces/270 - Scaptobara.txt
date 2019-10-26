@@ -5,13 +5,13 @@ title = c_scaptobara
 
 # Settlements
 max_settlements = 4
-b_scaptobara_scaptobara = castle
-b_sportela_scaptobara
-b_neine_scaptobara
-b_ciropolis_scaptobara
-b_germania_scaptobara
-b_debrene_scaptobara
-b_orbelos_scaptobara
+b_scaptobara_scaptobara = tribal
+#b_sportela_scaptobara = city
+#b_neine_scaptobara = city
+#b_ciropolis_scaptobara = castle
+#b_germania_scaptobara = castle
+#b_debrene_scaptobara = city
+#b_orbelos_scaptobara = temple
 
 # Misc
 culture = thracian

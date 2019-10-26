@@ -11,6 +11,9 @@ b_selymbria_byzantion = castle
 
 # Possible baronies: (Always add a # in front of a line with these!)
 # b_blachernae_byzantion
+# b_phylia_byzantion
+# b_myrileion_byzantion
+# b_henaton_byzantion
 
 # Misc
 culture = doric

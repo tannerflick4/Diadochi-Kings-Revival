@@ -4,14 +4,13 @@
 title = c_novae
 
 # Settlements
-max_settlements = 5
-b_novae_novae = castle
-b_novae1_novae = temple
-b_novae2_novae = city
-b_novae3_novae = castle
-#b_novae4_novae = temple
-#b_novae5_novae = city
-#b_novae6_novae = castle
+max_settlements = 3
+b_novae_novae = tribal
+#b_dimum_novae = city
+b_iatrus_novae = temple
+#b_trimammium_novae = city
+#b_sexaginta_prista_novae = temple
+#b_nicopolis_ad_istrum_novae = city
 
 # Misc
 culture = thracian

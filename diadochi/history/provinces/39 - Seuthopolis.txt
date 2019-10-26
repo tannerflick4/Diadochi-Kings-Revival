@@ -5,14 +5,13 @@ title = c_seuthopolis # for example c_corinth
 
 # Settlements
 max_settlements = 5
-# TODO: Reevaluate the baronies in this province.
 b_seuthopolis_seuthopolis = tribal
 b_longinopara_seuthopolis = temple
-#b_seuthopolis1_seuthopolis = city
-#b_storgosia_seuthopolis = castle
-
-# Possible baronies: (Always add a # in front of a line with these!)
-# b_tylis_seuthopolis
+#b_viamata_seuthopolis = castle
+#b_diocletianopolis_seuthopolis = city
+#b_sostra_seuthopolis = castle
+#b_melta_seuthopolis = castle
+#b_doriones_seuthopolis = city
 
 # Misc
 culture = thracian

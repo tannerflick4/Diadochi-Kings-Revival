@@ -330,9 +330,15 @@ k_odrysia = {
 			}
 			b_callatis_odessos = {
 			}
-			b_tomis_odessos = {
-			}
 			b_dionysiopolis_odessos = {
+			}
+			b_gerania_odessos = {
+			}
+			b_bizone_odessos = {
+			}
+			b_tirizis_odessos = {
+			}
+			b_karon_limen_odessos = {
 			}
 		}
 		c_histria = {
@@ -347,6 +353,12 @@ k_odrysia = {
 			}
 			b_troesmis_histria = {
 			}
+			b_tomis_histria = {
+			}
+			b_libida_histria = {
+			}
+			b_carsium_histria = {
+			}
 		}
 		c_durostorum = {
 			color= { 125 50 0 }
@@ -358,6 +370,14 @@ k_odrysia = {
 			}
 			b_sucidava_durostorum = {
 			}
+			b_sacidava_durostorum = {
+			}
+			b_altinum_durostorum = {
+			}
+			b_tegulitium_durostorum = {
+			}
+			b_palmatis_durostorum = {
+			}
 		}		
 		c_apollonia = {
 			color= { 115 30 20 }
@@ -367,9 +387,13 @@ k_odrysia = {
 			}
 			b_chersonesos_apollonia = {
 			}
-			b_anchialus_apollonia = {
+			b_aulaiouleichos_apollonia = {
 			}
-			b_apollonia1_apollonia = { # needs name
+			b_thynias_apollonia = {
+			}
+			b_salmydessos_apollonia = {
+			}
+			b_scylla_apollonia = {
 			}
 		}
 		c_mesembria = {
@@ -378,17 +402,13 @@ k_odrysia = {
 			
 			b_mesembria_mesembria = {
 			}
-			b_mesembria1_mesembria = {
+			b_anchialus_mesembria = {
 			}
-			b_mesembria2_mesembria = {
+			b_aristaeum_mesembria = {
 			}
-			b_mesembria3_mesembria = {
+			b_naulochos_mesembria = {
 			}
-			b_mesembria4_mesembria = {
-			}
-			b_mesembria5_mesembria = {
-			}
-			b_mesembria6_mesembria = {
+			b_erite_mesembria = {
 			}
 		}
 	}
@@ -402,16 +422,16 @@ k_odrysia = {
 
 			holy_site = thracian_main
 			
-			b_orestias_orestias = {
+			b_kypsela_orestias = {
 			}
-			b_orestias1_orestias = {
+			b_colla_orestias = {
 			}
-			b_burtudizon_orestias = {
+			b_zorlanae_orestias = {
 			}
-			b_drousipara_orestias = {
+			b_syrascellae_orestias = {
 			}
-			b_narco_orestias = {
-			}			
+			b_charioupolis_orestias	= {
+			}		
 		}
 		c_kabyle = {
 			color= { 165 70 0 }
@@ -423,7 +443,13 @@ k_odrysia = {
 			}
 			b_tonzus_kabyle = {
 			}
-			b_arzus_kabyle = {
+			b_deultum_kabyle = {
+			}
+			b_cazalet_kabyle = {
+			}
+			b_scatrae_kabyle = {
+			}
+			b_pannissus_kabyle = {
 			}
 		}
 		c_beroe = {
@@ -432,26 +458,39 @@ k_odrysia = {
 			
 			b_beroe_beroe = {
 			}
-			b_pizus_beroe = {
+			b_ranilum_beroe = {
 			}
-			b_semota_beroe = {
+			b_cillis_beroe = {
 			}
-			b_parambole_beroe = {
+			b_tylis_beroe = {
+			}
+			b_carassura_beroe = {
+			}
+			b_assus_beroe = {
+			}
+			b_opizas_beroe = {
 			}
 		}
 		c_philippopolis = {
 			color= { 150 75 0 }
 			color2= { 255 255 255 }
 			
-			b_philippopolis_philippopolis = {
-			}
-			b_douvanli_philippopolis = {
-			}
-			b_bessapara_philippopolis = {
-			}
+			macedonian = Philippopolis
+
 			b_eumolpias_philippopolis = {
+				macedonian = Philippopolis
 			}
-			b_sernota_philippopolis = {
+			b_asara_philippopolis = {
+			}
+			b_semota_philippopolis = {
+			}
+			b_parambole_philippopolis = {
+			}
+			b_palla_philippopolis = {
+			}
+			b_bercea_philippopolis = {
+			}
+			b_cellae_philippopolis = {
 			}
 		}
 		c_bourdepa = {
@@ -460,17 +499,17 @@ k_odrysia = {
 			
 			b_bourdepa_bourdepa = {
 			}
-			b_bourdepa1_bourdepa = {
+			b_armira_bourdepa = {
 			}
-			b_bourdepa2_bourdepa = {
+			b_castra_rubra_bourdepa = {
 			}
-			b_bourdepa3_bourdepa = {
+			b_arzus_bourdepa = {
 			}
-			b_bourdepa4_bourdepa = {
+			b_pizus_bourdepa = {
 			}
-			b_bourdepa5_bourdepa = {
+			b_daphaba_bourdepa = {
 			}
-			b_bourdepa6_bourdepa = {
+			b_subzupara_bourdepa = {
 			}
 		}
 		c_bergoule = {
@@ -479,17 +518,17 @@ k_odrysia = {
 			
 			b_bergoule_bergoule = {
 			}
-			b_bergoule1_bergoule = {
+			b_narco_bergoule = {
 			}
-			b_bergoule2_bergoule = {
+			b_urisio_bergoule = {
 			}
-			b_bergoule3_bergoule = {
+			b_burtudizon_bergoule = {
 			}
-			b_bergoule4_bergoule = {
+			b_tarpodizo_bergoule = {
 			}
-			b_bergoule5_bergoule = {
+			b_hadrianoupolis_bergoule = {
 			}
-			b_bergoule6_bergoule = {
+			b_nike_bergoule = {
 			}
 		}
 		c_bizye = {
@@ -498,17 +537,17 @@ k_odrysia = {
 			
 			b_bizye_bizye = {
 			}
-			b_bizye1_bizye = {
+			b_caenophrurium_bizye = {
 			}
-			b_bizye2_bizye = {
+			b_beodizo_bizye = {
 			}
-			b_bizye3_bizye = {
+			b_tzourouion_bizye = {
 			}
-			b_bizye4_bizye = {
+			b_tipaso_bizye = {
 			}
-			b_bizye5_bizye = {
+			b_drousipara_bizye = {
 			}
-			b_bizye6_bizye = {
+			b_utsurgae_bizye = {
 			}
 		}
 	}
@@ -526,11 +565,15 @@ k_odrysia = {
 			}
 			b_longinopara_seuthopolis = {
 			}
-			b_seuthopolis1_seuthopolis = { # needs name
+			b_viamata_seuthopolis = {
 			}
-			b_storgosia_seuthopolis = {
+			b_diocletianopolis_seuthopolis = {
 			}
-			b_tylis_seuthopolis = {
+			b_sostra_seuthopolis = {
+			}
+			b_melta_seuthopolis = {
+			}
+			b_doriones_seuthopolis = {
 			}
 		}
 		c_arbitus = {
@@ -543,6 +586,14 @@ k_odrysia = {
 			}
 			b_tegris_arbitus = {
 			}
+			b_appiaria_arbitus = {
+			}
+			b_transmarisca_arbitus = {
+			}
+			b_nigrinianis_arbitus = {
+			}
+			b_candidiana_arbitus = {
+			}
 		}		
 		c_montana = {
 			color= { 140 65 25 }
@@ -554,7 +605,13 @@ k_odrysia = {
 			}
 			b_vorovum_montana = {
 			}
-			b_meldia_montana = {
+			b_aedava_montana = {
+			}
+			b_variana_montana = {
+			}
+			b_pedonianis_montana = {
+			}
+			b_valeriana_montana = {
 			}
 		}
 		c_oescus = {
@@ -563,17 +620,17 @@ k_odrysia = {
 			
 			b_oescus_oescus = {
 			}
-			b_oescus1_oescus = {
+			b_utus_oescus = {
 			}
-			b_oescus2_oescus = {
+			b_asamus_oescus = {
 			}
-			b_oescus3_oescus = {
+			b_securisca_oescus = {
 			}
-			b_oescus4_oescus = {
+			b_ad_putea_oescus = {
 			}
-			b_oescus5_oescus = {
+			b_storgosia_oescus = {
 			}
-			b_oescus6_oescus = {
+			b_giridava_oescus = {
 			}
 		}
 		c_novae = {
@@ -582,17 +639,15 @@ k_odrysia = {
 			
 			b_novae_novae = {
 			}
-			b_novae1_novae = {
+			b_dimum_novae = {
 			}
-			b_novae2_novae = {
+			b_iatrus_novae = {
 			}
-			b_novae3_novae = {
+			b_trimammium_novae = {
 			}
-			b_novae4_novae = {
+			b_sexaginta_prista_novae = {
 			}
-			b_novae5_novae = {
-			}
-			b_novae6_novae = {
+			b_nicopolis_ad_istrum_novae = {
 			}
 		}
 	}
@@ -725,11 +780,13 @@ k_odrysia = {
 		c_neapolis_samothrace = {
 			color= { 107 68 83 }
 			color2= { 255 255 255 }
+			
+			macedonian = Philippoi
 						
 			b_neapolis_neapolis_samothrace = {
 			}
 			b_krenides_neapolis_samothrace = {
-				macedonian = PHILIPPI
+				macedonian = Philippoi
 			}
 			b_akontisma_neapolis_samothrace = {
 			}
@@ -767,17 +824,17 @@ k_odrysia = {
 						
 			b_pistoros_pistoros = {
 			}
-			b_pistoros1_pistoros = {
+			b_bessapara_pistoros = {
 			}
-			b_pistoros2_pistoros = {
+			b_soneio_pistoros = {
 			}
-			b_pistoros3_pistoros = {
+			b_egerica_pistoros = {
 			}
-			b_pistoros4_pistoros = {
+			b_helice_pistoros = {
 			}
-			b_pistoros5_pistoros = {
+			b_sparata_pistoros = {
 			}
-			b_pistoros6_pistoros = {
+			b_nicopolis_ad_nestum_pistoros = {
 			}
 		}
 	}
@@ -795,9 +852,13 @@ k_odrysia = {
 			}
 			b_bisanthe_lysimachia = {
 			}
-			b_deris_lysimachia = {
+			b_panion_lysimachia = {
 			}
-			b_lysimachia_lysimachia = {
+			b_omoi_lysimachia = {
+			}
+			b_mocasura_lysimachia = {
+			}
+			b_daunion_teichos_lysimachia = {
 			}
 		}
 		c_byzantion = {
@@ -811,22 +872,37 @@ k_odrysia = {
 			}
 			b_chalcaea_byzantion = {
 			}
-			b_selymbria_byzantion  = {
+			b_selymbria_byzantion = {
+			}
+			b_phylia_byzantion = {
+			}
+			b_myrileion_byzantion = {
+			}
+			b_henaton_byzantion = {
 			}
 			b_blachernae_byzantion = {
 			}
 		}
 		c_thracian_chersonese = {
 			color= { 140 85 15 }
-			color2= { 255 255 255 }			
+			color2= { 255 255 255 }
+
+			macedonian = Lysimacheia
 			
 			b_kardia_thracian_chersonese = {
+				macedonian = Lysimacheia
 			}
 			b_sestos_thracian_chersonese = {
 			}
 			b_pactya_thracian_chersonese = {
 			}
 			b_drabos_thracian_chersonese = {
+			}
+			b_elaious_thracian_chersonese = {
+			}
+			b_limnai_thracian_chersonese = {
+			}
+			b_alopekonnesos_thracian_chersonese = {
 			}
 		}
 		c_ainos = {
@@ -835,17 +911,17 @@ k_odrysia = {
 			
 			b_ainos_ainos = {
 			}
-			b_ainos1_ainos = {
+			b_deris_ainos = {
 			}
-			b_ainos2_ainos = {
+			b_kypasis_ainos = {
 			}
-			b_ainos3_ainos = {
+			b_kobrys_ainos = {
 			}
-			b_ainos4_ainos = {
+			b_tiristasis_ainos = {
 			}
-			b_ainos5_ainos = {
+			b_aphrodisias_ainos = {
 			}
-			b_ainos6_ainos = {
+			b_neapolis_ainos = {
 			}
 		}
 	}

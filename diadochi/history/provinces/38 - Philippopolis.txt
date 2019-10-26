@@ -6,9 +6,12 @@ title = c_philippopolis # for example c_corinth
 # Settlements
 max_settlements = 4
 b_eumolpias_philippopolis = tribal
-b_douvanli_philippopolis = temple
-#b_bessapara_philippopolis = city
-#b_sernota_philippopolis = castle
+#b_asara_philippopolis = castle
+#b_semota_philippopolis = city
+#b_parambole_philippopolis = city
+#b_palla_philippopolis = temple
+#b_bercea_philippopolis = castle
+#b_cellae_philippopolis = temple
 
 # Misc
 culture = thracian
@@ -16,8 +19,3 @@ religion = thracian_main
 
 # History
 # Can be filled when things change around the province
-435.1.1 = { # 341 BC, Philip found Philippopolis
-	remove_settlement = b_eumolpias_philippopolis
-	b_philippopolis_philippopolis = tribal
-	capital = b_philippopolis_philippopolis
-}

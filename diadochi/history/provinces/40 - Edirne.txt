@@ -4,12 +4,12 @@
 title = c_orestias # for example c_corinth
 
 # Settlements
-max_settlements = 5
-b_orestias_orestias = tribal
-#b_orestias1_orestias = city
-#b_burtudizon_orestias = castle
-b_drousipara_orestias = temple
-#b_narco_orestias = city
+max_settlements = 3
+b_kypsela_orestias = tribal
+#b_colla_orestias = city
+#b_zorlanae_orestias = temple
+#b_syrascellae_orestias = castle
+#b_charioupolis_orestias = city
 
 # Misc
 culture = thracian
