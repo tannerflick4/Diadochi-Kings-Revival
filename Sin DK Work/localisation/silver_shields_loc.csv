@@ -1,2 +1,46 @@
+# Titles
 d_silver_shields;Silver Shields;;;;;;;;;;;;;;x
 d_silver_shields_adj;Argyraspid;;;;;;;;;;;;;;x
+# Plots
+plot_win_silver_shields_title;Recruit the Shields;;;;;;;;;;;;;;x
+plot_win_silver_shields;Win over the Shields;;;;;;;;;;;;;;x
+plot_win_silver_shields_short;Recruit the Shields;;;;;;;;;;;;;;x
+plot_win_silver_shields_desc;The Silver Shields are a prestigous and powerful group, only you are fit to serve.;;;;;;;;;;;;;;x
+plot_disband_silver_shields_title;Disband the Shields;;;;;;;;;;;;;;x
+plot_disband_silver_shields;Seek the End of the Shields;;;;;;;;;;;;;;x
+plot_disband_silver_shields_short;Disband the Shields;;;;;;;;;;;;;;x
+plot_disband_silver_shields_desc;The Silver Shields have grown too powerful and dangerous, as such they must be ended.;;;;;;;;;;;;;;x
+# Events
+EVTDESCsilver_shields_events.1;Your plans to usurp control of the Shields are mostly now in place, all that remains is the final details in your approach of the Captain.;;;;;;;;;;;;;;x
+EVTOPTAsilver_shields_events.1;Money makes the world go round.;;;;;;;;;;;;;;x
+EVTOPTBsilver_shields_events.1;I am owed a favor.;;;;;;;;;;;;;;x
+EVTOPTCsilver_shields_events.1;My words are enough.;;;;;;;;;;;;;;x
+EVTOPTDsilver_shields_events.1;Now is not the time.;;;;;;;;;;;;;;x
+EVTDESCsilver_shields_events.11;An envoy from [From.GetBestName] approaches you and turns over a bag of gold as he states, "My master wishes to speak with you";;;;;;;;;;;;;;x
+EVTOPTAsilver_shields_events.11;I'm very interested to speak with them.;;;;;;;;;;;;;;x
+EVTOPTBsilver_shields_events.11;I thank you, but I'm busy.;;;;;;;;;;;;;;x
+EVTDESCsilver_shields_events.12;An envoy from [From.GetBestName] approaches you and he states, "My master wishes to speak with you, [From.GetSheHe] reminds you of your promise.";;;;;;;;;;;;;;x
+EVTOPTAsilver_shields_events.12;I'm very interested to speak with them.;;;;;;;;;;;;;;x
+EVTOPTBsilver_shields_events.12;I thank you, but I'm busy.;;;;;;;;;;;;;;x
+EVTDESCsilver_shields_events.13;An envoy from [From.GetBestName] approaches you and he states, "My master wishes to speak with you, [From.GetSheHe] hopes you will not refuse.";;;;;;;;;;;;;;x
+EVTOPTAsilver_shields_events.13;I'm very interested to speak with them.;;;;;;;;;;;;;;x
+EVTOPTBsilver_shields_events.13;I thank you, but I'm busy.;;;;;;;;;;;;;;x
+EVTDESCsilver_shields_events.14a;Your envoy returns with [From.GetBestName] close behind, "I and the Shields are happy to serve.;;;;;;;;;;;;;;x
+EVTDESCsilver_shields_events.14b;Your envoy returns, [From.GetBestName] nowhere in sight, "I'm sorry my master, but [From.GetSheHe] refused to turn to your side.";;;;;;;;;;;;;;x
+EVTOPTAsilver_shields_events.14;With your strength, the Empire is mine.;;;;;;;;;;;;;;x
+EVTOPTBsilver_shields_events.14;DAMN YOU, [From.GetBestName]!;;;;;;;;;;;;;;x
+EVTDESCsilver_shields_events.15a;[From.GetBestName] has sent a message, "My master, I have been approached by [FromFrom.GetBestName]'s foreign agent in vain attempt to turn me from your command.";;;;;;;;;;;;;;x
+EVTDESCsilver_shields_events.15b;Urgent word arrives, it appears [From.GetBestName] has abandoned your command for that of [FromFrom.GetBestName];;;;;;;;;;;;;;x
+EVTOPTAsilver_shields_events.15;[From.GetBestName], your loyalty and honor are without equal.;;;;;;;;;;;;;;x
+EVTOPTBsilver_shields_events.15;DAMN YOU, [From.GetBestName]!;;;;;;;;;;;;;;x
+EVTDESCsilver_shields_events.2;Your plans to end the Shields' influence are mostly now in place, all that is required is your order.;;;;;;;;;;;;;;x
+EVTOPTAsilver_shields_events.2;Command them to the frontiers, let us end this.;;;;;;;;;;;;;;x
+EVTOPTDsilver_shields_events.2;Now is not the time.;;;;;;;;;;;;;;x
+EVTDESCsilver_shields_events.21;Orders arrive from [From.GetBestName], "The frontier is in chaos, raids increase by the day, only the might of the Silver Shields can restore order. You are hereby commanded to border".;;;;;;;;;;;;;;x
+EVTOPTAsilver_shields_events.21;As you command.;;;;;;;;;;;;;;x
+EVTOPTBsilver_shields_events.21;This is suspicious.;;;;;;;;;;;;;;x
+EVTDESCsilver_shields_events.22a;[From.GetBestName] falls to command, before long you recieve word that the Shields are all but obliterated. Their influence will no longer threaten your rule.;;;;;;;;;;;;;;x
+EVTDESCsilver_shields_events.22b;[From.GetBestName] sends reply to your orders, "My liege, I fear the strength of the Shields would be wasted on the borders, grave threats still linger in the empire and my men are needed here.";;;;;;;;;;;;;;x
+EVTOPTAsilver_shields_events.22;Excellent.;;;;;;;;;;;;;;x
+EVTOPTBsilver_shields_events.22;You dare disobey my orders?;;;;;;;;;;;;;;x
+

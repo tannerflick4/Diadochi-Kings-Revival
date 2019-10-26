@@ -431,12 +431,12 @@ character_event = { # Go Gently
 			factor = 70
 		}
 		d_silver_shields = {
-			activate_title = { title = d_silver_shields active = no }
-			destroy_title = THIS
+			activate_title = { title = d_silver_shields status = no }
+			destroy_landed_title = THIS
 		}
 		FROM = {
 			character_event = {
-				id = silver_shields_events.24
+				id = silver_shields_events.22
 			}
 		}
 	}
@@ -448,7 +448,7 @@ character_event = { # Go Gently
 		}
 		FROM = {
 			character_event = {
-				id = silver_shields_events.24
+				id = silver_shields_events.22
 			}
 		}
 	}
