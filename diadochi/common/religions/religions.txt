@@ -11,9 +11,9 @@ egyptian_religion = {
 	kemetic = {
 		graphical_culture = westerngfx
 
-		icon = 53
+		icon = 10
 		color = { 0.8 0.8 0.6 }
-		heresy_icon = 53
+		heresy_icon = 10
 		
 		crusade_name = "CRUSADE"
 		scripture_name = THE_BOOK_OF_THE_DEAD
@@ -78,7 +78,7 @@ egyptian_religion = {
 		graphical_culture = westerngfx
 		parent = kemetic
 
-		icon = 53
+		icon = 11
 		color = { 0.9 0.9 0.6 }
 		
 		crusade_name = "CRUSADE"
@@ -143,7 +143,7 @@ egyptian_religion = {
 	greco_kemetic = {
 		graphical_culture = westerngfx
 
-		icon = 53
+		icon = 12
 		color = { 0.7 0.7 0.6 }
 		
 		crusade_name = "CRUSADE"
@@ -219,7 +219,7 @@ north_african_religion = {
 	berber_main = {
 		graphical_culture = westerngfx
 
-		icon = 5
+		icon = 29
 		color = { 0.7 0.5 0 }
 		
 		crusade_name = "CRUSADE"
@@ -295,7 +295,7 @@ illyrian_religion = {
 	illyrian_main = {
 		graphical_culture = westerngfx
 
-		icon = 5
+		icon = 23
 		color = { 0.9 0.7 0 }
 		
 		crusade_name = "CRUSADE"
@@ -371,7 +371,7 @@ daco_thracian_religion = {
 	thracian_main = {
 		graphical_culture = westerngfx
 
-		icon = 5
+		icon = 24
 		color = { 0.8 0.4 0.1 }
 		
 		crusade_name = "CRUSADE"
@@ -436,7 +436,7 @@ daco_thracian_religion = {
 	zalmoxism = {
 		graphical_culture = westerngfx
 
-		icon = 5
+		icon = 25
 		color = { 0.1 0.5 0.8 }
 		
 		crusade_name = "CRUSADE"
@@ -512,7 +512,7 @@ celtic_religion = {
 	celtic_main = {
 		graphical_culture = westerngfx
 
-		icon = 67
+		icon = 19
 		color = { 0.2 0.6 0.2 }
 		
 		crusade_name = "CRUSADE"
@@ -588,7 +588,7 @@ punic_religion = {
 	punic_main = {
 		graphical_culture = westerngfx
 
-		icon = 5
+		icon = 8
 		color = { 0.1 0.7 0.1 }
 		
 		crusade_name = "CRUSADE"
@@ -650,7 +650,7 @@ punic_religion = {
 	canaanite_main = {
 		graphical_culture = westerngfx
 
-		icon = 5
+		icon = 9
 		color = { 0.1 0.7 0.1 }
 		
 		crusade_name = "CRUSADE"
@@ -722,7 +722,7 @@ indo_iranian_religion = {
 
 	zoroastrian_main = {
 		graphical_culture = westerngfx
-		icon = 10
+		icon = 3
 		color = { 0.3 0.6 0.3 }
 		crusade_name = "CRUSADE"
 		scripture_name = THE_GATHAS
@@ -782,7 +782,7 @@ indo_iranian_religion = {
 	zurvanism = {
 		graphical_culture = westerngfx
 
-		icon = 11
+		icon = 4
 		color = { 0 0.8 0 }
 		crusade_name = "CRUSADE"
 		scripture_name = THE_GATHAS
@@ -904,7 +904,7 @@ indo_iranian_religion = {
 	}
 	hinduism_main = {
 		graphical_culture = westerngfx
-		icon = 55
+		icon = 6
 		color = { 0.4 0.9 0.0 }
 		crusade_name = "CRUSADE"
 		scripture_name = THE_VEDAS
@@ -963,7 +963,7 @@ indo_iranian_religion = {
 	}
 	armenian_main = {
 		graphical_culture = westerngfx
-		icon = 5
+		icon = 7
 		color = { 0.6 0.0 0.0 }
 		crusade_name = "CRUSADE"
 		scripture_name = PLACEHOLDER
@@ -1033,7 +1033,7 @@ abrahamic_religion = {
 	
 	judaism_main = {
 		graphical_culture = westerngfx
-		icon = 52
+		icon = 16
 		color = { 0.5 0.5 0.0 }
 		crusade_name = "CRUSADE"
 		scripture_name = THE_TANAKH
@@ -1059,7 +1059,7 @@ indian_religion = {
 	
 	jainism_main = {
 		graphical_culture = westerngfx
-		icon = 5
+		icon = 13
 		color = { 0.9 0.7 0.2 }
 		crusade_name = "CRUSADE"
 		scripture_name = THE_AGAMAS
@@ -1186,7 +1186,7 @@ caucasian_religion = {
 	
 	georgian_main = {
 		graphical_culture = westerngfx
-		icon = 5
+		icon = 26
 		color = { 0.9 0.7 0.6 }
 		crusade_name = "CRUSADE"
 		scripture_name = PLACEHOLDER
@@ -1256,7 +1256,7 @@ anatolian_religion = {
 	
 	anatolian_main = {
 		graphical_culture = westerngfx
-		icon = 5
+		icon = 27
 		color = { 0.2 0.7 0.5 }
 		crusade_name = "CRUSADE"
 		scripture_name = PLACEHOLDER
@@ -1315,7 +1315,7 @@ anatolian_religion = {
 	}
 	phrygian_main = {
 		graphical_culture = westerngfx
-		icon = 5
+		icon = 28
 		color = { 0.2 0.7 0.7 }
 		crusade_name = "CRUSADE"
 		scripture_name = PLACEHOLDER
@@ -1385,7 +1385,7 @@ mesopotamian_religion = {
 	
 	marduk_cult = { # Mesopotamian
 		graphical_culture = westerngfx
-		icon = 5
+		icon = 18
 		color = { 0.3 0.5 1.0 }
 		crusade_name = "CRUSADE"
 		scripture_name = PLACEHOLDER
@@ -1455,7 +1455,7 @@ arabic_religion = {
 	
 	arabic_main = {
 		graphical_culture = westerngfx
-		icon = 51
+		icon = 30
 		color = { 0.5 0.7 0.2 }
 		crusade_name = "CRUSADE"
 		scripture_name = PLACEHOLDER
@@ -1526,7 +1526,7 @@ greek_religion = {
 	greek_main = {
 		graphical_culture = westerngfx
 
-		icon = 16
+		icon = 1
 		color = { 0.2 0.4 0.3 }
 		
 		crusade_name = "CRUSADE"
@@ -1589,7 +1589,7 @@ greek_religion = {
 	roman_main = {
 		graphical_culture = westerngfx
 
-		icon = 16
+		icon = 2
 		color = { 0.2 0.3 0.6 }
 		
 		crusade_name = "CRUSADE"
@@ -1651,7 +1651,7 @@ greek_religion = {
 	pontic_main = {
 		graphical_culture = westerngfx
 
-		icon = 16
+		icon = 1
 		color = { 0.1 0.7 0.5 }
 		
 		crusade_name = "CRUSADE"
@@ -1725,7 +1725,7 @@ italian_religion = {
 	etruscan_main = {
 		graphical_culture = westerngfx
 
-		icon = 5
+		icon = 17
 		color = { 0.1 0.5 0.8 }
 		
 		crusade_name = "CRUSADE"
@@ -1754,7 +1754,7 @@ dravidian_religion = {
 	dravidian_main = {
 		graphical_culture = westerngfx
 
-		icon = 5
+		icon = 15
 		color = { 0.1 0.5 0.8 }
 		
 		crusade_name = "CRUSADE"
@@ -1828,7 +1828,7 @@ lusitanian_religion = {
 	lusitanian_main = {
 		graphical_culture = westerngfx
 
-		icon = 5 # TODO: Use the right icon
+		icon = 20 # TODO: Use the right icon
 		color = { 0.62 0.19 0.06 }
 		
 		crusade_name = "CRUSADE"
@@ -1904,7 +1904,7 @@ iberian_religion = {
 	iberian_main = {
 		graphical_culture = westerngfx
 
-		icon = 5 # TODO: Use the right icon
+		icon = 22 # TODO: Use the right icon
 		color = { 0.9 0.8 0.9 }
 		
 		crusade_name = "CRUSADE"
@@ -1984,7 +1984,7 @@ aquitanian_religion = {
 	aquitanian_main = {
 		graphical_culture = westerngfx
 
-		icon = 5 # TODO: Use the right icon
+		icon = 21 # TODO: Use the right icon
 		color = { 0 0.76 0.31 }
 		
 		crusade_name = "CRUSADE"
