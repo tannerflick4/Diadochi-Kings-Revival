@@ -6,10 +6,10 @@ plot_win_silver_shields_title;Recruit the Shields;;;;;;;;;;;;;;x
 plot_win_silver_shields;Win over the Shields;;;;;;;;;;;;;;x
 plot_win_silver_shields_short;Recruit the Shields;;;;;;;;;;;;;;x
 plot_win_silver_shields_desc;The Silver Shields are a prestigous and powerful group, only you are fit to serve.;;;;;;;;;;;;;;x
-plot_win_silver_shields_title;Disband the Shields;;;;;;;;;;;;;;x
+plot_disband_silver_shields_title;Disband the Shields;;;;;;;;;;;;;;x
 plot_disband_silver_shields;Seek the End of the Shields;;;;;;;;;;;;;;x
-plot_win_silver_shields_short;Disband the Shields;;;;;;;;;;;;;;x
-plot_win_silver_shields_desc;The Silver Shields have grown too powerful and dangerous, as such they must be ended.;;;;;;;;;;;;;;x
+plot_disband_silver_shields_short;Disband the Shields;;;;;;;;;;;;;;x
+plot_disband_silver_shields_desc;The Silver Shields have grown too powerful and dangerous, as such they must be ended.;;;;;;;;;;;;;;x
 # Events
 EVTDESCsilver_shields_events.1;Your plans to usurp control of the Shields are mostly now in place, all that remains is the final details in your approach of the Captain.;;;;;;;;;;;;;;x
 EVTOPTAsilver_shields_events.1;Money makes the world go round.;;;;;;;;;;;;;;x
@@ -33,3 +33,14 @@ EVTDESCsilver_shields_events.15a;[From.GetBestName] has sent a message, "My mast
 EVTDESCsilver_shields_events.15b;Urgent word arrives, it appears [From.GetBestName] has abandoned your command for that of [FromFrom.GetBestName];;;;;;;;;;;;;;x
 EVTOPTAsilver_shields_events.15;[From.GetBestName], your loyalty and honor are without equal.;;;;;;;;;;;;;;x
 EVTOPTBsilver_shields_events.15;DAMN YOU, [From.GetBestName]!;;;;;;;;;;;;;;x
+EVTDESCsilver_shields_events.2;Your plans to end the Shields' influence are mostly now in place, all that is required is your order.;;;;;;;;;;;;;;x
+EVTOPTAsilver_shields_events.2;Command them to the frontiers, let us end this.;;;;;;;;;;;;;;x
+EVTOPTDsilver_shields_events.2;Now is not the time.;;;;;;;;;;;;;;x
+EVTDESCsilver_shields_events.21;Orders arrive from [From.GetBestName], "The frontier is in chaos, raids increase by the day, only the might of the Silver Shields can restore order. You are hereby commanded to border".;;;;;;;;;;;;;;x
+EVTOPTAsilver_shields_events.21;As you command.;;;;;;;;;;;;;;x
+EVTOPTDsilver_shields_events.21;This is suspicious.;;;;;;;;;;;;;;x
+EVTDESCsilver_shields_events.22a;[From.GetBestName] falls to command, before long you recieve word that the Shields are all but obliterated. Their influence will no longer threaten your rule.;;;;;;;;;;;;;;x
+EVTDESCsilver_shields_events.22a;[From.GetBestName] sends reply to your orders, "My liege, I fear the strength of the Shields would be wasted on the borders, grave threats still linger in the empire and my men are needed here.";;;;;;;;;;;;;;x
+EVTOPTAsilver_shields_events.22;Excellent.;;;;;;;;;;;;;;x
+EVTOPTBsilver_shields_events.22;You dare disobey my orders?;;;;;;;;;;;;;;x
+
