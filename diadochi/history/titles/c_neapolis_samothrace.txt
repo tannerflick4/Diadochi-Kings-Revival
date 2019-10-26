@@ -1,9 +1,5 @@
-417.1.1 = {
-	holder = 40114
-}
-418.1.1 = {
-	holder = 40115 # Berisades
-	liege = d_pangaion
+403.1.1 = { # 373 BC
+	holder = 55801 # Theophanes of the Neapolitoi
 }
 420.1.1 = { # 356 BC
 	holder = 803 # Philip II

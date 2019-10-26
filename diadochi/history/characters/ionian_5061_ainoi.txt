@@ -1,0 +1,90 @@
+# 55501-55600 for the Ainoi dynasty
+# All rulers here are made up to make Ainos playable.
+55501 = {
+	name = "Hipponax" # Made up
+	dynasty = 5061
+	culture = ionian
+	religion = greek_main
+	
+	369.1.1 = { # 407 BC
+		birth="yes"
+	}
+	421.1.1 = { # 355 BC
+		death="yes"
+	}
+}
+55502 = {
+	name = "Aristokles" # Made up
+	dynasty = 5061
+	culture = ionian
+	religion = greek_main
+
+    father = 55501
+	
+	386.1.1 = { # 390 BC
+		birth="yes"
+	}
+	411.1.1 = { # 365 BC
+		death="yes"
+	}
+}
+55503 = {
+	name = "Homeros" # Made up
+	dynasty = 5061
+	culture = ionian
+	religion = greek_main
+
+    father = 55502
+	
+	408.1.1 = { # 368 BC
+		birth="yes"
+	}
+	455.1.1 = { # 321 BC
+		death="yes"
+	}
+}
+55504 = {
+	name = "Homeros" # Made up
+	dynasty = 5061
+	culture = ionian
+	religion = greek_main
+
+    father = 55503
+	
+	428.1.1 = { # 348 BC
+		birth="yes"
+	}
+	451.1.1 = { # 325 BC
+		death="yes"
+	}
+}
+55505 = {
+	name = "Nikolaos" # Made up
+	dynasty = 5061
+	culture = ionian
+	religion = greek_main
+
+    father = 55504
+	
+	446.1.1 = { # 330 BC
+		birth="yes"
+	}
+	498.1.1 = { # 278 BC
+		death="yes"
+	}
+}
+55506 = {
+	name = "Homeros" # Made up
+	dynasty = 5061
+	culture = ionian
+	religion = greek_main
+
+    father = 55505
+	
+	483.1.1 = { # 293 BC
+		birth="yes"
+	}
+	543.1.1 = { # 233 BC
+		death="yes"
+	}
+}

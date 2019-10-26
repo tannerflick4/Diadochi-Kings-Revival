@@ -1,24 +1,24 @@
-417.1.1 = {
-	holder = 40114 # Kotys
+401.1.1 = { # 375 BC
+	holder = 24701 # Ekphantos
+}
+426.1.1 = { # 350 BC
+	holder = 24702 # Kleon
+}
+438.8.2 = { # 338 BC, Battle of Chaeronea
+	liege = e_macedonia
+}
+444.1.1 = { # 332 BC
+	holder = 24703 # Prodikos
+}
+453.6.9 = { # 323 BC
+	liege="k_s_thrace"
+}
+467.1.1 = { # 309 BC
 	liege = k_odrysia
 }
-418.1.1 = {
-	holder = 40119 #Kersobleptes
-	liege = d_odrysia
+495.2.1 = { # 281 BC
+	liege = 0
 }
-438.1.1 = {
-	holder = 40101
-}
-453.6.10 = {
-	holder = 30001 # Lysimachus
-	liege = k_s_thrace
-}
-467.1.1 = {
-	liege = k_odrysia
-}
-495.1.1 = {
-	holder = 604 # Ptolemaios Keraunos
-}
-495.2.1 = {
-	holder = 40102 # Cotys II
+503.1.1 = { # 273 BC
+	holder = 24704 # Kleon
 }

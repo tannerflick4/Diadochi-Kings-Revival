@@ -1,0 +1,24 @@
+416.1.1 = { # 360 BC
+	holder = 55401 # Arkesilas of the Perinthoi
+}
+438.1.1 = { # 338 BC
+	liege = e_macedonia
+}
+451.1.1 = { # 325 BC, Made up
+	holder = 55402 # Iphikrates of the Perinthoi
+}
+453.6.10 = { # 323 BC
+	liege = k_s_thrace
+}
+467.1.1 = { # 309 BC
+	liege = k_odrysia
+}
+474.1.1 = { # 302 BC, Made up
+	holder = 55403 # Ploutarchos of the Perinthoi
+}
+477.1.1 = { # 299 BC, Made up
+	holder = 55404 # Iphikrates of the Perinthoi
+}
+495.2.1 = { # 281 BC
+	liege = 0
+}

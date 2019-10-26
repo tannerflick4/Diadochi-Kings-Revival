@@ -1,0 +1,15 @@
+# 55801-55900 for the Neapolitoi dynasty
+# All rulers here are made up to make Neapolis (in Thrace) playable.
+55801 = {
+	name = "Theophanes" # Made up
+	dynasty = 5064
+	culture = ionian
+	religion = greek_main
+	
+	377.1.1 = { # 399 BC
+		birth="yes"
+	}
+	440.1.1 = { # 336 BC
+		death="yes"
+	}
+}

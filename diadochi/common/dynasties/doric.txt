@@ -212,3 +212,7 @@
 	name = "Athamanes"
 	culture = doric
 }
+2048 = {
+	name = "Mesembrioi"
+	culture = doric
+}

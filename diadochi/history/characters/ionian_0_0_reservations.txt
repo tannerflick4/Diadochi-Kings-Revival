@@ -53,4 +53,9 @@
 	# 55101-55200 for the Histrioi dynasty
 	# 55201-55300 for the Odessioi dynasty
 	# 55301-55400 for the Apollonioi dynasty
+	# 55401-55500 for the Perinthoi dynasty
+	# 55501-55600 for the Ainoi dynasty
+	# 55601-55700 for the Abderoi dynasty
+	# 55701-55800 for the Maroneioi dynasty
+	# 55801-55900 for the Neapolitoi dynasty
 	# 59901-60000 for the Lowborns

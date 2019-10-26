@@ -234,12 +234,12 @@ b_dikaia_abdera;Dikaia;;;;;;;;;;;;;;x
 b_topeiros_abdera;Topeiras;;;;;;;;;;;;;;x
 b_xantheia_abdera;Xantheia;;;;;;;;;;;;;;x
 b_stryme_abdera;Stryme;;;;;;;;;;;;;;x
-b_kardia_lysimachia;Kardia;;;;;;;;;;;;;;x
-b_aphrodisias_lysimachia;Aphrodisias;;;;;;;;;;;;;;x
-b_sestos_lysimachia;Sestos;;;;;;;;;;;;;;x
-b_agora_lysimachia;Agora;;;;;;;;;;;;;;x
-b_elaious_lysimachia;Elaious;;;;;;;;;;;;;;x
-b_lysimachia_lysimachia;Lysimachia;;;;;;;;;;;;;;x
+b_kardia_perinthus;Kardia;;;;;;;;;;;;;;x
+b_aphrodisias_perinthus;Aphrodisias;;;;;;;;;;;;;;x
+b_sestos_perinthus;Sestos;;;;;;;;;;;;;;x
+b_agora_perinthus;Agora;;;;;;;;;;;;;;x
+b_elaious_perinthus;Elaious;;;;;;;;;;;;;;x
+b_perinthus_perinthus;Lysimachia;;;;;;;;;;;;;;x
 b_byzantion_byzantion;Byzantion;;;;;;;;;;;;;;x
 b_chalcaea_byzantion;Khalkaia;;;;;;;;;;;;;;x
 b_perinthus_byzantion;Perinthus;;;;;;;;;;;;;;x
@@ -2388,13 +2388,13 @@ b_scretisca_serdika;Skretiska;;;;;;;;;;;;;x;
 b_burgaraca_serdika;Burgaraka;;;;;;;;;;;;;x;
 b_meldia_serdika;Meldia;;;;;;;;;;;;;x;
 b_kerdylion_amphipolis;Kerdylion;;;;;;;;;;;;;x;
-b_perinthus_lysimachia;Perinthos;;;;;;;;;;;;;x;
-b_aproi_lysimachia;Aproi;;;;;;;;;;;;;x;
-b_bisanthe_lysimachia;Bisanthe;;;;;;;;;;;;;x;
-b_panion_lysimachia;Panion;;;;;;;;;;;;;x;
-b_omoi_lysimachia;Omoi;;;;;;;;;;;;;x;
-b_mocasura_lysimachia;Mocasura;;;;;;;;;;;;;x;
-b_daunion_teichos_lysimachia;Daunion Teichos;;;;;;;;;;;;;x;
+b_perinthus_perinthus;Perinthos;;;;;;;;;;;;;x;
+b_aproi_perinthus;Aproi;;;;;;;;;;;;;x;
+b_bisanthe_perinthus;Bisanthe;;;;;;;;;;;;;x;
+b_panion_perinthus;Panion;;;;;;;;;;;;;x;
+b_omoi_perinthus;Omoi;;;;;;;;;;;;;x;
+b_mocasura_perinthus;Mocasura;;;;;;;;;;;;;x;
+b_daunion_teichos_perinthus;Daunion Teichos;;;;;;;;;;;;;x;
 b_kardia_thracian_chersonese;Kardia;;;;;;;;;;;;;x;
 b_sestos_thracian_chersonese;Sestos;;;;;;;;;;;;;x;
 b_pactya_thracian_chersonese;Paktya;;;;;;;;;;;;;x;

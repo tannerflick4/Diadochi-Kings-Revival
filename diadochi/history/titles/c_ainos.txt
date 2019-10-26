@@ -1,25 +1,24 @@
-405.1.1 = { # 371 BC
-	holder = 53501 # Euboulos
-	liege = k_r_athens
+401.1.1 = { # 375 BC
+	holder = 55501 # Hipponax of the Ainoi
+}
+421.1.1 = { # 355 BC
+	holder = 55503 # Homeros of the Ainoi
 }
 438.1.1 = { # 338 BC
-	holder = 803 # Philip II
 	liege = e_macedonia
 }
-440.10.1 = { # 336 BC
-	holder = 802 # Alexander
-}
 453.6.10 = { # 323 BC
-	holder = 30001 # Lysimachus
 	liege = k_s_thrace
+}
+455.1.1 = { # 321 BC
+	holder = 55505 # Nikolaos of the Ainoi
 }
 467.1.1 = { # 309 BC
 	liege = k_odrysia
 }
 495.2.1 = { # 281 BC
-	holder = 603 # Arsinoe II
-	liege = k_macedon
+	liege = e_syria
 }
-495.8.1 = { # 281 BC
-	holder = 604 # Ptolemaios Keraunos
+498.1.1 = { # 278 BC
+	holder = 55506 # Homeros of the Ainoi
 }

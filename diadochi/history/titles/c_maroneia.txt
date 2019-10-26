@@ -1,31 +1,27 @@
-417.1.1 = {
-	holder = 40114
+387.1.1 = { # 389 BC
+	holder = 55701 # Pausanias of the Maroneioi
 }
-418.1.1 = {
-	holder = 40115 # Berisades
-	liege = d_rhodope
+425.1.1 = { # 351 BC
+	holder = 55703 # Pausanias of the Maroneioi
 }
-424.1.1 = {
-	holder = 40116 # Ketriporis
+427.1.1 = { # 349 BC
+	holder = 55704 # Euripides of the Maroneioi
 }
-429.1.1 = {
-	holder = 803 # Philip II
+429.1.1 = { # 347 BC
 	liege = e_macedonia
 }
-440.10.1 = {
-	holder = 802
-}
-453.6.10 = {
-	holder = 30001 # Lysimachus
+453.6.10 = { # 323 BC
 	liege = k_s_thrace
 }
-467.1.1 = {
+467.1.1 = { # 309 BC
 	liege = k_odrysia
 }
-495.2.1 = {
-	holder = 603 # Arsinoe II
-	liege = k_macedon
+484.1.1 = { # 292 BC
+	holder = 55705 # Mantitheos of the Maroneioi
 }
-495.8.1 = {
-	holder = 604 # Ptolemaios Keraunos
+494.1.1 = { # 282 BC
+	holder = 55706 # Damasias of the Maroneioi
+}
+495.2.1 = { # 281 BC
+	liege = k_macedon
 }

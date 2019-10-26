@@ -12,7 +12,7 @@ b_aristaeum_mesembria = temple
 #b_erite_mesembria = city
 
 # Misc
-culture = ionian
+culture = doric
 religion = greek_main
 
 # History

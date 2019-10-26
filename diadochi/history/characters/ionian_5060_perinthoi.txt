@@ -1,0 +1,75 @@
+# 55401-55500 for the Perinthoi dynasty
+# All rulers here are made up to make Apollonia in Thrace playable.
+55401 = {
+	name = "Arkesilas"
+	dynasty = 5060
+	culture = ionian
+	religion = greek_main
+	
+	393.1.1 = { # 383 BC, Made up
+		birth="yes"
+	}
+	451.1.1 = { # 325 BC, Made up
+		death="yes"
+	}
+}
+55402 = {
+	name = "Iphikrates"
+	dynasty = 5060
+	culture = ionian
+	religion = greek_main
+
+    father = 55401
+	
+	425.1.1 = { # 351 BC, Made up
+		birth="yes"
+	}
+	474.1.1 = { # 302 BC, Made up
+		death="yes"
+	}
+}
+55403 = {
+	name = "Ploutarchos"
+	dynasty = 5060
+	culture = ionian
+	religion = greek_main
+
+    father = 55402
+	
+	443.1.1 = { # 333 BC, Made up
+		birth="yes"
+	}
+	477.1.1 = { # 299 BC, Made up
+		death="yes"
+	}
+}
+55404 = {
+	name = "Iphikrates"
+	dynasty = 5060
+	culture = ionian
+	religion = greek_main
+
+    father = 55403
+	
+	458.1.1 = { # 318 BC, Made up
+		birth="yes"
+	}
+	519.1.1 = { # 257 BC, Made up
+		death="yes"
+	}
+}
+55405 = {
+	name = "Eutychios"
+	dynasty = 5060
+	culture = ionian
+	religion = greek_main
+
+    father = 55404
+	
+	480.1.1 = { # 296 BC, Made up
+		birth="yes"
+	}
+	507.1.1 = { # 269 BC, Made up
+		death="yes"
+	}
+}

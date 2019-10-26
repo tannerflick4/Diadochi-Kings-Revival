@@ -842,23 +842,23 @@ k_odrysia = {
 		color= { 150 75 25 }
 		color2= { 255 255 255 }
 	
-		c_lysimachia = {
+		c_perinthus = {
 			color= { 150 65 35 }
 			color2= { 255 255 255 }
 					
-			b_perinthus_lysimachia = {
+			b_perinthus_perinthus = {
 			}
-			b_aproi_lysimachia = {
+			b_aproi_perinthus = {
 			}
-			b_bisanthe_lysimachia = {
+			b_bisanthe_perinthus = {
 			}
-			b_panion_lysimachia = {
+			b_panion_perinthus = {
 			}
-			b_omoi_lysimachia = {
+			b_omoi_perinthus = {
 			}
-			b_mocasura_lysimachia = {
+			b_mocasura_perinthus = {
 			}
-			b_daunion_teichos_lysimachia = {
+			b_daunion_teichos_perinthus = {
 			}
 		}
 		c_byzantion = {

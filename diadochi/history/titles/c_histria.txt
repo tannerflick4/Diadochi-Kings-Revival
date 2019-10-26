@@ -8,12 +8,15 @@
 437.1.1 = { # 339 BC
 	liege = e_macedonia
 }
-453.6.10 = { # 323 BC
-	liege = d_odrysia
+453.6.9 = { # 323 BC
+	liege="k_s_thrace"
+}
+467.1.1 = { # 309 BC
+	liege = k_odrysia
 }
 477.1.1 = { # 299 BC
 	holder = 55104 # Epikouros
 }
 495.2.1 = { # 281 BC
-	liege = k_odrysia
+	liege = 0
 }

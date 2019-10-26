@@ -1,0 +1,58 @@
+# 24701-24800 for the Mesembrioi dynasty
+24701 = {
+	name = "Ekphantos" # Made Up
+	dynasty = 2048
+	religion = greek_main
+	culture = doric	
+	371.1.1 = { # 405 BC
+		birth="yes" 
+	}
+	426.1.1 = { # 350 BC
+		death="yes"
+	}
+}
+24702 = {
+	name = "Kleon" # Made Up
+	dynasty = 2048
+	religion = greek_main
+	culture = doric
+
+    father = 24701
+
+	412.1.1 = { # 364 BC
+		birth="yes" 
+	}
+	444.1.1 = { # 332 BC
+		death="yes"
+	}
+}
+24703 = {
+	name = "Prodikos" # Made Up
+	dynasty = 2048
+	religion = greek_main
+	culture = doric
+
+    father = 24702
+
+	437.1.1 = { # 339 BC
+		birth="yes"
+	}
+	503.1.1 = { # 273 BC
+		death="yes"
+	}
+}
+24704 = {
+	name = "Kleon" # Made Up
+	dynasty = 2048
+	religion = greek_main
+	culture = doric
+
+    father = 24703
+
+	471.1.1 = { # 305 BC
+		birth="yes" 
+	}
+	530.1.1 = { # 246 BC
+		death="yes"
+	}
+}

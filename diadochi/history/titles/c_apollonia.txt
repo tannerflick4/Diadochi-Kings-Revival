@@ -1,15 +1,14 @@
 417.1.1 = { # 359 BC
 	holder = 55301 # Heron
-	liege = k_odrysia
-}
-418.1.1 = { # 358 BC
-	liege = d_odrysia
 }
 442.1.1 = { # 339 BC
 	holder = 55302 # Kallias
 }
-453.6.10 = { # 323 BC
-	liege = k_s_thrace
+438.8.2 = { # 338 BC, Battle of Chaeronea
+	liege = e_macedonia
+}
+453.6.9 = { # 323 BC
+	liege="k_s_thrace"
 }
 467.1.1 = { # 309 BC
 	liege = k_odrysia
@@ -19,4 +18,7 @@
 }
 471.1.1 = { # 305 BC
 	holder = 55304 # Kallias
+}
+495.2.1 = { # 281 BC
+	liege = 0
 }

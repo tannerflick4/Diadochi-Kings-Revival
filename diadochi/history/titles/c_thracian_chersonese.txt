@@ -17,9 +17,9 @@
 	liege = k_odrysia
 }
 495.2.1 = { # 281 BC
-	holder = 603 # Arsinoe II
-	liege = k_macedon
+	holder = 1001 # Seleukos I
+	liege = e_syria
 }
 495.8.1 = { # 281 BC
-	holder = 604 # Ptolemaios Keraunos
+	holder = 1002 # Antiochos I
 }

@@ -1,0 +1,90 @@
+# 55601-55700 for the Abderoi dynasty
+# All rulers here are made up to make Abdera playable.
+55601 = {
+	name = "Xenon" # Made up
+	dynasty = 5062
+	culture = ionian
+	religion = greek_main
+	
+	381.1.1 = { # 395 BC
+		birth="yes"
+	}
+	448.1.1 = { # 328 BC
+		death="yes"
+	}
+}
+55602 = {
+	name = "Hiketas" # Made up
+	dynasty = 5062
+	culture = ionian
+	religion = greek_main
+
+    father = 55601
+	
+	399.1.1 = { # 377 BC
+		birth="yes"
+	}
+	450.1.1 = { # 326 BC
+		death="yes"
+	}
+}
+55603 = {
+	name = "Epaphroditos" # Made up
+	dynasty = 5062
+	culture = ionian
+	religion = greek_main
+
+    father = 55602
+	
+	427.1.1 = { # 349 BC
+		birth="yes"
+	}
+	463.1.1 = { # 313 BC
+		death="yes"
+	}
+}
+55604 = {
+	name = "Xenon" # Made up
+	dynasty = 5062
+	culture = ionian
+	religion = greek_main
+
+    father = 55603
+	
+	448.1.1 = { # 328 BC
+		birth="yes"
+	}
+	477.1.1 = { # 299 BC
+		death="yes"
+	}
+}
+55605 = {
+	name = "Artemidoros" # Made up
+	dynasty = 5062
+	culture = ionian
+	religion = greek_main
+
+    father = 55604
+	
+	470.1.1 = { # 306 BC
+		birth="yes"
+	}
+	529.1.1 = { # 247 BC
+		death="yes"
+	}
+}
+55606 = {
+	name = "Hiketas" # Made up
+	dynasty = 5062
+	culture = ionian
+	religion = greek_main
+
+    father = 55605
+	
+	493.1.1 = { # 283 BC
+		birth="yes"
+	}
+	520.1.1 = { # 256 BC
+		death="yes"
+	}
+}

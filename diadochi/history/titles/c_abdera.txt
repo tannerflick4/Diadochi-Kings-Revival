@@ -1,31 +1,27 @@
-417.1.1 = {
-	holder = 40114
+406.1.1 = { # 370 BC
+	holder = 55601 # Xenon of the Abderoi
 }
-418.1.1 = {
-	holder = 40115 # Berisades
-	liege = d_rhodope
-}
-424.1.1 = {
-	holder = 40116 # Ketriporis
-}
-429.1.1 = {
-	holder = 803 # Philip II
+429.1.1 = { # 347 BC
 	liege = e_macedonia
 }
-440.10.1 = {
-	holder = 802
+448.1.1 = { # 328 BC
+	holder = 55602 # Hiketas of the Abderoi
 }
-453.6.10 = {
-	holder = 30001 # Lysimachus
+450.1.1 = { # 326 BC
+	holder = 55603 # Epaphroditos of the Abderoi
+}
+453.6.10 = { # 323 BC
 	liege = k_s_thrace
 }
-467.1.1 = {
+463.1.1 = { # 313 BC
+	holder = 55604 # Xenon of the Abderoi
+}
+467.1.1 = { # 309 BC
 	liege = k_odrysia
 }
-495.2.1 = {
-	holder = 603 # Arsinoe II
-	liege = k_macedon
+477.1.1 = { # 299 BC
+	holder = 55605 # Artemidoros of the Abderoi
 }
-495.8.1 = {
-	holder = 604 # Ptolemaios Keraunos
+495.2.1 = { # 281 BC
+	liege = k_macedon
 }

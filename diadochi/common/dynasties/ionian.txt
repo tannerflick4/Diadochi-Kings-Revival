@@ -226,3 +226,23 @@
 	name = "Apollonioi"
 	culture = ionian
 }
+5060 = {
+	name = "Perinthoi"
+	culture = ionian
+}
+5061 = {
+	name = "Ainoi"
+	culture = ionian
+}
+5062 = {
+	name = "Abderoi"
+	culture = ionian
+}
+5063 = {
+	name = "Maroneioi"
+	culture = ionian
+}
+5064 = {
+	name = "Neapolitoi"
+	culture = ionian
+}

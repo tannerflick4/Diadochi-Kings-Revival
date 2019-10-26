@@ -1,0 +1,90 @@
+# 55701-55800 for the Maroneioi dynasty
+# All rulers here are made up to make Maroneia playable.
+55701 = {
+	name = "Pausanias" # Made up
+	dynasty = 5063
+	culture = ionian
+	religion = greek_main
+	
+	349.1.1 = { # 427 BC
+		birth="yes"
+	}
+	425.1.1 = { # 351 BC
+		death="yes"
+	}
+}
+55702 = {
+	name = "Mantitheos" # Made up
+	dynasty = 5063
+	culture = ionian
+	religion = greek_main
+
+    father = 55701
+	
+	380.1.1 = { # 396 BC
+		birth="yes"
+	}
+	406.1.1 = { # 370 BC
+		death="yes"
+	}
+}
+55703 = {
+	name = "Pausanias" # Made up
+	dynasty = 5063
+	culture = ionian
+	religion = greek_main
+
+    father = 55702
+	
+	403.1.1 = { # 373 BC
+		birth="yes"
+	}
+	427.1.1 = { # 349 BC
+		death="yes"
+	}
+}
+55704 = {
+	name = "Euripides" # Made up
+	dynasty = 5063
+	culture = ionian
+	religion = greek_main
+
+    father = 55703
+	
+	417.1.1 = { # 359 BC
+		birth="yes"
+	}
+	484.1.1 = { # 292 BC
+		death="yes"
+	}
+}
+55705 = {
+	name = "Mantitheos" # Made up
+	dynasty = 5063
+	culture = ionian
+	religion = greek_main
+
+    father = 55704
+	
+	443.1.1 = { # 333 BC
+		birth="yes"
+	}
+	494.1.1 = { # 282 BC
+		death="yes"
+	}
+}
+55706 = {
+	name = "Damasias" # Made up
+	dynasty = 5063
+	culture = ionian
+	religion = greek_main
+
+    father = 55705
+	
+	477.1.1 = { # 299 BC
+		birth="yes"
+	}
+	515.1.1 = { # 261 BC
+		death="yes"
+	}
+}
