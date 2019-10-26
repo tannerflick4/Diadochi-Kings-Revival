@@ -4,6 +4,8 @@
 
 # Gain one of a vassal's landed titles
 plot_win_silver_shields = {
+	type = character
+
 	# Plotter scope
 	potential = {
 		is_playable = yes
@@ -75,10 +77,6 @@ plot_win_silver_shields = {
 			factor = 4.0
 			FROM = { trait = ambitious }
 		}
-		modifier = {
-			factor = 4.0
-			FROM = { trait = ambitious }
-		}
 	}
 	
 	success = {
@@ -119,6 +117,8 @@ plot_win_silver_shields = {
 }
 # Gain one of a vassal's landed titles
 plot_disband_silver_shields = {
+	type = character
+
 	# Plotter scope
 	potential = {
 		is_playable = yes
@@ -176,10 +176,6 @@ plot_disband_silver_shields = {
 		modifier = {
 			factor = 0.2
 			FROM = { trait = kind }
-		}
-		modifier = {
-			factor = 4.0
-			FROM = { trait = ambitious }
 		}
 		modifier = {
 			factor = 4.0
