@@ -38,9 +38,9 @@ EVTOPTAsilver_shields_events.2;Command them to the frontiers, let us end this.;;
 EVTOPTDsilver_shields_events.2;Now is not the time.;;;;;;;;;;;;;;x
 EVTDESCsilver_shields_events.21;Orders arrive from [From.GetBestName], "The frontier is in chaos, raids increase by the day, only the might of the Silver Shields can restore order. You are hereby commanded to border".;;;;;;;;;;;;;;x
 EVTOPTAsilver_shields_events.21;As you command.;;;;;;;;;;;;;;x
-EVTOPTDsilver_shields_events.21;This is suspicious.;;;;;;;;;;;;;;x
+EVTOPTBsilver_shields_events.21;This is suspicious.;;;;;;;;;;;;;;x
 EVTDESCsilver_shields_events.22a;[From.GetBestName] falls to command, before long you recieve word that the Shields are all but obliterated. Their influence will no longer threaten your rule.;;;;;;;;;;;;;;x
-EVTDESCsilver_shields_events.22a;[From.GetBestName] sends reply to your orders, "My liege, I fear the strength of the Shields would be wasted on the borders, grave threats still linger in the empire and my men are needed here.";;;;;;;;;;;;;;x
+EVTDESCsilver_shields_events.22b;[From.GetBestName] sends reply to your orders, "My liege, I fear the strength of the Shields would be wasted on the borders, grave threats still linger in the empire and my men are needed here.";;;;;;;;;;;;;;x
 EVTOPTAsilver_shields_events.22;Excellent.;;;;;;;;;;;;;;x
 EVTOPTBsilver_shields_events.22;You dare disobey my orders?;;;;;;;;;;;;;;x
 
