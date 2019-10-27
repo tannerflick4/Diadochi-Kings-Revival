@@ -1,17 +1,25 @@
-417.1.1 = {
-	holder = 40114 # Kotys
+416.1.1 = { # 360 BC
+	holder = 41401 # Hebryzelmis of the Nipsaei
 	liege = k_odrysia
 }
-418.1.1 = {
-	holder = 40119 #Kersobleptes
+418.1.1 = { # 358 BC
+	liege = d_moesia
+}
+420.1.1 = { # 356 BC
+	holder = 41402 # Beithys of the Nipsaei
+}
+438.1.1 = { # 338 BC
 	liege = d_odrysia
 }
-438.1.1 = {
-	holder = 40101
+443.1.1 = { # 333 BC
+	holder = 41403 # Zibelmius of the Nipsaei
 }
-476.1.1 = {
-	holder = 40102 # Cotys II
+463.1.1 = { # 313 BC
+	holder = 41404 # Pleuratus of the Nipsaei
 }
-495.2.1 = {
+482.1.1 = { # 294 BC
+	holder = 41405 # Zibelmius of the Nipsaei
+}
+495.2.1 = { # 281 BC
 	liege = k_odrysia
 }

@@ -108,7 +108,7 @@
 	culture = thracian
 }
 4028 = {
-	name = "Maedobythini"
+	name = "Maedobithyni"
 	culture = thracian
 }
 4029 = {
@@ -116,7 +116,7 @@
 	culture = thracian
 }
 4030 = {
-	name = "Melanophagi"
+	name = "Melinophagi"
 	culture = thracian
 }
 4031 = {
@@ -189,5 +189,13 @@
 }
 4048 = {
 	name = "Moesi"
+	culture = thracian
+}
+4049 = {
+	name = "Bistones"
+	culture = thracian
+}
+4050 = {
+	name = "Asti"
 	culture = thracian
 }

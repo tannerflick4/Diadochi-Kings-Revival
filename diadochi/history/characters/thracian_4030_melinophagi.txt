@@ -1,0 +1,90 @@
+# 40501-40600 for the Melinophagi dynasty
+# Characters are made up to allow a playable Melinophagi tribe
+40501 = {
+	name = "Cosingas"
+	dynasty = 4030
+	religion = thracian_main
+	culture = thracian
+    
+	370.1.1 = { # 406 BC
+		birth="yes"
+	}
+	419.1.1 = { # 357 BC
+		death="yes"
+	}
+}
+40502 = {
+	name = "Berisades"
+	dynasty = 4030
+	religion = thracian_main
+	culture = thracian
+
+    father = 40501
+    
+	397.1.1 = { # 379 BC
+		birth="yes"
+	}
+	437.1.1 = { # 339 BC
+		death="yes"
+	}
+}
+40503 = {
+	name = "Cosingas"
+	dynasty = 4030
+	religion = thracian_main
+	culture = thracian
+
+    father = 40502
+    
+	413.1.1 = { # 363 BC
+		birth="yes"
+	}
+	468.1.1 = { # 308 BC
+		death="yes"
+	}
+}
+40504 = {
+	name = "Bergaios"
+	dynasty = 4030
+	religion = thracian_main
+	culture = thracian
+
+    father = 40503
+    
+	449.1.1 = { # 327 BC
+		birth="yes"
+	}
+	475.1.1 = { # 301 BC
+		death="yes"
+	}
+}
+40505 = {
+	name = "Olorus"
+	dynasty = 4030
+	religion = thracian_main
+	culture = thracian
+
+    father = 40504
+    
+	466.1.1 = { # 310 BC
+		birth="yes"
+	}
+	501.1.1 = { # 275 BC
+		death="yes"
+	}
+}
+40506 = {
+	name = "Cosingas"
+	dynasty = 4030
+	religion = thracian_main
+	culture = thracian
+
+    father = 40505
+    
+	492.1.1 = { # 284 BC
+		birth="yes"
+	}
+	530.1.1 = { # 246 BC
+		death="yes"
+	}
+}

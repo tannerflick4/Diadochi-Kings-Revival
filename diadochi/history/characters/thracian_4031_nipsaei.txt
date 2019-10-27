@@ -1,0 +1,75 @@
+# 41401-41500 for the Nipsaei dynasty
+# Characters are made up to allow a playable Bessi tribe
+41401 = {
+	name = "Hebryzelmis"
+	dynasty = 4031
+	religion = thracian_main
+	culture = thracian
+    
+	373.1.1 = { # 403 BC
+		birth="yes"
+	}
+	420.1.1 = { # 356 BC
+		death="yes"
+	}
+}
+41402 = {
+	name = "Beithys"
+	dynasty = 4031
+	religion = thracian_main
+	culture = thracian
+
+    father = 41401
+    
+	400.1.1 = { # 376 BC
+		birth="yes"
+	}
+	443.1.1 = { # 333 BC
+		death="yes"
+	}
+}
+41403 = {
+	name = "Zibelmius"
+	dynasty = 4031
+	religion = thracian_main
+	culture = thracian
+
+    father = 41402
+    
+	425.1.1 = { # 351 BC
+		birth="yes"
+	}
+	463.1.1 = { # 313 BC
+		death="yes"
+	}
+}
+41404 = {
+	name = "Pleuratus"
+	dynasty = 4031
+	religion = thracian_main
+	culture = thracian
+
+    father = 41403
+    
+	454.1.1 = { # 322 BC
+		birth="yes"
+	}
+	482.1.1 = { # 294 BC
+		death="yes"
+	}
+}
+41405 = {
+	name = "Zibelmius"
+	dynasty = 4031
+	religion = thracian_main
+	culture = thracian
+
+    father = 41404
+    
+	473.1.1 = { # 303 BC
+		birth="yes"
+	}
+	528.1.1 = { # 248 BC
+		death="yes"
+	}
+}

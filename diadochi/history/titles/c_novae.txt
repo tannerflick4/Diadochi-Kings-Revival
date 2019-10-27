@@ -1,20 +1,19 @@
-417.1.1 = {
-	holder = 40114
+394.1.1 = { # 382 BC
+	holder = 41201 # Seuthes of the Scyrmiadae
+	liege = k_odrysia
 }
-418.1.1 = {
-	holder = 40124 # Amadocus
+418.1.1 = { # 358 BC
 	liege = d_moesia
 }
-425.1.1 = {
-	holder = 40125 # Teres
+433.1.1 = { # 343 BC
+	holder = 41204 # Etazeta of the Scyrmiadae
 }
-438.1.1 = {
-	holder = 40101
+438.1.1 = { # 338 BC
 	liege = d_odrysia
 }
-476.1.1 = {
-	holder = 40102 # Cotys II
+489.1.1 = { # 287 BC
+	holder = 41206 # Teres of the Scyrmiadae
 }
-495.2.1 = {
+495.2.1 = { # 281 BC
 	liege = k_odrysia
 }

@@ -1,0 +1,90 @@
+# 41001-41100 for the Tilataei dynasty
+# Characters are made up to allow a playable Tilataei tribe
+41001 = {
+	name = "Raiskoyporis"
+	dynasty = 4042
+	religion = thracian_main
+	culture = thracian
+    
+	387.1.1 = { # 389 BC
+		birth="yes"
+	}
+	434.1.1 = { # 342 BC
+		death="yes"
+	}
+}
+41002 = {
+	name = "Teres"
+	dynasty = 4042
+	religion = thracian_main
+	culture = thracian
+
+    father = 41001
+    
+	412.1.1 = { # 364 BC
+		birth="yes"
+	}
+	471.1.1 = { # 305 BC
+		death="yes"
+	}
+}
+41003 = {
+	name = "Teres"
+	dynasty = 4042
+	religion = thracian_main
+	culture = thracian
+
+    father = 41002
+    
+	428.1.1 = { # 348 BC
+		birth="yes"
+	}
+	455.1.1 = { # 321 BC
+		death="yes"
+	}
+}
+41004 = {
+	name = "Roigos"
+	dynasty = 4042
+	religion = thracian_main
+	culture = thracian
+
+    father = 41003
+    
+	444.1.1 = { # 332 BC
+		birth="yes"
+	}
+	455.1.1 = { # 310 BC
+		death="yes"
+	}
+}
+41005 = {
+	name = "Dromichaetes"
+	dynasty = 4042
+	religion = thracian_main
+	culture = thracian
+
+    father = 41004
+    
+	461.1.1 = { # 315 BC
+		birth="yes"
+	}
+	503.1.1 = { # 273 BC
+		death="yes"
+	}
+}
+41006 = {
+	name = "Syrmus"
+	dynasty = 4042
+	religion = thracian_main
+	culture = thracian
+
+    father = 41004
+    
+	491.1.1 = { # 285 BC
+		birth="yes"
+	}
+	539.1.1 = { # 237 BC
+		death="yes"
+	}
+}

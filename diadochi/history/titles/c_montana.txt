@@ -1,25 +1,22 @@
-417.1.1 = {
-	holder = 40114
+410.1.1 = { # 366 BC
+	holder = 41001 # Raiskoyporis of the Tilataei
+	liege = k_odrysia
 }
-418.1.1 = {
-	holder = 40124 # Amadocus
-	liege = d_moesia
+418.1.1 = { # 358 BC
+	liege = d_pangaion
 }
-425.1.1 = {
-	holder = 40125 # Teres
+434.1.1 = { # 342 BC
+	holder = 41002 # Teres of the Tilataei
 }
-438.1.1 = {
-	holder = 40101
-	liege = d_odrysia
-}
-453.6.10 = {
+438.1.1 = { # 338 BC
 	liege="d_odrysia"
-	holder = 40101
 }
-476.1.1 = {
-	holder = 40102 # Cotys II
+471.1.1 = { # 305 BC
+	holder = 41005 # Dromichaetes of the Tilataei
 }
 478.1.1 = { # 298 BC
-	holder = 230704 # Molistomos
 	liege = k_tylis
+}
+503.1.1 = { # 273 BC
+	holder = 41006 # Syrmus of the Tilataei
 }

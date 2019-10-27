@@ -1,0 +1,75 @@
+# 40601-40700 for the Bistones dynasty
+# Characters are made up to allow a playable Bistones tribe
+40601 = {
+	name = "Rhescuporis"
+	dynasty = 4049
+	religion = thracian_main
+	culture = thracian
+    
+	394.1.1 = { # 382 BC
+		birth="yes"
+	}
+	428.1.1 = { # 348 BC
+		death="yes"
+	}
+}
+40602 = {
+	name = "Rhoemetalces"
+	dynasty = 4049
+	religion = thracian_main
+	culture = thracian
+
+    father = 40601
+    
+	417.1.1 = { # 359 BC
+		birth="yes"
+	}
+	463.1.1 = { # 313 BC
+		death="yes"
+	}
+}
+40603 = {
+	name = "Langarus"
+	dynasty = 4049
+	religion = thracian_main
+	culture = thracian
+
+    father = 40602
+    
+	437.1.1 = { # 339 BC
+		birth="yes"
+	}
+	455.1.1 = { # 321 BC
+		death="yes"
+	}
+}
+40604 = {
+	name = "Langarus"
+	dynasty = 4049
+	religion = thracian_main
+	culture = thracian
+
+    father = 40603
+    
+	453.1.1 = { # 323 BC
+		birth="yes"
+	}
+	500.1.1 = { # 276 BC
+		death="yes"
+	}
+}
+40605 = {
+	name = "Berisades"
+	dynasty = 4049
+	religion = thracian_main
+	culture = thracian
+
+    father = 40604
+    
+	472.1.1 = { # 304 BC
+		birth="yes"
+	}
+	507.1.1 = { # 269 BC
+		death="yes"
+	}
+}

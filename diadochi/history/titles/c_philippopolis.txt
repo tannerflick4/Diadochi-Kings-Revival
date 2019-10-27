@@ -1,20 +1,19 @@
-417.1.1 = {
-	holder = 40114
+415.1.1 = { # 361 BC
+	holder = 40801 # Cothelas of the Dii
+	liege = k_odrysia
 }
-418.1.1 = {
-	holder = 40124 # Amadocus
-	liege = d_moesia
+418.1.1 = { # 358 BC
+	liege = d_rhodope
 }
-425.1.1 = {
-	holder = 40125 # Teres
-}
-438.1.1 = {
-	holder = 40101
+438.1.1 = { # 338 BC
 	liege = d_odrysia
 }
-476.1.1 = {
-	holder = 40102 # Cotys II
+439.1.1 = { # 337 BC
+	holder = 40802 # Amadocus of the Dii
 }
-495.2.1 = {
+455.1.1 = { # 321 BC
+	holder = 40803 # Diegylis of the Dii
+}
+495.2.1 = { # 281 BC
 	liege = k_odrysia
 }

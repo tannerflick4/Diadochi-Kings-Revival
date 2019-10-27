@@ -1,0 +1,75 @@
+# 41101-41200 for the Crobyzi dynasty
+# Characters are made up to allow a playable Crobyzi tribe
+41101 = {
+	name = "Sadalas"
+	dynasty = 4025
+	religion = thracian_main
+	culture = thracian
+    
+	382.1.1 = { # 394 BC
+		birth="yes"
+	}
+	421.1.1 = { # 355 BC
+		death="yes"
+	}
+}
+41102 = {
+	name = "Doedalses"
+	dynasty = 4025
+	religion = thracian_main
+	culture = thracian
+
+    father = 41101
+    
+	401.1.1 = { # 375 BC
+		birth="yes"
+	}
+	435.1.1 = { # 341 BC
+		death="yes"
+	}
+}
+41103 = {
+	name = "Seuthes"
+	dynasty = 4025
+	religion = thracian_main
+	culture = thracian
+
+    father = 41102
+    
+	428.1.1 = { # 348 BC
+		birth="yes"
+	}
+	455.1.1 = { # 321 BC
+		death="yes"
+	}
+}
+41104 = {
+	name = "Etazeta"
+	dynasty = 4025
+	religion = thracian_main
+	culture = thracian
+
+    father = 41103
+    
+	442.1.1 = { # 334 BC
+		birth="yes"
+	}
+	507.1.1 = { # 269 BC
+		death="yes"
+	}
+}
+41105 = {
+	name = "Raizdos"
+	dynasty = 4025
+	religion = thracian_main
+	culture = thracian
+
+    father = 41104
+    
+	464.1.1 = { # 312 BC
+		birth="yes"
+	}
+	522.1.1 = { # 254 BC
+		death="yes"
+	}
+}

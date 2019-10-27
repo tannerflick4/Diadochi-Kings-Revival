@@ -1,0 +1,90 @@
+# 41201-41300 for the Scyrmiadae dynasty
+# Characters are made up to allow a playable Tilataei tribe
+41201 = {
+	name = "Seuthes"
+	dynasty = 4038
+	religion = thracian_main
+	culture = thracian
+    
+	369.1.1 = { # 407 BC
+		birth="yes"
+	}
+	433.1.1 = { # 343 BC
+		death="yes"
+	}
+}
+41202 = {
+	name = "Doedalses"
+	dynasty = 4038
+	religion = thracian_main
+	culture = thracian
+
+    father = 41201
+    
+	392.1.1 = { # 384 BC
+		birth="yes"
+	}
+	427.1.1 = { # 349 BC
+		death="yes"
+	}
+}
+41203 = {
+	name = "Pleurates"
+	dynasty = 4038
+	religion = thracian_main
+	culture = thracian
+
+    father = 41202
+    
+	409.1.1 = { # 367 BC
+		birth="yes"
+	}
+	431.1.1 = { # 345 BC
+		death="yes"
+	}
+}
+41204 = {
+	name = "Etazeta"
+	dynasty = 4038
+	religion = thracian_main
+	culture = thracian
+
+    father = 41203
+    
+	428.1.1 = { # 348 BC
+		birth="yes"
+	}
+	489.1.1 = { # 287 BC
+		death="yes"
+	}
+}
+41205 = {
+	name = "Getas"
+	dynasty = 4038
+	religion = thracian_main
+	culture = thracian
+
+    father = 41204
+    
+	443.1.1 = { # 333 BC
+		birth="yes"
+	}
+	478.1.1 = { # 298 BC
+		death="yes"
+	}
+}
+41206 = {
+	name = "Teres"
+	dynasty = 4038
+	religion = thracian_main
+	culture = thracian
+
+    father = 41205
+    
+	477.1.1 = { # 299 BC
+		birth="yes"
+	}
+	522.1.1 = { # 255 BC
+		death="yes"
+	}
+}

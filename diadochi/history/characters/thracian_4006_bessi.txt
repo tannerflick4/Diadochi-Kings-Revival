@@ -1,0 +1,75 @@
+# 40901-41000 for the Bessi dynasty
+# Characters are made up to allow a playable Bessi tribe
+40901 = {
+	name = "Rhoemetalces"
+	dynasty = 4006
+	religion = thracian_main
+	culture = thracian
+    
+	393.1.1 = { # 383 BC
+		birth="yes"
+	}
+	439.1.1 = { # 337 BC
+		death="yes"
+	}
+}
+40902 = {
+	name = "Roigos"
+	dynasty = 4006
+	religion = thracian_main
+	culture = thracian
+
+    father = 40901
+    
+	421.1.1 = { # 355 BC
+		birth="yes"
+	}
+	438.1.1 = { # 338 BC
+		death="yes"
+	}
+}
+40903 = {
+	name = "Bas"
+	dynasty = 4006
+	religion = thracian_main
+	culture = thracian
+
+    father = 40902
+    
+	437.1.1 = { # 339 BC
+		birth="yes"
+	}
+	475.1.1 = { # 301 BC
+		death="yes"
+	}
+}
+40904 = {
+	name = "Rabocentus"
+	dynasty = 4006
+	religion = thracian_main
+	culture = thracian
+
+    father = 40903
+    
+	457.1.1 = { # 319 BC
+		birth="yes"
+	}
+	507.1.1 = { # 269 BC
+		death="yes"
+	}
+}
+40905 = {
+	name = "Etazeta"
+	dynasty = 4006
+	religion = thracian_main
+	culture = thracian
+
+    father = 40904
+    
+	479.1.1 = { # 298 BC
+		birth="yes"
+	}
+	517.1.1 = { # 259 BC
+		death="yes"
+	}
+}

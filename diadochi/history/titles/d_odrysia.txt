@@ -1,14 +1,12 @@
-417.1.1 = {
+417.1.1 = { # 359 BC
 	holder = 40114
 }
-418.1.1 = {
-	holder = 40119 #Kersobleptes
+418.1.1 = { # 358 BC
+	holder = 0 # Civil war
 }
-429.4.1 = {
-	liege = e_macedonia
-}
-438.1.1 = {
+438.1.1 = { # 338 BC
 	holder = 40101
+	liege = e_macedonia
 }
 453.6.10 = {
 	liege="k_s_thrace"

@@ -1,0 +1,60 @@
+# 41301-41400 for the Asti dynasty
+# Characters are made up to allow a playable Asti tribe
+41301 = {
+	name = "Dromichaetes"
+	dynasty = 4050
+	religion = thracian_main
+	culture = thracian
+    
+	395.1.1 = { # 381 BC
+		birth="yes"
+	}
+	449.1.1 = { # 327 BC
+		death="yes"
+	}
+}
+41302 = {
+	name = "Sparatocos"
+	dynasty = 4050
+	religion = thracian_main
+	culture = thracian
+
+    father = 41301
+    
+	432.1.1 = { # 344 BC
+		birth="yes"
+	}
+	477.1.1 = { # 299 BC
+		death="yes"
+	}
+}
+41303 = {
+	name = "Ziselmius"
+	dynasty = 4050
+	religion = thracian_main
+	culture = thracian
+
+    father = 41302
+    
+	456.1.1 = { # 320 BC
+		birth="yes"
+	}
+	519.1.1 = { # 257 BC
+		death="yes"
+	}
+}
+41304 = {
+	name = "Rabocentus"
+	dynasty = 4050
+	religion = thracian_main
+	culture = thracian
+
+    father = 41303
+    
+	493.1.1 = { # 283 BC
+		birth="yes"
+	}
+	527.1.1 = { # 249 BC
+		death="yes"
+	}
+}

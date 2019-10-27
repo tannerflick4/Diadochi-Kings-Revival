@@ -1,20 +1,25 @@
-417.1.1 = {
-	holder = 40114
-}
-418.1.1 = {
-	holder = 40124 # Amadocus
-	liege = d_moesia
-}
-425.1.1 = {
-	holder = 40125 # Teres
-}
-438.1.1 = {
-	holder = 40101
-	liege = d_odrysia
-}
-476.1.1 = {
-	holder = 40102 # Cotys II
-}
-495.2.1 = {
+408.1.1 = { # 368 BC
+	holder = 41101 # Sadalas of the Crobyzi
 	liege = k_odrysia
+}
+418.1.1 = { # 358 BC
+	liege = d_pangaion
+}
+421.1.1 = { # 355 BC
+	holder = 41102 # Doedalses of the Crobyzi
+}
+435.1.1 = { # 341 BC
+	holder = 41103 # Seuthes of the Crobyzi
+}
+438.1.1 = { # 338 BC
+	liege="d_odrysia"
+}
+455.1.1 = { # 321 BC
+	holder = 41104 # Etazeta of the Crobyzi
+}
+495.2.1 = { # 281 BC
+	liege = k_odrysia
+}
+507.1.1 = { # 269 BC
+	holder = 41105 # Raizdos of the Crobyzi
 }

@@ -1,11 +1,11 @@
-417.1.1 = {
+417.1.1 = { # 359 BC
 	holder = 40114
 }
-418.1.1 = {
+418.1.1 = { # 358 BC
 	holder = 40115 # Berisades
 	liege = d_pangaion
 }
-420.1.1 = { # 356 BC
+419.1.1 = { # 357 BC
 	holder = 803 # Philip II
 	liege = k_macedon
 	adjective = PHILIPPI_ADJ

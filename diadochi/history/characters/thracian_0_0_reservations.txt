@@ -3,3 +3,14 @@
 	# 40101-40200 for the Odrysae dynasty
 	# 40201-40300 for the Getae dynasty
 	# 40301-40400 for the Triballi dynasty
+	# 40401-40500 for the Paeti dynasty
+	# 40501-40600 for the Melinophagi dynasty
+	# 40601-40700 for the Bistones dynasty
+	# 40701-40800 for the Sapaei dynasty
+	# 40801-40900 for the Dii dynasty
+	# 40901-41000 for the Bessi dynasty
+	# 41001-41100 for the Tilataei dynasty
+	# 41101-41200 for the Crobyzi dynasty
+	# 41201-41300 for the Scyrmiadae dynasty
+	# 41301-41400 for the Asti dynasty
+	# 41401-41500 for the Nipsaei dynasty

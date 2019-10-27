@@ -1,17 +1,25 @@
-417.1.1 = {
-	holder = 40114 # Kotys
+411.1.1 = { # 365 BC
+	holder = 40401 # Langarus of the Paeti
 	liege = k_odrysia
 }
-418.1.1 = {
-	holder = 40119 #Kersobleptes
+418.1.1 = { # 358 BC
+	liege = d_rhodope
+}
+433.1.1 = { # 343 BC
+	holder = 40402 # Teres of the Paeti
+}
+436.1.1 = { # 340 BC
+	holder = 40403 # Boteiras of the Paeti
+}
+438.1.1 = { # 338 BC
 	liege = d_odrysia
 }
-438.1.1 = {
-	holder = 40101
+461.1.1 = { # 315 BC
+	holder = 40404 # Teres of the Paeti
 }
-476.1.1 = {
-	holder = 40102 # Cotys II
-}
-495.2.1 = {
+495.2.1 = { # 281 BC
 	liege = k_odrysia
+}
+497.1.1 = { # 279 BC
+	holder = 40405 # Zisemis of the Paeti
 }

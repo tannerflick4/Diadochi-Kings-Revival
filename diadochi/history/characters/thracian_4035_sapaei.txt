@@ -1,0 +1,75 @@
+# 40701-40800 for the Sapaei dynasty
+# Characters are made up to allow a playable Sapaei tribe
+40701 = {
+	name = "Getas"
+	dynasty = 4035
+	religion = thracian_main
+	culture = thracian
+    
+	372.1.1 = { # 404 BC
+		birth="yes"
+	}
+	426.1.1 = { # 350 BC
+		death="yes"
+	}
+}
+40702 = {
+	name = "Zisemis"
+	dynasty = 4035
+	religion = thracian_main
+	culture = thracian
+
+    father = 40701
+    
+	400.1.1 = { # 376 BC
+		birth="yes"
+	}
+	432.1.1 = { # 344 BC
+		death="yes"
+	}
+}
+40703 = {
+	name = "Olorus"
+	dynasty = 4035
+	religion = thracian_main
+	culture = thracian
+
+    father = 40702
+    
+	420.1.1 = { # 356 BC
+		birth="yes"
+	}
+	467.1.1 = { # 309 BC
+		death="yes"
+	}
+}
+40704 = {
+	name = "Hebryzelmis"
+	dynasty = 4035
+	religion = thracian_main
+	culture = thracian
+
+    father = 40703
+    
+	451.1.1 = { # 325 BC
+		birth="yes"
+	}
+	480.1.1 = { # 296 BC
+		death="yes"
+	}
+}
+40705 = {
+	name = "Rhoemetalces"
+	dynasty = 4035
+	religion = thracian_main
+	culture = thracian
+
+    father = 40704
+    
+	471.1.1 = { # 305 BC
+		birth="yes"
+	}
+	510.1.1 = { # 266 BC
+		death="yes"
+	}
+}

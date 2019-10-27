@@ -1,20 +1,22 @@
-417.1.1 = {
-	holder = 40114
-}
-418.1.1 = {
-	holder = 40124 # Amadocus
-	liege = d_moesia
-}
-425.1.1 = {
-	holder = 40125 # Teres
-}
-438.1.1 = {
-	holder = 40101
-	liege = d_odrysia
-}
-476.1.1 = {
-	holder = 40102 # Cotys II
-}
-495.2.1 = {
+415.1.1 = { # 361 BC
+	holder = 40901 # Rhoemetalces of the Bessi
 	liege = k_odrysia
+}
+418.1.1 = { # 358 BC
+	liege = d_pangaion
+}
+438.1.1 = { # 338 BC
+	liege="d_odrysia"
+}
+439.1.1 = { # 337 BC
+	holder = 40903 # Bas of the Bessi
+}
+475.1.1 = { # 301 BC
+	holder = 40904 # Rabocentus of the Bessi
+}
+495.2.1 = { # 281 BC
+	liege = k_odrysia
+}
+507.1.1 = { # 269 BC
+	holder = 40905 # Etazeta of the Bessi
 }

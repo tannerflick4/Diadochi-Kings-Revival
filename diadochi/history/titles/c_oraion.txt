@@ -1,20 +1,25 @@
-417.1.1 = {
-	holder = 40114
+403.1.1 = { # 373 BC
+	holder = 40701 # Getas of the Sapaei
+	liege = k_odrysia
 }
-418.1.1 = {
-	holder = 40115 # Berisades
+418.1.1 = { # 358 BC
 	liege = d_rhodope
 }
-424.1.1 = {
-	holder = 40116 # Ketriporis
+426.1.1 = { # 350 BC
+	holder = 40702 # Zisemis of the Sapaei
 }
-438.1.1 = {
-	liege="d_odrysia"
-	holder = 40101
+432.1.1 = { # 344 BC
+	holder = 40703 # Olorus of the Sapaei
 }
-476.1.1 = {
-	holder = 40102 # Cotys II
+438.1.1 = { # 338 BC
+	liege = d_odrysia
 }
-495.2.1 = {
+467.1.1 = { # 309 BC
+	holder = 40704 # Hebryzelmis of the Sapaei
+}
+480.1.1 = { # 296 BC
+	holder = 40705 # Rhoemetalces of the Sapaei
+}
+495.2.1 = { # 281 BC
 	liege = k_odrysia
 }

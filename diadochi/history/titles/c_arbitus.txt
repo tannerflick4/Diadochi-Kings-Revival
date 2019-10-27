@@ -1,17 +1,22 @@
-417.1.1 = {
-	holder = 40114
+417.1.1 = { # 359 BC
+	holder = 41301 # Dromichaetes of the Asti
 	liege = k_odrysia
 }
-418.1.1 = {
-	holder = 40119 #Kersobleptes
+418.1.1 = { # 358 BC
+	liege = d_moesia
+}
+438.1.1 = { # 338 BC
 	liege = d_odrysia
 }
-438.1.1 = {
-	holder = 40101
+449.1.1 = { # 327 BC
+	holder = 41302 # Sparatocos of the Asti
 }
-476.1.1 = {
-	holder = 40102 # Cotys II
+477.1.1 = { # 299 BC
+	holder = 41303 # Ziselmius of the Asti
 }
-495.2.1 = {
+495.2.1 = { # 281 BC
 	liege = k_odrysia
+}
+519.1.1 = { # 257 BC
+	holder = 41304 # Rabocentus of the Asti
 }

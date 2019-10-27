@@ -1,0 +1,60 @@
+# 40801-40900 for the Dii dynasty
+# Characters are made up to allow a playable Dii tribe
+40801 = {
+	name = "Cothelas"
+	dynasty = 4017
+	religion = thracian_main
+	culture = thracian
+    
+	391.1.1 = { # 385 BC
+		birth="yes"
+	}
+	439.1.1 = { # 337 BC
+		death="yes"
+	}
+}
+40802 = {
+	name = "Amadocus"
+	dynasty = 4017
+	religion = thracian_main
+	culture = thracian
+    
+    father = 40801
+
+	417.1.1 = { # 359 BC
+		birth="yes"
+	}
+	455.1.1 = { # 321 BC
+		death="yes"
+	}
+}
+40803 = {
+	name = "Diegylis"
+	dynasty = 4017
+	religion = thracian_main
+	culture = thracian
+    
+    father = 40802
+
+	447.1.1 = { # 329 BC
+		birth="yes"
+	}
+	504.1.1 = { # 272 BC
+		death="yes"
+	}
+}
+40804 = {
+	name = "Dromichaetes"
+	dynasty = 4017
+	religion = thracian_main
+	culture = thracian
+    
+    father = 40803
+
+	468.1.1 = { # 308 BC
+		birth="yes"
+	}
+	501.1.1 = { # 275 BC
+		death="yes"
+	}
+}

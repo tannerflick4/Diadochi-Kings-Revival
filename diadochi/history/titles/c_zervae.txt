@@ -1,20 +1,22 @@
-417.1.1 = {
-	holder = 40114
+414.1.1 = { # 362 BC
+	holder = 40601 # Rhescuporis of the Bistones
+	liege = k_odrysia
 }
-418.1.1 = {
-	holder = 40115 # Berisades
+418.1.1 = { # 358 BC
 	liege = d_rhodope
 }
-424.1.1 = {
-	holder = 40116 # Ketriporis
+428.1.1 = { # 348 BC
+	holder = 40602 # Rhoemetalces of the Bistones
 }
-438.1.1 = {
-	liege="d_odrysia"
-	holder = 40101
+438.1.1 = { # 338 BC
+	liege = d_odrysia
 }
-476.1.1 = {
-	holder = 40102 # Cotys II
+463.1.1 = { # 313 BC
+	holder = 40604 # Langarus of the Bistones
 }
-495.2.1 = {
+495.2.1 = { # 281 BC
 	liege = k_odrysia
+}
+500.1.1 = { # 276 BC
+	holder = 40605 # Berisades of the Bistones
 }

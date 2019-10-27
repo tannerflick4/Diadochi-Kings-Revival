@@ -1,20 +1,28 @@
-417.1.1 = {
-	holder = 40114
+393.1.1 = { # 383 BC
+	holder = 40501 # Cosingas of the Melinophagi
+	liege = k_odrysia
 }
-418.1.1 = {
-	holder = 40124 # Amadocus
+418.1.1 = { # 358 BC
 	liege = d_moesia
 }
-425.1.1 = {
-	holder = 40125 # Teres
+419.1.1 = { # 357 BC
+	holder = 40502 # Berisades of the Melinophagi
 }
-438.1.1 = {
-	holder = 40101
+437.1.1 = { # 339 BC
+	holder = 40503 # Cosingas of the Melinophagi
+}
+438.1.1 = { # 338 BC
 	liege = d_odrysia
 }
-476.1.1 = {
-	holder = 40102 # Cotys II
+468.1.1 = { # 308 BC
+	holder = 40504 # Bergaios of the Melinophagi
 }
-495.2.1 = {
+475.1.1 = { # 301 BC
+	holder = 40505 # Olorus of the Melinophagi
+}
+495.2.1 = { # 281 BC
 	liege = k_odrysia
+}
+501.1.1 = { # 275 BC
+	holder = 40506 # Cosingas of the Melinophagi
 }
