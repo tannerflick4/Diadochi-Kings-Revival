@@ -4,7 +4,7 @@
 
 # Gain one of a vassal's landed titles
 plot_win_silver_shields = {
-	type = character
+	type = realm_characters
 
 	# Plotter scope
 	potential = {
@@ -117,7 +117,7 @@ plot_win_silver_shields = {
 }
 # Gain one of a vassal's landed titles
 plot_disband_silver_shields = {
-	type = character
+	type = realm_characters
 
 	# Plotter scope
 	potential = {
@@ -146,8 +146,10 @@ plot_disband_silver_shields = {
 	}
 	
 	allow = {
-		any_vassal = {
-			has_landed_title = d_silver_shields
+		FROM = {
+			any_vassal = {
+				has_landed_title = d_silver_shields
+			}
 		}
 	}
 	
