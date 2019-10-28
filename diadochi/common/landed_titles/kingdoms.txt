@@ -4183,11 +4183,17 @@ k_illyria = {
 			
 			b_scupi_scupi = {
 			}
-			b_ulpiana_scupi = {
+			b_paldenica_scupi = {
 			}
-			b_therauda_scupi = {
+			b_vizi_scupi = {
 			}
-			b_vicinianum_scupi = {
+			b_gabuleum_scupi = {
+			}
+			b_theranda_scupi = {
+			}
+			b_hisar_scupi = {
+			}
+			b_podgrade_scupi = {
 			}
 		}
 		c_naissus = {
@@ -4228,17 +4234,11 @@ k_illyria = {
 			
 			b_uscana_uscana = {
 			}
-			b_uscana1_uscana = {
+			b_kerax_uscana = {
 			}
-			b_uscana2_uscana = {
+			b_lychnidos_uscana = {
 			}
-			b_uscana3_uscana = {
-			}
-			b_uscana4_uscana = {
-			}
-			b_uscana5_uscana = {
-			}
-			b_uscana6_uscana = {
+			b_trebenista_uscana = {
 			}
 		}
 	}
@@ -4404,9 +4404,17 @@ k_illyria = {
 		
 			b_paroikopolis_paroikopolis = {
 			}
-			b_neine_paroikopolis = {
-			}
 			b_doberos_paroikopolis = {
+			}
+			b_tiberia_paroikopolis = {
+			}
+			b_astraia_paroikopolis = {
+			}
+			b_bargala_paroikopolis = {
+			}
+			b_stenas_paroikopolis = {
+			}
+			b_laki_paroikopolis = {
 			}
 		}
 		c_stobi = {
@@ -4415,24 +4423,36 @@ k_illyria = {
 				
 			b_stobi_stobi = {
 			}
-			b_stobi1_stobi = {
-			}						
-			b_gurbita_stobi = {
+			b_stuberra_stobi = {
 			}
-			b_bargala_stobi = {
+			b_alkomena_stobi = {
+			}
+			b_pelagonia_stobi = {
+			}
+			b_kolobaise_stobi = {
+			}
+			b_antigoneia_stobi = {
+			}
+			b_audaristos_stobi = {
 			}
 		}
 		c_serdica = {			
 			color= { 35 190 100 }
 			color2= { 255 255 255 }			
 			
-			b_serdika_serdika = {
+			b_serdica_serdica = {
 			}
-			b_scretisca_serdika = {
+			b_scretisca_serdica = {
 			}
-			b_burgaraca_serdika = {
+			b_meldia_serdica = {
 			}
-			b_meldia_serdika = {
+			b_ballanstra_serdica = {
+			}
+			b_remesiana_serdica = {
+			}
+			b_turres_serdica = {
+			}
+			b_translitis_serdica = {
 			}
 		}
 		c_bylazora = {
@@ -4441,17 +4461,17 @@ k_illyria = {
 				
 			b_bylazora_bylazora = {
 			}
-			b_bylazora1_bylazora = {
+			b_astibos_bylazora = {
 			}
-			b_bylazora2_bylazora = {
+			b_adcephalon_bylazora = {
 			}
-			b_bylazora3_bylazora = {
+			b_tranupara_bylazora = {
 			}
-			b_bylazora4_bylazora = {
+			b_pautalia_bylazora = {
 			}
-			b_bylazora5_bylazora = {
+			b_karistoron_bylazora = {
 			}
-			b_bylazora6_bylazora = {
+			b_spinopara_bylazora = {
 			}
 		}
 	}
