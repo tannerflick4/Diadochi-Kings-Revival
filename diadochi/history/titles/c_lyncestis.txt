@@ -19,7 +19,7 @@
 426.1.1 = { # 350 BC
 	liege = e_macedonia
 }
-446.1.1 = { # 343 BC
+433.1.1 = { # 343 BC
 	holder = 3508 # Alexander of the Lyncestians.
 }
 446.1.1 = { # 330 BC
