@@ -5027,7 +5027,7 @@ k_pannonia = {
 			
 			b_malvesa_malvesa = {
 			}
-			b_domavium_malvesa = {
+			b_malvesa1_malvesa = {
 			}
 			b_salinae_malvesa = {
 			}
@@ -5062,6 +5062,25 @@ k_pannonia = {
 			b_bassiana_sirmium = {
 			}
 			b_milata_sirmium = {
+			}
+		}
+		c_domavium = {
+			color= { 39 83 140 }
+			color2= { 255 255 255 }
+			
+			b_domavium_domavium = {
+			}
+			b_domavium1_domavium = {
+			}
+			b_domavium2_domavium = {
+			}
+			b_domavium3_domavium = {
+			}
+			b_domavium4_domavium = {
+			}
+			b_domavium5_domavium = {
+			}
+			b_domavium6_domavium = {
 			}
 		}
 	}

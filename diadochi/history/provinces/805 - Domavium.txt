@@ -1,0 +1,20 @@
+# 805 - Domavium
+
+# County Title
+title = c_domavium
+
+# Settlements
+max_settlements = 4
+b_domavium_domavium = tribal
+#b_domavium1_domavium = city
+#b_domavium2_domavium = castle
+#b_domavium3_domavium = castle
+#b_domavium4_domavium = city
+#b_domavium5_domavium = castle
+#b_domavium6_domavium = castle
+
+# Misc
+culture = illyrian
+religion = illyrian_main
+
+# History

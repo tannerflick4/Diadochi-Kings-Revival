@@ -231,7 +231,8 @@ technology = {
 # Balkans/Greece
 technology = {
 	titles = {
-		d_epirus
+		d_epirus_sea
+		d_epirus_mountains
 		d_mikra_skythia
 		d_odrysia
 		d_moesia
@@ -256,7 +257,6 @@ technology = {
 		d_crete
 		d_euboia
 		d_cyclades
-		d_ionian_islands
 		d_thessaly
 		d_chalcidice
 		d_dacia_paropos

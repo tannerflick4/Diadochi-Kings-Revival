@@ -1621,7 +1621,7 @@ b_mursa_mursa;Mursa;;;;;;;;;;;;;x;
 b_mursa1_mursa;Mursa;;;;;;;;;;;;;x;
 b_donatlanis_mursa;Donatlanis;;;;;;;;;;;;;x;
 b_malvesa_malvesa;Malvesa;;;;;;;;;;;;;x;
-b_domavium_malvesa;Domavium;;;;;;;;;;;;;x;
+b_malvesa1_malvesa;Malvesa;;;;;;;;;;;;;x;
 b_salinae_malvesa;Salinae;;;;;;;;;;;;;x;
 b_risa_malvesa;Risa;;;;;;;;;;;;;x;
 b_sopianae_sopianae;Sopianae;;;;;;;;;;;;;x;
@@ -3716,3 +3716,10 @@ b_pelva3_pelva;Pelva;;;;;;;;;;;x
 b_pelva4_pelva;Pelva;;;;;;;;;;;x
 b_pelva5_pelva;Pelva;;;;;;;;;;;x
 b_pelva6_pelva;Pelva;;;;;;;;;;;x
+b_domavium_domavium;Domavium;;;;;;;;;;;x
+b_domavium1_domavium;Domavium;;;;;;;;;;;x
+b_domavium2_domavium;Domavium;;;;;;;;;;;x
+b_domavium3_domavium;Domavium;;;;;;;;;;;x
+b_domavium4_domavium;Domavium;;;;;;;;;;;x
+b_domavium5_domavium;Domavium;;;;;;;;;;;x
+b_domavium6_domavium;Domavium;;;;;;;;;;;x

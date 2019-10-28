@@ -1,5 +1,4 @@
 bloodline_argead = {
-	combat_rating = 8
 	macedonian_opinion = 5
 	levy_reinforce_rate = 0.15
 	combat_rating = 10
