@@ -3146,7 +3146,7 @@ k_assyria = {
 	capital = 191 # Nineveh
 	
 	allow = {
-		or = {
+		OR = {
 			culture = aramaic
 			culture = akkadian
 		}
@@ -3533,7 +3533,7 @@ k_armenia = {
 	capital = 218 # Armavir
 	
 	allow = {
-		or = {
+		OR = {
 			culture = armenian
 			culture = albanian
 		}
@@ -3848,7 +3848,7 @@ k_georgia = {
 	capital = 223 # Mtskheta
 	
 	allow = {
-		or = {
+		OR = {
 			culture = georgian
 			culture = albanian
 		}
@@ -4370,7 +4370,26 @@ k_illyria = {
 			}
 			b_singidunum_singidunum = {
 			}
-			b_viminacium_singidunum = {
+			b_singidunum1_singidunum = {
+			}
+		}
+		c_viminacium = {
+			color={ 140 29 29 }
+			color2={ 255 255 255 }
+			
+			b_viminacium_viminacium = {
+			}
+			b_viminacium1_viminacium = {
+			}
+			b_viminacium2_viminacium = {
+			}
+			b_viminacium3_viminacium = {
+			}
+			b_viminacium4_viminacium = {
+			}
+			b_viminacium5_viminacium = {
+			}
+			b_viminacium6_viminacium = {
 			}
 		}
 	}
@@ -5090,7 +5109,7 @@ k_greece = {
 	color2= { 255 255 255 }
 	
 	allow = {
-		or = {
+		OR = {
 			culture = aeolian
 			culture = arcadian
 			culture = doric
@@ -5886,7 +5905,7 @@ k_italy = {
 	color2= { 255 255 255 }
 	
 	allow = {
-		or = {
+		OR = {
 			culture_group = italian
 			culture_group = tyrhenian
 			culture_group = north_italic
@@ -6216,7 +6235,7 @@ k_cisalpine_gaul = {
 	color2= { 255 255 255 }
 	
 	allow = {
-		or = {
+		OR = {
 			culture = gaul
 			culture = ligurian
 		}
@@ -7327,7 +7346,7 @@ k_dacia = {
 	capital = 408 # Sarmizegetusa
 	
 	allow = {
-		or = {
+		OR = {
 			culture = dacian
 			culture = thracian
 		}
@@ -7602,7 +7621,7 @@ k_gallia = {
 	color2= { 255 255 255 }
 	
 	allow = {
-		or = {
+		OR = {
 			culture = gaul
 			culture = ligurian
 		}
@@ -8169,7 +8188,7 @@ k_arabia = {
 	color2={ 255 255 255 }
 	
 	allow = {
-		or = {
+		OR = {
 			culture = nabataean
 			culture = arabic
 		}
@@ -8413,7 +8432,7 @@ k_maka = {
 	color2={ 255 255 255 }
 	
 	allow = {
-		or = {
+		OR = {
 			culture = nabataean
 			culture = arabic
 		}

@@ -1,0 +1,20 @@
+# 804 - Viminacium
+
+# County Title
+title = c_viminacium
+
+# Settlements
+max_settlements = 5
+b_viminacium_viminacium = tribal
+#b_viminacium1_viminacium = city
+#b_viminacium2_viminacium = castle
+#b_viminacium3_viminacium = castle
+#b_viminacium4_viminacium = city
+#b_viminacium5_viminacium = castle
+#b_viminacium6_viminacium = castle
+
+# Misc
+culture = illyrian
+religion = illyrian_main
+
+# History
