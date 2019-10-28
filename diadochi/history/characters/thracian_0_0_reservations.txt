@@ -14,3 +14,5 @@
 	# 41201-41300 for the Scyrmiadae dynasty
 	# 41301-41400 for the Asti dynasty
 	# 41401-41500 for the Nipsaei dynasty
+	# 41501-41600 for the Odomanti dynasty
+	# 41601-41700 for the Maedi dynasty

@@ -1,0 +1,30 @@
+# 41501-41600 for the Odomanti dynasty
+# Characters are made up to allow a playable Odomanti tribe
+40501 = {
+	name = "Bas"
+	dynasty = 4032
+	religion = thracian_main
+	culture = thracian
+    
+	386.1.1 = { # 390 BC
+		birth="yes"
+	}
+	423.1.1 = { # 353 BC
+		death="yes"
+	}
+}
+40502 = {
+	name = "Cothelas"
+	dynasty = 4032
+	religion = thracian_main
+	culture = thracian
+
+    father = 40501
+    
+	403.1.1 = { # 373 BC
+		birth="yes"
+	}
+	458.1.1 = { # 318 BC
+		death="yes"
+	}
+}

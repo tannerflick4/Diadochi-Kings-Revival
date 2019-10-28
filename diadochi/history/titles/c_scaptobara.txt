@@ -1,20 +1,28 @@
-417.1.1 = { # 359 BC
-	holder = 40114
+411.1.1 = { # 365 BC
+	holder = 40601 # Langarus of the Maedi
+	liege = k_odrysia
 }
 418.1.1 = { # 358 BC
-	holder = 40115 # Berisades
 	liege = d_pangaion
 }
-424.1.1 = { # 352 BC
-	holder = 40116 # Ketriporis
+420.1.1 = { # 356 BC
+	holder = 40602 # Zibelmius of the Maedi
 }
 438.1.1 = { # 338 BC
 	liege="d_odrysia"
-	holder = 40101
 }
-476.1.1 = { # 300 BC
-	holder = 40102 # Cotys II
+446.1.1 = { # 330 BC
+	holder = 40603 # Sitalces of the Maedi
 }
-495.2.1 = { # 281 BC
-	liege = k_odrysia
+450.1.1 = { # 326 BC
+	holder = 40604 # Boteiras of the Maedi
+}
+478.1.1 = { # 298 BC
+	liege = k_tylis
+}
+493.1.1 = { # 283 BC
+	holder = 40605 # Rhescuporis of the Maedi
+}
+516.1.1 = { # 260 BC
+	holder = 40606 # Roigos of the Maedi
 }

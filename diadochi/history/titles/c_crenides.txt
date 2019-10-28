@@ -1,14 +1,13 @@
-417.1.1 = { # 359 BC
-	holder = 40114
+410.1.1 = { # 366 BC
+	holder = 40501 # Bas of the Odomanti
+	liege = k_odrysia
 }
 418.1.1 = { # 358 BC
-	holder = 40115 # Berisades
 	liege = d_pangaion
 }
 419.1.1 = { # 357 BC
 	holder = 803 # Philip II
 	liege = k_macedon
-	adjective = PHILIPPI_ADJ
 }
 426.1.1 = { # 350 BC
 	liege = e_macedonia
