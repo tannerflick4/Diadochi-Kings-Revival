@@ -4,12 +4,14 @@
 title = c_stobi # for example c_corinth
 
 # Settlements
-# TODO: Revise the baronies.
 max_settlements = 4
 b_stobi_stobi = tribal
-#b_stobi1_stobi = city
-#b_gurbita_stobi = castle
-#b_bargala_stobi = city
+#b_stuberra_stobi = temple
+#b_alkomena_stobi = city
+#b_pelagonia_stobi = castle
+#b_kolobaise_stobi = castle
+#b_antigoneia_stobi = city
+#b_audaristos_stobi = castle
 
 # Misc
 culture = paeonian

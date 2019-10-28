@@ -5,14 +5,17 @@ title = c_serdica
 
 # Settlements
 max_settlements = 4
-b_serdika_serdika = tribal
-#b_scretisca_serdika = city
-#b_burgaraca_serdika = city
-#b_meldia_serdika = castle
+b_serdica_serdica = tribal
+#b_scretisca_serdica = city
+#b_meldia_serdica = castle
+#b_ballanstra_serdica = castle
+#b_remesiana_serdica = city
+#b_turres_serdica = city
+#b_translitis_serdica = castle
 
 # Misc
-culture = paeonian
-religion = illyrian_main
+culture = thracian
+religion = thracian_main
 
 # History
 # Can be filled when things change around the province

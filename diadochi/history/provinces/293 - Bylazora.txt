@@ -5,13 +5,13 @@ title = c_bylazora
 
 # Settlements
 max_settlements = 4
-b_bylazora_bylazora = castle
-b_bylazora1_bylazora = city
-b_bylazora2_bylazora = temple
-b_bylazora3_bylazora = castle
-#b_bylazora4_bylazora = city
-#b_bylazora5_bylazora = temple
-#b_bylazora6_bylazora = castle
+b_bylazora_bylazora = tribal
+#b_astibos_bylazora = city
+#b_adcephalon_bylazora = city
+#b_tranupara_bylazora = castle
+#b_pautalia_bylazora = city
+#b_karistoron_bylazora = temple
+#b_spinopara_bylazora = castle
 
 # Misc
 culture = paeonian

@@ -4,17 +4,15 @@
 title = c_uscana
 
 # Settlements
-max_settlements = 4
-b_uscana_uscana = castle
-b_uscana1_uscana = city
-b_uscana2_uscana = temple
-b_uscana3_uscana = castle
-#b_uscana4_uscana = city
-#b_uscana5_uscana = temple
-#b_uscana6_uscana = castle
+max_settlements = 2
+b_uscana_uscana = tribal
+#b_kerax_uscana = city
+#b_lychnidos_uscana = city
+#b_trebenista_uscana = castle
+
 
 # Misc
-culture = doric
-religion = greek_main
+culture = paeonian
+religion = illyrian_main
 
 # History
