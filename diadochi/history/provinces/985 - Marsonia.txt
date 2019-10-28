@@ -1,0 +1,20 @@
+# 985 - Marsonia
+
+# County Title
+title = c_marsonia
+
+# Settlements
+max_settlements = 4
+b_marsonia_marsonia = tribal
+b_marsonia1_marsonia = temple
+#b_marsonia2_marsonia = city
+#b_marsonia3_marsonia = city
+#b_marsonia4_marsonia = castle
+#b_marsonia5_marsonia = temple
+#b_marsonia6_marsonia = city
+
+# Misc
+culture = illyrian
+religion = illyrian_main
+
+# History

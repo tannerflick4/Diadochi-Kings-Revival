@@ -4283,7 +4283,7 @@ k_illyria = {
 			}
 			b_aequum_delminium = {
 			}
-			b_pelva_delminium = {
+			b_delminium1_delminium = {
 			}
 			b_salvium_delminium = {
 			}
@@ -4316,6 +4316,25 @@ k_illyria = {
 			b_meteon_scodra = {
 			}
 			b_doclea_scodra = {
+			}
+		}
+		c_pelva = {
+			color= { 178 128 67 }
+			color2= { 255 255 255 }
+			
+			b_pelva_pelva = {
+			}
+			b_pelva1_pelva = {
+			}
+			b_pelva2_pelva = {
+			}
+			b_pelva3_pelva = {
+			}
+			b_pelva4_pelva = {
+			}
+			b_pelva5_pelva = {
+			}
+			b_pelva6_pelva = {
 			}
 		}
 	}
@@ -4536,6 +4555,25 @@ k_pannonia = {
 			b_scardona_iader = {
 			}
 		}
+		c_metulum = {
+			color= { 32 24 178 }
+			color2= { 255 255 255 }
+			
+			b_metulum_metulum = {
+			}
+			b_metulum1_metulum = {
+			}
+			b_metulum2_metulum = {
+			}
+			b_metulum3_metulum = {
+			}
+			b_metulum4_metulum = {
+			}
+			b_metulum5_metulum = {
+			}
+			b_metulum6_metulum = {
+			}
+		}
 	}
 	d_pelso = {
 		color= { 50 200 100 }
@@ -4595,17 +4633,6 @@ k_pannonia = {
 			b_bassiana_sala = {
 			}
 			b_mestrianis_sala = {
-			}
-		}
-		c_mursa = {
-			color= { 40 185 100 }
-			color2= { 255 255 255 }
-			
-			b_mursa_mursa = {
-			}
-			b_mursa1_mursa = {
-			}
-			b_donatlanis_mursa = {
 			}
 		}
 		c_mursella = {
@@ -4874,7 +4901,7 @@ k_pannonia = {
 			}
 			b_raetinium_splonum = {
 			}
-			b_marsonia_splonum = {
+			b_splonum1_splonum = {
 			}
 			b_leucono_splonum = {
 			}
@@ -4970,6 +4997,25 @@ k_pannonia = {
 			b_iovia6_iovia = {
 			}
 		}
+		c_marsonia = {
+			color= { 255 109 225 }
+			color2= { 255 255 255 }
+			
+			b_marsonia_marsonia = {
+			}
+			b_marsonia1_marsonia = {
+			}
+			b_marsonia2_marsonia = {
+			}
+			b_marsonia3_marsonia = {
+			}
+			b_marsonia4_marsonia = {
+			}
+			b_marsonia5_marsonia = {
+			}
+			b_marsonia6_marsonia = {
+			}
+		}
 	}
 	d_sirmium = {
 		color= { 50 175 125 }
@@ -4981,7 +5027,7 @@ k_pannonia = {
 			
 			b_malvesa_malvesa = {
 			}
-			b_domavium_malvesa = {
+			b_malvesa1_malvesa = {
 			}
 			b_salinae_malvesa = {
 			}
@@ -5016,6 +5062,25 @@ k_pannonia = {
 			b_bassiana_sirmium = {
 			}
 			b_milata_sirmium = {
+			}
+		}
+		c_domavium = {
+			color= { 39 83 140 }
+			color2= { 255 255 255 }
+			
+			b_domavium_domavium = {
+			}
+			b_domavium1_domavium = {
+			}
+			b_domavium2_domavium = {
+			}
+			b_domavium3_domavium = {
+			}
+			b_domavium4_domavium = {
+			}
+			b_domavium5_domavium = {
+			}
+			b_domavium6_domavium = {
 			}
 		}
 	}

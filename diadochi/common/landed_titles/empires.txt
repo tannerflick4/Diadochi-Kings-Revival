@@ -1023,6 +1023,8 @@ e_persia = {
 			color= { 200 0 50 }
 			color2= { 255 255 255 }
 			
+			capital = 815 # Artacoana
+			
 			c_artacoana = {			
 				color= { 200 0 50 }
 				color2= { 255 255 255 }
@@ -3428,6 +3430,8 @@ e_skudatpa = { # Scythia
 			color= { 200 150 0 }
 			color2= { 255 255 255 }
 			
+			capital = 501 # Zevaka
+			
 			c_varkataka = {
 				color= { 210 150 10 }
 				color2= { 255 255 255 }
@@ -3460,6 +3464,8 @@ e_skudatpa = { # Scythia
 			color= { 200 125 25 }
 			color2= { 255 255 255 }
 			
+			capital = 488 # Blamizda
+			
 			c_blamizda = {
 				color= { 200 125 25 }
 				color2= { 255 255 255 }
@@ -3480,6 +3486,8 @@ e_skudatpa = { # Scythia
 		d_kusdvara = {
 			color= { 200 100 25 }
 			color2= { 255 255 255 }
+			
+			capital = 496 # Kusdvara
 			
 			c_kusdvara = {
 				color= { 200 100 25 }
@@ -3513,6 +3521,8 @@ e_skudatpa = { # Scythia
 			color= { 200 100 50 }
 			color2= { 255 255 255 }
 			
+			capital = 504 # Kusdvara
+			
 			c_madulupa = {
 				color= { 200 90 40 }
 				color2= { 255 255 255 }
@@ -3542,9 +3552,13 @@ e_skudatpa = { # Scythia
 		color= { 175 100 0 }
 		color2= { 255 255 255 }
 		
+		capital = 513 # Argimpasa
+		
 		d_lipsoxais = {
 			color= { 175 100 25 }
 			color2= { 255 255 255 }
+			
+			capital = 506 # Lipsoxais
 			
 			c_lipsoxais = {
 				color= { 175 100 25 }
@@ -3585,6 +3599,8 @@ e_skudatpa = { # Scythia
 			color= { 175 125 0 }
 			color2= { 255 255 255 }
 			
+			capital = 509 # Alud
+			
 			c_alud = {
 				color= { 175 125 0 }
 				color2= { 255 255 255 }
@@ -3623,6 +3639,8 @@ e_skudatpa = { # Scythia
 		d_argimpasa = {
 			color= { 175 100 0 }
 			color2= { 255 255 255 }
+			
+			capital = 513 # Argimpasa
 			
 			c_adapa = {
 				color= { 185 110 0 }
@@ -3668,9 +3686,13 @@ e_skudatpa = { # Scythia
 		color= { 150 75 0 }
 		color2= { 255 255 255 }
 		
+		capital = 526 # Hvarzkutipa
+		
 		d_kissarun = {
 			color= { 150 75 25 }
 			color2= { 255 255 255 }
+			
+			capital = 518 # Kissarun
 			
 			c_kissarun = {
 				color= { 150 75 25 }
@@ -3703,6 +3725,8 @@ e_skudatpa = { # Scythia
 		d_paradatapa = {
 			color= { 150 75 50 }
 			color2= { 255 255 255 }
+			
+			capital = 523 # Paradatapa
 			
 			c_gipa = {
 				color= { 150 65 60 }
@@ -3741,6 +3765,8 @@ e_skudatpa = { # Scythia
 			color= { 150 100 25 }
 			color2= { 255 255 255 }
 			
+			capital = 529 # Syavakuspa
+			
 			c_manur = {
 				color= { 150 110 15 }
 				color2= { 255 255 255 }
@@ -3770,6 +3796,8 @@ e_skudatpa = { # Scythia
 		d_hvarzkutipa = {
 			color= { 150 75 0 }
 			color2= { 255 255 255 }
+			
+			capital = 526 # Hvarzkutipa
 			
 			c_hvarzkutipa = {
 				color= { 150 75 0 }
@@ -3806,9 +3834,13 @@ e_skudatpa = { # Scythia
 		color= { 150 100 0 }
 		color2= { 255 255 255 }
 		
+		capital = 546 # Gaumizda
+		
 		d_colaxais = {
 			color= { 150 125 0 }
 			color2= { 255 255 255 }
+			
+			capital = 533 # Colaxais
 			
 			c_navasati = {
 				color= { 140 115 0 }
@@ -3848,6 +3880,8 @@ e_skudatpa = { # Scythia
 		d_dakus = {
 			color= { 150 100 25 }
 			color2= { 255 255 255 }
+			
+			capital = 537 # Dakus
 			
 			c_garia = {
 				color= { 160 110 25 }
@@ -3890,6 +3924,8 @@ e_skudatpa = { # Scythia
 			color= { 150 100 50 }
 			color2= { 255 255 255 }
 			
+			capital = 538 # Oirpata
+			
 			c_oirpata = {
 				color= { 150 100 50 }
 				color2= { 255 255 255 }
@@ -3919,6 +3955,8 @@ e_skudatpa = { # Scythia
 		d_dargaku = {
 			color= { 150 125 25 }
 			color2= { 255 255 255 }
+			
+			capital = 540 # Dargaku
 			
 			c_dargaku = {
 				color= { 150 125 25 }
@@ -3952,6 +3990,8 @@ e_skudatpa = { # Scythia
 			color= { 150 125 50 }
 			color2= { 255 255 255 }
 			
+			capital = 543 # Pantilo
+			
 			c_pantilo = {
 				color= { 150 125 50 }
 				color2= { 255 255 255 }
@@ -3981,6 +4021,8 @@ e_skudatpa = { # Scythia
 		d_gaumizda = {
 			color= { 150 100 0 }
 			color2= { 255 255 255 }
+			
+			capital = 546 # Gaumizda
 			
 			c_garta = {
 				color= { 150 90 10 }
@@ -4023,6 +4065,8 @@ e_skudatpa = { # Scythia
 			color= { 150 150 50 }
 			color2= { 255 255 255 }
 			
+			capital = 549 # Paradatab
+			
 			c_oitosyros = {
 				color= { 140 140 50 }
 				color2= { 255 255 255 }
@@ -4063,9 +4107,13 @@ e_skudatpa = { # Scythia
 		color= { 175 125 0 }
 		color2= { 255 255 255 }
 		
+		capital = 562 # Zarkarun
+		
 		d_hvarzgasti = {
 			color= { 175 125 25 }
 			color2= { 255 255 255 }
+			
+			capital = 556 # Hvarzgasti
 			
 			c_garuabra = {
 				color= { 175 115 15 }
@@ -4104,6 +4152,8 @@ e_skudatpa = { # Scythia
 			color= { 175 125 0 }
 			color2= { 255 255 255 }
 			
+			capital = 562 # Zarkarun
+			
 			c_syavavarkapa = {
 				color= { 165 135 0 }
 				color2= { 255 255 255 }
@@ -4138,6 +4188,8 @@ e_skudatpa = { # Scythia
 			color= { 175 125 0 }
 			color2= { 255 255 255 }
 			
+			capital = 560 # Borun
+			
 			c_pasumata = {
 				color= { 175 140 10 }
 				color2= { 255 255 255 }
@@ -4171,9 +4223,13 @@ e_skudatpa = { # Scythia
 		color= { 200 150 0 }
 		color2= { 255 255 255 }
 		
+		capital = 568 # Narapa
+		
 		d_artabagapa = {			
 			color= { 200 150 25 }
 			color2= { 255 255 255 }
+			
+			capital = 567 # Artabagapa
 			
 			c_giarun = {
 				color= { 200 140 35 }
@@ -4204,6 +4260,8 @@ e_skudatpa = { # Scythia
 		d_narapa = {
 			color= { 200 150 0 }
 			color2= { 255 255 255 }
+			
+			capital = 568 # Narapa
 			
 			c_narapa = {
 				color= { 200 150 0 }
@@ -4236,6 +4294,8 @@ e_skudatpa = { # Scythia
 		d_sautaska = {
 			color= { 200 175 0 }
 			color2= { 255 255 255 }
+			
+			capital = 572 # Sautaska
 			
 			c_zurklopa = {
 				color= { 210 175 10 }
@@ -4270,9 +4330,13 @@ e_skudatpa = { # Scythia
 		color= { 225 175 0 }
 		color2= { 255 255 255 }
 		
+		capital = 581 # Khiva
+		
 		d_targitaios = {
 			color= { 225 175 25 }
 			color2= { 255 255 255 }
+			
+			capital = 621 # Targitaios
 			
 			c_matapanti = {
 				color= { 235 165 25 }
@@ -4296,6 +4360,8 @@ e_skudatpa = { # Scythia
 		d_mahta = {
 			color= { 225 200 0 }
 			color2= { 255 255 255 }
+			
+			capital = 575 # Mahta
 			
 			c_mahta = {
 				color= { 225 200 0 }
@@ -4335,6 +4401,8 @@ e_skudatpa = { # Scythia
 		d_khiva = {
 			color= { 225 175 0 }
 			color2= { 255 255 255 }
+			
+			capital = 581 # Khiva
 			
 			c_abragaru = {
 				color= { 225 165 10 }
@@ -4389,9 +4457,13 @@ e_skudatpa = { # Scythia
 		color= { 255 200 0 }
 		color2= { 255 255 255 }
 		
+		capital = 599 # Padakus
+		
 		d_axsainabaladapa = {
 			color= { 255 200 25 }
 			color2= { 255 255 255 }
+			
+			capital = 602 # Axsainabaladapa
 			
 			c_navapa = {
 				color= { 255 210 15 }
@@ -4432,6 +4504,8 @@ e_skudatpa = { # Scythia
 			color= { 255 200 50 }
 			color2= { 255 255 255 }
 			
+			capital = 585 # Aspamesakapa
+			
 			c_aspamesakapa = {
 				color= { 255 200 50 }
 				color2= { 255 255 255 }
@@ -4470,6 +4544,8 @@ e_skudatpa = { # Scythia
 		d_padakus = {
 			color= { 255 200 0 }
 			color2= { 255 255 255 }
+			
+			capital = 599 # Padakus
 			
 			c_tabar = {
 				color= { 245 210 0 }
@@ -4518,6 +4594,8 @@ e_skudatpa = { # Scythia
 		d_tabititope = {
 			color= { 255 225 0 }
 			color2= { 255 255 255 }
+			
+			capital = 593 # Tabititope
 			
 			c_takati = {
 				color= { 255 215 10 }
@@ -4570,6 +4648,8 @@ e_skudatpa = { # Scythia
 			color= { 255 225 25 }
 			color2= { 255 255 255 }
 			
+			capital = 597 # Tamajara
+			
 			c_tamajara = {
 				color= { 255 225 25 }
 				color2= { 255 255 255 }
@@ -4601,9 +4681,13 @@ e_skudatpa = { # Scythia
 		color= { 255 175 0 }
 		color2= { 255 255 255 }
 		
+		capital = 608 # Gitab
+		
 		d_dsargalapa = {
 			color= { 255 175 25 }
 			color2= { 255 255 255 }
+			
+			capital = 610 # Dsargalapa
 			
 			c_pantipari = {
 				color= { 245 165 25 }
@@ -4625,6 +4709,8 @@ e_skudatpa = { # Scythia
 		d_ugrakati = {
 			color= { 255 200 0 }
 			color2= { 255 255 255 }
+			
+			capital = 624 # Ugrakati
 			
 			c_satar = {
 				color= { 255 190 10 }
@@ -4655,6 +4741,8 @@ e_skudatpa = { # Scythia
 		d_gitab = {
 			color= { 255 175 0 }
 			color2= { 255 255 255 }
+			
+			capital = 608 # Gitab
 			
 			c_gitab = {
 				color= { 255 175 0 }
@@ -4687,6 +4775,8 @@ e_skudatpa = { # Scythia
 		d_hvargaosa = {
 			color= { 255 200 25 }
 			color2= { 255 255 255 }
+			
+			capital = 616 # Hvargaosa
 			
 			c_ris = {
 				color= { 245 210 25 }

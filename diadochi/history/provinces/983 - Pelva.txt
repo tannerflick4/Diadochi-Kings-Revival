@@ -1,0 +1,20 @@
+# 983 - Pelva
+
+# County Title
+title = c_pelva
+
+# Settlements
+max_settlements = 5
+b_pelva_pelva = tribal
+#b_pelva1_pelva = city
+b_pelva2_pelva = temple
+#b_pelva3_pelva = castle
+#b_pelva4_pelva = city
+#b_pelva5_pelva = temple
+#b_pelva6_pelva = castle
+
+# Misc
+culture = illyrian
+religion = illyrian_main
+
+# History

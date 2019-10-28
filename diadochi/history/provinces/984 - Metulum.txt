@@ -1,0 +1,20 @@
+# 984 - Metulum
+
+# County Title
+title = c_metulum
+
+# Settlements
+max_settlements = 5
+b_metulum_metulum = tribal
+#b_metulum1_metulum = city
+#b_metulum2_metulum = temple
+#b_metulum3_metulum = city
+#b_metulum4_metulum = castle
+#b_metulum5_metulum = castle
+#b_metulum6_metulum = city
+
+# Misc
+culture = venetic
+religion = illyrian_main
+
+# History
