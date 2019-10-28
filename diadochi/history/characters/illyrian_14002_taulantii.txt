@@ -1,4 +1,4 @@
-# 140201-140200 for the Taulantii dynasty
+# 140101-140200 for the Taulantii dynasty
 140101 = {
 	name = "Glaucias" # King of Taulanti
 	dynasty = 14002 # Taulantii
@@ -55,7 +55,7 @@
 		death="yes"
 	}
 }
-140104 = {
+140105 = {
 	name = "Glaucias" # King of Taulantii, Made up
 	dynasty = 14002 # Taulantii
 	religion = illyrian_main
