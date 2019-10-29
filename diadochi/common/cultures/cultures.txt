@@ -16,8 +16,7 @@ thracian_group = {
 		}
   
 		from_dynasty_prefix = "of "
-    		dynasty_title_names = yes
-		modifier = thracian_culture_modifier
+    	dynasty_title_names = yes
 	}
 	phrygian = {
 		graphical_cultures = { anatoliangfx persiangfx }
@@ -37,8 +36,6 @@ thracian_group = {
 		}
   
 		from_dynasty_prefix = "of "
-    
-		modifier = anatolian_culture_modifier
 	}
 	dacian = {
 		graphical_cultures = { westernslavicgfx easterngfx }
@@ -58,8 +55,6 @@ thracian_group = {
 		}
   
 		from_dynasty_prefix = "of "
-	
-		modifier = thracian_culture_modifier
 	}
 }
 illyrian_group = {
@@ -79,8 +74,6 @@ illyrian_group = {
 		}
   
 		from_dynasty_prefix = "of "
-    
-		modifier = illyrian_culture_modifier
 		dynasty_title_names = yes
 	}
 	paeonian = {
@@ -98,8 +91,6 @@ illyrian_group = {
 		}
   
 		from_dynasty_prefix = "of "
-    
-		modifier = illyrian_culture_modifier
 	}
 }
 celtic = {
@@ -122,7 +113,6 @@ celtic = {
   
 		from_dynasty_prefix = "of "
 		dynasty_title_names = yes
-		modifier = celtic_culture_modifier
 	}
 	gaul = {
 		graphical_cultures = { gaulgfx easternslavicgfx }
@@ -143,10 +133,9 @@ celtic = {
   
 		from_dynasty_prefix = "of "    		
 		dynasty_title_names = yes
-		modifier = celtic_culture_modifier
 	}
 	celtiberian = {
-		graphical_cultures = { southerncelticgfx newiberiangfx easternslavicgfx }
+		graphical_cultures = { newiberiangfx easternslavicgfx }
   
 		color = { 0.38 0.75 0.17 }
   
@@ -156,10 +145,6 @@ celtic = {
 		female_names = {
 			Ama_Ama Amena_Amena Amia_Amia Ana_Ana Apirka_Apirka Aunia_Aunia Birkita_Birkita Brietta_Brietta Galena_Galena Genouefa_Genouefa Kara_Kara Kyna_Kyna Mauis_Mauis Nunn_Nunn Sikounin_Sikounin Stena_Stena Treva_Treva Ueuila_Ueuila        
 		}
-  
-	 		
-		
-		modifier = celtic_culture_modifier
 	}
 	galatian = {
 		graphical_cultures = { newiberiangfx easternslavicgfx }
@@ -180,7 +165,6 @@ celtic = {
   
 		from_dynasty_prefix = "of "
 		dynasty_title_names = yes
-		modifier = anatolian_culture_modifier
 	}
 	gallaecian = {
 		graphical_cultures = { newiberiangfx easternslavicgfx }
@@ -193,10 +177,6 @@ celtic = {
 		female_names = {
 			Ama_Ama Amena_Amena Amia_Amia Ana_Ana Apirka_Apirka Aunia_Aunia Birkita_Birkita Brietta_Brietta Galena_Galena Genouefa_Genouefa Kara_Kara Kyna_Kyna Mauis_Mauis Nunn_Nunn Sikounin_Sikounin Stena_Stena Treua_Treua Ueuila_Ueuila        
 		}
-  
-		 		
-	
-		modifier = celtic_culture_modifier
 	}
 }
 levantine_group = { 
@@ -230,8 +210,6 @@ levantine_group = {
 		male_patronym = "bin "
 		female_patronym = "bitt "
 		prefix = yes
-  
-		modifier = punic_culture_modifier
 	} 
 	israelite = {
 		graphical_cultures = { edomitegfx persiangfx }
@@ -276,8 +254,6 @@ levantine_group = {
 		}
   
 		from_dynasty_prefix = "of "
-    
-		modifier = near_eastern_culture_modifier
 	}
 	nabataean = {
 		graphical_cultures = { arabgfx persiangfx }
@@ -295,8 +271,6 @@ levantine_group = {
 		}
   
 		from_dynasty_prefix = "of "
-    
-		modifier = arabic_culture_modifier
 	}
 	aramaic = {
 		graphical_cultures = { edomitegfx persiangfx }
@@ -322,8 +296,6 @@ levantine_group = {
 		}
   
 		from_dynasty_prefix = "of "
-    
-		modifier = near_eastern_culture_modifier
 	}
 	akkadian = {
 		graphical_cultures = { mesopotamiangfx persiangfx }
@@ -344,8 +316,6 @@ levantine_group = {
 		}
   
 		from_dynasty_prefix = "of "
-    
-		modifier = near_eastern_culture_modifier
 	}
 	arabic = {
 		graphical_cultures = { arabgfx persiangfx }
@@ -363,8 +333,6 @@ levantine_group = {
 		}
   
 		from_dynasty_prefix = "of "
-    
-		modifier = arabic_culture_modifier
 	}
 }
 anatolian_group = {
@@ -385,8 +353,6 @@ anatolian_group = {
 		}
   
 		from_dynasty_prefix = "of "
-    
-		modifier = anatolian_culture_modifier
 	}
 	cappadocian = {
 		graphical_cultures = { anatoliangfx persiangfx }
@@ -405,8 +371,6 @@ anatolian_group = {
 		}
   
 		from_dynasty_prefix = "of "
-  
-		modifier = anatolian_culture_modifier
 	}
 }
 eastern_african = {
@@ -490,8 +454,6 @@ eastern_african = {
 		}
   
 		from_dynasty_prefix = "of "
-  
-		modifier = african_culture_modifier
 	}
 	nubian = {
 		graphical_cultures = { kushitegfx muslimgfx }
@@ -576,8 +538,6 @@ eastern_african = {
 		}
   
 		from_dynasty_prefix = "of "
-  
-		modifier = african_culture_modifier
 	}
 }
 north_african = {
@@ -611,9 +571,6 @@ north_african = {
 		male_patronym = "bun "
 		female_patronym = "bitt "
 		prefix = yes 
-
-		modifier = african_culture_modifier
-
 		dynasty_title_names = yes
 	}
 }
@@ -633,8 +590,6 @@ caucasian = {
 		}
   
 		from_dynasty_prefix = "of "
-   
-		modifier = anatolian_culture_modifier
 	}
 	georgian = {
 		graphical_cultures = { byzantinegfx easterngfx }
@@ -651,8 +606,6 @@ caucasian = {
 		}
   
 		from_dynasty_prefix = "of "
-   
-		modifier = anatolian_culture_modifier
 	}
 	albanian = {
 		graphical_cultures = { byzantinegfx easterngfx }
@@ -670,8 +623,6 @@ caucasian = {
 		}
   
 		from_dynasty_prefix = "of "
-   
-		modifier = anatolian_culture_modifier
 	}
 }
 iranian = {
@@ -697,7 +648,6 @@ iranian = {
   
 		from_dynasty_prefix = "of "
 		dynasty_title_names = yes
-		modifier = settled_iranian_culture_modifier
 	}
 	scythian = {
 		graphical_cultures = { newscythiangfx persiangfx easterngfx }
@@ -717,7 +667,6 @@ iranian = {
   
 		from_dynasty_prefix = ""
   		dynasty_title_names = yes
-		modifier = nomadic_iranian_culture_modifier
 	}
 	bactrian = {
 		graphical_cultures = { persiangfx }
@@ -762,7 +711,6 @@ iranian = {
   
 		from_dynasty_prefix = "of "
 		dynasty_title_names = yes
-		modifier = settled_iranian_culture_modifier
 	}
 	parthian = {
 		graphical_cultures = { persiangfx }
@@ -788,7 +736,6 @@ iranian = {
   
 		from_dynasty_prefix = "of "
 		dynasty_title_names = yes
-		modifier = settled_iranian_culture_modifier
 	}
 	sarmatian = {
 		graphical_cultures = { newscythiangfx persiangfx easterngfx }
@@ -807,8 +754,6 @@ iranian = {
 		}
   		dynasty_title_names = yes
 		from_dynasty_prefix = ""
-  
-		modifier = nomadic_iranian_culture_modifier
 	}
 	sogdian = {
 		graphical_cultures = { mesopotamiangfx persiangfx }
@@ -853,7 +798,6 @@ iranian = {
   
 		from_dynasty_prefix = "of "
 		dynasty_title_names = yes
-		modifier = settled_iranian_culture_modifier
 	}
 	median = {
 		graphical_cultures = { mesopotamiangfx persiangfx }
@@ -877,7 +821,6 @@ iranian = {
   
 		from_dynasty_prefix = "of "
 		dynasty_title_names = yes
-		modifier = settled_iranian_culture_modifier
 	}
 	arian = {
 		graphical_cultures = { indiangfx muslimgfx }
@@ -901,7 +844,6 @@ iranian = {
   
 		from_dynasty_prefix = "of "
 		dynasty_title_names = yes
-		modifier = settled_iranian_culture_modifier
 	}
 	middle_persian = {
 		graphical_cultures = { persiangfx }
@@ -927,7 +869,6 @@ iranian = {
 		
 		from_dynasty_prefix = "of "
 		dynasty_title_names = yes
-		modifier = settled_iranian_culture_modifier
 	}
 	indo_scythian = {
 		graphical_cultures = { newscythiangfx persiangfx easterngfx }
@@ -948,8 +889,6 @@ iranian = {
 		}
 		
 		from_dynasty_prefix = "of "
-  
-		modifier = settled_iranian_culture_modifier
 	}
 	chorasmian = {
 		graphical_cultures = { mesopotamiangfx persiangfx }
@@ -994,7 +933,6 @@ iranian = {
   
 		from_dynasty_prefix = "of "
 		dynasty_title_names = yes
-		modifier = nomadic_iranian_culture_modifier
 	}
 	khotanese = {
 		graphical_cultures = { newscythiangfx persiangfx easterngfx }
@@ -1016,7 +954,6 @@ iranian = {
         male_patronym = "puri "
         female_patronym = "duda "
 		dynasty_title_names = yes
-        modifier = nomadic_iranian_culture_modifier
     }
 }
 far_eastern = {
@@ -1084,8 +1021,6 @@ far_eastern = {
         from_dynasty_prefix = "auz "
 		dynasty_title_names = yes
         founder_named_dynasties = yes
-
-        modifier = nomadic_iranian_culture_modifier
     }
 }
 indian = { # Indo-Aryan
@@ -1107,7 +1042,6 @@ indian = { # Indo-Aryan
   
 		from_dynasty_prefix = "of "
 		dynasty_title_names = yes
-		modifier = indian_culture_modifier
 	}
 	shauraseni = {
 		graphical_cultures = { indiangfx muslimgfx }
@@ -1128,7 +1062,6 @@ indian = { # Indo-Aryan
 		
 		from_dynasty_prefix = "of "
 		dynasty_title_names = yes
-		modifier = indian_culture_modifier
 	}
 	gandhari = {
 		graphical_cultures = { indiangfx muslimgfx }
@@ -1147,7 +1080,6 @@ indian = { # Indo-Aryan
 		
 		from_dynasty_prefix = "of "
 		dynasty_title_names = yes
-		modifier = indian_culture_modifier
 	}
 	maharashtri = {
 		graphical_cultures = { indiangfx muslimgfx }
@@ -1167,7 +1099,6 @@ indian = { # Indo-Aryan
 		
 		from_dynasty_prefix = "of "
 		dynasty_title_names = yes
-		modifier = indian_culture_modifier
 	}
 	sinhala = {
 		graphical_cultures = { southindiangfx muslimgfx }
@@ -1187,7 +1118,6 @@ indian = { # Indo-Aryan
 		
 		from_dynasty_prefix = "of "
 		dynasty_title_names = yes
-		modifier = indian_culture_modifier
 	}
 }
 dravidian = {
@@ -1209,7 +1139,6 @@ dravidian = {
 		
 		from_dynasty_prefix = "of "
 		dynasty_title_names = yes
-		modifier = indian_culture_modifier
 	}
 	kannada = {
 		graphical_cultures = { southindiangfx muslimgfx }
@@ -1228,7 +1157,6 @@ dravidian = {
 		
 		from_dynasty_prefix = "of "
 		dynasty_title_names = yes
-		modifier = indian_culture_modifier
 	}
 	tamil = {
 		graphical_cultures = { southindiangfx muslimgfx }
@@ -1252,7 +1180,6 @@ dravidian = {
 		
 		from_dynasty_prefix = "of "
 		dynasty_title_names = yes
-		modifier = indian_culture_modifier
 	}
 }
 near_eastern = {
@@ -1273,8 +1200,6 @@ near_eastern = {
 		}
 		
 		from_dynasty_prefix = "of "
-		
-		modifier = near_eastern_culture_modifier
 	}
 }
 hellenic = {
@@ -1322,8 +1247,6 @@ hellenic = {
 		}
   
 		from_dynasty_prefix = "of "
-   
-		modifier = hellenic_culture_modifier
 	}
 	arcadian = {
 		graphical_cultures = { greekgfx }
@@ -1367,8 +1290,6 @@ hellenic = {
 		}
   
 		from_dynasty_prefix = "of "
-   
-		modifier = hellenic_culture_modifier
 	}
 	doric = {
 		graphical_cultures = { greekgfx }
@@ -1412,8 +1333,6 @@ hellenic = {
 		}
   
 		from_dynasty_prefix = "of "
-  
-		modifier = hellenic_culture_modifier
 	}
 	ionian = { 
 		graphical_cultures = { greekgfx }
@@ -1457,8 +1376,6 @@ hellenic = {
 		}
   
 		from_dynasty_prefix = "of "
-  
-		modifier = hellenic_culture_modifier
 	}
 	macedonian = {
 		graphical_cultures = { macedoniangfx }
@@ -1502,8 +1419,6 @@ hellenic = {
 		}
   
 		from_dynasty_prefix = "of "
-  
-		modifier = hellenic_culture_modifier
 	}
 	pontic = {
 		graphical_cultures = { greekgfx }
@@ -1531,8 +1446,6 @@ hellenic = {
 		}
   
 		from_dynasty_prefix = "of "
-  
-		modifier = greco_persian_culture_modifier
 	}
 	koine = {
 		graphical_cultures = { greekgfx }
@@ -1576,8 +1489,6 @@ hellenic = {
 		}
   
 		from_dynasty_prefix = "of "
-  
-		modifier = hellenic_culture_modifier
 	}
 }
 italian = {
@@ -1600,8 +1511,6 @@ italian = {
 		}
   
 		from_dynasty_prefix = "of "
-   
-		modifier = italic_culture_modifier
 	}
 	latin = {
 		graphical_cultures = { modromangfx }
@@ -1639,8 +1548,6 @@ italian = {
 		}
   
 		from_dynasty_prefix = "of "
-   
-		modifier = italic_culture_modifier
 	}
 	umbrian = {
 		graphical_cultures = { latingfx etruscangfx }
@@ -1659,8 +1566,6 @@ italian = {
 		}
   
 		from_dynasty_prefix = "of "
-   
-		modifier = italic_culture_modifier
 	}
 	picene = {
 		graphical_cultures = { latingfx etruscangfx }
@@ -1679,8 +1584,6 @@ italian = {
 		}
   
 		from_dynasty_prefix = "of "
-   
-		modifier = italic_culture_modifier
 	}
 }
 tyrhenian = {
@@ -1703,8 +1606,6 @@ tyrhenian = {
 		}
   
 		from_dynasty_prefix = "of "
-   
-		modifier = tyrhenian_culture_modifier
 	}
 	raetic = {
 		graphical_cultures = { newiberiangfx easternslavicgfx gaulgfx }
@@ -1724,7 +1625,6 @@ tyrhenian = {
   
 		from_dynasty_prefix = "of "
 		dynasty_title_names = yes
-		modifier = tyrhenian_culture_modifier
 	}
 }
 north_italic = {
@@ -1750,7 +1650,6 @@ north_italic = {
   
 		from_dynasty_prefix = "of "   		
 		dynasty_title_names = yes
-		modifier = illyrian_culture_modifier
 	}
 }
 iberian = {
@@ -1766,10 +1665,6 @@ iberian = {
 		female_names = {
 			Auruningika_Auruningika Aretaunin_Aretaunin Kanine_Kanine Daleninar_Daleninar Edereta_Edereta Nisunin_Nisunin Sikedunin_Sikedunin Sikounin_Sikounin Similke_Similke
 		}
-		
-			
-		
-		modifier = iberian_culture_modifier
 	}
 }
 lusitanian = {
@@ -1785,10 +1680,6 @@ lusitanian = {
 		female_names = {
 			Ama_Ama Amena_Amena Amia_Amia Ana_Ana Apirka_Apirka Aunia_Aunia Birkita_Birkita  Bouana_Bouana Bouia_Bouia Kilena_Kilena Genouefa_Genouefa Kara_Kara Kyna_Kyna Mauis_Mauis Nunn_Nunn Sikounin_Sikounin Stena_Stena Treua_Treua Ueuila_Ueuila  
 		}
-		
-				
-		
-		modifier = lusitanian_culture_modifier
 	}
 }
 tartessian = {
@@ -1804,10 +1695,6 @@ tartessian = {
 		female_names = {
 			Ama_Ama Amena_Amena Amia_Amia Ana_Ana Apirka_Apirka Aunia_Aunia Birkita_Birkita  Bouana_Bouana Bouia_Bouia Kilena_Kilena Genouefa_Genouefa Kara_Kara Kyna_Kyna Mauis_Mauis Nunn_Nunn Sikounin_Sikounin Stena_Stena Treua_Treua Ueuila_Ueuila   
 		}
-		
-			
-	
-		modifier = tartessian_culture_modifier
 	}
 	
 	old_tartessian = {
@@ -1821,10 +1708,6 @@ tartessian = {
 		female_names = {
 			Ama_Ama Amena_Amena Amia_Amia Ana_Ana Apirka_Apirka Aunia_Aunia Birkita_Birkita  Bouana_Bouana Bouia_Bouia Kilena_Kilena Genouefa_Genouefa Kara_Kara Kyna_Kyna Mauis_Mauis Nunn_Nunn Sikounin_Sikounin Stena_Stena Treua_Treua Ueuila_Ueuila     
 		}
-		
-				
-		
-		modifier = tartessian_culture_modifier
 	}
 }
 aquitanian = {
@@ -1840,9 +1723,5 @@ aquitanian = {
 		female_names = {
 			Andere_Andere Aretaunin_Aretaunin Kanine_Kanine Daleninar_Daleninar Edereta_Edereta Neskato_Neskato Nisunin_Nisunin Sikedunin_Sikedunin Sikounin_Sikounin Similke_Similke
 		}
-		
-				
-		
-		modifier = aquitanian_culture_modifier
 	}
 }
