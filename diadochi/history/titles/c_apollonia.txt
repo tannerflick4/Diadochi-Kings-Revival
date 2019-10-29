@@ -1,7 +1,7 @@
 417.1.1 = { # 359 BC
 	holder = 55301 # Heron
 }
-442.1.1 = { # 339 BC
+437.1.1 = { # 339 BC
 	holder = 55302 # Kallias
 }
 438.8.2 = { # 338 BC, Battle of Chaeronea

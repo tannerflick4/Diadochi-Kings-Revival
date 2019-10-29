@@ -1,5 +1,5 @@
 410.1.1 = { # 366 BC
-	holder = 40501 # Bas of the Odomanti
+	holder = 41501 # Bas of the Odomanti
 	liege = k_odrysia
 }
 418.1.1 = { # 358 BC

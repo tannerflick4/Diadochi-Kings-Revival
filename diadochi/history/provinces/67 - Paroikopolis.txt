@@ -4,14 +4,14 @@
 title = c_paroikopolis
 
 # Settlements
-max_settlements = 3 # tsf4 - 6
+max_settlements = 3
 b_paroikopolis_paroikopolis = tribal
-b_doberos_paroikopolis
-b_tiberia_paroikopolis
-b_astraia_paroikopolis
-b_bargala_paroikopolis
-b_stenas_paroikopolis
-b_laki_paroikopolis
+#b_doberos_paroikopolis = castle
+#b_tiberia_paroikopolis = castle
+#b_astraia_paroikopolis = city
+#b_bargala_paroikopolis = city
+#b_stenas_paroikopolis = castle
+#b_laki_paroikopolis = castle
 
 # Misc
 culture = paeonian

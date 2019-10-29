@@ -19,7 +19,7 @@
 	religion = thracian_main
 	culture = thracian
 
-    father = 40402
+    father = 40401
     
 	407.1.1 = { # 369 BC
 		birth="yes"
