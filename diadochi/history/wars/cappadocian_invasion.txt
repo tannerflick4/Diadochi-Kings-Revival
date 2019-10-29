@@ -3,7 +3,7 @@ name = "Macedonian invasion of Katpatuka"
 casus_belli = {
 	actor = 801 # Philippos III
 	recipient = 60001 # Ariarathes of Cappadocia
-	casus_belli = invasion_other
+	casus_belli = invasion
 	landed_title = k_cappadocia
 	date = 453.6.10
 }
