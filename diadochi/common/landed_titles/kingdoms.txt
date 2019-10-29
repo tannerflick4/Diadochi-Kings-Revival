@@ -428,6 +428,8 @@ k_odrysia = {
 		color= { 150 75 0 }
 		color2= { 255 255 255 }
 		
+		capital = 40 # Orestias/Edirne
+		
 		c_orestias = {
 			color= { 140 65 0 }
 			color2= { 255 255 255 }
@@ -668,6 +670,8 @@ k_odrysia = {
 	d_rhodope = {
 		color= { 125 50 25 }
 		color2= { 255 255 255 }
+		
+		capital = 41 # Maroneia
 		
 		c_maroneia = {
 			color= { 125 50 25 }
@@ -5101,7 +5105,7 @@ k_pannonia = {
 			}
 			b_malvesa1_malvesa = {
 			}
-			b_salinae_malvesa = {
+			b_malvesa2_malvesa = {
 			}
 			b_risa_malvesa = {
 			}
@@ -5153,6 +5157,25 @@ k_pannonia = {
 			b_domavium5_domavium = {
 			}
 			b_domavium6_domavium = {
+			}
+		}
+		c_salinae = {
+			color= { 39 83 140 }
+			color2= { 255 255 255 }
+			
+			b_salinae_salinae = {
+			}
+			b_salinae1_salinae = {
+			}
+			b_salinae2_salinae = {
+			}
+			b_salinae3_salinae = {
+			}
+			b_salinae4_salinae = {
+			}
+			b_salinae5_salinae = {
+			}
+			b_salinae6_salinae = {
 			}
 		}
 	}

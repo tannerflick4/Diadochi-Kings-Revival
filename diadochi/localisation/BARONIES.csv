@@ -1631,7 +1631,7 @@ b_mursa1_mursa;Mursa;;;;;;;;;;;;;x;
 b_donatlanis_mursa;Donatlanis;;;;;;;;;;;;;x;
 b_malvesa_malvesa;Malvesa;;;;;;;;;;;;;x;
 b_malvesa1_malvesa;Malvesa;;;;;;;;;;;;;x;
-b_salinae_malvesa;Salinae;;;;;;;;;;;;;x;
+b_malvesa2_malvesa;Malvesa;;;;;;;;;;;;;x;
 b_risa_malvesa;Risa;;;;;;;;;;;;;x;
 b_sopianae_sopianae;Sopianae;;;;;;;;;;;;;x;
 b_altinum_sopianae;Altinum;;;;;;;;;;;;;x;
@@ -3746,3 +3746,10 @@ b_romuliana3_romuliana;Romuliana;;;;;;;;;;;x
 b_romuliana4_romuliana;Romuliana;;;;;;;;;;;x
 b_romuliana5_romuliana;Romuliana;;;;;;;;;;;x
 b_romuliana6_romuliana;Romuliana;;;;;;;;;;;x
+b_salinae_salinae;Salinae;;;;;;;;;;;x
+b_salinae1_salinae;Salinae;;;;;;;;;;;x
+b_salinae2_salinae;Salinae;;;;;;;;;;;x
+b_salinae3_salinae;Salinae;;;;;;;;;;;x
+b_salinae4_salinae;Salinae;;;;;;;;;;;x
+b_salinae5_salinae;Salinae;;;;;;;;;;;x
+b_salinae6_salinae;Salinae;;;;;;;;;;;x
