@@ -263,20 +263,18 @@ diadochi_king_cb = {
 														}
 														any_neighbor_province = {
 															OR = {
-																AND = {
-																	OR = {
-																		AND = {
-																			controlled_by = ROOT
-																			has_owner = yes
-																			owner ={
-																				OR = {
-																					character = FROM
-																					is_liege_or_above = FROM
-																				}
+																OR = {
+																	AND = {
+																		controlled_by = ROOT
+																		has_owner = yes
+																		owner ={
+																			OR = {
+																				character = FROM
+																				is_liege_or_above = FROM
 																			}
 																		}
-																		is_land = no
 																	}
+																	is_land = no
 																}
 																AND = {
 																	has_owner = yes
@@ -992,20 +990,18 @@ epigoni_king_cb = {
 														}
 														any_neighbor_province = {
 															OR = {
-																AND = {
-																	OR = {
-																		AND = {
-																			controlled_by = ROOT
-																			has_owner = yes
-																			owner ={
-																				OR = {
-																					character = FROM
-																					is_liege_or_above = FROM
-																				}
+																OR = {
+																	AND = {
+																		controlled_by = ROOT
+																		has_owner = yes
+																		owner ={
+																			OR = {
+																				character = FROM
+																				is_liege_or_above = FROM
 																			}
 																		}
-																		is_land = no
 																	}
+																	is_land = no
 																}
 																AND = {
 																	has_owner = yes
