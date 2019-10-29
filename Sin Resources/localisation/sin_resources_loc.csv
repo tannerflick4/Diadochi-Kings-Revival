@@ -1,0 +1,50 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+sin_prospecting;Prospecting;;;;;;;;;;;;;x
+sin_prospecting_desc;This province is being prospected;;;;;;;;;;;;;x
+sin_traders_mod;Merchants;;;;;;;;;;;;;x
+sin_traders_mod_desc;The Realm has merchants trading resources.;;;;;;;;;;;;;x
+sin_nothing;Barren;;;;;;;;;;;;;x
+sin_nothing_desc;This province is barren.;;;;;;;;;;;;;x
+sin_bmaterial;Building Materials;;;;;;;;;;;;;x
+sin_bmaterial_desc;This province is laden with quality deposits of building materials.;;;;;;;;;;;;;x
+sin_ivory;Ivory;;;;;;;;;;;;;x
+sin_ivory_desc;This province is laden with many elephants producing quality ivory.;;;;;;;;;;;;;x
+sin_iron;Iron;;;;;;;;;;;;;x
+sin_iron_desc;This province is laden with high quality iron veins.;;;;;;;;;;;;;x
+sin_food;Food Rich;;;;;;;;;;;;;x
+sin_food_desc;This province is highly fertile and produces excessive quantities of food.;;;;;;;;;;;;;x
+sin_pmetal;Precious Metals;;;;;;;;;;;;;x
+sin_pmetal_desc;This province is laden with gold and silver veins.;;;;;;;;;;;;;x
+ca_sin_crafters_guild;Crafter's Guild;;;;;;;;;;;;;x
+ca_sin_crafters_guild_desc;The region is rich in stone and wood, these master crafters will cut and shape them into building supplies.;;;;;;;;;;;;;x
+ca_sin_iron_mine;Iron mine;;;;;;;;;;;;;x
+ca_sin_iron_mine_desc;The region is rich in iron, these mines will dig the useful ore from the ground.;;;;;;;;;;;;;x
+ca_sin_precious_mine;Precious ore mine;;;;;;;;;;;;;x
+ca_sin_precious_mine_desc;The region is Rich in gold and silver, these mines will dig the precious ore from the ground.;;;;;;;;;;;;;x
+ca_sin_traders;Merchant's Guild;;;;;;;;;;;;;x
+ca_sin_traders_desc;The Realm deals in resources, and with trade comes merchants, this building is their meeting ground, granting the holder a nice boon.;;;;;;;;;;;;;x
+ct_sin_crafters_guild;Crafter's Guild;;;;;;;;;;;;;x
+ct_sin_crafters_guild_desc;The region is rich in stone and wood, these master crafters will cut and shape them into building supplies.;;;;;;;;;;;;;x
+ct_sin_iron_mine;Iron mine;;;;;;;;;;;;;x
+ct_sin_iron_mine_desc;The region is rich in iron, these mines will dig the useful ore from the ground.;;;;;;;;;;;;;x
+ct_sin_precious_mine;Precious ore mine;;;;;;;;;;;;;x
+ct_sin_precious_mine_desc;The region is Rich in gold and silver, these mines will dig the precious ore from the ground.;;;;;;;;;;;;;x
+ct_sin_traders;Merchant's Guild;;;;;;;;;;;;;x
+ct_sin_traders_desc;The Realm deals in resources, and with trade comes merchants, this building is their meeting ground, granting the holder a nice boon.;;;;;;;;;;;;;x
+sin_resources_prospect;Prospect [Root.GetName];;;;;;;;;;;;;x
+sin_resources_prospect_desc;Send out surveys to prospect [Root.GetName] for resources.;;;;;;;;;;;;;x
+EVTDESCsin_resources_events.0;You've prospected [From.GetBaseName] and found...;;;;;;;;;;;;;x
+EVTOPTAsin_resources_events.0;Precious Metals!;;;;;;;;;;;;;x
+EVTOPTBsin_resources_events.0;Ivory!;;;;;;;;;;;;;x
+EVTOPTCsin_resources_events.0;Iron!;;;;;;;;;;;;;x
+EVTOPTDsin_resources_events.0;Food!;;;;;;;;;;;;;x
+EVTOPTEsin_resources_events.0;Building Materials!;;;;;;;;;;;;;x
+EVTOPTFsin_resources_events.0;Nothing.;;;;;;;;;;;;;x
+EVTDESCsin_resources_events.1;[FromFrom.GetBaseName] has been prospected, they found...;;;;;;;;;;;;;x
+EVTOPTAsin_resources_events.1;Precious Metals!;;;;;;;;;;;;;x
+EVTOPTBsin_resources_events.1;Ivory!;;;;;;;;;;;;;x
+EVTOPTCsin_resources_events.1;Iron!;;;;;;;;;;;;;x
+EVTOPTDsin_resources_events.1;Food!;;;;;;;;;;;;;x
+EVTOPTEsin_resources_events.1;Building Materials!;;;;;;;;;;;;;x
+EVTOPTFsin_resources_events.1;Nothing.;;;;;;;;;;;;;x
+EVTOPTGsin_resources_events.1;Shut Up, Damn!;;;;;;;;;;;;;x

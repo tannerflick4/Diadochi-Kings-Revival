@@ -211,10 +211,6 @@ illyriangfx = { # replaces old easternslavicgfx in illyria etc using poles
 	skin_tone = 0
 }
 
-celticgfx = {
-	skin_tone = 0
-}
-
 colchiangfx = {
 	skin_tone = 0
 }

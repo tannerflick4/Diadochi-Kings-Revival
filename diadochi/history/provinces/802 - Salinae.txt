@@ -1,0 +1,20 @@
+# 802 - Salinae
+
+# County Title
+title = c_salinae
+
+# Settlements
+max_settlements = 4
+b_salinae_salinae = tribal
+#b_salinae1_salinae = city
+#b_salinae2_salinae = castle
+#b_salinae3_salinae = castle
+#b_salinae4_salinae = city
+#b_salinae5_salinae = castle
+#b_salinae6_salinae = castle
+
+# Misc
+culture = illyrian
+religion = illyrian_main
+
+# History

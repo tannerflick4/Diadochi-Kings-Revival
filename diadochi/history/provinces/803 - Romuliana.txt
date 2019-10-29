@@ -1,0 +1,20 @@
+# 803 - Romuliana
+
+# County Title
+title = c_romuliana
+
+# Settlements
+max_settlements = 4
+b_romuliana_romuliana = tribal
+#b_romuliana1_romuliana = city
+b_romuliana2_romuliana = temple
+#b_romuliana3_romuliana = castle
+#b_romuliana4_romuliana = city
+#b_romuliana5_romuliana = temple
+#b_romuliana6_romuliana = castle
+
+# Misc
+culture = thracian
+religion = thracian_main
+
+# History

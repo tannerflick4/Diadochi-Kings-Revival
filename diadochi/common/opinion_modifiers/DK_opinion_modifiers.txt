@@ -1,0 +1,4 @@
+opinion_failed_liberation = {
+	opinion = -5
+	months = 12
+}

@@ -7,7 +7,7 @@ title = c_malvesa
 max_settlements = 4
 b_malvesa_malvesa = tribal
 #b_malvesa1_malvesa = city
-#b_salinae_malvesa = castle
+#b_malvesa2_malvesa = castle
 
 # Possible baronies: (Always add a # in front of a line with these!)
 # b_risa_malvesa

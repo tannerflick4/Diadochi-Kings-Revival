@@ -25,3 +25,6 @@ WAR_NAME_INVASION_OTHER;$ATTACKER$'s invasion of $SECOND$;;;;;;;;;;;;;;x
 invasion_other_desc;Our enemy holds lands that would belong to one of our vassals. I will invade it on his behalf.;;;;;;;;;;;;;;x 
 invasion_other_occupy_occupied_settlements;[Root.GetFirstName]'s vassal takes all occupied lands.\n;;;;;;;;;;;;;;x
 invasion_other_vassalize_all_vassals;All vassals of [From.PrimaryTitle.GetBaseName] submit to [Root.GetFirstName]'s vassal\n;;;;;;;;;;;;;;x
+powerful_vassal_takeover_war_desc;§Y$TARGET$§ is too weak to rule [Title.GetBaseName] and must be overthrown!;;;;;;;;;;;;;;x
+weaken_vassal_plot_desc;§Y$TARGET$§ has amassed too much power and must be put in their place.;;;;;;;;;;;;;;x
+claim_on_liege_plot_desc;Claim on liege;;;;;;;;;;;;;;x

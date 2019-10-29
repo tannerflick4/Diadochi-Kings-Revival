@@ -1,0 +1,12 @@
+on_yearly_pulse = {
+	events = {
+		sin_resources_events.2
+		sin_resources_events.3
+	}
+}
+on_startup = {
+	events = {
+		sin_resources_events.2
+		sin_resources_events.3
+	}
+}

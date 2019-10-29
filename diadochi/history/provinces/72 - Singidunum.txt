@@ -11,7 +11,7 @@ b_oktabon_singidunum = tribal
 
 # Possible baronies: (Always add a # in front of a line with these!)
 # b_singidunum_singidunum
-# b_viminacium_singidunum
+# b_singidunum_singidunum
 
 # Misc
 culture = illyrian

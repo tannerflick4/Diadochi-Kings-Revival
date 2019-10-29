@@ -8,7 +8,7 @@ max_settlements = 4
 b_ratiaria_ratiaria = tribal
 #b_bononia_ratiaria = city
 b_almus_ratiaria = temple
-#b_romuliana_ratiaria = castle
+#b_ratiaria1_ratiaria = castle
 
 # Misc
 culture = thracian

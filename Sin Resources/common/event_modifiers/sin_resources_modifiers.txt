@@ -1,0 +1,27 @@
+sin_prospecting = {
+	icon = 7
+}
+sin_traders_mod = {
+	icon = 7
+}
+sin_nothing = {
+	icon = 25
+}
+sin_bmaterial = {
+	icon = 7
+	local_build_time_modifier = -0.25
+	local_build_cost_modifier = -0.25
+}
+sin_ivory = {
+	icon = 7
+}
+sin_iron = {
+	icon = 7
+	land_morale = 0.1
+}
+sin_food = {
+	icon = 7
+}
+sin_pmetal = {
+	icon = 7
+}

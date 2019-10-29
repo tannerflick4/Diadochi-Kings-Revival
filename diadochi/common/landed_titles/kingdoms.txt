@@ -8,6 +8,8 @@ k_bosphorus = {
 		color= { 50 0 25 }
 		color2= { 255 255 255 }
 		
+		capital = 56 # Phanagoria
+		
 		c_phanagoria = {
 			color= { 50 0 25 }
 			color2= { 255 255 255 }
@@ -72,6 +74,8 @@ k_bosphorus = {
 		color= { 75 0 25 }
 		color2= { 255 255 255 }
 		
+		capital = 55 # Pantikapaion
+		
 		c_pantikapaion = {
 			color= { 75 0 25 }
 			color2= { 255 255 255 }
@@ -115,7 +119,9 @@ k_bosphorus = {
 	d_tyras = {
 		color= { 100 0 25 }
 		color2= { 255 255 255 }
-				
+		
+		capital = 52 # Tyras
+		
 		c_tyras = {
 			color= { 100 0 25 }
 			color2= { 255 255 255 }
@@ -166,6 +172,8 @@ k_epirus = {
 	d_epirus_mountains = {
 		color= { 0 200 50 }
 		color2= { 255 255 255 }
+		
+		capital = 30 # Ilium
 		
 		c_ilium = {
 			color= { 0 198 82 }
@@ -244,6 +252,8 @@ k_epirus = {
 	d_epirus_sea = {
 		color= { 25 150 50 }
 		color2= { 255 255 255 }
+		
+		capital = 62 # Ambracia
 		
 		c_ambracia = {
 			color= { 10 160 60 }
@@ -325,6 +335,8 @@ k_odrysia = {
 		c_odessos = {
 			color= { 125 40 10 }
 			color2= { 255 255 255 }
+			
+			capital = 47 # Odessos ?
 			
 			b_odessos_odessos = {
 			}
@@ -415,6 +427,8 @@ k_odrysia = {
 	d_odrysia = {
 		color= { 150 75 0 }
 		color2= { 255 255 255 }
+		
+		capital = 40 # Orestias/Edirne
 		
 		c_orestias = {
 			color= { 140 65 0 }
@@ -555,6 +569,8 @@ k_odrysia = {
 		color= { 150 75 25 }
 		color2= { 255 255 255 }
 		
+		capital = 39 # Seuthopolis
+		
 		c_seuthopolis = {
 			color= { 150 75 25 }
 			color2= { 255 255 255 }
@@ -654,6 +670,8 @@ k_odrysia = {
 	d_rhodope = {
 		color= { 125 50 25 }
 		color2= { 255 255 255 }
+		
+		capital = 41 # Maroneia
 		
 		c_maroneia = {
 			color= { 125 50 25 }
@@ -3146,7 +3164,7 @@ k_assyria = {
 	capital = 191 # Nineveh
 	
 	allow = {
-		or = {
+		OR = {
 			culture = aramaic
 			culture = akkadian
 		}
@@ -3533,7 +3551,7 @@ k_armenia = {
 	capital = 218 # Armavir
 	
 	allow = {
-		or = {
+		OR = {
 			culture = armenian
 			culture = albanian
 		}
@@ -3848,7 +3866,7 @@ k_georgia = {
 	capital = 223 # Mtskheta
 	
 	allow = {
-		or = {
+		OR = {
 			culture = georgian
 			culture = albanian
 		}
@@ -4355,7 +4373,7 @@ k_illyria = {
 			}
 			b_almus_ratiaria = {
 			}
-			b_romuliana_ratiaria = {
+			b_ratiaria1_ratiaria = {
 			}
 		}
 		c_singidunum = {
@@ -4370,7 +4388,45 @@ k_illyria = {
 			}
 			b_singidunum_singidunum = {
 			}
-			b_viminacium_singidunum = {
+			b_singidunum1_singidunum = {
+			}
+		}
+		c_viminacium = {
+			color={ 140 29 29 }
+			color2={ 255 255 255 }
+			
+			b_viminacium_viminacium = {
+			}
+			b_viminacium1_viminacium = {
+			}
+			b_viminacium2_viminacium = {
+			}
+			b_viminacium3_viminacium = {
+			}
+			b_viminacium4_viminacium = {
+			}
+			b_viminacium5_viminacium = {
+			}
+			b_viminacium6_viminacium = {
+			}
+		}
+		c_romuliana = {
+			color={ 62 140 51 }
+			color2={ 255 255 255 }
+			
+			b_romuliana_romuliana = {
+			}
+			b_romuliana1_romuliana = {
+			}
+			b_romuliana2_romuliana = {
+			}
+			b_romuliana3_romuliana = {
+			}
+			b_romuliana4_romuliana = {
+			}
+			b_romuliana5_romuliana = {
+			}
+			b_romuliana6_romuliana = {
 			}
 		}
 	}
@@ -5049,7 +5105,7 @@ k_pannonia = {
 			}
 			b_malvesa1_malvesa = {
 			}
-			b_salinae_malvesa = {
+			b_malvesa2_malvesa = {
 			}
 			b_risa_malvesa = {
 			}
@@ -5103,6 +5159,25 @@ k_pannonia = {
 			b_domavium6_domavium = {
 			}
 		}
+		c_salinae = {
+			color= { 39 83 140 }
+			color2= { 255 255 255 }
+			
+			b_salinae_salinae = {
+			}
+			b_salinae1_salinae = {
+			}
+			b_salinae2_salinae = {
+			}
+			b_salinae3_salinae = {
+			}
+			b_salinae4_salinae = {
+			}
+			b_salinae5_salinae = {
+			}
+			b_salinae6_salinae = {
+			}
+		}
 	}
 }
 k_greece = {
@@ -5110,7 +5185,7 @@ k_greece = {
 	color2= { 255 255 255 }
 	
 	allow = {
-		or = {
+		OR = {
 			culture = aeolian
 			culture = arcadian
 			culture = doric
@@ -5906,7 +5981,7 @@ k_italy = {
 	color2= { 255 255 255 }
 	
 	allow = {
-		or = {
+		OR = {
 			culture_group = italian
 			culture_group = tyrhenian
 			culture_group = north_italic
@@ -6236,7 +6311,7 @@ k_cisalpine_gaul = {
 	color2= { 255 255 255 }
 	
 	allow = {
-		or = {
+		OR = {
 			culture = gaul
 			culture = ligurian
 		}
@@ -7347,7 +7422,7 @@ k_dacia = {
 	capital = 408 # Sarmizegetusa
 	
 	allow = {
-		or = {
+		OR = {
 			culture = dacian
 			culture = thracian
 		}
@@ -7622,7 +7697,7 @@ k_gallia = {
 	color2= { 255 255 255 }
 	
 	allow = {
-		or = {
+		OR = {
 			culture = gaul
 			culture = ligurian
 		}
@@ -8189,7 +8264,7 @@ k_arabia = {
 	color2={ 255 255 255 }
 	
 	allow = {
-		or = {
+		OR = {
 			culture = nabataean
 			culture = arabic
 		}
@@ -8433,7 +8508,7 @@ k_maka = {
 	color2={ 255 255 255 }
 	
 	allow = {
-		or = {
+		OR = {
 			culture = nabataean
 			culture = arabic
 		}
