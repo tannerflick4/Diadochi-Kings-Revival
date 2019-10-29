@@ -71,11 +71,9 @@ diadochi_king_cb = {
 				OR = {
 					war = no
 					NOT = {
-						any_war = {
-							any_current_enemy = {
-								primary_title = {
-									title = k_cappadocia
-								}
+						any_current_enemy = {
+							primary_title = {
+								title = k_cappadocia
 							}
 						}
 					}
