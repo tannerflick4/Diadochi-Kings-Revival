@@ -9,7 +9,7 @@
 	culture = paeonian
 }
 15003 = {
-	name = "Almopii"
+	name = "Almopes"
 	culture = paeonian
 }
 15004 = {

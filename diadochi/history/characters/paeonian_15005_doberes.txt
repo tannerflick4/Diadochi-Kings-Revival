@@ -1,0 +1,90 @@
+# 150301-150400 for the Doberes dynasty
+# Rulers are made up to allow for a playable Doberes dynasty.
+150301 = {
+	name = "Lycceius"
+	dynasty = 15005
+	religion = illyrian_main
+	culture = paeonian
+
+	379.1.1 = { # 397 BC
+		birth="yes"
+	}
+	430.1.1 = { # 346 BC
+		death="yes"
+	}
+}
+150302 = {
+	name = "Teutamado"
+	dynasty = 15005
+	religion = illyrian_main
+	culture = paeonian
+
+    father = 150301
+
+	404.1.1 = { # 372 BC
+		birth="yes"
+	}
+	452.1.1 = { # 324 BC
+		death="yes"
+	}
+}
+150303 = {
+	name = "Agron"
+	dynasty = 15005
+	religion = illyrian_main
+	culture = paeonian
+
+    father = 150302
+
+	431.1.1 = { # 345 BC
+		birth="yes"
+	}
+	468.1.1 = { # 308 BC
+		death="yes"
+	}
+}
+150304 = {
+	name = "Dropion"
+	dynasty = 15005
+	religion = illyrian_main
+	culture = paeonian
+
+    father = 150303
+
+	446.1.1 = { # 330 BC
+		birth="yes"
+	}
+	487.1.1 = { # 289 BC
+		death="yes"
+	}
+}
+150305 = {
+	name = "Patraus"
+	dynasty = 15005
+	religion = illyrian_main
+	culture = paeonian
+
+    father = 150304
+
+	469.1.1 = { # 307 BC
+		birth="yes"
+	}
+	496.1.1 = { # 280 BC
+		death="yes"
+	}
+}
+150306 = {
+	name = "Dyplaios"
+	dynasty = 15005
+	religion = illyrian_main
+	culture = paeonian
+
+    father = 150305
+
+	493.1.1 = { # 283 BC
+		birth="yes"
+	}
+	537.1.1 = { # 239 BC
+		death="yes"
+	}
+}

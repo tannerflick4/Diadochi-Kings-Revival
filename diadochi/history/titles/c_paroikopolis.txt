@@ -1,16 +1,33 @@
-417.4.1 = {
-	holder = 150004
-	liege = d_paeonia
+406.1.1 = { # 370 BC
+	holder = 150301 # Lycceius of the Doberes
 }
-418.1.1 = {
-	holder = 150005
+418.1.1 = { # 358 BC
+	liege = k_macedon
 }
-436.1.1 = {
-	holder = 150001
+426.1.1 = { # 350 BC
+	liege = e_macedonia
 }
-461.1.1 = {
-	holder = 150002 # Audoleon
+430.1.1 = { # 346 BC
+	holder = 150302 # Teutamado of the Doberes
 }
-491.1.1 = {
-	holder = 150003 # Ariston
+452.1.1 = { # 324 BC
+	holder = 150303 # Agron of the Doberes
+}
+453.6.10 = { # 323 BC
+	liege = k_s_macedon
+}
+459.10.1 = { # 317 BC
+	liege = k_macedon
+}
+466.1.1 = { # 310 BC
+	liege = k_tylis
+}
+468.1.1 = { # 308 BC
+	holder = 150304 # Dropion of the Doberes
+}
+487.1.1 = { # 289 BC
+	holder = 150305 # Patraus of the Doberes
+}
+496.1.1 = { # 280 BC
+	holder = 150306 # Dyplaios of the Doberes
 }

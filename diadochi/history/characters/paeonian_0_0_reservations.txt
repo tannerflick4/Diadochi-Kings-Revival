@@ -1,2 +1,5 @@
 # 150001-160000 for paeonian characters
-	# 150001-150100 for the Agis dynasty
+	# 150001-150100 for the Derrones dynasty
+	# 150101-150200 for the Almopes dynasty
+	# 150201-150300 for the Agrianes dynasty
+	# 150301-150400 for the Doberes dynasty

@@ -1,0 +1,75 @@
+# 150201-150300 for the Agrianes dynasty
+# Most rulers are made up to allow for a playable Agrianes dynasty.
+150201 = {
+	name = "Dokidan"
+	dynasty = 15002
+	religion = illyrian_main
+	culture = paeonian
+
+	390.1.1 = { # 386 BC
+		birth="yes"
+	}
+	429.1.1 = { # 347 BC
+		death="yes"
+	}
+}
+150202 = {
+	name = "Langarus" # Historical king of the Agrianes
+	dynasty = 15002
+	religion = illyrian_main
+	culture = paeonian
+
+    father = 150201
+
+	412.1.1 = { # 364 BC, Made up
+		birth="yes"
+	}
+	441.1.1 = { # 335 BC
+		death="yes"
+	}
+}
+150203 = {
+	name = "Mantyes"
+	dynasty = 15002
+	religion = illyrian_main
+	culture = paeonian
+
+    father = 150202
+
+	430.1.1 = { # 346 BC
+		birth="yes"
+	}
+	472.1.1 = { # 304 BC
+		death="yes"
+	}
+}
+150204 = {
+	name = "Mantyes"
+	dynasty = 15002
+	religion = illyrian_main
+	culture = paeonian
+
+    father = 150203
+
+	452.1.1 = { # 324 BC
+		birth="yes"
+	}
+	498.1.1 = { # 278 BC
+		death="yes"
+	}
+}
+150205 = {
+	name = "Langarus"
+	dynasty = 15002
+	religion = illyrian_main
+	culture = paeonian
+
+    father = 150204
+
+	488.1.1 = { # 288 BC
+		birth="yes"
+	}
+	535.1.1 = { # 241 BC
+		death="yes"
+	}
+}

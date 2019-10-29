@@ -1,11 +1,22 @@
-417.1.1 = {
-	holder = 140003 # Bardyllis
+415.1.1 = { # 361 BC
+	holder = 150101 # Agron of the Almopes
 	liege = d_dardania
 }
-418.1.1 = {
-	holder = 140001 # Cleitus, leader of the dardanians
+418.1.1 = { # 358 BC
+	liege = 0
+}
+430.1.1 = { # 346 BC
+	holder = 150102 # Sirras of the Almopes
+}
+450.1.1 = { # 326 BC
+	holder = 150103 # Verzi of the Almopes
 }
 466.1.1 = { # 310 BC
-	holder = 230704 # Molistomos
 	liege = k_tylis
+}
+489.1.1 = { # 287 BC
+	holder = 150104 # Teuta of the Almopes
+}
+493.1.1 = { # 283 BC
+	holder = 150105 # Sirras of the Almopes
 }

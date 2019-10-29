@@ -1,17 +1,27 @@
-417.1.1 = {
-	holder = 140003 # Bardyllis
-	liege = d_dardania
+411.1.1 = { # 365 BC
+	holder = 150201 # Dokidan of the Agrianes
 }
-418.1.1 = {
-	holder = 150005
-	liege = d_paeonia
+429.1.1 = { # 347 BC
+	holder = 150202 # Langarus of the Agrianes
 }
-436.1.1 = {
-	holder = 150001
+429.4.1 = { # 347 BC
+	liege = e_macedonia
 }
-461.1.1 = {
-	holder = 150002 # Audoleon
+441.1.1 = { # 335 BC
+	holder = 150203 # Mantyes of the Agrianes
 }
-491.1.1 = {
-	holder = 150003 # Ariston
+453.6.10 = { # 323 BC
+	liege = k_s_macedon
+}
+459.10.1 = { # 317 BC
+	liege = k_macedon
+}
+466.1.1 = { # 310 BC
+	liege = k_tylis
+}
+472.1.1 = { # 304 BC
+	holder = 150204 # Mantyes of the Agrianes
+}
+498.1.1 = { # 278 BC
+	holder = 150205 # Langarus of the Agrianes
 }

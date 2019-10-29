@@ -1,0 +1,75 @@
+# 150101-150200 for the Almopes dynasty
+# Rulers are made up to allow for a playable Almopes dynasty.
+150101 = {
+	name = "Agron"
+	dynasty = 15003
+	religion = illyrian_main
+	culture = paeonian
+
+	396.1.1 = { # 380 BC
+		birth="yes"
+	}
+	430.1.1 = { # 346 BC
+		death="yes"
+	}
+}
+150102 = {
+	name = "Sirras"
+	dynasty = 15003
+	religion = illyrian_main
+	culture = paeonian
+
+    father = 150101
+
+	412.1.1 = { # 364 BC
+		birth="yes"
+	}
+	450.1.1 = { # 326 BC
+		death="yes"
+	}
+}
+150103 = {
+	name = "Verzi"
+	dynasty = 15003
+	religion = illyrian_main
+	culture = paeonian
+
+    father = 150102
+
+	430.1.1 = { # 346 BC
+		birth="yes"
+	}
+	489.1.1 = { # 287 BC
+		death="yes"
+	}
+}
+150104 = {
+	name = "Teuta"
+	dynasty = 15003
+	religion = illyrian_main
+	culture = paeonian
+
+    father = 150103
+
+	445.1.1 = { # 331 BC
+		birth="yes"
+	}
+	493.1.1 = { # 283 BC
+		death="yes"
+	}
+}
+150105 = {
+	name = "Sirras"
+	dynasty = 15003
+	religion = illyrian_main
+	culture = paeonian
+
+    father = 150104
+
+	469.1.1 = { # 307 BC
+		birth="yes"
+	}
+	526.1.1 = { # 250 BC
+		death="yes"
+	}
+}
