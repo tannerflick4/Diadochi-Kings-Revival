@@ -275,8 +275,6 @@ k_epirus = {
 			}
 			b_batiai_ambracia = {
 			}
-			b_ambracia1_ambracia = {
-			}
 		}
 		c_thesprotia = {
 			color= { 11 158 84 }
@@ -800,7 +798,7 @@ k_odrysia = {
 			color2= { 255 255 255 }
 			
 			macedonian = Philippoi
-						
+			
 			b_neapolis_neapolis_samothrace = {
 			}
 			b_krenides_neapolis_samothrace = {
@@ -859,6 +857,8 @@ k_odrysia = {
 	d_propontis = {
 		color= { 150 75 25 }
 		color2= { 255 255 255 }
+		
+		capital = 44 # Perinthus
 	
 		c_perinthus = {
 			color= { 150 65 35 }
@@ -956,6 +956,8 @@ k_magna_graecia = {
 		color= { 75 200 175 }
 		color2= { 255 255 255 }
 		
+		capital = 303 # Himera
+		
 		c_selinus = {
 			color= { 75 200 175 }
 			color2= { 255 255 255 }
@@ -976,7 +978,6 @@ k_magna_graecia = {
 			b_calacte_himera = {
 			}
 		}
-		
 		c_maleth = {
 			color={ 116 190 175 }
 			color2={ 255 255 255 }
@@ -989,6 +990,8 @@ k_magna_graecia = {
 	d_sicels = {
 		color= { 75 175 225 }
 		color2= { 255 255 255 }
+		
+		capital = 305 # Syracuse
 		
 		c_gela = {
 			color= { 85 165 225 }
@@ -1033,6 +1036,8 @@ k_magna_graecia = {
 		color= { 75 150 225 }
 		color2= { 255 255 255 }
 		
+		capital = 309 # Terina
+		
 		c_rhegium = {
 			color= { 65 140 225 }
 			color2= { 255 255 255 }
@@ -1071,6 +1076,8 @@ k_magna_graecia = {
 		color= { 75 150 255 }
 		color2= { 255 255 255 }
 		
+		capital = 313 # Elea
+		
 		c_thurii = {
 			color= { 75 150 255 }
 			color2= { 255 255 255 }
@@ -1104,6 +1111,8 @@ k_magna_graecia = {
 	d_apulia = {
 		color= { 75 200 200 }
 		color2= { 255 255 255 }
+		
+		capital = 314 # Metapontum
 		
 		c_metapontum = {
 			color= { 75 190 210 }
@@ -1145,6 +1154,8 @@ k_magna_graecia = {
 		color= { 75 175 175 }
 		color2= { 255 255 255 }
 		
+		capital = 318 # Brundisium
+		
 		c_tarentum = {
 			color= { 75 175 175 }
 			color2= { 255 255 255 }
@@ -1179,6 +1190,8 @@ k_lydia = {
 	d_mysia = {
 		color= { 0 100 100 }
 		color2= { 255 255 255 }
+		
+		capital = 77 # Pergamum
 		
 		c_abydos = {
 			color= { 0 110 110 }
@@ -1291,11 +1304,12 @@ k_lydia = {
 			b_stratonikeia_pelopia = {
 			}
 		}
-		
 	}
 	d_lydia = {
 		color= { 0 125 125 }
 		color2= { 255 255 255 }
+		
+		capital = 81 # Sardis
 		
 		c_smyrna = {
 			color= { 10 115 125 }
@@ -1425,6 +1439,8 @@ k_lydia = {
 		color= { 0 75 75 }
 		color2= { 255 255 255 }
 		
+		capital = 83 # Halicarnassus
+		
 		c_miletus = {
 			color= { 10 85 75 }
 			color2= { 255 255 255 }
@@ -1550,6 +1566,8 @@ k_lydia = {
 		color= { 0 50 75 }
 		color2= { 255 255 255 }
 		
+		capital = 85 # Xanthos
+		
 		c_xanthos = {
 			color= { 0 50 75 }
 			color2= { 255 255 255 }
@@ -1597,7 +1615,9 @@ k_lydia = {
 	d_pisidia = {
 		color= { 0 75 100 }
 		color2= { 255 255 255 }
-				
+		
+		capital = 90 # Sagalassos
+		
 		c_sagalassos = {
 			color= { 0 75 100 }
 			color2= { 255 255 255 }
@@ -1643,6 +1663,8 @@ k_lydia = {
 	d_pamphylia = {
 		color= { 25 100 100 }
 		color2= { 255 255 255 }
+		
+		capital = 86 # Termessos
 		
 		c_termessos = {
 			color= { 35 90 100 }
@@ -1691,6 +1713,8 @@ k_lydia = {
 	d_phrygia = {
 		color= { 0 100 125 }
 		color2= { 255 255 255 }
+		
+		capital = 96 # Ancyra
 		
 		c_celaenae = {
 			color= { 0 100 125 }
@@ -1791,6 +1815,8 @@ k_lydia = {
 		color= { 100 75 50 }
 		color2= { 255 255 255 }
 		
+		capital = 98 # Nicaea
+		
 		c_heraclea_pontica = {
 			color= { 90 75 40 }
 			color2= { 255 255 255 }
@@ -1878,6 +1904,8 @@ k_lydia = {
 	d_paphlagonia = {
 		color= { 0 50 100 }
 		color2= { 255 255 255 }
+		
+		capital = 102 # Sinope
 		
 		c_amastris = {
 			color= { 10 60 100 }
@@ -4355,6 +4383,25 @@ k_illyria = {
 			b_pelva6_pelva = {
 			}
 		}
+		c_baloia = {
+			color= { 193 34 58 }
+			color2= { 255 255 255 }
+			
+			b_baloia_baloia = {
+			}
+			b_baloia1_baloia = {
+			}
+			b_baloia2_baloia = {
+			}
+			b_baloia3_baloia = {
+			}
+			b_baloia4_baloia = {
+			}
+			b_baloia5_baloia = {
+			}
+			b_baloia6_baloia = {
+			}
+		}
 	}
 	
 	d_triballia = {
@@ -5176,6 +5223,25 @@ k_pannonia = {
 			b_salinae5_salinae = {
 			}
 			b_salinae6_salinae = {
+			}
+		}
+		c_urbate = {
+			color= { 124 167 193 }
+			color2= { 255 255 255 }
+			
+			b_urbate_urbate = {
+			}
+			b_urbate1_urbate = {
+			}
+			b_urbate2_urbate = {
+			}
+			b_urbate3_urbate = {
+			}
+			b_urbate4_urbate = {
+			}
+			b_urbate5_urbate = {
+			}
+			b_urbate6_urbate = {
 			}
 		}
 	}

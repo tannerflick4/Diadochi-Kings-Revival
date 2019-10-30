@@ -1,0 +1,20 @@
+# 800 - Baloia
+
+# County Title
+title = c_baloia
+
+# Settlements
+max_settlements = 5
+b_baloia_baloia = tribal
+#b_baloia1_baloia = city
+b_baloia2_baloia = temple
+#b_baloia3_baloia = castle
+#b_baloia4_baloia = city
+#b_baloia5_baloia = temple
+#b_baloia6_baloia = castle
+
+# Misc
+culture = illyrian
+religion = illyrian_main
+
+# History

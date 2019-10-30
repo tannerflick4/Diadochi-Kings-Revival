@@ -1,0 +1,20 @@
+# 801 - Urbate
+
+# County Title
+title = c_urbate
+
+# Settlements
+max_settlements = 4
+b_urbate_urbate = tribal
+#b_urbate1_urbate = city
+#b_urbate2_urbate = castle
+#b_urbate3_urbate = castle
+#b_urbate4_urbate = city
+#b_urbate5_urbate = castle
+#b_urbate6_urbate = castle
+
+# Misc
+culture = illyrian
+religion = illyrian_main
+
+# History
