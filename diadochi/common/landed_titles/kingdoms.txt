@@ -4402,6 +4402,25 @@ k_illyria = {
 			b_baloia6_baloia = {
 			}
 		}
+		c_narona = {
+			color= { 193 34 58 }
+			color2= { 255 255 255 }
+			
+			b_narona_narona = {
+			}
+			b_narona1_narona = {
+			}
+			b_narona2_narona = {
+			}
+			b_narona3_narona = {
+			}
+			b_narona4_narona = {
+			}
+			b_narona5_narona = {
+			}
+			b_narona6_narona = {
+			}
+		}
 	}
 	
 	d_triballia = {

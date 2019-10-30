@@ -1,0 +1,20 @@
+# 799 - Narona
+
+# County Title
+title = c_narona
+
+# Settlements
+max_settlements = 5
+b_narona_narona = tribal
+#b_narona1_narona = city
+b_narona2_narona = temple
+#b_narona3_narona = castle
+#b_narona4_narona = city
+#b_narona5_narona = temple
+#b_narona6_narona = castle
+
+# Misc
+culture = illyrian
+religion = illyrian_main
+
+# History
