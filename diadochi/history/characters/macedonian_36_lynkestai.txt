@@ -13,17 +13,17 @@
 	}
 }
 3502 = {
-	name = "Sirras" # Sirras, son-in-law of Arrhabaeus historically.
+	name = "Airopos" # Made up
 	dynasty = 36 # Lynkestai
 	religion = greek_main
 	culture = macedonian
 
     father = 3501
 	
-	334.1.1 = { # 442 BC Made up
+	337.1.1 = { # 439 BC
 		birth="yes"
 	}
-	390.1.1 = { # 386 BC Made up
+	390.1.1 = { # 386 BC
 		death="yes"
 	}
 }
@@ -40,25 +40,8 @@
 	336.1.1 = { # 440 BC Made up
 		birth="yes"
 	}
+	# Marries Sirras in 423 BC
 	379.1.1 = { # 397 BC Made up
-		death="yes"
-	}
-}
-3504 = {
-	name = "Eurydike" # Daughter of Sirras, mother of Philip II
-	dynasty = 36 # Lynkestai
-	religion = greek_main
-	culture = macedonian
-
-    female=yes
-
-    father = 3502
-	
-	369.1.1 = { # 407 BC Made up
-		birth="yes"
-	}
-    # 391 BC, becomes spouse of Amyntas III
-	433.1.1 = { # 343 BC Made up
 		death="yes"
 	}
 }

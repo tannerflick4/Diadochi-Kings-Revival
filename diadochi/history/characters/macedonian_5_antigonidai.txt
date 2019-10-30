@@ -4,6 +4,7 @@
 	dynasty = 5 # Antigonidai
 	religion = greek_main
 	culture = macedonian
+
 	father = 406
 	
 	health = 8 # We will want him to live long
@@ -13,7 +14,7 @@
 	add_trait = greedy
 	add_trait = proud
 	add_trait = deceitful
-		
+
 	394.1.1 = {
 		birth="yes" # 382 BC
 	}
@@ -38,6 +39,7 @@
 	dynasty = 5 # Antigonidai
 	religion = greek_main
 	culture = macedonian
+
 	father = 401
 	mother = 2601
 	
@@ -76,8 +78,10 @@
 	dynasty = 5 # Antigonidai
 	religion = greek_main
 	culture = macedonian
+
 	father = 401
 	mother = 2601
+
 	441.1.1 = { # 335 BC Made up
 		birth="yes"
 	}
@@ -93,7 +97,8 @@
 	dynasty = 5 # Antigonidai
 	religion = greek_main
 	culture = macedonian
-	father = 405
+
+	father = 413
 	
 	add_trait = ambitious
 	add_trait = tough_soldier
@@ -105,33 +110,16 @@
 		death="yes" # 310 BC
 	}
 }
-405 = {
-	name = "Harpalas" # Uncle of Antigonos
-	dynasty = 5 # Antigonidai
-	religion = greek_main
-	culture = macedonian
-	father = 407
-	
-	add_trait = greedy
-	add_trait = arbitrary
-	
-	392.1.1 = { # Made up
-		birth="yes" # 386 BC
-	}
-	453.1.1 = {
-		death = {
-			death_reason = death_murder
-		}
-	}
-}
 406 = {
 	name = "Philippos" # Father of Antigonos
 	dynasty = 5 # Antigonidai
 	religion = greek_main
 	culture = macedonian
-	father = 407
-	377.1.1 = { # Made up
-		birth="yes" # 399 BC
+
+	father = 3608
+
+	380.1.1 = { # Made up
+		birth="yes" # 396 BC
 	}
 	450.1.1 = { # 326 BC
 		death = {
@@ -139,23 +127,12 @@
 		}
 	}
 }
-407 = {
-	name = "Macharas" # Grandfather of Antigonos
-	dynasty = 5 # Antigonidai
-	religion = greek_main
-	culture = macedonian
-	355.1.1 = { # Made up
-		birth="yes" # 421 BC
-	}
-	425.1.1 = { # Made up
-		death="yes" # 351 BC
-	}
-}
 408 = {
 	name = "Antigonos" # Gonatas
 	dynasty = 5 # Antigonidai
 	religion = greek_main
 	culture = macedonian
+
 	father = 402
 	mother = 3
 	
@@ -176,27 +153,16 @@
 		death="yes" # 237 BC
 	}
 }
-409 = {
-	name = "Phila" # Sister of Macharas and wife of Philip II
-	dynasty = 5 # Antigonidai
-	religion = greek_main
-	culture = macedonian
-	female = yes
-	389.1.1 = { # Made up
-		birth="yes" # 387 BC
-	}
-	427.1.1 = { # Made up
-		death="yes" # 349 BC
-	}
-}
 410 = {
 	name = "Stratonike" # Daughter of Demetrius Poliorketes and wife of Seleucus I and Antiochus I
 	dynasty = 5 # Antigonidai
 	religion = greek_main
 	culture = macedonian
+	female = yes
+
 	father = 402 # Demetrius
 	mother = 3 # Phila
-	female = yes
+
 	459.1.1 = { # Made up(ish)
 		birth="yes" # 317 BC
 	}
@@ -209,7 +175,8 @@
 	dynasty = 5 # Antigonidai
 	religion = greek_main
 	culture = macedonian
-	father = 405
+	
+	father = 413
 	
 	add_trait = skilled_tactician
 	add_trait = ambitious
@@ -222,5 +189,35 @@
 			death_reason = death_murder
 			killer = 601 # Ptolemaios I
 		}
+	}
+}
+412 = {
+	name = "Demetrios" # Older brother of Antigonos
+	dynasty = 5 # Antigonidai
+	religion = greek_main
+	culture = macedonian
+
+	father = 406
+
+	393.1.1 = { # Made up
+		birth="yes" # 383 BC
+	}
+	417.1.1 = { # Made up
+		death="yes" # 359 BC
+	}
+}
+413 = {
+	name = "Ptolemaios" # Brother of Antigonos
+	dynasty = 5 # Antigonidai
+	religion = greek_main
+	culture = macedonian
+
+	father = 406
+
+	396.1.1 = { # Made up
+		birth="yes" # 380 BC
+	}
+	448.1.1 = { # Made up
+		death="yes" # 328 BC
 	}
 }

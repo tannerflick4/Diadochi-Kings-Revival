@@ -1,10 +1,26 @@
-417.1.1 = {
-	holder = 140003 # Bardyllis
+263.1.1 = { # 513 BC
+	holder = 3601 # Arrhidaios of the Elimaiotai
+}
+269.1.1 = { # 507 BC
+	holder = 3602 # Derdas I of the Elimaiotai
+}
+339.1.1 = { # 437 BC
+	holder = 3603 # Sirras of the Elimaiotai
+}
+390.1.1 = { # 386 BC
+	holder = 3605 # Derdas II of the Elimaiotai
+}
+415.1.1 = { # 361 BC
+	holder = 3606 # Derdas III of the Elimaiotai
+}
+417.1.1 = { # 359 BC
 	liege = d_dardania
 }
-418.1.1 = {
-	holder = 803  # Philip II
+418.1.1 = { # 358 BC
 	liege = k_macedon
+}
+421.1.1 = { # 355 BC
+	holder = 803 # Philip II
 }
 426.1.1 = {
 	liege = e_macedonia

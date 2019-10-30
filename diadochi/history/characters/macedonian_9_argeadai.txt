@@ -63,7 +63,7 @@
 	culture = macedonian
 
 	father = 804 # Amyntas III
-	mother = 3504 # Eurydike
+	mother = 3604 # Eurydike
 		
 	add_trait = quick
 	add_trait = brilliant_strategist
@@ -76,6 +76,14 @@
 	394.1.1 = { # 382 BC
 		birth="yes"
 		create_bloodline = { type = bloodline_argead }
+	}
+	# TODO: Add Audata
+	# TODO: Add Nikesipolis
+	# TODO: Add Philinna of Larissa
+	# TODO: Add Meda of Odessos
+	# TODO: Add Cleopatra Eurydice
+	418.1.1 = { # 358 BC 
+		add_spouse = 3607 # Phila
 	}
 	419.1.1 = { # 357 BC
 		add_spouse = 10011 # Olympias
@@ -98,7 +106,7 @@
 		birth="yes"
 	}
 	385.1.1 = { # 391 BC Made up
-		add_spouse = 3504 # Eurydike
+		add_spouse = 3604 # Eurydike
 	}
 	406.1.1 = { # 370 BC
 		death="yes"
@@ -111,7 +119,7 @@
 	culture = macedonian
 
 	father = 804 # Amyntas III
-	mother = 3504 # Eurydike
+	mother = 3604 # Eurydike
 
 	389.1.1 = { # 387 BC Made up
 		birth="yes"
@@ -129,7 +137,7 @@
 	culture = macedonian
 
 	father = 804 # Amyntas III
-	mother = 3504 # Eurydike
+	mother = 3604 # Eurydike
 	
 	add_trait = misguided_warrior
 	
@@ -228,6 +236,7 @@
 		}
 	}
 }
+# TODO: Perhaps this guy should not be an Argead.
 811 = {
 	name = "Kleomenes" # First satrap of Egypt
 	dynasty = 9 # Argeadai

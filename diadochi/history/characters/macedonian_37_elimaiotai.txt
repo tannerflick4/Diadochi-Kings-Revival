@@ -1,0 +1,147 @@
+# 3601-3700 for the Elimaiotai dynasty
+3601 = {
+	name = "Arrhidaios"
+	dynasty = 37
+	religion = greek_main
+	culture = macedonian
+	
+	234.1.1 = { # 542 BC Made up
+		birth="yes"
+	}
+	269.1.1 = { # 507 BC Made up
+		death="yes"
+	}
+}
+3602 = {
+	name = "Derdas" # I
+	dynasty = 37
+	religion = greek_main
+	culture = macedonian
+
+    father = 3601
+	
+	259.1.1 = { # 517 BC Made up
+		birth="yes"
+	}
+	339.1.1 = { # 437 BC Made up
+		death="yes"
+	}
+}
+3603 = {
+	name = "Sirras" # Participant in the Peloponnesian war.
+	dynasty = 37
+	religion = greek_main
+	culture = macedonian
+
+    father = 3602
+	
+	334.1.1 = { # 442 BC Made up
+		birth="yes"
+	}
+    353.1.1 = { # 423 BC
+        add_spouse = 3503 # Irra of the Lyncestians
+    }
+	390.1.1 = { # 386 BC Made up
+		death="yes"
+	}
+}
+3604 = {
+	name = "Eurydike" # Daughter of Sirras, mother of Philip II
+	dynasty = 37
+	religion = greek_main
+	culture = macedonian
+
+    female=yes
+
+    father = 3603
+    mother = 3503
+	
+	369.1.1 = { # 407 BC Made up
+		birth="yes"
+	}
+    # 391 BC, becomes spouse of Amyntas III
+	433.1.1 = { # 343 BC Made up
+		death="yes"
+	}
+}
+3605 = {
+	name = "Derdas" # II
+	dynasty = 37
+	religion = greek_main
+	culture = macedonian
+
+    father = 3603
+	
+	351.1.1 = { # 425 BC Made up
+		birth="yes"
+	}
+	415.1.1 = { # 361 BC Made up
+		death="yes"
+	}
+}
+3606 = {
+	name = "Derdas" # III
+	dynasty = 37
+	religion = greek_main
+	culture = macedonian
+
+    father = 3605
+	
+	365.1.1 = { # 411 BC Made up
+		birth="yes"
+	}
+	423.1.1 = { # 353 BC Made up
+		death="yes"
+	}
+}
+3607 = {
+	name = "Phila" # Wife of Philip II
+	dynasty = 37
+	religion = greek_main
+	culture = macedonian
+    female = yes
+
+    father = 3605
+	
+	403.1.1 = { # 373 BC Made up
+		birth="yes"
+	}
+	421.1.1 = { # 354 BC Made up
+		death="yes"
+	}
+}
+3608 = {
+	name = "Machatas" # Grandfather of Antigonos
+	dynasty = 37
+	religion = greek_main
+	culture = macedonian
+
+    father = 3605
+
+	366.1.1 = { # Made up
+		birth="yes" # 410 BC
+	}
+	425.1.1 = { # Made up
+		death="yes" # 351 BC
+	}
+}
+3609 = {
+	name = "Harpalas" # Uncle of Antigonos
+	dynasty = 37
+	religion = greek_main
+	culture = macedonian
+
+	father = 3608
+	
+	add_trait = greedy
+	add_trait = arbitrary
+	
+	392.1.1 = { # Made up
+		birth="yes" # 386 BC
+	}
+	453.1.1 = { # 323 BC
+		death = {
+			death_reason = death_murder
+		}
+	}
+}

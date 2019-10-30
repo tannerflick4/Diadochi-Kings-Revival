@@ -188,3 +188,7 @@
 	name = "Lynkestai"
 	culture = macedonian
 }
+37 = {
+	name = "Elimaiotai"
+	culture = macedonian
+}
