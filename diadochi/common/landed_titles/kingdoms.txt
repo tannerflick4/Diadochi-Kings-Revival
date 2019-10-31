@@ -4421,6 +4421,25 @@ k_illyria = {
 			b_narona6_narona = {
 			}
 		}
+		c_diluntum = {
+			color= { 26 23 196 }
+			color2= { 255 255 255 }
+			
+			b_diluntum_diluntum = {
+			}
+			b_diluntum1_diluntum = {
+			}
+			b_diluntum2_diluntum = {
+			}
+			b_diluntum3_diluntum = {
+			}
+			b_diluntum4_diluntum = {
+			}
+			b_diluntum5_diluntum = {
+			}
+			b_diluntum6_diluntum = {
+			}
+		}
 	}
 	
 	d_triballia = {

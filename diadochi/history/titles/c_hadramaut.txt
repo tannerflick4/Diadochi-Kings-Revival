@@ -1,10 +1,19 @@
-417.1.1 = { # 359 BC, Made up
-	holder = 320204 # Aush'Allah
+410.1.1 = { # 359 BC, Made up
+	holder = 320201 # Aush'Allah
 	liege = d_hadramaut
 }
-474.1.1 = { # 302 BC, Made up
-	holder = 320205 # Ausos
+450.1.1 = { # 326 BC
+	holder = 320202 # Aush'Allah
 }
-480.1.1 = { # 296 BC, Made up
-	holder = 320206 # Tym-Dushara
+470.1.1 = { # 299 BC, Made up
+	holder = 320203 # Abyada
+}
+490.1.1 = { # 296 BC, Made up
+	holder = 320204 # Ausos
+}
+510.1.1 = { # 282 BC, Made up
+	holder = 320205 # Abkarib
+}
+530.1.1 = { # 282 BC, Made up
+	holder = 320206 # Abkarib
 }
