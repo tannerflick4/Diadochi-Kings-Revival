@@ -1,4 +1,5 @@
 # 14001-15000 for illyrian dynasties
+# https://en.wikipedia.org/wiki/List_of_ancient_tribes_in_Illyria#Tribes
 
 14001 = {
 	name = "Dardani"
@@ -17,10 +18,226 @@
 	culture = illyrian
 }
 14005 = {
-	name = "Iapyges"
+	name = "Iapydes"
 	culture = illyrian
 }
 14006 = {
 	name = "Ardiaei"
+	culture = illyrian
+}
+14007 = {
+	name = "Albani"
+	culture = illyrian
+}
+14008 = {
+	name = "Balaites"
+	culture = illyrian
+}
+14009 = {
+	name = "Bathiatae"
+	culture = illyrian
+}
+14010 = {
+	name = "Bylliones"
+	culture = illyrian
+}
+14011 = {
+	name = "Cavii"
+	culture = illyrian
+}
+14012 = {
+	name = "Chelidones"
+	culture = illyrian
+}
+14013 = {
+	name = "Daorsi"
+	culture = illyrian
+}
+14014 = {
+	name = "Dassareti"
+	culture = illyrian
+}
+14015 = {
+	name = "Deretini"
+	culture = illyrian
+}
+14016 = {
+	name = "Deuri"
+	culture = illyrian
+}
+14017 = {
+	name = "Dyestes"
+	culture = illyrian
+}
+14018 = {
+	name = "Enchelei"
+	culture = illyrian
+}
+14019 = {
+	name = "Kinambroi"
+	culture = illyrian
+}
+14020 = {
+	name = "Mazaei"
+	culture = illyrian
+}
+14021 = {
+	name = "Melcumani"
+	culture = illyrian
+}
+14022 = {
+	name = "Narensi"
+	culture = illyrian
+}
+14023 = {
+	name = "Penestae"
+	culture = illyrian
+}
+14024 = {
+	name = "Sardeates"
+	culture = illyrian
+}
+14025 = {
+	name = "Selepitani"
+	culture = illyrian
+}
+14026 = {
+	name = "Baridustae"
+	culture = illyrian
+}
+14027 = {
+	name = "Docleatae"
+	culture = illyrian
+}
+14028 = {
+	name = "Pleraei"
+	culture = illyrian
+}
+14029 = {
+	name = "Endirudini"
+	culture = illyrian
+}
+14030 = {
+	name = "Sasaei"
+	culture = illyrian
+}
+14031 = {
+	name = "Grabaei"
+	culture = illyrian
+}
+14032 = {
+	name = "Labeates"
+	culture = illyrian
+}
+14033 = {
+	name = "Deraemestae"
+	culture = illyrian
+}
+14034 = {
+	name = "Oxuaioi"
+	culture = illyrian
+}
+14035 = {
+	name = "Hemasini"
+	culture = illyrian
+}
+14036 = {
+	name = "Arthitae"
+	culture = illyrian
+}
+14037 = {
+	name = "Armistae"
+	culture = illyrian
+}
+14038 = {
+	name = "Abri"
+	culture = illyrian
+}
+14039 = {
+	name = "Parthini"
+	culture = illyrian
+}
+14040 = {
+	name = "Pannonii"
+	culture = illyrian
+}
+14041 = {
+	name = "Amantini"
+	culture = illyrian
+}
+14042 = {
+	name = "Breuci"
+	culture = illyrian
+}
+14043 = {
+	name = "Colapiani"
+	culture = illyrian
+}
+14044 = {
+	name = "Daesitiates"
+	culture = illyrian
+}
+14045 = {
+	name = "Pirustae"
+	culture = illyrian
+}
+14046 = {
+	name = "Scirtari"
+	culture = illyrian
+}
+14047 = {
+	name = "Glintidiones"
+	culture = illyrian
+}
+14048 = {
+	name = "Ceraunii"
+	culture = illyrian
+}
+14049 = {
+	name = "Siculotae"
+	culture = illyrian
+}
+14050 = {
+	name = "Segestani"
+	culture = illyrian
+}
+14051 = {
+	name = "Maezaei"
+	culture = illyrian
+}
+14052 = {
+	name = "Andizetes"
+	culture = illyrian
+}
+14053 = {
+	name = "Azali"
+	culture = illyrian
+}
+14054 = {
+	name = "Ditiones"
+	culture = illyrian
+}
+14055 = {
+	name = "Jasi"
+	culture = illyrian
+}
+14056 = {
+	name = "Oseriates"
+	culture = illyrian
+}
+14057 = {
+	name = "Atintani"
+	culture = illyrian
+}
+14058 = {
+	name = "Messapii"
+	culture = illyrian
+}
+14059 = {
+	name = "Dauni"
+	culture = illyrian
+}
+14060 = {
+	name = "Peucetii"
 	culture = illyrian
 }
