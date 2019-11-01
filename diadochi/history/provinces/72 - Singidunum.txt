@@ -5,13 +5,13 @@ title = c_singidunum
 
 # Settlements
 max_settlements = 5
-b_oktabon_singidunum = tribal
-#b_margum_singidunum = city
-#b_lederata_singidunum = castle
-
-# Possible baronies: (Always add a # in front of a line with these!)
-# b_singidunum_singidunum
-# b_singidunum_singidunum
+b_singidunum_singidunum = tribal
+#b_oktabon_singidunum = castle
+#b_tricornium_singidunum = city
+#b_vinceia_singidunum = city
+#b_ad_sextum_singidunum = temple
+#b_avala_singidunum = castle
+#b_aureus_mons_singidunum = city
 
 # Misc
 culture = illyrian

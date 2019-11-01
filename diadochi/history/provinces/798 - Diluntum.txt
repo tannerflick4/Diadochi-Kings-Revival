@@ -4,14 +4,14 @@
 title = c_diluntum
 
 # Settlements
-max_settlements = 4
+max_settlements = 3
 b_diluntum_diluntum = tribal
-#b_diluntum1_diluntum = city
-#b_diluntum2_diluntum = temple
-#b_diluntum3_diluntum = castle
-#b_diluntum4_diluntum = city
-#b_diluntum5_diluntum = temple
-#b_diluntum6_diluntum = castle
+#b_daorson_diluntum = castle
+#b_ad_turres_diluntum = city
+#b_anderva_diluntum = city
+#b_ad_zizio_diluntum = castle
+#b_ustikolina_diluntum = castle
+#b_visici_diluntum = city
 
 # Misc
 culture = illyrian

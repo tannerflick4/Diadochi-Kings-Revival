@@ -4,14 +4,14 @@
 title = c_naissus
 
 # Settlements
-max_settlements = 5
+max_settlements = 4
 b_naissus_naissus = tribal
-#b_mediana_naissus = city
-#b_ulunus_naissus = castle
-b_grarariana_naissus = temple
-
-# Possible baronies: (Always add a # in front of a line with these!)
-# b_remesiana_naissus
+#b_iustiniana_prima_naissus = city
+#b_ad_fines_naissus = castle
+#b_anausaro_naissus = castle
+#b_ad_herculem_naissus = city
+#b_bregovina_naissus = castle
+#b_lace_naissus = castle
 
 # Misc
 culture = illyrian

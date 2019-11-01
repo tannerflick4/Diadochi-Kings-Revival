@@ -6,12 +6,12 @@ title = c_agruvium
 # Settlements
 max_settlements = 4
 b_agruvium_agruvium = tribal
-#b_agruvium1_agruvium = city
-#b_agruvium2_agruvium = temple
-#b_agruvium3_agruvium = castle
-#b_agruvium4_agruvium = city
-#b_agruvium5_agruvium = temple
-#b_agruvium6_agruvium = castle
+#b_risinum_agruvium = castle
+#b_bouthoe_agruvium = city
+#b_antibaris_agruvium = castle
+#b_olcinium_agruvium = city
+#b_salluntum_agruvium = city
+#b_halata_agruvium = city
 
 # Misc
 culture = illyrian

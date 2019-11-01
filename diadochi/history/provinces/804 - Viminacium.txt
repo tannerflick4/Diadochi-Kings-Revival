@@ -4,14 +4,14 @@
 title = c_viminacium
 
 # Settlements
-max_settlements = 5
+max_settlements = 4
 b_viminacium_viminacium = tribal
-#b_viminacium1_viminacium = city
-#b_viminacium2_viminacium = castle
-#b_viminacium3_viminacium = castle
-#b_viminacium4_viminacium = city
-#b_viminacium5_viminacium = castle
-#b_viminacium6_viminacium = castle
+#b_margum_viminacium = city
+#b_iovis_pagus_viminacium = temple
+#b_pincus_viminacium = city
+#b_taliata_viminacium = castle
+#b_clevora_viminacium = city
+#b_transdierna_viminacium = castle
 
 # Misc
 culture = illyrian

@@ -1,0 +1,19 @@
+# 389 - Malvesia
+
+# County Title
+title = c_malvesia
+
+# Settlements
+max_settlements = 3
+b_malvesia_malvesia = tribal
+#b_karan_malvesia = city
+#b_baklonica_malvesia = castle
+#b_visibaba_malvesia = city
+#b_kozetina_malvesia = castle
+
+# Misc
+culture = illyrian
+religion = illyrian_main
+
+# History
+# Can be filled when things change around the province

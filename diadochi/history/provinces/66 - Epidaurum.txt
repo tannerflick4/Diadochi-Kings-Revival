@@ -1,0 +1,21 @@
+# 66 - Epidaurum
+
+# County Title
+title = c_epidaurum # for example c_corinth
+
+# Settlements
+max_settlements = 5
+b_epidaurum_epidaurum = tribal
+#b_stagnum_epidaurum = city
+#b_asamum_epidaurum = city
+#b_leusinio_epidaurum = castle
+#b_pardua_epidaurum = temple
+#b_salthua_epidaurum = castle
+#b_plana_epidaurum = castle
+
+# Misc
+culture = illyrian
+religion = illyrian_main
+
+# History
+# Can be filled when things change around the province

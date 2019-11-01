@@ -4,14 +4,12 @@
 title = c_domavium
 
 # Settlements
-max_settlements = 4
+max_settlements = 2
 b_domavium_domavium = tribal
-#b_domavium1_domavium = city
-#b_domavium2_domavium = castle
-#b_domavium3_domavium = castle
-#b_domavium4_domavium = city
-#b_domavium5_domavium = castle
-#b_domavium6_domavium = castle
+#b_gensis_domavium = city
+#b_statina_domavium = city
+#b_sabac_domavium = city
+#b_dovic_domavium = castle
 
 # Misc
 culture = illyrian

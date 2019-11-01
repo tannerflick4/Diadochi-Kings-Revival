@@ -4,14 +4,14 @@
 title = c_scodra # for example c_corinth
 
 # Settlements
-max_settlements = 5
+max_settlements = 4
 b_scodra_scodra = tribal
-#b_bouthoe_scodra = city
-#b_olcinium_scodra = city
+#b_doclea_scodra = temple
+#b_cinna_scodra = city
+#b_ad_picarias_scodra = castle
 #b_meteon_scodra = castle
-
-# Possible baronies: (Always add a # in front of a line with these!)
-# b_doclea_scodra
+#b_birziminium_scodra = city
+#b_varis_scodra = castle
 
 # Misc
 culture = illyrian

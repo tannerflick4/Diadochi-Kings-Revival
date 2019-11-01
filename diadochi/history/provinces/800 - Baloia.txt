@@ -4,14 +4,14 @@
 title = c_baloia
 
 # Settlements
-max_settlements = 5
+max_settlements = 3
 b_baloia_baloia = tribal
-#b_baloia1_baloia = city
-b_baloia2_baloia = temple
-#b_baloia3_baloia = castle
-#b_baloia4_baloia = city
-#b_baloia5_baloia = temple
-#b_baloia6_baloia = castle
+#b_bistua_nova_baloia = temple
+#b_stanecli_baloia = castle
+#b_ionnaria_baloia = city
+#b_sarute_baloia = city
+#b_indenea_baloia = castle
+#b_sarnade_baloia = castle
 
 # Misc
 culture = illyrian

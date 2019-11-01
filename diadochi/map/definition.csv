@@ -64,14 +64,14 @@ province;red;green;blue;x;x
 63;42;30;168;Parthus;x
 64;168;192;32;Scodra;x
 65;0;195;160;Stobi;x
-66;42;198;33;Rhizon;x
+66;42;198;33;Epidaurum;x
 67;126;204;34;Paroikopolis;x
-68;84;201;161;Dardani;x
+68;84;201;161;Ulpiana;x
 69;42;0;163;Delminium;x
 70;0;210;35;Iader;x
 71;0;72;175;Veneti;x
 72;84;141;15;Singidunum;x
-73;126;6;164;Ratiara;x
+73;126;6;164;Ratiaria;x
 74;168;9;37;Sala;x
 75;203;52;216;Orestis;x
 76;168;186;167;Abydos;x
@@ -386,7 +386,7 @@ province;red;green;blue;x;x
 385;29;106;31;Scupi;x
 386;95;121;64;Sirmium;x
 387;187;220;148;Cibalae;x
-389;137;205;104;Malvesa;x
+389;137;205;104;Malvesia;x
 390;64;118;69;Sopianae;x
 391;30;142;41;Tricciana;x
 392;62;216;76;Scarbantia;x

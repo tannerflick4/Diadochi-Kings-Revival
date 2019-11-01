@@ -4,17 +4,17 @@
 title = c_hammeum
 
 # Settlements
-max_settlements = 4
+max_settlements = 3
 b_hammeum_hammeum = tribal
-#b_hammeum1_hammeum = city
-b_hammeum2_hammeum = temple
-#b_hammeum3_hammeum = castle
-#b_hammeum4_hammeum = city
-#b_hammeum5_hammeum = temple
-#b_hammeum6_hammeum = castle
+#b_ad_fines_hammeum = temple
+#b_kompolos_hammeum = city
+#b_korman_hammeum = city
+#b_dunis_hammeum = castle
+#b_celegorum_hammeum = castle 
+#b_metalli_dardanici_hammeum = castle
 
 # Misc
-culture = thracian
-religion = thracian_main
+culture = illyrian
+religion = illyrian_main
 
 # History

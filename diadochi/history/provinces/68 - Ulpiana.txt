@@ -1,0 +1,21 @@
+# 68 - Ulpiana
+
+# County Title
+title = c_ulpiana # for example c_corinth
+
+# Settlements
+max_settlements = 5
+b_ulpiana_ulpiana = tribal
+#b_vicianum_ulpiana = city
+#b_pestova_ulpiana = city
+#b_vindenis_ulpiana = castle
+#b_arsa_ulpiana = castle
+b_dardanorum_ulpiana = temple
+#b_metalli_dardanici_ulpiana = castle
+
+# Misc
+culture = illyrian
+religion = illyrian_main
+
+# History
+# Can be filled when things change around the province
