@@ -1107,6 +1107,25 @@ k_magna_graecia = {
 			b_pixous_elea = {
 			}
 		}
+		c_grumentum = {
+			color= { 89 102 219 }
+			color2= { 255 255 255 }
+			
+			b_grumentum_grumentum = {
+			}
+			b_grumentum1_grumentum = {
+			}
+			b_grumentum2_grumentum = {
+			}
+			b_grumentum3_grumentum = {
+			}
+			b_grumentum4_grumentum = {
+			}
+			b_grumentum5_grumentum = {
+			}
+			b_grumentum6_grumentum = {
+			}
+		}
 	}
 	d_apulia = {
 		color= { 75 200 200 }
