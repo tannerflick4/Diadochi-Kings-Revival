@@ -17,6 +17,7 @@
 	dynasty = 27009 # Capri
 	culture = dacian
 	religion = zalmoxism
+	father = 270801
 	435.1.1 = { # Made up
 		birth="yes" # 350 BC
 	}

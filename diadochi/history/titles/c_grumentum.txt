@@ -1,0 +1,9 @@
+416.1.1 = { # 360 BC
+	holder = 160003 # Neriis
+}
+462.1.1 = { # 314 BC
+	holder = 160001 # Neriis
+}
+483.1.1 = { # 303 BC
+	holder = 160002 # Miniis
+}

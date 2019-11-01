@@ -1107,6 +1107,25 @@ k_magna_graecia = {
 			b_pixous_elea = {
 			}
 		}
+		c_grumentum = {
+			color= { 89 102 219 }
+			color2= { 255 255 255 }
+			
+			b_grumentum_grumentum = {
+			}
+			b_grumentum1_grumentum = {
+			}
+			b_grumentum2_grumentum = {
+			}
+			b_grumentum3_grumentum = {
+			}
+			b_grumentum4_grumentum = {
+			}
+			b_grumentum5_grumentum = {
+			}
+			b_grumentum6_grumentum = {
+			}
+		}
 	}
 	d_apulia = {
 		color= { 75 200 200 }
@@ -1986,6 +2005,8 @@ k_cilicia = {
 		color= { 125 150 125 }
 		color2= { 255 255 255 }
 		
+		capital = 106 # Tarsus
+		
 		c_syedra = {
 			color= { 135 150 115 }
 			color2= { 255 255 255 }
@@ -2075,6 +2096,8 @@ k_cappadocia = {
 	d_cappadocia = {
 		color= { 200 175 150}
 		color2= { 255 255 255 }
+		
+		capital = 117 # Mazaka
 		
 		c_tyana = {
 			color= { 210 165 150 }
@@ -2182,6 +2205,8 @@ k_cappadocia = {
 		color= { 175 150 125 }
 		color2= { 255 255 255 }
 		
+		capital = 113 # Amaseia
+		
 		c_amisus = {
 			color= { 185 150 115 }
 			color2= { 255 255 255 }
@@ -2270,6 +2295,8 @@ k_cappadocia = {
 	d_lycaonia = {
 		color= { 200 175 125 }
 		color2= { 255 255 255 }
+		
+		capital = 109 # Lystra
 		
 		c_iconium = {
 			color= { 200 175 125 }
@@ -4421,6 +4448,44 @@ k_illyria = {
 			b_narona6_narona = {
 			}
 		}
+		c_diluntum = {
+			color= { 26 23 196 }
+			color2= { 255 255 255 }
+			
+			b_diluntum_diluntum = {
+			}
+			b_diluntum1_diluntum = {
+			}
+			b_diluntum2_diluntum = {
+			}
+			b_diluntum3_diluntum = {
+			}
+			b_diluntum4_diluntum = {
+			}
+			b_diluntum5_diluntum = {
+			}
+			b_diluntum6_diluntum = {
+			}
+		}
+		c_agruvium = {
+			color= { 196 66 75 }
+			color2= { 255 255 255 }
+			
+			b_agruvium_agruvium = {
+			}
+			b_agruvium1_agruvium = {
+			}
+			b_agruvium2_agruvium = {
+			}
+			b_agruvium3_agruvium = {
+			}
+			b_agruvium4_agruvium = {
+			}
+			b_agruvium5_agruvium = {
+			}
+			b_agruvium6_agruvium = {
+			}
+		}
 	}
 	
 	d_triballia = {
@@ -4493,6 +4558,25 @@ k_illyria = {
 			b_romuliana5_romuliana = {
 			}
 			b_romuliana6_romuliana = {
+			}
+		}
+		c_hammeum = {
+			color={ 195 121 198 }
+			color2={ 255 255 255 }
+			
+			b_hammeum_hammeum = {
+			}
+			b_hammeum1_hammeum = {
+			}
+			b_hammeum2_hammeum = {
+			}
+			b_hammeum3_hammeum = {
+			}
+			b_hammeum4_hammeum = {
+			}
+			b_hammeum5_hammeum = {
+			}
+			b_hammeum6_hammeum = {
 			}
 		}
 	}
@@ -5455,7 +5539,7 @@ k_greece = {
 			}
 			b_amphikleia_delphi = {
 			}
-			b_delphi_delpi = { # Oracle of Delphi
+			b_delphi_delphi = { # Oracle of Delphi
 			}
 			b_lilaia_delphi = {
 			}

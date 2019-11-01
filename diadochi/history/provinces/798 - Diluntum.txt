@@ -1,0 +1,20 @@
+# 798 - Diluntum
+
+# County Title
+title = c_diluntum
+
+# Settlements
+max_settlements = 4
+b_diluntum_diluntum = tribal
+#b_diluntum1_diluntum = city
+#b_diluntum2_diluntum = temple
+#b_diluntum3_diluntum = castle
+#b_diluntum4_diluntum = city
+#b_diluntum5_diluntum = temple
+#b_diluntum6_diluntum = castle
+
+# Misc
+culture = illyrian
+religion = illyrian_main
+
+# History

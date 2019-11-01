@@ -1,12 +1,18 @@
 410.1.1 = { # 366 BC
-	holder = 320207 # Abkarib
+	holder = 320201 # Abkarib
 }
 450.1.1 = { # 326 BC
-	holder = 320201 # Abyada
+	holder = 320202 # Aush'Allah
 }
-477.1.1 = { # 299 BC, Made up
-	holder = 320202 # Ilyafa
+470.1.1 = { # 299 BC, Made up
+	holder = 320203 # Abyada
 }
-494.1.1 = { # 282 BC, Made up
-	holder = 320203 # Abkarib
+490.1.1 = { # 296 BC, Made up
+	holder = 320204 # Ausos
+}
+510.1.1 = { # 282 BC, Made up
+	holder = 320205 # Abkarib
+}
+530.1.1 = { # 282 BC, Made up
+	holder = 320206 # Abkarib
 }

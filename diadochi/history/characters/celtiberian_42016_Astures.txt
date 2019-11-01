@@ -17,7 +17,7 @@
 	dynasty = 42016
 	culture = celtiberian
 	religion = celtic_main
-	
+	father = 421501
 	444.1.1 = { 
 		birth="yes"
 	}

@@ -16,6 +16,7 @@
 	dynasty = 27006
 	culture = dacian
 	religion = zalmoxism
+	father = 270501
 	408.1.1 = { # Made up
 		birth="yes" # 368 BC
 	}
@@ -28,6 +29,7 @@
 	dynasty = 27006
 	culture = dacian
 	religion = zalmoxism
+	father = 270502
 	428.1.1 = { # Made up
 		birth="yes" # 348 BC
 	}

@@ -16,6 +16,7 @@
 	dynasty = 36001
 	culture = albanian
 	religion = zoroastrian_main
+	father = 360001
 	403.1.1 = { # 373 BC Made Up
 		birth="yes"
 	}
@@ -28,6 +29,7 @@
 	dynasty = 36001
 	culture = albanian
 	religion = zoroastrian_main
+	father = 360002
 	455.1.1 = {
 		birth="yes" # 321 BC Made Up
 	}

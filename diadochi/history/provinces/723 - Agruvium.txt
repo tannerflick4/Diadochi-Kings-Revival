@@ -1,0 +1,20 @@
+# 723 - Agruvium
+
+# County Title
+title = c_agruvium
+
+# Settlements
+max_settlements = 4
+b_agruvium_agruvium = tribal
+#b_agruvium1_agruvium = city
+#b_agruvium2_agruvium = temple
+#b_agruvium3_agruvium = castle
+#b_agruvium4_agruvium = city
+#b_agruvium5_agruvium = temple
+#b_agruvium6_agruvium = castle
+
+# Misc
+culture = illyrian
+religion = illyrian_main
+
+# History

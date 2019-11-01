@@ -1,0 +1,20 @@
+# 1120 - Grumentum
+
+# County Title
+title = c_grumentum
+
+# Settlements
+max_settlements = 6
+b_grumentum_grumentum = castle
+b_grumentum1_grumentum = city
+b_grumentum2_grumentum = temple
+#b_grumentum3_grumentum = castle
+#b_grumentum4_grumentum = city
+#b_grumentum5_grumentum = temple
+#b_grumentum6_grumentum = castle
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History
