@@ -17,6 +17,7 @@
 	dynasty = 27001 # Troglodytae
 	culture = dacian
 	religion = zalmoxism
+	father = 270001
 	418.1.1 = { # Made up
 		birth="yes" # 358 BC
 	}
@@ -29,6 +30,7 @@
 	dynasty = 27001
 	culture = dacian
 	religion = zalmoxism
+	father = 270002
 	445.1.1 = { # Made up
 		birth="yes" # 331 BC
 	}

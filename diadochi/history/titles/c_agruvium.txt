@@ -1,0 +1,9 @@
+417.1.1 = { # 359 BC
+	holder = 140503
+}
+439.1.1 = { # 337 BC
+	holder = 140501 # Galaurus of the Ardiaei
+}
+473.1.1 = {
+	holder = 140502
+}
