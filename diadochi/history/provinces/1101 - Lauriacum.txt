@@ -4,14 +4,14 @@
 title = c_lauriacum
 
 # Settlements
-max_settlements = 4
+max_settlements = 5
 b_lauriacum_lauriacum = tribal
-#b_lauriacum1_lauriacum = city
-b_lauriacum2_lauriacum = temple
-#b_lauriacum3_lauriacum = city
-#b_lauriacum4_lauriacum = castle
-#b_lauriacum5_lauriacum = city
-#b_lauriacum6_lauriacum = temple
+b_tutatio_lauriacum = temple
+#b_vetonianis_lauriacum = temple
+#b_ernolatia_lauriacum = castle
+#b_gabromagus_lauriacum = city
+#b_surontio_lauriacum = castle
+#b_statio_escensis_lauriacum = castle
 
 # Misc
 culture = gaul

@@ -4,13 +4,14 @@
 title = c_tricciana
 
 # Settlements
-max_settlements = 6
+max_settlements = 3
 b_tricciana_tricciana = tribal
-b_tricciana1_tricciana = temple
-#b_lussomana_tricciana = city
-#b_floriana_tricciana = castle
-#b_tricciana2_tricciana = temple
-#b_tricciana3_tricciana = city
+#b_limusa_tricciana = city
+#b_altinum_tricciana = city
+#b_iovia_tricciana = city
+#b_silicenis_tricciana = castle
+#b_ad_novas_tricciana = castle
+#b_ad_militare_tricciana = castle
 
 # Misc
 culture = illyrian

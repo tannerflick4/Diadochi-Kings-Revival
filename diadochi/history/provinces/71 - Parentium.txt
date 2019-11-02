@@ -1,0 +1,21 @@
+# 71 - Parentium
+
+# County Title
+title = c_parentium # for example c_corinth
+
+# Settlements
+max_settlements = 4
+b_parentium_parentium = tribal
+#b_neapolis_parentium = city
+#b_tergeste_parentium = city
+#b_aegida_parentium = castle
+b_piranum_parentium = temple
+#b_humagum_parentium = city
+#b_silvo_parentium = city
+
+# Misc
+culture = venetic
+religion = illyrian_main
+
+# History
+# Can be filled when things change around the province

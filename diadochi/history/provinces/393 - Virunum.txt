@@ -6,9 +6,12 @@ title = c_virunum
 # Settlements
 max_settlements = 4
 b_virunum_virunum = tribal
-#b_iuenna_virunum = castle
-#b_virunum1_virunum = city
-#b_santicum_virunum = city
+#b_tasinemeti_virunum = castle
+#b_saloca_virunum = temple
+#b_matucaium_virunum = castle
+#b_bellandrum_virunum = castle
+#b_iuenna_virunum = city
+#b_noreia_virunum = city
 
 # Misc
 culture = venetic

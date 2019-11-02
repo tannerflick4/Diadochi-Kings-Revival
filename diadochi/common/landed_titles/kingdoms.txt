@@ -4332,26 +4332,36 @@ k_illyria = {
 			
 			b_pharos_pharos = {
 			}
+			b_issa_pharos = {
+			}
 			b_korkyra_melaina_pharos = {
 			}
 			b_tragurium_pharos = {
 			}
-			b_rider_pharos = {
+			b_bova_pharos = {
+			}
+			b_brattia_pharos = {
+			}
+			b_ladesta_pharos = {
 			}
 		}
-		c_salonica = {
+		c_salona = {
 			color= { 15 255 90 }
 			color2= { 255 255 255 }
 			
-			b_salonica_salonica = {
+			b_salona_salona = {
 			}
-			b_spalatum_salonica = {
+			b_rider_salona = {
 			}
-			b_oneum_salonica = {
+			b_magnum_salona = {
 			}
-			b_muccurum_salonica = {
+			b_pituntium_salona = {
 			}
-			b_pituntium_salonica = {
+			b_tilurium_salona = {
+			}
+			b_aequum_salona = {
+			}
+			b_spalatum_salona = {
 			}
 		}
 		c_delminium = {
@@ -4360,13 +4370,17 @@ k_illyria = {
 			
 			b_delminium_delminium = {
 			}
-			b_aequum_delminium = {
+			b_ad_libros_delminium = {
 			}
-			b_delminium1_delminium = {
+			b_bistua_vetus_delminium = {
 			}
-			b_salvium_delminium = {
+			b_in_monte_bulsinio_delminium = {
 			}
 			b_osinium_delminium = {
+			}
+			b_ad_matricem_delminium = {
+			}
+			b_trono_delminium = {
 			}
 		}
 		c_epidaurum = {
@@ -4413,17 +4427,17 @@ k_illyria = {
 			
 			b_pelva_pelva = {
 			}
-			b_pelva1_pelva = {
+			b_in_alperio_pelva = {
 			}
-			b_pelva2_pelva = {
+			b_bariduum_pelva = {
 			}
-			b_pelva3_pelva = {
+			b_salvium_pelva = {
 			}
-			b_pelva4_pelva = {
+			b_pons_tiluri_pelva = {
 			}
-			b_pelva5_pelva = {
+			b_andetrium_pelva = {
 			}
-			b_pelva6_pelva = {
+			b_tambia_pelva = {
 			}
 		}
 		c_baloia = {
@@ -4772,11 +4786,17 @@ k_pannonia = {
 			
 			b_ortopla_ortopla = {
 			}
-			b_arupium_ortopla = {
+			b_argyruntum_ortopla = {
+			}
+			b_vegium_ortopla = {
 			}
 			b_cissa_ortopla = {
 			}
 			b_arba_ortopla = {
+			}
+			b_clambetis_ortopla = {
+			}
+			b_ausancalio_ortopla = {
 			}
 		}
 		c_senia = {
@@ -4785,11 +4805,17 @@ k_pannonia = {
 			
 			b_senia_senia = {
 			}
-			b_apsarus_senia = {
+			b_lopsica_senia = {
 			}
 			b_curicum_senia = {
 			}
+			b_crexa_senia = {
+			}
+			b_apsarus_senia = {
+			}
 			b_tarsatica_senia = {
+			}
+			b_raparia_senia = {
 			}
 		}
 		c_iader = {
@@ -4800,11 +4826,15 @@ k_pannonia = {
 			}
 			b_aenona_iader = {
 			}
-			b_nedinum_iader = {
+			b_scardona_iader = {
 			}
 			b_burnum_iader = {
 			}
-			b_scardona_iader = {
+			b_varvaria_iader = {
+			}
+			b_ansium_iader = {
+			}
+			b_sidrona_iader = {
 			}
 		}
 		c_metulum = {
@@ -4813,17 +4843,17 @@ k_pannonia = {
 			
 			b_metulum_metulum = {
 			}
-			b_metulum1_metulum = {
+			b_terponus_metulum = {
 			}
-			b_metulum2_metulum = {
+			b_raetinium_metulum = {
 			}
-			b_metulum3_metulum = {
+			b_monetium_metulum = {
 			}
-			b_metulum4_metulum = {
+			b_avendo_metulum = {
 			}
-			b_metulum5_metulum = {
+			b_arupium_metulum = {
 			}
-			b_metulum6_metulum = {
+			b_epidotium_metulum = {
 			}
 		}
 	}
@@ -4837,11 +4867,17 @@ k_pannonia = {
 			
 			b_scarbantia_scarbantia = {
 			}
-			b_scarbantia1_scarbantia = {
+			b_vertoracum_scarbantia = {
 			}
 			b_muteno_scarbantia = {
 			}
-			b_arrabona_scarbantia = {
+			b_ala_nova_scarbantia = {
+			}
+			b_aquae_scarbantia = {
+			}
+			b_hehale_scarbantia = {
+			}
+			b_lussomana_scarbantia = {
 			}
 		}
 		c_tricciana = {
@@ -4850,15 +4886,17 @@ k_pannonia = {
 			
 			b_tricciana_tricciana = {
 			}
-			b_tricciana1_tricciana = {
+			b_limusa_tricciana = {
 			}
-			b_lussomana_tricciana = {
+			b_altinum_tricciana = {
 			}
-			b_floriana_tricciana = {
+			b_iovia_tricciana = {
 			}
-			b_tricciana2_tricciana = {
+			b_silicenis_tricciana = {
 			}
-			b_tricciana3_tricciana = {
+			b_ad_novas_tricciana = {
+			}
+			b_ad_militare_tricciana = {
 			}
 		}
 		c_sopianae = {
@@ -4867,11 +4905,17 @@ k_pannonia = {
 			
 			b_sopianae_sopianae = {
 			}
-			b_altinum_sopianae = {
-			}
 			b_alisca_sopianae = {
 			}
-			b_sopianae1_sopianae = {
+			b_contra_florentiam_sopianae = {
+			}
+			b_lugio_sopianae = {
+			}
+			b_altinum_sopianae = {
+			}
+			b_antiana_sopianae = {
+			}
+			b_donatianis_sopianae = {
 			}
 		}
 		c_sala = {
@@ -4880,11 +4924,17 @@ k_pannonia = {
 			
 			b_sala_sala = {
 			}
-			b_sala1_sala = {
+			b_ad_vices_sala = {
 			}
-			b_bassiana_sala = {
+			b_halicanum_sala = {
 			}
-			b_mestrianis_sala = {
+			b_ihova_sala = {
+			}
+			b_populi_sala = {
+			}
+			b_aqua_viva_sala = {
+			}
+			b_quadriburgium_sala = {
 			}
 		}
 		c_mursella = {
@@ -4893,17 +4943,17 @@ k_pannonia = {
 			
 			b_mursella_mursella = {
 			}
-			b_mursella1_mursella = {
+			b_quadrata_mursella = {
 			}
-			b_mursella2_mursella = {
+			b_ad_flexum_mursella = {
 			}
-			b_mursella3_mursella = {
+			b_gerulata_mursella = {
 			}
-			b_mursella4_mursella = {
+			b_carnuntum_mursella = {
 			}
-			b_mursella5_mursella = {
+			b_aequinoctium_mursella = {
 			}
-			b_mursella6_mursella = {
+			b_cirpi_mursella = {
 			}
 		}
 		c_brigetio = {
@@ -4912,17 +4962,17 @@ k_pannonia = {
 			
 			b_brigetio_brigetio = {
 			}
-			b_brigetio1_brigetio = {
+			b_crumerum_brigetio = {
 			}
-			b_brigetio2_brigetio = {
+			b_odiavum_brigetio = {
 			}
-			b_brigetio3_brigetio = {
+			b_ad_mures_brigetio = {
 			}
-			b_brigetio4_brigetio = {
+			b_arrabona_brigetio = {
 			}
-			b_brigetio5_brigetio = {
+			b_crispiana_brigetio = {
 			}
-			b_brigetio6_brigetio = {
+			b_ad_statuas_brigetio = {
 			}
 		}
 		c_savaria = {
@@ -4931,17 +4981,17 @@ k_pannonia = {
 			
 			b_savaria_savaria = {
 			}
-			b_savaria1_savaria = {
+			b_bassiana_savaria = {
 			}
-			b_savaria2_savaria = {
+			b_flavia_solva_savaria = {
 			}
-			b_savaria3_savaria = {
+			b_ulcisia_castra_savaria = {
 			}
-			b_savaria4_savaria = {
+			b_gardelica_savaria = {
 			}
-			b_savaria5_savaria = {
+			b_tartursanis_savaria = {
 			}
-			b_savaria6_savaria = {
+			b_sabatinca_savaria = {
 			}
 		}
 		c_mogentiana = {
@@ -4950,17 +5000,17 @@ k_pannonia = {
 			
 			b_mogentiana_mogentiana = {
 			}
-			b_mogentiana1_mogentiana = {
+			b_caesariana_mogentiana = {
 			}
-			b_mogentiana2_mogentiana = {
+			b_mestrianis_mogentiana = {
 			}
-			b_mogentiana3_mogentiana = {
+			b_volgum_mogentiana = {
 			}
-			b_mogentiana4_mogentiana = {
+			b_matrica_mogentiana = {
 			}
-			b_mogentiana5_mogentiana = {
+			b_valence_mogentiana = {
 			}
-			b_mogentiana6_mogentiana = {
+			b_campona_mogentiana = {
 			}
 		}
 		c_gorsium = {
@@ -4969,17 +5019,17 @@ k_pannonia = {
 			
 			b_gorsium_gorsium = {
 			}
-			b_gorsium1_gorsium = {
+			b_alta_ripa_gorsium = {
 			}
-			b_gorsium2_gorsium = {
+			b_lussonium_gorsium = {
 			}
-			b_gorsium3_gorsium = {
+			b_annamatia_gorsium = {
 			}
-			b_gorsium4_gorsium = {
+			b_intercisa_gorsium = {
 			}
-			b_gorsium5_gorsium = {
+			b_vetus_salina_gorsium = {
 			}
-			b_gorsium6_gorsium = {
+			b_iasulones_gorsium = {
 			}
 		}
 		c_aquincum = {
@@ -4988,17 +5038,17 @@ k_pannonia = {
 			
 			b_aquincum_aquincum = {
 			}
-			b_aquincum1_aquincum = {
+			b_vicus_teuto_aquincum = {
 			}
-			b_aquincum2_aquincum = {
+			b_aquincum_castra_aquincum = {
 			}
-			b_aquincum3_aquincum = {
+			b_transaquincum_aquincum = {
 			}
-			b_aquincum4_aquincum = {
+			b_contra_aquincum_aquincum = {
 			}
-			b_aquincum5_aquincum = {
+			b_vindonianus_vicus_aquincum = {
 			}
-			b_aquincum6_aquincum = {
+			b_ponte_navata_aquincum = {
 			}
 		}
 	}
@@ -5012,11 +5062,17 @@ k_pannonia = {
 			
 			b_emona_emona = {
 			}
+			b_fluvio_frigido_emona = {
+			}
 			b_nauportus_emona = {
 			}
-			b_camium_emona = {
+			b_ad_fornulos_emona = {
 			}
-			b_acervo_emona = {
+			b_ad_nonum_emona = {
+			}
+			b_carnium_emona = {
+			}
+			b_ad_publicanos_emona = {
 			}
 		}
 		c_virunum = {
@@ -5025,11 +5081,17 @@ k_pannonia = {
 			
 			b_virunum_virunum = {
 			}
+			b_tasinemeti_virunum = {
+			}
+			b_saloca_virunum = {
+			}
+			b_matucaium_virunum = {
+			}
+			b_bellandrum_virunum = {
+			}
 			b_iuenna_virunum = {
 			}
-			b_virunum1_virunum = {
-			}
-			b_santicum_virunum = {
+			b_noreia_virunum = {
 			}
 		}
 		c_ovilava = {
@@ -5040,9 +5102,15 @@ k_pannonia = {
 			}
 			b_lentia_ovilava = {
 			}
-			b_vetonianis_ovilava = {
+			b_ioviacum_ovilava = {
 			}
-			b_ovilava1_ovilava = {
+			b_stanacum_ovilava = {
+			}
+			b_batavis_ovilava = {
+			}
+			b_laciacum_ovilava = {
+			}
+			b_tergolape_ovilava = {
 			}
 		}
 		c_vindobona = {
@@ -5051,17 +5119,17 @@ k_pannonia = {
 			
 			b_vindobona_vindobona = {
 			}
-			b_vindobona1_vindobona = {
+			b_asturis_vindobona = {
 			}
-			b_vindobona2_vindobona = {
+			b_cannabiaca_vindobona = {
 			}
-			b_vindobona3_vindobona = {
+			b_augustiana_vindobona = {
 			}
-			b_vindobona4_vindobona = {
+			b_hernalis_vindobona = {
 			}
-			b_vindobona5_vindobona = {
+			b_solva_vindobona = {
 			}
-			b_vindobona6_vindobona = {
+			b_comagena_vindobona = {
 			}
 		}
 		c_cetium = {
@@ -5070,17 +5138,17 @@ k_pannonia = {
 			
 			b_cetium_cetium = {
 			}
-			b_cetium1_cetium = {
+			b_faviana_cetium = {
 			}
-			b_cetium2_cetium = {
+			b_namare_cetium = {
 			}
-			b_cetium3_cetium = {
+			b_arelape_cetium = {
 			}
-			b_cetium4_cetium = {
+			b_ad_pontem_ises_cetium = {
 			}
-			b_cetium5_cetium = {
+			b_locus_felicis_cetium = {
 			}
-			b_cetium6_cetium = {
+			b_ad_iuveses_cetium = {
 			}
 		}
 		c_lauriacum = {
@@ -5089,17 +5157,17 @@ k_pannonia = {
 			
 			b_lauriacum_lauriacum = {
 			}
-			b_lauriacum1_lauriacum = {
+			b_tutatio_lauriacum = {
 			}
-			b_lauriacum2_lauriacum = {
+			b_vetonianis_lauriacum = {
 			}
-			b_lauriacum3_lauriacum = {
+			b_ernolatia_lauriacum = {
 			}
-			b_lauriacum4_lauriacum = {
+			b_gabromagus_lauriacum = {
 			}
-			b_lauriacum5_lauriacum = {
+			b_surontio_lauriacum = {
 			}
-			b_lauriacum6_lauriacum = {
+			b_statio_escensis_lauriacum = {
 			}
 		}
 		c_teurnia = {
@@ -5108,17 +5176,17 @@ k_pannonia = {
 			
 			b_teurnia_teurnia = {
 			}
-			b_teurnia1_teurnia = {
+			b_meclaria_teurnia = {
 			}
-			b_teurnia2_teurnia = {
+			b_santicum_teurnia = {
 			}
-			b_teurnia3_teurnia = {
+			b_graviacis_teurnia = {
 			}
-			b_teurnia4_teurnia = {
+			b_in_murio_teurnia = {
 			}
-			b_teurnia5_teurnia = {
+			b_tarnasici_teurnia = {
 			}
-			b_teurnia6_teurnia = {
+			b_larice_teurnia = {
 			}
 		}
 		c_poetovio = {
@@ -5127,17 +5195,17 @@ k_pannonia = {
 			
 			b_poetovio_poetovio = {
 			}
-			b_poetovio1_poetovio = {
+			b_pultova_poetovio = {
 			}
-			b_poetovio2_poetovio = {
+			b_ramista_poetovio = {
 			}
-			b_poetovio3_poetovio = {
+			b_curta_poetovio = {
 			}
-			b_poetovio4_poetovio = {
+			b_gladomes_poetovio = {
 			}
-			b_poetovio5_poetovio = {
+			b_brengova_poetovio = {
 			}
-			b_poetovio6_poetovio = {
+			b_grusena_poetovio = {
 			}
 		}
 	}
@@ -5151,11 +5219,17 @@ k_pannonia = {
 			
 			b_splonum_splonum = {
 			}
-			b_raetinium_splonum = {
+			b_clandate_splonum = {
 			}
-			b_splonum1_splonum = {
+			b_servitium_splonum = {
 			}
-			b_leucono_splonum = {
+			b_ad_fines_splonum = {
+			}
+			b_aemate_splonum = {
+			}
+			b_ninia_splonum = {
+			}
+			b_ulcirus_splonum = {
 			}
 		}
 		c_segestica = {
@@ -5166,11 +5240,15 @@ k_pannonia = {
 			}
 			b_andautonia_segestica = {
 			}
-			b_colapis_segestica = {
+			b_ad_fines_segestica = {
 			}
-			b_varianae_segestica = {
+			b_varianis_segestica = {
 			}
-			b_balissae_segestica = {
+			b_ad_praetorium_segestica = {
+			}
+			b_aquae_balissae_segestica = {
+			}
+			b_fala_segestica = {
 			}
 		}
 		c_celeia = {
@@ -5179,17 +5257,17 @@ k_pannonia = {
 			
 			b_celeia_celeia = {
 			}
-			b_celeia1_celeia = {
+			b_atrans_celeia = {
 			}
-			b_celeia2_celeia = {
+			b_upellis_celeia = {
 			}
-			b_celeia3_celeia = {
+			b_ragando_celeia = {
 			}
-			b_celeia4_celeia = {
+			b_ad_lotodos_celeia = {
 			}
-			b_celeia5_celeia = {
+			b_colatio_celeia = {
 			}
-			b_celeia6_celeia = {
+			b_sempeter_celeia = {
 			}
 		}
 		c_serota = {
@@ -5198,17 +5276,17 @@ k_pannonia = {
 			
 			b_serota_serota = {
 			}
-			b_serota1_serota = {
+			b_mursella_serota = {
 			}
-			b_serota2_serota = {
+			b_iovalia_serota = {
 			}
-			b_serota3_serota = {
+			b_vereis_serota = {
 			}
-			b_serota4_serota = {
+			b_marinianis_serota = {
 			}
-			b_serota5_serota = {
+			b_serena_serota = {
 			}
-			b_serota6_serota = {
+			b_cocconis_serota = {
 			}
 		}
 		c_neviodunum = {
@@ -5236,17 +5314,17 @@ k_pannonia = {
 			
 			b_iovia_iovia = {
 			}
-			b_iovia1_iovia = {
+			b_cardono_iovia = {
 			}
-			b_iovia2_iovia = {
+			b_lentulis_iovia = {
 			}
-			b_iovia3_iovia = {
+			b_piretis_iovia = {
 			}
-			b_iovia4_iovia = {
+			b_sonista_iovia = {
 			}
-			b_iovia5_iovia = {
+			b_aquae_iasae_iovia = {
 			}
-			b_iovia6_iovia = {
+			b_pyrri_iovia = {
 			}
 		}
 		c_marsonia = {
@@ -5255,17 +5333,17 @@ k_pannonia = {
 			
 			b_marsonia_marsonia = {
 			}
-			b_marsonia1_marsonia = {
+			b_ad_basante_marsonia = {
 			}
-			b_marsonia2_marsonia = {
+			b_leucono_marsonia = {
 			}
-			b_marsonia3_marsonia = {
+			b_cirtisa_marsonia = {
 			}
-			b_marsonia4_marsonia = {
+			b_picentino_marsonia = {
 			}
-			b_marsonia5_marsonia = {
+			b_stravianis_marsonia = {
 			}
-			b_marsonia6_marsonia = {
+			b_incero_marsonia = {
 			}
 		}
 	}
@@ -5294,9 +5372,15 @@ k_pannonia = {
 			
 			b_cibalae_cibalae = {
 			}
-			b_comacum_cibalae = {
+			b_mursa_cibalae = {
 			}
 			b_causilena_cibalae = {
+			}
+			b_cornacum_cibalae = {
+			}
+			b_ad_labores_pontis_ulcae_cibalae = {
+			}
+			b_teutoburgium_cibalae = {
 			}
 			b_cuccium_cibalae = {
 			}
@@ -6698,17 +6782,23 @@ k_cisalpine_gaul = {
 		color= { 100 255 100 }
 		color2= { 255 255 255 }
 		
-		c_veneti = {
+		c_parentium = {
 			color= { 100 255 100 }
 			color2= { 255 255 255 }
 		
-			b_tergeste_veneti = {
+			b_parentium_parentium = {
 			}
-			b_veneti_veneti = {
+			b_neapolis_parentium = {
 			}
-			b_albona_veneti = {
+			b_tergeste_parentium = {
 			}
-			b_parentium_veneti = {
+			b_aegida_parentium = {
+			}
+			b_piranum_parentium = {
+			}
+			b_humagum_parentium = {
+			}
+			b_silvo_parentium = {
 			}
 		}
 		c_altinum = {
@@ -6776,17 +6866,17 @@ k_cisalpine_gaul = {
 			
 			b_pola_pola = {
 			}
-			b_pola1_pola = {
+			b_mutila_pola = {
 			}
-			b_pola2_pola = {
+			b_flanona_pola = {
 			}
-			b_pola3_pola = {
+			b_nesactium_pola = {
 			}
-			b_pola4_pola = {
+			b_ruginium_pola = {
 			}
-			b_pola5_pola = {
+			b_pedena_pola = {
 			}
-			b_pola6_pola = {
+			b_lauriana_pola = {
 			}
 		}
 	}

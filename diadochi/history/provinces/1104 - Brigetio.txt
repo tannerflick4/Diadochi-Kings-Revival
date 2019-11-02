@@ -4,14 +4,14 @@
 title = c_brigetio
 
 # Settlements
-max_settlements = 6
+max_settlements = 4
 b_brigetio_brigetio = tribal
-b_brigetio1_brigetio = temple
-#b_brigetio2_brigetio = city
-#b_brigetio3_brigetio = castle
-#b_brigetio4_brigetio = temple
-#b_brigetio5_brigetio = city
-#b_brigetio6_brigetio = castle
+#b_crumerum_brigetio = city
+#b_odiavum_brigetio = city
+#b_ad_mures_brigetio = castle
+#b_arrabona_brigetio = castle
+#b_crispiana_brigetio = city
+#b_ad_statuas_brigetio = castle
 
 # Misc
 culture = illyrian

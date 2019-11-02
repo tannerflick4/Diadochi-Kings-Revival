@@ -6,9 +6,12 @@ title = c_senia
 # Settlements
 max_settlements = 4
 b_senia_senia = tribal
-#b_apsarus_senia = city
+#b_lopsica_senia = castle
 #b_curicum_senia = city
+#b_crexa_senia = city
+#b_apsarus_senia = city
 #b_tarsatica_senia = castle
+#b_raparia_senia = castle
 
 # Misc
 culture = venetic

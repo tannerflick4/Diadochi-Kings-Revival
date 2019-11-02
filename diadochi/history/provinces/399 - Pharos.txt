@@ -6,9 +6,12 @@ title = c_pharos
 # Settlements
 max_settlements = 4
 b_pharos_pharos = castle
+b_issa_pharos = city
 b_korkyra_melaina_pharos = city
-b_tragurium_pharos = city
-b_rider_pharos = castle
+#b_tragurium_pharos
+#b_bova_pharos
+#b_brattia_pharos
+#b_ladesta_pharos
 
 # Misc
 culture = ionian

@@ -1,0 +1,21 @@
+# 400 - Salona
+
+# County Title
+title = c_salona
+
+# Settlements
+max_settlements = 5
+b_salona_salona = tribal
+#b_rider_salona = castle
+#b_magnum_salona = city
+#b_pituntium_salona = city
+#b_tilurium_salona = castle
+b_aequum_salona = temple
+#b_spalatum_salona = city
+
+# Misc
+culture = illyrian
+religion = illyrian_main
+
+# History
+# Can be filled when things change around the province

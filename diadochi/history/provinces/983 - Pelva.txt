@@ -4,14 +4,14 @@
 title = c_pelva
 
 # Settlements
-max_settlements = 5
+max_settlements = 4
 b_pelva_pelva = tribal
-#b_pelva1_pelva = city
-b_pelva2_pelva = temple
-#b_pelva3_pelva = castle
-#b_pelva4_pelva = city
-#b_pelva5_pelva = temple
-#b_pelva6_pelva = castle
+#b_in_alperio_pelva = castle
+#b_bariduum_pelva = city
+#b_salvium_pelva = castle
+#b_pons_tiluri_pelva = temple
+#b_andetrium_pelva = castle
+#b_tambia_pelva = city
 
 # Misc
 culture = illyrian

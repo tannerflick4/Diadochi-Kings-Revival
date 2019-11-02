@@ -4,17 +4,22 @@
 title = c_teurnia
 
 # Settlements
-max_settlements = 4
+max_settlements = 3
 b_teurnia_teurnia = tribal
-#b_teurnia1_teurnia = city
-#b_teurnia2_teurnia = temple
-#b_teurnia3_teurnia = city
-#b_teurnia4_teurnia = castle
-#b_teurnia5_teurnia = city
-#b_teurnia6_teurnia = temple
+b_meclaria_teurnia = temple
+#b_santicum_teurnia = city
+#b_graviacis_teurnia = castle
+#b_in_murio_teurnia = city
+#b_tarnasici_teurnia = castle
+#b_larice_teurnia = castle
 
 # Misc
-culture = gaul
-religion = celtic_main
+culture = venetic
+religion = illyrian_main
 
 # History
+# Can be filled when things change around the province
+446.1.1 = { # 330 BC
+	culture = gaul
+	religion = celtic_main
+}

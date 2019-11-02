@@ -4,14 +4,14 @@
 title = c_gorsium
 
 # Settlements
-max_settlements = 6
+max_settlements = 3
 b_gorsium_gorsium = tribal
-b_gorsium1_gorsium = temple
-#b_gorsium2_gorsium = city
-#b_gorsium3_gorsium = castle
-#b_gorsium4_gorsium = temple
-#b_gorsium5_gorsium = city
-#b_gorsium6_gorsium = castle
+#b_alta_ripa_gorsium = city
+#b_lussonium_gorsium = castle
+#b_annamatia_gorsium = castle
+#b_intercisa_gorsium = castle
+#b_vetus_salina_gorsium = castle
+#b_iasulones_gorsium = city
 
 # Misc
 culture = illyrian

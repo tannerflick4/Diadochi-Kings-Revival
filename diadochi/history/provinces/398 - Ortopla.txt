@@ -6,9 +6,12 @@ title = c_ortopla
 # Settlements
 max_settlements = 4
 b_ortopla_ortopla = tribal
-#b_arupium_ortopla = castle
+#b_argyruntum_ortopla = city
+#b_vegium_ortopla = city
 #b_cissa_ortopla = city
-#b_arba_ortopla = city
+#b_arba_ortopla = castle
+#b_clambetis_ortopla = castle
+#b_ausancalio_ortopla = temple
 
 # Misc
 culture = venetic

@@ -628,7 +628,7 @@ k_veneti = {
 	color= { 100 255 100 }
 	color2= { 255 255 255 }
 	
-	capital = 71 # Veneti
+	capital = 71 # Parentium
 }
 k_senones = {
 	color= { 50 255 100 }

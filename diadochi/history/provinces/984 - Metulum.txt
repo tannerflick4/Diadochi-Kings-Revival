@@ -4,14 +4,14 @@
 title = c_metulum
 
 # Settlements
-max_settlements = 5
+max_settlements = 3
 b_metulum_metulum = tribal
-#b_metulum1_metulum = city
-#b_metulum2_metulum = temple
-#b_metulum3_metulum = city
-#b_metulum4_metulum = castle
-#b_metulum5_metulum = castle
-#b_metulum6_metulum = city
+#b_terponus_metulum = castle
+#b_raetinium_metulum = city
+#b_monetium_metulum = temple
+#b_avendo_metulum = castle
+#b_arupium_metulum = city
+#b_epidotium_metulum = castle
 
 # Misc
 culture = venetic

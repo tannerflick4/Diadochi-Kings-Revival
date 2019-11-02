@@ -4,11 +4,14 @@
 title = c_sala
 
 # Settlements
-max_settlements = 4
+max_settlements = 3
 b_sala_sala = tribal
-b_sala1_sala = temple
-#b_bassiana_sala = city
-#b_mestrianis_sala = castle
+#b_ad_vices_sala = city
+#b_halicanum_sala = castle
+#b_ihova_sala = temple
+#b_populi_sala = city
+#b_aqua_viva_sala = city
+#b_quadriburgium_sala = castle
 
 # Misc
 culture = illyrian

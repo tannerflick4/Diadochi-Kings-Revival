@@ -4,14 +4,14 @@
 title = c_aquincum
 
 # Settlements
-max_settlements = 6
+max_settlements = 5
 b_aquincum_aquincum = tribal
-b_aquincum1_aquincum = temple
-#b_aquincum2_aquincum = city
-#b_aquincum3_aquincum = castle
-#b_aquincum4_aquincum = temple
-#b_aquincum5_aquincum = city
-#b_aquincum6_aquincum = castle
+b_vicus_teuto_aquincum = temple
+#b_aquincum_castra_aquincum = castle
+#b_transaquincum_aquincum = castle
+#b_contra_aquincum_aquincum = city
+#b_vindonianus_vicus_aquincum = city
+#b_ponte_navata_aquincum = castle
 
 # Misc
 culture = illyrian

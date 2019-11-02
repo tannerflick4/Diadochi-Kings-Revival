@@ -6,12 +6,12 @@ title = c_cetium
 # Settlements
 max_settlements = 4
 b_cetium_cetium = tribal
-#b_cetium1_cetium = city
-b_cetium2_cetium = temple
-#b_cetium3_cetium = city
-#b_cetium4_cetium = castle
-#b_cetium5_cetium = city
-#b_cetium6_cetium = temple
+#b_faviana_cetium = city
+#b_namare_cetium = castle
+#b_arelape_cetium = city
+b_ad_pontem_ises_cetium = temple
+#b_locus_felicis_cetium = castle
+#b_ad_iuveses_cetium = city
 
 # Misc
 culture = gaul

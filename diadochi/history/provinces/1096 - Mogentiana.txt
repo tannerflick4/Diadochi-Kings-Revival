@@ -4,14 +4,14 @@
 title = c_mogentiana
 
 # Settlements
-max_settlements = 6
+max_settlements = 3
 b_mogentiana_mogentiana = tribal
-b_mogentiana1_mogentiana = temple
-#b_mogentiana2_mogentiana = city
-#b_mogentiana3_mogentiana = castle
-#b_mogentiana4_mogentiana = temple
-#b_mogentiana5_mogentiana = city
-#b_mogentiana6_mogentiana = castle
+#b_caesariana_mogentiana = city
+#b_mestrianis_mogentiana = city
+#b_volgum_mogentiana = city
+#b_matrica_mogentiana = castle
+#b_valence_mogentiana = temple
+#b_campona_mogentiana = castle
 
 # Misc
 culture = illyrian

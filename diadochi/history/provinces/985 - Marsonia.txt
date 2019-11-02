@@ -6,12 +6,12 @@ title = c_marsonia
 # Settlements
 max_settlements = 4
 b_marsonia_marsonia = tribal
-b_marsonia1_marsonia = temple
-#b_marsonia2_marsonia = city
-#b_marsonia3_marsonia = city
-#b_marsonia4_marsonia = castle
-#b_marsonia5_marsonia = temple
-#b_marsonia6_marsonia = city
+#b_ad_basante_marsonia = city
+#b_leucono_marsonia = city
+#b_cirtisa_marsonia = city
+#b_picentino_marsonia = castle
+#b_stravianis_marsonia = castle
+#b_incero_marsonia = temple
 
 # Misc
 culture = illyrian

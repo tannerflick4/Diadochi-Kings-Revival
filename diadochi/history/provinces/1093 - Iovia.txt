@@ -6,12 +6,12 @@ title = c_iovia
 # Settlements
 max_settlements = 4
 b_iovia_iovia = tribal
-b_iovia1_iovia = temple
-#b_iovia2_iovia = castle
-#b_iovia3_iovia = city
-#b_iovia4_iovia = castle
-#b_iovia5_iovia = temple
-#b_iovia6_iovia = castle
+#b_cardono_iovia = city
+#b_lentulis_iovia = temple
+#b_piretis_iovia = castle
+#b_sonista_iovia = city
+#b_aquae_iasae_iovia = castle
+#b_pyrri_iovia = castle
 
 # Misc
 culture = illyrian

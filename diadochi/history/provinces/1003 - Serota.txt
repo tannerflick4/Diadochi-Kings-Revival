@@ -4,14 +4,14 @@
 title = c_serota
 
 # Settlements
-max_settlements = 5
+max_settlements = 4
 b_serota_serota = tribal
-#b_serota1_serota = city
-#b_serota2_serota = city
-#b_serota3_serota = castle
-#b_serota4_serota = city
-#b_serota5_serota = city
-#b_serota6_serota = castle
+#b_mursella_serota = city
+#b_iovalia_serota = castle
+#b_vereis_serota = city
+#b_marinianis_serota = castle
+#b_serena_serota = city
+b_cocconis_serota = temple
 
 # Misc
 culture = illyrian

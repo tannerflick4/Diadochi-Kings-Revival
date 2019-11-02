@@ -6,9 +6,12 @@ title = c_sopianae
 # Settlements
 max_settlements = 4
 b_sopianae_sopianae = tribal
-b_altinum_sopianae = temple
-#b_alisca_sopianae = castle
-#b_sopianae1_sopianae = city
+#b_alisca_sopianae = city
+#b_contra_florentiam_sopianae = castle
+#b_lugio_sopianae = castle
+#b_altinum_sopianae = city
+#b_antiana_sopianae = castle
+b_donatianis_sopianae = temple
 
 # Misc
 culture = illyrian
