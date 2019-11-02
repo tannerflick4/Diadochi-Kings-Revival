@@ -248,8 +248,8 @@ technology = {
 		d_epidamnia
 		d_liburnia
 		d_pelso
-		d_noricum
-		d_segestica
+		d_alpes_iuliae
+		d_alpes_ferreae
 		d_sirmium
 		d_peloponnese
 		d_attike

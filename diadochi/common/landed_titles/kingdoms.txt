@@ -4239,7 +4239,7 @@ k_macedon = {
 	}
 }
 k_illyria = {
-	color= { 25 255 125 }
+	color= { 229 255 84 }
 	color2= { 255 255 255 }
 	
 	allow = {
@@ -4249,6 +4249,8 @@ k_illyria = {
 	d_dardania = {
 		color= { 25 255 125 }
 		color2= { 255 255 255 }
+
+		capital = 68 # Ulpiana
 		
 		c_scupi = {
 			color= { 25 215 135 }
@@ -4307,24 +4309,174 @@ k_illyria = {
 			b_metalli_dardanici_ulpiana = {
 			}
 		}
-		c_uscana = {
-			color= { 104 38 35 }
-			color2= { 255 255 255 }
+		c_hammeum = {
+			color={ 195 121 198 }
+			color2={ 255 255 255 }
 			
-			b_uscana_uscana = {
+			b_hammeum_hammeum = {
 			}
-			b_kerax_uscana = {
+			b_ad_fines_hammeum = {
 			}
-			b_lychnidos_uscana = {
+			b_kompolos_hammeum = {
 			}
-			b_trebenista_uscana = {
+			b_korman_hammeum = {
+			}
+			b_dunis_hammeum = {
+			}
+			b_celegorum_hammeum = {
+			}
+			b_metalli_dardanici_hammeum = {
 			}
 		}
 	}
-	
+	d_labeatis = {
+		color= { 25 255 100 }
+		color2= { 255 255 255 }
+
+		capital = 64 # Scodra
+
+		c_scodra = {
+			color= { 35 255 90 }
+			color2= { 255 255 255 }
+			
+			b_scodra_scodra = {
+			}
+			b_doclea_scodra = {
+			}
+			b_cinna_scodra = {
+			}
+			b_ad_picarias_scodra = {
+			}
+			b_meteon_scodra = {
+			}
+			b_birziminium_scodra = {
+			}
+			b_varis_scodra = {
+			}
+		}
+		c_agruvium = {
+			color= { 196 66 75 }
+			color2= { 255 255 255 }
+			
+			b_agruvium_agruvium = {
+			}
+			b_risinum_agruvium = {
+			}
+			b_bouthoe_agruvium = {
+			}
+			b_antibaris_agruvium = {
+			}
+			b_olcinium_agruvium = {
+			}
+			b_salluntum_agruvium = {
+			}
+			b_halata_agruvium = {
+			}
+		}
+		c_epidaurum = {
+			color= { 25 245 110 }
+			color2= { 255 255 255 }
+			
+			b_epidaurum_epidaurum = {
+			}
+			b_stagnum_epidaurum = {
+			}
+			b_asamum_epidaurum = {
+			}
+			b_leusinio_epidaurum = {
+			}
+			b_pardua_epidaurum = {
+			}
+			b_salthua_epidaurum = {
+			}
+			b_plana_epidaurum = {
+			}
+		}
+	}
+	d_alpes_illyrici = {
+		color= { 25 255 125 }
+		color2= { 255 255 255 }
+		
+		capital = 802 # Salinae
+
+		c_baloia = {
+			color= { 193 34 58 }
+			color2= { 255 255 255 }
+			
+			b_baloia_baloia = {
+			}
+			b_bistua_nova_baloia = {
+			}
+			b_stanecli_baloia = {
+			}
+			b_ionnaria_baloia = {
+			}
+			b_sarute_baloia = {
+			}
+			b_indenea_baloia = {
+			}
+			b_sarnade_baloia = {
+			}
+		}
+		c_diluntum = {
+			color= { 26 23 196 }
+			color2= { 255 255 255 }
+			
+			b_diluntum_diluntum = {
+			}
+			b_daorson_diluntum = {
+			}
+			b_ad_turres_diluntum = {
+			}
+			b_anderva_diluntum = {
+			}
+			b_ad_zizio_diluntum = {
+			}
+			b_ustikolina_diluntum = {
+			}
+			b_visici_diluntum = {
+			}
+		}
+		c_malvesia = {
+			color= { 60 165 125 }
+			color2= { 255 255 255 }
+			
+			b_malvesia_malvesia = {
+			}
+			b_karan_malvesia = {
+			}
+			b_baklonica_malvesia = {
+			}
+			b_visibaba_malvesia = {
+			}
+			b_kozetina_malvesia = {
+			}
+		}
+		c_salinae = {
+			color= { 39 83 140 }
+			color2= { 255 255 255 }
+			
+			b_salinae_salinae = {
+			}
+			b_ris_salinae = {
+			}
+			b_aquae_sulphurae_salinae = {
+			}
+			b_hedum_castellum_salinae = {
+			}
+			b_ad_drinum_salinae = {
+			}
+			b_sase_salinae = {
+			}
+			b_drinum_salinae = {
+			}
+		}
+	}
 	d_dalmatia = {
 		color= { 25 255 100 }
 		color2= { 255 255 255 }
+
+		capital = 400 # Salona
 		
 		c_pharos = {
 			color= { 35 245 100 }
@@ -4383,44 +4535,6 @@ k_illyria = {
 			b_trono_delminium = {
 			}
 		}
-		c_epidaurum = {
-			color= { 25 245 110 }
-			color2= { 255 255 255 }
-			
-			b_epidaurum_epidaurum = {
-			}
-			b_stagnum_epidaurum = {
-			}
-			b_asamum_epidaurum = {
-			}
-			b_leusinio_epidaurum = {
-			}
-			b_pardua_epidaurum = {
-			}
-			b_salthua_epidaurum = {
-			}
-			b_plana_epidaurum = {
-			}
-		}
-		c_scodra = {
-			color= { 35 255 90 }
-			color2= { 255 255 255 }
-			
-			b_scodra_scodra = {
-			}
-			b_doclea_scodra = {
-			}
-			b_cinna_scodra = {
-			}
-			b_ad_picarias_scodra = {
-			}
-			b_meteon_scodra = {
-			}
-			b_birziminium_scodra = {
-			}
-			b_varis_scodra = {
-			}
-		}
 		c_pelva = {
 			color= { 178 128 67 }
 			color2= { 255 255 255 }
@@ -4438,25 +4552,6 @@ k_illyria = {
 			b_andetrium_pelva = {
 			}
 			b_tambia_pelva = {
-			}
-		}
-		c_baloia = {
-			color= { 193 34 58 }
-			color2= { 255 255 255 }
-			
-			b_baloia_baloia = {
-			}
-			b_bistua_nova_baloia = {
-			}
-			b_stanecli_baloia = {
-			}
-			b_ionnaria_baloia = {
-			}
-			b_sarute_baloia = {
-			}
-			b_indenea_baloia = {
-			}
-			b_sarnade_baloia = {
 			}
 		}
 		c_narona = {
@@ -4478,49 +4573,12 @@ k_illyria = {
 			b_aufustianis_narona = {
 			}
 		}
-		c_diluntum = {
-			color= { 26 23 196 }
-			color2= { 255 255 255 }
-			
-			b_diluntum_diluntum = {
-			}
-			b_daorson_diluntum = {
-			}
-			b_ad_turres_diluntum = {
-			}
-			b_anderva_diluntum = {
-			}
-			b_ad_zizio_diluntum = {
-			}
-			b_ustikolina_diluntum = {
-			}
-			b_visici_diluntum = {
-			}
-		}
-		c_agruvium = {
-			color= { 196 66 75 }
-			color2= { 255 255 255 }
-			
-			b_agruvium_agruvium = {
-			}
-			b_risinum_agruvium = {
-			}
-			b_bouthoe_agruvium = {
-			}
-			b_antibaris_agruvium = {
-			}
-			b_olcinium_agruvium = {
-			}
-			b_salluntum_agruvium = {
-			}
-			b_halata_agruvium = {
-			}
-		}
 	}
-	
 	d_triballia = {
 		color= { 25 225 125 }
 		color2= { 255 255 255 }
+
+		capital = 73 # Ratiaria
 		
 		c_ratiaria = {
 			color= { 35 215 125 }
@@ -4541,25 +4599,6 @@ k_illyria = {
 			b_remetodia_ratiaria = {
 			}
 			b_pomodiana_ratiaria = {
-			}
-		}
-		c_singidunum = {
-			color= { 25 225 125 }
-			color2= { 255 255 255 }
-			
-			b_singidunum_singidunum = {
-			}
-			b_oktabon_singidunum = {
-			}
-			b_tricornium_singidunum = {
-			}
-			b_vinceia_singidunum = {
-			}
-			b_ad_sextum_singidunum = {
-			}
-			b_avala_singidunum = {
-			}
-			b_aureus_mons_singidunum = {
 			}
 		}
 		c_viminacium = {
@@ -4600,30 +4639,31 @@ k_illyria = {
 			b_sarmates_romuliana = {
 			}
 		}
-		c_hammeum = {
-			color={ 195 121 198 }
-			color2={ 255 255 255 }
+		c_serdica = {			
+			color= { 35 190 100 }
+			color2= { 255 255 255 }			
 			
-			b_hammeum_hammeum = {
+			b_serdica_serdica = {
 			}
-			b_ad_fines_hammeum = {
+			b_scretisca_serdica = {
 			}
-			b_kompolos_hammeum = {
+			b_meldia_serdica = {
 			}
-			b_korman_hammeum = {
+			b_ballanstra_serdica = {
 			}
-			b_dunis_hammeum = {
+			b_remesiana_serdica = {
 			}
-			b_celegorum_hammeum = {
+			b_turres_serdica = {
 			}
-			b_metalli_dardanici_hammeum = {
+			b_translitis_serdica = {
 			}
 		}
 	}
-	
 	d_paeonia = {
 		color= { 25 200 100 }
 		color2= { 255 255 255 }
+
+		capital = 65 # Stobi
 	
 		c_paroikopolis = {
 			color= { 25 200 100 }
@@ -4663,25 +4703,6 @@ k_illyria = {
 			b_audaristos_stobi = {
 			}
 		}
-		c_serdica = {			
-			color= { 35 190 100 }
-			color2= { 255 255 255 }			
-			
-			b_serdica_serdica = {
-			}
-			b_scretisca_serdica = {
-			}
-			b_meldia_serdica = {
-			}
-			b_ballanstra_serdica = {
-			}
-			b_remesiana_serdica = {
-			}
-			b_turres_serdica = {
-			}
-			b_translitis_serdica = {
-			}
-		}
 		c_bylazora = {
 			color= { 84 74 107 }
 			color2= { 255 255 255 }
@@ -4701,10 +4722,25 @@ k_illyria = {
 			b_spinopara_bylazora = {
 			}
 		}
+		c_uscana = {
+			color= { 104 38 35 }
+			color2= { 255 255 255 }
+			
+			b_uscana_uscana = {
+			}
+			b_kerax_uscana = {
+			}
+			b_lychnidos_uscana = {
+			}
+			b_trebenista_uscana = {
+			}
+		}
 	}
 	d_epidamnia = {
 		color= { 50 255 125 }
 		color2= { 255 255 255 }
+
+		capital = 61 # Epidamnos
 	
 		c_epidamnos = {
 			color= { 50 255 125 }
@@ -4773,7 +4809,7 @@ k_illyria = {
 	}
 }
 k_pannonia = {
-	color= { 50 200 100 }
+	color= { 24 135 39 }
 	color2= { 255 255 255 }
 	
 	d_liburnia = {
@@ -4837,87 +4873,11 @@ k_pannonia = {
 			b_sidrona_iader = {
 			}
 		}
-		c_metulum = {
-			color= { 32 24 178 }
-			color2= { 255 255 255 }
-			
-			b_metulum_metulum = {
-			}
-			b_terponus_metulum = {
-			}
-			b_raetinium_metulum = {
-			}
-			b_monetium_metulum = {
-			}
-			b_avendo_metulum = {
-			}
-			b_arupium_metulum = {
-			}
-			b_epidotium_metulum = {
-			}
-		}
 	}
 	d_pelso = {
 		color= { 50 200 100 }
 		color2= { 255 255 255 }
 		
-		c_scarbantia = {
-			color= { 40 200 90 }
-			color2= { 255 255 255 }
-			
-			b_scarbantia_scarbantia = {
-			}
-			b_vertoracum_scarbantia = {
-			}
-			b_muteno_scarbantia = {
-			}
-			b_ala_nova_scarbantia = {
-			}
-			b_aquae_scarbantia = {
-			}
-			b_hehale_scarbantia = {
-			}
-			b_lussomana_scarbantia = {
-			}
-		}
-		c_tricciana = {
-			color= { 50 200 100 }
-			color2= { 255 255 255 }
-			
-			b_tricciana_tricciana = {
-			}
-			b_limusa_tricciana = {
-			}
-			b_altinum_tricciana = {
-			}
-			b_iovia_tricciana = {
-			}
-			b_silicenis_tricciana = {
-			}
-			b_ad_novas_tricciana = {
-			}
-			b_ad_militare_tricciana = {
-			}
-		}
-		c_sopianae = {
-			color= { 60 190 100 }
-			color2= { 255 255 255 }
-			
-			b_sopianae_sopianae = {
-			}
-			b_alisca_sopianae = {
-			}
-			b_contra_florentiam_sopianae = {
-			}
-			b_lugio_sopianae = {
-			}
-			b_altinum_sopianae = {
-			}
-			b_antiana_sopianae = {
-			}
-			b_donatianis_sopianae = {
-			}
-		}
 		c_sala = {
 			color= { 50 190 90 }
 			color2= { 255 255 255 }
@@ -4975,25 +4935,6 @@ k_pannonia = {
 			b_ad_statuas_brigetio = {
 			}
 		}
-		c_savaria = {
-			color= { 63 29 76 }
-			color2= { 255 255 255 }
-			
-			b_savaria_savaria = {
-			}
-			b_bassiana_savaria = {
-			}
-			b_flavia_solva_savaria = {
-			}
-			b_ulcisia_castra_savaria = {
-			}
-			b_gardelica_savaria = {
-			}
-			b_tartursanis_savaria = {
-			}
-			b_sabatinca_savaria = {
-			}
-		}
 		c_mogentiana = {
 			color= { 126 58 165 }
 			color2= { 255 255 255 }
@@ -5011,25 +4952,6 @@ k_pannonia = {
 			b_valence_mogentiana = {
 			}
 			b_campona_mogentiana = {
-			}
-		}
-		c_gorsium = {
-			color= { 107 109 39 }
-			color2= { 255 255 255 }
-			
-			b_gorsium_gorsium = {
-			}
-			b_alta_ripa_gorsium = {
-			}
-			b_lussonium_gorsium = {
-			}
-			b_annamatia_gorsium = {
-			}
-			b_intercisa_gorsium = {
-			}
-			b_vetus_salina_gorsium = {
-			}
-			b_iasulones_gorsium = {
 			}
 		}
 		c_aquincum = {
@@ -5052,9 +4974,342 @@ k_pannonia = {
 			}
 		}
 	}
-	d_noricum = {
-		color= { 50 200 75 }
+	d_alpes_ferreae = {
+		color= { 50 175 100 }
 		color2= { 255 255 255 }
+		
+		c_segestica = {
+			color= { 50 175 100 }
+			color2= { 255 255 255 }
+			
+			b_segestica_segestica = {
+			}
+			b_andautonia_segestica = {
+			}
+			b_ad_fines_segestica = {
+			}
+			b_varianis_segestica = {
+			}
+			b_ad_praetorium_segestica = {
+			}
+			b_aquae_balissae_segestica = {
+			}
+			b_fala_segestica = {
+			}
+		}
+		c_celeia = {
+			color= { 107 35 112 }
+			color2= { 255 255 255 }
+			
+			b_celeia_celeia = {
+			}
+			b_atrans_celeia = {
+			}
+			b_upellis_celeia = {
+			}
+			b_ragando_celeia = {
+			}
+			b_ad_lotodos_celeia = {
+			}
+			b_colatio_celeia = {
+			}
+			b_sempeter_celeia = {
+			}
+		}
+		c_neviodunum = {
+			color= { 64 114 79 }
+			color2= { 255 255 255 }
+			
+			b_neviodunum_neviodunum = {
+			}
+			b_in_alpe_iulia_neviodunum = {
+			}
+			b_longaticum_neviodunum = {
+			}
+			b_acervo_neviodunum = {
+			}
+			b_praetorium_latobicorum_neviodunum = {
+			}
+			b_crucium_neviodunum = {
+			}
+			b_romula_neviodunum = {
+			}
+		}
+		c_iovia = {
+			color= { 13 38 112 }
+			color2= { 255 255 255 }
+			
+			b_iovia_iovia = {
+			}
+			b_cardono_iovia = {
+			}
+			b_lentulis_iovia = {
+			}
+			b_piretis_iovia = {
+			}
+			b_sonista_iovia = {
+			}
+			b_aquae_iasae_iovia = {
+			}
+			b_pyrri_iovia = {
+			}
+		}
+		c_metulum = {
+			color= { 32 24 178 }
+			color2= { 255 255 255 }
+			
+			b_metulum_metulum = {
+			}
+			b_terponus_metulum = {
+			}
+			b_raetinium_metulum = {
+			}
+			b_monetium_metulum = {
+			}
+			b_avendo_metulum = {
+			}
+			b_arupium_metulum = {
+			}
+			b_epidotium_metulum = {
+			}
+		}
+	}
+	d_sirmium = {
+		color= { 50 175 125 }
+		color2= { 255 255 255 }
+		
+		c_sirmium = {
+			color= { 50 175 125 }
+			color2= { 255 255 255 }
+			
+			b_sirmium_sirmium = {
+			}
+			b_bassiana_sirmium = {
+			}
+			b_acumincum_sirmium = {
+			}
+			b_altina_sirmium = {
+			}
+			b_fossae_sirmium = {
+			}
+			b_malata_sirmium = {
+			}
+			b_spaneta_sirmium = {
+			}
+		}
+		c_singidunum = {
+			color= { 25 225 125 }
+			color2= { 255 255 255 }
+			
+			b_singidunum_singidunum = {
+			}
+			b_oktabon_singidunum = {
+			}
+			b_tricornium_singidunum = {
+			}
+			b_vinceia_singidunum = {
+			}
+			b_ad_sextum_singidunum = {
+			}
+			b_avala_singidunum = {
+			}
+			b_aureus_mons_singidunum = {
+			}
+		}
+		c_domavium = {
+			color= { 39 83 140 }
+			color2= { 255 255 255 }
+			
+			b_domavium_domavium = {
+			}
+			b_gensis_domavium = {
+			}
+			b_statina_domavium = {
+			}
+			b_sabac_domavium = {
+			}
+			b_dovic_domavium = {
+			}
+		}
+	}
+	d_dravus = {
+		color= { 50 175 125 }
+		color2= { 255 255 255 }
+
+		capital = 387 # Cibalae
+
+		c_cibalae = {
+			color= { 40 175 115 }
+			color2= { 255 255 255 }
+			
+			b_cibalae_cibalae = {
+			}
+			b_mursa_cibalae = {
+			}
+			b_causilena_cibalae = {
+			}
+			b_cornacum_cibalae = {
+			}
+			b_ad_labores_pontis_ulcae_cibalae = {
+			}
+			b_teutoburgium_cibalae = {
+			}
+			b_cuccium_cibalae = {
+			}
+		}
+		c_tricciana = {
+			color= { 50 200 100 }
+			color2= { 255 255 255 }
+			
+			b_tricciana_tricciana = {
+			}
+			b_limusa_tricciana = {
+			}
+			b_altinum_tricciana = {
+			}
+			b_iovia_tricciana = {
+			}
+			b_silicenis_tricciana = {
+			}
+			b_ad_novas_tricciana = {
+			}
+			b_ad_militare_tricciana = {
+			}
+		}
+		c_sopianae = {
+			color= { 60 190 100 }
+			color2= { 255 255 255 }
+			
+			b_sopianae_sopianae = {
+			}
+			b_alisca_sopianae = {
+			}
+			b_contra_florentiam_sopianae = {
+			}
+			b_lugio_sopianae = {
+			}
+			b_altinum_sopianae = {
+			}
+			b_antiana_sopianae = {
+			}
+			b_donatianis_sopianae = {
+			}
+		}
+		c_gorsium = {
+			color= { 107 109 39 }
+			color2= { 255 255 255 }
+			
+			b_gorsium_gorsium = {
+			}
+			b_alta_ripa_gorsium = {
+			}
+			b_lussonium_gorsium = {
+			}
+			b_annamatia_gorsium = {
+			}
+			b_intercisa_gorsium = {
+			}
+			b_vetus_salina_gorsium = {
+			}
+			b_iasulones_gorsium = {
+			}
+		}
+	}
+	d_savus = {
+		color= { 50 175 125 }
+		color2= { 255 255 255 }
+
+		capital = 985 # Marsonia
+
+		c_splonum = {
+			color= { 50 165 90 }
+			color2= { 255 255 255 }
+			
+			b_splonum_splonum = {
+			}
+			b_clandate_splonum = {
+			}
+			b_servitium_splonum = {
+			}
+			b_ad_fines_splonum = {
+			}
+			b_aemate_splonum = {
+			}
+			b_ninia_splonum = {
+			}
+			b_ulcirus_splonum = {
+			}
+		}
+		c_marsonia = {
+			color= { 255 109 225 }
+			color2= { 255 255 255 }
+			
+			b_marsonia_marsonia = {
+			}
+			b_ad_basante_marsonia = {
+			}
+			b_leucono_marsonia = {
+			}
+			b_cirtisa_marsonia = {
+			}
+			b_picentino_marsonia = {
+			}
+			b_stravianis_marsonia = {
+			}
+			b_incero_marsonia = {
+			}
+		}
+		c_serota = {
+			color= { 68 71 117 }
+			color2= { 255 255 255 }
+			
+			b_serota_serota = {
+			}
+			b_mursella_serota = {
+			}
+			b_iovalia_serota = {
+			}
+			b_vereis_serota = {
+			}
+			b_marinianis_serota = {
+			}
+			b_serena_serota = {
+			}
+			b_cocconis_serota = {
+			}
+		}
+		c_urbate = {
+			color= { 124 167 193 }
+			color2= { 255 255 255 }
+			
+			b_urbate_urbate = {
+			}
+			b_castra_urbate = {
+			}
+			b_ad_ladios_urbate = {
+			}
+			b_leusaba_urbate = {
+			}
+			b_apeva_urbate = {
+			}
+			b_sapua_urbate = {
+			}
+			b_bersellum_urbate = {
+			}
+		}
+	}
+}
+k_noricum = {
+	color= { 102 91 88 }
+	color2= { 255 255 255 }
+
+	capital = 393 # Virunum, contains Noreia
+	
+	d_alpes_iuliae = {
+		color= { 127 104 95 }
+		color2= { 255 255 255 }
+
+		capital = 393 # Virunum
 		
 		c_emona = {
 			color= { 50 190 65 }
@@ -5092,82 +5347,6 @@ k_pannonia = {
 			b_iuenna_virunum = {
 			}
 			b_noreia_virunum = {
-			}
-		}
-		c_ovilava = {
-			color= { 60 190 75 }
-			color2= { 255 255 255 }
-			
-			b_ovilava_ovilava = {
-			}
-			b_lentia_ovilava = {
-			}
-			b_ioviacum_ovilava = {
-			}
-			b_stanacum_ovilava = {
-			}
-			b_batavis_ovilava = {
-			}
-			b_laciacum_ovilava = {
-			}
-			b_tergolape_ovilava = {
-			}
-		}
-		c_vindobona = {
-			color= { 75 147 147 }
-			color2= { 255 255 255 }
-			
-			b_vindobona_vindobona = {
-			}
-			b_asturis_vindobona = {
-			}
-			b_cannabiaca_vindobona = {
-			}
-			b_augustiana_vindobona = {
-			}
-			b_hernalis_vindobona = {
-			}
-			b_solva_vindobona = {
-			}
-			b_comagena_vindobona = {
-			}
-		}
-		c_cetium = {
-			color= { 147 65 73 }
-			color2= { 255 255 255 }
-			
-			b_cetium_cetium = {
-			}
-			b_faviana_cetium = {
-			}
-			b_namare_cetium = {
-			}
-			b_arelape_cetium = {
-			}
-			b_ad_pontem_ises_cetium = {
-			}
-			b_locus_felicis_cetium = {
-			}
-			b_ad_iuveses_cetium = {
-			}
-		}
-		c_lauriacum = {
-			color= { 63 147 131 }
-			color2= { 255 255 255 }
-			
-			b_lauriacum_lauriacum = {
-			}
-			b_tutatio_lauriacum = {
-			}
-			b_vetonianis_lauriacum = {
-			}
-			b_ernolatia_lauriacum = {
-			}
-			b_gabromagus_lauriacum = {
-			}
-			b_surontio_lauriacum = {
-			}
-			b_statio_escensis_lauriacum = {
 			}
 		}
 		c_teurnia = {
@@ -5209,252 +5388,131 @@ k_pannonia = {
 			}
 		}
 	}
-	d_segestica = {
-		color= { 50 175 100 }
+	d_anisus = {
+		color= { 88 102 102 }
 		color2= { 255 255 255 }
-		
-		c_splonum = {
-			color= { 50 165 90 }
+
+		capital = 438 # Ovilava
+
+		c_ovilava = {
+			color= { 60 190 75 }
 			color2= { 255 255 255 }
 			
-			b_splonum_splonum = {
+			b_ovilava_ovilava = {
 			}
-			b_clandate_splonum = {
+			b_lentia_ovilava = {
 			}
-			b_servitium_splonum = {
+			b_ioviacum_ovilava = {
 			}
-			b_ad_fines_splonum = {
+			b_stanacum_ovilava = {
 			}
-			b_aemate_splonum = {
+			b_batavis_ovilava = {
 			}
-			b_ninia_splonum = {
+			b_laciacum_ovilava = {
 			}
-			b_ulcirus_splonum = {
+			b_tergolape_ovilava = {
 			}
 		}
-		c_segestica = {
-			color= { 50 175 100 }
+		c_cetium = {
+			color= { 147 65 73 }
 			color2= { 255 255 255 }
 			
-			b_segestica_segestica = {
+			b_cetium_cetium = {
 			}
-			b_andautonia_segestica = {
+			b_faviana_cetium = {
 			}
-			b_ad_fines_segestica = {
+			b_namare_cetium = {
 			}
-			b_varianis_segestica = {
+			b_arelape_cetium = {
 			}
-			b_ad_praetorium_segestica = {
+			b_ad_pontem_ises_cetium = {
 			}
-			b_aquae_balissae_segestica = {
+			b_locus_felicis_cetium = {
 			}
-			b_fala_segestica = {
+			b_ad_iuveses_cetium = {
 			}
 		}
-		c_celeia = {
-			color= { 107 35 112 }
+		c_lauriacum = {
+			color= { 63 147 131 }
 			color2= { 255 255 255 }
 			
-			b_celeia_celeia = {
+			b_lauriacum_lauriacum = {
 			}
-			b_atrans_celeia = {
+			b_tutatio_lauriacum = {
 			}
-			b_upellis_celeia = {
+			b_vetonianis_lauriacum = {
 			}
-			b_ragando_celeia = {
+			b_ernolatia_lauriacum = {
 			}
-			b_ad_lotodos_celeia = {
+			b_gabromagus_lauriacum = {
 			}
-			b_colatio_celeia = {
+			b_surontio_lauriacum = {
 			}
-			b_sempeter_celeia = {
-			}
-		}
-		c_serota = {
-			color= { 68 71 117 }
-			color2= { 255 255 255 }
-			
-			b_serota_serota = {
-			}
-			b_mursella_serota = {
-			}
-			b_iovalia_serota = {
-			}
-			b_vereis_serota = {
-			}
-			b_marinianis_serota = {
-			}
-			b_serena_serota = {
-			}
-			b_cocconis_serota = {
-			}
-		}
-		c_neviodunum = {
-			color= { 64 114 79 }
-			color2= { 255 255 255 }
-			
-			b_neviodunum_neviodunum = {
-			}
-			b_neviodunum1_neviodunum = {
-			}
-			b_neviodunum2_neviodunum = {
-			}
-			b_neviodunum3_neviodunum = {
-			}
-			b_neviodunum4_neviodunum = {
-			}
-			b_neviodunum5_neviodunum = {
-			}
-			b_neviodunum6_neviodunum = {
-			}
-		}
-		c_iovia = {
-			color= { 13 38 112 }
-			color2= { 255 255 255 }
-			
-			b_iovia_iovia = {
-			}
-			b_cardono_iovia = {
-			}
-			b_lentulis_iovia = {
-			}
-			b_piretis_iovia = {
-			}
-			b_sonista_iovia = {
-			}
-			b_aquae_iasae_iovia = {
-			}
-			b_pyrri_iovia = {
-			}
-		}
-		c_marsonia = {
-			color= { 255 109 225 }
-			color2= { 255 255 255 }
-			
-			b_marsonia_marsonia = {
-			}
-			b_ad_basante_marsonia = {
-			}
-			b_leucono_marsonia = {
-			}
-			b_cirtisa_marsonia = {
-			}
-			b_picentino_marsonia = {
-			}
-			b_stravianis_marsonia = {
-			}
-			b_incero_marsonia = {
+			b_statio_escensis_lauriacum = {
 			}
 		}
 	}
-	d_sirmium = {
-		color= { 50 175 125 }
+	d_ketion_oros = {
+		color= { 94 102 88 }
 		color2= { 255 255 255 }
-		
-		c_malvesia = {
-			color= { 60 165 125 }
+
+		capital = 392 # Scarbantia
+
+		c_vindobona = {
+			color= { 75 147 147 }
 			color2= { 255 255 255 }
 			
-			b_malvesia_malvesia = {
+			b_vindobona_vindobona = {
 			}
-			b_karan_malvesia = {
+			b_asturis_vindobona = {
 			}
-			b_baklonica_malvesia = {
+			b_cannabiaca_vindobona = {
 			}
-			b_visibaba_malvesia = {
+			b_augustiana_vindobona = {
 			}
-			b_kozetina_malvesia = {
+			b_hernalis_vindobona = {
+			}
+			b_solva_vindobona = {
+			}
+			b_comagena_vindobona = {
 			}
 		}
-		c_cibalae = {
-			color= { 40 175 115 }
+		c_savaria = {
+			color= { 63 29 76 }
 			color2= { 255 255 255 }
 			
-			b_cibalae_cibalae = {
+			b_savaria_savaria = {
 			}
-			b_mursa_cibalae = {
+			b_bassiana_savaria = {
 			}
-			b_causilena_cibalae = {
+			b_flavia_solva_savaria = {
 			}
-			b_cornacum_cibalae = {
+			b_ulcisia_castra_savaria = {
 			}
-			b_ad_labores_pontis_ulcae_cibalae = {
+			b_gardelica_savaria = {
 			}
-			b_teutoburgium_cibalae = {
+			b_tartursanis_savaria = {
 			}
-			b_cuccium_cibalae = {
+			b_sabatinca_savaria = {
 			}
 		}
-		c_sirmium = {
-			color= { 50 175 125 }
+		c_scarbantia = {
+			color= { 40 200 90 }
 			color2= { 255 255 255 }
 			
-			b_sirmium_sirmium = {
+			b_scarbantia_scarbantia = {
 			}
-			b_bassiana_sirmium = {
+			b_vertoracum_scarbantia = {
 			}
-			b_acumincum_sirmium = {
+			b_muteno_scarbantia = {
 			}
-			b_altina_sirmium = {
+			b_ala_nova_scarbantia = {
 			}
-			b_fossae_sirmium = {
+			b_aquae_scarbantia = {
 			}
-			b_malata_sirmium = {
+			b_hehale_scarbantia = {
 			}
-			b_spaneta_sirmium = {
-			}
-		}
-		c_domavium = {
-			color= { 39 83 140 }
-			color2= { 255 255 255 }
-			
-			b_domavium_domavium = {
-			}
-			b_gensis_domavium = {
-			}
-			b_statina_domavium = {
-			}
-			b_sabac_domavium = {
-			}
-			b_dovic_domavium = {
-			}
-		}
-		c_salinae = {
-			color= { 39 83 140 }
-			color2= { 255 255 255 }
-			
-			b_salinae_salinae = {
-			}
-			b_ris_salinae = {
-			}
-			b_aquae_sulphurae_salinae = {
-			}
-			b_hedum_castellum_salinae = {
-			}
-			b_ad_drinum_salinae = {
-			}
-			b_sase_salinae = {
-			}
-			b_drinum_salinae = {
-			}
-		}
-		c_urbate = {
-			color= { 124 167 193 }
-			color2= { 255 255 255 }
-			
-			b_urbate_urbate = {
-			}
-			b_castra_urbate = {
-			}
-			b_ad_ladios_urbate = {
-			}
-			b_leusaba_urbate = {
-			}
-			b_apeva_urbate = {
-			}
-			b_sapua_urbate = {
-			}
-			b_bersellum_urbate = {
+			b_lussomana_scarbantia = {
 			}
 		}
 	}
