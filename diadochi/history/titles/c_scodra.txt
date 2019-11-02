@@ -1,9 +1,15 @@
-417.1.1 = { # 359 BC
-	holder = 140503
+395.1.1 = { # 371 BC
+	holder = 140602 # Grabos of the Grabaei
 }
-439.1.1 = { # 337 BC
-	holder = 140501 # Galaurus of the Ardiaei
+414.1.1 = { # 362 BC
+	holder = 140604 # Pinnes of the Grabaei
 }
-473.1.1 = {
-	holder = 140502
+420.1.1 = { # 356 BC
+	holder = 140605 # Glaucias of the Grabaei
+}
+447.1.1 = { # 329 BC
+	holder = 140606 # Demetrius of the Grabaei
+}
+501.1.1 = { # 275 BC
+	holder = 140607 # Caeria of the Grabaei
 }

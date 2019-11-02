@@ -1,9 +1,21 @@
-417.1.1 = { # 359 BC
-	holder = 140503
+415.1.1 = { # 361 BC
+	holder = 140801 # Pleuratus of the Melcumani
 }
-439.1.1 = { # 337 BC
-	holder = 140501 # Galaurus of the Ardiaei
+416.1.1 = { # 360 BC
+	holder = 140802 # Demetrius of the Melcumani
 }
-473.1.1 = {
-	holder = 140502
+441.1.1 = { # 335 BC
+	holder = 140803 # Ballaios of the Melcumani
+}
+461.1.1 = { # 315 BC
+	holder = 140804 # Bato of the Melcumani
+}
+468.1.1 = { # 308 BC
+	holder = 140805 # Bato of the Melcumani
+}
+477.1.1 = { # 299 BC
+	holder = 140806 # Mytilus of the Melcumani
+}
+489.1.1 = { # 287 BC
+	holder = 140807 # Gentius of the Melcumani
 }

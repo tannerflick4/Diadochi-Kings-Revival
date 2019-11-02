@@ -1,10 +1,18 @@
-416.1.1 = { # 360 BC
-	holder = 140203
-	liege = d_sirmium
+400.1.1 = { # 376 BC
+	holder = 141101 # Bato of the Deuri
+}
+410.1.1 = { # 366 BC
+	holder = 141102 # Galaurus of the Deuri
+}
+431.1.1 = { # 345 BC
+	holder = 141103 # Epulon of the Deuri
 }
 449.1.1 = { # 327 BC
-	holder = 140201 # Pleurias, king of the Autariatae
+	holder = 141104 # Cleitus of the Deuri
 }
-471.1.1 = {
-	holder = 140202
+470.1.1 = { # 306 BC
+	holder = 141105 # Gentius of the Deuri
+}
+478.1.1 = { # 298 BC
+	holder = 141106 # Gentius of the Deuri
 }

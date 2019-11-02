@@ -1,10 +1,11 @@
-395.1.1 = { # 381 BC
-	holder = 40302 # Hales of the Triballi
-	liege = d_triballia
+417.1.1 = {
+	holder = 140003 # Bardyllis
+	liege = d_dardania
 }
-432.1.1 = {
-	holder = 40301 # Syrmus, king of the Triballi
+418.1.1 = {
+	holder = 140001 # Cleitus, leader of the dardanians
 }
-459.1.1 = { # 317 BC
-	holder = 40303 # Triballi
+466.1.1 = { # 310 BC
+	holder = 230704 # Molistomos
+	liege = k_tylis
 }

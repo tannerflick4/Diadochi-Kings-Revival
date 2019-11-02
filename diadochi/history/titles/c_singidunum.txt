@@ -1,10 +1,10 @@
-395.1.1 = { # 381 BC
-	holder = 40302 # Hales of the Triballi
-	liege = d_triballia
+416.1.1 = { # 360 BC
+	holder = 140203
+	liege = d_sirmium
 }
-432.1.1 = {
-	holder = 40301 # Syrmus, king of the Triballi
+449.1.1 = { # 327 BC
+	holder = 140201 # Pleurias, king of the Autariatae
 }
-459.1.1 = { # 317 BC
-	holder = 40303 # Triballi
+471.1.1 = {
+	holder = 140202
 }

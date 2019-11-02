@@ -14,7 +14,7 @@ b_viminacium_viminacium = tribal
 #b_transdierna_viminacium = castle
 
 # Misc
-culture = illyrian
-religion = illyrian_main
+culture = thracian
+religion = thracian_main
 
 # History

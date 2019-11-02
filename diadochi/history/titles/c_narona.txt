@@ -1,12 +1,12 @@
-405.1.1 = { # 371 BC
-	holder = 140303
+412.1.1 = { # 364 BC
+	holder = 140901 # Epulon of the Pleraei
 }
-445.1.1 = { # 331 BC
-	holder = 140301 # Grabos of the Dalmatae tribe
+435.1.1 = { # 341 BC
+	holder = 140903 # Caeria of the Pleraei
 }
-445.1.1 = { # 331 BC
-	liege = d_dalmatia
+451.1.1 = { # 325 BC
+	holder = 140904 # Monunius of the Pleraei
 }
-471.1.1 = {
-	holder = 140302
+487.1.1 = { # 289 BC
+	holder = 140905 # Glaucias of the Pleraei
 }

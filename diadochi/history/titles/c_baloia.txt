@@ -1,12 +1,18 @@
-405.1.1 = { # 371 BC
-	holder = 140303
+415.1.1 = { # 361 BC
+	holder = 141001 # Monunius of the Oxuaioi
 }
-445.1.1 = { # 331 BC
-	holder = 140301 # Grabos of the Dalmatae tribe
+430.1.1 = { # 346 BC
+	holder = 141002 # Testimos of the Oxuaioi
 }
-445.1.1 = { # 331 BC
-	liege = d_dalmatia
+461.1.1 = { # 315 BC
+	holder = 141003 # Agron of the Oxuaioi
 }
-471.1.1 = {
-	holder = 140302
+502.1.1 = { # 274 BC
+	holder = 141005 # Glaucias of the Oxuaioi
+}
+506.1.1 = { # 270 BC
+	holder = 141006 # Pleurias of the Oxuaioi
+}
+516.1.1 = { # 260 BC
+	holder = 141007 # Cleitus of the Oxuaioi
 }
