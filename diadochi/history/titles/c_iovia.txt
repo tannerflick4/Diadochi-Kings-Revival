@@ -1,15 +1,18 @@
-407.1.1 = { # 369 BC
-	holder = 230703
+412.1.1 = { # 364 BC
+	holder = 141401 # Bardhyll of the Amantini
 }
-429.1.1 = { # 347 BC
-	holder = 230701 # Critasirus of the Scorcisci
+415.1.1 = { # 361 BC
+	holder = 141403 # Artas of the Amantini
 }
-430.1.1 = { # 346 BC
-	holder = 230603 # Breuci
+427.1.1 = { # 349 BC
+	holder = 141404 # Gentius of the Amantini
 }
-441.1.1 = { # 335 BC
-	holder = 230601
+476.1.1 = { # 300 BC
+	holder = 141405 # Testimos of the Amantini
 }
-473.1.1 = { # 303 BC
-	holder = 230602
+503.1.1 = { # 273 BC
+	holder = 141406 # Epulon of the Amantini
+}
+501.1.1 = { # 275 BC
+	holder = 141407 # Ionios of the Amantini
 }

@@ -1,9 +1,12 @@
-415.1.1 = { # 361 BC
-	holder = 230603
+410.1.1 = { # 366 BC
+	holder = 232001 # Cotuatus of the Arabiates
+}
+411.1.1 = { # 365 BC
+	holder = 232002 # Divico of the Arabiates
 }
 441.1.1 = { # 335 BC
-	holder = 230601
+	holder = 232003 # Vertico of the Arabiates
 }
-473.1.1 = {
-	holder = 230602
+492.1.1 = { # 284 BC
+	holder = 232004 # Vercingetorix of the Arabiates
 }

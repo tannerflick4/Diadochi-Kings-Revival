@@ -1,9 +1,18 @@
-407.1.1 = { # 369 BC
-	holder = 230703
+400.1.1 = { # 376 BC
+	holder = 141101 # Bato of the Deuri
 }
-429.1.1 = { # 347 BC
-	holder = 230701 # Critasirus of the Scorcisci
+410.1.1 = { # 366 BC
+	holder = 141102 # Galaurus of the Deuri
 }
-476.1.1 = { # 300 BC
-	holder = 230702
+431.1.1 = { # 345 BC
+	holder = 141103 # Epulon of the Deuri
+}
+449.1.1 = { # 327 BC
+	holder = 141104 # Cleitus of the Deuri
+}
+470.1.1 = { # 306 BC
+	holder = 141105 # Gentius of the Deuri
+}
+478.1.1 = { # 298 BC
+	holder = 141106 # Gentius of the Deuri
 }

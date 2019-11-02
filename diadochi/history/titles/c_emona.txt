@@ -1,9 +1,12 @@
-408.1.1 = { # 368 BC
-	holder = 220202
+416.1.1 = { # 360 BC
+	holder = 232202 # Boduognatus of the Latobici
 }
-434.1.1 = { # 342 BC
-	holder = 220201 # Moicus of the Catari
+423.1.1 = { # 353 BC
+	holder = 232203 # Eporedix of the Latobici
 }
-460.1.1 = { # 316 BC
-	holder = 220203
+470.1.1 = { # 306 BC
+	holder = 232204 # Cingetorix of the Latobici
+}
+497.1.1 = { # 279 BC
+	holder = 232205 # Conconnetodumnus of the Latobici
 }

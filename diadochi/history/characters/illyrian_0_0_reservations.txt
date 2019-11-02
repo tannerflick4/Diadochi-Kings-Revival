@@ -11,3 +11,8 @@
 	# 140901-141000 for the Pleraei dynasty
 	# 141001-141100 for the Oxuaioi dynasty
 	# 141101-141200 for the Deuri dynasty
+	# 141201-141300 for the Segestani dynasty
+	# 141301-141400 for the Iapydes dynasty
+	# 141401-141500 for the Amantini dynasty
+	# 141501-141600 for the Daesidiates dynasty
+	# 141601-141700 for the Ditiones dynasty

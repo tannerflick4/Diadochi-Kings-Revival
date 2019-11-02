@@ -1,10 +1,12 @@
-416.1.1 = { # 360 BC
-	holder = 140203
-	liege = d_sirmium
+417.1.1 = { # 359 BC
+	holder = 232102 # Tasgetius of the Dindari
 }
-449.1.1 = { # 327 BC
-	holder = 140201 # Pleurias, king of the Autariatae
+436.1.1 = { # 340 BC
+	holder = 232103 # Boduognatus of the Dindari
 }
-471.1.1 = {
-	holder = 140202
+483.1.1 = { # 293 BC
+	holder = 232105 # Galba of the Dindari
+}
+505.1.1 = { # 271 BC
+	holder = 232106 # Liscus of the Dindari
 }

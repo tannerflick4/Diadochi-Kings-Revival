@@ -1,9 +1,18 @@
-408.1.1 = { # 368
-	holder = 230403 # Eravisci
+394.1.1 = { # 382 BC
+	holder = 232301 # Cavarinus of the Pannonian Boii
 }
-436.1.1 = { # 340
-	holder = 230402
+411.1.1 = { # 365 BC
+	holder = 232302 # Adiatunnus of the Pannonian Boii
 }
-443.1.1 = { # 333 BC
-	holder = 230401 # Donnotaurus of the Eravisci tribe
+418.1.1 = { # 358 BC
+	holder = 232303 # Tasgetius of the Pannonian Boii
+}
+477.1.1 = { # 299 BC
+	holder = 232304 # Acco of the Pannonian Boii
+}
+496.1.1 = { # 280 BC
+	holder = 232305 # Commius of the Pannonian Boii
+}
+511.1.1 = { # 265 BC
+	holder = 232306 # Cingetorix of the Pannonian Boii
 }

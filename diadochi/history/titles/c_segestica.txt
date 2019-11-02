@@ -1,15 +1,12 @@
-407.1.1 = { # 369 BC
-	holder = 230703
+411.1.1 = { # 365 BC
+	holder = 141202 # Ballaios of the Segestani
 }
-429.1.1 = { # 347 BC
-	holder = 230701 # Critasirus of the Scorcisci
+439.1.1 = { # 337 BC
+	holder = 141203 # Caeria of the Segestani
 }
-430.1.1 = { # 346 BC
-	holder = 230603 # Breuci
+451.1.1 = { # 325 BC
+	holder = 141204 # Pleurias of the Segestani
 }
-441.1.1 = { # 335 BC
-	holder = 230601
-}
-473.1.1 = { # 303 BC
-	holder = 230602
+479.1.1 = { # 297 BC
+	holder = 141205 # Agron of the Segestani
 }

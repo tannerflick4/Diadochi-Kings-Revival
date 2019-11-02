@@ -1,10 +1,18 @@
-406.1.1 = { # 370 BC
-	holder = 220102
-	liege = d_liburnia
+416.1.1 = { # 360 BC
+	holder = 141601 # Bardhyll of the Ditiones
 }
-442.1.1 = { # 334 BC
-	holder = 220101 # Volcus of the Liburni tribe
+430.1.1 = { # 346 BC
+	holder = 141603 # Pinnes of the Ditiones
 }
-470.1.1 = { # 306 BC
-	holder = 220103
+456.1.1 = { # 320 BC
+	holder = 141604 # Testimos of the Ditiones
+}
+484.1.1 = { # 292 BC
+	holder = 141605 # Bardhyll of the Ditiones
+}
+513.1.1 = { # 263 BC
+	holder = 141606 # Monunius of the Ditiones
+}
+515.1.1 = { # 261 BC
+	holder = 141607 # Pleurias of the Ditiones
 }

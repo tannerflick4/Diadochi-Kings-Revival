@@ -1,9 +1,15 @@
-408.1.1 = { # 368
-	holder = 230403 # Eravisci
+389.1.1 = { # 387 BC
+	holder = 231701 # Convictolitavis of the Cotini
 }
-436.1.1 = { # 340
-	holder = 230402
+395.1.1 = { # 381 BC
+	holder = 231702 # Vercingetorix of the Cotini
 }
-443.1.1 = { # 333 BC
-	holder = 230401 # Donnotaurus of the Eravisci tribe
+428.1.1 = { # 348 BC
+	holder = 231703 # Camulogenus of the Cotini
+}
+449.1.1 = { # 327 BC
+	holder = 231704 # Dumnorix of the Cotini
+}
+489.1.1 = { # 287 BC
+	holder = 231705 # Vercingetorix of the Cotini
 }

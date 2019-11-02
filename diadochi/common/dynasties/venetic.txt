@@ -12,3 +12,23 @@
 	name = "Catari"
 	culture = venetic
 }
+22004 = {
+	name = "Catali"
+	culture = venetic
+}
+22005 = {
+	name = "Secusses"
+	culture = venetic
+}
+22006 = {
+	name = "Histri"
+	culture = venetic
+}
+22007 = {
+	name = "Venetulani"
+	culture = venetic
+}
+22008 = {
+	name = "Lopsi"
+	culture = venetic
+}

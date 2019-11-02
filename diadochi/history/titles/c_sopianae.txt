@@ -1,14 +1,18 @@
-416.1.1 = { # 360 BC
-	holder = 140203
-	liege = d_sirmium
+392.1.1 = { # 384 BC
+	holder = 231801 # Cerethrius of the Hercuniates
 }
-430.1.1 = { # 346 BC
-	holder = 230403 # Eravisci
-	liege = 0
+393.1.1 = { # 383 BC
+	holder = 231802 # Vercassivellaunus of the Hercuniates
 }
-436.1.1 = { # 340
-	holder = 230402
+415.1.1 = { # 361 BC
+	holder = 231803 # Cotuatus of the Hercuniates
 }
-443.1.1 = { # 333 BC
-	holder = 230401 # Donnotaurus of the Eravisci tribe
+432.1.1 = { # 344 BC
+	holder = 231804 # Boduognatus of the Hercuniates
+}
+454.1.1 = { # 322 BC
+	holder = 231805 # Lucterius of the Hercuniates
+}
+482.1.1 = { # 294 BC
+	holder = 231806 # Iccius of the Hercuniates
 }

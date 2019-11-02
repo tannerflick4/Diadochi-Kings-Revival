@@ -1,6 +1,5 @@
 406.1.1 = { # 370 BC
 	holder = 231901 # Galba of the Taurisci
-	liege = d_ketion_oros
 }
 417.1.1 = { # 359 BC
 	holder = 231902 # Boduognatus of the Taurisci

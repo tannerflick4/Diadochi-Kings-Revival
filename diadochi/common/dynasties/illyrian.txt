@@ -18,7 +18,7 @@
 	culture = illyrian
 }
 14005 = {
-	name = "Iapydes"
+	name = "Messapii"
 	culture = illyrian
 }
 14006 = {
@@ -230,7 +230,7 @@
 	culture = illyrian
 }
 14058 = {
-	name = "Messapii"
+	name = "Iapydes"
 	culture = illyrian
 }
 14059 = {

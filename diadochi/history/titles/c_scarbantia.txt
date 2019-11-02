@@ -1,9 +1,16 @@
-403.1.1 = {
-	holder = 230503 # Azili
+406.1.1 = { # 370 BC
+	holder = 231901 # Galba of the Taurisci
+	liege = d_ketion_oros
 }
-441.1.1 = {
-	holder = 230501 # Intudiomaros of the Azili
+417.1.1 = { # 359 BC
+	holder = 231902 # Boduognatus of the Taurisci
 }
-455.1.1 = {
-	holder = 230502
+428.1.1 = { # 348 BC
+	holder = 231903 # Boduognatus of the Taurisci
+}
+448.1.1 = { # 328 BC
+	holder = 231904 # Cavarinus of the Taurisci
+}
+491.1.1 = { # 285 BC
+	holder = 231905 # Acco of the Taurisci
 }

@@ -1,5 +1,6 @@
 # 23001-24000 for gaul characters
 
+# Italian
 23001 = {
 	name = "Senones"
 	culture = gaul
@@ -9,37 +10,11 @@
 	culture = gaul
 }
 23003 = {
-	name = "Boii"
+	name = "Boii" # Italian
 	culture = gaul
 }
-23004 = {
-	name = "Norici"
-	culture = gaul
-}
-23005 = {
-	name = "Taurisci"
-	culture = gaul
-}
-23006 = {
-	name = "Eravisci"
-	culture = gaul
-}
-23007 = {
-	name = "Azili"
-	culture = gaul
-}
-23008 = {
-	name = "Breuci"
-	culture = gaul
-}
-23009 = {
-	name = "Scordisci"
-	culture = gaul
-}
-23010 = {
-	name = "Bastarnae"
-	culture = gaul
-}
+
+# Gaul
 23011 = {
 	name = "Saluvii"
 	culture = gaul
@@ -70,5 +45,99 @@
 }
 23018 = {
 	name = "Ambisontes"
+	culture = gaul
+}
+
+# Pannonian celtic tribes
+23004 = {
+	name = "Norici"
+	culture = gaul
+}
+23005 = {
+	name = "Taurisci"
+	culture = gaul
+}
+23006 = {
+	name = "Eravisci"
+	culture = gaul
+}
+23007 = {
+	name = "Azili"
+	culture = gaul
+}
+23008 = {
+	name = "Breuci"
+	culture = gaul
+}
+23009 = {
+	name = "Scordisci"
+	culture = gaul
+}
+23010 = {
+	name = "Bastarnae"
+	culture = gaul
+}
+23019 = {
+	name = "Arabiates"
+	culture = gaul
+}
+23020 = {
+	name = "Belgites"
+	culture = gaul
+}
+23021 = {
+	name = "Boii" # In Pannonia
+	culture = gaul
+}
+23022 = {
+	name = "Cornacates"
+	culture = gaul
+}
+23023 = {
+	name = "Cotini"
+	culture = gaul
+}
+23024 = {
+	name = "Celegeri"
+	culture = gaul
+}
+23025 = {
+	name = "Dindari"
+	culture = gaul
+}
+23026 = {
+	name = "Eravisci"
+	culture = gaul
+}
+23027 = {
+	name = "Hercuniates"
+	culture = gaul
+}
+23028 = {
+	name = "Latobici"
+	culture = gaul
+}
+23029 = {
+	name = "Posenoi"
+	culture = gaul
+}
+23030 = {
+	name = "Serretes"
+	culture = gaul
+}
+23031 = {
+	name = "Serrapilli"
+	culture = gaul
+}
+23032 = {
+	name = "Tricornenses"
+	culture = gaul
+}
+23033 = {
+	name = "Varciani"
+	culture = gaul
+}
+23034 = {
+	name = "Carni"
 	culture = gaul
 }
