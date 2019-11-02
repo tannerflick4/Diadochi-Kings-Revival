@@ -18,7 +18,3 @@ culture = illyrian
 religion = illyrian_main
 
 # History
-476.1.1 = { # 300 BC
-	culture = gaul
-	religion = celtic_main
-}

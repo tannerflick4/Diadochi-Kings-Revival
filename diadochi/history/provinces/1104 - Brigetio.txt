@@ -14,11 +14,5 @@ b_brigetio_brigetio = tribal
 #b_ad_statuas_brigetio = castle
 
 # Misc
-culture = illyrian
-religion = illyrian_main
-
-# History
-446.1.1 = { # 330 BC
-	culture = gaul
-	religion = celtic_main
-}
+culture = gaul
+religion = celtic_main

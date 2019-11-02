@@ -19,3 +19,7 @@ religion = thracian_main
 
 # History
 # Can be filled when things change around the province
+516.1.1 = { # 260 BC
+	culture = gaul
+	religion = celtic_main
+}

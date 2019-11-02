@@ -19,7 +19,7 @@ religion = illyrian_main
 
 # History
 # Can be filled when things change around the province
-490.1.1 = { # 286 BC
+491.1.1 = { # 285 BC
 	culture = gaul
 	religion = celtic_main
 }

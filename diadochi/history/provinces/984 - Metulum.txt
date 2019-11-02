@@ -14,7 +14,7 @@ b_metulum_metulum = tribal
 #b_epidotium_metulum = castle
 
 # Misc
-culture = venetic
+culture = illyrian
 religion = illyrian_main
 
 # History

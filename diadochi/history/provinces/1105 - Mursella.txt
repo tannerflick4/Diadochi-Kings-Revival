@@ -14,11 +14,5 @@ b_mursella_mursella = tribal
 b_cirpi_mursella = temple
 
 # Misc
-culture = illyrian
-religion = illyrian_main
-
-# History
-490.1.1 = { # 286 BC
-	culture = gaul
-	religion = celtic_main
-}
+culture = gaul
+religion = celtic_main

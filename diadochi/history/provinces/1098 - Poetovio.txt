@@ -14,7 +14,11 @@ b_brengova_poetovio = temple
 #b_grusena_poetovio = temple
 
 # Misc
-culture = gaul
-religion = celtic_main
+culture = illyrian
+religion = illyrian_main
 
 # History
+456.1.1 = { # 320 BC
+	culture = gaul
+	religion = celtic_main
+}
