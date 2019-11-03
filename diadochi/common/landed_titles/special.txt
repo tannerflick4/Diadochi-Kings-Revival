@@ -729,7 +729,7 @@ k_r_olbia = {
 }
 
 d_r_byzantion = {
-	color= { 150 75 25 }
+	color= { 117 86 23 }
 	color2= { 255 255 255 }
 	
 	capital = 45 # Byzantion

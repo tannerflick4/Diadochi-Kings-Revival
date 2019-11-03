@@ -329,12 +329,12 @@ k_odrysia = {
 	d_mikra_skythia = {
 		color= { 125 50 0 }
 		color2= { 255 255 255 }
+			
+		capital = 47 # Odessos
 		
 		c_odessos = {
-			color= { 125 40 10 }
+			color= { 102 31 16 }
 			color2= { 255 255 255 }
-			
-			capital = 47 # Odessos ?
 			
 			b_odessos_odessos = {
 			}
@@ -352,7 +352,7 @@ k_odrysia = {
 			}
 		}
 		c_histria = {
-			color= { 125 50 0 }
+			color= { 112 40 4 }
 			color2= { 255 255 255 }
 			
 			b_histria_histria = {
@@ -371,7 +371,7 @@ k_odrysia = {
 			}
 		}
 		c_durostorum = {
-			color= { 125 50 0 }
+			color= { 124 59 23 }
 			color2= { 255 255 255 }
 			
 			b_durostorum_durostorum = {
@@ -390,7 +390,7 @@ k_odrysia = {
 			}
 		}		
 		c_apollonia = {
-			color= { 115 30 20 }
+			color= { 145 45 31 }
 			color2= { 255 255 255 }
 			
 			b_apollonia_apollonia = {
@@ -407,7 +407,7 @@ k_odrysia = {
 			}
 		}
 		c_mesembria = {
-			color = { 110 160 211 }
+			color = { 96 40 10 }
 			color2 = { 255 255 255 }
 			
 			b_mesembria_mesembria = {
@@ -423,13 +423,13 @@ k_odrysia = {
 		}
 	}
 	d_odrysia = {
-		color= { 150 75 0 }
+		color= { 175 110 45 }
 		color2= { 255 255 255 }
 		
 		capital = 40 # Orestias/Edirne
 		
 		c_orestias = {
-			color= { 140 65 0 }
+			color= { 181 85 45 }
 			color2= { 255 255 255 }
 
 			holy_site = thracian_main
@@ -446,7 +446,7 @@ k_odrysia = {
 			}		
 		}
 		c_kabyle = {
-			color= { 165 70 0 }
+			color= { 145 91 48 }
 			color2= { 255 255 255 }
 		
 			b_kabyle_kabyle = {
@@ -465,7 +465,7 @@ k_odrysia = {
 			}
 		}
 		c_beroe = {
-			color= { 140 55 0 }
+			color= { 165 120 45 }
 			color2= { 255 255 255 }
 			
 			b_beroe_beroe = {
@@ -483,8 +483,189 @@ k_odrysia = {
 			b_opizas_beroe = {
 			}
 		}
+		c_bergoule = {
+			color= { 191 109 49 }
+			color2= { 255 255 255 }
+			
+			b_bergoule_bergoule = {
+			}
+			b_narco_bergoule = {
+			}
+			b_urisio_bergoule = {
+			}
+			b_burtudizon_bergoule = {
+			}
+			b_tarpodizo_bergoule = {
+			}
+			b_hadrianoupolis_bergoule = {
+			}
+			b_nike_bergoule = {
+			}
+		}
+		c_bizye = {
+			color= { 173 90 31 }
+			color2= { 255 255 255 }
+			
+			b_bizye_bizye = {
+			}
+			b_caenophrurium_bizye = {
+			}
+			b_beodizo_bizye = {
+			}
+			b_tzourouion_bizye = {
+			}
+			b_tipaso_bizye = {
+			}
+			b_drousipara_bizye = {
+			}
+			b_utsurgae_bizye = {
+			}
+		}
+	}
+	d_moesia = {
+		color= { 127 74 33 }
+		color2= { 255 255 255 }
+		
+		capital = 39 # Seuthopolis
+		
+		c_seuthopolis = {
+			color= { 119 64 38 }
+			color2= { 255 255 255 }
+
+			holy_site = thracian_main
+			
+			b_seuthopolis_seuthopolis = {
+			}
+			b_longinopara_seuthopolis = {
+			}
+			b_viamata_seuthopolis = {
+			}
+			b_diocletianopolis_seuthopolis = {
+			}
+			b_sostra_seuthopolis = {
+			}
+			b_melta_seuthopolis = {
+			}
+			b_doriones_seuthopolis = {
+			}
+		}
+		c_arbitus = {
+			color= { 147 71 44 }
+			color2= { 255 255 255 }
+			
+			b_arbitus_arbitus = {
+			}
+			b_iridava_arbitus = {
+			}
+			b_tegris_arbitus = {
+			}
+			b_appiaria_arbitus = {
+			}
+			b_transmarisca_arbitus = {
+			}
+			b_nigrinianis_arbitus = {
+			}
+			b_candidiana_arbitus = {
+			}
+		}		
+		c_montana = {
+			color= { 135 57 25 }
+			color2= { 255 255 255 }
+			
+			b_montana_montana = {
+			}
+			b_tautiomosis_montana = {
+			}
+			b_vorovum_montana = {
+			}
+			b_aedava_montana = {
+			}
+			b_variana_montana = {
+			}
+			b_pedonianis_montana = {
+			}
+			b_valeriana_montana = {
+			}
+		}
+		c_oescus = {
+			color = { 132 75 27 }
+			color2 = { 255 255 255 }
+			
+			b_oescus_oescus = {
+			}
+			b_utus_oescus = {
+			}
+			b_asamus_oescus = {
+			}
+			b_securisca_oescus = {
+			}
+			b_ad_putea_oescus = {
+			}
+			b_storgosia_oescus = {
+			}
+			b_giridava_oescus = {
+			}
+		}
+		c_novae = {
+			color = { 132 64 19 }
+			color2 = { 255 255 255 }
+			
+			b_novae_novae = {
+			}
+			b_dimum_novae = {
+			}
+			b_iatrus_novae = {
+			}
+			b_trimammium_novae = {
+			}
+			b_sexaginta_prista_novae = {
+			}
+			b_nicopolis_ad_istrum_novae = {
+			}
+		}
+	}
+	d_rhodope = {
+		color= { 145 91 29 }
+		color2= { 255 255 255 }
+		
+		capital = 41 # Maroneia
+		
+		c_oraion = {
+			color= { 124 47 37 }
+			color2= { 255 255 255 }
+						
+			b_oraion_oraion = {
+			}
+			b_topeiros_oraion = {
+			}
+			b_porsulae_oraion = {
+			}
+			b_anastasioupolis_oraion = {
+			}
+			b_kaliva_oraion = {
+			}
+			b_linos_oraion = {
+			}
+		}		
+		c_zervae = {
+			color= { 142 60 45 }
+			color2= { 255 255 255 }
+			
+			b_zervae_zervae = {
+			}
+			b_plotinoupolis_zervae = {
+			}
+			b_dymae_zervae = {
+			}
+			b_hadrianoupolis_zervae = {
+			}
+			b_doriskos_zervae = {
+			}
+			b_armira_zervae = {
+			}
+		}
 		c_philippopolis = {
-			color= { 150 75 0 }
+			color= { 153 69 41 }
 			color2= { 255 255 255 }
 			
 			macedonian = Philippopolis
@@ -506,7 +687,7 @@ k_odrysia = {
 			}
 		}
 		c_bourdepa = {
-			color= { 209 87 85 }
+			color= { 119 52 25 }
 			color2= { 255 255 255 }
 			
 			b_bourdepa_bourdepa = {
@@ -524,219 +705,6 @@ k_odrysia = {
 			b_subzupara_bourdepa = {
 			}
 		}
-		c_bergoule = {
-			color= { 165 38 70 }
-			color2= { 255 255 255 }
-			
-			b_bergoule_bergoule = {
-			}
-			b_narco_bergoule = {
-			}
-			b_urisio_bergoule = {
-			}
-			b_burtudizon_bergoule = {
-			}
-			b_tarpodizo_bergoule = {
-			}
-			b_hadrianoupolis_bergoule = {
-			}
-			b_nike_bergoule = {
-			}
-		}
-		c_bizye = {
-			color= { 74 133 168 }
-			color2= { 255 255 255 }
-			
-			b_bizye_bizye = {
-			}
-			b_caenophrurium_bizye = {
-			}
-			b_beodizo_bizye = {
-			}
-			b_tzourouion_bizye = {
-			}
-			b_tipaso_bizye = {
-			}
-			b_drousipara_bizye = {
-			}
-			b_utsurgae_bizye = {
-			}
-		}
-	}
-	d_moesia = {
-		color= { 150 75 25 }
-		color2= { 255 255 255 }
-		
-		capital = 39 # Seuthopolis
-		
-		c_seuthopolis = {
-			color= { 150 75 25 }
-			color2= { 255 255 255 }
-
-			holy_site = thracian_main
-			
-			b_seuthopolis_seuthopolis = {
-			}
-			b_longinopara_seuthopolis = {
-			}
-			b_viamata_seuthopolis = {
-			}
-			b_diocletianopolis_seuthopolis = {
-			}
-			b_sostra_seuthopolis = {
-			}
-			b_melta_seuthopolis = {
-			}
-			b_doriones_seuthopolis = {
-			}
-		}
-		c_arbitus = {
-			color= { 160 75 35 }
-			color2= { 255 255 255 }
-			
-			b_arbitus_arbitus = {
-			}
-			b_iridava_arbitus = {
-			}
-			b_tegris_arbitus = {
-			}
-			b_appiaria_arbitus = {
-			}
-			b_transmarisca_arbitus = {
-			}
-			b_nigrinianis_arbitus = {
-			}
-			b_candidiana_arbitus = {
-			}
-		}		
-		c_montana = {
-			color= { 140 65 25 }
-			color2= { 255 255 255 }
-			
-			b_montana_montana = {
-			}
-			b_tautiomosis_montana = {
-			}
-			b_vorovum_montana = {
-			}
-			b_aedava_montana = {
-			}
-			b_variana_montana = {
-			}
-			b_pedonianis_montana = {
-			}
-			b_valeriana_montana = {
-			}
-		}
-		c_oescus = {
-			color = { 133 136 163 }
-			color2 = { 255 255 255 }
-			
-			b_oescus_oescus = {
-			}
-			b_utus_oescus = {
-			}
-			b_asamus_oescus = {
-			}
-			b_securisca_oescus = {
-			}
-			b_ad_putea_oescus = {
-			}
-			b_storgosia_oescus = {
-			}
-			b_giridava_oescus = {
-			}
-		}
-		c_novae = {
-			color = { 149 165 84 }
-			color2 = { 255 255 255 }
-			
-			b_novae_novae = {
-			}
-			b_dimum_novae = {
-			}
-			b_iatrus_novae = {
-			}
-			b_trimammium_novae = {
-			}
-			b_sexaginta_prista_novae = {
-			}
-			b_nicopolis_ad_istrum_novae = {
-			}
-		}
-	}
-	d_rhodope = {
-		color= { 125 50 25 }
-		color2= { 255 255 255 }
-		
-		capital = 41 # Maroneia
-		
-		c_maroneia = {
-			color= { 125 50 25 }
-			color2= { 255 255 255 }
-			
-			b_maroneia_maroneia = {
-			}
-			b_mesembria_maroneia = {
-			}
-			b_drys_maroneia = {
-			}
-			b_zone_maroneia = {
-			}
-			b_sale_maroneia = {
-			}
-			b_traianoupolis_maroneia = {
-			}
-		}
-		c_abdera = {
-			color= { 125 40 35 }
-			color2= { 255 255 255 }
-			
-			b_abdera_abdera = {
-			}
-			b_bergepolis_abdera = {
-			}
-			b_dikaia_abdera = {
-			}
-			b_xantheia_abdera = {
-			}
-			b_stryme_abdera = {
-			}
-		}
-		c_oraion = {
-			color= { 105 55 30 }
-			color2= { 255 255 255 }
-						
-			b_oraion_oraion = {
-			}
-			b_topeiros_oraion = {
-			}
-			b_porsulae_oraion = {
-			}
-			b_anastasioupolis_oraion = {
-			}
-			b_kaliva_oraion = {
-			}
-			b_linos_oraion = {
-			}
-		}		
-		c_zervae = {
-			color= { 125 50 25 }
-			color2= { 255 255 255 }
-			
-			b_zervae_zervae = {
-			}
-			b_plotinoupolis_zervae = {
-			}
-			b_dymae_zervae = {
-			}
-			b_hadrianoupolis_zervae = {
-			}
-			b_doriskos_zervae = {
-			}
-			b_armira_zervae = {
-			}
-		}
 	}
 	d_pangaion = {
 		color = { 145 35 25 }
@@ -745,7 +713,7 @@ k_odrysia = {
 		capital = 36 # Amphipolis
 		
 		c_amphipolis = {
-			color= { 145 40 35 }
+			color= { 140 46 25 }
 			color2= { 255 255 255 }
 			
 			b_amphipolis_amphipolis = {
@@ -764,7 +732,7 @@ k_odrysia = {
 			}
 		}
 		c_thasos = {
-			color= { 115 35 55 }
+			color= { 145 22 36 }
 			color2= { 255 255 255 }
 			
 			b_thasos_thasos = {
@@ -774,27 +742,8 @@ k_odrysia = {
 			b_alyke_thasos = {
 			}
 		}
-		c_crenides = {
-			color= { 125 50 25 }
-			color2= { 255 255 255 }
-
-			b_skotoussa_crenides = {
-			}
-			b_sirra_crenides = {
-			}
-			b_oldenoi_crenides = {
-			}
-			b_tripolis_crenides = {
-			}
-			b_hadrianopolis_crenides = {
-			}
-			b_drabeskos_crenides = {
-			}
-			b_ad_duodecimum_crenides = {
-			}
-		}
 		c_neapolis_samothrace = {
-			color= { 107 68 83 }
+			color= { 142 59 29 }
 			color2= { 255 255 255 }
 			
 			macedonian = Philippoi
@@ -815,53 +764,47 @@ k_odrysia = {
 			b_antisara_neapolis_samothrace = {
 			}
 		}
-		c_scaptobara = {
-			color= { 107 98 40 }
+		c_maroneia = {
+			color= { 150 47 37 }
 			color2= { 255 255 255 }
-						
-			b_scaptobara_scaptobara = {
+			
+			b_maroneia_maroneia = {
 			}
-			b_sportela_scaptobara = {
+			b_mesembria_maroneia = {
 			}
-			b_neine_scaptobara = {
+			b_drys_maroneia = {
 			}
-			b_ciropolis_scaptobara = {
+			b_zone_maroneia = {
 			}
-			b_germania_scaptobara = {
+			b_sale_maroneia = {
 			}
-			b_debrene_scaptobara = {
-			}
-			b_orbelos_scaptobara = {
+			b_traianoupolis_maroneia = {
 			}
 		}
-		c_pistoros = {
-			color= { 185 80 206 }
+		c_abdera = {
+			color= { 158 72 41 }
 			color2= { 255 255 255 }
-						
-			b_pistoros_pistoros = {
+			
+			b_abdera_abdera = {
 			}
-			b_bessapara_pistoros = {
+			b_bergepolis_abdera = {
 			}
-			b_soneio_pistoros = {
+			b_dikaia_abdera = {
 			}
-			b_egerica_pistoros = {
+			b_xantheia_abdera = {
 			}
-			b_helice_pistoros = {
-			}
-			b_sparata_pistoros = {
-			}
-			b_nicopolis_ad_nestum_pistoros = {
+			b_stryme_abdera = {
 			}
 		}
 	}
 	d_propontis = {
-		color= { 150 75 25 }
+		color= { 99 62 19 }
 		color2= { 255 255 255 }
 		
 		capital = 44 # Perinthus
 	
 		c_perinthus = {
-			color= { 150 65 35 }
+			color= { 111 63 29 }
 			color2= { 255 255 255 }
 					
 			b_perinthus_perinthus = {
@@ -880,7 +823,7 @@ k_odrysia = {
 			}
 		}
 		c_byzantion = {
-			color= { 150 75 25 }
+			color= { 117 86 23 }
 			color2= { 255 255 255 }
 
 			holy_site = zalmoxism
@@ -902,7 +845,7 @@ k_odrysia = {
 			}
 		}
 		c_thracian_chersonese = {
-			color= { 140 85 15 }
+			color= { 99 52 19 }
 			color2= { 255 255 255 }
 
 			macedonian = Lysimacheia
@@ -924,7 +867,7 @@ k_odrysia = {
 			}
 		}
 		c_ainos = {
-			color= { 113 114 124 }
+			color= { 95 72 32 }
 			color2= { 255 255 255 }			
 			
 			b_ainos_ainos = {
@@ -940,6 +883,70 @@ k_odrysia = {
 			b_aphrodisias_ainos = {
 			}
 			b_neapolis_ainos = {
+			}
+		}
+	}
+	d_orbelos = {
+		color= { 99 53 31 }
+		color2= { 255 255 255 }
+
+		capital = 270 # Scaptobara
+
+		c_scaptobara = {
+			color= { 83 53 31 }
+			color2= { 255 255 255 }
+						
+			b_scaptobara_scaptobara = {
+			}
+			b_sportela_scaptobara = {
+			}
+			b_neine_scaptobara = {
+			}
+			b_ciropolis_scaptobara = {
+			}
+			b_germania_scaptobara = {
+			}
+			b_debrene_scaptobara = {
+			}
+			b_orbelos_scaptobara = {
+			}
+		}
+		c_pistoros = {
+			color= { 99 39 31 }
+			color2= { 255 255 255 }
+						
+			b_pistoros_pistoros = {
+			}
+			b_bessapara_pistoros = {
+			}
+			b_soneio_pistoros = {
+			}
+			b_egerica_pistoros = {
+			}
+			b_helice_pistoros = {
+			}
+			b_sparata_pistoros = {
+			}
+			b_nicopolis_ad_nestum_pistoros = {
+			}
+		}
+		c_crenides = {
+			color= { 99 53 50 }
+			color2= { 255 255 255 }
+
+			b_skotoussa_crenides = {
+			}
+			b_sirra_crenides = {
+			}
+			b_oldenoi_crenides = {
+			}
+			b_tripolis_crenides = {
+			}
+			b_hadrianopolis_crenides = {
+			}
+			b_drabeskos_crenides = {
+			}
+			b_ad_duodecimum_crenides = {
 			}
 		}
 	}
@@ -4247,13 +4254,13 @@ k_illyria = {
 	}
 	
 	d_dardania = {
-		color= { 25 255 125 }
+		color= { 197 219 72 }
 		color2= { 255 255 255 }
 
 		capital = 68 # Ulpiana
 		
 		c_scupi = {
-			color= { 25 215 135 }
+			color= { 192 207 78 }
 			color2= { 255 255 255 }
 			
 			b_scupi_scupi = {
@@ -4272,7 +4279,7 @@ k_illyria = {
 			}
 		}
 		c_naissus = {
-			color= { 35 255 115 }
+			color= { 187 216 216 }
 			color2= { 255 255 255 }
 			
 			b_naissus_naissus = {
@@ -4291,7 +4298,7 @@ k_illyria = {
 			}
 		}
 		c_ulpiana = {
-			color= { 25 255 125 }
+			color= { 192 225 65 }
 			color2= { 255 255 255 }
 			
 			b_ulpiana_ulpiana = {
@@ -4310,7 +4317,7 @@ k_illyria = {
 			}
 		}
 		c_hammeum = {
-			color={ 195 121 198 }
+			color={ 182 216 80 }
 			color2={ 255 255 255 }
 			
 			b_hammeum_hammeum = {
@@ -4330,13 +4337,13 @@ k_illyria = {
 		}
 	}
 	d_labeatis = {
-		color= { 25 255 100 }
+		color= { 192 196 88 }
 		color2= { 255 255 255 }
 
 		capital = 64 # Scodra
 
 		c_scodra = {
-			color= { 35 255 90 }
+			color= { 182 192 83 }
 			color2= { 255 255 255 }
 			
 			b_scodra_scodra = {
@@ -4355,7 +4362,7 @@ k_illyria = {
 			}
 		}
 		c_agruvium = {
-			color= { 196 66 75 }
+			color= { 184 186 87 }
 			color2= { 255 255 255 }
 			
 			b_agruvium_agruvium = {
@@ -4374,7 +4381,7 @@ k_illyria = {
 			}
 		}
 		c_epidaurum = {
-			color= { 25 245 110 }
+			color= { 190 200 98 }
 			color2= { 255 255 255 }
 			
 			b_epidaurum_epidaurum = {
@@ -4394,13 +4401,13 @@ k_illyria = {
 		}
 	}
 	d_alpes_illyrici = {
-		color= { 25 255 125 }
+		color= { 188 226 97 }
 		color2= { 255 255 255 }
 		
 		capital = 802 # Salinae
 
 		c_baloia = {
-			color= { 193 34 58 }
+			color= { 178 216 82 }
 			color2= { 255 255 255 }
 			
 			b_baloia_baloia = {
@@ -4419,7 +4426,7 @@ k_illyria = {
 			}
 		}
 		c_diluntum = {
-			color= { 26 23 196 }
+			color= { 199 224 96 }
 			color2= { 255 255 255 }
 			
 			b_diluntum_diluntum = {
@@ -4438,7 +4445,7 @@ k_illyria = {
 			}
 		}
 		c_malvesia = {
-			color= { 60 165 125 }
+			color= { 178 206 80 }
 			color2= { 255 255 255 }
 			
 			b_malvesia_malvesia = {
@@ -4453,7 +4460,7 @@ k_illyria = {
 			}
 		}
 		c_salinae = {
-			color= { 39 83 140 }
+			color= { 173 200 88 }
 			color2= { 255 255 255 }
 			
 			b_salinae_salinae = {
@@ -4473,13 +4480,13 @@ k_illyria = {
 		}
 	}
 	d_dalmatia = {
-		color= { 25 255 100 }
+		color= { 198 255 84 }
 		color2= { 255 255 255 }
 
 		capital = 400 # Salona
 		
 		c_pharos = {
-			color= { 35 245 100 }
+			color= { 188 237 132 }
 			color2= { 255 255 255 }
 			
 			b_pharos_pharos = {
@@ -4498,7 +4505,7 @@ k_illyria = {
 			}
 		}
 		c_salona = {
-			color= { 15 255 90 }
+			color= { 193 238 79 }
 			color2= { 255 255 255 }
 			
 			b_salona_salona = {
@@ -4517,7 +4524,7 @@ k_illyria = {
 			}
 		}
 		c_delminium = {
-			color= { 25 255 100 }
+			color= { 180 249 77 }
 			color2= { 255 255 255 }
 			
 			b_delminium_delminium = {
@@ -4536,7 +4543,7 @@ k_illyria = {
 			}
 		}
 		c_pelva = {
-			color= { 178 128 67 }
+			color= { 206 255 73 }
 			color2= { 255 255 255 }
 			
 			b_pelva_pelva = {
@@ -4555,7 +4562,7 @@ k_illyria = {
 			}
 		}
 		c_narona = {
-			color= { 193 34 58 }
+			color= { 193 242 79 }
 			color2= { 255 255 255 }
 			
 			b_narona_narona = {
@@ -4575,13 +4582,13 @@ k_illyria = {
 		}
 	}
 	d_triballia = {
-		color= { 25 225 125 }
+		color= { 229 255 124 }
 		color2= { 255 255 255 }
 
 		capital = 73 # Ratiaria
 		
 		c_ratiaria = {
-			color= { 35 215 125 }
+			color= { 238 255 114 }
 			color2= { 255 255 255 }
 			
 			holy_site = thracian_main
@@ -4602,7 +4609,7 @@ k_illyria = {
 			}
 		}
 		c_viminacium = {
-			color={ 140 29 29 }
+			color={ 218 242 113 }
 			color2={ 255 255 255 }
 			
 			b_viminacium_viminacium = {
@@ -4621,7 +4628,7 @@ k_illyria = {
 			}
 		}
 		c_romuliana = {
-			color={ 62 140 51 }
+			color={ 220 247 113 }
 			color2={ 255 255 255 }
 			
 			b_romuliana_romuliana = {
@@ -4640,7 +4647,7 @@ k_illyria = {
 			}
 		}
 		c_serdica = {			
-			color= { 35 190 100 }
+			color= { 239 244 124 }
 			color2= { 255 255 255 }			
 			
 			b_serdica_serdica = {
@@ -4660,13 +4667,13 @@ k_illyria = {
 		}
 	}
 	d_paeonia = {
-		color= { 25 200 100 }
+		color= { 239 196 40 }
 		color2= { 255 255 255 }
 
 		capital = 65 # Stobi
 	
 		c_paroikopolis = {
-			color= { 25 200 100 }
+			color= { 224 193 38 }
 			color2= { 255 255 255 }
 		
 			b_paroikopolis_paroikopolis = {
@@ -4685,7 +4692,7 @@ k_illyria = {
 			}
 		}
 		c_stobi = {
-			color= { 25 200 110 }
+			color= { 237 184 47 }
 			color2= { 255 255 255 }
 				
 			b_stobi_stobi = {
@@ -4704,7 +4711,7 @@ k_illyria = {
 			}
 		}
 		c_bylazora = {
-			color= { 84 74 107 }
+			color= { 228 207 40 }
 			color2= { 255 255 255 }
 				
 			b_bylazora_bylazora = {
@@ -4723,7 +4730,7 @@ k_illyria = {
 			}
 		}
 		c_uscana = {
-			color= { 104 38 35 }
+			color= { 221 179 21 }
 			color2= { 255 255 255 }
 			
 			b_uscana_uscana = {
@@ -4737,13 +4744,13 @@ k_illyria = {
 		}
 	}
 	d_epidamnia = {
-		color= { 50 255 125 }
+		color= { 226 207 59 }
 		color2= { 255 255 255 }
 
 		capital = 61 # Epidamnos
 	
 		c_epidamnos = {
-			color= { 50 255 125 }
+			color= { 224 197 60 }
 			color2= { 255 255 255 }
 
 			b_epidamnos_epidamnos = {
@@ -4760,7 +4767,7 @@ k_illyria = {
 			}
 		}
 		c_apollonia_epidamnia = {			
-			color= { 40 245 135 }
+			color= { 216 197 52 }
 			color2= { 255 255 255 }
 			
 			b_apollonia_apollonia_epidamnia = {
@@ -4777,7 +4784,7 @@ k_illyria = {
 			}
 		}
 		c_parthus = {
-			color= { 60 255 115 }
+			color= { 239 217 52 }
 			color2= { 255 255 255 }
 		
 			b_parthus_parthus = {
@@ -4792,7 +4799,7 @@ k_illyria = {
 			}
 		}
 		c_albanopolis = {
-			color= { 255 84 198 }
+			color= { 214 197 70 }
 			color2= { 255 255 255 }
 		
 			b_albanopolis_albanopolis = {
@@ -4813,11 +4820,11 @@ k_pannonia = {
 	color2= { 255 255 255 }
 	
 	d_liburnia = {
-		color= { 50 200 125 }
+		color= { 27 153 44 }
 		color2= { 255 255 255 }
 		
 		c_ortopla = {
-			color= { 50 190 115 }
+			color= { 41 165 58 }
 			color2= { 255 255 255 }
 			
 			b_ortopla_ortopla = {
@@ -4836,7 +4843,7 @@ k_pannonia = {
 			}
 		}
 		c_senia = {
-			color= { 60 200 135 }
+			color= { 19 140 35 }
 			color2= { 255 255 255 }
 			
 			b_senia_senia = {
@@ -4855,7 +4862,7 @@ k_pannonia = {
 			}
 		}
 		c_iader = {
-			color= { 50 200 125 }
+			color= { 29 163 40 }
 			color2= { 255 255 255 }
 			
 			b_iader_iader = {
@@ -4875,11 +4882,11 @@ k_pannonia = {
 		}
 	}
 	d_pelso = {
-		color= { 50 200 100 }
+		color= { 22 122 40 }
 		color2= { 255 255 255 }
 		
 		c_sala = {
-			color= { 50 190 90 }
+			color= { 28 119 56 }
 			color2= { 255 255 255 }
 			
 			b_sala_sala = {
@@ -4898,7 +4905,7 @@ k_pannonia = {
 			}
 		}
 		c_mursella = {
-			color= { 54 165 147 }
+			color= { 20 109 41 }
 			color2= { 255 255 255 }
 			
 			b_mursella_mursella = {
@@ -4917,7 +4924,7 @@ k_pannonia = {
 			}
 		}
 		c_brigetio = {
-			color= { 77 132 165 }
+			color= { 24 127 50 }
 			color2= { 255 255 255 }
 			
 			b_brigetio_brigetio = {
@@ -4936,7 +4943,7 @@ k_pannonia = {
 			}
 		}
 		c_mogentiana = {
-			color= { 126 58 165 }
+			color= { 24 127 41 }
 			color2= { 255 255 255 }
 			
 			b_mogentiana_mogentiana = {
@@ -4955,7 +4962,7 @@ k_pannonia = {
 			}
 		}
 		c_aquincum = {
-			color= { 112 41 76 }
+			color= { 21 112 36 }
 			color2= { 255 255 255 }
 			
 			b_aquincum_aquincum = {
@@ -4975,11 +4982,11 @@ k_pannonia = {
 		}
 	}
 	d_alpes_ferreae = {
-		color= { 50 175 100 }
+		color= { 25 142 29 }
 		color2= { 255 255 255 }
 		
 		c_segestica = {
-			color= { 50 175 100 }
+			color= { 32 147 30 }
 			color2= { 255 255 255 }
 			
 			b_segestica_segestica = {
@@ -4998,7 +5005,7 @@ k_pannonia = {
 			}
 		}
 		c_celeia = {
-			color= { 107 35 112 }
+			color= { 23 132 39 }
 			color2= { 255 255 255 }
 			
 			b_celeia_celeia = {
@@ -5017,7 +5024,7 @@ k_pannonia = {
 			}
 		}
 		c_neviodunum = {
-			color= { 64 114 79 }
+			color= { 27 159 31 }
 			color2= { 255 255 255 }
 			
 			b_neviodunum_neviodunum = {
@@ -5036,7 +5043,7 @@ k_pannonia = {
 			}
 		}
 		c_iovia = {
-			color= { 13 38 112 }
+			color= { 46 147 30 }
 			color2= { 255 255 255 }
 			
 			b_iovia_iovia = {
@@ -5055,7 +5062,7 @@ k_pannonia = {
 			}
 		}
 		c_metulum = {
-			color= { 32 24 178 }
+			color= { 25 136 38 }
 			color2= { 255 255 255 }
 			
 			b_metulum_metulum = {
@@ -5075,11 +5082,11 @@ k_pannonia = {
 		}
 	}
 	d_sirmium = {
-		color= { 50 175 125 }
+		color= { 26 147 40 }
 		color2= { 255 255 255 }
 		
 		c_sirmium = {
-			color= { 50 175 125 }
+			color= { 26 153 44 }
 			color2= { 255 255 255 }
 			
 			b_sirmium_sirmium = {
@@ -5098,7 +5105,7 @@ k_pannonia = {
 			}
 		}
 		c_singidunum = {
-			color= { 25 225 125 }
+			color= { 32 132 134 }
 			color2= { 255 255 255 }
 			
 			b_singidunum_singidunum = {
@@ -5117,7 +5124,7 @@ k_pannonia = {
 			}
 		}
 		c_domavium = {
-			color= { 39 83 140 }
+			color= { 20 152 32 }
 			color2= { 255 255 255 }
 			
 			b_domavium_domavium = {
@@ -5133,13 +5140,13 @@ k_pannonia = {
 		}
 	}
 	d_dravus = {
-		color= { 50 175 125 }
+		color= { 30 145 55 }
 		color2= { 255 255 255 }
 
 		capital = 387 # Cibalae
 
 		c_cibalae = {
-			color= { 40 175 115 }
+			color= { 48 147 61 }
 			color2= { 255 255 255 }
 			
 			b_cibalae_cibalae = {
@@ -5158,7 +5165,7 @@ k_pannonia = {
 			}
 		}
 		c_tricciana = {
-			color= { 50 200 100 }
+			color= { 42 153 65 }
 			color2= { 255 255 255 }
 			
 			b_tricciana_tricciana = {
@@ -5177,7 +5184,7 @@ k_pannonia = {
 			}
 		}
 		c_sopianae = {
-			color= { 60 190 100 }
+			color= { 48 149 58 }
 			color2= { 255 255 255 }
 			
 			b_sopianae_sopianae = {
@@ -5196,7 +5203,7 @@ k_pannonia = {
 			}
 		}
 		c_gorsium = {
-			color= { 107 109 39 }
+			color= { 32 135 47 }
 			color2= { 255 255 255 }
 			
 			b_gorsium_gorsium = {
@@ -5216,13 +5223,13 @@ k_pannonia = {
 		}
 	}
 	d_savus = {
-		color= { 50 175 125 }
+		color= { 29 165 61 }
 		color2= { 255 255 255 }
 
 		capital = 985 # Marsonia
 
 		c_splonum = {
-			color= { 50 165 90 }
+			color= { 33 163 53 }
 			color2= { 255 255 255 }
 			
 			b_splonum_splonum = {
@@ -5241,7 +5248,7 @@ k_pannonia = {
 			}
 		}
 		c_marsonia = {
-			color= { 255 109 225 }
+			color= { 27 153 60 }
 			color2= { 255 255 255 }
 			
 			b_marsonia_marsonia = {
@@ -5260,7 +5267,7 @@ k_pannonia = {
 			}
 		}
 		c_serota = {
-			color= { 68 71 117 }
+			color= { 27 160 67 }
 			color2= { 255 255 255 }
 			
 			b_serota_serota = {
@@ -5279,7 +5286,7 @@ k_pannonia = {
 			}
 		}
 		c_urbate = {
-			color= { 124 167 193 }
+			color= { 44 163 47 }
 			color2= { 255 255 255 }
 			
 			b_urbate_urbate = {
@@ -5312,7 +5319,7 @@ k_noricum = {
 		capital = 393 # Virunum
 		
 		c_emona = {
-			color= { 50 190 65 }
+			color= { 124 96 86 }
 			color2= { 255 255 255 }
 			
 			b_emona_emona = {
@@ -5331,7 +5338,7 @@ k_noricum = {
 			}
 		}
 		c_virunum = {
-			color= { 50 200 75 }
+			color= { 140 108 105 }
 			color2= { 255 255 255 }
 			
 			b_virunum_virunum = {
@@ -5350,7 +5357,7 @@ k_noricum = {
 			}
 		}
 		c_teurnia = {
-			color= { 132 65 147 }
+			color= { 139 110 101 }
 			color2= { 255 255 255 }
 			
 			b_teurnia_teurnia = {
@@ -5369,7 +5376,7 @@ k_noricum = {
 			}
 		}
 		c_poetovio = {
-			color= { 76 67 66 }
+			color= { 113 87 80 }
 			color2= { 255 255 255 }
 			
 			b_poetovio_poetovio = {
@@ -5395,7 +5402,7 @@ k_noricum = {
 		capital = 438 # Ovilava
 
 		c_ovilava = {
-			color= { 60 190 75 }
+			color= { 83 102 102 }
 			color2= { 255 255 255 }
 			
 			b_ovilava_ovilava = {
@@ -5414,7 +5421,7 @@ k_noricum = {
 			}
 		}
 		c_cetium = {
-			color= { 147 65 73 }
+			color= { 85 112 112 }
 			color2= { 255 255 255 }
 			
 			b_cetium_cetium = {
@@ -5433,7 +5440,7 @@ k_noricum = {
 			}
 		}
 		c_lauriacum = {
-			color= { 63 147 131 }
+			color= { 82 102 107 }
 			color2= { 255 255 255 }
 			
 			b_lauriacum_lauriacum = {
@@ -5459,7 +5466,7 @@ k_noricum = {
 		capital = 392 # Scarbantia
 
 		c_vindobona = {
-			color= { 75 147 147 }
+			color= { 90 95 81 }
 			color2= { 255 255 255 }
 			
 			b_vindobona_vindobona = {
@@ -5478,7 +5485,7 @@ k_noricum = {
 			}
 		}
 		c_savaria = {
-			color= { 63 29 76 }
+			color= { 101 114 99 }
 			color2= { 255 255 255 }
 			
 			b_savaria_savaria = {
@@ -5497,7 +5504,7 @@ k_noricum = {
 			}
 		}
 		c_scarbantia = {
-			color= { 40 200 90 }
+			color= { 85 95 79 }
 			color2= { 255 255 255 }
 			
 			b_scarbantia_scarbantia = {
