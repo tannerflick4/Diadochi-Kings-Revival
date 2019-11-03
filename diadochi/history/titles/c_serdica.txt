@@ -8,3 +8,7 @@
 459.1.1 = { # 317 BC
 	holder = 40303 # Triballi
 }
+466.1.1 = { # 310 BC
+	holder = 230704 # Molistomos
+	liege = k_tylis
+}

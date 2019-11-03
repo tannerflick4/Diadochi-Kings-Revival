@@ -5,6 +5,7 @@
 449.1.1 = { # 327 BC
 	holder = 140201 # Pleurias, king of the Autariatae
 }
-471.1.1 = {
-	holder = 140202
+466.1.1 = { # 310 BC
+	holder = 230704 # Molistomos
+	liege = k_tylis
 }
