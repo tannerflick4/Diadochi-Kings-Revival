@@ -1,0 +1,15 @@
+# 1059 - Narbo Martius
+
+# County Title
+title = c_narbo_martius
+
+# Settlements
+max_settlements = 6 # TODO
+b_narbo_martius_narbo_martius = tribal
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

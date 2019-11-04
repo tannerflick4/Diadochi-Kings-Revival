@@ -1,0 +1,15 @@
+# 1058 - Ruscino
+
+# County Title
+title = c_ruscino
+
+# Settlements
+max_settlements = 6 # TODO
+b_ruscino_ruscino = tribal
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

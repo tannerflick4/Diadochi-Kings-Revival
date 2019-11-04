@@ -1,0 +1,15 @@
+# 1181 - Boii
+
+# County Title
+title = c_boii
+
+# Settlements
+max_settlements = 6 # TODO
+b_boii_boii = tribal
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

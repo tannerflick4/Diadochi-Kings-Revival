@@ -1,0 +1,15 @@
+# 1180 - Aquae Terebellicae
+
+# County Title
+title = c_aquae_terebellicae
+
+# Settlements
+max_settlements = 6 # TODO
+b_aquae_terebellicae_aquae_terebellicae = tribal
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

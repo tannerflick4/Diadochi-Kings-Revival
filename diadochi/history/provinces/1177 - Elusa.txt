@@ -1,0 +1,15 @@
+# 1177 - Elusa
+
+# County Title
+title = c_elusa
+
+# Settlements
+max_settlements = 6 # TODO
+b_elusa_elusa = tribal
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

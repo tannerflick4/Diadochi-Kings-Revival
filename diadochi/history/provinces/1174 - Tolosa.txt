@@ -1,0 +1,15 @@
+# 1174 - Tolosa
+
+# County Title
+title = c_tolosa
+
+# Settlements
+max_settlements = 6 # TODO
+b_tolosa_tolosa = tribal
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

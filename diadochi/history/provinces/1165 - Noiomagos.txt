@@ -1,0 +1,15 @@
+# 1065 - Noiomagos
+
+# County Title
+title = c_noiomagos
+
+# Settlements
+max_settlements = 6 # TODO
+b_noiomagos_noiomagos = tribal
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

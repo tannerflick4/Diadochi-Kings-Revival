@@ -1,0 +1,15 @@
+# 1062 - Nemausus
+
+# County Title
+title = c_nemausus
+
+# Settlements
+max_settlements = 6 # TODO
+b_nemausus_nemausus = tribal
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

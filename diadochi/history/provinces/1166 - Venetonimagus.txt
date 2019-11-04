@@ -1,0 +1,15 @@
+# 1066 - Venetonimagus
+
+# County Title
+title = c_venetonimagus
+
+# Settlements
+max_settlements = 6 # TODO
+b_venetonimagus_venetonimagus = tribal
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

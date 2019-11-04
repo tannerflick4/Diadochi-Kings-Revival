@@ -1,0 +1,15 @@
+# 1061 - Lattara
+
+# County Title
+title = c_lattara
+
+# Settlements
+max_settlements = 6 # TODO
+b_lattara_lattara = tribal
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

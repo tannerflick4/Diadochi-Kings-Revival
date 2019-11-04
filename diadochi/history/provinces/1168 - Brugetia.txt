@@ -1,0 +1,15 @@
+# 1168 - Brugetia
+
+# County Title
+title = c_brugetia
+
+# Settlements
+max_settlements = 6 # TODO
+b_brugetia_brugetia = tribal
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

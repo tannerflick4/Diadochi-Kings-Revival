@@ -1,0 +1,15 @@
+# 1183 - Noulomagos
+
+# County Title
+title = c_noulomagos
+
+# Settlements
+max_settlements = 6 # TODO
+b_noulomagos_noulomagos = tribal
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

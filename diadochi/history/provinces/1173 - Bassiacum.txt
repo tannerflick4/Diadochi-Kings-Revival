@@ -1,0 +1,15 @@
+# 1173 - Bassiacum
+
+# County Title
+title = c_bassiacum
+
+# Settlements
+max_settlements = 6 # TODO
+b_bassiacum_bassiacum = tribal
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province
