@@ -1,0 +1,20 @@
+# 1117 - Potentia
+
+# County Title
+title = c_potentia
+
+# Settlements
+max_settlements = 6
+b_potentia_potentia = castle
+b_potentia1_potentia = city
+b_potentia2_potentia = temple
+#b_potentia3_potentia = castle
+#b_potentia4_potentia = city
+#b_potentia5_potentia = temple
+#b_potentia6_potentia = castle
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History

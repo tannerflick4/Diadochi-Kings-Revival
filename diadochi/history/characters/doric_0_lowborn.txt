@@ -1,7 +1,6 @@
 # 29901-30000 for the doric Lowborns
 29901 = {
 	name = "Doris" # Wife of Dionysius the Elder
-	dynasty = 0 # Lowborn	
 	religion = greek_main
 	culture = doric
 	female = yes
@@ -14,7 +13,7 @@
 }
 29902 = {
 	name = "Nysaios" # Tyrant of Syracuse
-	dynasty = 0 # Lowborn	
+	dynasty = 2049 # Lowborn but gave him a dynasty	
 	religion = greek_main
 	culture = doric
 	374.1.1 = { # 402 BC Made Up
@@ -26,7 +25,6 @@
 }
 29903 = {
 	name = "Pythia" # Pythia of Delphi
-	dynasty = 0 # Lowborn
 	religion = greek_main
 	culture = doric
 	

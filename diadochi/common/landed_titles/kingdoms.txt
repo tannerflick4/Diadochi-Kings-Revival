@@ -628,7 +628,7 @@ k_odrysia = {
 		color= { 145 91 29 }
 		color2= { 255 255 255 }
 		
-		capital = 41 # Maroneia
+		capital = 38 # Philippopolis
 		
 		c_oraion = {
 			color= { 124 47 37 }
@@ -1133,6 +1133,25 @@ k_magna_graecia = {
 			b_grumentum6_grumentum = {
 			}
 		}
+		c_potentia = {
+			color= { 221 221 70 }
+			color2= { 255 255 255 }
+			
+			b_potentia_potentia = {
+			}
+			b_potentia1_potentia = {
+			}
+			b_potentia2_potentia = {
+			}
+			b_potentia3_potentia = {
+			}
+			b_potentia4_potentia = {
+			}
+			b_potentia5_potentia = {
+			}
+			b_potentia6_potentia = {
+			}
+		}
 	}
 	d_apulia = {
 		color= { 75 200 200 }
@@ -1146,7 +1165,7 @@ k_magna_graecia = {
 			
 			b_metapontum_metapontum = {
 			}
-			b_barium_metapontum = {
+			b_metapontum1_metapontum = {
 			}
 			b_rubi_metapontum = {
 			}
@@ -1175,6 +1194,25 @@ k_magna_graecia = {
 			b_sipontum_arpi = {
 			}
 		}
+		c_barium = {
+			color= { 53 64 186 }
+			color2= { 255 255 255 }
+			
+			b_barium_barium = {
+			}
+			b_barium1_barium = {
+			}
+			b_barium2_barium = {
+			}
+			b_barium3_barium = {
+			}
+			b_barium4_barium = {
+			}
+			b_barium5_barium = {
+			}
+			b_barium6_barium = {
+			}
+		}
 	}
 	d_calabria = {
 		color= { 75 175 175 }
@@ -1196,6 +1234,25 @@ k_magna_graecia = {
 			b_brundisium = {
 			}
 			b_calipolis_brundisium = {
+			}
+		}
+		c_lupiae = {
+			color= { 219 37 195 }
+			color2= { 255 255 255 }
+			
+			b_lupiae_lupiae = {
+			}
+			b_lupiae1_lupiae = {
+			}
+			b_lupiae2_lupiae = {
+			}
+			b_lupiae3_lupiae = {
+			}
+			b_lupiae4_lupiae = {
+			}
+			b_lupiae5_lupiae = {
+			}
+			b_lupiae6_lupiae = {
 			}
 		}
 	}
@@ -2379,6 +2436,8 @@ k_egypt = {
 		color= { 225 200 25 }
 		color2= { 255 255 255 }
 		
+		capital = 139 # Alexandria
+		
 		c_tanis = {
 			color= { 225 190 15 }
 			color2= { 255 255 255 }
@@ -2400,10 +2459,10 @@ k_egypt = {
 			b_kalamine_tanis = {
 			}
 		}
-		
 		c_sebennytos = {
 			color= { 225 210 35 }
 			color2= { 255 255 255 }
+			
 			egyptian = Tjebnutjer
 			
 			b_sebennytos_sebennytos = {
@@ -2425,6 +2484,7 @@ k_egypt = {
 		c_bouto = {
 			color= { 215 200 15 }
 			color2= { 255 255 255 }
+			
 			egyptian = "Per Wadyat"
 			
 			b_bouto_bouto = {
@@ -2446,6 +2506,7 @@ k_egypt = {
 		c_canopus = {
 			color= { 225 210 35 }
 			color2= { 255 255 255 }
+			
 			egyptian = "Pikuat"
 			
 			b_canopus_canopus = {
@@ -2465,13 +2526,14 @@ k_egypt = {
 		c_alexandria = {
 			color= { 225 200 25 }
 			color2= { 255 255 255 }
+			
 			egyptian = "Ra Katit"
 			
 			b_alexandria_alexandria = {
 				egyptian = "Ra Katit"
 			}
 			b_mareia_alexandria = {
-			egyptian = Mrjt
+				egyptian = Mrjt
 			}
 			b_taposiris_megale_alexandria = {
 			}
@@ -2488,11 +2550,15 @@ k_egypt = {
 	d_memphis = {
 		color= { 225 200 0 }
 		color2= { 255 255 255 }
+		
 		egyptian = "Men Nefer"
-				
+		
+		capital = 141 # Memphis
+		
 		c_memphis = {
 			color= { 225 200 0 }
 			color2= { 255 255 255 }
+			
 			egyptian = "Men Nefer"
 
 			holy_site = kemetic
@@ -2515,6 +2581,7 @@ k_egypt = {
 		c_aphroditopolis = {
 			color= { 215 210 0 }
 			color2= { 255 255 255 }
+			
 			egyptian = "Tp-jhw"
 			
 			b_aphroditopolis_aphroditopolis = {
@@ -2533,16 +2600,17 @@ k_egypt = {
 		c_crocodilopolis = {
 			color= { 235 200 10 }
 			color2= { 255 255 255 }
+			
 			egyptian = "Shedyet"
 			
 			b_crocodilopolis_crocodilopolis = {
 				egyptian = "Shedyet"
 			}
 			b_haueris_crocodilopolis = {
-			egyptian = "Hwt-wrt"
+				egyptian = "Hwt-wrt"
 			}
 			b_heracleopolis_crocodilopolis = {
-			egyptian = "Henen-Nesut"
+				egyptian = "Henen-Nesut"
 			}
 			b_taleithis_crocodilopolis = {
 			}
@@ -2561,6 +2629,7 @@ k_egypt = {
 		c_oxyrhynchus = {
 			color= { 225 190 10 }
 			color2= { 255 255 255 }
+			
 			egyptian = "Per-Medjed"
 			
 			b_oxyrhynchus_oxyrhynchus = {
@@ -2578,6 +2647,7 @@ k_egypt = {
 		c_antinoopolis = {
 			color= { 215 180 0 }
 			color2= { 255 255 255 }
+			
 			egyptian = "Akhetaten"
 
 			holy_site = atenist
@@ -2589,12 +2659,13 @@ k_egypt = {
 			b_akhetaten_antinoopolis = {
 			}
 			b_alabastronpolis_antinoopolis = {
-			egyptian = "Hbnw"
+				egyptian = "Hbnw"
 			}
 		}
 		c_heliopolis = {
 			color= { 205 200 10 }
 			color2= { 255 255 255 }
+			
 			egyptian = "Iunu"
 			
 			b_heliopolis_heliopolis = {
@@ -2615,11 +2686,15 @@ k_egypt = {
 	d_lykopolis = {
 		color= { 225 225 0 }
 		color2= { 255 255 255 }
+		
 		egyptian = "Zawty"
+		
+		capital = 147 # Lykopolis
 		
 		c_lykopolis = {
 			color= { 225 225 0 }
 			color2= { 255 255 255 }
+			
 			egyptian = "Zawty"
 			
 			b_lykopolis_lykopolis = {
@@ -2636,6 +2711,7 @@ k_egypt = {
 		c_panopolis = {
 			color= { 215 225 10 }
 			color2= { 255 255 255 }
+			
 			egyptian = "Khent-Min"
 			
 			b_panopolis_panopolis = {
@@ -2652,6 +2728,7 @@ k_egypt = {
 		c_kaine = {
 			color= { 215 235 0 }
 			color2= { 255 255 255 }
+			
 			egyptian = "Gebtu"
 			
 			b_kaine_kaine = {
@@ -2677,6 +2754,7 @@ k_egypt = {
 		c_diospolis_mikra = {
 			color= { 235 225 10 }
 			color2= { 255 255 255 }
+			
 			egyptian = "Hut-Sekhem"
 			
 			holy_site = kemetic

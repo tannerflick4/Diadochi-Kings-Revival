@@ -216,3 +216,7 @@
 	name = "Mesembrioi"
 	culture = doric
 }
+2049 = { # placeholder to make sure Nysaios tyrant of Syracuse is not lowborn
+	name = "Nysaiosi"
+	culture = doric
+}
