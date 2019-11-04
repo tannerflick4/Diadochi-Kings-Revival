@@ -321,8 +321,8 @@ k_odrysia = {
 	allow = {
 		culture = thracian
 		liege = {
-			not = { has_landed_title = e_persia }
-			not = { has_landed_title = e_macedonia }
+			NOT = { has_landed_title = e_persia }
+			NOT = { has_landed_title = e_macedonia }
 		}
 	}	
 	
@@ -628,7 +628,7 @@ k_odrysia = {
 		color= { 145 91 29 }
 		color2= { 255 255 255 }
 		
-		capital = 41 # Maroneia
+		capital = 38 # Philippopolis
 		
 		c_oraion = {
 			color= { 124 47 37 }
@@ -1078,6 +1078,44 @@ k_magna_graecia = {
 			b_petelia_croton = {
 			}
 		}
+		c_locris = {
+			color= { 125 255 96 }
+			color2= { 255 255 255 }
+			
+			b_locris_locris = {
+			}
+			b_locris1_locris = {
+			}
+			b_locris2_locris = {
+			}
+			b_locris3_locris = {
+			}
+			b_locris4_locris = {
+			}
+			b_locris5_locris = {
+			}
+			b_locris6_locris = {
+			}
+		}
+		c_hipponion = {
+			color= { 125 255 96 }
+			color2= { 255 255 255 }
+			
+			b_hipponion_hipponion = {
+			}
+			b_hipponion1_hipponion = {
+			}
+			b_hipponion2_hipponion = {
+			}
+			b_hipponion3_hipponion = {
+			}
+			b_hipponion4_hipponion = {
+			}
+			b_hipponion5_hipponion = {
+			}
+			b_hipponion6_hipponion = {
+			}
+		}
 	}
 	d_lucania = {
 		color= { 75 150 255 }
@@ -1133,6 +1171,44 @@ k_magna_graecia = {
 			b_grumentum6_grumentum = {
 			}
 		}
+		c_potentia = {
+			color= { 221 221 70 }
+			color2= { 255 255 255 }
+			
+			b_potentia_potentia = {
+			}
+			b_potentia1_potentia = {
+			}
+			b_potentia2_potentia = {
+			}
+			b_potentia3_potentia = {
+			}
+			b_potentia4_potentia = {
+			}
+			b_potentia5_potentia = {
+			}
+			b_potentia6_potentia = {
+			}
+		}
+		c_caprasia = {
+			color= { 168 221 97 }
+			color2= { 255 255 255 }
+			
+			b_caprasia_caprasia = {
+			}
+			b_caprasia1_caprasia = {
+			}
+			b_caprasia2_caprasia = {
+			}
+			b_caprasia3_caprasia = {
+			}
+			b_caprasia4_caprasia = {
+			}
+			b_caprasia5_caprasia = {
+			}
+			b_caprasia6_caprasia = {
+			}
+		}
 	}
 	d_apulia = {
 		color= { 75 200 200 }
@@ -1146,7 +1222,7 @@ k_magna_graecia = {
 			
 			b_metapontum_metapontum = {
 			}
-			b_barium_metapontum = {
+			b_metapontum1_metapontum = {
 			}
 			b_rubi_metapontum = {
 			}
@@ -1175,6 +1251,25 @@ k_magna_graecia = {
 			b_sipontum_arpi = {
 			}
 		}
+		c_barium = {
+			color= { 53 64 186 }
+			color2= { 255 255 255 }
+			
+			b_barium_barium = {
+			}
+			b_barium1_barium = {
+			}
+			b_barium2_barium = {
+			}
+			b_barium3_barium = {
+			}
+			b_barium4_barium = {
+			}
+			b_barium5_barium = {
+			}
+			b_barium6_barium = {
+			}
+		}
 	}
 	d_calabria = {
 		color= { 75 175 175 }
@@ -1198,6 +1293,25 @@ k_magna_graecia = {
 			b_calipolis_brundisium = {
 			}
 		}
+		c_lupiae = {
+			color= { 219 37 195 }
+			color2= { 255 255 255 }
+			
+			b_lupiae_lupiae = {
+			}
+			b_lupiae1_lupiae = {
+			}
+			b_lupiae2_lupiae = {
+			}
+			b_lupiae3_lupiae = {
+			}
+			b_lupiae4_lupiae = {
+			}
+			b_lupiae5_lupiae = {
+			}
+			b_lupiae6_lupiae = {
+			}
+		}
 	}
 }
 k_lydia = {
@@ -1206,8 +1320,8 @@ k_lydia = {
 	
 	allow = {
 		liege = {
-			not = { has_landed_title = e_persia }
-			not = { has_landed_title = e_macedonia }
+			NOT = { has_landed_title = e_persia }
+			NOT = { has_landed_title = e_macedonia }
 		}
 	}
 	
@@ -2001,8 +2115,8 @@ k_cilicia = {
 	
 	allow = {
 		liege = {
-			not = { has_landed_title = e_persia }
-			not = { has_landed_title = e_macedonia }
+			NOT = { has_landed_title = e_persia }
+			NOT = { has_landed_title = e_macedonia }
 		}
 	}
         
@@ -2092,8 +2206,8 @@ k_cappadocia = {
 	allow = {
 		culture_group = anatolian_group
 		liege = {
-			not = { has_landed_title = e_persia }
-			not = { has_landed_title = e_macedonia }
+			NOT = { has_landed_title = e_persia }
+			NOT = { has_landed_title = e_macedonia }
 		}
 	}
 	
@@ -2370,14 +2484,16 @@ k_egypt = {
 	allow = {
 		culture_group = eastern_african
 		liege = {
-			not = { has_landed_title = e_persia }
-			not = { has_landed_title = e_macedonia }
+			NOT = { has_landed_title = e_persia }
+			NOT = { has_landed_title = e_macedonia }
 		}
 	}
 	
 	d_delta = {
 		color= { 225 200 25 }
 		color2= { 255 255 255 }
+		
+		capital = 139 # Alexandria
 		
 		c_tanis = {
 			color= { 225 190 15 }
@@ -2400,10 +2516,10 @@ k_egypt = {
 			b_kalamine_tanis = {
 			}
 		}
-		
 		c_sebennytos = {
 			color= { 225 210 35 }
 			color2= { 255 255 255 }
+			
 			egyptian = Tjebnutjer
 			
 			b_sebennytos_sebennytos = {
@@ -2425,6 +2541,7 @@ k_egypt = {
 		c_bouto = {
 			color= { 215 200 15 }
 			color2= { 255 255 255 }
+			
 			egyptian = "Per Wadyat"
 			
 			b_bouto_bouto = {
@@ -2446,6 +2563,7 @@ k_egypt = {
 		c_canopus = {
 			color= { 225 210 35 }
 			color2= { 255 255 255 }
+			
 			egyptian = "Pikuat"
 			
 			b_canopus_canopus = {
@@ -2465,13 +2583,14 @@ k_egypt = {
 		c_alexandria = {
 			color= { 225 200 25 }
 			color2= { 255 255 255 }
+			
 			egyptian = "Ra Katit"
 			
 			b_alexandria_alexandria = {
 				egyptian = "Ra Katit"
 			}
 			b_mareia_alexandria = {
-			egyptian = Mrjt
+				egyptian = Mrjt
 			}
 			b_taposiris_megale_alexandria = {
 			}
@@ -2488,11 +2607,15 @@ k_egypt = {
 	d_memphis = {
 		color= { 225 200 0 }
 		color2= { 255 255 255 }
+		
 		egyptian = "Men Nefer"
-				
+		
+		capital = 141 # Memphis
+		
 		c_memphis = {
 			color= { 225 200 0 }
 			color2= { 255 255 255 }
+			
 			egyptian = "Men Nefer"
 
 			holy_site = kemetic
@@ -2515,6 +2638,7 @@ k_egypt = {
 		c_aphroditopolis = {
 			color= { 215 210 0 }
 			color2= { 255 255 255 }
+			
 			egyptian = "Tp-jhw"
 			
 			b_aphroditopolis_aphroditopolis = {
@@ -2533,16 +2657,17 @@ k_egypt = {
 		c_crocodilopolis = {
 			color= { 235 200 10 }
 			color2= { 255 255 255 }
+			
 			egyptian = "Shedyet"
 			
 			b_crocodilopolis_crocodilopolis = {
 				egyptian = "Shedyet"
 			}
 			b_haueris_crocodilopolis = {
-			egyptian = "Hwt-wrt"
+				egyptian = "Hwt-wrt"
 			}
 			b_heracleopolis_crocodilopolis = {
-			egyptian = "Henen-Nesut"
+				egyptian = "Henen-Nesut"
 			}
 			b_taleithis_crocodilopolis = {
 			}
@@ -2561,6 +2686,7 @@ k_egypt = {
 		c_oxyrhynchus = {
 			color= { 225 190 10 }
 			color2= { 255 255 255 }
+			
 			egyptian = "Per-Medjed"
 			
 			b_oxyrhynchus_oxyrhynchus = {
@@ -2578,6 +2704,7 @@ k_egypt = {
 		c_antinoopolis = {
 			color= { 215 180 0 }
 			color2= { 255 255 255 }
+			
 			egyptian = "Akhetaten"
 
 			holy_site = atenist
@@ -2589,12 +2716,13 @@ k_egypt = {
 			b_akhetaten_antinoopolis = {
 			}
 			b_alabastronpolis_antinoopolis = {
-			egyptian = "Hbnw"
+				egyptian = "Hbnw"
 			}
 		}
 		c_heliopolis = {
 			color= { 205 200 10 }
 			color2= { 255 255 255 }
+			
 			egyptian = "Iunu"
 			
 			b_heliopolis_heliopolis = {
@@ -2615,11 +2743,15 @@ k_egypt = {
 	d_lykopolis = {
 		color= { 225 225 0 }
 		color2= { 255 255 255 }
+		
 		egyptian = "Zawty"
+		
+		capital = 147 # Lykopolis
 		
 		c_lykopolis = {
 			color= { 225 225 0 }
 			color2= { 255 255 255 }
+			
 			egyptian = "Zawty"
 			
 			b_lykopolis_lykopolis = {
@@ -2636,6 +2768,7 @@ k_egypt = {
 		c_panopolis = {
 			color= { 215 225 10 }
 			color2= { 255 255 255 }
+			
 			egyptian = "Khent-Min"
 			
 			b_panopolis_panopolis = {
@@ -2652,6 +2785,7 @@ k_egypt = {
 		c_kaine = {
 			color= { 215 235 0 }
 			color2= { 255 255 255 }
+			
 			egyptian = "Gebtu"
 			
 			b_kaine_kaine = {
@@ -2677,6 +2811,7 @@ k_egypt = {
 		c_diospolis_mikra = {
 			color= { 235 225 10 }
 			color2= { 255 255 255 }
+			
 			egyptian = "Hut-Sekhem"
 			
 			holy_site = kemetic
@@ -2708,11 +2843,15 @@ k_egypt = {
 	d_thebes = {
 		color= { 200 175 0 }
 		color2= { 255 255 255 }
+		
 		egyptian = "Waset"
+		
+		capital = 150 # Thebes
 		
 		c_thebes_egypt = {
 			color= { 200 175 0 }
 			color2= { 255 255 255 }
+			
 			egyptian = "Waset"
 
 			holy_site = kemetic
@@ -2737,6 +2876,7 @@ k_egypt = {
 		c_latopolis = {
 			color= { 200 165 10 }
 			color2= { 255 255 255 }
+			
 			egyptian = "Tasenet"
 
 			# TODO: Temporary. Find a better province.
@@ -2758,6 +2898,7 @@ k_egypt = {
 		c_syene = {
 			color= { 210 165 0 }
 			color2= { 255 255 255 }
+			
 			egyptian = "Swenett"
 
 			holy_site = kemetic
@@ -2788,6 +2929,7 @@ k_egypt = {
 		c_eileithiopolis = {
 			color= { 210 165 10 }
 			color2= { 255 255 255 }
+			
 			egyptian = "Nekheb"
 			
 			b_eileithiopolis_eileithiopolis = {
@@ -2802,6 +2944,8 @@ k_egypt = {
 	d_aigyptos_aktaios = {
 		color= { 225 175 0 }
 		color2= { 255 255 255 }
+		
+		capital = 159 # Paraetonium
 		
 		c_antiphrai = {
 			color= { 235 175 10 }
@@ -2858,6 +3002,8 @@ k_cyrene = {
 	d_cyrene = {
 		color= { 225 200 125 }
 		color2= { 255 255 255 }
+		
+		capital = 163 # Cyrene
 		
 		c_darnis = {
 			color= { 215 210 125 }
@@ -2925,14 +3071,16 @@ k_syria = {
 
 	allow = {
 		liege = {
-			not = { has_landed_title = e_persia }
-			not = { has_landed_title = e_macedonia }
+			NOT = { has_landed_title = e_persia }
+			NOT = { has_landed_title = e_macedonia }
 		}
 	}
 
 	d_syria = {
 		color= { 0 75 100 }
 		color2= { 255 255 255 }
+		
+		capital = 120 # Antiocheia
 
 		c_myriandos = {
 			color= { 10 65 100 }
@@ -3048,6 +3196,8 @@ k_syria = {
 	d_phoenicia = {
 		color= { 150 150 255 }
 		color2= { 255 255 255 }
+		
+		capital = 124 # Sidon
 
 		c_tripolis = {
 			color= { 140 160 255 }
@@ -3115,6 +3265,8 @@ k_syria = {
 	d_israel = {
 		color= { 150 175 225 }
 		color2= { 255 255 255 }
+		
+		capital = 127 # Samaria
 
 		c_apollonia_israel = {
 			color= { 140 165 225 }
@@ -3166,6 +3318,8 @@ k_syria = {
 	d_judea = {
 		color= { 150 175 255 }
 		color2= { 255 255 255 }
+		
+		capital = 130 # Jerusalem
 
 		c_gaza = {
 			color= { 140 185 255 }
@@ -3231,8 +3385,8 @@ k_assyria = {
 			culture = akkadian
 		}
 		liege = {
-			not = { has_landed_title = e_persia }
-			not = { has_landed_title = e_macedonia }
+			NOT = { has_landed_title = e_persia }
+			NOT = { has_landed_title = e_macedonia }
 		}
 	}
 
@@ -3241,6 +3395,8 @@ k_assyria = {
 	d_osroene = {
 		color= { 0 50 100 }
 		color2= { 255 255 255 }
+		
+		capital = 179 # Edessa
 		
 		c_edessa = {
 			color= { 0 50 100 }
@@ -3320,6 +3476,8 @@ k_assyria = {
 		color= { 0 75 125 }
 		color2= { 255 255 255 }
 		
+		capital = 184 # Terqa
+		
 		c_terqa = {
 			color= { 0 75 125 }
 			color2= { 255 255 255 }
@@ -3348,6 +3506,8 @@ k_assyria = {
 	d_ashur = {
 		color= { 0 50 125 }
 		color2= { 255 255 255 }
+		
+		capital = 191 # Nineveh
 	
 		c_pinaka = {
 			color= { 10 60 125 }
@@ -3448,8 +3608,8 @@ k_babylonia = {
 	allow = {
 		culture = akkadian
 		liege = {
-			not = { has_landed_title = e_persia }
-			not = { has_landed_title = e_macedonia }
+			NOT = { has_landed_title = e_persia }
+			NOT = { has_landed_title = e_macedonia }
 		}
 	}
 	
@@ -3618,8 +3778,8 @@ k_armenia = {
 			culture = albanian
 		}
 		liege = {
-			not = { has_landed_title = e_persia }
-			not = { has_landed_title = e_macedonia }
+			NOT = { has_landed_title = e_persia }
+			NOT = { has_landed_title = e_macedonia }
 		}
 	}
 	
@@ -4110,8 +4270,8 @@ k_macedon = {
 	allow = {
 		culture = macedonian
 		liege = {
-			not = { has_landed_title = e_persia }
-			not = { has_landed_title = e_macedonia }
+			NOT = { has_landed_title = e_persia }
+			NOT = { has_landed_title = e_macedonia }
 		}
 	}
     
@@ -5536,8 +5696,8 @@ k_greece = {
 			culture = ionian
 		}
 		liege = {
-			not = { has_landed_title = e_persia }
-			not = { has_landed_title = e_macedonia }
+			NOT = { has_landed_title = e_persia }
+			NOT = { has_landed_title = e_macedonia }
 		}
 	}
 	
@@ -6952,8 +7112,8 @@ k_cyprus = {
 	
 	allow = {
 		liege = {
-			not = { has_landed_title = e_persia }
-			not = { has_landed_title = e_macedonia }
+			NOT = { has_landed_title = e_persia }
+			NOT = { has_landed_title = e_macedonia }
 		}
 	}
 	
@@ -8677,8 +8837,8 @@ k_kush = {
 	allow = {
 		culture = nubian
 		liege = {
-			not = { has_landed_title = e_persia }
-			not = { has_landed_title = e_macedonia }
+			NOT = { has_landed_title = e_persia }
+			NOT = { has_landed_title = e_macedonia }
 		}
 	}
 	
@@ -9045,8 +9205,8 @@ k_maka = {
 			culture = arabic
 		}
 		liege = {
-			not = { has_landed_title = e_persia }
-			not = { has_landed_title = e_macedonia }
+			NOT = { has_landed_title = e_persia }
+			NOT = { has_landed_title = e_macedonia }
 		}
 	}
 	
@@ -10893,8 +11053,8 @@ k_israel = {
 	allow = {
 		culture = israelite
 		liege = {
-			not = { has_landed_title = e_persia }
-			not = { has_landed_title = e_macedonia }
+			NOT = { has_landed_title = e_persia }
+			NOT = { has_landed_title = e_macedonia }
 		}
 	}
 }

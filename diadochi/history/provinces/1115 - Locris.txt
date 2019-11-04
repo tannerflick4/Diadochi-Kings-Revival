@@ -1,0 +1,20 @@
+# 1115 - Locris
+
+# County Title
+title = c_locris
+
+# Settlements
+max_settlements = 6
+b_locris_locris = castle
+b_locris1_locris = city
+#b_locris2_locris = temple
+#b_locris3_locris = castle
+#b_locris4_locris = city
+#b_locris5_locris = temple
+#b_locris6_locris = castle
+
+# Misc
+culture = doric
+religion = greek_main
+
+# History

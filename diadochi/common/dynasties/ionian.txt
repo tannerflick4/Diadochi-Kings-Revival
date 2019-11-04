@@ -246,3 +246,7 @@
 	name = "Neapolitoi"
 	culture = ionian
 }
+5065 = { # placeholder to make sure Kalippos tyrant of Syracuse is not lowborn
+	name = "Kalipposioi"
+	culture = ionian
+}

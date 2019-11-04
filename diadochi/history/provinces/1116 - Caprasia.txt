@@ -1,0 +1,20 @@
+# 1116 - Caprasia
+
+# County Title
+title = c_caprasia
+
+# Settlements
+max_settlements = 6
+b_caprasia_caprasia = castle
+b_caprasia1_caprasia = city
+b_caprasia2_caprasia = temple
+#b_caprasia3_caprasia = castle
+#b_caprasia4_caprasia = city
+#b_caprasia5_caprasia = temple
+#b_caprasia6_caprasia = castle
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History
