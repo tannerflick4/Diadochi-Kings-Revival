@@ -1,0 +1,20 @@
+# 1114 - Hipponion
+
+# County Title
+title = c_hipponion
+
+# Settlements
+max_settlements = 6
+b_hipponion_hipponion = castle
+b_hipponion1_hipponion = city
+#b_hipponion2_hipponion = temple
+#b_hipponion3_hipponion = castle
+#b_hipponion4_hipponion = city
+#b_hipponion5_hipponion = temple
+#b_hipponion6_hipponion = castle
+
+# Misc
+culture = doric
+religion = greek_main
+
+# History
