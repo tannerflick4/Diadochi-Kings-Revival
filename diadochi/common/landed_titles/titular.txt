@@ -75,7 +75,7 @@ e_italia = {
 			culture_group = tyrhenian
 			culture_group = north_italic
 		}
-		NOT = {
+		NOR = {
 			culture = latin
 			has_landed_title = e_rome			
 			has_landed_title = k_rome
@@ -726,15 +726,6 @@ k_saurastra = {
 	color2= { 255 255 255 }
 	
 	capital = 285 # Automula
-}
-k_rome = {
-	color= { 125 0 0 }
-	color2= { 255 255 255 }
-	
-	capital = 324 # Roma
-	
-	title = "CONSUL"
-	short_name = yes
 }
 k_samnites = {
 	color= { 125 25 0 }

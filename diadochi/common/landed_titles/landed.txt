@@ -11163,6 +11163,63 @@ k_nabataea = {
 		}
 	}
 }
+k_rome = {
+	color= { 125 0 0 }
+	color2= { 255 255 255 }
+
+	capital = 324 # Roma
+
+	short_name = yes
+	d_latium = {
+		color= { 125 0 0 }
+		color2= { 255 255 255 }
+
+		c_terracina = {
+			color= { 135 10 0 }
+			color2= { 255 255 255 }
+
+			b_terracina_terracina = {
+			}
+			b_fundi_terracina = {
+			}
+			b_ausona_terracina = {
+			}
+		}
+		c_antium = {
+			color= { 125 10 10 }
+			color2= { 255 255 255 }
+
+			b_antium_antium = {
+			}
+			b_aphrodisium_antium = {
+			}
+			b_lanuvium_antium = {
+			}
+		}
+		c_roma = {
+			color= { 125 0 0 }
+			color2= { 255 255 255 }
+
+			holy_site = etruscan_main
+			holy_site = roman_main
+
+			b_capitoline_hill = {
+			}
+			b_caelian_hill = {
+			}
+			b_aventine_hill = {
+			}
+			b_esquiline_hill = {
+			}
+			b_palatine_hill = {
+			}
+			b_quirinal_hill = {
+			}
+			b_viminal_hill = {
+			}
+		}
+	}
+}
 k_italy = {
 	color= { 125 0 0 }
 	color2= { 255 255 255 }
@@ -11260,51 +11317,6 @@ k_italy = {
 			b_teate_sulmo = {
 			}
 			b_aufina_sulmo = {
-			}
-		}
-	}
-	d_latium = {
-		color= { 125 0 0 }
-		color2= { 255 255 255 }
-		
-		c_terracina = {
-			color= { 135 10 0 }
-			color2= { 255 255 255 }
-			
-			b_terracina_terracina = {
-			}
-			b_fundi_terracina = {
-			}
-			b_ausona_terracina = {
-			}
-		}
-		c_antium = {
-			color= { 125 10 10 }
-			color2= { 255 255 255 }
-			
-			b_antium_antium = {
-			}
-			b_aphrodisium_antium = {
-			}
-			b_lanuvium_antium = {
-			}
-		}
-		c_roma = {
-			color= { 125 0 0 }
-			color2= { 255 255 255 }
-				
-			holy_site = etruscan_main
-			holy_site = roman_main
-			
-			b_roma_roma = {
-			}
-			b_ostia_roma = {
-			}
-			b_vialaurentina_roma = {
-			}
-			b_aricia_roma = {
-			}
-			b_picana_roma = {
 			}
 		}
 	}
