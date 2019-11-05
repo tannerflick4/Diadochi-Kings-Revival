@@ -8217,49 +8217,6 @@ k_gallia = {
 		color= { 50 225 0 }
 		color2= { 255 255 255 }
 		
-		c_nice = {
-			color= { 60 215 0 }
-			color2= { 255 255 255 }
-			
-			b_nice_nice = {
-			}
-			b_heracles_monoikos_nice = {
-			}
-			b_antipolis_nice = {
-			}
-			b_navelis_nice = {
-			}
-		}
-		c_massilia = {
-			color= { 50 225 0 }
-			color2= { 255 255 255 }
-			
-			b_massilia_massilia = {
-			}
-			b_olbia_massilia = {
-			}
-			b_borma_massilia = {
-			}
-			b_taurois_massilia = {
-			}
-			b_citharista_massilia = {
-			}
-			b_carsicis_massilia = {
-			}
-		}
-		c_arelate = {
-			color= { 40 225 10 }
-			color2= { 255 255 255 }
-			
-			b_arelate_arelate = {
-			}
-			b_rhodanousia_arelate = {
-			}
-			b_tarusco_arelate = {
-			}
-			b_ugenum_arelate = {
-			}
-		}
 		c_aquae_sextae = {
 			color= { 50 235 10 }
 			color2= { 255 255 255 }
@@ -8299,11 +8256,13 @@ k_gallia = {
 			b_mustae_calmes_eburodunum = {
 			}
 		}
-	}
-	d_gallia_inter_fluvio = {
-		color= { 50 255 0 }
-		color2= { 255 255 255 }
-		
+		c_griselica = {
+			color= { 50 190 10 }
+			color2= { 255 255 255 }
+			
+			b_griselica_griselica = {
+			}
+		}
 		c_arausio = {
 			color= { 50 255 0 }
 			color2= { 255 255 255 }
@@ -8330,6 +8289,11 @@ k_gallia = {
 			b_noiomagos_segustero = {
 			}
 		}
+	}
+	d_gallia_inter_fluvio = {
+		color= { 50 255 0 }
+		color2= { 255 255 255 }
+		
 		c_valentia = {
 			color= { 60 255 10 }
 			color2= { 255 255 255 }
@@ -8354,6 +8318,34 @@ k_gallia = {
 			b_dea_vocontiorum_lucus = {
 			}
 			b_altonum_lucus = {
+			}
+		}
+		c_noiomagos = {
+			color= { 50 190 10 }
+			color2= { 255 255 255 }
+			
+			b_noiomagos_noiomagos = {
+			}
+		}
+		c_venetonimagus = {
+			color= { 50 190 10 }
+			color2= { 255 255 255 }
+			
+			b_venetonimagus_venetonimagus = {
+			}
+		}
+		c_vienne = {
+			color= { 50 190 10 }
+			color2= { 255 255 255 }
+			
+			b_vienne_vienne = {
+			}
+		}
+		c_alba_helviorum = {
+			color= { 50 190 10 }
+			color2= { 255 255 255 }
+			
+			b_alba_helviorum_alba_helviorum = {
 			}
 		}
 	}
@@ -8424,188 +8416,6 @@ k_gallia = {
 			b_larga_luxovium = {
 			}
 			b_basilia_luxovium = {
-			}
-		}
-		c_ruscino = {
-			color= { 50 190 10 }
-			color2= { 255 255 255 }
-			
-			b_ruscino_ruscino = {
-			}
-		}
-		c_narbo_martius = {
-			color= { 50 190 10 }
-			color2= { 255 255 255 }
-			
-			b_narbo_martius_narbo_martius = {
-			}
-		}
-		c_baeterrae = {
-			color= { 50 190 10 }
-			color2= { 255 255 255 }
-			
-			b_baeterrae_baeterrae = {
-			}
-		}
-		c_lattara = {
-			color= { 50 190 10 }
-			color2= { 255 255 255 }
-			
-			b_lattara_lattara = {
-			}
-		}
-		c_nemausus = {
-			color= { 50 190 10 }
-			color2= { 255 255 255 }
-			
-			b_nemausus_nemausus = {
-			}
-		}
-		c_pergantion = {
-			color= { 50 190 10 }
-			color2= { 255 255 255 }
-			
-			b_pergantion_pergantion = {
-			}
-		}
-		c_griselica = {
-			color= { 50 190 10 }
-			color2= { 255 255 255 }
-			
-			b_griselica_griselica = {
-			}
-		}
-		c_noiomagos = {
-			color= { 50 190 10 }
-			color2= { 255 255 255 }
-			
-			b_noiomagos_noiomagos = {
-			}
-		}
-		c_venetonimagus = {
-			color= { 50 190 10 }
-			color2= { 255 255 255 }
-			
-			b_venetonimagus_venetonimagus = {
-			}
-		}
-		c_vienne = {
-			color= { 50 190 10 }
-			color2= { 255 255 255 }
-			
-			b_vienne_vienne = {
-			}
-		}
-		c_brugetia = {
-			color= { 50 190 10 }
-			color2= { 255 255 255 }
-			
-			b_brugetia_brugetia = {
-			}
-		}
-		c_andusia = {
-			color= { 50 190 10 }
-			color2= { 255 255 255 }
-			
-			b_andusia_andusia = {
-			}
-		}
-		c_alba_helviorum = {
-			color= { 50 190 10 }
-			color2= { 255 255 255 }
-			
-			b_alba_helviorum_alba_helviorum = {
-			}
-		}
-		c_luteva = {
-			color= { 50 190 10 }
-			color2= { 255 255 255 }
-			
-			b_luteva_luteva = {
-			}
-		}
-		c_albiga = {
-			color= { 50 190 10 }
-			color2= { 255 255 255 }
-			
-			b_albiga_albiga = {
-			}
-		}
-		c_bassiacum = {
-			color= { 50 190 10 }
-			color2= { 255 255 255 }
-			
-			b_bassiacum_bassiacum = {
-			}
-		}
-		c_tolosa = {
-			color= { 50 190 10 }
-			color2= { 255 255 255 }
-			
-			b_tolosa_tolosa = {
-			}
-		}
-		c_elimberrum = {
-			color= { 50 190 10 }
-			color2= { 255 255 255 }
-			
-			b_elimberrum_elimberrum = {
-			}
-		}
-		c_tarba = {
-			color= { 50 190 10 }
-			color2= { 255 255 255 }
-			
-			b_tarba_tarba = {
-			}
-		}
-		c_elusa = {
-			color= { 50 190 10 }
-			color2= { 255 255 255 }
-			
-			b_elusa_elusa = {
-			}
-		}
-		c_benehardum = {
-			color= { 50 190 10 }
-			color2= { 255 255 255 }
-			
-			b_benehardum_benehardum = {
-			}
-		}
-		c_iluro = {
-			color= { 50 190 10 }
-			color2= { 255 255 255 }
-			
-			b_iluro_iluro = {
-			}
-		}
-		c_aquae_terebellicae = {
-			color= { 50 190 10 }
-			color2= { 255 255 255 }
-			
-			b_aquae_terebellicae_aquae_terebellicae = {
-			}
-		}
-		c_boii = {
-			color= { 50 190 10 }
-			color2= { 255 255 255 }
-			
-			b_boii_boii = {
-			}
-		}
-		c_burdigala = {
-			color= { 50 190 10 }
-			color2= { 255 255 255 }
-			
-			b_burdigala_burdigala = {
-			}
-		}
-		c_noulomagos = {
-			color= { 50 190 10 }
-			color2= { 255 255 255 }
-			
-			b_noulomagos_noulomagos = {
 			}
 		}
 	}
@@ -8824,6 +8634,219 @@ k_gallia = {
 			b_mastiacum_mastiacum = {
 			}
 			b_albianum_mastiacum = {
+			}
+		}
+	}
+	d_gallia_graecia = {
+		color={ 200 175 100 }
+		color2={ 255 255 255 }
+
+		c_nice = {
+			color= { 60 215 0 }
+			color2= { 255 255 255 }
+			
+			b_nice_nice = {
+			}
+			b_heracles_monoikos_nice = {
+			}
+			b_antipolis_nice = {
+			}
+			b_navelis_nice = {
+			}
+		}
+		c_massilia = {
+			color= { 50 225 0 }
+			color2= { 255 255 255 }
+			
+			b_massilia_massilia = {
+			}
+			b_olbia_massilia = {
+			}
+			b_borma_massilia = {
+			}
+			b_taurois_massilia = {
+			}
+			b_citharista_massilia = {
+			}
+			b_carsicis_massilia = {
+			}
+		}
+		c_arelate = {
+			color= { 40 225 10 }
+			color2= { 255 255 255 }
+			
+			b_arelate_arelate = {
+			}
+			b_rhodanousia_arelate = {
+			}
+			b_tarusco_arelate = {
+			}
+			b_ugenum_arelate = {
+			}
+		}
+		c_pergantion = {
+			color= { 50 190 10 }
+			color2= { 255 255 255 }
+			
+			b_pergantion_pergantion = {
+			}
+		}
+	}
+	d_setius = {
+		color={ 200 150 75 }
+		color2={ 255 255 255 }
+
+		c_baeterrae = {
+			color= { 50 190 10 }
+			color2= { 255 255 255 }
+			
+			b_baeterrae_baeterrae = {
+			}
+		}
+		c_lattara = {
+			color= { 50 190 10 }
+			color2= { 255 255 255 }
+			
+			b_lattara_lattara = {
+			}
+		}
+		c_nemausus = {
+			color= { 50 190 10 }
+			color2= { 255 255 255 }
+			
+			b_nemausus_nemausus = {
+			}
+		}
+		c_brugetia = {
+			color= { 50 190 10 }
+			color2= { 255 255 255 }
+			
+			b_brugetia_brugetia = {
+			}
+		}
+		c_andusia = {
+			color= { 50 190 10 }
+			color2= { 255 255 255 }
+			
+			b_andusia_andusia = {
+			}
+		}
+	}
+	d_tamis = {
+		color = { 79 138 51 }
+		color2={ 255 255 255 }
+
+		c_luteva = {
+			color= { 50 190 10 }
+			color2= { 255 255 255 }
+			
+			b_luteva_luteva = {
+			}
+		}
+		c_ruscino = {
+			color= { 50 190 10 }
+			color2= { 255 255 255 }
+			
+			b_ruscino_ruscino = {
+			}
+		}
+		c_narbo_martius = {
+			color= { 50 190 10 }
+			color2= { 255 255 255 }
+			
+			b_narbo_martius_narbo_martius = {
+			}
+		}
+		c_albiga = {
+			color= { 50 190 10 }
+			color2= { 255 255 255 }
+			
+			b_albiga_albiga = {
+			}
+		}
+		c_bassiacum = {
+			color= { 50 190 10 }
+			color2= { 255 255 255 }
+			
+			b_bassiacum_bassiacum = {
+			}
+		}
+		c_tolosa = {
+			color= { 50 190 10 }
+			color2= { 255 255 255 }
+			
+			b_tolosa_tolosa = {
+			}
+		}
+	}
+}
+k_aquitania = {
+	color={ 225 255 0 }
+	color2={ 255 255 255 }
+
+	d_garumna = {
+		color={ 225 255 0 }
+		color2={ 255 255 255 }
+
+		c_aquae_terebellicae = {
+			color= { 50 190 10 }
+			color2= { 255 255 255 }
+			
+			b_aquae_terebellicae_aquae_terebellicae = {
+			}
+		}
+		c_boii = {
+			color= { 50 190 10 }
+			color2= { 255 255 255 }
+			
+			b_boii_boii = {
+			}
+		}
+		c_burdigala = {
+			color= { 50 190 10 }
+			color2= { 255 255 255 }
+			
+			b_burdigala_burdigala = {
+			}
+		}
+		c_noulomagos = {
+			color= { 50 190 10 }
+			color2= { 255 255 255 }
+			
+			b_noulomagos_noulomagos = {
+			}
+		}
+	}
+	d_aturus = {
+		color={ 225 255 0 }
+		color2={ 255 255 255 }
+
+		c_elimberrum = {
+			color= { 50 190 10 }
+			color2= { 255 255 255 }
+			
+			b_elimberrum_elimberrum = {
+			}
+		}
+		c_tarba = {
+			color= { 50 190 10 }
+			color2= { 255 255 255 }
+			
+			b_tarba_tarba = {
+			}
+		}
+		c_elusa = {
+			color= { 50 190 10 }
+			color2= { 255 255 255 }
+			
+			b_elusa_elusa = {
+			}
+		}
+		c_benehardum = {
+			color= { 50 190 10 }
+			color2= { 255 255 255 }
+			
+			b_benehardum_benehardum = {
 			}
 		}
 	}
@@ -10214,6 +10237,13 @@ k_hispa = {
 			b_victoriacum_victoriacum = {
 			}
 			b_kalakorikos_victoriacum = {
+			}
+		}
+		c_iluro = {
+			color= { 50 190 10 }
+			color2= { 255 255 255 }
+			
+			b_iluro_iluro = {
 			}
 		}
 	}
