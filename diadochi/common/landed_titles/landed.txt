@@ -5633,15 +5633,6 @@ k_magna_graecia = {
 		
 		capital = 303 # Himera
 		
-		c_selinus = {
-			color= { 75 200 175 }
-			color2= { 255 255 255 }
-			
-			b_selinus = {
-			}
-			b_heraclea_selinus = {
-			}
-		}
 		c_himera = {
 			color= { 65 190 175 }
 			color2= { 255 255 255 }
@@ -5658,6 +5649,26 @@ k_magna_graecia = {
 			color2={ 255 255 255 }
 			
 			b_maleth_maleth = {
+			}
+		}
+		c_rhegium = {
+			color= { 65 140 225 }
+			color2= { 255 255 255 }
+			
+			b_rhegium = {
+			}
+			b_scyllaeum_rhegium = {
+			}
+			b_locri_rhegium = {
+			}
+		}
+		c_messana = {
+			color= { 75 165 235 }
+			color2= { 255 255 255 }
+			
+			b_messana = {			
+			}
+			b_tauromenium_messana = {
 			}
 		}
 	}
@@ -5697,13 +5708,13 @@ k_magna_graecia = {
 			b_agira = {
 			}
 		}
-		c_messana = {
-			color= { 75 165 235 }
+		c_selinus = {
+			color= { 75 200 175 }
 			color2= { 255 255 255 }
 			
-			b_messana = {			
+			b_selinus = {
 			}
-			b_tauromenium_messana = {
+			b_heraclea_selinus = {
 			}
 		}
 	}
@@ -5713,17 +5724,6 @@ k_magna_graecia = {
 		
 		capital = 309 # Terina
 		
-		c_rhegium = {
-			color= { 65 140 225 }
-			color2= { 255 255 255 }
-			
-			b_rhegium = {
-			}
-			b_scyllaeum_rhegium = {
-			}
-			b_locri_rhegium = {
-			}
-		}
 		c_terina = {
 			color= { 85 160 225 }
 			color2= { 255 255 255 }
@@ -5784,13 +5784,25 @@ k_magna_graecia = {
 			b_hipponion6_hipponion = {
 			}
 		}
-	}
-	d_lucania = {
-		color= { 75 150 255 }
-		color2= { 255 255 255 }
-		
-		capital = 313 # Elea
-		
+		c_caprasia = {
+			color= { 168 221 97 }
+			color2= { 255 255 255 }
+			
+			b_caprasia_caprasia = {
+			}
+			b_caprasia1_caprasia = {
+			}
+			b_caprasia2_caprasia = {
+			}
+			b_caprasia3_caprasia = {
+			}
+			b_caprasia4_caprasia = {
+			}
+			b_caprasia5_caprasia = {
+			}
+			b_caprasia6_caprasia = {
+			}
+		}
 		c_thurii = {
 			color= { 75 150 255 }
 			color2= { 255 255 255 }
@@ -5800,6 +5812,13 @@ k_magna_graecia = {
 			b_sybaris_thurii = {
 			}
 		}
+	}
+	d_lucania = {
+		color= { 75 150 255 }
+		color2= { 255 255 255 }
+		
+		capital = 313 # Elea
+		
 		c_heracleia_sicily = {
 			color= { 75 160 245 }
 			color2= { 255 255 255 }
@@ -5858,23 +5877,19 @@ k_magna_graecia = {
 			b_potentia6_potentia = {
 			}
 		}
-		c_caprasia = {
-			color= { 168 221 97 }
+		c_venusia = {
+			color= { 135 15 0 }
 			color2= { 255 255 255 }
 			
-			b_caprasia_caprasia = {
+			b_venusia_venusia = {
 			}
-			b_caprasia1_caprasia = {
+			b_strapellum_venusia = {
 			}
-			b_caprasia2_caprasia = {
+			b_bantia_venusia = {
 			}
-			b_caprasia3_caprasia = {
+			b_acherontia_venusia = {
 			}
-			b_caprasia4_caprasia = {
-			}
-			b_caprasia5_caprasia = {
-			}
-			b_caprasia6_caprasia = {
+			b_ferentium_venusia = {
 			}
 		}
 	}
@@ -5882,21 +5897,8 @@ k_magna_graecia = {
 		color= { 75 200 200 }
 		color2= { 255 255 255 }
 		
-		capital = 314 # Metapontum
+		capital = 1119 # Barium
 		
-		c_metapontum = {
-			color= { 75 190 210 }
-			color2= { 255 255 255 }
-			
-			b_metapontum_metapontum = {
-			}
-			b_metapontum1_metapontum = {
-			}
-			b_rubi_metapontum = {
-			}
-			b_norba_metapontum = {
-			}
-		}
 		c_salapia = {
 			color= { 65 210 200 }
 			color2= { 255 255 255 }
@@ -5943,7 +5945,7 @@ k_magna_graecia = {
 		color= { 75 175 175 }
 		color2= { 255 255 255 }
 		
-		capital = 318 # Brundisium
+		capital = 317 # Tarentum
 		
 		c_tarentum = {
 			color= { 75 175 175 }
@@ -5978,6 +5980,19 @@ k_magna_graecia = {
 			b_lupiae5_lupiae = {
 			}
 			b_lupiae6_lupiae = {
+			}
+		}
+		c_metapontum = {
+			color= { 75 190 210 }
+			color2= { 255 255 255 }
+			
+			b_metapontum_metapontum = {
+			}
+			b_metapontum1_metapontum = {
+			}
+			b_rubi_metapontum = {
+			}
+			b_norba_metapontum = {
 			}
 		}
 	}
@@ -11206,21 +11221,6 @@ k_italy = {
 		color= { 125 25 0 }
 		color2= { 255 255 255 }
 		
-		c_venusia = {
-			color= { 135 15 0 }
-			color2= { 255 255 255 }
-			
-			b_venusia_venusia = {
-			}
-			b_strapellum_venusia = {
-			}
-			b_bantia_venusia = {
-			}
-			b_acherontia_venusia = {
-			}
-			b_ferentium_venusia = {
-			}
-		}
 		c_beneventum = {
 			color= { 125 35 10 }
 			color2= { 255 255 255 }
