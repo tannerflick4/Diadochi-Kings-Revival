@@ -12897,19 +12897,6 @@ k_gallia = {
 		color= { 50 225 0 }
 		color2= { 255 255 255 }
 		
-		c_aquae_sextae = {
-			color= { 50 235 10 }
-			color2= { 255 255 255 }
-			
-			b_endremont_aquae_sextae = {
-			}
-			b_cabellio_aquae_sextae = {
-			}
-			b_glanum_aquae_sextae = {
-			}
-			b_aramo_aquae_sextae = {
-			}
-		}
 		c_eturamina = {
 			color= { 60 235 0 }
 			color2= { 255 255 255 }
@@ -13048,17 +13035,6 @@ k_gallia = {
 			b_ludna_lugdunum = {
 			}
 			b_lunna_lugdunum = {
-			}
-		}
-		c_cabilonnum = {
-			color= { 50 190 10 }
-			color2= { 255 255 255 }
-			
-			b_cabilonnum_cabilonnum = {
-			}
-			b_tinurtium_cabilonnum = {
-			}
-			b_pons_dubris_cabilonnum = {
 			}
 		}
 		c_andematunnum = {
