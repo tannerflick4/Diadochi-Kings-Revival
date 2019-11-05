@@ -4,8 +4,14 @@
 title = c_griselica
 
 # Settlements
-max_settlements = 6 # TODO
+max_settlements = 3
 b_griselica_griselica = tribal
+#b_alebaece_reiorum_apollinarium_griselica = temple
+#b_stablo_griselica = temple
+#b_dinia_griselica = castle
+#b_aquae_sextae_griselica = castle
+#b_anteae_griselica = city
+#b_matavo_griselica = castle
 
 # Misc
 culture = gaul

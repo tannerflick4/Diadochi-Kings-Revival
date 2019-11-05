@@ -6,9 +6,12 @@ title = c_cularo
 # Settlements
 max_settlements = 4
 b_cularo_cularo = tribal
-#b_mantala_cularo = castle
-#b_lemincum_cularo = city
-#b_labisco_cularo = temple
+#b_aquae_sextiae_cularo = city
+#b_voludnia_cularo = castle
+#b_lemincum_cularo = castle
+#b_albinnum_cularo = city
+#b_etanna_cularo = castle
+#b_boutae_cularo = city
 
 # Misc
 culture = gaul

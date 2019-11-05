@@ -4,14 +4,14 @@
 title = c_arausio
 
 # Settlements
-max_settlements = 5
+max_settlements = 4
 b_arausio_arausio = tribal
+#b_cabello_arausio = castle
+#b_apta_iulia_arausio = castle
 #b_avennio_arausio = city
-b_senomagos_arausio = temple
-#b_vasio_arausio = castle
-
-# Possible baronies: (Always add a # in front of a line with these!)
-# b_vindalium_arausio
+#b_carpentorate_arausio = city
+#b_tarusco_arausio = city
+b_cypresseta_arausio = temple
 
 # Misc
 culture = gaul

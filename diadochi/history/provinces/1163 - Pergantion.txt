@@ -4,12 +4,18 @@
 title = c_pergantion
 
 # Settlements
-max_settlements = 6 # TODO
-b_pergantion_pergantion = tribal
+max_settlements = 4
+b_pergantion_pergantion = castle
+#b_forum_iulii_pergantion = city
+b_athenopolis_pergantion = city
+b_heraclia_caccabaria_pergantion = city
+b_olbia_pergantion = temple
+#b_pomoniana_pergantion = city
+#b_borma_pergantion = castle
 
 # Misc
-culture = gaul
-religion = celtic_main
+culture = ionian
+religion = greek_main
 
 # History
 # Can be filled when things change around the province

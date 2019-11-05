@@ -1,0 +1,21 @@
+# 1167 - Vienna
+
+# County Title
+title = c_vienna
+
+# Settlements
+max_settlements = 4
+b_vienna_vienna = tribal
+#b_tegna_vienna = city
+#b_ursolis_vienna = temple
+#b_epaone_vienna = temple
+#b_figlinae_vienna = city
+#b_turedonnum_vienna = castle
+#b_octavus_vienna = castle
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

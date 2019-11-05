@@ -6,7 +6,7 @@ title = c_lugdunum
 # Settlements
 max_settlements = 6
 b_lugdunum_lugdunum = tribal
-b_vienne_lugdunum = temple
+b_vienna_lugdunum = temple
 #b_bergusium_lugdunum = castle
 #b_brioratis_lugdunum = city
 

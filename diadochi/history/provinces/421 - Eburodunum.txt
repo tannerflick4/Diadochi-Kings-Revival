@@ -6,11 +6,12 @@ title = c_eburodunum
 # Settlements
 max_settlements = 4
 b_eburodunum_eburodunum = tribal
-#b_sedena_eburodunum = city
+#b_rama_eburodunum = castle
+#b_vappincum_eburodunum = city
 #b_rigomagus_eburodunum = castle
-
-# Possible baronies: (Always add a # in front of a line with these!)
-# b_mustae_calmes_eburodunum
+#b_mustiae_calmes_eburodunum = castle
+#b_caturigomagus_eburodunum = city
+#b_ictodurus_eburodunum = city
 
 # Misc
 culture = gaul

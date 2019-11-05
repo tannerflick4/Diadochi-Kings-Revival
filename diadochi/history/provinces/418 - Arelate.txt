@@ -4,11 +4,14 @@
 title = c_arelate
 
 # Settlements
-max_settlements = 4
-b_arelate_arelate = tribal
-#b_rhodanousia_arelate = city
-#b_tarusco_arelate = city
-#b_ugenum_arelate = castle
+max_settlements = 3
+b_arelate_arelate = castle
+b_maritima_arelate = city
+#b_fossae_marianae_arelate = city
+#b_ugium_arelate = castle
+b_pisavi_arelate = city
+#b_tericiae_arelate = castle
+#b_dilis_arelate = temple
 
 # Misc
 culture = punic

@@ -12903,11 +12903,17 @@ k_gallia = {
 			
 			b_eturamina_eturamina = {
 			}
-			b_griselica_eturamina = {
-			}
 			b_sanitium_eturamina = {
 			}
 			b_salinae_eturamina = {
+			}
+			b_brigomagus_eturamina = {
+			}
+			b_glanate_eturamina = {
+			}
+			b_vintium_eturamina = {
+			}
+			b_cuntinus_eturamina = {
 			}
 		}
 		c_eburodunum = {
@@ -12916,11 +12922,17 @@ k_gallia = {
 			
 			b_eburodunum_eburodunum = {
 			}
-			b_sedena_eburodunum = {
+			b_rama_eburodunum = {
+			}
+			b_vappincum_eburodunum = {
 			}
 			b_rigomagus_eburodunum = {
 			}
-			b_mustae_calmes_eburodunum = {
+			b_mustiae_calmes_eburodunum = {
+			}
+			b_caturigomagus_eburodunum = {
+			}
+			b_ictodurus_eburodunum = {
 			}
 		}
 		c_griselica = {
@@ -12929,6 +12941,18 @@ k_gallia = {
 			
 			b_griselica_griselica = {
 			}
+			b_alebaece_reiorum_apollinarium_griselica = {
+			}
+			b_stablo_griselica = {
+			}
+			b_dinia_griselica = {
+			}
+			b_aquae_sextae_griselica = {
+			}
+			b_anteae_griselica = {
+			}
+			b_matavo_griselica = {
+			}
 		}
 		c_arausio = {
 			color= { 50 255 0 }
@@ -12936,13 +12960,17 @@ k_gallia = {
 			
 			b_arausio_arausio = {
 			}
+			b_cabello_arausio = {
+			}
+			b_apta_iulia_arausio = {
+			}
 			b_avennio_arausio = {
 			}
-			b_senomagos_arausio = {
+			b_carpentorate_arausio = {
 			}
-			b_vasio_arausio = {
+			b_tarusco_arausio = {
 			}
-			b_vindalium_arausio = {
+			b_cypresseta_arausio = {
 			}
 		}
 		c_segustero = {
@@ -12951,9 +12979,17 @@ k_gallia = {
 			
 			b_segustero_segustero = {
 			}
+			b_theopolis_segustero = {
+			}
+			b_catuiacia_segustero = {
+			}
+			b_alaunium_segustero = {
+			}
 			b_mons_seleucus_segustero = {
 			}
-			b_noiomagos_segustero = {
+			b_alabonte_segustero = {
+			}
+			b_cambonum_segustero = {
 			}
 		}
 	}
@@ -12967,11 +13003,17 @@ k_gallia = {
 			
 			b_valentia_valentia = {
 			}
-			b_soio_valentia = {
-			}
 			b_umbennum_valentia = {
 			}
-			b_abla_helviorum_valentia = {
+			b_augusta_valentia = {
+			}
+			b_darentiaca_valentia = {
+			}
+			b_dea_vocontiorum_valentia = {
+			}
+			b_lucus_augusti_valentia = {
+			}
+			b_vologatae_valentia = {
 			}
 		}
 		c_lucus = {
@@ -12993,6 +13035,18 @@ k_gallia = {
 			
 			b_noiomagos_noiomagos = {
 			}
+			b_vasio_noiomagos = {
+			}
+			b_augusta_tricastinorum_noiomagos = {
+			}
+			b_ad_letoce_noiomagos = {
+			}
+			b_senomagos_noiomagos = {
+			}
+			b_novem_craris_noiomagos = {
+			}
+			b_batiana_noiomagos = {
+			}
 		}
 		c_venetonimagus = {
 			color= { 50 190 10 }
@@ -13000,12 +13054,36 @@ k_gallia = {
 			
 			b_venetonimagus_venetonimagus = {
 			}
+			b_bebrone_venetonimagus = {
+			}
+			b_brioratis_venetonimagus = {
+			}
+			b_augusta_venetonimagus = {
+			}
+			b_bergusium_venetonimagus = {
+			}
+			b_morginnum_venetonimagus = {
+			}
+			b_labisco_venetonimagus = {
+			}
 		}
-		c_vienne = {
+		c_vienna = {
 			color= { 50 190 10 }
 			color2= { 255 255 255 }
 			
-			b_vienne_vienne = {
+			b_vienna_vienna = {
+			}
+			b_tegna_vienna = {
+			}
+			b_ursolis_vienna = {
+			}
+			b_epaone_vienna = {
+			}
+			b_figlinae_vienna = {
+			}
+			b_turedonnum_vienna = {
+			}
+			b_octavus_vienna = {
 			}
 		}
 		c_alba_helviorum = {
@@ -13013,6 +13091,18 @@ k_gallia = {
 			color2= { 255 255 255 }
 			
 			b_alba_helviorum_alba_helviorum = {
+			}
+			b_vallis_clara_alba_helviorum = {
+			}
+			b_bergiata_alba_helviorum = {
+			}
+			b_vivarium_alba_helviorum = {
+			}
+			b_soio_alba_helviorum = {
+			}
+			b_dourion_alba_helviorum = {
+			}
+			b_akousion_alba_helviorum = {
 			}
 		}
 	}
@@ -13026,7 +13116,7 @@ k_gallia = {
 			
 			b_lugdunum_lugdunum = {
 			}
-			b_vienne_lugdunum = {
+			b_vienna_lugdunum = {
 			}
 			b_bergusium_lugdunum = {
 			}
@@ -13113,11 +13203,17 @@ k_gallia = {
 			
 			b_cularo_cularo = {
 			}
-			b_mantala_cularo = {
+			b_aquae_sextiae_cularo = {
+			}
+			b_voludnia_cularo = {
 			}
 			b_lemincum_cularo = {
 			}
-			b_labisco_cularo = {
+			b_albinnum_cularo = {
+			}
+			b_etanna_cularo = {
+			}
+			b_boutae_cularo = {
 			}
 		}
 	}
@@ -13297,17 +13393,23 @@ k_gallia = {
 		color={ 200 175 100 }
 		color2={ 255 255 255 }
 
-		c_nice = {
+		c_antipolis = {
 			color= { 60 215 0 }
 			color2= { 255 255 255 }
 			
-			b_nice_nice = {
+			b_antipolis_antipolis = {
 			}
-			b_heracles_monoikos_nice = {
+			b_herakles_monoikos_antipolis = {
 			}
-			b_antipolis_nice = {
+			b_vergoanum_antipolis = {
 			}
-			b_navelis_nice = {
+			b_nicaea_antipolis = {
+			}
+			b_cemenelum_antipolis = {
+			}
+			b_navelis_antipolis = {
+			}
+			b_olivula_antipolis = {
 			}
 		}
 		c_massilia = {
@@ -13316,15 +13418,17 @@ k_gallia = {
 			
 			b_massilia_massilia = {
 			}
-			b_olbia_massilia = {
+			b_immadrae_massilia = {
 			}
-			b_borma_massilia = {
+			b_gargarius_massilia = {
 			}
-			b_taurois_massilia = {
+			b_carsicis_massilia = {
 			}
 			b_citharista_massilia = {
 			}
-			b_carsicis_massilia = {
+			b_taurois_massilia = {
+			}
+			b_aemines_massilia = {
 			}
 		}
 		c_arelate = {
@@ -13333,11 +13437,17 @@ k_gallia = {
 			
 			b_arelate_arelate = {
 			}
-			b_rhodanousia_arelate = {
+			b_maritima_arelate = {
 			}
-			b_tarusco_arelate = {
+			b_fossae_marianae_arelate = {
 			}
-			b_ugenum_arelate = {
+			b_ugium_arelate = {
+			}
+			b_pisavi_arelate = {
+			}
+			b_tericiae_arelate = {
+			}
+			b_dilis_arelate = {
 			}
 		}
 		c_pergantion = {
@@ -13345,6 +13455,18 @@ k_gallia = {
 			color2= { 255 255 255 }
 			
 			b_pergantion_pergantion = {
+			}
+			b_forum_iulii_pergantion = {
+			}
+			b_athenopolis_pergantion = {
+			}
+			b_heraclia_caccabaria_pergantion = {
+			}
+			b_olbia_pergantion = {
+			}
+			b_pomoniana_pergantion = {
+			}
+			b_borma_pergantion = {
 			}
 		}
 	}

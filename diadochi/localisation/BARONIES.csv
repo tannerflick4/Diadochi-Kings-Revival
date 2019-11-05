@@ -1765,46 +1765,68 @@ b_petrodava_cotnari;Petrodava;;;;;;;;;;;;;x;
 b_lunca_ciurei_cotnari;Lunca Ciurei;;;;;;;;;;;;;x;
 b_poroboridava_poroboridava;Poroboridava;;;;;;;;;;;;;x;
 b_poienesti_poroboridava;Poienesti;;;;;;;;;;;;;x;
-b_barbosi_poroboridava;Barbosi;;;;;;;;;;;;;x;
+b_barbosi_poroboridava;Barbosi;;;;;;;;;;;;;x;\
 b_birsesti_poroboridava;Birsesti;;;;;;;;;;;;;x;
-b_nice_nice;Nikaia;;;;;;;;;;;;;x;
-b_heracles_monoikos_nice;Herakles Monoikos;;;;;;;;;;;;;x;
-b_antipolis_nice;Antipolis;;;;;;;;;;;;;x;
-b_navelis_nice;Navelis;;;;;;;;;;;;;x;
+b_antipolis_antipolis;Antipolis;;;;;;;;;;;;;x;
+b_herakles_monoikos_antipolis;Herakles Monoikos;;;;;;;;;;;;;x;
+b_vergoanum_antipolis;Vergoanum;;;;;;;;;;;;;x;
+b_nicaea_antipolis;Nicaea;;;;;;;;;;;;;x;
+b_cemenelum_antipolis;Cemenelum;;;;;;;;;;;;;x;
+b_navelis_antipolis;Navelis;;;;;;;;;;;;;x;
+b_olivula_antipolis;Ovivula;;;;;;;;;;;;;x;
 b_massilia_massilia;Massalia;;;;;;;;;;;;;x;
-b_olbia_massilia;Olbia;;;;;;;;;;;;;x;
-b_borma_massilia;Borma;;;;;;;;;;;;;x;
-b_taurois_massilia;Taurois;;;;;;;;;;;;;x;
-b_citharista_massilia;Citharista;;;;;;;;;;;;;x;
+b_immadrae_massilia;Immadrae;;;;;;;;;;;;;x;
+b_gargarius_massilia;Gargarius;;;;;;;;;;;;;x;
 b_carsicis_massilia;Carsicis;;;;;;;;;;;;;x;
+b_citharista_massilia;Citharisa;;;;;;;;;;;;;x;
+b_taurois_massilia;Taurois;;;;;;;;;;;;;x;
+b_aemines_massilia;Aemines;;;;;;;;;;;;;x;
 b_arelate_arelate;Arelate;;;;;;;;;;;;;x;
-b_rhodanousia_arelate;Rhodanousia;;;;;;;;;;;;;x;
-b_tarusco_arelate;Tarusco;;;;;;;;;;;;;x;
-b_ugenum_arelate;Ugenum;;;;;;;;;;;;;x;
+b_maritima_arelate;Maritima;;;;;;;;;;;;;x;
+b_fossae_marianae_arelate;Fossae Marianae;;;;;;;;;;;;;x;
+b_ugium_arelate;Ugium;;;;;;;;;;;;;x;
+b_pisavi_arelate;Pisavi;;;;;;;;;;;;;x;
+b_tericiae_arelate;Tericiae;;;;;;;;;;;;;x;
+b_dilis_arelate;Dilis;;;;;;;;;;;;;x;
 b_endremont_aquae_sextae;Endremont;;;;;;;;;;;;;x;
 b_cabellio_aquae_sextae;Cabellio;;;;;;;;;;;;;x;
 b_glanum_aquae_sextae;Glanum;;;;;;;;;;;;;x;
 b_aramo_aquae_sextae;Aramo;;;;;;;;;;;;;x;
 b_eturamina_eturamina;Eturamina;;;;;;;;;;;;;x;
-b_griselica_eturamina;Griselica;;;;;;;;;;;;;x;
 b_sanitium_eturamina;Sanitium;;;;;;;;;;;;;x;
 b_salinae_eturamina;Salinae;;;;;;;;;;;;;x;
+b_brigomagus_eturamina;Brigomagus;;;;;;;;;;;;;x;
+b_glanate_eturamina;Glanate;;;;;;;;;;;;;x;
+b_vintium_eturamina;Vintium;;;;;;;;;;;;;x;
+b_cuntinus_eturamina;Cuntinus;;;;;;;;;;;;;x;
 b_eburodunum_eburodunum;Eburodunum;;;;;;;;;;;;;x;
-b_sedena_eburodunum;Sedena;;;;;;;;;;;;;x;
+b_rama_eburodunum;Rama;;;;;;;;;;;;;x;
+b_vappincum_eburodunum;Vappincum;;;;;;;;;;;;;x;
 b_rigomagus_eburodunum;Rigomagus;;;;;;;;;;;;;x;
-b_mustae_calmes_eburodunum;Mustae Calmes;;;;;;;;;;;;;x;
+b_mustiae_calmes_eburodunum;Mustiae Calmes;;;;;;;;;;;;;x;
+b_caturigomagus_eburodunum;Caturigomagus;;;;;;;;;;;;;x;
+b_ictodurus_eburodunum;Ictodurus;;;;;;;;;;;;;x;
 b_arausio_arausio;Arausio;;;;;;;;;;;;;x;
+b_cabello_arausio;Cabello;;;;;;;;;;;;;x;
+b_apta_iulia_arausio;Apta Iulia;;;;;;;;;;;;;x;
 b_avennio_arausio;Avennio;;;;;;;;;;;;;x;
-b_senomagos_arausio;Senomagos;;;;;;;;;;;;;x;
-b_vasio_arausio;Vasio;;;;;;;;;;;;;x;
-b_vindalium_arausio;Vindalium;;;;;;;;;;;;;x;
+b_carpentorate_arausio;Carpentorate;;;;;;;;;;;;;x;
+b_tarusco_arausio;Tarusco;;;;;;;;;;;;;x;
+b_cypresseta_arausio;Cypresseta;;;;;;;;;;;;;x;
 b_segustero_segustero;Segustero;;;;;;;;;;;;;x;
+b_theopolis_segustero;Theopolis;;;;;;;;;;;;;x;
+b_catuiacia_segustero;Catuiacia;;;;;;;;;;;;;x;
+b_alaunium_segustero;Alaunium;;;;;;;;;;;;;x;
 b_mons_seleucus_segustero;Mons Seleucus;;;;;;;;;;;;;x;
-b_noiomagos_segustero;Noiomagos;;;;;;;;;;;;;x;
+b_alabonte_segustero;Alabonte;;;;;;;;;;;;;x;
+b_cambonum_segustero;Cambonum;;;;;;;;;;;;;x;
 b_valentia_valentia;Valentia;;;;;;;;;;;;;x;
-b_soio_valentia;Soio;;;;;;;;;;;;;x;
 b_umbennum_valentia;Umbennum;;;;;;;;;;;;;x;
-b_abla_helviorum_valentia;Abla;;;;;;;;;;;;;x;
+b_augusta_valentia;Augusta;;;;;;;;;;;;;x;
+b_darentiaca_valentia;Darentiaca;;;;;;;;;;;;;x;
+b_dea_vocontiorum_valentia;Dea Vocontiorum;;;;;;;;;;;;;x;
+b_lucus_augusti_valentia;Lucus Augusti;;;;;;;;;;;;;x;
+b_vologatae_valentia;Vologatae;;;;;;;;;;;;;x;
 b_lucus_lucus;Lucus;;;;;;;;;;;;;x;
 b_vologatae_lucus;Vologatae;;;;;;;;;;;;;x;
 b_dea_vocontiorum_lucus;Dea Vocontiorum;;;;;;;;;;;;;x;
@@ -1814,7 +1836,7 @@ b_gaesao_brigantio;Brigantio;;;;;;;;;;;;;x;
 b_segusio_brigantio;Segusio;;;;;;;;;;;;;x;
 b_druantium_brigantio;Druantium;;;;;;;;;;;;;x;
 b_lugdunum_lugdunum;Lugudunon;;;;;;;;;;;;;x;
-b_vienne_lugdunum;Vienne;;;;;;;;;;;;;x;
+b_vienna_lugdunum;Vienna;;;;;;;;;;;;;x;
 b_bergusium_lugdunum;Bergusium;;;;;;;;;;;;;x;
 b_brioratis_lugdunum;Brioratis;;;;;;;;;;;;;x;
 b_ludna_lugdunum;Ludna;;;;;;;;;;;;;x;
@@ -2539,9 +2561,12 @@ b_pollentia_taurasia;Pollentia;;;;;;;;;;;;;x;
 b_pedona_taurasia;Pedona;;;;;;;;;;;;;x;
 b_carreum_potentia_taurasia;Carreum;;;;;;;;;;;;;x;
 b_cularo_cularo;Cularo;;;;;;;;;;;;;x;
-b_mantala_cularo;Mantala;;;;;;;;;;;;;x;
+b_aquae_sextiae_cularo;Aquae Sextiae;;;;;;;;;;;;;x;
+b_voludnia_cularo;Voludnia;;;;;;;;;;;;;x;
 b_lemincum_cularo;Lemincum;;;;;;;;;;;;;x;
-b_labisco_cularo;Labisco;;;;;;;;;;;;;x;
+b_albinnum_cularo;Albinnum;;;;;;;;;;;;;x;
+b_etanna_cularo;Etanna;;;;;;;;;;;;;x;
+b_boutae_cularo;Boutae;;;;;;;;;;;;;x;
 b_durotincum_durotincum;Durotincum;;;;;;;;;;;;;x;
 b_catorissium_durotincum;Catorissium;;;;;;;;;;;;;x;
 b_darantasia_darantasia;Darantasia;;;;;;;;;;;;;x;
@@ -3895,6 +3920,48 @@ b_korman_hammeum;Korman;;;;;;;;;;;x
 b_dunis_hammeum;Dunis;;;;;;;;;;;x
 b_celegorum_hammeum;Celegorum;;;;;;;;;;;x
 b_metalli_dardanici_hammeum;Metalli Dardanici;;;;;;;;;;;x
+b_pergantion_pergantion;Pergantion;;;;;;;;;;;x
+b_forum_iulii_pergantion;Forum Iulii;;;;;;;;;;;x
+b_athenopolis_pergantion;Athenopolis;;;;;;;;;;;x
+b_heraclia_caccabaria_pergantion;Heraclia Caccabaria;;;;;;;;;;;x
+b_olbia_pergantion;Olbia;;;;;;;;;;;x
+b_pomoniana_pergantion;Pomoniana;;;;;;;;;;;x
+b_borma_pergantion;Borma;;;;;;;;;;;x
+b_griselica_griselica;Griselica;;;;;;;;;;;x
+b_alebaece_reiorum_apollinarium_griselica;Alebaece Reiorum Apollinarium;;;;;;;;;;;x
+b_stablo_griselica;Stablo;;;;;;;;;;;x
+b_dinia_griselica;Dinia;;;;;;;;;;;x
+b_aquae_sextae_griselica;Aquae Sextae;;;;;;;;;;;x
+b_anteae_griselica;Anteae;;;;;;;;;;;x
+b_matavo_griselica;Matavo;;;;;;;;;;;x
+b_noiomagos_noiomagos;Noiomagos;;;;;;;;;;;x
+b_vasio_noiomagos;Vasio;;;;;;;;;;;x
+b_augusta_tricastinorum_noiomagos;Augusta Tricastinorum;;;;;;;;;;;x
+b_ad_letoce_noiomagos;Ad Letoce;;;;;;;;;;;x
+b_senomagos_noiomagos;Senomagos;;;;;;;;;;;x
+b_novem_craris_noiomagos;Novem Craris;;;;;;;;;;;x
+b_batiana_noiomagos;Batiana;;;;;;;;;;;x
+b_vienna_vienna;Vienna;;;;;;;;;;;x
+b_tegna_vienna;Tegna;;;;;;;;;;;x
+b_ursolis_vienna;Ursolis;;;;;;;;;;;x
+b_epaone_vienna;Epaone;;;;;;;;;;;x
+b_figlinae_vienna;Figlinae;;;;;;;;;;;x
+b_turedonnum_vienna;Turedonnum;;;;;;;;;;;x
+b_octavus_vienna;Octavus;;;;;;;;;;;x
+b_venetonimagus_venetonimagus;Venetonimagus;;;;;;;;;;;x
+b_bebrone_venetonimagus;Bebrone;;;;;;;;;;;x
+b_brioratis_venetonimagus;Brioratis;;;;;;;;;;;x
+b_augusta_venetonimagus;Augusta;;;;;;;;;;;x
+b_bergusium_venetonimagus;Bergusium;;;;;;;;;;;x
+b_morginnum_venetonimagus;Morginnum;;;;;;;;;;;x
+b_labisco_venetonimagus;Labisco;;;;;;;;;;;x
+b_alba_helviorum_alba_helviorum;Alba Helviorum;;;;;;;;;;;x
+b_vallis_clara_alba_helviorum;Vallis Clara;;;;;;;;;;;x
+b_bergiata_alba_helviorum;Bergiata;;;;;;;;;;;x
+b_vivarium_alba_helviorum;Vivarium;;;;;;;;;;;x
+b_soio_alba_helviorum;Soio;;;;;;;;;;;x
+b_dourion_alba_helviorum;Dourion;;;;;;;;;;;x
+b_akousion_alba_helviorum;Akousion;;;;;;;;;;;x
 b_grumentum_grumentum;Grumentum;;;;;;;;;;;x
 b_grumentum1_grumentum;Grumentum;;;;;;;;;;;x
 b_grumentum2_grumentum;Grumentum;;;;;;;;;;;x

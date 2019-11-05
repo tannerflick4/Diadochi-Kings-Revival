@@ -4,8 +4,14 @@
 title = c_noiomagos
 
 # Settlements
-max_settlements = 6 # TODO
+max_settlements = 4
 b_noiomagos_noiomagos = tribal
+#b_vasio_noiomagos = castle
+#b_augusta_tricastinorum_noiomagos = city
+#b_ad_letoce_noiomagos = city
+#b_senomagos_noiomagos = castle
+#b_novem_craris_noiomagos = castle
+#b_batiana_noiomagos = city
 
 # Misc
 culture = gaul
