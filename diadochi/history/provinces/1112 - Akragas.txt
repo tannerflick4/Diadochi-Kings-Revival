@@ -1,0 +1,22 @@
+# 1112 - Akragas
+
+# County Title
+title = c_akragas
+
+# Settlements
+max_settlements = 6
+b_akragas_akragas = castle
+b_akragas1_akragas = castle
+b_akragas2_akragas = city
+#b_akragas3_akragas = castle
+#b_akragas4_akragas = castle
+#b_akragas5_akragas = city
+#b_akragas6_akragas = castle
+
+# Misc
+culture = doric
+religion = greek_main
+
+# History
+439.1.1 = { b_akragas_akragas = city } # 337 BC
+459.1.1 = { b_akragas_akragas = castle } # 317 BC

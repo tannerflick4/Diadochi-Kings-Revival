@@ -5728,6 +5728,25 @@ k_magna_graecia = {
 			b_heraclea_selinus = {
 			}
 		}
+		c_akragas = {
+			color= { 143 161 193 }
+			color2= { 255 255 255 }
+			
+			b_akragas_akragas = {
+			}
+			b_akragas1_akragas = {
+			}
+			b_akragas2_akragas = {
+			}
+			b_akragas3_akragas = {
+			}
+			b_akragas4_akragas = {
+			}
+			b_akragas5_akragas = {
+			}
+			b_akragas6_akragas = {
+			}
+		}
 	}
 	d_bruttium = {
 		color= { 75 150 225 }
@@ -8937,6 +8956,8 @@ k_georgia = {
 	d_albania = {
 		color= { 125 0 125 }
 		color2= { 255 255 255 }
+		
+		capital = 230 # Sanina
 	
 		c_chabala = {
 			color= { 125 0 125 }
@@ -8994,6 +9015,8 @@ k_macedon = {
 	d_lowermacedon = {
 		color= { 200 100 50 }
 		color2= { 255 255 255 }
+		
+		capital = 34 # Pella
 			
 		c_pella = {
 			color= { 200 100 50 }
@@ -9059,6 +9082,8 @@ k_macedon = {
 	d_uppermacedon = {
 		color= { 200 100 25 }
 		color2= { 255 255 255 }
+		
+		capital = 59 # Lyncestis
 		
 		c_lyncestis = {
 			color= { 200 100 25 }
@@ -9126,6 +9151,8 @@ k_illyria = {
 	allow = {
 		culture_group = illyrian_group
 	}
+	
+	capital = 68 # Ulpiana
 	
 	d_dardania = {
 		color= { 197 219 72 }
@@ -9693,9 +9720,13 @@ k_pannonia = {
 	color= { 24 135 39 }
 	color2= { 255 255 255 }
 	
+	capital = 386 # Sirmium
+	
 	d_liburnia = {
 		color= { 27 153 44 }
 		color2= { 255 255 255 }
+		
+		capital = 398 # Ortopla
 		
 		c_ortopla = {
 			color= { 41 165 58 }
@@ -9758,6 +9789,8 @@ k_pannonia = {
 	d_pelso = {
 		color= { 22 122 40 }
 		color2= { 255 255 255 }
+		
+		capital = 74 # Sala
 		
 		c_sala = {
 			color= { 28 119 56 }
@@ -9859,6 +9892,8 @@ k_pannonia = {
 		color= { 25 142 29 }
 		color2= { 255 255 255 }
 		
+		capital = 395 # Segestica
+		
 		c_segestica = {
 			color= { 32 147 30 }
 			color2= { 255 255 255 }
@@ -9958,6 +9993,8 @@ k_pannonia = {
 	d_sirmium = {
 		color= { 26 147 40 }
 		color2= { 255 255 255 }
+		
+		capital = 386 # Sirmium
 		
 		c_sirmium = {
 			color= { 26 153 44 }
