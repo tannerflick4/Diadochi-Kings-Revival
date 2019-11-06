@@ -5644,13 +5644,6 @@ k_magna_graecia = {
 			b_calacte_himera = {
 			}
 		}
-		c_maleth = {
-			color={ 116 190 175 }
-			color2={ 255 255 255 }
-			
-			b_maleth_maleth = {
-			}
-		}
 		c_rhegium = {
 			color= { 65 140 225 }
 			color2= { 255 255 255 }
@@ -5671,8 +5664,26 @@ k_magna_graecia = {
 			b_tauromenium_messana = {
 			}
 		}
+		c_tyndaris = {
+			color= { 159 191 78 }
+			color2= { 255 255 255 }
+			
+			b_tyndaris_tyndaris = {
+			}
+			b_tyndaris1_tyndaris = {
+			}
+			b_tyndaris2_tyndaris = {
+			}
+			b_tyndaris3_tyndaris = {
+			}
+			b_tyndaris4_tyndaris = {
+			}
+			b_tyndaris5_tyndaris = {
+			}
+			b_tyndaris6_tyndaris = {
+			}
+		}
 	}
-	
 	d_sicels = {
 		color= { 75 175 225 }
 		color2= { 255 255 255 }
@@ -8300,6 +8311,8 @@ k_babylonia = {
 		color= { 0 50 225 }
 		color2= { 255 255 255 }
 		
+		capital = 195 # Babylon
+		
 		c_maskin = {
 			color= { 10 40 225 }
 			color2= { 255 255 255 }
@@ -8370,6 +8383,8 @@ k_babylonia = {
 	d_sumer = {
 		color= { 0 25 175 }
 		color2= { 255 255 255 }
+		
+		capital = 200 # Charax
 	
 		c_marad = {
 			color= { 10 15 175 }
@@ -8470,6 +8485,8 @@ k_armenia = {
 		color= { 200 25 50 }
 		color2= { 255 255 255 }
 		
+		capital = 203 # Melitene
+		
 		c_melitene = {
 			color= { 200 25 50 }
 			color2= { 255 255 255 }
@@ -8531,6 +8548,8 @@ k_armenia = {
 		color= { 200 25 75 }
 		color2= { 255 255 255 }
 		
+		capital = 214 # Karin
+		
 		c_ani_kamah = {
 			color= { 200 25 75 }
 			color2= { 255 255 255 }
@@ -8576,6 +8595,8 @@ k_armenia = {
 	d_sophene = {
 		color= { 175 0 50 }
 		color2= { 255 255 255 }
+		
+		capital = 210 # Tigranocerta
 		
 		c_arsamosata = {
 			color= { 165 10 50 }
@@ -8627,6 +8648,8 @@ k_armenia = {
 		color= { 150 0 50 }
 		color2= { 255 255 255 }
 		
+		capital = 212 # Thospia
+		
 		c_zoaranda = {
 			color= { 140 10 50 }
 			color2= { 255 255 255 }
@@ -8672,6 +8695,8 @@ k_armenia = {
 	d_armenia_main = {
 		color= { 200 0 50 }
 		color2= { 255 255 255 }
+		
+		capital = 218 # Armavir
 		
 		c_eruandakert = {
 			color= { 200 10 40 }
@@ -8733,6 +8758,8 @@ k_armenia = {
 	d_commagene = {
 		color= { 150 25 50 }
 		color2= { 255 255 255 }
+		
+		capital = 201 # Samosata
 	
 		c_samosata = {
 			color= { 150 25 50 }
@@ -8780,6 +8807,8 @@ k_georgia = {
 	d_iberia = {
 		color= { 100 0 100 }
 		color2= { 255 255 255 }
+		
+		capital = 223 # Mtskheta
 		
 		c_harmozike = {
 			color= { 110 10 100 }
@@ -8843,6 +8872,8 @@ k_georgia = {
 	d_colchis = {
 		color= { 100 25 100 }
 		color2= { 255 255 255 }
+		
+		capital = 227 # Kotais
 	
 		c_apsaros = {
 			color= { 110 15 100 }
@@ -11882,6 +11913,13 @@ k_carthage = {
 			b_drepanum_lilybaeum = {
 			}
 			b_eryx_lilybaeum = {
+			}
+		}
+		c_maleth = {
+			color={ 116 190 175 }
+			color2={ 255 255 255 }
+			
+			b_maleth_maleth = {
 			}
 		}
 	}

@@ -1,0 +1,20 @@
+# 1113 - Tyndaris
+
+# County Title
+title = c_tyndaris
+
+# Settlements
+max_settlements = 6
+b_tyndaris_tyndaris = castle
+b_tyndaris1_tyndaris = city
+b_tyndaris2_tyndaris = temple
+#b_tyndaris3_tyndaris = castle
+#b_tyndaris4_tyndaris = city
+#b_tyndaris5_tyndaris = temple
+#b_tyndaris6_tyndaris = castle
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History
