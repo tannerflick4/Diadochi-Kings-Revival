@@ -1,0 +1,178 @@
+de_jure_laws = {
+	slavery_0 = { #No Slavery
+		show_as_title = yes
+		group = slavery
+		default = yes
+
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					has_law = slavery_1
+					has_law = slavery_2
+					has_law = slavery_3
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				holder_scope = { 
+					trait = trait_slaver
+				}
+			}
+		}
+		pass_effect = {
+			hidden_effect = {
+				any_vassal = {
+					limit = {
+						has_any_opinion_modifier = opinion_slave
+					}
+					opinion = { who = ROOT modifier = opinion_slaves_freed }
+					character_event = {
+						id = slavery_mt_events.3
+					}
+				}
+			}
+			clr_title_flag = lost_anti_slave_war
+		}
+		effect = {
+			hidden_tooltip = {
+				revoke_law = slavery_1
+				revoke_law = slavery_2
+				revoke_law = slavery_3
+			}
+		}
+	}
+
+	slavery_1 = { #Indentured
+		show_as_title = yes
+		group = slavery
+
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					has_law = slavery_0
+					has_law = slavery_2
+					has_law = slavery_3
+				}
+			}
+			OR = {
+				NOT = {
+					has_title_flag = lost_anti_slave_war
+				}
+				had_title_flag = {
+					flag = lost_anti_slave_war
+					years = 20
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				holder_scope = { 
+					trait = trait_slaver
+				}
+			}
+		}
+		pass_effect = {
+			clr_title_flag = lost_anti_slave_war
+		}
+		effect = {
+			hidden_tooltip = {
+				revoke_law = slavery_0
+				revoke_law = slavery_2
+				revoke_law = slavery_3
+			}
+		}
+	}
+	
+	slavery_2 = { #Thralldom
+		show_as_title = yes
+		group = slavery
+
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					has_law = slavery_0
+					has_law = slavery_1
+					has_law = slavery_3
+				}
+			}
+			OR = {
+				NOT = {
+					has_title_flag = lost_anti_slave_war
+				}
+				had_title_flag = {
+					flag = lost_anti_slave_war
+					years = 20
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				holder_scope = { 
+					trait = trait_slaver
+				}
+			}
+		}
+		pass_effect = {
+			clr_title_flag = lost_anti_slave_war
+		}
+		effect = {
+			hidden_tooltip = {
+				revoke_law = slavery_0
+				revoke_law = slavery_1
+				revoke_law = slavery_3
+			}
+		}
+	}
+	
+	slavery_3 = { #Chattel
+		show_as_title = yes
+		group = slavery
+
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					has_law = slavery_0
+					has_law = slavery_1
+					has_law = slavery_2
+				}
+			}
+			OR = {
+				NOT = {
+					has_title_flag = lost_anti_slave_war
+				}
+				had_title_flag = {
+					flag = lost_anti_slave_war
+					years = 20
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				holder_scope = { 
+					NOT = {
+						trait = trait_slaver
+					}
+				}
+			}
+		}
+		pass_effect = {
+			clr_title_flag = lost_anti_slave_war
+		}
+		effect = {
+			hidden_tooltip = {
+				revoke_law = slavery_0
+				revoke_law = slavery_1
+				revoke_law = slavery_2
+			}
+		}
+	}
+}
