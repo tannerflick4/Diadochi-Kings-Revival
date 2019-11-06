@@ -22,9 +22,13 @@ sin_ivory = {
 }
 sin_grain = {
 	icon = 7
+	local_tax_modifier = 0.1
+	monthly_character_piety = 1
 }
 sin_fish = {
 	icon = 7
+	local_tax_modifier = 0.1
+	monthly_character_piety = 1
 }
 sin_stone = {
 	icon = 7
