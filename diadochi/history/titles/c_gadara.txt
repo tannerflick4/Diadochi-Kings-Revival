@@ -1,6 +1,6 @@
 417.1.1 = {
 	holder = 90324
-	liege = k_p_babylon
+	liege = d_s_babylon
 }
 446.1.1 = { # 330 BC
 	holder = 310002 # Paran

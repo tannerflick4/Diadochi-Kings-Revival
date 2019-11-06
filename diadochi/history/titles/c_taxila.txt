@@ -1,6 +1,6 @@
 417.1.1 = { # 359 BC
 	holder = 90312 # Artaxerxes III
-	liege = k_p_bactria
+	liege = d_s_bactria
 }
 418.1.1 = { # 358 BC
 	holder = 90313 # Artaxerxes IV

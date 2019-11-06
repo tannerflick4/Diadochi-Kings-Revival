@@ -16,11 +16,11 @@
 }
 462.1.1 = { # 314 BC
 	holder = 401 # Antigonus
-	liege = k_s_phrygia
+	liege = d_s_phrygia
 }
 467.10.1 = { # 309 BC
 	holder = 601 # Ptolemy I
-	liege = k_s_egypt
+	liege = d_s_egypt
 }
 468.3.1 = {
 	holder = 2 # Kassandros

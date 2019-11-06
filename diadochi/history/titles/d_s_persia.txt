@@ -1,3 +1,7 @@
+417.1.1 = {
+	holder = 90321 # Fravarti, satrap of Persia
+	liege = e_persia
+}
 446.1.1 = { # 330 BC
 	holder = 1201 # Peukestas
 	liege="e_macedonia"

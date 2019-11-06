@@ -167,480 +167,307 @@ k_israel = {
 		}
 	}
 }
-# Persian satrapies
-k_p_egypt = {
+# Satrapies
+d_s_egypt = {
 	color= { 225 200 0 }
 	color2= { 255 255 255 }
 	
 	capital = 141 # Memphis
 	
 	allow = {
-		liege = {
-			has_landed_title = e_persia
-		}
+		always = no
 	}
 	
-	title = "XSHASHAPAVAN"
+	title = "SATRAP"
 	short_name = yes
-	dynasty_title_names = no
 }
-k_p_cappadocia = {
+d_s_cappadocia = {
 	color= { 200 175 150}
 	color2= { 255 255 255 }
 	
 	capital = 117 # Cappadocia
 	
 	allow = {
-		liege = {
-			has_landed_title = e_persia
-		}
+		always = no
 	}
 	
-	title = "XSHASHAPAVAN"
+	title = "SATRAP"
 	short_name = yes
-	dynasty_title_names = no
 }
-k_p_armenia = {
+d_s_armenia = {
 	color= { 200 0 50 }
 	color2= { 255 255 255 }
 	
 	capital = 218 # Armavir
 	
 	allow = {
-		liege = {
-			has_landed_title = e_persia
-		}
+		always = no
 	}
 	
-	title = "XSHASHAPAVAN"
+	title = "SATRAP"
 	short_name = yes
-	dynasty_title_names = no
 }
-k_p_bactria = {
+d_s_bactria = {
 	color= { 175 0 50 }
 	color2= { 255 255 255 }
 	
 	capital = 272 # Bactra
 	
 	allow = {
-		liege = {
-			has_landed_title = e_persia
-		}
+		always = no
 	}
 	
-	title = "XSHASHAPAVAN"
+	title = "SATRAP"
 	short_name = yes
-	dynasty_title_names = no
 }
-k_p_persia = {
+d_s_persia = {
 	color= { 225 0 75 }
 	color2= { 255 255 255 }
 	
 	capital = 253 # Pasargadae
 	
 	allow = {
-		liege = {
-			has_landed_title = e_persia
-		}
+		always = no
 	}
 	
-	title = "XSHASHAPAVAN"
+	title = "SATRAP"
 	short_name = yes
-	dynasty_title_names = no
 }
-k_p_media = {
+d_s_media = {
 	color= { 200 0 75 }
 	color2= { 255 255 255 }
 	
 	capital = 240 # Ecbatana
 	
 	allow = {
-		liege = {
-			has_landed_title = e_persia
-		}
+		always = no
 	}
 	
-	title = "XSHASHAPAVAN"
+	title = "SATRAP"
 	short_name = yes
-	dynasty_title_names = no
 }
-k_p_lydia = {
+d_s_lydia = {
 	color= { 0 125 125 }
 	color2= { 255 255 255 }
 	
 	capital = 81 # Sardis
 	
 	allow = {
-		liege = {
-			has_landed_title = e_persia
-		}
+		always = no
 	}
 	
-	title = "XSHASHAPAVAN"
+	title = "SATRAP"
 	short_name = yes
-	dynasty_title_names = no
 }
-k_p_arachosia = {
+d_s_arachosia = {
 	color= { 225 0 100 }
 	color2= { 255 255 255 }
 	
 	capital = 280 # Tazora
 	
 	allow = {
-		liege = {
-			has_landed_title = e_persia
-		}
+		always = no
 	}
 	
-	title = "XSHASHAPAVAN"
+	title = "SATRAP"
 	short_name = yes
-	dynasty_title_names = no
 }
-k_p_babylon = {
+d_s_babylon = {
 	color= { 0 50 225 }
 	color2= { 255 255 255 }
 	
 	capital = 195 # Babylon
 	
 	allow = {
-		liege = {
-			has_landed_title = e_persia
-		}
+		always = no
 	}
 	
-	title = "XSHASHAPAVAN"
+	title = "SATRAP"
 	short_name = yes
-	dynasty_title_names = no
 }
-# Macedonian satrapies
-k_s_macedon = {
+d_s_macedon = {
 	color= { 200 100 25 }
 	color2= { 255 255 255 }
 	
 	capital = 34 # Pella
 	
 	allow = {
-		liege = {
-			has_landed_title = e_macedonia
-		}
+		always = no
 	}
 
 	title = "STRATEGOS"
 	short_name = yes
 }
-k_s_thrace = {
+d_s_thrace = {
 	color= { 150 75 0 }
 	color2= { 255 255 255 }
 	
 	capital = 44 # Lysimachia
 	
 	allow = {
-		liege = {
-			has_landed_title = e_macedonia
-		}
+		always = no
 	}
 	
-	title = "STRATEGOS"
+	title = "SATRAP"
 	short_name = yes
 }
-k_s_mysia = {
+d_s_mysia = {
 	color= { 0 100 100 }
 	color2= { 255 255 255 }
 	
 	capital = 88 # Daskyleion
 	
 	allow = {
-		liege = {
-			has_landed_title = e_macedonia
-		}
+		always = no
 	}
 	
 	title = "SATRAP"
 	short_name = yes
 }
-k_s_lydia = {
-	color= { 0 125 125 }
-	color2= { 255 255 255 }
-	
-	capital = 81 # Sardis
-	
-	allow = {
-		liege = {
-			has_landed_title = e_macedonia
-		}
-	}
-	
-	title = "SATRAP"
-	short_name = yes
-}
-k_s_caria = {
+d_s_caria = {
 	color= { 0 75 75 }
 	color2= { 255 255 255 }
 	
 	capital = 83 # Halicarnassus
 	
 	allow = {
-		liege = {
-			has_landed_title = e_macedonia
-		}
+		always = no
 	}
 	
 	title = "SATRAP"
 	short_name = yes
 }
-k_s_phrygia = {
+d_s_phrygia = {
 	color= { 0 100 125 }
 	color2= { 255 255 255 }
 	
 	capital = 91 # Celaenae
 	
 	allow = {
-		liege = {
-			has_landed_title = e_macedonia
-		}
+		always = no
 	}
 	
 	title = "SATRAP"
 	short_name = yes
 }
-k_s_cilicia = {
+d_s_cilicia = {
 	color= { 125 150 125 }
 	color2= { 255 255 255 }
 	
 	capital = 106 # Tarsus
 	
 	allow = {
-		liege = {
-			has_landed_title = e_macedonia
-		}
+		always = no
 	}
 	
 	title = "SATRAP"
 	short_name = yes
 }
-k_s_cappadocia = {
-	color= { 200 175 150}
-	color2= { 255 255 255 }
-	
-	capital = 117 # Cappadocia
-	
-	allow = {
-		liege = {
-			has_landed_title = e_macedonia
-		}
-	}
-	
-	title = "SATRAP"
-	short_name = yes
-}
-
-k_s_syria = {
+d_s_syria = {
 	color= { 0 75 100 }
 	color2= { 255 255 255 }
 	
 	capital = 175 # Damascus
 	
 	allow = {
-		liege = {
-			has_landed_title = e_macedonia
-		}
+		always = no
 	}
 	
 	title = "SATRAP"
 	short_name = yes
-}
-k_s_egypt = {
-	color= { 225 200 0 }
-	color2= { 255 255 255 }
-	
-	capital = 139 # Alexandria
-	
-	allow = {
-		liege = {
-			has_landed_title = e_macedonia
-		}
-	}
-	
-	title = "SATRAP"
-	short_name = yes
-}
-k_s_assyria = {
+
+d_s_assyria = {
 	color= { 0 50 125 }
 	color2= { 255 255 255 }
 	
 	capital = 187 # Assur
 	
 	allow = {
-		liege = {
-			has_landed_title = e_macedonia
-		}
+		always = no
 	}
 	
 	title = "SATRAP"
 	short_name = yes
 }
-k_s_babylonia = {
-	color= { 0 50 225 }
-	color2= { 255 255 255 }
-	
-	capital = 194 # Opis
-	
-	allow = {
-		liege = {
-			has_landed_title = e_macedonia
-		}
-	}
-	
-	title = "SATRAP"
-	short_name = yes
-}
-k_s_armenia = {
-	color= { 200 0 50 }
-	color2= { 255 255 255 }
-	
-	capital = 218 # Armavir
-	
-	allow = {
-		liege = {
-			has_landed_title = e_macedonia
-		}
-	}
-	
-	title = "SATRAP"
-	short_name = yes
-}
-k_s_media = {
-	color= { 200 0 75 }
-	color2= { 255 255 255 }
-	
-	capital = 240 # Ecbatana
-	
-	allow = {
-		liege = {
-			has_landed_title = e_macedonia
-		}
-	}
-	
-	title = "SATRAP"
-	short_name = yes
-}
-k_s_persia = {
-	color= { 225 0 75 }
-	color2= { 255 255 255 }
-	
-	capital = 253 # Pasargadae
-	
-	allow = {
-		liege = {
-			has_landed_title = e_macedonia
-		}
-	}
-	
-	title = "SATRAP"
-	short_name = yes
-}
-k_s_carmania = {
+d_s_carmania = {
 	color= { 225 0 100 }
 	color2= { 255 255 255 }
 	
 	capital = 257 # Carmania
 	
 	allow = {
-		liege = {
-			has_landed_title = e_macedonia
-		}
+		always = no
 	}
 	
 	title = "SATRAP"
 	short_name = yes
 }
-k_s_gedrosia = {
+d_s_gedrosia = {
 	color= { 255 0 125 }
 	color2= { 255 255 255 }
 	
 	capital = 265 # Soxetra
 	
 	allow = {
-		liege = {
-			has_landed_title = e_macedonia
-		}
+		always = no
 	}
 	
 	title = "SATRAP"
 	short_name = yes
 }
-k_s_hyrcania = {
+d_s_hyrcania = {
 	color= { 200 25 50 }
 	color2= { 255 255 255 }
 	
 	capital = 244 # Hecatombylos
 	
 	allow = {
-		liege = {
-			has_landed_title = e_macedonia
-		}
+		always = no
 	}
 	
 	title = "SATRAP"
 	short_name = yes
 }
-k_atropatene = {
+d_s_atropatene = {
 	color= { 200 0 100 }
 	color2= { 255 255 255 }
 	
 	capital = 233 # Ardabil
 	
 	allow = {
-		liege = {
-			has_landed_title = e_macedonia
-		}
+		always = no
 	}
+	
+	title = "SATRAP"
+	short_name = yes
 }
-k_s_indus = {
+d_s_indus = {
 	color= { 100 200 100 }
 	color2= { 255 255 255 }
 	
 	capital = 284 # Gynaikon Limen
 	
 	allow = {
-		liege = {
-			has_landed_title = e_macedonia
-		}
+		always = no
 	}
 	
 	title = "SATRAP"
 	short_name = yes
 }
-k_s_aria = {
+d_s_aria = {
 	color= { 255 0 100 }
 	color2= { 255 255 255 }
 	
 	capital = 822 # Arachotoi
 	
 	allow = {
-		liege = {
-			has_landed_title = e_macedonia
-		}
+		always = no
 	}
 	
 	title = "SATRAP"
 	short_name = yes
 }
-k_s_bactria = {
-	color= { 175 0 50 }
-	color2= { 255 255 255 }
-	
-	capital = 272 # Bactra
-	
-	allow = {
-		liege = {
-			has_landed_title = e_macedonia
-		}
-	}
-	
-	title = "SATRAP"
-	short_name = yes
-}
+
 # Others
 k_porus = {
 	color= { 90 200 115 }

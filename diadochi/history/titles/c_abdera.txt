@@ -11,7 +11,7 @@
 	holder = 55603 # Epaphroditos of the Abderoi
 }
 453.6.10 = { # 323 BC
-	liege = k_s_thrace
+	liege = d_s_thrace
 }
 463.1.1 = { # 313 BC
 	holder = 55604 # Xenon of the Abderoi
