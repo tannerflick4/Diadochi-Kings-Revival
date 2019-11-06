@@ -21,7 +21,7 @@ title_decisions = {
 					has_province_modifier = sin_ivory
 					has_province_modifier = sin_grain
 					has_province_modifier = sin_fish
-					has_province_modifier = sin_timber
+					has_province_modifier = sin_stone
 					has_province_modifier = sin_wood
 				}
 			}
