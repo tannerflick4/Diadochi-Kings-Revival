@@ -15,11 +15,14 @@ title_decisions = {
 				NOR = {
 					has_province_modifier = sin_prospecting
 					has_province_modifier = sin_nothing
-					has_province_modifier = sin_bmaterial
-					has_province_modifier = sin_ivory
+					has_province_modifier = sin_gold
+					has_province_modifier = sin_silver
 					has_province_modifier = sin_iron
-					has_province_modifier = sin_food
-					has_province_modifier = sin_pmetal
+					has_province_modifier = sin_ivory
+					has_province_modifier = sin_grain
+					has_province_modifier = sin_fish
+					has_province_modifier = sin_timber
+					has_province_modifier = sin_wood
 				}
 			}
 		}
