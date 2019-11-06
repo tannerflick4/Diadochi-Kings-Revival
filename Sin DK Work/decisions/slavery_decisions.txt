@@ -99,6 +99,138 @@ decisions = {
 			}
 		}
 	}
+	buy_slaves = {
+		potential = {
+			war = no
+			crownlaw_title = {
+				has_law = slavery_3
+			}
+		}
+		allow = {
+			NOT = {
+				capital_scope = {
+					has_province_modifier = slave_hold_3
+				}
+			}
+		}
+		effect = {
+			capital_scope = {
+				IF = {
+					limit = {
+						capital_scope = {
+							has_province_modifier = slave_hold_2
+						}
+					}
+					remove_province_modifier = slave_hold_2
+					add_province_modifier = { modifier = slave_hold_3 duration = -1 }
+				}
+				IF = {
+					limit = {
+						capital_scope = {
+							has_province_modifier = slave_hold_1
+						}
+					}
+					remove_province_modifier = slave_hold_1
+					add_province_modifier = { modifier = slave_hold_2 duration = -1 }
+				}
+				IF = {
+					limit = {
+						capital_scope = {
+							NOR = {
+								has_province_modifier = slave_hold_1
+								has_province_modifier = slave_hold_2
+								has_province_modifier = slave_hold_3
+							}
+						}
+					}
+					add_province_modifier = { modifier = slave_hold_1 duration = -1 }
+				}
+			}
+			wealth = -600
+		}
+		ai_will_do = {
+			factor = 0.1
+			modifier = {
+				factor = 3
+				wealth = 600
+			}
+			modifier = {
+				factor = 3
+				wealth = 900
+			}
+			modifier = {
+				factor = 3
+				wealth = 1200
+			}
+			modifier = {
+				factor = 3
+				wealth = 1500
+			}
+		}
+	}
+	sell_slaves = {
+		potential = {
+			war = no
+			crownlaw_title = {
+				has_law = slavery_3
+			}
+		}
+		allow = {
+			capital_scope = {
+				OR = {
+					has_province_modifier = slave_hold_1
+					has_province_modifier = slave_hold_2
+					has_province_modifier = slave_hold_3
+				}
+			}
+		}
+		effect = {
+			capital_scope = {
+				IF = {
+					limit = {
+						capital_scope = {
+							has_province_modifier = slave_hold_1
+						}
+					}
+					remove_province_modifier = slave_hold_1
+				}
+				IF = {
+					limit = {
+						capital_scope = {
+							has_province_modifier = slave_hold_2
+						}
+					}
+					remove_province_modifier = slave_hold_2
+					add_province_modifier = { modifier = slave_hold_1 duration = -1 }
+				}
+				IF = {
+					limit = {
+						capital_scope = {
+							has_province_modifier = slave_hold_3
+						}
+					}
+					remove_province_modifier = slave_hold_3
+					add_province_modifier = { modifier = slave_hold_2 duration = -1 }
+				}
+			}
+			wealth = 300
+		}
+		ai_will_do = {
+			factor = 0.1
+			modifier = {
+				factor = 100
+				NOT = {
+					wealth = 0
+				}
+			}
+			modifier = {
+				factor = 10
+				NOT = {
+					wealth = 100
+				}
+			}
+		}
+	}
 }
 targetted_decisions = {
 	enslave_prisoner = {	#Enslave a Prisoner
@@ -163,6 +295,58 @@ targetted_decisions = {
 		}
 		ai_will_do = {
 			factor = 0.01
+		}
+	}
+	sell_slave = {	#Sell a Slave
+		only_rulers = yes
+		filter = home_court
+		ai_target_filter = home_court
+
+		from_potential = {
+			war = no
+			crownlaw_title = {
+					has_law = slavery_3
+			}
+		}
+		potential = {
+			trait = trait_slave
+		}
+		allow = {
+			is_alive = yes
+		}
+		effect = {
+			d_slaver = {
+				holder_scope = {
+					ROOT = {
+						remove_opinion = {
+							modifier = opinion_master
+							who = FROM
+						}
+						reverse_remove_opinion = {
+							modifier = opinion_slave
+							who = FROM
+						}
+						opinion = {
+							modifier = opinion_master
+							who = PREV
+						}
+						reverse_opinion = {
+							modifier = opinion_slave
+							who = PREV
+						}
+						move_character = PREV
+					}
+				}
+			}
+			wealth = 50
+		}
+		ai_will_do = {
+			factor = 0.01
+			modifier = {
+				NOT = {
+					wealth = 0
+				}
+			}
 		}
 	}
 	slave_phone_home = {

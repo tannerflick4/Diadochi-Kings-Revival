@@ -60,6 +60,12 @@ enslave_prisoner;Enslave Prisoner;;;;;;;;;;;;;x
 enslave_prisoner_desc;Can enslave this prisoner;;;;;;;;;;;;;x
 arm_slaves;Arm the Slaves;;;;;;;;;;;;;x
 arm_slaves_desc;The war grows desperate, you can do the unthinkable and arm the Slaves.;;;;;;;;;;;;;x
+buy_slaves;Buy a lot of Slaves;;;;;;;;;;;;;x
+buy_slaves_desc;Seek out the Slave trader and purchase a host of slaves;;;;;;;;;;;;;x
+sell_slaves;Sell a lot of Slaves;;;;;;;;;;;;;x
+sell_slaves_desc;Sell one of your slave lots to the Slave Trader;;;;;;;;;;;;;x
+sell_slave;Sell [Root.GetBestName];;;;;;;;;;;;;x
+sell_slave_desc;Seek out the Slave Trader and sell [Root.GetBestName];;;;;;;;;;;;;x
 rape_slave_dec;Bed [Root.GetFirstName];;;;;;;;;;;;;x
 rape_slave_dec_desc;As [Root.GetFirstName]'s master, you can force [Root.GetFirstName] into bed.;;;;;;;;;;;;;x
 breed_slave_dec;Breed [Root.GetFirstName];;;;;;;;;;;;;x
