@@ -5748,6 +5748,51 @@ k_magna_graecia = {
 			}
 		}
 	}
+	d_henna = {
+		color= { 68 164 191 }
+		color2= { 255 255 255 }
+		
+		capital = 1110 # Henna
+		
+		c_morgantina = {
+			color= { 68 161 187 }
+			color2= { 255 255 255 }
+			
+			b_morgantina_morgantina = {
+			}
+			b_morgantina1_morgantina = {
+			}
+			b_morgantina2_morgantina = {
+			}
+			b_morgantina3_morgantina = {
+			}
+			b_morgantina4_morgantina = {
+			}
+			b_morgantina5_morgantina = {
+			}
+			b_morgantina6_morgantina = {
+			}
+		}
+		c_henna = {
+			color= { 190 164 191 }
+			color2= { 255 255 255 }
+			
+			b_henna_henna = {
+			}
+			b_henna1_henna = {
+			}
+			b_henna2_henna = {
+			}
+			b_henna3_henna = {
+			}
+			b_henna4_henna = {
+			}
+			b_henna5_henna = {
+			}
+			b_henna6_henna = {
+			}
+		}
+	}
 	d_bruttium = {
 		color= { 75 150 225 }
 		color2= { 255 255 255 }
