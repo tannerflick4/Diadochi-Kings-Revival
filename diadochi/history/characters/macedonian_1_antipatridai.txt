@@ -27,8 +27,11 @@
 	dynasty = 1
 	religion = greek_main
 	culture = macedonian
+	
 	father = 1 # Antipater
-	#employer = 801 # Philip III
+	
+	dna = cdeullzyjoe
+	properties = cd0jfj00000
 	
 	add_trait = tough_soldier
 	add_trait = ambitious

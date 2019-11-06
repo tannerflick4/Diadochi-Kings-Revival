@@ -7,53 +7,87 @@ bm_2nd_war = {
 	custom_start = yes				## Choosing "Custom Start" will open this bookmark
 
 	selectable_character = {
-		id = 602 # Ptolemaios II
-		age = 28
-		name = ERA_CHAR_NAME_602
-		title = e_egypt
-		title_name = PTOLEMAIC_EGYPT
+		id = 1601 # Polyperchon
+		age = 41
+		name = ERA_CHAR_NAME_1601
+		title = d_s_macedon
+		title_name = d_s_macedon
 		
 		character = {
-			dna = dbcafqiaaar
-			properties = ab0ac000000
-			religion="greek_main"
-			culture="macedonian"
+			dna = uywjmxmlyaa
+			properties = wj0dad00000
+			religion = greek_main
+			culture = macedonian
 			government = feudal_government
-			dynasty=7
+			dynasty = 17
 		}
 	}
 
 	selectable_character = {
-		id = 1002 # Antiochos I
-		age = 42
-		name = ERA_CHAR_NAME_1002
-		title = e_syria
-		title_name = SELEUCID_EMPIRE
+		id = 50101 # Eumenes
+		age = 43
+		name = ERA_CHAR_NAME_50101
+		title = d_s_cappadocia
+		title_name = d_s_cappadocia
 		
 		character = {
-			dna = dfbhcbccden
-			properties = ad0aj000000
-			religion="greek_main"
-			culture="macedonian"
+			dna = poqdpurlozq
+			properties = ngpeed00000
+			religion = greek_main
+			culture = ionian
 			government = feudal_government
-			dynasty=11
+			dynasty = 5002
 		}
 	}
 
 	selectable_character = {
-		id = 408 # Antigonos Gonatas
-		age = 38
-		name = ERA_CHAR_NAME_408
-		title = e_asia
-		title_name = ANTIGONID_ASIA
+		id = 2 # Cassander
+		age = 39
+		name = ERA_CHAR_NAME_2
+		title = d_cassander
+		title_name = d_cassander
 		
 		character = {
-			dna = dbajcjbdcbd
-			properties = al0be000000
-			religion="greek_main"
-			culture="macedonian"
+			dna = cdeullzyjoe
+			properties = cd0jfj00000
+			religion = greek_main
+			culture= macedonian
 			government = feudal_government
-			dynasty=5
+			dynasty = 1
+		}
+	}
+	
+	selectable_character = {
+		id = 401 # Antigonus
+		age = 63
+		name = ERA_CHAR_NAME_401
+		title = d_s_phrygia
+		title_name = d_s_phrygia
+		
+		character = {
+			dna = mpdachtcwow
+			properties = nmdedd00000
+			religion = greek_main
+			culture = macedonian
+			government = feudal_government
+			dynasty = 5
+		}
+	}
+	
+	selectable_character = {
+		id = 601 # Ptolemy
+		age = 48
+		name = ERA_CHAR_NAME_601
+		title = d_s_egypt
+		title_name = d_s_egypt
+		
+		character = {
+			dna = niccjbmdnbf
+			properties = tj0ebd00000
+			religion = greek_main
+			culture = macedonian
+			government = feudal_government
+			dynasty = 7
 		}
 	}
 }

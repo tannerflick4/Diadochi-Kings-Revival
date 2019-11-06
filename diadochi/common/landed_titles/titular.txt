@@ -179,7 +179,6 @@ d_s_egypt = {
 	}
 	
 	title = "SATRAP"
-	short_name = yes
 }
 d_s_cappadocia = {
 	color= { 200 175 150}
@@ -192,7 +191,6 @@ d_s_cappadocia = {
 	}
 	
 	title = "SATRAP"
-	short_name = yes
 }
 d_s_armenia = {
 	color= { 200 0 50 }
@@ -205,7 +203,6 @@ d_s_armenia = {
 	}
 	
 	title = "SATRAP"
-	short_name = yes
 }
 d_s_bactria = {
 	color= { 175 0 50 }
@@ -218,7 +215,6 @@ d_s_bactria = {
 	}
 	
 	title = "SATRAP"
-	short_name = yes
 }
 d_s_persia = {
 	color= { 225 0 75 }
@@ -231,7 +227,6 @@ d_s_persia = {
 	}
 	
 	title = "SATRAP"
-	short_name = yes
 }
 d_s_media = {
 	color= { 200 0 75 }
@@ -244,7 +239,6 @@ d_s_media = {
 	}
 	
 	title = "SATRAP"
-	short_name = yes
 }
 d_s_lydia = {
 	color= { 0 125 125 }
@@ -257,7 +251,6 @@ d_s_lydia = {
 	}
 	
 	title = "SATRAP"
-	short_name = yes
 }
 d_s_arachosia = {
 	color= { 225 0 100 }
@@ -270,7 +263,6 @@ d_s_arachosia = {
 	}
 	
 	title = "SATRAP"
-	short_name = yes
 }
 d_s_babylon = {
 	color= { 0 50 225 }
@@ -283,7 +275,6 @@ d_s_babylon = {
 	}
 	
 	title = "SATRAP"
-	short_name = yes
 }
 d_s_macedon = {
 	color= { 200 100 25 }
@@ -296,7 +287,6 @@ d_s_macedon = {
 	}
 
 	title = "STRATEGOS"
-	short_name = yes
 }
 d_s_thrace = {
 	color= { 150 75 0 }
@@ -309,7 +299,6 @@ d_s_thrace = {
 	}
 	
 	title = "SATRAP"
-	short_name = yes
 }
 d_s_mysia = {
 	color= { 0 100 100 }
@@ -322,7 +311,6 @@ d_s_mysia = {
 	}
 	
 	title = "SATRAP"
-	short_name = yes
 }
 d_s_caria = {
 	color= { 0 75 75 }
@@ -335,7 +323,6 @@ d_s_caria = {
 	}
 	
 	title = "SATRAP"
-	short_name = yes
 }
 d_s_phrygia = {
 	color= { 0 100 125 }
@@ -348,7 +335,6 @@ d_s_phrygia = {
 	}
 	
 	title = "SATRAP"
-	short_name = yes
 }
 d_s_cilicia = {
 	color= { 125 150 125 }
@@ -361,7 +347,6 @@ d_s_cilicia = {
 	}
 	
 	title = "SATRAP"
-	short_name = yes
 }
 d_s_syria = {
 	color= { 0 75 100 }
@@ -374,7 +359,7 @@ d_s_syria = {
 	}
 	
 	title = "SATRAP"
-	short_name = yes
+}
 
 d_s_assyria = {
 	color= { 0 50 125 }
@@ -387,7 +372,6 @@ d_s_assyria = {
 	}
 	
 	title = "SATRAP"
-	short_name = yes
 }
 d_s_carmania = {
 	color= { 225 0 100 }
@@ -400,7 +384,6 @@ d_s_carmania = {
 	}
 	
 	title = "SATRAP"
-	short_name = yes
 }
 d_s_gedrosia = {
 	color= { 255 0 125 }
@@ -413,7 +396,6 @@ d_s_gedrosia = {
 	}
 	
 	title = "SATRAP"
-	short_name = yes
 }
 d_s_hyrcania = {
 	color= { 200 25 50 }
@@ -426,7 +408,6 @@ d_s_hyrcania = {
 	}
 	
 	title = "SATRAP"
-	short_name = yes
 }
 d_s_atropatene = {
 	color= { 200 0 100 }
@@ -439,7 +420,6 @@ d_s_atropatene = {
 	}
 	
 	title = "SATRAP"
-	short_name = yes
 }
 d_s_indus = {
 	color= { 100 200 100 }
@@ -452,7 +432,6 @@ d_s_indus = {
 	}
 	
 	title = "SATRAP"
-	short_name = yes
 }
 d_s_aria = {
 	color= { 255 0 100 }
@@ -465,7 +444,6 @@ d_s_aria = {
 	}
 	
 	title = "SATRAP"
-	short_name = yes
 }
 
 # Others
@@ -962,6 +940,12 @@ d_callaeci = {
 d_vascones = {
 	color={ 255 222 0 }
 	color2={ 255 255 255 }
+}
+d_cassander = {
+	color={ 195 13 28 }
+	color2={ 255 255 255 }
+	
+	title = "STRATEGOS"
 }
 
 ######################################

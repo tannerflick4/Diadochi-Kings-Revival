@@ -7,6 +7,9 @@
 
 	father = 406
 	
+	dna = mpdachtcwow
+	properties = nmdedd00000
+	
 	health = 8 # We will want him to live long
 	
 	add_trait = skilled_tactician
