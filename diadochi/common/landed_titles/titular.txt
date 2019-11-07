@@ -180,13 +180,9 @@ k_p_egypt = {
 		}
 	}
 	
-<<<<<<< HEAD
 	title = "SATRAP"
-=======
-	title = "XSHASHAPAVAN"
 	short_name = yes
 	dynasty_title_names = no
->>>>>>> parent of eee55fb... Satrapy edits
 }
 k_p_cappadocia = {
 	color= { 200 175 150}
@@ -200,13 +196,9 @@ k_p_cappadocia = {
 		}
 	}
 	
-<<<<<<< HEAD
 	title = "SATRAP"
-=======
-	title = "XSHASHAPAVAN"
 	short_name = yes
 	dynasty_title_names = no
->>>>>>> parent of eee55fb... Satrapy edits
 }
 k_p_armenia = {
 	color= { 200 0 50 }
@@ -220,13 +212,13 @@ k_p_armenia = {
 		}
 	}
 	
-<<<<<<< HEAD
+
 	title = "SATRAP"
-=======
-	title = "XSHASHAPAVAN"
+
+
 	short_name = yes
 	dynasty_title_names = no
->>>>>>> parent of eee55fb... Satrapy edits
+
 }
 k_p_bactria = {
 	color= { 175 0 50 }
@@ -240,13 +232,13 @@ k_p_bactria = {
 		}
 	}
 	
-<<<<<<< HEAD
+
 	title = "SATRAP"
-=======
-	title = "XSHASHAPAVAN"
+
+
 	short_name = yes
 	dynasty_title_names = no
->>>>>>> parent of eee55fb... Satrapy edits
+
 }
 k_p_persia = {
 	color= { 225 0 75 }
@@ -260,13 +252,13 @@ k_p_persia = {
 		}
 	}
 	
-<<<<<<< HEAD
+
 	title = "SATRAP"
-=======
-	title = "XSHASHAPAVAN"
+
+
 	short_name = yes
 	dynasty_title_names = no
->>>>>>> parent of eee55fb... Satrapy edits
+
 }
 k_p_media = {
 	color= { 200 0 75 }
@@ -280,13 +272,13 @@ k_p_media = {
 		}
 	}
 	
-<<<<<<< HEAD
+
 	title = "SATRAP"
-=======
-	title = "XSHASHAPAVAN"
+
+
 	short_name = yes
 	dynasty_title_names = no
->>>>>>> parent of eee55fb... Satrapy edits
+
 }
 k_p_lydia = {
 	color= { 0 125 125 }
@@ -300,13 +292,13 @@ k_p_lydia = {
 		}
 	}
 	
-<<<<<<< HEAD
+
 	title = "SATRAP"
-=======
-	title = "XSHASHAPAVAN"
+
+
 	short_name = yes
 	dynasty_title_names = no
->>>>>>> parent of eee55fb... Satrapy edits
+
 }
 k_p_arachosia = {
 	color= { 225 0 100 }
@@ -320,13 +312,13 @@ k_p_arachosia = {
 		}
 	}
 	
-<<<<<<< HEAD
+
 	title = "SATRAP"
-=======
-	title = "XSHASHAPAVAN"
+
+
 	short_name = yes
 	dynasty_title_names = no
->>>>>>> parent of eee55fb... Satrapy edits
+
 }
 k_p_babylon = {
 	color= { 0 50 225 }
@@ -340,13 +332,13 @@ k_p_babylon = {
 		}
 	}
 	
-<<<<<<< HEAD
+
 	title = "SATRAP"
-=======
-	title = "XSHASHAPAVAN"
+
+
 	short_name = yes
 	dynasty_title_names = no
->>>>>>> parent of eee55fb... Satrapy edits
+
 }
 # Macedonian satrapies
 k_s_macedon = {
@@ -375,12 +367,12 @@ k_s_thrace = {
 		}
 	}
 	
-<<<<<<< HEAD
+
 	title = "SATRAP"
-=======
+
 	title = "STRATEGOS"
 	short_name = yes
->>>>>>> parent of eee55fb... Satrapy edits
+
 }
 k_s_mysia = {
 	color= { 0 100 100 }
@@ -482,11 +474,11 @@ k_s_syria = {
 	}
 	
 	title = "SATRAP"
-<<<<<<< HEAD
+
 }
 
 d_s_assyria = {
-=======
+
 	short_name = yes
 }
 k_s_egypt = {
@@ -505,7 +497,7 @@ k_s_egypt = {
 	short_name = yes
 }
 k_s_assyria = {
->>>>>>> parent of eee55fb... Satrapy edits
+
 	color= { 0 50 125 }
 	color2= { 255 255 255 }
 	
@@ -632,11 +624,11 @@ k_atropatene = {
 			has_landed_title = e_macedonia
 		}
 	}
-<<<<<<< HEAD
+
 	
 	title = "SATRAP"
-=======
->>>>>>> parent of eee55fb... Satrapy edits
+
+
 }
 k_s_indus = {
 	color= { 100 200 100 }
