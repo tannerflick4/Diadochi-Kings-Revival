@@ -1,6 +1,141 @@
-# 45001-46000 for Gallaecian dynasties
+# 45001-46000 for Aquitanian dynasties
+
+# IBERIA
 45001 = {
-	name = "Uaskones"
+	name = "Vascones"
+	culture = aquitanian
+}
+45002 = {
+	name = "Iacetani"
 	culture = aquitanian
 }
 
+# AQUITANIA
+45003 = {
+	name = "Apiates"
+	culture = aquitanian
+}
+45004 = {
+	name = "Aturenses"
+	culture = aquitanian
+}
+45005 = {
+	name = "Arenosii"
+	culture = aquitanian
+}
+45006 = {
+	name = "Ausci"
+	culture = aquitanian
+}
+45007 = {
+	name = "Benearni"
+	culture = aquitanian
+}
+45008 = {
+	name = "Bercorates"
+	culture = aquitanian
+}
+45009 = {
+	name = "Bigerriones"
+	culture = aquitanian
+}
+45010 = {
+	name = "Camponi"
+	culture = aquitanian
+}
+45011 = {
+	name = "Cocosates"
+	culture = aquitanian
+}
+45012 = {
+	name = "Consoranni"
+	culture = aquitanian
+}
+45013 = {
+	name = "Convenae"
+	culture = aquitanian
+}
+45014 = {
+	name = "Elusates"
+	culture = aquitanian
+}
+45015 = {
+	name = "Datii"
+	culture = aquitanian
+}
+45016 = {
+	name = "Gates"
+	culture = aquitanian
+}
+45017 = {
+	name = "Iluronenses"
+	culture = aquitanian
+}
+45018 = {
+	name = "Lactorates"
+	culture = aquitanian
+}
+45019 = {
+	name = "Monesii"
+	culture = aquitanian
+}
+45020 = {
+	name = "Onobrisates"
+	culture = aquitanian
+}
+45021 = {
+	name = "Oscidates Campestres"
+	culture = aquitanian
+}
+45022 = {
+	name = "Oscidates Montani"
+	culture = aquitanian
+}
+45023 = {
+	name = "Plianii"
+	culture = aquitanian
+}
+45024 = {
+	name = "Sassumini"
+	culture = aquitanian
+}
+45025 = {
+	name = "Suburates"
+	culture = aquitanian
+}
+45026 = {
+	name = "Sotiates"
+	culture = aquitanian
+}
+45027 = {
+	name = "Succasses"
+	culture = aquitanian
+}
+45028 = {
+	name = "Tarbelli"
+	culture = aquitanian
+}
+45029 = {
+	name = "Tarusates"
+	culture = aquitanian
+}
+45030 = {
+	name = "Tarusci"
+	culture = aquitanian
+}
+45031 = {
+	name = "Umbranici"
+	culture = aquitanian
+}
+45032 = {
+	name = "Vellates"
+	culture = aquitanian
+}
+45033 = {
+	name = "Venami"
+	culture = aquitanian
+}
+45034 = {
+	name = "Vasates"
+	culture = aquitanian
+}

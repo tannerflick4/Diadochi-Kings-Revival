@@ -141,3 +141,491 @@
 	name = "Carni"
 	culture = gaul
 }
+
+# ITALY
+23035 = {
+	name = "Anani"
+	culture = gaul
+}
+23036 = {
+	name = "Anamares"
+	culture = gaul
+}
+23037 = {
+	name = "Cenomani"
+	culture = gaul
+}
+23038 = {
+	name = "Gaesatae"
+	culture = gaul
+}
+23039 = {
+	name = "Graioceli"
+	culture = gaul
+}
+23040 = {
+	name = "Lepontii"
+	culture = gaul
+}
+23041 = {
+	name = "Libici"
+	culture = gaul
+}
+23042 = {
+	name = "Lingones"
+	culture = gaul
+}
+23043 = {
+	name = "Oribii"
+	culture = gaul
+}
+23044 = {
+	name = "Segusini"
+	culture = gaul
+}
+23045 = {
+	name = "Taurini"
+	culture = gaul
+}
+23046 = {
+	name = "Vertamocorii"
+	culture = gaul
+}
+
+# GAUL
+
+# Armorica
+23047 = {
+	name = "Abrincatui"
+	culture = gaul
+}
+23048 = {
+	name = "Ambibarii"
+	culture = gaul
+}
+23049 = {
+	name = "Armoricani"
+	culture = gaul
+}
+23050 = {
+	name = "Ambiliates"
+	culture = gaul
+}
+23051 = {
+	name = "Baiocasses"
+	culture = gaul
+}
+23052 = {
+	name = "Carnutes"
+	culture = gaul
+}
+23053 = {
+	name = "Coriosolites"
+	culture = gaul
+}
+23054 = {
+	name = "Lexovii"
+	culture = gaul
+}
+23055 = {
+	name = "Namnetes"
+	culture = gaul
+}
+23056 = {
+	name = "Osismii"
+	culture = gaul
+}
+23057 = {
+	name = "Redones"
+	culture = gaul
+}
+23058 = {
+	name = "Venelli"
+	culture = gaul
+}
+23059 = {
+	name = "Veneti"
+	culture = gaul
+}
+23060 = {
+	name = "Viducasses"
+	culture = gaul
+}
+
+# Central gaul
+23061 = {
+	name = "Ambarri"
+	culture = gaul
+}
+23062 = {
+	name = "Ambivareti"
+	culture = gaul
+}
+23063 = {
+	name = "Aulerci Brannovices"
+	culture = gaul
+}
+23064 = {
+	name = "Bituriges Cubi"
+	culture = gaul
+}
+23065 = {
+	name = "Mandubii"
+	culture = gaul
+}
+23066 = {
+	name = "Parisii"
+	culture = gaul
+}
+23067 = {
+	name = "Segusiavi"
+	culture = gaul
+}
+23068 = { # Gallic Senones
+	name = "Senones Gallica"
+	culture = gaul
+}
+23069 = {
+	name = "Agenisates"
+	culture = gaul
+}
+23070 = {
+	name = "Agnutes"
+	culture = gaul
+}
+23071 = {
+	name = "Anagnutes"
+	culture = gaul
+}
+23072 = {
+	name = "Andecamulenses"
+	culture = gaul
+}
+23073 = {
+	name = "Andecavi"
+	culture = gaul
+}
+23074 = {
+	name = "Antobroges"
+	culture = gaul
+}
+23075 = {
+	name = "Arverni"
+	culture = gaul
+}
+23076 = {
+	name = "Gabali"
+	culture = gaul
+}
+23077 = {
+	name = "Arvii"
+	culture = gaul
+}
+23078 = {
+	name = "Atacini"
+	culture = gaul
+}
+23079 = {
+	name = "Atesui"
+	culture = gaul
+}
+23080 = {
+	name = "Aulerci Cenomani"
+	culture = gaul
+}
+23081 = {
+	name = "Aulerci Eburovices"
+	culture = gaul
+}
+23082 = {
+	name = "Aulerci Sagii"
+	culture = gaul
+}
+23083 = {
+	name = "Avantices"
+	culture = gaul
+}
+23084 = {
+	name = "Bipedimui"
+	culture = gaul
+}
+23085 = {
+	name = "Bituriges Vivisci"
+	culture = gaul
+}
+23086 = {
+	name = "Boii Gallica"
+	culture = gaul
+}
+23087 = {
+	name = "Cadurci"
+	culture = gaul
+}
+23088 = {
+	name = "Caeresi"
+	culture = gaul
+}
+23089 = {
+	name = "Cambolectres"
+	culture = gaul
+}
+23090 = {
+	name = "Corisopiti"
+	culture = gaul
+}
+23091 = {
+	name = "Eleuterii"
+	culture = gaul
+}
+23092 = {
+	name = "Elycoces"
+	culture = gaul
+}
+23093 = {
+	name = "Epomandui"
+	culture = gaul
+}
+23094 = {
+	name = "Helvetii"
+	culture = gaul
+}
+23095 = {
+	name = "Tigurini"
+	culture = gaul
+}
+23096 = {
+	name = "Tougeni"
+	culture = gaul
+}
+23097 = {
+	name = "Verbigeni"
+	culture = gaul
+}
+23098 = {
+	name = "Insubres Gallica"
+	culture = gaul
+}
+23099 = {
+	name = "Lemovices"
+	culture = gaul
+}
+23101 = {
+	name = "Lingones Gallica"
+	culture = gaul
+}
+23102 = {
+	name = "Medulli Meduci"
+	culture = gaul
+}
+23103 = {
+	name = "Nantuates"
+	culture = gaul
+}
+23104 = {
+	name = "Nitiobroges"
+	culture = gaul
+}
+23105 = {
+	name = "Petrocorii"
+	culture = gaul
+}
+23106 = {
+	name = "Pictones"
+	culture = gaul
+}
+23107 = {
+	name = "Raurici"
+	culture = gaul
+}
+23108 = {
+	name = "Reieni"
+	culture = gaul
+}
+23109 = {
+	name = "Ruteni"
+	culture = gaul
+}
+23110 = {
+	name = "Santones"
+	culture = gaul
+}
+23111 = {
+	name = "Seduni"
+	culture = gaul
+}
+23112 = {
+	name = "Tornates"
+	culture = gaul
+}
+23113 = {
+	name = "Tricasses"
+	culture = gaul
+}
+23114 = {
+	name = "Triviatii"
+	culture = gaul
+}
+23115 = {
+	name = "Trones"
+	culture = gaul
+}
+23116 = {
+	name = "Turones"
+	culture = gaul
+}
+23117 = {
+	name = "Uberi"
+	culture = gaul
+}
+23118 = {
+	name = "Vellavi"
+	culture = gaul
+}
+23119 = {
+	name = "Veragri"
+	culture = gaul
+}
+23120 = {
+	name = "Veroduni"
+	culture = gaul
+}
+
+# Narbonensis
+23121 = {
+	name = "Adenates"
+	culture = gaul
+}
+23122 = {
+	name = "Adunicates"
+	culture = gaul
+}
+23123 = {
+	name = "Albici"
+	culture = gaul
+}
+23124 = {
+	name = "Avatici"
+	culture = gaul
+}
+23125 = {
+	name = "Bebryces"
+	culture = gaul
+}
+23126 = {
+	name = "Bodiontici"
+	culture = gaul
+}
+23127 = {
+	name = "Bramovices"
+	culture = gaul
+}
+23128 = {
+	name = "Briganii"
+	culture = gaul
+}
+23129 = {
+	name = "Caturiges"
+	culture = gaul
+}
+23130 = {
+	name = "Caturiges"
+	culture = gaul
+}
+23131 = {
+	name = "Cavares"
+	culture = gaul
+}
+23132 = {
+	name = "Ceutrones"
+	culture = gaul
+}
+23133 = {
+	name = "Chalbici"
+	culture = gaul
+}
+23134 = {
+	name = "Edenates"
+	culture = gaul
+}
+23135 = {
+	name = "Esubii"
+	culture = gaul
+}
+23136 = {
+	name = "Helvii"
+	culture = gaul
+}
+23137 = {
+	name = "Iconii"
+	culture = gaul
+}
+23138 = {
+	name = "Medulli"
+	culture = gaul
+}
+23139 = {
+	name = "Nemalones"
+	culture = gaul
+}
+23140 = {
+	name = "Nemeturii"
+	culture = gaul
+}
+23141 = {
+	name = "Quariates"
+	culture = gaul
+}
+23142 = {
+	name = "Segovellauni"
+	culture = gaul
+}
+23143 = {
+	name = "Sentienes"
+	culture = gaul
+}
+23144 = {
+	name = "Tricorii"
+	culture = gaul
+}
+23145 = {
+	name = "Veamini"
+	culture = gaul
+}
+23146 = {
+	name = "Vergunni"
+	culture = gaul
+}
+23147 = {
+	name = "Vertamocori"
+	culture = gaul
+}
+23148 = {
+	name = "Vesubiani"
+	culture = gaul
+}
+23149 = {
+	name = "Volcae Tectosages"
+	culture = gaul
+}
+23150 = {
+	name = "Volcae Tolosates"
+	culture = gaul
+}
+23151 = {
+	name = "Volcae Arecomici"
+	culture = gaul
+}
+
+# Aquitania
+23152 = {
+	name = "Garumni"
+	culture = gaul
+}
+23153 = {
+	name = "Boii Boiates"
+	culture = gaul
+}
+23154 = {
+	name = "Belendi"
+	culture = gaul
+}
