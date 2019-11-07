@@ -4,8 +4,14 @@
 title = c_benehardum
 
 # Settlements
-max_settlements = 6 # TODO
+max_settlements = 3
 b_benehardum_benehardum = tribal
+#b_atura_benehardum = city
+#b_sparianum_benehardum = castle
+#b_novum_oppidum_benehardum = castle
+#b_albiciacum_benehardum = temple
+#b_bigorra_castrum_benehardum = castle
+#b_casinomagus_benehardum = city
 
 # Misc
 culture = aquitanian

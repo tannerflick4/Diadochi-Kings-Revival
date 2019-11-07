@@ -4,8 +4,14 @@
 title = c_lattara
 
 # Settlements
-max_settlements = 6 # TODO
+max_settlements = 3
 b_lattara_lattara = tribal
+#b_magalona_lattara = city
+#b_sextantio_lattara = city
+#b_forum_domitii_lattara = city
+#b_frontiana_lattara = castle
+#b_mesua_lattara = city
+#b_varatunnum_lattara = temple
 
 # Misc
 culture = gaul

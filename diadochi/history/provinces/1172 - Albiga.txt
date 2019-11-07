@@ -4,8 +4,14 @@
 title = c_albiga
 
 # Settlements
-max_settlements = 6 # TODO
+max_settlements = 4
 b_albiga_albiga = tribal
+#b_cedros_albiga = city
+#b_hebromagus_albiga = city
+#b_pteregontio_albiga = temple
+#b_buxio_albiga = castle
+#b_marinio_albiga = temple
+#b_marcialio_albiga = castle
 
 # Misc
 culture = gaul

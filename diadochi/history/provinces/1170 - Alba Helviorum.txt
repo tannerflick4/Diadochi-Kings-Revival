@@ -6,12 +6,12 @@ title = c_alba_helviorum
 # Settlements
 max_settlements = 3
 b_alba_helviorum_alba_helviorum = tribal
-b_vallis_clara_alba_helviorum
-b_bergiata_alba_helviorum
-b_vivarium_alba_helviorum
-b_soio_alba_helviorum
-b_dourion_alba_helviorum
-b_akousion_alba_helviorum
+#b_vallis_clara_alba_helviorum = city
+#b_bergiata_alba_helviorum = city
+#b_vivarium_alba_helviorum = city
+#b_soio_alba_helviorum = city
+#b_dourion_alba_helviorum = city
+#b_akousion_alba_helviorum = city
 
 # Misc
 culture = gaul
