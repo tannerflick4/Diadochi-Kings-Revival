@@ -369,8 +369,6 @@ k_s_thrace = {
 	
 
 	title = "SATRAP"
-
-	title = "STRATEGOS"
 	short_name = yes
 
 }
@@ -477,7 +475,17 @@ k_s_syria = {
 
 }
 
-d_s_assyria = {
+k_s_assyria = {
+	color= { 0 75 100 }
+	color2= { 255 255 255 }
+	
+	capital = 175 # Damascus
+	
+	allow = {
+		liege = {
+			has_landed_title = e_macedonia
+		}
+	}
 
 	short_name = yes
 }

@@ -5884,25 +5884,6 @@ k_magna_graecia = {
 			b_hippana6_hippana = {
 			}
 		}
-		c_henna = {
-			color= { 190 164 191 }
-			color2= { 255 255 255 }
-			
-			b_henna_henna = {
-			}
-			b_henna1_henna = {
-			}
-			b_henna2_henna = {
-			}
-			b_henna3_henna = {
-			}
-			b_henna4_henna = {
-			}
-			b_henna5_henna = {
-			}
-			b_henna6_henna = {
-			}
-		}
 	}
 	d_bruttium = {
 		color= { 75 150 225 }
