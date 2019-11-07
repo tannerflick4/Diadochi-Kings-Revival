@@ -5,7 +5,7 @@
 	liege = e_macedonia
 }
 453.6.10 = { # 323 BC
-	liege = d_s_macedon
+	liege = k_s_macedon
 }
 459.8.1 = { # 317 BC
 	liege = k_macedon

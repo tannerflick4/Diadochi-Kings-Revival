@@ -13,22 +13,22 @@
 }
 446.1.1 = { # 330 BC
 	holder = 1201 # Peukestas
-	liege="d_s_persia"
+	liege="k_s_persia"
 }
 460.1.1 = {
 	holder = 401 # Antigonus
-	liege = d_s_phrygia
+	liege = k_s_phrygia
 }
 466.1.1 = {
 	holder = 1001 # Seleukos
-	liege = d_s_babylon
+	liege = k_s_babylonia
 }
 467.1.1 = {
 	liege = e_syria
 }
 482.1.1 = {
 	holder = 1002 # Antiochos
-	liege = d_s_persia
+	liege = k_s_persia
 }
 495.8.1 = {
 	liege = e_syria

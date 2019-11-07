@@ -1,5 +1,8 @@
-467.1.1 = { # Ptolemy becomes King
+454.1.1 = { # Ophellas and the Ptolemies take over Cyrene
 	holder = 1801
+	liege = k_s_egypt
+}
+467.1.1 = { # Ptolemy becomes King
 	liege = e_egypt
 }
 468.1.1 = { # 308 BC, Ophellas dies

@@ -1,10 +1,10 @@
 417.1.1 = {
 	holder = 90701
-	liege = d_s_arachosia
+	liege = k_p_arachosia
 }
 447.7.1 = { # 329 BC
 	holder = 1501 # Peithon Agenoros
-	liege = d_s_indus
+	liege = k_s_indus
 }
 456.1.1 = { # 320 BC
 	holder = 121401 # Rurak

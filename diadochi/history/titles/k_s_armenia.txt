@@ -1,0 +1,10 @@
+446.1.1 = { # 330 BC
+	holder = 80001 # Mithrenes
+	liege = e_macedonia
+}
+453.6.10 = {
+	holder = 10002 # Neoptolemos, Satrap of Armenia
+}
+455.1.1 = {
+	holder = 0
+}

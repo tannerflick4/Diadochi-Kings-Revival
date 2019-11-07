@@ -10,7 +10,7 @@
 }
 453.6.10 = { # 323 BC
 	holder = 1
-	liege = d_s_macedon
+	liege = k_s_macedon
 }
 457.1.1 = { # 319 BC
 	holder = 1601 # Polyperchon

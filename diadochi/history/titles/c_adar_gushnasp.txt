@@ -1,15 +1,16 @@
 417.1.1 = {
 	holder = 90322 # Made up Satrap of Media
-	liege = d_s_media
+	liege = k_p_media
 }
 446.1.1 = { # 330 BC
 	holder = 90325 # Oxydates
+	liege = k_s_media
 }
 448.1.1 = { # 328 BC
 	holder = 90001 # Aturpat
 }
 453.6.10 = {
-	liege = d_s_atropatene
+	liege = k_atropatene
 }
 480.1.1 = {
 	holder = 90003

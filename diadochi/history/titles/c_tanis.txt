@@ -3,13 +3,14 @@
 }
 435.1.1 = {
 	holder = 90501 # Sabaces
-	liege = d_s_egypt
+	liege = k_p_egypt
 }
 443.1.1 = {
 	holder = 90601 # Mazaces
 }
 446.1.1 = { # 330 BC
 	holder = 811 # Kleomenes
+	liege = k_s_egypt
 }
 453.6.10 = {
 	holder = 601

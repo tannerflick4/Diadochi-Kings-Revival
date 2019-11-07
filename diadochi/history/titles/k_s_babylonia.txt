@@ -1,11 +1,6 @@
-417.1.1 = {
-	holder = 90324
-	liege = e_persia
-}
 446.1.1 = { # 330 BC
 	holder = 701 # Archon of Babylonia
 	liege = e_macedonia
-	capital = 194 # Opis
 }
 455.1.1 = {
 	holder = 2801 # Antigonos Dokimos

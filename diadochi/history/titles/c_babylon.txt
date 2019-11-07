@@ -1,9 +1,10 @@
 417.1.1 = {
 	holder = 90324
-	liege = d_s_babylon
+	liege = k_p_babylon
 }
 446.1.1 = { # 330 BC
 	holder = 701 # Archon of Babylonia
+	liege = k_s_babylonia
 }
 453.6.10 = {
 	holder = 801

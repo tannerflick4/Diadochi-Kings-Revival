@@ -1,6 +1,6 @@
 417.1.1 = {
 	holder = 90701
-	liege = d_s_arachosia
+	liege = k_p_arachosia
 }
 446.1.1 = { # 330 BC
 	holder = 120101 # Porus

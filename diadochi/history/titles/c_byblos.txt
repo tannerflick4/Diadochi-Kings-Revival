@@ -1,18 +1,18 @@
 417.1.1 = {
 	holder = 90324
-	liege = d_s_babylon
+	liege = k_p_babylon
 }
 446.1.1 = { # 330 BC
 	holder = 30101 # Laomedon, Satrap of Syria
-	liege = d_s_syria
+	liege = k_s_syria
 }
 456.1.1 = {
 	holder = 601 # Ptolemy
-	liege = d_s_egypt
+	liege = k_s_egypt
 }
 461.2.1 = {
 	holder = 401 # Antigonus
-	liege = d_s_phrygia
+	liege = k_s_phrygia
 }
 467.1.1 = {
 	liege = e_asia

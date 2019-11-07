@@ -704,6 +704,7 @@ d_vascones_adj;Uaskonian;;;;;;;;;;;;x;;
 d_pangaion;Pangaion;;;;;;;;;;;x
 d_pangaion_adj;Pangaionite;;;;;;;;;;;x
 d_orbelos;Orbelos;;;;;;;;;;;x
+<<<<<<< HEAD
 d_orbelos_adj;Orbelian;;;;;;;;;;;x
 d_s_aria;Aria;;;;;;;;;;;;;;x
 d_s_aria_adj;Arian;;;;;;;;;;;;;;x
@@ -755,3 +756,6 @@ d_cassander;Kassandros' Revolt;;;;;;;;;;;;;;x
 d_cassander_adj;Makedonian;;;;;;;;;;;;;;x
 d_henna;Henna;;;;;;;;;;;x
 d_henna_adj;Hennian;;;;;;;;;;;x
+=======
+d_orbelos_adj;Orbelian;;;;;;;;;;;x
+>>>>>>> parent of eee55fb... Satrapy edits

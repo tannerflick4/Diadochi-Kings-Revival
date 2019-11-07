@@ -16,7 +16,7 @@
 }
 462.1.1 = { # 314 BC
 	holder = 401 # Antigonos
-	liege = d_s_phrygia
+	liege = k_s_phrygia
 }
 467.1.1 = { # 309 BC
 	liege = e_asia

@@ -1,14 +1,6 @@
-435.1.1 = {
-	holder = 90501 # Sabaces
-	liege = e_persia
-}
-443.1.1 = {
-	holder = 90601 # Mazaces
-}
 446.1.1 = { # 330 BC
 	holder = 811 # Kleomenes
 	liege = e_macedonia
-	capital = 139 # Alexandria
 }
 453.6.10 = {
 	holder = 601 # Ptolemy
