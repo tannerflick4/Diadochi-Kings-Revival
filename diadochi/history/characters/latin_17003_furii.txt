@@ -4,6 +4,7 @@
 	dynasty = 17003 # Furii
 	religion = roman_main
 	culture = latin
+	father = 170202
 	423.1.1 = { # 353 BC Made up
 		birth="yes"
 	}

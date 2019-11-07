@@ -16,6 +16,7 @@
 	dynasty = 5026 # Polemonioi
 	religion = greek_main
 	culture = ionian
+	father = 52001
 	432.1.1 = {
 		birth="yes" # 344 BC
 	}

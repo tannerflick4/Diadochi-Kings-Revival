@@ -1,0 +1,20 @@
+# 1109 - Motyon
+
+# County Title
+title = c_motyon
+
+# Settlements
+max_settlements = 6
+b_motyon_motyon = castle
+b_motyon1_motyon = castle
+b_motyon2_motyon = city
+#b_motyon3_motyon = castle
+#b_motyon4_motyon = castle
+#b_motyon5_motyon = city
+#b_motyon6_motyon = castle
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History

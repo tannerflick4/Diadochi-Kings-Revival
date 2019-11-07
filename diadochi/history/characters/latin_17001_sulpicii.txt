@@ -4,6 +4,7 @@
 	dynasty = 17001 # Sulpicii
 	religion = roman_main
 	culture = latin
+	father = 170004
 	423.1.1 = { # 353 BC Made up
 		birth="yes"
 	}
@@ -16,6 +17,7 @@
 	dynasty = 17001 # Sulpicii
 	religion = roman_main
 	culture = latin
+	father = 170001
 	443.1.1 = { # 333 BC Made up
 		birth="yes"
 	}
@@ -40,6 +42,7 @@
 	dynasty = 17001 # Sulpicii
 	religion = roman_main
 	culture = latin
+	father = 170003
 	370.1.1 = { # 406 BC Made Up
 		birth="yes"
 	}
