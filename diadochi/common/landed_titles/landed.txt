@@ -13226,65 +13226,65 @@ k_gallia = {
 			}
 		}
 	}
-	d_gallia_lugdunensis = {
-		color= { 50 200 0 }
-		color2= { 255 255 255 }
-		
-		c_lugdunum = {
-			color= { 50 200 0 }
-			color2= { 255 255 255 }
-			
-			b_lugdunum_lugdunum = {
-			}
-			b_vienna_lugdunum = {
-			}
-			b_bergusium_lugdunum = {
-			}
-			b_brioratis_lugdunum = {
-			}
-			b_ludna_lugdunum = {
-			}
-			b_lunna_lugdunum = {
-			}
-		}
-		c_andematunnum = {
-			color= { 40 210 0 }
-			color2= { 255 255 255 }
-			
-			b_andematunnum_andematunnum = {
-			}
-			b_varcia_andematunnum = {
-			}
-			b_castrum_divionense = {
-			}
-		}
-		c_vesontio = {
-			color= { 60 210 0 }
-			color2= { 255 255 255 }
-			
-			b_vesontio_vesontio = {
-			}
-			b_epamanduodurum_vesontio = {
-			}
-			b_ariorica_vesontio = {
-			}
-			b_ledo_vesontio = {
-			}
-		}
-		c_luxovium = {
-			color= { 50 190 10 }
-			color2= { 255 255 255 }
-			
-			b_luxovium_luxovium = {
-			}
-			b_uruncis_luxovium = {
-			}
-			b_larga_luxovium = {
-			}
-			b_basilia_luxovium = {
-			}
-		}
-	}
+#	d_gallia_lugdunensis = {
+#		color= { 50 200 0 }
+#		color2= { 255 255 255 }
+#		
+#		c_lugdunum = {
+#			color= { 50 200 0 }
+#			color2= { 255 255 255 }
+#			
+#			b_lugdunum_lugdunum = {
+#			}
+#			b_vienna_lugdunum = {
+#			}
+#			b_bergusium_lugdunum = {
+#			}
+#			b_brioratis_lugdunum = {
+#			}
+#			b_ludna_lugdunum = {
+#			}
+#			b_lunna_lugdunum = {
+#			}
+#		}
+#		c_andematunnum = {
+#			color= { 40 210 0 }
+#			color2= { 255 255 255 }
+#			
+#			b_andematunnum_andematunnum = {
+#			}
+#			b_varcia_andematunnum = {
+#			}
+#			b_castrum_divionense = {
+#			}
+#		}
+#		c_vesontio = {
+#			color= { 60 210 0 }
+#			color2= { 255 255 255 }
+#			
+#			b_vesontio_vesontio = {
+#			}
+#			b_epamanduodurum_vesontio = {
+#			}
+#			b_ariorica_vesontio = {
+#			}
+#			b_ledo_vesontio = {
+#			}
+#		}
+#		c_luxovium = {
+#			color= { 50 190 10 }
+#			color2= { 255 255 255 }
+#			
+#			b_luxovium_luxovium = {
+#			}
+#			b_uruncis_luxovium = {
+#			}
+#			b_larga_luxovium = {
+#			}
+#			b_basilia_luxovium = {
+#			}
+#		}
+#	}
 	d_helvetia = {
 		color= { 50 225 25 }
 		color2= { 255 255 255 }
