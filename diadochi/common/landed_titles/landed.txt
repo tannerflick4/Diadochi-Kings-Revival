@@ -10551,9 +10551,13 @@ k_greece = {
 		}
 	}
 	
+	capital = 18 # Athens
+	
 	d_peloponnese = {
 		color= { 100 175 255 }
 		color2= { 255 255 255 }
+		
+		capital = 21 # Corinth
 	
 		c_corinth = {
 			color= { 100 175 255 }
@@ -10673,6 +10677,8 @@ k_greece = {
 	d_attike = {
 		color= { 100 200 255 }
 		color2= { 255 255 255 }
+		
+		capital = 18 # Athens
 	
 		c_athens = {
 			color= { 100 200 255 }
@@ -10741,6 +10747,8 @@ k_greece = {
 	d_aetolia = {
 		color= { 100 225 225 }
 		color2= { 255 255 255 }
+		
+		capital = 629 # Trachis
 		
 		c_trachis = {
 			color= { 100 215 215 }
@@ -10829,6 +10837,8 @@ k_greece = {
 	d_crete = {
 		color= { 100 200 225 }
 		color2= { 255 255 255 }
+		
+		capital = 9 # Knossos
 	
 		c_kydonia = {
 			color= { 100 200 225 }
@@ -10872,6 +10882,8 @@ k_greece = {
 	d_euboia = {
 		color= { 100 175 200 }
 		color2= { 255 255 255 }
+		
+		capital = 2 # Chalcis
 	
 		c_chalcis = {
 			color= { 100 175 200 }
@@ -10922,11 +10934,12 @@ k_greece = {
 	d_cyclades = {
 		color= { 100 175 225 }
 		color2= { 255 255 255 }
+		
+		capital = 5 # Naxos
 	
 		c_andros = {
 			color= { 90 165 210 }
 			color2= { 255 255 255 }
-		
 		
 			b_palaeopolis_andros = {
 			}
@@ -10962,6 +10975,8 @@ k_greece = {
 		color2= { 255 255 255 }
 		
 		title = "TAGUS"
+		
+		capital = 33 # Larissa
 		
 		c_lamia = {
 			color= { 100 190 190 }
@@ -11058,7 +11073,9 @@ k_greece = {
 	d_chalcidice = {
 		color= { 100 175 200 }
 		color2= { 255 255 255 }
-				
+		
+		capital = 35 # Chalkidiki
+		
 		c_chalkidiki = {
 			color= { 100 175 200 }
 			color2= { 255 255 255 }
@@ -11126,9 +11143,12 @@ k_nabataea = {
 		culture = nabataean
 	}
 	
+	capital = 170 # Petra
+	
 	d_sinai = {
 		color= { 200 150 25 }
 		color2= { 255 255 255 }
+		
 		egyptian = "Mafkat"
 	
 		c_pelusium = {
@@ -11175,6 +11195,8 @@ k_nabataea = {
 	d_nabataea = {
 		color= { 200 150 0 }
 		color2= { 255 255 255 }
+		
+		capital = 170 # Petra
 	
 		c_auara = {
 			color= { 190 160 0 }

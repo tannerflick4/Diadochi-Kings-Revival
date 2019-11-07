@@ -4,6 +4,7 @@
 	dynasty = 18001 # Arrunsuna
 	religion = etruscan_main
 	culture = etruscan
+	father = 180003
 	421.1.1 = { # 355 BC Made up
 		birth="yes"
 	}
