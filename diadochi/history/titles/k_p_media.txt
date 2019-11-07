@@ -1,7 +1,0 @@
-417.1.1 = {
-	holder = 90322 # Made up Satrap of Media
-	liege = e_persia
-}
-448.1.1 = {
-	holder = 0
-}

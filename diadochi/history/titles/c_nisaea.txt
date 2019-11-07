@@ -1,6 +1,6 @@
 417.1.1 = {
 	holder = 90312 # Artaxerxes III
-	liege = k_p_bactria
+	liege = d_s_bactria
 }
 418.1.1 = {
 	holder = 90313 # Artaxerxes IV
@@ -10,7 +10,6 @@
 }
 447.7.1 = { # 329 BC
 	holder = 90205 # Artabazos
-	liege="k_s_bactria"
 }
 448.1.1 = { # 328 BC
 	holder = 2901 # Cleitus the Black

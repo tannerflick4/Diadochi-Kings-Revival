@@ -1,0 +1,20 @@
+# 1111 - Morgantina
+
+# County Title
+title = c_morgantina
+
+# Settlements
+max_settlements = 6
+b_morgantina_morgantina = castle
+b_morgantina1_morgantina = castle
+b_morgantina2_morgantina = city
+#b_morgantina3_morgantina = castle
+#b_morgantina4_morgantina = castle
+#b_morgantina5_morgantina = city
+#b_morgantina6_morgantina = castle
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History

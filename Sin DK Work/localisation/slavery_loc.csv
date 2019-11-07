@@ -1,0 +1,158 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+custom_become_slave;[Root.GetFirstName] will become your slave;;;;;;;;;;;;;x
+#CB
+slave_raid;Slave Raid;;;;;;;;;;;;;x
+slave_raid_desc;Begin a slave raid to fill the holds.;;;;;;;;;;;;;x
+CB_NAME_SLAVE;Slave Raid;;;;;;;;;;;;;x
+WAR_NAME_SLAVE;$ORDER$$FIRST_ADJ$ Slave Raid on $SECOND$;;;;;;;;;;;;;x
+anti_slavery;Anti-slavery War;;;;;;;;;;;;;x
+anti_slavery_desc;Begin a war to end Slavery.;;;;;;;;;;;;;x
+CB_NAME_ANTISLAVERY;War Against Slavery;;;;;;;;;;;;;x
+WAR_NAME_ANTISLAVERY;$ORDER$$FIRST_ADJ$ War to end $SECOND$'s Slavery;;;;;;;;;;;;;x
+
+#Opinions
+opinion_slave;My Slave;;;;;;;;;;;;;x
+opinion_master;My Master;;;;;;;;;;;;;x
+opinion_slaves_freed;Freed my Slaves;;;;;;;;;;;;;x
+opinion_freed_slave;Freed me;;;;;;;;;;;;;x
+opinion_runaway;Runaway Slave;;;;;;;;;;;;;x
+opinion_slave_raped;Forced Upon;;;;;;;;;;;;;x
+opinion_slave_bred;Forced To Breed;;;;;;;;;;;;;x
+opinion_slave_bred_with;Forced To Breed;;;;;;;;;;;;;x
+opinion_threatened;Threatened me;;;;;;;;;;;;;x
+opinion_lashed;Lashed me;;;;;;;;;;;;;x
+opinion_tortured;Tortured me;;;;;;;;;;;;;x
+opinion_brutally_tortured;Brutally Tortured me;;;;;;;;;;;;;x
+
+#Modifiers
+slave_hold_1;Small Slavehold;;;;;;;;;;;;;x
+slave_hold_1_desc;A few slaves are in the hold.;;;;;;;;;;;;;x
+slave_hold_2;Large Slavehold;;;;;;;;;;;;;x
+slave_hold_2_desc;Many slaves are in the hold.;;;;;;;;;;;;;x
+slave_hold_3;Massive Slavehold;;;;;;;;;;;;;x
+slave_hold_3_desc;Innumerable slaves are in the hold.;;;;;;;;;;;;;x
+
+#Laws
+slavery;Slavery Laws;;;;;;;;;;;;;x
+slavery_0;No Slavery;;;;;;;;;;;;;x
+slavery_0_desc;Slavery is outlawed in the Realm;;;;;;;;;;;;;x
+slavery_1;Indentured;;;;;;;;;;;;;x
+slavery_1_desc;Slavery is generally outlawed  in the Realm, but contract service is allowed.;;;;;;;;;;;;;x
+slavery_2;Thralldom;;;;;;;;;;;;;x
+slavery_2_desc;Slavery is permitted in the Realm, but offspring have the rights of Citizenship.;;;;;;;;;;;;;x
+slavery_3;Chattel Slavery;;;;;;;;;;;;;x
+slavery_3_desc;Full Chattel Slavery is legal in the Realm.;;;;;;;;;;;;;x
+
+#Traits
+trait_slave;Slave;;;;;;;;;;;;;x
+trait_slave_desc;Is Enslaved;;;;;;;;;;;;;x
+trait_slaver;Slavemaster;;;;;;;;;;;;;x
+trait_slaver_desc;Owns Slaves;;;;;;;;;;;;;x
+trait_convert;True Faith Converts;;;;;;;;;;;;;x
+trait_convert_desc;Convert in service of the Silent One;;;;;;;;;;;;;x
+trait_true_faither;True Faith Follower;;;;;;;;;;;;;x
+trait_true_faither_desc;Adheres to the tenats of the Silent One;;;;;;;;;;;;;x
+
+#Decisions
+slave_phone_home;Return to Master;;;;;;;;;;;;;x
+slave_phone_home_desc;Out of place Slave;;;;;;;;;;;;;x
+enslave_prisoner;Enslave Prisoner;;;;;;;;;;;;;x
+enslave_prisoner_desc;Can enslave this prisoner;;;;;;;;;;;;;x
+arm_slaves;Arm the Slaves;;;;;;;;;;;;;x
+arm_slaves_desc;The war grows desperate, you can do the unthinkable and arm the Slaves.;;;;;;;;;;;;;x
+buy_slaves;Buy a lot of Slaves;;;;;;;;;;;;;x
+buy_slaves_desc;Seek out the Slave trader and purchase a host of slaves;;;;;;;;;;;;;x
+sell_slaves;Sell a lot of Slaves;;;;;;;;;;;;;x
+sell_slaves_desc;Sell one of your slave lots to the Slave Trader;;;;;;;;;;;;;x
+sell_slave;Sell [Root.GetBestName];;;;;;;;;;;;;x
+sell_slave_desc;Seek out the Slave Trader and sell [Root.GetBestName];;;;;;;;;;;;;x
+rape_slave_dec;Bed [Root.GetFirstName];;;;;;;;;;;;;x
+rape_slave_dec_desc;As [Root.GetFirstName]'s master, you can force [Root.GetFirstName] into bed.;;;;;;;;;;;;;x
+breed_slave_dec;Breed [Root.GetFirstName];;;;;;;;;;;;;x
+breed_slave_dec_desc;As [Root.GetFirstName]'s master, you can force [Root.GetFirstName] and [FromFrom.GetFirstName] to breed.;;;;;;;;;;;;;x
+torture_slave_dec;Torture [Root.GetFirstName];;;;;;;;;;;;;x
+torture_slave_dec_desc;As [Root.GetFirstName]'s master, you can torture [Root.GetFirstName].;;;;;;;;;;;;;x
+
+#Events
+EVTDESCslavery_events.1;[master.GetFirstName] calls you into [master.GetHerHis] bedchambers, 'I have need of you tonight, remove your clothes.' You reluctantly slip from your garb and approach the master's bed. Tears well in your eyes as [master.GetSheHe] begins to fondle you. 'Now, onto the bed.';;;;;;;;;;;;;x
+EVTOPTAslavery_events.1;Yes, master.;;;;;;;;;;;;;x
+EVTDESCAslavery_events.11;You command [slave.GetFirstName] into the bed, where you grip him roughly and begin to slowly stroke. He groans a few times before becoming tumescent. Your lips curl into a grin and you begin to touch yourself. Soon, the darkened halls begin echoing with your moans of pleasure.;;;;;;;;;;;;;x
+EVTDESCBslavery_events.11;You command [slave.GetFirstName] into the bed, you slowly massage yourself as you look upon her. You then slid your hand up her thigh, she begins to shiver. A grin forms on your face as you forcibly take hold over her. She releases a weak moan when you slip a finger inside. You douse the light as you slip into the bed.;;;;;;;;;;;;;x
+EVTOPTAslavery_events.11;It's good to be me.;;;;;;;;;;;;;x
+EVTDESCslavery_events.2;As a matter of course you discover [runaway_slave.GetFirstName] in the nearby fields with supplies. You realize [runaway_slave.GetSheHe] is attemping to flee and give chase.;;;;;;;;;;;;;x
+EVTOPTAslavery_events.2;Return at once!;;;;;;;;;;;;;x
+EVTDESCAslavery_events.211;You catch up to [runaway_slave.GetFirstName] and take [runaway_slave.GetHerHim] to the ground, but despite your efforts [runaway_slave.GetSheHe] slips away. You've lost a slave.;;;;;;;;;;;;;x
+EVTDESCBslavery_events.211;You catch up to [runaway_slave.GetFirstName] and take [runaway_slave.GetHerHim] to the ground, you soon gain control and ensnare the runaway.;;;;;;;;;;;;;x
+EVTOPTAslavery_events.211;Damn [runaway_slave.GetHerHim]!;;;;;;;;;;;;;x
+EVTOPTBslavery_events.211;It's lashes for you.;;;;;;;;;;;;;x
+EVTOPTCslavery_events.211;It's death.;;;;;;;;;;;;;x
+EVTDESCslavery_events.21;A great reckus comes from the slave hold, you race out and find two slaves, [slave_1.GetFirstName] and [slave_2.GetFirstName], in a heated fight.;;;;;;;;;;;;;x
+EVTOPTAslavery_events.21;Lashes for both.;;;;;;;;;;;;;x
+EVTOPTBslavery_events.21;[slave_1.GetFirstName] appears at fault, lashes for [slave_1.GetHerHim].;;;;;;;;;;;;;x
+EVTOPTCslavery_events.21;[slave_2.GetFirstName] appears at fault, lashes for [slave_2.GetHerHim].;;;;;;;;;;;;;x
+EVTOPTDslavery_events.21;That's enough of that, end it here.;;;;;;;;;;;;;x
+EVTDESCslavery_events.22;You begin to notice that two slaves, [slave_1.GetFirstName] and [slave_2.GetFirstName], are more productive when working together, perhaps they are friends.;;;;;;;;;;;;;x
+EVTOPTAslavery_events.22;I see.;;;;;;;;;;;;;x
+EVTDESCslavery_events.23;[slave_1.GetFirstName] has been injured in the course of [slave_1.GetHerHis] duties.;;;;;;;;;;;;;x
+EVTOPTAslavery_events.23;Unfortunate.;;;;;;;;;;;;;x
+EVTDESCslavery_events.24;[slave_1.GetFirstName] has begun to show the wears of age, [slave_1.GetSheHe] is visibly less attractive.;;;;;;;;;;;;;x
+EVTOPTAslavery_events.24;Unfortunate.;;;;;;;;;;;;;x
+EVTDESCslavery_events.25;You happen upon [slave_1.GetFirstName] in the study with a book. It appears that [slave_1.GetSheHe] has been learning to read and, apparently, increased [slave_1.GetHerHis] abilities.;;;;;;;;;;;;;x
+EVTOPTAslavery_events.25;Impressive.;;;;;;;;;;;;;x
+EVTOPTBslavery_events.25;Bring my whip!;;;;;;;;;;;;;x
+EVTDESCslavery_events.3;A passing caravan has brought with it a number of slaves. One of the slaves, [slave_1.GetFirstName], has caught your eye as a quality sort and, after some negotiation, the caravan turns [slave_1.GetHerHim] over to you.;;;;;;;;;;;;;x
+EVTOPTAslavery_events.3;Excellent.;;;;;;;;;;;;;x
+EVTDESCslavery_events.4;[master.GetFirstName] enters the slave hold, a menacing smirk on [master.GetHerHis] face. 'You are to couple and bear a child.';;;;;;;;;;;;;x
+EVTOPTAslavery_events.4;Yes, master.;;;;;;;;;;;;;x
+EVTOPTBslavery_events.4;NO!;;;;;;;;;;;;;x
+EVTDESCslavery_events.41;[mare.GetFirstName] stares at you, defiance burning in [mare.GetHerHis] eyes. 'I can not.';;;;;;;;;;;;;x
+EVTOPTAslavery_events.41;Take [mare.GetHerHim] aside for a 'talk';;;;;;;;;;;;;x
+EVTOPTBslavery_events.41;Bring me my whip!;;;;;;;;;;;;;x
+EVTOPTCslavery_events.41;*Brandish your knife* You sure?;;;;;;;;;;;;;x
+EVTOPTDslavery_events.41;Fine then, perhaps another time.;;;;;;;;;;;;;x
+EVTDESCslavery_events.42;[master.GetFirstName] smirking face turns upon you. 'You are to bed her, now.';;;;;;;;;;;;;x
+EVTOPTAslavery_events.42;Yes, master.;;;;;;;;;;;;;x
+EVTOPTBslavery_events.42;NO!;;;;;;;;;;;;;x
+EVTDESCslavery_events.43;[stud.GetFirstName] stares at you, defiance burning in [stud.GetHerHis] eyes. 'I can not.';;;;;;;;;;;;;x
+EVTOPTAslavery_events.43;Take [stud.GetHerHim] aside for a 'talk';;;;;;;;;;;;;x
+EVTOPTBslavery_events.43;Bring me my whip!;;;;;;;;;;;;;x
+EVTOPTCslavery_events.43;*Brandish your knife* You sure?;;;;;;;;;;;;;x
+EVTOPTDslavery_events.43;Fine then, perhaps another time.;;;;;;;;;;;;;x
+EVTDESCslavery_events.44;You watch as [stud.GetFirstName] stokes [stud.GetHerHis] fires, after a few moments without result you bark at [mare.GetFirstName], 'Aid [stud.GetHerHim].' [mare.GetSheHeCap] does as bid and begins to stroke [stud.GetHerHim]. [stud.GetSheHeCap] rises and enters [mare.GetFirstName], they both look away as [stud.GetSheHe] starts to trust. After [stud.GetSheHe] has spilled, they back away from one another, their gazes downcast.;;;;;;;;;;;;;x
+EVTOPTAslavery_events.44;Excellent;;;;;;;;;;;;;x
+EVTDESCslavery_events.5;[master.GetFirstName] enters the slave hold and scans the room, soon [master.GetHerHis] gaze falls on you with [master.GetHerHis] face forming into a sinister grin. [master.GetHerHis] hand rises, finger outstretched, 'You, Come with me.';;;;;;;;;;;;;x
+EVTOPTAslavery_events.5;Yes, master.;;;;;;;;;;;;;x
+EVTDESCslavery_events.51;You bring [slave.GetFirstName] to your shed. As you enter, you light the nearby torch. 'Come in,' you call to [slave.GetFirstName]. [slave.GetSheHeCap] slowly makes way into the room. You feel the gleeful grin grow as you scan the instruments about you.;;;;;;;;;;;;;x
+EVTOPTAslavery_events.51;The Whip;;;;;;;;;;;;;x
+EVTOPTBslavery_events.51;The Knife;;;;;;;;;;;;;x
+EVTOPTCslavery_events.51;Get Creative;;;;;;;;;;;;;x
+EVTOPTDslavery_events.51;What am I doing??! This is wrong!;;;;;;;;;;;;;x
+EVTDESCAslavery_events.52;Your body trembles as you watch [master.GetFirstName] slowly study the instruments scattered about the room. Then [master.GetHerHis] hand takes up the whip and you let out a whimper.'Hands on the wall.' [master.GetFirstName] barks;;;;;;;;;;;;;x
+EVTDESCBslavery_events.52;Your body trembles as you watch [master.GetFirstName] slowly study the instruments scattered about the room. Then [master.GetHerHis] hand takes up the knife and you let out a whimper.'Hands on the wall.' [master.GetFirstName] barks;;;;;;;;;;;;;x
+EVTDESCCslavery_events.52;Your body trembles as you watch [master.GetFirstName] slowly study the instruments scattered about the room. 'Something a bit more creative I think.' 'Sit in the chair.' You whimper as [master.GetFirstName] barks and [master.GetSheHe] stokes a braizer with a poker.;;;;;;;;;;;;;x
+EVTDESCDslavery_events.52;Your body trembles as you watch [master.GetFirstName] slowly study the instruments scattered about the room. 'Something a bit more creative I think.' 'Come here.' You whimper when [master.GetFirstName] approaches a barrel of water and removes the lid.;;;;;;;;;;;;;x
+EVTDESCEslavery_events.52;Your body trembles as you watch [master.GetFirstName] slowly study the instruments scattered about the room. 'Something a bit more creative I think.' You whimper when [master.GetFirstName] approaches the rack in the center of the room and barks at you, 'On the table.';;;;;;;;;;;;;x
+EVTOPTAslavery_events.52;Yes, master.;;;;;;;;;;;;;x
+EVTDESCAslavery_events.53;'Hands on the wall.' [slave.GetFirstName] trembles as [slave.GetSheHe] follows the command. You rear back and unleash the whip against [slave.GetFirstName]'s back, [slave.GetSheHe] screams in agony as [slave.GetHerHis] back is ripped open and blood spurts. You smile, 'One.';;;;;;;;;;;;;x
+EVTDESCBslavery_events.53;'Hands on the wall.' [slave.GetFirstName] trembles as [slave.GetSheHe] follows the command. You take the knife and press it against [slave.GetFirstName]'s back and slide it. [slave.GetSheHeCap] wails from the cut and blood spurts, you taste metal as a bit enters your mouth. With a smile, you press the knife again.;;;;;;;;;;;;;x
+EVTDESCCslavery_events.53;You stir the fire with a poker then command [slave.GetFirstName], 'Sit in the chair.' [slave.GetSheHeCap] does as bid and you can hear the chair squeak from [slave.GetFirstName] trembling. When the poker is red hot, you press it into [slave.GetFirstName]'s arm. You smile at [slave.GetSheHe] screams as [slave.GetHerHis] flesh boiling and the smell of cooked flesh wafts to you.;;;;;;;;;;;;;x
+EVTDESCDslavery_events.53;'Come here.' You command. [slave.GetFirstName] trembles as [slave.GetSheHe] approaches the barrel of water. You pull the lid then grab [slave.GetFirstName]'s neck and shove [slave.GetHerHis] head into the barrel. [slave.GetFirstName] limbs fail about as [slave.GetSheHe] struggles for breath, once they stop, you pull [slave.GetHerHim] from the water. As [slave.GetFirstName] collects [slave.GetHerHim]self, you smile, 'Again.';;;;;;;;;;;;;x
+EVTDESCEslavery_events.53;[slave.GetFirstName] begins to tremble when you command, 'On the table.' As [slave.GetSheHe] does, you slip the bindings on [slave.GetHerHis] limbs. 'Stop resisting' you bark as [slave.GetSheHe] pulls away from the last bind. Finally in place, you begin to turn the wheel. [slave.GetFirstName] screams as the bindings grow tight, then when you hear cracking you smile wide and give the wheel another turn.;;;;;;;;;;;;;x
+EVTOPTAslavery_events.53;*Wipe the sweat from your face*;;;;;;;;;;;;;x
+
+#Maintenance
+EVTDESCslavery_mt_events.11;The Indenture of [From.GetFirstName] has come to an end.;;;;;;;;;;;;;x
+EVTOPTAslavery_mt_events.11;Very Well;;;;;;;;;;;;;x
+EVTDESCslavery_mt_events.21;A child has been born to one of your slaves, [slave_parent.GetFirstName].;;;;;;;;;;;;;x
+EVTOPTAslavery_mt_events.21;Excellent, another slave;;;;;;;;;;;;;x
+EVTOPTBslavery_mt_events.21;Hmm, [From.GetSheHe] is my child.;;;;;;;;;;;;;x
+EVTOPTCslavery_mt_events.21;I have enough slaves, be done with it.;;;;;;;;;;;;;x
+EVTDESCslavery_mt_events.3;Slavery has been ended in the Realm.;;;;;;;;;;;;;x
+EVTOPTAslavery_mt_events.3;Damn;;;;;;;;;;;;;x
+EVTDESCslavery_mt_events.41;As Part of our Victory, we have rounded up a portion of the enemy population.;;;;;;;;;;;;;x
+EVTOPTAslavery_mt_events.41;Oh good, more slaves.;;;;;;;;;;;;;x
+EVTOPTBslavery_mt_events.41;I've enough slaves.;;;;;;;;;;;;;x
+EVTDESCslavery_mt_events.42;The slaves have bred and multiplied, the holds have been expanded to accommodate them.;;;;;;;;;;;;;x
+EVTOPTAslavery_mt_events.42;Oh good, more slaves.;;;;;;;;;;;;;x
+EVTDESCslavery_mt_events.43;Disease and death have diminished the slave population in great number, the holds have been shrunk for better management of the diminishing population.;;;;;;;;;;;;;x
+EVTOPTAslavery_mt_events.43;Oh well.;;;;;;;;;;;;;x

@@ -387,6 +387,7 @@ technology = {
 	titles = {
 		d_sicani
 		d_sicels
+		d_henna
 		d_bruttium
 		d_lucania
 		d_apulia

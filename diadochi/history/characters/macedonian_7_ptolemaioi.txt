@@ -5,6 +5,9 @@
 	religion = greek_main
 	culture = macedonian
 	
+	dna = niccjbmdnbf
+	properties = tj0ebd00000
+	
 	add_trait = ambitious
 	add_trait = tough_soldier
 	add_trait = greedy

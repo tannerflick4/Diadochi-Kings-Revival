@@ -1,6 +1,6 @@
 417.1.1 = {
 	holder = 80003 # Orontes
-	liege = k_p_armenia
+	liege = d_s_armenia
 }
 432.1.1 = {
 	holder = 90314 # Darius III of Persia

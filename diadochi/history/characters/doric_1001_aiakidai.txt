@@ -20,7 +20,7 @@
 	dynasty = 1001 # Aiakidai
 	religion = greek_main
 	culture = doric
-	
+	father = 10005
 	add_trait = strong # First to scale the walls of Gaza
 	add_trait = stressed # Restless
 	add_trait = deceitful

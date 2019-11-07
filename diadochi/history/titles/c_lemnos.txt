@@ -15,7 +15,7 @@
 	liege = d_attike
 }
 461.10.1 = { # 315 BC
-	liege = k_s_phrygia
+	liege = d_s_phrygia
 }
 469.1.1 = { # 307 BC
 	liege = d_r_athens

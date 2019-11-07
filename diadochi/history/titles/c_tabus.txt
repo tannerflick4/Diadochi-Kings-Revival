@@ -1,18 +1,18 @@
 417.1.1 = {
 	holder = 90322 # Made up Satrap of Media
-	liege = k_p_media
+	liege = d_s_media
 }
 448.1.1 = { # 328 BC
 	holder = 20101 # Sibyrtios
-	liege="k_s_gedrosia"
+	liege="d_s_gedrosia"
 }
 453.6.10 = {
 	holder = 1301 # Tlepolemos
-	liege="k_s_carmania"
+	liege="d_s_carmania"
 }
 460.1.1 = {
 	holder = 401 # Antigonus
-	liege = k_s_phrygia
+	liege = d_s_phrygia
 }
 467.1.1 = {
 	liege = e_asia

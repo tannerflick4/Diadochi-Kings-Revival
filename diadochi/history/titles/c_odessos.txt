@@ -11,7 +11,7 @@
 	liege = e_macedonia
 }
 453.6.9 = { # 323 BC
-	liege="k_s_thrace"
+	liege="d_s_thrace"
 }
 467.1.1 = { # 309 BC
 	liege = k_odrysia

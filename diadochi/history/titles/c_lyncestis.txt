@@ -26,7 +26,7 @@
 	holder = 3511 # Arrhabaeus of the Lyncestians.
 }
 453.6.10 = { # 323 BC, Alexander dies.
-	liege = k_s_macedon
+	liege = d_s_macedon
 }
 459.10.1 = { # 317 BC, Cassander takes over.
 	liege = k_macedon

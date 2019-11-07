@@ -5,6 +5,9 @@
 	religion = greek_main
 	culture = ionian
 	
+	dna = poqdpurlozq
+	properties = ngpeed00000
+	
 	stewardship = 8
 	diplomacy = 3
 	

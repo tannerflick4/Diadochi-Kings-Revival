@@ -4,7 +4,9 @@
 	dynasty = 17 # Simmiadai
 	religion = greek_main
 	culture = macedonian
-	#employer = 1 # Antipater
+	
+	dna = uywjmxmlyaa
+	properties = wj0dad00000
 	
 	add_trait = misguided_warrior
 	

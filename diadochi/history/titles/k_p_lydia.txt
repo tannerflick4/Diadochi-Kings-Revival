@@ -1,7 +1,0 @@
-417.1.1 = {
-	holder = 90323
-	liege = e_persia
-}
-442.1.1 = {
-	holder = 0
-}

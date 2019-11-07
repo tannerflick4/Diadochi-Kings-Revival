@@ -9,9 +9,10 @@
 	liege = e_macedonia
 }
 453.6.10 = {
-	liege="k_s_thrace"
+	holder = 0
 }
 467.1.1 = {
+	holder = 40101
 	liege = k_odrysia
 }
 476.1.1 = {

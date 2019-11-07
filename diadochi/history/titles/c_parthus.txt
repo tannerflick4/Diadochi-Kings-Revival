@@ -15,7 +15,7 @@
 	holder = 140101 # Glaucias of the Taulanti
 }
 453.6.10 = { # 323 BC
-	liege = k_s_macedon
+	liege = d_s_macedon
 }
 459.10.1 = { # 317 BC
 	liege = k_macedon

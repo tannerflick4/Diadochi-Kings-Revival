@@ -1,6 +1,6 @@
 417.1.1 = {
 	holder = 80003 # Orontes
-	liege = k_p_armenia
+	liege = d_s_armenia
 }
 432.1.1 = {
 	holder = 90314 # Darius III of Persia
@@ -14,14 +14,14 @@
 }
 454.1.1 = {
 	holder = 50101 # Eumenes
-	liege = k_s_cappadocia
+	liege = d_s_cappadocia
 }
 458.5.1 = {
 	liege = d_cappadocia
 }
 460.1.1 = {
 	holder = 401 # Antigonus
-	liege = k_s_phrygia
+	liege = d_s_phrygia
 }
 467.1.1 = {
 	liege = e_asia

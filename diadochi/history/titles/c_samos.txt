@@ -7,11 +7,11 @@
 }
 454.1.1 = {
 	holder = 201 # Menander, Satrap of Lydia
-	liege = k_s_lydia
+	liege = d_s_lydia
 }
 457.5.1 = {
 	holder = 401 # Antigonos
-	liege = k_s_phrygia
+	liege = d_s_phrygia
 }
 467.1.1 = {
 	liege = e_asia

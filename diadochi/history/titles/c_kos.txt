@@ -12,13 +12,13 @@
 	liege = e_macedonia
 }
 453.6.10 = { # 323 BC
-	liege = k_s_caria
+	liege = d_s_caria
 }
 463.1.1 = { # 313 BC
-	liege = k_s_phrygia
+	liege = d_s_phrygia
 }
 465.1.1 = { # 311 BC
-	liege = k_s_egypt
+	liege = d_s_egypt
 }
 467.1.1 = { # 309 BC
 	liege = e_egypt

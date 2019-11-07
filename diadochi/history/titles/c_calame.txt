@@ -1,14 +1,14 @@
 417.1.1 = {
 	holder = 90701
-	liege = k_p_arachosia
+	liege = d_s_arachosia
 }
 447.7.1 = { # 329 BC
 	holder = 20101 # Sibyrtios
-	liege="k_s_gedrosia"
+	liege="d_s_gedrosia"
 }
 460.1.1 = {
 	holder = 401 # Antigonus
-	liege = k_s_phrygia
+	liege = d_s_phrygia
 }
 467.1.1 = {
 	liege = e_asia

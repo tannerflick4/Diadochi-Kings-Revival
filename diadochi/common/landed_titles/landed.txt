@@ -5644,13 +5644,6 @@ k_magna_graecia = {
 			b_calacte_himera = {
 			}
 		}
-		c_maleth = {
-			color={ 116 190 175 }
-			color2={ 255 255 255 }
-			
-			b_maleth_maleth = {
-			}
-		}
 		c_rhegium = {
 			color= { 65 140 225 }
 			color2= { 255 255 255 }
@@ -5671,8 +5664,26 @@ k_magna_graecia = {
 			b_tauromenium_messana = {
 			}
 		}
+		c_tyndaris = {
+			color= { 159 191 78 }
+			color2= { 255 255 255 }
+			
+			b_tyndaris_tyndaris = {
+			}
+			b_tyndaris1_tyndaris = {
+			}
+			b_tyndaris2_tyndaris = {
+			}
+			b_tyndaris3_tyndaris = {
+			}
+			b_tyndaris4_tyndaris = {
+			}
+			b_tyndaris5_tyndaris = {
+			}
+			b_tyndaris6_tyndaris = {
+			}
+		}
 	}
-	
 	d_sicels = {
 		color= { 75 175 225 }
 		color2= { 255 255 255 }
@@ -5715,6 +5726,70 @@ k_magna_graecia = {
 			b_selinus = {
 			}
 			b_heraclea_selinus = {
+			}
+		}
+		c_akragas = {
+			color= { 143 161 193 }
+			color2= { 255 255 255 }
+			
+			b_akragas_akragas = {
+			}
+			b_akragas1_akragas = {
+			}
+			b_akragas2_akragas = {
+			}
+			b_akragas3_akragas = {
+			}
+			b_akragas4_akragas = {
+			}
+			b_akragas5_akragas = {
+			}
+			b_akragas6_akragas = {
+			}
+		}
+	}
+	d_henna = {
+		color= { 68 164 191 }
+		color2= { 255 255 255 }
+		
+		capital = 1110 # Henna
+		
+		c_morgantina = {
+			color= { 68 161 187 }
+			color2= { 255 255 255 }
+			
+			b_morgantina_morgantina = {
+			}
+			b_morgantina1_morgantina = {
+			}
+			b_morgantina2_morgantina = {
+			}
+			b_morgantina3_morgantina = {
+			}
+			b_morgantina4_morgantina = {
+			}
+			b_morgantina5_morgantina = {
+			}
+			b_morgantina6_morgantina = {
+			}
+		}
+		c_henna = {
+			color= { 190 164 191 }
+			color2= { 255 255 255 }
+			
+			b_henna_henna = {
+			}
+			b_henna1_henna = {
+			}
+			b_henna2_henna = {
+			}
+			b_henna3_henna = {
+			}
+			b_henna4_henna = {
+			}
+			b_henna5_henna = {
+			}
+			b_henna6_henna = {
 			}
 		}
 	}
@@ -8300,6 +8375,8 @@ k_babylonia = {
 		color= { 0 50 225 }
 		color2= { 255 255 255 }
 		
+		capital = 195 # Babylon
+		
 		c_maskin = {
 			color= { 10 40 225 }
 			color2= { 255 255 255 }
@@ -8370,6 +8447,8 @@ k_babylonia = {
 	d_sumer = {
 		color= { 0 25 175 }
 		color2= { 255 255 255 }
+		
+		capital = 200 # Charax
 	
 		c_marad = {
 			color= { 10 15 175 }
@@ -8470,6 +8549,8 @@ k_armenia = {
 		color= { 200 25 50 }
 		color2= { 255 255 255 }
 		
+		capital = 203 # Melitene
+		
 		c_melitene = {
 			color= { 200 25 50 }
 			color2= { 255 255 255 }
@@ -8531,6 +8612,8 @@ k_armenia = {
 		color= { 200 25 75 }
 		color2= { 255 255 255 }
 		
+		capital = 214 # Karin
+		
 		c_ani_kamah = {
 			color= { 200 25 75 }
 			color2= { 255 255 255 }
@@ -8576,6 +8659,8 @@ k_armenia = {
 	d_sophene = {
 		color= { 175 0 50 }
 		color2= { 255 255 255 }
+		
+		capital = 210 # Tigranocerta
 		
 		c_arsamosata = {
 			color= { 165 10 50 }
@@ -8627,6 +8712,8 @@ k_armenia = {
 		color= { 150 0 50 }
 		color2= { 255 255 255 }
 		
+		capital = 212 # Thospia
+		
 		c_zoaranda = {
 			color= { 140 10 50 }
 			color2= { 255 255 255 }
@@ -8672,6 +8759,8 @@ k_armenia = {
 	d_armenia_main = {
 		color= { 200 0 50 }
 		color2= { 255 255 255 }
+		
+		capital = 218 # Armavir
 		
 		c_eruandakert = {
 			color= { 200 10 40 }
@@ -8733,6 +8822,8 @@ k_armenia = {
 	d_commagene = {
 		color= { 150 25 50 }
 		color2= { 255 255 255 }
+		
+		capital = 201 # Samosata
 	
 		c_samosata = {
 			color= { 150 25 50 }
@@ -8780,6 +8871,8 @@ k_georgia = {
 	d_iberia = {
 		color= { 100 0 100 }
 		color2= { 255 255 255 }
+		
+		capital = 223 # Mtskheta
 		
 		c_harmozike = {
 			color= { 110 10 100 }
@@ -8843,6 +8936,8 @@ k_georgia = {
 	d_colchis = {
 		color= { 100 25 100 }
 		color2= { 255 255 255 }
+		
+		capital = 227 # Kotais
 	
 		c_apsaros = {
 			color= { 110 15 100 }
@@ -8906,6 +9001,8 @@ k_georgia = {
 	d_albania = {
 		color= { 125 0 125 }
 		color2= { 255 255 255 }
+		
+		capital = 230 # Sanina
 	
 		c_chabala = {
 			color= { 125 0 125 }
@@ -8963,6 +9060,8 @@ k_macedon = {
 	d_lowermacedon = {
 		color= { 200 100 50 }
 		color2= { 255 255 255 }
+		
+		capital = 34 # Pella
 			
 		c_pella = {
 			color= { 200 100 50 }
@@ -9028,6 +9127,8 @@ k_macedon = {
 	d_uppermacedon = {
 		color= { 200 100 25 }
 		color2= { 255 255 255 }
+		
+		capital = 59 # Lyncestis
 		
 		c_lyncestis = {
 			color= { 200 100 25 }
@@ -9095,6 +9196,8 @@ k_illyria = {
 	allow = {
 		culture_group = illyrian_group
 	}
+	
+	capital = 68 # Ulpiana
 	
 	d_dardania = {
 		color= { 197 219 72 }
@@ -9662,9 +9765,13 @@ k_pannonia = {
 	color= { 24 135 39 }
 	color2= { 255 255 255 }
 	
+	capital = 386 # Sirmium
+	
 	d_liburnia = {
 		color= { 27 153 44 }
 		color2= { 255 255 255 }
+		
+		capital = 398 # Ortopla
 		
 		c_ortopla = {
 			color= { 41 165 58 }
@@ -9727,6 +9834,8 @@ k_pannonia = {
 	d_pelso = {
 		color= { 22 122 40 }
 		color2= { 255 255 255 }
+		
+		capital = 74 # Sala
 		
 		c_sala = {
 			color= { 28 119 56 }
@@ -9828,6 +9937,8 @@ k_pannonia = {
 		color= { 25 142 29 }
 		color2= { 255 255 255 }
 		
+		capital = 395 # Segestica
+		
 		c_segestica = {
 			color= { 32 147 30 }
 			color2= { 255 255 255 }
@@ -9927,6 +10038,8 @@ k_pannonia = {
 	d_sirmium = {
 		color= { 26 147 40 }
 		color2= { 255 255 255 }
+		
+		capital = 386 # Sirmium
 		
 		c_sirmium = {
 			color= { 26 153 44 }
@@ -11882,6 +11995,13 @@ k_carthage = {
 			b_drepanum_lilybaeum = {
 			}
 			b_eryx_lilybaeum = {
+			}
+		}
+		c_maleth = {
+			color={ 116 190 175 }
+			color2={ 255 255 255 }
+			
+			b_maleth_maleth = {
 			}
 		}
 	}

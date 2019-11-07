@@ -1,0 +1,20 @@
+# 1110 - Henna
+
+# County Title
+title = c_henna
+
+# Settlements
+max_settlements = 6
+b_henna_henna = castle
+b_henna1_henna = castle
+b_henna2_henna = city
+#b_henna3_henna = castle
+#b_henna4_henna = castle
+#b_henna5_henna = city
+#b_henna6_henna = castle
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History

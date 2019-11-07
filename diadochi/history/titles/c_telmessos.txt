@@ -1,6 +1,6 @@
 417.1.1 = {
 	holder = 90323
-	liege = k_p_lydia
+	liege = d_s_lydia
 }
 442.1.1 = {
 	holder = 90314
@@ -14,14 +14,14 @@
 }
 453.6.10 = {
 	holder = 401 # Antigonus, the one eyed
-	liege = k_s_phrygia
+	liege = d_s_phrygia
 }
 467.1.1 = {
 	liege = e_asia
 }
 475.1.1 = {
 	holder = 30001 # Lysimachos
-	liege = k_s_thrace
+	liege = d_s_thrace
 }
 495.2.1 = {
 	holder = 1001 # Seleukos

@@ -12,9 +12,10 @@
 	holder = 150001
 }
 453.6.10 = {
-	liege = k_s_macedon
+	holder = 0
 }
 459.10.1 = {
+	holder = 150001
 	liege = k_macedon
 }
 461.1.1 = {

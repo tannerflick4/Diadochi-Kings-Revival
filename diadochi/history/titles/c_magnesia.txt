@@ -33,14 +33,14 @@
 	holder = 30301 # Menon of Pharsalus
 }
 453.6.10 = {
-	liege = k_s_macedon
+	liege = d_s_macedon
 }
 453.9.1 = {
 	liege = 0 # Lamian war
 }
 455.1.1 = {
 	holder = 1 # Antipater
-	liege = k_s_macedon
+	liege = d_s_macedon
 }
 457.1.1 = {
 	holder = 1601 # Polyperchon

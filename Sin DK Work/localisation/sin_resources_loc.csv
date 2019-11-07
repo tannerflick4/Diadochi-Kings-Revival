@@ -1,0 +1,70 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+sin_prospecting;Prospecting;;;;;;;;;;;;;x
+sin_prospecting_desc;This province is being prospected;;;;;;;;;;;;;x
+sin_traders_mod;Merchants;;;;;;;;;;;;;x
+sin_traders_mod_desc;The Realm has merchants trading resources.;;;;;;;;;;;;;x
+sin_gold;Gold Ore;;;;;;;;;;;;;x
+sin_gold_desc;This province is laden with gold veins.;;;;;;;;;;;;;x
+sin_silver;Silver Ore;;;;;;;;;;;;;x
+sin_silver_desc;This province is laden with silver veins.;;;;;;;;;;;;;x
+sin_iron;Iron;;;;;;;;;;;;;x
+sin_iron_desc;This province is laden with high quality iron veins.;;;;;;;;;;;;;x
+sin_ivory;Ivory;;;;;;;;;;;;;x
+sin_ivory_desc;This province is laden with many elephants producing quality ivory.;;;;;;;;;;;;;x
+sin_grain;Fertile Soil;;;;;;;;;;;;;x
+sin_grain_desc;This province is highly fertile and produces excessive quantities of grain.;;;;;;;;;;;;;x
+sin_fish;Rich Waters;;;;;;;;;;;;;x
+sin_fish_desc;This province has rich waters and produces excessive quantities of fish.;;;;;;;;;;;;;x
+sin_stone;Quality Stone;;;;;;;;;;;;;x
+sin_stone_desc;This province is laden with quality deposits of stone.;;;;;;;;;;;;;x
+sin_wood;Timber Groves;;;;;;;;;;;;;x
+sin_wood_desc;This province is laden with huge groves of quality timber.;;;;;;;;;;;;;x
+sin_nothing;Barren;;;;;;;;;;;;;x
+sin_nothing_desc;This province is barren.;;;;;;;;;;;;;x
+ca_sin_gold_mine;Gold Mine;;;;;;;;;;;;;x
+ca_sin_gold_mine_desc;The region is Rich in gold, these mines will dig the precious ore from the ground.;;;;;;;;;;;;;x
+ca_sin_silver_mine;Silver Mine;;;;;;;;;;;;;x
+ca_sin_silver_mine_desc;The region is Rich in silver, these mines will dig the precious ore from the ground.;;;;;;;;;;;;;x
+ca_sin_iron_mine;Iron mine;;;;;;;;;;;;;x
+ca_sin_iron_mine_desc;The region is rich in iron, these mines will dig the useful ore from the ground.;;;;;;;;;;;;;x
+ca_sin_quarry;Quarry;;;;;;;;;;;;;x
+ca_sin_quarry_desc;The region is rich in stone, these master crafters will cut and shape them into building supplies.;;;;;;;;;;;;;x
+ca_sin_sawmill;Sawmill;;;;;;;;;;;;;x
+ca_sin_sawmill_desc;The region is rich in timber, these master crafters will cut and shape them into building supplies.;;;;;;;;;;;;;x
+ca_sin_traders;Merchant's Guild;;;;;;;;;;;;;x
+ca_sin_traders_desc;The Realm deals in resources, and with trade comes merchants, this building is their meeting ground, granting the holder a nice boon.;;;;;;;;;;;;;x
+ct_sin_gold_mine;Gold Mine;;;;;;;;;;;;;x
+ct_sin_gold_mine_desc;The region is Rich in gold, these mines will dig the precious ore from the ground.;;;;;;;;;;;;;x
+ct_sin_silver_mine;Silver Mine;;;;;;;;;;;;;x
+ct_sin_silver_mine_desc;The region is Rich in silver, these mines will dig the precious ore from the ground.;;;;;;;;;;;;;x
+ct_sin_iron_mine;Iron mine;;;;;;;;;;;;;x
+ct_sin_iron_mine_desc;The region is rich in iron, these mines will dig the useful ore from the ground.;;;;;;;;;;;;;x
+ct_sin_quarry;Quarry;;;;;;;;;;;;;x
+ct_sin_quarry_desc;The region is rich in stone, these master crafters will cut and shape them into building supplies.;;;;;;;;;;;;;x
+ct_sin_sawmill;Sawmill;;;;;;;;;;;;;x
+ct_sin_sawmill_desc;The region is rich in timber, these master crafters will cut and shape them into building supplies.;;;;;;;;;;;;;x
+ct_sin_traders;Merchant's Guild;;;;;;;;;;;;;x
+ct_sin_traders_desc;The Realm deals in resources, and with trade comes merchants, this building is their meeting ground, granting the holder a nice boon.;;;;;;;;;;;;;x
+sin_resources_prospect;Prospect [Root.GetName];;;;;;;;;;;;;x
+sin_resources_prospect_desc;Send out surveys to prospect [Root.GetName] for resources.;;;;;;;;;;;;;x
+EVTDESCsin_resources_events.0;You've prospected [From.GetBaseName] and found...;;;;;;;;;;;;;x
+EVTOPTAsin_resources_events.0;Gold!;;;;;;;;;;;;;x
+EVTOPTBsin_resources_events.0;Silver!;;;;;;;;;;;;;x
+EVTOPTCsin_resources_events.0;Iron!;;;;;;;;;;;;;x
+EVTOPTDsin_resources_events.0;Ivory!;;;;;;;;;;;;;x
+EVTOPTEsin_resources_events.0;Fertile Soil!;;;;;;;;;;;;;x
+EVTOPTFsin_resources_events.0;Rich Waters!;;;;;;;;;;;;;x
+EVTOPTGsin_resources_events.0;Quality Stone!;;;;;;;;;;;;;x
+EVTOPTHsin_resources_events.0;Quality Timber!;;;;;;;;;;;;;x
+EVTOPTZsin_resources_events.0;Nothing.;;;;;;;;;;;;;x
+EVTDESCsin_resources_events.1;[FromFrom.GetBaseName] has been prospected, they found...;;;;;;;;;;;;;x
+EVTOPTAsin_resources_events.1;Gold!;;;;;;;;;;;;;x
+EVTOPTBsin_resources_events.1;Silver!;;;;;;;;;;;;;x
+EVTOPTCsin_resources_events.1;Iron!;;;;;;;;;;;;;x
+EVTOPTDsin_resources_events.1;Ivory!;;;;;;;;;;;;;x
+EVTOPTEsin_resources_events.1;Fertile!;;;;;;;;;;;;;x
+EVTOPTFsin_resources_events.1;Rich Waters!;;;;;;;;;;;;;x
+EVTOPTGsin_resources_events.1;Quality Stone!;;;;;;;;;;;;;x
+EVTOPTHsin_resources_events.1;Timber Groves!;;;;;;;;;;;;;x
+EVTOPTZsin_resources_events.1;Nothing.;;;;;;;;;;;;;x
+EVTOPTZZsin_resources_events.1;Shut Up, Damn!;;;;;;;;;;;;;x

@@ -13,7 +13,7 @@
 }
 453.6.10 = {
 	holder = 1
-	liege = k_s_macedon
+	liege = d_s_macedon
 }
 457.1.1 = {
 	holder = 1601 # Polyperchon

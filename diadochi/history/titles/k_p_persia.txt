@@ -1,7 +1,0 @@
-417.1.1 = {
-	holder = 90321 # Fravarti, satrap of Persia
-	liege = e_persia
-}
-448.1.1 = {
-	holder = 0
-}

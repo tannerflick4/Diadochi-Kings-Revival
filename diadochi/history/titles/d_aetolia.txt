@@ -8,9 +8,10 @@
 	holder = 22201 # Eutychios of the Aetolian league
 }
 453.6.10 = { # 323 BC
-	liege = k_s_macedon
+	holder = 0
 }
 453.9.1 = {
+	holder = 22201 # Eutychios of the Aetolian league
 	liege = 0 # Lamian war
 }
 478.1.1 = { # 298 BC
