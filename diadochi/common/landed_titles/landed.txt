@@ -35,6 +35,8 @@ e_persia = {
 				not = { has_landed_title = e_macedonia }
 			}
 		}
+
+		assimilate = no
 	
 		d_paytakaran = {
 			color= { 200 0 100 }
@@ -362,6 +364,8 @@ e_persia = {
 				not = { has_landed_title = e_macedonia }
 			}
 		}
+
+		assimilate = no
 		
 		d_susa = {
 			color= { 225 0 50 }
@@ -587,6 +591,8 @@ e_persia = {
 				not = { has_landed_title = e_macedonia }
 			}
 		}
+
+		assimilate = no
 		
 		d_gedrosia = {
 			color= { 255 0 125 }
@@ -811,6 +817,8 @@ e_persia = {
 				not = { has_landed_title = e_macedonia }
 			}
 		}
+
+		assimilate = no
 	
 		d_bactria = {
 			color= { 175 0 50 }
@@ -1070,6 +1078,8 @@ e_india = {
 				culture_group = dravidian
 			}
 		}
+
+		assimilate = no
 		
 		d_lanka = {
 			color = { 231 195 85 }
@@ -1167,6 +1177,8 @@ e_india = {
 				culture_group = dravidian
 			}
 		}
+
+		assimilate = no
 		
 		d_dravida = {
 			color={ 140 65 65 }
@@ -1373,6 +1385,8 @@ e_india = {
 				culture_group = dravidian
 			}
 		}
+
+		assimilate = no
 		
 		d_tulunga = {
 			color={ 110 25 2 }
@@ -1489,6 +1503,8 @@ e_india = {
 				culture_group = dravidian
 			}
 		}
+
+		assimilate = no
 		
 		d_odra = {
 			color={ 185 39 45 }
@@ -1657,6 +1673,8 @@ e_india = {
 				culture_group = dravidian
 			}
 		}
+
+		assimilate = no
 		
 		d_vanga = {
 			color = { 30 125 55 }
@@ -1773,6 +1791,8 @@ e_india = {
 				culture_group = dravidian
 			}
 		}
+
+		assimilate = no
 		
 		d_maghada = {
 			color = { 35 165 35 }
@@ -1882,6 +1902,8 @@ e_india = {
 				culture_group = dravidian
 			}
 		}
+
+		assimilate = no
 		
 		d_videha = {
 			color={ 15 140 50 }
@@ -1985,6 +2007,8 @@ e_india = {
 				culture_group = dravidian
 			}
 		}
+
+		assimilate = no
 		
 		d_anarta = {
 			color={ 195 50 10 }
@@ -2093,6 +2117,8 @@ e_india = {
 				culture_group = dravidian
 			}
 		}
+
+		assimilate = no
 		
 		d_panchala = {
 			color={ 100 25 3 }
@@ -2240,6 +2266,8 @@ e_india = {
 				culture_group = dravidian
 			}
 		}
+
+		assimilate = no
 		
 		d_nishkuta = {
 			color={ 234 100 21 }
@@ -2359,6 +2387,8 @@ e_india = {
 				culture_group = dravidian
 			}
 		}
+
+		assimilate = no
 		
 		d_sivi = {
 			color={ 194 67 10 }
@@ -2476,6 +2506,8 @@ e_india = {
 				culture_group = dravidian
 			}
 		}
+
+		assimilate = no
 		
 		d_sindhu = {
 			color={ 240 135 20 }
@@ -2579,6 +2611,8 @@ e_india = {
 				culture_group = dravidian
 			}
 		}
+
+		assimilate = no
 		
 		d_matsya = {
 			color={ 245 200 20 }
@@ -2675,6 +2709,8 @@ e_india = {
 				culture_group = dravidian
 			}
 		}
+
+		assimilate = no
 		
 		d_surparaka = {
 			color={ 155 5 30 }
@@ -2836,6 +2872,8 @@ e_india = {
 				culture_group = dravidian
 			}
 		}
+
+		assimilate = no
 		
 		d_kekala = {
 			color={ 58 178 41 }
@@ -2908,6 +2946,8 @@ e_india = {
 				culture_group = dravidian
 			}
 		}
+
+		assimilate = no
 		
 		d_malava = {
 			color={ 225 155 77 }
@@ -3055,6 +3095,8 @@ e_skudatpa = { # Scythia
 		color2= { 255 255 255 }
 		
 		capital = 481 # Katipa ?
+
+		assimilate = no
 		
 		d_katipa = {
 			color= { 225 150 0 }
@@ -3184,6 +3226,8 @@ e_skudatpa = { # Scythia
 		color2= { 255 255 255 }
 		
 		capital = 494 # Kissarlewle
+
+		assimilate = no
 		
 		d_katipanti = {			
 			color= { 200 100 0 }
@@ -3391,6 +3435,8 @@ e_skudatpa = { # Scythia
 		color2= { 255 255 255 }
 		
 		capital = 513 # Argimpasa
+
+		assimilate = no
 		
 		d_lipsoxais = {
 			color= { 175 100 25 }
@@ -3525,6 +3571,8 @@ e_skudatpa = { # Scythia
 		color2= { 255 255 255 }
 		
 		capital = 526 # Hvarzkutipa
+
+		assimilate = no
 		
 		d_kissarun = {
 			color= { 150 75 25 }
@@ -3673,6 +3721,8 @@ e_skudatpa = { # Scythia
 		color2= { 255 255 255 }
 		
 		capital = 546 # Gaumizda
+
+		assimilate = no
 		
 		d_colaxais = {
 			color= { 150 125 0 }
@@ -3946,6 +3996,8 @@ e_skudatpa = { # Scythia
 		color2= { 255 255 255 }
 		
 		capital = 562 # Zarkarun
+
+		assimilate = no
 		
 		d_hvarzgasti = {
 			color= { 175 125 25 }
@@ -4062,6 +4114,8 @@ e_skudatpa = { # Scythia
 		color2= { 255 255 255 }
 		
 		capital = 568 # Narapa
+
+		assimilate = no
 		
 		d_artabagapa = {			
 			color= { 200 150 25 }
