@@ -1,4 +1,6 @@
-# Southern Gaul
+#################
+# Southern Gaul #
+#################
 
 #b_varum_antipolis
 #b_ad_horrea_antipolis
@@ -20,7 +22,6 @@
 #b_bellintum_arausio
 #b_glanum_arausio
 #b_ad_fines_arausio
-#b_orga_fons_arausio
 #b_vindasca_arausio
 #b_vindalium_arausio
 #b_vindasca_arausio
@@ -28,9 +29,18 @@
 #b_geminae_eburodunum
 #b_sedena_eburodunum
 
-#b_altonum_noiomagos
+#b_sedros_narbo_martius
 
 #b_fines_cularo
 #b_ad_turnonem_cularo
-#b_vintium_cularo
 #b_mantala_cularo
+
+#b_maleto_albiga
+#b_lautrego_albiga
+#b_caborinio_albiga
+
+#b_cerviano_bassiacum
+#b_granoialo_bassiacum
+
+#b_domeciaco_elimberrum
+#b_praemiacum_elimberrum

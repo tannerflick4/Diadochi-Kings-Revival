@@ -4,8 +4,14 @@
 title = c_boii
 
 # Settlements
-max_settlements = 6 # TODO
+max_settlements = 3
 b_boii_boii = tribal
+#b_losa_boii = city
+#b_telonnum_boii = city
+#b_salomacus_boii = city
+#b_vintium_boii = castle
+#b_orga_fons_boii = temple
+#b_semelingus_boii = castle
 
 # Misc
 culture = aquitanian

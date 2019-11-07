@@ -4,8 +4,14 @@
 title = c_ruscino
 
 # Settlements
-max_settlements = 6 # TODO
+max_settlements = 4
 b_ruscino_ruscino = tribal
+#b_salsulae_fons_ruscino = city
+#b_combusta_ruscino = city
+#b_illiberris_ruscino = city
+#b_ad_centenarium_ruscino = castle
+#b_cacholiberi_ruscino = castle
+#b_portus_veneris_ruscino = city
 
 # Misc
 culture = gaul

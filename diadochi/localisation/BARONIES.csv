@@ -3962,6 +3962,146 @@ b_vivarium_alba_helviorum;Vivarium;;;;;;;;;;;x
 b_soio_alba_helviorum;Soio;;;;;;;;;;;x
 b_dourion_alba_helviorum;Dourion;;;;;;;;;;;x
 b_akousion_alba_helviorum;Akousion;;;;;;;;;;;x
+b_nemausus_nemausus;Nemausus;;;;;;;;;;;x
+b_gradus_masilitanorum_nemausus;Gradus Masilitanorum;;;;;;;;;;;x
+b_rhodanousia_nemausus;Rhodanousia;;;;;;;;;;;x
+b_pons_aerarius_nemausus;Pons Aerarius;;;;;;;;;;;x
+b_virinnae_nemausus;Virinnae;;;;;;;;;;;x
+b_ambrussium_nemausus;Ambrussium;;;;;;;;;;;x
+b_arandunum_nemausus;Arandunum;;;;;;;;;;;x
+b_brugetia_brugetia;Brugetia;;;;;;;;;;;x
+b_lettino_brugetia;Lettino;;;;;;;;;;;x
+b_tedusia_brugetia;Tedusia;;;;;;;;;;;x
+b_aramo_brugetia;Aramo;;;;;;;;;;;x
+b_briginnum_brugetia;Briginnum;;;;;;;;;;;x
+b_ucetia_brugetia;Ucetia;;;;;;;;;;;x
+b_ura_fons_brugetia;Ura Fons;;;;;;;;;;;x
+b_lattara_lattara;Lattara;;;;;;;;;;;x
+b_magalona_lattara;Magalona;;;;;;;;;;;x
+b_sextantio_lattara;Sextantio;;;;;;;;;;;x
+b_forum_domitii_lattara;Forum Domitii;;;;;;;;;;;x
+b_frontiana_lattara;Frontiana;;;;;;;;;;;x
+b_mesua_lattara;Mesua;;;;;;;;;;;x
+b_andusia_andusia;Andusia;;;;;;;;;;;x
+b_statumae_andusia;Statumae;;;;;;;;;;;x
+b_segusio_andusia;Segusio;;;;;;;;;;;x
+b_ales_andusia;Ales;;;;;;;;;;;x
+b_agones_andusia;Agones;;;;;;;;;;;x
+b_portes_andusia;Portes;;;;;;;;;;;x
+b_altonum_andusia;Altonum;;;;;;;;;;;x
+b_varatunnum_lattara;Varatunnum;;;;;;;;;;;x
+b_baeterrae_baeterrae;Baeterrae;;;;;;;;;;;x
+b_medillanum_baeterrae;Medillanum;;;;;;;;;;;x
+b_piscenae_baeterrae;Piscenae;;;;;;;;;;;x
+b_cessero_baeterrae;Cessero;;;;;;;;;;;x
+b_agatha_baeterrae;Agatha;;;;;;;;;;;x
+b_embonne_baeterrae;Embonne;;;;;;;;;;;x
+b_vivios_baeterrae;Vivios;;;;;;;;;;;x
+b_luteva_luteva;Luteva;;;;;;;;;;;x
+b_capraria_luteva;Capraria;;;;;;;;;;;x
+b_ad_ermum_luteva;Ad Ermum;;;;;;;;;;;x
+b_dehas_luteva;Dehas;;;;;;;;;;;x
+b_murato_luteva;Murato;;;;;;;;;;;x
+b_condatomagus_luteva;Condatomagus;;;;;;;;;;;x
+b_boutaran_luteva;Boutaran;;;;;;;;;;;x
+b_narbo_martius_narbo_martius;Narbo Martius;;;;;;;;;;;x
+b_naro_narbo_martius;Naro;;;;;;;;;;;x
+b_usuerva_narbo_martius;Usuerva;;;;;;;;;;;x
+b_liviana_narbo_martius;Liviana;;;;;;;;;;;x
+b_tricensimum_narbo_martius;Tricensimum;;;;;;;;;;;x
+b_carcasso_narbo_martius;Carcasso;;;;;;;;;;;x
+b_ad_vicensimum_narbo_martius;Ad Vicensimum;;;;;;;;;;;x
+b_ruscino_ruscino;Ruscino;;;;;;;;;;;x
+b_salsulae_fons_ruscino;Salsulae;;;;;;;;;;;x
+b_combusta_ruscino;Combusta;;;;;;;;;;;x
+b_illiberris_ruscino;Illiberris;;;;;;;;;;;x
+b_ad_centenarium_ruscino;Ad Centenarium;;;;;;;;;;;x
+b_cacholiberi_ruscino;Cacholiberi;;;;;;;;;;;x
+b_portus_veneris_ruscino;Portus Veneris;;;;;;;;;;;x
+b_albiga_albiga;Albiga;;;;;;;;;;;x
+b_cedros_albiga;Cedros;;;;;;;;;;;x
+b_hebromagus_albiga;Hebromagus;;;;;;;;;;;x
+b_pteregontio_albiga;Pteregontio;;;;;;;;;;;x
+b_buxio_albiga;Buxio;;;;;;;;;;;x
+b_marinio_albiga;Marinio;;;;;;;;;;;x
+b_marcialio_albiga;Marcialio;;;;;;;;;;;x
+b_tolosa_tolosa;Tolosa;;;;;;;;;;;x
+b_sostomagus_tolosa;Sostomagus;;;;;;;;;;;x
+b_fines_tolosa;Fines;;;;;;;;;;;x
+b_elusio_tolosa;Elusio;;;;;;;;;;;x
+b_ad_vicesimum_tolosa;Ad Vicesimum;;;;;;;;;;;x
+b_badera_tolosa;Badera;;;;;;;;;;;x
+b_ad_nonum_tolosa;Ad Nonum;;;;;;;;;;;x
+b_bassiacum_bassiacum;Bassiacum;;;;;;;;;;;x
+b_fines_bassiacum;Fines;;;;;;;;;;;x
+b_lepediaco_bassiacum;Lepediaco;;;;;;;;;;;x
+b_galliaco_bassiacum;Galliaco;;;;;;;;;;;x
+b_maranavas_bassiacum;Maranavas;;;;;;;;;;;x
+b_mauringus_bassiacum;Mauringus;;;;;;;;;;;x
+b_satiago_bassiacum;Satiago;;;;;;;;;;;x
+b_elimberrum_elimberrum;Elimberrum;;;;;;;;;;;x
+b_consoranni_elimberrum;Consoranni;;;;;;;;;;;x
+b_lactora_elimberrum;Lactora;;;;;;;;;;;x
+b_sarnali_elimberrum;Sarnali;;;;;;;;;;;x
+b_hungunverro_elimberrum;Hungunverro;;;;;;;;;;;x
+b_vernus_sol_elimberrum;Vernus Sol;;;;;;;;;;;x
+b_aquae_siccae_elimberrum;Aquae Siccae;;;;;;;;;;;x
+b_tarba_tarba;Tarba;;;;;;;;;;;x
+b_lugdunum_convenarum_tarba;Lugdunum Convenarum;;;;;;;;;;;x
+b_aquae_convenarum_tarba;Aquae Convenarum;;;;;;;;;;;x
+b_vicus_aquensis_tarba;Vicus Aquensis;;;;;;;;;;;x
+b_begorra_tarba;Begorra;;;;;;;;;;;x
+b_maroialica_tarba;Maroialica;;;;;;;;;;;x
+b_sexciacum_tarba;Sexciacum;;;;;;;;;;;x
+b_benehardum_benehardum;Benehardum;;;;;;;;;;;x
+b_atura_benehardum;Atura;;;;;;;;;;;x
+b_sparianum_benehardum;Sparianum;;;;;;;;;;;x
+b_novum_oppidum_benehardum;Novum Oppidum;;;;;;;;;;;x
+b_albiciacum_benehardum;Albiciacum;;;;;;;;;;;x
+b_bigorra_castrum_benehardum;Bigorra Castrum;;;;;;;;;;;x
+b_casinomagus_benehardum;Casinomagus;;;;;;;;;;;x
+b_iluro_iluro;Iluro;;;;;;;;;;;x
+b_imus_pyreneus_iluro;Imus Pyreneus;;;;;;;;;;;x
+b_carasa_iluro;Carasa;;;;;;;;;;;x
+b_aspalluga_iluro;Aspalluga;;;;;;;;;;;x
+b_forum_ligneum_iluro;Forum Ligneum;;;;;;;;;;;x
+b_summus_pyreneus_iluro;Summus Pyreneus;;;;;;;;;;;x
+b_ictium_iluro;Ictium;;;;;;;;;;;x
+b_aquae_terebellicae_aquae_terebellicae;Aquae Terebellicae;;;;;;;;;;;x
+b_mosconnum_aquae_terebellicae;Mosconnum;;;;;;;;;;;x
+b_coequosa_aquae_terebellicae;Coequosa;;;;;;;;;;;x
+b_segosa_aquae_terebellicae;Segosa;;;;;;;;;;;x
+b_blacinaco_aquae_terebellicae;Blacinaco;;;;;;;;;;;x
+b_fesciago_aquae_terebellicae;Fesciago;;;;;;;;;;;x
+b_ad_stabulum_aquae_terebellicae;Ad Stabulum;;;;;;;;;;;x
+b_boii_boii;Boii;;;;;;;;;;;x
+b_losa_boii;Losa;;;;;;;;;;;x
+b_telonnum_boii;Telonnum;;;;;;;;;;;x
+b_salomacus_boii;Salomacus;;;;;;;;;;;x
+b_vintium_boii;Vintium;;;;;;;;;;;x
+b_orga_fons_boii;Orga Fons;;;;;;;;;;;x
+b_semelingus_boii;Semelingus;;;;;;;;;;;x
+b_tres_arbores_elusa;Tres Arbores;;;;;;;;;;;x
+b_elusa_elusa;Elusa;;;;;;;;;;;x
+b_oscincium_elusa;Oscincium;;;;;;;;;;;x
+b_sotium_elusa;Sotium;;;;;;;;;;;x
+b_besinum_elusa;Besinum;;;;;;;;;;;x
+b_saviniago_elusa;Saviniago;;;;;;;;;;;x
+b_lautrego_elusa;Lautrego;;;;;;;;;;;x
+b_burdigala_burdigala;Burdigala;;;;;;;;;;;x
+b_cossium_burdigala;Cossium;;;;;;;;;;;x
+b_alingo_burdigala;Alingo;;;;;;;;;;;x
+b_praemiacum_burdigala;Praemiacum;;;;;;;;;;;x
+b_stomatas_burdigala;Stomatas;;;;;;;;;;;x
+b_ad_sextum_burdigala;Ad Sextum;;;;;;;;;;;x
+b_bucconis_burdigala;Bucconis;;;;;;;;;;;x
+b_noulomagos_noulomagos;Noulomagos;;;;;;;;;;;x
+b_dumnitonus_noulomagos;Dumnitonus;;;;;;;;;;;x
+b_antros_noulomagos;Antros;;;;;;;;;;;x
+b_marciaco_noulomagos;Marciaco;;;;;;;;;;;x
+b_cambone_noulomagos;Cambone;;;;;;;;;;;x
+b_ad_lovem_noulomagos;Ad Lovem;;;;;;;;;;;x
+b_calagorris_noulomagos;Calagorris;;;;;;;;;;;x
 b_grumentum_grumentum;Grumentum;;;;;;;;;;;x
 b_grumentum1_grumentum;Grumentum;;;;;;;;;;;x
 b_grumentum2_grumentum;Grumentum;;;;;;;;;;;x

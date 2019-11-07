@@ -4,8 +4,14 @@
 title = c_baeterrae
 
 # Settlements
-max_settlements = 6 # TODO
+max_settlements = 4
 b_baeterrae_baeterrae = tribal
+b_medillanum_baeterrae = temple
+#b_piscenae_baeterrae = city
+#b_cessero_baeterrae = city
+#b_agatha_baeterrae = city
+#b_embonne_baeterrae = castle
+#b_vivios_baeterrae = temple
 
 # Misc
 culture = gaul

@@ -4,8 +4,14 @@
 title = c_nemausus
 
 # Settlements
-max_settlements = 6 # TODO
+max_settlements = 4
 b_nemausus_nemausus = tribal
+#b_gradus_masilitanorum_nemausus = city
+#b_rhodanousia_nemausus = city
+b_pons_aerarius_nemausus = temple
+#b_virinnae_nemausus = city
+#b_ambrussium_nemausus = city
+#b_arandunum_nemausus = castle
 
 # Misc
 culture = gaul

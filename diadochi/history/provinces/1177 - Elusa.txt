@@ -4,8 +4,14 @@
 title = c_elusa
 
 # Settlements
-max_settlements = 6 # TODO
+max_settlements = 4
 b_elusa_elusa = tribal
+#b_tres_arbores_elusa = city
+#b_oscincium_elusa = city
+#b_besinum_elusa = castle
+#b_saviniago_elusa = temple
+#b_sotium_elusa = castle
+#b_lautrego_elusa = city
 
 # Misc
 culture = aquitanian
