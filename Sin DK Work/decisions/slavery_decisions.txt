@@ -223,8 +223,8 @@ decisions = {
 targetted_decisions = {
 	enslave_prisoner = {	#Enslave a Prisoner
 		only_rulers = yes
-		filter = home_court
-		ai_target_filter = home_court
+		filter = court
+		ai_target_filter = court
 
 		from_potential = {
 			war = no
@@ -249,6 +249,9 @@ targetted_decisions = {
 			prisoner = yes
 			NOT = {
 				trait = trait_slave
+			}
+			host = {
+				character = FROM
 			}
 		}
 		allow = {
