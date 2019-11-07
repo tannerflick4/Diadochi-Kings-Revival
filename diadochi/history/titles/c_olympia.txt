@@ -5,14 +5,14 @@
 	liege = e_macedonia
 }
 453.6.10 = { # 323 BC
-	liege = d_s_macedon
+	liege = k_s_macedon
 }
 461.10.1 = { # 315 BC
 	liege = d_peloponnese
 }
 463.1.1 = { # 313 BC
 	holder = 404 # Telephoros
-	liege = d_s_phrygia
+	liege = k_s_phrygia
 }
 466.1.1 = { # 310 BC
 	holder = 23701

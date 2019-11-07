@@ -8,7 +8,7 @@
 	holder = 23402
 }
 453.6.10 = { # 323 BC
-	liege = d_s_macedon
+	liege = k_s_macedon
 }
 455.1.1 = { # 321 BC
 	holder = 23403

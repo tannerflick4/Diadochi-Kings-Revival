@@ -117,30 +117,24 @@ decisions = {
 			capital_scope = {
 				IF = {
 					limit = {
-						capital_scope = {
-							has_province_modifier = slave_hold_2
-						}
+						has_province_modifier = slave_hold_2
 					}
 					remove_province_modifier = slave_hold_2
 					add_province_modifier = { modifier = slave_hold_3 duration = -1 }
 				}
 				IF = {
 					limit = {
-						capital_scope = {
-							has_province_modifier = slave_hold_1
-						}
+						has_province_modifier = slave_hold_1
 					}
 					remove_province_modifier = slave_hold_1
 					add_province_modifier = { modifier = slave_hold_2 duration = -1 }
 				}
 				IF = {
 					limit = {
-						capital_scope = {
-							NOR = {
-								has_province_modifier = slave_hold_1
-								has_province_modifier = slave_hold_2
-								has_province_modifier = slave_hold_3
-							}
+						NOR = {
+							has_province_modifier = slave_hold_1
+							has_province_modifier = slave_hold_2
+							has_province_modifier = slave_hold_3
 						}
 					}
 					add_province_modifier = { modifier = slave_hold_1 duration = -1 }
@@ -188,26 +182,20 @@ decisions = {
 			capital_scope = {
 				IF = {
 					limit = {
-						capital_scope = {
-							has_province_modifier = slave_hold_1
-						}
+						has_province_modifier = slave_hold_1
 					}
 					remove_province_modifier = slave_hold_1
 				}
 				IF = {
 					limit = {
-						capital_scope = {
-							has_province_modifier = slave_hold_2
-						}
+						has_province_modifier = slave_hold_2
 					}
 					remove_province_modifier = slave_hold_2
 					add_province_modifier = { modifier = slave_hold_1 duration = -1 }
 				}
 				IF = {
 					limit = {
-						capital_scope = {
-							has_province_modifier = slave_hold_3
-						}
+						has_province_modifier = slave_hold_3
 					}
 					remove_province_modifier = slave_hold_3
 					add_province_modifier = { modifier = slave_hold_2 duration = -1 }
@@ -235,8 +223,8 @@ decisions = {
 targetted_decisions = {
 	enslave_prisoner = {	#Enslave a Prisoner
 		only_rulers = yes
-		filter = home_court
-		ai_target_filter = home_court
+		filter = court
+		ai_target_filter = court
 
 		from_potential = {
 			war = no
@@ -261,6 +249,9 @@ targetted_decisions = {
 			prisoner = yes
 			NOT = {
 				trait = trait_slave
+			}
+			host = {
+				character = FROM
 			}
 		}
 		allow = {
@@ -343,6 +334,7 @@ targetted_decisions = {
 		ai_will_do = {
 			factor = 0.01
 			modifier = {
+				factor = 100
 				NOT = {
 					wealth = 0
 				}

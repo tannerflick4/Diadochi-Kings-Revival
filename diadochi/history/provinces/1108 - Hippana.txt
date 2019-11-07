@@ -1,0 +1,20 @@
+# 1108 - Hippana
+
+# County Title
+title = c_hippana
+
+# Settlements
+max_settlements = 6
+b_hippana_hippana = castle
+b_hippana1_hippana = castle
+b_hippana2_hippana = city
+#b_hippana3_hippana = castle
+#b_hippana4_hippana = castle
+#b_hippana5_hippana = city
+#b_hippana6_hippana = castle
+
+# Misc
+culture = ionian
+religion = greek_main
+
+# History

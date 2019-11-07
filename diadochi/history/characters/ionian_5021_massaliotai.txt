@@ -30,6 +30,7 @@
 	dynasty = 5021 # Massalioi
 	religion = greek_main
 	culture = ionian
+	father = 51510
 	360.1.1 = { # Made up
 		birth="yes" # 416 BC
 	}
@@ -42,7 +43,8 @@
 	dynasty = 5021 # Massalioi
 	religion = greek_main
 	culture = ionian
-	360.1.1 = { # Made up
+	father = 51510
+	362.1.1 = { # Made up
 		birth="yes" # 416 BC
 	}
 	441.1.1 = { # 335 BC
@@ -80,7 +82,8 @@
 	dynasty = 5021 # Massalioi
 	religion = greek_main
 	culture = ionian
-	360.1.1 = { # Made up
+	father = 51510
+	364.1.1 = { # Made up
 		birth="yes" # 416 BC
 	}
 	441.1.1 = { # 335 BC
@@ -110,6 +113,18 @@
 		birth="yes"
 	}
 	501.1.1 = { # 274 BC
+		death="yes"
+	}
+}
+51510 = {
+	name = "Heliodurus" # Dynastic starter to connect 3 branches
+	dynasty = 5021 # Massalioi
+	religion = greek_main
+	culture = ionian
+	340.1.1 = { # 436 BC
+		birth="yes"
+	}
+	400.1.1 = { # 375 BC
 		death="yes"
 	}
 }

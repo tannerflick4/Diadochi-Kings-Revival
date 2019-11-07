@@ -8,14 +8,14 @@
 	holder = 30603
 }
 453.6.10 = { # 323 BC
-	liege = d_s_macedon
+	liege = k_s_macedon
 }
 459.9.1 = { # 317 BC
 	liege = k_macedon
 }
 463.6.1 = { # 313 BC
 	holder = 411 # Ptolemy, nephew of Antigonos
-	liege = d_s_phrygia
+	liege = k_s_phrygia
 }
 466.1.1 = { # 310 BC
 	liege = 0

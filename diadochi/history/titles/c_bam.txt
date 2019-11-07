@@ -1,18 +1,18 @@
 417.1.1 = {
 	holder = 90321 # Fravarti, satrap of Persia
-	liege = d_s_persia
+	liege = k_p_persia
 }
 448.1.1 = { # 328 BC
 	holder = 20101 # Sibyrtios
-	liege="d_s_gedrosia"
+	liege="k_s_gedrosia"
 }
 453.6.10 = {
 	holder = 1301 # Tlepolemos
-	liege="d_s_carmania"
+	liege="k_s_carmania"
 }
 460.1.1 = {
 	holder = 401 # Antigonus
-	liege = d_s_phrygia
+	liege = k_s_phrygia
 }
 467.1.1 = {
 	liege = e_asia
@@ -23,7 +23,7 @@
 }
 482.1.1 = {
 	holder = 1002 # Antiochos
-	liege = d_s_persia
+	liege = k_s_persia
 }
 483.1.1 = {
 	holder = 90801 # Bagadata

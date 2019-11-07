@@ -42,6 +42,7 @@
 	dynasty = 23009
 	culture = gaul
 	religion = celtic_main
+	father = 230708
 	440.1.1 = { # 336 BC made up
 		birth="yes"
 	}
@@ -94,5 +95,18 @@
 	}
 	517.1.1 = { # 259 BC made up
 		death="yes"
+	}
+}
+230708 = { # Scordisci
+	name = "Dumnorix" # made up father of Molistomos to connect this branch to other
+	dynasty = 23009
+	culture = gaul
+	religion = celtic_main
+	father = 230703
+	420.1.1 = { # 356 BC
+		birth="yes" 
+	}
+	480.1.1 = { # 296 BC
+		death="yes" 
 	}
 }

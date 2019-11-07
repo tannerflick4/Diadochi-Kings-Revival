@@ -35,6 +35,8 @@ e_persia = {
 				not = { has_landed_title = e_macedonia }
 			}
 		}
+
+		assimilate = no
 	
 		d_paytakaran = {
 			color= { 200 0 100 }
@@ -362,6 +364,8 @@ e_persia = {
 				not = { has_landed_title = e_macedonia }
 			}
 		}
+
+		assimilate = no
 		
 		d_susa = {
 			color= { 225 0 50 }
@@ -587,6 +591,8 @@ e_persia = {
 				not = { has_landed_title = e_macedonia }
 			}
 		}
+
+		assimilate = no
 		
 		d_gedrosia = {
 			color= { 255 0 125 }
@@ -811,6 +817,8 @@ e_persia = {
 				not = { has_landed_title = e_macedonia }
 			}
 		}
+
+		assimilate = no
 	
 		d_bactria = {
 			color= { 175 0 50 }
@@ -1070,6 +1078,8 @@ e_india = {
 				culture_group = dravidian
 			}
 		}
+
+		assimilate = no
 		
 		d_lanka = {
 			color = { 231 195 85 }
@@ -1167,6 +1177,8 @@ e_india = {
 				culture_group = dravidian
 			}
 		}
+
+		assimilate = no
 		
 		d_dravida = {
 			color={ 140 65 65 }
@@ -1373,6 +1385,8 @@ e_india = {
 				culture_group = dravidian
 			}
 		}
+
+		assimilate = no
 		
 		d_tulunga = {
 			color={ 110 25 2 }
@@ -1489,6 +1503,8 @@ e_india = {
 				culture_group = dravidian
 			}
 		}
+
+		assimilate = no
 		
 		d_odra = {
 			color={ 185 39 45 }
@@ -1657,6 +1673,8 @@ e_india = {
 				culture_group = dravidian
 			}
 		}
+
+		assimilate = no
 		
 		d_vanga = {
 			color = { 30 125 55 }
@@ -1773,6 +1791,8 @@ e_india = {
 				culture_group = dravidian
 			}
 		}
+
+		assimilate = no
 		
 		d_maghada = {
 			color = { 35 165 35 }
@@ -1882,6 +1902,8 @@ e_india = {
 				culture_group = dravidian
 			}
 		}
+
+		assimilate = no
 		
 		d_videha = {
 			color={ 15 140 50 }
@@ -1985,6 +2007,8 @@ e_india = {
 				culture_group = dravidian
 			}
 		}
+
+		assimilate = no
 		
 		d_anarta = {
 			color={ 195 50 10 }
@@ -2093,6 +2117,8 @@ e_india = {
 				culture_group = dravidian
 			}
 		}
+
+		assimilate = no
 		
 		d_panchala = {
 			color={ 100 25 3 }
@@ -2240,6 +2266,8 @@ e_india = {
 				culture_group = dravidian
 			}
 		}
+
+		assimilate = no
 		
 		d_nishkuta = {
 			color={ 234 100 21 }
@@ -2359,6 +2387,8 @@ e_india = {
 				culture_group = dravidian
 			}
 		}
+
+		assimilate = no
 		
 		d_sivi = {
 			color={ 194 67 10 }
@@ -2476,6 +2506,8 @@ e_india = {
 				culture_group = dravidian
 			}
 		}
+
+		assimilate = no
 		
 		d_sindhu = {
 			color={ 240 135 20 }
@@ -2579,6 +2611,8 @@ e_india = {
 				culture_group = dravidian
 			}
 		}
+
+		assimilate = no
 		
 		d_matsya = {
 			color={ 245 200 20 }
@@ -2675,6 +2709,8 @@ e_india = {
 				culture_group = dravidian
 			}
 		}
+
+		assimilate = no
 		
 		d_surparaka = {
 			color={ 155 5 30 }
@@ -2836,6 +2872,8 @@ e_india = {
 				culture_group = dravidian
 			}
 		}
+
+		assimilate = no
 		
 		d_kekala = {
 			color={ 58 178 41 }
@@ -2908,6 +2946,8 @@ e_india = {
 				culture_group = dravidian
 			}
 		}
+
+		assimilate = no
 		
 		d_malava = {
 			color={ 225 155 77 }
@@ -3055,6 +3095,8 @@ e_skudatpa = { # Scythia
 		color2= { 255 255 255 }
 		
 		capital = 481 # Katipa ?
+
+		assimilate = no
 		
 		d_katipa = {
 			color= { 225 150 0 }
@@ -3184,6 +3226,8 @@ e_skudatpa = { # Scythia
 		color2= { 255 255 255 }
 		
 		capital = 494 # Kissarlewle
+
+		assimilate = no
 		
 		d_katipanti = {			
 			color= { 200 100 0 }
@@ -3391,6 +3435,8 @@ e_skudatpa = { # Scythia
 		color2= { 255 255 255 }
 		
 		capital = 513 # Argimpasa
+
+		assimilate = no
 		
 		d_lipsoxais = {
 			color= { 175 100 25 }
@@ -3525,6 +3571,8 @@ e_skudatpa = { # Scythia
 		color2= { 255 255 255 }
 		
 		capital = 526 # Hvarzkutipa
+
+		assimilate = no
 		
 		d_kissarun = {
 			color= { 150 75 25 }
@@ -3673,6 +3721,8 @@ e_skudatpa = { # Scythia
 		color2= { 255 255 255 }
 		
 		capital = 546 # Gaumizda
+
+		assimilate = no
 		
 		d_colaxais = {
 			color= { 150 125 0 }
@@ -3946,6 +3996,8 @@ e_skudatpa = { # Scythia
 		color2= { 255 255 255 }
 		
 		capital = 562 # Zarkarun
+
+		assimilate = no
 		
 		d_hvarzgasti = {
 			color= { 175 125 25 }
@@ -4062,6 +4114,8 @@ e_skudatpa = { # Scythia
 		color2= { 255 255 255 }
 		
 		capital = 568 # Narapa
+
+		assimilate = no
 		
 		d_artabagapa = {			
 			color= { 200 150 25 }
@@ -5790,6 +5844,44 @@ k_magna_graecia = {
 			b_henna5_henna = {
 			}
 			b_henna6_henna = {
+			}
+		}
+		c_motyon = {
+			color= { 5 33 191 }
+			color2= { 255 255 255 }
+			
+			b_motyon_motyon = {
+			}
+			b_motyon1_motyon = {
+			}
+			b_motyon2_motyon = {
+			}
+			b_motyon3_motyon = {
+			}
+			b_motyon4_motyon = {
+			}
+			b_motyon5_motyon = {
+			}
+			b_motyon6_motyon = {
+			}
+		}
+		c_hippana = {
+			color= { 100 193 184 }
+			color2= { 255 255 255 }
+			
+			b_hippana_hippana = {
+			}
+			b_hippana1_hippana = {
+			}
+			b_hippana2_hippana = {
+			}
+			b_hippana3_hippana = {
+			}
+			b_hippana4_hippana = {
+			}
+			b_hippana5_hippana = {
+			}
+			b_hippana6_hippana = {
 			}
 		}
 	}
@@ -10497,9 +10589,13 @@ k_greece = {
 		}
 	}
 	
+	capital = 18 # Athens
+	
 	d_peloponnese = {
 		color= { 100 175 255 }
 		color2= { 255 255 255 }
+		
+		capital = 21 # Corinth
 	
 		c_corinth = {
 			color= { 100 175 255 }
@@ -10619,6 +10715,8 @@ k_greece = {
 	d_attike = {
 		color= { 100 200 255 }
 		color2= { 255 255 255 }
+		
+		capital = 18 # Athens
 	
 		c_athens = {
 			color= { 100 200 255 }
@@ -10687,6 +10785,8 @@ k_greece = {
 	d_aetolia = {
 		color= { 100 225 225 }
 		color2= { 255 255 255 }
+		
+		capital = 629 # Trachis
 		
 		c_trachis = {
 			color= { 100 215 215 }
@@ -10775,6 +10875,8 @@ k_greece = {
 	d_crete = {
 		color= { 100 200 225 }
 		color2= { 255 255 255 }
+		
+		capital = 9 # Knossos
 	
 		c_kydonia = {
 			color= { 100 200 225 }
@@ -10818,6 +10920,8 @@ k_greece = {
 	d_euboia = {
 		color= { 100 175 200 }
 		color2= { 255 255 255 }
+		
+		capital = 2 # Chalcis
 	
 		c_chalcis = {
 			color= { 100 175 200 }
@@ -10868,11 +10972,12 @@ k_greece = {
 	d_cyclades = {
 		color= { 100 175 225 }
 		color2= { 255 255 255 }
+		
+		capital = 5 # Naxos
 	
 		c_andros = {
 			color= { 90 165 210 }
 			color2= { 255 255 255 }
-		
 		
 			b_palaeopolis_andros = {
 			}
@@ -10908,6 +11013,8 @@ k_greece = {
 		color2= { 255 255 255 }
 		
 		title = "TAGUS"
+		
+		capital = 33 # Larissa
 		
 		c_lamia = {
 			color= { 100 190 190 }
@@ -11004,7 +11111,9 @@ k_greece = {
 	d_chalcidice = {
 		color= { 100 175 200 }
 		color2= { 255 255 255 }
-				
+		
+		capital = 35 # Chalkidiki
+		
 		c_chalkidiki = {
 			color= { 100 175 200 }
 			color2= { 255 255 255 }
@@ -11072,14 +11181,20 @@ k_nabataea = {
 		culture = nabataean
 	}
 	
+	capital = 170 # Petra
+	
 	d_sinai = {
 		color= { 200 150 25 }
 		color2= { 255 255 255 }
+		
 		egyptian = "Mafkat"
+		
+		capital = 132 # Pelusium
 	
 		c_pelusium = {
 			color= { 200 150 25 }
 			color2= { 255 255 255 }
+			
 			egyptian = "Per Amun"
 		
 			b_pelusium_pelusium = {
@@ -11096,6 +11211,7 @@ k_nabataea = {
 		c_rhaithou = {
 			color= { 190 150 25 }
 			color2= { 255 255 255 }
+			
 			egyptian = "Dw Mafkat"
 		
 			b_rhaithou_rhaithou = {
@@ -11121,6 +11237,8 @@ k_nabataea = {
 	d_nabataea = {
 		color= { 200 150 0 }
 		color2= { 255 255 255 }
+		
+		capital = 170 # Petra
 	
 		c_auara = {
 			color= { 190 160 0 }
@@ -11187,6 +11305,8 @@ k_nabataea = {
 		color= { 175 150 0 }
 		color2= { 255 255 255 }
 		
+		capital = 446 # Dedan
+		
 		c_modiana = {
 			color= { 185 150 10 }
 			color2= { 255 255 255 }
@@ -11241,6 +11361,8 @@ k_nabataea = {
 	d_bostra = {
 		color= { 175 125 0 }
 		color2= { 255 255 255 }
+		
+		capital = 174 # Bostra
 	
 		c_gadara = {
 			color= { 165 135 0 }
@@ -11283,9 +11405,12 @@ k_rome = {
 	capital = 324 # Roma
 
 	short_name = yes
+	
 	d_latium = {
 		color= { 125 0 0 }
 		color2= { 255 255 255 }
+		
+		capital = 324 # Roma
 
 		c_terracina = {
 			color= { 135 10 0 }
@@ -11345,9 +11470,13 @@ k_italy = {
 		}
 	}
 	
+	capital = 320 # Neapolis
+	
 	d_campania = {
 		color= { 125 0 25 }
 		color2= { 255 255 255 }
+		
+		capital = 320 # Neapolis
 		
 		c_irna = {
 			color= { 125 10 15 }
@@ -11390,6 +11519,8 @@ k_italy = {
 	d_samnium = {
 		color= { 125 25 0 }
 		color2= { 255 255 255 }
+		
+		capital = 326 # Beneventum
 		
 		c_beneventum = {
 			color= { 125 35 10 }
@@ -11436,6 +11567,8 @@ k_italy = {
 	d_umbria = {
 		color= { 125 25 25 }
 		color2= { 255 255 255 }
+		
+		capital = 332 # Spoletium
 		
 		c_amiternum = {
 			color= { 125 15 15 }
@@ -11495,6 +11628,8 @@ k_italy = {
 	d_etruria = {
 		color= { 100 0 0 }
 		color2= { 255 255 255 }
+		
+		capital = 339 # Pisae
 		
 		c_veii = {
 			color= { 110 10 0 }
@@ -11573,6 +11708,8 @@ k_italy = {
 		color= { 150 0 0 }
 		color2= { 255 255 255 }
 		
+		capital = 330 # Ancona
+		
 		c_asculum = {
 			color= { 150 0 0 }
 			color2= { 255 255 255 }
@@ -11614,9 +11751,13 @@ k_cisalpine_gaul = {
 		}
 	}
 	
+	capital = 358 # Ravenna
+	
 	d_liguria = {
 		color= { 100 225 75 }
 		color2= { 255 255 255 }
+		
+		capital = 644 # Genoa
 		
 		c_luna = {
 			color= { 100 225 75 }
@@ -11681,6 +11822,8 @@ k_cisalpine_gaul = {
 	d_gallia_transpadana = {
 		color= { 100 255 75 }
 		color2= { 255 255 255 }
+		
+		capital = 344 # Vercellae
 		
 		c_vercellae = {
 			color= { 100 255 60 }
@@ -11747,6 +11890,8 @@ k_cisalpine_gaul = {
 		color= { 100 200 75 }
 		color2= { 255 255 255 }
 		
+		capital = 358 # Ravenna
+		
 		c_placentia = {
 			color= { 100 190 85 }
 			color2= { 255 255 255 }
@@ -11799,6 +11944,8 @@ k_cisalpine_gaul = {
 	d_venetia = {
 		color= { 100 255 100 }
 		color2= { 255 255 255 }
+		
+		capital = 71 # Parentium
 		
 		c_parentium = {
 			color= { 100 255 100 }
@@ -11910,9 +12057,13 @@ k_cyprus = {
 		}
 	}
 	
+	capital = 168 # Salamis
+	
 	d_cyprus = {
 		color= { 100 255 125 }
 		color2= { 255 255 255 }
+		
+		capital = 168 # Salamis
 	
 		c_paphos = {
 			color= { 103 255 128 }
@@ -11971,6 +12122,8 @@ k_carthage = {
 		color= { 255 255 125 }
 		color2= { 255 255 255 }
 		
+		capital = 300 # Lilybaeum
+		
 		c_elymians = {
 			color= { 255 245 115 }
 			color2= { 255 255 255 }
@@ -12009,6 +12162,8 @@ k_carthage = {
 		color= { 255 255 175 }
 		color2= { 255 255 255 }
 		
+		capital = 350 # Aleria
+		
 		c_aleria = {
 			color= { 255 255 175 }
 			color2= { 255 255 255 }
@@ -12035,6 +12190,8 @@ k_carthage = {
 	d_sardinia = {
 		color= { 255 225 150 }
 		color2= { 255 255 255 }
+		
+		capital = 352 # Olbia
 		
 		c_olbia_sardinia = {
 			color= { 255 215 160 }
@@ -12073,6 +12230,8 @@ k_carthage = {
 	d_zeugitana = {
 		color= { 255 255 150 }
 		color2= { 255 255 255 }
+		
+		capital = 360 # Carthage
 		
 		c_utica = {
 			color= { 255 245 140 }
@@ -12145,6 +12304,8 @@ k_carthage = {
 		color= { 255 225 175 }
 		color2= { 255 255 255 }
 		
+		capital = 361 # Thapsus
+		
 		c_thapsus = {
 			color= { 255 225 175 }
 			color2= { 255 255 255 }
@@ -12194,6 +12355,8 @@ k_carthage = {
 	d_tripolitania = {
 		color= { 255 225 125 }
 		color2= { 255 255 255 }
+		
+		capital = 378 # Meninx
 		
 		c_meninx = {
 			color= { 245 225 115 }
@@ -12270,6 +12433,8 @@ k_carthage = {
 	d_hipponensis = {
 		color= { 255 225 100 }
 		color2= { 255 255 255 }
+		
+		capital = 366 # Hippo
 		
 		c_hippo = {
 			color= { 255 225 100 }
@@ -12354,6 +12519,8 @@ k_numidia = {
 		color= { 255 200 50 }
 		color2= { 255 255 255 }
 		
+		capital = 370 # Satafis
+		
 		c_tubusuctu = {
 			color= { 255 190 40 }
 			color2= { 255 255 255 }
@@ -12414,6 +12581,8 @@ k_numidia = {
 	d_aurasium = {
 		color= { 255 200 75 }
 		color2= { 255 255 255 }
+		
+		capital = 371 # Cirta
 		
 		c_cirta = {
 			color= { 255 200 75 }

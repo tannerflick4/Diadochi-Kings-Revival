@@ -11,7 +11,7 @@
 	holder = 150203 # Mantyes of the Agrianes
 }
 453.6.10 = { # 323 BC
-	liege = d_s_macedon
+	liege = k_s_macedon
 }
 459.10.1 = { # 317 BC
 	liege = k_macedon

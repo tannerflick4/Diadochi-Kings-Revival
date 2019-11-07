@@ -8,7 +8,7 @@
 	liege = e_macedonia
 }
 453.6.10 = { # 323 BC
-	liege = d_s_thrace
+	liege = k_s_thrace
 }
 455.1.1 = { # 321 BC
 	holder = 55505 # Nikolaos of the Ainoi

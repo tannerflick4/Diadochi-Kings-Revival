@@ -17,7 +17,7 @@
 	holder = 905 # Antiochos of the Orestai
 }
 453.6.10 = { # 323 BC, Alexander dies.
-	liege = d_s_macedon
+	liege = k_s_macedon
 }
 459.10.1 = { # 317 BC, Cassander takes over.
 	liege = k_macedon

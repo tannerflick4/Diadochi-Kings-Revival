@@ -9,7 +9,11 @@
 	holder = 53403 # Habron
 }
 453.6.10 = { # 323 BC
+	liege = k_s_macedon
+}
+459.7.1 = { # 317 BC
 	holder = 0
+	liege = 0
 }
 469.1.1 = { # 307 BC
 	holder = 53403 # Habron

@@ -11,7 +11,7 @@
 	holder = 23603
 }
 453.6.10 = { # 323 BC
-	liege = d_s_macedon
+	liege = k_s_macedon
 }
 461.10.1 = { # 315 BC
 	liege = d_peloponnese

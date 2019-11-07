@@ -1,6 +1,6 @@
 417.1.1 = { # 359 BC
 	holder = 90323
-	liege = d_s_lydia
+	liege = k_p_lydia
 }
 439.1.1 = { # 337 BC
 	holder = 130001 # Mithridates
@@ -9,10 +9,10 @@
 	liege = e_persia
 }
 446.1.1 = { # 330 BC
-	liege = d_s_mysia
+	liege = k_s_mysia
 }
 457.3.1 = { # 319 BC
-	liege = d_s_phrygia
+	liege = k_s_phrygia
 }
 467.1.1 = { # 309 BC
 	liege = e_asia

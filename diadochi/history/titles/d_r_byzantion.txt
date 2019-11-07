@@ -5,10 +5,12 @@
 	liege = e_macedonia
 }
 453.6.9 = {
-	holder = 0
+	liege="k_s_thrace"
+}
+460.1.1 = {
+	holder = 20701
 }
 467.1.1 = {
-	holder = 20701
 	liege = k_odrysia
 }
 472.1.1 = {

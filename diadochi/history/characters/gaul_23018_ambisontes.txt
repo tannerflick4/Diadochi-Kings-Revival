@@ -16,6 +16,7 @@
 	dynasty = 23018 # Ambisontes
 	culture = gaul
 	religion = celtic_main
+	father = 231601
 	414.1.1 = {
 		birth="yes" # 362 BC
 	}
@@ -28,6 +29,7 @@
 	dynasty = 23018 # Ambisontes
 	culture = gaul
 	religion = celtic_main
+	father = 231602
 	445.1.1 = {
 		birth="yes" # 321 BC
 	}
