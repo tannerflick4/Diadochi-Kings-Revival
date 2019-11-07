@@ -13305,19 +13305,6 @@ k_gallia = {
 			b_vologatae_valentia = {
 			}
 		}
-		c_lucus = {
-			color= { 40 245 0 }
-			color2= { 255 255 255 }
-			
-			b_lucus_lucus = {
-			}
-			b_vologatae_lucus = {
-			}
-			b_dea_vocontiorum_lucus = {
-			}
-			b_altonum_lucus = {
-			}
-		}
 		c_noiomagos = {
 			color= { 50 190 10 }
 			color2= { 255 255 255 }
