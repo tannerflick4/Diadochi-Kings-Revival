@@ -1,0 +1,20 @@
+# 1106 - Panormos
+
+# County Title
+title = c_panormos
+
+# Settlements
+max_settlements = 4
+b_panormos_panormos = city
+b_panormos1_panormos = castle
+b_panormos2_panormos = city
+b_panormos3_panormos = castle
+#b_panormos4_panormos = city
+#b_panormos5_panormos = castle
+#b_panormos6_panormos = city
+
+# Misc
+culture = punic
+religion = punic_main
+
+# History
