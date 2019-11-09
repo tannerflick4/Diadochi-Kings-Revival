@@ -4,17 +4,17 @@
 title = c_hipponion
 
 # Settlements
-max_settlements = 6
-b_hipponion_hipponion = castle
-b_hipponion1_hipponion = city
-#b_hipponion2_hipponion = temple
-#b_hipponion3_hipponion = castle
-#b_hipponion4_hipponion = city
-#b_hipponion5_hipponion = temple
-#b_hipponion6_hipponion = castle
+max_settlements = 5
+b_hipponion_hipponion = tribal
+#b_portus_orestis_hipponion = city
+#b_mamerlion_hipponion = castle
+#b_medma_hipponion = castle
+#b_trapeia_hipponion = city
+#b_annicia_hipponion = city
+#b_ad_fluvium_angitulam_hipponion = city
 
 # Misc
-culture = doric
-religion = greek_main
+culture = oscan
+religion = roman_main
 
 # History

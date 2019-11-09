@@ -4,14 +4,14 @@
 title = c_locris
 
 # Settlements
-max_settlements = 6
+max_settlements = 4
 b_locris_locris = castle
-b_locris1_locris = city
-#b_locris2_locris = temple
-#b_locris3_locris = castle
-#b_locris4_locris = city
-#b_locris5_locris = temple
-#b_locris6_locris = castle
+b_scylletium_locris = city
+b_vivarium_locris = castle
+#b_cocinto_locris = castle
+#b_kaulonia_locris = city
+#b_subsicivo_locris = city
+b_altanum_locris = city
 
 # Misc
 culture = doric

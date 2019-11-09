@@ -57,11 +57,7 @@
 #b_omphake_gela
 #b_calvisiana_gela
 #b_mesopotamium_gela
-#b_bidis_gela
-#b_euboia_gela
-#b_menai_gela
 
-#b_hereum_syracuse
 #b_hybla_heraia_syracuse
 #b_kasmenai_syracuse
 #b_portus_pachyni_syracuse
@@ -79,4 +75,25 @@
 #b_tissa_catana
 
 #b_traiectus_messene
-#b_longane_messene
+
+#b_acerronia_venusia
+#b_numistro_venusia
+#b_atina_venusia
+#b_eburum_venusia
+#b_ad_silarum_venusia
+
+#b_ad_duodecimum_lupiae
+#b_rudiae_lupiae
+
+#b_ad_decimum_brundisium
+#b_stournoi_brundisium
+#b_karbinai_brundisium
+
+#b_rubi_barium
+#b_respa_barium
+#b_grumum_barium
+#b_caelia_barium
+#b_turres_iulianae_barium
+#b_norba_barium
+
+#b_aufidena_canusium

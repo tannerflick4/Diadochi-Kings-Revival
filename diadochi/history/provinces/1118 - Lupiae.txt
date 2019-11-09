@@ -4,17 +4,17 @@
 title = c_lupiae
 
 # Settlements
-max_settlements = 2
-b_lupiae_lupiae = castle
-b_lupiae1_lupiae = city
-#b_lupiae2_lupiae = temple
-#b_lupiae3_lupiae = castle
-#b_lupiae4_lupiae = city
-#b_lupiae5_lupiae = temple
-#b_lupiae6_lupiae = castle
+max_settlements = 5
+b_lupiae_lupiae = tribal
+#b_baletium_lupiae = castle
+#b_castrum_minervae_lupiae = castle
+b_hydruntum_lupiae = temple
+#b_hadrianou_hormos_lupiae = city
+#b_uzentum_lupiae = city
+#b_veretum_lupiae = city
 
 # Misc
-culture = doric
-religion = greek_main
+culture = illyrian
+religion = illyrian_main
 
 # History

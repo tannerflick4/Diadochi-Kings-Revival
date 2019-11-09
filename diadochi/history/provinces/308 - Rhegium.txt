@@ -4,16 +4,14 @@
 title = c_rhegium # for example c_corinth
 
 # Settlements
-max_settlements = 3 # tsf4 - 6
-b_rhegium = castle
-b_scyllaeum_rhegium = city
-b_locri_rhegium = temple
-
-# Possible baronies: (Always add a # in front of a line with these!)
-#
-#
-#
-#
+max_settlements = 4
+b_rhegium_rhegium = castle
+#b_scylia_rhegium = city
+#b_ad_columnam_rhegium = city
+b_leucopetra_rhegium = city
+#b_decastadium_rhegium = city
+b_scyle_rhegium = city
+b_hipporum_rhegium = castle
 
 # Misc
 culture = ionian

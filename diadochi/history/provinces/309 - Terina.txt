@@ -4,21 +4,18 @@
 title = c_terina # for example c_corinth
 
 # Settlements
-max_settlements = 4 # tsf4 - 6
-b_terina = castle
-b_medma_terina = city
-b_caulonia_terina = temple
-b_scylletium_terina = city
-
-# Possible baronies: (Always add a # in front of a line with these!)
-#
-#
-#
-#
+max_settlements = 3
+b_terina_terina = tribal
+#b_tanno_terina = castle
+#b_ad_turres_terina = castle
+#b_aque_angae_terina = temple
+#b_temesa_terina = castle
+#b_ad_fluvium_sabutum_terina = castle
+#b_teura_terina = castle
 
 # Misc
-culture = doric
-religion = greek_main
+culture = oscan
+religion = roman_main
 
 # History
 # Can be filled when things change around the province

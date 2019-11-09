@@ -4,19 +4,18 @@
 title = c_croton # for example c_corinth
 
 # Settlements
-max_settlements = 2 # tsf4 - 6
-b_croton = castle
-b_petelia_croton = city
-
-# Possible baronies: (Always add a # in front of a line with these!)
-#
-#
-#
-#
+max_settlements = 5
+b_croton_croton = castle
+b_petelia_croton = castle
+#b_meto_croton = city
+#b_castra_hannibalis_croton = castle
+b_aprustum_croton = castle
+b_krimissa_croton = temple
+#b_tacina_croton = city
 
 # Misc
-culture = oscan
-religion = roman_main
+culture = doric
+religion = greek_main
 
 # History
 # Can be filled when things change around the province

@@ -1,0 +1,21 @@
+# 315 - Canusium
+
+# County Title
+title = c_canusium # for example c_corinth
+
+# Settlements
+max_settlements = 4
+b_canusium_canusium = tribal
+#b_cannae_canusium = city
+#b_ad_quintumdecimum_canusium = castle
+#b_rudas_canusium = temple
+#b_turenum_canusium = city
+#b_barduli_canusium = city
+#b_forentum_canusium = castle
+
+# Misc
+culture = illyrian
+religion = illyrian_main
+
+# History
+# Can be filled when things change around the province

@@ -5710,11 +5710,19 @@ k_magna_graecia = {
 			color= { 65 140 225 }
 			color2= { 255 255 255 }
 			
-			b_rhegium = {
+			b_rhegium_rhegium = {
 			}
-			b_scyllaeum_rhegium = {
+			b_scylia_rhegium = {
 			}
-			b_locri_rhegium = {
+			b_ad_columnam_rhegium = {
+			}
+			b_leucopetra_rhegium = {
+			}
+			b_decastadium_rhegium = {
+			}
+			b_scyle_rhegium = {
+			}
+			b_hipporum_rhegium = {
 			}
 		}
 		c_messana = {
@@ -5970,22 +5978,38 @@ k_magna_graecia = {
 			color= { 85 160 225 }
 			color2= { 255 255 255 }
 			
-			b_terina = {
+			b_terina_terina = {
 			}
-			b_medma_terina = {
+			b_tanno_terina = {
 			}
-			b_caulonia_terina = {
+			b_ad_turres_terina = {
 			}
-			b_scylletium_terina = {
+			b_aque_angae_terina = {
+			}
+			b_temesa_terina = {
+			}
+			b_ad_fluvium_sabutum_terina = {
+			}
+			b_teura_terina = {
 			}
 		}
 		c_croton = {
 			color= { 75 150 225 }
 			color2= { 255 255 255 }
 			
-			b_croton = {
+			b_croton_croton = {
 			}
 			b_petelia_croton = {
+			}
+			b_meto_croton = {
+			}
+			b_castra_hannibalis_croton = {
+			}
+			b_aprustum_croton = {
+			}
+			b_krimissa_croton = {
+			}
+			b_tacina_croton = {
 			}
 		}
 		c_locris = {
@@ -5994,17 +6018,17 @@ k_magna_graecia = {
 			
 			b_locris_locris = {
 			}
-			b_locris1_locris = {
+			b_scylletium_locris = {
 			}
-			b_locris2_locris = {
+			b_vivarium_locris = {
 			}
-			b_locris3_locris = {
+			b_cocinto_locris = {
 			}
-			b_locris4_locris = {
+			b_kaulonia_locris = {
 			}
-			b_locris5_locris = {
+			b_subsicivo_locris = {
 			}
-			b_locris6_locris = {
+			b_altanum_locris = {
 			}
 		}
 		c_hipponion = {
@@ -6013,17 +6037,17 @@ k_magna_graecia = {
 			
 			b_hipponion_hipponion = {
 			}
-			b_hipponion1_hipponion = {
+			b_portus_orestis_hipponion = {
 			}
-			b_hipponion2_hipponion = {
+			b_mamerlion_hipponion = {
 			}
-			b_hipponion3_hipponion = {
+			b_medma_hipponion = {
 			}
-			b_hipponion4_hipponion = {
+			b_trapeia_hipponion = {
 			}
-			b_hipponion5_hipponion = {
+			b_annicia_hipponion = {
 			}
-			b_hipponion6_hipponion = {
+			b_ad_fluvium_angitulam_hipponion = {
 			}
 		}
 		c_caprasia = {
@@ -6032,26 +6056,36 @@ k_magna_graecia = {
 			
 			b_caprasia_caprasia = {
 			}
-			b_caprasia1_caprasia = {
+			b_clampetia_caprasia = {
 			}
-			b_caprasia2_caprasia = {
+			b_thebae_lucanae_caprasia = {
 			}
-			b_caprasia3_caprasia = {
+			b_interamnum_caprasia = {
 			}
-			b_caprasia4_caprasia = {
+			b_aulugum_caprasia = {
 			}
-			b_caprasia5_caprasia = {
+			b_cerilli_caprasia = {
 			}
-			b_caprasia6_caprasia = {
+			b_laos_caprasia = {
 			}
 		}
 		c_thurii = {
 			color= { 75 150 255 }
 			color2= { 255 255 255 }
 			
-			b_thurii = {
+			b_thurii_thurii = {
 			}
 			b_sybaris_thurii = {
+			}
+			b_rouskiane_thurii = {
+			}
+			b_roscianum_thurii = {
+			}
+			b_ad_vicesimum_thurii = {
+			}
+			b_pandosia_thurii = {
+			}
+			b_paternum_thurii = {
 			}
 		}
 	}
@@ -6065,20 +6099,38 @@ k_magna_graecia = {
 			color= { 75 160 245 }
 			color2= { 255 255 255 }
 			
-			b_heracleia_sicily = {
+			b_heracleia_heracleia_sicily = {
 			}
 			b_siris_heracleia_sicily = {
+			}
+			b_lagaria_heracleia_sicily = {
+			}
+			b_pandosia_heracleia_sicily = {
+			}
+			b_arciade_heracleia_sicily = {
+			}
+			b_ad_mallias_heracleia_sicily = {
+			}
+			b_taurianum_heracleia_sicily = {
 			}
 		}
 		c_elea = {
 			color= { 65 140 255 }
 			color2= { 255 255 255 }
 			
-			b_elea = {
+			b_elea_elea = {
 			}
-			b_laus_elea = {
+			b_molpa_elea = {
 			}
-			b_pixous_elea = {
+			b_consentia_elea = {
+			}
+			b_hera_elea = {
+			}
+			b_nerulum_elea = {
+			}
+			b_buxentum_elea = {
+			}
+			b_emporion_elea = {
 			}
 		}
 		c_grumentum = {
@@ -6087,17 +6139,17 @@ k_magna_graecia = {
 			
 			b_grumentum_grumentum = {
 			}
-			b_grumentum1_grumentum = {
+			b_skidros_grumentum = {
 			}
-			b_grumentum2_grumentum = {
+			b_vico_mendicoleo_grumentum = {
 			}
-			b_grumentum3_grumentum = {
+			b_statio_caesariana_grumentum = {
 			}
-			b_grumentum4_grumentum = {
+			b_consilinum_grumentum = {
 			}
-			b_grumentum5_grumentum = {
+			b_cesernia_grumentum = {
 			}
-			b_grumentum6_grumentum = {
+			b_bianda_grumentum = {
 			}
 		}
 		c_potentia = {
@@ -6106,17 +6158,17 @@ k_magna_graecia = {
 			
 			b_potentia_potentia = {
 			}
-			b_potentia1_potentia = {
+			b_ad_fluvium_bradanum_potentia = {
 			}
-			b_potentia2_potentia = {
+			b_acheruntia_potentia = {
 			}
-			b_potentia3_potentia = {
+			b_anxia_potentia = {
 			}
-			b_potentia4_potentia = {
+			b_longane_potentia = {
 			}
-			b_potentia5_potentia = {
+			b_metaurum_potentia = {
 			}
-			b_potentia6_potentia = {
+			b_marcellianum_potentia = {
 			}
 		}
 		c_venusia = {
@@ -6125,13 +6177,17 @@ k_magna_graecia = {
 			
 			b_venusia_venusia = {
 			}
-			b_strapellum_venusia = {
+			b_nares_lucanae_venusia = {
 			}
-			b_bantia_venusia = {
+			b_tegianum_venusia = {
 			}
-			b_acherontia_venusia = {
+			b_volcei_venusia = {
 			}
-			b_ferentium_venusia = {
+			b_satrianum_venusia = {
+			}
+			b_compsa_venusia = {
+			}
+			b_forum_popili_venusia = {
 			}
 		}
 	}
@@ -6141,17 +6197,23 @@ k_magna_graecia = {
 		
 		capital = 1119 # Barium
 		
-		c_salapia = {
+		c_canusium = {
 			color= { 65 210 200 }
 			color2= { 255 255 255 }
 			
-			b_salapia_salapia = {
+			b_canusium_canusium = {
 			}
-			b_acerina_salapia = {
+			b_cannae_canusium = {
 			}
-			b_cannae_salapia = {
+			b_ad_quintumdecimum_canusium = {
 			}
-			b_canusium_salapia = {
+			b_rudas_canusium = {
+			}
+			b_turenum_canusium = {
+			}
+			b_barduli_canusium = {
+			}
+			b_forentum_canusium = {
 			}
 		}
 		c_arpi = {
@@ -6169,17 +6231,17 @@ k_magna_graecia = {
 			
 			b_barium_barium = {
 			}
-			b_barium1_barium = {
+			b_natiolum_barium = {
 			}
-			b_barium2_barium = {
+			b_azetium_barium = {
 			}
-			b_barium3_barium = {
+			b_turum_barium = {
 			}
-			b_barium4_barium = {
+			b_turris_caesaris_barium = {
 			}
-			b_barium5_barium = {
+			b_butuntum_barium = {
 			}
-			b_barium6_barium = {
+			b_silvium_barium = {
 			}
 		}
 	}
@@ -6193,16 +6255,38 @@ k_magna_graecia = {
 			color= { 75 175 175 }
 			color2= { 255 255 255 }
 			
-			b_tarentum = {
+			b_tarentum_tarentum = {
+			}
+			b_satyrion_tarentum = {
+			}
+			b_manduria_tarentum = {
+			}
+			b_mesochorum_tarentum = {
+			}
+			b_leuca_tarentum = {
+			}
+			b_basta_tarentum = {
+			}
+			b_kallipolis_tarentum = {
 			}
 		}
 		c_brundisium = {
 			color= { 65 165 175 }
 			color2= { 255 255 255 }
 			
-			b_brundisium = {
+			b_brundisium_brundisium = {
 			}
-			b_calipolis_brundisium = {
+			b_valetium_brundisium = {
+			}
+			b_uria_brundisium = {
+			}
+			b_ad_speluncas_brundisium = {
+			}
+			b_caelia_brundisium = {
+			}
+			b_egnetia_brundisium = {
+			}
+			b_diria_brundisium = {
 			}
 		}
 		c_lupiae = {
@@ -6211,17 +6295,17 @@ k_magna_graecia = {
 			
 			b_lupiae_lupiae = {
 			}
-			b_lupiae1_lupiae = {
+			b_baletium_lupiae = {
 			}
-			b_lupiae2_lupiae = {
+			b_castrum_minervae_lupiae = {
 			}
-			b_lupiae3_lupiae = {
+			b_hydruntum_lupiae = {
 			}
-			b_lupiae4_lupiae = {
+			b_hadrianou_hormos_lupiae = {
 			}
-			b_lupiae5_lupiae = {
+			b_uzentum_lupiae = {
 			}
-			b_lupiae6_lupiae = {
+			b_veretum_lupiae = {
 			}
 		}
 		c_metapontum = {
@@ -6230,11 +6314,17 @@ k_magna_graecia = {
 			
 			b_metapontum_metapontum = {
 			}
-			b_metapontum1_metapontum = {
+			b_hera_metapontum = {
 			}
-			b_rubi_metapontum = {
+			b_neretum_metapontum = {
 			}
-			b_norba_metapontum = {
+			b_bidis_metapontum = {
+			}
+			b_euboia_metapontum = {
+			}
+			b_menai_metapontum = {
+			}
+			b_hereum_metapontum = {
 			}
 		}
 	}

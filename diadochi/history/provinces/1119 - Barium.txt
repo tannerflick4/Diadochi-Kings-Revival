@@ -5,16 +5,16 @@ title = c_barium
 
 # Settlements
 max_settlements = 4
-b_barium_barium = castle
-b_barium1_barium = city
-b_barium2_barium = temple
-b_barium3_barium = castle
-#b_barium4_barium = city
-#b_barium5_barium = temple
-#b_barium6_barium = castle
+b_barium_barium = tribal
+#b_natiolum_barium = city
+#b_azetium_barium = city
+#b_turum_barium = temple
+#b_turris_caesaris_barium = castle
+#b_butuntum_barium = castle
+#b_silvium_barium = castle
 
 # Misc
-culture = doric
-religion = greek_main
+culture = illyrian
+religion = illyrian_main
 
 # History

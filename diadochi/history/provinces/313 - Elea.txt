@@ -4,16 +4,14 @@
 title = c_elea # for example c_corinth
 
 # Settlements
-max_settlements = 3 # tsf4 - 6
-b_elea = castle
-b_laus_elea = city
-b_pixous_elea = temple
-
-# Possible baronies: (Always add a # in front of a line with these!)
-#
-#
-#
-#
+max_settlements = 3
+b_elea_elea = castle
+b_molpa_elea = city
+#b_consentia_elea = castle
+#b_hera_elea = temple
+#b_nerulum_elea = city
+#b_buxentum_elea = castle
+#b_emporion_elea = city
 
 # Misc
 culture = ionian

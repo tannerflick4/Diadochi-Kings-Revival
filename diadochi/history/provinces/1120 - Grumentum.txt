@@ -4,17 +4,17 @@
 title = c_grumentum
 
 # Settlements
-max_settlements = 6
-b_grumentum_grumentum = castle
-b_grumentum1_grumentum = city
-b_grumentum2_grumentum = temple
-#b_grumentum3_grumentum = castle
-#b_grumentum4_grumentum = city
-#b_grumentum5_grumentum = temple
-#b_grumentum6_grumentum = castle
+max_settlements = 5
+b_grumentum_grumentum = tribal
+#b_skidros_grumentum = city
+#b_vico_mendicoleo_grumentum = castle
+#b_statio_caesariana_grumentum = castle
+#b_consilinum_grumentum = castle
+#b_cesernia_grumentum = city
+#b_bianda_grumentum = city
 
 # Misc
-culture = ionian
-religion = greek_main
+culture = oscan
+religion = roman_main
 
 # History

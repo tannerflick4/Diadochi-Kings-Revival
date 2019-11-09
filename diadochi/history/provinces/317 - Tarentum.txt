@@ -4,14 +4,14 @@
 title = c_tarentum # for example c_corinth
 
 # Settlements
-max_settlements = 1
-b_tarentum = city
-
-# Possible baronies: (Always add a # in front of a line with these!)
-#
-#
-#
-#
+max_settlements = 5
+b_tarentum_tarentum = city
+b_satyrion_tarentum = city
+b_manduria_tarentum = castle
+b_mesochorum_tarentum = castle
+#b_leuca_tarentum = temple
+#b_basta_tarentum = castle
+b_kallipolis_tarentum = city
 
 # Misc
 culture = doric
