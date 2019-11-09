@@ -1848,14 +1848,19 @@ b_arebrigium_augusta_praetoria;Arebrigium;;;;;;;;;;;;;x;
 b_ariolica_augusta_praetoria;Ariolica;;;;;;;;;;;;;x;
 b_augusta_praetoria_augusta_praetoria;Augusta Praetoria;;;;;;;;;;;;;x;
 b_geneva_geneva;Geneva;;;;;;;;;;;;;x;
-b_boutae_geneva;Boutae;;;;;;;;;;;;;x;
-b_vintium_geneva;Vintium;;;;;;;;;;;;;x;
-b_albinnum_geneva;Albinnum;;;;;;;;;;;;;x;
+b_namascae_geneva;Namascae;;;;;;;;;;;;;x;
+b_iulia_equestris_geneva;Iulia Equestris;;;;;;;;;;;;;x;
+b_condatiscone_geneva;Condatiscone;;;;;;;;;;;;;x;
+b_balma_geneva;Balma;;;;;;;;;;;;;x;
+b_lauconnum_geneva;Lauconnum;;;;;;;;;;;;;x;
+b_versix_geneva;Versix;;;;;;;;;;;;;x;
 b_aventicum_aventicum;Aventicum;;;;;;;;;;;;;x;
-b_lousonna_aventicum;Lousonna;;;;;;;;;;;;;x;
-b_salodurum_aventicum;Salodurum;;;;;;;;;;;;;x;
-b_eburodunum_aventicum;Eburodunum;;;;;;;;;;;;;x;
+b_brenodunum_aventicum;Brenodunum;;;;;;;;;;;;;x;
 b_petinesca_aventicum;Petinesca;;;;;;;;;;;;;x;
+b_pons_ariolica_aventicum;Pons Ariolica;;;;;;;;;;;;;x;
+b_eburodunum_aventicum;Eburodunum;;;;;;;;;;;;;x;
+b_lousonna_aventicum;Lousonna;;;;;;;;;;;;;x;
+b_minnodunum_aventicum;Minnodunum;;;;;;;;;;;;;x;
 b_vesontio_vesontio;Vesontio;;;;;;;;;;;;;x;
 b_epamanduodurum_vesontio;Epamanduodurum;;;;;;;;;;;;;x;
 b_ariorica_vesontio;Ariorica;;;;;;;;;;;;;x;
@@ -4098,6 +4103,13 @@ b_marciaco_noulomagos;Marciaco;;;;;;;;;;;x
 b_cambone_noulomagos;Cambone;;;;;;;;;;;x
 b_ad_lovem_noulomagos;Ad Lovem;;;;;;;;;;;x
 b_calagorris_noulomagos;Calagorris;;;;;;;;;;;x
+b_tauredunum_tauredunum;Tauredunum;;;;;;;;;;;x
+b_acaunum_tauredunum;Acaunum;;;;;;;;;;;x
+b_tarnaiae_tauredunum;Tarnaiae;;;;;;;;;;;x
+b_penne_locos_tauredunum;Penne Locos;;;;;;;;;;;x
+b_vivisco_tauredunum;Vivisco;;;;;;;;;;;x
+b_muras_tauredunum;Muras;;;;;;;;;;;x
+b_ad_fines_tauredunum;Ad Fines;;;;;;;;;;;x
 b_grumentum_grumentum;Grumentum;;;;;;;;;;;x
 b_grumentum1_grumentum;Grumentum;;;;;;;;;;;x
 b_grumentum2_grumentum;Grumentum;;;;;;;;;;;x

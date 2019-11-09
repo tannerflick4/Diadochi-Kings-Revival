@@ -1,0 +1,15 @@
+412.1.1 = { # 364 BC
+    holder = 232901 # Bathanatos of the Volcae Arecomici
+}
+415.1.1 = { # 361 BC
+    holder = 232903 # Diviciacus of the Volcae Arecomici
+}
+449.1.1 = { # 327 BC
+    holder = 232904 # Indutiomaros of the Volcae Arecomici
+}
+463.1.1 = { # 313 BC
+    holder = 232905 # Dumnorix of the Volcae Arecomici
+}
+504.1.1 = { # 272 BC
+    holder = 232906 # Eporedix of the Volcae Arecomici
+}

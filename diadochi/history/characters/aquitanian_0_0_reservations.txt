@@ -1,12 +1,9 @@
 # 450001-460000 for Aquitanian characters -- Split
-	# 450001-450100 for the Uaskones dynasty
-	
-
-
-
-
-
-
-
-
-	
+	# 450001-450100 for the Vascones dynasty
+	# 450101-450200 for the Ausci dynasty
+	# 450201-450300 for the Convenae dynasty
+	# 450301-450400 for the Elusates dynasty
+	# 450401-450500 for the Beneardi dynasty
+	# 450501-450600 for the Vasates dynasty
+	# 450601-450700 for the Tarbelli dynasty
+	# 450701-450800 for the Ilurosenses dynasty

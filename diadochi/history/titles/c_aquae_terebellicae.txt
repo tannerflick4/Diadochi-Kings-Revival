@@ -1,0 +1,15 @@
+408.1.1 = { # 368 BC
+    holder = 450601 # Biurtibes of the Tarbelli
+}
+441.1.1 = { # 335 BC
+    holder = 450602 # Biurtetel of the Tarbelli
+}
+468.1.1 = { # 308 BC
+    holder = 450603 # Gerexo of the Tarbelli
+}
+472.1.1 = { # 304 BC
+    holder = 450604 # Senios of the Tarbelli
+}
+480.1.1 = { # 296 BC
+    holder = 450605 # Illurberrixo of the Tarbelli
+}

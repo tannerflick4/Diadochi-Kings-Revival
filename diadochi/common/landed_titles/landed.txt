@@ -13451,11 +13451,17 @@ k_gallia = {
 			
 			b_geneva_geneva = {
 			}
-			b_boutae_geneva = {
+			b_namascae_geneva = {
 			}
-			b_vintium_geneva = {
+			b_iulia_equestris_geneva = {
 			}
-			b_albinnum_geneva = {
+			b_condatiscone_geneva = {
+			}
+			b_balma_geneva = {
+			}
+			b_lauconnum_geneva = {
+			}
+			b_versix_geneva = {
 			}
 		}
 		c_aventicum = {
@@ -13464,13 +13470,17 @@ k_gallia = {
 			
 			b_aventicum_aventicum = {
 			}
-			b_lousonna_aventicum = {
+			b_brenodunum_aventicum = {
 			}
-			b_salodurum_aventicum = {
+			b_petinesca_aventicum = {
+			}
+			b_pons_ariolica_aventicum = {
 			}
 			b_eburodunum_aventicum = {
 			}
-			b_petinesca_aventicum = {
+			b_lousonna_aventicum = {
+			}
+			b_minnodunum_aventicum = {
 			}
 		}
 		c_cularo = {
@@ -13490,6 +13500,25 @@ k_gallia = {
 			b_etanna_cularo = {
 			}
 			b_boutae_cularo = {
+			}
+		}
+		c_tauredunum = {
+			color= { 50 225 25 }
+			color2= { 255 255 255 }
+			
+			b_tauredunum_tauredunum = {
+			}
+			b_acaunum_tauredunum = {
+			}
+			b_tarnaiae_tauredunum = {
+			}
+			b_penne_locos_tauredunum = {
+			}
+			b_vivisco_tauredunum = {
+			}
+			b_muras_tauredunum = {
+			}
+			b_ad_fines_tauredunum = {
 			}
 		}
 	}

@@ -1,0 +1,12 @@
+413.1.1 = { # 363 BC
+    holder = 232801 # Boduognatus of the Helvii
+}
+436.1.1 = { # 340 BC
+    holder = 232802 # Brennus of the Helvii
+}
+481.1.1 = { # 295 BC
+    holder = 232803 # Bathanatos of the Helvii
+}
+501.1.1 = { # 275 BC
+    holder = 232804 # Divico of the Helvii
+}

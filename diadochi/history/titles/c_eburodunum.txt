@@ -1,12 +1,15 @@
-412.1.1 = { # 364 BC
-	holder = 230904
+399.1.1 = { # 377 BC
+	holder = 232601 # Viridomaros of the Caturiges
 }
-435.1.1 = { # 341 BC
-	holder = 230901 # Adiatunnus of the Saluvii
+422.1.1 = { # 354 BC
+	holder = 232602 # Bathanatos of the Caturiges
 }
-462.1.1 = { # 314 BC
-	holder = 230902
+444.1.1 = { # 332 BC
+	holder = 232603 # Teutomatus of the Caturiges
 }
-473.1.1 = { # 303 BC
-	holder = 230903
+450.1.1 = { # 326 BC
+	holder = 232604 # Teutomatus of the Caturiges
+}
+460.1.1 = { # 316 BC
+	holder = 232605 # Galba of the Caturiges
 }

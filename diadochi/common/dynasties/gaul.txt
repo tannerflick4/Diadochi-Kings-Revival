@@ -528,7 +528,7 @@
 	culture = gaul
 }
 23130 = {
-	name = "Caturiges"
+	name = "Sordones"
 	culture = gaul
 }
 23131 = {

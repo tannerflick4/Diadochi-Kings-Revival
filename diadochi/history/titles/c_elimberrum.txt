@@ -1,0 +1,9 @@
+405.1.1 = { # 371 BC
+    holder = 450102 # Senios of the Ausci
+}
+451.1.1 = { # 325 BC
+    holder = 450103 # Ennebox of the Ausci
+}
+499.1.1 = { # 277 BC
+    holder = 450104 # Belexkonis of the Ausci
+}

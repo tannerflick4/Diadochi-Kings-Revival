@@ -1,12 +1,18 @@
 412.1.1 = { # 364 BC
-	holder = 230904
+	holder = 232501 # Galba of the Gaesatae
 }
-435.1.1 = { # 341 BC
-	holder = 230901 # Adiatunnus of the Saluvii
+431.1.1 = { # 345 BC
+	holder = 232502 # Catuvolcus of the Gaesatae
 }
-462.1.1 = { # 314 BC
-	holder = 230902
+451.1.1 = { # 325 BC
+	holder = 232503 # Cavarinus of the Gaesatae
 }
-473.1.1 = { # 303 BC
-	holder = 230903
+455.1.1 = { # 321 BC
+	holder = 232504 # Convictolitavis of the Gaesatae
+}
+468.1.1 = { # 308 BC
+	holder = 232505 # Critasirus of the Gaesatae
+}
+499.1.1 = { # 277 BC
+	holder = 232506 # Dumnorix of the Gaesatae
 }

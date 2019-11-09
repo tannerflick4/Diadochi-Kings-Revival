@@ -1,0 +1,12 @@
+412.1.1 = { # 364 BC
+    holder = 450401 # Dusanharis of the Beneardi
+}
+413.1.1 = { # 363 BC
+    holder = 450402 # Serhuhoris of the Beneardi
+}
+459.1.1 = { # 317 BC
+    holder = 450403 # Serhuhoris of the Beneardi
+}
+491.1.1 = { # 285 BC
+    holder = 450404 # Biurtetel of the Beneardi
+}

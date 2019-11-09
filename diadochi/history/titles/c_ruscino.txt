@@ -1,0 +1,21 @@
+417.1.1 = { # 359 BC
+    holder = 233101 # Vercassivellaunus of the Sordones
+}
+423.1.1 = { # 353 BC
+    holder = 233102 # Cotuatus of the Sordones
+}
+433.1.1 = { # 343 BC
+    holder = 233103 # Eporedix of the Sordones
+}
+455.1.1 = { # 321 BC
+    holder = 233104 # Camulogenus of the Sordones
+}
+465.1.1 = { # 311 BC
+    holder = 233105 # Cotuatus of the Sordones
+}
+476.1.1 = { # 300 BC
+    holder = 233106 # Tasgetius of the Sordones
+}
+515.1.1 = { # 261 BC
+    holder = 233107 # Litaviccus of the Sordones
+}

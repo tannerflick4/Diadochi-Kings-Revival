@@ -1,12 +1,15 @@
-412.1.1 = { # 364 BC
-	holder = 230904
+413.1.1 = { # 363 BC
+	holder = 233601 # Convictolitavis of the Avatici
 }
-435.1.1 = { # 341 BC
-	holder = 230901 # Adiatunnus of the Saluvii
+417.1.1 = { # 359 BC
+	holder = 233602 # Litaviccus of the Avatici
 }
-462.1.1 = { # 314 BC
-	holder = 230902
+472.1.1 = { # 304 BC
+	holder = 233603 # Critasirus of the Avatici
 }
-473.1.1 = { # 303 BC
-	holder = 230903
+481.1.1 = { # 295 BC
+	holder = 233604 # Diviciacus of the Avatici
+}
+501.1.1 = { # 275 BC
+	holder = 233605 # Indutiomaros of the Avatici
 }

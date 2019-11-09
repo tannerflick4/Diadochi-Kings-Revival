@@ -1,0 +1,24 @@
+415.1.1 = { # 361 BC
+    holder = 450501 # Senios of the Vasates
+}
+419.1.1 = { # 357 BC
+    holder = 450502 # Abisunhar of the Vasates
+}
+445.1.1 = { # 331 BC
+    holder = 450503 # Halskotarris of the Vasates
+}
+450.1.1 = { # 326 BC
+    holder = 450504 # Harbelex of the Vasates
+}
+470.1.1 = { # 306 BC
+    holder = 450505 # Sembekkoni of the Vasates
+}
+484.1.1 = { # 292 BC
+    holder = 450506 # Serhuhoris of the Vasates
+}
+507.1.1 = { # 269 BC
+    holder = 450507 # Andereseni of the Vasates
+}
+514.1.1 = { # 262 BC
+    holder = 450508 # Sembekkoni of the Vasates
+}

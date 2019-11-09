@@ -1,7 +1,4 @@
-412.1.1 = { # 364 BC
-	holder = 232501 # Galba of the Gaesatae
-}
-426.1.1 = { # 350 BC, Greeks take over
+399.1.1 = { # 377 BC
 	holder = 51503
 }
 441.1.1 = { # 335 BC

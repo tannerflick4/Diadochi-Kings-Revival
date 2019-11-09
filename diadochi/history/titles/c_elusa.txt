@@ -1,0 +1,15 @@
+408.1.1 = { # 368 BC
+    holder = 450301 # Bihossi of the Elusates
+}
+415.1.1 = { # 361 BC
+    holder = 450302 # Belexkonis of the Elusates
+}
+466.1.1 = { # 310 BC
+    holder = 450303 # Illurberrixo of the Elusates
+}
+471.1.1 = { # 305 BC
+    holder = 450304 # Belexkonis of the Elusates
+}
+498.1.1 = { # 278 BC
+    holder = 450305 # Biurtibes of the Elusates
+}

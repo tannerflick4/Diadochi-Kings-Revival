@@ -1,0 +1,18 @@
+415.1.1 = { # 361 BC
+    holder = 233401 # Diviciacus of the Boii Boiates
+}
+419.1.1 = { # 357 BC
+    holder = 233402 # Catuvolcus of the Boii Boiates
+}
+432.1.1 = { # 344 BC
+    holder = 233403 # Teutomatus of the Boii Boiates
+}
+482.1.1 = { # 294 BC
+    holder = 233404 # Conconnetodumnus of the Boii Boiates
+}
+492.1.1 = { # 284 BC
+    holder = 233405 # Orgetorix of the Boii Boiates
+}
+501.1.1 = { # 275 BC
+    holder = 233406 # Iccius of the Boii Boiates
+}

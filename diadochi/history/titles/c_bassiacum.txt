@@ -1,0 +1,12 @@
+413.1.1 = { # 363 BC
+    holder = 233201 # Andecomborius of the Volcae Tectosages
+}
+438.1.1 = { # 338 BC
+    holder = 233203 # Galba of the Volcae Tectosages
+}
+492.1.1 = { # 284 BC
+    holder = 233205 # Litaviccus of the Volcae Tectosages
+}
+516.1.1 = { # 260 BC
+    holder = 233207 # Vercassivellaunus of the Volcae Tectosages
+}

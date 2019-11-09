@@ -14,8 +14,8 @@ b_noulomagos_noulomagos = tribal
 #b_calagorris_noulomagos = castle
 
 # Misc
-culture = aquitanian
-religion = aquitanian_main
+culture = gaul
+religion = celtic_main
 
 # History
 # Can be filled when things change around the province

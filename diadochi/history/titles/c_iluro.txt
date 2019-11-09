@@ -1,0 +1,18 @@
+385.1.1 = { # 391 BC
+    holder = 450701 # Kissonbonnis of the Ilurosenses
+}
+397.1.1 = { # 379 BC
+    holder = 450702 # Illurberrixo of the Ilurosenses
+}
+405.1.1 = { # 371 BC
+    holder = 450703 # Sembekkoni of the Ilurosenses
+}
+437.1.1 = { # 339 BC
+    holder = 450704 # Biurtibes of the Ilurosenses
+}
+470.1.1 = { # 306 BC
+    holder = 450706 # Laurko of the Ilurosenses
+}
+485.1.1 = { # 291 BC
+    holder = 450707 # Harbelex of the Ilurosenses
+}

@@ -6,12 +6,12 @@ title = c_aventicum
 # Settlements
 max_settlements = 5
 b_aventicum_aventicum = tribal
-#b_lousonna_aventicum = city
-#b_salodurum_aventicum = castle
+#b_brenodunum_aventicum = castle
+#b_petinesca_aventicum = city
+b_pons_ariolica_aventicum = temple
 #b_eburodunum_aventicum = city
-
-# Possible baronies: (Always add a # in front of a line with these!)
-# b_petinesca_aventicum
+#b_lousonna_aventicum = city
+#b_minnodunum_aventicum = castle
 
 # Misc
 culture = gaul

@@ -1,0 +1,12 @@
+403.1.1 = { # 373 BC
+    holder = 233301 # Cavarus of the Volcae Tolosates
+}
+428.1.1 = { # 348 BC
+    holder = 233302 # Boduognatus of the Volcae Tolosates
+}
+485.1.1 = { # 291 BC
+    holder = 233303 # Viridomaros of the Volcae Tolosates
+}
+512.1.1 = { # 264 BC
+    holder = 233305 # Indutiomaros of the Volcae Tolosates
+}

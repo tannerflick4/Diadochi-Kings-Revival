@@ -21,7 +21,6 @@
 #b_ernaginum_arausio
 #b_bellintum_arausio
 #b_glanum_arausio
-#b_ad_fines_arausio
 #b_vindasca_arausio
 #b_vindalium_arausio
 #b_vindasca_arausio
@@ -44,3 +43,6 @@
 
 #b_domeciaco_elimberrum
 #b_praemiacum_elimberrum
+
+#b_urba_aventicum
+#b_uromagus_aventicum

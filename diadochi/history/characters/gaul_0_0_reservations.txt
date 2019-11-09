@@ -24,3 +24,16 @@
 	# 232201-232300 for the Latobici dynasty
 	# 232301-232400 for the Pannonian Boii dynasty
 	# 232401-232500 for the Carni dynasty
+	# 232501-232600 for the Gaesatae dynasty
+	# 232601-232700 for the Caturiges dynasty
+	# 232701-232800 for the Cavares dynasty
+	# 232801-232900 for the Helvii dynasty
+	# 232901-233000 for the Volcae Arecomici dynasty
+	# 233001-233100 for the Ruteni dynasty
+	# 233101-233200 for the Sordones dynasty
+	# 233201-233300 for the Volcae Tectosages dynasty
+	# 233301-233400 for the Volcae Tolosates dynasty
+	# 233401-233500 for the Boii Boiates dynasty
+	# 233501-233600 for the Bituriges Vivisci dynasty
+	# 233601-233700 for the Avatici dynasty
+	# 233701-233800 for the Helvetii dynasty

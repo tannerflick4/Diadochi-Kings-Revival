@@ -1713,12 +1713,12 @@ tartessian = {
 aquitanian = {
 	
 	aquitanian = {
-	graphical_cultures = { newiberiangfx easternslavicgfx }
+		graphical_cultures = { newiberiangfx easternslavicgfx }
 	
-	color = { 0 0.76 0.31 }
+		color = { 0 0.76 0.31 }
 	
-	male_names = {
-		Abisunhar_Abisunhar Andereseni_Andereseni Baiserte_Baiserte Belexkonis_Belexkonis Bihossi_Bihossi Biurtetel_Biurtetel Biurtibes_Biurtibes Biurtilaur_Biurtilaur Kison_Kison Kissonbonnis_Kissonbonnis Dusanharis_Dusanharis Ennebox_Ennebox Gerexo_Gerexo Halskotarris_Halskotarris Hanna_Hanna Harbelex_Harbelex Illurberrixo_Illurberrixo Korbis_Korbis Laurko_Laurko Otigirteker_Otigirteker Sembe_Sembe Sembekkoni_Sembekkoni Senios_Senios Serhuhoris_Serhuhoris Talskonis_Talskonis Ummesahar_Ummesahar
+		male_names = {
+			Abisunhar_Abisunhar Andereseni_Andereseni Baiserte_Baiserte Belexkonis_Belexkonis Bihossi_Bihossi Biurtetel_Biurtetel Biurtibes_Biurtibes Biurtilaur_Biurtilaur Kison_Kison Kissonbonnis_Kissonbonnis Dusanharis_Dusanharis Ennebox_Ennebox Gerexo_Gerexo Halskotarris_Halskotarris Hanna_Hanna Harbelex_Harbelex Illurberrixo_Illurberrixo Korbis_Korbis Laurko_Laurko Otigirteker_Otigirteker Sembe_Sembe Sembekkoni_Sembekkoni Senios_Senios Serhuhoris_Serhuhoris Talskonis_Talskonis Ummesahar_Ummesahar
 		}
 		female_names = {
 			Andere_Andere Aretaunin_Aretaunin Kanine_Kanine Daleninar_Daleninar Edereta_Edereta Neskato_Neskato Nisunin_Nisunin Sikedunin_Sikedunin Sikounin_Sikounin Similke_Similke

@@ -1,9 +1,12 @@
-416.1.1 = { # 360 BC
-	holder = 231101
+411.1.1 = { # 365 BC
+	holder = 231304
 }
-436.1.1 = { # 340 BC
-	holder = 231101 # Cavarus of the Allobroges
+438.1.1 = { # 338 BC
+	holder = 231303 
 }
-462.1.1 = { # 314 BC
-	holder = 231102
+448.1.1 = { # 328 BC
+	holder = 231301 # Diviciacus of the Sequani
+}
+469.1.1 = { # 307 BC
+	holder = 231302
 }

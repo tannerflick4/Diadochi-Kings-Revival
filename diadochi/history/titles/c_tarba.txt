@@ -1,0 +1,12 @@
+410.1.1 = { # 366 BC
+    holder = 450202 # Kissonbonnis of the Convenae
+}
+422.1.1 = { # 354 BC
+    holder = 450203 # Biurtetel of the Convenae
+}
+435.1.1 = { # 341 BC
+    holder = 450204 # Biurtibes of the Convenae
+}
+464.1.1 = { # 312 BC
+    holder = 450205 # Otigirteker of the Convenae
+}

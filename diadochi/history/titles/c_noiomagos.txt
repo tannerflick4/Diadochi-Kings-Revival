@@ -1,0 +1,9 @@
+404.1.1 = { # 372 BC
+	holder = 231001 # Vercingetorix of the Vocontii
+}
+470.1.1 = {
+	holder = 231002
+}
+479.1.1 = {
+	holder = 231003
+}
