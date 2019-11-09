@@ -5884,6 +5884,25 @@ k_magna_graecia = {
 			b_hippana6_hippana = {
 			}
 		}
+		c_adranon = {
+			color= { 193 32 27 }
+			color2= { 255 255 255 }
+			
+			b_adranon_adranon = {
+			}
+			b_adranon1_adranon = {
+			}
+			b_adranon2_adranon = {
+			}
+			b_adranon3_adranon = {
+			}
+			b_adranon4_adranon = {
+			}
+			b_adranon5_adranon = {
+			}
+			b_adranon6_adranon = {
+			}
+		}
 	}
 	d_bruttium = {
 		color= { 75 150 225 }
@@ -12155,6 +12174,25 @@ k_carthage = {
 			color2={ 255 255 255 }
 			
 			b_maleth_maleth = {
+			}
+		}
+		c_panormos = {
+			color={ 205 58 255 }
+			color2={ 255 255 255 }
+			
+			b_panormos_panormos = {
+			}
+			b_panormos1_panormos = {
+			}
+			b_panormos2_panormos = {
+			}
+			b_panormos3_panormos = {
+			}
+			b_panormos4_panormos = {
+			}
+			b_panormos5_panormos = {
+			}
+			b_panormos6_panormos = {
 			}
 		}
 	}
