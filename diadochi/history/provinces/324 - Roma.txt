@@ -5,21 +5,14 @@ title = c_roma # for example c_corinth
 
 # Settlements
 max_settlements = 5
-b_roma_roma = castle
-b_ostia_roma = city
-b_vialaurentina_roma = city
-b_aricia_roma = temple
-b_picana_roma = castle
-
-# Possible baronies: (Always add a # in front of a line with these!)
-#
-#
-#
-#
+b_capitoline_hill = castle
+b_caelian_hill = city
+b_aventine_hill = city
+b_esquiline_hill = temple
+b_palatine_hill = castle
 
 # Misc
 culture = latin
 religion = roman_main
 
 # History
-# Can be filled when things change around the province

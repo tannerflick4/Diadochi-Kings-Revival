@@ -6943,6 +6943,10 @@ character_event = {
 character_event = {
 	id = HF.23910
 	title = EVTTITLE23910
+	desc = { 
+		text = EVTDESCHFA23910
+		picture = GFX_evt_pagan
+	}
 	picture = GFX_evt_irminsul_shrine
 	border = GFX_event_normal_frame_religion
 	
@@ -7076,6 +7080,10 @@ character_event = {
 character_event = {
 	id = HF.23911
 	title = EVTTITLE23911
+	desc = { 
+		text = EVTDESCHFA23911
+		picture = GFX_evt_pagan
+	}
 	picture = GFX_evt_irminsul_shrine
 	border = GFX_event_normal_frame_religion
 	

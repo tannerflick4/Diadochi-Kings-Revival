@@ -262,6 +262,13 @@ technology = {
 		d_dacia_paropos
 		d_getae
 		d_dacia
+		d_orbelos
+		d_labeatis
+		d_alpes_illyrici
+		d_dravus
+		d_savus
+		d_anisus
+		d_ketion_oros
 	}
 	417 = {
 		military = 1
@@ -427,6 +434,11 @@ technology = {
 		d_alpes_poeninae
 		d_alpes_vennonae
 		d_alpes_raetica
+		d_gallia_graecia
+		d_setius
+		d_tamis
+		d_garumna
+		d_aturus
 	}
 	417 = {
 		military = 1

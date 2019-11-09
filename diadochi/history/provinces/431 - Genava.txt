@@ -10,8 +10,8 @@ b_namascae_geneva = castle
 b_iulia_equestris_geneva = city
 b_condatiscone_geneva = temple
 b_balma_geneva = castle
-b_lauconnum_geneva = castle
-b_versix_geneva = city
+#b_lauconnum_geneva = castle
+#b_versix_geneva = city
 
 # Misc
 culture = gaul
