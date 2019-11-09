@@ -5,7 +5,7 @@ title = c_pergantion
 
 # Settlements
 max_settlements = 4
-b_pergantion_pergantion = castle
+b_pergantion_pergantion = city
 #b_forum_iulii_pergantion = city
 b_athenopolis_pergantion = city
 b_heraclia_caccabaria_pergantion = city

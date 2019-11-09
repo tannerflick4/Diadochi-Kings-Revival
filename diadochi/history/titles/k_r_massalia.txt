@@ -1,6 +1,5 @@
 399.1.1 = { # 377 BC
 	holder = 51503
-	liege = k_r_massalia
 }
 441.1.1 = { # 335 BC
 	holder = 51501 # Heliodoros of Massilia

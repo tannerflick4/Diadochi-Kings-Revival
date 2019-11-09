@@ -1,0 +1,13 @@
+408.1.1 = { # 368 BC
+    holder = 56101 # Megakles of the Athenopolitoi
+	liege = k_r_massalia
+}
+447.1.1 = { # 329 BC
+    holder = 56102 # Hypatos of the Athenopolitoi
+}
+450.1.1 = { # 326 BC
+    holder = 56103 # Hyakinthos of the Athenopolitoi
+}
+498.1.1 = { # 278 BC
+    holder = 56104 # Achaios of the Athenopolitoi
+}

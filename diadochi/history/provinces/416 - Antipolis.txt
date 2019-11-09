@@ -20,7 +20,7 @@ religion = celtic_main
 # History
 # Can be filled when things change around the province
 426.1.1 = { # 350 BC
-	b_antipolis_antipolis= castle
+	b_antipolis_antipolis= city
 	b_herakles_monoikos_antipolis = temple
 	b_nicaea_antipolis = city
 	b_cemenelum_antipolis = castle

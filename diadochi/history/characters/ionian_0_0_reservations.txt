@@ -58,4 +58,8 @@
 	# 55601-55700 for the Abderoi dynasty
 	# 55701-55800 for the Maroneioi dynasty
 	# 55801-55900 for the Neapolitoi dynasty
+	# 55901-56000 for the Emporioi dynasty
+	# 56001-56100 for the Antipolitoi dynasty
+	# 56101-56200 for the Athenopolitoi dynasty
+	# 56201-56300 for the Pergantionidai dynasty
 	# 59901-60000 for the Lowborns

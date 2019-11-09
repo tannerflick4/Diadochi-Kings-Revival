@@ -1,8 +1,12 @@
-412.1.1 = { # 364 BC
-	holder = 232501 # Galba of the Gaesatae
-}
-426.1.1 = { # 350 BC, Greeks take over
+403.1.1 = { # 373 BC
+	holding_dynasty = 5067 # Antipolitoi
+    holder = 56001 # Demosthenes of the Antipolitoi
 	liege = k_r_massalia
+}
+410.1.1 = { # 366 BC
+    holder = 56002 # Euphemios of the Antipolitoi
+}
+443.1.1 = { # 333 BC
     holder = 56003 # Dareios of the Antipolitoi
 }
 444.1.1 = { # 332 BC

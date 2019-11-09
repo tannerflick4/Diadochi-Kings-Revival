@@ -920,6 +920,20 @@ k_r_tarentum = {
 		is_republic = yes
 	}
 }
+# TODO: Set colors to new colors of Gaul.
+k_r_massalia = {
+	color= { 75 175 175 }
+	color2= { 255 255 255 }
+
+	capital = 317 # Tarentum
+	culture = ionian
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
 
 # Duchies
 d_r_byzantion = {
@@ -1397,3 +1411,24 @@ b_dido = {
 	religion = punic_main
 }
 
+# Massalia
+b_massaliotai = {
+	culture = ionian
+	religion = greek_main
+}
+b_emporioi = {
+	culture = ionian
+	religion = greek_main
+}
+b_antipolitoi = {
+	culture = ionian
+	religion = greek_main
+}
+b_athenopolitoi = {
+	culture = ionian
+	religion = greek_main
+}
+b_pergantionidai = {
+	culture = ionian
+	religion = greek_main
+}

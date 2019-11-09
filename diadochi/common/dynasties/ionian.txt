@@ -250,3 +250,19 @@
 	name = "Kalipposioi"
 	culture = ionian
 }
+5066 = { # Massalian
+	name = "Emporioi"
+	culture = ionian
+}
+5067 = { # Massalian
+	name = "Antipolitoi"
+	culture = ionian
+}
+5068 = { # Massalian
+	name = "Athenopolitoi"
+	culture = ionian
+}
+5069 = { # Massalian
+	name = "Pergantionidai"
+	culture = ionian
+}

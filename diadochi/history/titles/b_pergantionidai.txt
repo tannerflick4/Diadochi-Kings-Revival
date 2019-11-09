@@ -1,4 +1,5 @@
 411.1.1 = { # 365 BC
+	holding_dynasty = 5069 # Pergantionidai
     holder = 56202 # Drakon of the Pergantionidai
 	liege = k_r_massalia
 }
