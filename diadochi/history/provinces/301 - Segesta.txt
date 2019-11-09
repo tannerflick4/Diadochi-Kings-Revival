@@ -1,0 +1,21 @@
+# 301 - Segesta
+
+# County Title
+title = c_segesta # for example c_corinth
+
+# Settlements
+max_settlements = 4
+b_segesta_segesta = city
+b_eryx_segesta = castle
+#b_inykon_segesta = castle
+#b_ad_olivam_segesta = city
+#b_aquae_segestanae_segesta = city
+b_emporion_segestanon_segesta = city
+b_halicyae_segesta = temple
+
+# Misc
+culture = punic
+religion = punic_main
+
+# History
+# Can be filled when things change around the province

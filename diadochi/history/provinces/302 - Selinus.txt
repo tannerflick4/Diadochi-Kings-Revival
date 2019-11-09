@@ -4,15 +4,14 @@
 title = c_selinus # for example c_corinth
 
 # Settlements
-max_settlements = 2 # tsf4 - 6
-b_selinus = castle
-b_heraclea_selinus = city
-
-# Possible baronies: (Always add a # in front of a line with these!)
-#
-#
-#
-#
+max_settlements = 4
+b_selinus_selinus = castle
+b_ad_fluvium_lanaricum_selinus = city
+b_thermae_selinuntinae_selinus = castle
+#b_triokala_selinus = castle
+b_allava_selinus = city
+#b_kaprianon_selinus = castle
+#b_necropolis_selinus = temple
 
 # Misc
 culture = ionian

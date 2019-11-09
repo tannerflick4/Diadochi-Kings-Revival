@@ -4,14 +4,14 @@
 title = c_henna
 
 # Settlements
-max_settlements = 6
+max_settlements = 5
 b_henna_henna = castle
-b_henna1_henna = castle
-b_henna2_henna = city
-#b_henna3_henna = castle
-#b_henna4_henna = castle
-#b_henna5_henna = city
-#b_henna6_henna = castle
+b_agyrion_henna = city
+b_chrysas_henna = temple
+#b_centuripae_henna = castle
+#b_engyon_henna = castle
+b_assorus_henna = castle
+#b_imachara_henna = castle
 
 # Misc
 culture = ionian

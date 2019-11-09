@@ -46,3 +46,37 @@
 
 #b_urba_aventicum
 #b_uromagus_aventicum
+
+#################
+# MAGNA GRAECIA #
+#################
+
+#b_capitium_henna
+
+#b_chalae_gela
+#b_omphake_gela
+#b_calvisiana_gela
+#b_mesopotamium_gela
+#b_bidis_gela
+#b_euboia_gela
+#b_menai_gela
+
+#b_hereum_syracuse
+#b_hybla_heraia_syracuse
+#b_kasmenai_syracuse
+#b_portus_pachyni_syracuse
+#b_helorus_syracuse
+#b_neaition_syracuse
+#b_abolla_syracuse
+#b_acrae_syracuse
+#b_logariana_syracuse
+#b_hortesiana_syracuse
+
+#b_inessa_catana
+#b_aetna_catana
+#b_ulixis_portus_catana
+#b_acium_catana
+#b_tissa_catana
+
+#b_traiectus_messene
+#b_longane_messene

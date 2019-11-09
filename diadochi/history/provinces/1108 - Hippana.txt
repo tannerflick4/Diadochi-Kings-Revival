@@ -4,14 +4,14 @@
 title = c_hippana
 
 # Settlements
-max_settlements = 6
+max_settlements = 3
 b_hippana_hippana = castle
-b_hippana1_hippana = castle
-b_hippana2_hippana = city
-#b_hippana3_hippana = castle
-#b_hippana4_hippana = castle
-#b_hippana5_hippana = city
-#b_hippana6_hippana = castle
+b_petrina_hippana = city
+b_pirama_hippana = temple
+#b_ietas_hippana = castle
+#b_colobria_hippana = city
+#b_margana_hippana = castle
+#b_spoletino_hippana = castle
 
 # Misc
 culture = ionian

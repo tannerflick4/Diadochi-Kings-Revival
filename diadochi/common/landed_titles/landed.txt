@@ -5691,11 +5691,19 @@ k_magna_graecia = {
 			color= { 65 190 175 }
 			color2= { 255 255 255 }
 			
-			b_himera = {
+			b_himera_himera = {
 			}
-			b_chimaera_himera = {
+			b_halaesa_himera = {
 			}
-			b_calacte_himera = {
+			b_cephaloedium_himera = {
+			}
+			b_thermae_himeraeae_himera = {
+			}
+			b_amestratus_himera = {
+			}
+			b_riparato_himera = {
+			}
+			b_biago_himera = {
 			}
 		}
 		c_rhegium = {
@@ -5712,10 +5720,20 @@ k_magna_graecia = {
 		c_messana = {
 			color= { 75 165 235 }
 			color2= { 255 255 255 }
-			
-			b_messana = {			
+
+			b_messana_messana = {
 			}
 			b_tauromenium_messana = {
+			}
+			b_naxos_messana = {
+			}
+			b_naulochos_messana = {
+			}
+			b_thorax_messana = {
+			}
+			b_abakainon_messana = {
+			}
+			b_phoinix_messana = {
 			}
 		}
 		c_tyndaris = {
@@ -5724,17 +5742,17 @@ k_magna_graecia = {
 			
 			b_tyndaris_tyndaris = {
 			}
-			b_tyndaris1_tyndaris = {
+			b_calacte_tyndaris = {
 			}
-			b_tyndaris2_tyndaris = {
+			b_kale_akte_tyndaris = {
 			}
-			b_tyndaris3_tyndaris = {
+			b_apollonia_tyndaris = {
 			}
-			b_tyndaris4_tyndaris = {
+			b_haluntium_tyndaris = {
 			}
-			b_tyndaris5_tyndaris = {
+			b_agathymum_tyndaris = {
 			}
-			b_tyndaris6_tyndaris = {
+			b_mylae_tyndaris = {
 			}
 		}
 	}
@@ -5748,38 +5766,76 @@ k_magna_graecia = {
 			color= { 85 165 225 }
 			color2= { 255 255 255 }
 			
-			b_gela = {
+			b_gela_gela = {
+			}
+			b_phintias_gela = {
 			}
 			b_camarina_gela = {
 			}
-			b_casmenai_gela = {
+			b_dianae_fons_gela = {
+			}
+			b_maktorion_gela = {
+			}
+			b_acrillae_gela = {
+			}
+			b_daedalium_gela = {
 			}
 		}
 		c_syracuse = {
 			color= { 75 175 225 }
 			color2= { 255 255 255 }
 			
-			b_syracuse = {
+			b_syracuse_syracuse = {
 			}
-			b_leontinoi_syracuse = {
+			b_ortygia_syracuse = {
 			}
-			b_catania_syracuse = {
+			b_plemmyrion_syracuse = {
+			}
+			b_thapsos_syracuse = {
+			}
+			b_hexapyla_syracuse = {
+			}
+			b_euryelos_syracuse = {
+			}
+			b_leon_syracuse = {
 			}
 		}
-		c_sicels = {
+		c_catana = {
 			color= { 85 175 215 }
 			color2= { 255 255 255 }
 			
-			b_agira = {
+			b_catana_catana = {
+			}
+			b_megara_hyblaia_catana = {
+			}
+			b_leontini_catana = {
+			}
+			b_trotilon_catana = {
+			}
+			b_hybla_gereatis_catana = {
+			}
+			b_adranon_catana = {
+			}
+			b_styella_catana = {
 			}
 		}
 		c_selinus = {
 			color= { 75 200 175 }
 			color2= { 255 255 255 }
 			
-			b_selinus = {
+			b_selinus_selinus = {
 			}
-			b_heraclea_selinus = {
+			b_ad_fluvium_lanaricum_selinus = {
+			}
+			b_thermae_selinuntinae_selinus = {
+			}
+			b_triokala_selinus = {
+			}
+			b_allava_selinus = {
+			}
+			b_kaprianon_selinus = {
+			}
+			b_necropolis_selinus = {
 			}
 		}
 		c_akragas = {
@@ -5788,17 +5844,17 @@ k_magna_graecia = {
 			
 			b_akragas_akragas = {
 			}
-			b_akragas1_akragas = {
+			b_heraclea_minoa_akragas = {
 			}
-			b_akragas2_akragas = {
+			b_cena_akragas = {
 			}
-			b_akragas3_akragas = {
+			b_pitiniana_akragas = {
 			}
-			b_akragas4_akragas = {
+			b_cignana_akragas = {
 			}
-			b_akragas5_akragas = {
+			b_campanaio_akragas = {
 			}
-			b_akragas6_akragas = {
+			b_canate_akragas = {
 			}
 		}
 	}
@@ -5814,17 +5870,17 @@ k_magna_graecia = {
 			
 			b_morgantina_morgantina = {
 			}
-			b_morgantina1_morgantina = {
+			b_philosophiana_morgantina = {
 			}
-			b_morgantina2_morgantina = {
+			b_herbessos_morgantina = {
 			}
-			b_morgantina3_morgantina = {
+			b_noai_morgantina = {
 			}
-			b_morgantina4_morgantina = {
+			b_capitoniana_morgantina = {
 			}
-			b_morgantina5_morgantina = {
+			b_palike_morgantina = {
 			}
-			b_morgantina6_morgantina = {
+			b_capitoniana2_morgantina = {
 			}
 		}
 		c_henna = {
@@ -5833,17 +5889,17 @@ k_magna_graecia = {
 			
 			b_henna_henna = {
 			}
-			b_henna1_henna = {
+			b_agyrion_henna = {
 			}
-			b_henna2_henna = {
+			b_chrysas_henna = {
 			}
-			b_henna3_henna = {
+			b_centuripae_henna = {
 			}
-			b_henna4_henna = {
+			b_engyon_henna = {
 			}
-			b_henna5_henna = {
+			b_assorus_henna = {
 			}
-			b_henna6_henna = {
+			b_imachara_henna = {
 			}
 		}
 		c_motyon = {
@@ -5852,17 +5908,17 @@ k_magna_graecia = {
 			
 			b_motyon_motyon = {
 			}
-			b_motyon1_motyon = {
+			b_comiciana_motyon = {
 			}
-			b_motyon2_motyon = {
+			b_cosconiana_motyon = {
 			}
-			b_motyon3_motyon = {
+			b_calloniana_motyon = {
 			}
-			b_motyon4_motyon = {
+			b_myttistraton_motyon = {
 			}
-			b_motyon5_motyon = {
+			b_alia_motyon = {
 			}
-			b_motyon6_motyon = {
+			b_mususino_motyon = {
 			}
 		}
 		c_hippana = {
@@ -5871,17 +5927,17 @@ k_magna_graecia = {
 			
 			b_hippana_hippana = {
 			}
-			b_hippana1_hippana = {
+			b_petrina_hippana = {
 			}
-			b_hippana2_hippana = {
+			b_pirama_hippana = {
 			}
-			b_hippana3_hippana = {
+			b_ietas_hippana = {
 			}
-			b_hippana4_hippana = {
+			b_colobria_hippana = {
 			}
-			b_hippana5_hippana = {
+			b_margana_hippana = {
 			}
-			b_hippana6_hippana = {
+			b_spoletino_hippana = {
 			}
 		}
 		c_adranon = {
@@ -5890,17 +5946,17 @@ k_magna_graecia = {
 			
 			b_adranon_adranon = {
 			}
-			b_adranon1_adranon = {
+			b_macella_adranon = {
 			}
-			b_adranon2_adranon = {
+			b_longaricum_adranon = {
 			}
-			b_adranon3_adranon = {
+			b_entella_adranon = {
 			}
-			b_adranon4_adranon = {
+			b_cusumano_adranon = {
 			}
-			b_adranon5_adranon = {
+			b_montevago_adranon = {
 			}
-			b_adranon6_adranon = {
+			b_vecchia_adranon = {
 			}
 		}
 	}
@@ -12143,17 +12199,23 @@ k_carthage = {
 		
 		capital = 300 # Lilybaeum
 		
-		c_elymians = {
+		c_segesta = {
 			color= { 255 245 115 }
 			color2= { 255 255 255 }
 			
-			b_segesta_elymians = {
+			b_segesta_segesta = {
 			}
-			b_parthenicum_elymians = {
+			b_eryx_segesta = {
 			}
-			b_inycon_elymians = {
+			b_inykon_segesta = {
 			}
-			b_hykkara_elymians = {
+			b_ad_olivam_segesta = {
+			}
+			b_aquae_segestanae_segesta = {
+			}
+			b_emporion_segestanon_segesta = {
+			}
+			b_halicyae_segesta = {
 			}
 		}
 		c_lilybaeum = {
@@ -12164,9 +12226,15 @@ k_carthage = {
 			}
 			b_motya_lilybaeum = {
 			}
-			b_drepanum_lilybaeum = {
+			b_aigithallos_lilybaeum = {
 			}
-			b_eryx_lilybaeum = {
+			b_aigousa_lilybaeum = {
+			}
+			b_phorbantia_lilybaeum = {
+			}
+			b_hiera_lilybaeum = {
+			}
+			b_trapani_lilybaeum = {
 			}
 		}
 		c_maleth = {
@@ -12175,6 +12243,14 @@ k_carthage = {
 			
 			b_maleth_maleth = {
 			}
+			b_gaulos_maleth = {
+			}
+			b_ciefesta_hephaesta_maleth = {
+			}
+			b_aethusa_maleth = {
+			}
+			b_lopedusa_maleth = {
+			}
 		}
 		c_panormos = {
 			color={ 205 58 255 }
@@ -12182,17 +12258,17 @@ k_carthage = {
 			
 			b_panormos_panormos = {
 			}
-			b_panormos1_panormos = {
+			b_parthenicum_panormos = {
 			}
-			b_panormos2_panormos = {
+			b_hykkara_panormos = {
 			}
-			b_panormos3_panormos = {
+			b_soluntum_panormos = {
 			}
-			b_panormos4_panormos = {
+			b_solous_panormos = {
 			}
-			b_panormos5_panormos = {
+			b_pakonia_panormos = {
 			}
-			b_panormos6_panormos = {
+			b_ustica_panormos = {
 			}
 		}
 	}

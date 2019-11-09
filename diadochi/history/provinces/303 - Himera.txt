@@ -4,16 +4,14 @@
 title = c_himera # for example c_corinth
 
 # Settlements
-max_settlements = 3 # tsf4 - 6
-b_himera = castle
-b_chimaera_himera = city
-b_calacte_himera = temple
-
-# Possible baronies: (Always add a # in front of a line with these!)
-#
-#
-#
-#
+max_settlements = 3
+b_himera_himera = castle
+#b_halaesa_himera = castle
+b_cephaloedium_himera = city
+b_thermae_himeraeae_himera = city
+#b_amestratus_himera = castle
+#b_riparato_himera = castle
+#b_biago_himera = city
 
 # Misc
 culture = ionian

@@ -6,12 +6,12 @@ title = c_panormos
 # Settlements
 max_settlements = 4
 b_panormos_panormos = city
-b_panormos1_panormos = castle
-b_panormos2_panormos = city
-b_panormos3_panormos = castle
-#b_panormos4_panormos = city
-#b_panormos5_panormos = castle
-#b_panormos6_panormos = city
+#b_parthenicum_panormos = castle
+b_hykkara_panormos = city
+b_soluntum_panormos = castle
+b_solous_panormos = temple
+#b_pakonia_panormos = city
+#b_ustica_panormos = city
 
 # Misc
 culture = punic

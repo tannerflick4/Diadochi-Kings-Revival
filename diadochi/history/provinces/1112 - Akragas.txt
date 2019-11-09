@@ -4,14 +4,14 @@
 title = c_akragas
 
 # Settlements
-max_settlements = 6
+max_settlements = 3
 b_akragas_akragas = castle
-b_akragas1_akragas = castle
-b_akragas2_akragas = city
-#b_akragas3_akragas = castle
-#b_akragas4_akragas = castle
-#b_akragas5_akragas = city
-#b_akragas6_akragas = castle
+b_heraclea_minoa_akragas = city
+b_cena_akragas = castle
+#b_pitiniana_akragas = city
+#b_cignana_akragas = temple
+#b_campanaio_akragas = castle
+#b_canate_akragas = castle
 
 # Misc
 culture = doric
