@@ -6325,13 +6325,8 @@ pagan_county_conquest = {
 					}
 				}
 			}
-			AND = {
-				ROOT = {
-					NOT = { same_realm = FROM }
-				}
-				FROM = {
-					NOT = { religion = ROOT }
-				}
+			ROOT = {
+				NOT = { same_realm = FROM }
 			}
 		}
 	}
@@ -6377,13 +6372,8 @@ pagan_county_conquest = {
 			ROOT = {
 				is_nomadic = yes
 			}
-			AND = {
-				ROOT = {
-					NOT = { same_realm = FROM }
-				}
-				FROM = {
-					NOT = { religion = ROOT }
-				}
+			ROOT = {
+				NOT = { same_realm = FROM }
 			}
 		}
 	
