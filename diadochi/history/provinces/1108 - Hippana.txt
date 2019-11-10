@@ -14,7 +14,7 @@ b_pirama_hippana = temple
 #b_spoletino_hippana = castle
 
 # Misc
-culture = ionian
+culture = sicilian
 religion = greek_main
 
 # History

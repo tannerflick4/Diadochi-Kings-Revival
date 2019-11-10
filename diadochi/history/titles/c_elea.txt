@@ -1,9 +1,18 @@
-416.1.1 = { # 360 BC
-	holder = 160003 # Neriis
+384.1.1 = { # 392 BC
+	holder = 56501 # Galenos of the Eleadai
 }
-462.1.1 = { # 314 BC
-	holder = 160001 # Neriis
+386.1.1 = { # 390 BC
+	holder = 56502 # Arsenios of the Eleadai
 }
-483.1.1 = { # 303 BC
-	holder = 160002 # Miniis
+421.1.1 = { # 355 BC
+	holder = 56503 # Heliodoros of the Eleadai
+}
+477.1.1 = { # 299 BC
+	holder = 56504 # Euphemios of the Eleadai
+}
+495.1.1 = { # 281 BC
+	holder = 56505 # Ainesidemos of the Eleadai
+}
+506.1.1 = { # 270 BC
+	holder = 56506 # Kyros of the Eleadai
 }

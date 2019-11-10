@@ -1,10 +1,21 @@
-414.1.1 = { # 362 BC
-	holder = 52302 
-	liege = k_syracuse
+379.1.1 = { # 397 BC
+	holder = 460001 # Noviis of the Elymi
 }
-426.1.1 = { # 350 BC
-	liege = 0
+405.1.1 = { # 371 BC
+	holder = 460002 # Oviis of the Elymi
 }
-462.1.1 = { # 314 BC
-	holder = 52301
+416.1.1 = { # 360 BC
+	holder = 460003 # Noviis of the Elymi
+}
+438.1.1 = { # 338 BC
+	holder = 460004 # Neriis of the Elymi
+}
+485.1.1 = { # 291 BC
+	holder = 460006 # Heriis of the Elymi
+}
+487.1.1 = { # 289 BC
+	holder = 460007 # Trebiis of the Elymi
+}
+496.1.1 = { # 280 BC
+	holder = 460008 # Miniis of the Elymi
 }

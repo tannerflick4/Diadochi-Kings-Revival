@@ -1,9 +1,12 @@
-416.1.1 = { # 360 BC
-	holder = 160003 # Neriis
+413.1.1 = { # 363 BC
+	holder = 56401 # Alexis of the Herakliadai
 }
-462.1.1 = { # 314 BC
-	holder = 160001 # Neriis
+441.1.1 = { # 335 BC
+	holder = 56403 # Hesiod of the Herakliadai
 }
-483.1.1 = { # 303 BC
-	holder = 160002 # Miniis
+469.1.1 = { # 307 BC
+	holder = 56404 # Eratosthenes of the Herakliadai
+}
+484.1.1 = { # 292 BC
+	holder = 56405 # Philandros of the Herakliadai
 }

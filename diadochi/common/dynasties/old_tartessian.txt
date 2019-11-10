@@ -1,4 +1,4 @@
-# 41001-42000 for Turdetanian dynasties
+# 41001-42000 for Tartessian dynasties
 41001 = {
 	name = "Tartessioi"
 	culture = old_tartessian

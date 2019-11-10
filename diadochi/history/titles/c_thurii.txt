@@ -1,9 +1,24 @@
-416.1.1 = { # 360 BC
-	holder = 160003 # Neriis
+395.1.1 = { # 381 BC
+	holder = 25201 # Hipponax of the Thourioi
 }
-462.1.1 = { # 314 BC
-	holder = 160001 # Neriis
+397.1.1 = { # 379 BC
+	holder = 25202 # Chariton of the Thourioi
 }
-483.1.1 = { # 303 BC
-	holder = 160002 # Miniis
+437.1.1 = { # 339 BC
+	holder = 25203 # Asklepiades of the Thourioi
+}
+438.1.1 = { # 338 BC
+	holder = 25204 # Megakles of the Thourioi
+}
+463.1.1 = { # 313 BC
+	holder = 25205 # Herakleitos of the Thourioi
+}
+467.1.1 = { # 309 BC
+	holder = 25206 # Karneades of the Thourioi
+}
+509.1.1 = { # 267 BC
+	holder = 25207 # Dareios of the Thourioi
+}
+519.1.1 = { # 257 BC
+	holder = 25208 # Diogenes of the Thourioi
 }

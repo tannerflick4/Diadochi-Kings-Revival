@@ -1,0 +1,13 @@
+# 46001-47000 for Sicilian dynasties
+46001 = {
+    name = "Elymi"
+    culture = sicilian
+}
+46002 = {
+    name = "Sicani"
+    culture = sicilian
+}
+46003 = {
+    name = "Siceli"
+    culture = sicilian
+}

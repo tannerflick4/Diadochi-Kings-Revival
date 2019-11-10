@@ -1,10 +1,18 @@
-402.1.1 = { # 374 BC
-	holder = 52202
-	liege = k_syracuse
+377.1.1 = { # 399 BC
+	holder = 24801 # Perikles of the Selinidai
 }
-428.1.1 = { # 348 BC
-	liege = 0
+393.1.1 = { # 383 BC
+	set_tribute_suzerain = {
+		who = k_carthage
+		percentage = 0.2
+	}
 }
-450.1.1 = { # 326 BC
-	holder = 52201
+436.1.1 = { # 340 BC
+	holder = 24802 # Kephalos of the Selinidai
+}
+456.1.1 = { # 320 BC
+	holder = 24803 # Herakleitos of the Selinidai
+}
+490.1.1 = { # 286 BC
+	holder = 24804 # Hermolaos of the Selinidai
 }

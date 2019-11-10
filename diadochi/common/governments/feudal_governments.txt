@@ -22,6 +22,8 @@ feudal_governments = {
 			OR = {
 				controls_religion = no
 				has_religion_feature = religion_temporal_head
+				religion = etruscan_main
+				religion = judaism_main
 			}
 			is_patrician = no
 		}

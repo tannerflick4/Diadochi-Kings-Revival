@@ -1,21 +1,35 @@
 {
-	"first_char_id": 220301,
-	"dynasty_id": 22006,
-	"culture": "venetic",
-	"religion": "illyrian_main",
+	"first_char_id": 56501,
+	"dynasty_id": 5072,
+	"culture": "ionian",
+	"religion": "greek_main",
 
-	"names": "Aetor Avitus Barcinus Boninus Buzetius Caminis Ceunus Clausus 
-	Cliticus Curticus Darmo Hospolis Hostiducis Hostiices Iafus Lambicus 
-	Lastimeis Malavicus Mamaester Moicus Oclatinus Oeplus Opiavus Oplus 
-	Pasinus Patalius Picusis Plaetorius Recus Tarnis Tetenus Trosius 
-	Turus Vesclevesis Viniocus Virno Volscus Volsetis Volso Volsonus 
-	Volsounus Volsus Voltimesis Zupricus",
+	"names": "Achaios_Achaios Adeimantos_Adeimantos Agapetos_Agapetos Agathon_Agathon Ainesidemos_Ainesidemos Aischines_Aischines Aischylos_Aischylos Aisopos_Aisopos Akakios_Akakios Akron_Akron Alexandros_Alexandros 
+	Alexis_Alexis Alkaios_Alkaios Alkiphron_Alkiphron Ambrosios_Ambrosios Ampelios_Ampelios Amyntas_Amyntas 
+Anaxagoras_Anaxagoras Anaxilas_Anaxilas Anaximenes_Anaximenes Androkles_Androkles Andronikos_Andronikos Androtion_Androtion Antiphon_Antiphon Aphrodisios_Aphrodisios Apollodoros_Apollodoros Apollonios_Apollonios
+   Araros_Araros Archelaos_Archelaos Archimedes_Archimedes Archippos_Archippos Argyros_Argyros Aristarchos_Aristarchos Aristeides_Aristeides Aristogeiton_Aristogeiton Aristokles_Aristokles 
+   Ariston_Ariston Aristophanes_Aristophanes Aristoteles_Aristoteles Arkadios_Arkadios Arkesilas_Arkesilas Arkesios_Arkesios Arsenios_Arsenios Artemidoros_Artemidoros Asklepiades_Asklepiades 
+Atrtemisios_Atrtemisios Basileios_Basileios Bion_Bion Chariton_Chariton Chrysanthos_Chrysanthos Damasias_Damasias Dareios_Dareios 
+   Demetrios_Demetrios Demokritos_Demokritos Demosthenes_Demosthenes Dexippos_Dexippos Diodorus_Diodorus Diodotos_Diodotos Diogenes_Diogenes Diokles_Diokles Dionysodoros_Dionysodoros 
+   Drakon_Drakon Eirenaios_Eirenaios Ekphantos_Ekphantos Epaminondas_Epaminondas Epaphroditos_Epaphroditos Epikouros_Epikouros Epiktetos_Epiktetos Epilykos_Epilykos Erasistratos_Erasistratos Eratosthenes_Eratosthenes Euaristos_Euaristos Euboulos_Euboulos Eudoxos_Eudoxos
+   Eukleides_Eukleides Euktemon_Euktemon Eumenes_Eumenes Euphemios_Euphemios Euphranor_Euphranor Euripides_Euripides Eusebios_Eusebios Eustathios_Eustathios 
+   Eutychios_Eutychios Eutychos_Eutychos Galenos_Galenos Gelon_Gelon Glaukon_Glaukon Harmodios_Harmodios Heliodoros_Heliodoros Herakleitos_Herakleitos 
+   Hermias_Hermias Hermogenes_Hermogenes Hermokrates_Hermokrates Hermolaos_Hermolaos Herodes_Herodes Herodotus_Herodotus Heron_Heron Hesiod_Hesiod 
+   Hiketas_Hiketas Hieron_Hieron Hieronymos_Hieronymos Hippalos_Hippalos Hipparchos_Hipparchos Hippokrates_Hippokrates Hippolytos_Hippolytos Hipponax_Hipponax Homeros_Homeros Hyakinthos_Hyakinthos Hypsikles_Hypsikles 
+   Hypatos_Hypatos Iason_Iason Ion_Ion Iphikrates_Iphikrates Isagoras_Isagoras Isidoros_Isidoros Isokrates_Isokrates Kallias_Kallias Kallikrates_Kallikrates Kallisthenes_Kallisthenes Kallistos_Kallistos Karneades_Karneades 
+   Kassandros_Kassandros Kephalos_Kephalos Kleisthenes_Kleisthenes Kleitos_Kleitos Kleon_Kleon Konon_Konon Kylon_Kylon Kyros_Kyros Laomedon_Laomedon 
+   Leon_Leon Leukon_Leukon Linos_Linos Loukianos_Loukianos Lykourgos_Lykourgos Lysandros_Lysandros Lysimachos_Lysimachos Mantitheos_Mantitheos Megakles_Megakles Menexenos_Menexenos Menon_Menon Metrodoros_Metrodoros Miltiades_Miltiades 
+   Myron_Myron Neophytos_Neophytos Nikandros_Nikandros Nikanor_Nikanor Nikephoros_Nikephoros Nikias_Nikias Nikolaos_Nikolaos Nikomachos_Nikomachos Nikomedes_Nikomedes Nikokreon_Nikokreon 
+   Olympiodoros_Olympiodoros Ophellas_Ophellas Pankratios_Pankratios Pantaleon_Pantaleon Parmenion_Parmenion Pausanias_Pausanias Periandros_Periandros Perikles_Perikles Pheidias_Pheidias Philandros_Philandros Philokrates_Philokrates Phokion_Phokion
+   Platon_Platon Ploutarchos_Ploutarchos Praxiteles_Praxiteles Prodikos_Prodikos Sokrates_Sokrates Solon_Solon Sosigenes_Sosigenes Stilpon_Stilpon 
+   Straton_Straton Themistokles_Themistokles Theodoros_Theodoros Theodosios_Theodosios Theodotos_Theodotos Theophanes_Theophanes Theron_Theron Thrasyboulos_Thrasyboulos
+   Tychon_Tychon Xenon_Xenon Xenophon_Xenophon Zephyros_Zephyros Zeuxidamas_Zeuxidamas",
 
 	"min_age": 14,
 	"min_fertile_age": 14,
 	"max_age": 65,
 	"max_fertile_age": 45,
 
-	"min_year": 396,
-	"max_year": 524
+	"min_year": 365,
+	"max_year": 522
 }

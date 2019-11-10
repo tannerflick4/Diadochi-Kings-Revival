@@ -1,21 +1,16 @@
-409.1.1 = { # 367 BC
-	holder = 24002 # Dionysius II of Syracuse
+389.1.1 = { # 387 BC
+	liege = k_syracuse
 }
-419.1.1 = { # 357 BC
-	holder = 24102 # Dion
-}
-422.1.1 = { # 354 BC
-	holder = 59901 # Calippus
-}
-424.1.1 = { # 352 BC
-	holder = 24003 # Hipparinos
+400.1.1 = { # 376 BC
+	holder = 56301 # Lysimachos of the Rhegioi
 }
 425.1.1 = { # 351 BC
-	holder = 160103 # Ancus
+	holder = 56303 # Hieron of the Rhegioi
+	liege = 0
 }
-444.1.1 = { # 332 BC
-	holder = 160101 # Seppiis
+484.1.1 = { # 292 BC
+	holder = 56305 # Hesiod of the Rhegioi
 }
-483.1.1 = { # 303 BC
-	holder = 160102 # Pampo
+512.1.1 = { # 264 BC
+	holder = 56307 # Epikouros of the Rhegioi
 }

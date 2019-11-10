@@ -1494,6 +1494,24 @@ hellenic = {
 italian = {
 	graphical_cultures = { westerngfx }
  
+	sicilian = {
+		graphical_cultures = { latingfx etruscangfx }
+  
+		color = { 0.87 0.4 1.0 }
+
+		male_names = {
+			Ancus_Ancus Attiis_Attiis Deciis_Deciis Gaiis_Gaius Heriis_Heriis Mariis_Mariis Mettiis_Mettiis Minatus_Minatus Miniis_Miniis 
+			Neriis_Neriis Noviis_Noviis Numeriis_Numeriis Oviis_Oviis Pacciis_Pacciis Pompo_Pompo Salviis_Salviis Seppiis_Seppiis 
+			Statiis_Statiis Taurus_Taurus Trebiis_Trebiis Vettiis_Vettiis Vibiis_Vibiis        
+		}
+		female_names = {
+			Anca_Anca Attia_Attia Decia_Decia Heria_Heria Maria_Maria Mettia_Mettia Minata_Minata Minia_Minia 
+			Neria_Neria Novia_Novia Numa_Numa Numeria_Numeria Ovia_Ovia Paccia_Paccia Pompa_Pompa Salvia_Salvia 
+			Seppia_Seppia Stattia_Stattia Trebia_Trebia Vettia_Vettia Vibia_Vibia        
+		}
+  
+		from_dynasty_prefix = "of "
+	}
 	oscan = {
 		graphical_cultures = { latingfx etruscangfx }
   

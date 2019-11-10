@@ -37,3 +37,11 @@
 # 36001-37000 for Albanian dynasties
 # 37001-38000 for Tocharian dynasties
 # 38001-39000 for Israelite dynasties
+# 39001-40000 for Iberian dynasties
+# 40001-41000 for Turdetanian dynasties
+# 41001-42000 for Tartessian dynasties
+# 42001-43000 for Celtiberian dynasties
+# 43001-44000 for Lusitanian dynasties
+# 44001-45000 for Gallaecian dynasties
+# 45001-46000 for Aquitanian dynasties
+# 46001-47000 for Sicilian dynasties

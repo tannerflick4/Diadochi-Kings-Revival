@@ -1,0 +1,4 @@
+# 460001-470000 for Sicilian characters
+    # 460001-460100 for the Elymi dynasty
+    # 460101-460200 for the Sicani dynasty
+    # 460201-460300 for the Siceli dynasty

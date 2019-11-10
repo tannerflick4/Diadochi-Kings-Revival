@@ -1,10 +1,19 @@
-414.1.1 = { # 362 BC
-	holder = 52302 
-	liege = k_syracuse
+399.1.1 = { # 377 BC
+	holder = 24901 # Herakleitos of the Himerioi
+	set_tribute_suzerain = {
+		who = k_carthage
+		percentage = 0.2
+	}
 }
-426.1.1 = { # 350 BC
-	liege = 0
+433.1.1 = { # 343 BC
+	holder = 24902 # Aischines of the Himerioi
 }
-462.1.1 = { # 314 BC
-	holder = 52301
+463.1.1 = { # 313 BC
+	holder = 24903 # Parmenion of the Himerioi
+}
+473.1.1 = { # 303 BC
+	holder = 24904 # Theodoros of the Himerioi
+}
+489.1.1 = { # 287 BC
+	holder = 24905 # Demosthenes of the Himerioi
 }

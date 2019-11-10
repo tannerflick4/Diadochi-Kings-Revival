@@ -53,5 +53,11 @@
 	# 24501-24600 for the Astakoi dynasty
 	# 24601-24700 for the Athamanes dynasty
 	# 24701-24800 for the Mesembrioi dynasty
+	# 24801-24900 for the Selinidai dynasty
+	# 24901-25000 for the Himerioi dynasty
+	# 25001-25100 for the Locridai dynasty
+	# 25101-25200 for the Krotonioi dynasty
+	# 25201-25300 for the Thourioi dynasty
+	# 25301-25400 for the Tyndarioi dynasty
 	
 	# 29901-30000 for the doric Lowborns

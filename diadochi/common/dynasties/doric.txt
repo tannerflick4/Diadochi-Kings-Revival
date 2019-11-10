@@ -220,3 +220,27 @@
 	name = "Nysaiosi"
 	culture = doric
 }
+2050 = {
+	name = "Selinidai"
+	culture = doric
+}
+2051 = {
+	name = "Himerioi"
+	culture = doric
+}
+2052 = {
+	name = "Locridai"
+	culture = doric
+}
+2053 = {
+	name = "Krotonioi"
+	culture = doric
+}
+2054 = {
+	name = "Thourioi"
+	culture = doric
+}
+2055 = {
+	name = "Tyndarioi"
+	culture = doric
+}

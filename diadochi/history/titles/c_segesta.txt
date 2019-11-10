@@ -1,13 +1,21 @@
-401.1.1 = { # 375 BC
-	holder = 250304 # Magon III of Carthage
-	liege = d_sardinia
+379.1.1 = { # 397 BC
+	holder = 460001 # Noviis of the Elymi
 }
-432.1.1 = { # 344 BC 
-	holder = 250303 # Hanno III of Carthage
+405.1.1 = { # 371 BC
+	holder = 460002 # Oviis of the Elymi
 }
-436.1.1 = { # 340 BC
-	holder = 250301 # Hannibal of the Magon family
+416.1.1 = { # 360 BC
+	holder = 460003 # Noviis of the Elymi
 }
-465.1.1 = { # 311 BC
-	holder = 250302 # Menahilim
-} 
+438.1.1 = { # 338 BC
+	holder = 460004 # Neriis of the Elymi
+}
+485.1.1 = { # 291 BC
+	holder = 460006 # Heriis of the Elymi
+}
+487.1.1 = { # 289 BC
+	holder = 460007 # Trebiis of the Elymi
+}
+496.1.1 = { # 280 BC
+	holder = 460008 # Miniis of the Elymi
+}

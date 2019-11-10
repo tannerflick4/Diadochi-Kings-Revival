@@ -14,7 +14,7 @@ b_alia_motyon = temple
 #b_mususino_motyon = castle
 
 # Misc
-culture = ionian
+culture = sicilian
 religion = greek_main
 
 # History

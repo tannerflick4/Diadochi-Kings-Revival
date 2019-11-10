@@ -14,7 +14,7 @@ b_entella_adranon = temple
 #b_vecchia_adranon = castle
 
 # Misc
-culture = ionian
-religion = greek_main
+culture = sicilian
+religion = punic_main
 
 # History

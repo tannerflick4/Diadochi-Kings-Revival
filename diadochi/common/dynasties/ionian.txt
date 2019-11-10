@@ -266,3 +266,15 @@
 	name = "Pergantionidai"
 	culture = ionian
 }
+5070 = {
+	name = "Rhegioi"
+	culture = ionian
+}
+5071 = {
+	name = "Herakliadai"
+	culture = ionian
+}
+5072 = {
+	name = "Eleadai"
+	culture = ionian
+}

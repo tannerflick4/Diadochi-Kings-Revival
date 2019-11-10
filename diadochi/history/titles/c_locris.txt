@@ -1,9 +1,12 @@
-406.1.1 = { # 370 BC
-	holder = 160103 # Ancus
+395.1.1 = { # 381 BC
+	holder = 25001 # Eirenaios of the Locridai
 }
-444.1.1 = { # 332 BC
-	holder = 160101 # Seppiis
+415.1.1 = { # 361 BC
+	holder = 25002 # Aischylos of the Locridai
 }
-483.1.1 = { # 303 BC
-	holder = 160102 # Pampo
+457.1.1 = { # 319 BC
+	holder = 25003 # Kleon of the Locridai
+}
+481.1.1 = { # 295 BC
+	holder = 25004 # Diogenes of the Locridai
 }

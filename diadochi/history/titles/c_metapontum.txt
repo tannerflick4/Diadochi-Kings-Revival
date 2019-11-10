@@ -1,9 +1,6 @@
-405.1.1 = { # 371 BC
-	holder = 140403 # Grabos
+416.1.1 = { # 360 BC
+	holder = 21201
 }
-441.1.1 = { # 335 BC
-	holder = 140401 # Bato
-}
-471.1.1 = { # 305 BC
-	holder = 140402 # Sirras
+458.1.1 = {
+	holder = 21202
 }

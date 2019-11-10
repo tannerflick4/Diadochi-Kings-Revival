@@ -1,9 +1,18 @@
-406.1.1 = { # 370 BC
-	holder = 160103 # Ancus
+391.1.1 = { # 385 BC
+	holder = 25101 # Laomedon of the Krotonioi
 }
-444.1.1 = { # 332 BC
-	holder = 160101 # Seppiis
+424.1.1 = { # 352 BC
+	holder = 25102 # Ekphantos of the Krotonioi
 }
-483.1.1 = { # 303 BC
-	holder = 160102 # Pampo
+433.1.1 = { # 343 BC
+	holder = 25103 # Iphikrates of the Krotonioi
+}
+447.1.1 = { # 329 BC
+	holder = 25104 # Eusebios of the Krotonioi
+}
+503.1.1 = { # 273 BC
+	holder = 25105 # Dexippos of the Krotonioi
+}
+507.1.1 = { # 269 BC
+	holder = 25106 # Epilykos of the Krotonioi
 }

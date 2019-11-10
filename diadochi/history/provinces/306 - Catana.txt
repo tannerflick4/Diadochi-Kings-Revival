@@ -14,7 +14,7 @@ b_adranon_catana = castle
 #b_styella_catana = castle
 
 # Misc
-culture = doric
+culture = ionian
 religion = greek_main
 
 # History

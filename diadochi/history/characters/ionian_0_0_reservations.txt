@@ -62,4 +62,7 @@
 	# 56001-56100 for the Antipolitoi dynasty
 	# 56101-56200 for the Athenopolitoi dynasty
 	# 56201-56300 for the Pergantionidai dynasty
+	# 56301-56400 for the Rhegioi dynasty
+	# 56401-56500 for the Herakliadai dynasty
+	# 56501-56600 for the Eleadai dynasty
 	# 59901-60000 for the Lowborns
