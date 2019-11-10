@@ -10,8 +10,8 @@ bm_2nd_war = {
 		id = 1601 # Polyperchon
 		age = 41
 		name = ERA_CHAR_NAME_1601
-		title = d_s_macedon
-		title_name = d_s_macedon
+		title = k_s_macedon
+		title_name = k_s_macedon
 		
 		character = {
 			dna = uywjmxmlyaa
@@ -27,8 +27,8 @@ bm_2nd_war = {
 		id = 50101 # Eumenes
 		age = 43
 		name = ERA_CHAR_NAME_50101
-		title = d_s_cappadocia
-		title_name = d_s_cappadocia
+		title = k_s_cappadocia
+		title_name = k_s_cappadocia
 		
 		character = {
 			dna = poqdpurlozq
@@ -61,8 +61,8 @@ bm_2nd_war = {
 		id = 401 # Antigonus
 		age = 63
 		name = ERA_CHAR_NAME_401
-		title = d_s_phrygia
-		title_name = d_s_phrygia
+		title = k_s_phrygia
+		title_name = k_s_phrygia
 		
 		character = {
 			dna = mpdachtcwow
@@ -78,7 +78,7 @@ bm_2nd_war = {
 		id = 601 # Ptolemy
 		age = 48
 		name = ERA_CHAR_NAME_601
-		title = d_s_egypt
+		title = k_s_egypt
 		title_name = d_s_egypt
 		
 		character = {
