@@ -427,7 +427,6 @@ technology = {
 	titles = {
 		d_gallia_transalpina
 		d_gallia_inter_fluvio
-		d_gallia_lugdunensis
 		d_helvetia
 		d_raetia
 		d_alpes_cottiae
