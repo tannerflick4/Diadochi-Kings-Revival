@@ -16,6 +16,11 @@
 	453.6.10 = {
 		add_trait = diadochi_king
 	}
+	456.12.31 = {
+		effect = {
+			give_minor_title = title_regent
+		}
+	}
 	479.1.1 = { # 297 BC, Known to be alive at 304 BC
 		death="yes"
 	}
