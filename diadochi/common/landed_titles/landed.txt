@@ -15576,15 +15576,17 @@ k_lusitania = {
 
 			b_ebora_ebora = {
 			}
-			b_salacia_ebora = {
-			}
-			b_malateca_ebora = {
-			}
-			b_mirobriga_ebora = {
-			}
 			b_calanta_ebora = {
 			}
-			b_caetobriga_ebore = {
+			b_lousa_ebora = {
+			}
+			b_farausto_ebora = {
+			}
+			b_chamine_ebora = {
+			}
+			b_bispo_ebora = {
+			}
+			b_vinagre_ebora = {
 			}
 		}
 		c_badua = {
@@ -15598,6 +15600,25 @@ k_lusitania = {
 			b_elvas_badua = {
 			}
 			b_emerita_badua = {
+			}
+		}
+		c_salacia = {
+			color={ 0 0 0 }
+			color2={ 255 255 255 }
+
+			b_salacia_salacia = {
+			}
+			b_aquabona_salacia = {
+			}
+			b_caetobriga_salacia = {
+			}
+			b_chibanes_salacia = {
+			}
+			b_barbarion_salacia = {
+			}
+			b_malateca_salacia = {
+			}
+			b_serra_salacia = {
 			}
 		}
 	}
@@ -15624,21 +15645,35 @@ k_lusitania = {
 			}
 			b_arandis_myrtilis = {
 			}
-			b_vipascens_myrtilis = {
-			}	
+			b_chamine_myrtilis = {
+			}
+			b_pax_iulia_myrtilis = {
+			}
+			b_romano_myrtilis = {
+			}
+			b_cuclate_myrtilis = {
+			}
+			b_frades_myrtilis = {
+			}
 		}
 		c_ossonoba = {
 			color={ 50 165 70 }
-			color2={ 255 255 255 }		
+			color2={ 255 255 255 }
 
-			b_ossunba_ossonoba = {
-			}
-			b_cilpes_ossonoba = {
-			}
+			b_ossonoba_ossonoba = {
+			}	
+			b_cibillis_ossonoba = {
+			}	
+			b_lacobriga_ossonoba = {
+			}	
 			b_balsa_ossonoba = {
-			}
-			b_esuris_ossonoba = {
-			}
+			}	
+			b_baesuris_ossonoba = {
+			}	
+			b_martinhal_ossonoba = {
+			}	
+			b_portus_hannibalis_ossonoba = {
+			}	
 		}
 	}
 }
@@ -16050,6 +16085,13 @@ k_hispa = {
 			b_caput_libisosa = {
 			}
 		}
+		c_sucia = {
+			color={ 0 0 0 }
+			color2={ 255 255 255 }
+
+			b_sucia_sucia = {
+			}
+		}
 	}
 }
 k_iberia = {
@@ -16252,6 +16294,13 @@ k_iberia = {
 			b_ilorci_ilorci = {
 			}
 		}
+		c_lucentum = {
+			color={ 0 0 0 }
+			color2={ 255 255 255} 
+			
+			b_lucentum_lucentum = {
+			}
+		}
 	}
 	d_bastetania = {
 		color={ 135 20 5 }
@@ -16287,6 +16336,13 @@ k_iberia = {
 			color2={ 255 255 255 }
 			
 			b_bergastrum_bergastrum = {
+			}
+		}
+		c_ilici = {
+			color={ 0 0 0 }
+			color2={ 255 255 255 }
+			
+			b_ilici_ilici = {
 			}
 		}
 	}
@@ -16337,11 +16393,17 @@ k_turdetania = {
 
 			b_praesidium_praesidium = {
 			}
+			b_ostium_praesidium = {
+			}
+			b_ad_rubras_praesidium = {
+			}
 			b_ossonoba_praesidium = {
+			}
+			b_herculis_praesidium = {
 			}
 			b_tharsis_praesidium = {
 			}
-			b_serpa_praesidium = {
+			b_campanario_praesidium = {
 			}
 		}
 		c_turobriga = {
@@ -16350,11 +16412,17 @@ k_turdetania = {
 
 			b_turobriga_turobriga = {
 			}
-			b_nertobriga_turobriga = {
+			b_urium_turobriga = {
 			}
-			b_alajar_turobriga = {
+			b_fodinae_turobriga = {
 			}
-			b_arruci_turobriga = {
+			b_eulalia_turobriga = {
+			}
+			b_telmo_turobriga = {
+			}
+			b_kortikata_turobriga = {
+			}
+			b_arucci_turobriga = {
 			}
 		}
 		c_lastigi = {
@@ -16376,9 +16444,36 @@ k_turdetania = {
 
 			b_osset_osset = {
 			}
-			b_olontigi_osset = {
+			b_italica_osset = {
 			}
-			b_maenuba_osset = {
+			b_caura_osset = {
+			}
+			b_paisoula_osset = {
+			}
+			b_itucci_osset = {
+			}
+			b_lastigi_osset = {
+			}
+			b_laelia_osset = {
+			}
+		}
+		c_tartessos = {
+			color={ 0 0 0 }
+			color2={ 255 255 255 }
+
+			b_tartessos_tartessos = {
+			}
+			b_ilipula_tartessos = {
+			}
+			b_romano_tartessos = {
+			}
+			b_moranina_tartessos = {
+			}
+			b_olontigi_tartessos = {
+			}
+			b_hareni_tartessos = {
+			}
+			b_abul_tartessos = {
 			}
 		}
 	}
@@ -16392,13 +16487,17 @@ k_turdetania = {
 
 			b_segida_segida = {
 			}
+			b_fines_segida = {
+			}
 			b_seria_segida = {
 			}
-			b_vama_segida = {
+			b_nertobriga_segida = {
 			}
-			b_caspiana_segida = {
+			b_curiga_segida = {
 			}
-			b_phornakis_segida = {
+			b_lacunis_segida = {
+			}
+			b_contributa_segida = {
 			}
 		}
 		c_artigi = {
@@ -16407,9 +16506,17 @@ k_turdetania = {
 
 			b_artigi_artigi = {
 			}
+			b_municipium_flavium_artigi = {
+			}
+			b_caspiana_artigi = {
+			}
+			b_phornakis_artigi = {
+			}
 			b_brutobriga_artigi = {
 			}
-			b_metellinum_artigi = {
+			b_mellaria_artigi = {
+			}
+			b_perceiana_artigi = {
 			}
 		}
 		c_munigua = {
@@ -16431,9 +16538,17 @@ k_turdetania = {
 
 			b_mirobirga_mirobriga = {
 			}
-			b_baedro_mirobriga = {
+			b_patulus_portus_mirobriga = {
 			}
-			b_solia_mirobriga = {
+			b_sines_mirobriga = {
+			}
+			b_troia_mirobriga = {
+			}
+			b_cuneus_mirobriga = {
+			}
+			b_abicada_mirobriga = {
+			}
+			b_arregata_mirobriga = {
 			}
 		}
 		c_corduba = {
@@ -16540,15 +16655,17 @@ k_turdetania = {
 
 			b_gadir_gadir = {
 			}
+			b_hasta_gadir = {
+			}
 			b_turirecina_gadir = {
 			}
-			b_asido_gadir = {
+			b_nabrissa_gadir = {
 			}
-			b_mercablum_gadir = {
+			b_ceret_gadir = {
 			}
-			b_ebora_gadir = {
+			b_iunonis_gadir = {
 			}
-			b_memestheus_gadir = {
+			b_cotinussa_gadir = {
 			}
 		}
 		c_carteia = {

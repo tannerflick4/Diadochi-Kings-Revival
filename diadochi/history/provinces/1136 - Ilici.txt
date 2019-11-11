@@ -1,0 +1,15 @@
+# 1136 - Ilici
+
+# County Title
+title = c_ilici # for example c_corinth
+
+# Settlements
+max_settlements = 4
+b_ilici_ilici = castle
+
+# Misc
+culture = phrygian
+religion = phrygian_main
+
+# History
+# Can be filled when things change around the province

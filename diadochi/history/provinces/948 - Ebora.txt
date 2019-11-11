@@ -4,13 +4,14 @@
 title = c_ebora
 
 # Settlements
-max_settlements = 6
+max_settlements = 4
 b_ebora_ebora = tribal
-#b_salacia_ebora = city
-#b_malateca_ebora = city
-#b_mirobriga_ebora = castle
 b_calanta_ebora = temple
-#b_caetobriga_ebore = city
+#b_lousa_ebora = city
+#b_farausto_ebora = city
+#b_chamine_ebora = city
+#b_bispo_ebora = castle
+#b_vinagre_ebora = city
 
 # Misc
 culture = celtiberian

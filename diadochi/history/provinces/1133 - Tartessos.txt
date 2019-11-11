@@ -1,0 +1,21 @@
+# 1133 - Tartessos
+
+# County Title
+title = c_tartessos # for example c_corinth
+
+# Settlements
+max_settlements = 5
+b_tartessos_tartessos = castle
+#b_ilipula_tartessos = city
+#b_romano_tartessos = city
+#b_moranina_tartessos = castle
+#b_olontigi_tartessos = city
+#b_hareni_tartessos = castle
+b_abul_tartessos = temple
+
+# Misc
+culture = phrygian
+religion = phrygian_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,15 @@
+# 1138 - Sucia
+
+# County Title
+title = c_sucia # for example c_corinth
+
+# Settlements
+max_settlements = 4
+b_sucia_sucia = castle
+
+# Misc
+culture = phrygian
+religion = phrygian_main
+
+# History
+# Can be filled when things change around the province

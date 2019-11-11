@@ -4,11 +4,14 @@
 title = c_ossonoba
 
 # Settlements
-max_settlements = 4
-b_ossunba_ossonoba = tribal
-#b_cilpes_ossonoba = castle
+max_settlements = 5
+#b_ossonoba_ossonoba = tribal
+#b_cibillis_ossonoba = castle
+#b_lacobriga_ossonoba = city
 #b_balsa_ossonoba = city
-#b_esuris_ossonoba = city
+#b_baesuris_ossonoba = city
+#b_martinhal_ossonoba = temple
+#b_portus_hannibalis_ossonoba = city
 
 # Misc
 culture = old_tartessian

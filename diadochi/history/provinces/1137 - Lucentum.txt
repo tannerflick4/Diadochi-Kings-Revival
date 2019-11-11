@@ -1,0 +1,15 @@
+# 1137 - Lucentum
+
+# County Title
+title = c_lucentum # for example c_corinth
+
+# Settlements
+max_settlements = 4
+b_lucentum_lucentum = castle
+
+# Misc
+culture = phrygian
+religion = phrygian_main
+
+# History
+# Can be filled when things change around the province

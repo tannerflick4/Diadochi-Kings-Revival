@@ -4,10 +4,14 @@
 title = c_artigi
 
 # Settlements
-max_settlements = 3
+max_settlements = 5
 b_artigi_artigi = tribal
-#b_brutobriga_artigi = city
-#b_metellinum_artigi = city
+#b_municipium_flavium_artigi = city
+#b_caspiana_artigi = temple
+#b_phornakis_artigi = city
+#b_brutobriga_artigi = castle
+#b_mellaria_artigi = city
+b_perceiana_artigi = temple
 
 # Misc
 culture = celtiberian
