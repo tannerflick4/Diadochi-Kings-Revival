@@ -33,9 +33,8 @@
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin
-	
+	father = 170305
 	add_trait = tough_soldier
-	
 	371.1.1 = { # 405 BC Made up
 		birth="yes"
 	}
@@ -48,10 +47,23 @@
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin
+	father = 170305
 	368.1.1 = { # 408 BC Made Up
 		birth="yes"
 	}
 	452.1.1 = { # 324 BC Made Up
+		death="yes"
+	}
+}
+170305 = {
+	name = "Hortensius" # Fabius Ambustus, made up to connect Gaius to the other members
+	dynasty = 17004 # Fabii
+	religion = roman_main
+	culture = latin
+	348.1.1 = { # 428 BC Made Up
+		birth="yes"
+	}
+	432.1.1 = { # 344 BC Made Up
 		death="yes"
 	}
 }

@@ -1,0 +1,20 @@
+# 419 - Luceria
+
+# County Title
+title = c_luceria
+
+# Settlements
+max_settlements = 4
+b_luceria_luceria = tribal
+#b_luceria1_luceria = city
+#b_luceria2_luceria = city
+#b_luceria3_luceria = temple
+#b_luceria4_luceria = castle
+#b_luceria5_luceria = castle
+#b_luceria6_luceria = castle
+
+# Misc
+culture = illyrian
+religion = illyrian_main
+
+# History
