@@ -9,6 +9,7 @@ b_dorylaeum_dorylaeum = castle
 b_eiokome_dorylaeum = temple
 b_midaion_dorylaeum = castle
 b_lamounia_dorylaeum = castle
+b_yperva_dorylaeum = castle
 
 # Misc
 culture = phrygian

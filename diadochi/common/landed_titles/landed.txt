@@ -6896,6 +6896,8 @@ k_lydia = {
 			}			
 			b_lamounia_dorylaeum = {
 			}
+			b_yperva_dorylaeum  = {
+			}
 		}
 		c_ipsus = {
 			color= { 0 90 115 }
