@@ -18,4 +18,3 @@ culture = ionian
 religion = greek_main
 
 # History
-459.1.1 = { b_messana = castle }

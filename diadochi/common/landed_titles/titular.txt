@@ -770,7 +770,7 @@ k_samnites = {
 	color= { 125 25 0 }
 	color2= { 255 255 255 }
 	
-	capital = 326 # Beneventum
+	capital = 327 # Bovianum
 	
 	title = "MEDDIX"
 	short_name = yes
