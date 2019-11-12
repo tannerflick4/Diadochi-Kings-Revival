@@ -7,8 +7,11 @@ title = c_munigua
 max_settlements = 4
 b_munigua_munigua = tribal
 #b_naeva_munigua = city
+#b_canama_munigua = city
+#b_arva_munigua = city
+#b_axati_munigua = city
+#b_celti_munigua = castle
 #b_iporca_munigua = castle
-#b_leptis_munigua = city
 
 # Misc
 culture = turdetanian

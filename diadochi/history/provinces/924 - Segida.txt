@@ -4,17 +4,18 @@
 title = c_segida_turdetania
 
 # Settlements
-max_settlements = 5
+max_settlements = 4
 b_segida_segida_turdetania = tribal
-#b_olbulcula_segida_turdetania = castle
-#b_astigi_segida_turdetania = city
-#b_urso_segida_turdetania = castle
 #b_lauro_segida_turdetania = castle
+#b_urso_segida_turdetania = castle
+#b_astigi_segida_turdetania = city
+#b_illipula_segida_turdetania = castle
+#b_carruca_segida_turdetania = city
+#b_iluro_segida_turdetania = castle
 
 # Misc
 culture = turdetanian
 religion = iberian_main
-
 
 # History
 # Can be filled when things change around the province

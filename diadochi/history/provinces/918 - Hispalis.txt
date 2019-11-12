@@ -4,11 +4,14 @@
 title = c_hispalis
 
 # Settlements
-max_settlements = 4
+max_settlements = 5
 b_hispalis_hispalis = tribal
-#b_carmo_hispalis = castle
-#b_basiloppo_hispalis = city
-#b_oducia_hispalis = city
+#b_lucurgentum_hispalis = castle
+#b_salpensa_hispalis = castle
+#b_siarum_hispalis = castle
+#b_callet_hispalis = castle
+#b_urgia_hispalis = city
+#b_orippo_hispalis = city
 
 # Misc
 culture = turdetanian

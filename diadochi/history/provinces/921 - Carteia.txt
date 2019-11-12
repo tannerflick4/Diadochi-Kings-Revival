@@ -6,15 +6,16 @@ title = c_carteia
 # Settlements
 max_settlements = 5
 b_carteia_carteia = castle
-b_belo_carteia = city
-b_tingentera_carteia = city
-#b_mellaria_carteia = city
-b_onoba_carteia = castle
+b_iulia_traducta_carteia = city
+#b_baelo_carteia = city
+b_asido_carteia = castle
+#b_lascuta_carteia = castle
+b_cetaria_carteia = temple
+#b_mercablum_carteia = city
 
 # Misc
 culture = turdetanian
 religion = iberian_main
-
 
 # History
 # Can be filled when things change around the province

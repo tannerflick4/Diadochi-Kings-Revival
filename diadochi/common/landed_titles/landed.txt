@@ -16527,9 +16527,15 @@ k_turdetania = {
 			}
 			b_naeva_munigua = {
 			}
-			b_iporca_munigua = {
+			b_canama_munigua = {
 			}
-			b_leptis_munigua = {
+			b_arva_munigua = {
+			}
+			b_axati_munigua = {
+			}
+			b_celti_munigua = {
+			}
+			b_iporca_munigua = {
 			}
 		}
 		c_mirobriga = {
@@ -16559,13 +16565,15 @@ k_turdetania = {
 			}
 			b_carbula_corduba = {
 			}
-			b_detumo_corduba = {
+			b_ad_decumum_corduba = {
 			}
-			b_sisapo_corduba = {
+			b_onuba_corduba = {
 			}
-			b_oretum_corduba = {
+			b_sacili_corduba = {
 			}
-			b_carcuvium_corduba = {
+			b_epora_corduba = {
+			}
+			b_mellara_corduba = {
 			}
 		}
 	}
@@ -16594,11 +16602,17 @@ k_turdetania = {
 
 			b_hispalis_hispalis = {
 			}
-			b_carmo_hispalis = {
+			b_lucurgentum_hispalis = {
 			}
-			b_basiloppo_hispalis = {
+			b_salpensa_hispalis = {
 			}
-			b_oducia_hispalis = {
+			b_siarum_hispalis = {
+			}
+			b_callet_hispalis = {
+			}
+			b_urgia_hispalis = {
+			}
+			b_orippo_hispalis = {
 			}
 		}
 		c_segida_turdetania = {
@@ -16607,13 +16621,17 @@ k_turdetania = {
 
 			b_segida_segida_turdetania = {
 			}
-			b_olbulcula_segida_turdetania = {
-			}
-			b_astigi_segida_turdetania = {
+			b_lauro_segida_turdetania = {
 			}
 			b_urso_segida_turdetania = {
 			}
-			b_lauro_segida_turdetania = {
+			b_astigi_segida_turdetania = {
+			}
+			b_illipula_segida_turdetania = {
+			}
+			b_carruca_segida_turdetania = {
+			}
+			b_iluro_segida_turdetania = {
 			}
 		}
 		c_ulia = {
@@ -16622,13 +16640,17 @@ k_turdetania = {
 
 			b_ulia_ulia = {
 			}
+			b_sabetanum_ulia = {
+			}
 			b_igabrum_ulia = {
 			}
 			b_cisimbrium_ulia = {
 			}
-			b_ipolcobulcola_ulia = {
+			b_iptuci_ulia = {
 			}
-			b_urgao_ulia = {
+			b_ipsca_ulia = {
+			}
+			b_ucubi_ulia = {
 			}
 		}
 		c_acci = {
@@ -16674,13 +16696,17 @@ k_turdetania = {
 
 			b_carteia_carteia = {
 			}
-			b_belo_carteia = {
+			b_iulia_traducta_carteia = {
 			}
-			b_tingentera_carteia = {
+			b_baelo_carteia = {
 			}
-			b_mellaria_carteia = {
+			b_asido_carteia = {
 			}
-			b_onoba_carteia = {
+			b_lascuta_carteia = {
+			}
+			b_cetaria_carteia = {
+			}
+			b_mercablum_carteia = {
 			}
 		}
 		c_sabora = {
@@ -16689,11 +16715,17 @@ k_turdetania = {
 
 			b_sabora_sabora = {
 			}
+			b_ocuri_sabora = {
+			}
 			b_irni_sabora = {
 			}
-			b_ocurri_sabora = {
+			b_arunda_sabora = {
 			}
-			b_lacilbula_sabora = {
+			b_saepo_sabora = {
+			}
+			b_kalathousa_sabora = {
+			}
+			b_cilpe_sabora = {
 			}
 		}
 		c_suel = {
@@ -16702,11 +16734,17 @@ k_turdetania = {
 
 			b_suel_suel = {
 			}
-			b_salduba_suel = {
+			b_barbesula_suel = {
+			}
+			b_lacippo_suel = {
+			}
+			b_onoba_suel = {
+			}
+			b_cilniana_suel = {
 			}
 			b_cartima_suel = {
 			}
-			b_arunda_suel = {
+			b_erisane_suel = {
 			}
 		}
 		c_malaca = {
@@ -16715,13 +16753,17 @@ k_turdetania = {
 
 			b_malaca_malaca = {
 			}
-			b_iluro_malaca = {
-			}
 			b_nescania_malaca = {
+			}
+			b_anticaria_malaca = {
 			}
 			b_aratispi_malaca = {
 			}
-			b_menova_malaca = {
+			b_mainake_malaca = {
+			}
+			b_maenuba_malaca = {
+			}
+			b_cavicium_malaca = {
 			}
 		}
 		c_sexi = {
