@@ -130,37 +130,24 @@
 #b_metellinum_artigi
 
 #b_albus_portus_carteia
-#b_mellaria_carteia
-#b_baesippo_carteia
-#b_ad_herculem_carteia
 #b_saguntia_carteia
 
 #b_burdoga_sabora
 #b_iptuci_sabora
 #b_acinippo_sabora
 
-#b_ascua_malaca
-
-#b_oducia_hispalis
-#b_carmo_hispalis
 #b_cappa_hispalis
 #b_basilippo_hispalis
 
-#b_obulcula_segida_turdetania
-#b_munda_segida_turdetania
-
 #b_detumo_ulia
 #b_ad_aras_ulia
-#b_marruca_ulia
-#b_ipagrum_ulia
-#b_ad_gemellas_ulia
-#b_marruca_ulia
 #b_castra_postumiana_ulia
-#b_aregua_ulia
-#b_obulco_ulia
-#b_urgao_ulia
-#b_batora_ulia
 #b_ad_novias_ulia
-#b_iliturgi_ulia
-#b_abra_ulia
-#b_cantigi_ulia
+
+#b_baebelo_edeba
+#b_ad_duo_solaria_edeba
+#b_ad_turres_edeba
+
+#b_ilturir_acci
+#b_ebura_acci
+#b_ossigi_acci

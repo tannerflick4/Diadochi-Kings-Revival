@@ -4,12 +4,14 @@
 title = c_edeba
 
 # Settlements
-max_settlements = 5
+max_settlements = 4
 b_edeba_edeba = tribal
-b_mentesa_edeba = temple
+#b_vivatia_edeba = castle
+#b_salaria_edeba = city
 #b_ilugo_edeba = castle
 #b_baesucci_edeba = castle
-#b_baecula_edeba = castle
+#b_oretum_edeba = city
+#b_mariana_edeba = city
 
 # Misc
 culture = celtiberian

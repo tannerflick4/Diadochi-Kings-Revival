@@ -4,10 +4,14 @@
 title = c_carthago_nova
 
 # Settlements
-max_settlements = 3
-b_mastia_carthago_nova = city
-b_baria_carthago_nova = castle
-b_tagilit_carthago_nova = castle
+max_settlements = 4
+b_carthago_nova_carthago_nova = city
+b_eliocroca_carthago_nova = city
+b_ficariensis_locus_carthago_nova = temple
+#b_longuntica_carthago_nova = city
+#b_baria_carthago_nova = castle
+#b_ad_morum_carthago_nova = castle
+#b_calecula_carthago_nova = city
 
 # Misc
 culture = iberian

@@ -6,6 +6,12 @@ title = c_lucentum # for example c_corinth
 # Settlements
 max_settlements = 4
 b_lucentum_lucentum = castle
+#b_ad_leones_lucentum = city
+b_alonis_lucentum = city
+b_althia_lucentum = temple
+#b_ad_ello_lucentum = castle
+#b_obulcula_lucentum = castle
+b_munda_lucentum = city
 
 # Misc
 culture = phrygian

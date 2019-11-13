@@ -16045,13 +16045,17 @@ k_hispa = {
 
 			b_edeba_edeba = {
 			}
-			b_mentesa_edeba = {
+			b_vivatia_edeba = {
+			}
+			b_salaria_edeba = {
 			}
 			b_ilugo_edeba = {
 			}
 			b_baesucci_edeba = {
 			}
-			b_baecula_edeba = {
+			b_oretum_edeba = {
+			}
+			b_mariana_edeba = {
 			}
 		}
 		c_tugia = {
@@ -16060,12 +16064,34 @@ k_hispa = {
 
 			b_tugia_tugia = {
 			}
+			b_salaria_tugia = {
+			}
+			b_aregua_tugia = {
+			}
+			b_obulco_tugia = {
+			}
+			b_urgao_tugia = {
+			}
+			b_abra_tugia = {
+			}
+			b_mentesa_bastia_tugia = {
+			}
 		}
 		c_libisosa = {
 			color={ 120 130 100 }
 			color2={ 255 255 255 }
 
 			b_libisosa_libisosa = {
+			}
+			b_mariana_libisosa = {
+			}
+			b_mentesa_libisosa = {
+			}
+			b_bigerra_libisosa = {
+			}
+			b_parietinae_libisosa = {
+			}
+			b_salika_libisosa = {
 			}
 			b_caput_libisosa = {
 			}
@@ -16075,6 +16101,18 @@ k_hispa = {
 			color2={ 255 255 255 }
 
 			b_sucia_sucia = {
+			}
+			b_isturgi_sucia = {
+			}
+			b_baecula_sucia = {
+			}
+			b_castulo_sucia = {
+			}
+			b_ad_aras_sucia = {
+			}
+			b_oducia_sucia = {
+			}
+			b_carmo_sucia = {
 			}
 		}
 	}
@@ -16250,15 +16288,23 @@ k_iberia = {
 		color={ 185 75 0 }
 		color2={ 255 255 255 }
 
-		c_dianum = {
+		c_hemeroskopion = {
 			color={ 135 75 0 }
 			color2={ 255 255 255 }
 			
-			b_hemeroskopion_dianum = {
+			b_hemeroskopion_hemeroskopion = {
 			}
-			b_saiti_dianum = {
+			b_portus_sucronis_hemeroskopion = {
 			}
-			b_ilici_dianum = {
+			b_sucro_hemeroskopion = {
+			}
+			b_planesia_hemeroskopion = {
+			}
+			b_ferrarium_hemeroskopion = {
+			}
+			b_ad_gemellas_hemeroskopion = {
+			}
+			b_marruca_hemeroskopion = {
 			}
 		}
 		c_saetabis = {
@@ -16267,9 +16313,17 @@ k_iberia = {
 			
 			b_saetabis_saetabis = {
 			}
-			b_saltigi_saetabis = {
+			b_ad_turres_saetabis = {
 			}
-			b_ikalesken_saetabis = {
+			b_ad_aras_saetabis = {
+			}
+			b_ad_statuas_saetabis = {
+			}
+			b_iliturgi_saetabis = {
+			}
+			b_abra_saetabis = {
+			}
+			b_cantigi_saetabis = {
 			}
 		}
 		c_ilorci = {
@@ -16278,12 +16332,36 @@ k_iberia = {
 			
 			b_ilorci_ilorci = {
 			}
+			b_segisa_ilorci = {
+			}
+			b_ilounon_ilorci = {
+			}
+			b_elotana_ilorci = {
+			}
+			b_mellaria_ilorci = {
+			}
+			b_baesippo_ilorci = {
+			}
+			b_ad_herculem_ilorci = {
+			}
 		}
 		c_lucentum = {
 			color={ 0 0 0 }
 			color2={ 255 255 255} 
 			
 			b_lucentum_lucentum = {
+			}
+			b_ad_leones_lucentum = {
+			}
+			b_alonis_lucentum = {
+			}
+			b_althia_lucentum = {
+			}
+			b_ad_ello_lucentum = {
+			}
+			b_obulcula_lucentum = {
+			}
+			b_munda_lucentum = {
 			}
 		}
 	}
@@ -16295,11 +16373,19 @@ k_iberia = {
 			color={ 85 20 5 }
 			color2={ 255 255 255 }
 			
-			b_mastia_carthago_nova = {
+			b_carthago_nova_carthago_nova = {
+			}
+			b_eliocroca_carthago_nova = {
+			}
+			b_ficariensis_locus_carthago_nova = {
+			}
+			b_longuntica_carthago_nova = {
 			}
 			b_baria_carthago_nova = {
 			}
-			b_tagilit_carthago_nova = {
+			b_ad_morum_carthago_nova = {
+			}
+			b_calecula_carthago_nova = {
 			}
 		}
 		c_murgi = {
@@ -16308,12 +16394,36 @@ k_iberia = {
 			
 			b_murgi_murgi = {
 			}
+			b_abdera_murgi = {
+			}
+			b_urci_murgi = {
+			}
+			b_charidemos_murgi = {
+			}
+			b_portos_magnos_murgi = {
+			}
+			b_aboula_murgi = {
+			}
+			b_turaniana_murgi = {
+			}
 		}
 		c_basti = {
 			color={ 135 20 55 }
 			color2={ 255 255 255 }
 			
 			b_basti_basti = {
+			}
+			b_bactara_basti = {
+			}
+			b_agatucci_basti = {
+			}
+			b_fraxinum_basti = {
+			}
+			b_tagili_basti = {
+			}
+			b_ilurco_basti = {
+			}
+			b_viniolae_basti = {
 			}
 		}
 		c_bergastrum = {
@@ -16322,12 +16432,36 @@ k_iberia = {
 			
 			b_bergastrum_bergastrum = {
 			}
+			b_asso_bergastrum = {
+			}
+			b_tutugi_bergastrum = {
+			}
+			b_segisa_bergastrum = {
+			}
+			b_ilorci_bergastrum = {
+			}
+			b_bora_bergastrum = {
+			}
+			b_tucci_bergastrum = {
+			}
 		}
 		c_ilici = {
 			color={ 0 0 0 }
 			color2={ 255 255 255 }
 			
 			b_ilici_ilici = {
+			}
+			b_thiar_ilici = {
+			}
+			b_fortuna_ilici = {
+			}
+			b_iaspis_ilici = {
+			}
+			b_illikitanos_limen_ilici = {
+			}
+			b_marruca_ilici = {
+			}
+			b_ipagrum_ilici = {
 			}
 		}
 	}
@@ -16644,11 +16778,17 @@ k_turdetania = {
 
 			b_acci_acci = {
 			}
-			b_vergilia_acci = {
-			}
 			b_iliberri_acci = {
 			}
-			b_bactara_acci = {
+			b_vergilia_acci = {
+			}
+			b_iliturgicola_acci = {
+			}
+			b_aiungi_acci = {
+			}
+			b_sosontigi_acci = {
+			}
+			b_aurgi_acci = {
 			}
 		}
 	}
@@ -16757,9 +16897,17 @@ k_turdetania = {
 
 			b_sexi_sexi = {
 			}
+			b_cavicium_sexi = {
+			}
 			b_selambina_sexi = {
 			}
-			b_abdera_sexi = {
+			b_solorius_sexi = {
+			}
+			b_orospeda_sexi = {
+			}
+			b_ascua_sexi = {
+			}
+			b_batora_sexi = {
 			}
 		}
 	}
