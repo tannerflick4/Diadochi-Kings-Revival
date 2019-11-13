@@ -1,0 +1,21 @@
+# 324 - Roma
+
+# County Title
+title = c_roma # for example c_corinth
+
+# Settlements
+max_settlements = 7
+b_capitoline_hill = temple
+b_caelian_hill = city
+b_aventine_hill = city
+b_esquiline_hill = city
+b_palatine_hill = city
+b_quirinal_hill = city
+b_viminal_hill = city
+
+# Misc
+culture = latin
+religion = roman_main
+
+# History
+# Can be filled when things change around the province

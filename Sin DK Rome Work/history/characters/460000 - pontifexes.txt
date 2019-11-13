@@ -1,0 +1,116 @@
+# 460000s - Roman Pontifexes
+460001 = {
+	name = "Gaius" # Pontifex from 509 - 449 BC
+	#dynasty = 
+	culture = latin
+	religion = roman_main
+
+	247.1.1 = { # 529 BC
+		birth = yes
+	}
+	327.1.1 = { # 449 BC
+		death = yes
+	}
+}
+460002 = {
+	name = "Marcus" # Pontifex from 449 - 431 BC
+	#dynasty = 
+	culture = latin
+	religion = roman_main
+
+	307.1.1 = { # 469 BC
+		birth = yes
+	}
+	345.1.1 = { # 431 BC
+		death = yes
+	}
+}
+460003 = {
+	name = "Aulus" # Pontifex from 431 - 420 BC
+	#dynasty = 
+	culture = latin
+	religion = roman_main
+
+	325.1.1 = { # 451 BC
+		birth = yes
+	}
+	356.1.1 = { # 420 BC
+		death = yes
+	}
+}
+460004 = {
+	name = "Spurius" # Pontifex from 420 - 390 BC
+	#dynasty = 
+	culture = latin
+	religion = roman_main
+
+	336.1.1 = { # 440 BC
+		birth = yes
+	}
+	386.1.1 = { # 390 BC
+		death = yes
+	}
+}
+460005 = {
+	name = "Marcus" # Pontifex from 390 - 332 BC
+	#dynasty = 
+	culture = latin
+	religion = roman_main
+
+	366.1.1 = { # 410 BC
+		birth = yes
+	}
+	444.1.1 = { # 332 BC
+		death = yes
+	}
+}
+460006 = {
+	name = "Publius" # Pontifex from 332 - 304 BC
+	#dynasty = 
+	culture = latin
+	religion = roman_main
+
+	424.1.1 = { # 352 BC
+		birth = yes
+	}
+	472.1.1 = { # 304 BC
+		death = yes
+	}
+}
+460007 = {
+	name = "Corenlius" # Pontifex from 304 - 254 BC
+	culture = aeolian
+	religion = greek_main
+	452.1.1 = { # 324 BC
+		birth = yes
+	}
+	522.1.1 = { # 254 BC
+		death = yes
+	}
+}
+460008 = {
+	name = "Tiberius" # Pontifex from 254 - 243 BC
+	#dynasty = 
+	culture = latin
+	religion = roman_main
+
+	502.1.1 = { # 274 BC
+		birth = yes
+	}
+	533.1.1 = { # 243 BC
+		death = yes
+	}
+}
+460009 = {
+	name = "Lucius" # Pontifex from 243 - 221 BC
+	#dynasty = 
+	culture = latin
+	religion = roman_main
+
+	513.1.1 = { # 263 BC
+		birth = yes
+	}
+	555.1.1 = { # 221 BC
+		death = yes
+	}
+}

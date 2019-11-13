@@ -1,0 +1,7 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_evt_roman_senate"
+		texturefile = "gfx\\event_pictures\roman_senate.tga"
+		allwaystransparent = yes
+	}
+}

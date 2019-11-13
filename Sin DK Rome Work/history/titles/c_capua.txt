@@ -1,0 +1,10 @@
+411.1.1 = { # 365 BC
+	holder = 160202 # Herenniis Pontius
+}
+436.1.1 = { # 340 BC
+	set_tribute_suzerain = { who = e_rome type = permanent }
+}
+565.1.1 = {
+	clear_tribute_suzerain = e_rome
+	liege = k_consul2
+}
