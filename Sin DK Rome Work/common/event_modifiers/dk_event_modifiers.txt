@@ -1,0 +1,4 @@
+prev_consul = {
+	icon = 1
+	vassal_opinion = 5
+}

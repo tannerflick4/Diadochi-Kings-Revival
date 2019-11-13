@@ -1,0 +1,32 @@
+1.1.1 = {
+	active = no
+	holder = 0
+}
+267.1.1 = { # Gaius Papirius Pontifex from 509 - 449 BC
+	active = yes
+	holder = 460001
+}
+327.1.1 = { # Marcus Papirius Pontifex from 449 - 431 BC
+	holder = 460002
+}
+345.1.1 = { # Aulus Cornelius Cossus Pontifex from 431 - 420 BC
+	holder = 460003
+}
+356.1.1 = { # Spurius Minucius Pontifex from 420 - 390 BC
+	holder = 460004
+}
+386.1.1 = { # Marcus Foslius Pontifex from 390 - 332 BC
+	holder = 460005
+}
+444.1.1 = { # Publius Cornelius Calussa Pontifex from 332 - 304 BC
+	holder = 460006
+}
+472.1.1 = { # Cornelius Barbatus Pontifex from 304 - 254 BC
+	holder = 460007
+}
+522.1.1 = { # Tiberius Coruncanius Pontifex from 254 - 243 BC
+	holder = 460008
+}
+533.1.1 = { # Lucius Caecilius Metellus Pontifex from 243 - 221 BC
+	holder = 460009
+}
