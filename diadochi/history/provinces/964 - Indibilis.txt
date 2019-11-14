@@ -4,9 +4,14 @@
 title = c_indibilis
 
 # Settlements
-max_settlements = 2
+max_settlements = 4
 b_indibilis_indibilis = tribal
-#b_iltirkesken_indibilis = city
+#b_adeba_indibilis = city
+#b_ildum_indibilis = castle
+#b_etobesa_indibilis = city
+#b_ad_novias_indibilis = city
+#b_lassira_indibilis = castle
+b_sacrum_indibilis = temple
 
 # Misc
 culture = iberian

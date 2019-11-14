@@ -1,0 +1,15 @@
+# 1145 - Tourmogon
+
+# County Title
+title = c_tourmogon
+
+# Settlements
+max_settlements = 1
+b_tourmogon_tourmogon = tribal
+
+# Misc
+culture = phrygian
+religion = phrygian_main
+
+# History
+# Can be filled when things change around the province

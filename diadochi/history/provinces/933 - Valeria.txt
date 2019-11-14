@@ -1,0 +1,21 @@
+# 933 - Valeria
+
+# County Title
+title = c_valeria
+
+# Settlements
+max_settlements = 3
+b_valeria_valeria = tribal
+#b_ad_putea_valeria = city
+#b_iniesta_valeria = city
+#b_molon_valeria = castle
+#b_mina_valeria = castle
+b_ostur_valeria = temple
+#b_almensilla_valeria = castle
+
+# Misc
+culture = celtiberian
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

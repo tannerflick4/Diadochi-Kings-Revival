@@ -1,0 +1,15 @@
+# 1147 - Elbocoris
+
+# County Title
+title = c_elbocoris
+
+# Settlements
+max_settlements = 1
+b_elbocoris_elbocoris = tribal
+
+# Misc
+culture = phrygian
+religion = phrygian_main
+
+# History
+# Can be filled when things change around the province

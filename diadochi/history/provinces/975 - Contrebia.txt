@@ -4,11 +4,14 @@
 title = c_contrebia
 
 # Settlements
-max_settlements = 4
-b_kontrebia_contrebia = tribal
-#b_tamaniu_contrebia = city
-#b_itukoite_contrebia = city
-b_sekaisa_contrebia = temple
+max_settlements = 5
+b_contrebia_contrebia = tribal
+#b_beligio_contrebia = city
+#b_caesaraugusta_contrebia = city
+#b_segontia_contrebia = castle
+#b_castra_aelia_contrebia = castle
+#b_nertobriga_contrebia = city
+b_sermonae_contrebia = temple
 
 # Misc
 culture = celtiberian

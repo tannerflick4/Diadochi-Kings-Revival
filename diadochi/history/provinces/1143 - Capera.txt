@@ -1,0 +1,21 @@
+# 1143 - Capera
+
+# County Title
+title = c_capera
+
+# Settlements
+max_settlements = 3
+b_capera_capera = tribal
+#b_caurium_capera = city
+#b_rusticiana_capera = city
+#b_lama_capera = castle
+#b_burdoga_capera = temple
+#b_iptuci_capera = castle
+#b_acinippo_capera = city
+
+# Misc
+culture = phrygian
+religion = phrygian_main
+
+# History
+# Can be filled when things change around the province

@@ -102,45 +102,16 @@
 # Southern Spain #
 ##################
 
-#b_sacrum_ossonoba
 #b_mitreu_ossonoba
 
-#b_ad_pontem_gadir
-#b_martires_gadir
-#b_melchor_gadir
-#b_caepionis_gadir
-#b_aipora_gadir
-#b_phosphoros_gadir
-#b_ad_portum_gadir
-#b_conobaria_gadir
-#b_saudo_gadir
-#b_lacca_gadir
-
-#b_ostur_osset
-#b_almensilla_osset
 #b_laelia_osset
 
-#b_vama_segida
-#b_serpa_segida
 #b_moura_segida
 
 #b_regina_artigi
-#b_iulipa_artigi
-#b_contosolia_artigi
 #b_metellinum_artigi
 
-#b_albus_portus_carteia
-#b_saguntia_carteia
-
-#b_burdoga_sabora
-#b_iptuci_sabora
-#b_acinippo_sabora
-
-#b_cappa_hispalis
-#b_basilippo_hispalis
-
 #b_detumo_ulia
-#b_ad_aras_ulia
 #b_castra_postumiana_ulia
 #b_ad_novias_ulia
 
@@ -151,3 +122,6 @@
 #b_ilturir_acci
 #b_ebura_acci
 #b_ossigi_acci
+
+#b_carae_contrebia
+#b_segeda_contrebia

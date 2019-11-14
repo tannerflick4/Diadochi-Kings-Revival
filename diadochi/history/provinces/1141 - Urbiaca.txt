@@ -1,0 +1,21 @@
+# 1141 - Urbiaca
+
+# County Title
+title = c_urbiaca
+
+# Settlements
+max_settlements = 2
+b_urbiaca_urbiaca = tribal
+#b_lobeton_urbiaca = castle
+#b_mora_urbiaca = castle
+#b_ad_pontem_urbiaca = city
+#b_martires_urbiaca = temple
+#b_caepionis_urbiaca = castle
+#b_lacca_urbiaca = castle
+
+# Misc
+culture = phrygian
+religion = phrygian_main
+
+# History
+# Can be filled when things change around the province

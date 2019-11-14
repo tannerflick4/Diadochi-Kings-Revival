@@ -1,0 +1,21 @@
+# 1146 - Conimbriga
+
+# County Title
+title = c_conimbriga
+
+# Settlements
+max_settlements = 3
+b_conimbriga_conimbriga = tribal
+#b_collippo_conimbriga = castle
+#b_sellium_conimbriga = city
+#b_magnum_conimbriga = city
+#b_luaron_conimbriga = temple
+#b_arabriga_conimbriga = castle
+#b_ad_aras_conimbriga = castle
+
+# Misc
+culture = phrygian
+religion = phrygian_main
+
+# History
+# Can be filled when things change around the province

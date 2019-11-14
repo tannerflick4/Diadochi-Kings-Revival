@@ -15458,6 +15458,53 @@ k_lusitania = {
 			b_lacipea_tamusia = {
 			}
 		}
+		c_tourmogon = {
+			color={ 0 0 0 }
+			color2={ 255 255 255 }
+			
+			b_tourmogon_tourmogon = {
+			}
+		}
+		c_tongobriga = {
+			color={ 0 0 0 }
+			color2={ 255 255 255 }
+			
+			b_tongobriga_tongobriga = {
+			}
+		}
+		c_capera = {
+			color={ 0 0 0 }
+			color2={ 255 255 255 }
+			
+			b_capera_capera = {
+			}
+			b_caurium_capera = {
+			}
+			b_rusticiana_capera = {
+			}
+			b_lama_capera = {
+			}
+			b_burdoga_capera = {
+			}
+			b_iptuci_capera = {
+			}
+			b_acinippo_capera = {
+			}
+		}
+		c_mantua = {
+			color={ 0 0 0 }
+			color2={ 255 255 255 }
+			
+			b_mantua_mantua = {
+			}
+		}
+		c_malamoneda = {
+			color={ 0 0 0 }
+			color2={ 255 255 255 }
+			
+			b_malamoneda_malamoneda = {
+			}
+		}
 	}
 	d_lusitania = {
 		color={ 170 60 25 }
@@ -15469,11 +15516,17 @@ k_lusitania = {
 
 			b_longobriga_longobriga = {
 			}
-			b_medubriga_longobriga = {
+			b_cobelcorum_longobriga = {
 			}
-			b_caliabriga_longobriga = {
+			b_civitas_aravorum_longobriga = {
 			}
-			b_aravorum_longobriga = {
+			b_meidubriga_longobriga = {
+			}
+			b_callabriga_longobriga = {
+			}
+			b_conobaria_longobriga = {
+			}
+			b_saudo_longobriga = {
 			}
 		}
 		c_egitania = {
@@ -15482,11 +15535,17 @@ k_lusitania = {
 
 			b_egitania_egitania = {
 			}
+			b_vicus_veniensis_egitania = {
+			}
 			b_ocelum_egitania = {
 			}
-			b_veniensis_egitania = {
+			b_centum_celas_egitania = {
 			}
-			b_alpedrinha_egitania = {
+			b_elbocoris_egitania = {
+			}
+			b_iulipa_egitania = {
+			}
+			b_contosolia_egitania = {
 			}
 		}
 		c_collippo = {
@@ -15504,13 +15563,19 @@ k_lusitania = {
 			color={ 55 65 220 }
 			color2={ 255 255 255 }
 
-			b_talabrica_talabriga = {
+			b_talabriga_talabriga = {
 			}
 			b_aeminium_talabriga = {
 			}
+			b_castellum_araocelum_talabriga = {
+			}
+			b_vissaium_talabriga = {
+			}
 			b_langobriga_talabriga = {
 			}
-			b_lamecum_talabriga = {
+			b_cappa_talabriga = {
+			}
+			b_basilippo_talabriga = {
 			}
 		}
 		c_scallabis = {
@@ -15526,6 +15591,32 @@ k_lusitania = {
 			b_cos_scallabis = {
 			}
 		}
+		c_conimbriga = {
+			color={ 0 0 0 }
+			color2={ 255 255 255 }
+			
+			b_conimbriga_conimbriga = {
+			}
+			b_collippo_conimbriga = {
+			}
+			b_sellium_conimbriga = {
+			}
+			b_magnum_conimbriga = {
+			}
+			b_luaron_conimbriga = {
+			}
+			b_arabriga_conimbriga = {
+			}
+			b_ad_aras_conimbriga = {
+			}
+		}
+		c_elbocoris = {
+			color={ 0 0 0 }
+			color2={ 255 255 255 }
+			
+			b_elbocoris_elbocoris = {
+			}
+		}
 	}
 	d_celticia = {
 		color={ 230 75 25 }
@@ -15537,7 +15628,15 @@ k_lusitania = {
 
 			b_olisipo_olisipo = {
 			}
+			b_freiria_olisipo = {
+			}
 			b_ierabriga_olisipo = {
+			}
+			b_scallabis_olisipo = {
+			}
+			b_moron_olisipo = {
+			}
+			b_londobris_olisipo = {
 			}
 			b_eburobrittium_olisipo = {
 			}
@@ -15548,11 +15647,19 @@ k_lusitania = {
 
 			b_ammaia_ammaia = {
 			}
-			b_tubucci_ammaia = {
+			b_vicus_camalocensis_ammaia = {
 			}
 			b_aritium_ammaia = {
 			}
+			b_aritium_praetorium_ammaia = {
+			}
+			b_tubucci_ammaia = {
+			}
 			b_matusarum_ammaia = {
+			}
+			b_vama_ammaia = {
+			}
+			b_serpa_ammaia = {
 			}
 		}
 		c_ebora = {
@@ -15580,11 +15687,17 @@ k_lusitania = {
 
 			b_badua_badua = {
 			}
+			b_augusta_emerita_badua = {
+			}
+			b_evandriana_badua = {
+			}
 			b_plagiaria_badua = {
 			}
-			b_elvas_badua = {
+			b_ad_atrum_flumen_badua = {
 			}
-			b_emerita_badua = {
+			b_ad_septem_aras_badua = {
+			}
+			b_melchor_badua = {
 			}
 		}
 		c_salacia = {
@@ -15972,15 +16085,23 @@ k_hispa = {
 			b_opta_ocules = {
 			}
 		}
-		c_iniesta = {
+		c_valeria = {
 			color={ 25 150 100 }
 			color2={ 255 255 255 }
 
-			b_iniesta_iniesta = {
+			b_valeria_valeria = {
 			}
-			b_putea_iniesta = {
+			b_ad_putea_valeria = {
 			}
-			b_valeria_iniesta = {
+			b_iniesta_valeria = {
+			}
+			b_molon_valeria = {
+			}
+			b_mina_valeria = {
+			}
+			b_ostur_valeria = {
+			}
+			b_almensilla_valeria = {
 			}
 		}
 	}
@@ -16247,18 +16368,36 @@ k_iberia = {
 			
 			b_indibilis_indibilis = {
 			}
-			b_iltirkesken_indibilis = {
+			b_adeba_indibilis = {
+			}
+			b_ildum_indibilis = {
+			}
+			b_etobesa_indibilis = {
+			}
+			b_ad_novias_indibilis = {
+			}
+			b_lassira_indibilis = {
+			}
+			b_sacrum_indibilis = {
 			}
 		}
 		c_saguntum = {
 			color={ 240 110 130 }
 			color2={ 255 255 255 }
 			
-			b_arse_saguntum = {
+			b_saguntum_saguntum = {
 			}
-			b_sucro_saguntum = {
+			b_edeta_saguntum = {
 			}
 			b_valentia_saguntum = {
+			}
+			b_sebelaci_saguntum = {
+			}
+			b_aipora_saguntum = {
+			}
+			b_phosphoros_saguntum = {
+			}
+			b_ad_portum_saguntum = {
 			}
 		}
 		c_kili = {
@@ -16274,13 +16413,57 @@ k_iberia = {
 			color={ 240 160 130 }
 			color2={ 255 255 255 }
 
-			b_kontrebia_contrebia = {
+			b_contrebia_contrebia = {
 			}
-			b_tamaniu_contrebia = {
+			b_beligio_contrebia = {
 			}
-			b_itukoite_contrebia = {
+			b_caesaraugusta_contrebia = {
 			}
-			b_sekaisa_contrebia = {
+			b_segontia_contrebia = {
+			}
+			b_castra_aelia_contrebia = {
+			}
+			b_nertobriga_contrebia = {
+			}
+			b_sermonae_contrebia = {
+			}
+		}
+		c_lassira = {
+			color={ 0 0 0 }
+			color2={ 255 255 255 }
+			
+			b_lassira_lassira = {
+			}
+			b_auci_lassira = {
+			}
+			b_ermila_lassira = {
+			}
+			b_lorna_lassira = {
+			}
+			b_moro_lassira = {
+			}
+			b_albus_portus_lassira = {
+			}
+			b_saguntia_lassira = {
+			}
+		}
+		c_urbiaca = {
+			color={ 0 0 0 }
+			color2={ 255 255 255 }
+			
+			b_urbiaca_urbiaca = {
+			}
+			b_lobeton_urbiaca = {
+			}
+			b_mora_urbiaca = {
+			}
+			b_ad_pontem_urbiaca = {
+			}
+			b_martires_urbiaca = {
+			}
+			b_caepionis_urbiaca = {
+			}
+			b_lacca_urbiaca = {
 			}
 		}
 	}

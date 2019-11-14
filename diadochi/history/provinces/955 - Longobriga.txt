@@ -4,11 +4,14 @@
 title = c_longobriga
 
 # Settlements
-max_settlements = 4
+max_settlements = 3
 b_longobriga_longobriga = tribal
-#b_medubriga_longobriga = castle
-#b_caliabriga_longobriga = city
-#b_aravorum_longobriga = city
+#b_cobelcorum_longobriga = city
+#b_civitas_aravorum_longobriga = city
+#b_meidubriga_longobriga = castle
+#b_callabriga_longobriga = castle
+#b_conobaria_longobriga = castle
+#b_saudo_longobriga = temple
 
 # Misc
 culture = lusitanian

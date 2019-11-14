@@ -4,11 +4,14 @@
 title = c_talabriga
 
 # Settlements
-max_settlements = 4
-b_talabrica_talabriga = tribal
+max_settlements = 3
+b_talabriga_talabriga = tribal
 #b_aeminium_talabriga = city
+#b_castellum_araocelum_talabriga = castle
+#b_vissaium_talabriga = city
 #b_langobriga_talabriga = castle
-#b_lamecum_talabriga = city
+#b_cappa_talabriga = city
+#b_basilippo_talabriga = temple
 
 # Misc
 culture = celtiberian

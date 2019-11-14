@@ -1,0 +1,21 @@
+# 1142 - Lassira
+
+# County Title
+title = c_lassira
+
+# Settlements
+max_settlements = 3
+b_lassira_lassira = tribal
+#b_auci_lassira = city
+#b_ermila_lassira = castle
+#b_lorna_lassira = city
+#b_moro_lassira = temple
+#b_albus_portus_lassira = city
+#b_saguntia_lassira = city
+
+# Misc
+culture = phrygian
+religion = phrygian_main
+
+# History
+# Can be filled when things change around the province
