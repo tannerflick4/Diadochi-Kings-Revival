@@ -158,3 +158,99 @@
 			dynasty = 17029
 		}
 	}
+	c_manlii = {
+		color= { 125 0 0 }
+		color2= { 255 255 255 }
+
+		landless = yes
+		short_name = yes
+		can_be_claimed = no
+		can_be_usurped = no
+
+		culture = latin
+		religion = roman_main
+
+		allow = {
+			dynasty = 17029
+		}
+	}
+	c_popillii = {
+		color= { 125 0 0 }
+		color2= { 255 255 255 }
+
+		landless = yes
+		short_name = yes
+		can_be_claimed = no
+		can_be_usurped = no
+
+		culture = latin
+		religion = roman_main
+
+		allow = {
+			dynasty = 17029
+		}
+	}
+	c_furii = {
+		color= { 125 0 0 }
+		color2= { 255 255 255 }
+
+		landless = yes
+		short_name = yes
+		can_be_claimed = no
+		can_be_usurped = no
+
+		culture = latin
+		religion = roman_main
+
+		allow = {
+			dynasty = 17029
+		}
+	}
+	c_publilii = {
+		color= { 125 0 0 }
+		color2= { 255 255 255 }
+
+		landless = yes
+		short_name = yes
+		can_be_claimed = no
+		can_be_usurped = no
+
+		culture = latin
+		religion = roman_main
+
+		allow = {
+			dynasty = 17029
+		}
+	}
+	c_quinctii = {
+		color= { 125 0 0 }
+		color2= { 255 255 255 }
+
+		landless = yes
+		short_name = yes
+		can_be_claimed = no
+		can_be_usurped = no
+
+		culture = latin
+		religion = roman_main
+
+		allow = {
+			dynasty = 17029
+		}
+	}
+	c_veturii = {
+		color= { 125 0 0 }
+		color2= { 255 255 255 }
+
+		landless = yes
+		short_name = yes
+		can_be_claimed = no
+		can_be_usurped = no
+
+		culture = latin
+		religion = roman_main
+
+		allow = {
+			dynasty = 17029
+		}
+	}

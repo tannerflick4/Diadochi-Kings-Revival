@@ -1,0 +1,20 @@
+# 1126 - Marruvium
+
+# County Title
+title = c_marruvium # for example c_corinth
+
+# Settlements
+max_settlements = 4
+b_marruvium_marruvium = castle
+b_marruvium1_marruvium = temple
+b_marruvium2_marruvium = city
+b_marruvium3_marruvium = city
+#b_marruvium4_marruvium = castle
+#b_marruvium5_marruvium = temple
+#b_marruvium6_marruvium = city
+
+# Misc
+culture = oscan
+religion = roman_main
+
+# History

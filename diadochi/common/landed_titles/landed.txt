@@ -11734,6 +11734,25 @@ k_italy = {
 			b_aufina_sulmo = {
 			}
 		}
+		c_marruvium = {
+			color= { 22 73 18 }
+			color2= { 255 255 255 }
+			
+			b_marruvium_marruvium = {
+			}
+			b_marruvium1_marruvium = {
+			}
+			b_marruvium2_marruvium = {
+			}
+			b_marruvium3_marruvium = {
+			}
+			b_marruvium4_marruvium = {
+			}
+			b_marruvium5_marruvium = {
+			}
+			b_marruvium6_marruvium = {
+			}
+		}
 	}
 	d_umbria = {
 		color= { 125 25 25 }
@@ -11872,6 +11891,25 @@ k_italy = {
 			b_fiorentia_pisae = {
 			}
 			b_pistoria_pisae = {
+			}
+		}
+		c_saena = {
+			color= { 147 98 0 }
+			color2= { 255 255 255 }
+			
+			b_saena_saena = {
+			}
+			b_saena1_saena = {
+			}
+			b_saena2_saena = {
+			}
+			b_saena3_saena = {
+			}
+			b_saena4_saena = {
+			}
+			b_saena5_saena = {
+			}
+			b_saena6_saena = {
 			}
 		}
 	}
@@ -12870,6 +12908,8 @@ k_numidia = {
 		color= { 255 200 100 }
 		color2= { 255 255 255 }
 		
+		capital = 853 # Gunugu
+		
 		c_gunugu = {
 			color= { 245 190 100 }
 			color2= { 255 255 255 }
@@ -12901,6 +12941,8 @@ k_numidia = {
 	d_mazisis = { # Made up from the Mazices tribe
 		color= { 225 200 75 }
 		color2= { 255 255 255 }
+		
+		capital = 847 # Rapidum
 		
 		c_rapidum = {
 			color= { 225 210 85 }
@@ -12963,6 +13005,8 @@ k_mauretania = {
 		color= { 200 150 75 }
 		color2= { 255 255 255 }
 		
+		capital = 856 # Regiae
+		
 		c_regiae = {
 			color= { 200 140 65 }
 			color2= { 255 255 255 }
@@ -13005,6 +13049,8 @@ k_mauretania = {
 		color= { 200 150 25 }
 		color2= { 255 255 255 }
 		
+		capital = 859 # Lemnis
+		
 		c_lemnis = {
 			color= { 200 150 25 }
 			color2= { 255 255 255 }
@@ -13039,6 +13085,8 @@ k_mauretania = {
 		color= { 175 150 50 }
 		color2= { 255 255 255 }
 		
+		capital = 862 # Tingi
+		
 		c_tingi = {
 			color= { 175 150 50 }
 			color2= { 255 255 255 }
@@ -13069,6 +13117,8 @@ k_mauretania = {
 	d_volubisis = {
 		color= { 200 150 50 }
 		color2= { 255 255 255 }
+		
+		capital = 866 # Volubis
 		
 		c_banasa = {
 			color= { 200 160 60 }
@@ -13121,6 +13171,8 @@ k_dacia = {
 		color= { 50 25 0 }
 		color2= { 255 255 255 }
 		
+		capital = 414 # Cotnari
+		
 		c_cotnari = {
 			color= { 60 25 10 }
 			color2= { 255 255 255 }
@@ -13151,6 +13203,8 @@ k_dacia = {
 	d_getae = {
 		color= { 75 25 0 }
 		color2= { 255 255 255 }
+		
+		capital = 401 # Arcidava
 		
 		c_arcidava = {
 			color= { 75 15 10 }
@@ -13223,6 +13277,8 @@ k_dacia = {
 	d_dacia = {
 		color= { 100 50 25 }
 		color2= { 255 255 255 }
+		
+		capital = 408 # Sarmizegetusa
 		
 		c_banita = {
 			color= { 100 60 35 }

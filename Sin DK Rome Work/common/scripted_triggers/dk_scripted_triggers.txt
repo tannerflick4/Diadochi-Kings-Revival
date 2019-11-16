@@ -10,5 +10,11 @@ echoes_family = {
 		has_landed_title = c_plautii
 		has_landed_title = c_claudii
 		has_landed_title = c_junii
+		has_landed_title = c_manlii
+		has_landed_title = c_popillii
+		has_landed_title = c_furii
+		has_landed_title = c_publilii
+		has_landed_title = c_quinctii
+		has_landed_title = c_veturii
 	}
 }

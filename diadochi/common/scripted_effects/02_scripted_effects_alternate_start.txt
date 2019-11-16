@@ -441,7 +441,7 @@ spawn_merchant_republic_effect = {
 				}
 				save_event_target_as = target_coa
 			}
-			 = {
+			create_title = {
 				tier = DUKE
 				landless = yes
 				name = "GENERIC_REPUBLIC_NAME"
