@@ -4,8 +4,14 @@
 title = c_salmantica
 
 # Settlements
-max_settlements = 1
-b_helmantica_salmantica = tribal
+max_settlements = 4
+b_salmantica_salmantica = tribal
+b_sibaris_salmantica = temple
+#b_ocelum_duri_salmantica = city
+#b_arboukale_salmantica = city
+#b_carbellino_salmantica = castle
+#b_mamede_salmantica = castle
+#b_ulaca_salmantica = city
 
 # Misc
 culture = celtiberian

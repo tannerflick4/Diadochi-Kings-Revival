@@ -4,8 +4,14 @@
 title = c_segovia
 
 # Settlements
-max_settlements = 1
+max_settlements = 3
 b_segovia_segovia = tribal
+#b_nivaria_segovia = city
+#b_cauca_segovia = city
+#b_pintia_segovia = city
+#b_brittablo_segovia = castle
+#b_saucedo_segovia = castle
+#b_centro_segovia = castle
 
 # Misc
 culture = celtiberian

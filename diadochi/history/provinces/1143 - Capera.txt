@@ -4,14 +4,14 @@
 title = c_capera
 
 # Settlements
-max_settlements = 3
+max_settlements = 4
 b_capera_capera = tribal
-#b_caurium_capera = city
-#b_rusticiana_capera = city
-#b_lama_capera = castle
-#b_burdoga_capera = temple
-#b_iptuci_capera = castle
-#b_acinippo_capera = city
+#b_lama_capera = city
+#b_caelionicco_capera = castle
+#b_ad_lippos_capera = castle
+#b_sentice_capera = city
+#b_bletisama_capera = city
+#b_avila_capera = castle
 
 # Misc
 culture = phrygian

@@ -4,11 +4,14 @@
 title = c_tamusia
 
 # Settlements
-max_settlements = 4
+max_settlements = 3
 b_tamusia_tamusia = tribal
 #b_turgalium_tamusia = castle
-#b_tongobriga_tamusia = castle
+#b_ad_sorores_tamusia = city
 #b_lacipea_tamusia = castle
+#b_magasca_tamusia = castle
+#b_proserpina_tamusia = city
+#b_veredas_tamusia = temple
 
 # Misc
 culture = lusitanian

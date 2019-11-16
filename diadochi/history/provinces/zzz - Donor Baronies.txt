@@ -105,23 +105,3 @@
 #b_mitreu_ossonoba
 
 #b_laelia_osset
-
-#b_moura_segida
-
-#b_regina_artigi
-#b_metellinum_artigi
-
-#b_detumo_ulia
-#b_castra_postumiana_ulia
-#b_ad_novias_ulia
-
-#b_baebelo_edeba
-#b_ad_duo_solaria_edeba
-#b_ad_turres_edeba
-
-#b_ilturir_acci
-#b_ebura_acci
-#b_ossigi_acci
-
-#b_carae_contrebia
-#b_segeda_contrebia

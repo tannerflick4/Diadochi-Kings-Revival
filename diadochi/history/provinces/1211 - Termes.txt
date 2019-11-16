@@ -4,9 +4,14 @@
 title = c_termes
 
 # Settlements
-max_settlements = 2
+max_settlements = 4
 b_termes_termes = tribal
-#b_sekotias_termes = city
+#b_voluca_termes = city
+#b_uxama_argaela_termes = city
+#b_clunia_sulpicia_termes = city
+#b_segortia_lanka_termes = castle
+#b_confluentia_termes = city
+#b_carduae_termes = temple
 
 # Misc
 culture = celtiberian

@@ -6,8 +6,12 @@ title = c_ocules
 # Settlements
 max_settlements = 3
 b_ocules_ocules = tribal
-#b_segobriga_ocules = city
+#b_ercavica_ocules = city
+#b_reccopolis_ocules = city
 #b_opta_ocules = castle
+#b_segobriga_ocules = castle
+#b_ilturir_ocules = temple
+#b_ebura_ocules = city
 
 # Misc
 culture = celtiberian

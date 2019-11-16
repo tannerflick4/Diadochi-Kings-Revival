@@ -15453,9 +15453,15 @@ k_lusitania = {
 			}
 			b_turgalium_tamusia = {
 			}
-			b_tongobriga_tamusia = {
+			b_ad_sorores_tamusia = {
 			}
 			b_lacipea_tamusia = {
+			}
+			b_magasca_tamusia = {
+			}
+			b_proserpina_tamusia = {
+			}
+			b_veredas_tamusia = {
 			}
 		}
 		c_tourmogon = {
@@ -15464,12 +15470,36 @@ k_lusitania = {
 			
 			b_tourmogon_tourmogon = {
 			}
+			b_caurium_tourmogon = {
+			}
+			b_rusticiana_tourmogon = {
+			}
+			b_mirobriga_tourmogon = {
+			}
+			b_eldana_tourmogon = {
+			}
+			b_polibedenses_tourmogon = {
+			}
+			b_saelices_tourmogon = {
+			}
 		}
 		c_tongobriga = {
 			color={ 0 0 0 }
 			color2={ 255 255 255 }
 			
 			b_tongobriga_tongobriga = {
+			}
+			b_norba_tongobriga = {
+			}
+			b_castra_caecilia_tongobriga = {
+			}
+			b_campo_tongobriga = {
+			}
+			b_catalina_tongobriga = {
+			}
+			b_aldeas_tongobriga = {
+			}
+			b_moura_tongobriga = {
 			}
 		}
 		c_capera = {
@@ -15478,17 +15508,17 @@ k_lusitania = {
 			
 			b_capera_capera = {
 			}
-			b_caurium_capera = {
-			}
-			b_rusticiana_capera = {
-			}
 			b_lama_capera = {
 			}
-			b_burdoga_capera = {
+			b_caelionicco_capera = {
 			}
-			b_iptuci_capera = {
+			b_ad_lippos_capera = {
 			}
-			b_acinippo_capera = {
+			b_sentice_capera = {
+			}
+			b_bletisama_capera = {
+			}
+			b_avila_capera = {
 			}
 		}
 		c_mantua = {
@@ -15497,12 +15527,36 @@ k_lusitania = {
 			
 			b_mantua_mantua = {
 			}
+			b_miaccum_mantua = {
+			}
+			b_ossigi_mantua = {
+			}
+			b_bursao_mantua = {
+			}
+			b_barbariana_mantua = {
+			}
+			b_turiaso_mantua = {
+			}
+			b_augustobriga_mantua = {
+			}
 		}
 		c_malamoneda = {
 			color={ 0 0 0 }
 			color2={ 255 255 255 }
 			
 			b_malamoneda_malamoneda = {
+			}
+			b_linares_malamoneda = {
+			}
+			b_caesarobriga_malamoneda = {
+			}
+			b_augustobriga_malamoneda = {
+			}
+			b_castra_postumiana_malamoneda = {
+			}
+			b_ad_novias_malamoneda = {
+			}
+			b_detumo_malamoneda = {
 			}
 		}
 	}
@@ -15615,6 +15669,18 @@ k_lusitania = {
 			color2={ 255 255 255 }
 			
 			b_elbocoris_elbocoris = {
+			}
+			b_caurium_elbocoris = {
+			}
+			b_rusticiana_elbocoris = {
+			}
+			b_lama_elbocoris = {
+			}
+			b_burdoga_elbocoris = {
+			}
+			b_iptuci_elbocoris = {
+			}
+			b_acinippo_elbocoris = {
 			}
 		}
 	}
@@ -15989,7 +16055,19 @@ k_hispa = {
 			color= { 130 75 160 }
 			color2={ 255 255 255 }
 
-			b_helmantica_salmantica = {
+			b_salmantica_salmantica = {
+			}
+			b_sibaris_salmantica = {
+			}
+			b_ocelum_duri_salmantica = {
+			}
+			b_arboukale_salmantica = {
+			}
+			b_carbellino_salmantica = {
+			}
+			b_mamede_salmantica = {
+			}
+			b_ulaca_salmantica = {
 			}
 		}
 		c_nivaria = {
@@ -16004,6 +16082,18 @@ k_hispa = {
 			color2={ 255 255 255 }
 
 			b_segovia_segovia = {
+			}
+			b_nivaria_segovia = {
+			}
+			b_cauca_segovia = {
+			}
+			b_pintia_segovia = {
+			}
+			b_brittablo_segovia = {
+			}
+			b_saucedo_segovia = {
+			}
+			b_centro_segovia = {
 			}
 		}
 		c_amallobriga = {
@@ -16031,7 +16121,17 @@ k_hispa = {
 
 			b_termes_termes = {
 			}
-			b_sekotias_termes = {
+			b_voluca_termes = {
+			}
+			b_uxama_argaela_termes = {
+			}
+			b_clunia_sulpicia_termes = {
+			}
+			b_segortia_lanka_termes = {
+			}
+			b_confluentia_termes = {
+			}
+			b_carduae_termes = {
 			}
 		}
 		c_bilbilis = {
@@ -16039,6 +16139,18 @@ k_hispa = {
 			color2={ 255 255 255 }
 
 			b_bilbilis_bilbilis = {
+			}
+			b_pagus_gallorum_et_segardinenssium_bilbilis = {
+			}
+			b_aquae_bilbitanorum_bilbilis = {
+			}
+			b_allobo_bilbilis = {
+			}
+			b_aratikos_bilbilis = {
+			}
+			b_tertakom_bilbilis = {
+			}
+			b_caravis_bilbilis = {
 			}
 		}
 		c_klunia = { 
@@ -16056,22 +16168,36 @@ k_hispa = {
 
 			b_numantia_numantia = {
 			}
-			b_okalakom_numantia = {
+			b_ouisontion_numantia = {
 			}
-			b_tabaniu_numantia = {
+			b_calagurris_nasica_iulia_numantia = {
 			}
-			b_bursau_numantia = {
+			b_contrebia_leucada_numantia = {
 			}
-			b_terkakom_numantia = {
+			b_casantum_numantia = {
+			}
+			b_vareia_numantia = {
+			}
+			b_ilurcis_numantia = {
 			}
 		}
 		c_loutia = {
 			color={ 190 55 200 }
 			color2={ 255 255 255 }
 
-			b_lutiakos_loutia = {
+			b_loutia_loutia = {
 			}
-			b_aratikos_loutia = {
+			b_segontia_loutia = {
+			}
+			b_okilis_loutia = {
+			}
+			b_cortona_loutia = {
+			}
+			b_acrobriga_loutia = {
+			}
+			b_carae_loutia = {
+			}
+			b_segeda_loutia = {
 			}
 		}
 		c_ocules = {
@@ -16080,9 +16206,17 @@ k_hispa = {
 
 			b_ocules_ocules = {
 			}
-			b_segobriga_ocules = {
+			b_ercavica_ocules = {
+			}
+			b_reccopolis_ocules = {
 			}
 			b_opta_ocules = {
+			}
+			b_segobriga_ocules = {
+			}
+			b_ilturir_ocules = {
+			}
+			b_ebura_ocules = {
 			}
 		}
 		c_valeria = {
@@ -16126,9 +16260,15 @@ k_hispa = {
 			}
 			b_consabura_toletum = {
 			}
-			b_alce_toletum = {
+			b_alces_toletum = {
 			}
-			b_cumarius_toletum = {
+			b_vicus_cuminarius_toletum = {
+			}
+			b_baebelo_toletum = {
+			}
+			b_ad_duo_solaria_toletum = {
+			}
+			b_ad_turres_toletum = {
 			}
 		}
 		c_arriaca = {
@@ -16137,11 +16277,17 @@ k_hispa = {
 
 			b_arriaca_arriaca = {
 			}
+			b_titulcia_arriaca = {
+			}
+			b_caracca_arriaca = {
+			}
 			b_complutum_arriaca = {
 			}
-			b_brittablo_arriaca = {
-			}
 			b_caesada_arriaca = {
+			}
+			b_regina_arriaca = {
+			}
+			b_metellinum_arriaca = {
 			}
 		}
 	}
@@ -16157,7 +16303,15 @@ k_hispa = {
 			}
 			b_alaba_laminium = {
 			}
-			b_murum_laminium = {
+			b_ad_murum_laminium = {
+			}
+			b_caput_anae_laminium = {
+			}
+			b_mentesa_laminium = {
+			}
+			b_mariana_laminium = {
+			}
+			b_ad_turres_laminium = {
 			}
 		}
 		c_edeba = {
@@ -16844,19 +16998,19 @@ k_turdetania = {
 			color={ 135 250 220 }
 			color2={ 255 255 255 }
 
-			b_mirobirga_mirobriga = {
+			b_mirobriga_mirobriga = {
 			}
-			b_patulus_portus_mirobriga = {
+			b_solia_mirobriga = {
 			}
-			b_sines_mirobriga = {
+			b_sisapo_mirobriga = {
 			}
-			b_troia_mirobriga = {
+			b_lacinimurga_mirobriga = {
 			}
-			b_cuneus_mirobriga = {
+			b_carcuvium_mirobriga = {
 			}
-			b_abicada_mirobriga = {
+			b_oretum_mirobriga = {
 			}
-			b_arregata_mirobriga = {
+			b_belsinon_mirobriga = {
 			}
 		}
 		c_corduba = {

@@ -4,14 +4,14 @@
 title = c_mirobriga
 
 # Settlements
-max_settlements = 3
-b_mirobirga_mirobriga = tribal
-#b_patulus_portus_mirobriga = city
-#b_sines_mirobriga = temple
-#b_troia_mirobriga = city
-#b_cuneus_mirobriga = city
-#b_abicada_mirobriga = castle
-#b_arregata_mirobriga = castle
+max_settlements = 4
+b_mirobriga_mirobriga = tribal
+b_solia_mirobriga = temple
+#b_sisapo_mirobriga = castle
+#b_lacinimurga_mirobriga = city
+#b_carcuvium_mirobriga = castle
+#b_oretum_mirobriga = temple
+#b_belsinon_mirobriga = castle
 
 # Misc
 culture = celtiberian
