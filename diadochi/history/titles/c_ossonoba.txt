@@ -1,4 +1,18 @@
-405.1.1 = { # 371 BC
-	holder = 400101
-	liege = d_counei
+374.1.1 = { # 402 BC
+	holder = 410101 # Attenes of the Cunetes
+}
+414.1.1 = { # 362 BC
+	holder = 410103 # Gargoris of the Cunetes
+}
+432.1.1 = { # 344 BC
+	holder = 410104 # Luxinio of the Cunetes
+}
+437.1.1 = { # 339 BC
+	holder = 410105 # Kaikonbe of the Cunetes
+}
+472.1.1 = { # 304 BC
+	holder = 410106 # Mezukenos of the Cunetes
+}
+496.1.1 = { # 280 BC
+	holder = 410107 # Gargoris of the Cunetes
 }

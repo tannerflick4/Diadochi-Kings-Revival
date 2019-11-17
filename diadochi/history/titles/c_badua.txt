@@ -1,4 +1,19 @@
-405.1.1 = { # 371 BC
-	holder = 420901 # Kasilos
-	liege = d_celtici
+388.1.1 = { # 388 BC
+	holder = 440601 # Elaukos of the Celtici
+    liege = d_celtici
+}
+391.1.1 = { # 385 BC
+	holder = 440602 # Ordumeles of the Celtici
+}
+451.1.1 = { # 325 BC
+	holder = 440603 # Elazunos of the Celtici
+}
+467.1.1 = { # 309 BC
+	holder = 440604 # Leukon of the Celtici
+}
+486.1.1 = { # 290 BC
+	holder = 440605 # Elkua of the Celtici
+}
+508.1.1 = { # 268 BC
+	holder = 440606 # Umarilo of the Celtici
 }

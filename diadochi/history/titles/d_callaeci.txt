@@ -1,8 +1,18 @@
-405.1.1 = { # 371 BC
-	holder = 440001 # Skirtunos
-	
+406.1.1 = { # 370 BC
+    holder = 440001 # Tirtanos of the Callaeci
 }
-465.1.2 = { # 311 BC
-	holder = 440002 # Sanion
-	
+407.1.1 = { # 369 BC
+    holder = 440002 # Lubbo of the Callaeci
+}
+426.1.1 = { # 350 BC
+    holder = 440003 # Buntalos of the Callaeci
+}
+475.1.1 = { # 301 BC
+    holder = 440004 # Likinos of the Callaeci
+}
+489.1.1 = { # 287 BC
+    holder = 440005 # Ultinos of the Callaeci
+}
+515.1.1 = { # 261 BC
+    holder = 440006 # Retukenos of the Callaeci
 }

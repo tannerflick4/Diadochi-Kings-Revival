@@ -14,7 +14,7 @@ b_irni_sabora = temple
 #b_cilpe_sabora = castle
 
 # Misc
-culture = celtiberian
+culture = gallaecian
 religion = celtic_main
 
 # History

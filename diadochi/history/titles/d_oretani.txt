@@ -1,4 +1,21 @@
-405.1.1 = { # 371 BC
-	holder = 420701 # Terkinos
-	
+414.1.1 = { # 362 BC
+	holder = 470001 # Iccius of the Oretani
+}
+424.1.1 = { # 352 BC
+	holder = 470002 # Divico of the Oretani
+}
+468.1.1 = { # 308 BC
+	holder = 470003 # Cotuatus of the Oretani
+}
+492.1.1 = { # 284 BC
+	holder = 470004 # Cotus of the Oretani
+}
+504.1.1 = { # 272 BC
+	holder = 470005 # Vertico of the Oretani
+}
+515.1.1 = { # 261 BC
+	holder = 470006 # Critasirus of the Oretani
+}
+522.1.1 = { # 254 BC
+	holder = 470007 # Galba of the Oretani
 }

@@ -14,7 +14,7 @@ b_artigi_artigi = tribal
 b_perceiana_artigi = temple
 
 # Misc
-culture = celtiberian
+culture = gallaecian
 religion = celtic_main
 
 # History

@@ -1,0 +1,16 @@
+417.1.1 = { # 359 BC
+    holder = 441001 # Thurro of the Nerii
+	liege = d_callaeci
+}
+419.1.1 = { # 357 BC
+    holder = 441002 # Tarbantu of the Nerii
+}
+448.1.1 = { # 328 BC
+    holder = 441003 # Ablon of the Nerii
+}
+460.1.1 = { # 316 BC
+    holder = 441004 # Ikkalos of the Nerii
+}
+470.1.1 = { # 306 BC
+    holder = 441005 # Elazunos of the Nerii
+}

@@ -1,37 +1,69 @@
 # 39001-40000 for Iberian dynasties
 39001 = {
-	name = "Indiketes"
+	name = "Indigetes"
 	culture = iberian
 }
 39002 = {
-	name = "Laketanoi"
+	name = "Lacetani"
 	culture = iberian
 }
 39003 = {
-	name = "Kassetanoi"
+	name = "Cessetani"
 	culture = iberian
 }
 39004 = {
-	name = "Laietanoi"
+	name = "Laietani"
 	culture = iberian
 }
 39005 = {
-	name = "Ilerkauones"
+	name = "Ilercavones"
 	culture = iberian
 }
 39006 = {
-	name = "Edetanoi"
+	name = "Edetani"
 	culture = iberian
 }
 39007 = {
-	name = "Kontestanoi"
+	name = "Contestani"
 	culture = iberian
 }
 39008 = {
-	name = "Bastetanoi"
+	name = "Bastetani"
 	culture = iberian
 }
 39009 = {
-	name = "Ilergetai"
+	name = "Ilergetae"
+	culture = iberian
+}
+39010 = {
+	name = "Andosini"
+	culture = iberian
+}
+39011 = {
+	name = "Ausetani"
+	culture = iberian
+}
+39012 = {
+	name = "Bergistani"
+	culture = iberian
+}
+39013 = {
+	name = "Castellani"
+	culture = iberian
+}
+39014 = {
+	name = "Deitani"
+	culture = iberian
+}
+39015 = {
+	name = "Elysyces"
+	culture = iberian
+}
+39016 = {
+	name = "Sedetani"
+	culture = iberian
+}
+39017 = {
+	name = "Vescetani"
 	culture = iberian
 }

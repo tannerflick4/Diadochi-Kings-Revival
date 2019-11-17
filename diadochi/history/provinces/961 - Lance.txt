@@ -14,7 +14,7 @@ b_vallata_lance = temple
 #b_palantia_lance = castle
 
 # Misc
-culture = celtiberian
+culture = gallaecian
 religion = celtic_main
 
 # History

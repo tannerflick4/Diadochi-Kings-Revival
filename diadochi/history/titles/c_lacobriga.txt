@@ -1,4 +1,12 @@
+404.1.1 = { # 372 BC
+	holder = 440401 # Tirtukue of the Mirobrigenses
+}
 405.1.1 = { # 371 BC
-	holder = 410101
-	liege = d_counei
+	holder = 440402 # Tarbantu of the Mirobrigenses
+}
+462.1.1 = { # 314 BC
+	holder = 440405 # Umarilo of the Mirobrigenses
+}
+488.1.1 = { # 288 BC
+	holder = 440406 # Tueizu of the Mirobrigenses
 }

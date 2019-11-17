@@ -1,0 +1,16 @@
+410.1.1 = { # 366 BC
+    holder = 470101 # Viridomaros of the Germani
+	liege = d_oretani
+}
+445.1.1 = { # 331 BC
+    holder = 470102 # Convictolitavis of the Germani
+}
+449.1.1 = { # 327 BC
+    holder = 470103 # Cotus of the Germani
+}
+474.1.1 = { # 302 BC
+    holder = 470104 # Liscus of the Germani
+}
+475.1.1 = { # 301 BC
+    holder = 470105 # Cingetorix of the Germani
+}

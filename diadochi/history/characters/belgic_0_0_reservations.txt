@@ -1,0 +1,3 @@
+# 470001-480000 for Belgic characters
+    # 470001-470100 for the Oretani dynasty
+    # 470101-470200 for the Germani dynasty

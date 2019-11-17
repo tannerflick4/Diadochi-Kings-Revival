@@ -1,6 +1,18 @@
-405.1.1 = { # 371 BC
-	holder = 420801 # Ultinos
+392.1.1 = { # 384 BC
+	holder = 440102 # Karo of the Turdetani
 }
-466.1.1 = {
-	holder = 0
+395.1.1 = { # 381 BC
+	holder = 440103 # Retukenos of the Turdetani
+}
+403.1.1 = { # 373 BC
+	holder = 440104 # Istolakio of the Turdetani
+}
+454.1.1 = { # 322 BC
+	holder = 440105 # Sigilo of the Turdetani
+}
+462.1.1 = { # 314 BC
+	holder = 440106 # Tureno of the Turdetani
+}
+489.1.1 = { # 287 BC
+	holder = 440107 # Elguismio of the Turdetani
 }

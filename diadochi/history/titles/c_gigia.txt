@@ -1,0 +1,19 @@
+406.1.1 = { # 370 BC
+    holder = 441301 # Magauarikos of the Paesici
+    liege = d_astures
+}
+425.1.1 = { # 351 BC
+    holder = 441302 # Kado of the Paesici
+}
+436.1.1 = { # 340 BC
+    holder = 441303 # Ausa of the Paesici
+}
+451.1.1 = { # 325 BC
+    holder = 441304 # Kontuzos of the Paesici
+}
+465.1.1 = { # 311 BC
+    holder = 441305 # Tirtanos of the Paesici
+}
+513.1.1 = { # 263 BC
+    holder = 441307 # Arkanta of the Paesici
+}

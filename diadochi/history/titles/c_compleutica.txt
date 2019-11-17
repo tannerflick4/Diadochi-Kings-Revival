@@ -1,8 +1,22 @@
 405.1.1 = { # 371 BC
-	holder = 421601 # Thurro
+	holder = 441501 # Leukon of the Zoelae
 	liege = d_astures
 }
-466.1.2 = { # 308 BC
-	holder = 421602 # Belsu
-	liege = d_astures
+423.1.1 = { # 353 BC
+	holder = 441502 # Tiresio of the Zoelae
+}
+445.1.1 = { # 331 BC
+	holder = 441503 # Liteno of the Zoelae
+}
+474.1.1 = { # 302 BC
+	holder = 441504 # Elaukos of the Zoelae
+}
+475.1.1 = { # 301 BC
+	holder = 441505 # Leukon of the Zoelae
+}
+501.1.1 = { # 275 BC
+	holder = 441506 # Tiokenesos of the Zoelae
+}
+509.1.1 = { # 267 BC
+	holder = 441507 # Umarilo of the Zoelae
 }

@@ -10,7 +10,7 @@ b_lacobriga_lacobriga = tribal
 #b_lagos_lacobriga = city
 
 # Misc
-culture = celtiberian
+culture = gallaecian
 religion = celtic_main
 
 # History

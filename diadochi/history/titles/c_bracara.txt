@@ -1,8 +1,13 @@
 405.1.1 = { # 371 BC
-	holder = 440001 # Skirtunos
+	holder = 440801 # Umarbeles of the Bracari
 	liege = d_callaeci
 }
-465.1.2 = { # 311 BC
-	holder = 440002 # Sanion
-	liege = d_callaeci
+408.1.1 = { # 368 BC
+	holder = 440802 # Durato of the Bracari
+}
+450.1.1 = { # 326 BC
+	holder = 440803 # Indibil of the Bracari
+}
+487.1.1 = { # 289 BC
+	holder = 440804 # Segisamo of the Bracari
 }

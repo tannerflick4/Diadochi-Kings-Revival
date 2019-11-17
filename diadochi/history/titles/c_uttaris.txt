@@ -1,0 +1,19 @@
+377.1.1 = { # 399 BC
+    holder = 441401 # Tiresio of the Gigurri
+    liege = d_astures
+}
+411.1.1 = { # 365 BC
+    holder = 441402 # Tiokenesos of the Gigurri
+}
+435.1.1 = { # 341 BC
+    holder = 441403 # Ultinos of the Gigurri
+}
+446.1.1 = { # 330 BC
+    holder = 441404 # Mezukenos of the Gigurri
+}
+485.1.1 = { # 291 BC
+    holder = 441405 # Indortes of the Gigurri
+}
+506.1.1 = { # 270 BC
+    holder = 441406 # Sekilos of the Gigurri
+}

@@ -1,8 +1,19 @@
-405.1.1 = { # 371 BC
-	holder = 440001 # Skirtunos
+386.1.1 = { # 390 BC
+	holder = 441101 # Belsu of the Artabri
 	liege = d_callaeci
 }
-465.1.2 = { # 311 BC
-	holder = 440002 # Sanion
-	liege = d_callaeci
+387.1.1 = { # 389 BC
+	holder = 441102 # Buntalos of the Artabri
+}
+427.1.1 = { # 349 BC
+	holder = 441103 # Suisetarten of the Artabri
+}
+442.1.1 = { # 334 BC
+	holder = 441104 # Tirtanos of the Artabri
+}
+484.1.1 = { # 292 BC
+	holder = 441105 # Skirtunos of the Artabri
+}
+510.1.1 = { # 266 BC
+	holder = 441106 # Likinos of the Artabri
 }

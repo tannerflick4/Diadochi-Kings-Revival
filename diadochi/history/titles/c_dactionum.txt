@@ -1,0 +1,13 @@
+414.1.1 = { # 362 BC
+	holder = 441201 # Bodo of the Coelerni
+	liege = d_callaeci
+}
+431.1.1 = { # 345 BC
+	holder = 441203 # Sekonzos of the Coelerni
+}
+472.1.1 = { # 304 BC
+	holder = 441204 # Magauarikos of the Coelerni
+}
+484.1.1 = { # 292 BC
+	holder = 441205 # Meiduenos of the Coelerni
+}

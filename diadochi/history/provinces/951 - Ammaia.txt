@@ -15,7 +15,7 @@ b_ammaia_ammaia = tribal
 #b_serpa_ammaia = castle
 
 # Misc
-culture = celtiberian
+culture = gallaecian
 religion = celtic_main
 
 # History

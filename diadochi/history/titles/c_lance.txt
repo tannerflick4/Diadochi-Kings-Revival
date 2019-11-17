@@ -1,8 +1,16 @@
-405.1.1 = { # 371 BC
-	holder = 421501 # Tureno
+401.1.1 { # 375 BC
+	holder = 441701 # Mezukenos of the Lancienses
 	liege = d_astures
 }
-466.1.2 = { 
-	holder = 421502 # Sleitiu
-	liege = d_astures
+410.1.1 = { # 366 BC
+	holder = 441702 # Auaro of the Lancienses
+}
+438.1.1 = { # 338 BC
+	holder = 441703 # Elkua of the Lancienses
+}
+473.1.1 = { # 303 BC
+	holder = 441704 # Toutonus of the Lancienses
+}
+475.1.1 = { # 301 BC
+	holder = 441705 # Alukio of the Lancienses
 }

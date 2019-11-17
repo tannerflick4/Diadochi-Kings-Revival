@@ -14,7 +14,7 @@ b_asturica_asturica = tribal
 #b_abiada_asturica = castle
 
 # Misc
-culture = celtiberian
+culture = gallaecian
 religion = celtic_main
 
 # History

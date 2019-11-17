@@ -9,3 +9,11 @@
     name = "Suessetani"
     culture = belgic
 }
+47003 = {
+    name = "Oretani"
+    culture = belgic
+}
+47004 = {
+    name = "Germani"
+    culture = belgic
+}

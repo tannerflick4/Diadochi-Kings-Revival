@@ -1,8 +1,16 @@
-405.1.1 = { # 371 BC
-	holder = 440001 # Skirtunos
+417.1.1 = { # 359 BC
+	holder = 440901 # Indibil of the Grovii
 	liege = d_callaeci
 }
-465.1.2 = { # 311 BC
-	holder = 440002 # Sanion
-	liege = d_callaeci
+418.1.1 = { # 358 BC
+	holder = 440902 # Kakiro of the Grovii
+}
+425.1.1 = { # 351 BC
+	holder = 440903 # Elazunos of the Grovii
+}
+463.1.1 = { # 313 BC
+	holder = 440904 # Koitu of the Grovii
+}
+493.1.1 = { # 283 BC
+	holder = 440905 # Tiresio of the Grovii
 }

@@ -1,12 +1,20 @@
 # 440001-450000 for Gallaecian characters -- Split
-	# 440001-440100 for the Kallaikoi dynasty
-	
-
-
-
-
-
-
-
-
+	# 440001-440100 for the Callaeci dynasty
+	# 440101-440200 for the Turduli dynasty
+	# 440201-440300 for the Turduli Oppidani dynasty
+	# 440301-440400 for the Turduli Veteres dynasty
+	# 440401-440500 for the Mirobrigenses dynasty
+	# 440501-440600 for the Conii dynasty
+	# 440601-440700 for the Celtici dynasty
+	# 440701-440800 for the Celtici (Baetica) dynasty
+	# 440801-440900 for the Bracari dynasty
+	# 440901-441000 for the Grovii dynasty
+	# 441001-441100 for the Nerii dynasty
+	# 441101-441200 for the Artabri dynasty
+	# 441201-441300 for the Coelerni dynasty
+	# 441301-441400 for the Paesici dynasty
+	# 441401-441500 for the Gigurri dynasty
+	# 441501-441600 for the Zoelae dynasty
+	# 441601-441700 for the Susarri dynasty
+	# 441701-441800 for the Lancienses dynasty
 	

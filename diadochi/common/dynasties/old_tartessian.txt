@@ -1,9 +1,9 @@
 # 41001-42000 for Tartessian dynasties
 41001 = {
-	name = "Tartessioi"
+	name = "Tartessii"
 	culture = old_tartessian
 }
 41002 = {
-	name = "Mirobrigenses"
+	name = "Cunetes"
 	culture = old_tartessian
 }

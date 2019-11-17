@@ -1,4 +1,16 @@
-405.1.1 = { # 371 BC
-	holder = 421001 # Ordumeles
+374.1.1 = { # 402 BC
+	holder = 440301 # Ikkalos of the Turduli Veteres
 	liege = d_turduli_vetteres
+}
+390.1.1 = { # 386 BC
+	holder = 440302 # Terkinos of the Turduli Veteres
+}
+433.1.1 = { # 343 BC
+	holder = 440304 # Sigilo of the Turduli Veteres
+}
+455.1.1 = { # 321 BC
+	holder = 440305 # Teitebas of the Turduli Veteres
+}
+492.1.1 = { # 284 BC
+	holder = 440307 # Lubbo of the Turduli Veteres
 }

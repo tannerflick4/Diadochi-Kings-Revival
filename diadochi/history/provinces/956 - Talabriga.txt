@@ -14,7 +14,7 @@ b_talabriga_talabriga = tribal
 #b_basilippo_talabriga = temple
 
 # Misc
-culture = celtiberian
+culture = gallaecian
 religion = celtic_main
 
 # History

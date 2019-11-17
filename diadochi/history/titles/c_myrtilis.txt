@@ -1,4 +1,15 @@
-405.1.1 = { # 371 BC
-	holder = 420901 # Kasilos
-	liege = d_celtici
+407.1.1 = { # 369 BC
+	holder = 440501 # Auaro of the Conii
+}
+410.1.1 = { # 366 BC
+	holder = 440502 # Sleitiu of the Conii
+}
+434.1.1 = { # 342 BC
+	holder = 440503 # Kaiaitos of the Conii
+}
+480.1.1 = { # 296 BC
+	holder = 440504 # Liteno of the Conii
+}
+489.1.1 = { # 287 BC
+	holder = 440505 # Teitebas of the Conii
 }

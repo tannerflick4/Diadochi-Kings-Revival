@@ -14,7 +14,7 @@ b_salacia_salacia = tribal
 #b_serra_salacia = city
 
 # Misc
-culture = celtiberian
+culture = gallaecian
 religion = celtic_main
 
 # History

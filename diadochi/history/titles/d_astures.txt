@@ -1,8 +1,15 @@
-405.1.1 = { # 371 BC
-	holder = 421501 # Tureno
-	
+411.1.1 = { # 365 BC
+	holder = 441601 # Indortes of the Susarri
 }
-466.1.2 = { 
-	holder = 421502 # Sleitiu
-	
+412.1.1 = { # 364 BC
+	holder = 441602 # Babpo of the Susarri
+}
+474.1.1 = { # 302 BC
+	holder = 441604 # Burzu of the Susarri
+}
+503.1.1 = { # 273 BC
+	holder = 441606 # Indibil of the Susarri
+}
+514.1.1 = { # 262 BC
+	holder = 441607 # Sanion of the Susarri
 }
