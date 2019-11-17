@@ -14,8 +14,8 @@ b_uttaris_uttaris = tribal
 #b_laron_uttaris = city
 
 # Misc
-culture = phrygian
-religion = phrygian_main
+culture = gallaecian
+religion = celtic_main
 
 # History
 # Can be filled when things change around the province

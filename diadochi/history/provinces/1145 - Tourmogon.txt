@@ -14,8 +14,8 @@ b_tourmogon_tourmogon = tribal
 b_saelices_tourmogon = temple
 
 # Misc
-culture = phrygian
-religion = phrygian_main
+culture = lusitanian
+religion = lusitanian_main
 
 # History
 # Can be filled when things change around the province

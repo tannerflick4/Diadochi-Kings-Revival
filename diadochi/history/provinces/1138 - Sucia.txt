@@ -14,8 +14,8 @@ b_sucia_sucia = tribal
 #b_carmo_sucia = city
 
 # Misc
-culture = phrygian
-religion = phrygian_main
+culture = iberian
+religion = iberian_main
 
 # History
 # Can be filled when things change around the province

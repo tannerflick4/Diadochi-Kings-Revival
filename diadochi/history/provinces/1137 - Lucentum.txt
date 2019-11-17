@@ -14,8 +14,8 @@ b_althia_lucentum = temple
 b_munda_lucentum = city
 
 # Misc
-culture = phrygian
-religion = phrygian_main
+culture = ionian
+religion = greek_main
 
 # History
 # Can be filled when things change around the province

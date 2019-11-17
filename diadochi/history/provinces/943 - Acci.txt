@@ -14,7 +14,7 @@ b_acci_acci = tribal
 #b_aurgi_acci = castle
 
 # Misc
-culture = turdetanian
+culture = iberian
 religion = iberian_main
 
 # History

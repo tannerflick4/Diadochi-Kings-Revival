@@ -15610,19 +15610,6 @@ k_lusitania = {
 		color={ 165 85 60 }
 		color2={ 255 255 255 }
 		
-		c_lama = {
-			color={ 225 225 75 }
-			color2={ 255 255 255 }
-
-			b_lama_lama = {
-			}
-			b_tourmogon_lama = {
-			}
-			b_caesarobriga_lama = {
-			}
-			b_rusticana_lama = {
-			}
-		}			
 		c_tamusia = {
 			color={ 205 105 15 }
 			color2={ 255 255 255 }
@@ -15780,17 +15767,6 @@ k_lusitania = {
 			b_contosolia_egitania = {
 			}
 		}
-		c_collippo = {
-			color={ 100 100 20 }
-			color2={ 255 255 255 }
-
-			b_collippo_collippo = {
-			}
-			b_conimbriga_collippo = {
-			}
-			b_elbocoris_collippo = {
-			}
-		}
 		c_talabriga = {
 			color={ 55 65 220 }
 			color2={ 255 255 255 }
@@ -15808,19 +15784,6 @@ k_lusitania = {
 			b_cappa_talabriga = {
 			}
 			b_basilippo_talabriga = {
-			}
-		}
-		c_scallabis = {
-			color={ 200 50 90 }
-			color2= {255 255 255 }
-
-			b_scallabis_scallabis = {
-			}
-			b_sellium_scallabis = {
-			}
-			b_londobris_scallabis = {
-			}
-			b_cos_scallabis = {
 			}
 		}
 		c_conimbriga = {
@@ -16146,17 +16109,6 @@ k_gallaecia = {
 		color={ 5 125 10 }
 		color2={ 255 255 255 }
 		
-		c_coana = {
-			color={ 65 100 160 }
-			color2={ 255 255 255 }
-
-			b_coana_coana = {
-			}
-			b_dactionum_coana = {
-			}
-			b_flavionava_coana = {
-			}
-		}
 		c_asturica = {
 			color={ 75 100 25 }
 			color2={ 255 255 255 }
@@ -16376,15 +16328,6 @@ k_hispa = {
 			b_itourissa_oiasso = {
 			}
 		}
-		c_victoriacum = {
-			color={ 102 102 73 }
-			color2={ 255 255 255 }
-			
-			b_victoriacum_victoriacum = {
-			}
-			b_kalakorikos_victoriacum = {
-			}
-		}
 		c_iluro = {
 			color= { 50 190 10 }
 			color2= { 255 255 255 }
@@ -16466,15 +16409,6 @@ k_hispa = {
 			b_portus_victuriae_iuliobrigensium_aracelium = {
 			}
 		}
-		c_saldania = {
-			color={ 20 205 170 }
-			color2={ 255 255 255 }
-			
-			b_saldania_saldania = {
-			}
-			b_morecanodounon_saldania = {
-			}
-		}
 		c_gebala = {
 			color={ 30 200 150 }
 			color2={ 255 255 255 }
@@ -16492,15 +16426,6 @@ k_hispa = {
 			b_arrola_gebala = {
 			}
 			b_ermita_gebala = {
-			}
-		}
-		c_virovesca = {
-			color={ 20 130 135 }
-			color2={ 255 255 255 }
-			
-			b_virovesca_virovesca = { 
-			}
-			b_sekobirikes_virovesca = {
 			}
 		}
 	}
@@ -16525,13 +16450,6 @@ k_hispa = {
 			b_mamede_salmantica = {
 			}
 			b_ulaca_salmantica = {
-			}
-		}
-		c_nivaria = {
-			color={ 125 60 130 }
-			color2={ 255 255 255 }
-
-			b_nivaria_nivaria = {
 			}
 		}
 		c_segovia = {
@@ -16634,15 +16552,6 @@ k_hispa = {
 			b_caravis_bilbilis = {
 			}
 		}
-		c_klunia = { 
-			color={ 120 115 180 }
-			color2={ 255 255 255 }
-
-			b_kolounioku_klunia = {
-			}
-			b_letaisama_klunia = {
-			}
-		}
 		c_numantia = { 
 			color={ 135 145 80 }
 			color2={ 255 255 255 }
@@ -16724,15 +16633,6 @@ k_hispa = {
 		color={ 153 85 170}
 		color2={ 255 255 255 }
 		
-		c_miaccum = {
-			color={ 55 50 100 }
-			color2={ 255 255 255 }
-
-			b_miaccum_miaccum = {
-			}
-			b_mantua_miaccum = {
-			}
-		}
 		c_toletum = {
 			color={ 60 180 30 }
 			color2={ 255 255 255 }
@@ -17162,15 +17062,6 @@ k_iberia = {
 			b_ad_portum_saguntum = {
 			}
 		}
-		c_kili = {
-			color={ 240 160 80 }
-			color2={ 255 255 255 }
-			
-			b_kili_kili = {
-			}
-			b_kelin_kili = {
-			}
-		}
 		c_contrebia = {
 			color={ 240 160 130 }
 			color2={ 255 255 255 }
@@ -17489,19 +17380,6 @@ k_turdetania = {
 			b_arucci_turobriga = {
 			}
 		}
-		c_lastigi = {
-			color={ 195 150 170 }
-			color2={ 255 255 255 }
-
-			b_lastigi_lastigi = {
-			}
-			b_italica_lastigi = {
-			}
-			b_laelia_lastigi = {
-			}
-			b_paisoula_lastigi = {
-			}
-		}
 		c_osset = {
 			color={ 45 200 170 }
 			color2={ 255 255 255 }
@@ -17645,21 +17523,6 @@ k_turdetania = {
 		color={ 45 50 170 }
 		color2={ 255 255 255 }
 
-		c_carissa = {
-			color={ 45 0 220 }
-			color2={ 255 255 255 }
-
-			b_carissa_carissa = {
-			}
-			b_salpensa_carissa = {
-			}
-			b_callet_carissa = {
-			}
-			b_burdoga_carissa = {
-			}
-			b_urgia_carissa = {
-			}
-		}
 		c_hispalis = {
 			color={ 45 0 120 }
 			color2={ 255 255 255 }

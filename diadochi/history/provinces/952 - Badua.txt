@@ -14,8 +14,8 @@ b_badua_badua = tribal
 b_melchor_badua = temple
 
 # Misc
-culture = lusitanian
-religion = lusitanian_main
+culture = celtiberian
+religion = celtic_main
 
 # History
 # Can be filled when things change around the province

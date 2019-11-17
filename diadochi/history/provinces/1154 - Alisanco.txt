@@ -14,8 +14,8 @@ b_tritium_magallum_alisanco = temple
 #b_vindeleia_alisanco = city
 
 # Misc
-culture = phrygian
-religion = phrygian_main
+culture = celtiberian
+religion = celtic_main
 
 # History
 # Can be filled when things change around the province

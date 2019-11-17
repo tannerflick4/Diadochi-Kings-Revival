@@ -14,8 +14,8 @@ b_conimbriga_conimbriga = tribal
 #b_ad_aras_conimbriga = castle
 
 # Misc
-culture = phrygian
-religion = phrygian_main
+culture = celtiberian
+religion = celtic_main
 
 # History
 # Can be filled when things change around the province

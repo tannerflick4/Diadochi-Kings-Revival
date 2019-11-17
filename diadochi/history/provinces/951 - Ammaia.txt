@@ -15,8 +15,8 @@ b_ammaia_ammaia = tribal
 #b_serpa_ammaia = castle
 
 # Misc
-culture = lusitanian
-religion = lusitanian_main
+culture = celtiberian
+religion = celtic_main
 
 # History
 # Can be filled when things change around the province

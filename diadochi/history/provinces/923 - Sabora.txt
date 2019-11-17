@@ -14,8 +14,8 @@ b_irni_sabora = temple
 #b_cilpe_sabora = castle
 
 # Misc
-culture = turdetanian
-religion = iberian_main
+culture = celtiberian
+religion = celtic_main
 
 # History
 # Can be filled when things change around the province

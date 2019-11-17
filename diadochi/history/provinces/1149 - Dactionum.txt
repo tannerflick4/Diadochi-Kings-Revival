@@ -14,8 +14,8 @@ b_dactionum_dactionum = tribal
 #b_aquae_quintinae_dactionum = city
 
 # Misc
-culture = phrygian
-religion = phrygian_main
+culture = gallaecian
+religion = celtic_main
 
 # History
 # Can be filled when things change around the province

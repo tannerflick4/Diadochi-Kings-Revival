@@ -14,8 +14,8 @@ b_tartessos_tartessos = castle
 b_abul_tartessos = temple
 
 # Misc
-culture = phrygian
-religion = phrygian_main
+culture = old_tartessian
+religion = iberian_main
 
 # History
 # Can be filled when things change around the province

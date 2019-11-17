@@ -1,8 +1,0 @@
-405.1.1 = { # 371 BC
-	holder = 440001 # Skirtunos
-	liege = d_callaeci
-}
-465.1.2 = { # 311 BC
-	holder = 440002 # Sanion
-	liege = d_callaeci
-}

@@ -14,8 +14,8 @@ b_elbocoris_elbocoris = tribal
 #b_acinippo_elbocoris = city
 
 # Misc
-culture = phrygian
-religion = phrygian_main
+culture = lusitanian
+religion = lusitanian_main
 
 # History
 # Can be filled when things change around the province

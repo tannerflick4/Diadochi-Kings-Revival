@@ -14,8 +14,8 @@ b_nooulon_nooulon = tribal
 b_camala_brigaecium_nooulon = temple
 
 # Misc
-culture = phrygian
-religion = phrygian_main
+culture = gallaecian
+religion = celtic_main
 
 # History
 # Can be filled when things change around the province

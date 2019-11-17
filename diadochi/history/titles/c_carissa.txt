@@ -1,8 +1,0 @@
-405.1.1 = { # 371 BC
-	holder = 400001 
-	liege = d_turdetani
-}
-466.1.1 = {
-	holder = 0
-	liege = 0
-}

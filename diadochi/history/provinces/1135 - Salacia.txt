@@ -14,8 +14,8 @@ b_salacia_salacia = tribal
 #b_serra_salacia = city
 
 # Misc
-culture = phrygian
-religion = phrygian_main
+culture = celtiberian
+religion = celtic_main
 
 # History
 # Can be filled when things change around the province

@@ -14,8 +14,8 @@ b_contrebia_contrebia = tribal
 b_sermonae_contrebia = temple
 
 # Misc
-culture = celtiberian
-religion = celtic_main
+culture = iberian
+religion = iberian_main
 
 # History
 # Can be filled when things change around the province

@@ -14,8 +14,8 @@ b_sibaris_salmantica = temple
 #b_ulaca_salmantica = city
 
 # Misc
-culture = celtiberian
-religion = celtic_main
+culture = lusitanian
+religion = lusitanian_main
 
 # History
 # Can be filled when things change around the province

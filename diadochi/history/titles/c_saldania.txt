@@ -1,8 +1,0 @@
-405.1.1 = { # 371 BC
-	holder = 421401 # Botilkos
-	liege = d_cantabri
-}
-466.1.2 = { 
-	holder = 421402 # Touto
-	liege = d_cantabri
-}

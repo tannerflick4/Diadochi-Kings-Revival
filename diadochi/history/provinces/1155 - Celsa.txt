@@ -14,8 +14,8 @@ b_celsa_celsa = tribal
 #b_laelia_celsa = city
 
 # Misc
-culture = phrygian
-religion = phrygian_main
+culture = aquitanian
+religion = aquitanian_main
 
 # History
 # Can be filled when things change around the province

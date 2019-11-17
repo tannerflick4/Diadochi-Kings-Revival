@@ -14,8 +14,8 @@ b_victoriacum_gebala = temple
 #b_ermita_gebala = castle
 
 # Misc
-culture = aquitanian
-religion = aquitanian_main
+culture = celtiberian
+religion = celtic_main
 
 # History
 # Can be filled when things change around the province

@@ -14,8 +14,8 @@ b_andelos_andelos = tribal
 b_romana_andelos = temple
 
 # Misc
-culture = phrygian
-religion = phrygian_main
+culture = aquitanian
+religion = aquitanian_main
 
 # History
 # Can be filled when things change around the province

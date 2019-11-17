@@ -14,8 +14,8 @@ b_lassira_lassira = tribal
 #b_saguntia_lassira = city
 
 # Misc
-culture = phrygian
-religion = phrygian_main
+culture = iberian
+religion = iberian_main
 
 # History
 # Can be filled when things change around the province
