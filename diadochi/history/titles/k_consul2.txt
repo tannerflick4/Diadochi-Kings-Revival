@@ -1,4 +1,6 @@
 416.1.1 = { # 360 BC
+	liege = e_rome
+	government = feudal_government
 	holder = 170303 # Marcus Fabius Ambustus
 }
 417.1.1 = { # 359 BC
@@ -50,7 +52,6 @@
 	holder = 171202 # Gaius Marcius Rutilus
 }
 433.1.1 = { # 343 BC
-	liege = e_rome
 	holder = 170901 # Marcus Valerius Corvus
 }
 434.1.1 = { # 342 BC

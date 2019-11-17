@@ -6,6 +6,7 @@ character_event = {
 
 	trigger = {
 		has_landed_title = e_rome
+		has_game_started = yes
 	}
 
 	immediate = {

@@ -11597,34 +11597,11 @@ e_rome = {
 
 	title = "PONTIFEX"
 	short_name = yes
-	
+	primary = yes
+
 	controls_religion = roman_main
 
-	k_consul1 = {
-		color= { 47 32 66 }
-		color2= { 255 255 255 }
-
-		capital = 324 # Roma
-
-		title = "CONSUL"
-		short_name = yes
-
-		culture = latin
-		religion = roman_main
-	}
-
-	k_consul2 = {
-		color= { 47 32 66 }
-		color2= { 255 255 255 }
-
-		capital = 324 # Roma
-
-		title = "CONSUL"
-		short_name = yes
-
-		culture = latin
-		religion = roman_main
-	}
+	dignity = 1000
 
 	k_rome = {
 		color= { 125 0 0 }
@@ -11703,6 +11680,39 @@ e_rome = {
 		}
 	}
 }
+
+k_consul1 = {
+	color= { 47 32 66 }
+	color2= { 255 255 255 }
+
+	capital = 324 # Roma
+
+	title = "CONSUL"
+	short_name = yes
+	primary = yes
+
+	culture = latin
+	religion = roman_main
+
+	dignity = 1000
+}
+
+k_consul2 = {
+	color= { 47 32 66 }
+	color2= { 255 255 255 }
+
+	capital = 324 # Roma
+
+	title = "CONSUL"
+	short_name = yes
+	primary = yes
+
+	culture = latin
+	religion = roman_main
+
+	dignity = 1000
+}
+
 k_italy = {
 	color= { 125 0 0 }
 	color2= { 255 255 255 }
