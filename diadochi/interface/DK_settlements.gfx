@@ -200,4 +200,198 @@ objectTypes = {
 		scale = 1.0f
 		cull_distance = 550.0f
 	}
+	
+	#### Eastern settlement ########################################################
+	
+	EMFXActorType = {
+		name = "byzantinegfx_house_1_1"
+		actorfile = "gfx\models\Settlements\Muslim\Muslim_house_1_01.xac"
+		scale = 0.7f
+		use_animation = no
+	}
+
+	EMFXActorType = {
+		name = "byzantinegfx_house_1_2"
+		actorfile = "gfx\models\Settlements\Muslim\Muslim_house_1_02.xac"
+		scale = 0.7f
+		use_animation = no
+	}
+	
+	
+	EMFXActorType = {
+		name = "byzantinegfx_house_1_3"
+		actorfile = "gfx\models\Settlements\Muslim\Muslim_house_1_03.xac"
+		scale = 0.7f
+		use_animation = no
+	}
+
+	EMFXActorType = {
+		name = "byzantinegfx_house_1_4"
+		actorfile = "gfx\models\Settlements\Muslim\Muslim_house_1_04.xac"
+		scale = 0.7f
+		use_animation = no
+	}
+
+	EMFXActorType = {
+		name = "byzantinegfx_house_2_1"
+		actorfile = "gfx\models\Settlements\Muslim\Muslim_house_2_01.xac"
+		scale = 0.7f
+		use_animation = no
+	}
+
+	EMFXActorType = {
+		name = "byzantinegfx_house_2_2"
+		actorfile = "gfx\models\Settlements\Muslim\Muslim_house_2_02.xac"
+		scale = 0.7f
+		use_animation = no
+	}
+	
+	EMFXActorType = {
+		name = "byzantinegfx_house_2_3"
+		actorfile = "gfx\models\Settlements\Muslim\Muslim_house_2_03.xac"
+		scale = 0.7f
+		use_animation = no
+	}
+
+	EMFXActorType = {
+		name = "byzantinegfx_house_2_4"
+		actorfile = "gfx\models\Settlements\Muslim\Muslim_house_2_04.xac"
+		scale = 0.7f
+		use_animation = no
+	}
+
+	EMFXActorType = {
+		name = "byzantinegfx_house_3_1"
+		actorfile = "gfx\models\Settlements\Muslim\Muslim_house_3_01.xac"
+		scale = 0.7f
+		use_animation = no
+	}
+
+	EMFXActorType = {
+		name = "byzantinegfx_house_3_2"
+		actorfile = "gfx\models\Settlements\Muslim\Muslim_house_3_02.xac"
+		scale = 0.7f
+		use_animation = no
+	}
+	
+	EMFXActorType = {
+		name = "byzantinegfx_house_3_3"
+		actorfile = "gfx\models\Settlements\Muslim\Muslim_house_3_03.xac"
+		scale = 0.7f
+		use_animation = no
+	}
+
+	EMFXActorType = {
+		name = "byzantinegfx_house_3_4"
+		actorfile = "gfx\models\Settlements\Muslim\Muslim_house_3_04.xac"
+		scale = 0.7f
+		use_animation = no
+	}
+
+	EMFXActorType = {
+		name = "byzantinegfx_house_4_1"
+		actorfile = "gfx\models\Settlements\Muslim\Muslim_house_4_01.xac"
+		scale = 0.7f
+		use_animation = no
+	}
+
+	EMFXActorType = {
+		name = "byzantinegfx_house_4_2"
+		actorfile = "gfx\models\Settlements\Muslim\Muslim_house_4_02.xac"
+		scale = 0.7f
+		use_animation = no
+	}
+
+	EMFXActorType = {
+		name = "byzantinegfx_house_4_3"
+		actorfile = "gfx\models\Settlements\Muslim\Muslim_house_4_03.xac"
+		scale = 0.7f
+		use_animation = no
+	}
+
+	EMFXActorType = {
+		name = "byzantinegfx_house_4_4"
+		actorfile = "gfx\models\Settlements\Muslim\Muslim_house_4_04.xac"
+		scale = 0.7f
+		use_animation = no
+	}
+	
+	EMFXActorType = {
+		name = "byzantinegfx_castle_1"
+		actorfile = "gfx\models\Settlements\Muslim\Muslim_Castle_01.xac"
+		scale = 0.7f
+		use_animation = no
+		cull_distance = 550.0f
+	}
+		
+	EMFXActorType = {
+		name = "byzantinegfx_castle_2"
+		actorfile = "gfx\models\Settlements\Muslim\Muslim_Castle_02.xac"
+		scale = 0.7f
+		use_animation = no
+		cull_distance = 550.0f
+	}
+	
+	EMFXActorType = {
+		name = "byzantinegfx_castle_3"
+		actorfile = "gfx\models\Settlements\Muslim\Muslim_Castle_03.xac"
+		scale = 0.7f
+		use_animation = no
+		cull_distance = 550.0f
+	}
+
+	EMFXActorType = {
+		name = "byzantinegfx_temple_1"
+		actorfile = "gfx\models\Settlements\Muslim\Muslim_Church01.xac"
+		scale = 0.7f
+		use_animation = no
+		cull_distance = 550.0f
+	}
+	
+	EMFXActorType = {
+		name = "byzantinegfx_temple_2"
+		actorfile = "gfx\models\Settlements\Muslim\Muslim_Church02.xac"
+		scale = 0.7f
+		use_animation = no
+		cull_distance = 550.0f
+	}
+	
+	EMFXActorType = {
+		name = "byzantinegfx_temple_3"
+		actorfile = "gfx\models\Settlements\Muslim\Muslim_Church03.xac"
+		scale = 0.7f
+		use_animation = no
+		cull_distance = 550.0f
+	}
+
+	EMFXActorType = {
+		name = "byzantinegfx_city_1"
+		actorfile = "gfx\models\Settlements\Muslim\Muslim_City_01.xac"
+		scale = 0.7f
+		use_animation = no
+		cull_distance = 550.0f
+	}
+	
+	EMFXActorType = {
+		name = "byzantinegfx_city_2"
+		actorfile = "gfx\models\Settlements\Muslim\Muslim_City_02.xac"
+		scale = 0.7f
+		use_animation = no
+		cull_distance = 550.0f
+	}
+	
+	EMFXActorType = {
+		name = "byzantinegfx_city_3"
+		actorfile = "gfx\models\Settlements\Muslim\Muslim_City_03.xac"
+		scale = 0.7f
+		use_animation = no
+		cull_distance = 550.0f
+	}
+
+	pdxmesh = {
+		name = "byzantinegfx_tribal_1"
+		file = "gfx\models\Settlements\Tribal\tribal_mainhouse_01.mesh"
+		scale = 1.0f
+		cull_distance = 550.0f
+	}
 }
