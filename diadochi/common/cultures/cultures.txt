@@ -140,6 +140,26 @@ celtic = {
 		from_dynasty_prefix = "of "    		
 		dynasty_title_names = yes
 	}
+	belgic = {
+		graphical_cultures = { gaulgfx easternslavicgfx }
+  
+		color = { 0.2 0.8 0 }
+  
+		male_names = {
+			Acco_Acco Adiatunnus_Adiatunnus Ambiorix_Ambiorix Andecomborius_Andecomborius Bathanatos_Bathanatos Boduognatus_Boduognatus Brennus_Brennus Camulogenus_Camulogenus Catuvolcus_Catuvolcus 
+			Cavarinus_Cavarinus Cavarus_Cavarus Cerethrius_Cerethrius Cingetorix_Cingetorix Commius_Commius Conconnetodumnus_Conconnetodumnus Convictolitavis_Convictolitavis Cotuatus_Cotuatus 
+			Cotus_Cotus Critasirus_Critasirus Diviciacus_Diviciacus Divico_Divico Donnotaurus_Donnotaurus Dumnorix_Dumnorix Eporedix_Eporedix Galba_Galba 
+			Iccius_Iccius Indutiomaros_Indutiomaros Liscus_Liscus Litaviccus_Litaviccus Lucterius_Lucterius Orgetorix_Orgetorix Tasgetius_Tasgetius Teutomatus_Teutomatus 
+			Vercassivellaunus_Vercassivellaunus Vercingetorix_Vercingetorix Vertico_Vertico Viridomaros_Viridomaros Viridovix_Viridovix        
+		}
+		female_names = {
+			Amena_Amena Apirka_Apirka Birkita_Birkita Brietta_Brietta Galena_Galena Genovefa_Genovefa Kyna_Kyna Mavis_Mavis 
+			Treva_Treva Vevila_Vevila        
+		}
+  
+		from_dynasty_prefix = "of "    		
+		dynasty_title_names = yes
+	}
 	celtiberian = {
 		graphical_cultures = { newiberiangfx easternslavicgfx }
   

@@ -45,3 +45,4 @@
 # 44001-45000 for Gallaecian dynasties
 # 45001-46000 for Aquitanian dynasties
 # 46001-47000 for Sicilian dynasties
+# 47001-48000 for Belgic dynasties

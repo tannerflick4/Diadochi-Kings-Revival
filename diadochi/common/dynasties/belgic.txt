@@ -1,0 +1,11 @@
+# 47001-48000 for Belgic dynasties
+
+# Iberia
+47001 = {
+    name = "Berones"
+    culture = belgic
+}
+47002 = {
+    name = "Suessetani"
+    culture = belgic
+}

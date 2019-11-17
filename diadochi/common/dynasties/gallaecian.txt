@@ -1,5 +1,317 @@
 # 44001-45000 for Gallaecian dynasties
 44001 = {
-	name = "Kallaikoi"
+	name = "Callaeci"
+	culture = gallaecian
+}
+44002 = {
+	name = "Iadovi"
+	culture = gallaecian
+}
+44003 = {
+	name = "Aebocosi"
+	culture = gallaecian
+}
+44004 = {
+	name = "Albiones"
+	culture = gallaecian
+}
+44005 = {
+	name = "Amphiloci"
+	culture = gallaecian
+}
+44006 = {
+	name = "Aobrigenses"
+	culture = gallaecian
+}
+44007 = {
+	name = "Arroni"
+	culture = gallaecian
+}
+44008 = {
+	name = "Artabri"
+	culture = gallaecian
+}
+44009 = {
+	name = "Aunonenses"
+	culture = gallaecian
+}
+44010 = {
+	name = "Baedi"
+	culture = gallaecian
+}
+44011 = {
+	name = "Banienses"
+	culture = gallaecian
+}
+44012 = {
+	name = "Biballi"
+	culture = gallaecian
+}
+44013 = {
+	name = "Bracari"
+	culture = gallaecian
+}
+44014 = {
+	name = "Bragantes"
+	culture = gallaecian
+}
+44015 = {
+	name = "Caladuni"
+	culture = gallaecian
+}
+44016 = {
+	name = "Capori"
+	culture = gallaecian
+}
+44017 = {
+	name = "Celtici Praestamarici"
+	culture = gallaecian
+}
+44018 = {
+	name = "Celtici Supertamarici"
+	culture = gallaecian
+}
+44019 = {
+	name = "Cibarci"
+	culture = gallaecian
+}
+44020 = {
+	name = "Cileni"
+	culture = gallaecian
+}
+44021 = {
+	name = "Coelerni"
+	culture = gallaecian
+}
+44022 = {
+	name = "Egi"
+	culture = gallaecian
+}
+44023 = {
+	name = "Egovarri"
+	culture = gallaecian
+}
+44024 = {
+	name = "Equaesi"
+	culture = gallaecian
+}
+44025 = {
+	name = "Grovii"
+	culture = gallaecian
+}
+44026 = {
+	name = "Iadones"
+	culture = gallaecian
+}
+44027 = {
+	name = "Interamici"
+	culture = gallaecian
+}
+44028 = {
+	name = "Lapatianci"
+	culture = gallaecian
+}
+44029 = {
+	name = "Lemavi"
+	culture = gallaecian
+}
+44030 = {
+	name = "Leuni"
+	culture = gallaecian
+}
+44031 = {
+	name = "Limici"
+	culture = gallaecian
+}
+44032 = {
+	name = "Louguei"
+	culture = gallaecian
+}
+44033 = {
+	name = "Luanqui"
+	culture = gallaecian
+}
+44034 = {
+	name = "Naebisoci"
+	culture = gallaecian
+}
+44035 = {
+	name = "Namarii"
+	culture = gallaecian
+}
+44036 = {
+	name = "Namarini"
+	culture = gallaecian
+}
+44037 = {
+	name = "Narbasi"
+	culture = gallaecian
+}
+44038 = {
+	name = "Nemetati"
+	culture = gallaecian
+}
+44039 = {
+	name = "Nerii"
+	culture = gallaecian
+}
+44040 = {
+	name = "Poemani"
+	culture = gallaecian
+}
+44041 = {
+	name = "Quaquerni"
+	culture = gallaecian
+}
+44042 = {
+	name = "Seurbi"
+	culture = gallaecian
+}
+44043 = {
+	name = "Seurri"
+	culture = gallaecian
+}
+44044 = {
+	name = "Tamagani"
+	culture = gallaecian
+}
+44045 = {
+	name = "Turduli"
+	culture = gallaecian
+}
+44046 = {
+	name = "Turodi"
+	culture = gallaecian
+}
+44047 = {
+	name = "Varri"
+	culture = gallaecian
+}
+
+# Asturicans
+44048 = {
+	name = "Amaci"
+	culture = gallaecian
+}
+44049 = {
+	name = "Cabruagenigi"
+	culture = gallaecian
+}
+44050 = {
+	name = "Gigurri"
+	culture = gallaecian
+}
+44051 = {
+	name = "Lancienses"
+	culture = gallaecian
+}
+44052 = {
+	name = "Lougei"
+	culture = gallaecian
+}
+44053 = {
+	name = "Orniaci"
+	culture = gallaecian
+}
+44054 = {
+	name = "Superatii"
+	culture = gallaecian
+}
+44055 = {
+	name = "Susarri"
+	culture = gallaecian
+}
+44056 = {
+	name = "Tiburi"
+	culture = gallaecian
+}
+44057 = {
+	name = "Zoelae"
+	culture = gallaecian
+}
+44058 = {
+	name = "Baedunienses"
+	culture = gallaecian
+}
+44059 = {
+	name = "Brigaentini"
+	culture = gallaecian
+}
+44060 = {
+	name = "Cabarci"
+	culture = gallaecian
+}
+44061 = {
+	name = "Iburri"
+	culture = gallaecian
+}
+44062 = {
+	name = "Luggones"
+	culture = gallaecian
+}
+44063 = {
+	name = "Paenii"
+	culture = gallaecian
+}
+44064 = {
+	name = "Paesici"
+	culture = gallaecian
+}
+44065 = {
+	name = "Saelini"
+	culture = gallaecian
+}
+44066 = {
+	name = "Vinciani"
+	culture = gallaecian
+}
+44067 = {
+	name = "Viromenici"
+	culture = gallaecian
+}
+
+# Baetica
+44068 = {
+	name = "Celtici"
+	culture = gallaecian
+}
+
+# Celtici
+44069 = {
+	name = "Celtici"
+	culture = gallaecian
+}
+44070 = {
+	name = "Cempsi"
+	culture = gallaecian
+}
+44071 = {
+	name = "Conii"
+	culture = gallaecian
+}
+44072 = {
+	name = "Mirobrigenses"
+	culture = gallaecian
+}
+44073 = {
+	name = "Sefes"
+	culture = gallaecian
+}
+
+# Turduli
+44074 = {
+	name = "Turduli"
+	culture = gallaecian
+}
+44075 = {
+	name = "Turduli Bardili"
+	culture = gallaecian
+}
+44076 = {
+	name = "Turduli Oppidani"
+	culture = gallaecian
+}
+44077 = {
+	name = "Turduli Veteres"
 	culture = gallaecian
 }

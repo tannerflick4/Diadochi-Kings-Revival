@@ -1,9 +1,21 @@
 # 40001-41000 for Turdetanian dynasties
 40001 = {
-	name = "Turdetanoi"
+	name = "Turdetani"
 	culture = turdetanian
 }
 40002 = {
-	name = "Kouneoi"
+	name = "Cilbiceni"
+	culture = turdetanian
+}
+40003 = {
+	name = "Elbisini"
+	culture = turdetanian
+}
+40004 = {
+	name = "Etmanei"
+	culture = turdetanian
+}
+40005 = {
+	name = "Gletes"
 	culture = turdetanian
 }

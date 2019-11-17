@@ -1,70 +1,249 @@
 # 42001-43000 for Celtiberian dynasties
+
+# Classic Celtiberians
 42001 = {
-	name = "Olkades"
+	name = "Olcades"
 	culture = celtiberian
 }
 42002 = {
-	name = "Lusiones"
+	name = "Lusones"
 	culture = celtiberian
 }
 42003 = {
-	name = "Belloi"
+	name = "Belli"
 	culture = celtiberian
 }
 42004 = {
-	name = "Tittoi"
+	name = "Titii"
 	culture = celtiberian
 }
 42005 = {
-	name = "Areuakoi"
+	name = "Arevaci"
 	culture = celtiberian
 }
 42006 = {
-	name = "Turboletai"
-	culture = celtiberian
-}
-42007 = {
-	name = "Karpetanoi"
-	culture = celtiberian
-}
-42008 = {
-	name = "Oretanoi"
-	culture = celtiberian
-}
-42009 = {
-	name = "Turduloi"
-	culture = celtiberian
-}
-42010 = {
-	name = "Keltikoi"
+	name = "Turboletae"
 	culture = celtiberian
 }
 42011 = {
-	name = "Lobetanoi"
+	name = "Lobetani"
 	culture = celtiberian
 }
-42012 = {
-	name = "Turduloi Veteres"
+42017 = { 
+	name = "Cratistii"
 	culture = celtiberian
 }
-42013 = {
-	name = "Uakkaioi"
+42018 = { 
+	name = "Pellendones"
 	culture = celtiberian
 }
+42019 = { 
+	name = "Uraci"
+	culture = celtiberian
+}
+
+# Western
 42014 = {
 	name = "Turmodigoi"
 	culture = celtiberian
 }
+
+42020 = { 
+	name = "Autrigones"
+	culture = celtiberian
+}
+42021 = { 
+	name = "Bebryaces"
+	culture = celtiberian
+}
+42022 = { 
+	name = "Caristii"
+	culture = celtiberian
+}
+42023 = { 
+	name = "Mantesani"
+	culture = celtiberian
+}
+42024 = { 
+	name = "Plentauri"
+	culture = celtiberian
+}
+42025 = { 
+	name = "Varduli"
+	culture = celtiberian
+}
+
+# Vaccaei
+42013 = {
+	name = "Vaccaei"
+	culture = celtiberian
+}
+42026 = { 
+	name = "Cauci"
+	culture = celtiberian
+}
+
+# Cantabri
 42015 = {
-	name = "Kantabroi"
+	name = "Cantabri"
 	culture = celtiberian
 }
-42016 = { 
-	name = "Astures"
+42027 = { 
+	name = "Avarigines"
 	culture = celtiberian
 }
-42017 = { 
-	name = "Zoelai"
+42028 = { 
+	name = "Blendii"
 	culture = celtiberian
 }
-	
+42029 = { 
+	name = "Camarici"
+	culture = celtiberian
+}
+42030 = { 
+	name = "Concani"
+	culture = celtiberian
+}
+42031 = { 
+	name = "Coniaci"
+	culture = celtiberian
+}
+42032 = { 
+	name = "Moroecani"
+	culture = celtiberian
+}
+42033 = { 
+	name = "Noegi"
+	culture = celtiberian
+}
+42034 = { 
+	name = "Orenomesci"
+	culture = celtiberian
+}
+42035 = { 
+	name = "Salaeni"
+	culture = celtiberian
+}
+42036 = { 
+	name = "Vadinienses"
+	culture = celtiberian
+}
+42037 = { 
+	name = "Vellici"
+	culture = celtiberian
+}
+
+# Carpetani
+42007 = {
+	name = "Carpetani"
+	culture = celtiberian
+}
+
+42038 = { 
+	name = "Aelariques"
+	culture = celtiberian
+}
+42039 = { 
+	name = "Aeturiques"
+	culture = celtiberian
+}
+42040 = { 
+	name = "Arquioci"
+	culture = celtiberian
+}
+42041 = { 
+	name = "Acualiques"
+	culture = celtiberian
+}
+42042 = { 
+	name = "Bocouriques"
+	culture = celtiberian
+}
+42043 = { 
+	name = "Canbarici"
+	culture = celtiberian
+}
+42044 = { 
+	name = "Contucianci"
+	culture = celtiberian
+}
+42045 = { 
+	name = "Dagencii"
+	culture = celtiberian
+}
+42046 = { 
+	name = "Doviliques"
+	culture = celtiberian
+}
+42047 = { 
+	name = "Duitiques"
+	culture = celtiberian
+}
+42048 = { 
+	name = "Duniques"
+	culture = celtiberian
+}
+42049 = { 
+	name = "Elguismiques"
+	culture = celtiberian
+}
+42050 = { 
+	name = "Langioci"
+	culture = celtiberian
+}
+42051 = { 
+	name = "Longeidoci"
+	culture = celtiberian
+}
+42052 = { 
+	name = "Maganiques"
+	culture = celtiberian
+}
+42053 = { 
+	name = "Malugeniques"
+	culture = celtiberian
+}
+42054 = { 
+	name = "Manuciques"
+	culture = celtiberian
+}
+42055 = { 
+	name = "Maureici"
+	culture = celtiberian
+}
+42056 = { 
+	name = "Mesici"
+	culture = celtiberian
+}
+42057 = { 
+	name = "Metturici"
+	culture = celtiberian
+}
+42058 = { 
+	name = "Moenicci"
+	culture = celtiberian
+}
+42059 = { 
+	name = "Obisodiques"
+	culture = celtiberian
+}
+42060 = { 
+	name = "Pilonicori"
+	culture = celtiberian
+}
+42061 = { 
+	name = "Solici"
+	culture = celtiberian
+}
+42062 = { 
+	name = "Tirtaliques"
+	culture = celtiberian
+}
+42063 = { 
+	name = "Uloques"
+	culture = celtiberian
+}
+42064 = { 
+	name = "Venatioques"
+	culture = celtiberian
+}

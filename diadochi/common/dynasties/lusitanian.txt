@@ -1,4 +1,6 @@
 # 43001-44000 for Lusitanian dynasties
+
+# Lusitanian
 43001 = {
 	name = "Lusitani"
 	culture = celtiberian
@@ -11,7 +13,85 @@
 	name = "Paesuri"
 	culture = celtiberian
 }
+43005 = {
+	name = "Arabrigenses"
+	culture = celtiberian
+}
+43006 = {
+	name = "Aravi"
+	culture = celtiberian
+}
+43007 = {
+	name = "Coelarni"
+	culture = celtiberian
+}
+43008 = {
+	name = "Interamnienses"
+	culture = celtiberian
+}
+43009 = {
+	name = "Lancienses"
+	culture = celtiberian
+}
+43010 = {
+	name = "Lancienses Oppidani"
+	culture = celtiberian
+}
+43011 = {
+	name = "Lancienses Transcudani"
+	culture = celtiberian
+}
+43012 = {
+	name = "Ocelenses Lancienses"
+	culture = celtiberian
+}
+43013 = {
+	name = "Meidubrigenses"
+	culture = celtiberian
+}
+43014 = {
+	name = "Palanti"
+	culture = celtiberian
+}
+43015 = {
+	name = "Tangi"
+	culture = celtiberian
+}
+43016 = {
+	name = "Igaeditani"
+	culture = celtiberian
+}
+43017 = {
+	name = "Tapori"
+	culture = celtiberian
+}
+43018 = {
+	name = "Talures"
+	culture = celtiberian
+}
+43019 = {
+	name = "Veaminicori"
+	culture = celtiberian
+}
+
+# Vettones
 43004 = {
 	name = "Vettones"
+	culture = celtiberian
+}
+43020 = {
+	name = "Bletonesii"
+	culture = celtiberian
+}
+43021 = {
+	name = "Calontienses"
+	culture = celtiberian
+}
+43022 = {
+	name = "Caluri"
+	culture = celtiberian
+}
+43023 = {
+	name = "Coerenses"
 	culture = celtiberian
 }
