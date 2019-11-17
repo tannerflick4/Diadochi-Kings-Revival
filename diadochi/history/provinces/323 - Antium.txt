@@ -4,10 +4,14 @@
 title = c_antium # for example c_corinth
 
 # Settlements
-max_settlements = 3
-b_antium_antium = castle
+max_settlements = 7
+b_antium_antium = city
 b_aphrodisium_antium = temple
 b_lanuvium_antium = city
+b_longula_antium = city
+b_pollusca_antium = city
+b_corioli_antium = city
+b_volsci_antium = city
 
 # Possible baronies: (Always add a # in front of a line with these!)
 #
