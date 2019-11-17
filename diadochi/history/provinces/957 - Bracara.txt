@@ -4,11 +4,14 @@
 title = c_bracara
 
 # Settlements
-max_settlements = 4
+max_settlements = 5
 b_bracara_bracara = tribal
-#b_cale_bracara = city
-b_briteiros_bracara = temple
-#b_arae_flaviae_bracara = city
+#b_limia_bracara = city
+#b_aquae_originae_bracara = castle
+#b_salaniana_bracara = castle
+#b_salacia_bracara = castle
+b_avobriga_bracara = temple
+#b_tongobriga_bracara = castle
 
 # Misc
 culture = gallaecian

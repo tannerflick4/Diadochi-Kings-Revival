@@ -1,0 +1,21 @@
+# 1154 - Alisanco
+
+# County Title
+title = c_alisanco
+
+# Settlements
+max_settlements = 5
+b_alisanco_alisanco = tribal
+b_tritium_magallum_alisanco = temple
+#b_atiliana_alisanco = castle
+#b_libia_alisanco = city
+#b_segesamunculum_alisanco = castle
+#b_antequia_alisanco = castle
+#b_vindeleia_alisanco = city
+
+# Misc
+culture = phrygian
+religion = phrygian_main
+
+# History
+# Can be filled when things change around the province

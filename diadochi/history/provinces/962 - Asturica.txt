@@ -4,12 +4,14 @@
 title = c_asturica
 
 # Settlements
-max_settlements = 5
+max_settlements = 3
 b_asturica_asturica = tribal
-#b_nemetobriga_asturica = city
-#b_cabanca_asturica = city
-#b_petavonium_asturica = castle
-#b_baeduna_asturica = city
+#b_cohors_iv_gallorum_asturica = castle
+#b_argentiolum_asturica = city
+#b_baedunia_asturica = city
+#b_interamnium_flavium_asturica = castle
+#b_berbea_asturica = temple
+#b_abiada_asturica = castle
 
 # Misc
 culture = celtiberian

@@ -98,10 +98,23 @@
 
 #b_aufidena_canusium
 
-##################
-# Southern Spain #
-##################
+#########
+# Spain #
+#########
 
 #b_mitreu_ossonoba
 
-#b_laelia_osset
+#b_arditurri_oiasso
+#b_aierdi_oiasso
+
+#b_victoriacum_gebala
+
+#b_octaviolca_aracelium
+
+#b_aquae_quarquernae_glandimirum
+#b_koiliobriga_glandimirum
+#b_tude_glandimirum
+
+#b_cambre_brigantium
+
+#b_magnetum_bracara

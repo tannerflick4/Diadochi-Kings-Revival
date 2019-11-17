@@ -4,9 +4,14 @@
 title = c_urgellum
 
 # Settlements
-max_settlements = 2
-b_eso_urgellum = tribal
-b_arketurki_urgellum = temple
+max_settlements = 3
+b_urgellum_urgellum = tribal
+#b_setelsis_urgellum = city
+#b_aeso_urgellum = castle
+#b_orgia_urgellum = castle
+#b_ager_urgellum = castle
+#b_ioulia_libika_urgellum = city
+#b_basella_urgellum = temple
 
 # Misc
 culture = iberian

@@ -1,0 +1,21 @@
+# 1153 - Pailontion
+
+# County Title
+title = c_pailontion
+
+# Settlements
+max_settlements = 3
+b_pailontion_pailontion = tribal
+#b_kamarika_pailontion = castle
+#b_lerones_pailontion = castle
+#b_abandames_pailontion = castle
+#b_auca_pailontion = city
+#b_salionka_pailontion = temple
+#b_salces_pailontion = city
+
+# Misc
+culture = phrygian
+religion = phrygian_main
+
+# History
+# Can be filled when things change around the province

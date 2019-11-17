@@ -1,0 +1,21 @@
+# 965 - Dertosa
+
+# County Title
+title = c_dertosa
+
+# Settlements
+max_settlements = 4
+b_dertosa_dertosa = tribal
+#b_tria_capita_dertosa = city
+#b_sub_saltu_dertosa = castle
+#b_oleastrum_dertosa = city
+#b_salauris_dertosa = city
+#b_kissa_dertosa = city
+b_carrova_dertosa = temple
+
+# Misc
+culture = iberian
+religion = iberian_main
+
+# History
+# Can be filled when things change around the province

@@ -4,9 +4,14 @@
 title = c_auso
 
 # Settlements
-max_settlements = 2
+max_settlements = 3
 b_auso_auso = tribal
-#b_iltirkesken_auso = castle
+#b_bonelis_auso = castle
+#b_hereus_auso = temple
+#b_matacans_auso = temple
+#b_caseta_auso = city
+#b_praetorium_auso = castle
+#b_bisbe_auso = city
 
 # Misc
 culture = iberian

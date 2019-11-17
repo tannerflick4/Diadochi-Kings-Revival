@@ -1,0 +1,21 @@
+# 1148 - Caladunum
+
+# County Title
+title = c_caladunum
+
+# Settlements
+max_settlements = 2
+b_caladunum_caladunum = tribal
+#b_aquae_flaviae_caladunum = city
+#b_forum_limicorum_caladunum = city
+#b_vicus_atucausensis_caladunum = castle
+#b_oculis_caladunum = temple
+#b_lamecum_caladunum = castle
+#b_praesidio_caladunum = castle
+
+# Misc
+culture = phrygian
+religion = phrygian_main
+
+# History
+# Can be filled when things change around the province

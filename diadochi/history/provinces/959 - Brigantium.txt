@@ -6,9 +6,12 @@ title = c_brigantium
 # Settlements
 max_settlements = 4
 b_brigantium_brigantium = tribal
-#b_antabron_brigantium = city
-#b_assegonia_brigantium = castle
-#b_iria_flavia_brigantium = city
+#b_cohors_i_celtiberorum_brigantium = castle
+#b_caranicum_brigantium = city
+#b_brevis_brigantium = temple
+#b_phlaouia_lambris_brigantium = city
+#b_trileukoi_brigantium = castle
+b_britaniensis_brigantium = temple
 
 # Misc
 culture = gallaecian

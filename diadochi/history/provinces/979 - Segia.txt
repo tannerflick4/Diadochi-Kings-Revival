@@ -5,8 +5,13 @@ title = c_segia
 
 # Settlements
 max_settlements = 2
-b_sekia_segia = tribal
-b_iaka_segia = temple
+b_segia_segia = tribal
+#b_jaca_segia = city
+#b_ilumberis_segia = city
+#b_calvo_segia = castle
+#b_biclaro_segia = temple
+#b_semproniana_segia = castle
+#b_egara_segia = city
 
 # Misc
 culture = aquitanian

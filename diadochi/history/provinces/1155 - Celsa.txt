@@ -1,0 +1,21 @@
+# 1155 - Celsa
+
+# County Title
+title = c_celsa
+
+# Settlements
+max_settlements = 2
+b_celsa_celsa = tribal
+#b_gallicum_celsa = city
+#b_ebro_celsa = city
+#b_castra_octavianum_celsa = castle
+#b_iluro_celsa = castle
+#b_fornaca_celsa = temple
+#b_laelia_celsa = city
+
+# Misc
+culture = phrygian
+religion = phrygian_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,21 @@
+# 1220 - Turissa
+
+# County Title
+title = c_turissa
+
+# Settlements
+max_settlements = 4
+b_turissa_turissa = tribal
+#b_blandae_turissa = city
+#b_seterrae_turissa = temple
+#b_aquae_voconiae_turissa = castle
+#b_gerunda_turissa = city
+#b_collet_turissa = castle
+#b_lounarion_turissa = castle
+
+# Misc
+culture = iberian
+religion = iberian_main
+
+# History
+# Can be filled when things change around the province

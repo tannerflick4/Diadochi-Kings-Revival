@@ -1,0 +1,21 @@
+# 1156 - Andelos
+
+# County Title
+title = c_andelos
+
+# Settlements
+max_settlements = 4
+b_andelos_andelos = tribal
+#b_ologicus_andelos = city
+#b_cara_andelos = city
+#b_moros_andelos = city
+#b_musas_andelos = castle
+#b_beturri_andelos = castle
+b_romana_andelos = temple
+
+# Misc
+culture = phrygian
+religion = phrygian_main
+
+# History
+# Can be filled when things change around the province

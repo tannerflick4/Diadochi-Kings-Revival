@@ -4,9 +4,14 @@
 title = c_emporion
 
 # Settlements
-max_settlements = 2
+max_settlements = 5
 b_emporion_emporion = city
-b_rhode_emporion = castle
+b_rhoda_emporion = city
+b_cervaria_emporion = castle
+#b_pyrenaei_emporion = castle
+#b_ad_pyrenaeum_emporion = castle
+#b_pompei_tropaea_emporion = castle
+#b_deciana_emporion = city
 
 # Misc
 culture = ionian

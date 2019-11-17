@@ -4,9 +4,14 @@
 title = c_gebala
 
 # Settlements
-max_settlements = 2
+max_settlements = 5
 b_gebala_gebala = tribal
-#b_koueliokos_gebala = castle
+b_victoriacum_gebala = temple
+#b_belegia_gebala = castle
+#b_suessatium_gebala = city
+#b_tullonium_gebala = city
+#b_arrola_gebala = castle
+#b_ermita_gebala = castle
 
 # Misc
 culture = aquitanian

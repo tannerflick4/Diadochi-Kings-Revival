@@ -4,12 +4,14 @@
 title = c_glandimirum
 
 # Settlements
-max_settlements = 4
+max_settlements = 5
 b_glandimirum_glandimirum = tribal
+#b_vicus_spacorum_glandimirum = city
 #b_burbida_glandimirum = castle
-#b_koilobriga_glandimirum = castle
-#b_salientes_glandimirum = city
-
+#b_turoqua_glandimirum = castle
+b_ad_duos_pontes_glandimirum = temple
+#b_aquae_clidae_glandimirum = castle
+#b_turris_augusti_glandimirum = city
 
 # Misc
 culture = gallaecian

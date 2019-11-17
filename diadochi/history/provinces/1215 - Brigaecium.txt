@@ -4,8 +4,14 @@
 title = c_brigaecium
 
 # Settlements
-max_settlements = 1
-b_brigaecium_brigaecium= tribal
+max_settlements = 4
+b_brigaecium_brigaecium = tribal
+#b_viminacium_brigaecium = city
+#b_saldania_brigaecium = castle
+#b_lacobriga_brigaecium = city
+#b_ambisna_brigaecium = city
+#b_avia_brigaecium = temple
+#b_dessobriga_brigaecium = city
 
 # Misc
 culture = celtiberian

@@ -4,9 +4,14 @@
 title = c_tarraco
 
 # Settlements
-max_settlements = 2
+max_settlements = 4
 b_tarraco_tarraco = tribal
-#b_kesse_tarraco = castle
+#b_subur_tarraco = castle
+#b_sigarra_tarraco = castle
+#b_antistiana_tarraco = city
+b_stabulum_novum_tarraco = temple
+#b_palfuriana_tarraco = city
+#b_ad_septimum_decimum_tarraco = castle
 
 # Misc
 culture = iberian

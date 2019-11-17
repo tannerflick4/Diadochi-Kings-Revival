@@ -1,0 +1,21 @@
+# 1157 - Nooulon
+
+# County Title
+title = c_nooulon
+
+# Settlements
+max_settlements = 4
+b_nooulon_nooulon = tribal
+#b_iria_flavia_nooulon = city
+#b_assegonia_nooulon = castle
+#b_artabron_limen_nooulon = city
+#b_nerion_nooulon = city
+#b_castellum_aviliobris_nooulon = castle
+b_camala_brigaecium_nooulon = temple
+
+# Misc
+culture = phrygian
+religion = phrygian_main
+
+# History
+# Can be filled when things change around the province
