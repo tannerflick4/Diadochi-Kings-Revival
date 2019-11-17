@@ -11701,6 +11701,25 @@ k_italy = {
 			b_cales_capua = {
 			}
 		}
+		c_aufidena = {
+			color= { 109 8 13 }
+			color2= { 255 255 255 }
+			
+			b_aufidena_aufidena = {
+			}
+			b_aufidena1_aufidena = {
+			}
+			b_aufidena2_aufidena = {
+			}
+			b_aufidena3_aufidena = {
+			}
+			b_aufidena4_aufidena = {
+			}
+			b_aufidena5_aufidena = {
+			}
+			b_aufidena6_aufidena = {
+			}
+		}
 	}
 	d_samnium = {
 		color= { 125 25 0 }
@@ -11770,6 +11789,25 @@ k_italy = {
 			b_histonium5_histonium = {
 			}
 			b_histonium6_histonium = {
+			}
+		}
+		c_aeclanum = {
+			color= { 191 59 79 }
+			color2= { 255 255 255 }
+			
+			b_aeclanum_aeclanum = {
+			}
+			b_aeclanum1_aeclanum = {
+			}
+			b_aeclanum2_aeclanum = {
+			}
+			b_aeclanum3_aeclanum = {
+			}
+			b_aeclanum4_aeclanum = {
+			}
+			b_aeclanum5_aeclanum = {
+			}
+			b_aeclanum6_aeclanum = {
 			}
 		}
 	}

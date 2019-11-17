@@ -1,0 +1,20 @@
+# 1121 - Aeclanum
+
+# County Title
+title = c_aeclanum
+
+# Settlements
+max_settlements = 4
+b_aeclanum_aeclanum = castle
+b_aeclanum1_aeclanum = temple
+b_aeclanum2_aeclanum = city
+b_aeclanum3_aeclanum = city
+#b_aeclanum4_aeclanum = castle
+#b_aeclanum5_aeclanum = temple
+#b_aeclanum6_aeclanum = city
+
+# Misc
+culture = oscan
+religion = roman_main
+
+# History
