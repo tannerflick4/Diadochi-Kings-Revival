@@ -1,0 +1,20 @@
+# 1124 - Mevaniola
+
+# County Title
+title = c_mevaniola
+
+# Settlements
+max_settlements = 4
+b_mevaniola_mevaniola = tribal
+#b_mevaniola1_mevaniola = city
+#b_mevaniola2_mevaniola = castle
+b_mevaniola3_mevaniola = temple
+#b_mevaniola4_mevaniola = castle
+#b_mevaniola5_mevaniola = city
+#b_mevaniola6_mevaniola = castle
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History

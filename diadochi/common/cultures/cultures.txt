@@ -1,4 +1,6 @@
 thracian_group = {
+	graphical_cultures = { norsegfx }
+	
 	thracian = {
 		graphical_cultures = { illyriangfx easterngfx }
   
@@ -58,6 +60,8 @@ thracian_group = {
 	}
 }
 illyrian_group = {
+	graphical_cultures = { norsegfx }
+	
 	illyrian = {
 		graphical_cultures = { illyriangfx easterngfx }
   
@@ -94,6 +98,8 @@ illyrian_group = {
 	}
 }
 celtic = {
+	graphical_cultures = { norsegfx }
+	
 	ligurian = {
 		graphical_cultures = { newiberiangfx gaulgfx }
   
@@ -179,7 +185,9 @@ celtic = {
 		}
 	}
 }
-levantine_group = { 
+levantine_group = {
+	graphical_cultures = { muslimgfx }
+	
 	punic = {
 		graphical_cultures = { newpoenigfx persiangfx }
   
@@ -336,6 +344,8 @@ levantine_group = {
 	}
 }
 anatolian_group = {
+	graphical_cultures = { muslimgfx }
+	
 	luwian = {
 		graphical_cultures = { anatoliangfx persiangfx }
   
@@ -374,6 +384,8 @@ anatolian_group = {
 	}
 }
 eastern_african = {
+	graphical_cultures = { muslimgfx }
+	
 	egyptian = {
 		graphical_cultures = { newegyptiangfx muslimgfx }
   
@@ -541,6 +553,8 @@ eastern_african = {
 	}
 }
 north_african = {
+	graphical_cultures = { muslimgfx }
+	
 	berber = {
 		graphical_cultures = { arabgfx persiangfx }
 		
@@ -575,6 +589,8 @@ north_african = {
 	}
 }
 caucasian = {
+	graphical_cultures = { muslimgfx }
+	
 	armenian = {
 		graphical_cultures = { armeniangfx persiangfx }
   
@@ -626,6 +642,8 @@ caucasian = {
 	}
 }
 iranian = {
+	graphical_cultures = { muslimgfx }
+	
 	persian = {
 		graphical_cultures = { persiangfx }
   
@@ -650,7 +668,7 @@ iranian = {
 		dynasty_title_names = yes
 	}
 	scythian = {
-		graphical_cultures = { newscythiangfx persiangfx easterngfx }
+		graphical_cultures = { newscythiangfx persiangfx easterngfx mongolgfx }
   
 		color = { 0.9 0.6 0 }
   
@@ -738,7 +756,7 @@ iranian = {
 		dynasty_title_names = yes
 	}
 	sarmatian = {
-		graphical_cultures = { newscythiangfx persiangfx easterngfx }
+		graphical_cultures = { newscythiangfx persiangfx easterngfx mongolgfx }
   
 		color = { 0.8 0.5 0 }
   
@@ -1024,6 +1042,8 @@ far_eastern = {
     }
 }
 indian = { # Indo-Aryan
+	graphical_cultures = { indiangfx }
+	
 	vedic = { # Magadhi
 		graphical_cultures = { indiangfx muslimgfx }
   
@@ -1121,6 +1141,8 @@ indian = { # Indo-Aryan
 	}
 }
 dravidian = {
+	graphical_cultures = { indiangfx }
+	
 	telegu = {
 		graphical_cultures = { southindiangfx muslimgfx }
   
@@ -1183,6 +1205,8 @@ dravidian = {
 	}
 }
 near_eastern = {
+	graphical_cultures = { muslimgfx }
+	
 	elamite = {
 		graphical_cultures = { mesopotamiangfx persiangfx }
 		
@@ -1203,7 +1227,7 @@ near_eastern = {
 	}
 }
 hellenic = {
-	graphical_cultures = { westerngfx }
+	graphical_cultures =  { byzantinegfx }
  
 	aeolian = {
 		graphical_cultures = { greekgfx }
@@ -1492,7 +1516,7 @@ hellenic = {
 	}
 }
 italian = {
-	graphical_cultures = { westerngfx }
+	graphical_cultures =  { byzantinegfx }
  
 	sicilian = {
 		graphical_cultures = { latingfx etruscangfx }
@@ -1605,7 +1629,7 @@ italian = {
 	}
 }
 tyrhenian = {
-	graphical_cultures = { etruscangfx }
+	graphical_cultures =  { byzantinegfx }
  
 	etruscan = {
 		graphical_cultures = { etruscangfx occitangfx }
@@ -1646,10 +1670,10 @@ tyrhenian = {
 	}
 }
 north_italic = {
-	graphical_cultures = { gaulgfx }
+	graphical_cultures = { norsegfx }
  
 	venetic = {
-		graphical_cultures = { illyriangfx occitangfx }
+		graphical_cultures = { illyriangfx occitangfx gaulgfx }
   
 		color = { 0.4 1 0.4 }
 
@@ -1671,6 +1695,7 @@ north_italic = {
 	}
 }
 iberian = {
+	graphical_cultures = { norsegfx }
 	
 	iberian = {
 	graphical_cultures = { newiberiangfx easternslavicgfx }
@@ -1686,6 +1711,7 @@ iberian = {
 	}
 }
 lusitanian = {
+	graphical_cultures = { norsegfx }
 	
 	lusitanian = {
 	graphical_cultures = { newiberiangfx easternslavicgfx }
@@ -1701,6 +1727,7 @@ lusitanian = {
 	}
 }
 tartessian = {
+	graphical_cultures = { norsegfx }
 	
 	turdetanian = {
 	graphical_cultures = { newiberiangfx easternslavicgfx }
@@ -1729,6 +1756,7 @@ tartessian = {
 	}
 }
 aquitanian = {
+	graphical_cultures = { norsegfx }
 	
 	aquitanian = {
 		graphical_cultures = { newiberiangfx easternslavicgfx }

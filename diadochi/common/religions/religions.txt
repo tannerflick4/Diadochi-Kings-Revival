@@ -1,6 +1,6 @@
 egyptian_religion = {
 	has_coa_on_barony_only = yes
-	graphical_culture = westerngfx
+	graphical_culture = mesoamericangfx
 	playable = yes
 	
 	color = { 0.8 0.8 0.6 }
@@ -9,7 +9,7 @@ egyptian_religion = {
 	ai_convert_other_group = 0 # never try to convert
 	
 	kemetic = {
-		graphical_culture = westerngfx
+		graphical_culture = mesoamericangfx
 
 		icon = 10
 		color = { 0.8 0.8 0.6 }
@@ -75,7 +75,7 @@ egyptian_religion = {
 		intermarry = dravidian_main
 	}
 	atenist = {		
-		graphical_culture = westerngfx
+		graphical_culture = mesoamericangfx
 		parent = kemetic
 
 		icon = 11
@@ -141,7 +141,7 @@ egyptian_religion = {
 		intermarry = dravidian_main
 	}
 	greco_kemetic = {
-		graphical_culture = westerngfx
+		graphical_culture = mesoamericangfx
 
 		icon = 12
 		color = { 0.7 0.7 0.6 }
@@ -208,7 +208,7 @@ egyptian_religion = {
 }
 north_african_religion = {
 	has_coa_on_barony_only = yes
-	graphical_culture = westerngfx
+	graphical_culture = muslimgfx
 	playable = yes
 	
 	color = { 0.7 0.5 0 }
@@ -217,7 +217,7 @@ north_african_religion = {
 	ai_convert_other_group = 0 # never try to convert
 	
 	berber_main = {
-		graphical_culture = westerngfx
+		graphical_culture = muslimgfx
 
 		icon = 29
 		color = { 0.7 0.5 0 }
@@ -284,7 +284,7 @@ north_african_religion = {
 }
 illyrian_religion = {
 	has_coa_on_barony_only = yes
-	graphical_culture = westerngfx
+	graphical_culture = norsegfx
 	playable = yes
 
 	color = { 0.9 0.7 0 }
@@ -293,7 +293,7 @@ illyrian_religion = {
 	ai_convert_other_group = 0 # never try to convert
 	
 	illyrian_main = {
-		graphical_culture = westerngfx
+		graphical_culture = norsegfx
 
 		icon = 23
 		color = { 0.9 0.7 0 }
@@ -360,7 +360,7 @@ illyrian_religion = {
 }
 daco_thracian_religion = {
 	has_coa_on_barony_only = yes
-	graphical_culture = westerngfx
+	graphical_culture = norsegfx
 	playable = yes
 	
 	color = { 0.8 0.4 0.1 }
@@ -369,7 +369,7 @@ daco_thracian_religion = {
 	ai_convert_other_group = 0 # never try to convert
 	
 	thracian_main = {
-		graphical_culture = westerngfx
+		graphical_culture = norsegfx
 
 		icon = 24
 		color = { 0.8 0.4 0.1 }
@@ -434,7 +434,7 @@ daco_thracian_religion = {
 		intermarry = dravidian_main
 	}
 	zalmoxism = {
-		graphical_culture = westerngfx
+		graphical_culture = norsegfx
 
 		icon = 25
 		color = { 0.1 0.5 0.8 }
@@ -501,7 +501,7 @@ daco_thracian_religion = {
 }
 celtic_religion = {
 	has_coa_on_barony_only = yes
-	graphical_culture = westerngfx
+	graphical_culture = norsegfx
 	playable = yes
 	
 	color = { 0.2 0.6 0.2 }
@@ -510,7 +510,7 @@ celtic_religion = {
 	ai_convert_other_group = 0 # never try to convert
 	
 	celtic_main = {
-		graphical_culture = westerngfx
+		graphical_culture = norsegfx
 
 		icon = 19
 		color = { 0.2 0.6 0.2 }
@@ -577,7 +577,7 @@ celtic_religion = {
 }
 punic_religion = {
 	has_coa_on_barony_only = yes
-	graphical_culture = westerngfx
+	graphical_culture = muslimgfx
 	playable = yes
 
 	color = { 0.1 0.7 0.1 }
@@ -586,7 +586,7 @@ punic_religion = {
 	ai_convert_other_group = 0 # never try to convert
 	
 	punic_main = {
-		graphical_culture = westerngfx
+		graphical_culture = muslimgfx
 
 		icon = 8
 		color = { 0.1 0.7 0.1 }
@@ -648,7 +648,7 @@ punic_religion = {
 		intermarry = dravidian_main
 	}
 	canaanite_main = {
-		graphical_culture = westerngfx
+		graphical_culture = muslimgfx
 
 		icon = 9
 		color = { 0.1 0.7 0.1 }
@@ -712,7 +712,7 @@ punic_religion = {
 }
 indo_iranian_religion = {
 	has_coa_on_barony_only = yes
-	graphical_culture = westerngfx
+	graphical_culture = muslimgfx
 	playable = yes
 	
 	color = { 0.3 0.6 0.3 }
@@ -721,7 +721,7 @@ indo_iranian_religion = {
 	ai_convert_other_group = 0 # never try to convert
 
 	zoroastrian_main = {
-		graphical_culture = westerngfx
+		graphical_culture = persiangfx
 		icon = 3
 		color = { 0.3 0.6 0.3 }
 		crusade_name = "CRUSADE"
@@ -780,7 +780,7 @@ indo_iranian_religion = {
 		intermarry = dravidian_main
 	}
 	zurvanism = {
-		graphical_culture = westerngfx
+		graphical_culture = mongolgfx
 
 		icon = 4
 		color = { 0 0.8 0 }
@@ -840,7 +840,7 @@ indo_iranian_religion = {
 		intermarry = dravidian_main
 	}
 	scythian_main = {
-		graphical_culture = westerngfx
+		graphical_culture = mongolgfx
 		icon = 5
 		color = { 0.3 0.8 0.3 }
 		crusade_name = "CRUSADE"
@@ -902,67 +902,8 @@ indo_iranian_religion = {
 						
 		intermarry = dravidian_main
 	}
-	hinduism_main = {
-		graphical_culture = westerngfx
-		icon = 6
-		color = { 0.4 0.9 0.0 }
-		crusade_name = "CRUSADE"
-		scripture_name = THE_VEDAS
-		god_names = {
-			GOD_INDRA GOD_AGNI GOD_SOMA GOD_MITRA GOD_USHAS
-		}
-		can_grant_divorce = yes
-		can_call_crusade = no
-		priests_can_marry = yes
-		
-		max_consorts = 3
-		
-		intermarry = kemetic	
-		intermarry = atenist
-		intermarry = greco_kemetic
-		
-		intermarry = berber_main
-		
-		intermarry = illyrian_main
-		
-		intermarry = thracian_main
-		intermarry = zalmoxism
-		
-		intermarry = celtic_main
-		
-		intermarry = punic_main
-		intermarry = canaanite_main	
-		
-		#intermarry = zoroastrian_main
-		#intermarry = zurvanism
-		#intermarry = scythian_main
-		#intermarry = hinduism_main
-		#intermarry = armenian_main	
-		
-		#intermarry = judaism_main	
-		
-		intermarry = jainism_main
-		intermarry = buddhism_main
-		
-		intermarry = georgian_main	
-		
-		intermarry = anatolian_main
-		intermarry = phrygian_main
-		
-		intermarry = marduk_cult	
-		
-		intermarry = arabic_main
-		
-		intermarry = greek_main
-		intermarry = roman_main
-		intermarry = pontic_main
-								
-		#intermarry = etruscan_main	
-						
-		intermarry = dravidian_main
-	}
 	armenian_main = {
-		graphical_culture = westerngfx
+		graphical_culture = muslimgfx
 		icon = 7
 		color = { 0.6 0.0 0.0 }
 		crusade_name = "CRUSADE"
@@ -1023,7 +964,7 @@ indo_iranian_religion = {
 }
 abrahamic_religion = {
 	has_coa_on_barony_only = yes
-	graphical_culture = westerngfx
+	graphical_culture = jewishgfx
 	playable = yes
 	
 	color = { 0.5 0.5 0.0 }
@@ -1032,7 +973,7 @@ abrahamic_religion = {
 	ai_convert_other_group = 0 # never try to convert
 	
 	judaism_main = {
-		graphical_culture = westerngfx
+		graphical_culture = jewishgfx
 		icon = 16
 		color = { 0.5 0.5 0.0 }
 		crusade_name = "CRUSADE"
@@ -1049,7 +990,7 @@ abrahamic_religion = {
 }
 indian_religion = {
 	has_coa_on_barony_only = yes
-	graphical_culture = westerngfx
+	graphical_culture = indiangfx
 	playable = yes
 	
 	color = { 0.9 0.7 0.2 }
@@ -1057,8 +998,67 @@ indian_religion = {
 	ai_convert_same_group = 0 # never try to convert
 	ai_convert_other_group = 0 # never try to convert
 	
+	hinduism_main = {
+		graphical_culture = hindugfx
+		icon = 6
+		color = { 0.4 0.9 0.0 }
+		crusade_name = "CRUSADE"
+		scripture_name = THE_VEDAS
+		god_names = {
+			GOD_INDRA GOD_AGNI GOD_SOMA GOD_MITRA GOD_USHAS
+		}
+		can_grant_divorce = yes
+		can_call_crusade = no
+		priests_can_marry = yes
+		
+		max_consorts = 3
+		
+		intermarry = kemetic	
+		intermarry = atenist
+		intermarry = greco_kemetic
+		
+		intermarry = berber_main
+		
+		intermarry = illyrian_main
+		
+		intermarry = thracian_main
+		intermarry = zalmoxism
+		
+		intermarry = celtic_main
+		
+		intermarry = punic_main
+		intermarry = canaanite_main	
+		
+		#intermarry = zoroastrian_main
+		#intermarry = zurvanism
+		#intermarry = scythian_main
+		#intermarry = hinduism_main
+		#intermarry = armenian_main	
+		
+		#intermarry = judaism_main	
+		
+		intermarry = jainism_main
+		intermarry = buddhism_main
+		
+		intermarry = georgian_main	
+		
+		intermarry = anatolian_main
+		intermarry = phrygian_main
+		
+		intermarry = marduk_cult	
+		
+		intermarry = arabic_main
+		
+		intermarry = greek_main
+		intermarry = roman_main
+		intermarry = pontic_main
+								
+		#intermarry = etruscan_main	
+						
+		intermarry = dravidian_main
+	}
 	jainism_main = {
-		graphical_culture = westerngfx
+		graphical_culture = jaingfx
 		icon = 13
 		color = { 0.9 0.7 0.2 }
 		crusade_name = "CRUSADE"
@@ -1116,7 +1116,7 @@ indian_religion = {
 		intermarry = dravidian_main
 	}
 	buddhism_main = {
-		graphical_culture = westerngfx
+		graphical_culture = buddhistgfx
 		icon = 14
 		color = { 0.8 0.2 0.8 }
 		crusade_name = "CRUSADE"
@@ -1176,7 +1176,7 @@ indian_religion = {
 }
 caucasian_religion = {
 	has_coa_on_barony_only = yes
-	graphical_culture = westerngfx
+	graphical_culture = muslimgfx
 	playable = yes
 	
 	color = { 0.9 0.7 0.6 }
@@ -1185,7 +1185,7 @@ caucasian_religion = {
 	ai_convert_other_group = 0 # never try to convert
 	
 	georgian_main = {
-		graphical_culture = westerngfx
+		graphical_culture = muslimgfx
 		icon = 26
 		color = { 0.9 0.7 0.6 }
 		crusade_name = "CRUSADE"
@@ -1246,7 +1246,7 @@ caucasian_religion = {
 }
 anatolian_religion = {
 	has_coa_on_barony_only = yes
-	graphical_culture = westerngfx
+	graphical_culture = muslimgfx
 	playable = yes
 
 	color = { 0.2 0.7 0.5 }
@@ -1255,7 +1255,7 @@ anatolian_religion = {
 	ai_convert_other_group = 0 # never try to convert
 	
 	anatolian_main = {
-		graphical_culture = westerngfx
+		graphical_culture = muslimgfx
 		icon = 27
 		color = { 0.2 0.7 0.5 }
 		crusade_name = "CRUSADE"
@@ -1314,7 +1314,7 @@ anatolian_religion = {
 		intermarry = dravidian_main
 	}
 	phrygian_main = {
-		graphical_culture = westerngfx
+		graphical_culture = muslimgfx
 		icon = 28
 		color = { 0.2 0.7 0.7 }
 		crusade_name = "CRUSADE"
@@ -1375,7 +1375,7 @@ anatolian_religion = {
 }
 mesopotamian_religion = {
 	has_coa_on_barony_only = yes
-	graphical_culture = westerngfx
+	graphical_culture = muslimgfx
 	playable = yes
 	
 	color = { 0.3 0.5 1.0 }
@@ -1384,7 +1384,7 @@ mesopotamian_religion = {
 	ai_convert_other_group = 0 # never try to convert
 	
 	marduk_cult = { # Mesopotamian
-		graphical_culture = westerngfx
+		graphical_culture = muslimgfx
 		icon = 18
 		color = { 0.3 0.5 1.0 }
 		crusade_name = "CRUSADE"
@@ -1445,7 +1445,7 @@ mesopotamian_religion = {
 }
 arabic_religion = {
 	has_coa_on_barony_only = yes
-	graphical_culture = westerngfx
+	graphical_culture = muslimgfx
 	playable = yes
 	
 	color = { 0.5 0.7 0.2 }
@@ -1454,7 +1454,7 @@ arabic_religion = {
 	ai_convert_other_group = 0 # never try to convert
 	
 	arabic_main = {
-		graphical_culture = westerngfx
+		graphical_culture = muslimgfx
 		icon = 30
 		color = { 0.5 0.7 0.2 }
 		crusade_name = "CRUSADE"
@@ -1524,7 +1524,7 @@ greek_religion = {
 	ai_convert_other_group = 0 # never try to convert
 	
 	greek_main = {
-		graphical_culture = westerngfx
+		graphical_culture = hellenicgfx
 
 		icon = 1
 		color = { 0.2 0.4 0.3 }
@@ -1587,7 +1587,7 @@ greek_religion = {
 		intermarry = dravidian_main
 	}
 	roman_main = {
-		graphical_culture = westerngfx
+		graphical_culture = hellenicgfx
 
 		icon = 2
 		color = { 0.2 0.3 0.6 }
@@ -1649,7 +1649,7 @@ greek_religion = {
 		intermarry = dravidian_main
 	}
 	pontic_main = {
-		graphical_culture = westerngfx
+		graphical_culture = hellenicgfx
 
 		icon = 1
 		color = { 0.1 0.7 0.5 }
@@ -1723,7 +1723,7 @@ italian_religion = {
 	ai_convert_other_group = 0 # never try to convert
 	
 	etruscan_main = {
-		graphical_culture = westerngfx
+		graphical_culture = hellenicgfx
 
 		icon = 17
 		color = { 0.1 0.5 0.8 }
@@ -1743,7 +1743,7 @@ italian_religion = {
 }
 dravidian_religion = {
 	has_coa_on_barony_only = yes
-	graphical_culture = westerngfx
+	graphical_culture = indiangfx
 	playable = yes
 	
 	color = { 0.1 0.5 0.8 }
@@ -1752,7 +1752,7 @@ dravidian_religion = {
 	ai_convert_other_group = 0 # never try to convert
 	
 	dravidian_main = {
-		graphical_culture = westerngfx
+		graphical_culture = hindugfx
 
 		icon = 15
 		color = { 0.1 0.5 0.8 }
@@ -1817,7 +1817,7 @@ dravidian_religion = {
 }
 lusitanian_religion = {
 	has_coa_on_barony_only = yes
-	graphical_culture = westerngfx
+	graphical_culture = norsegfx
 	playable = yes
 	
 	color = { 0.62 0.19 0.06 }
@@ -1826,7 +1826,7 @@ lusitanian_religion = {
 	ai_convert_other_group = 0 # never try to convert
 	
 	lusitanian_main = {
-		graphical_culture = westerngfx
+		graphical_culture = norsegfx
 
 		icon = 20 # TODO: Use the right icon
 		color = { 0.62 0.19 0.06 }
@@ -1893,7 +1893,7 @@ lusitanian_religion = {
 }
 iberian_religion = {
 	has_coa_on_barony_only = yes
-	graphical_culture = westerngfx
+	graphical_culture = norsegfx
 	playable = yes
 		
 	color = { 0.9 0.8 0.9 }
@@ -1902,7 +1902,7 @@ iberian_religion = {
 	ai_convert_other_group = 0 # never try to convert
 	
 	iberian_main = {
-		graphical_culture = westerngfx
+		graphical_culture = norsegfx
 
 		icon = 22 # TODO: Use the right icon
 		color = { 0.9 0.8 0.9 }
@@ -1973,7 +1973,7 @@ iberian_religion = {
 }
 aquitanian_religion = {
 	has_coa_on_barony_only = yes
-	graphical_culture = westerngfx
+	graphical_culture = norsegfx
 	playable = yes
 
 	color = { 0 0.76 0.31 }
@@ -1982,7 +1982,7 @@ aquitanian_religion = {
 	ai_convert_other_group = 0 # never try to convert
 	
 	aquitanian_main = {
-		graphical_culture = westerngfx
+		graphical_culture = norsegfx
 
 		icon = 21 # TODO: Use the right icon
 		color = { 0 0.76 0.31 }

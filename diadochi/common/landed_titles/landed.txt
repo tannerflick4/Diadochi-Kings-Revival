@@ -11753,6 +11753,25 @@ k_italy = {
 			b_marruvium6_marruvium = {
 			}
 		}
+		c_histonium = {
+			color= { 89 107 83 }
+			color2= { 255 255 255 }
+			
+			b_histonium_histonium = {
+			}
+			b_histonium1_histonium = {
+			}
+			b_histonium2_histonium = {
+			}
+			b_histonium3_histonium = {
+			}
+			b_histonium4_histonium = {
+			}
+			b_histonium5_histonium = {
+			}
+			b_histonium6_histonium = {
+			}
+		}
 	}
 	d_umbria = {
 		color= { 125 25 25 }
@@ -12147,6 +12166,25 @@ k_cisalpine_gaul = {
 			b_favrentia_ravenna = {
 			}
 			b_solana_ravenna = {
+			}
+		}
+		c_mevaniola = {
+			color= { 216 80 205 }
+			color2= { 255 255 255 }
+			
+			b_mevaniola_mevaniola = {
+			}
+			b_mevaniola1_mevaniola = {
+			}
+			b_mevaniola2_mevaniola = {
+			}
+			b_mevaniola3_mevaniola = {
+			}
+			b_mevaniola4_mevaniola = {
+			}
+			b_mevaniola5_mevaniola = {
+			}
+			b_mevaniola6_mevaniola = {
 			}
 		}
 	}
