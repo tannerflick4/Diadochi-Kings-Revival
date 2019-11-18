@@ -1,8 +1,12 @@
-405.1.1 = { # 371 BC
-	holder = 450001 # Abisunhar
-	liege = d_vascones
+393.1.1 = { # 383 BC
+	holder = 420701 # Sigilos of the Autrigones
 }
-465.1.2 = { # 311 BC
-	holder = 450002 # Serhuhoris
-	liege = d_vascones
+411.1.1 = { # 365 BC
+	holder = 420702 # Kaiaitos of the Autrigones
+}
+436.1.1 = { # 340 BC
+	holder = 420703 # Sanion of the Autrigones
+}
+456.1.1 = { # 320 BC
+	holder = 420704 # Elaukos of the Autrigones
 }

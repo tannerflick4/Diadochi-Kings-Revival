@@ -1,8 +1,12 @@
-405.1.1 = { # 371 BC
-	holder = 420601 
-	liege = d_carpetani
+409.1.1 = { # 367 BC
+	holder = 421001 # Burzu of the Lobetani
 }
-467.1.1 = {
-	holder = 0
-	liege = 0
+435.1.1 = { # 341 BC
+	holder = 421003 # Tiresio of the Lobetani
+}
+475.1.1 = { # 301 BC
+	holder = 421004 # Lubbo of the Lobetani
+}
+515.1.1 = { # 261 BC
+	holder = 421005 # Liteno of the Lobetani
 }

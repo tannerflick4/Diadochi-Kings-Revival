@@ -1,7 +1,18 @@
-405.1.1 = { # 371 BC
-	holder = 420001 # Eskutino
-	
+396.1.1 = { # 380 BC
+	holder = 420001 # Akuios of the Olcades
 }
-465.1.2 = { # 311 BC
-	holder = 420002 # Builbos
+399.1.1 = { # 377 BC
+	holder = 420002 # Umarilo of the Olcades
+}
+445.1.1 = { # 331 BC
+	holder = 420003 # Karo of the Olcades
+}
+456.1.1 = { # 320 BC
+	holder = 420004 # Kaukirino of the Olcades
+}
+475.1.1 = { # 301 BC
+	holder = 420005 # Ausa of the Olcades
+}
+486.1.1 = { # 290 BC
+	holder = 420006 # Tureno of the Olcades
 }

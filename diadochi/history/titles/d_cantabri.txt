@@ -1,8 +1,12 @@
-405.1.1 = { # 371 BC
-	holder = 421401 # Botilkos
-	
+407.1.1 = { # 369 BC
+	holder = 421401 # Retukenos of the Cantabri
 }
-466.1.2 = { 
-	holder = 421402 # Touto
-	
+422.1.1 = { # 354 BC
+	holder = 421402 # Tarbantu of the Cantabri
+}
+424.1.1 = { # 352 BC
+	holder = 421403 # Buntalos of the Cantabri
+}
+471.1.1 = { # 305 BC
+	holder = 421404 # Skirtunos of the Cantabri
 }

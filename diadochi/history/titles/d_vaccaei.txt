@@ -1,7 +1,12 @@
-405.1.1 = { # 371 BC
-	holder = 421201 # Tirtanos
-	liege = d_vaccaei
+406.1.1 = { # 370 BC
+	holder = 421201 # Tureno of the Vaccaei
 }
-466.1.1 = {
-	holder = 0
+419.1.1 = { # 357 BC
+	holder = 421202 # Luxinio of the Vaccaei
+}
+446.1.1 = { # 330 BC
+	holder = 421204 # Alukio of the Vaccaei
+}
+484.1.1 = { # 292 BC
+	holder = 421206 # Elazunos of the Vaccaei
 }

@@ -1,7 +1,15 @@
-405.1.1 = { # 371 BC
-	holder = 420601 # Elazunos
-	
+403.1.1 = { # 373 BC
+	holder = 420601 # Kado of the Carpetani
 }
-467.1.1 = {
-	holder = 0
+428.1.1 = { # 348 BC
+	holder = 420602 # Sekonzos of the Carpetani
+}
+440.1.1 = { # 336 BC
+	holder = 420603 # Luxinio of the Carpetani
+}
+456.1.1 = { # 320 BC
+	holder = 420604 # Luxinio of the Carpetani
+}
+483.1.1 = { # 293 BC
+	holder = 420605 # Arkanta of the Carpetani
 }

@@ -1,8 +1,13 @@
-405.1.1 = { # 371 BC
-	holder = 420001 # Eskutino
-	liege = d_olcades
+396.1.1 = { # 380 BC
+	holder = 420301 # Letondon of the Titii
+	liege = d_titti
 }
-465.1.2 = { # 311 BC
-	holder = 420002 # Builbos
-	liege = d_olcades
+410.1.1 = { # 366 BC
+	holder = 420302 # Pirreso of the Titii
+}
+425.1.1 = { # 351 BC
+	holder = 420303 # Tueizu of the Titii
+}
+461.1.1 = { # 315 BC
+	holder = 420304 # Arkanta of the Titii
 }

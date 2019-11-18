@@ -1,8 +1,19 @@
-405.1.1 = { # 371 BC
-	holder = 420301 # Retogenes
-	liege = d_titti
+416.1.1 = { # 360 BC
+	holder = 420201 # Aualos of the Belli
+	liege = d_belli
 }
-467.1.2 = { # 308 BC
-	holder = 420302 # Suisetarten
-	liege = d_titti
+423.1.1 = { # 353 BC
+	holder = 420202 # Burzu of the Belli
+}
+454.1.1 = { # 322 BC
+	holder = 420204 # Botilkos of the Belli
+}
+458.1.1 = { # 318 BC
+	holder = 420205 # Umarbeles of the Belli
+}
+482.1.1 = { # 294 BC
+	holder = 420206 # Umarilo of the Belli
+}
+495.1.1 = { # 281 BC
+	holder = 420207 # Istolakio of the Belli
 }

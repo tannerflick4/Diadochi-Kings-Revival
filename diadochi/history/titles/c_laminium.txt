@@ -1,8 +1,19 @@
-405.1.1 = { # 371 BC
-	holder = 420601 # Elazunos
-	liege = d_carpetani
+399.1.1 = { # 377 BC
+	holder = 420801 # Umarbeles of the Mantesani
+	liege = d_oretani
 }
-467.1.1 = {
-	holder = 0
-	liege = 0
+405.1.1 = { # 371 BC
+	holder = 420802 # Ablon of the Mantesani
+}
+453.1.1 = { # 323 BC
+	holder = 420803 # Karbelos of the Mantesani
+}
+466.1.1 = { # 310 BC
+	holder = 420804 # Retukenos of the Mantesani
+}
+490.1.1 = { # 286 BC
+	holder = 420805 # Lesson of the Mantesani
+}
+514.1.1 = { # 262 BC
+	holder = 420806 # Letontu of the Mantesani
 }

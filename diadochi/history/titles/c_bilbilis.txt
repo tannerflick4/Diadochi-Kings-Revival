@@ -1,8 +1,12 @@
-405.1.1 = { # 371 BC
-	holder = 420301 # Retogenes
-	liege = d_titti
+385.1.1 = { # 391 BC
+	holder = 420101 # Hilerno of the Lusones
 }
-467.1.2 = { # 308 BC
-	holder = 420302 # Suisetarten
-	liege = d_titti
+406.1.1 = { # 370 BC
+	holder = 420101 # Likinos of the Lusones
+}
+440.1.1 = { # 336 BC
+	holder = 420101 # Sekonzos of the Lusones
+}
+494.1.1 = { # 282 BC
+	holder = 420101 # Tureno of the Lusones
 }
