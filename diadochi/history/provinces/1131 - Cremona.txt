@@ -1,0 +1,20 @@
+# 1131 - Cremona
+
+# County Title
+title = c_cremona
+
+# Settlements
+max_settlements = 3
+b_cremona_cremona = tribal
+#b_cremona1_cremona = castle
+#b_cremona2_cremona = city
+#b_cremona3_cremona = castle
+#b_cremona4_cremona = castle
+#b_cremona5_cremona = city
+#b_cremona6_cremona = castle
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History

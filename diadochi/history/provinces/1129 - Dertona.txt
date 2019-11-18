@@ -1,0 +1,20 @@
+# 1132 - Mutina
+
+# County Title
+title = c_dertona
+
+# Settlements
+max_settlements = 4
+b_dertona_dertona = tribal
+#b_dertona1_dertona = city
+#b_dertona2_dertona = castle
+#b_dertona3_dertona = city
+#b_dertona4_dertona = castle
+#b_dertona5_dertona = castle
+#b_dertona6_dertona = city
+
+# Misc
+culture = ligurian
+religion = celtic_main
+
+# History
