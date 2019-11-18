@@ -5681,6 +5681,8 @@ k_magna_graecia = {
 		culture_group = hellenic
 	}
 	
+	capital = 317 # Tarentum
+	
 	d_sicani = {
 		color= { 75 200 175 }
 		color2= { 255 255 255 }
@@ -14549,6 +14551,8 @@ k_gallia = {
 k_aquitania = {
 	color={ 225 255 0 }
 	color2={ 255 255 255 }
+	
+	capital = 1181 # Boii
 
 	d_garumna = {
 		color={ 225 255 0 }
@@ -15657,6 +15661,8 @@ k_oasis = {
 	color = { 255 150 0 }
 	color2={ 255 255 255 }
 	
+	capital = 155 # Hibis
+	
 	d_hibis = {
 		color= { 255 150 0 }
 		color2= { 255 255 255 }
@@ -15714,6 +15720,8 @@ k_oasis = {
 		color={ 255 175 0 }
 		color2={ 255 255 255 }
 		
+		capital = 880 # Ammon
+		
 		c_ammon = {
 			color={ 245 175 10 }
 			color2={ 255 255 255 }
@@ -15741,6 +15749,8 @@ k_oasis = {
 		color={ 255 150 25 }
 		color2={ 255 255 255 }
 		
+		capital = 879 # Augila
+		
 		c_augila = {
 			color={ 255 150 25 }
 			color2={ 255 255 255 }
@@ -15765,6 +15775,8 @@ k_oasis = {
 		color2={ 255 255 255 }
 		
 		egyptian = Djesdjes
+		
+		capital = 882 # Oasis Parva
 		
 		c_oasis_parva = {
 			color={ 255 150 50 }
@@ -15795,6 +15807,8 @@ k_oasis = {
 		color={ 255 125 25 }
 		color2={ 255 255 255 }
 		
+		capital = 910 # Koufra
+		
 		c_tazerbo = {
 			color={ 245 115 25 }
 			color2={ 255 255 255 }
@@ -15816,10 +15830,14 @@ k_oasis = {
 k_lusitania = {
 	color={ 170 60 25 }
 	color2={ 255 255 255 }
+	
+	capital = 955 # Longobriga
 
 	d_vettonia = {
 		color={ 165 85 60 }
 		color2={ 255 255 255 }
+		
+		capital = 1202 # Tamusia
 		
 		c_tamusia = {
 			color={ 205 105 15 }
@@ -15940,6 +15958,8 @@ k_lusitania = {
 		color={ 170 60 25 }
 		color2={ 255 255 255 }
 		
+		capital = 955 # Longobriga
+		
 		c_longobriga = {
 			color={ 135 150 40 }
 			color2={ 255 255 255 }
@@ -16039,6 +16059,8 @@ k_lusitania = {
 	d_celticia = {
 		color={ 230 75 25 }
 		color2={ 255 255 255 }
+		
+		capital = 949 # Olisipo
 
 		c_olisipo = {
 			color={ 220 240 90 }
@@ -16141,6 +16163,8 @@ k_lusitania = {
 	d_cuneus = {
 		color={ 255 165 70 }
 		color2={ 255 255 255 }
+		
+		capital = 946 # Lacobriga
 
 		c_lacobriga = {			
 			color={ 155 165 70 }
@@ -16197,9 +16221,13 @@ k_gallaecia = {
 	color={ 40 160 45 }
 	color2={ 255 255 255 }
 	
+	capital = 959 # Brigantium
+	
 	d_callaecia = {
 		color={ 65 200 75 }
 		color2={ 255 255 255 }
+		
+		capital = 959 # Brigantium
 		
 		c_brigantium = {
 			color={ 40 100 40 }
@@ -16319,6 +16347,8 @@ k_gallaecia = {
 	d_asturia = {
 		color={ 5 125 10 }
 		color2={ 255 255 255 }
+		
+		capital = 962 # Asturica
 		
 		c_asturica = {
 			color={ 75 100 25 }
@@ -16497,9 +16527,13 @@ k_hispa = {
 	color={ 51 102 0 }
 	color2={ 255 255 255 }
 	
+	capital = 1201 # Toletum
+	
 	d_vasconia = {
 		color ={ 0 102 124 }
 		color2 = { 255 255 255 }
+		
+		capital = 979 # Segia
 
 		c_segia = {
 			color={ 0 153 124 }
@@ -16562,6 +16596,8 @@ k_hispa = {
 	d_cantabria = {
 		color={ 0 51 124 }
 		color2={ 255 255 255 }
+		
+		capital = 1215 # Brigaecium
 
 		c_brigaecium = {
 			color={ 10 200 160 }
@@ -16643,6 +16679,8 @@ k_hispa = {
 	d_vaccaea = {
 		color={ 204 136 221 }
 		color2={ 255 255 255 }
+		
+		capital = 1208 # Salmantica
 
 		c_salmantica = {
 			color= { 130 75 160 }
@@ -16724,6 +16762,8 @@ k_hispa = {
 	d_celtiberia = {
 		color={ 153 136 221 }
 		color2={ 255 255 255 }
+		
+		capital = 1211 # Termes
 
 		c_termes = {
 			color={ 170 105 20 }
@@ -16844,6 +16884,8 @@ k_hispa = {
 		color={ 153 85 170}
 		color2={ 255 255 255 }
 		
+		capital = 1201 # Toletum
+		
 		c_toletum = {
 			color={ 60 180 30 }
 			color2={ 255 255 255 }
@@ -16886,6 +16928,8 @@ k_hispa = {
 	d_oretania = {
 		color={ 60 160 140 }
 		color2={ 255 255 255 }
+		
+		capital = 931 # Laminium
 		
 		c_laminium = {
 			color={ 60 100 130 }
@@ -16987,10 +17031,14 @@ k_hispa = {
 k_iberia = {
 	color={ 153 51 0 }
 	color2={ 255 255 255 }
+	
+	capital = 939 # Carthago Nova
 
 	d_sicoria = {		
 		color={ 185 95 65 }
 		color2={ 255 255 255 }
+		
+		capital = 974 # Osca
 
 		c_osca = {
 			color={ 134 95 65 }
@@ -17072,6 +17120,8 @@ k_iberia = {
 	d_cessetania = {
 		color={ 235 95 45 }
 		color2={ 255 255 255 }
+		
+		capital = 971 # Ilerda
 
 		c_ilerda = {
 			color={ 184 95 45 }
@@ -17134,6 +17184,8 @@ k_iberia = {
 	d_laetania = {
 		color={ 160 80 45 }
 		color2={ 255 255 255 }
+		
+		capital = 970 # Auso
 
 		c_auso = {
 			color={ 109 80 45 }
@@ -17234,6 +17286,8 @@ k_iberia = {
 	d_edetania = {
 		color={ 240 160 130 }
 		color2={ 255 255 255 }
+		
+		capital = 964 # Indibilis
 
 		c_indibilis = {
 			color={ 190 160 130 }
@@ -17334,6 +17388,8 @@ k_iberia = {
 	d_contestania = {
 		color={ 185 75 0 }
 		color2={ 255 255 255 }
+		
+		capital = 936 # Hemeroskopion
 
 		c_hemeroskopion = {
 			color={ 135 75 0 }
@@ -17415,6 +17471,8 @@ k_iberia = {
 	d_bastetania = {
 		color={ 135 20 5 }
 		color2={ 255 255 255 }
+		
+		capital = 939 # Carthago Nova
 
 		c_carthago_nova = {
 			color={ 85 20 5 }
@@ -17515,6 +17573,8 @@ k_iberia = {
 	d_baliares = {
 		color={ 200 170 65 }
 		color2={ 255 255 255 }
+		
+		capital = 1222 # Cromiussa
 
 		c_ebusos = {
 			color={ 250 170 65 }
@@ -17548,10 +17608,14 @@ k_iberia = {
 k_turdetania = {
 	color={ 51 153 204 }
 	color2={ 255 255 255 }
+	
+	capital = 918 # Hispalis
 
 	d_tartessos = {
 		color={ 45 150 170 }
 		color2={ 255 255 255 }
+		
+		capital = 1133 # Tartessos
 
 		c_praesidium = {
 			color={ 95 150 170 }
@@ -17633,6 +17697,8 @@ k_turdetania = {
 	d_turdulia = {
 		color={ 45 250 170 }
 		color2={ 255 255 255 }
+		
+		capital = 913 # Segida
 
 		c_segida = {
 			color={ 45 250 120 }
@@ -17733,6 +17799,8 @@ k_turdetania = {
 	d_turdetania = {
 		color={ 45 50 170 }
 		color2={ 255 255 255 }
+		
+		capital = 918 # Hispalis
 
 		c_hispalis = {
 			color={ 45 0 120 }
@@ -17814,6 +17882,8 @@ k_turdetania = {
 	d_bastulia = {
 		color={ 100 70 255 }
 		color2={ 255 255 255 }
+		
+		capital = 920 # Gadir
 
 		c_gadir = {
 			color={ 150 70 255 }
