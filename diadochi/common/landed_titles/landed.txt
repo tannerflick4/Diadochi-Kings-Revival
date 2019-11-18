@@ -12258,6 +12258,25 @@ k_cisalpine_gaul = {
 			b_cremona6_cremona = {
 			}
 		}
+		c_bergomum = {
+			color= { 186 59 162 }
+			color2= { 255 255 255 }
+			
+			b_bergomum_bergomum = {
+			}
+			b_bergomum1_bergomum = {
+			}
+			b_bergomum2_bergomum = {
+			}
+			b_bergomum3_bergomum = {
+			}
+			b_bergomum4_bergomum = {
+			}
+			b_bergomum5_bergomum = {
+			}
+			b_bergomum6_bergomum = {
+			}
+		}
 	}
 	d_gallia_cispadana = {
 		color= { 100 200 75 }
@@ -12453,6 +12472,44 @@ k_cisalpine_gaul = {
 			b_pedena_pola = {
 			}
 			b_lauriana_pola = {
+			}
+		}
+		c_opilergum = {
+			color= { 71 16 32 }
+			color2= { 255 255 255 }
+			
+			b_opilergum_opilergum = {
+			}
+			b_opilergum1_opilergum = {
+			}
+			b_opilergum2_opilergum = {
+			}
+			b_opilergum3_opilergum = {
+			}
+			b_opilergum4_opilergum = {
+			}
+			b_opilergum5_opilergum = {
+			}
+			b_opilergum6_opilergum = {
+			}
+		}
+		c_aquileia = {
+			color= { 59 42 71 }
+			color2= { 255 255 255 }
+			
+			b_aquileia_aquileia = {
+			}
+			b_aquileia1_aquileia = {
+			}
+			b_aquileia2_aquileia = {
+			}
+			b_aquileia3_aquileia = {
+			}
+			b_aquileia4_aquileia = {
+			}
+			b_aquileia5_aquileia = {
+			}
+			b_aquileia6_aquileia = {
 			}
 		}
 	}
@@ -14807,6 +14864,8 @@ k_arabia = {
 		color={ 200 175 125 }
 		color2={ 255 255 255 }
 		
+		capital = 451 # Anagrana
+		
 		c_macoraba = {
 			color={ 200 185 115 }
 			color2={ 255 255 255 }
@@ -14842,6 +14901,8 @@ k_arabia = {
 	d_himyar = {
 		color={ 200 175 75 }
 		color2={ 255 255 255 }
+		
+		capital = 453 # Akila
 		
 		c_akme = {
 			color={ 200 165 65 }
@@ -14893,6 +14954,8 @@ k_arabia = {
 	d_qataban = {
 		color={ 200 150 100 }
 		color2={ 255 255 255 }
+		
+		capital = 457 # Tamna
 		
 		c_adane = {
 			color={ 190 140 100 }
@@ -14984,6 +15047,8 @@ k_arabia = {
 		color={ 175 125 75 }
 		color2={ 255 255 255 }
 		
+		capital = 464 # Hadramaut
+		
 		c_thialemath = {
 			color={ 175 115 65 }
 			color2={ 255 255 255 }
@@ -15053,9 +15118,13 @@ k_maka = {
 		}
 	}
 	
+	capital = 472 # Gerrha
+	
 	d_majan = {
 		color={ 200 150 75 }
 		color2={ 255 255 255 }
+		
+		capital = 468 # Omanum
 		
 		c_thabanne = {
 			color={ 210 140 75 }
@@ -15114,6 +15183,8 @@ k_maka = {
 		color={ 200 125 50 }
 		color2={ 255 255 255 }
 		
+		capital = 472 # Gerrha
+		
 		c_cabana = {
 			color={ 210 115 50 }
 			color2={ 255 255 255 }
@@ -15170,9 +15241,13 @@ k_tarim = {
 	color = { 79 138 51 }
 	color2={ 255 255 255 }
 	
+	capital = 886 # Shule
+	
 	d_kashgaria = {
 		color={ 185 210 142 }
 		color2={ 255 255 255 }
+		
+		capital = 886 # Shule
 		
 		c_lithinos = {
 			color={ 185 210 142 }
@@ -15221,6 +15296,8 @@ k_tarim = {
 		color={ 155 170 132 }
 		color2={ 255 255 255 }
 		
+		capital = 891 # Qiemo
+		
 		c_yutian = {
 			color={ 155 170 132 }
 			color2={ 255 255 255 }
@@ -15255,6 +15332,8 @@ k_tarim = {
 		color={ 163 241 28 }
 		color2={ 255 255 255 }
 		
+		capital = 888 # Yanqi
+		
 		c_loulan = {
 			color={ 163 241 28 }
 			color2={ 255 255 255 }
@@ -15288,6 +15367,8 @@ k_tarim = {
 	d_urumchi = {
 		color = { 85 138 51 }
 		color2={ 255 255 255 }
+		
+		capital = 896 # Jumi
 		
 		c_wutanzili = {
 			color = { 85 138 51 }
@@ -15342,9 +15423,13 @@ k_phazania = {
 	color={ 225 175 75 }
 	color2={ 255 255 255 }
 	
+	capital = 873 # Garama
+	
 	d_garama = {
 		color={ 225 175 75 }
 		color2={ 255 255 255 }
+		
+		capital = 873 # Garama
 		
 		c_garama = {
 			color={ 225 175 75 }
@@ -15385,6 +15470,8 @@ k_phazania = {
 	d_tripolitania_inferior = {
 		color={ 200 200 75 }
 		color2={ 255 255 255 }
+		
+		capital = 869 # Thenetos
 		
 		c_cidamus = {
 			color={ 190 200 85 }
@@ -15431,6 +15518,8 @@ k_phazania = {
 		color={ 255 175 75 }
 		color2={ 255 255 255 }
 		
+		capital = 872 # Dedris
+		
 		c_dedris = {
 			color={ 255 175 75 }
 			color2={ 255 255 255 }
@@ -15451,6 +15540,8 @@ k_phazania = {
 	d_baracum = {
 		color={ 225 150 75 }
 		color2={ 255 255 255 }
+		
+		capital = 901 # Sciueref
 		
 		c_baracum = {
 			color={ 225 150 75 }
@@ -15474,6 +15565,8 @@ k_phazania = {
 	d_zella = {
 		color={ 225 175 50 }
 		color2={ 255 255 255 }
+		
+		capital = 902 # Zella
 
 		c_waddan = {
 			color={ 215 175 60 }
@@ -15493,6 +15586,8 @@ k_phazania = {
 	d_zuila = {
 		color={ 255 175 125 }
 		color2={ 255 255 255 }
+		
+		capital = 908 # Zuila
 
 		c_zuila = {
 			color={ 213 163 109 }
@@ -15516,6 +15611,8 @@ k_phazania = {
 	d_kawar = {		
 		color={ 200 150 75 }
 		color2={ 255 255 255 }
+		
+		capital = 906 # Kawar
 
 		c_djado = {
 			color={ 210 140 75 }
@@ -15537,6 +15634,8 @@ k_phazania = {
 	d_gat = {		
 		color={ 175 175 75 }
 		color2={ 255 255 255 }
+		
+		capital = 903 # Gat
 
 		c_gat = {
 			color={ 175 175 75 }
@@ -15561,11 +15660,15 @@ k_oasis = {
 	d_hibis = {
 		color= { 255 150 0 }
 		color2= { 255 255 255 }
+		
 		egyptian = Hebet
+		
+		capital = 155 # Hibis
 		
 		c_hibis = {
 			color= { 255 150 0 }
 			color2= { 255 255 255 }
+			
 			egyptian = Hebet
 			
 			b_hibis_hibis = {

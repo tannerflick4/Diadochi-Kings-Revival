@@ -1,0 +1,20 @@
+# 1127 - Aquileia
+
+# County Title
+title = c_aquileia
+
+# Settlements
+max_settlements = 4
+b_aquileia_aquileia = tribal
+#b_aquileia1_aquileia = castle
+#b_aquileia2_aquileia = castle
+#b_aquileia3_aquileia = city
+#b_aquileia4_aquileia = city
+#b_aquileia5_aquileia = temple
+#b_aquileia6_aquileia = castle
+
+# Misc
+culture = venetic
+religion = illyrian_main
+
+# History
