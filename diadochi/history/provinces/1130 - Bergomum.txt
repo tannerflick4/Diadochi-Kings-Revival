@@ -1,0 +1,20 @@
+# 1130 - Bergomum
+
+# County Title
+title = c_bergomum
+
+# Settlements
+max_settlements = 3
+b_bergomum_bergomum = tribal
+#b_bergomum1_bergomum = castle
+#b_bergomum2_bergomum = city
+#b_bergomum3_bergomum = castle
+#b_bergomum4_bergomum = castle
+#b_bergomum5_bergomum = city
+#b_bergomum6_bergomum = castle
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History

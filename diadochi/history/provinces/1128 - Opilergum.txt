@@ -1,0 +1,20 @@
+# 1128 - Opilergum
+
+# County Title
+title = c_opilergum
+
+# Settlements
+max_settlements = 4
+b_opilergum_opilergum = tribal
+#b_opilergum1_opilergum = castle
+#b_opilergum2_opilergum = castle
+#b_opilergum3_opilergum = city
+#b_opilergum4_opilergum = city
+#b_opilergum5_opilergum = temple
+#b_opilergum6_opilergum = castle
+
+# Misc
+culture = venetic
+religion = illyrian_main
+
+# History
