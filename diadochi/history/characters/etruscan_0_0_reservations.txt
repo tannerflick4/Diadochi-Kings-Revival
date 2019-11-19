@@ -1,2 +1,4 @@
 # 180001-190000 for Etruscan characters
 	# 180001-180100 for the Tarquinia dynasty
+	# 180101-180200 for the Rasinia dynasty
+	# 180201-180300 for the Persia dynasty

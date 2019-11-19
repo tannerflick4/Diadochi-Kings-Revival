@@ -5,11 +5,11 @@
 	culture = etruscan
 }
 18002 = {
-	name = "Lausa"
+	name = "Rasinia"
 	culture = etruscan
 }
 18003 = {
-	name = "Matsuna"
+	name = "Persia"
 	culture = etruscan
 }
 18004 = {
