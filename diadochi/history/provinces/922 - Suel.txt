@@ -5,17 +5,17 @@ title = c_suel
 
 # Settlements
 max_settlements = 4
-b_suel_suel = castle
+b_suel_suel = tribal
 #b_barbesula_suel = city
-b_lacippo_suel = castle
+#b_lacippo_suel = castle
 #b_onoba_suel = castle
-b_cilniana_suel = temple
-b_cartima_suel = city
+#b_cilniana_suel = temple
+#b_cartima_suel = city
 #b_erisane_suel = city
 
 # Misc
-culture = turdetanian
-religion = iberian_main
+culture = gallaecian
+religion = celtic_main
 
 # History
 # Can be filled when things change around the province

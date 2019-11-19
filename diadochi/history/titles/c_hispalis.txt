@@ -1,8 +1,16 @@
-405.1.1 = { # 371 BC
-	holder = 400001 
+414.1.1 = { # 362 BC
+	holder = 400002 # Selgiterar of the Turdetani
 	liege = d_turdetani
 }
-466.1.1 = {
-	holder = 0
-	liege = 0
+418.1.1 = { # 358 BC
+	holder = 400003 # Magauarico of the Turdetani
+}
+445.1.1 = { # 331 BC
+	holder = 400004 # Tiokenesos of the Turdetani
+}
+507.1.1 = { # 269 BC
+	holder = 400005 # Mezukenos of the Turdetani
+}
+523.1.1 = { # 253 BC
+	holder = 400006 # Tiokenesos of the Turdetani
 }

@@ -1,18 +1,21 @@
-401.1.1 = { # 375 BC
-	holder = 250304 # Magon III of Carthage
+393.1.1 = { # 383 BC
+	holder = 440701 # Kloutios of the Baetican Celtici
 }
-432.1.1 = { # 344 BC 
-	holder = 250303 # Hanno III of Carthage
+408.1.1 = { # 368 BC
+	holder = 440702 # Thurro of the Baetican Celtici
+}
+411.1.1 = { # 365 BC
+	holder = 440703 # Meiduenos of the Baetican Celtici
 }
 436.1.1 = { # 340 BC
-	holder = 250104 # Hanno the Great
+	holder = 440704 # Olindikos of the Baetican Celtici
 }
-439.1.1 = { # 337 BC
-	holder = 250103 # Gisgo I
+483.1.1 = { # 293 BC
+	holder = 440706 # Karbelos of the Baetican Celtici
 }
-446.1.1 = { # 330 BC
-	holder = 250101 # Hamilcar II
+510.1.1 = { # 266 BC
+	holder = 440707 # Teitebas of the Baetican Celtici
 }
-467.1.1 = { # 309 BC
-	holder = 250102 # Bomilcar
+516.1.1 = { # 260 BC
+	holder = 440708 # Kloutios of the Baetican Celtici
 }

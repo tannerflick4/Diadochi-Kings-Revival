@@ -1,18 +1,12 @@
-401.1.1 = { # 375 BC
-	holder = 250304 # Magon III of Carthage
+409.1.1 = { # 367 BC
+	holder = 400101 # Kulchas of the Cilbiceni
 }
-432.1.1 = { # 344 BC 
-	holder = 250303 # Hanno III of Carthage
+431.1.1 = { # 345 BC
+	holder = 400103 # Gargoris of the Cilbiceni
 }
-436.1.1 = { # 340 BC
-	holder = 250104 # Hanno the Great
+454.1.1 = { # 322 BC
+	holder = 400104 # Luxinio of the Cilbiceni
 }
-439.1.1 = { # 337 BC
-	holder = 250103 # Gisgo I
-}
-446.1.1 = { # 330 BC
-	holder = 250101 # Hamilcar II
-}
-467.1.1 = { # 309 BC
-	holder = 250102 # Bomilcar
+510.1.1 = { # 266 BC
+	holder = 400106 # Tiresio of the Cilbiceni
 }

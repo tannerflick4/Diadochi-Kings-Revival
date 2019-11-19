@@ -1,5 +1,5 @@
 412.1.1 = { # 364 BC
-    holder = 232901 # Bathanatos of the Volcae Arecomici
+    holder = 232902 # Brennus of the Volcae Arecomici
 }
 415.1.1 = { # 361 BC
     holder = 232903 # Diviciacus of the Volcae Arecomici

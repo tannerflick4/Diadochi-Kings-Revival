@@ -1750,12 +1750,12 @@ tartessian = {
 	graphical_cultures = { norsegfx }
 	
 	turdetanian = {
-	graphical_cultures = { newiberiangfx easternslavicgfx }
-	
-	color = { 0 0.5 1 }
-	
-	male_names = {
-		Argantodanos_Argantodanos Arganthonios_Arganthonios Attenes_Attenes Belsu_Belsu Bilinos_Bilinos Bodo_Bodo Botilkos_Botilkos Builbos_Builbos Kaikonbe_Kaikonbe Kulchas_Kulchas Gargoris_Gargoris Habis_Habis Indo_Indo Kalbo_Kalbo Luxinio_Luxinio Magauarico_Magauarico Melmanios_Melmanios Mezukenos_Mezukenos Tiokenesos_Tiokenesos Tiresio_Tiresio Tirtanos_Tirtanos Sakarbik_Sakarbik Sakarisker_Sakarisker Seihar_Seihar Selgiterar_Selgiterar Sinebetin_Sinebetin
+		graphical_cultures = { newiberiangfx easternslavicgfx }
+		
+		color = { 0 0.5 1 }
+		
+		male_names = {
+			Argantodanos_Argantodanos Arganthonios_Arganthonios Attenes_Attenes Belsu_Belsu Bilinos_Bilinos Bodo_Bodo Botilkos_Botilkos Builbos_Builbos Kaikonbe_Kaikonbe Kulchas_Kulchas Gargoris_Gargoris Habis_Habis Indo_Indo Kalbo_Kalbo Luxinio_Luxinio Magauarico_Magauarico Melmanios_Melmanios Mezukenos_Mezukenos Tiokenesos_Tiokenesos Tiresio_Tiresio Tirtanos_Tirtanos Sakarbik_Sakarbik Sakarisker_Sakarisker Seihar_Seihar Selgiterar_Selgiterar Sinebetin_Sinebetin
 		}
 		female_names = {
 			Ama_Ama Amena_Amena Amia_Amia Ana_Ana Apirka_Apirka Aunia_Aunia Birkita_Birkita  Bouana_Bouana Bouia_Bouia Kilena_Kilena Genouefa_Genouefa Kara_Kara Kyna_Kyna Mauis_Mauis Nunn_Nunn Sikounin_Sikounin Stena_Stena Treua_Treua Ueuila_Ueuila   
