@@ -16166,15 +16166,23 @@ k_lusitania = {
 		
 		capital = 946 # Lacobriga
 
-		c_lacobriga = {			
+		c_lacobriga = {
 			color={ 155 165 70 }
 			color2={ 255 255 255 }
 
 			b_lacobriga_lacobriga = {
 			}
-			b_murtinhal_lacobriga = {
+			b_mirobriga_lacobriga = {
 			}
-			b_lagos_lacobriga = {
+			b_patulus_portus_lacobriga = {
+			}
+			b_sines_lacobriga = {
+			}
+			b_aierdi_lacobriga = {
+			}
+			b_victoriacum_lacobriga = {
+			}
+			b_octaviolca_lacobriga = {
 			}
 		}
 		c_myrtilis = {

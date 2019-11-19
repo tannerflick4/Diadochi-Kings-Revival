@@ -6,8 +6,12 @@ title = c_lacobriga
 # Settlements
 max_settlements = 3
 b_lacobriga_lacobriga = tribal
-#b_murtinhal_lacobriga = city
-#b_lagos_lacobriga = city
+#b_mirobriga_lacobriga = city
+#b_patulus_portus_lacobriga = city
+#b_sines_lacobriga = city
+#b_aierdi_lacobriga = castle
+#b_victoriacum_lacobriga = castle
+#b_octaviolca_lacobriga = temple
 
 # Misc
 culture = gallaecian

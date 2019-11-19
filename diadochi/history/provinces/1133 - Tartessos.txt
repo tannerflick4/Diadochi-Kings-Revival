@@ -5,7 +5,7 @@ title = c_tartessos # for example c_corinth
 
 # Settlements
 max_settlements = 5
-b_tartessos_tartessos = castle
+b_tartessos_tartessos = tribal
 #b_ilipula_tartessos = city
 #b_romano_tartessos = city
 #b_moranina_tartessos = castle

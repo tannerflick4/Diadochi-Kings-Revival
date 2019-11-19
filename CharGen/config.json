@@ -1,16 +1,16 @@
 {
-	"first_char_id": 421001,
-	"dynasty_id": 42011,
-	"culture": "celtiberian",
-	"religion": "celtic_main",
+	"first_char_id": 450801,
+	"dynasty_id": 45002,
+	"culture": "aquitanian",
+	"religion": "aquitanian_main",
 
-	"names": "Ablon_Ablon Adingibas_Adingibas Aios_Aios Akuios_Akuios Alukio_Alukio Ambon_Ambon Arkanta_Arkanta Aualos_Aualos Auaro_Auaro Ausa_Ausa Babpo_Babpo Belsu_Belsu Bilinos_Bilinos Bodo_Bodo Botilkos_Botilkos Builbos_Builbos Buntalos_Buntalos Burzu_Burzu Kakiro_Kakiro Kado_Kado Karo_Karo Kauekas_Kauekas Kesarus_Kesarus Durato_Durato Elaukos_Elaukos Elazunos_Elazunos Elguismio_Elguismio Elkua_Elkua Eskutino_Eskutino Hilerno_Hilerno Indibil_Indibil Indortes_Indortes Istolakio_Istolakio Kaiaitos_Kaiaitos Karbelos_Karbelos Kasilos_Kasilos Kaukirino_Kaukirino Koitu_Koitu Kontuzos_Kontuzos Lesson_Lesson Letondon_Letondon Letontu_Letontu Leukon_Leukon Likinos_Likinos Liteno_Liteno Lubbo_Lubbo Luxinio_Luxinio Magauarikos_Magauarikos Melmanios_Melmanios Mezukenos_Mezukenos Olindikos_Olindikos Ordumeles_Ordumeles Pirreso_Pirreso Redukenos_Redukenos Retogenes_Retogenes Retukenos_Retukenos Sanion_Sanion Segisamo_Segisamo Sekilos_Sekilos Sekontios_Sekontios Sekonzos_Sekonzos Sigilos_Sigilos Skirtunos_Skirtunos Sleitiu_Sleitiu Suisetarten_Suisetarten  Tarbantu_Tarbantu Teitebas_Teitebas Terkinos_Terkinos Thurro_Thurro Tiokenesos_Tiokenesos Tiresio_Tiresio Tirtanos_Tirtanos Tirtukue_Tirtukue Touto_Touto Tueizu_Tueizu Tureno_Tureno Ultinos_Ultinos Umarbeles_Umarbeles Umarilo_Umarilo Uxentio_Uxentio",
+	"names": "Abisunhar_Abisunhar Andereseni_Andereseni Baiserte_Baiserte Belexkonis_Belexkonis Bihossi_Bihossi Biurtetel_Biurtetel Biurtibes_Biurtibes Biurtilaur_Biurtilaur Kison_Kison Kissonbonnis_Kissonbonnis Dusanharis_Dusanharis Ennebox_Ennebox Gerexo_Gerexo Halskotarris_Halskotarris Hanna_Hanna Harbelex_Harbelex Illurberrixo_Illurberrixo Korbis_Korbis Laurko_Laurko Otigirteker_Otigirteker Sembe_Sembe Sembekkoni_Sembekkoni Senios_Senios Serhuhoris_Serhuhoris Talskonis_Talskonis Ummesahar_Ummesahar",
 
 	"min_age": 18,
 	"min_fertile_age": 16,
 	"max_age": 65,
 	"max_fertile_age": 45,
 
-	"min_year": 389,
-	"max_year": 516
+	"min_year": 391,
+	"max_year": 515
 }
