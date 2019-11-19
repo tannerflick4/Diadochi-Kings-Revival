@@ -1,7 +1,7 @@
 # 18001-19000 for Etruscan dynasties
 
 18001 = {
-	name = "Arrunsuna"
+	name = "Tarquinia"
 	culture = etruscan
 }
 18002 = {
