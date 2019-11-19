@@ -2,11 +2,11 @@
 	holder = 420101 # Hilerno of the Lusones
 }
 406.1.1 = { # 370 BC
-	holder = 420101 # Likinos of the Lusones
+	holder = 420102 # Likinos of the Lusones
 }
 440.1.1 = { # 336 BC
-	holder = 420101 # Sekonzos of the Lusones
+	holder = 420103 # Sekonzos of the Lusones
 }
 494.1.1 = { # 282 BC
-	holder = 420101 # Tureno of the Lusones
+	holder = 420104 # Tureno of the Lusones
 }
