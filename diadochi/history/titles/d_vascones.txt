@@ -1,8 +1,12 @@
-405.1.1 = { # 371 BC
-	holder = 450001 # Abisunhar
-	
+413.1.1 = { # 363 BC
+	holder = 450001 # Kison of the Vascones
 }
-465.1.2 = { # 311 BC
-	holder = 450002 # Serhuhoris
-	
+450.1.1 = { # 326 BC
+	holder = 450003 # Kissonbonnis of the Vascones
+}
+483.1.1 = { # 293 BC
+	holder = 450004 # Baiserte of the Vascones
+}
+493.1.1 = { # 283 BC
+	holder = 450005 # Biurtibes of the Vascones
 }
