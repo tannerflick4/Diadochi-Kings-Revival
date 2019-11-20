@@ -786,6 +786,18 @@ k_umbri = {
 	title = "UHTUR"
 	short_name = yes
 }
+d_sabini = {
+	color= { 15 125 15 }
+	color2= { 255 255 255 }
+	
+	capital = 331 # Amiternum
+}
+d_marsi = {
+	color= { 73 22 18 }
+	color2= { 255 255 255 }
+	
+	capital = 1126 # Marruvium
+}
 k_ligures = {
 	color= { 100 225 75 }
 	color2= { 255 255 255 }

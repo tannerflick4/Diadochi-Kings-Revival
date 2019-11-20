@@ -8,3 +8,7 @@
 	name = "Assisii"
 	culture = umbrian
 }
+20003 = {
+	name = "Sabini"
+	culture = umbrian
+}

@@ -20,3 +20,7 @@
 	name = "Mamertini"
 	culture = oscan
 }
+16006 = {
+	name = "Marsi"
+	culture = oscan
+}
