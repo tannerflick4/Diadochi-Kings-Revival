@@ -1,0 +1,22 @@
+395.1.1 = { # 381 BC
+    holder = 430401 # Ikkianos of the Coerenses
+    liege = d_vettones
+}
+417.1.1 = { # 359 BC
+    holder = 430402 # Arauos of the Coerenses
+}
+444.1.1 = { # 332 BC
+    holder = 430403 # Kankilios of the Coerenses
+}
+478.1.1 = { # 298 BC
+    holder = 430404 # Ambatos of the Coerenses
+}
+487.1.1 = { # 289 BC
+    holder = 430405 # Leoni of the Coerenses
+}
+495.1.1 = { # 281 BC
+    holder = 430406 # Kilenos of the Coerenses
+}
+511.1.1 = { # 265 BC
+    holder = 430407 # Bouaulos of the Coerenses
+}

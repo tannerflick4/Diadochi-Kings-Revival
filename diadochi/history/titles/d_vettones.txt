@@ -1,8 +1,12 @@
-405.1.1 = { # 371 BC
-	holder = 430301 # Taurocus
-	
+410.1.1 = { # 366 BC
+	holder = 430301 # Kuntinos of the Vettones
 }
-444.1.2 = { # 332 BC
-	holder = 430302 # Leoni
-	
+442.1.1 = { # 334 BC
+	holder = 430303 # Kumelios of the Vettones
+}
+491.1.1 = { # 285 BC
+	holder = 430304 # Ambatos of the Vettones
+}
+512.1.1 = { # 264 BC
+	holder = 430305 # Bibablos of the Vettones
 }

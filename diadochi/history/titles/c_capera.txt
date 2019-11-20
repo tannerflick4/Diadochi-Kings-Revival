@@ -1,0 +1,13 @@
+417.1.1 = { # 359 BC
+    holder = 430601 # Bouati of the Caluri
+    liege = d_vettones
+}
+432.1.1 = { # 344 BC
+    holder = 430602 # Bouios of the Caluri
+}
+449.1.1 = { # 327 BC
+    holder = 430603 # Taurilios of the Caluri
+}
+500.1.1 = { # 276 BC
+    holder = 430604 # Kasabios of the Caluri
+}

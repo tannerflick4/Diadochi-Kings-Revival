@@ -1,0 +1,16 @@
+393.1.1 = { # 383 BC
+    holder = 430501 # Koporos of the Calontienses
+    liege = d_vettones
+}
+406.1.1 = { # 370 BC
+    holder = 430502 # Kankilos of the Calontienses
+}
+440.1.1 = { # 336 BC
+    holder = 430503 # Taurilios of the Calontienses
+}
+464.1.1 = { # 312 BC
+    holder = 430505 # Kankilos of the Calontienses
+}
+503.1.1 = { # 273 BC
+    holder = 430506 # Kuntios of the Calontienses
+}

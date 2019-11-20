@@ -1,8 +1,16 @@
 405.1.1 = { # 371 BC
-	holder = 430001 # Iccauos
+	holder = 430201 # Bibablos of the Igaeditani
 	liege = d_lusitani
 }
-445.1.2 = { # 331 BC
-	holder = 430002 # Ambatus
-	liege = d_lusitani
+420.1.1 = { # 356 BC
+	holder = 430202 # Bouiani of the Igaeditani
+}
+441.1.1 = { # 335 BC
+	holder = 430203 # Bouiani of the Igaeditani
+}
+471.1.1 = { # 305 BC
+	holder = 430204 # Seuros of the Igaeditani
+}
+503.1.1 = { # 273 BC
+	holder = 430205 # Kailobrigos of the Igaeditani
 }

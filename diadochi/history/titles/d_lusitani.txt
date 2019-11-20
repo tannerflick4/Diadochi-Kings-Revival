@@ -1,8 +1,15 @@
-405.1.1 = { # 371 BC
-	holder = 430001 # Iccauos
-	
+412.1.1 = { # 364 BC
+	holder = 430001 # Bouios of the Lusitani
 }
-445.1.2 = { # 331 BC
-	holder = 430002 # Ambatus
-	
+430.1.1 = { # 346 BC
+	holder = 430002 # Kailobrigos of the Lusitani
+}
+454.1.1 = { # 322 BC
+	holder = 430003 # Ikkonios of the Lusitani
+}
+489.1.1 = { # 287 BC
+	holder = 430004 # Kundigos of the Lusitani
+}
+495.1.1 = { # 281 BC
+	holder = 430005 # Kankilos of the Lusitani
 }
