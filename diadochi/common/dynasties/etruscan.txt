@@ -13,26 +13,10 @@
 	culture = etruscan
 }
 18004 = {
-	name = "Porsenna"
+	name = "Ancharia"
 	culture = etruscan
 }
 18005 = {
-	name = "Tarchuin"
-	culture = etruscan
-}
-18006 = {
-	name = "Thelesa"
-	culture = etruscan
-}
-18007 = {
-	name = "Tlesnana"
-	culture = etruscan
-}
-18008 = {
-	name = "Velianas"
-	culture = etruscan
-}
-18009 = {
-	name = "Vipinas"
+	name = "Cilnia"
 	culture = etruscan
 }
