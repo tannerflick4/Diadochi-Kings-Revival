@@ -1,3 +1,15 @@
+403.1.1 = { # 373 BC
+	holder = 390501 # Urkebas of the Edetani
+}
 405.1.1 = { # 371 BC
-	holder = 390501 # Lagunas
+	holder = 390502 # Ildutas of the Edetani
+}
+424.1.1 = { # 352 BC
+	holder = 390503 # Argitibasar of the Edetani
+}
+463.1.1 = { # 313 BC
+	holder = 390504 # Orisos of the Edetani
+}
+487.1.1 = { # 289 BC
+	holder = 390505 # Eterindu of the Edetani
 }

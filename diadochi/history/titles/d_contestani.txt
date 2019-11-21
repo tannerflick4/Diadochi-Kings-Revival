@@ -1,3 +1,12 @@
-405.1.1 = { # 371 BC
-	holder = 390601 # Belasbaisereban
+387.1.1 = { # 389 BC
+	holder = 390601 # Abadutiker of the Contestani
+}
+402.1.1 = { # 374 BC
+	holder = 390602 # Argitiker of the Contestani
+}
+443.1.1 = { # 333 BC
+	holder = 390603 # Untigorisar of the Contestani
+}
+460.1.1 = { # 316 BC
+	holder = 390604 # Urkaildu of the Contestani
 }

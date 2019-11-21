@@ -1,19 +1,16 @@
-416.1.1 = { # 360 BC
-	holder = 420201 # Aualos of the Belli
-	liege = d_belli
+398.1.1 = { # 378 BC
+	holder = 391001 # Bailar of the Sedetani
+	liege = d_ilercavones
 }
-423.1.1 = { # 353 BC
-	holder = 420202 # Burzu of the Belli
+409.1.1 = { # 367 BC
+	holder = 391002 # Argitiker of the Sedetani
 }
-454.1.1 = { # 322 BC
-	holder = 420204 # Botilkos of the Belli
+446.1.1 = { # 330 BC
+	holder = 391003 # Ultidikan of the Sedetani
 }
-458.1.1 = { # 318 BC
-	holder = 420205 # Umarbeles of the Belli
+479.1.1 = { # 297 BC
+	holder = 391004 # Baitesir of the Sedetani
 }
-482.1.1 = { # 294 BC
-	holder = 420206 # Umarilo of the Belli
-}
-495.1.1 = { # 281 BC
-	holder = 420207 # Istolakio of the Belli
+508.1.1 = { # 268 BC
+	holder = 391005 # Isbataris of the Sedetani
 }

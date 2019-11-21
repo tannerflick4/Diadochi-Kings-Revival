@@ -1,8 +1,16 @@
-405.1.1 = { # 371 BC
-	holder = 420501 # Karbelos
-	liege = d_turboletae
+403.1.1 = { # 373 BC
+	holder = 390501 # Urkebas of the Edetani
+	liege = d_edetani
 }
-467.1.2 = { # 308 BC
-	holder = 420502 # Kaukirino
-	liege = d_turboletae
+405.1.1 = { # 371 BC
+	holder = 390502 # Ildutas of the Edetani
+}
+424.1.1 = { # 352 BC
+	holder = 390503 # Argitibasar of the Edetani
+}
+463.1.1 = { # 313 BC
+	holder = 390504 # Orisos of the Edetani
+}
+487.1.1 = { # 289 BC
+	holder = 390505 # Eterindu of the Edetani
 }

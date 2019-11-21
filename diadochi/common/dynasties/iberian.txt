@@ -67,3 +67,11 @@
 	name = "Vescetani"
 	culture = iberian
 }
+39018 = {
+	name = "Mastieni"
+	culture = iberian
+}
+39019 = {
+	name = "Ceretani"
+	culture = iberian
+}

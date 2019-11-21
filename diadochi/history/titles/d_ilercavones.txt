@@ -1,3 +1,9 @@
-405.1.1 = { # 371 BC
-	holder = 390401 # Iltiradin
+411.1.1 = { # 365 BC
+	holder = 390401 # Basirtir of the Ilercavones
+}
+430.1.1 = { # 346 BC
+	holder = 390402 # Arbiskar of the Ilercavones
+}
+481.1.1 = { # 295 BC
+	holder = 390404 # Arbiskar of the Ilercavones
 }

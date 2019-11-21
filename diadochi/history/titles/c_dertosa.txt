@@ -1,8 +1,12 @@
-405.1.1 = { # 371 BC
-	holder = 390201 # 
-	liege = d_lacetani
+417.1.1 = { # 359 BC
+	holder = 390202 # Baisebilos of the Cessetani
 }
-468.1.1 = {
-	holder = 0
-	liege = 0
+459.1.1 = { # 317 BC
+	holder = 390203 # Basirtir of the Cessetani
+}
+477.1.1 = { # 299 BC
+	holder = 390204 # Ikeatin of the Cessetani
+}
+489.1.1 = { # 287 BC
+	holder = 390205 # Aiunesker of the Cessetani
 }

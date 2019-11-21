@@ -1,3 +1,15 @@
-405.1.1 = { # 371 BC
-	holder = 390701 # Aiunesker
+415.1.1 = { # 361 BC
+	holder = 390701 # Biurtetel of the Bastetani
+}
+453.1.1 = { # 323 BC
+	holder = 390702 # Katulatin of the Bastetani
+}
+480.1.1 = { # 296 BC
+	holder = 390703 # Situbolai of the Bastetani
+}
+493.1.1 = { # 283 BC
+	holder = 390704 # Indikortes of the Bastetani
+}
+476.1.1 = { # 300 BC
+	holder = 390705 # Biurdiki of the Bastetani
 }
