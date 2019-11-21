@@ -24,3 +24,7 @@
 	name = "Marsi"
 	culture = oscan
 }
+16007 = {
+	name = "Paeligni"
+	culture = oscan
+}
