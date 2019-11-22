@@ -5,7 +5,7 @@ title = c_histonium
 
 # Settlements
 max_settlements = 4
-b_histonium_histonium = castle
+b_histonium_histonium = tribal
 b_histonium1_histonium = temple
 b_histonium2_histonium = city
 b_histonium3_histonium = city

@@ -5,7 +5,7 @@ title = c_marruvium # for example c_corinth
 
 # Settlements
 max_settlements = 4
-b_marruvium_marruvium = castle
+b_marruvium_marruvium = tribal
 b_marruvium1_marruvium = temple
 b_marruvium2_marruvium = city
 b_marruvium3_marruvium = city
