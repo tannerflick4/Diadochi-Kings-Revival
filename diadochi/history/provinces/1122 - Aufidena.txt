@@ -5,7 +5,7 @@ title = c_aufidena
 
 # Settlements
 max_settlements = 4
-b_aufidena_aufidena = castle
+b_aufidena_aufidena = tribal
 b_aufidena1_aufidena = city
 b_aufidena2_aufidena = castle
 b_aufidena3_aufidena = temple
@@ -14,7 +14,7 @@ b_aufidena3_aufidena = temple
 #b_aufidena6_aufidena = castle
 
 # Misc
-culture = etruscan
-religion = etruscan_main
+culture = oscan
+religion = roman_main
 
 # History

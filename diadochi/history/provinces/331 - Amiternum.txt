@@ -5,7 +5,7 @@ title = c_amiternum # for example c_corinth
 
 # Settlements
 max_settlements = 4
-b_amiternum_amiternum = castle
+b_amiternum_amiternum = tribal
 b_testrina_amiternum = temple
 b_reate_amiternum = city
 b_casperia_amiternum = city

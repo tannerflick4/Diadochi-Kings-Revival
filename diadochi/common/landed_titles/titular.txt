@@ -790,13 +790,41 @@ d_sabini = {
 	color= { 15 125 15 }
 	color2= { 255 255 255 }
 	
+	tribe = yes
+	
 	capital = 331 # Amiternum
 }
 d_marsi = {
 	color= { 73 22 18 }
 	color2= { 255 255 255 }
 	
+	tribe = yes
+	
 	capital = 1126 # Marruvium
+}
+d_paeligni = {
+	color= { 25 115 10 }
+	color2= { 255 255 255 }
+	
+	tribe = yes
+	
+	capital = 328 # Sulmo
+}
+d_frentani = {
+	color= { 107 89 83 }
+	color2= { 255 255 255 }
+	
+	tribe = yes
+	
+	capital = 1123 # Histonium
+}
+d_caraceni = {
+	color= { 8 109 13 }
+	color2= { 255 255 255 }
+	
+	tribe = yes
+	
+	capital = 1122 # Aufidena
 }
 k_ligures = {
 	color= { 100 225 75 }
