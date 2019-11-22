@@ -11,3 +11,5 @@
 	# 390901-391000 for the Deitani dynasty
 	# 391001-391100 for the Sedetani dynasty
 	# 391101-391200 for the Bergistani dynasty
+	# 391201-391300 for the Ausetani dynasty
+	# 391301-391400 for the Ceretani dynasty

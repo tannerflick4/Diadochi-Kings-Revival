@@ -1,8 +1,13 @@
-405.1.1 = { # 371 BC
-	holder = 390001 # Baisebilos
+413.1.1 = { # 363 BC
+	holder = 390001 # Balkeskar of the Indigetes
 	liege = d_indiketes
 }
-466.1.1 = {
-	holder = 0
-	liege = 0
+424.1.1 = { # 352 BC
+	holder = 390002 # Argisabam of the Indigetes
+}
+478.1.1 = { # 298 BC
+	holder = 390003 # Abararban of the Indigetes
+}
+483.1.1 = { # 293 BC
+	holder = 390004 # Bodilkas of the Indigetes
 }

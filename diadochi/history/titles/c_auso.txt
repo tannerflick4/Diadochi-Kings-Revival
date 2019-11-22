@@ -1,8 +1,9 @@
-405.1.1 = { # 371 BC
-	holder = 390001 # Baisebilos
-	liege = d_indiketes
+410.1.1 = { # 366 BC
+	holder = 391202 # Ertebas of the Ausetani
 }
-466.1.1 = {
-	holder = 0
-	liege = 0
+443.1.1 = { # 333 BC
+	holder = 391203 # Biurdiki of the Ausetani
+}
+482.1.1 = { # 294 BC
+	holder = 391205 # Isbataris of the Ausetani
 }

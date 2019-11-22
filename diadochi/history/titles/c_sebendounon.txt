@@ -1,8 +1,12 @@
-405.1.1 = { # 371 BC
-	holder = 390001
-	liege = d_indiketes
+415.1.1 = { # 361 BC
+	holder = 391301 # Tibaste of the Ceretani
 }
-466.1.1 = {
-	holder = 0
-	liege = 0
+438.1.1 = { # 338 BC
+	holder = 391302 # Andobales of the Ceretani
+}
+479.1.1 = { # 297 BC
+	holder = 391303 # Talskubilos of the Ceretani
+}
+493.1.1 = { # 283 BC
+	holder = 391304 # Binturke of the Ceretani
 }
