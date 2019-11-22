@@ -1,18 +1,12 @@
 adjacencies = {
-	2 = 275 # Austisland - Nidaros
-	33 = 34 # Faroe Islands - Shetland
-	34 = 36 # Shetland - Orkney
-	204 = 827 # Barcelona - Mallorca
-	233 = 324 # Genoa - Corsica
-	849 = 846 # Canarias - Ifni
-	73 = 74 # Kent - Guines
-	478 = 479 # Monemvasia - Kaneia
-	343 = 812 # Siracusa - Malta
-	871 = 1369 # Busaso - Socotra
-	1360 = 1114 # Maldives - Mahoyadapuram
-	758 = 757 # Selukeia - Famagusta
-	31 = 103 # Cornwall - Leon
-	357 = 356 # Treviso - Venezia
+	936 = 1221 # Hemeroskopion - Ebusos (Spain to Baleares)
+	1221 = 1222 # Ebusos - Cromiussa (Baleares)
+	1222 = 1223 # Cromiussa - Nura (Baleares)
+	338 = 350 # Vetulonia - Aleria (Italy to Sardinia/Corsica)
+	305 = 1224 # Syrcause - Maleth (Sicily to Malta)
+	11 = 10 # Rhodes - Karpathos (Rhodes to Krete)
+	10 = 9 # Karpathos - Knossos (Krete)
+	105 = 168 # Celenderis - Salamis (Turkey to Cyprus)
 }
 
 culture_group_spread = {
