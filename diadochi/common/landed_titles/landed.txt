@@ -14719,6 +14719,25 @@ k_aquitania = {
 			b_casinomagus_benehardum = {
 			}
 		}
+		c_iluro = {
+			color= { 50 190 10 }
+			color2= { 255 255 255 }
+			
+			b_iluro_iluro = {
+			}
+			b_imus_pyreneus_iluro = {
+			}
+			b_carasa_iluro = {
+			}
+			b_aspalluga_iluro = {
+			}
+			b_forum_ligneum_iluro = {
+			}
+			b_summus_pyreneus_iluro = {
+			}
+			b_ictium_iluro = {
+			}
+		}
 	}
 }
 k_kush = {
@@ -15827,2184 +15846,2179 @@ k_oasis = {
 		}
 	}
 }
-k_lusitania = {
-	color={ 170 60 25 }
+e_hispania = {
+	color={ 255 0 216 }
 	color2={ 255 255 255 }
-	
-	capital = 955 # Longobriga
 
-	d_vettonia = {
-		color={ 165 85 60 }
-		color2={ 255 255 255 }
-		
-		capital = 1202 # Tamusia
-		
-		c_tamusia = {
-			color={ 205 105 15 }
-			color2={ 255 255 255 }
+	capital = 929 # Corduba
 
-			b_tamusia_tamusia = {
-			}
-			b_turgalium_tamusia = {
-			}
-			b_ad_sorores_tamusia = {
-			}
-			b_lacipea_tamusia = {
-			}
-			b_magasca_tamusia = {
-			}
-			b_proserpina_tamusia = {
-			}
-			b_veredas_tamusia = {
-			}
-		}
-		c_tourmogon = {
-			color={ 0 0 0 }
-			color2={ 255 255 255 }
-			
-			b_tourmogon_tourmogon = {
-			}
-			b_caurium_tourmogon = {
-			}
-			b_rusticiana_tourmogon = {
-			}
-			b_mirobriga_tourmogon = {
-			}
-			b_eldana_tourmogon = {
-			}
-			b_polibedenses_tourmogon = {
-			}
-			b_saelices_tourmogon = {
-			}
-		}
-		c_tongobriga = {
-			color={ 0 0 0 }
-			color2={ 255 255 255 }
-			
-			b_tongobriga_tongobriga = {
-			}
-			b_norba_tongobriga = {
-			}
-			b_castra_caecilia_tongobriga = {
-			}
-			b_campo_tongobriga = {
-			}
-			b_catalina_tongobriga = {
-			}
-			b_aldeas_tongobriga = {
-			}
-			b_moura_tongobriga = {
-			}
-		}
-		c_capera = {
-			color={ 0 0 0 }
-			color2={ 255 255 255 }
-			
-			b_capera_capera = {
-			}
-			b_lama_capera = {
-			}
-			b_caelionicco_capera = {
-			}
-			b_ad_lippos_capera = {
-			}
-			b_sentice_capera = {
-			}
-			b_bletisama_capera = {
-			}
-			b_avila_capera = {
-			}
-		}
-		c_mantua = {
-			color={ 0 0 0 }
-			color2={ 255 255 255 }
-			
-			b_mantua_mantua = {
-			}
-			b_miaccum_mantua = {
-			}
-			b_ossigi_mantua = {
-			}
-			b_bursao_mantua = {
-			}
-			b_barbariana_mantua = {
-			}
-			b_turiaso_mantua = {
-			}
-			b_augustobriga_mantua = {
-			}
-		}
-		c_malamoneda = {
-			color={ 0 0 0 }
-			color2={ 255 255 255 }
-			
-			b_malamoneda_malamoneda = {
-			}
-			b_linares_malamoneda = {
-			}
-			b_caesarobriga_malamoneda = {
-			}
-			b_augustobriga_malamoneda = {
-			}
-			b_castra_postumiana_malamoneda = {
-			}
-			b_ad_novias_malamoneda = {
-			}
-			b_detumo_malamoneda = {
-			}
-		}
-	}
-	d_lusitania = {
-		color={ 170 60 25 }
+	k_lusitania = {
+		color={ 101 40 255 }
 		color2={ 255 255 255 }
 		
 		capital = 955 # Longobriga
+
+		d_vettonia = {
+			color={ 79 34 244 }
+			color2={ 255 255 255 }
 		
-		c_longobriga = {
-			color={ 135 150 40 }
-			color2={ 255 255 255 }
+			capital = 1208 # Salmantica
+			
+			c_salmantica = {
+				color= { 82 41 244 }
+				color2={ 255 255 255 }
 
-			b_longobriga_longobriga = {
+				b_salmantica_salmantica = {
+				}
+				b_sibaris_salmantica = {
+				}
+				b_ocelum_duri_salmantica = {
+				}
+				b_arboukale_salmantica = {
+				}
+				b_carbellino_salmantica = {
+				}
+				b_mamede_salmantica = {
+				}
+				b_ulaca_salmantica = {
+				}
 			}
-			b_cobelcorum_longobriga = {
+			c_tamusia = {
+				color={ 80 42 237 }
+				color2={ 255 255 255 }
+
+				b_tamusia_tamusia = {
+				}
+				b_turgalium_tamusia = {
+				}
+				b_ad_sorores_tamusia = {
+				}
+				b_lacipea_tamusia = {
+				}
+				b_magasca_tamusia = {
+				}
+				b_proserpina_tamusia = {
+				}
+				b_veredas_tamusia = {
+				}
 			}
-			b_civitas_aravorum_longobriga = {
+			c_tourmogon = {
+				color={ 87 48 244 }
+				color2={ 255 255 255 }
+				
+				b_tourmogon_tourmogon = {
+				}
+				b_caurium_tourmogon = {
+				}
+				b_rusticiana_tourmogon = {
+				}
+				b_mirobriga_tourmogon = {
+				}
+				b_eldana_tourmogon = {
+				}
+				b_polibedenses_tourmogon = {
+				}
+				b_saelices_tourmogon = {
+				}
 			}
-			b_meidubriga_longobriga = {
+			c_tongobriga = {
+				color={ 81 45 237 }
+				color2={ 255 255 255 }
+				
+				b_tongobriga_tongobriga = {
+				}
+				b_norba_tongobriga = {
+				}
+				b_castra_caecilia_tongobriga = {
+				}
+				b_campo_tongobriga = {
+				}
+				b_catalina_tongobriga = {
+				}
+				b_aldeas_tongobriga = {
+				}
+				b_moura_tongobriga = {
+				}
 			}
-			b_callabriga_longobriga = {
-			}
-			b_conobaria_longobriga = {
-			}
-			b_saudo_longobriga = {
+			c_capera = {
+				color={ 81 53 244 }
+				color2={ 255 255 255 }
+				
+				b_capera_capera = {
+				}
+				b_lama_capera = {
+				}
+				b_caelionicco_capera = {
+				}
+				b_ad_lippos_capera = {
+				}
+				b_sentice_capera = {
+				}
+				b_bletisama_capera = {
+				}
+				b_avila_capera = {
+				}
 			}
 		}
-		c_egitania = {
-			color={ 155 100 20 }
-			color2={ 255 255 255 }
-
-			b_egitania_egitania = {
-			}
-			b_vicus_veniensis_egitania = {
-			}
-			b_ocelum_egitania = {
-			}
-			b_centum_celas_egitania = {
-			}
-			b_elbocoris_egitania = {
-			}
-			b_iulipa_egitania = {
-			}
-			b_contosolia_egitania = {
-			}
-		}
-		c_talabriga = {
-			color={ 55 65 220 }
-			color2={ 255 255 255 }
-
-			b_talabriga_talabriga = {
-			}
-			b_aeminium_talabriga = {
-			}
-			b_castellum_araocelum_talabriga = {
-			}
-			b_vissaium_talabriga = {
-			}
-			b_langobriga_talabriga = {
-			}
-			b_cappa_talabriga = {
-			}
-			b_basilippo_talabriga = {
-			}
-		}
-		c_conimbriga = {
-			color={ 0 0 0 }
+		d_lusitania = {
+			color={ 110 33 255 }
 			color2={ 255 255 255 }
 			
-			b_conimbriga_conimbriga = {
+			capital = 955 # Longobriga
+			
+			c_longobriga = {
+				color={ 114 40 252 }
+				color2={ 255 255 255 }
+
+				b_longobriga_longobriga = {
+				}
+				b_cobelcorum_longobriga = {
+				}
+				b_civitas_aravorum_longobriga = {
+				}
+				b_meidubriga_longobriga = {
+				}
+				b_callabriga_longobriga = {
+				}
+				b_conobaria_longobriga = {
+				}
+				b_saudo_longobriga = {
+				}
 			}
-			b_collippo_conimbriga = {
+			c_egitania = {
+				color={ 103 32 247 }
+				color2={ 255 255 255 }
+
+				b_egitania_egitania = {
+				}
+				b_vicus_veniensis_egitania = {
+				}
+				b_ocelum_egitania = {
+				}
+				b_centum_celas_egitania = {
+				}
+				b_elbocoris_egitania = {
+				}
+				b_iulipa_egitania = {
+				}
+				b_contosolia_egitania = {
+				}
 			}
-			b_sellium_conimbriga = {
+			c_talabriga = {
+				color={ 110 39 249 }
+				color2={ 255 255 255 }
+
+				b_talabriga_talabriga = {
+				}
+				b_aeminium_talabriga = {
+				}
+				b_castellum_araocelum_talabriga = {
+				}
+				b_vissaium_talabriga = {
+				}
+				b_langobriga_talabriga = {
+				}
+				b_cappa_talabriga = {
+				}
+				b_basilippo_talabriga = {
+				}
 			}
-			b_magnum_conimbriga = {
+			c_conimbriga = {
+				color={ 116 27 255 }
+				color2={ 255 255 255 }
+				
+				b_conimbriga_conimbriga = {
+				}
+				b_collippo_conimbriga = {
+				}
+				b_sellium_conimbriga = {
+				}
+				b_magnum_conimbriga = {
+				}
+				b_luaron_conimbriga = {
+				}
+				b_arabriga_conimbriga = {
+				}
+				b_ad_aras_conimbriga = {
+				}
 			}
-			b_luaron_conimbriga = {
-			}
-			b_arabriga_conimbriga = {
-			}
-			b_ad_aras_conimbriga = {
+			c_elbocoris = {
+				color={ 110 43 247 }
+				color2={ 255 255 255 }
+				
+				b_elbocoris_elbocoris = {
+				}
+				b_caurium_elbocoris = {
+				}
+				b_rusticiana_elbocoris = {
+				}
+				b_lama_elbocoris = {
+				}
+				b_burdoga_elbocoris = {
+				}
+				b_iptuci_elbocoris = {
+				}
+				b_acinippo_elbocoris = {
+				}
 			}
 		}
-		c_elbocoris = {
-			color={ 0 0 0 }
+		d_celticia = {
+			color={ 132 66 255 }
 			color2={ 255 255 255 }
 			
-			b_elbocoris_elbocoris = {
+			capital = 949 # Olisipo
+
+			c_olisipo = {
+				color={ 120 58 244 }
+				color2={ 255 255 255 }
+
+				b_olisipo_olisipo = {
+				}
+				b_freiria_olisipo = {
+				}
+				b_ierabriga_olisipo = {
+				}
+				b_scallabis_olisipo = {
+				}
+				b_moron_olisipo = {
+				}
+				b_londobris_olisipo = {
+				}
+				b_eburobrittium_olisipo = {
+				}
 			}
-			b_caurium_elbocoris = {
+			c_ammaia = {
+				color={ 130 64 250 }
+				color2={ 255 255 255 }
+
+				b_ammaia_ammaia = {
+				}
+				b_vicus_camalocensis_ammaia = {
+				}
+				b_aritium_ammaia = {
+				}
+				b_aritium_praetorium_ammaia = {
+				}
+				b_tubucci_ammaia = {
+				}
+				b_matusarum_ammaia = {
+				}
+				b_vama_ammaia = {
+				}
+				b_serpa_ammaia = {
+				}
 			}
-			b_rusticiana_elbocoris = {
+			c_ebora = {
+				color={ 130 63 244 }
+				color2={ 255 255 255 }
+
+				b_ebora_ebora = {
+				}
+				b_calanta_ebora = {
+				}
+				b_lousa_ebora = {
+				}
+				b_farausto_ebora = {
+				}
+				b_chamine_ebora = {
+				}
+				b_bispo_ebora = {
+				}
+				b_vinagre_ebora = {
+				}
 			}
-			b_lama_elbocoris = {
+			c_badua = {
+				color={ 127 56 255 }
+				color2={ 255 255 255 }
+
+				b_badua_badua = {
+				}
+				b_augusta_emerita_badua = {
+				}
+				b_evandriana_badua = {
+				}
+				b_plagiaria_badua = {
+				}
+				b_ad_atrum_flumen_badua = {
+				}
+				b_ad_septem_aras_badua = {
+				}
+				b_melchor_badua = {
+				}
 			}
-			b_burdoga_elbocoris = {
+			c_salacia = {
+				color={ 123 67 247 }
+				color2={ 255 255 255 }
+
+				b_salacia_salacia = {
+				}
+				b_aquabona_salacia = {
+				}
+				b_caetobriga_salacia = {
+				}
+				b_chibanes_salacia = {
+				}
+				b_barbarion_salacia = {
+				}
+				b_malateca_salacia = {
+				}
+				b_serra_salacia = {
+				}
 			}
-			b_iptuci_elbocoris = {
+		}
+		d_cuneus = {
+			color={ 86 28 234 }
+			color2={ 255 255 255 }
+			
+			capital = 946 # Lacobriga
+
+			c_lacobriga = {
+				color={ 78 26 221 }
+				color2={ 255 255 255 }
+
+				b_lacobriga_lacobriga = {
+				}
+				b_mirobriga_lacobriga = {
+				}
+				b_patulus_portus_lacobriga = {
+				}
+				b_sines_lacobriga = {
+				}
+				b_aierdi_lacobriga = {
+				}
+				b_victoriacum_lacobriga = {
+				}
+				b_octaviolca_lacobriga = {
+				}
 			}
-			b_acinippo_elbocoris = {
+			c_myrtilis = {
+				color={ 89 33 242 }
+				color2={ 255 255 255 }	
+
+				b_myrtilis_myrtilis = {
+				}
+				b_arandis_myrtilis = {
+				}
+				b_chamine_myrtilis = {
+				}
+				b_pax_iulia_myrtilis = {
+				}
+				b_romano_myrtilis = {
+				}
+				b_cuclate_myrtilis = {
+				}
+				b_frades_myrtilis = {
+				}
+			}
+			c_ossonoba = {
+				color={ 91 40 234 }
+				color2={ 255 255 255 }
+
+				b_ossonoba_ossonoba = {
+				}	
+				b_cibillis_ossonoba = {
+				}	
+				b_lacobriga_ossonoba = {
+				}	
+				b_balsa_ossonoba = {
+				}	
+				b_baesuris_ossonoba = {
+				}	
+				b_martinhal_ossonoba = {
+				}	
+				b_portus_hannibalis_ossonoba = {
+				}	
 			}
 		}
 	}
-	d_celticia = {
-		color={ 230 75 25 }
+	k_baetica = {
+		color={ 247 118 103 }
 		color2={ 255 255 255 }
-		
-		capital = 949 # Olisipo
 
-		c_olisipo = {
-			color={ 220 240 90 }
+		capital = 929 # Corduba
+
+		d_tartessos = {
+			color={ 206 81 59 }
 			color2={ 255 255 255 }
+			
+			capital = 1133 # Tartessos
 
-			b_olisipo_olisipo = {
+			c_praesidium = {
+				color={ 198 85 65 }
+				color2={ 255 255 255 }
+
+				b_praesidium_praesidium = {
+				}
+				b_ostium_praesidium = {
+				}
+				b_ad_rubras_praesidium = {
+				}
+				b_ossonoba_praesidium = {
+				}
+				b_herculis_praesidium = {
+				}
+				b_tharsis_praesidium = {
+				}
+				b_campanario_praesidium = {
+				}
 			}
-			b_freiria_olisipo = {
+			c_gadir = {
+				color={ 211 71 52 }
+				color2={ 255 255 255 }
+
+				b_gadir_gadir = {
+				}
+				b_hasta_gadir = {
+				}
+				b_turirecina_gadir = {
+				}
+				b_nabrissa_gadir = {
+				}
+				b_ceret_gadir = {
+				}
+				b_iunonis_gadir = {
+				}
+				b_cotinussa_gadir = {
+				}
 			}
-			b_ierabriga_olisipo = {
+			c_osset = {
+				color={ 204 83 54 }
+				color2={ 255 255 255 }
+
+				b_osset_osset = {
+				}
+				b_italica_osset = {
+				}
+				b_caura_osset = {
+				}
+				b_paisoula_osset = {
+				}
+				b_itucci_osset = {
+				}
+				b_lastigi_osset = {
+				}
+				b_laelia_osset = {
+				}
 			}
-			b_scallabis_olisipo = {
-			}
-			b_moron_olisipo = {
-			}
-			b_londobris_olisipo = {
-			}
-			b_eburobrittium_olisipo = {
+			c_tartessos = {
+				color={ 214 79 53 }
+				color2={ 255 255 255 }
+
+				b_tartessos_tartessos = {
+				}
+				b_ilipula_tartessos = {
+				}
+				b_romano_tartessos = {
+				}
+				b_moranina_tartessos = {
+				}
+				b_olontigi_tartessos = {
+				}
+				b_hareni_tartessos = {
+				}
+				b_abul_tartessos = {
+				}
 			}
 		}
-		c_ammaia = {
-			color={ 20 75 120 }
+		d_bastulia = {
+			color={ 244 83 91 }
 			color2={ 255 255 255 }
+			
+			capital = 921 # Carteia
 
-			b_ammaia_ammaia = {
+			c_carteia = {
+				color={ 242 101 108 }
+				color2={ 255 255 255 }
+
+				b_carteia_carteia = {
+				}
+				b_iulia_traducta_carteia = {
+				}
+				b_baelo_carteia = {
+				}
+				b_asido_carteia = {
+				}
+				b_lascuta_carteia = {
+				}
+				b_cetaria_carteia = {
+				}
+				b_mercablum_carteia = {
+				}
 			}
-			b_vicus_camalocensis_ammaia = {
+			c_sabora = {
+				color={ 219 76 83 }
+				color2={ 255 255 255 }
+
+				b_sabora_sabora = {
+				}
+				b_ocuri_sabora = {
+				}
+				b_irni_sabora = {
+				}
+				b_arunda_sabora = {
+				}
+				b_saepo_sabora = {
+				}
+				b_kalathousa_sabora = {
+				}
+				b_cilpe_sabora = {
+				}
 			}
-			b_aritium_ammaia = {
+			c_suel = {
+				color={ 242 75 89 }
+				color2={ 255 255 255 }
+
+				b_suel_suel = {
+				}
+				b_barbesula_suel = {
+				}
+				b_lacippo_suel = {
+				}
+				b_onoba_suel = {
+				}
+				b_cilniana_suel = {
+				}
+				b_cartima_suel = {
+				}
+				b_erisane_suel = {
+				}
 			}
-			b_aritium_praetorium_ammaia = {
+			c_malaca = {
+				color={ 244 92 83 }
+				color2={ 255 255 255 }
+
+				b_malaca_malaca = {
+				}
+				b_nescania_malaca = {
+				}
+				b_anticaria_malaca = {
+				}
+				b_aratispi_malaca = {
+				}
+				b_mainake_malaca = {
+				}
+				b_maenuba_malaca = {
+				}
+				b_cavicium_malaca = {
+				}
 			}
-			b_tubucci_ammaia = {
-			}
-			b_matusarum_ammaia = {
-			}
-			b_vama_ammaia = {
-			}
-			b_serpa_ammaia = {
+			c_sexi = {
+				color={ 224 87 85 }
+				color2={ 255 255 255 }
+
+				b_sexi_sexi = {
+				}
+				b_cavicium_sexi = {
+				}
+				b_selambina_sexi = {
+				}
+				b_solorius_sexi = {
+				}
+				b_orospeda_sexi = {
+				}
+				b_ascua_sexi = {
+				}
+				b_batora_sexi = {
+				}
 			}
 		}
-		c_ebora = {
-			color={ 205 165 70 }
+		d_turdetania = {
+			color={ 244 141 85 }
 			color2={ 255 255 255 }
+			
+			capital = 918 # Hispalis
 
-			b_ebora_ebora = {
+			c_hispalis = {
+				color={ 237 129 71 }
+				color2={ 255 255 255 }
+
+				b_hispalis_hispalis = {
+				}
+				b_lucurgentum_hispalis = {
+				}
+				b_salpensa_hispalis = {
+				}
+				b_siarum_hispalis = {
+				}
+				b_callet_hispalis = {
+				}
+				b_urgia_hispalis = {
+				}
+				b_orippo_hispalis = {
+				}
 			}
-			b_calanta_ebora = {
+			c_segida_turdetania = {
+				color={ 247 155 98 }
+				color2={ 255 255 255 }
+
+				b_segida_segida_turdetania = {
+				}
+				b_lauro_segida_turdetania = {
+				}
+				b_urso_segida_turdetania = {
+				}
+				b_astigi_segida_turdetania = {
+				}
+				b_illipula_segida_turdetania = {
+				}
+				b_carruca_segida_turdetania = {
+				}
+				b_iluro_segida_turdetania = {
+				}
 			}
-			b_lousa_ebora = {
-			}
-			b_farausto_ebora = {
-			}
-			b_chamine_ebora = {
-			}
-			b_bispo_ebora = {
-			}
-			b_vinagre_ebora = {
+			c_munigua = {
+				color={ 234 125 82 }
+				color2={ 255 255 255 }
+
+				b_munigua_munigua = {
+				}
+				b_naeva_munigua = {
+				}
+				b_canama_munigua = {
+				}
+				b_arva_munigua = {
+				}
+				b_axati_munigua = {
+				}
+				b_celti_munigua = {
+				}
+				b_iporca_munigua = {
+				}
 			}
 		}
-		c_badua = {
-			color={ 105 105 75 }
+		d_turdulia = {
+			color={ 244 65 56 }
 			color2={ 255 255 255 }
+			
+			capital = 913 # Segida
 
-			b_badua_badua = {
+			c_segida = {
+				color={ 229 49 43 }
+				color2={ 255 255 255 }
+
+				b_segida_segida = {
+				}
+				b_fines_segida = {
+				}
+				b_seria_segida = {
+				}
+				b_nertobriga_segida = {
+				}
+				b_curiga_segida = {
+				}
+				b_lacunis_segida = {
+				}
+				b_contributa_segida = {
+				}
 			}
-			b_augusta_emerita_badua = {
+			c_artigi = {
+				color={ 237 80 65 }
+				color2={ 255 255 255 }
+
+				b_artigi_artigi = {
+				}
+				b_municipium_flavium_artigi = {
+				}
+				b_caspiana_artigi = {
+				}
+				b_phornakis_artigi = {
+				}
+				b_brutobriga_artigi = {
+				}
+				b_mellaria_artigi = {
+				}
+				b_perceiana_artigi = {
+				}
 			}
-			b_evandriana_badua = {
-			}
-			b_plagiaria_badua = {
-			}
-			b_ad_atrum_flumen_badua = {
-			}
-			b_ad_septem_aras_badua = {
-			}
-			b_melchor_badua = {
+			c_turobriga = {
+				color={ 232 70 62 }
+				color2={ 255 255 255 }
+
+				b_turobriga_turobriga = {
+				}
+				b_urium_turobriga = {
+				}
+				b_fodinae_turobriga = {
+				}
+				b_eulalia_turobriga = {
+				}
+				b_telmo_turobriga = {
+				}
+				b_kortikata_turobriga = {
+				}
+				b_arucci_turobriga = {
+				}
 			}
 		}
-		c_salacia = {
-			color={ 0 0 0 }
+		d_certis = {
+			color={ 232 131 120 }
 			color2={ 255 255 255 }
 
-			b_salacia_salacia = {
+			capital = 929 # Corduba
+
+			c_corduba = {
+				color={ 219 130 122 }
+				color2={ 255 255 255 }
+
+				b_corduba_corduba = {
+				}
+				b_carbula_corduba = {
+				}
+				b_ad_decumum_corduba = {
+				}
+				b_onuba_corduba = {
+				}
+				b_sacili_corduba = {
+				}
+				b_epora_corduba = {
+				}
+				b_mellara_corduba = {
+				}
 			}
-			b_aquabona_salacia = {
+			c_ulia = {
+				color={ 229 121 124 }
+				color2={ 255 255 255 }
+
+				b_ulia_ulia = {
+				}
+				b_sabetanum_ulia = {
+				}
+				b_igabrum_ulia = {
+				}
+				b_cisimbrium_ulia = {
+				}
+				b_iptuci_ulia = {
+				}
+				b_ipsca_ulia = {
+				}
+				b_ucubi_ulia = {
+				}
 			}
-			b_caetobriga_salacia = {
+			c_acci = {
+				color={ 228 134 141 }
+				color2={ 255 255 255 }
+
+				b_acci_acci = {
+				}
+				b_iliberri_acci = {
+				}
+				b_vergilia_acci = {
+				}
+				b_iliturgicola_acci = {
+				}
+				b_aiungi_acci = {
+				}
+				b_sosontigi_acci = {
+				}
+				b_aurgi_acci = {
+				}
 			}
-			b_chibanes_salacia = {
-			}
-			b_barbarion_salacia = {
-			}
-			b_malateca_salacia = {
-			}
-			b_serra_salacia = {
+			c_sucia = {
+				color={ 220 124 117 }
+				color2={ 255 255 255 }
+
+				b_sucia_sucia = {
+				}
+				b_isturgi_sucia = {
+				}
+				b_baecula_sucia = {
+				}
+				b_castulo_sucia = {
+				}
+				b_ad_aras_sucia = {
+				}
+				b_oducia_sucia = {
+				}
+				b_carmo_sucia = {
+				}
 			}
 		}
 	}
-	d_cuneus = {
-		color={ 255 165 70 }
+	k_carthaginensis = {
+		color={ 255 38 157 }
 		color2={ 255 255 255 }
-		
-		capital = 946 # Lacobriga
 
-		c_lacobriga = {
-			color={ 155 165 70 }
-			color2={ 255 255 255 }
-
-			b_lacobriga_lacobriga = {
-			}
-			b_mirobriga_lacobriga = {
-			}
-			b_patulus_portus_lacobriga = {
-			}
-			b_sines_lacobriga = {
-			}
-			b_aierdi_lacobriga = {
-			}
-			b_victoriacum_lacobriga = {
-			}
-			b_octaviolca_lacobriga = {
-			}
-		}
-		c_myrtilis = {
-			color={ 100 165 70 }
-			color2={ 255 255 255 }	
-
-			b_myrtilis_myrtilis = {
-			}
-			b_arandis_myrtilis = {
-			}
-			b_chamine_myrtilis = {
-			}
-			b_pax_iulia_myrtilis = {
-			}
-			b_romano_myrtilis = {
-			}
-			b_cuclate_myrtilis = {
-			}
-			b_frades_myrtilis = {
-			}
-		}
-		c_ossonoba = {
-			color={ 50 165 70 }
-			color2={ 255 255 255 }
-
-			b_ossonoba_ossonoba = {
-			}	
-			b_cibillis_ossonoba = {
-			}	
-			b_lacobriga_ossonoba = {
-			}	
-			b_balsa_ossonoba = {
-			}	
-			b_baesuris_ossonoba = {
-			}	
-			b_martinhal_ossonoba = {
-			}	
-			b_portus_hannibalis_ossonoba = {
-			}	
-		}
-	}
-}
-k_gallaecia = {
-	color={ 40 160 45 }
-	color2={ 255 255 255 }
-	
-	capital = 959 # Brigantium
-	
-	d_callaecia = {
-		color={ 65 200 75 }
-		color2={ 255 255 255 }
-		
-		capital = 959 # Brigantium
-		
-		c_brigantium = {
-			color={ 40 100 40 }
-			color2={ 255 255 255 }
-
-			b_brigantium_brigantium = {
-			}
-			b_cohors_i_celtiberorum_brigantium = {
-			}
-			b_caranicum_brigantium = {
-			}
-			b_brevis_brigantium = {
-			}
-			b_phlaouia_lambris_brigantium = {
-			}
-			b_trileukoi_brigantium = {
-			}
-			b_britaniensis_brigantium = {
-			}
-		}
-		c_glandimirum = {
-			color={ 40 150 40 }
-			color2={ 255 255 255 }
-
-			b_glandimirum_glandimirum = {
-			}
-			b_vicus_spacorum_glandimirum = {
-			}
-			b_burbida_glandimirum = {
-			}
-			b_turoqua_glandimirum = {
-			}
-			b_ad_duos_pontes_glandimirum = {
-			}
-			b_aquae_clidae_glandimirum = {
-			}
-			b_turris_augusti_glandimirum = {
-			}
-		}
-		c_bracara = {
-			color={ 35 45 225 }
-			color2={ 255 255 255 }
-
-			b_bracara_bracara = {
-			}
-			b_limia_bracara = {
-			}
-			b_aquae_originae_bracara = {
-			}
-			b_salaniana_bracara = {
-			}
-			b_salacia_bracara = {
-			}
-			b_avobriga_bracara = {
-			}
-			b_tongobriga_bracara = {
-			}
-		}
-		c_caladunum = {
-			color={ 0 0 0 }
-			color2={ 255 255 255 }
-			
-			b_caladunum_caladunum = {
-			}
-			b_aquae_flaviae_caladunum = {
-			}
-			b_forum_limicorum_caladunum = {
-			}
-			b_vicus_atucausensis_caladunum = {
-			}
-			b_oculis_caladunum = {
-			}
-			b_lamecum_caladunum = {
-			}
-			b_praesidio_caladunum = {
-			}
-		}
-		c_dactionum = {
-			color={ 0 0 0 }
-			color2={ 255 255 255 }
-			
-			b_dactionum_dactionum = {
-			}
-			b_geminae_dactionum = {
-			}
-			b_salientes_dactionum = {
-			}
-			b_aurium_dactionum = {
-			}
-			b_lansbrica_dactionum = {
-			}
-			b_castellum_meidunium_dactionum = {
-			}
-			b_aquae_quintinae_dactionum = {
-			}
-		}
-		c_gigia = {
-			color={ 0 0 0 }
-			color2={ 255 255 255 }
-			
-			b_gigia_gigia = {
-			}
-			b_lucus_asturum_gigia = {
-			}
-			b_flavionavia_gigia = {
-			}
-			b_arante_gigia = {
-			}
-			b_fornelo_gigia = {
-			}
-			b_pendia_gigia = {
-			}
-			b_memoriana_gigia = {
-			}
-		}
-	}
-	d_asturia = {
-		color={ 5 125 10 }
-		color2={ 255 255 255 }
-		
-		capital = 962 # Asturica
-		
-		c_asturica = {
-			color={ 75 100 25 }
-			color2={ 255 255 255 }
-
-			b_asturica_asturica = {
-			}
-			b_cohors_iv_gallorum_asturica = {
-			}
-			b_argentiolum_asturica = {
-			}
-			b_baedunia_asturica = {
-			}
-			b_interamnium_flavium_asturica = {
-			}
-			b_berbea_asturica = {
-			}
-			b_abiada_asturica = {
-			}
-		}
-		c_compleutica = {
-			color={ 85 120 35 }
-			color2={ 255 255 255 }
-
-			b_compleutica_compleutica = {
-			}
-			b_civitas_baniensium_compleutica = {
-			}
-			b_vicus_vagornicensis_compleutica = {
-			}
-			b_civitas_zoelarum_compleutica = {
-			}
-			b_urros_compleutica = {
-			}
-			b_pedra_compleutica = {
-			}
-			b_carasta_compleutica = {
-			}
-		}
-		c_lance = {
-			color={ 5 125 10 }
-			color2={ 255 255 255 }
-
-			b_lance_lance = {
-			}
-			b_equosera_lance = {
-			}
-			b_vallata_lance = {
-			}
-			b_legio_vii_gemina_lance = {
-			}
-			b_interamnium_lance = {
-			}
-			b_comeniaca_lance = {
-			}
-			b_palantia_lance = {
-			}
-		}
-		c_uttaris = {
-			color={ 0 0 0 }
-			color2={ 255 255 255 }
-			
-			b_uttaris_uttaris = {
-			}
-			b_praesidium_uttaris = {
-			}
-			b_nemetobriga_uttaris = {
-			}
-			b_forum_gigurrorum_uttaris = {
-			}
-			b_gemestarium_uttaris = {
-			}
-			b_bergidum_flavium_uttaris = {
-			}
-			b_laron_uttaris = {
-			}
-		}
-		c_ocelum = {
-			color={ 205 205 15 }
-			color2={ 255 255 255 }
-
-			b_ocelum_ocelum = {
-			}
-			b_veniatia_ocelum = {
-			}
-			b_vicus_aquarius_ocelum = {
-			}
-			b_preterion_ocelum = {
-			}
-			b_petavonium_ocelum = {
-			}
-			b_tera_ocelum = {
-			}
-			b_aliste_ocelum = {
-			}
-		}
-		c_pailontion = {
-			color={ 0 0 0 }
-			color2={ 255 255 255 }
-			
-			b_pailontion_pailontion = {
-			}
-			b_kamarika_pailontion = {
-			}
-			b_lerones_pailontion = {
-			}
-			b_abandames_pailontion = {
-			}
-			b_auca_pailontion = {
-			}
-			b_salionka_pailontion = {
-			}
-			b_salces_pailontion = {
-			}
-		}
-		c_alisanco = {
-			color={ 0 0 0 }
-			color2={ 255 255 255 }
-			
-			b_alisanco_alisanco = {
-			}
-			b_tritium_magallum_alisanco = {
-			}
-			b_atiliana_alisanco = {
-			}
-			b_libia_alisanco = {
-			}
-			b_segesamunculum_alisanco = {
-			}
-			b_antequia_alisanco = {
-			}
-			b_vindeleia_alisanco = {
-			}
-		}
-		c_andelos = {
-			color={ 0 0 0 }
-			color2={ 255 255 255 }
-			
-			b_andelos_andelos = {
-			}
-			b_ologicus_andelos = {
-			}
-			b_cara_andelos = {
-			}
-			b_moros_andelos = {
-			}
-			b_musas_andelos = {
-			}
-			b_beturri_andelos = {
-			}
-			b_romana_andelos = {
-			}
-		}
-		c_nooulon = {
-			color={ 0 0 0 }
-			color2={ 255 255 255 }
-			
-			b_nooulon_nooulon = {
-			}
-			b_iria_flavia_nooulon = {
-			}
-			b_assegonia_nooulon = {
-			}
-			b_artabron_limen_nooulon = {
-			}
-			b_nerion_nooulon = {
-			}
-			b_castellum_aviliobris_nooulon = {
-			}
-			b_camala_brigaecium_nooulon = {
-			}
-		}
-	}
-}
-k_hispa = {
-	color={ 51 102 0 }
-	color2={ 255 255 255 }
-	
-	capital = 1201 # Toletum
-	
-	d_vasconia = {
-		color ={ 0 102 124 }
-		color2 = { 255 255 255 }
-		
-		capital = 979 # Segia
-
-		c_segia = {
-			color={ 0 153 124 }
-			color2={ 255 255 255 }
-			
-			b_segia_segia = {
-			}
-			b_jaca_segia = {
-			}
-			b_ilumberis_segia = {
-			}
-			b_calvo_segia = {
-			}
-			b_biclaro_segia = {
-			}
-			b_semproniana_segia = {
-			}
-			b_egara_segia = {
-			}
-		}
-		c_oiasso = {
-			color={ 51 51 73 }
-			color2={ 255 255 255 }
-			
-			b_oiasso_oiasso = {
-			}
-			b_alba_oiasso = {
-			}
-			b_aracaeli_oiasso = {
-			}
-			b_alantone_oiasso = {
-			}
-			b_pompelo_oiasso = {
-			}
-			b_lapurdum_oiasso = {
-			}
-			b_itourissa_oiasso = {
-			}
-		}
-		c_iluro = {
-			color= { 50 190 10 }
-			color2= { 255 255 255 }
-			
-			b_iluro_iluro = {
-			}
-			b_imus_pyreneus_iluro = {
-			}
-			b_carasa_iluro = {
-			}
-			b_aspalluga_iluro = {
-			}
-			b_forum_ligneum_iluro = {
-			}
-			b_summus_pyreneus_iluro = {
-			}
-			b_ictium_iluro = {
-			}
-		}
-	}
-	d_cantabria = {
-		color={ 0 51 124 }
-		color2={ 255 255 255 }
-		
-		capital = 1215 # Brigaecium
-
-		c_brigaecium = {
-			color={ 10 200 160 }
-			color2={ 255 255 255 }
-			
-			b_brigaecium_brigaecium = {
-			}
-			b_viminacium_brigaecium = {
-			}
-			b_saldania_brigaecium = {
-			}
-			b_lacobriga_brigaecium = {
-			}
-			b_ambisna_brigaecium = {
-			}
-			b_avia_brigaecium = {
-			}
-			b_dessobriga_brigaecium = {
-			}
-		}
-		c_palantia = {
-			color={ 15 250 175 }
-			color2={ 255 255 255 }
-			
-			b_palantia_palantia = {
-			}
-			b_segisamo_palantia = {
-			}
-			b_segisama_iulia_palantia = {
-			}
-			b_pisoraca_palantia = {
-			}
-			b_amaia_palantia = {
-			}
-			b_maggaviensium_palantia = {
-			}
-			b_utana_palantia = {
-			}
-		}
-		c_aracelium = {
-			color={ 40 200 150 }
-			color2={ 255 255 255 }
-			
-			b_aracelium_aracelium = {
-			}
-			b_flaviobriga_aracelium = {
-			}
-			b_segontia_paramika_aracelium = {
-			}
-			b_portus_veseiasueca_aracelium = {
-			}
-			b_vicus_aunigainum_aracelium = {
-			}
-			b_portus_blendium_aracelium = {
-			}
-			b_portus_victuriae_iuliobrigensium_aracelium = {
-			}
-		}
-		c_gebala = {
-			color={ 30 200 150 }
-			color2={ 255 255 255 }
-			
-			b_gebala_gebala = {
-			}
-			b_victoriacum_gebala = {
-			}
-			b_belegia_gebala = {
-			}
-			b_suessatium_gebala = {
-			}
-			b_tullonium_gebala = {
-			}
-			b_arrola_gebala = {
-			}
-			b_ermita_gebala = {
-			}
-		}
-	}
-	d_vaccaea = {
-		color={ 204 136 221 }
-		color2={ 255 255 255 }
-		
-		capital = 1208 # Salmantica
-
-		c_salmantica = {
-			color= { 130 75 160 }
-			color2={ 255 255 255 }
-
-			b_salmantica_salmantica = {
-			}
-			b_sibaris_salmantica = {
-			}
-			b_ocelum_duri_salmantica = {
-			}
-			b_arboukale_salmantica = {
-			}
-			b_carbellino_salmantica = {
-			}
-			b_mamede_salmantica = {
-			}
-			b_ulaca_salmantica = {
-			}
-		}
-		c_segovia = {
-			color={ 100 40 100 }
-			color2={ 255 255 255 }
-
-			b_segovia_segovia = {
-			}
-			b_nivaria_segovia = {
-			}
-			b_cauca_segovia = {
-			}
-			b_pintia_segovia = {
-			}
-			b_brittablo_segovia = {
-			}
-			b_saucedo_segovia = {
-			}
-			b_centro_segovia = {
-			}
-		}
-		c_amallobriga = {
-			color={ 25 110 200 }
-			color2={ 255 255 255 }
-
-			b_amallobriga_amallobriga = {
-			}
-			b_septimanca_amallobriga = {
-			}
-			b_gella_amallobriga = {
-			}
-			b_intercatia_amallobriga = {
-			}
-			b_iuliobriga_amallobriga = {
-			}
-			b_tritium_amallobriga = {
-			}
-			b_autraka_amallobriga = {
-			}
-		}
-		c_turbes = {
-			color={ 20 10 145 }
-			color2={ 255 255 255 }
-
-			b_turbes_turbes = {
-			}
-			b_mancellus_turbes = {
-			}
-			b_pallantia_turbes = {
-			}
-			b_pampligua_turbes = {
-			}
-			b_nova_augusta_turbes = {
-			}
-			b_deobrigula_turbes = {
-			}
-			b_brauon_turbes = {
-			}
-		}
-	}
-	d_celtiberia = {
-		color={ 153 136 221 }
-		color2={ 255 255 255 }
-		
-		capital = 1211 # Termes
-
-		c_termes = {
-			color={ 170 105 20 }
-			color2={ 255 255 255 }
-
-			b_termes_termes = {
-			}
-			b_voluca_termes = {
-			}
-			b_uxama_argaela_termes = {
-			}
-			b_clunia_sulpicia_termes = {
-			}
-			b_segortia_lanka_termes = {
-			}
-			b_confluentia_termes = {
-			}
-			b_carduae_termes = {
-			}
-		}
-		c_bilbilis = {
-			color={ 200 20 130 }
-			color2={ 255 255 255 }
-
-			b_bilbilis_bilbilis = {
-			}
-			b_pagus_gallorum_et_segardinenssium_bilbilis = {
-			}
-			b_aquae_bilbitanorum_bilbilis = {
-			}
-			b_allobo_bilbilis = {
-			}
-			b_aratikos_bilbilis = {
-			}
-			b_tertakom_bilbilis = {
-			}
-			b_caravis_bilbilis = {
-			}
-		}
-		c_numantia = { 
-			color={ 135 145 80 }
-			color2={ 255 255 255 }
-
-			b_numantia_numantia = {
-			}
-			b_ouisontion_numantia = {
-			}
-			b_calagurris_nasica_iulia_numantia = {
-			}
-			b_contrebia_leucada_numantia = {
-			}
-			b_casantum_numantia = {
-			}
-			b_vareia_numantia = {
-			}
-			b_ilurcis_numantia = {
-			}
-		}
-		c_loutia = {
-			color={ 190 55 200 }
-			color2={ 255 255 255 }
-
-			b_loutia_loutia = {
-			}
-			b_segontia_loutia = {
-			}
-			b_okilis_loutia = {
-			}
-			b_cortona_loutia = {
-			}
-			b_acrobriga_loutia = {
-			}
-			b_carae_loutia = {
-			}
-			b_segeda_loutia = {
-			}
-		}
-		c_ocules = {
-			color={ 120 110 20 }
-			color2={ 255 255 255 }
-
-			b_ocules_ocules = {
-			}
-			b_ercavica_ocules = {
-			}
-			b_reccopolis_ocules = {
-			}
-			b_opta_ocules = {
-			}
-			b_segobriga_ocules = {
-			}
-			b_ilturir_ocules = {
-			}
-			b_ebura_ocules = {
-			}
-		}
-		c_valeria = {
-			color={ 25 150 100 }
-			color2={ 255 255 255 }
-
-			b_valeria_valeria = {
-			}
-			b_ad_putea_valeria = {
-			}
-			b_iniesta_valeria = {
-			}
-			b_molon_valeria = {
-			}
-			b_mina_valeria = {
-			}
-			b_ostur_valeria = {
-			}
-			b_almensilla_valeria = {
-			}
-		}
-	}
-	d_carpetania = {
-		color={ 153 85 170}
-		color2={ 255 255 255 }
-		
-		capital = 1201 # Toletum
-		
-		c_toletum = {
-			color={ 60 180 30 }
-			color2={ 255 255 255 }
-
-			b_toletum_toletum = {
-			}
-			b_consabura_toletum = {
-			}
-			b_alces_toletum = {
-			}
-			b_vicus_cuminarius_toletum = {
-			}
-			b_baebelo_toletum = {
-			}
-			b_ad_duo_solaria_toletum = {
-			}
-			b_ad_turres_toletum = {
-			}
-		}
-		c_arriaca = {
-			color={ 130 50 60 }
-			color2={ 255 255 255 }
-
-			b_arriaca_arriaca = {
-			}
-			b_titulcia_arriaca = {
-			}
-			b_caracca_arriaca = {
-			}
-			b_complutum_arriaca = {
-			}
-			b_caesada_arriaca = {
-			}
-			b_regina_arriaca = {
-			}
-			b_metellinum_arriaca = {
-			}
-		}
-	}
-	d_oretania = {
-		color={ 60 160 140 }
-		color2={ 255 255 255 }
-		
-		capital = 931 # Laminium
-		
-		c_laminium = {
-			color={ 60 100 130 }
-			color2={ 255 255 255 }
-
-			b_laminium_laminium = {
-			}
-			b_alaba_laminium = {
-			}
-			b_ad_murum_laminium = {
-			}
-			b_caput_anae_laminium = {
-			}
-			b_mentesa_laminium = {
-			}
-			b_mariana_laminium = {
-			}
-			b_ad_turres_laminium = {
-			}
-		}
-		c_edeba = {
-			color={ 30 20 110 }
-			color2={ 255 255 255 }
-
-			b_edeba_edeba = {
-			}
-			b_vivatia_edeba = {
-			}
-			b_salaria_edeba = {
-			}
-			b_ilugo_edeba = {
-			}
-			b_baesucci_edeba = {
-			}
-			b_oretum_edeba = {
-			}
-			b_mariana_edeba = {
-			}
-		}
-		c_tugia = {
-			color={ 135 20 155 }
-			color2={ 255 255 255 }
-
-			b_tugia_tugia = {
-			}
-			b_salaria_tugia = {
-			}
-			b_aregua_tugia = {
-			}
-			b_obulco_tugia = {
-			}
-			b_urgao_tugia = {
-			}
-			b_abra_tugia = {
-			}
-			b_mentesa_bastia_tugia = {
-			}
-		}
-		c_libisosa = {
-			color={ 120 130 100 }
-			color2={ 255 255 255 }
-
-			b_libisosa_libisosa = {
-			}
-			b_mariana_libisosa = {
-			}
-			b_mentesa_libisosa = {
-			}
-			b_bigerra_libisosa = {
-			}
-			b_parietinae_libisosa = {
-			}
-			b_salika_libisosa = {
-			}
-			b_caput_libisosa = {
-			}
-		}
-		c_sucia = {
-			color={ 0 0 0 }
-			color2={ 255 255 255 }
-
-			b_sucia_sucia = {
-			}
-			b_isturgi_sucia = {
-			}
-			b_baecula_sucia = {
-			}
-			b_castulo_sucia = {
-			}
-			b_ad_aras_sucia = {
-			}
-			b_oducia_sucia = {
-			}
-			b_carmo_sucia = {
-			}
-		}
-	}
-}
-k_iberia = {
-	color={ 153 51 0 }
-	color2={ 255 255 255 }
-	
-	capital = 939 # Carthago Nova
-
-	d_sicoria = {		
-		color={ 185 95 65 }
-		color2={ 255 255 255 }
-		
-		capital = 974 # Osca
-
-		c_osca = {
-			color={ 134 95 65 }
-			color2={ 255 255 255 }
-			
-			b_osca_osca = {
-			}
-			b_pertusa_osca = {
-			}
-			b_bourtina_osca = {
-			}
-			b_forum_gallorum_osca = {
-			}
-			b_ebelinum_osca = {
-			}
-			b_calagurris_fibularia_osca = {
-			}
-			b_iacca_osca = {
-			}
-		}
-		c_labitulosa = {
-			color={ 236 95 65 }
-			color2={ 255 255 255 }
-			
-			b_labitulosa_labitulosa = {
-			}
-			b_boletum_labitulosa = {
-			}
-			b_tolous_labitulosa = {
-			}
-			b_mendiculeia_labitulosa = {
-			}
-			b_askerris_labitulosa = {
-			}
-			b_victoriano_labitulosa = {
-			}
-			b_cinca_labitulosa = {
-			}
-		}
-		c_urgellum = {
-			color={ 185 146 65 }
-			color2={ 255 255 255 }
-			
-			b_urgellum_urgellum = {
-			}
-			b_setelsis_urgellum = {
-			}
-			b_aeso_urgellum = {
-			}
-			b_orgia_urgellum = {
-			}
-			b_ager_urgellum = {
-			}
-			b_ioulia_libika_urgellum = {
-			}
-			b_basella_urgellum = {
-			}
-		}
-		c_celsa = {
-			color={ 0 0 0 }
-			color2={ 255 255 255 }
-			
-			b_celsa_celsa = {
-			}
-			b_gallicum_celsa = {
-			}
-			b_ebro_celsa = {
-			}
-			b_castra_octavianum_celsa = {
-			}
-			b_iluro_celsa = {
-			}
-			b_fornaca_celsa = {
-			}
-			b_laelia_celsa = {
-			}
-		}
-	}
-	d_cessetania = {
-		color={ 235 95 45 }
-		color2={ 255 255 255 }
-		
-		capital = 971 # Ilerda
-
-		c_ilerda = {
-			color={ 184 95 45 }
-			color2={ 255 255 255 }
-			
-			b_ilerda_ilerda = {
-			}
-			b_ad_novas_ilerda = {
-			}
-			b_otobesa_ilerda = {
-			}
-			b_gallika_phlaouia_ilerda = {
-			}
-			b_geno_ilerda = {
-			}
-			b_keresos_ilerda = {
-			}
-			b_iessos_ilerda = {
-			}
-		}
-		c_dertosa = {
-			color={ 235 146 45 }
-			color2={ 255 255 255 }
-			
-			b_dertosa_dertosa ={
-			}
-			b_tria_capita_dertosa ={
-			}
-			b_sub_saltu_dertosa ={
-			}
-			b_oleastrum_dertosa ={
-			}
-			b_salauris_dertosa ={
-			}
-			b_kissa_dertosa ={
-			}
-			b_carrova_dertosa ={
-			}
-		}
-		c_tarraco = {
-			color={ 235 44 45 }
-			color2={ 255 255 255 }
-			
-			b_tarraco_tarraco = {
-			}
-			b_subur_tarraco = {
-			}
-			b_sigarra_tarraco = {
-			}
-			b_antistiana_tarraco = {
-			}
-			b_stabulum_novum_tarraco = {
-			}
-			b_palfuriana_tarraco = {
-			}
-			b_ad_septimum_decimum_tarraco = {
-			}
-		}
-	}
-	d_laetania = {
-		color={ 160 80 45 }
-		color2={ 255 255 255 }
-		
-		capital = 970 # Auso
-
-		c_auso = {
-			color={ 109 80 45 }
-			color2={ 255 255 255 }
-			
-			b_auso_auso = {
-			}
-			b_bonelis_auso = {
-			}
-			b_hereus_auso = {
-			}
-			b_matacans_auso = {
-			}
-			b_caseta_auso = {
-			}
-			b_praetorium_auso = {
-			}
-			b_bisbe_auso = {
-			}
-		}
-		c_baetulo = {
-			color={ 58 80 45 }
-			color2={ 255 255 255 }
-			
-			b_baetulo_baetulo = {
-			}
-			b_ilduro_baetulo = {
-			}
-			b_barcino_baetulo = {
-			}
-			b_lauro_baetulo = {
-			}
-			b_arragona_baetulo = {
-			}
-			b_aquae_calidae_baetulo = {
-			}
-			b_rubricatum_baetulo = {
-			}
-		}
-		c_turissa = {
-			color={ 160 29 45 }
-			color2={ 255 255 255 }
-			
-			b_turissa_turissa = {
-			}
-			b_blandae_turissa = {
-			}
-			b_seterrae_turissa = {
-			}
-			b_aquae_voconiae_turissa = {
-			}
-			b_gerunda_turissa = {
-			}
-			b_collet_turissa = {
-			}
-			b_lounarion_turissa = {
-			}
-		}
-		c_sebendounon = {
-			color={ 160 80 96 }
-			color2={ 255 255 255 }
-			
-			b_sebendounon_sebendounon = {
-			}
-			b_ramis_sebendounon = {
-			}
-			b_vilauba_sebendounon = {
-			}
-			b_abella_sebendounon = {
-			}
-			b_ad_fines_sebendounon = {
-			}
-			b_iuncaria_sebendounon = {
-			}
-			b_cinniana_sebendounon = {
-			}
-		}
-		c_emporion = {
-			color={ 109 80 96 }
-			color2={ 255 255 255 }
-			
-			b_emporion_emporion = {
-			}
-			b_rhoda_emporion = {
-			}
-			b_cervaria_emporion = {
-			}
-			b_pyrenaei_emporion = {
-			}
-			b_ad_pyrenaeum_emporion = {
-			}
-			b_pompei_tropaea_emporion = {
-			}
-			b_deciana_emporion = {
-			}
-		}
-	}
-	d_edetania = {
-		color={ 240 160 130 }
-		color2={ 255 255 255 }
-		
-		capital = 964 # Indibilis
-
-		c_indibilis = {
-			color={ 190 160 130 }
-			color2={ 255 255 255 }
-			
-			b_indibilis_indibilis = {
-			}
-			b_adeba_indibilis = {
-			}
-			b_ildum_indibilis = {
-			}
-			b_etobesa_indibilis = {
-			}
-			b_ad_novias_indibilis = {
-			}
-			b_lassira_indibilis = {
-			}
-			b_sacrum_indibilis = {
-			}
-		}
-		c_saguntum = {
-			color={ 240 110 130 }
-			color2={ 255 255 255 }
-			
-			b_saguntum_saguntum = {
-			}
-			b_edeta_saguntum = {
-			}
-			b_valentia_saguntum = {
-			}
-			b_sebelaci_saguntum = {
-			}
-			b_aipora_saguntum = {
-			}
-			b_phosphoros_saguntum = {
-			}
-			b_ad_portum_saguntum = {
-			}
-		}
-		c_contrebia = {
-			color={ 240 160 130 }
-			color2={ 255 255 255 }
-
-			b_contrebia_contrebia = {
-			}
-			b_beligio_contrebia = {
-			}
-			b_caesaraugusta_contrebia = {
-			}
-			b_segontia_contrebia = {
-			}
-			b_castra_aelia_contrebia = {
-			}
-			b_nertobriga_contrebia = {
-			}
-			b_sermonae_contrebia = {
-			}
-		}
-		c_lassira = {
-			color={ 0 0 0 }
-			color2={ 255 255 255 }
-			
-			b_lassira_lassira = {
-			}
-			b_auci_lassira = {
-			}
-			b_ermila_lassira = {
-			}
-			b_lorna_lassira = {
-			}
-			b_moro_lassira = {
-			}
-			b_albus_portus_lassira = {
-			}
-			b_saguntia_lassira = {
-			}
-		}
-		c_urbiaca = {
-			color={ 0 0 0 }
-			color2={ 255 255 255 }
-			
-			b_urbiaca_urbiaca = {
-			}
-			b_lobeton_urbiaca = {
-			}
-			b_mora_urbiaca = {
-			}
-			b_ad_pontem_urbiaca = {
-			}
-			b_martires_urbiaca = {
-			}
-			b_caepionis_urbiaca = {
-			}
-			b_lacca_urbiaca = {
-			}
-		}
-	}
-	d_contestania = {
-		color={ 185 75 0 }
-		color2={ 255 255 255 }
-		
-		capital = 936 # Hemeroskopion
-
-		c_hemeroskopion = {
-			color={ 135 75 0 }
-			color2={ 255 255 255 }
-			
-			b_hemeroskopion_hemeroskopion = {
-			}
-			b_portus_sucronis_hemeroskopion = {
-			}
-			b_sucro_hemeroskopion = {
-			}
-			b_planesia_hemeroskopion = {
-			}
-			b_ferrarium_hemeroskopion = {
-			}
-			b_ad_gemellas_hemeroskopion = {
-			}
-			b_marruca_hemeroskopion = {
-			}
-		}
-		c_saetabis = {
-			color={ 85 75 0 }
-			color2={ 255 255 255 }
-			
-			b_saetabis_saetabis = {
-			}
-			b_ad_turres_saetabis = {
-			}
-			b_ad_aras_saetabis = {
-			}
-			b_ad_statuas_saetabis = {
-			}
-			b_iliturgi_saetabis = {
-			}
-			b_abra_saetabis = {
-			}
-			b_cantigi_saetabis = {
-			}
-		}
-		c_ilorci = {
-			color={ 185 155 0 }
-			color2={ 255 255 255} 
-			
-			b_ilorci_ilorci = {
-			}
-			b_segisa_ilorci = {
-			}
-			b_ilounon_ilorci = {
-			}
-			b_elotana_ilorci = {
-			}
-			b_mellaria_ilorci = {
-			}
-			b_baesippo_ilorci = {
-			}
-			b_ad_herculem_ilorci = {
-			}
-		}
-		c_lucentum = {
-			color={ 0 0 0 }
-			color2={ 255 255 255} 
-			
-			b_lucentum_lucentum = {
-			}
-			b_ad_leones_lucentum = {
-			}
-			b_alonis_lucentum = {
-			}
-			b_althia_lucentum = {
-			}
-			b_ad_ello_lucentum = {
-			}
-			b_obulcula_lucentum = {
-			}
-			b_munda_lucentum = {
-			}
-		}
-	}
-	d_bastetania = {
-		color={ 135 20 5 }
-		color2={ 255 255 255 }
-		
 		capital = 939 # Carthago Nova
 
-		c_carthago_nova = {
-			color={ 85 20 5 }
+		d_contestania = {
+			color={ 255 58 120 }
 			color2={ 255 255 255 }
 			
-			b_carthago_nova_carthago_nova = {
+			capital = 936 # Hemeroskopion
+
+			c_hemeroskopion = {
+				color={ 244 66 122 }
+				color2={ 255 255 255 }
+				
+				b_hemeroskopion_hemeroskopion = {
+				}
+				b_portus_sucronis_hemeroskopion = {
+				}
+				b_sucro_hemeroskopion = {
+				}
+				b_planesia_hemeroskopion = {
+				}
+				b_ferrarium_hemeroskopion = {
+				}
+				b_ad_gemellas_hemeroskopion = {
+				}
+				b_marruca_hemeroskopion = {
+				}
 			}
-			b_eliocroca_carthago_nova = {
+			c_saetabis = {
+				color={ 255 77 141 }
+				color2={ 255 255 255 }
+				
+				b_saetabis_saetabis = {
+				}
+				b_ad_turres_saetabis = {
+				}
+				b_ad_aras_saetabis = {
+				}
+				b_ad_statuas_saetabis = {
+				}
+				b_iliturgi_saetabis = {
+				}
+				b_abra_saetabis = {
+				}
+				b_cantigi_saetabis = {
+				}
 			}
-			b_ficariensis_locus_carthago_nova = {
+			c_ilorci = {
+				color={ 248 58 133 }
+				color2={ 255 255 255} 
+				
+				b_ilorci_ilorci = {
+				}
+				b_segisa_ilorci = {
+				}
+				b_ilounon_ilorci = {
+				}
+				b_elotana_ilorci = {
+				}
+				b_mellaria_ilorci = {
+				}
+				b_baesippo_ilorci = {
+				}
+				b_ad_herculem_ilorci = {
+				}
 			}
-			b_longuntica_carthago_nova = {
-			}
-			b_baria_carthago_nova = {
-			}
-			b_ad_morum_carthago_nova = {
-			}
-			b_calecula_carthago_nova = {
+			c_lucentum = {
+				color={ 231 72 136 }
+				color2={ 255 255 255} 
+				
+				b_lucentum_lucentum = {
+				}
+				b_ad_leones_lucentum = {
+				}
+				b_alonis_lucentum = {
+				}
+				b_althia_lucentum = {
+				}
+				b_ad_ello_lucentum = {
+				}
+				b_obulcula_lucentum = {
+				}
+				b_munda_lucentum = {
+				}
 			}
 		}
-		c_murgi = {
-			color={ 135 70 5 }
+		d_baliares = {
+			color={ 255 85 157 }
 			color2={ 255 255 255 }
 			
-			b_murgi_murgi = {
+			capital = 1222 # Cromiussa
+
+			c_ebusos = {
+				color={ 237 90 153 }
+				color2={ 255 255 255 }
+				
+				b_ibossim_ebusos = {
+				}
 			}
-			b_abdera_murgi = {
+			c_cromiussa = {
+				color={ 255 76 137 }
+				color2={ 255 255 255 }
+				
+				b_kromioussa_cromiussa= {
+				}
+				b_pollentia_cromiussa = {
+				}
+				b_palmaria_cromiussa = {
+				}
+				b_bocchoris_cromiussa = {
+				}
 			}
-			b_urci_murgi = {
-			}
-			b_charidemos_murgi = {
-			}
-			b_portos_magnos_murgi = {
-			}
-			b_aboula_murgi = {
-			}
-			b_turaniana_murgi = {
+			c_nura = {
+				color={ 244 98 156 }
+				color2={ 255 255 255 }
+				
+				b_nura_nura = {
+				}
 			}
 		}
-		c_basti = {
-			color={ 135 20 55 }
+		d_bastetania = {
+			color={ 255 38 116 }
 			color2={ 255 255 255 }
 			
-			b_basti_basti = {
+			capital = 939 # Carthago Nova
+
+			c_carthago_nova = {
+				color={ 239 35 110 }
+				color2={ 255 255 255 }
+				
+				b_carthago_nova_carthago_nova = {
+				}
+				b_eliocroca_carthago_nova = {
+				}
+				b_ficariensis_locus_carthago_nova = {
+				}
+				b_longuntica_carthago_nova = {
+				}
+				b_baria_carthago_nova = {
+				}
+				b_ad_morum_carthago_nova = {
+				}
+				b_calecula_carthago_nova = {
+				}
 			}
-			b_bactara_basti = {
+			c_murgi = {
+				color={ 255 28 126 }
+				color2={ 255 255 255 }
+				
+				b_murgi_murgi = {
+				}
+				b_abdera_murgi = {
+				}
+				b_urci_murgi = {
+				}
+				b_charidemos_murgi = {
+				}
+				b_portos_magnos_murgi = {
+				}
+				b_aboula_murgi = {
+				}
+				b_turaniana_murgi = {
+				}
 			}
-			b_agatucci_basti = {
+			c_basti = {
+				color={ 232 46 111 }
+				color2={ 255 255 255 }
+				
+				b_basti_basti = {
+				}
+				b_bactara_basti = {
+				}
+				b_agatucci_basti = {
+				}
+				b_fraxinum_basti = {
+				}
+				b_tagili_basti = {
+				}
+				b_ilurco_basti = {
+				}
+				b_viniolae_basti = {
+				}
 			}
-			b_fraxinum_basti = {
+			c_bergastrum = {
+				color={ 255 55 116 }
+				color2={ 255 255 255 }
+				
+				b_bergastrum_bergastrum = {
+				}
+				b_asso_bergastrum = {
+				}
+				b_tutugi_bergastrum = {
+				}
+				b_segisa_bergastrum = {
+				}
+				b_ilorci_bergastrum = {
+				}
+				b_bora_bergastrum = {
+				}
+				b_tucci_bergastrum = {
+				}
 			}
-			b_tagili_basti = {
-			}
-			b_ilurco_basti = {
-			}
-			b_viniolae_basti = {
+			c_ilici = {
+				color={ 255 38 136 }
+				color2={ 255 255 255 }
+				
+				b_ilici_ilici = {
+				}
+				b_thiar_ilici = {
+				}
+				b_fortuna_ilici = {
+				}
+				b_iaspis_ilici = {
+				}
+				b_illikitanos_limen_ilici = {
+				}
+				b_marruca_ilici = {
+				}
+				b_ipagrum_ilici = {
+				}
 			}
 		}
-		c_bergastrum = {
-			color={ 135 20 105 }
+		d_edetania = {
+			color={ 225 38 136 }
 			color2={ 255 255 255 }
 			
-			b_bergastrum_bergastrum = {
+			capital = 964 # Indibilis
+
+			c_indibilis = {
+				color={ 211 29 126 }
+				color2={ 255 255 255 }
+				
+				b_indibilis_indibilis = {
+				}
+				b_adeba_indibilis = {
+				}
+				b_ildum_indibilis = {
+				}
+				b_etobesa_indibilis = {
+				}
+				b_ad_novias_indibilis = {
+				}
+				b_lassira_indibilis = {
+				}
+				b_sacrum_indibilis = {
+				}
 			}
-			b_asso_bergastrum = {
+			c_saguntum = {
+				color={ 216 30 139 }
+				color2={ 255 255 255 }
+				
+				b_saguntum_saguntum = {
+				}
+				b_edeta_saguntum = {
+				}
+				b_valentia_saguntum = {
+				}
+				b_sebelaci_saguntum = {
+				}
+				b_aipora_saguntum = {
+				}
+				b_phosphoros_saguntum = {
+				}
+				b_ad_portum_saguntum = {
+				}
 			}
-			b_tutugi_bergastrum = {
+			c_contrebia = {
+				color={ 234 49 141 }
+				color2={ 255 255 255 }
+
+				b_contrebia_contrebia = {
+				}
+				b_beligio_contrebia = {
+				}
+				b_caesaraugusta_contrebia = {
+				}
+				b_segontia_contrebia = {
+				}
+				b_castra_aelia_contrebia = {
+				}
+				b_nertobriga_contrebia = {
+				}
+				b_sermonae_contrebia = {
+				}
 			}
-			b_segisa_bergastrum = {
+			c_lassira = {
+				color={ 224 56 157 }
+				color2={ 255 255 255 }
+				
+				b_lassira_lassira = {
+				}
+				b_auci_lassira = {
+				}
+				b_ermila_lassira = {
+				}
+				b_lorna_lassira = {
+				}
+				b_moro_lassira = {
+				}
+				b_albus_portus_lassira = {
+				}
+				b_saguntia_lassira = {
+				}
 			}
-			b_ilorci_bergastrum = {
-			}
-			b_bora_bergastrum = {
-			}
-			b_tucci_bergastrum = {
+			c_urbiaca = {
+				color={ 196 54 130 }
+				color2={ 255 255 255 }
+				
+				b_urbiaca_urbiaca = {
+				}
+				b_lobeton_urbiaca = {
+				}
+				b_mora_urbiaca = {
+				}
+				b_ad_pontem_urbiaca = {
+				}
+				b_martires_urbiaca = {
+				}
+				b_caepionis_urbiaca = {
+				}
+				b_lacca_urbiaca = {
+				}
 			}
 		}
-		c_ilici = {
-			color={ 0 0 0 }
+		d_oretania = {
+			color={ 232 8 157 }
 			color2={ 255 255 255 }
 			
-			b_ilici_ilici = {
+			capital = 931 # Laminium
+			
+			c_laminium = {
+				color={ 224 4 173 }
+				color2={ 255 255 255 }
+
+				b_laminium_laminium = {
+				}
+				b_alaba_laminium = {
+				}
+				b_ad_murum_laminium = {
+				}
+				b_caput_anae_laminium = {
+				}
+				b_mentesa_laminium = {
+				}
+				b_mariana_laminium = {
+				}
+				b_ad_turres_laminium = {
+				}
 			}
-			b_thiar_ilici = {
+			c_edeba = {
+				color={ 229 34 151 }
+				color2={ 255 255 255 }
+
+				b_edeba_edeba = {
+				}
+				b_vivatia_edeba = {
+				}
+				b_salaria_edeba = {
+				}
+				b_ilugo_edeba = {
+				}
+				b_baesucci_edeba = {
+				}
+				b_oretum_edeba = {
+				}
+				b_mariana_edeba = {
+				}
 			}
-			b_fortuna_ilici = {
+			c_tugia = {
+				color={ 204 8 138 }
+				color2={ 255 255 255 }
+
+				b_tugia_tugia = {
+				}
+				b_salaria_tugia = {
+				}
+				b_aregua_tugia = {
+				}
+				b_obulco_tugia = {
+				}
+				b_urgao_tugia = {
+				}
+				b_abra_tugia = {
+				}
+				b_mentesa_bastia_tugia = {
+				}
 			}
-			b_iaspis_ilici = {
+			c_libisosa = {
+				color={ 232 8 124 }
+				color2={ 255 255 255 }
+
+				b_libisosa_libisosa = {
+				}
+				b_mariana_libisosa = {
+				}
+				b_mentesa_libisosa = {
+				}
+				b_bigerra_libisosa = {
+				}
+				b_parietinae_libisosa = {
+				}
+				b_salika_libisosa = {
+				}
+				b_caput_libisosa = {
+				}
 			}
-			b_illikitanos_limen_ilici = {
+		}
+		d_carpetania = {
+			color={ 194 38 132 }
+			color2={ 255 255 255 }
+			
+			capital = 1201 # Toletum
+			
+			c_toletum = {
+				color={ 193 52 134 }
+				color2={ 255 255 255 }
+
+				b_toletum_toletum = {
+				}
+				b_consabura_toletum = {
+				}
+				b_alces_toletum = {
+				}
+				b_vicus_cuminarius_toletum = {
+				}
+				b_baebelo_toletum = {
+				}
+				b_ad_duo_solaria_toletum = {
+				}
+				b_ad_turres_toletum = {
+				}
 			}
-			b_marruca_ilici = {
+			c_mirobriga = {
+				color={ 183 36 127 }
+				color2={ 255 255 255 }
+
+				b_mirobriga_mirobriga = {
+				}
+				b_solia_mirobriga = {
+				}
+				b_sisapo_mirobriga = {
+				}
+				b_lacinimurga_mirobriga = {
+				}
+				b_carcuvium_mirobriga = {
+				}
+				b_oretum_mirobriga = {
+				}
+				b_belsinon_mirobriga = {
+				}
 			}
-			b_ipagrum_ilici = {
+			c_mantua = {
+				color={ 204 40 141 }
+				color2={ 255 255 255 }
+				
+				b_mantua_mantua = {
+				}
+				b_miaccum_mantua = {
+				}
+				b_ossigi_mantua = {
+				}
+				b_bursao_mantua = {
+				}
+				b_barbariana_mantua = {
+				}
+				b_turiaso_mantua = {
+				}
+				b_augustobriga_mantua = {
+				}
+			}
+			c_malamoneda = {
+				color={ 193 45 130 }
+				color2={ 255 255 255 }
+				
+				b_malamoneda_malamoneda = {
+				}
+				b_linares_malamoneda = {
+				}
+				b_caesarobriga_malamoneda = {
+				}
+				b_augustobriga_malamoneda = {
+				}
+				b_castra_postumiana_malamoneda = {
+				}
+				b_ad_novias_malamoneda = {
+				}
+				b_detumo_malamoneda = {
+				}
+			}
+			c_segovia = {
+				color={ 178 20 132 }
+				color2={ 255 255 255 }
+
+				b_segovia_segovia = {
+				}
+				b_nivaria_segovia = {
+				}
+				b_cauca_segovia = {
+				}
+				b_pintia_segovia = {
+				}
+				b_brittablo_segovia = {
+				}
+				b_saucedo_segovia = {
+				}
+				b_centro_segovia = {
+				}
+			}
+		}
+		d_tagus = {
+			color={ 221 89 159 }
+			color2={ 255 255 255 }
+
+			capital = 1204 # Arriaca
+
+			c_arriaca = {
+				color={ 206 84 149 }
+				color2={ 255 255 255 }
+
+				b_arriaca_arriaca = {
+				}
+				b_titulcia_arriaca = {
+				}
+				b_caracca_arriaca = {
+				}
+				b_complutum_arriaca = {
+				}
+				b_caesada_arriaca = {
+				}
+				b_regina_arriaca = {
+				}
+				b_metellinum_arriaca = {
+				}
+			}
+			c_ocules = {
+				color={ 232 95 168 }
+				color2={ 255 255 255 }
+
+				b_ocules_ocules = {
+				}
+				b_ercavica_ocules = {
+				}
+				b_reccopolis_ocules = {
+				}
+				b_opta_ocules = {
+				}
+				b_segobriga_ocules = {
+				}
+				b_ilturir_ocules = {
+				}
+				b_ebura_ocules = {
+				}
+			}
+			c_valeria = {
+				color={ 219 76 162 }
+				color2={ 255 255 255 }
+
+				b_valeria_valeria = {
+				}
+				b_ad_putea_valeria = {
+				}
+				b_iniesta_valeria = {
+				}
+				b_molon_valeria = {
+				}
+				b_mina_valeria = {
+				}
+				b_ostur_valeria = {
+				}
+				b_almensilla_valeria = {
+				}
+			}
+			c_loutia = {
+				color={ 219 110 165 }
+				color2={ 255 255 255 }
+
+				b_loutia_loutia = {
+				}
+				b_segontia_loutia = {
+				}
+				b_okilis_loutia = {
+				}
+				b_cortona_loutia = {
+				}
+				b_acrobriga_loutia = {
+				}
+				b_carae_loutia = {
+				}
+				b_segeda_loutia = {
+				}
 			}
 		}
 	}
-	d_baliares = {
-		color={ 200 170 65 }
+	k_tarraconensis = {
+		color={ 255 61 103 }
 		color2={ 255 255 255 }
-		
-		capital = 1222 # Cromiussa
 
-		c_ebusos = {
-			color={ 250 170 65 }
+		capital = 966 # Tarraco
+
+		d_celtiberia = {
+			color={ 255 10 67 }
 			color2={ 255 255 255 }
 			
-			b_ibossim_ebusos = {
+			capital = 1211 # Termes
+
+			c_termes = {
+				color={ 242 9 67 }
+				color2={ 255 255 255 }
+
+				b_termes_termes = {
+				}
+				b_voluca_termes = {
+				}
+				b_uxama_argaela_termes = {
+				}
+				b_clunia_sulpicia_termes = {
+				}
+				b_segortia_lanka_termes = {
+				}
+				b_confluentia_termes = {
+				}
+				b_carduae_termes = {
+				}
+			}
+			c_bilbilis = {
+				color={ 229 9 64 }
+				color2={ 255 255 255 }
+
+				b_bilbilis_bilbilis = {
+				}
+				b_pagus_gallorum_et_segardinenssium_bilbilis = {
+				}
+				b_aquae_bilbitanorum_bilbilis = {
+				}
+				b_allobo_bilbilis = {
+				}
+				b_aratikos_bilbilis = {
+				}
+				b_tertakom_bilbilis = {
+				}
+				b_caravis_bilbilis = {
+				}
+			}
+			c_numantia = { 
+				color={ 255 10 93 }
+				color2={ 255 255 255 }
+
+				b_numantia_numantia = {
+				}
+				b_ouisontion_numantia = {
+				}
+				b_calagurris_nasica_iulia_numantia = {
+				}
+				b_contrebia_leucada_numantia = {
+				}
+				b_casantum_numantia = {
+				}
+				b_vareia_numantia = {
+				}
+				b_ilurcis_numantia = {
+				}
+			}
+			c_alisanco = {
+				color={ 255 35 67 }
+				color2={ 255 255 255 }
+				
+				b_alisanco_alisanco = {
+				}
+				b_tritium_magallum_alisanco = {
+				}
+				b_atiliana_alisanco = {
+				}
+				b_libia_alisanco = {
+				}
+				b_segesamunculum_alisanco = {
+				}
+				b_antequia_alisanco = {
+				}
+				b_vindeleia_alisanco = {
+				}
 			}
 		}
-		c_cromiussa = {
-			color={ 250 220 65 }
+		d_hiberus = {
+			color={ 255 99 112 }
+			color2={ 255 255 255 }
+
+			capital = 971 # Ilerda
+
+			c_ilerda = {
+				color={ 242 94 106 }
+				color2={ 255 255 255 }
+				
+				b_ilerda_ilerda = {
+				}
+				b_ad_novas_ilerda = {
+				}
+				b_otobesa_ilerda = {
+				}
+				b_gallika_phlaouia_ilerda = {
+				}
+				b_geno_ilerda = {
+				}
+				b_keresos_ilerda = {
+				}
+				b_iessos_ilerda = {
+				}
+			}
+			c_dertosa = {
+				color={ 229 89 101 }
+				color2={ 255 255 255 }
+				
+				b_dertosa_dertosa ={
+				}
+				b_tria_capita_dertosa ={
+				}
+				b_sub_saltu_dertosa ={
+				}
+				b_oleastrum_dertosa ={
+				}
+				b_salauris_dertosa ={
+				}
+				b_kissa_dertosa ={
+				}
+				b_carrova_dertosa ={
+				}
+			}
+			c_tarraco = {
+				color={ 255 99 128 }
+				color2={ 255 255 255 }
+				
+				b_tarraco_tarraco = {
+				}
+				b_subur_tarraco = {
+				}
+				b_sigarra_tarraco = {
+				}
+				b_antistiana_tarraco = {
+				}
+				b_stabulum_novum_tarraco = {
+				}
+				b_palfuriana_tarraco = {
+				}
+				b_ad_septimum_decimum_tarraco = {
+				}
+			}
+			c_urgellum = {
+				color={ 255 116 112 }
+				color2={ 255 255 255 }
+				
+				b_urgellum_urgellum = {
+				}
+				b_setelsis_urgellum = {
+				}
+				b_aeso_urgellum = {
+				}
+				b_orgia_urgellum = {
+				}
+				b_ager_urgellum = {
+				}
+				b_ioulia_libika_urgellum = {
+				}
+				b_basella_urgellum = {
+				}
+			}
+		}
+		d_jovis = {
+			color={ 255 33 103 }
 			color2={ 255 255 255 }
 			
-			b_kromioussa_cromiussa= {
+			capital = 970 # Auso
+
+			c_auso = {
+				color={ 239 31 97 }
+				color2={ 255 255 255 }
+				
+				b_auso_auso = {
+				}
+				b_bonelis_auso = {
+				}
+				b_hereus_auso = {
+				}
+				b_matacans_auso = {
+				}
+				b_caseta_auso = {
+				}
+				b_praetorium_auso = {
+				}
+				b_bisbe_auso = {
+				}
 			}
-			b_pollentia_cromiussa = {
+			c_baetulo = {
+				color={ 224 29 90 }
+				color2={ 255 255 255 }
+				
+				b_baetulo_baetulo = {
+				}
+				b_ilduro_baetulo = {
+				}
+				b_barcino_baetulo = {
+				}
+				b_lauro_baetulo = {
+				}
+				b_arragona_baetulo = {
+				}
+				b_aquae_calidae_baetulo = {
+				}
+				b_rubricatum_baetulo = {
+				}
 			}
-			b_palmaria_cromiussa = {
+			c_turissa = {
+				color={ 213 33 103 }
+				color2={ 255 255 255 }
+				
+				b_turissa_turissa = {
+				}
+				b_blandae_turissa = {
+				}
+				b_seterrae_turissa = {
+				}
+				b_aquae_voconiae_turissa = {
+				}
+				b_gerunda_turissa = {
+				}
+				b_collet_turissa = {
+				}
+				b_lounarion_turissa = {
+				}
 			}
-			b_bocchoris_cromiussa = {
+			c_sebendounon = {
+				color={ 255 33 124 }
+				color2={ 255 255 255 }
+				
+				b_sebendounon_sebendounon = {
+				}
+				b_ramis_sebendounon = {
+				}
+				b_vilauba_sebendounon = {
+				}
+				b_abella_sebendounon = {
+				}
+				b_ad_fines_sebendounon = {
+				}
+				b_iuncaria_sebendounon = {
+				}
+				b_cinniana_sebendounon = {
+				}
+			}
+			c_emporion = {
+				color={ 255 55 103 }
+				color2={ 255 255 255 }
+				
+				b_emporion_emporion = {
+				}
+				b_rhoda_emporion = {
+				}
+				b_cervaria_emporion = {
+				}
+				b_pyrenaei_emporion = {
+				}
+				b_ad_pyrenaeum_emporion = {
+				}
+				b_pompei_tropaea_emporion = {
+				}
+				b_deciana_emporion = {
+				}
 			}
 		}
-		c_nura = {
-			color={ 250 220 115 }
+		d_sicoria = {
+			color={ 255 15 23 }
 			color2={ 255 255 255 }
 			
-			b_nura_nura = {
+			capital = 974 # Osca
+
+			c_osca = {
+				color={ 239 14 21 }
+				color2={ 255 255 255 }
+				
+				b_osca_osca = {
+				}
+				b_pertusa_osca = {
+				}
+				b_bourtina_osca = {
+				}
+				b_forum_gallorum_osca = {
+				}
+				b_ebelinum_osca = {
+				}
+				b_calagurris_fibularia_osca = {
+				}
+				b_iacca_osca = {
+				}
+			}
+			c_labitulosa = {
+				color={ 224 13 20 }
+				color2={ 255 255 255 }
+				
+				b_labitulosa_labitulosa = {
+				}
+				b_boletum_labitulosa = {
+				}
+				b_tolous_labitulosa = {
+				}
+				b_mendiculeia_labitulosa = {
+				}
+				b_askerris_labitulosa = {
+				}
+				b_victoriano_labitulosa = {
+				}
+				b_cinca_labitulosa = {
+				}
+			}
+			c_celsa = {
+				color={ 255 35 23 }
+				color2={ 255 255 255 }
+				
+				b_celsa_celsa = {
+				}
+				b_gallicum_celsa = {
+				}
+				b_ebro_celsa = {
+				}
+				b_castra_octavianum_celsa = {
+				}
+				b_iluro_celsa = {
+				}
+				b_fornaca_celsa = {
+				}
+				b_laelia_celsa = {
+				}
 			}
 		}
-	}
-}
-k_turdetania = {
-	color={ 51 153 204 }
-	color2={ 255 255 255 }
-	
-	capital = 918 # Hispalis
+		d_vasconia = {
+			color ={ 255 73 83 }
+			color2 = { 255 255 255 }
+			
+			capital = 979 # Segia
 
-	d_tartessos = {
-		color={ 45 150 170 }
-		color2={ 255 255 255 }
-		
-		capital = 1133 # Tartessos
-
-		c_praesidium = {
-			color={ 95 150 170 }
-			color2={ 255 255 255 }
-
-			b_praesidium_praesidium = {
+			c_segia = {
+				color={ 239 69 80 }
+				color2={ 255 255 255 }
+				
+				b_segia_segia = {
+				}
+				b_jaca_segia = {
+				}
+				b_ilumberis_segia = {
+				}
+				b_calvo_segia = {
+				}
+				b_biclaro_segia = {
+				}
+				b_semproniana_segia = {
+				}
+				b_egara_segia = {
+				}
 			}
-			b_ostium_praesidium = {
+			c_oiasso = {
+				color={ 224 65 75 }
+				color2={ 255 255 255 }
+				
+				b_oiasso_oiasso = {
+				}
+				b_alba_oiasso = {
+				}
+				b_aracaeli_oiasso = {
+				}
+				b_alantone_oiasso = {
+				}
+				b_pompelo_oiasso = {
+				}
+				b_lapurdum_oiasso = {
+				}
+				b_itourissa_oiasso = {
+				}
 			}
-			b_ad_rubras_praesidium = {
+			c_gebala = {
+				color={ 255 61 67 }
+				color2={ 255 255 255 }
+				
+				b_gebala_gebala = {
+				}
+				b_victoriacum_gebala = {
+				}
+				b_belegia_gebala = {
+				}
+				b_suessatium_gebala = {
+				}
+				b_tullonium_gebala = {
+				}
+				b_arrola_gebala = {
+				}
+				b_ermita_gebala = {
+				}
 			}
-			b_ossonoba_praesidium = {
-			}
-			b_herculis_praesidium = {
-			}
-			b_tharsis_praesidium = {
-			}
-			b_campanario_praesidium = {
+			c_andelos = {
+				color={ 255 73 102 }
+				color2={ 255 255 255 }
+				
+				b_andelos_andelos = {
+				}
+				b_ologicus_andelos = {
+				}
+				b_cara_andelos = {
+				}
+				b_moros_andelos = {
+				}
+				b_musas_andelos = {
+				}
+				b_beturri_andelos = {
+				}
+				b_romana_andelos = {
+				}
 			}
 		}
-		c_turobriga = {
-			color={ 145 150 170 }
+		d_cantabria = {
+			color={ 255 78 50 }
 			color2={ 255 255 255 }
+			
+			capital = 1217 # Aracelium
 
-			b_turobriga_turobriga = {
+			c_aracelium = {
+				color={ 239 73 47 }
+				color2={ 255 255 255 }
+				
+				b_aracelium_aracelium = {
+				}
+				b_flaviobriga_aracelium = {
+				}
+				b_segontia_paramika_aracelium = {
+				}
+				b_portus_veseiasueca_aracelium = {
+				}
+				b_vicus_aunigainum_aracelium = {
+				}
+				b_portus_blendium_aracelium = {
+				}
+				b_portus_victuriae_iuliobrigensium_aracelium = {
+				}
 			}
-			b_urium_turobriga = {
+			c_gigia = {
+				color={ 224 68 44 }
+				color2={ 255 255 255 }
+				
+				b_gigia_gigia = {
+				}
+				b_lucus_asturum_gigia = {
+				}
+				b_flavionavia_gigia = {
+				}
+				b_arante_gigia = {
+				}
+				b_fornelo_gigia = {
+				}
+				b_pendia_gigia = {
+				}
+				b_memoriana_gigia = {
+				}
 			}
-			b_fodinae_turobriga = {
+			c_brigantium = {
+				color={ 255 113 50 }
+				color2={ 255 255 255 }
+
+				b_brigantium_brigantium = {
+				}
+				b_cohors_i_celtiberorum_brigantium = {
+				}
+				b_caranicum_brigantium = {
+				}
+				b_brevis_brigantium = {
+				}
+				b_phlaouia_lambris_brigantium = {
+				}
+				b_trileukoi_brigantium = {
+				}
+				b_britaniensis_brigantium = {
+				}
 			}
-			b_eulalia_turobriga = {
-			}
-			b_telmo_turobriga = {
-			}
-			b_kortikata_turobriga = {
-			}
-			b_arucci_turobriga = {
+			c_pailontion = {
+				color={ 255 78 70 }
+				color2={ 255 255 255 }
+				
+				b_pailontion_pailontion = {
+				}
+				b_kamarika_pailontion = {
+				}
+				b_lerones_pailontion = {
+				}
+				b_abandames_pailontion = {
+				}
+				b_auca_pailontion = {
+				}
+				b_salionka_pailontion = {
+				}
+				b_salces_pailontion = {
+				}
 			}
 		}
-		c_osset = {
-			color={ 45 200 170 }
+		d_callaecia = {
+			color={ 255 29 0 }
 			color2={ 255 255 255 }
+			
+			capital = 957 # Bracara
+			
+			c_glandimirum = {
+				color={ 239 23 0 }
+				color2={ 255 255 255 }
 
-			b_osset_osset = {
+				b_glandimirum_glandimirum = {
+				}
+				b_vicus_spacorum_glandimirum = {
+				}
+				b_burbida_glandimirum = {
+				}
+				b_turoqua_glandimirum = {
+				}
+				b_ad_duos_pontes_glandimirum = {
+				}
+				b_aquae_clidae_glandimirum = {
+				}
+				b_turris_augusti_glandimirum = {
+				}
 			}
-			b_italica_osset = {
+			c_bracara = {
+				color={ 224 22 0 }
+				color2={ 255 255 255 }
+
+				b_bracara_bracara = {
+				}
+				b_limia_bracara = {
+				}
+				b_aquae_originae_bracara = {
+				}
+				b_salaniana_bracara = {
+				}
+				b_salacia_bracara = {
+				}
+				b_avobriga_bracara = {
+				}
+				b_tongobriga_bracara = {
+				}
 			}
-			b_caura_osset = {
+			c_caladunum = {
+				color={ 255 47 0 }
+				color2={ 255 255 255 }
+				
+				b_caladunum_caladunum = {
+				}
+				b_aquae_flaviae_caladunum = {
+				}
+				b_forum_limicorum_caladunum = {
+				}
+				b_vicus_atucausensis_caladunum = {
+				}
+				b_oculis_caladunum = {
+				}
+				b_lamecum_caladunum = {
+				}
+				b_praesidio_caladunum = {
+				}
 			}
-			b_paisoula_osset = {
+			c_dactionum = {
+				color={ 255 29 24 }
+				color2={ 255 255 255 }
+				
+				b_dactionum_dactionum = {
+				}
+				b_geminae_dactionum = {
+				}
+				b_salientes_dactionum = {
+				}
+				b_aurium_dactionum = {
+				}
+				b_lansbrica_dactionum = {
+				}
+				b_castellum_meidunium_dactionum = {
+				}
+				b_aquae_quintinae_dactionum = {
+				}
 			}
-			b_itucci_osset = {
-			}
-			b_lastigi_osset = {
-			}
-			b_laelia_osset = {
+			c_nooulon = {
+				color={ 255 57 50 }
+				color2={ 255 255 255 }
+				
+				b_nooulon_nooulon = {
+				}
+				b_iria_flavia_nooulon = {
+				}
+				b_assegonia_nooulon = {
+				}
+				b_artabron_limen_nooulon = {
+				}
+				b_nerion_nooulon = {
+				}
+				b_castellum_aviliobris_nooulon = {
+				}
+				b_camala_brigaecium_nooulon = {
+				}
 			}
 		}
-		c_tartessos = {
-			color={ 0 0 0 }
+		d_vaccaea = {
+			color={ 255 61 135 }
 			color2={ 255 255 255 }
 
-			b_tartessos_tartessos = {
+			capital = 1213 # Turbes
+
+			c_amallobriga = {
+				color={ 239 57 127 }
+				color2={ 255 255 255 }
+
+				b_amallobriga_amallobriga = {
+				}
+				b_septimanca_amallobriga = {
+				}
+				b_gella_amallobriga = {
+				}
+				b_intercatia_amallobriga = {
+				}
+				b_iuliobriga_amallobriga = {
+				}
+				b_tritium_amallobriga = {
+				}
+				b_autraka_amallobriga = {
+				}
 			}
-			b_ilipula_tartessos = {
+			c_turbes = {
+				color={ 224 53 119 }
+				color2={ 255 255 255 }
+
+				b_turbes_turbes = {
+				}
+				b_mancellus_turbes = {
+				}
+				b_pallantia_turbes = {
+				}
+				b_pampligua_turbes = {
+				}
+				b_nova_augusta_turbes = {
+				}
+				b_deobrigula_turbes = {
+				}
+				b_brauon_turbes = {
+				}
 			}
-			b_romano_tartessos = {
+			c_palantia = {
+				color={ 255 43 135 }
+				color2={ 255 255 255 }
+				
+				b_palantia_palantia = {
+				}
+				b_segisamo_palantia = {
+				}
+				b_segisama_iulia_palantia = {
+				}
+				b_pisoraca_palantia = {
+				}
+				b_amaia_palantia = {
+				}
+				b_maggaviensium_palantia = {
+				}
+				b_utana_palantia = {
+				}
 			}
-			b_moranina_tartessos = {
-			}
-			b_olontigi_tartessos = {
-			}
-			b_hareni_tartessos = {
-			}
-			b_abul_tartessos = {
+			c_brigaecium = {
+				color={ 255 61 147 }
+				color2={ 255 255 255 }
+				
+				b_brigaecium_brigaecium = {
+				}
+				b_viminacium_brigaecium = {
+				}
+				b_saldania_brigaecium = {
+				}
+				b_lacobriga_brigaecium = {
+				}
+				b_ambisna_brigaecium = {
+				}
+				b_avia_brigaecium = {
+				}
+				b_dessobriga_brigaecium = {
+				}
 			}
 		}
-	}
-	d_turdulia = {
-		color={ 45 250 170 }
-		color2={ 255 255 255 }
-		
-		capital = 913 # Segida
-
-		c_segida = {
-			color={ 45 250 120 }
+		d_asturia = {
+			color={ 255 15 103 }
 			color2={ 255 255 255 }
+			
+			capital = 962 # Asturica
+			
+			c_asturica = {
+				color={ 239 14 96 }
+				color2={ 255 255 255 }
 
-			b_segida_segida = {
+				b_asturica_asturica = {
+				}
+				b_cohors_iv_gallorum_asturica = {
+				}
+				b_argentiolum_asturica = {
+				}
+				b_baedunia_asturica = {
+				}
+				b_interamnium_flavium_asturica = {
+				}
+				b_berbea_asturica = {
+				}
+				b_abiada_asturica = {
+				}
 			}
-			b_fines_segida = {
-			}
-			b_seria_segida = {
-			}
-			b_nertobriga_segida = {
-			}
-			b_curiga_segida = {
-			}
-			b_lacunis_segida = {
-			}
-			b_contributa_segida = {
-			}
-		}
-		c_artigi = {
-			color={ 45 250 220 }
-			color2={ 255 255 255 }
+			c_compleutica = {
+				color={ 224 13 90 }
+				color2={ 255 255 255 }
 
-			b_artigi_artigi = {
+				b_compleutica_compleutica = {
+				}
+				b_civitas_baniensium_compleutica = {
+				}
+				b_vicus_vagornicensis_compleutica = {
+				}
+				b_civitas_zoelarum_compleutica = {
+				}
+				b_urros_compleutica = {
+				}
+				b_pedra_compleutica = {
+				}
+				b_carasta_compleutica = {
+				}
 			}
-			b_municipium_flavium_artigi = {
-			}
-			b_caspiana_artigi = {
-			}
-			b_phornakis_artigi = {
-			}
-			b_brutobriga_artigi = {
-			}
-			b_mellaria_artigi = {
-			}
-			b_perceiana_artigi = {
-			}
-		}
-		c_munigua = {
-			color={ 95 250 220 }
-			color2={ 255 255 255 }
+			c_lance = {
+				color={ 255 31 103 }
+				color2={ 255 255 255 }
 
-			b_munigua_munigua = {
+				b_lance_lance = {
+				}
+				b_equosera_lance = {
+				}
+				b_vallata_lance = {
+				}
+				b_legio_vii_gemina_lance = {
+				}
+				b_interamnium_lance = {
+				}
+				b_comeniaca_lance = {
+				}
+				b_palantia_lance = {
+				}
 			}
-			b_naeva_munigua = {
+			c_uttaris = {
+				color={ 255 15 74 }
+				color2={ 255 255 255 }
+				
+				b_uttaris_uttaris = {
+				}
+				b_praesidium_uttaris = {
+				}
+				b_nemetobriga_uttaris = {
+				}
+				b_forum_gigurrorum_uttaris = {
+				}
+				b_gemestarium_uttaris = {
+				}
+				b_bergidum_flavium_uttaris = {
+				}
+				b_laron_uttaris = {
+				}
 			}
-			b_canama_munigua = {
-			}
-			b_arva_munigua = {
-			}
-			b_axati_munigua = {
-			}
-			b_celti_munigua = {
-			}
-			b_iporca_munigua = {
-			}
-		}
-		c_mirobriga = {
-			color={ 135 250 220 }
-			color2={ 255 255 255 }
+			c_ocelum = {
+				color={ 255 15 128 }
+				color2={ 255 255 255 }
 
-			b_mirobriga_mirobriga = {
-			}
-			b_solia_mirobriga = {
-			}
-			b_sisapo_mirobriga = {
-			}
-			b_lacinimurga_mirobriga = {
-			}
-			b_carcuvium_mirobriga = {
-			}
-			b_oretum_mirobriga = {
-			}
-			b_belsinon_mirobriga = {
-			}
-		}
-		c_corduba = {
-			color={ 45 100 170 }
-			color2={ 255 255 255 }
-
-			b_corduba_corduba = {
-			}
-			b_carbula_corduba = {
-			}
-			b_ad_decumum_corduba = {
-			}
-			b_onuba_corduba = {
-			}
-			b_sacili_corduba = {
-			}
-			b_epora_corduba = {
-			}
-			b_mellara_corduba = {
-			}
-		}
-	}
-	d_turdetania = {
-		color={ 45 50 170 }
-		color2={ 255 255 255 }
-		
-		capital = 918 # Hispalis
-
-		c_hispalis = {
-			color={ 45 0 120 }
-			color2={ 255 255 255 }
-
-			b_hispalis_hispalis = {
-			}
-			b_lucurgentum_hispalis = {
-			}
-			b_salpensa_hispalis = {
-			}
-			b_siarum_hispalis = {
-			}
-			b_callet_hispalis = {
-			}
-			b_urgia_hispalis = {
-			}
-			b_orippo_hispalis = {
-			}
-		}
-		c_segida_turdetania = {
-			color={ 95 50 120 }
-			color2={ 255 255 255 }
-
-			b_segida_segida_turdetania = {
-			}
-			b_lauro_segida_turdetania = {
-			}
-			b_urso_segida_turdetania = {
-			}
-			b_astigi_segida_turdetania = {
-			}
-			b_illipula_segida_turdetania = {
-			}
-			b_carruca_segida_turdetania = {
-			}
-			b_iluro_segida_turdetania = {
-			}
-		}
-		c_ulia = {
-			color={ 95 100 220 }
-			color2={ 255 255 255 }
-
-			b_ulia_ulia = {
-			}
-			b_sabetanum_ulia = {
-			}
-			b_igabrum_ulia = {
-			}
-			b_cisimbrium_ulia = {
-			}
-			b_iptuci_ulia = {
-			}
-			b_ipsca_ulia = {
-			}
-			b_ucubi_ulia = {
-			}
-		}
-		c_acci = {
-			color={ 95 100 170 }
-			color2={ 255 255 255 }
-
-			b_acci_acci = {
-			}
-			b_iliberri_acci = {
-			}
-			b_vergilia_acci = {
-			}
-			b_iliturgicola_acci = {
-			}
-			b_aiungi_acci = {
-			}
-			b_sosontigi_acci = {
-			}
-			b_aurgi_acci = {
-			}
-		}
-	}
-	d_bastulia = {
-		color={ 100 70 255 }
-		color2={ 255 255 255 }
-		
-		capital = 920 # Gadir
-
-		c_gadir = {
-			color={ 150 70 255 }
-			color2={ 255 255 255 }
-
-			b_gadir_gadir = {
-			}
-			b_hasta_gadir = {
-			}
-			b_turirecina_gadir = {
-			}
-			b_nabrissa_gadir = {
-			}
-			b_ceret_gadir = {
-			}
-			b_iunonis_gadir = {
-			}
-			b_cotinussa_gadir = {
-			}
-		}
-		c_carteia = {
-			color={ 200 70 255 }
-			color2={ 255 255 255 }
-
-			b_carteia_carteia = {
-			}
-			b_iulia_traducta_carteia = {
-			}
-			b_baelo_carteia = {
-			}
-			b_asido_carteia = {
-			}
-			b_lascuta_carteia = {
-			}
-			b_cetaria_carteia = {
-			}
-			b_mercablum_carteia = {
-			}
-		}
-		c_sabora = {
-			color={ 250 70 255 }
-			color2={ 255 255 255 }
-
-			b_sabora_sabora = {
-			}
-			b_ocuri_sabora = {
-			}
-			b_irni_sabora = {
-			}
-			b_arunda_sabora = {
-			}
-			b_saepo_sabora = {
-			}
-			b_kalathousa_sabora = {
-			}
-			b_cilpe_sabora = {
-			}
-		}
-		c_suel = {
-			color={ 150 70 205 }
-			color2={ 255 255 255 }
-
-			b_suel_suel = {
-			}
-			b_barbesula_suel = {
-			}
-			b_lacippo_suel = {
-			}
-			b_onoba_suel = {
-			}
-			b_cilniana_suel = {
-			}
-			b_cartima_suel = {
-			}
-			b_erisane_suel = {
-			}
-		}
-		c_malaca = {
-			color={ 200 20 205 }
-			color2={ 255 255 255 }
-
-			b_malaca_malaca = {
-			}
-			b_nescania_malaca = {
-			}
-			b_anticaria_malaca = {
-			}
-			b_aratispi_malaca = {
-			}
-			b_mainake_malaca = {
-			}
-			b_maenuba_malaca = {
-			}
-			b_cavicium_malaca = {
-			}
-		}
-		c_sexi = {
-			color={ 150 70 155 }
-			color2={ 255 255 255 }
-
-			b_sexi_sexi = {
-			}
-			b_cavicium_sexi = {
-			}
-			b_selambina_sexi = {
-			}
-			b_solorius_sexi = {
-			}
-			b_orospeda_sexi = {
-			}
-			b_ascua_sexi = {
-			}
-			b_batora_sexi = {
+				b_ocelum_ocelum = {
+				}
+				b_veniatia_ocelum = {
+				}
+				b_vicus_aquarius_ocelum = {
+				}
+				b_preterion_ocelum = {
+				}
+				b_petavonium_ocelum = {
+				}
+				b_tera_ocelum = {
+				}
+				b_aliste_ocelum = {
+				}
 			}
 		}
 	}
