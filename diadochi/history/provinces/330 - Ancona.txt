@@ -4,17 +4,14 @@
 title = c_ancona # for example c_corinth
 
 # Settlements
-max_settlements = 4
-b_ancona_ancona = castle
-b_firmum_ancona = city
-b_sentium_ancona = castle
-b_faleria_ancona = temple
-
-# Possible baronies: (Always add a # in front of a line with these!)
-#
-#
-#
-#
+max_settlements = 5
+b_ancona_ancona = tribal
+#b_falerio_ancona = castle
+#b_pausulae_ancona = city
+#b_potentia_ancona = city
+#b_tolentinum_ancona = castle
+b_auximum_ancona = temple
+#b_cingulum_ancona = castle
 
 # Misc
 culture = picene

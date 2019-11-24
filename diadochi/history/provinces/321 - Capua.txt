@@ -4,17 +4,14 @@
 title = c_capua # for example c_corinth
 
 # Settlements
-max_settlements = 4
+max_settlements = 6
 b_capua_capua = castle
-b_casilimum_capua = city
-b_vulturnum_capua = castle
-b_cales_capua = temple
-
-# Possible baronies: (Always add a # in front of a line with these!)
-#
-#
-#
-#
+b_casilinum_capua = city
+b_cales_capua = castle
+#b_sinuessa_capua = castle
+b_teanum_sidicinum_capua = temple
+#b_calatia_capua = city
+#b_suessula_capua = city
 
 # Misc
 culture = etruscan

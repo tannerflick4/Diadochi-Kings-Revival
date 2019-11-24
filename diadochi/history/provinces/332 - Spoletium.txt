@@ -4,17 +4,14 @@
 title = c_spoletium # for example c_corinth
 
 # Settlements
-max_settlements = 4
-b_spoletium_spoletium = castle
-b_treva_spoletium = city
-b_ameria_spoletium = castle
-b_mevania_spoletium = temple
-
-# Possible baronies: (Always add a # in front of a line with these!)
-#
-#
-#
-#
+max_settlements = 5
+b_spoletium_spoletium = tribal
+#b_horta_spoletium = city
+#b_ameria_spoletium = castle
+#b_nequinum_spoletium = castle
+#b_carsulae_spoletium = city
+b_interamna_nahars_spoletium = temple
+#b_trebiae_spoletium = castle
 
 # Misc
 culture = umbrian

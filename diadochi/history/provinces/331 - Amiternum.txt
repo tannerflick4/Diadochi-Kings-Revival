@@ -6,15 +6,12 @@ title = c_amiternum # for example c_corinth
 # Settlements
 max_settlements = 4
 b_amiternum_amiternum = tribal
-b_testrina_amiternum = temple
-b_reate_amiternum = city
-b_casperia_amiternum = city
-
-# Possible baronies: (Always add a # in front of a line with these!)
-#
-#
-#
-#
+#b_nersae_amiternum = castle
+#b_reate_amiternum = city
+#b_trebula_mutuesca_amiternum = castle
+#b_cliternia_amiternum = castle
+#b_ocriculum_amiternum = city
+#b_cures_amiternum = city
 
 # Misc
 culture = umbrian

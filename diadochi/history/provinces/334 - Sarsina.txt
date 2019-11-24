@@ -5,10 +5,13 @@ title = c_sarsina # for example c_corinth
 
 # Settlements
 max_settlements = 4
-b_ariminum_sarsina = tribal
-#b_sarsina_sarsina = city
-#b_piseurum_sarsina = city
-#b_gatis_sarsina = temple
+b_sarsina_sarsina = tribal
+#b_ostra_sarsina = temple
+#b_suasa_sarsina = city
+#b_sena_gallica_sarsina = city
+#b_ariminum_sarsina = city
+#b_pisaurum_sarsina = city
+#b_urvinum_mataurense_sarsina = castle
 
 # Misc
 culture = gaul

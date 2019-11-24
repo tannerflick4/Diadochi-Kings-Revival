@@ -4,14 +4,14 @@
 title = c_marruvium # for example c_corinth
 
 # Settlements
-max_settlements = 4
+max_settlements = 5
 b_marruvium_marruvium = tribal
-b_marruvium1_marruvium = temple
-b_marruvium2_marruvium = city
-b_marruvium3_marruvium = city
-#b_marruvium4_marruvium = castle
-#b_marruvium5_marruvium = temple
-#b_marruvium6_marruvium = city
+#b_antinum_marruvium = castle
+#b_alba_fucens_marruvium = castle
+b_corfinium_marruvium = temple
+#b_superaequum_marruvium = city
+#b_aufinum_marruvium = city
+#b_peltuinum_marruvium = city
 
 # Misc
 culture = oscan

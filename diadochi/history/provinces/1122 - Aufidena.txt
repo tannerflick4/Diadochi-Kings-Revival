@@ -6,12 +6,12 @@ title = c_aufidena
 # Settlements
 max_settlements = 4
 b_aufidena_aufidena = tribal
-b_aufidena1_aufidena = city
-b_aufidena2_aufidena = castle
-b_aufidena3_aufidena = temple
-#b_aufidena4_aufidena = castle
-#b_aufidena5_aufidena = city
-#b_aufidena6_aufidena = castle
+#b_venafrum_aufidena = city
+#b_aesernia_aufidena = castle
+#b_atina_aufidena = city
+#b_arpinum_aufidena = castle
+#b_sora_aufidena = city
+#b_iuvanum_aufidena = castle
 
 # Misc
 culture = oscan

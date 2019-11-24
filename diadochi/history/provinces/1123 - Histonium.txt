@@ -4,14 +4,14 @@
 title = c_histonium
 
 # Settlements
-max_settlements = 4
+max_settlements = 3
 b_histonium_histonium = tribal
-b_histonium1_histonium = temple
-b_histonium2_histonium = city
-b_histonium3_histonium = city
-#b_histonium4_histonium = castle
-#b_histonium5_histonium = temple
-#b_histonium6_histonium = city
+#b_pallanum_histonium = castle
+#b_buca_histonium = city
+#b_uscosium_histonium = castle
+#b_pallanum2_histonium = city
+#b_saepinum_histonium = temple
+#b_neratii_histonium = castle
 
 # Misc
 culture = oscan

@@ -5,13 +5,13 @@ title = c_aeclanum
 
 # Settlements
 max_settlements = 4
-b_aeclanum_aeclanum = castle
-b_aeclanum1_aeclanum = temple
-b_aeclanum2_aeclanum = city
-b_aeclanum3_aeclanum = city
-#b_aeclanum4_aeclanum = castle
-#b_aeclanum5_aeclanum = temple
-#b_aeclanum6_aeclanum = city
+b_aeclanum_aeclanum = tribal
+#b_abellinum_aeclanum = castle
+#b_caudium_aeclanum = castle
+#b_beneventum_aeclanum = city
+#b_mefitis_aeclanum = temple
+#b_aquilonia_aeclanum = castle
+#b_nuceriola_aeclanum = castle
 
 # Misc
 culture = oscan

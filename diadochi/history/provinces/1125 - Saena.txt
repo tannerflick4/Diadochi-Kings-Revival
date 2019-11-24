@@ -4,14 +4,14 @@
 title = c_saena
 
 # Settlements
-max_settlements = 5
+max_settlements = 3
 b_saena_saena = castle
-b_saena1_saena = city
-b_saena2_saena = city
-b_saena3_saena = temple
-b_saena4_saena = castle
-#b_saena5_saena = castle
-#b_saena6_saena = city
+b_arnum_saena = city
+b_gallunianum_saena = castle
+#b_regis_villa_saena = city
+#b_forum_aurelii_saena = city
+#b_portus_herculis_saena = city
+#b_axia_saena = temple
 
 # Misc
 culture = etruscan

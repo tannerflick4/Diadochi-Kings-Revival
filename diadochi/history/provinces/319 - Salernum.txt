@@ -1,0 +1,21 @@
+# 319 - Salernum
+
+# County Title
+title = c_salernum # for example c_corinth
+
+# Settlements
+max_settlements = 5
+b_salernum_salernum = tribal
+#b_pompeii_salernum = city
+#b_nuceria_alfaterna_salernum = city
+#b_paestum_salernum = city
+b_sirenae_salernum = temple
+#b_capreae_salernum = castle
+#b_sarnus_salernum = castle
+
+# Misc
+culture = oscan
+religion = roman_main
+
+# History
+# Can be filled when things change around the province

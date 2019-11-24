@@ -4,17 +4,14 @@
 title = c_asculum # for example c_corinth
 
 # Settlements
-max_settlements = 4
-b_asculum_asculum = castle
-b_novana_asculum = city
-b_hadria_asculum = temple
-b_vicus_badies_asculum = castle
-
-# Possible baronies: (Always add a # in front of a line with these!)
-#
-#
-#
-#
+max_settlements = 3
+b_asculum_asculum = tribal
+#b_pinna_asculum = castle
+#b_hatria_asculum = castle
+#b_interamnia_praetuttiorum_asculum = castle
+#b_castrum_novum_asculum = city
+#b_salinae_asculum = city
+#b_matrinum_asculum = city
 
 # Misc
 culture = picene

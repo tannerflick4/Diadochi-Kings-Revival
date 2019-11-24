@@ -4,14 +4,14 @@
 title = c_luceria
 
 # Settlements
-max_settlements = 4
+max_settlements = 5
 b_luceria_luceria = tribal
-#b_luceria1_luceria = city
-#b_luceria2_luceria = city
-#b_luceria3_luceria = temple
-#b_luceria4_luceria = castle
-#b_luceria5_luceria = castle
-#b_luceria6_luceria = castle
+#b_sipous_luceria = city
+b_drion_luceria = temple
+#b_hyria_luceria = city
+#b_planisium_luceria = castle
+#b_tatinie_luceria = castle
+#b_auxanum_luceria = city
 
 # Misc
 culture = illyrian

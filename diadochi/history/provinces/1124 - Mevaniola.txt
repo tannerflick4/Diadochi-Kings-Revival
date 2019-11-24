@@ -4,14 +4,14 @@
 title = c_mevaniola
 
 # Settlements
-max_settlements = 4
+max_settlements = 2
 b_mevaniola_mevaniola = tribal
-#b_mevaniola1_mevaniola = city
-#b_mevaniola2_mevaniola = castle
-b_mevaniola3_mevaniola = temple
-#b_mevaniola4_mevaniola = castle
-#b_mevaniola5_mevaniola = city
-#b_mevaniola6_mevaniola = castle
+#b_ad_fines_mevaniola = castle
+#b_castellum_mevaniola = castle
+#b_monteferetra_mevaniola = castle
+#b_pitinum_pisaurense_mevaniola = castle
+#b_forum_sempronii_mevaniola = city
+#b_trea_mevaniola = city
 
 # Misc
 culture = gaul

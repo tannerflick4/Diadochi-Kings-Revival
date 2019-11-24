@@ -5,16 +5,13 @@ title = c_sulmo # for example c_corinth
 
 # Settlements
 max_settlements = 4
-b_volana_sulmo = tribal
-b_cutina_sulmo = temple
-b_teate_sulmo = city
-b_aufina_sulmo = city
-
-# Possible baronies: (Always add a # in front of a line with these!)
-#
-#
-#
-#
+b_sulmo_sulmo = tribal
+#b_cluviae_sulmo = castle
+#b_anxanum_sulmo = castle
+#b_hortona_sulmo = city
+b_hercules_curinus_sulmo = temple
+#b_teate_sulmo = city
+#b_aternum_sulmo = city
 
 # Misc
 culture = oscan

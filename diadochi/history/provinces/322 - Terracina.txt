@@ -4,20 +4,14 @@
 title = c_terracina # for example c_corinth
 
 # Settlements
-max_settlements = 7
+max_settlements = 5
 b_terracina_terracina = city
-b_anxur_terracina = temple
-b_fundi_terracina = city
-b_ausona_terracina = city
-b_pontine_terracina = city
-b_appia_terracina = city
-b_neptuniae_aquae_terracina = city
-
-# Possible baronies: (Always add a # in front of a line with these!)
-#
-#
-#
-#
+#b_fundi_terracina = city
+b_formiae_terracina = castle
+b_marica_terracina = temple
+#b_minturnae_terracina = city
+#b_suessa_aurunca_terracina = castle
+b_caieta_terracina = city
 
 # Misc
 culture = latin

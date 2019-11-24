@@ -1,0 +1,21 @@
+# 316 - Larinum
+
+# County Title
+title = c_larinum # for example c_corinth
+
+# Settlements
+max_settlements = 3
+b_larinum_larinum = tribal
+#b_cliternia_larinum = city
+#b_gereonium_larinum = castle
+#b_sicalenum_larinum = castle
+#b_teanum_apulum_larinum = city
+#b_corneli_larinum = city
+#b_praetorium_publilianum_larinum = temple
+
+# Misc
+culture = illyrian
+religion = illyrian_main
+
+# History
+# Can be filled when things change around the province

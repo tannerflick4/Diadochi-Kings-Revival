@@ -4,17 +4,14 @@
 title = c_bovianum # for example c_corinth
 
 # Settlements
-max_settlements = 4
-b_bovianum_bovianum = castle
-b_aeserina_bovianum = temple
-b_aquilonia_bovianum = city
-b_treventum_bovianum = castle
-
-# Possible baronies: (Always add a # in front of a line with these!)
-#
-#
-#
-#
+max_settlements = 5
+b_bovianum_bovianum = tribal
+#b_caiatia_bovianum = castle
+#b_telesia_bovianum = city
+#b_kupelternum_bovianum = city
+#b_allifae_bovianum = city
+#b_fagifulae_bovianum = castle
+b_sirpium_bovianum = temple
 
 # Misc
 culture = oscan

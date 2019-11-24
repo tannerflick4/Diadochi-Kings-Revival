@@ -4,17 +4,14 @@
 title = c_iguvium # for example c_corinth
 
 # Settlements
-max_settlements = 4
-b_iguvium_iguvium = castle
-b_attidoim_iguvium = castle
-b_assisium_iguvium = city
-b_nuceria_iguvium = temple
-
-# Possible baronies: (Always add a # in front of a line with these!)
-#
-#
-#
-#
+max_settlements = 5
+b_iguvium_iguvium = tribal
+#b_tadinae_iguvium = castle
+#b_tibernum_tiberinum_iguvium = city
+#b_asisium_iguvium = city
+#b_hispellum_iguvium = city
+#b_arna_iguvium = castle
+#b_vettona_iguvium = castle
 
 # Misc
 culture = umbrian

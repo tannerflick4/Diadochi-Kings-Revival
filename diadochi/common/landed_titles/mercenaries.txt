@@ -3,7 +3,7 @@ d_mamertines = {
 	color = { 130 173 70 }
 	color2 = { 255 255 255 }
 	
-	capital = 319 # Irna
+	capital = 319 # Salernum
 	
 	religion = roman_main
 	

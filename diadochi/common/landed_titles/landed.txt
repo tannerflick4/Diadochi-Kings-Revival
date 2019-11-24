@@ -6218,13 +6218,21 @@ k_magna_graecia = {
 			b_forentum_canusium = {
 			}
 		}
-		c_arpi = {
+		c_larinum = {
 			color= { 75 200 200 }
 			color2= { 255 255 255 }
 			
-			b_arpi = {
+			b_cliternia_larinum = {
 			}
-			b_sipontum_arpi = {
+			b_gereonium_larinum = {
+			}
+			b_sicalenum_larinum = {
+			}
+			b_teanum_apulum_larinum = {
+			}
+			b_corneli_larinum = {
+			}
+			b_praetorium_publilianum_larinum = {
 			}
 		}
 		c_barium = {
@@ -6252,17 +6260,17 @@ k_magna_graecia = {
 			
 			b_luceria_luceria = {
 			}
-			b_luceria1_luceria = {
+			b_sipous_luceria = {
 			}
-			b_luceria2_luceria = {
+			b_drion_luceria = {
 			}
-			b_luceria3_luceria = {
+			b_hyria_luceria = {
 			}
-			b_luceria4_luceria = {
+			b_planisium_luceria = {
 			}
-			b_luceria5_luceria = {
+			b_tatinie_luceria = {
 			}
-			b_luceria6_luceria = {
+			b_auxanum_luceria = {
 			}
 		}
 	}
@@ -11625,17 +11633,17 @@ e_rome = {
 
 				b_terracina_terracina = {
 				}
-				b_anxur_terracina = {
-				}
 				b_fundi_terracina = {
 				}
-				b_ausona_terracina = {
+				b_formiae_terracina = {
 				}
-				b_pontine_terracina = {
+				b_marica_terracina = {
 				}
-				b_appia_terracina = {
+				b_minturnae_terracina = {
 				}
-				b_neptuniae_aquae_terracina = {
+				b_suessa_aurunca_terracina = {
+				}
+				b_caieta_terracina = {
 				}
 			}
 			c_antium = {
@@ -11644,17 +11652,17 @@ e_rome = {
 
 				b_antium_antium = {
 				}
-				b_aphrodisium_antium = {
+				b_cora_antium = {
 				}
-				b_lanuvium_antium = {
+				b_norba_antium = {
 				}
-				b_longula_antium = {
+				b_setia_antium = {
 				}
-				b_pollusca_antium = {
+				b_circeii_antium = {
 				}
-				b_corioli_antium = {
+				b_privernum_antium = {
 				}
-				b_volsci_antium = {
+				b_ferentinum_antium = {
 				}
 			}
 			c_roma = {
@@ -11735,28 +11743,42 @@ k_italy = {
 		
 		capital = 320 # Neapolis
 		
-		c_irna = {
+		c_salernum = {
 			color= { 125 10 15 }
 			color2= { 255 255 255 }
 			
-			b_irna = {
+			b_salernum_salernum = {
 			}
-			b_paestum_irna = {
+			b_pompeii_salernum = {
+			}
+			b_nuceria_alfaterna_salernum = {
+			}
+			b_paestum_salernum = {
+			}
+			b_sirenae_salernum = {
+			}
+			b_capreae_salernum = {
+			}
+			b_sarnus_salernum = {
 			}
 		}
 		c_neapolis = {
 			color= { 115 10 25 }
 			color2= { 255 255 255 }
 			
-			b_neapolis = {
+			b_neapolis_neapolis = {
 			}
-			b_capua_neapolis = {
+			b_herculaneum_neapolis = {
+			}
+			b_puteoli_neapolis = {
+			}
+			b_misenum_neapolis = {
 			}
 			b_cumae_neapolis = {
 			}
-			b_ischia_neapolis = {
+			b_volturnum_neapolis = {
 			}
-			b_dicaearchia_neapolis = {
+			b_atella_neapolis = {
 			}
 		}
 		c_capua = {
@@ -11765,30 +11787,17 @@ k_italy = {
 			
 			b_capua_capua = {
 			}
-			b_casilimum_capua = {
-			}
-			b_vulturnum_capua = {
+			b_casilinum_capua = {
 			}
 			b_cales_capua = {
 			}
-		}
-		c_aufidena = {
-			color= { 109 8 13 }
-			color2= { 255 255 255 }
-			
-			b_aufidena_aufidena = {
+			b_sinuessa_capua = {
 			}
-			b_aufidena1_aufidena = {
+			b_teanum_sidicinum_capua = {
 			}
-			b_aufidena2_aufidena = {
+			b_calatia_capua = {
 			}
-			b_aufidena3_aufidena = {
-			}
-			b_aufidena4_aufidena = {
-			}
-			b_aufidena5_aufidena = {
-			}
-			b_aufidena6_aufidena = {
+			b_suessula_capua = {
 			}
 		}
 	}
@@ -11804,24 +11813,36 @@ k_italy = {
 			
 			b_bovianum_bovianum = {
 			}
-			b_aeserina_bovianum = {
+			b_caiatia_bovianum = {
 			}
-			b_aquilonia_bovianum = {
+			b_telesia_bovianum = {
 			}
-			b_treventum_bovianum = {
+			b_kupelternum_bovianum = {
+			}
+			b_allifae_bovianum = {
+			}
+			b_fagifulae_bovianum = {
+			}
+			b_sirpium_bovianum = {
 			}
 		}
 		c_sulmo = {
 			color= { 115 25 10 }
 			color2= { 255 255 255 }
 			
-			b_volana_sulmo = {
+			b_sulmo_sulmo = {
 			}
-			b_cutina_sulmo = {
+			b_cluviae_sulmo = {
+			}
+			b_anxanum_sulmo = {
+			}
+			b_hortona_sulmo = {
+			}
+			b_hercules_curinus_sulmo = {
 			}
 			b_teate_sulmo = {
 			}
-			b_aufina_sulmo = {
+			b_aternum_sulmo = {
 			}
 		}
 		c_marruvium = {
@@ -11830,17 +11851,17 @@ k_italy = {
 			
 			b_marruvium_marruvium = {
 			}
-			b_marruvium1_marruvium = {
+			b_antinum_marruvium = {
 			}
-			b_marruvium2_marruvium = {
+			b_alba_fucens_marruvium = {
 			}
-			b_marruvium3_marruvium = {
+			b_corfinium_marruvium = {
 			}
-			b_marruvium4_marruvium = {
+			b_superaequum_marruvium = {
 			}
-			b_marruvium5_marruvium = {
+			b_aufinum_marruvium = {
 			}
-			b_marruvium6_marruvium = {
+			b_peltuinum_marruvium = {
 			}
 		}
 		c_histonium = {
@@ -11849,17 +11870,17 @@ k_italy = {
 			
 			b_histonium_histonium = {
 			}
-			b_histonium1_histonium = {
+			b_pallanum_histonium = {
 			}
-			b_histonium2_histonium = {
+			b_buca_histonium = {
 			}
-			b_histonium3_histonium = {
+			b_uscosium_histonium = {
 			}
-			b_histonium4_histonium = {
+			b_pallanum2_histonium = {
 			}
-			b_histonium5_histonium = {
+			b_saepinum_histonium = {
 			}
-			b_histonium6_histonium = {
+			b_neratii_histonium = {
 			}
 		}
 		c_aeclanum = {
@@ -11868,17 +11889,36 @@ k_italy = {
 			
 			b_aeclanum_aeclanum = {
 			}
-			b_aeclanum1_aeclanum = {
+			b_abellinum_aeclanum = {
 			}
-			b_aeclanum2_aeclanum = {
+			b_caudium_aeclanum = {
 			}
-			b_aeclanum3_aeclanum = {
+			b_beneventum_aeclanum = {
 			}
-			b_aeclanum4_aeclanum = {
+			b_mefitis_aeclanum = {
 			}
-			b_aeclanum5_aeclanum = {
+			b_aquilonia_aeclanum = {
 			}
-			b_aeclanum6_aeclanum = {
+			b_nuceriola_aeclanum = {
+			}
+		}
+		c_aufidena = {
+			color= { 109 8 13 }
+			color2= { 255 255 255 }
+			
+			b_aufidena_aufidena = {
+			}
+			b_venafrum_aufidena = {
+			}
+			b_aesernia_aufidena = {
+			}
+			b_atina_aufidena = {
+			}
+			b_arpinum_aufidena = {
+			}
+			b_sora_aufidena = {
+			}
+			b_iuvanum_aufidena = {
 			}
 		}
 	}
@@ -11894,11 +11934,17 @@ k_italy = {
 			
 			b_amiternum_amiternum = {
 			}
-			b_testrina_amiternum = {
+			b_nersae_amiternum = {
 			}
 			b_reate_amiternum = {
 			}
-			b_casperia_amiternum = {
+			b_trebula_mutuesca_amiternum = {
+			}
+			b_cliternia_amiternum = {
+			}
+			b_ocriculum_amiternum = {
+			}
+			b_cures_amiternum = {
 			}
 		}
 		c_spoletium = {
@@ -11909,11 +11955,17 @@ k_italy = {
 			
 			b_spoletium_spoletium = {
 			}
-			b_treva_spoletium = {
+			b_horta_spoletium = {
 			}
 			b_ameria_spoletium = {
 			}
-			b_mevania_spoletium = {
+			b_nequinum_spoletium = {
+			}
+			b_carsulae_spoletium = {
+			}
+			b_interamna_nahars_spoletium = {
+			}
+			b_trebiae_spoletium = {
 			}
 		}
 		c_iguvium = {
@@ -11922,24 +11974,36 @@ k_italy = {
 			
 			b_iguvium_iguvium = {
 			}
-			b_attidoim_iguvium = {
+			b_tadinae_iguvium = {
 			}
-			b_assisium_iguvium = {
+			b_tibernum_tiberinum_iguvium = {
 			}
-			b_nuceria_iguvium = {
+			b_asisium_iguvium = {
+			}
+			b_hispellum_iguvium = {
+			}
+			b_arna_iguvium = {
+			}
+			b_vettona_iguvium = {
 			}
 		}
 		c_sarsina = {
 			color= { 115 35 25 }
 			color2= { 255 255 255 }
 			
-			b_ariminum_sarsina = {
-			}
 			b_sarsina_sarsina = {
 			}
-			b_piseurum_sarsina = {
+			b_ostra_sarsina = {
 			}
-			b_gatis_sarsina = {
+			b_suasa_sarsina = {
+			}
+			b_sena_gallica_sarsina = {
+			}
+			b_ariminum_sarsina = {
+			}
+			b_pisaurum_sarsina = {
+			}
+			b_urvinum_mataurense_sarsina = {
 			}
 		}
 	}
@@ -11955,11 +12019,17 @@ k_italy = {
 			
 			b_veii_veii = {
 			}
-			b_laurium_veii = {
+			b_pyrgi_veii = {
 			}
-			b_frenae_veii = {
+			b_castrum_novum_veii = {
 			}
-			b_pyrgos_veii = {
+			b_caere_veii = {
+			}
+			b_alsium_veii = {
+			}
+			b_sutrium_veii = {
+			}
+			b_falerii_veii = {
 			}
 		}
 		c_tarquinii = {
@@ -11971,11 +12041,17 @@ k_italy = {
 			
 			b_tarquinii_tarquinii = {
 			}
-			b_tuscania_tarquinii = {
+			b_graviscae_tarquinii = {
 			}
 			b_blera_tarquinii = {
 			}
-			b_punicum_tarquinii = {
+			b_tuscana_tarquinii = {
+			}
+			b_visentium_tarquinii = {
+			}
+			b_vulci_tarquinii = {
+			}
+			b_cosae_tarquinii = {
 			}
 		}
 		c_arretium = {
@@ -11986,9 +12062,15 @@ k_italy = {
 			}
 			b_cortona_arretium = {
 			}
-			b_aquileia_arretium = {
+			b_perusia_arretium = {
 			}
-			b_biturgia_arretium = {
+			b_ad_statuas_arretium = {
+			}
+			b_manliana_arretium = {
+			}
+			b_clusium_arretium = {
+			}
+			b_volsinii_arretium = {
 			}
 		}
 		c_vetulonia = {
@@ -11997,11 +12079,17 @@ k_italy = {
 			
 			b_vetulonia_vetulonia = {
 			}
-			b_cossa_vetulonia = {
+			b_rusellae_vetulonia = {
 			}
-			b_salobro_vetulonia = {
+			b_aquae_volaterranae_vetulonia = {
 			}
-			b_rustellae_vetulonia = {
+			b_populonia_vetulonia = {
+			}
+			b_falesia_vetulonia = {
+			}
+			b_aquae_populoniae_vetulonia = {
+			}
+			b_salebro_vetulonia = {
 			}
 		}
 		c_pisae = {
@@ -12012,13 +12100,17 @@ k_italy = {
 			
 			b_pisae_pisae = {
 			}
-			b_populonium_pisae = {
+			b_volaterrae_pisae = {
+			}
+			b_pistoriae_pisae = {
 			}
 			b_luca_pisae = {
 			}
-			b_fiorentia_pisae = {
+			b_portus_pisanus_pisae = {
 			}
-			b_pistoria_pisae = {
+			b_fossae_papirianae_pisae = {
+			}
+			b_valvata_pisae = {
 			}
 		}
 		c_saena = {
@@ -12027,17 +12119,17 @@ k_italy = {
 			
 			b_saena_saena = {
 			}
-			b_saena1_saena = {
+			b_arnum_saena = {
 			}
-			b_saena2_saena = {
+			b_gallunianum_saena = {
 			}
-			b_saena3_saena = {
+			b_regis_villa_saena = {
 			}
-			b_saena4_saena = {
+			b_forum_aurelii_saena = {
 			}
-			b_saena5_saena = {
+			b_portus_herculis_saena = {
 			}
-			b_saena6_saena = {
+			b_axia_saena = {
 			}
 		}
 	}
@@ -12053,11 +12145,17 @@ k_italy = {
 			
 			b_asculum_asculum = {
 			}
-			b_novana_asculum = {
+			b_pinna_asculum = {
 			}
-			b_hadria_asculum = {
+			b_hatria_asculum = {
 			}
-			b_vicus_badies_asculum = {
+			b_interamnia_praetuttiorum_asculum = {
+			}
+			b_castrum_novum_asculum = {
+			}
+			b_salinae_asculum = {
+			}
+			b_matrinum_asculum = {
 			}
 		}
 		c_ancona = {
@@ -12068,11 +12166,17 @@ k_italy = {
 			
 			b_ancona_ancona = {
 			}
-			b_firmum_ancona = {
+			b_falerio_ancona = {
 			}
-			b_sentium_ancona = {
+			b_pausulae_ancona = {
 			}
-			b_faleria_ancona = {
+			b_potentia_ancona = {
+			}
+			b_tolentinum_ancona = {
+			}
+			b_auximum_ancona = {
+			}
+			b_cingulum_ancona = {
 			}
 		}
 	}
@@ -12340,17 +12444,17 @@ k_cisalpine_gaul = {
 			
 			b_mevaniola_mevaniola = {
 			}
-			b_mevaniola1_mevaniola = {
+			b_ad_fines_mevaniola = {
 			}
-			b_mevaniola2_mevaniola = {
+			b_castellum_mevaniola = {
 			}
-			b_mevaniola3_mevaniola = {
+			b_monteferetra_mevaniola = {
 			}
-			b_mevaniola4_mevaniola = {
+			b_pitinum_pisaurense_mevaniola = {
 			}
-			b_mevaniola5_mevaniola = {
+			b_forum_sempronii_mevaniola = {
 			}
-			b_mevaniola6_mevaniola = {
+			b_trea_mevaniola = {
 			}
 		}
 		c_mutina = {
