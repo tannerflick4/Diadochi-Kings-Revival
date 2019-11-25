@@ -9,7 +9,7 @@
 	culture = oscan
 }
 16003 = {
-	name = "Pontii"
+	name = "Pentri"
 	culture = oscan
 }
 16004 = {

@@ -1,4 +1,4 @@
-411.1.1 = { # 365 BC
+410.1.1 = { # 366 BC
 	holder = 160202 # Herenniis Pontius
 	law = succ_feudal_elective
 }
@@ -6,7 +6,10 @@
 	holder = 160201 # Gaiis Pontius
 }
 461.1.1 = { # 315 BC
-	holder = 160301 # Ancus
+	holder = 160203
+}
+465.1.1 = { # 311 BC
+	holder = 160204
 }
 486.1.1 = { # 290 BC
 	holder = 0
