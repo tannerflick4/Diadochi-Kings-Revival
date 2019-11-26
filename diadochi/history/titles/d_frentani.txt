@@ -1,0 +1,21 @@
+399.1.1 = { # 377 BC
+	holder = 160301
+}
+410.1.1 = {
+	set_tribute_suzerain = {
+		who = k_samnites
+		percentage = 0.2
+	}
+}
+422.1.1 = { # 354 BC
+	holder = 160302
+}
+441.1.1 = { # 335 BC
+	holder = 160303
+}
+477.1.1 = { # 299 BC
+	holder = 160304
+}
+521.1.1 = { # 255 BC
+	holder = 160305
+}

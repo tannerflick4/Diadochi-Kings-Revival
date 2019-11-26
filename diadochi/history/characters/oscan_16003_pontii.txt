@@ -1,7 +1,7 @@
-# 160201-160300 for the Pontii dynasty
+# 160201-160300 for the Pentri dynasty
 160201 = {
 	name = "Gaiis" # Gaius Pontius, Samnite leader
-	dynasty = 16003 # Pontii
+	dynasty = 16003 # Pentri
 	religion = roman_main
 	culture = oscan
 	father = 160202
@@ -20,7 +20,7 @@
 }
 160202 = {
 	name = "Herenniis" # Herennius Pontius, Samnite leader
-	dynasty = 16003 # Pontii
+	dynasty = 16003 # Pentri
 	religion = roman_main
 	culture = oscan
 	
@@ -30,6 +30,81 @@
 		birth="yes"
 	}
 	456.1.1 = { # 320 BC Made Up
+		death="yes"
+	}
+}
+160203 = {
+	name = "Taurus"
+	dynasty = 16003
+	religion = roman_main
+	culture = oscan
+
+	father = 160202
+
+	436.1.1 = { # 340 BC
+		birth="yes"
+	}
+	465.1.1 = { # 311 BC
+		death="yes"
+	}
+}
+160204 = {
+	name = "Attiis"
+	dynasty = 16003
+	religion = roman_main
+	culture = oscan
+
+	father = 160203
+
+	455.1.1 = { # 321 BC
+		birth="yes"
+	}
+	487.1.1 = { # 289 BC
+		death="yes"
+	}
+}
+160205 = {
+	name = "Pacciis"
+	dynasty = 16003
+	religion = roman_main
+	culture = oscan
+
+	father = 160204
+
+	485.1.1 = { # 291 BC
+		birth="yes"
+	}
+	531.1.1 = { # 245 BC
+		death="yes"
+	}
+}
+160206 = {
+	name = "Pompo"
+	dynasty = 16003
+	religion = roman_main
+	culture = oscan
+
+	father = 160205
+
+	507.1.1 = { # 269 BC
+		birth="yes"
+	}
+	534.1.1 = { # 242 BC
+		death="yes"
+	}
+}
+160207 = {
+	name = "Seppiis"
+	dynasty = 16003
+	religion = roman_main
+	culture = oscan
+
+	father = 160206
+
+	532.1.1 = { # 244 BC
+		birth="yes"
+	}
+	571.1.1 = { # 205 BC
 		death="yes"
 	}
 }

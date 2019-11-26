@@ -753,11 +753,24 @@ k_saurastra = {
 	
 	capital = 285 # Automula
 }
-k_samnites = {
+k_samnites = { # pre-290 bc Samnite tribes
 	color= { 125 25 0 }
 	color2= { 255 255 255 }
 	
 	capital = 327 # Bovianum
+	
+	tribe = yes
+	
+	title = "MEDDIX"
+	short_name = yes
+}
+d_samnites = { # post-290 bc Samnite tribe
+	color= { 125 25 0 }
+	color2= { 255 255 255 }
+	
+	capital = 327 # Bovianum
+	
+	tribe = yes
 	
 	title = "MEDDIX"
 	short_name = yes
@@ -825,6 +838,14 @@ d_caraceni = {
 	tribe = yes
 	
 	capital = 1122 # Aufidena
+}
+d_hirpini = {
+	color= { 59 191 179 }
+	color2= { 255 255 255 }
+	
+	tribe = yes
+	
+	capital = 1121 # Aeclanum
 }
 k_ligures = {
 	color= { 100 225 75 }

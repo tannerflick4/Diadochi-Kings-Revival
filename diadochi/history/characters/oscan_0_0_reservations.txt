@@ -7,3 +7,5 @@
 	# 160501-160600 for the Marsi dynasty
 	# 160601-160700 for the Paeligni dynasty
 	# 160701-160800 for the Caraceni dynasty
+	# 160801-160900 for the Hirpini dynasty
+	# 160901-161000 for the Calavia dynasty
