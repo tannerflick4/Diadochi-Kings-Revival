@@ -1,10 +1,18 @@
-412.1.1 = { # 364 BC
-	holder = 220003
-	liege = k_veneti
+405.1.1 = { # 371 BC
+	holder = 234101 # Cavarus of the Lingones
 }
-432.1.1 = { # 344 BC
-	holder = 220001
+441.1.1 = { # 335 BC
+	holder = 234102 # Cavarinus of the Lingones
 }
-471.1.1 = {
-	holder = 220002
+460.1.1 = { # 316 BC
+	holder = 234103 # Ambiorix of the Lingones
+}
+472.1.1 = { # 304 BC
+	holder = 234104 # Convictolitavis of the Lingones
+}
+518.1.1 = { # 258 BC
+	holder = 234105 # Cavarinus of the Lingones
+}
+511.1.1 = { # 265 BC
+	holder = 234106 # Convictolitavis of the Lingones
 }

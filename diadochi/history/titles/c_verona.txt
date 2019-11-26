@@ -1,9 +1,12 @@
-402.1.1 = { # 374 BC
-	holder = 230203 
+416.1.1 = { # 360 BC
+	holder = 234001 # Acco of the Cenomani
 }
-447.1.1 = { # 329 BC
-	holder = 230201
+436.1.1 = { # 340 BC
+	holder = 234002 # Iccius of the Cenomani
 }
-471.1.1 = { # 305 BC
-	holder = 230202
+445.1.1 = { # 331 BC
+	holder = 234003 # Donnotaurus of the Cenomani
+}
+454.1.1 = { # 322 BC
+	holder = 234004 # Vercingetorix of the Cenomani
 }

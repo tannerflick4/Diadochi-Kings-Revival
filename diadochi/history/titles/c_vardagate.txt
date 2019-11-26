@@ -1,9 +1,15 @@
-398.1.1 = { # 378 BC
-	holder = 210003
+415.1.1 = { # 361 BC
+	holder = 210201 # Vercingetorix of the Ilvates
 }
-439.1.1 = { # 337 BC
-	holder = 210001
+434.1.1 = { # 342 BC
+	holder = 210202 # Litaviccus of the Ilvates
+}
+450.1.1 = { # 326 BC
+	holder = 210203 # Lucterius of the Ilvates
 }
 471.1.1 = { # 305 BC
-	holder = 210002
+	holder = 210204 # Orgetorix of the Ilvates
+}
+507.1.1 = { # 269 BC
+	holder = 210205 # Boduognatus of the Ilvates
 }

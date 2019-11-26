@@ -1,9 +1,16 @@
-412.1.1 = { # 364 BC
-	holder = 230103
+410.1.1 = { # 366 BC
+	holder = 230101 # Vertico of the Insubres
+	liege = k_insubres
 }
-446.1.1 = { # 330 BC
- 	holder = 230101
+425.1.1 = { # 351 BC
+	holder = 230102 # Diviciacus of the Insubres
 }
-471.1.1 = { # 305 BC
-	holder = 230102
+453.1.1 = { # 323 BC
+	holder = 230103 # Convictolitavis of the Insubres
+}
+457.1.1 = { # 319 BC
+	holder = 230104 # Cotuatus of the Insubres
+}
+482.1.1 = { # 294 BC
+	holder = 230105 # Viridomaros of the Insubres
 }

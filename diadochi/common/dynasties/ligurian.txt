@@ -1,6 +1,229 @@
 # 21001-22000 for Ligurian dynasties
 
+# Italy
 21001 = {
 	name = "Genuates"
+	culture = ligurian
+}
+21002 = {
+	name = "Alpini"
+	culture = ligurian
+}
+21003 = {
+	name = "Apuani"
+	culture = ligurian
+}
+21004 = {
+	name = "Bimbelli"
+	culture = ligurian
+}
+21005 = {
+	name = "Bagienni"
+	culture = ligurian
+}
+21006 = {
+	name = "Briniates"
+	culture = ligurian
+}
+21007 = {
+	name = "Celelates"
+	culture = ligurian
+}
+21008 = {
+	name = "Cerdiciates"
+	culture = ligurian
+}
+21009 = {
+	name = "Commoni"
+	culture = ligurian
+}
+21010 = {
+	name = "Cosmonates"
+	culture = ligurian
+}
+21011 = {
+	name = "Deciates"
+	culture = ligurian
+}
+21012 = {
+	name = "Epanterii"
+	culture = ligurian
+}
+21013 = {
+	name = "Euburiates"
+	culture = ligurian
+}
+21014 = {
+	name = "Friniates"
+	culture = ligurian
+}
+21015 = {
+	name = "Garuli"
+	culture = ligurian
+}
+21016 = {
+	name = "Hercates"
+	culture = ligurian
+}
+21017 = {
+	name = "Iriates"
+	culture = ligurian
+}
+21018 = {
+	name = "Ingauni"
+	culture = ligurian
+}
+21019 = {
+	name = "Intemelii"
+	culture = ligurian
+}
+21020 = {
+	name = "Langates"
+	culture = ligurian
+}
+21021 = {
+	name = "Lapicini"
+	culture = ligurian
+}
+21022 = {
+	name = "Laevi"
+	culture = ligurian
+}
+21023 = {
+	name = "Libici"
+	culture = ligurian
+}
+21024 = {
+	name = "Magelli"
+	culture = ligurian
+}
+21025 = {
+	name = "Marici"
+	culture = ligurian
+}
+21026 = {
+	name = "Olivari"
+	culture = ligurian
+}
+21027 = {
+	name = "Orobii"
+	culture = ligurian
+}
+21028 = {
+	name = "Oxybii"
+	culture = ligurian
+}
+21029 = {
+	name = "Rutuli"
+	culture = ligurian
+}
+21030 = {
+	name = "Sabates"
+	culture = ligurian
+}
+21031 = {
+	name = "Statielli"
+	culture = ligurian
+}
+21032 = {
+	name = "Segusini"
+	culture = ligurian
+}
+21033 = {
+	name = "Sueltri"
+	culture = ligurian
+}
+21034 = {
+	name = "Tigulli"
+	culture = ligurian
+}
+21035 = {
+	name = "Tricastini"
+	culture = ligurian
+}
+21036 = {
+	name = "Vediantii"
+	culture = ligurian
+}
+21037 = {
+	name = "Veiturii"
+	culture = ligurian
+}
+21038 = {
+	name = "Veleiates"
+	culture = ligurian
+}
+21039 = {
+	name = "Veneni"
+	culture = ligurian
+}
+
+# Corsica and Sardinia
+21040 = {
+	name = "Corsi"
+	culture = ligurian
+}
+21041 = {
+	name = "Belatones"
+	culture = ligurian
+}
+21042 = {
+	name = "Cervini"
+	culture = ligurian
+}
+21043 = {
+	name = "Cilebenses"
+	culture = ligurian
+}
+21044 = {
+	name = "Cumanenses"
+	culture = ligurian
+}
+21045 = {
+	name = "Lestricones"
+	culture = ligurian
+}
+21046 = {
+	name = "Licinini"
+	culture = ligurian
+}
+21047 = {
+	name = "Longonenses"
+	culture = ligurian
+}
+21048 = {
+	name = "Macrini"
+	culture = ligurian
+}
+21049 = {
+	name = "Opini"
+	culture = ligurian
+}
+21050 = {
+	name = "Subasani"
+	culture = ligurian
+}
+21051 = {
+	name = "Sumbri"
+	culture = ligurian
+}
+21052 = {
+	name = "Tarabeni"
+	culture = ligurian
+}
+21053 = {
+	name = "Tibulati"
+	culture = ligurian
+}
+21054 = {
+	name = "Titiani"
+	culture = ligurian
+}
+21055 = {
+	name = "Venacini"
+	culture = ligurian
+}
+21056 = {
+	name = "Ilvates"
 	culture = ligurian
 }

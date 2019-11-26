@@ -1,18 +1,10 @@
-415.1.1 = { # 361 BC
-	holder = 220301 # Volso of the Histri
+412.1.1 = { # 364 BC
+	holder = 220003
+	liege = k_veneti
 }
-422.1.1 = { # 354 BC
-	holder = 220302 # Lastimeis of the Histri
+432.1.1 = { # 344 BC
+	holder = 220001
 }
-437.1.1 = { # 339 BC
-	holder = 220303 # Cliticus of the Histri
-}
-448.1.1 = { # 328 BC
-	holder = 220304 # Aetor of the Histri
-}
-493.1.1 = { # 283 BC
-	holder = 220305 # Clausus of the Histri
-}
-513.1.1 = { # 263 BC
-	holder = 220306 # Aetor of the Histri
+471.1.1 = {
+	holder = 220002
 }

@@ -37,3 +37,7 @@
 	# 233501-233600 for the Bituriges Vivisci dynasty
 	# 233601-233700 for the Avatici dynasty
 	# 233701-233800 for the Helvetii dynasty
+	# 233801-233900 for the Taurini dynasty
+	# 233901-234000 for the Lepontii dynasty
+	# 234001-234100 for the Cenomani dynasty
+	# 234101-234200 for the Lingones dynasty

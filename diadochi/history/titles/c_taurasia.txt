@@ -1,9 +1,21 @@
-398.1.1 = { # 378 BC
-	holder = 210003
+388.1.1 = { # 388 BC
+	holder = 210101 # Convictolitavis of the Ingauni
 }
-439.1.1 = { # 337 BC
-	holder = 210001
+393.1.1 = { # 383 BC
+	holder = 210102 # Orgetorix of the Ingauni
 }
-471.1.1 = { # 305 BC
-	holder = 210002
+435.1.1 = { # 341 BC
+	holder = 210103 # Brennus of the Ingauni
+}
+486.1.1 = { # 290 BC
+	holder = 210104 # Catuvolcus of the Ingauni
+}
+497.1.1 = { # 279 BC
+	holder = 210105 # Cerethrius of the Ingauni
+}
+498.1.1 = { # 278 BC
+	holder = 210106 # Cotuatus of the Ingauni
+}
+514.1.1 = { # 262 BC
+	holder = 210107 # Viridomaros of the Ingauni
 }

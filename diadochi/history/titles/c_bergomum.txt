@@ -1,9 +1,12 @@
-412.1.1 = { # 364 BC
-	holder = 230103
+403.1.1 = { # 373 BC
+	holder = 233901 # Eporedix of the Lepontii
 }
-446.1.1 = { # 330 BC
- 	holder = 230101
+431.1.1 = { # 345 BC
+	holder = 233902 # Commius of the Lepontii
 }
-471.1.1 = { # 305 BC
-	holder = 230102
+441.1.1 = { # 335 BC
+	holder = 233903 # Bathanatos of the Lepontii
+}
+473.1.1 = { # 303 BC
+	holder = 233904 # Vercingetorix of the Lepontii
 }

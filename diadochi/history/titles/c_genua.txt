@@ -1,9 +1,18 @@
-398.1.1 = { # 378 BC
-	holder = 210003
+389.1.1 = { # 387 BC
+	holder = 210001 # Donnotaurus of the Genuates
 }
-439.1.1 = { # 337 BC
-	holder = 210001
+392.1.1 = { # 384 BC
+	holder = 210002 # Commius of the Genuates
 }
-471.1.1 = { # 305 BC
-	holder = 210002
+408.1.1 = { # 368 BC
+	holder = 210003 # Divico of the Genuates
+}
+435.1.1 = { # 341 BC
+	holder = 210004 # Commius of the Genuates
+}
+496.1.1 = { # 280 BC
+	holder = 210005 # Adiatunnus of the Genuates
+}
+500.1.1 = { # 276 BC
+	holder = 210006 # Brennus of the Genuates
 }

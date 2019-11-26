@@ -1,9 +1,18 @@
-412.1.1 = { # 364 BC
-	holder = 230103
+392.1.1 = { # 384 BC
+	holder = 233801 # Vercingetorix of the Taurini
 }
-446.1.1 = { # 330 BC
- 	holder = 230101
+414.1.1 = { # 362 BC
+	holder = 233802 # Convictolitavis of the Taurini
 }
-471.1.1 = { # 305 BC
-	holder = 230102
+424.1.1 = { # 352 BC
+	holder = 233803 # Viridomaros of the Taurini
+}
+441.1.1 = { # 335 BC
+	holder = 233804 # Bathanatos of the Taurini
+}
+492.1.1 = { # 284 BC
+	holder = 233806 # Indutiomaros of the Taurini
+}
+504.1.1 = { # 272 BC
+	holder = 233807 # Adiatunnus of the Taurini
 }
