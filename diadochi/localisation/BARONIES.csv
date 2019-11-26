@@ -1426,9 +1426,12 @@ b_portus_pisanus_pisae;Portus Pisanus;;;;;;;;;;;;;;x
 b_fossae_papirianae_pisae;Fossae Papirianae;;;;;;;;;;;;;;x
 b_valvata_pisae;Valvata;;;;;;;;;;;;;;x
 b_luna_luna;Luna;;;;;;;;;;;;;;x
-b_boron_luna;Boron;;;;;;;;;;;;;;x
-b_segeste_luna;Segeste;;;;;;;;;;;;;;x
-b_ricina_luna;Ricina;;;;;;;;;;;;;;x
+b_taberna_frigida_luna;Taberna Frigida;;;;;;;;;;;;;;x
+b_pullion_luna;Pullion;;;;;;;;;;;;;;x
+b_portus_veneris_luna;Portus Veneris;;;;;;;;;;;;;;x
+b_boacias_luna;Boacias;;;;;;;;;;;;;;x
+b_tegulata_luna;Tegulata;;;;;;;;;;;;;;x
+b_antion_luna;Antion;;;;;;;;;;;;;;x
 b_genua_albingaunum;Genua;;;;;;;;;;;;;;x
 b_ceba_albingaunum;Ceba;;;;;;;;;;;;;;x
 b_pedrona_albingaunum;Pedrona;;;;;;;;;;;;;;x
@@ -1439,21 +1442,36 @@ b_taurinorum_taurasia;Taurinorum;;;;;;;;;;;;;;x
 b_ocelium_taurasia;Ocelium;;;;;;;;;;;;;;x
 b_segusio_taurasia;Segusio;;;;;;;;;;;;;;x
 b_vercellae_vercellae;Vercellae;;;;;;;;;;;;;;x
-b_vitricium_vercellae;Vitricium;;;;;;;;;;;;;;x
-b_arebrigium_vercellae;Arebrigium;;;;;;;;;;;;;;x
-b_sandon_vercellae;Sandon;;;;;;;;;;;;;;x
+b_novaria_vercellae;Novaria;;;;;;;;;;;;;;x
+b_rigomagus_vercellae;Rigomagus;;;;;;;;;;;;;;x
+b_carbantia_vercellae;Carbantia;;;;;;;;;;;;;;x
+b_retovium_vercellae;Retovium;;;;;;;;;;;;;;x
+b_laumellum_vercellae;Laumellum;;;;;;;;;;;;;;x
+b_plumbia_vercellae;Plumbia;;;;;;;;;;;;;;x
 b_mediolanum_mediolanum;Mediolanum;;;;;;;;;;;;;;x
-b_comum_mediolanum;Comum;;;;;;;;;;;;;;x
+b_laus_pompeia_mediolanum;Laus Pompeia;;;;;;;;;;;;;;x
+b_ticinum_mediolanum;Ticinum;;;;;;;;;;;;;;x
+b_argentea_mediolanum;Argentea;;;;;;;;;;;;;;x
 b_modicia_mediolanum;Modicia;;;;;;;;;;;;;;x
+b_sibrium_mediolanum;Sibrium;;;;;;;;;;;;;;x
+b_comum_mediolanum;Comum;;;;;;;;;;;;;;x
 b_brixia_brixia;Brixia;;;;;;;;;;;;;;x
-b_bergomum_brixia;Bergomum;;;;;;;;;;;;;;x
-b_spina_brixia;Spina;;;;;;;;;;;;;;x
+b_anneianum_brixia;Anneianum;;;;;;;;;;;;;;x
+b_civitas_camunnorum_brixia;Civitas Camunnorum;;;;;;;;;;;;;;x
+b_voberna_brixia;Voberna;;;;;;;;;;;;;;x
+b_sirmio_brixia;Sirmio;;;;;;;;;;;;;;x
+b_bretina_brixia;Bretina;;;;;;;;;;;;;;x
+b_ligeris_brixia;Ligeris;;;;;;;;;;;;;;x
 b_verona_verona;Verona;;;;;;;;;;;;;;x
 b_mantua_verona;Mantua;;;;;;;;;;;;;;x
 b_bedriacum_verona;Bedriacum;;;;;;;;;;;;;;x
 b_patavium_patavium;Patavium;;;;;;;;;;;;;;x
-b_vicentia_patavium;Vicentia;;;;;;;;;;;;;;x
-b_ateate_patavium;Ateate;;;;;;;;;;;;;;x
+b_altinum_patavium;Altinum;;;;;;;;;;;;;;x
+b_corniculani_patavium;Corniculani;;;;;;;;;;;;;;x
+b_feraria_patavium;Feraria;;;;;;;;;;;;;;x
+b_brundulum_patavium;Brundulum;;;;;;;;;;;;;;x
+b_portus_edronis_patavium;Portus Edronis;;;;;;;;;;;;;;x
+b_tarvisium_patavium;Tarvisium;;;;;;;;;;;;;;x
 b_altinum_altinum;Altinum;;;;;;;;;;;;;;x
 b_opitergum_altinum;Opitergum;;;;;;;;;;;;;;x
 b_flamonia_altinum;Flamonia;;;;;;;;;;;;;;x
@@ -1473,18 +1491,33 @@ b_caralis_caralis;Caralis;;;;;;;;;;;;;;x
 b_pupullum_caralis;Pupullum;;;;;;;;;;;;;;x
 b_nora_caralis;Nora;;;;;;;;;;;;;;x
 b_placentia_placentia;Placentia;;;;;;;;;;;;;;x
+b_fidentia_placentia;Fidentia;;;;;;;;;;;;;;x
+b_florentiola_placentia;Florentiola;;;;;;;;;;;;;;x
 b_veleia_placentia;Veleia;;;;;;;;;;;;;;x
-b_barderate_placentia;Barderate;;;;;;;;;;;;;;x
+b_fundus_ancharianus_placentia;Fundus Ancharianus;;;;;;;;;;;;;;x
+b_minerva_cabardiacensis_placentia;Minerva Cabardiacensis;;;;;;;;;;;;;;x
+b_bobium_placentia;Bobium;;;;;;;;;;;;;;x
 b_parma_parma;Parma;;;;;;;;;;;;;;x
-b_cremona_parma;Cremona;;;;;;;;;;;;;;x
-b_aquinium_parma;Aquinium;;;;;;;;;;;;;;x
+b_regium_lepidum_parma;Regium Lepidum;;;;;;;;;;;;;;x
+b_tannetum_parma;Tannetum;;;;;;;;;;;;;;x
+b_brixellum_parma;Brixellum;;;;;;;;;;;;;;x
+b_forum_novum_parma;Forum Novum;;;;;;;;;;;;;;x
+b_ad_sinnium_parma;Ad Sinnium;;;;;;;;;;;;;;x
+b_forum_cornelii_parma;Forum Cornelii;;;;;;;;;;;;;;x
 b_bononia_bononia;Bononia;;;;;;;;;;;;;;x
-b_mutina_bononia;Mutina;;;;;;;;;;;;;;x
-b_campi_bononia;Campi;;;;;;;;;;;;;;x
+b_florentia_bononia;Florentia;;;;;;;;;;;;;;x
+b_faesulae_bononia;Faesulae;;;;;;;;;;;;;;x
+b_ad_solaria_bononia;Ad Solaria;;;;;;;;;;;;;;x
+b_faventia_bononia;Faventia;;;;;;;;;;;;;;x
+b_claterna_bononia;Claterna;;;;;;;;;;;;;;x
+b_anneianum_bononia;Anneianum;;;;;;;;;;;;;;x
 b_ravenna_ravenna;Ravenna;;;;;;;;;;;;;;x
-b_spina_ravenna;Spina;;;;;;;;;;;;;;x
-b_favrentia_ravenna;Favrentia;;;;;;;;;;;;;;x
-b_solana_ravenna;Solana;;;;;;;;;;;;;;x
+b_sabis_ravenna;Sabis;;;;;;;;;;;;;;x
+b_caesena_ravenna;Caesena;;;;;;;;;;;;;;x
+b_butrium_ravenna;Butrium;;;;;;;;;;;;;;x
+b_neronia_ravenna;Neronia;;;;;;;;;;;;;;x
+b_vicus_aventia_ravenna;Vicus Aventia;;;;;;;;;;;;;;x
+b_castrum_cumiacli_ravenna;Castrum Cumiacli;;;;;;;;;;;;;;x
 b_utica_utica;Atiqa;;;;;;;;;;;;;x;
 b_ucres_utica;Ucres;;;;;;;;;;;;;x;
 b_rusicmona_utica;Rusicmona;;;;;;;;;;;;;x;
@@ -2686,11 +2719,13 @@ b_nigrinianis_arbitus;Nigrinianis;;;;;;;;;;;;;x;
 b_candidiana_arbitus;Candidiana;;;;;;;;;;;;;x;
 b_kashkar_kashkar;Kashkar;;;;;;;;;;;;;x;
 b_apamea_kashkar;Apameia;;;;;;;;;;;;;x;
-b_stalia_genua;Stalia;;;;;;;;;;;;;x;
-b_hasta_genua;Hasta;;;;;;;;;;;;;x;
-b_coeba_genua;Coeba;;;;;;;;;;;;;x;
-b_savo_genua;Savo;;;;;;;;;;;;;x;
 b_genua_genua;Genua;;;;;;;;;;;;;x;
+b_portus_delphini_genua;Portus Delphini;;;;;;;;;;;;;x;
+b_delphinis_genua;Delphinis;;;;;;;;;;;;;x;
+b_ricina_genua;Ricina;;;;;;;;;;;;;x;
+b_ad_figlinas_genua;Ad Figlinas;;;;;;;;;;;;;x;
+b_hasta_genua;Hasta;;;;;;;;;;;;;x;
+b_ad_navalia_genua;Ad Navalia;;;;;;;;;;;;;x;
 b_albingaunum_albingaunum;Albingaunum;;;;;;;;;;;;;x;
 b_pullopice_albingaunum;Pullopice;;;;;;;;;;;;;x;
 b_albium_intilium_albingaunum;Albium Intilium;;;;;;;;;;;;;x;
@@ -2698,18 +2733,33 @@ b_novaria_vercellae;Novaria;;;;;;;;;;;;;x;
 b_cuttiae_vercellae;Cuttiae;;;;;;;;;;;;;x;
 b_retovium_vercellae;Retovium;;;;;;;;;;;;;x;
 b_eporedia_eporedia;Eporedia;;;;;;;;;;;;;x;
+b_quadrata_eporedia;Quadrata;;;;;;;;;;;;;x;
+b_cestae_eporedia;Cestae;;;;;;;;;;;;;x;
 b_bugella_eporedia;Bugella;;;;;;;;;;;;;x;
 b_victumulae_eporedia;Victumulae;;;;;;;;;;;;;x;
+b_cuttiae_eporedia;Cuttiae;;;;;;;;;;;;;x;
+b_durriae_eporedia;Durriae;;;;;;;;;;;;;x;
 b_augusta_taurinorum_augusta_taurinorum;Taurasia;;;;;;;;;;;;;x;
-b_quadrata_augusta_taurinorum;Quadrata;;;;;;;;;;;;;x;
+b_forum_vibii_augusta_taurinorum;Forum Vibii;;;;;;;;;;;;;x;
 b_ad_fines_augusta_taurinorum;Ad Fines;;;;;;;;;;;;;x;
+b_ocelum_augusta_taurinorum;Ocelum;;;;;;;;;;;;;x;
+b_andes_augusta_taurinorum;Andes;;;;;;;;;;;;;x;
+b_mantua_augusta_taurinorum;Mantua;;;;;;;;;;;;;x;
+b_grebia_augusta_taurinorum;Grebia;;;;;;;;;;;;;x;
 b_bellunum_bellunum;Bellunum;;;;;;;;;;;;;x;
+b_pagus_laebactium_bellunum;Pagus Laebactium;;;;;;;;;;;;;x;
 b_feltria_bellunum;Feltria;;;;;;;;;;;;;x;
-b_littamum_bellunum;Littanum;;;;;;;;;;;;;x;
+b_duplavilis_bellunum;Duplavilis;;;;;;;;;;;;;x;
+b_ausucum_bellunum;Ausucum;;;;;;;;;;;;;x;
+b_sublavione_bellunum;Sablavione;;;;;;;;;;;;;x;
+b_fagitana_bellunum;Fagitana;;;;;;;;;;;;;x;
 b_aguntum_aguntum;Aguntum;;;;;;;;;;;;;x;
-b_londum_aguntum;Londum;;;;;;;;;;;;;x;
 b_ibligo_aguntum;Ibligo;;;;;;;;;;;;;x;
-b_osopus_aguntum;Osopus;;;;;;;;;;;;;x;
+b_iulium_carnicum_aguntum;Iulium Carnicum;;;;;;;;;;;;;x;
+b_statio_timaviensis_aguntum;Statio Timaviensis;;;;;;;;;;;;;x;
+b_loncium_aguntum;Loncium;;;;;;;;;;;;;x;
+b_statio_plorucensis_aguntum;Statio Plorucensis;;;;;;;;;;;;;x;
+b_larice_aguntum;Larice;;;;;;;;;;;;;x;
 b_pollentia_taurasia;Pollentia;;;;;;;;;;;;;x;
 b_pedona_taurasia;Pedona;;;;;;;;;;;;;x;
 b_carreum_potentia_taurasia;Carreum;;;;;;;;;;;;;x;
@@ -4878,19 +4928,19 @@ b_mutina4_mutina;Mutina;;;;;;;;;;;x
 b_mutina5_mutina;Mutina;;;;;;;;;;;x
 b_mutina6_mutina;Mutina;;;;;;;;;;;x
 b_dertona_dertona;Dertona;;;;;;;;;;;x
-b_dertona1_dertona;Dertona;;;;;;;;;;;x
-b_dertona2_dertona;Dertona;;;;;;;;;;;x
-b_dertona3_dertona;Dertona;;;;;;;;;;;x
-b_dertona4_dertona;Dertona;;;;;;;;;;;x
-b_dertona5_dertona;Dertona;;;;;;;;;;;x
-b_dertona6_dertona;Dertona;;;;;;;;;;;x
+b_corneli_magus_dertona;Corneli Magus;;;;;;;;;;;x
+b_clastidium_dertona;Clastidium;;;;;;;;;;;x
+b_iria_dertona;Iria;;;;;;;;;;;x
+b_litubium_dertona;Litubium;;;;;;;;;;;x
+b_libarna_dertona;Libarna;;;;;;;;;;;x
+b_ad_medias_dertona;Ad Medias;;;;;;;;;;;x
 b_cremona_cremona;Cremona;;;;;;;;;;;x
-b_cremona1_cremona;Cremona;;;;;;;;;;;x
-b_cremona2_cremona;Cremona;;;;;;;;;;;x
-b_cremona3_cremona;Cremona;;;;;;;;;;;x
-b_cremona4_cremona;Cremona;;;;;;;;;;;x
-b_cremona5_cremona;Cremona;;;;;;;;;;;x
-b_cremona6_cremona;Cremona;;;;;;;;;;;x
+b_vulturina_cremona;Vulturina;;;;;;;;;;;x
+b_bedriacum_cremona;Bedriacum;;;;;;;;;;;x
+b_minervium_cremona;Minervium;;;;;;;;;;;x
+b_tetellus_cremona;Tetellus;;;;;;;;;;;x
+b_forum_novum_cremona;Forum Novum;;;;;;;;;;;x
+b_acerrae_cremona;Acerrae;;;;;;;;;;;x
 b_dactionum_dactionum;Dactionum;;;;;;;;;;;x
 b_urium_turobriga;Urium;;;;;;;;;;;x
 b_fodinae_turobriga;Fodinae;;;;;;;;;;;x
@@ -4900,23 +4950,23 @@ b_kortikata_turobriga;Kortikata;;;;;;;;;;;x
 b_arucci_turobriga;Arucci;;;;;;;;;;;x
 b_mirobriga_mirobriga;Mirobriga;;;;;;;;;;;x
 b_bergomum_bergomum;Bergomum;;;;;;;;;;;x
-b_bergomum1_bergomum;Bergomum;;;;;;;;;;;x
-b_bergomum2_bergomum;Bergomum;;;;;;;;;;;x
-b_bergomum3_bergomum;Bergomum;;;;;;;;;;;x
-b_bergomum4_bergomum;Bergomum;;;;;;;;;;;x
-b_bergomum5_bergomum;Bergomum;;;;;;;;;;;x
-b_bergomum6_bergomum;Bergomum;;;;;;;;;;;x
+b_parra_bergomum;Parra;;;;;;;;;;;x
+b_leucerae_bergomum;Leucerae;;;;;;;;;;;x
+b_licini_forum_bergomum;Licini Forum;;;;;;;;;;;x
+b_comacina_bergomum;Comacina;;;;;;;;;;;x
+b_plinio_bergomum;Plinio;;;;;;;;;;;x
+b_bilitio_bergomum;Bilitio;;;;;;;;;;;x
 b_opilergum_opilergum;Opilergum;;;;;;;;;;;x
-b_opilergum1_opilergum;Opilergum;;;;;;;;;;;x
-b_opilergum2_opilergum;Opilergum;;;;;;;;;;;x
-b_opilergum3_opilergum;Opilergum;;;;;;;;;;;x
-b_opilergum4_opilergum;Opilergum;;;;;;;;;;;x
-b_opilergum5_opilergum;Opilergum;;;;;;;;;;;x
-b_opilergum6_opilergum;Opilergum;;;;;;;;;;;x
+b_heraclia_opilergum;Heraclia;;;;;;;;;;;x
+b_ad_sanos_opilergum;Ad Sanos;;;;;;;;;;;x
+b_portus_liquentiae_opilergum;Portus Liquentiae;;;;;;;;;;;x
+b_portus_reatinus_opilergum;Portus Reatinus;;;;;;;;;;;x
+b_iulia_concorda_opilergum;Iulia Concorda;;;;;;;;;;;x
+b_apicilia_opilergum;Apicilia;;;;;;;;;;;x
 b_aquileia_aquileia;Aquileia;;;;;;;;;;;x
-b_aquileia1_aquileia;Aquileia;;;;;;;;;;;x
-b_aquileia2_aquileia;Aquileia;;;;;;;;;;;x
-b_aquileia3_aquileia;Aquileia;;;;;;;;;;;x
-b_aquileia4_aquileia;Aquileia;;;;;;;;;;;x
-b_aquileia5_aquileia;Aquileia;;;;;;;;;;;x
-b_aquileia6_aquileia;Aquileia;;;;;;;;;;;x
+b_forum_iulii_aquileia;Forum Iulii;;;;;;;;;;;x
+b_gradus_aquileia;Gradus;;;;;;;;;;;x
+b_ad_undecimum_aquileia;Ad Undecimum;;;;;;;;;;;x
+b_artenia_aquileia;Artenia;;;;;;;;;;;x
+b_osopus_aquileia;Osopus;;;;;;;;;;;x
+b_fons_timavi_aquileia;Fons Timavi;;;;;;;;;;;x

@@ -4,10 +4,14 @@
 title = c_patavium # for example c_corinth
 
 # Settlements
-max_settlements = 3
+max_settlements = 5
 b_patavium_patavium = tribal
-b_vicentia_patavium = temple
-#b_ateate_patavium = city
+#b_altinum_patavium = city
+b_corniculani_patavium = temple
+#b_feraria_patavium = castle
+#b_brundulum_patavium = city
+#b_portus_edronis_patavium = city
+#b_tarvisium_patavium = castle
 
 # Misc
 culture = gaul

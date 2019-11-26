@@ -4,10 +4,14 @@
 title = c_brixia # for example c_corinth
 
 # Settlements
-max_settlements = 3
+max_settlements = 5
 b_brixia_brixia = tribal
-#b_bergomum_brixia = city
-b_spina_brixia = temple
+#b_anneianum_brixia = city
+#b_civitas_camunnorum_brixia = castle
+#b_voberna_brixia = castle
+#b_sirmio_brixia = city
+b_bretina_brixia = temple
+#b_ligeris_brixia = castle
 
 # Misc
 culture = gaul

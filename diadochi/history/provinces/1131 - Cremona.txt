@@ -4,14 +4,14 @@
 title = c_cremona
 
 # Settlements
-max_settlements = 3
+max_settlements = 4
 b_cremona_cremona = tribal
-#b_cremona1_cremona = castle
-#b_cremona2_cremona = city
-#b_cremona3_cremona = castle
-#b_cremona4_cremona = castle
-#b_cremona5_cremona = city
-#b_cremona6_cremona = castle
+#b_vulturina_cremona = city
+#b_bedriacum_cremona = city
+#b_minervium_cremona = city
+#b_tetellus_cremona = castle
+#b_forum_novum_cremona = city
+#b_acerrae_cremona = city
 
 # Misc
 culture = gaul

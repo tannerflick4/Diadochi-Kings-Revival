@@ -4,10 +4,14 @@
 title = c_bononia # for example c_corinth
 
 # Settlements
-max_settlements = 3
+max_settlements = 5
 b_bononia_bononia = tribal
-b_mutina_bononia = temple
-b_campi_bononia = city
+#b_florentia_bononia = city
+#b_faesulae_bononia = castle
+b_ad_solaria_bononia = temple
+#b_faventia_bononia = city
+#b_claterna_bononia = = city
+#b_anneianum_bononia = castle
 
 # Misc
 culture = gaul

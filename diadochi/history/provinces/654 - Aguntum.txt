@@ -4,11 +4,14 @@
 title = c_aguntum
 
 # Settlements
-max_settlements = 4
+max_settlements = 3
 b_aguntum_aguntum = tribal
-#b_londum_aguntum = city
-#b_ibligo_aguntum = city
-#b_osopus_aguntum = city
+#b_ibligo_aguntum = temple
+#b_iulium_carnicum_aguntum = temple
+#b_statio_timaviensis_aguntum = castle
+#b_loncium_aguntum = city
+#b_statio_plorucensis_aguntum = castle
+#b_larice_aguntum = castle
 
 # Misc
 culture = venetic

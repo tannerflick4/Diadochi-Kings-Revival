@@ -6,12 +6,12 @@ title = c_mutina
 # Settlements
 max_settlements = 4
 b_mutina_mutina = tribal
-#b_mutina1_mutina = city
-#b_mutina2_mutina = castle
-b_mutina3_mutina = temple
-#b_mutina4_mutina = castle
-#b_mutina5_mutina = city
-#b_mutina6_mutina = castle
+#b_forum_gallorum_mutina = city
+#b_victoriolae_mutina = city
+#b_vicus_serninus_mutina = castle
+#b_pons_seciae_mutina = city
+#b_vicus_varianus_mutina = city
+#b_colicaria_mutina = castle
 
 # Misc
 culture = gaul

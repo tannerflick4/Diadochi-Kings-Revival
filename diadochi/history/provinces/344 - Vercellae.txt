@@ -7,8 +7,11 @@ title = c_vercellae # for example c_corinth
 max_settlements = 4
 b_vercellae_vercellae = tribal
 #b_novaria_vercellae = city
-#b_cuttiae_vercellae = castle
-b_retovium_vercellae = temple
+#b_rigomagus_vercellae = city
+#b_carbantia_vercellae = city
+#b_retovium_vercellae = city
+#b_laumellum_vercellae = castle
+#b_plumbia_vercellae = castle
 
 # Misc
 culture = gaul

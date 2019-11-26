@@ -6,12 +6,12 @@ title = c_bergomum
 # Settlements
 max_settlements = 3
 b_bergomum_bergomum = tribal
-#b_bergomum1_bergomum = castle
-#b_bergomum2_bergomum = city
-#b_bergomum3_bergomum = castle
-#b_bergomum4_bergomum = castle
-#b_bergomum5_bergomum = city
-#b_bergomum6_bergomum = castle
+#b_parra_bergomum = castle
+#b_leucerae_bergomum = city
+#b_licini_forum_bergomum = city
+#b_comacina_bergomum = city
+#b_plinio_bergomum = temple
+#b_bilitio_bergomum = city
 
 # Misc
 culture = gaul

@@ -12206,11 +12206,17 @@ k_cisalpine_gaul = {
 			
 			b_luna_luna = {
 			}
-			b_boron_luna = {
+			b_taberna_frigida_luna = {
 			}
-			b_segeste_luna = {
+			b_pullion_luna = {
 			}
-			b_ricina_luna = {
+			b_portus_veneris_luna = {
+			}
+			b_boacias_luna = {
+			}
+			b_tegulata_luna = {
+			}
+			b_antion_luna = {
 			}
 		}
 		c_albingaunum = {
@@ -12247,16 +12253,20 @@ k_cisalpine_gaul = {
 		c_genua = {
 			color= { 110 215 85 }
 			color2= { 255 255 255 }
-						
-			b_stalia_genua = {
+			
+			b_genua_genua = {
+			}
+			b_portus_delphini_genua = {
+			}
+			b_delphinis_genua = {
+			}
+			b_ricina_genua = {
+			}
+			b_ad_figlinas_genua = {
 			}
 			b_hasta_genua = {
 			}
-			b_coeba_genua = {
-			}
-			b_savo_genua = {
-			}
-			b_genua_genua = {
+			b_ad_navalia_genua = {
 			}
 		}
 		c_dertona = {
@@ -12265,17 +12275,17 @@ k_cisalpine_gaul = {
 			
 			b_dertona_dertona = {
 			}
-			b_dertona1_dertona = {
+			b_corneli_magus_dertona = {
 			}
-			b_dertona2_dertona = {
+			b_clastidium_dertona = {
 			}
-			b_dertona3_dertona = {
+			b_iria_dertona = {
 			}
-			b_dertona4_dertona = {
+			b_litubium_dertona = {
 			}
-			b_dertona5_dertona = {
+			b_libarna_dertona = {
 			}
-			b_dertona6_dertona = {
+			b_ad_medias_dertona = {
 			}
 		}
 	}
@@ -12293,9 +12303,15 @@ k_cisalpine_gaul = {
 			}
 			b_novaria_vercellae = {
 			}
-			b_cuttiae_vercellae = {
+			b_rigomagus_vercellae = {
+			}
+			b_carbantia_vercellae = {
 			}
 			b_retovium_vercellae = {
+			}
+			b_laumellum_vercellae = {
+			}
+			b_plumbia_vercellae = {
 			}
 		}
 		c_mediolanum = {
@@ -12304,9 +12320,17 @@ k_cisalpine_gaul = {
 			
 			b_mediolanum_mediolanum = {
 			}
-			b_comum_mediolanum = {
+			b_laus_pompeia_mediolanum = {
+			}
+			b_ticinum_mediolanum = {
+			}
+			b_argentea_mediolanum = {
 			}
 			b_modicia_mediolanum = {
+			}
+			b_sibrium_mediolanum = {
+			}
+			b_comum_mediolanum = {
 			}
 		}
 		c_brixia = {
@@ -12315,9 +12339,17 @@ k_cisalpine_gaul = {
 			
 			b_brixia_brixia = {
 			}
-			b_bergomum_brixia = {
+			b_anneianum_brixia = {
 			}
-			b_spina_brixia = {
+			b_civitas_camunnorum_brixia = {
+			}
+			b_voberna_brixia = {
+			}
+			b_sirmio_brixia = {
+			}
+			b_bretina_brixia = {
+			}
+			b_ligeris_brixia = {
 			}
 		}
 		c_eporedia = {			
@@ -12326,9 +12358,17 @@ k_cisalpine_gaul = {
 			
 			b_eporedia_eporedia = {
 			}
+			b_quadrata_eporedia = {
+			}
+			b_cestae_eporedia = {
+			}
 			b_bugella_eporedia = {
 			}
 			b_victumulae_eporedia = {
+			}
+			b_cuttiae_eporedia = {
+			}
+			b_durriae_eporedia = {
 			}
 		}
 		c_augusta_taurinorum = {
@@ -12340,9 +12380,17 @@ k_cisalpine_gaul = {
 			b_augusta_taurinorum_augusta_taurinorum = {
 				latin = "Augusta Taurinorum"
 			}
-			b_quadrata_augusta_taurinorum = {
+			b_forum_vibii_augusta_taurinorum = {
 			}
 			b_ad_fines_augusta_taurinorum = {
+			}
+			b_ocelum_augusta_taurinorum = {
+			}
+			b_andes_augusta_taurinorum = {
+			}
+			b_mantua_augusta_taurinorum = {
+			}
+			b_grebia_augusta_taurinorum = {
 			}
 		}
 		c_cremona = {
@@ -12351,17 +12399,17 @@ k_cisalpine_gaul = {
 			
 			b_cremona_cremona = {
 			}
-			b_cremona1_cremona = {
+			b_vulturina_cremona = {
 			}
-			b_cremona2_cremona = {
+			b_bedriacum_cremona = {
 			}
-			b_cremona3_cremona = {
+			b_minervium_cremona = {
 			}
-			b_cremona4_cremona = {
+			b_tetellus_cremona = {
 			}
-			b_cremona5_cremona = {
+			b_forum_novum_cremona = {
 			}
-			b_cremona6_cremona = {
+			b_acerrae_cremona = {
 			}
 		}
 		c_bergomum = {
@@ -12370,17 +12418,17 @@ k_cisalpine_gaul = {
 			
 			b_bergomum_bergomum = {
 			}
-			b_bergomum1_bergomum = {
+			b_parra_bergomum = {
 			}
-			b_bergomum2_bergomum = {
+			b_leucerae_bergomum = {
 			}
-			b_bergomum3_bergomum = {
+			b_licini_forum_bergomum = {
 			}
-			b_bergomum4_bergomum = {
+			b_comacina_bergomum = {
 			}
-			b_bergomum5_bergomum = {
+			b_plinio_bergomum = {
 			}
-			b_bergomum6_bergomum = {
+			b_bilitio_bergomum = {
 			}
 		}
 	}
@@ -12396,9 +12444,17 @@ k_cisalpine_gaul = {
 			
 			b_placentia_placentia = {
 			}
+			b_fidentia_placentia = {
+			}
+			b_florentiola_placentia = {
+			}
 			b_veleia_placentia = {
 			}
-			b_barderate_placentia = {
+			b_fundus_ancharianus_placentia = {
+			}
+			b_minerva_cabardiacensis_placentia = {
+			}
+			b_bobium_placentia = {
 			}
 		}
 		c_parma = {
@@ -12407,9 +12463,17 @@ k_cisalpine_gaul = {
 			
 			b_parma_parma = {
 			}
-			b_cremona_parma = {
+			b_regium_lepidum_parma = {
 			}
-			b_aquinium_parma = {
+			b_tannetum_parma = {
+			}
+			b_brixellum_parma = {
+			}
+			b_forum_novum_parma = {
+			}
+			b_ad_sinnium_parma = {
+			}
+			b_forum_cornelii_parma = {
 			}
 		}
 		c_bononia = {
@@ -12418,9 +12482,17 @@ k_cisalpine_gaul = {
 			
 			b_bononia_bononia = {
 			}
-			b_mutina_bononia = {
+			b_florentia_bononia = {
 			}
-			b_campi_bononia = {
+			b_faesulae_bononia = {
+			}
+			b_ad_solaria_bononia = {
+			}
+			b_faventia_bononia = {
+			}
+			b_claterna_bononia = {
+			}
+			b_anneianum_bononia = {
 			}
 		}
 		c_ravenna = {
@@ -12431,11 +12503,17 @@ k_cisalpine_gaul = {
 			
 			b_ravenna_ravenna = {
 			}
-			b_spina_ravenna = {
+			b_sabis_ravenna = {
 			}
-			b_favrentia_ravenna = {
+			b_caesena_ravenna = {
 			}
-			b_solana_ravenna = {
+			b_butrium_ravenna = {
+			}
+			b_neronia_ravenna = {
+			}
+			b_vicus_aventia_ravenna = {
+			}
+			b_castrum_cumiacli_ravenna = {
 			}
 		}
 		c_mevaniola = {
@@ -12463,17 +12541,17 @@ k_cisalpine_gaul = {
 			
 			b_mutina_mutina = {
 			}
-			b_mutina1_mutina = {
+			b_forum_gallorum_mutina = {
 			}
-			b_mutina2_mutina = {
+			b_victoriolae_mutina = {
 			}
-			b_mutina3_mutina = {
+			b_vicus_serninus_mutina = {
 			}
-			b_mutina4_mutina = {
+			b_pons_seciae_mutina = {
 			}
-			b_mutina5_mutina = {
+			b_vicus_varianus_mutina = {
 			}
-			b_mutina6_mutina = {
+			b_colicaria_mutina = {
 			}
 		}
 	}
@@ -12521,9 +12599,17 @@ k_cisalpine_gaul = {
 			
 			b_patavium_patavium = {
 			}
-			b_vicentia_patavium = {
+			b_altinum_patavium = {
 			}
-			b_ateate_patavium = {
+			b_corniculani_patavium = {
+			}
+			b_feraria_patavium = {
+			}
+			b_brundulum_patavium = {
+			}
+			b_portus_edronis_patavium = {
+			}
+			b_tarvisium_patavium = {
 			}
 		}
 		c_verona = {
@@ -12532,20 +12618,36 @@ k_cisalpine_gaul = {
 			
 			b_verona_verona = {
 			}
-			b_mantua_verona = {
+			b_auraei_verona = {
 			}
-			b_bedriacum_verona = {
+			b_cadianum_verona = {
+			}
+			b_vicetia_verona = {
+			}
+			b_vennum_verona = {
+			}
+			b_sarnis_verona = {
+			}
+			b_castrum_volaenes_verona = {
 			}
 		}
-		c_bellunum = {				
+		c_bellunum = {
 			color= { 100 255 100 }
 			color2= { 255 255 255 }
 			
 			b_bellunum_bellunum = {
 			}
+			b_pagus_laebactium_bellunum = {
+			}
 			b_feltria_bellunum = {
 			}
-			b_littamum_bellunum = {
+			b_duplavilis_bellunum = {
+			}
+			b_ausucum_bellunum = {
+			}
+			b_sublavione_bellunum = {
+			}
+			b_fagitana_bellunum = {
 			}
 		}
 		c_aguntum = {
@@ -12554,11 +12656,17 @@ k_cisalpine_gaul = {
 			
 			b_aguntum_aguntum = {
 			}
-			b_londum_aguntum = {
-			}
 			b_ibligo_aguntum = {
 			}
-			b_osopus_aguntum = {
+			b_iulium_carnicum_aguntum = {
+			}
+			b_statio_timaviensis_aguntum = {
+			}
+			b_loncium_aguntum = {
+			}
+			b_statio_plorucensis_aguntum = {
+			}
+			b_larice_aguntum = {
 			}
 		}
 		c_pola = {
@@ -12586,17 +12694,17 @@ k_cisalpine_gaul = {
 			
 			b_opilergum_opilergum = {
 			}
-			b_opilergum1_opilergum = {
+			b_heraclia_opilergum = {
 			}
-			b_opilergum2_opilergum = {
+			b_ad_sanos_opilergum = {
 			}
-			b_opilergum3_opilergum = {
+			b_portus_liquentiae_opilergum = {
 			}
-			b_opilergum4_opilergum = {
+			b_portus_reatinus_opilergum = {
 			}
-			b_opilergum5_opilergum = {
+			b_iulia_concorda_opilergum = {
 			}
-			b_opilergum6_opilergum = {
+			b_apicilia_opilergum = {
 			}
 		}
 		c_aquileia = {
@@ -12605,17 +12713,17 @@ k_cisalpine_gaul = {
 			
 			b_aquileia_aquileia = {
 			}
-			b_aquileia1_aquileia = {
+			b_forum_iulii_aquileia = {
 			}
-			b_aquileia2_aquileia = {
+			b_gradus_aquileia = {
 			}
-			b_aquileia3_aquileia = {
+			b_ad_undecimum_aquileia = {
 			}
-			b_aquileia4_aquileia = {
+			b_artenia_aquileia = {
 			}
-			b_aquileia5_aquileia = {
+			b_osopus_aquileia = {
 			}
-			b_aquileia6_aquileia = {
+			b_fons_timavi_aquileia = {
 			}
 		}
 	}
