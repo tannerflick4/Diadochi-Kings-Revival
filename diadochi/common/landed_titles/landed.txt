@@ -12580,19 +12580,6 @@ k_cisalpine_gaul = {
 			b_silvo_parentium = {
 			}
 		}
-		c_altinum = {
-			color= { 110 255 90 }
-			color2= { 255 255 255 }
-			
-			b_altinum_altinum = {
-			}
-			b_opitergum_altinum = {
-			}
-			b_flamonia_altinum = {
-			}
-			b_artemia_altinum = {
-			}
-		}
 		c_patavium = {
 			color= { 100 245 90 }
 			color2= { 255 255 255 }
