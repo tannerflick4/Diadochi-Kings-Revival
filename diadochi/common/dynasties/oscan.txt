@@ -32,3 +32,11 @@
 	name = "Caraceni"
 	culture = oscan
 }
+16009 = {
+	name = "Hirpini"
+	culture = oscan
+}
+16010 = {
+	name = "Calavia"
+	culture = oscan
+}

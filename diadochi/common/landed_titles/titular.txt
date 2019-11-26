@@ -839,6 +839,14 @@ d_caraceni = {
 	
 	capital = 1122 # Aufidena
 }
+d_hirpini = {
+	color= { 59 191 179 }
+	color2= { 255 255 255 }
+	
+	tribe = yes
+	
+	capital = 1121 # Aeclanum
+}
 k_ligures = {
 	color= { 100 225 75 }
 	color2= { 255 255 255 }

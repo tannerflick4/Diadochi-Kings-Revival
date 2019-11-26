@@ -14,8 +14,8 @@ b_teanum_sidicinum_capua = temple
 #b_suessula_capua = city
 
 # Misc
-culture = etruscan
-religion = etruscan_main
+culture = oscan
+religion = roman_main
 
 # History
 # Can be filled when things change around the province

@@ -1,5 +1,23 @@
+397.1.1 = { # 379 BC
+	holder = 160901
+}
+416.1.1 = { # 360 BC
+	holder = 160902
+}
+435.1.1 = { # 341 BC
+	holder = 160903
+}
 436.1.1 = { # 340 BC
 	set_tribute_suzerain = { who = e_rome type = permanent }
+}
+454.1.1 = { # 322 BC
+	holder = 160904
+}
+502.1.1 = { # 274 BC
+	holder = 160906
+}
+527.1.1 = { # 249 BC
+	holder = 160907
 }
 565.1.1 = {
 	clear_tribute_suzerain = e_rome
