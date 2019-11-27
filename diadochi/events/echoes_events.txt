@@ -386,14 +386,10 @@ character_event = {
 			save_event_target_as = consul_2
 		}
 		k_consul1 = {
-			holder_scope = {
-				abdicate_to = event_target:consul_1
-			}
+			grant_title_no_opinion = event_target:consul_1
 		}
 		k_consul2 = {
-			holder_scope = {
-				abdicate_to = event_target:consul_2
-			}
+			grant_title_no_opinion = event_target:consul_2
 		}
 		event_target:consul_1 = {
 			add_character_modifier = {
@@ -430,14 +426,10 @@ character_event = {
 			save_event_target_as = consul_2
 		}
 		k_consul1 = {
-			holder_scope = {
-				abdicate_to = event_target:consul_1
-			}
+			grant_title_no_opinion = event_target:consul_1
 		}
 		k_consul2 = {
-			holder_scope = {
-				abdicate_to = event_target:consul_2
-			}
+			grant_title_no_opinion = event_target:consul_2
 		}
 		event_target:consul_1 = {
 			add_character_modifier = {
@@ -474,14 +466,10 @@ character_event = {
 			save_event_target_as = consul_2
 		}
 		k_consul1 = {
-			holder_scope = {
-				abdicate_to = event_target:consul_1
-			}
+			grant_title_no_opinion = event_target:consul_1
 		}
 		k_consul2 = {
-			holder_scope = {
-				abdicate_to = event_target:consul_2
-			}
+			grant_title_no_opinion = event_target:consul_2
 		}
 		event_target:consul_1 = {
 			add_character_modifier = {
