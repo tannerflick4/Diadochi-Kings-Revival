@@ -1,6 +1,5 @@
 409.1.1 = { # 367 BC
     holder = 141801 # Pleuratus of the Peucetii
-	liege = d_peucetii
 }
 413.1.1 = { # 363 BC
     holder = 141802 # Ballaios of the Peucetii

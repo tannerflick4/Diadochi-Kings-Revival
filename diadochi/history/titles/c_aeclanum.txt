@@ -1,5 +1,6 @@
 410.1.1 = { # 366 BC
 	holder = 160801
+	liege = d_hirpini
 }
 438.1.1 = { # 338 BC
 	holder = 160802

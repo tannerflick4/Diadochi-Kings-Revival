@@ -1,5 +1,6 @@
 389.1.1 = { # 387 BC
 	holder = 160701
+	liege = d_caraceni
 }
 419.1.1 = { # 367 BC
 	holder = 160702

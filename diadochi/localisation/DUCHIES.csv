@@ -709,10 +709,15 @@ d_callaeci;Kallaikoi;;;;;;;;;;;;x;;
 d_callaeci_adj;Kallaikian;;;;;;;;;;;;x;;
 d_vascones;Uaskones;;;;;;;;;;;;x;;
 d_vascones_adj;Uaskonian;;;;;;;;;;;;x;;
+d_caudini;Caudini;;;;;;;;;;;;x;;
+d_caudini_adj;Caudinian;;;;;;;;;;;;x;;
+d_dauni;Dauni;;;;;;;;;;;;x;;
+d_dauni_adj;Daunian;;;;;;;;;;;;x;;
+d_peucetii;Peucetii;;;;;;;;;;;;x;;
+d_peucetii_adj;Peucetian;;;;;;;;;;;;x;;
 d_pangaion;Pangaion;;;;;;;;;;;x
 d_pangaion_adj;Pangaionite;;;;;;;;;;;x
 d_orbelos;Orbelos;;;;;;;;;;;x
-<<<<<<< HEAD
 d_orbelos_adj;Orbelian;;;;;;;;;;;x
 d_s_aria;Aria;;;;;;;;;;;;;;x
 d_s_aria_adj;Arian;;;;;;;;;;;;;;x

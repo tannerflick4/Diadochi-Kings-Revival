@@ -1,14 +1,19 @@
-405.1.1 = { # 371 BC
-	holder = 140403 # Grabos
+404.1.1 = { # 372 BC
+    holder = 141701 # Gentius of the Dauni
+	liege = d_dauni
 }
-441.1.1 = { # 335 BC
-	holder = 140401 # Bato
+415.1.1 = { # 361 BC
+    holder = 141702 # Galaurus of the Dauni
 }
-471.1.1 = { # 305 BC
-	holder = 140402 # Sirras
+438.1.1 = { # 338 BC
+    holder = 141703 # Demetrius of the Dauni
+}
+463.1.1 = { # 313 BC
+    holder = 141704 # Glaucias of the Dauni
 }
 472.1.1 = { # 304 BC
 	holder = 171401 # Publius Sempronius Sophus
+	liege = k_consul1
 }
 473.1.1 = { # 303 BC
 	holder = 171501 # Servius Cornelius Lentulus

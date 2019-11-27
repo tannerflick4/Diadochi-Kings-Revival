@@ -1,6 +1,6 @@
 411.1.1 = { # 365 BC
     holder = 161001 # Salviis of the Caudini
-    liege = d_caudini
+    liege = k_samnites
 }
 443.1.1 = { # 333 BC
     holder = 161002 # Miniis of the Caudini

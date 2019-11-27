@@ -1,0 +1,15 @@
+404.1.1 = { # 372 BC
+    holder = 141701 # Gentius of the Dauni
+}
+415.1.1 = { # 361 BC
+    holder = 141702 # Galaurus of the Dauni
+}
+438.1.1 = { # 338 BC
+    holder = 141703 # Demetrius of the Dauni
+}
+463.1.1 = { # 313 BC
+    holder = 141704 # Glaucias of the Dauni
+}
+472.1.1 = { # 304 BC
+	holder = 0
+}

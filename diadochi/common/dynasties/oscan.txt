@@ -40,3 +40,7 @@
 	name = "Calavia"
 	culture = oscan
 }
+16011 = {
+	name = "Caudini"
+	culture = oscan
+}
