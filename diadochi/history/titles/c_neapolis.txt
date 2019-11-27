@@ -1,8 +1,11 @@
-393.1.1 = { # 383 BC
-	holder = 22902 # Limos
+409.1.1 = { # 367 BC
+	holder = 22901 # Archelaos of the Neapoloi
 }
-441.1.1 = { # 335 BC
-	holder = 22901 # Herodes
+418.1.1 = { # 358 BC
+	holder = 22902 # Isokrates of the Neapoloi
+}
+465.1.1 = { # 311 BC
+	holder = 22903 # Gelon of the Neapoloi
 }
 472.1.1 = { # 304 BC
 	holder = 171401 # Publius Sempronius Sophus

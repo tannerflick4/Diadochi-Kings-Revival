@@ -242,7 +242,7 @@
 	name = "Maroneioi"
 	culture = ionian
 }
-5064 = {
+5064 = { # Thracian
 	name = "Neapolitoi"
 	culture = ionian
 }
