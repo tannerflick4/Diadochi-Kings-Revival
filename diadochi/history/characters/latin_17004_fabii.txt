@@ -16,7 +16,6 @@
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin
-	father = 170305
 	368.1.1 = { # 408 BC Made Up
 		birth="yes"
 	}
@@ -29,7 +28,6 @@
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin
-	father = 170305
 	add_trait = tough_soldier
 	371.1.1 = { # 405 BC Made up
 		birth="yes"
@@ -43,10 +41,9 @@
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin
-	father = 170303
-	
+
 	add_trait = wroth
-	
+
 	423.1.1 = { # 353 BC Made up
 		birth="yes"
 	}
@@ -59,7 +56,6 @@
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin
-	father = 170301
 	443.1.1 = { # 333 BC Made up
 		birth="yes"
 	}
