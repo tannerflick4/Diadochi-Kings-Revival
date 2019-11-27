@@ -4,14 +4,14 @@
 title = c_antium # for example c_corinth
 
 # Settlements
-max_settlements = 5
+max_settlements = 7
 b_antium_antium = city
-b_cora_antium = castle
+b_cora_antium = city
 b_norba_antium = temple
-b_setia_antium = castle
+b_setia_antium = city
 b_circeii_antium = city
-#b_privernum_antium = city
-#b_ferentinum_antium = city
+b_privernum_antium = city
+b_ferentinum_antium = city
 
 # Misc
 culture = latin
