@@ -63,6 +63,6 @@ EVTOPTDechoes_events.101;[candidate_4.GetBestName];;;;;;;;;;;;;;x
 
 #Custom Tooltips
 candidate_1_vote;Vote for [candidate_1.GetBestName];;;;;;;;;;;;;;x
-candidate_2_vote;Vote for [candidate_1.GetBestName];;;;;;;;;;;;;;x
-candidate_3_vote;Vote for [candidate_1.GetBestName];;;;;;;;;;;;;;x
-candidate_4_vote;Vote for [candidate_1.GetBestName];;;;;;;;;;;;;;x
+candidate_2_vote;Vote for [candidate_2.GetBestName];;;;;;;;;;;;;;x
+candidate_3_vote;Vote for [candidate_3.GetBestName];;;;;;;;;;;;;;x
+candidate_4_vote;Vote for [candidate_4.GetBestName];;;;;;;;;;;;;;x
