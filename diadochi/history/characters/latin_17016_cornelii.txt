@@ -1,5 +1,17 @@
 # 171501-171600 for the Cornelii dynasty
 171501 = {
+	name = "Publius" # Cornelius Scapula
+	dynasty = 17016 # Cornelii
+	religion = roman_main
+	culture = latin
+	396.1.1 = { # 380 BC Made Up
+		birth="yes" 
+	}
+	480.1.1 = { # 296 BC Made Up
+		death="yes"
+	}
+}
+171502 = {
 	name = "Servius" # Cornelius Lentulus
 	dynasty = 17016 # Cornelii
 	religion = roman_main
@@ -11,7 +23,7 @@
 		death="yes"
 	}
 }
-171502 = {
+171503 = {
 	name = "Lucius" # Cornelius Scipio Barbates
 	dynasty = 17016 # Cornelii
 	religion = roman_main
@@ -23,19 +35,19 @@
 		death="yes"
 	}
 }
-171503 = {
+171504 = {
 	name = "Publius" # Cornelius Rufinus
 	dynasty = 17016 # Cornelii
 	religion = roman_main
 	culture = latin
-	443.1.1 = { # 333 BC Made up
+	473.1.1 = { # 333 BC Made up
 		birth="yes"
 	}
-	509.1.1 = { # 267 BC Made up
+	539.1.1 = { # 267 BC Made up
 		death="yes"
 	}
 }
-171504 = {
+171505 = {
 	name = "Publius" # Cornelius Dolabella
 	dynasty = 17016 # Cornelii
 	religion = roman_main
@@ -47,7 +59,7 @@
 		death="yes"
 	}
 }
-171505 = {
+171506 = {
 	name = "Publius" # Cornelius Rufinus
 	dynasty = 17016 # Cornelii
 	religion = roman_main
@@ -56,18 +68,6 @@
 		birth="yes"
 	}
 	473.1.1 = { # 303 BC Made Up
-		death="yes"
-	}
-}
-171506 = {
-	name = "Publius" # Cornelius Scapula
-	dynasty = 17016 # Cornelii
-	religion = roman_main
-	culture = latin
-	396.1.1 = { # 380 BC Made Up
-		birth="yes" 
-	}
-	480.1.1 = { # 296 BC Made Up
 		death="yes"
 	}
 }

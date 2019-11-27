@@ -1,5 +1,17 @@
 # 171201-171300 for the Marcii dynasty
 171201 = {
+	name = "Gaius" # Marcius Rutilus
+	dynasty = 17013 # Marcii
+	religion = roman_main
+	culture = latin
+	361.1.1 = { # 415 BC Made Up
+		birth="yes"
+	}
+	447.1.1 = { # 329 BC Made up
+		death="yes"
+	}	
+}
+171202 = {
 	name = "Quintus" # Marcius Tremulus
 	dynasty = 17013 # Marcii
 	religion = roman_main
@@ -11,15 +23,15 @@
 		death="yes"
 	}
 }
-171202 = {
+171203 = {
 	name = "Gaius" # Marcius Rutilus
 	dynasty = 17013 # Marcii
 	religion = roman_main
 	culture = latin
-	361.1.1 = { # 415 BC Made Up
+	470.1.1 = { # 415 BC Made Up
 		birth="yes"
 	}
-	447.1.1 = { # 329 BC Made up
+	527.1.1 = { # 329 BC Made up
 		death="yes"
 	}	
 }

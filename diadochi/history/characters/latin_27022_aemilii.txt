@@ -1,21 +1,5 @@
 # 172101-172200 for the Aemilii dynasty
 172101 = {
-	name = "Lucius" # Aemilius Barbula
-	dynasty = 17022 # Aemilii
-	religion = roman_main
-	culture = latin
-	
-	add_trait = skilled_tactician
-	add_trait = proud
-	
-	443.1.1 = { # 333 BC Made up
-		birth="yes"
-	}
-	509.1.1 = { # 267 BC Made up
-		death="yes"
-	}
-}
-172102 = {
 	name = "Lucius" # Aemilius Mamercinus Privernas
 	dynasty = 17022 # Aemilii
 	religion = roman_main
@@ -30,7 +14,7 @@
 		death="yes"
 	}
 }
-172103 = {
+172102 = {
 	name = "Tiberius" # Aemilius Mamercinus
 	dynasty = 17022 # Aemilii
 	religion = roman_main
@@ -39,6 +23,22 @@
 		birth="yes"
 	}
 	463.1.1 = { # 313 BC Made Up
+		death="yes"
+	}
+}
+172103 = {
+	name = "Lucius" # Aemilius Barbula
+	dynasty = 17022 # Aemilii
+	religion = roman_main
+	culture = latin
+	
+	add_trait = skilled_tactician
+	add_trait = proud
+	
+	443.1.1 = { # 333 BC Made up
+		birth="yes"
+	}
+	509.1.1 = { # 267 BC Made up
 		death="yes"
 	}
 }

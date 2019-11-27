@@ -1,30 +1,26 @@
 # 170301-170400 for the Fabii dynasty
 170301 = {
-	name = "Quintus" # Fabius Maximus Rullianus
+	name = "Hortensius" # Fabius Ambustus, made up to connect Gaius to the other members
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin
-	father = 170303
-	
-	add_trait = wroth
-	
-	423.1.1 = { # 353 BC Made up
+	348.1.1 = { # 428 BC Made Up
 		birth="yes"
 	}
-	482.1.1 = { # 294 BC Made up
+	432.1.1 = { # 344 BC Made Up
 		death="yes"
 	}
 }
 170302 = {
-	name = "Quintus" # Fabius Maximus Gurges
+	name = "Gaius" # Fabius Ambustus
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin
-	father = 170301
-	443.1.1 = { # 333 BC Made up
+	father = 170305
+	368.1.1 = { # 408 BC Made Up
 		birth="yes"
 	}
-	509.1.1 = { # 267 BC Made up
+	452.1.1 = { # 324 BC Made Up
 		death="yes"
 	}
 }
@@ -43,27 +39,31 @@
 	}
 }
 170304 = {
-	name = "Gaius" # Fabius Ambustus
+	name = "Quintus" # Fabius Maximus Rullianus
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin
-	father = 170305
-	368.1.1 = { # 408 BC Made Up
+	father = 170303
+	
+	add_trait = wroth
+	
+	423.1.1 = { # 353 BC Made up
 		birth="yes"
 	}
-	452.1.1 = { # 324 BC Made Up
+	482.1.1 = { # 294 BC Made up
 		death="yes"
 	}
 }
 170305 = {
-	name = "Hortensius" # Fabius Ambustus, made up to connect Gaius to the other members
+	name = "Quintus" # Fabius Maximus Gurges
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin
-	348.1.1 = { # 428 BC Made Up
+	father = 170301
+	443.1.1 = { # 333 BC Made up
 		birth="yes"
 	}
-	432.1.1 = { # 344 BC Made Up
+	509.1.1 = { # 267 BC Made up
 		death="yes"
 	}
 }

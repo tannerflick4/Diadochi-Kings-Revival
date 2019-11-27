@@ -28,10 +28,10 @@
 	dynasty = 17012 # Claudii
 	religion = roman_main
 	culture = latin
-	443.1.1 = { # 333 BC Made up
+	478.1.1 = { # 333 BC Made up
 		birth="yes"
 	}
-	509.1.1 = { # 267 BC Made up
+	542.1.1 = { # 267 BC Made up
 		death="yes"
 	}
 }
