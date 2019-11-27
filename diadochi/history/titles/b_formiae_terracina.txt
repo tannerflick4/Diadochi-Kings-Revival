@@ -1,0 +1,10 @@
+#Echoes Family - Pubililii
+390.1.1 = {
+	holder = 172601
+}
+475.1.1 = {
+	holder = 172602
+}
+506.1.1 = {
+	holder = 172603
+}

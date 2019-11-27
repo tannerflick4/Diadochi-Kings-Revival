@@ -11,3 +11,27 @@
 		death="yes"
 	}
 }
+172602 = {
+	name = "Quintus" # Publilius Philo
+	dynasty = 17027 # Publilii
+	religion = roman_main
+	culture = latin
+	430.1.1 = { # 386 BC Made Up
+		birth="yes"
+	}
+	506.1.1 = { # 301 BC Made Up
+		death="yes"
+	}
+}
+172603 = {
+	name = "Quintus" # Publilius Philo
+	dynasty = 17027 # Publilii
+	religion = roman_main
+	culture = latin
+	462.1.1 = { # 386 BC Made Up
+		birth="yes"
+	}
+	529.1.1 = { # 301 BC Made Up
+		death="yes"
+	}
+}

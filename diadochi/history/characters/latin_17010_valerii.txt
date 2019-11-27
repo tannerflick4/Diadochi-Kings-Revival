@@ -1,5 +1,17 @@
 # 170901-171000 for the Valerii dynasty
 170901 = {
+	name = "Gaius" # Valerius Potitus
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	399.1.1 = { # 377 BC Made Up
+		birth="yes"
+	}
+	463.1.1 = { # 313 BC Made Up
+		death="yes"
+	}
+}
+170902 = {
 	name = "Marcus" # Valerius Maximus Corvus
 	dynasty = 17010 # Valerii
 	religion = roman_main
@@ -11,7 +23,7 @@
 		death="yes"
 	}
 }
-170902 = {
+170903 = {
 	name = "Publius" # Valerius Laevinus
 	dynasty = 17010 # Valerii
 	religion = roman_main
@@ -19,19 +31,7 @@
 	443.1.1 = { # 333 BC Made up
 		birth="yes"
 	}
-	509.1.1 = { # 267 BC Made up
-		death="yes"
-	}
-}
-170903 = {
-	name = "Gaius" # Valerius Potitus
-	dynasty = 17010 # Valerii
-	religion = roman_main
-	culture = latin
-	399.1.1 = { # 377 BC Made Up
-		birth="yes"
-	}
-	463.1.1 = { # 313 BC Made Up
+	529.1.1 = { # 267 BC Made up
 		death="yes"
 	}
 }

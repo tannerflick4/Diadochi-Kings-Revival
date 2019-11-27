@@ -15,3 +15,35 @@
 		death="yes"
 	}
 }
+170502 = {
+	name = "Titus" # Veturius Calvinus
+	dynasty = 17006 # Veturii
+	religion = roman_main
+	culture = latin
+	
+	add_trait = misguided_warrior
+	add_trait = craven
+	
+	461.1.1 = { # 353 BC Made up
+		birth="yes"
+	}
+	519.1.1 = { # 303 BC Made up
+		death="yes"
+	}
+}
+170503 = {
+	name = "Titus" # Veturius Calvinus
+	dynasty = 17006 # Veturii
+	religion = roman_main
+	culture = latin
+	
+	add_trait = misguided_warrior
+	add_trait = craven
+	
+	500.1.1 = { # 353 BC Made up
+		birth="yes"
+	}
+	573.1.1 = { # 303 BC Made up
+		death="yes"
+	}
+}

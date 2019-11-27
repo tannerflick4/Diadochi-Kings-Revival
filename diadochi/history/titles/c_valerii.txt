@@ -4,14 +4,14 @@
 	government = feudal_government
 	active = no
 }
-378.1.1 = {
+399.1.1 = {
 	active = yes
 	liege = e_rome
-	holder = 172102
-}
-450.1.1 = {
-	holder = 172103
+	holder = 170901
 }
 463.1.1 = {
-	holder = 172101
+	holder = 170902
+}
+506.1.1 = {
+	holder = 170903
 }
