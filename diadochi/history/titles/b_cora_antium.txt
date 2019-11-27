@@ -1,12 +1,5 @@
-#Echoes Family
-1.1.1 = {
-	de_jure_liege = e_rome
-	government = feudal_government
-	active = no
-}
+#Echoes Family - Sulpicii
 355.1.1 = {
-	active = yes
-	liege = e_rome
 	holder = 170001
 }
 434.1.1 = {

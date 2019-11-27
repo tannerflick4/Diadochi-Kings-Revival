@@ -4,11 +4,10 @@
 	dynasty = 17003 # Furii
 	religion = roman_main
 	culture = latin
-	father = 170202
-	423.1.1 = { # 353 BC Made up
+	366.1.1 = { # 410 BC Made Up
 		birth="yes"
 	}
-	473.1.1 = { # 303 BC Made up
+	459.1.1 = { # 317 BC Made Up
 		death="yes"
 	}
 }
@@ -17,10 +16,22 @@
 	dynasty = 17003 # Furii
 	religion = roman_main
 	culture = latin
-	366.1.1 = { # 410 BC Made Up
+	423.1.1 = { # 353 BC Made up
 		birth="yes"
 	}
-	459.1.1 = { # 317 BC Made Up
+	473.1.1 = { # 303 BC Made up
+		death="yes"
+	}
+}
+170203 = {
+	name = "Lucius" # Furius Camillus
+	dynasty = 17003 # Furii
+	religion = roman_main
+	culture = latin
+	455.1.1 = { # 353 BC Made up
+		birth="yes"
+	}
+	533.1.1 = { # 303 BC Made up
 		death="yes"
 	}
 }

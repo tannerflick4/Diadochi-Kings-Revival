@@ -1,0 +1,10 @@
+#Echoes Family - Veturii
+423.1.1 = {
+	holder = 170501
+}
+473.1.1 = {
+	holder = 170502
+}
+519.1.1 = {
+	holder = 170503
+}

@@ -1,0 +1,10 @@
+#Echoes Family - Furii
+366.1.1 = {
+	holder = 170201
+}
+459.1.1 = {
+	holder = 170202
+}
+473.1.1 = {
+	holder = 170203
+}

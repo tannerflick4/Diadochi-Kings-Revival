@@ -11,3 +11,39 @@
 		death="yes"
 	}
 }
+172202 = {
+	name = "Marcus" # Popillius Laenas
+	dynasty = 17023 # Popillii
+	religion = roman_main
+	culture = latin
+	400.1.1 = { # 410 BC Made up
+		birth="yes"
+	}
+	478.1.1 = { # 338 BC Made up
+		death="yes"
+	}
+}
+172203 = {
+	name = "Marcus" # Popillius Laenas
+	dynasty = 17023 # Popillii
+	religion = roman_main
+	culture = latin
+	434.1.1 = { # 410 BC Made up
+		birth="yes"
+	}
+	509.1.1 = { # 338 BC Made up
+		death="yes"
+	}
+}
+172204 = {
+	name = "Marcus" # Popillius Laenas
+	dynasty = 17023 # Popillii
+	religion = roman_main
+	culture = latin
+	470.1.1 = { # 410 BC Made up
+		birth="yes"
+	}
+	549.1.1 = { # 338 BC Made up
+		death="yes"
+	}
+}

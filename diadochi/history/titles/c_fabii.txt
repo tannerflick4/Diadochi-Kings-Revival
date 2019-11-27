@@ -1,16 +1,20 @@
+#Echoes Family
 1.1.1 = {
 	de_jure_liege = e_rome
 	government = feudal_government
 	active = no
 }
-378.1.1 = {
+348.1.1 = {
 	active = yes
 	liege = e_rome
-	holder = 172102
+	holder = 170301
 }
-450.1.1 = {
-	holder = 172103
+432.1.1 = {
+	holder = 170302
 }
-463.1.1 = {
-	holder = 172101
+452.1.1 = {
+	holder = 170304
+}
+482.1.1 = {
+	holder = 170305
 }

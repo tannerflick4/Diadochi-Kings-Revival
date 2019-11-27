@@ -18,3 +18,51 @@
 		death="yes"
 	}
 }
+172302 = {
+	name = "Titus" # Manlius Torquatus
+	dynasty = 17024 # Manlii
+	religion = roman_main
+	culture = latin
+	
+	add_trait = zealous
+	add_trait = diligent
+	
+	410.1.1 = { # 382 BC Made Up
+		birth="yes"
+	}
+	472.1.1 = { # 334 BC Made Up
+		death="yes"
+	}
+}
+172303 = {
+	name = "Titus" # Manlius Torquatus
+	dynasty = 17024 # Manlii
+	religion = roman_main
+	culture = latin
+	
+	add_trait = zealous
+	add_trait = diligent
+	
+	421.1.1 = { # 382 BC Made Up
+		birth="yes"
+	}
+	492.1.1 = { # 334 BC Made Up
+		death="yes"
+	}
+}
+172304 = {
+	name = "Titus" # Manlius Torquatus
+	dynasty = 17024 # Manlii
+	religion = roman_main
+	culture = latin
+	
+	add_trait = zealous
+	add_trait = diligent
+	
+	460.1.1 = { # 382 BC Made Up
+		birth="yes"
+	}
+	531.1.1 = { # 334 BC Made Up
+		death="yes"
+	}
+}

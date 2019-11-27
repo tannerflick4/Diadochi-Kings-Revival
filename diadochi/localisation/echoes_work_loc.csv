@@ -1,19 +1,68 @@
+#Titles
 PONTIFEX;Pontifex Maximus of Rome;;;;;;;;;;;;;;x
 k_consul1;Consulship of Rome;;;;;;;;;;;;;;x
+k_consul1_adj;Consul;;;;;;;;;;;;;;x
 k_consul2;Consulship of Rome;;;;;;;;;;;;;;x
+k_consul2_adj;Consul;;;;;;;;;;;;;;x
 c_aemilii;House of the Aemilii;;;;;;;;;;;;;;x
+c_aemilii_adj;Aemilii;;;;;;;;;;;;;;x
 c_claudii;House of the Claudii;;;;;;;;;;;;;;x
+c_claudii_adj;Claudii;;;;;;;;;;;;;;x
 c_cornelii;House of the Cornelii;;;;;;;;;;;;;;x
+c_cornelii_adj;Cornelii;;;;;;;;;;;;;;x
 c_fabii;House of the Fabii;;;;;;;;;;;;;;x
+c_fabii_adj;Fabii;;;;;;;;;;;;;;x
 c_furii;House of the Furii;;;;;;;;;;;;;;x
+c_furii_adj;Furii;;;;;;;;;;;;;;x
 c_junii;House of the Junii;;;;;;;;;;;;;;x
+c_junii_adj;Junii;;;;;;;;;;;;;;x
 c_manlii;House of the Manlii;;;;;;;;;;;;;;x
+c_manlii_adj;Manlii;;;;;;;;;;;;;;x
 c_marcii;House of the Marcii;;;;;;;;;;;;;;x
+c_marcii_adj;Marcii;;;;;;;;;;;;;;x
 c_papirii;House of the Papirii;;;;;;;;;;;;;;x
+c_papirii_adj;Papirii;;;;;;;;;;;;;;x
 c_plautii;House of the Plautii;;;;;;;;;;;;;;x
+c_plautii_adj;Plautii;;;;;;;;;;;;;;x
 c_popillii;House of the Popillii;;;;;;;;;;;;;;x
+c_popillii_adj;Popillii;;;;;;;;;;;;;;x
 c_publilii;House of the Publilii;;;;;;;;;;;;;;x
+c_publilii_adj;Publilii;;;;;;;;;;;;;;x
 c_quinctii;House of the Quinctii;;;;;;;;;;;;;;x
+c_quinctii_adj;Quinctii;;;;;;;;;;;;;;x
 c_sulpicii;House of the Sulpicii;;;;;;;;;;;;;;x
+c_sulpicii_adj;Sulpicii;;;;;;;;;;;;;;x
 c_valerii;House of the Valerii;;;;;;;;;;;;;;x
+c_valerii_adj;Valerii;;;;;;;;;;;;;;x
 c_veturii;House of the Veturii;;;;;;;;;;;;;;x
+c_veturii_adj;Veturii;;;;;;;;;;;;;;x
+
+#Events
+EVTDESCechoes_events.1;The Consular Elections are beginning once again, who will you vote for?;;;;;;;;;;;;;;x
+EVTOPTAechoes_events.1;[candidate_1.GetBestName] is my choice;;;;;;;;;;;;;;x
+EVTOPTBechoes_events.1;[candidate_2.GetBestName] is my choice;;;;;;;;;;;;;;x
+EVTOPTCechoes_events.1;[candidate_3.GetBestName] is my choice;;;;;;;;;;;;;;x
+EVTOPTDechoes_events.1;[candidate_4.GetBestName] is my choice;;;;;;;;;;;;;;x
+EVTDESCechoes_events.2consul_1;You have won the Consular elections and recieved first Facses. Your co-Consul is [consul_2.GetBestName].;;;;;;;;;;;;;;x
+EVTDESCechoes_events.2consul_2;You have won the Consular elections, however your co-Consul, [consul_1.GetBestName], has received first Facses.;;;;;;;;;;;;;;x
+EVTDESCechoes_events.2A;This years Consular elections have come to a close, the winners are [consul_1.GetBestName] and [consul_2.GetBestName]. [consul_1.GetBestName] has received the honor of first Facses.;;;;;;;;;;;;;;x
+EVTOPTAechoes_events.2;Excellent;;;;;;;;;;;;;;x
+EVTOPTBechoes_events.2;So close to first;;;;;;;;;;;;;;x
+EVTOPTCechoes_events.2;A good selection;;;;;;;;;;;;;;x
+EVTOPTDechoes_events.2;Damn it!;;;;;;;;;;;;;;x
+EVTDESCechoes_events.10;Select First Consul;;;;;;;;;;;;;;x
+EVTOPTAechoes_events.10;[candidate_1.GetBestName];;;;;;;;;;;;;;x
+EVTOPTBechoes_events.10;[candidate_2.GetBestName];;;;;;;;;;;;;;x
+EVTOPTCechoes_events.10;[candidate_3.GetBestName];;;;;;;;;;;;;;x
+EVTOPTDechoes_events.10;[candidate_4.GetBestName];;;;;;;;;;;;;;x
+EVTDESCechoes_events.101;Select Second Consul;;;;;;;;;;;;;;x
+EVTOPTAechoes_events.101;[candidate_1.GetBestName];;;;;;;;;;;;;;x
+EVTOPTBechoes_events.101;[candidate_2.GetBestName];;;;;;;;;;;;;;x
+EVTOPTCechoes_events.101;[candidate_3.GetBestName];;;;;;;;;;;;;;x
+EVTOPTDechoes_events.101;[candidate_4.GetBestName];;;;;;;;;;;;;;x
+
+#Custom Tooltips
+candidate_1_vote;Vote for [candidate_1.GetBestName];;;;;;;;;;;;;;x
+candidate_2_vote;Vote for [candidate_2.GetBestName];;;;;;;;;;;;;;x
+candidate_3_vote;Vote for [candidate_3.GetBestName];;;;;;;;;;;;;;x
+candidate_4_vote;Vote for [candidate_4.GetBestName];;;;;;;;;;;;;;x
