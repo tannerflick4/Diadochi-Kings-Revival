@@ -1,6 +1,6 @@
 416.1.1 = { # 360 BC
+	liege = k_consul2
 	holder = 170303 # Marcus Fabius Ambustus
-	liege = k_consul1
 }
 417.1.1 = { # 359 BC
 	holder = 172201 # Marcus Popillius Laenas
