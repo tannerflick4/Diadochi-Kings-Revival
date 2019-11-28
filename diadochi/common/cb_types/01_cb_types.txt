@@ -15,7 +15,6 @@ dejure_duchy_claim = { # New1
 	sort_priority = 790
 
 	can_use_gui = {
-		check_if_crusader_trigger = yes
 		ROOT = {
 			show_scope_change = no
 			conditional_tooltip = {
@@ -210,7 +209,6 @@ force_vassalization = { # New2
 	sort_priority = 830
 	
 	can_use_gui = {
-		check_if_crusader_trigger = yes
 		FROM = {
 			show_scope_change = no
 			conditional_tooltip = {
@@ -430,7 +428,6 @@ great_realm_conflict = { # New3
 	sort_priority = 820
 
 	can_use_gui = {
-		check_if_crusader_trigger = yes
 		ROOT = {
 			prestige = 3000
 			piety = 1500
@@ -677,10 +674,6 @@ hostages_cb = { # New5
 	hostages_block_cb = no
 	
 	sort_priority = 100000 # When there are hostages you can usually not declare any other war, so we want this first
-	
-	can_use_gui = {
-		check_if_crusader_trigger = yes
-	}
 
 	can_use = {
 		ROOT = {
@@ -1504,7 +1497,6 @@ tributary_permanent_cb = { # New8
 	sort_priority = 810
 	
 	can_use_gui = {
-		check_if_crusader_trigger = yes
 		ROOT = {
 			relative_realm_size = {
 				who = FROM 
@@ -1828,7 +1820,6 @@ tributary_nomad_cb = { # New9
 	sort_priority = 810
 	
 	can_use_gui = {
-		check_if_crusader_trigger = yes
 		ROOT = {
 			prestige = 100
 		}

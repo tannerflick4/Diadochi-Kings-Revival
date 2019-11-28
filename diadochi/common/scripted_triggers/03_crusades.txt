@@ -26,19 +26,3 @@ contribute_to_crusade_pot_trigger = {
 select_crusade_receiver_stance_trigger = {
 	always = no # Unused
 }
-
-check_if_crusader_trigger = {
-	always = no # Unused
-}
-
-check_if_alternate_crusades_trigger = {
-	always = no # Unused
-}
-
-check_if_fourth_crusade_trigger = {
-	always = no # Unused
-}
-
-check_if_not_fourth_crusade_trigger = {
-	always = no # Unused
-}
