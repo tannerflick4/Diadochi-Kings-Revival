@@ -1,0 +1,23 @@
+####################################################
+########## DIADOCHI KINGS LEAGUE TRIGGERS ##########
+####################################################
+
+# Should be called from character scope
+can_be_in_league_trigger = {
+    independent = yes
+    culture_group = hellenic
+}
+
+# Should be called from character scope
+can_be_league_leader_trigger = {
+    can_be_in_league_trigger = yes
+    tier = DUKE
+    NOT = { tier = KING }
+}
+
+# Should be called from character scope
+can_be_league_member_trigger = {
+    can_be_in_league_trigger = yes
+    tier = COUNT
+    NOT = { tier = KING }
+}

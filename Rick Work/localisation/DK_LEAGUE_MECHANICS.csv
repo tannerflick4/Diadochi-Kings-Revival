@@ -1,0 +1,8 @@
+TRIBUTARY_LEAGUE_NAME;League Member;;;;;;;;;;;;;;x
+TRIBUTARY_LEAGUE_PLURAL;League Members;;;;;;;;;;;;;;x
+SUZERAIN_LEAGUE_NAME;League Leader;;;;;;;;;;;;;;x
+TRIBUTARY_LEAGUE_TRIBUTE;League Dues;;;;;;;;;;;;;;x
+form_league;Form League;;;;;;;;;;;;;;x
+form_league_desc;Propose to form a league with §Y[Root.PrimaryTitle.GetName]§!. Historically, small greek polities united in league to work together on a military, economic, diplomatic and religious level while preserving the autonomy of the city state.\n\nIn game this translates into a tributary state that does not have to provide any gold but is obliged to provide its army to the leader. In exchange the leader pledges to defend each member.;;;;;;;;;;;;;;x
+FORM_LEAGUE_AS_LEADER;§G[Root.PrimaryTitle.GetName] will become a member in your league§!;;;;;;;;;;;;;;x
+FORM_LEAGUE_AS_MEMBER;§FYou will become a member in the league of [Root.PrimaryTitle.GetName]§!;;;;;;;;;;;;;;x

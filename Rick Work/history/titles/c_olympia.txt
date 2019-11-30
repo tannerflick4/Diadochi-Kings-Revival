@@ -1,0 +1,49 @@
+417.1.1 = { # 359 BC
+	holder = 23701
+}
+438.8.2 = { # 338 BC, Battle of Chaeronea
+	set_tribute_suzerain = {
+		who = e_macedonia
+		type = league
+	}
+}
+453.6.10 = { # 323 BC
+	clear_tribute_suzerain = e_macedonia
+	set_tribute_suzerain = {
+		who = k_s_macedon
+		type = league
+	}
+}
+461.10.1 = { # 315 BC
+	clear_tribute_suzerain = k_s_macedon
+	set_tribute_suzerain = {
+		who = d_peloponnese
+		type = league
+	}
+}
+463.1.1 = { # 313 BC
+	holder = 404 # Telephoros
+	clear_tribute_suzerain = d_peloponnese
+	set_tribute_suzerain = {
+		who = k_s_phrygia
+		type = league
+	}
+}
+466.1.1 = { # 310 BC
+	holder = 23701
+	clear_tribute_suzerain = k_s_phrygia
+	set_tribute_suzerain = {
+		who = d_peloponnese
+		type = league
+	}
+}
+479.1.1 = { # 297 BC
+	clear_tribute_suzerain = d_peloponnese
+	set_tribute_suzerain = {
+		who = e_asia
+		type = league
+	}
+}
+485.1.1 = { # 291 BC
+	holder = 23703
+}

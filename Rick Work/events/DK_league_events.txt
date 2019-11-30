@@ -1,0 +1,60 @@
+namespace = DK_league
+
+####################
+# LEAGUE FORMATION #
+####################
+
+# FROMFROM proposes to form a league with FROMFROM as the leader.
+character_event = {
+    id = DK_league.1
+    desc = DK_EVTDESC_LEAGUE_1
+    picture = GFX_evt_battle # TODO: Use good picture
+
+    is_triggered_only = yes # Called from form_league decision.
+
+    option = {
+        name = DK_EVTOPTA_LEAGUE_1
+        #custom_tooltip = FORM_LEAGUE_AS_MEMBER
+        FROMFROM = {
+            make_tributary = {
+                who = ROOT
+                tributary_type = league
+            }
+            character_event = { id = DK_league.2 days = 1 }
+        }
+    }
+    option = {
+        name = DK_EVTOPTB_LEAGUE_1
+        FROMFROM = {
+            character_event = {
+                id = DK_league.3
+            }
+        }
+    }
+}
+
+# ROOT accepts proposal
+character_event = {
+    id = DK_league.2
+    desc = DK_EVTDESC_LEAGUE_2
+    picture = GFX_evt_battle # TODO: Use good picture
+
+    is_triggered_only = yes # Called from DK_league.1 decision.
+
+    option = {
+        name = DK_EVTOPTA_LEAGUE_2
+    }
+}
+
+# ROOT rejects proposal
+character_event = {
+    id = DK_league.3
+    desc = DK_EVTDESC_LEAGUE_3
+    picture = GFX_evt_battle # TODO: Use good picture
+
+    is_triggered_only = yes # Called from DK_league.1 decision.
+
+    option = {
+        name = DK_EVTOPTA_LEAGUE_3
+    }
+}

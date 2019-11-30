@@ -1,0 +1,14 @@
+461.8.1 = {
+	holder = 1602 # Alexander, son of Polyperchon
+	liege = k_macedon
+}
+462.1.1 = {
+	holder = 22301 # Kratesipolis
+}
+467.1.1 = {
+	holder = 1601 # Polyperchon
+}
+479.1.1 = {
+	holder = 0
+	liege = 0
+}

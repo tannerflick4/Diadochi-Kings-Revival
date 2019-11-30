@@ -1,0 +1,40 @@
+405.1.1 = { # 371 BC
+	holder = 110201
+}
+437.1.1 = { # 339 BC
+	holder = 110203
+}
+438.8.2 = { # 338 BC, Battle of Chaeronea
+	set_tribute_suzerain = {
+		who = e_macedonia
+		type = league
+	}
+}
+453.6.10 = { # 323 BC
+	clear_tribute_suzerain = e_macedonia
+	set_tribute_suzerain = {
+		who = k_s_macedon
+		type = league
+	}
+}
+459.1.1 = { # 317 BC
+	clear_tribute_suzerain = k_s_macedon
+	set_tribute_suzerain = {
+		who = k_macedon
+		type = league
+	}
+}
+461.8.1 = { # 315 BC
+	clear_tribute_suzerain = k_macedon
+	set_tribute_suzerain = {
+		who = d_peloponnese
+		type = league
+	}
+}
+473.5.1 = { # 303 BC
+	clear_tribute_suzerain = d_peloponnese
+	set_tribute_suzerain = {
+		who = e_asia
+		type = league
+	}
+}

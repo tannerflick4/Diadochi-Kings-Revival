@@ -1,0 +1,11 @@
+459.7.1 = { # 317 BC
+	holder = 51601 # Demetrius of Phaleron
+	set_tribute_suzerain = {
+		who = k_macedon
+		type = league
+	}
+}
+469.1.1 = {
+	holder = 0
+	clear_tribute_suzerain = k_macedon
+}
