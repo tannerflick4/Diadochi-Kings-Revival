@@ -1,6 +1,6 @@
 name = "Diadochi Kings"
-path = "mod/diadochi"
-user_dir = "Diadochi"
+path = "mod/Diadochi Kings"
+user_dir = "Diadochi Kings"
 picture="cover.jpg"
 
 replace_path = "common/alternate_start"
