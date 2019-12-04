@@ -1250,7 +1250,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
 	spriteType = {
-		name = "GFX_trait_sympathy_pagans"
+		name = "GFX_trait_sympathy_egyptian_religion"
 		texturefile = "gfx/traits/sympathy_pagans.tga"
 		noOfFrames = 1
 		norefcount = yes

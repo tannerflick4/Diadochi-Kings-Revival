@@ -2062,6 +2062,24 @@ true_religion_group_pagan_group_trigger = {
 	always = no
 }
 
+# DK
+
+true_religion_kemetic_trigger = {
+	true_religion = kemetic
+}
+
+true_religion_atenist_trigger = {
+	true_religion = atenist
+}
+
+true_religion_greco_kemetic_trigger = {
+	true_religion = greco_kemetic
+}
+
+true_religion_group_egyptian_religion_trigger = {
+	true_religion_group = egyptian_religion
+}
+
 relationship_with_root_trigger = {
 	OR = {
 		is_lover = ROOT
@@ -2619,11 +2637,21 @@ is_openly_of_roots_secret_religion_trigger = {
 }
 
 has_sympathy_for_true_religion_of_prev_trigger = { 
-	always = no # Unused
+	# OR = {
+		AND = {
+			trait = sympathy_egyptian_religion
+			PREV = { true_religion_group_egyptian_religion_trigger = yes }
+		}
+	# }
 }
 
 has_sympathy_for_true_religion_of_root_trigger = { 
-	always = no # Unused
+	# OR = {
+		AND = {
+			trait = sympathy_egyptian_religion
+			ROOT = { true_religion_group_egyptian_religion_trigger = yes }
+		}
+	# }
 }
 
 ok_sr_induction_mission_target_trigger = {
@@ -2644,6 +2672,12 @@ ok_sr_sympathy_mission_target_trigger = {
 	has_secret_religion_trait_trigger = no
 	ROOT = {
 		NOT = { secret_religion = { target_type = public target = PREV } }
+		NOT = {
+			AND = {
+				true_religion_group = egyptian_religion
+				PREV = { trait = sympathy_egyptian_religion }
+			}
+		}
 	}
 	ROOT = { PREV = { is_openly_of_prevs_secret_religion_trigger = no } }
 	ROOT = { PREV = { has_sympathy_for_true_religion_of_prev_trigger = no } }
@@ -6490,16 +6524,10 @@ has_at_least_3_traits_opposite_prev_trigger = {
 	}
 }
 
-has_any_sympathy_trait_trigger = {
-	always = no # TODO: Add sympathies here
-	#OR = {
-	#	trait = sympathy_christendom
-	#	trait = sympathy_islam
-	#	trait = sympathy_pagans
-	#	trait = sympathy_zoroastrianism
-	#	trait = sympathy_judaism
-	#	trait = sympathy_indian
-	#}
+has_any_sympathy_trait_trigger = { 
+	# OR = {
+		trait = sympathy_egyptian_religion
+	# }
 }
 
 preferred_gender_based_on_laws_trigger = {

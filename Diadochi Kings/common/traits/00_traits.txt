@@ -1860,8 +1860,7 @@ zealous = {
 	personality = yes
 	opposites =  {
 		cynical
-
-		#TODO: Add sympathy traits
+		sympathy_egyptian_religion
 	}
 	
 	martial = 2
