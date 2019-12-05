@@ -25,13 +25,7 @@ de_jure_laws = {
 				is_nomadic = no
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
 			factor = 0
 		}
 		effect = {
@@ -79,9 +73,6 @@ de_jure_laws = {
 				is_nomadic = no
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -89,10 +80,6 @@ de_jure_laws = {
 				NOT = { has_law = crown_authority_0 }
 			}
 		}
-		ai_will_revoke = {
-			factor = 0
-		}
-		
 		pass_effect = {
 			hidden_tooltip = {
 				if = { 
@@ -170,9 +157,6 @@ de_jure_laws = {
 				is_nomadic = no
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -183,10 +167,6 @@ de_jure_laws = {
 				NOT = { has_law = crown_authority_1 }
 			}
 		}
-		ai_will_revoke = {
-			factor = 0
-		}
-		
 		pass_effect = {
 			hidden_tooltip = {
 				if = { 
@@ -263,9 +243,6 @@ de_jure_laws = {
 				is_nomadic = no
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -279,10 +256,6 @@ de_jure_laws = {
 				}
 			}
 		}
-		ai_will_revoke = {
-			factor = 0
-		}
-		
 		pass_effect = {
 			hidden_tooltip = {
 				if = { 
@@ -357,9 +330,6 @@ de_jure_laws = {
 				is_nomadic = no
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -373,11 +343,6 @@ de_jure_laws = {
 				}
 			}
 		}
-		
-		ai_will_revoke = {
-			factor = 0
-		}
-		
 		pass_effect = {
 			hidden_tooltip = {
 				if = { 

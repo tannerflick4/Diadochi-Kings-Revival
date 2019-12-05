@@ -70,9 +70,6 @@ laws = {
 			higher_tier_than = count
 			is_nomadic = no
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -105,9 +102,6 @@ laws = {
 					}
 				}
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -146,9 +140,6 @@ laws = {
 			higher_tier_than = count
 			is_nomadic = no
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -181,9 +172,6 @@ laws = {
 					}
 				}
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -222,9 +210,6 @@ laws = {
 			higher_tier_than = count
 			is_nomadic = no
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -254,9 +239,6 @@ laws = {
 					}
 				}
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -294,9 +276,6 @@ laws = {
 			higher_tier_than = count
 			is_nomadic = no
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -330,9 +309,6 @@ laws = {
 				}
 			}
 		}
-		ai_will_revoke = {
-			factor = 0
-		}
 		effect = {
 			hidden_tooltip = {
 				revoke_law = centralization_0
@@ -363,9 +339,6 @@ laws = {
 			higher_tier_than = count
 			is_nomadic = no
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -398,9 +371,6 @@ laws = {
 					}
 				}
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {

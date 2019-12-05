@@ -29,19 +29,9 @@ de_jure_laws = {
 		allow = {
 			has_law = out_of_realm_inheritance_law_1
 		}
-		
-		revoke_allowed = {
-			always = no
-		}
-		
 		ai_will_do = {
 			factor = 0
 		}
-		
-		ai_will_revoke = {
-			factor = 0
-		}
-		
 		effect = {
 			hidden_tooltip = {
 				revoke_law = out_of_realm_inheritance_law_1
@@ -68,11 +58,6 @@ de_jure_laws = {
 		allow = {
 			has_law = out_of_realm_inheritance_law_0
 		}
-		
-		revoke_allowed = {
-			always = no
-		}
-		
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -80,11 +65,6 @@ de_jure_laws = {
 				always = yes
 			}
 		}
-		
-		ai_will_revoke = {
-			factor = 0
-		}
-		
 		effect = {
 			hidden_tooltip = {
 				revoke_law = out_of_realm_inheritance_law_0
@@ -121,19 +101,9 @@ de_jure_laws = {
 				}
 			}
 		}
-		
-		revoke_allowed = {
-			always = no
-		}
-		
 		ai_will_do = {
 			factor = 0
 		}
-		
-		ai_will_revoke = {
-			factor = 0
-		}
-		
 		effect = {
 			hidden_tooltip = {
 				revoke_law = vassal_wars_law_1
@@ -170,11 +140,6 @@ de_jure_laws = {
 				}
 			}
 		}
-		
-		revoke_allowed = {
-			always = no
-		}
-		
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -182,11 +147,6 @@ de_jure_laws = {
 				always = yes
 			}
 		}
-		
-		ai_will_revoke = {
-			factor = 0
-		}
-		
 		effect = {
 			hidden_tooltip = {
 				revoke_law = vassal_wars_law_0
@@ -221,11 +181,6 @@ de_jure_laws = {
 				}
 			}
 		}
-		
-		revoke_allowed = {
-			always = no
-		}
-		
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -233,11 +188,6 @@ de_jure_laws = {
 				always = yes
 			}
 		}
-		
-		ai_will_revoke = {
-			factor = 0
-		}
-		
 		effect = {
 			hidden_tooltip = {
 				revoke_law = vassal_wars_law_0

@@ -38,13 +38,7 @@ laws = {
 				}
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
 			factor = 0
 		}
 		pass_effect = {
@@ -156,13 +150,7 @@ laws = {
 				}
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
 			factor = 0
 		}
 		pass_effect = {
@@ -265,13 +253,7 @@ laws = {
 				}
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
 			factor = 0
 		}
 		pass_effect = {
@@ -367,13 +349,7 @@ laws = {
 				}
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
 			factor = 0
 		}
 		pass_effect = {
@@ -463,13 +439,7 @@ laws = {
 				}
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
 			factor = 0
 		}
 		pass_effect = {
@@ -564,9 +534,7 @@ laws = {
 			has_dlc = "Zeus"
 			NOT = { holder_scope = { is_nomadic = yes } }
 		}
-		revoke_allowed = { always = no }
 		ai_will_do = { factor = 0 }
-		ai_will_revoke = { factor = 0 }
 		pass_effect = { }
 		effect = {
 			set_allow_title_revokation = no
@@ -584,7 +552,6 @@ laws = {
 			has_dlc = "Zeus"
 			NOT = { holder_scope = { is_nomadic = yes } }
 		}
-		revoke_allowed = { always = no }
 		ai_will_do = { 
 			factor = 1
 			modifier = {
@@ -596,7 +563,6 @@ laws = {
 				has_law = revoke_title_law_2
 			}
 		}
-		ai_will_revoke = { factor = 0 }
 		pass_effect = { }
 		effect = {
 			set_allow_title_revokation = yes
@@ -618,7 +584,6 @@ laws = {
 			NOT = { holder_scope = { is_nomadic = yes } }
 			NOT = { holder_scope = { has_religion_feature = religion_cosmopolitan } }
 		}
-		revoke_allowed = { always = no }
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -629,7 +594,6 @@ laws = {
 				holder_scope = { trait = zealous }
 			}
 		}
-		ai_will_revoke = { factor = 0 }
 		pass_effect = { }
 		effect = {
 			set_allow_title_revokation = yes
@@ -656,7 +620,6 @@ laws = {
 			NOT = { holder_scope = { is_theocracy = yes } }
 		}
 		ai_will_do = { factor = 0 }
-		ai_will_revoke = { factor = 0 }
 		pass_effect = { }
 		effect = {
 			if = {
@@ -709,7 +672,6 @@ laws = {
 				has_law = ze_administration_laws_2
 			}
 		}
-		ai_will_revoke = { factor = 0 }
 		pass_effect = { }
 		effect = {
 			if = {
@@ -772,7 +734,6 @@ laws = {
 		ai_will_do = {
 			factor = 10
 		}
-		ai_will_revoke = { factor = 0 }
 		pass_effect = { }
 		effect = {
 			if = {
