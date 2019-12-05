@@ -821,9 +821,6 @@ succession_laws = {
 		effect = {
 			succession = nomad_succession
 		}
-		revoke_allowed = {
-			always = no
-		}			
 	}
 	
 	succ_offmap_succession = {

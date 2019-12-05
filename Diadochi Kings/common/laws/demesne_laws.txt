@@ -425,9 +425,6 @@ laws = {
 				is_tribal = yes
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -453,9 +450,6 @@ laws = {
 				has_law = tribal_organization_1
 				holder_scope = { dislike_tribal_organization = no }
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			if = { 
@@ -578,9 +572,6 @@ laws = {
 				is_tribal = yes
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -627,9 +618,6 @@ laws = {
 				has_law = tribal_organization_2
 				holder_scope = { dislike_tribal_organization = no }
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		pass_effect = {
 			hidden_tooltip = {
@@ -777,9 +765,6 @@ laws = {
 				is_tribal = yes
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -826,9 +811,6 @@ laws = {
 				has_law = tribal_organization_3
 				holder_scope = { dislike_tribal_organization = no }
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		pass_effect = {
 			hidden_tooltip = {
@@ -972,9 +954,6 @@ laws = {
 				is_tribal = yes
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -1021,9 +1000,6 @@ laws = {
 				has_law = tribal_organization_4
 				holder_scope = { dislike_tribal_organization = no }
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		pass_effect = {
 			hidden_tooltip = {
@@ -1149,9 +1125,6 @@ laws = {
 				is_tribal = yes
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -1175,9 +1148,6 @@ laws = {
 				has_law = tribal_organization_3
 				holder_scope = { dislike_tribal_organization = no }
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		pass_effect = {
 			hidden_tooltip = {
@@ -1280,13 +1250,7 @@ laws = {
 			}
 			has_dlc = "Charlemagne"
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
 			factor = 0
 		}
 		effect = {
@@ -1310,9 +1274,6 @@ laws = {
 			}
 			has_dlc = "Charlemagne"
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
 			factor = 2
 			modifier = {
@@ -1324,9 +1285,6 @@ laws = {
 				has_law = vice_royalty_0
 				over_vassal_limit = -5
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -1351,9 +1309,6 @@ laws = {
 			}
 			has_dlc = "Charlemagne"
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
 			factor = 3
 			modifier = {
@@ -1366,9 +1321,6 @@ laws = {
 				has_law = vice_royalty_1
 				over_vassal_limit = -5
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -1399,16 +1351,9 @@ laws = {
 				is_feudal = yes
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
 			factor = 0
 		}
-		ai_will_revoke = {
-			factor = 0
-		}
-		
 		effect = {
 			if = {
 				limit = { 
@@ -1443,16 +1388,9 @@ laws = {
 				is_feudal = yes
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
 			factor = 10
 		}
-		ai_will_revoke = {
-			factor = 0
-		}
-		
 		effect = {
 			if = {
 				limit = { 
@@ -1491,13 +1429,7 @@ laws = {
 				holder_scope = { is_patrician = yes }
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
 			factor = 0
 		}
 		effect = {
@@ -1523,13 +1455,7 @@ laws = {
 				holder_scope = { is_patrician = yes }
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
 			factor = 0
 		}
 		effect = {
@@ -1555,14 +1481,8 @@ laws = {
 				holder_scope = { is_patrician = yes }
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
 			factor = 1
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -1587,13 +1507,7 @@ laws = {
 				holder_scope = { is_patrician = yes }
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
 			factor = 0
 		}
 		effect = {
@@ -1619,14 +1533,8 @@ laws = {
 				holder_scope = { is_patrician = yes }
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
 			factor = 1
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -1650,13 +1558,7 @@ laws = {
 				holder_scope = { is_patrician = yes }
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
 			factor = 0
 		}
 		effect = {
@@ -1682,13 +1584,7 @@ laws = {
 				holder_scope = { is_patrician = yes }
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
 			factor = 0
 		}
 		effect = {
@@ -1712,13 +1608,7 @@ laws = {
 				holder_scope = { is_patrician = yes }
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
 			factor = 0
 		}
 		effect = {
@@ -1746,13 +1636,7 @@ laws = {
 				holder_scope = { is_patrician = yes }
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
 			factor = 0
 		}
 		effect = {
@@ -1778,14 +1662,8 @@ laws = {
 				holder_scope = { is_patrician = yes }
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
 			factor = 1
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -1809,13 +1687,7 @@ laws = {
 				holder_scope = { is_patrician = yes }
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
 			factor = 0
 		}
 		effect = {
@@ -1839,13 +1711,7 @@ laws = {
 				holder_scope = { is_patrician = yes }
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
 			factor = 0
 		}
 		effect = {
@@ -1874,13 +1740,7 @@ laws = {
 				holder_scope = { is_patrician = yes }
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
 			factor = 0
 		}
 		effect = {
@@ -1907,14 +1767,8 @@ laws = {
 				holder_scope = { is_patrician = yes }
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
 			factor = 1
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -1938,13 +1792,7 @@ laws = {
 				holder_scope = { is_patrician = yes }
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
 			factor = 0
 		}
 		effect = {
@@ -1969,13 +1817,7 @@ laws = {
 				holder_scope = { is_patrician = yes }
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
 			factor = 0
 		}
 		effect = {
@@ -2003,13 +1845,7 @@ laws = {
 				holder_scope = { is_patrician = yes }
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
 			factor = 0
 		}
 		effect = {
@@ -2037,14 +1873,8 @@ laws = {
 				holder_scope = { is_patrician = yes }
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
 			factor = 1
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -2067,13 +1897,7 @@ laws = {
 				holder_scope = { is_patrician = yes }
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
 			factor = 0
 		}
 		effect = {
@@ -2097,13 +1921,7 @@ laws = {
 				holder_scope = { is_patrician = yes }
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
 			factor = 0
 		}
 		effect = {
@@ -2130,13 +1948,7 @@ laws = {
 				holder_scope = { is_patrician = yes }
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
 			factor = 0
 		}
 		effect = {
@@ -2164,14 +1976,8 @@ laws = {
 				holder_scope = { is_patrician = yes }
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
 			factor = 1
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -2194,13 +2000,7 @@ laws = {
 				holder_scope = { is_patrician = yes }
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
 			factor = 0
 		}
 		effect = {
@@ -2224,13 +2024,7 @@ laws = {
 				holder_scope = { is_patrician = yes }
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
 			factor = 0
 		}
 		effect = {
@@ -2267,13 +2061,7 @@ laws = {
 				}
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
 			factor = 0
 		}
 		effect = {
@@ -2310,14 +2098,8 @@ laws = {
 				}
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
 			factor = 1
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -2350,13 +2132,7 @@ laws = {
 				}
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
 			factor = 0
 		}
 		effect = {
@@ -2390,13 +2166,7 @@ laws = {
 				}
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
 			factor = 0
 		}
 		effect = {
@@ -2434,14 +2204,8 @@ laws = {
 				}
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
 			factor = 1
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -2476,13 +2240,7 @@ laws = {
 				}
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
 			factor = 0
 		}
 		effect = {
@@ -2516,13 +2274,7 @@ laws = {
 				}
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
 			factor = 0
 		}
 		effect = {
@@ -2556,13 +2308,7 @@ laws = {
 				}
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}			
 		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
 			factor = 0
 		}
 		effect = {
