@@ -46,9 +46,6 @@ laws = {
 		allow = {
 			has_law = tax_levy_law_feudal_1
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
 			factor = 0.01
 			modifier = {
@@ -62,9 +59,6 @@ laws = {
 					}
 				}
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -117,9 +111,6 @@ laws = {
 				has_law = tax_levy_law_feudal_2			
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
 			factor = 0.01
 			modifier = {
@@ -151,9 +142,6 @@ laws = {
 					}
 				}
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -226,9 +214,6 @@ laws = {
 				has_law = tax_levy_law_feudal_3			
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
 			factor = 0.01
 			modifier = {
@@ -260,9 +245,6 @@ laws = {
 					}
 				}
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -335,9 +317,6 @@ laws = {
 				has_law = tax_levy_law_feudal_4			
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
 			factor = 0.01
 			modifier = {
@@ -369,9 +348,6 @@ laws = {
 					}
 				}
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -445,9 +421,6 @@ laws = {
 				has_law = tax_levy_law_feudal_5			
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
 			factor = 0.01
 			modifier = {
@@ -479,9 +452,6 @@ laws = {
 					}
 				}
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -554,9 +524,6 @@ laws = {
 				has_law = tax_levy_law_feudal_6			
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
 			factor = 0.01
 			modifier = {
@@ -588,9 +555,6 @@ laws = {
 					}
 				}
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -663,9 +627,6 @@ laws = {
 				has_law = tax_levy_law_feudal_7			
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
 			factor = 0.01
 			modifier = {
@@ -697,9 +658,6 @@ laws = {
 					}
 				}
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -772,9 +730,6 @@ laws = {
 				has_law = tax_levy_law_feudal_8			
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
 			factor = 0.01
 			modifier = {
@@ -806,9 +761,6 @@ laws = {
 					}
 				}
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -878,9 +830,6 @@ laws = {
 		allow = {
 			has_law = tax_levy_law_feudal_7
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
 			factor = 0.01
 			modifier = {
@@ -891,9 +840,6 @@ laws = {
 					}
 				}
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -939,9 +885,6 @@ laws = {
 		allow = {
 			has_law = tax_levy_law_republic_1
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
 			factor = 0.01
 			modifier = {
@@ -955,9 +898,6 @@ laws = {
 					}
 				}
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -1011,9 +951,6 @@ laws = {
 				has_law = tax_levy_law_republic_2			
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
 			factor = 0.01
 			modifier = {
@@ -1045,9 +982,6 @@ laws = {
 					}
 				}
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -1120,9 +1054,6 @@ laws = {
 				has_law = tax_levy_law_republic_3			
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
 			factor = 0.01
 			modifier = {
@@ -1154,9 +1085,6 @@ laws = {
 					}
 				}
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -1229,9 +1157,6 @@ laws = {
 				has_law = tax_levy_law_republic_4			
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
 			factor = 0.01
 			modifier = {
@@ -1263,9 +1188,6 @@ laws = {
 					}
 				}
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -1339,9 +1261,6 @@ laws = {
 				has_law = tax_levy_law_republic_5		
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
 			factor = 0.01
 			modifier = {
@@ -1373,9 +1292,6 @@ laws = {
 					}
 				}
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -1448,9 +1364,6 @@ laws = {
 				has_law = tax_levy_law_republic_6		
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
 			factor = 0.01
 			modifier = {
@@ -1482,9 +1395,6 @@ laws = {
 					}
 				}
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -1557,9 +1467,6 @@ laws = {
 				has_law = tax_levy_law_republic_7
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
 			factor = 0.01
 			modifier = {
@@ -1591,9 +1498,6 @@ laws = {
 					}
 				}
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -1666,9 +1570,6 @@ laws = {
 				has_law = tax_levy_law_republic_8			
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
 			factor = 0.01
 			modifier = {
@@ -1700,9 +1601,6 @@ laws = {
 					}
 				}
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -1772,9 +1670,6 @@ laws = {
 		allow = {
 			has_law = tax_levy_law_republic_7
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
 			factor = 0.01
 			modifier = {
@@ -1785,9 +1680,6 @@ laws = {
 					}
 				}
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -1833,9 +1725,6 @@ laws = {
 		allow = {
 			has_law = tax_levy_law_theocracy_1
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
 			factor = 0.01
 			modifier = {
@@ -1849,9 +1738,6 @@ laws = {
 					}
 				}
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -1905,9 +1791,6 @@ laws = {
 				has_law = tax_levy_law_theocracy_2			
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
 			factor = 0.01
 			modifier = {
@@ -1922,9 +1805,6 @@ laws = {
 					has_law = tax_levy_law_theocracy_2
 				}
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -1997,9 +1877,6 @@ laws = {
 				has_law = tax_levy_law_theocracy_3			
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
 			factor = 0.01
 			modifier = {
@@ -2014,9 +1891,6 @@ laws = {
 					has_law = tax_levy_law_theocracy_3
 				}
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -2089,9 +1963,6 @@ laws = {
 				has_law = tax_levy_law_theocracy_4			
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
 			factor = 0.01
 			modifier = {
@@ -2106,9 +1977,6 @@ laws = {
 					has_law = tax_levy_law_theocracy_4
 				}
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -2182,9 +2050,6 @@ laws = {
 				has_law = tax_levy_law_theocracy_5			
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
 			factor = 0.01
 			modifier = {
@@ -2199,9 +2064,6 @@ laws = {
 					has_law = tax_levy_law_theocracy_5
 				}
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -2258,9 +2120,6 @@ laws = {
 				has_law = tax_levy_law_theocracy_6			
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
 			factor = 0.01
 			modifier = {
@@ -2275,9 +2134,6 @@ laws = {
 					has_law = tax_levy_law_theocracy_6
 				}
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -2350,9 +2206,6 @@ laws = {
 				has_law = tax_levy_law_theocracy_7			
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
 			factor = 0.01
 			modifier = {
@@ -2367,9 +2220,6 @@ laws = {
 					has_law = tax_levy_law_theocracy_7
 				}
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -2442,9 +2292,6 @@ laws = {
 				has_law = tax_levy_law_theocracy_8
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
 			factor = 0.01
 			modifier = {
@@ -2459,9 +2306,6 @@ laws = {
 					has_law = tax_levy_law_theocracy_8
 				}
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -2531,13 +2375,7 @@ laws = {
 		allow = {
 			has_law = tax_levy_law_theocracy_7
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
 			factor = 0
 		}
 		effect = {
@@ -2584,9 +2422,6 @@ laws = {
 		allow = {
 			has_law = tax_levy_law_tribal_1
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
 			factor = 0.01
 			modifier = {
@@ -2600,9 +2435,6 @@ laws = {
 					}
 				}
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -2657,9 +2489,6 @@ laws = {
 				has_law = tax_levy_law_tribal_2			
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
 			factor = 0.01
 			modifier = {
@@ -2674,9 +2503,6 @@ laws = {
 					has_law = tax_levy_law_tribal_2
 				}
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -2749,9 +2575,6 @@ laws = {
 				has_law = tax_levy_law_tribal_3			
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
 			factor = 0.01
 			modifier = {
@@ -2766,9 +2589,6 @@ laws = {
 					has_law = tax_levy_law_tribal_3
 				}
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -2841,9 +2661,6 @@ laws = {
 				has_law = tax_levy_law_tribal_4
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
 			factor = 0.01
 			modifier = {
@@ -2858,9 +2675,6 @@ laws = {
 					has_law = tax_levy_law_tribal_4
 				}
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -2934,9 +2748,6 @@ laws = {
 				has_law = tax_levy_law_tribal_5
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
 			factor = 0.01
 			modifier = {
@@ -2951,9 +2762,6 @@ laws = {
 					has_law = tax_levy_law_tribal_5
 				}
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -3010,9 +2818,6 @@ laws = {
 				has_law = tax_levy_law_tribal_6
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
 			factor = 0.01
 			modifier = {
@@ -3027,9 +2832,6 @@ laws = {
 					has_law = tax_levy_law_tribal_6
 				}
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -3102,9 +2904,6 @@ laws = {
 				has_law = tax_levy_law_tribal_7
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
 			factor = 0.01
 			modifier = {
@@ -3119,9 +2918,6 @@ laws = {
 					has_law = tax_levy_law_tribal_7
 				}
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -3194,9 +2990,6 @@ laws = {
 				has_law = tax_levy_law_tribal_8
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
 			factor = 0.01
 			modifier = {
@@ -3211,9 +3004,6 @@ laws = {
 					has_law = tax_levy_law_tribal_8
 				}
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {
@@ -3283,13 +3073,7 @@ laws = {
 		allow = {
 			has_law = tax_levy_law_tribal_7
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
 			factor = 0
 		}
 		effect = {
