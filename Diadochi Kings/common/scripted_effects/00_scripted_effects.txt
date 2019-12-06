@@ -8897,11 +8897,23 @@ print_scope_effect = {
 }
 
 add_sympathy_for_prevs_true_religion_effect = {
-	#TODO: Implement sympathy
+	if = {
+		limit = { 
+			PREV = { true_religion_group_egyptian_religion_trigger = yes } 
+			NOT = { religion_group = egyptian_religion }
+		}
+		add_trait = sympathy_egyptian_religion
+	}
 }
 
 add_sympathy_for_prevs_open_religion_effect = {
-	#TODO: Implement sympathy
+	if = {
+		limit = { 
+			PREV = { religion_group = egyptian_religion } 
+			NOT = { religion_group = egyptian_religion }
+		}
+		add_trait = sympathy_egyptian_religion
+	}
 }
 
 add_trait_for_prevs_secret_religion_society_effect = {
@@ -18966,7 +18978,14 @@ stable_attribute_improvement_effect = {
 }
 
 add_sympathy_for_religion_effect = {
-	# TODO: Sympathy
+	if = {
+		limit = {
+			religion_group = egyptian_religion
+		}
+		ROOT = {
+			add_trait = sympathy_egyptian_religion
+		}
+	}
 }
 
 add_random_commander_trait_effect = {

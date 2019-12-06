@@ -676,32 +676,12 @@ feudal_elective = {
 				religion_group = indian_group 
 				religion_group = dravidian_group
 			}
-			# NOR = { 
-				# AND = {  
-					# trait = sympathy_christendom
-					# FROM = { religion_group = christian } 
-				# } 
-				# AND = {  
-					# trait = sympathy_islam
-					# FROM = { religion_group = muslim } 
-				# } 
-				# AND = {  
-					# trait = sympathy_pagans
-					# FROM = { religion_group = pagan_group } 
-				# } 
-				# AND = {  
-					# trait = sympathy_zoroastrianism
-					# FROM = { religion_group = zoroastrian_group } 
-				# } 
-				# AND = {  
-					# trait = sympathy_judaism
-					# FROM = { religion_group = jewish_group } 
-				# } 
-				# AND = {  
-					# trait = sympathy_indian
-					# FROM = { religion_group = indian_group } 
-				# } 
-			# }
+			NOR = { 
+				AND = {  
+					trait = sympathy_egyptian_religion
+					FROM = { religion_group = egyptian_religion } 
+				}
+			}
 			FROM = { 
 				NOT = { religion_group = ROOT } 
 				NOT = { is_heresy_of = ROOT } 
@@ -2939,16 +2919,11 @@ feudal_elective = {
 				trait = zealous
 				trait = arbitrary #No need for consistency
 			}
-			# FROM = { 
-				# OR = { 
-					# trait = sympathy_christendom
-					# trait = sympathy_islam
-					# trait = sympathy_judaism
-					# trait = sympathy_zoroastrianism
-					# trait = sympathy_pagans
-					# trait = sympathy_indian
-				# }
-			# }
+			FROM = { 
+				OR = { 
+					trait = sympathy_egyptian_religion
+				}
+			}
 		}
 		additive_modifier = { #Praised for being Giant
 			value = 10
@@ -3978,32 +3953,12 @@ tanistry = {
 				religion_group = indian_group 
 				religion_group = dravidian_group
 			}
-			# NOR = { 
-				# AND = {  
-					# trait = sympathy_christendom
-					# FROM = { religion_group = christian } 
-				# } 
-				# AND = {  
-					# trait = sympathy_islam
-					# FROM = { religion_group = muslim } 
-				# } 
-				# AND = {  
-					# trait = sympathy_pagans
-					# FROM = { religion_group = pagan_group } 
-				# } 
-				# AND = {  
-					# trait = sympathy_zoroastrianism
-					# FROM = { religion_group = zoroastrian_group } 
-				# } 
-				# AND = {  
-					# trait = sympathy_judaism
-					# FROM = { religion_group = jewish_group } 
-				# } 
-				# AND = {  
-					# trait = sympathy_indian
-					# FROM = { religion_group = indian_group } 
-				# } 
-			# }
+			NOR = { 
+				AND = {  
+					trait = sympathy_egyptian_religion
+					FROM = { religion_group = egyptian_religion } 
+				}
+			}
 			FROM = { 
 				NOT = { religion_group = ROOT } 
 				NOT = { is_heresy_of = ROOT } 
@@ -6291,12 +6246,7 @@ tanistry = {
 			}
 			FROM = { 
 				OR = { 
-					trait = sympathy_christendom
-					trait = sympathy_islam
-					trait = sympathy_judaism
-					trait = sympathy_zoroastrianism
-					trait = sympathy_pagans
-					trait = sympathy_indian
+					trait = sympathy_egyptian_religion
 				}
 			}
 		}
@@ -7270,28 +7220,8 @@ elective_gavelkind = {
 			NOT = { religion_group = indian_group }
 			NOR = { 
 				AND = {  
-					trait = sympathy_christendom
-					FROM = { religion_group = christian } 
-				} 
-				AND = {  
-					trait = sympathy_islam
-					FROM = { religion_group = muslim } 
-				} 
-				AND = {  
-					trait = sympathy_pagans
-					FROM = { religion_group = pagan_group } 
-				} 
-				AND = {  
-					trait = sympathy_zoroastrianism
-					FROM = { religion_group = zoroastrian_group } 
-				} 
-				AND = {  
-					trait = sympathy_judaism
-					FROM = { religion_group = jewish_group } 
-				} 
-				AND = {  
-					trait = sympathy_indian
-					FROM = { religion_group = indian_group } 
+					trait = sympathy_egyptian_religion
+					FROM = { religion_group = egyptian_religion } 
 				} 
 			}
 			FROM = { 
@@ -9617,12 +9547,7 @@ elective_gavelkind = {
 			}
 			FROM = { 
 				OR = { 
-					trait = sympathy_christendom
-					trait = sympathy_islam
-					trait = sympathy_judaism
-					trait = sympathy_zoroastrianism
-					trait = sympathy_pagans
-					trait = sympathy_indian
+					trait = sympathy_egyptian_religion
 				}
 			}
 		}
@@ -10706,28 +10631,8 @@ eldership_rules = {
 			NOT = { religion_group = indian_group }
 			NOR = { 
 				AND = {  
-					trait = sympathy_christendom
-					FROM = { religion_group = christian } 
-				} 
-				AND = {  
-					trait = sympathy_islam
-					FROM = { religion_group = muslim } 
-				} 
-				AND = {  
-					trait = sympathy_pagans
-					FROM = { religion_group = pagan_group } 
-				} 
-				AND = {  
-					trait = sympathy_zoroastrianism
-					FROM = { religion_group = zoroastrian_group } 
-				} 
-				AND = {  
-					trait = sympathy_judaism
-					FROM = { religion_group = jewish_group } 
-				} 
-				AND = {  
-					trait = sympathy_indian
-					FROM = { religion_group = indian_group } 
+					trait = sympathy_egyptian_religion
+					FROM = { religion_group = egyptian_religion } 
 				} 
 			}
 			FROM = { 
@@ -13268,12 +13173,7 @@ eldership_rules = {
 			}
 			FROM = { 
 				OR = { 
-					trait = sympathy_christendom
-					trait = sympathy_islam
-					trait = sympathy_judaism
-					trait = sympathy_zoroastrianism
-					trait = sympathy_pagans
-					trait = sympathy_indian
+					trait = sympathy_egyptian_religion
 				}
 			}
 			FROMFROM = { 
@@ -13910,28 +13810,8 @@ eldership_rules = {
 			NOT = { religion_group = indian_group }
 			NOR = { 
 				AND = {  
-					trait = sympathy_christendom
-					FROM = { religion_group = christian } 
-				} 
-				AND = {  
-					trait = sympathy_islam
-					FROM = { religion_group = muslim } 
-				} 
-				AND = {  
-					trait = sympathy_pagans
-					FROM = { religion_group = pagan_group } 
-				} 
-				AND = {  
-					trait = sympathy_zoroastrianism
-					FROM = { religion_group = zoroastrian_group } 
-				} 
-				AND = {  
-					trait = sympathy_judaism
-					FROM = { religion_group = jewish_group } 
-				} 
-				AND = {  
-					trait = sympathy_indian
-					FROM = { religion_group = indian_group } 
+					trait = sympathy_egyptian_religion
+					FROM = { religion_group = egyptian_religion } 
 				} 
 			}
 			FROM = { 
@@ -16197,12 +16077,7 @@ eldership_rules = {
 			}
 			FROM = { 
 				OR = { 
-					trait = sympathy_christendom
-					trait = sympathy_islam
-					trait = sympathy_judaism
-					trait = sympathy_zoroastrianism
-					trait = sympathy_pagans
-					trait = sympathy_indian
+					trait = sympathy_egyptian_religion
 				}
 			}
 			has_elector_stance = { stance = elder_pleased title = FROMFROM }

@@ -1,13 +1,252 @@
 # 172501-172600 for the Domitii dynasty
-172501 = {
-	name = "Gnaeus" # Domitius Calvinus
-	dynasty = 17026 # Domitii
-	religion = roman_main
-	culture = latin
-	374.1.1 = { # 402 BC Made Up
-		birth="yes"
-	}
-	453.1.1 = { # 323 BC Made Up
-		death="yes"
-	}
+# use 172521 for further expansion
+172501={
+	name=Brutus
+	dynasty=17026
+	culture=latin 
+	religion=roman_main
+	323.10.18={ birth=yes }
+	343.1.1={ add_spouse = 172525 }
+	390.9.17={ death=yes }
+}
+172502={
+	name=Hortensius
+	dynasty=17026
+	culture=latin 
+	religion=roman_main
+	father=172501	#Brutus
+	mother=172525	#Paula
+	344.5.2={ birth=yes }
+	364.1.1={ add_spouse = 172526 }
+	411.2.27={ death=yes }
+}
+172503={
+	name=Statia
+	female=yes
+	dynasty=17026
+	culture=latin 
+	religion=roman_main
+	father=172501	#Brutus
+	mother=172525	#Paula
+	347.4.10={ birth=yes }
+	397.11.10={ death=yes }
+}
+172504={
+	name=Ambivius
+	dynasty=17026
+	culture=latin 
+	religion=roman_main
+	father=172501	#Brutus
+	mother=172525	#Paula
+	350.11.23={ birth=yes }
+	418.9.7={ death=yes }
+}
+172505={
+	name=Colunella
+	dynasty=17026
+	culture=latin 
+	religion=roman_main
+	father=172501	#Brutus
+	mother=172525	#Paula
+	352.1.9={ birth=yes }
+	403.7.25={ death=yes }
+}
+172506={
+	name=Idaeus
+	dynasty=17026
+	culture=latin 
+	religion=roman_main
+	father=172501	#Brutus
+	mother=172525	#Paula
+	357.5.16={ birth=yes }
+	411.7.14={ death=yes }
+}
+172507={
+	name=Hesychia
+	female=yes
+	dynasty=17026
+	culture=latin 
+	religion=roman_main
+	father=172502	#Hortensius
+	mother=172526	#Paula
+	372.8.1={ birth=yes }
+	420.3.2={ death=yes }
+}
+172508={
+	name=Gnaeus # Domitius Calvinus
+	dynasty=17026
+	culture=latin 
+	religion=roman_main
+	father=172502	#Hortensius
+	mother=172526	#Paula
+	374.1.1={ birth=yes }
+	453.1.1={ death=yes }
+}
+172509={
+	name=Capanea
+	female=yes
+	dynasty=17026
+	culture=latin 
+	religion=roman_main
+	father=172502	#Hortensius
+	mother=172526	#Paula
+	378.2.14={ birth=yes }
+	449.9.26={ death=yes }
+}
+172510={
+	name=Valeria
+	female=yes
+	dynasty=17026
+	culture=latin 
+	religion=roman_main
+	father=172502	#Hortensius
+	mother=172526	#Paula
+	381.3.5={ birth=yes }
+	430.1.28={ death=yes }
+}
+172511={
+	name=Cornelius
+	dynasty=17026
+	culture=latin 
+	religion=roman_main
+	father=172508	#Gnaeus
+	400.12.22={ birth=yes }
+	487.5.11={ death=yes }
+}
+172512={
+	name=Vespasian
+	dynasty=17026
+	culture=latin 
+	religion=roman_main
+	father=172508	#Gnaeus
+	403.2.14={ birth=yes }
+	475.4.24={ death=yes }
+}
+172513={
+	name=Ogulnius
+	dynasty=17026
+	culture=latin 
+	religion=roman_main
+	father=172508	#Gnaeus
+	405.8.23={ birth=yes }
+	485.1.13={ death=yes }
+}
+172514={
+	name=Naevia
+	female=yes
+	dynasty=17026
+	culture=latin 
+	religion=roman_main
+	father=172508	#Gnaeus
+	411.8.26={ birth=yes }
+	476.7.24={ death=yes }
+}
+172515={
+	name=Spurius
+	dynasty=17026
+	culture=latin 
+	religion=roman_main
+	father=172511	#Cornelius
+	427.1.10={ birth=yes }
+	484.12.2={ death=yes }
+}
+172516={
+	name=Lapidus
+	dynasty=17026
+	culture=latin 
+	religion=roman_main
+	father=172511	#Cornelius
+	430.2.21={ birth=yes }
+	486.9.7={ death=yes }
+}
+172517={
+	name=Caecilius
+	dynasty=17026
+	culture=latin 
+	religion=roman_main
+	father=172511	#Cornelius
+	432.1.15={ birth=yes }
+	493.6.1={ death=yes }
+}
+172518={
+	name=Urgulanus
+	dynasty=17026
+	culture=latin 
+	religion=roman_main
+	father=172515	#Spurius
+	452.7.7={ birth=yes }
+	503.5.30={ death=yes }
+}
+172519={
+	name=Cornelia
+	female=yes
+	dynasty=17026
+	culture=latin 
+	religion=roman_main
+	father=172515	#Spurius
+	455.7.24={ birth=yes }
+	518.6.28={ death=yes }
+}
+172520={
+	name=Lucilla
+	female=yes
+	dynasty=17026
+	culture=latin 
+	religion=roman_main
+	father=172515	#Spurius
+	457.5.18={ birth=yes }
+	509.5.15={ death=yes }
+}
+172521={
+	name=Maximus
+	dynasty=17026
+	culture=latin 
+	religion=roman_main
+	father=172518	#Urgulanus
+	475.11.17={ birth=yes }
+	534.2.25={ death=yes }
+}
+172522={
+	name=Gemellus
+	dynasty=17026
+	culture=latin 
+	religion=roman_main
+	father=172518	#Urgulanus
+	478.3.17={ birth=yes }
+	519.3.3={ death=yes }
+}
+172523={
+	name=Turpia
+	female=yes
+	dynasty=17026
+	culture=latin 
+	religion=roman_main
+	father=172518	#Urgulanus
+	483.4.16={ birth=yes }
+	539.8.10={ death=yes }
+}
+172524={
+	name=Lucius
+	dynasty=17026
+	culture=latin 
+	religion=roman_main
+	father=172518	#Urgulanus
+	486.8.2={ birth=yes }
+	547.7.3={ death=yes }
+}
+172525={
+	name=Paula
+	female=yes
+	culture=latin 
+	religion=roman_main
+	323.1.1={ birth=yes }
+	390.1.1={ death=yes }
+}
+172526={
+	name=Gratiana
+	female=yes
+	culture=latin 
+	religion=roman_main
+	344.1.1={ birth=yes }
+	411.1.1={ death=yes }
 }

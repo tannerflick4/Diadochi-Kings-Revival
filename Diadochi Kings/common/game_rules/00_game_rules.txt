@@ -261,21 +261,21 @@ jade_dragon_cbs = {
 	}
 }
 
-#devil_worshipers = {
-#	name = "RULE_DEVIL_WORSHIPERS"
-#	dlc = "Monks And Mystics"
-#	group = "RULE_GROUP_VARIOUS"
-#	option = {
-#		name = default
-#		text = "RULE_OPTION_DEFAULT"
-#		desc = "RULE_DEVIL_WORSHIPERS_DEFAULT_DESC"
-#	}
-#	option = {
-#		name = none
-#		text = "RULE_OPTION_NONE"
-#		desc = "RULE_DEVIL_WORSHIPERS_NONE_DESC"
-#	}
-#}
+devil_worshipers = {
+	name = "RULE_DEVIL_WORSHIPERS"
+	dlc = "Monks And Mystics"
+	group = "RULE_GROUP_VARIOUS"
+	option = {
+		name = default
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_DEVIL_WORSHIPERS_DEFAULT_DESC"
+	}
+	option = {
+		name = none
+		text = "RULE_OPTION_NONE"
+		desc = "RULE_DEVIL_WORSHIPERS_NONE_DESC"
+	}
+}
 
 #secret_cults = {
 #	name = "RULE_SECRET_CULTS"
@@ -457,25 +457,25 @@ gender = {
 	}
 }
 
-#supernatural_events = {
-#	name = "RULE_SUPERNATURAL"
-#	group = "RULE_GROUP_VARIOUS"
-#	option = {
-#		name = on
-#		text = "RULE_OPTION_ON"
-#		desc = "RULE_SUPERNATURAL_ON_DESC"
-#	}
-#	option = {
-#		name = off
-#		text = "RULE_OPTION_OFF"
-#		desc = "RULE_SUPERNATURAL_OFF_DESC"
-#	}
-#	option = {
-#		name = unrestricted
-#		text = "RULE_OPTION_UNRESTRICTED"
-#		desc = "RULE_SUPERNATURAL_UNRESTRICTED_DESC"
-#	}
-#}
+supernatural_events = {
+	name = "RULE_SUPERNATURAL"
+	group = "RULE_GROUP_VARIOUS"
+	option = {
+		name = on
+		text = "RULE_OPTION_ON"
+		desc = "RULE_SUPERNATURAL_ON_DESC"
+	}
+	option = {
+		name = off
+		text = "RULE_OPTION_OFF"
+		desc = "RULE_SUPERNATURAL_OFF_DESC"
+	}
+	option = {
+		name = unrestricted
+		text = "RULE_OPTION_UNRESTRICTED"
+		desc = "RULE_SUPERNATURAL_UNRESTRICTED_DESC"
+	}
+}
 
 #silly_events = {
 #	name = "RULE_SILLY"
@@ -701,21 +701,21 @@ matrilineal_marriages = {
 	}
 }
 
-#dynamic_realms = {
-#	name = "RULE_DYNAMIC_REALMS"
-#	dlc = "Charlemagne"
-#	group = "RULE_GROUP_VARIOUS"
-#	option = {
-#		name = on
-#		text = "RULE_OPTION_ON"
-#		desc = "RULE_DYNAMIC_REALMS_ON_DESC"
-#	}
-#	option = {
-#		name = off
-#		text = "RULE_OPTION_OFF"
-#		desc = "RULE_DYNAMIC_REALMS_OFF_DESC"
-#	}
-#}
+dynamic_realms = {
+	name = "RULE_DYNAMIC_REALMS"
+	dlc = "Charlemagne"
+	group = "RULE_GROUP_VARIOUS"
+	option = {
+		name = on
+		text = "RULE_OPTION_ON"
+		desc = "RULE_DYNAMIC_REALMS_ON_DESC"
+	}
+	option = {
+		name = off
+		text = "RULE_OPTION_OFF"
+		desc = "RULE_DYNAMIC_REALMS_OFF_DESC"
+	}
+}
 
 #charlemagne_story = {
 #	name = "RULE_CHARLEMAGNE_STORY"

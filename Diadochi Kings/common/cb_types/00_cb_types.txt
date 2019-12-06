@@ -330,21 +330,21 @@ other_claim = {
 			}
 		}
 		
-		OR = {
-			multiplayer = no
-			FROMFROM = { ai = yes }
-			has_game_rule = {
-				name = multiplayer_third_party_claims
-				value = on
-			}
-			AND = {
-				has_game_rule = {
-					name = multiplayer_third_party_claims
-					value = limited
-				}
-				lower_tier_than = KING
-			}
-		}
+		# OR = {
+			# multiplayer = no
+			# FROMFROM = { ai = yes }
+			# has_game_rule = {
+				# name = multiplayer_third_party_claims
+				# value = on
+			# }
+			# AND = {
+				# has_game_rule = {
+					# name = multiplayer_third_party_claims
+					# value = limited
+				# }
+				# lower_tier_than = KING
+			# }
+		# }
 	}
 
 	is_valid_title = {
@@ -2611,16 +2611,16 @@ tribal_invasion = {
 
 	can_use_title = {
 		ROOT = {
-			OR = {
-				ai = yes
-				multiplayer = no
-				NOT = {
-					has_game_rule = {
-						name = multiplayer_invasions
-						value = off
-					}
-				}
-			}
+			# OR = {
+				# ai = yes
+				# multiplayer = no
+				# NOT = {
+					# has_game_rule = {
+						# name = multiplayer_invasions
+						# value = off
+					# }
+				# }
+			# }
 			is_nomadic = no
 			OR = {
 				AND = {
@@ -9281,16 +9281,16 @@ nomad_subjugation = {
 	
 	can_use = {
 		ROOT = {
-			OR = {
-				ai = yes
-				multiplayer = no
-				NOT = {
-					has_game_rule = {
-						name = multiplayer_invasions
-						value = off
-					}
-				}
-			}
+			# OR = {
+				# ai = yes
+				# multiplayer = no
+				# NOT = {
+					# has_game_rule = {
+						# name = multiplayer_invasions
+						# value = off
+					# }
+				# }
+			# }
 			is_nomadic = yes
 			NOT = { same_realm = FROM }
 			NOT = { is_liege_or_above = FROM }
@@ -9579,16 +9579,16 @@ nomad_invasion = {
 	can_use = {
 		ROOT = {
 			is_nomadic = yes
-			OR = {
-				ai = yes
-				multiplayer = no
-				NOT = {
-					has_game_rule = {
-						name = multiplayer_invasions
-						value = off
-					}
-				}
-			}
+			# OR = {
+				# ai = yes
+				# multiplayer = no
+				# NOT = {
+					# has_game_rule = {
+						# name = multiplayer_invasions
+						# value = off
+					# }
+				# }
+			# }
 			NOT = { same_realm = FROM }
 		}
 	}

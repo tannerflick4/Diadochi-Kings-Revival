@@ -323,15 +323,9 @@ heir_text_traits_tolerant = { # Tolerant
 		modifier = {
 			factor = 0
 			always = yes
-			# TODO: Add sympathies
-			#NOR = {
-			#	trait = sympathy_christendom
-			#	trait = sympathy_islam
-			#	trait = sympathy_pagans
-			#	trait = sympathy_zoroastrianism
-			#	trait = sympathy_judaism
-			#	trait = sympathy_indian
-			#}
+			NOR = {
+				trait = sympathy_egyptian_religion
+			}
 		}
 	}
 }
