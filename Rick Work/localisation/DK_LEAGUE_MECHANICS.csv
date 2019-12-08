@@ -2,7 +2,24 @@ TRIBUTARY_LEAGUE_NAME;League Member;;;;;;;;;;;;;;x
 TRIBUTARY_LEAGUE_PLURAL;League Members;;;;;;;;;;;;;;x
 SUZERAIN_LEAGUE_NAME;League Leader;;;;;;;;;;;;;;x
 TRIBUTARY_LEAGUE_TRIBUTE;League Dues;;;;;;;;;;;;;;x
-form_league;Form League;;;;;;;;;;;;;;x
-form_league_desc;Propose to form a league with §Y[Root.PrimaryTitle.GetName]§!. Historically, small greek polities united in league to work together on a military, economic, diplomatic and religious level while preserving the autonomy of the city state.\n\nIn game this translates into a tributary state that does not have to provide any gold but is obliged to provide its army to the leader. In exchange the leader pledges to defend each member.;;;;;;;;;;;;;;x
-FORM_LEAGUE_AS_LEADER;§G[Root.PrimaryTitle.GetName] will become a member in your league§!;;;;;;;;;;;;;;x
-FORM_LEAGUE_AS_MEMBER;§FYou will become a member in the league of [Root.PrimaryTitle.GetName]§!;;;;;;;;;;;;;;x
+dk_form_league;Form League;;;;;;;;;;;;;;x
+dk_form_league_desc;Propose to form a league with §Y[Root.PrimaryTitle.GetName]§!. Historically, small greek polities united in league to work together on a military, economic, diplomatic and religious level while preserving the autonomy of the city state.\n\nIn game this translates into a tributary state that does not have to provide any gold but is obliged to provide its army to the leader. In exchange the leader pledges to defend each member.;;;;;;;;;;;;;;x
+DK_FORM_LEAGUE_AS_LEADER;§G[Root.PrimaryTitle.GetName] will become a member in your league§!;;;;;;;;;;;;;;x
+DK_FORM_LEAGUE_AS_MEMBER;§FYou will become a member in the league of [Root.PrimaryTitle.GetName]§!;;;;;;;;;;;;;;x
+DK_INVITE_MEMBER_TO_LEAGUE;§G[Root.PrimaryTitle.GetName] will be invited to your league§!;;;;;;;;;;;;;;x
+DK_CHARACTER_ALREADY_IN_LEAGUE;§Y[Root.GetTitledName]§! is already in a league.;;;;;;;;;;;;;;x
+DK_CHARACTER_IS_TRIBUTARY;§Y[Root.GetTitledName]§! is a tributary.;;;;;;;;;;;;;;x
+DK_EVTDESC_LEAGUE_1;[FromFrom.GetTitledFirstName] to [Root.GetFirstName], greetings.\n\nWe would like to propose to form a league between our two states to protect ourselves against large and tyrannical empires. As the stronger state, my state will become the leader of the league. What do you think about this offer?;;;;;;;;;;;;;;x
+DK_EVTOPTA_LEAGUE_1;I accept.;;;;;;;;;;;;;;x
+DK_EVTOPTB_LEAGUE_1;We are stronger on our own.;;;;;;;;;;;;;;x
+DK_EVTDESC_LEAGUE_2;[From.GetTitledFirstName] to [Root.GetFirstName], greetings.\n\nWe accept your proposal of forming a league with us. Together we will survive and grow inside of this world.;;;;;;;;;;;;;;x
+DK_EVTOPTA_LEAGUE_2;Glory to us... and [From.PrimaryTitle.GetName].;;;;;;;;;;;;;;x
+DK_EVTDESC_LEAGUE_3;[From.GetTitledFirstName] to [Root.GetFirstName], greetings.\n\nWe refuse your proposal to form a league with us. We will never put the lives of our citizens in the hands of any foreigner.;;;;;;;;;;;;;;x
+DK_EVTOPTA_LEAGUE_3;Fools!;;;;;;;;;;;;;;x
+DK_EVTDESC_LEAGUE_4;[FromFrom.GetTitledFirstName] to [Root.GetFirstName], greetings.\n\nWe would like to propose to form a league between our two states to protect ourselves against large and tyrannical empires. As the more prestigious state, you will become the leader of the league. What do you think about this offer?;;;;;;;;;;;;;;x
+DK_EVTOPTA_LEAGUE_4;Nobody would reject something like this.;;;;;;;;;;;;;;x
+DK_EVTOPTB_LEAGUE_4;Our men will not be sent to die for [FromFrom.PrimaryTitle.GetName].;;;;;;;;;;;;;;x
+DK_EVTDESC_LEAGUE_5;[From.GetTitledFirstName] to [Root.GetFirstName], greetings.\n\nWe accept your proposal of forming a league with us. Together under our leadership we will prosper.;;;;;;;;;;;;;;x
+DK_EVTOPTA_LEAGUE_5;We are safe!;;;;;;;;;;;;;;x
+DK_EVTDESC_LEAGUE_6;[From.GetTitledFirstName] to [Root.GetFirstName], greetings.\n\nWe refuse your proposal to form a league with us. You are not worth our help.;;;;;;;;;;;;;;x
+DK_EVTOPTA_LEAGUE_6;I never cared about you anyway.;;;;;;;;;;;;;;x

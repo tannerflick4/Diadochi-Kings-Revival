@@ -1,32 +1,100 @@
 targeted_decisions = {
 
-    form_league = {
+    dk_form_league = {
         filter = independent_rulers
 
         # Potential for the decision taker.
         from_potential = {
             # The decision taker has to be able to be in a league.
-            can_be_in_league_trigger = yes
+            DK_can_be_in_league_trigger = yes
+
+            # The decision taker has to not be a tributary.
+            is_tributary = no
         }
 
         # Potential for the decision target.
         potential = {
             # Either the target can be the leader or this character can be the leader and the target can be a league member.
             OR = {
-                can_be_league_leader_trigger = yes
+                DK_can_be_league_leader_trigger = yes
                 AND = {
-                    FROM = { can_be_league_leader_trigger = yes }
-                    can_be_league_member_trigger = yes
+                    FROM = { DK_can_be_league_leader_trigger = yes }
+                    DK_can_be_league_member_trigger = yes
+                }
+            }
+        }
+
+        allow = {
+            NOR = {
+                custom_tooltip = {
+                    text = DK_CHARACTER_ALREADY_IN_LEAGUE
+                    hidden_tooltip = { DK_is_in_league_trigger = yes }
+                }
+                custom_tooltip = {
+                    text = DK_CHARACTER_IS_TRIBUTARY
+                    hidden_tooltip = {
+                        is_tributary = yes
+                    }
                 }
             }
         }
 
         effect = {
             if = {
-                limit = { FROM = { can_be_league_leader_trigger = yes } }
-                character_event = { id = DK_league.1 tooltip = FORM_LEAGUE_AS_LEADER }
+                limit = { FROM = { DK_can_be_league_leader_trigger = yes } }
+                character_event = { id = DK_league.1 tooltip = DK_FORM_LEAGUE_AS_LEADER }
             } else = {
-               custom_tooltip = { text = FORM_LEAGUE_AS_MEMBER }
+                character_event = { id = DK_league.4 tooltip = DK_FORM_LEAGUE_AS_MEMBER }
+            }
+        }
+        
+        revoke_allowed = {
+            always = no #Not used in vanilla
+        }
+
+        ai_will_do = {
+            #Factors for an AI character to take the decision (1 = 100% chance every month - for each allowed target!)
+            factor = 1
+        }
+
+        ai_acceptance = {
+            factor = 10
+        }
+    }
+    dk_invite_to_league = {
+        filter = independent_rulers
+
+        # Potential for the decision taker.
+        from_potential = {
+            DK_is_league_leader_trigger = yes
+        }
+
+        # Potential for the decision target.
+        potential = {
+            DK_can_be_league_member_trigger = yes
+        }
+
+        allow = {
+            NOR = {
+                custom_tooltip = {
+                    text = DK_CHARACTER_ALREADY_IN_LEAGUE
+                    hidden_tooltip = { DK_is_in_league_trigger = yes }
+                }
+                custom_tooltip = {
+                    text = DK_CHARACTER_IS_TRIBUTARY
+                    hidden_tooltip = {
+                        is_tributary = yes
+                    }
+                }
+            }
+        }
+
+        effect = {
+            if = {
+                limit = { FROM = { DK_can_be_league_leader_trigger = yes } }
+                character_event = { id = DK_league.1 tooltip = DK_FORM_LEAGUE_AS_LEADER }
+            } else = {
+                character_event = { id = DK_league.4 tooltip = DK_FORM_LEAGUE_AS_MEMBER }
             }
         }
         

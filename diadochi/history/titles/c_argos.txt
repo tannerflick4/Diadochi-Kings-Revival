@@ -2,15 +2,24 @@
 	holder = 23501
 }
 438.8.2 = { # 338 BC, Battle of Chaeronea
-	liege = e_macedonia
+	set_tribute_suzerain = {
+		who = e_macedonia
+		type = league
+	}
 }
 453.6.10 = { # 323 BC
-	liege = k_s_macedon
+	clear_tribute_suzerain = e_macedonia
+	set_tribute_suzerain = {
+		who = k_s_macedon
+		type = league
+	}
 }
-459.8.1 = { # 317 BC
+457.1.1 = { # 319 BC
+	holder = 2 # Kassandros
 	liege = k_macedon
 }
 461.8.1 = { # 315 BC
+	holder = 23501
 	liege = d_peloponnese
 }
 473.5.1 = { # 303 BC

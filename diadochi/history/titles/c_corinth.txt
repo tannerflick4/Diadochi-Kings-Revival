@@ -2,19 +2,33 @@
 	holder = 23401
 }
 438.8.2 = { # 338 BC, Battle of Chaeronea
-	liege = e_macedonia
+	set_tribute_suzerain = {
+		who = e_macedonia
+		type = league
+	}
 }
 446.1.1 = { # 330 BC
 	holder = 23402
 }
 453.6.10 = { # 323 BC
-	liege = k_s_macedon
+	clear_tribute_suzerain = e_macedonia
+	set_tribute_suzerain = {
+		who = k_s_macedon
+		type = league
+	}
 }
-455.1.1 = { # 321 BC
-	holder = 23403
+455.1.1 = { # 321 BC, garrison installed at the end of the Lamian war.
+	holder = 1 # Antipater
+	liege = k_s_macedon
+	clear_tribute_suzerain = k_s_macedon
+}
+457.1.1 = { # 319 BC
+	holder = 2 # Kassandros
+	liege = k_macedon
 }
 461.1.1 = { # 315 BC
 	holder = 1602 # Alexandros, son of Polyperchon
+	liege = k_s_macedon
 }
 461.8.1 = { # 315 BC
 	liege = d_peloponnese

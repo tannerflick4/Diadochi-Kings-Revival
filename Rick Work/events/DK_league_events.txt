@@ -14,17 +14,25 @@ character_event = {
 
     option = {
         name = DK_EVTOPTA_LEAGUE_1
-        #custom_tooltip = FORM_LEAGUE_AS_MEMBER
-        FROMFROM = {
-            make_tributary = {
-                who = ROOT
-                tributary_type = league
+        # TODO: AI choices.
+
+        custom_tooltip = {
+            text = DK_FORM_LEAGUE_AS_MEMBER
+            hidden_tooltip = {
+                FROMFROM = {
+                    make_tributary = {
+                        who = ROOT
+                        tributary_type = league
+                    }
+                    character_event = { id = DK_league.2 days = 1 }
+                }
             }
-            character_event = { id = DK_league.2 days = 1 }
         }
     }
     option = {
         name = DK_EVTOPTB_LEAGUE_1
+        # TODO: AI choices.
+
         FROMFROM = {
             character_event = {
                 id = DK_league.3
@@ -39,7 +47,7 @@ character_event = {
     desc = DK_EVTDESC_LEAGUE_2
     picture = GFX_evt_battle # TODO: Use good picture
 
-    is_triggered_only = yes # Called from DK_league.1 decision.
+    is_triggered_only = yes # Called from DK_league.1 event.
 
     option = {
         name = DK_EVTOPTA_LEAGUE_2
@@ -52,9 +60,74 @@ character_event = {
     desc = DK_EVTDESC_LEAGUE_3
     picture = GFX_evt_battle # TODO: Use good picture
 
-    is_triggered_only = yes # Called from DK_league.1 decision.
+    is_triggered_only = yes # Called from DK_league.1 event.
 
     option = {
         name = DK_EVTOPTA_LEAGUE_3
     }
 }
+
+# FROMFROM proposes to form a league with ROOT as the leader.
+character_event = {
+    id = DK_league.4
+    desc = DK_EVTDESC_LEAGUE_4
+    picture = GFX_evt_battle # TODO: Use good picture
+
+    is_triggered_only = yes # Called from form_league decision.
+
+    option = {
+        name = DK_EVTOPTA_LEAGUE_4
+        # TODO: AI choices.
+
+        custom_tooltip = {
+            text = DK_FORM_LEAGUE_AS_LEADER
+            hidden_tooltip = {
+                make_tributary = {
+                    who = FROMFROM
+                    tributary_type = league
+                }
+                FROMFROM = { 
+                    character_event = { id = DK_league.5 }
+                }
+            }
+        }
+    }
+    option = {
+        name = DK_EVTOPTB_LEAGUE_4
+        # TODO: AI choices.
+
+        FROMFROM = {
+            character_event = { id = DK_league.6 }
+        }
+    }
+}
+
+# ROOT accepts proposal
+character_event = {
+    id = DK_league.5
+    desc = DK_EVTDESC_LEAGUE_5
+    picture = GFX_evt_battle # TODO: Use good picture
+
+    is_triggered_only = yes # Called from DK_league.4 event.
+
+    option = {
+        name = DK_EVTOPTA_LEAGUE_5
+    }
+}
+
+# ROOT rejects proposal
+character_event = {
+    id = DK_league.6
+    desc = DK_EVTDESC_LEAGUE_6
+    picture = GFX_evt_battle # TODO: Use good picture
+
+    is_triggered_only = yes # Called from DK_league.4 event.
+
+    option = {
+        name = DK_EVTOPTA_LEAGUE_6
+    }
+}
+
+#####################
+# LEAGUE INVITATION #
+#####################

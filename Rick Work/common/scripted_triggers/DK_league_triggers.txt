@@ -3,21 +3,39 @@
 ####################################################
 
 # Should be called from character scope
-can_be_in_league_trigger = {
+DK_can_be_in_league_trigger = {
     independent = yes
     culture_group = hellenic
 }
 
 # Should be called from character scope
-can_be_league_leader_trigger = {
-    can_be_in_league_trigger = yes
+DK_can_be_league_leader_trigger = {
+    DK_can_be_in_league_trigger = yes
     tier = DUKE
     NOT = { tier = KING }
 }
 
 # Should be called from character scope
-can_be_league_member_trigger = {
-    can_be_in_league_trigger = yes
+DK_can_be_league_member_trigger = {
+    DK_can_be_in_league_trigger = yes
     tier = COUNT
     NOT = { tier = KING }
+}
+
+# Should be called from character scope
+DK_is_league_member_trigger = {
+    is_tributary = { type = league }
+}
+
+# Should be called from character scope
+DK_is_league_leader_trigger = {
+    any_tributary = { DK_is_league_member_trigger = yes }
+}
+
+# Should be called from character scope
+DK_is_in_league_trigger = {
+    OR = {
+        DK_is_league_leader_trigger = yes
+        DK_is_league_member_trigger = yes
+    }
 }
