@@ -489,6 +489,9 @@ technology = {
 		d_celtiberia
 		d_carpetania
 		d_oretania
+		d_tagus
+		d_hiberus
+		d_jovis
 		#Iberia
 		d_sicoria
 		d_cessetania
@@ -502,6 +505,7 @@ technology = {
 		d_turdulia
 		d_turdetania
 		d_bastulia
+		d_certis
 	}
 	417 = {
 		military = 1

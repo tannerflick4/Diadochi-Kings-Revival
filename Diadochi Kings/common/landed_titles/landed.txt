@@ -6222,6 +6222,8 @@ k_magna_graecia = {
 			color= { 75 200 200 }
 			color2= { 255 255 255 }
 			
+			b_larinum_larinum = {
+			}
 			b_cliternia_larinum = {
 			}
 			b_gereonium_larinum = {

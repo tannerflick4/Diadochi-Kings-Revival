@@ -3,6 +3,9 @@
 }
 426.1.1 = { # 350 BC, Greeks take over
 	liege = k_r_massalia
+    holder = 56002 # Euphemios of the Antipolitoi
+}
+443.1.1 = { # 333 BC
     holder = 56003 # Dareios of the Antipolitoi
 }
 444.1.1 = { # 332 BC
