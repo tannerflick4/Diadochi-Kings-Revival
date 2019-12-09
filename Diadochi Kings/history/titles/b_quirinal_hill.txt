@@ -1,13 +1,13 @@
 #Echoes Family - Fabii
 348.1.1 = {
-	holder = 172301
+	holder = 170301
 }
 432.1.1 = {
-	holder = 172102
+	holder = 170302
 }
 452.1.1 = {
-	holder = 172104
+	holder = 170304
 }
 482.1.1 = {
-	holder = 172105
+	holder = 170305
 }

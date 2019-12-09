@@ -6,22 +6,22 @@
 	holder = 172201 # Marcus Popillius Laenas
 }
 418.1.1 = { # 358 BC
-	holder = 170304 # Gaius Fabius Ambustus
+	holder = 170303 # Marcus Fabius Ambustus
 }
 419.1.1 = { # 357 BC
-	holder = 171202 # Gaius Marcius Rutilus
+	holder = 171201 # Gaius Marcius Rutilus
 }
 420.1.1 = { # 356 BC
 	holder = 170303 # Marcus Fabius Ambustus
 }
 421.1.1 = { # 355 BC
-	holder = 170003 # Gaius Sulpicius Peticus
+	holder = 170001 # Gaius Sulpicius Peticus
 }
 422.1.1 = { # 354 BC
 	holder = 170303 # Marcus Fabius Ambustus
 }
 423.1.1 = { # 353 BC
-	holder = 170003 # Gaius Sulpicius Peticus
+	holder = 170001 # Gaius Sulpicius Peticus
 }
 424.1.1 = { # 352 BC
 	holder = 171202 # Gaius Marcius Rutilus
