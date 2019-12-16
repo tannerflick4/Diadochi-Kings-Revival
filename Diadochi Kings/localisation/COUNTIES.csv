@@ -2188,11 +2188,11 @@ c_narbo_martius_adj;Narbonnian;;;;;;;;;;;;;;x
 PROV1160;Baeterrae;;;;;;;;;;;;;;x
 c_baeterrae_adj;Baeterrian;;;;;;;;;;;;;;x
 PROV1161;Lattara;;;;;;;;;;;;;;x
-c_lattara_adj;Lattaran;x
+c_lattara_adj;Lattaran;;;;;;;;;;;;;;x
 PROV1162;Nemausus;;;;;;;;;;;;;;x
 c_nemausus_adj;Nemausian;;;;;;;;;;;;;;x
 PROV1163;Pergantion;;;;;;;;;;;;;;x
-c_pergantion_adj;Pergantian;x
+c_pergantion_adj;Pergantian;;;;;;;;;;;;;;x
 PROV1164;Griselica;;;;;;;;;;;;;;x
 c_griselica_adj;Griselican;;;;;;;;;;;;;;x
 PROV1165;Noiomagos;;;;;;;;;;;;;;x
