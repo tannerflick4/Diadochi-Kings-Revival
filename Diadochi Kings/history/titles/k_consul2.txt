@@ -46,7 +46,7 @@
 	holder = 170901 # Marcus Valerius Corvus
 }
 431.1.1 = { # 345 BC
-	holder = 170004 # Servius Sulpicius Camerinus Rufus
+	holder = 170001 # Servius Sulpicius Camerinus Rufus
 }
 432.1.1 = { # 344 BC
 	holder = 171202 # Gaius Marcius Rutilus
@@ -64,13 +64,13 @@
 	holder = 172301 # Titus Manlius Torquatus
 }
 437.1.1 = { # 339 BC
-	holder = 172103 # Tiberius Aemilius Mamercinus
+	holder = 172101 # Tiberius Aemilius Mamercinus
 }
 438.1.1 = { # 338 BC
 	holder = 172401 # Gaius Maenius
 }
 439.1.1 = { # 337 BC
-	holder = 170001 # Gaius Sulpicius Longus
+	holder = 170002 # Gaius Sulpicius Longus
 }
 440.1.1 = { # 336 BC
 	holder = 170102 # Lucius Papirius Crassus
@@ -85,7 +85,7 @@
 	holder = 171505 # Publius Cornelius Rufinus
 }
 444.1.1 = { # 332 BC
-	holder = 172501 # Gnaeus Domitius Calvinus
+	holder = 172508 # Gnaeus Domitius Calvinus
 }
 445.1.1 = { # 331 BC
 	holder = 170903 # Gaius Valerius Potitius
@@ -109,19 +109,19 @@
 	holder = 170201 # Lucius Furius Camillus
 }
 452.1.1 = { # 324 BC
-	holder = 170101 # Lucius Papirius Cursor
+	holder = 170102 # Lucius Papirius Cursor
 }
 453.1.1 = { # 323 BC
-	holder = 170001 # Gaius Sulpicius Longus
+	holder = 170002 # Gaius Sulpicius Longus
 }
 454.1.1 = { # 322 BC
-	holder = 170301 # Quintus Fabius Maximus Rullianus
+	holder = 170304 # Quintus Fabius Maximus Rullianus
 }
 455.1.1 = { # 321 BC
 	holder = 170501 # Titus Veturius Calvinus
 }
 456.1.1 = { # 320 BC
-	holder = 170101 # Lucius Papirius Cursor
+	holder = 170102 # Lucius Papirius Cursor
 }
 458.1.1 = { # 318 BC
 	holder = 170601 # Marcus Folius Flaccinator
@@ -133,16 +133,16 @@
 	holder = 170801 # Spurius Nautius Rutilus
 }
 461.1.1 = { # 315 BC
-	holder = 170101 # Lucius Papirius Cursor
+	holder = 170102 # Lucius Papirius Cursor
 }
 462.1.1 = { # 314 BC
 	holder = 170402 # Marcus Poetelius Libo
 }
 463.1.1 = { # 313 BC
-	holder = 170101 # Lucius Papirius Cursor
+	holder = 170102 # Lucius Papirius Cursor
 }
 464.1.1 = { # 312 BC
-	holder = 170901 # Marcus Valerius Maximus Corvus
+	holder = 170902 # Marcus Valerius Maximus Corvus
 }
 465.1.1 = { # 311 BC
 	holder = 170701 # Gaius Iunius Bubulcus Brutus

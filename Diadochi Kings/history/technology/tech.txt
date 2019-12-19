@@ -494,8 +494,6 @@ technology = {
 		d_jovis
 		#Iberia
 		d_sicoria
-		d_cessetania
-		d_laetania
 		d_edetania
 		d_contestania
 		d_bastetania
