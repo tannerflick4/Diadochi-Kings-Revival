@@ -1979,7 +1979,7 @@ PROV1018;Kara Bogaz Gol;;;;;;;;;;;;;;x
 PROV1019;;;;;;;;;;;;;;;x
 PROV1020;Aral Sea;;;;;;;;;;;;;;x
 PROV1021;Oxeiane Limne;;;;;;;;;;;;;;x
-PROV1022;;;;;;;;;;;;;;;x
+PROV1022;Lacus Lemannus;;;;;;;;;;;;;;x
 PROV1023;Propontis;;;;;;;;;;;;;;x
 PROV1024;Pontos Euxeinos Dysmikos;;;;;;;;;;;;;;x
 PROV1025;Thalassa Tyrantos;;;;;;;;;;;;;;x
@@ -2433,3 +2433,14 @@ PROV1289;Asciburgium;;;;;;;;;;;;;;x
 c_asciburgium_adj;Asciburgian;;;;;;;;;;;;;;x
 PROV1290;Novaesium;;;;;;;;;;;;;;x
 c_novaesium_adj;Novaesian;;;;;;;;;;;;;;x
+PROV1500;Lacus Pelso;;;;;;;;;;;;;;x
+PROV1501;Stagnum Mastromela;;;;;;;;;;;;;;x
+PROV1502;Lacus Eburodunensis;;;;;;;;;;;;;;x
+PROV1503;Lacus Benacus;;;;;;;;;;;;;;x
+PROV1504;Lacus Trasumennus;;;;;;;;;;;;;;x
+PROV1505;Lacus Volsinii;;;;;;;;;;;;;;x
+PROV1506;Lacus Sabatinus;;;;;;;;;;;;;;x
+PROV1507;Maiotes Limne;;;;;;;;;;;;;;x
+PROV1508;Podouke;;;;;;;;;;;;;;x
+PROV1509;Paloura;;;;;;;;;;;;;;x
+PROV1510;Lacus Raetiae;;;;;;;;;;;;;;x

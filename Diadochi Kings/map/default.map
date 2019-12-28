@@ -21,9 +21,10 @@ sea_zones = { 1023 1051 }
 sea_zones = { 1068 1070 }
 sea_zones = { 1071 1091 }
 sea_zones = { 1052 1067 }
+sea_zones = { 1500 1510 }
 
 ocean_region = {
-	sea_zones = { 1 2 3 4 5 }
+	sea_zones = { 1 2 3 4 5 7 }
 }
 ocean_region = {
 	sea_zones = { 6 }
