@@ -4,9 +4,14 @@ SUZERAIN_LEAGUE_NAME;League Leader;;;;;;;;;;;;;;x
 TRIBUTARY_LEAGUE_TRIBUTE;League Dues;;;;;;;;;;;;;;x
 dk_form_league;Form League;;;;;;;;;;;;;;x
 dk_form_league_desc;Propose to form a league with §Y[Root.PrimaryTitle.GetName]§!. Historically, small greek polities united in league to work together on a military, economic, diplomatic and religious level while preserving the autonomy of the city state.\n\nIn game this translates into a tributary state that does not have to provide any gold but is obliged to provide its army to the leader. In exchange the leader pledges to defend each member.;;;;;;;;;;;;;;x
+dk_invite_to_league;Invite to league;;;;;;;;;;;;;;x
+dk_invite_to_league_desc;Invite §Y[Root.PrimaryTitle.GetName]§! to join your league.;;;;;;;;;;;;;;x
+dk_join_league;Join league;;;;;;;;;;;;;;x
+dk_join_league_desc;Ask to join the league of §Y[Root.PrimaryTitle.GetName]§!.;;;;;;;;;;;;;;x
 DK_FORM_LEAGUE_AS_LEADER;§G[Root.PrimaryTitle.GetName] will become a member in your league§!;;;;;;;;;;;;;;x
 DK_FORM_LEAGUE_AS_MEMBER;§FYou will become a member in the league of [Root.PrimaryTitle.GetName]§!;;;;;;;;;;;;;;x
 DK_INVITE_MEMBER_TO_LEAGUE;§G[Root.PrimaryTitle.GetName] will be invited to your league§!;;;;;;;;;;;;;;x
+DK_JOIN_LEAGUE_PROPOSAL;§G[Root.PrimaryTitle.GetName] will consider your proposal to join their league§!;;;;;;;;;;;;;;x
 DK_CHARACTER_ALREADY_IN_LEAGUE;§Y[Root.GetTitledName]§! is already in a league.;;;;;;;;;;;;;;x
 DK_CHARACTER_IS_TRIBUTARY;§Y[Root.GetTitledName]§! is a tributary.;;;;;;;;;;;;;;x
 DK_EVTDESC_LEAGUE_1;[FromFrom.GetTitledFirstName] to [Root.GetFirstName], greetings.\n\nWe would like to propose to form a league between our two states to protect ourselves against large and tyrannical empires. As the stronger state, my state will become the leader of the league. What do you think about this offer?;;;;;;;;;;;;;;x
@@ -23,3 +28,17 @@ DK_EVTDESC_LEAGUE_5;[From.GetTitledFirstName] to [Root.GetFirstName], greetings.
 DK_EVTOPTA_LEAGUE_5;We are safe!;;;;;;;;;;;;;;x
 DK_EVTDESC_LEAGUE_6;[From.GetTitledFirstName] to [Root.GetFirstName], greetings.\n\nWe refuse your proposal to form a league with us. You are not worth our help.;;;;;;;;;;;;;;x
 DK_EVTOPTA_LEAGUE_6;I never cared about you anyway.;;;;;;;;;;;;;;x
+DK_EVTDESC_LEAGUE_7;[FromFrom.GetTitledFirstName] to [Root.GetFirstName], greetings.\n\nWe would like to invite [Root.PrimaryTitle.GetName] to our league. The strength of [Root.PrimaryTitle.GetName] is known across the region and we believe you would be a great addition to our league. What do you say about this?;;;;;;;;;;;;;;x
+DK_EVTOPTA_LEAGUE_7;I agree.;;;;;;;;;;;;;;x
+DK_EVTOPTB_LEAGUE_7;This 'league' is a collection of weaklings.;;;;;;;;;;;;;;x
+DK_EVTDESC_LEAGUE_8;[From.GetTitledFirstName] to [Root.GetFirstName], greetings.\n\nI accept your offer of joining your league. Together we will stand united.;;;;;;;;;;;;;;x
+DK_EVTOPTA_LEAGUE_8;Yes!;;;;;;;;;;;;;;x
+DK_EVTDESC_LEAGUE_9;[From.GetTitledFirstName] to [Root.GetFirstName], greetings.\n\nI would earlier throw myself into the sea than join your league. I will enjoy seeing it fall.;;;;;;;;;;;;;;x
+DK_EVTOPTA_LEAGUE_9;I hate that [From.GetManWoman]!.;;;;;;;;;;;;;;x
+DK_EVTDESC_LEAGUE_10;[FromFrom.GetTitledFirstName] to [Root.GetFirstName], greetings.\n\nFor the security of [FromFrom.PrimaryTitle.GetName] I would like to join your league. Are we allowed to join?;;;;;;;;;;;;;;x
+DK_EVTOPTA_LEAGUE_10;The league grows!;;;;;;;;;;;;;;x
+DK_EVTOPTB_LEAGUE_10;They are too weak.;;;;;;;;;;;;;;x
+DK_EVTDESC_LEAGUE_11;[From.GetTitledFirstName] to [Root.GetFirstName], greetings.\n\nWe accept your proposal of joining the league. Together we are stronger.;;;;;;;;;;;;;;x
+DK_EVTOPTA_LEAGUE_11;Good.;;;;;;;;;;;;;;x
+DK_EVTDESC_LEAGUE_12;[From.GetTitledFirstName] to [Root.GetFirstName], greetings.\n\nWe decline your proposal of joining the league. We believe it is not in our best political interests to allow you inside of our great league.;;;;;;;;;;;;;;x
+DK_EVTOPTA_LEAGUE_12;Blame [Root.Religion.GetRandomEvilGodName]!;;;;;;;;;;;;;;x

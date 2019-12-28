@@ -10,7 +10,7 @@ character_event = {
     desc = DK_EVTDESC_LEAGUE_1
     picture = GFX_evt_battle # TODO: Use good picture
 
-    is_triggered_only = yes # Called from form_league decision.
+    is_triggered_only = yes # Called from dk_form_league decision.
 
     option = {
         name = DK_EVTOPTA_LEAGUE_1
@@ -73,7 +73,7 @@ character_event = {
     desc = DK_EVTDESC_LEAGUE_4
     picture = GFX_evt_battle # TODO: Use good picture
 
-    is_triggered_only = yes # Called from form_league decision.
+    is_triggered_only = yes # Called from dk_form_league decision.
 
     option = {
         name = DK_EVTOPTA_LEAGUE_4
@@ -131,3 +131,129 @@ character_event = {
 #####################
 # LEAGUE INVITATION #
 #####################
+
+# FROMFROM invites ROOT to their league.
+character_event = {
+    id = DK_league.7
+    desc = DK_EVTDESC_LEAGUE_7
+    picture = GFX_evt_battle # TODO: Use good picture
+
+    is_triggered_only = yes # Called from dk_invite_to_league decision.
+
+    option = {
+        name = DK_EVTOPTA_LEAGUE_7
+        # TODO: AI choices.
+
+        custom_tooltip = {
+            text = DK_FORM_LEAGUE_AS_MEMBER
+            hidden_tooltip = {
+                FROMFROM = {
+                    make_tributary = {
+                        who = ROOT
+                        tributary_type = league
+                    }
+                    character_event = { id = DK_league.8 }
+                }
+            }
+        }
+    }
+    option = {
+        name = DK_EVTOPTB_LEAGUE_7
+        # TODO: AI choices.
+
+        FROMFROM = {
+            character_event = { id = DK_league.9 }
+        }
+    }
+}
+
+# ROOT accepts invitation
+character_event = {
+    id = DK_league.8
+    desc = DK_EVTDESC_LEAGUE_8
+    picture = GFX_evt_battle # TODO: Use good picture
+
+    is_triggered_only = yes # Called from DK_league.7 event.
+
+    option = {
+        name = DK_EVTOPTA_LEAGUE_8
+    }
+}
+
+# ROOT rejects invitation
+character_event = {
+    id = DK_league.9
+    desc = DK_EVTDESC_LEAGUE_9
+    picture = GFX_evt_battle # TODO: Use good picture
+
+    is_triggered_only = yes # Called from DK_league.7 event.
+
+    option = {
+        name = DK_EVTOPTA_LEAGUE_9
+    }
+}
+
+########################
+# LEAGUE JOIN PROPOSAL #
+########################
+
+# FROMFROM proposes to ROOT to join ROOTs league.
+character_event = {
+    id = DK_league.10
+    desc = DK_EVTDESC_LEAGUE_10
+    picture = GFX_evt_battle # TODO: Use good picture
+
+    is_triggered_only = yes # Called from dk_invite_to_league decision.
+
+    option = {
+        name = DK_EVTOPTA_LEAGUE_10
+        # TODO: AI choices.
+
+        custom_tooltip = {
+            text = DK_FORM_LEAGUE_AS_LEADER
+            hidden_tooltip = {
+                make_tributary = {
+                    who = FROMFROM
+                    tributary_type = league
+                }
+                FROMFROM = {
+                    character_event = { id = DK_league.11 }
+                }
+            }
+        }
+    }
+    option = {
+        name = DK_EVTOPTB_LEAGUE_10
+        # TODO: AI choices.
+
+        FROMFROM = {
+            character_event = { id = DK_league.12 }
+        }
+    }
+}
+
+# ROOT accepts invitation
+character_event = {
+    id = DK_league.11
+    desc = DK_EVTDESC_LEAGUE_11
+    picture = GFX_evt_battle # TODO: Use good picture
+
+    is_triggered_only = yes # Called from DK_league.7 event.
+
+    option = {
+        name = DK_EVTOPTA_LEAGUE_11
+    }
+}
+
+# ROOT rejects invitation
+character_event = {
+    id = DK_league.12
+    desc = DK_EVTDESC_LEAGUE_12
+    picture = GFX_evt_battle # TODO: Use good picture
+
+    is_triggered_only = yes # Called from DK_league.7 event.
+
+    option = {
+        name = DK_EVTOPTA_LEAGUE_12
+    }
+}

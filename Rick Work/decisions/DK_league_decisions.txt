@@ -8,8 +8,9 @@ targeted_decisions = {
             # The decision taker has to be able to be in a league.
             DK_can_be_in_league_trigger = yes
 
-            # The decision taker has to not be a tributary.
+            # The decision taker has to not be a tributary or the leader of a league.
             is_tributary = no
+            DK_is_league_leader_trigger = no
         }
 
         # Potential for the decision target.
@@ -90,12 +91,41 @@ targeted_decisions = {
         }
 
         effect = {
-            if = {
-                limit = { FROM = { DK_can_be_league_leader_trigger = yes } }
-                character_event = { id = DK_league.1 tooltip = DK_FORM_LEAGUE_AS_LEADER }
-            } else = {
-                character_event = { id = DK_league.4 tooltip = DK_FORM_LEAGUE_AS_MEMBER }
-            }
+            character_event = { id = DK_league.7 tooltip = DK_INVITE_MEMBER_TO_LEAGUE }
+        }
+        
+        revoke_allowed = {
+            always = no #Not used in vanilla
+        }
+
+        ai_will_do = {
+            #Factors for an AI character to take the decision (1 = 100% chance every month - for each allowed target!)
+            factor = 1
+        }
+
+        ai_acceptance = {
+            factor = 10
+        }
+    }
+    dk_join_league = {
+        filter = independent_rulers
+
+        # Potential for the decision taker.
+        from_potential = {
+            # The decision taker has to be able to be in a league.
+            DK_can_be_in_league_trigger = yes
+
+            # The decision taker has to not be a tributary.
+            is_tributary = no
+        }
+
+        # Potential for the decision target.
+        potential = {
+            DK_is_league_leader_trigger = yes
+        }
+
+        effect = {
+            character_event = { id = DK_league.10 tooltip = DK_JOIN_LEAGUE_PROPOSAL }
         }
         
         revoke_allowed = {
