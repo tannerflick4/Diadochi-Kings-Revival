@@ -5,7 +5,7 @@ namespace = DK_league
 ####################
 
 # FROMFROM proposes to form a league with FROMFROM as the leader.
-character_event = {
+letter_event = {
     id = DK_league.1
     desc = DK_EVTDESC_LEAGUE_1
     picture = GFX_evt_battle # TODO: Use good picture
@@ -24,7 +24,7 @@ character_event = {
                         who = ROOT
                         tributary_type = league
                     }
-                    character_event = { id = DK_league.2 days = 1 }
+                    letter_event = { id = DK_league.2 days = 1 }
                 }
             }
         }
@@ -34,15 +34,13 @@ character_event = {
         # TODO: AI choices.
 
         FROMFROM = {
-            character_event = {
-                id = DK_league.3
-            }
+            letter_event = { id = DK_league.3 }
         }
     }
 }
 
 # ROOT accepts proposal
-character_event = {
+letter_event = {
     id = DK_league.2
     desc = DK_EVTDESC_LEAGUE_2
     picture = GFX_evt_battle # TODO: Use good picture
@@ -55,7 +53,7 @@ character_event = {
 }
 
 # ROOT rejects proposal
-character_event = {
+letter_event = {
     id = DK_league.3
     desc = DK_EVTDESC_LEAGUE_3
     picture = GFX_evt_battle # TODO: Use good picture
@@ -68,7 +66,7 @@ character_event = {
 }
 
 # FROMFROM proposes to form a league with ROOT as the leader.
-character_event = {
+letter_event = {
     id = DK_league.4
     desc = DK_EVTDESC_LEAGUE_4
     picture = GFX_evt_battle # TODO: Use good picture
@@ -87,7 +85,7 @@ character_event = {
                     tributary_type = league
                 }
                 FROMFROM = { 
-                    character_event = { id = DK_league.5 }
+                    letter_event = { id = DK_league.5 }
                 }
             }
         }
@@ -97,13 +95,13 @@ character_event = {
         # TODO: AI choices.
 
         FROMFROM = {
-            character_event = { id = DK_league.6 }
+            letter_event = { id = DK_league.6 }
         }
     }
 }
 
 # ROOT accepts proposal
-character_event = {
+letter_event = {
     id = DK_league.5
     desc = DK_EVTDESC_LEAGUE_5
     picture = GFX_evt_battle # TODO: Use good picture
@@ -116,7 +114,7 @@ character_event = {
 }
 
 # ROOT rejects proposal
-character_event = {
+letter_event = {
     id = DK_league.6
     desc = DK_EVTDESC_LEAGUE_6
     picture = GFX_evt_battle # TODO: Use good picture
@@ -133,7 +131,7 @@ character_event = {
 #####################
 
 # FROMFROM invites ROOT to their league.
-character_event = {
+letter_event = {
     id = DK_league.7
     desc = DK_EVTDESC_LEAGUE_7
     picture = GFX_evt_battle # TODO: Use good picture
@@ -152,7 +150,7 @@ character_event = {
                         who = ROOT
                         tributary_type = league
                     }
-                    character_event = { id = DK_league.8 }
+                    letter_event = { id = DK_league.8 }
                 }
             }
         }
@@ -162,13 +160,13 @@ character_event = {
         # TODO: AI choices.
 
         FROMFROM = {
-            character_event = { id = DK_league.9 }
+            letter_event = { id = DK_league.9 }
         }
     }
 }
 
 # ROOT accepts invitation
-character_event = {
+letter_event = {
     id = DK_league.8
     desc = DK_EVTDESC_LEAGUE_8
     picture = GFX_evt_battle # TODO: Use good picture
@@ -181,7 +179,7 @@ character_event = {
 }
 
 # ROOT rejects invitation
-character_event = {
+letter_event = {
     id = DK_league.9
     desc = DK_EVTDESC_LEAGUE_9
     picture = GFX_evt_battle # TODO: Use good picture
@@ -198,7 +196,7 @@ character_event = {
 ########################
 
 # FROMFROM proposes to ROOT to join ROOTs league.
-character_event = {
+letter_event = {
     id = DK_league.10
     desc = DK_EVTDESC_LEAGUE_10
     picture = GFX_evt_battle # TODO: Use good picture
@@ -217,7 +215,7 @@ character_event = {
                     tributary_type = league
                 }
                 FROMFROM = {
-                    character_event = { id = DK_league.11 }
+                    letter_event = { id = DK_league.11 }
                 }
             }
         }
@@ -227,13 +225,13 @@ character_event = {
         # TODO: AI choices.
 
         FROMFROM = {
-            character_event = { id = DK_league.12 }
+            letter_event = { id = DK_league.12 }
         }
     }
 }
 
 # ROOT accepts invitation
-character_event = {
+letter_event = {
     id = DK_league.11
     desc = DK_EVTDESC_LEAGUE_11
     picture = GFX_evt_battle # TODO: Use good picture
@@ -246,7 +244,7 @@ character_event = {
 }
 
 # ROOT rejects invitation
-character_event = {
+letter_event = {
     id = DK_league.12
     desc = DK_EVTDESC_LEAGUE_12
     picture = GFX_evt_battle # TODO: Use good picture
@@ -255,5 +253,56 @@ character_event = {
 
     option = {
         name = DK_EVTOPTA_LEAGUE_12
+    }
+}
+
+######################
+# LEAGUE DISBANDMENT #
+######################
+
+# FROM announces the disbanding of the league to ROOT
+letter_event = {
+    id = DK_league.13
+    desc = DK_EVTDESC_LEAGUE_13
+    picture = GFX_evt_battle # TODO: Use good picture
+
+    is_triggered_only = yes # Called from dk_disband_league.
+
+    option = {
+        name = DK_EVTOPTA_LEAGUE_13
+    }
+}
+
+#########################
+# MEMBER LEAVING LEAGUE #
+#########################
+
+# FROM announces they are leaving the league to ROOT
+letter_event = {
+    id = DK_league.14
+    desc = DK_EVTDESC_LEAGUE_14
+    picture = GFX_evt_battle # TODO: Use good picture
+
+    is_triggered_only = yes # Called from dk_leave_league.
+
+    option = {
+        name = DK_EVTOPTA_LEAGUE_14
+    }
+}
+
+##############################
+# MEMBER REMOVED FROM LEAGUE #
+##############################
+
+# FROM announces they are removing ROOT from the league.
+letter_event = {
+    id = DK_league.15
+    desc = DK_EVTDESC_LEAGUE_15
+    picture = GFX_evt_battle # TODO: Use good picture
+
+    is_triggered_only = yes # Called from dk_remove_member_from_league.
+
+    option = {
+        name = DK_EVTOPTA_LEAGUE_15
     }
 }

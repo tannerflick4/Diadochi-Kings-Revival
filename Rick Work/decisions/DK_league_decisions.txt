@@ -43,9 +43,9 @@ targeted_decisions = {
         effect = {
             if = {
                 limit = { FROM = { DK_can_be_league_leader_trigger = yes } }
-                character_event = { id = DK_league.1 tooltip = DK_FORM_LEAGUE_AS_LEADER }
+                letter_event = { id = DK_league.1 tooltip = DK_FORM_LEAGUE_AS_LEADER }
             } else = {
-                character_event = { id = DK_league.4 tooltip = DK_FORM_LEAGUE_AS_MEMBER }
+                letter_event = { id = DK_league.4 tooltip = DK_FORM_LEAGUE_AS_MEMBER }
             }
         }
         
@@ -91,7 +91,7 @@ targeted_decisions = {
         }
 
         effect = {
-            character_event = { id = DK_league.7 tooltip = DK_INVITE_MEMBER_TO_LEAGUE }
+            letter_event = { id = DK_league.7 tooltip = DK_INVITE_MEMBER_TO_LEAGUE }
         }
         
         revoke_allowed = {
@@ -125,7 +125,116 @@ targeted_decisions = {
         }
 
         effect = {
-            character_event = { id = DK_league.10 tooltip = DK_JOIN_LEAGUE_PROPOSAL }
+            letter_event = { id = DK_league.10 tooltip = DK_JOIN_LEAGUE_PROPOSAL }
+        }
+        
+        revoke_allowed = {
+            always = no #Not used in vanilla
+        }
+
+        ai_will_do = {
+            #Factors for an AI character to take the decision (1 = 100% chance every month - for each allowed target!)
+            factor = 1
+        }
+
+        ai_acceptance = {
+            factor = 10
+        }
+    }
+    dk_disband_league = {
+        filter = self
+
+        # Potential for the decision taker.
+        potential = {
+            DK_is_league_leader_trigger = yes
+        }
+
+        effect = {
+            custom_tooltip = {
+                text = DK_TOOLTIP_DISBAND_LEAGUE_ANNOUNCEMENT
+                hidden_tooltip = {
+                    any_tributary = {
+                        limit = { DK_is_league_member_trigger = yes }
+                        suzerain = {
+                            remove_tributary = PREV
+                        }
+                        letter_event = { id = DK_league.13 }
+                    }
+                    letter_event = { id = DK_league.13 }
+                }
+            }
+        }
+        
+        revoke_allowed = {
+            always = no #Not used in vanilla
+        }
+
+        ai_will_do = {
+            #Factors for an AI character to take the decision (1 = 100% chance every month - for each allowed target!)
+            factor = 1
+        }
+
+        ai_acceptance = {
+            factor = 10
+        }
+    }
+    dk_leave_league = {
+        filter = independent_rulers
+
+        # Potential for the decision taker.
+        from_potential = {
+            DK_is_league_member_trigger = yes
+
+            # Decision target 
+            suzerain = { character = ROOT }
+        }
+
+        # Potential for the decision target.
+        potential = {
+            DK_is_league_leader_trigger = yes
+        }
+
+        effect = {
+            hidden_tooltip = {
+                remove_tributary = FROM
+            }
+            letter_event = { id = DK_league.14 tooltip = DK_TOOLTIP_LEAVE_LEAGUE_ANNOUNCEMENT }
+        }
+        
+        revoke_allowed = {
+            always = no #Not used in vanilla
+        }
+
+        ai_will_do = {
+            #Factors for an AI character to take the decision (1 = 100% chance every month - for each allowed target!)
+            factor = 1
+        }
+
+        ai_acceptance = {
+            factor = 10
+        }
+    }
+    dk_remove_member_from_league = {
+        filter = independent_rulers
+
+        # Potential for the decision taker.
+        from_potential = {
+            # The decision taker has to be able to be in a league.
+            DK_is_league_leader_trigger = yes
+        }
+
+        # Potential for the decision target.
+        potential = {
+            suzerain = { character = FROM }
+        }
+
+        effect = {
+            hidden_tooltip = {
+                suzerain = {
+                    remove_tributary = FROM
+                }
+            }
+            letter_event = { id = DK_league.15 tooltip = DK_TOOLTIP_REMOVE_LEAGUE_MEMBER_ANNOUNCEMENT }
         }
         
         revoke_allowed = {
