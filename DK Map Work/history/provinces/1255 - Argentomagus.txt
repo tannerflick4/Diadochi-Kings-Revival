@@ -1,0 +1,15 @@
+# 1255 - Argentomagus
+
+# County Title
+title = c_argentomagus
+
+# Settlements
+max_settlements = 6
+b_argentomagus_argentomagus = tribal
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

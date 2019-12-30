@@ -1,0 +1,15 @@
+# 1199 - Intaranum
+
+# County Title
+title = c_intaranum
+
+# Settlements
+max_settlements = 6
+b_intaranum_intaranum = tribal
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

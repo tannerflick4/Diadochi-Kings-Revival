@@ -1,0 +1,15 @@
+# 1196 - Bricca
+
+# County Title
+title = c_bricca
+
+# Settlements
+max_settlements = 6
+b_bricca_bricca = tribal
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

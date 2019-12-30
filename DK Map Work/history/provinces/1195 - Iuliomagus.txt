@@ -1,0 +1,15 @@
+# 1195 - Iuliomagus
+
+# County Title
+title = c_iuliomagus
+
+# Settlements
+max_settlements = 6
+b_iuliomagus_iuliomagus = tribal
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

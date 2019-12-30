@@ -1,0 +1,15 @@
+# 1259 - Rouession
+
+# County Title
+title = c_rouession
+
+# Settlements
+max_settlements = 6
+b_rouession_rouession = tribal
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

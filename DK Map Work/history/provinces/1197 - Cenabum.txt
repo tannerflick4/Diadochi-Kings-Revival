@@ -1,0 +1,15 @@
+# 1197 - Cenabum
+
+# County Title
+title = c_cenabum
+
+# Settlements
+max_settlements = 6
+b_cenabum_cenabum = tribal
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

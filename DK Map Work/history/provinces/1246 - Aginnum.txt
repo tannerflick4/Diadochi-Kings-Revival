@@ -1,0 +1,15 @@
+# 1246 - Aginnum
+
+# County Title
+title = c_aginnum
+
+# Settlements
+max_settlements = 6
+b_aginnum_aginnum = tribal
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

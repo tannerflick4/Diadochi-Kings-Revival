@@ -1,0 +1,15 @@
+# 1239 - Vultaconum
+
+# County Title
+title = c_vultaconum
+
+# Settlements
+max_settlements = 6
+b_vultaconum_vultaconum = tribal
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

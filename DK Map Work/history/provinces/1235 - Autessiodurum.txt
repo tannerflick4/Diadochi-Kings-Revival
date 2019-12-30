@@ -1,0 +1,15 @@
+# 1235 - Autessiodurum
+
+# County Title
+title = c_autessiodurum
+
+# Settlements
+max_settlements = 6
+b_autessiodurum_autessiodurum = tribal
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

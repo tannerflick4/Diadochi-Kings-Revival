@@ -1,0 +1,15 @@
+# 1254 - Exilodunum
+
+# County Title
+title = c_exilodunum
+
+# Settlements
+max_settlements = 6
+b_exilodunum_exilodunum = tribal
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

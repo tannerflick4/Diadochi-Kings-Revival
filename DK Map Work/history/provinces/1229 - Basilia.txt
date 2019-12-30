@@ -1,0 +1,15 @@
+# 1229 - Basilia
+
+# County Title
+title = c_basilia
+
+# Settlements
+max_settlements = 6
+b_basilia_basilia = tribal
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

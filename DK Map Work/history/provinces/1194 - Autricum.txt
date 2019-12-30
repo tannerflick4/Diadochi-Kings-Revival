@@ -1,0 +1,15 @@
+# 1194 - Autricum
+
+# County Title
+title = c_autricum
+
+# Settlements
+max_settlements = 6
+b_autricum_autricum = tribal
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

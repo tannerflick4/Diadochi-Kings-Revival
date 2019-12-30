@@ -1,0 +1,15 @@
+# 1247 - Divona
+
+# County Title
+title = c_divona
+
+# Settlements
+max_settlements = 6
+b_divona_divona = tribal
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

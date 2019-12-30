@@ -1,0 +1,15 @@
+# 1241 - Rauranum
+
+# County Title
+title = c_rauranum
+
+# Settlements
+max_settlements = 6
+b_rauranum_rauranum = tribal
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

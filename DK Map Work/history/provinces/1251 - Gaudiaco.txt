@@ -1,0 +1,15 @@
+# 1251 - Gaudiaco
+
+# County Title
+title = c_gaudiaco
+
+# Settlements
+max_settlements = 6
+b_gaudiaco_gaudiaco = tribal
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

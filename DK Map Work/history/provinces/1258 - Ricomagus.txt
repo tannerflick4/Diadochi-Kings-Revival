@@ -1,0 +1,15 @@
+# 1258 - Ricomagus
+
+# County Title
+title = c_ricomagus
+
+# Settlements
+max_settlements = 6
+b_ricomagus_ricomagus = tribal
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

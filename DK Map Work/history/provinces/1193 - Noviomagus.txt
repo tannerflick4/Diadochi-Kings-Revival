@@ -1,0 +1,15 @@
+# 1193 - Noviomagus
+
+# County Title
+title = c_noviomagus
+
+# Settlements
+max_settlements = 6
+b_noviomagus_noviomagus = tribal
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

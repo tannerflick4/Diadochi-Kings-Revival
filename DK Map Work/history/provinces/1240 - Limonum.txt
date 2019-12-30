@@ -1,0 +1,15 @@
+# 1240 - Limonum
+
+# County Title
+title = c_limonum
+
+# Settlements
+max_settlements = 6
+b_limonum_limonum = tribal
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

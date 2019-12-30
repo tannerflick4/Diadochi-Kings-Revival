@@ -1,0 +1,15 @@
+# 1253 - Avaricum
+
+# County Title
+title = c_avaricum
+
+# Settlements
+max_settlements = 6
+b_avaricum_avaricum = tribal
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,15 @@
+# 1245 - Vesunna
+
+# County Title
+title = c_vesunna
+
+# Settlements
+max_settlements = 6
+b_vesunna_vesunna = tribal
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

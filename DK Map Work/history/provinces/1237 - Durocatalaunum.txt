@@ -1,0 +1,15 @@
+# 1237 - Durocatalaunum
+
+# County Title
+title = c_durocatalaunum
+
+# Settlements
+max_settlements = 6
+b_durocatalaunum_durocatalaunum = tribal
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

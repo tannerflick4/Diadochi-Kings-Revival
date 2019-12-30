@@ -1,0 +1,15 @@
+# 1236 - Metiosedum
+
+# County Title
+title = c_metiosedum
+
+# Settlements
+max_settlements = 6
+b_metiosedum_metiosedum = tribal
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

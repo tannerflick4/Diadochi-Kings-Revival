@@ -1,0 +1,15 @@
+# 1191 - Cosedia
+
+# County Title
+title = c_cosedia
+
+# Settlements
+max_settlements = 6
+b_cosedia_cosedia = tribal
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

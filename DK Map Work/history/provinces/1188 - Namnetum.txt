@@ -1,0 +1,15 @@
+# 1188 - Namnetum
+
+# County Title
+title = c_namnetum
+
+# Settlements
+max_settlements = 6
+b_namnetum_namnetum = tribal
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province
