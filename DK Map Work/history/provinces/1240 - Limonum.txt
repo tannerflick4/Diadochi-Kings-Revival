@@ -4,8 +4,14 @@
 title = c_limonum
 
 # Settlements
-max_settlements = 6
+max_settlements = 4
 b_limonum_limonum = tribal
+#b_condate_limonum = city
+#b_briotreidis_limonum = castle
+#b_voglada_limonum = castle
+b_locoteiacus_limonum = temple
+#b_exidualum_limonum = city
+#b_sanxa_limonum = castle
 
 # Misc
 culture = gaul

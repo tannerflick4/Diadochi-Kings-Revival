@@ -4,8 +4,14 @@
 title = c_segimovicus
 
 # Settlements
-max_settlements = 6
+max_settlements = 3
 b_segimovicus_segimovicus = tribal
+#b_gabris_segimovicus = castle
+#b_noviodunum_segimovicus = city
+#b_ludna_segimovicus = city
+#b_belca_segimovicus = castle
+#b_berraum_segimovicus = temple
+#b_iciodoro_segimovicus = city
 
 # Misc
 culture = gaul

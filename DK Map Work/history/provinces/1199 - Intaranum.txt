@@ -4,8 +4,14 @@
 title = c_intaranum
 
 # Settlements
-max_settlements = 6
+max_settlements = 3
 b_intaranum_intaranum = tribal
+#b_condate_intaranum = city
+#b_massava_intaranum = city
+#b_autessiodurum_intaranum = city
+#b_bandritum_intaranum = city
+#b_solonacum_intaranum = castle
+#b_navicellis_intaranum = castle
 
 # Misc
 culture = gaul

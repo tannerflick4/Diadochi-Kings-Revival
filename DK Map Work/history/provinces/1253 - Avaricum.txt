@@ -4,8 +4,14 @@
 title = c_avaricum
 
 # Settlements
-max_settlements = 6
+max_settlements = 3
 b_avaricum_avaricum = tribal
+#b_levet_avaricum = city
+#b_derventum_avaricum = city
+#b_tincontium_avaricum = castle
+#b_nogeomagus_avaricum = city
+b_dolus_avaricum = temple
+#b_lucas_avaricum = city
 
 # Misc
 culture = gaul

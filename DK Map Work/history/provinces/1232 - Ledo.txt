@@ -4,8 +4,14 @@
 title = c_ledo
 
 # Settlements
-max_settlements = 6
+max_settlements = 3
 b_ledo_ledo = tribal
+#b_pons_dubris_ledo = city
+#b_vincelles_ledo = temple
+#b_grozon_ledo = city
+b_rivel_ledo = temple
+#b_bresse_ledo = city
+#b_nobiliacus_ledo = castle
 
 # Misc
 culture = gaul

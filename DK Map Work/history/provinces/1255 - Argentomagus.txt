@@ -4,8 +4,14 @@
 title = c_argentomagus
 
 # Settlements
-max_settlements = 6
+max_settlements = 4
 b_argentomagus_argentomagus = tribal
+#b_pretorio_argentomagus = castle
+#b_acitodunum_argentomagus = castle
+b_patriacum_argentomagus = temple
+#b_cambonum_argentomagus = city
+#b_idunum_argentomagus = city
+#b_prisciniacum_argentomagus = temple
 
 # Misc
 culture = gaul

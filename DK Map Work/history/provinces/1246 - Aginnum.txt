@@ -4,8 +4,14 @@
 title = c_aginnum
 
 # Settlements
-max_settlements = 6
+max_settlements = 3
 b_aginnum_aginnum = tribal
+#b_domeciaco_aginnum = city
+#b_fines_aginnum = castle
+#b_pompegiaco_aginnum = castle
+#b_excisum_aginnum = city
+#b_burgus_aginnum = temple
+#b_tannum_aginnum = castle
 
 # Misc
 culture = gaul

@@ -4,8 +4,14 @@
 title = c_durocatalaunum
 
 # Settlements
-max_settlements = 6
+max_settlements = 3
 b_durocatalaunum_durocatalaunum = tribal
+#b_morains_durocatalaunum = castle
+#b_marne_durocatalaunum = city
+#b_damer_durocatalaunum = city
+#b_corobilium_durocatalaunum = castle
+#b_segessera_durocatalaunum = city
+#b_cret_durocatalaunum = temple
 
 # Misc
 culture = gaul

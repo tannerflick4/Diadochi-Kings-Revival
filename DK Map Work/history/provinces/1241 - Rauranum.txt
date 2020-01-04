@@ -4,8 +4,14 @@
 title = c_rauranum
 
 # Settlements
-max_settlements = 6
+max_settlements = 3
 b_rauranum_rauranum = tribal
+#b_brigiosum_rauranum = city
+#b_aunedonnacum_rauranum = castle
+#b_santonon_limen_rauranum = city
+#b_condate_rauranum = city
+#b_sermanicomago_rauranum = castle
+#b_mediconnum_rauranum = temple
 
 # Misc
 culture = gaul

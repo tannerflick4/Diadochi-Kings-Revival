@@ -4,8 +4,14 @@
 title = c_darioritum
 
 # Settlements
-max_settlements = 6
+max_settlements = 4
 b_darioritum_darioritum = tribal
+#b_ouidana_limen_darioritum = city
+#b_vindilis_darioritum = city
+#b_siata_darioritum = city
+b_duretie_darioritum = temple
+#b_sulis_darioritum = castle
+#b_sipia_darioritum = city
 
 # Misc
 culture = gaul

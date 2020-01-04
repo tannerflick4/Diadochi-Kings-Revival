@@ -4,8 +4,14 @@
 title = c_noviomagus
 
 # Settlements
-max_settlements = 6
+max_settlements = 3
 b_noviomagus_noviomagus = tribal
+#b_exmes_noviomagus = city
+#b_canetonum_noviomagus = temple
+#b_uggate_noviomagus = city
+#b_maleto_noviomagus = castle
+#b_lautrego_noviomagus = castle
+#b_caborinio_noviomagus = temple
 
 # Misc
 culture = gaul

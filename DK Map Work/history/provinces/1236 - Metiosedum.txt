@@ -4,8 +4,14 @@
 title = c_metiosedum
 
 # Settlements
-max_settlements = 6
+max_settlements = 3
 b_metiosedum_metiosedum = tribal
+#b_maclauna_metiosedum = city
+#b_calagum_metiosedum = castle
+#b_condate_metiosedum = city
+#b_cerbeli_metiosedum = castle
+#b_breno_metiosedum = city
+#b_auger_metiosedum = temple
 
 # Misc
 culture = gaul

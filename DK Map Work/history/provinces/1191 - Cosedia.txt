@@ -4,8 +4,14 @@
 title = c_cosedia
 
 # Settlements
-max_settlements = 6
+max_settlements = 4
 b_cosedia_cosedia = tribal
+#b_coriallum_cosedia = city
+#b_alauna_cosedia = castle
+b_crouciaconnum_cosedia = temple
+#b_andium_cosedia = city
+#b_silia_cosedia = city
+#b_riduna_cosedia = city
 
 # Misc
 culture = gaul

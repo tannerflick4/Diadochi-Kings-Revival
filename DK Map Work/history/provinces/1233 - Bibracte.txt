@@ -4,8 +4,14 @@
 title = c_bibracte
 
 # Settlements
-max_settlements = 6
+max_settlements = 4
 b_bibracte_bibracte = tribal
+#b_tinurtium_bibracte = city
+#b_cabilonnum_bibracte = city
+#b_eliman_bibracte = castle
+#b_augustodunum_bibracte = city
+#b_leger_bibracte = castle
+b_fresne_bibracte = temple
 
 # Misc
 culture = gaul

@@ -4,8 +4,14 @@
 title = c_vesunna
 
 # Settlements
-max_settlements = 6
+max_settlements = 4
 b_vesunna_vesunna = tribal
+#b_travectus_vesunna = castle
+#b_diolindum_vesunna = castle
+#b_co_vesunna = city
+b_issando_vesunna = temple
+#b_scauriniacum_vesunna = castle
+#b_cabrianecum_vesunna = city
 
 # Misc
 culture = gaul

@@ -4,8 +4,14 @@
 title = c_condate
 
 # Settlements
-max_settlements = 6
+max_settlements = 4
 b_condate_condate = tribal
+#b_aletum_condate = city
+#b_feins_condate = castle
+b_pace_condate = temple
+#b_montanel_condate = castle
+#b_ingena_condate = city
+#b_pican_condate = city
 
 # Misc
 culture = gaul

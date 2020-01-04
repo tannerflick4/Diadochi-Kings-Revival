@@ -4,8 +4,14 @@
 title = c_iculisma
 
 # Settlements
-max_settlements = 6
+max_settlements = 3
 b_iculisma_iculisma = tribal
+#b_sarrum_iculisma = castle
+#b_andone_iculisma = castle
+#b_casinomagus_iculisma = city
+#b_campaniacum_iculisma = city
+#b_canaviacum_iculisma = city
+#b_sanxay_iculisma = temple
 
 # Misc
 culture = gaul

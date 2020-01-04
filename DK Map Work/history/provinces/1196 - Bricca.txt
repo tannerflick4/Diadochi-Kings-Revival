@@ -4,8 +4,14 @@
 title = c_bricca
 
 # Settlements
-max_settlements = 6
+max_settlements = 5
 b_bricca_bricca = tribal
+#b_fines_bricca = castle
+#b_paternacum_bricca = city
+#b_malliacum_bricca = castle
+#b_martiniacum_bricca = castle
+b_maior_bricca = temple
+#b_vernaus_bricca = city
 
 # Misc
 culture = gaul

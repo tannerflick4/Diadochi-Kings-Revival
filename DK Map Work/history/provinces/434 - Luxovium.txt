@@ -4,13 +4,14 @@
 title = c_luxovium
 
 # Settlements
-max_settlements = 4
+max_settlements = 2
 b_luxovium_luxovium = tribal
-#b_uruncis_luxovium = city
-#b_larga_luxovium = castle
-
-# Possible baronies: (Always add a # in front of a line with these!)
-# b_basilia_luxovium
+#b_escles_luxovium = city
+#b_novivicum_luxovium = castle
+#b_mebre_luxovium = city
+#b_praemiacum_luxovium = castle
+#b_urba_luxovium = city
+#b_uromagus_luxovium = temple
 
 # Misc
 culture = gaul

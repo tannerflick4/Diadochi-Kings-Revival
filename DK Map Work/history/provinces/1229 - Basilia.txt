@@ -4,8 +4,14 @@
 title = c_basilia
 
 # Settlements
-max_settlements = 6
+max_settlements = 4
 b_basilia_basilia = tribal
+#b_augusta_raurica_basilia = city
+#b_vindonissa_basilia = city
+#b_cambete_basilia = city
+b_larga_basilia = temple
+#b_liestal_basilia = castle
+#b_bu_basilia = castle
 
 # Misc
 culture = gaul

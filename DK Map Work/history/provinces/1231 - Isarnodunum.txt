@@ -4,8 +4,14 @@
 title = c_isarnodunum
 
 # Settlements
-max_settlements = 6
+max_settlements = 3
 b_isarnodunum_isarnodunum = tribal
+#b_brioratis_isarnodunum = city
+#b_bellicum_isarnodunum = temple
+#b_venetonimagus_isarnodunum = city
+#b_izernore_isarnodunum = castle
+b_cerviano_isarnodunum = temple
+#b_granoialo_isarnodunum = castle
 
 # Misc
 culture = gaul

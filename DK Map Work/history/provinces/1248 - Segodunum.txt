@@ -4,8 +4,14 @@
 title = c_segodunum
 
 # Settlements
-max_settlements = 6
+max_settlements = 2
 b_segodunum_segodunum = tribal
+#b_carantomagus_segodunum = city
+#b_uxellodunum_segodunum = city
+#b_cocurnaco_segodunum = castle
+#b_taxarias_segodunum = castle
+#b_moysiacum_segodunum = city
+#b_iovineanicas_segodunum = temple
 
 # Misc
 culture = gaul

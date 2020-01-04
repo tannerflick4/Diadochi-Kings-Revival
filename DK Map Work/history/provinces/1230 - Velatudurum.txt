@@ -4,8 +4,14 @@
 title = c_velatudurum
 
 # Settlements
-max_settlements = 6
+max_settlements = 2
 b_velatudurum_velatudurum = tribal
+#b_epamanduodurum_velatudurum = city
+#b_montbozon_velatudurum = castle
+#b_matha_velatudurum = city
+#b_forum_voconii_velatudurum = castle
+#b_fraxinetum_velatudurum = castle
+#b_alconis_velatudurum = temple
 
 # Misc
 culture = gaul

@@ -4,8 +4,14 @@
 title = c_lutetia
 
 # Settlements
-max_settlements = 6
+max_settlements = 5
 b_lutetia_lutetia = tribal
+#b_senantes_lutetia = castle
+#b_divodurum_lutetia = castle
+b_nemetodurum_lutetia = temple
+#b_dourdan_lutetia = city
+#b_ablis_lutetia = city
+#b_salioclita_lutetia = city
 
 # Misc
 culture = gaul

@@ -4,8 +4,14 @@
 title = c_ariolica
 
 # Settlements
-max_settlements = 6
+max_settlements = 3
 b_ariolica_ariolica = tribal
+#b_vorogio_ariolica = castle
+#b_aquae_calidae_ariolica = city
+#b_rodumna_ariolica = city
+#b_randanum_ariolica = temple
+#b_vindiciacum_ariolica = city
+#b_eborolacum_ariolica = castle
 
 # Misc
 culture = gaul

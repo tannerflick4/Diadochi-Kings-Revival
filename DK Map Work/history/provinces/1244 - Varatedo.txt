@@ -4,8 +4,14 @@
 title = c_varatedo
 
 # Settlements
-max_settlements = 6
+max_settlements = 4
 b_varatedo_varatedo = tribal
+#b_modogarnomum_varatedo = castle
+#b_condatis_varatedo = city
+#b_lucaniacum_varatedo = castle
+#b_vodollacum_varatedo = city
+b_reontio_varatedo = temple
+#b_corterate_varatedo = city
 
 # Misc
 culture = gaul

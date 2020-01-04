@@ -4,8 +4,14 @@
 title = c_vorgium
 
 # Settlements
-max_settlements = 6
+max_settlements = 2
 b_vorgium_vorgium = tribal
+b_sena_vorgium = city
+b_huelgoat_vorgium = temple
+b_avisio_vorgium = castle
+b_lumo_vorgium = city
+b_anao_vorgium = castle
+b_glanum_vorgium = temple
 
 # Misc
 culture = gaul

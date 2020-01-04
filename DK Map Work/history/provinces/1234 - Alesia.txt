@@ -4,8 +4,14 @@
 title = c_alesia
 
 # Settlements
-max_settlements = 6
+max_settlements = 3
 b_alesia_alesia = tribal
+#b_escives_alesia = city
+#b_cure_alesia = city
+#b_aballo_alesia = city
+#b_sidoloucum_alesia = castle
+#b_mediolanum_alesia = city
+#b_mantala_alesia = temple
 
 # Misc
 culture = gaul

@@ -4,15 +4,14 @@
 title = c_lugdunum
 
 # Settlements
-max_settlements = 6
+max_settlements = 5
 b_lugdunum_lugdunum = tribal
-b_vienna_lugdunum = temple
-#b_bergusium_lugdunum = castle
-#b_brioratis_lugdunum = city
-
-# Possible baronies: (Always add a # in front of a line with these!)
-# b_ludna_lugdunum
-# b_lunna_lugdunum
+#b_forum_segusiavorum_lugdunum = castle
+#b_rodumna_lugdunum = castle
+#b_matisco_lugdunum = city
+b_desideratus_lugdunum = temple
+#b_boii_lugdunum = castle
+#b_tinurtium_lugdunum = city
 
 # Misc
 culture = gaul

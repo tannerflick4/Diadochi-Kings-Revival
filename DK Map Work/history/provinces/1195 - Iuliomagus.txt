@@ -4,8 +4,14 @@
 title = c_iuliomagus
 
 # Settlements
-max_settlements = 6
+max_settlements = 3
 b_iuliomagus_iuliomagus = tribal
+#b_gemmes_iuliomagus = city
+#b_ingrandes_iuliomagus = city
+#b_alingavia_iuliomagus = city
+#b_tegulata_iuliomagus = castle
+#b_calcaria_solarium_iuliomagus = temple
+#b_incarus_iuliomagus = castle
 
 # Misc
 culture = gaul

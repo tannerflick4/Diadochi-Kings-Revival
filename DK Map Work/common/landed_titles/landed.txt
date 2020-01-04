@@ -14129,15 +14129,17 @@ k_gallia = {
 			
 			b_lugdunum_lugdunum = {
 			}
-			b_vienna_lugdunum = {
+			b_forum_segusiavorum_lugdunum = {
 			}
-			b_bergusium_lugdunum = {
+			b_rodumna_lugdunum = {
 			}
-			b_brioratis_lugdunum = {
+			b_matisco_lugdunum = {
 			}
-			b_ludna_lugdunum = {
+			b_desideratus_lugdunum = {
 			}
-			b_lunna_lugdunum = {
+			b_boii_lugdunum = {
+			}
+			b_tinurtium_lugdunum = {
 			}
 		}
 		c_andematunnum = {
@@ -14146,9 +14148,17 @@ k_gallia = {
 			
 			b_andematunnum_andematunnum = {
 			}
-			b_varcia_andematunnum = {
+			b_faverolles_andematunnum = {
 			}
-			b_castrum_divionense = {
+			b_balemec_andematunnum = {
+			}
+			b_mosa_andematunnum = {
+			}
+			b_noviomagus_andematunnum = {
+			}
+			b_segessera_andematunnum = {
+			}
+			b_gangres_andematunnum = {
 			}
 		}
 		c_vesontio = {
@@ -14157,11 +14167,17 @@ k_gallia = {
 			
 			b_vesontio_vesontio = {
 			}
-			b_epamanduodurum_vesontio = {
+			b_damartin_vesontio = {
 			}
-			b_ariorica_vesontio = {
+			b_dole_vesontio = {
 			}
-			b_ledo_vesontio = {
+			b_castrum_divionense_vesontio = {
+			}
+			b_mantoche_vesontio = {
+			}
+			b_segobodium_vesontio = {
+			}
+			b_mibau_vesontio = {
 			}
 		}
 		c_luxovium = {
@@ -14170,11 +14186,17 @@ k_gallia = {
 			
 			b_luxovium_luxovium = {
 			}
-			b_uruncis_luxovium = {
+			b_escles_luxovium = {
 			}
-			b_larga_luxovium = {
+			b_novivicum_luxovium = {
 			}
-			b_basilia_luxovium = {
+			b_mebre_luxovium = {
+			}
+			b_praemiacum_luxovium = {
+			}
+			b_urba_luxovium = {
+			}
+			b_uromagus_luxovium = {
 			}
 		}
 	}
@@ -14759,12 +14781,36 @@ k_gallia = {
 
 			b_gesocribate_gesocribate = {
 			}
+			b_uxantis_gesocribate = {
+			}
+			b_vorganium_gesocribate = {
+			}
+			b_lannion_gesocribate = {
+			}
+			b_morlaix_gesocribate = {
+			}
+			b_vindasca_gesocribate = {
+			}
+			b_sedros_gesocribate = {
+			}
 		}
 		c_vorgium = {
 			color={ 200 175 100 }
 			color2={ 255 255 255 }
 
 			b_vorgium_vorgium = {
+			}
+			b_sena_vorgium = {
+			}
+			b_huelgoat_vorgium = {
+			}
+			b_avisio_vorgium = {
+			}
+			b_lumo_vorgium = {
+			}
+			b_anao_vorgium = {
+			}
+			b_glanum_vorgium = {
 			}
 		}
 		c_darioritum = {
@@ -14773,12 +14819,36 @@ k_gallia = {
 
 			b_darioritum_darioritum = {
 			}
+			b_ouidana_limen_darioritum = {
+			}
+			b_vindilis_darioritum = {
+			}
+			b_siata_darioritum = {
+			}
+			b_duretie_darioritum = {
+			}
+			b_sulis_darioritum = {
+			}
+			b_sipia_darioritum = {
+			}
 		}
 		c_fanum_martis = {
 			color={ 200 175 100 }
 			color2={ 255 255 255 }
 
 			b_fanum_martis_fanum_martis = {
+			}
+			b_taden_fanum_martis = {
+			}
+			b_caulnes_fanum_martis = {
+			}
+			b_iffendic_fanum_martis = {
+			}
+			b_ernaginum_fanum_martis = {
+			}
+			b_bellintum_fanum_martis = {
+			}
+			b_vindalium_fanum_martis = {
 			}
 		}
 		c_namnetum = {
@@ -14787,12 +14857,36 @@ k_gallia = {
 
 			b_namnetum_namnetum = {
 			}
+			b_grannona_namnetum = {
+			}
+			b_vindunitta_namnetum = {
+			}
+			b_korbilon_namnetum = {
+			}
+			b_tauriaco_namnetum = {
+			}
+			b_curin_namnetum = {
+			}
+			b_blain_namnetum = {
+			}
 		}
 		c_conbaristum = {
 			color={ 200 175 100 }
 			color2={ 255 255 255 }
 
 			b_conbaristum_conbaristum = {
+			}
+			b_barre_conbaristum = {
+			}
+			b_roualland_conbaristum = {
+			}
+			b_geminae_conbaristum = {
+			}
+			b_sedena_conbaristum = {
+			}
+			b_fines_conbaristum = {
+			}
+			b_ad_turnonem_conbaristum = {
 			}
 		}
 		c_condate = {
@@ -14801,12 +14895,36 @@ k_gallia = {
 
 			b_condate_condate = {
 			}
+			b_aletum_condate = {
+			}
+			b_feins_condate = {
+			}
+			b_pace_condate = {
+			}
+			b_montanel_condate = {
+			}
+			b_ingena_condate = {
+			}
+			b_pican_condate = {
+			}
 		}
 		c_cosedia = {
 			color={ 200 175 100 }
 			color2={ 255 255 255 }
 
 			b_cosedia_cosedia = {
+			}
+			b_coriallum_cosedia = {
+			}
+			b_alauna_cosedia = {
+			}
+			b_crouciaconnum_cosedia = {
+			}
+			b_andium_cosedia = {
+			}
+			b_silia_cosedia = {
+			}
+			b_riduna_cosedia = {
 			}
 		}
 		c_augustodurum = {
@@ -14815,12 +14933,36 @@ k_gallia = {
 
 			b_augustodurum_augustodurum = {
 			}
+			b_aubin_augustodurum = {
+			}
+			b_odon_augustodurum = {
+			}
+			b_aregenoua_augustodurum = {
+			}
+			b_damblain_augustodurum = {
+			}
+			b_lo_augustodurum = {
+			}
+			b_domeciaco_augustodurum = {
+			}
 		}
 		c_noviomagus = {
 			color={ 200 175 100 }
 			color2={ 255 255 255 }
 
 			b_noviomagus_noviomagus = {
+			}
+			b_exmes_noviomagus = {
+			}
+			b_canetonum_noviomagus = {
+			}
+			b_uggate_noviomagus = {
+			}
+			b_maleto_noviomagus = {
+			}
+			b_lautrego_noviomagus = {
+			}
+			b_caborinio_noviomagus = {
 			}
 		}
 		c_autricum = {
@@ -14829,12 +14971,36 @@ k_gallia = {
 
 			b_autricum_autricum = {
 			}
+			b_aubin_autricum = {
+			}
+			b_mediolanum_autricum = {
+			}
+			b_gesacum_autricum = {
+			}
+			b_iton_autricum = {
+			}
+			b_durocasses_autricum = {
+			}
+			b_condate_autricum = {
+			}
 		}
 		c_iuliomagus = {
 			color={ 200 175 100 }
 			color2={ 255 255 255 }
 
 			b_iuliomagus_iuliomagus = {
+			}
+			b_gemmes_iuliomagus = {
+			}
+			b_ingrandes_iuliomagus = {
+			}
+			b_alingavia_iuliomagus = {
+			}
+			b_tegulata_iuliomagus = {
+			}
+			b_calcaria_solarium_iuliomagus = {
+			}
+			b_incarus_iuliomagus = {
 			}
 		}
 		c_bricca = {
@@ -14843,12 +15009,36 @@ k_gallia = {
 
 			b_bricca_bricca = {
 			}
+			b_fines_bricca = {
+			}
+			b_paternacum_bricca = {
+			}
+			b_malliacum_bricca = {
+			}
+			b_martiniacum_bricca = {
+			}
+			b_maior_bricca = {
+			}
+			b_vernaus_bricca = {
+			}
 		}
 		c_cenabum = {
 			color={ 200 175 100 }
 			color2={ 255 255 255 }
 
 			b_cenabum_cenabum = {
+			}
+			b_blesum_cenabum = {
+			}
+			b_vindocinum_cenabum = {
+			}
+			b_verdes_cenabum = {
+			}
+			b_gresset_cenabum = {
+			}
+			b_montargis_cenabum = {
+			}
+			b_brivodurum_cenabum = {
 			}
 		}
 		c_lutetia = {
@@ -14857,12 +15047,36 @@ k_gallia = {
 
 			b_lutetia_lutetia = {
 			}
+			b_senantes_lutetia = {
+			}
+			b_divodurum_lutetia = {
+			}
+			b_nemetodurum_lutetia = {
+			}
+			b_dourdan_lutetia = {
+			}
+			b_ablis_lutetia = {
+			}
+			b_salioclita_lutetia = {
+			}
 		}
 		c_intaranum = {
 			color={ 200 175 100 }
 			color2={ 255 255 255 }
 
 			b_intaranum_intaranum = {
+			}
+			b_condate_intaranum = {
+			}
+			b_massava_intaranum = {
+			}
+			b_autessiodurum_intaranum = {
+			}
+			b_bandritum_intaranum = {
+			}
+			b_solonacum_intaranum = {
+			}
+			b_navicellis_intaranum = {
 			}
 		}
 		c_noviodunum = {
@@ -14871,12 +15085,36 @@ k_gallia = {
 
 			b_noviodunum_noviodunum = {
 			}
+			b_decetia_noviodunum = {
+			}
+			b_aquae_bormonis_noviodunum = {
+			}
+			b_bonnet_noviodunum = {
+			}
+			b_turnacum_noviodunum = {
+			}
+			b_labrocinum_noviodunum = {
+			}
+			b_ambiacum_noviodunum = {
+			}
 		}
 		c_balbiacus = {
 			color={ 200 175 100 }
 			color2={ 255 255 255 }
 
 			b_balbiacus_balbiacus = {
+			}
+			b_pocrinium_balbiacus = {
+			}
+			b_aquae_bormonis_balbiacus = {
+			}
+			b_varum_balbiacus = {
+			}
+			b_ad_horrea_balbiacus = {
+			}
+			b_ad_turrem_balbiacus = {
+			}
+			b_telo_martius_balbiacus = {
 			}
 		}
 		c_noiodounon = {
@@ -14885,12 +15123,36 @@ k_gallia = {
 
 			b_noiodounon_noiodounon = {
 			}
+			b_lore_noiodounon = {
+			}
+			b_diablintum_noiodounon = {
+			}
+			b_gemmes_noiodounon = {
+			}
+			b_entrammes_noiodounon = {
+			}
+			b_ouagoriton_noiodounon = {
+			}
+			b_ouindinon_noiodounon = {
+			}
 		}
 		c_basilia = {
 			color={ 200 175 100 }
 			color2={ 255 255 255 }
 
 			b_basilia_basilia = {
+			}
+			b_augusta_raurica_basilia = {
+			}
+			b_vindonissa_basilia = {
+			}
+			b_cambete_basilia = {
+			}
+			b_larga_basilia = {
+			}
+			b_liestal_basilia = {
+			}
+			b_bu_basilia = {
 			}
 		}
 		c_velatudurum = {
@@ -14899,12 +15161,36 @@ k_gallia = {
 
 			b_velatudurum_velatudurum = {
 			}
+			b_epamanduodurum_velatudurum = {
+			}
+			b_montbozon_velatudurum = {
+			}
+			b_matha_velatudurum = {
+			}
+			b_forum_voconii_velatudurum = {
+			}
+			b_fraxinetum_velatudurum = {
+			}
+			b_alconis_velatudurum = {
+			}
 		}
 		c_isarnodunum = {
 			color={ 200 175 100 }
 			color2={ 255 255 255 }
 
 			b_isarnodunum_isarnodunum = {
+			}
+			b_brioratis_isarnodunum = {
+			}
+			b_bellicum_isarnodunum = {
+			}
+			b_venetonimagus_isarnodunum = {
+			}
+			b_izernore_isarnodunum = {
+			}
+			b_cerviano_isarnodunum = {
+			}
+			b_granoialo_isarnodunum = {
 			}
 		}
 		c_ledo = {
@@ -14913,12 +15199,36 @@ k_gallia = {
 
 			b_ledo_ledo = {
 			}
+			b_pons_dubris_ledo = {
+			}
+			b_vincelles_ledo = {
+			}
+			b_grozon_ledo = {
+			}
+			b_rivel_ledo = {
+			}
+			b_bresse_ledo = {
+			}
+			b_nobiliacus_ledo = {
+			}
 		}
 		c_bibracte = {
 			color={ 200 175 100 }
 			color2={ 255 255 255 }
 
 			b_bibracte_bibracte = {
+			}
+			b_tinurtium_bibracte = {
+			}
+			b_cabilonnum_bibracte = {
+			}
+			b_eliman_bibracte = {
+			}
+			b_augustodunum_bibracte = {
+			}
+			b_leger_bibracte = {
+			}
+			b_fresne_bibracte = {
 			}
 		}
 		c_alesia = {
@@ -14927,12 +15237,36 @@ k_gallia = {
 
 			b_alesia_alesia = {
 			}
+			b_escives_alesia = {
+			}
+			b_cure_alesia = {
+			}
+			b_aballo_alesia = {
+			}
+			b_sidoloucum_alesia = {
+			}
+			b_mediolanum_alesia = {
+			}
+			b_mantala_alesia = {
+			}
 		}
 		c_autessiodurum = {
 			color={ 200 175 100 }
 			color2={ 255 255 255 }
 
 			b_autessiodurum_autessiodurum = {
+			}
+			b_pons_yonne_autessiodurum = {
+			}
+			b_agedincum_autessiodurum = {
+			}
+			b_augustobona_autessiodurum = {
+			}
+			b_artiaca_autessiodurum = {
+			}
+			b_vertillum_autessiodurum = {
+			}
+			b_eburobriga_autessiodurum = {
 			}
 		}
 		c_metiosedum = {
@@ -14941,12 +15275,36 @@ k_gallia = {
 
 			b_metiosedum_metiosedum = {
 			}
+			b_maclauna_metiosedum = {
+			}
+			b_calagum_metiosedum = {
+			}
+			b_condate_metiosedum = {
+			}
+			b_cerbeli_metiosedum = {
+			}
+			b_breno_metiosedum = {
+			}
+			b_auger_metiosedum = {
+			}
 		}
 		c_durocatalaunum = {
 			color={ 200 175 100 }
 			color2={ 255 255 255 }
 
 			b_durocatalaunum_durocatalaunum = {
+			}
+			b_morains_durocatalaunum = {
+			}
+			b_marne_durocatalaunum = {
+			}
+			b_damer_durocatalaunum = {
+			}
+			b_corobilium_durocatalaunum = {
+			}
+			b_segessera_durocatalaunum = {
+			}
+			b_cret_durocatalaunum = {
 			}
 		}
 		c_teodeberciaco = {
@@ -14955,12 +15313,36 @@ k_gallia = {
 
 			b_teodeberciaco_teodeberciaco = {
 			}
+			b_ratiatum_teodeberciaco = {
+			}
+			b_vetraria_teodeberciaco = {
+			}
+			b_sikor_limen_teodeberciaco = {
+			}
+			b_samnitum_teodeberciaco = {
+			}
+			b_piktonion_akron_teodeberciaco = {
+			}
+			b_beccianum_teodeberciaco = {
+			}
 		}
 		c_vultaconum = {
 			color={ 200 175 100 }
 			color2={ 255 255 255 }
 
 			b_vultaconum_vultaconum = {
+			}
+			b_carnona_vultaconum = {
+			}
+			b_geinum_vultaconum = {
+			}
+			b_sella_vultaconum = {
+			}
+			b_segora_vultaconum = {
+			}
+			b_crovio_vultaconum = {
+			}
+			b_novioritum_vultaconum = {
 			}
 		}
 		c_limonum = {
@@ -14969,12 +15351,36 @@ k_gallia = {
 
 			b_limonum_limonum = {
 			}
+			b_condate_limonum = {
+			}
+			b_briotreidis_limonum = {
+			}
+			b_voglada_limonum = {
+			}
+			b_locoteiacus_limonum = {
+			}
+			b_exidualum_limonum = {
+			}
+			b_sanxa_limonum = {
+			}
 		}
 		c_rauranum = {
 			color={ 200 175 100 }
 			color2={ 255 255 255 }
 
 			b_rauranum_rauranum = {
+			}
+			b_brigiosum_rauranum = {
+			}
+			b_aunedonnacum_rauranum = {
+			}
+			b_santonon_limen_rauranum = {
+			}
+			b_condate_rauranum = {
+			}
+			b_sermanicomago_rauranum = {
+			}
+			b_mediconnum_rauranum = {
 			}
 		}
 		c_mediolanum_gaul = {
@@ -14983,12 +15389,36 @@ k_gallia = {
 
 			b_mediolanum_mediolanum_gaul = {
 			}
+			b_marciaco_mediolanum_gaul = {
+			}
+			b_novioregum_mediolanum_gaul = {
+			}
+			b_lamnum_mediolanum_gaul = {
+			}
+			b_santonon_akron_mediolanum_gaul = {
+			}
+			b_naiogialo_mediolanum_gaul = {
+			}
+			b_uliaros_mediolanum_gaul = {
+			}
 		}
 		c_iculisma = {
 			color={ 200 175 100 }
 			color2={ 255 255 255 }
 
 			b_iculisma_iculisma = {
+			}
+			b_sarrum_iculisma = {
+			}
+			b_andone_iculisma = {
+			}
+			b_casinomagus_iculisma = {
+			}
+			b_campaniacum_iculisma = {
+			}
+			b_canaviacum_iculisma = {
+			}
+			b_sanxay_iculisma = {
 			}
 		}
 		c_varatedo = {
@@ -14997,12 +15427,36 @@ k_gallia = {
 
 			b_varatedo_varatedo = {
 			}
+			b_modogarnomum_varatedo = {
+			}
+			b_condatis_varatedo = {
+			}
+			b_lucaniacum_varatedo = {
+			}
+			b_vodollacum_varatedo = {
+			}
+			b_reontio_varatedo = {
+			}
+			b_corterate_varatedo = {
+			}
 		}
 		c_vesunna = {
 			color={ 200 175 100 }
 			color2={ 255 255 255 }
 
 			b_vesunna_vesunna = {
+			}
+			b_travectus_vesunna = {
+			}
+			b_diolindum_vesunna = {
+			}
+			b_co_vesunna = {
+			}
+			b_issando_vesunna = {
+			}
+			b_scauriniacum_vesunna = {
+			}
+			b_cabrianecum_vesunna = {
 			}
 		}
 		c_aginnum = {
@@ -15011,12 +15465,36 @@ k_gallia = {
 
 			b_aginnum_aginnum = {
 			}
+			b_domeciaco_aginnum = {
+			}
+			b_fines_aginnum = {
+			}
+			b_pompegiaco_aginnum = {
+			}
+			b_excisum_aginnum = {
+			}
+			b_burgus_aginnum = {
+			}
+			b_tannum_aginnum = {
+			}
 		}
 		c_divona = {
 			color={ 200 175 100 }
 			color2={ 255 255 255 }
 
 			b_divona_divona = {
+			}
+			b_auciago_divona = {
+			}
+			b_gurdo_divona = {
+			}
+			b_decaniacum_divona = {
+			}
+			b_cadurcio_divona = {
+			}
+			b_mercurius_divona = {
+			}
+			b_prisciago_divona = {
 			}
 		}
 		c_segodunum = {
@@ -15025,12 +15503,36 @@ k_gallia = {
 
 			b_segodunum_segodunum = {
 			}
+			b_carantomagus_segodunum = {
+			}
+			b_uxellodunum_segodunum = {
+			}
+			b_cocurnaco_segodunum = {
+			}
+			b_taxarias_segodunum = {
+			}
+			b_moysiacum_segodunum = {
+			}
+			b_iovineanicas_segodunum = {
+			}
 		}
 		c_anderitum = {
 			color={ 200 175 100 }
 			color2={ 255 255 255 }
 
 			b_anderitum_anderitum = {
+			}
+			b_ad_silanum_anderitum = {
+			}
+			b_gredonum_anderitum = {
+			}
+			b_brivas_anderitum = {
+			}
+			b_condate_anderitum = {
+			}
+			b_mimas_anderitum = {
+			}
+			b_flaviaco_anderitum = {
 			}
 		}
 		c_briggogalus = {
@@ -15039,12 +15541,36 @@ k_gallia = {
 
 			b_briggogalus_briggogalus = {
 			}
+			b_fines_briggogalus = {
+			}
+			b_masamas_briggogalus = {
+			}
+			b_andecamulum_briggogalus = {
+			}
+			b_catalacum_briggogalus = {
+			}
+			b_ambaciacum_briggogalus = {
+			}
+			b_ferruciacum_briggogalus = {
+			}
 		}
 		c_gaudiaco = {
 			color={ 200 175 100 }
 			color2={ 255 255 255 }
 
 			b_gaudiaco_gaudiaco = {
+			}
+			b_balatedinis_gaudiaco = {
+			}
+			b_caesarodunum_gaudiaco = {
+			}
+			b_orbaniacum_gaudiaco = {
+			}
+			b_maroialum_gaudiaco = {
+			}
+			b_senaparia_gaudiaco = {
+			}
+			b_luciliacus_gaudiaco = {
 			}
 		}
 		c_segimovicus = {
@@ -15053,12 +15579,36 @@ k_gallia = {
 
 			b_segimovicus_segimovicus = {
 			}
+			b_gabris_segimovicus = {
+			}
+			b_noviodunum_segimovicus = {
+			}
+			b_ludna_segimovicus = {
+			}
+			b_belca_segimovicus = {
+			}
+			b_berraum_segimovicus = {
+			}
+			b_iciodoro_segimovicus = {
+			}
 		}
 		c_avaricum = {
 			color={ 200 175 100 }
 			color2={ 255 255 255 }
 
 			b_avaricum_avaricum = {
+			}
+			b_levet_avaricum = {
+			}
+			b_derventum_avaricum = {
+			}
+			b_tincontium_avaricum = {
+			}
+			b_nogeomagus_avaricum = {
+			}
+			b_dolus_avaricum = {
+			}
+			b_lucas_avaricum = {
 			}
 		}
 		c_exilodunum = {
@@ -15067,12 +15617,36 @@ k_gallia = {
 
 			b_exilodunum_exilodunum = {
 			}
+			b_alerta_exilodunum = {
+			}
+			b_dolum_exilodunum = {
+			}
+			b_leprosum_exilodunum = {
+			}
+			b_ernodorum_exilodunum = {
+			}
+			b_mediolanum_exilodunum = {
+			}
+			b_ambiacum_exilodunum = {
+			}
 		}
 		c_argentomagus = {
 			color={ 200 175 100 }
 			color2={ 255 255 255 }
 
 			b_argentomagus_argentomagus = {
+			}
+			b_pretorio_argentomagus = {
+			}
+			b_acitodunum_argentomagus = {
+			}
+			b_patriacum_argentomagus = {
+			}
+			b_cambonum_argentomagus = {
+			}
+			b_idunum_argentomagus = {
+			}
+			b_prisciniacum_argentomagus = {
 			}
 		}
 		c_excidollum = {
@@ -15081,12 +15655,36 @@ k_gallia = {
 
 			b_excidollum_excidollum = {
 			}
+			b_luciacus_excidollum = {
+			}
+			b_negiacum_excidollum = {
+			}
+			b_marcomons_excidollum = {
+			}
+			b_iuliacum_excidollum = {
+			}
+			b_gricium_excidollum = {
+			}
+			b_attanum_excidollum = {
+			}
 		}
 		c_cavaniaco = {
 			color={ 200 175 100 }
 			color2={ 255 255 255 }
 
 			b_cavaniaco_cavaniaco = {
+			}
+			b_petroliaco_cavaniaco = {
+			}
+			b_variacum_cavaniaco = {
+			}
+			b_eustriacum_cavaniaco = {
+			}
+			b_argenta_cavaniaco = {
+			}
+			b_melita_cavaniaco = {
+			}
+			b_meroliacum_cavaniaco = {
 			}
 		}
 		c_ricomagus = {
@@ -15095,6 +15693,18 @@ k_gallia = {
 
 			b_ricomagus_ricomagus = {
 			}
+			b_brivas_ricomagus = {
+			}
+			b_quiricus_ricomagus = {
+			}
+			b_avitacum_ricomagus = {
+			}
+			b_gergovia_ricomagus = {
+			}
+			b_augustonemetum_ricomagus = {
+			}
+			b_arthona_ricomagus = {
+			}
 		}
 		c_rouession = {
 			color={ 200 175 100 }
@@ -15102,12 +15712,36 @@ k_gallia = {
 
 			b_rouession_rouession = {
 			}
+			b_musciacas_rouession = {
+			}
+			b_thigernum_rouession = {
+			}
+			b_volautrum_rouession = {
+			}
+			b_aquae_segetae_rouession = {
+			}
+			b_icidmago_rouession = {
+			}
+			b_anicium_rouession = {
+			}
 		}
 		c_ariolica = {
 			color={ 200 175 100 }
 			color2={ 255 255 255 }
 
 			b_ariolica_ariolica = {
+			}
+			b_vorogio_ariolica = {
+			}
+			b_aquae_calidae_ariolica = {
+			}
+			b_rodumna_ariolica = {
+			}
+			b_randanum_ariolica = {
+			}
+			b_vindiciacum_ariolica = {
+			}
+			b_eborolacum_ariolica = {
 			}
 		}
 	}

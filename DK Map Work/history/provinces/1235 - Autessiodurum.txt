@@ -4,8 +4,14 @@
 title = c_autessiodurum
 
 # Settlements
-max_settlements = 6
+max_settlements = 4
 b_autessiodurum_autessiodurum = tribal
+#b_pons_yonne_autessiodurum = city
+#b_agedincum_autessiodurum = city
+#b_augustobona_autessiodurum = castle
+b_artiaca_autessiodurum = temple
+#b_vertillum_autessiodurum = city
+#b_eburobriga_autessiodurum = city
 
 # Misc
 culture = gaul

@@ -2,50 +2,63 @@
 # Southern Gaul #
 #################
 
-#b_varum_antipolis
-#b_ad_horrea_antipolis
-#b_avisio_antipolis
-#b_lumo_antipolis
-#b_anao_antipolis
 
-#b_forum_voconii_pergantion
-#b_fraxinetum_pergantion
-#b_alconis_pergantion
+#################
+# Northern Gaul #
+#################
 
-#b_ad_turrem_massilia
-#b_telo_martius_massilia
-#b_tegulata_massilia
-#b_calcaria_solarium_massilia
-#b_incarus_massilia
+b_ratis_teodeberciaco
+b_hermine_teodeberciaco
 
-#b_ernaginum_arausio
-#b_bellintum_arausio
-#b_glanum_arausio
-#b_vindasca_arausio
-#b_vindalium_arausio
-#b_vindasca_arausio
+b_suedas_vultaconum
 
-#b_geminae_eburodunum
-#b_sedena_eburodunum
+b_anglares_divona
+b_sicinaco_divona
+b_criscencio_divona
+b_camino_divona
+b_parnaco_divona
+b_mercurius_divona
+b_cassiaco_divona
 
-#b_sedros_narbo_martius
+b_caino_briggogalus
+b_mantolomagum_briggogalus
+b_rotomagus_briggogalus
+b_brixis_briggogalus
+b_cisomagus_briggogalus
+b_tausiriacum_briggogalus
+b_claudiomagus_briggogalus
+b_tornomagus_briggogalus
 
-#b_fines_cularo
-#b_ad_turnonem_cularo
-#b_mantala_cularo
+b_evina_gaudiaco
+b_cerate_gaudiaco
+b_onia_gaudiaco
+b_dolum_gaudiaco
+b_calatonno_gaudiaco
+b_severiacus_gaudiaco
+b_themellum_gaudiaco
+b_leprosum_gaudiaco
 
-#b_maleto_albiga
-#b_lautrego_albiga
-#b_caborinio_albiga
+b_carovicus_excidollum
+b_canaviacum_excidollum
+b_solemniacum_excidollum
+b_curisiacum_excidollum
+b_durotincum_excidollum
 
-#b_cerviano_bassiacum
-#b_granoialo_bassiacum
+b_gurdo_cavaniaco
+b_auciago_cavaniaco
+b_veroli_cavaniaco
+b_decaniacum_cavaniaco
 
-#b_domeciaco_elimberrum
-#b_praemiacum_elimberrum
-
-#b_urba_aventicum
-#b_uromagus_aventicum
+b_licaniacum_ricomagus
+b_iciodorum_ricomagus
+b_chrononum_ricomagus
+b_mercurius_ricomagus
+b_camelaria_ricomagus
+b_cantobennum_ricomagus
+b_fines_ricomagus
+b_vialoscum_ricomagus
+b_marciacum_ricomagus
+b_licaniacum_ricomagus
 
 #################
 # MAGNA GRAECIA #
