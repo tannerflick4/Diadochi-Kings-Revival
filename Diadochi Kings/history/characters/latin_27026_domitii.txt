@@ -80,6 +80,7 @@
 	father=172502	#Hortensius
 	mother=172526	#Paula
 	374.1.1={ birth=yes }
+	394.1.1={ add_spouse=172527 }
 	453.1.1={ death=yes }
 }
 172509={
@@ -110,7 +111,9 @@
 	culture=latin 
 	religion=roman_main
 	father=172508	#Gnaeus
+	mother=172527	#Claudia
 	400.12.22={ birth=yes }
+	420.1.1={ add_spouse=172528 }
 	487.5.11={ death=yes }
 }
 172512={
@@ -119,6 +122,7 @@
 	culture=latin 
 	religion=roman_main
 	father=172508	#Gnaeus
+	mother=172527	#Claudia
 	403.2.14={ birth=yes }
 	475.4.24={ death=yes }
 }
@@ -128,6 +132,7 @@
 	culture=latin 
 	religion=roman_main
 	father=172508	#Gnaeus
+	mother=172527	#Claudia
 	405.8.23={ birth=yes }
 	485.1.13={ death=yes }
 }
@@ -138,6 +143,7 @@
 	culture=latin 
 	religion=roman_main
 	father=172508	#Gnaeus
+	mother=172527	#Claudia
 	411.8.26={ birth=yes }
 	476.7.24={ death=yes }
 }
@@ -147,7 +153,9 @@
 	culture=latin 
 	religion=roman_main
 	father=172511	#Cornelius
+	mother=172528	#Livia
 	427.1.10={ birth=yes }
+	447.1.1={ add_spouse=172529 }
 	484.12.2={ death=yes }
 }
 172516={
@@ -156,6 +164,7 @@
 	culture=latin 
 	religion=roman_main
 	father=172511	#Cornelius
+	mother=172528	#Livia
 	430.2.21={ birth=yes }
 	486.9.7={ death=yes }
 }
@@ -165,6 +174,7 @@
 	culture=latin 
 	religion=roman_main
 	father=172511	#Cornelius
+	mother=172528	#Livia
 	432.1.15={ birth=yes }
 	493.6.1={ death=yes }
 }
@@ -174,7 +184,9 @@
 	culture=latin 
 	religion=roman_main
 	father=172515	#Spurius
+	mother=172529	#Oppia
 	452.7.7={ birth=yes }
+	472.1.1={ add_spouse=172530 }
 	503.5.30={ death=yes }
 }
 172519={
@@ -184,6 +196,7 @@
 	culture=latin 
 	religion=roman_main
 	father=172515	#Spurius
+	mother=172529	#Oppia
 	455.7.24={ birth=yes }
 	518.6.28={ death=yes }
 }
@@ -194,6 +207,7 @@
 	culture=latin 
 	religion=roman_main
 	father=172515	#Spurius
+	mother=172529	#Oppia
 	457.5.18={ birth=yes }
 	509.5.15={ death=yes }
 }
@@ -203,6 +217,7 @@
 	culture=latin 
 	religion=roman_main
 	father=172518	#Urgulanus
+	mother=172530	#Calvia
 	475.11.17={ birth=yes }
 	534.2.25={ death=yes }
 }
@@ -212,6 +227,7 @@
 	culture=latin 
 	religion=roman_main
 	father=172518	#Urgulanus
+	mother=172530	#Calvia
 	478.3.17={ birth=yes }
 	519.3.3={ death=yes }
 }
@@ -222,6 +238,7 @@
 	culture=latin 
 	religion=roman_main
 	father=172518	#Urgulanus
+	mother=172530	#Calvia
 	483.4.16={ birth=yes }
 	539.8.10={ death=yes }
 }
@@ -231,6 +248,7 @@
 	culture=latin 
 	religion=roman_main
 	father=172518	#Urgulanus
+	mother=172530	#Calvia
 	486.8.2={ birth=yes }
 	547.7.3={ death=yes }
 }
@@ -249,4 +267,36 @@
 	religion=roman_main
 	344.1.1={ birth=yes }
 	411.1.1={ death=yes }
+}
+172527={
+	name=Claudia
+	female=yes
+	culture=latin 
+	religion=roman_main
+	374.1.1={ birth=yes }
+	453.1.1={ death=yes }
+}
+172528={
+	name=Livia
+	female=yes
+	culture=latin 
+	religion=roman_main
+	400.1.1={ birth=yes }
+	487.1.1={ death=yes }
+}
+172529={
+	name=Oppia
+	female=yes
+	culture=latin 
+	religion=roman_main
+	427.1.1={ birth=yes }
+	484.1.1={ death=yes }
+}
+172530={
+	name=Calvia
+	female=yes
+	culture=latin 
+	religion=roman_main
+	452.1.1={ birth=yes }
+	503.1.1={ death=yes }
 }
