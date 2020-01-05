@@ -1,0 +1,15 @@
+# 1283 - Contionacum 
+
+# County Title
+title = c_contionacum
+
+# Settlements
+max_settlements = 3
+b_contionacum_contionacum = tribal
+
+# Misc
+culture = belgic
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

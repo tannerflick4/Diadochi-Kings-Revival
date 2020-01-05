@@ -1,0 +1,15 @@
+# 1273 - Bagacum 
+
+# County Title
+title = c_bagacum
+
+# Settlements
+max_settlements = 3
+b_bagacum_bagacum = tribal
+
+# Misc
+culture = belgic
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

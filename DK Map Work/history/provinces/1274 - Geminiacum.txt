@@ -1,0 +1,15 @@
+# 1274 - Geminiacum 
+
+# County Title
+title = c_geminiacum
+
+# Settlements
+max_settlements = 3
+b_geminiacum_geminiacum = tribal
+
+# Misc
+culture = belgic
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

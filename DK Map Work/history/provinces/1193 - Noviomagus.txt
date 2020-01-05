@@ -14,7 +14,7 @@ b_noviomagus_noviomagus = tribal
 #b_caborinio_noviomagus = temple
 
 # Misc
-culture = gaul
+culture = belgic
 religion = celtic_main
 
 # History

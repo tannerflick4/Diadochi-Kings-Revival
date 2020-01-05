@@ -1,0 +1,15 @@
+# 1269 - Turnacum 
+
+# County Title
+title = c_turnacum
+
+# Settlements
+max_settlements = 3
+b_turnacum_turnacum = tribal
+
+# Misc
+culture = belgic
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

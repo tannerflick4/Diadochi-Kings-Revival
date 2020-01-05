@@ -1,0 +1,15 @@
+# 1263 - Iatonon 
+
+# County Title
+title = c_iatonon
+
+# Settlements
+max_settlements = 3
+b_iatonon_iatonon = tribal
+
+# Misc
+culture = belgic
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

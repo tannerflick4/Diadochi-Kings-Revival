@@ -1,0 +1,15 @@
+# 1268 - Tarvenna 
+
+# County Title
+title = c_tarvenna
+
+# Settlements
+max_settlements = 3
+b_tarvenna_tarvenna = tribal
+
+# Misc
+culture = belgic
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,15 @@
+# 1270 - Helinio 
+
+# County Title
+title = c_helinio
+
+# Settlements
+max_settlements = 3
+b_helinio_helinio = tribal
+
+# Misc
+culture = belgic
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

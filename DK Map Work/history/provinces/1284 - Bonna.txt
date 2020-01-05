@@ -1,0 +1,15 @@
+# 1284 - Bonna 
+
+# County Title
+title = c_bonna
+
+# Settlements
+max_settlements = 3
+b_bonna_bonna = tribal
+
+# Misc
+culture = belgic
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

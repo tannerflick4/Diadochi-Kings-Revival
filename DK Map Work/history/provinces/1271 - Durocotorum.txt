@@ -1,0 +1,15 @@
+# 1271 - Durocotorum 
+
+# County Title
+title = c_durocotorum
+
+# Settlements
+max_settlements = 3
+b_durocotorum_durocotorum = tribal
+
+# Misc
+culture = belgic
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

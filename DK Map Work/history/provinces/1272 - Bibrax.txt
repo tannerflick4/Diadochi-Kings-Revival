@@ -1,0 +1,15 @@
+# 1272 - Bibrax 
+
+# County Title
+title = c_bibrax
+
+# Settlements
+max_settlements = 3
+b_bibrax_bibrax = tribal
+
+# Misc
+culture = belgic
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

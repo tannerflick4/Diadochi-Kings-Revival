@@ -15995,6 +15995,226 @@ k_raetia = {
 		}
 	}
 }
+k_belgica = {
+	color={ 225 255 0 }
+	color2={ 255 255 255 }
+
+	d_belgica = {
+		color={ 225 255 0 }
+		color2={ 255 255 255 }
+
+		c_rotomagus = {
+			color= { 75 175 25 }
+			color2= { 255 255 255 }
+			
+			b_rotomagus_rotomagus = {
+			}
+		}
+		c_petromantulum = {
+			color= { 75 175 25 }
+			color2= { 255 255 255 }
+			
+			b_petromantulum_petromantulum = {
+			}
+		}
+		c_iatonon = {
+			color= { 75 175 25 }
+			color2= { 255 255 255 }
+			
+			b_iatonon_iatonon = {
+			}
+		}
+		c_isara = {
+			color= { 75 175 25 }
+			color2= { 255 255 255 }
+			
+			b_isara_isara = {
+			}
+		}
+		c_samarobriva = {
+			color= { 75 175 25 }
+			color2= { 255 255 255 }
+			
+			b_samarobriva_samarobriva = {
+			}
+		}
+		c_gesoriacum = {
+			color= { 75 175 25 }
+			color2= { 255 255 255 }
+			
+			b_gesoriacum_gesoriacum = {
+			}
+		}
+		c_nemetacum = {
+			color= { 75 175 25 }
+			color2= { 255 255 255 }
+			
+			b_nemetacum_nemetacum = {
+			}
+		}
+		c_tarvenna = {
+			color= { 75 175 25 }
+			color2= { 255 255 255 }
+			
+			b_tarvenna_tarvenna = {
+			}
+		}
+		c_turnacum = {
+			color= { 75 175 25 }
+			color2= { 255 255 255 }
+			
+			b_turnacum_turnacum = {
+			}
+		}
+		c_helinio = {
+			color= { 75 175 25 }
+			color2= { 255 255 255 }
+			
+			b_helinio_helinio = {
+			}
+		}
+		c_durocotorum = {
+			color= { 75 175 25 }
+			color2= { 255 255 255 }
+			
+			b_durocotorum_durocotorum = {
+			}
+		}
+		c_bibrax = {
+			color= { 75 175 25 }
+			color2= { 255 255 255 }
+			
+			b_bibrax_bibrax = {
+			}
+		}
+		c_bagacum = {
+			color= { 75 175 25 }
+			color2= { 255 255 255 }
+			
+			b_bagacum_bagacum = {
+			}
+		}
+		c_geminiacum = {
+			color= { 75 175 25 }
+			color2= { 255 255 255 }
+			
+			b_geminiacum_geminiacum = {
+			}
+		}
+		c_mosomagus = {
+			color= { 75 175 25 }
+			color2= { 255 255 255 }
+			
+			b_mosomagus_mosomagus = {
+			}
+		}
+		c_nasium = {
+			color= { 75 175 25 }
+			color2= { 255 255 255 }
+			
+			b_nasium_nasium = {
+			}
+		}
+		c_viriodunum = {
+			color= { 75 175 25 }
+			color2= { 255 255 255 }
+			
+			b_viriodunum_viriodunum = {
+			}
+		}
+		c_divodurum = {
+			color= { 75 175 25 }
+			color2= { 255 255 255 }
+			
+			b_divodurum_divodurum = {
+			}
+		}
+		c_argentorate = {
+			color= { 75 175 25 }
+			color2= { 255 255 255 }
+			
+			b_argentorate_argentorate = {
+			}
+		}
+		c_borbetomagus = {
+			color= { 75 175 25 }
+			color2= { 255 255 255 }
+			
+			b_borbetomagus_borbetomagus = {
+			}
+		}
+		c_mogontiacum = {
+			color= { 75 175 25 }
+			color2= { 255 255 255 }
+			
+			b_mogontiacum_mogontiacum = {
+			}
+		}
+		c_dumnissus = {
+			color= { 75 175 25 }
+			color2= { 255 255 255 }
+			
+			b_dumnissus_dumnissus = {
+			}
+		}
+		c_contionacum = {
+			color= { 75 175 25 }
+			color2= { 255 255 255 }
+			
+			b_contionacum_contionacum = {
+			}
+		}
+		c_bonna = {
+			color= { 75 175 25 }
+			color2= { 255 255 255 }
+			
+			b_bonna_bonna = {
+			}
+		}
+		c_belsonancum = {
+			color= { 75 175 25 }
+			color2= { 255 255 255 }
+			
+			b_belsonancum_belsonancum = {
+			}
+		}
+		c_teudurum = {
+			color= { 75 175 25 }
+			color2= { 255 255 255 }
+			
+			b_teudurum_teudurum = {
+			}
+		}
+		c_atuatuca = {
+			color= { 75 175 25 }
+			color2= { 255 255 255 }
+			
+			b_atuatuca_atuatuca = {
+			}
+		}
+		c_batavodurum = {
+			color= { 75 175 25 }
+			color2= { 255 255 255 }
+			
+			b_batavodurum_batavodurum = {
+			}
+		}
+		c_asciburgium = {
+			color= { 75 175 25 }
+			color2= { 255 255 255 }
+			
+			b_asciburgium_asciburgium = {
+			}
+		}
+		c_novaesium = {
+			color= { 75 175 25 }
+			color2= { 255 255 255 }
+			
+			b_novaesium_novaesium = {
+			}
+		}
+	}
+}
 k_kush = {
 	color={ 225 255 0 }
 	color2={ 255 255 255 }

@@ -14,7 +14,7 @@ b_durocatalaunum_durocatalaunum = tribal
 #b_cret_durocatalaunum = temple
 
 # Misc
-culture = gaul
+culture = belgic
 religion = celtic_main
 
 # History

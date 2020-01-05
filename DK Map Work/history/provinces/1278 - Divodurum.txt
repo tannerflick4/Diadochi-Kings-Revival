@@ -1,0 +1,15 @@
+# 1278 - Divodurum 
+
+# County Title
+title = c_divodurum
+
+# Settlements
+max_settlements = 3
+b_divodurum_divodurum = tribal
+
+# Misc
+culture = belgic
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

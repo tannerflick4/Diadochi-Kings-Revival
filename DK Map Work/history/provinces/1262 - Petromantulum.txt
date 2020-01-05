@@ -1,0 +1,15 @@
+# 1262 - Petromantulum 
+
+# County Title
+title = c_petromantulum
+
+# Settlements
+max_settlements = 3
+b_petromantulum_petromantulum = tribal
+
+# Misc
+culture = belgic
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

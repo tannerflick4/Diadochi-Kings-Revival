@@ -1,0 +1,15 @@
+# 1275 - Mosomagus 
+
+# County Title
+title = c_mosomagus
+
+# Settlements
+max_settlements = 3
+b_mosomagus_mosomagus = tribal
+
+# Misc
+culture = belgic
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

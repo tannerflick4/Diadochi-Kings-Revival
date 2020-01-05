@@ -1,0 +1,15 @@
+# 1280 - Borbetomagus 
+
+# County Title
+title = c_borbetomagus
+
+# Settlements
+max_settlements = 3
+b_borbetomagus_borbetomagus = tribal
+
+# Misc
+culture = belgic
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

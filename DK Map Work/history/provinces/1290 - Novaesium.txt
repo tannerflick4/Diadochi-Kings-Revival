@@ -1,0 +1,15 @@
+# 1290 - Novaesium 
+
+# County Title
+title = c_novaesium
+
+# Settlements
+max_settlements = 3
+b_novaesium_novaesium = tribal
+
+# Misc
+culture = belgic
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,15 @@
+# 1281 - Mogontiacum 
+
+# County Title
+title = c_mogontiacum
+
+# Settlements
+max_settlements = 3
+b_mogontiacum_mogontiacum = tribal
+
+# Misc
+culture = belgic
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

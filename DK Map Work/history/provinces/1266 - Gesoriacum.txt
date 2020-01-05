@@ -1,0 +1,15 @@
+# 1266 - Gesoriacum 
+
+# County Title
+title = c_gesoriacum
+
+# Settlements
+max_settlements = 3
+b_gesoriacum_gesoriacum = tribal
+
+# Misc
+culture = belgic
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

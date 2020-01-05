@@ -14,7 +14,7 @@ b_luxovium_luxovium = tribal
 #b_uromagus_luxovium = temple
 
 # Misc
-culture = gaul
+culture = belgic
 religion = celtic_main
 
 # History

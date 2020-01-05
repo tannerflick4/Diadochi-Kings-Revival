@@ -1,0 +1,15 @@
+# 1261 - Rotomagus 
+
+# County Title
+title = c_rotomagus
+
+# Settlements
+max_settlements = 3
+b_rotomagus_rotomagus = tribal
+
+# Misc
+culture = belgic
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

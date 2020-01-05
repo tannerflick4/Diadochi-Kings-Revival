@@ -1,0 +1,15 @@
+# 1282 - Dumnissus 
+
+# County Title
+title = c_dumnissus
+
+# Settlements
+max_settlements = 3
+b_dumnissus_dumnissus = tribal
+
+# Misc
+culture = belgic
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

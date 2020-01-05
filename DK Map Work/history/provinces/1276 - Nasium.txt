@@ -1,0 +1,15 @@
+# 1276 - Nasium 
+
+# County Title
+title = c_nasium
+
+# Settlements
+max_settlements = 3
+b_nasium_nasium = tribal
+
+# Misc
+culture = belgic
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

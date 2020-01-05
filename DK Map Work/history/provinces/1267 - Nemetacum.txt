@@ -1,0 +1,15 @@
+# 1267 - Nemetacum 
+
+# County Title
+title = c_nemetacum
+
+# Settlements
+max_settlements = 3
+b_nemetacum_nemetacum = tribal
+
+# Misc
+culture = belgic
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province
