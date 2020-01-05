@@ -17,3 +17,123 @@
     name = "Germani"
     culture = belgic
 }
+
+# Belgica
+47005 = {
+    name = "Ambiani"
+    culture = belgic
+}
+47006 = {
+    name = "Ambivareti"
+    culture = belgic
+}
+47007 = {
+    name = "Atrebates"
+    culture = belgic
+}
+47008 = {
+    name = "Bellovaci"
+    culture = belgic
+}
+47009 = {
+    name = "Caleti"
+    culture = belgic
+}
+47010 = {
+    name = "Catalauni"
+    culture = belgic
+}
+47011 = {
+    name = "Catuslogi"
+    culture = belgic
+}
+47012 = {
+    name = "Eburones"
+    culture = belgic
+}
+47013 = {
+    name = "Leuci"
+    culture = belgic
+}
+47014 = {
+    name = "Mediomatrici"
+    culture = belgic
+}
+47015 = {
+    name = "Meldi"
+    culture = belgic
+}
+47016 = {
+    name = "Menapii"
+    culture = belgic
+}
+47017 = {
+    name = "Morini"
+    culture = belgic
+}
+47018 = {
+    name = "Nervii"
+    culture = belgic
+}
+47019 = {
+    name = "Ceutrones"
+    culture = belgic
+}
+47020 = {
+    name = "Grudii"
+    culture = belgic
+}
+47021 = {
+    name = "Levaci"
+    culture = belgic
+}
+47022 = {
+    name = "Pleumoxii"
+    culture = belgic
+}
+47023 = {
+    name = "Remi"
+    culture = belgic
+}
+47024 = {
+    name = "Silvanectii"
+    culture = belgic
+}
+47025 = {
+    name = "Suessiones"
+    culture = belgic
+}
+47026 = {
+    name = "Tencteri"
+    culture = belgic
+}
+47027 = {
+    name = "Treveri"
+    culture = belgic
+}
+47028 = {
+    name = "Usipetes"
+    culture = belgic
+}
+47029 = {
+    name = "Veliocasses"
+    culture = belgic
+}
+47030 = {
+    name = "Viromandui"
+    culture = belgic
+}
+
+# Britain
+47031 = {
+    name = "Atrebates"
+    culture = belgic
+}
+47032 = {
+    name = "Belgae"
+    culture = belgic
+}
+47033 = {
+    name = "Catuvellauni"
+    culture = belgic
+}
