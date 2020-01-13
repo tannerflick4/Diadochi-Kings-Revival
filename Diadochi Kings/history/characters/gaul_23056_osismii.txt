@@ -1,207 +1,180 @@
-# 404.1.1={holder=234201} #Commius[23056]
-# 428.01.01={holder=234202} #Acco[23056]
-# 451.06.19={holder=234210} #Litaviccus[23056]
-# 507.01.03={holder=234214} #Orgetorix[23056]
-# 507.08.21={holder=234218} #Bathanatos[23056]
-
-# 234201={
-	# name=Commius
-	# dynasty=23056
-	# dna="lbdehjpkpkp"
-	# culture=gaul religion=celtic_main
-	# martial=6 diplomacy=5 stewardship=4 intrigue=7 learning=8
-	# add_trait=skilled_tactician add_trait=greedy add_trait=diligent add_trait=honest add_trait=envious 
-	# 379.2.12={ birth=yes }
-	# 428.1.1={ death=yes }
-# }
-# 234202={
-	# name=Acco
-	# dynasty=23056
-	# dna="mbdcppckpkp"
-	# culture=gaul religion=celtic_main
-	# martial=6 diplomacy=4 stewardship=5 intrigue=4 learning=5
-	# add_trait=charismatic_negotiator add_trait=temperate add_trait=lustful add_trait=honest add_trait=slothful 
-	# father=234201	#Commius
-	# 405.7.17={ birth=yes }
-	# 451.6.19={ death=yes }
-# }
-# 234203={
-	# name=Vevila
-	# female=yes
-	# dynasty=23056
-	# dna="lbdehbphpnp"
-	# culture=gaul religion=celtic_main
-	# father=234201	#Commius
-	# 408.11.7={ birth=yes }
-	# 456.1.3={ death=yes }
-# }
-# 234204={
-	# name=Brietta
-	# female=yes
-	# dynasty=23056
-	# dna="lbdnhjpdmkp"
-	# culture=gaul religion=celtic_main
-	# father=234201	#Commius
-	# 412.12.12={ birth=yes }
-	# 476.9.9={ death=yes }
-# }
-# 234205={
-	# name=Brennus
-	# dynasty=23056
-	# dna="lbdkhodnlkp"
-	# culture=gaul religion=celtic_main
-	# martial=4 diplomacy=6 stewardship=6 intrigue=5 learning=8
-	# add_trait=detached_priest add_trait=cruel add_trait=slothful 
-	# father=234201	#Commius
-	# 415.3.9={ birth=yes }
-	# 482.8.17={ death=yes }
-# }
-# 234206={
-	# name=Treva
-	# female=yes
-	# dynasty=23056
-	# dna="lbdacjphpkp"
-	# culture=gaul religion=celtic_main
-	# father=234201	#Commius
-	# 418.10.14={ birth=yes }
-	# 478.11.9={ death=yes }
-# }
-# 234207={
-	# name=Genovefa
-	# female=yes
-	# dynasty=23056
-	# dna="liikhehklkl"
-	# culture=gaul religion=celtic_main
-	# father=234201	#Commius
-	# 420.9.15={ birth=yes }
-	# 490.6.1={ death=yes }
-# }
-# 234208={
-	# name=Vevila
-	# female=yes
-	# dynasty=23056
-	# dna="bmdeejpnpkp"
-	# culture=gaul religion=celtic_main
-	# father=234201	#Commius
-	# 424.4.7={ birth=yes }
-	# 469.7.17={ death=yes }
-# }
-# 234209={
-	# name=Treva
-	# female=yes
-	# dynasty=23056
-	# dna="bedcepciidp"
-	# culture=gaul religion=celtic_main
-	# father=234202	#Acco
-	# 428.12.26={ birth=yes }
-	# 475.4.1={ death=yes }
-# }
-# 234210={
-	# name=Litaviccus
-	# dynasty=23056
-	# dna="mbiopkckgkl"
-	# culture=gaul religion=celtic_main
-	# martial=7 diplomacy=8 stewardship=6 intrigue=7 learning=4
-	# add_trait=martial_cleric add_trait=impaler add_trait=kind add_trait=honest add_trait=ambitious 
-	# add_trait=arbitrary add_trait=wroth 
-	# father=234202	#Acco
-	# 432.5.20={ birth=yes }
-	# 507.1.3={ death=yes }
-# }
-# 234211={
-	# name=Eporedix
-	# dynasty=23056
-	# dna="nlpleaekpop"
-	# culture=gaul religion=celtic_main
-	# martial=8 diplomacy=8 stewardship=4 intrigue=4 learning=8
-	# add_trait=martial_cleric add_trait=diligent add_trait=arbitrary 
-	# father=234202	#Acco
-	# 435.9.4={ birth=yes }
-	# 506.2.27={ death=yes }
-# }
-# 234212={
-	# name=Treva
-	# female=yes
-	# dynasty=23056
-	# dna="phdcppikekl"
-	# culture=gaul religion=celtic_main
-	# father=234202	#Acco
-	# 441.12.19={ birth=yes }
-	# 495.12.25={ death=yes }
-# }
-# 234213={
-	# name=Kyna
-	# female=yes
-	# dynasty=23056
-	# dna="mleaokdkigl"
-	# culture=gaul religion=celtic_main
-	# father=234210	#Litaviccus
-	# 458.11.15={ birth=yes }
-	# 530.3.15={ death=yes }
-# }
-# 234214={
-	# name=Orgetorix
-	# dynasty=23056
-	# dna="ceboakpkgba"
-	# culture=gaul religion=celtic_main
-	# martial=6 diplomacy=5 stewardship=7 intrigue=6 learning=6
-	# add_trait=flamboyant_schemer add_trait=wroth add_trait=temperate 
-	# father=234210	#Litaviccus
-	# 459.1.14={ birth=yes }
-	# 507.8.21={ death=yes }
-# }
-# 234215={
-	# name=Mavis
-	# female=yes
-	# dynasty=23056
-	# dna="mkickdpkgkb"
-	# culture=gaul religion=celtic_main
-	# father=234210	#Litaviccus
-	# 463.8.12={ birth=yes }
-	# 536.9.18={ death=yes }
-# }
-# 234216={
-	# name=Boduognatus
-	# dynasty=23056
-	# dna="gafoihchnkp"
-	# culture=gaul religion=celtic_main
-	# martial=4 diplomacy=4 stewardship=6 intrigue=5 learning=5
-	# add_trait=midas_touched add_trait=hedonist add_trait=zealous add_trait=trusting add_trait=brave 
-	# add_trait=content add_trait=drunkard 
-	# father=234210	#Litaviccus
-	# 467.9.22={ birth=yes }
-	# 519.5.10={ death=yes }
-# }
-# 234217={
-	# name=Galena
-	# female=yes
-	# dynasty=23056
-	# dna="nbidpkjjcll"
-	# culture=gaul religion=celtic_main
-	# father=234210	#Litaviccus
-	# 471.9.3={ birth=yes }
-	# 532.4.23={ death=yes }
-# }
-# 234218={
-	# name=Bathanatos
-	# dynasty=23056
-	# dna="aeboofplopa"
-	# culture=gaul religion=celtic_main
-	# martial=4 diplomacy=5 stewardship=8 intrigue=8 learning=7
-	# add_trait=misguided_warrior add_trait=kind add_trait=slothful add_trait=arbitrary add_trait=zealous 
-	# add_trait=humble 
-	# father=234214	#Orgetorix
-	# 482.5.9={ birth=yes }
-	# 531.3.8={ death=yes }
-# }
-# 234219={
-	# name=Cotuatus
-	# dynasty=23056
-	# dna="aebkokpkjak"
-	# culture=gaul religion=celtic_main
-	# martial=5 diplomacy=5 stewardship=5 intrigue=4 learning=4
-	# add_trait=flamboyant_schemer add_trait=ambitious add_trait=diligent add_trait=arbitrary add_trait=cruel 
-	# father=234214	#Orgetorix
-	# 484.9.21={ birth=yes }
-	# 538.3.27={ death=yes }
-# }
+234201={
+	name=Commius
+	dynasty=23056
+	culture=gaul 
+	religion=celtic_main
+	379.2.12={ birth=yes }
+	428.1.1={ death=yes }
+}
+234202={
+	name=Acco
+	dynasty=23056
+	culture=gaul 
+	religion=celtic_main
+	father=234201	#Commius
+	405.7.17={ birth=yes }
+	451.6.19={ death=yes }
+}
+234203={
+	name=Vevila
+	female=yes
+	dynasty=23056
+	culture=gaul 
+	religion=celtic_main
+	father=234201	#Commius
+	408.11.7={ birth=yes }
+	456.1.3={ death=yes }
+}
+234204={
+	name=Brietta
+	female=yes
+	dynasty=23056
+	culture=gaul 
+	religion=celtic_main
+	father=234201	#Commius
+	412.12.12={ birth=yes }
+	476.9.9={ death=yes }
+}
+234205={
+	name=Brennus
+	dynasty=23056
+	culture=gaul 
+	religion=celtic_main
+	father=234201	#Commius
+	415.3.9={ birth=yes }
+	482.8.17={ death=yes }
+}
+234206={
+	name=Treva
+	female=yes
+	dynasty=23056
+	culture=gaul 
+	religion=celtic_main
+	father=234201	#Commius
+	418.10.14={ birth=yes }
+	478.11.9={ death=yes }
+}
+234207={
+	name=Genovefa
+	female=yes
+	dynasty=23056
+	culture=gaul 
+	religion=celtic_main
+	father=234201	#Commius
+	420.9.15={ birth=yes }
+	490.6.1={ death=yes }
+}
+234208={
+	name=Vevila
+	female=yes
+	dynasty=23056
+	culture=gaul 
+	religion=celtic_main
+	father=234201	#Commius
+	424.4.7={ birth=yes }
+	469.7.17={ death=yes }
+}
+234209={
+	name=Treva
+	female=yes
+	dynasty=23056
+	culture=gaul 
+	religion=celtic_main
+	father=234202	#Acco
+	428.12.26={ birth=yes }
+	475.4.1={ death=yes }
+}
+234210={
+	name=Litaviccus
+	dynasty=23056
+	culture=gaul 
+	religion=celtic_main
+	father=234202	#Acco
+	432.5.20={ birth=yes }
+	507.1.3={ death=yes }
+}
+234211={
+	name=Eporedix
+	dynasty=23056
+	culture=gaul 
+	religion=celtic_main
+	father=234202	#Acco
+	435.9.4={ birth=yes }
+	506.2.27={ death=yes }
+}
+234212={
+	name=Treva
+	female=yes
+	dynasty=23056
+	culture=gaul 
+	religion=celtic_main
+	father=234202	#Acco
+	441.12.19={ birth=yes }
+	495.12.25={ death=yes }
+}
+234213={
+	name=Kyna
+	female=yes
+	dynasty=23056
+	culture=gaul 
+	religion=celtic_main
+	father=234210	#Litaviccus
+	458.11.15={ birth=yes }
+	530.3.15={ death=yes }
+}
+234214={
+	name=Orgetorix
+	dynasty=23056
+	culture=gaul 
+	religion=celtic_main
+	father=234210	#Litaviccus
+	459.1.14={ birth=yes }
+	507.8.21={ death=yes }
+}
+234215={
+	name=Mavis
+	female=yes
+	dynasty=23056
+	culture=gaul 
+	religion=celtic_main
+	father=234210	#Litaviccus
+	463.8.12={ birth=yes }
+	536.9.18={ death=yes }
+}
+234216={
+	name=Boduognatus
+	dynasty=23056
+	culture=gaul 
+	religion=celtic_main
+	father=234210	#Litaviccus
+	467.9.22={ birth=yes }
+	519.5.10={ death=yes }
+}
+234217={
+	name=Galena
+	female=yes
+	dynasty=23056
+	culture=gaul 
+	religion=celtic_main
+	father=234210	#Litaviccus
+	471.9.3={ birth=yes }
+	532.4.23={ death=yes }
+}
+234218={
+	name=Bathanatos
+	dynasty=23056
+	culture=gaul 
+	religion=celtic_main
+	father=234214	#Orgetorix
+	482.5.9={ birth=yes }
+	531.3.8={ death=yes }
+}
+234219={
+	name=Cotuatus
+	dynasty=23056
+	culture=gaul 
+	religion=celtic_main
+	father=234214	#Orgetorix
+	484.9.21={ birth=yes }
+	538.3.27={ death=yes }
+}

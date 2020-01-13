@@ -418,20 +418,19 @@ targetted_decisions = {
 			religion_authority = {
 				modifier = ruler_converted_from
 			}
-			# TODO: Sympathies
-			#if = {
-			#	limit = {
-			#		religion_group = christian
-			#		NOT = { trait = sympathy_christendom }
-			#		capital_scope = {
-			#			NOT = { true_religion_group = ROOT }
-			#		}
-			#	}
-			#	random = {
-			#		chance = 60
-			#		add_trait = sympathy_christendom
-			#	}
-			#}
+			if = {
+				limit = {
+					religion_group = egyptian_religion
+					NOT = { trait = sympathy_egyptian_religion }
+					capital_scope = {
+						NOT = { true_religion_group = ROOT }
+					}
+				}
+				random = {
+					chance = 60
+					add_trait = sympathy_egyptian_religion
+				}
+			}
 			custom_tooltip = { text = local_religion_conversion_tooltip }
 			hidden_tooltip = {
 				capital_scope = {
@@ -963,39 +962,13 @@ decisions = {
 				}
 			}
 
-			# TODO: Sympathies
-			#if = {
-			#	limit = { event_target:enemy_attacker = { NOT = { religion_group = ROOT } } }
-			#	if = {
-			#		limit = { religion_group = pagan_group }
-			#		add_trait = sympathy_pagans
-			#	}
-			#	
-			#	if = {
-			#		limit = { religion_group = zoroastrian_group }
-			#		add_trait = sympathy_zoroastrianism
-			#	}
-			#	
-			#	if = {
-			#		limit = { religion_group = christian }
-			#		add_trait = sympathy_christendom
-			#	}
-			#	
-			#	if = {
-			#		limit = { religion_group = muslim }
-			#		add_trait = sympathy_islam
-			#	}
-			#	
-			#	if = {
-			#		limit = { religion_group = jewish_group }
-			#		add_trait = sympathy_judaism
-			#	}
-			#	
-			#	if = {
-			#		limit = { religion_group = indian_group }
-			#		add_trait = sympathy_indian
-			#	}
-			#}
+			if = {
+				limit = { event_target:enemy_attacker = { NOT = { religion_group = ROOT } } }
+				if = {
+					limit = { religion_group = egyptian_religion }
+					add_trait = sympathy_egyptian_religion
+				}
+			}
 			event_target:enemy_attacker = {
 				hidden_tooltip = {
 					letter_event = { id = 62800 }

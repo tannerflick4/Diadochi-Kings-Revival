@@ -3714,14 +3714,8 @@ character_event = {
 							any_friend = { NOT = { religion_group = ROOT } }
 							any_sibling = { NOT = { religion_group = ROOT } }
 						}
-						# TODO: Add sympathies.
 						trait = cynical
-						#trait = sympathy_christendom
-						#trait = sympathy_islam
-						#trait = sympathy_pagans
-						#trait = sympathy_zoroastrianism
-						#trait = sympathy_judaism
-						#trait = sympathy_indian
+						trait = sympathy_egyptian_religion
 					}
 				}
 				set_character_flag = curious_sympathy_religion
@@ -3739,29 +3733,28 @@ character_event = {
 			}
 		}
 		
-		# If sympathy for religion, choose which one...
-		#if = {
-		#	limit = { has_character_flag = curious_sympathy_religion }
-		#	# TODO: Add sympathies.
-		#	random_list = {
-		#		10 = {
-		#			set_character_flag = add_sympathy_christendom
-		#			modifier = {
-		#				factor = 0
-		#				religion_group = christian
-		#			}
-		#			modifier = {
-		#				factor = 0
-		#				NOR = {
-		#					educator = { religion_group = christian }
-		#					location = { religion_group = christian } 
-		#					any_friend = { religion_group = christian }
-		#					any_sibling = { religion_group = christian } 
-		#				}
-		#			}
-		#		}
-		#	}
-		#}
+		If sympathy for religion, choose which one...
+		if = {
+			limit = { has_character_flag = curious_sympathy_religion }
+			random_list = {
+				10 = {
+					set_character_flag = add_sympathy_egyptian_religion
+					modifier = {
+						factor = 0
+						religion_group = egyptian_religion
+					}
+					modifier = {
+						factor = 0
+						NOR = {
+							educator = { religion_group = egyptian_religion }
+							location = { religion_group = egyptian_religion } 
+							any_friend = { religion_group = egyptian_religion }
+							any_sibling = { religion_group = egyptian_religion } 
+						}
+					}
+				}
+			}
+		}
 
 		if = {
 			limit = {
@@ -3778,13 +3771,7 @@ character_event = {
 							any_sibling = { NOT = { religion_group = ROOT } }
 						}
 						trait = cynical
-						# TODO: Add sympathies.
-						#trait = sympathy_christendom
-						#trait = sympathy_islam
-						#trait = sympathy_pagans
-						#trait = sympathy_zoroastrianism
-						#trait = sympathy_judaism
-						#trait = sympathy_indian
+						trait = sympathy_egyptian_religion
 					}
 					OR = {
 						trait = shrewd
@@ -3878,13 +3865,12 @@ character_event = {
 		trigger = {
 			has_character_flag = curious_sympathy_religion
 		}
-		# TODO: Add sympathies.
-		#if = {
-		#	limit = { has_character_flag = add_sympathy_christendom }
-		#	remove_trait = curious
-		#	add_trait = sympathy_christendom
-		#	clr_character_flag = add_sympathy_christendom
-		#}
+		if = {
+			limit = { has_character_flag = add_sympathy_egyptian_religion }
+			remove_trait = curious
+			add_trait = sympathy_egyptian_religion
+			clr_character_flag = add_sympathy_egyptian_religion
+		}
 		clr_character_flag = curious_sympathy_religion
 	}
 	option = {
@@ -3975,15 +3961,14 @@ character_event = {
 			limit = { FROM = { has_character_flag = curious_to_cynical } }
 			tooltip = { FROM = { remove_trait = curious add_trait = cynical } }
 		}
-		# TODO: Add sympathies.
-		#if = {
-		#	limit = {
-		#		FROM = {
-		#			has_character_flag = add_sympathy_christendom
-		#		}
-		#	}
-		#	tooltip = { FROM = { remove_trait = curious add_trait = sympathy_christendom } }
-		#}
+		if = {
+			limit = {
+				FROM = {
+					has_character_flag = add_sympathy_egyptian_religion
+				}
+			}
+			tooltip = { FROM = { remove_trait = curious add_trait = sympathy_egyptian_religion } }
+		}
 		if = {
 			limit = {
 				FROM = {
@@ -4134,12 +4119,11 @@ character_event = {
 			has_character_flag = curious_sympathy_religion
 		}
 		remove_trait = curious
-		# TODO: Add sympathies.
-		#if = {
-		#	limit = { has_character_flag = add_sympathy_christendom }
-		#	add_trait = sympathy_christendom
-		#	clr_character_flag = add_sympathy_christendom
-		#}
+		if = {
+			limit = { has_character_flag = add_sympathy_egyptian_religion }
+			add_trait = sympathy_egyptian_religion
+			clr_character_flag = add_sympathy_egyptian_religion
+		}
 		clr_character_flag = curious_sympathy_religion
 	}
 	option = {
@@ -4199,13 +4183,7 @@ character_event = {
 					OR = {
 						trait = cynical
 						trait = zealous
-						# TODO: Add sympathies
-						#trait = sympathy_christendom
-						#trait = sympathy_islam
-						#trait = sympathy_pagans
-						#trait = sympathy_zoroastrianism
-						#trait = sympathy_judaism
-						#trait = sympathy_indian
+						trait = sympathy_egyptian_religion
 					}
 				}
 				modifier = {
@@ -4252,13 +4230,7 @@ character_event = {
 					OR = {
 						trait = cynical
 						trait = zealous
-						# TODO: Add sympathies.
-						#trait = sympathy_christendom
-						#trait = sympathy_islam
-						#trait = sympathy_pagans
-						#trait = sympathy_zoroastrianism
-						#trait = sympathy_judaism
-						#trait = sympathy_indian
+						trait = sympathy_egyptian_religion
 					}
 					trait = erudite
 					OR = {
