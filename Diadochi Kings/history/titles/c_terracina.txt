@@ -99,7 +99,7 @@
 	holder = 171506 # Publius Cornelius Scapula
 }
 449.1.1 = { # 327 BC
-	holder = 172601 # Quintus Publilius Philo
+	holder = 172619 # Quintus Publilius Philo
 }
 450.1.1 = { # 326 BC
 	holder = 170401 # Gaius Poetelius Libo Visolus
