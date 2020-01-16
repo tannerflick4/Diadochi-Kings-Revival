@@ -151,8 +151,8 @@ succession_laws = {
 			holder_scope = {
 				OR = {
 					has_religion_feature = religion_beatification
-					has_religion_feature = religion_feature_baltic
-					has_religion_feature = religion_feature_west_african
+					#removeme has_religion_feature = religion_feature_baltic
+					#removeme has_religion_feature = religion_feature_west_african
 				}
 			}
 			holder_scope = {
@@ -203,8 +203,8 @@ succession_laws = {
 				holder_scope = {
 					OR = {
 						has_religion_feature = religion_beatification
-						has_religion_feature = religion_feature_baltic
-						has_religion_feature = religion_feature_west_african
+						#removeme has_religion_feature = religion_feature_baltic
+						#removeme has_religion_feature = religion_feature_west_african
 					}
 				}
 				custom_tooltip = {
@@ -1028,7 +1028,7 @@ gender_laws = {
 							is_nomadic = no
 						}
 						has_religion_feature = religion_equal
-						has_religion_feature = religion_feature_bon
+						#removeme has_religion_feature = religion_feature_bon
 						AND = {
 							has_dlc = "Zeus"
 							ROOT = { holder_scope = { primary_title = { has_law = status_of_women_4 } } }

@@ -10,7 +10,7 @@ government_flavor = {
 		government = feudal_government
 		OR = {
 			has_law = succ_feudal_elective
-			has_law = succ_hre_elective
+			#removeme has_law = succ_hre_elective
 		}
 		NOR = { 
 			has_law = imperial_administration
@@ -38,7 +38,10 @@ government_flavor = {
 	priority = 1
 	trigger = {
 		government = feudal_government
-		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		NOR = {
+			has_law = succ_feudal_elective
+			#removeme has_law = succ_hre_elective
+		}
 		mercenary = no
 		NOT = {
 			has_dharmic_religion_trigger = yes
@@ -66,7 +69,10 @@ government_flavor = {
 	priority = 1
 	trigger = {
 		government = feudal_government
-		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		NOR = {
+			has_law = succ_feudal_elective
+			#removeme has_law = succ_hre_elective
+		}
 		mercenary = no
 		has_dharmic_religion_trigger = yes
 		NOR = { 
@@ -92,7 +98,10 @@ government_flavor = {
 	priority = 1
 	trigger = {
 		government = feudal_government
-		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		OR = {
+			has_law = succ_feudal_elective
+			#removeme has_law = succ_hre_elective
+		}
 		NOT = {
 			religion = zoroastrian_main
 		}
@@ -130,7 +139,10 @@ government_flavor = {
 	priority = 1
 	trigger = {
 		government = feudal_government
-		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		OR = {
+			has_law = succ_feudal_elective
+			#removeme has_law = succ_hre_elective
+		}
 		religion = zoroastrian_main
 		NOR = { 
 			has_law = imperial_administration
@@ -166,7 +178,10 @@ government_flavor = {
 	priority = 1
 	trigger = {
 		government = feudal_government
-		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		NOR = {
+			has_law = succ_feudal_elective
+			#removeme has_law = succ_hre_elective
+		}
 		mercenary = no
 		NOR = {
 			has_dharmic_religion_trigger = yes
@@ -209,7 +224,10 @@ government_flavor = {
 	priority = 1
 	trigger = {
 		government = feudal_government
-		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		NOR = {
+			has_law = succ_feudal_elective
+			#removeme has_law = succ_hre_elective
+		}
 		mercenary = no
 		religion = zoroastrian_main
 		NOR = { 
@@ -249,7 +267,10 @@ government_flavor = {
 	priority = 1
 	trigger = {
 		government = feudal_government
-		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		NOR = {
+			has_law = succ_feudal_elective
+			#removeme has_law = succ_hre_elective
+		}
 		mercenary = no
 		has_dharmic_religion_trigger = yes
 		NOR = { 
@@ -289,7 +310,10 @@ government_flavor = {
 	priority = 1
 	trigger = {
 		government = feudal_government
-		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		OR = {
+			has_law = succ_feudal_elective
+			#removeme has_law = succ_hre_elective
+		}
 		NOR = { 
 			has_law = imperial_administration
 			has_law = ze_administration_laws_2
@@ -310,7 +334,10 @@ government_flavor = {
 	priority = 1
 	trigger = {
 		government = feudal_government
-		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		NOR = {
+			has_law = succ_feudal_elective
+			#removeme has_law = succ_hre_elective
+		}
 		mercenary = no
 		NOT = {
 			has_dharmic_religion_trigger = yes
@@ -335,7 +362,10 @@ government_flavor = {
 	priority = 1
 	trigger = {
 		government = feudal_government
-		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		NOR = {
+			has_law = succ_feudal_elective
+			#removeme has_law = succ_hre_elective
+		}
 		mercenary = no
 		has_dharmic_religion_trigger = yes
 		NOR = { 
@@ -362,7 +392,10 @@ government_flavor = {
 			has_law = ze_administration_laws_2
 		}
 		government = feudal_government
-		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		NOR = {
+			has_law = succ_feudal_elective
+			#removeme has_law = succ_hre_elective
+		}
 		mercenary = no
 		NOT = {
 			has_dharmic_religion_trigger = yes
@@ -387,7 +420,10 @@ government_flavor = {
 			has_law = ze_administration_laws_2
 		}
 		government = feudal_government
-		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		NOR = {
+			has_law = succ_feudal_elective
+			#removeme has_law = succ_hre_elective
+		}
 		mercenary = no
 		has_dharmic_religion_trigger = yes
 		has_law = law_voting_power_0
@@ -410,7 +446,10 @@ government_flavor = {
 			has_law = ze_administration_laws_2
 		}
 		government = feudal_government
-		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		OR = {
+			has_law = succ_feudal_elective
+			#removeme has_law = succ_hre_elective
+		}
 		has_law = law_voting_power_0
 		has_law = banish_voting_power_0
 		has_law = execution_voting_power_0
@@ -427,7 +466,10 @@ government_flavor = {
 	priority = 1
 	trigger = {
 		government = feudal_government
-		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		NOR = {
+			has_law = succ_feudal_elective
+			#removeme has_law = succ_hre_elective
+		}
 		mercenary = no
 		NOT = {
 			has_dharmic_religion_trigger = yes
@@ -469,7 +511,10 @@ government_flavor = {
 	priority = 1
 	trigger = {
 		government = feudal_government
-		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		NOR = {
+			has_law = succ_feudal_elective
+			#removeme has_law = succ_hre_elective
+		}
 		mercenary = no
 		has_dharmic_religion_trigger = yes
 		OR = { 
@@ -509,7 +554,10 @@ government_flavor = {
 	priority = 1
 	trigger = {
 		government = feudal_government
-		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		OR = {
+			has_law = succ_feudal_elective
+			#removeme has_law = succ_hre_elective
+		}
 		OR = { 
 			has_law = imperial_administration
 			has_law = ze_administration_laws_2
@@ -544,7 +592,10 @@ government_flavor = {
 	priority = 1
 	trigger = {
 		government = feudal_government
-		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		NOR = {
+			has_law = succ_feudal_elective
+			#removeme has_law = succ_hre_elective
+		}
 		mercenary = no
 		NOT = {
 			has_dharmic_religion_trigger = yes
@@ -572,7 +623,10 @@ government_flavor = {
 	priority = 1
 	trigger = {
 		government = feudal_government
-		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		NOR = {
+			has_law = succ_feudal_elective
+			#removeme has_law = succ_hre_elective
+		}
 		mercenary = no
 		has_dharmic_religion_trigger = yes
 		OR = { 
