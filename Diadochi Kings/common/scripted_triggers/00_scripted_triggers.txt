@@ -2642,6 +2642,10 @@ has_sympathy_for_true_religion_of_prev_trigger = {
 			trait = sympathy_egyptian_religion
 			PREV = { true_religion_group_egyptian_religion_trigger = yes }
 		}
+		# AND = {
+			# trait = sympathy_north_african_religion
+			# PREV = { true_religion_group_north_african_religion_trigger = yes }
+		# }
 	# }
 }
 

@@ -689,13 +689,12 @@ character_event = {
 				age = 12
 			}
 		}
-		# TODO: Sympathies
-		#if = {
-		#	limit = {
-		#		religion_group = christian
-		#	}
-		#	add_trait = sympathy_christendom
-		#}
+		if = {
+			limit = {
+				religion_group = egyptian_religion
+			}
+			add_trait = sympathy_egyptian_religion
+		}
 
 		clr_religion_char_flag_effect = yes #Must clear all old flags to avoid double traits
 		add_religion_char_flag_effect = yes
