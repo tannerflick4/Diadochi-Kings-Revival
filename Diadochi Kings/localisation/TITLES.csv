@@ -6,6 +6,8 @@ emperor_thracian_group;Megas Basileus;;;;;;;;;;;;;x
 emperor_female_thracian_group;Megas Basileia;;;;;;;;;;;;;x
 king_thracian_group;Basileus;;;;;;;;;;;;;x
 king_female_thracian_group;Basileia;;;;;;;;;;;;;x
+SATRAP_king;Satrap;;;;;;;;;;;;;x
+SATRAP_king_female;Satrap;;;;;;;;;;;;;x
 duke_thracian_group;Autokrator;;;;;;;;;;;;;x
 duke_female_thracian_group;Autokrator;;;;;;;;;;;;;x
 count_thracian_group;Politarch;;;;;;;;;;;;;x
