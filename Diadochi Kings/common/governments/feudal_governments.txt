@@ -29,7 +29,7 @@ feudal_governments = {
 					NOT = {
 						any_liege = {
 							OR = {
-								has_title = e_macedon
+								has_title = e_macedonia
 								has_title = e_persia
 							}
 						}
@@ -77,7 +77,7 @@ feudal_governments = {
 			real_tier = KING
 			any_liege = {
 				OR = {
-					has_title = e_macedon
+					has_title = e_macedonia
 					has_title = e_persia
 				}
 			}
