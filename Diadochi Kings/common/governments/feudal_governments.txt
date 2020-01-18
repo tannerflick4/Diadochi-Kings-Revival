@@ -57,6 +57,7 @@ feudal_governments = {
 	feudal_government = {
 		preferred_holdings = { CITY }
 		allowed_holdings = { 
+			CITY
 			FORT
 			HOSPITAL
 		}
