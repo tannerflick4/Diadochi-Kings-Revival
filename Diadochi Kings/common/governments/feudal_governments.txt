@@ -25,7 +25,7 @@ feudal_governments = {
 				religion = etruscan_main
 				religion = judaism_main
 				AND = {
-					real_tier = KING
+					tier = KING
 					NOT = {
 						any_liege = {
 							OR = {
@@ -74,7 +74,7 @@ feudal_governments = {
 			tribal_government
 		}
 		potential = {
-			real_tier = KING
+			tier = KING
 			any_liege = {
 				OR = {
 					has_title = e_macedonia
