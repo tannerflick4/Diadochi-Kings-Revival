@@ -5,6 +5,7 @@ theocracy_governments = {
 		allowed_holdings = {
 			TEMPLE
 			CASTLE
+			CITY
 			FORT
 			HOSPITAL
 		}

@@ -1,7 +1,7 @@
 feudal_governments = {
 
 	roman_imperial_government = {
-		preferred_holdings = { CASTLE CITY }
+		preferred_holdings = { CITY }
 		allowed_holdings = {
 			CASTLE
 			CITY
@@ -119,9 +119,10 @@ feudal_governments = {
 	}
 
 	satrap_government = {
-		preferred_holdings = { CASTLE }
+		preferred_holdings = { CITY }
 		allowed_holdings = { 
-			CASTLE 
+			CASTLE
+			CITY
 			FORT
 			HOSPITAL
 		}
@@ -170,9 +171,10 @@ feudal_governments = {
 	}
 
 	order_government = {
-		preferred_holdings = { CASTLE }
+		preferred_holdings = { CITY }
 		allowed_holdings = {
 			CASTLE
+			CITY
 			TEMPLE
 			TRIBAL
 			FORT
