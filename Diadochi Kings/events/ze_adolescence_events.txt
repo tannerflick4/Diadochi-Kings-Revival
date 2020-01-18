@@ -3733,7 +3733,7 @@ character_event = {
 			}
 		}
 		
-		If sympathy for religion, choose which one...
+		# If sympathy for religion, choose which one...
 		if = {
 			limit = { has_character_flag = curious_sympathy_religion }
 			random_list = {

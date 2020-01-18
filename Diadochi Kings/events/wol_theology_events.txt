@@ -7,7 +7,7 @@
 ###########################################
 
 # Written by Tobias Bodlund
-# Tweaks and additional events by Henrik F�hraeus
+# Tweaks and additional events by Henrik F?hraeus
 
 namespace = WoL
 
@@ -472,7 +472,7 @@ character_event = {
 		has_focus = focus_theology
 		is_priest = no
 		NOT = { trait = zealous }
-		NOT = { trait = sympathy_egyptian_religion
+		NOT = { trait = sympathy_egyptian_religion }
 		NOT = { has_character_flag = wol_theology_view_other_religions }
 		any_realm_character = {
 			NOT = { religion_group = ROOT }

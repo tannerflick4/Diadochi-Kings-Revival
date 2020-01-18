@@ -147,7 +147,7 @@
 	395.1.4={ birth=yes }
 	428.12.24={ death=yes }
 }
-172617={ first holder
+172617={
 	name=Aesopus
 	dynasty=17027
 	culture=latin 
