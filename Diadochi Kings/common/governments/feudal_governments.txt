@@ -24,17 +24,6 @@ feudal_governments = {
 				has_religion_feature = religion_temporal_head
 				religion = etruscan_main
 				religion = judaism_main
-				AND = {
-					tier = KING
-					NOT = {
-						any_liege = {
-							OR = {
-								has_title = e_macedonia
-								has_title = e_persia
-							}
-						}
-					}
-				}
 			}
 			OR = {
 				NOT = {
