@@ -3,4 +3,38 @@ spriteTypes = {
 		name = "GFX_icon_roman_government"
 		texturefile = "gfx\\interface\\government_icon_roman.tga"
 	}
+	spriteType = {
+		name = "GFX_icon_satrap_government"
+		texturefile = "gfx\\interface\\government_icon_satrap.tga"
+	}
+	spriteType = {
+		name = "GFX_charframe_150_satrap"
+		texturefile = "gfx\\interface\\charframe_150_satrap.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_100_satrap"
+		texturefile = "gfx\\interface\\charframe_100_satrap.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_75_satrap"
+		texturefile = "gfx\\interface\\charframe_75_satrap.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_50_satrap"
+		texturefile = "gfx\\interface\\charframe_50_satrap.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_34_satrap"
+		texturefile = "gfx\\interface\\charframe_34_satrap.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
 }
