@@ -380,14 +380,8 @@ succession_laws = {
 							is_vice_royalty = yes
 						}
 					}
-					AND = {
-						holder_scope = {
-							show_scope_change = no
-							primary_title = {
-								show_scope_change = no
-								is_feudal = yes
-							}
-						}
+					holder_scope = {
+						is_feudal = yes
 					}
 				}
 			}
@@ -406,7 +400,9 @@ succession_laws = {
 						has_crown_law_title = no
 					}
 					crownlaw_title = {
-						is_feudal = yes
+						holder_scope = {
+							is_feudal = yes
+						}
 					}
 				}
 			}
