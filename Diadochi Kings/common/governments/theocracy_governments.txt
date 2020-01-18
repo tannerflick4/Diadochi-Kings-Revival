@@ -4,7 +4,6 @@ theocracy_governments = {
 		preferred_holdings = { TEMPLE }
 		allowed_holdings = {
 			TEMPLE
-			CASTLE
 			CITY
 			FORT
 			HOSPITAL
