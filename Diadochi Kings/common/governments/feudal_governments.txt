@@ -24,6 +24,17 @@ feudal_governments = {
 				has_religion_feature = religion_temporal_head
 				religion = etruscan_main
 				religion = judaism_main
+				AND = {
+					real_tier = KING
+					NOT = {
+						any_liege = {
+							OR = {
+								has_title = e_macedon
+								has_title = e_persia
+							}
+						}
+					}
+				}
 			}
 			is_patrician = no
 		}
@@ -43,6 +54,55 @@ feudal_governments = {
 		## Modifiers
 		court_size_modifier = 10
 	}
+
+	satrap_government = {
+		preferred_holdings = { CASTLE }
+		allowed_holdings = { 
+			CASTLE 
+			FORT
+			HOSPITAL
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			TRIBAL
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			tribal_government
+		}
+		vassal_call_to_arms = {
+			tribal_government
+		}
+		potential = {
+			real_tier = KING
+			any_liege = {
+				OR = {
+					has_title = e_macedon
+					has_title = e_persia
+				}
+			}
+			is_patrician = no
+		}
+
+		frame_suffix = "_SATRAP"
+		title_prefix = "SATRAP_"
+		
+		color = { 91 133 207 }
+		
+		dukes_called_kings = yes
+		barons_need_dynasty = yes
+
+		can_build_tribal = no
+		
+		ignore_in_vassal_limit_calculation = {
+			tribal_government
+		}
+		capital_move_delay = 600
+
+		## Modifiers
+		court_size_modifier = 10
+	}
+
 
 	order_government = {
 		preferred_holdings = { CASTLE }
