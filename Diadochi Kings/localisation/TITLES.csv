@@ -1,7 +1,7 @@
 PHARAOH_TITLE;Pharaoh;;;;;;;;;;;;;x
 QUEEN_TITLE;Queen;;;;;;;;;;;;;x
 
-# Greek Special Titles
+# Greek Special Rank Titles
 emperor_thracian_group;Megas Basileus;;;;;;;;;;;;;x
 emperor_female_thracian_group;Megas Basileia;;;;;;;;;;;;;x
 king_thracian_group;Basileus;;;;;;;;;;;;;x
@@ -94,3 +94,8 @@ temple_count_hellenic;Politarch;;;;;;;;;;;;;x
 temple_count_female_hellenic;Politarch;;;;;;;;;;;;;x
 temple_baron_hellenic;Oracle;;;;;;;;;;;;;x
 temple_baron_female_hellenic;Oracle;;;;;;;;;;;;;x
+
+# Greek Special Holding Names
+city_barony_thracian_group;Polis;;;;;;;;;;;;;x
+city_barony_illyrian_group;Polis;;;;;;;;;;;;;x
+city_barony_hellenic;Polis;;;;;;;;;;;;;x
