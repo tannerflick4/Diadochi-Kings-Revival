@@ -166,8 +166,7 @@ k_p_egypt = {
 			has_landed_title = e_persia
 		}
 	}
-	
-	title = "SATRAP"
+
 	short_name = yes
 	dynasty_title_names = no
 }
@@ -182,8 +181,7 @@ k_p_cappadocia = {
 			has_landed_title = e_persia
 		}
 	}
-	
-	title = "SATRAP"
+
 	short_name = yes
 	dynasty_title_names = no
 }
@@ -198,10 +196,6 @@ k_p_armenia = {
 			has_landed_title = e_persia
 		}
 	}
-	
-
-	title = "SATRAP"
-
 
 	short_name = yes
 	dynasty_title_names = no
@@ -218,10 +212,6 @@ k_p_bactria = {
 			has_landed_title = e_persia
 		}
 	}
-	
-
-	title = "SATRAP"
-
 
 	short_name = yes
 	dynasty_title_names = no
@@ -238,10 +228,6 @@ k_p_persia = {
 			has_landed_title = e_persia
 		}
 	}
-	
-
-	title = "SATRAP"
-
 
 	short_name = yes
 	dynasty_title_names = no
@@ -258,10 +244,6 @@ k_p_media = {
 			has_landed_title = e_persia
 		}
 	}
-	
-
-	title = "SATRAP"
-
 
 	short_name = yes
 	dynasty_title_names = no
@@ -278,10 +260,6 @@ k_p_lydia = {
 			has_landed_title = e_persia
 		}
 	}
-	
-
-	title = "SATRAP"
-
 
 	short_name = yes
 	dynasty_title_names = no
@@ -298,10 +276,6 @@ k_p_arachosia = {
 			has_landed_title = e_persia
 		}
 	}
-	
-
-	title = "SATRAP"
-
 
 	short_name = yes
 	dynasty_title_names = no
@@ -318,10 +292,6 @@ k_p_babylon = {
 			has_landed_title = e_persia
 		}
 	}
-	
-
-	title = "SATRAP"
-
 
 	short_name = yes
 	dynasty_title_names = no
@@ -340,7 +310,7 @@ k_s_macedon = {
 		}
 	}
 
-	title = "STRATEGOS"
+	short_name = yes
 }
 k_s_thrace = {
 	color= { 150 75 0 }
@@ -353,9 +323,7 @@ k_s_thrace = {
 			has_landed_title = e_macedonia
 		}
 	}
-	
 
-	title = "SATRAP"
 	short_name = yes
 
 }
@@ -370,8 +338,8 @@ k_s_mysia = {
 			has_landed_title = e_macedonia
 		}
 	}
-	
-	title = "SATRAP"
+
+	short_name = yes
 }
 k_s_lydia = {
 	color= { 0 125 125 }
@@ -384,8 +352,7 @@ k_s_lydia = {
 			has_landed_title = e_macedonia
 		}
 	}
-	
-	title = "SATRAP"
+
 	short_name = yes
 }
 k_s_caria = {
@@ -399,8 +366,8 @@ k_s_caria = {
 			has_landed_title = e_macedonia
 		}
 	}
-	
-	title = "SATRAP"
+
+	short_name = yes
 }
 k_s_phrygia = {
 	color= { 0 100 125 }
@@ -413,8 +380,8 @@ k_s_phrygia = {
 			has_landed_title = e_macedonia
 		}
 	}
-	
-	title = "SATRAP"
+
+	short_name = yes
 }
 k_s_cilicia = {
 	color= { 125 150 125 }
@@ -427,8 +394,8 @@ k_s_cilicia = {
 			has_landed_title = e_macedonia
 		}
 	}
-	
-	title = "SATRAP"
+
+	short_name = yes
 }
 k_s_cappadocia = {
 	color= { 200 175 150}
@@ -441,8 +408,7 @@ k_s_cappadocia = {
 			has_landed_title = e_macedonia
 		}
 	}
-	
-	title = "SATRAP"
+
 	short_name = yes
 }
 
@@ -457,9 +423,8 @@ k_s_syria = {
 			has_landed_title = e_macedonia
 		}
 	}
-	
-	title = "SATRAP"
 
+	short_name = yes
 }
 k_s_egypt = {
 	color= { 225 200 0 }
@@ -472,8 +437,7 @@ k_s_egypt = {
 			has_landed_title = e_macedonia
 		}
 	}
-	
-	title = "SATRAP"
+
 	short_name = yes
 }
 k_s_assyria = {
@@ -488,8 +452,7 @@ k_s_assyria = {
 			has_landed_title = e_macedonia
 		}
 	}
-	
-	title = "SATRAP"
+
 	short_name = yes
 }
 d_s_assyria = {
@@ -517,8 +480,7 @@ k_s_babylonia = {
 			has_landed_title = e_macedonia
 		}
 	}
-	
-	title = "SATRAP"
+
 	short_name = yes
 }
 k_s_armenia = {
@@ -532,8 +494,7 @@ k_s_armenia = {
 			has_landed_title = e_macedonia
 		}
 	}
-	
-	title = "SATRAP"
+
 	short_name = yes
 }
 k_s_media = {
@@ -547,8 +508,8 @@ k_s_media = {
 			has_landed_title = e_macedonia
 		}
 	}
-	
-	title = "SATRAP"
+
+	short_name = yes
 }
 k_s_persia = {
 	color= { 225 0 75 }
@@ -561,8 +522,7 @@ k_s_persia = {
 			has_landed_title = e_macedonia
 		}
 	}
-	
-	title = "SATRAP"
+
 	short_name = yes
 }
 k_s_carmania = {
@@ -576,8 +536,8 @@ k_s_carmania = {
 			has_landed_title = e_macedonia
 		}
 	}
-	
-	title = "SATRAP"
+
+	short_name = yes
 }
 k_s_gedrosia = {
 	color= { 255 0 125 }
@@ -590,8 +550,8 @@ k_s_gedrosia = {
 			has_landed_title = e_macedonia
 		}
 	}
-	
-	title = "SATRAP"
+
+	short_name = yes
 }
 k_s_hyrcania = {
 	color= { 200 25 50 }
@@ -604,8 +564,8 @@ k_s_hyrcania = {
 			has_landed_title = e_macedonia
 		}
 	}
-	
-	title = "SATRAP"
+
+	short_name = yes
 }
 k_atropatene = {
 	color= { 200 0 100 }
@@ -619,10 +579,7 @@ k_atropatene = {
 		}
 	}
 
-	
-	title = "SATRAP"
-
-
+	short_name = yes
 }
 k_s_indus = {
 	color= { 100 200 100 }
@@ -635,8 +592,8 @@ k_s_indus = {
 			has_landed_title = e_macedonia
 		}
 	}
-	
-	title = "SATRAP"
+
+	short_name = yes
 }
 k_s_aria = {
 	color= { 255 0 100 }
@@ -649,8 +606,7 @@ k_s_aria = {
 			has_landed_title = e_macedonia
 		}
 	}
-	
-	title = "SATRAP"
+
 	short_name = yes
 }
 k_s_bactria = {
@@ -664,8 +620,8 @@ k_s_bactria = {
 			has_landed_title = e_macedonia
 		}
 	}
-	
-	title = "SATRAP"
+
+	short_name = yes
 }
 # Others
 k_porus = {
