@@ -9,8 +9,8 @@ b_andelos_andelos = tribal
 #b_ologicus_andelos = city
 #b_cara_andelos = city
 #b_moros_andelos = city
-#b_musas_andelos = castle
-#b_beturri_andelos = castle
+#b_musas_andelos = city
+#b_beturri_andelos = city
 b_romana_andelos = temple
 
 # Misc

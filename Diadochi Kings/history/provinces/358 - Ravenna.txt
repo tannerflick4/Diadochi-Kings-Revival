@@ -9,9 +9,9 @@ b_ravenna_ravenna = tribal
 b_sabis_ravenna = temple
 #b_caesena_ravenna = city 
 #b_butrium_ravenna = city
-#b_neronia_ravenna = castle
+#b_neronia_ravenna = city
 #b_vicus_aventia_ravenna = city
-#b_castrum_cumiacli_ravenna = castle
+#b_castrum_cumiacli_ravenna = city
 
 # Misc
 culture = gaul

@@ -8,9 +8,9 @@ max_settlements = 4
 b_osca_osca = tribal
 #b_pertusa_osca = city
 b_bourtina_osca = temple
-#b_forum_gallorum_osca = castle
-#b_ebelinum_osca = castle
-#b_calagurris_fibularia_osca = castle
+#b_forum_gallorum_osca = city
+#b_ebelinum_osca = city
+#b_calagurris_fibularia_osca = city
 #b_iacca_osca = city
 
 # Misc

@@ -5,10 +5,10 @@ title = c_capua # for example c_corinth
 
 # Settlements
 max_settlements = 6
-b_capua_capua = castle
+b_capua_capua = city
 b_casilinum_capua = city
-b_cales_capua = castle
-#b_sinuessa_capua = castle
+b_cales_capua = city
+#b_sinuessa_capua = city
 b_teanum_sidicinum_capua = temple
 #b_calatia_capua = city
 #b_suessula_capua = city

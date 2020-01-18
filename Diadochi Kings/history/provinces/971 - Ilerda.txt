@@ -6,12 +6,12 @@ title = c_ilerda
 # Settlements
 max_settlements = 4
 b_ilerda_ilerda = tribal
-#b_ad_novas_ilerda = castle
-#b_otobesa_ilerda = castle
+#b_ad_novas_ilerda = city
+#b_otobesa_ilerda = city
 #b_gallika_phlaouia_ilerda = city
 #b_geno_ilerda = temple
 #b_keresos_ilerda = city
-#b_iessos_ilerda = castle
+#b_iessos_ilerda = city
 
 # Misc
 culture = iberian

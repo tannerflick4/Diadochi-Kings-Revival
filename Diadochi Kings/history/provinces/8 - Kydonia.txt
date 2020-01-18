@@ -4,13 +4,13 @@ title = c_kydonia # for example c_corinth
 
 # Settlements
 max_settlements = 5 # Should be reevaluated
-b_kydonia_kydonia = castle
+b_kydonia_kydonia = city
 b_sybrita_kydonia = temple
 b_lappa_kydonia = city
-b_rhithymna_kydonia = castle
+b_rhithymna_kydonia = city
 
 # Possible baronies: (Always add a # in front of a line with these!)
-# b_eleutherna_kydonia = castle
+# b_eleutherna_kydonia = city
 # b_minoa_kydonia = temple
 # b_polyrrenia_kydonia = city
 

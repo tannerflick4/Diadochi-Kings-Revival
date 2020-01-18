@@ -8,10 +8,10 @@ max_settlements = 3
 b_aguntum_aguntum = tribal
 #b_ibligo_aguntum = temple
 #b_iulium_carnicum_aguntum = temple
-#b_statio_timaviensis_aguntum = castle
+#b_statio_timaviensis_aguntum = city
 #b_loncium_aguntum = city
-#b_statio_plorucensis_aguntum = castle
-#b_larice_aguntum = castle
+#b_statio_plorucensis_aguntum = city
+#b_larice_aguntum = city
 
 # Misc
 culture = venetic

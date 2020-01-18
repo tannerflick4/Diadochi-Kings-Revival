@@ -8,9 +8,9 @@ max_settlements = 2
 b_segia_segia = tribal
 #b_jaca_segia = city
 #b_ilumberis_segia = city
-#b_calvo_segia = castle
+#b_calvo_segia = city
 #b_biclaro_segia = temple
-#b_semproniana_segia = castle
+#b_semproniana_segia = city
 #b_egara_segia = city
 
 # Misc

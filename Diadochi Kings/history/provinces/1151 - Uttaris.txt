@@ -6,10 +6,10 @@ title = c_uttaris
 # Settlements
 max_settlements = 3
 b_uttaris_uttaris = tribal
-#b_praesidium_uttaris = castle
-#b_nemetobriga_uttaris = castle
-#b_forum_gigurrorum_uttaris = castle
-#b_gemestarium_uttaris = castle
+#b_praesidium_uttaris = city
+#b_nemetobriga_uttaris = city
+#b_forum_gigurrorum_uttaris = city
+#b_gemestarium_uttaris = city
 #b_bergidum_flavium_uttaris = city
 #b_laron_uttaris = city
 

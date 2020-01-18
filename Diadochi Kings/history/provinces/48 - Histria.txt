@@ -5,13 +5,13 @@ title = c_histria # for example c_corinth
 
 # Settlements
 max_settlements = 4
-b_histria_histria = castle
+b_histria_histria = city
 b_halmyris_histria = temple
 #b_suhat_histria = city
-b_troesmis_histria = castle
+b_troesmis_histria = city
 b_tomis_histria = city
 #b_libida_histria = temple
-#b_carsium_histria = castle
+#b_carsium_histria = city
 
 
 # Misc

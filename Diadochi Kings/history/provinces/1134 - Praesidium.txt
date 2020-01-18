@@ -7,11 +7,11 @@ title = c_praesidium # for example c_corinth
 max_settlements = 4
 b_praesidium_praesidium = tribal
 #b_ostium_praesidium = city
-#b_ad_rubras_praesidium = castle
+#b_ad_rubras_praesidium = city
 #b_ossonoba_praesidium = city
 #b_herculis_praesidium = temple
-#b_tharsis_praesidium = castle
-#b_campanario_praesidium = castle
+#b_tharsis_praesidium = city
+#b_campanario_praesidium = city
 
 # Misc
 culture = old_tartessian

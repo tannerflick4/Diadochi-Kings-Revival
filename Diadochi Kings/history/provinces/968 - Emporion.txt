@@ -7,10 +7,10 @@ title = c_emporion
 max_settlements = 5
 b_emporion_emporion = city
 b_rhoda_emporion = city
-b_cervaria_emporion = castle
-#b_pyrenaei_emporion = castle
-#b_ad_pyrenaeum_emporion = castle
-#b_pompei_tropaea_emporion = castle
+b_cervaria_emporion = city
+#b_pyrenaei_emporion = city
+#b_ad_pyrenaeum_emporion = city
+#b_pompei_tropaea_emporion = city
 #b_deciana_emporion = city
 
 # Misc

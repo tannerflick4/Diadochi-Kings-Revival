@@ -9,7 +9,7 @@ b_asido_carteia = tribal
 b_carteia_carteia = city
 #b_iulia_traducta_carteia = city
 #b_baelo_carteia = city
-#b_lascuta_carteia = castle
+#b_lascuta_carteia = city
 #b_cetaria_carteia = temple
 #b_mercablum_carteia = city
 

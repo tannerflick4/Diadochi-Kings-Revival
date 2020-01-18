@@ -7,10 +7,10 @@ title = c_alisanco
 max_settlements = 5
 b_alisanco_alisanco = tribal
 b_tritium_magallum_alisanco = temple
-#b_atiliana_alisanco = castle
+#b_atiliana_alisanco = city
 #b_libia_alisanco = city
-#b_segesamunculum_alisanco = castle
-#b_antequia_alisanco = castle
+#b_segesamunculum_alisanco = city
+#b_antequia_alisanco = city
 #b_vindeleia_alisanco = city
 
 # Misc

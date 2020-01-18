@@ -5,11 +5,11 @@ title = c_dorylaeum # for example c_corinth
 
 # Settlements
 max_settlements = 5
-b_dorylaeum_dorylaeum = castle
+b_dorylaeum_dorylaeum = city
 b_eiokome_dorylaeum = temple
-b_midaion_dorylaeum = castle
-b_lamounia_dorylaeum = castle
-b_yperva_dorylaeum = castle
+b_midaion_dorylaeum = city
+b_lamounia_dorylaeum = city
+b_yperva_dorylaeum = city
 
 # Misc
 culture = phrygian

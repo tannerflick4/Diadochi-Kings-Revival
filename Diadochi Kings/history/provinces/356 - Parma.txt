@@ -9,9 +9,9 @@ b_parma_parma = tribal
 #b_regium_lepidum_parma = city
 #b_tannetum_parma = city
 #b_brixellum_parma = city
-#b_forum_novum_parma = castle
+#b_forum_novum_parma = city
 #b_ad_sinnium_parma = temple
-#b_forum_cornelii_parma = castle
+#b_forum_cornelii_parma = city
 
 # Misc
 culture = gaul

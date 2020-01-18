@@ -5,13 +5,13 @@ title = c_pharsalus
 
 # Settlements
 max_settlements = 4
-b_pharsalus_pharsalus = castle
-b_kierion_pharsalus = castle
+b_pharsalus_pharsalus = city
+b_kierion_pharsalus = city
 b_methylion_pharsalus = city
-#b_ekkara_pharsalus = castle
-#b_thaumakoi_pharsalus = castle
+#b_ekkara_pharsalus = city
+#b_thaumakoi_pharsalus = city
 b_proerna_pharsalus = temple
-#b_ithome_pharsalus = castle
+#b_ithome_pharsalus = city
 
 # Misc
 culture = aeolian

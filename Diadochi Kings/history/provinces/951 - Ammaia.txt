@@ -7,12 +7,12 @@ title = c_ammaia
 max_settlements = 3
 b_ammaia_ammaia = tribal
 #b_vicus_camalocensis_ammaia = city
-#b_aritium_ammaia = castle
-#b_aritium_praetorium_ammaia = castle
+#b_aritium_ammaia = city
+#b_aritium_praetorium_ammaia = city
 #b_tubucci_ammaia = city
 #b_matusarum_ammaia = city
 #b_vama_ammaia = temple
-#b_serpa_ammaia = castle
+#b_serpa_ammaia = city
 
 # Misc
 culture = gallaecian

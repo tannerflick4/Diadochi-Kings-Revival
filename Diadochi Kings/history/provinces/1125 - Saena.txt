@@ -5,9 +5,9 @@ title = c_saena
 
 # Settlements
 max_settlements = 3
-b_saena_saena = castle
+b_saena_saena = city
 b_arnum_saena = city
-b_gallunianum_saena = castle
+b_gallunianum_saena = city
 #b_regis_villa_saena = city
 #b_forum_aurelii_saena = city
 #b_portus_herculis_saena = city

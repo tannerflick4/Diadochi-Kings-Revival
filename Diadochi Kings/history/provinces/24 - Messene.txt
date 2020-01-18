@@ -5,10 +5,10 @@ title = c_messene # for example c_corinth
 
 # Settlements
 max_settlements = 4 # Should be reevaluated
-b_messene_messene = castle
+b_messene_messene = city
 b_andania_messene = temple
 b_methone_messene = city
-b_pylos_messene = castle
+b_pylos_messene = city
 
 # Misc
 culture = doric

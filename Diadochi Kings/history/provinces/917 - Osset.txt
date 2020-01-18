@@ -8,10 +8,10 @@ max_settlements = 5
 b_osset_osset = tribal
 #b_italica_osset = city
 #b_caura_osset = city
-#b_paisoula_osset = castle
+#b_paisoula_osset = city
 #b_itucci_osset = city
-#b_lastigi_osset = castle
-#b_laelia_osset = castle
+#b_lastigi_osset = city
+#b_laelia_osset = city
 
 # Misc
 culture = turdetanian

@@ -5,10 +5,10 @@ title = c_chalkidiki # for example c_corinth
 
 # Settlements
 max_settlements = 5
-b_olynthos_chalkidiki = castle
-b_anthemous_chalkidiki = castle
+b_olynthos_chalkidiki = city
+b_anthemous_chalkidiki = city
 b_strepsa_chalkidiki = city
-#b_kithas_chalkidiki = castle
+#b_kithas_chalkidiki = city
 b_mekyberna_chalkidiki = temple
 b_spartolos_chalkidiki = city
 
@@ -26,6 +26,6 @@ religion = greek_main
 	capital = b_anthemous_chalkidiki
 }
 461.1.1 = { # 315 BC, Cassander founds Thessalonika
-	b_thessalonika_chalkidiki = castle
+	b_thessalonika_chalkidiki = city
 	capital = b_thessalonika_chalkidiki
 }

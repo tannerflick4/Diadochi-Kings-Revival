@@ -7,9 +7,9 @@ title = c_sucia # for example c_corinth
 max_settlements = 3
 b_sucia_sucia = tribal
 #b_isturgi_sucia = city
-#b_baecula_sucia = castle
+#b_baecula_sucia = city
 #b_castulo_sucia = city
-#b_ad_aras_sucia = castle
+#b_ad_aras_sucia = city
 #b_oducia_sucia = temple
 #b_carmo_sucia = city
 

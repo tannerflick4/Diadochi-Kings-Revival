@@ -5,12 +5,12 @@ title = c_amphipolis # for example c_corinth
 
 # Settlements
 max_settlements = 5
-b_amphipolis_amphipolis = castle
+b_amphipolis_amphipolis = city
 b_aulon_amphipolis = temple
-b_kerdylion_amphipolis = castle
+b_kerdylion_amphipolis = city
 b_argilos_amphipolis = city
 #b_myrkinos_amphipolis = temple
-#b_pennana_amphipolis = castle
+#b_pennana_amphipolis = city
 #b_phagres_amphipolis = city
 
 # Misc

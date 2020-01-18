@@ -7,11 +7,11 @@ title = c_tongobriga
 max_settlements = 3
 b_tongobriga_tongobriga = tribal
 #b_norba_tongobriga = city
-#b_castra_caecilia_tongobriga = castle
-#b_campo_tongobriga = castle
+#b_castra_caecilia_tongobriga = city
+#b_campo_tongobriga = city
 #b_catalina_tongobriga = city
 #b_aldeas_tongobriga = temple
-#b_moura_tongobriga = castle
+#b_moura_tongobriga = city
 
 # Misc
 culture = lusitanian

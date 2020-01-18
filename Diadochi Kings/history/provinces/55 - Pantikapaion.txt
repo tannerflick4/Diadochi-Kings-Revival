@@ -5,10 +5,10 @@ title = c_pantikapaion # for example c_corinth
 
 # Settlements
 max_settlements = 5 # Should be reevaluated
-b_pantikapaion = castle
+b_pantikapaion = city
 b_nymphaion_pantikapaion = temple
 b_kimmerikon_pantikapaion = city
-#b_sauromateion_pantikapaion = castle
+#b_sauromateion_pantikapaion = city
 b_kazeka_pantikapaion = city
 
 # Misc

@@ -6,12 +6,12 @@ title = c_gigia
 # Settlements
 max_settlements = 3
 b_gigia_gigia = tribal
-#b_lucus_asturum_gigia = castle
-#b_flavionavia_gigia = castle
-#b_arante_gigia = castle
+#b_lucus_asturum_gigia = city
+#b_flavionavia_gigia = city
+#b_arante_gigia = city
 #b_fornelo_gigia = city
 #b_pendia_gigia = temple
-#b_memoriana_gigia = castle
+#b_memoriana_gigia = city
 
 # Misc
 culture = gallaecian

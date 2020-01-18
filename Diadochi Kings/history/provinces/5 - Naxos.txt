@@ -6,12 +6,12 @@ title = c_naxos # for example c_corinth
 # Settlements
 max_settlements = 5 # Should be reevaluated
 b_ios_naxos = city
-b_naxos_naxos = castle
+b_naxos_naxos = city
 b_paros_naxos = temple
-b_arkesine_naxos = castle
+b_arkesine_naxos = city
 
 # Possible baronies: (Always add a # in front of a line with these!)
-# b_melos_naxos = castle
+# b_melos_naxos = city
 # b_anaphe_naxos = temple
 # b_minoa_naxos = city
 

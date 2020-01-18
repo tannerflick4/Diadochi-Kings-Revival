@@ -6,11 +6,11 @@ title = c_bovianum # for example c_corinth
 # Settlements
 max_settlements = 5
 b_bovianum_bovianum = tribal
-#b_caiatia_bovianum = castle
+#b_caiatia_bovianum = city
 #b_telesia_bovianum = city
 #b_kupelternum_bovianum = city
 #b_allifae_bovianum = city
-#b_fagifulae_bovianum = castle
+#b_fagifulae_bovianum = city
 b_sirpium_bovianum = temple
 
 # Misc

@@ -5,9 +5,9 @@ title = c_pisae # for example c_corinth
 
 # Settlements
 max_settlements = 5
-b_pisae_pisae = castle
-b_volaterrae_pisae = castle
-#b_pistoriae_pisae = castle
+b_pisae_pisae = city
+b_volaterrae_pisae = city
+#b_pistoriae_pisae = city
 b_luca_pisae = city
 b_portus_pisanus_pisae = city
 b_fossae_papirianae_pisae = temple

@@ -6,8 +6,8 @@ title = c_olbia # for example c_corinth
 # Settlements
 max_settlements = 4
 b_olbia_olbia = city
-b_hippalaou_akra_olbia = castle
-b_scopuli_olbia = castle
+b_hippalaou_akra_olbia = city
+b_scopuli_olbia = city
 b_isiakon_limen_olbia = city
 
 # Misc

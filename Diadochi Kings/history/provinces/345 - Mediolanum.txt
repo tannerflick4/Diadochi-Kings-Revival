@@ -8,10 +8,10 @@ max_settlements = 4
 b_mediolanum_mediolanum = tribal
 #b_laus_pompeia_mediolanum = city
 #b_ticinum_mediolanum = city
-#b_argentea_mediolanum = castle
+#b_argentea_mediolanum = city
 #b_modicia_mediolanum = city
-#b_sibrium_mediolanum = castle
-#b_comum_mediolanum = castle
+#b_sibrium_mediolanum = city
+#b_comum_mediolanum = city
 
 # Misc
 culture = gaul
