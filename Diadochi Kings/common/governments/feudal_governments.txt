@@ -34,8 +34,10 @@ feudal_governments = {
 
 		barons_need_dynasty = yes
 
+		can_build_castle = no
+		can_build_temple = no
 		can_build_tribal = no
-		
+
 		ignore_in_vassal_limit_calculation = {
 			tribal_government
 		}
@@ -103,6 +105,8 @@ feudal_governments = {
 		dukes_called_kings = yes
 		barons_need_dynasty = yes
 
+		can_build_castle = no
+		can_build_temple = no
 		can_build_tribal = no
 		
 		ignore_in_vassal_limit_calculation = {
@@ -151,6 +155,8 @@ feudal_governments = {
 		dukes_called_kings = yes
 		barons_need_dynasty = yes
 
+		can_build_castle = no
+		can_build_temple = no
 		can_build_tribal = no
 		
 		ignore_in_vassal_limit_calculation = {
@@ -238,6 +244,9 @@ feudal_governments = {
 		can_grant_kingdoms_and_empires_to_other_government = no
 		can_be_granted_kingdoms_and_empires_by_other_government = no
 		can_inherit = no
+		can_build_castle = no
+		can_build_temple = no
+		can_build_tribal = no
 		free_retract_vassalage = yes
 	}
 }

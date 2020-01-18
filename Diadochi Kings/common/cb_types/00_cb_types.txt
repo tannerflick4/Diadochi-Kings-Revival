@@ -6225,6 +6225,7 @@ pagan_county_conquest = {
 				}
 			}
 			ROOT = {
+				is_tribal = yes
 				NOT = { same_realm = FROM }
 			}
 		}
