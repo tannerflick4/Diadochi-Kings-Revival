@@ -36,6 +36,22 @@ feudal_governments = {
 					}
 				}
 			}
+			OR = {
+				NOT = {
+					tier = KING
+				}
+				AND = {
+					tier = KING
+					NOT = {
+						any_liege = {
+							OR = {
+								has_title = e_macedonia
+								has_title = e_persia
+							}
+						}
+					}
+				}
+			}
 			is_patrician = no
 		}
 		

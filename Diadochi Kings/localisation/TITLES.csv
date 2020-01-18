@@ -34,3 +34,63 @@ count_hellenic;Politarch;;;;;;;;;;;;;x
 count_female_hellenic;Politarch;;;;;;;;;;;;;x
 baron_hellenic;Archon;;;;;;;;;;;;;x
 baron_female_hellenic;Archon;;;;;;;;;;;;;x
+city_emperor_thracian_group;Megas Basileus;;;;;;;;;;;;;x
+city_emperor_female_thracian_group;Megas Basileia;;;;;;;;;;;;;x
+city_king_thracian_group;Basileus;;;;;;;;;;;;;x
+city_king_female_thracian_group;Basileia;;;;;;;;;;;;;x
+city_duke_thracian_group;Autokrator;;;;;;;;;;;;;x
+city_duke_female_thracian_group;Autokrator;;;;;;;;;;;;;x
+city_count_thracian_group;Politarch;;;;;;;;;;;;;x
+city_count_female_thracian_group;Politarch;;;;;;;;;;;;;x
+city_baron_thracian_group;Archon;;;;;;;;;;;;;x
+city_baron_female_thracian_group;Archon;;;;;;;;;;;;;x
+city_emperor_illyrian_group;Megas Basileus;;;;;;;;;;;;;x
+city_emperor_female_illyrian_group;Megas Basileia;;;;;;;;;;;;;x
+city_king_illyrian_group;Basileus;;;;;;;;;;;;;x
+city_king_female_illyrian_group;Basileia;;;;;;;;;;;;;x
+city_duke_illyrian_group;Autokrator;;;;;;;;;;;;;x
+city_duke_female_illyrian_group;Autokrator;;;;;;;;;;;;;x
+city_count_illyrian_group;Politarch;;;;;;;;;;;;;x
+city_count_female_illyrian_group;Politarch;;;;;;;;;;;;;x
+city_baron_illyrian_group;Archon;;;;;;;;;;;;;x
+city_baron_female_illyrian_group;Archon;;;;;;;;;;;;;x
+city_emperor_hellenic;Megas Basileus;;;;;;;;;;;;;x
+city_emperor_female_hellenic;Megas Basileia;;;;;;;;;;;;;x
+city_king_hellenic;Basileus;;;;;;;;;;;;;x
+city_king_female_hellenic;Basileia;;;;;;;;;;;;;x
+city_duke_hellenic;Autokrator;;;;;;;;;;;;;x
+city_duke_female_hellenic;Autokrator;;;;;;;;;;;;;x
+city_count_hellenic;Politarch;;;;;;;;;;;;;x
+city_count_female_hellenic;Politarch;;;;;;;;;;;;;x
+city_baron_hellenic;Archon;;;;;;;;;;;;;x
+city_baron_female_hellenic;Archon;;;;;;;;;;;;;x
+temple_emperor_thracian_group;Megas Basileus;;;;;;;;;;;;;x
+temple_emperor_female_thracian_group;Megas Basileia;;;;;;;;;;;;;x
+temple_king_thracian_group;Basileus;;;;;;;;;;;;;x
+temple_king_female_thracian_group;Basileia;;;;;;;;;;;;;x
+temple_duke_thracian_group;Autokrator;;;;;;;;;;;;;x
+temple_duke_female_thracian_group;Autokrator;;;;;;;;;;;;;x
+temple_count_thracian_group;Politarch;;;;;;;;;;;;;x
+temple_count_female_thracian_group;Politarch;;;;;;;;;;;;;x
+temple_baron_thracian_group;Archon;;;;;;;;;;;;;x
+temple_baron_female_thracian_group;Archon;;;;;;;;;;;;;x
+temple_emperor_illyrian_group;Megas Basileus;;;;;;;;;;;;;x
+temple_emperor_female_illyrian_group;Megas Basileia;;;;;;;;;;;;;x
+temple_king_illyrian_group;Basileus;;;;;;;;;;;;;x
+temple_king_female_illyrian_group;Basileia;;;;;;;;;;;;;x
+temple_duke_illyrian_group;Autokrator;;;;;;;;;;;;;x
+temple_duke_female_illyrian_group;Autokrator;;;;;;;;;;;;;x
+temple_count_illyrian_group;Politarch;;;;;;;;;;;;;x
+temple_count_female_illyrian_group;Politarch;;;;;;;;;;;;;x
+temple_baron_illyrian_group;Archon;;;;;;;;;;;;;x
+temple_baron_female_illyrian_group;Archon;;;;;;;;;;;;;x
+temple_emperor_hellenic;Megas Basileus;;;;;;;;;;;;;x
+temple_emperor_female_hellenic;Megas Basileia;;;;;;;;;;;;;x
+temple_king_hellenic;Basileus;;;;;;;;;;;;;x
+temple_king_female_hellenic;Basileia;;;;;;;;;;;;;x
+temple_duke_hellenic;Autokrator;;;;;;;;;;;;;x
+temple_duke_female_hellenic;Autokrator;;;;;;;;;;;;;x
+temple_count_hellenic;Politarch;;;;;;;;;;;;;x
+temple_count_female_hellenic;Politarch;;;;;;;;;;;;;x
+temple_baron_hellenic;Archon;;;;;;;;;;;;;x
+temple_baron_female_hellenic;Archon;;;;;;;;;;;;;x
