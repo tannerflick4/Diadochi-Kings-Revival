@@ -143,8 +143,8 @@ feudal_governments = {
 			is_patrician = no
 		}
 
-		frame_suffix = "_SATRAP"
-		title_prefix = "SATRAP_"
+		frame_suffix = "_satrap"
+		title_prefix = "satrap_"
 		
 		color = { 91 133 207 }
 		
