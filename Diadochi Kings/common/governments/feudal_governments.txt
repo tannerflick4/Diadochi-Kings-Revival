@@ -87,7 +87,6 @@ feudal_governments = {
 					has_landed_title = e_persia
 				}
 			}
-			NOT = { is_government_potential = roman_imperial_government }
 			is_patrician = no
 		}
 
@@ -208,25 +207,11 @@ feudal_governments = {
 			tribal_government
 		}
 		frame_suffix = "_romanimperial"
-		potential = {
-			OR = { 
-				AND = { 
-					is_save_game = no
-					has_game_started = no
-					primary_title = { 
-						OR = { 
-							title = e_macedonia
-							title = e_persia
-						}
-					}
-				}
-				AND = { 
-					primary_title = { 
-						OR = { 
-							title = e_macedonia
-							title = e_persia
-						}
-					}
+		potential = { 
+			primary_title = { 
+				OR = { 
+					title = e_macedonia
+					title = e_persia
 				}
 			}
 			is_patrician = no
