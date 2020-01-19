@@ -1,0 +1,7 @@
+#Modifiers
+mod_synced_faith;Synced a Faith;;;;;;;;;;;;;;x
+mod_sync_kemetic;Seeks to unite with the Kemetic faith;;;;;;;;;;;;;;x
+
+#Decisions
+sync_faith;Unite Faiths;;;;;;;;;;;;;;x
+sync_faith_desc;Seek to unite with another Faith;;;;;;;;;;;;;;x

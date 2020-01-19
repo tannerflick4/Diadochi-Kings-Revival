@@ -1,0 +1,58 @@
+decisions = {
+
+	sync_faith = {
+
+		potential = {
+			religion_group = hellenic
+			NOR = {
+				trait = zealous
+				has_character_modifier = mod_synced_faith
+			}
+		}
+
+		allow = {
+			NOR = {
+				trait = zealous
+				has_character_modifier = mod_synced_faith
+			}
+			
+			piety = 50
+		}
+
+		effect = {
+			hidden_tooltip = {
+				remove_character_modifier = mod_sync_
+			}
+			IF = {
+				limit = {
+					ai = yes
+				}
+				add_character_modifier = {
+					name = mod_synced_faith
+				}
+				piety = -50
+				random_list = {
+					1 = {
+						modifier = {
+							factor = 0
+							religion = kemetic
+						}
+						add_character_modifier = {
+							name = mod_sync_kemetic
+							duration = -1
+						}
+					}
+				}
+			}
+			else = {
+				character_event = {
+					id = sync_faith_events.1
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+}
