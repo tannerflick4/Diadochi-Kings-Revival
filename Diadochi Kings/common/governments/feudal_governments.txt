@@ -79,6 +79,9 @@ feudal_governments = {
 				religion = etruscan_main
 				religion = judaism_main
 			}
+			NOT = {
+				tier = BARON
+			}
 			OR = {
 				NOT = {
 					tier = KING

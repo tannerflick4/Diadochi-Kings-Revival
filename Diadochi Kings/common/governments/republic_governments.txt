@@ -109,6 +109,7 @@ republic_governments = {
 		frame_suffix = "_republic"
 		title_prefix = "city_"
 		potential = {
+			tier = BARON
 			controls_religion = no
 			NOT = { is_government_potential = merchant_republic_government }
 			holy_order = no
