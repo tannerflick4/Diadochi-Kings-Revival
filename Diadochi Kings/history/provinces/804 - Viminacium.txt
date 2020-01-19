@@ -9,9 +9,9 @@ b_viminacium_viminacium = tribal
 #b_margum_viminacium = city
 #b_iovis_pagus_viminacium = temple
 #b_pincus_viminacium = city
-#b_taliata_viminacium = castle
+#b_taliata_viminacium = city
 #b_clevora_viminacium = city
-#b_transdierna_viminacium = castle
+#b_transdierna_viminacium = city
 
 # Misc
 culture = thracian

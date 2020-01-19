@@ -6,12 +6,12 @@ title = c_terina # for example c_corinth
 # Settlements
 max_settlements = 3
 b_terina_terina = tribal
-#b_tanno_terina = castle
-#b_ad_turres_terina = castle
+#b_tanno_terina = city
+#b_ad_turres_terina = city
 #b_aque_angae_terina = temple
-#b_temesa_terina = castle
-#b_ad_fluvium_sabutum_terina = castle
-#b_teura_terina = castle
+#b_temesa_terina = city
+#b_ad_fluvium_sabutum_terina = city
+#b_teura_terina = city
 
 # Misc
 culture = oscan

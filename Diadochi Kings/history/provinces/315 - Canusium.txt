@@ -7,11 +7,11 @@ title = c_canusium # for example c_corinth
 max_settlements = 4
 b_canusium_canusium = tribal
 #b_cannae_canusium = city
-#b_ad_quintumdecimum_canusium = castle
+#b_ad_quintumdecimum_canusium = city
 #b_rudas_canusium = temple
 #b_turenum_canusium = city
 #b_barduli_canusium = city
-#b_forentum_canusium = castle
+#b_forentum_canusium = city
 
 # Misc
 culture = illyrian

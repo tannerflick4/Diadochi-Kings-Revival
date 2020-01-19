@@ -5,11 +5,11 @@ title = c_tyndaris
 
 # Settlements
 max_settlements = 4
-b_tyndaris_tyndaris = castle
-#b_calacte_tyndaris = castle
+b_tyndaris_tyndaris = city
+#b_calacte_tyndaris = city
 #b_kale_akte_tyndaris = city
-b_apollonia_tyndaris = castle
-#b_haluntium_tyndaris = castle
+b_apollonia_tyndaris = city
+#b_haluntium_tyndaris = city
 b_agathymum_tyndaris = city
 b_mylae_tyndaris = city
 

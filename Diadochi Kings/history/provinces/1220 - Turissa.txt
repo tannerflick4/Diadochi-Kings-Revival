@@ -8,10 +8,10 @@ max_settlements = 4
 b_turissa_turissa = tribal
 #b_blandae_turissa = city
 #b_seterrae_turissa = temple
-#b_aquae_voconiae_turissa = castle
+#b_aquae_voconiae_turissa = city
 #b_gerunda_turissa = city
-#b_collet_turissa = castle
-#b_lounarion_turissa = castle
+#b_collet_turissa = city
+#b_lounarion_turissa = city
 
 # Misc
 culture = iberian

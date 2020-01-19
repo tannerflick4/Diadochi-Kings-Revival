@@ -6,12 +6,12 @@ title = c_splonum
 # Settlements
 max_settlements = 3
 b_splonum_splonum = tribal
-#b_clandate_splonum = castle
+#b_clandate_splonum = city
 #b_servitium_splonum = city
 #b_ad_fines_splonum = city
-#b_aemate_splonum = castle
+#b_aemate_splonum = city
 #b_ninia_splonum = temple
-#b_ulcirus_splonum = castle
+#b_ulcirus_splonum = city
 
 # Misc
 culture = illyrian

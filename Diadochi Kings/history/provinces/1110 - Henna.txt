@@ -5,13 +5,13 @@ title = c_henna
 
 # Settlements
 max_settlements = 5
-b_henna_henna = castle
+b_henna_henna = city
 b_agyrion_henna = city
 b_chrysas_henna = temple
-#b_centuripae_henna = castle
-#b_engyon_henna = castle
-b_assorus_henna = castle
-#b_imachara_henna = castle
+#b_centuripae_henna = city
+#b_engyon_henna = city
+b_assorus_henna = city
+#b_imachara_henna = city
 
 # Misc
 culture = sicilian

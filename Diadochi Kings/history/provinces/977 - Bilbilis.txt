@@ -7,10 +7,10 @@ title = c_bilbilis
 max_settlements = 5
 b_bilbilis_bilbilis = tribal
 #b_pagus_gallorum_et_segardinenssium_bilbilis = city
-#b_aquae_bilbitanorum_bilbilis = castle
+#b_aquae_bilbitanorum_bilbilis = city
 #b_allobo_bilbilis = city
 b_aratikos_bilbilis = temple
-#b_tertakom_bilbilis = castle
+#b_tertakom_bilbilis = city
 #b_caravis_bilbilis = city
 
 # Misc

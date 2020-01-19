@@ -6,10 +6,10 @@ title = c_egitania
 # Settlements
 max_settlements = 4
 b_egitania_egitania = tribal
-#b_vicus_veniensis_egitania = castle
-#b_ocelum_egitania = castle
+#b_vicus_veniensis_egitania = city
+#b_ocelum_egitania = city
 #b_centum_celas_egitania = city
-#b_elbocoris_egitania = castle
+#b_elbocoris_egitania = city
 b_iulipa_egitania = temple
 #b_contosolia_egitania = city
 

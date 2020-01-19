@@ -5,12 +5,12 @@ title = c_metapontum # for example c_corinth
 
 # Settlements
 max_settlements = 3
-b_metapontum_metapontum = castle
+b_metapontum_metapontum = city
 b_hera_metapontum = temple
 #b_neretum_metapontum = city
-#b_bidis_metapontum = castle
+#b_bidis_metapontum = city
 b_euboia_metapontum = city
-#b_menai_metapontum = castle
+#b_menai_metapontum = city
 #b_hereum_metapontum = temple
 
 # Misc

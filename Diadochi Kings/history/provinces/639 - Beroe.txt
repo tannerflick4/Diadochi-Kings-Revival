@@ -8,9 +8,9 @@ max_settlements = 4
 b_beroe_beroe = tribal
 #b_ranilum_beroe = city
 #b_cillis_beroe = city
-#b_tylis_beroe = castle
+#b_tylis_beroe = city
 #b_carassura_beroe = temple
-#b_assus_beroe = castle
+#b_assus_beroe = city
 #b_opizas_beroe = temple
 
 # Misc

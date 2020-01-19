@@ -6,10 +6,10 @@ title = c_orestis
 # Settlements
 max_settlements = 4
 b_orestis_orestis = tribal
-#b_argos_orestikon_orestis = castle
+#b_argos_orestikon_orestis = city
 #b_battyna_orestis = city
-#b_aiginion_orestis = castle
-#b_phaloreia_orestis = castle
+#b_aiginion_orestis = city
+#b_phaloreia_orestis = city
 #b_keletron_orestis = city
 
 # Misc

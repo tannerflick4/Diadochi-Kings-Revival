@@ -5,11 +5,11 @@ title = c_ancyra # for example c_corinth
 
 # Settlements
 max_settlements = 5
-b_ancyra_ancyra = castle
+b_ancyra_ancyra = city
 b_malos_ancyra = temple
 b_androna_ancyra = city
-b_gorbeus_ancyra = castle
-b_ikotorion_ancyra = castle
+b_gorbeus_ancyra = city
+b_ikotorion_ancyra = city
 
 # Misc
 culture = phrygian

@@ -8,10 +8,10 @@ max_settlements = 3
 b_teurnia_teurnia = tribal
 b_meclaria_teurnia = temple
 #b_santicum_teurnia = city
-#b_graviacis_teurnia = castle
+#b_graviacis_teurnia = city
 #b_in_murio_teurnia = city
-#b_tarnasici_teurnia = castle
-#b_larice_teurnia = castle
+#b_tarnasici_teurnia = city
+#b_larice_teurnia = city
 
 # Misc
 culture = venetic

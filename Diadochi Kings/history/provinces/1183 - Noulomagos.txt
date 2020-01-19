@@ -10,8 +10,8 @@ b_noulomagos_noulomagos = tribal
 #b_antros_noulomagos = city
 #b_marciaco_noulomagos = temple
 #b_cambone_noulomagos = city
-#b_ad_lovem_noulomagos = castle
-#b_calagorris_noulomagos = castle
+#b_ad_lovem_noulomagos = city
+#b_calagorris_noulomagos = city
 
 # Misc
 culture = gaul

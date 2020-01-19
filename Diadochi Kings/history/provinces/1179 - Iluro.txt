@@ -6,11 +6,11 @@ title = c_iluro
 # Settlements
 max_settlements = 4
 b_iluro_iluro = tribal
-#b_imus_pyreneus_iluro = castle
+#b_imus_pyreneus_iluro = city
 #b_carasa_iluro = city
-#b_aspalluga_iluro = castle
-#b_forum_ligneum_iluro = castle
-#b_summus_pyreneus_iluro = castle
+#b_aspalluga_iluro = city
+#b_forum_ligneum_iluro = city
+#b_summus_pyreneus_iluro = city
 #b_ictium_iluro = temple
 
 # Misc

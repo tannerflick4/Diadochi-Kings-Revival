@@ -7,9 +7,9 @@ title = c_brundisium # for example c_corinth
 max_settlements = 4
 b_brundisium_brundisium = tribal
 #b_valetium_brundisium = city
-#b_uria_brundisium = castle
+#b_uria_brundisium = city
 #b_ad_speluncas_brundisium = city
-#b_caelia_brundisium = castle
+#b_caelia_brundisium = city
 #b_egnetia_brundisium = city
 #b_diria_brundisium = city
 

@@ -5,13 +5,13 @@ title = c_motyon
 
 # Settlements
 max_settlements = 4
-b_motyon_motyon = castle
-b_comiciana_motyon = castle
+b_motyon_motyon = city
+b_comiciana_motyon = city
 #b_cosconiana_motyon = city
 #b_calloniana_motyon = city
 b_myttistraton_motyon = city
 b_alia_motyon = temple
-#b_mususino_motyon = castle
+#b_mususino_motyon = city
 
 # Misc
 culture = sicilian

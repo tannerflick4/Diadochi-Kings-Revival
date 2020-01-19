@@ -5,12 +5,12 @@ title = c_selinus # for example c_corinth
 
 # Settlements
 max_settlements = 4
-b_selinus_selinus = castle
+b_selinus_selinus = city
 b_ad_fluvium_lanaricum_selinus = city
-b_thermae_selinuntinae_selinus = castle
-#b_triokala_selinus = castle
+b_thermae_selinuntinae_selinus = city
+#b_triokala_selinus = city
 b_allava_selinus = city
-#b_kaprianon_selinus = castle
+#b_kaprianon_selinus = city
 #b_necropolis_selinus = temple
 
 # Misc

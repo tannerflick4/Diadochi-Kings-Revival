@@ -6,12 +6,12 @@ title = c_bergastrum
 # Settlements
 max_settlements = 3
 b_bergastrum_bergastrum = tribal
-#b_asso_bergastrum = castle
+#b_asso_bergastrum = city
 #b_tutugi_bergastrum = city
 #b_segisa_bergastrum = city
 #b_ilorci_bergastrum = city
 #b_bora_bergastrum = temple
-#b_tucci_bergastrum = castle
+#b_tucci_bergastrum = city
 
 # Misc
 culture = iberian

@@ -9,7 +9,7 @@ b_saguntum_saguntum = tribal
 #b_edeta_saguntum = city
 #b_valentia_saguntum = city
 #b_sebelaci_saguntum = city
-#b_aipora_saguntum = castle
+#b_aipora_saguntum = city
 #b_phosphoros_saguntum = temple
 #b_ad_portum_saguntum = city
 

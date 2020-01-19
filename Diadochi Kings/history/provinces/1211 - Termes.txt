@@ -9,7 +9,7 @@ b_termes_termes = tribal
 #b_voluca_termes = city
 #b_uxama_argaela_termes = city
 #b_clunia_sulpicia_termes = city
-#b_segortia_lanka_termes = castle
+#b_segortia_lanka_termes = city
 #b_confluentia_termes = city
 #b_carduae_termes = temple
 

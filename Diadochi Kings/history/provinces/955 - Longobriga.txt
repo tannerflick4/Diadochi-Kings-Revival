@@ -8,9 +8,9 @@ max_settlements = 3
 b_longobriga_longobriga = tribal
 #b_cobelcorum_longobriga = city
 #b_civitas_aravorum_longobriga = city
-#b_meidubriga_longobriga = castle
-#b_callabriga_longobriga = castle
-#b_conobaria_longobriga = castle
+#b_meidubriga_longobriga = city
+#b_callabriga_longobriga = city
+#b_conobaria_longobriga = city
 #b_saudo_longobriga = temple
 
 # Misc

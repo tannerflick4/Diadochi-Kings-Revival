@@ -10,8 +10,8 @@ b_vienna_vienna = tribal
 #b_ursolis_vienna = temple
 #b_epaone_vienna = temple
 #b_figlinae_vienna = city
-#b_turedonnum_vienna = castle
-#b_octavus_vienna = castle
+#b_turedonnum_vienna = city
+#b_octavus_vienna = city
 
 # Misc
 culture = gaul

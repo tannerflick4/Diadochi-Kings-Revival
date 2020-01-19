@@ -5,10 +5,10 @@ title = c_malaca
 
 # Settlements
 max_settlements = 4
-b_malaca_malaca = castle
-#b_nescania_malaca = castle 
-b_anticaria_malaca = castle
-#b_aratispi_malaca = castle
+b_malaca_malaca = city
+#b_nescania_malaca = city 
+b_anticaria_malaca = city
+#b_aratispi_malaca = city
 #b_mainake_malaca = city
 b_maenuba_malaca = city
 b_cavicium_malaca = city

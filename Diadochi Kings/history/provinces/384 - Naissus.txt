@@ -7,11 +7,11 @@ title = c_naissus
 max_settlements = 4
 b_naissus_naissus = tribal
 #b_iustiniana_prima_naissus = city
-#b_ad_fines_naissus = castle
-#b_anausaro_naissus = castle
+#b_ad_fines_naissus = city
+#b_anausaro_naissus = city
 #b_ad_herculem_naissus = city
-#b_bregovina_naissus = castle
-#b_lace_naissus = castle
+#b_bregovina_naissus = city
+#b_lace_naissus = city
 
 # Misc
 culture = illyrian

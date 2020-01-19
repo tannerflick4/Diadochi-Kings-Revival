@@ -7,10 +7,10 @@ title = c_indibilis
 max_settlements = 4
 b_indibilis_indibilis = tribal
 #b_adeba_indibilis = city
-#b_ildum_indibilis = castle
+#b_ildum_indibilis = city
 #b_etobesa_indibilis = city
 #b_ad_novias_indibilis = city
-#b_lassira_indibilis = castle
+#b_lassira_indibilis = city
 b_sacrum_indibilis = temple
 
 # Misc

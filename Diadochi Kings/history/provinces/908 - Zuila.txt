@@ -7,7 +7,7 @@ title = c_zuila
 max_settlements = 3
 b_zuila_zuila = tribal
 #b_terbu_zuila = city
-#b_tmessa_zuila = castle
+#b_tmessa_zuila = city
 
 # Misc
 culture = berber

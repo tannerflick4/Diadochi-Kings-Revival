@@ -5,7 +5,7 @@ title = c_pharos
 
 # Settlements
 max_settlements = 4
-b_pharos_pharos = castle
+b_pharos_pharos = city
 b_issa_pharos = city
 b_korkyra_melaina_pharos = city
 #b_tragurium_pharos

@@ -8,8 +8,8 @@ max_settlements = 4
 b_scaptobara_scaptobara = tribal
 #b_sportela_scaptobara = city
 #b_neine_scaptobara = city
-#b_ciropolis_scaptobara = castle
-#b_germania_scaptobara = castle
+#b_ciropolis_scaptobara = city
+#b_germania_scaptobara = city
 #b_debrene_scaptobara = city
 #b_orbelos_scaptobara = temple
 

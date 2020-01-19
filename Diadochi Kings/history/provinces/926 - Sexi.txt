@@ -5,12 +5,12 @@ title = c_sexi
 
 # Settlements
 max_settlements = 3
-b_sexi_sexi = castle
+b_sexi_sexi = city
 b_cavicium_sexi = city
 b_selambina_sexi = city
-#b_solorius_sexi = castle
+#b_solorius_sexi = city
 #b_orospeda_sexi = temple
-#b_ascua_sexi = castle
+#b_ascua_sexi = city
 #b_batora_sexi = city
 
 # Misc

@@ -6,10 +6,10 @@ title = c_tarba
 # Settlements
 max_settlements = 4
 b_tarba_tarba = tribal
-#b_lugdunum_convenarum_tarba = castle
-#b_aquae_convenarum_tarba = castle
-#b_vicus_aquensis_tarba = castle
-#b_begorra_tarba = castle
+#b_lugdunum_convenarum_tarba = city
+#b_aquae_convenarum_tarba = city
+#b_vicus_aquensis_tarba = city
+#b_begorra_tarba = city
 #b_maroialica_tarba = temple
 #b_sexciacum_tarba = city
 

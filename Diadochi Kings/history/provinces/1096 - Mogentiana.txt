@@ -9,9 +9,9 @@ b_mogentiana_mogentiana = tribal
 #b_caesariana_mogentiana = city
 #b_mestrianis_mogentiana = city
 #b_volgum_mogentiana = city
-#b_matrica_mogentiana = castle
+#b_matrica_mogentiana = city
 #b_valence_mogentiana = temple
-#b_campona_mogentiana = castle
+#b_campona_mogentiana = city
 
 # Misc
 culture = illyrian

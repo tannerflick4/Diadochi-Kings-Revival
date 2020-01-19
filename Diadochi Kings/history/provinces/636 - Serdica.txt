@@ -7,11 +7,11 @@ title = c_serdica
 max_settlements = 4
 b_serdica_serdica = tribal
 #b_scretisca_serdica = city
-#b_meldia_serdica = castle
-#b_ballanstra_serdica = castle
+#b_meldia_serdica = city
+#b_ballanstra_serdica = city
 #b_remesiana_serdica = city
 #b_turres_serdica = city
-#b_translitis_serdica = castle
+#b_translitis_serdica = city
 
 # Misc
 culture = thracian

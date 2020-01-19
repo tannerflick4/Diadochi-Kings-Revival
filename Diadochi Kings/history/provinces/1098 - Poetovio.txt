@@ -9,7 +9,7 @@ b_poetovio_poetovio = tribal
 #b_pultova_poetovio = city
 #b_ramista_poetovio = city
 #b_curta_poetovio = city
-#b_gladomes_poetovio = castle
+#b_gladomes_poetovio = city
 b_brengova_poetovio = temple
 #b_grusena_poetovio = temple
 
