@@ -5,7 +5,7 @@ AIREASON_LOVER;§Y[GetTitledFirstName]§! is my Lover;§Y[GetTitledFirstName]§! est
 AIREASON_FRIEND;§Y[GetTitledFirstName]§! is my Friend;§Y[GetTitledFirstName]§! est mon ami[Get_E];§Y[GetTitledFirstName]§! ist mein(e) Freund(in);;§Y[GetTitledFirstName]§! es mi amigo;;;;;;;;;x
 AIREASON_WITH_LOVER;Wants to stay with lover - §Y[GetTitledFirstName]§!;Souhaite rester avec son amant[Get_E] - §Y[GetTitledFirstName]§!;Möchte bei Liebhaber bleiben - §Y[GetTitledFirstName]§!;;Quiere quedarse con su amante, §Y[GetTitledFirstName]§!;;;;;;;;;x
 PV_FORT;Fort;Fort;Festung;;Fortaleza;;;;;;;;;x
-PV_TRADE_POST;Trade Post;Comptoir;Handelsposten;;Puesto comercial;;;;;;;;;x
+PV_TRADE_POST;Colony;Comptoir;Handelsposten;;Puesto comercial;;;;;;;;;x
 adopt_wolf_child;The child is adopted with full right of inheritance.;L'enfant est adopté et jouit de son droit entier de succession.;Das Kind wird mit allen Erbrechten adoptiert.;;El niño es adoptado con pleno derecho de la herencia.;;;;;;;;;x
 EVTTOOLTIP89008;Is informed of the murder attempt.;S'est vu informer de la tentative de meurtre.;Wurde über den Mordversuch informiert.;;Es informado de la tentativa de asesinato;;;;;;;;;x
 claim_on_vassal_plot_desc;§Y$CLAIMANT$§! is trying to revoke the title of §Y$TITLE$§!, which has resulted in an armed conflict with §Y$TARGET$§!;§Y$CLAIMANT$§! tente de révoquer le titre de §Y$TITLE$§!, ce qui a engendré une confrontation armée avec §Y$TARGET$§!;§Y$CLAIMANT$§! versucht, den Titel §Y$TITLE$§! abzuerkennen, was zu einem bewaffneten Konflikt mit §Y$TARGET$§! geführt hat.;;§Y$CLAIMANT$§! intenta retirar el título de §Y$TITLE$§!, lo que ha derivado en un conflicto armado con §Y$TARGET$§!;;;;;;;;;x
