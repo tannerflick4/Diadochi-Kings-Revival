@@ -96,6 +96,9 @@ temple_baron_hellenic;Oracle;;;;;;;;;;;;;x
 temple_baron_female_hellenic;Oracle;;;;;;;;;;;;;x
 
 # Greek Special Holding Names
+city_barony_of_thracian_group;Polis;;;;;;;;;;;;;x
 city_barony_thracian_group;Polis;;;;;;;;;;;;;x
+city_barony_of_illyrian_group;Polis;;;;;;;;;;;;;x
 city_barony_illyrian_group;Polis;;;;;;;;;;;;;x
 city_barony_hellenic;Polis;;;;;;;;;;;;;x
+city_barony_of_hellenic;Polis;;;;;;;;;;;;;x
