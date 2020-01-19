@@ -96,9 +96,33 @@ temple_baron_hellenic;Oracle;;;;;;;;;;;;;x
 temple_baron_female_hellenic;Oracle;;;;;;;;;;;;;x
 
 # Greek Special Holding Names
+city_empire_of_thracian_group;Polis;;;;;;;;;;;;;x
+city_empire_thracian_group;Polis;;;;;;;;;;;;;x
+city_kingdom_of_thracian_group;Polis;;;;;;;;;;;;;x
+city_kingdom_thracian_group;Polis;;;;;;;;;;;;;x
+city_duchy_of_thracian_group;Polis;;;;;;;;;;;;;x
+city_duchy_thracian_group;Polis;;;;;;;;;;;;;x
+city_county_of_thracian_group;Polis;;;;;;;;;;;;;x
+city_county_thracian_group;Polis;;;;;;;;;;;;;x
 city_barony_of_thracian_group;Polis;;;;;;;;;;;;;x
 city_barony_thracian_group;Polis;;;;;;;;;;;;;x
+city_empire_of_illyrian_group;Polis;;;;;;;;;;;;;x
+city_empire_illyrian_group;Polis;;;;;;;;;;;;;x
+city_kingdom_of_illyrian_group;Polis;;;;;;;;;;;;;x
+city_kingdom_illyrian_group;Polis;;;;;;;;;;;;;x
+city_duchy_of_illyrian_group;Polis;;;;;;;;;;;;;x
+city_duchy_illyrian_group;Polis;;;;;;;;;;;;;x
+city_county_of_illyrian_group;Polis;;;;;;;;;;;;;x
+city_county_illyrian_group;Polis;;;;;;;;;;;;;x
 city_barony_of_illyrian_group;Polis;;;;;;;;;;;;;x
 city_barony_illyrian_group;Polis;;;;;;;;;;;;;x
+city_empire_of_hellenic;Polis;;;;;;;;;;;;;x
+city_empire_hellenic;Polis;;;;;;;;;;;;;x
+city_kingdom_of_hellenic;Polis;;;;;;;;;;;;;x
+city_kingdom_hellenic;Polis;;;;;;;;;;;;;x
+city_duchy_of_hellenic;Polis;;;;;;;;;;;;;x
+city_duchy_hellenic;Polis;;;;;;;;;;;;;x
+city_county_of_hellenic;Polis;;;;;;;;;;;;;x
+city_county_hellenic;Polis;;;;;;;;;;;;;x
 city_barony_hellenic;Polis;;;;;;;;;;;;;x
 city_barony_of_hellenic;Polis;;;;;;;;;;;;;x
