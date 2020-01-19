@@ -5,7 +5,7 @@ title = c_avisari
 
 # Settlements
 max_settlements = 1
-b_avisari_avisari = castle
+b_avisari_avisari = city
 
 # Misc
 culture = gandhari

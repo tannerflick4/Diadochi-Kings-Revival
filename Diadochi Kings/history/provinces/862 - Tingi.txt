@@ -6,9 +6,9 @@ title = c_tingi
 # Settlements
 max_settlements = 5
 b_septem_tingi = city
-b_tingi_tingi = castle
+b_tingi_tingi = city
 b_zilil_tingi = city
-b_tabernae_tingi = castle
+b_tabernae_tingi = city
 b_cottae_tingi = city
 
 # Misc

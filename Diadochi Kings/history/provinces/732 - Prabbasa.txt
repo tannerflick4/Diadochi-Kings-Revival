@@ -5,8 +5,8 @@ title = c_prabbasa
 
 # Settlements
 max_settlements = 2
-b_prabbasa_prabbasa = castle
-b_ahirvati_prabbasa = castle
+b_prabbasa_prabbasa = city
+b_ahirvati_prabbasa = city
 
 # Misc
 culture = shauraseni

@@ -5,13 +5,13 @@ title = c_pelopia
 
 # Settlements
 max_settlements = 4
-b_pelopia_pelopia = castle # Later Thyateira
+b_pelopia_pelopia = city # Later Thyateira
 b_indi_pelopia = city # Later Stratonicea
-b_hyssa_pelopia = castle
+b_hyssa_pelopia = city
 b_karena_pelopia = city
 
-#b_thyateira_pelopia = castle
-#b_stratonikeia_pelopia = castle
+#b_thyateira_pelopia = city
+#b_stratonikeia_pelopia = city
 
 # Misc
 culture = luwian

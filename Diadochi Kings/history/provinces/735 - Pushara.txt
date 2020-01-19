@@ -5,7 +5,7 @@ title = c_pushara
 
 # Settlements
 max_settlements = 2
-b_pushara_pushara = castle
+b_pushara_pushara = city
 b_mrittikavati_pushara = city
 
 # Misc

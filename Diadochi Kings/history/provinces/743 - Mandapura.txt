@@ -5,7 +5,7 @@ title = c_mandapura
 
 # Settlements
 max_settlements = 2
-b_mandapura_mandapura = castle
+b_mandapura_mandapura = city
 b_chamasodbheda_mandapura = city
 
 # Misc

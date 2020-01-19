@@ -5,7 +5,7 @@ title = c_ephesus # for example c_corinth
 
 # Settlements
 max_settlements = 5
-b_ephesus_ephesus = castle
+b_ephesus_ephesus = city
 b_colophon_ephesus = temple
 b_magnesia_ephesus = city
 b_notion_ephesus = city

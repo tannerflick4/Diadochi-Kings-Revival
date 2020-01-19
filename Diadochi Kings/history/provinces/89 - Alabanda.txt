@@ -5,10 +5,10 @@ title = c_alabanda
 
 # Settlements
 max_settlements = 4
-b_alabanda_alabanda = castle
+b_alabanda_alabanda = city
 b_lagina_alabanda = temple
 b_gerga_alabanda = city
-b_alinda_alabanda = castle
+b_alinda_alabanda = city
 
 # Misc
 culture = luwian

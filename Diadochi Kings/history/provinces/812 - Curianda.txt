@@ -5,8 +5,8 @@ title = c_curianda
 
 # Settlements
 max_settlements = 3
-b_curianda_curianda = castle
-b_nysa_curianda = castle
+b_curianda_curianda = city
+b_nysa_curianda = city
 b_ora_curianda = city
 
 # Misc

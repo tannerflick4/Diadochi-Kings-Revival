@@ -5,7 +5,7 @@ title = c_dwaraka
 
 # Settlements
 max_settlements = 3
-b_dwaraka_dwaraka = castle 
+b_dwaraka_dwaraka = city 
 b_monoglosson_dwaraka = city
 b_astakapra_dwaraka = city
 

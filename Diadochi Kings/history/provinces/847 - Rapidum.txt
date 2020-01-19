@@ -7,7 +7,7 @@ title = c_rapidum
 max_settlements = 3
 b_rapidum_rapidum = tribal
 #b_auzia_rapidum = city
-#b_tatilti_rapidum = castle
+#b_tatilti_rapidum = city
 
 # Misc
 culture = berber

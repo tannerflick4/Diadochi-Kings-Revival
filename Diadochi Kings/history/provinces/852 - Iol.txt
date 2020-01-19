@@ -6,7 +6,7 @@ title = c_iol
 # Settlements
 max_settlements = 4
 b_tipasa_iol = city
-b_iol_iol = castle
+b_iol_iol = city
 b_elephantaria_iol = temple
 b_calventi_iol = city
 

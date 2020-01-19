@@ -5,7 +5,7 @@ title = c_bilaspur
 
 # Settlements
 max_settlements = 1
-b_bilaspur_bilaspur = castle
+b_bilaspur_bilaspur = city
 
 # Misc
 culture = maharashtri

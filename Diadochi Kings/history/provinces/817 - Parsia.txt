@@ -5,8 +5,8 @@ title = c_parsia
 
 # Settlements
 max_settlements = 3
-b_parsia_parsia = castle
-b_tribasina_parsia = castle
+b_parsia_parsia = city
+b_tribasina_parsia = city
 b_zimira_parsia = city
 
 # Misc

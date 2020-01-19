@@ -5,8 +5,8 @@ title = c_antinoopolis
 
 # Settlements
 max_settlements = 4
-#b_antinoopolis_antinoopolis = castle
-b_thmoresis_antinoopolis = castle
+#b_antinoopolis_antinoopolis = city
+b_thmoresis_antinoopolis = city
 b_akhetaten_antinoopolis = temple
 b_alabastronpolis_antinoopolis = city
 

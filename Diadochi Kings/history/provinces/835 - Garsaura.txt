@@ -5,10 +5,10 @@ title = c_garsaura
 
 # Settlements
 max_settlements = 4
-b_garsaura_garsaura = castle
+b_garsaura_garsaura = city
 b_koropassos_garsaura = city
-b_momasson_garsaura = castle
-b_salambriai_garsaura = castle
+b_momasson_garsaura = city
+b_salambriai_garsaura = city
 
 # Misc
 culture = luwian

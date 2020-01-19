@@ -6,7 +6,7 @@ title = c_wutanzili
 # Settlements
 max_settlements = 1
 
-b_wutanzili_wutanzili = castle
+b_wutanzili_wutanzili = city
 
 culture = tocharian
 religion = zoroastrian_main

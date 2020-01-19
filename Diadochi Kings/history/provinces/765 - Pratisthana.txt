@@ -5,8 +5,8 @@ title = c_pratisthana
 
 # Settlements
 max_settlements = 3
-b_pratishtana_pratishtana = castle
-b_rastrika_pratishtana = castle
+b_pratishtana_pratishtana = city
+b_rastrika_pratishtana = city
 b_paithana_pratishtana = city
 
 # Misc

@@ -5,9 +5,9 @@ title = c_aratha
 
 # Settlements
 max_settlements = 3
-b_aratha_aratha = castle
+b_aratha_aratha = city
 b_ariaca_aratha = city
-b_maruca_aratha = castle
+b_maruca_aratha = city
 
 # Misc
 culture = bactrian

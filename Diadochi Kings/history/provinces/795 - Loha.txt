@@ -5,7 +5,7 @@ title = c_loha
 
 # Settlements
 max_settlements = 1
-b_loha_loha = castle
+b_loha_loha = city
 
 # Misc
 culture = gandhari

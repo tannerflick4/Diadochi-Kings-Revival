@@ -6,8 +6,8 @@ title = c_tigit
 # Settlements
 max_settlements = 3
 b_tigit_tigit = tribal
-#b_lucu_tigit = castle
-#b_kaputtasaccora_tigit = castle
+#b_lucu_tigit = city
+#b_kaputtasaccora_tigit = city
 
 # Misc
 culture = berber

@@ -5,7 +5,7 @@ title = c_vitabhya
 
 # Settlements
 max_settlements = 3
-b_vitabhya_vitabhya = castle
+b_vitabhya_vitabhya = city
 b_subhumika_vitabhya = city
 b_gandharva_vitabhya = city
 
