@@ -5,9 +5,9 @@ title = c_eruandakert
 
 # Settlements
 max_settlements = 3
-b_eruandakert_eruandakert = castle
+b_eruandakert_eruandakert = city
 b_ani_eruandakert = city
-b_chadas_eruandakert = castle
+b_chadas_eruandakert = city
 
 # Misc
 culture = armenian

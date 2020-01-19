@@ -5,7 +5,7 @@ title = c_bam
 
 # Settlements
 max_settlements = 3
-b_bam_bam = castle
+b_bam_bam = city
 b_caumata_bam = temple
 b_paradana_bam = city
 

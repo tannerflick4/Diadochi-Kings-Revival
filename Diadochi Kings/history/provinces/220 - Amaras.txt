@@ -5,7 +5,7 @@ title = c_amaras
 
 # Settlements
 max_settlements = 3
-b_amaras_amaras = castle
+b_amaras_amaras = city
 b_taoa_amaras = temple
 b_sataphara_amaras = city
 

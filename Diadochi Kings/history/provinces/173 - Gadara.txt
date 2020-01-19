@@ -8,7 +8,7 @@ max_settlements = 4
 b_gadara_gadara = tribal
 b_abila_gadara = temple
 #b_hippos_gadara = city
-#b_gerasa_gadara = castle
+#b_gerasa_gadara = city
 
 # Misc
 culture = nabataean

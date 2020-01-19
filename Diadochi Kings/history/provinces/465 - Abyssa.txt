@@ -6,7 +6,7 @@ title = c_abyssa
 # Settlements
 max_settlements = 3
 b_abyssa_abyssa = tribal
-#b_methath_abyssa = castle
+#b_methath_abyssa = city
 #b_trulla_abyssa = city
 
 # Misc

@@ -5,10 +5,10 @@ title = c_alexandria_bactria
 
 # Settlements
 max_settlements = 4
-#b_alexandria_bactria_alexandria_bactria = castle
+#b_alexandria_bactria_alexandria_bactria = city
 #b_antiocheia_alexandria_bactria = city
 #b_iasonion_alexandria_bactria = city
-b_kuskmeikhan_alexandria_bactria = castle
+b_kuskmeikhan_alexandria_bactria = city
 
 # Misc
 culture = bactrian

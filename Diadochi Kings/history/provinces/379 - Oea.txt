@@ -6,7 +6,7 @@ title = c_oea
 # Settlements
 max_settlements = 4
 b_locri_oea = city
-b_oea_oea = castle
+b_oea_oea = city
 b_sabratha_oea = temple
 
 # Possible baronies: (Always add a # in front of a line with these!)

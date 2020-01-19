@@ -5,7 +5,7 @@ title = c_mahatitta
 
 # Settlements
 max_settlements = 2
-b_mahatitta_mahatitta = castle
+b_mahatitta_mahatitta = city
 b_modoutou_mahatitta = city
 
 # Misc

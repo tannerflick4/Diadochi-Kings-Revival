@@ -5,10 +5,10 @@ title = c_tyana # for example c_corinth
 
 # Settlements
 max_settlements = 4
-b_tyana_tyana = castle
+b_tyana_tyana = city
 b_cybistra_tyana = temple
 b_andabalis_tyana = city
-b_ardistama_tyana = castle
+b_ardistama_tyana = city
 
 # Misc
 culture = cappadocian

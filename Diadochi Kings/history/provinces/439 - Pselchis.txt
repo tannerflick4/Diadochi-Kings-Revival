@@ -5,10 +5,10 @@ title = c_pselchis
 
 # Settlements
 max_settlements = 5
-b_pselchis_pselchis = castle
+b_pselchis_pselchis = city
 b_per_ptah_pselchis = temple
 b_tachompso_pselchis = city
-b_kortia_pselchis = castle
+b_kortia_pselchis = city
 
 # Possible baronies: (Always add a # in front of a line with these!)
 # b_hierasykaminos_pselchis

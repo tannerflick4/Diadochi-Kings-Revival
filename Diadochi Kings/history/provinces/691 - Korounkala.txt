@@ -5,7 +5,7 @@ title = c_korounkala
 
 # Settlements
 max_settlements = 1
-b_korounkala_korounkala = castle
+b_korounkala_korounkala = city
 
 # Misc
 culture = telegu

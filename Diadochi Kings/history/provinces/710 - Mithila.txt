@@ -5,8 +5,8 @@ title = c_mithila
 
 # Settlements
 max_settlements = 2
-b_mithila_mithila = castle
-b_sita_mithila = castle
+b_mithila_mithila = city
+b_sita_mithila = city
 
 # Misc
 culture = vedic # Magadhi

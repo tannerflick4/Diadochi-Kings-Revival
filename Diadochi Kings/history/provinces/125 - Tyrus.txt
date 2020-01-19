@@ -5,10 +5,10 @@ title = c_tyrus
 
 # Settlements
 max_settlements = 5
-b_tyrus_tyrus = castle
+b_tyrus_tyrus = city
 b_hammon_tyrus = temple
 b_ake_tyrus = city
-b_sinde_tyrus = castle
+b_sinde_tyrus = city
 b_palaiotyros_tyrus = city
 
 # Misc

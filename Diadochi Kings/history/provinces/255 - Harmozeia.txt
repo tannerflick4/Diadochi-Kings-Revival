@@ -5,10 +5,10 @@ title = c_harmozeia
 
 # Settlements
 max_settlements = 4
-b_harmozeia_harmozeia = castle
+b_harmozeia_harmozeia = city
 b_rudera_harmozeia = city
 b_sidone_harmozeia = city
-b_portospana_harmozeia = castle
+b_portospana_harmozeia = city
 
 # Misc
 culture = persian

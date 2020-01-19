@@ -5,7 +5,7 @@ title = c_clysma
 
 # Settlements
 max_settlements = 1
-b_clysma_clysma = castle
+b_clysma_clysma = city
 
 # Misc
 culture = egyptian

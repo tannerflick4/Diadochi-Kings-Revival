@@ -5,10 +5,10 @@ title = c_cyropolis
 
 # Settlements
 max_settlements = 4
-b_cyropolis_cyropolis = castle
+b_cyropolis_cyropolis = city
 b_siraf_cyropolis = city
 b_gogana_cyropolis = city
-b_mammica_cyropolis = castle
+b_mammica_cyropolis = city
 
 # Misc
 culture = persian

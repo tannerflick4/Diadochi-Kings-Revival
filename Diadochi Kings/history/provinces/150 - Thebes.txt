@@ -5,12 +5,12 @@ title = c_thebes_egypt
 
 # Settlements
 max_settlements = 6
-b_thebes_thebes_egypt = castle
+b_thebes_thebes_egypt = city
 b_petemout_thebes_egypt = city
 b_touphion_thebes_egypt = temple
 b_karnak_thebes_egypt = temple
 b_luxor_thebes_egypt = temple
-b_kastron_thebon_thebes_egypt = castle
+b_kastron_thebon_thebes_egypt = city
 
 # Misc
 culture = egyptian

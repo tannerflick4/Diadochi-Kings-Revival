@@ -5,10 +5,10 @@ title = c_syedra # for example c_corinth
 
 # Settlements
 max_settlements = 5
-b_syedra_syedra = castle
+b_syedra_syedra = city
 b_laertes_syedra = temple
 b_selinous_syedra = city
-b_marassa_syedra = castle
+b_marassa_syedra = city
 b_ano_kothradis_syedra = temple
 
 # Misc

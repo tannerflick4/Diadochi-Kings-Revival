@@ -5,11 +5,11 @@ title = c_tama
 
 # Settlements
 max_settlements = 5
-b_ahsiket_tama = castle
+b_ahsiket_tama = city
 b_osh_tama = city
 b_saimalu_tash_tama = temple
-b_andijan_tama = castle
-b_kokand_tama = castle
+b_andijan_tama = city
+b_kokand_tama = city
 
 # Misc
 culture = sogdian

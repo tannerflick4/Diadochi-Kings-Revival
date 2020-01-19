@@ -5,7 +5,7 @@ title = c_praaspa
 
 # Settlements
 max_settlements = 4
-b_praaspa_praaspa = castle
+b_praaspa_praaspa = city
 b_gaunarga_praaspa = temple
 b_gabras_praaspa = city
 b_gamaraa_praaspa = city

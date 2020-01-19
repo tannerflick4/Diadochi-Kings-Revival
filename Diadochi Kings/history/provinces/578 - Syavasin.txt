@@ -5,8 +5,8 @@ title = c_syavasin
 
 # Settlements
 max_settlements = 2
-b_syavasin_syavasin = castle
-b_katikol_syavasin = castle
+b_syavasin_syavasin = city
+b_katikol_syavasin = city
 
 # Misc
 culture = chorasmian

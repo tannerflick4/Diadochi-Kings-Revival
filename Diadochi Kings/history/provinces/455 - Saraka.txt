@@ -6,9 +6,9 @@ title = c_saraka
 # Settlements
 max_settlements = 4
 b_saraka_saraka = tribal
-#b_save_saraka = castle
+#b_save_saraka = city
 b_meda_saraka = temple
-#b_achoma_saraka = castle
+#b_achoma_saraka = city
 
 # Misc
 culture = arabic

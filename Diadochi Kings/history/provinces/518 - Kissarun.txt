@@ -7,7 +7,7 @@ title = c_kissarun
 max_settlements = 3
 b_kissarun_kissarun = tribal
 #b_astakol_kissarun = city
-#b_darankar_kissarun = castle
+#b_darankar_kissarun = city
 
 # Misc
 culture = sarmatian

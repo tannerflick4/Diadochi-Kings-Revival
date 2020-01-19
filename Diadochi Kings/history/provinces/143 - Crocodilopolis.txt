@@ -5,10 +5,10 @@ title = c_crocodilopolis
 
 # Settlements
 max_settlements = 6
-b_crocodilopolis_crocodilopolis = castle
+b_crocodilopolis_crocodilopolis = city
 b_haueris_crocodilopolis = temple
 b_heracleopolis_crocodilopolis = city
-b_taleithis_crocodilopolis = castle
+b_taleithis_crocodilopolis = city
 b_bousiris_crocodilopolis = temple
 b_psenaryo_crocodilopolis = city
 

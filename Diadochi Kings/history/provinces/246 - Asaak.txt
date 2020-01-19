@@ -5,9 +5,9 @@ title = c_asaak
 
 # Settlements
 max_settlements = 3
-b_asaak_asaak = castle
+b_asaak_asaak = city
 b_dara_asaak = city
-b_tusa_asaak = castle
+b_tusa_asaak = city
 
 # Misc
 culture = parthian

@@ -5,13 +5,13 @@ title = c_damascus
 
 # Settlements
 max_settlements = 5
-b_damascus_damascus = castle
+b_damascus_damascus = city
 b_lebaba_damascus = temple
 b_dan_damascus = city
-b_abila_damascus = castle
+b_abila_damascus = city
 
 # Possible baronies: (Always add a # in front of a line with these!)
-# b_paneas_damascus = castle 
+# b_paneas_damascus = city 
 
 # Misc
 culture = aramaic

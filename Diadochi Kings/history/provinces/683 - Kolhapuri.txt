@@ -5,7 +5,7 @@ title = c_kolhapuri
 
 # Settlements
 max_settlements = 1
-b_kolhapuri_kolhapuri = castle
+b_kolhapuri_kolhapuri = city
 
 # Misc
 culture = kannada

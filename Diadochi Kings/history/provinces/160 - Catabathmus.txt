@@ -5,9 +5,9 @@ title = c_catabathmus
 
 # Settlements
 max_settlements = 3
-b_catabathmus_catabathmus = castle
+b_catabathmus_catabathmus = city
 b_menelaos_paraetonium = city
-b_kardamis_paraetonium = castle
+b_kardamis_paraetonium = city
 
 # Misc
 culture = egyptian

@@ -6,9 +6,9 @@ title = c_euphranta
 # Settlements
 max_settlements = 4
 b_scina_euphranta = city
-b_euphranta_euphranta = castle
+b_euphranta_euphranta = city
 b_zure_euphranta = temple
-b_gholaia_euphranta = castle
+b_gholaia_euphranta = city
 
 # Possible baronies: (Always add a # in front of a line with these!)
 # b_zacazama_euphranta

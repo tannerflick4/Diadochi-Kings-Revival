@@ -5,11 +5,11 @@ title = c_amaseia # for example c_corinth
 
 # Settlements
 max_settlements = 5
-b_amaseia_amaseia = castle
+b_amaseia_amaseia = city
 b_carissa_amaseia = city
-b_cromen_amaseia = castle
-b_diakopa_amaseia = castle
-b_kizari_amaseia = castle
+b_cromen_amaseia = city
+b_diakopa_amaseia = city
+b_kizari_amaseia = city
 
 # Misc
 culture = cappadocian

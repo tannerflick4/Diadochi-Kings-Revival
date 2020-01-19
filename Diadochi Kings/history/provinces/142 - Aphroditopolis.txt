@@ -5,10 +5,10 @@ title = c_aphroditopolis
 
 # Settlements
 max_settlements = 5
-b_aphroditopolis_aphroditopolis = castle
+b_aphroditopolis_aphroditopolis = city
 b_kerke_aphroditopolis = temple
 b_parembole_aphroditopolis = city
-b_ankyronpolis_aphroditopolis = castle
+b_ankyronpolis_aphroditopolis = city
 b_thmoinepsi_aphroditopolis = city
 
 # Misc

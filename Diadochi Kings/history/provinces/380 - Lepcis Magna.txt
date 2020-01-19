@@ -6,7 +6,7 @@ title = c_lepcis_magna
 # Settlements
 max_settlements = 5
 b_thubactis_lepcis_magna = city
-b_lepcis_magna_lepcis_magna = castle
+b_lepcis_magna_lepcis_magna = city
 b_kinyps_lepcis_magna = temple
 b_gaphara_lepcis_magna = city
 

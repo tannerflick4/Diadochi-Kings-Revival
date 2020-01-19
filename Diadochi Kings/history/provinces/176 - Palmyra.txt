@@ -5,10 +5,10 @@ title = c_palmyra
 
 # Settlements
 max_settlements = 5
-b_palmyra_palmyra = castle
+b_palmyra_palmyra = city
 b_aueria_palmyra = temple
 b_gennaes_palmyra = city
-b_danova_palmyra = castle
+b_danova_palmyra = city
 b_nazala_palmyra = city
 
 # Misc

@@ -5,7 +5,7 @@ title = c_calame
 
 # Settlements
 max_settlements = 4
-b_calame_calame = castle
+b_calame_calame = city
 b_cysa_temple = temple
 b_pasua_calame = city
 b_colta_calame = city

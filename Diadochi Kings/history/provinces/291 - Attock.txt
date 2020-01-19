@@ -5,7 +5,7 @@ title = c_attock
 
 # Settlements
 max_settlements = 1
-b_sindhu_attock = castle
+b_sindhu_attock = city
 
 # Misc
 culture = shauraseni

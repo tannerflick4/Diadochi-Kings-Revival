@@ -5,10 +5,10 @@ title = c_cataonia # for example c_corinth
 
 # Settlements
 max_settlements = 4
-b_comana_cataonia = castle
+b_comana_cataonia = city
 b_kokousos_cataonia = temple
 b_tanadaris_cataonia = city
-b_ulnia_cataonia = castle
+b_ulnia_cataonia = city
 
 # Misc
 culture = cappadocian

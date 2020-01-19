@@ -5,9 +5,9 @@ title = c_tazora
 
 # Settlements
 max_settlements = 3
-b_tazora_tazora = castle
+b_tazora_tazora = city
 b_gauzaca_tazora = temple
-#b_alexandropolis_tazora = castle
+#b_alexandropolis_tazora = city
 
 # Misc
 culture = arian

@@ -5,10 +5,10 @@ title = c_antiocheia
 
 # Settlements
 max_settlements = 7
-b_rhosos_antiocheia = castle
+b_rhosos_antiocheia = city
 b_bytyllion_antiocheia = temple
 b_georgia_antiocheia = city
-b_charandama_antiocheia = castle
+b_charandama_antiocheia = city
 
 # Possible baronies: (Always add a # in front of a line with these!)
 # b_antiocheia_antiocheia

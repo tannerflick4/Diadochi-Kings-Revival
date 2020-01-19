@@ -5,10 +5,10 @@ title = c_arsamosata
 
 # Settlements
 max_settlements = 5
-b_balisbiga_arsamosata = castle
+b_balisbiga_arsamosata = city
 b_colchis_arsamosata = temple
 b_anzitene_arsamosata = city
-b_dadima_arsamosata = castle
+b_dadima_arsamosata = city
 
 # Possible baronies: (Always add a # in front of a line with these!)
 # b_arsamosata_arsamosata

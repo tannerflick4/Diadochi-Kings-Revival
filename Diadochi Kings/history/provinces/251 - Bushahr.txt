@@ -5,7 +5,7 @@ title = c_bushahr
 
 # Settlements
 max_settlements = 4
-b_bushahr_bushahr = castle
+b_bushahr_bushahr = city
 b_borazjan_bushahr = temple
 b_rishahr_bushahr = city
 

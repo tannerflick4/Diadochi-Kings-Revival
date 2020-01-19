@@ -7,7 +7,7 @@ title = c_buridava
 max_settlements = 4
 b_buridava_buridava = tribal
 #b_cetatemi_buridava = city
-#b_cumidava_buridava = castle
+#b_cumidava_buridava = city
 b_ramidava_buridava = temple
 
 # Misc

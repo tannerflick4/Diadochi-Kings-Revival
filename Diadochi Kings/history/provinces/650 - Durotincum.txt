@@ -6,7 +6,7 @@ title = c_durotincum
 # Settlements
 max_settlements = 2
 b_durotincum_durotincum = tribal
-#b_catorissium_durotincum = castle
+#b_catorissium_durotincum = city
 
 # Misc
 culture = gaul

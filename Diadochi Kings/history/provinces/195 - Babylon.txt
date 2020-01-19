@@ -5,12 +5,12 @@ title = c_babylon
 
 # Settlements
 max_settlements = 7
-b_babylon_babylon = castle
+b_babylon_babylon = city
 b_cutha_babylon = temple
 b_borsippa_babylon = city
-b_kish_babylon = castle
+b_kish_babylon = city
 b_dilbat_babylon = city
-b_gurumu_babylon = castle
+b_gurumu_babylon = city
 b_skaple_babylon = city
 
 # Misc

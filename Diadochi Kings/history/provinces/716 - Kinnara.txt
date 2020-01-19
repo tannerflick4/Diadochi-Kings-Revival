@@ -5,7 +5,7 @@ title = c_kinnara
 
 # Settlements
 max_settlements = 1
-b_kinnara_kinnara = castle
+b_kinnara_kinnara = city
 
 # Misc
 culture = vedic # Magadhi

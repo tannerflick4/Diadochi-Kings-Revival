@@ -5,7 +5,7 @@ title = c_nippur
 
 # Settlements
 max_settlements = 4
-b_nippur_nippur = castle
+b_nippur_nippur = city
 b_dabrum_nippur = temple
 b_isin_nippur = city
 

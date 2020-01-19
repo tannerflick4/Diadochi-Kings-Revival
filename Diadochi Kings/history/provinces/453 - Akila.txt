@@ -8,7 +8,7 @@ max_settlements = 4
 b_akila_akila = tribal
 b_mousa_akila = temple
 #b_ocelis_akila = city
-#b_sabe_akila = castle
+#b_sabe_akila = city
 
 # Misc
 culture = arabic

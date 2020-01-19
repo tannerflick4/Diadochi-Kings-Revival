@@ -5,9 +5,9 @@ title = c_asibipura
 
 # Settlements
 max_settlements = 3
-b_asibipura_asibipura = castle
+b_asibipura_asibipura = city
 b_divyakutta_asibipura = city
-b_sacala_asibipura = castle
+b_sacala_asibipura = city
 
 # Misc
 culture = shauraseni

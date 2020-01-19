@@ -5,7 +5,7 @@ title = c_rohitaswa
 
 # Settlements
 max_settlements = 1
-b_rohitaswa_rohitaswa = castle
+b_rohitaswa_rohitaswa = city
 
 # Misc
 culture = vedic # Magadhi

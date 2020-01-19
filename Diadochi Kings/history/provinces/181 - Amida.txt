@@ -5,10 +5,10 @@ title = c_amida
 
 # Settlements
 max_settlements = 5
-b_amida_amida = castle
+b_amida_amida = city
 b_abame_amida = temple
 b_charcha_amida = city
-b_sardeoua_amida = castle
+b_sardeoua_amida = city
 
 # Possible baronies: (Always add a # in front of a line with these!)
 # b_antiochia_arabis

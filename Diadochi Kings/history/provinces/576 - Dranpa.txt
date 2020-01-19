@@ -5,7 +5,7 @@ title = c_dranpa
 
 # Settlements
 max_settlements = 2
-b_dranpa_dranpa = castle
+b_dranpa_dranpa = city
 b_arikol_dranpa = city
 
 # Misc

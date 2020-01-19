@@ -5,10 +5,10 @@ title = c_zoaranda
 
 # Settlements
 max_settlements = 4
-b_zoaranda_zoaranda = castle
+b_zoaranda_zoaranda = city
 b_cymiza_zoaranda = temple
 b_dauduana_zoaranda = city
-b_phora_zoaranda = castle
+b_phora_zoaranda = city
 
 # Misc
 culture = armenian

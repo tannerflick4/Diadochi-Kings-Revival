@@ -5,7 +5,7 @@ title = c_asura
 
 # Settlements
 max_settlements = 1
-b_asura_asura = castle
+b_asura_asura = city
 
 # Misc
 culture = vedic # Magadhi

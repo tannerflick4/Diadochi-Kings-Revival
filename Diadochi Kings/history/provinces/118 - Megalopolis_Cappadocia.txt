@@ -5,8 +5,8 @@ title = c_megalopolis_cappadocia # for example c_corinth
 
 # Settlements
 max_settlements = 4
-b_karana_megalopolis_cappadocia = castle
-b_pedachthoe_megalopolis_cappadocia = castle
+b_karana_megalopolis_cappadocia = city
+b_pedachthoe_megalopolis_cappadocia = city
 b_phiara_megalopolis_cappadocia = temple
 b_kamisa_megalopolis_cappadocia = city
 

@@ -6,8 +6,8 @@ title = c_rusazus
 # Settlements
 max_settlements = 4
 b_saldae_rusazus = city
-b_rusazus_rusazus = castle
-b_bida_rusazus = castle
+b_rusazus_rusazus = city
+b_bida_rusazus = city
 b_rusippisir_rusazus = city
 
 # Misc

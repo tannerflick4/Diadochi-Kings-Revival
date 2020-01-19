@@ -5,11 +5,11 @@ title = c_soxetra
 
 # Settlements
 max_settlements = 5
-b_soxetra_soxetra = castle
+b_soxetra_soxetra = city
 b_zetis_soxetra = temple
 b_pagala_soxetra = city
 b_arbis_soxetra = city
-b_bambacia_soxetra = castle
+b_bambacia_soxetra = city
 
 # Misc
 culture = arian

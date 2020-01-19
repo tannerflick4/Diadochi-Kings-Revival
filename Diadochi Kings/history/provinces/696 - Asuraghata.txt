@@ -5,7 +5,7 @@ title = c_asuraghata
 
 # Settlements
 max_settlements = 3
-b_asuraghata_asuraghata = castle
+b_asuraghata_asuraghata = city
 b_samapa_asuraghata = city
 b_swetaka_asuraghata = city
 

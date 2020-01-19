@@ -5,10 +5,10 @@ title = c_gynaikon_limen
 
 # Settlements
 max_settlements = 4
-b_oxiana_gynaikon_limen = castle
+b_oxiana_gynaikon_limen = city
 b_sindomana_gynaikon_limen = city
 b_sacola_gynaikon_limen = temple
-b_barbara_gynaikon_limen = castle
+b_barbara_gynaikon_limen = city
 
 # Misc
 culture = shauraseni

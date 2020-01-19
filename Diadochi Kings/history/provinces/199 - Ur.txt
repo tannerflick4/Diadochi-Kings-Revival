@@ -5,7 +5,7 @@ title = c_ur
 
 # Settlements
 max_settlements = 3
-b_ur_ur = castle
+b_ur_ur = city
 b_eridu_ur = temple
 b_nina_ur = city
 

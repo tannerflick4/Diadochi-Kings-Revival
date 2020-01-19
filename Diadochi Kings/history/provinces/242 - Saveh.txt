@@ -5,10 +5,10 @@ title = c_saveh
 
 # Settlements
 max_settlements = 4
-b_saveh_saveh = castle
+b_saveh_saveh = city
 b_choana_saveh = city
 b_goyman_saveh = city
-b_gauna_saveh = castle
+b_gauna_saveh = city
 
 # Misc
 culture = median

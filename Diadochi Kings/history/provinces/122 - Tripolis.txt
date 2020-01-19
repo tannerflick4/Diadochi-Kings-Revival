@@ -5,10 +5,10 @@ title = c_tripolis
 
 # Settlements
 max_settlements = 4
-b_tripolis_tripolis = castle
+b_tripolis_tripolis = city
 b_saama_tripolis = temple
 b_botrys_tripolis = city
-b_arqa_tripolis = castle
+b_arqa_tripolis = city
 
 # Misc
 culture = punic

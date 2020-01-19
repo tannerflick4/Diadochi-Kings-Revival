@@ -7,7 +7,7 @@ title = c_ausara
 max_settlements = 4
 b_ausara_ausara = tribal
 b_mochoura_ausara = temple
-#b_thoumna_ausara = castle
+#b_thoumna_ausara = city
 #b_hibra_ausara = temple
 
 # Misc

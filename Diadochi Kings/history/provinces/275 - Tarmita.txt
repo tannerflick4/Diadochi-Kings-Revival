@@ -5,10 +5,10 @@ title = c_tarmita
 
 # Settlements
 max_settlements = 5
-b_tarmita_tarmita = castle
-b_chorienes_tarmita = castle
-b_pareitakai_tarmita = castle
-b_marouka_tarmita = castle
+b_tarmita_tarmita = city
+b_chorienes_tarmita = city
+b_pareitakai_tarmita = city
+b_marouka_tarmita = city
 b_cholbisina_tarmita = city
 
 # Misc

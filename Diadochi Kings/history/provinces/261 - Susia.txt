@@ -5,9 +5,9 @@ title = c_susia
 
 # Settlements
 max_settlements = 3
-b_susia_susia = castle
+b_susia_susia = city
 b_vishpauzatis_susia = temple
-b_nisaea_susia = castle
+b_nisaea_susia = city
 
 # Misc
 culture = parthian

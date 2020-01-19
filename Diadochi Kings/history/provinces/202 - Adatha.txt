@@ -5,10 +5,10 @@ title = c_adatha
 
 # Settlements
 max_settlements = 4
-b_adatha_adatha = castle
+b_adatha_adatha = city
 b_rhabaine_adatha = temple
 b_tyba_adatha = city
-b_ulnia_adatha = castle
+b_ulnia_adatha = city
 
 # Misc
 culture = luwian

@@ -5,10 +5,10 @@ title = c_adar_gushnasp
 
 # Settlements
 max_settlements = 5
-b_gaza_adar_gushnasp = castle
+b_gaza_adar_gushnasp = city
 b_adar_gushnasp_adar_gushnasp = temple
 b_ganzak_adar_gushnasp = city
-b_giaur_adar_gushnasp = castle
+b_giaur_adar_gushnasp = city
 b_sheytanabad_adar_gushnasp = temple
 
 # Misc
