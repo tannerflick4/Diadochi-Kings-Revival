@@ -20,13 +20,16 @@
 	holder = 803 # Philip II
 	liege = k_macedon
 }
-426.1.1 = {
-	liege = e_macedonia
-}
 440.10.1 = {
-	holder = 802
+	holder = 802 # Alexander III
 }
 453.6.10 = {
+	holder = 801 # Philip III
+}
+457.1.1 = {
+	holder = 1601 # Polyperchon
+}
+461.1.1 = {
 	holder = 0
 	liege = 0
 }

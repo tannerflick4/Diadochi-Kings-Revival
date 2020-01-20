@@ -7,11 +7,12 @@
 	liege = k_s_babylonia
 }
 453.6.10 = {
-	holder = 801
+	holder = 801 # Philip III
 	liege = e_macedonia
 }
-459.12.25 = {
-	holder = 808
+453.8.1 = {
+	holder = 808 Alexandros IV
+	liege = k_asia
 }
 467.1.1 = {
 	holder = 1001 # Seleucus

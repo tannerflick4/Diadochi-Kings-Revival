@@ -1,27 +1,11 @@
 417.1.1 = { # 359 BC
 	holder = 140102
-	liege = d_dardania
-}
-418.1.1 = { # 358 BC
-	liege = k_macedon
 }
 420.1.1 = { # 356 BC
 	holder = 140103
 }
-426.1.1 = { # 350 BC
-	liege = e_macedonia
-}
 441.1.1 = { # 335 BC
 	holder = 140101 # Glaucias of the Taulanti
-}
-453.6.10 = { # 323 BC
-	liege = k_s_macedon
-}
-459.10.1 = { # 317 BC
-	liege = k_macedon
-}
-463.1.1 = { # 313 BC
-	liege = 0
 }
 474.1.1 = { # 302 BC
 	holder = 140104 # Agron of the Taulanti

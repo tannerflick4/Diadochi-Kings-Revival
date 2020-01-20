@@ -323,9 +323,10 @@ k_s_thrace = {
 			has_landed_title = e_macedonia
 		}
 	}
-
+	
+	title = "STRATEGOS"
+	
 	short_name = yes
-
 }
 k_s_mysia = {
 	color= { 0 100 100 }
@@ -729,6 +730,12 @@ k_tylis = {
 	color2= { 255 255 255 }
 	
 	capital = 68 # Dardani
+}
+k_asia = {
+	color = { 0 50 225 }
+	color2 = { 255 255 255 }
+	
+	capital = 195 # Babylon
 }
 k_r_athens = {
 	color= { 100 200 255 }

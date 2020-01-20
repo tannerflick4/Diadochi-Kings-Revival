@@ -2,19 +2,19 @@
 	holder = 23801
 }
 438.8.2 = { # 338 BC, Battle of Chaeronea
-	liege = e_macedonia
+	liege = k_macedon
 }
 445.1.1 = { # 331 BC
 	holder = 23802 
 }
-453.6.10 = { # 323 BC
-	liege = k_s_macedon
-}
 457.1.1 = { # 319 BC
-	holder = 1601 # Polyperchon
+	holder = 801 # Philip III
 }
-467.1.1 = { # 309 BC
-	liege = d_peloponnese
+459.12.25 = {
+	holder = 808 # Alexandros IV
+}
+467.1.1 = {
+	holder = 2 # Kassandros
 }
 479.1.1 = { # 297 BC
 	holder = 23802

@@ -9,30 +9,22 @@
 }
 424.1.1 = { # 352 BC
 	holder = 30501 # Thrasydaios of the Aleuadai
-	liege = k_macedon
-}
-426.1.1 = {
-	liege = e_macedonia
 }
 434.1.1 = {
 	holder = 30301 # Menon of Pharsalus
 }
 453.6.10 = {
-	liege = k_s_macedon
-}
-453.9.1 = {
-	liege = 0 # Lamian war
-}
-455.1.1 = {
-	holder = 1 # Antipater
-	liege = k_s_macedon
+	holder = 801 # Philip III
 }
 457.1.1 = {
 	holder = 1601 # Polyperchon
 }
-459.10.1 = {
-	holder = 2 # Kassandros
+461.1.1 = {
+	holder = 808 # Alexandros IV
 	liege = k_macedon
+}
+467.1.1 = {
+	holder = 2 # Kassandros
 }
 479.1.1 = {
 	holder = 12 # Philippos IV
