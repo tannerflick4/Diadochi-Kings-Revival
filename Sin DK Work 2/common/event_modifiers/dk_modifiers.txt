@@ -7,3 +7,123 @@ mod_sync_kemetic = {
 	icon = 1
 	kemetic_opinion = 10
 }
+mod_sync_atenist = {
+	icon = 1
+	atenist_opinion = 10
+}
+mod_sync_greco_kemetic = {
+	icon = 1
+	greco_kemetic_opinion = 10
+}
+mod_sync_berber_main = {
+	icon = 1
+	berber_main_opinion = 10
+}
+mod_sync_illyrian_main = {
+	icon = 1
+	illyrian_main_opinion = 10
+}
+mod_sync_thracian_main = {
+	icon = 1
+	thracian_main_opinion = 10
+}
+mod_sync_zalmoxism = {
+	icon = 1
+	zalmoxism_opinion = 10
+}
+mod_sync_celtic_main = {
+	icon = 1
+	celtic_main_opinion = 10
+}
+mod_sync_punic_main = {
+	icon = 1
+	punic_main_opinion = 10
+}
+mod_sync_canaanite_main = {
+	icon = 1
+	canaanite_main_opinion = 10
+}
+mod_sync_zoroastrian_main = {
+	icon = 1
+	zoroastrian_main_opinion = 10
+}
+mod_sync_zurvanism = {
+	icon = 1
+	zurvanism_opinion = 10
+}
+mod_sync_scythian_main = {
+	icon = 1
+	scythian_main_opinion = 10
+}
+mod_sync_armenian_main = {
+	icon = 1
+	armenian_main_opinion = 10
+}
+mod_sync_judaism_main = {
+	icon = 1
+	judaism_main_opinion = 10
+}
+mod_sync_hinduism_main = {
+	icon = 1
+	hinduism_main_opinion = 10
+}
+mod_sync_jainism_main = {
+	icon = 1
+	jainism_main_opinion = 10
+}
+mod_sync_buddhism_main = {
+	icon = 1
+	buddhism_main_opinion = 10
+}
+mod_sync_georgian_main = {
+	icon = 1
+	georgian_main_opinion = 10
+}
+mod_sync_anatolian_main = {
+	icon = 1
+	anatolian_main_opinion = 10
+}
+mod_sync_phrygian_main = {
+	icon = 1
+	phrygian_main_opinion = 10
+}
+mod_sync_marduk_cult = {
+	icon = 1
+	marduk_cult_opinion = 10
+}
+mod_sync_arabic_main = {
+	icon = 1
+	arabic_main_opinion = 10
+}
+mod_sync_greek_main = {
+	icon = 1
+	greek_main_opinion = 10
+}
+mod_sync_roman_main = {
+	icon = 1
+	roman_main_opinion = 10
+}
+mod_sync_pontic_main = {
+	icon = 1
+	pontic_main_opinion = 10
+}
+mod_sync_etruscan_main = {
+	icon = 1
+	etruscan_main_opinion = 10
+}
+mod_sync_dravidian_main = {
+	icon = 1
+	dravidian_main_opinion = 10
+}
+mod_sync_lusitanian_main = {
+	icon = 1
+	lusitanian_main_opinion = 10
+}
+mod_sync_iberian_main = {
+	icon = 1
+	iberian_main_opinion = 10
+}
+mod_sync_aquitanian_main = {
+	icon = 1
+	aquitanian_main_opinion = 10
+}

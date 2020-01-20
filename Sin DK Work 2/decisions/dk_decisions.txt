@@ -42,6 +42,306 @@ decisions = {
 							duration = -1
 						}
 					}
+					1 = {
+						modifier = {
+							factor = 0
+							religion = atenist
+						}
+						add_character_modifier = {
+							name = mod_sync_atenist
+							duration = -1
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							religion = greco_kemetic
+						}
+						add_character_modifier = {
+							name = mod_sync_greco_kemetic
+							duration = -1
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							religion = berber_main
+						}
+						add_character_modifier = {
+							name = mod_sync_berber_main
+							duration = -1
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							religion = illyrian_main
+						}
+						add_character_modifier = {
+							name = mod_sync_illyrian_main
+							duration = -1
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							religion = thracian_main
+						}
+						add_character_modifier = {
+							name = mod_sync_thracian_main
+							duration = -1
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							religion = zalmoxism
+						}
+						add_character_modifier = {
+							name = mod_sync_zalmoxism
+							duration = -1
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							religion = celtic_main
+						}
+						add_character_modifier = {
+							name = mod_sync_celtic_main
+							duration = -1
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							religion = punic_main
+						}
+						add_character_modifier = {
+							name = mod_sync_punic_main
+							duration = -1
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							religion = canaanite_main
+						}
+						add_character_modifier = {
+							name = mod_sync_canaanite_main
+							duration = -1
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							religion = zoroastrian_main
+						}
+						add_character_modifier = {
+							name = mod_sync_zoroastrian_main
+							duration = -1
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							religion = zurvanism
+						}
+						add_character_modifier = {
+							name = mod_sync_zurvanism
+							duration = -1
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							religion = scythian_main
+						}
+						add_character_modifier = {
+							name = mod_sync_scythian_main
+							duration = -1
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							religion = armenian_main
+						}
+						add_character_modifier = {
+							name = mod_sync_armenian_main
+							duration = -1
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							religion = judaism_main
+						}
+						add_character_modifier = {
+							name = mod_sync_judaism_main
+							duration = -1
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							religion = hinduism_main
+						}
+						add_character_modifier = {
+							name = mod_sync_hinduism_main
+							duration = -1
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							religion = jainism_main
+						}
+						add_character_modifier = {
+							name = mod_sync_jainism_main
+							duration = -1
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							religion = buddhism_main
+						}
+						add_character_modifier = {
+							name = mod_sync_buddhism_main
+							duration = -1
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							religion = georgian_main
+						}
+						add_character_modifier = {
+							name = mod_sync_georgian_main
+							duration = -1
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							religion = anatolian_main
+						}
+						add_character_modifier = {
+							name = mod_sync_anatolian_main
+							duration = -1
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							religion = phrygian_main
+						}
+						add_character_modifier = {
+							name = mod_sync_phrygian_main
+							duration = -1
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							religion = marduk_cult
+						}
+						add_character_modifier = {
+							name = mod_sync_marduk_cult
+							duration = -1
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							religion = arabic_main
+						}
+						add_character_modifier = {
+							name = mod_sync_arabic_main
+							duration = -1
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							religion = greek_main
+						}
+						add_character_modifier = {
+							name = mod_sync_greek_main
+							duration = -1
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							religion = roman_main
+						}
+						add_character_modifier = {
+							name = mod_sync_roman_main
+							duration = -1
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							religion = pontic_main
+						}
+						add_character_modifier = {
+							name = mod_sync_pontic_main
+							duration = -1
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							religion = etruscan_main
+						}
+						add_character_modifier = {
+							name = mod_sync_etruscan_main
+							duration = -1
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							religion = dravidian_main
+						}
+						add_character_modifier = {
+							name = mod_sync_dravidian_main
+							duration = -1
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							religion = lusitanian_main
+						}
+						add_character_modifier = {
+							name = mod_sync_lusitanian_main
+							duration = -1
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							religion = iberian_main
+						}
+						add_character_modifier = {
+							name = mod_sync_iberian_main
+							duration = -1
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							religion = aquitanian_main
+						}
+						add_character_modifier = {
+							name = mod_sync_aquitanian_main
+							duration = -1
+						}
+					}
 				}
 			}
 			else = {
