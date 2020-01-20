@@ -24,6 +24,7 @@ feudal_governments = {
 				OR = { 
 					title = e_macedonia
 					title = e_persia
+					title = k_asia
 				}
 			}
 			is_patrician = no

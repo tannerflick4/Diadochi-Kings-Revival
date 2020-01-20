@@ -1,6 +1,6 @@
 453.8.1 = {
 	holder = 808 Alexandros IV
-	liege = k_asia
+	liege = e_macedonia
 }
 467.1.1 = {
 	holder = 0
