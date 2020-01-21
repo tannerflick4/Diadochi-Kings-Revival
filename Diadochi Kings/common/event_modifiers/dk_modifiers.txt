@@ -1,7 +1,5 @@
 mod_synced_faith = {
 	icon = 1
-	years = 10
-	is_hidden = yes
 }
 mod_sync_kemetic = {
 	icon = 1

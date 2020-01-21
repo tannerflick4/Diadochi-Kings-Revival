@@ -23,6 +23,8 @@ decisions = {
 			hidden_tooltip = {
 				add_character_modifier = {
 					name = mod_synced_faith
+					years = 10
+					hidden = yes
 				}
 				remove_character_modifier = mod_sync_kemetic
 				remove_character_modifier = mod_sync_atenist
