@@ -58,11 +58,11 @@ decisions = {
 				remove_character_modifier = mod_sync_iberian_main
 				remove_character_modifier = mod_sync_aquitanian_main
 			}
+			piety = -50
 			if = {
 				limit = {
 					ai = yes
 				}
-				piety = -50
 				random_list = {
 					1 = {
 						modifier = {
