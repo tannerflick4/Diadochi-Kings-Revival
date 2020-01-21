@@ -41,6 +41,9 @@ feudal_governments = {
 		ignore_in_vassal_limit_calculation = {
 			tribal_government
 		}
+		vassal_call_to_arms = {
+			tribal_government
+		}
 		capital_move_delay = 2000
 		
 		can_usurp_kingdoms_and_empires = no
@@ -71,7 +74,7 @@ feudal_governments = {
 			tribal_government
 		}
 		vassal_call_to_arms = {
-			tribal_government
+			satrap_government
 		}
 		potential = {
 			OR = {
