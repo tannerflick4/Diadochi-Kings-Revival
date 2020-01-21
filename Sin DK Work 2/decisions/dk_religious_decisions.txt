@@ -3,7 +3,7 @@ decisions = {
 	sync_faith = {
 
 		potential = {
-			religion_group = hellenic
+			religion_group = greek_religion
 			NOR = {
 				trait = zealous
 				has_character_modifier = mod_synced_faith
@@ -21,14 +21,44 @@ decisions = {
 
 		effect = {
 			hidden_tooltip = {
-				remove_character_modifier = mod_sync_
-			}
-			IF = {
-				limit = {
-					ai = yes
-				}
 				add_character_modifier = {
 					name = mod_synced_faith
+				}
+				remove_character_modifier = mod_sync_kemetic
+				remove_character_modifier = mod_sync_atenist
+				remove_character_modifier = mod_sync_greco_kemetic
+				remove_character_modifier = mod_sync_berber_main
+				remove_character_modifier = mod_sync_illyrian_main
+				remove_character_modifier = mod_sync_thracian_main
+				remove_character_modifier = mod_sync_zalmoxism
+				remove_character_modifier = mod_sync_celtic_main
+				remove_character_modifier = mod_sync_punic_main
+				remove_character_modifier = mod_sync_canaanite_main
+				remove_character_modifier = mod_sync_zoroastrian_main
+				remove_character_modifier = mod_sync_zurvanism
+				remove_character_modifier = mod_sync_scythian_main
+				remove_character_modifier = mod_sync_armenian_main
+				remove_character_modifier = mod_sync_judaism_main
+				remove_character_modifier = mod_sync_hinduism_main
+				remove_character_modifier = mod_sync_jainism_main
+				remove_character_modifier = mod_sync_buddhism_main
+				remove_character_modifier = mod_sync_georgian_main
+				remove_character_modifier = mod_sync_anatolian_main
+				remove_character_modifier = mod_sync_phrygian_main
+				remove_character_modifier = mod_sync_marduk_cult
+				remove_character_modifier = mod_sync_arabic_main
+				remove_character_modifier = mod_sync_greek_main
+				remove_character_modifier = mod_sync_roman_main
+				remove_character_modifier = mod_sync_pontic_main
+				remove_character_modifier = mod_sync_etruscan_main
+				remove_character_modifier = mod_sync_dravidian_main
+				remove_character_modifier = mod_sync_lusitanian_main
+				remove_character_modifier = mod_sync_iberian_main
+				remove_character_modifier = mod_sync_aquitanian_main
+			}
+			if = {
+				limit = {
+					ai = yes
 				}
 				piety = -50
 				random_list = {
