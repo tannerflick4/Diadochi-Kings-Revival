@@ -7451,6 +7451,10 @@ k_cappadocia = {
 			color= { 175 140 115 }
 			color2= { 255 255 255 }
 			
+			allow = {
+				is_republic = yes
+			}
+			
 			b_karana_megalopolis_cappadocia = {
 			}
 			b_phiara_megalopolis_cappadocia = {

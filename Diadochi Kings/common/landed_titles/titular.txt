@@ -878,6 +878,539 @@ d_r_cyrene = {
 		is_republic = yes
 	}
 }
+d_r_stratus = {
+	color= { 100 225 225 }
+	color2= { 255 255 255 }
+	
+	capital = 58 # Akarnania
+	culture = doric
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+d_r_cephalonia = {
+	color= { 110 185 175 }
+	color2= { 255 255 255 }
+	
+	capital = 6 # Kephallenia
+	culture = doric
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+d_r_olympia = {
+	color= { 100 165 245 }
+	color2= { 255 255 255 }
+	
+	capital = 26 # Elis
+	culture = doric
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+d_r_patras = {
+	color= { 90 185 255 }
+	color2= { 255 255 255 }
+	
+	capital = 27 # Achaia
+	culture = doric
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+d_r_trachis = {
+	color= { 100 215 215 }
+	color2= { 255 255 255 }
+	
+	capital = 629 # Trachis
+	culture = doric
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+d_r_thebes = {
+	color= { 200 175 0 }
+	color2= { 255 255 255 }
+	
+	capital = 150 # Boiotia
+	culture = aeolian
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+d_r_abdera = {
+	color= { 158 72 41 }
+	color2= { 255 255 255 }
+	
+	capital = 42 # Abdera
+	culture = ionian
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+d_r_maroneia = {
+	color= { 150 47 37 }
+	color2= { 255 255 255 }
+	
+	capital = 41 # Maroneia
+	culture = ionian
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+d_r_ainos = {
+	color= { 95 72 32 }
+	color2= { 255 255 255 }
+	
+	capital = 294 # Ainos
+	culture = ionian
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+d_r_perinthus = {
+	color= { 111 63 29 }
+	color2= { 255 255 255 }
+	
+	capital = 44 # Perinthus
+	culture = ionian
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+d_r_apollonia = {
+	color= { 145 45 31 }
+	color2= { 255 255 255 }
+	
+	capital = 632 # Apollonia
+	culture = ionian
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+d_r_mesembria = {
+	color = { 96 40 10 }
+	color2= { 255 255 255 }
+	
+	capital = 297 # Mesembria
+	culture = doric
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+d_r_odessos = {
+	color= { 102 31 16 }
+	color2= { 255 255 255 }
+	
+	capital = 47 # Odessos
+	culture = ionian
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+d_r_histria = {
+	color= { 112 40 4 }
+	color2= { 255 255 255 }
+	
+	capital = 48 # Histria
+	culture = ionian
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+d_r_chios = {
+	color= { 10 115 125 }
+	color2= { 255 255 255 }
+	
+	capital = 14 # Chios
+	culture = ionian
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+d_r_kos = {
+	color= { 0 85 85 }
+	color2= { 255 255 255 }
+	
+	capital = 12 # Kos
+	culture = ionian
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+d_r_corfu = {
+	color= { 11 158 109 }
+	color2= { 255 255 255 }
+	
+	capital = 7 # Korkyra
+	culture = doric
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+d_r_karkine = {
+	color= { 90 20 35 }
+	color2= { 255 255 255 }
+	
+	capital = 641 # Karkine
+	culture = ionian
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+d_r_kerkinitis = {
+	color= { 85 10 25 }
+	color2= { 255 255 255 }
+	
+	capital = 54 # Kerkinitis
+	culture = ionian
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+d_r_chersonesos = {
+	color= { 65 0 15 }
+	color2= { 255 255 255 }
+	
+	capital = 474 # Chersonesos
+	culture = ionian
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+d_r_azara = {
+	color= { 50 10 15 }
+	color2= { 255 255 255 }
+	
+	capital = 642 # Azara
+	culture = ionian
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+d_r_gorgippia = {
+	color= { 60 10 25 }
+	color2= { 255 255 255 }
+	
+	capital = 475 # Gorgippia
+	culture = ionian
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+d_r_pityous = {
+	color= { 40 0 15 }
+	color2= { 255 255 255 }
+	
+	capital = 476 # Pityous
+	culture = ionian
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+d_r_trapezous = {
+	color= { 165 140 125 }
+	color2= { 255 255 255 }
+	
+	capital = 112 # Trapezous
+	culture = ionian
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+d_r_polemonion = {
+	color= { 175 160 115 }
+	color2= { 255 255 255 }
+	
+	capital = 111 # Polemonion
+	culture = ionian
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+d_r_amisus = {
+	color= { 185 150 115 }
+	color2= { 255 255 255 }
+	
+	capital = 110 # Amisos
+	culture = ionian
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+d_r_sinope = {
+	color= { 0 60 90 }
+	color2= { 255 255 255 }
+	
+	capital = 102 # Sinope
+	culture = ionian
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+d_r_amastris = {
+	color= { 10 60 100 }
+	color2= { 255 255 255 }
+	
+	capital = 101 # Amastris
+	culture = ionian
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+d_r_nicomedia = {
+	color= { 100 75 50 }
+	color2= { 255 255 255 }
+	
+	capital = 99 # Astakos
+	culture = doric
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+d_r_kydonia = {
+	color= { 100 200 225 }
+	color2= { 255 255 255 }
+	
+	capital = 8 # Kydonia
+	culture = doric
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+d_r_knossos = {
+	color= { 90 200 215 }
+	color2= { 255 255 255 }
+	
+	capital = 9 # Knossos
+	culture = doric
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+d_r_selinus = {
+	color= { 75 200 175 }
+	color2= { 255 255 255 }
+	
+	capital = 302 # Selinous
+	culture = doric
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+d_r_tyndaris = {
+	color= { 159 191 78 }
+	color2= { 255 255 255 }
+	
+	capital = 1113 # Tyndaris
+	culture = doric
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+d_r_himera = {
+	color= { 65 190 175 }
+	color2= { 255 255 255 }
+	
+	capital = 303 # Himera
+	culture = doric
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+d_r_rhegium = {
+	color= { 65 140 225 }
+	color2= { 255 255 255 }
+	
+	capital = 308 # Rhegion
+	culture = ionian
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+d_r_locris = {
+	color= { 125 255 96 }
+	color2= { 255 255 255 }
+	
+	capital = 1115 # Locris
+	culture = doric
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+d_r_croton = {
+	color= { 75 150 225 }
+	color2= { 255 255 255 }
+	
+	capital = 310 # Kroton
+	culture = doric
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+d_r_thurii = {
+	color= { 75 150 255 }
+	color2= { 255 255 255 }
+	
+	capital = 311 # Thourioi
+	culture = doric
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+d_r_heracleia_sicily = {
+	color= { 75 160 245 }
+	color2= { 255 255 255 }
+	
+	capital = 312 # Herakleia
+	culture = ionian
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+d_r_elea = {
+	color= { 65 140 255 }
+	color2= { 255 255 255 }
+	
+	capital = 313 # Elea
+	culture = ionian
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+d_r_neapolis = {
+	color= { 115 10 25 }
+	color2= { 255 255 255 }
+	
+	capital = 320 # Neapolis
+	culture = doric
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
 d_cassander = {
 	color={ 195 13 28 }
 	color2={ 255 255 255 }

@@ -1,5 +1,6 @@
 405.1.1 = { # 371 BC
 	holder = 110201
+	government = republic_government
 }
 437.1.1 = { # 339 BC
 	holder = 110203

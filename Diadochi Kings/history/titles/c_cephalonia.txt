@@ -1,17 +1,12 @@
 392.1.1 = { # 384 BC
 	holder = 23301
+	liege = d_r_cephalonia
 }
 434.1.1 = { # 342 BC
 	holder = 23302
 }
-438.8.2 = { # 338 BC, Battle of Chaeronea
-	liege = k_macedon
-}
 443.1.1 = { # 333 BC
 	holder = 23303
-}
-479.1.1 = { # 397 BC
-	liege = 0 # Cut off from Macedonia
 }
 489.1.1 = { # 287 BC
 	holder = 23304

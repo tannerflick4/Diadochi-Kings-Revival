@@ -1,9 +1,9 @@
 412.1.1 = { # 364 BC
 	holder = 24401 # Malidai
+	liege = d_r_trachis
 }
 438.8.2 = { # 338 BC, Battle of Chaeronea
 	holder = 24403 # Malidai
-	liege = k_macedon
 }
 473.8.1 = {
 	liege = e_asia

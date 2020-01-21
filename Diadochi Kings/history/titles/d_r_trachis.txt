@@ -1,0 +1,15 @@
+412.1.1 = { # 364 BC
+	holder = 24401 # Malidai
+	government = merchant_republic_government
+}
+438.8.2 = { # 338 BC, Battle of Chaeronea
+	holder = 24403 # Malidai
+	liege = k_macedon
+}
+473.8.1 = {
+	liege = e_asia
+}
+475.1.1 = { # 301 BC
+	holder = 0
+	liege = 0
+}

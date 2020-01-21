@@ -1,0 +1,22 @@
+414.1.1 = { # 362 BC
+	holder = 30601
+	government = merchant_republic_government
+}
+438.8.2 = { # 338 BC, Battle of Chaeronea
+	liege = k_macedon
+}
+441.1.1 = { # 335 BC
+	holder = 30603
+}
+463.6.1 = { # 313 BC
+	holder = 0
+	liege = 0
+}
+466.1.1 = { # 310 BC
+	holder = 30603
+	liege = k_macedon
+}
+467.1.1 = { # 309 BC
+	holder = 0
+	liege = 0
+}

@@ -1,8 +1,6 @@
 414.1.1 = { # 362 BC
 	holder = 30601
-}
-438.8.2 = { # 338 BC, Battle of Chaeronea
-	liege = k_macedon
+	liege = d_r_thebes
 }
 441.1.1 = { # 335 BC
 	holder = 30603
@@ -12,7 +10,7 @@
 	liege = k_s_phrygia
 }
 466.1.1 = { # 310 BC
-	liege = 0
+	liege = d_r_thebes
 }
 467.1.1 = { # 309 BC
 	holder = 30603
