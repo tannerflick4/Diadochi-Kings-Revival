@@ -1,5 +1,7 @@
 zealous;Zealous;;;;;;;;;;;;x
 zealous_desc;This character burns with religious fervor. However they are not neccessarily hostile towards other religions.;;;;;;;;;;;;x
+zealous;Tall;;;;;;;;;;;;x
+zealous_desc;This character is of a heroic and imposing stature.;;;;;;;;;;;;x
 slave;Slave;;;;;;;;;;;;x
 slave_desc;This character is a slave.;;;;;;;;;;;;x
 senator;Senator;;;;;;;;;;;;x

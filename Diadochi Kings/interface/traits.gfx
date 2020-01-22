@@ -823,6 +823,13 @@ spriteTypes = {
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
+	spriteType = {
+		name = "GFX_trait_tall"
+		texturefile = "gfx/traits/tall.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
 	
 	spriteType = {
 		name = "GFX_trait_cruel"
