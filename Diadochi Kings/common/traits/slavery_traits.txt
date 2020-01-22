@@ -24,7 +24,7 @@ trait_slaver = {
 	customizer = no
 	random = no
 
-	diplomacy = -2
+	diplomacy = -1
 
-	opposite_opinion = -10
+	opposite_opinion = -20
 }

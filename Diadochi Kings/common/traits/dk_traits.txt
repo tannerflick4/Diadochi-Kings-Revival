@@ -1,16 +1,3 @@
-slave = {
-	potential = {
-		always = no
-	}
-	lifestyle = yes
-	
-	general_opinion = -10 # Everyone looks down upon a slave
-	
-	diplomacy = -5
-	
-	customizer = no
-	random = no
-}
 senator = {
 	general_opinion = 5
 	monthly_character_prestige = 0.15
