@@ -1,0 +1,220 @@
+castle = {
+	ca_sin_gold_mine = {
+		desc = ca_sin_gold_mine_desc
+
+		potential = {
+			has_province_modifier = sin_gold
+			FROMFROM = {
+				is_capital = yes
+			}
+		}
+
+		gold_cost = 200
+		build_time = 180
+		ai_creation_factor = 110
+		tax_income = 6
+
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 10.0 # Never get at start of game
+	}
+	ca_sin_silver_mine = {
+		desc = ca_sin_silver_mine_desc
+
+		potential = {
+			has_province_modifier = sin_silver
+			FROMFROM = {
+				is_capital = yes
+			}
+		}
+
+		gold_cost = 200
+		build_time = 180
+		ai_creation_factor = 110
+		tax_income = 4
+
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 10.0 # Never get at start of game
+	}
+	ca_sin_iron_mine = {
+		desc = ca_sin_iron_mine_desc
+
+		potential = {
+			has_province_modifier = sin_iron
+			FROMFROM = {
+				is_capital = yes
+			}
+		}
+
+		gold_cost = 150
+		build_time = 180
+		ai_creation_factor = 110
+		tax_income = 1.5
+
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 10.0 # Never get at start of game
+	}
+	ca_sin_quarry = {
+		desc = ca_sin_quarry_desc
+
+		potential = {
+			has_province_modifier = sin_stone
+			FROMFROM = {
+				is_capital = yes
+			}
+		}
+
+		gold_cost = 150
+		build_time = 90
+		ai_creation_factor = 110
+		tax_income = 1.5
+
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 10.0 # Never get at start of game
+	}
+	ca_sin_sawmill = {
+		desc = ca_sin_sawmill_desc
+
+		potential = {
+			has_province_modifier = sin_wood
+			FROMFROM = {
+				is_capital = yes
+			}
+		}
+
+		gold_cost = 150
+		build_time = 90
+		ai_creation_factor = 110
+		tax_income = 1.5
+
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 10.0 # Never get at start of game
+	}
+	ca_sin_traders = {
+		desc = ca_sin_traders_desc
+
+		potential = {
+			has_province_modifier = sin_traders_mod
+			FROMFROM = {
+				is_capital = yes
+			}
+		}
+
+		gold_cost = 150
+		build_time = 30
+		ai_creation_factor = 110
+		tax_income = 1.5
+
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 10.0 # Never get at start of game
+	}
+}
+city = {
+	ct_sin_gold_mine = {
+		desc = ct_sin_gold_mine_desc
+
+		potential = {
+			has_province_modifier = sin_gold
+			FROMFROM = {
+				is_capital = yes
+			}
+		}
+
+		gold_cost = 200
+		build_time = 180
+		ai_creation_factor = 110
+		tax_income = 6
+
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 10.0 # Never get at start of game
+	}
+	ct_sin_silver_mine = {
+		desc = ct_sin_silver_mine_desc
+
+		potential = {
+			has_province_modifier = sin_silver
+			FROMFROM = {
+				is_capital = yes
+			}
+		}
+
+		gold_cost = 200
+		build_time = 180
+		ai_creation_factor = 110
+		tax_income = 4
+
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 10.0 # Never get at start of game
+	}
+	ct_sin_iron_mine = {
+		desc = ct_sin_iron_mine_desc
+
+		potential = {
+			has_province_modifier = sin_iron
+			FROMFROM = {
+				is_capital = yes
+			}
+		}
+
+		gold_cost = 150
+		build_time = 180
+		ai_creation_factor = 110
+		tax_income = 1.5
+
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 10.0 # Never get at start of game
+	}
+	ct_sin_quarry = {
+		desc = ct_sin_quarry_desc
+
+		potential = {
+			has_province_modifier = sin_stone
+			FROMFROM = {
+				is_capital = yes
+			}
+		}
+
+		gold_cost = 150
+		build_time = 90
+		ai_creation_factor = 110
+		tax_income = 1.5
+
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 10.0 # Never get at start of game
+	}
+	ct_sin_sawmill = {
+		desc = ct_sin_sawmill_desc
+
+		potential = {
+			has_province_modifier = sin_wood
+			FROMFROM = {
+				is_capital = yes
+			}
+		}
+
+		gold_cost = 150
+		build_time = 90
+		ai_creation_factor = 110
+		tax_income = 1.5
+
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 10.0 # Never get at start of game
+	}
+	ct_sin_traders = {
+		desc = ct_sin_traders_desc
+
+		potential = {
+			has_province_modifier = sin_traders_mod
+			FROMFROM = {
+				is_capital = yes
+			}
+		}
+
+		gold_cost = 150
+		build_time = 30
+		ai_creation_factor = 110
+		tax_income = 1.5
+
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 10.0 # Never get at start of game
+	}
+}
