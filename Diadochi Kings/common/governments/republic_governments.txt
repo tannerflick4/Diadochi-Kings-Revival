@@ -21,6 +21,11 @@ republic_governments = {
 		frame_suffix = "_merchantrepublic"
 		title_prefix = "city_"
 		potential = {
+			NOT = {
+				capital_holding = {
+					is_tribal = yes
+				}
+			}
 			OR = {
 				controls_religion = no
 				has_religion_feature = religion_temporal_head
@@ -109,6 +114,11 @@ republic_governments = {
 		frame_suffix = "_republic"
 		title_prefix = "city_"
 		potential = {
+			NOT = {
+				capital_holding = {
+					is_tribal = yes
+				}
+			}
 			OR = {
 				tier = BARON
 				tier = COUNT

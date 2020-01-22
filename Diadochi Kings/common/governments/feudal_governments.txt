@@ -20,6 +20,11 @@ feudal_governments = {
 		}
 		frame_suffix = "_romanimperial"
 		potential = { 
+			NOT = {
+				capital_holding = {
+					is_tribal = yes
+				}
+			}
 			primary_title = { 
 				OR = { 
 					title = e_macedonia
@@ -77,6 +82,11 @@ feudal_governments = {
 			satrap_government
 		}
 		potential = {
+			NOT = {
+				capital_holding = {
+					is_tribal = yes
+				}
+			}
 			OR = {
 				controls_religion = no
 				has_religion_feature = religion_temporal_head
@@ -143,6 +153,11 @@ feudal_governments = {
 			tribal_government
 		}
 		potential = {
+			NOT = {
+				capital_holding = {
+					is_tribal = yes
+				}
+			}
 			tier = KING
 			any_liege = {
 				OR = {
@@ -202,6 +217,11 @@ feudal_governments = {
 		title_prefix = "order_"
 
 		potential = {
+			NOT = {
+				capital_holding = {
+					is_tribal = yes
+				}
+			}
 			OR = {
 				holy_order = yes
 				AND = {
