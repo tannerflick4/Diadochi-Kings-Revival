@@ -223,8 +223,8 @@ decisions = {
 targetted_decisions = {
 	enslave_prisoner = {	#Enslave a Prisoner
 		only_rulers = yes
-		filter = court
-		ai_target_filter = court
+		filter = realm
+		ai_target_filter = realm
 
 		from_potential = {
 			war = no
@@ -290,8 +290,8 @@ targetted_decisions = {
 	}
 	sell_slave = {	#Sell a Slave
 		only_rulers = yes
-		filter = home_court
-		ai_target_filter = home_court
+		filter = realm
+		ai_target_filter = realm
 
 		from_potential = {
 			war = no
@@ -301,6 +301,9 @@ targetted_decisions = {
 		}
 		potential = {
 			trait = trait_slave
+			host = {
+				character = FROM
+			}
 		}
 		allow = {
 			is_alive = yes
@@ -382,8 +385,8 @@ targetted_decisions = {
 	}
 	rape_slave_dec = {
 		only_rulers = yes
-		filter = home_court
-		ai_target_filter = home_court
+		filter = realm
+		ai_target_filter = realm
 
 		from_potential = {
 			prisoner = no
@@ -396,6 +399,9 @@ targetted_decisions = {
 			has_opinion_modifier = {
 				modifier = opinion_master
 				who = FROM
+			}
+			host = {
+				character = FROM
 			}
 		}
 		allow = {
@@ -424,8 +430,8 @@ targetted_decisions = {
 	}
 	torture_slave_dec = {
 		only_rulers = yes
-		filter = home_court
-		ai_target_filter = home_court
+		filter = realm
+		ai_target_filter = realm
 
 		from_potential = {
 			prisoner = no
@@ -438,6 +444,9 @@ targetted_decisions = {
 			has_opinion_modifier = {
 				modifier = opinion_master
 				who = FROM
+			}
+			host = {
+				character = FROM
 			}
 		}
 		allow = {
@@ -466,10 +475,10 @@ targetted_decisions = {
 	}
 	breed_slave_dec = {
 		only_rulers = yes
-		filter = home_court
-		ai_target_filter = home_court
-		third_party_filter = home_court
-		ai_third_party_filter = home_court
+		filter = realm
+		ai_target_filter = realm
+		third_party_filter = realm
+		ai_third_party_filter = realm
 		show_third_party_potential = yes
 
 		from_potential = {
@@ -505,6 +514,9 @@ targetted_decisions = {
 				is_incapable = yes
 				trait = pregnant
 			}
+			host = {
+				character = FROM
+			}
 		}
 		third_party_potential = {
 			FROMFROM = {
@@ -523,6 +535,9 @@ targetted_decisions = {
 				NOT = {
 					is_incapable = yes
 				}
+			}
+			host = {
+				character = FROM
 			}
 		}
 		allow = {
