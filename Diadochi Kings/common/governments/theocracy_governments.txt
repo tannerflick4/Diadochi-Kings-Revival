@@ -22,9 +22,19 @@ theocracy_governments = {
 		frame_suffix = "_theocracy"
 		title_prefix = "temple_"
 		potential = {
-			NOT = {
+			NOR = {
 				capital_holding = {
 					is_tribal = yes
+				}
+				any_liege = {
+					capital_holding = {
+						is_tribal = yes
+					}
+				}
+				employer = {
+					capital_holding = {
+						is_tribal = yes
+					}
 				}
 			}
 			holy_order = no
