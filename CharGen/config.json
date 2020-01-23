@@ -1,10 +1,14 @@
 {
-	"first_char_id": 450801,
-	"dynasty_id": 45002,
-	"culture": "aquitanian",
-	"religion": "aquitanian_main",
+	"first_char_id": 234301,
+	"dynasty_id": 23059,
+	"culture": "gaul",
+	"religion": "celtic_main",
 
-	"names": "Abisunhar_Abisunhar Andereseni_Andereseni Baiserte_Baiserte Belexkonis_Belexkonis Bihossi_Bihossi Biurtetel_Biurtetel Biurtibes_Biurtibes Biurtilaur_Biurtilaur Kison_Kison Kissonbonnis_Kissonbonnis Dusanharis_Dusanharis Ennebox_Ennebox Gerexo_Gerexo Halskotarris_Halskotarris Hanna_Hanna Harbelex_Harbelex Illurberrixo_Illurberrixo Korbis_Korbis Laurko_Laurko Otigirteker_Otigirteker Sembe_Sembe Sembekkoni_Sembekkoni Senios_Senios Serhuhoris_Serhuhoris Talskonis_Talskonis Ummesahar_Ummesahar",
+	"names": "Acco_Acco Adiatunnus_Adiatunnus Ambiorix_Ambiorix Andecomborius_Andecomborius Bathanatos_Bathanatos Boduognatus_Boduognatus Brennus_Brennus Camulogenus_Camulogenus Catuvolcus_Catuvolcus 
+			Cavarinus_Cavarinus Cavarus_Cavarus Cerethrius_Cerethrius Cingetorix_Cingetorix Commius_Commius Conconnetodumnus_Conconnetodumnus Convictolitavis_Convictolitavis Cotuatus_Cotuatus 
+			Cotus_Cotus Critasirus_Critasirus Diviciacus_Diviciacus Divico_Divico Donnotaurus_Donnotaurus Dumnorix_Dumnorix Eporedix_Eporedix Galba_Galba 
+			Iccius_Iccius Indutiomaros_Indutiomaros Liscus_Liscus Litaviccus_Litaviccus Lucterius_Lucterius Orgetorix_Orgetorix Tasgetius_Tasgetius Teutomatus_Teutomatus 
+			Vercassivellaunus_Vercassivellaunus Vercingetorix_Vercingetorix Vertico_Vertico Viridomaros_Viridomaros Viridovix_Viridovix",
 
 	"min_age": 18,
 	"min_fertile_age": 16,
