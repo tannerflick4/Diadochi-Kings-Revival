@@ -10147,6 +10147,7 @@ k_pannonia = {
 			color2= { 255 255 255 }
 			
 			holy_site = illyrian_main # placeholder
+			holy_site = celtic_main # placeholder
 			
 			b_sala_sala = {
 			}
@@ -10353,6 +10354,7 @@ k_pannonia = {
 			color2= { 255 255 255 }
 			
 			holy_site = illyrian_main # placeholder
+			holy_site = celtic_main # placeholder
 			
 			b_sirmium_sirmium = {
 			}
@@ -10413,6 +10415,8 @@ k_pannonia = {
 		c_cibalae = {
 			color= { 48 147 61 }
 			color2= { 255 255 255 }
+			
+			holy_site = celtic_main # placeholder
 			
 			b_cibalae_cibalae = {
 			}
@@ -12320,6 +12324,8 @@ k_cisalpine_gaul = {
 		c_vercellae = {
 			color= { 100 255 60 }
 			color2= { 255 255 255 }
+			
+			holy_site = celtic_main # placeholder
 			
 			b_vercellae_vercellae = {
 			}
@@ -17386,6 +17392,8 @@ e_hispania = {
 			c_arriaca = {
 				color={ 206 84 149 }
 				color2={ 255 255 255 }
+				
+				holy_site = celtic_main # placeholder
 
 				b_arriaca_arriaca = {
 				}
