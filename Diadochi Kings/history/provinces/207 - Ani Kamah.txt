@@ -5,13 +5,13 @@ title = c_ani_kamah
 
 # Settlements
 max_settlements = 5
-b_ani_kamah = castle
+b_ani_kamah = city
 b_palios_ani_kamah = temple
 b_anzita_ani_kamah = city
-b_mertikerton_ani_kamah = castle
+b_mertikerton_ani_kamah = city
 
 # Possible baronies: (Always add a # in front of a line with these!)
-# b_chosomachon_ani_kamah = castle
+# b_chosomachon_ani_kamah = city
 
 # Misc
 culture = armenian

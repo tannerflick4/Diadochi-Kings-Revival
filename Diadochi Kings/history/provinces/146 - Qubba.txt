@@ -5,7 +5,7 @@ title = c_qubba
 
 # Settlements
 max_settlements = 1
-b_qubba_qubba = castle
+b_qubba_qubba = city
 
 # Misc
 culture = egyptian

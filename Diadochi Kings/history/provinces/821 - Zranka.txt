@@ -5,7 +5,7 @@ title = c_zranka
 
 # Settlements
 max_settlements = 4
-b_zranka_zranka = castle
+b_zranka_zranka = city
 b_rhambacia_zranka = city
 b_euergetarum_zranka = city
 b_hariaspa_zranka = city

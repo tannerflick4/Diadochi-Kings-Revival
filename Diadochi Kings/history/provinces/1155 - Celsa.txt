@@ -8,8 +8,8 @@ max_settlements = 2
 b_celsa_celsa = tribal
 #b_gallicum_celsa = city
 #b_ebro_celsa = city
-#b_castra_octavianum_celsa = castle
-#b_iluro_celsa = castle
+#b_castra_octavianum_celsa = city
+#b_iluro_celsa = city
 #b_fornaca_celsa = temple
 #b_laelia_celsa = city
 

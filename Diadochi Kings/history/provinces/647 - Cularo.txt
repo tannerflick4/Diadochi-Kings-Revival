@@ -7,10 +7,10 @@ title = c_cularo
 max_settlements = 4
 b_cularo_cularo = tribal
 #b_aquae_sextiae_cularo = city
-#b_voludnia_cularo = castle
-#b_lemincum_cularo = castle
+#b_voludnia_cularo = city
+#b_lemincum_cularo = city
 #b_albinnum_cularo = city
-#b_etanna_cularo = castle
+#b_etanna_cularo = city
 #b_boutae_cularo = city
 
 # Misc

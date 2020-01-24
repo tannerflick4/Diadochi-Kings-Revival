@@ -1,15 +1,12 @@
 438.8.2 = { # 338 BC, Battle of Chaeronea
 	holder = 53302 # Demosthenes
-	liege = e_macedonia
+	liege = k_macedon
 }
 441.1.1 = { # 335 BC
 	holder = 53402 # Lycurgus
 }
 453.1.1 = { # 323 BC
 	holder = 53403 # Habron
-}
-453.6.10 = { # 323 BC
-	liege = k_s_macedon
 }
 459.7.1 = { # 317 BC
 	holder = 0

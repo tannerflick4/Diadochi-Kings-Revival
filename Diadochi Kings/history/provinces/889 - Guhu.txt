@@ -6,7 +6,7 @@ title = c_guhu
 # Settlements
 max_settlements = 2
 
-b_guhu_guhu = castle
+b_guhu_guhu = city
 b_nearer_jushi = city # Turfan
 
 culture = tocharian

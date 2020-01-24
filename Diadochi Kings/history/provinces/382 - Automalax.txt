@@ -6,7 +6,7 @@ title = c_automalax
 # Settlements
 max_settlements = 4
 b_boreum_automalax = city
-b_automalax_automalax = castle
+b_automalax_automalax = city
 b_comidanum_automalax = city
 
 # Possible baronies: (Always add a # in front of a line with these!)

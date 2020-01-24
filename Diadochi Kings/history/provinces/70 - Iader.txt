@@ -7,11 +7,11 @@ title = c_iader
 max_settlements = 4
 b_iader_iader = tribal
 #b_aenona_iader = city
-#b_scardona_iader = castle
+#b_scardona_iader = city
 #b_burnum_iader = city
-#b_varvaria_iader = castle
-#b_ansium_iader = castle
-#b_sidrona_iader = castle
+#b_varvaria_iader = city
+#b_ansium_iader = city
+#b_sidrona_iader = city
 
 # Misc
 culture = venetic

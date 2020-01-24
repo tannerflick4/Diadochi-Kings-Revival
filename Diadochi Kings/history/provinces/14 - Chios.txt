@@ -4,10 +4,10 @@ title = c_chios # for example c_corinth
 
 # Settlements
 max_settlements = 4 # tsf4 - 6
-b_chios_chios = castle
+b_chios_chios = city
 b_kardamyle_chios = temple
 b_psyra_chios = city
-b_babrantion_chios = castle
+b_babrantion_chios = city
 
 # Misc 
 culture = ionian

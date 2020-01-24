@@ -5,7 +5,7 @@ title = c_sippar
 
 # Settlements
 max_settlements = 4
-b_sippar_sippar = castle
+b_sippar_sippar = city
 b_vologesias_sippar = temple
 b_neardea_sippar = city
 b_cunaxa_sippar = city

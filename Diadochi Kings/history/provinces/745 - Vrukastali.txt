@@ -5,7 +5,7 @@ title = c_vrukastali
 
 # Settlements
 max_settlements = 3
-b_vrukastali_vrukastali = castle
+b_vrukastali_vrukastali = city
 b_makandi_vrukastali = city
 b_kampilya_vrukastali = city
 

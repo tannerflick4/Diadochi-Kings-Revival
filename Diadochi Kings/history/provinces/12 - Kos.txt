@@ -4,12 +4,12 @@ title = c_kos # for example c_corinth
 
 # Settlements
 max_settlements = 4 # Should be reevaluated
-b_kos_kos = castle
+b_kos_kos = city
 b_nisyros_kos = temple
 b_telos_kos = city
 
 # Possible baronies: (Always add a # in front of a line with these!)
-# b_antimachia_kos = castle
+# b_antimachia_kos = city
 # b_pothaia_kos = temple
 # b_leros_kos = city
 

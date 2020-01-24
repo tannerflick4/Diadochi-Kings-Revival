@@ -1,0 +1,685 @@
+ # Triggers are in Province scope. The From Scope contains the settlement holder (character)
+ # start trigger is in title scope.
+ 
+ #<tag> = {
+ #	desc = description used in the tooltip of the building
+ #	trigger = used for tech requirement of the building, set to 0 if no requirement so it can be build automatically on new games
+ #	gold_cost = cost to build the building
+ #	build_time = time to build, in days
+ #	
+ #	ai_creation_factor = weight that the AI uses to determine what building to build
+ #	extra_tech_building_start = when starting a new game this building will be pre-built if the province has higher tech than the requirement + this + random 0-1
+ #}
+ 
+ # City
+city = {
+
+	#Keeps, gives levy and garrison size
+	ct_keep_1 = {
+		desc = ct_keep_1_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		gold_cost = 150
+		build_time = 547 #1.5y
+		levy_size = 0.05
+		garrison_size = 0.05
+		ai_creation_factor = 102
+		
+		extra_tech_building_start = 1.0
+	}
+	ct_keep_2 = {
+		desc = ct_keep_1_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		prerequisites = { ct_wall_1 }
+		upgrades_from = ct_keep_1
+		gold_cost = 200
+		build_time = 730 #2y
+		levy_size = 0.1
+		garrison_size = 0.1
+		ai_creation_factor = 101
+
+		extra_tech_building_start = 2.2
+	}
+	ct_keep_3 = {
+		desc = ct_keep_1_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
+		prerequisites = { ct_wall_2 }
+		upgrades_from = ct_keep_2
+		gold_cost = 300
+		build_time = 1095 #3y
+		levy_size = 0.15
+		garrison_size = 0.15
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 1.6
+	}
+	ct_keep_4 = {	
+		desc = ct_keep_1_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
+		upgrades_from = ct_keep_3
+		gold_cost = 400
+		build_time = 1460 #4y
+		levy_size = 0.2
+		garrison_size = 0.2
+		ai_creation_factor = 99
+
+		extra_tech_building_start = 1.0
+	}
+	ct_keep_5 = {
+		desc = ct_keep_1_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
+		upgrades_from = ct_keep_4
+		gold_cost = 500
+		build_time = 2190 #6y
+		levy_size = 0.25
+		garrison_size = 0.2
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 1.0
+	}
+	ct_keep_6 = {
+		desc = ct_keep_1_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 8 }
+		upgrades_from = ct_keep_5
+		gold_cost = 500
+		build_time = 2190 #6y
+		levy_size = 0.3
+		garrison_size = 0.2
+		ai_creation_factor = 97
+		
+		extra_tech_building_start = 0.2
+	}
+	
+	# Militia barracks, gives light infantry and archers.
+	ct_militia_barracks_1 = {
+		desc = ct_militia_barracks_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		light_infantry = 80
+		archers = 10
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 1.0
+	}
+	ct_militia_barracks_2 = {
+		desc = ct_militia_barracks_2_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
+		prerequisites = { ct_wall_1 }
+		upgrades_from = ct_militia_barracks_1
+		gold_cost = 120
+		build_time = 547
+		light_infantry = 50
+		archers = 50
+		ai_creation_factor = 99
+
+		extra_tech_building_start = 2.2
+	}
+	ct_militia_barracks_3 = {
+		desc = ct_militia_barracks_3_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+		upgrades_from = ct_militia_barracks_2
+		gold_cost = 200
+		build_time = 1095
+		light_infantry = 20
+		archers = 90
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 1.2
+	}
+	ct_militia_barracks_4 = {
+		desc = ct_militia_barracks_3_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 7 }
+		upgrades_from = ct_militia_barracks_3
+		gold_cost = 300
+		build_time = 1095
+		light_infantry = 30
+		archers = 120
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 0.5
+	}
+
+	#Stable, gives light cavalry and some heavy cavalry
+	ct_stable_1 = {
+		desc = ct_stable_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		light_cavalry = 35
+		ai_creation_factor = 89
+		
+		extra_tech_building_start = 0.8
+	}
+	ct_stable_2 = {
+		desc = ct_stable_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ct_wall_1 }
+		upgrades_from = ct_stable_1
+		gold_cost = 120
+		build_time = 547
+		light_cavalry = 45
+		ai_creation_factor = 88
+
+		extra_tech_building_start = 2.2
+	}
+	ct_stable_3 = {
+		desc = ct_stable_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		prerequisites = { ct_wall_2 }
+		upgrades_from = ct_stable_2
+		gold_cost = 200
+		build_time = 730
+		light_cavalry = 55
+		ai_creation_factor = 87
+
+		extra_tech_building_start = 1.6
+	}
+	ct_stable_4 = {
+		desc = ct_stable_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ct_stable_3
+		gold_cost = 300
+		build_time = 1095
+		light_cavalry = 55
+		knights = 5
+		ai_creation_factor = 86
+
+		extra_tech_building_start = 1.2
+	}
+	ct_stable_5 = {
+		desc = ct_stable_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 6 }
+		upgrades_from = ct_stable_4
+		gold_cost = 400
+		build_time = 2190
+		light_cavalry = 55
+		knights = 10
+		ai_creation_factor = 85
+
+		extra_tech_building_start = 0.8
+	}
+	ct_stable_6 = {
+		desc = ct_stable_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 8 }
+		upgrades_from = ct_stable_5
+		gold_cost = 500
+		build_time = 2190
+		light_cavalry = 55
+		knights = 20
+		ai_creation_factor = 85
+
+		extra_tech_building_start = 0.2
+	}
+	
+	#Castle town, gives income
+	ct_town_1 = {
+		desc = ct_town_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		tax_income = 2
+		ai_creation_factor = 100
+		
+		court_size_modifier = 1
+		extra_tech_building_start = 0.5
+	}
+	ct_town_2 = {
+		desc = ct_town_2_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ct_wall_1 }
+		upgrades_from = ct_town_1
+		gold_cost = 120
+		build_time = 547
+		tax_income = 2
+		ai_creation_factor = 99
+
+		court_size_modifier = 1
+		extra_tech_building_start = 1.0
+	}
+	ct_town_3 = {
+		desc = ct_town_3_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		prerequisites = { ct_wall_2 }
+		upgrades_from = ct_town_2
+		gold_cost = 200
+		build_time = 730
+		tax_income = 2
+		ai_creation_factor = 98
+
+		court_size_modifier = 1
+		extra_tech_building_start = 1.2
+	}
+	ct_town_4 = {
+		desc = ct_town_4_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ct_town_3
+		gold_cost = 300
+		build_time = 1095
+		tax_income = 2
+		ai_creation_factor = 97
+
+		court_size_modifier = 1
+		extra_tech_building_start = 1.2
+	}
+	ct_town_5 = {
+		desc = ct_town_4_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 6 }
+		upgrades_from = ct_town_4
+		gold_cost = 400
+		build_time = 2190
+		tax_income = 2
+		ai_creation_factor = 96
+
+		court_size_modifier = 1
+		extra_tech_building_start = 1.0
+	}
+	ct_town_6 = {
+		desc = ct_town_5_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 8 }
+		upgrades_from = ct_town_5
+		gold_cost = 500
+		build_time = 2190
+		tax_income = 2
+		ai_creation_factor = 96
+
+		court_size_modifier = 1
+		extra_tech_building_start = 0.2
+	}
+
+	#Castellan Bloodline buildings.
+	ct_special_fortifications_1 = { #Insulated Sections
+		desc = ct_special_fortifications_1_desc
+		potential = { 
+			OR = {
+				FROMFROM = { has_building = ct_special_fortifications_1 } #Show the building only if it has been already built or if the owner has the proper bloodline to build it.
+				FROM = {
+					any_owned_bloodline = {
+						has_bloodline_flag = bloodline_castellan 
+					}
+				}
+				FROM = {
+					any_liege = {
+						any_owned_bloodline = {
+							has_bloodline_flag = bloodline_castellan 
+						}	
+					}
+				}
+			}
+		}
+		trigger = { 
+			TECH_FORTIFICATIONS_CONSTRUCTION = 1 
+			custom_tooltip = {
+				text = tooltip_has_castellan_bloodline
+				hidden_tooltip = {
+					OR = {
+						FROM = {
+							any_owned_bloodline = {
+								has_bloodline_flag = bloodline_castellan 
+							}
+						}
+						FROM = {
+							any_liege = {
+								any_owned_bloodline = {
+									has_bloodline_flag = bloodline_castellan 
+								}	
+							}
+						}
+					}
+				}
+			}
+		}
+		is_active_trigger = {
+			FROM = {
+				NOR = {
+					is_tribal = yes
+					is_nomadic = yes
+				}
+			}
+		}
+
+		gold_cost = 125
+		build_time = 365
+		fort_level = 0.5
+		land_morale = 0.05
+		
+		add_number_to_name = no
+
+		ai_creation_factor = 88
+
+		extra_tech_building_start = 1.2
+	}
+	ct_special_fortifications_2 = { #Killing Fields
+		desc = ct_special_fortifications_2_desc
+		trigger = { 
+			TECH_FORTIFICATIONS_CONSTRUCTION = 3
+			custom_tooltip = {
+				text = tooltip_has_castellan_bloodline
+				hidden_tooltip = {
+					OR = {
+						FROM = {
+							any_owned_bloodline = {
+								has_bloodline_flag = bloodline_castellan 
+							}
+						}
+						FROM = {
+							any_liege = {
+								any_owned_bloodline = {
+									has_bloodline_flag = bloodline_castellan 
+								}	
+							}
+						}
+					}
+				}
+			}
+		}
+		is_active_trigger = {
+			FROM = {
+				NOR = {
+					is_tribal = yes
+					is_nomadic = yes
+				}
+			}
+		}
+		upgrades_from = ct_special_fortifications_1
+		gold_cost = 250
+		build_time = 560
+		fort_level = 1
+		land_morale = 0.05
+		garrison_size = 0.05
+
+		add_number_to_name = no
+		
+		ai_creation_factor = 88
+
+		extra_tech_building_start = 1.2
+	}
+	ct_special_fortifications_3 = { #Extended Machicolations
+		desc = ct_special_fortifications_3_desc
+		trigger = { 
+			TECH_FORTIFICATIONS_CONSTRUCTION = 5
+			custom_tooltip = {
+				text = tooltip_has_castellan_bloodline
+				hidden_tooltip = {
+					OR = {
+						FROM = {
+							any_owned_bloodline = {
+								has_bloodline_flag = bloodline_castellan 
+							}
+						}
+						FROM = {
+							any_liege = {
+								any_owned_bloodline = {
+									has_bloodline_flag = bloodline_castellan 
+								}	
+							}
+						}
+					}
+				}
+			}
+		}
+		is_active_trigger = {
+			FROM = {
+				NOR = {
+					is_tribal = yes
+					is_nomadic = yes
+				}
+			}
+		}
+		upgrades_from = ct_special_fortifications_2
+		gold_cost = 450
+		build_time = 760
+		fort_level = 1.5
+		garrison_size = 0.15
+		archers = 50
+
+		add_number_to_name = no
+		
+		ai_creation_factor = 88
+
+		extra_tech_building_start = 1.2
+	}
+	ct_special_fortifications_4 = { #Reinforced Barbican
+		desc = ct_special_fortifications_4_desc
+		trigger = { 
+			TECH_FORTIFICATIONS_CONSTRUCTION = 7
+			custom_tooltip = {
+				text = tooltip_has_castellan_bloodline
+				hidden_tooltip = {
+					OR = {
+						FROM = {
+							any_owned_bloodline = {
+								has_bloodline_flag = bloodline_castellan 
+							}
+						}
+						FROM = {
+							any_liege = {
+								any_owned_bloodline = {
+									has_bloodline_flag = bloodline_castellan 
+								}	
+							}
+						}
+					}
+				}
+			}
+		}
+		is_active_trigger = {
+			FROM = {
+				NOR = {
+					is_tribal = yes
+					is_nomadic = yes
+				}
+			}
+		}
+		upgrades_from = ct_special_fortifications_3
+		gold_cost = 750
+		build_time = 1250
+		fort_level = 2
+		levy_size = 0.2
+		garrison_size = 0.3
+		light_infantry = 100
+
+		add_number_to_name = no
+		
+		ai_creation_factor = 88
+
+		extra_tech_building_start = 1.2
+	}
+
+	#Murder Builder Bloodline buildings.
+	ct_oppressive_fortifications_1 = { #Gloomy Monument
+		desc = ct_oppressive_fortifications_1_desc
+		potential = { 
+			OR = {
+				FROMFROM = { has_building = ct_oppressive_fortifications_1 } #Show the building only if it has been already built or if the owner has the proper bloodline to build it.
+				FROM = {
+					any_owned_bloodline = {
+						has_bloodline_flag = bloodline_blood_building 
+					}
+				}
+				FROM = {
+					any_liege = {
+						any_owned_bloodline = {
+							has_bloodline_flag = bloodline_blood_building 
+						}	
+					}
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 2 
+			custom_tooltip = {
+				text = tooltip_has_murder_builder_bloodline
+				hidden_tooltip = {
+					OR = {
+						FROM = {
+							any_owned_bloodline = {
+								has_bloodline_flag = bloodline_blood_building 
+							}
+						}
+						FROM = {
+							any_liege = {
+								any_owned_bloodline = {
+									has_bloodline_flag = bloodline_blood_building 
+								}	
+							}
+						}
+					}
+				}
+			}
+		}
+		is_active_trigger = {
+			FROM = {
+				NOR = {
+					is_tribal = yes
+					is_nomadic = yes
+				}
+			}
+		}
+
+		gold_cost = 125
+		build_time = 365
+		local_revolt_risk = -0.05
+		liege_prestige = 0.05
+		
+		add_number_to_name = no
+
+		ai_creation_factor = 88
+
+		extra_tech_building_start = 1.2
+	}
+	ct_oppressive_fortifications_2 = { #Connected Watchtowers
+		desc = ct_oppressive_fortifications_2_desc
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 4
+			custom_tooltip = {
+				text = tooltip_has_murder_builder_bloodline
+				hidden_tooltip = {
+					OR = {
+						FROM = {
+							any_owned_bloodline = {
+								has_bloodline_flag = bloodline_blood_building 
+							}
+						}
+						FROM = {
+							any_liege = {
+								any_owned_bloodline = {
+									has_bloodline_flag = bloodline_blood_building 
+								}	
+							}
+						}
+					}
+				}
+			}
+		}
+		is_active_trigger = {
+			FROM = {
+				NOR = {
+					is_tribal = yes
+					is_nomadic = yes
+				}
+			}
+		}
+		upgrades_from = ct_oppressive_fortifications_1
+		gold_cost = 250
+		build_time = 560
+		fort_level = 1
+		local_revolt_risk = -0.05
+		garrison_size = 0.05
+
+		add_number_to_name = no
+		
+		ai_creation_factor = 88
+
+		extra_tech_building_start = 1.2
+	}
+	ct_oppressive_fortifications_3 = { #Lonely Spire
+		desc = ct_oppressive_fortifications_3_desc
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 6
+			custom_tooltip = {
+				text = tooltip_has_murder_builder_bloodline
+				hidden_tooltip = {
+					OR = {
+						FROM = {
+							any_owned_bloodline = {
+								has_bloodline_flag = bloodline_blood_building 
+							}
+						}
+						FROM = {
+							any_liege = {
+								any_owned_bloodline = {
+									has_bloodline_flag = bloodline_blood_building 
+								}	
+							}
+						}
+					}
+				}
+			}
+		}
+		is_active_trigger = {
+			FROM = {
+				NOR = {
+					is_tribal = yes
+					is_nomadic = yes
+				}
+			}
+		}
+		upgrades_from = ct_oppressive_fortifications_2
+		gold_cost = 300
+		build_time = 560
+		fort_level = 1
+		local_revolt_risk = -0.05
+		garrison_size = 0.05
+
+		add_number_to_name = no
+		
+		ai_creation_factor = 88
+
+		extra_tech_building_start = 1.2
+	}
+	ct_oppressive_fortifications_4 = { #Palace of Justice
+		desc = ct_oppressive_fortifications_4_desc
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 8
+			custom_tooltip = {
+				text = tooltip_has_murder_builder_bloodline
+				hidden_tooltip = {
+					OR = {
+						FROM = {
+							any_owned_bloodline = {
+								has_bloodline_flag = bloodline_blood_building 
+							}
+						}
+						FROM = {
+							any_liege = {
+								any_owned_bloodline = {
+									has_bloodline_flag = bloodline_blood_building 
+								}	
+							}
+						}
+					}
+				}
+			}
+		}
+		is_active_trigger = {
+			FROM = {
+				NOR = {
+					is_tribal = yes
+					is_nomadic = yes
+				}
+			}
+		}
+		upgrades_from = ct_oppressive_fortifications_3
+		gold_cost = 450
+		build_time = 760
+		fort_level = 1
+		local_revolt_risk = -0.05
+		garrison_size = 0.05
+
+		add_number_to_name = no
+		
+		ai_creation_factor = 88
+
+		extra_tech_building_start = 1.2
+	}
+}

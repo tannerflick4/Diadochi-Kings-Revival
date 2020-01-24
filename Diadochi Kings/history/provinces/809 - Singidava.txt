@@ -7,7 +7,7 @@ title = c_singidava
 max_settlements = 3
 b_singidava_singidava = tribal
 #b_ulpianum_singidava = city
-#b_resculum_singidava = castle
+#b_resculum_singidava = city
 
 # Misc
 culture = dacian

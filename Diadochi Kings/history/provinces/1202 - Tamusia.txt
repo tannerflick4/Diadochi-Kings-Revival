@@ -6,10 +6,10 @@ title = c_tamusia
 # Settlements
 max_settlements = 3
 b_tamusia_tamusia = tribal
-#b_turgalium_tamusia = castle
+#b_turgalium_tamusia = city
 #b_ad_sorores_tamusia = city
-#b_lacipea_tamusia = castle
-#b_magasca_tamusia = castle
+#b_lacipea_tamusia = city
+#b_magasca_tamusia = city
 #b_proserpina_tamusia = city
 #b_veredas_tamusia = temple
 

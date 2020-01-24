@@ -5,10 +5,10 @@ title = c_argos # for example c_corinth
 
 # Settlements
 max_settlements = 6 # Should be reevaluated
-b_argos_argos = castle
+b_argos_argos = city
 b_nemea_argos = temple
 b_epidauros_argos = city
-b_methana_argos = castle
+b_methana_argos = city
 b_asine_argos = city
 b_philenorion_argos = temple
 

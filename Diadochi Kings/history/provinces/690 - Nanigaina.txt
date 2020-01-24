@@ -5,7 +5,7 @@ title = c_nanigaina
 
 # Settlements
 max_settlements = 1
-b_nanigaina_nanigaina = castle
+b_nanigaina_nanigaina = city
 
 # Misc
 culture = telegu

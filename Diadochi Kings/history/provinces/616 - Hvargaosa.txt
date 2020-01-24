@@ -7,7 +7,7 @@ title = c_hvargaosa
 max_settlements = 3
 b_hvargaosa_hvargaosa = tribal
 #b_gaukol_hvargoasa = city
-#b_katika_hvargoasa = castle
+#b_katika_hvargoasa = city
 
 # Misc
 culture = scythian

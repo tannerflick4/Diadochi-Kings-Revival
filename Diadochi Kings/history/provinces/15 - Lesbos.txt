@@ -4,13 +4,13 @@ title = c_lesbos # for example c_corinth
 
 # Settlements
 max_settlements = 5 # Should be reevaluated
-b_mytilene_lesbos = castle
+b_mytilene_lesbos = city
 b_therma_lesbos = temple
 b_eresos_lesbos = city
-b_arisba_lesbos = castle
+b_arisba_lesbos = city
 
 # Possible baronies: (Always add a # in front of a line with these!)
-# b_sigron_lesbos = castle
+# b_sigron_lesbos = city
 # b_pyrra_lesbos = temple
 # b_hiera_lesbos = city
 

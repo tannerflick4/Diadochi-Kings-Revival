@@ -6,12 +6,12 @@ title = c_lance
 # Settlements
 max_settlements = 4
 b_lance_lance = tribal
-#b_equosera_lance = castle
+#b_equosera_lance = city
 b_vallata_lance = temple
-#b_legio_vii_gemina_lance = castle
+#b_legio_vii_gemina_lance = city
 #b_interamnium_lance = city
 #b_comeniaca_lance = city
-#b_palantia_lance = castle
+#b_palantia_lance = city
 
 # Misc
 culture = gallaecian

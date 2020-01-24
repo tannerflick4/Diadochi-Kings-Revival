@@ -5,10 +5,10 @@ title = c_sagalassos
 
 # Settlements
 max_settlements = 5
-b_sagalassos_sagalassos = castle
+b_sagalassos_sagalassos = city
 b_apollonia_sagalassos = temple
 b_parlais_sagalassos = city
-b_konana_sagalassos = castle
+b_konana_sagalassos = city
 
 # Possible baronies: (Always add a # in front of a line with these!)
 # b_seleukeia_sagalassos

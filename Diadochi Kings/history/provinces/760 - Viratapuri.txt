@@ -5,8 +5,8 @@ title = c_viratapuri
 
 # Settlements
 max_settlements = 2
-b_viratapuri_viratapuri = castle
-b_upaplavya_viratapuri = castle
+b_viratapuri_viratapuri = city
+b_upaplavya_viratapuri = city
 
 # Misc
 culture = shauraseni

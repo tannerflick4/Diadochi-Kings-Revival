@@ -5,12 +5,12 @@ title = c_elea # for example c_corinth
 
 # Settlements
 max_settlements = 3
-b_elea_elea = castle
+b_elea_elea = city
 b_molpa_elea = city
-#b_consentia_elea = castle
+#b_consentia_elea = city
 #b_hera_elea = temple
 #b_nerulum_elea = city
-#b_buxentum_elea = castle
+#b_buxentum_elea = city
 #b_emporion_elea = city
 
 # Misc

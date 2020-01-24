@@ -11,7 +11,7 @@ b_aigithallos_lilybaeum = temple
 #b_aigousa_lilybaeum = city
 #b_phorbantia_lilybaeum = city
 #b_hiera_lilybaeum = city
-#b_trapani_lilybaeum = castle
+#b_trapani_lilybaeum = city
 
 # Misc
 culture = punic

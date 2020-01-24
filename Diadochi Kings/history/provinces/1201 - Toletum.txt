@@ -7,11 +7,11 @@ title = c_toletum
 max_settlements = 3
 b_toletum_toletum = tribal
 #b_consabura_toletum = city
-#b_alces_toletum = castle
+#b_alces_toletum = city
 #b_vicus_cuminarius_toletum = city
 #b_baebelo_toletum = temple
-#b_ad_duo_solaria_toletum = castle
-#b_ad_turres_toletum = castle
+#b_ad_duo_solaria_toletum = city
+#b_ad_turres_toletum = city
 
 # Misc
 culture = celtiberian

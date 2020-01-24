@@ -5,13 +5,13 @@ title = c_alexandria
 
 # Settlements
 max_settlements = 7
-b_hierakonpolis_alexandria = castle
+b_hierakonpolis_alexandria = city
 b_mareia_alexandria = temple
 b_taposiris_megale_alexandria = city
-b_schedia_alexandria = castle
+b_schedia_alexandria = city
 
 # Possible baronies: (Always add a # in front of a line with these!)
-# b_alexandria_alexandria = castle
+# b_alexandria_alexandria = city
 # b_pharos_alexandria
 # b_thebyrchyth_alexandria
 
@@ -24,7 +24,7 @@ religion = kemetic
 445.1.1 = { # founding of Alexandria
 	culture = macedonian
 	religion = greek_main
-	b_alexandria_alexandria = castle
+	b_alexandria_alexandria = city
 	capital = b_alexandria_alexandria
 }
 472.1.1 = { # 304 BC, End of siege of Rhodes

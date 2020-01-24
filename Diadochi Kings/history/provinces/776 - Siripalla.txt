@@ -5,8 +5,8 @@ title = c_siripalla
 
 # Settlements
 max_settlements = 2
-b_siripalla_siripalla = castle
-b_tripuri_siripalla = castle
+b_siripalla_siripalla = city
+b_tripuri_siripalla = city
 
 # Misc
 culture = maharashtri

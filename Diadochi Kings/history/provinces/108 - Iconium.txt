@@ -5,10 +5,10 @@ title = c_iconium # for example c_corinth
 
 # Settlements
 max_settlements = 4
-b_iconium_iconium = castle
+b_iconium_iconium = city
 b_salarama_iconium = temple
 b_zizima_iconium = city
-b_caballucome_iconium = castle
+b_caballucome_iconium = city
 
 # Misc
 culture = phrygian

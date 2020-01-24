@@ -7,9 +7,9 @@ title = c_segida
 max_settlements = 4
 b_segida_segida = tribal
 #b_fines_segida = city
-#b_seria_segida = castle
+#b_seria_segida = city
 #b_nertobriga_segida = city
-#b_curiga_segida = castle
+#b_curiga_segida = city
 #b_lacunis_segida = city
 b_contributa_segida = temple
 

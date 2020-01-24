@@ -6,12 +6,12 @@ title = c_iguvium # for example c_corinth
 # Settlements
 max_settlements = 5
 b_iguvium_iguvium = tribal
-#b_tadinae_iguvium = castle
+#b_tadinae_iguvium = city
 #b_tibernum_tiberinum_iguvium = city
 #b_asisium_iguvium = city
 #b_hispellum_iguvium = city
-#b_arna_iguvium = castle
-#b_vettona_iguvium = castle
+#b_arna_iguvium = city
+#b_vettona_iguvium = city
 
 # Misc
 culture = umbrian

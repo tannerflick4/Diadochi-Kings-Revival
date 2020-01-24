@@ -5,10 +5,10 @@ title = c_nicomedia # for example c_corinth
 
 # Settlements
 max_settlements = 6
-b_astacus_nicomedia = castle
+b_astacus_nicomedia = city
 b_chalcedon_nicomedia = city
 b_agyronion_nicomedia = temple
-b_sirkanos_nicomedia = castle
+b_sirkanos_nicomedia = city
 b_kalasyrta_nicomedia = temple
 
 # Possible baronies: (Always add a # in front of a line with these!)

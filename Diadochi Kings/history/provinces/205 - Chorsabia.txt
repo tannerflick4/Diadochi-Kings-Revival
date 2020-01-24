@@ -5,10 +5,10 @@ title = c_chorsabia
 
 # Settlements
 max_settlements = 4
-b_chorsabia_chorsabia = castle
+b_chorsabia_chorsabia = city
 b_kalkh_chorsabia = temple
 b_til_chorsabia = city
-b_tordan_chorsabia = castle
+b_tordan_chorsabia = city
 
 # Misc
 culture = armenian

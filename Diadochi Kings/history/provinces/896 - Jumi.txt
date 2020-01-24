@@ -6,7 +6,7 @@ title = c_jumi
 # Settlements
 max_settlements = 3
 
-b_western_jumi_jumi = castle
+b_western_jumi_jumi = city
 b_eastern_jumi_jumi = temple
 b_jie_jumi = city
 

@@ -5,16 +5,10 @@
 	holder = 150202 # Langarus of the Agrianes
 }
 429.4.1 = { # 347 BC
-	liege = e_macedonia
+	liege = k_macedon
 }
 441.1.1 = { # 335 BC
 	holder = 150203 # Mantyes of the Agrianes
-}
-453.6.10 = { # 323 BC
-	liege = k_s_macedon
-}
-459.10.1 = { # 317 BC
-	liege = k_macedon
 }
 466.1.1 = { # 310 BC
 	liege = k_tylis

@@ -5,7 +5,7 @@ title = c_chodda
 
 # Settlements
 max_settlements = 4
-b_chodda_chodda = castle
+b_chodda_chodda = city
 b_badara_chodda = temple
 b_cyiza_chodda = city
 b_mosarna_chodda = city

@@ -6,8 +6,8 @@ title = c_rusguniae
 # Settlements
 max_settlements = 3
 b_obori_rusguniae = city
-b_rusguniae_rusguniae = castle
-b_icosium_rusguniae = castle
+b_rusguniae_rusguniae = city
+b_icosium_rusguniae = city
 
 # Misc
 culture = punic

@@ -7,7 +7,7 @@ title = c_lemnis
 max_settlements = 3
 b_lemnis_lemnis = tribal
 #b_fratres_lemnis = city
-#b_syrorum_lemnis = castle
+#b_syrorum_lemnis = city
 
 # Misc
 culture = berber

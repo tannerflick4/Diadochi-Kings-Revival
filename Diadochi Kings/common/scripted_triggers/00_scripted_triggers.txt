@@ -740,7 +740,7 @@ can_be_mercenary_leader_potential_trigger = {
 	}
 	same_realm = FROM
 	OR = {
-		is_female = no_grievance_trigger
+		is_female = no
 		# TODO: Add feminist faiths here
 		FROM = {
 			has_law = true_cognatic_succession
@@ -2642,6 +2642,10 @@ has_sympathy_for_true_religion_of_prev_trigger = {
 			trait = sympathy_egyptian_religion
 			PREV = { true_religion_group_egyptian_religion_trigger = yes }
 		}
+		# AND = {
+			# trait = sympathy_north_african_religion
+			# PREV = { true_religion_group_north_african_religion_trigger = yes }
+		# }
 	# }
 }
 
@@ -3359,7 +3363,7 @@ can_be_asked_to_leave_court_trigger = {
 			has_character_flag = flag_special_event_character
 			has_character_flag = is_death
 			is_immune_to_pruning = yes
-			historical = yes
+			#removeme historical = yes
 		}
 
 		trigger_if = {

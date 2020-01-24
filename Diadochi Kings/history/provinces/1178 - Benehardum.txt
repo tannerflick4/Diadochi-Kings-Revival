@@ -7,10 +7,10 @@ title = c_benehardum
 max_settlements = 3
 b_benehardum_benehardum = tribal
 #b_atura_benehardum = city
-#b_sparianum_benehardum = castle
-#b_novum_oppidum_benehardum = castle
+#b_sparianum_benehardum = city
+#b_novum_oppidum_benehardum = city
 #b_albiciacum_benehardum = temple
-#b_bigorra_castrum_benehardum = castle
+#b_bigorra_castrum_benehardum = city
 #b_casinomagus_benehardum = city
 
 # Misc

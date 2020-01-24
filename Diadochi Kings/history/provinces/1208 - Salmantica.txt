@@ -9,8 +9,8 @@ b_salmantica_salmantica = tribal
 b_sibaris_salmantica = temple
 #b_ocelum_duri_salmantica = city
 #b_arboukale_salmantica = city
-#b_carbellino_salmantica = castle
-#b_mamede_salmantica = castle
+#b_carbellino_salmantica = city
+#b_mamede_salmantica = city
 #b_ulaca_salmantica = city
 
 # Misc

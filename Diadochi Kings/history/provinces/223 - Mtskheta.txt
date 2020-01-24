@@ -5,12 +5,12 @@ title = c_mtskheta
 
 # Settlements
 max_settlements = 6
-b_mtskheta_mtskheta = castle
+b_mtskheta_mtskheta = city
 b_zalissa_mtskheta = temple
 b_seusamora_mtskheta = city
-b_tli_mtskheta = castle
+b_tli_mtskheta = city
 b_caspia_mtskheta = city
-b_cumania_mtskheta = castle
+b_cumania_mtskheta = city
 
 # Misc
 culture = georgian

@@ -5,10 +5,10 @@ title = c_erythrai
 
 # Settlements
 max_settlements = 5
-b_erythrai_erythrai = castle
+b_erythrai_erythrai = city
 b_klazomenai_erythrai = city
 b_teos_erythrai = city
-b_chyton_erythrai = castle
+b_chyton_erythrai = city
 b_embaton_erythrai = city
 
 # Misc

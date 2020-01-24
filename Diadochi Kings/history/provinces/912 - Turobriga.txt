@@ -6,12 +6,12 @@ title = c_turobriga
 # Settlements
 max_settlements = 4
 b_turobriga_turobriga = tribal
-#b_urium_turobriga = castle
-#b_fodinae_turobriga = castle
+#b_urium_turobriga = city
+#b_fodinae_turobriga = city
 #b_eulalia_turobriga = temple
-#b_telmo_turobriga = castle
+#b_telmo_turobriga = city
 #b_kortikata_turobriga = city
-#b_arucci_turobriga = castle
+#b_arucci_turobriga = city
 
 # Misc
 culture = gallaecian

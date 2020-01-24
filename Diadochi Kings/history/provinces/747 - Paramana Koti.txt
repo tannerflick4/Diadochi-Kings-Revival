@@ -5,7 +5,7 @@ title = c_paramana_koti
 
 # Settlements
 max_settlements = 2
-b_paramana_koti_paramana_koti = castle
+b_paramana_koti_paramana_koti = city
 b_varanavati_paramana_koti = city
 
 # Misc

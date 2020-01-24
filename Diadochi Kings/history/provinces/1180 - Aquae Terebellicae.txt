@@ -10,8 +10,8 @@ b_aquae_terebellicae_aquae_terebellicae = tribal
 #b_coequosa_aquae_terebellicae = city
 #b_segosa_aquae_terebellicae = city
 #b_blacinaco_aquae_terebellicae = temple
-#b_fesciago_aquae_terebellicae = castle
-#b_ad_stabulum_aquae_terebellicae = castle
+#b_fesciago_aquae_terebellicae = city
+#b_ad_stabulum_aquae_terebellicae = city
 
 # Misc
 culture = aquitanian

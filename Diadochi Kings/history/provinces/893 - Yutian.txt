@@ -6,7 +6,7 @@ title = c_yutian
 # Settlements
 max_settlements = 2
 
-b_yutian_yutian = castle # Khotan
+b_yutian_yutian = city # Khotan
 b_qule_yutian = city
 
 culture = khotanese

@@ -7,7 +7,7 @@ title = c_luxovium
 max_settlements = 4
 b_luxovium_luxovium = tribal
 #b_uruncis_luxovium = city
-#b_larga_luxovium = castle
+#b_larga_luxovium = city
 
 # Possible baronies: (Always add a # in front of a line with these!)
 # b_basilia_luxovium

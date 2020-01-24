@@ -5,7 +5,7 @@ title = c_mallorum
 
 # Settlements
 max_settlements = 1
-b_mulasthana_mallorum = castle
+b_mulasthana_mallorum = city
 
 # Misc
 culture = shauraseni

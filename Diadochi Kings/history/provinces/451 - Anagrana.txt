@@ -7,7 +7,7 @@ title = c_anagrana
 max_settlements = 4
 b_anagrana_anagrana = tribal
 #b_marma_anagrana = city
-#b_phoda_anagrana = castle
+#b_phoda_anagrana = city
 #b_baitios_anagrana = city
 
 # Misc

@@ -5,11 +5,11 @@ title = c_ashur
 
 # Settlements
 max_settlements = 6
-b_ashur_ashur = castle
+b_ashur_ashur = city
 b_vicat_ashur = temple #Tell Ibra
 b_balad_ashur = city
-b_apku_ashur = castle # Tell Abu Marya
-b_singara_ashur = castle
+b_apku_ashur = city # Tell Abu Marya
+b_singara_ashur = city
 
 # Possible baronies: (Always add a # in front of a line with these!)
 # b_hatra_ashur

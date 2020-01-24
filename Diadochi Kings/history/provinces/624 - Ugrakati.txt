@@ -6,7 +6,7 @@ title = c_ugrakati
 # Settlements
 max_settlements = 2
 b_ugrakati_ugrakati = tribal
-#b_bratavadasz_ugrakati = castle
+#b_bratavadasz_ugrakati = city
 
 # Misc
 culture = scythian

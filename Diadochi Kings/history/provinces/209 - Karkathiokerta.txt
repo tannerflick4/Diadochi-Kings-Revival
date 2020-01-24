@@ -5,10 +5,10 @@ title = c_karkathiokerta
 
 # Settlements
 max_settlements = 4
-b_karkatiokerta_karkathiokerta = castle
+b_karkatiokerta_karkathiokerta = city
 b_dabanas_karkathiokerta = temple
 b_nabaris_karkathiokerta = city
-b_saphchai_karkathiokerta = castle
+b_saphchai_karkathiokerta = city
 
 # Misc
 culture = armenian

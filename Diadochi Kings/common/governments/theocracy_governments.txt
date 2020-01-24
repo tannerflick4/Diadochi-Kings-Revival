@@ -4,7 +4,7 @@ theocracy_governments = {
 		preferred_holdings = { TEMPLE }
 		allowed_holdings = {
 			TEMPLE
-			CASTLE
+			CITY
 			FORT
 			HOSPITAL
 		}
@@ -22,6 +22,21 @@ theocracy_governments = {
 		frame_suffix = "_theocracy"
 		title_prefix = "temple_"
 		potential = {
+			NOR = {
+				capital_holding = {
+					is_tribal = yes
+				}
+				any_liege = {
+					capital_holding = {
+						is_tribal = yes
+					}
+				}
+				employer = {
+					capital_holding = {
+						is_tribal = yes
+					}
+				}
+			}
 			holy_order = no
 			is_patrician = no
 			OR = {
@@ -40,6 +55,8 @@ theocracy_governments = {
 		have_gender_laws = no
 		can_be_granted_kingdoms_and_empires_by_other_government = no
 
+		can_build_castle = no
+		can_build_temple = no
 		can_build_tribal = no
 		
 		capital_move_delay = 600

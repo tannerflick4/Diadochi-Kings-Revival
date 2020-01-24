@@ -5,9 +5,9 @@ title = c_nisaea
 
 # Settlements
 max_settlements = 4
-b_nisaea_nisaea = castle
+b_nisaea_nisaea = city
 b_abarbina_nisaea = city
-b_guriana_nisaea = castle
+b_guriana_nisaea = city
 b_astasana_nisaea = temple
 
 # Misc

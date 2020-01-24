@@ -10,7 +10,7 @@ b_montana_montana = tribal
 #b_vorovum_montana = city
 #b_aedava_montana = city
 #b_variana_montana = city
-#b_pedonianis_montana = castle
+#b_pedonianis_montana = city
 #b_valeriana_montana = city
 
 # Misc

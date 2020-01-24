@@ -6,7 +6,7 @@ title = c_yanqi
 # Settlements
 max_settlements = 3
 
-b_yanqi_yanqi = castle # Karaxahr
+b_yanqi_yanqi = city # Karaxahr
 b_weili_yanqi = temple
 b_weixu_yanqi = city
 

@@ -7,9 +7,9 @@ title = c_urgellum
 max_settlements = 3
 b_urgellum_urgellum = tribal
 #b_setelsis_urgellum = city
-#b_aeso_urgellum = castle
-#b_orgia_urgellum = castle
-#b_ager_urgellum = castle
+#b_aeso_urgellum = city
+#b_orgia_urgellum = city
+#b_ager_urgellum = city
 #b_ioulia_libika_urgellum = city
 #b_basella_urgellum = temple
 

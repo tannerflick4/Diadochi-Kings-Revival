@@ -5,9 +5,9 @@ title = c_ashtishat
 
 # Settlements
 max_settlements = 3
-b_ashtishat_ashtishat = castle
+b_ashtishat_ashtishat = city
 b_kitharizon_ashtishat = city
-b_artales_ashtishat = castle
+b_artales_ashtishat = city
 
 # Misc
 culture = armenian

@@ -5,8 +5,8 @@ title = c_kantakossyla
 
 # Settlements
 max_settlements = 2
-b_kantakossyla_kantakossyla = castle
-b_pitoura_kantakossyla = castle
+b_kantakossyla_kantakossyla = city
+b_pitoura_kantakossyla = city
 
 # Misc
 culture = telegu

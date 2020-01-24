@@ -6,10 +6,10 @@ title = c_edeba
 # Settlements
 max_settlements = 4
 b_edeba_edeba = tribal
-#b_vivatia_edeba = castle
+#b_vivatia_edeba = city
 #b_salaria_edeba = city
-#b_ilugo_edeba = castle
-#b_baesucci_edeba = castle
+#b_ilugo_edeba = city
+#b_baesucci_edeba = city
 #b_oretum_edeba = city
 #b_mariana_edeba = city
 

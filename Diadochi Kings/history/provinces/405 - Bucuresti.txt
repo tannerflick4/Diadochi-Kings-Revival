@@ -8,7 +8,7 @@ max_settlements = 4
 b_bucuresti_bucuresti = tribal
 #b_piscul_bucuresti = city
 b_argidava_bucuresti = temple
-#b_tirgsor_bucuresti = castle
+#b_tirgsor_bucuresti = city
 
 # Misc
 culture = dacian

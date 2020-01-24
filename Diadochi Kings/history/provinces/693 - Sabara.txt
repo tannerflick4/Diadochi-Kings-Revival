@@ -5,8 +5,8 @@ title = c_sabara
 
 # Settlements
 max_settlements = 2
-b_sabara_sabara = castle
-b_sippara_sabara = castle
+b_sabara_sabara = city
+b_sippara_sabara = city
 
 # Misc
 culture = telegu

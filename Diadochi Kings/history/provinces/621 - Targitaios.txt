@@ -5,7 +5,7 @@ title = c_targitaios
 
 # Settlements
 max_settlements = 2
-b_targitaios_targitaios = castle
+b_targitaios_targitaios = city
 b_gikol_targitaios = city
 
 # Misc

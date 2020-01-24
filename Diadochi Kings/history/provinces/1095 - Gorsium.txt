@@ -7,10 +7,10 @@ title = c_gorsium
 max_settlements = 3
 b_gorsium_gorsium = tribal
 #b_alta_ripa_gorsium = city
-#b_lussonium_gorsium = castle
-#b_annamatia_gorsium = castle
-#b_intercisa_gorsium = castle
-#b_vetus_salina_gorsium = castle
+#b_lussonium_gorsium = city
+#b_annamatia_gorsium = city
+#b_intercisa_gorsium = city
+#b_vetus_salina_gorsium = city
 #b_iasulones_gorsium = city
 
 # Misc

@@ -5,10 +5,10 @@ title = c_odessos # for example c_corinth
 
 # Settlements
 max_settlements = 4
-b_odessos_odessos = castle
+b_odessos_odessos = city
 b_callatis_odessos = city
 b_dionysiopolis_odessos = temple
-#b_gerania_odessos = castle
+#b_gerania_odessos = city
 #b_bizone_odessos = city
 b_tirizis_odessos = temple
 #b_karon_limen_odessos = city

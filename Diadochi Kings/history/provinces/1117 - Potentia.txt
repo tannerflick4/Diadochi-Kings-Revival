@@ -6,9 +6,9 @@ title = c_potentia
 # Settlements
 max_settlements = 3
 b_potentia_potentia = tribal
-#b_ad_fluvium_bradanum_potentia = castle
-#b_acheruntia_potentia = castle
-#b_anxia_potentia = castle
+#b_ad_fluvium_bradanum_potentia = city
+#b_acheruntia_potentia = city
+#b_anxia_potentia = city
 #b_longane_potentia = city
 #b_metaurum_potentia = temple
 #b_marcellianum_potentia = city

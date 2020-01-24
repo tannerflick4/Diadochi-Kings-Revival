@@ -9,8 +9,8 @@ b_marsonia_marsonia = tribal
 #b_ad_basante_marsonia = city
 #b_leucono_marsonia = city
 #b_cirtisa_marsonia = city
-#b_picentino_marsonia = castle
-#b_stravianis_marsonia = castle
+#b_picentino_marsonia = city
+#b_stravianis_marsonia = city
 #b_incero_marsonia = temple
 
 # Misc

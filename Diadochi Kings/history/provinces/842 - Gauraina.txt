@@ -5,9 +5,9 @@ title = c_gauraina
 
 # Settlements
 max_settlements = 4
-b_gauraina_gauraina = castle
+b_gauraina_gauraina = city
 b_taranta_gauraina = city
-b_euspena_gauraina = castle
+b_euspena_gauraina = city
 b_dalanda_gauraina = city
 
 # Misc

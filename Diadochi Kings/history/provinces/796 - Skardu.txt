@@ -5,7 +5,7 @@ title = c_skardu
 
 # Settlements
 max_settlements = 1
-b_skardu_skardu = castle
+b_skardu_skardu = city
 
 # Misc
 culture = gandhari

@@ -7,11 +7,11 @@ title = c_aufidena
 max_settlements = 4
 b_aufidena_aufidena = tribal
 #b_venafrum_aufidena = city
-#b_aesernia_aufidena = castle
+#b_aesernia_aufidena = city
 #b_atina_aufidena = city
-#b_arpinum_aufidena = castle
+#b_arpinum_aufidena = city
 #b_sora_aufidena = city
-#b_iuvanum_aufidena = castle
+#b_iuvanum_aufidena = city
 
 # Misc
 culture = oscan

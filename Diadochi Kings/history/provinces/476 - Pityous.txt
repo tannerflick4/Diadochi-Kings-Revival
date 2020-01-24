@@ -5,9 +5,9 @@ title = c_pityous
 
 # Settlements
 max_settlements = 3
-b_pityous_pityous = castle
+b_pityous_pityous = city
 b_torikos_pityous = city
-b_masaitike_pityous = castle
+b_masaitike_pityous = city
 
 # Misc
 culture = ionian

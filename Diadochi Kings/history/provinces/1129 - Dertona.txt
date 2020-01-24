@@ -6,11 +6,11 @@ title = c_dertona
 # Settlements
 max_settlements = 3
 b_dertona_dertona = tribal
-#b_corneli_magus_dertona = castle
-#b_clastidium_dertona = castle
+#b_corneli_magus_dertona = city
+#b_clastidium_dertona = city
 #b_iria_dertona = city
-#b_litubium_dertona = castle
-#b_libarna_dertona = castle
+#b_litubium_dertona = city
+#b_libarna_dertona = city
 #b_ad_medias_dertona = city
 
 # Misc

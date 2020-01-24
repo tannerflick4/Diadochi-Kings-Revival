@@ -7,11 +7,11 @@ title = c_placentia # for example c_corinth
 max_settlements = 4
 b_placentia_placentia = tribal
 #b_fidentia_placentia = city
-#b_florentiola_placentia = castle
-#b_veleia_placentia = castle
+#b_florentiola_placentia = city
+#b_veleia_placentia = city
 #b_fundus_ancharianus_placentia = temple
 b_minerva_cabardiacensis_placentia = temple
-#b_bobium_placentia = castle
+#b_bobium_placentia = city
 
 # Misc
 culture = gaul

@@ -8,10 +8,10 @@ max_settlements = 4
 b_bylazora_bylazora = tribal
 #b_astibos_bylazora = city
 #b_adcephalon_bylazora = city
-#b_tranupara_bylazora = castle
+#b_tranupara_bylazora = city
 #b_pautalia_bylazora = city
 #b_karistoron_bylazora = temple
-#b_spinopara_bylazora = castle
+#b_spinopara_bylazora = city
 
 # Misc
 culture = paeonian

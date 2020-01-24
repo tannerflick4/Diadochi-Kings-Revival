@@ -5,12 +5,12 @@ title = c_mazaka # for example c_corinth
 
 # Settlements
 max_settlements = 6
-b_moutalaske_mazaka = castle
+b_moutalaske_mazaka = city
 b_mazaka_mazaka = temple
 b_eulepa_mazaka = city
-b_archalla_mazaka = castle
+b_archalla_mazaka = city
 b_arasaxa_mazaka = temple
-b_armaxa_mazaka = castle
+b_armaxa_mazaka = city
 
 # Misc
 culture = cappadocian

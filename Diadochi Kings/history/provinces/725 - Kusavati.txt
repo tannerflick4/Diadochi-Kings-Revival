@@ -5,7 +5,7 @@ title = c_kusavati
 
 # Settlements
 max_settlements = 1
-b_kusavati_kusavati = castle
+b_kusavati_kusavati = city
 
 # Misc
 culture = vedic # Magadhi

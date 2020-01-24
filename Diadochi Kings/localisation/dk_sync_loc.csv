@@ -1,0 +1,73 @@
+#Modifiers
+mod_synced_faith;Synced a Faith;;;;;;;;;;;;;;x
+mod_sync_kemetic;Seeks to unite with the Kemetic faith;;;;;;;;;;;;;;x
+mod_sync_atenist;Seeks to unite with the Atenist faith;;;;;;;;;;;;;;x
+mod_sync_greco_kemetic;Seeks to unite with the Greco-Kemetic faith;;;;;;;;;;;;;;x
+mod_sync_berber_main;Seeks to unite with the Berber faith;;;;;;;;;;;;;;x
+mod_sync_illyrian_main;Seeks to unite with the Illyrian faith;;;;;;;;;;;;;;x
+mod_sync_thracian_main;Seeks to unite with the Thracian faith;;;;;;;;;;;;;;x
+mod_sync_zalmoxism;Seeks to unite with Zalmoxism;;;;;;;;;;;;;;x
+mod_sync_celtic_main;Seeks to unite with the Celtic faith;;;;;;;;;;;;;;x
+mod_sync_punic_main;Seeks to unite with the Punic faith;;;;;;;;;;;;;;x
+mod_sync_canaanite_main;Seeks to unite with the Canaanite faith;;;;;;;;;;;;;;x
+mod_sync_zoroastrian_main;Seeks to unite with Zoroastrianism;;;;;;;;;;;;;;x
+mod_sync_zurvanism;Seeks to unite with Zurvanism;;;;;;;;;;;;;;x
+mod_sync_scythian_main;Seeks to unite with the Scythian faith;;;;;;;;;;;;;;x
+mod_sync_armenian_main;Seeks to unite with the Armenian faith;;;;;;;;;;;;;;x
+mod_sync_judaism_main;Seeks to unite with Judaism;;;;;;;;;;;;;;x
+mod_sync_hinduism_main;Seeks to unite with Hinduism;;;;;;;;;;;;;;x
+mod_sync_jainism_main;Seeks to unite with Jainism;;;;;;;;;;;;;;x
+mod_sync_buddhism_main;Seeks to unite with Buddhism;;;;;;;;;;;;;;x
+mod_sync_georgian_main;Seeks to unite with the Georgian faith;;;;;;;;;;;;;;x
+mod_sync_anatolian_main;Seeks to unite with the Anatolian faith;;;;;;;;;;;;;;x
+mod_sync_phrygian_main;Seeks to unite with the Phrygian faith;;;;;;;;;;;;;;x
+mod_sync_marduk_cult;Seeks to unite with the Marduk cult;;;;;;;;;;;;;;x
+mod_sync_arabic_main;Seeks to unite with the Arabic faith;;;;;;;;;;;;;;x
+mod_sync_greek_main;Seeks to unite with Greek Hellenism;;;;;;;;;;;;;;x
+mod_sync_roman_main;Seeks to unite with Roman Hellenism;;;;;;;;;;;;;;x
+mod_sync_pontic_main;Seeks to unite with the Pontic faith;;;;;;;;;;;;;;x
+mod_sync_etruscan_main;Seeks to unite with the Etruscan faith;;;;;;;;;;;;;;x
+mod_sync_dravidian_main;Seeks to unite with the Dravidian faith;;;;;;;;;;;;;;x
+mod_sync_lusitanian_main;Seeks to unite with the Lusitanian faith;;;;;;;;;;;;;;x
+mod_sync_iberian_main;Seeks to unite with the Iberian faith;;;;;;;;;;;;;;x
+mod_sync_aquitanian_main;Seeks to unite with the Aquitanian faith;;;;;;;;;;;;;;x
+
+#Decisions
+sync_faith;Unite Faiths;;;;;;;;;;;;;;x
+sync_faith_desc;Seek to unite with another Faith;;;;;;;;;;;;;;x
+
+#Events
+EVTDESCsync_faith_events.1;Seek to unite with faith with [Root.Religion.GetName]?;;;;;;;;;;;;;;x
+EVTOPTAsync_faith_events.1;Kemetic;;;;;;;;;;;;;;x
+EVTOPTBsync_faith_events.1;Atenist;;;;;;;;;;;;;;x
+EVTOPTCsync_faith_events.1;Greco-Kemetic;;;;;;;;;;;;;;x
+EVTOPTDsync_faith_events.1;Berber;;;;;;;;;;;;;;x
+EVTOPTEsync_faith_events.1;Illyrian;;;;;;;;;;;;;;x
+EVTOPTFsync_faith_events.1;Thracian;;;;;;;;;;;;;;x
+EVTOPTGsync_faith_events.1;Zalmoxism;;;;;;;;;;;;;;x
+EVTOPTHsync_faith_events.1;Celtic;;;;;;;;;;;;;;x
+EVTOPTIsync_faith_events.1;Punic;;;;;;;;;;;;;;x
+EVTOPTJsync_faith_events.1;Canaanite;;;;;;;;;;;;;;x
+EVTOPTKsync_faith_events.1;Zoroastrian;;;;;;;;;;;;;;x
+EVTOPTLsync_faith_events.1;Zurvanism;;;;;;;;;;;;;;x
+EVTOPTMsync_faith_events.1;Scythian;;;;;;;;;;;;;;x
+EVTOPTNsync_faith_events.1;Armenian;;;;;;;;;;;;;;x
+EVTOPTOsync_faith_events.1;Judaism;;;;;;;;;;;;;;x
+EVTOPTPsync_faith_events.1;Hinduism;;;;;;;;;;;;;;x
+EVTOPTQsync_faith_events.1;Jainism;;;;;;;;;;;;;;x
+EVTOPTRsync_faith_events.1;Buddhism;;;;;;;;;;;;;;x
+EVTOPTSsync_faith_events.1;Georgian;;;;;;;;;;;;;;x
+EVTOPTTsync_faith_events.1;Anatolian;;;;;;;;;;;;;;x
+EVTOPTUsync_faith_events.1;Phrygian;;;;;;;;;;;;;;x
+EVTOPTVsync_faith_events.1;Marduk;;;;;;;;;;;;;;x
+EVTOPTWsync_faith_events.1;Arabic;;;;;;;;;;;;;;x
+EVTOPTXsync_faith_events.1;Greek Hellenism;;;;;;;;;;;;;;x
+EVTOPTYsync_faith_events.1;Roman Hellenism;;;;;;;;;;;;;;x
+EVTOPTZsync_faith_events.1;Pontic;;;;;;;;;;;;;;x
+EVTOPTAAsync_faith_events.1;Etruscan;;;;;;;;;;;;;;x
+EVTOPTABsync_faith_events.1;Dravidian;;;;;;;;;;;;;;x
+EVTOPTACsync_faith_events.1;Lusitanian;;;;;;;;;;;;;;x
+EVTOPTADsync_faith_events.1;Iberian;;;;;;;;;;;;;;x
+EVTOPTAEsync_faith_events.1;Aquitanian;;;;;;;;;;;;;;x
+EVTOPTAFsync_faith_events.1;Actually, I don't wish to unite any religion.;;;;;;;;;;;;;;x
+EVTOPTZZsync_faith_events.1;Another Religion;;;;;;;;;;;;;;x

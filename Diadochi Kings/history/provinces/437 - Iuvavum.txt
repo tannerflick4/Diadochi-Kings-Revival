@@ -7,7 +7,7 @@ title = c_iuvavum
 max_settlements = 5
 b_iuvavum_iuvavum = tribal
 #b_cucullae_iuvavum = city
-#b_anisus_iuvavum = castle
+#b_anisus_iuvavum = city
 #b_bedaium_iuvavum = city
 
 # Possible baronies: (Always add a # in front of a line with these!)

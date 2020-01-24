@@ -5,10 +5,10 @@ title = c_gangra # for example c_corinth
 
 # Settlements
 max_settlements = 4
-b_gangra_gangra = castle
+b_gangra_gangra = city
 b_kobara_gangra = temple
 b_anadynata_gangra = city
-b_zeita_gangra = castle
+b_zeita_gangra = city
 
 # Misc
 culture = luwian

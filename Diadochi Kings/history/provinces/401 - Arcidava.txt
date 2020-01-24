@@ -8,7 +8,7 @@ max_settlements = 4
 b_arcidava_arcidava = tribal
 #b_berzobis_arcidava = city
 b_aizis_arcidava = temple
-#b_tibiscum_arcidava = castle
+#b_tibiscum_arcidava = city
 
 # Misc
 culture = dacian

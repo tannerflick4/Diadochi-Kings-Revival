@@ -7451,6 +7451,10 @@ k_cappadocia = {
 			color= { 175 140 115 }
 			color2= { 255 255 255 }
 			
+			allow = {
+				is_republic = yes
+			}
+			
 			b_karana_megalopolis_cappadocia = {
 			}
 			b_phiara_megalopolis_cappadocia = {
@@ -7667,6 +7671,7 @@ k_egypt = {
 			egyptian = "Men Nefer"
 
 			holy_site = kemetic
+			holy_site = greco_kemetic # placeholder
 			holy_site = atenist
 			
 			b_memphis_memphis = {
@@ -7863,6 +7868,7 @@ k_egypt = {
 			egyptian = "Hut-Sekhem"
 			
 			holy_site = kemetic
+			holy_site = greco_kemetic # placeholder
 			holy_site = atenist
 			
 			b_diospolis_mikra_diospolis_mikra = {
@@ -7903,6 +7909,7 @@ k_egypt = {
 			egyptian = "Waset"
 
 			holy_site = kemetic
+			holy_site = greco_kemetic # placeholder
 			holy_site = atenist
 			
 			b_thebes_thebes_egypt = {
@@ -7929,6 +7936,7 @@ k_egypt = {
 
 			# TODO: Temporary. Find a better province.
 			holy_site = kemetic
+			holy_site = greco_kemetic # placeholder
 			holy_site = atenist
 			
 			b_latopolis_latopolis = {
@@ -7950,6 +7958,7 @@ k_egypt = {
 			egyptian = "Swenett"
 
 			holy_site = kemetic
+			holy_site = greco_kemetic # placeholder
 			
 			b_syene_syene = {
 				egyptian = "Swenett"
@@ -9699,6 +9708,8 @@ k_illyria = {
 			color= { 173 200 88 }
 			color2= { 255 255 255 }
 			
+			holy_site = illyrian_main # placeholder
+			
 			b_salinae_salinae = {
 			}
 			b_ris_salinae = {
@@ -9930,6 +9941,8 @@ k_illyria = {
 		c_stobi = {
 			color= { 237 184 47 }
 			color2= { 255 255 255 }
+			
+			holy_site = illyrian_main # placeholder
 				
 			b_stobi_stobi = {
 			}
@@ -10067,6 +10080,8 @@ k_pannonia = {
 			color= { 41 165 58 }
 			color2= { 255 255 255 }
 			
+			holy_site = illyrian_main # placeholder
+			
 			b_ortopla_ortopla = {
 			}
 			b_argyruntum_ortopla = {
@@ -10130,6 +10145,9 @@ k_pannonia = {
 		c_sala = {
 			color= { 28 119 56 }
 			color2= { 255 255 255 }
+			
+			holy_site = illyrian_main # placeholder
+			holy_site = celtic_main # placeholder
 			
 			b_sala_sala = {
 			}
@@ -10335,6 +10353,9 @@ k_pannonia = {
 			color= { 26 153 44 }
 			color2= { 255 255 255 }
 			
+			holy_site = illyrian_main # placeholder
+			holy_site = celtic_main # placeholder
+			
 			b_sirmium_sirmium = {
 			}
 			b_bassiana_sirmium = {
@@ -10394,6 +10415,8 @@ k_pannonia = {
 		c_cibalae = {
 			color= { 48 147 61 }
 			color2= { 255 255 255 }
+			
+			holy_site = celtic_main # placeholder
 			
 			b_cibalae_cibalae = {
 			}
@@ -12302,6 +12325,8 @@ k_cisalpine_gaul = {
 			color= { 100 255 60 }
 			color2= { 255 255 255 }
 			
+			holy_site = celtic_main # placeholder
+			
 			b_vercellae_vercellae = {
 			}
 			b_novaria_vercellae = {
@@ -13073,6 +13098,8 @@ k_carthage = {
 			color= { 245 225 115 }
 			color2= { 255 255 255 }
 			
+			holy_site = berber_main # placeholder
+			
 			b_haribus_meninx = {
 			}
 			b_tacape_meninx = {
@@ -13299,6 +13326,8 @@ k_numidia = {
 			color= { 255 200 75 }
 			color2= { 255 255 255 }
 			
+			holy_site = berber_main # placeholder
+			
 			b_cirta_cirta = {
 			}
 			b_saddar_cirta = {
@@ -13410,7 +13439,9 @@ k_numidia = {
 		c_rapidum = {
 			color= { 225 210 85 }
 			color2= { 255 255 255 }
-						
+			
+			holy_site = berber_main # placeholder
+			
 			b_rapidum_rapidum = {
 			}
 			b_auzia_rapidum = {
@@ -13517,7 +13548,9 @@ k_mauretania = {
 		c_lemnis = {
 			color= { 200 150 25 }
 			color2= { 255 255 255 }
-						
+			
+			holy_site = berber_main # placeholder
+			
 			b_lemnis_lemnis = {
 			}
 			b_fratres_lemnis = {
@@ -13602,7 +13635,9 @@ k_mauretania = {
 		c_volubis = {
 			color= { 200 150 50 }
 			color2= { 255 255 255 }
-						
+			
+			holy_site = berber_main # placeholder
+			
 			b_volubis_volubis = {
 			}
 			b_tocolosida_volubis = {
@@ -17357,6 +17392,8 @@ e_hispania = {
 			c_arriaca = {
 				color={ 206 84 149 }
 				color2={ 255 255 255 }
+				
+				holy_site = celtic_main # placeholder
 
 				b_arriaca_arriaca = {
 				}

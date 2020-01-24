@@ -6,7 +6,7 @@ title = c_dranshatipa
 # Settlements
 max_settlements = 2
 b_dranshatipa_dranshatipa = tribal
-#b_ugraku_dranshatipa = castle
+#b_ugraku_dranshatipa = city
 
 # Misc
 culture = scythian

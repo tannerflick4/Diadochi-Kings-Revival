@@ -5,7 +5,7 @@ title = c_sisupalgarh
 
 # Settlements
 max_settlements = 1
-b_sisupalgarh_sisupalgarh = castle
+b_sisupalgarh_sisupalgarh = city
 
 # Misc
 culture = maharashtri

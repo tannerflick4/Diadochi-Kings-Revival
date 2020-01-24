@@ -10,7 +10,7 @@ b_medillanum_baeterrae = temple
 #b_piscenae_baeterrae = city
 #b_cessero_baeterrae = city
 #b_agatha_baeterrae = city
-#b_embonne_baeterrae = castle
+#b_embonne_baeterrae = city
 #b_vivios_baeterrae = temple
 
 # Misc

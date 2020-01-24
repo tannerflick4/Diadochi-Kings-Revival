@@ -5,13 +5,13 @@ title = c_crenides
 
 # Settlements
 max_settlements = 4
-b_skotoussa_crenides = castle
+b_skotoussa_crenides = city
 #b_sirra_crenides = city
 #b_oldenoi_crenides = city
 #b_tripolis_crenides = temple
-#b_hadrianopolis_crenides = castle
-#b_drabeskos_crenides = castle
-#b_ad_duodecimum_crenides = castle
+#b_hadrianopolis_crenides = city
+#b_drabeskos_crenides = city
+#b_ad_duodecimum_crenides = city
 
 # Misc
 culture = thracian
@@ -20,7 +20,7 @@ religion = thracian_main
 # History
 # Can be filled when things change around the province
 419.1.1 = { # 357 BC
-    b_skotoussa_crenides = castle
+    b_skotoussa_crenides = city
     b_sirra_crenides = city
     b_oldenoi_crenides = city
     b_tripolis_crenides = temple

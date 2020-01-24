@@ -6,7 +6,7 @@ title = c_qiemo
 # Settlements
 max_settlements = 3
 
-b_qiemo_qiemo = castle # Qarqan
+b_qiemo_qiemo = city # Qarqan
 b_ronglu_qiemo = city
 b_xiaoyuan_qiemo = temple
 

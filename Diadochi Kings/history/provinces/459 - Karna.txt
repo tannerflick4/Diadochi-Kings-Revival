@@ -7,9 +7,9 @@ title = c_karna
 max_settlements = 4
 b_karna_karna = tribal
 b_cardava_karna = temple
-#b_amnestum_karna = castle
+#b_amnestum_karna = city
 #b_nestus_karna = temple
-#b_labaetia_karna = castle
+#b_labaetia_karna = city
 
 # Misc
 culture = arabic

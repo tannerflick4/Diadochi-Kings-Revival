@@ -5,7 +5,7 @@ title = c_uttara_osali
 
 # Settlements
 max_settlements = 1
-b_uttara_osali_uttara_osali = castle
+b_uttara_osali_uttara_osali = city
 
 # Misc
 culture = telegu

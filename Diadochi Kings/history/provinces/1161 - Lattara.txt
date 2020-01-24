@@ -9,7 +9,7 @@ b_lattara_lattara = tribal
 #b_magalona_lattara = city
 #b_sextantio_lattara = city
 #b_forum_domitii_lattara = city
-#b_frontiana_lattara = castle
+#b_frontiana_lattara = city
 #b_mesua_lattara = city
 #b_varatunnum_lattara = temple
 

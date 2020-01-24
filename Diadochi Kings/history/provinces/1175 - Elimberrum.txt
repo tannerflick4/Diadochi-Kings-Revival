@@ -6,10 +6,10 @@ title = c_elimberrum
 # Settlements
 max_settlements = 4
 b_elimberrum_elimberrum = tribal
-#b_consoranni_elimberrum = castle
+#b_consoranni_elimberrum = city
 #b_lactora_elimberrum = city
 #b_sarnali_elimberrum = city
-#b_hungunverro_elimberrum = castle
+#b_hungunverro_elimberrum = city
 #b_vernus_sol_elimberrum = temple
 #b_aquae_siccae_elimberrum = city
 

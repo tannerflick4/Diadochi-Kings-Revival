@@ -1,2 +1,190 @@
 PHARAOH_TITLE;Pharaoh;;;;;;;;;;;;;x
 QUEEN_TITLE;Queen;;;;;;;;;;;;;x
+
+# Greek Special Rank Titles
+emperor_thracian_group;Megas Basileus;;;;;;;;;;;;;x
+emperor_female_thracian_group;Megas Basileia;;;;;;;;;;;;;x
+king_thracian_group;Basileus;;;;;;;;;;;;;x
+king_female_thracian_group;Basileia;;;;;;;;;;;;;x
+satrap_king;Satrap;;;;;;;;;;;;;x
+satrap_king_female;Satrap;;;;;;;;;;;;;x
+duke_thracian_group;Autokrator;;;;;;;;;;;;;x
+duke_female_thracian_group;Autokrator;;;;;;;;;;;;;x
+count_thracian_group;Politarch;;;;;;;;;;;;;x
+count_female_thracian_group;Politarch;;;;;;;;;;;;;x
+baron_thracian_group;Archon;;;;;;;;;;;;;x
+baron_female_thracian_group;Archon;;;;;;;;;;;;;x
+emperor_illyrian_group;Megas Basileus;;;;;;;;;;;;;x
+emperor_female_illyrian_group;Megas Basileia;;;;;;;;;;;;;x
+king_illyrian_group;Basileus;;;;;;;;;;;;;x
+king_female_illyrian_group;Basileia;;;;;;;;;;;;;x
+duke_illyrian_group;Autokrator;;;;;;;;;;;;;x
+duke_female_illyrian_group;Autokrator;;;;;;;;;;;;;x
+count_illyrian_group;Politarch;;;;;;;;;;;;;x
+count_female_illyrian_group;Politarch;;;;;;;;;;;;;x
+baron_illyrian_group;Archon;;;;;;;;;;;;;x
+baron_female_illyrian_group;Archon;;;;;;;;;;;;;x
+emperor_hellenic;Megas Basileus;;;;;;;;;;;;;x
+emperor_female_hellenic;Megas Basileia;;;;;;;;;;;;;x
+king_hellenic;Basileus;;;;;;;;;;;;;x
+king_female_hellenic;Basileia;;;;;;;;;;;;;x
+duke_hellenic;Autokrator;;;;;;;;;;;;;x
+duke_female_hellenic;Autokrator;;;;;;;;;;;;;x
+count_hellenic;Politarch;;;;;;;;;;;;;x
+count_female_hellenic;Politarch;;;;;;;;;;;;;x
+baron_hellenic;Archon;;;;;;;;;;;;;x
+baron_female_hellenic;Archon;;;;;;;;;;;;;x
+city_emperor_thracian_group;Megas Archon;;;;;;;;;;;;;x
+city_emperor_female_thracian_group;Megas Archon;;;;;;;;;;;;;x
+city_king_thracian_group;Eponymous Archon;;;;;;;;;;;;;x
+city_king_female_thracian_group;Eponymous Archon;;;;;;;;;;;;;x
+city_duke_thracian_group;Archon;;;;;;;;;;;;;x
+city_duke_female_thracian_group;Archon;;;;;;;;;;;;;x
+city_count_thracian_group;Politarch;;;;;;;;;;;;;x
+city_count_female_thracian_group;Politarch;;;;;;;;;;;;;x
+city_baron_thracian_group;Magistrate;;;;;;;;;;;;;x
+city_baron_female_thracian_group;Magistrate;;;;;;;;;;;;;x
+city_emperor_illyrian_group;Megas Archon;;;;;;;;;;;;;x
+city_emperor_female_illyrian_group;Megas Archon;;;;;;;;;;;;;x
+city_king_illyrian_group;Eponymous Archon;;;;;;;;;;;;;x
+city_king_female_illyrian_group;Eponymous Archon;;;;;;;;;;;;;x
+city_duke_illyrian_group;Archon;;;;;;;;;;;;;x
+city_duke_female_illyrian_group;Archon;;;;;;;;;;;;;x
+city_count_illyrian_group;Politarch;;;;;;;;;;;;;x
+city_count_female_illyrian_group;Politarch;;;;;;;;;;;;;x
+city_baron_illyrian_group;Magistrate;;;;;;;;;;;;;x
+city_baron_female_illyrian_group;Magistrate;;;;;;;;;;;;;x
+city_emperor_hellenic;Megas Archon;;;;;;;;;;;;;x
+city_emperor_female_hellenic;Megas Archon;;;;;;;;;;;;;x
+city_king_hellenic;Eponymous Archon;;;;;;;;;;;;;x
+city_king_female_hellenic;Eponymous Archon;;;;;;;;;;;;;x
+city_duke_hellenic;Archon;;;;;;;;;;;;;x
+city_duke_female_hellenic;Archon;;;;;;;;;;;;;x
+city_count_hellenic;Politarch;;;;;;;;;;;;;x
+city_count_female_hellenic;Politarch;;;;;;;;;;;;;x
+city_baron_hellenic;Magistrate;;;;;;;;;;;;;x
+city_baron_female_hellenic;Magistrate;;;;;;;;;;;;;x
+temple_emperor_thracian_group;Megas Oracle;;;;;;;;;;;;;x
+temple_emperor_female_thracian_group;Megas Oracle;;;;;;;;;;;;;x
+temple_king_thracian_group;Basileus;;;;;;;;;;;;;x
+temple_king_female_thracian_group;Basileia;;;;;;;;;;;;;x
+temple_duke_thracian_group;Autokrator;;;;;;;;;;;;;x
+temple_duke_female_thracian_group;Autokrator;;;;;;;;;;;;;x
+temple_count_thracian_group;Politarch;;;;;;;;;;;;;x
+temple_count_female_thracian_group;Politarch;;;;;;;;;;;;;x
+temple_baron_thracian_group;Oracle;;;;;;;;;;;;;x
+temple_baron_female_thracian_group;Oracle;;;;;;;;;;;;;x
+temple_emperor_illyrian_group;Megas Oracle;;;;;;;;;;;;;x
+temple_emperor_female_illyrian_group;Megas Oracle;;;;;;;;;;;;;x
+temple_king_illyrian_group;Basileus;;;;;;;;;;;;;x
+temple_king_female_illyrian_group;Basileia;;;;;;;;;;;;;x
+temple_duke_illyrian_group;Autokrator;;;;;;;;;;;;;x
+temple_duke_female_illyrian_group;Autokrator;;;;;;;;;;;;;x
+temple_count_illyrian_group;Politarch;;;;;;;;;;;;;x
+temple_count_female_illyrian_group;Politarch;;;;;;;;;;;;;x
+temple_baron_illyrian_group;Oracle;;;;;;;;;;;;;x
+temple_baron_female_illyrian_group;Oracle;;;;;;;;;;;;;x
+temple_emperor_hellenic;Megas Oracle;;;;;;;;;;;;;x
+temple_emperor_female_hellenic;Megas Oracle;;;;;;;;;;;;;x
+temple_king_hellenic;Basileus;;;;;;;;;;;;;x
+temple_king_female_hellenic;Basileia;;;;;;;;;;;;;x
+temple_duke_hellenic;Autokrator;;;;;;;;;;;;;x
+temple_duke_female_hellenic;Autokrator;;;;;;;;;;;;;x
+temple_count_hellenic;Politarch;;;;;;;;;;;;;x
+temple_count_female_hellenic;Politarch;;;;;;;;;;;;;x
+temple_baron_hellenic;Oracle;;;;;;;;;;;;;x
+temple_baron_female_hellenic;Oracle;;;;;;;;;;;;;x
+
+# Greek Special Holding Names
+empire_of_thracian_group;Polis;;;;;;;;;;;;;x
+empire_thracian_group;Polis;;;;;;;;;;;;;x
+kingdom_of_thracian_group;Polis;;;;;;;;;;;;;x
+kingdom_thracian_group;Polis;;;;;;;;;;;;;x
+duchy_of_thracian_group;Polis;;;;;;;;;;;;;x
+duchy_thracian_group;Polis;;;;;;;;;;;;;x
+county_of_thracian_group;Polis;;;;;;;;;;;;;x
+county_thracian_group;Polis;;;;;;;;;;;;;x
+barony_of_thracian_group;Polis;;;;;;;;;;;;;x
+barony_thracian_group;Polis;;;;;;;;;;;;;x
+empire_of_illyrian_group;Polis;;;;;;;;;;;;;x
+empire_illyrian_group;Polis;;;;;;;;;;;;;x
+kingdom_of_illyrian_group;Polis;;;;;;;;;;;;;x
+kingdom_illyrian_group;Polis;;;;;;;;;;;;;x
+duchy_of_illyrian_group;Polis;;;;;;;;;;;;;x
+duchy_illyrian_group;Polis;;;;;;;;;;;;;x
+county_of_illyrian_group;Polis;;;;;;;;;;;;;x
+county_illyrian_group;Polis;;;;;;;;;;;;;x
+barony_of_illyrian_group;Polis;;;;;;;;;;;;;x
+barony_illyrian_group;Polis;;;;;;;;;;;;;x
+empire_of_hellenic;Polis;;;;;;;;;;;;;x
+empire_hellenic;Polis;;;;;;;;;;;;;x
+kingdom_of_hellenic;Polis;;;;;;;;;;;;;x
+kingdom_hellenic;Polis;;;;;;;;;;;;;x
+duchy_of_hellenic;Polis;;;;;;;;;;;;;x
+duchy_hellenic;Polis;;;;;;;;;;;;;x
+county_of_hellenic;Polis;;;;;;;;;;;;;x
+county_hellenic;Polis;;;;;;;;;;;;;x
+barony_hellenic;Polis;;;;;;;;;;;;;x
+barony_of_hellenic;Polis;;;;;;;;;;;;;x
+
+city_empire_of_thracian_group;Polis;;;;;;;;;;;;;x
+city_empire_thracian_group;Polis;;;;;;;;;;;;;x
+city_kingdom_of_thracian_group;Polis;;;;;;;;;;;;;x
+city_kingdom_thracian_group;Polis;;;;;;;;;;;;;x
+city_duchy_of_thracian_group;Polis;;;;;;;;;;;;;x
+city_duchy_thracian_group;Polis;;;;;;;;;;;;;x
+city_county_of_thracian_group;Polis;;;;;;;;;;;;;x
+city_county_thracian_group;Polis;;;;;;;;;;;;;x
+city_barony_of_thracian_group;Polis;;;;;;;;;;;;;x
+city_barony_thracian_group;Polis;;;;;;;;;;;;;x
+city_empire_of_illyrian_group;Polis;;;;;;;;;;;;;x
+city_empire_illyrian_group;Polis;;;;;;;;;;;;;x
+city_kingdom_of_illyrian_group;Polis;;;;;;;;;;;;;x
+city_kingdom_illyrian_group;Polis;;;;;;;;;;;;;x
+city_duchy_of_illyrian_group;Polis;;;;;;;;;;;;;x
+city_duchy_illyrian_group;Polis;;;;;;;;;;;;;x
+city_county_of_illyrian_group;Polis;;;;;;;;;;;;;x
+city_county_illyrian_group;Polis;;;;;;;;;;;;;x
+city_barony_of_illyrian_group;Polis;;;;;;;;;;;;;x
+city_barony_illyrian_group;Polis;;;;;;;;;;;;;x
+city_empire_of_hellenic;Polis;;;;;;;;;;;;;x
+city_empire_hellenic;Polis;;;;;;;;;;;;;x
+city_kingdom_of_hellenic;Polis;;;;;;;;;;;;;x
+city_kingdom_hellenic;Polis;;;;;;;;;;;;;x
+city_duchy_of_hellenic;Polis;;;;;;;;;;;;;x
+city_duchy_hellenic;Polis;;;;;;;;;;;;;x
+city_county_of_hellenic;Polis;;;;;;;;;;;;;x
+city_county_hellenic;Polis;;;;;;;;;;;;;x
+city_barony_hellenic;Polis;;;;;;;;;;;;;x
+city_barony_of_hellenic;Polis;;;;;;;;;;;;;x
+
+temple_empire_thracian_group;Naos;;;;;;;;;;;;;x
+temple_empire_of_thracian_group;Naos;;;;;;;;;;;;;x
+temple_kingdom_thracian_group;Naos;;;;;;;;;;;;;x
+temple_kingdom_of_thracian_group;Naos;;;;;;;;;;;;;x
+temple_duchy_thracian_group;Naos;;;;;;;;;;;;;x
+temple_duchy_of_thracian_group;Naos;;;;;;;;;;;;;x
+temple_county_thracian_group;Naos;;;;;;;;;;;;;x
+temple_county_of_thracian_group;Naos;;;;;;;;;;;;;x
+temple_barony_thracian_group;Naos;;;;;;;;;;;;;x
+temple_barony_of_thracian_group;Naos;;;;;;;;;;;;;x
+temple_empire_illyrian_group;Naos;;;;;;;;;;;;;x
+temple_empire_of_illyrian_group;Naos;;;;;;;;;;;;;x
+temple_kingdom_illyrian_group;Naos;;;;;;;;;;;;;x
+temple_kingdom_of_illyrian_group;Naos;;;;;;;;;;;;;x
+temple_duchy_illyrian_group;Naos;;;;;;;;;;;;;x
+temple_duchy_of_illyrian_group;Naos;;;;;;;;;;;;;x
+temple_county_illyrian_group;Naos;;;;;;;;;;;;;x
+temple_county_of_illyrian_group;Naos;;;;;;;;;;;;;x
+temple_barony_illyrian_group;Naos;;;;;;;;;;;;;x
+temple_barony_of_illyrian_group;Naos;;;;;;;;;;;;;x
+temple_empire_hellenic;Naos;;;;;;;;;;;;;x
+temple_empire_of_hellenic;Naos;;;;;;;;;;;;;x
+temple_kingdom_hellenic;Naos;;;;;;;;;;;;;x
+temple_kingdom_of_hellenic;Naos;;;;;;;;;;;;;x
+temple_duchy_hellenic;Naos;;;;;;;;;;;;;x
+temple_duchy_of_hellenic;Naos;;;;;;;;;;;;;x
+temple_county_hellenic;Naos;;;;;;;;;;;;;x
+temple_county_of_hellenic;Naos;;;;;;;;;;;;;x
+temple_barony_hellenic;Naos;;;;;;;;;;;;;x
+temple_barony_of_hellenic;Naos;;;;;;;;;;;;;x

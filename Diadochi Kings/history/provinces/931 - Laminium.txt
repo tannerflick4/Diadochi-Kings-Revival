@@ -7,11 +7,11 @@ title = c_laminium
 max_settlements = 4
 b_laminium_laminium = tribal
 #b_alaba_laminium = city
-#b_ad_murum_laminium = castle
-#b_caput_anae_laminium = castle
+#b_ad_murum_laminium = city
+#b_caput_anae_laminium = city
 #b_mentesa_laminium = temple
-#b_mariana_laminium = castle
-#b_ad_turres_laminium = castle
+#b_mariana_laminium = city
+#b_ad_turres_laminium = city
 
 # Misc
 culture = celtiberian

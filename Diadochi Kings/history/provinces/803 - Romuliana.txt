@@ -6,9 +6,9 @@ title = c_romuliana
 # Settlements
 max_settlements = 3
 b_romuliana_romuliana = tribal
-#b_timacum_minus_romuliana = castle
-#b_gramrianae_romuliana = castle
-#b_ulmo_romuliana = castle
+#b_timacum_minus_romuliana = city
+#b_gramrianae_romuliana = city
+#b_ulmo_romuliana = city
 #b_cametas_romuliana = temple
 #b_dasminium_romuliana = city
 #b_sarmates_romuliana = city

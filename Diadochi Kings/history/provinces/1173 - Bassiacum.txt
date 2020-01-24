@@ -7,9 +7,9 @@ title = c_bassiacum
 max_settlements = 5
 b_bassiacum_bassiacum = tribal
 #b_fines_bassiacum = city
-#b_lepediaco_bassiacum = castle
+#b_lepediaco_bassiacum = city
 #b_galliaco_bassiacum = city
-#b_maranavas_bassiacum = castle
+#b_maranavas_bassiacum = city
 #b_mauringus_bassiacum = temple
 #b_satiago_bassiacum = city
 

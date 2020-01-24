@@ -7,9 +7,9 @@ title = c_corduba
 max_settlements = 5
 b_corduba_corduba = tribal
 #b_carbula_corduba = city
-#b_ad_decumum_corduba = castle
+#b_ad_decumum_corduba = city
 #b_onuba_corduba = city
-#b_sacili_corduba = castle
+#b_sacili_corduba = city
 b_epora_corduba = temple
 #b_mellara_corduba = city
 

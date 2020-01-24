@@ -5,11 +5,11 @@ title = c_napata
 
 # Settlements
 max_settlements = 6
-b_napata_napata = castle
+b_napata_napata = city
 b_cortum_napata = temple
 b_mambli_napata = city
 b_dumana_napata = city
-b_pago_napata = castle
+b_pago_napata = city
 b_zamnes_napata = city
 
 # Misc

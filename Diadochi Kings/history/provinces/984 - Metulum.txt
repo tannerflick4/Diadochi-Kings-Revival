@@ -6,12 +6,12 @@ title = c_metulum
 # Settlements
 max_settlements = 3
 b_metulum_metulum = tribal
-#b_terponus_metulum = castle
+#b_terponus_metulum = city
 #b_raetinium_metulum = city
 #b_monetium_metulum = temple
-#b_avendo_metulum = castle
+#b_avendo_metulum = city
 #b_arupium_metulum = city
-#b_epidotium_metulum = castle
+#b_epidotium_metulum = city
 
 # Misc
 culture = illyrian

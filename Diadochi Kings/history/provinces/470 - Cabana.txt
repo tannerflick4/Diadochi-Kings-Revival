@@ -7,7 +7,7 @@ title = c_cabana
 max_settlements = 3
 b_cabana_cabana = tribal
 #b_sarcoa_cabana = city
-#b_thiogar_cabana = castle
+#b_thiogar_cabana = city
 
 # Misc
 culture = arabic

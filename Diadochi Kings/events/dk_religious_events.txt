@@ -1,0 +1,480 @@
+namespace = sync_faith_events
+character_event = {
+	id = sync_faith_events.1
+	desc = EVTDESCsync_faith_events.1
+	picture = GFX_evt_crusaders
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAsync_faith_events.1
+		trigger = {
+			has_character_flag = sync1
+			NOT = { religion = kemetic }
+		}
+		add_character_modifier = {
+			name = mod_sync_kemetic
+			duration = -1
+		}
+		clr_character_flag = sync1
+	}
+	option = {
+		name = EVTOPTBsync_faith_events.1
+		trigger = {
+			has_character_flag = sync1
+			NOT = { religion = atenist }
+		}
+		add_character_modifier = {
+			name = mod_sync_atenist
+			duration = -1
+		}
+		clr_character_flag = sync1
+	}
+	option = {
+		name = EVTOPTCsync_faith_events.1
+		trigger = {
+			has_character_flag = sync1
+			NOT = { religion = greco_kemetic }
+		}
+		add_character_modifier = {
+			name = mod_sync_greco_kemetic
+			duration = -1
+		}
+		clr_character_flag = sync1
+	}
+	option = {
+		name = EVTOPTDsync_faith_events.1
+		trigger = {
+			has_character_flag = sync2
+			NOT = { religion = berber_main }
+		}
+		add_character_modifier = {
+			name = mod_sync_berber_main
+			duration = -1
+		}
+		clr_character_flag = sync2
+	}
+	option = {
+		name = EVTOPTEsync_faith_events.1
+		trigger = {
+			has_character_flag = sync2
+			NOT = { religion = illyrian_main }
+		}
+		add_character_modifier = {
+			name = mod_sync_illyrian_main
+			duration = -1
+		}
+		clr_character_flag = sync2
+	}
+	option = {
+		name = EVTOPTFsync_faith_events.1
+		trigger = {
+			has_character_flag = sync3
+			NOT = { religion = thracian_main }
+		}
+		add_character_modifier = {
+			name = mod_sync_thracian_main
+			duration = -1
+		}
+		clr_character_flag = sync3
+	}
+	option = {
+		name = EVTOPTGsync_faith_events.1
+		trigger = {
+			has_character_flag = sync3
+			NOT = { religion = zalmoxism }
+		}
+		add_character_modifier = {
+			name = mod_sync_zalmoxism
+			duration = -1
+		}
+		clr_character_flag = sync3
+	}
+	option = {
+		name = EVTOPTHsync_faith_events.1
+		trigger = {
+			has_character_flag = sync3
+			NOT = { religion = celtic_main }
+		}
+		add_character_modifier = {
+			name = mod_sync_celtic_main
+			duration = -1
+		}
+		clr_character_flag = sync3
+	}
+	option = {
+		name = EVTOPTIsync_faith_events.1
+		trigger = {
+			has_character_flag = sync4
+			NOT = { religion = punic_main }
+		}
+		add_character_modifier = {
+			name = mod_sync_punic_main
+			duration = -1
+		}
+		clr_character_flag = sync4
+	}
+	option = {
+		name = EVTOPTJsync_faith_events.1
+		trigger = {
+			has_character_flag = sync4
+			NOT = { religion = canaanite_main }
+		}
+		add_character_modifier = {
+			name = mod_sync_canaanite_main
+			duration = -1
+		}
+		clr_character_flag = sync4
+	}
+	option = {
+		name = EVTOPTKsync_faith_events.1
+		trigger = {
+			has_character_flag = sync4
+			NOT = { religion = zoroastrian_main }
+		}
+		add_character_modifier = {
+			name = mod_sync_zoroastrian_main
+			duration = -1
+		}
+		clr_character_flag = sync4
+	}
+	option = {
+		name = EVTOPTLsync_faith_events.1
+		trigger = {
+			has_character_flag = sync5
+			NOT = { religion = zurvanism }
+		}
+		add_character_modifier = {
+			name = mod_sync_zurvanism
+			duration = -1
+		}
+		clr_character_flag = sync5
+	}
+	option = {
+		name = EVTOPTMsync_faith_events.1
+		trigger = {
+			has_character_flag = sync5
+			NOT = { religion = scythian_main }
+		}
+		add_character_modifier = {
+			name = mod_sync_scythian_main
+			duration = -1
+		}
+		clr_character_flag = sync5
+	}
+	option = {
+		name = EVTOPTNsync_faith_events.1
+		trigger = {
+			has_character_flag = sync5
+			NOT = { religion = armenian_main }
+		}
+		add_character_modifier = {
+			name = mod_sync_armenian_main
+			duration = -1
+		}
+		clr_character_flag = sync5
+	}
+	option = {
+		name = EVTOPTOsync_faith_events.1
+		trigger = {
+			has_character_flag = sync6
+			NOT = { religion = judaism_main }
+		}
+		add_character_modifier = {
+			name = mod_sync_judaism_main
+			duration = -1
+		}
+		clr_character_flag = sync6
+	}
+	option = {
+		name = EVTOPTPsync_faith_events.1
+		trigger = {
+			has_character_flag = sync6
+			NOT = { religion = hinduism_main }
+		}
+		add_character_modifier = {
+			name = mod_sync_hinduism_main
+			duration = -1
+		}
+		clr_character_flag = sync6
+	}
+	option = {
+		name = EVTOPTQsync_faith_events.1
+		trigger = {
+			has_character_flag = sync6
+			NOT = { religion = jainism_main }
+		}
+		add_character_modifier = {
+			name = mod_sync_jainism_main
+			duration = -1
+		}
+		clr_character_flag = sync6
+	}
+	option = {
+		name = EVTOPTRsync_faith_events.1
+		trigger = {
+			has_character_flag = sync7
+			NOT = { religion = buddhism_main }
+		}
+		add_character_modifier = {
+			name = mod_sync_buddhism_main
+			duration = -1
+		}
+		clr_character_flag = sync7
+	}
+	option = {
+		name = EVTOPTSsync_faith_events.1
+		trigger = {
+			has_character_flag = sync7
+			NOT = { religion = georgian_main }
+		}
+		add_character_modifier = {
+			name = mod_sync_georgian_main
+			duration = -1
+		}
+		clr_character_flag = sync7
+	}
+	option = {
+		name = EVTOPTTsync_faith_events.1
+		trigger = {
+			has_character_flag = sync7
+			NOT = { religion = anatolian_main }
+		}
+		add_character_modifier = {
+			name = mod_sync_anatolian_main
+			duration = -1
+		}
+		clr_character_flag = sync7
+	}
+	option = {
+		name = EVTOPTUsync_faith_events.1
+		trigger = {
+			has_character_flag = sync8
+			NOT = { religion = phrygian_main }
+		}
+		add_character_modifier = {
+			name = mod_sync_phrygian_main
+			duration = -1
+		}
+		clr_character_flag = sync8
+	}
+	option = {
+		name = EVTOPTVsync_faith_events.1
+		trigger = {
+			has_character_flag = sync8
+			NOT = { religion = marduk_cult }
+		}
+		add_character_modifier = {
+			name = mod_sync_marduk_cult
+			duration = -1
+		}
+	}
+	option = {
+		name = EVTOPTWsync_faith_events.1
+		trigger = {
+			has_character_flag = sync8
+			NOT = { religion = arabic_main }
+		}
+		add_character_modifier = {
+			name = mod_sync_arabic_main
+			duration = -1
+		}
+		clr_character_flag = sync8
+	}
+	option = {
+		name = EVTOPTXsync_faith_events.1
+		trigger = {
+			has_character_flag = sync9
+			NOT = { religion = greek_main }
+		}
+		add_character_modifier = {
+			name = mod_sync_greek_main
+			duration = -1
+		}
+		clr_character_flag = sync9
+	}
+	option = {
+		name = EVTOPTYsync_faith_events.1
+		trigger = {
+			has_character_flag = sync9
+			NOT = { religion = roman_main }
+		}
+		add_character_modifier = {
+			name = mod_sync_roman_main
+			duration = -1
+		}
+		clr_character_flag = sync9
+	}
+	option = {
+		name = EVTOPTZsync_faith_events.1
+		trigger = {
+			has_character_flag = sync9
+			NOT = { religion = pontic_main }
+		}
+		add_character_modifier = {
+			name = mod_sync_pontic_main
+			duration = -1
+		}
+		clr_character_flag = sync9
+	}
+	option = {
+		name = EVTOPTAAsync_faith_events.1
+		trigger = {
+			has_character_flag = sync10
+			NOT = { religion = etruscan_main }
+		}
+		add_character_modifier = {
+			name = mod_sync_etruscan_main
+			duration = -1
+		}
+		clr_character_flag = sync10
+	}
+	option = {
+		name = EVTOPTABsync_faith_events.1
+		trigger = {
+			has_character_flag = sync10
+			NOT = { religion = dravidian_main }
+		}
+		add_character_modifier = {
+			name = mod_sync_dravidian_main
+			duration = -1
+		}
+		clr_character_flag = sync10
+	}
+	option = {
+		name = EVTOPTACsync_faith_events.1
+		trigger = {
+			has_character_flag = sync10
+			NOT = { religion = lusitanian_main }
+		}
+		add_character_modifier = {
+			name = mod_sync_lusitanian_main
+			duration = -1
+		}
+		clr_character_flag = sync10
+	}
+	option = {
+		name = EVTOPTADsync_faith_events.1
+		trigger = {
+			has_character_flag = sync11
+			NOT = { religion = iberian_main }
+		}
+		add_character_modifier = {
+			name = mod_sync_iberian_main
+			duration = -1
+		}
+		clr_character_flag = sync11
+	}
+	option = {
+		name = EVTOPTAEsync_faith_events.1
+		trigger = {
+			has_character_flag = sync11
+			NOT = { religion = aquitanian_main }
+		}
+		add_character_modifier = {
+			name = mod_sync_aquitanian_main
+			duration = -1
+		}
+		clr_character_flag = sync11
+	}
+	option = {
+		name = EVTOPTAFsync_faith_events.1
+		trigger = {
+			has_character_flag = sync11
+		}
+		clr_character_flag = sync11
+	}
+	option = {
+		name = EVTOPTZZsync_faith_events.1
+		trigger = {
+			NOT = { religion = aquitanian_main }
+		}
+		if = {
+			limit = { has_character_flag = sync1 }
+			clr_character_flag = sync1
+			set_character_flag = sync2
+			character_event = {
+				id = sync_faith_events.1
+			}
+		}
+		else_if = {
+			limit = { has_character_flag = sync2 }
+			clr_character_flag = sync2
+			set_character_flag = sync3
+			character_event = {
+				id = sync_faith_events.1
+			}
+		}
+		else_if = {
+			limit = { has_character_flag = sync3 }
+			clr_character_flag = sync3
+			set_character_flag = sync4
+			character_event = {
+				id = sync_faith_events.1
+			}
+		}
+		else_if = {
+			limit = { has_character_flag = sync4 }
+			clr_character_flag = sync4
+			set_character_flag = sync5
+			character_event = {
+				id = sync_faith_events.1
+			}
+		}
+		else_if = {
+			limit = { has_character_flag = sync5 }
+			clr_character_flag = sync5
+			set_character_flag = sync6
+			character_event = {
+				id = sync_faith_events.1
+			}
+		}
+		else_if = {
+			limit = { has_character_flag = sync6 }
+			clr_character_flag = sync6
+			set_character_flag = sync7
+			character_event = {
+				id = sync_faith_events.1
+			}
+		}
+		else_if = {
+			limit = { has_character_flag = sync7 }
+			clr_character_flag = sync7
+			set_character_flag = sync8
+			character_event = {
+				id = sync_faith_events.1
+			}
+		}
+		else_if = {
+			limit = { has_character_flag = sync8 }
+			clr_character_flag = sync8
+			set_character_flag = sync9
+			character_event = {
+				id = sync_faith_events.1
+			}
+		}
+		else_if = {
+			limit = { has_character_flag = sync9 }
+			clr_character_flag = sync9
+			set_character_flag = sync10
+			character_event = {
+				id = sync_faith_events.1
+			}
+		}
+		else_if = {
+			limit = { has_character_flag = sync10 }
+			clr_character_flag = sync10
+			set_character_flag = sync11
+			character_event = {
+				id = sync_faith_events.1
+			}
+		}
+		else_if = {
+			limit = { has_character_flag = sync11 }
+			clr_character_flag = sync11
+			set_character_flag = sync1
+			character_event = {
+				id = sync_faith_events.1
+			}
+		}
+	}
+}

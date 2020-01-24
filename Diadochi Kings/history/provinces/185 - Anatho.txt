@@ -5,9 +5,9 @@ title = c_anatho
 
 # Settlements
 max_settlements = 3
-b_anatho_anatho = castle
+b_anatho_anatho = city
 b_haradu_anatho = city
-b_biblada_anatho = castle
+b_biblada_anatho = city
 
 # Misc
 culture = aramaic

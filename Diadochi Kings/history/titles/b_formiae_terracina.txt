@@ -1,10 +1,8 @@
 #Echoes Family - Pubililii
-390.1.1 = {
-	holder = 172601
-}
-475.1.1 = {
-	holder = 172602
-}
-506.1.1 = {
-	holder = 172603
-}
+345.1.1={holder=172601} #Oppius[17027]
+371.06.22={holder=172602} #Aesopus[17027]
+404.07.29={holder=172609} #Regillus[17027]
+412.06.15={holder=172617} #Aesopus[17027]
+447.12.11={holder=172619} #Ennius[17027]
+484.07.30={holder=172625} #Turpilius[17027]
+507.04.08={holder=172627} #Volusius[17027]

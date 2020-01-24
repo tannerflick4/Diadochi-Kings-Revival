@@ -5,9 +5,9 @@ title = c_sankadara
 
 # Settlements
 max_settlements = 3
-b_sankadara_sankadara = castle
+b_sankadara_sankadara = city
 b_antardwipa_sankadara = city
-b_kanthi_sankadara = castle
+b_kanthi_sankadara = city
 
 # Misc
 culture = shauraseni

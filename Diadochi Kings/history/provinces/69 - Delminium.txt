@@ -6,12 +6,12 @@ title = c_delminium # for example c_corinth
 # Settlements
 max_settlements = 4
 b_delminium_delminium = tribal
-#b_ad_libros_delminium = castle
+#b_ad_libros_delminium = city
 #b_bistua_vetus_delminium = city
-#b_in_monte_bulsinio_delminium = castle
+#b_in_monte_bulsinio_delminium = city
 #b_osinium_delminium = temple
-#b_ad_matricem_delminium = castle
-#b_trono_delminium = castle
+#b_ad_matricem_delminium = city
+#b_trono_delminium = city
 
 # Misc
 culture = illyrian

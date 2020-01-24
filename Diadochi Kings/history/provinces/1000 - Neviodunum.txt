@@ -6,10 +6,10 @@ title = c_neviodunum
 # Settlements
 max_settlements = 3
 b_neviodunum_neviodunum = tribal
-#b_in_alpe_iulia_neviodunum = castle
+#b_in_alpe_iulia_neviodunum = city
 #b_longaticum_neviodunum = city
-#b_acervo_neviodunum = castle
-#b_praetorium_latobicorum_neviodunum = castle
+#b_acervo_neviodunum = city
+#b_praetorium_latobicorum_neviodunum = city
 #b_crucium_neviodunum = city
 #b_romula_neviodunum = city
 

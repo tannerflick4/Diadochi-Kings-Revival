@@ -5,10 +5,10 @@ title = c_pappa
 
 # Settlements
 max_settlements = 4
-b_pappa_pappa = castle
+b_pappa_pappa = city
 b_anaboura_pappa = city
 #b_neapolis_pappa = city
-#b_antiocheia_pappa = castle
+#b_antiocheia_pappa = city
 
 # Misc
 culture = luwian

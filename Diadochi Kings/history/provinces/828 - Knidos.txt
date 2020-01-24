@@ -5,11 +5,11 @@ title = c_knidos
 
 # Settlements
 max_settlements = 5
-b_knidos_knidos = castle
+b_knidos_knidos = city
 b_kaunos_knidos = city
 b_syme_knidos = temple
 b_pisillis_knidos = city
-b_pasanda_knidos = castle
+b_pasanda_knidos = city
 
 # Misc
 culture = doric

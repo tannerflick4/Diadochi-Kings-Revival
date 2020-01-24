@@ -5,7 +5,7 @@ title = c_paphos
 
 # Settlements
 max_settlements = 4
-b_paphos_paphos = castle 
+b_paphos_paphos = city 
 b_soloi_paphos = city
 b_kourion_paphos = city
 

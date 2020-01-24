@@ -8,10 +8,10 @@ max_settlements = 4
 b_scarbantia_scarbantia = tribal
 b_vertoracum_scarbantia = temple
 #b_muteno_scarbantia = city
-#b_ala_nova_scarbantia = castle
+#b_ala_nova_scarbantia = city
 #b_aquae_scarbantia = city
 #b_hehale_scarbantia = temple
-#b_lussomana_scarbantia = castle
+#b_lussomana_scarbantia = city
 
 # Misc
 culture = gaul

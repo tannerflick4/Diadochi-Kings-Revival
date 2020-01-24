@@ -10,8 +10,8 @@ b_durostorum_durostorum = tribal
 #b_sucidava_durostorum = city
 #b_sacidava_durostorum = city
 #b_altinum_durostorum = temple
-#b_tegulitium_durostorum = castle
-#b_palmatis_durostorum = castle
+#b_tegulitium_durostorum = city
+#b_palmatis_durostorum = city
 
 # Misc
 culture = thracian

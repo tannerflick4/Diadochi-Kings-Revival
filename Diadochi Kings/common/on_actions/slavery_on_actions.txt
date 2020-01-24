@@ -1,0 +1,22 @@
+on_decade_pulse = {
+	events = {
+		slavery_mt_events.1
+	}
+}
+on_birth = {
+	events = {
+		slavery_mt_events.2
+	}
+}
+on_yearly_pulse = {
+	random_events = {
+		1000 = 0
+		100 = slavery_events.2
+		100 = slavery_events.21
+		100 = slavery_events.22
+		100 = slavery_events.23
+		100 = slavery_events.24
+		100 = slavery_events.25
+		100 = slavery_events.3
+	}
+}

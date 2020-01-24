@@ -5,10 +5,10 @@ title = c_beersheba
 
 # Settlements
 max_settlements = 4
-b_beersheba_beersheba = castle
+b_beersheba_beersheba = city
 b_betomolachon_beersheba = temple
 b_elousa_beersheba = city
-b_mampsis_beersheba = castle
+b_mampsis_beersheba = city
 
 # Misc
 culture = israelite

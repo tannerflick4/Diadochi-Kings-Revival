@@ -1,13 +1,13 @@
 426.1.1 = {
-	holder = 803	
+	holder = 803 # Philip II
 	law = succ_tanistry
 	law = agnatic_succession
 }
 440.10.1 = {
-	holder = 802
+	holder = 802 # Alexandros III
 }
 453.6.10 = {
-	holder = 801
+	holder = 801 # Philip III
 }
 459.12.25 = {
 	holder = 808 # Alexandros IV

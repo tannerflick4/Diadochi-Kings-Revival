@@ -5,7 +5,7 @@ title = c_ebusos
 
 # Settlements
 max_settlements = 1
-b_ibossim_ebusos = castle
+b_ibossim_ebusos = city
 
 # Misc
 culture = punic

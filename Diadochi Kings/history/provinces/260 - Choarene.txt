@@ -5,9 +5,9 @@ title = c_choarene
 
 # Settlements
 max_settlements = 3
-b_choana_choarene = castle
+b_choana_choarene = city
 b_canatha_choarene = city
-b_simpsimidi_choarene = castle
+b_simpsimidi_choarene = city
 
 # Misc
 culture = parthian

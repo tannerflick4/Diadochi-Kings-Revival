@@ -5,12 +5,12 @@ title = c_heracleia_sicily # for example c_corinth
 
 # Settlements
 max_settlements = 3
-b_heracleia_heracleia_sicily = castle
+b_heracleia_heracleia_sicily = city
 b_siris_heracleia_sicily = city
-b_lagaria_heracleia_sicily = castle
-#b_pandosia_heracleia_sicily = castle
+b_lagaria_heracleia_sicily = city
+#b_pandosia_heracleia_sicily = city
 #b_arciade_heracleia_sicily = city
-#b_ad_mallias_heracleia_sicily = castle
+#b_ad_mallias_heracleia_sicily = city
 #b_taurianum_heracleia_sicily = temple
 
 # Misc

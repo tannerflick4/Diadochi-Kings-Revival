@@ -7,8 +7,8 @@ title = c_diema
 max_settlements = 4
 b_diema_diema = tribal
 #b_drobeta_diema = city
-#b_tapae_diema = castle
-#b_banita_diema = castle
+#b_tapae_diema = city
+#b_banita_diema = city
 
 # Misc
 culture = dacian

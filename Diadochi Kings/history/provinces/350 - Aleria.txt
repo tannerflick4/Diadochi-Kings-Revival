@@ -6,7 +6,7 @@ title = c_aleria # for example c_corinth
 # Settlements
 max_settlements = 3
 b_clunium_aleria = city
-b_aleria_aleria = castle
+b_aleria_aleria = city
 b_mariana_aleria = temple
 
 # Misc

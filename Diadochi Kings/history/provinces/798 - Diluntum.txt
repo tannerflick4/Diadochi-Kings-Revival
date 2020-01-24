@@ -6,11 +6,11 @@ title = c_diluntum
 # Settlements
 max_settlements = 3
 b_diluntum_diluntum = tribal
-#b_daorson_diluntum = castle
+#b_daorson_diluntum = city
 #b_ad_turres_diluntum = city
 #b_anderva_diluntum = city
-#b_ad_zizio_diluntum = castle
-#b_ustikolina_diluntum = castle
+#b_ad_zizio_diluntum = city
+#b_ustikolina_diluntum = city
 #b_visici_diluntum = city
 
 # Misc

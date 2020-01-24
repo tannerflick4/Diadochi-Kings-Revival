@@ -6,11 +6,11 @@ title = c_salinae
 # Settlements
 max_settlements = 4
 b_salinae_salinae = tribal
-#b_ris_salinae = castle
+#b_ris_salinae = city
 #b_aquae_sulphurae_salinae = city
-#b_hedum_castellum_salinae = castle
+#b_hedum_castellum_salinae = city
 #b_ad_drinum_salinae = temple
-#b_sase_salinae = castle
+#b_sase_salinae = city
 #b_drinum_salinae = city
 
 # Misc

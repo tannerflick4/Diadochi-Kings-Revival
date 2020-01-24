@@ -10,8 +10,8 @@ b_munigua_munigua = tribal
 #b_canama_munigua = city
 #b_arva_munigua = city
 #b_axati_munigua = city
-#b_celti_munigua = castle
-#b_iporca_munigua = castle
+#b_celti_munigua = city
+#b_iporca_munigua = city
 
 # Misc
 culture = turdetanian

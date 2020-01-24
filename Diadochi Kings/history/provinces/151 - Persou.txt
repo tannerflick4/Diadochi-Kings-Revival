@@ -5,7 +5,7 @@ title = c_persou
 
 # Settlements
 max_settlements = 2
-b_persou_persou = castle
+b_persou_persou = city
 b_myos_hormos = city 
 
 # Misc

@@ -5,10 +5,10 @@ title = c_aizanoi
 
 # Settlements
 max_settlements = 4
-b_aizanoi_aizanoi = castle
+b_aizanoi_aizanoi = city
 b_aliana_aizanoi = city
 b_palox_aizanoi = city
-b_kotiaion_aizanoi = castle
+b_kotiaion_aizanoi = city
 
 # Misc
 culture = phrygian

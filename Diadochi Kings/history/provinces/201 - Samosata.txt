@@ -5,7 +5,7 @@ title = c_samosata
 
 # Settlements
 max_settlements = 5
-b_tharsa_samosata = castle
+b_tharsa_samosata = city
 b_perre_samosata = temple
 b_charmodara_samosata = city
 

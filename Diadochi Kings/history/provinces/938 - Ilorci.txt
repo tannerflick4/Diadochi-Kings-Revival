@@ -7,11 +7,11 @@ title = c_ilorci
 max_settlements = 3
 b_ilorci_ilorci = tribal
 #b_segisa_ilorci = city
-#b_ilounon_ilorci = castle
+#b_ilounon_ilorci = city
 #b_elotana_ilorci = city
 #b_mellaria_ilorci = temple
 #b_baesippo_ilorci = city
-#b_ad_herculem_ilorci = castle
+#b_ad_herculem_ilorci = city
 
 # Misc
 culture = iberian

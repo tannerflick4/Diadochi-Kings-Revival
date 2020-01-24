@@ -41,3 +41,5 @@
 	# 233901-234000 for the Lepontii dynasty
 	# 234001-234100 for the Cenomani dynasty
 	# 234101-234200 for the Lingones dynasty
+	# 234201-234300 for the Osismii dynasty
+	# 234301-234400 for the Veneti dynasty

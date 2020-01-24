@@ -9,9 +9,9 @@ b_boii_boii = tribal
 #b_losa_boii = city
 #b_telonnum_boii = city
 #b_salomacus_boii = city
-#b_vintium_boii = castle
+#b_vintium_boii = city
 #b_orga_fons_boii = temple
-#b_semelingus_boii = castle
+#b_semelingus_boii = city
 
 # Misc
 culture = gaul

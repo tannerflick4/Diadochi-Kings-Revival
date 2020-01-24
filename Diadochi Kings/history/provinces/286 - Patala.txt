@@ -5,7 +5,7 @@ title = c_patala
 
 # Settlements
 max_settlements = 2
-b_patala_patala = castle
+b_patala_patala = city
 b_udapana_patala = city
 
 # Misc

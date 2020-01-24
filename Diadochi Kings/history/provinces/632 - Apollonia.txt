@@ -5,9 +5,9 @@ title = c_apollonia_epidamnia # for example c_corinth
 
 # Settlements
 max_settlements = 4
-b_apollonia_apollonia_epidamnia = castle
+b_apollonia_apollonia_epidamnia = city
 #b_genesis_apollonia
-b_clodiana_apollonia_epidamnia = castle
+b_clodiana_apollonia_epidamnia = city
 #b_ad_novas_apollonia
 b_apsos_apollonia_epidamnia = city
 b_stefana_apollonia_epidamnia = city

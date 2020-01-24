@@ -6,12 +6,12 @@ title = c_emona
 # Settlements
 max_settlements = 3
 b_emona_emona = tribal
-#b_fluvio_frigido_emona = castle
+#b_fluvio_frigido_emona = city
 #b_nauportus_emona = city
 #b_ad_fornulos_emona = temple
-#b_ad_nonum_emona = castle
+#b_ad_nonum_emona = city
 #b_carnium_emona = city
-#b_ad_publicanos_emona = castle
+#b_ad_publicanos_emona = city
 
 # Misc
 culture = venetic

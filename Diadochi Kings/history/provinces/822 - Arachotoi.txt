@@ -5,10 +5,10 @@ title = c_arachotoi
 
 # Settlements
 max_settlements = 5
-b_arachotoi_arachotoi = castle
+b_arachotoi_arachotoi = city
 b_parabeste_arachotoi = city
 b_ariaspe_arachotoi = city
-b_thyraii_arachotoi = castle
+b_thyraii_arachotoi = city
 b_arafaci_arachotoi = city
 
 # Misc

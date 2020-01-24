@@ -5,9 +5,9 @@ title = c_azara
 
 # Settlements
 max_settlements = 3
-b_azara_azara = castle
+b_azara_azara = city
 b_pataroue_azara = city
-b_labrys_azara = castle
+b_labrys_azara = city
 
 # Misc
 culture = ionian

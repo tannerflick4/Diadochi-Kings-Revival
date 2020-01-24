@@ -5,10 +5,10 @@ title = c_pteria # for example c_corinth
 
 # Settlements
 max_settlements = 5
-b_pteria_pteria = castle
+b_pteria_pteria = city
 b_agranai_pteria = temple
 b_sibora_pteria = city
-b_sarmalius_pteria = castle
+b_sarmalius_pteria = city
 
 # Possible baronies: (Always add a # in front of a line with these!)
 # b_tavium_pteria

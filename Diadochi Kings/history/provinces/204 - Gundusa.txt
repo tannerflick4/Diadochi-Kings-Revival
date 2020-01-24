@@ -5,10 +5,10 @@ title = c_gundusa
 
 # Settlements
 max_settlements = 4
-b_gundusa_gundusa = castle
+b_gundusa_gundusa = city
 b_euspena_gundusa = temple
 b_argaous_gundusa = city
-b_zoana_gundusa = castle
+b_zoana_gundusa = city
 
 # Misc
 culture = cappadocian

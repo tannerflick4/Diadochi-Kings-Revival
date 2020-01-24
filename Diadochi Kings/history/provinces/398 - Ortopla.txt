@@ -9,8 +9,8 @@ b_ortopla_ortopla = tribal
 #b_argyruntum_ortopla = city
 #b_vegium_ortopla = city
 #b_cissa_ortopla = city
-#b_arba_ortopla = castle
-#b_clambetis_ortopla = castle
+#b_arba_ortopla = city
+#b_clambetis_ortopla = city
 #b_ausancalio_ortopla = temple
 
 # Misc

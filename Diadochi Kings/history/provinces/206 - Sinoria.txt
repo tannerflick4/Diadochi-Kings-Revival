@@ -5,10 +5,10 @@ title = c_sinoria
 
 # Settlements
 max_settlements = 4
-b_sinoria_sinoria = castle
+b_sinoria_sinoria = city
 b_salmalasso_sinoria = temple
 b_darucinte_sinoria = city
-b_kaballa_sinoria = castle
+b_kaballa_sinoria = city
 
 # Misc
 culture = armenian

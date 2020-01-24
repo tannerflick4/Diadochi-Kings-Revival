@@ -5,10 +5,10 @@ title = c_oenoanda
 
 # Settlements
 max_settlements = 4
-b_oenoanda_oenoanda = castle
-b_balboura_oenoanda = castle
+b_oenoanda_oenoanda = city
+b_balboura_oenoanda = city
 b_boubon_oenoanda = city
-b_orpeena_oenoanda = castle
+b_orpeena_oenoanda = city
 
 # Misc
 culture = luwian

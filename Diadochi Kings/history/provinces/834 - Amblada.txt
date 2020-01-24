@@ -5,10 +5,10 @@ title = c_amblada
 
 # Settlements
 max_settlements = 4
-b_amblada_amblada = castle
+b_amblada_amblada = city
 b_mistea_amblada = city
 b_ouasada_amblada = city
-b_isaura_amblada = castle
+b_isaura_amblada = city
 
 # Misc
 culture = luwian

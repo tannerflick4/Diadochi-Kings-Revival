@@ -5,7 +5,7 @@ title = c_sringivera
 
 # Settlements
 max_settlements = 3
-b_sringivera_sringivera = castle
+b_sringivera_sringivera = city
 b_kasi_sringivera = city
 b_prayaga_sringivera = city
 

@@ -5,10 +5,10 @@ title = c_yavana
 
 # Settlements
 max_settlements = 4
-b_yavana_yavana = castle
-b_arigaion_yavana = castle
+b_yavana_yavana = city
+b_arigaion_yavana = city
 b_peukelaotis_yavana = city
-b_purushapura_yavana = castle
+b_purushapura_yavana = city
 
 # Misc
 culture = gandhari

@@ -23,14 +23,14 @@
 440.10.1 = {
 	holder = 802 # Alexander III
 }
-453.6.9 = {
-	holder = 0
+453.6.10 = {
+	holder = 801 # Philip III
 }
-459.1.1 = {
-	holder = 2 # Kassandros
-	liege = e_macedonia
+459.12.25 = {
+	holder = 808 # Alexander IV
 }
 467.1.1 = {
+	holder = 2 # Kassandros
 	liege = 0
 }
 479.1.1 = {

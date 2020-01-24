@@ -5,10 +5,10 @@ title = c_euaissa
 
 # Settlements
 max_settlements = 4
-b_euaissa_euaissa = castle
+b_euaissa_euaissa = city
 b_kampai_euaissa = city
-b_soanda_euaissa = castle
-b_ochras_euaissa = castle
+b_soanda_euaissa = city
+b_ochras_euaissa = city
 
 # Misc
 culture = cappadocian

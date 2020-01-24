@@ -8,6 +8,12 @@
 	417.1.1 = { # 359 BC
 		birth="yes"
 	}
+	436.1.1 = { # 340 BC
+		effect = {
+			set_government_type = merchant_republic_government
+			create_family_palace = yes
+		}
+	}
 	465.1.1 = { # 311 BC
 		death="yes"
 	}

@@ -7,11 +7,11 @@ title = c_ovilava
 max_settlements = 5
 b_ovilava_ovilava = tribal
 #b_lentia_ovilava = city
-#b_ioviacum_ovilava = castle
+#b_ioviacum_ovilava = city
 #b_stanacum_ovilava = city
-#b_batavis_ovilava = castle
+#b_batavis_ovilava = city
 #b_laciacum_ovilava = temple
-#b_tergolape_ovilava = castle
+#b_tergolape_ovilava = city
 
 # Misc
 culture = gaul

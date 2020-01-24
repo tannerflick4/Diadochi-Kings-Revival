@@ -5,9 +5,9 @@ title = c_sardis # for example c_corinth
 
 # Settlements
 max_settlements = 6
-b_sardis_sardis = castle
-b_tmolos_sardis = castle
-b_tateikome_sardis = castle
+b_sardis_sardis = city
+b_tmolos_sardis = city
+b_tateikome_sardis = city
 b_myloukome_sardis = city
 b_boukolion_sardis = city
 #b_philadelphia_sardis = city

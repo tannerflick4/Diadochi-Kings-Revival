@@ -7,11 +7,11 @@ title = c_massilia
 max_settlements = 5
 b_massilia_massilia = city
 b_immadrae_massilia = city
-#b_gargarius_massilia = castle
-#b_carsicis_massilia = castle
+#b_gargarius_massilia = city
+#b_carsicis_massilia = city
 b_citharista_massilia = city
 b_taurois_massilia = city
-#b_aemines_massilia = castle
+#b_aemines_massilia = city
 
 # Misc
 culture = ionian

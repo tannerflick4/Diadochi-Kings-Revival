@@ -5,12 +5,12 @@ title = c_apollonia # for example c_corinth
 
 # Settlements
 max_settlements = 4
-b_apollonia_apollonia = castle
+b_apollonia_apollonia = city
 b_chersonesos_apollonia = temple
 b_aulaiouleichos_apollonia = city
 #b_thynias_apollonia = city
 #b_salmydessos_apollonia = temple
-#b_scylla_apollonia = castle
+#b_scylla_apollonia = city
 
 # Misc
 culture = ionian

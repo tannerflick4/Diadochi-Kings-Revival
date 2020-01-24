@@ -6,7 +6,7 @@ title = c_sacidava
 # Settlements
 max_settlements = 3
 b_sacidava_sacidava = tribal
-#b_stenarum_sacidava = castle
+#b_stenarum_sacidava = city
 #b_sandava_sacidava = city
 
 # Misc

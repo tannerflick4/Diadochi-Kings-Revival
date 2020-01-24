@@ -5,11 +5,11 @@ title = c_pachoras
 
 # Settlements
 max_settlements = 5
-b_pachoras_pachoras = castle
+b_pachoras_pachoras = city
 b_premis_pachoras = city
 b_nalote_pachoras = city
 b_abu_simbel_pachoras = temple
-b_boon_pachoras = castle
+b_boon_pachoras = city
 
 # Misc
 culture = nubian

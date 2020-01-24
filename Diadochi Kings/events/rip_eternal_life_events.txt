@@ -1616,17 +1616,16 @@ narrative_event = {
 			limit = { trait = zealous }
 			remove_trait = zealous
 		}
-		# TODO: Handle sympathies.
-		#if = {
-		#	limit = {
-		#		FROM = { religion_group = pagan_group }
-		#		NOT = { 
-		#			trait = sympathy_pagans 
-		#			FROM = { religion_group = ROOT }
-		#		} 
-		#	}
-		#	add_trait = sympathy_pagans
-		#}
+		if = {
+			limit = {
+				FROM = { religion_group = egyptian_religion }
+				NOT = { 
+					trait = sympathy_egyptian_religion 
+					FROM = { religion_group = ROOT }
+				} 
+			}
+			add_trait = sympathy_egyptian_religion
+		}
 	}
 	#Leave for different religion
 	option = {

@@ -8,7 +8,7 @@ max_settlements = 4
 b_pelendava_pelendava = tribal
 #b_calarasi_pelendava = city
 #b_sucidava_pelendava = city
-#b_cotofeni_pelendava = castle
+#b_cotofeni_pelendava = city
 
 # Misc
 culture = dacian

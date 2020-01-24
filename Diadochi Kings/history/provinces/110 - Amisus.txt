@@ -5,11 +5,11 @@ title = c_amisus # for example c_corinth
 
 # Settlements
 max_settlements = 5
-b_amisus_amisus = castle
+b_amisus_amisus = city
 b_gadilon_amisus = temple
 b_eupatoria_amisus = city
-b_chadisia_amisus = castle
-b_ankon_amisus = castle
+b_chadisia_amisus = city
+b_ankon_amisus = city
 
 # Misc
 culture = ionian

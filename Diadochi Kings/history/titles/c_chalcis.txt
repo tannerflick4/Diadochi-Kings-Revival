@@ -9,18 +9,13 @@
 }
 451.1.1 = { # 325 BC
 	holder = 802 # Alexander
-	liege = e_macedonia
+	liege = k_macedon
 }
 453.6.10 = {
-	holder = 1
-	liege = k_s_macedon
+	holder = 801 # Philip III
 }
-457.1.1 = {
-	holder = 1601 # Polyperchon
-}
-459.9.1 = {
-	holder = 2 # Kassandros
-	liege = k_macedon
+459.12.25 = {
+	holder = 808 # Alexandros IV
 }
 463.6.1 = {
 	holder = 411 # Ptolemy, nephew of Antigonos

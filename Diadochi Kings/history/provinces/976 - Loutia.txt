@@ -6,12 +6,12 @@ title = c_loutia
 # Settlements
 max_settlements = 3
 b_loutia_loutia = tribal
-#b_segontia_loutia = castle
+#b_segontia_loutia = city
 #b_okilis_loutia = temple
-#b_cortona_loutia = castle
+#b_cortona_loutia = city
 #b_acrobriga_loutia = city
 #b_carae_loutia = city
-#b_segeda_loutia = castle
+#b_segeda_loutia = city
 
 # Misc
 culture = celtiberian

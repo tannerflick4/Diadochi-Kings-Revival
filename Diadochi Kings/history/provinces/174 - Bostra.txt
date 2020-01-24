@@ -8,7 +8,7 @@ max_settlements = 6
 b_bostra_bostra = tribal
 b_dionysias_bostra = temple
 #b_canatha_bostra = city
-#b_sounoa_bostra = castle
+#b_sounoa_bostra = city
 #b_adraha_bostra = temple
 
 # Possible baronies: (Always add a # in front of a line with these!)

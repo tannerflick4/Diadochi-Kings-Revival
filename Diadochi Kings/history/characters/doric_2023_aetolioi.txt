@@ -8,6 +8,12 @@
 	422.1.1 = { # Made up
 		birth="yes" # 354 BC
 	}
+	449.1.1 = { # 327 BC
+		effect = {
+			set_government_type = merchant_republic_government
+			create_family_palace = yes
+		}
+	}
 	478.1.1 = { # Made up
 		death="yes" # 298 BC
 	}

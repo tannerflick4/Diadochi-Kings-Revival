@@ -5,10 +5,10 @@ title = c_tarsus # for example c_corinth
 
 # Settlements
 max_settlements = 6
-b_tarsus_tarsus = castle
+b_tarsus_tarsus = city
 b_anchialeia_tarsus = temple
 b_soloi_tarsus = city
-b_podandus_tarsus = castle
+b_podandus_tarsus = city
 b_elaioussa_tarsus = city
 b_magarsa_tarsus = city
 

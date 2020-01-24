@@ -6,7 +6,7 @@ title = c_raida
 # Settlements
 max_settlements = 2
 b_raida_raida = tribal
-#b_sapphar_raida = castle
+#b_sapphar_raida = city
 
 # Misc
 culture = arabic

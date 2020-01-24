@@ -5,12 +5,12 @@ title = c_messana # for example c_corinth
 
 # Settlements
 max_settlements = 5
-b_messana_messana = castle
+b_messana_messana = city
 b_tauromenium_messana = city
 b_naxos_messana = city
 #b_naulochos_messana = city
-#b_thorax_messana = castle
-b_abakainon_messana = castle
+#b_thorax_messana = city
+b_abakainon_messana = city
 b_phoinix_messana = city
 
 # Misc

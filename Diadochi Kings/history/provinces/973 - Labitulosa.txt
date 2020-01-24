@@ -6,10 +6,10 @@ title = c_labitulosa
 # Settlements
 max_settlements = 4
 b_labitulosa_labitulosa = tribal
-#b_boletum_labitulosa = castle
+#b_boletum_labitulosa = city
 #b_tolous_labitulosa = city
 #b_mendiculeia_labitulosa = city
-#b_askerris_labitulosa = castle
+#b_askerris_labitulosa = city
 #b_victoriano_labitulosa = temple
 #b_cinca_labitulosa = city
 

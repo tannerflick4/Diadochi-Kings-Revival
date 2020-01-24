@@ -5,8 +5,8 @@ title = c_kimiatene
 
 # Settlements
 max_settlements = 4
-b_kimiata_kimiatene = castle
-b_kandara_kimiatene = castle
+b_kimiata_kimiatene = city
+b_kandara_kimiatene = city
 b_aiginetes_kimiatene = city
 b_garios_kimiatene = city
 

@@ -5,7 +5,7 @@ title = c_pharsaga
 
 # Settlements
 max_settlements = 3
-b_pharsaga_pharsaga = castle
+b_pharsaga_pharsaga = city
 b_cottabura_pharsaga = city
 b_musarna_pharsaga = temple
 

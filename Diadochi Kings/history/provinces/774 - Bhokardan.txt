@@ -5,7 +5,7 @@ title = c_bhokardan
 
 # Settlements
 max_settlements = 1
-b_bhokardan_bhokardan = castle
+b_bhokardan_bhokardan = city
 
 # Misc
 culture = maharashtri

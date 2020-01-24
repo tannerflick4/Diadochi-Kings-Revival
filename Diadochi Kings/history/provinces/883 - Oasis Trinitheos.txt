@@ -5,7 +5,7 @@ title = c_oasis_trinitheos
 
 # Settlements
 max_settlements = 2
-b_trinitheos_trinitheos = castle
+b_trinitheos_trinitheos = city
 
 # Misc
 culture = egyptian

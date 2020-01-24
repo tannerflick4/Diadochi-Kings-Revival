@@ -8,10 +8,10 @@ max_settlements = 2
 b_sebendounon_sebendounon = tribal
 #b_ramis_sebendounon = city
 #b_vilauba_sebendounon = temple
-#b_abella_sebendounon = castle
-#b_ad_fines_sebendounon = castle
+#b_abella_sebendounon = city
+#b_ad_fines_sebendounon = city
 #b_iuncaria_sebendounon = city
-#b_cinniana_sebendounon = castle
+#b_cinniana_sebendounon = city
 
 # Misc
 culture = iberian

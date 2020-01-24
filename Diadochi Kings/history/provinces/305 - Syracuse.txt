@@ -5,12 +5,12 @@ title = c_syracuse # for example c_corinth
 
 # Settlements
 max_settlements = 6
-b_syracuse_syracuse = castle
-b_ortygia_syracuse = castle
+b_syracuse_syracuse = city
+b_ortygia_syracuse = city
 b_plemmyrion_syracuse = temple
 b_thapsos_syracuse = city
 #b_hexapyla_syracuse = temple
-b_euryelos_syracuse = castle
+b_euryelos_syracuse = city
 b_leon_syracuse = city
 
 # Misc
@@ -19,4 +19,4 @@ religion = greek_main
 
 # History
 439.1.1 = { b_syracuse_syracuse = city } # 337 BC
-459.1.1 = { b_syracuse_syracuse = castle } # 317 BC
+459.1.1 = { b_syracuse_syracuse = city } # 317 BC

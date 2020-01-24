@@ -5,12 +5,12 @@ title = c_veii # for example c_corinth
 
 # Settlements
 max_settlements = 5
-b_veii_veii = castle
+b_veii_veii = city
 #b_pyrgi_veii = city
 #b_castrum_novum_veii = city
-b_caere_veii = castle
+b_caere_veii = city
 b_alsium_veii = city
-#b_sutrium_veii = castle
+#b_sutrium_veii = city
 b_falerii_veii = temple
 
 # Misc

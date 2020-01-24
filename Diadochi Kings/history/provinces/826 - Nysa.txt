@@ -5,9 +5,9 @@ title = c_nysa
 
 # Settlements
 max_settlements = 5
-b_nysa_nysa = castle
+b_nysa_nysa = city
 b_tralles_nysa = city
-b_anineta_nysa = castle
+b_anineta_nysa = city
 b_kanoura_nysa = city
 #b_tripolis_nysa = city
 

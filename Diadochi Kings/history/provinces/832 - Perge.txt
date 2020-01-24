@@ -5,11 +5,11 @@ title = c_perge
 
 # Settlements
 max_settlements = 5
-b_perge_perge = castle
+b_perge_perge = city
 b_sillyon_perge = city
 b_aspendos_perge = city
-b_pednelissos_perge = castle
-b_selge_perge = castle
+b_pednelissos_perge = city
+b_selge_perge = city
 
 # Misc
 culture = arcadian

@@ -5,7 +5,7 @@ title = c_saupamike
 
 # Settlements
 max_settlements = 2
-b_saupamike_saupamike = castle
+b_saupamike_saupamike = city
 b_olochoira_saupamike = city
 
 # Misc

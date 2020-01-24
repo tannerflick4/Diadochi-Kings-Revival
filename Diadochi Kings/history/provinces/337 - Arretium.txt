@@ -5,12 +5,12 @@ title = c_arretium # for example c_corinth
 
 # Settlements
 max_settlements = 4
-b_arretium_arretium = castle
-b_cortona_arretium = castle
-#b_perusia_arretium = castle
+b_arretium_arretium = city
+b_cortona_arretium = city
+#b_perusia_arretium = city
 #b_ad_statuas_arretium = city
 b_manliana_arretium = temple
-#b_clusium_arretium = castle
+#b_clusium_arretium = city
 b_volsinii_arretium = city
 
 # Misc

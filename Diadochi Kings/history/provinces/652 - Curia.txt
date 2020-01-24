@@ -7,7 +7,7 @@ title = c_curia
 max_settlements = 3
 b_curia_curia = tribal
 b_lapidaria_curia = temple
-#b_murus_curia = castle
+#b_murus_curia = city
 
 # Misc
 culture = raetic

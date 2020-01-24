@@ -8,7 +8,7 @@ max_settlements = 3
 b_neogilla_neogilla = tribal
 #b_ausara_neogilla = city
 #b_banum_neogilla = city
-#b_embolum_neogilla = castle
+#b_embolum_neogilla = city
 
 # Misc
 culture = arabic

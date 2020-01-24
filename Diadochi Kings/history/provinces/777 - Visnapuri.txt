@@ -5,8 +5,8 @@ title = c_visnapuri
 
 # Settlements
 max_settlements = 2
-b_visnapuri_visnapuri = castle
-b_valmika_visnapuri = castle
+b_visnapuri_visnapuri = city
+b_valmika_visnapuri = city
 
 # Misc
 culture = maharashtri

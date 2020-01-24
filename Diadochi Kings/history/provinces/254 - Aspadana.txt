@@ -5,7 +5,7 @@ title = c_aspadana
 
 # Settlements
 max_settlements = 4
-b_aspadana_aspadana = castle
+b_aspadana_aspadana = city
 b_arbua_aspadana = temple
 b_axima_aspadana = city
 b_tabae_aspadana = city

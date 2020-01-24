@@ -5,12 +5,12 @@ title = c_ainos
 
 # Settlements
 max_settlements = 4
-b_ainos_ainos = castle
+b_ainos_ainos = city
 b_deris_ainos = city
 #b_kypasis_ainos = city
 b_kobrys_ainos = temple
 #b_tiristasis_ainos = city
-#b_aphrodisias_ainos = castle
+#b_aphrodisias_ainos = city
 #b_neapolis_ainos = city
 
 # Misc

@@ -17,8 +17,7 @@ succession_laws = {
 						}
 					}
 				}
-				is_merchant_republic = no
-				is_patrician = no
+				is_tribal = yes
 				OR = {
 					independent = yes
 					NOT = {
@@ -28,32 +27,12 @@ succession_laws = {
 					}
 				}
 			}
-			OR = {
-				is_landless_type_title = no
-				is_tribal_type_title = yes
-				temporary = yes
-			}
-			
 			rebel = no
-			
-			OR = {
-				holder_scope = { is_feudal = yes }
-				holder_scope = { is_tribal = yes }
-			}
 			is_primary_type_title = no
 		}
 		allow = {
 			holder_scope = {
 				show_scope_change = no
-				OR = {
-					is_tribal = no
-					custom_tooltip = { 
-						text = TT_NOT_UNREFORMED_PAGAN
-						hidden_tooltip = {
-							has_reformed_religion_trigger = yes
-						}
-					}
-				}
 				in_revolt = no
 			}
 			conditional_tooltip = {
@@ -91,8 +70,7 @@ succession_laws = {
 						}
 					}
 				}
-				is_merchant_republic = no
-				is_patrician = no
+				is_tribal = yes
 				OR = {
 					independent = yes
 					NOT = {
@@ -102,18 +80,7 @@ succession_laws = {
 					}
 				}
 			}
-			OR = {
-				is_landless_type_title = no
-				is_tribal_type_title = yes
-				temporary = yes
-			}
-			
 			rebel = no
-			
-			OR = {
-				holder_scope = { is_feudal = yes }
-				holder_scope = { is_tribal = yes }
-			}
 			is_primary_type_title = no
 		}
 		allow = {
@@ -151,8 +118,8 @@ succession_laws = {
 			holder_scope = {
 				OR = {
 					has_religion_feature = religion_beatification
-					has_religion_feature = religion_feature_baltic
-					has_religion_feature = religion_feature_west_african
+					#removeme has_religion_feature = religion_feature_baltic
+					#removeme has_religion_feature = religion_feature_west_african
 				}
 			}
 			holder_scope = {
@@ -203,8 +170,8 @@ succession_laws = {
 				holder_scope = {
 					OR = {
 						has_religion_feature = religion_beatification
-						has_religion_feature = religion_feature_baltic
-						has_religion_feature = religion_feature_west_african
+						#removeme has_religion_feature = religion_feature_baltic
+						#removeme has_religion_feature = religion_feature_west_african
 					}
 				}
 				custom_tooltip = {
@@ -413,17 +380,8 @@ succession_laws = {
 							is_vice_royalty = yes
 						}
 					}
-					AND = {
-						holder_scope = {
-							show_scope_change = no
-							primary_title = {
-								show_scope_change = no
-								OR = {
-									has_law = ze_administration_laws_1
-									has_law = ze_administration_laws_2
-								}
-							}
-						}
+					holder_scope = {
+						is_feudal = yes
 					}
 				}
 			}
@@ -442,9 +400,8 @@ succession_laws = {
 						has_crown_law_title = no
 					}
 					crownlaw_title = {
-						OR = {
-							has_law = crown_authority_3
-							has_law = crown_authority_4
+						holder_scope = {
+							is_feudal = yes
 						}
 					}
 				}
@@ -1028,7 +985,7 @@ gender_laws = {
 							is_nomadic = no
 						}
 						has_religion_feature = religion_equal
-						has_religion_feature = religion_feature_bon
+						#removeme has_religion_feature = religion_feature_bon
 						AND = {
 							has_dlc = "Zeus"
 							ROOT = { holder_scope = { primary_title = { has_law = status_of_women_4 } } }

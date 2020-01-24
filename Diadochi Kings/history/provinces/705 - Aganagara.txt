@@ -5,7 +5,7 @@ title = c_aganagara
 
 # Settlements
 max_settlements = 1
-b_aganagara_aganagara = castle
+b_aganagara_aganagara = city
 
 # Misc
 culture = vedic # Magadhi

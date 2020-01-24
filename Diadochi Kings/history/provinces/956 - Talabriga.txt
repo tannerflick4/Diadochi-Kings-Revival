@@ -7,9 +7,9 @@ title = c_talabriga
 max_settlements = 3
 b_talabriga_talabriga = tribal
 #b_aeminium_talabriga = city
-#b_castellum_araocelum_talabriga = castle
+#b_castellum_araocelum_talabriga = city
 #b_vissaium_talabriga = city
-#b_langobriga_talabriga = castle
+#b_langobriga_talabriga = city
 #b_cappa_talabriga = city
 #b_basilippo_talabriga = temple
 

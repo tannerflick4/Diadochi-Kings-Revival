@@ -5,10 +5,10 @@ title = c_nyssa
 
 # Settlements
 max_settlements = 4
-b_nyssa_nyssa = castle
+b_nyssa_nyssa = city
 b_andraka_nyssa = city
-b_parnassos_nyssa = castle
-b_nitazi_nyssa = castle
+b_parnassos_nyssa = city
+b_nitazi_nyssa = city
 
 # Misc
 culture = cappadocian

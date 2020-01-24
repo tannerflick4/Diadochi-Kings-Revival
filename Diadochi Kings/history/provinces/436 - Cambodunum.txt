@@ -7,8 +7,8 @@ title = c_cambodunum
 max_settlements = 4
 b_cambodunum_cambodunum = tribal
 #b_abodiacum_cambodunum = city
-#b_damasia_cambodunum = castle
-#b_vemania_cambodunum = castle
+#b_damasia_cambodunum = city
+#b_vemania_cambodunum = city
 
 # Misc
 culture = raetic

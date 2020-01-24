@@ -5,10 +5,10 @@ title = c_trikka
 
 # Settlements
 max_settlements = 4
-b_trikka_trikka = castle
-b_oichalia_trikka = castle
+b_trikka_trikka = city
+b_oichalia_trikka = city
 b_gomphoi_trikka = temple
-#b_ereikinion_trikka = castle
+#b_ereikinion_trikka = city
 #b_pialeia_trikka = city
 #b_pelinna_trikka = city
 b_phayttos_trikka = city
