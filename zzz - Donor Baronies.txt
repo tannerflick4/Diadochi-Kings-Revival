@@ -2,63 +2,18 @@
 # Southern Gaul #
 #################
 
-
 #################
 # Northern Gaul #
 #################
 
-b_ratis_teodeberciaco
-b_hermine_teodeberciaco
+b_tabernae_contionacum
+b_horath_contionacum
 
-b_suedas_vultaconum
+b_belgica_bonna
 
-b_anglares_divona
-b_sicinaco_divona
-b_criscencio_divona
-b_camino_divona
-b_parnaco_divona
-b_mercurius_divona
-b_cassiaco_divona
-
-b_caino_briggogalus
-b_mantolomagum_briggogalus
-b_rotomagus_briggogalus
-b_brixis_briggogalus
-b_cisomagus_briggogalus
-b_tausiriacum_briggogalus
-b_claudiomagus_briggogalus
-b_tornomagus_briggogalus
-
-b_evina_gaudiaco
-b_cerate_gaudiaco
-b_onia_gaudiaco
-b_dolum_gaudiaco
-b_calatonno_gaudiaco
-b_severiacus_gaudiaco
-b_themellum_gaudiaco
-b_leprosum_gaudiaco
-
-b_carovicus_excidollum
-b_canaviacum_excidollum
-b_solemniacum_excidollum
-b_curisiacum_excidollum
-b_durotincum_excidollum
-
-b_gurdo_cavaniaco
-b_auciago_cavaniaco
-b_veroli_cavaniaco
-b_decaniacum_cavaniaco
-
-b_licaniacum_ricomagus
-b_iciodorum_ricomagus
-b_chrononum_ricomagus
-b_mercurius_ricomagus
-b_camelaria_ricomagus
-b_cantobennum_ricomagus
-b_fines_ricomagus
-b_vialoscum_ricomagus
-b_marciacum_ricomagus
-b_licaniacum_ricomagus
+b_mederiacum_asciburgium
+b_tegula_asciburgium
+b_calo_asciburgium
 
 #################
 # MAGNA GRAECIA #
@@ -117,7 +72,6 @@ b_licaniacum_ricomagus
 
 b_hera_salernum
 b_alburnus_portus_salernum
-b_ad_silarum_salernum
 b_eburum_salernum
 b_amalfitana_civitas_salernum
 b_minerva_salernum
@@ -140,15 +94,12 @@ b_liternum_neapolis
 b_vicus_feniculensis_neapolis
 b_ad_septimum_neapolis
 
-b_nola_capua
 b_abella_capua
 b_acerrae_capua
 b_pagus_capriculanus_capua
 b_vicus_novaniensis_capua
 b_diana_tifatina_capua
 b_vicus_palatius_capua
-b_ad_nonum_capua
-b_urbana_capua
 b_faustianum_capua
 
 b_forum_novum_aeclanum
