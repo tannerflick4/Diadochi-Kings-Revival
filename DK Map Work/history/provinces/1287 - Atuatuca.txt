@@ -4,8 +4,14 @@
 title = c_atuatuca
 
 # Settlements
-max_settlements = 3
+max_settlements = 4
 b_atuatuca_atuatuca = tribal
+#b_traiectus_atuatuca = city
+#b_feresne_atuatuca = castle
+#b_catualium_atuatuca = castle
+#b_amanium_atuatuca = city
+#b_perniciacum_atuatuca = city
+b_hacor_atuatuca = temple
 
 # Misc
 culture = belgic

@@ -6,6 +6,12 @@ title = c_helinio
 # Settlements
 max_settlements = 3
 b_helinio_helinio = tribal
+#b_condacum_helinio = city
+#b_asse_helinio = castle
+#b_ganueta_helinio = temple
+#b_licaniacum_helinio = city
+#b_camelaria_helinio = castle
+#b_marciacum_helinio = city
 
 # Misc
 culture = belgic

@@ -6,6 +6,12 @@ title = c_tarvenna
 # Settlements
 max_settlements = 3
 b_tarvenna_tarvenna = tribal
+#b_castellum_menapiorum_tarvenna = city
+#b_minariacum_tarvenna = city
+#b_viroviacum_tarvenna = city
+#b_ardres_tarvenna = castle
+#b_canaviacum_tarvenna = temple
+b_solemniacum_tarvenna = temple
 
 # Misc
 culture = belgic

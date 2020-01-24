@@ -4,8 +4,14 @@
 title = c_nemetacum
 
 # Settlements
-max_settlements = 3
+max_settlements = 4
 b_nemetacum_nemetacum = tribal
+#b_turnacum_nemetacum = city
+#b_pontes_caldis_nemetacum = city
+#b_fanum_martis_nemetacum = castle
+#b_hermoniacum_nemetacum = city
+#b_camaracum_nemetacum = city
+b_mercurius_nemetacum = temple
 
 # Misc
 culture = belgic

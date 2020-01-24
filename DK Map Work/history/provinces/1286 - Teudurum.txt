@@ -4,8 +4,14 @@
 title = c_teudurum
 
 # Settlements
-max_settlements = 3
+max_settlements = 4
 b_teudurum_teudurum = tribal
+#b_coriovallum_teudurum = castle
+#b_iuliacum_teudurum = city
+b_varnenum_teudurum = temple
+#b_aquae_granni_teudurum = castle
+#b_vervigium_teudurum = city
+#b_vires_teudurum = city
 
 # Misc
 culture = belgic

@@ -4,8 +4,14 @@
 title = c_asciburgium
 
 # Settlements
-max_settlements = 3
+max_settlements = 5
 b_asciburgium_asciburgium = tribal
+#b_ulpia_traiana_asciburgium = city
+#b_castra_vetera_asciburgium = castle
+#b_burginatium_asciburgium = castle
+#b_quadriburgium_asciburgium = castle
+#b_harenatium_asciburgium = city
+#b_sablones_asciburgium = city
 
 # Misc
 culture = belgic

@@ -4,8 +4,14 @@
 title = c_borbetomagus
 
 # Settlements
-max_settlements = 3
+max_settlements = 4
 b_borbetomagus_borbetomagus = tribal
+#b_rouphiniana_borbetomagus = city
+#b_nemetae_borbetomagus = city
+#b_tabernae_borbetomagus = castle
+#b_concordia_borbetomagus = castle
+#b_ramsen_borbetomagus = castle
+#b_durcem_borbetomagus = castle
 
 # Misc
 culture = belgic

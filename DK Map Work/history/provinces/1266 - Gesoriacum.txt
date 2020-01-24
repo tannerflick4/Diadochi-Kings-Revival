@@ -4,8 +4,14 @@
 title = c_gesoriacum
 
 # Settlements
-max_settlements = 3
+max_settlements = 4
 b_gesoriacum_gesoriacum = tribal
+#b_teucera_gesoriacum = city
+#b_durocoregum_gesoriacum = castle
+#b_pontes_gesoriacum = city
+#b_ad_lullia_gesoriacum = city
+#b_lintomagus_gesoriacum = city
+b_marcis_gesoriacum = temple
 
 # Misc
 culture = belgic

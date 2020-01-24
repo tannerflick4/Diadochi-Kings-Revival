@@ -4,8 +4,14 @@
 title = c_contionacum
 
 # Settlements
-max_settlements = 3
+max_settlements = 5
 b_contionacum_contionacum = tribal
+#b_augusta_treverorum_contionacum = city
+#b_vicus_contiomagus_contionacum = city
+#b_princastellum_contionacum = city
+b_belginum_contionacum = temple
+#b_noviomagus_treverorum_contionacum = city
+#b_palatiolum_contionacum = castle
 
 # Misc
 culture = belgic

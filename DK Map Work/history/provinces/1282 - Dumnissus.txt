@@ -4,8 +4,14 @@
 title = c_dumnissus
 
 # Settlements
-max_settlements = 3
+max_settlements = 4
 b_dumnissus_dumnissus = tribal
+#b_bodobrica_dumnissus = castle
+#b_salisio_dumnissus = castle
+#b_vosolvia_dumnissus = city
+#b_mitestrim_dumnissus = city
+#b_bundeach_dumnissus = temple
+b_ad_silarum_dumnissus = temple
 
 # Misc
 culture = belgic

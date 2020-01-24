@@ -4,8 +4,14 @@
 title = c_isara
 
 # Settlements
-max_settlements = 3
+max_settlements = 4
 b_isara_isara = tribal
+#b_rodium_isara = castle
+#b_setuci_isara = castle
+#b_noviomagus_isara = city
+#b_contra_aginnum_isara = city
+#b_viromandis_isara = city
+#b_augusta_viromanduorum_isara = city
 
 # Misc
 culture = belgic

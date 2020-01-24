@@ -6,6 +6,12 @@ title = c_argentorate
 # Settlements
 max_settlements = 3
 b_argentorate_argentorate = tribal
+#b_saletio_argentorate = city
+#b_brocomagus_argentorate = city
+#b_tres_tabernae_argentorate = castle
+#b_ellelum_argentorate = city
+b_suedas_argentorate = temple
+#b_anglares_argentorate = catle
 
 # Misc
 culture = belgic

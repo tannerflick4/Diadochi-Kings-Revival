@@ -4,8 +4,14 @@
 title = c_bibrax
 
 # Settlements
-max_settlements = 3
+max_settlements = 2
 b_bibrax_bibrax = tribal
+b_vironum_bibrax = temple
+#b_duronum_bibrax = city
+#b_criscencio_bibrax = city
+#b_camino_bibrax = castle
+#b_parnaco_bibrax = catle
+#b_mercurius_bibrax = temple
 
 # Misc
 culture = belgic

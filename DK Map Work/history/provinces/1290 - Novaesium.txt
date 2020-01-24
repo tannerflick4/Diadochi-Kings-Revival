@@ -6,6 +6,12 @@ title = c_novaesium
 # Settlements
 max_settlements = 3
 b_novaesium_novaesium = tribal
+#b_durnomagus_novaesium = castle
+#b_burungum_novaesium = castle
+#b_castellum_divitia_novaesium = castle
+#b_ara_ubiorum_novaesium = city
+#b_tolbiacum_novaesium = city
+#b_gelduba_novaesium = castle
 
 # Misc
 culture = belgic

@@ -4,8 +4,14 @@
 title = c_turnacum
 
 # Settlements
-max_settlements = 3
+max_settlements = 2
 b_turnacum_turnacum = tribal
+#b_cortoriacum_turnacum = city
+#b_wenduine_turnacum = city
+#b_calatonno_turnacum = castle
+#b_severiacus_turnacum = castle
+b_themellum_turnacum = temple
+#b_leprosum_turnacum = city
 
 # Misc
 culture = belgic

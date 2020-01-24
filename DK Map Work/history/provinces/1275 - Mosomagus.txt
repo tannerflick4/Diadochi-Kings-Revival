@@ -4,8 +4,14 @@
 title = c_mosomagus
 
 # Settlements
-max_settlements = 3
+max_settlements = 4
 b_mosomagus_mosomagus = tribal
+#b_vungovicus_mosomagus = castle
+#b_noviomagus_mosomagus = city
+b_epoissum_mosomagus = temple
+#b_mard_mosomagus = city
+#b_vendres_mosomagus = castle
+#b_floren_mosomagus = city
 
 # Misc
 culture = belgic
