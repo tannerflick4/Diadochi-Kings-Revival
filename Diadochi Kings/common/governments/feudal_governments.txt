@@ -135,6 +135,8 @@ feudal_governments = {
 				}
 			}
 			NOT = { is_government_potential = roman_imperial_government }
+			NOT = { is_government_potential = satrap_government }
+			NOT = { is_government_potential = order_government }
 			is_patrician = no
 		}
 		
@@ -198,6 +200,8 @@ feudal_governments = {
 					has_landed_title = e_persia
 				}
 			}
+			NOT = { is_government_potential = roman_imperial_government }
+			NOT = { is_government_potential = order_government }
 			is_patrician = no
 		}
 
