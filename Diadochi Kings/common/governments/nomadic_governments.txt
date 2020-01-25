@@ -25,6 +25,10 @@ nomadic_governments = {
 		title_prefix = "nomadic_"
 		potential = {
 			OR = {
+				is_feudal = no
+				has_game_started = no
+			}
+			OR = {
 				controls_religion = no
 				has_religion_feature = religion_temporal_head
 			}
@@ -32,7 +36,6 @@ nomadic_governments = {
 			mercenary = no
 			holy_order = no
 			NOT = { is_government_potential = roman_imperial_government }
-			NOT = { is_government_potential = feudal_government }
 			NOT = { is_government_potential = satrap_government }
 			NOT = { is_government_potential = order_government }
 		}
