@@ -36,7 +36,6 @@ feudal_governments = {
 
 		barons_need_dynasty = yes
 
-		can_build_castle = no
 		can_build_temple = no
 		can_build_tribal = no
 
@@ -131,7 +130,6 @@ feudal_governments = {
 		dukes_called_kings = yes
 		barons_need_dynasty = yes
 
-		can_build_castle = no
 		can_build_temple = no
 		can_build_tribal = no
 		
@@ -199,7 +197,6 @@ feudal_governments = {
 		dukes_called_kings = yes
 		barons_need_dynasty = yes
 
-		can_build_castle = no
 		can_build_temple = no
 		can_build_tribal = no
 		
@@ -293,6 +290,9 @@ feudal_governments = {
 
 		color = { 169 169 169 }
 
+		can_build_temple = no
+		can_build_tribal = no
+
 		have_gender_laws = no
 		can_create_kingdoms = no
 		can_create_empires = no
@@ -304,9 +304,6 @@ feudal_governments = {
 		can_grant_kingdoms_and_empires_to_other_government = no
 		can_be_granted_kingdoms_and_empires_by_other_government = no
 		can_inherit = no
-		can_build_castle = no
-		can_build_temple = no
-		can_build_tribal = no
 		free_retract_vassalage = yes
 	}
 }
