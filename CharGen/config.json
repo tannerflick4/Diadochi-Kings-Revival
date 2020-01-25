@@ -1,20 +1,25 @@
 {
-	"first_char_id": 234301,
-	"dynasty_id": 23059,
-	"culture": "gaul",
-	"religion": "celtic_main",
+	"ckii_folder_path": "D:/SteamLibrary/steamapps/common/Crusader Kings II",
+	"mod_folder_path": "C:\\Users\\rickv\\Documents\\Programming\\Git\\DKRevival\\Diadochi Kings",
 
-	"names": "Acco_Acco Adiatunnus_Adiatunnus Ambiorix_Ambiorix Andecomborius_Andecomborius Bathanatos_Bathanatos Boduognatus_Boduognatus Brennus_Brennus Camulogenus_Camulogenus Catuvolcus_Catuvolcus 
-			Cavarinus_Cavarinus Cavarus_Cavarus Cerethrius_Cerethrius Cingetorix_Cingetorix Commius_Commius Conconnetodumnus_Conconnetodumnus Convictolitavis_Convictolitavis Cotuatus_Cotuatus 
-			Cotus_Cotus Critasirus_Critasirus Diviciacus_Diviciacus Divico_Divico Donnotaurus_Donnotaurus Dumnorix_Dumnorix Eporedix_Eporedix Galba_Galba 
-			Iccius_Iccius Indutiomaros_Indutiomaros Liscus_Liscus Litaviccus_Litaviccus Lucterius_Lucterius Orgetorix_Orgetorix Tasgetius_Tasgetius Teutomatus_Teutomatus 
-			Vercassivellaunus_Vercassivellaunus Vercingetorix_Vercingetorix Vertico_Vertico Viridomaros_Viridomaros Viridovix_Viridovix",
+	"first_char_id": 3601,
+	"dynasty_id": 1,
+	"culture": "thracian",
+	"religion": "thracian_main",
 
-	"min_age": 18,
-	"min_fertile_age": 16,
+	"names": "Abrupolis_Abrupolis Amatokos_Amatokos Bas_Bas Beithys_Beithys Bergaios_Bergaios Berisades_Berisades Boteiras_Boteiras Cersobleptes_Cersobleptes 
+			Cetriporis_Cetriporis Cosingas_Cosingas Cothelas Cotys_Cotys Diegylis_Diegylis Doedalses_Doedalses Dromichaetes_Dromichaetes Etazeta_Etazeta Getas_Getas 
+			Hebryzelmis_Hebryzelmis Langarus_Langarus Olorus_Olorus Pleurates_Pleurates Pleuratus_Pleuratus Rabocentus_Rabocentus Raiskoyporis_Raiskoyporis Raizdos_Raizdos 
+			Rhescuporis_Rhescuporis Rhoemetalces_Rhoemetalces Roigos_Roigos Sadalas_Sadalas Seuthes_Seuthes Sitalces_Sitalces Sparatocos_Sparatocos Syrmus_Syrmus 
+			Teres_Teres Ziaelas_Ziaelas Zibelmius_Zibelmius Zipoetes_Zipoetes Ziselmius_Ziselmius Zisemis_Zisemis",
+
+	"min_age": 14,
+	"min_fertile_age": 14,
 	"max_age": 65,
 	"max_fertile_age": 45,
 
-	"min_year": 391,
-	"max_year": 515
+	"min_year": 376,
+	"max_year": 495,
+
+	"max_succession_year": 417
 }
