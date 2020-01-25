@@ -21,26 +21,12 @@ feudal_governments = {
 		}
 		frame_suffix = "_romanimperial"
 		potential = {
-			NOR = {
-				capital_holding = {
-					is_tribal = yes
-				}
-				any_liege = {
-					capital_holding = {
-						is_tribal = yes
-					}
-				}
-				employer = {
-					capital_holding = {
-						is_tribal = yes
-					}
-				}
-			}
-			primary_title = { 
-				OR = { 
+			is_save_game = no
+			has_game_started = no
+			primary_title = {
+				OR = {
 					title = e_macedonia
 					title = e_persia
-					title = k_asia
 				}
 			}
 			is_patrician = no
