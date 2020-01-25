@@ -32,6 +32,7 @@ nomadic_governments = {
 			mercenary = no
 			holy_order = no
 			NOT = { is_government_potential = roman_imperial_government }
+			NOT = { is_government_potential = feudal_government }
 			NOT = { is_government_potential = satrap_government }
 			NOT = { is_government_potential = order_government }
 		}
