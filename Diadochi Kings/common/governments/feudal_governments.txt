@@ -21,8 +21,6 @@ feudal_governments = {
 		}
 		frame_suffix = "_romanimperial"
 		potential = {
-			is_save_game = no
-			has_game_started = no
 			primary_title = {
 				OR = {
 					title = e_macedonia
@@ -43,7 +41,7 @@ feudal_governments = {
 			tribal_government
 		}
 		vassal_call_to_arms = {
-			tribal_government
+			satrap_government
 		}
 		capital_move_delay = 2000
 		
@@ -76,7 +74,7 @@ feudal_governments = {
 			tribal_government
 		}
 		vassal_call_to_arms = {
-			satrap_government
+			tribal_government
 		}
 		potential = {
 			NOR = {
