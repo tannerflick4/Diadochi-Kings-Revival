@@ -3108,6 +3108,8 @@ e_skudatpa = { # Scythia
 				color= { 215 150 10 }
 				color2= { 255 255 255 }
 				
+				holy_site = scythian_main # placeholder
+				
 				b_katipa_katipa = {
 				}
 				b_kolmizda_katipa = {
@@ -3489,6 +3491,8 @@ e_skudatpa = { # Scythia
 				color= { 175 125 0 }
 				color2= { 255 255 255 }
 				
+				holy_site = scythian_main # placeholder
+				
 				b_alud_alud = {
 				}
 				b_katibla_alud = {
@@ -3749,6 +3753,8 @@ e_skudatpa = { # Scythia
 			c_colaxais = {
 				color= { 150 125 0 }
 				color2= { 255 255 255 }
+				
+				holy_site = scythian_main # placeholder
 				
 				b_colaxais_colaxais = {
 				}
@@ -4015,6 +4021,8 @@ e_skudatpa = { # Scythia
 			c_hvarzgasti = {
 				color= { 175 125 25 }
 				color2= { 255 255 255 }
+				
+				holy_site = scythian_main # placeholder
 				
 				b_hvarzgasti_hvarzgasti = {
 				}
@@ -4401,6 +4409,8 @@ e_skudatpa = { # Scythia
 			c_aspamesakapa = {
 				color= { 255 200 50 }
 				color2= { 255 255 255 }
+				
+				holy_site = scythian_main # placeholder
 								
 				b_aspamesakapa_aspamesakapa = {
 				}
