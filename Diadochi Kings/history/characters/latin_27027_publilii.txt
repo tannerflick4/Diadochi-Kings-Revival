@@ -173,6 +173,7 @@
 	father=172609	#Regillus
 	mother=172631	#Aurelia
 	399.7.10={ birth=yes }
+	419.1.1={ add_spouse=172632 }
 	447.12.11={ death=yes }
 }
 172618={
@@ -191,7 +192,9 @@
 	culture=latin 
 	religion=roman_main
 	father=172617	#Aesopus
+	mother=172632	#Aelia
 	421.3.26={ birth=yes }
+	441.1.1={ add_spouse=172633 }
 	484.7.30={ death=yes }
 }
 172620={
@@ -200,6 +203,7 @@
 	culture=latin 
 	religion=roman_main
 	father=172617	#Aesopus
+	mother=172632	#Aelia
 	424.10.11={ birth=yes }
 	470.1.3={ death=yes }
 }
@@ -209,6 +213,7 @@
 	culture=latin 
 	religion=roman_main
 	father=172617	#Aesopus
+	mother=172632	#Aelia
 	426.10.20={ birth=yes }
 	483.2.26={ death=yes }
 }
@@ -218,6 +223,7 @@
 	culture=latin 
 	religion=roman_main
 	father=172617	#Aesopus
+	mother=172632	#Aelia
 	431.10.18={ birth=yes }
 	508.9.29={ death=yes }
 }
@@ -228,6 +234,7 @@
 	culture=latin 
 	religion=roman_main
 	father=172619	#Ennius
+	mother=172633	#Corilinea
 	448.8.19={ birth=yes }
 	516.3.23={ death=yes }
 }
@@ -238,6 +245,7 @@
 	culture=latin 
 	religion=roman_main
 	father=172619	#Ennius
+	mother=172633	#Corilinea
 	450.3.24={ birth=yes }
 	514.2.8={ death=yes }
 }
@@ -247,7 +255,9 @@
 	culture=latin 
 	religion=roman_main
 	father=172619	#Ennius
+	mother=172633	#Corilinea
 	454.7.13={ birth=yes }
+	474.1.1={ add_spouse=172634 }
 	507.4.8={ death=yes }
 }
 172626={
@@ -257,6 +267,7 @@
 	culture=latin 
 	religion=roman_main
 	father=172625	#Turpilius
+	mother=172634	#Syncellia
 	477.5.24={ birth=yes }
 	544.6.29={ death=yes }
 }
@@ -266,6 +277,7 @@
 	culture=latin 
 	religion=roman_main
 	father=172625	#Turpilius
+	mother=172634	#Syncellia
 	483.6.7={ birth=yes }
 	534.7.24={ death=yes }
 }
@@ -275,6 +287,7 @@
 	culture=latin 
 	religion=roman_main
 	father=172625	#Turpilius
+	mother=172634	#Syncellia
 	488.8.10={ birth=yes }
 	562.6.7={ death=yes }
 }
@@ -301,4 +314,28 @@
 	religion=roman_main
 	367.1.1={ birth=yes }
 	412.1.1={ death=yes }
+}
+172632={
+	name=Aelia
+	female=yes
+	culture=latin 
+	religion=roman_main
+	399.1.1={ birth=yes }
+	447.1.1={ death=yes }
+}
+172633={
+	name=Corilinea
+	female=yes
+	culture=latin 
+	religion=roman_main
+	421.1.1={ birth=yes }
+	484.1.1={ death=yes }
+}
+172634={
+	name=Syncellia
+	female=yes
+	culture=latin 
+	religion=roman_main
+	454.1.1={ birth=yes }
+	507.1.1={ death=yes }
 }
