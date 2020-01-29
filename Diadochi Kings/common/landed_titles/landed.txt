@@ -1317,6 +1317,8 @@ e_india = {
 				color={ 200 120 120 }
 				color2={ 255 255 255 }
 				
+				holy_site = jainism_main # placeholder
+				
 				b_syanantapur_syanantapur = {
 				}
 				b_agastyakuta_syanantapur = {
@@ -1532,6 +1534,8 @@ e_india = {
 				color={ 185 39 45 }
 				color2={ 255 255 255 }
 				
+				holy_site = jainism_main # placeholder
+				
 				b_rajapura_rajapura = {
 				}
 				b_sisupalapuri_rajapura = {
@@ -1567,6 +1571,8 @@ e_india = {
 			c_kalingapur = {
 				color={ 195 50 55 }
 				color2={ 220 220 0 }
+				
+				holy_site = jainism_main # placeholder
 				
 				b_kalingapur_kalingapur = {
 				}
@@ -1928,6 +1934,8 @@ e_india = {
 				color={ 15 140 50 }
 				color2= { 255 255 255 }
 				
+				holy_site = buddhism_main # placeholder
+				
 				b_mithila_mithila = {
 				}
 				b_sita_mithila = {
@@ -2182,6 +2190,8 @@ e_india = {
 				color={ 210 65 12 }
 				color2={ 255 255 255 }
 				
+				holy_site = buddhism_main # placeholder
+				
 				b_hastinapura_hastinapura = {
 				}
 				b_vardhamana_hastinapura = {
@@ -2304,6 +2314,8 @@ e_india = {
 				color={ 180 110 41 }
 				color2={ 255 255 255 }
 				
+				holy_site = buddhism_main # placeholder
+				
 				b_sringara_sringara = {
 				}
 			}
@@ -2324,6 +2336,8 @@ e_india = {
 			c_taxila = {
 				color={ 255 150 31 }
 				color2={ 255 255 255 }
+				
+				holy_site = buddhism_main # placeholder
 				
 				b_taxila_taxila = {
 				}
@@ -2360,6 +2374,8 @@ e_india = {
 			c_yavana = {
 				color={ 255 90 20 }
 				color2={ 255 255 255 }
+				
+				holy_site = buddhism_main # placeholder
 				
 				b_yavana_yavana = {
 				}
@@ -2583,6 +2599,8 @@ e_india = {
 				color={ 225 135 20 }
 				color2={ 255 255 255 }
 				
+				holy_site = jainism_main # placeholder
+				
 				b_naagramma_nagramma = {
 				}
 				b_sivodbheda_naagramma = {
@@ -2771,6 +2789,8 @@ e_india = {
 			c_panchavati = {
 				color={ 115 20 40 }
 				color2={ 255 255 255 }
+				
+				holy_site = jainism_main # placeholder
 				
 				b_panchavati_panchavati = {
 				}
@@ -6876,6 +6896,8 @@ k_lydia = {
 			color= { 35 90 100 }
 			color2= { 255 255 255 }
 			
+			holy_site = phrygian_main # placeholder
+			
 			b_termessos_termessos = {
 			}
 			b_ariassos_termessos = {
@@ -7005,6 +7027,8 @@ k_lydia = {
 		c_ancyra = {
 			color= { 10 110 125 }
 			color2= { 255 255 255 }
+			
+			holy_site = phrygian_main # placeholder
 			
 			b_ancyra_ancyra = {
 			}
@@ -7337,6 +7361,8 @@ k_cappadocia = {
 			color= { 200 175 150 }
 			color2= { 255 255 255 }
 			
+			holy_site = phrygian_main # placeholder
+			
 			b_moutalaske_mazaka = {
 			}
 			b_mazaka_mazaka = {
@@ -7495,6 +7521,8 @@ k_cappadocia = {
 			color= { 200 175 125 }
 			color2= { 255 255 255 }
 			
+			holy_site = phrygian_main # placeholder
+			
 			b_iconium_iconium = {
 			}
 			b_salarama_iconium = {
@@ -7507,6 +7535,8 @@ k_cappadocia = {
 		c_lystra = {
 			color= { 200 165 135 }
 			color2= { 255 255 255 }
+			
+			holy_site = phrygian_main # placeholder
 			
 			b_lystra_lystra = {
 			}
@@ -9110,6 +9140,7 @@ k_armenia = {
 			color2= { 255 255 255 }
 			
 			holy_site = armenian_main
+			holy_site = georgian_main # placeholder
 
 			b_armavir_armavir = {
 			}
@@ -9196,6 +9227,8 @@ k_georgia = {
 		c_harmozike = {
 			color= { 110 10 100 }
 			color2= { 255 255 255 }
+			
+			holy_site = georgian_main # placeholder
 		
 			b_harmozike_harmozike = {
 			}
@@ -9224,6 +9257,8 @@ k_georgia = {
 		c_mtskheta = {
 			color= { 100 0 100 }
 			color2= { 255 255 255 }
+			
+			holy_site = georgian_main # placeholder
 		
 			b_mtskheta_mtskheta = {
 			}
@@ -9274,6 +9309,8 @@ k_georgia = {
 		c_phasis = {
 			color= { 90 35 100 }
 			color2= { 255 255 255 }
+			
+			holy_site = georgian_main # placeholder
 		
 			b_phasis_phasis = {
 			}
@@ -9289,6 +9326,8 @@ k_georgia = {
 		c_kotais = {
 			color= { 100 25 100 }
 			color2= { 255 255 255 }
+			
+			holy_site = georgian_main # placeholder
 		
 			b_kotais_kotais = {
 			}
