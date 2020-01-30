@@ -1210,6 +1210,8 @@ e_india = {
 				color={ 140 65 65 }
 				color2={ 255 255 255 }
 				
+				holy_site = dravidian_main # placeholder
+				
 				b_kanchipura_kanchipura = {
 				}
 				b_calamina_kanchipura = {
@@ -1269,6 +1271,8 @@ e_india = {
 			c_madura = {
 				color={ 140 75 75 }
 				color2={ 255 255 255 }
+				
+				holy_site = dravidian_main # placeholder
 				
 				b_madura_madura = {
 				}
@@ -1426,6 +1430,8 @@ e_india = {
 			c_kishkindha = {
 				color={ 108 23 29 }
 				color2={ 255 255 255 }
+				
+				holy_site = dravidian_main # placeholder
 				
 				b_kishkindha_kishkindha = {
 				}
@@ -1610,6 +1616,8 @@ e_india = {
 				color={ 130 0 20 }
 				color2={ 255 255 255 }
 				
+				holy_site = dravidian_main # placeholder
+				
 				b_pistapura_pistapura = {
 				}
 				b_rajanagari_pistapura = {
@@ -1632,6 +1640,8 @@ e_india = {
 			c_kannagara = {
 				color={ 110 0 20 }
 				color2={ 220 220 20 }
+				
+				holy_site = dravidian_main # placeholder
 				
 				b_kannagara_kannagara = {
 				}
@@ -11536,6 +11546,8 @@ k_nabataea = {
 		c_petra = {
 			color= { 200 150 0 }
 			color2= { 255 255 255 }
+			
+			holy_site = arabic_main # placeholder
 		
 			b_petra_petra = {
 			}
@@ -11602,6 +11614,8 @@ k_nabataea = {
 			color= { 175 150 0 }
 			color2= { 255 255 255 }
 			
+			holy_site = arabic_main # placeholder
+			
 			b_dedan_dedan = {
 			}
 			b_egra_dedan = {
@@ -11662,6 +11676,8 @@ k_nabataea = {
 		c_bostra = {
 			color= { 185 115 0 }
 			color2= { 255 255 255 }
+			
+			holy_site = arabic_main # placeholder
 		
 			b_bostra_bostra = {
 			}
@@ -14879,6 +14895,8 @@ k_aquitania = {
 			color= { 50 190 10 }
 			color2= { 255 255 255 }
 			
+			holy_site = aquitanian_main # placeholder
+			
 			b_boii_boii = {
 			}
 			b_losa_boii = {
@@ -14942,6 +14960,8 @@ k_aquitania = {
 		c_elimberrum = {
 			color= { 50 190 10 }
 			color2= { 255 255 255 }
+			
+			holy_site = aquitanian_main # placeholder
 			
 			b_elimberrum_elimberrum = {
 			}
@@ -15238,6 +15258,8 @@ k_arabia = {
 			color={ 200 175 75 }
 			color2={ 255 255 255 }
 			
+			holy_site = arabic_main # placeholder
+			
 			b_akila_akila = {
 			}
 			b_mousa_akila = {
@@ -15290,6 +15312,8 @@ k_arabia = {
 		c_tamna = {
 			color={ 200 150 100 }
 			color2={ 255 255 255 }
+			
+			holy_site = arabic_main # placeholder
 			
 			b_tamna_tamna = {
 			}
@@ -16163,6 +16187,8 @@ e_hispania = {
 			c_salmantica = {
 				color= { 82 41 244 }
 				color2={ 255 255 255 }
+				
+				holy_site = lusitanian_main # placeholder
 
 				b_salmantica_salmantica = {
 				}
@@ -16221,6 +16247,8 @@ e_hispania = {
 				color={ 81 45 237 }
 				color2={ 255 255 255 }
 				
+				holy_site = lusitanian_main # placeholder
+				
 				b_tongobriga_tongobriga = {
 				}
 				b_norba_tongobriga = {
@@ -16265,6 +16293,8 @@ e_hispania = {
 			c_longobriga = {
 				color={ 114 40 252 }
 				color2={ 255 255 255 }
+				
+				holy_site = lusitanian_main # placeholder
 
 				b_longobriga_longobriga = {
 				}
@@ -16367,6 +16397,8 @@ e_hispania = {
 			c_olisipo = {
 				color={ 120 58 244 }
 				color2={ 255 255 255 }
+				
+				holy_site = lusitanian_main # placeholder
 
 				b_olisipo_olisipo = {
 				}
@@ -16471,6 +16503,8 @@ e_hispania = {
 			c_lacobriga = {
 				color={ 78 26 221 }
 				color2={ 255 255 255 }
+				
+				holy_site = lusitanian_main # placeholder
 
 				b_lacobriga_lacobriga = {
 				}
@@ -16791,6 +16825,8 @@ e_hispania = {
 			c_segida = {
 				color={ 229 49 43 }
 				color2={ 255 255 255 }
+				
+				holy_site = iberian_main # placeholder
 
 				b_segida_segida = {
 				}
@@ -16855,6 +16891,8 @@ e_hispania = {
 			c_corduba = {
 				color={ 219 130 122 }
 				color2={ 255 255 255 }
+				
+				holy_site = iberian_main # placeholder
 
 				b_corduba_corduba = {
 				}
@@ -17063,6 +17101,8 @@ e_hispania = {
 				color={ 239 35 110 }
 				color2={ 255 255 255 }
 				
+				holy_site = iberian_main # placeholder
+				
 				b_carthago_nova_carthago_nova = {
 				}
 				b_eliocroca_carthago_nova = {
@@ -17164,6 +17204,8 @@ e_hispania = {
 			c_indibilis = {
 				color={ 211 29 126 }
 				color2={ 255 255 255 }
+				
+				holy_site = iberian_main # placeholder
 				
 				b_indibilis_indibilis = {
 				}
@@ -17627,6 +17669,8 @@ e_hispania = {
 				color={ 242 94 106 }
 				color2={ 255 255 255 }
 				
+				holy_site = iberian_main # placeholder
+				
 				b_ilerda_ilerda = {
 				}
 				b_ad_novas_ilerda = {
@@ -17876,6 +17920,8 @@ e_hispania = {
 				color={ 239 69 80 }
 				color2={ 255 255 255 }
 				
+				holy_site = aquitanian_main # placeholder
+				
 				b_segia_segia = {
 				}
 				b_jaca_segia = {
@@ -17958,6 +18004,8 @@ e_hispania = {
 			c_aracelium = {
 				color={ 239 73 47 }
 				color2={ 255 255 255 }
+				
+				holy_site = aquitanian_main # placeholder
 				
 				b_aracelium_aracelium = {
 				}
@@ -18060,6 +18108,8 @@ e_hispania = {
 			c_bracara = {
 				color={ 224 22 0 }
 				color2={ 255 255 255 }
+				
+				holy_site = aquitanian_main # placeholder
 
 				b_bracara_bracara = {
 				}
