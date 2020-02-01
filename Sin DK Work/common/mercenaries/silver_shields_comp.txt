@@ -1,4 +1,0 @@
-d_silver_shields_comp = {
-	levy_size = 1
-	pikemen = 1500
-}
