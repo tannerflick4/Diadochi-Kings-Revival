@@ -1,0 +1,17 @@
+name = "First war of the Diadochi"
+
+casus_belli = {
+	actor = 1 # Antipater
+	recipient = 901 # Perdiccas
+	casus_belli = regency_war_cb
+	date = 454.1.1 # 322 BC
+}
+454.1.1= { # 322 BC	
+	add_attacker = 601 1 # Antipater
+	add_attacker = 401 # Antigonus
+	add_attacker = 1701 # Craterus
+	add_attacker = 601 # Ptolemy
+	add_attacker = 301 # Asander
+	add_defender = 901 # Perdiccas
+	add_defender = 50101 # Eumenes
+}
