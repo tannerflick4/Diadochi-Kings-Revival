@@ -1,4 +1,4 @@
-name = "First war of the Diadochi"
+name = "First War of the Diadochi"
 
 casus_belli = {
 	actor = 1 # Antipater
