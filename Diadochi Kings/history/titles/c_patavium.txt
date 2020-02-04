@@ -11,8 +11,5 @@
 	holder = 234104 # Convictolitavis of the Lingones
 }
 518.1.1 = { # 258 BC
-	holder = 234105 # Cavarinus of the Lingones
-}
-511.1.1 = { # 265 BC
 	holder = 234106 # Convictolitavis of the Lingones
 }

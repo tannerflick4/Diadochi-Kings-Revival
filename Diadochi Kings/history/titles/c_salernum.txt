@@ -6,8 +6,5 @@
     holder = 161002 # Miniis of the Caudini
 }
 480.1.1 = { # 296 BC
-    holder = 161003 # Taurus of the Caudini
-}
-472.1.1 = { # 304 BC
     holder = 161004 # Minatus of the Caudini
 }

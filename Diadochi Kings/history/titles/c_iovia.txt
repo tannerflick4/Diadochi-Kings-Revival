@@ -11,8 +11,5 @@
 	holder = 141405 # Testimos of the Amantini
 }
 503.1.1 = { # 273 BC
-	holder = 141406 # Epulon of the Amantini
-}
-501.1.1 = { # 275 BC
 	holder = 141407 # Ionios of the Amantini
 }
