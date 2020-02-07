@@ -5,187 +5,162 @@
 # 499.11.14={holder=234611} #Divico[23106]
 # 539.03.02={holder=234618} #Vercassivellaunus[23106]
 
-# 234601={
-	# name=Divico
-	# dynasty=23106
-	# dna="laplmgbeakf"
-	# culture=gaul religion=celtic_main
-	# martial=6 diplomacy=4 stewardship=4 intrigue=4 learning=7
-	# add_trait=charismatic_negotiator add_trait=temperate add_trait=slothful add_trait=cruel add_trait=proud 
-	# add_trait=honest add_trait=lustful 
-	# 376.12.20={ birth=yes }
-	# 439.3.14={ death=yes }
-# }
-# 234602={
-	# name=Vercassivellaunus
-	# dynasty=23106
-	# dna="liplmgbgakb"
-	# culture=gaul religion=celtic_main
-	# martial=5 diplomacy=4 stewardship=6 intrigue=8 learning=6
-	# add_trait=charismatic_negotiator add_trait=slothful add_trait=honest add_trait=shy add_trait=temperate 
-	# father=234601	#Divico
-	# 397.7.26={ birth=yes }
-	# 458.6.12={ death=yes }
-# }
-# 234603={
-	# name=Camulogenus
-	# dynasty=23106
-	# dna="namphibafke"
-	# culture=gaul religion=celtic_main
-	# martial=7 diplomacy=7 stewardship=7 intrigue=6 learning=6
-	# add_trait=martial_cleric add_trait=shy add_trait=content add_trait=diligent add_trait=gluttonous 
-	# add_trait=zealous add_trait=cruel add_trait=depressed 
-	# father=234601	#Divico
-	# 401.12.3={ birth=yes }
-	# 467.4.27={ death=yes }
-# }
-# 234604={
-	# name=Vertico
-	# dynasty=23106
-	# dna="lngldhlibkc"
-	# culture=gaul religion=celtic_main
-	# martial=6 diplomacy=8 stewardship=7 intrigue=5 learning=7
-	# add_trait=martial_cleric add_trait=envious add_trait=proud add_trait=gluttonous add_trait=cruel 
-	# father=234601	#Divico
-	# 405.10.5={ birth=yes }
-	# 487.2.1={ death=yes }
-# }
-# 234605={
-	# name=Apirka
-	# female=yes
-	# dynasty=23106
-	# dna="ljclmfhealf"
-	# culture=gaul religion=celtic_main
-	# father=234601	#Divico
-	# 410.2.2={ birth=yes }
-	# 475.4.1={ death=yes }
-# }
-# 234606={
-	# name=Galena
-	# female=yes
-	# dynasty=23106
-	# dna="gapgccbeenf"
-	# culture=gaul religion=celtic_main
-	# father=234601	#Divico
-	# 413.11.6={ birth=yes }
-	# 482.11.13={ death=yes }
-# }
-# 234607={
-	# name=Iccius
-	# dynasty=23106
-	# dna="lbdmmgbmaga"
-	# culture=gaul religion=celtic_main
-	# martial=6 diplomacy=7 stewardship=8 intrigue=4 learning=4
-	# add_trait=grey_eminence add_trait=kind add_trait=greedy 
-	# father=234602	#Vercassivellaunus
-	# 421.9.20={ birth=yes }
-	# 476.6.10={ death=yes }
-# }
-# 234608={
-	# name=Galena
-	# female=yes
-	# dynasty=23106
-	# dna="pcpmmejglkb"
-	# culture=gaul religion=celtic_main
-	# father=234602	#Vercassivellaunus
-	# 427.8.13={ birth=yes }
-	# 485.1.9={ death=yes }
-# }
-# 234609={
-	# name=Commius
-	# dynasty=23106
-	# dna="fblcmkglahm"
-	# culture=gaul religion=celtic_main
-	# martial=8 diplomacy=4 stewardship=7 intrigue=6 learning=4
-	# add_trait=misguided_warrior add_trait=shy add_trait=just add_trait=kind add_trait=chaste 
-	# father=234607	#Iccius
-	# 447.10.8={ birth=yes }
-	# 499.11.14={ death=yes }
-# }
-# 234610={
-	# name=Kyna
-	# female=yes
-	# dynasty=23106
-	# dna="lcfmakbognj"
-	# culture=gaul religion=celtic_main
-	# father=234607	#Iccius
-	# 451.9.17={ birth=yes }
-	# 514.5.10={ death=yes }
-# }
-# 234611={
-	# name=Divico
-	# dynasty=23106
-	# dna="gbmcmkglakm"
-	# culture=gaul religion=celtic_main
-	# martial=4 diplomacy=5 stewardship=4 intrigue=4 learning=8
-	# add_trait=naive_appeaser add_trait=duelist add_trait=slothful add_trait=envious add_trait=zealous 
-	# add_trait=paranoid add_trait=gregarious 
-	# father=234609	#Commius
-	# 468.9.10={ birth=yes }
-	# 539.3.2={ death=yes }
-# }
-# 234612={
-	# name=Andecomborius
-	# dynasty=23106
-	# dna="hklcgfgpahf"
-	# culture=gaul religion=celtic_main
-	# martial=6 diplomacy=6 stewardship=7 intrigue=6 learning=8
-	# add_trait=grey_eminence add_trait=celibate add_trait=lustful add_trait=temperate add_trait=craven 
-	# add_trait=wroth add_trait=cruel 
-	# father=234609	#Commius
-	# 470.10.26={ birth=yes }
-	# 527.8.1={ death=yes }
-# }
-# 234613={
-	# name=Mavis
-	# female=yes
-	# dynasty=23106
-	# dna="ldmkanghahm"
-	# culture=gaul religion=celtic_main
-	# father=234609	#Commius
-	# 472.11.1={ birth=yes }
-	# 513.5.3={ death=yes }
-# }
-# 234614={
-	# name=Critasirus
-	# dynasty=23106
-	# dna="fbjmkngliik"
-	# culture=gaul religion=celtic_main
-	# martial=6 diplomacy=8 stewardship=5 intrigue=5 learning=4
-	# add_trait=martial_cleric add_trait=chaste add_trait=kind add_trait=deceitful add_trait=cynical 
-	# add_trait=patient add_trait=cruel 
-	# father=234609	#Commius
-	# 476.5.13={ birth=yes }
-	# 523.9.4={ death=yes }
-# }
-# 234615={
-	# name=Cavarus
-	# dynasty=23106
-	# dna="ieldggkhajm"
-	# culture=gaul religion=celtic_main
-	# martial=5 diplomacy=5 stewardship=7 intrigue=7 learning=7
-	# add_trait=midas_touched add_trait=paranoid add_trait=cynical add_trait=cruel add_trait=envious 
-	# father=234609	#Commius
-	# 480.1.14={ birth=yes }
-	# 526.6.21={ death=yes }
-# }
-# 234616={
-	# name=Galena
-	# female=yes
-	# dynasty=23106
-	# dna="gbocgkglnnm"
-	# culture=gaul religion=celtic_main
-	# father=234611	#Divico
-	# 492.12.14={ birth=yes }
-	# 544.7.21={ death=yes }
-# }
-# 234617={
-	# name=Mavis
-	# female=yes
-	# dynasty=23106
-	# dna="pbbgaiigckm"
-	# culture=gaul religion=celtic_main
-	# father=234611	#Divico
-	# 495.11.1={ birth=yes }
-	# 552.10.8={ death=yes }
-# }
+234601={
+	name=Divico
+	dynasty=23106
+	culture=gaul 
+    religion=celtic_main
+	376.12.20={ birth=yes }
+	439.3.14={ death=yes }
+}
+234602={
+	name=Vercassivellaunus
+	dynasty=23106
+	culture=gaul 
+    religion=celtic_main
+	father=234601	#Divico
+	397.7.26={ birth=yes }
+	458.6.12={ death=yes }
+}
+234603={
+	name=Camulogenus
+	dynasty=23106
+	culture=gaul 
+    religion=celtic_main
+	father=234601	#Divico
+	401.12.3={ birth=yes }
+	467.4.27={ death=yes }
+}
+234604={
+	name=Vertico
+	dynasty=23106
+	culture=gaul 
+    religion=celtic_main
+	father=234601	#Divico
+	405.10.5={ birth=yes }
+	487.2.1={ death=yes }
+}
+234605={
+	name=Apirka
+	female=yes
+	dynasty=23106
+	culture=gaul 
+    religion=celtic_main
+	father=234601	#Divico
+	410.2.2={ birth=yes }
+	475.4.1={ death=yes }
+}
+234606={
+	name=Galena
+	female=yes
+	dynasty=23106
+	culture=gaul 
+    religion=celtic_main
+	father=234601	#Divico
+	413.11.6={ birth=yes }
+	482.11.13={ death=yes }
+}
+234607={
+	name=Iccius
+	dynasty=23106
+	culture=gaul 
+    religion=celtic_main 
+	father=234602	#Vercassivellaunus
+	421.9.20={ birth=yes }
+	476.6.10={ death=yes }
+}
+234608={
+	name=Galena
+	female=yes
+	dynasty=23106
+	culture=gaul 
+    religion=celtic_main
+	father=234602	#Vercassivellaunus
+	427.8.13={ birth=yes }
+	485.1.9={ death=yes }
+}
+234609={
+	name=Commius
+	dynasty=23106
+	culture=gaul 
+    religion=celtic_main
+	father=234607	#Iccius
+	447.10.8={ birth=yes }
+	499.11.14={ death=yes }
+}
+234610={
+	name=Kyna
+	female=yes
+	dynasty=23106
+	culture=gaul 
+    religion=celtic_main
+	father=234607	#Iccius
+	451.9.17={ birth=yes }
+	514.5.10={ death=yes }
+}
+234611={
+	name=Divico
+	dynasty=23106
+	culture=gaul 
+    religion=celtic_main
+	father=234609	#Commius
+	468.9.10={ birth=yes }
+	539.3.2={ death=yes }
+}
+234612={
+	name=Andecomborius
+	dynasty=23106
+	culture=gaul 
+    religion=celtic_main
+	father=234609	#Commius
+	470.10.26={ birth=yes }
+	527.8.1={ death=yes }
+}
+234613={
+	name=Mavis
+	female=yes
+	dynasty=23106
+	culture=gaul 
+    religion=celtic_main
+	father=234609	#Commius
+	472.11.1={ birth=yes }
+	513.5.3={ death=yes }
+}
+234614={
+	name=Critasirus
+	dynasty=23106
+	culture=gaul 
+    religion=celtic_main
+	father=234609	#Commius
+	476.5.13={ birth=yes }
+	523.9.4={ death=yes }
+}
+234615={
+	name=Cavarus
+	dynasty=23106
+	culture=gaul 
+    religion=celtic_main
+	father=234609	#Commius
+	480.1.14={ birth=yes }
+	526.6.21={ death=yes }
+}
+234616={
+	name=Galena
+	female=yes
+	dynasty=23106
+	culture=gaul 
+    religion=celtic_main
+	father=234611	#Divico
+	492.12.14={ birth=yes }
+	544.7.21={ death=yes }
+}
+234617={
+	name=Mavis
+	female=yes
+	dynasty=23106
+	culture=gaul 
+    religion=celtic_main
+	father=234611	#Divico
+	495.11.1={ birth=yes }
+	552.10.8={ death=yes }
+}
