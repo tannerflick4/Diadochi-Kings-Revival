@@ -7,6 +7,7 @@
 	add_trait = tough_soldier
 	add_trait = proud
 	father=172403	#Vitellius
+    mother=172429   #Dardania
 	382.1.1 = { # 394 BC Made Up
 		birth="yes"
 	}
@@ -20,6 +21,7 @@
 	culture=latin 
 	religion=roman_main
 	319.1.2={ birth=yes }
+    339.1.1={ add_spouse=172428 }
 	365.1.5={ death=yes }
 }
 172403={
@@ -28,7 +30,9 @@
 	culture=latin 
 	religion=roman_main
 	father=172402	#Posthumus
+    mother=172428   #Afrania
 	346.2.22={ birth=yes }
+    366.1.1={ add_spouse=172429 }
 	387.10.3={ death=yes }
 }
 172404={
@@ -38,6 +42,7 @@
 	culture=latin 
 	religion=roman_main
 	father=172402	#Posthumus
+    mother=172428   #Afrania
 	348.1.22={ birth=yes }
 	412.6.10={ death=yes }
 }
@@ -48,6 +53,7 @@
 	culture=latin 
     religion=roman_main
 	father=172402	#Posthumus
+    mother=172428   #Afrania
 	353.2.1={ birth=yes }
 	416.4.26={ death=yes }
 }
@@ -57,6 +63,7 @@
 	culture=latin 
     religion=roman_main 
 	father=172402	#Posthumus
+    mother=172428   #Afrania
 	356.8.6={ birth=yes }
 	414.5.26={ death=yes }
 }
@@ -66,6 +73,7 @@
 	culture=latin 
     religion=roman_main
 	father=172402	#Posthumus
+    mother=172428   #Afrania
 	358.4.14={ birth=yes }
 	425.12.17={ death=yes }
 }
@@ -75,6 +83,7 @@
 	culture=latin 
     religion=roman_main
 	father=172403	#Vitellius
+    mother=172429   #Dardania
 	370.9.6={ birth=yes }
 	420.9.12={ death=yes }
 }
@@ -85,6 +94,7 @@
 	culture=latin 
     religion=roman_main
 	father=172403	#Vitellius
+    mother=172429   #Dardania
 	373.3.24={ birth=yes }
 	436.1.22={ death=yes }
 }
@@ -94,6 +104,7 @@
 	culture=latin 
     religion=roman_main
 	father=172403	#Vitellius
+    mother=172429   #Dardania
 	376.4.20={ birth=yes }
 	460.10.24={ death=yes }
 }
@@ -103,6 +114,7 @@
 	culture=latin 
     religion=roman_main
 	father=172403	#Vitellius
+    mother=172429   #Dardania
 	379.3.16={ birth=yes }
 	445.3.30={ death=yes }
 }
@@ -112,6 +124,7 @@
 	culture=latin 
     religion=roman_main
 	father=172403	#Vitellius
+    mother=172429   #Dardania
 	383.4.10={ birth=yes }
 	446.7.21={ death=yes }
 }
@@ -253,4 +266,20 @@
 	father=172422	#Syncellus
 	500.12.24={ birth=yes }
 	569.11.7={ death=yes }
+}
+172428={
+	name=Afrania
+	female=yes
+	culture=latin 
+	religion=roman_main
+	319.1.1={ birth=yes }
+	365.1.1={ death=yes }
+}
+172429={
+	name=Dardania
+	female=yes
+	culture=latin 
+	religion=roman_main
+	346.1.1={ birth=yes }
+	387.1.1={ death=yes }
 }
