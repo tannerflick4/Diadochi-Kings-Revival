@@ -4,6 +4,7 @@
 	culture=gaul 
     religion=celtic_main
 	376.12.20={ birth=yes }
+    396.1.1={ add_spouse=234618 }
 	439.3.14={ death=yes }
 }
 234602={
@@ -12,6 +13,7 @@
 	culture=gaul 
     religion=celtic_main
 	father=234601	#Divico
+    mother=234618   #Apirka
 	397.7.26={ birth=yes }
 	458.6.12={ death=yes }
 }
@@ -21,6 +23,7 @@
 	culture=gaul 
     religion=celtic_main
 	father=234601	#Divico
+    mother=234618   #Apirka
 	401.12.3={ birth=yes }
 	467.4.27={ death=yes }
 }
@@ -30,6 +33,7 @@
 	culture=gaul 
     religion=celtic_main
 	father=234601	#Divico
+    mother=234618   #Apirka
 	405.10.5={ birth=yes }
 	487.2.1={ death=yes }
 }
@@ -40,6 +44,7 @@
 	culture=gaul 
     religion=celtic_main
 	father=234601	#Divico
+    mother=234618   #Apirka
 	410.2.2={ birth=yes }
 	475.4.1={ death=yes }
 }
@@ -50,6 +55,7 @@
 	culture=gaul 
     religion=celtic_main
 	father=234601	#Divico
+    mother=234618   #Apirka
 	413.11.6={ birth=yes }
 	482.11.13={ death=yes }
 }
@@ -156,4 +162,12 @@
 	father=234611	#Divico
 	495.11.1={ birth=yes }
 	552.10.8={ death=yes }
+}
+234618={
+	name=Apirka
+	female=yes
+	culture=gaul 
+    religion=celtic_main
+	376.1.1={ birth=yes }
+	439.1.1={ death=yes }
 }
