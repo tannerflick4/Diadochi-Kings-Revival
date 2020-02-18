@@ -15,6 +15,7 @@
 	father=234601	#Divico
     mother=234618   #Apirka
 	397.7.26={ birth=yes }
+    417.1.1={ add_spouse=234619 }
 	458.6.12={ death=yes }
 }
 234603={
@@ -65,7 +66,9 @@
 	culture=gaul 
     religion=celtic_main 
 	father=234602	#Vercassivellaunus
+    mother=234619   #Galena
 	421.9.20={ birth=yes }
+    441.1.1={ add_spouse=234620 }
 	476.6.10={ death=yes }
 }
 234608={
@@ -75,6 +78,7 @@
 	culture=gaul 
     religion=celtic_main
 	father=234602	#Vercassivellaunus
+    mother=234619   #Galena
 	427.8.13={ birth=yes }
 	485.1.9={ death=yes }
 }
@@ -84,7 +88,9 @@
 	culture=gaul 
     religion=celtic_main
 	father=234607	#Iccius
+    mother=234620   #Kyna
 	447.10.8={ birth=yes }
+    467.1.1={ add_spouse=234621 }
 	499.11.14={ death=yes }
 }
 234610={
@@ -94,6 +100,7 @@
 	culture=gaul 
     religion=celtic_main
 	father=234607	#Iccius
+    mother=234620   #Kyna
 	451.9.17={ birth=yes }
 	514.5.10={ death=yes }
 }
@@ -103,7 +110,9 @@
 	culture=gaul 
     religion=celtic_main
 	father=234609	#Commius
+    mother=234621   #Mavis
 	468.9.10={ birth=yes }
+    488.1.1={ add_spouse=234622 }
 	539.3.2={ death=yes }
 }
 234612={
@@ -112,6 +121,7 @@
 	culture=gaul 
     religion=celtic_main
 	father=234609	#Commius
+    mother=234621   #Mavis
 	470.10.26={ birth=yes }
 	527.8.1={ death=yes }
 }
@@ -122,6 +132,7 @@
 	culture=gaul 
     religion=celtic_main
 	father=234609	#Commius
+    mother=234621   #Mavis
 	472.11.1={ birth=yes }
 	513.5.3={ death=yes }
 }
@@ -131,6 +142,7 @@
 	culture=gaul 
     religion=celtic_main
 	father=234609	#Commius
+    mother=234621   #Mavis
 	476.5.13={ birth=yes }
 	523.9.4={ death=yes }
 }
@@ -140,6 +152,7 @@
 	culture=gaul 
     religion=celtic_main
 	father=234609	#Commius
+    mother=234621   #Mavis
 	480.1.14={ birth=yes }
 	526.6.21={ death=yes }
 }
@@ -150,6 +163,7 @@
 	culture=gaul 
     religion=celtic_main
 	father=234611	#Divico
+    mother=234622   #Galena
 	492.12.14={ birth=yes }
 	544.7.21={ death=yes }
 }
@@ -160,6 +174,7 @@
 	culture=gaul 
     religion=celtic_main
 	father=234611	#Divico
+    mother=234622   #Galena
 	495.11.1={ birth=yes }
 	552.10.8={ death=yes }
 }
@@ -170,4 +185,36 @@
     religion=celtic_main
 	376.1.1={ birth=yes }
 	439.1.1={ death=yes }
+}
+234619={
+	name=Galena
+	female=yes
+	culture=gaul 
+    religion=celtic_main
+	397.1.1={ birth=yes }
+	458.1.1={ death=yes }
+}
+234620={
+	name=Kyna
+	female=yes
+	culture=gaul 
+    religion=celtic_main
+	421.1.1={ birth=yes }
+	476.1.1={ death=yes }
+}
+234621={
+	name=Mavis
+	female=yes
+	culture=gaul 
+    religion=celtic_main
+	447.1.1={ birth=yes }
+	499.1.1={ death=yes }
+}
+234622={
+	name=Galena
+	female=yes
+	culture=gaul 
+    religion=celtic_main
+	468.1.1={ birth=yes }
+	539.1.1={ death=yes }
 }
