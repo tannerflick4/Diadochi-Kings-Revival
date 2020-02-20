@@ -1,0 +1,195 @@
+# 401.1.1={holder=234701} #Vertico[23073]
+# 428.10.14={holder=234702} #Liscus[23073]
+# 464.08.23={holder=234706} #Viridovix[23073]
+# 510.01.18={holder=234710} #Critasirus[23073]
+# 514.10.24={holder=234714} #Galba[23073]
+# 539.02.17={holder=234717} #Viridovix[23073]
+
+# 234701={
+	# name=Vertico
+	# dynasty=23073
+	# dna="elcalmpblih"
+	# culture=gaul religion=celtic_main
+	# martial=4 diplomacy=5 stewardship=4 intrigue=7 learning=8
+	# add_trait=detached_priest add_trait=mystic add_trait=content add_trait=cruel add_trait=trusting 
+	# add_trait=lustful add_trait=shy add_trait=patient 
+	# 376.9.18={ birth=yes }
+	# 428.10.14={ death=yes }
+# }
+# 234702={
+	# name=Liscus
+	# dynasty=23073
+	# dna="oljallpaoah"
+	# culture=gaul religion=celtic_main
+	# martial=6 diplomacy=5 stewardship=7 intrigue=7 learning=8
+	# add_trait=detached_priest add_trait=cruel add_trait=kind add_trait=proud add_trait=craven 
+	# add_trait=deceitful 
+	# father=234701	#Vertico
+	# 399.1.20={ birth=yes }
+	# 464.8.23={ death=yes }
+# }
+# 234703={
+	# name=Donnotaurus
+	# dynasty=23073
+	# dna="emmalngolph"
+	# culture=gaul religion=celtic_main
+	# martial=6 diplomacy=7 stewardship=7 intrigue=5 learning=7
+	# add_trait=martial_cleric add_trait=shy add_trait=trusting add_trait=zealous add_trait=envious 
+	# father=234701	#Vertico
+	# 404.3.8={ birth=yes }
+	# 471.9.5={ death=yes }
+# }
+# 234704={
+	# name=Galena
+	# female=yes
+	# dynasty=23073
+	# dna="elcalmhfnmh"
+	# culture=gaul religion=celtic_main
+	# father=234701	#Vertico
+	# 406.11.17={ birth=yes }
+	# 460.6.5={ death=yes }
+# }
+# 234705={
+	# name=Tasgetius
+	# dynasty=23073
+	# dna="llcafbpliji"
+	# culture=gaul religion=celtic_main
+	# martial=4 diplomacy=7 stewardship=4 intrigue=5 learning=6
+	# add_trait=charismatic_negotiator add_trait=hunter add_trait=gregarious add_trait=deceitful 
+	# father=234701	#Vertico
+	# 411.4.16={ birth=yes }
+	# 475.10.10={ death=yes }
+# }
+# 234706={
+	# name=Viridovix
+	# dynasty=23073
+	# dna="kijdklegoah"
+	# culture=gaul religion=celtic_main
+	# martial=8 diplomacy=4 stewardship=4 intrigue=6 learning=7
+	# add_trait=midas_touched add_trait=deceitful add_trait=content add_trait=humble add_trait=diligent 
+	# add_trait=greedy add_trait=zealous 
+	# father=234702	#Liscus
+	# 426.6.26={ birth=yes }
+	# 510.1.18={ death=yes }
+# }
+# 234707={
+	# name=Amena
+	# female=yes
+	# dynasty=23073
+	# dna="odeallpaokh"
+	# culture=gaul religion=celtic_main
+	# father=234702	#Liscus
+	# 429.8.1={ birth=yes }
+	# 469.12.30={ death=yes }
+# }
+# 234708={
+	# name=Genovefa
+	# female=yes
+	# dynasty=23073
+	# dna="plhallkaead"
+	# culture=gaul religion=celtic_main
+	# father=234702	#Liscus
+	# 433.4.2={ birth=yes }
+	# 484.3.15={ death=yes }
+# }
+# 234709={
+	# name=Ambiorix
+	# dynasty=23073
+	# dna="fmjalbaaodb"
+	# culture=gaul religion=celtic_main
+	# martial=7 diplomacy=6 stewardship=5 intrigue=5 learning=6
+	# add_trait=midas_touched add_trait=mystic add_trait=just add_trait=cruel 
+	# father=234702	#Liscus
+	# 436.9.2={ birth=yes }
+	# 488.11.19={ death=yes }
+# }
+# 234710={
+	# name=Critasirus
+	# dynasty=23073
+	# dna="gicfcjaloli"
+	# culture=gaul religion=celtic_main
+	# martial=5 diplomacy=6 stewardship=5 intrigue=5 learning=4
+	# add_trait=charismatic_negotiator add_trait=hunter add_trait=paranoid add_trait=brave add_trait=gregarious 
+	# add_trait=just 
+	# father=234706	#Viridovix
+	# 450.4.13={ birth=yes }
+	# 514.10.24={ death=yes }
+# }
+# 234711={
+	# name=Divico
+	# dynasty=23073
+	# dna="kminhlecnbh"
+	# culture=gaul religion=celtic_main
+	# martial=7 diplomacy=8 stewardship=7 intrigue=8 learning=5
+	# add_trait=martial_cleric add_trait=craven add_trait=gregarious add_trait=arbitrary add_trait=lustful 
+	# father=234706	#Viridovix
+	# 455.3.25={ birth=yes }
+	# 515.2.25={ death=yes }
+# }
+# 234712={
+	# name=Conconnetodumnus
+	# dynasty=23073
+	# dna="kfjdklcgbak"
+	# culture=gaul religion=celtic_main
+	# martial=7 diplomacy=7 stewardship=4 intrigue=7 learning=7
+	# add_trait=skilled_tactician add_trait=brave add_trait=arbitrary add_trait=greedy add_trait=trusting 
+	# add_trait=ill 
+	# father=234706	#Viridovix
+	# 458.7.4={ birth=yes }
+	# 538.6.10={ death=yes }
+# }
+# 234713={
+	# name=Brietta
+	# female=yes
+	# dynasty=23073
+	# dna="kchdklagmoh"
+	# culture=gaul religion=celtic_main
+	# father=234706	#Viridovix
+	# 460.9.1={ birth=yes }
+	# 521.1.6={ death=yes }
+# }
+# 234714={
+	# name=Galba
+	# dynasty=23073
+	# dna="aildjjalolf"
+	# culture=gaul religion=celtic_main
+	# martial=5 diplomacy=8 stewardship=7 intrigue=5 learning=5
+	# add_trait=misguided_warrior add_trait=chaste add_trait=honest add_trait=ambitious add_trait=wroth 
+	# add_trait=slothful add_trait=charitable 
+	# father=234710	#Critasirus
+	# 473.8.17={ birth=yes }
+	# 539.2.17={ death=yes }
+# }
+# 234715={
+	# name=Galena
+	# female=yes
+	# dynasty=23073
+	# dna="indfcjclkfi"
+	# culture=gaul religion=celtic_main
+	# father=234710	#Critasirus
+	# 476.8.5={ birth=yes }
+	# 541.5.29={ death=yes }
+# }
+# 234716={
+	# name=Convictolitavis
+	# dynasty=23073
+	# dna="licnpjplklf"
+	# culture=gaul religion=celtic_main
+	# martial=7 diplomacy=7 stewardship=4 intrigue=6 learning=5
+	# add_trait=flamboyant_schemer add_trait=just add_trait=ambitious add_trait=temperate 
+	# father=234710	#Critasirus
+	# 482.4.23={ birth=yes }
+	# 545.4.26={ death=yes }
+# }
+# 234717={
+	# name=Viridovix
+	# dynasty=23073
+	# dna="hiflfglgolf"
+	# culture=gaul religion=celtic_main
+	# martial=7 diplomacy=8 stewardship=5 intrigue=5 learning=8
+	# add_trait=charismatic_negotiator add_trait=cruel add_trait=chaste add_trait=slothful add_trait=proud 
+	# add_trait=honest 
+	# father=234714	#Galba
+	# 498.8.12={ birth=yes }
+	# 570.9.1={ death=yes }
+# }
