@@ -1,8 +1,9 @@
 feudal_governments = {
 
 	roman_imperial_government = {
-		preferred_holdings = { CITY }
+		preferred_holdings = { CASTLE CITY }
 		allowed_holdings = {
+			CASTLE
 			CITY
 			FORT
 			HOSPITAL
@@ -33,10 +34,8 @@ feudal_governments = {
 
 		barons_need_dynasty = yes
 
-		can_build_castle = no
-		can_build_temple = no
 		can_build_tribal = no
-
+		
 		ignore_in_vassal_limit_calculation = {
 			tribal_government
 		}
@@ -55,8 +54,9 @@ feudal_governments = {
 	}
 
 	feudal_government = {
-		preferred_holdings = { CITY }
+		preferred_holdings = { CASTLE }
 		allowed_holdings = { 
+			CASTLE 
 			FORT
 			HOSPITAL
 		}
@@ -103,8 +103,6 @@ feudal_governments = {
 		dukes_called_kings = yes
 		barons_need_dynasty = yes
 
-		can_build_castle = no
-		can_build_temple = no
 		can_build_tribal = no
 		
 		ignore_in_vassal_limit_calculation = {
@@ -117,9 +115,9 @@ feudal_governments = {
 	}
 
 	satrap_government = {
-		preferred_holdings = { CITY }
+		preferred_holdings = { CASTLE }
 		allowed_holdings = { 
-			CITY
+			CASTLE 
 			FORT
 			HOSPITAL
 		}
@@ -153,8 +151,6 @@ feudal_governments = {
 		dukes_called_kings = yes
 		barons_need_dynasty = yes
 
-		can_build_castle = no
-		can_build_temple = no
 		can_build_tribal = no
 		
 		ignore_in_vassal_limit_calculation = {
@@ -168,9 +164,9 @@ feudal_governments = {
 	}
 
 	order_government = {
-		preferred_holdings = { CITY }
+		preferred_holdings = { CASTLE }
 		allowed_holdings = {
-			CITY
+			CASTLE
 			TEMPLE
 			TRIBAL
 			FORT
@@ -242,9 +238,6 @@ feudal_governments = {
 		can_grant_kingdoms_and_empires_to_other_government = no
 		can_be_granted_kingdoms_and_empires_by_other_government = no
 		can_inherit = no
-		can_build_castle = no
-		can_build_temple = no
-		can_build_tribal = no
 		free_retract_vassalage = yes
 	}
 }

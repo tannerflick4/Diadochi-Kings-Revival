@@ -4,7 +4,7 @@ theocracy_governments = {
 		preferred_holdings = { TEMPLE }
 		allowed_holdings = {
 			TEMPLE
-			CITY
+			CASTLE
 			FORT
 			HOSPITAL
 		}
@@ -40,8 +40,6 @@ theocracy_governments = {
 		have_gender_laws = no
 		can_be_granted_kingdoms_and_empires_by_other_government = no
 
-		can_build_castle = no
-		can_build_temple = no
 		can_build_tribal = no
 		
 		capital_move_delay = 600

@@ -5,6 +5,7 @@ republic_governments = {
 		allowed_holdings = { 
 			TRADE_POST
 			CITY
+			CASTLE
 			FAMILY_PALACE
 			FORT
 			HOSPITAL
@@ -77,8 +78,6 @@ republic_governments = {
 		allows_matrilineal_marriage = no
 		uses_bride_price = yes
 
-		can_build_castle = no
-		can_build_temple = no
 		can_build_tribal = no
 		
 		landed_inheritance = no
@@ -94,6 +93,7 @@ republic_governments = {
 		preferred_holdings = { CITY }
 		allowed_holdings = { 
 			CITY
+			CASTLE
 			FORT
 			HOSPITAL
 		}
@@ -118,9 +118,7 @@ republic_governments = {
 		
 		can_imprison_without_reason = no
 		can_revoke_without_reason = no
-
-		can_build_castle = no
-		can_build_temple = no
+		
 		can_build_tribal = no
 		
 		capital_move_delay = 600
