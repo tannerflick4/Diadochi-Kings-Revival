@@ -7,7 +7,7 @@ title = c_katipanti
 max_settlements = 3
 b_katipanti_katipanti = tribal
 #b_madugau_katipanti = city
-#b_syavataka_katipanti = city
+#b_syavataka_katipanti = castle
 
 # Misc
 culture = sarmatian

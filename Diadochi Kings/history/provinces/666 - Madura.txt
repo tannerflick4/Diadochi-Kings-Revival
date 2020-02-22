@@ -5,8 +5,8 @@ title = c_madura
 
 # Settlements
 max_settlements = 3
-b_madura_madura = city
-b_perinkari_madura = city
+b_madura_madura = castle
+b_perinkari_madura = castle
 b_akour_madura = city
 
 # Misc

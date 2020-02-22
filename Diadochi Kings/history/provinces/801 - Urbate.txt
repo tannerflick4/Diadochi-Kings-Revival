@@ -7,10 +7,10 @@ title = c_urbate
 max_settlements = 3
 b_urbate_urbate = tribal
 #b_castra_urbate = city
-#b_ad_ladios_urbate = city
-#b_leusaba_urbate = city
+#b_ad_ladios_urbate = castle
+#b_leusaba_urbate = castle
 #b_apeva_urbate = temple
-#b_sapua_urbate = city
+#b_sapua_urbate = castle
 #b_bersellum_urbate = city
 
 # Misc

@@ -6,9 +6,9 @@ title = c_agruvium
 # Settlements
 max_settlements = 4
 b_agruvium_agruvium = tribal
-#b_risinum_agruvium = city
+#b_risinum_agruvium = castle
 #b_bouthoe_agruvium = city
-#b_antibaris_agruvium = city
+#b_antibaris_agruvium = castle
 #b_olcinium_agruvium = city
 #b_salluntum_agruvium = city
 #b_halata_agruvium = city

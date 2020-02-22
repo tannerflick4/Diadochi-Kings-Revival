@@ -5,10 +5,10 @@ title = c_zeugma
 
 # Settlements
 max_settlements = 4
-b_zeugma_zeugma = city
+b_zeugma_zeugma = castle
 b_nisibyn_zeugma = temple
 b_capersana_zeugma = city
-b_ourima_zeugma = city
+b_ourima_zeugma = castle
 
 # Misc
 culture = aramaic

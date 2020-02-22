@@ -10,9 +10,7 @@ nomadic_governments = {
 			nomadic_government
 		}
 		forced_contract = {
-			roman_imperial_government
 			feudal_government
-			satrap_government
 			theocracy_government
 			merchant_republic_government
 			republic_government
@@ -25,22 +23,12 @@ nomadic_governments = {
 		title_prefix = "nomadic_"
 		potential = {
 			OR = {
-				is_feudal = no
-				has_game_started = no
-			}
-			OR = {
 				controls_religion = no
 				has_religion_feature = religion_temporal_head
 			}
 			is_patrician = no
 			mercenary = no
 			holy_order = no
-			NOT = { is_government_potential = roman_imperial_government }
-			NOT = { is_government_potential = satrap_government }
-			NOT = { is_government_potential = order_government }
-			NOT = { is_government_potential = merchant_republic_government }
-			NOT = { is_government_potential = republic_government }
-			NOT = { is_government_potential = theocracy_government }
 		}
 		
 		unit_home_modifier = {

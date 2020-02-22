@@ -5,7 +5,7 @@ title = c_lithinos
 
 # Settlements
 max_settlements = 1
-b_lithinos_pyrgos_lithinos = city
+b_lithinos_pyrgos_lithinos = castle
 
 # Misc
 culture = khotanese

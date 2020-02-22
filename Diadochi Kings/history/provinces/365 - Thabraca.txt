@@ -6,8 +6,8 @@ title = c_thabraca
 # Settlements
 max_settlements = 4
 b_tuniza_thabraca = city
-b_thabraca_thabraca = city
-b_thubi_thabraca = city
+b_thabraca_thabraca = castle
+b_thubi_thabraca = castle
 b_thunigaba_thabraca = city
 
 # Misc

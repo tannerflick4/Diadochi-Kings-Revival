@@ -5,7 +5,7 @@ title = c_gorgippia
 
 # Settlements
 max_settlements = 3
-b_gorgippia_gorgippia = city
+b_gorgippia_gorgippia = castle
 b_bata_gorgippia = city
 b_torikos_gorgippia = city
 

@@ -6,7 +6,7 @@ title = c_ossonoba
 # Settlements
 max_settlements = 5
 b_ossonoba_ossonoba = tribal
-#b_cibillis_ossonoba = city
+#b_cibillis_ossonoba = castle
 #b_lacobriga_ossonoba = city
 #b_balsa_ossonoba = city
 #b_baesuris_ossonoba = city

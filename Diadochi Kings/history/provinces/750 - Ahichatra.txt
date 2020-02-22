@@ -5,7 +5,7 @@ title = c_ahichatra
 
 # Settlements
 max_settlements = 1
-b_ahichatra_ahichatra = city
+b_ahichatra_ahichatra = castle
 
 # Misc
 culture = shauraseni

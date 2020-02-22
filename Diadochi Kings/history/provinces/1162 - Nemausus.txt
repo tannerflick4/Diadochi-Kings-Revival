@@ -11,7 +11,7 @@ b_nemausus_nemausus = tribal
 b_pons_aerarius_nemausus = temple
 #b_virinnae_nemausus = city
 #b_ambrussium_nemausus = city
-#b_arandunum_nemausus = city
+#b_arandunum_nemausus = castle
 
 # Misc
 culture = gaul

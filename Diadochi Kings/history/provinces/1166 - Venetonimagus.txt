@@ -6,12 +6,12 @@ title = c_venetonimagus
 # Settlements
 max_settlements = 4
 b_venetonimagus_venetonimagus = tribal
-#b_bebrone_venetonimagus = city
+#b_bebrone_venetonimagus = castle
 #b_brioratis_venetonimagus = city
 #b_augusta_venetonimagus = city
 #b_bergusium_venetonimagus = city
 #b_morginnum_venetonimagus = city
-#b_labisco_venetonimagus = city
+#b_labisco_venetonimagus = castle
 
 # Misc
 culture = gaul

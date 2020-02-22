@@ -5,9 +5,9 @@ title = c_trybactra
 
 # Settlements
 max_settlements = 4
-b_trybactra_trybactra = city
+b_trybactra_trybactra = castle
 b_buxarak_trybactra = city # Bukhara
-b_xenippa_trybactra = city
+b_xenippa_trybactra = castle
 #b_alexandria_oxiana_trybactra = city
 
 # Misc

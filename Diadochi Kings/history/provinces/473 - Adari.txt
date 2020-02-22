@@ -7,7 +7,7 @@ title = c_adari
 max_settlements = 3
 b_adari_adari = tribal
 #b_itamos_adari = city
-#b_digima_adari = city
+#b_digima_adari = castle
 
 # Misc
 culture = arabic

@@ -5,10 +5,10 @@ title = c_mesembria
 
 # Settlements
 max_settlements = 3
-b_mesembria_mesembria = city
+b_mesembria_mesembria = castle
 b_anchialus_mesembria = city
 b_aristaeum_mesembria = temple
-#b_naulochos_mesembria = city
+#b_naulochos_mesembria = castle
 #b_erite_mesembria = city
 
 # Misc

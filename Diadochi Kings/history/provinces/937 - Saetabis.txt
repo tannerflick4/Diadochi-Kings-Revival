@@ -6,9 +6,9 @@ title = c_saetabis
 # Settlements
 max_settlements = 3
 b_saetabis_saetabis = tribal
-#b_ad_turres_saetabis = city
-#b_ad_aras_saetabis = city
-#b_ad_statuas_saetabis = city
+#b_ad_turres_saetabis = castle
+#b_ad_aras_saetabis = castle
+#b_ad_statuas_saetabis = castle
 #b_iliturgi_saetabis = city
 #b_abra_saetabis = temple
 #b_cantigi_saetabis = city

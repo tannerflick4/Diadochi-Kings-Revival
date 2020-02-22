@@ -6,11 +6,11 @@ title = c_pelva
 # Settlements
 max_settlements = 4
 b_pelva_pelva = tribal
-#b_in_alperio_pelva = city
+#b_in_alperio_pelva = castle
 #b_bariduum_pelva = city
-#b_salvium_pelva = city
+#b_salvium_pelva = castle
 #b_pons_tiluri_pelva = temple
-#b_andetrium_pelva = city
+#b_andetrium_pelva = castle
 #b_tambia_pelva = city
 
 # Misc

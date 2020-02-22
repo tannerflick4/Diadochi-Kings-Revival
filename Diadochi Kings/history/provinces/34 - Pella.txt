@@ -5,10 +5,10 @@ title = c_pella # for example c_corinth
 
 # Settlements
 max_settlements = 6
-b_pella_pella = city
+b_pella_pella = castle
 b_gortynia_pella = temple
-b_edessa_pella = city
-#b_europos_pella = city
+b_edessa_pella = castle
+#b_europos_pella = castle
 b_allante_pella = city
 #b_ichnai_pella = city
 b_kyrros_pella = temple

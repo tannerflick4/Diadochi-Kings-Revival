@@ -5,9 +5,9 @@ title = c_lykopolis
 
 # Settlements
 max_settlements = 4
-b_lykopolis_lykopolis = city
+b_lykopolis_lykopolis = castle
 b_hermopolis_lykopolis = city
-b_hierakion_lykopolis = city
+b_hierakion_lykopolis = castle
 b_toeto_lykopolis = city
 
 # Misc

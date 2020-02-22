@@ -7,9 +7,9 @@ title = c_tourmogon
 max_settlements = 4
 b_tourmogon_tourmogon = tribal
 #b_caurium_tourmogon = city
-#b_rusticiana_tourmogon = city
+#b_rusticiana_tourmogon = castle
 #b_mirobriga_tourmogon = city
-#b_eldana_tourmogon = city
+#b_eldana_tourmogon = castle
 #b_polibedenses_tourmogon = city
 b_saelices_tourmogon = temple
 

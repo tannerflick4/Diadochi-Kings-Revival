@@ -9,9 +9,9 @@ b_hammeum_hammeum = tribal
 #b_ad_fines_hammeum = temple
 #b_kompolos_hammeum = city
 #b_korman_hammeum = city
-#b_dunis_hammeum = city
-#b_celegorum_hammeum = city 
-#b_metalli_dardanici_hammeum = city
+#b_dunis_hammeum = castle
+#b_celegorum_hammeum = castle 
+#b_metalli_dardanici_hammeum = castle
 
 # Misc
 culture = illyrian

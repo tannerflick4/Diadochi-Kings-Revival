@@ -5,7 +5,7 @@ title = c_yulishi
 
 # Settlements
 max_settlements = 2
-b_yulishi_yulishi = city
+b_yulishi_yulishi = castle
 b_further_jushi_yulishi = city
 
 culture = tocharian

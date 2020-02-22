@@ -5,9 +5,9 @@ title = c_patinga
 
 # Settlements
 max_settlements = 4
-b_patinga_patinga = city
+b_patinga_patinga = castle
 b_orsum_patinga = city
-b_pnups_patinga = city
+b_pnups_patinga = castle
 b_prummu_patinga = city
 
 # Misc

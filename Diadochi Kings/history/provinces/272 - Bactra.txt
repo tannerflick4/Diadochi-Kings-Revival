@@ -5,10 +5,10 @@ title = c_bactra
 
 # Settlements
 max_settlements = 4
-b_bactra_bactra = city
+b_bactra_bactra = castle
 b_aornos_bactra = city
 b_azar_i_asp_bactra = temple
-b_menapia_bactra = city
+b_menapia_bactra = castle
 
 # Misc
 culture = bactrian

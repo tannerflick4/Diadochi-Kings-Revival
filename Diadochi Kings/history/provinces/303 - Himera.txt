@@ -5,12 +5,12 @@ title = c_himera # for example c_corinth
 
 # Settlements
 max_settlements = 3
-b_himera_himera = city
-#b_halaesa_himera = city
+b_himera_himera = castle
+#b_halaesa_himera = castle
 b_cephaloedium_himera = city
 b_thermae_himeraeae_himera = city
-#b_amestratus_himera = city
-#b_riparato_himera = city
+#b_amestratus_himera = castle
+#b_riparato_himera = castle
 #b_biago_himera = city
 
 # Misc

@@ -6,12 +6,12 @@ title = c_turbes
 # Settlements
 max_settlements = 4
 b_turbes_turbes = tribal
-#b_mancellus_turbes = city
+#b_mancellus_turbes = castle
 #b_pallantia_turbes = city
 #b_pampligua_turbes = temple
 #b_nova_augusta_turbes = temple
-#b_deobrigula_turbes = city
-#b_brauon_turbes = city
+#b_deobrigula_turbes = castle
+#b_brauon_turbes = castle
 
 # Misc
 culture = celtiberian

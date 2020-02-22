@@ -7,10 +7,10 @@ title = c_glandimirum
 max_settlements = 5
 b_glandimirum_glandimirum = tribal
 #b_vicus_spacorum_glandimirum = city
-#b_burbida_glandimirum = city
-#b_turoqua_glandimirum = city
+#b_burbida_glandimirum = castle
+#b_turoqua_glandimirum = castle
 b_ad_duos_pontes_glandimirum = temple
-#b_aquae_clidae_glandimirum = city
+#b_aquae_clidae_glandimirum = castle
 #b_turris_augusti_glandimirum = city
 
 # Misc

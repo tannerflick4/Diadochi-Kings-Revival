@@ -5,9 +5,9 @@ title = c_aharawan
 
 # Settlements
 max_settlements = 3
-b_aharawan_aharawan = city
+b_aharawan_aharawan = castle
 b_chaharla_aharawan = temple
-b_pharambara_aharawan = city
+b_pharambara_aharawan = castle
 
 # Misc
 culture = median

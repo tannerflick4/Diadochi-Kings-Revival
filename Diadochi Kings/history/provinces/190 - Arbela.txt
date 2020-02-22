@@ -5,11 +5,11 @@ title = c_arbela
 
 # Settlements
 max_settlements = 5
-b_arbela_arbela = city
+b_arbela_arbela = castle
 b_orava_arbela = temple
 b_hazza_arbela = city
 b_kilizu_arbela = city
-b_corcura_arbela = city
+b_corcura_arbela = castle
 
 # Misc
 culture = aramaic

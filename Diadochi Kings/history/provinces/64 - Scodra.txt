@@ -8,10 +8,10 @@ max_settlements = 4
 b_scodra_scodra = tribal
 #b_doclea_scodra = temple
 #b_cinna_scodra = city
-#b_ad_picarias_scodra = city
-#b_meteon_scodra = city
+#b_ad_picarias_scodra = castle
+#b_meteon_scodra = castle
 #b_birziminium_scodra = city
-#b_varis_scodra = city
+#b_varis_scodra = castle
 
 # Misc
 culture = illyrian

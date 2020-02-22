@@ -8,9 +8,9 @@ max_settlements = 4
 b_murgi_murgi = city
 b_abdera_murgi = city
 #b_urci_murgi = city
-b_charidemos_murgi = city
+b_charidemos_murgi = castle
 #b_portos_magnos_murgi = city
-#b_aboula_murgi = city
+#b_aboula_murgi = castle
 b_turaniana_murgi = temple
 
 # Misc

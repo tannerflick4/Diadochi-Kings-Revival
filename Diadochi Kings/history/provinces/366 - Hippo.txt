@@ -6,8 +6,8 @@ title = c_hippo
 # Settlements
 max_settlements = 5
 b_rusicade_hippo = city
-b_hippo_hippo = city
-b_sulluctu_hippo = city
+b_hippo_hippo = castle
+b_sulluctu_hippo = castle
 b_zacca_hippo = city
 
 # Possible baronies: (Always add a # in front of a line with these!)

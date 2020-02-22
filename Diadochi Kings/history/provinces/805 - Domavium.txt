@@ -9,7 +9,7 @@ b_domavium_domavium = tribal
 #b_gensis_domavium = city
 #b_statina_domavium = city
 #b_sabac_domavium = city
-#b_dovic_domavium = city
+#b_dovic_domavium = castle
 
 # Misc
 culture = illyrian

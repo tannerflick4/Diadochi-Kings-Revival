@@ -5,7 +5,7 @@ title = c_kalingapur
 
 # Settlements
 max_settlements = 4
-b_kalingapur_kalingapur = city
+b_kalingapur_kalingapur = castle
 b_manipura_kalingapur = city
 b_mahendram_kalingapur = temple
 b_dandagula_kalingapur = city

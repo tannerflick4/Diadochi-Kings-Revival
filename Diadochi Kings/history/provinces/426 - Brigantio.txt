@@ -6,7 +6,7 @@ title = c_brigantio
 # Settlements
 max_settlements = 2
 b_brigantio_brigantio = tribal
-#b_druantium_brigantio = city
+#b_druantium_brigantio = castle
 
 # Misc
 culture = gaul

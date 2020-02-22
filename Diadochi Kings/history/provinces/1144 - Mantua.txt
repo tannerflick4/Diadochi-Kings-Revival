@@ -6,10 +6,10 @@ title = c_mantua
 # Settlements
 max_settlements = 2
 b_mantua_mantua = tribal
-#b_miaccum_mantua = city
+#b_miaccum_mantua = castle
 #b_ossigi_mantua = city
 #b_bursao_mantua = temple
-#b_barbariana_mantua = city
+#b_barbariana_mantua = castle
 #b_turiaso_mantua = city
 #b_augustobriga_mantua = city
 

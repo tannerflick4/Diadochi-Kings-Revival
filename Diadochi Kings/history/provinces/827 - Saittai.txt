@@ -5,9 +5,9 @@ title = c_saittai
 
 # Settlements
 max_settlements = 5
-b_saittai_saittai = city
-b_tabala_saittai = city
-b_silandos_saittai = city
+b_saittai_saittai = castle
+b_tabala_saittai = castle
+b_silandos_saittai = castle
 b_koresa_saittai = temple
 b_emoddi_saittai = temple
 

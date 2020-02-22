@@ -6,10 +6,10 @@ title = c_gadir
 # Settlements
 max_settlements = 6
 b_gadir_gadir = city
-b_hasta_gadir = city
-b_turirecina_gadir = city
+b_hasta_gadir = castle
+b_turirecina_gadir = castle
 b_nabrissa_gadir = city
-#b_ceret_gadir = city
+#b_ceret_gadir = castle
 b_iunonis_gadir = temple
 #b_cotinussa_gadir = city
 

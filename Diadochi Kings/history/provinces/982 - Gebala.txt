@@ -7,11 +7,11 @@ title = c_gebala
 max_settlements = 5
 b_gebala_gebala = tribal
 b_victoriacum_gebala = temple
-#b_belegia_gebala = city
+#b_belegia_gebala = castle
 #b_suessatium_gebala = city
 #b_tullonium_gebala = city
-#b_arrola_gebala = city
-#b_ermita_gebala = city
+#b_arrola_gebala = castle
+#b_ermita_gebala = castle
 
 # Misc
 culture = celtiberian

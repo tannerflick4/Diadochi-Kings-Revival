@@ -5,7 +5,7 @@ title = c_daskara
 
 # Settlements
 max_settlements = 4
-b_daskara_daskara = city
+b_daskara_daskara = castle
 b_artemita_daskara = temple
 b_dastagird_daskara = city
 b_jalula_daskara = city

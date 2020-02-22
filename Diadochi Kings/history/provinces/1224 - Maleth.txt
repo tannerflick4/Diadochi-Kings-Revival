@@ -6,7 +6,7 @@ title = c_maleth
 # Settlements
 max_settlements = 2
 b_maleth_maleth = city
-b_gaulos_maleth = city
+b_gaulos_maleth = castle
 #b_ciefesta_hephaesta_maleth = city
 #b_aethusa_maleth = city
 #b_lopedusa_maleth = city

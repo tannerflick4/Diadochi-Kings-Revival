@@ -5,8 +5,8 @@ title = c_madhyamika
 
 # Settlements
 max_settlements = 2
-b_madyamika_madyamika = city
-b_udayapuri_madyamika = city
+b_madyamika_madyamika = castle
+b_udayapuri_madyamika = castle
 
 # Misc
 culture = maharashtri

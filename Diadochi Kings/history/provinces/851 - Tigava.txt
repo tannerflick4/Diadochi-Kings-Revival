@@ -6,7 +6,7 @@ title = c_tigava
 # Settlements
 max_settlements = 2
 b_tigava_tigava = tribal
-#b_tingitana_tigava = city
+#b_tingitana_tigava = castle
 
 # Misc
 culture = berber

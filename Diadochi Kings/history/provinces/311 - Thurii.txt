@@ -5,11 +5,11 @@ title = c_thurii # for example c_corinth
 
 # Settlements
 max_settlements = 4
-b_thurii_thurii = city
+b_thurii_thurii = castle
 b_sybaris_thurii = city
 b_rouskiane_thurii = city
-#b_roscianum_thurii = city
-#b_ad_vicesimum_thurii = city
+#b_roscianum_thurii = castle
+#b_ad_vicesimum_thurii = castle
 #b_pandosia_thurii = temple
 #b_paternum_thurii = city
 

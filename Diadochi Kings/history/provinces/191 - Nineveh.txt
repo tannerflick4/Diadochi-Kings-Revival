@@ -5,10 +5,10 @@ title = c_nineveh
 
 # Settlements
 max_settlements = 5
-b_kalhu_nineveh = city
+b_kalhu_nineveh = castle
 b_dur_sharrukin_nineveh = temple
 b_mosul_nineveh = city
-b_nineveh_nineveh = city
+b_nineveh_nineveh = castle
 b_gaugamela_nineveh = city
 
 # Misc

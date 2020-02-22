@@ -6,7 +6,7 @@ title = c_zarkarun
 # Settlements
 max_settlements = 3
 b_zarkarun_zarkarun = tribal
-#b_arkol_zarkarun = city
+#b_arkol_zarkarun = castle
 #b_arunkol_zarkarun = city
 
 # Misc

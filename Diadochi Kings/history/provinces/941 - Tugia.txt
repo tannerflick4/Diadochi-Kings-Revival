@@ -7,11 +7,11 @@ title = c_tugia
 max_settlements = 2
 b_tugia_tugia = tribal
 #b_salaria_tugia = city
-#b_aregua_tugia = city
+#b_aregua_tugia = castle
 #b_obulco_tugia = temple
 #b_urgao_tugia = city
 #b_abra_tugia = city
-#b_mentesa_bastia_tugia = city
+#b_mentesa_bastia_tugia = castle
 
 # Misc
 culture = iberian

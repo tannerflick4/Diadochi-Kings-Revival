@@ -5,9 +5,9 @@ title = c_indraprastha
 
 # Settlements
 max_settlements = 4
-b_indraprastha_indraprastha = city
+b_indraprastha_indraprastha = castle
 b_salibhavana_indraprastha = city
-b_rohitaka_indraprastha = city
+b_rohitaka_indraprastha = castle
 b_swarnaprastha_indraprastha = city
 
 # Misc

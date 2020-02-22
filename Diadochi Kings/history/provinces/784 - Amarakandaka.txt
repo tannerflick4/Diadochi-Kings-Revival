@@ -5,7 +5,7 @@ title = c_amarakandaka
 
 # Settlements
 max_settlements = 1
-b_amarakandaka_amarakandaka = city
+b_amarakandaka_amarakandaka = castle
 
 # Misc
 culture = maharashtri

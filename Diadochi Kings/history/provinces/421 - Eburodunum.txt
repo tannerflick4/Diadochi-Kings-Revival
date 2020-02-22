@@ -6,10 +6,10 @@ title = c_eburodunum
 # Settlements
 max_settlements = 4
 b_eburodunum_eburodunum = tribal
-#b_rama_eburodunum = city
+#b_rama_eburodunum = castle
 #b_vappincum_eburodunum = city
-#b_rigomagus_eburodunum = city
-#b_mustiae_calmes_eburodunum = city
+#b_rigomagus_eburodunum = castle
+#b_mustiae_calmes_eburodunum = castle
 #b_caturigomagus_eburodunum = city
 #b_ictodurus_eburodunum = city
 

@@ -5,9 +5,9 @@ title = c_sporades # for example c_corinth
 # Settlements
 max_settlements = 4 # Should be reevaluated
 b_paparethos_sporades = city
-b_ikos_sporades = city
+b_ikos_sporades = castle
 b_skyros_sporades = temple
-b_skiathos_sporades = city
+b_skiathos_sporades = castle
 
 # Misc
 

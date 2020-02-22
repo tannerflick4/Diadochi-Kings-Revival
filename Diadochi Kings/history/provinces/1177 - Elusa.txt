@@ -8,9 +8,9 @@ max_settlements = 4
 b_elusa_elusa = tribal
 #b_tres_arbores_elusa = city
 #b_oscincium_elusa = city
-#b_besinum_elusa = city
+#b_besinum_elusa = castle
 #b_saviniago_elusa = temple
-#b_sotium_elusa = city
+#b_sotium_elusa = castle
 #b_lautrego_elusa = city
 
 # Misc

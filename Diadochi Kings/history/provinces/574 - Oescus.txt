@@ -8,9 +8,9 @@ max_settlements = 4
 b_oescus_oescus = tribal
 #b_utus_oescus = city
 #b_asamus_oescus = city
-#b_securisca_oescus = city
-#b_ad_putea_oescus = city
-#b_storgosia_oescus = city
+#b_securisca_oescus = castle
+#b_ad_putea_oescus = castle
+#b_storgosia_oescus = castle
 #b_giridava_oescus = temple
 
 # Misc

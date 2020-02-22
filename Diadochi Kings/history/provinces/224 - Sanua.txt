@@ -5,10 +5,10 @@ title = c_sanua
 
 # Settlements
 max_settlements = 4
-b_sanua_sanua = city
+b_sanua_sanua = castle
 b_tegoda_sanua = temple
 b_osica_sanua = city
-b_niga_sanua = city
+b_niga_sanua = castle
 
 # Misc
 culture = georgian

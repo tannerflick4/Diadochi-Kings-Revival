@@ -6,7 +6,7 @@ title = c_borun
 # Settlements
 max_settlements = 3
 b_borun_borun = tribal
-#b_varkazura_borun = city
+#b_varkazura_borun = castle
 b_tagasti_borun = temple
 
 # Misc

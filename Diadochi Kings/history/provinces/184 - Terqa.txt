@@ -5,7 +5,7 @@ title = c_terqa
 
 # Settlements
 max_settlements = 4
-b_terqa_terqa = city
+b_terqa_terqa = castle
 b_gabalein_terqa = temple
 b_sirhi_terqa = city
 b_doura_terqa = city

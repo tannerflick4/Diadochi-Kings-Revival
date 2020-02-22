@@ -5,10 +5,10 @@ title = c_artacoana
 
 # Settlements
 max_settlements = 5
-b_artacoana_artacoana = city
+b_artacoana_artacoana = castle
 b_cartana_artacoana = city
-b_bogadia_artacoana = city
-#b_alexandria_artacoana = city
+b_bogadia_artacoana = castle
+#b_alexandria_artacoana = castle
 b_varpna_artacoana = city
 
 # Misc

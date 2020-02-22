@@ -5,9 +5,9 @@ title = c_zela
 
 # Settlements
 max_settlements = 4
-b_zela_zela = city
+b_zela_zela = castle
 b_komana_zela = temple
-b_dadasa_zela = city
+b_dadasa_zela = castle
 b_syderos_zela = city
 
 # Misc

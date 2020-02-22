@@ -8,8 +8,8 @@ max_settlements = 3
 b_eporedia_eporedia = tribal
 #b_quadrata_eporedia = city
 #b_cestae_eporedia = city
-#b_bugella_eporedia = city
-#b_victumulae_eporedia = city
+#b_bugella_eporedia = castle
+#b_victumulae_eporedia = castle
 #b_cuttiae_eporedia = city
 #b_durriae_eporedia = city
 

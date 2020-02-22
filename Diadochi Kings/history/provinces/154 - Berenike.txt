@@ -5,7 +5,7 @@ title = c_berenike
 
 # Settlements
 max_settlements = 3
-b_nechesia_berenike = city
+b_nechesia_berenike = castle
 b_apollonos_berenike = temple
 
 # Possible baronies: (Always add a # in front of a line with these!)

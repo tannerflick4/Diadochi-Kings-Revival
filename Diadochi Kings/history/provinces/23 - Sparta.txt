@@ -5,12 +5,12 @@ title = c_sparta # for example c_corinth
 
 # Settlements
 max_settlements = 6 
-b_sparta_sparta = city
+b_sparta_sparta = castle
 b_alagonia_sparta = temple
 b_epidauros_sparta = city
-b_gytheion_sparta = city
+b_gytheion_sparta = castle
 b_tainaron_sparta = city
-b_las_sparta = city
+b_las_sparta = castle
 
 
 # Misc

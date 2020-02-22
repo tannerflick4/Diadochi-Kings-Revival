@@ -5,7 +5,7 @@ title = c_dwaita
 
 # Settlements
 max_settlements = 2
-b_dwaita_dwaita = city
+b_dwaita_dwaita = castle
 b_nagadhanvana_dwaita = city
 
 # Misc

@@ -5,7 +5,7 @@ title = c_matapanti
 
 # Settlements
 max_settlements = 2
-b_matapanti_matapanti = city
+b_matapanti_matapanti = castle
 b_frica_matapanti = temple
 
 # Misc

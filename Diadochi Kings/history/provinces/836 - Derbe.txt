@@ -5,10 +5,10 @@ title = c_derbe
 
 # Settlements
 max_settlements = 4
-b_derbe_derbe = city
-b_laranda_derbe = city
+b_derbe_derbe = castle
+b_laranda_derbe = castle
 b_hyde_derbe = city
-b_thebasa_derbe = city
+b_thebasa_derbe = castle
 
 # Misc
 culture = luwian

@@ -5,10 +5,10 @@ title = c_dioscurias
 
 # Settlements
 max_settlements = 4
-b_dioscurias_dioscurias = city
+b_dioscurias_dioscurias = castle
 b_gyenos_dioscurias = city
-b_tzibile_dioscurias = city
-b_tracheia_dioscurias = city
+b_tzibile_dioscurias = castle
+b_tracheia_dioscurias = castle
 
 # Misc
 culture = georgian

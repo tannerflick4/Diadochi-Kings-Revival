@@ -5,12 +5,12 @@ title = c_thebes # for example c_corinth
 
 # Settlements
 max_settlements = 6
-b_thebes_thebes = city
+b_thebes_thebes = castle
 b_askra_thebes = temple
 b_orchomenos_thebes = city
-b_chaironeia_thebes = city
+b_chaironeia_thebes = castle
 b_thisbe_thebes = city
-b_plataea_thebes = city
+b_plataea_thebes = castle
 
 
 # Misc
@@ -24,6 +24,6 @@ religion = greek_main
 	capital = b_chaironeia_thebes
 }
 461.1.1 = { # 315 BC, Cassander rebuilds Thebes
-	b_thebes_thebes = city
+	b_thebes_thebes = castle
 	capital = b_thebes_thebes
 }

@@ -5,7 +5,7 @@ title = c_chabala
 
 # Settlements
 max_settlements = 3
-b_chabala_chabala = city
+b_chabala_chabala = castle
 b_sioda_chabala = city
 b_nyudi_chabala = city
 

@@ -6,11 +6,11 @@ title = c_ilici # for example c_corinth
 # Settlements
 max_settlements = 3
 b_ilici_ilici = tribal
-#b_thiar_ilici = city
+#b_thiar_ilici = castle
 #b_fortuna_ilici = temple
-#b_iaspis_ilici = city
+#b_iaspis_ilici = castle
 #b_illikitanos_limen_ilici = city
-#b_marruca_ilici = city
+#b_marruca_ilici = castle
 #b_ipagrum_ilici = city
 
 # Misc

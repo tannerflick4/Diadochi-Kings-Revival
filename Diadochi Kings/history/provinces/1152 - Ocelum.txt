@@ -6,12 +6,12 @@ title = c_ocelum
 # Settlements
 max_settlements = 4
 b_ocelum_ocelum = tribal
-#b_veniatia_ocelum = city
+#b_veniatia_ocelum = castle
 #b_vicus_aquarius_ocelum = city
 #b_preterion_ocelum = city
-#b_petavonium_ocelum = city
+#b_petavonium_ocelum = castle
 b_tera_ocelum = temple
-#b_aliste_ocelum = city
+#b_aliste_ocelum = castle
 
 # Misc
 culture = gallaecian

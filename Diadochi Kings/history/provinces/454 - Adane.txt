@@ -7,7 +7,7 @@ title = c_adane
 max_settlements = 3
 b_adane_adane = tribal
 #b_mesala_adane = city
-#b_abisama_adane = city
+#b_abisama_adane = castle
 
 # Misc
 culture = arabic

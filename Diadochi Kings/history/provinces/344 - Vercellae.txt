@@ -10,8 +10,8 @@ b_vercellae_vercellae = tribal
 #b_rigomagus_vercellae = city
 #b_carbantia_vercellae = city
 #b_retovium_vercellae = city
-#b_laumellum_vercellae = city
-#b_plumbia_vercellae = city
+#b_laumellum_vercellae = castle
+#b_plumbia_vercellae = castle
 
 # Misc
 culture = gaul

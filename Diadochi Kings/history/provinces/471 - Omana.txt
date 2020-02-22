@@ -7,7 +7,7 @@ title = c_omana
 max_settlements = 4
 b_omana_omana = tribal
 #b_atta_omana = city
-#b_muftala_omana = city
+#b_muftala_omana = castle
 #b_domana_omana = city
 
 # Misc

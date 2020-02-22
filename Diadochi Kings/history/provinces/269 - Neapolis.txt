@@ -5,11 +5,11 @@ title = c_neapolis_samothrace
 
 # Settlements
 max_settlements = 4
-b_neapolis_neapolis_samothrace = city
+b_neapolis_neapolis_samothrace = castle
 #b_krenides_neapolis_samothrace = city
 b_akontisma_neapolis_samothrace = temple
 b_pistyros_neapolis_samothrace = city
-#b_purdae_neapolis_samothrace = city
+#b_purdae_neapolis_samothrace = castle
 #b_oisyme_neapolis_samothrace = city
 #b_antisara_neapolis_samothrace = city
 

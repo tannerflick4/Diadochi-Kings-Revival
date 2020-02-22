@@ -5,10 +5,10 @@ title = c_opis
 
 # Settlements
 max_settlements = 7
-b_opis_opis = city
+b_opis_opis = castle
 b_aberta_opis = temple
 b_bagdata_opis = city
-b_aspanbor_opis = city
+b_aspanbor_opis = castle
 b_coche_opis = city
 
 # Possible baronies: (Always add a # in front of a line with these!)

@@ -6,8 +6,8 @@ title = c_caprasia
 # Settlements
 max_settlements = 4
 b_caprasia_caprasia = tribal
-#b_clampetia_caprasia = city
-#b_thebae_lucanae_caprasia = city
+#b_clampetia_caprasia = castle
+#b_thebae_lucanae_caprasia = castle
 #b_interamnum_caprasia = city
 b_aulugum_caprasia = temple
 #b_cerilli_caprasia = city

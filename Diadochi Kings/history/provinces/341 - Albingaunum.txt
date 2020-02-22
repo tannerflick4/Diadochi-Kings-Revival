@@ -6,7 +6,7 @@ title = c_albingaunum # for example c_corinth
 # Settlements
 max_settlements = 3
 b_albingaunum_albingaunum = tribal
-#b_pullopice_albingaunum = city
+#b_pullopice_albingaunum = castle
 #b_albium_intilium_albingaunum = city
 
 # Misc

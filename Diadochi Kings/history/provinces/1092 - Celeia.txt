@@ -6,10 +6,10 @@ title = c_celeia
 # Settlements
 max_settlements = 4
 b_celeia_celeia = tribal
-#b_atrans_celeia = city
-#b_upellis_celeia = city
+#b_atrans_celeia = castle
+#b_upellis_celeia = castle
 b_ragando_celeia = temple
-#b_ad_lotodos_celeia = city
+#b_ad_lotodos_celeia = castle
 #b_colatio_celeia = city
 #b_sempeter_celeia = city
 

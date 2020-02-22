@@ -5,7 +5,7 @@ title = c_sada
 
 # Settlements
 max_settlements = 2
-b_sada_sada = city
+b_sada_sada = castle
 b_mayuragiri_sada = temple
 
 # Misc

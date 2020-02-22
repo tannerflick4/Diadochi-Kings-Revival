@@ -8,7 +8,7 @@ max_settlements = 4
 b_siga_siga = tribal
 #b_camarata_siga = city
 #b_tepidae_siga = city
-#b_pomaria_siga = city
+#b_pomaria_siga = castle
 
 # Misc
 culture = berber

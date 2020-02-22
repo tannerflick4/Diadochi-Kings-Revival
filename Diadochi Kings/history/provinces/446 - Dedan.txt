@@ -6,7 +6,7 @@ title = c_dedan
 # Settlements
 max_settlements = 5
 b_dedan_dedan = tribal
-#b_egra_dedan = city
+#b_egra_dedan = castle
 b_badais_dedan = temple
 #b_akra_dedan = city
 #b_phoinikon_kome = city

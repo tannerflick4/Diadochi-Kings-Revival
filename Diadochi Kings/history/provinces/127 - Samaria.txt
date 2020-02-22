@@ -5,11 +5,11 @@ title = c_samaria
 
 # Settlements
 max_settlements = 5
-b_samaria_samaria = city
+b_samaria_samaria = castle
 b_geth_samaria = temple
 b_roob_samaria = city
-b_sepphoris_samaria = city
-b_narbata_samaria = city
+b_sepphoris_samaria = castle
+b_narbata_samaria = castle
 
 # Misc
 culture = israelite

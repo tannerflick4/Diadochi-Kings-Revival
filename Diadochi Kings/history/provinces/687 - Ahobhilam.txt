@@ -5,7 +5,7 @@ title = c_ahobhilam
 
 # Settlements
 max_settlements = 2
-b_ahobhilam_ahobhilam = city
+b_ahobhilam_ahobhilam = castle
 b_kottis_ahobhilam = city
 
 # Misc

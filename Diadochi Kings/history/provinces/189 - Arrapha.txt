@@ -5,10 +5,10 @@ title = c_arrapha
 
 # Settlements
 max_settlements = 4
-b_arrapha_arrapha = city
+b_arrapha_arrapha = castle
 b_nashom_arrapha = temple
 b_nuzi_arrapha = city
-b_arzuhin_arrapha = city
+b_arzuhin_arrapha = castle
 
 # Misc
 culture = aramaic

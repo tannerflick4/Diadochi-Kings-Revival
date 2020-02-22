@@ -6,7 +6,7 @@ title = c_poratamata
 # Settlements
 max_settlements = 2
 b_poratamata_poratamata = tribal
-#b_vadasca_poratamata = city
+#b_vadasca_poratamata = castle
 
 # Misc
 culture = scythian

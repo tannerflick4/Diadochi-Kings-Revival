@@ -5,8 +5,8 @@ title = c_dantipura
 
 # Settlements
 max_settlements = 2
-b_dantipura_dantipura = city
-b_eragassa_dantipura = city
+b_dantipura_dantipura = castle
+b_eragassa_dantipura = castle
 
 # Misc
 culture = maharashtri

@@ -6,9 +6,9 @@ title = c_thizika
 # Settlements
 max_settlements = 5
 b_matar_thizika = city
-b_thizika_thizika = city
+b_thizika_thizika = castle
 b_uzali_sar = temple
-b_ureu_thizika = city
+b_ureu_thizika = castle
 b_abitina_thizika = temple
 
 # Misc

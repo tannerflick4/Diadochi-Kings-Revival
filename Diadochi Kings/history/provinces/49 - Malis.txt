@@ -5,13 +5,13 @@ title = c_malis
 
 # Settlements
 max_settlements = 4
-b_daphnous_malis = city
+b_daphnous_malis = castle
 b_herakleia_malis = temple
 b_lamia_malis = city
 b_larissa_kremaste_malis = city
-#b_kallidromon_malis = city
+#b_kallidromon_malis = castle
 #b_phalara_malis = city
-#b_hypate_malis = city
+#b_hypate_malis = castle
 
 # Misc
 culture = doric

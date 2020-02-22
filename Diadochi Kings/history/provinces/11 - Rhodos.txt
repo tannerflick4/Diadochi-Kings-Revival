@@ -7,7 +7,7 @@ max_settlements = 4 # Should be reevaluated
 b_rhodos_rhodos = city
 b_lindos_rhodos = temple
 b_ialyssos_rhodos = city
-b_kameiros_rhodos = city
+b_kameiros_rhodos = castle
 
 # Misc
 culture = doric

@@ -5,7 +5,7 @@ title = c_hibis
 
 # Settlements
 max_settlements = 3
-b_hibis_hibis = city
+b_hibis_hibis = castle
 b_parammon_hibis = temple
 b_tchonemyris_hibis = city
 

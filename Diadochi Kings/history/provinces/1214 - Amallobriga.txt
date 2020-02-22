@@ -10,8 +10,8 @@ b_amallobriga_amallobriga = tribal
 #b_gella_amallobriga = temple
 #b_intercatia_amallobriga = city
 #b_iuliobriga_amallobriga = city
-#b_tritium_amallobriga = city
-#b_autraka_amallobriga = city
+#b_tritium_amallobriga = castle
+#b_autraka_amallobriga = castle
 
 # Misc
 culture = celtiberian

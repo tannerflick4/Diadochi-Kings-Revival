@@ -5,10 +5,10 @@ title = c_mohodayapur
 
 # Settlements
 max_settlements = 4
-b_mohodayapur_mohodayapur = city
-b_aloe_mohodayapur = city
+b_mohodayapur_mohodayapur = castle
+b_aloe_mohodayapur = castle
 b_tropina_mohodayapur = city
-b_paloura_mohodayapur = city
+b_paloura_mohodayapur = castle
 
 # Misc
 culture = tamil

@@ -8,10 +8,10 @@ max_settlements = 2
 b_caladunum_caladunum = tribal
 #b_aquae_flaviae_caladunum = city
 #b_forum_limicorum_caladunum = city
-#b_vicus_atucausensis_caladunum = city
+#b_vicus_atucausensis_caladunum = castle
 #b_oculis_caladunum = temple
-#b_lamecum_caladunum = city
-#b_praesidio_caladunum = city
+#b_lamecum_caladunum = castle
+#b_praesidio_caladunum = castle
 
 # Misc
 culture = gallaecian

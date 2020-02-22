@@ -5,7 +5,7 @@ title = c_lobrata
 
 # Settlements
 max_settlements = 1
-b_lobrata_lobrata = city
+b_lobrata_lobrata = castle
 
 # Misc
 culture = chorasmian

@@ -5,7 +5,7 @@ title = c_tabus
 
 # Settlements
 max_settlements = 3
-b_tabus_tabus = city
+b_tabus_tabus = castle
 b_darium_tabus = temple
 b_ecbatana_tabus = city
 

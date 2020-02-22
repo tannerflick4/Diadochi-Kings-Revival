@@ -13,6 +13,128 @@
  
  # City
 city = {
+	# Wall quality, gives fortlevel
+	ct_wall_q_1 = {
+		desc = ct_wall_q_1_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		gold_cost = 50
+		build_time = 182
+		fort_level = 0.5
+		ai_creation_factor = 80
+		
+		extra_tech_building_start = 1.0
+	}
+	ct_wall_q_2 = {
+		desc = ct_wall_q_2_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
+		upgrades_from = ct_wall_q_1
+		prerequisites = { ct_wall_1 }
+		gold_cost = 50
+		build_time = 182
+		fort_level = 0.5
+		ai_creation_factor = 79
+
+		extra_tech_building_start = 1.4
+	}
+	ct_wall_q_3 = {
+		desc = ct_wall_q_3_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 3 }
+		upgrades_from = ct_wall_q_2
+		gold_cost = 50
+		build_time = 182
+		fort_level = 0.5
+		ai_creation_factor = 78
+		
+		extra_tech_building_start = 1.2
+	}
+	ct_wall_q_4 = {
+		desc = ct_wall_q_4_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 5 }
+		upgrades_from = ct_wall_q_3
+		gold_cost = 100
+		build_time = 365
+		fort_level = 1.0
+		ai_creation_factor = 77
+		
+		extra_tech_building_start = 0.8
+	}
+	ct_wall_q_5 = {
+		desc = ct_wall_q_5_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 7 }
+		upgrades_from = ct_wall_q_4
+		gold_cost = 100
+		build_time = 365
+		fort_level = 1.0
+		ai_creation_factor = 76
+
+		extra_tech_building_start = 0.4
+	}
+	
+	#Walls, gives fortlevel, levysize and income
+	ct_wall_1 = {
+		desc = ct_wall_1_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		gold_cost = 50
+		build_time = 365
+		fort_level = 0.5
+		levy_size = 0.025
+		tax_income = 0.2
+		ai_creation_factor = 90
+		
+		extra_tech_building_start = 1.0
+	}
+	ct_wall_2 = {
+		desc = ct_wall_2_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
+		upgrades_from = ct_wall_1
+		gold_cost = 50
+		build_time = 547 #1.5y
+		fort_level = 0.5
+		levy_size = 0.025
+		tax_income = 0.2
+		ai_creation_factor = 89
+		
+		extra_tech_building_start = 1.4
+	}
+	ct_wall_3 = {
+		desc = ct_wall_3_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
+		upgrades_from = ct_wall_2
+		gold_cost = 100
+		build_time = 730 #2y
+		fort_level = 1.0
+		levy_size = 0.05
+		tax_income = 0.2
+		ai_creation_factor = 88
+
+		extra_tech_building_start = 1.2
+	}
+	ct_wall_4 = {
+		desc = ct_wall_4_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
+		upgrades_from = ct_wall_3
+		gold_cost = 150
+		build_time = 1095 #3y
+		fort_level = 1.0
+		levy_size = 0.05
+		tax_income = 0.2
+		ai_creation_factor = 87
+
+		extra_tech_building_start = 0.8
+	}
+	ct_wall_5 = {
+		desc = ct_wall_5_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 8 }
+		upgrades_from = ct_wall_4
+		gold_cost = 150
+		build_time = 1460 #4y
+		fort_level = 1.5
+		levy_size = 0.1
+		tax_income = 0.5
+		ai_creation_factor = 86
+
+		extra_tech_building_start = 0.4
+	}
 
 	#Keeps, gives levy and garrison size
 	ct_keep_1 = {
@@ -139,6 +261,122 @@ city = {
 		extra_tech_building_start = 0.5
 	}
 
+	#Training grounds, gives morale and reinforce rate
+	ct_training_grounds_1 = {
+		desc = ct_training_grounds_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ct_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		land_morale = 0.1
+		levy_reinforce_rate = 0.1
+		retinuesize = 20
+		ai_creation_factor = 89
+
+		extra_tech_building_start = 1.2
+	}
+	ct_training_grounds_2 = {
+		desc = ct_training_grounds_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		upgrades_from = ct_training_grounds_1
+		gold_cost = 250
+		build_time = 1095
+		land_morale = 0.15
+		levy_reinforce_rate = 0.15
+		retinuesize = 20
+		ai_creation_factor = 88
+		
+		extra_tech_building_start = 1.0
+	}
+	ct_training_grounds_3 = {
+		desc = ct_training_grounds_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 6 }
+		upgrades_from = ct_training_grounds_2
+		gold_cost = 300
+		build_time = 2190
+		land_morale = 0.2
+		levy_reinforce_rate = 0.2
+		retinuesize = 20
+		ai_creation_factor = 88
+		
+		extra_tech_building_start = 1.0
+	}
+	
+	# Barracks, gives heavy infantry and pikemen
+	ct_barracks_1 = {
+		desc = ct_barracks_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		heavy_infantry = 30
+		pikemen = 15
+		ai_creation_factor = 105
+		
+		extra_tech_building_start = 1.0
+	}
+	ct_barracks_2 = {
+		desc = ct_barracks_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ct_wall_1 }
+		upgrades_from = ct_barracks_1
+		gold_cost = 120
+		build_time = 547
+		heavy_infantry = 40
+		pikemen = 15
+		ai_creation_factor = 104
+		
+		extra_tech_building_start = 2.2
+	}
+	ct_barracks_3 = {
+		desc = ct_barracks_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
+		prerequisites = { ct_wall_2 }
+		upgrades_from = ct_barracks_2
+		gold_cost = 200
+		build_time = 730
+		heavy_infantry = 45
+		pikemen = 20
+		ai_creation_factor = 103
+
+		extra_tech_building_start = 3.0
+	}
+	ct_barracks_4 = {
+		desc = ct_barracks_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		upgrades_from = ct_barracks_3
+		gold_cost = 300
+		build_time = 1095
+		heavy_infantry = 50
+		pikemen = 25
+		ai_creation_factor = 102
+
+		extra_tech_building_start = 3.0
+	}
+	ct_barracks_5 = {
+		desc = ct_barracks_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+		upgrades_from = ct_barracks_4
+		gold_cost = 400
+		build_time = 2190
+		heavy_infantry = 60
+		pikemen = 25
+		ai_creation_factor = 101
+
+		extra_tech_building_start = 2.0
+	}
+	ct_barracks_6 = {
+		desc = ct_barracks_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 7 }
+		upgrades_from = ct_barracks_5
+		gold_cost = 500
+		build_time = 2190
+		heavy_infantry = 65
+		pikemen = 30
+		ai_creation_factor = 100
+
+		extra_tech_building_start = 0.2
+	}
+	
 	#Stable, gives light cavalry and some heavy cavalry
 	ct_stable_1 = {
 		desc = ct_stable_1_desc
@@ -284,6 +522,57 @@ city = {
 
 		court_size_modifier = 1
 		extra_tech_building_start = 0.2
+	}
+	
+	ct_shipyard_1 = {
+		desc = shipyard_desc
+		port = yes
+		trigger = { TECH_NAVAL = 1 }
+		gold_cost = 100
+		build_time = 365
+		galleys = 6
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 0.3
+	}
+	
+	ct_shipyard_2 = {
+		desc = shipyard_desc
+		port = yes
+		trigger = { TECH_NAVAL = 2 }
+		upgrades_from = ct_shipyard_1
+		gold_cost = 100
+		build_time = 730
+		galleys = 7
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 0.3
+	}
+	
+	ct_shipyard_3 = {
+		desc = shipyard_desc
+		port = yes
+		trigger = { TECH_NAVAL = 3 }
+		upgrades_from = ct_shipyard_2
+		gold_cost = 100
+		build_time = 1095
+		galleys = 8
+		ai_creation_factor = 98
+		
+		extra_tech_building_start = 0.3
+	}
+	
+	ct_shipyard_4 = {
+		desc = shipyard_desc
+		port = yes
+		trigger = { TECH_NAVAL = 4 }
+		upgrades_from = ct_shipyard_3
+		gold_cost = 100
+		build_time = 1460
+		galleys = 9
+		ai_creation_factor = 97
+		
+		extra_tech_building_start = 0.3
 	}
 
 	#Castellan Bloodline buildings.

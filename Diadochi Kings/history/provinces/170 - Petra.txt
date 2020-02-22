@@ -8,8 +8,8 @@ max_settlements = 6
 b_petra_petra = tribal
 b_sobora_petra = temple
 #b_negla_petra = city
-#b_manopsora_petra = city
-#b_phaino_petra = city
+#b_manopsora_petra = castle
+#b_phaino_petra = castle
 
 
 # Possible baronies: (Always add a # in front of a line with these!)

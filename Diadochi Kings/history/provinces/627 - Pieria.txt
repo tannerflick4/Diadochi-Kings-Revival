@@ -5,13 +5,13 @@ title = c_pieria
 
 # Settlements
 max_settlements = 5
-b_aigai_pieria = city
+b_aigai_pieria = castle
 b_pydna_pieria = city
 b_methone_pieria = city
 b_dion_pieria = temple
 b_pimpleia_pieria = city
-#b_berroia_pieria = city
-#b_aloros_pieria = city
+#b_berroia_pieria = castle
+#b_aloros_pieria = castle
 
 # Misc
 culture = macedonian

@@ -5,10 +5,10 @@ title = c_polemonion # for example c_corinth
 
 # Settlements
 max_settlements = 4
-b_polemonion_polemonion = city
+b_polemonion_polemonion = castle
 b_phabda_polemonion = temple
 b_stamene_polemonion = city
-b_sauronisena_polemonion = city
+b_sauronisena_polemonion = castle
 
 # Misc
 culture = ionian

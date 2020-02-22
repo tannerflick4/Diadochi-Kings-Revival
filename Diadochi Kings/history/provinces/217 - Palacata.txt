@@ -5,10 +5,10 @@ title = c_paracata
 
 # Settlements
 max_settlements = 4
-b_paracata_paracata = city
+b_paracata_paracata = castle
 b_catispi_paracata = temple
 b_arxata_paracata = city
-b_shawarshan_paracata = city
+b_shawarshan_paracata = castle
 
 # Misc
 culture = armenian

@@ -6,10 +6,10 @@ title = c_compleutica
 # Settlements
 max_settlements = 3
 b_compleutica_compleutica = tribal
-#b_civitas_baniensium_compleutica = city
+#b_civitas_baniensium_compleutica = castle
 #b_vicus_vagornicensis_compleutica = city
-#b_civitas_zoelarum_compleutica = city
-#b_urros_compleutica = city
+#b_civitas_zoelarum_compleutica = castle
+#b_urros_compleutica = castle
 #b_pedra_compleutica = temple
 #b_carasta_compleutica = city
 

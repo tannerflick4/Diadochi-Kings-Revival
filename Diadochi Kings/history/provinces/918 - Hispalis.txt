@@ -6,10 +6,10 @@ title = c_hispalis
 # Settlements
 max_settlements = 5
 b_hispalis_hispalis = tribal
-#b_lucurgentum_hispalis = city
-#b_salpensa_hispalis = city
-#b_siarum_hispalis = city
-#b_callet_hispalis = city
+#b_lucurgentum_hispalis = castle
+#b_salpensa_hispalis = castle
+#b_siarum_hispalis = castle
+#b_callet_hispalis = castle
 #b_urgia_hispalis = city
 #b_orippo_hispalis = city
 

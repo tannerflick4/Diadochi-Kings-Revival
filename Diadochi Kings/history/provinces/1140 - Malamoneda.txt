@@ -6,11 +6,11 @@ title = c_malamoneda
 # Settlements
 max_settlements = 3
 b_malamoneda_malamoneda = tribal
-#b_linares_malamoneda = city
+#b_linares_malamoneda = castle
 #b_caesarobriga_malamoneda = city
 #b_augustobriga_malamoneda = city
-#b_castra_postumiana_malamoneda = city
-#b_ad_novias_malamoneda = city
+#b_castra_postumiana_malamoneda = castle
+#b_ad_novias_malamoneda = castle
 #b_detumo_malamoneda = temple
 
 # Misc

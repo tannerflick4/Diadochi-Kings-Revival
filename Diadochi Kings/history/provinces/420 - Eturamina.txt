@@ -6,12 +6,12 @@ title = c_eturamina
 # Settlements
 max_settlements = 4
 b_eturamina_eturamina = tribal
-#b_sanitium_eturamina = city
-#b_salinae_eturamina = city
-#b_brigomagus_eturamina = city
+#b_sanitium_eturamina = castle
+#b_salinae_eturamina = castle
+#b_brigomagus_eturamina = castle
 #b_glanate_eturamina = city
 #b_vintium_eturamina = city
-#b_cuntinus_eturamina = city
+#b_cuntinus_eturamina = castle
 
 # Misc
 culture = gaul

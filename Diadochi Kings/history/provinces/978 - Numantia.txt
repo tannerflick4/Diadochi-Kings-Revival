@@ -6,9 +6,9 @@ title = c_numantia
 # Settlements
 max_settlements = 5
 b_numantia_numantia = tribal
-#b_ouisontion_numantia = city
+#b_ouisontion_numantia = castle
 #b_calagurris_nasica_iulia_numantia = city
-#b_contrebia_leucada_numantia = city
+#b_contrebia_leucada_numantia = castle
 #b_casantum_numantia = city
 b_vareia_numantia = temple
 #b_ilurcis_numantia = city

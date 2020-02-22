@@ -5,7 +5,7 @@ title = c_sautaska
 
 # Settlements
 max_settlements = 3
-b_sautaska_sautaska = city
+b_sautaska_sautaska = castle
 b_askaca_sautaska = city
 b_abragasti_sautaska = temple
 

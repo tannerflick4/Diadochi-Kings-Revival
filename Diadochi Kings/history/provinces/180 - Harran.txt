@@ -5,10 +5,10 @@ title = c_harran
 
 # Settlements
 max_settlements = 4
-b_harran_harran = city
+b_harran_harran = castle
 b_alagma_harran = temple
 b_dabana_harran = city
-b_fadana_harran = city
+b_fadana_harran = castle
 
 # Misc
 culture = aramaic

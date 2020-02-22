@@ -9,8 +9,8 @@ b_badua_badua = tribal
 #b_augusta_emerita_badua = city
 #b_evandriana_badua = city
 #b_plagiaria_badua = city
-#b_ad_atrum_flumen_badua = city
-#b_ad_septem_aras_badua = city
+#b_ad_atrum_flumen_badua = castle
+#b_ad_septem_aras_badua = castle
 b_melchor_badua = temple
 
 # Misc

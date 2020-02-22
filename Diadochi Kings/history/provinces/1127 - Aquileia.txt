@@ -6,10 +6,10 @@ title = c_aquileia
 # Settlements
 max_settlements = 4
 b_aquileia_aquileia = tribal
-#b_forum_iulii_aquileia = city
+#b_forum_iulii_aquileia = castle
 #b_gradus_aquileia = city
-#b_ad_undecimum_aquileia = city
-#b_artenia_aquileia = city
+#b_ad_undecimum_aquileia = castle
+#b_artenia_aquileia = castle
 #b_osopus_aquileia = city
 #b_fons_timavi_aquileia = temple
 

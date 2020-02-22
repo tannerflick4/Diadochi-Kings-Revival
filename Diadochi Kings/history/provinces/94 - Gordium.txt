@@ -5,10 +5,10 @@ title = c_gordium # for example c_corinth
 
 # Settlements
 max_settlements = 4
-b_gordium_gordium = city
+b_gordium_gordium = castle
 b_aurania_gordium = temple
 b_mnizos_gordium = city
-b_spaleia_gordium = city
+b_spaleia_gordium = castle
 
 # Misc
 culture = phrygian

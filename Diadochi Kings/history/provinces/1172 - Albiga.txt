@@ -9,9 +9,9 @@ b_albiga_albiga = tribal
 #b_cedros_albiga = city
 #b_hebromagus_albiga = city
 #b_pteregontio_albiga = temple
-#b_buxio_albiga = city
+#b_buxio_albiga = castle
 #b_marinio_albiga = temple
-#b_marcialio_albiga = city
+#b_marcialio_albiga = castle
 
 # Misc
 culture = gaul

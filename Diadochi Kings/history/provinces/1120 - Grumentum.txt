@@ -7,9 +7,9 @@ title = c_grumentum
 max_settlements = 5
 b_grumentum_grumentum = tribal
 #b_skidros_grumentum = city
-#b_vico_mendicoleo_grumentum = city
-#b_statio_caesariana_grumentum = city
-#b_consilinum_grumentum = city
+#b_vico_mendicoleo_grumentum = castle
+#b_statio_caesariana_grumentum = castle
+#b_consilinum_grumentum = castle
 #b_cesernia_grumentum = city
 #b_bianda_grumentum = city
 

@@ -5,10 +5,10 @@ title = c_pelusium
 
 # Settlements
 max_settlements = 4
-b_pelusium_pelusium = city
+b_pelusium_pelusium = castle
 b_ostrakine_pelusium = temple
 b_rhinocolura_pelusium = city
-b_gerra_pelusium = city
+b_gerra_pelusium = castle
 
 # Misc
 culture = egyptian

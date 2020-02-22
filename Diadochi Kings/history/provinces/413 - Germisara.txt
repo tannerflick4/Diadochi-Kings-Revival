@@ -6,7 +6,7 @@ title = c_germisara
 # Settlements
 max_settlements = 4
 b_germisara_germisara = tribal
-#b_rosia_montana_germisara = city
+#b_rosia_montana_germisara = castle
 #b_piatra_craivii_germisara = city
 
 # Possible baronies: (Always add a # in front of a line with these!)

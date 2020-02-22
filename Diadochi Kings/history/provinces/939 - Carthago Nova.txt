@@ -9,8 +9,8 @@ b_eliocroca_carthago_nova = tribal
 b_carthago_nova_carthago_nova = city
 #b_ficariensis_locus_carthago_nova = temple
 #b_longuntica_carthago_nova = city
-#b_baria_carthago_nova = city
-#b_ad_morum_carthago_nova = city
+#b_baria_carthago_nova = castle
+#b_ad_morum_carthago_nova = castle
 #b_calecula_carthago_nova = city
 
 # Misc

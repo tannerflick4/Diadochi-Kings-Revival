@@ -5,12 +5,12 @@ title = c_vetulonia # for example c_corinth
 
 # Settlements
 max_settlements = 4
-b_vetulonia_vetulonia = city
+b_vetulonia_vetulonia = castle
 b_rusellae_vetulonia = city
-#b_aquae_volaterranae_vetulonia = city
+#b_aquae_volaterranae_vetulonia = castle
 b_populonia_vetulonia = city
 #b_falesia_vetulonia = city
-#b_aquae_populoniae_vetulonia = city
+#b_aquae_populoniae_vetulonia = castle
 b_salebro_vetulonia = temple
 
 # Misc

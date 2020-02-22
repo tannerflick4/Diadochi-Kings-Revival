@@ -7,10 +7,10 @@ title = c_seuthopolis # for example c_corinth
 max_settlements = 5
 b_seuthopolis_seuthopolis = tribal
 b_longinopara_seuthopolis = temple
-#b_viamata_seuthopolis = city
+#b_viamata_seuthopolis = castle
 #b_diocletianopolis_seuthopolis = city
-#b_sostra_seuthopolis = city
-#b_melta_seuthopolis = city
+#b_sostra_seuthopolis = castle
+#b_melta_seuthopolis = castle
 #b_doriones_seuthopolis = city
 
 # Misc

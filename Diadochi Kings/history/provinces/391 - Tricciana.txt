@@ -9,9 +9,9 @@ b_tricciana_tricciana = tribal
 #b_limusa_tricciana = city
 #b_altinum_tricciana = city
 #b_iovia_tricciana = city
-#b_silicenis_tricciana = city
-#b_ad_novas_tricciana = city
-#b_ad_militare_tricciana = city
+#b_silicenis_tricciana = castle
+#b_ad_novas_tricciana = castle
+#b_ad_militare_tricciana = castle
 
 # Misc
 culture = illyrian

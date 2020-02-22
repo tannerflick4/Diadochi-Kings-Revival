@@ -9,8 +9,8 @@ b_burdigala_burdigala = tribal
 #b_cossium_burdigala = city
 #b_alingo_burdigala = city
 b_praemiacum_burdigala = temple
-#b_stomatas_burdigala = city
-#b_ad_sextum_burdigala = city
+#b_stomatas_burdigala = castle
+#b_ad_sextum_burdigala = castle
 #b_bucconis_burdigala = city
 
 # Misc

@@ -5,7 +5,7 @@ title = c_meroe
 
 # Settlements
 max_settlements = 6
-b_meroe_meroe = city
+b_meroe_meroe = castle
 b_hafir_meroe = temple
 b_araba_meroe = city
 b_mallo_meroe = city

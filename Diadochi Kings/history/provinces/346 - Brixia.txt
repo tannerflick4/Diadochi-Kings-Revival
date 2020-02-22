@@ -7,11 +7,11 @@ title = c_brixia # for example c_corinth
 max_settlements = 5
 b_brixia_brixia = tribal
 #b_anneianum_brixia = city
-#b_civitas_camunnorum_brixia = city
-#b_voberna_brixia = city
+#b_civitas_camunnorum_brixia = castle
+#b_voberna_brixia = castle
 #b_sirmio_brixia = city
 b_bretina_brixia = temple
-#b_ligeris_brixia = city
+#b_ligeris_brixia = castle
 
 # Misc
 culture = gaul

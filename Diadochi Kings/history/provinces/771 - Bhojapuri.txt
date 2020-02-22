@@ -5,7 +5,7 @@ title = c_bhojapuri
 
 # Settlements
 max_settlements = 1
-b_bhojapuri_bhojapuri = city
+b_bhojapuri_bhojapuri = castle
 
 # Misc
 culture = maharashtri

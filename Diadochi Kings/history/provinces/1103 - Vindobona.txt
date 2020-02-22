@@ -6,12 +6,12 @@ title = c_vindobona
 # Settlements
 max_settlements = 4
 b_vindobona_vindobona = tribal
-#b_asturis_vindobona = city
+#b_asturis_vindobona = castle
 #b_cannabiaca_vindobona = city
 #b_augustiana_vindobona = city
 #b_hernalis_vindobona = city
 #b_solva_vindobona = temple
-#b_comagena_vindobona = city
+#b_comagena_vindobona = castle
 
 # Misc
 culture = gaul

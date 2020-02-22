@@ -6,7 +6,7 @@ title = c_koufra
 # Settlements
 max_settlements = 2
 b_koufra_koufra = tribal
-#b_buma_koufra = city
+#b_buma_koufra = castle
 
 # Misc
 culture = berber

@@ -7,11 +7,11 @@ title = c_verona # for example c_corinth
 max_settlements = 4
 b_verona_verona = tribal
 #b_auraei_verona = city
-#b_cadianum_verona = city
+#b_cadianum_verona = castle
 #b_vicetia_verona = city
-#b_vennum_verona = city
-#b_sarnis_verona = city
-#b_castrum_volaenes_verona = city
+#b_vennum_verona = castle
+#b_sarnis_verona = castle
+#b_castrum_volaenes_verona = castle
 
 # Misc
 culture = gaul

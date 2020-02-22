@@ -5,10 +5,10 @@ title = c_cius # for example c_corinth
 
 # Settlements
 max_settlements = 5
-b_cius_cius = city
+b_cius_cius = castle
 b_apollonia_cius = temple
 b_myrleia_cius = city
-b_eikote_cius = city
+b_eikote_cius = castle
 
 # Possible baronies: (Always add a # in front of a line with these!)
 # b_prusa_cius

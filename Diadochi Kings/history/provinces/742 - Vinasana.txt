@@ -5,7 +5,7 @@ title = c_vinasana
 
 # Settlements
 max_settlements = 2
-b_vinasana_vinasana = city
+b_vinasana_vinasana = castle
 b_sankha_vinasana = city
 
 # Misc

@@ -7,10 +7,10 @@ title = c_pistoros
 max_settlements = 4
 b_pistoros_pistoros = tribal
 #b_bessapara_pistoros = city
-#b_soneio_pistoros = city
+#b_soneio_pistoros = castle
 #b_egerica_pistoros = temple
 #b_helice_pistoros = city
-#b_sparata_pistoros = city
+#b_sparata_pistoros = castle
 #b_nicopolis_ad_nestum_pistoros = city
 
 # Misc

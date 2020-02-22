@@ -5,10 +5,10 @@ title = c_ipsus # for example c_corinth
 
 # Settlements
 max_settlements = 4
-b_ipsus_ipsus = city
+b_ipsus_ipsus = castle
 b_dokimeion_ipsus = temple
 b_brouzos_ipsus = city
-b_prymnessos_ipsus = city
+b_prymnessos_ipsus = castle
 
 # Misc
 culture = phrygian

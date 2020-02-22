@@ -7,11 +7,11 @@ title = c_acci
 max_settlements = 5
 b_acci_acci = tribal
 #b_iliberri_acci = city
-#b_vergilia_acci = city
-#b_iliturgicola_acci = city
+#b_vergilia_acci = castle
+#b_iliturgicola_acci = castle
 #b_aiungi_acci = city
 #b_sosontigi_acci = city
-#b_aurgi_acci = city
+#b_aurgi_acci = castle
 
 # Misc
 culture = iberian

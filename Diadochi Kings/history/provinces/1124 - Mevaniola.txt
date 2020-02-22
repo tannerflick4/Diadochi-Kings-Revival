@@ -6,10 +6,10 @@ title = c_mevaniola
 # Settlements
 max_settlements = 2
 b_mevaniola_mevaniola = tribal
-#b_ad_fines_mevaniola = city
-#b_castellum_mevaniola = city
-#b_monteferetra_mevaniola = city
-#b_pitinum_pisaurense_mevaniola = city
+#b_ad_fines_mevaniola = castle
+#b_castellum_mevaniola = castle
+#b_monteferetra_mevaniola = castle
+#b_pitinum_pisaurense_mevaniola = castle
 #b_forum_sempronii_mevaniola = city
 #b_trea_mevaniola = city
 

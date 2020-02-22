@@ -8,7 +8,7 @@ max_settlements = 4
 b_tamna_tamna = tribal
 #b_marimatha_tamna = city
 b_sarounon_tamna = temple
-#b_dela_tamna = city
+#b_dela_tamna = castle
 
 # Misc
 culture = arabic

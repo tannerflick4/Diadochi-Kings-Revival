@@ -6,7 +6,7 @@ title = c_regiae
 # Settlements
 max_settlements = 4
 b_regiae_regiae = tribal
-#b_tasaccora_regiae = city
+#b_tasaccora_regiae = castle
 #b_albulae_regiae = city
 #b_puerorum_regiae = city
 

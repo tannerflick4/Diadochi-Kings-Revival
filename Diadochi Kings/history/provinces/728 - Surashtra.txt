@@ -5,7 +5,7 @@ title = c_surashtra
 
 # Settlements
 max_settlements = 3
-b_surashtra_surashtra = city
+b_surashtra_surashtra = castle
 b_nousaripa_surashtra = city
 b_poulipoula_surashtra = city
 

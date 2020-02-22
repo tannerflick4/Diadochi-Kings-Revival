@@ -5,8 +5,8 @@ title = c_alexandria_eschate
 
 # Settlements
 max_settlements = 3
-#b_alexandria_eschate_alexandria_eschate = city
-b_kurushkatha_alexandria_eschate = city # Cyropolis
+#b_alexandria_eschate_alexandria_eschate = castle
+b_kurushkatha_alexandria_eschate = castle # Cyropolis
 b_batkent_alexandria_eschate = city
 
 # Misc
@@ -16,6 +16,6 @@ religion = zoroastrian_main
 # History
 # Can be filled when things change around the province
 447.1.1 = { # 329 BC	
-	b_alexandria_eschate_alexandria_eschate = city
+	b_alexandria_eschate_alexandria_eschate = castle
 	capital = b_alexandria_eschate_alexandria_eschate
 }

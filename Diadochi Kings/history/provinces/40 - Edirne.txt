@@ -8,7 +8,7 @@ max_settlements = 3
 b_kypsela_orestias = tribal
 #b_colla_orestias = city
 #b_zorlanae_orestias = temple
-#b_syrascellae_orestias = city
+#b_syrascellae_orestias = castle
 #b_charioupolis_orestias = city
 
 # Misc

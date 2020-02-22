@@ -5,8 +5,8 @@ title = c_khiva
 
 # Settlements
 max_settlements = 4
-b_khiva_khiva = city
-b_boradvara_khiva = city
+b_khiva_khiva = castle
+b_boradvara_khiva = castle
 b_frisco_khiva = temple
 b_kutili_khiva = temple
 

@@ -9,9 +9,9 @@ b_barium_barium = tribal
 #b_natiolum_barium = city
 #b_azetium_barium = city
 #b_turum_barium = temple
-#b_turris_caesaris_barium = city
-#b_butuntum_barium = city
-#b_silvium_barium = city
+#b_turris_caesaris_barium = castle
+#b_butuntum_barium = castle
+#b_silvium_barium = castle
 
 # Misc
 culture = illyrian

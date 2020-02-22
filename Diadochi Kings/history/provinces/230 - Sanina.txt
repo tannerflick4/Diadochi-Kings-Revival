@@ -5,10 +5,10 @@ title = c_sanina
 
 # Settlements
 max_settlements = 4
-b_sanina_sanina = city
+b_sanina_sanina = castle
 b_gaetara_sanina = city
-b_camachia_sanina = city
-b_shemakha_sanina = city
+b_camachia_sanina = castle
+b_shemakha_sanina = castle
 
 # Misc
 culture = albanian

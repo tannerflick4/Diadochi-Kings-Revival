@@ -7,7 +7,7 @@ title = c_surcea
 max_settlements = 4
 b_surcea_surcea = tribal
 #b_sincraieni_surcea = city
-#b_covasna_surcea = city
+#b_covasna_surcea = castle
 
 # Possible baronies: (Always add a # in front of a line with these!)
 # b_angustia_surcea

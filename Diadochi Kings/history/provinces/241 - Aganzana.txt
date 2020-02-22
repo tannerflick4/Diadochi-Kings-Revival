@@ -5,10 +5,10 @@ title = c_aganzana
 
 # Settlements
 max_settlements = 4
-b_aganzana_aganzana = city
+b_aganzana_aganzana = castle
 b_gaza_aganzana = temple
 b_veraspe_aganzana = city
-b_vera_aganzana = city
+b_vera_aganzana = castle
 
 # Misc
 culture = median

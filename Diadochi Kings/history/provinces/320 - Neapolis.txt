@@ -5,13 +5,13 @@ title = c_neapolis # for example c_corinth
 
 # Settlements
 max_settlements = 4
-b_neapolis_neapolis = city
+b_neapolis_neapolis = castle
 b_herculaneum_neapolis = temple
 b_puteoli_neapolis = city
 b_misenum_neapolis = city
 #b_cumae_neapolis = city
 #b_volturnum_neapolis = city
-#b_atella_neapolis = city
+#b_atella_neapolis = castle
 
 # Misc
 culture = doric

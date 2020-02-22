@@ -5,7 +5,7 @@ title = c_ekalavya
 
 # Settlements
 max_settlements = 1
-b_ekalavya_ekalavya = city
+b_ekalavya_ekalavya = castle
 
 # Misc
 culture = shauraseni

@@ -5,7 +5,7 @@ title = c_phanagoria # for example c_corinth
 
 # Settlements
 max_settlements = 5
-b_phanagoria = city
+b_phanagoria = castle
 b_hermonassa_phanagoria = city
 b_satyrou_mnema_phanagoria = temple
 #b_tyrambe_phanagoria = temple

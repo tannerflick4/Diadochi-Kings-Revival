@@ -6,7 +6,7 @@ title = c_kawar
 # Settlements
 max_settlements = 2
 b_dirkou_kawar = tribal
-#b_bilma_kawar = city
+#b_bilma_kawar = castle
 
 # Misc
 culture = berber

@@ -5,10 +5,10 @@ title = c_cromiussa
 
 # Settlements
 max_settlements = 4
-b_kromioussa_cromiussa = city
+b_kromioussa_cromiussa = castle
 #b_pollentia_cromiussa = city
 #b_palmaria_cromiussa = temple
-b_bocchoris_cromiussa = city
+b_bocchoris_cromiussa = castle
 
 # Misc
 culture = punic

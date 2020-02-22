@@ -5,7 +5,7 @@ title = c_kalahasti
 
 # Settlements
 max_settlements = 2
-b_kalahasti_kalahasti = city
+b_kalahasti_kalahasti = castle
 b_melange_kalahasti = city
 
 # Misc

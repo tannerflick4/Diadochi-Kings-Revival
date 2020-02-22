@@ -7,8 +7,8 @@ title = c_tyras # for example c_corinth
 max_settlements = 4 
 b_tyras_tyras = city
 b_nikonion_tyras = city
-b_antiphilou_tyras = city
-b_kremniskoi_tyras = city
+b_antiphilou_tyras = castle
+b_kremniskoi_tyras = castle
 
 # Misc
 culture = ionian

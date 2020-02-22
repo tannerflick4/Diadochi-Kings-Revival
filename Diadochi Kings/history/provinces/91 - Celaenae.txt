@@ -5,10 +5,10 @@ title = c_celaenae # for example c_corinth
 
 # Settlements
 max_settlements = 4
-b_celaenae_celaenae = city
+b_celaenae_celaenae = castle
 b_motella_celaenae = temple
 b_temenouthyrai_celaenae = city
-b_akmonia_celaenae = city
+b_akmonia_celaenae = castle
 
 # Misc
 culture = phrygian

@@ -5,10 +5,10 @@ title = c_byblos
 
 # Settlements
 max_settlements = 4
-b_byblos_byblos = city
+b_byblos_byblos = castle
 b_nihata_byblos = temple
 b_berytus_byblos = city
-b_borrama_byblos = city
+b_borrama_byblos = castle
 
 # Misc
 culture = punic

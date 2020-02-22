@@ -5,11 +5,11 @@ title = c_nisibin
 
 # Settlements
 max_settlements = 5
-b_nisibin_nisibin = city
+b_nisibin_nisibin = castle
 b_shilloh_nisibin = temple
 b_macharta_nisibin = city
-b_korde_nisibin = city
-b_arzamon_nisibin = city
+b_korde_nisibin = castle
+b_arzamon_nisibin = castle
 
 # Misc
 culture = aramaic

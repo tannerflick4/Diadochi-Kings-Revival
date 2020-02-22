@@ -5,7 +5,7 @@ title = c_carura
 
 # Settlements
 max_settlements = 3
-b_carura_carura = city
+b_carura_carura = castle
 b_gari_carura = city
 b_bigis_carura = city
 

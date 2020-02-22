@@ -6,12 +6,12 @@ title = c_sabora
 # Settlements
 max_settlements = 4
 b_sabora_sabora = tribal
-#b_ocuri_sabora = city
+#b_ocuri_sabora = castle
 b_irni_sabora = temple
 #b_arunda_sabora = city
-#b_saepo_sabora = city
+#b_saepo_sabora = castle
 #b_kalathousa_sabora = city
-#b_cilpe_sabora = city
+#b_cilpe_sabora = castle
 
 # Misc
 culture = gallaecian

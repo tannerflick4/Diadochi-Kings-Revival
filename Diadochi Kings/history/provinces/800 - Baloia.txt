@@ -7,11 +7,11 @@ title = c_baloia
 max_settlements = 3
 b_baloia_baloia = tribal
 #b_bistua_nova_baloia = temple
-#b_stanecli_baloia = city
+#b_stanecli_baloia = castle
 #b_ionnaria_baloia = city
 #b_sarute_baloia = city
-#b_indenea_baloia = city
-#b_sarnade_baloia = city
+#b_indenea_baloia = castle
+#b_sarnade_baloia = castle
 
 # Misc
 culture = illyrian

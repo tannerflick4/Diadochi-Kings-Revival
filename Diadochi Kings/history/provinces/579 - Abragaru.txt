@@ -5,7 +5,7 @@ title = c_abragaru
 
 # Settlements
 max_settlements = 1
-b_abragaru_abragaru = city
+b_abragaru_abragaru = castle
 
 # Misc
 culture = chorasmian

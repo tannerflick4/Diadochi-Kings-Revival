@@ -9,9 +9,9 @@ b_segovia_segovia = tribal
 #b_nivaria_segovia = city
 #b_cauca_segovia = city
 #b_pintia_segovia = city
-#b_brittablo_segovia = city
-#b_saucedo_segovia = city
-#b_centro_segovia = city
+#b_brittablo_segovia = castle
+#b_saucedo_segovia = castle
+#b_centro_segovia = castle
 
 # Misc
 culture = celtiberian

@@ -6,9 +6,9 @@ title = c_libisosa
 # Settlements
 max_settlements = 4
 b_libisosa_libisosa = tribal
-#b_mariana_libisosa = city
-#b_mentesa_libisosa = city
-#b_bigerra_libisosa = city
+#b_mariana_libisosa = castle
+#b_mentesa_libisosa = castle
+#b_bigerra_libisosa = castle
 #b_parietinae_libisosa = city
 #b_salika_libisosa = city
 #b_caput_libisosa = city

@@ -6,8 +6,8 @@ title = c_lupiae
 # Settlements
 max_settlements = 5
 b_lupiae_lupiae = tribal
-#b_baletium_lupiae = city
-#b_castrum_minervae_lupiae = city
+#b_baletium_lupiae = castle
+#b_castrum_minervae_lupiae = castle
 b_hydruntum_lupiae = temple
 #b_hadrianou_hormos_lupiae = city
 #b_uzentum_lupiae = city

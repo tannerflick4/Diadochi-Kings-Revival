@@ -6,12 +6,12 @@ title = c_ratiaria
 # Settlements
 max_settlements = 4
 b_ratiaria_ratiaria = tribal
-#b_timacium_maius_ratiaria = city
+#b_timacium_maius_ratiaria = castle
 b_combustica_ratiaria = temple
 #b_bononia_ratiaria = city
 #b_dorticum_ratiaria = city
-#b_remetodia_ratiaria = city
-#b_pomodiana_ratiaria = city
+#b_remetodia_ratiaria = castle
+#b_pomodiana_ratiaria = castle
 
 # Misc
 culture = thracian

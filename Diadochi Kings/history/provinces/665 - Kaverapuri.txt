@@ -5,9 +5,9 @@ title = c_kaverapuri
 
 # Settlements
 max_settlements = 4
-b_kaverapuri_kaverapuri = city
+b_kaverapuri_kaverapuri = castle
 b_nikama_kaverapuri = city
-b_karmara_kaverapuri = city
+b_karmara_kaverapuri = castle
 b_kouroula_kaverapuri = city
 
 # Misc

@@ -5,7 +5,7 @@ title = c_pdeme
 
 # Settlements
 max_settlements = 4
-b_pdeme_pdeme = city
+b_pdeme_pdeme = castle
 b_noa_pdeme = temple
 b_gugo_pdeme = city
 b_acina_pdeme = city

@@ -5,7 +5,7 @@ title = c_sogdorum_regia
 
 # Settlements
 max_settlements = 3
-b_banagara_sogdorum_regia = city
+b_banagara_sogdorum_regia = castle
 b_cuni_sogdorum_regia = temple
 b_sogdorum_regia_sogdorum_regia = city
 

@@ -6,11 +6,11 @@ title = c_geneva
 # Settlements
 max_settlements = 5
 b_geneva_geneva = tribal
-#b_namascae_geneva = city
+#b_namascae_geneva = castle
 #b_iulia_equestris_geneva = city
 b_condatiscone_geneva = temple
-#b_balma_geneva = city
-#b_lauconnum_geneva = city
+#b_balma_geneva = castle
+#b_lauconnum_geneva = castle
 #b_versix_geneva = city
 
 # Misc

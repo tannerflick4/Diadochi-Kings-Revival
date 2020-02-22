@@ -6,7 +6,7 @@ title = c_mastiacum
 # Settlements
 max_settlements = 2
 b_mastiacum_mastiacum = tribal
-#b_albianum_mastiacum = city
+#b_albianum_mastiacum = castle
 
 # Misc
 culture = raetic

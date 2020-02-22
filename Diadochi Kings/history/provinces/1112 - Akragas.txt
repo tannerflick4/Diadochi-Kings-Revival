@@ -5,13 +5,13 @@ title = c_akragas
 
 # Settlements
 max_settlements = 3
-b_akragas_akragas = city
+b_akragas_akragas = castle
 b_heraclea_minoa_akragas = city
-b_cena_akragas = city
+b_cena_akragas = castle
 #b_pitiniana_akragas = city
 #b_cignana_akragas = temple
-#b_campanaio_akragas = city
-#b_canate_akragas = city
+#b_campanaio_akragas = castle
+#b_canate_akragas = castle
 
 # Misc
 culture = doric
@@ -19,4 +19,4 @@ religion = greek_main
 
 # History
 439.1.1 = { b_akragas_akragas = city } # 337 BC
-459.1.1 = { b_akragas_akragas = city } # 317 BC
+459.1.1 = { b_akragas_akragas = castle } # 317 BC

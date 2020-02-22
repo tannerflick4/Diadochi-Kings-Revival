@@ -6,8 +6,8 @@ title = c_sulmo # for example c_corinth
 # Settlements
 max_settlements = 4
 b_sulmo_sulmo = tribal
-#b_cluviae_sulmo = city
-#b_anxanum_sulmo = city
+#b_cluviae_sulmo = castle
+#b_anxanum_sulmo = castle
 #b_hortona_sulmo = city
 b_hercules_curinus_sulmo = temple
 #b_teate_sulmo = city

@@ -5,7 +5,7 @@ title = c_navadwipa
 
 # Settlements
 max_settlements = 3
-b_navadwipa_navadwipa = city
+b_navadwipa_navadwipa = castle
 b_pertalis_navadwipa = city
 b_katadoupe_navadwipa = city
 

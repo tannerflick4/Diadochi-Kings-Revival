@@ -5,7 +5,7 @@ title = c_mathura
 
 # Settlements
 max_settlements = 3
-b_mathura_mathura = city
+b_mathura_mathura = castle
 b_batankaisara_mathura = city
 b_yamaprastha_mathura = city
 

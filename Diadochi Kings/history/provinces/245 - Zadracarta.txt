@@ -5,10 +5,10 @@ title = c_zadracarta
 
 # Settlements
 max_settlements = 4
-b_zadracarta_zadracarta = city
+b_zadracarta_zadracarta = castle
 b_bistam_zadracarta = temple
 b_arghiyan_zadracarta = city
-b_kabudan_zadracarta = city
+b_kabudan_zadracarta = castle
 
 # Misc
 culture = parthian

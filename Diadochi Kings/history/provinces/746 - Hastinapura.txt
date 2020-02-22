@@ -5,7 +5,7 @@ title = c_hastinapura
 
 # Settlements
 max_settlements = 2
-b_hastinapura_hastinapura = city
+b_hastinapura_hastinapura = castle
 b_vardhamana_hastinapura = city
 
 # Misc

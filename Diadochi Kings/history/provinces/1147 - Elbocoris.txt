@@ -8,9 +8,9 @@ max_settlements = 3
 b_elbocoris_elbocoris = tribal
 #b_caurium_elbocoris = city
 #b_rusticiana_elbocoris = city
-#b_lama_elbocoris = city
+#b_lama_elbocoris = castle
 #b_burdoga_elbocoris = temple
-#b_iptuci_elbocoris = city
+#b_iptuci_elbocoris = castle
 #b_acinippo_elbocoris = city
 
 # Misc

@@ -6,14 +6,14 @@ title = c_carthage
 # Settlements
 max_settlements = 7
 b_capri_carthage = city
-b_carthage_carthage = city
+b_carthage_carthage = castle
 b_thuburbo_carthage = temple
 b_pupput_carthage = temple
-b_uthina_carthage = city
+b_uthina_carthage = castle
 b_segermes_carthage = city
 
 # Possible baronies: (Always add a # in front of a line with these!)
-# b_biia_carthage = city
+# b_biia_carthage = castle
 
 # Misc
 culture = punic

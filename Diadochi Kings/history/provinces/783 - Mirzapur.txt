@@ -5,7 +5,7 @@ title = c_mirzapur
 
 # Settlements
 max_settlements = 1
-b_mirzapur_mirzapur = city
+b_mirzapur_mirzapur = castle
 
 # Misc
 culture = maharashtri

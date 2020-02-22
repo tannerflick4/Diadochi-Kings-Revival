@@ -5,7 +5,7 @@ title = c_kausambi
 
 # Settlements
 max_settlements = 3
-b_kausambi_kausambi = city
+b_kausambi_kausambi = castle
 b_ozoana_kausambi = city
 b_ekachakra_kausambi = city
 

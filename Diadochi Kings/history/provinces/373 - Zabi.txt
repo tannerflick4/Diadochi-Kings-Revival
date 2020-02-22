@@ -7,10 +7,10 @@ title = c_zabi
 max_settlements = 4
 b_zabi_zabi = tribal
 #b_equizeto_zabi = city
-#b_aras_zabi = city
+#b_aras_zabi = castle
 
 # Possible baronies: (Always add a # in front of a line with these!)
-# b_lemellef_zabi = city
+# b_lemellef_zabi = castle
 
 # Misc
 culture = berber

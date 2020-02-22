@@ -5,13 +5,13 @@ title = c_tarquinii # for example c_corinth
 
 # Settlements
 max_settlements = 5
-b_tarquinii_tarquinii = city
+b_tarquinii_tarquinii = castle
 #b_graviscae_tarquinii = city
-#b_blera_tarquinii = city
+#b_blera_tarquinii = castle
 b_tuscana_tarquinii = city
 b_visentium_tarquinii = city
 b_vulci_tarquinii = temple
-#b_cosae_tarquinii = city
+#b_cosae_tarquinii = castle
 
 # Misc
 culture = etruscan

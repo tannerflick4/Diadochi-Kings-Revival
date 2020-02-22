@@ -8,10 +8,10 @@ max_settlements = 5
 b_lauriacum_lauriacum = tribal
 b_tutatio_lauriacum = temple
 #b_vetonianis_lauriacum = temple
-#b_ernolatia_lauriacum = city
+#b_ernolatia_lauriacum = castle
 #b_gabromagus_lauriacum = city
-#b_surontio_lauriacum = city
-#b_statio_escensis_lauriacum = city
+#b_surontio_lauriacum = castle
+#b_statio_escensis_lauriacum = castle
 
 # Misc
 culture = gaul

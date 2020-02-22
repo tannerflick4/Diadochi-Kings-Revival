@@ -5,11 +5,11 @@ title = c_morgantina
 
 # Settlements
 max_settlements = 4
-b_morgantina_morgantina = city
+b_morgantina_morgantina = castle
 b_philosophiana_morgantina = city
-b_herbessos_morgantina = city
-#b_noai_morgantina = city
-#b_capitoniana_morgantina = city
+b_herbessos_morgantina = castle
+#b_noai_morgantina = castle
+#b_capitoniana_morgantina = castle
 #b_palike_morgantina = city
 b_capitoniana2_morgantina = temple # This is not a duplicate, there is a place with the same name.
 

@@ -8,8 +8,8 @@ max_settlements = 5
 b_venusia_venusia = tribal
 b_nares_lucanae_venusia = temple
 #b_tegianum_venusia = city
-#b_volcei_venusia = city
-#b_satrianum_venusia = city
+#b_volcei_venusia = castle
+#b_satrianum_venusia = castle
 #b_compsa_venusia = city
 #b_forum_popili_venusia = city
 

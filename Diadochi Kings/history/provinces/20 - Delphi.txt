@@ -5,14 +5,14 @@ title = c_delphi # for example c_corinth
 
 # Settlements
 max_settlements = 5
-b_elateia_delphi = city
+b_elateia_delphi = castle
 b_amphikleia_delphi = city
 b_delphi_delphi = temple
-#b_lilaia_delphi = city
+#b_lilaia_delphi = castle
 #b_tithorea_delphi = city
 #b_antikyra_delphi = temple
 b_ambrossos_delphi = city
-b_medeon_delphi = city
+b_medeon_delphi = castle
 
 # Misc
 culture = doric

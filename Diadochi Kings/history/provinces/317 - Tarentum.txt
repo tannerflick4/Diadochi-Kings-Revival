@@ -7,10 +7,10 @@ title = c_tarentum # for example c_corinth
 max_settlements = 5
 b_tarentum_tarentum = city
 b_satyrion_tarentum = city
-b_manduria_tarentum = city
-b_mesochorum_tarentum = city
+b_manduria_tarentum = castle
+b_mesochorum_tarentum = castle
 #b_leuca_tarentum = temple
-#b_basta_tarentum = city
+#b_basta_tarentum = castle
 b_kallipolis_tarentum = city
 
 # Misc

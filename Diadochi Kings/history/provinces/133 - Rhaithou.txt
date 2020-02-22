@@ -7,7 +7,7 @@ title = c_rhaithou
 max_settlements = 3
 b_rhaithou_rhaithou = tribal
 #b_pharan_rhaithou = city
-#b_arandara_rhaithou = city
+#b_arandara_rhaithou = castle
 
 # Misc
 culture = nabataean

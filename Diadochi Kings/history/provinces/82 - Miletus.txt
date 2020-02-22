@@ -5,10 +5,10 @@ title = c_miletus # for example c_corinth
 
 # Settlements
 max_settlements = 6
-b_miletus_miletus = city
+b_miletus_miletus = castle
 b_kanossos_miletus = temple
 b_iasos_miletus = city 
-b_mylasa_miletus = city
+b_mylasa_miletus = castle
 b_didyma_miletus = temple
 b_priene_miletus = city
 

@@ -7,7 +7,7 @@ title = c_darantasia
 max_settlements = 3
 b_darantasia_darantasia = tribal
 #b_axima_darantasia = city
-#b_obilonna_darantasia = city
+#b_obilonna_darantasia = castle
 
 # Misc
 culture = gaul

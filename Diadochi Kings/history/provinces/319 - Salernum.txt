@@ -10,8 +10,8 @@ b_salernum_salernum = tribal
 #b_nuceria_alfaterna_salernum = city
 #b_paestum_salernum = city
 b_sirenae_salernum = temple
-#b_capreae_salernum = city
-#b_sarnus_salernum = city
+#b_capreae_salernum = castle
+#b_sarnus_salernum = castle
 
 # Misc
 culture = oscan

@@ -5,10 +5,10 @@ title = c_satyaputra
 
 # Settlements
 max_settlements = 4
-b_satyaputra_satyaputra = city
+b_satyaputra_satyaputra = castle
 b_nilagiri_satyaputra = temple
 b_selour_satyaputra = city
-b_kourelloura_satyaputra = city
+b_kourelloura_satyaputra = castle
 
 # Misc
 culture = tamil

@@ -5,7 +5,7 @@ title = c_gargasrota
 
 # Settlements
 max_settlements = 2
-b_gargasrota_gargasrota = city
+b_gargasrota_gargasrota = castle
 b_alexandreia_gargasrota = city
 
 # Misc

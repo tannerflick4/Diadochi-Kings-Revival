@@ -6,11 +6,11 @@ title = c_philippopolis # for example c_corinth
 # Settlements
 max_settlements = 4
 b_eumolpias_philippopolis = tribal
-#b_asara_philippopolis = city
+#b_asara_philippopolis = castle
 #b_semota_philippopolis = city
 #b_parambole_philippopolis = city
 #b_palla_philippopolis = temple
-#b_bercea_philippopolis = city
+#b_bercea_philippopolis = castle
 #b_cellae_philippopolis = temple
 
 # Misc

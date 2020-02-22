@@ -5,8 +5,8 @@ title = c_ayodhya
 
 # Settlements
 max_settlements = 2
-b_ayodhya_ayodhya = city
-b_nandi_grama_ayodhya = city
+b_ayodhya_ayodhya = castle
+b_nandi_grama_ayodhya = castle
 
 # Misc
 culture = vedic # Magadhi

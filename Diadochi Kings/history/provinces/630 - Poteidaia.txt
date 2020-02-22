@@ -6,9 +6,9 @@ title = c_poteidaia # for example c_corinth
 # Settlements
 max_settlements = 4
 b_poteidaia_poteidaia = city
-b_mende_poteidaia = city
+b_mende_poteidaia = castle
 b_aphytis_poteidaia = city
-#b_skione_poteidaia = city
+#b_skione_poteidaia = castle
 #b_sane_poteidaia = city
 b_therambos_poteidaia = temple
 #b_aige_poteidaia = city

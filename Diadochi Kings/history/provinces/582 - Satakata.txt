@@ -5,7 +5,7 @@ title = c_satakata
 
 # Settlements
 max_settlements = 2
-b_satakata_satakata = city
+b_satakata_satakata = castle
 b_iaca_satakata = city
 
 # Misc

@@ -5,10 +5,10 @@ title = c_adana # for example c_corinth
 
 # Settlements
 max_settlements = 6
-b_adana_adana = city
+b_adana_adana = castle
 b_mallos_adana = temple
 b_aigai_adana = city
-b_anazarbos_adana = city
+b_anazarbos_adana = castle
 
 # Possible baronies: (Always add a # in front of a line with these!)
 # b_hierapolis_adana 

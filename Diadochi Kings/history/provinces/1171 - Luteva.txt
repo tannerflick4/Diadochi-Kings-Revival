@@ -6,9 +6,9 @@ title = c_luteva
 # Settlements
 max_settlements = 4
 b_luteva_luteva = tribal
-#b_capraria_luteva = city
-#b_ad_ermum_luteva = city
-#b_dehas_luteva = city
+#b_capraria_luteva = castle
+#b_ad_ermum_luteva = castle
+#b_dehas_luteva = castle
 #b_murato_luteva = temple
 #b_condatomagus_luteva = city
 #b_boutaran_luteva = temple

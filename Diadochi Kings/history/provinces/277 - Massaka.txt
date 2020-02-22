@@ -5,7 +5,7 @@ title = c_massaka
 
 # Settlements
 max_settlements = 3
-b_uraga_massaka = city
+b_uraga_massaka = castle
 b_puskalavati_massaka = city
 b_aoritos_massaka = city
 

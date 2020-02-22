@@ -5,13 +5,13 @@ title = c_adranon
 
 # Settlements
 max_settlements = 3
-b_adranon_adranon = city
-#b_macella_adranon = city
+b_adranon_adranon = castle
+#b_macella_adranon = castle
 b_longaricum_adranon = city
 b_entella_adranon = temple
 #b_cusumano_adranon = temple
 #b_montevago_adranon = city
-#b_vecchia_adranon = city
+#b_vecchia_adranon = castle
 
 # Misc
 culture = sicilian

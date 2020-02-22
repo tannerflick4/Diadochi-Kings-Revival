@@ -5,10 +5,10 @@ title = c_pinaka
 
 # Settlements
 max_settlements = 4
-b_pinaka_pinaka = city
+b_pinaka_pinaka = castle
 b_sareisa_pinaka = temple
 b_hiaspis_pinaka = city
-b_satalka_pinaka = city
+b_satalka_pinaka = castle
 
 #Misc
 culture = aramaic

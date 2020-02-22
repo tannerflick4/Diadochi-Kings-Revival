@@ -9,8 +9,8 @@ b_lacobriga_lacobriga = tribal
 #b_mirobriga_lacobriga = city
 #b_patulus_portus_lacobriga = city
 #b_sines_lacobriga = city
-#b_aierdi_lacobriga = city
-#b_victoriacum_lacobriga = city
+#b_aierdi_lacobriga = castle
+#b_victoriacum_lacobriga = castle
 #b_octaviolca_lacobriga = temple
 
 # Misc

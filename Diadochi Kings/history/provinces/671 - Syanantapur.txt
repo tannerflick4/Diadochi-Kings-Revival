@@ -5,7 +5,7 @@ title = c_syanantapur
 
 # Settlements
 max_settlements = 4
-b_syanantapur_syanantapur = city
+b_syanantapur_syanantapur = castle
 b_agastyakuta_syanantapur = temple
 b_balita_syanantapur = city
 b_elankoros_syanantapur = city

@@ -5,11 +5,11 @@ title = c_lystra # for example c_corinth
 
 # Settlements
 max_settlements = 5
-b_lystra_lystra = city
-b_kilistra_lystra = city
+b_lystra_lystra = castle
+b_kilistra_lystra = castle
 b_korna_lystra = city
 b_taspa_lystra = city
-b_kodylessos_lystra = city
+b_kodylessos_lystra = castle
 
 # Misc
 culture = luwian

@@ -8,7 +8,7 @@ max_settlements = 2
 b_uscana_uscana = tribal
 #b_kerax_uscana = city
 #b_lychnidos_uscana = city
-#b_trebenista_uscana = city
+#b_trebenista_uscana = castle
 
 
 # Misc

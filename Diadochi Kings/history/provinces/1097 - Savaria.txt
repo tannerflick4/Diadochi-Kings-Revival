@@ -8,9 +8,9 @@ max_settlements = 3
 b_savaria_savaria = tribal
 #b_bassiana_savaria = city
 #b_flavia_solva_savaria = city
-#b_ulcisia_castra_savaria = city
+#b_ulcisia_castra_savaria = castle
 #b_gardelica_savaria = temple
-#b_tartursanis_savaria = city
+#b_tartursanis_savaria = castle
 #b_sabatinca_savaria = city
 
 # Misc

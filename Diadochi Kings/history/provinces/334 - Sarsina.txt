@@ -11,7 +11,7 @@ b_sarsina_sarsina = tribal
 #b_sena_gallica_sarsina = city
 #b_ariminum_sarsina = city
 #b_pisaurum_sarsina = city
-#b_urvinum_mataurense_sarsina = city
+#b_urvinum_mataurense_sarsina = castle
 
 # Misc
 culture = gaul

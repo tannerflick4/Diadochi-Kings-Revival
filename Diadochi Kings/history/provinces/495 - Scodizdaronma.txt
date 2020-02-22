@@ -6,7 +6,7 @@ title = c_scodizdaronma
 # Settlements
 max_settlements = 2
 b_scodizdaronma_scodizdaronma = tribal
-#b_vadasca_scodizdaronma = city
+#b_vadasca_scodizdaronma = castle
 
 # Misc
 culture = sarmatian

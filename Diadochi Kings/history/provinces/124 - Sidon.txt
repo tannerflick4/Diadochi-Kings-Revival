@@ -5,10 +5,10 @@ title = c_sidon
 
 # Settlements
 max_settlements = 5
-b_sidon_sidon = city
+b_sidon_sidon = castle
 b_alsos_asklepiou_sidon = temple
 b_sarepta_sidon = city
-b_platanos_sidon = city
+b_platanos_sidon = castle
 b_baithmare_sidon = temple
 
 # Misc

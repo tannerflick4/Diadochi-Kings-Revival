@@ -5,13 +5,13 @@ title = c_torone
 
 # Settlements
 max_settlements = 4
-b_torone_torone = city
+b_torone_torone = castle
 b_akanthos_torone = city
 b_dion_torone = temple
 #b_singos_torone = city
 b_stageira_torone = city
 #b_kleonai_torone = city
-#b_arnai_torone = city
+#b_arnai_torone = castle
 
 # Misc
 culture = ionian

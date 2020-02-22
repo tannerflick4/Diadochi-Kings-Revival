@@ -5,11 +5,11 @@ title = c_hecatombylos
 
 # Settlements
 max_settlements = 5
-b_hecatombylos_hecatombylos = city
+b_hecatombylos_hecatombylos = castle
 b_damghan_hecatombylos = temple
 b_sariya_hecatombylos = city
 b_semnan_hecatombylos = city
-b_karabshahr_hecatombylos = city
+b_karabshahr_hecatombylos = castle
 
 # Misc
 culture = parthian

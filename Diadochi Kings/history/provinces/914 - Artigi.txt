@@ -9,7 +9,7 @@ b_artigi_artigi = tribal
 #b_municipium_flavium_artigi = city
 #b_caspiana_artigi = temple
 #b_phornakis_artigi = city
-#b_brutobriga_artigi = city
+#b_brutobriga_artigi = castle
 #b_mellaria_artigi = city
 b_perceiana_artigi = temple
 

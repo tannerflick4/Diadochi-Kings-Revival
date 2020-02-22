@@ -5,9 +5,9 @@ title = c_odoka
 
 # Settlements
 max_settlements = 3
-b_odoka_odoka = city
+b_odoka_odoka = castle
 b_dagana_odoka = city
-b_oulippada_odoka = city
+b_oulippada_odoka = castle
 
 # Misc
 culture = tamil

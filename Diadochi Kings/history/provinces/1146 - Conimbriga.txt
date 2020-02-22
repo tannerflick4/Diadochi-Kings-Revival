@@ -6,12 +6,12 @@ title = c_conimbriga
 # Settlements
 max_settlements = 3
 b_conimbriga_conimbriga = tribal
-#b_collippo_conimbriga = city
+#b_collippo_conimbriga = castle
 #b_sellium_conimbriga = city
 #b_magnum_conimbriga = city
 #b_luaron_conimbriga = temple
-#b_arabriga_conimbriga = city
-#b_ad_aras_conimbriga = city
+#b_arabriga_conimbriga = castle
+#b_ad_aras_conimbriga = castle
 
 # Misc
 culture = gallaecian

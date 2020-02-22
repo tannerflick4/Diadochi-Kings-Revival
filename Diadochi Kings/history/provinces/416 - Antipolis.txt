@@ -9,8 +9,8 @@ b_antipolis_antipolis= tribal
 b_herakles_monoikos_antipolis = temple
 #b_vergoanum_antipolis = city
 #b_nicaea_antipolis = city
-#b_cemenelum_antipolis = city
-#b_navelis_antipolis = city
+#b_cemenelum_antipolis = castle
+#b_navelis_antipolis = castle
 #b_olivula_antipolis = city
 
 # Misc
@@ -23,7 +23,7 @@ religion = celtic_main
 	b_antipolis_antipolis= city
 	b_herakles_monoikos_antipolis = temple
 	b_nicaea_antipolis = city
-	b_cemenelum_antipolis = city
+	b_cemenelum_antipolis = castle
 
 	culture = ionian
 	religion = greek_main

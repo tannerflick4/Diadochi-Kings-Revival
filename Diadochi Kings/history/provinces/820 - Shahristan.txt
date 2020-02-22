@@ -5,7 +5,7 @@ title = c_shahristan
 
 # Settlements
 max_settlements = 3
-b_shahristan_shahristan = city
+b_shahristan_shahristan = castle
 b_karkuya_shahristan = city
 b_dahan_i_golaman_shahristan = temple
 

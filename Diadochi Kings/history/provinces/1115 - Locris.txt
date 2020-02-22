@@ -5,10 +5,10 @@ title = c_locris
 
 # Settlements
 max_settlements = 4
-b_locris_locris = city
+b_locris_locris = castle
 b_scylletium_locris = city
-b_vivarium_locris = city
-#b_cocinto_locris = city
+b_vivarium_locris = castle
+#b_cocinto_locris = castle
 #b_kaulonia_locris = city
 #b_subsicivo_locris = city
 b_altanum_locris = city

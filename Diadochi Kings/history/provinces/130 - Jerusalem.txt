@@ -5,12 +5,12 @@ title = c_jerusalem
 
 # Settlements
 max_settlements = 6
-b_jerusalem_jerusalem = city
+b_jerusalem_jerusalem = castle
 b_temple_mount_jerusalem = temple
 b_engaddai_jerusalem = city
-b_bethar_jerusalem = city
+b_bethar_jerusalem = castle
 b_bethlehem_jerusalem = temple
-b_gabaon_jerusalem = city
+b_gabaon_jerusalem = castle
 
 # Misc
 culture = israelite

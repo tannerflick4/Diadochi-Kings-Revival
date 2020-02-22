@@ -8,7 +8,7 @@ max_settlements = 4
 b_auara_auara = tribal
 b_aramaua_auara = temple
 #b_makna_auara = city
-#b_ankale_auara = city
+#b_ankale_auara = castle
 
 # Misc
 culture = nabataean

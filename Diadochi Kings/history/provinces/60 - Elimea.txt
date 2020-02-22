@@ -6,10 +6,10 @@ title = c_pyli # for example c_corinth
 # Settlements
 max_settlements = 4
 b_aiane_pyli = tribal
-#b_eratyra_pyli = city
+#b_eratyra_pyli = castle
 #b_arnisa_pyli = city
-#b_grande_pyli = city
-#b_cellae_pyli = city
+#b_grande_pyli = castle
+#b_cellae_pyli = castle
 #b_bokeria_pyli = city
 #b_elimea_pyli = city
 
@@ -20,7 +20,7 @@ religion = greek_main
 # History
 # Can be filled when things change around the province
 421.1.1 = { # 355 BC
-    b_aiane_pyli = city
+    b_aiane_pyli = castle
     b_arnisa_pyli = city
     b_bokeria_pyli = city
     b_elimea_pyli = city

@@ -5,8 +5,8 @@ title = c_mahta
 
 # Settlements
 max_settlements = 2
-b_mahta_mahta = city
-b_arpaxais_mahta = city
+b_mahta_mahta = castle
+b_arpaxais_mahta = castle
 
 # Misc
 culture = chorasmian

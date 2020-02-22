@@ -8,10 +8,10 @@ max_settlements = 4
 b_stobi_stobi = tribal
 #b_stuberra_stobi = temple
 #b_alkomena_stobi = city
-#b_pelagonia_stobi = city
-#b_kolobaise_stobi = city
+#b_pelagonia_stobi = castle
+#b_kolobaise_stobi = castle
 #b_antigoneia_stobi = city
-#b_audaristos_stobi = city
+#b_audaristos_stobi = castle
 
 # Misc
 culture = paeonian

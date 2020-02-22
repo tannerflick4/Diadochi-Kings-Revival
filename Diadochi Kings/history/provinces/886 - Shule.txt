@@ -6,7 +6,7 @@ title = c_shule
 # Settlements
 max_settlements = 4
 
-b_shule_shule = city # Kashgar
+b_shule_shule = castle # Kashgar
 b_weitou_shule = city
 b_gumo_wensu = temple
 b_wensu_shule = city

@@ -5,7 +5,7 @@ title = c_garagaupa
 
 # Settlements
 max_settlements = 2
-b_garugaupa_garugaupa = city
+b_garugaupa_garugaupa = castle
 b_garaska_garugaupa = city
 
 # Misc

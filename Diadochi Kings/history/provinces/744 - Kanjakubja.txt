@@ -5,7 +5,7 @@ title = c_kanjakubja
 
 # Settlements
 max_settlements = 2
-b_kanjakubja_kanjakubja = city
+b_kanjakubja_kanjakubja = castle
 b_krivi_kanjakubja = city
 
 # Misc

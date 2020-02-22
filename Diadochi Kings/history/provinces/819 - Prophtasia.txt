@@ -5,8 +5,8 @@ title = c_prophtasia
 
 # Settlements
 max_settlements = 4
-b_prophtasia_prophtasia = city
-b_phrada_prophtasia = city
+b_prophtasia_prophtasia = castle
+b_phrada_prophtasia = castle
 #b_alexandreia_prophtasia = city
 b_tauzaca_prophtasia = city
 

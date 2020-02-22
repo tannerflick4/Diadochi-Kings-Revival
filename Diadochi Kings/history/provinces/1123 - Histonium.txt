@@ -6,12 +6,12 @@ title = c_histonium
 # Settlements
 max_settlements = 3
 b_histonium_histonium = tribal
-#b_pallanum_histonium = city
+#b_pallanum_histonium = castle
 #b_buca_histonium = city
-#b_uscosium_histonium = city
+#b_uscosium_histonium = castle
 #b_pallanum2_histonium = city
 #b_saepinum_histonium = temple
-#b_neratii_histonium = city
+#b_neratii_histonium = castle
 
 # Misc
 culture = oscan

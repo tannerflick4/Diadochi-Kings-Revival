@@ -6,9 +6,9 @@ title = c_utica
 # Settlements
 max_settlements = 6
 b_rusicmona_utica = city
-b_utica_utica = city
+b_utica_utica = castle
 b_ucres_utica = temple
-b_uzalis_utica = city
+b_uzalis_utica = castle
 b_gunela_utica = city
 b_membrone_utica = city
 

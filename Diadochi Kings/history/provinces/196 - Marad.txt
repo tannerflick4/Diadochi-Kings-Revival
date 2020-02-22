@@ -5,10 +5,10 @@ title = c_marad
 
 # Settlements
 max_settlements = 4
-b_marad_marad = city
+b_marad_marad = castle
 b_aqola_marad = temple
 b_hira_marad = city
-b_qadassiya_marad = city
+b_qadassiya_marad = castle
 
 # Misc
 culture = akkadian

@@ -5,7 +5,7 @@ title = c_kerkinitis # for example c_corinth
 
 # Settlements
 max_settlements = 3
-b_kerkinitis = city
+b_kerkinitis = castle
 b_kalos_limen_kerkinitis = city
 b_charax_kerkinitis = city
 

@@ -9,7 +9,7 @@ b_baetulo_baetulo = tribal
 #b_ilduro_baetulo = city
 #b_barcino_baetulo = city
 b_lauro_baetulo = temple
-#b_arragona_baetulo = city
+#b_arragona_baetulo = castle
 #b_aquae_calidae_baetulo = city
 #b_rubricatum_baetulo = city
 

@@ -6,7 +6,7 @@ title = c_lala
 # Settlements
 max_settlements = 4
 b_lala_lala = tribal
-#b_marmatha_lala = city
+#b_marmatha_lala = castle
 #b_ange_lala = city
 #b_astoa_lala = city
 

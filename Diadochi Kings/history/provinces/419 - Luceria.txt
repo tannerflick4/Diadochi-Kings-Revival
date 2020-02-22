@@ -9,8 +9,8 @@ b_luceria_luceria = tribal
 #b_sipous_luceria = city
 b_drion_luceria = temple
 #b_hyria_luceria = city
-#b_planisium_luceria = city
-#b_tatinie_luceria = city
+#b_planisium_luceria = castle
+#b_tatinie_luceria = castle
 #b_auxanum_luceria = city
 
 # Misc

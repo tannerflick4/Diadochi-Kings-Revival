@@ -9,7 +9,7 @@ b_bergoule_bergoule = tribal
 #b_narco_bergoule = city
 #b_urisio_bergoule = city
 #b_burtudizon_bergoule = city
-#b_tarpodizo_bergoule = city
+#b_tarpodizo_bergoule = castle
 #b_hadrianoupolis_bergoule = city
 #b_nike_bergoule = temple
 

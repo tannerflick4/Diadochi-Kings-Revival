@@ -5,10 +5,10 @@ title = c_soloke
 
 # Settlements
 max_settlements = 4
-b_soloke_soloke = city
+b_soloke_soloke = castle
 b_urzan_soloke = temple
 b_arragan_soloke = city
-b_ram_soloke = city
+b_ram_soloke = castle
 
 # Misc
 culture = elamite

@@ -9,7 +9,7 @@ b_oichalia_oichalia = tribal
 #b_kraneia_oichalia = temple
 #b_chalkis_oichalia = city
 #b_argithaia_oichalia = city
-#b_theudoria_oichalia = city
+#b_theudoria_oichalia = castle
 
 # Misc
 culture = doric

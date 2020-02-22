@@ -6,10 +6,10 @@ title = c_kabyle
 # Settlements
 max_settlements = 4
 b_kabyle_kabyle = tribal
-#b_marcellae_kabyle = city
+#b_marcellae_kabyle = castle
 #b_tonzus_kabyle = city
 #b_deultum_kabyle = city
-#b_cazalet_kabyle = city
+#b_cazalet_kabyle = castle
 #b_scatrae_kabyle = temple
 #b_pannissus_kabyle = city
 

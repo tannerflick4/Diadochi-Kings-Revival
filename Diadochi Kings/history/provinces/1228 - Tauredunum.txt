@@ -6,12 +6,12 @@ title = c_tauredunum
 # Settlements
 max_settlements = 4
 b_tauredunum_tauredunum = tribal
-#b_acaunum_tauredunum = city
+#b_acaunum_tauredunum = castle
 #b_tarnaiae_tauredunum = city
 #b_penne_locos_tauredunum = city
 #b_vivisco_tauredunum = city
 #b_muras_tauredunum = temple
-#b_ad_fines_tauredunum = city
+#b_ad_fines_tauredunum = castle
 
 # Misc
 culture = gaul

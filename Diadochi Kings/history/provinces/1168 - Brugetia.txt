@@ -6,11 +6,11 @@ title = c_brugetia
 # Settlements
 max_settlements = 4
 b_brugetia_brugetia = tribal
-#b_lettino_brugetia = city
+#b_lettino_brugetia = castle
 #b_tedusia_brugetia = city
 #b_aramo_brugetia = city
 #b_briginnum_brugetia = city
-#b_ucetia_brugetia = city
+#b_ucetia_brugetia = castle
 #b_ura_fons_brugetia = temple
 
 # Misc

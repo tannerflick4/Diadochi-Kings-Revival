@@ -5,10 +5,10 @@ title = c_sarapanis
 
 # Settlements
 max_settlements = 4
-b_sarapanis_sarapanis = city
+b_sarapanis_sarapanis = castle
 b_artanissa_sarapanis = temple
 b_sura_sarapanis = city
-b_skandis_sarapanis = city
+b_skandis_sarapanis = castle
 
 # Misc
 culture = georgian

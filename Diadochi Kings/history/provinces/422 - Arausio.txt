@@ -6,8 +6,8 @@ title = c_arausio
 # Settlements
 max_settlements = 4
 b_arausio_arausio = tribal
-#b_cabello_arausio = city
-#b_apta_iulia_arausio = city
+#b_cabello_arausio = castle
+#b_apta_iulia_arausio = castle
 #b_avennio_arausio = city
 #b_carpentorate_arausio = city
 #b_tarusco_arausio = city

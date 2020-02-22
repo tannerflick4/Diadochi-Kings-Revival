@@ -7,9 +7,9 @@ title = c_serota
 max_settlements = 4
 b_serota_serota = tribal
 #b_mursella_serota = city
-#b_iovalia_serota = city
+#b_iovalia_serota = castle
 #b_vereis_serota = city
-#b_marinianis_serota = city
+#b_marinianis_serota = castle
 #b_serena_serota = city
 b_cocconis_serota = temple
 

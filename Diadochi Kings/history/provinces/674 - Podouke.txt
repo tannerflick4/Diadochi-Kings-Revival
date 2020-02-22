@@ -5,10 +5,10 @@ title = c_podouke
 
 # Settlements
 max_settlements = 4
-b_podouke_podouke = city
+b_podouke_podouke = castle
 b_souboura_podouke = city
 b_sopatma_podouke = city
-b_karige_podouke = city
+b_karige_podouke = castle
 
 # Misc
 culture = tamil

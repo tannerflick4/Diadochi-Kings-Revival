@@ -5,9 +5,9 @@ title = c_panopolis
 
 # Settlements
 max_settlements = 4
-b_panopolis_panopolis = city
-b_selino_panopolis = city
-b_muthis_panopolis = city
+b_panopolis_panopolis = castle
+b_selino_panopolis = castle
+b_muthis_panopolis = castle
 b_antaiopolis_panopolis = city
 
 # Misc

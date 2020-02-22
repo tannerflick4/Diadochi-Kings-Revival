@@ -21,21 +21,6 @@ republic_governments = {
 		frame_suffix = "_merchantrepublic"
 		title_prefix = "city_"
 		potential = {
-			NOR = {
-				capital_holding = {
-					is_tribal = yes
-				}
-				any_liege = {
-					capital_holding = {
-						is_tribal = yes
-					}
-				}
-				employer = {
-					capital_holding = {
-						is_tribal = yes
-					}
-				}
-			}
 			OR = {
 				controls_religion = no
 				has_religion_feature = religion_temporal_head
@@ -124,25 +109,6 @@ republic_governments = {
 		frame_suffix = "_republic"
 		title_prefix = "city_"
 		potential = {
-			NOR = {
-				capital_holding = {
-					is_tribal = yes
-				}
-				any_liege = {
-					capital_holding = {
-						is_tribal = yes
-					}
-				}
-				employer = {
-					capital_holding = {
-						is_tribal = yes
-					}
-				}
-			}
-			OR = {
-				tier = BARON
-				tier = COUNT
-			}
 			controls_religion = no
 			NOT = { is_government_potential = merchant_republic_government }
 			holy_order = no

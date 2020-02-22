@@ -6,11 +6,11 @@ title = c_dactionum
 # Settlements
 max_settlements = 4
 b_dactionum_dactionum = tribal
-#b_geminae_dactionum = city
-#b_salientes_dactionum = city
+#b_geminae_dactionum = castle
+#b_salientes_dactionum = castle
 #b_aurium_dactionum = city
-#b_lansbrica_dactionum = city
-#b_castellum_meidunium_dactionum = city
+#b_lansbrica_dactionum = castle
+#b_castellum_meidunium_dactionum = castle
 #b_aquae_quintinae_dactionum = city
 
 # Misc

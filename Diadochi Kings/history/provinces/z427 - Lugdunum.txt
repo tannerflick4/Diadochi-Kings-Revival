@@ -7,7 +7,7 @@ title = c_lugdunum
 max_settlements = 6
 b_lugdunum_lugdunum = tribal
 b_vienna_lugdunum = temple
-#b_bergusium_lugdunum = city
+#b_bergusium_lugdunum = castle
 #b_brioratis_lugdunum = city
 
 # Possible baronies: (Always add a # in front of a line with these!)

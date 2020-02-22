@@ -7,10 +7,10 @@ title = c_bourdepa
 max_settlements = 4
 b_bourdepa_bourdepa = tribal
 b_armira_bourdepa = temple
-#b_castra_rubra_bourdepa = city
+#b_castra_rubra_bourdepa = castle
 #b_arzus_bourdepa = city
 #b_pizus_bourdepa = city
-#b_daphaba_bourdepa = city
+#b_daphaba_bourdepa = castle
 #b_subzupara_bourdepa = temple
 
 # Misc

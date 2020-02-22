@@ -5,7 +5,7 @@ title = c_chaurina
 
 # Settlements
 max_settlements = 3
-b_chaurina_chaurina = city
+b_chaurina_chaurina = castle
 b_astasana_chaurina = city
 b_barbalana_chaurina = city
 

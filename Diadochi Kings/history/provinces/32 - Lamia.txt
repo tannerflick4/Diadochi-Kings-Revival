@@ -5,8 +5,8 @@ title = c_lamia # for example c_corinth
 
 # Settlements
 max_settlements = 5
-b_pherai_lamia = city
-b_lamia_lamia = city
+b_pherai_lamia = castle
+b_lamia_lamia = castle
 b_iton_lamia = temple
 b_lamia1_lamia = city
 b_proerna_lamia = city

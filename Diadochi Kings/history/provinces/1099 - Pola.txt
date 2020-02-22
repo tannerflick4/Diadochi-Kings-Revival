@@ -6,12 +6,12 @@ title = c_pola
 # Settlements
 max_settlements = 4
 b_pola_pola = tribal
-#b_mutila_pola = city
-#b_flanona_pola = city
+#b_mutila_pola = castle
+#b_flanona_pola = castle
 #b_nesactium_pola = city
 #b_ruginium_pola = city
 #b_pedena_pola = temple
-#b_lauriana_pola = city
+#b_lauriana_pola = castle
 
 # Misc
 culture = venetic

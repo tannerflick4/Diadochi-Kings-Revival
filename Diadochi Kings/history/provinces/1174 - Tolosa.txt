@@ -8,10 +8,10 @@ max_settlements = 5
 b_tolosa_tolosa = tribal
 #b_sostomagus_tolosa = city
 #b_fines_tolosa = city
-#b_elusio_tolosa = city
-#b_ad_vicesimum_tolosa = city
+#b_elusio_tolosa = castle
+#b_ad_vicesimum_tolosa = castle
 #b_badera_tolosa = city
-#b_ad_nonum_tolosa = city
+#b_ad_nonum_tolosa = castle
 
 # Misc
 culture = gaul

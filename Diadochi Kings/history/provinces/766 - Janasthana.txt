@@ -5,7 +5,7 @@ title = c_janasthana
 
 # Settlements
 max_settlements = 1
-b_janasthana_janasthana = city
+b_janasthana_janasthana = castle
 
 # Misc
 culture = maharashtri

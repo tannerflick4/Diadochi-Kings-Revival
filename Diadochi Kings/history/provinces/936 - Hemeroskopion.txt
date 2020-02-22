@@ -5,12 +5,12 @@ title = c_hemeroskopion
 
 # Settlements
 max_settlements = 3
-b_hemeroskopion_hemeroskopion = city
+b_hemeroskopion_hemeroskopion = castle
 #b_portus_sucronis_hemeroskopion = city
 b_sucro_hemeroskopion = city
 b_planesia_hemeroskopion = city
-#b_ferrarium_hemeroskopion = city
-#b_ad_gemellas_hemeroskopion = city
+#b_ferrarium_hemeroskopion = castle
+#b_ad_gemellas_hemeroskopion = castle
 #b_marruca_hemeroskopion = temple
 
 # Misc

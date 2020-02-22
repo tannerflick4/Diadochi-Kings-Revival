@@ -8,10 +8,10 @@ max_settlements = 4
 b_mutina_mutina = tribal
 #b_forum_gallorum_mutina = city
 #b_victoriolae_mutina = city
-#b_vicus_serninus_mutina = city
+#b_vicus_serninus_mutina = castle
 #b_pons_seciae_mutina = city
 #b_vicus_varianus_mutina = city
-#b_colicaria_mutina = city
+#b_colicaria_mutina = castle
 
 # Misc
 culture = gaul

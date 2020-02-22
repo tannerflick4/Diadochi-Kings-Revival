@@ -5,10 +5,10 @@ title = c_syene
 
 # Settlements
 max_settlements = 4
-b_syene_syene = city
+b_syene_syene = castle
 b_omboi_syene = temple
 b_elephantine_syene = city
-b_telelis_syene = city
+b_telelis_syene = castle
 
 # Misc
 culture = egyptian

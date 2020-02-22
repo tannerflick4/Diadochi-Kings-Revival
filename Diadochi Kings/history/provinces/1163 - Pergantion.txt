@@ -11,7 +11,7 @@ b_athenopolis_pergantion = city
 b_heraclia_caccabaria_pergantion = city
 b_olbia_pergantion = temple
 #b_pomoniana_pergantion = city
-#b_borma_pergantion = city
+#b_borma_pergantion = castle
 
 # Misc
 culture = ionian

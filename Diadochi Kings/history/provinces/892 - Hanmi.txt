@@ -6,7 +6,7 @@ title = c_hanmi
 # Settlements
 max_settlements = 2
 
-b_hanmi_hanmi = city # Keriya
+b_hanmi_hanmi = castle # Keriya
 b_jingjue_hanmi = city # Niya
 
 culture = tocharian

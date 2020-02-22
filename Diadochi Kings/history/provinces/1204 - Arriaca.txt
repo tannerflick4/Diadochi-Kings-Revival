@@ -6,10 +6,10 @@ title = c_arriaca
 # Settlements
 max_settlements = 3
 b_arriaca_arriaca = tribal
-#b_titulcia_arriaca = city
+#b_titulcia_arriaca = castle
 #b_caracca_arriaca = city
 #b_complutum_arriaca = city
-#b_caesada_arriaca = city
+#b_caesada_arriaca = castle
 #b_regina_arriaca = temple
 #b_metellinum_arriaca = city
 

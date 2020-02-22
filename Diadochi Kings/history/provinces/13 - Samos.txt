@@ -4,10 +4,10 @@ title = c_samos # for example c_corinth
 
 # Settlements
 max_settlements = 4 # tsf4 - 6
-b_samos_samos = city
+b_samos_samos = castle
 b_korsiai_samos = temple
 b_histoi_samos = city
-b_drakanon_samos = city
+b_drakanon_samos = castle
 
 # Misc
 culture = ionian

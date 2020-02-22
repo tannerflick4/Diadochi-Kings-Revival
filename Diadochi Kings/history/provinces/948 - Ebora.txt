@@ -10,7 +10,7 @@ b_calanta_ebora = temple
 #b_lousa_ebora = city
 #b_farausto_ebora = city
 #b_chamine_ebora = city
-#b_bispo_ebora = city
+#b_bispo_ebora = castle
 #b_vinagre_ebora = city
 
 # Misc

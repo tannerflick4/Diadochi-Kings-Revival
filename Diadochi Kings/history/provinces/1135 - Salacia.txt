@@ -6,11 +6,11 @@ title = c_salacia # for example c_corinth
 # Settlements
 max_settlements = 4
 b_salacia_salacia = tribal
-#b_aquabona_salacia = city
+#b_aquabona_salacia = castle
 #b_caetobriga_salacia = city
-#b_chibanes_salacia = city
+#b_chibanes_salacia = castle
 #b_barbarion_salacia = temple
-#b_malateca_salacia = city
+#b_malateca_salacia = castle
 #b_serra_salacia = city
 
 # Misc

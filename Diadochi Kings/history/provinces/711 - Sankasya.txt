@@ -5,7 +5,7 @@ title = c_sankasya
 
 # Settlements
 max_settlements = 1
-b_sankasya_sankasya = city
+b_sankasya_sankasya = castle
 
 # Misc
 culture = vedic # Magadhi

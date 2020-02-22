@@ -5,9 +5,9 @@ title = c_hulwan
 
 # Settlements
 max_settlements = 3
-b_hulwan_hulwan = city
+b_hulwan_hulwan = castle
 b_zagrou_pylai_hulwan = temple
-b_syarazur_hulwan = city
+b_syarazur_hulwan = castle
 
 # Misc
 culture = median

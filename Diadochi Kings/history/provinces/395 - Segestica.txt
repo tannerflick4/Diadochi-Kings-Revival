@@ -8,10 +8,10 @@ max_settlements = 5
 b_segestica_segestica = tribal
 #b_andautonia_segestica = city
 #b_ad_fines_segestica = city
-#b_varianis_segestica = city
+#b_varianis_segestica = castle
 b_ad_praetorium_segestica = temple
-#b_aquae_balissae_segestica = city
-#b_fala_segestica = city
+#b_aquae_balissae_segestica = castle
+#b_fala_segestica = castle
 
 # Misc
 culture = illyrian

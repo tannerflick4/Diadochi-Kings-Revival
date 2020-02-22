@@ -6,7 +6,7 @@ title = c_bergomum
 # Settlements
 max_settlements = 3
 b_bergomum_bergomum = tribal
-#b_parra_bergomum = city
+#b_parra_bergomum = castle
 #b_leucerae_bergomum = city
 #b_licini_forum_bergomum = city
 #b_comacina_bergomum = city

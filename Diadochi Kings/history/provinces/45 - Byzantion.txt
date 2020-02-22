@@ -7,7 +7,7 @@ title = c_byzantion # for example c_corinth
 max_settlements = 4
 b_byzantion_byzantion = city
 b_chalcaea_byzantion = temple
-b_selymbria_byzantion = city
+b_selymbria_byzantion = castle
 
 # Possible baronies: (Always add a # in front of a line with these!)
 # b_blachernae_byzantion

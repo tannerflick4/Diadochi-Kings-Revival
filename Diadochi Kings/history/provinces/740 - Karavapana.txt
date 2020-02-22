@@ -5,7 +5,7 @@ title = c_karavapana
 
 # Settlements
 max_settlements = 2
-b_karavapana_karavapana = city
+b_karavapana_karavapana = castle
 b_plaksha_karavapana = city
 
 # Misc

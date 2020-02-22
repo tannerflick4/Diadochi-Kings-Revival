@@ -5,8 +5,8 @@ title = c_charracarta
 
 # Settlements
 max_settlements = 3
-b_charracarta_charracarta = city
-b_aspiona_charracarta = city
+b_charracarta_charracarta = castle
+b_aspiona_charracarta = castle
 #b_eucratidea_charracarta = city
 
 # Misc

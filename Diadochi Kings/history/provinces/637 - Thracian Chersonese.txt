@@ -5,8 +5,8 @@ title = c_thracian_chersonese # for example c_corinth
 
 # Settlements
 max_settlements = 5
-b_kardia_thracian_chersonese = city
-b_sestos_thracian_chersonese = city
+b_kardia_thracian_chersonese = castle
+b_sestos_thracian_chersonese = castle
 b_pactya_thracian_chersonese = city
 b_drabos_thracian_chersonese = city
 #b_elaious_thracian_chersonese = city

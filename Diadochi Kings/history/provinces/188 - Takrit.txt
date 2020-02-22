@@ -5,7 +5,7 @@ title = c_takrit
 
 # Settlements
 max_settlements = 3
-b_takrit_takrit = city
+b_takrit_takrit = castle
 b_dura_takrit = temple
 b_samarra_takrit = city
 

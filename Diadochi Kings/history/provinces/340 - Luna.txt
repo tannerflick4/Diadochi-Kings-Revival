@@ -6,12 +6,12 @@ title = c_luna # for example c_corinth
 # Settlements
 max_settlements = 5
 b_luna_luna = tribal
-#b_taberna_frigida_luna = city
-#b_pullion_luna = city
+#b_taberna_frigida_luna = castle
+#b_pullion_luna = castle
 #b_portus_veneris_luna = city
 #b_boacias_luna = city
 #b_tegulata_luna = city
-#b_antion_luna = city
+#b_antion_luna = castle
 
 # Misc
 culture = ligurian

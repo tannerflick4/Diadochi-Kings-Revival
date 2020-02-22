@@ -6,7 +6,7 @@ title = c_banita
 # Settlements
 max_settlements = 3
 b_banita_banita = tribal
-#b_polovragi_banita = city
+#b_polovragi_banita = castle
 #b_arutela_banita = city
 
 # Misc

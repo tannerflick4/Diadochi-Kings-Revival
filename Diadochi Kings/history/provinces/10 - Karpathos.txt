@@ -4,7 +4,7 @@ title = c_karpathos # for example c_corinth
 
 # Settlements
 max_settlements = 3 # tsf4 - 6
-b_potidaio_karpathos = city
+b_potidaio_karpathos = castle
 b_arkesia_karpathos = temple
 b_nisiros_karpathos = city
 

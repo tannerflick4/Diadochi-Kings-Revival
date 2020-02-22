@@ -7,7 +7,7 @@ title = c_padakus
 max_settlements = 3
 b_padakus_padakus = tribal
 #b_loca_padakus = city
-#b_katibla_padakus = city
+#b_katibla_padakus = castle
 
 # Misc
 culture = scythian

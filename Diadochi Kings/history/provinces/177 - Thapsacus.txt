@@ -5,10 +5,10 @@ title = c_hierapolis
 
 # Settlements
 max_settlements = 4
-b_hierapolis_hierapolis = city
+b_hierapolis_hierapolis = castle
 b_gabboula_hierapolis = temple
 b_amphipolis_hierapolis = city
-b_eragiza_hierapolis = city
+b_eragiza_hierapolis = castle
 
 # Misc
 culture = aramaic

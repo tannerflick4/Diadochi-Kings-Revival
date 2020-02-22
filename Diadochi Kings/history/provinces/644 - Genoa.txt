@@ -9,8 +9,8 @@ b_genua_genua = tribal
 #b_portus_delphini_genua = city
 #b_delphinis_genua = city
 #b_ricina_genua = city
-#b_ad_figlinas_genua = city
-#b_hasta_genua = city
+#b_ad_figlinas_genua = castle
+#b_hasta_genua = castle
 #b_ad_navalia_genua = city
 
 # Misc

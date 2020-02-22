@@ -5,8 +5,8 @@ title = c_lankapuri
 
 # Settlements
 max_settlements = 3
-b_lankapuri_lankapuri = city
-b_nikumbila_lankapuri = city
+b_lankapuri_lankapuri = castle
+b_nikumbila_lankapuri = castle
 b_kelaniya_lankapuri = city
 
 # Misc

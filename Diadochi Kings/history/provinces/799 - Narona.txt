@@ -8,10 +8,10 @@ max_settlements = 4
 b_narona_narona = tribal
 b_novae_narona = temple
 #b_muccurum_narona = city
-#b_laurento_narona = city
+#b_laurento_narona = castle
 #b_biston_narona = city
 #b_bigeste_narona = city
-#b_aufustianis_narona = city
+#b_aufustianis_narona = castle
 
 # Misc
 culture = illyrian

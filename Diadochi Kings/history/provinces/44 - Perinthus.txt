@@ -5,12 +5,12 @@ title = c_perinthus # for example c_corinth
 
 # Settlements
 max_settlements = 4
-b_perinthus_perinthus = city
-b_aproi_perinthus = city
+b_perinthus_perinthus = castle
+b_aproi_perinthus = castle
 b_bisanthe_perinthus = city
 #b_panion_perinthus = city
-#b_omoi_perinthus = city
-#b_mocasura_perinthus = city
+#b_omoi_perinthus = castle
+#b_mocasura_perinthus = castle
 b_daunion_teichos_perinthus = temple
 
 # Misc

@@ -5,11 +5,11 @@ title = c_magnesia
 
 # Settlements
 max_settlements = 4
-b_methone_magnesia = city
+b_methone_magnesia = castle
 b_kasthaneia_magnesia = city
 b_kourope_magnesia = temple
 b_rhizous_magnesia = city
-#b_sykyrion_magnesia = city
+#b_sykyrion_magnesia = castle
 #b_zeus_akraios_magnesia = temple
 #b_spalauthra_magnesia = city
 

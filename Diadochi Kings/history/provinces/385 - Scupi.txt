@@ -6,12 +6,12 @@ title = c_scupi
 # Settlements
 max_settlements = 4
 b_scupi_scupi = tribal
-#b_paldenica_scupi = city
+#b_paldenica_scupi = castle
 #b_vizi_scupi = city
 #b_gabuleum_scupi = city
-#b_theranda_scupi = city
+#b_theranda_scupi = castle
 #b_hisar_scupi = temple
-#b_podgrade_scupi = city
+#b_podgrade_scupi = castle
 
 # Misc
 culture = illyrian

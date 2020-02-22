@@ -5,7 +5,7 @@ title = c_dandakabhukt
 
 # Settlements
 max_settlements = 2
-b_dandakabhukt_dandakabhukt = city
+b_dandakabhukt_dandakabhukt = castle
 b_malini_dandakabhukt = city
 
 # Misc

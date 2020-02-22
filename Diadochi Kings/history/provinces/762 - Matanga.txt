@@ -5,9 +5,9 @@ title = c_matanga
 
 # Settlements
 max_settlements = 3
-b_matanga_matanga = city
+b_matanga_matanga = castle
 b_souppara_matanga = city
-b_kalyani_matanga = city
+b_kalyani_matanga = castle
 
 # Misc
 culture = maharashtri

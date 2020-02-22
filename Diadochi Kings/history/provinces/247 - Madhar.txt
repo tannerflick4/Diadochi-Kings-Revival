@@ -5,7 +5,7 @@ title = c_madhar
 
 # Settlements
 max_settlements = 3
-b_madhar_madhar = city
+b_madhar_madhar = castle
 b_nina_madhar = city
 b_khurra_madhar = city
 

@@ -5,7 +5,7 @@ title = c_kalligeris
 
 # Settlements
 max_settlements = 2
-b_kalligeris_kalligeris = city
+b_kalligeris_kalligeris = castle
 b_risyamuka_kalligeris = temple
 
 # Misc

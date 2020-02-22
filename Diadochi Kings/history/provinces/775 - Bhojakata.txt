@@ -5,7 +5,7 @@ title = c_bhojakata
 
 # Settlements
 max_settlements = 3
-b_bhojakata_bhojakata = city
+b_bhojakata_bhojakata = castle
 b_nagagoura_bhojakata = city
 b_sambuka_bhojakata = temple
 

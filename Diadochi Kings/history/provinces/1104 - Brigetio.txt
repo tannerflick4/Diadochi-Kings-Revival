@@ -8,10 +8,10 @@ max_settlements = 4
 b_brigetio_brigetio = tribal
 #b_crumerum_brigetio = city
 #b_odiavum_brigetio = city
-#b_ad_mures_brigetio = city
-#b_arrabona_brigetio = city
+#b_ad_mures_brigetio = castle
+#b_arrabona_brigetio = castle
 #b_crispiana_brigetio = city
-#b_ad_statuas_brigetio = city
+#b_ad_statuas_brigetio = castle
 
 # Misc
 culture = gaul

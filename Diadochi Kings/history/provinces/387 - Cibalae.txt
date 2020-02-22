@@ -10,8 +10,8 @@ b_cibalae_cibalae = tribal
 #b_causilena_cibalae = city
 #b_cornacum_cibalae = city
 b_ad_labores_pontis_ulcae_cibalae = temple
-#b_teutoburgium_cibalae = city
-#b_cuccium_cibalae = city
+#b_teutoburgium_cibalae = castle
+#b_cuccium_cibalae = castle
 
 # Misc
 culture = illyrian

@@ -5,7 +5,7 @@ title = c_ujjayani
 
 # Settlements
 max_settlements = 1
-b_ujjayani_ujjayani = city
+b_ujjayani_ujjayani = castle
 
 # Misc
 culture = maharashtri

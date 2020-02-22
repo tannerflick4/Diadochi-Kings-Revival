@@ -6,10 +6,10 @@ title = c_andusia
 # Settlements
 max_settlements = 3
 b_andusia_andusia = tribal
-#b_statumae_andusia = city
-#b_segusio_andusia = city
+#b_statumae_andusia = castle
+#b_segusio_andusia = castle
 #b_ales_andusia = city
-#b_agones_andusia = city
+#b_agones_andusia = castle
 #b_portes_andusia = city
 #b_altonum_andusia = temple
 

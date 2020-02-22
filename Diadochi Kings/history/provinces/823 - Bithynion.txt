@@ -5,12 +5,12 @@ title = c_bithynion
 
 # Settlements
 max_settlements = 5
-b_bithynion_bithynion = city
+b_bithynion_bithynion = castle
 b_dia_bithynion = city
 b_embolos_bithynion = city
-b_kratela_bithynion = city
+b_kratela_bithynion = castle
 
-#b_prusias_ad_hypium_bithynion = city
+#b_prusias_ad_hypium_bithynion = castle
 
 # Misc
 culture = thracian

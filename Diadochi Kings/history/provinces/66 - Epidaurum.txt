@@ -8,10 +8,10 @@ max_settlements = 5
 b_epidaurum_epidaurum = tribal
 #b_stagnum_epidaurum = city
 #b_asamum_epidaurum = city
-#b_leusinio_epidaurum = city
+#b_leusinio_epidaurum = castle
 #b_pardua_epidaurum = temple
-#b_salthua_epidaurum = city
-#b_plana_epidaurum = city
+#b_salthua_epidaurum = castle
+#b_plana_epidaurum = castle
 
 # Misc
 culture = illyrian

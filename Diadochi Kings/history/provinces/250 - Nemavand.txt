@@ -5,10 +5,10 @@ title = c_nemavand
 
 # Settlements
 max_settlements = 4
-b_nemavand_nemavand = city
+b_nemavand_nemavand = castle
 b_harsin_nemavand = temple
 b_thebarga_nemavand = city
-b_khurramabad_nemavand = city
+b_khurramabad_nemavand = castle
 
 # Misc
 culture = elamite

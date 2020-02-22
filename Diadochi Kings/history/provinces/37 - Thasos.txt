@@ -5,7 +5,7 @@ title = c_thasos # for example c_corinth
 
 # Settlements
 max_settlements = 3
-b_thasos_thasos = city
+b_thasos_thasos = castle
 b_koinyra_thasos = temple
 b_alyke_thasos = city
 

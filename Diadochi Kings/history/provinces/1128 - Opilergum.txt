@@ -7,11 +7,11 @@ title = c_opilergum
 max_settlements = 4
 b_opilergum_opilergum = tribal
 #b_heraclia_opilergum = temple
-#b_ad_sanos_opilergum = city
+#b_ad_sanos_opilergum = castle
 #b_portus_liquentiae_opilergum = city
 #b_portus_reatinus_opilergum = city
-#b_iulia_concorda_opilergum = city
-#b_apicilia_opilergum = city
+#b_iulia_concorda_opilergum = castle
+#b_apicilia_opilergum = castle
 
 # Misc
 culture = venetic

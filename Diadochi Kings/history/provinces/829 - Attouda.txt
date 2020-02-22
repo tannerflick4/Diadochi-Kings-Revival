@@ -5,10 +5,10 @@ title = c_attouda
 
 # Settlements
 max_settlements = 5
-b_attouda_attouda = city
+b_attouda_attouda = castle
 b_aphrodisias_attouda = temple
 b_harpasa_attouda = city
-b_trapezopolis_attouda = city
+b_trapezopolis_attouda = castle
 
 #b_antiocheia_attouda = city
 

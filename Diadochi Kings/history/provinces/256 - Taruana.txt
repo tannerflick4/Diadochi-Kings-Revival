@@ -5,7 +5,7 @@ title = c_taruana
 
 # Settlements
 max_settlements = 4
-b_taruana_taruana = city
+b_taruana_taruana = castle
 b_ormus_taruana = temple
 b_sabis_taruana = city
 b_harmuza_taruana = city

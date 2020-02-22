@@ -5,13 +5,13 @@ title = c_rhegium # for example c_corinth
 
 # Settlements
 max_settlements = 4
-b_rhegium_rhegium = city
+b_rhegium_rhegium = castle
 #b_scylia_rhegium = city
 #b_ad_columnam_rhegium = city
 b_leucopetra_rhegium = city
 #b_decastadium_rhegium = city
 b_scyle_rhegium = city
-b_hipporum_rhegium = city
+b_hipporum_rhegium = castle
 
 # Misc
 culture = ionian

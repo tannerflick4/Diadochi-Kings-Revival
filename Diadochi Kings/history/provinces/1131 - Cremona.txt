@@ -9,7 +9,7 @@ b_cremona_cremona = tribal
 #b_vulturina_cremona = city
 #b_bedriacum_cremona = city
 #b_minervium_cremona = city
-#b_tetellus_cremona = city
+#b_tetellus_cremona = castle
 #b_forum_novum_cremona = city
 #b_acerrae_cremona = city
 

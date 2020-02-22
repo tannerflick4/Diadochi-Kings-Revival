@@ -6,11 +6,11 @@ title = c_auso
 # Settlements
 max_settlements = 3
 b_auso_auso = tribal
-#b_bonelis_auso = city
+#b_bonelis_auso = castle
 #b_hereus_auso = temple
 #b_matacans_auso = temple
 #b_caseta_auso = city
-#b_praetorium_auso = city
+#b_praetorium_auso = castle
 #b_bisbe_auso = city
 
 # Misc

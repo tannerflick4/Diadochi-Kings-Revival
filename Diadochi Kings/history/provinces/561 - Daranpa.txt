@@ -6,7 +6,7 @@ title = c_daranpa
 # Settlements
 max_settlements = 2
 b_daranpa_daranpa = tribal
-#b_borabala_daranpa = city
+#b_borabala_daranpa = castle
 
 # Misc
 culture = scythian

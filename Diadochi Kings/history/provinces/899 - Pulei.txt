@@ -5,8 +5,8 @@ title = c_pulei
 
 # Settlements
 max_settlements = 2
-b_pulei_pulei = city
-b_further_pulei_pulei = city
+b_pulei_pulei = castle
+b_further_pulei_pulei = castle
 
 culture = tocharian
 religion = zoroastrian_main

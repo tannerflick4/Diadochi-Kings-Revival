@@ -7,9 +7,9 @@ title = c_arbitus # for example c_corinth
 max_settlements = 3
 b_arbitus_arbitus = tribal
 #b_iridava_arbitus = city
-#b_tegris_arbitus = city
+#b_tegris_arbitus = castle
 #b_appiaria_arbitus = city
-#b_transmarisca_arbitus = city
+#b_transmarisca_arbitus = castle
 #b_nigrinianis_arbitus = city
 #b_candidiana_arbitus = city
 

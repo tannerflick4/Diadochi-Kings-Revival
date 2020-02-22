@@ -5,7 +5,7 @@ title = c_kashkar
 
 # Settlements
 max_settlements = 2
-b_kashkar_kashkar = city
+b_kashkar_kashkar = castle
 b_apamea_kashkar = city
 
 # Misc
