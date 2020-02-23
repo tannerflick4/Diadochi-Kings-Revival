@@ -62,3 +62,26 @@
 		death="yes"
 	}
 }
+140005 = {
+	name = "Audata" # wife of Philip II
+	female = yes
+	dynasty = 14001 # Dardani
+	religion = illyrian_main
+	culture = illyrian
+	
+	father = 140003 # # Bardyllis I
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	
+	408.1.1 = {birth="yes"} # 368 BC Made up
+	416.1.1 = { # 359 BC
+		effect = {
+			name = "Eurydike"
+		}
+	}
+	438.1.1 = {death="yes"} # 338 BC Made up
+}

@@ -1,21 +1,32 @@
 # 801-900 for the Argeadai dynasty
 801 = {
-	name = "Philippos" # Philip III
+	name = "Arrhidaios" # Philip III Arrhidaeus
 	dynasty = 9 # Argeadai
 	religion = greek_main
 	culture = macedonian
+	
 	father = 803 # Philip II
+	mother = 141901 # Philinna of Larissa
 	
-	add_trait = imbecile # This trait still causes a regency
-	add_trait = legit_bastard
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
 	
-	417.1.1 = { # 359 BC
-		birth="yes"
+	add_trait = incapable
+	add_trait = naive_appeaser
+	add_trait = dull
+	add_trait = content
+	add_trait = slothful
+	add_trait = trusting
+	add_trait = chaste
+	
+	419.1.1 = {birth="yes"} # 357 BC
+	453.6.10 = {name = "Philippos"} # 323 BC
+	453.7.1 = { # 323 BC
+		add_spouse = 813 # Eurydice II
 	}
-	# We don't want the Diadochi hating him because of the trait
-	#453.6.10 = {
-	#	add_trait = diadochi_king
-	#}
 	459.12.25 = { # 317 BC
 		death = {
 			death_reason = death_execution
@@ -28,10 +39,15 @@
 	dynasty = 9 # Argeadai
 	religion = greek_main
 	culture = macedonian
+	
 	father = 803 # Philip II
 	mother = 10011
 	
+	diplomacy = 5
 	martial = 10
+	stewardship = 5
+	intrigue = 5
+	learning = 5
 	
 	add_trait = quick
 	add_trait = brilliant_strategist
@@ -40,21 +56,16 @@
 	add_trait = brave
 	add_trait = wroth
 	add_trait = chaste
-	add_trait = drunkard
 	
-	420.7.21 = { # 356 BC
-		birth="yes"
-	}
-	446.1.1 = { # 330 BC
-		add_trait = paranoid # After the whole Parmenion affair
-		add_trait = king_of_asia
-	}
+	420.7.21 = {birth="yes"} # 356 BC
+#	446.1.1 = { # 330 BC
+#		add_trait = paranoid # After the whole Parmenion affair
+#		add_trait = king_of_asia
+#	}
 	449.1.1 = { # 327 BC
 		add_spouse = 100001 # Roxane
 	}
-	453.6.10 = { # 323 BC
-		death="yes"
-	}
+	453.6.10 = {death="yes"} # 323 BC
 }
 803 = {
 	name = "Philippos" # Philip II
@@ -73,20 +84,24 @@
 	add_trait = patient
 	add_trait = cruel
 	
-	394.1.1 = { # 382 BC
-		birth="yes"
-		create_bloodline = { type = bloodline_argead }
-	}
-	# TODO: Add Audata
+	394.1.1 = {birth="yes"} # 382 BC
 	# TODO: Add Nikesipolis
-	# TODO: Add Philinna of Larissa
 	# TODO: Add Meda of Odessos
-	# TODO: Add Cleopatra Eurydice
+	417.1.1 = { # 359 BC
+		add_spouse = 140005 # Audata
+	}
 	418.1.1 = { # 358 BC 
 		add_spouse = 3607 # Phila
+		add_spouse = 141901 # Philinna of Larissa
 	}
 	419.1.1 = { # 357 BC
 		add_spouse = 10011 # Olympias
+	}
+	423.1.1 = { # 353 BC
+		add_spouse = 30411 # Nicesipolis
+	}
+	439.1.1 = { # 337 BC
+		add_spouse = 3701 # Cleopatra Eurydice
 	}
 	440.10.1 = { # 336 BC
 		death = {
@@ -100,10 +115,13 @@
 	religion = greek_main
 	culture = macedonian
 	
+	father = 835 # Arrhidaeus
+	
 	add_trait = charismatic_negotiator
 	
 	364.1.1 = { # 412 BC Made up
 		birth="yes"
+		create_bloodline = { type = bloodline_argead }
 	}
 	385.1.1 = { # 391 BC Made up
 		add_spouse = 3604 # Eurydike
@@ -157,9 +175,18 @@
 	culture = macedonian
 
 	father = 806 # Perdiccas III
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
 
 	411.1.1 = { # 365 BC
 		birth="yes"
+	}
+	435.1.1 = { # 341 BC
+		add_spouse = 812 # Cynane
 	}
 	440.10.15 = { # 336 BC
 		death = {
@@ -177,12 +204,14 @@
 	father = 802 # Alexander the Great
 	mother = 100001 # Roxane
 	
-	# We don't want the Diadochi hating him because of the trait
-	#add_trait = diadochi_king
-		
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	
 	453.8.1 = { # 323 BC
 		birth="yes"
-		add_claim = e_macedonia
 	}
 	467.1.1 = { # 310 BC
 		death = {
@@ -193,23 +222,25 @@
 }
 809 = {
 	name = "Kleopatra" # Alexander's sister
+	female = yes
 	dynasty = 9 # Argeadai
 	religion = greek_main
 	culture = macedonian
+	
 	employer = 801 # Philip III
-	female = yes
 
 	father = 803 # Philip II
-	mother = 10011
-
-	419.1.1 = { # 357 BC
-		birth="yes"
-	}
+	mother = 10011 # Olympias
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	
+	422.1.1 = {birth="yes"} # 354 BC
 	440.10.1 = { # 336 BC
 		add_spouse = 10008 # Alexandros I
-	}
-	453.6.10 = {
-		add_claim=e_macedonia
 	}
 	468.1.1 = { # 308 BC
 		death = {
@@ -220,22 +251,26 @@
 }
 810 = {
 	name = "Thessalonike" # Daughter of Philip II
+	female = yes
 	dynasty = 9 # Argeadai
 	religion = greek_main
 	culture = macedonian
-	female = yes
 
 	father = 803 # Philip II
+	mother = 30411 # Nicesipolis
 	
-	424.1.1 = {
-		birth="yes" # 352 BC
-	}
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	
+	424.1.1 = {birth="yes"} # 352 BC
 	481.1.1 = {
-		death = {
-			death_reason = death_murder
-		}
+		death = {death_reason = death_murder}
 	}
 }
+
 # TODO: Perhaps this guy should not be an Argead.
 811 = {
 	name = "Kleomenes" # First satrap of Egypt
@@ -257,4 +292,442 @@
 			killer = 601 # Ptolemy
 		}
 	}
+}
+
+812 = {
+	name = "Kyna" # Daughter of Philip II
+	female = yes
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 803 # Philip II
+	mother = 140005 # Audata
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	
+	419.1.1 = { birth = yes } # 357 BC
+	453.7.1 = { # 323 BC
+		death = {death_reason = death_murder}
+	}
+}
+813 = {
+	name = "Adea" # Eurydice II
+	female = yes
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 807 # Amyntas IV
+	mother = 812 # Cynane
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	
+	436.1.1 = { birth="yes"} # 340 BC
+	453.7.1 = {name = "Eurydike"} # 323 BC
+	459.12.25 = { # 317 BC
+		death = {
+			death_reason = death_execution
+			killer = 10011 # Olympias
+		}
+	}
+}
+814 = {
+	name = "Karanos" # Son of Philip II
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 803 # Philip II
+	mother = 3607 # Phila
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	
+	426.1.1 = { birth="yes"} # 350 BC
+	440.10.1 = { # 336 BC
+		death = {
+			death_reason = death_execution
+			killer = 802 # Alexander the Great
+		}
+	}
+}
+815 = {
+	name = "Elena" # Daughter of Philip II
+	female = yes
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 803 # Philip II
+	mother = 3701 # Cleopatra Eurydice
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	
+	440.1.1 = {birth = yes} # 336 BC
+	440.10.1 = { # 336 BC
+		death = {
+			death_reason = death_murder
+			killer = 10011 # Olympias
+		}
+	}
+}
+816 = {
+	name = "Perdikkas" # Perdiccas I
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	
+	56.1.1 = {birth="yes"} # 720 BC Made up
+	76.1.1 = { # 700 BC
+		create_bloodline = { type = bloodline_argead }
+	}
+	98.1.1 = {death="yes"} # 678 BC
+}
+817 = {
+	name = "Argaios" # Argaeus I
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 816 # Perdiccas I
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	
+	84.1.1 = {birth="yes"} # 692 BC Made up
+	136.1.1 = {death="yes"} # 640 BC
+}
+818 = {
+	name = "Philippos" # Philip I
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 817 # Argaeus I
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	
+	116.1.1 = {birth="yes"} # 660 BC Made up
+	174.1.1 = {death="yes"} # 602 BC
+}
+819 = {
+	name = "Airopos" # Aeropus I
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 818 # Philip I
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	
+	142.1.1 = {birth="yes"} # 634 BC Made up
+	200.1.1 = {death="yes"} # 576 BC
+}
+820 = {
+	name = "Alketas" # Alcetas I
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 819 # Aeropus I
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	
+	170.1.1 = {birth="yes"} # 606 BC Made up
+	229.1.1 = {death="yes"} # 547 BC
+}
+821 = {
+	name = "Amyntas" # Amyntas I
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 820 # Alcetas I
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	
+	203.1.1 = {birth="yes"} # 573 BC Made up
+	278.1.1 = {death="yes"} # 498 BC
+}
+822 = {
+	name = "Alexandros" # Alexander I
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 821 # Amyntas I
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	
+	238.1.1 = {birth="yes"} # 538 BC Made up
+	322.1.1 = {death="yes"} # 454 BC
+}
+823 = {
+	name = "Alketas" # Alcetas II
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 822 # Alexander I
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	
+	273.1.1 = {birth="yes"} # 503 BC Made up
+	328.1.1 = {death="yes"} # 448 BC
+}
+824 = {
+	name = "Perdikkas" # Perdiccas II
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 822 # Alexander I
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	
+	276.1.1 = {birth="yes"} # 500 BC Made up
+	363.1.1 = {death="yes"} # 413 BC
+}
+825 = {
+	name = "Archelaos" # Archelaus I
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 824 # Perdiccas II
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	
+	308.1.1 = {birth="yes"} # 468 BC Made up
+	377.1.1 = {death="yes"} # 399 BC
+}
+
+# TODO: Perhaps this guy should not be an Argead.
+826 = {
+	name = "Krateuas" # Crateuas of Macedon
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	
+	324.1.1 = {birth="yes"} # 452 BC Made up
+	377.6.1 = {death="yes"} # 399 BC
+}
+
+827 = {
+	name = "Orestes" # Orestes
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 825 # Archelaus I
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	
+	add_trait = incapable
+	
+	352.1.1 = {birth="yes"} # 424 BC Made up
+	380.1.1 = {death="yes"} # 396 BC
+}
+828 = {
+	name = "Airopos" # Aeropus II
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 824 # Perdiccas II
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	
+	316.1.1 = {birth="yes"} # 460 BC Made up
+	381.1.1 = {death="yes"} # 395 BC
+}
+829 = {
+	name = "Archelaos" # Archelaus II
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 825 # Archelaus I
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	
+	342.1.1 = {birth="yes"} # 434 BC Made up
+	382.1.1 = {death="yes"} # 394 BC
+}
+830 = {
+	name = "Philippos" # son of Alexander I
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 822 # Alexander I
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	
+	280.1.1 = {birth="yes"} # 496 BC Made up
+	358.1.1 = {death="yes"} # 418 BC Made up
+}
+831 = {
+	name = "Amyntas" # Amyntas II
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 830 # Philip
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	
+	314.1.1 = {birth="yes"} # 462 BC Made up
+	382.3.1 = {death="yes"} # 394 BC
+}
+832 = {
+	name = "Pausanias" # Pausanias
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 828 # Aeropus II
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	
+	349.1.1 = {birth="yes"} # 427 BC Made up
+	382.6.1 = {death="yes"} # 394 BC
+}
+
+# TODO: Perhaps this guy should not be an Argead.
+833 = {
+	name = "Argaios" # Argaeus II
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	
+	363.1.1 = {birth="yes"} # 413 BC Made up
+	417.1.1 = {death="yes"} # 359 BC
+}
+834 = {
+	name = "Amyntas" # son of Alexander I
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 822 # Alexander I
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	
+	285.1.1 = {birth="yes"} # 491 BC Made up
+	359.1.1 = {death="yes"} # 417 BC Made up
+}
+835 = {
+	name = "Arrhidaios" # Arrhidaeus
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 834 # Amyntas
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	
+	317.1.1 = {birth="yes"} # 459 BC Made up
+	375.1.1 = {death="yes"} # 401 BC Made up
 }

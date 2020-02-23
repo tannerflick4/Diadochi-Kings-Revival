@@ -1,12 +1,14 @@
 bloodline_argead = {
+	monthly_character_prestige = 0.25
+	tech_growth_modifier_military = 0.05
+	vassal_opinion = 5
 	macedonian_opinion = 5
-	levy_reinforce_rate = 0.15
-	combat_rating = 10
-	monthly_character_prestige = 0.2
-	inheritance = patrilineal
+	
+	inheritance = all_descendants
 	allow_bastards = yes
 	picture = GFX_bloodline_argead
 	flags = {
+		dynastic_claim_e_macedonia
 		dynastic_claim_k_macedon
 		dynastic_claim_d_lowermacedon
 		dynastic_claim_c_pella

@@ -159,3 +159,25 @@
 		death="yes" # 356 BC
 	}
 }
+30411 = {
+	name = "Nikesipolis" # wife of Philip II
+	female = yes
+	dynasty = 3005 # Iasonidai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30403
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	
+	401.1.1 = {birth="yes"} # 375 BC Made up
+	424.1.1 = { # 352 BC
+		death = {
+			death_reason = death_childbirth
+		}
+	}
+}

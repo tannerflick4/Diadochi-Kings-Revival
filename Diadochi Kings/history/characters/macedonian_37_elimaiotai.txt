@@ -96,19 +96,21 @@
 }
 3607 = {
 	name = "Phila" # Wife of Philip II
+	female = yes
 	dynasty = 37
 	religion = greek_main
 	culture = macedonian
-    female = yes
-
+	
     father = 3605
 	
-	403.1.1 = { # 373 BC Made up
-		birth="yes"
-	}
-	421.1.1 = { # 354 BC Made up
-		death="yes"
-	}
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	
+	403.1.1 = {birth="yes"} # 373 BC Made up
+	425.1.1 = {death="yes"} # 351 BC Made up
 }
 3608 = {
 	name = "Machatas" # Grandfather of Antigonos
