@@ -5,6 +5,7 @@
 # Gain one of a vassal's landed titles
 plot_win_silver_shields = {
 	type = realm_characters
+	intrigue_plot = yes
 
 	# Plotter scope
 	potential = {
@@ -118,6 +119,7 @@ plot_win_silver_shields = {
 # Gain one of a vassal's landed titles
 plot_disband_silver_shields = {
 	type = realm_characters
+	intrigue_plot = yes
 
 	# Plotter scope
 	potential = {
