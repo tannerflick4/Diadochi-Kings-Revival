@@ -1,0 +1,5 @@
+on_startup = {
+	events = {
+		2nd_war_events.0
+	}
+}

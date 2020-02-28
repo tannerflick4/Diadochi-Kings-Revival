@@ -1,0 +1,92 @@
+namespace = 2nd_war_events
+character_event = {
+	id = 2nd_war_events.0
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		character = 2
+		is_alive = yes
+		NOR = {
+			has_landed_title = e_macedonia
+			has_minor_title = title_regent
+			c_41 = {
+				war_with = ROOT
+			}
+		}
+		start_date = 457.1.1
+		NOT = {
+			start_date = 461.1.1
+		}
+	}
+
+	immediate = {
+		c_41 = {
+			reverse_war = {
+				target = ROOT
+				casus_belli = regency_war_cb
+			}
+		}
+		e_macedonia = {
+			holder_scope = {
+				any_vassal = {
+					limit = {
+						is_ruler = yes
+						government = satrap_government
+					}
+					character_event = {
+						id = 2nd_war_events.1
+					}
+				}
+			}
+		}
+	}
+}
+character_event = {
+	id = 2nd_war_events.1
+	desc = EVTDESC2nd_war_events.1
+	picture = GFX_evt_battle
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTA2nd_war_events.1
+		trigger = {
+			OR = {
+				character = 2
+				character = 41
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTB2nd_war_events.1
+		trigger = {
+			NOR = {
+				character = 2
+				character = 41
+			}
+		}
+		join_defender_wars = FROM
+	}
+
+	option = {
+		name = EVTOPTC2nd_war_events.1
+		trigger = {
+			NOR = {
+				character = 2
+				character = 41
+			}
+		}
+		join_attacker_wars = FROM
+	}
+
+	option = {
+		name = EVTOPTD2nd_war_events.1
+		trigger = {
+			NOR = {
+				character = 2
+				character = 41
+			}
+		}
+	}
+}
