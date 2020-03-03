@@ -1071,7 +1071,7 @@ wonder_harbor = {
 	picture = GFX_wonder_strip_harbour
 	is_in_water = yes
 	potential = {
-		FROMFROMFROM = { is_coastal = yes }
+		FROMFROMFROM = { port = yes }
 	}
 	active = {
 	}
@@ -1185,7 +1185,7 @@ wonder_lighthouse = {
 	model = wonder_grand_lighthouse
 	is_in_water = yes
 	potential = {
-		FROMFROMFROM = { is_coastal = yes }
+		FROMFROMFROM = { port = yes }
 	}
 	active = {
 	}

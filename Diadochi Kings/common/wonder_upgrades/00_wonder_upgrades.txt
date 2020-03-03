@@ -2363,7 +2363,7 @@ upgrade_walls_sea = { # Sea Walls
 
 	potential = {
 		FROMFROMFROM = {
-			is_coastal = yes
+			port = yes
 		}
 	}
 	allow = {
@@ -2616,7 +2616,7 @@ upgrade_artificial_islands = { # Artificial Islands
 	picture = GFX_upgrade_icon_stones
 
 	potential = {
-		FROMFROMFROM = { is_coastal = yes }
+		FROMFROMFROM = { port = yes }
 	}
 	allow = {
 
