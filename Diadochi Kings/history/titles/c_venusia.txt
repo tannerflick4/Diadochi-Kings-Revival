@@ -11,16 +11,16 @@
 	holder = 171503 # Publius Cornelius Rufinus
 }
 487.1.1 = { # 289 BC
-	holder = 170901 # Marcus Valerius Maximus Corvus
+	holder = 170902 # Marcus Valerius Maximus Corvus
 }
 488.1.1 = { # 288 BC
-	holder = 171201 # Quintus Marcius Tremulus
+	holder = 171202 # Quintus Marcius Tremulus
 }
 489.1.1 = { # 287 BC
 	holder = 171102 # Marcus Claudius Marcellus
 }
 490.1.1 = { # 286 BC
-	holder = 170901 # Marcus Valerius Maximus Corvus
+	holder = 170902 # Marcus Valerius Maximus Corvus
 }
 491.1.1 = { # 285 BC
 	holder = 171103 # Gaius Claudius Marcellus
@@ -35,11 +35,11 @@
 	holder = 172001 # Gaius Fabricius Luscinus
 }
 495.1.1 = { # 281 BC
-	holder = 172101 # Lucius Aemilius Barbula
+	holder = 172103 # Lucius Aemilius Barbula
 }
 496.1.1 = { # 280 BC
 	holder = 170902 # Publius Valerius Laevinus
 }
 497.1.1 = { # 279 BC
-	holder = 170002 # Publius Sulpicius Saverrio
+	holder = 170005 # Publius Sulpicius Saverrio
 }
