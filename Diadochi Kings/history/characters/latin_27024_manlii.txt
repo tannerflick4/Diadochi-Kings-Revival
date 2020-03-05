@@ -1,68 +1,248 @@
 # 172301-172400 for the Manlii dynasty
-172301 = {
+
+# 407.1.1={holder=172301} #Decimus[17024]
+# 454.12.10={holder=172302} #Clodius[17024]
+# 451.04.24={holder=172306} #Gouneus[17024]
+# 495.12.10={holder=172309} #Eustathius[17024]
+# 528.09.20={holder=172312} #Eusebius[17024]
+# 573.10.26={holder=172318} #Plautus[17024]
+# 573.02.17={holder=172321} #Clodius[17024]
+
+172301={
 	name = "Titus" # Manlius Torquatus
-	dynasty = 17024 # Manlii
-	religion = roman_main
-	culture = latin
-	
-	add_trait = zealous
-	add_trait = diligent
-	
-	394.1.1 = { # 382 BC Made Up
-		birth="yes"
-	}
+	dynasty=17024
+	culture=latin 
+	religion=roman_main
+	382.7.17={ birth=yes }
 	436.1.1 = { # 340 BC
 		add_trait = kinslayer # Killed his own son
 	}
-	442.1.1 = { # 334 BC Made Up
-		death="yes"
-	}
+	454.12.10={ death=yes }
 }
-172302 = {
+172302={
+	name=Clodius
+	dynasty=17024
+	culture=latin 
+	religion=roman_main
+	father=172301	#Titus
+	405.7.17={ birth=yes }
+	451.4.24={ death=yes }
+}
+172303={
+	name=Drusilla
+	female=yes
+	dynasty=17024
+	culture=latin 
+	religion=roman_main
+	father=172301	#Titus
+	410.9.22={ birth=yes }
+	476.11.29={ death=yes }
+}
+172304={
+	name=Quintia
+	female=yes
+	dynasty=17024
+	culture=latin 
+	religion=roman_main
+	father=172302	#Clodius
+	432.12.22={ birth=yes }
+	521.5.27={ death=yes }
+}
+172305={
+	name=Crassia
+	female=yes
+	dynasty=17024
+	culture=latin 
+	religion=roman_main
+	father=172302	#Clodius
+	434.12.17={ birth=yes }
+	504.8.21={ death=yes }
+}
+172306={
+	name=Gouneus
+	dynasty=17024
+	culture=latin 
+	religion=roman_main
+	father=172302	#Clodius
+	436.6.6={ birth=yes }
+	495.12.10={ death=yes }
+}
+172307={
+	name=Arrius
+	dynasty=17024
+	culture=latin 
+	religion=roman_main
+	father=172302	#Clodius
+	440.2.19={ birth=yes }
+	486.5.25={ death=yes }
+}
+172308={
+	name=Domitia
+	female=yes
+	dynasty=17024
+	culture=latin 
+	religion=roman_main
+	father=172306	#Gouneus
+	460.10.22={ birth=yes }
+	526.10.31={ death=yes }
+}
+172309={
+	name=Eustathius
+	dynasty=17024
+	culture=latin 
+	religion=roman_main
+	father=172306	#Gouneus
+	464.6.22={ birth=yes }
+	528.9.20={ death=yes }
+}
+172310={
+	name=Varia
+	female=yes
+	dynasty=17024
+	culture=latin 
+	religion=roman_main
+	father=172306	#Gouneus
+	467.9.2={ birth=yes }
+	544.11.21={ death=yes }
+}
+172311={
+	name=Annia
+	female=yes
+	dynasty=17024
+	culture=latin 
+	religion=roman_main
+	father=172309	#Eustathius
+	491.12.10={ birth=yes }
+	559.4.21={ death=yes }
+}
+172312={
+	name=Eusebius
+	dynasty=17024
+	culture=latin 
+	religion=roman_main
+	father=172309	#Eustathius
+	493.5.5={ birth=yes }
+	573.10.26={ death=yes }
+}
+172313={
+	name=Syncellia
+	female=yes
+	dynasty=17024
+	culture=latin 
+	religion=roman_main
+	father=172309	#Eustathius
+	497.3.5={ birth=yes }
+	559.5.31={ death=yes }
+}
+172314={
+	name=Maxentia
+	female=yes
+	dynasty=17024
+	culture=latin 
+	religion=roman_main
+	father=172309	#Eustathius
+	501.12.8={ birth=yes }
+	561.12.1={ death=yes }
+}
+172315={
+	name=Aetia
+	female=yes
+	dynasty=17024
+	culture=latin 
+	religion=roman_main
+	father=172309	#Eustathius
+	504.1.15={ birth=yes }
+	548.8.12={ death=yes }
+}
+172316={
+	name=Gratian
+	dynasty=17024
+	culture=latin 
+	religion=roman_main
+	father=172309	#Eustathius
+	506.4.8={ birth=yes }
+	560.3.27={ death=yes }
+}
+172317={
+	name=Livilla
+	female=yes
+	dynasty=17024
+	culture=latin 
+	religion=roman_main
+	father=172309	#Eustathius
+	510.5.3={ birth=yes }
+	552.2.16={ death=yes }
+}
+172318={
+	name=Plautus
+	dynasty=17024
+	culture=latin 
+	religion=roman_main
+	father=172312	#Eusebius
+	518.6.9={ birth=yes }
+	573.2.17={ death=yes }
+}
+172319={
+	name=Arrianilla
+	female=yes
+	dynasty=17024
+	culture=latin 
+	religion=roman_main
+	father=172312	#Eusebius
+	521.4.18={ birth=yes }
+	588.7.6={ death=yes }
+}
+172320={
+	name=Theodosia
+	female=yes
+	dynasty=17024
+	culture=latin 
+	religion=roman_main
+	father=172312	#Eusebius
+	525.6.26={ birth=yes }
+	574.12.6={ death=yes }
+}
+172321={
+	name=Clodius
+	dynasty=17024
+	culture=latin 
+	religion=roman_main
+	father=172318	#Plautus
+	537.1.20={ birth=yes }
+	587.2.27={ death=yes }
+}
+172322={
+	name=Photia
+	female=yes
+	dynasty=17024
+	culture=latin 
+	religion=roman_main
+	father=172318	#Plautus
+	541.3.21={ birth=yes }
+	586.12.3={ death=yes }
+}
+172323={
+	name=Accius
+	dynasty=17024
+	culture=latin 
+	religion=roman_main
+	father=172318	#Plautus
+	544.6.16={ birth=yes }
+	617.8.23={ death=yes }
+}
+172324 = {
 	name = "Titus" # Manlius Torquatus
 	dynasty = 17024 # Manlii
 	religion = roman_main
 	culture = latin
-	
-	add_trait = zealous
-	add_trait = diligent
-	
-	410.1.1 = { # 382 BC Made Up
+	father=172301
+	402.1.1 = { # 382 BC Made Up
 		birth="yes"
 	}
-	472.1.1 = { # 334 BC Made Up
-		death="yes"
-	}
-}
-172303 = {
-	name = "Titus" # Manlius Torquatus
-	dynasty = 17024 # Manlii
-	religion = roman_main
-	culture = latin
-	
-	add_trait = zealous
-	add_trait = diligent
-	
-	421.1.1 = { # 382 BC Made Up
-		birth="yes"
-	}
-	492.1.1 = { # 334 BC Made Up
-		death="yes"
-	}
-}
-172304 = {
-	name = "Titus" # Manlius Torquatus
-	dynasty = 17024 # Manlii
-	religion = roman_main
-	culture = latin
-	
-	add_trait = zealous
-	add_trait = diligent
-	
-	460.1.1 = { # 382 BC Made Up
-		birth="yes"
-	}
-	531.1.1 = { # 334 BC Made Up
-		death="yes"
+	436.1.1 = { # 334 BC Made Up
+		death = {
+			death_reason = death_murder
+			killer = 172301 # his father
+		}
 	}
 }
