@@ -1,6 +1,6 @@
-namespace = 2nd_war_events
+namespace = snd_war_events
 character_event = {
-	id = 2nd_war_events.0
+	id = snd_war_events.0
 	is_triggered_only = yes
 	hide_window = yes
 
@@ -10,7 +10,7 @@ character_event = {
 		NOR = {
 			has_landed_title = e_macedonia
 			has_minor_title = title_regent
-			c_41 = {
+			c_1601 = {
 				war_with = ROOT
 			}
 		}
@@ -21,7 +21,7 @@ character_event = {
 	}
 
 	immediate = {
-		c_41 = {
+		c_1601 = {
 			reverse_war = {
 				target = ROOT
 				casus_belli = regency_war_cb
@@ -35,7 +35,7 @@ character_event = {
 						government = satrap_government
 					}
 					character_event = {
-						id = 2nd_war_events.1
+						id = snd_war_events.1
 					}
 				}
 			}
@@ -43,49 +43,49 @@ character_event = {
 	}
 }
 character_event = {
-	id = 2nd_war_events.1
-	desc = EVTDESC2nd_war_events.1
+	id = snd_war_events.1
+	desc = EVTDESCsnd_war_events.1
 	picture = GFX_evt_battle
 	is_triggered_only = yes
 
 	option = {
-		name = EVTOPTA2nd_war_events.1
+		name = EVTOPTAsnd_war_events.1
 		trigger = {
 			OR = {
 				character = 2
-				character = 41
+				character = 1601
 			}
 		}
 	}
 
 	option = {
-		name = EVTOPTB2nd_war_events.1
+		name = EVTOPTBsnd_war_events.1
 		trigger = {
 			NOR = {
 				character = 2
-				character = 41
+				character = 1601
 			}
 		}
 		join_defender_wars = FROM
 	}
 
 	option = {
-		name = EVTOPTC2nd_war_events.1
+		name = EVTOPTCsnd_war_events.1
 		trigger = {
 			NOR = {
 				character = 2
-				character = 41
+				character = 1601
 			}
 		}
 		join_attacker_wars = FROM
 	}
 
 	option = {
-		name = EVTOPTD2nd_war_events.1
+		name = EVTOPTDsnd_war_events.1
 		trigger = {
 			NOR = {
 				character = 2
-				character = 41
+				character = 1601
 			}
 		}
 	}
