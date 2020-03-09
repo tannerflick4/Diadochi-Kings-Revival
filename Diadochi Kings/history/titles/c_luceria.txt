@@ -31,22 +31,22 @@
 	holder = 171502 # Lucius Cornelius Scipio Barbates
 }
 479.1.1 = { # 297 BC
-	holder = 170301 # Quintus Fabius Maximus Rullianus
+	holder = 170304 # Quintus Fabius Maximus Rullianus
 }
 480.1.1 = { # 296 BC
 	holder = 171801 # Lucius Volumnius Flamma Violens
 }
 481.1.1 = { # 295 BC
-	holder = 170301 # Quintus Fabius Maximus Rullianus
+	holder = 170304 # Quintus Fabius Maximus Rullianus
 }
 482.1.1 = { # 294 BC
 	holder = 171301 # Lucius Postumius Megellus
 }
 483.1.1 = { # 293 BC
-	holder = 170101 # Lucius Papirius Cursor
+	holder = 170102 # Lucius Papirius Cursor
 }
 484.1.1 = { # 292 BC
-	holder = 170302 # Quintus Fabius Maximus Gurges
+	holder = 170305 # Quintus Fabius Maximus Gurges
 }
 485.1.1 = { # 291 BC
 	holder = 171301 # Lucius Postumius Megellus
@@ -55,7 +55,7 @@
 	holder = 171503 # Publius Cornelius Rufinus
 }
 487.1.1 = { # 289 BC
-	holder = 170901 # Marcus Valerius Maximus Corvus
+	holder = 170902 # Marcus Valerius Maximus Corvus
 }
 488.1.1 = { # 288 BC
 	holder = 171202 # Quintus Marcius Tremulus

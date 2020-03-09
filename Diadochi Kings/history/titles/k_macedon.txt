@@ -1,58 +1,58 @@
 76.1.1 = {
-	holder = 812 # Perdiccas I
+	holder = 816 # Perdiccas I
 	law = succ_tanistry
 	law = agnatic_succession
 }
 98.1.1 = {
-	holder = 813 # Argaeus I
+	holder = 817 # Argaeus I
 }
 136.1.1 = {
-	holder = 814 # Philip I
+	holder = 818 # Philip I
 }
 174.1.1 = {
-	holder = 815 # Aeropus I
+	holder = 819 # Aeropus I
 }
 200.1.1 = {
-	holder = 816 # Alcetas I
+	holder = 820 # Alcetas I
 }
 229.1.1 = {
-	holder = 817 # Amyntas I
+	holder = 821 # Amyntas I
 }
 278.1.1 = {
-	holder = 818 # Alexander I
+	holder = 822 # Alexander I
 }
 322.1.1 = {
-	holder = 819 # Alcetas II
+	holder = 823 # Alcetas II
 }
 328.1.1 = {
-	holder = 820 # Perdiccas II
+	holder = 824 # Perdiccas II
 }
 363.1.1 = {
-	holder = 821 # Archelaus I
+	holder = 825 # Archelaus I
 }
 377.1.1 = {
-	holder = 822 # Crateuas of Macedon
+	holder = 826 # Crateuas of Macedon
 }
 377.6.1 = {
-	holder = 823 # Orestes
+	holder = 827 # Orestes
 }
 380.1.1 = {
-	holder = 824 # Aeropus II
+	holder = 828 # Aeropus II
 }
 381.1.1 = {
-	holder = 825 # Archelaus II
+	holder = 829 # Archelaus II
 }
 382.1.1 = {
-	holder = 827 # Amyntas II
+	holder = 831 # Amyntas II
 }
 382.3.1 = {
-	holder = 828 # Pausanias
+	holder = 832 # Pausanias
 }
 382.6.1 = {
 	holder = 804 # Amyntas IV
 }
 382.9.1 = {
-	holder = 829 # Argaeus II
+	holder = 833 # Argaeus II
 }
 383.1.1 = {
 	holder = 804 # Amyntas III
