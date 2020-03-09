@@ -26,7 +26,7 @@
 	add_trait = deceitful
 	add_trait = tough_soldier
 	
-	424.1.1 = {
+	415.1.1 = {
 		birth="yes" # 354 BC
 	}
 	453.6.10 = {

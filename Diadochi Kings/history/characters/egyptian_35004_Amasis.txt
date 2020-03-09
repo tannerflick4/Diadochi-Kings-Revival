@@ -72,7 +72,7 @@
 	culture = egyptian
 	religion = kemetic
 	father = 350051
-	252.1.1 = { #535 BCE, made up
+	250.1.1 = { #535 BCE, made up
 		birth="yes"
 	}
 	312.1.1 = { #510 BCE 

@@ -1,19 +1,11 @@
 # 172301-172400 for the Manlii dynasty
-
-# 407.1.1={holder=172301} #Decimus[17024]
-# 454.12.10={holder=172302} #Clodius[17024]
-# 451.04.24={holder=172306} #Gouneus[17024]
-# 495.12.10={holder=172309} #Eustathius[17024]
-# 528.09.20={holder=172312} #Eusebius[17024]
-# 573.10.26={holder=172318} #Plautus[17024]
-# 573.02.17={holder=172321} #Clodius[17024]
-
 172301={
 	name = "Titus" # Manlius Torquatus
 	dynasty=17024
 	culture=latin 
 	religion=roman_main
 	382.7.17={ birth=yes }
+	402.1.1={ add_spouse=172325 }
 	436.1.1 = { # 340 BC
 		add_trait = kinslayer # Killed his own son
 	}
@@ -25,7 +17,9 @@
 	culture=latin 
 	religion=roman_main
 	father=172301	#Titus
+	mother=172325	#Drusilla
 	405.7.17={ birth=yes }
+	425.1.1={ add_spouse=172326 }
 	451.4.24={ death=yes }
 }
 172303={
@@ -35,6 +29,7 @@
 	culture=latin 
 	religion=roman_main
 	father=172301	#Titus
+	mother=172325	#Drusilla
 	410.9.22={ birth=yes }
 	476.11.29={ death=yes }
 }
@@ -45,6 +40,7 @@
 	culture=latin 
 	religion=roman_main
 	father=172302	#Clodius
+	mother=172326	#Quintia
 	432.12.22={ birth=yes }
 	521.5.27={ death=yes }
 }
@@ -55,6 +51,7 @@
 	culture=latin 
 	religion=roman_main
 	father=172302	#Clodius
+	mother=172326	#Quintia
 	434.12.17={ birth=yes }
 	504.8.21={ death=yes }
 }
@@ -64,6 +61,7 @@
 	culture=latin 
 	religion=roman_main
 	father=172302	#Clodius
+	mother=172326	#Quintia
 	436.6.6={ birth=yes }
 	495.12.10={ death=yes }
 }
@@ -73,6 +71,7 @@
 	culture=latin 
 	religion=roman_main
 	father=172302	#Clodius
+	mother=172326	#Quintia
 	440.2.19={ birth=yes }
 	486.5.25={ death=yes }
 }
@@ -235,7 +234,8 @@
 	dynasty = 17024 # Manlii
 	religion = roman_main
 	culture = latin
-	father=172301
+	father=172301	# Titus
+	mother=172325	# Drusilla
 	402.1.1 = { # 382 BC Made Up
 		birth="yes"
 	}
@@ -245,4 +245,20 @@
 			killer = 172301 # his father
 		}
 	}
+}
+172325={
+	name = "Drusilla"
+	female=yes
+	culture=latin 
+	religion=roman_main
+	382.1.1={ birth=yes }
+	454.1.1={ death=yes }
+}
+172326={
+	name=Quintia
+	female=yes
+	culture=latin 
+	religion=roman_main
+	405.1.1={ birth=yes }
+	451.1.1={ death=yes }
 }

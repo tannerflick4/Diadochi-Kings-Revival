@@ -27,28 +27,13 @@
         death="yes"
 	}
 }
-10503 = {
-	name = "Kephalos" # Made up
-	dynasty = 1006
-	religion = greek_main
-	culture = doric
-
-    father = 10502
-
-	452.1.1 = { # 324 BC
-		birth="yes"
-	}
-	468.1.1 = { # 308 BC
-        death="yes"
-	}
-}
 10504 = {
 	name = "Leukon" # Made up
 	dynasty = 1006
 	religion = greek_main
 	culture = doric
 
-    father = 10503
+    father = 10502
 
 	452.1.1 = { # 324 BC
 		birth="yes"

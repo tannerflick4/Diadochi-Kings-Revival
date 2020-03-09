@@ -2,3 +2,7 @@
 394.1.1 = {
 	holder = 172301
 }
+451.04.24={holder=172306} #Gouneus[17024]
+495.12.10={holder=172309} #Eustathius[17024]
+528.09.20={holder=172312} #Eusebius[17024]
+573.02.17={holder=172321} #Clodius[17024]
