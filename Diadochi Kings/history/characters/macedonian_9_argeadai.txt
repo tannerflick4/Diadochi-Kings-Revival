@@ -121,7 +121,6 @@
 	
 	364.1.1 = { # 412 BC Made up
 		birth="yes"
-		create_bloodline = { type = bloodline_argead }
 	}
 	385.1.1 = { # 391 BC Made up
 		add_spouse = 3604 # Eurydike
