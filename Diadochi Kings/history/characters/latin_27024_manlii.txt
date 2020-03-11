@@ -128,6 +128,7 @@
 	father=172309	#Eustathius
 	mother=172328	#Domitia
 	493.5.5={ birth=yes }
+	513.1.1={ add_spouse=172329 }
 	573.10.26={ death=yes }
 }
 172313={
@@ -190,7 +191,9 @@
 	culture=latin 
 	religion=roman_main
 	father=172312	#Eusebius
+	mother=172329	#Varia
 	518.6.9={ birth=yes }
+	538.1.1={ add_spouse=172330 }
 	573.2.17={ death=yes }
 }
 172319={
@@ -200,6 +203,7 @@
 	culture=latin 
 	religion=roman_main
 	father=172312	#Eusebius
+	mother=172329	#Varia
 	521.4.18={ birth=yes }
 	588.7.6={ death=yes }
 }
@@ -210,6 +214,7 @@
 	culture=latin 
 	religion=roman_main
 	father=172312	#Eusebius
+	mother=172329	#Varia
 	525.6.26={ birth=yes }
 	574.12.6={ death=yes }
 }
@@ -219,6 +224,7 @@
 	culture=latin 
 	religion=roman_main
 	father=172318	#Plautus
+	mother=172330	#Annia
 	537.1.20={ birth=yes }
 	587.2.27={ death=yes }
 }
@@ -229,6 +235,7 @@
 	culture=latin 
 	religion=roman_main
 	father=172318	#Plautus
+	mother=172330	#Annia
 	541.3.21={ birth=yes }
 	586.12.3={ death=yes }
 }
@@ -238,6 +245,7 @@
 	culture=latin 
 	religion=roman_main
 	father=172318	#Plautus
+	mother=172330	#Annia
 	544.6.16={ birth=yes }
 	617.8.23={ death=yes }
 }
@@ -289,4 +297,20 @@
 	religion=roman_main
 	464.1.1={ birth=yes }
 	528.1.1={ death=yes }
+}
+172329={
+	name=Varia
+	female=yes
+	culture=latin 
+	religion=roman_main
+	493.1.1={ birth=yes }
+	573.1.1={ death=yes }
+}
+172330={
+	name=Annia
+	female=yes
+	culture=latin 
+	religion=roman_main
+	518.1.1={ birth=yes }
+	573.1.1={ death=yes }
 }
