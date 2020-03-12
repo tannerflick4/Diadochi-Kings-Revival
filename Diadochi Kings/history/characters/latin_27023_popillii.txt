@@ -4,46 +4,141 @@
 	dynasty = 17023 # Popillii
 	religion = roman_main
 	culture = latin
-	366.1.1 = { # 410 BC Made up
+	365.1.1 = { # 410 BC Made up
 		birth="yes"
 	}
-	438.1.1 = { # 338 BC Made up
+	425.1.1 = { # 338 BC Made up
 		death="yes"
 	}
 }
-172202 = {
-	name = "Marcus" # Popillius Laenas
-	dynasty = 17023 # Popillii
-	religion = roman_main
-	culture = latin
-	400.1.1 = { # 410 BC Made up
-		birth="yes"
-	}
-	478.1.1 = { # 338 BC Made up
-		death="yes"
-	}
+172202={
+	name=Atilius
+	dynasty=17023
+	culture=latin 
+    religion=roman_main
+	father=172201	#Marcus
+	387.12.13={ birth=yes }
+	441.6.9={ death=yes }
 }
-172203 = {
-	name = "Marcus" # Popillius Laenas
-	dynasty = 17023 # Popillii
-	religion = roman_main
-	culture = latin
-	434.1.1 = { # 410 BC Made up
-		birth="yes"
-	}
-	509.1.1 = { # 338 BC Made up
-		death="yes"
-	}
+172203={
+	name=Aurelia
+	female=yes
+	dynasty=17023
+	culture=latin 
+    religion=roman_main
+	father=172201	#Marcus
+	390.3.26={ birth=yes }
+	432.3.29={ death=yes }
 }
-172204 = {
-	name = "Marcus" # Popillius Laenas
-	dynasty = 17023 # Popillii
-	religion = roman_main
-	culture = latin
-	470.1.1 = { # 410 BC Made up
-		birth="yes"
-	}
-	549.1.1 = { # 338 BC Made up
-		death="yes"
-	}
+172204={
+	name=Octavian
+	dynasty=17023
+	culture=latin 
+    religion=roman_main
+	father=172201	#Marcus
+	396.11.8={ birth=yes }
+	455.8.31={ death=yes }
+}
+172205={
+	name=Traianus
+	dynasty=17023
+	culture=latin 
+    religion=roman_main
+	father=172201	#Marcus
+	399.8.15={ birth=yes }
+	448.8.28={ death=yes }
+}
+172206={
+	name=Otho
+	dynasty=17023
+	culture=latin 
+    religion=roman_main
+	father=172202	#Atilius
+	411.3.27={ birth=yes }
+	474.5.27={ death=yes }
+}
+172207={
+	name=Optima
+	female=yes
+	dynasty=17023
+	culture=latin 
+    religion=roman_main
+	father=172202	#Atilius
+	416.3.16={ birth=yes }
+	464.1.5={ death=yes }
+}
+172208={
+	name=Aelia
+	female=yes
+	dynasty=17023
+	culture=latin 
+    religion=roman_main
+	father=172202	#Atilius
+	419.3.5={ birth=yes }
+	464.2.3={ death=yes }
+}
+172209={
+	name=Accius
+	dynasty=17023
+	culture=latin 
+    religion=roman_main
+	father=172202	#Atilius
+	421.2.25={ birth=yes }
+	482.2.8={ death=yes }
+}
+172210={
+	name=Colunella
+	dynasty=17023
+	culture=latin 
+    religion=roman_main
+	father=172206	#Otho
+	439.3.1={ birth=yes }
+	484.2.28={ death=yes }
+}
+172211={
+	name=Julian
+	dynasty=17023
+	culture=latin 
+    religion=roman_main
+	father=172206	#Otho
+	443.8.19={ birth=yes }
+	505.6.8={ death=yes }
+}
+172212={
+	name=Paulina
+	female=yes
+	dynasty=17023
+	culture=latin 
+    religion=roman_main
+	father=172206	#Otho
+	445.8.9={ birth=yes }
+	500.12.17={ death=yes }
+}
+172213={
+	name=Aesopus
+	dynasty=17023
+	culture=latin 
+    religion=roman_main
+	father=172210	#Colunella
+	460.4.18={ birth=yes }
+	511.11.15={ death=yes }
+}
+172214={
+	name=Posthuma
+	female=yes
+	dynasty=17023
+	culture=latin 
+    religion=roman_main
+	father=172210	#Colunella
+	463.5.4={ birth=yes }
+	523.4.4={ death=yes }
+}
+172215={
+	name=Aelius
+	dynasty=17023
+	culture=latin 
+    religion=roman_main
+	father=172210	#Colunella
+	467.4.2={ birth=yes }
+	530.2.25={ death=yes }
 }
