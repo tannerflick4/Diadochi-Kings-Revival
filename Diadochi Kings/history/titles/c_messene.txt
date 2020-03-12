@@ -14,7 +14,7 @@
 	holder = 808 # Alexandros IV
 }
 467.1.1 = {
-	holder = 2 # Kassandros
+	holder = 1601 # Polyperchon
 }
 479.1.1 = { # 297 BC
 	holder = 23802
