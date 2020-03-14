@@ -19,7 +19,7 @@ tuberculosis = {
 	color = { 84 171 176 }
 
 	timeperiod = {
-		start_date = 769.1.1
+		start_date = 1.1.1
 		end_date = 1452.1.1		
 
 		one_only = no
@@ -43,7 +43,7 @@ typhoid_fever = {
 	color = { 77 140 107 }
 	
 	timeperiod = {
-		start_date = 769.1.1
+		start_date = 1.1.1
 		end_date = 1452.1.1
 
 		one_only = no
@@ -67,7 +67,7 @@ typhus = {
 	color = { 161 191 42 }
 	
 	timeperiod = {
-		start_date = 769.1.1
+		start_date = 1.1.1
 		end_date = 1452.1.1
 
 		one_only = no
@@ -115,7 +115,7 @@ measles = {
 	color = { 201 111 112 }
 	
 	timeperiod = {
-		start_date = 769.1.1
+		start_date = 1.1.1
 		end_date = 1452.1.1
 
 		one_only = no
@@ -139,7 +139,7 @@ small_pox = {
 	color = { 179 102 132 }
 	
 	timeperiod = {
-		start_date = 769.1.1
+		start_date = 1.1.1
 		end_date = 1452.1.1
 
 		one_only = no
