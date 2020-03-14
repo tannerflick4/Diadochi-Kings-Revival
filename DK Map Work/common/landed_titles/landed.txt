@@ -15105,11 +15105,11 @@ k_lugdunensis = {
 	color2={ 255 255 255 }
 
 	d_arar = {
-		color={ 225 255 0 }
+		color={ 255 117 58 }
 		color2={ 255 255 255 }
 
 		c_lugdunum = {
-			color= { 50 200 0 }
+			color= { 255 104 58 }
 			color2= { 255 255 255 }
 			
 			b_lugdunum_lugdunum = {
@@ -15128,7 +15128,7 @@ k_lugdunensis = {
 			}
 		}
 		c_rouession = {
-			color={ 200 175 100 }
+			color={ 255 124 58 }
 			color2={ 255 255 255 }
 
 			b_rouession_rouession = {
@@ -15147,7 +15147,7 @@ k_lugdunensis = {
 			}
 		}
 		c_ariolica = {
-			color={ 200 175 100 }
+			color={ 242 108 55 }
 			color2={ 255 255 255 }
 
 			b_ariolica_ariolica = {
@@ -15166,7 +15166,7 @@ k_lugdunensis = {
 			}
 		}
 		c_balbiacus = {
-			color={ 200 175 100 }
+			color={ 255 140 58 }
 			color2={ 255 255 255 }
 
 			b_balbiacus_balbiacus = {
@@ -15186,11 +15186,11 @@ k_lugdunensis = {
 		}
 	}
 	d_icauna = {
-		color={ 225 255 0 }
+		color={ 255 146 99 }
 		color2={ 255 255 255 }
 
 		c_avaricum = {
-			color={ 200 175 100 }
+			color={ 255 153 99 }
 			color2={ 255 255 255 }
 
 			b_avaricum_avaricum = {
@@ -15209,7 +15209,7 @@ k_lugdunensis = {
 			}
 		}
 		c_alesia = {
-			color={ 200 175 100 }
+			color={ 255 138 99 }
 			color2={ 255 255 255 }
 
 			b_alesia_alesia = {
@@ -15228,7 +15228,7 @@ k_lugdunensis = {
 			}
 		}
 		c_autessiodurum = {
-			color={ 200 175 100 }
+			color={ 242 130 82 }
 			color2={ 255 255 255 }
 
 			b_autessiodurum_autessiodurum = {
@@ -15247,7 +15247,7 @@ k_lugdunensis = {
 			}
 		}
 		c_intaranum = {
-			color={ 200 175 100 }
+			color={ 255 146 125 }
 			color2={ 255 255 255 }
 
 			b_intaranum_intaranum = {
@@ -15266,7 +15266,7 @@ k_lugdunensis = {
 			}
 		}
 		c_noviodunum = {
-			color={ 200 175 100 }
+			color={ 255 127 99 }
 			color2={ 255 255 255 }
 
 			b_noviodunum_noviodunum = {
@@ -15286,11 +15286,11 @@ k_lugdunensis = {
 		}
 	}
 	d_liger = {
-		color={ 225 255 0 }
+		color={ 255 175 122 }
 		color2={ 255 255 255 }
 
 		c_segimovicus = {
-			color={ 200 175 100 }
+			color={ 255 179 122 }
 			color2={ 255 255 255 }
 
 			b_segimovicus_segimovicus = {
@@ -15309,7 +15309,7 @@ k_lugdunensis = {
 			}
 		}
 		c_bricca = {
-			color={ 200 175 100 }
+			color={ 255 166 122 }
 			color2={ 255 255 255 }
 
 			b_bricca_bricca = {
@@ -15328,7 +15328,7 @@ k_lugdunensis = {
 			}
 		}
 		c_cenabum = {
-			color={ 200 175 100 }
+			color={ 242 164 116 }
 			color2={ 255 255 255 }
 
 			b_cenabum_cenabum = {
@@ -15347,7 +15347,7 @@ k_lugdunensis = {
 			}
 		}
 		c_autricum = {
-			color={ 200 175 100 }
+			color={ 255 181 135 }
 			color2={ 255 255 255 }
 
 			b_autricum_autricum = {
@@ -15366,7 +15366,7 @@ k_lugdunensis = {
 			}
 		}
 		c_iuliomagus = {
-			color={ 200 175 100 }
+			color={ 255 165 109 }
 			color2={ 255 255 255 }
 
 			b_iuliomagus_iuliomagus = {
@@ -15385,7 +15385,7 @@ k_lugdunensis = {
 			}
 		}
 		c_lutetia = {
-			color={ 200 175 100 }
+			color={ 255 175 146 }
 			color2={ 255 255 255 }
 
 			b_lutetia_lutetia = {
@@ -15405,11 +15405,11 @@ k_lugdunensis = {
 		}
 	}
 	d_armorica = {
-		color={ 225 255 0 }
+		color={ 255 143 137 }
 		color2={ 255 255 255 }
 
 		c_gesocribate = {
-			color={ 200 175 100 }
+			color={ 255 149 137 }
 			color2={ 255 255 255 }
 
 			b_gesocribate_gesocribate = {
@@ -15428,7 +15428,7 @@ k_lugdunensis = {
 			}
 		}
 		c_vorgium = {
-			color={ 200 175 100 }
+			color={ 255 137 137 }
 			color2={ 255 255 255 }
 
 			b_vorgium_vorgium = {
@@ -15447,7 +15447,7 @@ k_lugdunensis = {
 			}
 		}
 		c_darioritum = {
-			color={ 200 175 100 }
+			color={ 255 131 124 }
 			color2={ 255 255 255 }
 
 			b_darioritum_darioritum = {
@@ -15466,7 +15466,7 @@ k_lugdunensis = {
 			}
 		}
 		c_fanum_martis = {
-			color={ 200 175 100 }
+			color={ 255 155 150 }
 			color2={ 255 255 255 }
 
 			b_fanum_martis_fanum_martis = {
@@ -15485,7 +15485,7 @@ k_lugdunensis = {
 			}
 		}
 		c_namnetum = {
-			color={ 200 175 100 }
+			color={ 242 136 130 }
 			color2={ 255 255 255 }
 
 			b_namnetum_namnetum = {
@@ -15504,7 +15504,7 @@ k_lugdunensis = {
 			}
 		}
 		c_conbaristum = {
-			color={ 200 175 100 }
+			color={ 255 168 137 }
 			color2={ 255 255 255 }
 
 			b_conbaristum_conbaristum = {
@@ -15524,11 +15524,11 @@ k_lugdunensis = {
 		}
 	}
 	d_olina = {
-		color={ 225 255 0 }
+		color={ 255 136 88 }
 		color2={ 255 255 255 }
 
 		c_condate = {
-			color={ 200 175 100 }
+			color={ 255 141 89 }
 			color2={ 255 255 255 }
 
 			b_condate_condate = {
@@ -15547,7 +15547,7 @@ k_lugdunensis = {
 			}
 		}
 		c_cosedia = {
-			color={ 200 175 100 }
+			color={ 255 125 89 }
 			color2={ 255 255 255 }
 
 			b_cosedia_cosedia = {
@@ -15566,7 +15566,7 @@ k_lugdunensis = {
 			}
 		}
 		c_augustodurum = {
-			color={ 200 175 100 }
+			color={ 255 142 102 }
 			color2={ 255 255 255 }
 
 			b_augustodurum_augustodurum = {
@@ -15585,7 +15585,7 @@ k_lugdunensis = {
 			}
 		}
 		c_noviomagus = {
-			color={ 200 175 100 }
+			color={ 255 124 76 }
 			color2={ 255 255 255 }
 
 			b_noviomagus_noviomagus = {
@@ -15604,7 +15604,7 @@ k_lugdunensis = {
 			}
 		}
 		c_noiodounon = {
-			color={ 200 175 100 }
+			color={ 242 126 84 }
 			color2={ 255 255 255 }
 
 			b_noiodounon_noiodounon = {
