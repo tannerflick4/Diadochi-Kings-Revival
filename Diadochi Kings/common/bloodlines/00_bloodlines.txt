@@ -3,7 +3,7 @@ bloodline_argead = {
 	tech_growth_modifier_military = 0.05
 	vassal_opinion = 5
 	macedonian_opinion = 5
-	
+	combat_rating = 5
 	inheritance = all_descendants
 	allow_bastards = yes
 	picture = GFX_bloodline_argead
