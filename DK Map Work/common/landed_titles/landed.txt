@@ -14534,13 +14534,13 @@ k_aquitania = {
 	capital = 1181 # Boii
 
 	d_garumna = {
-		color={ 225 255 0 }
+		color={ 231 255 50 }
 		color2={ 255 255 255 }
 		
 		capital = 1181 # Boii
 
 		c_aquae_terebellicae = {
-			color= { 50 190 10 }
+			color= { 234 255 104 }
 			color2= { 255 255 255 }
 			
 			b_aquae_terebellicae_aquae_terebellicae = {
@@ -14559,7 +14559,7 @@ k_aquitania = {
 			}
 		}
 		c_boii = {
-			color= { 50 190 10 }
+			color= { 241 255 50 }
 			color2= { 255 255 255 }
 			
 			b_boii_boii = {
@@ -14578,7 +14578,7 @@ k_aquitania = {
 			}
 		}
 		c_burdigala = {
-			color= { 50 190 10 }
+			color= { 219 242 48 }
 			color2= { 255 255 255 }
 			
 			b_burdigala_burdigala = {
@@ -14597,7 +14597,7 @@ k_aquitania = {
 			}
 		}
 		c_noulomagos = {
-			color= { 50 190 10 }
+			color= { 220 255 50 }
 			color2= { 255 255 255 }
 			
 			b_noulomagos_noulomagos = {
@@ -14617,13 +14617,13 @@ k_aquitania = {
 		}
 	}
 	d_aturus = {
-		color={ 225 255 0 }
+		color={ 202 229 0 }
 		color2={ 255 255 255 }
 		
 		capital = 1175 # Elimberrum
 
 		c_elimberrum = {
-			color= { 50 190 10 }
+			color= { 202 229 35 }
 			color2= { 255 255 255 }
 			
 			b_elimberrum_elimberrum = {
@@ -14642,7 +14642,7 @@ k_aquitania = {
 			}
 		}
 		c_tarba = {
-			color= { 50 190 10 }
+			color= { 189 214 0 }
 			color2= { 255 255 255 }
 			
 			b_tarba_tarba = {
@@ -14661,7 +14661,7 @@ k_aquitania = {
 			}
 		}
 		c_elusa = {
-			color= { 50 190 10 }
+			color= { 211 239 0 }
 			color2= { 255 255 255 }
 			
 			b_elusa_elusa = {
@@ -14680,7 +14680,7 @@ k_aquitania = {
 			}
 		}
 		c_benehardum = {
-			color= { 50 190 10 }
+			color= { 211 226 0 }
 			color2= { 255 255 255 }
 			
 			b_benehardum_benehardum = {
@@ -14699,7 +14699,7 @@ k_aquitania = {
 			}
 		}
 		c_iluro = {
-			color= { 50 190 10 }
+			color= { 189 226 0 }
 			color2= { 255 255 255 }
 			
 			b_iluro_iluro = {
@@ -14719,11 +14719,11 @@ k_aquitania = {
 		}
 	}
 	d_arbatilicum = {
-		color={ 225 255 0 }
+		color={ 229 229 0 }
 		color2={ 255 255 255 }
 
 		c_teodeberciaco = {
-			color={ 200 175 100 }
+			color={ 226 215 0 }
 			color2={ 255 255 255 }
 
 			b_teodeberciaco_teodeberciaco = {
@@ -14742,7 +14742,7 @@ k_aquitania = {
 			}
 		}
 		c_vultaconum = {
-			color={ 200 175 100 }
+			color={ 215 226 0 }
 			color2={ 255 255 255 }
 
 			b_vultaconum_vultaconum = {
@@ -14761,7 +14761,7 @@ k_aquitania = {
 			}
 		}
 		c_limonum = {
-			color={ 200 175 100 }
+			color={ 216 216 0 }
 			color2={ 255 255 255 }
 
 			b_limonum_limonum = {
@@ -14780,7 +14780,7 @@ k_aquitania = {
 			}
 		}
 		c_rauranum = {
-			color={ 200 175 100 }
+			color={ 239 239 0 }
 			color2={ 255 255 255 }
 
 			b_rauranum_rauranum = {
@@ -14799,7 +14799,7 @@ k_aquitania = {
 			}
 		}
 		c_mediolanum_gaul = {
-			color={ 200 175 100 }
+			color={ 229 229 26 }
 			color2={ 255 255 255 }
 
 			b_mediolanum_mediolanum_gaul = {
@@ -14819,11 +14819,11 @@ k_aquitania = {
 		}
 	}
 	d_duranius = {
-		color={ 225 255 0 }
+		color={ 204 204 0 }
 		color2={ 255 255 255 }
 
 		c_iculisma = {
-			color={ 200 175 100 }
+			color={ 193 204 0 }
 			color2={ 255 255 255 }
 
 			b_iculisma_iculisma = {
@@ -14842,7 +14842,7 @@ k_aquitania = {
 			}
 		}
 		c_varatedo = {
-			color={ 200 175 100 }
+			color={ 204 193 0 }
 			color2={ 255 255 255 }
 
 			b_varatedo_varatedo = {
@@ -14861,7 +14861,7 @@ k_aquitania = {
 			}
 		}
 		c_vesunna = {
-			color={ 200 175 100 }
+			color={ 191 191 0 }
 			color2={ 255 255 255 }
 
 			b_vesunna_vesunna = {
@@ -14880,7 +14880,7 @@ k_aquitania = {
 			}
 		}
 		c_aginnum = {
-			color={ 200 175 100 }
+			color={ 216 216 0 }
 			color2={ 255 255 255 }
 
 			b_aginnum_aginnum = {
@@ -14899,7 +14899,7 @@ k_aquitania = {
 			}
 		}
 		c_divona = {
-			color={ 200 175 100 }
+			color={ 204 204 25 }
 			color2={ 255 255 255 }
 
 			b_divona_divona = {
@@ -14919,11 +14919,11 @@ k_aquitania = {
 		}
 	}
 	d_triobris = {
-		color={ 225 255 0 }
+		color={ 204 176 38 }
 		color2={ 255 255 255 }
 
 		c_segodunum = {
-			color={ 200 175 100 }
+			color={ 204 181 38 }
 			color2={ 255 255 255 }
 
 			b_segodunum_segodunum = {
@@ -14942,7 +14942,7 @@ k_aquitania = {
 			}
 		}
 		c_anderitum = {
-			color={ 200 175 100 }
+			color={ 204 165 38 }
 			color2={ 255 255 255 }
 
 			b_anderitum_anderitum = {
@@ -14961,7 +14961,7 @@ k_aquitania = {
 			}
 		}
 		c_cavaniaco = {
-			color={ 200 175 100 }
+			color={ 191 162 36 }
 			color2={ 255 255 255 }
 
 			b_cavaniaco_cavaniaco = {
@@ -14980,7 +14980,7 @@ k_aquitania = {
 			}
 		}
 		c_ricomagus = {
-			color={ 200 175 100 }
+			color={ 216 184 41 }
 			color2={ 255 255 255 }
 
 			b_ricomagus_ricomagus = {
@@ -15000,11 +15000,11 @@ k_aquitania = {
 		}
 	}
 	d_crosa = {
-		color={ 225 255 0 }
+		color={ 204 186 69 }
 		color2={ 255 255 255 }
 
 		c_briggogalus = {
-			color={ 200 175 100 }
+			color={ 204 190 69 }
 			color2={ 255 255 255 }
 
 			b_briggogalus_briggogalus = {
@@ -15023,7 +15023,7 @@ k_aquitania = {
 			}
 		}
 		c_gaudiaco = {
-			color={ 200 175 100 }
+			color={ 204 177 69 }
 			color2={ 255 255 255 }
 
 			b_gaudiaco_gaudiaco = {
@@ -15042,7 +15042,7 @@ k_aquitania = {
 			}
 		}
 		c_exilodunum = {
-			color={ 200 175 100 }
+			color={ 216 195 73 }
 			color2={ 255 255 255 }
 
 			b_exilodunum_exilodunum = {
@@ -15061,7 +15061,7 @@ k_aquitania = {
 			}
 		}
 		c_argentomagus = {
-			color={ 200 175 100 }
+			color={ 191 172 65 }
 			color2={ 255 255 255 }
 
 			b_argentomagus_argentomagus = {
@@ -15080,7 +15080,7 @@ k_aquitania = {
 			}
 		}
 		c_excidollum = {
-			color={ 200 175 100 }
+			color={ 204 186 98 }
 			color2={ 255 255 255 }
 
 			b_excidollum_excidollum = {
@@ -15101,7 +15101,7 @@ k_aquitania = {
 	}
 }
 k_lugdunensis = {
-	color={ 225 255 0 }
+	color={ 255 150 100 }
 	color2={ 255 255 255 }
 
 	d_arar = {
@@ -15625,7 +15625,7 @@ k_lugdunensis = {
 	}
 }
 k_helvetia = {
-	color={ 225 255 0 }
+	color={ 0 50 200 }
 	color2={ 255 255 255 }
 
 	d_dubis = {
@@ -15996,7 +15996,7 @@ k_raetia = {
 	}
 }
 k_belgica = {
-	color={ 225 255 0 }
+	color={ 0 200 200 }
 	color2={ 255 255 255 }
 
 	d_belgica = {
