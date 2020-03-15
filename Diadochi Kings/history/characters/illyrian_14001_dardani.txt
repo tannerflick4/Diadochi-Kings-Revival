@@ -79,9 +79,7 @@
 	
 	408.1.1 = {birth="yes"} # 368 BC Made up
 	416.1.1 = { # 359 BC
-		effect = {
-			name = "Eurydike"
-		}
+		name = "Eurydike"
 	}
 	438.1.1 = {death="yes"} # 338 BC Made up
 }
