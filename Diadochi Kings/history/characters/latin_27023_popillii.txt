@@ -7,6 +7,7 @@
 	365.1.1 = { # 410 BC Made up
 		birth="yes"
 	}
+    385.1.1={ add_spouse=172216 }
 	425.1.1 = { # 338 BC Made up
 		death="yes"
 	}
@@ -17,6 +18,7 @@
 	culture=latin 
     religion=roman_main
 	father=172201	#Marcus
+    mother=172216   #Aurelia
 	387.12.13={ birth=yes }
 	441.6.9={ death=yes }
 }
@@ -27,6 +29,7 @@
 	culture=latin 
     religion=roman_main
 	father=172201	#Marcus
+    mother=172216   #Aurelia
 	390.3.26={ birth=yes }
 	432.3.29={ death=yes }
 }
@@ -36,6 +39,7 @@
 	culture=latin 
     religion=roman_main
 	father=172201	#Marcus
+    mother=172216   #Aurelia
 	396.11.8={ birth=yes }
 	455.8.31={ death=yes }
 }
@@ -45,6 +49,7 @@
 	culture=latin 
     religion=roman_main
 	father=172201	#Marcus
+    mother=172216   #Aurelia
 	399.8.15={ birth=yes }
 	448.8.28={ death=yes }
 }
@@ -141,4 +146,12 @@
 	father=172210	#Colunella
 	467.4.2={ birth=yes }
 	530.2.25={ death=yes }
+}
+172216={
+	name=Aurelia
+	female=yes
+	culture=latin 
+    religion=roman_main
+	365.12.13={ birth=yes }
+	425.6.9={ death=yes }
 }
