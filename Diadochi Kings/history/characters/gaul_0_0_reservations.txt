@@ -47,3 +47,5 @@
 	# 234501-234600 for the Namnetes dynasty
 	# 234601-234700 for the Pictones dynasty
 	# 234701-234800 for the Andecavi dynasty
+	# 234801-234900 for the Eleuterii dynasty
+	# 234901-235000 for the Petrocorii dynasty
