@@ -3789,6 +3789,7 @@ character_event = {
 						}
 						trait = cynical
 						trait = sympathy_egyptian_religion
+						trait = sympathy_north_african_religion
 					}
 					OR = {
 						trait = shrewd
@@ -3888,6 +3889,12 @@ character_event = {
 			add_trait = sympathy_egyptian_religion
 			clr_character_flag = add_sympathy_egyptian_religion
 		}
+		if = {
+			limit = { has_character_flag = add_sympathy_north_african_religion }
+			remove_trait = curious
+			add_trait = sympathy_north_african_religion
+			clr_character_flag = add_sympathy_north_african_religion
+		}
 		clr_character_flag = curious_sympathy_religion
 	}
 	option = {
@@ -3985,6 +3992,14 @@ character_event = {
 				}
 			}
 			tooltip = { FROM = { remove_trait = curious add_trait = sympathy_egyptian_religion } }
+		}
+		if = {
+			limit = {
+				FROM = {
+					has_character_flag = add_sympathy_north_african_religion
+				}
+			}
+			tooltip = { FROM = { remove_trait = curious add_trait = sympathy_north_african_religion } }
 		}
 		if = {
 			limit = {
@@ -4141,6 +4156,11 @@ character_event = {
 			add_trait = sympathy_egyptian_religion
 			clr_character_flag = add_sympathy_egyptian_religion
 		}
+		if = {
+			limit = { has_character_flag = add_sympathy_north_african_religion }
+			add_trait = sympathy_north_african_religion
+			clr_character_flag = add_sympathy_north_african_religion
+		}
 		clr_character_flag = curious_sympathy_religion
 	}
 	option = {
@@ -4201,6 +4221,7 @@ character_event = {
 						trait = cynical
 						trait = zealous
 						trait = sympathy_egyptian_religion
+						trait = sympathy_north_african_religion
 					}
 				}
 				modifier = {
@@ -4248,6 +4269,7 @@ character_event = {
 						trait = cynical
 						trait = zealous
 						trait = sympathy_egyptian_religion
+						trait = sympathy_north_african_religion
 					}
 					trait = erudite
 					OR = {
