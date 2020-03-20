@@ -1861,6 +1861,7 @@ zealous = {
 	opposites =  {
 		cynical
 		sympathy_egyptian_religion
+		sympathy_north_african_religion
 	}
 	
 	martial = 2

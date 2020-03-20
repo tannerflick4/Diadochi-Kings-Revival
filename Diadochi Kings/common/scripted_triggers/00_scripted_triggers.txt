@@ -2076,8 +2076,16 @@ true_religion_greco_kemetic_trigger = {
 	true_religion = greco_kemetic
 }
 
+true_religion_berber_main_trigger = {
+	true_religion = berber_main
+}
+
 true_religion_group_egyptian_religion_trigger = {
 	true_religion_group = egyptian_religion
+}
+
+true_religion_group_north_african_religion_trigger = {
+	true_religion_group = north_african_religion
 }
 
 relationship_with_root_trigger = {
@@ -2637,25 +2645,29 @@ is_openly_of_roots_secret_religion_trigger = {
 }
 
 has_sympathy_for_true_religion_of_prev_trigger = { 
-	# OR = {
+	OR = {
 		AND = {
 			trait = sympathy_egyptian_religion
 			PREV = { true_religion_group_egyptian_religion_trigger = yes }
 		}
-		# AND = {
-			# trait = sympathy_north_african_religion
-			# PREV = { true_religion_group_north_african_religion_trigger = yes }
-		# }
-	# }
+		AND = {
+			trait = sympathy_north_african_religion
+			PREV = { true_religion_group_north_african_religion_trigger = yes }
+		}
+	}
 }
 
 has_sympathy_for_true_religion_of_root_trigger = { 
-	# OR = {
+	OR = {
 		AND = {
 			trait = sympathy_egyptian_religion
 			ROOT = { true_religion_group_egyptian_religion_trigger = yes }
 		}
-	# }
+		AND = {
+			trait = sympathy_north_african_religion
+			ROOT = { true_religion_group_north_african_religion_trigger = yes }
+		}
+	}
 }
 
 ok_sr_induction_mission_target_trigger = {
@@ -2676,10 +2688,14 @@ ok_sr_sympathy_mission_target_trigger = {
 	has_secret_religion_trait_trigger = no
 	ROOT = {
 		NOT = { secret_religion = { target_type = public target = PREV } }
-		NOT = {
+		NOR = {
 			AND = {
 				true_religion_group = egyptian_religion
 				PREV = { trait = sympathy_egyptian_religion }
+			}
+			AND = {
+				true_religion_group = north_african_religion
+				PREV = { trait = sympathy_north_african_religion }
 			}
 		}
 	}
@@ -6529,9 +6545,10 @@ has_at_least_3_traits_opposite_prev_trigger = {
 }
 
 has_any_sympathy_trait_trigger = { 
-	# OR = {
+	OR = {
 		trait = sympathy_egyptian_religion
-	# }
+		trait = sympathy_north_african_religion
+	}
 }
 
 preferred_gender_based_on_laws_trigger = {

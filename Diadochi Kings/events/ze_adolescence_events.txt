@@ -3716,6 +3716,7 @@ character_event = {
 						}
 						trait = cynical
 						trait = sympathy_egyptian_religion
+						trait = sympathy_north_african_religion
 					}
 				}
 				set_character_flag = curious_sympathy_religion
@@ -3750,6 +3751,22 @@ character_event = {
 							location = { religion_group = egyptian_religion } 
 							any_friend = { religion_group = egyptian_religion }
 							any_sibling = { religion_group = egyptian_religion } 
+						}
+					}
+				}
+				10 = {
+					set_character_flag = add_sympathy_north_african_religion
+					modifier = {
+						factor = 0
+						religion_group = north_african_religion
+					}
+					modifier = {
+						factor = 0
+						NOR = {
+							educator = { religion_group = north_african_religion }
+							location = { religion_group = north_african_religion } 
+							any_friend = { religion_group = north_african_religion }
+							any_sibling = { religion_group = north_african_religion } 
 						}
 					}
 				}
