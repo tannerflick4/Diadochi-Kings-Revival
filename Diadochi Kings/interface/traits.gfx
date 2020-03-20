@@ -1264,6 +1264,13 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
 	spriteType = {
+		name = "GFX_trait_sympathy_north_african_religion"
+		texturefile = "gfx/traits/sympathy_pagans.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
 		name = "GFX_trait_sympathy_zoroastrianism"
 		texturefile = "gfx/traits/sympathy_zoroastrianism.tga"
 		noOfFrames = 1

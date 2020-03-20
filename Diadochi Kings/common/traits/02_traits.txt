@@ -3107,6 +3107,7 @@ tribal_kinslayer = {
 sympathy_egyptian_religion = {
 	opposites =  {
 		zealous
+		sympathy_north_african_religion
 	}
 	
 	potential = {
@@ -3130,6 +3131,7 @@ sympathy_egyptian_religion = {
 sympathy_north_african_religion = {
 	opposites =  {
 		zealous
+		sympathy_egyptian_religion
 	}
 	
 	potential = {
