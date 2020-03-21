@@ -1,3 +1,18 @@
 # 470001-480000 for Belgic characters
     # 470001-470100 for the Oretani dynasty
     # 470101-470200 for the Germani dynasty
+    # 470201-470300 for the Caleti dynasty
+    # 470301-470400 for the Bellovaci dynasty
+    # 470401-470500 for the Silvanectii dynasty
+    # 470501-470600 for the Ambiani dynasty
+    # 470601-470700 for the Suessiones dynasty
+    # 470701-470800 for the Morini dynasty
+    # 470801-470900 for the Atrebates dynasty
+    # 470901-471000 for the Menapii dynasty
+    # 471001-471100 for the Nervii dynasty
+    # 471101-471200 for the Viromandui dynasty
+    # 471201-471300 for the Remi dynasty
+    # 471301-471400 for the Eburones dynasty
+    # 471401-471500 for the Treveri dynasty
+    # 471501-471600 for the Mediomatrici dynasty
+    # 471601-471700 for the Leuci dynasty

@@ -2,23 +2,17 @@
 	"ckii_folder_path": "D:/SteamLibrary/steamapps/common/Crusader Kings II",
 	"mod_folder_path": "C:\\Users\\rickv\\Documents\\Programming\\Git\\DKRevival\\Diadochi Kings",
 
-	"first_char_id": 3601,
-	"dynasty_id": 1,
-	"culture": "thracian",
-	"religion": "thracian_main",
-
-	"names": "Abrupolis_Abrupolis Amatokos_Amatokos Bas_Bas Beithys_Beithys Bergaios_Bergaios Berisades_Berisades Boteiras_Boteiras Cersobleptes_Cersobleptes 
-			Cetriporis_Cetriporis Cosingas_Cosingas Cothelas Cotys_Cotys Diegylis_Diegylis Doedalses_Doedalses Dromichaetes_Dromichaetes Etazeta_Etazeta Getas_Getas 
-			Hebryzelmis_Hebryzelmis Langarus_Langarus Olorus_Olorus Pleurates_Pleurates Pleuratus_Pleuratus Rabocentus_Rabocentus Raiskoyporis_Raiskoyporis Raizdos_Raizdos 
-			Rhescuporis_Rhescuporis Rhoemetalces_Rhoemetalces Roigos_Roigos Sadalas_Sadalas Seuthes_Seuthes Sitalces_Sitalces Sparatocos_Sparatocos Syrmus_Syrmus 
-			Teres_Teres Ziaelas_Ziaelas Zibelmius_Zibelmius Zipoetes_Zipoetes Ziselmius_Ziselmius Zisemis_Zisemis",
+	"first_char_id": 471601,
+	"dynasty_id": 47013,
+	"culture": "belgic",
+	"religion": "celtic_main",
 
 	"min_age": 14,
 	"min_fertile_age": 14,
 	"max_age": 65,
 	"max_fertile_age": 45,
 
-	"min_year": 376,
+	"min_year": 397,
 	"max_year": 495,
 
 	"max_succession_year": 417
