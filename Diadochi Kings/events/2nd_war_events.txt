@@ -10,8 +10,10 @@ character_event = {
 		NOR = {
 			has_landed_title = e_macedonia
 			has_minor_title = title_regent
-			e_macedonia = {
-				holder_scope = {
+		}
+		e_macedonia = {
+			holder_scope = {
+				NOT = {
 					any_vassal = {
 						character = 1601
 						war_with = ROOT
