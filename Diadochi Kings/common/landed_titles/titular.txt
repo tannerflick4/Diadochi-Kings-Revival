@@ -1411,7 +1411,7 @@ d_r_neapolis = {
 		is_republic = yes
 	}
 }
-d_cassander = {
+k_cassander = {
 	color={ 195 13 28 }
 	color2={ 255 255 255 }
 	

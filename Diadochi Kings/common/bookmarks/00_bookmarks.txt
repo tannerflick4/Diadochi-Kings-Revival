@@ -44,8 +44,8 @@ bm_2nd_war = {
 		id = 2 # Cassander
 		age = 39
 		name = ERA_CHAR_NAME_2
-		title = d_cassander
-		title_name = d_cassander
+		title = k_cassander
+		title_name = k_cassander
 		
 		character = {
 			dna = cdeullzyjoe

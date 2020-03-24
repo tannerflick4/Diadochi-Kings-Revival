@@ -4,7 +4,7 @@ casus_belli = {
 	actor = 2 # Cassander
 	recipient = 1601 # Polyperchon
 	casus_belli = regency_war_cb
-	date = 457.1.1 # 319 BC
+	date = 457.1.2 # 319 BC
 }
 457.1.1= { # 319 BC
 	add_attacker = 2 # Cassander

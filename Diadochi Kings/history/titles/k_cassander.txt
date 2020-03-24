@@ -1,4 +1,5 @@
 457.1.1 = {
+	liege = e_macedonia
 	holder = 2 # Kassandros
 }
 459.1.1 = {
