@@ -20,6 +20,7 @@
 	father=172201	#Marcus
     mother=172216   #Aurelia
 	387.12.13={ birth=yes }
+    407.1.1={ add_spouse=172217 }
 	441.6.9={ death=yes }
 }
 172203={
@@ -59,7 +60,9 @@
 	culture=latin 
     religion=roman_main
 	father=172202	#Atilius
+    mother=172217   #Optima
 	411.3.27={ birth=yes }
+    431.1.1={ add_spouse=172218 }
 	474.5.27={ death=yes }
 }
 172207={
@@ -69,6 +72,7 @@
 	culture=latin 
     religion=roman_main
 	father=172202	#Atilius
+    mother=172217   #Optima
 	416.3.16={ birth=yes }
 	464.1.5={ death=yes }
 }
@@ -79,6 +83,7 @@
 	culture=latin 
     religion=roman_main
 	father=172202	#Atilius
+    mother=172217   #Optima
 	419.3.5={ birth=yes }
 	464.2.3={ death=yes }
 }
@@ -88,6 +93,7 @@
 	culture=latin 
     religion=roman_main
 	father=172202	#Atilius
+    mother=172217   #Optima
 	421.2.25={ birth=yes }
 	482.2.8={ death=yes }
 }
@@ -97,7 +103,9 @@
 	culture=latin 
     religion=roman_main
 	father=172206	#Otho
+    mother=172218   #Aelia
 	439.3.1={ birth=yes }
+    459.1.1={ add_spouse=172219 }
 	484.2.28={ death=yes }
 }
 172211={
@@ -106,6 +114,7 @@
 	culture=latin 
     religion=roman_main
 	father=172206	#Otho
+    mother=172218   #Aelia
 	443.8.19={ birth=yes }
 	505.6.8={ death=yes }
 }
@@ -116,6 +125,7 @@
 	culture=latin 
     religion=roman_main
 	father=172206	#Otho
+    mother=172218   #Aelia
 	445.8.9={ birth=yes }
 	500.12.17={ death=yes }
 }
@@ -125,6 +135,7 @@
 	culture=latin 
     religion=roman_main
 	father=172210	#Colunella
+    mother=172219   #Julia
 	460.4.18={ birth=yes }
 	511.11.15={ death=yes }
 }
@@ -135,6 +146,7 @@
 	culture=latin 
     religion=roman_main
 	father=172210	#Colunella
+    mother=172219   #Julia
 	463.5.4={ birth=yes }
 	523.4.4={ death=yes }
 }
@@ -144,6 +156,7 @@
 	culture=latin 
     religion=roman_main
 	father=172210	#Colunella
+    mother=172219   #Julia
 	467.4.2={ birth=yes }
 	530.2.25={ death=yes }
 }
@@ -154,4 +167,28 @@
     religion=roman_main
 	365.12.13={ birth=yes }
 	425.6.9={ death=yes }
+}
+172217={
+	name=Optima
+	female=yes
+	culture=latin 
+    religion=roman_main
+	387.12.13={ birth=yes }
+	441.6.9={ death=yes }
+}
+172218={
+	name=Aelia
+	female=yes
+	culture=latin 
+    religion=roman_main
+	411.12.13={ birth=yes }
+	474.6.9={ death=yes }
+}
+172219={
+	name=Julia
+	female=yes
+	culture=latin 
+    religion=roman_main
+	439.12.13={ birth=yes }
+	484.6.9={ death=yes }
 }

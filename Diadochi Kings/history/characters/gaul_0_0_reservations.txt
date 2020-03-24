@@ -49,3 +49,5 @@
 	# 234701-234800 for the Andecavi dynasty
 	# 234801-234900 for the Eleuterii dynasty
 	# 234901-235000 for the Petrocorii dynasty
+	# 235001-235100 for the Nitiobroges dynasty
+	# 235101-235200 for the Cadurci dynasty
