@@ -6,14 +6,14 @@ casus_belli = {
 	casus_belli = regency_war_cb
 	date = 457.1.2 # 319 BC
 }
-457.1.1= { # 319 BC
+457.1.2= { # 319 BC
 	add_attacker = 2 # Cassander
 	add_attacker = 401 # Antigonus
 	add_attacker = 601 # Ptolemy
 	add_defender = 1601 # Polyperchon
 	add_defender = 50101 # Eumenes
 }
-461.1.1 = { # 315 BC
+461.1.2 = { # 315 BC
 	rem_attacker = 2 # Cassander
 	rem_attacker = 401 # Antigonus
 	rem_attacker = 601 # Ptolemy
