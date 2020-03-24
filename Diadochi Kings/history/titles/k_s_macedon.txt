@@ -1,0 +1,9 @@
+457.1.1 = {
+	de_jure_liege = e_macedonia
+	liege = e_macedonia
+	holder = 1601 # Polyperchon
+}
+461.1.1 = {
+	holder = 0
+	liege = 0
+}
