@@ -22,7 +22,7 @@ regency_war_cb = {
 	can_use_gui = {
 		ROOT = {
 			is_ruler = yes
-			higher_real_tier_than = DUKE
+			higher_tier_than = DUKE
 			NOT = {
 				independent = yes
 			}
@@ -37,7 +37,7 @@ regency_war_cb = {
 	can_use = {
 		FROM = {
 			is_ruler = yes
-			higher_real_tier_than = DUKE
+			higher_tier_than = DUKE
 			NOT = {
 				independent = yes
 			}
@@ -49,7 +49,7 @@ regency_war_cb = {
 	is_valid = {
 		ROOT = {
 			is_ruler = yes
-			higher_real_tier_than = DUKE
+			higher_tier_than = DUKE
 			NOT = {
 				independent = yes
 			}
@@ -60,7 +60,7 @@ regency_war_cb = {
 		}
 		FROM = {
 			is_ruler = yes
-			higher_real_tier_than = DUKE
+			higher_tier_than = DUKE
 			NOT = {
 				independent = yes
 			}
