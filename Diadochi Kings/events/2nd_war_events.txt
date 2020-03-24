@@ -10,8 +10,13 @@ character_event = {
 		NOR = {
 			has_landed_title = e_macedonia
 			has_minor_title = title_regent
-			c_1601 = {
-				war_with = ROOT
+			e_macedona = {
+				holder_scope = {
+					any_vassal = {
+						character = 1601
+						war_with = ROOT
+					}
+				}
 			}
 		}
 		start_date = 457.1.1
@@ -21,14 +26,17 @@ character_event = {
 	}
 
 	immediate = {
-		c_1601 = {
-			reverse_war = {
-				target = ROOT
-				casus_belli = regency_war_cb
-			}
-		}
 		e_macedonia = {
 			holder_scope = {
+				random_vassal = {
+					limit = {
+						character = 1601
+					}
+					reverse_war = {
+						target = ROOT
+						casus_belli = regency_war_cb
+					}
+				}
 				any_vassal = {
 					limit = {
 						is_ruler = yes
