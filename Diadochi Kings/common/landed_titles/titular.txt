@@ -1416,8 +1416,6 @@ k_cassander = {
 	color2={ 255 255 255 }
 	
 	title = "STRATEGOS"
-
-	landless = yes
 	primary = yes
 	can_be_claimed = no
 	can_be_usurped = no
