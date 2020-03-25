@@ -821,6 +821,7 @@ character_event = {
 				trigger_switch = {
 					on_trigger = religion_group
 					egyptian_religion 			= { FROM = { add_trait = sympathy_egyptian_religion } }
+					north_african_religion 			= { FROM = { add_trait = sympathy_north_african_religion } }
 				}
 			}
 		}
@@ -900,6 +901,12 @@ character_event = {
 									trait = sympathy_egyptian_religion
 								}
 							}
+							AND = {
+								religion_group = north_african_religion
+								ROOT = {
+									trait = sympathy_north_african_religion
+								}
+							}
 						}
 					}
 				}
@@ -960,15 +967,16 @@ character_event = {
 						}
 						ROOT = {
 							if = { limit = { trait = sympathy_egyptian_religion } remove_trait = sympathy_egyptian_religion }
+							if = { limit = { trait = sympathy_north_african_religion } remove_trait = sympathy_north_african_religion }
 						}
 						random_list = {
 							25 = {}
 							75 = {
 								PREV = {
-									# TODO: Add sympathies.
 									trigger_switch = {
 										on_trigger = religion_group
 										egyptian_religion 			= { ROOT = { add_trait = sympathy_egyptian_religion } }
+										north_african_religion 			= { ROOT = { add_trait = sympathy_north_african_religion } }
 									}
 								}
 							}

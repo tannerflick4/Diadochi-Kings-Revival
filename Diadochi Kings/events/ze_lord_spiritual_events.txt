@@ -99,6 +99,7 @@ character_event = {
 			OR = {
 				trait = cynical
 				trait = sympathy_egyptian_religion
+				trait = sympathy_north_african_religion
 			}
 		}
 	}
@@ -124,6 +125,7 @@ character_event = {
 				trigger_switch = {
 					on_trigger = religion_group
 					egyptian_religion 			= { PREV = { add_trait = sympathy_egyptian_religion } }
+					north_african_religion 			= { PREV = { add_trait = sympathy_north_african_religion } }
 				}
 			}
 		}

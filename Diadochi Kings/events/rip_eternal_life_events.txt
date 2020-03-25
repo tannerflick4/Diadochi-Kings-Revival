@@ -1626,6 +1626,17 @@ narrative_event = {
 			}
 			add_trait = sympathy_egyptian_religion
 		}
+		
+		if = {
+			limit = {
+				FROM = { religion_group = north_african_religion }
+				NOT = { 
+					trait = sympathy_north_african_religion
+					FROM = { religion_group = ROOT }
+				} 
+			}
+			add_trait = sympathy_north_african_religion
+		}
 	}
 	#Leave for different religion
 	option = {
