@@ -50,6 +50,9 @@ character_event = {
 				}
 			}
 		}
+		character_event = {
+			id = snd_war_events.1
+		}
 	}
 }
 character_event = {
