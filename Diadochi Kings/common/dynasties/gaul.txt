@@ -629,3 +629,7 @@
 	name = "Belendi"
 	culture = gaul
 }
+23155 = {
+	name = "Aulerci" #main Aulerci in north central Gaul
+	culture = gaul
+}

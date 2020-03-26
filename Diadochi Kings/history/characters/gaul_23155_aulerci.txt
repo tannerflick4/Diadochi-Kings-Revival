@@ -1,0 +1,113 @@
+235301={
+	name=Viridovix
+	dynasty=23155
+	culture=gaul 
+	religion=celtic_main
+	376.10.11={ birth=yes }
+	396.1.1={ add_spouse=235312 }
+	431.2.5={ death=yes }
+}
+235302={
+	name=Cotus
+	dynasty=23155
+	culture=gaul 
+	religion=celtic_main
+	father=235301	#Viridovix
+	mother=235312	#Amena
+	404.3.24={ birth=yes }
+	466.8.6={ death=yes }
+}
+235303={
+	name=Cavarinus
+	dynasty=23155
+	culture=gaul 
+	religion=celtic_main
+	father=235301	#Viridovix
+	mother=235312	#Amena
+	407.4.5={ birth=yes }
+	440.9.5={ death=yes }
+}
+235304={
+	name=Treva
+	female=yes
+	dynasty=23155
+	culture=gaul 
+	religion=celtic_main
+	father=235301	#Viridovix
+	mother=235312	#Amena
+	411.7.8={ birth=yes }
+	456.10.3={ death=yes }
+}
+235305={
+	name=Genovefa
+	female=yes
+	dynasty=23155
+	culture=gaul 
+	religion=celtic_main
+	father=235302	#Cotus
+	432.3.9={ birth=yes }
+	494.7.19={ death=yes }
+}
+235306={
+	name=Conconnetodumnus
+	dynasty=23155
+	culture=gaul 
+	religion=celtic_main
+	father=235302	#Cotus
+	437.10.4={ birth=yes }
+	507.9.8={ death=yes }
+}
+235307={
+	name=Donnotaurus
+	dynasty=23155
+	culture=gaul 
+	religion=celtic_main
+	father=235302	#Cotus
+	440.8.2={ birth=yes }
+	485.6.20={ death=yes }
+}
+235308={
+	name=Conconnetodumnus
+	dynasty=23155
+	culture=gaul 
+	religion=celtic_main
+	father=235302	#Cotus
+	445.9.24={ birth=yes }
+	506.2.2={ death=yes }
+}
+235309={
+	name=Galena
+	female=yes
+	dynasty=23155
+	culture=gaul 
+	religion=celtic_main
+	father=235306	#Conconnetodumnus
+	465.7.19={ birth=yes }
+	521.12.23={ death=yes }
+}
+235310={
+	name=Vercassivellaunus
+	dynasty=23155
+	culture=gaul 
+	religion=celtic_main 
+	father=235306	#Conconnetodumnus
+	467.3.15={ birth=yes }
+	527.3.4={ death=yes }
+}
+235311={
+	name=Diviciacus
+	dynasty=23155
+	culture=gaul 
+	religion=celtic_main
+	father=235306	#Conconnetodumnus
+	471.9.17={ birth=yes }
+	532.8.23={ death=yes }
+}
+235312={
+	name=Amena
+	female=yes
+	culture=gaul 
+	religion=celtic_main
+	376.10.11={ birth=yes }
+	431.2.5={ death=yes }
+}

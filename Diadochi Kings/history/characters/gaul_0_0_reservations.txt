@@ -51,3 +51,5 @@
 	# 234901-235000 for the Petrocorii dynasty
 	# 235001-235100 for the Nitiobroges dynasty
 	# 235101-235200 for the Cadurci dynasty
+	# 235201-235300 for the Aulerci Cenomani dynasty
+	# 235301-235400 for the Aulerci dynasty
