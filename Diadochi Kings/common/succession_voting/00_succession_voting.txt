@@ -681,6 +681,10 @@ feudal_elective = {
 					trait = sympathy_egyptian_religion
 					FROM = { religion_group = egyptian_religion } 
 				}
+				AND = {  
+					trait = sympathy_north_african_religion
+					FROM = { religion_group = north_african_religion } 
+				}
 			}
 			FROM = { 
 				NOT = { religion_group = ROOT } 
@@ -2922,6 +2926,7 @@ feudal_elective = {
 			FROM = { 
 				OR = { 
 					trait = sympathy_egyptian_religion
+					trait = sympathy_north_african_religion
 				}
 			}
 		}
@@ -3957,6 +3962,10 @@ tanistry = {
 				AND = {  
 					trait = sympathy_egyptian_religion
 					FROM = { religion_group = egyptian_religion } 
+				}
+				AND = {  
+					trait = sympathy_north_african_religion
+					FROM = { religion_group = north_african_religion } 
 				}
 			}
 			FROM = { 
@@ -6247,6 +6256,7 @@ tanistry = {
 			FROM = { 
 				OR = { 
 					trait = sympathy_egyptian_religion
+					trait = sympathy_north_african_religion
 				}
 			}
 		}
@@ -7223,6 +7233,10 @@ elective_gavelkind = {
 					trait = sympathy_egyptian_religion
 					FROM = { religion_group = egyptian_religion } 
 				} 
+				AND = {  
+					trait = sympathy_north_african_religion
+					FROM = { religion_group = north_african_religion } 
+				}
 			}
 			FROM = { 
 				NOT = { religion_group = ROOT } 
@@ -9548,6 +9562,7 @@ elective_gavelkind = {
 			FROM = { 
 				OR = { 
 					trait = sympathy_egyptian_religion
+					trait = sympathy_north_african_religion
 				}
 			}
 		}
@@ -10634,6 +10649,10 @@ eldership_rules = {
 					trait = sympathy_egyptian_religion
 					FROM = { religion_group = egyptian_religion } 
 				} 
+				AND = {  
+					trait = sympathy_north_african_religion
+					FROM = { religion_group = north_african_religion } 
+				}
 			}
 			FROM = { 
 				NOT = { religion_group = ROOT } 
@@ -13174,6 +13193,7 @@ eldership_rules = {
 			FROM = { 
 				OR = { 
 					trait = sympathy_egyptian_religion
+					trait = sympathy_north_african_religion
 				}
 			}
 			FROMFROM = { 
@@ -13813,6 +13833,10 @@ eldership_rules = {
 					trait = sympathy_egyptian_religion
 					FROM = { religion_group = egyptian_religion } 
 				} 
+				AND = {  
+					trait = sympathy_north_african_religion
+					FROM = { religion_group = north_african_religion } 
+				}
 			}
 			FROM = { 
 				NOT = { religion_group = ROOT } 
@@ -16078,6 +16102,7 @@ eldership_rules = {
 			FROM = { 
 				OR = { 
 					trait = sympathy_egyptian_religion
+					trait = sympathy_north_african_religion
 				}
 			}
 			has_elector_stance = { stance = elder_pleased title = FROMFROM }

@@ -378,7 +378,24 @@ character_event = { # Sympathy for founder group
 				}
 				is_alive = no
 				OR = {
-					# TODO: Add sympathies
+					AND = {
+						religion_group = egyptian_religion
+						ROOT = {
+							NOR = {
+								religion_group = egyptian_religion
+								trait = sympathy_egyptian_religion
+							}
+						}
+					}
+					AND = {
+						religion_group = north_african_religion
+						ROOT = {
+							NOR = {
+								religion_group = north_african_religion
+								trait = sympathy_north_african_religion
+							}
+						}
+					}
 				}
 			}
 		}
@@ -393,7 +410,24 @@ character_event = { # Sympathy for founder group
 					}
 					is_alive = no
 					OR = {
-						# TODO: Add sympathies
+						AND = {
+							religion_group = egyptian_religion
+							ROOT = {
+								NOR = {
+									religion_group = egyptian_religion
+									trait = sympathy_egyptian_religion
+								}
+							}
+						}
+						AND = {
+							religion_group = north_african_religion
+							ROOT = {
+								NOR = {
+									religion_group = north_african_religion
+									trait = sympathy_north_african_religion
+								}
+							}
+						}
 					}
 				}
 			}
@@ -431,7 +465,22 @@ character_event = { # Sympathy for founder group
 	
 	option = {
 		name = EVTOPTA_HF_110
-		# TODO: Add sympathies
+		if = {
+			limit = {
+				event_target:target_bloodline_founder = {
+					religion_group = egyptian_religion
+				}
+			}
+			add_trait = sympathy_egyptian_religion
+		}
+		else_if = {
+			limit = {
+				event_target:target_bloodline_founder = {
+					religion_group = north_african_religion
+				}
+			}
+			add_trait = sympathy_north_african_religion
+		}
 		
 		ai_chance = {
         	factor = 45
