@@ -53,3 +53,4 @@
 	# 235101-235200 for the Cadurci dynasty
 	# 235201-235300 for the Aulerci Cenomani dynasty
 	# 235301-235400 for the Aulerci dynasty
+	# 235401-235500 for the Gabali dynasty
