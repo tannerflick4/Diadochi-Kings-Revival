@@ -1,6 +1,5 @@
 411.1.1 = { # 365 BC
 	holder = 231304
-	liege = d_sequani
 }
 438.1.1 = { # 338 BC
 	holder = 231303 

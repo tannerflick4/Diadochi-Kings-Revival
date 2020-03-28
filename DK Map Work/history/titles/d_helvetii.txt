@@ -1,6 +1,5 @@
 416.1.1 = { # 360 BC
 	holder = 233702 # Andecomborius of the Helvetii
-	liege = d_helvetii
 }
 440.1.1 = { # 336 BC
 	holder = 233703 # Cotus of the Helvetii

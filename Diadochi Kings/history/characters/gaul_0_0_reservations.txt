@@ -54,3 +54,11 @@
 	# 235201-235300 for the Aulerci Cenomani dynasty
 	# 235301-235400 for the Aulerci dynasty
 	# 235401-235500 for the Gabali dynasty
+	# 235501-235600 for the Ambarri dynasty
+	# 235601-235700 for the Lingones Gallica dynasty
+	# 235701-235800 for the Mandubii dynasty
+	# 235801-235900 for the Senones Gallica dynasty
+	# 235901-236000 for the Boii Gallica dynasty
+	# 236001-236100 for the Vellavi dynasty
+	# 236101-236200 for the Arverni dynasty
+	# 236201-236300 for the Bituriges Cubi dynasty

@@ -443,3 +443,69 @@ d_veliocasses = {
 	
 	tribe = yes
 }
+d_helvetii = {
+	color= { 3 102 193 }
+	color2= { 255 255 255 }
+	
+	tribe = yes
+}
+d_sequani = {
+	color= { 29 48 193 }
+	color2= { 255 255 255 }
+	
+	tribe = yes
+}
+d_aedui = {
+	color= { 255 104 58 }
+	color2= { 255 255 255 }
+	
+	tribe = yes
+}
+d_ambarri = {
+	color={ 0 12 193 }
+	color2={ 255 255 255 }
+	
+	tribe = yes
+}
+d_lingones_gallica = {
+	color= { 42 105 193 }
+	color2= { 255 255 255 }
+	
+	tribe = yes
+}
+d_mandubii = {
+	color={ 255 138 99 }
+	color2={ 255 255 255 }
+	
+	tribe = yes
+}
+d_senones_gallica = {
+	color={ 255 146 125 }
+	color2={ 255 255 255 }
+	
+	tribe = yes
+}
+d_boii_gallica = {
+	color={ 242 108 55 }
+	color2={ 255 255 255 }
+	
+	tribe = yes
+}
+d_vellavi = {
+	color={ 255 124 58 }
+	color2={ 255 255 255 }
+	
+	tribe = yes
+}
+d_arverni = {
+	color={ 216 184 41 }
+	color2={ 255 255 255 }
+	
+	tribe = yes
+}
+d_bituriges_cubi = {
+	color={ 255 153 99 }
+	color2={ 255 255 255 }
+	
+	tribe = yes
+}
