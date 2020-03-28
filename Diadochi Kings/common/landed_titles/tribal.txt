@@ -333,3 +333,95 @@ d_dauni = {
 	color= { 171 74 191 }
 	color2= { 255 255 255 }
 }
+
+# BELGICA
+d_caleti = {
+	color= { 23 193 196 }
+	color2= { 255 255 255 }
+	
+	tribe = yes
+}
+d_bellovaci = {
+	color= { 23 196 181 }
+	color2= { 255 255 255 }
+	
+	tribe = yes
+}
+d_silvanectii = {
+	color= { 47 173 196 }
+	color2= { 255 255 255 }
+	
+	tribe = yes
+}
+d_ambiani = {
+	color= { 22 183 178 }
+	color2= { 255 255 255 }
+	
+	tribe = yes
+}
+d_suessiones = {
+	color= { 46 186 193 }
+	color2= { 255 255 255 }
+	
+	tribe = yes
+}
+d_morini = {
+	color= { 0 163 196 }
+	color2= { 255 255 255 }
+	
+	tribe = yes
+}
+d_atrebates = {
+	color= { 0 163 196 }
+	color2= { 255 255 255 }
+	
+	tribe = yes
+}
+d_menapii = {
+	color= { 0 196 186 }
+	color2= { 255 255 255 }
+	
+	tribe = yes
+}
+d_nervii = {
+	color= { 76 181 167 }
+	color2= { 255 255 255 }
+	
+	tribe = yes
+}
+d_viromandui = {
+	color= { 81 193 184 }
+	color2= { 255 255 255 }
+	
+	tribe = yes
+}
+d_remi = {
+	color= { 44 169 183 }
+	color2= { 255 255 255 }
+	
+	tribe = yes
+}
+d_eburones = {
+	color= { 121 209 206 }
+	color2= { 255 255 255 }
+	
+	tribe = yes
+}
+d_treveri = {
+	color= { 97 183 150 }
+	color2= { 255 255 255 }
+	
+	tribe = yes
+}
+d_mediomatrici = {
+	color= { 79 96 193 }
+	color2= { 255 255 255 }
+	
+	tribe = yes
+}
+d_leuci = {
+	color= { 56 106 193 }
+	color2= { 255 255 255 }
+	
+	tribe = yes
+}
