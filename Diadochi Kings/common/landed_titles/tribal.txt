@@ -425,3 +425,21 @@ d_leuci = {
 	
 	tribe = yes
 }
+d_catalauni = {
+	color={ 56 182 196 }
+	color2={ 255 255 255 }
+	
+	tribe = yes
+}
+d_meldi = {
+	color={ 50 193 209 }
+	color2={ 255 255 255 }
+	
+	tribe = yes
+}
+d_veliocasses = {
+	color={ 255 124 76 }
+	color2={ 255 255 255 }
+	
+	tribe = yes
+}

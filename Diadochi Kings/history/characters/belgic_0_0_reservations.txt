@@ -16,3 +16,6 @@
     # 471401-471500 for the Treveri dynasty
     # 471501-471600 for the Mediomatrici dynasty
     # 471601-471700 for the Leuci dynasty
+    # 471701-471800 for the Veliocasses dynasty
+    # 471801-471900 for the Meldi dynasty
+    # 471901-472000 for the Catalauni dynasty
