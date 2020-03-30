@@ -1862,6 +1862,7 @@ zealous = {
 		cynical
 		sympathy_egyptian_religion
 		sympathy_north_african_religion
+		sympathy_illyrian_religion
 	}
 	
 	martial = 2

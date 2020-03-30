@@ -685,6 +685,10 @@ feudal_elective = {
 					trait = sympathy_north_african_religion
 					FROM = { religion_group = north_african_religion } 
 				}
+				AND = {  
+					trait = sympathy_illyrian_religion
+					FROM = { religion_group = illyrian_religion } 
+				}
 			}
 			FROM = { 
 				NOT = { religion_group = ROOT } 
@@ -2927,6 +2931,7 @@ feudal_elective = {
 				OR = { 
 					trait = sympathy_egyptian_religion
 					trait = sympathy_north_african_religion
+					trait = sympathy_illyrian_religion
 				}
 			}
 		}
@@ -3966,6 +3971,10 @@ tanistry = {
 				AND = {  
 					trait = sympathy_north_african_religion
 					FROM = { religion_group = north_african_religion } 
+				}
+				AND = {  
+					trait = sympathy_illyrian_religion
+					FROM = { religion_group = illyrian_religion } 
 				}
 			}
 			FROM = { 
@@ -6257,6 +6266,7 @@ tanistry = {
 				OR = { 
 					trait = sympathy_egyptian_religion
 					trait = sympathy_north_african_religion
+					trait = illyrian_religion
 				}
 			}
 		}
@@ -7236,6 +7246,10 @@ elective_gavelkind = {
 				AND = {  
 					trait = sympathy_north_african_religion
 					FROM = { religion_group = north_african_religion } 
+				}
+				AND = {  
+					trait = sympathy_illyrian_religion
+					FROM = { religion_group = illyrian_religion } 
 				}
 			}
 			FROM = { 
@@ -9563,6 +9577,7 @@ elective_gavelkind = {
 				OR = { 
 					trait = sympathy_egyptian_religion
 					trait = sympathy_north_african_religion
+					trait = sympathy_illyrian_religion
 				}
 			}
 		}
@@ -10652,6 +10667,10 @@ eldership_rules = {
 				AND = {  
 					trait = sympathy_north_african_religion
 					FROM = { religion_group = north_african_religion } 
+				}
+				AND = {  
+					trait = sympathy_illyrian_religion
+					FROM = { religion_group = illyrian_religion } 
 				}
 			}
 			FROM = { 
@@ -13194,6 +13213,7 @@ eldership_rules = {
 				OR = { 
 					trait = sympathy_egyptian_religion
 					trait = sympathy_north_african_religion
+					trait = sympathy_illyrian_religion
 				}
 			}
 			FROMFROM = { 
@@ -13836,6 +13856,10 @@ eldership_rules = {
 				AND = {  
 					trait = sympathy_north_african_religion
 					FROM = { religion_group = north_african_religion } 
+				}
+				AND = {  
+					trait = sympathy_illyrian_religion
+					FROM = { religion_group = illyrian_religion } 
 				}
 			}
 			FROM = { 
@@ -16103,6 +16127,7 @@ eldership_rules = {
 				OR = { 
 					trait = sympathy_egyptian_religion
 					trait = sympathy_north_african_religion
+					trait = sympathy_illyrian_religion
 				}
 			}
 			has_elector_stance = { stance = elder_pleased title = FROMFROM }

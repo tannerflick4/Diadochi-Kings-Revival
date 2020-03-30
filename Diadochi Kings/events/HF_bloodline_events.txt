@@ -396,6 +396,15 @@ character_event = { # Sympathy for founder group
 							}
 						}
 					}
+					AND = {
+						religion_group = illyrian_religion
+						ROOT = {
+							NOR = {
+								religion_group = illyrian_religion
+								trait = sympathy_illyrian_religion
+							}
+						}
+					}
 				}
 			}
 		}
@@ -425,6 +434,15 @@ character_event = { # Sympathy for founder group
 								NOR = {
 									religion_group = north_african_religion
 									trait = sympathy_north_african_religion
+								}
+							}
+						}
+						AND = {
+							religion_group = illyrian_religion
+							ROOT = {
+								NOR = {
+									religion_group = illyrian_religion
+									trait = sympathy_illyrian_religion
 								}
 							}
 						}
@@ -480,6 +498,14 @@ character_event = { # Sympathy for founder group
 				}
 			}
 			add_trait = sympathy_north_african_religion
+		}
+		else_if = {
+			limit = {
+				event_target:target_bloodline_founder = {
+					religion_group = illyrian_religion
+				}
+			}
+			add_trait = sympathy_illyrian_religion
 		}
 		
 		ai_chance = {

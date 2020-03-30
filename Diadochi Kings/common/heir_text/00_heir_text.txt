@@ -325,6 +325,7 @@ heir_text_traits_tolerant = { # Tolerant
 			NOR = {
 				trait = sympathy_egyptian_religion
 				trait = sympathy_north_african_religion
+				trait = sympathy_illyrian_religion
 			}
 		}
 	}

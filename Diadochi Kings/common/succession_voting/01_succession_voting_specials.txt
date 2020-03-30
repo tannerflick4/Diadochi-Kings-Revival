@@ -1751,6 +1751,10 @@ byzantine_elective = {
 					trait = sympathy_north_african_religion
 					FROM = { religion_group = north_african_religion } 
 				} 
+				AND = {  
+					trait = sympathy_illyrian_religion
+					FROM = { religion_group = illyrian_religion } 
+				}
 			}
 			FROM = { 
 				NOT = { religion_group = ROOT } 
@@ -4225,6 +4229,7 @@ byzantine_elective = {
 				OR = { 
 					trait = sympathy_egyptian_religion
 					trait = sympathy_north_african_religion
+					trait = sympathy_illyrian_religion
 				}
 			}
 		}
@@ -5453,6 +5458,10 @@ hre_feudal_elective = {
 					trait = sympathy_north_african_religion
 					FROM = { religion_group = north_african_religion } 
 				} 
+				AND = {  
+					trait = sympathy_illyrian_religion
+					FROM = { religion_group = illyrian_religion } 
+				}
 			}
 			FROM = { 
 				NOT = { religion_group = ROOT } 
@@ -7669,6 +7678,7 @@ hre_feudal_elective = {
 				OR = { 
 					trait = sympathy_egyptian_religion
 					trait = sympathy_north_african_religion
+					trait = sympathy_illyrian_religion
 				}
 			}
 		}

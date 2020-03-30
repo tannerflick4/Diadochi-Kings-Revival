@@ -3108,6 +3108,7 @@ sympathy_egyptian_religion = {
 	opposites =  {
 		zealous
 		sympathy_north_african_religion
+		sympathy_illyrian_religion
 	}
 	
 	potential = {
@@ -3132,6 +3133,7 @@ sympathy_north_african_religion = {
 	opposites =  {
 		zealous
 		sympathy_egyptian_religion
+		sympathy_illyrian_religion
 	}
 	
 	potential = {
@@ -3139,6 +3141,31 @@ sympathy_north_african_religion = {
 	}
 
 	tolerates_north_african_religion = yes		# Tolerates and is tolerated by Egyptian Religion
+	
+	same_opinion_if_same_religion = 5
+
+	customizer = no
+	random = no
+
+	male_insult = INSULT_LOVER_OF_HEATHENS
+	female_insult = INSULT_LOVER_OF_HEATHENS
+	male_insult_adj = INSULT_UNPRINCIPLED
+	female_insult_adj = INSULT_UNPRINCIPLED
+	child_insult_adj = INSULT_STUPID
+}
+
+sympathy_illyrian_religion = {
+	opposites =  {
+		zealous
+		sympathy_egyptian_religion
+		sympathy_north_african_religion
+	}
+	
+	potential = {
+		NOT = { religion_group = illyrian_religion }
+	}
+
+	tolerates_illyrian_religion = yes		# Tolerates and is tolerated by Egyptian Religion
 	
 	same_opinion_if_same_religion = 5
 
