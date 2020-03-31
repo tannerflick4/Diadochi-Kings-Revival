@@ -4,9 +4,8 @@
 	dynasty = 17022 # Aemilii
 	religion = roman_main
 	culture = latin
-	
 	add_trait = tough_soldier
-	
+	father=172106	#Publius
 	378.1.1 = { # 398 BC Made Up
 		birth="yes"
 	}
@@ -19,6 +18,7 @@
 	dynasty = 17022 # Aemilii
 	religion = roman_main
 	culture = latin
+	father=172106	#Publius
 	381.1.1 = { # 395 BC Made Up
 		birth="yes"
 	}
@@ -31,14 +31,263 @@
 	dynasty = 17022 # Aemilii
 	religion = roman_main
 	culture = latin
-	
 	add_trait = skilled_tactician
 	add_trait = proud
-	
+	father=172121	#Caecilius
 	443.1.1 = { # 333 BC Made up
 		birth="yes"
 	}
 	509.1.1 = { # 267 BC Made up
 		death="yes"
 	}
+}
+172104={
+	name=Apollodorus
+	dynasty=17022
+	culture=latin 
+	religion=roman_main
+	318.1.26={ birth=yes }
+	370.5.25={ death=yes }
+}
+172105={
+	name=Drusilla
+	female=yes
+	dynasty=17022
+	culture=latin 
+	religion=roman_main
+	father=172104	#Apollodorus
+	342.4.14={ birth=yes }
+	397.1.12={ death=yes }
+}
+172106={
+	name=Publius
+	dynasty=17022
+	culture=latin 
+	religion=roman_main 
+	father=172104	#Apollodorus
+	343.12.25={ birth=yes }
+	390.3.21={ death=yes }
+}
+172107={
+	name=Micio
+	dynasty=17022
+	culture=latin 
+	religion=roman_main
+	father=172104	#Apollodorus
+	346.10.4={ birth=yes }
+	395.10.4={ death=yes }
+}
+172108={
+	name=Eustathia
+	female=yes
+	dynasty=17022
+	culture=latin 
+	religion=roman_main
+	father=172104	#Apollodorus
+	349.1.11={ birth=yes }
+	405.7.15={ death=yes }
+}
+172109={
+	name=Plautus
+	dynasty=17022
+	culture=latin 
+	religion=roman_main
+	father=172104	#Apollodorus
+	354.10.10={ birth=yes }
+	423.8.7={ death=yes }
+}
+172110={
+	name=Colunella
+	dynasty=17022
+	culture=latin 
+	religion=roman_main
+	father=172106	#Publius
+	367.6.15={ birth=yes }
+	414.9.28={ death=yes }
+}
+172111={
+	name=Annius
+	dynasty=17022
+	culture=latin 
+	religion=roman_main
+	father=172106	#Publius
+	371.8.13={ birth=yes }
+	425.12.22={ death=yes }
+}
+172112={
+	name=Caecilius
+	dynasty=17022
+	culture=latin 
+	religion=roman_main
+	father=172106	#Publius
+	374.5.22={ birth=yes }
+	446.7.20={ death=yes }
+}
+172113={
+	name=Maxima
+	female=yes
+	dynasty=17022
+	culture=latin 
+	religion=roman_main
+	father=172106	#Publius
+	376.7.12={ birth=yes }
+	448.7.25={ death=yes }
+}
+172114={
+	name=Publius
+	dynasty=17022
+	culture=latin 
+	religion=roman_main
+	father=172110	#Colunella
+	394.6.4={ birth=yes }
+	443.12.28={ death=yes }
+}
+172115={
+	name=Marcellinus
+	dynasty=17022
+	culture=latin 
+	religion=roman_main
+	father=172110	#Colunella
+	397.7.4={ birth=yes }
+	446.5.4={ death=yes }
+}
+172116={
+	name=Paulina
+	female=yes
+	dynasty=17022
+	culture=latin 
+	religion=roman_main
+	father=172110	#Colunella
+	400.11.11={ birth=yes }
+	478.7.23={ death=yes }
+}
+172117={
+	name=Traianus
+	dynasty=17022
+	culture=latin 
+	religion=roman_main
+	father=172110	#Colunella
+	403.1.18={ birth=yes }
+	464.9.14={ death=yes }
+}
+172118={
+	name=Paulinus
+	dynasty=17022
+	culture=latin 
+	religion=roman_main
+	father=172110	#Colunella
+	407.7.16={ birth=yes }
+	464.5.29={ death=yes }
+}
+172119={
+	name=Naevia
+	female=yes
+	dynasty=17022
+	culture=latin 
+	religion=roman_main
+	father=172110	#Colunella
+	410.2.18={ birth=yes }
+	476.2.14={ death=yes }
+}
+172120={
+	name=Appius
+	dynasty=17022
+	culture=latin 
+	religion=roman_main
+	father=172110	#Colunella
+	413.8.24={ birth=yes }
+	469.5.2={ death=yes }
+}
+172121={
+	name=Caecilius
+	dynasty=17022
+	culture=latin 
+	religion=roman_main
+	father=172114	#Publius
+	416.4.10={ birth=yes }
+	486.12.21={ death=yes }
+}
+172122={
+	name=Turpia
+	female=yes
+	dynasty=17022
+	culture=latin 
+	religion=roman_main
+	father=172114	#Publius
+	421.1.1={ birth=yes }
+	481.8.10={ death=yes }
+}
+172123={
+	name=Paetus
+	dynasty=17022
+	culture=latin 
+	religion=roman_main
+	father=172121	#Caecilius
+	439.8.19={ birth=yes }
+	485.11.21={ death=yes }
+}
+172124={
+	name=Atilius
+	dynasty=17022
+	dna="idpgdemiile"
+	culture=latin religion=roman_main
+	martial=4 diplomacy=7 stewardship=8 intrigue=6 learning=5
+	add_trait=charismatic_negotiator add_trait=chaste add_trait=honest add_trait=gregarious add_trait=cruel 
+	add_trait=strong 
+	father=172121	#Caecilius
+	444.3.24={ birth=yes }
+	512.7.19={ death=yes }
+}
+172125={
+	name=Eugenius
+	dynasty=17022
+	dna="bkmjfonpmnf"
+	culture=latin religion=roman_main
+	martial=6 diplomacy=4 stewardship=7 intrigue=4 learning=5
+	add_trait=charismatic_negotiator add_trait=wroth add_trait=cruel add_trait=slothful add_trait=arbitrary 
+	father=172123	#Paetus
+	463.1.16={ birth=yes }
+	522.4.6={ death=yes }
+}
+172126={
+	name=Julia
+	female=yes
+	dynasty=17022
+	dna="dpbofbnbmeh"
+	culture=latin religion=roman_main
+	father=172123	#Paetus
+	465.3.27={ birth=yes }
+	509.7.5={ death=yes }
+}
+172127={
+	name=Annius
+	dynasty=17022
+	dna="bkmbfelpmmc"
+	culture=latin religion=roman_main
+	martial=5 diplomacy=5 stewardship=8 intrigue=5 learning=4
+	add_trait=midas_touched add_trait=craven add_trait=charitable add_trait=gregarious add_trait=arbitrary 
+	add_trait=proud 
+	father=172125	#Eugenius
+	485.11.27={ birth=yes }
+	528.4.21={ death=yes }
+}
+172128={
+	name=Ambivia
+	female=yes
+	dynasty=17022
+	dna="ckmlfojpbig"
+	culture=latin religion=roman_main
+	father=172125	#Eugenius
+	488.3.16={ birth=yes }
+	540.4.19={ death=yes }
+}
+172129={
+	name=Messalina
+	female=yes
+	dynasty=17022
+	dna="bkmjoonpcgj"
+	culture=latin religion=roman_main
+	father=172125	#Eugenius
+	491.9.13={ birth=yes }
+	538.11.11={ death=yes }
 }
