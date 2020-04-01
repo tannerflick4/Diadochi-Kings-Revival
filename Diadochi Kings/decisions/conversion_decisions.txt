@@ -444,6 +444,19 @@ targetted_decisions = {
 					add_trait = sympathy_north_african_religion
 				}
 			}
+			if = {
+				limit = {
+					religion_group = illyrian_religion
+					NOT = { trait = sympathy_illyrian_religion }
+					capital_scope = {
+						NOT = { true_religion_group = ROOT }
+					}
+				}
+				random = {
+					chance = 60
+					add_trait = sympathy_illyrian_religion
+				}
+			}
 			custom_tooltip = { text = local_religion_conversion_tooltip }
 			hidden_tooltip = {
 				capital_scope = {
@@ -985,6 +998,11 @@ decisions = {
 				if = {
 					limit = { religion_group = north_african_religion }
 					add_trait = sympathy_north_african_religion
+				}
+				
+				if = {
+					limit = { religion_group = illyrian_religion }
+					add_trait = sympathy_illyrian_religion
 				}
 			}
 			event_target:enemy_attacker = {

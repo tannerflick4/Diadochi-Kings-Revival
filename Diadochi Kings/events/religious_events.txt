@@ -701,6 +701,12 @@ character_event = {
 			}
 			add_trait = sympathy_north_african_religion
 		}
+		if = {
+			limit = {
+				religion_group = illyrian_religion
+			}
+			add_trait = sympathy_illyrian_religion
+		}
 
 		clr_religion_char_flag_effect = yes #Must clear all old flags to avoid double traits
 		add_religion_char_flag_effect = yes

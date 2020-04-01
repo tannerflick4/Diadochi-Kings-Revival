@@ -474,6 +474,7 @@ character_event = {
 		NOT = { trait = zealous }
 		NOT = { trait = sympathy_egyptian_religion }
 		NOT = { trait = sympathy_north_african_religion }
+		NOT = { trait = sympathy_illyrian_religion
 		NOT = { has_character_flag = wol_theology_view_other_religions }
 		any_realm_character = {
 			NOT = { religion_group = ROOT }
@@ -530,6 +531,7 @@ character_event = {
 				on_trigger = religion_group
 				egyptian_religion = { ROOT = { add_trait = sympathy_egyptian_religion } }
 				north_african_religion = { ROOT = { add_trait = sympathy_north_african_religion } }
+				illyrian_religion = { ROOT = { add_trait = sympathy_illyrian_religion } }
 			}
 		}
 	}

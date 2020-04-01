@@ -1637,6 +1637,17 @@ narrative_event = {
 			}
 			add_trait = sympathy_north_african_religion
 		}
+		
+		if = {
+			limit = {
+				FROM = { religion_group = illyrian_religion }
+				NOT = { 
+					trait = sympathy_illyrian_religion
+					FROM = { religion_group = ROOT }
+				} 
+			}
+			add_trait = sympathy_illyrian_religion
+		}
 	}
 	#Leave for different religion
 	option = {
