@@ -62,3 +62,8 @@
 	# 236001-236100 for the Vellavi dynasty
 	# 236101-236200 for the Arverni dynasty
 	# 236201-236300 for the Bituriges Cubi dynasty
+	# 236301-236400 for the Lemovices dynasty
+	# 236401-236500 for the Turones dynasty
+	# 236501-236600 for the Carnutes dynasty
+	# 236601-236700 for the Parisii dynasty
+	# 236701-236800 for the Aulerci Eburovices dynasty
