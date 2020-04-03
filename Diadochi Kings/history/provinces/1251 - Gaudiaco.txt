@@ -1,0 +1,21 @@
+# 1251 - Gaudiaco
+
+# County Title
+title = c_gaudiaco
+
+# Settlements
+max_settlements = 5
+b_gaudiaco_gaudiaco = tribal
+#b_balatedinis_gaudiaco = city
+#b_caesarodunum_gaudiaco = city
+#b_orbaniacum_gaudiaco = castle
+b_maroialum_gaudiaco = temple
+#b_senaparia_gaudiaco = city
+#b_luciliacus_gaudiaco = temple
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

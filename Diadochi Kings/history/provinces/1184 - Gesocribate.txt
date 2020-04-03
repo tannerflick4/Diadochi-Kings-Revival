@@ -1,0 +1,21 @@
+# 1184 - Gesocribate
+
+# County Title
+title = c_gesocribate
+
+# Settlements
+max_settlements = 3
+b_gesocribate_gesocribate = tribal
+#b_uxantis_gesocribate = city
+#b_vorganium_gesocribate = castle
+#b_lannion_gesocribate = city
+#b_morlaix_gesocribate = castle
+b_vindasca_gesocribate = temple
+#b_sedros_gesocribate = castle
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

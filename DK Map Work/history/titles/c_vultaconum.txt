@@ -1,6 +1,0 @@
-401.1.1={holder=234601} #Divico[23106]
-439.03.14={holder=234602} #Vercassivellaunus[23106]
-458.06.12={holder=234607} #Iccius[23106]
-476.06.10={holder=234609} #Commius[23106]
-499.11.14={holder=234611} #Divico[23106]
-539.03.02={holder=234618} #Vercassivellaunus[23106]

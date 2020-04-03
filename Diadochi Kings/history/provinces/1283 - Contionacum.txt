@@ -1,0 +1,21 @@
+# 1283 - Contionacum 
+
+# County Title
+title = c_contionacum
+
+# Settlements
+max_settlements = 5
+b_contionacum_contionacum = tribal
+#b_augusta_treverorum_contionacum = city
+#b_vicus_contiomagus_contionacum = city
+#b_princastellum_contionacum = city
+b_belginum_contionacum = temple
+#b_noviomagus_treverorum_contionacum = city
+#b_palatiolum_contionacum = castle
+
+# Misc
+culture = belgic
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

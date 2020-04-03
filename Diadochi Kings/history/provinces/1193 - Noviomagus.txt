@@ -1,0 +1,21 @@
+# 1193 - Noviomagus
+
+# County Title
+title = c_noviomagus
+
+# Settlements
+max_settlements = 3
+b_noviomagus_noviomagus = tribal
+#b_exmes_noviomagus = city
+#b_canetonum_noviomagus = temple
+#b_uggate_noviomagus = city
+#b_maleto_noviomagus = castle
+#b_lautrego_noviomagus = castle
+#b_caborinio_noviomagus = temple
+
+# Misc
+culture = belgic
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

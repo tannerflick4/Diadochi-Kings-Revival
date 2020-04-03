@@ -1,0 +1,21 @@
+# 1250 - Briggogalus
+
+# County Title
+title = c_briggogalus
+
+# Settlements
+max_settlements = 4
+b_briggogalus_briggogalus = tribal
+#b_fines_briggogalus = city
+b_masamas_briggogalus = temple
+#b_andecamulum_briggogalus = castle
+#b_catalacum_briggogalus = castle
+#b_ambaciacum_briggogalus = castle
+#b_ferruciacum_briggogalus = city
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

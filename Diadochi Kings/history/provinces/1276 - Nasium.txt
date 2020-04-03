@@ -1,0 +1,21 @@
+# 1276 - Nasium 
+
+# County Title
+title = c_nasium
+
+# Settlements
+max_settlements = 3
+b_nasium_nasium = tribal
+b_grannum_nasium = temple
+#b_caturicis_nasium = city
+#b_perthes_nasium = city
+#b_liffol_nasium = castle
+#b_ratis_nasium = castle
+#b_hermine_nasium = temple
+
+# Misc
+culture = belgic
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

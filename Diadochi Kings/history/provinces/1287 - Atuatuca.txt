@@ -1,0 +1,21 @@
+# 1287 - Atuatuca 
+
+# County Title
+title = c_atuatuca
+
+# Settlements
+max_settlements = 4
+b_atuatuca_atuatuca = tribal
+#b_traiectus_atuatuca = city
+#b_feresne_atuatuca = castle
+#b_catualium_atuatuca = castle
+#b_amanium_atuatuca = city
+#b_perniciacum_atuatuca = city
+b_hacor_atuatuca = temple
+
+# Misc
+culture = belgic
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,21 @@
+# 1247 - Divona
+
+# County Title
+title = c_divona
+
+# Settlements
+max_settlements = 6
+b_divona_divona = tribal
+#b_auciago_divona = castle
+b_gurdo_divona = temple
+#b_decaniacum_divona = city
+#b_cadurcio_divona = city
+#b_mercurius_divona = castle
+#b_prisciago_divona = city
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

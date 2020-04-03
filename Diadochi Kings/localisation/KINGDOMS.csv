@@ -24,8 +24,6 @@ k_cappadocia;Kappadokia;;;;;;;;;;;;;;x
 k_cappadocia_adj;Kappadokian;;;;;;;;;;;;;;x
 k_cappadocia_cappadocian;Katpatuka;;;;;;;;;;;;;;x
 k_cappadocia_cappadocian_adj;Katpatukan;;;;;;;;;;;;;;x
-k_aquitania;Aquitania;;;;;;;;;;;;;;x
-k_aquitania_adj;Aquitanian;;;;;;;;;;;;;;x
 k_egypt;Kemet;;;;;;;;;;;;;;x
 k_egypt_adj;Kemetic;;;;;;;;;;;;;;x
 k_cyrene;Kyrene;;;;;;;;;;;;;;x
@@ -191,8 +189,16 @@ k_noricum;Noricum;;;;;;;;;;;;;;x
 k_noricum_adj;Norican;;;;;;;;;;;;;;x
 k_dacia;Getia;;;;;;;;;;;;;;x
 k_dacia_adj;Getian;;;;;;;;;;;;;;x
-k_gallia;Gallia;;;;;;;;;;;;;;x
-k_gallia_adj;Gallic;;;;;;;;;;;;;;x
+k_narbonensis;Narbonensis;;;;;;;;;;;;;;x
+k_narbonensis_adj;Narbonensian;;;;;;;;;;;;;;x
+k_aquitania;Aquitania;;;;;;;;;;;;;;x
+k_aquitania_adj;Aquitanian;;;;;;;;;;;;;;x
+k_lugdunensis;Lugdunensis;;;;;;;;;;;;;;x
+k_lugdunensis_adj;Lugdunensian;;;;;;;;;;;;;;x
+k_helvetia;Helvetia;;;;;;;;;;;;;;x
+k_helvetia_adj;Helvetian;;;;;;;;;;;;;;x
+k_raetia;Raetia;;;;;;;;;;;;;;x
+k_raetia_adj;Raetian;;;;;;;;;;;;;;x
 k_kush;Kash;;;;;;;;;;;;;;x
 k_kush_adj;Kushite;;;;;;;;;;;;;;x
 k_syracuse;Syrakousai;;;;;;;;;;;;;;x
@@ -271,6 +277,8 @@ k_syria;Syria;;;;;;;;;;;;;x;
 k_syria_adj;Syrian;;;;;;;;;;;;;x;
 k_asia;Asia;;;;;;;;;;;;;x;
 k_asia_adj;Asian;;;;;;;;;;;;;x;
+k_belgica;Belgica;;;;;;;;;;;;;x;
+k_belgica_adj;Belgic;;;;;;;;;;;;;x;
 STRATEGOS;Strategos;;;;;;;;;;;;;x;
 SATRAP;Satrapes;;;;;;;;;;;;;x;
 BASILEUS;Basileus;;;;;;;;;;;;;;x

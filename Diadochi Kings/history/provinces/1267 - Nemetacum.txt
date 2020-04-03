@@ -1,0 +1,21 @@
+# 1267 - Nemetacum 
+
+# County Title
+title = c_nemetacum
+
+# Settlements
+max_settlements = 4
+b_nemetacum_nemetacum = tribal
+#b_turnacum_nemetacum = city
+#b_pontes_caldis_nemetacum = city
+#b_fanum_martis_nemetacum = castle
+#b_hermoniacum_nemetacum = city
+#b_camaracum_nemetacum = city
+b_mercurius_nemetacum = temple
+
+# Misc
+culture = belgic
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

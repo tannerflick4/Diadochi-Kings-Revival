@@ -1,0 +1,21 @@
+# 1280 - Borbetomagus 
+
+# County Title
+title = c_borbetomagus
+
+# Settlements
+max_settlements = 4
+b_borbetomagus_borbetomagus = tribal
+#b_rouphiniana_borbetomagus = city
+#b_nemetae_borbetomagus = city
+#b_tabernae_borbetomagus = castle
+#b_concordia_borbetomagus = castle
+#b_ramsen_borbetomagus = castle
+#b_durcem_borbetomagus = castle
+
+# Misc
+culture = belgic
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

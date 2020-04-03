@@ -1,0 +1,21 @@
+# 1225 - Noviodunum
+
+# County Title
+title = c_noviodunum
+
+# Settlements
+max_settlements = 3
+b_noviodunum_noviodunum = tribal
+#b_decetia_noviodunum = city
+#b_aquae_bormonis_noviodunum = city
+#b_bonnet_noviodunum = city
+#b_turnacum_noviodunum = castle
+#b_labrocinum_noviodunum = temple
+#b_ambiacum_noviodunum = castle
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

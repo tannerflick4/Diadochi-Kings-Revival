@@ -1,0 +1,21 @@
+# 1190 - Condate
+
+# County Title
+title = c_condate
+
+# Settlements
+max_settlements = 4
+b_condate_condate = tribal
+#b_aletum_condate = city
+#b_feins_condate = castle
+b_pace_condate = temple
+#b_montanel_condate = castle
+#b_ingena_condate = city
+#b_pican_condate = city
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,21 @@
+# 1288 - Batavodurum 
+
+# County Title
+title = c_batavodurum
+
+# Settlements
+max_settlements = 4
+b_batavodurum_batavodurum = tribal
+#b_carvium_batavodurum = castle
+#b_castra_herculis_batavodurum = castle
+#b_carvo_batavodurum = castle
+#b_mannaricium_batavodurum = castle
+#b_grinnes_batavodurum = city
+#b_ceuclum_batavodurum = city
+
+# Misc
+culture = belgic
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

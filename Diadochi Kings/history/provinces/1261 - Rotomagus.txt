@@ -1,0 +1,21 @@
+# 1261 - Rotomagus 
+
+# County Title
+title = c_rotomagus
+
+# Settlements
+max_settlements = 3
+b_rotomagus_rotomagus = tribal
+#b_loium_rotomagus = city
+#b_iuliobona_rotomagus = city
+#b_caracoticum_rotomagus = city
+#b_iciodorum_rotomagus = castle
+b_chrononum_rotomagus = temple
+#b_curisiacum_rotomagus = castle
+
+# Misc
+culture = belgic
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

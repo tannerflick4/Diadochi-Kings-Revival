@@ -1,0 +1,21 @@
+# 1265 - Samarobriva 
+
+# County Title
+title = c_samarobriva
+
+# Settlements
+max_settlements = 4
+b_samarobriva_samarobriva = tribal
+#b_ratumagus_samarobriva = city
+b_ambianorum_samarobriva = temple
+#b_famechon_samarobriva = castle
+#b_onia_samarobriva = castle
+#b_dolum_samarobriva = city
+#b_tornomagus_samarobriva = city
+
+# Misc
+culture = belgic
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

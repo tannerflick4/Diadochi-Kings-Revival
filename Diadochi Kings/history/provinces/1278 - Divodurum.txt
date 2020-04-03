@@ -1,0 +1,21 @@
+# 1278 - Divodurum 
+
+# County Title
+title = c_divodurum
+
+# Settlements
+max_settlements = 4
+b_divodurum_divodurum = tribal
+#b_scarponna_divodurum = city
+#b_tullum_divodurum = city
+#b_ad_duodecimum_divodurum = city
+#b_vicus_bodatius_divodurum = castle
+#b_decem_pagi_divodurum = city
+#b_pons_saravi_divodurum = city
+
+# Misc
+culture = belgic
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

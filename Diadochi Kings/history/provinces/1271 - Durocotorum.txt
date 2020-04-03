@@ -1,0 +1,21 @@
+# 1271 - Durocotorum 
+
+# County Title
+title = c_durocotorum
+
+# Settlements
+max_settlements = 2
+b_durocotorum_durocotorum = tribal
+#b_ad_fines_durocotorum = city
+#b_basilia_durocotorum = castle
+#b_rotomagus_durocotorum = city
+#b_brixis_durocotorum = temple
+#b_cisomagus_durocotorum = city
+#b_tausiriacum_durocotorum = castle
+
+# Misc
+culture = belgic
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

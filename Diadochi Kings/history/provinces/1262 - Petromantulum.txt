@@ -1,0 +1,21 @@
+# 1262 - Petromantulum 
+
+# County Title
+title = c_petromantulum
+
+# Settlements
+max_settlements = 3
+b_petromantulum_petromantulum = tribal
+#b_briva_isarae_petromantulum = castle
+#b_curmiliaca_petromantulum = castle
+#b_caesaromagus_petromantulum = city
+#b_cantobennum_petromantulum = temple
+#b_fines_petromantulum = castle
+#b_vialoscum_petromantulum = city
+
+# Misc
+culture = belgic
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

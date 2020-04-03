@@ -1,0 +1,21 @@
+# 1192 - Augustodurum
+
+# County Title
+title = c_augustodurum
+
+# Settlements
+max_settlements = 3
+b_augustodurum_augustodurum = tribal
+b_aubin_augustodurum = temple
+#b_odon_augustodurum = temple
+#b_aregenoua_augustodurum = castle
+#b_damblain_augustodurum = castle
+#b_lo_augustodurum = castle
+#b_domeciaco_augustodurum = city
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

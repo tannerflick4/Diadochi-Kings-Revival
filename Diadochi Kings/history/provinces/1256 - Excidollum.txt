@@ -1,0 +1,21 @@
+# 1256 - Excidollum
+
+# County Title
+title = c_excidollum
+
+# Settlements
+max_settlements = 5
+b_excidollum_excidollum = tribal
+#b_luciacus_excidollum = castle
+#b_negiacum_excidollum = castle
+#b_marcomons_excidollum = castle
+#b_iuliacum_excidollum = city
+#b_gricium_excidollum = city
+#b_attanum_excidollum = castle
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,21 @@
+# 1239 - Vultaconum
+
+# County Title
+title = c_vultaconum
+
+# Settlements
+max_settlements = 5
+b_vultaconum_vultaconum = tribal
+#b_carnona_vultaconum = city
+#b_geinum_vultaconum = city
+#b_sella_vultaconum = castle
+#b_segora_vultaconum = castle
+#b_crovio_vultaconum = city
+#b_novioritum_vultaconum = city
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

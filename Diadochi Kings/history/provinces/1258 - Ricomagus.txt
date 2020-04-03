@@ -1,0 +1,21 @@
+# 1258 - Ricomagus
+
+# County Title
+title = c_ricomagus
+
+# Settlements
+max_settlements = 5
+b_ricomagus_ricomagus = tribal
+#b_brivas_ricomagus = city
+b_quiricus_ricomagus = temple
+#b_avitacum_ricomagus = castle
+#b_gergovia_ricomagus = city
+#b_augustonemetum_ricomagus = city
+#b_arthona_ricomagus = city
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

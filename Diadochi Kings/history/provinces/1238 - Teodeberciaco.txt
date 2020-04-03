@@ -1,0 +1,21 @@
+# 1238 - Teodeberciaco
+
+# County Title
+title = c_teodeberciaco
+
+# Settlements
+max_settlements = 5
+b_teodeberciaco_teodeberciaco = tribal
+#b_ratiatum_teodeberciaco = city
+#b_vetraria_teodeberciaco = castle
+#b_sikor_limen_teodeberciaco = city
+#b_samnitum_teodeberciaco = city
+b_piktonion_akron_teodeberciaco = temple
+#b_beccianum_teodeberciaco = city
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

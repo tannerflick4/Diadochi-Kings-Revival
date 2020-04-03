@@ -1,0 +1,21 @@
+# 1185 - Vorgium
+
+# County Title
+title = c_vorgium
+
+# Settlements
+max_settlements = 2
+b_vorgium_vorgium = tribal
+b_sena_vorgium = city
+b_huelgoat_vorgium = temple
+b_avisio_vorgium = castle
+b_lumo_vorgium = city
+b_anao_vorgium = castle
+b_glanum_vorgium = temple
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

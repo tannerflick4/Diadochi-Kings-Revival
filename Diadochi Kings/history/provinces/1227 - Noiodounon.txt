@@ -1,0 +1,21 @@
+# 1227 - Noiodounon
+
+# County Title
+title = c_noiodounon
+
+# Settlements
+max_settlements = 4
+b_noiodounon_noiodounon = tribal
+#b_lore_noiodounon = castle
+#b_diablintum_noiodounon = city
+#b_gemmes_noiodounon = city
+#b_entrammes_noiodounon = temple
+#b_ouagoriton_noiodounon = castle
+#b_ouindinon_noiodounon = city
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

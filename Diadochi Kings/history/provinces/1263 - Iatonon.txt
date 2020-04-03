@@ -1,0 +1,21 @@
+# 1263 - Iatonon 
+
+# County Title
+title = c_iatonon
+
+# Settlements
+max_settlements = 2
+b_iatonon_iatonon = tribal
+#b_litanobriga_iatonon = city
+#b_augustomagus_iatonon = city
+#b_gurdo_iatonon = castle
+#b_auciago_iatonon = temple
+#b_veroli_iatonon = castle
+#b_decaniacum_iatonon = city
+
+# Misc
+culture = belgic
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

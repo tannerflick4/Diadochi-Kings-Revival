@@ -1,0 +1,21 @@
+# 1277 - Viriodunum 
+
+# County Title
+title = c_viriodunum
+
+# Settlements
+max_settlements = 3
+b_viriodunum_viriodunum = tribal
+#b_caranusca_viriodunum = city
+#b_ibliodurum_viriodunum = castle
+#b_pannes_viriodunum = castle
+#b_ad_nonum_viriodunum = city
+#b_urbana_viriodunum = city
+b_cutri_viriodunum = temple
+
+# Misc
+culture = belgic
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

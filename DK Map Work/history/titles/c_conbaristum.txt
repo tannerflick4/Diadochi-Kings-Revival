@@ -1,6 +1,0 @@
-401.1.1={holder=234701} #Vertico[23073]
-428.10.14={holder=234702} #Liscus[23073]
-464.08.23={holder=234706} #Viridovix[23073]
-510.01.18={holder=234710} #Critasirus[23073]
-514.10.24={holder=234714} #Galba[23073]
-539.02.17={holder=234717} #Viridovix[23073]

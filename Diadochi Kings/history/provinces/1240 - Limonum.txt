@@ -1,0 +1,21 @@
+# 1240 - Limonum
+
+# County Title
+title = c_limonum
+
+# Settlements
+max_settlements = 4
+b_limonum_limonum = tribal
+#b_condate_limonum = city
+#b_briotreidis_limonum = castle
+#b_voglada_limonum = castle
+b_locoteiacus_limonum = temple
+#b_exidualum_limonum = city
+#b_sanxa_limonum = castle
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

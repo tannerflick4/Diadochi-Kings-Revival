@@ -1,0 +1,21 @@
+# 1229 - Basilia
+
+# County Title
+title = c_basilia
+
+# Settlements
+max_settlements = 4
+b_basilia_basilia = tribal
+#b_augusta_raurica_basilia = city
+#b_vindonissa_basilia = city
+#b_cambete_basilia = city
+b_larga_basilia = temple
+#b_liestal_basilia = castle
+#b_bu_basilia = castle
+
+# Misc
+culture = gaul
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,21 @@
+# 434 - Luxovium
+
+# County Title
+title = c_luxovium
+
+# Settlements
+max_settlements = 2
+b_luxovium_luxovium = tribal
+#b_escles_luxovium = city
+#b_novivicum_luxovium = castle
+#b_mebre_luxovium = city
+#b_praemiacum_luxovium = castle
+#b_urba_luxovium = city
+#b_uromagus_luxovium = temple
+
+# Misc
+culture = belgic
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

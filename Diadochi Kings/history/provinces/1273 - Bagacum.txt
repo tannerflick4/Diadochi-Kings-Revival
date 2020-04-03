@@ -1,0 +1,21 @@
+# 1273 - Bagacum 
+
+# County Title
+title = c_bagacum
+
+# Settlements
+max_settlements = 1
+b_bagacum_bagacum = tribal
+#b_vodgoriacum_bagacum = city
+#b_sicinaco_bagacum = castle
+#b_cassiaco_bagacum = castle
+#b_caino_bagacum = city
+#b_mantolomagum_bagacum = temple
+#b_claudiomagus_bagacum = castle
+
+# Misc
+culture = belgic
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

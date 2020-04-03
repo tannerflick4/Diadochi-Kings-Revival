@@ -1,0 +1,16 @@
+416.1.1 = { # 360 BC
+	holder = 233702 # Andecomborius of the Helvetii
+	liege = d_helvetii
+}
+440.1.1 = { # 336 BC
+	holder = 233703 # Cotus of the Helvetii
+}
+452.1.1 = { # 324 BC
+	holder = 233704 # Camulogenus of the Helvetii
+}
+465.1.1 = { # 311 BC
+	holder = 233705 # Vercingetorix of the Helvetii
+}
+509.1.1 = { # 267 BC
+	holder = 233706 # Teutomatus of the Helvetii
+}

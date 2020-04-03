@@ -1,0 +1,21 @@
+# 1285 - Belsonancum 
+
+# County Title
+title = c_belsonancum
+
+# Settlements
+max_settlements = 4
+b_belsonancum_belsonancum = tribal
+#b_icorigium_belsonancum = city
+#b_vicus_voclannionum_belsonancum = city
+#b_beda_belsonancum = castle
+#b_andethanna_belsonancum = city
+#b_ricciacum_belsonancum = castle
+#b_orolaunum_belsonancum = city
+
+# Misc
+culture = belgic
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

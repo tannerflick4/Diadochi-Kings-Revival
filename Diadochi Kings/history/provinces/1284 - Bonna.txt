@@ -1,0 +1,21 @@
+# 1284 - Bonna 
+
+# County Title
+title = c_bonna
+
+# Settlements
+max_settlements = 4
+b_bonna_bonna = tribal
+b_marcomagus_bonna = temple
+#b_ricomagus_bonna = city
+#b_sentiacum_bonna = city
+#b_antunnacum_bonna = city
+#b_contrua_bonna = castle
+#b_cardena_bonna = temple
+
+# Misc
+culture = belgic
+religion = celtic_main
+
+# History
+# Can be filled when things change around the province

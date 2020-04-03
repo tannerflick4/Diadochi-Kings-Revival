@@ -1,9 +1,0 @@
-413.1.1 = { # 363 BC
-	holder = 231203
-}
-443.1.1 = { # 333 BC
-	holder = 231201 # Intudiomaros of the Aedui
-}
-461.1.1 = { # 315 BC
-	holder = 231202
-}
