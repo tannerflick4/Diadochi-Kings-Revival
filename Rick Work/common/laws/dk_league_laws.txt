@@ -1,0 +1,74 @@
+law_groups = {
+    dk_league_membership = {
+        law_type = realm
+    }
+}
+
+laws = {
+    dk_league_membership_0 = {
+        group = dk_league_membership
+        default = yes
+
+        allow = {
+            OR = {
+                has_law = dk_league_membership_1
+                NAND = {
+                    has_law = dk_league_membership_0
+                    has_law = dk_league_membership_1
+                }
+            }
+        }
+
+        potential = {
+            # Logically, we should only have to check whether the holder of the 
+            # title is the league leader, but this would cause the default law 
+            # to not be assigned at game start; this is likely caused by the 
+            # hypothetical factor that tributaries or scripted triggers are 
+            # executed after law setup.
+            # Therefore, we have to temporarily allow this law to become visible
+            # if no membership laws are assigned.
+            OR = {
+                NAND = {
+                    has_law = dk_league_membership_0
+                    has_law = dk_league_membership_1
+                }
+                holder_scope = { DK_is_league_leader_trigger = yes }
+            }
+        }
+
+        ai_will_do = {
+            factor = 1 # TODO
+        }
+
+        effect = {
+            hidden_tooltip = {
+                revoke_law = dk_league_membership_0
+                revoke_law = dk_league_membership_1
+            }
+        }
+    }
+    dk_league_membership_1 = {
+        group = dk_league_membership
+
+        allow = {
+            has_law = dk_league_membership_0
+        }
+
+        potential = {
+            holder_scope = {
+                DK_is_league_leader_trigger = yes
+            }
+        }
+
+        ai_will_do = {
+            factor = 1 # TODO
+        }
+
+        effect = {
+            hidden_tooltip = {
+                revoke_law = dk_league_membership_0
+                revoke_law = dk_league_membership_1
+            }
+        }
+    }
+}

@@ -184,14 +184,27 @@ targeted_decisions = {
         # Potential for the decision taker.
         from_potential = {
             DK_is_league_member_trigger = yes
-
-            # Decision target 
-            suzerain = { character = ROOT }
         }
 
         # Potential for the decision target.
         potential = {
             DK_is_league_leader_trigger = yes
+            any_tributary = {
+                character = FROM
+            }
+        }
+
+        allow = {
+            custom_tooltip = {
+                text = DK_TOOLTIP_LEAGUE_MEMBERSHIP_IS_FREE
+                hidden_tooltip = {
+                    FROM = {
+                        suzerain = {
+                            primary_title = { has_law = dk_league_membership_0 }
+                        }   
+                    }
+                }
+            }
         }
 
         effect = {
@@ -225,6 +238,7 @@ targeted_decisions = {
 
         # Potential for the decision target.
         potential = {
+            DK_is_league_member_trigger = yes
             suzerain = { character = FROM }
         }
 

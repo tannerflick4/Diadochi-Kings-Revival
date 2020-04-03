@@ -23,8 +23,12 @@
 440.10.1 = {
 	holder = 802 # Alexander III
 }
-453.6.9 = {
+453.6.10 = { # 323 BC
 	holder = 0
+	effect = {
+		revoke_law = dk_league_membership_0
+		add_law = dk_league_membership_1
+	}
 }
 457.1.1 = {
 	holder = 2 # Kassandros
