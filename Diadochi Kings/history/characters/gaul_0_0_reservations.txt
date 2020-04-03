@@ -67,3 +67,5 @@
 	# 236501-236600 for the Carnutes dynasty
 	# 236601-236700 for the Parisii dynasty
 	# 236701-236800 for the Aulerci Eburovices dynasty
+	# 236801-236900 for the Venelli dynasty
+	# 236901-237000 for the Baiocasses dynasty
