@@ -509,3 +509,75 @@ d_bituriges_cubi = {
 	
 	tribe = yes
 }
+d_parisii = {
+	color={ 255 175 146 }
+	color2={ 255 255 255 }
+
+	tribe = yes
+}
+d_carnutes = {
+	color={ 242 164 116 }
+	color2={ 255 255 255 }
+	
+	tribe = yes
+}
+d_aulerci_cenomani = {
+	color={ 255 166 122 }
+	color2={ 255 255 255 }
+	
+	tribe = yes
+}
+d_aulerci_eburovices = {
+	color={ 255 181 135 }
+	color2={ 255 255 255 }
+	
+	tribe = yes
+}
+d_aulerci = {
+	color={ 242 126 84 }
+	color2={ 255 255 255 }
+	
+	tribe = yes
+}
+d_andecavi = {
+	color={ 255 168 137 }
+	color2={ 255 255 255 }
+	
+	tribe = yes
+}
+d_baiocasses = {
+	color={ 255 142 102 }
+	color2={ 255 255 255 }
+	
+	tribe = yes
+}
+d_venelli = {
+	color={ 255 125 89 }
+	color2={ 255 255 255 }
+	
+	tribe = yes
+}
+d_namnetes = {
+	color={ 242 136 130 }
+	color2={ 255 255 255 }
+	
+	tribe = yes
+}
+d_veneti = {
+	color={ 255 131 124 }
+	color2={ 255 255 255 }
+	
+	tribe = yes
+}
+d_curiosolites = {
+	color={ 255 155 150 }
+	color2={ 255 255 255 }
+	
+	tribe = yes
+}
+d_osismii = {
+	color={ 255 149 137 }
+	color2={ 255 255 255 }
+	
+	tribe = yes
+}

@@ -1,6 +1,5 @@
 401.1.1 = {
-    holder=235301
-    liege = d_aulerci    
+    holder=235301 
 } #Viridovix[23155]
 431.02.05={holder=235302} #Cotus[23155]
 466.08.06={holder=235306} #Conconnetodumnus[23155]
