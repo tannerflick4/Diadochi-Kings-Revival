@@ -324,6 +324,7 @@ province;red;green;blue;x;x
 323;136;114;148;Antium;x
 324;56;20;76;Roma;x
 325;206;71;222;Venusia;x
+326;255;215;117;Sinai;x
 327;73;18;112;Bovianum;x
 328;115;43;124;Sulmo;x
 329;148;54;213;Asculum;x
@@ -346,6 +347,7 @@ province;red;green;blue;x;x
 346;76;114;12;Brixia;x
 347;32;91;43;Verona;x
 348;19;155;45;Patavium;x
+349;114;111;76;Arandara;x
 350;164;95;207;Aleria;x
 351;98;30;141;Palla;x
 352;65;71;159;Olbia Sardinia;x
@@ -384,6 +386,7 @@ province;red;green;blue;x;x
 385;29;106;31;Scupi;x
 386;95;121;64;Sirmium;x
 387;187;220;148;Cibalae;x
+388;119;75;79;Naucratis;x
 389;137;205;104;Malvesia;x
 390;64;118;69;Sopianae;x
 391;30;142;41;Tricciana;x
@@ -420,8 +423,10 @@ province;red;green;blue;x;x
 422;130;169;11;Arausio;x
 423;199;220;135;Segustero;x
 424;32;77;147;Valentia;x
+425;111;28;117;Athribis;x
 426;113;150;206;Brigantio;x
 427;26;88;103;Lugdunum;x
+428;114;95;67;Herakleopolis;x
 429;92;130;139;Andematunnum;x
 430;39;41;134;Augusta Praetorium;x
 431;97;99;176;Genava;x
@@ -904,6 +909,7 @@ province;red;green;blue;x;x
 908;89;60;60;Zuila;x
 909;113;72;142;Tazerbo;x
 910;29;142;67;Koufra;x
+911;53;63;47;Kynopolis;x
 912;32;83;64;Turobriga;x
 913;83;132;114;Segida;x
 914;177;46;220;Artigi;x
