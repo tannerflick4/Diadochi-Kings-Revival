@@ -149,10 +149,10 @@ province;red;green;blue;x;x
 148;182;59;74;Panopolis;x
 149;121;38;48;Kaine;x
 150;85;31;37;Thebes;x
-151;65;91;105;Persou;x
+151;65;91;105;Apollonopolis;x
 152;131;73;129;Latopolis;x
 153;17;91;88;Syene;x
-154;88;176;221;Berenike;x
+154;124;71;86;Libyan Desert;x
 155;78;129;156;Hibis;x
 156;109;113;41;Kysis;x
 157;46;91;115;Mothis;x
@@ -914,8 +914,10 @@ province;red;green;blue;x;x
 913;83;132;114;Segida;x
 914;177;46;220;Artigi;x
 915;193;113;219;Munigua;x
+916;33;63;32;Hermopolis;x
 917;49;225;203;Osset;x
 918;150;132;114;Hispalis;x
+919;255;73;104;Psinemoun;x
 920;60;135;127;Gadir;x
 921;84;169;159;Carteia;x
 922;133;152;149;Suel;x
@@ -930,6 +932,7 @@ province;red;green;blue;x;x
 931;151;221;98;Laminium;x
 932;98;221;110;Libisosa;x
 933;20;135;31;Valeria;x
+934;227;255;226;Ptolemais;x
 935;159;134;109;Saguntum;x
 936;154;83;11;Hemeroskopion;x
 937;146;224;89;Saetabis;x
@@ -945,14 +948,17 @@ province;red;green;blue;x;x
 947;50;119;122;Myrtilis;x
 948;60;86;87;Ebora;x
 949;65;79;100;Olisipo;x
+950;168;231;255;Antaiopolis;x
 951;53;116;210;Ammaia;x
 952;130;170;230;Badua;x
 953;89;115;155;Egitania;x
+954;73;124;71;Berenike;x
 955;72;93;125;Longobriga;x
 956;20;39;68;Talabriga;x
 957;136;70;91;Bracara;x
 958;149;18;138;Glandimirum;x
 959;207;107;199;Brigantium;x
+960;101;96;124;Libyan Desert;x
 961;242;146;176;Lance;x
 962;111;26;52;Asturica;x
 963;173;56;92;Compleutica;x
@@ -973,6 +979,7 @@ province;red;green;blue;x;x
 978;40;79;177;Numantia;x
 979;103;98;200;Segia;x
 980;43;37;161;Oiasso;x
+981;245;255;135;Thbakat;x
 982;58;50;211;Gebala;x
 983;178;128;67;Pelva;x
 984;32;24;178;Metulum;x
