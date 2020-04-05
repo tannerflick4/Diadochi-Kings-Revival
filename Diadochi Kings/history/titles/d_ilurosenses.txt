@@ -1,6 +1,5 @@
 385.1.1 = { # 391 BC
     holder = 450701 # Kissonbonnis of the Ilurosenses
-    liege = d_ilurosenses
 }
 397.1.1 = { # 379 BC
     holder = 450702 # Illurberrixo of the Ilurosenses

@@ -643,3 +643,59 @@ d_gabali = {
 
 	tribe = yes
 }
+
+# AQUITANIA
+d_boii_boiates = {
+	color= { 241 255 50 }
+	color2= { 255 255 255 }
+
+	tribe = yes
+}
+d_tarbelli = {
+	color= { 234 255 104 }
+	color2= { 255 255 255 }
+
+	tribe = yes
+}
+d_ilurosenses = {
+	color= { 189 226 0 }
+	color2= { 255 255 255 }
+
+	tribe = yes
+}
+d_beneardi = {
+	color= { 211 226 0 }
+	color2= { 255 255 255 }
+
+	tribe = yes
+}
+d_vasates = {
+	color= { 219 242 48 }
+	color2= { 255 255 255 }
+
+	tribe = yes
+}
+d_elusates = {
+	color= { 211 239 0 }
+	color2= { 255 255 255 }
+
+	tribe = yes
+}
+d_convenae = {
+	color= { 189 214 0 }
+	color2= { 255 255 255 }
+
+	tribe = yes
+}
+d_ausci = {
+	color= { 202 229 35 }
+	color2= { 255 255 255 }
+
+	tribe = yes
+}
+d_volcae_tolosates = {
+	color= { 50 190 10 }
+	color2= { 255 255 255 }
+
+	tribe = yes
+}

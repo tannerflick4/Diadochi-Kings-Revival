@@ -1,6 +1,5 @@
 403.1.1 = { # 373 BC
     holder = 233301 # Cavarus of the Volcae Tolosates
-    liege = d_volcae_tolosates
 }
 428.1.1 = { # 348 BC
     holder = 233302 # Boduognatus of the Volcae Tolosates

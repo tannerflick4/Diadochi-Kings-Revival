@@ -1,6 +1,5 @@
 415.1.1 = { # 361 BC
     holder = 450501 # Senios of the Vasates
-    liege = d_vasates
 }
 419.1.1 = { # 357 BC
     holder = 450502 # Abisunhar of the Vasates

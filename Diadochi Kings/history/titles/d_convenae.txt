@@ -1,6 +1,5 @@
 410.1.1 = { # 366 BC
     holder = 450202 # Kissonbonnis of the Convenae
-    liege = d_convenae
 }
 422.1.1 = { # 354 BC
     holder = 450203 # Biurtetel of the Convenae

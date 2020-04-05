@@ -1,6 +1,5 @@
 412.1.1 = { # 364 BC
     holder = 450401 # Dusanharis of the Beneardi
-    liege = d_beneardi
 }
 413.1.1 = { # 363 BC
     holder = 450402 # Serhuhoris of the Beneardi

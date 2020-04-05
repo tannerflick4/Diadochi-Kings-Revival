@@ -1,6 +1,5 @@
 415.1.1 = { # 361 BC
     holder = 233401 # Diviciacus of the Boii Boiates
-    liege = d_boii_boiates
 }
 419.1.1 = { # 357 BC
     holder = 233402 # Catuvolcus of the Boii Boiates

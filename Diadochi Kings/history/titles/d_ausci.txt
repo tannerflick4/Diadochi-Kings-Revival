@@ -1,6 +1,5 @@
 405.1.1 = { # 371 BC
     holder = 450102 # Senios of the Ausci
-    liege = d_ausci
 }
 451.1.1 = { # 325 BC
     holder = 450103 # Ennebox of the Ausci
