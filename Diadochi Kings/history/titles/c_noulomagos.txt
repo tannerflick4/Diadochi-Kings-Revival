@@ -1,5 +1,6 @@
 390.1.1 = { # 386 BC
     holder = 233501 # Camulogenus of the Bituriges Vivisci
+    liege = d_bituriges_vivisci
 }
 428.1.1 = { # 348 BC
     holder = 233502 # Viridomaros of the Bituriges Vivisci

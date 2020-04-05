@@ -443,6 +443,8 @@ d_veliocasses = {
 	
 	tribe = yes
 }
+
+# GAUL
 d_helvetii = {
 	color= { 3 102 193 }
 	color2= { 255 255 255 }
@@ -579,5 +581,65 @@ d_osismii = {
 	color={ 255 149 137 }
 	color2={ 255 255 255 }
 	
+	tribe = yes
+}
+d_pictones = {
+	color={ 226 215 0 }
+	color2={ 255 255 255 }
+
+	tribe = yes
+}
+d_turones = {
+	color={ 216 216 0 }
+	color2={ 255 255 255 }
+
+	tribe = yes
+}
+d_bituriges_vivisci = {
+	color={ 229 229 26 }
+	color2={ 255 255 255 }
+
+	tribe = yes
+}
+d_eleuterii = {
+	color={ 204 193 0 }
+	color2={ 255 255 255 }
+
+	tribe = yes
+}
+d_nitiobroges = {
+	color={ 216 216 0 }
+	color2={ 255 255 255 }
+
+	tribe = yes
+}
+d_petrocorii = {
+	color={ 191 191 0 }
+	color2={ 255 255 255 }
+
+	tribe = yes
+}
+d_cadurci = {
+	color={ 204 204 25 }
+	color2={ 255 255 255 }
+
+	tribe = yes
+}
+d_lemovices = {
+	color={ 193 204 0 }
+	color2={ 255 255 255 }
+
+	tribe = yes
+}
+d_ruteni = {
+	color={ 204 181 38 }
+	color2={ 255 255 255 }
+
+	tribe = yes
+}
+d_gabali = {
+	color={ 204 165 38 }
+	color2={ 255 255 255 }
+
 	tribe = yes
 }
