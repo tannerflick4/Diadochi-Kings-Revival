@@ -1,6 +1,5 @@
 417.1.1 = { # 359 BC
     holder = 233101 # Vercassivellaunus of the Sordones
-    liege = d_sordones
 }
 423.1.1 = { # 353 BC
     holder = 233102 # Cotuatus of the Sordones

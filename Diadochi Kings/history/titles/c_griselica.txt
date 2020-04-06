@@ -1,5 +1,6 @@
 412.1.1 = { # 364 BC
 	holder = 230904
+	liege = d_saluvii
 }
 435.1.1 = { # 341 BC
 	holder = 230901 # Adiatunnus of the Saluvii

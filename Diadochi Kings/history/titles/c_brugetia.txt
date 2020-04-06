@@ -1,5 +1,6 @@
 402.1.1 = { # 374 BC
 	holder = 232701 # Litaviccus of the Cavares
+	liege = d_cavares
 }
 421.1.1 = { # 355 BC
 	holder = 232702 # Viridomaros of the Cavares

@@ -1,6 +1,5 @@
 399.1.1 = { # 377 BC
 	holder = 232601 # Viridomaros of the Caturiges
-	liege = d_caturiges
 }
 422.1.1 = { # 354 BC
 	holder = 232602 # Bathanatos of the Caturiges

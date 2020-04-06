@@ -1,6 +1,5 @@
 412.1.1 = { # 364 BC
 	holder = 232501 # Galba of the Gaesatae
-	liege = d_gaesatae
 }
 431.1.1 = { # 345 BC
 	holder = 232502 # Catuvolcus of the Gaesatae

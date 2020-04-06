@@ -1,6 +1,5 @@
 413.1.1 = { # 363 BC
     holder = 233201 # Andecomborius of the Volcae Tectosages
-    liege = d_volcae_tectosages
 }
 438.1.1 = { # 338 BC
     holder = 233203 # Galba of the Volcae Tectosages

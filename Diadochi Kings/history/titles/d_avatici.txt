@@ -1,6 +1,5 @@
 413.1.1 = { # 363 BC
 	holder = 233601 # Convictolitavis of the Avatici
-	liege = d_avatici
 }
 417.1.1 = { # 359 BC
 	holder = 233602 # Litaviccus of the Avatici

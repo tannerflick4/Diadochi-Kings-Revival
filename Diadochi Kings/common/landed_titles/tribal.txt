@@ -644,6 +644,74 @@ d_gabali = {
 	tribe = yes
 }
 
+# NARBONENSIS
+d_volcae_tectosages = {
+	color= { 50 190 10 }
+	color2= { 255 255 255 }
+
+	tribe = yes
+}
+d_sordones = {
+	color= { 50 190 10 }
+	color2= { 255 255 255 }
+
+	tribe = yes
+}
+d_volcae_arecomici = {
+	color= { 50 190 10 }
+	color2= { 255 255 255 }
+
+	tribe = yes
+}
+d_avatici = {
+	color= { 40 225 10 }
+	color2= { 255 255 255 }
+
+	tribe = yes
+}
+d_cavares = {
+	color= { 50 190 10 }
+	color2= { 255 255 255 }
+
+	tribe = yes
+}
+d_helvii = {
+	color= { 50 190 10 }
+	color2= { 255 255 255 }
+
+	tribe = yes
+}
+d_saluvii = {
+	color= { 50 190 10 }
+	color2= { 255 255 255 }
+
+	tribe = yes
+}
+d_vocontii = {
+	color= { 60 255 10 }
+	color2= { 255 255 255 }
+
+	tribe = yes
+}
+d_caturiges = {
+	color= { 60 225 10 }
+	color2= { 255 255 255 }
+
+	tribe = yes
+}
+d_gaesatae = {
+	color= { 60 235 0 }
+	color2= { 255 255 255 }
+
+	tribe = yes
+}
+d_allobroges = {
+	color= { 50 190 10 }
+	color2= { 255 255 255 }
+
+	tribe = yes
+}
+
 # AQUITANIA
 d_boii_boiates = {
 	color= { 241 255 50 }
