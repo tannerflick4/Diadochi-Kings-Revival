@@ -7616,16 +7616,23 @@ k_egypt = {
 			b_tanis_tanis = {
 				egyptian = Djannet
 			}
-			b_mendes_tanis = {
-				egyptian = Anpet
+			b_phernouphis_tanis = {
+				egyptian = "Ra-nefer"
 			}
 			b_tamiathis_tanis = {
+				egyptian = Tamiat
 			}
-			b_thmouis_tanis = {
+			b_mendes_tanis = {
+				egyptian = Djedet
 			}
-			b_thenessos_tanis = {
+			b_hermopolis_tanis = {
+				egyptian = Iment
 			}
-			b_kalamine_tanis = {
+			b_boubastis_tanis = {
+				egyptian = "Per-Bast"
+			}
+			b_natho_tanis = {
+				egyptian = Nathu
 			}
 		}
 		c_sebennytos = {
@@ -7637,17 +7644,18 @@ k_egypt = {
 			b_sebennytos_sebennytos = {
 				egyptian = Tjebnutjer
 			}
-			b_bousiris_sebennytos = {
-				egyptian = "Per Wasir"
-			}
-			b_kynopolis_sebennytos = {
+			b_isidos_polis_sebennytos = {
 			}
 			b_diospolis_kato_sebennytos = {
+				egyptian = "Sema-behdet"
+			}
+			b_schedia_sebennytos = {
+			}
+			b_onouphis_sebennytos = {
 			}
 			b_isieion_sebennytos = {
-				egyptian = Hebyt
 			}
-			b_natho_sebennytos = {
+			b_paua_sebennytos = {
 			}
 		}
 		c_bouto = {
@@ -7659,17 +7667,47 @@ k_egypt = {
 			b_bouto_bouto = {
 				egyptian = "Per Wadyat"
 			}
-			b_xois_bouto = {
-				egyptian = Hasw
+			b_bolbitine_bouto = {
+				egyptian = Khito
 			}
-			b_sais_bouto = {
-				egyptian = Zau
+			b_chemmis_bouto = {
+				egyptian = "Khent-min"
 			}
 			b_kabasa_bouto = {
 			}
+			b_phragonis_bouto = {
+			}
+			b_xois_bouto = {
+				egyptian = Khaset
+			}
 			b_pachnamounis_bouto = {
 			}
-			b_phragonis_bouto = {
+		}
+		c_athribis = {
+			color= { 215 200 15 }
+			color2= { 255 255 255 }
+			
+			egyptian = "Hut-heryib"
+			
+			b_athribis_athribis = {
+				egyptian = "Hut-heryib"
+			}
+			b_leontopolis_athribis = {
+				egyptian = Taremu
+			}
+			b_aphroditopolis_athribis = {
+				egyptian = Hatarbechis
+			}
+			b_sais_athribis = {
+				egyptian = Zau
+			}
+			b_bousiris_athribis = {
+				egyptian = Djedu
+			}
+			b_kynopolis_athribis = {
+				egyptian = Saka
+			}
+			b_taya_athribis = {
 			}
 		}
 		c_naucratis = {
@@ -7709,21 +7747,6 @@ k_egypt = {
 			}
 			b_terenuthis_naucratis = {
 				egyptian = Mefkat
-			}
-			b_bouto_bouto = {
-				egyptian = "Per Wadyat"
-			}
-			b_xois_bouto = {
-				egyptian = Hasw
-			}
-			b_sais_bouto = {
-				egyptian = Zau
-			}
-			b_kabasa_bouto = {
-			}
-			b_pachnamounis_bouto = {
-			}
-			b_phragonis_bouto = {
 			}
 		}
 		c_metelis = {

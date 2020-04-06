@@ -1,0 +1,21 @@
+# 425 - Athribis
+
+# County Title
+title = c_athribis
+
+# Settlements
+max_settlements = 6
+b_athribis_athribis = castle
+b_leontopolis_athribis = castle
+b_aphroditopolis_athribis = city
+b_sais_athribis = castle
+b_bousiris_athribis = temple
+#b_kynopolis_athribis = temple
+#b_taya_athribis = castle
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province
