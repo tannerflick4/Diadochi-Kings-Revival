@@ -1,0 +1,38 @@
+From;To;Type;Through;-1;-1;-1;-1;Comment
+45;99;sea;1023;-1;-1;-1;-1;Byzantion-Nicomedia
+55;56;sea;1027;-1;-1;-1;-1;Pantikapaion-Phanagoria
+351;352;sea;1042;-1;-1;-1;-1;Sardinia-Corsica
+3;4;sea;1029;-1;-1;-1;-1;Southern Euboia-Andros
+3;18;sea;1029;-1;-1;-1;-1;Southern Euboia-Athens
+4;5;sea;1031;-1;-1;-1;-1;Andros-Naxos
+26;6;sea;1048;-1;-1;-1;-1;Elis-Cephalonia
+7;29;sea;1047;-1;-1;-1;-1;Ilium(Epirus)-Corfu
+2;19;sea;1029;-1;-1;-1;-1;Northern Euboia-Thebes
+2;626;sea;1029;-1;-1;-1;-1;Northern Euboia-Magnesia
+2;17;sea;1029;-1;-1;-1;-1;Northern Euboia-Sporades
+307;308;sea;1045;-1;-1;-1;-1;Rhegium-Messana
+11;12;sea;1031;-1;-1;-1;-1;Rhodes-Kos
+11;828;sea;1031;-1;-1;-1;-1;Rhodes-Knidos
+83;12;sea;1031;-1;-1;-1;-1;Halicarnassus-Kos
+13;80;sea;1029;-1;-1;-1;-1;Ephesus-Samos
+825;14;sea;1029;-1;-1;-1;-1;Erthrai-Chios
+15;77;sea;1029;-1;-1;-1;-1;Lesbos-Pergamum
+16;76;sea;1028;-1;-1;-1;-1;Abydos-Lemnos
+37;36;sea;1028;-1;-1;-1;-1;Amphipolis-Thasos
+637;76;sea;1023;-1;-1;-1;-1;Chersonese-Troas
+286;731;sea;1060;-1;-1;-1;-1;Patala-Sankodara
+731;730;sea;1060;-1;-1;-1;-1;Sankodara-Dwaraka
+731;285;sea;1060;-1;-1;-1;-1;Sankodara-Automula
+1048;1030;portage;21;-1;-1;-1;-1;Gulf of Corinth-Myrtoan Sea
+156;151;;960;-1;-1;-1;-1;Kysis-Apollonopolis
+156;155;;960;-1;-1;-1;-1;Kysis-Hibis
+155;934;;960;-1;-1;-1;-1;Hibis-Ptolemais
+155;157;;960;-1;-1;-1;-1;Hibis-Mothis
+156;157;;960;-1;-1;-1;-1;Kysis-Mothis
+157;883;;960;-1;-1;-1;-1;Mothis-Oasis Trinitheos
+883;882;;960;-1;-1;-1;-1;Oasis Trinitheos-Oasis Parva
+882;145;;960;-1;-1;-1;-1;Oasis Parva-Oxyrhynchus
+882;880;;960;-1;-1;-1;-1;Oasis Parva-Ammon
+880;881;;960;-1;-1;-1;-1;Ammon-Klimax
+880;879;;960;-1;-1;-1;-1;Ammon-Augila
+881;158;;960;-1;-1;-1;-1;Klimax-Antiphrai

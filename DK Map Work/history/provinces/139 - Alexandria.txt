@@ -1,0 +1,28 @@
+# 139 - Alexandria
+
+# County Title
+title = c_alexandria
+
+# Settlements
+max_settlements = 7
+b_alexandria_alexandria = castle
+b_taposiris_alexandria = temple
+#b_plinthine_alexandria = temple
+b_marea_alexandria = city
+#b_nicopolis_alexandria = castle
+b_canopus_alexandria = city
+#b_cellia_alexandria = temple
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province
+445.1.1 = { # founding of Alexandria
+	culture = macedonian
+	religion = greek_main
+}
+472.1.1 = { # 304 BC, End of siege of Rhodes
+	religion = greco_kemetic
+}

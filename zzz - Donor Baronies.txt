@@ -357,3 +357,10 @@ b_bodetia_luna
 #b_cambre_brigantium
 
 #b_magnetum_bracara
+
+#########
+# EGYPT #
+#########
+
+b_archandropolis_metelis
+b_schedia_metelis

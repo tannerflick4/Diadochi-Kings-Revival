@@ -1,0 +1,21 @@
+# 138 - Metelis
+
+# County Title
+title = c_metelis
+
+# Settlements
+max_settlements = 5
+b_metelis_metelis = castle
+b_heracleum_metelis = temple
+b_anthylla_metelis = city
+#b_psenamosis_metelis = city
+#b_hermopolis_parva_metelis = city
+#b_psenemphaea_metelis = castle
+b_nitriae_metelis = city
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

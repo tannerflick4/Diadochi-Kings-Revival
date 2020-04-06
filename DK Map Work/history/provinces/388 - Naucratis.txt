@@ -1,0 +1,21 @@
+# 388 - Naucratis
+
+# County Title
+title = c_naucratis
+
+# Settlements
+max_settlements = 4
+b_naucratis_naucratis = castle
+b_hieraconpolis_naucratis = city
+#b_thebyrchyth_naucratis = city
+b_momemphis_naucratis = castle
+#b_papremis_naucratis = temple
+#b_andronpolis_naucratis = city
+b_terenuthis_naucratis = castle
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province
