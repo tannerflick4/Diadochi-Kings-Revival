@@ -1,0 +1,21 @@
+# 141 - Memphis
+
+# County Title
+title = c_memphis
+
+# Settlements
+max_settlements = 7
+b_memphis_memphis = castle
+b_letopolis_memphis = city
+b_sophthis_memphis = city
+b_boubastos_memphis = castle
+#b_philadelpheia_memphis = city
+#b_serapeum_memphis = temple
+b_moiethymis_memphis = temple
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

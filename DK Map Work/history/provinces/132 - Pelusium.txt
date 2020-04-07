@@ -1,0 +1,21 @@
+# 132 - Pelusium
+
+# County Title
+title = c_pelusium
+
+# Settlements
+max_settlements = 6
+b_pelusium_pelusium = castle
+b_sile_pelusium = city
+b_herakleopolis_mikra_pelusium = temple
+b_sethroe_pelusium = castle
+#b_daphnai_pelusium = castle
+b_kasion_oros_pelusium = temple
+#b_ostrakine_pelusium = city
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

@@ -595,10 +595,13 @@ b_beersheba_beersheba;Beersheba;;;;;;;;;;;;;;x
 b_betomolachon_beersheba;Betomolachon;;;;;;;;;;;;;;x
 b_elousa_beersheba;Elousa;;;;;;;;;;;;;;x
 b_mampsis_beersheba;Mampsis;;;;;;;;;;;;;;x
-b_pelusium_pelusium;Pelusium;;;;;;;;;;;;;;x
+b_pelusium_pelusium;Pelousion;;;;;;;;;;;;;;x
+b_sile_pelusium;Sile;;;;;;;;;;;;;;x
+b_herakleopolis_mikra_pelusium;Herakleopolis Mikra;;;;;;;;;;;;;;x
+b_sethroe_pelusium;Sethroe;;;;;;;;;;;;;;x
+b_daphnai_pelusium;Daphnai;;;;;;;;;;;;;;x
+b_kasion_oros_pelusium;Kasion Oros;;;;;;;;;;;;;;x
 b_ostrakine_pelusium;Ostrakine;;;;;;;;;;;;;;x
-b_rhinocolura_pelusium;Rhinocolura;;;;;;;;;;;;;;x
-b_gerra_pelusium;Gerra;;;;;;;;;;;;;;x
 b_rhaithou_rhaithou;Rhaithou;;;;;;;;;;;;;;x
 b_pharan_rhaithou;Pharan;;;;;;;;;;;;;;x
 b_arandara_rhaithou;Arandara;;;;;;;;;;;;;;x
@@ -655,16 +658,19 @@ b_papremis_naucratis;Papremis;;;;;;;;;;;;;;x
 b_andronpolis_naucratis;Andronpolis;;;;;;;;;;;;;;x
 b_terenuthis_naucratis;Terenuthis;;;;;;;;;;;;;;x
 b_heliopolis_heliopolis;Heliopolis;;;;;;;;;;;;;;x
-b_athribis_heliopolis;Arthribis;;;;;;;;;;;;;;x
-b_letopolis_heliopolis;Letopolis;;;;;;;;;;;;;;x
-b_kerkasoros_heliopolis;Kerkasoros;;;;;;;;;;;;;;x
+b_saphthis_heliopolis;Saphthis;;;;;;;;;;;;;;x
 b_leontopolis_heliopolis;Leontopolis;;;;;;;;;;;;;;x
+b_babylon_heliopolis;Babylon;;;;;;;;;;;;;;x
+b_phakoussa_heliopolis;Phakoussa;;;;;;;;;;;;;;x
+b_bilbeis_heliopolis;Bilbeis;;;;;;;;;;;;;;x
+b_troia_heliopolis;Troia;;;;;;;;;;;;;;x
 b_memphis_memphis;Memphis;;;;;;;;;;;;;;x
-b_bousiris_memphis;Bousiris;;;;;;;;;;;;;;x
-b_toachris_memphis;Toachris;;;;;;;;;;;;;;x
-b_troia_memphis;Troia;;;;;;;;;;;;;;x
-b_takeiris_memphis;Takeiris;;;;;;;;;;;;;;x
-b_skenai_mandrai_memphis;Skenai Mandrai;;;;;;;;;;;;;;x
+b_letopolis_memphis;Letopolis;;;;;;;;;;;;;;x
+b_sophthis_memphis;Sopthis;;;;;;;;;;;;;;x
+b_boubastos_memphis;Boubastos;;;;;;;;;;;;;;x
+b_philadelpheia_memphis;Philadelpheia;;;;;;;;;;;;;;x
+b_serapeum_memphis;Serapeion;;;;;;;;;;;;;;x
+b_moiethymis_memphis;Moiethymis;;;;;;;;;;;;;;x
 b_aphroditopolis_aphroditopolis;Aphroditopolis;;;;;;;;;;;;;;x
 b_kerke_aphroditopolis;Kerke;;;;;;;;;;;;;;x
 b_parembole_aphroditopolis;Parembole;;;;;;;;;;;;;;x
@@ -677,6 +683,12 @@ b_taleithis_crocodilopolis;Taleithis;;;;;;;;;;;;;;x
 b_bousiris_crocodilopolis;Bousiris;;;;;;;;;;;;;;x
 b_psenaryo_crocodilopolis;Psenaryo;;;;;;;;;;;;;;x
 b_clysma_clysma;Clysma;;;;;;;;;;;;;;x
+b_heroonpolis_clysma;Heroonpolis;;;;;;;;;;;;;;x
+b_serapieion_clysma;Serapieion;;;;;;;;;;;;;;x
+b_phoinikon_clysma;Phoinikon;;;;;;;;;;;;;;x
+b_koubri_clysma;Koubri;;;;;;;;;;;;;;x
+b_hephaistos_clysma;Hephaistos;;;;;;;;;;;;;;x
+b_thenessos_clysma;Thenessos;;;;;;;;;;;;;;x
 b_oxyrhynchus_oxyrhynchus;Oxyrhynchus;;;;;;;;;;;;;;x
 b_taampemou_oxyrhynchus;Taampemou;;;;;;;;;;;;;;x
 b_takolkeilis_oxyrhynchus;Takolkeilis;;;;;;;;;;;;;;x

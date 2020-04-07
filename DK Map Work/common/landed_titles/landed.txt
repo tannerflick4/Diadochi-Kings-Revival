@@ -7882,15 +7882,22 @@ k_egypt = {
 			b_memphis_memphis = {
 				egyptian = "Men Nefer"
 			}
-			b_bousiris_memphis = {
+			b_letopolis_memphis = {
+				egyptian = Khem
 			}
-			b_toachris_memphis = {
+			b_sophthis_memphis = {
+				egyptian = Sobthis
 			}
-			b_troia_memphis = {
+			b_boubastos_memphis = {
+				egyptian = "Per-Bast"
 			}
-			b_takeiris_memphis = {
+			b_philadelpheia_memphis = {
 			}
-			b_skenai_mandrai_memphis = {
+			b_serapeum_memphis = {
+				egyptian = "Djes-isut-Teti" # Pyramid of Teti, close by.
+			}
+			b_moiethymis_memphis = {
+				egyptian = "Mer-Itum"
 			}
 		}
 		c_aphroditopolis = {
@@ -7940,6 +7947,18 @@ k_egypt = {
 			
 			b_clysma_clysma = {
 			}
+			b_heroonpolis_clysma = {
+			}
+			b_serapieion_clysma = {
+			}
+			b_phoinikon_clysma = {
+			}
+			b_koubri_clysma = {
+			}
+			b_hephaistos_clysma = {
+			}
+			b_thenessos_clysma = {
+			}
 		}
 		c_oxyrhynchus = {
 			color= { 225 190 10 }
@@ -7986,6 +8005,19 @@ k_egypt = {
 			b_heliopolis_heliopolis = {
 				egyptian = "Iunu"
 			}
+
+			b_saphthis_heliopolis = {
+				egyptian = "Per-Sped"
+			}
+			b_leontopolis_heliopolis = {
+				egyptian = "Ney-ta-hut"
+			}
+			b_babylon_heliopolis
+			b_phakoussa_heliopolis = {
+			}
+			b_bilbeis_heliopolis
+			b_troia_heliopolis
+
 			b_athribis_heliopolis = {
 				egyptian = "Hut-Repyt"
 			}
@@ -11635,12 +11667,21 @@ k_nabataea = {
 			b_pelusium_pelusium = {
 				egyptian = "Per Amun"
 			}
+			b_sile_pelusium = {
+				egyptian = Tjaru
+			}
+			b_herakleopolis_mikra_pelusium = {
+				egyptian = "Harsaphes-neb-Nen-nesou"
+			}
+			b_sethroe_pelusium = {
+				egyptian = Setra
+			}
+			b_daphnai_pelusium = {
+				egyptian = Tahpanhes
+			}
+			b_kasion_oros_pelusium = {
+			}
 			b_ostrakine_pelusium = {
-			}
-			b_rhinocolura_pelusium = {
-				egyptian = "Rngrn"
-			}
-			b_gerra_pelusium = {
 			}
 		}
 		c_rhaithou = {
