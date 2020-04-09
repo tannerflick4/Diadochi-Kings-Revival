@@ -1,0 +1,21 @@
+# 428 - Herakleopolis
+
+# County Title
+title = c_herakleopolis
+
+# Settlements
+max_settlements = 6
+b_herakleopolis_herakleopolis = castle
+#b_ptolemais_hormou_herakleopolis = city
+b_peenameos_herakleopolis = city
+b_sobthis_herakleopolis = temple
+#b_psobthis_herakleopolis = temple
+b_sinary_herakleopolis = city
+b_psebtonembe_herakleopolis = castle
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

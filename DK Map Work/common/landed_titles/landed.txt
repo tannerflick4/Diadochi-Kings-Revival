@@ -7929,16 +7929,52 @@ k_egypt = {
 				egyptian = "Shedyet"
 			}
 			b_haueris_crocodilopolis = {
-				egyptian = "Hwt-wrt"
+				egyptian = Huturi
 			}
-			b_heracleopolis_crocodilopolis = {
-				egyptian = "Henen-Nesut"
+			b_piamouei_crocodilopolis = {
+				egyptian = Piameyt
 			}
-			b_taleithis_crocodilopolis = {
+			b_psenyris_crocodilopolis = {
+				egyptian = Psenneris
 			}
-			b_bousiris_crocodilopolis = {
+			b_pisais_crocodilopolis = {
+				egyptian = Pise
 			}
-			b_psenaryo_crocodilopolis = {
+			b_theadelpheia_crocodilopolis = {
+				egyptian = Pawisenet
+			}
+			b_narmouthis_crocodilopolis = {
+				egyptian = "Nout-Renenet"
+			}	
+			b_tebtynis_crocodilopolis = {
+				egyptian = Tutun
+			}
+		}
+		c_herakleopolis = {
+			color= { 235 200 10 }
+			color2= { 255 255 255 }
+			
+			egyptian = "Henen-Nesou"
+			
+			b_herakleopolis_herakleopolis = {
+				egyptian = "Henen-Nesou"
+			}
+			b_ptolemais_hormou_herakleopolis = {
+				egyptian = Pasiheti
+			}
+			b_peenameos_herakleopolis = {
+				egyptian = Poinami
+			}
+			b_sobthis_herakleopolis = {
+				egyptian = Sobtis
+			}
+			b_psobthis_herakleopolis = {
+				egyptian = Psobtis
+			}
+			b_sinary_herakleopolis = {
+				egyptian = Pseneros
+			}
+			b_psebtonembe_herakleopolis = {
 			}
 		}
 		c_clysma = {
@@ -7969,13 +8005,19 @@ k_egypt = {
 			b_oxyrhynchus_oxyrhynchus = {
 				egyptian = "Per-Medjed"
 			}
-			b_taampemou_oxyrhynchus = {
+			b_toou_oxyrhynchus = {
 			}
-			b_takolkeilis_oxyrhynchus = {
+			b_chysis_oxyrhynchus = {
 			}
-			b_hipponon_oxyrhynchus = {
+			b_pela_oxyrhynchus = {
 			}
-			b_terbe_oxyrhynchus = {
+			b_paimis_oxyrhynchus = {
+				egyptian = Pemi
+			}
+			b_senekeleu_oxyrhynchus = {
+				egyptian = "Nekle-Tesenekelo"
+			}
+			b_artapatou_oxyrhynchus = {
 			}
 		}
 		c_antinoopolis = {

@@ -1,0 +1,21 @@
+# 145 - Oxyrhynchus
+
+# County Title
+title = c_oxyrhynchus
+
+# Settlements
+max_settlements = 5
+b_oxyrhynchus_oxyrhynchus = castle
+b_toou_oxyrhynchus = castle
+b_chysis_oxyrhynchus = city
+#b_pela_oxyrhynchus = city
+b_paimis_oxyrhynchus = temple
+b_senekeleu_oxyrhynchus = city
+#b_artapatou_oxyrhynchus = city
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province
