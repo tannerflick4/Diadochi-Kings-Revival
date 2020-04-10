@@ -1,0 +1,37 @@
+max_provinces = 1564
+definitions = "definition.csv"
+provinces = "provinces.bmp"
+positions = "positions.txt"
+terrain = "terrain.bmp"
+rivers = "rivers.bmp"
+terrain_definition = "terrain.txt"
+heightmap = "topology.bmp"
+tree_definition = "trees.bmp"
+continent = "continent.txt"
+adjacencies = "adjacencies.csv"
+climate = "climate.txt"
+region = "island_region.txt"
+geographical_region = "geographical_region.txt"
+static = "statics"
+seasons = "seasons.txt"
+
+sea_zones = { 1001 1002 }
+sea_zones = { 1004 1022 }
+sea_zones = { 1023 1051 }
+sea_zones = { 1068 1070 }
+sea_zones = { 1071 1091 }
+sea_zones = { 1052 1067 }
+sea_zones = { 1500 1510 }
+sea_zones = { 1511 1526 } # Nile river
+
+ocean_region = { # European seas
+	sea_zones = { 1 2 3 4 5 6 7 8 }
+}
+
+# Define which indices in trees.bmp palette which should count as trees for automatic terrain assignment
+tree = { 3 4 7 10 }
+major_rivers = {
+	1511 1512 1513 1514 1515 1516 1517 1518 1519 1520 1521 1522 1523 1524 1525 1526 # Nile
+}
+
+externals = { }

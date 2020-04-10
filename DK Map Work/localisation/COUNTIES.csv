@@ -1679,7 +1679,7 @@ c_nyssa_adj;Nyssan;;;;;;;;;;;;x;;
 PROV842;Gauraina;;;;;;;;;;;;x;;
 c_gauraina_adj;Gaurainan;;;;;;;;;;;;x;;
 PROV843;Thmoresis;;;;;;;;;;;;x;;
-c_antinoopolis_adj;Gaurainan;;;;;;;;;;;;x;;
+c_thmoresis_adj;Thmoresian;;;;;;;;;;;;x;;
 PROV844;Diospolis Mikra;;;;;;;;;;;;x;;
 c_diospolis_mikra_adj;Diospolitan;;;;;;;;;;;;x;;
 PROV845;Eileithiopolis;;;;;;;;;;;;x;;
@@ -2464,3 +2464,19 @@ PROV1507;Maiotes Limne;;;;;;;;;;;;;;x
 PROV1508;Podouke;;;;;;;;;;;;;;x
 PROV1509;Paloura;;;;;;;;;;;;;;x
 PROV1510;Lacus Raetiae;;;;;;;;;;;;;;x
+PROV1511; ;;;;;;;;;;;;;;x
+PROV1512; ;;;;;;;;;;;;;;x
+PROV1513; ;;;;;;;;;;;;;;x
+PROV1514; ;;;;;;;;;;;;;;x
+PROV1515; ;;;;;;;;;;;;;;x
+PROV1516; ;;;;;;;;;;;;;;x
+PROV1517; ;;;;;;;;;;;;;;x
+PROV1518; ;;;;;;;;;;;;;;x
+PROV1519; ;;;;;;;;;;;;;;x
+PROV1520; ;;;;;;;;;;;;;;x
+PROV1521; ;;;;;;;;;;;;;;x
+PROV1522; ;;;;;;;;;;;;;;x
+PROV1523; ;;;;;;;;;;;;;;x
+PROV1524; ;;;;;;;;;;;;;;x
+PROV1525; ;;;;;;;;;;;;;;x
+PROV1526; ;;;;;;;;;;;;;;x

@@ -36,3 +36,21 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 880;881;;960;-1;-1;-1;-1;Ammon-Klimax
 880;879;;960;-1;-1;-1;-1;Ammon-Augila
 881;158;;960;-1;-1;-1;-1;Klimax-Antiphrai
+138;137;major_river;1511;-1;-1;-1;-1;Metelis-Bouto
+388;137;major_river;1511;-1;-1;-1;-1;Naucratis-Bouto
+388;425;major_river;1512;-1;-1;-1;-1;Naucratis-Athribis
+141;425;major_river;1513;-1;-1;-1;-1;Memphis-Athribis
+141;140;major_river;1513;-1;-1;-1;-1;Memphis-Heliopolis
+141;142;major_river;1513;-1;-1;-1;-1;Memphis-Aphroditopolis
+428;142;major_river;1516;-1;-1;-1;-1;Herakleopolis-Aphroditopolis
+916;843;major_river;1517;-1;-1;-1;-1;Hermopolis-Thmoresis
+147;843;major_river;1518;-1;-1;-1;-1;Lykopolis-Thmoresis
+147;950;major_river;1519;-1;-1;-1;-1;Lykopolis-Antaiopolis
+919;148;major_river;1519;-1;-1;-1;-1;Psinemoun-Panopolis
+934;148;major_river;1520;-1;-1;-1;-1;Ptolemais-Panopolis
+934;981;major_river;1520;-1;-1;-1;-1;Ptolemais-Thbakat
+844;149;major_river;1520;-1;-1;-1;-1;Diospolis Mikra-Kaine
+844;150;major_river;1521;-1;-1;-1;-1;Diospolis Mikra-Thebai
+152;150;major_river;1521;-1;-1;-1;-1;Latopolis-Thebai
+151;150;major_river;1521;-1;-1;-1;-1;Apollonopolis-Thebai
+151;845;major_river;1521;-1;-1;-1;-1;Apollonopolis-Eileithiopolis
