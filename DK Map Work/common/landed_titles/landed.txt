@@ -7904,19 +7904,77 @@ k_egypt = {
 			color= { 215 210 0 }
 			color2= { 255 255 255 }
 			
-			egyptian = "Tp-jhw"
+			egyptian = Tpyhwt
 			
 			b_aphroditopolis_aphroditopolis = {
-				egyptian = "Tp-jhw"
+				egyptian = Tpyhwt
 			}
-			b_kerke_aphroditopolis = {
+			b_thmoinepsi_aphroditopolis = {
+				egyptian = Thmounepsi
 			}
 			b_parembole_aphroditopolis = {
 			}
-			b_ankyronpolis_aphroditopolis = {
-				egyptian = "Teudjoi"
+			b_koma_aphroditopolis = {
 			}
-			b_thmoinepsi_aphroditopolis = {
+			b_pouet_aphroditopolis = {
+			}
+			b_magdolos_aphroditopolis = {
+			}
+			b_kalamine_aphroditopolis = {
+			}
+		}
+		c_kynopolis = {
+			color= { 215 210 0 }
+			color2= { 255 255 255 }
+
+			egyptian = Saka
+
+			b_kynopolis_kynopolis = {
+				egyptian = Saka
+			}
+			b_taampemou_kynopolis = {
+				egyptian = Tampemou
+			}
+			b_psobthis_kynopolis = {
+				egyptian = Psobtis
+			}
+			b_senokomis_kynopolis = {
+				egyptian = "Shenout-n-kemaou"
+			}
+			b_palosis_kynopolis = {
+				egyptian = Pelosis
+			}
+			b_techtho_kynopolis = {
+				egyptian = Techthoi
+			}
+			b_ankyronpolis_kynopolis = {
+				egyptian = Taju-djayet
+			}
+		}
+		c_hermopolis = {
+			color= { 215 210 0 }
+			color2= { 255 255 255 }
+
+			egyptian = Khemenu
+
+			b_hermopolis_hermopolis = {
+				egyptian = Khemenu
+			}
+			b_peentalis_hermopolis = {
+				egyptian = Peentaleit
+			}
+			b_koussai_hermopolis = {
+				egyptian = Kos
+			}
+			b_senoabis_hermopolis = {
+				egyptian = Sinnoabis
+			}
+			b_tachlout_hermopolis = {
+				egyptian = Teslot
+			}
+			b_hakis_hermopolis = {
+			}
+			b_nagos_hermopolis = {
 			}
 		}
 		c_crocodilopolis = {
@@ -8020,22 +8078,31 @@ k_egypt = {
 			b_artapatou_oxyrhynchus = {
 			}
 		}
-		c_antinoopolis = {
+		c_thmoresis = {
 			color= { 215 180 0 }
 			color2= { 255 255 255 }
 			
 			egyptian = "Akhetaten"
 
 			holy_site = atenist
-			
-			b_antinoopolis_antinoopolis = {
+
+			b_thmoresis_thmoresis = {
+				latin = Antinoopolis
+				egyptian = Hirwe
 			}
-			b_thmoresis_antinoopolis = {
+			b_hakoreos_thmoresis = {
+				egyptian = Tenis
 			}
-			b_akhetaten_antinoopolis = {
+			b_alabastronpolis_thmoresis = {
+				egyptian = Hebenou
 			}
-			b_alabastronpolis_antinoopolis = {
-				egyptian = "Hbnw"
+			b_akhetaten_thmoresis = {
+			}
+			b_pescla_ano_thmoresis = {
+			}
+			b_poisarietemidos_thmoresis = {
+			}
+			b_petne_thmoresis = {
 			}
 		}
 		c_heliopolis = {

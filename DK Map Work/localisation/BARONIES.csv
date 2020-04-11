@@ -672,10 +672,26 @@ b_philadelpheia_memphis;Philadelpheia;;;;;;;;;;;;;;x
 b_serapeum_memphis;Serapeion;;;;;;;;;;;;;;x
 b_moiethymis_memphis;Moiethymis;;;;;;;;;;;;;;x
 b_aphroditopolis_aphroditopolis;Aphroditopolis;;;;;;;;;;;;;;x
-b_kerke_aphroditopolis;Kerke;;;;;;;;;;;;;;x
-b_parembole_aphroditopolis;Parembole;;;;;;;;;;;;;;x
-b_ankyronpolis_aphroditopolis;Ankyronpolis;;;;;;;;;;;;;;x
 b_thmoinepsi_aphroditopolis;Thmoinepsi;;;;;;;;;;;;;;x
+b_parembole_aphroditopolis;Parembole;;;;;;;;;;;;;;x
+b_koma_aphroditopolis;Koma;;;;;;;;;;;;;;x
+b_pouet_aphroditopolis;Pouet;;;;;;;;;;;;;;x
+b_magdolos_aphroditopolis;Magdolos;;;;;;;;;;;;;;x
+b_kalamine_aphroditopolis;Kalamine;;;;;;;;;;;;;;x
+b_kynopolis_kynopolis;Kynopolis;;;;;;;;;;;;;;x
+b_taampemou_kynopolis;Taampemou;;;;;;;;;;;;;;x
+b_psobthis_kynopolis;Psobthis;;;;;;;;;;;;;;x
+b_senokomis_kynopolis;Senokomis;;;;;;;;;;;;;;x
+b_palosis_kynopolis;Palosis;;;;;;;;;;;;;;x
+b_techtho_kynopolis;Techtho;;;;;;;;;;;;;;x
+b_ankyronpolis_kynopolis;Ankyronpolis;;;;;;;;;;;;;;x
+b_hermopolis_hermopolis;Hermopolis;;;;;;;;;;;;;;x
+b_peentalis_hermopolis;Peentalis;;;;;;;;;;;;;;x
+b_koussai_hermopolis;Koussai;;;;;;;;;;;;;;x
+b_senoabis_hermopolis;Senoabis;;;;;;;;;;;;;;x
+b_tachlout_hermopolis;Tachlout;;;;;;;;;;;;;;x
+b_hakis_hermopolis;Hakis;;;;;;;;;;;;;;x
+b_nagos_hermopolis;Nagos;;;;;;;;;;;;;;x
 b_crocodilopolis_crocodilopolis;Crocodilopolis;;;;;;;;;;;;;;x
 b_haueris_crocodilopolis;Haueris;;;;;;;;;;;;;;x
 b_piamouei_crocodilopolis;Piamouei;;;;;;;;;;;;;;x
@@ -3340,10 +3356,13 @@ b_gauraina_gauraina;Gauraina;;;;;;;;;;;;;x;
 b_taranta_gauraina;Taranta;;;;;;;;;;;;;x;
 b_euspena_gauraina;Euspena;;;;;;;;;;;;;x;
 b_dalanda_gauraina;Dalanda;;;;;;;;;;;;;x;
-b_antinoopolis_antinoopolis;Antinoopolis;;;;;;;;;;;;;x;
-b_thmoresis_antinoopolis;Thmoresis;;;;;;;;;;;;;x;
-b_akhetaten_antinoopolis;Akhetaten;;;;;;;;;;;;;x;
-b_alabastronpolis_antinoopolis;Alabastronpolis;;;;;;;;;;;;;x;
+b_thmoresis_thmoresis;Thmoresis;;;;;;;;;;;;;x;
+b_hakoreos_thmoresis;Hakareos;;;;;;;;;;;;;x;
+b_alabastronpolis_thmoresis;Alabastronpolis;;;;;;;;;;;;;x;
+b_akhetaten_thmoresis;Akhetaten;;;;;;;;;;;;;x;
+b_pescla_ano_thmoresis;Pescla Ano;;;;;;;;;;;;;x;
+b_poisarietemidos_thmoresis;Poisarietemidos;;;;;;;;;;;;;x;
+b_petne_thmoresis;Petne;;;;;;;;;;;;;x;
 b_diospolis_mikra_diospolis_mikra;Diospolis Mikra;;;;;;;;;;;;;x;
 b_memnonia_diospolis_mikra;Memnonia;;;;;;;;;;;;;x;
 b_abydos_diospolis_mikra;Abydos;;;;;;;;;;;;;x;

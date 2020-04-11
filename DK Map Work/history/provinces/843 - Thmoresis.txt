@@ -1,0 +1,21 @@
+# 843 - Thmoresis
+
+# County Title
+title = c_thmoresis
+
+# Settlements
+max_settlements = 4
+b_thmoresis_thmoresis = castle
+b_hakoreos_thmoresis = city
+b_alabastronpolis_thmoresis = city
+#b_akhetaten_thmoresis = temple
+#b_pescla_ano_thmoresis = city
+#b_poisarietemidos_thmoresis = castle
+#b_petne_thmoresis = city
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

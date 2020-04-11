@@ -1,0 +1,21 @@
+# 911 - Kynopolis
+
+# County Title
+title = c_kynopolis
+
+# Settlements
+max_settlements = 6
+b_kynopolis_kynopolis = castle
+b_taampemou_kynopolis = temple
+#b_psobthis_kynopolis = temple
+b_senokomis_kynopolis = city
+b_palosis_kynopolis = city
+#b_techtho_kynopolis = city
+b_ankyronpolis_kynopolis = castle
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

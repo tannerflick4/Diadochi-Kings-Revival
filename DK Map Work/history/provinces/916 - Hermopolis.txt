@@ -1,0 +1,21 @@
+# 916 - Hermopolis
+
+# County Title
+title = c_hermopolis
+
+# Settlements
+max_settlements = 7
+b_hermopolis_hermopolis = castle
+b_peentalis_hermopolis = city
+b_koussai_hermopolis = city
+b_senoabis_hermopolis = castle
+b_tachlout_hermopolis = temple
+#b_hakis_hermopolis = temple
+#b_nagos_hermopolis = castle
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province
