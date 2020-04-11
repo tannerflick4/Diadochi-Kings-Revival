@@ -1,0 +1,21 @@
+# 934 - Ptolemais
+
+# County Title
+title = c_ptolemais
+
+# Settlements
+max_settlements = 5
+b_ptolemais_ptolemais = castle
+#b_perdes_ptolemais = city
+b_abydos_ptolemais = temple
+#b_lepidoton_polis_ptolemais = city
+b_triphieion_ptolemais = castle
+#b_bompai_ptolemais = city
+b_itos_ptolemais = temple
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

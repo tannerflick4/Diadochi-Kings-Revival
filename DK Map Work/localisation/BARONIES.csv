@@ -722,15 +722,33 @@ b_senekeleu_oxyrhynchus;Senekeleu;;;;;;;;;;;;;;x
 b_artapatou_oxyrhynchus;Artapatou;;;;;;;;;;;;;;x
 b_qubba_qubba;Qubba;;;;;;;;;;;;;;x
 b_lykopolis_lykopolis;Lykopolis;;;;;;;;;;;;;;x
-b_antaiopolis_lykopolis;Antaiopolis;;;;;;;;;;;;;;x
-b_hermopolis_lykopolis;Hermopolis;;;;;;;;;;;;;;x
-b_hierakion_lykopolis;Hierakion;;;;;;;;;;;;;;x
-b_antinoopolis_lykopolis;Antinopolis;;;;;;;;;;;;;;x
+b_mouchis_lykopolis;Mounchis;;;;;;;;;;;;;;x
+b_erebe_lykopolis;Erebe;;;;;;;;;;;;;;x
+b_hypsele_lykopolis;Hypsele;;;;;;;;;;;;;;x
+b_pohe_lykopolis;Pohe;;;;;;;;;;;;;;x
+b_manbalot_lykopolis;Manbalot;;;;;;;;;;;;;;x
+b_telke_lykopolis;Telke;;;;;;;;;;;;;;x
+b_psinemoun_psinemoun;Psinemoun;;;;;;;;;;;;;;x
+b_apollonopolis_heptakomias_psinemoun;Apollonopolis Heptakomias;;;;;;;;;;;;;;x
+b_pteme_psinemoun;Pteme;;;;;;;;;;;;;;x
+b_aphroditopolis_psinemoun;Aphroditopolis;;;;;;;;;;;;;;x
+b_toeto_psinemoun;Toeto;;;;;;;;;;;;;;x
+b_psonis_psinemoun;Psonis;;;;;;;;;;;;;;x
+b_psinabla_psinemoun;Psinabla;;;;;;;;;;;;;;x
+b_ptolemais_ptolemais;Ptolemais;;;;;;;;;;;;;;x
+b_perdes_ptolemais;Perdes;;;;;;;;;;;;;;x
+b_abydos_ptolemais;Abydos;;;;;;;;;;;;;;x
+b_lepidoton_polis_ptolemais;Lepidoton Polis;;;;;;;;;;;;;;x
+b_triphieion_ptolemais;Triphieion;;;;;;;;;;;;;;x
+b_bompai_ptolemais;Bompai;;;;;;;;;;;;;;x
+b_itos_ptolemais;Itos;;;;;;;;;;;;;;x
 b_panopolis_panopolis;Panopolis;;;;;;;;;;;;;;x
-b_athribis_panopolis;Arthibis;;;;;;;;;;;;;;x
-b_psonis_panopolis;Psonis;;;;;;;;;;;;;;x
-b_selino_panopolis;Selino;;;;;;;;;;;;;;x
-b_ptolemais_panopolis;Ptolemais;;;;;;;;;;;;;;x
+b_polybiane_panopolis;Polybiane;;;;;;;;;;;;;x
+b_thmoo_panopolis;Thmoo;;;;;;;;;;;;;x
+b_apa_bsote_panopolis;Apa Bsote;;;;;;;;;;;;;x
+b_anba_bakhum_panopolis;Anba Bakhum;;;;;;;;;;;;;x
+b_sadalou_panopolis;Sadalou;;;;;;;;;;;;;x
+b_ibion_panopolis;Ibion;;;;;;;;;;;;;x
 b_kaine_kaine;Kaine;;;;;;;;;;;;;;x
 b_apollonopolis_kaine;Apollonopolis;;;;;;;;;;;;;;x
 b_tentyra_kaine;Tentyra;;;;;;;;;;;;;;x

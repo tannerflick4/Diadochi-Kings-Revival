@@ -1,0 +1,21 @@
+# 950 - Antaiopolis
+
+# County Title
+title = c_antaiopolis
+
+# Settlements
+max_settlements = 4
+b_antaiopolis_antaiopolis = castle
+b_hierakion_antaiopolis = castle
+b_muthis_antaiopolis = temple
+#b_selino_antaiopolis = city
+b_paphor_antaiopolis = temple
+#b_seuerou_antaiopolis = castle
+#b_taampeti_antaiopolis = city
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

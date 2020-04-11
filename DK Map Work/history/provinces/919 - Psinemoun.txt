@@ -1,0 +1,21 @@
+# 919 - Psinemoun
+
+# County Title
+title = c_psinemoun
+
+# Settlements
+max_settlements = 5
+b_psinemoun_psinemoun = castle
+b_apollonopolis_heptakomias_psinemoun = city
+#b_pteme_psinemoun = castle
+b_aphroditopolis_psinemoun = temple
+#b_toeto_psinemoun = city
+b_psonis_psinemoun = city
+#b_psinabla_psinemoun = castle
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

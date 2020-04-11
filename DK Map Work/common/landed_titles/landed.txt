@@ -8156,13 +8156,94 @@ k_egypt = {
 			b_lykopolis_lykopolis = {
 				egyptian = "Zawty"
 			}
-			b_hermopolis_lykopolis = {
-				egyptian = "Khmun"
+			b_mouchis_lykopolis = {
+				egyptian = "Per-mechi"
 			}
-			b_hierakion_lykopolis = {
+			b_erebe_lykopolis = {
 			}
-			b_toeto_lykopolis = {
-			}			
+			b_hypsele_lykopolis = {
+				egyptian = Shashotep
+			}
+			b_pohe_lykopolis = {
+			}
+			b_manbalot_lykopolis = {
+			}
+			b_telke_lykopolis = {
+			}
+		}
+		c_antaiopolis = {
+			color= { 225 225 0 }
+			color2= { 255 255 255 }
+			
+			egyptian = Tjebou
+			
+			b_antaiopolis_antaiopolis = {
+				egyptian = Tjebou
+			}
+			b_hierakion_antaiopolis = {
+			}
+			b_muthi_antaiopolis = {
+			}
+			b_selino_antaiopolis = {
+			}
+			b_paphor_antaiopolis = {
+			}
+			b_seuerou_antaiopolis = {
+			}
+			b_taampeti_antaiopolis = {
+			}
+		}
+		c_psinemoun = {
+			color= { 225 225 0 }
+			color2= { 255 255 255 }
+			
+			egyptian = Psimou
+			
+			b_psinemoun_psinemoun = {
+				egyptian = Psimou
+			}
+			b_apollonopolis_heptakomias_psinemoun = {
+				egyptian = Sbeht
+			}
+			b_pteme_psinemoun = {
+			}
+			b_aphroditopolis_psinemoun = {
+				egyptian = "Per-Wadjet"
+			}
+			b_toeto_psinemoun = {
+			}
+			b_psonis_psinemoun = {
+				egyptian = "Per-Soun"
+			}
+			b_psinabla_psinemoun = {
+				egyptian = Psinabele
+			}
+		}
+		c_ptolemais = {
+			color= { 225 225 0 }
+			color2= { 255 255 255 }
+			
+			egyptian = Psoi
+
+			b_ptolemais_ptolemais = {
+				egyptian = Psoi
+			}
+			b_perdes_ptolemais = {
+			}
+			b_abydos_ptolemais = {
+				egyptian = Abdju
+			}
+			b_lepidoton_polis_ptolemais = {
+			}
+			b_triphieion_ptolemais = {
+				egyptian = "Hout-Repyt"
+			}
+			b_bompai_ptolemais = {
+				egyptian = "Per-Boupahe"
+			}
+			b_itos_ptolemais = {
+				egyptian = Itou
+			}
 		}
 		c_panopolis = {
 			color= { 215 225 10 }
@@ -8173,12 +8254,17 @@ k_egypt = {
 			b_panopolis_panopolis = {
 				egyptian = "Khent-Min"
 			}
-			b_selino_panopolis = {
+			b_polybiane_panopolis = {
 			}
-			b_muthis_panopolis = {
+			b_thmoo_panopolis = {
 			}
-			b_antaiopolis_panopolis = {
-				egyptian = "Tjebu"
+			b_apa_bsote_panopolis = {
+			}
+			b_anba_bakhum_panopolis = {
+			}
+			b_sadalou_panopolis = {
+			}
+			b_ibion_panopolis = {
 			}
 		}
 		c_kaine = {
