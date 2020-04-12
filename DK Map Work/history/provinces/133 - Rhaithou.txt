@@ -1,0 +1,21 @@
+# 133 - Rhaithou
+
+# County Title
+title = c_rhaithou
+
+# Settlements
+max_settlements = 4
+b_rhaithou_rhaithou = tribal
+#b_nuweiba_rhaithou = city
+#b_tou_batou_rhaithou = temple
+b_tholas_rhaithou = temple
+b_horeb_rhaithou = temple
+#b_mashraba_rhaithou = city
+#b_hucera_rhaithou = castle
+
+# Misc
+culture = nabataean
+religion = arabic_main
+
+# History
+# Can be filled when things change around the province

@@ -8373,7 +8373,8 @@ k_egypt = {
 			}
 			b_kontra_latopolis_thebes_egypt = {
 			}
-			b_phanou_thebes_egypt
+			b_phanou_thebes_egypt = {
+			}
 		}
 		c_latopolis = {
 			color= { 200 165 10 }
@@ -11960,20 +11961,55 @@ k_nabataea = {
 			b_rhaithou_rhaithou = {
 				egyptian = "Dw Mafkat"
 			}
-			b_pharan_rhaithou = {
+			b_nuweiba_rhaithou = {
 			}
-			b_arandara_rhaithou = {
+			b_tou_batou_rhaithou = {
+			}
+			b_tholas_rhaithou = {
+			}
+			b_horeb_rhaithou = {
+			}
+			b_mashraba_rhaithou = {
+			}
+			b_hucera_rhaithou = {
 			}
 		}
-		c_aelana = {
+		c_arandara = {
+			color= { 190 150 25 }
+			color2= { 255 255 255 }
+		
+			b_arandara_arandara = {
+			}
+			b_pharan_arandara = {
+			}
+			b_rephidim_arandara = {
+			}
+			b_khadim_arandara = {
+			}
+			b_mukkatab_arandara = {
+			}
+			b_marah_arandara = {
+			}
+			b_zerdai_arandara = {
+			}
+		}
+		c_ailana = {
 			color= { 200 160 25 }
 			color2= { 255 255 255 }
 	
-			b_aelana_aelana = {
+			b_ailana_ailana = {
 			}
-			b_sobata_aelana = {
+			b_arieldela_ailana = {
 			}
-			b_eboda_aelana = {
+			b_bossia_ailana = {
+			}
+			b_gypsaria_ailana = {
+			}
+			b_timnah_ailana = {
+			}
+			b_mulgham_ailana = {
+			}
+			b_tuweiba_ailana = {
 			}
 		}
 	}
@@ -14469,361 +14505,6 @@ k_raetia = {
 
 	capital = 437 # Iuvavum (Change to Augusta Vindelicorum)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	}
 	d_raetia = {
 		color= { 50 200 25 }
 		color2= { 255 255 255 }

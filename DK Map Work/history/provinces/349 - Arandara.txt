@@ -1,0 +1,21 @@
+# 349 - Arandara
+
+# County Title
+title = c_arandara
+
+# Settlements
+max_settlements = 4
+b_arandara_arandara = tribal
+#b_pharan_arandara = castle
+b_rephidim_arandara = temple
+#b_khadim_arandara = castle
+#b_mukkatab_arandara = city
+#b_marah_arandara = city
+#b_zerdai_arandara = castle
+
+# Misc
+culture = nabataean
+religion = arabic_main
+
+# History
+# Can be filled when things change around the province
