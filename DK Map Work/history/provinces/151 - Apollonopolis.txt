@@ -1,0 +1,21 @@
+# 151 - Apollonopolis
+
+# County Title
+title = c_apollonopolis
+
+# Settlements
+max_settlements = 4
+b_apollonopolis_apollonopolis = castle
+b_hierakonpolis_apollonopolis = temple
+b_kos_apollonopolis = city
+#b_mounchis_apollonopolis = castle
+#b_kella_apollonopolis = city
+#b_akanthonpolis_apollonopolis = castle
+#b_peme_apollonopolis = city
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

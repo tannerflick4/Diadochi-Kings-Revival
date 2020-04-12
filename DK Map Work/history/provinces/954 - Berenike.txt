@@ -1,0 +1,21 @@
+# 954 - Berenike
+
+# County Title
+title = c_berenike
+
+# Settlements
+max_settlements = 3
+b_berenike_berenike = castle
+b_siket_berenike = city
+#b_lahami_berenike = castle
+#b_hydreuma_berenike = castle
+b_lepte_akra_berenike = city
+#b_kabalsi_berenike = castle
+#b_apollonos_berenike = temple
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

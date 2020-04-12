@@ -779,11 +779,18 @@ b_hermonthis_latopolis;Hermonthis;;;;;;;;;;;;;;x
 b_boucheion_latopolis;Boucheion;;;;;;;;;;;;;;x
 b_syene_syene;Syene;;;;;;;;;;;;;;x
 b_omboi_syene;Omboi;;;;;;;;;;;;;;x
+b_setis_syene;Setis;;;;;;;;;;;;;;x
 b_elephantine_syene;Elephantine;;;;;;;;;;;;;;x
+b_philai_syene;Philai;;;;;;;;;;;;;;x
+b_abaton_syene;Abaton;;;;;;;;;;;;;;x
 b_telelis_syene;Telelis;;;;;;;;;;;;;;x
-b_nechesia_berenike;Nechesia;;;;;;;;;;;;;;x
-b_apollonos_berenike;Apollonios;;;;;;;;;;;;;;x
 b_berenike_berenike;Berenike;;;;;;;;;;;;;;x
+b_siket_berenike;Siket;;;;;;;;;;;;;;x
+b_lahami_berenike;Lahami;;;;;;;;;;;;;;x
+b_hydreuma_berenike;Hydreuma;;;;;;;;;;;;;;x
+b_lepte_akra_berenike;Lepte Akra;;;;;;;;;;;;;;x
+b_kabalsi_berenike;Kabalsi;;;;;;;;;;;;;;x
+b_apollonos_berenike;Apollonos;;;;;;;;;;;;;;x
 b_hibis_hibis;Hibis;;;;;;;;;;;;;;x
 b_parammon_hibis;Parammon;;;;;;;;;;;;;;x
 b_tchonemyris_hibis;Tchonemyris;;;;;;;;;;;;;;x
@@ -3399,8 +3406,19 @@ b_mouchonsis_diospolis_mikra;Mounchonsis;;;;;;;;;;;;;x;
 b_chenoboskion_diospolis_mikra;Chenoboskion;;;;;;;;;;;;;x;
 b_tentyra_diospolis_mikra;Tentyra;;;;;;;;;;;;;x;
 b_eileithiopolis_eileithiopolis;Eileithiopolis;;;;;;;;;;;;;x;
-b_contra_apollonos_eileithiopolis;Contra Apollonos;;;;;;;;;;;;;x;
-b_contra_latopolin_eileithiopolis;Contra Latopolin;;;;;;;;;;;;;x;
+b_kontra_apollonopolis_eileithiopolis;Kontra Apollonopolis;;;;;;;;;;;;;x;
+b_hyreuma_eileithiopolis;Hydreuma;;;;;;;;;;;;;x;
+b_phalakro_eileithiopolis;Phalakro;;;;;;;;;;;;;x;
+b_aristonis_eileithiopolis;Aristonis;;;;;;;;;;;;;x;
+b_philoteris_eileithiopolis;Philoteris;;;;;;;;;;;;;x;
+b_kelol_eileithiopolis;Kelol;;;;;;;;;;;;;x;
+b_apollonopolis_apollonopolis;Apollonopolis;;;;;;;;;;;;;x;
+b_hierakonpolis_apollonopolis;Hierakonpolis;;;;;;;;;;;;;x;
+b_kos_apollonopolis;Kos;;;;;;;;;;;;;x;
+b_mounchis_apollonopolis;Mounchis;;;;;;;;;;;;;x;
+b_kella_apollonopolis;Kella;;;;;;;;;;;;;x;
+b_akanthonpolis_apollonopolis;Akanthonpolis;;;;;;;;;;;;;x;
+b_peme_apollonopolis;Peme;;;;;;;;;;;;;x;
 b_karnak_thebes_egypt;Ipet-Isut;;;;;;;;;;;;;x;
 b_luxor_temple_thebes_egypt;Ipet-Resyt;;;;;;;;;;;;;x;
 b_kastron_thebon_thebes_egypt;Kastron Thebon;;;;;;;;;;;;;x;

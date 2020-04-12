@@ -8420,10 +8420,19 @@ k_egypt = {
 				egyptian = "Swenett"
 			}
 			b_omboi_syene = {
-				egyptian = "Nubt"
+				egyptian = Noubt
+			}
+			b_setis_syene = {
+				egyptian = Satis
 			}
 			b_elephantine_syene = {
-				egyptian = "Abu"
+				egyptian = Ieb
+			}
+			b_philai_syene = {
+				egyptian = Pilak
+			}
+			b_abaton_syene = {
+				egyptian = "Pai-iou-ouab"
 			}
 			b_telelis_syene = {
 			}
@@ -8432,11 +8441,19 @@ k_egypt = {
 			color= { 190 175 10 }
 			color2= { 255 255 255 }
 			
-			b_nechesia_berenike = {
+			b_berenike_berenike = {
+			}
+			b_siket_berenike = {
+			}
+			b_lahami_berenike = {
+			}
+			b_hydreuma_berenike = {
+			}
+			b_lepte_akra_berenike = {
+			}
+			b_kabalsi_berenike = {
 			}
 			b_apollonos_berenike = {
-			}
-			b_berenike_berenike = {
 			}
 		}
 		c_eileithiopolis = {
@@ -8448,9 +8465,40 @@ k_egypt = {
 			b_eileithiopolis_eileithiopolis = {
 				egyptian = "Nekheb"
 			}
-			b_contra_apollonos_eileithiopolis = {
+			b_kontra_apollonopolis_eileithiopolis = {
 			}
-			b_contra_latopolin_eileithiopolis = {
+			b_hyreuma_eileithiopolis = {
+			}
+			b_phalakro_eileithiopolis = {
+			}
+			b_aristonis_eileithiopolis = {
+			}
+			b_philoteris_eileithiopolis = {
+			}
+			b_kelol_eileithiopolis = {
+			}
+		}
+		c_apollonopolis = {
+			color= { 210 165 10 }
+			color2= { 255 255 255 }
+			
+			egyptian = Behdet
+			
+			b_apollonopolis_apollonopolis = {
+				egyptian = Behdet
+			}
+			b_hierakonpolis_apollonopolis = {
+				egyptian = Nekhen
+			}
+			b_kos_apollonopolis = {
+			}
+			b_mounchis_apollonopolis = {
+			}
+			b_kella_apollonopolis = {
+			}
+			b_akanthonpolis_apollonopolis = {
+			}
+			b_peme_apollonopolis = {
 			}
 		}
 	}
