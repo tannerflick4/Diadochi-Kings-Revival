@@ -371,10 +371,6 @@ b_panephysis_tanis
 b_leontopolis_tanis
 b_isieion_tanis
 b_pharbaithos_tanis
-b_thambol_tanis
-b_thmouis_tanis
-
-b_gerra_pelusium
 
 b_bouto_heliopolis
 b_skenai_mandrai_heliopolis
@@ -385,42 +381,28 @@ b_toachris_memphis
 b_takyris_memphis
 b_thmoiamounis_memphis
 b_meidum_memphis
-b_akanthonpolis_memphis
-b_peme_memphis
 b_paabeithis_memphis
 b_panarachthis_memphis
 
 b_tanis_crocodilopolis
 b_soknopaiou_nesos_crocodilopolis
-b_sele_crocodilopolis
-b_polydeuka_crocodilopolis
 b_thebetny_crocodilopolis
 b_teleithis_crocodilopolis
 b_ibion_eikosipentarouron_crocodilopolis
 b_kerkeosiris_crocodilopolis
 b_theodosioupolis_crocodilopolis
 b_kerkethoeris_crocodilopolis
-b_magdola_crocodilopolis
-b_euhemereia_crocodilopolis
-b_philoteris_crocodilopolis
-b_kelol_crocodilopolis
 b_perkethaut_crocodilopolis
-b_phanou_crocodilopolis
 b_phentemin_crocodilopolis
 b_psenaryo_crocodilopolis
 b_labyrinthos_crocodilopolis
 b_andrianton_crocodilopolis
 b_metrodoron_crocodilopolis
-b_neiloupolis_crocodilopolis
-b_karanis_crocodilopolis
 b_tamais_crocodilopolis
 b_narmouthis_crocodilopolis
 b_bakchias_crocodilopolis
 b_pantikou_crocodilopolis
 
-b_kos_herakleopolis
-b_mounchis_herakleopolis
-b_kella_herakleopolis
 b_nino_herakleopolis
 b_tarousebt_herakleopolis
 b_papa_herakleopolis
@@ -428,8 +410,6 @@ b_sitheus_herakleopolis
 b_tilothis_herakleopolis
 b_pyrgotos_herakleopolis
 b_tinteris_herakleopolis
-b_noeris_herakleopolis
-b_alilais_herakleopolis
 b_tsimistea_herakleopolis
 b_talao_herakleopolis
 b_isieion_kato_herakleopolis
@@ -437,13 +417,7 @@ b_psychis_herakleopolis
 b_takona_herakleopolis
 b_fenchi_herakleopolis
 
-b_tmoo_oxyrhynchus
-b_terbe_oxyrhynchus
-b_berky_oxyrhynchus
-
 b_mataei_kynopolis
-b_spania_kynopolis
-b_temsiris_kynopolis
 b_somolo_kynopolis
 b_mnachis_kynopolis
 b_pangouleeiou_kynopolis
@@ -454,24 +428,17 @@ b_terythis_kynopolis
 b_takolkeilis_kynopolis
 b_taamorou_kynopolis
 b_molothis_kynopolis
-b_pakerke_kynopolis
 b_hipponon_kynopolis
 b_hwt-nsw_kynopolis
 
 b_moira_hermopolis
-b_esou_hermopolis
-b_patrimon_hermopolis
 b_kleopatra_hermopolis
 b_thallos_hermopolis
 b_temseu_skordon_hermopolis
 b_ereithis_hermopolis
 b_pallytis_hermopolis
-b_pokis_hermopolis
-b_paploou_hermopolis
 b_titkois_hermopolis
 b_micholis_hermopolis
-b_somou_hermopolis
-b_ibion_hermopolis
 b_tachoi_hermopolis
 b_senkyrkis_hermopolis
 b_manlau_hermopolis
@@ -480,8 +447,6 @@ b_enseu_hermopolis
 b_kleopatris_hermopolis
 b_thynis_hermopolis
 b_psothis_hermopolis
-b_houor_hermopolis
-b_psoubai_hermopolis
 b_tlethmis_hermopolis
 b_bousiris_hermopolis
 
@@ -489,3 +454,5 @@ b_apotheke_psinemoun
 b_phthla_psinemoun
 
 b_this_ptolemais
+
+b_isieiou_oros_syene

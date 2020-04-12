@@ -425,19 +425,50 @@ technology = {
 # Gaul
 technology = {
 	titles = {
+		# NARBONENSIS
 		d_gallia_transalpina
 		d_gallia_inter_fluvio
-		d_helvetia
-		d_raetia
 		d_alpes_cottiae
-		d_alpes_poeninae
-		d_alpes_vennonae
-		d_alpes_raetica
 		d_gallia_graecia
 		d_setius
 		d_tamis
+
+		# AQUITANIA
 		d_garumna
 		d_aturus
+		d_arbatilicum
+		d_duranius
+		d_triobris
+		d_crosa
+
+		# LUGDUNENSIS
+		d_arar
+		d_icauna
+		d_liger
+		d_armorica
+		d_olina
+
+		# HELVETIA
+		d_dubis
+		d_iura
+		d_vosegus
+		d_lingonia
+		d_rhenus
+		d_alpes_poeninae
+
+		# BELGICA
+		d_samara
+		d_scaldis
+		d_mosa
+		d_isara
+		d_sabis
+		d_mosella
+		d_nida
+
+		# RAETIA
+		d_raetia
+		d_alpes_vennonae
+		d_alpes_raetica
 	}
 	417 = {
 		military = 1
