@@ -1,0 +1,21 @@
+# 881 - Klimax
+
+# County Title
+title = c_klimax
+
+# Settlements
+max_settlements = 2
+b_klimax_klimax = castle
+b_alexandrou_parembole_klimax = city
+#b_thambol_klimax = castle
+#b_thmouis_klimax = temple
+#b_gerra_klimax = castle
+#b_magdola_klimax = city
+#b_euhemereia_klimax = city
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,21 @@
+# 882 - Oasis Parva
+
+# County Title
+title = c_oasis_parva
+
+# Settlements
+max_settlements = 2
+b_oasis_parva_oasis_parva = castle
+b_harra_oasis_parva = city
+#b_tablamon_oasis_parva = city
+#b_houor_oasis_parva = temple
+#b_psoubai_oasis_parva = castle
+#b_spania_oasis_parva = castle
+#b_temsiris_oasis_parva = city
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

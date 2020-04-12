@@ -793,14 +793,25 @@ b_kabalsi_berenike;Kabalsi;;;;;;;;;;;;;;x
 b_apollonos_berenike;Apollonos;;;;;;;;;;;;;;x
 b_hibis_hibis;Hibis;;;;;;;;;;;;;;x
 b_parammon_hibis;Parammon;;;;;;;;;;;;;;x
+b_perousekh_hibis;Perousekh;;;;;;;;;;;;;;x
 b_tchonemyris_hibis;Tchonemyris;;;;;;;;;;;;;;x
+b_beleida_hibis;Beleida;;;;;;;;;;;;;;x
+b_somou_hibis;Somou;;;;;;;;;;;;;;x
+b_ibion_hibis;Ibion;;;;;;;;;;;;;;x
 b_kysis_kysis;Kysis;;;;;;;;;;;;;;x
+b_pege_sykaminia_kysis;Pege Sykaminia;;;;;;;;;;;;;;x
+b_baris_kysis;Baris;;;;;;;;;;;;;;x
+b_pmounesis_kysis;Pmounesis;;;;;;;;;;;;;;x
 b_tabennese_kysis;Tabennese;;;;;;;;;;;;;;x
-b_mounesis_kysis;Mounesis;;;;;;;;;;;;;;x
+b_badaran_kysis;Badaran;;;;;;;;;;;;;;x
+b_pakerke_kysis;Pakerke;;;;;;;;;;;;;;x
 b_mothis_mothis;Mothis;;;;;;;;;;;;;;x
+b_sioua_mothis;Sioua;;;;;;;;;;;;;;x
 b_trimithis_mothis;Trimithis;;;;;;;;;;;;;;x
+b_kalamon_mothis;Kalamon;;;;;;;;;;;;;;x
 b_kellis_mothis;Kellis;;;;;;;;;;;;;;x
 b_thenete_mothis;Thenete;;;;;;;;;;;;;;x
+b_balat_mothis;Balat;;;;;;;;;;;;;;x
 b_antiphrai_antiphrai;Antiphrai;;;;;;;;;;;;;;x
 b_pnigeus_antiphrai;Pnigeus;;;;;;;;;;;;;;x
 b_derras_antiphrai;Derras;;;;;;;;;;;;;;x
@@ -3505,11 +3516,19 @@ b_kissan_kissan;Kissan;;;;;;;;;;;;;x;
 b_baracum_baracum;Baracum;;;;;;;;;;;;;x;
 b_waddan_waddan;Waddan;;;;;;;;;;;;;x;
 b_ammon_ammon;Ammon;;;;;;;;;;;;;x;
-b_giarabub_ammon;Giarabub;;;;;;;;;;;;;x;
-b_ghargart_ammon;Ghargart;;;;;;;;;;;;;x;
 b_sitra_ammon;Sitra;;;;;;;;;;;;;x;
+b_mota_ammon;Mota;;;;;;;;;;;;;x;
+b_abu_ammon;Abu;;;;;;;;;;;;;x;
+b_schiatuh_ammon;Schiatuh;;;;;;;;;;;;;x;
+b_sele_ammon;Sele;;;;;;;;;;;;;x;
+b_polydeuka_ammon;Polydeuka;;;;;;;;;;;;;x;
 b_klimax_klimax;Klimax;;;;;;;;;;;;;x;
 b_alexandrou_parembole_klimax;Alexandrou Parembole;;;;;;;;;;;;;x;
+b_thambol_klimax;Thambol;;;;;;;;;;;;;x;
+b_thmouis_klimax;Thmouis;;;;;;;;;;;;;x;
+b_gerra_klimax;Gerra;;;;;;;;;;;;;x;
+b_magdola_klimax;Magdola;;;;;;;;;;;;;x;
+b_euhemereia_klimax;Euhemereia;;;;;;;;;;;;;x;
 b_augila_augila;Augila;;;;;;;;;;;;;x;
 b_gialo_augila;Gialo;;;;;;;;;;;;;x;
 b_gicherra_augila;Gicherra;;;;;;;;;;;;;x;
@@ -3568,10 +3587,20 @@ b_tmessa_zuila;Tmessa;;;;;;;;;;;;;x;
 b_tazerbo_tazerbo;Tazerbo;;;;;;;;;;;;;x;
 b_koufra_koufra;Koufra;;;;;;;;;;;;;x;
 b_buma_koufra;Buma;;;;;;;;;;;;;x;
-b_ain_bishay_trinitheos;Ain Bishay;;;;;;;;;;;;;x;
-b_trinitheos_trinitheos;Trinitheos;;;;;;;;;;;;;x;
-b_mandishah_parva;Mandishah;;;;;;;;;;;;;x;
-b_parva_parva;Parva;;;;;;;;;;;;;x;
+b_oasis_trinitheos_oasis_trinitheos;Oasis Trinitheos;;;;;;;;;;;;;x;
+b_besai_oasis_trinitheos;Besai;;;;;;;;;;;;;x;
+b_pokis_oasis_trinitheos;Pokis;;;;;;;;;;;;;x;
+b_paploou_oasis_trinitheos;Paploou;;;;;;;;;;;;;x;
+b_tmoo_oasis_trinitheos;Tmoo;;;;;;;;;;;;;x;
+b_terbe_oasis_trinitheos;Terbe;;;;;;;;;;;;;x;
+b_berky_oasis_trinitheos;Berky;;;;;;;;;;;;;x;
+b_oasis_parva_oasis_parva;Oasis Parva;;;;;;;;;;;;;x;
+b_harra_oasis_parva;Harra;;;;;;;;;;;;;x;
+b_tablamon_oasis_parva;Tablamon;;;;;;;;;;;;;x;
+b_houor_oasis_parva;Houor;;;;;;;;;;;;;x;
+b_psoubai_oasis_parva;Psoubai;;;;;;;;;;;;;x;
+b_spania_oasis_parva;Spania;;;;;;;;;;;;;x;
+b_temsiris_oasis_parva;Temsiris;;;;;;;;;;;;;x;
 b_praesidium_praesidium;Praesidium;;;;;;;;;;;;;x;
 b_ostium_praesidium;Ostium;;;;;;;;;;;;;x;
 b_ad_rubras_praesidium;Ad Rubras;;;;;;;;;;;;;x;

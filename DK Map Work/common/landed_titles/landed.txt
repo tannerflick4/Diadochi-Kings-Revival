@@ -15901,7 +15901,15 @@ k_oasis = {
 			}
 			b_parammon_hibis = {
 			}
+			b_perousekh_hibis = {
+			}
 			b_tchonemyris_hibis = {
+			}
+			b_beleida_hibis = {
+			}
+			b_somou_hibis = {
+			}
+			b_ibion_hibis = {
 			}
 		}
 		c_kysis = {
@@ -15913,9 +15921,17 @@ k_oasis = {
 			b_kysis_kysis = {
 				egyptian = Kaish
 			}
+			b_pege_sykaminia_kysis = {
+			}
+			b_baris_kysis = {
+			}
+			b_pmounesis_kysis = {
+			}
 			b_tabennese_kysis = {
 			}
-			b_mounesis_kysis = {
+			b_badaran_kysis = {
+			}
+			b_pakerke_kysis = {
 			}
 		}
 		c_mothis = {
@@ -15927,11 +15943,17 @@ k_oasis = {
 			b_mothis_mothis = {
 				egyptian = "Per Mut"
 			}
+			b_sioua_mothis = {
+			}
 			b_trimithis_mothis = {
+			}
+			b_kalamon_mothis = {
 			}
 			b_kellis_mothis = {
 			}
 			b_thenete_mothis = {
+			}
+			b_balat_mothis = {
 			}
 		}
 	}
@@ -15947,11 +15969,17 @@ k_oasis = {
 			
 			b_ammon_ammon = {
 			}
-			b_giarabub_ammon = {
-			}
-			b_ghargart_ammon = {
-			}
 			b_sitra_ammon = {
+			}
+			b_mota_ammon = {
+			}
+			b_abu_ammon = {
+			}
+			b_schiatuh_ammon = {
+			}
+			b_sele_ammon = {
+			}
+			b_polydeuka_ammon = {
 			}
 		}
 		c_klimax = {
@@ -16003,10 +16031,20 @@ k_oasis = {
 			
 			egyptian = Djesdjes
 			
-			b_parva_parva = {
+			b_oasis_parva_oasis_parva = {
 				egyptian = Djesdjes
 			}
-			b_mandishah_parva = {
+			b_harra_oasis_parva = {
+			}
+			b_tablamon_oasis_parva = {
+			}
+			b_houor_oasis_parva = {
+			}
+			b_psoubai_oasis_parva = {
+			}
+			b_spania_oasis_parva = {
+			}
+			b_temsiris_oasis_parva = {
 			}
 		}
 		c_oasis_trinitheos = {
@@ -16015,10 +16053,20 @@ k_oasis = {
 			
 			egyptian = Ta-jhw
 			
-			b_trinitheos_trinitheos = {
+			b_oasis_trinitheos_oasis_trinitheos = {
 				egyptian = Ta-jhw
 			}
-			b_ain_bishay_trinitheos = {
+			b_besai_oasis_trinitheos = {
+			}
+			b_pokis_oasis_trinitheos = {
+			}
+			b_paploou_oasis_trinitheos = {
+			}
+			b_tmoo_oasis_trinitheos = {
+			}
+			b_terbe_oasis_trinitheos = {
+			}
+			b_berky_oasis_trinitheos = {
 			}
 		}
 	}
