@@ -8267,30 +8267,45 @@ k_egypt = {
 			b_ibion_panopolis = {
 			}
 		}
-		c_kaine = {
+		c_koptos = {
 			color= { 215 235 0 }
 			color2= { 255 255 255 }
 			
 			egyptian = "Gebtu"
 			
-			b_kaine_kaine = {
+			b_koptos_koptos = {
+				egyptian = Gebtu
 			}
-			b_apollonopolis_kaine = {
-				egyptian = "Gesy"
+			b_kaine_koptos = {
 			}
-			b_coptos_kaine = {
-				egyptian = "Gebtu"
+			b_qala_koptos = {
 			}
-			b_thbakat_kaine = {
+			b_matula_koptos = {
+			}
+			b_phoinikon_koptos = {
+			}
+			b_neiloupolis_koptos = {
+			}
+			b_karanis_koptos = {
 			}
 		}
-		c_persou = {
-			color= { 235 235 0 }
+		c_thbakat = {
+			color= { 215 235 0 }
 			color2= { 255 255 255 }
 			
-			b_persou_persou = {
+			b_thbakat_thbakat = {
 			}
-			b_myos_hormos = {
+			b_tabennisis_thbakat = {
+			}
+			b_bau_thbakat = {
+			}
+			b_esou_thbakat = {
+			}
+			b_patrimon_thbakat = {
+			}
+			b_noeris_thbakat = {
+			}
+			b_alilais_thbakat = {
 			}
 		}
 		c_diospolis_mikra = {
@@ -8306,23 +8321,20 @@ k_egypt = {
 			b_diospolis_mikra_diospolis_mikra = {
 				egyptian = "Hut-Sekhem"
 			}
-			b_memnonia_diospolis_mikra = { # Ramesseum
-				egyptian = "Ramesseum"
+			b_ozymandias_diospolis_mikra = {
+				egyptian = "Usermaatra-setepenra"
 			}
-			b_abydos_diospolis_mikra = {
-				egyptian = "Abedju"
+			b_pallas_diospolis_mikra = {
 			}
-			b_this_diospolis_mikra = {
-				egyptian = "Tayini"
+			b_tsenti_diospolis_mikra = {
 			}
-			b_ptolemais_hermeiou_diospolis_mikra = {
+			b_mouchonsis_diospolis_mikra = {
 			}
-		}
-		c_qubba = {
-			color= { 225 205 10 }
-			color2= { 255 255 255 }
-			
-			b_qubba_qubba = {
+			b_chenoboskion_diospolis_mikra = {
+				egyptian = Sheneset
+			}
+			b_tentyra_diospolis_mikra = {
+				egyptian = Tantnetert
 			}
 		}
 	}
@@ -8347,18 +8359,21 @@ k_egypt = {
 			b_thebes_thebes_egypt = {
 				egyptian = "Waset"
 			}
-			b_petemout_thebes_egypt = {
+			b_apollonopolis_parva_thebes_egypt = {
+				egyptian = Ges
 			}
-			b_touphion_thebes_egypt = {
+			b_kerameia_thebes_egypt = {
+				egyptian = "Per-Montou-neb-Maten"
 			}
-			b_karnak_thebes_egypt = {
+			b_diospolis_thebes_egypt = {
 				egyptian = "Ipet-Isut"
 			}
-			b_luxor_thebes_egypt = {
-				egyptian = "Ipet-Resyt"
+			b_touphion_thebes_egypt = {
+				egyptian = Djerty
 			}
-			b_kastron_thebon_thebes_egypt = {
+			b_kontra_latopolis_thebes_egypt = {
 			}
+			b_phanou_thebes_egypt
 		}
 		c_latopolis = {
 			color= { 200 165 10 }
@@ -8374,13 +8389,22 @@ k_egypt = {
 			b_latopolis_latopolis = {
 				egyptian = "Tasenet"
 			}
-			b_apollopolis_latopolis = {
-				egyptian = "Mesen"
+			b_phnoum_latopolis = {
 			}
-			b_hierakonpolis_latopolis = {
-				egyptian = "Nekhen"
+			b_asphynis_latopolis = {
+				egyptian = "Hout-Senefrou"
 			}
 			b_pathyris_latopolis = {
+				egyptian = "Per-Hathor"
+			}
+			b_terkythis_latopolis = {
+				egyptian = "Ioum-Iterou"
+			}
+			b_hermonthis_latopolis = {
+				egyptian = "Iounou-Montou"
+			}
+			b_boucheion_latopolis = {
+				egyptian = "Per-User-Bakh"
 			}
 		}
 		c_syene = {

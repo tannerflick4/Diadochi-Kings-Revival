@@ -742,6 +742,13 @@ b_lepidoton_polis_ptolemais;Lepidoton Polis;;;;;;;;;;;;;;x
 b_triphieion_ptolemais;Triphieion;;;;;;;;;;;;;;x
 b_bompai_ptolemais;Bompai;;;;;;;;;;;;;;x
 b_itos_ptolemais;Itos;;;;;;;;;;;;;;x
+b_thbakat_thbakat;Thbakat;;;;;;;;;;;;;;x
+b_tabennisis_thbakat;Tabennisis;;;;;;;;;;;;;;x
+b_bau_thbakat;Bau;;;;;;;;;;;;;;x
+b_esou_thbakat;Esou;;;;;;;;;;;;;;x
+b_patrimon_thbakat;Patrimon;;;;;;;;;;;;;;x
+b_noeris_thbakat;Noeris;;;;;;;;;;;;;;x
+b_alilais_thbakat;Alilais;;;;;;;;;;;;;;x
 b_panopolis_panopolis;Panopolis;;;;;;;;;;;;;;x
 b_polybiane_panopolis;Polybiane;;;;;;;;;;;;;x
 b_thmoo_panopolis;Thmoo;;;;;;;;;;;;;x
@@ -749,24 +756,27 @@ b_apa_bsote_panopolis;Apa Bsote;;;;;;;;;;;;;x
 b_anba_bakhum_panopolis;Anba Bakhum;;;;;;;;;;;;;x
 b_sadalou_panopolis;Sadalou;;;;;;;;;;;;;x
 b_ibion_panopolis;Ibion;;;;;;;;;;;;;x
-b_kaine_kaine;Kaine;;;;;;;;;;;;;;x
-b_apollonopolis_kaine;Apollonopolis;;;;;;;;;;;;;;x
-b_tentyra_kaine;Tentyra;;;;;;;;;;;;;;x
-b_diospolis_kaine;Diospolis;;;;;;;;;;;;;;x
-b_coptos_kaine;Coptos;;;;;;;;;;;;;;x
+b_koptos_koptos;Koptos;;;;;;;;;;;;;x
+b_kaine_koptos;Kaine;;;;;;;;;;;;;x
+b_qala_koptos;Qala;;;;;;;;;;;;;x
+b_matula_koptos;Matula;;;;;;;;;;;;;x
+b_phoinikon_koptos;Phoinikon;;;;;;;;;;;;;x
+b_neiloupolis_koptos;Neiloupolis;;;;;;;;;;;;;x
+b_karanis_koptos;Karanis;;;;;;;;;;;;;x
 b_thebes_thebes_egypt;Thebes;;;;;;;;;;;;;;x
-b_memnonia_thebes_egypt;Memnonia;;;;;;;;;;;;;;x
-b_hermonthis_thebes_egypt;Hermonthis;;;;;;;;;;;;;;x
-b_patheiris_thebes_egypt;Patheiris;;;;;;;;;;;;;;x
-b_touphion_thebes_egypt;Touphion;;;;;;;;;;;;;;x
+b_apollonopolis_parva_thebes_egypt;Apollonopolis Parva;;;;;;;;;;;;;;x
+b_kerameia_thebes_egypt;Kerameia;;;;;;;;;;;;;;x
 b_diospolis_thebes_egypt;Diospolis;;;;;;;;;;;;;;x
-b_persou_persou;Persou;;;;;;;;;;;;;;x
-b_myos_hormos;Myos Hormos;;;;;;;;;;;;;;x
+b_touphion_thebes_egypt;Touphion;;;;;;;;;;;;;;x
+b_kontra_latopolis_thebes_egypt;Kontra Latopolis;;;;;;;;;;;;;;x
+b_phanou_thebes_egypt;Phanou;;;;;;;;;;;;;;x
 b_latopolis_latopolis;Latopolis;;;;;;;;;;;;;;x
-b_apollopolis_latopolis;Apollopolis;;;;;;;;;;;;;;x
-b_hierakonpolis_latopolis;Hierakonpolis;;;;;;;;;;;;;;x
-b_eileithiaspolis_latopolis;Eileithiaspolis;;;;;;;;;;;;;;x
 b_phnoum_latopolis;Phnoum;;;;;;;;;;;;;;x
+b_asphynis_latopolis;Asphynis;;;;;;;;;;;;;;x
+b_pathyris_latopolis;Pathyris;;;;;;;;;;;;;;x
+b_terkythis_latopolis;Terkythis;;;;;;;;;;;;;;x
+b_hermonthis_latopolis;Hermonthis;;;;;;;;;;;;;;x
+b_boucheion_latopolis;Boucheion;;;;;;;;;;;;;;x
 b_syene_syene;Syene;;;;;;;;;;;;;;x
 b_omboi_syene;Omboi;;;;;;;;;;;;;;x
 b_elephantine_syene;Elephantine;;;;;;;;;;;;;;x
@@ -3382,14 +3392,15 @@ b_pescla_ano_thmoresis;Pescla Ano;;;;;;;;;;;;;x;
 b_poisarietemidos_thmoresis;Poisarietemidos;;;;;;;;;;;;;x;
 b_petne_thmoresis;Petne;;;;;;;;;;;;;x;
 b_diospolis_mikra_diospolis_mikra;Diospolis Mikra;;;;;;;;;;;;;x;
-b_memnonia_diospolis_mikra;Memnonia;;;;;;;;;;;;;x;
-b_abydos_diospolis_mikra;Abydos;;;;;;;;;;;;;x;
-b_this_diospolis_mikra;This;;;;;;;;;;;;;x;
-b_ptolemais_hermeiou_diospolis_mikra;Ptolemais Hermeiou;;;;;;;;;;;;;x;
+b_ozymandias_diospolis_mikra;Ozymandias;;;;;;;;;;;;;x;
+b_pallas_diospolis_mikra;Pallas;;;;;;;;;;;;;x;
+b_tsenti_diospolis_mikra;Tsenti;;;;;;;;;;;;;x;
+b_mouchonsis_diospolis_mikra;Mounchonsis;;;;;;;;;;;;;x;
+b_chenoboskion_diospolis_mikra;Chenoboskion;;;;;;;;;;;;;x;
+b_tentyra_diospolis_mikra;Tentyra;;;;;;;;;;;;;x;
 b_eileithiopolis_eileithiopolis;Eileithiopolis;;;;;;;;;;;;;x;
 b_contra_apollonos_eileithiopolis;Contra Apollonos;;;;;;;;;;;;;x;
 b_contra_latopolin_eileithiopolis;Contra Latopolin;;;;;;;;;;;;;x;
-b_pathyris_latopolis;Pathyris;;;;;;;;;;;;;x;
 b_karnak_thebes_egypt;Ipet-Isut;;;;;;;;;;;;;x;
 b_luxor_temple_thebes_egypt;Ipet-Resyt;;;;;;;;;;;;;x;
 b_kastron_thebon_thebes_egypt;Kastron Thebon;;;;;;;;;;;;;x;

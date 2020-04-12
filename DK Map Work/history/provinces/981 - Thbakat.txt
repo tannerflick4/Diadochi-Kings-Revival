@@ -1,0 +1,21 @@
+# 981 - Thbakat
+
+# County Title
+title = c_thbakat
+
+# Settlements
+max_settlements = 4
+b_thbakat_thbakat = castle
+b_tabennisis_thbakat = temple
+b_bau_thbakat = temple
+#b_esou_thbakat = city
+#b_patrimon_thbakat = castle
+#b_noeris_thbakat = city
+#b_alilais_thbakat = city
+
+# Misc
+culture = egyptian 
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

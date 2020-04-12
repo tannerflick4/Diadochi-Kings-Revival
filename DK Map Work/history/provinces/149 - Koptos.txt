@@ -1,0 +1,21 @@
+# 149 - Koptos
+
+# County Title
+title = c_koptos
+
+# Settlements
+max_settlements = 4
+b_koptos_koptos = castle
+b_kaine_koptos = city
+b_qala_koptos = temple
+#b_matula_koptos = castle
+#b_phoinikon_koptos = castle
+#b_neiloupolis_koptos = city
+#b_karanis_koptos = castle
+
+# Misc
+culture = egyptian 
+religion = kemetic
+
+# History
+# Can be filled when things change around the province
