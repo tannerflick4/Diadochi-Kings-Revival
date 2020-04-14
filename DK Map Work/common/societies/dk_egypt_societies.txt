@@ -1,0 +1,91 @@
+### PTAH ###
+dk_cult_of_ptah = {
+    primary_attribute = stewardship # Ptah is the creator god, of craftsmen.
+    is_religious = yes
+    opinion_to_other_members = +10
+    opinion_per_rank_above = +5
+
+    active = {
+        has_dlc = "Mystics"
+    }
+    indestructible = yes
+
+    can_join_society = {
+        # TODO: Expand
+        OR = {
+            religion = kemetic
+            religion = greco_kemetic
+        }
+    }
+    
+    show_society = {
+        # TODO: Expand
+        OR = {
+            religion = kemetic
+            religion = greco_kemetic
+        }
+    }
+
+    potential = {
+        # TODO: Expand
+        OR = {
+            religion = kemetic
+            religion = greco_kemetic
+        }
+    }
+
+    society_rank = {
+        level = 1
+        limit = 100
+        startup_limit = 10
+        decisions = { } # TODO
+    }
+
+    society_rank = {
+        level = 2
+        limit = 40
+        startup_limit = 5
+        decisions = { } # TODO
+    }
+
+    society_rank = {
+        level = 3
+        limit = 10
+        startup_limit = 2
+        decisions = { } # TODO
+    }
+
+    society_rank = {
+        level = 4
+        limit = 1
+        startup_limit = 1
+        decisions = { } # TODO
+    }
+
+    monthly_currency_gain = {
+        name = currency_name_favour
+
+        per_attribute = {
+            name = stewardship
+            value = 0.5
+        }
+    }
+
+    member_score_per_attribute = 3 # TODO
+    member_score_per_rank = 100 # TODO
+
+    member_score = {
+        value = 10
+
+        # TODO
+    }
+
+    startup_populate = {
+        trigger = {
+            OR = {
+                religion = kemetic
+                religion = greco_kemetic
+            }
+        }
+    }
+}

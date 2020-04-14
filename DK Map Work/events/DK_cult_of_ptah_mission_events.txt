@@ -1,0 +1,89 @@
+# Written by Rick Visser (PTAH.1 - PTAH.1000)
+
+namespace = PTAH
+
+### MISSIONS ###
+# Tombola
+character_event = {
+    id = PTAH.1
+    hide_window = yes
+
+    is_triggered_only = yes
+    is_in_society = yes
+    only_capable = yes
+
+    trigger = {
+        society_member_of = dk_cult_of_ptah
+        has_any_quest = no
+		NOT = { has_character_modifier = quest_cooldown_timer }
+		NOT = { is_inaccessible_trigger = yes }
+    }
+
+    immediate = {
+        random_society_member = {
+            limit = {
+                is_society_grandmaster = yes
+                same_society_as = ROOT
+            }
+            save_event_target_as = high_priest_of_ptah
+        }
+
+        # MISSIONS:
+        # - Serving in the temple TODO
+        # - Craft a sacred object TODO
+        # - Teach child about Ptah's creation of the world TODO
+        # - Find an apis bull TODO
+        # - Organise the Sekhmet festival TODO
+
+        random_list = {
+            20 = {
+                event_target:high_priest_of_ptah = {
+                    character_event = { id = PTAH.2 } # Serve in the temple
+                }
+            }
+        }
+    }
+}
+
+####################################
+### MISSION: Serve in the temple ###
+####################################
+
+# Ping event
+character_event = {
+    id = PTAH.2
+    hide_window = yes
+
+    is_triggered_only = yes
+
+    immediate = {
+        FROM = { society_quest_event = { id = PTAH.3 days = 3 random = 7 } }
+    }
+}
+
+# Acceptance event
+society_quest_event = {
+    id = PTAH.3
+    desc = EVTDESC_PTAH_3
+    # TODO: Do we need a quest target for the temple?
+
+    is_triggered_only = yes
+    
+    option = {
+        name = ACCEPT
+        set_quest = quest_cult_of_ptah_serve_temple
+    }
+    
+	option = {
+		name = DECLINE
+		custom_tooltip = { text = decline_quest_tooltip }
+		
+		add_character_modifier = {
+			name = quest_cooldown_timer
+			hidden = yes
+			days = 1000
+		}
+
+		ai_chance = { factor = 0 }
+	}
+}

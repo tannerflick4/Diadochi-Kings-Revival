@@ -1,0 +1,7 @@
+
+# Fires every two years for characters who are members of any society
+on_society_bi_yearly_pulse = {
+	events = {
+        PTAH.1 # Cult of Ptah mission tombola
+	}
+}
