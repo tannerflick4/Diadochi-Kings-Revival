@@ -49,6 +49,11 @@ character_event = {
 ### MISSION: Serve in the temple ###
 ####################################
 
+# Flavourful events:
+# - Piece of unpainted wall needs to be fixed. TODO
+# - Two lustful characters find eachother in the temple. TODO
+# - Feeding the gods. TODO
+
 # Ping event
 character_event = {
     id = PTAH.2
@@ -86,4 +91,29 @@ society_quest_event = {
 
 		ai_chance = { factor = 0 }
 	}
+}
+
+# Character starts travelling towards the temple
+character_event = {
+    id = PTAH.4
+    desc = EVTDESC_PTAH_4
+    # TODO picture =
+
+    is_triggered_only = yes
+
+    option = {
+        name = "YES"
+    }
+}
+
+# Characters ends his service at the temple.
+character_event = {
+    id = PTAH.5
+    desc = EVTDESC_PTAH_5
+
+    is_triggered_only = yes
+
+    option = {
+        name = "YES"
+    }
 }

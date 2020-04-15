@@ -1,0 +1,40 @@
+decisions = {
+
+    dk_kemetic_society_serve_temple = {
+        is_high_prio = yes
+        ai_check_interval = 24
+
+        potential = {
+            has_quest = quest_cult_of_ptah_serve_temple
+            NOT = { has_character_flag = is_serving_kemetic_temple }
+        }
+        allow = {
+            prisoner = no
+            in_command = no
+			NOT = { is_inaccessible_trigger = yes }
+			custom_tooltip = {
+				text = is_not_busy_trigger_tooltip
+				hidden_tooltip = { NOT = { has_character_flag = do_not_disturb } }
+			}
+        }
+        effect = {
+            set_character_flag = is_serving_kemetic_temple
+
+            # Character starts preparing to travel.
+            character_event = {
+                id = PTAH.4
+                days = 3
+            }
+
+            # Schedule an event to end serving at the temple.
+            character_event = {
+                id = PTAH.5
+                days = 125 # 4 months + 3 days
+            }
+        }
+        ai_will_do = {
+            factor = 1
+            # TODO
+        }
+    }
+}
