@@ -1,0 +1,13 @@
+EVTDESC_PTAH_11;[From.GetFirstName] to [Root.GetFirstName], greetings\n\nThe Gods need our service from time to time, lest they damn us. Your time has come. I invite you to serve Ptah for a period of 4 months at his temple in Memphis.;;;;;;;;;;;x
+EVTDESC_PTAH_12;After deciding to dedicate the next four months to serving at the temple, I immediately set out to prepare my lands for my absence. After delegating all of my responsibilities to my subordinates and packing my bags, I set off towards Memphis.;;;;;;;;;;;x
+EVTOPTA_PTAH_12;Let's go!;;;;;;;;;;;x
+EVTDESC_PTAH_13;After travelling for three days through sun and desert, I was finally greeted by the white walls of Memphis. Soon enough, the two towers of the temple came into view. The white linen clothes, worn by priests, stood out from the yellow sandstone: the priesthood was awaiting my arrival and guided me inside.;;;;;;;;;;;x
+EVTOPTA_PTAH_13;It begins;;;;;;;;;;;x
+EVTDESC_PTAH_15;I entered the temple and I was guided by [From.GetFirstName]. As we were finishing the tour, I followed [From.GetFirstName] to a chair and small table with a knife. [From.GetSheHe] explained that to show my devotion to Ptah, I would need to have my hair shaved off so that lice and other impure filth would not spread in his temple. [From.GetSheHe] firmly grabbed the knife and...;;;;;;;;;;;x
+EVTOPTA_PTAH_15;I let [From.GetHerHim] do [From.GetHerHis] thing.;;;;;;;;;;;x
+EVTDESC_PTAH_20;After four months I stepped foot outside of the temple to return to the regular world. As the priests and priestesses said goodbye and I started travelling home, I started reflecting on my time at the temple: about the service I rendered to Ptah and the relationships I built with my fellow worshippers.;;;;;;;;;;;x
+EVTOPTA_PTAH_20;It was worth it!;;;;;;;;;;;x
+EVTDESC_PTAH_30;Dozens of Nubian men were running for their lives as they were being chased down by the Great Ancestor in his chariot, swiftly followed by his armies. A truly epic painting. It had to have been made around 1000 years ago and cracks in the paint have started appearing in the painting. Should the painting be restored to bring renewed glory to the Great Ancestor and Egypt?;;;;;;;;;;;x
+EVTOPTA_PTAH_30;I should fix it and make the gods proud!;;;;;;;;;;;x
+EVTOPTB_PTAH_30;I should tell one of the priests.;;;;;;;;;;;x
+EVTOPTC_PTAH_30;Nobody uses this area of the temple. It would be a waste of time.;;;;;;;;;;;x

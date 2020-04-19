@@ -53,23 +53,25 @@ character_event = {
 # - Piece of unpainted wall needs to be fixed. TODO
 # - Two lustful characters find eachother in the temple. TODO
 # - Feeding the gods. TODO
+# - The Mummy. TODO
+# - Finding reference to Akhetaten TODO
 
 # Ping event
 character_event = {
-    id = PTAH.2
+    id = PTAH.10
     hide_window = yes
 
     is_triggered_only = yes
 
     immediate = {
-        FROM = { society_quest_event = { id = PTAH.3 days = 3 random = 7 } }
+        FROM = { society_quest_event = { id = PTAH.11 days = 3 random = 7 } }
     }
 }
 
 # Acceptance event
 society_quest_event = {
-    id = PTAH.3
-    desc = EVTDESC_PTAH_3
+    id = PTAH.11
+    desc = EVTDESC_PTAH_11
     # TODO: Do we need a quest target for the temple?
 
     is_triggered_only = yes
@@ -95,25 +97,190 @@ society_quest_event = {
 
 # Character starts travelling towards the temple
 character_event = {
-    id = PTAH.4
-    desc = EVTDESC_PTAH_4
-    # TODO picture =
+    id = PTAH.12
+    desc = EVTDESC_PTAH_12
+    picture = GFX_event_picture_placeholder
 
     is_triggered_only = yes
 
+    immediate = {
+        add_trait = travelling
+    }
+
     option = {
-        name = "YES"
+        name = EVTOPTA_PTAH_12
+        hidden_tooltip = {
+            character_event = { id = PTAH.13 days = 3}
+        }
     }
 }
 
-# Characters ends his service at the temple.
+# Character arrives at the temple.
 character_event = {
-    id = PTAH.5
-    desc = EVTDESC_PTAH_5
+    id = PTAH.13
+    desc = EVTDESC_PTAH_13
+    picture = GFX_event_picture_placeholder
 
     is_triggered_only = yes
 
     option = {
-        name = "YES"
+        name = EVTOPTA_PTAH_13
+        set_character_flag = kemetic_temple_arrived
+
+        # Character receives a shave.
+        hidden_tooltip = {
+            random_society_member = {
+                limit = {
+                    society_member_of = dk_cult_of_ptah
+                    society_rank >= 3
+                }
+                character_event = { id = PTAH.7 }
+            }
+        }
     }
 }
+
+# Ping event for the temple priest.
+character_event = {
+    id = PTAH.14
+    hide_window = yes
+
+    immediate = {
+        FROM = {
+            character_event = { id = PTAH.8 }
+        }
+    }
+}
+
+# Character receives a shave from the priests.
+character_event = {
+    id = PTAH.15
+    desc = EVTDESC_PTAH_15
+    picture = GFX_event_picture_placeholder
+
+    is_triggered_only = yes
+
+    option = {
+        name = EVTOPTA_PTAH_15
+        set_character_flag = kemetic_temple_shaved # TODO: Make the character go bald.
+    }
+}
+
+# Character ends his service at the temple.
+character_event = {
+    id = PTAH.20
+    desc = EVTDESC_PTAH_20
+    picture = GFX_event_picture_placeholder
+
+    is_triggered_only = yes
+
+    immediate = {
+        remove_trait = travelling
+        clr_quest = quest_cult_of_ptah_serve_temple
+        clr_character_flag = is_serving_kemetic_temple
+        clr_character_flag = kemetic_temple_shaved
+        clr_character_flag = kemetic_temple_arrived
+        clr_character_flag = kemetic_temple_painting_dilemma
+    }
+
+    option = {
+        name = EVTOPTA_PTAH_20
+    }
+}
+
+# EVENT SERIES: Deteriorated wall needs to be repainted?
+
+# Character discovers a piece of wall where paint has been damaged.
+character_event = {
+    id = PTAH.30
+    desc = EVTDESC_PTAH_30
+    picture = GFX_event_picture_placeholder
+
+    trigger = {
+        has_character_flag = kemetic_temple_arrived
+        NOT = { has_character_flag = kemetic_temple_painting_dilemma }
+    }
+
+    mean_time_to_happen = { # TODO: Customize this
+        months = 1
+    }
+
+    immediate = {
+        set_character_flag = kemetic_temple_painting_dilemma
+    }
+
+    option = { # The character fixes it himself to impress the priesthood.
+        name = EVTOPTA_PTAH_30
+
+        # Add costs here.
+    }
+
+    option = { # The character reports it to the priest.
+        name = EVTOPTB_PTAH_30
+    }
+
+    option = { # The character doesn't do anything.
+        name = EVTOPTC_PTAH_30
+    }
+}
+
+# Character starts to restore the painting himself. 
+character_event = {
+    id = PTAH.31
+    desc = EVTDESC_PTAH_31
+    picture = GFX_event_picture_placeholder
+
+    is_triggered_only = yes
+
+    option = { # Character keeps on mixing colors to get the right effect.
+        name = EVTOPTA_PTAH_31
+    }
+
+    option = { # Character uses the incorrectly mixed colors.
+        name = EVTOPTB_PTAH_31
+    }
+
+    option = { # Character gives up completely.
+        name = EVTOPTC_PTAH_31
+    }
+}
+
+# Character mixed the colors correctly and finishes the painting.
+character_event = {
+    id = PTAH.32
+    desc = EVTDESC_PTAH_32
+    picture = GFX_event_picture_placeholder
+
+    is_triggered_only = yes
+
+    option = {
+        name = EVTOPTA_PTAH_32
+    }
+}
+
+# Notification event that the character finished the painting.
+character_event = {
+    id = PTAH.33
+    desc = EVTDESC_PTAH_33
+    picture = GFX_event_picture_placeholder
+
+    is_triggered_only = yes
+
+    option = { # Character spent more time and money to restore the painting.
+        name = EVTOPTA_PTAH_33
+    }
+
+    option = { # Quick and dirty fix.
+        name = EVTOPTB_PTAH_33
+    }
+}
+
+# Another character sees the vastly improved painting and tells the priests.
+
+
+# Ping event for the priests holding a meeting about the restoration of the painting.
+
+# The priest holds a meeting to find out who restored the painting.
+
+# Priest likes restoration.
+
