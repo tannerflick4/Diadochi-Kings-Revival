@@ -192,3 +192,8 @@
 	name = "Elimaiotai"
 	culture = macedonian
 }
+# Macedonian governors of Egypt
+38 = {
+	name = "Nikotelesai"
+	culture = macedonian
+}
