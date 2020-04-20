@@ -37,3 +37,4 @@
 	# 3501-3600 for the Lynkestai dynasty
 	# 3601-3700 for the Elimaiotai dynasty
 	# 3701-3800 for the Lowborns
+	# 3801-3900 for Macedonian governors of Egypt
