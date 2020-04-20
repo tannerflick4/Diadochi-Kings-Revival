@@ -197,6 +197,7 @@ character_event = {
     picture = GFX_event_picture_placeholder
 
     trigger = {
+        trait = blinded # Blind characters do not see any paintings.
         has_character_flag = kemetic_temple_arrived
         NOT = { has_character_flag = kemetic_temple_painting_dilemma }
     }
@@ -211,16 +212,95 @@ character_event = {
 
     option = { # The character fixes it himself to impress the priesthood.
         name = EVTOPTA_PTAH_30
+        trigger = {
+            scaled_wealth = { value = 0.1 max = 10 min = 1}
+        }
+        ai_chance = {
+            factor = 6 # We want to boost the possibility for hilarity.
 
-        # Add costs here.
+            modifier = { # Doesn't believe in himself.
+                factor = 0.5
+                trait = depressed 
+            }
+            modifier = { # Doesn't want to spend the money.
+                factor = 0.75
+                trait = greedy
+            }
+            modifier = { # Want to spend money to better the world.
+                factor = 1.1
+                trait = charitable
+            }
+            modifier = { # He is content with the state of the picture.
+                factor = 0.6
+                trait = content
+            }
+            modifier = { # Ambitious characters are more willing to go on endeavours.
+                factor = 2
+                trait = ambitious
+            }
+        }
+
+        # Deduct some money.
+        scaled_wealth = { value = -0.1 max = -10 min = -1 }
+
+        # Character starts painting.
+        hidden_tooltip = {
+            character_event = { id = PTAH.31 }
+        }
     }
 
     option = { # The character reports it to the priest.
         name = EVTOPTB_PTAH_30
+
+        ai_chance = {
+            factor = 4
+
+            modifier = { # Is afraid of talking
+                factor = 0.5
+                trait = shy
+            }
+            modifier = { # Loves talking
+                factor = 1.5
+                OR = {
+                    trait = gregarious
+                    trait = socializer
+                }
+            }
+        }
+
+        # TODO: Events
     }
 
     option = { # The character doesn't do anything.
         name = EVTOPTC_PTAH_30
+
+        ai_chance = {
+            factor = 4
+
+            modifier = { # Lazy character love not doing anything.
+                factor = 2
+                trait = slothful
+            }
+            modifier = { # Doesn't like to get involved with this religion stuff.
+                factor = 1.25
+                trait = cynical
+            }
+            modifier = { # Would do anything for the gods.
+                factor = 0.25
+                trait = zealous
+            }
+            modifier = { # Architects would not want to see the building in this state.
+                factor = 0.5
+                trait = architect
+            }
+            modifier = { # Proud (nationalist) nubians don't want the painting to be restored.
+                factor = 1.5
+                AND = {
+                    culture = nubian
+                    trait = proud
+                }
+            }
+        }
     }
 }
 
@@ -234,14 +314,76 @@ character_event = {
 
     option = { # Character keeps on mixing colors to get the right effect.
         name = EVTOPTA_PTAH_31
+        trigger = {
+            scaled_wealth = { value = 0.1 max = 10 min = 1}
+        }
+        ai_chance = {
+            factor = 4
+
+            modifier = {
+                factor = 1.5
+                trait = charitable
+            }
+        }
+
+        # Deduct some money.
+        scaled_wealth = { value = -0.1 max = -10 min = -1 }
+
+        # Character mixes the colors correctly and finishes the painting.
+        hidden_tooltip = { 
+            character_event = { id = PTAH.32 }
+        }
     }
 
     option = { # Character uses the incorrectly mixed colors.
         name = EVTOPTB_PTAH_31
+
+        ai_chance = {
+            factor = 4
+
+            modifier = {
+                factor = 1.5
+                trait = stressed
+            }
+            modifier = { # Greedy characters dislike spending more money, but also do not want to lose their investment.
+                factor = 1.25
+                trait = greedy
+            }
+        }
+
+        # TODO: Add event.
     }
 
     option = { # Character gives up completely.
         name = EVTOPTC_PTAH_31
+        ai_chance = {
+            factor = 3
+
+            modifier = { # Depressed characters are likely to give up.
+                factor = 2
+                trait = depressed
+            }
+            modifier = { # Lazy characters are likely to give up.
+                factor = 2
+                trait = slothful
+            }
+            modifier = { # Patient characters will want to keep at it.
+                factor = 0.1
+                trait = patient
+            }
+            modifier = { # Ambitious characters want to complete the painting.
+                factor = 0.25
+                trait = ambitious
+            }
+            modifier = { # Zealous characters do not want to displease the gods.
+                factor = 0.5
+                trait = zealous
+            }
+            modifier = { # Architects would not want to see the building in this state.
+                factor = 0.5
+                trait = architect
+            }
+        }
     }
 }
 
@@ -276,7 +418,21 @@ character_event = {
 }
 
 # Another character sees the vastly improved painting and tells the priests.
+character_event = {
+    id = PTAH.34
+    desc = EVTDESC_PTAH_34
+    picture = GFX_event_picture_placeholder
 
+    is_triggered_only = yes
+
+    option = { # I should tell the priests.
+        name = EVTOPTA_PTAH_34
+    }
+
+    option = { # Marvel at the painting.
+        name = EVTOPTB_PTAH_34
+    }
+}
 
 # Ping event for the priests holding a meeting about the restoration of the painting.
 
