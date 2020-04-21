@@ -1,0 +1,201 @@
+painting_success_outcome_score = {
+
+    modifier = {
+        factor = 1.25
+        has_focus = focus_scholarship
+    }
+    modifier = {
+        factor = 1.5
+        trait = scholar
+    }
+    modifier = {
+        factor = 1.1
+        OR = {
+            learning > 12
+            diplomacy > 12
+        }
+    }
+    modifier = {
+        factor = 1.1
+        OR = {
+            learning > 13
+            diplomacy > 13
+        }
+    }
+    modifier = {
+        factor = 1.1
+        OR = {
+            learning > 14
+            diplomacy > 14
+        }
+    }
+    modifier = {
+        factor = 1.1
+        OR = {
+            learning > 15
+            diplomacy > 15
+        }
+    }
+    modifier = {
+        factor = 1.1
+        OR = {
+            learning > 16
+            diplomacy > 16
+        }
+    }
+    modifier = {
+        factor = 1.1
+        OR = {
+            learning > 17
+            diplomacy > 17
+        }
+    }
+    modifier = {
+        factor = 1.1
+        OR = {
+            learning > 18
+            diplomacy > 18
+        }
+    }
+    modifier = {
+        factor = 1.1
+        OR = {
+            learning > 19
+            diplomacy > 19
+        }
+    }
+    modifier = {
+        factor = 1.1
+        OR = {
+            learning > 20
+            diplomacy > 20
+        }
+    }
+}
+painting_neutral_outcome_score = {
+
+    modifier = {
+        factor = 1.25
+        OR = {
+            AND = {
+                learning = 8
+                NOT = { learning = 9 }
+            }
+            AND = {
+                diplomacy = 8
+                NOT = { diplomacy = 9 }
+            }
+        }
+    }
+    modifier = {
+        factor = 1.25
+        OR = {
+            AND = {
+                learning = 9
+                NOT = { learning = 10 }
+            }
+            AND = {
+                diplomacy = 9
+                NOT = { diplomacy = 10 }
+            }
+        }
+    }
+    modifier = {
+        factor = 1.25
+        OR = {
+            AND = {
+                learning = 10
+                NOT = { learning = 11 }
+            }
+            AND = {
+                diplomacy = 10
+                NOT = { diplomacy = 11 }
+            }
+        }
+    }
+    modifier = {
+        factor = 1.25
+        OR = {
+            AND = {
+                learning = 11
+                NOT = { learning = 12 }
+            }
+            AND = {
+                diplomacy = 11
+                NOT = { diplomacy = 12 }
+            }
+        }
+    }
+    modifier = {
+        factor = 1.25
+        OR = {
+            AND = {
+                learning = 12
+                NOT = { learning = 13 }
+            }
+            AND = {
+                diplomacy = 12
+                NOT = { diplomacy = 13 }
+            }
+        }
+    }
+}
+painting_bad_outcome_score = {
+
+    modifier = {
+        factor = 1.1
+        OR = {
+            learning < 8
+            diplomacy < 8
+        }
+    }
+    modifier = {
+        factor = 1.1
+        OR = {
+            learning < 7
+            diplomacy < 7
+        }
+    }
+    modifier = {
+        factor = 1.1
+        OR = {
+            learning < 6
+            diplomacy < 6
+        }
+    }
+    modifier = {
+        factor = 1.25
+        OR = {
+            learning < 5
+            diplomacy < 5
+        }
+    }
+    modifier = {
+        factor = 1.25
+        OR = {
+            learning < 4
+            diplomacy < 4
+        }
+    }
+    modifier = {
+        factor = 1.5
+        OR = {
+            learning < 3
+            diplomacy < 3
+        }
+    }
+    modifier = {
+        factor = 1.5
+        OR = {
+            learning < 2
+            diplomacy < 2
+        }
+    }
+    modifier = {
+        factor = 2
+        OR = {
+            learning < 1
+            diplomacy < 1
+        }
+    }
+}
