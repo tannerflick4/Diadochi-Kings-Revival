@@ -197,7 +197,7 @@ character_event = {
     picture = GFX_event_picture_placeholder
 
     trigger = {
-        trait = blinded # Blind characters do not see any paintings.
+        NOT = { trait = blinded } # Blind characters do not see any paintings.
         has_character_flag = kemetic_temple_arrived
         NOT = { has_character_flag = kemetic_temple_painting_dilemma }
     }
@@ -320,9 +320,13 @@ character_event = {
         ai_chance = {
             factor = 4
 
-            modifier = {
+            modifier = { # Charitable characters are more willing to spend money on good causes.
                 factor = 1.5
                 trait = charitable
+            }
+            modifier = { # Patient characters will want to keep at it.
+                factor = 1.25
+                trait = patient
             }
         }
 
@@ -337,11 +341,10 @@ character_event = {
 
     option = { # Character uses the incorrectly mixed colors.
         name = EVTOPTB_PTAH_31
-
         ai_chance = {
             factor = 4
 
-            modifier = {
+            modifier = { # Stressed characters are more likely to rush work.
                 factor = 1.5
                 trait = stressed
             }
@@ -350,6 +353,8 @@ character_event = {
                 trait = greedy
             }
         }
+
+        set_character_flag = kemetic_painting_incorrect_colors
 
         # TODO: Add event.
     }
@@ -366,10 +371,6 @@ character_event = {
             modifier = { # Lazy characters are likely to give up.
                 factor = 2
                 trait = slothful
-            }
-            modifier = { # Patient characters will want to keep at it.
-                factor = 0.1
-                trait = patient
             }
             modifier = { # Ambitious characters want to complete the painting.
                 factor = 0.25
@@ -397,6 +398,12 @@ character_event = {
 
     option = {
         name = EVTOPTA_PTAH_32
+
+        set_character_flag = kemetic_painting_correct_colors
+
+        hidden_tooltip = {
+            character_event = { id = PTAH.33 }
+        }
     }
 }
 
@@ -408,12 +415,88 @@ character_event = {
 
     is_triggered_only = yes
 
+    # Add a tiny bit of society currency.
+    immediate = {
+        add_society_currency_trivial_effect = yes
+    }
+
     option = { # Character spent more time and money to restore the painting.
         name = EVTOPTA_PTAH_33
+        trigger = {
+            has_character_flag = kemetic_painting_correct_colors
+        }
+
+        # Possibly add proud.
+        if = {
+            limit = {
+                NOT = { trait = proud }
+            }
+            random = {
+                chance = 15
+                add_trait = proud
+            }
+        }
+
+        random_list = {
+            40 = {
+                painting_success_outcome_score = yes
+
+                random_society_member = {
+                    limit = {
+                        society_member_of = dk_cult_of_ptah
+                        NOT = { trait = blinded } # Blind characters do not see any paintings.
+                        has_character_flag = kemetic_temple_arrived
+                    }
+                    character_event = { id = PTAH.34 }
+                }
+            }
+            35 = {
+                painting_neutral_outcome_score = yes
+
+                # Nothing happens.
+            }
+            35 = {
+                painting_bad_outcome_score = yes
+
+                # TODO: Add events for the bad outcome.
+            }
+        }
+
+        clr_character_flag = kemetic_painting_correct_colors
     }
 
     option = { # Quick and dirty fix.
         name = EVTOPTB_PTAH_33
+        trigger = {
+            has_character_flag = kemetic_painting_incorrect_colors
+        }
+
+        random_list = {
+            30 = {
+                painting_success_outcome_score = yes
+
+                random_society_member = {
+                    limit = {
+                        society_member_of = dk_cult_of_ptah
+                        NOT = { trait = blinded } # Blind characters do not see any paintings.
+                        has_character_flag = kemetic_temple_arrived
+                    }
+                    character_event = { id = PTAH.34 }
+                }
+            }
+            20 = {
+                painting_neutral_outcome_score = yes
+
+                # Nothing happens.
+            }
+            50 = {
+                painting_bad_outcome_score = yes
+
+                # TODO: Add events for the bad outcome.
+            }
+        }
+
+        clr_character_flag = kemetic_painting_incorrect_colors
     }
 }
 
