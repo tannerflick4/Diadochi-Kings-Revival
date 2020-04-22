@@ -447,7 +447,7 @@ character_event = {
                         NOT = { trait = blinded } # Blind characters do not see any paintings.
                         has_character_flag = kemetic_temple_arrived
                     }
-                    character_event = { id = PTAH.34 }
+                    character_event = { id = PTAH.34 days = 4 random = 5 }
                 }
             }
             35 = {
@@ -481,7 +481,7 @@ character_event = {
                         NOT = { trait = blinded } # Blind characters do not see any paintings.
                         has_character_flag = kemetic_temple_arrived
                     }
-                    character_event = { id = PTAH.34 }
+                    character_event = { id = PTAH.34 days = 4 random = 5 }
                 }
             }
             20 = {
@@ -510,16 +510,110 @@ character_event = {
 
     option = { # I should tell the priests.
         name = EVTOPTA_PTAH_34
+        ai_chance = {
+            factor = 3.5
+
+            modifier = { # Is afraid of talking
+                factor = 0.5
+                trait = shy
+            }
+            modifier = { # Loves talking
+                factor = 1.5
+                OR = {
+                    trait = gregarious
+                    trait = socializer
+                }
+            }
+            modifier = { # Loves a good mystery.
+                factor = 1.25
+                OR = {
+                    trait = cynical
+                    trait = deceitful
+                }
+            }
+        }
+
+        hidden_tooltip = {
+            random_society_member = {
+                limit = {
+                    society_member_of = dk_cult_of_ptah
+                    society_rank >= 3
+                }
+                character_event = { id = PTAH.35 }
+            }
+        }
     }
 
     option = { # Marvel at the painting.
         name = EVTOPTB_PTAH_34
+        ai_chance = {
+            factor = 2
+
+            modifier = { # Encourage depressed or stressed characters to rest.
+                factor = 2
+                OR = {
+                    trait = depressed
+                    trait = stressed
+                }
+            }
+            modifier = { # Proud (nationalist) nubians won't marvel at the painting that depicts their weaknesses.
+                factor = 0.5
+                AND = {
+                    culture = nubian
+                    trait = proud
+                }
+            }
+            modifier = { # Lazy characters are likely to give up.
+                factor = 2
+                trait = slothful
+            }
+            modifier = { # Architects would be impressed!
+                factor = 1.25
+                trait = architect
+            }
+        }
+
+        # Character reflects on the glory of Egypt.
+        piety = 10
+
+        # Paintings might be destressing.
+        if = {
+            limit = {
+                trait = stressed
+            }
+            random = {
+                chance = 10
+                remove_trait = stressed
+            }
+        }
+
+        # Depressed characters might be cured from depression from the painting.
+        if = {
+            limit = {
+                trait = depressed
+            }
+            random = {
+                chance = 10
+                remove_trait = depressed
+            }
+        }
     }
 }
 
 # Ping event for the priests holding a meeting about the restoration of the painting.
+character_event = {
+    id = PTAH.35
+    hide_window = yes # The priests might get spammed with these events. Let's not show them.
 
-# The priest holds a meeting to find out who restored the painting.
+    is_triggered_only = yes
+
+    immediate = {
+        # TODO: Send event to FROMFROM.
+    }
+}
+
+# The priest goes to the painter to ask if he fixed the painting.
 
 # Priest likes restoration.
 
+# Priest hates the restoration.
