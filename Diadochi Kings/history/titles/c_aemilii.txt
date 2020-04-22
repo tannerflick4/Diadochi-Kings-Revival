@@ -4,14 +4,15 @@
 	government = feudal_government
 	active = no
 }
-378.1.1 = {
+343.1.1 = {
 	active = yes
 	liege = e_rome
-	holder = 172101
+	holder = 172104
 }
-450.1.1 = {
-	holder = 172102
-}
-463.1.1 = {
-	holder = 172103
-}
+370.05.25={holder=172106} #Publius[17022]
+390.03.21={holder=172110} #Colunella[17022]
+414.09.28={holder=172114} #Publius[17022]
+443.12.28={holder=172121} #Caecilius[17022]
+486.12.21={holder=172123} #Paetus[17022]
+485.11.21={holder=172125} #Eugenius[17022]
+522.04.06={holder=172127} #Annius[17022]
