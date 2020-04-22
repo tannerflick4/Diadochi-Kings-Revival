@@ -47,6 +47,7 @@
 	culture=latin 
 	religion=roman_main
 	318.1.26={ birth=yes }
+	3338.1.1={ add_spouse=172130 }
 	370.5.25={ death=yes }
 }
 172105={
@@ -56,6 +57,7 @@
 	culture=latin 
 	religion=roman_main
 	father=172104	#Apollodorus
+	mother=172130	#Drusilla
 	342.4.14={ birth=yes }
 	397.1.12={ death=yes }
 }
@@ -65,6 +67,7 @@
 	culture=latin 
 	religion=roman_main 
 	father=172104	#Apollodorus
+	mother=172130	#Drusilla
 	343.12.25={ birth=yes }
 	390.3.21={ death=yes }
 }
@@ -74,6 +77,7 @@
 	culture=latin 
 	religion=roman_main
 	father=172104	#Apollodorus
+	mother=172130	#Drusilla
 	346.10.4={ birth=yes }
 	395.10.4={ death=yes }
 }
@@ -229,11 +233,8 @@
 172124={
 	name=Atilius
 	dynasty=17022
-	dna="idpgdemiile"
-	culture=latin religion=roman_main
-	martial=4 diplomacy=7 stewardship=8 intrigue=6 learning=5
-	add_trait=charismatic_negotiator add_trait=chaste add_trait=honest add_trait=gregarious add_trait=cruel 
-	add_trait=strong 
+	culture=latin 
+	religion=roman_main
 	father=172121	#Caecilius
 	444.3.24={ birth=yes }
 	512.7.19={ death=yes }
@@ -241,10 +242,8 @@
 172125={
 	name=Eugenius
 	dynasty=17022
-	dna="bkmjfonpmnf"
-	culture=latin religion=roman_main
-	martial=6 diplomacy=4 stewardship=7 intrigue=4 learning=5
-	add_trait=charismatic_negotiator add_trait=wroth add_trait=cruel add_trait=slothful add_trait=arbitrary 
+	culture=latin 
+	religion=roman_main
 	father=172123	#Paetus
 	463.1.16={ birth=yes }
 	522.4.6={ death=yes }
@@ -253,8 +252,8 @@
 	name=Julia
 	female=yes
 	dynasty=17022
-	dna="dpbofbnbmeh"
-	culture=latin religion=roman_main
+	culture=latin 
+	religion=roman_main
 	father=172123	#Paetus
 	465.3.27={ birth=yes }
 	509.7.5={ death=yes }
@@ -262,11 +261,8 @@
 172127={
 	name=Annius
 	dynasty=17022
-	dna="bkmbfelpmmc"
-	culture=latin religion=roman_main
-	martial=5 diplomacy=5 stewardship=8 intrigue=5 learning=4
-	add_trait=midas_touched add_trait=craven add_trait=charitable add_trait=gregarious add_trait=arbitrary 
-	add_trait=proud 
+	culture=latin 
+	religion=roman_main
 	father=172125	#Eugenius
 	485.11.27={ birth=yes }
 	528.4.21={ death=yes }
@@ -275,8 +271,8 @@
 	name=Ambivia
 	female=yes
 	dynasty=17022
-	dna="ckmlfojpbig"
-	culture=latin religion=roman_main
+	culture=latin 
+	religion=roman_main
 	father=172125	#Eugenius
 	488.3.16={ birth=yes }
 	540.4.19={ death=yes }
@@ -285,18 +281,17 @@
 	name=Messalina
 	female=yes
 	dynasty=17022
-	dna="bkmjoonpcgj"
-	culture=latin religion=roman_main
+	culture=latin 
+	religion=roman_main
 	father=172125	#Eugenius
 	491.9.13={ birth=yes }
 	538.11.11={ death=yes }
 }
-
-# 343.1.1={holder=172104} #Apollodorus[17022]
-# 370.05.25={holder=172106} #Publius[17022]
-# 390.03.21={holder=172110} #Colunella[17022]
-# 414.09.28={holder=172114} #Publius[17022]
-# 443.12.28={holder=172121} #Caecilius[17022]
-# 486.12.21={holder=172123} #Paetus[17022]
-# 485.11.21={holder=172125} #Eugenius[17022]
-# 522.04.06={holder=172127} #Annius[17022]
+172130={
+	name=Drusilla
+	female=yes
+	culture=latin 
+	religion=roman_main
+	318.1.26={ birth=yes }
+	370.5.25={ death=yes }
+}
