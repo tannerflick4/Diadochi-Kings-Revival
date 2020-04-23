@@ -189,6 +189,7 @@ character_event = {
 }
 
 # EVENT SERIES: Deteriorated wall needs to be repainted?
+# Events PTAH.30 - PTAH.59
 
 # Character discovers a piece of wall where paint has been damaged.
 character_event = {
@@ -440,6 +441,8 @@ character_event = {
         random_list = {
             40 = {
                 painting_success_outcome_score = yes
+                
+                set_character_flag = kemetic_painting_good_quality
 
                 random_society_member = {
                     limit = {
@@ -457,6 +460,8 @@ character_event = {
             }
             35 = {
                 painting_bad_outcome_score = yes
+
+                set_character_flag = kemetic_painting_bad_quality
 
                 # TODO: Add events for the bad outcome.
             }
@@ -475,6 +480,8 @@ character_event = {
             30 = {
                 painting_success_outcome_score = yes
 
+                set_character_flag = kemetic_painting_good_quality
+
                 random_society_member = {
                     limit = {
                         society_member_of = dk_cult_of_ptah
@@ -492,6 +499,7 @@ character_event = {
             50 = {
                 painting_bad_outcome_score = yes
 
+                set_character_flag = kemetic_painting_bad_quality
                 # TODO: Add events for the bad outcome.
             }
         }
@@ -608,12 +616,195 @@ character_event = {
     is_triggered_only = yes
 
     immediate = {
-        # TODO: Send event to FROMFROM.
+        FROMFROM = { character_event = { id = PTAH.36 }}
     }
 }
 
 # The priest goes to the painter to ask if he fixed the painting.
+character_event = {
+    id = PTAH.36
+    desc = EVTDESC_PTAH_36
+    picture = GFX_event_picture_placeholder
 
-# Priest likes restoration.
+    is_triggered_only = yes
 
-# Priest hates the restoration.
+    option = { # Tell the priest that you restored the painting.
+        name = EVTOPTA_PTAH_36
+
+        set_character_flag = kemetic_painter_truth
+    }
+    option = { # Lie
+        name = EVTOPTB_PTAH_36
+
+        if = {
+            limit { 
+                NOT = { trait = deceitful }
+            }
+
+            add_trait = deceitful
+        }
+
+        set_character_flag = kemetic_painter_lie
+    }
+}
+
+# Ping event for the priest to respond to the answer of the painter.
+character_event = {
+    id = PTAH.37
+    hide_window = yes
+
+    is_triggered_only = yes
+
+    immediate = {
+        if = {
+            limit = {
+                FROM = { has_character_flag = kemetic_painter_lie }
+            }
+
+            random_list = {
+                60 = { # Priest believes the lie if he is honest or bad at intrigue.
+                    modifier = { # Low intrigue causes the character to believe the lie.
+                        factor = 1.25
+                        intrigue < 8
+                    }
+                    modifier = { # Low intrigue causes the character to believe the lie.
+                        factor = 1.5
+                        intrigue < 6
+                    }
+                    modifier = { # Low intrigue causes the character to believe the lie.
+                        factor = 2
+                        intrigue < 4
+                    }
+                    modifier = { # Honest characters are more likely to believe a lie.
+                        factor = 1.5
+                        trait = honest
+                    }
+                    modifier = { # If the character has high intrigue, he will always see through the lie.
+                        factor = 0
+                        intrigue = 15
+                    }
+
+                    FROM = { character_event = { id = PTAH.38 }}
+                }
+                30 = { # Priest has a good response from piety.
+                    painting_priest_pious_score = yes
+
+                    FROM = { character_event = { id = PTAH.39 }}
+                }
+                30 = { # Priest has a good response from pride.
+                    painting_priest_proud_score = yes
+
+                    FROM = { character_event = { id = PTAH.40 }}
+                }
+                30 = { # Priest has a bad response as he believes the character should have asked permission first.
+                    painting_priest_authoritarian_score = yes
+
+                    FROM = { character_event = { id = PTAH.41 }}
+                }
+                30 = { # Priest has a bad response as he thinks the painting is shit.
+                    painting_priest_bad_quality_score = yes
+
+                    FROM = { character_event = { id = PTAH.42 }}
+                }
+            }
+        } else = {
+            random_list = {
+                30 = { # Priest has a good response from piety.
+                    painting_priest_pious_score = yes
+
+                    FROM = { character_event = { id = PTAH.39 }}
+                }
+                30 = { # Priest has a good response from pride.
+                    painting_priest_proud_score = yes
+
+                    FROM = { character_event = { id = PTAH.40 }}
+                }
+                30 = { # Priest has a bad response as he believes the character should have asked permission first.
+                    painting_priest_authoritarian_score = yes
+
+                    FROM = { character_event = { id = PTAH.41 }}
+                }
+                30 = { # Priest has a bad response as he thinks the painting is shit.
+                    painting_priest_bad_quality_score = yes
+
+                    FROM = { character_event = { id = PTAH.42 }}
+                }
+            }
+        }
+    }
+}
+
+# Priest believes the lie if he has bad intrigue skills
+character_event = {
+    id = PTAH.38
+    desc = EVTDESC_PTAH_38
+    picture = GFX_event_picture_placeholder
+
+    is_triggered_only = yes
+
+    option = {
+        name = EVTOPTA_PTAH_38
+
+        # TODO: Add cons / benefits.
+    }
+}
+
+# Priest good response - pious
+character_event = {
+    id = PTAH.39
+    desc = EVTDESC_PTAH_39
+    picture = GFX_event_picture_placeholder
+
+    is_triggered_only = yes
+
+    option = {
+        name = EVTOPTA_PTAH_39
+
+        # TODO: Add cons / benefits.
+    }
+}
+
+# Priest good response - proud
+character_event = {
+    id = PTAH.40
+    desc = EVTDESC_PTAH_40
+    picture = GFX_event_picture_placeholder
+
+    is_triggered_only = yes
+
+    option = {
+        name = EVTOPTA_PTAH_40
+
+        # TODO: Add cons / benefits.
+    }
+}
+
+# Priest bad response - should have asked permission
+character_event = {
+    id = PTAH.41
+    desc = EVTDESC_PTAH_41
+    picture = GFX_event_picture_placeholder
+
+    is_triggered_only = yes
+
+    option = {
+        name = EVTOPTA_PTAH_41
+
+        # TODO: Add cons / benefits.
+    }
+}
+
+# Priest bad response - quality is bad
+character_event = {
+    id = PTAH.42
+    desc = EVTDESC_PTAH_42
+    picture = GFX_event_picture_placeholder
+
+    is_triggered_only = yes
+
+    option = {
+        name = EVTOPTA_PTAH_42
+
+        # TODO: Add cons / benefits.
+    }
+}

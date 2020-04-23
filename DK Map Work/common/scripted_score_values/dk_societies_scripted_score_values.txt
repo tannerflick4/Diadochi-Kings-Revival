@@ -199,3 +199,109 @@ painting_bad_outcome_score = {
         }
     }
 }
+
+painting_priest_pious_score = {
+
+    modifier = { # Low intrigue causes the character to believe the lie.
+        factor = 0
+        intrigue < 3
+        FROM = { has_character_flag = kemetic_painter_lie }
+    }
+    modifier = { # Cynical characters will never respond this way.
+        factor = 0
+        trait = cynical
+    }
+    modifier = { # Zealous characters will choose to talk about the favour of the gods.
+        factor = 1.5
+        trait = zealous
+    }
+    modifier = { # Pious characters will want to talk about the favour of the gods.
+        factor = 1.5
+        piety >= 500
+    }
+    modifier = { # Clergy are more likely to choose this option.
+        factor = 1.25
+        OR = {
+            trait = detached_priest
+            trait = martial_cleric
+            trait = scholarly_theologian
+            trait = mastermind_theologian
+        }
+    }
+}
+painting_priest_proud_score = {
+    modifier = { # Low intrigue causes the character to believe the lie.
+        factor = 0
+        intrigue < 3
+        FROM = { has_character_flag = kemetic_painter_lie }
+    }
+    modifier = { # Proud (nationalist) nubians dislike the painting.
+        factor = 0
+        AND = {
+            culture = nubian
+            trait = proud
+        }
+    }
+    modifier = { # Proud characters like glory.
+        factor = 1.5
+        trait = proud
+    }
+    modifier = { # Strong characters like victory.
+        factor = 1.25
+        trait = strong
+    }
+    modifier = { # Martial characters like battle.
+        factor = 1.25
+        OR = {
+            trait = misguided_warrior
+            trait = tough_soldier
+            trait = skilled_tactician
+            trait = brilliant_strategist
+        }
+    }
+}
+painting_priest_authoritarian_score = {
+
+    modifier = { # Low intrigue causes the character to believe the lie.
+        factor = 0
+        intrigue < 3
+        FROM = { has_character_flag = kemetic_painter_lie }
+    }
+    modifier = { # If the painter rushed the restoration, he is more likely to fuck it up.
+        factor = 3
+        FROM = { has_character_flag = kemetic_painting_bad_quality }
+    }
+    modifier = { # Characters that like to have a hand on things are more likely to respond with this.
+        factor = 1.5
+        OR = {
+            trait = envious
+            trait = stressed
+            trait = possessed
+            trait = greedy
+            trait = paranoid
+        }
+    }
+}
+painting_priest_bad_quality_score = {
+
+    modifier = { # Low intrigue causes the character to believe the lie.
+        factor = 0
+        intrigue < 3
+        FROM = { has_character_flag = kemetic_painter_lie }
+    }
+    modifier = { # If the painter rushed the restoration, he is more likely to fuck it up.
+        factor = 3
+        FROM = { has_character_flag = kemetic_painting_bad_quality }
+    }
+    modifier = { # Character dislikes conflict or direct confrontation.
+        factor = 0.5
+        OR = {
+            trait = shy
+            trait = craven
+        }
+    }
+    modifier = { # Rivals will likely be told their work is bad.
+        factor = 3
+        is_rival = FROM
+    }
+}
