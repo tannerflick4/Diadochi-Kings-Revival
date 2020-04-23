@@ -7,19 +7,22 @@ EVTDESC_PTAH_15;I entered the temple and I was guided by [From.GetFirstName]. As
 EVTOPTA_PTAH_15;I let [From.GetHerHim] do [From.GetHerHis] thing.;;;;;;;;;;;x
 EVTDESC_PTAH_20;After four months I stepped foot outside of the temple to return to the regular world. As the priests and priestesses said goodbye and I started travelling home, I started reflecting on my time at the temple: about the service I rendered to Ptah and the relationships I built with my fellow worshippers.;;;;;;;;;;;x
 EVTOPTA_PTAH_20;It was worth it!;;;;;;;;;;;x
-EVTDESC_PTAH_30;Dozens of Nubian men were running for their lives as they were being chased down by the Great Ancestor in his chariot, swiftly followed by his armies. A truly epic painting. It had to have been made around 1000 years ago and cracks in the paint have started appearing in the painting. Should the painting be restored to bring renewed glory to the Great Ancestor and Egypt?;;;;;;;;;;;x
+EVTDESC_PTAH_30;Dozens of Nubian men were running for their lives as they were being chased down by the Great Ancestor in his chariot, swiftly followed by his armies. A truly epic painting. It had to have been made around 1000 years ago and cracks in the paint have started appearing. Should the painting be restored to bring renewed glory to the Great Ancestor and Egypt?;;;;;;;;;;;x
 EVTOPTA_PTAH_30;I should fix it and make the gods proud!;;;;;;;;;;;x
 EVTOPTB_PTAH_30;I should tell one of the priests.;;;;;;;;;;;x
 EVTOPTC_PTAH_30;Nobody uses this area of the temple. It would be a waste of time.;;;;;;;;;;;x
-EVTDESC_PTAH_31;The next morning I was surrounded by the rings of coin being exchanged and the chattering at the local market. I purchased some pigments from an over-eager seller. After returning to the painting I started mixing the colors. As soon as I had mixed my blue, red and yellow shades I noticed that I had forgot to account for whites and blacks. While I could restore the painting with these colors, the result may not be optimal.;;;;;;;;;;;x
-EVTOPTA_PTAH_31;I need those colors.;;;;;;;;;;;x
-EVTOPTB_PTAH_31;It won't get any better than this.;;;;;;;;;;;x
+EVTDESC_PTAH_31;The next morning I was surrounded by the rings of coin being exchanged and the chattering at the local market. I purchased some pigments from an over-eager seller. After returning to the painting I started mixing the colors. As soon as I had mixed my blue, red and yellow shades I noticed that I had forgot to account for whites and blacks.;;;;;;;;;;;x
+EVTOPTA_PTAH_31;I need to have those other colors.;;;;;;;;;;;x
+EVTOPTB_PTAH_31;It will have to do.;;;;;;;;;;;x
 EVTOPTC_PTAH_31;This is all too complicated...;;;;;;;;;;;x
-EVTDESC_PTAH_32;The next day, I returned to the market and visited an all too familiar seller. I purchased some limestone and charcoal and made some white and black pigments.\nIn the evening, I was back mixing colors at the painting. After preparing all of the required colors, I started painting...;;;;;;;;;;;x
+EVTDESC_PTAH_32;The next day, I returned to the market and visited an all too familiar seller. I purchased some limestone and charcoal and made some white and black pigments. In the evening, I was back to mixing colors at the painting. After preparing all of the required colors, I started painting...;;;;;;;;;;;x
 EVTOPTA_PTAH_32;This is going to look so great!;;;;;;;;;;;x
-EVTDESC_PTAH_33;I gripped the small bundle of fibres and dipped the tip in my pigments. I raised the brush to the level of my chest and carefully stroked the tip on the wall to apply new colors to the painting. My focus did not flinch for I would ruin the painting if I was not careful. After several hours of repeating these actions, I was looking at a fully restored painting showcasing the glory of the Great Ancestor.;;;;;;;;;;;x
+EVTDESC_PTAH_33;I gripped the small bundle of fibres and dipped the tip in my pigments. I raised the brush to the level of my chest and carefully stroked the tip on the wall to apply new colors to the painting. My focus did not flinch for I would ruin the painting if I was not careful. After several hours, I was looking at a fully restored painting showcasing the glory of the Great Ancestor.;;;;;;;;;;;x
 EVTOPTA_PTAH_33;I should be proud!;;;;;;;;;;;x
 EVTOPTB_PTAH_33;I made do with what I had.;;;;;;;;;;;x
-EVTDESC_PTAH_34;I arrived at my regular relaxation spot; it was at the painting of the Great Ancestor. I noticed something was different. The worn background near the vanquished Nubians had been filled in. The ornamentations of the chariots were clearly shown now. The painting had been restored by a mysterious visitor and whoever it was, they had certainly done a great job. Should I tell the priests about this?;;;;;;;;;;;x
+EVTDESC_PTAH_34;I arrived at my regular relaxation spot: it was at the painting of the Great Ancestor. I noticed something was different. The worn background near the vanquished Nubians had been filled in. The ornamentations of the chariots were clearly shown now. The painting had been restored by a mysterious visitor and whoever it was, they had certainly done a great job. Should I tell the priests about this?;;;;;;;;;;;x
 EVTOPTA_PTAH_34;I should tell them about this.;;;;;;;;;;;x
 EVTOPTB_PTAH_34;<You are stunned by the quality of the painting.>;;;;;;;;;;;x
+EVTDESC_PTAH_36;I walking through the central square when [From.GetFirstName] approached me. He stated that another member of the cult had noticed one of the old paintings had been worked on even though the cult did not commission an artist to restore it. Afterwards, he asked the question that I had expected all along: "Do you know anything about this?".;;;;;;;;;;;x
+EVTOPTA_PTAH_36;I should tell [From.GetFirstName] that I restored the painting.;;;;;;;;;;;x
+EVTOPTB_PTAH_36;<Deny any involvement.;;;;;;;;;;;x

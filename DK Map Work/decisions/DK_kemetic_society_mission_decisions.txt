@@ -22,13 +22,13 @@ decisions = {
 
             # Character starts preparing to travel.
             character_event = {
-                id = PTAH.4
+                id = PTAH.12
                 days = 3
             }
 
             # Schedule an event to end serving at the temple.
             character_event = {
-                id = PTAH.5
+                id = PTAH.20
                 days = 125 # 4 months + 3 days
             }
         }

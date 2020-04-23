@@ -38,7 +38,7 @@ character_event = {
         random_list = {
             20 = {
                 event_target:high_priest_of_ptah = {
-                    character_event = { id = PTAH.2 } # Serve in the temple
+                    character_event = { id = PTAH.10 } # Serve in the temple
                 }
             }
         }
@@ -438,32 +438,35 @@ character_event = {
             }
         }
 
-        random_list = {
-            40 = {
-                painting_success_outcome_score = yes
-                
-                set_character_flag = kemetic_painting_good_quality
+        hidden_tooltip = {
+            random_list = {
+                40 = {
+                    painting_success_outcome_score = yes
+                    
+                    set_character_flag = kemetic_painting_good_quality
 
-                random_society_member = {
-                    limit = {
-                        society_member_of = dk_cult_of_ptah
-                        NOT = { trait = blinded } # Blind characters do not see any paintings.
-                        has_character_flag = kemetic_temple_arrived
+                    random_society_member = {
+                        limit = {
+                            society_member_of = dk_cult_of_ptah
+                            NOT = { trait = blinded } # Blind characters do not see any paintings.
+                            has_character_flag = kemetic_temple_arrived
+                            NOT = { character = ROOT }
+                        }
+                        character_event = { id = PTAH.34 days = 4 random = 5 }
                     }
-                    character_event = { id = PTAH.34 days = 4 random = 5 }
                 }
-            }
-            35 = {
-                painting_neutral_outcome_score = yes
+                35 = {
+                    painting_neutral_outcome_score = yes
 
-                # Nothing happens.
-            }
-            35 = {
-                painting_bad_outcome_score = yes
+                    # Nothing happens.
+                }
+                35 = {
+                    painting_bad_outcome_score = yes
 
-                set_character_flag = kemetic_painting_bad_quality
+                    set_character_flag = kemetic_painting_bad_quality
 
-                # TODO: Add events for the bad outcome.
+                    # TODO: Add events for the bad outcome.
+                }
             }
         }
 
@@ -476,31 +479,34 @@ character_event = {
             has_character_flag = kemetic_painting_incorrect_colors
         }
 
-        random_list = {
-            30 = {
-                painting_success_outcome_score = yes
+        hidden_tooltip = {
+            random_list = {
+                30 = {
+                    painting_success_outcome_score = yes
 
-                set_character_flag = kemetic_painting_good_quality
+                    set_character_flag = kemetic_painting_good_quality
 
-                random_society_member = {
-                    limit = {
-                        society_member_of = dk_cult_of_ptah
-                        NOT = { trait = blinded } # Blind characters do not see any paintings.
-                        has_character_flag = kemetic_temple_arrived
+                    random_society_member = {
+                        limit = {
+                            society_member_of = dk_cult_of_ptah
+                            NOT = { trait = blinded } # Blind characters do not see any paintings.
+                            has_character_flag = kemetic_temple_arrived
+                            NOT = { character = ROOT }
+                        }
+                        character_event = { id = PTAH.34 days = 4 random = 5 }
                     }
-                    character_event = { id = PTAH.34 days = 4 random = 5 }
                 }
-            }
-            20 = {
-                painting_neutral_outcome_score = yes
+                20 = {
+                    painting_neutral_outcome_score = yes
 
-                # Nothing happens.
-            }
-            50 = {
-                painting_bad_outcome_score = yes
+                    # Nothing happens.
+                }
+                50 = {
+                    painting_bad_outcome_score = yes
 
-                set_character_flag = kemetic_painting_bad_quality
-                # TODO: Add events for the bad outcome.
+                    set_character_flag = kemetic_painting_bad_quality
+                    # TODO: Add events for the bad outcome.
+                }
             }
         }
 
@@ -631,7 +637,9 @@ character_event = {
     option = { # Tell the priest that you restored the painting.
         name = EVTOPTA_PTAH_36
 
+        # Set a flag and ping the priest.
         set_character_flag = kemetic_painter_truth
+        FROM = { character_event = { id = PTAH.37 }}
     }
     option = { # Lie
         name = EVTOPTB_PTAH_36
@@ -644,7 +652,9 @@ character_event = {
             add_trait = deceitful
         }
 
+        # Set a flag and ping the priest.
         set_character_flag = kemetic_painter_lie
+        FROM = { character_event = { id = PTAH.37 }}
     }
 }
 
@@ -733,6 +743,8 @@ character_event = {
         }
     }
 }
+
+# TODO: Add notification to the person who found the restored painting.
 
 # Priest believes the lie if he has bad intrigue skills
 character_event = {
