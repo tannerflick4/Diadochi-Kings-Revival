@@ -20,7 +20,7 @@
 	name = "Augilai"
 	culture = egyptian
 }
-35006 = { # Not used currently
+35006 = { # Egyptian governors of Ammon
 	name = "Ammonioi"
 	culture = egyptian
 }
