@@ -22,7 +22,21 @@ EVTOPTA_PTAH_33;I should be proud!;;;;;;;;;;;x
 EVTOPTB_PTAH_33;I made do with what I had.;;;;;;;;;;;x
 EVTDESC_PTAH_34;I arrived at my regular relaxation spot: it was at the painting of the Great Ancestor. I noticed something was different. The worn background near the vanquished Nubians had been filled in. The ornamentations of the chariots were clearly shown now. The painting had been restored by a mysterious visitor and whoever it was, they had certainly done a great job. Should I tell the priests about this?;;;;;;;;;;;x
 EVTOPTA_PTAH_34;I should tell them about this.;;;;;;;;;;;x
-EVTOPTB_PTAH_34;<You are stunned by the quality of the painting.>;;;;;;;;;;;x
+EVTOPTB_PTAH_34;<You are stunned by the quality of the painting>;;;;;;;;;;;x
 EVTDESC_PTAH_36;I walking through the central square when [From.GetFirstName] approached me. He stated that another member of the cult had noticed one of the old paintings had been worked on even though the cult did not commission an artist to restore it. Afterwards, he asked the question that I had expected all along: "Do you know anything about this?".;;;;;;;;;;;x
 EVTOPTA_PTAH_36;I should tell [From.GetFirstName] that I restored the painting.;;;;;;;;;;;x
-EVTOPTB_PTAH_36;<Deny any involvement.;;;;;;;;;;;x
+EVTOPTB_PTAH_36;<Deny any involvement>;;;;;;;;;;;x
+EVTDESC_PTAH_38;After what felt like an eternity, but was really a few seconds [From.GetFirstName] said 'I have to ask someone else then. We really want to find the person who restored the painting on the wall'. With that, [From.GetFirstName] stepped aside and left to talk to another worshipper.;;;;;;;;;;;x
+EVTOPTA_PTAH_38;Phew...;;;;;;;;;;;x
+EVTDESC_PTAH_39_TRUTH;'The gods do not deserve their homes to turn to dust and sometimes all it takes is the initiative of a [Root.GetManWoman] to resolve it. It think you did a great job and you will certainly be favored by the gods! You should be proud of your effort.';;;;;;;;;;;x
+EVTDESC_PTAH_39_LIE;'There is no need to be humble, [Root.GetFirstName]. I know that you restored the painting. The gods do not deserve their homes to turn to dust and sometimes all it takes is the initiative of a [Root.GetManWoman] to resolve it. It think you did a great job and you will certainly be favored by the gods!';;;;;;;;;;;x
+EVTOPTA_PTAH_39;Thank you, [From.GetFirstName].;;;;;;;;;;;x
+EVTDESC_PTAH_40_TRUTH;'Your work on the painting has restored an Egyptian Epic. It is a great sight to see the Great Ancestor vanquishing the Nubians with the grace of Osiris. The painting and your actions exemplify the virtues of the great Egyptian civilisation. You should be proud of yourself to restore such a work!';;;;;;;;;;;x
+EVTDESC_PTAH_40_LIE;'Your humility is as commendable as your work on restoring an Egyptian Epic. It is a great sight to see the Great Ancestor vanquishing the Nubians with the grace of Osiris. The painting and your actions exemplify the virtues of the great Egyptian civilisation. You should be proud of yourself to restore such a work!';;;;;;;;;;;x
+EVTOPTA_PTAH_40;That is great to hear, [From.GetFirstName];;;;;;;;;;;x
+EVTDESC_PTAH_41_TRUTH;'Perhaps you can learn something here. While at home you might be able to do anything you see fit, here we serve the gods and their servant, the high priest. Nothing here happens without their knowledge. Your initiative to restore the painting went outside of his authority and you have honestly made an embarassment of yourself. You will be kept under close watch from now on.';;;;;;;;;;;x 
+EVTDESC_PTAH_41_LIE;'I can recognise a lie when I hear one, [Root.GetFirstName]. Your initiative to restore the painting went far above your authority and the results are disastrous. The painting depicting the might of the Egyptian gods has been completely ruined and it is all because of you! You will be kept under close watch from now on.';;;;;;;;;;;x 
+EVTOPTA_PTAH_41;I'm sorry, [From.GetFirstName].;;;;;;;;;;;x
+EVTDESC_PTAH_42_TRUTH;'Your honesty is commendable, but your initiative to restore the painting is not. You have single-handedly destroyed a painting that has decorated these walls for many centuries and you have defaced the work of the artisans who now rest in the Duat, destroying their lasting legacy in the world of the living.';;;;;;;;;;;x 
+EVTDESC_PTAH_42_LIE;'Your skills in lying are as good as your skills in painting. You have single-handedly destroyed a painting that has decorated these walls for many centuries and you have defaced the work of the artisans who now rest in the Duat, destroying their lasting legacy in the world of the living.';;;;;;;;;;;x 
+EVTOPTA_PTAH_42;This is bad.;;;;;;;;;;;x

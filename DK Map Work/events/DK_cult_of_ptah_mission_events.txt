@@ -764,7 +764,18 @@ character_event = {
 # Priest good response - pious
 character_event = {
     id = PTAH.39
-    desc = EVTDESC_PTAH_39
+    desc = {
+        trigger = {
+            has_character_flag = kemetic_painter_truth
+        }
+        text = EVTDESC_PTAH_39_TRUTH
+    }
+    desc = {
+        trigger = {
+            has_character_flag = kemetic_painter_lie
+        }
+        text = EVTDESC_PTAH_39_LIE
+    }
     picture = GFX_event_picture_placeholder
 
     is_triggered_only = yes
@@ -779,7 +790,18 @@ character_event = {
 # Priest good response - proud
 character_event = {
     id = PTAH.40
-    desc = EVTDESC_PTAH_40
+    desc = {
+        trigger = {
+            has_character_flag = kemetic_painter_truth
+        }
+        text = EVTDESC_PTAH_40_TRUTH
+    }
+    desc = {
+        trigger = {
+            has_character_flag = kemetic_painter_lie
+        }
+        text = EVTDESC_PTAH_40_LIE
+    }
     picture = GFX_event_picture_placeholder
 
     is_triggered_only = yes
@@ -794,7 +816,18 @@ character_event = {
 # Priest bad response - should have asked permission
 character_event = {
     id = PTAH.41
-    desc = EVTDESC_PTAH_41
+    desc = {
+        trigger = {
+            has_character_flag = kemetic_painter_truth
+        }
+        text = EVTDESC_PTAH_41_TRUTH
+    }
+    desc = {
+        trigger = {
+            has_character_flag = kemetic_painter_lie
+        }
+        text = EVTDESC_PTAH_41_LIE
+    }
     picture = GFX_event_picture_placeholder
 
     is_triggered_only = yes
@@ -809,7 +842,18 @@ character_event = {
 # Priest bad response - quality is bad
 character_event = {
     id = PTAH.42
-    desc = EVTDESC_PTAH_42
+    desc = {
+        trigger = {
+            has_character_flag = kemetic_painter_truth
+        }
+        text = EVTDESC_PTAH_42_TRUTH
+    }
+    desc = {
+        trigger = {
+            has_character_flag = kemetic_painter_lie
+        }
+        text = EVTDESC_PTAH_42_LIE
+    }
     picture = GFX_event_picture_placeholder
 
     is_triggered_only = yes
