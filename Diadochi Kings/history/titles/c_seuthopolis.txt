@@ -1,5 +1,27 @@
-417.1.1 = { # 359 BC
-	holder = 40114
+316.1.1 = { # 460 BC
+	holder = 40103 # Teres I
+	liege = k_odrysia
+}
+331.1.1 = { # 445 BC
+	holder = 40104 # Sparadocus I
+}
+345.1.1 = { # 431 BC
+	holder = 40107 # Sitalces I
+}
+352.1.1 = { # 424 BC
+	holder = 40105 # Seuthes I
+}
+366.1.1 = { # 410 BC
+	holder = 40111 # Amadocus I
+}
+387.1.1 = { # 389 BC
+	holder = 40113 # Seuthes II
+}
+389.1.1 = { # 387 BC
+	holder = 40106 # Hebryzelmis I
+}
+392.1.1 = { # 384 BC
+	holder = 40114 # Cotys I
 }
 418.1.1 = { # 358 BC
 	holder = 40115 # Berisades
