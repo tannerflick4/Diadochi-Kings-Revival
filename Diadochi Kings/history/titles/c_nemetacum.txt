@@ -4,8 +4,5 @@
 	liege = d_atrebates
 }
 440.1.1 = { # 336 BC
-	holder = 470803 # Vertico of the Atrebates
-}
-440.1.1 = { # 336 BC
 	holder = 470804 # Divico of the Atrebates
 }

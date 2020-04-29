@@ -4,11 +4,11 @@
 	dynasty = 17023 # Popillii
 	religion = roman_main
 	culture = latin
-	365.1.1 = { # 410 BC Made up
+	375.1.1 = { # 410 BC Made up
 		birth="yes"
 	}
     385.1.1={ add_spouse=172216 }
-	425.1.1 = { # 338 BC Made up
+	435.1.1 = { # 338 BC Made up
 		death="yes"
 	}
 }
