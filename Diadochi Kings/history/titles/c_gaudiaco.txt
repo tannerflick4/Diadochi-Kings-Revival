@@ -7,9 +7,6 @@
 	holder = 236202 # Cavarinus of the Bituriges Cubi
 }
 435.1.1 = { # 341 BC
-	holder = 236203 # Eporedix of the Bituriges Cubi
-}
-435.1.1 = { # 341 BC
 	holder = 236204 # Cotus of the Bituriges Cubi
 }
 453.1.1 = { # 323 BC

@@ -49,7 +49,7 @@
 	culture=latin 
 	religion=roman_main
 	318.1.26={ birth=yes }
-	3338.1.1={ add_spouse=172130 }
+	338.1.1={ add_spouse=172130 }
 	370.5.25={ death=yes }
 }
 172105={
