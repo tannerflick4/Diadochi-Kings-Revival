@@ -756,8 +756,8 @@ character_event = {
 
     option = {
         name = EVTOPTA_PTAH_38
-
-        # TODO: Add cons / benefits.
+        
+        change_intrigue = 1
     }
 }
 
@@ -783,7 +783,13 @@ character_event = {
     option = {
         name = EVTOPTA_PTAH_39
 
-        # TODO: Add cons / benefits.
+        random = {
+            chance = 25
+            add_trait = zealous
+        }
+        piety = 50
+
+        add_society_currency_minor_effect = yes
     }
 }
 
@@ -809,7 +815,12 @@ character_event = {
     option = {
         name = EVTOPTA_PTAH_40
 
-        # TODO: Add cons / benefits.
+        random = {
+            chance = 25
+            add_trait = proud
+        }
+
+        add_society_currency_minor_effect = yes
     }
 }
 
@@ -835,7 +846,23 @@ character_event = {
     option = {
         name = EVTOPTA_PTAH_41
 
-        # TODO: Add cons / benefits.
+        random_list = {
+            25 = {
+                trigger = {
+                    NOT = { trait = stressed }
+                }
+                add_trait = stressed
+            }
+            25 = {
+                trigger = {
+                    NOT = { trait = depressed }
+                }
+                add_trait = depressed
+            }
+            100 = { }
+        }
+
+        detract_society_currency_minor_effect = yes
     }
 }
 
@@ -861,6 +888,22 @@ character_event = {
     option = {
         name = EVTOPTA_PTAH_42
 
-        # TODO: Add cons / benefits.
+        random_list = {
+            25 = {
+                trigger = {
+                    NOT = { trait = stressed }
+                }
+                add_trait = stressed
+            }
+            25 = {
+                trigger = {
+                    NOT = { trait = depressed }
+                }
+                add_trait = depressed
+            }
+            100 = { }
+        }
+
+        detract_society_currency_minor_effect = yes
     }
 }
