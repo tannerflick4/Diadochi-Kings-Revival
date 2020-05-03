@@ -20,9 +20,11 @@ EVTOPTA_PTAH_32;This is going to look so great!;;;;;;;;;;;x
 EVTDESC_PTAH_33;I gripped the small bundle of fibres and dipped the tip in my pigments. I raised the brush to the level of my chest and carefully stroked the tip on the wall to apply new colors to the painting. My focus did not flinch for I would ruin the painting if I was not careful. After several hours, I was looking at a fully restored painting showcasing the glory of the Great Ancestor.;;;;;;;;;;;x
 EVTOPTA_PTAH_33;I should be proud!;;;;;;;;;;;x
 EVTOPTB_PTAH_33;I made do with what I had.;;;;;;;;;;;x
-EVTDESC_PTAH_34;I arrived at my regular relaxation spot: it was at the painting of the Great Ancestor. I noticed something was different. The worn background near the vanquished Nubians had been filled in. The ornamentations of the chariots were clearly shown now. The painting had been restored by a mysterious visitor and whoever it was, they had certainly done a great job. Should I tell the priests about this?;;;;;;;;;;;x
+EVTDESC_PTAH_34_GOOD;I arrived at my regular relaxation spot: it was at the painting of the Great Ancestor. I noticed something was different. The worn background near the vanquished Nubians had been filled in. The ornamentations of the chariots were clearly shown now. The painting had been restored by a mysterious visitor and whoever it was, they had certainly done a great job. Should I tell the priests about this?;;;;;;;;;;;x
+EVTDESC_PTAH_34_BAD;I arrived at my regular relaxation spot: it was at the painting of the Great Ancestor, at least it used to depict him. Someone clearly botched a renovation of the painting and none of the characters and environments were recognisable anymore. You started feeling bad about this. The painting had been ruined by a mysterious visitor and whoever it was should never touch a paint brush again. Should I tell the priests about this?;;;;;;;;;;;x
 EVTOPTA_PTAH_34;I should tell them about this.;;;;;;;;;;;x
 EVTOPTB_PTAH_34;<You are stunned by the quality of the painting>;;;;;;;;;;;x
+EVTOPTC_PTAH_34;It is none of my business.;;;;;;;;;;;x
 EVTDESC_PTAH_36;I walking through the central square when [From.GetFirstName] approached me. He stated that another member of the cult had noticed one of the old paintings had been worked on even though the cult did not commission an artist to restore it. Afterwards, he asked the question that I had expected all along: "Do you know anything about this?".;;;;;;;;;;;x
 EVTOPTA_PTAH_36;I should tell [From.GetFirstName] that I restored the painting.;;;;;;;;;;;x
 EVTOPTB_PTAH_36;<Deny any involvement>;;;;;;;;;;;x
@@ -40,3 +42,10 @@ EVTOPTA_PTAH_41;I'm sorry, [From.GetFirstName].;;;;;;;;;;;x
 EVTDESC_PTAH_42_TRUTH;'Your honesty is commendable, but your initiative to restore the painting is not. You have single-handedly destroyed a painting that has decorated these walls for many centuries and you have defaced the work of the artisans who now rest in the Duat, destroying their lasting legacy in the world of the living.';;;;;;;;;;;x 
 EVTDESC_PTAH_42_LIE;'Your skills in lying are as good as your skills in painting. You have single-handedly destroyed a painting that has decorated these walls for many centuries and you have defaced the work of the artisans who now rest in the Duat, destroying their lasting legacy in the world of the living.';;;;;;;;;;;x 
 EVTOPTA_PTAH_42;This is bad.;;;;;;;;;;;x
+EVTDESC_PTAH_43;[From.GetFirstName] approached me one day to talk about the painting. 'We have been unable to find the person who worked on the painting. The mystery will probably never be able to be solved. Thank you for telling us about it though';;;;;;;;;;;x
+EVTOPTA_PTAH_43;We'll see.;;;;;;;;;;;x
+EVTDESC_PTAH_44;[From.GetFirstName] approached me one day to talk about the painting. 'We have found that [painter_target.GetFirstName] has done the restoration of the painting. The temples owes [painter_target.GetHerHim] for [painter_target.GetHerHis] work. Thank you for telling us about it, as otherwise [painter_target.GetSheHe] would remain without praise.';;;;;;;;;;;x
+EVTOPTA_PTAH_44;[painter_target.GetFirstName], huh?;;;;;;;;;;;x
+EVTDESC_PTAH_45;[From.GetFirstName] approached me one day to talk about the painting. 'We have found that [painter_target.GetFirstName] has done the "restoration" of the painting. The temple will keep an eye on [painter_target.GetHerHim] so that [painter_target.GetSheHe] will not cause any other issues. Thank you for informing us about the ruination [painter_target.GetSheHe] has caused.';;;;;;;;;;;x
+EVTOPTA_PTAH_45;[painter_target.GetFirstName] will fear my wrath!;;;;;;;;;;;x
+EVTOPTB_PTAH_45;I wouldn't expect [painter_target.GetFirstName] would do this.;;;;;;;;;;;x

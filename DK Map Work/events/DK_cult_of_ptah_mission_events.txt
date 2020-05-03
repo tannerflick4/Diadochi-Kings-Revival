@@ -72,7 +72,6 @@ character_event = {
 society_quest_event = {
     id = PTAH.11
     desc = EVTDESC_PTAH_11
-    # TODO: Do we need a quest target for the temple?
 
     is_triggered_only = yes
     
@@ -188,6 +187,30 @@ character_event = {
     }
 }
 
+# Tombola for temple service flavour.
+character_event = {
+    id = PTAH.21
+    hide_window = yes
+
+    trigger = {
+        NOT = { trait = blinded } # Blind characters do not see any paintings.
+        has_character_flag = kemetic_temple_arrived
+        NOT = { has_character_flag = kemetic_temple_painting_dilemma }
+    }
+
+    mean_time_to_happen = {
+        months = 3
+    }
+
+    immediate = {
+        random_list = {
+            1 = {
+                character_event = { id = PTAH.30 }
+            }
+        }
+    }
+}
+
 # EVENT SERIES: Deteriorated wall needs to be repainted?
 # Events PTAH.30 - PTAH.59
 
@@ -197,18 +220,11 @@ character_event = {
     desc = EVTDESC_PTAH_30
     picture = GFX_event_picture_placeholder
 
-    trigger = {
-        NOT = { trait = blinded } # Blind characters do not see any paintings.
-        has_character_flag = kemetic_temple_arrived
-        NOT = { has_character_flag = kemetic_temple_painting_dilemma }
-    }
-
-    mean_time_to_happen = { # TODO: Customize this
-        months = 1
-    }
+    is_triggered_only = yes
 
     immediate = {
         set_character_flag = kemetic_temple_painting_dilemma
+        save_event_target_as = painter_target
     }
 
     option = { # The character fixes it himself to impress the priesthood.
@@ -357,7 +373,10 @@ character_event = {
 
         set_character_flag = kemetic_painting_incorrect_colors
 
-        # TODO: Add event.
+        # Character finishes the painting.
+        hidden_tooltip = { 
+            character_event = { id = PTAH.33 }
+        }
     }
 
     option = { # Character gives up completely.
@@ -465,7 +484,15 @@ character_event = {
 
                     set_character_flag = kemetic_painting_bad_quality
 
-                    # TODO: Add events for the bad outcome.
+                    random_society_member = {
+                        limit = {
+                            society_member_of = dk_cult_of_ptah
+                            NOT = { trait = blinded } # Blind characters do not see any paintings.
+                            has_character_flag = kemetic_temple_arrived
+                            NOT = { character = ROOT }
+                        }
+                        character_event = { id = PTAH.34 days = 4 random = 5 }
+                    }
                 }
             }
         }
@@ -505,7 +532,16 @@ character_event = {
                     painting_bad_outcome_score = yes
 
                     set_character_flag = kemetic_painting_bad_quality
-                    # TODO: Add events for the bad outcome.
+
+                    random_society_member = {
+                        limit = {
+                            society_member_of = dk_cult_of_ptah
+                            NOT = { trait = blinded } # Blind characters do not see any paintings.
+                            has_character_flag = kemetic_temple_arrived
+                            NOT = { character = ROOT }
+                        }
+                        character_event = { id = PTAH.34 days = 4 random = 5 }
+                    }
                 }
             }
         }
@@ -517,10 +553,25 @@ character_event = {
 # Another character sees the vastly improved painting and tells the priests.
 character_event = {
     id = PTAH.34
-    desc = EVTDESC_PTAH_34
+    desc = {
+        trigger = {
+            event_target:painter_target = { has_character_flag = kemetic_painting_good_quality }
+        }
+        text = EVTDESC_PTAH_34_GOOD
+    }
+    desc = {
+        trigger = {
+            event_target:painter_target = { has_character_flag = kemetic_painting_bad_quality }
+        }
+        text = EVTDESC_PTAH_34_BAD
+    }
     picture = GFX_event_picture_placeholder
 
     is_triggered_only = yes
+
+    immediate = {
+        save_event_target_as = painting_finder_target
+    }
 
     option = { # I should tell the priests.
         name = EVTOPTA_PTAH_34
@@ -560,6 +611,9 @@ character_event = {
 
     option = { # Marvel at the painting.
         name = EVTOPTB_PTAH_34
+        trigger = {
+            event_target:painter_target = { has_character_flag = kemetic_painting_good_quality }
+        }
         ai_chance = {
             factor = 2
 
@@ -609,6 +663,34 @@ character_event = {
             random = {
                 chance = 10
                 remove_trait = depressed
+            }
+        }
+    }
+    option = {
+        name = EVTAOPTC_PTAH_34
+        trigger = {
+            event_target:painter_target = { has_character_flag = kemetic_painting_bad_quality }
+        }
+        ai_chance = {
+            factor = 2
+
+            modifier = { # Encourage depressed or stressed characters to rest.
+                factor = 2
+                OR = {
+                    trait = depressed
+                    trait = stressed
+                }
+            }
+            modifier = { # Proud (nationalist) nubians won't marvel at the painting that depicts their weaknesses.
+                factor = 0.5
+                AND = {
+                    culture = nubian
+                    trait = proud
+                }
+            }
+            modifier = { # Lazy characters are likely to give up.
+                factor = 2
+                trait = slothful
             }
         }
     }
@@ -666,85 +748,63 @@ character_event = {
     is_triggered_only = yes
 
     immediate = {
-        if = {
-            limit = {
-                FROM = { has_character_flag = kemetic_painter_lie }
+        random_list = {
+            60 = { # Priest believes the lie if he is honest or bad at intrigue.
+                modifier = { # Only happens when the character has actually lied.
+                    factor = 0
+                    NOT = { has_character_flag = kemetic_painter_lie }
+                }
+                modifier = { # Low intrigue causes the character to believe the lie.
+                    factor = 1.25
+                    intrigue < 8
+                }
+                modifier = { # Low intrigue causes the character to believe the lie.
+                    factor = 1.5
+                    intrigue < 6
+                }
+                modifier = { # Low intrigue causes the character to believe the lie.
+                    factor = 2
+                    intrigue < 4
+                }
+                modifier = { # Honest characters are more likely to believe a lie.
+                    factor = 1.5
+                    trait = honest
+                }
+                modifier = { # If the character has high intrigue, he will always see through the lie.
+                    factor = 0
+                    intrigue = 15
+                }
+
+                FROM = { character_event = { id = PTAH.38 }}
+                event_target:painting_finder_target = { character_event = { id = PTAH.43 days = 2 } }
             }
+            30 = { # Priest has a good response from piety.
+                painting_priest_pious_score = yes
 
-            random_list = {
-                60 = { # Priest believes the lie if he is honest or bad at intrigue.
-                    modifier = { # Low intrigue causes the character to believe the lie.
-                        factor = 1.25
-                        intrigue < 8
-                    }
-                    modifier = { # Low intrigue causes the character to believe the lie.
-                        factor = 1.5
-                        intrigue < 6
-                    }
-                    modifier = { # Low intrigue causes the character to believe the lie.
-                        factor = 2
-                        intrigue < 4
-                    }
-                    modifier = { # Honest characters are more likely to believe a lie.
-                        factor = 1.5
-                        trait = honest
-                    }
-                    modifier = { # If the character has high intrigue, he will always see through the lie.
-                        factor = 0
-                        intrigue = 15
-                    }
-
-                    FROM = { character_event = { id = PTAH.38 }}
-                }
-                30 = { # Priest has a good response from piety.
-                    painting_priest_pious_score = yes
-
-                    FROM = { character_event = { id = PTAH.39 }}
-                }
-                30 = { # Priest has a good response from pride.
-                    painting_priest_proud_score = yes
-
-                    FROM = { character_event = { id = PTAH.40 }}
-                }
-                30 = { # Priest has a bad response as he believes the character should have asked permission first.
-                    painting_priest_authoritarian_score = yes
-
-                    FROM = { character_event = { id = PTAH.41 }}
-                }
-                30 = { # Priest has a bad response as he thinks the painting is shit.
-                    painting_priest_bad_quality_score = yes
-
-                    FROM = { character_event = { id = PTAH.42 }}
-                }
+                FROM = { character_event = { id = PTAH.39 } }
+                event_target:painting_finder_target = { character_event = { id = PTAH.44 days = 2 } }
             }
-        } else = {
-            random_list = {
-                30 = { # Priest has a good response from piety.
-                    painting_priest_pious_score = yes
+            30 = { # Priest has a good response from pride.
+                painting_priest_proud_score = yes
 
-                    FROM = { character_event = { id = PTAH.39 }}
-                }
-                30 = { # Priest has a good response from pride.
-                    painting_priest_proud_score = yes
+                FROM = { character_event = { id = PTAH.40 } }
+                event_target:painting_finder_target = { character_event = { id = PTAH.44 days = 2 } }
+            }
+            30 = { # Priest has a bad response as he believes the character should have asked permission first.
+                painting_priest_authoritarian_score = yes
 
-                    FROM = { character_event = { id = PTAH.40 }}
-                }
-                30 = { # Priest has a bad response as he believes the character should have asked permission first.
-                    painting_priest_authoritarian_score = yes
+                FROM = { character_event = { id = PTAH.41 } }
+                event_target:painting_finder_target = { character_event = { id = PTAH.45 days = 2 } }
+            }
+            30 = { # Priest has a bad response as he thinks the painting is shit.
+                painting_priest_bad_quality_score = yes
 
-                    FROM = { character_event = { id = PTAH.41 }}
-                }
-                30 = { # Priest has a bad response as he thinks the painting is shit.
-                    painting_priest_bad_quality_score = yes
-
-                    FROM = { character_event = { id = PTAH.42 }}
-                }
+                FROM = { character_event = { id = PTAH.42 } }
+                event_target:painting_finder_target = { character_event = { id = PTAH.45 days = 2 } }
             }
         }
     }
 }
-
-# TODO: Add notification to the person who found the restored painting.
 
 # Priest believes the lie if he has bad intrigue skills
 character_event = {
@@ -907,3 +967,148 @@ character_event = {
         detract_society_currency_minor_effect = yes
     }
 }
+
+# Finder lie response
+character_event = {
+    id = PTAH.43
+    desc = EVTDESC_PTAH_43
+    picture = GFX_event_picture_placeholder
+
+    is_triggered_only = yes
+
+    option = {
+        name = EVTOPTA_PTAH_43
+    }
+}
+
+# Finder good response
+character_event = {
+    id = PTAH.44
+    desc = EVTDESC_PTAH_44
+    picture = GFX_event_picture_placeholder
+
+    is_triggered_only = yes
+
+    option = {
+        name = EVTOPTA_PTAH_44
+    }
+}
+
+# Finder bad response
+character_event = {
+    id = PTAH.45
+    desc = EVTDESC_PTAH_45
+    picture = GFX_event_picture_placeholder
+
+    is_triggered_only = yes
+
+    option = { # Character starts rivalling the painter.
+        name = EVTOPTA_PTAH_45
+        trigger = {
+            NOT = { is_rival = event_target:painter_target }
+        }
+        ai_chance = {
+            factor = 1
+
+            modifier = {
+                factor = 1.25
+                opinion = { who = event_target:painter_target value = -30}
+            }
+            modifier = {
+                factor = 1.75
+                opinion = { who = event_target:painter_target value = -75}
+            }
+            modifier = {
+                factor = 0
+                opinion = { who = event_target:painter_target value = 30}
+            }
+        }
+
+        add_rival = event_target:painter_target
+    }
+    option = { # Character doesn't care.
+        name = EVTOPTB_PTAH_45
+        ai_chance = {
+            factor = 1
+
+            modifier = { # Proud (nationalist) nubians do not care.
+                factor = 0.5
+                AND = {
+                    culture = nubian
+                    trait = proud
+                }
+            }
+            modifier = {
+                factor = 2
+                trait = content
+            }
+        }
+    }
+}
+
+# Ping event for priest when 'painter' tells about the state of the painting.
+character_event = {
+    id = PTAH.46
+    hide_window = yes
+
+    is_triggered_only = yes
+
+    immediate = {
+        random_list = {
+            50 = { # Character stutters.
+                modifier = { # Character needs to be likely to stutter.
+                    factor = 0
+                    NOR = {
+                        trait = stutter
+                        trait = shy
+                        trait = stressed
+                    }
+                }
+                modifier = { # Stressed characters are less likely to stutter.
+                    factor = 0.5
+                    trait = stressed
+                }
+
+                FROM = { set_character_flag = painter_stutterer }
+            }
+            50 = { # Character does not stutter.
+                modifier = { # Stutters will never deliver a good response.
+                    factor = 0
+                    trait = stutter
+                }
+
+                FROM = { set_character_flag = painter_normal }
+            }
+        }
+
+        FROM = { character_event = { id = PTAH.47 } }
+    }
+}
+
+# Character tells a priest
+character_event = {
+    id = PTAH.47
+    desc = {
+        trigger = { has_character_flag = painter_stutterer }
+        text = EVTDESC_PTAH_47_STUTTERER
+    }
+    desc = {
+        trigger = { has_character_flag = painter_normal }
+        text = EVTDESC_PTAH_47_NORMAL
+    }
+    picture = GFX_event_picture_placeholder
+
+    is_triggered_only = yes
+
+    option = {
+        name = EVTOPTA_PTAH_47
+    }
+}
+
+# TODO: Priest responds.
+
+# TODO: Priest thanks the character.
+
+# TODO: Priest tells character off.
+
+# TODO: Priest ridicules the character.
