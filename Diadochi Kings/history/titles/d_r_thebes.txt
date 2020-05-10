@@ -3,10 +3,19 @@
 	government = merchant_republic_government
 }
 438.8.2 = { # 338 BC, Battle of Chaeronea
-	liege = k_macedon
+	liege = e_macedonia
 }
 441.1.1 = { # 335 BC
 	holder = 30603
+}
+453.6.10 = {
+	liege = k_s_macedon	
+}
+459.9.1 = { # 317 BC	
+	liege = k_cassander
+}
+459.10.1 = { # 317 BC	
+	liege = k_macedon
 }
 463.6.1 = { # 313 BC
 	holder = 0

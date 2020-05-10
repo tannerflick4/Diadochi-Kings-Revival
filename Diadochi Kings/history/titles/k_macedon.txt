@@ -78,11 +78,11 @@
 453.6.10 = {
 	holder = 801 # Philip III
 }
-459.12.25 = {
-	holder = 808 # Alexander IV
+459.10.1 = {
+	holder = 2 # Kassandros
+	liege = k_macedon
 }
 467.1.1 = {
-	holder = 2 # Kassandros
 	liege = 0
 }
 479.1.1 = {

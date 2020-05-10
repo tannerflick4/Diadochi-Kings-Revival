@@ -9,17 +9,22 @@
 	holder = 803 # Philip II
 	liege = k_macedon
 }
+426.1.1 = { # 350 BC
+	liege = e_macedonia
+}
 440.10.1 = {
 	holder = 802 # Alexander III
 }
 453.6.10 = {
-	holder = 801 # Philip III
+	holder = 1
+	liege = k_s_macedon	
 }
-459.12.25 = {
-	holder = 808 # Alexandros IV
+457.1.1 = {
+	holder = 1601 # Polyperchon
 }
-467.1.1 = {
+459.10.1 = {
 	holder = 2 # Kassandros
+	liege = k_macedon
 }
 479.1.1 = { # 297 BC
 	holder = 12 # Philippos IV

@@ -24,12 +24,13 @@
 	holder = 802 # Alexander III
 }
 453.6.10 = {
-	holder = 801 # Philip III
+	holder = 1 # Antipater
+	liege = k_s_macedon
+}	
+453.9.1 = {
+	holder = 30301 # Menon of Pharsalus
+	liege = 0 # Lamian war	
 }
-457.1.1 = {
-	holder = 1601 # Polyperchon
-}
-461.1.1 = {
+455.1.1 = {
 	holder = 0
-	liege = 0
 }

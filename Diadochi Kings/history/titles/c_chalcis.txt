@@ -9,33 +9,38 @@
 }
 451.1.1 = { # 325 BC
 	holder = 802 # Alexander
-	liege = k_macedon
+	liege = e_macedonia
 }
-453.6.10 = {
-	holder = 801 # Philip III
+453.6.10 = { # 323 BC
+	holder = 1
+	liege = k_s_macedon	
 }
-459.12.25 = {
-	holder = 808 # Alexandros IV
+457.1.1 = {	 # 319 BC
+	holder = 1601 # Polyperchon	
 }
-463.6.1 = {
-	holder = 411 # Ptolemy, nephew of Antigonos
-	liege = k_s_phrygia
-}
-466.1.1 = {
-	liege = 0
-}
-467.1.1 = {
-	holder = 601 # Ptolemy I
-	liege = e_egypt
-}
-468.3.1 = {
+459.9.1 = { # 317 BC
 	holder = 2 # Kassandros
 	liege = k_macedon	
 }
-473.8.1 = {
+463.6.1 = { # 313 BC
+	holder = 411 # Ptolemy, nephew of Antigonos
+	liege = k_s_phrygia
+}
+466.1.1 = { # 310 BC
+	liege = 0
+}
+467.1.1 = { # 309 BC
+	holder = 601 # Ptolemy I
+	liege = e_egypt
+}
+468.3.1 = { # 308 BC
+	holder = 2 # Kassandros
+	liege = k_macedon	
+}
+473.8.1 = { # 303 BC
 	holder = 402 # Demetrius
 	liege = e_asia
 }
-493.1.1 = {
+493.1.1 = { # 283 BC
 	holder = 408 # Antigonos Gonatas
 }

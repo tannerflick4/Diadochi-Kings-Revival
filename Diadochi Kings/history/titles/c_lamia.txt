@@ -28,18 +28,19 @@
 434.1.1 = {
 	holder = 30301 # Menon of Pharsalus
 }
-453.6.10 = {
-	holder = 801 # Philip III
+455.1.1 = {	
+	holder = 1 # Antipater	
+	liege = k_s_macedon	
 }
 457.1.1 = {
 	holder = 1601 # Polyperchon
 }
-461.1.1 = {
-	holder = 808 # Alexandros IV
-	liege = k_macedon
-}
-467.1.1 = {
+459.9.1 = { # 317 BC
 	holder = 2 # Kassandros
+	liege = k_cassander
+}
+459.10.1 = { # 317 BC	
+	liege = k_macedon
 }
 473.8.1 = {
 	holder = 402 # Demetrius

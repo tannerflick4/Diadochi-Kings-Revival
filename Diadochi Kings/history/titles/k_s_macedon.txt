@@ -1,9 +1,12 @@
-457.1.1 = {
+453.6.10 = {	
+	holder = 1	
+	liege = e_macedonia	
 	de_jure_liege = e_macedonia
-	liege = e_macedonia
-	holder = 1601 # Polyperchon
-}
-461.1.1 = {
-	holder = 0
-	liege = 0
+}	
+457.1.1 = {	
+	holder = 1601 # Polyperchon	
+}	
+467.1.1 = {	
+	holder = 0	
+	liege = 0	
 }

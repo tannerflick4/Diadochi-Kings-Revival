@@ -7,13 +7,10 @@
 445.1.1 = { # 331 BC
 	holder = 23802 
 }
-457.1.1 = { # 319 BC
-	holder = 801 # Philip III
+453.6.10 = {
+	liege = k_s_macedon	
 }
-459.12.25 = {
-	holder = 808 # Alexandros IV
-}
-467.1.1 = {
+457.1.1 = {
 	holder = 1601 # Polyperchon
 }
 479.1.1 = { # 297 BC

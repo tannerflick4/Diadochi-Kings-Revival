@@ -15,19 +15,21 @@
 }
 430.7.19 = {
 	holder = 803 # Philip II
-	liege = k_macedon
+	liege = e_macedonia
 }
 440.10.1 = {
 	holder = 802 # Alexander III
 }
 453.6.10 = {
-	holder = 801 # Philip III
+	holder = 1
+	liege = k_s_macedon	
 }
-459.12.25 = {
-	holder = 808 # Alexandros IV
+457.1.1 = {
+	holder = 1601 # Polyperchon
 }
-467.1.1 = {
+459.10.1 = {
 	holder = 2 # Kassandros
+	liege = k_macedon
 }
 473.8.1 = {
 	holder = 402 # Demetrius

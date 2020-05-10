@@ -4,11 +4,20 @@
 418.1.1 = { # 358 BC
 	liege = k_macedon
 }
+426.1.1 = {	
+	liege = e_macedonia	
+}
 430.1.1 = { # 346 BC
 	holder = 150302 # Teutamado of the Doberes
 }
 452.1.1 = { # 324 BC
 	holder = 150303 # Agron of the Doberes
+}
+453.6.10 = {	
+	liege = k_s_macedon	
+}	
+459.10.1 = {	
+	liege = k_macedon	
 }
 466.1.1 = { # 310 BC
 	liege = k_tylis

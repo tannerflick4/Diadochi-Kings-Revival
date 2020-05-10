@@ -6,12 +6,18 @@
 	holder = 23302
 }
 438.8.2 = { # 338 BC, Battle of Chaeronea
-	liege = k_macedon
+	liege = e_macedonia
 }
 443.1.1 = { # 333 BC
 	holder = 23303
 }
-479.1.1 = { # 397 BC
+453.6.10 = {
+	liege = k_s_macedon	
+}
+459.10.1 = {
+	liege = k_macedon	
+}
+479.1.1 = { # 297 BC
 	liege = 0 # Cut off from Macedonia
 }
 489.1.1 = { # 287 BC

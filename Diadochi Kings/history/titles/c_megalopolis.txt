@@ -6,7 +6,10 @@
 	holder = 110203
 }
 438.8.2 = { # 338 BC, Battle of Chaeronea
-	liege = k_macedon
+	liege = e_macedonia
+}
+453.6.10 = { # 323 BC	
+	liege = k_s_macedon	
 }
 461.8.1 = { # 315 BC
 	liege = d_peloponnese

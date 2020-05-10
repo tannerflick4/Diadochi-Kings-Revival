@@ -30,11 +30,12 @@ character_event = {
 	immediate = {
 		e_macedonia = {
 			holder_scope = {
-				random_vassal = {
+				random_vassal = { # Polyperchon declares war for the regency.
 					limit = {
 						character = 1601
 					}
-					reverse_war = {
+					give_minor_title = title_regent
+					reverse_unsafe_war = {
 						target = ROOT
 						casus_belli = regency_war_cb
 					}
