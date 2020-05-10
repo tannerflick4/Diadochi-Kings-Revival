@@ -1105,10 +1105,192 @@ character_event = {
     }
 }
 
-# TODO: Priest responds.
+# Priest responds.
+character_event = {
+    id = PTAH.48
+    desc = {
+        trigger = { FROM = { has_character_flag = painter_stutterer } }
+        text = EVTDESC_PTAH_48_STUTTERER
+    }
+    desc = {
+        trigger = { FROM = { has_character_flag = painter_normal } }
+        text = EVTDESC_PTAH_48_NORMAL
+    }
+    picture = GFX_event_picture_placeholder
 
-# TODO: Priest thanks the character.
+    is_triggered_only = yes
 
-# TODO: Priest tells character off.
+    option = { # Priest thanks the character and promises to handle it.
+        name = EVTOPTA_PTAH_48
+        ai_chance = {
+            factor = 2
 
-# TODO: Priest ridicules the character.
+            modifier = { # Ambitious or diligent characters will want to handle the issue.
+                factor = 1.5
+                OR = {
+                    trait = ambitious
+                    trait = diligent
+                }
+            }
+            modifier = { # Someone who has a negative opinion of someone may tell them off.
+                factor = 0.75
+                opinion = {
+                    who = ROOT
+                    value <= -25
+                }
+            }
+            modifier = { # Someone who has a positive opinion of a character is like likely to tell them off.
+                factor = 1.25
+                opinion = {
+                    who = ROOT
+                    value >= 25
+                }
+            }
+            modifier = { # Zealous character will want the painting to be fixed.
+                factor = 1.5
+                trait = zealous
+            }
+        }
+
+        FROM = { character_event = { id = PTAH.49 } }
+    }
+    option = { # Priest doesn't want to be concerned with this.
+        name = EVTOPTB_PTAH_48
+        ai_chance = {
+            factor = 2
+
+            modifier = { # Lazy characters don't want to deal with any other problems.
+                factor = 2
+                trait = slothful
+            }
+            modifier = { # Ambitious or diligent characters will want to handle the issue.
+                factor = 0.5
+                OR = {
+                    trait = ambitious
+                    trait = diligent
+                }
+            }
+            modifier = { # Someone who has a negative opinion of someone may tell them off.
+                factor = 1.25
+                opinion = {
+                    who = ROOT
+                    value <= -25
+                }
+            }
+            modifier = { # Someone who has a positive opinion of a character is like likely to tell them off.
+                factor = 0.75
+                opinion = {
+                    who = ROOT
+                    value >= 25
+                }
+            }
+            modifier = { # Someone who has social issues is less likely to confront someone.
+                factor = 0.75
+                OR = {
+                    trait = shy
+                    trait = stutter
+                    trait = stressed
+                    trait = depressed
+                }
+            }
+        }
+
+        FROM = { character_event = { id = PTAH.50 } }
+    }
+    option = { # Priest ridicules a stutterer.
+        name = EVTOPTC_PTAH_48
+        trigger = { FROM = { has_character_flag = painter_stutterer } }
+        ai_chance = {
+            factor = 1
+
+            modifier = { # A person will always humiliate a rival.
+                factor = 50
+                is_rival = FROM
+            }
+            modifier = { # Someone who has a negative opinion of someone may humiliate them.
+                factor = 2
+                opinion = {
+                    who = ROOT
+                    value <= -25
+                }
+            }
+            modifier = { # Someone who has a positive opinion of a character will never humiliate them.
+                factor = 0
+                opinion = {
+                    who = ROOT
+                    value >= 25
+                }
+            }
+            modifier = { # Someone who is kind will never humiliate another.
+                factor = 0
+                trait = kind
+            }
+            modifier = { # Someone who is likely to stutter will not humiliate another for stuttering.
+                factor = 0.75
+                OR = {
+                    trait = shy
+                    trait = stutter
+                }
+            }
+            modifier = { # Proud or envious may be more likely to bully someone.
+                factor = 1.5
+                OR = {
+                    trait = proud
+                    trait = envious
+                }
+            }
+        }
+
+        FROM = {
+			opinion = {
+				modifier = opinion_humiliated_me
+				who = FROM
+			}
+            character_event = { id = PTAH.51 }
+        }
+    }
+}
+
+# Priest thanks the character.
+character_event = {
+    id = PTAH.49
+    desc = EVTDESC_PTAH_49
+    picture = GFX_event_picture_placeholder
+
+    is_triggered_only = yes
+
+    option = {
+        name = EVTOPTA_PTAH_49
+    }
+}
+
+# Priest tells character off.
+character_event = {
+    id = PTAH.50
+    desc = EVTDESC_PTAH_50
+    picture = GFX_event_picture_placeholder
+
+    is_triggered_only = yes
+
+    option = {
+        name = EVTOPTA_PTAH_50
+    }
+}
+
+# Priest ridicules the character.
+character_event = {
+    id = PTAH.51
+    desc = EVTDESC_PTAH_51
+    picture = GFX_event_picture_placeholder
+
+    is_triggered_only = yes
+
+    option = {
+        name = EVTOPTA_PTAH_51
+
+        random = {
+            factor = 25
+            add_trait = depressed
+        }
+    }
+}
