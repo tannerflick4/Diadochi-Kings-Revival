@@ -727,7 +727,7 @@ character_event = {
         name = EVTOPTB_PTAH_36
 
         if = {
-            limit { 
+            limit = { 
                 NOT = { trait = deceitful }
             }
 
