@@ -9,3 +9,4 @@
 	# 260701-260800 for the Koufri dynasty
 	# 260801-260900 for the Kawari dynasty
 	# 260901-261000 for the Gati dynasty
+	# 261001-261100 for the Maray dynasty
