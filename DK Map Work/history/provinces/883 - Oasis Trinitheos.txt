@@ -5,7 +5,7 @@ title = c_oasis_trinitheos
 
 # Settlements
 max_settlements = 2
-b_oasis_trinitheos_oasis_trinitheos = castle
+b_oasis_trinitheos_oasis_trinitheos = tribal
 b_besai_oasis_trinitheos = city
 #b_pokis_oasis_trinitheos = castle
 #b_paploou_oasis_trinitheos = temple

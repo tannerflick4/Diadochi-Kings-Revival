@@ -43,3 +43,7 @@
 	name = "Maray"
 	culture = berber
 }
+26012 = { # Libyan Oaisis
+	name = "Oasitai"
+	culture = berber
+}

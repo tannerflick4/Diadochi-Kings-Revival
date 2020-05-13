@@ -5,7 +5,7 @@ title = c_oasis_parva
 
 # Settlements
 max_settlements = 2
-b_oasis_parva_oasis_parva = castle
+b_oasis_parva_oasis_parva = tribal
 b_harra_oasis_parva = city
 #b_tablamon_oasis_parva = city
 #b_houor_oasis_parva = temple
