@@ -1,3 +1,13 @@
+# 25th dynasty capital #
+70.1.1 = { 
+	holder = 290206 #Shabatka, 706-690 BCE
+} 
+86.1.1 = { 
+	holder = 290207 #Taharqa, 690-664 BCE
+} 
+112.1.1 = { 
+	holder = 290208 #Tantamani, 664-656 BCE 
+} 
 308.1.1 = { # 468 BC
 	holder = 290007 # Nasakhma 
 }

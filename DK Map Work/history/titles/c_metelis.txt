@@ -1,3 +1,36 @@
+# 24th Dynasty capital (Sais) #
+44.1.1 = { 
+	holder = 350033 #Tefnakht I, 732-730 BCE
+}
+46.1.1 = { 
+	holder = 290204 #Piye, 725-721 BCE
+} 
+55.1.1 = { 
+	holder = 290205 #Shabaka, 721-720 BCE
+} 
+# 26th dynasty capital (Sais) #
+120.1.1 = { 
+	holder = 350039 #Psamtik I, 656-610 BCE
+} 
+166.1.1 = { 
+	holder = 350041 #Nechos II, 610-595 BCE
+} 
+181.1.1 = { 
+	holder = 350042 #Psamtik II, 595-589 BCE
+} 
+187.1.1 = { 
+	holder = 350043 #Wahibre, 589-570 BCE
+} 
+206.1.1 = { 
+	holder = 350051 #Amasis II, 570-526 BCE
+} 
+250.1.1 = { 
+	holder = 350052 #Psamtik III, 526-525 BCE
+} 
+# 28th dynasty (supposedly in Sais) #
+372.1.1 = { 
+	holder = 350058 #Amenirdisu, 404-398 BCE 
+} 
 417.1.1 = {
 	holder = 350001 # Nectanebo II
 }
