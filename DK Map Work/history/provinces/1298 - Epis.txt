@@ -1,0 +1,15 @@
+# 1298 - Epis
+
+# County Title
+title = c_epis
+
+# Settlements
+max_settlements = 6
+b_epis_epis = castle
+
+# Misc
+culture = nubian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

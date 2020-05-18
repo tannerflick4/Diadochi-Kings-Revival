@@ -13698,6 +13698,111 @@ k_kush = {
 			b_acina_pdeme = {
 			}
 		}
+		c_araba = {
+			color={ 235 255 35 }
+			color2={ 255 255 255 }
+			
+			b_araba_araba = {
+			}
+		}
+		c_epis = {
+			color={ 235 255 35 }
+			color2={ 255 255 255 }
+			
+			b_epis_epis = {
+			}
+		}
+		c_alana = {
+			color={ 235 255 35 }
+			color2={ 255 255 255 }
+			
+			b_alana_alana = {
+			}
+		}
+		c_gora = {
+			color={ 235 255 35 }
+			color2={ 255 255 255 }
+			
+			b_gora_gora = {
+			}
+		}
+		c_nuri = {
+			color={ 235 255 35 }
+			color2={ 255 255 255 }
+			
+			b_nuri_nuri = {
+			}
+		}
+		c_marru = {
+			color={ 235 255 35 }
+			color2={ 255 255 255 }
+			
+			b_marru_marru = {
+			}
+		}
+		c_dumana = {
+			color={ 235 255 35 }
+			color2={ 255 255 255 }
+			
+			b_dumana_dumana = {
+			}
+		}
+		c_mambli = {
+			color={ 235 255 35 }
+			color2={ 255 255 255 }
+			
+			b_mambli_mambli = {
+			}
+		}
+		c_urbim = {
+			color={ 235 255 35 }
+			color2={ 255 255 255 }
+			
+			b_urbim_urbim = {
+			}
+		}
+		c_orsum = {
+			color={ 235 255 35 }
+			color2={ 255 255 255 }
+			
+			b_orsum_orsum = {
+			}
+		}
+		c_semna = {
+			color={ 235 255 35 }
+			color2={ 255 255 255 }
+			
+			b_semna_semna = {
+			}
+		}
+		c_serra = {
+			color={ 235 255 35 }
+			color2={ 255 255 255 }
+			
+			b_serra_serra = {
+			}
+		}
+		c_premis = {
+			color={ 235 255 35 }
+			color2={ 255 255 255 }
+			
+			b_premis_premis = {
+			}
+		}
+		c_nalote = {
+			color={ 235 255 35 }
+			color2={ 255 255 255 }
+			
+			b_nalote_nalote = {
+			}
+		}
+		c_sabagura = {
+			color={ 235 255 35 }
+			color2={ 255 255 255 }
+			
+			b_sabagura_sabagura = {
+			}
+		}
 	}
 	d_meroe = {
 		color={ 225 255 0 }

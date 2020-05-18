@@ -1,0 +1,15 @@
+# 1295 - Nuri
+
+# County Title
+title = c_nuri
+
+# Settlements
+max_settlements = 6
+b_nuri_nuri = castle
+
+# Misc
+culture = nubian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

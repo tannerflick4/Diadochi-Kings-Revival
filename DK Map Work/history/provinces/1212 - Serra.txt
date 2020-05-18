@@ -1,0 +1,15 @@
+# 1212 - Serra
+
+# County Title
+title = c_serra
+
+# Settlements
+max_settlements = 6
+b_serra_serra = castle
+
+# Misc
+culture = nubian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

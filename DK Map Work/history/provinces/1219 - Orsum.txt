@@ -1,0 +1,15 @@
+# 1219 - Orsum
+
+# County Title
+title = c_orsum
+
+# Settlements
+max_settlements = 6
+b_orsum_orsum = castle
+
+# Misc
+culture = nubian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

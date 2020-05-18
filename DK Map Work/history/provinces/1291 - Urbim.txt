@@ -1,0 +1,15 @@
+# 1291 - Urbim
+
+# County Title
+title = c_urbim
+
+# Settlements
+max_settlements = 6
+b_urbim_urbim = castle
+
+# Misc
+culture = nubian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

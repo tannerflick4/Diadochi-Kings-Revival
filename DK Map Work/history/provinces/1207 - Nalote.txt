@@ -1,0 +1,15 @@
+# 1207 - Nalote
+
+# County Title
+title = c_nalote
+
+# Settlements
+max_settlements = 6
+b_nalote_nalote = castle
+
+# Misc
+culture = nubian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

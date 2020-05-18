@@ -1,0 +1,15 @@
+# 1297 - Alana
+
+# County Title
+title = c_alana
+
+# Settlements
+max_settlements = 6
+b_alana_alana = castle
+
+# Misc
+culture = nubian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

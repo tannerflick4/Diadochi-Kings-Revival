@@ -1,0 +1,15 @@
+# 1294 - Marru
+
+# County Title
+title = c_marru
+
+# Settlements
+max_settlements = 6
+b_marru_marru = castle
+
+# Misc
+culture = nubian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,15 @@
+# 1218 - Semna
+
+# County Title
+title = c_semna
+
+# Settlements
+max_settlements = 6
+b_semna_semna = castle
+
+# Misc
+culture = nubian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

@@ -1204,14 +1204,20 @@ province;red;green;blue;x;x
 1203;183;216;255;Libyan Desert;x
 1204;7;78;69;Arriaca;x
 1205;209;163;255;Libyan Desert;x
+1206;255;124;144;Sabagura;x
+1207;255;202;193;Nalote;x
 1208;130;200;155;Salmantica;x
+1209;122;122;255;Premis;x
 1210;51;90;65;Segovia;x
 1211;41;119;109;Termes;x
+1212;73;224;255;Serra;x
 1213;40;223;200;Turbes;x
 1214;40;191;223;Amallobriga;x
 1215;78;113;121;Brigaecium;x
 1216;79;152;168;Palantia;x
 1217;157;215;227;Aracelium;x
+1218;86;105;132;Semna;x
+1219;99;50;130;Orsum;x
 1220;154;94;112;Turissa;x
 1221;45;81;63;Ebusos;x
 1222;58;213;134;Cromiussa;x
@@ -1283,6 +1289,17 @@ province;red;green;blue;x;x
 1288;165;134;183;Batavodurum;x
 1289;55;183;172;Asciburgium;x
 1290;151;143;183;Novaesium;x
+1291;79;127;72;Urbim;x
+1292;127;110;121;Mambli;x
+1293;127;94;57;Dumana;x
+1294;75;100;188;Marru;x
+1295;185;126;186;Nuri;x
+1296;67;64;99;Gora;x
+1297;53;99;55;Alana;x
+1298;73;47;96;Epis;x
+1299;94;37;59;Araba;x
+1300;109;172;255;Nubian desert east;x
+1301;61;255;161;Nubian desert west;x
 1500;201;86;255;Pelso;x
 1501;183;150;42;Stagnum Mastromela;x
 1502;114;175;98;Lacus Eburodunensis;x

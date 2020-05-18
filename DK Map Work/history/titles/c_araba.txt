@@ -1,0 +1,45 @@
+308.1.1 = { # 468 BC
+	holder = 290007 # Nasakhma 
+}
+313.1.1 = { # 463 BC
+	holder = 290008 # Malewiebamani
+}
+341.1.1 = { # 435 BC
+	holder = 290009 # Talakhamani
+}
+345.1.1 = { # 431 BC
+	holder = 290010 # Amaninetererike
+}
+371.1.1 = { # 405 BC
+	holder = 290011 # Baskakeren
+}
+372.1.1 = { # 404 BC
+	holder = 290012 # Harsiotef
+}
+407.1.1 = { # 369 BC
+	holder = 290013 # Khayu
+}
+426.1.1 = { # 350 BC
+	holder = 290014 # Akhraten
+}
+441.1.1 = { # 335 BC
+	holder = 290015 # Amanibakhi
+}
+443.1.1 = { # 333 BC
+	holder = 290001 # King Nastasen of the Napatan dynasty
+}
+461.1.1 = { # 315 BC
+	holder = 290002 # King Gatisen of the Napata dynasty
+}
+480.1.1 = { # 296 BC
+	holder = 290003 # King Iry-Amun of the Napatan dynasty
+}
+484.1.1 = { # 292 BC
+	holder = 290004 # King Kash of the Napatan dynasty
+}
+491.1.1 = { # 285 BC
+	holder = 290005 # King Piankhi-yerike-qa of the Napatan dynasty
+}
+494.1.1 = { # 381 BC
+	holder = 290006 # King Sabrakamani of the Napatan dynasty
+}

@@ -2295,14 +2295,20 @@ PROV1203; ;;;;;;;;;;;;;;x
 PROV1204;Arriaca;;;;;;;;;;;;;;x
 c_arriaca_adj;Arriacan;;;;;;;;;;;;;;x
 PROV1205; ;;;;;;;;;;;;;;x
-PROV1206;Capera;;;;;;;;;;;;;;x
-c_capera_adj;Caperan;;;;;;;;;;;;;;x
+PROV1206;Sabagura;;;;;;;;;;;;;;x
+c_sabagura_adj;Sabaguran;;;;;;;;;;;;;;x
+PROV1207;Nalote;;;;;;;;;;;;;;x
+c_nalote_adj;Nalotan;;;;;;;;;;;;;;x
 PROV1208;Salmantica;;;;;;;;;;;;;;x
 c_salmantica_adj;Salamantican;;;;;;;;;;;;;;x
+PROV1209;Premis;;;;;;;;;;;;;;x
+c_premis_adj;Premic;;;;;;;;;;;;;;x
 PROV1210;Segovia;;;;;;;;;;;;;;x
 c_segovia_adj;Segovian;;;;;;;;;;;;;;x
 PROV1211;Termes;;;;;;;;;;;;;;x
 c_termes_adj;Termian;;;;;;;;;;;;;;x
+PROV1212;Serra;;;;;;;;;;;;;;x
+c_serra_adj;Serran;;;;;;;;;;;;;;x
 PROV1213;Turbes;;;;;;;;;;;;;;x
 c_turbes_adj;Turbian;;;;;;;;;;;;;;x
 PROV1214;Amallobriga;;;;;;;;;;;;;;x
@@ -2313,6 +2319,10 @@ PROV1216;Palantia;;;;;;;;;;;;;;x
 c_palantia_adj;Palantian;;;;;;;;;;;;;;x
 PROV1217;Aracelium;;;;;;;;;;;;;;x
 c_aracelium_adj;Aracelian;;;;;;;;;;;;;;x
+PROV1218;Semna;;;;;;;;;;;;;;x
+c_semna_adj;Semnan;;;;;;;;;;;;;;x
+PROV1219;Orsum;;;;;;;;;;;;;;x
+c_orsum_adj;Orsan;;;;;;;;;;;;;;x
 PROV1220;Turissa;;;;;;;;;;;;;;x
 c_turissa_adj;Turissan;;;;;;;;;;;;;;x
 PROV1221;Pityoussai;;;;;;;;;;;;;;x
@@ -2455,6 +2465,26 @@ PROV1289;Asciburgium;;;;;;;;;;;;;;x
 c_asciburgium_adj;Asciburgian;;;;;;;;;;;;;;x
 PROV1290;Novaesium;;;;;;;;;;;;;;x
 c_novaesium_adj;Novaesian;;;;;;;;;;;;;;x
+PROV1291;Urbim;;;;;;;;;;;;;;x
+c_urbim_adj;Urbimian;;;;;;;;;;;;;;x
+PROV1292;Mambli;;;;;;;;;;;;;;x
+c_mambli_adj;Mamblian;;;;;;;;;;;;;;x
+PROV1293;Dumana;;;;;;;;;;;;;;x
+c_dumana_adj;Dumanan;;;;;;;;;;;;;;x
+PROV1294;Marru;;;;;;;;;;;;;;x
+c_marru_adj;Marrian;;;;;;;;;;;;;;x
+PROV1295;Nuri;;;;;;;;;;;;;;x
+c_nuri_adj;Nurian;;;;;;;;;;;;;;x
+PROV1296;Gora;;;;;;;;;;;;;;x
+c_gora_adj;Goran;;;;;;;;;;;;;;x
+PROV1297;Alana;;;;;;;;;;;;;;x
+c_alana_adj;Alanan;;;;;;;;;;;;;;x
+PROV1298;Epis;;;;;;;;;;;;;;x
+c_epis_adj;Epian;;;;;;;;;;;;;;x
+PROV1299;Araba;;;;;;;;;;;;;;x
+c_araba_adj;Araban;;;;;;;;;;;;;;x
+PROV1300; ;;;;;;;;;;;;;;x
+PROV1301; ;;;;;;;;;;;;;;x
 PROV1500;Lacus Pelso;;;;;;;;;;;;;;x
 PROV1501;Stagnum Mastromela;;;;;;;;;;;;;;x
 PROV1502;Lacus Eburodunensis;;;;;;;;;;;;;;x

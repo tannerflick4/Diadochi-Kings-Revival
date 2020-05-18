@@ -1,0 +1,15 @@
+# 1293 - Dumana
+
+# County Title
+title = c_dumana
+
+# Settlements
+max_settlements = 6
+b_dumana_dumana = castle
+
+# Misc
+culture = nubian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

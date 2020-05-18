@@ -1,0 +1,15 @@
+# 1209 - Premis
+
+# County Title
+title = c_premis
+
+# Settlements
+max_settlements = 6
+b_premis_premis = castle
+
+# Misc
+culture = nubian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province

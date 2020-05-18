@@ -1,0 +1,15 @@
+# 1296 - Gora
+
+# County Title
+title = c_gora
+
+# Settlements
+max_settlements = 6
+b_gora_gora = castle
+
+# Misc
+culture = nubian
+religion = kemetic
+
+# History
+# Can be filled when things change around the province
