@@ -5,7 +5,7 @@ title = c_mothis
 
 # Settlements
 max_settlements = 5
-b_mothis_mothis = castle
+b_mothis_mothis = tribal
 b_sioua_mothis = temple
 b_trimithis_mothis = city
 #b_kalamon_mothis = castle
@@ -14,8 +14,8 @@ b_kellis_mothis = city
 #b_balat_mothis = city
 
 # Misc
-culture = egyptian
-religion = kemetic
+culture = berber
+religion = berber_main
 
 # History
 # Can be filled when things change around the province

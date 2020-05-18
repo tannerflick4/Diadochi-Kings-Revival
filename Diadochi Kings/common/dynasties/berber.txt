@@ -39,3 +39,11 @@
 	name = "Gati"
 	culture = berber
 }
+26011 = { # Libyan Oracle of Ammon
+	name = "Maray"
+	culture = berber
+}
+26012 = { # Libyan Oaisis
+	name = "Oasitai"
+	culture = berber
+}

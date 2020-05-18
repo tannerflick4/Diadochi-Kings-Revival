@@ -767,3 +767,9 @@ d_volcae_tolosates = {
 
 	tribe = yes
 }
+d_oasitai = {
+	color= { 250 140 40 }
+	color2= { 255 255 255 }
+
+	tribe = yes
+}
