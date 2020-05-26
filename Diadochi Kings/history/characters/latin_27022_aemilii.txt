@@ -36,6 +36,7 @@
 	add_trait = skilled_tactician
 	add_trait = proud
 	father=172121	#Caecilius
+	mother=172134   #Naevia
 	443.1.1 = { # 333 BC Made up
 		birth="yes"
 	}
@@ -228,6 +229,7 @@
 	father=172114	#Publius
     mother=172133   #Paulina
 	416.4.10={ birth=yes }
+    436.1.1={ add_spouse=172134 }
 	486.12.21={ death=yes }
 }
 172122={
@@ -247,7 +249,9 @@
 	culture=latin 
 	religion=roman_main
 	father=172121	#Caecilius
+    mother=172134   #Naevia
 	439.8.19={ birth=yes }
+    459.1.1={ add_spouse=172135 }
 	485.11.21={ death=yes }
 }
 172124={
@@ -256,6 +260,7 @@
 	culture=latin 
 	religion=roman_main
 	father=172121	#Caecilius
+    mother=172134   #Naevia
 	444.3.24={ birth=yes }
 	512.7.19={ death=yes }
 }
@@ -265,7 +270,9 @@
 	culture=latin 
 	religion=roman_main
 	father=172123	#Paetus
+    mother=172135   #Turpia
 	463.1.16={ birth=yes }
+    483.1.1={ add_spouse=172136 }
 	522.4.6={ death=yes }
 }
 172126={
@@ -275,6 +282,7 @@
 	culture=latin 
 	religion=roman_main
 	father=172123	#Paetus
+    mother=172135   #Turpia
 	465.3.27={ birth=yes }
 	509.7.5={ death=yes }
 }
@@ -284,6 +292,7 @@
 	culture=latin 
 	religion=roman_main
 	father=172125	#Eugenius
+    mother=172136   #Julia
 	485.11.27={ birth=yes }
 	528.4.21={ death=yes }
 }
@@ -294,6 +303,7 @@
 	culture=latin 
 	religion=roman_main
 	father=172125	#Eugenius
+    mother=172136   #Julia
 	488.3.16={ birth=yes }
 	540.4.19={ death=yes }
 }
@@ -304,6 +314,7 @@
 	culture=latin 
 	religion=roman_main
 	father=172125	#Eugenius
+    mother=172136   #Julia
 	491.9.13={ birth=yes }
 	538.11.11={ death=yes }
 }
@@ -338,4 +349,28 @@
 	religion=roman_main
 	394.1.26={ birth=yes }
 	443.5.25={ death=yes }
+}
+172134={
+	name=Naevia
+	female=yes
+	culture=latin 
+	religion=roman_main
+	416.1.26={ birth=yes }
+	486.5.25={ death=yes }
+}
+172135={
+	name=Turpia
+	female=yes
+	culture=latin 
+	religion=roman_main
+	439.1.26={ birth=yes }
+	485.5.25={ death=yes }
+}
+172136={
+	name=Julia
+	female=yes
+	culture=latin 
+	religion=roman_main
+	463.1.26={ birth=yes }
+	522.5.25={ death=yes }
 }
