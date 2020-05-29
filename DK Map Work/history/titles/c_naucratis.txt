@@ -15,9 +15,7 @@
 453.6.10 = {
 	holder = 601
 }
-467.1.1 = {
-	liege = e_egypt
-}
-491.1.1 = {
-	holder = 602 # Ptolemy II
+457.1.1 = {
+	liege = d_r_naucratis
+	holder = 56701
 }

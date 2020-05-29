@@ -66,4 +66,5 @@
 	# 56401-56500 for the Herakliadai dynasty
 	# 56501-56600 for the Eleadai dynasty
 	# 56601-56700 for the Hemeroskopioi dynasty
+	# 56701-56800 for various republic rulers
 	# 59901-60000 for the Lowborns
