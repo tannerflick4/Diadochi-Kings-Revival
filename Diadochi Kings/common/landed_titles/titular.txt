@@ -1411,19 +1411,6 @@ d_r_neapolis = {
 		is_republic = yes
 	}
 }
-d_r_naucratis = {
-	color= { 242 295 44 }
-	color2= { 255 255 255 }
-	
-	capital = 388 # Naucratis
-	culture = ionian
-	
-	dignity = 200
-	
-	allow = {
-		is_republic = yes
-	}
-}
 k_cassander = {
 	color={ 195 13 28 }
 	color2={ 255 255 255 }

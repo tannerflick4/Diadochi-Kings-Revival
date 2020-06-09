@@ -1,5 +1,0 @@
-457.1.1 = { # 362 BC
-	holder = 56701
-	government = merchant_republic_government
-	liege = e_egypt
-}
