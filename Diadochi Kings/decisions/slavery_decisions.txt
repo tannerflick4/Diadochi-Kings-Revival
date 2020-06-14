@@ -332,7 +332,9 @@ targetted_decisions = {
 					}
 				}
 			}
-			wealth = 50
+			FROM = {
+				wealth = 50
+			}
 		}
 		ai_will_do = {
 			factor = 0.01
@@ -509,6 +511,7 @@ targetted_decisions = {
 					who = FROM
 				}
 			}
+			fertility = 0.01
 			NOR = {
 				age = 40
 				is_incapable = yes
@@ -529,6 +532,7 @@ targetted_decisions = {
 						who = FROM
 					}
 				}
+				fertility = 0.01
 				trait = trait_slave
 				prisoner = no
 				NOT = { character = ROOT }
