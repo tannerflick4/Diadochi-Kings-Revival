@@ -5,7 +5,7 @@ title = c_naucratis
 
 # Settlements
 max_settlements = 4
-b_naucratis_naucratis = castle
+b_naucratis_naucratis = city
 b_hieraconpolis_naucratis = city
 #b_thebyrchyth_naucratis = city
 b_momemphis_naucratis = castle

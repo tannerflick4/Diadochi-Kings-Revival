@@ -282,3 +282,7 @@
 	name = "Hemeroskopioi"
 	culture = ionian
 }
+5074 = {
+	name = "Amphikratidai"
+	culture = ionian
+}
