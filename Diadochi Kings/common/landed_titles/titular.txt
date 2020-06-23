@@ -1420,6 +1420,16 @@ k_cassander = {
 	can_be_claimed = no
 	can_be_usurped = no
 }
+d_high_ptah = { #High Priest of Ptah
+	color= { 255 177 99 }
+	color2= { 255 255 255 }
+	
+	capital = 141 # Memphis
+	
+	allow = {
+		culture_group = eastern_african
+	}
+}
 
 ######################################
 # Historical Merchant Republic Palaces

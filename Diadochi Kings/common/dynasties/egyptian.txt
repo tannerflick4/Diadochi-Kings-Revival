@@ -24,3 +24,7 @@
 	name = "Ptemeti"
 	culture = egyptian
 }
+35007 = {
+	name = "Memphorib"
+	culture = egyptian
+}
