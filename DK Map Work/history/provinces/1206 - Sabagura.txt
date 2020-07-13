@@ -4,8 +4,14 @@
 title = c_sabagura
 
 # Settlements
-max_settlements = 6
+max_settlements = 4
 b_sabagura_sabagura = castle
+#b_contra_tafis_sabagura = city
+#b_contra_talmis_sabagura = city
+b_paptoulis_sabagura = temple
+#b_contra_pselchis_sabagura = city
+b_kobosh_sabagura = temple
+b_dib_sabagura = city
 
 # Misc
 culture = nubian

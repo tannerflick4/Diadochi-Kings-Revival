@@ -13655,11 +13655,16 @@ k_kush = {
 			b_pselchis_pselchis = {
 				egyptian = "Pselqet"
 			}
-			b_per_ptah_pselchis = {
-			}
-			b_tachompso_pselchis = {
-			}
 			b_kortia_pselchis = {
+			}
+			d_talmis_pselchis = {
+				egyptian = "Per-Ptah"
+			}
+			b_tafis_pselchis = {
+			}
+			b_tzitzis_pselchis = {
+			}
+			b_tutzis_pselchis = {
 			}
 			b_hierasykaminos_pselchis = {
 				egyptian = "Tkmst"
@@ -13788,6 +13793,18 @@ k_kush = {
 			
 			b_premis_premis = {
 			}
+			b_adda_premis = {
+			}
+			b_aramum_premis = {
+			}
+			b_tachompso_premis = {
+			}
+			b_per_ptah_premis = {
+			}
+			b_parembole_premis = {
+			}
+			b_manlau_premis = {
+			}
 		}
 		c_nalote = {
 			color={ 235 255 35 }
@@ -13795,12 +13812,36 @@ k_kush = {
 			
 			b_nalote_nalote = {
 			}
+			b_arminna_nalote = {
+			}
+			b_aniba_nalote = {
+			}
+			b_simalo_nalote = {
+			}
+			b_tene_nalote = {
+			}
+			b_sebua_nalote = {
+			}
+			b_dimri_nalote = {
+			}
 		}
 		c_sabagura = {
 			color={ 235 255 35 }
 			color2={ 255 255 255 }
 			
 			b_sabagura_sabagura = {
+			}
+			b_contra_tafis_sabagura = {
+			}
+			b_contra_talmis_sabagura = {
+			}
+			b_paptoulis_sabagura = {
+			}
+			b_contra_pselchis_sabagura = {
+			}
+			b_kobosh_sabagura = {
+			}
+			b_dib_sabagura = {
 			}
 		}
 	}

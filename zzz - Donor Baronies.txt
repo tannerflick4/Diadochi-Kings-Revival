@@ -441,7 +441,6 @@ b_titkois_hermopolis
 b_micholis_hermopolis
 b_tachoi_hermopolis
 b_senkyrkis_hermopolis
-b_manlau_hermopolis
 b_monkanei_hermopolis
 b_enseu_hermopolis
 b_kleopatris_hermopolis
@@ -456,3 +455,5 @@ b_phthla_psinemoun
 b_this_ptolemais
 
 b_isieiou_oros_syene
+
+# NUBIA
