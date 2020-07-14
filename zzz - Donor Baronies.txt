@@ -398,7 +398,6 @@ b_psenaryo_crocodilopolis
 b_labyrinthos_crocodilopolis
 b_andrianton_crocodilopolis
 b_metrodoron_crocodilopolis
-b_tamais_crocodilopolis
 b_narmouthis_crocodilopolis
 b_bakchias_crocodilopolis
 b_pantikou_crocodilopolis
@@ -411,15 +410,11 @@ b_tilothis_herakleopolis
 b_pyrgotos_herakleopolis
 b_tinteris_herakleopolis
 b_tsimistea_herakleopolis
-b_talao_herakleopolis
 b_isieion_kato_herakleopolis
 b_psychis_herakleopolis
-b_takona_herakleopolis
 b_fenchi_herakleopolis
 
 b_mataei_kynopolis
-b_somolo_kynopolis
-b_mnachis_kynopolis
 b_pangouleeiou_kynopolis
 b_peretnouis_kynopolis
 b_seryphis_kynopolis

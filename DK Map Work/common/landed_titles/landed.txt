@@ -13675,19 +13675,23 @@ k_kush = {
 			color2={ 255 255 255 }
 			
 			egyptian = "Shtp-ntrw"
+
+			holy_site = kemetic # Abu Simbel
 			
 			b_pachoras_pachoras = {
 				egyptian = "Shtp-ntrw"
 			}
-			b_premis_pachoras = {
-				egyptian = "Prmt"
+			b_forum_cambusis_pachoras = {
 			}
-			b_nalote_pachoras = {
-			}
-			b_abu_simbel_pachoras = {
-				egyptian = "Per Ramassu"
+			b_tamania_pachoras = {
 			}
 			b_boon_pachoras = {
+			}
+			b_iken_pachoras = {
+			}
+			b_per_amun_pachoras = { # Great Temple at Abu Simbel
+			}
+			b_per_hathor_pachoras = { # Small Temple at Abu Simbel
 			}
 		}
 		c_pdeme = {
@@ -13696,11 +13700,17 @@ k_kush = {
 			
 			b_pdeme_pdeme = {
 			}
-			b_noa_pdeme = {
+			b_tila_pdeme = {
 			}
-			b_gugo_pdeme = {
+			b_firka_pdeme = {
 			}
-			b_acina_pdeme = {
+			b_abri_pdeme = {
+			}
+			b_say_pdeme = {
+			}
+			b_ballana_pdeme = {
+			}
+			b_argin_pdeme = {
 			}
 		}
 		c_araba = {
@@ -13779,12 +13789,36 @@ k_kush = {
 			
 			b_semna_semna = {
 			}
+			b_noa_semna = {
+			}
+			b_sedeinga_semna = {
+			}
+			b_shaukan_semna = {
+			}
+			b_aksha_semna = {
+			}
+			b_talao_semna = {
+			}
+			b_tamais_semna = {
+			}
 		}
 		c_serra = {
 			color={ 235 255 35 }
 			color2={ 255 255 255 }
 			
 			b_serra_serra = {
+			}
+			b_meinarti_serra = {
+			}
+			b_dorginarti_serra = {
+			}
+			b_gammai_serra = {
+			}
+			b_somolo_serra = {
+			}
+			b_mnachis_serra = {
+			}
+			b_takona_serra = {
 			}
 		}
 		c_premis = {
@@ -19901,7 +19935,7 @@ e_egypt = {
 
 				holy_site = greco_kemetic # Serapeum at Saqqara
 				holy_site = kemetic # Pyramids of Giza
-				holy_site = atenist # Pyramids of Giza
+				holy_site = atenist # A temple was built here.
 				
 				b_memphis_memphis = {
 					egyptian = "Men Nefer"
@@ -20352,7 +20386,7 @@ e_egypt = {
 				egyptian = "Waset"
 
 				holy_site = kemetic # Karnak
-				holy_site = atenist # Karnak
+				holy_site = atenist # Karnak, several temples to Aten were built here.
 				
 				b_thebes_thebes_egypt = {
 					egyptian = "Waset"
@@ -20416,9 +20450,7 @@ e_egypt = {
 				
 				egyptian = "Swenett"
 
-				holy_site = kemetic # Abu Simbel
 				holy_site = greco_kemetic # Ptolemies constructed a lot of temples here.
-				holy_site = atenist # Temple of Satet
 				
 				b_syene_syene = {
 					egyptian = "Swenett"
@@ -20487,6 +20519,8 @@ e_egypt = {
 				color2= { 255 255 255 }
 				
 				egyptian = Behdet
+
+				holy_site = atenist # A temple to Aten was built here
 				
 				b_apollonopolis_apollonopolis = {
 					egyptian = Behdet

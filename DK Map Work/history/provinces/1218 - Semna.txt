@@ -4,8 +4,14 @@
 title = c_semna
 
 # Settlements
-max_settlements = 6
+max_settlements = 2
 b_semna_semna = castle
+b_noa_semna = city
+#b_sedeinga_semna = city
+#b_shaukan_semna = temple
+#b_aksha_semna = castle
+#b_talao_semna = castle
+#b_tamais_semna = city
 
 # Misc
 culture = nubian
