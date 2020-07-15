@@ -4,8 +4,14 @@
 title = c_orsum
 
 # Settlements
-max_settlements = 6
+max_settlements = 3
 b_orsum_orsum = castle
+b_gugo_orsum = city
+#b_acina_orsum = city
+#b_suara_orsum = city
+#b_mancharum_orsum = city
+#b_this_orsum = castle
+b_bouto_orsum = temple
 
 # Misc
 culture = nubian

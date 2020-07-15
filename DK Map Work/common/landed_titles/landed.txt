@@ -13761,12 +13761,36 @@ k_kush = {
 			
 			b_dumana_dumana = {
 			}
+			b_breues_dumana = {
+			}
+			b_bagada_dumana = {
+			}
+			b_segasa_dumana = {
+			}
+			b_arca_dumana = {
+			}
+			b_tergendum_dumana = {
+			}
+			b_kerke_dumana = {
+			}
 		}
 		c_mambli = {
 			color={ 235 255 35 }
 			color2={ 255 255 255 }
 			
 			b_mambli_mambli = {
+			}
+			b_zamnes_mambli = {
+			}
+			b_cortum_mambli = {
+			}
+			b_tanis_mambli = {
+			}
+			b_perkethaut_mambli = {
+			}
+			b_labyrinthos_mambli = {
+			}
+			b_sitheus_mambli = {
 			}
 		}
 		c_urbim = {
@@ -13775,12 +13799,36 @@ k_kush = {
 			
 			b_urbim_urbim = {
 			}
+			b_mulon_urbim = {
+			}
+			b_pago_urbim = {
+			}
+			b_paabeithis_urbim = {
+			}
+			b_panarachthis_urbim = {
+			}
+			b_phentemin_urbim = {
+			}
+			b_psenaryo_urbim = {
+			}
 		}
 		c_orsum = {
 			color={ 235 255 35 }
 			color2={ 255 255 255 }
 			
 			b_orsum_orsum = {
+			}
+			b_gugo_orsum = {
+			}
+			b_acina_orsum = {
+			}
+			b_suara_orsum = {
+			}
+			b_mancharum_orsum = {
+			}
+			b_this_orsum = {
+			}
+			b_bouto_orsum = {
 			}
 		}
 		c_semna = {
@@ -13891,11 +13939,17 @@ k_kush = {
 			
 			b_patinga_patinga = {
 			}
-			b_orsum_patinga = {
+			b_direla_patinga = {
 			}
 			b_pnups_patinga = {
 			}
 			b_prummu_patinga = {
+			}
+			b_paroa_patinga = {
+			}
+			b_kedurma_patinga = {
+			}
+			b_papa_patinga = {
 			}
 		}
 		c_napata = {

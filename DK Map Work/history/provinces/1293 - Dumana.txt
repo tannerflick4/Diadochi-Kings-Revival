@@ -4,8 +4,14 @@
 title = c_dumana
 
 # Settlements
-max_settlements = 6
+max_settlements = 4
 b_dumana_dumana = castle
+b_breues_dumana = city
+b_bagada_dumana = city
+#b_segasa_dumana = city
+b_arca_dumana = temple
+#b_tergendum_dumana = castle
+#b_kerke_dumana = castle
 
 # Misc
 culture = nubian

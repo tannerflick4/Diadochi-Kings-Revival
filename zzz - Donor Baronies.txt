@@ -372,19 +372,14 @@ b_leontopolis_tanis
 b_isieion_tanis
 b_pharbaithos_tanis
 
-b_bouto_heliopolis
 b_skenai_mandrai_heliopolis
 
-b_kerke_memphis
 b_kerkasoros_memphis
 b_toachris_memphis
 b_takyris_memphis
 b_thmoiamounis_memphis
 b_meidum_memphis
-b_paabeithis_memphis
-b_panarachthis_memphis
 
-b_tanis_crocodilopolis
 b_soknopaiou_nesos_crocodilopolis
 b_thebetny_crocodilopolis
 b_teleithis_crocodilopolis
@@ -392,10 +387,6 @@ b_ibion_eikosipentarouron_crocodilopolis
 b_kerkeosiris_crocodilopolis
 b_theodosioupolis_crocodilopolis
 b_kerkethoeris_crocodilopolis
-b_perkethaut_crocodilopolis
-b_phentemin_crocodilopolis
-b_psenaryo_crocodilopolis
-b_labyrinthos_crocodilopolis
 b_andrianton_crocodilopolis
 b_metrodoron_crocodilopolis
 b_narmouthis_crocodilopolis
@@ -404,8 +395,6 @@ b_pantikou_crocodilopolis
 
 b_nino_herakleopolis
 b_tarousebt_herakleopolis
-b_papa_herakleopolis
-b_sitheus_herakleopolis
 b_tilothis_herakleopolis
 b_pyrgotos_herakleopolis
 b_tinteris_herakleopolis
@@ -446,8 +435,6 @@ b_bousiris_hermopolis
 
 b_apotheke_psinemoun
 b_phthla_psinemoun
-
-b_this_ptolemais
 
 b_isieiou_oros_syene
 

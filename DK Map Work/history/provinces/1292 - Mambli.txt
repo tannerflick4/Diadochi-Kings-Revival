@@ -4,8 +4,14 @@
 title = c_mambli
 
 # Settlements
-max_settlements = 6
+max_settlements = 2
 b_mambli_mambli = castle
+b_zamnes_mambli = city
+#b_cortum_mambli = city
+#b_tanis_mambli = castle
+#b_perkethaut_mambli = city
+#b_labyrinthos_mambli = temple
+#b_sitheus_mambli = castle
 
 # Misc
 culture = nubian
