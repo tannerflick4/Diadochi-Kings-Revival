@@ -51,9 +51,18 @@
 421.1.1 = { # 355 BC
 	holder = 350144 # Kanefer of the Memphorib
 }
+435.1.1 = {
+	liege = k_p_egypt
+}
+446.1.1 = { # 330 BC
+	liege = k_s_egypt
+}
 447.1.1 = { # 329 BC
 	holder = 350145 # Penthu of the Memphorib
 }
 454.1.1 = { # 322 BC
 	holder = 350146 # Panehesy of the Memphorib
+}
+467.1.1 = {
+	liege = e_egypt
 }
