@@ -1423,6 +1423,9 @@ k_cassander = {
 d_high_ptah = { #High Priest of Ptah
 	color= { 255 177 99 }
 	color2= { 255 255 255 }
+
+	title = "HIGH_PRIEST"
+	title_female = "HIGH_PRIESTESS"
 	
 	capital = 141 # Memphis
 	

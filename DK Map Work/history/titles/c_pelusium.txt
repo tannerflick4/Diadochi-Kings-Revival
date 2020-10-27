@@ -1,6 +1,6 @@
 446.1.1 = { # 359 BC
 	holder = 3804 # Nikolaos of the Ostrakinoi
-	liege = k_s_egypt
+	liege = d_rhinocorura
 }
 472.1.1 = { # 304 BC
 	holder = 3805 # Ekphantos of the Ostrakinoi
