@@ -9,7 +9,7 @@ b_banubalapa_banubalapa = tribal
 #b_chivayabrata_banubalapa = city
 
 # Misc
-culture = scythian
+culture = khotanese
 religion = zoroastrian_main
 
 # History

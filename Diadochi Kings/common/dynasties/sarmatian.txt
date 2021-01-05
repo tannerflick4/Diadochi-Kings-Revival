@@ -12,3 +12,131 @@
 	name = "Maiotai"
 	culture = sarmatian
 }
+34004 = {
+	name = "Achaeoi"
+	culture = sarmatian
+}
+34005 = {
+	name = "Syrmatai"
+	culture = sarmatian
+}
+34006 = {
+	name = "Iazygai"
+	culture = sarmatian
+}
+34007 = {
+	name = "Spalai"
+	culture = sarmatian
+}
+34008 = {
+	name = "Napai"
+	culture = sarmatian
+}
+34009 = {
+	name = "Aukhetai"
+	culture = sarmatian
+}
+34010 = {
+	name = "Roxolanoi"
+	culture = sarmatian
+}
+34011 = {
+	name = "Hamaxoboi"
+	culture = sarmatian
+}
+34012 = {
+	name = "Oiorpatai"
+	culture = sarmatian
+}
+34013 = {
+	name = "Kroykhases"
+	culture = sarmatian
+}
+34014 = {
+	name = "Hyperbores"
+	culture = sarmatian
+}
+34015 = {
+	name = "Kissiantoi"
+	culture = sarmatian
+}
+34016 = {
+	name = "Sindianoi"
+	culture = sarmatian
+}
+34017 = {
+	name = "Kerketai"
+	culture = sarmatian
+}
+34018 = {
+	name = "Dandaridai"
+	culture = sarmatian
+}
+34019 = {
+	name = "Toretai"
+	culture = sarmatian
+}
+34020 = {
+	name = "Agroi"
+	culture = sarmatian
+}
+34021 = {
+	name = "Arrekhoi"
+	culture = sarmatian
+}
+34022 = {
+	name = "Tarpetoi"
+	culture = sarmatian
+}
+34023 = {
+	name = "Obidiakenoi"
+	culture = sarmatian
+}
+34024 = {
+	name = "Sittakenoi"
+	culture = sarmatian
+}
+34025 = {
+	name = "Doskoi"
+	culture = sarmatian
+}
+34026 = {
+	name = "Aspurgianoi"
+	culture = sarmatian
+}
+34027 = {
+	name = "Zygioi"
+	culture = sarmatian
+}
+34028 = {
+	name = "Phoristai"
+	culture = sarmatian
+}
+34029 = {
+	name = "Rimphakes"
+	culture = sarmatian
+}
+34030 = {
+	name = "Khorouathoi"
+	culture = sarmatian
+}
+34031 = {
+	name = "Rhymnikoi"
+	culture = sarmatian
+}
+34032 = {
+	name = "Serboi"
+	culture = sarmatian
+}
+34033 = {
+	name = "Spondolikoi"
+	culture = sarmatian
+}
+34034 = {
+	name = "Urgoi"
+	culture = sarmatian
+}
+34035 = {
+	name = "Gargarai"
+	culture = sarmatian
+}

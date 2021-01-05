@@ -9,7 +9,7 @@ b_ris_ris = tribal
 b_bagapanti_ris = temple
 
 # Misc
-culture = scythian
+culture = khotanese
 religion = zoroastrian_main
 
 # History

@@ -1,0 +1,18 @@
+# 48001-49000 for Chorasmian dynasties
+
+48001 = {
+	name = "Tuiriai"
+	culture = chorasmian
+}
+48002 = {
+	name = "Turanioi"
+	culture = chorasmian
+}
+48003 = {
+	name = "Norossoi"
+	culture = chorasmian
+}
+48004 = {
+	name = "Iaxartai"
+	culture = chorasmian
+}

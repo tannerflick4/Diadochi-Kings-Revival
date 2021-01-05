@@ -2,23 +2,23 @@
 
 33001 = {
 	name = "Parni"
-	culture = scythian
+	culture = dahae
 }
 33002 = {
 	name = "Chorasmiai"
-	culture = scythian
+	culture = chorasmian
 }
 33003 = {
 	name = "Amyrgioi"
-	culture = scythian
+	culture = khotanese
 }
 33004 = {
 	name = "Massagetai"
-	culture = scythian
+	culture = alan
 }
 33005 = {
 	name = "Apasiakai"
-	culture = scythian
+	culture = dahae
 }
 33006 = {
 	name = "Thyssagetai"
@@ -30,5 +30,85 @@
 }
 33008 = {
 	name = "Pissyri"
+	culture = dahae
+}
+33009 = {
+	name = "Yashti"
+	culture = scythian
+}
+33010 = {
+	name = "Agavoi"
+	culture = scythian
+}
+33011 = {
+	name = "Palaioi"
+	culture = scythian
+}
+33012 = {
+	name = "Skythes"
+	culture = scythian
+}
+33013 = {
+	name = "Eukatai"
+	culture = scythian
+}
+33014 = {
+	name = "Athernai"
+	culture = scythian
+}
+33015 = {
+	name = "Asampatai"
+	culture = scythian
+}
+33016 = {
+	name = "Lipoxai"
+	culture = scythian
+}
+33017 = {
+	name = "Katiaroi"
+	culture = scythian
+}
+33018 = {
+	name = "Traspes"
+	culture = scythian
+}
+33019 = {
+	name = "Arpoxai"
+	culture = scythian
+}
+33020 = {
+	name = "Paralatai"
+	culture = scythian
+}
+33021 = {
+	name = "Colaxoi"
+	culture = scythian
+}
+33022 = {
+	name = "Dobrogeai"
+	culture = scythian
+}
+33023 = {
+	name = "Khauranakoi"
+	culture = scythian
+}
+33024 = {
+	name = "Sakai"
+	culture = scythian
+}
+33025 = {
+	name = "Gabioi"
+	culture = scythian
+}
+33026 = {
+	name = "Arikhoi"
+	culture = scythian
+}
+33027 = {
+	name = "Napaoi"
+	culture = scythian
+}
+33028 = {
+	name = "Sinkhoi"
 	culture = scythian
 }

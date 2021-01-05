@@ -969,7 +969,7 @@ iranian = {
 			Zairichi_Zairichi        
 		}
   
-		from_dynasty_prefix = "of "
+		from_dynasty_prefix = ""
 		dynasty_title_names = yes
 	}
 	khotanese = {
@@ -993,6 +993,72 @@ iranian = {
         female_patronym = "duda "
 		dynasty_title_names = yes
     }
+	alan = {
+		graphical_cultures = { newscythiangfx persiangfx easterngfx }
+        color = { 0.7 0.5 0.7  }
+        
+		male_names = {
+			Aetava_Aetava Aevo-Gafya_Aevo-Gafya Aevo-Sared_Aevo-Sared Aghraeradha_Aghraeradha Ahum-Stut_Ahum-Stut Ainyava_Ainyava Aipi-Vanghav_Aipi-Vanghav Airyava_Airyava 
+			Aithwyav_Aithwyav Aoikhmatastura_Aoikhmatastura Aoshnara_Aoshnara Ara_Ara Arejat-Aspa_Arejat-Aspa Arenavak_Arenavak Arezo-Shamana_Arezo-Shamana Arshya_Arshya 
+			Artavardiya_Artavardiya Asha-Shyaothna_Asha-Shyaothna Ashahura_Ashahura Ashasairyank_Ashasairyank Ashasaredha_Ashasaredha Ashastu_Ashastu Ashaurvaedha_Ashaurvaedha Ashavanghav_Ashavanghav 
+			Ashavazdah_Ashavazdah Asho-Raochah_Asho-Raochah Ashta-Aurvant_Ashta-Aurvant Ashti-Gafya_Ashti-Gafya Aspachanah_Aspachanah Astvat-Ereta_Astvat-Ereta Athwya_Athwya Aurvasara_Aurvasara 
+			Aurvat-Aspa_Aurvat-Aspa Avaraoshtri_Avaraoshtri Avaregav_Avaregav Avarethrabah_Avarethrabah Avaya_Avaya Axnangha_Axnangha Axrura_Axrura Axtya_Axtya 
+			Ayo-Astay_Ayo-Astay Azata_Azata Bangha_Bangha Baremna_Baremna Berezavant_Berezavant Berezishnav_Berezishnav Bivandangha_Bivandangha Budhra_Budhra 
+			Byarshan_Byarshan Chaxshnay_Chaxshnay Daevo-Tbish_Daevo-Tbish Dahaka_Dahaka Dangha_Dangha Darshinika_Darshinika Dashtaghnay_Dashtaghnay Dashtayanay_Dashtayanay 
+			Dazgaraspa_Dazgaraspa Duraekaeta_Duraekaeta Duraesruta_Duraesruta Erezavant-Daingheush_Erezavant-Daingheush Erezraspa_Erezraspa Frachithra_Frachithra Frachya_Frachya Fradat-Nar_Fradat-Nar 
+			Fradat-Vanghav_Fradat-Vanghav Franya_Franya Fraorasa_Fraorasa Frarazay_Frarazay Frashaoshtra_Frashaoshtra Frasrutar_Frasrutar Frayaodha_Frayaodha Frayazenta_Frayazenta 
+			Frenah_Frenah Frinaspa_Frinaspa Fro-Hakafra_Fro-Hakafra Gaevanay_Gaevanay Gandarewa_Gandarewa Gaomant_Gaomant Garshta_Garshta Gaya-Maretan_Gaya-Maretan 
+			Gayadhastay_Gayadhastay Gravaratav_Gravaratav Hanghaurvah_Hanghaurvah Haoshyangha_Haoshyangha Haosravah_Haosravah Hushyaothna_Hushyaothna Hvadaena_Hvadaena Hvare-Chaeshman_Hvare-Chaeshman 
+			Hvare-Chithra_Hvare-Chithra Hvo-Gva_Hvo-Gva Isat-Vastra_Isat-Vastra Isvant_Isvant Jamaspa_Jamaspa Jannara_Jannara Jaro-Danghav_Jaro-Danghav Jaro-Vanghav_Jaro-Vanghav 
+			Jishtay_Jishtay Kaeva_Kaeva Kaosha_Kaosha Karsna_Karsna Kasupitav_Kasupitav Kata_Kata Katav_Katav Kavata_Kavata 
+			Kavay_Kavay Keresaspa_Keresaspa Keresavazdah_Keresavazdah Maidyoi-Mangha_Maidyoi-Mangha Manush-Chitra_Manush-Chitra Marezishmyah_Marezishmyah Mathravaka_Mathravaka Mayava_Mayava 
+			Mazdayasna_Mazdayasna Nanarastay_Nanarastay Naotara_Naotara Nemo-Vanghav_Nemo-Vanghav Neremyazdana_Neremyazdana Paeshatah_Paeshatah Paro-Dasma_Paro-Dasma Parshat-Gav_Parshat-Gav 
+			Parshinta_Parshinta Perethvafsman_Perethvafsman Pesho-Tanu_Pesho-Tanu Pouru-Bangha_Pouru-Bangha Pouru-Jira_Pouru-Jira Pourudhaxshtay_Pourudhaxshtay Pourushaspa_Pourushaspa Pourushtay_Pourushtay 
+			Raochas-Chaeshman_Raochas-Chaeshman Rashtare-Vaghenti_Rashtare-Vaghenti Ravant_Ravant Sadhanah_Sadhanah Saena_Saena Saimuzhi_Saimuzhi Sama_Sama Sanghangha_Sanghangha 
+			Sayuzhdri_Sayuzhdri Snaoya_Snaoya Spengha_Spengha Spento-Xratav_Spento-Xratav Spitay_Spitay Sruto-Spadha_Sruto-Spadha Staotar_Staotar 
+			Stipay_Stipay Stivant_Stivant Syavarshan_Syavarshan Taurvaetay_Taurvaetay Taxma_Taxma Thraetaona_Thraetaona Thrimithwant_Thrimithwant Thrit_Thrit 
+			Thrita_Thrita Tiro-Nakathwa_Tiro-Nakathwa Tumaspa_Tumaspa Tura_Tura Urudhav_Urudhav Urvatat-Nara_Urvatat-Nara Usadhan_Usadhan Usan_Usan 
+			Ushtra_Ushtra Usinemah_Usinemah Usmanar_Usmanar Uspanav_Uspanav Utayutay_Utayutay Uxshan_Uxshan Uxshyat-Ereta_Uxshyat-Ereta Uxshyat-Nemah_Uxshyat-Nemah 
+			Uzava_Uzava Uzya_Uzya Vaedhangha_Vaedhangha Vagerezan_Vagerezan Vahmaedhata_Vahmaedhata Vanghudhata_Vanghudhata Varakasa_Varakasa Varaza_Varaza 
+			Varesmapa_Varesmapa Varesmo-Raochah_Varesmo-Raochah Varshna_Varshna Varshnay_Varshnay Vidhisravah_Vidhisravah Viraspa_Viraspa Vishtaspa_Vishtaspa Visruta_Visruta 
+			Visrutar_Visrutar Vistarav_Vistarav Vivahvant_Vivahvant Vivareshva_Vivareshva Vohu-Data_Vohu-Data Vohu-Nemah_Vohu-Nemah Vohu-Peresa_Vohu-Peresa Vohuraochah_Vohuraochah 
+			Vohushtra_Vohushtra Vohvastay_Vohvastay Vohvazdah_Vohvazdah Vyatana_Vyatana Xshathro-Chinah_Xshathro-Chinah Xshtavay_Xshtavay Xshviwraspa_Xshviwraspa Xvadhata_Xvadhata 
+			Yaetush-Gav_Yaetush-Gav Yima_Yima Zairita_Zairita Zairyank_Zairyank Zaosha_Zaosha Zavan_Zavan Zbaurvant_Zbaurvant Zighray_Zighray 
+			Zrayangha_Zrayangha Zrazdatay_Zrazdatay  
+        }
+        female_names = {
+            Asabana_Asabana Apama_Apama Barsine_Barsine Dughdho-Va_Dughdho-Va Eredat-Fedhri_Eredat-Fedhri Franghad_Franghad Frenay_Frenay Huchithra_Huchithra Humaya_Humaya 
+			Hutaosa_Hutaosa Hvaredhay_Hvaredhay Hvovi_Hvovi Jagkrut_Jagkrut Kanuka_Kanuka Paesanghanu_Paesanghanu Pouruchista_Pouruchista Raoxshna Srutat-Fedhri_Srutat-Fedhri 
+			Thriti_Thriti Tushnamatay_Tushnamatay Urudhayant_Urudhayant Ushtavaiti_Ushtavaiti Uxshenti_Uxshenti Vadhut_Vadhut Vanghu-Fedhri_Vanghu-Fedhri Vispa-Thaurvo-Ashtray_Vispa-Thaurvo-Ashtray 
+			Zairichi_Zairichi  
+        }
+
+        from_dynasty_prefix = "nava "
+        male_patronym = "puri "
+        female_patronym = "duda "
+		dynasty_title_names = yes
+    }
+	dahae = {
+		graphical_cultures = { newscythiangfx persiangfx easterngfx mongolgfx }
+  
+		color = { 0.54 0.29 0.17 }
+  
+		male_names = {
+			Adraspus_Adraspus Aelis_Aelis Ailios_Ailios Akrosander_Akrosander Anacharsis_Anacharsis Arapeithes_Arapeithes Atheas_Atheas Azes_Azes 
+			Azilises_Azilises Charaspes_Charaspes Idanthyrsus_Idanthyrsus Kanites_Kanites Kharahostes_Kharahostes Madyes_Madyes Moga_Moga Omarg_Omarg 
+			Palacus_Palacus Protothyes_Protothyes Sariakos_Sariakos Saulius_Saulius Scyles_Scyles Scylurus_Scylurus Skunxa_Skunxa Spalagadames_Spalagadames 
+			Spalahores_Spalahores Spalirises_Spalirises Vonones_Vonones Zeionises_Zeionises       
+		}
+		female_names = {
+			Amestris_Amestris Amytis_Amytis Anzaza_Anzaza Artazostre_Artazostre Artystone_Artystone Atossa_Atossa Barsine_Barsine Damaspia_Damaspia 
+			Mandane_Mandane Parmys_Parmys Parysatis_Parysatis Phaedymia_Phaedymia Rinu_Rinu Stateira_Stateira Vashti_Vashti        
+		}
+  
+		from_dynasty_prefix = "nava "
+        male_patronym = "puri "
+        female_patronym = "duda "
+		dynasty_title_names = yes
+	}
 }
 far_eastern = {
 	tocharian = { 

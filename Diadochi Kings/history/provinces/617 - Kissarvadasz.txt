@@ -9,7 +9,7 @@ b_kissarvadasz_kissarvadasz = tribal
 #b_huar_kissarvadasz = city
 
 # Misc
-culture = scythian
+culture = khotanese
 religion = zoroastrian_main
 
 # History

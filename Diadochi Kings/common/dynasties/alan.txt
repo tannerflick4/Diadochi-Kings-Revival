@@ -1,0 +1,54 @@
+# 51001-52000 for Alan dynasties
+
+51001 = {
+	name = "Orthokorybantai"
+	culture = alan
+}
+51002 = {
+	name = "Aspisoi"
+	culture = alan
+}
+51003 = {
+	name = "Abioi"
+	culture = alan
+}
+51004 = {
+	name = "Aorsoi"
+	culture = alan
+}
+51005 = {
+	name = "Hippophagoi"
+	culture = alan
+}
+51006 = {
+	name = "Sakaralai"
+	culture = alan
+}
+51007 = {
+	name = "Melanklainoi"
+	culture = alan
+}
+51008 = {
+	name = "Iasoi"
+	culture = alan
+}
+51009 = {
+	name = "Arkaragantoi"
+	culture = alan
+}
+51010 = {
+	name = "Asioi"
+	culture = alan
+}
+51011 = {
+	name = "Issedonai"
+	culture = alan
+}
+51012 = {
+	name = "Rhoxolanoi"
+	culture = alan
+}
+51013 = {
+	name = "Alanorsoi"
+	culture = alan
+}

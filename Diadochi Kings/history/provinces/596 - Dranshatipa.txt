@@ -9,7 +9,7 @@ b_dranshatipa_dranshatipa = tribal
 #b_ugraku_dranshatipa = castle
 
 # Misc
-culture = scythian
+culture = khotanese
 religion = scythian_main
 
 # History

@@ -3,7 +3,7 @@
 	name = "Skunxa" # Made up
 	dynasty = 33004 # Massagetai
 	religion = scythian_main
-	culture = scythian
+	culture = alan
 	father = 330302
 	420.1.1 = { # 356 BC
 		birth="yes"
@@ -16,7 +16,7 @@
 	name = "Kanites" # Made up
 	dynasty = 33004 # Massagetai
 	religion = scythian_main
-	culture = scythian
+	culture = alan
 	395.1.1 = { # 381 BC
 		birth="yes"
 	}

@@ -8,7 +8,7 @@ max_settlements = 1
 b_lithinos_pyrgos_lithinos = castle
 
 # Misc
-culture = khotanese
+culture = tocharian
 religion = zoroastrian_main
 
 # History

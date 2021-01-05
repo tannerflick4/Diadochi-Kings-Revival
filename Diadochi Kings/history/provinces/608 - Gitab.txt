@@ -10,7 +10,7 @@ b_gitab_gitab = tribal
 b_bagaca_gitab = temple
 
 # Misc
-culture = scythian
+culture = khotanese
 religion = zoroastrian_main
 
 # History

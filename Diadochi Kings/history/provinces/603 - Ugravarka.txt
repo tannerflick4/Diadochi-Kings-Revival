@@ -9,7 +9,7 @@ b_ugravarka_ugravarka = tribal
 b_lewleca_ugravarka = temple
 
 # Misc
-culture = scythian
+culture = khotanese
 religion = scythian_main
 
 # History

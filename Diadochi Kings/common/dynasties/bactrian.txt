@@ -3,3 +3,43 @@
 	name = "Oxyartes"
 	culture = bactrian
 }
+10002 = {
+	name = "Khomari"
+	culture = bactrian
+}
+10003 = {
+	name = "Komi"
+	culture = bactrian
+}
+10004 = {
+	name = "Drepsiani"
+	culture = bactrian
+}
+10005 = {
+	name = "Oxiani"
+	culture = bactrian
+}
+10006 = {
+	name = "Parsioi"
+	culture = bactrian
+}
+10007 = {
+	name = "Salatarai"
+	culture = bactrian
+}
+10008 = {
+	name = "Trybactai"
+	culture = bactrian
+}
+10009 = {
+	name = "Zariaspai"
+	culture = bactrian
+}
+10010 = {
+	name = "Drachamai"
+	culture = bactrian
+}
+10011 = {
+	name = "Mykai"
+	culture = bactrian
+}

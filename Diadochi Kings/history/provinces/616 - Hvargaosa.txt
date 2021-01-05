@@ -10,7 +10,7 @@ b_hvargaosa_hvargaosa = tribal
 #b_katika_hvargoasa = castle
 
 # Misc
-culture = scythian
+culture = khotanese
 religion = zoroastrian_main
 
 # History

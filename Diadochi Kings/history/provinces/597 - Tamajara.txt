@@ -9,7 +9,7 @@ b_tamajara_tamajara = tribal
 #b_raognapruha_tamajara = city
 
 # Misc
-culture = scythian
+culture = khotanese
 religion = scythian_main
 
 # History

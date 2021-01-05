@@ -1,0 +1,34 @@
+# 49001-50000 for Saka dynasties
+
+49001 = {
+	name = "Skolotoi"
+	culture = khotanese
+}
+49002 = {
+	name = "Palioi"
+	culture = khotanese
+}
+49003 = {
+	name = "Anarasoi"
+	culture = khotanese
+}
+49004 = {
+	name = "Kachassai"
+	culture = khotanese
+}
+49005 = {
+	name = "Tectosakai"
+	culture = khotanese
+}
+49006 = {
+	name = "Galactophagoi"
+	culture = khotanese
+}
+49007 = {
+	name = "Galactopotai"
+	culture = khotanese
+}
+49008 = {
+	name = "Hippemolgoi"
+	culture = khotanese
+}

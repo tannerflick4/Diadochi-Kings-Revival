@@ -3,7 +3,7 @@
 	name = "Ailios" # Made up
 	dynasty = 33005 # Apasiakai
 	religion = scythian_main
-	culture = scythian
+	culture = dahae
 	father = 330402
 	436.1.1 = { # 352 BC
 		birth="yes"
@@ -16,7 +16,7 @@
 	name = "Saulius" # Made up
 	dynasty = 33005 # Apasiakai
 	religion = scythian_main
-	culture = scythian
+	culture = dahae
 	father = 330403
 	416.1.1 = { # 360 BC
 		birth="yes"
@@ -29,7 +29,7 @@
 	name = "Ailios" # Made up
 	dynasty = 33005 # Apasiakai
 	religion = scythian_main
-	culture = scythian
+	culture = dahae
 	391.1.1 = { # 386 BC
 		birth="yes"
 	}

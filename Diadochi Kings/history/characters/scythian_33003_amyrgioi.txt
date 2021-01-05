@@ -3,7 +3,7 @@
 	name = "Kanites" # Made up
 	dynasty = 33003 # Amyrgioi
 	religion = zoroastrian_main
-	culture = scythian
+	culture = khotanese
 	father = 330202
 	430.1.1 = { # 346 BC
 		birth="yes"
@@ -16,7 +16,7 @@
 	name = "Protothyes" # Made up
 	dynasty = 33003 # Amyrgioi
 	religion = zoroastrian_main
-	culture = scythian
+	culture = khotanese
 	398.1.1 = { # 378 BC
 		birth="yes"
 	}

@@ -11,7 +11,7 @@ b_weitou_shule = city
 b_gumo_wensu = temple
 b_wensu_shule = city
 
-culture = khotanese
+culture = tocharian
 religion = zoroastrian_main
 
 # History

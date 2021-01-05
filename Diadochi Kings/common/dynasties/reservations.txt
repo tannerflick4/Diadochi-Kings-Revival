@@ -46,3 +46,8 @@
 # 45001-46000 for Aquitanian dynasties
 # 46001-47000 for Sicilian dynasties
 # 47001-48000 for Belgic dynasties
+# 48001-49000 for Chorasmian dynasties
+# 49001-50000 for Saka dynasties
+# 50001-51000 for Dahae dynasties
+# 51001-52000 for Alan dynasties
+# 52001-53000 for Arian dynasties

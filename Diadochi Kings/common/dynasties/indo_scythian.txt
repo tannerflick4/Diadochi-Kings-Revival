@@ -1,0 +1,94 @@
+# 52001-53000 for Arian dynasties
+
+52001 = {
+	name = "Airyas"
+	culture = indo_scythian
+}
+52002 = {
+	name = "Spalirisoi"
+	culture = indo_scythian
+}
+52003 = {
+	name = "Spalyrioi"
+	culture = indo_scythian
+}
+52004 = {
+	name = "Spalahorai"
+	culture = indo_scythian
+}
+52005 = {
+	name = "Arioi"
+	culture = indo_scythian
+}
+52006 = {
+	name = "Paktyanoi"
+	culture = indo_scythian
+}
+52007 = {
+	name = "Eoritai"
+	culture = indo_scythian
+}
+52008 = {
+	name = "Musarnaioi"
+	culture = indo_scythian
+}
+52009 = {
+	name = "Parkyetai"
+	culture = indo_scythian
+}
+52010 = {
+	name = "Rhoplutai"
+	culture = indo_scythian
+}
+52011 = {
+	name = "Sidroi"
+	culture = indo_scythian
+}
+52012 = {
+	name = "Borgoi"
+	culture = indo_scythian
+}
+52013 = {
+	name = "Kasirotai"
+	culture = indo_scythian
+}
+52014 = {
+	name = "Ariaspai"
+	culture = indo_scythian
+}
+52015 = {
+	name = "Aparytai"
+	culture = indo_scythian
+}
+52016 = {
+	name = "Arabitai"
+	culture = indo_scythian
+}
+52017 = {
+	name = "Ichthyophagoi"
+	culture = indo_scythian
+}
+52018 = {
+	name = "Oritai"
+	culture = indo_scythian
+}
+52019 = {
+	name = "Parikaniai"
+	culture = indo_scythian
+}
+52020 = {
+	name = "Orai"
+	culture = indo_scythian
+}
+52021 = {
+	name = "Rhamnai"
+	culture = indo_scythian
+}
+52022 = {
+	name = "Drangai"
+	culture = indo_scythian
+}
+52023 = {
+	name = "Zarangai"
+	culture = indo_scythian
+}

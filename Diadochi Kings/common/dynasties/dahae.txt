@@ -1,0 +1,22 @@
+# 50001-51000 for Dahae dynasties
+
+50001 = {
+	name = "Dasai"
+	culture = dahae
+}
+50002 = {
+	name = "Aparni"
+	culture = dahae
+}
+50003 = {
+	name = "Xanthi"
+	culture = dahae
+}
+50004 = {
+	name = "Amardi"
+	culture = dahae
+}
+50005 = {
+	name = "Tapuri"
+	culture = dahae
+}

@@ -9,7 +9,7 @@ b_ugrakati_ugrakati = tribal
 #b_bratavadasz_ugrakati = castle
 
 # Misc
-culture = scythian
+culture = khotanese
 religion = zoroastrian_main
 
 # History

@@ -9,7 +9,7 @@ b_hursyr_hursyr = tribal
 #b_brinpasu_hursyr = city
 
 # Misc
-culture = scythian
+culture = khotanese
 religion = zoroastrian_main
 
 # History

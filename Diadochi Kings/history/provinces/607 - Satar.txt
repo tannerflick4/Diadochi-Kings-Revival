@@ -9,7 +9,7 @@ b_satar_satar = tribal
 b_daar_satar = tribal
 
 # Misc
-culture = scythian
+culture = khotanese
 religion = zoroastrian_main
 
 # History

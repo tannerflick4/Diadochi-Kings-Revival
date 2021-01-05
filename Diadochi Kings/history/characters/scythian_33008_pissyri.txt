@@ -3,7 +3,7 @@
 	name = "Akrosander" # Made up
 	dynasty = 33008 # Pissyri / Dahae
 	religion = zoroastrian_main
-	culture = scythian
+	culture = dahae
 	395.1.1 = { # 381 BC
 		birth="yes"
 	}

@@ -9,7 +9,7 @@ b_dsargalapa_dsargalapa = tribal
 #b_darankol_dsargalapa = city
 
 # Misc
-culture = scythian
+culture = khotanese
 religion = zoroastrian_main
 
 # History
