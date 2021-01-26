@@ -4,3 +4,5 @@
 	# 350031-350100 for the Augilai
 	# 350101-350123 for the Ptemeti
 	# 350124-350146 for the Memphorib (High Priests of Ptah)
+	# 350147-350170 for the Thmoiemoi
+	# 350171-350194 for the Moucreos (High Priests of Osiris)

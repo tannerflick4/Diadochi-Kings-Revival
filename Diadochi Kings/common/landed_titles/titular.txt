@@ -1434,6 +1434,20 @@ d_high_ptah = { #High Priest of Ptah
 	}
 }
 
+d_high_osiris = { #High Priest of Osiris
+	color= { 55 177 99 }
+	color2= { 255 255 255 }
+
+	title = "HIGH_PRIEST"
+	title_female = "HIGH_PRIESTESS"
+	
+	capital = 147 # Lykopolis
+	
+	allow = {
+		culture_group = eastern_african
+	}
+}
+
 ######################################
 # Historical Merchant Republic Palaces
 ######################################

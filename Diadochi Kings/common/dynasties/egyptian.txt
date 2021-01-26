@@ -28,3 +28,11 @@
 	name = "Memphorib"
 	culture = egyptian
 }
+35008 = {
+	name = "Thmoiemoi"
+	culture = egyptian
+}
+35009 = {
+	name = "Moucreos"
+	culture = egyptian
+}
