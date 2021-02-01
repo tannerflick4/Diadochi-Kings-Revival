@@ -9,7 +9,7 @@ b_daranpa_daranpa = tribal
 #b_borabala_daranpa = castle
 
 # Misc
-culture = scythian
+culture = dahae
 religion = scythian_main
 
 # History

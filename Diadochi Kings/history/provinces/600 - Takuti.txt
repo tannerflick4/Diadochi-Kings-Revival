@@ -9,7 +9,7 @@ b_takuti_takuti = tribal
 #b_syrar_takuti = castle
 
 # Misc
-culture = scythian
+culture = alan
 religion = scythian_main
 
 # History

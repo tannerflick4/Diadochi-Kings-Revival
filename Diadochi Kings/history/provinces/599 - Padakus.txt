@@ -10,7 +10,7 @@ b_padakus_padakus = tribal
 #b_katibla_padakus = castle
 
 # Misc
-culture = scythian
+culture = alan
 religion = scythian_main
 
 # History

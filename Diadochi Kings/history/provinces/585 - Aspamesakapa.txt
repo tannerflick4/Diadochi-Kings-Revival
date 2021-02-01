@@ -10,7 +10,7 @@ b_takol_aspamesakapa = temple
 #b_vaskikol_aspamesakapa = castle
 
 # Misc
-culture = scythian
+culture = alan
 religion = scythian_main
 
 # History

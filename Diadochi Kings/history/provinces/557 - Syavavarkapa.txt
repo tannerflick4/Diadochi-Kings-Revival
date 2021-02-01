@@ -9,7 +9,7 @@ b_syavavarkapa_syavavarkapa = tribal
 #b_pasukol_syavavarkapa = city
 
 # Misc
-culture = scythian
+culture = dahae
 religion = scythian_main
 
 # History

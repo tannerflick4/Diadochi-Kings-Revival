@@ -9,7 +9,7 @@ b_navapa_navapa = tribal
 #b_satapasu_navapa = city
 
 # Misc
-culture = scythian
+culture = alan
 religion = scythian_main
 
 # History

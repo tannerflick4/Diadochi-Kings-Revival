@@ -9,7 +9,7 @@ b_bagagasti_bagagasti = tribal
 #b_dasadvara_bagagasti = castle
 
 # Misc
-culture = scythian
+culture = dahae
 religion = zoroastrian_main
 
 # History

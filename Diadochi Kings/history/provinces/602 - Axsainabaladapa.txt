@@ -9,7 +9,7 @@ b_axsainabaladapa_axsainabaladapa = tribal
 #b_pokol_axsainabaladapa = city
 
 # Misc
-culture = scythian
+culture = alan
 religion = scythian_main
 
 # History

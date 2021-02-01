@@ -10,7 +10,7 @@ b_zarkarun_zarkarun = tribal
 #b_arunkol_zarkarun = city
 
 # Misc
-culture = scythian
+culture = dahae
 religion = scythian_main
 
 # History

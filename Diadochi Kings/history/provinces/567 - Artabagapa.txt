@@ -9,7 +9,7 @@ b_artabagapa_artabagapa = tribal
 #b_axsainakol_artabagapa = temple
 
 # Misc
-culture = scythian
+culture = dahae
 religion = zoroastrian_main
 
 # History

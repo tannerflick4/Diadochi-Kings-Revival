@@ -9,7 +9,7 @@ b_giarun_giarun = tribal
 b_cali_giarun = temple
 
 # Misc
-culture = scythian
+culture = dahae
 religion = zoroastrian_main
 
 # History

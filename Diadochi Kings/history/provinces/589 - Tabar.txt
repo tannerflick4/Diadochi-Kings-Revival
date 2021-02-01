@@ -9,7 +9,7 @@ b_tabar_tabar = tribal
 #b_urori_tabar = city
 
 # Misc
-culture = scythian
+culture = alan
 religion = scythian_main
 
 # History

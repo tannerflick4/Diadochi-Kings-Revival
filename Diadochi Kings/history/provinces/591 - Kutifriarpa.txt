@@ -9,7 +9,7 @@ b_kutifriarpa_kutifriarpa = tribal
 #b_vesla_kutifriarpa = city
 
 # Misc
-culture = scythian
+culture = alan
 religion = scythian_main
 
 # History

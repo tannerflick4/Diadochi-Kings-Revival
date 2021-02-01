@@ -10,7 +10,7 @@ b_narapa_narapa = tribal
 #b_karsaca_narapa = city
 
 # Misc
-culture = scythian
+culture = dahae
 religion = zoroastrian_main
 
 # History

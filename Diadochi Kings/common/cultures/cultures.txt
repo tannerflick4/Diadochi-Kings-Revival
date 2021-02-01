@@ -1,5 +1,5 @@
 thracian_group = {
-	graphical_cultures = { norsegfx }
+	graphical_cultures = { norsegfx westerngfx }
 	
 	thracian = {
 		graphical_cultures = { illyriangfx easterngfx }
@@ -60,7 +60,7 @@ thracian_group = {
 	}
 }
 illyrian_group = {
-	graphical_cultures = { norsegfx }
+	graphical_cultures = { norsegfx westerngfx }
 	
 	illyrian = {
 		graphical_cultures = { illyriangfx easterngfx }
@@ -98,7 +98,7 @@ illyrian_group = {
 	}
 }
 celtic = {
-	graphical_cultures = { norsegfx }
+	graphical_cultures = { norsegfx westerngfx }
 	
 	ligurian = {
 		graphical_cultures = { newiberiangfx gaulgfx }
@@ -973,7 +973,7 @@ iranian = {
 		dynasty_title_names = yes
 	}
 	khotanese = {
-		graphical_cultures = { newscythiangfx persiangfx easterngfx }
+		graphical_cultures = { mesopotamiangfx persiangfx easterngfx }
         color = { 0.4 0.2 0.75  }
         
 		male_names = {
@@ -1039,7 +1039,7 @@ iranian = {
 		dynasty_title_names = yes
     }
 	dahae = {
-		graphical_cultures = { newscythiangfx persiangfx easterngfx mongolgfx }
+		graphical_cultures = { mesopotamiangfx persiangfx }
   
 		color = { 0.54 0.29 0.17 }
   
@@ -1756,7 +1756,7 @@ tyrhenian = {
 	}
 }
 north_italic = {
-	graphical_cultures = { norsegfx }
+	graphical_cultures = { norsegfx westerngfx }
  
 	venetic = {
 		graphical_cultures = { illyriangfx occitangfx gaulgfx }
@@ -1781,7 +1781,7 @@ north_italic = {
 	}
 }
 iberian = {
-	graphical_cultures = { norsegfx }
+	graphical_cultures = { norsegfx westerngfx }
 	
 	iberian = {
 		graphical_cultures = { newiberiangfx easternslavicgfx }
@@ -1797,7 +1797,7 @@ iberian = {
 	}
 }
 lusitanian = {
-	graphical_cultures = { norsegfx }
+	graphical_cultures = { norsegfx westerngfx }
 	
 	lusitanian = {
 	graphical_cultures = { newiberiangfx easternslavicgfx }
@@ -1813,7 +1813,7 @@ lusitanian = {
 	}
 }
 tartessian = {
-	graphical_cultures = { norsegfx }
+	graphical_cultures = { norsegfx westerngfx }
 	
 	turdetanian = {
 		graphical_cultures = { newiberiangfx easternslavicgfx }
@@ -1842,7 +1842,7 @@ tartessian = {
 	}
 }
 aquitanian = {
-	graphical_cultures = { norsegfx }
+	graphical_cultures = { norsegfx westerngfx }
 	
 	aquitanian = {
 		graphical_cultures = { newiberiangfx easternslavicgfx }

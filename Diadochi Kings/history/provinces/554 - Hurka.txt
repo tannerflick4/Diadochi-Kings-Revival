@@ -9,7 +9,7 @@ b_hurka_hurka = tribal
 #b_hvarsyr_hurka = city
 
 # Misc
-culture = scythian
+culture = dahae
 religion = scythian_main
 
 # History
