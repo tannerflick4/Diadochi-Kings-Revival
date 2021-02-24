@@ -23,6 +23,9 @@
 	#453.6.10 = {
 	#	add_trait = diadochi_king
 	#}
+	454.1.1 = { # 322 BC
+		add_spouse = 350007 #(Miss) of Egypt
+	}
 	455.1.1 = { # 321 BC
 		add_spouse = 4 # Eurydike
 	}

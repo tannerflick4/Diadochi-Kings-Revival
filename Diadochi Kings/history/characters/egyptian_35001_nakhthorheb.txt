@@ -9,8 +9,11 @@
 	add_trait = zealous
 	add_trait = tough_soldier
 	stewardship = 8
-	398.1.1 = { # 378 BC, made up
+	396.1.1 = { # 380 BC
 		birth="yes"
+	}
+	413.1.1 = {
+		add_spouse = 350005
 	}
 	440.1.1 = { # 336 BC, made up
 		death="yes"
@@ -23,7 +26,7 @@
 	religion = kemetic
 	father = 350003
 	
-	374.1.1 = { # 402 BC, made up
+	372.1.1 = { # 404 BC, made up
 		birth="yes"
 	}
 	406.1.1 = { # 370 BC, made up
@@ -41,6 +44,9 @@
 	356.1.1 = { # 420 BC, made up
 		birth="yes"
 	}
+	374.1.1 = { # 402 BC, made up
+		add_spouse = 350200
+	}
 	414.1.1 = { # 362 BC
 		death="yes"
 	}
@@ -53,14 +59,18 @@
 	add_trait = cruel
 	add_trait = greedy
 	father = 350003
-	372.1.1 = { # 404 BC, made up
+	mother = 350200
+	374.10.1 = { # 402 BC, made up
 		birth="yes"
 	}
 	416.1.1 = { # 360 BC, lives in Persia
 		employer = 90311
 	}
-	436.1.1 = { # 340 BC, made up
-		death="yes"
+	419.1.1 = { # 357 BC, made up
+		death = {
+			death_reason = death_dungeon
+			killer = 35001 #Nectanebo II
+		}
 	}
 }
 350005 = {
@@ -68,14 +78,66 @@
 	dynasty = 35001
 	culture = egyptian
 	religion = kemetic
+	female = yes
 	father = 350004
-	396.1.1 = { # 380 BC, made up
+	397.1.1 = { # 379 BC, made up
 		birth="yes"
 	}
-	416.1.1 = { # 360 BC, lives in Persia
-		employer = 90311
+	413.1.1 = { # 
+		add_spouse = 350001
 	}
 	446.1.1 = { # 330 BC, made up
+		death="yes"
+	}
+}
+350006 = {
+	name = "Senensetepenptah" #Khababask, purported child of Nectanebo II, attacker of Nubia under Nastasen
+	dynasty = 35001
+	culture = egyptian
+	religion = kemetic
+	add_trait = skilled_tactician
+	add_trait = heresiarch
+	father = 350001
+	mother = 350005
+	418.1.1 = { # 358 BC, made up
+		birth="yes"
+	}
+	441.1.1 = { # 335 BC
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+350007 = {
+	name = "Meryethapi" #Possible wife of Ptolemy I Soter
+	dynasty = 35001
+	culture = egyptian
+	religion = kemetic
+	female = yes
+	father = 350001
+	422.1.1 = { # 354 BC, made up
+		birth="yes"
+	}
+	454.1.1 = { # 322 BC
+		add_spouse = 601 #Ptolemy I Soter
+	}
+	455.1.1 = { # 321 BC
+		death = {
+			death_reason = death_accident
+		}
+	}
+}
+350008 = {
+	name = "Kheru" #Herib
+	dynasty = 35001
+	culture = egyptian
+	religion = kemetic
+	female = yes
+	father = 350006
+	439.1.1 = { # 337 BC, made up
+		birth="yes"
+	}
+	505.1.1 = { # 271 BC
 		death="yes"
 	}
 }

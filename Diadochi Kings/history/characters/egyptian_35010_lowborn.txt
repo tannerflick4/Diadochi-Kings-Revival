@@ -1,0 +1,17 @@
+# 350200-350299 for lowborn characters
+
+350200 = {
+	name = "Oudjashou" #Mother of Teos (Djedhor)
+	culture = egyptian
+	religion = kemetic
+	female = yes
+	358.1.1 = { # 418 BC, made up
+		birth="yes"
+	}
+	374.1.1 = { # 402 BC, made up
+		add_spouse = 350003
+	}
+	416.1.1 = { # 360 BC, made up
+		death="yes"
+	}
+}
