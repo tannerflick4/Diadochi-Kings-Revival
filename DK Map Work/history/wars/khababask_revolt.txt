@@ -1,0 +1,17 @@
+name = "Khababask's revolt against Persia"
+
+casus_belli = {
+	actor = 350006 # Khababask
+	recipient = 90312 # Artaxerxes III
+	casus_belli = claim
+	landed_title = e_egypt
+	date = 435.1.1 # 338	BC
+}
+438.1.1 = { # 338 BC	
+	add_attacker = 350006 # Khababask
+	add_defender = 90312 # Artaxerxes III
+}
+441.1.1 = { # 335 BC	
+	rem_attacker = 350006 # Khababask
+	rem_defender = 90312 # Artaxerxes III
+}

@@ -1,0 +1,30 @@
+372.1.1 = { 
+	holder = 350058 #Amenirdisu, 404-398 BCE 
+} 
+376.10.1 = { 
+	holder = 350016 #Nepherites I, 398-393 BCE
+} 
+383.1.1 = { 
+	holder = 350017 #Muthis/Psammuthes, 393-392 BCE
+} 
+384.1.1 = { 
+	holder = 350018 #Hakor, 393-380 BCE
+} 
+396.1.1 = { 
+	holder = 350019 #Nepherites II, 380 BCE
+} 
+396.6.1 = {
+	holder = 350003 # Nectanebo I, 380-362 BCE
+} 
+414.1.1 = {
+	holder = 350004 # Djedhor, 362-360 BCE
+} 
+416.1.1 = {
+	holder = 350001 # Nectanebo II, 360-342 BCE
+} 
+435.1.1 = { # 341 BC
+	holder = 350006 # Khababask
+}
+441.1.1 = { # 335 BC
+	holder = 350009 # Kambasuten, fictional son of Khababask
+}

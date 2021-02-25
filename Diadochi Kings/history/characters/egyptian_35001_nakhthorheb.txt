@@ -96,15 +96,18 @@
 	culture = egyptian
 	religion = kemetic
 	add_trait = skilled_tactician
-	add_trait = heresiarch
+	add_trait = adventurer
 	father = 350001
 	mother = 350005
 	418.1.1 = { # 358 BC, made up
 		birth="yes"
 	}
+	435.1.1 = { # 341 BC
+		add_claim = e_egypt
+	}
 	441.1.1 = { # 335 BC
 		death = {
-			death_reason = death_battle
+			death_reason = death_battle #Likely killed in campaign against Nastasen
 		}
 	}
 }
@@ -137,7 +140,26 @@
 	439.1.1 = { # 337 BC, made up
 		birth="yes"
 	}
+	441.1.1 = { # 335 BC
+		effect = { add_weak_claim = e_egypt }
+	}
 	505.1.1 = { # 271 BC
+		death="yes"
+	}
+}
+350009 = {
+	name = "Kambasuten" #Fictional son of Khababask
+	dynasty = 35001
+	culture = egyptian
+	religion = kemetic
+	father = 350006
+	433.12.12 = { #343 BC
+		birth="yes"
+	}
+	441.1.1 = { # 335 BC
+		effect = { add_weak_claim = e_egypt }
+	}
+	489.1.1 = { #287BC
 		death="yes"
 	}
 }

@@ -1,0 +1,6 @@
+438.1.1 = { # 338 BC
+	holder = 350006 # Khababask, pretender to the Egyptian throne
+}
+441.1.1 = { # 335 BC
+	holder = 350009 # Kambasuten, fictional son of Khababask
+}

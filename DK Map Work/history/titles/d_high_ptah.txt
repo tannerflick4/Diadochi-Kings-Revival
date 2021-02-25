@@ -54,6 +54,12 @@
 435.1.1 = {
 	liege = k_p_egypt
 }
+438.1.1 = { # 338 BC
+	liege = k_lower_egypt
+}
+441.1.1 = { # 335 BC
+	liege = k_p_egypt
+}
 446.1.1 = { # 330 BC
 	liege = k_s_egypt
 }
