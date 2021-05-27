@@ -1448,6 +1448,20 @@ d_high_osiris = { #High Priest of Osiris
 	}
 }
 
+d_high_amun_ra = { #High Priest of Amun-Ra
+	color= { 178 192 57 }
+	color2= { 255 255 255 }
+
+	title = "HIGH_PRIEST"
+	title_female = "HIGH_PRIESTESS"
+	
+	capital = 150 # Thebes
+	
+	allow = {
+		culture_group = eastern_african
+	}
+}
+
 ######################################
 # Historical Merchant Republic Palaces
 ######################################

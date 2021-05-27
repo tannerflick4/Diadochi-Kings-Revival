@@ -51,23 +51,11 @@
 407.1.1 = { # 369 BC
 	holder = 350190 # Semenkare of the Moucreos
 }
-438.1.1 = { # 338 BC
-	liege = k_lower_egypt
-}
-441.1.1 = { # 335 BC
-	liege = k_p_egypt
-}
-446.1.1 = { # 330 BC
-	liege = k_s_egypt
-}
 448.1.1 = { # 328 BC
 	holder = 350191 # Userhet of the Moucreos
 }
 458.1.1 = { # 318 BC
 	holder = 350192 # Pinedjem of the Moucreos
-}
-467.1.1 = {
-	liege = e_egypt
 }
 487.1.1 = { # 289 BC
 	holder = 350194 # Sneferu of the Moucreos

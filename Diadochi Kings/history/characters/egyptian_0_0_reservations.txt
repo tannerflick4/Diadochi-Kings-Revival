@@ -7,3 +7,4 @@
 	# 350147-350170 for the Thmoiemoi
 	# 350171-350194 for the Moucreos (High Priests of Osiris)
 	# 350200-350299 for the lowborns
+	# 350300-350321 for the Wasetis (High Priests of Amun-Ra)

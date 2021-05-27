@@ -36,3 +36,7 @@
 	name = "Moucreos"
 	culture = egyptian
 }
+35010 = {
+	name = "Wasetis"
+	culture = egyptian
+}
