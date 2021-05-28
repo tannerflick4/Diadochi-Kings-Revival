@@ -4,13 +4,291 @@
 	dynasty = 17021 # Fabricii
 	religion = roman_main
 	culture = latin
-	
-	add_trait = charitable
-	
+	father=172012	#Aelius
 	443.1.1 = { # 333 BC Made up
 		birth="yes"
 	}
 	509.1.1 = { # 267 BC Made up
 		death="yes"
 	}
+}
+
+172002={
+	name=Aulus
+	dynasty=17021
+	culture=latin 
+	religion=roman_main
+	320.4.23={ birth=yes }
+	372.10.12={ death=yes }
+}
+172003={
+	name=Varus
+	dynasty=17021
+	culture=latin 
+	religion=roman_main
+	father=172002	#Aulus
+	341.7.24={ birth=yes }
+	414.5.23={ death=yes }
+}
+172004={
+	name=Gratian
+	dynasty=17021
+	culture=latin 
+	religion=roman_main
+	father=172002	#Aulus
+	343.12.24={ birth=yes }
+	417.6.11={ death=yes }
+}
+172005={
+	name=Brutus
+	dynasty=17021
+	culture=latin 
+	religion=roman_main
+	father=172003	#Varus
+	368.12.26={ birth=yes }
+	438.2.10={ death=yes }
+}
+172006={
+	name=Battia
+	female=yes
+	dynasty=17021
+	culture=latin 
+	religion=roman_main
+	father=172003	#Varus
+	372.7.9={ birth=yes }
+	440.3.16={ death=yes }
+}
+172007={
+	name=Hortensius
+	dynasty=17021
+	culture=latin 
+	religion=roman_main
+	father=172003	#Varus
+	376.12.18={ birth=yes }
+	446.4.5={ death=yes }
+}
+172008={
+	name=Quintillus
+	dynasty=17021
+	culture=latin 
+	religion=roman_main
+	father=172005	#Brutus
+	391.7.15={ birth=yes }
+	443.5.22={ death=yes }
+}
+172009={
+	name=Caecilius
+	dynasty=17021
+	culture=latin 
+	religion=roman_main
+	father=172005	#Brutus
+	397.6.23={ birth=yes }
+	445.1.29={ death=yes }
+}
+172010={
+	name=Paetina
+	female=yes
+	dynasty=17021
+	culture=latin 
+	religion=roman_main
+	father=172005	#Brutus
+	400.6.8={ birth=yes }
+	473.7.6={ death=yes }
+}
+172011={
+	name=Syncellus
+	dynasty=17021
+	culture=latin 
+	religion=roman_main
+	father=172005	#Brutus
+	404.10.18={ birth=yes }
+	463.1.16={ death=yes }
+}
+172012={
+	name=Aelius
+	dynasty=17021
+	culture=latin 
+	religion=roman_main
+	father=172008	#Quintillus
+	410.8.20={ birth=yes }
+	463.10.27={ death=yes }
+}
+172013={
+	name=Capanea
+	female=yes
+	dynasty=17021
+	culture=latin 
+	religion=roman_main
+	father=172008	#Quintillus
+	412.10.12={ birth=yes }
+	483.12.2={ death=yes }
+}
+172014={
+	name=Arrianilla
+	female=yes
+	dynasty=17021
+	culture=latin 
+	religion=roman_main
+	father=172008	#Quintillus
+	416.1.3={ birth=yes }
+	469.10.17={ death=yes }
+}
+172015={
+	name=Tiberius
+	dynasty=17021
+	culture=latin 
+	religion=roman_main
+	father=172008	#Quintillus
+	418.1.14={ birth=yes }
+	467.10.21={ death=yes }
+}
+172016={
+	name=Posthuma
+	female=yes
+	dynasty=17021
+	culture=latin 
+	religion=roman_main
+	father=172008	#Quintillus
+	423.12.17={ birth=yes }
+	497.3.10={ death=yes }
+}
+172017={
+	name=Lapidus
+	dynasty=17021
+	culture=latin 
+	religion=roman_main
+	father=172008	#Quintillus
+	426.6.12={ birth=yes }
+	470.7.30={ death=yes }
+}
+172018={
+	name=Gouneus
+	dynasty=17021
+	culture=latin 
+	religion=roman_main
+	father=172012	#Aelius
+	432.1.17={ birth=yes }
+	500.11.24={ death=yes }
+}
+172019={
+	name=Marcella
+	female=yes
+	dynasty=17021
+	culture=latin 
+	religion=roman_main
+	father=172012	#Aelius
+	435.12.9={ birth=yes }
+	505.3.24={ death=yes }
+}
+172020={
+	name=Caecilius
+	dynasty=17021
+	culture=latin 
+	religion=roman_main
+	father=172012	#Aelius
+	437.11.23={ birth=yes }
+	486.2.5={ death=yes }
+}
+172021={
+	name=Photius
+	dynasty=17021
+	culture=latin 
+	religion=roman_main
+	father=172018	#Gouneus
+	454.5.10={ birth=yes }
+	499.7.8={ death=yes }
+}
+172022={
+	name=Marcella
+	female=yes
+	dynasty=17021
+	culture=latin 
+	religion=roman_main
+	father=172018	#Gouneus
+	456.2.1={ birth=yes }
+	523.9.13={ death=yes }
+}
+172023={
+	name=Plautus
+	dynasty=17021
+	culture=latin 
+	religion=roman_main
+	father=172018	#Gouneus
+	457.9.16={ birth=yes }
+	503.12.29={ death=yes }
+}
+172024={
+	name=Afrania
+	female=yes
+	dynasty=17021
+	culture=latin 
+	religion=roman_main
+	father=172018	#Gouneus
+	462.10.14={ birth=yes }
+	503.7.9={ death=yes }
+}
+172025={
+	name=Servia
+	female=yes
+	dynasty=17021
+	culture=latin 
+	religion=roman_main
+	father=172021	#Photius
+	482.12.22={ birth=yes }
+	540.9.24={ death=yes }
+}
+172026={
+	name=Aristylla
+	female=yes
+	dynasty=17021
+	culture=latin 
+	religion=roman_main
+	father=172021	#Photius
+	487.5.10={ birth=yes }
+	520.12.31={ death=yes }
+}
+172027={
+	name=Cornelius
+	dynasty=17021
+	culture=latin 
+	religion=roman_main
+	father=172021	#Photius
+	491.12.24={ birth=yes }
+	549.9.6={ death=yes }
+}
+172028={
+	name=Eustathius
+	dynasty=17021
+	culture=latin 
+	religion=roman_main
+	father=172021	#Photius
+	496.2.24={ birth=yes }
+	556.5.10={ death=yes }
+}
+172029={
+	name=Arrius
+	dynasty=17021
+	culture=latin 
+	religion=roman_main
+	father=172027	#Cornelius
+	517.11.17={ birth=yes }
+	574.7.15={ death=yes }
+}
+172030={
+	name=Persius
+	dynasty=17021
+	culture=latin 
+	religion=roman_main
+	father=172027	#Cornelius
+	520.4.2={ birth=yes }
+	600.10.23={ death=yes }
+}
+172031={
+	name=Aemilius
+	dynasty=17021
+	culture=latin 
+	religion=roman_main
+	father=172027	#Cornelius
+	525.4.26={ birth=yes }
+	578.3.2={ death=yes }
 }
