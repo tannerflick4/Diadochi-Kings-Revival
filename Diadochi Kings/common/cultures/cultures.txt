@@ -220,7 +220,7 @@ levantine_group = {
 			Azrubaal Baalfadi Baalhanno Baalshillek Baalyaton Baraket Binmilqart Bodashtart 
 			Bodeshmun Bodinelqart Bodmelqart Bodtanit Bostar Danel_Daniel Eshmunamash Eshmunazar 
 			Eshmunkhilletz Eshmunshalokh Germelqart Hamilket Hamon Hannibaal Hanno Hasdrubaal Hiram 
-			Kanmi Khamelqart Khilletzbaal Khimilk�t Magon Maharbaal Melqartpilles Menahilim 
+			Kanmi Khamelqart Khilletzbaal Khimilk't Magon Maharbaal Melqartpilles Menahilim 
 			Milkherem Milkpilles Milkyaton Mithonbaal Philosir Pimyaton Rib-Addi Sakarbaal 
 			Shafat Tabnit Tanubda Yaroah Yehawwielon Yutpan Zimrida
 		}
