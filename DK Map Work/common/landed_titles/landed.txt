@@ -11267,6 +11267,7 @@ e_rome = {
 
 				holy_site = etruscan_main
 				holy_site = roman_main
+				holy_site = aquitanian_main # placeholder
 
 				b_capitoline_hill = {
 				}
@@ -17590,6 +17591,8 @@ e_gaul = {
 				color= { 241 255 50 }
 				color2= { 255 255 255 }
 				
+				holy_site = aquitanian_main # placeholder
+				
 				b_boii_boii = {
 				}
 				b_losa_boii = {
@@ -19036,9 +19039,13 @@ e_gaul = {
 		color={ 0 200 200 }
 		color2={ 255 255 255 }
 
+		capital = 1261 # Rotomagus
+
 		d_samara = {
 			color={ 23 198 195 }
 			color2={ 255 255 255 }
+
+			capital = 1261 # Rotomagus
 
 			c_rotomagus = {
 				color= { 23 193 196 }
@@ -19120,6 +19127,8 @@ e_gaul = {
 		d_scaldis = {
 			color={ 0 172 198 }
 			color2={ 255 255 255 }
+
+			capital = 1267 # Nemetacum
 		
 			c_nemetacum = {
 				color= { 0 163 196 }
@@ -19182,6 +19191,8 @@ e_gaul = {
 		d_mosa = {
 			color={ 0 198 179 }
 			color2={ 255 255 255 }
+
+			capital = 1270 # Helinio
 
 			c_helinio = {
 				color= { 0 196 186 }
@@ -19263,6 +19274,8 @@ e_gaul = {
 		d_isara = {
 			color={ 47 181 198 }
 			color2={ 255 255 255 }
+
+			capital = 1263 # Iatonon
 
 			c_iatonon = {
 				color= { 47 173 196 }
@@ -19364,6 +19377,8 @@ e_gaul = {
 			color={ 82 196 181 }
 			color2={ 255 255 255 }
 
+			capital = 1272 # Bibrax
+
 			c_bibrax = {
 				color= { 81 193 184 }
 				color2= { 255 255 255 }
@@ -19444,6 +19459,8 @@ e_gaul = {
 		d_mosella = {
 			color={ 113 198 196 }
 			color2={ 255 255 255 }
+
+			capital = 1284 # Bonna
 		
 			c_bonna = {
 				color= { 113 194 196 }
@@ -19544,6 +19561,8 @@ e_gaul = {
 		d_nida = {
 			color={ 103 198 162 }
 			color2={ 255 255 255 }
+
+			capital = 1227 # Viriodunum
 
 			c_viriodunum = {
 				color= { 104 196 165 }
