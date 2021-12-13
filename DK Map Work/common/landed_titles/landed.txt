@@ -10957,7 +10957,7 @@ k_nabataea = {
 		
 		egyptian = "Mafkat"
 		
-		capital = 132 # Pelusium
+		capital = 133 # Rhaithou
 	
 		c_rhaithou = {
 			color= { 190 150 25 }
@@ -13657,7 +13657,7 @@ k_kush = {
 			}
 			b_kortia_pselchis = {
 			}
-			d_talmis_pselchis = {
+			b_talmis_pselchis = {
 				egyptian = "Per-Ptah"
 			}
 			b_tafis_pselchis = {

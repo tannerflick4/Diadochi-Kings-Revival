@@ -11771,6 +11771,7 @@ e_rome = {
 
 				holy_site = etruscan_main
 				holy_site = roman_main
+				holy_site = aquitanian_main # placeholder
 
 				b_capitoline_hill = {
 				}
@@ -18029,6 +18030,8 @@ e_gaul = {
 			c_boii = {
 				color= { 241 255 50 }
 				color2= { 255 255 255 }
+				
+				holy_site = aquitanian_main # placeholder
 				
 				b_boii_boii = {
 				}

@@ -69,7 +69,7 @@
 	419.1.1 = { # 357 BC, made up
 		death = {
 			death_reason = death_dungeon
-			killer = 35001 #Nectanebo II
+			killer = 350001 #Nectanebo II
 		}
 	}
 }
