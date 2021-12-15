@@ -263,16 +263,16 @@ PROV132;Pelousion;;;;;;;;;;;;;;x
 c_pelusium_adj;Pelousian;;;;;;;;;;;;;;x
 PROV133;Rhaithou;;;;;;;;;;;;;;x
 c_rhaithou_adj;Rhaithian;;;;;;;;;;;;;;x
-PROV134;Berenike;;;;;;;;;;;;;;x
-c_aelana_adj;Berenikaian;;;;;;;;;;;;;;x
+PROV134;Ailana;;;;;;;;;;;;;;x
+c_ailana_adj;Ailanan;;;;;;;;;;;;;;x
 PROV135;Tanis;;;;;;;;;;;;;;x
 c_tanis_adj;Tanian;;;;;;;;;;;;;;x
 PROV136;Sebennytos;;;;;;;;;;;;;;x
 c_sebennytos_adj;Sebbennytian;;;;;;;;;;;;;;x
 PROV137;Bouto;;;;;;;;;;;;;;x
 c_bouto_adj;Boutian;;;;;;;;;;;;;;x
-PROV138;Kanopos;;;;;;;;;;;;;;x
-c_canopus_adj;Kanopian;;;;;;;;;;;;;;x
+PROV138;Metelis;;;;;;;;;;;;;;x
+c_metelis_adj;Metelian;;;;;;;;;;;;;;x
 PROV139;Alexandreia;;;;;;;;;;;;;;x
 c_alexandria_adj;Alexandreian;;;;;;;;;;;;;;x
 PROV140;Heliopolis;;;;;;;;;;;;;;x
@@ -287,24 +287,22 @@ PROV144;Klysma;;;;;;;;;;;;;;x
 c_clysma_adj;Klysman;;;;;;;;;;;;;;x
 PROV145;Oxyrrhynchos;;;;;;;;;;;;;;x
 c_oxyrhynchus_adj;Oxyrrhynchian;;;;;;;;;;;;;;x
-PROV146;Qubba;;;;;;;;;;;;;;x
-c_qubba_adj;Qubban;;;;;;;;;;;;;;x
+PROV146; ;;;;;;;;;;;;;;x
 PROV147;Lykopolis;;;;;;;;;;;;;;x
 c_lykopolis_adj;Lykopolitan;;;;;;;;;;;;;;x
 PROV148;Panopolis;;;;;;;;;;;;;;x
 c_panopolis_adj;Panopolitan;;;;;;;;;;;;;;x
-PROV149;Kaine;;;;;;;;;;;;;;x
-c_kaine_adj;Kainian;;;;;;;;;;;;;;x
+PROV149;Koptos;;;;;;;;;;;;;;x
+c_koptos_adj;Koptic;;;;;;;;;;;;;;x
 PROV150;Thebai;;;;;;;;;;;;;;x
 c_thebes_egypt_adj;Theban;;;;;;;;;;;;;;x
-PROV151;Persou;;;;;;;;;;;;;;x
-c_persou_adj;Persan;;;;;;;;;;;;;;x
+PROV151;Apollonopolis;;;;;;;;;;;;;;x
+c_apollonopolis_adj;Apollonopolitan;;;;;;;;;;;;;;x
 PROV152;Latopolis;;;;;;;;;;;;;;x
 c_latopolis_adj;Latopolitan;;;;;;;;;;;;;;x
 PROV153;Syene;;;;;;;;;;;;;;x
 c_syene_adj;Syenian;;;;;;;;;;;;;;x
-PROV154;Nechesia;;;;;;;;;;;;;;x
-c_berenike_adj;Nechesian;;;;;;;;;;;;;;x
+PROV154; ;;;;;;;;;;;;;;x
 PROV155;Hibis;;;;;;;;;;;;;;x
 c_hibis_adj;Hibian;;;;;;;;;;;;;;x
 PROV156;Kysis;;;;;;;;;;;;;;x
@@ -647,8 +645,7 @@ PROV324;Roma;;;;;;;;;;;;;;x
 c_roma_adj;Roman;;;;;;;;;;;;;;x
 PROV325;Venusia;;;;;;;;;;;;;;x
 c_venusia_adj;Venusian;;;;;;;;;;;;;;x
-PROV326;Maloenton;;;;;;;;;;;;;;x
-c_beneventum_adj;Maloentian;;;;;;;;;;;;;;x
+PROV326;Sinai;;;;;;;;;;;;;;x
 PROV327;Bovianum;;;;;;;;;;;;;;x
 c_bovianum_adj;Bovian;;;;;;;;;;;;;;x
 PROV328;Sulmo;;;;;;;;;;;;;;x
@@ -693,6 +690,8 @@ PROV347;Verona;;;;;;;;;;;;;;x
 c_verona_adj;Veronan;;;;;;;;;;;;;;x
 PROV348;Patavium;;;;;;;;;;;;;;x
 c_patavium_adj;Patavian;;;;;;;;;;;;;;x
+PROV349;Arandara;;;;;;;;;;;;;;x
+c_arandara_adj;Arandaran;;;;;;;;;;;;;;x
 PROV350;Aleria;;;;;;;;;;;;;;x
 c_aleria_adj;Alerian;;;;;;;;;;;;;;x
 PROV351;Palla;;;;;;;;;;;;;;x
@@ -769,6 +768,8 @@ PROV386;Sirmium;;;;;;;;;;;;;;x
 c_sirmium_adj;Sirmian;;;;;;;;;;;;;;x
 PROV387;Cibalae;;;;;;;;;;;;;;x
 c_cibalae_adj;Cibalaean;;;;;;;;;;;;;;x
+PROV388;Naucratis;;;;;;;;;;;;;;x
+c_naucratis_adj;Naucratian;;;;;;;;;;;;;;x
 PROV389;Malvesia;;;;;;;;;;;;;;x
 c_malvesia_adj;Malvesian;;;;;;;;;;;;;;x
 PROV390;Sopianae;;;;;;;;;;;;;;x
@@ -841,10 +842,14 @@ PROV423;Segustero;;;;;;;;;;;;;;x
 c_segustero_adj;Segusteran;;;;;;;;;;;;;;x
 PROV424;Valentia;;;;;;;;;;;;;;x
 c_valentia_adj;Valentian;;;;;;;;;;;;;;x
+PROV425;Athribis;;;;;;;;;;;;;;x
+c_athribis_adj;Athribic;;;;;;;;;;;;;;x
 PROV426;Brigantio;;;;;;;;;;;;;;x
 c_brigantio_adj;Brigantian;;;;;;;;;;;;;;x
 PROV427;Lugudunon;;;;;;;;;;;;;;x
 c_lugdunum_adj;Lugudunonian;;;;;;;;;;;;;;x
+PROV428;Herakleopolis;;;;;;;;;;;;;;x
+c_herakleopolis_adj;Herakleopolitan;;;;;;;;;;;;;;x
 PROV429;Andematunnum;;;;;;;;;;;;;;x
 c_andematunnum_adj;Andematunnan;;;;;;;;;;;;;;x
 PROV430;Eudracinum;;;;;;;;;;;;;;x
@@ -1674,7 +1679,7 @@ c_nyssa_adj;Nyssan;;;;;;;;;;;;x;;
 PROV842;Gauraina;;;;;;;;;;;;x;;
 c_gauraina_adj;Gaurainan;;;;;;;;;;;;x;;
 PROV843;Thmoresis;;;;;;;;;;;;x;;
-c_antinoopolis_adj;Gaurainan;;;;;;;;;;;;x;;
+c_thmoresis_adj;Thmoresian;;;;;;;;;;;;x;;
 PROV844;Diospolis Mikra;;;;;;;;;;;;x;;
 c_diospolis_mikra_adj;Diospolitan;;;;;;;;;;;;x;;
 PROV845;Eileithiopolis;;;;;;;;;;;;x;;
@@ -1807,6 +1812,8 @@ PROV909;Tazerbo;;;;;;;;;;;;x;;
 c_tazerbo_adj;Tazerbian;;;;;;;;;;;;x;;
 PROV910;Koufra;;;;;;;;;;;;x;;
 c_koufra_adj;Koufran;;;;;;;;;;;;x;;
+PROV911;Kynopolis;;;;;;;;;;;;x;;
+c_kynopolis_adj;Kynopolitan;;;;;;;;;;;;x;;
 PROV912;Turobriga;;;;;;;;;;;;x;;
 c_turobriga_adj;Turobrigan;;;;;;;;;;;;x;;
 PROV913;Segida;;;;;;;;;;;;x;;
@@ -1815,10 +1822,14 @@ PROV914;Artigi;;;;;;;;;;;;x;;
 c_artigi_adj;Artigian;;;;;;;;;;;;x;;
 PROV915;Munigua;;;;;;;;;;;;x;;
 c_munigua_adj;Muniguan;;;;;;;;;;;;x;;
+PROV916;Hermopolis;;;;;;;;;;;;x;;
+c_hermopolis_adj;Hermopolitan;;;;;;;;;;;;x;;
 PROV917;Osset;;;;;;;;;;;;x;;
 c_osset_adj;Ossetian;;;;;;;;;;;;x;;
 PROV918;Hispalis;;;;;;;;;;;;x;;
 c_hispalis_adj;Hispanian;;;;;;;;;;;;x;;
+PROV919;Psinemoun;;;;;;;;;;;;x;;
+c_psinemoun_adj;Psinemounic;;;;;;;;;;;;x;;
 PROV920;Gadir;;;;;;;;;;;;x;;
 c_gadir_adj;Gadirian;;;;;;;;;;;;x;;
 PROV921;Carteia;;;;;;;;;;;;x;;
@@ -1847,6 +1858,8 @@ PROV932;Libisosa;;;;;;;;;;;;x;;
 c_libisosa_adj;Libisosan;;;;;;;;;;;;x;;
 PROV933;Valeria;;;;;;;;;;;;x;;
 c_valeria_adj;Valerian;;;;;;;;;;;;x;;
+PROV934;Ptolemais;;;;;;;;;;;;x;;
+c_ptolemais_adj;Ptolemaisian;;;;;;;;;;;;x;;
 PROV935;Saguntum;;;;;;;;;;;;x;;
 c_saguntum_adj;Saguntian;;;;;;;;;;;;x;;
 PROV936;Hemeroskopion;;;;;;;;;;;;x;;
@@ -1877,12 +1890,16 @@ PROV948;Ebora;;;;;;;;;;;;x;;
 c_ebora_adj;Eboran;;;;;;;;;;;;x;;
 PROV949;Olisipo;;;;;;;;;;;;x;;
 c_olisipo_adj;Olisipan;;;;;;;;;;;;x;;
+PROV950;Antaiopolis;;;;;;;;;;;;x;;
+c_antaiopolis_adj;Antaiopolitan;;;;;;;;;;;;x;;
 PROV951;Ammaia;;;;;;;;;;;;x;;
 c_ammaia_adj;Ammaian;;;;;;;;;;;;x;;
 PROV952;Badua;;;;;;;;;;;;x;;
 c_badua_adj;Baduan;;;;;;;;;;;;x;;
 PROV953;Egitania;;;;;;;;;;;;x;;
 c_egitania_adj;Egitanian;;;;;;;;;;;;x;;
+PROV954;Berenike;;;;;;;;;;;;x;;
+c_berenike_adj;Berenikan;;;;;;;;;;;;x;;
 PROV955;Longobriga;;;;;;;;;;;;x;;
 c_longobriga_adj;Longobrigan;;;;;;;;;;;;x;;
 PROV956;Talabriga;;;;;;;;;;;;x;;
@@ -1893,6 +1910,7 @@ PROV958;Glandimirum;;;;;;;;;;;;x;;
 c_glandimirum_adj;Glandimiran;;;;;;;;;;;;x;;
 PROV959;Brigantium;;;;;;;;;;;;x;;
 c_brigantium_adj;Brigantium;;;;;;;;;;;;x;;
+PROV960; ;;;;;;;;;;;;x;;
 PROV961;Lance;;;;;;;;;;;;x;;
 c_lance_adj;Lancian;;;;;;;;;;;;x;;
 PROV962;Asturica;;;;;;;;;;;;x;;
@@ -1933,6 +1951,8 @@ PROV979;Segia;;;;;;;;;;;;x;;
 c_segia_adj;Segian;;;;;;;;;;;;x;;
 PROV980;Oiasso;;;;;;;;;;;;x;;
 c_oiasso_adj;Oiassan;;;;;;;;;;;;x;;
+PROV981;Thbakat;;;;;;;;;;;;x;;
+c_thbakat_adj;Thbakatian;;;;;;;;;;;;x;;
 PROV982;Gebala;;;;;;;;;;;;x;;
 c_gebala_adj;Gebalan;;;;;;;;;;;;x;;
 PROV983;Pelva;;;;;;;;;;;;x;;
@@ -2271,16 +2291,24 @@ PROV1201;Toletum;;;;;;;;;;;;;;x
 c_toletum_adj;Toletian;;;;;;;;;;;;;;x
 PROV1202;Tamusia;;;;;;;;;;;;;;x
 c_tamusia_adj;Tamusian;;;;;;;;;;;;;;x
+PROV1203; ;;;;;;;;;;;;;;x
 PROV1204;Arriaca;;;;;;;;;;;;;;x
 c_arriaca_adj;Arriacan;;;;;;;;;;;;;;x
-PROV1206;Capera;;;;;;;;;;;;;;x
-c_capera_adj;Caperan;;;;;;;;;;;;;;x
+PROV1205; ;;;;;;;;;;;;;;x
+PROV1206;Sabagura;;;;;;;;;;;;;;x
+c_sabagura_adj;Sabaguran;;;;;;;;;;;;;;x
+PROV1207;Nalote;;;;;;;;;;;;;;x
+c_nalote_adj;Nalotan;;;;;;;;;;;;;;x
 PROV1208;Salmantica;;;;;;;;;;;;;;x
 c_salmantica_adj;Salamantican;;;;;;;;;;;;;;x
+PROV1209;Premis;;;;;;;;;;;;;;x
+c_premis_adj;Premic;;;;;;;;;;;;;;x
 PROV1210;Segovia;;;;;;;;;;;;;;x
 c_segovia_adj;Segovian;;;;;;;;;;;;;;x
 PROV1211;Termes;;;;;;;;;;;;;;x
 c_termes_adj;Termian;;;;;;;;;;;;;;x
+PROV1212;Serra;;;;;;;;;;;;;;x
+c_serra_adj;Serran;;;;;;;;;;;;;;x
 PROV1213;Turbes;;;;;;;;;;;;;;x
 c_turbes_adj;Turbian;;;;;;;;;;;;;;x
 PROV1214;Amallobriga;;;;;;;;;;;;;;x
@@ -2291,6 +2319,10 @@ PROV1216;Palantia;;;;;;;;;;;;;;x
 c_palantia_adj;Palantian;;;;;;;;;;;;;;x
 PROV1217;Aracelium;;;;;;;;;;;;;;x
 c_aracelium_adj;Aracelian;;;;;;;;;;;;;;x
+PROV1218;Semna;;;;;;;;;;;;;;x
+c_semna_adj;Semnan;;;;;;;;;;;;;;x
+PROV1219;Orsum;;;;;;;;;;;;;;x
+c_orsum_adj;Orsan;;;;;;;;;;;;;;x
 PROV1220;Turissa;;;;;;;;;;;;;;x
 c_turissa_adj;Turissan;;;;;;;;;;;;;;x
 PROV1221;Pityoussai;;;;;;;;;;;;;;x
@@ -2433,6 +2465,26 @@ PROV1289;Asciburgium;;;;;;;;;;;;;;x
 c_asciburgium_adj;Asciburgian;;;;;;;;;;;;;;x
 PROV1290;Novaesium;;;;;;;;;;;;;;x
 c_novaesium_adj;Novaesian;;;;;;;;;;;;;;x
+PROV1291;Urbim;;;;;;;;;;;;;;x
+c_urbim_adj;Urbimian;;;;;;;;;;;;;;x
+PROV1292;Mambli;;;;;;;;;;;;;;x
+c_mambli_adj;Mamblian;;;;;;;;;;;;;;x
+PROV1293;Dumana;;;;;;;;;;;;;;x
+c_dumana_adj;Dumanan;;;;;;;;;;;;;;x
+PROV1294;Marru;;;;;;;;;;;;;;x
+c_marru_adj;Marrian;;;;;;;;;;;;;;x
+PROV1295;Nuri;;;;;;;;;;;;;;x
+c_nuri_adj;Nurian;;;;;;;;;;;;;;x
+PROV1296;Gora;;;;;;;;;;;;;;x
+c_gora_adj;Goran;;;;;;;;;;;;;;x
+PROV1297;Alana;;;;;;;;;;;;;;x
+c_alana_adj;Alanan;;;;;;;;;;;;;;x
+PROV1298;Epis;;;;;;;;;;;;;;x
+c_epis_adj;Epian;;;;;;;;;;;;;;x
+PROV1299;Araba;;;;;;;;;;;;;;x
+c_araba_adj;Araban;;;;;;;;;;;;;;x
+PROV1300; ;;;;;;;;;;;;;;x
+PROV1301; ;;;;;;;;;;;;;;x
 PROV1500;Lacus Pelso;;;;;;;;;;;;;;x
 PROV1501;Stagnum Mastromela;;;;;;;;;;;;;;x
 PROV1502;Lacus Eburodunensis;;;;;;;;;;;;;;x
@@ -2444,3 +2496,19 @@ PROV1507;Maiotes Limne;;;;;;;;;;;;;;x
 PROV1508;Podouke;;;;;;;;;;;;;;x
 PROV1509;Paloura;;;;;;;;;;;;;;x
 PROV1510;Lacus Raetiae;;;;;;;;;;;;;;x
+PROV1511; ;;;;;;;;;;;;;;x
+PROV1512; ;;;;;;;;;;;;;;x
+PROV1513; ;;;;;;;;;;;;;;x
+PROV1514; ;;;;;;;;;;;;;;x
+PROV1515; ;;;;;;;;;;;;;;x
+PROV1516; ;;;;;;;;;;;;;;x
+PROV1517; ;;;;;;;;;;;;;;x
+PROV1518; ;;;;;;;;;;;;;;x
+PROV1519; ;;;;;;;;;;;;;;x
+PROV1520; ;;;;;;;;;;;;;;x
+PROV1521; ;;;;;;;;;;;;;;x
+PROV1522; ;;;;;;;;;;;;;;x
+PROV1523; ;;;;;;;;;;;;;;x
+PROV1524; ;;;;;;;;;;;;;;x
+PROV1525; ;;;;;;;;;;;;;;x
+PROV1526; ;;;;;;;;;;;;;;x

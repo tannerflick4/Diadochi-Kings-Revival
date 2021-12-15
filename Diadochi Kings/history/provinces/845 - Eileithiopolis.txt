@@ -4,10 +4,14 @@
 title = c_eileithiopolis
 
 # Settlements
-max_settlements = 3
+max_settlements = 4
 b_eileithiopolis_eileithiopolis = castle
-b_contra_apollonos_eileithiopolis = city
-b_contra_latopolin_eileithiopolis = city
+b_kontra_apollonopolis_eileithiopolis = city
+b_hyreuma_eileithiopolis = castle
+#b_phalakro_eileithiopolis = castle
+#b_aristonis_eileithiopolis = castle
+#b_philoteris_eileithiopolis = city
+#b_kelol_eileithiopolis = temple
 
 # Misc
 culture = egyptian

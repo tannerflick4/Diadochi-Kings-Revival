@@ -6682,6 +6682,7 @@ k_lydia = {
 			color2= { 255 255 255 }
 
 			holy_site = greek_main
+			holy_site = greco_kemetic # Serapeum at Miletus
 			
 			b_miletus_miletus = {
 			}
@@ -7583,529 +7584,6 @@ k_cappadocia = {
 			b_hyde_derbe = {
 			}
 			b_thebasa_derbe = {
-			}
-		}
-	}
-}
-k_egypt = {
-	color= { 225 200 0 }
-	color2= { 255 255 255 }
-	
-	capital = 141 # Memphis
-	
-	allow = {
-		culture_group = eastern_african
-		liege = {
-			NOT = { has_landed_title = e_persia }
-			NOT = { has_landed_title = e_macedonia }
-		}
-	}
-	
-	d_delta = {
-		color= { 225 200 25 }
-		color2= { 255 255 255 }
-		
-		capital = 139 # Alexandria
-		
-		c_tanis = {
-			color= { 225 190 15 }
-			color2= { 255 255 255 }
-			
-			egyptian = Djannet
-			
-			b_tanis_tanis = {
-				egyptian = Djannet
-			}
-			b_mendes_tanis = {
-				egyptian = Anpet
-			}
-			b_tamiathis_tanis = {
-			}
-			b_thmouis_tanis = {
-			}
-			b_thenessos_tanis = {
-			}
-			b_kalamine_tanis = {
-			}
-		}
-		c_sebennytos = {
-			color= { 225 210 35 }
-			color2= { 255 255 255 }
-			
-			egyptian = Tjebnutjer
-			
-			b_sebennytos_sebennytos = {
-				egyptian = Tjebnutjer
-			}
-			b_bousiris_sebennytos = {
-				egyptian = "Per Wasir"
-			}
-			b_kynopolis_sebennytos = {
-			}
-			b_diospolis_kato_sebennytos = {
-			}
-			b_isieion_sebennytos = {
-				egyptian = Hebyt
-			}
-			b_natho_sebennytos = {
-			}
-		}
-		c_bouto = {
-			color= { 215 200 15 }
-			color2= { 255 255 255 }
-			
-			egyptian = "Per Wadyat"
-			
-			b_bouto_bouto = {
-				egyptian = "Per Wadyat"
-			}
-			b_xois_bouto = {
-				egyptian = Hasw
-			}
-			b_sais_bouto = {
-				egyptian = Zau
-			}
-			b_kabasa_bouto = {
-			}
-			b_pachnamounis_bouto = {
-			}
-			b_phragonis_bouto = {
-			}
-		}
-		c_canopus = {
-			color= { 225 210 35 }
-			color2= { 255 255 255 }
-			
-			egyptian = "Pikuat"
-			
-			b_canopus_canopus = {
-				egyptian = "Pikuat"
-			}
-			b_anthylla_canopus = {
-			}
-			b_thonis_canopus = {
-			}
-			b_bolbotine_canopus = {
-				egyptian = "Khito"
-			}
-			b_naucratis_canopus = {
-				egyptian = "Naj krd"
-			}
-		}
-		c_alexandria = {
-			color= { 225 200 25 }
-			color2= { 255 255 255 }
-			
-			egyptian = "Ra Katit"
-			
-			b_alexandria_alexandria = {
-				egyptian = "Ra Katit"
-			}
-			b_mareia_alexandria = {
-				egyptian = Mrjt
-			}
-			b_taposiris_megale_alexandria = {
-			}
-			b_hierakonpolis_alexandria = {
-			}
-			b_schedia_alexandria = {
-			}
-			b_pharos_alexandria = {
-			}
-			b_thebyrchyth_alexandria = {
-			}
-		}
-	}
-	d_memphis = {
-		color= { 225 200 0 }
-		color2= { 255 255 255 }
-		
-		egyptian = "Men Nefer"
-		
-		capital = 141 # Memphis
-		
-		c_memphis = {
-			color= { 225 200 0 }
-			color2= { 255 255 255 }
-			
-			egyptian = "Men Nefer"
-
-			holy_site = kemetic
-			holy_site = greco_kemetic # placeholder
-			holy_site = atenist
-			
-			b_memphis_memphis = {
-				egyptian = "Men Nefer"
-			}
-			b_bousiris_memphis = {
-			}
-			b_toachris_memphis = {
-			}
-			b_troia_memphis = {
-			}
-			b_takeiris_memphis = {
-			}
-			b_skenai_mandrai_memphis = {
-			}
-		}
-		c_aphroditopolis = {
-			color= { 215 210 0 }
-			color2= { 255 255 255 }
-			
-			egyptian = "Tp-jhw"
-			
-			b_aphroditopolis_aphroditopolis = {
-				egyptian = "Tp-jhw"
-			}
-			b_kerke_aphroditopolis = {
-			}
-			b_parembole_aphroditopolis = {
-			}
-			b_ankyronpolis_aphroditopolis = {
-				egyptian = "Teudjoi"
-			}
-			b_thmoinepsi_aphroditopolis = {
-			}
-		}
-		c_crocodilopolis = {
-			color= { 235 200 10 }
-			color2= { 255 255 255 }
-			
-			egyptian = "Shedyet"
-			
-			b_crocodilopolis_crocodilopolis = {
-				egyptian = "Shedyet"
-			}
-			b_haueris_crocodilopolis = {
-				egyptian = "Hwt-wrt"
-			}
-			b_heracleopolis_crocodilopolis = {
-				egyptian = "Henen-Nesut"
-			}
-			b_taleithis_crocodilopolis = {
-			}
-			b_bousiris_crocodilopolis = {
-			}
-			b_psenaryo_crocodilopolis = {
-			}
-		}
-		c_clysma = {
-			color= { 215 190 0 }
-			color2= { 255 255 255 }
-			
-			b_clysma_clysma = {
-			}
-		}
-		c_oxyrhynchus = {
-			color= { 225 190 10 }
-			color2= { 255 255 255 }
-			
-			egyptian = "Per-Medjed"
-			
-			b_oxyrhynchus_oxyrhynchus = {
-				egyptian = "Per-Medjed"
-			}
-			b_taampemou_oxyrhynchus = {
-			}
-			b_takolkeilis_oxyrhynchus = {
-			}
-			b_hipponon_oxyrhynchus = {
-			}
-			b_terbe_oxyrhynchus = {
-			}
-		}
-		c_antinoopolis = {
-			color= { 215 180 0 }
-			color2= { 255 255 255 }
-			
-			egyptian = "Akhetaten"
-
-			holy_site = atenist
-			
-			b_antinoopolis_antinoopolis = {
-			}
-			b_thmoresis_antinoopolis = {
-			}
-			b_akhetaten_antinoopolis = {
-			}
-			b_alabastronpolis_antinoopolis = {
-				egyptian = "Hbnw"
-			}
-		}
-		c_heliopolis = {
-			color= { 205 200 10 }
-			color2= { 255 255 255 }
-			
-			egyptian = "Iunu"
-			
-			b_heliopolis_heliopolis = {
-				egyptian = "Iunu"
-			}
-			b_athribis_heliopolis = {
-				egyptian = "Hut-Repyt"
-			}
-			b_letopolis_heliopolis = {
-			}
-			b_kerkasoros_heliopolis = {
-			}
-			b_leontopolis_heliopolis = {
-				egyptian = "Ney-ta-hut"
-			}
-		}
-	}
-	d_lykopolis = {
-		color= { 225 225 0 }
-		color2= { 255 255 255 }
-		
-		egyptian = "Zawty"
-		
-		capital = 147 # Lykopolis
-		
-		c_lykopolis = {
-			color= { 225 225 0 }
-			color2= { 255 255 255 }
-			
-			egyptian = "Zawty"
-			
-			b_lykopolis_lykopolis = {
-				egyptian = "Zawty"
-			}
-			b_hermopolis_lykopolis = {
-				egyptian = "Khmun"
-			}
-			b_hierakion_lykopolis = {
-			}
-			b_toeto_lykopolis = {
-			}			
-		}
-		c_panopolis = {
-			color= { 215 225 10 }
-			color2= { 255 255 255 }
-			
-			egyptian = "Khent-Min"
-			
-			b_panopolis_panopolis = {
-				egyptian = "Khent-Min"
-			}
-			b_selino_panopolis = {
-			}
-			b_muthis_panopolis = {
-			}
-			b_antaiopolis_panopolis = {
-				egyptian = "Tjebu"
-			}
-		}
-		c_kaine = {
-			color= { 215 235 0 }
-			color2= { 255 255 255 }
-			
-			egyptian = "Gebtu"
-			
-			b_kaine_kaine = {
-			}
-			b_apollonopolis_kaine = {
-				egyptian = "Gesy"
-			}
-			b_coptos_kaine = {
-				egyptian = "Gebtu"
-			}
-			b_thbakat_kaine = {
-			}
-		}
-		c_persou = {
-			color= { 235 235 0 }
-			color2= { 255 255 255 }
-			
-			b_persou_persou = {
-			}
-			b_myos_hormos = {
-			}
-		}
-		c_diospolis_mikra = {
-			color= { 235 225 10 }
-			color2= { 255 255 255 }
-			
-			egyptian = "Hut-Sekhem"
-			
-			holy_site = kemetic
-			holy_site = greco_kemetic # placeholder
-			holy_site = atenist
-			
-			b_diospolis_mikra_diospolis_mikra = {
-				egyptian = "Hut-Sekhem"
-			}
-			b_memnonia_diospolis_mikra = { # Ramesseum
-				egyptian = "Ramesseum"
-			}
-			b_abydos_diospolis_mikra = {
-				egyptian = "Abedju"
-			}
-			b_this_diospolis_mikra = {
-				egyptian = "Tayini"
-			}
-			b_ptolemais_hermeiou_diospolis_mikra = {
-			}
-		}
-		c_qubba = {
-			color= { 225 205 10 }
-			color2= { 255 255 255 }
-			
-			b_qubba_qubba = {
-			}
-		}
-	}
-	d_thebes = {
-		color= { 200 175 0 }
-		color2= { 255 255 255 }
-		
-		egyptian = "Waset"
-		
-		capital = 150 # Thebes
-		
-		c_thebes_egypt = {
-			color= { 200 175 0 }
-			color2= { 255 255 255 }
-			
-			egyptian = "Waset"
-
-			holy_site = kemetic
-			holy_site = greco_kemetic # placeholder
-			holy_site = atenist
-			
-			b_thebes_thebes_egypt = {
-				egyptian = "Waset"
-			}
-			b_petemout_thebes_egypt = {
-			}
-			b_touphion_thebes_egypt = {
-			}
-			b_karnak_thebes_egypt = {
-				egyptian = "Ipet-Isut"
-			}
-			b_luxor_thebes_egypt = {
-				egyptian = "Ipet-Resyt"
-			}
-			b_kastron_thebon_thebes_egypt = {
-			}
-		}
-		c_latopolis = {
-			color= { 200 165 10 }
-			color2= { 255 255 255 }
-			
-			egyptian = "Tasenet"
-
-			# TODO: Temporary. Find a better province.
-			holy_site = kemetic
-			holy_site = greco_kemetic # placeholder
-			holy_site = atenist
-			
-			b_latopolis_latopolis = {
-				egyptian = "Tasenet"
-			}
-			b_apollopolis_latopolis = {
-				egyptian = "Mesen"
-			}
-			b_hierakonpolis_latopolis = {
-				egyptian = "Nekhen"
-			}
-			b_pathyris_latopolis = {
-			}
-		}
-		c_syene = {
-			color= { 210 165 0 }
-			color2= { 255 255 255 }
-			
-			egyptian = "Swenett"
-
-			holy_site = kemetic
-			holy_site = greco_kemetic # placeholder
-			
-			b_syene_syene = {
-				egyptian = "Swenett"
-			}
-			b_omboi_syene = {
-				egyptian = "Nubt"
-			}
-			b_elephantine_syene = {
-				egyptian = "Abu"
-			}
-			b_telelis_syene = {
-			}
-		}
-		c_berenike = {
-			color= { 190 175 10 }
-			color2= { 255 255 255 }
-			
-			b_nechesia_berenike = {
-			}
-			b_apollonos_berenike = {
-			}
-			b_berenike_berenike = {
-			}
-		}
-		c_eileithiopolis = {
-			color= { 210 165 10 }
-			color2= { 255 255 255 }
-			
-			egyptian = "Nekheb"
-			
-			b_eileithiopolis_eileithiopolis = {
-				egyptian = "Nekheb"
-			}
-			b_contra_apollonos_eileithiopolis = {
-			}
-			b_contra_latopolin_eileithiopolis = {
-			}
-		}
-	}
-	d_aigyptos_aktaios = {
-		color= { 225 175 0 }
-		color2= { 255 255 255 }
-		
-		capital = 159 # Paraetonium
-		
-		c_antiphrai = {
-			color= { 235 175 10 }
-			color2= { 255 255 255 }
-			
-			b_antiphrai_antiphrai = {
-			}
-			b_pnigeus_antiphrai = {
-			}
-			b_derras_antiphrai = {
-			}
-		}
-		c_paraetonium = {
-			color= { 225 175 0 }
-			color2= { 255 255 255 }
-			
-			b_paraetonium_paraetonium = {
-			}
-			b_apis_paraetonium = {
-			}
-			b_selenis_paraetonium = {
-			}
-		}
-		c_catabathmus = {
-			color= { 215 185 0 }
-			color2= { 255 255 255 }
-			
-			b_catabathmus_catabathmus = {
-			}
-			b_menelaos_paraetonium = {
-			}
-			b_kardamis_paraetonium = {
-			}
-		}
-		c_petras_mikros = {
-			color= { 225 185 10 }
-			color2= { 255 255 255 }
-			
-			b_petras_mikros_petras_mikros = {
-			}
-			b_paliouros_petras_mikros = {
-			}
-			b_antipyrgos_petras_mikros = {
 			}
 		}
 	}
@@ -11479,25 +10957,8 @@ k_nabataea = {
 		
 		egyptian = "Mafkat"
 		
-		capital = 132 # Pelusium
+		capital = 133 # Rhaithou
 	
-		c_pelusium = {
-			color= { 200 150 25 }
-			color2= { 255 255 255 }
-			
-			egyptian = "Per Amun"
-		
-			b_pelusium_pelusium = {
-				egyptian = "Per Amun"
-			}
-			b_ostrakine_pelusium = {
-			}
-			b_rhinocolura_pelusium = {
-				egyptian = "Rngrn"
-			}
-			b_gerra_pelusium = {
-			}
-		}
 		c_rhaithou = {
 			color= { 190 150 25 }
 			color2= { 255 255 255 }
@@ -11507,20 +10968,55 @@ k_nabataea = {
 			b_rhaithou_rhaithou = {
 				egyptian = "Dw Mafkat"
 			}
-			b_pharan_rhaithou = {
+			b_nuweiba_rhaithou = {
 			}
-			b_arandara_rhaithou = {
+			b_tou_batou_rhaithou = {
+			}
+			b_tholas_rhaithou = {
+			}
+			b_horeb_rhaithou = {
+			}
+			b_mashraba_rhaithou = {
+			}
+			b_hucera_rhaithou = {
 			}
 		}
-		c_aelana = {
+		c_arandara = {
+			color= { 190 150 25 }
+			color2= { 255 255 255 }
+		
+			b_arandara_arandara = {
+			}
+			b_pharan_arandara = {
+			}
+			b_rephidim_arandara = {
+			}
+			b_khadim_arandara = {
+			}
+			b_mukkatab_arandara = {
+			}
+			b_marah_arandara = {
+			}
+			b_zerdai_arandara = {
+			}
+		}
+		c_ailana = {
 			color= { 200 160 25 }
 			color2= { 255 255 255 }
 	
-			b_aelana_aelana = {
+			b_ailana_ailana = {
 			}
-			b_sobata_aelana = {
+			b_arieldela_ailana = {
 			}
-			b_eboda_aelana = {
+			b_bossia_ailana = {
+			}
+			b_gypsaria_ailana = {
+			}
+			b_timnah_ailana = {
+			}
+			b_mulgham_ailana = {
+			}
+			b_tuweiba_ailana = {
 			}
 		}
 	}
@@ -14160,11 +13656,16 @@ k_kush = {
 			b_pselchis_pselchis = {
 				egyptian = "Pselqet"
 			}
-			b_per_ptah_pselchis = {
-			}
-			b_tachompso_pselchis = {
-			}
 			b_kortia_pselchis = {
+			}
+			b_talmis_pselchis = {
+				egyptian = "Per-Ptah"
+			}
+			b_tafis_pselchis = {
+			}
+			b_tzitzis_pselchis = {
+			}
+			b_tutzis_pselchis = {
 			}
 			b_hierasykaminos_pselchis = {
 				egyptian = "Tkmst"
@@ -14175,19 +13676,23 @@ k_kush = {
 			color2={ 255 255 255 }
 			
 			egyptian = "Shtp-ntrw"
+
+			holy_site = kemetic # Abu Simbel
 			
 			b_pachoras_pachoras = {
 				egyptian = "Shtp-ntrw"
 			}
-			b_premis_pachoras = {
-				egyptian = "Prmt"
+			b_forum_cambusis_pachoras = {
 			}
-			b_nalote_pachoras = {
-			}
-			b_abu_simbel_pachoras = {
-				egyptian = "Per Ramassu"
+			b_tamania_pachoras = {
 			}
 			b_boon_pachoras = {
+			}
+			b_iken_pachoras = {
+			}
+			b_per_amun_pachoras = { # Great Temple at Abu Simbel
+			}
+			b_per_hathor_pachoras = { # Small Temple at Abu Simbel
 			}
 		}
 		c_pdeme = {
@@ -14196,11 +13701,230 @@ k_kush = {
 			
 			b_pdeme_pdeme = {
 			}
-			b_noa_pdeme = {
+			b_tila_pdeme = {
 			}
-			b_gugo_pdeme = {
+			b_firka_pdeme = {
 			}
-			b_acina_pdeme = {
+			b_abri_pdeme = {
+			}
+			b_say_pdeme = {
+			}
+			b_ballana_pdeme = {
+			}
+			b_argin_pdeme = {
+			}
+		}
+		c_araba = {
+			color={ 235 255 35 }
+			color2={ 255 255 255 }
+			
+			b_araba_araba = {
+			}
+		}
+		c_epis = {
+			color={ 235 255 35 }
+			color2={ 255 255 255 }
+			
+			b_epis_epis = {
+			}
+		}
+		c_alana = {
+			color={ 235 255 35 }
+			color2={ 255 255 255 }
+			
+			b_alana_alana = {
+			}
+		}
+		c_gora = {
+			color={ 235 255 35 }
+			color2={ 255 255 255 }
+			
+			b_gora_gora = {
+			}
+		}
+		c_nuri = {
+			color={ 235 255 35 }
+			color2={ 255 255 255 }
+			
+			b_nuri_nuri = {
+			}
+		}
+		c_marru = {
+			color={ 235 255 35 }
+			color2={ 255 255 255 }
+			
+			b_marru_marru = {
+			}
+		}
+		c_dumana = {
+			color={ 235 255 35 }
+			color2={ 255 255 255 }
+			
+			b_dumana_dumana = {
+			}
+			b_breues_dumana = {
+			}
+			b_bagada_dumana = {
+			}
+			b_segasa_dumana = {
+			}
+			b_arca_dumana = {
+			}
+			b_tergendum_dumana = {
+			}
+			b_kerke_dumana = {
+			}
+		}
+		c_mambli = {
+			color={ 235 255 35 }
+			color2={ 255 255 255 }
+			
+			b_mambli_mambli = {
+			}
+			b_zamnes_mambli = {
+			}
+			b_cortum_mambli = {
+			}
+			b_tanis_mambli = {
+			}
+			b_perkethaut_mambli = {
+			}
+			b_labyrinthos_mambli = {
+			}
+			b_sitheus_mambli = {
+			}
+		}
+		c_urbim = {
+			color={ 235 255 35 }
+			color2={ 255 255 255 }
+			
+			b_urbim_urbim = {
+			}
+			b_mulon_urbim = {
+			}
+			b_pago_urbim = {
+			}
+			b_paabeithis_urbim = {
+			}
+			b_panarachthis_urbim = {
+			}
+			b_phentemin_urbim = {
+			}
+			b_psenaryo_urbim = {
+			}
+		}
+		c_orsum = {
+			color={ 235 255 35 }
+			color2={ 255 255 255 }
+			
+			b_orsum_orsum = {
+			}
+			b_gugo_orsum = {
+			}
+			b_acina_orsum = {
+			}
+			b_suara_orsum = {
+			}
+			b_mancharum_orsum = {
+			}
+			b_this_orsum = {
+			}
+			b_bouto_orsum = {
+			}
+		}
+		c_semna = {
+			color={ 235 255 35 }
+			color2={ 255 255 255 }
+			
+			b_semna_semna = {
+			}
+			b_noa_semna = {
+			}
+			b_sedeinga_semna = {
+			}
+			b_shaukan_semna = {
+			}
+			b_aksha_semna = {
+			}
+			b_talao_semna = {
+			}
+			b_tamais_semna = {
+			}
+		}
+		c_serra = {
+			color={ 235 255 35 }
+			color2={ 255 255 255 }
+			
+			b_serra_serra = {
+			}
+			b_meinarti_serra = {
+			}
+			b_dorginarti_serra = {
+			}
+			b_gammai_serra = {
+			}
+			b_somolo_serra = {
+			}
+			b_mnachis_serra = {
+			}
+			b_takona_serra = {
+			}
+		}
+		c_premis = {
+			color={ 235 255 35 }
+			color2={ 255 255 255 }
+			
+			b_premis_premis = {
+			}
+			b_adda_premis = {
+			}
+			b_aramum_premis = {
+			}
+			b_tachompso_premis = {
+			}
+			b_per_ptah_premis = {
+			}
+			b_parembole_premis = {
+			}
+			b_manlau_premis = {
+			}
+		}
+		c_nalote = {
+			color={ 235 255 35 }
+			color2={ 255 255 255 }
+			
+			b_nalote_nalote = {
+			}
+			b_arminna_nalote = {
+			}
+			b_aniba_nalote = {
+			}
+			b_simalo_nalote = {
+			}
+			b_tene_nalote = {
+			}
+			b_sebua_nalote = {
+			}
+			b_dimri_nalote = {
+			}
+		}
+		c_sabagura = {
+			color={ 235 255 35 }
+			color2={ 255 255 255 }
+			
+			b_sabagura_sabagura = {
+			}
+			b_contra_tafis_sabagura = {
+			}
+			b_contra_talmis_sabagura = {
+			}
+			b_paptoulis_sabagura = {
+			}
+			b_contra_pselchis_sabagura = {
+			}
+			b_kobosh_sabagura = {
+			}
+			b_dib_sabagura = {
 			}
 		}
 	}
@@ -14216,11 +13940,17 @@ k_kush = {
 			
 			b_patinga_patinga = {
 			}
-			b_orsum_patinga = {
+			b_direla_patinga = {
 			}
 			b_pnups_patinga = {
 			}
 			b_prummu_patinga = {
+			}
+			b_paroa_patinga = {
+			}
+			b_kedurma_patinga = {
+			}
+			b_papa_patinga = {
 			}
 		}
 		c_napata = {
@@ -15065,176 +14795,6 @@ k_phazania = {
 			color2={ 255 255 255 }
 			
 			b_djanet_djanet = {
-			}
-		}
-	}
-}
-k_oasis = {
-	color = { 255 150 0 }
-	color2={ 255 255 255 }
-	
-	capital = 155 # Hibis
-	
-	d_hibis = {
-		color= { 255 150 0 }
-		color2= { 255 255 255 }
-		
-		egyptian = Hebet
-		
-		capital = 155 # Hibis
-		
-		c_hibis = {
-			color= { 255 150 0 }
-			color2= { 255 255 255 }
-			
-			egyptian = Hebet
-			
-			b_hibis_hibis = {
-				egyptian = Hebet
-			}
-			b_parammon_hibis = {
-			}
-			b_tchonemyris_hibis = {
-			}
-		}
-		c_kysis = {
-			color= { 245 150 10 }
-			color2= { 255 255 255 }
-			
-			egyptian = Kaish
-			
-			b_kysis_kysis = {
-				egyptian = Kaish
-			}
-			b_tabennese_kysis = {
-			}
-			b_mounesis_kysis = {
-			}
-		}
-		c_mothis = {
-			color= { 245 160 0 }
-			color2= { 255 255 255 }
-			
-			egyptian = "Per Mut"
-			
-			b_mothis_mothis = {
-				egyptian = "Per Mut"
-			}
-			b_trimithis_mothis = {
-			}
-			b_kellis_mothis = {
-			}
-			b_thenete_mothis = {
-			}
-		}
-	}
-	d_ammon = {
-		color={ 255 175 0 }
-		color2={ 255 255 255 }
-		
-		capital = 880 # Ammon
-		
-		c_ammon = {
-			color={ 245 175 10 }
-			color2={ 255 255 255 }
-			
-			b_ammon_ammon = {
-			}
-			b_giarabub_ammon = {
-			}
-			b_ghargart_ammon = {
-			}
-			b_sitra_ammon = {
-			}
-		}
-		c_klimax = {
-			color={ 255 185 10 }
-			color2={ 255 255 255 }
-			
-			b_klimax_klimax = {
-			}
-			b_alexandrou_parembole_klimax = {
-			}
-		}
-	}
-	d_augila = {
-		color={ 255 150 25 }
-		color2={ 255 255 255 }
-		
-		capital = 879 # Augila
-		
-		c_augila = {
-			color={ 255 150 25 }
-			color2={ 255 255 255 }
-			
-			b_augila_augila = {
-			}
-			b_gialo_augila = {
-			}
-			b_gicherra_augila = {
-			}
-		}
-		c_marada = {
-			color={ 255 140 35 }
-			color2={ 255 255 255 }
-			
-			b_marada_marada = {
-			}
-		}
-	}
-	d_oasis_parva = {
-		color={ 255 150 50 }
-		color2={ 255 255 255 }
-		
-		egyptian = Djesdjes
-		
-		capital = 882 # Oasis Parva
-		
-		c_oasis_parva = {
-			color={ 255 150 50 }
-			color2={ 255 255 255 }
-			
-			egyptian = Djesdjes
-			
-			b_parva_parva = {
-				egyptian = Djesdjes
-			}
-			b_mandishah_parva = {
-			}
-		}
-		c_oasis_trinitheos = {
-			color={ 255 140 40 }
-			color2={ 255 255 255 }
-			
-			egyptian = Ta-jhw
-			
-			b_trinitheos_trinitheos = {
-				egyptian = Ta-jhw
-			}
-			b_ain_bishay_trinitheos = {
-			}
-		}
-	}
-	d_koufra = {		
-		color={ 255 125 25 }
-		color2={ 255 255 255 }
-		
-		capital = 910 # Koufra
-		
-		c_tazerbo = {
-			color={ 245 115 25 }
-			color2={ 255 255 255 }
-			
-			b_tazerbo_tazerbo = {
-			}
-		}
-		c_koufra = {
-			color={ 255 125 25 }
-			color2={ 255 255 255 }
-			
-			b_koufra_koufra = {
-			}
-			b_buma_koufra = {
 			}
 		}
 	}
@@ -20060,6 +19620,1272 @@ e_gaul = {
 				}
 				b_palatiolum_contionacum = {
 				}
+			}
+		}
+	}
+}
+e_egypt = {
+	color= { 225 200 0 }
+	color2= { 255 255 255 }
+	
+	title = "PHARAOH_TITLE"
+	title_female = "QUEEN_TITLE"
+
+	capital = 139 # Alexandria
+	egyptian = Kemet
+
+	k_lower_egypt = {
+		color= { 219 255 89 }
+		color2= { 255 255 255 }
+
+		capital = 135 # Tanis, was the capital from 1279 BC - 715 BC
+		
+		egyptian = Amehti
+
+		d_menelaites = {
+			color= { 235 255 91 }
+			color2= { 255 255 255 }
+
+			capital = 139 # Alexandria
+			
+			egyptian = Imentet
+			
+			c_naucratis = {
+				color= { 225 242 94 }
+				color2= { 255 255 255 }
+				
+				egyptian = Piemro
+				
+				b_naucratis_naucratis = {
+					egyptian = Piemro
+					aeolian = Naukratis
+					arcadian = Naukratis
+					doric = Naukratis
+					ionian = Naukratis
+					macedonian = Naukratis
+					pontic = Naukratis
+					koine = Naukratis
+				}
+				b_hieraconpolis_naucratis = {
+					egyptian = Nekhen
+					aeolian = Hierakonpolis
+					arcadian = Hierakonpolis
+					doric = Hierakonpolis
+					ionian = Hierakonpolis
+					macedonian = Hierakonpolis
+					pontic = Hierakonpolis
+					koine = Hierakonpolis
+				}
+				b_thebyrchyth_naucratis = {
+				}
+				b_momemphis_naucratis = {
+					egyptian = Imu
+				}
+				b_papremis_naucratis = {
+				}
+				b_andronpolis_naucratis = {
+				}
+				b_terenuthis_naucratis = {
+					egyptian = Mefkat
+				}
+			}
+			c_metelis = {
+				color= { 225 255 91 }
+				color2= { 255 255 255 }
+				
+				egyptian = Mtl
+				
+				b_metelis_metelis = {
+					egyptian = Mtl
+				}
+				b_heracleum_metelis = {
+					egyptian = Thonis
+					aeolian = Herakleion
+					arcadian = Herakleion
+					doric = Herakleion
+					ionian = Herakleion
+					macedonian = Herakleion
+					pontic = Herakleion
+					koine = Herakleion
+				}
+				b_anthylla_metelis = {
+					egyptian = "Per Nebet Imau"
+				}
+				b_psenamosis_metelis = {
+				}
+				b_hermopolis_parva_metelis = {
+				}
+				b_psenemphaea_metelis = {
+					aeolian = Psenemphaia
+					arcadian = Psenemphaia
+					doric = Psenemphaia
+					ionian = Psenemphaia
+					macedonian = Psenemphaia
+					pontic = Psenemphaia
+					koine = Psenemphaia
+				}
+				b_nitriae_metelis = {
+					aeolian = Nitriai
+					arcadian = Nitriai
+					doric = Nitriai
+					ionian = Nitriai
+					macedonian = Nitriai
+					pontic = Nitriai
+					koine = Nitriai
+				}
+			}
+			c_alexandria = {
+				color= { 246 255 91 }
+				color2= { 255 255 255 }
+				
+				egyptian = "Ra Katit"
+				aeolian = Alexandreia
+				arcadian = Alexandreia
+				doric = Alexandreia
+				ionian = Alexandreia
+				macedonian = Alexandreia
+				pontic = Alexandreia
+				koine = Alexandreia
+
+				holy_site = greco_kemetic # Serapeum of Alexandria and Serapeum of Canopus
+				
+				b_alexandria_alexandria = {
+					egyptian = "Ra Katit"
+					aeolian = Alexandreia
+					arcadian = Alexandreia
+					doric = Alexandreia
+					ionian = Alexandreia
+					macedonian = Alexandreia
+					pontic = Alexandreia
+					koine = Alexandreia
+				}
+				b_taposiris_alexandria = {
+				}
+				b_plinthine_alexandria = {
+				}
+				b_marea_alexandria = {
+					egyptian = Mrjt
+					aeolian = Mareia
+					arcadian = Mareia
+					doric = Mareia
+					ionian = Mareia
+					macedonian = Mareia
+					pontic = Mareia
+					koine = Mareia
+				}
+				b_nicopolis_alexandria = {
+					aeolian = Nikopolis
+					arcadian = Nikopolis
+					doric = Nikopolis
+					ionian = Nikopolis
+					macedonian = Nikopolis
+					pontic = Nikopolis
+					koine = Nikopolis
+				}
+				b_canopus_alexandria = {
+					egyptian = Pikuat
+					aeolian = Kanopos
+					arcadian = Kanopos
+					doric = Kanopos
+					ionian = Kanopos
+					macedonian = Kanopos
+					pontic = Kanopos
+					koine = Kanopos
+				}
+				b_cellia_alexandria = {
+					aeolian = Kellia
+					arcadian = Kellia
+					doric = Kellia
+					ionian = Kellia
+					macedonian = Kellia
+					pontic = Kellia
+					koine = Kellia
+				}
+			}
+		}
+		d_athribites = {
+			color= { 199 255 45 }
+			color2= { 255 255 255 }
+	
+			capital = 425 # Athribis
+
+			egyptian = Kemwer
+
+			c_tanis = {
+				color= { 174 221 51 }
+				color2= { 255 255 255 }
+				
+				egyptian = Djannet
+				
+				b_tanis_tanis = {
+					egyptian = Djannet
+				}
+				b_phernouphis_tanis = {
+					egyptian = "Ra-nefer"
+				}
+				b_tamiathis_tanis = {
+					egyptian = Tamiat
+				}
+				b_mendes_tanis = {
+					egyptian = Djedet
+				}
+				b_hermopolis_tanis = {
+					egyptian = Iment
+				}
+				b_boubastis_tanis = {
+					egyptian = "Per-Bast"
+				}
+				b_natho_tanis = {
+					egyptian = Nathu
+				}
+			}
+			c_sebennytos = {
+				color= { 191 242 53 }
+				color2= { 255 255 255 }
+				
+				egyptian = Tjebnutjer
+				
+				b_sebennytos_sebennytos = {
+					egyptian = Tjebnutjer
+				}
+				b_isidos_polis_sebennytos = {
+				}
+				b_diospolis_kato_sebennytos = {
+					egyptian = "Sema-behdet"
+				}
+				b_schedia_sebennytos = {
+				}
+				b_onouphis_sebennytos = {
+				}
+				b_isieion_sebennytos = {
+				}
+				b_paua_sebennytos = {
+				}
+			}
+			c_bouto = {
+				color= { 185 255 45 }
+				color2= { 255 255 255 }
+				
+				egyptian = "Per Wadyat"
+				
+				b_bouto_bouto = {
+					egyptian = "Per Wadyat"
+				}
+				b_bolbitine_bouto = {
+					egyptian = Khito
+				}
+				b_chemmis_bouto = {
+					egyptian = "Khent-min"
+				}
+				b_kabasa_bouto = {
+				}
+				b_phragonis_bouto = {
+				}
+				b_xois_bouto = {
+					egyptian = Khaset
+				}
+				b_pachnamounis_bouto = {
+				}
+			}
+			c_athribis = {
+				color= { 213 255 45 }
+				color2= { 255 255 255 }
+				
+				egyptian = "Hut-heryib"
+				
+				b_athribis_athribis = {
+					egyptian = "Hut-heryib"
+				}
+				b_leontopolis_athribis = {
+					egyptian = Taremu
+				}
+				b_aphroditopolis_athribis = {
+					egyptian = Hatarbechis
+				}
+				b_sais_athribis = {
+					egyptian = Zau
+				}
+				b_bousiris_athribis = {
+					egyptian = Djedu
+				}
+				b_kynopolis_athribis = {
+					egyptian = Saka
+				}
+				b_taya_athribis = {
+				}
+			}
+		}
+		d_rhinocorura = {
+			color= { 232 255 140 }
+			color2= { 255 255 255 }
+
+			capital = 132 # Pelusium
+
+			egyptian = "Khenti-Aabti"
+
+			c_clysma = {
+				color= { 224 255 140 }
+				color2= { 255 255 255 }
+				
+				b_clysma_clysma = {
+				}
+				b_heroonpolis_clysma = {
+				}
+				b_serapieion_clysma = {
+				}
+				b_phoinikon_clysma = {
+				}
+				b_koubri_clysma = {
+				}
+				b_hephaistos_clysma = {
+				}
+				b_thenessos_clysma = {
+				}
+			}
+			c_pelusium = {
+				color= { 210 242 123 }
+				color2= { 255 255 255 }
+				
+				egyptian = "Per Amun"
+			
+				b_pelusium_pelusium = {
+					egyptian = "Per Amun"
+				}
+				b_sile_pelusium = {
+					egyptian = Tjaru
+				}
+				b_herakleopolis_mikra_pelusium = {
+					egyptian = "Harsaphes-neb-Nen-nesou"
+				}
+				b_sethroe_pelusium = {
+					egyptian = Setra
+				}
+				b_daphnai_pelusium = {
+					egyptian = Tahpanhes
+				}
+				b_kasion_oros_pelusium = {
+				}
+				b_ostrakine_pelusium = {
+				}
+			}
+			c_heliopolis = {
+				color= { 239 255 140 }
+				color2= { 255 255 255 }
+				
+				egyptian = "Iunu"
+
+				holy_site = atenist # Cult site of Aten
+				
+				b_heliopolis_heliopolis = {
+					egyptian = "Iunu"
+				}
+				b_saphthis_heliopolis = {
+					egyptian = "Per-Sped"
+				}
+				b_leontopolis_heliopolis = {
+					egyptian = "Ney-ta-hut"
+				}
+				b_babylon_heliopolis = {
+				}
+				b_phakoussa_heliopolis = {
+				}
+				b_bilbeis_heliopolis = {
+				}
+				b_troia_heliopolis = {
+				}
+			}
+		}
+		d_memphites = {
+			color= { 187 255 99 }
+			color2= { 255 255 255 }
+
+			capital = 141 # Memphis
+
+			egyptian = "Inebu-Hedj"
+
+			c_memphis = {
+				color= { 177 255 99 }
+				color2= { 255 255 255 }
+				
+				egyptian = "Men Nefer"
+
+				holy_site = greco_kemetic # Serapeum at Saqqara
+				holy_site = kemetic # Pyramids of Giza
+				holy_site = atenist # A temple was built here.
+				
+				b_memphis_memphis = {
+					egyptian = "Men Nefer"
+				}
+				b_letopolis_memphis = {
+					egyptian = Khem
+				}
+				b_sophthis_memphis = {
+					egyptian = Sobthis
+				}
+				b_boubastos_memphis = {
+					egyptian = "Per-Bast"
+				}
+				b_philadelpheia_memphis = {
+				}
+				b_serapeum_memphis = {
+					egyptian = "Djes-isut-Teti" # Pyramid of Teti, close by.
+				}
+				b_moiethymis_memphis = {
+					egyptian = "Mer-Itum"
+				}
+			}
+			c_aphroditopolis = {
+				color= { 182 242 104 }
+				color2= { 255 255 255 }
+				
+				egyptian = Tpyhwt
+				
+				b_aphroditopolis_aphroditopolis = {
+					egyptian = Tpyhwt
+				}
+				b_thmoinepsi_aphroditopolis = {
+					egyptian = Thmounepsi
+				}
+				b_parembole_aphroditopolis = {
+				}
+				b_koma_aphroditopolis = {
+				}
+				b_pouet_aphroditopolis = {
+				}
+				b_magdolos_aphroditopolis = {
+				}
+				b_kalamine_aphroditopolis = {
+				}
+			}
+			c_crocodilopolis = {
+				color= { 197 255 99 }
+				color2= { 255 255 255 }
+				
+				egyptian = "Shedyet"
+				
+				b_crocodilopolis_crocodilopolis = {
+					egyptian = "Shedyet"
+				}
+				b_haueris_crocodilopolis = {
+					egyptian = Huturi
+				}
+				b_piamouei_crocodilopolis = {
+					egyptian = Piameyt
+				}
+				b_psenyris_crocodilopolis = {
+					egyptian = Psenneris
+				}
+				b_pisais_crocodilopolis = {
+					egyptian = Pise
+				}
+				b_theadelpheia_crocodilopolis = {
+					egyptian = Pawisenet
+				}
+				b_narmouthis_crocodilopolis = {
+					egyptian = "Nout-Renenet"
+				}	
+				b_tebtynis_crocodilopolis = {
+					egyptian = Tutun
+				}
+			}
+			c_herakleopolis = {
+				color= { 174 242 84 }
+				color2= { 255 255 255 }
+				
+				egyptian = "Henen-Nesou"
+				
+				b_herakleopolis_herakleopolis = {
+					egyptian = "Henen-Nesou"
+				}
+				b_ptolemais_hormou_herakleopolis = {
+					egyptian = Pasiheti
+				}
+				b_peenameos_herakleopolis = {
+					egyptian = Poinami
+				}
+				b_sobthis_herakleopolis = {
+					egyptian = Sobtis
+				}
+				b_psobthis_herakleopolis = {
+					egyptian = Psobtis
+				}
+				b_sinary_herakleopolis = {
+					egyptian = Pseneros
+				}
+				b_psebtonembe_herakleopolis = {
+				}
+			}
+		}
+	}
+	k_upper_egypt = {
+		color= { 224 184 98 }
+		color2= { 255 255 255 }
+
+		capital = 150 # Thebes
+
+		egyptian = "Ta Shemaw"
+
+		d_oxyrhynchites = {
+			color= { 221 205 124 }
+			color2= { 255 255 255 }
+
+			capital = 145 # Oxyrhynchus
+
+			egyptian = Wabwi
+
+			c_kynopolis = {
+				color= { 219 209 125 }
+				color2= { 255 255 255 }
+
+				egyptian = Saka
+
+				b_kynopolis_kynopolis = {
+					egyptian = Saka
+				}
+				b_taampemou_kynopolis = {
+					egyptian = Tampemou
+				}
+				b_psobthis_kynopolis = {
+					egyptian = Psobtis
+				}
+				b_senokomis_kynopolis = {
+					egyptian = "Shenout-n-kemaou"
+				}
+				b_palosis_kynopolis = {
+					egyptian = Pelosis
+				}
+				b_techtho_kynopolis = {
+					egyptian = Techthoi
+				}
+				b_ankyronpolis_kynopolis = {
+					egyptian = Taju-djayet
+				}
+			}
+			c_hermopolis = {
+				color= { 219 197 125 }
+				color2= { 255 255 255 }
+
+				egyptian = Khemenu
+
+				b_hermopolis_hermopolis = {
+					egyptian = Khemenu
+				}
+				b_peentalis_hermopolis = {
+					egyptian = Peentaleit
+				}
+				b_koussai_hermopolis = {
+					egyptian = Kos
+				}
+				b_senoabis_hermopolis = {
+					egyptian = Sinnoabis
+				}
+				b_tachlout_hermopolis = {
+					egyptian = Teslot
+				}
+				b_hakis_hermopolis = {
+				}
+				b_nagos_hermopolis = {
+				}
+			}
+			c_oxyrhynchus = {
+				color= { 206 190 109 }
+				color2= { 255 255 255 }
+				
+				egyptian = "Per-Medjed"
+				
+				b_oxyrhynchus_oxyrhynchus = {
+					egyptian = "Per-Medjed"
+				}
+				b_toou_oxyrhynchus = {
+				}
+				b_chysis_oxyrhynchus = {
+				}
+				b_pela_oxyrhynchus = {
+				}
+				b_paimis_oxyrhynchus = {
+					egyptian = Pemi
+				}
+				b_senekeleu_oxyrhynchus = {
+					egyptian = "Nekle-Tesenekelo"
+				}
+				b_artapatou_oxyrhynchus = {
+				}
+			}
+			c_thmoresis = {
+				color= { 206 193 125 }
+				color2= { 255 255 255 }
+				
+				egyptian = "Akhetaten"
+
+				holy_site = atenist # Akhetaten
+
+				b_thmoresis_thmoresis = {
+					latin = Antinoopolis
+					egyptian = Hirwe
+				}
+				b_hakoreos_thmoresis = {
+					egyptian = Tenis
+				}
+				b_alabastronpolis_thmoresis = {
+					egyptian = Hebenou
+				}
+				b_akhetaten_thmoresis = {
+				}
+				b_pescla_ano_thmoresis = {
+				}
+				b_poisarietemidos_thmoresis = {
+				}
+				b_petne_thmoresis = {
+				}
+			}
+		}
+		d_lykopolites = {
+			color= { 221 158 68 }
+			color2= { 255 255 255 }
+
+			capital = 147 # Lykopolis
+
+			egyptian = Nedjfet
+
+			c_lykopolis = {
+				color= { 219 166 67 }
+				color2= { 255 255 255 }
+				
+				egyptian = "Zawty"
+				
+				b_lykopolis_lykopolis = {
+					egyptian = "Zawty"
+				}
+				b_mouchis_lykopolis = {
+					egyptian = "Per-mechi"
+				}
+				b_erebe_lykopolis = {
+				}
+				b_hypsele_lykopolis = {
+					egyptian = Shashotep
+				}
+				b_pohe_lykopolis = {
+				}
+				b_manbalot_lykopolis = {
+				}
+				b_telke_lykopolis = {
+				}
+			}
+			c_antaiopolis = {
+				color= { 219 146 67 }
+				color2= { 255 255 255 }
+				
+				egyptian = Tjebou
+				
+				b_antaiopolis_antaiopolis = {
+					egyptian = Tjebou
+				}
+				b_hierakion_antaiopolis = {
+				}
+				b_muthi_antaiopolis = {
+				}
+				b_selino_antaiopolis = {
+				}
+				b_paphor_antaiopolis = {
+				}
+				b_seuerou_antaiopolis = {
+				}
+				b_taampeti_antaiopolis = {
+				}
+			}
+			c_psinemoun = {
+				color= { 206 150 72 }
+				color2= { 255 255 255 }
+				
+				egyptian = Psimou
+				
+				b_psinemoun_psinemoun = {
+					egyptian = Psimou
+				}
+				b_apollonopolis_heptakomias_psinemoun = {
+					egyptian = Sbeht
+				}
+				b_pteme_psinemoun = {
+				}
+				b_aphroditopolis_psinemoun = {
+					egyptian = "Per-Wadjet"
+				}
+				b_toeto_psinemoun = {
+				}
+				b_psonis_psinemoun = {
+					egyptian = "Per-Soun"
+				}
+				b_psinabla_psinemoun = {
+					egyptian = Psinabele
+				}
+			}
+		}
+		d_panopolites = {
+			color= { 221 171 130 }
+			color2= { 255 255 255 }
+
+			capital = 934 # Ptolemais
+
+			egyptian = Menu
+
+			c_ptolemais = {
+				color= { 219 163 129 }
+				color2= { 255 255 255 }
+				
+				egyptian = Psoi
+
+				holy_site = kemetic # Temple of Seti I
+
+				b_ptolemais_ptolemais = {
+					egyptian = Psoi
+				}
+				b_perdes_ptolemais = {
+				}
+				b_abydos_ptolemais = {
+					egyptian = Abdju
+				}
+				b_lepidoton_polis_ptolemais = {
+				}
+				b_triphieion_ptolemais = {
+					egyptian = "Hout-Repyt"
+				}
+				b_bompai_ptolemais = {
+					egyptian = "Per-Boupahe"
+				}
+				b_itos_ptolemais = {
+					egyptian = Itou
+				}
+			}
+			c_panopolis = {
+				color= { 219 175 129 }
+				color2= { 255 255 255 }
+				
+				egyptian = "Khent-Min"
+				
+				b_panopolis_panopolis = {
+					egyptian = "Khent-Min"
+				}
+				b_polybiane_panopolis = {
+				}
+				b_thmoo_panopolis = {
+				}
+				b_apa_bsote_panopolis = {
+				}
+				b_anba_bakhum_panopolis = {
+				}
+				b_sadalou_panopolis = {
+				}
+				b_ibion_panopolis = {
+				}
+			}
+			c_thbakat = {
+				color= { 206 155 113 }
+				color2= { 255 255 255 }
+				
+				b_thbakat_thbakat = {
+				}
+				b_tabennisis_thbakat = {
+				}
+				b_bau_thbakat = {
+				}
+				b_esou_thbakat = {
+				}
+				b_patrimon_thbakat = {
+				}
+				b_noeris_thbakat = {
+				}
+				b_alilais_thbakat = {
+				}
+			}
+		}
+		d_thebais = {
+			color= { 221 194 70 }
+			color2= { 255 255 255 }
+
+			capital = 150 # Thebes
+
+			egyptian = Waset
+
+			c_koptos = {
+				color= { 219 182 70 }
+				color2= { 255 255 255 }
+				
+				egyptian = "Gebtu"
+				
+				b_koptos_koptos = {
+					egyptian = Gebtu
+				}
+				b_kaine_koptos = {
+				}
+				b_qala_koptos = {
+				}
+				b_matula_koptos = {
+				}
+				b_phoinikon_koptos = {
+				}
+				b_neiloupolis_koptos = {
+				}
+				b_karanis_koptos = {
+				}
+			}
+			c_diospolis_mikra = {
+				color= { 219 204 70 }
+				color2= { 255 255 255 }
+				
+				egyptian = "Hut-Sekhem"
+
+				holy_site = kemetic # Ramesseum
+				
+				b_diospolis_mikra_diospolis_mikra = {
+					egyptian = "Hut-Sekhem"
+				}
+				b_ozymandias_diospolis_mikra = {
+					egyptian = "Usermaatra-setepenra"
+				}
+				b_pallas_diospolis_mikra = {
+				}
+				b_tsenti_diospolis_mikra = {
+				}
+				b_mouchonsis_diospolis_mikra = {
+				}
+				b_chenoboskion_diospolis_mikra = {
+					egyptian = Sheneset
+				}
+				b_tentyra_diospolis_mikra = {
+					egyptian = Tantnetert
+				}
+			}
+			c_thebes_egypt = {
+				color= { 206 179 57 }
+				color2= { 255 255 255 }
+				
+				egyptian = "Waset"
+
+				holy_site = kemetic # Karnak
+				holy_site = atenist # Karnak, several temples to Aten were built here.
+				
+				b_thebes_thebes_egypt = {
+					egyptian = "Waset"
+				}
+				b_apollonopolis_parva_thebes_egypt = {
+					egyptian = Ges
+				}
+				b_kerameia_thebes_egypt = {
+					egyptian = "Per-Montou-neb-Maten"
+				}
+				b_diospolis_thebes_egypt = {
+					egyptian = "Ipet-Isut"
+				}
+				b_touphion_thebes_egypt = {
+					egyptian = Djerty
+				}
+				b_kontra_latopolis_thebes_egypt = {
+				}
+				b_phanou_thebes_egypt = {
+				}
+			}
+			c_latopolis = {
+				color= { 229 202 82 }
+				color2= { 255 255 255 }
+				
+				egyptian = "Tasenet"
+				
+				b_latopolis_latopolis = {
+					egyptian = "Tasenet"
+				}
+				b_phnoum_latopolis = {
+				}
+				b_asphynis_latopolis = {
+					egyptian = "Hout-Senefrou"
+				}
+				b_pathyris_latopolis = {
+					egyptian = "Per-Hathor"
+				}
+				b_terkythis_latopolis = {
+					egyptian = "Ioum-Iterou"
+				}
+				b_hermonthis_latopolis = {
+					egyptian = "Iounou-Montou"
+				}
+				b_boucheion_latopolis = {
+					egyptian = "Per-User-Bakh"
+				}
+			}
+		}
+		d_syenitis = {
+			color= { 221 166 70 }
+			color2= { 255 255 255 }
+
+			capital = 153 # Syene
+
+			egyptian = "Ta-Seti"
+
+			c_syene = {
+				color= { 219 174 70 }
+				color2= { 255 255 255 }
+				
+				egyptian = "Swenett"
+
+				holy_site = greco_kemetic # Ptolemies constructed a lot of temples here.
+				
+				b_syene_syene = {
+					egyptian = "Swenett"
+				}
+				b_omboi_syene = {
+					egyptian = Noubt
+				}
+				b_setis_syene = {
+					egyptian = Satis
+				}
+				b_elephantine_syene = {
+					egyptian = Ieb
+				}
+				b_philai_syene = {
+					egyptian = Pilak
+				}
+				b_abaton_syene = {
+					egyptian = "Pai-iou-ouab"
+				}
+				b_telelis_syene = {
+				}
+			}
+			c_berenike = {
+				color= { 219 154 70 }
+				color2= { 255 255 255 }
+				
+				b_berenike_berenike = {
+				}
+				b_siket_berenike = {
+				}
+				b_lahami_berenike = {
+				}
+				b_hydreuma_berenike = {
+				}
+				b_lepte_akra_berenike = {
+				}
+				b_kabalsi_berenike = {
+				}
+				b_apollonos_berenike = {
+				}
+			}
+			c_eileithiopolis = {
+				color= { 206 151 55 }
+				color2= { 255 255 255 }
+				
+				egyptian = "Nekheb"
+				
+				b_eileithiopolis_eileithiopolis = {
+					egyptian = "Nekheb"
+				}
+				b_kontra_apollonopolis_eileithiopolis = {
+				}
+				b_hyreuma_eileithiopolis = {
+				}
+				b_phalakro_eileithiopolis = {
+				}
+				b_aristonis_eileithiopolis = {
+				}
+				b_philoteris_eileithiopolis = {
+				}
+				b_kelol_eileithiopolis = {
+				}
+			}
+			c_apollonopolis = {
+				color= { 206 158 74 }
+				color2= { 255 255 255 }
+				
+				egyptian = Behdet
+
+				holy_site = atenist # A temple to Aten was built here
+				
+				b_apollonopolis_apollonopolis = {
+					egyptian = Behdet
+				}
+				b_hierakonpolis_apollonopolis = {
+					egyptian = Nekhen
+				}
+				b_kos_apollonopolis = {
+				}
+				b_mounchis_apollonopolis = {
+				}
+				b_kella_apollonopolis = {
+				}
+				b_akanthonpolis_apollonopolis = {
+				}
+				b_peme_apollonopolis = {
+				}
+			}
+		}
+	}
+}
+k_libya = {
+	color = { 255 150 0 }
+	color2={ 255 255 255 }
+	
+	capital = 155 # Hibis
+	
+	d_hibis = {
+		color= { 255 150 0 }
+		color2= { 255 255 255 }
+		
+		egyptian = Hebet
+		
+		capital = 155 # Hibis
+		
+		c_hibis = {
+			color= { 255 150 0 }
+			color2= { 255 255 255 }
+			
+			egyptian = Hebet
+			
+			b_hibis_hibis = {
+				egyptian = Hebet
+			}
+			b_parammon_hibis = {
+			}
+			b_perousekh_hibis = {
+			}
+			b_tchonemyris_hibis = {
+			}
+			b_beleida_hibis = {
+			}
+			b_somou_hibis = {
+			}
+			b_ibion_hibis = {
+			}
+		}
+		c_kysis = {
+			color= { 245 150 10 }
+			color2= { 255 255 255 }
+			
+			egyptian = Kaish
+			
+			b_kysis_kysis = {
+				egyptian = Kaish
+			}
+			b_pege_sykaminia_kysis = {
+			}
+			b_baris_kysis = {
+			}
+			b_pmounesis_kysis = {
+			}
+			b_tabennese_kysis = {
+			}
+			b_badaran_kysis = {
+			}
+			b_pakerke_kysis = {
+			}
+		}
+		c_mothis = {
+			color= { 245 160 0 }
+			color2= { 255 255 255 }
+			
+			egyptian = "Per Mut"
+			
+			b_mothis_mothis = {
+				egyptian = "Per Mut"
+			}
+			b_sioua_mothis = {
+			}
+			b_trimithis_mothis = {
+			}
+			b_kalamon_mothis = {
+			}
+			b_kellis_mothis = {
+			}
+			b_thenete_mothis = {
+			}
+			b_balat_mothis = {
+			}
+		}
+		c_oasis_trinitheos = {
+			color={ 255 140 40 }
+			color2={ 255 255 255 }
+			
+			egyptian = Ta-jhw
+			
+			b_oasis_trinitheos_oasis_trinitheos = {
+				egyptian = Ta-jhw
+			}
+			b_besai_oasis_trinitheos = {
+			}
+			b_pokis_oasis_trinitheos = {
+			}
+			b_paploou_oasis_trinitheos = {
+			}
+			b_tmoo_oasis_trinitheos = {
+			}
+			b_terbe_oasis_trinitheos = {
+			}
+			b_berky_oasis_trinitheos = {
+			}
+		}
+	}
+	d_ammon = {
+		color={ 255 175 0 }
+		color2={ 255 255 255 }
+		
+		capital = 880 # Ammon
+		
+		c_ammon = {
+			color={ 245 175 10 }
+			color2={ 255 255 255 }
+
+			holy_site = greco_kemetic # Oracle that Alexander visited.
+			
+			b_ammon_ammon = {
+			}
+			b_sitra_ammon = {
+			}
+			b_mota_ammon = {
+			}
+			b_abu_ammon = {
+			}
+			b_schiatuh_ammon = {
+			}
+			b_sele_ammon = {
+			}
+			b_polydeuka_ammon = {
+			}
+		}
+		c_klimax = {
+			color={ 255 185 10 }
+			color2={ 255 255 255 }
+			
+			b_klimax_klimax = {
+			}
+			b_alexandrou_parembole_klimax = {
+			}
+			b_thambol_klimax = {
+			}
+			b_thmouis_klimax = {
+			}
+			b_gerra_klimax = {
+			}
+			b_magdola_klimax = {
+			}
+			b_euhemereia_klimax = {
+			}
+		}
+		c_oasis_parva = {
+			color={ 255 150 50 }
+			color2={ 255 255 255 }
+			
+			egyptian = Djesdjes
+			
+			b_oasis_parva_oasis_parva = {
+				egyptian = Djesdjes
+			}
+			b_harra_oasis_parva = {
+			}
+			b_tablamon_oasis_parva = {
+			}
+			b_houor_oasis_parva = {
+			}
+			b_psoubai_oasis_parva = {
+			}
+			b_spania_oasis_parva = {
+			}
+			b_temsiris_oasis_parva = {
+			}
+		}
+	}
+	d_augila = {
+		color={ 255 150 25 }
+		color2={ 255 255 255 }
+		
+		capital = 879 # Augila
+		
+		c_augila = {
+			color={ 255 150 25 }
+			color2={ 255 255 255 }
+			
+			b_augila_augila = {
+			}
+			b_gialo_augila = {
+			}
+			b_gicherra_augila = {
+			}
+		}
+		c_marada = {
+			color={ 255 140 35 }
+			color2={ 255 255 255 }
+			
+			b_marada_marada = {
+			}
+		}
+	}
+	d_koufra = {		
+		color={ 255 125 25 }
+		color2={ 255 255 255 }
+		
+		capital = 910 # Koufra
+		
+		c_tazerbo = {
+			color={ 245 115 25 }
+			color2={ 255 255 255 }
+			
+			b_tazerbo_tazerbo = {
+			}
+		}
+		c_koufra = {
+			color={ 255 125 25 }
+			color2={ 255 255 255 }
+			
+			b_koufra_koufra = {
+			}
+			b_buma_koufra = {
+			}
+		}
+	}
+	d_aigyptos_aktaios = {
+		color= { 225 175 0 }
+		color2= { 255 255 255 }
+		
+		capital = 159 # Paraetonium
+		
+		c_antiphrai = {
+			color= { 235 175 10 }
+			color2= { 255 255 255 }
+			
+			b_antiphrai_antiphrai = {
+			}
+			b_pnigeus_antiphrai = {
+			}
+			b_derras_antiphrai = {
+			}
+		}
+		c_paraetonium = {
+			color= { 225 175 0 }
+			color2= { 255 255 255 }
+			
+			b_paraetonium_paraetonium = {
+			}
+			b_apis_paraetonium = {
+			}
+			b_selenis_paraetonium = {
+			}
+		}
+		c_catabathmus = {
+			color= { 215 185 0 }
+			color2= { 255 255 255 }
+			
+			b_catabathmus_catabathmus = {
+			}
+			b_menelaos_paraetonium = {
+			}
+			b_kardamis_paraetonium = {
+			}
+		}
+		c_petras_mikros = {
+			color= { 225 185 10 }
+			color2= { 255 255 255 }
+			
+			b_petras_mikros_petras_mikros = {
+			}
+			b_paliouros_petras_mikros = {
+			}
+			b_antipyrgos_petras_mikros = {
 			}
 		}
 	}

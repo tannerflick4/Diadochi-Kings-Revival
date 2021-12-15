@@ -4,13 +4,18 @@
 title = c_ammon
 
 # Settlements
-max_settlements = 4
-b_ammon_ammon = castle
-b_giarabub_ammon = city
+max_settlements = 3
+b_ammon_ammon = tribal
+b_sitra_ammon = city
+b_mota_ammon = temple
+#b_abu_ammon = temple
+#b_schiatuh_ammon = temple
+#b_sele_ammon = city
+#b_polydeuka_ammon = castle
 
 # Misc
-culture = egyptian
-religion = kemetic
+culture = berber
+religion = berber_main
 
 # History
 # Can be filled when things change around the province

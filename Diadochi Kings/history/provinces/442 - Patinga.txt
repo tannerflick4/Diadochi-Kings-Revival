@@ -6,9 +6,12 @@ title = c_patinga
 # Settlements
 max_settlements = 4
 b_patinga_patinga = castle
-b_orsum_patinga = city
+b_direla_patinga = city
 b_pnups_patinga = castle
-b_prummu_patinga = city
+#b_prummu_patinga = castle
+#b_paroa_patinga = city
+#b_kedurma_patinga = castle
+b_papa_patinga = temple
 
 # Misc
 culture = nubian

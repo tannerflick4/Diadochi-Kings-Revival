@@ -4,12 +4,14 @@
 title = c_aphroditopolis
 
 # Settlements
-max_settlements = 5
+max_settlements = 3
 b_aphroditopolis_aphroditopolis = castle
-b_kerke_aphroditopolis = temple
-b_parembole_aphroditopolis = city
-b_ankyronpolis_aphroditopolis = castle
 b_thmoinepsi_aphroditopolis = city
+b_parembole_aphroditopolis = city
+#b_koma_aphroditopolis = city
+#b_pouet_aphroditopolis = temple
+#b_magdolos_aphroditopolis = castle
+#b_kalamine_aphroditopolis = temple
 
 # Misc
 culture = egyptian

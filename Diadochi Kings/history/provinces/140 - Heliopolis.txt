@@ -6,10 +6,12 @@ title = c_heliopolis
 # Settlements
 max_settlements = 5
 b_heliopolis_heliopolis = castle
-b_athribis_heliopolis = temple
-b_letopolis_heliopolis = city
-b_kerkasoros_heliopolis = castle
-b_leontopolis_heliopolis = city
+b_saphthis_heliopolis = city
+b_leontopolis_heliopolis = temple
+b_babylon_heliopolis = castle
+#b_phakoussa_heliopolis = city
+#b_bilbeis_heliopolis = castle
+#b_troia_heliopolis = city
 
 # Misc
 culture = egyptian

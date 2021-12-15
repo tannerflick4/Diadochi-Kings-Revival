@@ -4,13 +4,14 @@
 title = c_crocodilopolis
 
 # Settlements
-max_settlements = 6
+max_settlements = 7
 b_crocodilopolis_crocodilopolis = castle
-b_haueris_crocodilopolis = temple
-b_heracleopolis_crocodilopolis = city
-b_taleithis_crocodilopolis = castle
-b_bousiris_crocodilopolis = temple
-b_psenaryo_crocodilopolis = city
+#b_haueris_crocodilopolis = castle
+b_piamouei_crocodilopolis = temple
+b_psenyris_crocodilopolis = city
+#b_pisais_crocodilopolis = city
+#b_theadelpheia_crocodilopolis = castle
+b_tebtynis_crocodilopolis = city
 
 # Misc
 culture = egyptian

@@ -1,23 +1,7 @@
-417.1.1 = {
-	holder = 350001 # Nectanebo II
+446.1.1 = { # 359 BC
+	holder = 3804 # Nikolaos of the Ostrakinoi
+	liege = d_rhinocorura
 }
-435.1.1 = {
-	holder = 90501 # Sabaces
-	liege = k_p_egypt
-}
-443.1.1 = {
-	holder = 90601 # Mazaces
-}
-446.1.1 = { # 330 BC
-	holder = 811 # Kleomenes
-	liege = k_s_egypt
-}
-453.6.10 = {
-	holder = 601
-}
-467.1.1 = {
-	liege = e_egypt
-}
-491.1.1 = {
-	holder = 602 # Ptolemy II
+472.1.1 = { # 304 BC
+	holder = 3805 # Ekphantos of the Ostrakinoi
 }

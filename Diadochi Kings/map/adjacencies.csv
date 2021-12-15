@@ -24,3 +24,34 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 731;730;sea;1060;-1;-1;-1;-1;Sankodara-Dwaraka
 731;285;sea;1060;-1;-1;-1;-1;Sankodara-Automula
 1048;1030;portage;21;-1;-1;-1;-1;Gulf of Corinth-Myrtoan Sea
+156;151;;1203;-1;-1;-1;-1;Kysis-Apollonopolis
+156;155;;1203;-1;-1;-1;-1;Kysis-Hibis
+155;934;;1203;-1;-1;-1;-1;Hibis-Ptolemais
+155;157;;1205;-1;-1;-1;-1;Hibis-Mothis
+156;157;;1205;-1;-1;-1;-1;Kysis-Mothis
+157;883;;1205;-1;-1;-1;-1;Mothis-Oasis Trinitheos
+883;882;;1205;-1;-1;-1;-1;Oasis Trinitheos-Oasis Parva
+882;145;;1205;-1;-1;-1;-1;Oasis Parva-Oxyrhynchus
+882;880;;960;-1;-1;-1;-1;Oasis Parva-Ammon
+880;881;;960;-1;-1;-1;-1;Ammon-Klimax
+880;879;;960;-1;-1;-1;-1;Ammon-Augila
+881;158;;960;-1;-1;-1;-1;Klimax-Antiphrai
+845;954;;146;-1;-1;-1;-1;Eileithiopolis-Berenike
+138;137;major_river;1511;-1;-1;-1;-1;Metelis-Bouto
+388;137;major_river;1511;-1;-1;-1;-1;Naucratis-Bouto
+388;425;major_river;1512;-1;-1;-1;-1;Naucratis-Athribis
+141;425;major_river;1513;-1;-1;-1;-1;Memphis-Athribis
+141;140;major_river;1513;-1;-1;-1;-1;Memphis-Heliopolis
+141;142;major_river;1513;-1;-1;-1;-1;Memphis-Aphroditopolis
+428;142;major_river;1516;-1;-1;-1;-1;Herakleopolis-Aphroditopolis
+916;843;major_river;1517;-1;-1;-1;-1;Hermopolis-Thmoresis
+147;843;major_river;1518;-1;-1;-1;-1;Lykopolis-Thmoresis
+147;950;major_river;1519;-1;-1;-1;-1;Lykopolis-Antaiopolis
+919;148;major_river;1519;-1;-1;-1;-1;Psinemoun-Panopolis
+934;148;major_river;1520;-1;-1;-1;-1;Ptolemais-Panopolis
+934;981;major_river;1520;-1;-1;-1;-1;Ptolemais-Thbakat
+844;149;major_river;1520;-1;-1;-1;-1;Diospolis Mikra-Kaine
+844;150;major_river;1521;-1;-1;-1;-1;Diospolis Mikra-Thebai
+152;150;major_river;1521;-1;-1;-1;-1;Latopolis-Thebai
+151;150;major_river;1521;-1;-1;-1;-1;Apollonopolis-Thebai
+151;845;major_river;1521;-1;-1;-1;-1;Apollonopolis-Eileithiopolis

@@ -4,13 +4,14 @@
 title = c_sebennytos
 
 # Settlements
-max_settlements = 6
+max_settlements = 4
 b_sebennytos_sebennytos = castle
-b_bousiris_sebennytos = temple
-b_kynopolis_sebennytos = city
-b_diospolis_kato_sebennytos = castle
-b_isieion_sebennytos = city
-b_natho_sebennytos = city
+b_isidos_polis_sebennytos = castle
+b_diospolis_kato_sebennytos = temple
+#b_schedia_sebennytos = city
+#b_onouphis_sebennytos = city
+#b_isieion_sebennytos = city
+#b_paua_sebennytos = city
 
 # Misc
 culture = egyptian

@@ -6,11 +6,12 @@ title = c_diospolis_mikra
 # Settlements
 max_settlements = 5
 b_diospolis_mikra_diospolis_mikra = castle
-b_memnonia_diospolis_mikra = temple # Ramessium
-b_abydos_diospolis_mikra = castle
-b_this_diospolis_mikra = city
-
-#b_ptolemais_hermeiou_diospolis_mikra = castle
+b_ozymandias_diospolis_mikra = temple # Ramesseum
+b_pallas_diospolis_mikra = city
+#b_tsenti_diospolis_mikra = temple
+#b_mouchonsis_diospolis_mikra = castle
+#b_chenoboskion_diospolis_mikra = temple
+b_tentyra_diospolis_mikra = city
 
 # Misc
 culture = egyptian

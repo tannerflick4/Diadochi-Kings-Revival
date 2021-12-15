@@ -4,13 +4,14 @@
 title = c_bouto
 
 # Settlements
-max_settlements = 6
+max_settlements = 5
 b_bouto_bouto = castle
-b_xois_bouto = temple
-b_sais_bouto = city
-b_kabasa_bouto = castle
-b_pachnamounis_bouto = city
-b_phragonis_bouto = city
+b_bolbitine_bouto = castle
+b_chemmis_bouto = city
+#b_kabasa_bouto = city
+#b_phragonis_bouto = city
+b_xois_bouto = castle
+#b_pachnamounis_bouto = castle
 
 # Misc
 culture = egyptian

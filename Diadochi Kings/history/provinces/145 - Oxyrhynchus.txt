@@ -6,10 +6,12 @@ title = c_oxyrhynchus
 # Settlements
 max_settlements = 5
 b_oxyrhynchus_oxyrhynchus = castle
-b_taampemou_oxyrhynchus = temple
-b_takolkeilis_oxyrhynchus = city
-b_hipponon_oxyrhynchus = castle
-b_terbe_oxyrhynchus = temple
+b_toou_oxyrhynchus = castle
+b_chysis_oxyrhynchus = city
+#b_pela_oxyrhynchus = city
+b_paimis_oxyrhynchus = temple
+b_senekeleu_oxyrhynchus = city
+#b_artapatou_oxyrhynchus = city
 
 # Misc
 culture = egyptian

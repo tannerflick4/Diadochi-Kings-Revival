@@ -33,23 +33,6 @@ e_syria = { # Seleucid
 		Alexandros Antiochos Demetrios Philippos Seleukos
 	}
 }
-e_egypt = { # Ptolemaic
-	color= { 225 200 0 }
-	color2= { 255 255 255 }
-	
-	title = "PHARAOH_TITLE"
-	title_female = "QUEEN_TITLE"
-	
-	capital = 139 # Alexandria
-	
-	allow = {
-		always = no
-	}
-	
-	male_names = {
-		Ptolemaios
-	}
-}
 e_italia = {
 	color= { 125 0 0 }
 	color2= { 255 255 255 }

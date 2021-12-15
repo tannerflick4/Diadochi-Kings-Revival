@@ -113,6 +113,24 @@ d_phoenicia;Kananu;;;;;;;;;;;;;x;
 d_phoenicia_adj;Kananuan;;;;;;;;;;;;;x;
 d_israel;Israel;;;;;;;;;;;;;x;
 d_israel_adj;Israelite;;;;;;;;;;;;;x;
+d_menelaites;Menelaites;;;;;;;;;;;;;x;
+d_menelaites_adj;Menelaitian;;;;;;;;;;;;;x;
+d_athribites;Athribites;;;;;;;;;;;;;x;
+d_athribites_adj;Athribitic;;;;;;;;;;;;;x;
+d_rhinocorura;Rhinocorura;;;;;;;;;;;;;x;
+d_rhinocorura_adj;Rhinocoruran;;;;;;;;;;;;;x;
+d_memphites;Memphites;;;;;;;;;;;;;x;
+d_memphite_adj;Memphitian;;;;;;;;;;;;;x;
+d_oxyrhynchites;Oxyrhynchites;;;;;;;;;;;;;x;
+d_oxyrhynchites_adj;Oxyrhynchitic;;;;;;;;;;;;;x;
+d_lykopolites;Lykopolites;;;;;;;;;;;;;x;
+d_lykopolites_adj;Lykopolitan;;;;;;;;;;;;;x;
+d_panopolites;Panopolites;;;;;;;;;;;;;x;
+d_panopolites_adj;Panopolitan;;;;;;;;;;;;;x;
+d_thebais;Thebais;;;;;;;;;;;;;x;
+d_thebais_adj;Theban;;;;;;;;;;;;;x;
+d_syenitis;Syenitis;;;;;;;;;;;;;x;
+d_syenitis_adj;Syenitian;;;;;;;;;;;;;x;
 d_judea;Judea;;;;;;;;;;;;;x;
 d_judea_adj;Judean;;;;;;;;;;;;;x;
 d_sinai;Mafkat;;;;;;;;;;;;;x;
@@ -121,14 +139,6 @@ d_nabataea;Nabatu;;;;;;;;;;;;;x;
 d_nabataea_adj;Nabatuan;;;;;;;;;;;;;x;
 d_damascus;Darmsuq;;;;;;;;;;;;;x;
 d_damascus_adj;Darmsuqian;;;;;;;;;;;;;x;
-d_delta;Nile Delta;;;;;;;;;;;;;x;
-d_delta_adj;Deltic;;;;;;;;;;;;;x;
-d_memphis;Memphis;;;;;;;;;;;;;x;
-d_memphis_adj;Memphian;;;;;;;;;;;;;x;
-d_lykopolis;Lykopolis;;;;;;;;;;;;;x;
-d_lykopolis_adj;Lykopolitan;;;;;;;;;;;;;x;
-d_thebes;Thebai;;;;;;;;;;;;;x;
-d_thebes_adj;Theban;;;;;;;;;;;;;x;
 d_hibis;Hibis;;;;;;;;;;;;;x;
 d_hibis_adj;Hibian;;;;;;;;;;;;;x;
 d_aigyptos_aktaios;Aigyptos Aktaia;;;;;;;;;;;;;x;
@@ -1009,5 +1019,9 @@ d_mosella;Mosella;;;;;;;;;;;x
 d_mosella_adj;Mosellan;;;;;;;;;;;x
 d_nida;Nida;;;;;;;;;;;x
 d_nida_adj;Nidan;;;;;;;;;;;x
-d_oasitai;Oasitai;;;;;;;;;;;x
-d_oasitai_adj;Oasis;;;;;;;;;;;x
+d_high_ptah;Ptah;;;;;;;;;;;x
+d_high_ptah_adj;Ptah;;;;;;;;;;;x
+d_high_osiris;Osiris;;;;;;;;;;;x
+d_high_osiris_adj;Osiris;;;;;;;;;;;x
+d_high_amun_ra;Amun-Ra;;;;;;;;;;;x
+d_high_amun_ra_adj;Amun-Ra;;;;;;;;;;;x

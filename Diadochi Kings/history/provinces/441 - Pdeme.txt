@@ -6,9 +6,12 @@ title = c_pdeme
 # Settlements
 max_settlements = 4
 b_pdeme_pdeme = castle
-b_noa_pdeme = temple
-b_gugo_pdeme = city
-b_acina_pdeme = city
+b_tila_pdeme = city
+#b_firka_pdeme = temple
+b_abri_pdeme = temple
+#b_say_pdeme = city
+#b_ballana_pdeme = city
+#b_argin_pdeme = castle
 
 # Misc
 culture = nubian

@@ -6,9 +6,12 @@ title = c_panopolis
 # Settlements
 max_settlements = 4
 b_panopolis_panopolis = castle
-b_selino_panopolis = castle
-b_muthis_panopolis = castle
-b_antaiopolis_panopolis = city
+b_polybiane_panopolis = city
+b_thmoo_panopolis = castle
+b_apa_bsote_panopolis = temple
+#b_anba_bakhum_panopolis = temple
+#b_sadalou_panopolis = city
+#b_ibion_panopolis = city
 
 # Misc
 culture = egyptian

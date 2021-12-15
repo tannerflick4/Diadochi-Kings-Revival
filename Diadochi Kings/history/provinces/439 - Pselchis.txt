@@ -4,14 +4,14 @@
 title = c_pselchis
 
 # Settlements
-max_settlements = 5
+max_settlements = 6
 b_pselchis_pselchis = castle
-b_per_ptah_pselchis = temple
-b_tachompso_pselchis = city
-b_kortia_pselchis = castle
-
-# Possible baronies: (Always add a # in front of a line with these!)
-# b_hierasykaminos_pselchis
+b_hierasykaminos_pselchis = city
+b_kortia_pselchis = city
+#d_talmis_pselchis = city
+#b_tafis_pselchis = city
+b_tzitzis_pselchis = temple
+#b_tutzis_pselchis = temple
 
 # Misc
 culture = nubian

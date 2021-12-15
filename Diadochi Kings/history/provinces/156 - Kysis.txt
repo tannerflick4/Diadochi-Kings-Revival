@@ -4,10 +4,14 @@
 title = c_kysis
 
 # Settlements
-max_settlements = 3
+max_settlements = 4
 b_kysis_kysis = castle
-b_tabennese_kysis = temple
-b_mounesis_kysis = city
+b_pege_sykaminia_kysis = castle
+#b_baris_kysis = city
+b_pmounesis_kysis = temple
+#b_tabennese_kysis = temple
+#b_badaran_kysis = castle
+#b_pakerke_kysis = city
 
 # Misc
 culture = egyptian

@@ -24,8 +24,10 @@ k_cappadocia;Kappadokia;;;;;;;;;;;;;;x
 k_cappadocia_adj;Kappadokian;;;;;;;;;;;;;;x
 k_cappadocia_cappadocian;Katpatuka;;;;;;;;;;;;;;x
 k_cappadocia_cappadocian_adj;Katpatukan;;;;;;;;;;;;;;x
-k_egypt;Kemet;;;;;;;;;;;;;;x
-k_egypt_adj;Kemetic;;;;;;;;;;;;;;x
+k_lower_egypt;Kato Aigyptos;;;;;;;;;;;;;;x
+k_lower_egypt_adj;Kato Aigyptian;;;;;;;;;;;;;;x
+k_upper_egypt;Ano Aigyptos;;;;;;;;;;;;;;x
+k_upper_egypt_adj;Ano Aigyptian;;;;;;;;;;;;;;x
 k_cyrene;Kyrene;;;;;;;;;;;;;;x
 k_cyrene_adj;Kyrenian;;;;;;;;;;;;;;x
 k_assyria;Athura;;;;;;;;;;;;;;x
@@ -261,8 +263,8 @@ k_p_arachosia;Harauvatish;;;;;;;;;;;;;;x
 k_p_arachosia_adj;Arachosian;;;;;;;;;;;;;;x
 k_p_babylon;Babirush;;;;;;;;;;;;;;x
 k_p_babylon_adj;Babylonian;;;;;;;;;;;;;;x
-k_oasis;Oasis;;;;;;;;;;;;;x;
-k_oasis_adj;Oasite;;;;;;;;;;;;;x;
+k_libya;Libye;;;;;;;;;;;;;x;
+k_libya_adj;Libyan;;;;;;;;;;;;;x;
 k_phazania;Phazania;;;;;;;;;;;;;x;
 k_phazania_adj;Phazanian;;;;;;;;;;;;;x;
 k_lusitania;Lusitania;;;;;;;;;;;;;x;
@@ -288,6 +290,6 @@ MEDDIX;Meddix;;;;;;;;;;;;;;x
 ZILACH;Zilach;;;;;;;;;;;;;;x
 UHTUR;Uhtur;;;;;;;;;;;;;;x
 SATRAPY_OF;Satrapy of;;;;;;;;;;;;;;x
-XSHASHAPAVAN;Xshashapavan;;;;;;;;;;;;;;x
 HIGH_PRIEST;High Priest;;;;;;;;;;;x
 HIGH_PRIESTESS;High Priestess;;;;;;;;;;;x
+XSHASHAPAVAN;Xshashapavan;;;;;;;;;;;;;;x

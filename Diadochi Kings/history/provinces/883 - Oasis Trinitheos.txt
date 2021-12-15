@@ -5,11 +5,17 @@ title = c_oasis_trinitheos
 
 # Settlements
 max_settlements = 2
-b_trinitheos_trinitheos = castle
+b_oasis_trinitheos_oasis_trinitheos = tribal
+b_besai_oasis_trinitheos = city
+#b_pokis_oasis_trinitheos = castle
+#b_paploou_oasis_trinitheos = temple
+#b_tmoo_oasis_trinitheos = castle
+#b_terbe_oasis_trinitheos = temple
+#b_berky_oasis_trinitheos = city
 
 # Misc
-culture = egyptian
-religion = kemetic
+culture = berber
+religion = berber_main
 
 # History
 # Can be filled when things change around the province
