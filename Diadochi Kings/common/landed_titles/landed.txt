@@ -19562,7 +19562,7 @@ e_gaul = {
 			color={ 103 198 162 }
 			color2={ 255 255 255 }
 
-			capital = 1227 # Viriodunum
+			capital = 1277 # Viriodunum
 
 			c_viriodunum = {
 				color= { 104 196 165 }

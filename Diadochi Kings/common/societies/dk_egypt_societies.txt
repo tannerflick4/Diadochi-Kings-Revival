@@ -36,21 +36,21 @@ dk_cult_of_ptah = {
 
     society_rank = {
         level = 1
-        limit = 100
+        limit = 50
         startup_limit = 10
         decisions = { } # TODO
     }
 
     society_rank = {
         level = 2
-        limit = 40
+        limit = 20
         startup_limit = 5
         decisions = { } # TODO
     }
 
     society_rank = {
         level = 3
-        limit = 10
+        limit = 5
         startup_limit = 2
         decisions = { } # TODO
     }

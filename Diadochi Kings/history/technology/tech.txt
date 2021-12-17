@@ -161,9 +161,6 @@ technology = {
 technology = {
 	titles = {
 		d_delta
-		d_memphis
-		d_lykopolis
-		d_thebes
 		d_aigyptos_aktaios
 		d_cyrene
 		d_elymians
@@ -196,6 +193,15 @@ technology = {
 		d_gat
 		d_koufra
 		d_kawar
+		d_menelaites
+		d_athribites
+		d_rhinocorura
+		d_memphites
+		d_oxyrhynchites
+		d_lykopolites
+		d_panopolites
+		d_thebais
+		d_syenitis
 	}
 	417 = {
 		military = 1
