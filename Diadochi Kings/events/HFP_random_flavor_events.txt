@@ -1395,6 +1395,10 @@ character_event = { #Meteorite falls
 	trigger = {
 		is_adult = yes
 		
+		ROOT = {
+			government = feudal_government
+		}
+		
 		NOT = {
 			has_character_flag = meteorite_fall
 		}
@@ -1597,6 +1601,115 @@ character_event = {
 	}
 }
 
+
+#Adult ruler losing Groomed/becoming uncouth due to Focus.
+character_event = {
+	id = HFP.20802
+	desc = {
+		text = EVTDESCAHFP20802
+		picture = GFX_evt_mysterious_forest
+		trigger = {
+			has_focus = focus_hunting
+		}
+	}
+	desc = {
+		text = EVTDESCCHFP20802
+		picture = GFX_evt_battle
+		trigger = {
+			has_focus = focus_war
+		}
+	}
+	picture = GFX_evt_battle
+	border = GFX_event_normal_frame_diplomacy
+
+	is_triggered_only = yes
+	
+	only_capable = yes
+	prisoner = no
+	
+	trigger = {
+		is_adult = yes
+		OR = {
+			has_focus = focus_war
+			has_focus = focus_hunting
+		}
+		NOT = {
+			trait = uncouth
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 1.25
+			trait = humble
+		}
+		modifier = {
+			factor = 1.75
+			in_command = yes
+			war = yes
+		}
+		modifier = {
+			factor = 1.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.25
+			is_landed = yes
+		}
+		modifier = {
+			factor = 0.5
+			trait = proud
+		}
+		modifier = {
+			factor = 1.25
+			age = 20
+		}
+		modifier = {
+			factor = 1.25
+			age = 30
+		}
+		modifier = {
+			factor = 1.25
+			age = 40
+		}
+		modifier = { #Trophy Spouse.
+			factor = 0.5
+			is_ruler = no
+			spouse = {
+				real_tier = KING
+			}
+		}
+		modifier = { #Trophy Spouse.
+			factor = 0.25
+			is_ruler = no
+			spouse = {
+				real_tier = EMPEROR
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTAHFP20802
+		trigger = { trait = proud }
+		tooltip_info = proud
+		add_trait = stressed
+		ai_chance = { factor = 10 }
+	}
+	option = {
+		name = EVTOPTBHFP20802
+		if = { 
+			limit = { NOT = { trait = groomed } }
+			add_trait = uncouth
+		}
+		else_if = { 
+			limit = { trait = groomed }
+			remove_trait = groomed
+		}
+		ai_chance = { factor = 100 }
+
+	}
+}
 ###########################################################
 ###########    Deal with Inherited artifacts    ###########
 ###########################################################
