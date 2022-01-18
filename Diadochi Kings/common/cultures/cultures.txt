@@ -7,14 +7,11 @@ thracian_group = {
 		color = { 0.6 0.3 0 }
 
 		male_names = {
-			Abrupolis_Abrupolis Amatokos_Amatokos Bas_Bas Beithys_Beithys Bergaios_Bergaios Berisades_Berisades Boteiras_Boteiras Cersobleptes_Cersobleptes 
-			Cetriporis_Cetriporis Cosingas_Cosingas Cothelas Cotys_Cotys Diegylis_Diegylis Doedalses_Doedalses Dromichaetes_Dromichaetes Etazeta_Etazeta Getas_Getas 
-			Hebryzelmis_Hebryzelmis Langarus_Langarus Olorus_Olorus Pleurates_Pleurates Pleuratus_Pleuratus Rabocentus_Rabocentus Raiskoyporis_Raiskoyporis Raizdos_Raizdos 
-			Rhescuporis_Rhescuporis Rhoemetalces_Rhoemetalces Roigos_Roigos Sadalas_Sadalas Seuthes_Seuthes Sitalces_Sitalces Sparatocos_Sparatocos Syrmus_Syrmus 
-			Teres_Teres Ziaelas_Ziaelas Zibelmius_Zibelmius Zipoetes_Zipoetes Ziselmius_Ziselmius Zisemis_Zisemis        
+			Apphous Doidalsas Papias Papianos Agenos Apphoutianos Bas Babas Bobas Eias Kotion Koukhoulinos Tibeios Tos Aphous Deouas Dedes Emmonios Maes Maras 
+			Papas Paparion Tadous Tatas Boteiras Prusias Ziaelas Zipoetes
 		}
 		female_names = {
-			Pythodoris_Pythodoris Sura_Sura Tryphaena_Tryphaena        
+			Anna Apphe Eia Ammia Appas Appha Aphe Ia Lala Lilla Manikhon Nia Papia Tata Babeis Dada Koula Lillia Mama Mania Ninia Sousa Etazeta
 		}
   
 		from_dynasty_prefix = "of "
@@ -26,15 +23,18 @@ thracian_group = {
 		color = { 0 0.4 0.5 }
 
 		male_names = {
-			Abrupolis_Abrupolis Adrastus Amatokos_Amatokos Bas_Bas Beithys_Beithys Bergaios_Bergaios Berisades_Berisades Boteiras_Boteiras 
-			Cersobleptes_Cersobleptes Cetriporis_Cetriporis Cosingas_Cosingas Cotys_Cotys Diegylis_Diegylis Doedalses_Doedalses Dromichaetes_Dromichaetes Etazeta_Etazeta 
-			Getas_Getas Gordias Hebryzelmis_Hebryzelmis Langarus_Langarus Midas Olorus_Olorus Pleurates_Pleurates Pleuratus_Pleuratus 
-			Rabocentus_Rabocentus Raiskoyporis_Raiskoyporis Raizdos_Raizdos Rhescuporis_Rhescuporis Rhoemetalces_Rhoemetalces Roigos_Roigos Sadalas_Sadalas Seuthes_Seuthes 
-			Sitalces_Sitalces Sparatocos_Sparatocos Syrmus_Syrmus Teres_Teres Ziaelas_Ziaelas Zibelmius_Zibelmius Zipoetes_Zipoetes Ziselmius_Ziselmius 
-			Zisemis_Zisemis        
+			Abrupolis Adaios Amadokos Barsabas Bas Bastakiles Beithys Bendidoros Bendiphanes Bergaios Berisades Boteiras Brinkainos Brinkazis 
+			Bryzos Byzas Chales Dentupes Desakenthos Diazelmis Diazenis Diegylis Diopus Diospuris Disloias Dizapes Dizapor Doidalses Drenis 
+			Dromichaites Ebar Eptaikenthos Eptaper Eptaporis Eptarys Eptenis Eptezenis Etazeta Ezbenis Gaidres Gerys Getas Hebryzelmis Iolaos 
+			Karsis Kerses Kersobleptes Ketriporis Kodzimasis Kosingas Kotys Langaros Maisades Medistas Medokos Miltokythes Monounios Mopsyestis 
+			Mostis Mukaburis Mukakenthos Mukapaibes Mukaporis Mukapuis Mukas Mukazeis Mukazenis Odroes Odryses Oloros Poles Pleurates Pleuratos 
+			Pytros Rekiper Rhabokenthos Rhaizdos Rhaskos Rhaskuporis Rhebulas Rhesos Rhoigos Sadalas Sadokos Saradokos Satres Sautes Seuthes 
+			Seusas Sezas Sitalkes Sitas Skaris Skilas Skostokos Sparadokos Spartokos Spokes Sroios Syrmos Taroulas Taroutinas Teres Zykolaises 
+			Ziailas Zibelmios Ziles Zipaibes Ziper Zipoetes Zipyron Ziselmis Zoltes
 		}
 		female_names = {
-			Eurynome Pythodoris_Pythodoris Sura_Sura Tryphaena_Tryphaena        
+			Abrotonon Bendidora Daizo Dentysykos Dentystaina Diasokos Dida Dinentilla Eptesuchis Eptipos Ettela Gepaipyris Hegesipyle Kerza
+			Kerzula Kortozous Makris Mania Muka Mukasokos Paibine Pythodoris Rheskutorme Rhodopis Sura Tilezypta Torkula Tryphaina Zaikadenthe
 		}
   
 		from_dynasty_prefix = "of "
@@ -44,16 +44,13 @@ thracian_group = {
 		color = { 0.4 0.2 0.1 }
 
 		male_names = {
-			Bastiza Bikilis Brasus Burebista Comosicus Cotiso Dablosa Daizus 
-			Damanais Dapyg Dardanos Decaeneus Decebalus Dicomes Diegis Diurpaneus 
-			Driglisa Dromichaetes Komakiza Komozoi Mucapor Mucatra Natoporus Oroles 
-			Petoporus Pieporus Rescuturme Rigozus Scorylo Tarbus Thiamarkos Tiati 
-			Tsinna Tsiru Vezina Zyraxes        
+			Apphous Doidalsas Papias Papianos Agenos Apphoutianos Bas Babas Bobas Eias 
+			Kotion Koukhoulinos Tibeios Tos Aphous Deouas Dedes Emmonios Maes Maras 
+			Papas Paparion Tadous Tatas Boteiras Prusias Ziaelas Zipoetes
 		}
 		female_names = {
-			Brasia Comosia Cotisa Daiza Damanaia Dardana Diegia Diurpanea 
-			Komozia Natopora Orola Petopora Piepora Scoryla Tarba Vezineia 
-			Zia Zyraxa        
+			Anna Apphe Eia Ammia Appas Appha Aphe Ia Lala Lilla Manikhon Nia Papia 
+			Tata Babeis Dada Koula Lillia Mama Mania Ninia Sousa Etazeta
 		}
   
 		from_dynasty_prefix = "of "
@@ -670,18 +667,16 @@ iranian = {
 		color = { 0.9 0 0.3 }
   
 		male_names = {
-			Ardumanish_Ardumanish Ariyabrdhna_Ariyabrdhna Ariyamna_Ariyamna Arshaka_Arshaka Arshama_Arshama Artavardiya_Artavardiya Artaxshasa_Artaxshasa Arxa_Arkha 
-			Aryawratha_Aryawratha Asina_Asina Aspacanah_Aspacanah Atamaita_Atamaita Athiyabaushna_Athiyabaushna Aturpat_Aturpat Bagabigna_Bagabigna Bagabuxsha_Bagabuxsha 
-			Bardiya_Bardiya Cincixri_Cincixri Cisantaxma_Cisantaxma Cishpi_Cishpi Dadarshi_Dadarshi Darayavahu_Darayavahu Datuvahya_Datuvahya Frada_Frada 
-			Fravarti_Fravarti Gaubaruva_Gaubaruva Haldita_Haldita Haxamanish_Haxamanish Imanish_Imanish Kambuyija_Kambuyija Kuru_Kuru Marduniya_Marduniya 
-			Martiya_Martiya Mithradatha_Mithridates Pharsman_Pharasmanes Phrataphernes_Phrataphernes Taxmaspada_Taxmaspada Thuxra_Thuxra Upadarma_Upadarma Utana_Utana Uvaxshtra_Uvaxshtra Vahauka_Vahauka Vahumisa_Vahumisa 
-			Vahyavishdapaya_Vahyavishdapaya Vahyazdata_Vahyazdata Vayaspara_Vayaspara Vindafarnah_Vindafarnah Vindarna_Vindarna Vishtaspa_Vishtaspa Xshathrita_Xshathrita Xshayarshan_Xshayarshan 
+			Ardumanish Ariyabrdhna Ariyamna Arshaka Arshama Artavardiya Artaxshasa Arxa 
+			Aryawratha Asina Aspacanah Atamaita Athiyabaushna Aturpat Bagabigna Bagabuxsha 
+			Bardiya Cincixri Cisantaxma Cishpi Dadarshi Darayavahu Datuvahya Frada 
+			Fravarti Gaubaruva Haldita Haxamanish Imanish Kambuyija Kuru Marduniya 
+			Martiya Mithradatha Pharsman Phrataphernes Taxmaspada Thuxra Upadarma Utana Uvaxshtra Vahauka Vahumisa		Vahyavishdapaya Vahyazdata Vayaspara Vindafarnah Vindarna Vishtaspa Xshathrita Xshayarshan
 		}
 		female_names = {
-			Asabana_Asabana Artacama Barsine_Barsine Dughdho-Va_Dughdho-Va Eredat-Fedhri_Eredat-Fedhri Franghad_Franghad Frenay_Frenay Huchithra_Huchithra Humaya_Humaya 
-			Hutaosa_Hutaosa Hvaredhay_Hvaredhay Hvovi_Hvovi Jagkrut_Jagkrut Kanuka_Kanuka Paesanghanu_Paesanghanu Pouruchista_Pouruchista Srutat-Fedhri_Srutat-Fedhri 
-			Thriti_Thriti Tushnamatay_Tushnamatay Urudhayant_Urudhayant Ushtavaiti_Ushtavaiti Uxshenti_Uxshenti Vadhut_Vadhut Vanghu-Fedhri_Vanghu-Fedhri Vispa-Thaurvo-Ashtray_Vispa-Thaurvo-Ashtray 
-			Zairichi_Zairichi       
+			Asabana Artacama Barsine Dughdho-Va Eredat-Fedhri Franghad Frenay Huchithra Humaya 
+			Hutaosa Hvaredhay Hvovi Jagkrut Kanuka Paesanghanu Pouruchista Srutat-Fedhri
+			Thriti Tushnamatay Urudhayant Ushtavaiti Uxshenti Vadhut Vanghu-Fedhri Zairichi
 		}
   
 		from_dynasty_prefix = "of "
@@ -1321,39 +1316,39 @@ hellenic = {
 		color = { 0.4 0.8 0.8 }
 
 		male_names = {
-			Achaios_Achaios Adeimantos_Adeimantos Agapetos_Agapetos Agathon_Agathon Ainesidemos_Ainesidemos Aischines_Aischines Aischylos_Aischylos Aisopos_Aisopos Akakios_Akakios Akron_Akron Alexandros_Alexandros 
-			 Alexis_Alexis Alkaios_Alkaios Alkiphron_Alkiphron Ambrosios_Ambrosios Ampelios_Ampelios Amyntas_Amyntas 
-		 Anaxagoras_Anaxagoras Anaxilas_Anaxilas Anaximenes_Anaximenes Androkles_Androkles Andronikos_Andronikos Androtion_Androtion Antiphon_Antiphon Aphrodisios_Aphrodisios Apollodoros_Apollodoros Apollonios_Apollonios
-			Araros_Araros Archelaos_Archelaos Archimedes_Archimedes Archippos_Archippos Argyros_Argyros Aristarchos_Aristarchos Aristeides_Aristeides Aristogeiton_Aristogeiton Aristokles_Aristokles 
-			Ariston_Ariston Aristophanes_Aristophanes Aristoteles_Aristoteles Arkadios_Arkadios Arkesilas_Arkesilas Arkesios_Arkesios Arsenios_Arsenios Artemidoros_Artemidoros Asklepiades_Asklepiades 
-		Atrtemisios_Atrtemisios Basileios_Basileios Bion_Bion Chariton_Chariton Chrysanthos_Chrysanthos Damasias_Damasias Dareios_Dareios 
-			Demetrios_Demetrios Demokritos_Demokritos Demosthenes_Demosthenes Dexippos_Dexippos Diodorus_Diodorus Diodotos_Diodotos Diogenes_Diogenes Diokles_Diokles Dionysodoros_Dionysodoros 
-			Drakon_Drakon Eirenaios_Eirenaios Ekphantos_Ekphantos Epaminondas_Epaminondas Epaphroditos_Epaphroditos Epikouros_Epikouros Epiktetos_Epiktetos Epilykos_Epilykos Erasistratos_Erasistratos Eratosthenes_Eratosthenes Euaristos_Euaristos Euboulos_Euboulos Eudoxos_Eudoxos
-			Eukleides_Eukleides Euktemon_Euktemon Eumenes_Eumenes Euphemios_Euphemios Euphranor_Euphranor Euripides_Euripides Eusebios_Eusebios Eustathios_Eustathios 
-			Eutychios_Eutychios Eutychos_Eutychos Galenos_Galenos Gelon_Gelon Glaukon_Glaukon Harmodios_Harmodios Heliodoros_Heliodoros Herakleitos_Herakleitos 
-			Hermias_Hermias Hermogenes_Hermogenes Hermokrates_Hermokrates Hermolaos_Hermolaos Herodes_Herodes Herodotus_Herodotus Heron_Heron Hesiod_Hesiod 
-			Hiketas_Hiketas Hieron_Hieron Hieronymos_Hieronymos Hippalos_Hippalos Hipparchos_Hipparchos Hippokrates_Hippokrates Hippolytos_Hippolytos Hipponax_Hipponax Homeros_Homeros Hyakinthos_Hyakinthos Hypsikles_Hypsikles 
-			Hypatos_Hypatos Iason_Iason Ion_Ion Iphikrates_Iphikrates Isagoras_Isagoras Isidoros_Isidoros Isokrates_Isokrates Kallias_Kallias Kallikrates_Kallikrates Kallisthenes_Kallisthenes Kallistos_Kallistos Karneades_Karneades 
-			Kassandros_Kassandros Kephalos_Kephalos Kleisthenes_Kleisthenes Kleitos_Kleitos Kleon_Kleon Konon_Konon Kylon_Kylon Kyros_Kyros Laomedon_Laomedon 
-			Leon_Leon Leukon_Leukon Linos_Linos Loukianos_Loukianos Lykourgos_Lykourgos Lysandros_Lysandros Lysimachos_Lysimachos Mantitheos_Mantitheos Megakles_Megakles Menexenos_Menexenos Menon_Menon Metrodoros_Metrodoros Miltiades_Miltiades 
-			Myron_Myron Neophytos_Neophytos Nikandros_Nikandros Nikanor_Nikanor Nikephoros_Nikephoros Nikias_Nikias Nikolaos_Nikolaos Nikomachos_Nikomachos Nikomedes_Nikomedes Nikokreon_Nikokreon 
-			Olympiodoros_Olympiodoros Ophellas_Ophellas Pankratios_Pankratios Pantaleon_Pantaleon Parmenion_Parmenion Pausanias_Pausanias Periandros_Periandros Perikles_Perikles Pheidias_Pheidias Philandros_Philandros Philokrates_Philokrates Phokion_Phokion
-			Platon_Platon Ploutarchos_Ploutarchos Praxiteles_Praxiteles Prodikos_Prodikos Sokrates_Sokrates Solon_Solon Sosigenes_Sosigenes Stilpon_Stilpon 
-			Straton_Straton Themistokles_Themistokles Theodoros_Theodoros Theodosios_Theodosios Theodotos_Theodotos Theophanes_Theophanes Theron_Theron Thrasyboulos_Thrasyboulos
-			Tychon_Tychon Xenon_Xenon Xenophon_Xenophon Zephyros_Zephyros Zeuxidamas_Zeuxidamas        
+			Achaios Adeimantos Agapetos Agathon Ainesidemos Aischines Aischylos Aisopos Akakios Akron Alexandros 
+			Alexis Alkaios Alkiphron Ambrosios Ampelios Amyntas 
+			Anaxagoras Anaxilas Anaximenes Androkles Andronikos Androtion Antiphon Aphrodisios Apollodoros Apollonios
+			Araros Archelaos Archimedes Archippos Argyros Aristarchos Aristeides Aristogeiton Aristokles 
+			Ariston Aristophanes Aristoteles Arkadios Arkesilas Arkesios Arsenios Artemidoros Asklepiades 
+			Atrtemisios Basileios Bion Chariton Chrysanthos Damasias Dareios 
+			Demetrios Demokritos Demosthenes Dexippos Diodoros Diodotos Diogenes Diokles Dionysodoros 
+			Drakon Eirenaios Ekphantos Epaminondas Epaphroditos Epikouros Epiktetos Epilykos Erasistratos Eratosthenes Euaristos Euboulos Eudoxos
+			Eukleides Euktemon Eumenes Euphemios Euphranor Euripides Eusebios Eustathios 
+			Eutychios Eutychos Galenos Gelon Glaukon Harmodios Heliodoros Herakleitos 
+			Hermias Hermogenes Hermokrates Hermolaos Herodes Herodotus Heron Hesiod 
+			Hiketas Hieron Hieronymos Hippalos Hipparchos Hippokrates Hippolytos Hipponax Homeros Hyakinthos Hypsikles 
+			Hypatos Iason Ion Iphikrates Isagoras Isidoros Isokrates Kallias Kallikrates Kallisthenes Kallistos Karneades 
+			Kassandros Kephalos Kleisthenes Kleitos Kleon Konon Kylon Kyros Laomedon 
+			Leon Leukon Linos Loukianos Lykourgos Lysandros Lysimachos Mantitheos Megakles Menexenos Menon Metrodoros Miltiades 
+			Myron Neophytos Nikandros Nikanor Nikephoros Nikias Nikolaos Nikomachos Nikomedes Nikokreon 
+			Olympiodoros Ophellas Pankratios Pantaleon Parmenion Pausanias Periandros Perikles Pheidias Philandros Philokrates Phokion
+			Platon Ploutarchos Praxiteles Prodikos Sokrates Solon Sosigenes Stilpon 
+			Straton Themistokles Theodoros Theodosios Theodotos Theophanes Theron Thrasyboulos
+			Tychon Xenon Xenophon Zephyros Zeuxidamas		
 		}
 		female_names = {
-			Adrasteia_Adrasteia Agathe_Agathe Aglaia_Aglaia Alexandra_Alexandra Alkippe_Alkippe Amastris_Amastris Anthousa_Anthousa Antigone_Antigone Aphrodisia_Aphrodisia 
-			Apollonia_Apollonia Aristomache_Aristomache Arsinoe_Arsinoe Artemisia_Artemisia Aspasia_Aspasia Athanasia_Athanasia Athenais_Athenais Berenike_Pherenike Charis_Charis 
-			Charmion_Charmion Chloe_Chloe Chrysanthe_Chrysanthe Demetria_Demetria Demostrate_Demostrate Eirene_Eirene Elpis_Elpis Euanthe_Euanthe 
-			Eudokia_Eudokia Eudoxia_Eudoxia Eugeneia_Eugeneia Eulalia_Eulalia Eumelia_Eumelia Eunike_Eunike Euphemia_Euphemia Euphrasia_Euphrasia 
-			Eupraxia_Eupraxia Eurydike_Eurydike Euthalia_Euthalia Euthymia_Euthymia Eutropia_Eutropia Eutychia_Eutychia Gaiane_Gaiane Galene_Galene Hagne_Hagne 
-			Helene_Helene Hypatia_Hypatia Isidora_Isidora Kallisto_Kallisto Kallistrate_Kallistrate Kassandra_Kassandra Korinna_Korinna Laodike_Laodike Ligeia_Ligeia 
-			Lysandra_Lysandra Lysistrate_Lysistrate Melissa_Melissa Metrodora_Metrodora Myrrine_Myrrine Nikaia_Nikaia Nike_Nike Olympias_Olympias Pelagia_Pelagia 
-			Phila_Phila Phoibe_Phoibe Photine_Photine Ptolemais_Ptolemais Rhode_Rhode Roxane_Roxane Sappho_Sappho Sophia_Sophia 
-			Sostrate_Sostrate Stratonike_Stratonike Syntyche_Syntyche Thais_Thais Theodora_Theodora Theodosia_Theodosia Theokleia_Theokleia Theophania_Theophania Thessalonike_Thessalonike
-			Timo_Timo Timothea_Timothea Tryphaina_Tryphaina Tryphosa_Tryphosa Xanthe_Xanthe Xanthippe_Xanthippe Xenia_Xenia Xeno_Xeno 
-			Zenais_Zenais Zenobia_Zenobia Zoe_Zoe Zosime_Zosime                
+			Adrasteia Agathe Aglaia Alexandra Alkippe Amastris Anthousa Antigone Aphrodisia 
+			Apollonia Aristomache Arsinoe Artemisia Aspasia Athanasia Athenais Berenike Charis 
+			Charmion Chloe Chrysanthe Demetria Demostrate Eirene Elpis Euanthe 
+			Eudokia Eudoxia Eugeneia Eulalia Eumelia Eunike Euphemia Euphrasia 
+			Eupraxia Eurydike Euthalia Euthymia Eutropia Eutychia Gaiane Galene Hagne 
+			Helene Hypatia Isidora Kallisto Kallistrate Kassandra Korinna Laodike Ligeia 
+			Lysandra Lysistrate Melissa Metrodora Myrrine Nikaia Nike Olympias Pelagia 
+			Phila Phoibe Photine Ptolemais Rhode Roxane Sappho Sophia 
+			Sostrate Stratonike Syntyche Thais Theodora Theodosia Theokleia Theophania Thessalonike
+			Timo Timothea Tryphaina Tryphosa Xanthe Xanthippe Xenia Xeno 
+			Zenais Zenobia Zoe Zosime				
 		}
   
 		from_dynasty_prefix = "of "
