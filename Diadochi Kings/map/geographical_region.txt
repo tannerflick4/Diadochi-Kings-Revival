@@ -14,25 +14,25 @@
 world_europe_west_brittania = {
 	duchies = {
 		#NOTE NEEDS CHANGED WHEN BRITAIN CODED
-		d_gallia_transalpina d_gallia_inter_fluvio d_gallia_lugdunensis d_helvetia d_raetia d_alpes_cottiae d_alpes_poeninae d_alpes_vennonae d_alpes_raetica
+		d_gallia_transalpina d_gallia_inter_fluvio d_gallia_lugdunensis d_helvetii d_raetia d_alpes_cottiae d_alpes_poeninae d_alpes_vennonae d_alpes_raetica
 	}
 }
 world_europe_west_germania = {
 	duchies = {
 		#NOTE NEEDS CHANGED WHEN GERMANIA CODED
-		d_gallia_transalpina d_gallia_inter_fluvio d_gallia_lugdunensis d_helvetia d_raetia d_alpes_cottiae d_alpes_poeninae d_alpes_vennonae d_alpes_raetica
+		d_gallia_transalpina d_gallia_inter_fluvio d_gallia_lugdunensis d_helvetii d_raetia d_alpes_cottiae d_alpes_poeninae d_alpes_vennonae d_alpes_raetica
 	}
 }
 world_europe_west_francia = {
 	duchies = {
 		#NOTE NEEDS CHANGED WHEN GAUL CODED
-		d_gallia_transalpina d_gallia_inter_fluvio d_gallia_lugdunensis d_helvetia d_raetia d_alpes_cottiae d_alpes_poeninae d_alpes_vennonae d_alpes_raetica
+		d_gallia_transalpina d_gallia_inter_fluvio d_gallia_lugdunensis d_helvetii d_raetia d_alpes_cottiae d_alpes_poeninae d_alpes_vennonae d_alpes_raetica
 	}
 }
 world_europe_west_iberia = {
 	duchies = {
 		#Kingdom of Iberia
-		d_sicoria d_cessetania d_laetania d_edetania d_contestania d_bastetania d_baliares 
+		d_sicoria d_cessetania d_lacetani d_edetania d_contestania d_bastetania d_baliares 
 		#k_turdetania
 		d_tartessos d_turdulia d_turdetania d_bastulia 
 		#k_hispa
@@ -59,7 +59,7 @@ world_europe_south_east = {
 		#Greece
 		d_peloponnese d_attike d_aetolia d_crete d_euboia d_cyclades d_ionian_islands d_thessaly d_chalcidice 
 		#Epirus
-		d_epirus 
+		d_epirus_mountains d_epirus_sea
 		#Macedonia
 		d_lowermacedon d_uppermacedon 
 		#Illyria
