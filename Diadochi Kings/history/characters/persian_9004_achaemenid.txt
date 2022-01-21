@@ -240,6 +240,7 @@
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
+	father = 90328
 	
 	add_trait = duelist
 	add_trait = tough_soldier
@@ -327,12 +328,13 @@
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
+	father = 90329
 	
 	add_trait = ambitious
 	add_trait = proud
 	add_trait = deceitful
 	
-	400.1.1 = { # 376 BC made up
+	420.1.1 = { # 356 BC made up
 		birth="yes"
 	}
 	447.7.1 = { # 329 BC
@@ -398,6 +400,64 @@
 		birth="yes"
 	}
 	449.1.1 = { # 327 BC made up
+		death="yes"
+	}
+}
+90326 = {
+	name = "Kuru" # Cyrus the Younger, Satrap of Asia Minor after 408 BC
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	father = 90310
+	352.1.1 = { # 424 BC
+		birth="yes"
+	}
+	375.1.1 = { # 401 BC
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+90327 = {
+	name = "Artostes" # Youngest son of Darius II
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	father = 90310
+	358.1.1 = { # 418 BC Made up
+		birth="yes"
+	}
+	418.1.1 = { # 358 BC Made up
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+90328 = {
+	name = "Arshama" # Prince Arsames
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	father = 90327
+	376.1.1 = { # 400 BC Made up
+		birth="yes"
+	}
+	418.1.1 = { # 358 BC Made up
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+90329 = {
+	name = "Vaxsuvarda" # Oxyathres, respected brother of Darius III
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	father = 90328
+	399.1.1 = { # 377 BC Made up
+		birth="yes"
+	}
+	467.1.1 = { # 309 BC Made up
 		death="yes"
 	}
 }

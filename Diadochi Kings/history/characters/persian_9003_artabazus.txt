@@ -57,10 +57,11 @@
 }
 90204 = {
 	name = "Amastris" # Amastris, wife of Lysimachus
-	dynasty = 9003 # Artabazus
+	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
 	female = yes
+	father = 90329
 	435.1.1 = { # Made up
 		birth="yes" # 341 BC
 	}
