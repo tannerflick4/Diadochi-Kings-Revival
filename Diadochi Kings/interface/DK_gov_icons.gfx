@@ -8,6 +8,10 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\government_icon_satrap.tga"
 	}
 	spriteType = {
+		name = "GFX_icon_priesthood_government"
+		texturefile = "gfx\\interface\\government_icon_priesthood_government.tga"
+	}
+	spriteType = {
 		name = "GFX_charframe_150_satrap"
 		texturefile = "gfx\\interface\\charframe_150_satrap.tga"
 		noOfFrames = 6
