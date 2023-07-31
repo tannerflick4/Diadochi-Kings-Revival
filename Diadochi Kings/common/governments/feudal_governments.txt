@@ -95,6 +95,7 @@ feudal_governments = {
 				}
 			}
 			NOT = { is_government_potential = roman_imperial_government }
+			NOT = {	religion_group = egyptian_religion	}
 			is_patrician = no
 		}
 		
@@ -146,7 +147,7 @@ feudal_governments = {
 		frame_suffix = "_satrap"
 		title_prefix = "satrap_"
 		
-		color = { 91 133 207 }
+		color = { 141 172 186 }
 		
 		dukes_called_kings = yes
 		barons_need_dynasty = yes
@@ -239,5 +240,68 @@ feudal_governments = {
 		can_be_granted_kingdoms_and_empires_by_other_government = no
 		can_inherit = no
 		free_retract_vassalage = yes
+	}
+	
+	egyptian_government = {
+		preferred_holdings = { CASTLE }
+		allowed_holdings = { 
+			CASTLE
+			TEMPLE
+			FORT
+			HOSPITAL
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			TRIBAL
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+		}
+		free_revoke_on_governments_religion = { # Feudal vassals of other religions can have their titles revoked for free
+			feudal_government
+		}
+		vassal_call_to_arms = {
+			tribal_government
+		}
+		frame_suffix = "_iqta"
+		potential = {
+			OR = {
+				controls_religion = no
+				religion_group = egyptian_religion
+				has_religion_feature = religion_temporal_head
+				AND = {
+					religion = norse_pagan_reformed
+					has_religion_features = no # Old saves, and campaigns without HF, need the Fylkirate to continue working
+				}
+			}
+			religion_group = egyptian_religion
+			NOT = { is_government_potential = roman_imperial_government }
+			NOT = { is_government_potential = order_government }
+			NAND = { 
+				tier = EMPEROR
+				primary_title = { has_title_flag = pretender_chinese_empire }
+				OR = {
+					culture_group = chinese_group
+					culture = khitan
+					culture = tangut
+					culture = jurchen
+					has_character_flag = chinese_imperial_government_preserve
+				}
+			}
+			is_patrician = no
+		}
+		
+		color = { 255 153 0 }
+		
+		uses_piety_for_law_change = yes
+		free_retract_vassalage = yes
+
+		can_build_tribal = no
+		
+		ignore_in_vassal_limit_calculation = {
+			tribal_government
+		}
+		capital_move_delay = 600
+
+		## Modifiers
+		court_size_modifier = 10
 	}
 }
