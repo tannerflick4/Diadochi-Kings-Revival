@@ -143,6 +143,9 @@
 	441.1.1 = { # 335 BC
 		effect = { add_weak_claim = e_egypt }
 	}
+	455.1.1 = { #331 BCE
+		add_spouse = 350067 #Neferibre III of the 26th Dynasty
+	}
 	505.1.1 = { # 271 BC
 		death="yes"
 	}

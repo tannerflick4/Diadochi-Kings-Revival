@@ -46,10 +46,10 @@
 	holder = 350142 # Amyrtaeus of the Memphorib
 }
 386.1.1 = { # 390 BC
-	holder = 350143 # Seti of the Memphorib
+	holder = 350065 # Psamtik Men of Egypt
 }
-421.1.1 = { # 355 BC
-	holder = 350144 # Kanefer of the Memphorib
+399.1.1 = { # 386 BC
+	holder = 350066 # Neferibre II of Egypt
 }
 435.1.1 = {
 	liege = k_p_egypt
@@ -57,17 +57,14 @@
 438.1.1 = { # 338 BC
 	liege = k_lower_egypt
 }
+439.1.1 = { # 337 BC
+	holder = 350067 # Neferibre III of Egypt
+}
 441.1.1 = { # 335 BC
 	liege = k_p_egypt
 }
 446.1.1 = { # 330 BC
 	liege = k_s_egypt
-}
-447.1.1 = { # 329 BC
-	holder = 350145 # Penthu of the Memphorib
-}
-454.1.1 = { # 322 BC
-	holder = 350146 # Panehesy of the Memphorib
 }
 467.1.1 = {
 	liege = e_egypt

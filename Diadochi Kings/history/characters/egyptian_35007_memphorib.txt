@@ -283,10 +283,11 @@
 	}
 }
 350143 = {
-	name = "Seti"
+	name = "Nefertiti"
 	dynasty = 35007
 	religion = kemetic
 	culture = egyptian
+	female = yes
 
 	father = 350142
 
@@ -303,7 +304,7 @@
 	religion = kemetic
 	culture = egyptian
 
-	father = 350143
+	mother = 350143
 
 	386.1.1 = { # 390 BC
 		birth="yes"
@@ -328,17 +329,20 @@
 	}
 }
 350146 = {
-	name = "Panehesy"
+	name = "Renpet-neferet" #Historical Character
 	dynasty = 35007
-	religion = kemetic
 	culture = egyptian
-
+	religion = kemetic
+	female = yes
 	father = 350145
 
-	444.1.1 = { # 332 BC
+	452.1.1 = { #324 BCE, made up
 		birth="yes"
 	}
-	505.1.1 = { # 271 BC
+	478.1.1 = { #308 BCE, made up
+		add_spouse = 350068 #High Priest Anemhor Nesisty
+	}
+	530.1.1 = { #256 BCE, made up
 		death="yes"
 	}
 }

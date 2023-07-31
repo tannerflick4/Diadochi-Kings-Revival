@@ -156,3 +156,114 @@
 		}
 	}
 }
+350061 = {
+	name = "Djedhor" #son of Ahmose son of Psamtik III
+	dynasty = 35004
+	culture = egyptian
+	religion = kemetic
+	father = 350053
+	252.1.1 = { #524 BCE, made up
+		birth="yes"
+	}
+	301.1.1 = { #475 BCE, made up 
+		death="yes"
+	}
+}
+350062 = {
+	name = "Neferibre" #son of Djedhor
+	dynasty = 35004
+	culture = egyptian
+	religion = kemetic
+	father = 350061
+	283.1.1 = { #503 BCE, made up
+		birth="yes"
+	}
+	340.1.1 = { #446 BCE, made up 
+		death="yes"
+	}
+}
+350063 = {
+	name = "Anemhor" #son of Neferibre
+	dynasty = 35004
+	culture = egyptian
+	religion = kemetic
+	father = 350062
+	309.1.1 = { #477 BCE, made up
+		birth="yes"
+	}
+	371.1.1 = { #415 BCE, made up 
+		death="yes"
+	}
+}
+350064 = {
+	name = "Petehorendjatef" #son of Anemhor
+	dynasty = 35004
+	culture = egyptian
+	religion = kemetic
+	father = 350063
+	329.1.1 = { #457 BCE, made up
+		birth="yes"
+	}
+	401.1.1 = { #385 BCE, made up 
+		death="yes"
+	}
+}
+350065 = {
+	name = "Psamtik" #son of Petehorendjatef
+	dynasty = 35004
+	culture = egyptian
+	religion = kemetic
+	father = 350064
+	348.1.1 = { #438 BCE, made up
+		birth="yes"
+	}
+	399.1.1 = { #386 BCE, made up 
+		death="yes"
+	}
+}
+350066 = {
+	name = "Neferibre" #son of Psamtik
+	dynasty = 35004
+	culture = egyptian
+	religion = kemetic
+	father = 350065
+	365.1.1 = { #421 BCE, made up
+		birth="yes"
+	}
+	439.1.1 = { #348 BCE, made up 
+		death="yes"
+	}
+}
+350067 = {
+	name = "Neferibre" #son of Neferibre
+	dynasty = 35004
+	culture = egyptian
+	religion = kemetic
+	father = 350066
+	403.1.1 = { #383 BCE, made up
+		birth="yes"
+	}
+	455.1.1 = { #331 BCE, made up
+		add_spouse = 350008 #Princess Herib of Egypt
+	}
+	489.1.1 = { #297 BCE, made up 
+		death="yes"
+	}
+}
+350068 = {
+	name = "Anemhor Nesisty" #son of Neferibre
+	dynasty = 35004
+	culture = egyptian
+	religion = kemetic
+	father = 350067
+	mother = 350008
+	456.1.1 = { #330 BCE, made up
+		birth="yes"
+	}
+	478.1.1 = { #308 BCE, made up
+		add_spouse = 350146 #Renpet-neferet
+	}
+	511.1.1 = { #275 BCE, made up
+		death="yes"
+	}
+}
