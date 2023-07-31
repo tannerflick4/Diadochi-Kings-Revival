@@ -242,7 +242,7 @@ feudal_governments = {
 		free_retract_vassalage = yes
 	}
 	
-	egyptian_government = {
+	priesthood_government = {
 		preferred_holdings = { CASTLE }
 		allowed_holdings = { 
 			CASTLE
@@ -261,7 +261,7 @@ feudal_governments = {
 		vassal_call_to_arms = {
 			tribal_government
 		}
-		frame_suffix = "_iqta"
+		frame_suffix = "_priesthood_government"
 		potential = {
 			OR = {
 				controls_religion = no
