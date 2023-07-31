@@ -51,7 +51,7 @@
 	452.1.1 = { # 324 BC
 		add_spouse = 601
 	}
-	454.1.1 = { # 322 BC Made up
+	514.1.1 = { # 262 BC Made up
 		death="yes"
 	}
 }
