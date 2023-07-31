@@ -160,7 +160,6 @@ technology = {
 # Africa
 technology = {
 	titles = {
-		d_delta
 		d_aigyptos_aktaios
 		d_cyrene
 		d_elymians
@@ -183,7 +182,6 @@ technology = {
 		d_hibis
 		d_ammon
 		d_augila
-		d_oasis_parva
 		d_garama
 		d_dedris
 		d_baracum
