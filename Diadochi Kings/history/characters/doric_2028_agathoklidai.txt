@@ -12,6 +12,10 @@
 	
 	415.1.1 = { # Made up
 		birth="yes" # 361 BC
+		create_bloodline = {
+			type = bloodline_agathocles 
+			has_dlc = "Holy Fury"
+		}
 	}
 	487.1.1 = { # Made up
 		death="yes" # 289 BC

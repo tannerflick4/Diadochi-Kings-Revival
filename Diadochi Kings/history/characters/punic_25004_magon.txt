@@ -36,9 +36,10 @@
 	dynasty = 25004 # Magon
 	religion = punic_main
 	culture = punic
-	father = 250304
+	father = 250314
 	410.1.1 = { # 366 BC Made Up
 		birth="yes"
+		
 	}
 	436.1.1 = { # 340 BC
 		death="yes"
@@ -49,10 +50,148 @@
 	dynasty = 25004 # Magon
 	religion = punic_main
 	culture = punic
+	father = 250313
 	389.1.1 = { # 387 BC Made Up
 		birth="yes"
 	}
 	432.1.1 = { # 344 BC Made Up
+		death="yes"
+	}
+}
+250305 = {
+	name = "Magon" # The I
+	dynasty = 25004 # Magon
+	religion = punic_main
+	culture = punic
+	182.1.1 = { # 594 BC Made Up
+		birth="yes"
+		create_bloodline = {
+			type = bloodline_mago
+			has_dlc = "Holy Fury"
+		}
+	}
+	246.1.1 = { # 530 BC
+		death="yes"
+	}
+}
+250306 = {
+	name = "Hasdrubaal" # The I
+	dynasty = 25004 # Magon
+	religion = punic_main
+	culture = punic
+	father = 250305
+	218.1.1 = { # 558 BC Made Up
+		birth="yes"
+	}
+	266.1.1 = { # 510 BC
+		death="yes"
+	}
+}
+250307 = {
+	name = "Hamilket" # The I
+	dynasty = 25004 # Magon
+	religion = punic_main
+	culture = punic
+	father = 250305
+	236.1.1 = { # 540 BC Made Up
+		birth="yes"
+	}
+	296.1.1 = { # 480 BC
+		death="yes"
+	}
+}
+250308 = {
+	name = "Hanno" # The Navigator
+	dynasty = 25004 # Magon
+	religion = punic_main
+	culture = punic
+	father = 250307
+	280.1.1 = { # 496 BC Made Up
+		birth="yes"
+		create_bloodline = {
+			type = bloodline_hanno
+			has_dlc = "Holy Fury"
+		}
+	}
+	336.1.1 = { # 440 BC
+		death="yes"
+	}
+}
+250309 = {
+	name = "Gisco"
+	dynasty = 25004 # Magon
+	religion = punic_main
+	culture = punic
+	father = 250307
+	282.1.1 = { # 494 BC Made Up
+		birth="yes"
+	}
+	338.1.1 = { # 438 BC Made Up
+		death="yes"
+	}
+}
+250310 = {
+	name = "Chimilkat" # Himilco I
+	dynasty = 25004 # Magon
+	religion = punic_main
+	culture = punic
+	father = 250307
+	291.1.1 = { # 585 BC Made Up
+		birth="yes"
+	}
+	366.1.1 = { # 410 BC
+		death="yes"
+	}
+}
+250311 = {
+	name = "Hannibal" # The I
+	dynasty = 25004 # Magon
+	religion = punic_main
+	culture = punic
+	father = 250309
+	313.1.1 = { # 463 BC Made Up
+		birth="yes"
+	}
+	370.1.1 = { # 406 BC
+		death="yes"
+	}
+}
+250312 = {
+	name = "Chimilkat" # Himilco II
+	dynasty = 25004 # Magon
+	religion = punic_main
+	culture = punic
+	father = 250308
+	332.1.1 = { # 444 BC Made Up
+		birth="yes"
+	}
+	380.1.1 = { # 396 BC
+		death="yes"
+	}
+}
+250313 = {
+	name = "Magon" # The II
+	dynasty = 25004 # Magon
+	religion = punic_main
+	culture = punic
+	father = 250312
+	367.1.1 = { # 409 BC Made Up
+		birth="yes"
+	}
+	401.1.1 = { # 375 BC
+		death="yes"
+	}
+}
+250314 = {
+	name = "Bostar"
+	dynasty = 25004 # Magon
+	religion = punic_main
+	culture = punic
+	father = 250308
+	333.1.1 = { # 443 BC Made Up
+		birth="yes"
+	}
+	417.1.1 = { # 359 BC Made Up
 		death="yes"
 	}
 }

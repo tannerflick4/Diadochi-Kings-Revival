@@ -1,6 +1,28 @@
+206.1.1 = {
+	holder = 80007 # Orontes Sakavakyats
+	liege = k_armenia
+}
+216.1.1 = {
+	holder = 80008 # Tigran The Great
+}
+241.1.1 = {
+	holder = 80009 # Vahagn
+}
+261.1.1 = {
+	holder = 80011 # Hydarnes the Elder
+	liege = k_p_armenia
+}
+296.1.1 = {
+	holder = 80012 # Hydarnes the Younger
+}
+348.1.1 = {
+	holder = 80013 # Hydarnes III
+}
+366.1.1 = {
+	holder = 80018 # Artasyrus
+}
 417.1.1 = {
 	holder = 80003 # Orontes
-	liege = k_p_armenia
 }
 432.1.1 = {
 	holder = 90314 # Darius III of Persia

@@ -6,6 +6,10 @@
 	culture = latin
 	396.1.1 = { # 380 BC Made Up
 		birth="yes" 
+		create_bloodline = {
+			type = bloodline_cornelii
+			has_dlc = "Holy Fury"
+		}
 	}
 	480.1.1 = { # 296 BC Made Up
 		death="yes"

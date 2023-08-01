@@ -6,6 +6,10 @@
 	culture = doric
 	396.1.1 = { # 380 BC, made up
 		birth="yes" 
+		create_bloodline = {
+			type = bloodline_agiads
+			has_dlc = "Holy Fury"
+		}
 	}	
 	467.1.1 = { # 309 BC, Natural as there are no causes of death known
 		death="yes" 

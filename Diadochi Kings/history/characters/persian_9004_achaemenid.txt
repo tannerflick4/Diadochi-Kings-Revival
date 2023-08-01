@@ -15,6 +15,10 @@
 	
 	190.1.1 = { # 576 BC
 		birth="yes"
+		create_bloodline = {
+			type = bloodline_cyrus
+			has_dlc = "Holy Fury"
+		}
 	}
 	246.12.1 = { # 530 BC
 		death = {
@@ -86,7 +90,12 @@
 	
 	226.1.1 = { # 550 BC
 		birth="yes"
+		create_bloodline = {
+			type = bloodline_darius
+			has_dlc = "Holy Fury"
+		}
 	}
+	247.1.1 = { add_matrilineal_spouse = 90330 }
 	290.10.1 = { # 486 BC
 		death="yes"
 	}
@@ -97,6 +106,7 @@
 	religion = zoroastrian_main
 	culture = persian
 	father = 90305
+	mother = 90330
 	
 	add_trait = greedy
 	add_trait = zealous
@@ -189,6 +199,9 @@
 	340.1.1 = { # 435 BC
 		birth="yes"
 	}
+	359.1.1 = {
+		add_spouse = 80016
+	}
 	418.1.1 = { # 358 BC
 		death="yes"
 	}
@@ -199,6 +212,7 @@
 	religion = zoroastrian_main
 	culture = persian
 	father = 90311
+	mother = 80016
 	
 	add_trait = tough_soldier
 	add_trait = cruel
@@ -263,6 +277,10 @@
 	culture = persian
 	91.1.1 = { # 685 BC Made up
 		birth="yes"
+		create_bloodline = {
+			type = bloodline_achaemenid
+			has_dlc = "Holy Fury"
+		}
 	}
 	136.1.1 = { # 640 BC
 		death="yes"
@@ -458,6 +476,40 @@
 		birth="yes"
 	}
 	467.1.1 = { # 309 BC Made up
+		death="yes"
+	}
+}
+90330 = {
+	name = "Hutaosa"
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	female = yes
+	father = 90301
+	226.1.1 = { # 550 BC
+		birth="yes"
+	}
+	247.1.1 = { add_matrilineal_spouse = 90305 }
+	301.1.1 = { # 475 BC
+		death="yes"
+	}
+}
+90331 = {
+	name = "Rhodogune"
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	female = yes
+	father = 90311
+	mother = 80016
+	
+	359.1.1 = { # 417 BC Made up
+		birth="yes"
+	}
+	375.1.1 = {
+		add_spouse = 80003
+	}
+	438.9.25 = { # 338 BC
 		death="yes"
 	}
 }

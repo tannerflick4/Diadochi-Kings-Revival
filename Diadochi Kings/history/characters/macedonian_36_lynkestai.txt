@@ -1,29 +1,15 @@
 # 3501-3600 for the Lynkestai dynasty
 3501 = {
-	name = "Arrhabaios" # Arrhabaeus, fought the spartans in 423 BC
+	name = "Arrhabaios" # Arrhabaeus I, king of the Lyncestians during the Peloponnesian war
 	dynasty = 36 # Lynkestai
 	religion = greek_main
 	culture = macedonian
+	father = 3514
 	
 	316.1.1 = { # 460 BC Made up
 		birth="yes"
 	}
 	383.1.1 = { # 393 BC
-		death="yes"
-	}
-}
-3502 = {
-	name = "Airopos" # Made up
-	dynasty = 36 # Lynkestai
-	religion = greek_main
-	culture = macedonian
-
-    father = 3501
-	
-	337.1.1 = { # 439 BC
-		birth="yes"
-	}
-	390.1.1 = { # 386 BC
 		death="yes"
 	}
 }
@@ -40,7 +26,9 @@
 	336.1.1 = { # 440 BC Made up
 		birth="yes"
 	}
-	# Marries Sirras in 423 BC
+	359.1.1 = { # 417 BC, made up
+		add_spouse = 3515 # Sirrhas
+	}
 	379.1.1 = { # 397 BC Made up
 		death="yes"
 	}
@@ -51,7 +39,7 @@
 	religion = greek_main
 	culture = macedonian
 
-    father = 3502
+    father = 3501
 	
 	376.1.1 = { # 400 BC
 		birth="yes"
@@ -72,21 +60,6 @@
 		birth="yes"
 	}
 	446.1.1 = { # 343 BC Made up
-		death="yes"
-	}
-}
-3507 = {
-	name = "Amyntas" # Hipparch of Alexander.
-	dynasty = 36 # Lynkestai
-	religion = greek_main
-	culture = macedonian
-
-    father = 3505
-	
-	407.1.1 = { # 369 BC Made up
-		birth="yes"
-	}
-	473.1.1 = { # 303 BC Made up
 		death="yes"
 	}
 }
@@ -187,5 +160,39 @@
 	}
 	541.1.1 = { # 235 BC
 		death="yes"
+	}
+}
+3514 = {
+	name = "Bromeros"
+	dynasty = 36 # Lynkestai
+	religion = greek_main
+	culture = macedonian
+	
+	281.1.1 = { # 495 BC Made up
+		birth="yes"
+	}
+	340.1.1 = { # 436 BC
+		death="yes"
+	}
+}
+3516 = {
+	name = "Kleopatra" # wife of Perdiccas II and Archelaus
+	female = yes
+	dynasty = 36 # Lynkestai
+	religion = greek_main
+	culture = macedonian
+	trait = trusting # appears to have believed Archelaus' story about her son falling into a well chasing a goose
+	father = 3514 # Bromeros
+	336.1.1 = {
+		birth = yes # 440 BC made up
+	}
+	353.1.1 = { # 423 BC, speculative (possibly part of the peace deal between Perdiccas II and the Lyncestians)
+		add_spouse = 824 # Perdikkas
+	}
+	363.1.1 = { # 413 BC
+		add_spouse = 825 # Archelaos
+	}
+	390.1.1 = {
+		death = yes # 386 BC made up
 	}
 }

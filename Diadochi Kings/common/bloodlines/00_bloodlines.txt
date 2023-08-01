@@ -1,16 +1,430 @@
+bloodline_achaemenid = {
+	monthly_character_prestige = 0.05
+	persian_opinion = 5
+	diplomacy = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodline_argead
+	flags = {
+		historical_bloodline
+	}
+}
+bloodline_aeacidae = {
+	monthly_character_piety = 0.05
+	dynasty_opinion = 5
+	martial = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodline_argead
+	flags = {
+		historical_bloodline
+	}
+}
+bloodline_agathocles = {
+	monthly_character_prestige = -0.05
+	intrigue = 2
+	martial = 3
+	bloodline_effect_murder_stalk = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodline_argead
+	flags = {
+		historical_bloodline
+		bloodline_murder_stalk
+		bloodline_murderous
+	}
+}
+bloodline_agiads = {
+	monthly_character_prestige = 0.05
+	dynasty_opinion = 10
+	martial = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodline_argead
+	flags = {
+		historical_bloodline
+	}
+}
+bloodline_alcmaeonidae = {
+	monthly_character_prestige = 0.05
+	dynasty_opinion = 5
+	stewardship = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodline_argead
+	flags = {
+		historical_bloodline
+		bloodline_alcmaeonidae
+	}
+}
+bloodline_alexander = {
+	monthly_character_prestige = 0.20
+	martial = 5
+	combat_rating = 10
+	bloodline_effect_one_invasion = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodline_argead
+	flags = {
+		historical_bloodline
+		bloodline_great_conquerors
+	}
+}
+bloodline_antigonus = {
+	martial = 3
+	learning = 2
+	bloodline_effect_drill = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodline_argead
+	flags = {
+		historical_bloodline
+		bloodline_drill
+	}
+}
 bloodline_argead = {
-	monthly_character_prestige = 0.25
-	tech_growth_modifier_military = 0.05
-	vassal_opinion = 5
-	macedonian_opinion = 5
+	monthly_character_prestige = 0.05
+	macedonian_opinion = 10
 	combat_rating = 5
 	inheritance = all_descendants
 	allow_bastards = yes
 	picture = GFX_bloodline_argead
 	flags = {
+		historical_bloodline
 		dynastic_claim_e_macedonia
 		dynastic_claim_k_macedon
 		dynastic_claim_d_lowermacedon
 		dynastic_claim_c_pella
+	}
+}
+bloodline_atropates = {
+	stewardship = 3
+	diplomacy = 3
+	bloodline_effect_endearing = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodline_argead
+	flags = {
+		historical_bloodline
+		bloodline_endearing
+	}
+}
+bloodline_brennus = {
+	martial = 3
+	combat_rating = 5
+	bloodline_effect_duel = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodline_argead
+	flags = {
+		historical_bloodline
+		duelist_bloodline
+	}
+}
+bloodline_cassander = {
+	intrigue = 3
+	diplomacy = 2
+	bloodline_effect_dismantle_factions = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodline_argead
+	flags = {
+		historical_bloodline
+		bloodline_dismantle_factions
+	}
+}
+bloodline_chandragupta = {
+	martial = 3
+	stewardship = 3
+	bloodline_effect_great_heroes_appear = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodline_argead
+	flags = {
+		historical_bloodline
+		bloodline_heroes
+	}
+}
+bloodline_cornelii = {
+	diplomacy = 1
+	dynasty_opinion = 10
+	monthly_character_prestige = 0.05
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodline_argead
+	flags = {
+		historical_bloodline
+	}
+}
+bloodline_cyrus = {
+	stewardship = 3
+	diplomacy = 3
+	bloodline_effect_dynastic_meddling = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodline_argead
+	flags = {
+		historical_bloodline
+		bloodline_dynastic_meddling
+	}
+}
+bloodline_darius = {
+	martial = 3
+	stewardship = 3
+	bloodline_effect_architect = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodline_argead
+	flags = {
+		historical_bloodline
+		bloodline_architect
+	}
+}
+bloodline_demosthenes = {
+	diplomacy = 4
+	learning = 2
+	bloodline_effect_faster_dissent = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodline_argead
+	flags = {
+		historical_bloodline
+		bloodline_faster_dissent
+	}
+}
+bloodline_fabii = {
+	stewardship = 1
+	dynasty_opinion = 10
+	monthly_character_prestige = 0.05
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodline_argead
+	flags = {
+		historical_bloodline
+	}
+}
+bloodline_gorgo = {
+	diplomacy = 3
+	intrigue = 2
+	bloodline_effect_loyal_councilors = 1
+	inheritance = matrilineal
+	allow_bastards = yes
+	picture = GFX_bloodline_argead
+	flags = {
+		historical_bloodline
+		bloodline_loyalist
+	}
+}
+bloodline_hanno = {
+	diplomacy = 2
+	learning = 3
+	bloodline_effect_teuta_ships = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodline_argead
+	flags = {
+		historical_bloodline
+		bloodline_spawned_ships
+	}
+}
+bloodline_leonidas = {
+	martial = 4
+	combat_rating = 6
+	bloodline_effect_battle_survivor = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodline_argead
+	flags = {
+		historical_bloodline
+		battle_survivor_bloodline
+	}
+}
+bloodline_lysimachus = {
+	stewardship = 2
+	martial = 3
+	bloodline_effect_castellan = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodline_argead
+	flags = {
+		historical_bloodline
+		bloodline_castellan
+	}
+}
+bloodline_mago = {
+	stewardship = 2
+	martial = 3
+	bloodline_effect_dynastic_meddling = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodline_argead
+	flags = {
+		historical_bloodline
+		bloodline_dynastic_meddling
+	}
+}
+bloodline_mithridates_ktiskes = {
+	stewardship = 2
+	martial = 2
+	bloodline_effect_faster_claims = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodline_argead
+	flags = {
+		historical_bloodline
+		bloodline_faster_claims
+	}
+}
+bloodline_orontid = {
+	stewardship = 1
+	armenian_opinion = 10
+	monthly_character_prestige = 0.05
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodline_argead
+	flags = {
+		historical_bloodline
+	}
+}
+bloodline_pandya = {
+	learning = 1
+	dynasty_opinion = 10
+	monthly_character_prestige = 0.05
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodline_argead
+	flags = {
+		historical_bloodline
+	}
+}
+bloodline_pericles = {
+	stewardship = 3
+	diplomacy = 3
+	bloodline_effect_more_philosophers = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodline_argead
+	flags = {
+		historical_bloodline
+		bloodline_more_philosophers
+	}
+}
+bloodline_phillip = {
+	martial = 3
+	diplomacy = 2
+	stewardship = 1
+	bloodline_effect_less_factions = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodline_argead
+	flags = {
+		historical_bloodline
+		bloodline_less_factions
+	}
+}
+bloodline_porus = {
+	martial = 3
+	stewardship = 2
+	bloodline_effect_knights = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodline_argead
+	flags = {
+		historical_bloodline
+		bloodline_knights
+	}
+}
+bloodline_ptolemy = {
+	learning = 1
+	monthly_character_piety = 0.05
+	dynasty_opinion = 5
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodline_argead
+	flags = {
+		historical_bloodline
+	}
+}
+bloodline_ptolemy_soter = {
+	learning = 2
+	stewardship = 2
+	diplomacy = 2
+	tech_growth_modifier = 0.15
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodline_argead
+	flags = {
+		historical_bloodline
+	}
+}
+bloodline_pyrrhus = {
+	martial = 3
+	combat_rating = 5
+	bloodline_effect_indomitable = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodline_argead
+	flags = {
+		historical_bloodline
+		indomitable_bloodline
+	}
+}
+bloodline_seleucid = {
+	diplomacy = 2
+	martial = 3
+	bloodline_effect_endearing = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodline_argead
+	flags = {
+		historical_bloodline
+		bloodline_endearing
+	}
+}
+bloodline_sophytes = {
+	diplomacy = 3
+	learning = 2
+	bloodline_effect_endearing = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodline_argead
+	flags = {
+		historical_bloodline
+		bloodline_endearing
+	}
+}
+bloodline_spartocid = {
+	stewardship = 1
+	dynasty_opinion = 10
+	monthly_character_piety = 0.05
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodline_argead
+	flags = {
+		historical_bloodline
+	}
+}
+bloodline_zadok = {
+	learning = 3
+	monthly_character_piety = 1
+	bloodline_effect_israel_loans = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodline_argead
+	flags = {
+		historical_bloodline
+		jewish_loans
+	}
+}
+bloodline_zipoetes = {
+	diplomacy = 3
+	martial = 2
+	bloodline_effect_architect = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodline_argead
+	flags = {
+		historical_bloodline
+		bloodline_architect
 	}
 }

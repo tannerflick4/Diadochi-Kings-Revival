@@ -1,9 +1,33 @@
-401.1.1 = { # 375 BC
+226.1.1 = { # 550 BC
 	law = succ_feudal_elective
-	holder = 250304 # Magon III of Carthage
+	holder = 250305 # Magon I of Carthage
+}
+246.1.1 = { # 375 BC
+	holder = 250306 # Hasdrubaal I
+}
+266.1.1 = { # 375 BC
+	holder = 250307 # Hamilcar I
+}
+296.1.1 = { # 375 BC
+	holder = 250308 # Hanno The Navigator
+}
+336.1.1 = { # 375 BC
+	holder = 250310 # Himilco I
+}
+366.1.1 = { # 375 BC
+	holder = 250311 # Hannibal I
+}
+370.1.1 = { # 375 BC
+	holder = 250312 # Himilco II
+}
+380.1.1 = { # 375 BC
+	holder = 250313 # Magon II
+}
+401.1.1 = { # 375 BC
+	holder = 250304 # Magon III
 }
 432.1.1 = { # 344 BC 
-	holder = 250303 # Hanno III of Carthage
+	holder = 250303 # Hanno III
 }
 436.1.1 = { # 340 BC
 	holder = 250104 # Hanno the Great

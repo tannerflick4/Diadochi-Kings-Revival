@@ -41,7 +41,7 @@
 	culture = macedonian
 	
 	father = 803 # Philip II
-	mother = 10011
+	mother = 10011 # Olympias
 	
 	diplomacy = 5
 	martial = 10
@@ -64,6 +64,10 @@
 #	}
 	449.1.1 = { # 327 BC
 		add_spouse = 100001 # Roxane
+		create_bloodline = {
+			type = bloodline_alexander
+			has_dlc = "Holy Fury"
+		}
 	}
 	453.6.10 = {death="yes"} # 323 BC
 }
@@ -89,6 +93,10 @@
 	# TODO: Add Meda of Odessos
 	417.1.1 = { # 359 BC
 		add_spouse = 140005 # Audata
+		create_bloodline = {
+			type = bloodline_phillip
+			has_dlc = "Holy Fury"
+		}
 	}
 	418.1.1 = { # 358 BC 
 		add_spouse = 3607 # Phila
@@ -439,7 +447,7 @@
 	174.1.1 = {death="yes"} # 602 BC
 }
 819 = {
-	name = "Airopos" # Aeropus I
+	name = "Aeropos" # Aeropus I
 	dynasty = 9 # Argeadai
 	religion = greek_main
 	culture = macedonian
@@ -477,8 +485,11 @@
 	dynasty = 9 # Argeadai
 	religion = greek_main
 	culture = macedonian
-	
 	father = 820 # Alcetas I
+	
+	trait = underhanded_rogue # unsuccessfully tried to offer Anthemous to Hippias (Hdt. 5.94.1) 
+	trait = craven # accepted the demands of the Persian envoys and kept quiet when they began mistreating the women at the feast
+	trait = trusting # trusted his son to deal with the Persian envoys
 	
 	diplomacy = 5
 	martial = 5
@@ -497,17 +508,33 @@
 	
 	father = 821 # Amyntas I
 	
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
+	diplomacy = 8
+	martial = 6
+	stewardship = 8
+	intrigue = 7
+	learning = 6
+	
+	trait = charismatic_negotiator # skilled diplomat and a smooth talker
+	trait = ambitious # sought to enlarge the Macedonian kingdom and enhance his own image
+	trait = deceitful # gave assistance to the Greeks while simulteously acting as a loyal subject of the Persians
+	trait = just # intervened to defend the women being mistreated by the Persian envoys, even when his father advised him not to
+	trait = proud # dedicated gold statues of himself at Delphi & Olympia
+	trait = shrewd # his achievements show a considerable amount of cunning
+	trait = gregarious # managed to win the trust both of the Persians and his fellow Greeks, despite often working against them
+	trait = greedy # attained significant wealth and became the first Macedonian king to mint coinage
+	trait = schemer # Pindar describes him as "bold-scheming"
+	trait = robust # competed in the Olympic foot-race and pentathlon (Just. 7.2.14)
 	
 	238.1.1 = {birth="yes"} # 538 BC Made up
-	322.1.1 = {death="yes"} # 454 BC
+	322.1.1 = {  # 454 BC
+		give_nickname = nick_philhellene # probably only received the byname "Philhellene" in the Hellenistic period (Sprawski 2013, available at www.academia.edu/5911382)
+		death = {
+			death_reason = death_battle # Curt. 6. 11. 26 implies that he died violently though it is unclear whether this was through assassination or war
+		}
+	}
 }
 823 = {
-	name = "Alketas" # Alcetas II
+	name = "Alketas" # controlled a principality before being driven out by Perdiccas II
 	dynasty = 9 # Argeadai
 	religion = greek_main
 	culture = macedonian
@@ -531,13 +558,21 @@
 	
 	father = 822 # Alexander I
 	
-	diplomacy = 5
+	diplomacy = 8
 	martial = 5
-	stewardship = 5
-	intrigue = 5
+	stewardship = 6
+	intrigue = 7
 	learning = 5
 	
+	trait = underhanded_rogue # much of his reign was spent using diplomacy to preserve his independence, not always successfully
+	trait = stubborn # stubbornly quarrelled with Brasidas during their campaign against the Lynkestians
+	trait = wroth # seems to have been focused on getting rid of Brasidas after their falling out
+	trait = deceitful # broke multiple treaties, with Hermippus writing in Phormophoroi that he could "fill his ships with lies as well as timber"
+	
 	276.1.1 = {birth="yes"} # 500 BC Made up
+	353.1.1 = { # 423 BC, speculative (possibly part of the peace deal between Perdiccas II and the Lyncestians)
+		add_spouse = 3516 # Kleopatra
+	}
 	363.1.1 = {death="yes"} # 413 BC
 }
 825 = {
@@ -555,6 +590,9 @@
 	learning = 5
 	
 	308.1.1 = {birth="yes"} # 468 BC Made up
+	363.1.1 = { # 413 BC
+		add_spouse = 3516 # Kleopatra
+	}
 	377.1.1 = {death="yes"} # 399 BC
 }
 
@@ -629,7 +667,7 @@
 	382.1.1 = {death="yes"} # 394 BC
 }
 830 = {
-	name = "Philippos" # son of Alexander I
+	name = "Philippos" # controlled a principality corresponding roughly to Amphaxitis	
 	dynasty = 9 # Argeadai
 	religion = greek_main
 	culture = macedonian
@@ -710,6 +748,8 @@
 	intrigue = 5
 	learning = 5
 	
+	add_trait = content # according to Syncellus (p. 500) he lived throughout as a private person
+	
 	285.1.1 = {birth="yes"} # 491 BC Made up
 	359.1.1 = {death="yes"} # 417 BC Made up
 }
@@ -729,4 +769,104 @@
 	
 	317.1.1 = {birth="yes"} # 459 BC Made up
 	375.1.1 = {death="yes"} # 401 BC Made up
+}
+836 = {
+	name = "Gygaia"
+	female = yes
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 821 # Amyntas
+	
+	248.1.1 = {birth="yes"} # 528 BC Made up
+	299.1.1 = {death="yes"} # 477 BC Made up
+}
+837 = {
+	name = "Menelaos" # named in the treaty between Athens and Perdiccas, ca. 423/2 or 417-413 BC	
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	father = 822 # Alexander I
+	306.1.1 = {
+		birth = yes # 470 BC made up
+	}
+	365.1.1 = {
+		death = yes # 411 BC made up
+	}
+}
+838 = {
+	name = "Stratonike" 	
+	female = yes
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	father = 822 # Alexander I
+	319.1.1 = {
+		birth = yes # 457 BC made up
+	}
+	347.1.1 = { # 429 BC 
+		add_spouse = 40105 # Seuthes 
+	}
+	376.1.1 = {
+		death = yes # 400 BC made up
+	}
+}
+#839 = {
+	#name = "Agerrhos" # named in the treaty between Athens and Perdiccas, ca. 423/2 or 417-413 BC	
+	#dynasty = 9 # Argeadai
+	#religion = greek_main
+	#culture = macedonian
+	#father = 839 # Philippos
+	#320.1.1 = {
+		#birth = yes # 456 BC made up
+	#}
+	#378.1.1 = {
+		#death = yes # 398 BC made up
+	#}
+#}
+
+# Children of Alketas
+
+840 = {
+	name = "Alexandros" 	
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	father = 823 # Alketas
+	323.1.1 = {
+		birth = yes # 453 BC
+	}
+	363.1.1 = { # 413 BC
+		death = {
+			death_reason = death_murder # murdered on the orders of Archelaus
+			killer = 825 # Archelaos
+		}
+	}
+}
+841 = {
+	name = "Agelaos" # named in the treaty between Athens and Perdiccas, ca. 423/2 or 417-413 BC	
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	father = 823 # Alketas
+	330.1.1 = {
+		birth = yes # 446 BC made up
+	}
+	374.1.1 = { # made up
+		death = yes # 402 BC
+	}
+}
+842 = {
+	name = "Arepyros" # name reconstructed from [...]yros; appears in treaty between Athens and Perdiccas
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	father = 823 # Alketas
+	332.1.1 = {
+		birth = yes # 444 BC made up
+	}
+	386.1.1 = { # made up
+		death = yes # 390 BC
+	}
 }

@@ -39,6 +39,10 @@
 	
 	418.1.1 = { # 358 BC
 		birth="yes"
+		create_bloodline = {
+			type = bloodline_cassander
+			has_dlc = "Holy Fury"
+		}
 	}
 	453.6.10 = {
 		add_trait = diadochi_king
@@ -319,5 +323,35 @@
 	}
 	523.1.1 = { # Made up
 		death="yes" # 253 BC
+	}
+}
+19 = {
+	name = "Antigone"
+	dynasty = 1
+	religion = greek_main
+	culture = macedonian
+	father = 2 # Kassandros
+	female = yes
+	
+	434.1.1 = {
+		birth="yes" # 342 BC Made up
+	}
+	456.1.1 = {
+		death="yes" # 320 BC Made up
+	}
+}
+20 = {
+	name = "Berenice"
+	dynasty = 1
+	religion = greek_main
+	culture = macedonian
+	mother = 19 # Antigone
+	female = yes
+	
+	450.1.1 = {
+		birth="yes" # 326 BC Made up
+	}
+	508.1.1 = {
+		death="yes" # 268 BC Made up
 	}
 }
