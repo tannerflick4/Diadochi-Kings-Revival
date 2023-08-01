@@ -1,7 +1,0 @@
-416.1.1 = { # 360 BC
-	holder = 310101 # Adnun
-	liege = d_sinai
-}
-483.1.1 = { # 293 BC
-	holder = 310102 # Cain
-}

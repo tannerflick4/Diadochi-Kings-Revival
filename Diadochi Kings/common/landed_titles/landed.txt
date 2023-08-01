@@ -17752,6 +17752,8 @@ e_gaul = {
 		d_arbatilicum = {
 			color={ 229 229 0 }
 			color2={ 255 255 255 }
+			
+			capital = 1238 # Teodeberciaco
 
 			c_teodeberciaco = {
 				color={ 226 215 0 }
@@ -17852,6 +17854,8 @@ e_gaul = {
 		d_duranius = {
 			color={ 204 204 0 }
 			color2={ 255 255 255 }
+			
+			capital = 1247 # Divona
 
 			c_iculisma = {
 				color={ 193 204 0 }
@@ -17952,6 +17956,8 @@ e_gaul = {
 		d_triobris = {
 			color={ 204 176 38 }
 			color2={ 255 255 255 }
+			
+			capital = 1257 # Cavaniaco
 
 			c_segodunum = {
 				color={ 204 181 38 }
@@ -18033,6 +18039,8 @@ e_gaul = {
 		d_crosa = {
 			color={ 204 186 69 }
 			color2={ 255 255 255 }
+			
+			capital = 1256 # Gaudiaco
 
 			c_briggogalus = {
 				color={ 204 190 69 }
@@ -18140,6 +18148,8 @@ e_gaul = {
 		d_arar = {
 			color={ 255 117 58 }
 			color2={ 255 255 255 }
+			
+			capital = 427 # Lugdunum
 
 			c_lugdunum = {
 				color= { 255 104 58 }
@@ -18221,6 +18231,8 @@ e_gaul = {
 		d_icauna = {
 			color={ 255 146 99 }
 			color2={ 255 255 255 }
+			
+			capital = 1235 # Autessiodurum
 
 			c_avaricum = {
 				color={ 255 153 99 }
@@ -18321,6 +18333,8 @@ e_gaul = {
 		d_liger = {
 			color={ 255 175 122 }
 			color2={ 255 255 255 }
+			
+			capital = 1196 # Bricca
 
 			c_segimovicus = {
 				color={ 255 179 122 }
@@ -18440,6 +18454,8 @@ e_gaul = {
 		d_armorica = {
 			color={ 255 143 137 }
 			color2={ 255 255 255 }
+			
+			capital = 1186 # Darioritum
 
 			c_gesocribate = {
 				color={ 255 149 137 }
@@ -18559,6 +18575,8 @@ e_gaul = {
 		d_olina = {
 			color={ 255 136 88 }
 			color2={ 255 255 255 }
+			
+			capital = 1190 # Condate
 
 			c_condate = {
 				color={ 255 141 89 }
@@ -18618,6 +18636,8 @@ e_gaul = {
 				}
 			}
 			c_noviomagus = {
+				color={ 242 255 89 }
+				color2={ 255 255 255 }
 
 				b_noviomagus_noviomagus = {
 				}
@@ -18664,6 +18684,8 @@ e_gaul = {
 		d_dubis = {
 			color={ 0 22 196 }
 			color2={ 255 255 255 }
+			
+			capital = 1231 # Isarnodunum
 
 			c_isarnodunum = {
 				color={ 0 12 193 }
@@ -18828,6 +18850,8 @@ e_gaul = {
 		d_vosegus = {
 			color= { 37 53 196 }
 			color2= { 255 255 255 }
+			
+			capital = 1229 # Basilia
 
 			c_basilia = {
 				color={ 36 47 193 }
@@ -18890,6 +18914,8 @@ e_gaul = {
 		d_lingonia = {
 			color= { 43 99 196 }
 			color2= { 255 255 255 }
+			
+			capital = 429 # Andematunnum
 
 			c_andematunnum = {
 				color= { 42 105 193 }
@@ -18952,6 +18978,8 @@ e_gaul = {
 		d_rhenus = {
 			color= { 80 103 196 }
 			color2= { 255 255 255 }
+			
+			capital = 1280 # Borbetomagus
 
 			c_borbetomagus = {
 				color= { 79 96 193 }
