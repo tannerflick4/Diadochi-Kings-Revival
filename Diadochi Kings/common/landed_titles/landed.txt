@@ -11197,17 +11197,9 @@ e_rome = {
 
 	capital = 324 # Roma
 
-	allow = {
-		culture = latin
-	}
-
-	title = "PONTIFEX"
+	title = "CONSUL"
 	short_name = yes
 	primary = yes
-
-	controls_religion = roman_main
-
-	dignity = 1000
 
 	k_rome = {
 		color= { 125 0 0 }
@@ -19657,7 +19649,7 @@ e_egypt = {
 	color2= { 255 255 255 }
 	
 	title = "PHARAOH_TITLE"
-	title_female = "QUEEN_TITLE"
+	title_female = "PHARAOH_TITLE"
 
 	capital = 139 # Alexandria
 	egyptian = Kemet
