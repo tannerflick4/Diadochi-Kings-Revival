@@ -26,7 +26,6 @@ egyptian_religion = {
 		can_call_crusade = no
 		
 		female_temple_holders = yes
-		max_consorts = 3
 		max_wives = 3
 		divine_blood = yes
 		bs_marriage = yes
@@ -93,7 +92,6 @@ egyptian_religion = {
 		can_call_crusade = no
 		
 		female_temple_holders = yes
-		max_consorts = 3
 		max_wives = 3
 		divine_blood = yes
 		bs_marriage = yes
@@ -159,7 +157,6 @@ egyptian_religion = {
 		can_call_crusade = no
 		
 		female_temple_holders = yes
-		max_consorts = 3
 		max_wives = 3
 		divine_blood = yes
 		bs_marriage = yes
