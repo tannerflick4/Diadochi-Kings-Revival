@@ -1,0 +1,256 @@
+	c_valerii = {
+		color= { 125 0 0 }
+		color2= { 255 255 255 }
+
+		landless = yes
+		short_name = yes
+		can_be_claimed = no
+		can_be_usurped = no
+
+		culture = latin
+		religion = roman_main
+
+		allow = {
+			dynasty = 17010
+		}
+	}
+	c_cornelii = {
+		color= { 125 0 0 }
+		color2= { 255 255 255 }
+
+		landless = yes
+		short_name = yes
+		can_be_claimed = no
+		can_be_usurped = no
+
+		culture = latin
+		religion = roman_main
+
+		allow = {
+			dynasty = 17016
+		}
+	}
+	c_fabii = {
+		color= { 125 0 0 }
+		color2= { 255 255 255 }
+
+		landless = yes
+		short_name = yes
+		can_be_claimed = no
+		can_be_usurped = no
+
+		culture = latin
+		religion = roman_main
+
+		allow = {
+			dynasty = 17004
+		}
+	}
+	c_papirii = {
+		color= { 125 0 0 }
+		color2= { 255 255 255 }
+
+		landless = yes
+		short_name = yes
+		can_be_claimed = no
+		can_be_usurped = no
+
+		culture = latin
+		religion = roman_main
+
+		allow = {
+			dynasty = 17002
+		}
+	}
+	c_aemilii = {
+		color= { 125 0 0 }
+		color2= { 255 255 255 }
+
+		landless = yes
+		short_name = yes
+		can_be_claimed = no
+		can_be_usurped = no
+
+		culture = latin
+		religion = roman_main
+
+		allow = {
+			dynasty = 17022
+		}
+	}
+	c_marcii = {
+		color= { 125 0 0 }
+		color2= { 255 255 255 }
+
+		landless = yes
+		short_name = yes
+		can_be_claimed = no
+		can_be_usurped = no
+
+		culture = latin
+		religion = roman_main
+
+		allow = {
+			dynasty = 17013
+		}
+	}
+	c_sulpicii = {
+		color= { 125 0 0 }
+		color2= { 255 255 255 }
+
+		landless = yes
+		short_name = yes
+		can_be_claimed = no
+		can_be_usurped = no
+
+		culture = latin
+		religion = roman_main
+
+		allow = {
+			dynasty = 17001
+		}
+	}
+	c_plautii = {
+		color= { 125 0 0 }
+		color2= { 255 255 255 }
+
+		landless = yes
+		short_name = yes
+		can_be_claimed = no
+		can_be_usurped = no
+
+		culture = latin
+		religion = roman_main
+
+		allow = {
+			dynasty = 17028
+		}
+	}
+	c_claudii = {
+		color= { 125 0 0 }
+		color2= { 255 255 255 }
+
+		landless = yes
+		short_name = yes
+		can_be_claimed = no
+		can_be_usurped = no
+
+		culture = latin
+		religion = roman_main
+
+		allow = {
+			dynasty = 17012
+		}
+	}
+	c_junii = {
+		color= { 125 0 0 }
+		color2= { 255 255 255 }
+
+		landless = yes
+		short_name = yes
+		can_be_claimed = no
+		can_be_usurped = no
+
+		culture = latin
+		religion = roman_main
+
+		allow = {
+			dynasty = 17029
+		}
+	}
+	c_manlii = {
+		color= { 125 0 0 }
+		color2= { 255 255 255 }
+
+		landless = yes
+		short_name = yes
+		can_be_claimed = no
+		can_be_usurped = no
+
+		culture = latin
+		religion = roman_main
+
+		allow = {
+			dynasty = 17029
+		}
+	}
+	c_popillii = {
+		color= { 125 0 0 }
+		color2= { 255 255 255 }
+
+		landless = yes
+		short_name = yes
+		can_be_claimed = no
+		can_be_usurped = no
+
+		culture = latin
+		religion = roman_main
+
+		allow = {
+			dynasty = 17029
+		}
+	}
+	c_furii = {
+		color= { 125 0 0 }
+		color2= { 255 255 255 }
+
+		landless = yes
+		short_name = yes
+		can_be_claimed = no
+		can_be_usurped = no
+
+		culture = latin
+		religion = roman_main
+
+		allow = {
+			dynasty = 17029
+		}
+	}
+	c_publilii = {
+		color= { 125 0 0 }
+		color2= { 255 255 255 }
+
+		landless = yes
+		short_name = yes
+		can_be_claimed = no
+		can_be_usurped = no
+
+		culture = latin
+		religion = roman_main
+
+		allow = {
+			dynasty = 17029
+		}
+	}
+	c_quinctii = {
+		color= { 125 0 0 }
+		color2= { 255 255 255 }
+
+		landless = yes
+		short_name = yes
+		can_be_claimed = no
+		can_be_usurped = no
+
+		culture = latin
+		religion = roman_main
+
+		allow = {
+			dynasty = 17029
+		}
+	}
+	c_veturii = {
+		color= { 125 0 0 }
+		color2= { 255 255 255 }
+
+		landless = yes
+		short_name = yes
+		can_be_claimed = no
+		can_be_usurped = no
+
+		culture = latin
+		religion = roman_main
+
+		allow = {
+			dynasty = 17029
+		}
+	}
