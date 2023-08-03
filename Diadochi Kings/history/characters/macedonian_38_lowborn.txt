@@ -11,11 +11,33 @@
 	intrigue = 5
 	learning = 5
 	
-	422.1.1 = {birth="yes"} # 352 BC
+	422.1.1 = { # 352 BC
+		birth="yes"
+	}
+	439.3.1 = { # spring 337 BC
+		add_spouse = 841 # Phillip II
+	}
 	440.10.1 = { # 336 BC
 		death = {
 			death_reason = death_murder
 			killer = 10011 # Olympias
 		}
+	}
+}
+
+3702 = {
+	name = "Simiche" # Wife of Perdiccas II
+	female = yes
+	religion = greek_main
+	culture = macedonian
+	
+	298.1.1 = { # made up
+		birth = yes # 478 BC
+	}
+	314.1.1 = { # 462 BC made up
+		add_spouse = 812 # Perdiccas II	
+	}
+	363.1.1 = { # 413 BC
+		death = yes
 	}
 }

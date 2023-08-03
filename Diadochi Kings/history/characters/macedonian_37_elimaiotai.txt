@@ -46,22 +46,38 @@
 	}
 }
 3604 = {
-	name = "Eurydike" # Daughter of Sirras, mother of Philip II
+	name = "Eurydike" # Macedonian queen noted for her prominent role in politics
 	dynasty = 37
 	religion = greek_main
 	culture = macedonian
-
     female=yes
 
     father = 3603
     mother = 3503
+    
+    diplomacy = 7
+	martial = 6
+	stewardship = 6
+	intrigue = 5
+	learning = 6
+	
+	trait = grey_eminence # successfully appealed for aid from Iphicrates following an invasion by the pretender Pausanias
+	trait = brave # her intervention in political and military affairs was unprecedented
+	trait = patient # learned how to read rather late in life
+	trait = ambitious # took on a much greater public role than previous Argead women
+	trait = shrewd # her actions to preserve the position of herself and her sons were generally successful
 	
 	369.1.1 = { # 407 BC Made up
 		birth="yes"
 	}
-    # 391 BC, becomes spouse of Amyntas III
-	433.1.1 = { # 343 BC Made up
-		death="yes"
+	384.1.1 = { # 392 BC
+		add_spouse = 837 # Amyntas III	
+	}
+	409.1.1 = { # 367 BC
+		add_spouse = 823 # Ptolemy of Alorus
+	}
+	430.1.1 = { # made up (Aeschines' account of 346 BC seems to imply that she was already dead by that point)
+		death = yes # 346 BC
 	}
 }
 3605 = {
@@ -109,8 +125,15 @@
 	intrigue = 5
 	learning = 5
 	
-	403.1.1 = {birth="yes"} # 373 BC Made up
-	425.1.1 = {death="yes"} # 351 BC Made up
+	403.1.1 = { # 373 BC Made up
+		birth="yes"
+	}
+	417.6.1 = { # summer 359 BC
+		add_spouse = 841 # Philip II
+	}
+	425.1.1 = { # 351 BC Made up
+		death="yes"
+	}
 }
 3608 = {
 	name = "Machatas" # Grandfather of Antigonos

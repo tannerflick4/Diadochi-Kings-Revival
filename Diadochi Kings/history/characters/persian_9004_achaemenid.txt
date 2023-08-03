@@ -15,6 +15,10 @@
 	
 	190.1.1 = { # 576 BC
 		birth="yes"
+		create_bloodline = {
+			type = bloodline_cyrus
+			has_dlc = "Holy Fury"
+		}
 	}
 	246.12.1 = { # 530 BC
 		death = {
@@ -86,7 +90,12 @@
 	
 	226.1.1 = { # 550 BC
 		birth="yes"
+		create_bloodline = {
+			type = bloodline_darius
+			has_dlc = "Holy Fury"
+		}
 	}
+	247.1.1 = { add_matrilineal_spouse = 90330 }
 	290.10.1 = { # 486 BC
 		death="yes"
 	}
@@ -97,6 +106,7 @@
 	religion = zoroastrian_main
 	culture = persian
 	father = 90305
+	mother = 90330
 	
 	add_trait = greedy
 	add_trait = zealous
@@ -189,6 +199,9 @@
 	340.1.1 = { # 435 BC
 		birth="yes"
 	}
+	359.1.1 = {
+		add_spouse = 80016
+	}
 	418.1.1 = { # 358 BC
 		death="yes"
 	}
@@ -199,6 +212,7 @@
 	religion = zoroastrian_main
 	culture = persian
 	father = 90311
+	mother = 80016
 	
 	add_trait = tough_soldier
 	add_trait = cruel
@@ -263,6 +277,10 @@
 	culture = persian
 	91.1.1 = { # 685 BC Made up
 		birth="yes"
+		create_bloodline = {
+			type = bloodline_achaemenid
+			has_dlc = "Holy Fury"
+		}
 	}
 	136.1.1 = { # 640 BC
 		death="yes"
@@ -459,5 +477,212 @@
 	}
 	467.1.1 = { # 309 BC Made up
 		death="yes"
+	}
+}
+90330 = {
+	name = "Hutaosa"
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	female = yes
+	father = 90301
+	226.1.1 = { # 550 BC
+		birth="yes"
+	}
+	247.1.1 = { add_matrilineal_spouse = 90305 }
+	301.1.1 = { # 475 BC
+		death="yes"
+	}
+}
+90331 = {
+	name = "Rhodogune"
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	female = yes
+	father = 90311
+	mother = 80016
+	
+	359.1.1 = { # 417 BC Made up
+		birth="yes"
+	}
+	375.1.1 = {
+		add_spouse = 80003
+	}
+	438.9.25 = { # 338 BC
+		death="yes"
+	}
+}
+90332 = {
+	name = "Bagapata" # Megabates
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	father = 90319
+	218.1.1 = { # 558 BC
+		birth="yes"
+	}
+	283.1.1 = { # 493 BC
+		death="yes"
+	}
+}
+90333 = {
+	name = "Bagabazu" # Megabazus
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	father = 90332
+	234.1.1 = { # 542 BC
+		birth="yes"
+	}
+	308.1.1 = { # 468 BC
+		death="yes"
+	}
+}
+90334 = {
+	name = "Bubares"
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	father = 90333 # Bagabazu
+	250.1.1 = { # 526 BC
+		birth="yes"
+	}
+	266.1.1 = { # 510 BC
+		add_spouse = 808 # Gygaia 
+	}
+	296.1.1 = { # 480 BC
+		death="yes"
+	}
+}
+90335 = {
+	name = "Farnadata" # Pherendates
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	father = 90333 # Bagabazu
+	260.1.1 = { # 516 BC
+		birth="yes"
+	}
+	292.1.1 = { # 484 BC
+		death="yes"
+	}
+}
+90336 = {
+	name = "Vaubara" # Oebares II
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	father = 90333 # Bagabazu
+	266.1.1 = { # 510 BC
+		birth="yes"
+	}
+	297.1.1 = { # 479 BC
+		death="yes"
+	}
+}
+90337 = {
+	name = "Amyntas"
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	
+	father = 90334 # Bubares
+	mother = 808 # Gygaia
+	
+	266.1.1 = { # 510 BC
+		birth="yes"
+	}
+	311.1.1 = { # 465 BC
+		death="yes"
+	}
+}
+90338 = {
+	name = "Stateira" # Wife of Darius III
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	female = yes
+	
+	father = 90328
+	
+	406.1.1 = { # 370 BC
+		birth="yes"
+	}
+	422.1.1 = { # 354 BC
+		add_spouse = 90314 # Darius III
+	}
+	453.6.1 = { # 323 BC
+		death = {
+			death_reason = death_suicide # Fasted herself to death in grief
+		}
+	}
+}
+90339 = {
+	name = "Stateira" # II
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	female = yes
+	
+	father = 90314
+	mother = 90338
+	
+	426.1.1 = { # 350 BC
+		birth="yes"
+	}
+	452.3.1 = { # March 324 BC, Susa weddings
+		add_spouse = 849 # Alexander III
+	}
+	453.1.1 = { # 323 BC
+		death = {
+			death_reason = death_murder
+			killer = 100001 # Rhoxane
+		}
+	}
+}
+90340 = {
+	name = "Drypetis" #
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	female = yes
+	
+	father = 90314
+	mother = 90338
+	
+	431.1.1 = { # 345 BC
+		birth="yes"
+	}
+	#452.3.1 = { # March 324 BC, Susa weddings
+	###	add_spouse = ... # Hephaestion
+	#}
+	453.1.1 = { # 323 BC
+		death = {
+			death_reason = death_murder
+			killer = 100001 # Rhoxane
+		}
+	}
+}
+90341 = {
+	name = "Parysatis" # II
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	female = yes
+	
+	father = 90312
+	
+	436.1.1 = { # 340 BC Made up
+		birth="yes"
+	}
+	452.3.1 = { # March 324 BC, Susa weddings
+		add_spouse = 849 # Alexander III
+	}
+	453.1.1 = { # 323 BC
+		death = {
+			death_reason = death_murder
+			killer = 100001 # Rhoxane
+		}
 	}
 }

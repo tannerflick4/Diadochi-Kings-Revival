@@ -8,7 +8,7 @@
 	holder = 90303 # Bardiya
 }
 255.1.1 = {
-	holder = 90305 # Darius the Great
+	holder = 90330 # Darius the Great
 }
 290.10.1 = {
 	holder = 90306 # Xerxes the Great
@@ -37,11 +37,11 @@
 	liege = k_s_babylonia
 }
 453.6.10 = {
-	holder = 801 # Philip III
+	holder = 848 # Philip III
 	liege = e_macedonia
 }
 453.8.1 = {
-	holder = 808 # Alexandros IV
+	holder = 853 # Alexandros IV
 	liege = k_asia
 }
 467.1.1 = {

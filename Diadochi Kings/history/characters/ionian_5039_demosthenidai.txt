@@ -22,6 +22,10 @@
 	
 	392.1.1 = {
 		birth="yes" # 384 BC
+		create_bloodline = {
+			type = bloodline_demosthenes
+			has_dlc = "Holy Fury"
+		}
 	}
 	454.1.1 = { # 322 BC
 		death = {

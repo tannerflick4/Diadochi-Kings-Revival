@@ -9,6 +9,10 @@
 	
 	390.1.1 = { # 386 BC
 		birth="yes"
+		create_bloodline = {
+			type = bloodline_mithridates_ktiskes
+			has_dlc = "Holy Fury"
+		}
 	}
 	474.1.1 = { # 302 BC
 		death = {

@@ -6,14 +6,14 @@
 	liege = d_pangaion
 }
 419.1.1 = { # 357 BC
-	holder = 803 # Philip II
+	holder = 841 # Philip II
 	liege = k_macedon
 }
 426.1.1 = { # 350 BC
 	liege = e_macedonia
 }
 440.10.1 = {
-	holder = 802 # Alexander III
+	holder = 849 # Alexander III
 }
 453.6.10 = {
 	holder = 1

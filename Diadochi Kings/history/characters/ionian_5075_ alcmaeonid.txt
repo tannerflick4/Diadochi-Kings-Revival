@@ -1,0 +1,288 @@
+# 56901-57000 for the Alcmaeonid Dynasty
+56901 = {
+	name = "Alcmaeon"
+	dynasty = 5075
+	religion = greek_main
+	culture = ionian
+
+	8.1.1 = { # 768 BC
+		birth="yes"
+		create_bloodline = {
+			type = bloodline_alcmaeonidae 
+			has_dlc = "Holy Fury"
+		}
+	}
+	86.1.1 = { # 690 BC
+		death="yes"
+	}
+}
+56902 = {
+	name = "Megakles"
+	dynasty = 5075
+	religion = greek_main
+	culture = ionian
+	father = 56901
+
+	72.1.1 = { # 704 BC
+		birth="yes"
+	}
+	146.1.1 = { # 630 BC
+		death="yes"
+	}
+}
+56903 = {
+	name = "Alcmaeon"
+	dynasty = 5075
+	religion = greek_main
+	culture = ionian
+	father = 56902
+
+	126.1.1 = { # 656 BC
+		birth="yes"
+	}
+	186.1.1 = { # 590 BC
+		death="yes"
+	}
+}
+56904 = {
+	name = "Megakles"
+	dynasty = 5075
+	religion = greek_main
+	culture = ionian
+	father = 56903
+
+	183.1.1 = { # 593 BC
+		birth="yes"
+	}
+	247.1.2 = { # 529 BC
+		death="yes"
+	}
+}
+56905 = {
+	name = "Kleisthenes"
+	dynasty = 5075
+	religion = greek_main
+	culture = ionian
+	father = 56904
+
+	206.1.1 = { # 570 BC
+		birth="yes"
+	}
+	268.1.1 = { # 508 BC
+		death="yes"
+	}
+}
+56906 = {
+	name = "Hippokrates"
+	dynasty = 5075
+	religion = greek_main
+	culture = ionian
+	father = 56904
+
+	246.1.1 = { # 530 BC
+		birth="yes"
+	}
+	340.1.1 = { # 436 BC
+		death="yes"
+	}
+}
+56907 = {
+	name = "Megakles"
+	dynasty = 5075
+	religion = greek_main
+	culture = ionian
+	father = 56906
+
+	262.1.1 = { # 514 BC
+		birth="yes"
+	}
+	315.1.1 = { # 461 BC
+		death="yes"
+	}
+}
+56908 = {
+	name = "Agariste"
+	dynasty = 5075
+	female = yes
+	religion = greek_main
+	culture = ionian
+	father = 56906
+
+	263.1.1 = { # 515 BC
+		birth="yes"
+	}
+	350.1.1 = { # 426 BC
+		death="yes"
+	}
+}
+56909 = {
+	name = "Ariphron"
+	dynasty = 5075
+	religion = greek_main
+	culture = ionian
+	mother = 56908
+
+	279.1.1 = { # 497 BC
+		birth="yes"
+	}
+	360.1.1 = { # 416 BC
+		death="yes"
+	}
+}
+56910 = {
+	name = "Perikles"
+	dynasty = 5075
+	religion = greek_main
+	culture = ionian
+	mother = 56908
+
+	281.1.1 = { # 495 BC
+		birth="yes"
+		create_bloodline = {
+			type = bloodline_pericles 
+			has_dlc = "Holy Fury"
+		}
+	}
+	347.1.1 = { # 429 BC
+		death = {
+			death_reason = has_bubonic_plague
+		}
+	}
+}
+56911 = {
+	name = "Xanthippus"
+	dynasty = 5075
+	religion = greek_main
+	culture = ionian
+	father = 56910
+
+	324.1.1 = { # 452 BC
+		birth="yes"
+	}
+	347.1.1 = { # 429 BC
+		death = {
+			death_reason = has_bubonic_plague
+		}
+	}
+}
+56912 = {
+	name = "Paralus"
+	dynasty = 5075
+	religion = greek_main
+	culture = ionian
+	father = 56910
+
+	329.1.1 = { # 447 BC
+		birth="yes"
+	}
+	347.1.1 = { # 429 BC
+		death = {
+			death_reason = has_bubonic_plague
+		}
+	}
+}
+56913 = {
+	name = "Alcibiades"
+	dynasty = 5075
+	religion = greek_main
+	culture = ionian
+	
+	father = 56905
+
+	238.1.1 = { # 538 BC
+		birth="yes"
+	}
+	295.1.1 = { # 481 BC
+		death="yes"
+	}
+}
+56914 = {
+	name = "Axiochus"
+	dynasty = 5075
+	religion = greek_main
+	culture = ionian
+	father = 56913
+
+	263.1.1 = { # 513 BC
+		birth="yes"
+	}
+	338.1.1 = { # 438 BC
+		death="yes"
+	}
+}
+56915 = {
+	name = "Cleinias"
+	dynasty = 5075
+	religion = greek_main
+	culture = ionian
+	father = 56913
+
+	291.1.1 = { # 485 BC
+		birth="yes"
+	}
+	310.1.1 = {
+		add_matrilineal_spouse = 56916
+	}
+	329.1.1 = { # 447 BC
+		death="yes"
+	}
+}
+56916 = {
+	name = "Deinomache"
+	dynasty = 5075
+	female = yes
+	religion = greek_main
+	culture = ionian
+	father = 56907
+
+	292.1.1 = { # 484 BC
+		birth="yes"
+	}
+	339.1.1 = { # 437 BC
+		death="yes"
+	}
+}
+56917 = {
+	name = "Alcibiades"
+	dynasty = 5075
+	religion = greek_main
+	culture = ionian
+	father = 56915
+	mother = 56916
+
+	326.1.1 = { # 450 BC
+		birth="yes"
+	}
+	372.1.1 = { # 404 BC
+		death="yes"
+	}
+}
+56918 = {
+	name = "Cleinias"
+	dynasty = 5075
+	religion = greek_main
+	culture = ionian
+	father = 56915
+	mother = 56916
+
+	328.1.1 = { # 448 BC
+		birth="yes"
+	}
+	371.1.1 = { # 405 BC
+		death="yes"
+	}
+}
+56919 = {
+	name = "Euryptolemus"
+	dynasty = 5075
+	religion = greek_main
+	culture = ionian
+	father = 56907
+
+	295.1.1 = { # 481 BC
+		birth="yes"
+	}
+	332.1.1 = { # 444 BC
+		death="yes"
+	}
+}

@@ -77,9 +77,13 @@
 	intrigue = 5
 	learning = 5
 	
-	408.1.1 = {birth="yes"} # 368 BC Made up
-	416.1.1 = { # 359 BC
-		name = "Eurydike"
+	408.1.1 = { # 368 BC Made up
+		birth="yes"
 	}
-	438.1.1 = {death="yes"} # 338 BC Made up
+	417.1.1 = { # winter/spring 360/359 BC
+		add_spouse = 841 # Philip II
+	}
+	438.1.1 = {  # 338 BC Made up
+		death="yes"
+	}
 }

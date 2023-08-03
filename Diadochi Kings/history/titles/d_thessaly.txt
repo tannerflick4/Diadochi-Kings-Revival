@@ -17,11 +17,11 @@
  	holder = 30409 # Lykophron
 }
 424.1.1 = { # 352 BC
-	holder = 803 # Philip II
+	holder = 841 # Philip II
 	liege = k_macedon
 }
 440.10.1 = {
-	holder = 802 # Alexander III
+	holder = 849 # Alexander III
 }
 453.6.10 = {
 	holder = 1 # Antipater

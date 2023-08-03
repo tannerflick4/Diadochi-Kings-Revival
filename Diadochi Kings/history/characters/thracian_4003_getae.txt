@@ -1,44 +1,94 @@
 # 40201-40300 for the Getae dynasty
 40201 = {
-	name = "Cothelas" # King of Getae
+	name = "Kothelas" # Getic king in the mid 4th century BC
 	dynasty = 4003 # Getae
 	religion = "zalmoxism"
 	culture = thracian
-	father = 40203
-	415.1.1 = { # 361 BC Made up
+
+	392.1.1 = { # 384 BC Made up
 		birth="yes"
 	}
-	476.1.1 = { # 300 BC Made up
+	455.1.1 = { # 321 BC Made up
 		death="yes"
 	}
 }
 40202 = {
-	name = "Dromichaetes" # King of Getae
+	name = "Dromichaetes" # Getic king ca. 300-278 BC; probably buried in the Sveshtari tomb
 	dynasty = 4003 # Getae
 	religion = "zalmoxism"
 	culture = thracian
-	father = 40201
+	father = 40203
+	
+	diplomacy = 9
+	martial = 7
+	stewardship = 7
+	intrigue = 5
+	learning = 6
 	
 	add_trait = kind
+	add_trait = brilliant_strategist
+	add_trait = genius
+	add_trait = just
+	add_trait = humble
+	add_trait = architect
 	
-	445.1.1 = { # 331 BC Made up
+	457.1.1 = { # 319 BC Made up
 		birth="yes"
 	}
-	497.1.1 = { # 279 BC
+	498.1.1 = { # 278 BC
 		death = {
-			death_reason = death_battle
+			death_reason = death_battle # the unfinished decorations of his supposed tomb suggest a hasty and premature burial, leading some scholars to attribute his death to the Celtic invas
 		}
 	}
 }
 40203 = {
-	name = "Langarus" # King of Getae, Made up
+	name = "Rholes" # fictional
 	dynasty = 4003 # Getae
 	religion = "zalmoxism"
 	culture = thracian
-	389.1.1 = {
-		birth="yes" # 387 BC Made Up
+
+	father = 40201 # Kothelas
+	
+	422.1.1 = { # made up
+		birth = yes # 354 BC
 	}
-	430.1.1 = {
-		death="yes" # 346 BC Made Up
+	472.1.1 = { # made up
+		death = yes # 304 BC
+	}
+}
+40204 = {
+	name = "Meda" # Getic wife of Philip II
+	female = yes
+	dynasty = 4003 # Getae
+	religion = "zalmoxism"
+	culture = thracian
+	
+	father = 40201 # Kothelas
+	
+	416.1.1 = { # made up
+		birth = yes # 360 BC
+	}
+	435.1.1 = { # 341 BC, approximate
+		add_spouse = 841 # Philip II
+	}
+	440.10.7 = { # October 336 BC, speculative (shortly after the murder of Philip II)
+		death = { 
+			death_reason = death_suicide # it has been suggested that she died by ritual suicide following Getic custom
+		}
+	}
+}
+40205 = {
+	name = "Dromichaites" # commander of Thracian troops in the service of Antiochus II ca. 255-253 BC
+	dynasty = 4003 # Getae
+	religion = "zalmoxism"
+	culture = thracian
+	
+	father = 40202 # Dromichaites, speculative
+	
+	480.1.1 = { # made up
+		birth = yes # 296 BC
+	}
+	536.1.1 = { # made up
+		death = yes # 240 BC
 	}
 }

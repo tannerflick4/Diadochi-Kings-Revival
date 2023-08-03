@@ -1,3 +1,15 @@
+206.1.1 = {
+	holder = 80007 # Orontes Sakavakyats
+}
+216.1.1 = {
+	holder = 80008 # Tigran The Great
+}
+241.1.1 = {
+	holder = 80009 # Vahagn
+}
+261.1.1 = {
+	holder = 0
+}
 455.1.1 = {
 	holder = 80001 # Mithrenes of Armenia
 }

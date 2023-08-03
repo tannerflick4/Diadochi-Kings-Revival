@@ -1,9 +1,3 @@
-400.1.1 = { # 376 BC
-	holder = 40004 # Bas
-}
-450.1.1 = { # 326 BC
-	holder = 40001 # Zipoetes I
-}
 479.1.1 = { # 297 BC
-	holder = 40001
+	holder = 40001 # Zipoetes I
 }

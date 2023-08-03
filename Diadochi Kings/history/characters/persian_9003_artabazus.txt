@@ -21,7 +21,9 @@
 	dynasty = 9003 # Artabazus
 	religion = greek_main
 	culture = persian
-	mother = 90201
+	
+	mother = 90201 # Barsine
+	father = 849 # Alexander III
 	
 	add_trait = bastard
 	
@@ -33,7 +35,7 @@
 	}
 	467.1.1 = { # 309 BC
 		death = {
-			death_reason = death_murder
+			death_reason = death_murder_poison
 			killer = 2
 		}
 	}
@@ -73,14 +75,93 @@
 	}
 }
 90205 = {
-	name = "Artavazhda" # Artabazos, temporary satrap of Bactria
+	name = "Artavazhda" # Artabazos II, temporary satrap of Bactria
 	dynasty = 9003 # Artabazus
 	religion = zoroastrian_main
 	culture = persian
+	father = 90210
 	387.1.1 = { # 389 BC
 		birth="yes"
 	}
 	448.1.1 = { # 328 BC
+		death="yes"
+	}
+}
+90206 = {
+	name = "Farnaka" # Pharnaces I
+	dynasty = 9003 # Artabazus
+	religion = zoroastrian_main
+	culture = persian
+	father = 90319
+	211.1.1 = { # 565 BC
+		birth="yes"
+	}
+	279.1.1 = { # 497 BC
+		death="yes"
+	}
+}
+90207 = {
+	name = "Artavazhda" # Artabazos I, satrap of Phrygia
+	dynasty = 9003 # Artabazus
+	religion = zoroastrian_main
+	culture = persian
+	father = 90206
+	271.1.1 = { # 505 BC
+		birth="yes"
+	}
+	321.1.1 = { # 455 BC
+		death="yes"
+	}
+}
+90208 = {
+	name = "Farnabazu" # Pharnabazus I
+	dynasty = 9003 # Artabazus
+	religion = zoroastrian_main
+	culture = persian
+	father = 90207
+	320.1.1 = { # 456 BC
+		birth="yes"
+	}
+	346.1.1 = { # 430 BC
+		death="yes"
+	}
+}
+90209 = {
+	name = "Farnaka" # Pharnaces II
+	dynasty = 9003 # Artabazus
+	religion = zoroastrian_main
+	culture = persian
+	father = 90208
+	336.1.1 = { # 440 BC
+		birth="yes"
+	}
+	354.1.1 = { # 422 BC
+		death="yes"
+	}
+}
+90210 = {
+	name = "Farnabazu" # Pharnabazus II
+	dynasty = 9003 # Artabazus
+	religion = zoroastrian_main
+	culture = persian
+	father = 90209
+	352.1.1 = { # 424 BC
+		birth="yes"
+	}
+	394.1.1 = { # 387 BC
+		death="yes"
+	}
+}
+90211 = {
+	name = "Farnabazu" # Pharnabazus III
+	dynasty = 9003 # Artabazus
+	religion = zoroastrian_main
+	culture = persian
+	father = 90205
+	406.1.1 = { # 370 BC
+		birth="yes"
+	}
+	456.1.1 = { # 320 BC
 		death="yes"
 	}
 }

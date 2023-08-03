@@ -5,7 +5,7 @@
 	culture = dacian
 	religion = zalmoxism
 	father = 270603
-	420.1.1 = { # 356 BC, Made up
+	410.1.1 = { # 366 BC, Made up
 		birth="yes"
 	}
 	465.1.1 = { # 311 BC, Made up
