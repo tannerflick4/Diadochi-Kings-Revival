@@ -1029,16 +1029,8 @@ character_event = {
 	trigger = {
 		trait = trait_slaver
 		any_independent_ruler = {
-			NOR = {
+			NOT = {
 				culture = ROOT
-				culture_group = horse_group
-				culture_group = cat_group
-				culture_group = bear_group
-				culture_group = hedgehog_group
-				culture_group = duck_group
-				culture_group = dog_group
-				culture_group = elephant_group
-				culture_group = dragon_group
 			}
 		}
 	}
@@ -1046,16 +1038,8 @@ character_event = {
 	immediate = {
 		random_independent_ruler = {
 			limit = {
-				NOR = {
+				NOT = {
 					culture = ROOT
-					culture_group = horse_group
-					culture_group = cat_group
-					culture_group = bear_group
-					culture_group = hedgehog_group
-					culture_group = duck_group
-					culture_group = dog_group
-					culture_group = elephant_group
-					culture_group = dragon_group
 				}
 			}
 			create_random_steward = {

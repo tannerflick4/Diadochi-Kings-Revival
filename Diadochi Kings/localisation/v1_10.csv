@@ -1332,16 +1332,16 @@ ct_port_2;Port;Port;Hafen;;Puerto;;;;;;;;;x
 ct_port_3;Port;Port;Hafen;;Puerto;;;;;;;;;x
 ct_port_4;Port;Port;Hafen;;Puerto;;;;;;;;;x
 ct_port_5;Port;Port;Hafen;;Puerto;;;;;;;;;x
-tp_wall_q_1;[Root.Holder.GetHouseOfWorshipCap] Fortifications;Fortifications du temple;Kirchen-Befestigung;;Fortificaciones de la Iglesia;;;;;;;;;x
-tp_wall_q_2;[Root.Holder.GetHouseOfWorshipCap] Fortifications;Fortifications du temple;Kirchen-Befestigung;;Fortificaciones de la Iglesia;;;;;;;;;x
-tp_wall_q_3;[Root.Holder.GetHouseOfWorshipCap] Fortifications;Fortifications du temple;Kirchen-Befestigung;;Fortificaciones de la Iglesia;;;;;;;;;x
-tp_wall_q_4;[Root.Holder.GetHouseOfWorshipCap] Fortifications;Fortifications du temple;Kirchen-Befestigung;;Fortificaciones de la Iglesia;;;;;;;;;x
-tp_wall_q_5;[Root.Holder.GetHouseOfWorshipCap] Fortifications;Fortifications du temple;Kirchen-Befestigung;;Fortificaciones de la Iglesia;;;;;;;;;x
-tp_wall_1;[Root.Holder.GetHouseOfWorshipCap] Walls;Murailles du temple;Kirchenmauern;;Muros de la Iglesia;;;;;;;;;x
-tp_wall_2;[Root.Holder.GetHouseOfWorshipCap] Walls;Murailles du temple;Kirchenmauern;;Muros de la Iglesia;;;;;;;;;x
-tp_wall_3;[Root.Holder.GetHouseOfWorshipCap] Walls;Murailles du temple;Kirchenmauern;;Muros de la Iglesia;;;;;;;;;x
-tp_wall_4;[Root.Holder.GetHouseOfWorshipCap] Walls;Murailles du temple;Kirchenmauern;;Muros de la Iglesia;;;;;;;;;x
-tp_wall_5;[Root.Holder.GetHouseOfWorshipCap] Walls;Murailles du temple;Kirchenmauern;;Muros de la Iglesia;;;;;;;;;x
+tp_wall_q_1;Temple Fortifications;Fortifications du temple;Kirchen-Befestigung;;Fortificaciones de la Iglesia;;;;;;;;;x
+tp_wall_q_2;Temple Fortifications;Fortifications du temple;Kirchen-Befestigung;;Fortificaciones de la Iglesia;;;;;;;;;x
+tp_wall_q_3;Temple Fortifications;Fortifications du temple;Kirchen-Befestigung;;Fortificaciones de la Iglesia;;;;;;;;;x
+tp_wall_q_4;Temple Fortifications;Fortifications du temple;Kirchen-Befestigung;;Fortificaciones de la Iglesia;;;;;;;;;x
+tp_wall_q_5;Temple Fortifications;Fortifications du temple;Kirchen-Befestigung;;Fortificaciones de la Iglesia;;;;;;;;;x
+tp_wall_1;Temple Walls;Murailles du temple;Kirchenmauern;;Muros de la Iglesia;;;;;;;;;x
+tp_wall_2;Temple Walls;Murailles du temple;Kirchenmauern;;Muros de la Iglesia;;;;;;;;;x
+tp_wall_3;Temple Walls;Murailles du temple;Kirchenmauern;;Muros de la Iglesia;;;;;;;;;x
+tp_wall_4;Temple Walls;Murailles du temple;Kirchenmauern;;Muros de la Iglesia;;;;;;;;;x
+tp_wall_5;Temple Walls;Murailles du temple;Kirchenmauern;;Muros de la Iglesia;;;;;;;;;x
 tp_elite_barracks_1;Barracks;Quartiers militaires;Kasernen;;Cuarteles;;;;;;;;;x
 tp_elite_barracks_2;Barracks;Quartiers militaires;Kasernen;;Cuarteles;;;;;;;;;x
 tp_elite_barracks_3;Barracks;Quartiers militaires;Kasernen;;Cuarteles;;;;;;;;;x
