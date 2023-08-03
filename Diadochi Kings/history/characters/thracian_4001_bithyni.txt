@@ -10,6 +10,10 @@
 	
 	422.1.1 = {
 		birth="yes" # 354 BC
+		create_bloodline = {
+			type = bloodline_zipoetes
+			has_dlc = "Holy Fury"
+		}
 	}
 	498.1.1 = {
 		death="yes" # 278 BC, Natural Death

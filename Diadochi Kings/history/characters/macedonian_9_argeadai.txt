@@ -1,12 +1,9 @@
 # 801-900 for the Argeadai dynasty
 801 = {
-	name = "Arrhidaios" # Philip III Arrhidaeus
+	name = "Perdikkas" # King Perdiccas I
 	dynasty = 9 # Argeadai
 	religion = greek_main
 	culture = macedonian
-	
-	father = 803 # Philip II
-	mother = 141901 # Philinna of Larissa
 	
 	diplomacy = 5
 	martial = 5
@@ -14,499 +11,138 @@
 	intrigue = 5
 	learning = 5
 	
-	add_trait = incapable
-	add_trait = naive_appeaser
-	add_trait = dull
-	add_trait = content
-	add_trait = slothful
-	add_trait = trusting
-	add_trait = chaste
-	
-	419.1.1 = {birth="yes"} # 357 BC
-	453.6.10 = {name = "Philippos"} # 323 BC
-	453.7.1 = { # 323 BC
-		add_spouse = 813 # Eurydice II
-	}
-	459.12.25 = { # 317 BC
-		death = {
-			death_reason = death_execution
-			killer = 10011 # Olympias
+	91.1.1 = {
+		birth = yes # 685 BC made up
+		create_bloodline = {
+			type = bloodline_argead
+			has_dlc = "Holy Fury"
 		}
+	}
+	129.1.1 = {
+		death = yes # 647 BC
 	}
 }
 802 = {
-	name = "Alexandros" # Alexander the Great
+	name = "Argaios" # King Argaeus	I
 	dynasty = 9 # Argeadai
 	religion = greek_main
 	culture = macedonian
 	
-	father = 803 # Philip II
-	mother = 10011 # Olympias
+	father = 801 # Perdiccas I
 	
 	diplomacy = 5
-	martial = 10
+	martial = 5
 	stewardship = 5
 	intrigue = 5
 	learning = 5
 	
-	add_trait = quick
-	add_trait = brilliant_strategist
-	add_trait = proud
-	add_trait = ambitious
-	add_trait = brave
-	add_trait = wroth
-	add_trait = chaste
-	
-	420.7.21 = {birth="yes"} # 356 BC
-#	446.1.1 = { # 330 BC
-#		add_trait = paranoid # After the whole Parmenion affair
-#		add_trait = king_of_asia
-#	}
-	449.1.1 = { # 327 BC
-		add_spouse = 100001 # Roxane
-		create_bloodline = {
-			type = bloodline_alexander
-			has_dlc = "Holy Fury"
-		}
+	107.1.1 = {
+		birth = yes # 669 BC made up
 	}
-	453.6.10 = {death="yes"} # 323 BC
+	160.1.1 = {
+		death = yes # 616 BC
+	}
 }
 803 = {
-	name = "Philippos" # Philip II
+	name = "Philippos" # King Philip I	
 	dynasty = 9 # Argeadai
 	religion = greek_main
 	culture = macedonian
 
-	father = 804 # Amyntas III
-	mother = 3604 # Eurydike
-		
-	add_trait = quick
-	add_trait = brilliant_strategist
-	add_trait = proud
-	add_trait = ambitious
-	add_trait = brave
-	add_trait = patient
-	add_trait = cruel
+	father = 802 # Argaeus I
 	
-	394.1.1 = {birth="yes"} # 382 BC
-	# TODO: Add Nikesipolis
-	# TODO: Add Meda of Odessos
-	417.1.1 = { # 359 BC
-		add_spouse = 140005 # Audata
-		create_bloodline = {
-			type = bloodline_phillip
-			has_dlc = "Holy Fury"
-		}
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	
+	125.1.1 = {
+		birth = yes # 651 BC made up
 	}
-	418.1.1 = { # 358 BC 
-		add_spouse = 3607 # Phila
-		add_spouse = 141901 # Philinna of Larissa
-	}
-	419.1.1 = { # 357 BC
-		add_spouse = 10011 # Olympias
-	}
-	423.1.1 = { # 353 BC
-		add_spouse = 30411 # Nicesipolis
-	}
-	439.1.1 = { # 337 BC
-		add_spouse = 3701 # Cleopatra Eurydice
-	}
-	440.10.1 = { # 336 BC
-		death = {
-			death_reason = death_murder
-		}
+	193.1.1 = {
+		death = yes # 583 BC
 	}
 }
 804 = {
-	name = "Amyntas" # Amyntas III
+	name = "Aeropos" # King Aeropus I	
 	dynasty = 9 # Argeadai
 	religion = greek_main
 	culture = macedonian
 	
-	father = 835 # Arrhidaeus
+	father = 803 # Philip I
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
 	
 	add_trait = charismatic_negotiator
 	
-	364.1.1 = { # 412 BC Made up
-		birth="yes"
+	152.1.1 = {
+		birth = yes # 624 BC made up
 	}
-	385.1.1 = { # 391 BC Made up
-		add_spouse = 3604 # Eurydike
-	}
-	406.1.1 = { # 370 BC
-		death="yes"
+	213.1.1 = {
+		death = yes # 563 BC
 	}
 }
 805 = {
-	name = "Alexandros" # Alexander II
+	name = "Alketas" # King Alcetas	I
 	dynasty = 9 # Argeadai
 	religion = greek_main
 	culture = macedonian
 
-	father = 804 # Amyntas III
-	mother = 3604 # Eurydike
+	father = 804 # Aeropus I	
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
 
-	389.1.1 = { # 387 BC Made up
-		birth="yes"
+	179.1.1 = {
+		birth = yes # 597 BC made up
 	}
-	407.1.1 = { # 369 BC
-		death = {
-			death_reason = death_murder
-		}
+	231.1.1 = {
+		death = yes # 545 BC
 	}
 }
 806 = {
-	name = "Perdikkas" # Perdiccas III
+	name = "Amyntas" # King Amyntas I	
 	dynasty = 9 # Argeadai
 	religion = greek_main
 	culture = macedonian
 
-	father = 804 # Amyntas III
-	mother = 3604 # Eurydike
+	father = 805 # Alcetas	I
 	
-	add_trait = misguided_warrior
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
 	
-	391.1.1 = { # 385 BC Made up
-		birth="yes"
+	add_trait = underhanded_rogue # unsuccessfully tried to offer Anthemous to Hippias (Hdt. 5.94.1) 
+	add_trait = craven # accepted the demands of the Persian envoys and kept quiet when they began mistreating the women at the feast
+	add_trait = trusting # trusted his son to deal with the Persian envoys
+	
+	212.1.1 = {
+		birth = yes # 564 BC made up
 	}
-	417.1.1 = { # 359 BC
-		death = {
-			death_reason = death_battle
-		}
+	281.1.1 = {
+		death = yes # 495 BC
 	}
 }
+
+# Family Amyntas I
+
 807 = {
-	name = "Amyntas" # Amyntas IV
+	name = "Alexandros" # King Alexander I	
 	dynasty = 9 # Argeadai
 	religion = greek_main
 	culture = macedonian
 
-	father = 806 # Perdiccas III
-	
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-
-	411.1.1 = { # 365 BC
-		birth="yes"
-	}
-	435.1.1 = { # 341 BC
-		add_spouse = 812 # Cynane
-	}
-	440.10.15 = { # 336 BC
-		death = {
-			death_reason = death_execution
-			killer = 802 # Alexander the Great
-		}
-	}
-}
-808 = {
-	name = "Alexandros" # Alexander IV
-	dynasty = 9 # Argeadai
-	religion = greek_main
-	culture = macedonian
-
-	father = 802 # Alexander the Great
-	mother = 100001 # Roxane
-	
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	
-	453.8.1 = { # 323 BC
-		birth="yes"
-	}
-	467.1.1 = { # 310 BC
-		death = {
-			death_reason = death_murder
-			killer = 2 # Cassander
-		}
-	}
-}
-809 = {
-	name = "Kleopatra" # Alexander's sister
-	female = yes
-	dynasty = 9 # Argeadai
-	religion = greek_main
-	culture = macedonian
-	
-	employer = 801 # Philip III
-
-	father = 803 # Philip II
-	mother = 10011 # Olympias
-	
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	
-	422.1.1 = {birth="yes"} # 354 BC
-	440.10.1 = { # 336 BC
-		add_spouse = 10008 # Alexandros I
-	}
-	468.1.1 = { # 308 BC
-		death = {
-			death_reason = death_murder
-			killer = 401 # Antigonus
-		}
-	}
-}
-810 = {
-	name = "Thessalonike" # Daughter of Philip II
-	female = yes
-	dynasty = 9 # Argeadai
-	religion = greek_main
-	culture = macedonian
-
-	father = 803 # Philip II
-	mother = 30411 # Nicesipolis
-	
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	
-	424.1.1 = {birth="yes"} # 352 BC
-	481.1.1 = {
-		death = {death_reason = death_murder}
-	}
-}
-
-# TODO: Perhaps this guy should not be an Argead.
-811 = {
-	name = "Kleomenes" # First satrap of Egypt
-	dynasty = 9 # Argeadai
-	religion = greek_main
-	culture = macedonian
-	
-	add_trait = greedy
-	
-	409.1.1 = { # 376 BC made up
-		birth="yes"
-	}
-	453.6.10 = {
-		add_trait = diadochi_king
-	}
-	454.1.1 = { # 322 BC
-		death = {
-			death_reason = death_execution
-			killer = 601 # Ptolemy
-		}
-	}
-}
-
-812 = {
-	name = "Kyna" # Daughter of Philip II
-	female = yes
-	dynasty = 9 # Argeadai
-	religion = greek_main
-	culture = macedonian
-	
-	father = 803 # Philip II
-	mother = 140005 # Audata
-	
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	
-	419.1.1 = { birth = yes } # 357 BC
-	453.7.1 = { # 323 BC
-		death = {death_reason = death_murder}
-	}
-}
-813 = {
-	name = "Adea" # Eurydice II
-	female = yes
-	dynasty = 9 # Argeadai
-	religion = greek_main
-	culture = macedonian
-	
-	father = 807 # Amyntas IV
-	mother = 812 # Cynane
-	
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	
-	436.1.1 = { birth="yes"} # 340 BC
-	453.7.1 = {name = "Eurydike"} # 323 BC
-	459.12.25 = { # 317 BC
-		death = {
-			death_reason = death_execution
-			killer = 10011 # Olympias
-		}
-	}
-}
-814 = {
-	name = "Karanos" # Son of Philip II
-	dynasty = 9 # Argeadai
-	religion = greek_main
-	culture = macedonian
-	
-	father = 803 # Philip II
-	mother = 3607 # Phila
-	
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	
-	426.1.1 = { birth="yes"} # 350 BC
-	440.10.1 = { # 336 BC
-		death = {
-			death_reason = death_execution
-			killer = 802 # Alexander the Great
-		}
-	}
-}
-815 = {
-	name = "Elena" # Daughter of Philip II
-	female = yes
-	dynasty = 9 # Argeadai
-	religion = greek_main
-	culture = macedonian
-	
-	father = 803 # Philip II
-	mother = 3701 # Cleopatra Eurydice
-	
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	
-	440.1.1 = {birth = yes} # 336 BC
-	440.10.1 = { # 336 BC
-		death = {
-			death_reason = death_murder
-			killer = 10011 # Olympias
-		}
-	}
-}
-816 = {
-	name = "Perdikkas" # Perdiccas I
-	dynasty = 9 # Argeadai
-	religion = greek_main
-	culture = macedonian
-	
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	
-	56.1.1 = {birth="yes"} # 720 BC Made up
-	76.1.1 = { # 700 BC
-		create_bloodline = { type = bloodline_argead }
-	}
-	98.1.1 = {death="yes"} # 678 BC
-}
-817 = {
-	name = "Argaios" # Argaeus I
-	dynasty = 9 # Argeadai
-	religion = greek_main
-	culture = macedonian
-	
-	father = 816 # Perdiccas I
-	
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	
-	84.1.1 = {birth="yes"} # 692 BC Made up
-	136.1.1 = {death="yes"} # 640 BC
-}
-818 = {
-	name = "Philippos" # Philip I
-	dynasty = 9 # Argeadai
-	religion = greek_main
-	culture = macedonian
-	
-	father = 817 # Argaeus I
-	
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	
-	116.1.1 = {birth="yes"} # 660 BC Made up
-	174.1.1 = {death="yes"} # 602 BC
-}
-819 = {
-	name = "Aeropos" # Aeropus I
-	dynasty = 9 # Argeadai
-	religion = greek_main
-	culture = macedonian
-	
-	father = 818 # Philip I
-	
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	
-	142.1.1 = {birth="yes"} # 634 BC Made up
-	200.1.1 = {death="yes"} # 576 BC
-}
-820 = {
-	name = "Alketas" # Alcetas I
-	dynasty = 9 # Argeadai
-	religion = greek_main
-	culture = macedonian
-	
-	father = 819 # Aeropus I
-	
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	
-	170.1.1 = {birth="yes"} # 606 BC Made up
-	229.1.1 = {death="yes"} # 547 BC
-}
-821 = {
-	name = "Amyntas" # Amyntas I
-	dynasty = 9 # Argeadai
-	religion = greek_main
-	culture = macedonian
-	father = 820 # Alcetas I
-	
-	trait = underhanded_rogue # unsuccessfully tried to offer Anthemous to Hippias (Hdt. 5.94.1) 
-	trait = craven # accepted the demands of the Persian envoys and kept quiet when they began mistreating the women at the feast
-	trait = trusting # trusted his son to deal with the Persian envoys
-	
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	
-	203.1.1 = {birth="yes"} # 573 BC Made up
-	278.1.1 = {death="yes"} # 498 BC
-}
-822 = {
-	name = "Alexandros" # Alexander I
-	dynasty = 9 # Argeadai
-	religion = greek_main
-	culture = macedonian
-	
-	father = 821 # Amyntas I
+	father = 806 # Amyntas I
 	
 	diplomacy = 8
 	martial = 6
@@ -523,65 +159,68 @@
 	trait = gregarious # managed to win the trust both of the Persians and his fellow Greeks, despite often working against them
 	trait = greedy # attained significant wealth and became the first Macedonian king to mint coinage
 	trait = schemer # Pindar describes him as "bold-scheming"
-	trait = robust # competed in the Olympic foot-race and pentathlon (Just. 7.2.14)
-	
-	238.1.1 = {birth="yes"} # 538 BC Made up
-	322.1.1 = {  # 454 BC
+	trait = strong # competed in the Olympic foot-race and pentathlon
+
+	251.1.1 = {
+		birth = yes # 525 BC
+	}
+	324.1.1 = { # 452 BC
 		give_nickname = nick_philhellene # probably only received the byname "Philhellene" in the Hellenistic period (Sprawski 2013, available at www.academia.edu/5911382)
 		death = {
 			death_reason = death_battle # Curt. 6. 11. 26 implies that he died violently though it is unclear whether this was through assassination or war
 		}
 	}
 }
-823 = {
-	name = "Alketas" # controlled a principality before being driven out by Perdiccas II
+808 = {
+	name = "Gygaia" 	
+	female = yes
 	dynasty = 9 # Argeadai
 	religion = greek_main
 	culture = macedonian
+
+	father = 806 # Amyntas I
 	
-	father = 822 # Alexander I
-	
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	
-	273.1.1 = {birth="yes"} # 503 BC Made up
-	328.1.1 = {death="yes"} # 448 BC
-}
-824 = {
-	name = "Perdikkas" # Perdiccas II
-	dynasty = 9 # Argeadai
-	religion = greek_main
-	culture = macedonian
-	
-	father = 822 # Alexander I
-	
-	diplomacy = 8
-	martial = 5
-	stewardship = 6
-	intrigue = 7
-	learning = 5
-	
-	trait = underhanded_rogue # much of his reign was spent using diplomacy to preserve his independence, not always successfully
-	trait = stubborn # stubbornly quarrelled with Brasidas during their campaign against the Lynkestians
-	trait = wroth # seems to have been focused on getting rid of Brasidas after their falling out
-	trait = deceitful # broke multiple treaties, with Hermippus writing in Phormophoroi that he could "fill his ships with lies as well as timber"
-	
-	276.1.1 = {birth="yes"} # 500 BC Made up
-	353.1.1 = { # 423 BC, speculative (possibly part of the peace deal between Perdiccas II and the Lyncestians)
-		add_spouse = 3516 # Kleopatra
+	248.1.1 = {
+		birth = yes # 528 BC made up
 	}
-	363.1.1 = {death="yes"} # 413 BC
+	266.1.1 = { # 510 BC
+		add_spouse = 90334 # Boubares 
+	}
+	299.1.1 = {
+		death = yes # 477 BC made up
+	}
 }
-825 = {
-	name = "Archelaos" # Archelaus I
+
+# Family of Alexandros I
+
+809 = {
+	name = "Philippos" # controlled a principality corresponding roughly to Amphaxitis
 	dynasty = 9 # Argeadai
 	religion = greek_main
 	culture = macedonian
+
+	father = 807 # Alexander I
 	
-	father = 824 # Perdiccas II
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+
+	285.1.1 = {
+		birth = yes # 491 BC made up
+	}
+	345.1.1 = {
+		death = yes # 431 BC made up (but probably died between 434 and 429 BC)
+	}
+}
+810 = {
+	name = "Alketas" # II driven out by Perdiccas II
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+
+	father = 807 # Alexander I
 	
 	diplomacy = 5
 	martial = 5
@@ -589,158 +228,23 @@
 	intrigue = 5
 	learning = 5
 	
-	308.1.1 = {birth="yes"} # 468 BC Made up
+	291.1.1 = {
+		birth = yes # 485 BC made up
+	}
 	363.1.1 = { # 413 BC
-		add_spouse = 3516 # Kleopatra
+		death = {
+			death_reason = death_murder # murdered on the orders of Archelaus
+			killer = 824 # Archelaos son of Perdiccas II
+		}
 	}
-	377.1.1 = {death="yes"} # 399 BC
 }
-
-# TODO: Perhaps this guy should not be an Argead.
-826 = {
-	name = "Krateuas" # Crateuas of Macedon
+811 = {
+	name = "Amyntas" 
 	dynasty = 9 # Argeadai
 	religion = greek_main
 	culture = macedonian
 	
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	
-	324.1.1 = {birth="yes"} # 452 BC Made up
-	377.6.1 = {death="yes"} # 399 BC
-}
-
-827 = {
-	name = "Orestes" # Orestes
-	dynasty = 9 # Argeadai
-	religion = greek_main
-	culture = macedonian
-	
-	father = 825 # Archelaus I
-	
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	
-	add_trait = incapable
-	
-	352.1.1 = {birth="yes"} # 424 BC Made up
-	380.1.1 = {death="yes"} # 396 BC
-}
-828 = {
-	name = "Airopos" # Aeropus II
-	dynasty = 9 # Argeadai
-	religion = greek_main
-	culture = macedonian
-	
-	father = 824 # Perdiccas II
-	
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	
-	316.1.1 = {birth="yes"} # 460 BC Made up
-	381.1.1 = {death="yes"} # 395 BC
-}
-829 = {
-	name = "Archelaos" # Archelaus II
-	dynasty = 9 # Argeadai
-	religion = greek_main
-	culture = macedonian
-	
-	father = 825 # Archelaus I
-	
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	
-	342.1.1 = {birth="yes"} # 434 BC Made up
-	382.1.1 = {death="yes"} # 394 BC
-}
-830 = {
-	name = "Philippos" # controlled a principality corresponding roughly to Amphaxitis	
-	dynasty = 9 # Argeadai
-	religion = greek_main
-	culture = macedonian
-	
-	father = 822 # Alexander I
-	
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	
-	280.1.1 = {birth="yes"} # 496 BC Made up
-	358.1.1 = {death="yes"} # 418 BC Made up
-}
-831 = {
-	name = "Amyntas" # Amyntas II
-	dynasty = 9 # Argeadai
-	religion = greek_main
-	culture = macedonian
-	
-	father = 830 # Philip
-	
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	
-	314.1.1 = {birth="yes"} # 462 BC Made up
-	382.3.1 = {death="yes"} # 394 BC
-}
-832 = {
-	name = "Pausanias" # Pausanias
-	dynasty = 9 # Argeadai
-	religion = greek_main
-	culture = macedonian
-	
-	father = 828 # Aeropus II
-	
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	
-	349.1.1 = {birth="yes"} # 427 BC Made up
-	382.6.1 = {death="yes"} # 394 BC
-}
-
-# TODO: Perhaps this guy should not be an Argead.
-833 = {
-	name = "Argaios" # Argaeus II
-	dynasty = 9 # Argeadai
-	religion = greek_main
-	culture = macedonian
-	
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	
-	363.1.1 = {birth="yes"} # 413 BC Made up
-	417.1.1 = {death="yes"} # 359 BC
-}
-834 = {
-	name = "Amyntas" # son of Alexander I
-	dynasty = 9 # Argeadai
-	religion = greek_main
-	culture = macedonian
-	
-	father = 822 # Alexander I
+	father = 807 # Alexander I
 	
 	diplomacy = 5
 	martial = 5
@@ -750,44 +254,54 @@
 	
 	add_trait = content # according to Syncellus (p. 500) he lived throughout as a private person
 	
-	285.1.1 = {birth="yes"} # 491 BC Made up
-	359.1.1 = {death="yes"} # 417 BC Made up
+	294.1.1 = {
+		birth = yes # 482 BC made up
+	}
+	367.1.1 = {
+		death = yes # 409 BC  made up
+	}
 }
-835 = {
-	name = "Arrhidaios" # Arrhidaeus
+
+812 = {
+	name = "Perdikkas" # King Perdiccas II	
 	dynasty = 9 # Argeadai
 	religion = greek_main
 	culture = macedonian
 	
-	father = 834 # Amyntas
+	father = 807 # Alexander I
 	
-	diplomacy = 5
+	diplomacy = 8
 	martial = 5
-	stewardship = 5
-	intrigue = 5
+	stewardship = 6
+	intrigue = 7
 	learning = 5
 	
-	317.1.1 = {birth="yes"} # 459 BC Made up
-	375.1.1 = {death="yes"} # 401 BC Made up
+	add_trait = underhanded_rogue # much of his reign was spent using diplomacy to preserve his independence, not always successfully
+	add_trait = stubborn # stubbornly quarrelled with Brasidas during their campaign against the Lynkestians
+	add_trait = wroth # seems to have been focused on getting rid of Brasidas after their falling out
+	add_trait = deceitful # broke multiple treaties, with Hermippus writing in Phormophoroi that he could "fill his ships with lies as well as timber"
+	
+	298.1.1 = {
+		birth = yes # 478 BC made up
+	}
+	314.1.1 = { # 462 BC made up
+		add_spouse = 3702 # Simiche
+	}
+	353.1.1 = { # 423 BC, (possibly part of the peace deal between Perdiccas II and the Lyncestians)
+		add_spouse = 3516 # Kleopatra 
+	}
+	363.1.1 = { # 413 BC
+		death = yes
+	}
 }
-836 = {
-	name = "Gygaia"
-	female = yes
+813 = {
+	name = "Menelaos" # named in the treaty between Athens and Perdiccas, ca. 423/2 or 417-413 BC
 	dynasty = 9 # Argeadai
 	religion = greek_main
 	culture = macedonian
 	
-	father = 821 # Amyntas
+	father = 807 # Alexander I
 	
-	248.1.1 = {birth="yes"} # 528 BC Made up
-	299.1.1 = {death="yes"} # 477 BC Made up
-}
-837 = {
-	name = "Menelaos" # named in the treaty between Athens and Perdiccas, ca. 423/2 or 417-413 BC	
-	dynasty = 9 # Argeadai
-	religion = greek_main
-	culture = macedonian
-	father = 822 # Alexander I
 	306.1.1 = {
 		birth = yes # 470 BC made up
 	}
@@ -795,78 +309,1060 @@
 		death = yes # 411 BC made up
 	}
 }
-838 = {
+814 = {
 	name = "Stratonike" 	
 	female = yes
 	dynasty = 9 # Argeadai
 	religion = greek_main
 	culture = macedonian
-	father = 822 # Alexander I
+	
+	father = 807 # Alexander I
+	
 	319.1.1 = {
 		birth = yes # 457 BC made up
 	}
 	347.1.1 = { # 429 BC 
-		add_spouse = 40105 # Seuthes 
+		add_spouse = 40105 # Seuthes I
 	}
 	376.1.1 = {
 		death = yes # 400 BC made up
 	}
 }
-#839 = {
-	#name = "Agerrhos" # named in the treaty between Athens and Perdiccas, ca. 423/2 or 417-413 BC	
-	#dynasty = 9 # Argeadai
-	#religion = greek_main
-	#culture = macedonian
-	#father = 839 # Philippos
-	#320.1.1 = {
-		#birth = yes # 456 BC made up
-	#}
-	#378.1.1 = {
-		#death = yes # 398 BC made up
-	#}
-#}
 
-# Children of Alketas
+# Family of Philippos
 
-840 = {
-	name = "Alexandros" 	
+815 = {
+	name = "Amyntas" # supported by Sitalkes as a pretender to the Macedonian throne ca. 429 BC
 	dynasty = 9 # Argeadai
 	religion = greek_main
 	culture = macedonian
-	father = 823 # Alketas
+	
+	father = 809 # Philippos
+	
+	313.1.1 = {
+		birth = yes # 463 BC made up
+	}
+	355.1.1 = {
+		death = yes # 421 BC made up
+	}
+}
+816 = {
+	name = "Agerrhos" # named in the treaty between Athens and Perdiccas, ca. 423/2 or 417-413 BC
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 809 # Philippos
+	
+	320.1.1 = {
+		birth = yes # 456 BC made up
+	}
+	378.1.1 = {
+		death = yes # 398 BC made up
+	}
+}
+
+# Family of Alketas
+
+817 = {
+	name = "Alexandros"
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 810 # Alketas
+	
 	323.1.1 = {
-		birth = yes # 453 BC
+		birth = yes # 453 BC made up (but was about the same age as Archelaus)
 	}
 	363.1.1 = { # 413 BC
 		death = {
 			death_reason = death_murder # murdered on the orders of Archelaus
-			killer = 825 # Archelaos
+			killer = 824 # Archelaos
 		}
 	}
 }
-841 = {
-	name = "Agelaos" # named in the treaty between Athens and Perdiccas, ca. 423/2 or 417-413 BC	
+818 = {
+	name = "Agelaos" # named in the treaty between Athens and Perdiccas, ca. 423/2 or 417-413 BC
 	dynasty = 9 # Argeadai
 	religion = greek_main
 	culture = macedonian
-	father = 823 # Alketas
-	330.1.1 = {
-		birth = yes # 446 BC made up
+	
+	father = 810 # Alketas
+	
+	330.1.1 = { # made up
+		birth = yes # 446 BC
 	}
 	374.1.1 = { # made up
 		death = yes # 402 BC
 	}
 }
-842 = {
+819 = {
 	name = "Arepyros" # name reconstructed from [...]yros; appears in treaty between Athens and Perdiccas
 	dynasty = 9 # Argeadai
 	religion = greek_main
 	culture = macedonian
-	father = 823 # Alketas
-	332.1.1 = {
-		birth = yes # 444 BC made up
+	
+	father = 810 # Alketas
+	
+	332.1.1 = { # made up
+		birth = yes # 444 BC
 	}
 	386.1.1 = { # made up
 		death = yes # 390 BC
+	}
+}
+
+# Family of Agelaos
+
+820 = {
+	name = "Argaios" # pretender who appears to have briefly ruled ca. 386-384 BC
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 818 # Agelaos
+	
+	361.1.1 = { # made up
+		birth = yes # 415 BC
+	}
+	416.9.1 = { # September 360 BC, speculative
+		death = {
+			death_reason = death_execution # probably executed by Philip II after his capture
+			killer = 841 # Philippos
+		}
+	}
+}
+821 = {
+	name = "Pausanias" # pretender to the Macedonian throne	
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 818 # Agelaos
+	
+	363.1.1 = { # made up
+		birth = yes # 413 BC
+	}
+	417.1.1 = { # made up
+		death = yes # 359 BC
+	}
+}
+
+# Family of Menelaos
+
+822 = {
+	name = "Amyntas" #MADE UP
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 813 # Menelaos
+	
+	339.1.1 = {
+		birth="yes" # 437 BC
+	}
+	408.1.1 = {
+		death = yes # 368 BC 
+	}
+}
+823 = {
+	name = "Ptolemaios" # Ptolemy of Alorus
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 822 # Amyntas
+	
+	add_trait = ambitious
+	add_trait = schemer
+	
+	377.1.1 = {
+		birth="yes" # 399 BC Made up
+	}
+	405.1.1 = { # 371 BC
+		add_spouse = 3604 # Eurynoa
+	}
+	409.1.1 = { # 367 BC
+		add_spouse = 3604 # Eurydike
+	}
+	411.1.1 = {
+		death = {
+			death_reason = death_execution # Perdiccas III
+			killer = 840 # Perdiccas III
+		}
+	}
+}
+
+# Family of Perdiccas II
+
+824 = {
+	name = "Archelaos" # King Archelaus I
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 812 # Perdiccas II
+	mother = 3702 # Simiche
+	
+	diplomacy = 6
+	martial = 5
+	stewardship = 8
+	intrigue = 9
+	learning = 7
+	
+	add_trait = fortune_builder
+	add_trait = cruel # had no issue with murdering potential rivals (including his own half-brother)
+	add_trait = diligent # pursued a number of initiatives, including moving the capital to Pella & re-organising the Olympia at Dion
+	add_trait = charitable # was a generous patron of poets and artists (including Zeuxis, Agathon and Euripides)
+	add_trait = arbitrary # Plato considers him to have been manifestly unjust (Grg. 470 d–471 d)
+	add_trait = strategist # implemented significant military reforms
+	add_trait = architect # improved the road system
+	
+	323.1.1 = { # made up
+		birth = yes # 453 BC
+	}
+	# probably at least two wives before Cleopatra - highly unlikely Amyntas would have married a full sister
+	363.1.1 = { # 413 BC 
+		add_spouse = 3516 # Kleopatra 
+	}
+	377.1.1 = { # 399 BC (archon-year 400/399 BC)
+		death = {
+			death_reason = death_accident_arrow # killed by Crateuas during a hunting expedition, possibly intentionally
+		}
+	}
+}
+825 = {
+	name = "Aeropos" # King Aeropus II
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 812 # Perdiccas II
+	mother = 3702 # Simiche
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	
+	add_trait = ambitious
+	add_trait = cruel
+	
+	327.1.1 = { # made up
+		birth = yes # 449 BC
+	}
+	382.9.1 = { # 394 BC, approximate (archon-year 394/3BC, presumably not long after the summer of 394 BC)
+		trait = ill
+		death = {
+			death_reason = death_poor_health # died from sickness according to Diodorus
+		}
+	}
+}
+826 = {
+	name = "Alketas" # speculative name - a scholiast says this son was either called Meropos or Alcetas
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 812 # Perdiccas II
+	mother = 3516 # Kleopatra 
+	
+	356.1.1 = {
+		birth = yes # 420 BC
+	}
+	363.1.1 = { # 413 BC
+		death = {
+			death_reason = death_murder # murdered by his half-brother Archelaus
+			killer = 824 # Archelaos
+		}
+	}
+}
+
+# Family of Archelaos
+
+827 = {
+	name = "Stratonike" # made up name
+	female = yes
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 824 # Archelaus I
+	
+	355.1.1 = { # made up
+		birth = yes # 421 BC
+	}
+	#3354.1.1 = { # 400 BC
+	###	add_spouse = ... # k. of Elimea 
+	#}
+	399.1.1 = { # made up
+		death = yes # 377 BC
+	}
+}
+828 = {
+	name = "Amyntas" # King Amyntas II 'the Little'	
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 824 # Archelaus I
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	
+	359.1.1 = { # made up
+		give_nickname = nick_the_small
+		birth = yes # 417 BC
+	}
+	376.1.1 = { # 400 BC
+		add_spouse = 829 # Kleonika 
+	}
+	382.1.1 = { # 393 BC (archon-year 394/3 BC)
+		death = yes
+	}
+}
+829 = {
+	name = "Kleonika" # made up name
+	female = yes
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 824 # Archelaus I
+	
+	359.1.1 = { # made up
+		birth = yes # 417 BC
+	}
+	376.1.1 = { # 400 BC
+		add_spouse = 828 # Amyntas II
+	}
+	412.1.1 = { # made up
+		death = yes # 364 BC
+	}
+}
+830 = {
+	name = "Orestes" # King Orestes I
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 824 # Archelaus I
+	mother = 3516 # Kleopatra 
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	
+	364.1.1 = { # approximate
+		birth = yes # 412 BC
+	}
+	380.1.1 = { # 396 BC (archon-year 397/6 BC)
+		death = { 
+			death_reason = death_murder # murdered by his guardian and regent Aeropus
+			killer = 825 # Aeropos
+		}
+	}
+}
+
+# Family of Aeropos
+
+831 = {
+	name = "Pausanias" # King Pausanias	I
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 825 # Aeropus II
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	
+	360.1.1 = { # made up
+		birth = yes # 416 BC
+	}
+	383.1.1 = { # 393 BC, approximate
+		death = { 
+			death_reason = death_murder # killed by Amyntas III in a ruse
+			killer = 837 # Amyntas III
+		}
+	}
+}
+832 = {
+	name = "Gygaia"
+	female = yes
+	religion = greek_main
+	culture = macedonian
+	
+	father = 825 # Aeropus II
+	
+	367.1.1 = { # made up
+		birth = yes # 409 BC
+	}
+	383.1.1 = { # 393 BC, speculative (if Gygaia is indeed an Argead, then her marriage to Amyntas could have occurred shortly after he usurped the throne)
+		add_spouse = 837 # Amyntas III
+	}
+	402.1.1 = { # made up
+		death = yes # 374 BC
+	}
+}
+
+# Family of Amyntas
+
+833 = {
+	name = "Arrhidaios"
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 811 # Amyntas
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	
+	321.1.1 = { # made up
+		birth = yes # 455 BC
+	}
+	380.1.1 = { # made up
+		death = yes # 396 BC
+	}
+}
+834 = {
+	name = "Bokros"
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 811 # Amyntas
+	
+	324.1.1 = { # made up
+		birth = yes # 452 BC
+	}
+	378.1.1 = { # made up
+		death = yes # 398 BC
+	}
+}
+
+# Family of Bokros
+
+835 = {
+	name = "Meleagros"
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 834 # Bokros
+	
+	357.1.1 = { # made up
+		birth = yes # 419 BC
+	}
+	411.1.1 = { # made up
+		death = yes # 365 BC
+	}
+}
+836 = {
+	name = "Arsinoe"
+	female = yes
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 835 # Meleagros
+	
+	390.1.1 = { # made up
+		birth = yes # 386 BC
+	}
+	409.1.1 = { # 367 BC, approximate
+		add_spouse = 606 # Lagos
+	}
+	445.1.1 = { # made up
+		death = yes # 331 BC
+	}
+}
+
+# Family of Arrhidaios
+
+837 = {
+	name = "Amyntas" # King Amyntas III	
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 833 # Arrhidaios
+	
+	diplomacy = 7
+	martial = 6
+	stewardship = 5
+	intrigue = 6
+	learning = 3
+	
+	add_trait = tough_soldier # Justin claims that he was endowed with all the accomplishments of a great general, though in reality his military record seems somewhat spotty
+	add_trait = stubborn # showed remarkable resilience in the face of multiple invasions 
+	add_trait = brave # often had to deal with unfavourable odds 
+	add_trait = deceitful # murdered his predecessor Pausanias in a ruse
+	
+	342.1.1 = { # made up
+		birth = yes # 434 BC
+	}
+	383.1.1 = { # 393 BC, made up
+		add_spouse = 832 # Gygaia 
+	}
+	384.1.1 = { # 392 BC, approximate
+		add_spouse = 3604 # Eurydika 
+	}
+	408.1.1 = { # 368 BC (archon-year 369/8 BC)
+		death = { 
+			death_reason = death_natural # died of old age according to Isocrates 6. 46
+		}
+	}
+}
+
+# Family of Amyntas III
+
+838 = {
+	name = "Alexandros" # King Alexander II	
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 837 # Amyntas III
+	mother = 3604 # Eurydika
+	
+	add_trait = tough_soldier # had some success militarily, especially in Thessaly, but occupying Larissa and Krannon seems to have backfired for him 
+	add_trait = deceitful # went back on his word and occupied Larissa and Krannon with garrisons 
+	add_trait = ambitious # attempted to gain influence in Thessaly, albeit unsuccessfully
+	
+	385.1.1 = { # made up
+		birth = yes # 391 BC
+	}
+	409.1.1 = { # 367 BC (archon-year 368/7 BC)
+		death = { 
+			death_reason = death_murder # murdered during a festival on the orders of Ptolemy of Alorus
+			killer = 823 # Ptolemy of Alorus
+		}
+	}
+}
+839 = {
+	name = "Eurynoa" 	
+	female = yes
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 837 # Amyntas III
+	mother = 3604 # Eurydika
+	
+	387.1.1 = { # made up
+		birth = yes # 389 BC
+	}
+	405.1.1 = { # 371 BC, made up
+		add_spouse = 823 # Ptolemaios
+	}
+	407.1.1 = { # 369 BC, speculative
+		death = yes # if the theory that Eurydice married Ptolemy of Alorus is correct, then Eurynoe surely died before Alexander II
+	}
+}
+840 = {
+	name = "Perdikkas" # king Perdiccas III
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 837 # Amyntas III
+	mother = 3604 # Eurydika
+	
+	add_trait = misguided_warrior
+	
+	391.1.1 = { # made up
+		birth = yes # 385 BC
+	}
+	416.8.1 = { # August 360 BC, approximate
+		death = { 
+			death_reason = death_battle # died in battle against the Illyrians
+		}
+	}
+}
+841 = {
+	name = "Philippos" # king Philip II
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 823 # Alketas
+	
+	father = 837 # Amyntas III
+	mother = 3604 # Eurydika
+	
+	diplomacy = 13
+	martial = 11
+	stewardship = 11
+	intrigue = 3
+	learning = 7
+	
+	add_trait = brilliant_strategist # was a military mastermind
+	add_trait = ambitious # his soaring ambitions paved the way for Alexander the Great's own adventures
+	add_trait = brave # always in the thick of the fighting, often wounded as a result
+	add_trait = deceitful # had no issue with breaking alliances - Lane Fox notes that Philip's alliances were often the "prelude to an attack" (Lane Fox 2011, 356)
+	add_trait = cruel # had no qualms with destroying cities and massacring/enslaving the inhabitants if they opposed him
+	add_trait = aggressive_leader # a key element of his battle strategy was maximising enemy casualties
+	add_trait = logistics_expert # implemented significant logistical reforms, improving the speed and supply of his army
+	add_trait = organizer
+	add_trait = patient
+	add_trait = scarred # received a number of wounds, and was happy to show them off in portraiture
+	add_trait = gregarious # was an incredibly effective diplomat and speaker
+	add_trait = administrator # credited with extensive administrative reforms
+	add_trait = strategist # obviously
+	add_trait = hunter # a fresco at Tomb II in Vergina appears to depict him on a hunt
+	add_trait = drunkard # as did alcoholism
+	add_trait = genius # some would argue he was even more of a genius than Alexander
+	
+	394.1.1 = {
+		birth = yes # 382 BC
+		create_bloodline = {
+			type = bloodline_phillip
+			has_dlc = "Holy Fury"
+		}
+	}
+	417.1.1 = { # winter/spring 360/359 BC
+		add_spouse = 140005 # Audata
+	}
+	417.6.1 = { # summer 359 BC
+		add_spouse = 3607 # Phila
+	}
+	418.12.1 = { # autumn/winter 358 BC
+		add_spouse = 30526 # Philinna
+	}
+	419.9.1 = { # autumn 357 BC
+		add_spouse = 10011 # Olympias 
+	}
+	422.1.1 = { # 354 BC
+		trait = one_eyed # lost his right eye during the siege of Methone
+	}
+	424.6.1 = { # early summer 352 BC
+		add_spouse = 30411 # Nikasipolis
+	}
+	435.1.1 = { # 341 BC
+		add_spouse = 40204 # Meda
+	}
+	439.3.1 = { # spring 337 BC
+		add_spouse = 3701 # Kleopatra
+	}
+	440.10.1 = { # October 336
+		death = { 
+			death_reason = death_murder # murdered by Pausanias at the wedding of Cleopatra and Alexander of Epirus
+			#killer = ... # Pausanias
+		}
+	}
+}
+842 = {
+	name = "Archelaos"
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 837 # Amyntas III
+	mother = 832 # Gygaia
+	
+	393.1.1 = { # made up
+		birth = yes # 383 BC
+	}
+	417.1.1 = { # 359 BC, approximate
+		death = { 
+			death_reason = death_execution # executed on the orders of Philip II
+			killer = 841 # Philippos II
+		}
+	}
+}
+843 = {
+	name = "Arrhidaios" 	
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 837 # Amyntas III
+	mother = 832 # Gygaia
+	
+	396.1.1 = { # made up
+		birth = yes # 380 BC
+	}
+	428.8.1 = { # August 348 BC, speculative
+		death = { 
+			death_reason = death_execution # probably executed by Philip II after the fall of Olynthus
+			killer = 841 # Philippos II
+		}
+	}
+}
+844 = {
+	name = "Menelaos" 	
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 837 # Amyntas III
+	mother = 832 # Gygaia
+	
+	398.1.1 = { # made up
+		birth = yes # 378 BC
+	}
+	428.8.1 = { # August 348 BC, speculative
+		death = { 
+			death_reason = death_execution # probably executed by Philip II after the fall of Olynthus
+			killer = 841 # Philippos II
+		}
+	}
+}
+
+# Family of Perdikkas III
+
+845 = {
+	name = "Amyntas" # Amyntas IV, unlikely he actually ever reigned as king	
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 840 # Perdiccas III
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	
+	411.1.1 = {
+		birth = yes # 365 BC
+	}
+	438.1.1 = { # 338 BC, made up (more likely occurred in 337 BC while Alexander was in exile, but we want Adea-Eurydice to be at least 16 when she marries Philip Arrhidaeus in 321 BC)
+		add_spouse = 847 # Kynnana
+	}
+	441.1.1 = { # 335 BC, approximate
+		death = { 
+			death_reason = death_execution # executed on the orders of Alexander the Great
+			killer = 849 # Alexandros III
+		}
+	}
+}
+846 = {
+	name = "Hadea" # aka Adea-Eurydike	
+	female = yes
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 845 # Amyntas IV
+	mother = 847 # Kynnana
+	
+	439.1.1 = { # made up
+		birth = yes # 337 BC
+	}
+	455.1.1 = { # 321 BC
+		name = "Eurydike" # adopts the name Eurydike on her marriage with Arrhidaeus
+		###give_nickname = nick_hadea
+		add_spouse = 848 # Arrhidaios
+	}
+	459.10.1 = { # October 317 BC
+		death = { 
+			death_reason = death_murder_poison # captured and compelled by Olympias to commit suicide
+			killer = 10011 # Olympias
+		}
+	}
+}
+
+# Family of Philip II
+
+847 = {
+	name = "Kynnana" 	
+	female = yes
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 841 # Philip II
+	mother = 140005 # Audata
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	
+	418.1.1 = { # approximate
+		birth = yes # 358 BC
+	}
+	438.1.1 = { # 338 BC, made up (more likely occurred in 337 BC while Alexander was in exile, but we want Adea-Eurydice to be at least 16 when she marries Philip Arrhidaeus in 321 BC)
+		add_spouse = 845 # Amyntas IV
+	}
+	454.1.1 = { # 322 BC, approximate
+		death = { 
+			death_reason = death_execution # executed on the orders of Alcetas
+			#killer = ... # Alketas
+		}
+	}
+}
+848 = {
+	name = "Arrhidaios" # King Philip III Arrhidaeus	
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 841 # Philip II
+	mother = 30526 # Philinna
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 8
+	learning = 5
+	
+	add_trait = naive_appeaser # attempted to reconcile the conflicting parts of the army
+	add_trait = trusting # was readily manipulated by those around him
+	add_trait = kind # was ready to give up the crown in order to avoid causing bloodshed (Curt. 10.8.19)
+	add_trait = craven # Curtius states that Arrhidaeus only claimed an action as his own when events made it acceptable (Curt. 10.9.19)
+	add_trait = wroth # attempted to attack Hegemon with his spear, seemingly to defend Polysperchon's honour (Plut. Phoc. 33.11-12)
+	add_trait = dull # generally described as slow-witted or feeble-minded in the literary sources
+	add_trait = weak # Plutarch's account seems to suggest he was also physically handicapped (Plut. Alex. 77.5)
+	add_trait = possessed # the Heidelberg epitome claims that he had epilepsy
+	add_trait = incapable
+	
+	420.1.1 = { # approximate
+		birth = yes # 356 BC
+	}
+	453.6.11 = { # 11 June 323 BC
+		name = "Philippos" # adopts the regnal name Philip
+		###give_nickname = nick_arrhidaios
+	}
+	455.1.1 = { # 321 BC
+		add_spouse = 846 # Hadea
+	}
+	459.10.1 = { # October 317 BC
+		death = { 
+			death_reason = death_execution # stabbed to death by Thracian soldiers on the orders of Olympias
+			killer = 10011 # Olympias
+		}
+	}
+}
+849 = {
+	name = "Alexandros" # king Alexander III, aka Alexander the Great	
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 841 # Philip II
+	mother = 10011 # Olympias
+	
+	diplomacy = 12
+	martial = 14
+	stewardship = 7
+	intrigue = 8
+	learning = 9
+	
+	add_trait = brilliant_strategist
+	add_trait = wroth
+	add_trait = ambitious # did not know when to stop
+	add_trait = brave # constantly put his life on the line in battles and sieges
+	add_trait = paranoid # brutally supressed suspected plots
+	add_trait = proud # had a literal god complex
+	add_trait = organizer # implemented logistical reforms which gave his army greater mobility
+	add_trait = narrow_flank_leader # was able secure victory from unfavourable positions
+	add_trait = strategist # goes without saying
+	add_trait = administrator # re-organised military & civil governance structures after conquering Persia
+	add_trait = architect # founded -a lot- of cities
+	add_trait = drunkard
+	add_trait = quick # not your typical intellectual, but displayed ingenuinity in his strategies
+	
+	420.7.20 = { # 20 July 356 BC
+		birth = yes
+		create_bloodline = {
+			type = bloodline_alexander
+			has_dlc = "Holy Fury"
+		}
+	}
+	449.3.1 = { # early spring 327 BC
+		add_spouse = 100001 # Rhoxane
+	}
+	452.3.1 = { # March 324 BC, Susa weddings
+		add_spouse = 90339 # Stateira
+		add_spouse = 90341 # Parysatis
+	}
+	453.5.30 = { # 30 May 323 BC, approximate
+		trait = ill # his health started to rapidly decline around 11-14 days before his death
+	}
+	453.6.11 = { # 11 June 323 BC
+		give_nickname = nick_the_great # his epithet 'the Great' is only attested after his death, first appearing in Plautus' play Mostellaria
+		death = { 
+			death_reason = death_poor_health # his death has been variously attributed to poisoning, disease or a combination of heavy drinking and severe wounds
+		}
+	}
+}
+850 = {
+	name = "Kleopatra" # queen of Epirus	
+	female = yes
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 841 # Philip II
+	mother = 10011 # Olympias
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	
+	421.1.1 = { # approximate (probably born in the period 355-353 BC)
+		birth = yes
+	}
+	440.10.1 = { # 336 BC
+		add_spouse = 10008 # Alexander I
+	}
+	453.6.10 = {
+		employer = 848 # Philip III
+	}
+	467.1.1 = { # 309 BC
+		death = { 
+			death_reason = death_murder # murdered by women acting under the governor of Sardis, who in turn was under orders from Antigonus I
+			killer = 401 # Antigonos
+		}
+	}
+}
+851 = {
+	name = "Europe" 	
+	female = yes
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 841 # Philip II
+	mother = 3701 # Kleopatra
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	
+	440.1.1 = { # September 336 BC, approximate
+		birth = yes # according to Diodorus she was born a few days before Philip II's death
+	}
+	440.10.1 = { # 335 BC, approximate
+		death = { 
+			death_reason = death_murder # supposedly murdered on the orders of Olympias
+			killer = 10011 # Olympias
+		}
+	}
+}
+852 = {
+	name = "Thessalonike"
+	female = yes 	
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 841 # Philip II
+	mother = 30411 # Nikasipolis
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	
+	432.1.1 = { # approximate
+		birth = yes # 344 BC
+	}
+	461.1.1 = { # 315 BC
+		add_spouse = 2 # Kassandros
+	}
+	482.9.1 = { # Autumn 294 BC, approximate
+		death = { 
+			death_reason = death_murder # murdered by her son Antipater
+			killer = 13 # Antipatros
+		}
+	}
+}
+
+#Family of Alexander III
+
+853 = {
+	name = "Alexandros" # King Alexander IV	
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 849 # Alexander III
+	mother = 100001 # Rhoxane
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	
+	453.8.1 = { # August 323 BC, approximate
+		birth = yes
+	}
+	467.1.1 = { # 309 BC, approximate
+		death = { 
+			death_reason = death_murder_poison # poisoned by Glaucias on the orders of Cassander
+			killer = 2 # Kassandros
+		}
+	}
+}
+854 = {
+	name = "Philippos" # made up name, son of Alexander and Rhoxane who died at birth
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 849 # Alexander III
+	mother = 100001 # Rhoxane
+	
+	456.9.1 = { # autumn 326 BC, approximate (at the Acesines River)
+		birth = yes # 344 BC
+	}
+	456.9.2 = { # autumn 326 BC, approximate
+		trait = sickly
+		death = { 
+			death_reason = death_poor_health # died stillborn or within a few days of his birth
+		}
+	}
+}
+
+# TODO: Perhaps this guy should not be an Argead.
+855 = {
+	name = "Karanos" # Son of Philip II
+	dynasty = 9 # Argeadai
+	religion = greek_main
+	culture = macedonian
+	
+	father = 841 # Philip II
+	mother = 3607 # Phila
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	
+	426.1.1 = { 
+		birth="yes"
+		} # 350 BC
+	440.10.1 = { # 336 BC
+		death = {
+			death_reason = death_execution
+			killer = 849 # Alexander the Great
+		}
 	}
 }

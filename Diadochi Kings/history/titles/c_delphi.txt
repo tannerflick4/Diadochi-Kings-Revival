@@ -14,11 +14,11 @@
 	holder = 23101 # Phalaikos
 }
 430.7.19 = {
-	holder = 803 # Philip II
+	holder = 841 # Philip II
 	liege = e_macedonia
 }
 440.10.1 = {
-	holder = 802 # Alexander III
+	holder = 849 # Alexander III
 }
 453.6.10 = {
 	holder = 1

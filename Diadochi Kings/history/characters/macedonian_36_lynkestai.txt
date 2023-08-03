@@ -26,15 +26,15 @@
 	336.1.1 = { # 440 BC Made up
 		birth="yes"
 	}
-	359.1.1 = { # 417 BC, made up
-		add_spouse = 3515 # Sirrhas
+	353.1.1 = { # 423 BC, made up
+		add_spouse = 3603 # Sirrhas
 	}
 	379.1.1 = { # 397 BC Made up
 		death="yes"
 	}
 }
 3505 = {
-	name = "Arrhabaios" # Made up.
+	name = "Amyntas" # Made up.
 	dynasty = 36 # Lynkestai
 	religion = greek_main
 	culture = macedonian
@@ -147,21 +147,6 @@
 		death="yes"
 	}
 }
-3513 = {
-	name = "Sirras" # Made up.
-	dynasty = 36 # Lynkestai
-	religion = greek_main
-	culture = macedonian
-
-    father = 3512
-	
-	506.1.1 = { # 270 BC
-		birth="yes"
-	}
-	541.1.1 = { # 235 BC
-		death="yes"
-	}
-}
 3514 = {
 	name = "Bromeros"
 	dynasty = 36 # Lynkestai
@@ -187,7 +172,7 @@
 		birth = yes # 440 BC made up
 	}
 	353.1.1 = { # 423 BC, speculative (possibly part of the peace deal between Perdiccas II and the Lyncestians)
-		add_spouse = 824 # Perdikkas
+		add_spouse = 812 # Perdikkas
 	}
 	363.1.1 = { # 413 BC
 		add_spouse = 825 # Archelaos

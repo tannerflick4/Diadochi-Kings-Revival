@@ -3,11 +3,11 @@
 	liege = k_r_athens
 }
 438.1.1 = { # 338 BC
-	holder = 803 # Philip II
+	holder = 841 # Philip II
 	liege = e_macedonia
 }
 440.10.1 = { # 336 BC
-	holder = 802 # Alexander
+	holder = 849 # Alexander
 }
 453.6.10 = { # 323 BC
 	holder = 30001 # Lysimachus

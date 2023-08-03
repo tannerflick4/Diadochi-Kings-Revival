@@ -48,7 +48,7 @@
 		add_trait = diadochi_king
 	}
 	461.1.1 = { # 315 BC
-		add_spouse = 810 # Thessalonice
+		add_spouse = 852 # Thessalonice
 	}
 	479.1.1 = { # 297 BC
 		death="yes"
@@ -211,7 +211,7 @@
 	religion = greek_main
 	culture = macedonian
 	father = 2 # Kassandros
-	mother = 810 # Thessalonike
+	mother = 852 # Thessalonike
 	
 	health = 3
 	
@@ -230,7 +230,7 @@
 	religion = greek_main
 	culture = macedonian
 	father = 2 # Kassandros
-	mother = 810 # Thessalonike
+	mother = 852 # Thessalonike
 	
 	add_trait = diadochi_king
 	add_trait = deceitful
@@ -254,7 +254,7 @@
 	religion = greek_main
 	culture = macedonian
 	father = 2 # Kassandros
-	mother = 810 # Thessalonike
+	mother = 852 # Thessalonike
 	
 	add_trait = diadochi_king
 	add_trait = trusting

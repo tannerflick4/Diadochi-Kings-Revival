@@ -149,7 +149,7 @@
 		birth="yes"
 	}
 	440.10.1 = { # 336 BC
-		add_spouse = 809 # Kleopatra of Macedon
+		add_spouse = 850 # Kleopatra of Macedon
 	}
 	445.1.1 = { # 331 BC
 		death = {
@@ -163,7 +163,8 @@
 	religion = greek_main
 	culture = doric
 	father = 10008 # Alexander I
-	mother = 809 # Kleopatra of Macedon
+	mother = 850 # Kleopatra of Macedon
+	
 	diplomacy = 5
 	martial = 4
 	stewardship = 4
@@ -227,7 +228,7 @@
 	}
 }
 10011 = {
-	name = "Olympias" # Alexander's mother
+	name = "Olympias" # mother of Alexander the Great
 	dynasty = 1001 # Aiakidai
 	religion = greek_main
 	culture = doric
@@ -245,9 +246,27 @@
 	add_trait = elusive_shadow
 	add_trait = proud
 	add_trait = zealous
+	add_trait = cruel
 	
 	401.1.1 = { # 375 BC
 		birth="yes"
+		name = Polyxena # her birth name
+	}
+	419.9.1 = { # autumn 357 BC
+		name = Myrtale # adopted on her marriage
+		add_spouse = 841 # Philip II
+	}
+	420.7.20 = { # 20 July 356 BC
+		name = Olympias # possibly adopted this name following Philip II's Olympic victory, which coincided with Alexander's birth
+	}
+	439.3.1 = { # Spring 337 BC, approximate
+		employer = 10008 # flees to the court of her brother Alexander
+		effect = {		
+			add_rival = 3701 # rivalry with Cleopatra Euridike, probably caused by concerns about Alexander's rights of inheritance
+		}
+	}
+	3418.1.1 = { # 336 BC, approximate
+		employer = 841 # returns to Pella
 	}
 	460.1.15 = { # 316 BC
 		death = {
@@ -317,7 +336,7 @@
 	religion = greek_main
 	culture = doric
 	father = 10008 # Alexander I
-	mother = 809 # Kleopatra of Macedon
+	mother = 850 # Kleopatra of Macedon
 	female = yes
 	
 	442.1.1 = {

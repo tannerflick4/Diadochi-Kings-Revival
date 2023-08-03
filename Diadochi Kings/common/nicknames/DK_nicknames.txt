@@ -1,5 +1,7 @@
 nick_chakravartin = {}
-ick_philhellene = {}
+nick_philhellene = {}
+nick_the_small = {}
+nick_the_red = {}
 nick_the_animal_protector = {
 	allow = {
 		OR = {

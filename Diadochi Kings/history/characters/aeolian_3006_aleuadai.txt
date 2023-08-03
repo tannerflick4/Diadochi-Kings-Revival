@@ -1,13 +1,1035 @@
 # 30501-30600 for the Aleuadai dynasty
 30501 = {
-	name = "Thrasydaios" # Ruler of Larissa
+	name = "Aleuas" # Aleuas I "the Red", semi-legendary figure who established the tetrarchy system
 	dynasty = 3006 # Aleuadai
 	religion = greek_main
 	culture = aeolian
-	393.1.1 = { # Made up
-		birth="yes" # 383 BC
+	
+	diplomacy = 7
+	martial = 9
+	stewardship = 9
+	intrigue = 5
+	learning = 6
+	
+	add_trait = midas_touched
+	add_trait = proud
+	add_trait = wroth
+	add_trait = diligent
+	add_trait = genius
+	add_trait = strategist
+	add_trait = administrator
+	add_trait = mystic
+
+	100.1.1 = { # made up
+		birth = yes # 676 BC
+		give_nickname = nick_the_red
 	}
-	434.1.1 = { # Made up
-		death="yes" # 342 BC
+	176.1.1 = { # made up
+		death = yes # 600 BC
+	}
+}
+30502 = {
+	name = "Eurylochos" # Thessalian general during the First Sacred War
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30501 # Aleuas, speculative
+	
+	add_trait = skilled_tactician
+
+	131.1.1 = { # made up
+		birth = yes # 645 BC
+	}
+	198.1.1 = { # made up
+		death = yes # 578 BC
+	}
+}
+30503 = {
+	name = "Aleuas" # fictional
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30502 # Eurylochos
+	
+	163.1.1 = { # made up
+		birth = yes # 613 BC
+	}
+	220.1.1 = { # made up
+		death = yes # 556 BC
+	}
+}
+30504 = {
+	name = "Simos" 
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30503 # Aleuas, speculative
+	
+	194.1.1 = { # made up
+		birth = yes # 582 BC
+	}
+	253.1.1 = { # made up
+		death = yes # 523 BC
+	}
+}
+30505 = {
+	name = "Aleuas" # Aleuas II, noted for being a friend of the poet Simonides
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30504 # Simos
+	
+	222.1.1 = { # made up
+		birth = yes # 554 BC
+	}
+	#3234.1.1 = { # 520 BC, made up
+	#	effect = {
+	###		add_relation_friend = character:... # becomes friends with Simonides
+	#	}
+	#}
+	275.1.1 = { # made up
+		death = yes # 501 BC
+	}
+}
+30506 = {
+	name = "Thorax" # dynast of Larissa who supported Xerxes' invasion along with his brothers
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30505 # Aleuas
+	
+	254.1.1 = { # made up
+		birth = yes # 522 BC
+	}
+	307.1.1 = { # made up
+		death = yes # 469 BC
+	}
+}
+30507 = {
+	name = "Simos" # fictional
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30506 # Thorax
+	
+	277.1.1 = { # made up
+		birth = yes # 499 BC
+	}
+	331.1.1 = { # made up
+		death = yes # 445 BC
+	}
+}
+30508 = {
+	name = "Therodamas" 
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30507 # Simos, speculative
+	
+	309.1.1 = { # made up
+		birth = yes # 467 BC
+	}
+	348.1.1 = { # made up
+		death = yes # 428 BC
+	}
+}
+30509 = {
+	name = "Aleuas" 
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30508 # Therodamas
+	
+	add_trait = trusting
+	
+	338.1.1 = { # made up
+		birth = yes # 438 BC
+	}
+	374.1.1 = { # 402 BC, made up
+		death = { 
+			death_reason = death_murder # supposedly murdered by people he trusted
+		}
+	}	
+}
+30510 = {
+	name = "Simos" # tyrant in Larissa ca. 358-344 BC
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30509 # Aleuas, speculative
+	
+	add_trait = intricate_webweaver
+	add_trait = ambitious
+	add_trait = wroth
+	add_trait = impaler
+	
+	372.1.1 = { # made up
+		birth = yes # 404 BC
+	}
+	436.1.1 = { # made up
+		death = yes # 340 BC
+	}
+}
+30511 = {
+	name = "Thrasyllos" 
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30509 # Aleuas, speculative
+	
+	375.1.1 = { # made up
+		birth = yes # 401 BC
+	}
+	409.1.1 = { # 367 BC, made up
+		death = { 
+			death_reason = death_murder # murdered by Eurydamas in the course of an aristocratic dispute
+			###killer = thessalian002a02 # Eurydamas
+		}
+	}
+}
+30512 = {
+	name = "Thrasymachos" 
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30510 # Simos, speculative
+	
+	403.1.1 = { # made up
+		birth = yes # 373 BC
+	}
+	448.1.1 = { # made up
+		death = yes # 328 BC
+	}
+}
+30513 = {
+	name = "Thorax" # known for staying by the body of Antigonus at Ipsus
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	add_trait = tough_soldier
+	add_trait = stubborn
+	add_trait = kind
+	
+	father = 30512 # Thrasymachos, speculative
+	436.1.1 = { # made up
+		birth = yes # 340 BC
+	}
+	481.1.1 = { # made up
+		death = yes # 295 BC
+	}
+}
+30514 = {
+	name = "Simos" # fictional
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30513 # Thorax
+	
+	460.1.1 = { # made up
+		birth = yes # 316 BC
+	}
+	510.1.1 = { # made up
+		death = yes # 266 BC
+	}
+}
+30515 = {
+	name = "Damostheneis" 
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30514 # Simos, speculative
+	
+	487.1.1 = { # made up
+		birth = yes # 289 BC
+	}
+	536.1.1 = { # made up
+		death = yes # 240 BC
+	}
+}
+30516 = {
+	name = "Simos"
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30515 # Damostheneis, speculative
+	
+	520.1.1 = { # made up
+		birth = yes # 256 BC
+	}
+	571.1.1 = { # made up
+		death = yes # 205 BC
+	}
+}
+30517 = {
+	name = "Aleuas" # gymnasiarch ca. 217 BC
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30515 # Damostheneis
+	
+	520.1.1 = { # made up
+		birth = yes # 252 BC
+	}
+	577.1.1 = { # made up
+		death = yes # 199 BC
+	}
+}
+30518 = {
+	name = "Molouros" # tagos in the early 2nd century BC
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30516 # Simos
+	
+	3526.1.1 = { # made up
+		birth = yes # 228 BC
+	}
+	3583.1.1 = { # made up
+		death = yes # 171 BC
+	}
+}
+30519 = {
+	name = "Hermodoros" # held religious office
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30516 # Simos
+	
+	trait = martial_cleric
+	trait = zealous
+	
+	550.1.1 = { # made up
+		birth = yes # 226 BC
+	}
+	613.1.1 = { # made up
+		death = yes # 163 BC
+	}
+}
+30520 = {
+	name = "Eurypylos" # dynast of Larissa who supported Xerxes' invasion along with his brothers
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30505 # Aleuas
+	
+	256.1.1 = { # made up
+		birth = yes # 520 BC
+	}
+	310.1.1 = { # made up
+		death = yes # 466 BC
+	}
+}
+30521 = {
+	name = "Hippostratos" # fictional
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30520 # Eurypylos
+	
+	289.1.1 = { # made up
+		birth = yes # 489 BC
+	}
+	341.1.1 = { # made up
+		death = yes # 435 BC
+	}
+}
+30522 = {
+	name = "Nikonidas" # friend of Perdiccas II who accompanied Brasidas through Thessaly
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30521 # Hippostratos, speculative
+	
+	312.1.1 = { # made up
+		birth = yes # 464 BC
+	}
+	#3314.1.1 = { # 440 BC, made up
+	#	effect = {
+	###		add_relation_friend = character:... # becomes friends with Perdiccas
+	#	}
+	#}
+	368.1.1 = { # made up
+		death = yes # 408 BC
+	}
+}
+30523 = {
+	name = "Medeios" # Medius I, dynast in Larissa who resisted the tyrants of Pherae
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30522 # Nikonidas, speculative
+	
+	add_trait = stubborn
+	
+	328.1.1 = { # made up
+		birth = yes # 428 BC
+	}
+	406.1.1 = { # made up
+		death = yes # 370 BC
+	}
+}
+30524 = {
+	name = "Eurydamas" 
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30523 # Medeios
+	
+	add_trait = deceitful
+	
+	370.1.1 = { # made up
+		birth = yes # 404 BC
+	}
+	410.1.1 = { # 366 BC, approximate
+		death = { 
+			death_reason = death_execution # killed by Simos in revenge for murdering his brother
+			killer = 30510 # Simos
+		}
+	}
+}
+30525 = {
+	name = "Oxythemis" # Oxythemis I
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30524 # Medeios
+	
+	379.1.1 = { # made up
+		birth = yes # 397 BC
+	}
+	432.1.1 = { # made up
+		death = yes # 344 BC
+	}
+}
+30526 = {
+	name = "Philinna" 
+	female = yes
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30523 # Medeios, speculative
+	
+	393.1.1 = { # made up
+		birth = yes # 383 BC
+	}
+	418.12.1 = { # autumn/winter 358 BC
+		add_spouse = 841 # Philippos II
+	}
+	434.1.1 = { # made up
+		death = yes # 342 BC
+	}
+}
+30527 = {
+	name = "Medeios" # Medius II
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30524 # Eurydamas
+	
+	406.1.1 = { # made up
+		birth = yes # 370 BC
+	}
+	464.1.1 = { # made up
+		death = yes # 312 BC
+	}
+}
+30528 = {
+	name = "Medeios" # Medius III, companion of Alexander and commander under Antigonus Monopthalmus
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30525 # Oxythemis
+	
+	add_trait = skilled_tactician
+	add_trait = gregarious
+	add_trait = arbitrary
+	add_trait = deceitful
+	
+	409.1.1 = { # made up
+		birth = yes # 367 BC
+	}
+	#3430.1.1 = { # 324 BC, made up
+	#	effect = {
+	###		add_relation_friend = character:... # becomes one of Alexander's closest friends
+	#		add_relation_lover = character:... # supposedly the lover of Iollas
+	#	}
+	#}
+	489.1.1 = { # made up
+		death = yes # 287 BC
+	}
+}
+30529 = {
+	name = "Hippostratos" # appointed satrap of Media ca. 316 BC
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30525 # Oxythemis
+	
+	add_trait = tough_soldier
+	add_trait = fair
+	
+	412.1.1 = { # made up
+		birth = yes # 364 BC
+	}
+	#3413.1.1 = { # 341 BC, made up
+	###	add_spouse = ... # Lais
+	#}
+	461.1.1 = { # 315 BC, speculative
+		death = { 
+			death_reason = death_battle # possibly died in battle against Meleager and Menoitas
+		}
+	}
+}
+30530 = {
+	name = "Oxythemis" # fictional
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30528 # Medeios
+	
+	443.1.1 = { # made up
+		birth = yes # 333 BC
+	}
+	496.1.1 = { # made up
+		death = yes # 280 BC
+	}
+}
+30531 = {
+	name = "Oxythemis" # Oxythemis II, philos and flatterer of Demetrius Poliorcetes
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30529 # Hippostratos
+	
+	add_trait = charismatic_negotiator
+	add_trait = ambitious
+	add_trait = proud
+	add_trait = deceitful
+	
+	
+	445.1.1 = { # made up
+		birth = yes # 331 BC
+	}
+	495.1.1 = { # 281 BC, made up
+		death = { 
+			death_reason = death_execution # executed by Antigonus Gonatas
+			###killer = macedonian00104 # Antigonos
+		}
+	}
+}
+30532 = {
+	name = "Medeios" # Medius IV, historian
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30531 # Oxythemis
+	
+	trait = scholarly_theologian
+	trait = scholar
+	
+	477.1.1 = { # made up
+		birth = yes # 299 BC
+	}
+	555.1.1 = { # made up
+		death = yes # 221 BC
+	}
+}
+30533 = {
+	name = "Hippostratos"
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30531 # Oxythemis, speculative
+	
+	480.1.1 = { # made up
+		birth = yes # 296 BC
+	}
+	536.1.1 = { # made up
+		death = yes # 240 BC
+	}
+}
+30534 = {
+	name = "Argeadas" # helped fund renovations of the gymnasium in the early 2nd century BC
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30533 # Hippostratos
+	
+	518.1.1 = { # made up
+		birth = yes # 258 BC
+	}
+	591.1.1 = { # made up
+		death = yes # 185 BC
+	}
+}
+30535 = {
+	name = "Thrasydaios" # dynast of Larissa who supported Xerxes' invasion along with his brothers
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30505 # Aleuas
+	
+	259.1.1 = { # made up
+		birth = yes # 517 BC
+	}
+	317.1.1 = { # made up
+		death = yes # 459 BC
+	}
+}
+30536 = {
+	name = "Eurylochos" 
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	add_trait = proud
+	add_trait = charitable
+	add_trait = ambitious
+	
+	father = 30535 # Thrasydaios, speculative
+	
+	292.1.1 = { # made up
+		birth = yes # 484 BC
+	}
+	362.1.1 = { # made up
+		death = yes # 414 BC
+	}
+}
+30537 = {
+	name = "Thrasydaios" # fictional
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30536 # Eurylochos
+	
+	321.1.1 = { # made up
+		birth = yes # 455 BC
+	}
+	374.1.1 = { # made up
+		death = yes # 402 BC
+	}
+}
+30538 = {
+	name = "Eurylochos" 
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30537 # Thrasydaios, speculative
+	
+	354.1.1 = { # made up
+		birth = yes # 422 BC
+	}
+	408.1.1 = { # made up
+		death = yes # 368 BC
+	}
+}
+30539 = {
+	name = "Thrasydaios" # tetrarch of Thessaly
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30538 # Eurylochos, speculative
+	
+	add_trait = naive_appeaser
+	add_trait = slow
+	
+	386.1.1 = { # made up
+		birth = yes # 390 BC
+	}
+	450.1.1 = { # made up
+		death = yes # 326 BC
+	}
+}
+
+30540 = {
+	name = "Echekratidas" # Echekratidas I, made the first offering at Delphi according to Pausanias
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30501 # Aleuas, speculative
+	
+	add_trait = zealous
+	add_trait = charitable
+	
+	134.1.1 = { # made up
+		birth = yes # 642 BC
+	}
+	188.1.1 = { # made up
+		death = yes # 588 BC
+	}
+}
+30541 = {
+	name = "Lattamyas" 
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30540 # Echekratidas, speculative
+	
+	add_trait = tough_soldier
+	
+	163.1.1 = { # made up
+		birth = yes # 613 BC
+	}
+	206.1.1 = { # 570 BC, approximate
+		death = { 
+			death_reason = death_battle # died in battle against the Thebans
+		}
+	}
+}
+30542 = {
+	name = "Echekrateia" 
+	female = yes
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30540 # Echekratidas, speculative
+	
+	179.1.1 = { # made up
+		birth = yes # 597 BC
+	}
+	#3174.1.1 = { # 580 BC, made up
+	###	add_spouse = ... # Kreon
+	#}
+	232.1.1 = { # made up
+		death = yes # 544 BC
+	}
+}
+30543 = {
+	name = "Echekratidas" # Echekratidas II
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30541 # Lattamyas, speculative
+	
+	198.1.1 = { # made up
+		birth = yes # 578 BC
+	}
+	#3202.1.1 = { # 552 BC, made up
+	#	add_spouse = ... # Dyseris
+	#}
+	237.1.1 = { # made up
+		death = yes # 539 BC
+	}
+}
+30544 = {
+	name = "Antiochos" 
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30543 # Echekratidas
+	#mother = ... # Dyseris
+	
+	225.1.1 = { # made up
+		birth = yes # 551 BC
+	}
+	#253.1.1 = { # 523 BC, made up
+	###	add_spouse = ... # Thargelia
+	#}
+	259.1.1 = { # 517 BC, approximate
+		death = { 
+			death_reason = death_accident # killed by a collapsing roof during a feast in Crannon
+		}
+	}
+}
+30545 = {
+	name = "Echekratidas" # Echekratidas III
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30544 # Antiochos, speculative
+	#mother = ... # Thargelia, speculative
+	
+	254.1.1 = { # made up
+		birth = yes # 522 BC
+	}
+	320.1.1 = { # made up
+		death = yes # 456 BC
+	}
+}
+30546 = {
+	name = "Orestas" 
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30545 # Echekratidas
+	
+	290.1.1 = { # made up
+		birth = yes # 486 BC
+	}
+	#322.1.1 = { # 454 BC, approximate
+	###	employer = ... # exiled to Athens
+	#}
+	332.1.1 = { # made up
+		death = yes # 444 BC
+	}
+}
+30547 = {
+	name = "Aristippos" 
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30546 # Orestas, speculative
+	
+	add_trait = intricate_webweaver
+	add_trait = ambitious
+	
+	325.1.1 = { # made up
+		birth = yes # 451 BC
+	}
+	###367.1.1 = { # 407 BC, made up
+	#	effect = {
+	#		set_relation_lover = { # enters a relationship with Menon, whom he makes a commander
+	#			target = character:thessalian00108 # Menon
+	#			reason = lover_history
+	#		}
+	#	}
+	#}
+	378.1.1 = { # made up
+		death = yes # 398 BC
+	}
+}
+30548 = {
+	name = "Hellanokrates" 
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30547 # Aristippos, speculative
+	
+	354.1.1 = { # made up
+		birth = yes # 422 BC
+	}
+	416.1.1 = { # made up
+		death = yes # 360 BC
+	}
+}
+30549 = {
+	name = "Eudikos" # allegedly gave up Larissa to Philip II of Macedon
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30548 # Hellanokrates, speculative
+	
+	add_trait = flamboyant_schemer
+	add_trait = deceitful
+	add_trait = ambitious
+	
+	379.1.1 = { # made up
+		birth = yes # 397 BC
+	}
+	441.1.1 = { # made up
+		death = yes # 335 BC
+	}
+}
+30550 = {
+	name = "Polykleitos" 
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30549 # Eudikos, speculative
+	
+	add_trait = martial_cleric
+	add_trait = scholar
+	
+	407.1.1 = { # made up
+		birth = yes # 369 BC
+	}
+	465.1.1 = { # made up
+		death = yes # 311 BC
+	}
+}
+30551 = {
+	name = "Echekrates" # blind Thessalian mentioned in the Hippocratic corpus
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30550 # 30550, speculative
+	
+	trait = blinded
+	
+	434.1.1 = { # made up
+		birth = yes # 342 BC
+	}
+	476.1.1 = { # made up
+		death = yes # 300 BC
+	}
+}
+30552 = {
+	name = "Polykleitos" 
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30551 # Echekrates, speculative
+	
+	468.1.1 = { # made up
+		birth = yes # 308 BC
+	}
+	523.1.1 = { # made up
+		death = yes # 253 BC
+	}
+}
+30553 = {
+	name = "Olympias" # mother of Antigonus III Doson through her marriage to Demetrius the Fair
+	female = yes
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30552 # Polykleitos
+	
+	495.1.1 = { # made up
+		birth = yes # 281 BC
+	}
+	#512.1.1 = { # 264 BC, made up
+	###	add_spouse = macedonian00106 # Demetrios
+	#}
+	522.1.1 = { # made up
+		death = yes # 254 BC
+	}
+}
+30554 = {
+	name = "Echekrates" # served as a mercenary commander for the Ptolemies ca. 219-217
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30552 # Polykleitos, speculative
+	
+	add_trait = skilled_tactician
+	add_trait = lustful
+	add_trait = cruel
+	add_trait = cynical
+	
+	498.1.1 = { # made up
+		birth = yes # 278 BC
+	}
+	569.1.1 = { # made up
+		death = yes # 207 BC
+	}
+}
+30555 = {
+	name = "Polykleitos" 
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30552 # Polykleitos, speculative
+	
+	501.1.1 = { # made up
+		birth = yes # 275 BC
+	}
+	552.1.1 = { # made up
+		death = yes # 224 BC
+	}
+}
+30556 = {
+	name = "Eunomos" 
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30552 # Polykleitos, speculative
+	
+	537.1.1 = { # made up
+		birth = yes # 239 BC
+	}
+	599.1.1 = { # made up
+		death = yes # 177 BC
+	}
+}
+30557 = {
+	name = "Antiochos" # fictional
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30551 # Echekrates
+	
+	472.1.1 = { # made up
+		birth = yes # 304 BC
+	}
+	518.1.1 = { # made up
+		death = yes # 258 BC
+	}
+}
+30558 = {
+	name = "Echekratidas"
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30557 # Antiochos
+	
+	502.1.1 = { # made up
+		birth = yes # 274 BC
+	}
+	544.1.1 = { # made up
+		death = yes # 232 BC
+	}
+}
+30559 = {
+	name = "Antiochos" # helped fund renovations of the gymnasium in the early 2nd century BC
+	dynasty = 3006 # Aleuadai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30558 # Echekratidas
+	
+	add_trait = charitable
+	
+	535.1.1 = { # made up
+		birth = yes # 241 BC
+	}
+	599.1.1 = { # made up
+		death = yes # 177 BC
 	}
 }

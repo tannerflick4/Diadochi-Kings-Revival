@@ -4,7 +4,9 @@
 	dynasty = 7 # Ptolemaioi
 	religion = greek_main
 	culture = macedonian
-	father = 606
+	
+	father = 606 # Lagos
+	mother = 836 # Arsinoe
 	
 	dna = niccjbmdnbf
 	properties = tj0ebd00000
@@ -149,9 +151,9 @@
 	386.1.1 = {
 		birth = yes # 390 BC  made up
 	}
-	#409.1.1 = { # 367 BC, approximate
-		#add_spouse = macedonian039v03 # Arsinoe
-	#}
+	409.1.1 = { # 367 BC, approximate
+		add_spouse = 836 # Arsinoe
+	}
 	438.1.1 = {
 		death = yes # 338 BC made up
 	}

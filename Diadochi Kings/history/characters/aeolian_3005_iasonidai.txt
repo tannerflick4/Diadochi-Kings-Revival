@@ -1,9 +1,12 @@
 # 30401-30500 for the Iasonidai dynasty
 30401 = {
-	name = "Lykophron" # Of Pherae
+	name = "Lykophroun" # Lykophron of Pherai; tyrant ca. 404-395 BC
 	dynasty = 3005 # Iasonidai
 	religion = greek_main
 	culture = aeolian
+	
+	father = 30412 # Polyalkes
+	
 	327.1.1 = { # Made up
 		birth="yes" # 449 BC
 	}
@@ -12,14 +15,28 @@
 	}
 }
 30402 = {
-	name = "Iason" # Of Pherae
+	name = "Iasoun" # Jason of Pherai; tyrant ca. 379-370 BC & tagos of Thessaly ca. 373-370 BC
 	dynasty = 3005 # Iasonidai
 	religion = greek_main
 	culture = aeolian
-	father = 30401
 	
-	add_trait = skilled_tactician
-	add_trait = ambitious
+	father = 30413
+	mother = 30414 # Kytheria
+	
+	diplomacy = 14
+    martial = 11
+    stewardship = 10
+    intrigue = 8
+    learning = 6
+    
+	add_trait = grey_eminence # relied on persuasion rather than compulsion in order to win over cities
+    add_trait = greedy # repeatedly sought money from his relatives
+    add_trait = ambitious # is said to have had ambitions of uniting the Greeks and campaigning against Persia
+    add_trait = diligent
+    add_trait = deceitful # resorted to trickery on multiple occasions to steal or extort money from his relatives
+    add_trait = genius
+    add_trait = gregarious
+    add_trait = administrator
 		
 	353.1.1 = { # Made up
 		birth="yes" # 423 BC
@@ -31,11 +48,14 @@
 	}
 }
 30403 = {
-	name = "Polydoros" # Of Pherae, brother of Jason
+	name = "Polydouros" # Polydorus, tyrant of Pherai ca. 370 BC
 	dynasty = 3005 # Iasonidai
 	religion = greek_main
 	culture = aeolian
-	father = 30401
+	
+	father = 30413
+	mother = 30414 # Kytheria
+	
 	355.1.1 = { # Made up
 		birth="yes" # 421 BC
 	}
@@ -47,11 +67,14 @@
 	}
 }
 30404 = {
-	name = "Alexandros" # brother of Jason
+	name = "Meirionas" # Merion, brother of Jason who lived in Pagasai
 	dynasty = 3005 # Iasonidai
 	religion = greek_main
 	culture = aeolian
-	father = 30401
+	
+	father = 30413
+	mother = 30414 # Kytheria
+	
 	359.1.1 = { # Made up
 		birth="yes" # 417 BC
 	}
@@ -60,11 +83,13 @@
 	}
 }
 30405 = {
-	name = "Polyphron" # brother of Jason
+	name = "Polyphroun" # Polyphron, tyrant of Pherai ca. 370-369 BC
 	dynasty = 3005 # Iasonidai
 	religion = greek_main
 	culture = aeolian
-	father = 30401
+	
+	father = 30413
+	mother = 30414 # Kytheria
 	
 	add_trait = cruel
 	
@@ -79,25 +104,37 @@
 	}
 }
 30406 = {
-	name = "Alexandros" # Alexander of Pherae
+	name = "Alexandros" # tyrant of Pherai ca. 369-357 BC
 	dynasty = 3005 # Iasonidai
 	religion = greek_main
 	culture = aeolian
-	father = 30402
+
+	father = 30403 # Polydouros
 	
+	diplomacy = 5
+    martial = 7
+    stewardship = 9
+    intrigue = 7
+    learning = 7
+    
+    add_trait = skilled_tactician # Isokrates considered him a potential leader in a campaign against Persia, highlighting his military capabilities
+    add_trait = brave # known for his bold actions (e.g. his attack on Tenos and raid on the Piraeus), and a Hellenistic epigram refers to his great courage
+    add_trait = zealous # Theopompus attests to his piety towards the cult of Dionysus Pelagios
+    add_trait = architect  # may have refounded Pagasai and organised the construction of its city walls
+    add_trait = greedy # struck coinage of exceedingly good workmanship under his own name
+    add_trait = pirate # in the latter part of his rule he embarked on several successful raiding expeditions
 	add_trait = ambitious
 	# This guy is a perfect example of a tyrant
 	add_trait = cruel
-	add_trait = deceitful
+	add_trait = deceitful # Alexander's treatment of Pelopidas became paradigmatic of faithless dealings
 	add_trait = wroth
-	add_trait = craven
-	add_trait = arbitrary
+	add_trait = arbitrary # executed a former lover and imprisoned Pelopidas without just cause
 	
 	389.1.1 = { # Made up
 		birth="yes" # 387 BC
 	}
 	408.1.1 = {
-		add_spouse = 30410
+		add_spouse = 30410 # Theiba
 	}
 	418.1.1 = { # 358 BC
 		death = {
@@ -107,11 +144,13 @@
 	}
 }
 30407 = {
-	name = "Tisiphonos" # Later Tyrant of Pherae
+	name = "Tisiphonos" # Tisiphonus, tyrant of Pherai ca. 357-354 BC
 	dynasty = 3005 # Iasonidai
 	religion = greek_main
 	culture = aeolian
-	father = 30403
+	
+	father = 30415 # Polyalkes
+	
 	390.1.1 = { # Made up
 		birth="yes" # 386 BC
 	}
@@ -120,11 +159,13 @@
 	}
 }
 30408 = {
-	name = "Pytholaos" # Brother of Tisiphonos
+	name = "Peitholaos" # jointly tyrant of Pherai ca. 354-352 BC
 	dynasty = 3005 # Iasonidai
 	religion = greek_main
 	culture = aeolian
-	father = 30403
+	
+	father = 30415 # Polyalkes
+	
 	397.1.1 = { # Made up
 		birth="yes" # 379 BC
 	}
@@ -133,11 +174,13 @@
 	}
 }
 30409 = {
-	name = "Lykophron" # Brother of Tisiphonos
+	name = "Lykophroun" # jointly tyrant of Pherai ca. 354-352 BC
 	dynasty = 3005 # Iasonidai
 	religion = greek_main
 	culture = aeolian
-	father = 30403
+	
+	father = 30415 # Polyalkes
+	
 	399.1.1 = { # Made up
 		birth="yes" # 377 BC
 	}
@@ -146,27 +189,43 @@
 	}
 }
 30410 = {
-	name = "Thebe" # Sister of Tisiphonos and wife of Alexandros
+	name = "Theiba" # in some traditions, Thebe exercised the real power while Tisiphon was tyrant
 	dynasty = 3005 # Iasonidai
 	religion = greek_main
 	culture = aeolian
-	father = 30403
 	female = yes
+	
+	father = 30402 # Iasoun
+	
+	diplomacy = 8
+    martial = 8
+    stewardship = 7
+    intrigue = 8
+    learning = 5
+    
+    add_trait = flamboyant_schemer # if we are to trust Plutarch and Konon, her plot to kill Alexander was fairly well thought out, had no issue with using blackmail to secure her brothers' support
+    add_trait = envious # may have arranged the murder of Alexander in retaliation for his seeking another wife
+    add_trait = wroth # described as being in a rage while pressing her brothers to kill Alexander (Plut. Pelop. 35. 6)
+    add_trait = brave # led her brothers in murdering Alexander
+	
 	392.1.1 = { # Made up
 		birth="yes" # 384 BC
+	}
+	408.1.1 = {
+		add_spouse = 30406 # Alexandros
 	}
 	420.1.1 = { # Made up
 		death="yes" # 356 BC
 	}
 }
 30411 = {
-	name = "Nikesipolis" # wife of Philip II
+	name = "Nikesipolis" # Nikesipolis, wife of Philip II and mother of Thessalonike
 	female = yes
 	dynasty = 3005 # Iasonidai
 	religion = greek_main
 	culture = aeolian
 	
-	father = 30403
+	father = 30404 # Meirionas
 	
 	diplomacy = 5
 	martial = 5
@@ -174,10 +233,279 @@
 	intrigue = 5
 	learning = 5
 	
-	401.1.1 = {birth="yes"} # 375 BC Made up
-	424.1.1 = { # 352 BC
+	401.1.1 = { # 375 BC Made up
+		birth="yes"
+	}
+	424.6.1 = { # early summer 352 BC
+		add_spouse = 841 # Phillip II
+	}
+	432.1.1 = { # 344 BC
 		death = {
-			death_reason = death_childbirth
+			death_reason = death_childbirth # died on the twentieth day after giving birth to Thessalonike
 		}
+	}
+}
+30412 = {
+	name = "Polyalkes" # fictional father of Lykophron
+	dynasty = 3005 # Iasonidai
+	religion = greek_main
+	culture = aeolian
+	
+	285.1.1 = { # made up
+		birth = yes # 491 BC
+	}
+	335.1.1 = { # made up
+		death = yes # 441 BC
+	}
+}
+30413 = {
+	name = "Teisiphonos" # fictional father of Jason
+	dynasty = 3005 # Iasonidai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30412 # Polyalkes
+	
+	320.1.1 = { # made up
+		birth = yes # 456 BC
+	}
+    353.6.1 = { # 423 BC, made up
+       add_spouse = 30414 # Kytheria
+    }
+	377.1.1 = { # made up
+		death = yes # 399 BC
+	}
+}
+30414 = {
+	name = "Kytheria" # made up name; Jason of Pherai's wealthy mother
+	female = yes
+	dynasty = 3005 # Iasonidai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30401 # Lykophroun, speculative
+	
+    add_trait = trusting # repeatedly falls for Jason's extortionate tricks 
+    add_trait = kind
+    
+	336.1.1 = { # made up
+		birth = yes # 440 BC
+	}
+    353.6.1 = { # 423 BC, made up
+       add_spouse = 30413 # Teisiphonos
+    }
+	410.1.1 = { # made up
+		death = yes # 366 BC
+	}
+}
+30415 = {
+	name = "Polyalkes" # possibly Jason's predecessor as tyrant of Pherai
+	dynasty = 3005 # Iasonidai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30413 # Teisiphonos
+	mother = 30414 # Kytheria
+	
+	354.1.1 = { # made up
+		birth = yes # 422 BC
+	}
+	394.1.1 = { # made up (but probably died in the late 380s BC)
+		death = yes # 382 BC
+	}
+}
+30416 = {
+	name = "Porthaon"
+	dynasty = 3005 # Iasonidai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30402 # Iasoun, speculative (Only attested in Polyaenus 6.1.6, leading some scholars to consider him instead a son of Merion)
+	
+	401.1.1 = { # made up
+		birth = yes # 375 BC
+	}
+	454.1.1 = { # made up
+		death = yes # 322 BC
+	}
+}
+30417 = {
+	name = "Philippidas"
+	dynasty = 3005 # Iasonidai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30404 # Meirionas, speculative
+	
+	397.1.1 = { # made up
+		birth = yes # 379 BC
+	}
+	462.1.1 = { # made up
+		death = yes # 314 BC
+	}
+}
+30418 = {
+	name = "Meirionas" # gymnasiarch at Pherai ca. 299 BC
+	dynasty = 3005 # Iasonidai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30417 # Philippidas
+	
+	429.1.1 = { # made up
+		birth = yes # 347 BC
+	}
+	484.1.1 = { # made up
+		death = yes # 292 BC
+	}
+}
+30419 = {
+	name = "Polydouros" # gymnasiarch at Pherai ca. 306 BC
+	dynasty = 3005 # Iasonidai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30407 # Teisiphonos, speculative
+	
+	419.1.1 = { # made up
+		birth = yes # 357 BC
+	}
+	478.1.1 = { # made up
+		death = yes # 298 BC
+	}
+}
+30420 = {
+	name = "Iasoun" # gymnasiarch at Pherai ca. 304 BC
+	dynasty = 3005 # Iasonidai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30409 # Lykophroun, speculative
+	
+	422.1.1 = { # made up
+		birth = yes # 354 BC
+	}
+	470.1.1 = { # made up
+		death = yes # 306 BC
+	}
+}
+30421 = {
+	name = "Philiskos"
+	dynasty = 3005 # Iasonidai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30409 # Lykophroun, speculative
+	
+	426.1.1 = { # made up
+		birth = yes # 350 BC
+	}
+	481.1.1 = { # made up
+		death = yes # 295 BC
+	}
+}
+30422 = {
+	name = "Lykophroun" # attested in an early Hellenistic epitaph which may be Orphic in nature
+	dynasty = 3005 # Iasonidai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30421 # Philiskos
+	
+	452.1.1 = { # made up
+		birth = yes # 324 BC
+	}
+	512.1.1 = { # made up
+		death = yes # 264 BC
+	}
+}
+30423 = {
+	name = "Alexandros"
+	dynasty = 3005 # Iasonidai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30422 # Lykophroun, speculative
+	
+	481.1.1 = { # made up
+		birth = yes # 295 BC
+	}
+	537.1.1 = { # made up
+		death = yes # 239 BC
+	}
+}
+30424 = {
+	name = "Iasoun" # gymnasiarch at Pherai ca. 222 BC
+	dynasty = 3005 # Iasonidai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30423 # Alexandros
+	
+	508.1.1 = { # made up
+		birth = yes # 268 BC
+	}
+	569.1.1 = { # made up
+		death = yes # 207 BC
+	}
+}
+30425 = {
+	name = "Alexandros" # gymnasiarch at Pherai ca. 191 BC
+	dynasty = 3005 # Iasonidai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30424 # Iasoun, speculative
+	
+	539.1.1 = { # made up
+		birth = yes # 237 BC
+	}
+	603.1.1 = { # made up
+		death = yes # 173 BC
+	}
+}
+30426 = {
+	name = "Peithelaos"
+	dynasty = 3005 # Iasonidai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30423 # Alexandros, speculative
+	
+	514.1.1 = { # made up
+		birth = yes # 262 BC
+	}
+	576.1.1 = { # made up
+		death = yes # 200 BC
+	}
+}
+30427 = {
+	name = "Iasoun" # gymnasiarch at Pherai ca. 191 BC
+	dynasty = 3005 # Iasonidai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30426 # Peithelaos
+	
+	545.1.1 = { # made up
+		birth = yes # 231 BC
+	}
+	595.1.1 = { # made up
+		death = yes # 181 BC
+	}
+}
+30428 = {
+	name = "Peitholaos" # tagos at Krannon in the first half of the 2nd century BC
+	dynasty = 3005 # Iasonidai
+	religion = greek_main
+	culture = aeolian
+	
+	father = 30427 # Iasoun, speculative
+	
+	567.1.1 = { # made up
+		birth = yes # 207 BC
+	}
+	616.1.1 = { # made up
+		death = yes # 160 BC
 	}
 }

@@ -186,6 +186,8 @@
 	dynasty = 5075
 	religion = greek_main
 	culture = ionian
+	
+	father = 56905
 
 	238.1.1 = { # 538 BC
 		birth="yes"

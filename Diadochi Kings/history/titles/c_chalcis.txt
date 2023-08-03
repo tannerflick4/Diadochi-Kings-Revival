@@ -8,7 +8,7 @@
 	liege = d_euboia
 }
 451.1.1 = { # 325 BC
-	holder = 802 # Alexander
+	holder = 849 # Alexander III
 	liege = e_macedonia
 }
 453.6.10 = { # 323 BC
