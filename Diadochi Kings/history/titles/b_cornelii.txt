@@ -1,0 +1,11 @@
+396.1.1 = {
+	liege = e_rome
+	holder = 171501
+	holding_dynasty = 17016
+}
+480.1.1 = {
+	holder = 171502
+}
+509.1.1 = {
+	holder = 171504
+}

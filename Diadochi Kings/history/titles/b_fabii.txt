@@ -1,0 +1,14 @@
+348.1.1 = {
+	liege = e_rome
+	holder = 170301
+	holding_dynasty = 17004
+}
+432.1.1 = {
+	holder = 170302
+}
+452.1.1 = {
+	holder = 170304
+}
+482.1.1 = {
+	holder = 170305
+}
