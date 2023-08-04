@@ -1,151 +1,243 @@
-# 30301-30400 for the Pharsaloi dynasty
-30301 = {
-	name = "Menon" # Menon I, assisted the Athenians in 476 BC at Eion, and again in 431 BC
-	dynasty = 3004 # Pharsaloi
+# 30001-30100 for the Lysimakhidai dynasty
+30001 = {
+	name = "Lysimachos" # Lysimachus, Strategos of Thrace, later king of Anatolia and Macedonia
+	dynasty = 3001 # Lysimakhidai
 	religion = greek_main
 	culture = aeolian
 	
-	diplomacy = 8
+	martial = 8
+	intrigue = 9
 	
-	add_trait = skilled_tactician
-	add_trait = cavalry_leader
+	add_trait = content # Lysimachus seemed content with his rule in Thrace
+	add_trait = deceitful # Lysimachus is known to participate in plots(like killing the Clearchids and killing his own son)
+	add_trait = tough_soldier # Lysimachus doesn't seem to have been a very good general
+	add_trait = lustful # Had a bastard son with a thracian woman
 	
-	277.1.1 = { # Made up
-		birth="yes" # 499 BC
+	416.1.1 = { # 360 BC
+		birth="yes" 
+		create_bloodline = { type = bloodline_lysimachus }
 	}
-	354.1.1 = { 
-		death="yes" # 422 BC
+	453.6.10 = { # 323 BC
+		add_trait = diadochi_king
+	}
+	455.1.1 = { # 321 BC
+		add_spouse = 5 # Nikaia, daughter of Antipater
+	}
+	474.1.1 = { # 302 BC
+		add_spouse = 90204 # Amastris
+	}
+	475.1.1 = { # 301 BC
+		add_spouse = 603 # Arsinoe II
+	}
+	492.1.1 = { # 284 BC
+		add_trait = kinslayer # He killed Agathocles( his own son )
+	}
+	495.2.1 = { # 281 BC, Killed in the battle of Corupedium
+		death = {
+			death_reason = death_battle 
+		}
 	}
 }
-30302 = {
-	name = "Alexidamos"
-	dynasty = 3004 # Pharsaloi
-	religion = greek_main
+30002 = {
+	name = "Agathokles" # Lysimachus' son. Later killed by his father
+	dynasty = 3001
 	culture = aeolian
-	father = 30301 # Menon
-	321.1.1 = { # made up
-		birth = yes # 455 BC
-	}
-	389.1.1 = { # made up
-		death = yes # 387 BC
-	}
-}
-30303 = {
-	name = "Thoukydidas" # proxenos of Athens in 411 BC
-	dynasty = 3004 # Pharsaloi
 	religion = greek_main
-	culture = aeolian
-	father = 30301 # Menon
-	303.1.1 = {
-		birth = yes # 473 BC made up
-	}
-	370.1.1 = {
-		death = yes # 406 BC made up
-	}
-}
-30304 = {
-	name = "Menon" # Menon II, mercenary general who was part of the "Ten Thousand"
-	dynasty = 3004 # Pharsaloi
-	religion = greek_main
-	culture = aeolian
-	father = 30302 # Alexidamos
 	
-	diplomacy = 7
-	martial = 4
-	stewardship = 3
-	intrigue = 8
-	learning = 1
+	father = 30001
+	mother = 5
 	
-	add_trait = amateurish_plotter
-	add_trait = fair
-	add_trait = lustful
-	add_trait = deceitful
-	add_trait = ambitious
-	add_trait = gregarious	
+	add_trait = diadochi_king
 	
-	353.1.1 = {
-		birth = yes # 423 BC
+	457.1.1 = { # 319 BC, Made up
+		birth="yes"
 	}
-	376.1.1 = { # 400 BC
+	# Marries Lysandra Ptolemaios somewhere
+	492.1.1 = { # 284 BC
 		death = {
 			death_reason = death_execution
-			killer = 90311 # executed by Artaxerxes II
+			killer = 30001
+		}
+	}
+}
+30003 = {
+	name = "Arsinoe" # Arsinoe I
+	dynasty = 3001
+	culture = aeolian
+	religion = greek_main
+	
+	father = 30001
+	mother = 5
+	female = yes
+	
+	471.1.1 = { # 305 BC
+		birth="yes"
+	}
+	530.1.1 = { # 246 BC, Made up
+		death="yes"
+	}
+}
+30004 = {
+	name = "Eurydike" # Daughter of Lysimachus
+	dynasty = 3001
+	culture = aeolian
+	religion = greek_main
+	
+	father = 30001
+	mother = 5
+	female = yes
+	
+	464.1.1 = { # 312 BC
+		birth="yes"
+	}
+	489.1.1 = { # 287 BC
+		death="yes"
+	}
+}
+30005 = {
+	name = "Alexandros" # Son of Lysimachus
+	dynasty = 3001
+	culture = aeolian
+	religion = greek_main
+	
+	father = 30001
+	
+	add_trait = bastard
+	add_trait = diadochi_king
+	
+	467.1.1 = { # 309 BC, Made up
+		birth="yes"
+	}
+	521.1.1 = { # 255 BC, Made up
+		death="yes"
+	}
+}
+30006 = {
+	name = "Ptolemaios" # I Epigone
+	dynasty = 3001
+	culture = aeolian
+	religion = greek_main
+	
+	father = 30001
+	mother = 603
+	
+	add_trait = diadochi_king
+	
+	477.1.1 = { # 299 BC
+		birth="yes"
+	}
+	536.2.1 = { # 240 BC
+		death="yes"
+	}
+}
+30007 = {
+	name = "Lysimachos" # Son of Lysimachus
+	dynasty = 3001
+	culture = aeolian
+	religion = greek_main
+	
+	father = 30001
+	mother = 603
+	
+	add_trait = diadochi_king
+	
+	479.1.1 = { # 297 BC
+		birth="yes"
+	}
+	497.1.1 = {
+		death = {
+			death_reason = death_execution
+			killer = 604 # Keraunos
+		}
+	}
+}
+30008 = {
+	name = "Philippos" # Son of Lysimachus
+	dynasty = 3001
+	culture = aeolian
+	religion = greek_main
+	
+	father = 30001
+	mother = 603
+	
+	add_trait = diadochi_king
+	
+	482.1.1 = { # 294 BC
+		birth="yes"
+	}
+	497.1.1 = {
+		death = {
+			death_reason = death_execution
+			killer = 604 # Keraunos
 		}
 	}	
 }
-30305 = {
-	name = "Alexidamos" # fictional link between Menon II & III
-	dynasty = 3004 # Pharsaloi
-	religion = greek_main
+30009 = {
+	name = "Lysimachos" # Son of Ptolemy Epigone
+	dynasty = 3001
 	culture = aeolian
-	father = 30304 # Menon II
-	378.1.1 = {
-		birth = yes # 402 BC made up
-	}
-	429.1.1 = {
-		death = yes # 347 BC made up
-	}
-}
-30306 = {
-	name = "Menon" # Menon III, Thessalian hipparch and leading citizen of Pharsalus
-	dynasty = 3004 # Pharsaloi
 	religion = greek_main
-	culture = aeolian
-	father = 30305 # Alexidamos	
 	
-	diplomacy = 8
+	father = 30006
 	
-	trait = skilled_tactician	
+	add_trait = diadochi_king
 	
-	410.1.1 = { # made up
-		birth = yes # 366 BC
+	512.1.1 = { # 264 BC, Made up
+		birth="yes"
 	}
-	455.1.1 = { # 321 BC
-		death = { 
-			death_reason = death_battle # died in battle against Polyperchon
-		}
+	570.1.1 = { # 206 BC
+		death="yes"
 	}
 }
-30307 = {
-	name = "Phthia" # mother of Pyrrhus of Epirus
-    female = yes
-	dynasty = 3004 # Pharsaloi
-	religion = greek_main
+30010 = {
+	name = "Ptolemaios" # Son of Lysimachos
+	dynasty = 3001
 	culture = aeolian
-	father = 30306 # Menon III
-	436.1.1 = {
-		birth = yes # 340 BC made up
-	}
-	452.1.1 = {
-		add_spouse = 10001 # Aiakidas
-	}
-	460.1.1 = {
-		death = yes # 277 BC made up
-	}
-}
-30308 = {
-	name = "Hieron"
-	dynasty = 3004 # Pharsaloi
 	religion = greek_main
-	culture = aeolian
-	father = 30306 # Menon III	
-	442.1.1 = {
-		birth = yes # 334 BC made up
+	
+	father = 30009
+	
+	add_trait = diadochi_king
+	
+	541.1.1 = { # 235 BC, Made up
+		birth="yes"
 	}
-	507.1.1 = { # made up
-		death = yes # 269 BC
+	614.1.1 = { # 162 BC, Made up
+		death="yes"
 	}
 }
-30309 = {
-	name = "Menon" # magistrate in the first half of the 3rd century BC
-	dynasty = 3004 # Pharsaloi
+30011 = {
+	name = "Epigonos" # Son of Ptolemy Epigone
+	dynasty = 3001
+	culture = aeolian
 	religion = greek_main
-	culture = aeolian
-	father = 30308 # Hieron	
-	477.1.1 = {
-		birth = yes # 299 BC made up
+	
+	father = 30006
+	
+	add_trait = diadochi_king
+	
+	518.1.1 = { # 258 BC, Made up
+		birth="yes"
 	}
-	546.1.1 = {
-		death = yes # 230 BC made up
+	581.1.1 = { # 195 BC, Made up
+		death="yes"
 	}
 }
+30012 = {
+	name = "Antipater" # Son of Epigonos
+	dynasty = 3001
+	culture = aeolian
+	religion = greek_main
+	
+	father = 30011
+	
+	add_trait = diadochi_king
+	
+	554.1.1 = { # 222 BC, Made up
+		birth="yes"
+	}
+	608.1.1 = { # 168 BC, Made up
+		death="yes"
+	}
+}
+# Antipater might have been father of a guy named Epigonos, but this isn't confirmed.

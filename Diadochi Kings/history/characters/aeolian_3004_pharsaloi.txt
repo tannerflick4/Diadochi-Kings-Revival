@@ -1,6 +1,6 @@
 # 30301-30400 for the Pharsaloi dynasty
 30301 = {
-	name = "Menon" # Ruler of Pharsalus
+	name = "Menon" # Menon I, assisted the Athenians in 476 BC at Eion, and again in 431 BC
 	dynasty = 3004 # Pharsaloi
 	religion = greek_main
 	culture = aeolian
@@ -10,10 +10,142 @@
 	add_trait = skilled_tactician
 	add_trait = cavalry_leader
 	
-	410.1.1 = { # Made up
-		birth="yes" # 366 BC
+	277.1.1 = { # Made up
+		birth="yes" # 499 BC
 	}
-	455.1.1 = { 
-		death="yes" # 321 BC
+	354.1.1 = { 
+		death="yes" # 422 BC
+	}
+}
+30302 = {
+	name = "Alexidamos"
+	dynasty = 3004 # Pharsaloi
+	religion = greek_main
+	culture = aeolian
+	father = 30301 # Menon
+	321.1.1 = { # made up
+		birth = yes # 455 BC
+	}
+	389.1.1 = { # made up
+		death = yes # 387 BC
+	}
+}
+30303 = {
+	name = "Thoukydidas" # proxenos of Athens in 411 BC
+	dynasty = 3004 # Pharsaloi
+	religion = greek_main
+	culture = aeolian
+	father = 30301 # Menon
+	303.1.1 = {
+		birth = yes # 473 BC made up
+	}
+	370.1.1 = {
+		death = yes # 406 BC made up
+	}
+}
+30304 = {
+	name = "Menon" # Menon II, mercenary general who was part of the "Ten Thousand"
+	dynasty = 3004 # Pharsaloi
+	religion = greek_main
+	culture = aeolian
+	father = 30302 # Alexidamos
+	
+	diplomacy = 7
+	martial = 4
+	stewardship = 3
+	intrigue = 8
+	learning = 1
+	
+	add_trait = amateurish_plotter
+	add_trait = fair
+	add_trait = lustful
+	add_trait = deceitful
+	add_trait = ambitious
+	add_trait = gregarious	
+	
+	353.1.1 = {
+		birth = yes # 423 BC
+	}
+	376.1.1 = { # 400 BC
+		death = {
+			death_reason = death_execution
+			killer = 90311 # executed by Artaxerxes II
+		}
+	}	
+}
+30305 = {
+	name = "Alexidamos" # fictional link between Menon II & III
+	dynasty = 3004 # Pharsaloi
+	religion = greek_main
+	culture = aeolian
+	father = 30304 # Menon II
+	378.1.1 = {
+		birth = yes # 402 BC made up
+	}
+	429.1.1 = {
+		death = yes # 347 BC made up
+	}
+}
+30306 = {
+	name = "Menon" # Menon III, Thessalian hipparch and leading citizen of Pharsalus
+	dynasty = 3004 # Pharsaloi
+	religion = greek_main
+	culture = aeolian
+	father = 30305 # Alexidamos	
+	
+	diplomacy = 8
+	
+	trait = skilled_tactician	
+	
+	410.1.1 = { # made up
+		birth = yes # 366 BC
+	}
+	455.1.1 = { # 321 BC
+		death = { 
+			death_reason = death_battle # died in battle against Polyperchon
+		}
+	}
+}
+30307 = {
+	name = "Phthia" # mother of Pyrrhus of Epirus
+    female = yes
+	dynasty = 3004 # Pharsaloi
+	religion = greek_main
+	culture = aeolian
+	father = 30306 # Menon III
+	436.1.1 = {
+		birth = yes # 340 BC made up
+	}
+	452.1.1 = {
+		add_spouse = 10001 # Aiakidas
+	}
+	460.1.1 = {
+		death = yes # 277 BC made up
+	}
+}
+30308 = {
+	name = "Hieron"
+	dynasty = 3004 # Pharsaloi
+	religion = greek_main
+	culture = aeolian
+	father = 30306 # Menon III	
+	442.1.1 = {
+		birth = yes # 334 BC made up
+	}
+	507.1.1 = { # made up
+		death = yes # 269 BC
+	}
+}
+30309 = {
+	name = "Menon" # magistrate in the first half of the 3rd century BC
+	dynasty = 3004 # Pharsaloi
+	religion = greek_main
+	culture = aeolian
+	father = 30308 # Hieron	
+	477.1.1 = {
+		birth = yes # 299 BC made up
+	}
+	546.1.1 = {
+		death = yes # 230 BC made up
 	}
 }
