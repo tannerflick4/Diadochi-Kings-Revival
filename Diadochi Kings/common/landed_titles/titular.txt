@@ -1610,7 +1610,7 @@ b_messenioi = {
 	religion = greek_main
 }
 
-# CYRENE
+# CYRENE:
 
 b_battiadai = {
 	culture = ionian
@@ -1633,7 +1633,8 @@ b_darnioi = {
 	religion = greek_main
 }
 
-# Carthage
+# CARTHAGE:
+
 b_magon = {
 	culture = punic
 	religion = punic_main
@@ -1655,7 +1656,8 @@ b_dido = {
 	religion = punic_main
 }
 
-# Massalia
+# MASSALIA:
+
 b_massaliotai = {
 	culture = ionian
 	religion = greek_main
@@ -1675,4 +1677,55 @@ b_athenopolitoi = {
 b_pergantionidai = {
 	culture = ionian
 	religion = greek_main
+}
+
+# ROME:
+
+b_valerii = {
+	culture = latin
+	religion = roman_main
+}
+b_cornelii = {
+	culture = latin
+	religion = roman_main
+}
+b_fabii = {
+	culture = latin
+	religion = roman_main
+}
+b_papirii = {
+	culture = latin
+	religion = roman_main
+}
+b_aemilii = {
+	culture = latin
+	religion = roman_main
+}
+b_marcii = {
+	culture = latin
+	religion = roman_main
+}
+b_sulpicii = {
+	culture = latin
+	religion = roman_main
+}
+b_claudii = {
+	culture = latin
+	religion = roman_main
+}
+b_manlii = {
+	culture = latin
+	religion = roman_main
+}
+b_popillii = {
+	culture = latin
+	religion = roman_main
+}
+b_furii = {
+	culture = latin
+	religion = roman_main
+}
+b_publilii = {
+	culture = latin
+	religion = roman_main
 }
