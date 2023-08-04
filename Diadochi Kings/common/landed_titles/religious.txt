@@ -56,3 +56,54 @@ k_etruscan = {
 
 	primary = yes
 }
+k_kemetic_pharaoh = {
+	color= { 225 200 0 }
+	color2= { 255 255 255 }
+	
+	title = "PHARAOH_TITLE"
+	title_female = "PHARAOH_TITLE"
+	
+	capital = 139 # Alexandria
+	
+	controls_religion = kemetic
+}
+k_atenist_pharaoh = {
+	color= { 225 200 0 }
+	color2= { 255 255 255 }
+	
+	title = "PHARAOH_TITLE"
+	title_female = "PHARAOH_TITLE"
+	
+	capital = 139 # Alexandria
+	
+	controls_religion = atenist
+}
+k_hellenic_pharaoh = {
+	color= { 225 200 0 }
+	color2= { 255 255 255 }
+	
+	title = "PHARAOH_TITLE"
+	title_female = "PHARAOH_TITLE"
+	
+	capital = 139 # Alexandria
+	
+	controls_religion = greco_kemetic
+}
+d_pontifex_maximus = {
+	color= { 125 0 0 }
+	color2= { 255 255 255 }
+
+	capital = 324 # Roma
+
+	allow = {
+		culture = latin
+	}
+
+	title = "PONTIFEX"
+	short_name = yes
+	primary = yes
+
+	controls_religion = roman_main
+
+	dignity = 1000
+}
