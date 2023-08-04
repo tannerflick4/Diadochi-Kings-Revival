@@ -16,6 +16,10 @@
 	diplomacy = 7
 	190.1.1 = { #586 BCE, made up
 		birth="yes"
+		create_bloodline = {
+			type = bloodline_amasis
+			has_dlc = "Holy Fury"
+		}
 	}
 	250.1.1 = { #526 BCE
 		death="yes"
