@@ -1,0 +1,30 @@
+decisions = {
+    embrace_feudalism = {
+		only_independent = yes
+		ai_check_interval = 1
+		is_high_prio = yes
+		potential = {
+			has_law = ze_administration_laws_rep_3
+		}
+		allow = {
+			has_law = ze_administration_laws_rep_2
+			prestige = 10000
+			##ruled_years >= 10
+		}
+		effect = {
+				random_demesne_title = {
+					limit = {
+						port = yes
+					}
+				capital = THIS
+				}
+				death = {
+					death_reason = DEATH_BY_NATURE
+				}
+				capital = PREV
+		}
+		ai_will_do = {
+		factor = 0
+		}
+	}
+}
