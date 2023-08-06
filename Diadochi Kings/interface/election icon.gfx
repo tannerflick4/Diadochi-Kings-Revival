@@ -7,3 +7,4 @@ spriteTypes = {
     name = "GFX_embrace_feudalism"
     texturefile = "gfx\\interface\\decision_icon_form_new_empire.dds"
   }
+}

@@ -14,15 +14,13 @@ targeted_decisions = {
 		allow = {
 		}
 		effect = {
-				set_player_character = THIS
-				FROM = {
-					any_demesne_title = {
-						grant_title = THIS
-					}
-					death = {
-						death_reason = DEATH_BY_NATURE
-					}
+			set_player_character = THIS
+			FROM = {
+				any_demesne_title = {
+					grant_title = THIS
 				}
+				death = {
+					death_reason = DEATH_BY_NATURE
 				}
 			}
 		}
