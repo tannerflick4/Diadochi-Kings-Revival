@@ -1,6 +1,18 @@
-417.1.1 = {
-	holder = 80003 # Orontes
+266.1.1 = {
+	holder = 80011 # Hydarnes the Elder
 	liege = e_persia
+}
+296.1.1 = {
+	holder = 80012 # Hydarnes the Younger
+}
+348.1.1 = {
+	holder = 80013 # Hydarnes III
+}
+366.1.1 = {
+	holder = 80018 # Artasyrus
+}
+417.1.1 = {
+	holder = 80003 # Orontes I
 }
 432.1.1 = {
 	holder = 90314 # Darius III of Persia

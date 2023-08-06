@@ -7,6 +7,10 @@
 	add_trait = brilliant_strategist
 	436.1.1 = {
 		birth="yes" # 340 BC
+		create_bloodline = {
+			type = bloodline_chandragupta
+			has_dlc = "Holy Fury"
+		}
 	}
 	453.1.1 = { # 323 BC
 		add_spouse = 129901

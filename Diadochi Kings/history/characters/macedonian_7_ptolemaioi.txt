@@ -5,6 +5,9 @@
 	religion = greek_main
 	culture = macedonian
 	
+	father = 606 # Lagos
+	mother = 836 # Arsinoe
+	
 	dna = niccjbmdnbf
 	properties = tj0ebd00000
 	
@@ -16,6 +19,10 @@
 	
 	409.1.1 = {
 		birth="yes" # 367 BC
+		create_bloodline = {
+			type = bloodline_ptolemy_soter
+			has_dlc = "Holy Fury"
+		}
 	}
 	452.1.1 = { # 324 BC
 		add_spouse = 90203 # Artacama
@@ -133,5 +140,21 @@
 	}
 	500.1.1 = { # 276 BC made up
 		death="yes"
+	}
+}
+606 = {
+	name = "Lagos" # Father of Ptolemy I
+	dynasty = 7 # Ptolemaioi
+	religion = greek_main
+	culture = macedonian
+
+	386.1.1 = {
+		birth = yes # 390 BC  made up
+	}
+	409.1.1 = { # 367 BC, approximate
+		add_spouse = 836 # Arsinoe
+	}
+	438.1.1 = {
+		death = yes # 338 BC made up
 	}
 }

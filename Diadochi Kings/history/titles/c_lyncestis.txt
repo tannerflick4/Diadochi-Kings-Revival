@@ -2,9 +2,6 @@
 	holder = 3501 # Arrhabaeus of the Lyncestians.
 }
 383.1.1 = { # 393 BC
-	holder = 3502 # Sirras of the Lyncestians.
-}
-390.1.1 = { # 386 BC
 	holder = 3505 # Arrhabaeus of the Lyncestians.
 }
 413.1.1 = { # 363 BC
@@ -45,7 +42,4 @@
 }
 495.2.1 = { # 281 BC, Lysimachus dies in battle.
 	liege = k_macedon
-}
-536.1.1 = { # 240 BC
-	holder = 3513 # Sirras of the Lyncestians.
 }

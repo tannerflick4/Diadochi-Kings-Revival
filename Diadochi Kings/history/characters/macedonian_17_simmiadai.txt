@@ -10,7 +10,7 @@
 	
 	add_trait = misguided_warrior
 	
-	416.1.1 = { # 360 BC
+	410.1.1 = { # 366 BC
 		birth="yes"
 	}
 	453.6.10 = {

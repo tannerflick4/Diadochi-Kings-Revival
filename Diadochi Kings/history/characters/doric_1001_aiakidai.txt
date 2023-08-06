@@ -8,7 +8,10 @@
 	mother = 10007 # Troas
 	420.1.1 = { # 356 BC, made up
 		birth="yes" 
-	}	
+	}
+	452.1.1 = {
+		add_spouse = 30307 # Phthia
+	}
 	463.1.1 = { # 313 BC, Died in battle vs Macedonians
 		death = {
 			death_reason = death_battle 
@@ -19,11 +22,20 @@
 	name = "Neoptolemos" # Neoptolemus, satrap of Armenia
 	dynasty = 1001 # Aiakidai
 	religion = greek_main
-	culture = doric
-	father = 10005
+	culture = macedonian # possibly brought up under the royal page system
+	father = 10014
+	
+	diplomacy = 6
+	martial = 5
+	stewardship = 4
+	intrigue = 7
+	learning = 3
+	
 	add_trait = strong # First to scale the walls of Gaza
 	add_trait = stressed # Restless
 	add_trait = deceitful
+	add_trait = brave
+	add_trait = proud
 	add_trait = tough_soldier
 	
 	415.1.1 = {
@@ -63,6 +75,7 @@
 	mother = 10007 # Troas
 	
 	add_trait = wroth # He had a temper
+	add_trait = arbitrary
 	
 	415.1.1 = { # 361 BC Made up
 		birth="yes"
@@ -91,6 +104,7 @@
 	dynasty = 1001 # Aiakidai
 	religion = greek_main
 	culture = doric
+	father = 10012
 	356.1.1 = { # 422 BC Made up
 		birth="yes"
 	}
@@ -121,14 +135,21 @@
 	religion = greek_main
 	culture = doric
 	father = 10005
+	diplomacy = 5
+	martial = 7
+	stewardship = 4
+	intrigue = 8
+	learning = 3
 	
 	add_trait = skilled_tactician
+	add_trait = ambitious
+	add_trait = brave
 	
 	406.1.1 = { # 370 BC
 		birth="yes"
 	}
 	440.10.1 = { # 336 BC
-		add_spouse = 809 # Kleopatra of Macedon
+		add_spouse = 850 # Kleopatra of Macedon
 	}
 	445.1.1 = { # 331 BC
 		death = {
@@ -142,12 +163,26 @@
 	religion = greek_main
 	culture = doric
 	father = 10008 # Alexander I
-	mother = 809 # Kleopatra of Macedon
+	mother = 850 # Kleopatra of Macedon
+	
+	diplomacy = 5
+	martial = 4
+	stewardship = 4
+	intrigue = 2
+	learning = 4
+	
+	add_trait = amateurish_plotter
+	add_trait = deceitful
+	add_trait = arbitrary
+	add_trait = proud
 	445.1.1 = { #331 BC
 		birth="yes"
 	}
 	479.1.1 = { # 297 BC
-		death="yes"
+		death = {
+			death_reason = death_murder
+			killer = 10010 #Pyrrhus
+		}
 	}
 }
 10010 = {
@@ -156,19 +191,34 @@
 	religion = greek_main
 	culture = doric
 	father = 10001 # Aiakides
+	mother = 30307 # Phthia
 	
-	martial = 10
+	diplomacy = 8
+	martial = 11
+	stewardship = 4
+	intrigue = 4
+	learning = 6
 	
 	add_trait = brilliant_strategist
+	add_trait = ambitious
+	add_trait = brave
+	add_trait = arbitrary
 	add_trait = wroth
 	add_trait = stressed
 	add_trait = kind
+	add_trait = quick
+	add_trait = strategist
 	
 	457.1.1 = {
 		birth="yes" # 319 BC
+		create_bloodline = {
+			type = bloodline_pyrrhus 
+			has_dlc = "Holy Fury"
+		}
 	}
 	481.1.1 = { # 295 BC
 		add_spouse = 22702 # Lanassa
+		add_trait = dynastic_kinslayer ## Neoptolemus
 	}
 	485.1.1 = { # 291 BC
 		remove_spouse = 22702 # Lanassa married Demetrius
@@ -178,23 +228,238 @@
 	}
 }
 10011 = {
-	name = "Olympias" # Alexander's mother
+	name = "Olympias" # mother of Alexander the Great
 	dynasty = 1001 # Aiakidai
 	religion = greek_main
 	culture = doric
 	father = 10005 # Neoptolemus I
 	female = yes
 	
+	diplomacy = 5
+	martial = 6
+	stewardship = 4
+	intrigue = 8
+	learning = 6
+	
 	add_trait = envious
-	add_trait = intricate_webweaver
+	add_trait = ambitious
+	add_trait = elusive_shadow
 	add_trait = proud
+	add_trait = zealous
+	add_trait = cruel
 	
 	401.1.1 = { # 375 BC
 		birth="yes"
+		name = Polyxena # her birth name
+	}
+	419.9.1 = { # autumn 357 BC
+		name = Myrtale # adopted on her marriage
+		add_spouse = 841 # Philip II
+	}
+	420.7.20 = { # 20 July 356 BC
+		name = Olympias # possibly adopted this name following Philip II's Olympic victory, which coincided with Alexander's birth
+	}
+	439.3.1 = { # Spring 337 BC, approximate
+		employer = 10008 # flees to the court of her brother Alexander
+		effect = {		
+			add_rival = 3701 # rivalry with Cleopatra Euridike, probably caused by concerns about Alexander's rights of inheritance
+		}
+	}
+	3418.1.1 = { # 336 BC, approximate
+		employer = 841 # returns to Pella
 	}
 	460.1.15 = { # 316 BC
 		death = {
 			death_reason = death_execution
+			killer = 2
+		}
+	}
+}
+10012 = {
+	name = "Tharyps"
+	dynasty = 1001 # Aiakidai
+	religion = greek_main
+	culture = doric
+	
+	336.1.1 = {
+		birth="yes" # 440 BC made up
+		create_bloodline = {
+			type = bloodline_aeacidae 
+			has_dlc = "Holy Fury"
+		}
+	}
+	384.1.1 = {
+		death ="yes" # 392 BC made up
+	}
+}
+10013 = {
+	name = "Leonidas" # tutor of Alexander the Great
+	dynasty = 1001 # Aiakidai
+	religion = greek_main
+	culture = doric
+	father = 10006
+	
+	add_trait = content
+	add_trait = stubborn
+	add_trait = temperate
+	add_trait = scholarly_theologian
+	
+	389.1.1 = {
+		birth="yes" # 387 BC made up
+	}
+	450.1.1 = {
+		death ="yes" # 326 BC made up
+	}
+}
+10014 = {
+	name = "Billeas"
+	dynasty = 1001 # Aiakidai
+	religion = greek_main
+	culture = doric
+	father = 10006
+	
+	add_trait = content
+	add_trait = stubborn
+	add_trait = temperate
+	add_trait = scholarly_theologian
+	
+	391.1.1 = {
+		birth="yes" # 385 BC made up
+	}
+	435.1.1 = {
+		death ="yes" # 341 BC made up
+	}
+}
+10015 = {
+	name = "Kadmeia"
+	dynasty = 1001 # Aiakidai
+	religion = greek_main
+	culture = doric
+	father = 10008 # Alexander I
+	mother = 850 # Kleopatra of Macedon
+	female = yes
+	
+	442.1.1 = {
+		birth="yes" # 334 BC made up
+	}
+	499.1.1 = {
+		death ="yes" # 277 BC made up
+	}
+}
+10016 = {
+	name = "Beroa"
+	dynasty = 1001 # Aiakidai
+	religion = greek_main
+	culture = doric
+	father = 10003	# Arybbas
+	mother = 10007 # Troas
+	female = yes
+	
+	429.1.1 = {
+		birth="yes" # 347 BC made up
+	}
+	499.1.1 = {
+		death ="yes" # 277 BC made up
+	}
+}
+10017 = {
+	name = "Deidameia"
+	dynasty = 1001 # Aiakidai
+	religion = greek_main
+	culture = doric
+	female = yes
+	father = 10001 # Aiakides
+	mother = 30307 # Phthia
+	
+	459.1.1 = {
+		birth="yes" # 317 BC
+	}
+	#473.1.1 = { # 303 BC
+	#	add_spouse = macedonian00102 # Demetrios
+	#}
+	476.1.1 = {
+		trait = ill
+		death = { 
+			death_reason = death_poor_health  # 300 BC
+		}
+	}
+}
+10018 = {
+	name = "Arybbas" # somatophylax under Philip II and Alexander the Great
+	dynasty = 1001 # Aiakidai
+	religion = greek_main
+	culture = macedonian # possibly brought up under the royal page system
+	father = 10013
+
+	add_trait = tough_soldier
+	
+	415.1.1 = {
+		birth="yes" # 361 BC made up
+	}
+	445.1.1 = { # 331 BC
+		trait = ill
+		death = { 
+			death_reason = death_poor_health # died of illness in Egypt in the winter of 332/1 BC
+		}
+	}
+}
+10019 = {
+	name = "Alexandros"
+	dynasty = 1001 # Aiakidai
+	religion = greek_main
+	culture = doric
+	father = 10004	# Alketas II
+
+	439.1.1 = { # 337 BC Made up
+		birth="yes"
+	}
+	478.1.1 = { # 298 BC Made up
+		death ="yes"
+	}
+}
+10020 = {
+	name = "Teukros"
+	dynasty = 1001 # Aiakidai
+	religion = greek_main
+	culture = doric
+	father = 10004	# Alketas II
+
+	444.1.1 = { # 332 BC Made up
+		birth="yes"
+	}
+	488.1.1 = { # 288 BC Made up
+		death ="yes"
+	}
+}
+10021 = {
+	name = "Eioneus"
+	dynasty = 1001 # Aiakidai
+	religion = greek_main
+	culture = doric
+	father = 10004	# Alketas II
+
+	459.1.1 = { # 317 BC Made up
+		birth="yes"
+	}
+	470.1.1 = { # 306 BC, approximate
+		death = { 
+			death_reason = death_rabble # murdered by resentful Epirotes
+		}
+	}
+}
+10022 = {
+	name = "Nisos"
+	dynasty = 1001 # Aiakidai
+	religion = greek_main
+	culture = doric
+	father = 10004	# Alketas II
+
+	465.1.1 = { # 311 BC Made up
+		birth="yes"
+	}
+	470.1.1 = { # 306 BC, approximate
+		death = { 
+			death_reason = death_rabble # murdered by resentful Epirotes
 		}
 	}
 }

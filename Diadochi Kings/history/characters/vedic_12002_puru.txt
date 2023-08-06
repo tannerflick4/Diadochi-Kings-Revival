@@ -9,6 +9,10 @@
 	
 	394.1.1 = { # 382 BC Made up
 		birth="yes"
+		create_bloodline = {
+			type = bloodline_porus 
+			has_dlc = "Holy Fury"
+		}
 	}
 	459.1.1 = { # 317 BC
 		death="yes"

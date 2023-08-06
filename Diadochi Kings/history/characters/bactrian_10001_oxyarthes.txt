@@ -15,7 +15,7 @@
 		birth="yes"
 	}
 	449.1.1 = { # 327 BC
-		add_spouse = 802 # Alexander the Great
+		add_spouse = 849 # Alexander the Great
 	}
 	466.1.1 = { # 310 BC
 		death = {

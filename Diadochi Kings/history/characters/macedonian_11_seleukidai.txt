@@ -17,6 +17,10 @@
 	
 	418.1.1 = { # 358 BC
 		birth="yes"
+		create_bloodline = {
+			type = bloodline_seleucid
+			has_dlc = "Holy Fury"
+		}
 	}
 	452.1.1 = { # 324 BC
 		add_spouse = 240001 # Apama

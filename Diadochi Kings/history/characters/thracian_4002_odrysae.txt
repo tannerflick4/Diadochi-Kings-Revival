@@ -69,8 +69,11 @@
 	
 	add_trait = greedy
 	
-	339.1.1 = { # Made up
-		birth="yes" # 437 BC
+	321.1.1 = { # Made up
+		birth="yes" # 455 BC
+	}
+	347.1.1 = { # 429 BC 
+		add_spouse = 814 # Stratonike
 	}
 	366.1.1 = { # Made up
 		death="yes" # 410 BC
@@ -82,7 +85,10 @@
 	dynasty = 4002 # Odrysae
 	religion = thracian_main
 	culture = thracian
+	
 	father = 40105 # Seuthes I
+	mother = 814 # Stratonike
+	
 	362.1.1 = { # Made up
 		birth="yes" # 414 BC
 	}

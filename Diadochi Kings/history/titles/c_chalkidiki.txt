@@ -2,17 +2,17 @@
 	holder = 53001
 }
 428.1.1 = { # 348 BC
-	holder = 803 # Philip II
+	holder = 841 # Philip II
 	liege = e_macedonia
 }
 440.10.1 = {
-	holder = 802 # Alexander III
+	holder = 849 # Alexander III
 }
 453.6.10 = {
-	holder = 801 # Philip III
+	holder = 848 # Philip III
 }
 459.12.25 = {
-	holder = 808 # Alexandros IV
+	holder = 853 # Alexandros IV
 }
 467.1.1 = {
 	holder = 2 # Kassandros

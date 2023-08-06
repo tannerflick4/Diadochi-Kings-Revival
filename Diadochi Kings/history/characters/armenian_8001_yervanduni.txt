@@ -32,12 +32,16 @@
 	dynasty = 8001 # Yervanduni
 	religion = armenian_main
 	culture = armenian
+	father = 80018
 	
 	add_trait = content # He was loyal to the Persians, to a degree
 	add_trait = greedy # He became rich
 	
-	352.1.1 = { # 424 BC made up
+	359.1.1 = { # 417 BC made up
 		birth="yes"
+	}
+	375.1.1 = {
+		add_spouse = 90331
 	}
 	432.1.1 = { # 344 BC
 		death="yes"
@@ -49,6 +53,7 @@
 	religion = armenian_main
 	culture = armenian
 	father = 80003
+	mother = 90331
 	387.1.1 = { # 390 BC made up
 		birth="yes"
 	}
@@ -83,6 +88,169 @@
 		birth="yes"
 	}
 	538.1.1 = { # 228 BC
+		death="yes"
+	}
+}
+80007 = {
+	name = "Yervand" # Orontes Sakavakyats
+	dynasty = 8001 # Yervanduni
+	religion = armenian_main
+	culture = armenian
+	169.1.1 = { # 607 BC made up
+		birth="yes"
+		create_bloodline = {
+			type = bloodline_orontid 
+			has_dlc = "Holy Fury"
+		}
+	}
+	216.1.1 = { # 560 BC
+		death="yes"
+	}
+}
+80008 = {
+	name = "Tigran" # The Great
+	dynasty = 8001 # Yervanduni
+	religion = armenian_main
+	culture = armenian
+	father = 80007
+	191.1.1 = { # 585 BC made up
+		birth="yes"
+	}
+	241.1.1 = { # 535 BC
+		death="yes"
+	}
+}
+80009 = {
+	name = "Vahagn" # I
+	dynasty = 8001 # Yervanduni
+	religion = armenian_main
+	culture = armenian
+	father = 80008
+	207.1.1 = { # 569 BC made up
+		birth="yes"
+	}
+	261.1.1 = { # 515 BC
+		death="yes"
+	}
+}
+80010 = {
+	name = "Bagabigna"
+	dynasty = 8001 # Yervanduni
+	religion = armenian_main
+	culture = armenian
+	father = 80009
+	224.1.1 = { # 552 BC made up
+		birth="yes"
+	}
+	261.1.1 = { # 515 BC
+		death="yes"
+	}
+}
+80011 = {
+	name = "Vidrna" # Hydarnes the Elder
+	dynasty = 8001 # Yervanduni
+	religion = armenian_main
+	culture = armenian
+	father = 80010
+	253.1.1 = { # 523 BC made up
+		birth="yes"
+	}
+	296.1.1 = { # 480 BC
+		death="yes"
+	}
+}
+80012 = {
+	name = "Vidrna" # Hydarnes the Younger
+	dynasty = 8001 # Yervanduni
+	religion = armenian_main
+	culture = armenian
+	father = 80011
+	277.1.1 = { # 499 BC made up
+		birth="yes"
+	}
+	348.1.1 = { # 428 BC
+		death="yes"
+	}
+}
+80013 = {
+	name = "Vidrna" # III
+	dynasty = 8001 # Yervanduni
+	religion = armenian_main
+	culture = armenian
+	father = 80012
+	305.1.1 = { # 471 BC made up
+		birth="yes"
+	}
+	366.1.1 = { # 410 BC
+		death="yes"
+	}
+}
+80014 = {
+	name = "Chithrafarna" # Tissaphernes
+	dynasty = 8001 # Yervanduni
+	religion = armenian_main
+	culture = armenian
+	father = 80013
+	331.1.1 = { # 445 BC
+		birth="yes"
+	}
+	381.1.1 = { # 395 BC
+		death="yes"
+	}
+}
+80015 = {
+	name = "Mazaeus"
+	dynasty = 8001 # Yervanduni
+	religion = armenian_main
+	culture = armenian
+	father = 80014
+	381.1.1 = { # 395 BC made up
+		birth="yes"
+	}
+	448.1.1 = { # 328 BC
+		death="yes"
+	}
+}
+80016 = {
+	name = "Stateira"
+	dynasty = 8001 # Yervanduni
+	religion = armenian_main
+	culture = armenian
+	female = yes
+	father = 80013
+	343.1.1 = { # 433 BC made up
+		birth="yes"
+	}
+	359.1.1 = {
+		add_spouse = 90311
+	}
+	391.1.1 = { # 385 BC made up
+		death="yes"
+	}
+}
+80017 = {
+	name = "Yervand"
+	dynasty = 8001 # Yervanduni
+	religion = armenian_main
+	culture = armenian
+	father = 80012
+	326.1.1 = { # 450 BC made up
+		birth="yes"
+	}
+	373.1.1 = { # 403 BC made up
+		death="yes"
+	}
+}
+80018 = {
+	name = "Rtasura" # Artasyrus
+	dynasty = 8001 # Yervanduni
+	religion = armenian_main
+	culture = armenian
+	father = 80017
+	343.1.1 = { # 433 BC made up
+		birth="yes"
+	}
+	420.1.1 = { # 356 BC made up
 		death="yes"
 	}
 }

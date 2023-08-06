@@ -6,6 +6,10 @@
 	culture = tamil
 	398.1.1 = { # 378 BC
 		birth="yes"
+		create_bloodline = {
+			type = bloodline_pandya 
+			has_dlc = "Holy Fury"
+		}
 	}
 	466.1.1 = { # 310 BC
 		death="yes"

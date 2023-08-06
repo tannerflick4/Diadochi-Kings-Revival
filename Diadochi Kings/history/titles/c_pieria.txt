@@ -1,78 +1,66 @@
-76.1.1 = {
-	holder = 816 # Perdiccas I
+91.1.1 = {
+	holder = 801 # Perdiccas I
 }
-98.1.1 = {
-	holder = 817 # Argaeus I
+129.1.1 = {
+	holder = 802 # Argaeus I
 }
-136.1.1 = {
-	holder = 818 # Philip I
+160.1.1 = {
+	holder = 803 # Philip I
 }
-174.1.1 = {
-	holder = 819 # Aeropus I
+193.1.1 = {
+	holder = 804 # Aeropus I
 }
-200.1.1 = {
-	holder = 820 # Alcetas I
+213.1.1 = {
+	holder = 805 # Alcetas I
 }
-229.1.1 = {
-	holder = 821 # Amyntas I
+231.1.1 = {
+	holder = 806 # Amyntas I
 }
-278.1.1 = {
-	holder = 822 # Alexander I
+281.1.1 = {
+	holder = 807 # Alexander I
 }
 322.1.1 = {
-	holder = 823 # Alcetas II
+	holder = 810 # Alcetas II
 }
 328.1.1 = {
-	holder = 824 # Perdiccas II
+	holder = 812 # Perdiccas II
 }
 363.1.1 = {
-	holder = 825 # Archelaus I
+	holder = 824 # Archelaus I
 }
 377.1.1 = {
-	holder = 826 # Crateuas of Macedon
-}
-377.6.1 = {
-	holder = 827 # Orestes
+	holder = 830 # Orestes
 }
 380.1.1 = {
-	holder = 828 # Aeropus II
-}
-381.1.1 = {
-	holder = 829 # Archelaus II
-}
-382.1.1 = {
-	holder = 831 # Amyntas II
-}
-382.3.1 = {
-	holder = 832 # Pausanias
-}
-382.6.1 = {
-	holder = 804 # Amyntas IV
+	holder = 825 # Aeropus II
 }
 382.9.1 = {
-	holder = 833 # Argaeus II
+	holder = 828 # Amyntas II 'the Little'
+}
+382.1.1 = {
+	holder = 831 # Pausanias I
 }
 383.1.1 = {
-	holder = 804 # Amyntas III
+	holder = 837 # Amyntas III
 }
-406.1.1 = {
-	holder = 805 # Alexander II
+408.1.1 = {
+	holder = 838 # Alexander II
 }
-407.1.1 = {
-	holder = 806 # Perdikkas III
+409.1.1 = {
+	holder = 840 # Perdikkas III
 }
 417.1.1 = {
-	holder = 807
+	holder = 845 # Amyntas IV
 	liege = k_macedon
 }
 417.4.1 = {
-	holder = 803 # Philip II
+	holder = 841 # Philip II
 }
-426.1.1 = { # 350 BC
+426.1.1 = {
 	liege = e_macedonia
 }
 440.10.1 = {
-	holder = 802 # Alexander III
+	holder = 849 # Alexander III
 }
 453.6.10 = {
 	holder = 1

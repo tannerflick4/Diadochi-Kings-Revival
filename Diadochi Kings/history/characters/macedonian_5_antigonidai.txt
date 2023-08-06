@@ -20,6 +20,10 @@
 
 	394.1.1 = {
 		birth="yes" # 382 BC
+		create_bloodline = {
+			type = bloodline_antigonus
+			has_dlc = "Holy Fury"
+		}
 	}
 	439.1.1 = { # 337 BC Made up
 		add_spouse = 2601

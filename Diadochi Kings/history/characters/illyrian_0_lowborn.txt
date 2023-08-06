@@ -1,16 +1,1 @@
 # 141901-142000 for the Lowborns
-141901 = {
-	name = "Philine" # Philinna of Larissa
-	female = yes
-	religion = illyrian_main
-	culture = illyrian
-	
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	
-	401.1.1 = {birth="yes"} # 375 BC Made up
-	451.1.1 = {death="yes"} # 325 BC Made up
-}

@@ -1,6 +1,9 @@
-393.1.1 = {
-	holder = 10006 # Alcetas I
+346.1.1 = {
+	holder = 10012 # Tharyps
 	law = succ_feudal_elective
+}
+384.1.1 = {
+	holder = 10006 # Alcetas I
 }
 406.1.1 = {
 	holder = 10005 # Neoptolemus I

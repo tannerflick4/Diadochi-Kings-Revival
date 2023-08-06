@@ -1,0 +1,20 @@
+echoes_family = {
+	OR = {
+		has_landed_title = c_valerii
+		has_landed_title = c_cornelii
+		has_landed_title = c_fabii
+		has_landed_title = c_papirii
+		has_landed_title = c_aemilii
+		has_landed_title = c_marcii
+		has_landed_title = c_sulpicii
+		has_landed_title = c_plautii
+		has_landed_title = c_claudii
+		has_landed_title = c_junii
+		has_landed_title = c_manlii
+		has_landed_title = c_popillii
+		has_landed_title = c_furii
+		has_landed_title = c_publilii
+		has_landed_title = c_quinctii
+		has_landed_title = c_veturii
+	}
+}

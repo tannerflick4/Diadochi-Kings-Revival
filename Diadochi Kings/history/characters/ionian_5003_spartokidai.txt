@@ -89,6 +89,10 @@
 	
 	371.1.1 = { # 405 BC made up
 		birth="yes"
+		create_bloodline = {
+			type = bloodline_spartocid 
+			has_dlc = "Holy Fury"
+		}
 	}
 	429.1.1 = { # 347 BC
 		death="yes"
