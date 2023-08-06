@@ -5,6 +5,7 @@
 416.1.1 = { # 360 BC
 	government = roman_republic_government
 	holder = 170303 # Marcus Fabius Ambustus
+	law = succ_patrician_elective
 }
 417.1.1 = { # 359 BC
 	holder = 172201 # Marcus Popillius Laenas
