@@ -1,0 +1,34 @@
+namespace = DVWR
+narrative_event = {
+	id = DVWR.005
+	title = DVWRTitle.005
+	desc = DVWRDesc.005
+	picture = GFX_evt_market_hf
+	
+	only_rulers = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	trigger = {
+		is_feudal = yes
+		tier = EMPEROR
+		OR = {
+					has_law = vassal_wars_law_rep_1
+					has_law = vassal_wars_law_rep_2
+		}
+	}
+	option = {
+		name = DVWR.005A
+		trigger = {
+			tier = EMPEROR
+		}
+		primary_title = {
+			hidden_tooltip = {
+				revoke_law = vassal_wars_law_rep_1
+				revoke_law = vassal_wars_law_rep_2
+			}
+		}
+	}
+}
