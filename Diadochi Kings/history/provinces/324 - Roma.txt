@@ -5,10 +5,10 @@ title = c_roma # for example c_corinth
 
 # Settlements
 max_settlements = 7
+b_esquiline_hill = city
 b_capitoline_hill = temple
 b_caelian_hill = city
 b_aventine_hill = city
-b_esquiline_hill = city
 b_palatine_hill = city
 b_quirinal_hill = city
 b_viminal_hill = city

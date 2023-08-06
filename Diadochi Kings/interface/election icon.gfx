@@ -1,0 +1,9 @@
+spriteTypes = {
+  spriteType = {
+    name = "GFX_hold_election"
+    texturefile = "gfx\\interface\\decision_icon_adopt_republicanism.dds"
+  }
+    spriteType = {
+    name = "GFX_embrace_feudalism"
+    texturefile = "gfx\\interface\\decision_icon_form_new_empire.dds"
+  }

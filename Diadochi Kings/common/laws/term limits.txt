@@ -1,0 +1,176 @@
+law_groups = {
+	term_limits = {
+		law_type = realm
+		allowed_for_councillors = yes
+	}
+}
+
+laws = {
+	term_limit_3 = {
+		group = term_limits
+		default_selection = {
+			factor = 0
+			
+			additive_modifier = {
+				value = 10			
+				title = e_rome
+			}
+			additive_modifier = {
+				value = 10			
+				title = k_carthage
+			}
+		}
+		potential = {
+		NOT = { has_law = ze_administration_laws_rep_2 }
+			holder_scope = { is_republic = yes }
+		}
+		allow = {
+			NOT = { has_law = term_limit_9 }
+		}
+		ai_will_do = { 
+			factor = 0.1
+		modifier = {
+			factor = 0
+			trait = greedy
+		}
+		modifier = {
+			factor = 0
+			trait = envious
+		}
+		modifier = {
+			factor = 0
+			trait = proud
+		}
+		modifier = {
+			factor = 0
+			trait = ambitious
+		}
+		modifier = {
+			factor = 3
+			trait = content
+		}	
+		modifier = {
+			factor = 3
+			trait = humble
+		}	
+		modifier = {
+			factor = 3
+			trait = just
+		}			
+		modifier = {
+			factor = 1
+			has_law = ze_administration_laws_rep_0
+		}
+		}
+		ai_will_revoke = { factor = 0 }
+		pass_effect = { }
+		effect = {
+		custom_tooltip = {
+		text = termlimit3
+		revoke_law = term_limit_6
+		}
+		}
+	}
+	term_limit_6 = {
+		group = term_limits
+		default = no
+		potential = {
+			NOT = { has_law = ze_administration_laws_rep_2 }
+			holder_scope = { is_republic = yes }
+		}
+		allow = {
+
+		}
+		ai_will_do = {
+			factor = 0.1
+		modifier = {
+			factor = 3
+			trait = greedy
+		}
+		modifier = {
+			factor = 3
+			trait = envious
+		}
+		modifier = {
+			factor = 3
+			trait = proud
+		}
+		modifier = {
+			factor = 3
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0
+			trait = content
+		}
+		modifier = {
+			factor = 0
+			trait = humble
+		}
+		modifier = {
+			factor = 0.05
+			has_law = ze_administration_laws_rep_0
+		}
+		}
+		ai_will_revoke = { factor = 0 }
+		pass_effect = { }
+		effect = {
+		custom_tooltip = {
+		text = termlimit6
+		revoke_law = term_limit_3
+		revoke_law = term_limit_9
+		}	
+		}
+	}
+	term_limit_9 = {
+		group = term_limits
+		default = yes
+		potential = {
+			NOT = { has_law = ze_administration_laws_rep_2 }
+			holder_scope = { is_republic = yes }
+		}
+		allow = {
+			NOT = { has_law = term_limit_3 }
+		}
+		ai_will_do = { 
+			factor = 0.1
+		modifier = {
+			factor = 3
+			trait = greedy
+		}
+		modifier = {
+			factor = 3
+			trait = envious
+		}
+		modifier = {
+			factor = 3
+			trait = proud
+		}
+		modifier = {
+			factor = 3
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0
+			trait = content
+		}
+		modifier = {
+			factor = 0
+			trait = humble
+		}
+		modifier = {
+			factor = 1
+			has_law = ze_administration_laws_rep_1
+		}
+		}
+		ai_will_revoke = { factor = 0 }
+		pass_effect = { }
+		effect = {
+		custom_tooltip = {
+		text = termlimit9
+		revoke_law = term_limit_6
+		}	
+		}
+	}
+
+}

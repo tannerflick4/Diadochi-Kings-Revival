@@ -2,6 +2,7 @@
 	holder = 53901
 	liege = 0
 	government = merchant_republic_government
+	law = succ_patrician_elective
 }
 437.1.1 = { # 339 BC
 	holder = 53902

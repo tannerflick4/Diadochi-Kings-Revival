@@ -1,13 +1,7 @@
-#Echoes Family
-1.1.1 = {
-	de_jure_liege = e_rome
-	government = feudal_government
-	active = no
-}
 343.1.1 = {
-	active = yes
 	liege = e_rome
 	holder = 172104
+	holding_dynasty = 17022
 }
 370.05.25={holder=172106} #Publius[17022]
 390.03.21={holder=172110} #Colunella[17022]

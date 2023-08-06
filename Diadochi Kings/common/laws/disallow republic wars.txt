@@ -1,0 +1,325 @@
+law_groups = {
+	vassal_wars_law_rep = {
+		law_type = realm
+		allowed_for_councillors = yes
+	}
+	ze_administration_laws_rep = {
+		law_type = realm
+	}
+}
+
+de_jure_laws = {
+	vassal_wars_law_rep_0 = {
+	##ALL WARS ALLOWED
+		group = vassal_wars_law_rep
+		default = yes
+		
+		potential = {
+			has_law = ze_administration_laws_rep_2
+			has_dlc = "Zeus"
+			holder_scope = {
+				is_republic = yes
+				NOT = {
+					government = order_government
+				}
+			}
+		}
+		
+		allow = {
+			OR = {
+				has_law = vassal_wars_law_rep_1
+				AND = {
+					NOT = {	has_law = vassal_wars_law_rep_0 }
+					NOT = {	has_law = vassal_wars_law_rep_1 }
+					NOT = {	has_law = vassal_wars_law_rep_2 }
+				}
+			}
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		ai_will_revoke = {
+			factor = 0
+		}
+		
+		effect = {
+			hidden_tooltip = {
+				revoke_law = vassal_wars_law_rep_1
+				revoke_law = vassal_wars_law_rep_2
+			}
+			set_the_kings_peace = no
+			set_the_kings_full_peace = no
+		}
+	}
+	vassal_wars_law_rep_1 = {
+	##EXTERNAL WARS ALLOWED
+		group = vassal_wars_law_rep
+		
+		potential = {
+			has_law = ze_administration_laws_rep_2
+			has_dlc = "Zeus"
+			holder_scope = {
+				is_republic = yes
+				NOT = {
+					government = order_government
+				}
+			}
+		}
+		
+		allow = {
+			OR = {
+				has_law = vassal_wars_law_rep_0
+				has_law = vassal_wars_law_rep_2
+			}
+			holder_scope = {
+				primary_title = {
+					tier = EMPEROR
+				}
+			}
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.05
+				always = yes
+			}
+		}
+		
+		ai_will_revoke = {
+			factor = 0
+		}
+		
+		effect = {
+			hidden_tooltip = {
+				revoke_law = vassal_wars_law_rep_0
+				revoke_law = vassal_wars_law_rep_2
+			}
+			set_the_kings_peace = yes
+			set_the_kings_full_peace = no
+		}
+		city_opinion = -5
+	}
+	vassal_wars_law_rep_2 = {
+	##NO WARS ALLOWED
+		group = vassal_wars_law_rep
+		
+		potential = {
+			has_law = ze_administration_laws_rep_2
+			has_dlc = "Zeus"
+			holder_scope = {
+				is_republic = yes
+				NOT = {
+					government = order_government
+				}
+			}
+		}
+		
+		allow = {
+			has_law = vassal_wars_law_rep_1
+			holder_scope = {
+				primary_title = {
+					tier = EMPEROR
+				}
+			}
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.05
+				always = yes
+			}
+		}
+		
+		ai_will_revoke = {
+			factor = 0
+		}
+		
+		effect = {
+			hidden_tooltip = {
+				revoke_law = vassal_wars_law_rep_0
+				revoke_law = vassal_wars_law_rep_1
+			}
+			set_the_kings_peace = yes
+			set_the_kings_full_peace = yes
+		}
+		city_opinion = -10
+	}
+}
+
+laws = {
+
+	ze_administration_laws_rep_0 = {
+	##BASIC REPUBLIC ADMIN
+		group = ze_administration_laws_rep
+		default = yes
+		allow = {
+			NOT = { has_law = ze_administration_laws_rep_2 }
+		}
+		potential = {
+			has_dlc = "Zeus"
+			holder_scope = { is_republic = yes }
+		}
+		ai_will_do = { factor = 0 }
+		ai_will_revoke = { factor = 0 }
+		pass_effect = { }
+		effect = {
+			custom_tooltip = {
+				text = basicrepublictext
+				revoke_law = ze_administration_laws_rep_1
+				revoke_law = ze_administration_laws_rep_2
+			}
+			custom_tooltip = {
+				text = basicrepublictext2
+			}
+		}
+	}
+	ze_administration_laws_rep_1 = {
+	##LATE REPUBLIC ADMIN
+		group = ze_administration_laws_rep
+		allow = {
+			TECH_LEGALISM >= 3
+		}
+		potential = {
+			has_dlc = "Zeus"
+			holder_scope = { is_republic = yes }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.2
+				always = yes
+			}
+			modifier = {
+				factor = 0
+				has_law = ze_administration_laws_rep_2
+			}
+		}
+		ai_will_revoke = { factor = 0 }
+		pass_effect = { }
+		effect = {
+			set_allow_free_vice_royalty_revokation = no
+			if = {
+				limit = {
+					has_law = ze_administration_laws_rep_2
+				}
+				custom_tooltip = {
+				text = laterepublictext2
+				}
+				custom_tooltip = {
+				text = laterepublictext3
+				}
+				custom_tooltip = {
+				text = laterepublictext4
+				}
+			}
+			custom_tooltip = {
+				text = laterepublictext
+				revoke_law = ze_administration_laws_rep_0
+				revoke_law = ze_administration_laws_rep_2
+				revoke_law = vassal_wars_law_rep_1
+				revoke_law = vassal_wars_law_rep_2
+				revoke_law = vice_royalty_rep_1
+				revoke_law = vice_royalty_rep_2
+				set_allow_vice_royalties = no
+				##add_law = vice_royalty_rep_0
+				##add_law = vassal_wars_law_rep_0
+				#revoke_law = ze_administration_laws_3
+			}
+			custom_tooltip = {
+				text = laterepublictexto
+			}
+			
+		}
+	}
+	ze_administration_laws_rep_2 = {
+	##IMPERIAL ADMIN
+		group = ze_administration_laws_rep
+		allow = {
+			tier = EMPEROR
+			TECH_MAJESTY >= 5
+			NOT = { 
+				has_law = ze_administration_laws_rep_0
+			}
+			has_law = law_voting_power_0
+			has_law = war_voting_power_0
+			has_law = revoke_title_voting_power_0
+			has_law = imprison_voting_power_0
+			has_law = grant_title_voting_power_0
+			has_law = banish_voting_power_0
+			has_law = execution_voting_power_0
+			conditional_tooltip = {
+				trigger = {
+					holder_scope = { 
+						NOR = { 
+							government = chinese_imperial_government 
+							has_religion_feature = religion_cosmopolitan
+						} 
+					}
+				}
+				has_law = revoke_title_law_2
+			}
+			has_law = term_limit_9
+		}
+		potential = {
+			has_dlc = "Zeus"
+			holder_scope = {
+				is_republic = yes 
+				tier = EMPEROR
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		ai_will_revoke = { factor = 0 }
+		pass_effect = { 
+			holder_scope = {
+				hidden_tooltip = {
+					remove_character_modifier = lawful_dictator
+					remove_character_modifier = lawfully_elected
+					remove_character_modifiers = {
+						modifier = unlawfully_elected
+						amount = 99
+					}
+					remove_character_modifiers = {
+						modifier = runlawfully_elected
+						amount = 99
+					}
+				}
+			}
+		}
+		effect = {
+			custom_tooltip = {
+				text = imperialrepublictext
+				revoke_law = ze_administration_laws_rep_0
+				revoke_law = ze_administration_laws_rep_1
+				set_allow_vice_royalties = yes
+				#revoke_law = ze_administration_laws_3
+			}
+			custom_tooltip = {
+				text = imperialrepublictext2
+			}
+			set_allow_free_vice_royalty_revokation = yes
+			#add_law = vice_royalty_rep_0
+			#add_law = vassal_wars_law_rep_0
+		}
+		
+		vassal_limit = 25
+		city_opinion = -10
+	}
+}

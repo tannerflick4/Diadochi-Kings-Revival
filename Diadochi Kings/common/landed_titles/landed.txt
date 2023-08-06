@@ -11198,7 +11198,7 @@ e_rome = {
 	capital = 324 # Roma
 
 	title = "CONSUL"
-	short_name = yes
+	short_name = no
 	primary = yes
 
 	k_rome = {
@@ -11261,13 +11261,13 @@ e_rome = {
 				holy_site = roman_main
 				holy_site = aquitanian_main # placeholder
 
+				b_esquiline_hill = {
+				}
 				b_capitoline_hill = {
 				}
 				b_caelian_hill = {
 				}
 				b_aventine_hill = {
-				}
-				b_esquiline_hill = {
 				}
 				b_palatine_hill = {
 				}

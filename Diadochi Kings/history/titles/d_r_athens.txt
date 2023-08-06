@@ -1,6 +1,7 @@
 438.8.2 = { # 338 BC, Battle of Chaeronea
 	holder = 53302 # Demosthenes
 	liege = e_macedonia
+	law = succ_patrician_elective
 }
 441.1.1 = { # 335 BC
 	holder = 53402 # Lycurgus

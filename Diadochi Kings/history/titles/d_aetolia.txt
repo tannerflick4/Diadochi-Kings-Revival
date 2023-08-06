@@ -7,6 +7,7 @@
 449.1.1 = { # 327 BC
 	holder = 22201 # Eutychios of the Aetolian league
 	government = merchant_republic_government
+	law = succ_patrician_elective
 }
 453.6.10 = {
 	liege = k_s_macedon	

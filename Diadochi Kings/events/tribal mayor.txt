@@ -1,0 +1,50 @@
+namespace = DVWR
+narrative_event = {
+	id = DVWR.006
+	title = DVWRTitle.006
+	desc = DVWRDesc.006
+	picture = GFX_evt_market_hf
+	
+	only_rulers = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	trigger = {
+		is_tribal = yes
+		NOT = { has_character_modifier = tribal_mayor }
+					OR = {
+						has_law = tribal_organization_3
+						has_law = tribal_organization_4
+					}
+					capital_holding = {
+						OR = {
+							has_building = tb_market_town_3
+							has_building = tb_market_town_4
+							holding_type = city
+						}
+					}
+	}
+	option = {
+		name = DVWR.006A
+		trigger = {
+			is_tribal = yes
+		}
+		add_character_modifier = {
+			name = tribal_mayor
+			years = -1
+		}
+	}
+	option = {
+		name = DVWR.006B
+				trigger = {
+			is_tribal = yes
+		}
+		add_character_modifier = {
+			name = tribal_mayor
+			years = -1
+			hidden = yes
+		}
+	}
+}

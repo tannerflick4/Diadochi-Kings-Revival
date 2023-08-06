@@ -1,0 +1,33 @@
+targeted_decisions = {
+    embrace_feudalism = {
+		only_independent = yes
+		ai_check_interval = 1
+		is_high_prio = yes
+		from_potential = {
+			has_law = ze_administration_laws_rep_3
+		}
+		potential = {
+			is_child_of = FROM
+			government = feudal_government
+			NOT = { tier = BARON }
+		}
+		allow = {
+		}
+		effect = {
+				set_player_character = THIS
+				FROM = {
+					any_demesne_title = {
+						grant_title = THIS
+					}
+					death = {
+						death_reason = DEATH_BY_NATURE
+					}
+				}
+				}
+			}
+		}
+		ai_will_do = {
+		factor = 0
+		}
+	}
+}

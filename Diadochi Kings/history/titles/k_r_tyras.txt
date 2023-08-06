@@ -1,5 +1,6 @@
 388.1.1 = { # 388 BC
 	holder = 50303 # Heliodoros
+	law = succ_patrician_elective
 }
 428.1.1 = { # 348 BC
 	holder = 50301 # Alkaios
