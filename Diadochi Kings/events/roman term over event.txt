@@ -1,6 +1,6 @@
-namespace = DVWR
+namespace = ROME
 narrative_event = {
-	id = DVWR.003
+	id = ROME.003
 	title = DVWRTitle.003
 	desc = {
 		trigger = {
@@ -33,7 +33,7 @@ narrative_event = {
 	}
 	
 	trigger = {
-		government = merchant_republic_government
+		government = roman_republic_government
 		NOT = { has_law = ze_administration_laws_rep_2 }
 		NOT = { has_character_modifier = lawfully_elected }
 		NOT = { has_character_modifier = tribal_mayor }
@@ -74,7 +74,7 @@ narrative_event = {
 			independent = yes
 			liege = {
 				NOT = { 
-				government = roman_republic_government
+				government = roman_republic_government 
 				government = merchant_republic_government 
 				}
 			}
@@ -93,9 +93,9 @@ narrative_event = {
 	}
 	option = {
 		##LAWFUL ELECTION
-		name = DVWR.003A
+		name = ROME.003A
 		trigger = {
-			government = merchant_republic_government
+			government = roman_republic_government
 		}
 		hidden_tooltip = {
 			remove_character_modifier = lawful_dictator
@@ -151,9 +151,9 @@ narrative_event = {
 	}
 	option = {
 		##TYRANNICAL DICTATORSHIP
-		name = DVWR.003B
+		name = ROME.003B
 		trigger = {
-			government = merchant_republic_government
+			government = roman_republic_government
 			OR = {
 				AND = {
 					has_law = ze_administration_laws_rep_1
@@ -261,10 +261,10 @@ narrative_event = {
 	}
 	option = {
 		##MILITARY DICTATORSHIP
-		name = DVWR.003D
+		name = ROME.003D
 		tooltip_info_custom = avbelaread
 		trigger = {
-			government = merchant_republic_government
+			government = roman_republic_government
 			has_law = ze_administration_laws_rep_1
 			war = yes
 		}
@@ -301,10 +301,10 @@ narrative_event = {
 	}
 	option = {
 		##BUY TERM WITH PRESTIGE
-		name = DVWR.003C
+		name = ROME.003C
 		tooltip_info_custom = avbelaread
 		trigger = {
-			government = merchant_republic_government
+			government = roman_republic_government
 			has_law = ze_administration_laws_rep_1
 			OR = {
 				AND = {

@@ -1,6 +1,6 @@
-namespace = DVWR
+namespace = ROME
 narrative_event = {
-	id = DVWR.002
+	id = ROME.002
 	title = DVWRTitle.002
 		desc = {
 		trigger = {
@@ -23,7 +23,7 @@ narrative_event = {
 	}
 	
 	trigger = {
-		government = merchant_republic_government
+		government = roman_republic_government
 		NOT = { has_character_modifier = lawfully_elected }
 		NOT = { has_character_modifier = unlawfully_elected }
 		NOT = { has_character_modifier = runlawfully_elected }
@@ -53,9 +53,9 @@ narrative_event = {
 		}
 	}
 	option = {
-		name = DVWR.002A
+		name = ROME.002A
 		trigger = {
-			government = merchant_republic_government
+			government = roman_republic_government
 		}
 		conditional_tooltip = {
 			trigger = {
