@@ -3,7 +3,7 @@
 	holder = 0
 }
 416.1.1 = { # 360 BC
-	government = roman_republic_government
+	government = merchant_republic_government
 	holder = 170303 # Marcus Fabius Ambustus
 	law = succ_patrician_elective
 }
