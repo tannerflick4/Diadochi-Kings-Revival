@@ -36,7 +36,7 @@ narrative_event = {
 		OR = {
 			independent = yes
 			liege = {
-				NOT = { 
+				NOR = { 
 				government = roman_republic_government
 				government = merchant_republic_government 
 				}
@@ -57,10 +57,8 @@ narrative_event = {
 		trigger = {
 			government = roman_republic_government
 		}
-		conditional_tooltip = {
-			trigger = {
+		if = {
 			has_character_modifier = tribal_mayor
-			}
 			remove_character_modifier = tribal_mayor
 		}
 		if = {
