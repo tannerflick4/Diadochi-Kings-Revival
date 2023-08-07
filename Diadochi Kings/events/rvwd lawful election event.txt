@@ -36,10 +36,7 @@ narrative_event = {
 		OR = {
 			independent = yes
 			liege = {
-				NOT = { 
-				government = roman_republic_government
-				government = merchant_republic_government 
-				}
+				NOT = { government = merchant_republic_government }
 			}
 		}
 	}
