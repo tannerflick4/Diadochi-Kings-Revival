@@ -36,7 +36,7 @@
 380.1.1 = {
 	holder = 825 # Aeropus II
 }
-382.9.1 = {
+381.9.1 = {
 	holder = 828 # Amyntas II 'the Little'
 }
 382.1.1 = {

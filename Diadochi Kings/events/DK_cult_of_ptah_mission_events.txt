@@ -143,6 +143,8 @@ character_event = {
 character_event = {
     id = PTAH.14
     hide_window = yes
+    
+    is_triggered_only = yes
 
     immediate = {
         FROM = {
