@@ -1,5 +1,0 @@
-on_yearly_pulse = {
-	events = {
-		echoes_events.0
-	}
-}

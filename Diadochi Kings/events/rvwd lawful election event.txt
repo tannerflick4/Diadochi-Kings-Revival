@@ -54,7 +54,7 @@ narrative_event = {
 		trigger = {
 			government = merchant_republic_government
 		}
-		conditional_tooltip = {
+		if = {
 			trigger = {
 			has_character_modifier = tribal_mayor
 			}
