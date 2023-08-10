@@ -29,7 +29,7 @@
 		add_spouse = 2601
 	}
 	443.1.1 = { # 333 BC, Antigonos becomes satrap of Phrygia
-		add_trait = maimed
+		add_trait = one_eyed
 		give_nickname = nick_monophthalmos
 	}
 	453.6.10 = {
