@@ -5,10 +5,10 @@
 	liege = 0
 }
 415.1.1 = {
-	holder = 30501
+	holder = 30539
 }
 424.1.1 = { # 352 BC
-	holder = 30501 # Thrasydaios of the Aleuadai
+	holder = 30539 # Thrasydaios of the Aleuadai
 	liege = d_thessaly
 }
 434.1.1 = {

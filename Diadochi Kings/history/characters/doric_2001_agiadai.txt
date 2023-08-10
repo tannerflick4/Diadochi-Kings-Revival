@@ -4,60 +4,973 @@
 	dynasty = 2001 # Agiadai
 	religion = greek_main
 	culture = doric
-	396.1.1 = { # 380 BC, made up
+	
+	father = 20030 # Cleombrotos I
+	
+	386.1.1 = { # 390 BC, made up
 		birth="yes" 
-		create_bloodline = {
-			type = bloodline_agiads
-			has_dlc = "Holy Fury"
-		}
 	}	
-	467.1.1 = { # 309 BC, Natural as there are no causes of death known
+	467.1.1 = { # 309 BC
 		death="yes" 
 	}
 }
 20002 = {
-	name = "Akrotatos" # Acrotatus I, son of Cleomenes II
+	name = "Akrotatos"
 	dynasty = 2001 # Agiadai
 	religion = greek_main
 	culture = doric
-	father = 20001
 	
 	add_trait = cruel
+	add_trait = tough_soldier
+	add_trait = greedy
+	add_trait = deceitful
 	
-	416.1.1 = { # Made up
-		birth="yes" # 360 BC
+	father = 20001 # Kleomenes II
+	
+	424.1.1 = { # approximate
+		birth = yes # 352 BC
 	}
-	464.1.1 = { # Made up
-		death="yes" # 312 BC
+	466.1.1 = { # approximate
+		death = yes # 310 BC
 	}
 }
 20003 = {
-	name = "Areios" # Areus I, Agiad king of Sparta
+	name = "Areus" # King Areus I
 	dynasty = 2001 # Agiadai
 	religion = greek_main
 	culture = doric
-	father = 20002
-	439.1.1 = { # Made up
-		birth="yes" # 337 BC
+	
+	diplomacy = 8
+	martial = 6
+	stewardship = 6
+	intrigue = 3
+	learning = 4
+	
+	add_trait = fortune_builder
+	add_trait = ambitious
+	add_trait = greedy
+	add_trait = cynical
+	
+	father = 20002 # Akrotatos
+	
+	462.1.1 = { # speculative
+		birth = yes # 314 BC
 	}
-	511.1.1 = {
-		death="yes" # 265 BC
+	501.1.1 = { # 275 BC, approximate
+		effect = {
+			add_rival = 20004 # rivalry with Kleonymos
+		}
+	}
+	511.1.1 = { # 265 BC
+		death = { 
+			death_reason = death_battle # died in battle against Antigonus Gonatas
+		}
 	}
 }
 20004 = {
-	name = "Kleonymos" # Brief ruler of Corfu, son of Cleomenes II
+	name = "Kleonymos" # regent for Areus I
 	dynasty = 2001 # Agiadai
 	religion = greek_main
 	culture = doric
-	father = 20001
+
+	diplomacy = 7
+	martial = 8
+	stewardship = 4
+	intrigue = 5
+	learning = 2
 	
+	add_trait = skilled_tactician
 	add_trait = wroth
+	add_trait = lustful
+	add_trait = patient
+	add_trait = gregarious
 	add_trait = cruel
 	
-	432.1.1 = { # Made up
-		birth="yes" # 344 BC
+	father = 20001 # Kleomenes II
+	
+	437.1.1 = { # approximate
+		birth = yes # 339 BC
 	}
-	511.1.1 = { # Made up
-		death="yes" # 265 BC
+	#500.1.1 = { # 276 BC, approximate
+		###add_spouse = spartan002a04 # Chilonis
+	#}
+	501.1.1 = { # 275 BC, approximate
+		effect = { # learns that Acrotatus has seduced his wife
+			### add_rival =  # Chilonis
+			add_rival = 20038 # Akrotatos
+			add_rival = 20003 # Areus
+			add_claim = k_sparta # Cleonymus leaves Sparta and swears vengeance
+		}
+	}
+	#505.1.1 = { # 271 BC, approximate
+		###remove_spouse = spartan002a04 # Chilonis
+	#}
+	506.1.1 = { # 270 BC, approximate
+		death = { 
+			death_reason = death_battle # possibly died in battle against Antigonus Gonatas
+		}
+	}
+}
+20005 = {
+	name = "Polydoros" # King Polydorus I
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	
+	1.1.1 = { # made up
+		birth = yes # 776 BC
+		create_bloodline = {
+			type = bloodline_agiads
+			has_dlc = "Holy Fury"
+		}
+	}
+	73.1.1 = { # 703 BC, made up
+		death = { 
+			death_reason = death_murder # murdered by Polemarchus
+			#killer = ... # Polemarchos
+		}
+	}
+}
+20006 = {
+	name = "Eurykrates" # King Eurycrates I
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	
+	father = 20005 # Polydoros I
+	
+	37.1.1 = { # made up
+		birth = yes # 739 BC
+	}
+	90.1.1 = { # speculative
+		death = yes # 686 BC
+	}
+}
+20007 = {
+	name = "Anaxandros" # King Anaxander I
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	
+	father = 20006 # Eurycrates I
+	
+	76.1.1 = { # made up
+		birth = yes # 700 BC
+	}
+	96.1.1 = { # 680 BC, made up
+		add_spouse = 29904 # Leandris
+	}
+	139.1.1 = { # made up
+		death = yes # 637 BC
+	}
+}
+20008 = {
+	name = "Eurykratidas" # king Eurycratides I
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	
+	father = 20007 # Anaxander I
+	mother = 29904 # Leandris
+	
+	111.1.1 = { # made up
+		birth = yes # 665 BC
+	}
+	194.1.1 = { # made up
+		death = yes # 582 BC
+	}
+}
+20009 = {
+	name = "Leon" # King Leon I
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	
+	father = 20008 # Eurykratidas
+	
+	149.1.1 = { # made up
+		birth = yes # 627 BC
+	}
+	218.1.1 = { # made up
+		death = yes # 558 BC
+	}
+}
+20010 = {
+	name = "Polydoros"
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	
+	father = 20008 # Eurykratidas I
+	
+	151.1.1 = { # made up
+		birth = yes # 625 BC
+	}
+	194.1.1 = { # made up
+		death = yes # 582 BC
+	}
+}
+20011 = {
+	name = "Timasimbrota"
+	female = yes
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	
+	father = 20008 # Eurykratidas I
+	
+	154.1.1 = { # made up
+		birth = yes # 622 BC
+	}
+	210.1.1 = { # made up
+		death = yes # 566 BC
+	}
+}
+20012 = {
+	name = "Anaxandridas" # King Anaxandridas II
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	
+	father = 20009 # Leon I
+	
+	188.1.1 = { # made up
+		birth = yes # 588 BC
+	}
+	222.1.1 = { # 554 BC, made up
+		add_spouse = 20018 # Euonyma
+		effect = {
+			add_lover = 20018 # refused to divorce his first wife because of his love for her
+		}
+	}
+	234.1.1 = { # 542 BC, made up # forced by the Ephors to take a second wife due to the lack of an heir
+		add_spouse = 29905 # Gorgo
+	}
+	256.1.1 = { # approximate
+		death = yes # 520 BC
+	}
+}
+20013 = {
+	name = "Timasimbrota" # made up name
+	female = yes
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	
+	father = 20009 # Leon I
+	
+	186.1.1 = { # made up
+		birth = yes # 590 BC
+	}
+	266.1.1 = { # made up
+		death = yes # 510 BC
+	}
+}
+20014 = {
+	name = "Doreius"
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	
+	add_trait = tough_soldier
+	add_trait = ambitious
+	add_trait = cynical
+	add_trait = strong
+	
+	father = 20012 # Anaxandridas II
+	mother = 20018 # Euonyma
+	
+	236.1.1 = { # approximate
+		birth = yes # 540 BC
+	}
+	256.1.1 = { # 520 BC, approximate
+		effect = {
+			add_rival = 20017 # unsuccessfully challenges his half-brother Kleomenes for the throne
+		}
+	}
+	266.1.1 = { # 510 BC
+		death = { 
+			death_reason = death_battle # died in battle against the Carthaginians and Segestaeans
+		}
+	}
+}
+20015 = {
+	name = "Leonidas" # King Leonidas I
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	
+	add_trait = skilled_tactician
+	add_trait = brave
+	add_trait = stubborn
+	add_trait = proud
+	add_trait = inspiring_leader
+	add_trait = unyielding_leader
+	add_trait = narrow_flank_leader
+	add_trait = strong
+
+	father = 20012 # Anaxandridas II
+	mother = 20018 # Euonyma
+	
+	237.1.1 = { # approximate
+		birth = yes # 539 BC
+		trait = twin
+	}
+	286.1.1 = { # 490 BC, made up
+		add_spouse = 20023 # Gorgo
+	}
+	296.1.1 = { # 480 BC
+		death = { 
+			death_reason = death_battle # died in battle against Xerxes
+		}
+	}
+}
+20016 = {
+	name = "Kleombrotos" # regent for Pleistarchus
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	
+	father = 20012 # Anaxandridas II
+	mother = 20018 # Euonyma
+	
+	237.1.1 = { # approximate
+		birth = yes # 539 BC
+		trait = twin
+	}
+	264.1.1 = { # 512 BC, made up
+		add_spouse = 29906 # Anchithea
+	}
+	297.1.1 = { 
+		death = yes # 479 BC
+	}
+}
+20017 = {
+	name = "Kleomenes" # King Cleomenes I
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	
+	add_trait = brilliant_strategist
+	add_trait = ambitious
+	add_trait = cynical
+	add_trait = temperate
+	add_trait = genius
+	add_trait = lunatic # Forrest (1980) and Devereux (1995) have argued that he suffered from paranoid schizophrenia
+	
+	father = 20012 # Anaxandridas II
+	mother = 29905 # Gorgo
+	
+	235.1.1 = { # approximate
+		birth = yes # 541 BC
+	}
+	256.1.1 = { # 520 BC, approximate
+		effect = {
+			add_rival = 20014 # is challenged by his half-brother Dorieus for the throne
+		}
+	}
+	#269.1.1 = { # 507 BC
+		#effect = {
+			###add_rival =  # he and Demaratus constantly work against eachother, perhaps triggered by Demaratus' dissension at Athens  
+		#}
+	#}
+	289.1.1 = { # 487 BC
+		death = { 
+			death_reason = death_suicide # alleged to have died by self-mutilation while in prison
+		}
+	}
+}
+20018 = {
+	name = "Euonyma" # made up name
+	female = yes
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	
+	mother = 20013 # Timasimbrota
+	
+	205.1.1 = { # made up
+		birth = yes # 571 BC
+	}
+	222.1.1 = { # 554 BC, made up
+		add_spouse = 20012 # Anaxandridas
+		effect = {
+			add_lover = 20012 # Anaxandridas refused to divorce her despite being under pressure from the ephors
+		}
+	}
+	274.1.1 = { # made up
+		death = yes # 502 BC
+	}
+}
+20019 = {
+	name = "Euryanax"
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	
+	father = 20014 # Doreius
+	
+	259.1.1 = { # made up
+		birth = yes # 517 BC
+	}
+	304.1.1 = { # made up
+		death = yes # 472 BC
+	}
+}
+20020 = {
+	name = "Pleistarchos" # King Pleistarchus
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	
+	father = 20015 # Leonidas I
+	mother = 20023 # Gorgo
+	
+	292.1.1 = { # approximate
+		birth = yes # 484 BC
+	}
+	318.1.1 = { 
+		death = yes # 458 BC
+	}
+}
+20021 = {
+	name = "Pausanias" # regent for Pleistarchus
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	
+	add_trait = skilled_tactician
+	add_trait = proud
+	add_trait = arbitrary
+	add_trait = deceitful
+	add_trait = ambitious
+	
+	father = 20016 # Kleombrotos
+	mother = 29906 # Anchithea
+	
+	265.1.1 = { # approximate
+		birth = yes # 511 BC
+	}
+	307.1.1 = { # 469 BC
+		death = { 
+			death_reason = death_execution # walled up in a temple and made to starve by the ephors
+		}
+	}
+}
+20022 = {
+	name = "Nikomedes" # regent for Pleistoanax
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	
+	father = 20016 # Kleombrotos
+	mother = 29906 # Anchithea
+	
+	269.1.1 = { # made up
+		birth = yes # 507 BC
+	}
+	335.1.1 = { # made up
+		death = yes # 441 BC
+	}
+}
+20023 = {
+	name = "Gorgo"
+	female = yes
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	
+	add_trait = grey_eminence
+	add_trait = honest
+	add_trait = proud
+	add_trait = genius
+	
+	father = 20017 # Cleomenes I
+	
+	268.1.1 = { # made up
+		birth = yes # 508 BC
+	}
+	286.1.1 = { # 490 BC, made up
+		add_spouse = 20015 # Leonidas I
+	}
+	324.1.1 = { # made up
+		death = yes # 452 BC
+	}
+}
+20024 = {
+	name = "Pleistoanax" # King Pleistoanax I
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	
+	add_trait = flamboyant_schemer
+	add_trait = greedy
+	add_trait = deceitful
+	
+	father = 20021 # Pausanias
+	
+	301.1.1 = { # approximate
+		birth = yes # 475 BC
+	}
+	368.1.1 = { 
+		death = yes # 408 BC
+	}
+}
+20025 = {
+	name = "Kleomenes" # regent for Pausanias
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	
+	father = 20021 # Pausanias
+	
+	303.1.1 = { # made up
+		birth = yes # 473 BC
+	}
+	356.1.1 = { # made up
+		death = yes # 420 BC
+	}
+}
+20026 = {
+	name = "Aristokles"
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	
+	add_trait = deceitful
+	
+	father = 20021 # Pausanias
+	
+	306.1.1 = { # made up
+		birth = yes # 470 BC
+	}
+	362.1.1 = { # made up
+		death = yes # 414 BC
+	}
+}
+20027 = {
+	name = "Pausanias" # King Pausanias I
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	
+	add_trait = misguided_warrior
+	add_trait = just
+	add_trait = kind
+	
+	father = 20024 # Pleistoanax I
+	
+	330.1.1 = { # approximate
+		birth = yes # 446 BC
+	}
+	#381.1.1 = { # 395 BC, approximate
+	###	employer = ... # condemned to death but managed to escape to Tegea
+	#}
+	402.1.1 = { # approximate
+		death = yes # 374 BC
+	}
+}
+20028 = {
+	name = "Aristodamos" # regent for Agesipolis II
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	
+	father = 20025 # Kleomenes
+	
+	337.1.1 = { # made up
+		birth = yes # 439 BC
+	}
+	408.1.1 = { # made up
+		death = yes # 368 BC
+	}
+}
+20029 = {
+	name = "Hagesipolis" # King Agesipolis I
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+
+	add_trait = skilled_tactician
+	add_trait = just
+	add_trait = shy
+	add_trait = zealous
+	add_trait = organizer
+	add_trait = shrewd
+	
+	father = 20027 # Pausanias I
+	
+	363.1.1 = { # approximate
+		birth = yes # 413 BC
+	}
+	396.1.1 = { # 380 BC
+		add_trait = ill
+		death = { 
+			death_reason = death_poor_health # died of a fever while campaigning in Chalcidice
+		}
+	}
+}
+20030 = {
+	name = "Kleombrotos" # King Cleombrotos I
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	
+	add_trait = misguided_warrior
+	
+	father = 20027 # Pausanias I
+	
+	366.1.1 = { # approximate
+		birth = yes # 410 BC
+	}
+	405.1.1 = { # 371 BC
+		death = { 
+			death_reason = death_battle # died in battle against Epaminondas
+		}
+	}
+}
+20031 = {
+	name = "Hagesipolis" # King Agesipolis II
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	
+	father = 20030 # Cleombrotos I
+	
+	384.1.1 = { # approximate
+		birth = yes # 392 BC
+	}
+	406.1.1 = { 
+		death = yes # 370 BC
+	}
+}
+20032 = {
+	name = "Kleombrotos" # fictional
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	
+	add_trait = shy # traits to explain why he might have slipped through the historical records (assuming he did exist)
+	add_trait = content
+	
+	father = 20001 # Kleomenes II
+	
+	441.1.1 = { # made up
+		birth = yes # 335 BC
+	}
+	488.1.1 = { # made up
+		death = yes # 288 BC
+	}
+}
+20033 = {
+	name = "Leonidas" # king Leonidas II
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	
+	diplomacy = 6
+	martial = 4
+	stewardship = 3
+	intrigue = 9
+	learning = 3
+	
+	add_trait = flamboyant_schemer
+	add_trait = greedy
+	add_trait = deceitful
+	add_trait = slothful
+	
+	father = 20004 # Kleonymos
+	
+	460.1.1 = { # approximate
+		birth = yes # 316 BC
+	}
+	501.1.1 = { # 275 BC, made up
+		add_spouse = 29907 # Kratesikleia
+	}
+	#534.1.1 = { # 242 BC, approximate
+	###	employer = ... # briefly exiled to Tegea
+	#}
+	541.1.1 = { 
+		death = yes # 235 BC
+	}
+}
+20034 = {
+	name = "Kleomenes" # fictional
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	
+	father = 20032 # Kleombrotos
+	
+	473.1.1 = { # made up
+		birth = yes # 303 BC
+	}
+	521.1.1 = { # made up
+		death = yes # 255 BC
+	}
+}
+20035 = {
+	name = "Kleomenes" # King Cleomenes III
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+
+	diplomacy = 8
+	martial = 7
+	stewardship = 9
+	intrigue = 4
+	learning = 7
+
+	add_trait = skilled_tactician
+	add_trait = temperate
+	add_trait = ambitious
+	add_trait = just
+	add_trait = humble
+	add_trait = administrator
+	add_trait = pirate
+	add_trait = aggressive_leader
+	
+	father = 20033 # Leonidas II
+	mother = 29907 # Kratesikleia
+	
+	512.1.1 = { # approximate
+		birth = yes # 264 BC
+	}
+	536.1.1 = { # 240 BC, made up
+		add_spouse = 29908 # Agiatis
+	}
+	#554.9.1 = { # September 222 BC, approximate
+		###employer =  # flees to the court of Ptolemy III Euergetes
+	#}
+	557.1.1 = { # 219 BC
+		death = { 
+			death_reason = death_suicide # committed suicide after a failed uprising in Alexandria
+		}
+	}
+}
+20036 = {
+	name = "Eukleidas" # installed by Cleomenes III on the Eurypontid throne
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	
+	father = 20033 # Leonidas II
+	mother = 29907 # Kratesikleia
+	
+	516.1.1 = { # approximate
+		birth = yes # 260 BC
+	}
+	554.1.1 = { # 222 BC
+		death = { 
+			death_reason = death_battle # died in battle against Antigonus Doson
+		}
+	}
+}
+20037 = {
+	name = "Chilonis"
+	female = yes
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	
+	father = 20033 # Leonidas II
+	mother = 29907 # Kratesikleia
+	
+	510.1.1 = { # made up
+		birth = yes # 266 BC
+	}
+	528.1.1 = { # 248 BC, made up
+		add_spouse = 20039 # Kleombrotos
+	}
+	565.1.1 = { # made up
+		death = yes # 211 BC
+	}
+}
+20038 = {
+	name = "Akrotatos" # King Acrotatus I
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	
+	diplomacy = 6
+	martial = 7
+	stewardship = 3
+	intrigue = 5
+	learning = 2
+	
+	add_trait = skilled_tactician
+	add_trait = brave
+	add_trait = diligent
+	add_trait = proud
+	add_trait = fair
+	add_trait = rough_terrain_leader
+	
+	father = 20003 # Areus I
+	
+	483.1.1 = { # speculative
+		birth = yes # 293 BC
+	}
+	#500.1.1 = { # 276 BC, approximate
+		#effect = {
+			###add_lover = # begins an affair with Chilonis
+		#}
+	#}
+	501.1.1 = { # 275 BC, approximate
+		effect = {
+			add_rival = 20004 # Cleonymus learns of the affair
+		}
+	}
+	#505.1.1 = { # 271 BC, approximate
+		###add_spouse =  # Chilonis
+	#}
+	514.1.1 = { # 262 BC
+		death = { 
+			death_reason = death_battle # died in battle against Aristodemus the Good
+		}
+	}
+}
+20039 = {
+	name = "Kleombrotos" # King Cleombrotus II
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	
+	father = 20034 # Kleomenes
+	
+	505.1.1 = { # made up
+		birth = yes # 271 BC
+	}
+	528.1.1 = { # 248 BC, made up
+		add_spouse = 20037 # Chilonis
+	}
+	550.1.1 = { # made up
+		death = yes # 226 BC
+	}
+}
+20040 = {
+	name = "Leonidas" # made up name
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	
+	father = 20035 # Cleomenes III
+	mother = 29908 # Agiatis
+	
+	541.1.1 = { # made up
+		birth = yes # 235 BC
+	}
+	557.1.1 = { # 219 BC
+		death = { 
+			death_reason = death_execution # executed by Ptolemy IV Philopator
+			#killer = ... # Ptolemaios 
+		}
+	}
+}
+20041 = {
+	name = "Kleomenes" # made up name
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	
+	father = 20035 # Cleomenes III
+	mother = 29908 # Agiatis
+	
+	546.1.1 = { # made up
+		birth = yes # 230 BC
+	}
+	557.1.1 = { # 219 BC
+		death = { 
+			death_reason = death_execution # executed by Ptolemy IV Philopator
+			#killer = ... # Ptolemaios 
+		}
+	}
+}
+20042 = {
+	name = "Hagesipolis"
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	
+	father = 20039 # Kleombrotos
+	mother = 20037 # Chilonis
+	
+	529.1.1 = { # made up
+		birth = yes # 247 BC
+	}
+	553.1.1 = { # made up
+		death = yes # 223 BC
+	}
+}
+20043 = {
+	name = "Kleomenes" # regent for Agesipolis III
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	
+	father = 20039 # Kleombrotos
+	mother = 20037 # Chilonis
+	
+	532.1.1 = { # made up
+		birth = yes # 244 BC
+	}
+	575.1.1 = { # made up
+		death = yes # 201 BC
+	}
+}
+20044 = {
+	name = "Areus" # king Areus II
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	
+	father = 20038 # Akrotatos I
+	###mother =  # Chilonis
+	
+	514.1.1 = { 
+		birth = yes # 262 BC
+	}
+	522.1.1 = { # 254 BC
+		add_trait = ill
+		death = { 
+			death_reason = death_poor_health # died of disease according to Pausanias
+		}
+	}
+}
+20045 = {
+	name = "Hagesipolis" # king Agesipolis III
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	
+	father = 20042 # Hagesipolis
+	
+	551.1.1 = { # approximate
+		birth = yes # 225 BC
+	}
+	592.1.1 = { # 184 BC
+		death = { 
+			death_reason = death_battle # killed by pirates while travelling to Rome 
+		}
+	}
+}
+20046 = {
+	name = "Leonidas" # commander serving under Perseus in 171 BC, said to be of royal blood
+	dynasty = 2001 # Agiadai
+	religion = greek_main
+	culture = doric
+	
+	add_trait = tough_soldier
+	add_trait = arbitrary
+	
+	father = 20043 # Kleomenes, speculative
+	
+	569.1.1 = { # made up
+		birth = yes # 207 BC
+		#effect = {
+			###set_permanent_nickname_effect = { NICKNAME = nick_lakonikos }
+		#}
+	}
+	624.1.1 = { # made up
+		death = yes # 152 BC
 	}
 }
