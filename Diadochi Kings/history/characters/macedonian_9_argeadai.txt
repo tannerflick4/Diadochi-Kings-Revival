@@ -553,7 +553,7 @@
 	327.1.1 = { # made up
 		birth = yes # 449 BC
 	}
-	382.9.1 = { # 394 BC, approximate (archon-year 394/3BC, presumably not long after the summer of 394 BC)
+	381.9.1 = { # 394 BC, approximate (archon-year 394/3BC, presumably not long after the summer of 394 BC)
 		trait = ill
 		death = {
 			death_reason = death_poor_health # died from sickness according to Diodorus

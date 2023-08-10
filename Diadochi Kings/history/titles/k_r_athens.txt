@@ -1,5 +1,6 @@
 410.1.1 = { # 366 BC
 	holder = 53102 # Hyperides
+	law = succ_patrician_elective
 }
 421.1.1 = { # 355 BC
 	holder = 53501 # Eubulus

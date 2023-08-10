@@ -1,13 +1,7 @@
-#Echoes Family
-1.1.1 = {
-	de_jure_liege = e_rome
-	government = feudal_government
-	active = no
-}
 377.1.1 = {
-	active = yes
 	liege = e_rome
 	holder = 170101
+	holding_dynasty = 17002
 }
 450.1.1 = {
 	holder = 170102

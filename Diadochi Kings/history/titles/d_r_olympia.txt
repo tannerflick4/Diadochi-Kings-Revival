@@ -1,6 +1,7 @@
 417.1.1 = { # 359 BC
 	holder = 23701
 	government = merchant_republic_government
+	law = succ_patrician_elective
 }
 438.8.2 = { # 338 BC, Battle of Chaeronea
 	liege = e_macedonia

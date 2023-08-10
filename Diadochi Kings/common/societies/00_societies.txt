@@ -816,7 +816,7 @@ hermetics = {
 		learning = 10
 		OR = {
 			has_religion_feature = religion_astrology
-			religion_group = abrahamic_religion
+			religion_group = egyptian_religion
 			religion = zoroastrian_main
 			custom_tooltip = {
 				text = hellenic_hermetic_join_tooltip
@@ -841,7 +841,7 @@ hermetics = {
 	show_society = {
 		OR = {
 			has_religion_feature = religion_astrology
-			religion_group = abrahamic_religion
+			religion_group = egyptian_religion
 			religion = zoroastrian_main
 			religion_group = greek_religion
 			society_member_of = hermetics
@@ -1044,7 +1044,7 @@ hermetics = {
 				}
 			}
 			OR = {
-				religion_group = abrahamic_religion
+				religion_group = egyptian_religion
 				religion = zoroastrian_main
 				religion_group = greek_religion
 			}
@@ -1763,12 +1763,10 @@ the_bacchants = {
 				value = none
 			}
 		}
-		has_global_flag = flag_restored_bacchants
 	}
 	indestructible = yes
 	
 	can_join_society = {
-		has_global_flag = flag_restored_bacchants
 		hidden_trigger = {
 			NOT = {
 				has_game_rule = {
@@ -1783,8 +1781,8 @@ the_bacchants = {
 					rank = 1
 				}
 			}
+			has_bacchants_prerequisites = yes
 		}
-		has_bacchants_prerequisites = yes
 		hidden_trigger = {
 			NOT = { has_character_flag = society_join_block }
 		}
@@ -1806,9 +1804,6 @@ the_bacchants = {
 			religion_group = greek_religion
 			secret_religion_group = greek_religion
 			society_member_of = the_bacchants
-			top_liege = { true_religion_hellenic_pagan_reformed_trigger = yes }
-			top_liege = { true_religion_hellenic_pagan_trigger = yes }
-			culture = latin #Historically fashionable thrill for bored patricians.
 		}
 	}
 	
@@ -2068,11 +2063,7 @@ the_bacchants = {
 			}
 			ai = yes
 	    	controls_religion = no 
-		    OR = {
-				true_religion_hellenic_pagan_reformed_trigger = yes
-				true_religion_hellenic_pagan_trigger = yes
-				culture = latin
-			}
+			true_religion_hellenic_pagan_trigger = yes
 			OR = {
 				has_impious_trait_trigger = yes
 				has_vice_trigger = yes
@@ -2364,7 +2355,6 @@ warrior_lodge_hellenic = {
     
 	active = {
 		has_dlc = "Holy Fury"
-		has_global_flag = flag_restored_warrior_lodge_hellenic #Must be formed by decision.
 	}
 	indestructible = yes
 	
@@ -2392,7 +2382,7 @@ warrior_lodge_hellenic = {
 			prisoner = no
 		}
 		OR = {
-			religion_openly_hellenic_or_reformed_trigger = yes
+			religion_group = greek_religion
 			AND = {
 				custom_tooltip = {
 					text = society_has_at_least_10_members_tt

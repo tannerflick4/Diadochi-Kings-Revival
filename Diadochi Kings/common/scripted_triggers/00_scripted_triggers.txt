@@ -2027,7 +2027,7 @@ true_religion_zun_pagan_reformed_trigger = {
 }
 
 true_religion_hellenic_pagan_trigger = {
-	always = no
+	true_religion = greek_main
 }
 
 true_religion_hellenic_pagan_reformed_trigger = {
@@ -2847,7 +2847,8 @@ has_vodouns_prerequisites = {
 }
 
 has_bacchants_prerequisites = {
-	always = no # Unused
+	has_common_devilworship_prerequisites = yes
+	religion_openly_hellenic_or_reformed_trigger = yes
 }
 same_society_rank_as_prev_trigger = {
 	OR = {
@@ -4320,7 +4321,12 @@ religion_openly_bon_or_reformed_trigger = {
 	always = no # Unused
 }
 religion_openly_hellenic_or_reformed_trigger = {
-	always = no # Unused
+	custom_tooltip = {
+		text = religion_openly_hellenic_or_reformed_tooltip
+		hidden_trigger = {
+			religion_group = greek_religion
+		}
+	}
 }
 
 religion_openly_aztec_or_reformed_trigger = {

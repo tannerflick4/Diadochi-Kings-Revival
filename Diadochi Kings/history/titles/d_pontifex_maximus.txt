@@ -3,6 +3,7 @@
 	holder = 0
 }
 267.1.1 = { # Gaius Papirius Pontifex from 509 - 449 BC
+	liege = e_rome
 	holder = 4600001
 }
 327.1.1 = { # Marcus Papirius Pontifex from 449 - 431 BC

@@ -1,5 +1,5 @@
 226.1.1 = { # 550 BC
-	law = succ_feudal_elective
+	law = succ_patrician_elective
 	holder = 250305 # Magon I of Carthage
 }
 246.1.1 = { # 375 BC

@@ -1,6 +1,7 @@
 401.1.1 = { # 373 BC
 	holder = 22503 # Leonidas, Made up
 	government = merchant_republic_government
+	law = succ_patrician_elective
 }
 439.1.1 = { # 337 BC
 	holder = 22501 # Hieronymos, Made up

@@ -1,6 +1,7 @@
 392.1.1 = { # 384 BC
 	holder = 23301
 	government = merchant_republic_government
+	law = succ_patrician_elective
 }
 434.1.1 = { # 342 BC
 	holder = 23302

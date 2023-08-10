@@ -1,0 +1,93 @@
+decisions = {
+    hold_election = {
+		ai_check_interval = 30
+		is_high_prio = yes
+		potential = {
+			OR = {
+			has_character_modifier = unlawfully_elected
+			has_character_modifier = runlawfully_elected
+			has_character_modifier = lawful_dictator
+			}
+		}
+		allow = {
+			OR = {
+				custom_tooltip = {
+					text = unlawfullyelectedholdelection
+					OR = {
+					has_character_modifier = unlawfully_elected
+					has_character_modifier = runlawfully_elected
+					}
+				}
+			has_character_modifier = lawful_dictator
+			}
+		}
+		effect = {
+		hidden_tooltip = {
+			remove_character_modifier = lawful_dictator
+			remove_character_modifiers = {
+				modifier = unlawfully_elected
+				amount = 99
+			}
+			remove_character_modifiers = {
+				modifier = runlawfully_elected
+				amount = 99
+			}
+		}
+		custom_tooltip = {
+		text = electionheldrvwd
+		player_heir = {
+			wealth = ROOT
+			ROOT = {
+				any_artifact = {
+					transfer_artifact = {
+					to = PREVPREV
+					from = ROOT
+					}
+				}
+			}
+		}
+		clear_wealth = yes
+		abdicate = { move = no }
+	}
+	custom_tooltip = {
+		text = electionheldrvwd2
+	}
+	custom_tooltip = {
+		text = electionheldrvwd3
+	}
+		}
+		ai_will_do = {
+		factor = 1
+			modifier = {
+				factor = 0.01
+				war = yes
+			}
+			modifier = {
+				factor = 3
+				OR = {
+					trait = content
+					trait = humble
+				}
+			}
+			modifier = {
+				factor = 0.1
+				or = {
+					trait = greedy
+					trait = envious
+					trait = proud
+					trait = ambitious
+				}
+			}
+			modifier = {
+				factor = 10
+				trait = infirm
+				NOT = { trait = stubborn }
+			}
+			modifier = {
+				factor = 30
+				trait = incapable
+				NOT = { trait = stubborn }
+			}
+		}
+}
+}

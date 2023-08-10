@@ -1,0 +1,112 @@
+namespace = DVWR
+narrative_event = {
+	id = DVWR.002
+	title = DVWRTitle.002
+		desc = {
+		trigger = {
+			has_character_modifier = tribal_mayor
+		}
+			text = DVWRDesc.0002
+	}
+	desc = {
+		trigger = {
+			NOT = { has_character_modifier = tribal_mayor }
+		}
+			text = DVWRDesc.002
+	}
+	picture = GFX_evt_market_hf
+	
+	only_rulers = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	trigger = {
+		government = merchant_republic_government
+		NOT = { has_character_modifier = lawfully_elected }
+		NOT = { has_character_modifier = unlawfully_elected }
+		NOT = { has_character_modifier = runlawfully_elected }
+		NOT = { has_law = ze_administration_laws_rep_2 }
+		OR = {
+			ruled_years <= 1
+			total_years_played <= 1
+			has_character_modifier = tribal_mayor
+		}
+		OR = {
+			independent = yes
+			liege = {
+				NOT = { government = merchant_republic_government }
+			}
+		}
+	}
+	after = {
+		if = {
+			limit = {
+					has_law = term_limit_3
+					has_law = term_limit_9
+			}
+			revoke_law = term_limit_3
+		}
+	}
+	option = {
+		name = DVWR.002A
+		trigger = {
+			government = merchant_republic_government
+		}
+		if = {
+			trigger = {
+			has_character_modifier = tribal_mayor
+			}
+			remove_character_modifier = tribal_mayor
+		}
+		if = {
+			limit = {
+			NOT = { has_law = term_limit_6 }
+			NOT = { has_law = term_limit_9 }
+			}
+			add_character_modifier = {
+				name = lawfully_elected
+				years = 1
+			}
+		}
+		if = {
+			limit = {
+			has_law = term_limit_6
+			}
+			add_character_modifier = {
+				name = lawfully_elected
+				years = 6
+			}
+			
+			}
+		if = {
+			limit = {
+			has_law = term_limit_9
+			}
+			add_character_modifier = {
+				name = lawfully_elected
+				years = 10
+			}
+		}
+		##if = {
+		##	limit = { 
+		##	has_law = ze_administration_laws_rep_0
+		##	}
+		##	custom_tooltip = {
+		##	text = CLAIMFEUDALTITLES
+		##	any_vassal = {
+		##	limit = {
+		##	NOT = { tier = BARON }
+		##	is_feudal = yes
+		##	}
+		##		any_realm_title = {
+		##			ROOT = {
+		##				add_weak_claim = PREV
+		##			}
+		##		}
+		##	}
+		##	}
+		##}
+	}
+}

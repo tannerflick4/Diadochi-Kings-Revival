@@ -1,6 +1,7 @@
 415.1.1 = { # 361 BC
 	holder = 22402 # Xenon, Made up
 	government = merchant_republic_government
+	law = succ_patrician_elective
 }
 450.1.1 = { # 326 BC
 	holder = 22401 # Xenon, Made up
