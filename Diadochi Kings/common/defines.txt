@@ -1,5 +1,5 @@
 start_date = 417.4.1 # Philip II starts his reign
-last_start_date = 595.8.1
+last_start_date = 495.8.1
 end_date = 1252.1.1 # 476, End of Antiquity
 
 character = {
