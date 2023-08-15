@@ -174,151 +174,46 @@ cultural_liberation = {
 		}
 	}
 	on_success_title = {
-		if = {
-			limit = {
-				ROOT = {
-					culture_group = FROM
-				}
-			}
-			any_direct_de_jure_vassal_title = {
-				limit = {
-					location = {
-						culture = ROOT
-						owner = {											
-							NOT = {
-								culture = PREV
-							}
-						}
-					}				
-					holder_scope = {
-						OR = {
-							is_liege_or_above = FROM
-							character = FROM
-						}
-					}
-				}
-				if = {
-					limit = {
-						holder_scope = {
-							culture = ROOT
-							lower_tier_than = ROOT	
-							capital_scope = {
-								de_jure_liege_or_above = PREVPREVPREV
-								culture = ROOT
-							}						
-							NOT = {
-								liege = {
-									lower_tier_than = ROOT
-									culture = ROOT
-									capital_scope = {
-										de_jure_liege_or_above = PREVPREVPREVPREV # Duchy
-										culture = ROOT
-									}
-								}
-							}
-						}
-					}
-					holder_scope = {
-						set_defacto_liege = ROOT
-					}
-				}
-				if = {
-					limit = {
-						holder_scope = {
-							OR = {
-								NOT = {
-									culture = ROOT
-								}
-								NOT = {
-									lower_tier_than = ROOT
-								}
-								capital_scope = {
-									OR = {
-										NOT = { de_jure_liege_or_above = PREVPREVPREV }
-										NOT = { culture = ROOT }
-									}
-								}
-							}
-						}
-					}
-					usurp_title = ROOT
-				}
-			}
-		}
-		if = {
-			limit = {
-				NOT = {
-					ROOT = {
-						culture_group = FROM
-					}
-				}
-			}
-			any_direct_de_jure_vassal_title = {
-				limit = {
-					location = {
-						culture_group = ROOT
-						owner = {							
-							NOT = {
-								culture = PREV
-							}
-						}
-					}
-					holder_scope = {
-						OR = {
-							is_liege_or_above = FROM
-							character = FROM
-						}
-					}
-				}
-				if = {
-					limit = {
-						holder_scope = {
-							culture_group = ROOT
-							lower_tier_than = ROOT	
-							capital_scope = {
-								de_jure_liege_or_above = PREVPREVPREV
-								culture_group = ROOT
-							}						
-							NOT = {
-								liege = {
-									lower_tier_than = ROOT
-									culture_group = ROOT
-									capital_scope = {
-										de_jure_liege_or_above = PREVPREVPREVPREV # Duchy
-										culture_group = ROOT
-									}
-								}
-							}
-						}
-					}
-					holder_scope = {
-						set_defacto_liege = ROOT
-					}
-				}
-				if = {
-					limit = {
-						holder_scope = {
-							OR = {
-								NOT = {
-									culture_group = ROOT
-								}
-								NOT = {
-									lower_tier_than = ROOT
-								}
-								capital_scope = {
-									OR = {
-										NOT = { de_jure_liege_or_above = PREVPREVPREV }
-										NOT = { culture_group = ROOT }
-									}
-								}
-							}
-						}
-					}
-					usurp_title = ROOT
-				}
-			}
-		}	
-	}
+        any_direct_de_jure_vassal_title = {
+            limit = {
+                holder_scope = {
+                    OR = {
+                        is_liege_or_above = FROM
+                        character = FROM
+                    }
+                }
+            }
+            if = {
+                limit = {
+                    holder_scope = {
+                        culture_group = ROOT
+                        lower_tier_than = ROOT    
+                        capital_scope = {
+                            de_jure_liege_or_above = PREVPREVPREV
+                        }                        
+                        NOT = {
+                            liege = {
+                                lower_tier_than = ROOT
+                                culture_group = ROOT
+                                capital_scope = {
+                                    de_jure_liege_or_above = PREVPREVPREVPREV # Duchy
+                                }
+                            }
+                        }
+                    }
+                }
+                holder_scope = {
+                    set_defacto_liege = ROOT
+                }
+            }
+            else_if = {
+                limit = {
+                    location = { culture_group = ROOT }
+                }
+                usurp_title = ROOT
+            }
+        }
+    }
 	on_fail = {
 		ROOT = {
 			prestige = -50
