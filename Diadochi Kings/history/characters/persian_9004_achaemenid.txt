@@ -4,7 +4,8 @@
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
-	father = 90317
+	
+	father = 90317 # Cambyses I
 	
 	add_trait = brilliant_strategist
 	add_trait = ambitious
@@ -31,7 +32,8 @@
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
-	father = 90301
+	
+	father = 90301 # Cyrus the Great
 	
 	add_trait = ambitious
 	add_trait = tough_soldier
@@ -49,7 +51,8 @@
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
-	father = 90301
+	
+	father = 90301 # Cyrus the Great
 	
 	add_trait = strong
 	add_trait = charitable
@@ -66,7 +69,9 @@
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
-	father = 90319
+	
+	father = 90319 # Arsames
+	
 	206.1.1 = { # 570 BC Made up
 		birth="yes"
 	}
@@ -79,7 +84,8 @@
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
-	father = 90304
+	
+	father = 90304 # Hystaspes
 	
 	add_trait = deceitful
 	add_trait = midas_touched
@@ -105,8 +111,9 @@
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
-	father = 90305
-	mother = 90330
+	
+	father = 90305 # Darius the Great
+	mother = 90330 # Hutaosa
 	
 	add_trait = greedy
 	add_trait = zealous
@@ -127,7 +134,8 @@
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
-	father = 90306
+	
+	father = 90306 # Xerxes the Great
 	
 	add_trait = charitable
 	
@@ -143,7 +151,9 @@
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
-	father = 90307
+	
+	father = 90307 # Artaxerxes I
+	
 	308.1.1 = { # 468 BC Made up
 		birth="yes"
 	}
@@ -159,7 +169,9 @@
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
-	father = 90307
+	
+	father = 90307 # Artaxerxes I
+	
 	313.1.1 = { # 463 BC Made up
 		birth="yes"
 	}
@@ -174,7 +186,8 @@
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
-	father = 90307
+	
+	father = 90307 # Artaxerxes I
 	
 	add_trait = bastard
 	add_trait = deceitful
@@ -191,7 +204,8 @@
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
-	father = 90310
+	
+	father = 90310 # Darius II
 	
 	add_trait = envious
 	add_trait = deceitful
@@ -211,7 +225,8 @@
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
-	father = 90311
+	
+	father = 90311 # Artaxerxes II
 	mother = 80016
 	
 	add_trait = tough_soldier
@@ -236,7 +251,8 @@
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
-	father = 90312
+	
+	father = 90312 # Artaxerxes III
 	
 	add_trait = weak
 	
@@ -254,7 +270,8 @@
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
-	father = 90328
+	
+	father = 90328 # Arsames
 	
 	add_trait = duelist
 	add_trait = tough_soldier
@@ -291,7 +308,9 @@
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
-	father = 90315
+	
+	father = 90315 # Teispes
+	
 	116.1.1 = { # 660 BC Made up
 		birth="yes"
 	}
@@ -304,7 +323,8 @@
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
-	father = 90316
+	
+	father = 90316 # Cyrus
 	
 	add_trait = kind
 	
@@ -320,7 +340,9 @@
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
-	father = 90315
+	
+	father = 90315 # Teispes
+	
 	120.1.1 = { # 656 BC Made up
 		birth="yes"
 	}
@@ -333,7 +355,9 @@
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
-	father = 90318
+	
+	father = 90318 # Ariaramnes
+	
 	166.1.1 = { # 610 BC
 		birth="yes"
 	}
@@ -346,7 +370,8 @@
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
-	father = 90329
+	
+	father = 90329 # Oxyathres
 	
 	add_trait = ambitious
 	add_trait = proud
@@ -426,7 +451,9 @@
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
-	father = 90310
+	
+	father = 90310 # Darius II
+	
 	352.1.1 = { # 424 BC
 		birth="yes"
 	}
@@ -441,7 +468,9 @@
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
-	father = 90310
+	
+	father = 90310 # Darius II
+	
 	358.1.1 = { # 418 BC Made up
 		birth="yes"
 	}
@@ -456,7 +485,9 @@
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
-	father = 90327
+	
+	father = 90327 # Artostes
+	
 	376.1.1 = { # 400 BC Made up
 		birth="yes"
 	}
@@ -471,7 +502,9 @@
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
-	father = 90328
+	
+	father = 90328 # Arsames
+	
 	399.1.1 = { # 377 BC Made up
 		birth="yes"
 	}
@@ -485,7 +518,9 @@
 	religion = zoroastrian_main
 	culture = persian
 	female = yes
-	father = 90301
+	
+	father = 90301 # Cyrus the Great
+	
 	226.1.1 = { # 550 BC
 		birth="yes"
 	}
@@ -500,8 +535,9 @@
 	religion = zoroastrian_main
 	culture = persian
 	female = yes
-	father = 90311
-	mother = 80016
+	
+	father = 90311 # Artaxerxes II
+	mother = 80016 # Stateira
 	
 	359.1.1 = { # 417 BC Made up
 		birth="yes"
@@ -518,7 +554,9 @@
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
-	father = 90319
+	
+	father = 90319 # Arsames
+	
 	218.1.1 = { # 558 BC
 		birth="yes"
 	}
@@ -531,7 +569,9 @@
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
-	father = 90332
+	
+	father = 90332 # Megabates
+	
 	234.1.1 = { # 542 BC
 		birth="yes"
 	}
@@ -540,11 +580,13 @@
 	}
 }
 90334 = {
-	name = "Bubares"
+	name = "Boubares"
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
-	father = 90333 # Bagabazu
+	
+	father = 90333 # Megabazus
+	
 	250.1.1 = { # 526 BC
 		birth="yes"
 	}
@@ -560,7 +602,9 @@
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
-	father = 90333 # Bagabazu
+	
+	father = 90333 # Megabazus
+	
 	260.1.1 = { # 516 BC
 		birth="yes"
 	}
@@ -573,7 +617,9 @@
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
-	father = 90333 # Bagabazu
+	
+	father = 90333 # Megabazus
+	
 	266.1.1 = { # 510 BC
 		birth="yes"
 	}
@@ -604,7 +650,7 @@
 	culture = persian
 	female = yes
 	
-	father = 90328
+	father = 90328 # Arsames
 	
 	406.1.1 = { # 370 BC
 		birth="yes"
@@ -625,8 +671,8 @@
 	culture = persian
 	female = yes
 	
-	father = 90314
-	mother = 90338
+	father = 90314 # Darius III
+	mother = 90338 # Stateira
 	
 	426.1.1 = { # 350 BC
 		birth="yes"
@@ -648,8 +694,8 @@
 	culture = persian
 	female = yes
 	
-	father = 90314
-	mother = 90338
+	father = 90314 # Darius III
+	mother = 90338 # Stateira
 	
 	431.1.1 = { # 345 BC
 		birth="yes"
@@ -671,7 +717,7 @@
 	culture = persian
 	female = yes
 	
-	father = 90312
+	father = 90312 # Artaxerxes III
 	
 	436.1.1 = { # 340 BC Made up
 		birth="yes"

@@ -6,15 +6,33 @@
 	culture = macedonian
 	female = yes
 	
+	father = 2602 # Korrhaeus
+	
 	add_trait = gregarious
 	
 	394.1.1 = {
 		birth="yes" # 382 BC Made up
 	}
+	415.1.1 = {
+		add_spouse = 412 # Demetrios
+	}
 	439.1.1 = { # 337 BC Made up
-		add_spouse = 401
+		add_spouse = 401 # Antigonus
 	}
 	475.1.1 = { # 301 BC
 		death="yes"
+	}
+}
+2602 = {
+	name = "Korrhaeus"
+	dynasty = 27 # Korrhaioi
+	religion = greek_main
+	culture = macedonian
+	
+	369.1.1 = {
+		birth="yes" # 397 BC Made up
+	}
+	431.1.1 = {
+		death="yes" # 345 BC Made up
 	}
 }

@@ -41,7 +41,7 @@
 		birth="yes"
 	}
 	375.1.1 = {
-		add_spouse = 90331
+		add_spouse = 90331 # Rhodogune
 	}
 	432.1.1 = { # 344 BC
 		death="yes"
@@ -222,7 +222,7 @@
 		birth="yes"
 	}
 	359.1.1 = {
-		add_spouse = 90311
+		add_spouse = 90311 # Artaxerxes II
 	}
 	391.1.1 = { # 385 BC made up
 		death="yes"

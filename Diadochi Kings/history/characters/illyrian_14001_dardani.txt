@@ -1,6 +1,6 @@
 # 140001-140100 for the Dardani dynasty
 140001 = {
-	name = "Cleitus" # Cleitus, King of Dardania
+	name = "kleitos" # Cleitus, King of Dardania
 	dynasty = 14001 # Dardani
 	religion = illyrian_main
 	culture = illyrian
@@ -85,5 +85,48 @@
 	}
 	438.1.1 = {  # 338 BC Made up
 		death="yes"
+	}
+}
+140006 = {
+	name = "Grabos" # Illyrian dynast who allied with Athens ca. 356/5 BC but was defeated by Parmenion
+	dynasty = 14001 # Dardani
+	religion = illyrian_main
+	culture = illyrian
+	father = 140003 # Bardyllis, speculative
+	364.1.1 = { # made up
+		birth = yes # 412 BC
+	}
+	427.1.1 = { # made up
+		death = yes # 349 BC
+	}
+}
+140007 = {
+	name = "Birkenna"
+	female = yes
+	dynasty = 14001 # Dardani
+	religion = illyrian_main
+	culture = illyrian
+	father = 140002 # Bardyllis
+	460.1.1 = { # made up
+		birth = yes # 316 BC
+	}
+	484.1.1 = { # 292 BC
+		add_spouse = 10010 # Pyrrhos
+	}
+	506.1.1 = { # made up
+		death = yes # 270 BC
+	}
+}
+140008 = {
+	name = "Grabos" # fictional
+	dynasty = 14001 # Dardani
+	religion = illyrian_main
+	culture = illyrian
+	father = 140002 # Bardyllis
+	463.1.1 = { # made up
+		birth = yes # 313 BC
+	}
+	511.1.1 = { # made up
+		death = yes # 265 BC
 	}
 }

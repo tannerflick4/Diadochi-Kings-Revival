@@ -1,11 +1,11 @@
 # 401-500 for the Antigonidai dynasty
 401 = {
-	name = "Antigonos" # Antigonus, the one eyed
+	name = "Antigonos" # Antigonus I, the one eyed
 	dynasty = 5 # Antigonidai
 	religion = greek_main
 	culture = macedonian
 
-	father = 406
+	father = 406 # Philippos
 	
 	dna = mpdachtcwow
 	properties = nmdedd00000
@@ -26,10 +26,10 @@
 		}
 	}
 	439.1.1 = { # 337 BC Made up
-		add_spouse = 2601
+		add_spouse = 2601 # Stratonike
 	}
 	443.1.1 = { # 333 BC, Antigonos becomes satrap of Phrygia
-		add_trait = maimed
+		add_trait = one_eyed
 		give_nickname = nick_monophthalmos
 	}
 	453.6.10 = {
@@ -47,8 +47,8 @@
 	religion = greek_main
 	culture = macedonian
 
-	father = 401
-	mother = 2601
+	father = 401 # Antigonus
+	mother = 2601 # Stratonike
 	
 	add_trait = skilled_tactician
 	add_trait = brave
@@ -70,11 +70,22 @@
 	457.1.1 = { # 319 BC
 		add_spouse = 3 # Phila
 	}
+	469.1.1 = {
+		effect = {
+			add_lover = 59903 # Lamia of Athens
+		}
+	}
 	472.1.1 = { # 304 BC, End of siege of Rhodes
 		give_nickname = nick_poliorketes
 	}
+	473.1.1 = { # 303 BC
+		add_spouse = 10017 # Deidameia
+	}
 	485.1.1 = { # 291 BC
 		add_spouse = 22702 # Lanassa
+	}
+	490.1.1 = { 
+		add_spouse = 607 # Ptolemais
 	}
 	493.1.1 = { # 283 BC
 		death="yes"
@@ -86,8 +97,8 @@
 	religion = greek_main
 	culture = macedonian
 
-	father = 401
-	mother = 2601
+	father = 401 # Antigonus
+	mother = 2601 # Stratonike
 
 	441.1.1 = { # 335 BC Made up
 		birth="yes"
@@ -105,7 +116,7 @@
 	religion = greek_main
 	culture = macedonian
 
-	father = 413
+	father = 414 # Philostratus
 	
 	add_trait = ambitious
 	add_trait = tough_soldier
@@ -135,20 +146,20 @@
 	}
 }
 408 = {
-	name = "Antigonos" # Gonatas
+	name = "Antigonos" # Antigonos II Gonatas
 	dynasty = 5 # Antigonidai
 	religion = greek_main
 	culture = macedonian
 
-	father = 402
-	mother = 3
+	father = 402 # Demetrius Poliorcetes
+	mother = 3 # Phila
 	
 	add_trait = skilled_tactician
 	add_trait = kind
 	add_trait = humble
 	add_trait = patient
-	
 	add_trait = diadochi_king
+	
 	457.1.1 = {
 		birth="yes" # 319 BC
 		give_nickname = nick_gonatas
@@ -167,11 +178,18 @@
 	culture = macedonian
 	female = yes
 
-	father = 402 # Demetrius
+	father = 402 # Demetrius Poliorcetes
 	mother = 3 # Phila
 
 	459.1.1 = { # Made up(ish)
 		birth="yes" # 317 BC
+	}
+	476.1.1 = {
+		add_spouse = 1001 # Seleucus I
+	}
+	482.1.1 = {
+		remove_spouse = 1001 # Seleucus I 'Nikator'
+		add_spouse = 1002 # Antiochus I 'Soter'
 	}
 	515.1.1 = { # Made up
 		death="yes" # 261 BC
@@ -183,7 +201,7 @@
 	religion = greek_main
 	culture = macedonian
 	
-	father = 413
+	father = 413 # Ptolemaios
 	
 	add_trait = skilled_tactician
 	add_trait = ambitious
@@ -204,10 +222,13 @@
 	religion = greek_main
 	culture = macedonian
 
-	father = 406
+	father = 406 # Philippos
 
 	393.1.1 = { # Made up
 		birth="yes" # 383 BC
+	}
+	415.1.1 = {
+		add_spouse = 2601 # Stratonike
 	}
 	417.1.1 = { # Made up
 		death="yes" # 359 BC
@@ -219,12 +240,246 @@
 	religion = greek_main
 	culture = macedonian
 
-	father = 406
+	father = 406 # Philippos
 
 	396.1.1 = { # Made up
 		birth="yes" # 380 BC
 	}
 	448.1.1 = { # Made up
 		death="yes" # 328 BC
+	}
+}
+414 = {
+	name = "Philostratus" # Fictional brother of Antigonos
+	dynasty = 5 # Antigonidai
+	religion = greek_main
+	culture = macedonian
+
+	father = 406 # Philippos
+
+	391.1.1 = { # Made up
+		birth="yes" # 385 BC
+	}
+	456.1.1 = { # Made up
+		death="yes" # 320 BC
+	}
+}
+416 = {
+	name = "Stratonike"
+	dynasty = 5 # Antigonidai
+	religion = greek_main
+	culture = macedonian
+	female = yes
+
+	father = 402 # Demetrius Poliorcetes
+	mother = 10017 # Deidameia
+
+	476.1.1 = { # Made up
+		birth="yes" # 300 BC
+	}
+	490.1.1 = {
+		add_spouse = 22707 # Archagathus
+	}
+	506.1.1 = {
+		add_spouse = 602 # Ptolemaios II
+	}
+	570.1.1 = { # Made up
+		death="yes" # 206 BC
+	}
+}
+417 = {
+	name = "Alexandros"
+	dynasty = 5 # Antigonidai
+	religion = greek_main
+	culture = macedonian
+
+	father = 402 # Demetrius Poliorcetes
+	mother = 10017 # Deidameia
+
+	473.1.1 = { # Made up
+		birth="yes" # 303 BC
+	}
+	511.1.1 = { # Made up
+		death="yes" # 265 BC
+	}
+}
+418 = {
+	name = "Demetrios" # Demetrios the Fair
+	dynasty = 5 # Antigonidai
+	religion = greek_main
+	culture = macedonian
+
+	father = 402 # Demetrius Poliorcetes
+	mother = 607 # Ptolemais
+
+	491.1.1 = { # Made up
+		birth="yes" # 285 BC
+	}
+	#503.1.1 = {
+		###give_nickname = nick_fair
+	#}
+	512.1.1 = { # 264 BC, made up
+		add_spouse = 30553 # Olympias
+	}
+	527.1.1 = { # Made up
+		death="yes" # 249 BC
+	}
+}
+419 = {
+	name = "Phila"
+	dynasty = 5 # Antigonidai
+	religion = greek_main
+	culture = macedonian
+	female = yes
+
+	father = 402 # Demetrius Poliorcetes
+	mother = 59903 # Lamia of Athens
+
+	469.1.1 = { # Made up
+		birth="yes" # 307 BC
+	}
+	565.1.1 = { # Made up
+		death="yes" # 402 BC
+	}
+}
+420 = {
+	name = "Kraterus"
+	dynasty = 5 # Antigonidai
+	religion = greek_main
+	culture = macedonian
+
+	father = 402 # Demetrius Poliorcetes
+	mother = 3 # Phila
+
+	470.1.1 = { # Made up
+		birth="yes" # 306 BC
+	}
+	486.1.1 = {
+		add_spouse = 3706 # Nikea
+	}
+	554.1.1 = { # Made up
+		death="yes" # 222 BC
+	}
+}
+421 = {
+	name = "Demetrius" # Demetrius II Aetolicus
+	dynasty = 5 # Antigonidai
+	religion = greek_main
+	culture = macedonian
+
+	father = 408 # Antigonos Gonatas
+	mother = 1010 # Phila II
+
+	501.1.1 = { # Made up
+		birth="yes" # 275 BC
+	}
+	517.1.1 = {
+		add_spouse = 3707 # Nikea
+	}
+	523.1.1 = {
+		add_spouse = 1015 # Stratonike 'II'
+	}
+	537.1.1 = {
+		remove_spouse = 1015 # Stratonike 'II'
+	}
+	547.1.1 = { # Made up
+		death="yes" # 229 BC
+	}
+}
+422 = {
+	name = "Alkyoneus"
+	dynasty = 5 # Antigonidai
+	religion = greek_main
+	culture = macedonian
+
+	father = 408 # Antigonos Gonatas
+	mother = 1010 # Phila II
+
+	498.1.1 = { # Made up
+		birth="yes" # 278 BC
+	}
+	531.1.1 = { # Made up
+		death="yes" # 245 BC
+	}
+}
+423 = {
+	name = "Alexandros"
+	dynasty = 5 # Antigonidai
+	religion = greek_main
+	culture = macedonian
+
+	father = 420 # Kraterus
+	mother = 3706 # Nikea
+
+	486.1.1 = { # Made up
+		birth="yes" # 290 BC
+	}
+	539.1.1 = { # Made up
+		death="yes" # 237 BC
+	}
+}
+424 = {
+	name = "Antigonos" # Antigonos III Doson
+	dynasty = 5 # Antigonidai
+	religion = greek_main
+	culture = macedonian
+
+	father = 418 # Demetrios the Fair
+	mother = 30553 # Olympias
+
+	513.1.1 = {
+		birth="yes" # 263 BC
+	}
+	555.1.1 = {
+		death="yes" # 221 BC
+	}
+}
+425 = {
+	name = "Echekrates"
+	dynasty = 5 # Antigonidai
+	religion = greek_main
+	culture = macedonian
+
+	father = 418 # Demetrios the Fair
+	mother = 30553 # Olympias
+
+	514.1.1 = { # Made up
+		birth="yes" # 262 BC
+	}
+	583.1.1 = { # Made up
+		death="yes" # 193 BC
+	}
+}
+426 = {
+	name = "Apama"
+	dynasty = 5 # Antigonidai
+	religion = greek_main
+	culture = macedonian
+	female = yes
+
+	father = 421 # Demetrius II Aetolicus
+	mother = 1015 # Stratonike 'II'
+
+	526.1.1 = { # Made up
+		birth="yes" # 250 BC
+	}
+	610.1.1 = { # Made up
+		death="yes" # 166 BC
+	}
+}
+427 = {
+	name = "Philippos" # Philip V of Macedon
+	dynasty = 5 # Antigonidai
+	religion = greek_main
+	culture = macedonian
+
+	father = 421 # Demetrius II Aetolicus
+	mother = 3707 # Nikea
+
+	538.1.1 = {
+		birth="yes" # 238 BC
+	}
+	597.1.1 = { # Made up
+		death="yes" # 179 BC
 	}
 }

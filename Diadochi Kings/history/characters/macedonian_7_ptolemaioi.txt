@@ -31,10 +31,16 @@
 	#	add_trait = diadochi_king
 	#}
 	454.1.1 = { # 322 BC
-		add_spouse = 350007 #(Miss) of Egypt
+		add_spouse = 350007 # Meryethapi of Egypt
 	}
 	455.1.1 = { # 321 BC
 		add_spouse = 4 # Eurydike
+	}
+	457.1.1 = {
+		add_spouse = 21 # Berenike I
+		effect = {
+			add_lover = 21 # Berenike I
+		}
 	}
 	472.1.1 = { # 304 BC, End of siege of Rhodes
 		give_nickname = nick_soter
@@ -60,11 +66,11 @@
 	472.1.1 = { # 304 BC, End of siege of Rhodes
 		religion = greco_kemetic
 	}
-	491.1.1 = { # 281 BC
-		religion = greco_kemetic
-	}
 	493.1.1 = { # 283 BC
 		give_nickname = nick_philadelphos
+	}
+	506.1.1 = {
+		add_spouse = 416 # Stratonike
 	}
 	530.1.1 = { # 246 BC
 		death="yes"
@@ -156,5 +162,68 @@
 	}
 	438.1.1 = {
 		death = yes # 338 BC made up
+	}
+}
+607 = {
+	name = "Ptolemais"
+	dynasty = 7 # Ptolemaioi
+	religion = greek_main
+	culture = macedonian
+	female = yes
+	
+	father = 601 # Ptolemy Soter
+	mother = 4 # Eurydike
+	
+	474.1.1 = {
+		birth="yes" # 302 BC
+	}
+	490.1.1 = { 
+		add_spouse = 402 # Demetrius Poliorcetes
+	}
+	502.1.1 = { # Made up
+		death="yes" # 274
+	}
+}
+608 = {
+	name = "Lysandra"
+	dynasty = 7 # Ptolemaioi
+	religion = greek_main
+	culture = macedonian
+	female = yes
+	
+	father = 601 # Ptolemy Soter
+	mother = 21 # Berenike I
+	
+	466.1.1 = {# Made up
+		birth="yes" # 310 BC
+	}
+	480.1.1 = { 
+		add_spouse = 14 # Alexandros V
+	}
+	486.1.1 = {
+		add_spouse = 30002 # Agathokles Lysimakhidai
+	}
+	530.1.1 = { # Made up
+		death="yes" # 246
+	}
+}
+609 = {
+	name = "Eurydike" # Unnamed daughter of Ptolemy Keraunos.
+	dynasty = 7 # Ptolemaioi
+	religion = greek_main
+	culture = macedonian
+	female = yes
+
+	father = 604 # Ptolemy Keraunos
+	# Mother is unknown.
+
+	477.1.1 = { # She was old enough to marry Pyrrhus in 280 BC, so probably born before 295 BC.
+		birth = yes # 299 BC
+	}
+	496.1.1 = { # 280 BC
+		add_spouse = 10010 # Pyrrhos
+	}
+	502.1.1 = { # Made up.
+		death = yes # 274 BC
 	}
 }

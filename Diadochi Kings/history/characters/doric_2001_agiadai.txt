@@ -20,7 +20,6 @@
 	religion = greek_main
 	culture = doric
 	
-	add_trait = cruel
 	add_trait = tough_soldier
 	add_trait = greedy
 	add_trait = deceitful
@@ -80,7 +79,6 @@
 	learning = 2
 	
 	add_trait = skilled_tactician
-	add_trait = wroth
 	add_trait = lustful
 	add_trait = patient
 	add_trait = gregarious
@@ -92,7 +90,7 @@
 		birth = yes # 339 BC
 	}
 	#500.1.1 = { # 276 BC, approximate
-		###add_spouse = spartan002a04 # Chilonis
+		###add_spouse = # Chilonis
 	#}
 	501.1.1 = { # 275 BC, approximate
 		effect = { # learns that Acrotatus has seduced his wife

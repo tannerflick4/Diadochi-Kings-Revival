@@ -929,9 +929,9 @@
 	495.1.1 = { # made up
 		birth = yes # 281 BC
 	}
-	#512.1.1 = { # 264 BC, made up
-	###	add_spouse = macedonian00106 # Demetrios
-	#}
+	512.1.1 = { # 264 BC, made up
+		add_spouse = 418 # Demetrios the Fair
+	}
 	522.1.1 = { # made up
 		death = yes # 254 BC
 	}

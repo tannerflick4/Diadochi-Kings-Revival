@@ -27,3 +27,20 @@
 	#	death="yes"
 	#}
 # }
+59903 = {
+	name = "Lamia" # Lamia of Athens
+	religion = greek_main
+	culture = ionian
+	female = yes
+	439.1.1 = {  
+		birth="yes" # 337 BC Made Up
+	}
+	469.1.1 = {
+		effect = {
+			add_lover = 402 # Demetrius Poliorcetes
+		}
+	}
+	489.1.1 = { # 287 BC
+		death = yes
+	}
+}

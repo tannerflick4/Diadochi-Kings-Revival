@@ -66,7 +66,7 @@
 	female = yes
 	
 	218.1.1 = { # 558 BC
-		birth = yes # 700 BC
+		birth = yes
 	}
 	234.1.1 = { # 542 BC
 		add_spouse = 20012 # Anaxander II
@@ -83,7 +83,7 @@
 	female = yes
 	
 	248.1.1 = { # 528 BC
-		birth = yes # 700 BC
+		birth = yes
 	}
 	264.1.1 = { # 512 BC
 		add_spouse = 20016 # Kleombrotos
@@ -100,7 +100,7 @@
 	female = yes
 	
 	474.1.1 = { # 302 BC
-		birth = yes # 700 BC
+		birth = yes
 	}
 	501.1.1 = { # 275 BC, made up
 		add_spouse = 20033 # Leonidas II
@@ -117,12 +117,85 @@
 	female = yes
 	
 	506.1.1 = { # 270 BC
-		birth = yes # 700 BC
+		birth = yes
 	}
 	536.1.1 = { # 240 BC, made up
 		add_spouse = 20035 # Cleomenes III
 	}
 	572.1.1 = { # 204 BC Made Up
+		death="yes"
+	}
+}
+29909 = {
+	name = "Kallista" # 1st Wife of Agathocles of Syracuse
+	religion = greek_main
+	culture = doric
+	
+	female = yes
+	
+	411.1.1 = { # 365 BC, made up
+		birth = yes
+	}
+	435.1.1 = {
+		add_spouse = 22701 # Agathocles
+	}
+	466.1.1 = { # 310 BC Made Up
+		death="yes"
+	}
+}
+29910 = {
+	name = "Alcia" # 2nd Wife of Agathocles of Syracuse
+	religion = greek_main
+	culture = doric
+	
+	female = yes
+	
+	435.1.1 = { # 341 BC, made up
+		birth = yes
+	}
+	451.1.1 = {
+		add_spouse = 29911 # Dalma
+	}
+	466.1.1 = {
+		remove_spouse = 29911 # Dalma
+		add_spouse = 22701 # Agathocles
+		effect = {
+			add_lover = 22704 # Archagathus
+		}
+	}
+	474.1.1 = { # 302 BC Made Up
+		death="yes"
+	}
+}
+29911 = {
+	name = "Dalma" # Patron of Agathocles
+	religion = greek_main
+	culture = doric
+	
+	406.1.1 = { # 370 BC, made up
+		birth = yes
+	}
+	451.1.1 = {
+		add_spouse = 29910 # Alcia
+	}
+	466.1.1 = { # 310 BC Made Up
+		death="yes"
+	}
+}
+29912 = {
+	name = "Theoxena" # Wife of Archagathus
+	religion = greek_main
+	culture = doric
+	
+	female = yes
+	
+	443.1.1 = { # 333 BC, made up
+		birth = yes
+	}
+	457.1.1 = {
+		add_spouse = 22704 # Archagathus
+	}
+	500.1.1 = { # 226 BC Made Up
 		death="yes"
 	}
 }
