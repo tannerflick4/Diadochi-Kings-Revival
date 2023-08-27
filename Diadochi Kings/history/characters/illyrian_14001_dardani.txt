@@ -77,7 +77,7 @@
 	intrigue = 5
 	learning = 5
 	
-	408.1.1 = { # 368 BC Made up
+	405.1.1 = { # 371 BC Made up
 		birth="yes"
 	}
 	417.1.1 = { # winter/spring 360/359 BC

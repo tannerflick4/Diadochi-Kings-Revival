@@ -21,6 +21,15 @@
 			has_dlc = "Holy Fury"
 		}
 	}
+	207.1.1 = {
+		add_spouse = 90344 # Cassandane
+		effect_even_if_dead = {
+			add_lover = 90344 # Cassandane
+		}
+	}
+	#210.1.1 = {
+		###add_spouse = # Amytis of Media
+	#}
 	246.12.1 = { # 530 BC
 		death = {
 			death_reason = death_battle
@@ -34,6 +43,7 @@
 	culture = persian
 	
 	father = 90301 # Cyrus the Great
+	mother = 90344 # Cassandane
 	
 	add_trait = ambitious
 	add_trait = tough_soldier
@@ -41,6 +51,15 @@
 	
 	210.1.1 = { # 566 BC Made up
 		birth="yes"
+	}
+	247.1.1 = { 
+		add_spouse = 90330 # Atossa
+	}
+	250.1.1 = {
+		effect_even_if_dead = {
+			add_spouse = 90346 # Phaedymia
+			add_spouse = 90349 # Roxane
+		}
 	}
 	254.1.1 = { # 522 BC
 		death="yes"
@@ -53,12 +72,16 @@
 	culture = persian
 	
 	father = 90301 # Cyrus the Great
+	mother = 90344 # Cassandane
 	
 	add_trait = strong
 	add_trait = charitable
 	
 	211.1.1 = { # 565 BC Made up
 		birth="yes"
+	}
+	254.1.2 = { # 522 BC
+		add_spouse = 90346 # Phaedymia
 	}
 	255.1.1 = { # 521 BC
 		death="yes"
@@ -75,6 +98,8 @@
 	206.1.1 = { # 570 BC Made up
 		birth="yes"
 	}
+	###add_spouse = Rhodah Chaldean
+	###add_spouse = Meshar Bayit David
 	246.12.1 = { # 530 BC Made up
 		death="yes"
 	}
@@ -101,7 +126,18 @@
 			has_dlc = "Holy Fury"
 		}
 	}
-	247.1.1 = { add_matrilineal_spouse = 90330 }
+	255.1.1 = { 
+		add_spouse = 90330 # Atossa
+	}
+	255.1.2 = { 
+		add_spouse = 90348 # Artystone
+	}
+	255.12.1 = { # 521 BC
+		add_spouse = 90346 # Phaedymia
+	}
+	270.1.1 = {
+		add_spouse = 90347 # Parmys
+	}
 	290.10.1 = { # 486 BC
 		death="yes"
 	}
@@ -122,6 +158,9 @@
 	
 	258.1.1 = { # 518 BC
 		birth="yes"
+	}
+	286.12.1 = {
+		add_spouse = 90353 # Amestris
 	}
 	311.1.1 = { # 465 BC
 		death = {
@@ -292,12 +331,11 @@
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
+	
+	father = 90342
+	
 	91.1.1 = { # 685 BC Made up
 		birth="yes"
-		create_bloodline = {
-			type = bloodline_achaemenid
-			has_dlc = "Holy Fury"
-		}
 	}
 	136.1.1 = { # 640 BC
 		death="yes"
@@ -314,6 +352,9 @@
 	116.1.1 = { # 660 BC Made up
 		birth="yes"
 	}
+	146.1.1 = {
+		add_spouse = 91001 # Parsumas
+	}
 	196.1.1 = { # 580 BC
 		death="yes"
 	}
@@ -325,6 +366,7 @@
 	culture = persian
 	
 	father = 90316 # Cyrus
+	mother = 91001 # Parsumas
 	
 	add_trait = kind
 	
@@ -513,18 +555,36 @@
 	}
 }
 90330 = {
-	name = "Hutaosa"
+	name = "Hutaosa" # Atossa
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
 	female = yes
 	
 	father = 90301 # Cyrus the Great
+	mother = 90344 # Cassandane
 	
 	226.1.1 = { # 550 BC
 		birth="yes"
 	}
-	247.1.1 = { add_matrilineal_spouse = 90305 }
+	247.1.1 = { 
+		add_spouse = 90302 # Cambyses II
+	}
+	255.1.1 = { 
+		add_spouse = 90305 # Darius the Great
+	}
+	300.1.1 = {
+    	effect_even_if_dead = { 
+            any_child_even_if_dead = {
+                 save_event_target_as = alcmaeonids
+                 ROOT = {
+                     any_owned_bloodline = {
+                         add_to_bloodline = event_target:alcmaeonids
+                     }
+                }
+             }
+        }
+    }
 	301.1.1 = { # 475 BC
 		death="yes"
 	}
@@ -732,3 +792,410 @@
 		}
 	}
 }
+90342 = {
+	name ="Haxamanis" # Progenitor
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	56.1.1 = { # 720 BC Made up
+		birth="yes"
+		create_bloodline = {
+			type = bloodline_achaemenid
+			has_dlc = "Holy Fury"
+		}
+	}
+	101.1.1 = { # 675 BC Made up
+		death="yes"
+	}
+}
+90343 = {
+	name = "Farnaspa" # Pharnaspes
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	
+	father = 90315 # Teispes
+	
+	125.1.1 = { # 651 BC Made up
+		birth="yes"
+	}
+	187.1.1 = { 
+		add_spouse = 90351 # Atossa
+	}
+	215.1.1 = { # 561 BC Made up
+		death="yes"
+	}
+}
+90344 = {
+	name = "Cassandane"
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	female = yes
+	
+	father = 90343 # Pharnaspes
+	mother = 90351 # Atossa
+	
+	191.1.1 = { # 585 BC Made up
+		birth="yes"
+	}
+	207.1.1 = {
+		add_spouse = 90301 # Cyrus the Great
+	}
+	238.1.1 = { # 538 BC
+		death="yes"
+	}
+}
+90345 = {
+	name = "Utan" # Otanes I
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	
+	father = 90343 # Pharnaspes
+	mother = 90351 # Atossa
+	
+	187.1.1 = { # 589 BC Made up
+		birth="yes"
+	}
+	235.1.1 = {
+		add_spouse = 90352 # Artane
+	}
+	240.1.1 = {
+		add_spouse = 350069 # Neithiyti
+	}
+	277.1.1 = { # 499 BC
+		death="yes"
+	}
+}
+90346 = {
+	name = "Faidimia" # Phaedymia
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	female = yes
+	
+	father = 90345 # Utan
+	mother = 90352 # Artane
+	
+	235.1.1 = { # 541 BC Made up
+		birth="yes"
+	}
+	250.1.1 = {
+		add_spouse = 90302 # Cambyses II
+	}
+	254.1.2 = { # 522 BC
+		add_spouse = 90303 # Bardiya
+	}
+	255.12.1 = { # 521 BC
+		add_spouse = 90305 # Darius the Great
+	}
+	260.1.1 = { # 516 BC
+		death="yes"
+	}
+}
+90347 = {
+	name = "Parmys"
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	female = yes
+	
+	father = 90303 # Bardiya
+	mother = 90346 # Faidimia
+	
+	254.1.3 = { # 522 BC BC Made up
+		birth="yes"
+	}
+	270.1.1 = {
+		add_spouse = 90305 # Darius the Great
+	}
+	319.1.1 = { # 457 BC
+		death="yes"
+	}
+}
+90348 = {
+	name = "Irtasduna" # Artystone
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	female = yes
+	
+	father = 90301 # Cyrus the Great
+	mother = 90344 # Cassandane
+	
+	225.1.1 = { # 549 BC
+		birth="yes"
+	}
+	255.1.2 = { 
+		add_spouse = 90305 # Darius the Great
+	}
+	310.1.1 = { # 466 BC
+		death="yes"
+	}
+}
+90349 = {
+	name = "Roshanak" # Roxane
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	female = yes
+	
+	father = 90301 # Cyrus the Great
+	mother = 90344 # Cassandane
+	
+	234.1.1 = { # 542 BC
+		birth="yes"
+	}
+	250.1.1 = { 
+		add_spouse = 90302 # Cambyses II
+	}
+	259.1.1 = { # 517 BC
+		death="yes"
+	}
+}
+90350 = {
+	name = "Aryavuka" # Arukku
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	
+	father = 90316 # Cyrus
+	mother = 91001 # Parsumas
+	
+	
+	146.1.1 = { # 630 BC made up
+		birth="yes"
+	}
+	173.1.1 = { # 603 BC made up
+		death="yes"
+	}
+}
+90351 = {
+	name = "Hutaosa" # Atossa
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	female = yes
+	
+	father = 90316 # Cyrus
+	mother = 91001 # Parsumas
+	
+	
+	171.1.1 = { # 605 BC made up
+		birth="yes"
+	}
+	187.1.1 = { 
+		add_spouse = 90343 # Pharnaspes
+	}
+	227.1.1 = { # 549 BC made up
+		death="yes"
+	}
+}
+90352 = {
+	name = "Artane"
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	female = yes
+	
+	father = 90304 # Hystaspes
+	
+	220.1.1 = { # 556 BC Made up
+		birth="yes"
+	}
+	235.1.1 = {
+		add_spouse = 90345 # Otanes I
+	}
+	307.12.1 = { # 469 BC Made up
+		death="yes"
+	}
+}
+90353 = {
+	name = "Amestris"
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	female = yes
+	
+	father = 90345 # Otanes I
+	mother = 90352 # Artane
+	
+	272.1.1 = { # 504 BC Made up
+		birth="yes"
+	}
+	286.12.1 = {
+		add_spouse = 90306 # Xerxes the Great
+	}
+	352.1.1 = { # 424 BC
+		death="yes"
+	}
+}
+90354 = {
+	name = "Smerdomens" # Smerdomenes
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	
+	father = 90345 # Otanes I
+	mother = 90352 # Artane
+	
+	238.1.1 = { # 538 BC Made up
+		birth="yes"
+	}
+	335.1.1 = { # 441 BC Made up
+		death="yes"
+	}
+}
+90355 = {
+	name = "Utan" # Otanes II
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	
+	father = 90345 # Otanes I
+	mother = 350069 # Neithiyti
+	
+	246.1.1 = { # 530 BC Made up
+		birth="yes"
+	}
+	324.1.1 = { # 335 BC Made up
+		death="yes"
+	}
+}
+90356 = {
+	name = "Gallus" # Gallos
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	
+	father = 90355 # Otanes II
+	
+	293.1.1 = { # 483 BC Made up
+		birth="yes"
+	}
+	368.1.1 = { # 441 BC Made up
+		death="yes"
+	}
+}
+90357 = {
+	name = "Smerdis"
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	
+	father = 90356 # Gallos
+	
+	319.1.1 = { # 457 BC Made up
+		birth="yes"
+	}
+	384.1.1 = { # 392 BC Made up
+		death="yes"
+	}
+}
+90358 = {
+	name = "Artamnes"
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	
+	father = 90357 # Smerdis
+	
+	367.1.1 = { # 409 BC Made up
+		birth="yes"
+	}
+	433.1.1 = { # 392 BC Made up
+		death="yes"
+	}
+}
+90359 = {
+	name = "Datamnes"
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	
+	father = 90358 # Artamnes
+	
+	386.1.1 = { # 390 BC Made up
+		birth="yes"
+	}
+	457.1.1 = { # 319 BC Made up
+		death="yes"
+	}
+}
+90360 = {
+	name = "Aryamnes" # Ariamnes
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	
+	father = 90359 # Datamnes
+	
+	424.1.1 = { # 352 BC Made up
+		birth="yes"
+	}
+	499.1.1 = { # 277 BC Made up
+		death="yes"
+	}
+}
+90361 = {
+	name = "Orufona" # Orophone
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	
+	father = 90360 # Ariamnes
+	
+	465.1.1 = { # 311 BC Made up
+		birth="yes"
+	}
+	517.1.1 = { # 259 BC Made up
+		death="yes"
+	}
+}
+90362 = {
+	name = "Aryaratha" # Ariarathes
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	
+	father = 90361 # Orophone
+	
+	486.1.1 = { # 290 BC Made up
+		birth="yes"
+	}
+	576.1.1 = { # 200 BC Made up
+		death="yes"
+	}
+}
+90363 = {
+	name = "Aryamnes" # Ariamnes
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	
+	father = 90362 # Ariarathes
+	
+	536.1.1 = { # 240 BC Made up
+		birth="yes"
+	}
+	620.1.1 = { # 156 BC Made up
+		death="yes"
+	}
+}
+90364 = {
+	name = "Aryaratha" # Ariarathes
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	
+	father = 90363 # Ariamnes
+	
+	556.1.1 = { # 220 BC Made up
+		birth="yes"
+	}
+	595.1.1 = { # 181 BC Made up
+		death="yes"
+	}
+}
+

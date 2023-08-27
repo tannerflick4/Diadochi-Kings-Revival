@@ -271,3 +271,22 @@
 		death="yes"
 	}
 }
+350069 = {
+	name = "Neithiyti" # daughter of Amasis II
+	dynasty = 35004
+	culture = egyptian
+	religion = kemetic
+	female = yes
+	
+	father = 350051 # Amasis II
+
+	224.1.1 = { # 552 BCE, made up
+		birth="yes"
+	}
+	240.1.1 = {
+		add_spouse = 90345 # Otanes I
+	}
+	251.1.1 = { # 525 BCE, made up
+		death="yes"
+	}
+}

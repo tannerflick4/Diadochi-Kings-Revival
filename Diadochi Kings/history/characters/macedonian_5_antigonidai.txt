@@ -136,8 +136,8 @@
 
 	father = 3608
 
-	380.1.1 = { # Made up
-		birth="yes" # 396 BC
+	375.1.1 = { # Made up
+		birth="yes" # 401 BC
 	}
 	450.1.1 = { # 326 BC
 		death = {

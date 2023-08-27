@@ -46,3 +46,4 @@
 # 450001-460000 for Aquitanian characters -- Split
 # 460001-470000 for Sicilian characters
 # 470001-480000 for Belgic characters
+# 480001-490000 for Akkadian characters

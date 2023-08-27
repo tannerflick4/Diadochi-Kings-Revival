@@ -400,8 +400,8 @@
 	
 	add_trait = deceitful
 	
-	370.1.1 = { # made up
-		birth = yes # 404 BC
+	360.1.1 = { # made up
+		birth = yes # 414 BC
 	}
 	410.1.1 = { # 366 BC, approximate
 		death = { 

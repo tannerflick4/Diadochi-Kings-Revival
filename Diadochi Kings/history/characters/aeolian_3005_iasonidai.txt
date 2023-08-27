@@ -310,8 +310,8 @@
 	354.1.1 = { # made up
 		birth = yes # 422 BC
 	}
-	394.1.1 = { # made up (but probably died in the late 380s BC)
-		death = yes # 382 BC
+	399.1.1 = { # made up
+		death = yes # 377 BC
 	}
 }
 30416 = {

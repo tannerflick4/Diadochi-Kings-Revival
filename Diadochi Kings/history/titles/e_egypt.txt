@@ -13,10 +13,19 @@
 86.1.1 = { 
 	holder = 290207 #Taharqa, 690-664 BCE
 } 
-112.1.1 = { 
-	holder = 290208 #Tantamani, 664-656 BCE 
-} 
+95.1.1 = {
+	holder = 480012 # Esarhaddon
+}
 120.1.1 = { 
+	holder = 480013 # Ashurbanipal
+}
+145.1.1 = {
+	holder = 480034 # Ashuretillilani I
+}
+149.1.1 = {
+	holder = 480035 # Sinsharishkun
+}
+164.1.1 = { 
 	holder = 350039 #Psamtik I, 656-610 BCE
 } 
 166.1.1 = { 

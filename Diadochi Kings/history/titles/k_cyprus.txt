@@ -22,10 +22,3 @@
 170.1.1 = {
 	holder = 0
 }
-475.1.1 = {
-	holder = 7 # Pleistarchus
-}
-478.1.1 = {
-	holder = 0
-	liege = 0
-}
