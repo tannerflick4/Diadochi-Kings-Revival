@@ -1,0 +1,5 @@
+# 54001-55000 for Aramaic dynasties
+54001 = {
+	name = "Puqudu"
+	culture = aramaic
+}

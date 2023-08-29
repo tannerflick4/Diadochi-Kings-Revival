@@ -5,5 +5,8 @@
 	holder = 480034 # Ashuretillilani I
 }
 149.1.1 = {
+	holder = 480035 # Sinsharishkun
+}
+150.1.1 = {
 	holder = 0
 }

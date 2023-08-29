@@ -47,3 +47,4 @@
 # 460001-470000 for Sicilian characters
 # 470001-480000 for Belgic characters
 # 480001-490000 for Akkadian characters
+# 490001-500000 for Aramiac characters

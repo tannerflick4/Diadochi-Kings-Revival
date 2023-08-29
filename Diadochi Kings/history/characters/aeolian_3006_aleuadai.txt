@@ -823,10 +823,7 @@
 	}
 	###367.1.1 = { # 407 BC, made up
 	#	effect = {
-	#		set_relation_lover = { # enters a relationship with Menon, whom he makes a commander
-	#			target = character:thessalian00108 # Menon
-	#			reason = lover_history
-	#		}
+	#		add_lover = # enters a relationship with Menon, whom he makes a commander
 	#	}
 	#}
 	378.1.1 = { # made up

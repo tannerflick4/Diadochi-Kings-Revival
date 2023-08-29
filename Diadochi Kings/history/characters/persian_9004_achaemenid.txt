@@ -98,7 +98,9 @@
 	206.1.1 = { # 570 BC Made up
 		birth="yes"
 	}
-	###add_spouse = Rhodah Chaldean
+	222.1.1 = {
+		add_spouse = 481021 # Rhodah
+	}
 	###add_spouse = Meshar Bayit David
 	246.12.1 = { # 530 BC Made up
 		death="yes"
@@ -137,6 +139,7 @@
 	}
 	270.1.1 = {
 		add_spouse = 90347 # Parmys
+		add_spouse = 481024 # Tushnamatay
 	}
 	290.10.1 = { # 486 BC
 		death="yes"
@@ -159,6 +162,9 @@
 	258.1.1 = { # 518 BC
 		birth="yes"
 	}
+	272.1.1 = {
+		add_spouse = 481043 # Vashti
+	}
 	286.12.1 = {
 		add_spouse = 90353 # Amestris
 	}
@@ -175,11 +181,15 @@
 	culture = persian
 	
 	father = 90306 # Xerxes the Great
+	mother = 481043 # Vashti
 	
 	add_trait = charitable
 	
-	288.1.1 = { # 488 BC Made up
+	272.1.1 = { # 504 BC Made up
 		birth="yes"
+	}
+	284.1.1 = {
+		add_spouse = 481046 # Andia
 	}
 	352.12.25 = { # 424 BC
 		death="yes"
@@ -1198,4 +1208,23 @@
 		death="yes"
 	}
 }
-
+90365 = {
+	name = "Radusdukda"
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian_main
+	culture = persian
+	female = yes
+	
+	father = 90304 # Hystaspes
+	mother = 481021 # Rhodah
+	
+	230.1.1 = { # 546 BC Made up
+		birth="yes"
+	}
+	244.1.1 = {
+		add_spouse = 481023 # Gobryas II
+	}
+	283.12.1 = { # 493 BC Made up
+		death="yes"
+	}
+}

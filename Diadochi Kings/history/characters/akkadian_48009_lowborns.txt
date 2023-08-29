@@ -1,0 +1,50 @@
+# 489001-490000 for the Akkadian lowborn
+
+489001 = {
+	name = "Banitu"
+	culture = akkadian
+	religion = marduk_cult
+	female = yes
+	
+	26.1.1 = {
+		birth="yes" # 750 BC Made Up
+	}
+	42.1.1 = {
+		add_spouse = 480004 # Shalmaneser V
+	}
+	54.1.1 = {
+		death="yes" # 722 BC Made up
+	}
+}
+489003 = {
+	name = "Esharra-Hammat"
+	culture = akkadian
+	religion = marduk_cult
+	female = yes
+	
+	65.1.1 = {
+		birth="yes" # 711 BC Made Up
+	}
+	79.1.1 = {
+		add_spouse = 480012 # Esarhaddon
+	}
+	129.1.1 = {
+		death="yes" # 647 BC Made up
+	}
+}
+489004 = {
+	name = "Shamash-iddina"
+	culture = akkadian
+	religion = marduk_cult
+	female = yes
+	
+	114.1.1 = {
+		birth="yes" # 711 BC Made Up
+	}
+	134.1.1 = {
+		add_spouse = 481012 # Nabopolassar
+	}
+	153.1.1 = {
+		death="yes" # 647 BC Made up
+	}
+}

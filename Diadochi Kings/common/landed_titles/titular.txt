@@ -125,12 +125,40 @@ e_assyria = {
 	color= { 250 100 100 }
 	color2 = { 255 255 255 }
 	
+	dignity = 200
+	
 	capital = 187 # Ashur
 	
 	allow = {
-		always = no
+		culture = akkadian
+		AND = {
+			has_landed_title = k_babylonia
+			has_landed_title = k_assyria
+			OR = {
+				has_landed_title = c_ashur
+				has_landed_title = c_nineveh
+			}
+		}
 	}
 }
+e_babylonia = {
+	color= { 153 255 255 }
+	color2= { 255 255 255 }
+	
+	dignity = 200
+	
+	capital = 195 # Babylon
+	
+	allow = {
+		culture = akkadian
+		AND = {
+			has_landed_title = k_babylonia
+			has_landed_title k_assyria
+			has_landed_title c_babylon
+		}
+	}
+}
+
 # Kingdoms
 k_israel = {
 	color= { 150 175 255 }
