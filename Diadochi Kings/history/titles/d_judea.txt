@@ -1,6 +1,5 @@
 26.1.1 = {
 	holder = 381002 # Jotham
-	liege = d_judea
 }
 44.1.1 = {
 	holder = 381006 # Jehoahaz II
@@ -30,7 +29,23 @@
 	holder = 381017 # Zedekiah
 }
 190.1.1 = {
+	holder = 481013 # Nebuchadnezzar II
+}
+214.1.1 = {
+	holder = 481027 # Amel-Marduk
+}
+216.1.1 = {
+	holder = 490003 # Neriglissar
+}
+220.1.1 = {
+	holder = 490004 # Labashi-Marduk
+}
+221.1.1 = {
+	holder = 481019 # Nabonidus
+}
+237.1.1 = {
 	holder = 381027 # Shenazzar
+	liege = e_persia
 }
 268.1.1 = {
 	holder = 381035 # Zerubbabel
@@ -43,32 +58,8 @@
 }
 393.1.1 = {
 	holder = 381078 # Hezekiah
+	liege = k_p_babylon
 }
 445.1.1 = {
-	holder = 380018 # Jaddua
-	liege = d_kohen_gadol
-}
-456.1.1 = {
-	holder = 380019 # Onias I
-}
-486.1.1 = {
-	holder = 380020 # Simon The Just
-}
-511.1.1 = {
-	holder = 380021 # Manasseh
-}
-525.1.1 = {
-	holder = 380022 # Eleazer
-} 
-526.1.1 = {
-	holder = 380023 # Onias II
-}
-536.1.1 = {
-	holder = 380024 # Simon II
-}
-556.1.1 = {
-	holder = 380025 # Onias III
-}
-601.1.1 = { # 175 BC
 	holder = 0
 }

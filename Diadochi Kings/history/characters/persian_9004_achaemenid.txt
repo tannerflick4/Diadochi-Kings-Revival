@@ -98,10 +98,12 @@
 	206.1.1 = { # 570 BC Made up
 		birth="yes"
 	}
+	220.1.1 = {
+		add_spouse = 381034 # Meshar
+	}
 	222.1.1 = {
 		add_spouse = 481021 # Rhodah
 	}
-	###add_spouse = Meshar Bayit David
 	246.12.1 = { # 530 BC Made up
 		death="yes"
 	}
@@ -113,6 +115,7 @@
 	culture = persian
 	
 	father = 90304 # Hystaspes
+	mother = 481021 # Rhodah
 	
 	add_trait = deceitful
 	add_trait = midas_touched
@@ -1010,6 +1013,7 @@
 	female = yes
 	
 	father = 90304 # Hystaspes
+	mother = 381034 # Meshar
 	
 	220.1.1 = { # 556 BC Made up
 		birth="yes"

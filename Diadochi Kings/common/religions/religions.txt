@@ -843,8 +843,12 @@ indo_iranian_religion = {
 		graphical_culture = mongolgfx
 		icon = 5
 		color = { 0.3 0.8 0.3 }
-		crusade_name = "CRUSADE"
-		scripture_name = PLACEHOLDER
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_LEGENDS
+		priest_title = ENAREI
+
+		high_god_name = GOD_TABITI
 		god_names = {
 			GOD_TABITI GOD_PAPAIOS GOD_API GOD_OITOSYROS GOD_ARGIMPASA GOD_THAGIMASIDAS GOD_ARES
 		}

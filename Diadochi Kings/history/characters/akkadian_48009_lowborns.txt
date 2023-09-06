@@ -16,6 +16,22 @@
 		death="yes" # 722 BC Made up
 	}
 }
+489002 = {
+	name = "Banitu"
+	culture = akkadian
+	religion = marduk_cult
+	female = yes
+	
+	28.1.1 = {
+		birth="yes" # 748 BC Made Up
+	}
+	42.1.1 = {
+		add_spouse = 480004 # Shalmaneser V
+	}
+	54.1.1 = {
+		death="yes" # 722 BC Made up
+	}
+}
 489003 = {
 	name = "Esharra-Hammat"
 	culture = akkadian

@@ -64,7 +64,7 @@ GOD_API;Api;;;;;;;;;;;;;x
 GOD_OITOSYROS;Oitosyros;;;;;;;;;;;;;x
 GOD_ARGIMPASA;Argimpasa;;;;;;;;;;;;;x
 GOD_THAGIMASIDAS;Thagimasidas;;;;;;;;;;;;;x
-scythian_main;Scythian;;;;;;;;;;;;;x
+scythian_main;Scythian Paganism;;;;;;;;;;;;;x
 GOD_INDRA;Indra;;;;;;;;;;;;;x
 GOD_AGNI;Agni;;;;;;;;;;;;;x
 GOD_SOMA;Soma;;;;;;;;;;;;;x
@@ -247,3 +247,6 @@ GOD_SERAPIS;Serapis;;;;;;;;;;;;;x
 GOD_ALEXANDROS;Alexandros;;;;;;;;;;;;;x
 GOD_HARPOCRATES;Harpocrates;;;;;;;;;;;;;x
 GOD_HERMANUBIS;Hermanubis;;;;;;;;;;;;;x
+ENAREI;Enarei;Enar�e;;;Enarei;;;;;;;x
+temple_baron_scythian_main;Enarei;Enar�e;;;Enarei;;;;;;;x
+job_spiritual_scythian_main;Grand Enarei;Grand Enar�e;;;Gran Enarei;;;;;;;x 

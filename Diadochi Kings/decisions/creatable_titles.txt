@@ -1,0 +1,116 @@
+decisions = {
+
+create_assyria = {
+	is_high_prio = yes
+	ai_check_interval = 60
+	
+	potential = {
+		OR = {
+			has_landed_title = c_ashur
+			has_landed_title = c_nineveh
+		}
+		
+		culture = akkadian
+		independent = yes
+		NOT = { higher_tier_than = KING }
+		
+		e_assyria = {
+			is_titular = yes
+		}
+		e_assyria = {
+			has_holder = no
+		}
+	}
+		
+	allow = {
+		is_adult = yes
+		prestige = 1000
+		war = no
+		NOT = { trait = incapable }
+		
+		completely_controls = k_assyria
+		completely_controls = k_babylonia
+	}
+	
+	effect = {
+		gain_title = e_assyria
+		
+		primary_title = {
+				e_assyria = {
+					copy_title_laws = PREV
+				}
+		}
+		
+		k_assyria = { de_jure_liege = e_assyria }
+		k_babylonia = { de_jure_liege = e_assyria }
+		any_demesne_title = {
+			limit = { 
+				AND = {
+					is_titular = no
+					tier = KING 
+				}
+			}
+			de_jure_liege = e_assyria
+		}
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+create_babylonia = {
+	is_high_prio = yes
+	ai_check_interval = 60
+	
+	potential = {
+		has_landed_title = c_babylon
+
+		culture = akkadian
+		independent = yes
+		NOT = { higher_tier_than = KING }
+		
+		e_babylonia = {
+			is_titular = yes
+		}
+		e_babylonia = {
+			has_holder = no
+		}
+	}
+		
+	allow = {
+		is_adult = yes
+		prestige = 1000
+		war = no
+		NOT = { trait = incapable }
+		
+		completely_controls = k_assyria
+		completely_controls = k_babylonia
+	}
+	
+	effect = {
+		gain_title = e_babylonia
+		
+		primary_title = {
+			e_babylonia = {
+				copy_title_laws = PREV
+			}
+		}
+		
+		k_assyria = { de_jure_liege = e_babylonia }
+		k_babylonia = { de_jure_liege = e_babylonia }
+		any_demesne_title = {
+			limit = {
+				AND = {
+					is_titular = no
+					tier = KING 
+				}
+			}
+			de_jure_liege = e_babylonia
+		}
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+}

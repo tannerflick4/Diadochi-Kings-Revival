@@ -9,9 +9,13 @@
 	add_trait = architect
 	
 	father = 480002 # Tiglath-Pileser III
+	mother = 381003 # Yabaa
 	
 	27.1.1 = {
 		birth="yes" # 749 BC Made Up
+	}
+	41.1.1 = {
+		add_spouse = 381005 # Atalya
 	}
 	69.1.1 = {
 		add_spouse = 480007 # Atalia
@@ -32,6 +36,9 @@
 	
 	1.1.1 = {
 		birth="yes" # 776 BC Made Up
+	}
+	27.1.1 = {
+		add_spouse = 381003 # Yabaa
 	}
 	49.1.1 = {
 		death="yes" # 727 BC
@@ -151,6 +158,7 @@
 	add_trait = cruel
 	
 	father = 480001 # Sargon II The Great
+	mother = 381005 # Atalya
 	
 	41.1.1 = {
 		birth="yes" # 735 BC Made Up
@@ -176,6 +184,7 @@
 	female = yes
 	
 	father = 480001 # Sargon II The Great
+	mother = 381005 # Atalya
 	
 	59.1.1 = {
 		birth="yes" # 717 BC Made Up
