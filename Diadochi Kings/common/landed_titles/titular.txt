@@ -1609,7 +1609,7 @@ b_hyperidai = {
 	culture = ionian
 	religion = greek_main
 }
-b_aischinidai = {
+b_alcmaeonidai = {
 	culture = ionian
 	religion = greek_main
 }

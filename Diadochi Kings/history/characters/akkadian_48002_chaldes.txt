@@ -752,8 +752,8 @@
 	236.1.1 = {
 		add_spouse = 490005 # Gigitum
 	}
-	254.1.1 = {
-		death="yes" # 522 BC
+	256.1.1 = {
+		death="yes" # 520 BC
 	}
 }
 481045 = {
@@ -768,8 +768,8 @@
 	236.1.1 = {
 		birth="yes" # 540 BC Made Up
 	}
-	255.1.1 = {
-		death="yes" # 521 BC
+	258.1.1 = {
+		death="yes" # 518 BC
 	}
 }
 481046 = {
@@ -790,5 +790,155 @@
 	}
 	319.1.1 = {
 		death="yes" # 457 BC
+	}
+}
+481047 = {
+	name = "Nebu-Zer-Marduk"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481035 # Mushezib-Marduk
+	
+	203.1.1 = {
+		birth="yes" # 573 BC Made Up
+	}
+	283.1.1 = {
+		death="yes" # 493 BC Made Up
+	}
+}
+481048 = {
+	name = "Marduk-Apal-Nebu"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481047 # Nebu-Zer-Marduk
+	
+	275.1.1 = {
+		birth="yes" # 501 BC Made Up
+	}
+	347.1.1 = {
+		death="yes" # 429 BC Made Up
+	}
+}
+481049 = {
+	name = "Nebu-Nadin-Shamash"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481048 # Marduk-Apal-Nebu
+	
+	332.1.1 = {
+		birth="yes" # 444 BC Made Up
+	}
+	357.1.1 = {
+		death="yes" # 419 BC Made Up
+	}
+}
+481050 = {
+	name = "Zer-Bel-Nasir"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481049 # Nebu-Nadin-Shamash
+	
+	354.1.1 = {
+		birth="yes" # 422 BC Made Up
+	}
+	419.1.1 = {
+		death="yes" # 357 BC Made Up
+	}
+}
+481051 = {
+	name = "Nezer-El-Marduk"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481050 # Zer-Bel-Nasir
+	
+	379.1.1 = {
+		birth="yes" # 392 BC Made Up
+	}
+	452.1.1 = {
+		death="yes" # 324 BC Made Up
+	}
+}
+481052 = {
+	name = "Shamash-Balatu-Nebu"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481051 # Nezer-El-Marduk
+	
+	403.1.1 = {
+		birth="yes" # 373 BC Made Up
+	}
+	465.1.1 = {
+		death="yes" # 311 BC Made Up
+	}
+}
+481053 = {
+	name = "Marduk-Zerush-Nasir"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481052 # Shamash-Balatu-Nebu
+	
+	425.1.1 = {
+		birth="yes" # 351 BC Made Up
+	}
+	466.1.1 = {
+		death="yes" # 310 BC Made Up
+	}
+}
+481054 = {
+	name = "Bel-Tab-Apli"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481053 # Marduk-Zerush-Nasir
+	
+	441.1.1 = {
+		birth="yes" # 335 BC Made Up
+	}
+	469.1.1 = {
+		death="yes" # 307 BC Made Up
+	}
+}
+481055 = {
+	name = "Nebu-Mutu-Zer"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481054 # Bel-Tab-Apli
+	
+	463.1.1 = {
+		birth="yes" # 314 BC Made Up
+	}
+	540.1.1 = {
+		death="yes" # 236 BC Made Up
+	}
+}
+481056 = {
+	name = "Nezer-Shamash-Bel"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481055 # Nebu-Mutu-Zer
+	
+	480.1.1 = {
+		birth="yes" # 296 BC Made Up
+	}
+	526.1.1 = {
+		death="yes" # 250 BC Made Up
 	}
 }

@@ -397,6 +397,10 @@
 	
 	1.1.1 = { # 775 BC, Made up
 		birth= "yes"
+		create_bloodline = {
+			type = bloodline_zadok
+			has_dlc = "Holy Fury"
+		}
 	}
 	68.1.1 = { # 708 BC, Made up
 		death="yes"

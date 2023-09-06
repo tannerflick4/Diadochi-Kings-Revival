@@ -1,6 +1,18 @@
+186.1.1 = { # 590 BC
+	holder = 57902 # Solon The Lawgiver
+	law = succ_patrician_elective
+}
+216.1.1 = { # 560 BC
+	holder = 0
+}
+321.1.1 = { # 455 BC
+	holder = 56910 # Perikles
+}
+347.1.1 = { # 429 BC
+	holder = 0
+}
 410.1.1 = { # 366 BC
 	holder = 53102 # Hyperides
-	law = succ_patrician_elective
 }
 421.1.1 = { # 355 BC
 	holder = 53501 # Eubulus

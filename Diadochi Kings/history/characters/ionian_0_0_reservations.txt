@@ -68,4 +68,5 @@
 	# 56601-56700 for the Hemeroskopioi dynasty
 	# 56701-56800 for various republic rulers
 	# 56901-57000 for the Alcmaeonid Dynasty
+	# 57901-58000 for the Eupatrid Dynasty
 	# 59901-60000 for the Lowborns

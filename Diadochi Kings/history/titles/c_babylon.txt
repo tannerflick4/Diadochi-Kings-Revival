@@ -68,6 +68,15 @@
 	holder = 90303 # Bardiya
 }
 255.1.1 = {
+	holder = 481044 # Nebuchadnezzar III
+}
+256.1.1 = {
+	holder = 90330 # Darius the Great
+}
+257.1.1 = {
+	holder = 481045 # Nebuchadnezzar IV
+}
+258.1.1 = {
 	holder = 90330 # Darius the Great
 }
 290.10.1 = {

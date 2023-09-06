@@ -713,3 +713,153 @@
 		death="yes" # 611 BC Made Up
 	}
 }
+480042 = {
+	name = "Ashur-Bel-Nasir"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480037 # Ninurta-Sharru-Usur
+	
+	176.1.1 = {
+		birth="yes" # 600 BC  Made Up
+	}
+	208.1.1 = {
+		death="yes" # 568 BC Made Up
+	}
+}
+480043 = {
+	name = "Ninua-Apal-El"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480042 # Ashur-Bel-Nasir
+	
+	199.1.1 = {
+		birth="yes" # 577 BC  Made Up
+	}
+	272.1.1 = {
+		death="yes" # 503 BC Made Up
+	}
+}
+480044 = {
+	name = "Ashur-Tab-Ninu"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480043 # Ninua-Apal-El
+	
+	271.1.1 = {
+		birth="yes" # 504 BC  Made Up
+	}
+	320.1.1 = {
+		death="yes" # 456 BC Made Up
+	}
+}
+480045 = {
+	name = "Shamash-Zer-Ashur"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480044 # Ashur-Tab-Ninu
+	
+	317.1.1 = {
+		birth="yes" # 459 BC  Made Up
+	}
+	387.1.1 = {
+		death="yes" # 389 BC Made Up
+	}
+}
+480046 = {
+	name = "Ashur-Nadin-Bel"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480045 # Shamash-Zer-Ashur
+	
+	358.1.1 = {
+		birth="yes" # 418 BC  Made Up
+	}
+	418.1.1 = {
+		death="yes" # 358 BC Made Up
+	}
+}
+480047 = {
+	name = "Sin-Sharru-Usur"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480046 # Ashur-Nadin-Bel
+	
+	390.1.1 = {
+		birth="yes" # 386 BC  Made Up
+	}
+	429.1.1 = {
+		death="yes" # 347 BC Made Up
+	}
+}
+480048 = {
+	name = "Ninua-Sharri-Bel"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480047 # Sin-Sharru-Usur
+	
+	427.1.1 = {
+		birth="yes" # 348 BC  Made Up
+	}
+	479.1.1 = {
+		death="yes" # 297 BC Made Up
+	}
+}
+480049 = {
+	name = "Ashur-Balatu-Apli"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480048 # Ninua-Sharri-Bel
+	
+	454.1.1 = {
+		birth="yes" # 322 BC  Made Up
+	}
+	483.1.1 = {
+		death="yes" # 293 BC Made Up
+	}
+}
+480050 = {
+	name = "Ashur-Uballit-Ninu"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480049 # Ashur-Balatu-Apli
+	
+	468.1.1 = {
+		birth="yes" # 308 BC  Made Up
+	}
+	527.1.1 = {
+		death="yes" # 243 BC Made Up
+	}
+}
+480051 = {
+	name = "Ashur-Uballit-Ninu"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480050 # Ashur-Uballit-Ninu
+	
+	482.1.1 = {
+		birth="yes" # 308 BC  Made Up
+	}
+	523.1.1 = {
+		death="yes" # 247 BC Made Up
+	}
+}

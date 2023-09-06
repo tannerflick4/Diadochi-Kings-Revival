@@ -23,6 +23,10 @@
 	
 	1.1.1 = { # 776 BC
 		birth="yes"
+		create_bloodline = {
+			type = bloodline_david
+			has_dlc = "Holy Fury"
+		}
 	}
 	44.1.1 = { # 732 BC
 		death="yes"

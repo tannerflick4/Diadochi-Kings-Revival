@@ -117,10 +117,6 @@
 	
 	1.1.1 = { # made up
 		birth = yes # 776 BC
-		create_bloodline = {
-			type = bloodline_agiads
-			has_dlc = "Holy Fury"
-		}
 	}
 	73.1.1 = { # 703 BC, made up
 		death = { 
@@ -600,6 +596,10 @@
 	
 	363.1.1 = { # approximate
 		birth = yes # 413 BC
+		create_bloodline = {
+			type = bloodline_agesipolis
+			has_dlc = "Holy Fury"
+		}
 	}
 	396.1.1 = { # 380 BC
 		add_trait = ill

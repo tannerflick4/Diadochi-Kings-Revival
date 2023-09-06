@@ -1,6 +1,90 @@
 spriteTypes = {
 	spriteType = {
+		name = "GFX_bloodline_alexander"
+		texturefile = "gfx\\interface\\bloodlines\\bloodline_alexander.tga"
+	}
+	spriteType = {
 		name = "GFX_bloodline_argead"
 		texturefile = "gfx\\interface\\bloodlines\\bloodline_argead.tga"
+	}
+	spriteType = {
+		name = "GFX_bloodline_phillip"
+		texturefile = "gfx\\interface\\bloodlines\\bloodline_phillip.tga"
+	}
+	spriteType = {
+		name = "GFX_bloodline_darius"
+		texturefile = "gfx\\interface\\bloodlines\\bloodline_darius.tga"
+	}
+	spriteType = {
+		name = "GFX_bloodline_agathocles"
+		texturefile = "gfx\\interface\\bloodlines\\bloodline_agathocles.tga"
+	}
+	spriteType = {
+		name = "GFX_bloodline_athens"
+		texturefile = "gfx\\interface\\bloodlines\\bloodline_athens.tga"
+	}
+	spriteType = {
+		name = "GFX_bloodline_agiads"
+		texturefile = "gfx\\interface\\bloodlines\\bloodline_agiads.tga"
+	}
+	spriteType = {
+		name = "GFX_bloodline_aeacidae"
+		texturefile = "gfx\\interface\\bloodlines\\bloodline_aeacidae.tga"
+	}
+	spriteType = {
+		name = "GFX_bloodline_amasis"
+		texturefile = "gfx\\interface\\bloodlines\\bloodline_amasis.tga"
+	}
+	spriteType = {
+		name = "GFX_bloodline_antigonus"
+		texturefile = "gfx\\interface\\bloodlines\\bloodline_antigonus.tga"
+	}
+	spriteType = {
+		name = "GFX_bloodline_atropates"
+		texturefile = "gfx\\interface\\bloodlines\\bloodline_atropates.tga"
+	}
+	spriteType = {
+		name = "GFX_bloodline_chandragupta"
+		texturefile = "gfx\\interface\\bloodlines\\bloodline_chandragupta.tga"
+	}
+	spriteType = {
+		name = "GFX_bloodline_lysimachus"
+		texturefile = "gfx\\interface\\bloodlines\\bloodline_lysimachus.tga"
+	}
+	spriteType = {
+		name = "GFX_bloodline_carthage"
+		texturefile = "gfx\\interface\\bloodlines\\bloodline_carthage.tga"
+	}
+	spriteType = {
+		name = "GFX_bloodline_cyrus"
+		texturefile = "gfx\\interface\\bloodlines\\bloodline_cyrus.tga"
+	}
+	spriteType = {
+		name = "GFX_bloodline_ptolemy_soter"
+		texturefile = "gfx\\interface\\bloodlines\\bloodline_ptolemy_soter.tga"
+	}
+	spriteType = {
+		name = "GFX_bloodline_orontid"
+		texturefile = "gfx\\interface\\bloodlines\\bloodline_orontid.tga"
+	}
+	spriteType = {
+		name = "GFX_bloodline_mithridates_ktiskes"
+		texturefile = "gfx\\interface\\bloodlines\\bloodline_mithridates_ktiskes.tga"
+	}
+	spriteType = {
+		name = "GFX_bloodline_spartocid"
+		texturefile = "gfx\\interface\\bloodlines\\bloodline_spartocid.tga"
+	}
+	spriteType = {
+		name = "GFX_bloodline_seleucid"
+		texturefile = "gfx\\interface\\bloodlines\\bloodline_seleucid.tga"
+	}
+	spriteType = {
+		name = "GFX_bloodline_jewish"
+		texturefile = "gfx\\interface\\bloodlines\\bloodline_jewish.tga"
+	}
+	spriteType = {
+		name = "GFX_bloodline_zipoetes"
+		texturefile = "gfx\\interface\\bloodlines\\bloodline_zipoetes.tga"
 	}
 }
