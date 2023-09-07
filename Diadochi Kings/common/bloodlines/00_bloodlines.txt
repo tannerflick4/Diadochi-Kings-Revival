@@ -1,15 +1,3 @@
-bloodline_aeacidae = {
-	monthly_character_prestige = 0.2
-	dynasty_opinion = 5
-	combat_rating = 5
-	fertility = 0.1
-	inheritance = patrilineal
-	allow_bastards = yes
-	picture = GFX_bloodline_aeacidae
-	flags = {
-		historical_bloodline
-	}
-}
 bloodline_agathocles = {
 	monthly_character_prestige = -0.05
 	dynasty_opinion = 5
@@ -54,6 +42,10 @@ bloodline_alexander = {
 	flags = {
 		historical_bloodline
 		bloodline_great_conquerors
+		dynastic_claim_e_macedonia
+		dynastic_claim_k_macedon
+		dynastic_claim_d_lowermacedon
+		dynastic_claim_c_pella
 	}
 }
 bloodline_amasis = {
@@ -84,22 +76,6 @@ bloodline_antigonus = {
 	flags = {
 		historical_bloodline
 		bloodline_drill
-	}
-}
-bloodline_argead = {
-	monthly_character_prestige = 0.2
-	macedonian_opinion = 5
-	combat_rating = 5
-	fertility = 0.1
-	inheritance = patrilineal
-	allow_bastards = yes
-	picture = GFX_bloodline_argead
-	flags = {
-		historical_bloodline
-		dynastic_claim_e_macedonia
-		dynastic_claim_k_macedon
-		dynastic_claim_d_lowermacedon
-		dynastic_claim_c_pella
 	}
 }
 bloodline_atropates = {
