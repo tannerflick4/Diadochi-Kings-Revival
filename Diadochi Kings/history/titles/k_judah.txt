@@ -1,0 +1,33 @@
+26.1.1 = {
+	holder = 381002 # Jotham
+}
+44.1.1 = {
+	holder = 381006 # Jehoahaz II
+}
+61.1.1 = {
+	holder = 381009 # Hezekiah
+}
+89.1.1 = {
+	holder = 381010 # Manasseh
+}
+133.1.1 = {
+	holder = 381012 # Amon
+}
+135.1.1 = {
+	holder = 381013 # Josiah
+}
+167.1.1 = {
+	holder = 381016 # Jehoahaz III
+}
+168.1.1 = {
+	holder = 381015 # Jehoiakim
+}
+178.1.1 = {
+	holder = 381018 # Jeconiah
+}
+179.1.1 = {
+	holder = 381017 # Zedekiah
+}
+190.1.1 = {
+	holder = 0
+}

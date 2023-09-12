@@ -1,7 +1,73 @@
-407.1.1 = { # 369 BC
-	holder = 20001
+1.1.1 = { # 776 BC
+	holder = 20005 # Polydorus I
 	liege = k_sparta
 }
+73.1.1 = { # 703 BC
+	holder = 20006 # Eurycrates I
+}
+90.1.1 = { # 686 BC
+	holder = 20007 # Anaxander I
+}
+139.1.1 = { # 637 BC
+	holder = 20008 # Eurycratides I
+}
+194.1.1 = { # 582 BC
+	holder = 20009 # Leon I
+}
+218.1.1 = { # 558 BC
+	holder = 20012 # Anaxandridas II
+}
+256.1.1 = { # 520 BC
+	holder = 20017 # Cleomenes I
+}
+289.1.1 = { # 487 BC
+	holder = 20015 # Leonidas I
+}
+296.1.1 = { # 480 BC
+	holder = 20020 # Pleistarchus
+}
+318.1.1 = { # 458 BC
+	holder = 20024 # Pleistoanax I
+}
+368.1.1 = { # 408 BC
+	holder = 20027 # Pausanias I
+}
+381.1.1 = { # 395 BC
+	holder = 20029 # Agesipolis I
+}
+396.1.1 = { # 380 BC
+	holder = 20030 # Cleombrotos I
+}
+405.1.1 = { # 371 BC
+	holder = 20031 # Agesipolis II
+}
+406.1.1 = { # 370 BC
+	holder = 20001 # Cleomenes II
+}
 467.1.1 = { # 309 BC
-	holder = 20003
+	holder = 20003 # Areus I
+}
+511.1.1 = { # 265 BC
+	holder = 20038 # Acrotatus I
+}
+514.1.1 = { # 262 BC
+	holder = 20044 # Areus II
+}
+522.1.1 = { # 254 BC
+	holder = 20033 # Leonidas II
+}
+534.1.1 = { # 242 BC
+	holder = 20039 # Cleombrotus II
+}
+536.1.1 = { # 240 BC
+	holder = 20033 # Leonidas II
+}
+541.1.1 = { # 235 BC
+	holder = 20035 # Cleomenes III
+}
+557.1.1 = { # 219 BC
+	holder = 20045 # Agesipolis III last Agiad
+}
+592.1.1 = { # 184 BC
+	holder = 0 # Agesipolis III
 }

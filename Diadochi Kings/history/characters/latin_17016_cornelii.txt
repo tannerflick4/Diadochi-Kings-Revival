@@ -1,77 +1,665 @@
 # 171501-171600 for the Cornelii dynasty
+
+# Cornelius Maluginensis
+
 171501 = {
-	name = "Publius" # Cornelius Scapula
-	dynasty = 17016 # Cornelii
+	name = "Publius" # Publius Cornelius Maluginensis
+	dynasty = 17016 # Cornelius Maluginensis
 	religion = roman_main
 	culture = latin
-	396.1.1 = { # 380 BC Made Up
+	244.1.1 = { # 532 BC Made Up
 		birth="yes" 
 		create_bloodline = {
 			type = bloodline_cornelii
 			has_dlc = "Holy Fury"
 		}
 	}
-	480.1.1 = { # 296 BC Made Up
+	278.1.1 = { # 498 BC Made Up
 		death="yes"
 	}
 }
 171502 = {
-	name = "Servius" # Cornelius Lentulus
-	dynasty = 17016 # Cornelii
+	name = "Servius" # Servius Cornelius Maluginensis Tricostus
+	dynasty = 17016 # Cornelius Maluginensis
 	religion = roman_main
 	culture = latin
-	443.1.1 = { # 333 BC Made up
+	
+	father = 171501 # Publius Cornelius Maluginensis
+	
+	270.1.1 = { # 506 BC Made up
 		birth="yes"
 	}
-	509.1.1 = { # 267 BC Made up
+	323.1.1 = { # 453 BC Made up
 		death="yes"
 	}
 }
 171503 = {
-	name = "Lucius" # Cornelius Scipio Barbates
-	dynasty = 17016 # Cornelii
+	name = "Lucius" # Lucius Cornelius Maluginensis Uritinus
+	dynasty = 17016 # Cornelius Maluginensis
 	religion = roman_main
 	culture = latin
-	443.1.1 = { # 333 BC Made up
+	
+	father = 171502 # Servius Cornelius Maluginensis Tricostus
+	
+	283.1.1 = { # 493 BC Made up
 		birth="yes"
 	}
-	496.1.1 = { # 280 BC Made up
+	329.1.1 = { # 447 BC Made up
 		death="yes"
 	}
 }
 171504 = {
-	name = "Publius" # Cornelius Rufinus
-	dynasty = 17016 # Cornelii
+	name = "Marcus" # Marcus Cornelius Maluginensis
+	dynasty = 17016 # Cornelius Maluginensis
 	religion = roman_main
 	culture = latin
-	473.1.1 = { # 333 BC Made up
+	
+	father = 171503 # Lucius Cornelius Maluginensis Uritinus
+	
+	297.1.1 = { # 479 BC Made up
 		birth="yes"
 	}
-	539.1.1 = { # 267 BC Made up
+	370.1.1 = { # 406 BC Made up
 		death="yes"
 	}
 }
 171505 = {
-	name = "Publius" # Cornelius Dolabella
-	dynasty = 17016 # Cornelii
+	name = "Marcus" # Marcus Cornelius Maluginensis
+	dynasty = 17016 # Cornelius Maluginensis
 	religion = roman_main
 	culture = latin
-	443.1.1 = { # 333 BC Made up
+	
+	father = 171504 # Marcus Cornelius Maluginensis
+	
+	320.1.1 = { # 456 BC Made up
 		birth="yes"
 	}
-	509.1.1 = { # 267 BC Made up
+	398.1.1 = { # 378 BC Made up
 		death="yes"
 	}
 }
 171506 = {
-	name = "Publius" # Cornelius Rufinus
-	dynasty = 17016 # Cornelii
+	name = "Publius" # Publius Cornelius Maluginensis
+	dynasty = 17016 # Cornelius Maluginensis
 	religion = roman_main
 	culture = latin
-	401.1.1 = { # 375 BC Made Up
+	
+	father = 171505 # Marcus Cornelius Maluginensis
+	
+	350.1.1 = { # 426 BC Made Up
 		birth="yes"
 	}
+	416.1.1 = { # 360 BC Made Up
+		death="yes"
+	}
+}
+171507 = {
+	name = "Marcus" # Marcus Cornelius Maluginensis
+	dynasty = 17016 # Cornelius Maluginensis
+	religion = roman_main
+	culture = latin
+	
+	father = 171506 # Publius Cornelius Maluginensis
+	
+	364.1.1 = { # 412 BC Made Up
+		birth="yes"
+	}
+	407.1.1 = { # 369 BC Made Up
+		death="yes"
+	}
+}
+171508 = {
+	name = "Servius" # Servius Cornelius Maluginensis
+	dynasty = 17016 # Cornelius Maluginensis
+	religion = roman_main
+	culture = latin
+	
+	father = 171506 # Publius Cornelius Maluginensis
+	
+	365.1.1 = { # 411 BC Made Up
+		birth="yes"
+	}
+	416.1.1 = { # 360 BC Made Up
+		death="yes"
+	}
+}
+171509 = {
+	name = "Marcus" # Marcus Cornelius Maluginensis
+	dynasty = 17016 # Cornelius Maluginensis
+	religion = roman_main
+	culture = latin
+	
+	father = 171506 # Servius Cornelius Maluginensis
+	
+	387.1.1 = { # 389 BC Made Up
+		birth="yes"
+	}
+	466.1.1 = { # 310 BC Made Up
+		death="yes"
+	}
+}
+
+# Cornelius Cossus
+
+171510 = {
+	name = "Servius" # Servius Cornelius Cossus
+	dynasty = 17016 # Cornelius Cossus
+	religion = roman_main
+	culture = latin
+	
+	father = 171504 # Marcus Cornelius Maluginensis
+	
+	311.1.1 = { # 465 BC Made up
+		birth="yes"
+	}
+	384.1.1 = { # 392 BC Made up
+		death="yes"
+	}
+}
+171511 = {
+	name = "Aulus" # Aulus Cornelius Cossus
+	dynasty = 17016 # Cornelius Cossus
+	religion = roman_main
+	culture = latin
+	
+	father = 171510 # Servius Cornelius Cossus
+	
+	324.1.1 = { # 477 BC Made up
+		birth="yes"
+	}
+	404.1.1 = { # 372 BC Made up
+		death="yes"
+	}
+}
+171512 = {
+	name = "Publius" # Publius Cornelius Cossus Rutilus
+	dynasty = 17016 # Cornelius Cossus
+	religion = roman_main
+	culture = latin
+	
+	father = 171510 # Servius Cornelius Cossus
+	
+	341.1.1 = { # 435 BC Made up
+		birth="yes"
+	}
+	386.1.1 = { # 390 BC Made up
+		death="yes"
+	}
+}
+171513 = {
+	name = "Publius" # Publius Cornelius Cossus
+	dynasty = 17016 # Cornelius Cossus
+	religion = roman_main
+	culture = latin
+	
+	father = 171511 # Aulus Cornelius Cossus
+	
+	338.1.1 = { # 435 BC Made up
+		birth="yes"
+	}
+	400.1.1 = { # 376 BC Made up
+		death="yes"
+	}
+}
+171514 = {
+	name = "Gnaeus" # Gnaeus Cornelius Cossus
+	dynasty = 17016 # Cornelius Cossus
+	religion = roman_main
+	culture = latin
+	
+	father = 171511 # Aulus Cornelius Cossus
+	
+	349.1.1 = { # 427 BC Made up
+		birth="yes"
+	}
+	391.1.1 = { # 385 BC Made up
+		death="yes"
+	}
+}
+171515 = {
+	name = "Aulus" # Aulus Cornelius Cossus
+	dynasty = 17016 # Cornelius Cossus
+	religion = roman_main
+	culture = latin
+	
+	father = 171511 # Aulus Cornelius Cossus
+	
+	350.1.1 = { # 426 BC Made up
+		birth="yes"
+	}
+	429.1.1 = { # 346 BC Made up
+		death="yes"
+	}
+}
+171516 = {
+	name = "Marcus" # Marcus Cornelius Cossus
+	dynasty = 17016 # Cornelius Cossus
+	religion = roman_main
+	culture = latin
+	
+	father = 171511 # Aulus Cornelius Cossus
+	
+	400.1.1 = { # 376 BC Made up
+		birth="yes"
+	}
+	441.1.1 = { # 335 BC Made up
+		death="yes"
+	}
+}
+171517 = {
+	name = "Publius" # Publius Cornelius Cossus
+	dynasty = 17016 # Cornelius Cossus
+	religion = roman_main
+	culture = latin
+	
+	father = 171513 # Publius Cornelius Cossus
+	
+	359.1.1 = { # 417 BC Made up
+		birth="yes"
+	}
+	407.1.1 = { # 369 BC Made up
+		death="yes"
+	}
+}
+171518 = {
+	name = "Gnaeus" # Gnaeus Cornelius Cossus
+	dynasty = 17016 # Cornelius Cossus
+	religion = roman_main
+	culture = latin
+	
+	father = 171513 # Publius Cornelius Cossus
+	
+	352.1.1 = { # 424 BC Made up
+		birth="yes"
+	}
+	390.1.1 = { # 386 BC Made up
+		death="yes"
+	}
+}
+171519 = {
+	name = "Aulus" # Aulus Cornelius Cossus
+	dynasty = 17016 # Cornelius Cossus
+	religion = roman_main
+	culture = latin
+	
+	father = 171517 # Publius Cornelius Cossus
+	
+	388.1.1 = { # 388 BC Made up
+		birth="yes"
+	}
+	451.1.1 = { # 325 BC Made up
+		death="yes"
+	}
+}
+171520 = {
+	name = "Aulus" # Aulus Cornelius Cossus
+	dynasty = 17016 # Cornelius Cossus
+	religion = roman_main
+	culture = latin
+	
+	father = 171518 # Gnaeus Cornelius Cossus
+	
+	366.1.1 = { # 410 BC Made up
+		birth="yes"
+	}
+	437.1.1 = { # 339 BC Made up
+		death="yes"
+	}
+}
+171521 = {
+	name = "Aulus" # Aulus Cornelius Cossus Arvina
+	dynasty = 17016 # Cornelius Cossus
+	religion = roman_main
+	culture = latin
+	
+	father = 171520 # Aulus Cornelius Cossus
+	
+	400.1.1 = { # 376 BC Made up
+		birth="yes"
+	}
+	437.1.1 = { # 339 BC Made up
+		death="yes"
+	}
+}
+171522 = {
+	name = "Publius" # Publius Cornelius Cossus Arvina
+	dynasty = 17016 # Cornelius Cossus
+	religion = roman_main
+	culture = latin
+	
+	father = 171521 # Aulus Cornelius Cossus Arvina
+	
+	419.1.1 = { # 357 BC Made up
+		birth="yes"
+	}
+	490.1.1 = { # 286 BC Made up
+		death="yes"
+	}
+}
+
+# Cornelius Lentulus
+
+171523 = {
+	name = "Lucius" # Lucius Cornelius Lentulus
+	dynasty = 17016 # Cornelius Lentulus
+	religion = roman_main
+	culture = latin
+	
+	father = 171518 # Gnaeus Cornelius Cossus
+	
+	367.1.1 = { # 409 BC Made up
+		birth="yes"
+	}
+	407.1.1 = { # 369 BC Made up
+		death="yes"
+	}
+}
+171524 = {
+	name = "Lucius" # Lucius Cornelius Lentulus
+	dynasty = 17016 # Cornelius Lentulus
+	religion = roman_main
+	culture = latin
+	
+	father = 171523 # Lucius Cornelius Lentulus
+	
+	389.1.1 = { # 387 BC Made up
+		birth="yes"
+	}
+	461.1.1 = { # 315 BC Made up
+		death="yes"
+	}
+}
+171525 = {
+	name = "Servius" # Servius Cornelius Lentulus
+	dynasty = 17016 # Cornelius Lentulus
+	religion = roman_main
+	culture = latin
+	
+	father = 171524 # Lucius Cornelius Lentulus
+	
+	403.1.1 = { # 373 BC Made up
+		birth="yes"
+	}
+	479.1.1 = { # 297 BC Made up
+		death="yes"
+	}
+}
+171526 = {
+	name = "Tiberius" # Tiberius Cornelius Lentulus
+	dynasty = 17016 # Cornelius Lentulus
+	religion = roman_main
+	culture = latin
+	
+	father = 171525 # Servius Cornelius Lentulus
+	
+	455.1.1 = { # 321 BC Made up
+		birth="yes"
+	}
+	494.1.1 = { # 282 BC Made up
+		death="yes"
+	}
+}
+171527 = {
+	name = "Lucius" # Lucius Cornelius Lentulus Caudinus
+	dynasty = 17016 # Cornelius Lentulus
+	religion = roman_main
+	culture = latin
+	
+	father = 171526 # Tiberius Cornelius Lentulus
+	
+	469.1.1 = { # 307 BC Made up
+		birth="yes"
+	}
+	528.1.1 = { # 248 BC Made up
+		death="yes"
+	}
+}
+171528 = {
+	name = "Lucius" # Lucius Cornelius Lentulus Caudinus
+	dynasty = 17016 # Cornelius Lentulus
+	religion = roman_main
+	culture = latin
+	
+	father = 171527 # Lucius Cornelius Lentulus Caudinus
+	
+	499.1.1 = { # 277 BC Made up
+		birth="yes"
+	}
+	551.1.1 = { # 225 BC Made up
+		death="yes"
+	}
+}
+171529 = {
+	name = "Publius" # Publius Cornelius Lentulus Caudinus
+	dynasty = 17016 # Cornelius Lentulus
+	religion = roman_main
+	culture = latin
+	
+	father = 171527 # Lucius Cornelius Lentulus Caudinus
+	
+	486.1.1 = { # 290 BC Made up
+		birth="yes"
+	}
+	561.1.1 = { # 215 BC Made up
+		death="yes"
+	}
+}
+
+# Cornelius Rufinus
+
+171530 = {
+	name = "Publius" # Publius Cornelius Rufinus
+	dynasty = 17016 # Cornelius Rufinus
+	religion = roman_main
+	culture = latin
+	
+	father = 171509 # Marcus Cornelius Maluginensis
+	
+	412.1.1 = { # 364 BC Made Up
+		birth="yes"
+	}
+	492.1.1 = { # 284 BC Made Up
+		death="yes"
+	}
+}
+171531 = {
+	name = "Gnaeus" # Gnaeus Cornelius Rufinus
+	dynasty = 17016 # Cornelius Rufinus
+	religion = roman_main
+	culture = latin
+	
+	father = 171530 # Publius Cornelius Rufinus
+	
+	438.1.1 = { # 338 BC Made Up
+		birth="yes"
+	}
+	512.1.1 = { # 264 BC Made Up
+		death="yes"
+	}
+}
+171532 = {
+	name = "Publius" # Publius Cornelius Rufinus
+	dynasty = 17016 # Cornelius Rufinus
+	religion = roman_main
+	culture = latin
+	
+	father = 171531 # Gnaeus Cornelius Rufinus
+	
+	457.1.1 = { # 319 BC Made Up
+		birth="yes"
+	}
+	532.1.1 = { # 244 BC Made Up
+		death="yes"
+	}
+}
+
+# Cornelius Sulla
+
+171533 = {
+	name = "Publius" # Publius Cornelius Sulla
+	dynasty = 17016 # Cornelius Sulla
+	religion = roman_main
+	culture = latin
+	
+	father = 171532 # Publius Cornelius Rufinus
+	
+	471.1.1 = { # 305 BC Made Up
+		birth="yes"
+	}
+	533.1.1 = { # 243 BC Made Up
+		death="yes"
+	}
+}
+
+# Cornelius Scipio
+
+171534 = {
+	name = "Publius" # Publius Cornelius Scipio
+	dynasty = 17016 # Cornelius Scipio
+	religion = roman_main
+	culture = latin
+	
+	father = 171506 # Publius Cornelius Maluginensis
+	
+	364.1.1 = { # 412 BC Made Up
+		birth="yes"
+	}
+	416.1.1 = { # 360 BC Made Up
+		death="yes"
+	}
+}
+171535 = {
+	name = "Publius" # Publius Cornelius Scipio
+	dynasty = 17016 # Cornelius Scipio
+	religion = roman_main
+	culture = latin
+	
+	father = 171534 # Publius Cornelius Scipio
+	
+	379.1.1 = { # 397 BC Made Up
+		birth="yes"
+	}
+	427.1.1 = { # 349 BC Made Up
+		death="yes"
+	}
+}
+171536 = {
+	name = "Lucius" # Lucius Cornelius Scipio
+	dynasty = 17016 # Cornelius Scipio
+	religion = roman_main
+	culture = latin
+	
+	father = 171535 # Publius Cornelius Scipio
+	
+	395.1.1 = { # 381 BC Made Up
+		birth="yes"
+	}
+	460.1.1 = { # 316 BC Made Up
+		death="yes"
+	}
+}
+171537 = {
+	name = "Publius" # Publius Cornelius Scipio Scapula
+	dynasty = 17016 # Cornelius Scipio
+	religion = roman_main
+	culture = latin
+	
+	father = 171536 # Lucius Cornelius Scipio
+	
+	428.1.1 = { # 348 BC Made Up
+		birth="yes"
+	}
+	485.1.1 = { # 291 BC Made Up
+		death="yes"
+	}
+}
+171538 = {
+	name = "Gnaeus" # Gnaeus Cornelius Scipio
+	dynasty = 17016 # Cornelius Scipio
+	religion = roman_main
+	culture = latin
+	
+	father = 171537 # Publius Cornelius Scipio Scapula
+	
+	442.1.1 = { # 334 BC Made Up
+		birth="yes"
+	}
+	495.1.1 = { # 281 BC Made Up
+		death="yes"
+	}
+}
+171539 = {
+	name = "Lucius" # Lucius Cornelius Scipio Barbatos
+	dynasty = 17016 # Cornelius Scipio
+	religion = roman_main
+	culture = latin
+	
+	father = 171538 # Gnaeus Cornelius Scipio
+	
+	456.1.1 = { # 320 BC Made Up
+		birth="yes"
+	}
+	509.1.1 = { # 267 BC Made Up
+		death="yes"
+	}
+}
+171540 = {
+	name = "Gnaeus" # Gnaeus Cornelius Scipio Asina
+	dynasty = 17016 # Cornelius Scipio
+	religion = roman_main
+	culture = latin
+	
+	father = 171539 # Lucius Cornelius Scipio Barbatos
+	
+	472.1.1 = { # 304 BC Made Up
+		birth="yes"
+	}
+	530.1.1 = { # 246 BC Made Up
+		death="yes"
+	}
+}
+171541 = {
+	name = "Publius" # Publius Cornelius Scipio Asina
+	dynasty = 17016 # Cornelius Scipio
+	religion = roman_main
+	culture = latin
+	
+	father = 171540 # Gnaeus Cornelius Scipio Asina
+	
+	486.1.1 = { # 290 BC Made Up
+		birth="yes"
+	}
+	566.1.1 = { # 210 BC Made Up
+		death="yes"
+	}
+}
+171542 = {
+	name = "Lucius" # Lucius Cornelius Scipio
+	dynasty = 17016 # Cornelius Scipio
+	religion = roman_main
+	culture = latin
+	
+	father = 171539 # Lucius Cornelius Scipio Barbatos
+	
 	473.1.1 = { # 303 BC Made Up
+		birth="yes"
+	}
+	541.1.1 = { # 235 BC Made Up
+		death="yes"
+	}
+}
+171543 = {
+	name = "Gnaeus" # Gnaeus Cornelius Scipio Calvus
+	dynasty = 17016 # Cornelius Scipio
+	religion = roman_main
+	culture = latin
+	
+	father = 171542 # Lucius Cornelius Scipio
+	
+	487.1.1 = { # 289 BC Made Up
+		birth="yes"
+	}
+	567.1.1 = { # 209 BC Made Up
 		death="yes"
 	}
 }

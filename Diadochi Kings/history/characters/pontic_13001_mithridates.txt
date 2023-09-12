@@ -5,14 +5,12 @@
 	religion = zoroastrian_main
 	culture = persian
 	
+	father = 90212 # Ariobarzanes I
+	
 	add_trait = deceitful
 	
 	390.1.1 = { # 386 BC
 		birth="yes"
-		create_bloodline = {
-			type = bloodline_mithridates_ktiskes
-			has_dlc = "Holy Fury"
-		}
 	}
 	474.1.1 = { # 302 BC
 		death = {
@@ -22,11 +20,11 @@
 	}
 }
 130002 = {
-	name = "Mithridates" # Mithridates, first king of Pontus
+	name = "Mithridates" # Mithridates I, first king of Pontus
 	dynasty = 13001 # Mithridates
 	religion = zoroastrian_main
 	culture = persian
-	father = 130001
+	father = 130001 # Mithridates
 	
 	martial = 10 # Needed to have Pontus survive against Cappadocian rushing
 	
@@ -34,11 +32,99 @@
 	
 	441.1.1 = { # 335 BC Made up
 		birth="yes"
+		create_bloodline = {
+			type = bloodline_mithridates_ktiskes
+			has_dlc = "Holy Fury"
+		}
 	}
 	495.1.1 = { # 281 BC
 		give_nickname = nick_ktistes
 	}
 	510.1.1 = { # 266 BC
+		death="yes"
+	}
+}
+130003 = {
+	name = "Ariobarzanes" # Ariobarzanes, second king of Pontus
+	dynasty = 13001 # Mithridates
+	religion = zoroastrian_main
+	culture = persian
+	father = 130002 # Mithridates I
+	
+	489.1.1 = { # 287 BC Made up
+		birth="yes"
+	}
+	526.1.1 = { # 250 BC
+		death="yes"
+	}
+}
+130004 = {
+	name = "Mithridates" # Mithridates II, third king of Pontus
+	dynasty = 13001 # Mithridates
+	religion = zoroastrian_main
+	culture = persian
+	father = 130003 # Ariobarzanes
+	
+	517.1.1 = { # 259 BC Made up
+		birth="yes"
+	}
+	539.1.1 = {
+		add_spouse = 1018 # Laodike
+	}
+	566.1.1 = { # 210 BC
+		death="yes"
+	}
+}
+130005 = {
+	name = "Laodike"
+	dynasty = 13001 # Mithridates
+	religion = zoroastrian_main
+	culture = persian
+	female = yes
+	father = 130004 # Mithridates II
+	mother = 1018 # laodike
+	
+	539.1.1 = { # 237 BC Made up
+		birth="yes"
+	}
+	554.1.1 = { # 222 BC, approximate
+		add_spouse = 1028 # Antiochos III
+	}
+	606.1.1 = { # 170 BC
+		death="yes"
+	}
+}
+130006 = {
+	name = "Laodike"
+	dynasty = 13001 # Mithridates
+	religion = zoroastrian_main
+	culture = persian
+	female = yes
+	father = 130004 # Mithridates II
+	mother = 1018 # laodike
+	
+	540.1.1 = { # 236 BC Made up
+		birth="yes"
+	}
+	556.1.1 = {
+		add_spouse = 1027 # Achaios Seleukidai
+	}
+	576.1.1 = { # 200 BC Made up
+		death="yes"
+	}
+}
+130007 = {
+	name = "Mithridates" # Mithridates III, fourth king of Pontus
+	dynasty = 13001 # Mithridates
+	religion = zoroastrian_main
+	culture = persian
+	father = 130004 # Mithridates II
+	mother = 1018 # laodike
+	
+	541.1.1 = { # 235 BC Made up
+		birth="yes"
+	}
+	586.1.1 = { # 190 BC
 		death="yes"
 	}
 }

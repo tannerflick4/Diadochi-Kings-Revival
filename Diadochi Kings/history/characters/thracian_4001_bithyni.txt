@@ -1,6 +1,6 @@
 # 40001-40100 for the Bithyni dynasty
 40001 = {
-	name = "Zipoetes" # King of Bithynia
+	name = "Zipoetes" # Zipoetes I, King of Bithynia
 	dynasty = 4001 # Bithyni
 	religion = thracian_main
 	culture = thracian
@@ -58,7 +58,7 @@
 	}
 }
 40005 = {
-	name = "Nikomedes" # King of Bithynia
+	name = "Nikomedes" # Nikomedes I, King of Bithynia
 	dynasty = 4001 # Bithyni
 	religion = thracian_main
 	culture = thracian
@@ -71,6 +71,12 @@
 	}
 	498.1.1 = { # 278 BC
 		add_trait = kinslayer
+	}
+	501.1.1 = {
+		add_spouse = 41901 # Ditizele
+	}
+	517.1.1 = {
+		add_spouse = 41902 # Etazeta
 	}
 	521.1.1 = {
 		death="yes" # 255 BC
@@ -122,5 +128,48 @@
 			death_reason = death_execution
 			killer = 40005 # Nikomedes I
 		}
+	}
+}
+40009 = {
+	name = "Ziaelas" # Ziaelas I, King of Bithynia
+	dynasty = 4001 # Bithyni
+	religion = thracian_main
+	culture = thracian
+	father = 40005 # Nikomedes I
+	mother = 41901 # Ditizele
+	
+	511.1.1 = {
+		birth="yes" # 265 BC
+	}
+	548.1.1 = {
+		death="yes" # 228 BC
+	}
+}
+40010 = {
+	name = "Prusias" # Prusias I Cholus, King of Bithynia
+	dynasty = 4001 # Bithyni
+	religion = thracian_main
+	culture = thracian
+	father = 40009 # Ziaelas I
+	
+	533.1.1 = {
+		birth="yes" # 243 BC
+	}
+	615.1.1 = {
+		death="yes" # 161 BC
+	}
+}
+40011 = {
+	name = "Prusias" # Prusias II Cynegus, King of Bithynia
+	dynasty = 4001 # Bithyni
+	religion = thracian_main
+	culture = thracian
+	father = 40010 #  Prusias I Cholus
+	
+	556.1.1 = {
+		birth="yes" # 220 BC
+	}
+	627.1.1 = {
+		death="yes" # 149 BC
 	}
 }

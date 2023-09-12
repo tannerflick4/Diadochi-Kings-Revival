@@ -1,26 +1,75 @@
+1.1.1 = {
+	holder = 480002 # Tiglath-Pileser III
+}
+49.1.1 = {
+	holder = 480004 # Shalmaneser V
+}
+54.1.1 = {
+	holder = 480001 # Sargon II The Great
+}
+71.1.1 = {
+	holder = 480009 # Sennacherib
+}
+95.1.1 = {
+	holder = 480012 # Esarhaddon
+}
+107.1.1 = {
+	holder = 480013 # Ashurbanipal
+}
+145.1.1 = {
+	holder = 480034 # Ashuretillilani I
+}
+149.1.1 = {
+	holder = 480035 # Sinsharishkun
+}
+162.1.1 = {
+	holder = 0
+}
+200.1.1 = {
+	holder = 480042 # Ashur-Bel-Nasir
+}
+208.1.1 = {
+	holder = 480043 # Ninua-Apal-El
+}
+272.1.1 = {
+	holder = 480044 # Ashur-Tab-Ninu
+}
+320.1.1 = {
+	holder = 480045 # Shamash-Zer-Ashur
+}
+387.1.1 = {
+	holder = 480046 # Ashur-Nadin-Bel
+}
 417.1.1 = {
-	holder = 90324
 	liege = k_p_babylon
 }
-446.1.1 = { # 330 BC
-	holder = 30201
+418.1.1 = {
+	holder = 480047 # Sin-Sharru-Usur
+}
+429.1.1 = {
+	holder = 480048 # Ninua-Sharri-Bel
+}
+446.1.1 = {
 	liege = k_s_assyria
 }
 457.1.1 = {
-	holder = 1001 # Seleukos
 	liege = k_s_babylonia
 }
 461.1.1 = {
-	holder = 401
 	liege = k_s_phrygia
 }
 465.1.1 = {
-	holder = 1001 # Seleukos
 	liege = k_s_babylonia
 }
 467.1.1 = {
 	liege = e_syria
 }
-495.8.1 = {
-	holder = 1002 # Antiochos I
+479.1.1 = {
+	holder = 480049 # Ashur-Balatu-Apli
+}
+483.1.1 = {
+	holder = 480050 # Ashur-Uballit-Ninu
+}
+527.1.1 = {
+	holder = 0
 }

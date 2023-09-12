@@ -1,0 +1,75 @@
+1.1.1 = {
+	holder = 480002 # Tiglath-Pileser III
+}
+49.1.1 = {
+	holder = 480004 # Shalmaneser V
+}
+54.1.1 = {
+	holder = 481001 # Merodach-Baladan
+}
+66.1.1 = {
+	holder = 480001 # Sargon II The Great
+}
+71.1.1 = {
+	holder = 480009 # Sennacherib
+}
+73.1.1 = {
+	holder = 481001 # Merodach-Baladan
+}
+74.1.1 = {
+	holder = 481005 # Bel-Ibni I
+}
+76.1.1 = {
+	holder = 480019 # Assur-nadin-shumi
+}
+82.1.1 = {
+	holder = 480009 # Sennacherib
+}
+95.1.1 = {
+	holder = 480012 # Esarhaddon
+}
+107.1.1 = {
+	holder = 480030 # Shamash-shum-ukin
+}
+128.1.1 = {
+	holder = 480013 # Ashurbanipal
+}
+145.1.1 = {
+	holder = 480034 # Ashuretillilani I
+}
+149.1.1 = {
+	holder = 480035 # Sinsharishkun
+}
+150.1.1 = {
+	holder = 481012 # Nabopolassar
+}
+171.1.1 = {
+	holder = 481013 # Nebuchadnezzar II
+}
+214.1.1 = {
+	holder = 481027 # Amel-Marduk
+}
+216.1.1 = {
+	holder = 490003 # Neriglissar
+}
+220.1.1 = {
+	holder = 490004 # Labashi-Marduk
+}
+221.1.1 = {
+	holder = 481019 # Nabonidus
+}
+254.1.1 = {
+	holder = 0
+}
+255.1.1 = {
+	holder = 481044 # Nebuchadnezzar III
+}
+256.1.1 = {
+	holder = 0
+}
+257.1.1 = {
+	holder = 481045 # Nebuchadnezzar IV
+}
+258.1.1 = {
+	holder = 0
+}

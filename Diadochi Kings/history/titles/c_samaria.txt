@@ -1,7 +1,74 @@
-405.1.1 = { # 371 BC
-	holder = 380001 # Jeddua
+26.1.1 = {
+	holder = 381002 # Jotham
+	liege = d_judea
+}
+44.1.1 = {
+	holder = 381006 # Jehoahaz II
+}
+61.1.1 = {
+	holder = 381009 # Hezekiah
+}
+89.1.1 = {
+	holder = 381010 # Manasseh
+}
+133.1.1 = {
+	holder = 381012 # Amon
+}
+135.1.1 = {
+	holder = 381013 # Josiah
+}
+167.1.1 = {
+	holder = 381016 # Jehoahaz III
+}
+168.1.1 = {
+	holder = 381015 # Jehoiakim
+}
+178.1.1 = {
+	holder = 381018 # Jeconiah
+}
+179.1.1 = {
+	holder = 381017 # Zedekiah
+}
+190.1.1 = {
+	holder = 381027 # Shenazzar
+}
+268.1.1 = {
+	holder = 381035 # Zerubbabel
+}
+309.1.1 = {
+	holder = 380028 # Ezra The Scribe
+}
+337.1.1 = {
+	holder = 381063 # Nehemiah
+}
+393.1.1 = {
+	holder = 381078 # Hezekiah
+}
+445.1.1 = {
+	holder = 380018 # Jaddua
 	liege = d_kohen_gadol
 }
-456.1.1 = { # 320 BC
-	holder = 380002 # Onias
+456.1.1 = {
+	holder = 380019 # Onias I
+}
+486.1.1 = {
+	holder = 380020 # Simon The Just
+}
+511.1.1 = {
+	holder = 380021 # Manasseh
+}
+525.1.1 = {
+	holder = 380022 # Eleazer
+} 
+526.1.1 = {
+	holder = 380023 # Onias II
+}
+536.1.1 = {
+	holder = 380024 # Simon II
+}
+556.1.1 = {
+	holder = 380025 # Onias III
+}
+601.1.1 = { # 175 BC
+	holder = 0
 }

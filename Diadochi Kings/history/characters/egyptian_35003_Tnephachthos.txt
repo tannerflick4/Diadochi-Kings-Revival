@@ -129,8 +129,11 @@
 	religion = kemetic
 	father = 350039
 	female = yes
-	113.1.1 = { # 663 BC, made up
+	130.1.1 = { # 646 BC, made up
 		birth="yes"
+	}
+	150.1.1 = {
+		add_spouse = 481013 # Nebuchadnezzar II
 	}
 	191.1.1 = { # 585 BC 
 		death="yes"

@@ -35,7 +35,7 @@
 
     father = 3602
 	
-	334.1.1 = { # 442 BC Made up
+	326.1.1 = { # 450 BC Made up
 		birth="yes"
 	}
     353.1.1 = { # 423 BC
@@ -88,7 +88,7 @@
 
     father = 3603
 	
-	351.1.1 = { # 425 BC Made up
+	343.1.1 = { # 433 BC Made up
 		birth="yes"
 	}
 	415.1.1 = { # 361 BC Made up
@@ -131,7 +131,7 @@
 	417.6.1 = { # summer 359 BC
 		add_spouse = 841 # Philip II
 	}
-	425.1.1 = { # 351 BC Made up
+	426.1.1 = { # 350 BC Made up
 		death="yes"
 	}
 }
@@ -143,8 +143,8 @@
 
     father = 3605
 
-	366.1.1 = { # Made up
-		birth="yes" # 410 BC
+	359.1.1 = { # Made up
+		birth="yes" # 417 BC
 	}
 	425.1.1 = { # Made up
 		death="yes" # 351 BC

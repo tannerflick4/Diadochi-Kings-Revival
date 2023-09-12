@@ -1,0 +1,65 @@
+26.1.1 = {
+	holder = 381002 # Jotham
+}
+44.1.1 = {
+	holder = 381006 # Jehoahaz II
+}
+61.1.1 = {
+	holder = 381009 # Hezekiah
+}
+89.1.1 = {
+	holder = 381010 # Manasseh
+}
+133.1.1 = {
+	holder = 381012 # Amon
+}
+135.1.1 = {
+	holder = 381013 # Josiah
+}
+167.1.1 = {
+	holder = 381016 # Jehoahaz III
+}
+168.1.1 = {
+	holder = 381015 # Jehoiakim
+}
+178.1.1 = {
+	holder = 381018 # Jeconiah
+}
+179.1.1 = {
+	holder = 381017 # Zedekiah
+}
+190.1.1 = {
+	holder = 481013 # Nebuchadnezzar II
+}
+214.1.1 = {
+	holder = 481027 # Amel-Marduk
+}
+216.1.1 = {
+	holder = 490003 # Neriglissar
+}
+220.1.1 = {
+	holder = 490004 # Labashi-Marduk
+}
+221.1.1 = {
+	holder = 481019 # Nabonidus
+}
+237.1.1 = {
+	holder = 381027 # Shenazzar
+	liege = e_persia
+}
+268.1.1 = {
+	holder = 381035 # Zerubbabel
+}
+309.1.1 = {
+	holder = 380028 # Ezra The Scribe
+}
+337.1.1 = {
+	holder = 381063 # Nehemiah
+}
+393.1.1 = {
+	holder = 381078 # Hezekiah
+	liege = k_p_babylon
+}
+445.1.1 = {
+	holder = 0
+}

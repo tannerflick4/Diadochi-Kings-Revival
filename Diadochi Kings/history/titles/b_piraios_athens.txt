@@ -1,0 +1,18 @@
+372.1.1 = { # 404 BC
+	holder = 56923 # Alkibiades The Younger
+}
+425.1.1 = { # 351 BC
+	holder = 56924 # Hipponicus
+}
+438.8.2 = { # 338 BC, Battle of Chaeronea
+	liege = d_r_athens
+}
+474.1.1 = { # 301 BC
+	holder = 56926 # Dionysios
+}
+529.1.1 = { # 247 BC
+	holder = 56927 # Demosthenes
+}
+539.1.1 = { # 237 BC
+	holder = 0
+}

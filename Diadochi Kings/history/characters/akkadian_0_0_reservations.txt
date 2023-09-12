@@ -1,0 +1,4 @@
+# 480001-490000 for Akkadian characters
+	# 480001-481000 for the Sarru-edu dynasty
+	# 481001-482000 for the Chaldes dynasty
+	# 489001-490000 for Akkadian lowborns

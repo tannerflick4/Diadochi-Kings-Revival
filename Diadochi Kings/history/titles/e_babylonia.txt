@@ -1,0 +1,21 @@
+150.1.1 = {
+	holder = 481012 # Nabopolassar
+}
+171.1.1 = {
+	holder = 481013 # Nebuchadnezzar II
+}
+214.1.1 = {
+	holder = 481027 # Amel-Marduk
+}
+216.1.1 = {
+	holder = 490003 # Neriglissar
+}
+220.1.1 = {
+	holder = 490004 # Labashi-Marduk
+}
+221.1.1 = {
+	holder = 481019 # Nabonidus
+}
+254.1.1 = {
+	holder = 0
+}

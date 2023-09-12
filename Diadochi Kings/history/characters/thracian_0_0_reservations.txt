@@ -16,3 +16,4 @@
 	# 41401-41500 for the Nipsaei dynasty
 	# 41501-41600 for the Odomanti dynasty
 	# 41601-41700 for the Maedi dynasty
+	# 41901-42000 for the Lowborns

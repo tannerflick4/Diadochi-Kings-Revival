@@ -1,0 +1,948 @@
+# 481001-482000 for the Chaldes dynasty
+481001 = {
+	name = "Marduk-Aplu-Iddina" # Merodach-Baladan
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	35.1.1 = {
+		birth="yes" # 744 BC Made Up
+	}
+	82.1.1 = {
+		death="yes" # 694 BC
+	}
+}
+481002 = {
+	name = "Marduk-Aplu-Usur"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481001 # Merodach-Baladan
+	
+	63.1.1 = {
+		birth="yes" # 713 BC Made Up
+	}
+	125.1.1 = {
+		death="yes" # 651 BC Made Up
+	}
+}
+481003 = {
+	name = "Tabi-Anu"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	female = yes
+	
+	father = 481001 # Merodach-Baladan
+	
+	80.1.1 = {
+		birth="yes" # 696 BC Made Up
+	}
+	94.1.1 = {
+		add_spouse = 481006 # Ilu-Bani
+	}
+	122.1.1 = {
+		death="yes" # 654 BC Made Up
+	}
+}
+481004 = {
+	name = "Tashmetum-Sharratu"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	female = yes
+	
+	father = 481001 # Merodach-Baladan
+	
+	65.1.1 = {
+		birth="yes" # 711 BC
+	}
+	78.1.1 = {
+		add_spouse = 480009 # Sennacherib
+	}
+	109.1.1 = {
+		death="yes" # 667 BC Made Up
+	}
+}
+481005 = {
+	name = "Bel-Ibni" # Bel-Ibni I
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481001 # Merodach-Baladan
+	
+	54.1.1 = {
+		birth="yes" # 722 BC Made Up
+	}
+	115.1.1 = {
+		death="yes" # 661 BC Made Up
+	}
+}
+481006 = {
+	name = "Ilu-Bani"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481005 # Bel-Ibni I
+	
+	70.1.1 = {
+		birth="yes" # 706 BC Made Up
+	}
+	94.1.1 = {
+		add_spouse = 481003 # Tabi-Anu
+	}
+	118.1.1 = {
+		death="yes" # 658 BC Made Up
+	}
+}
+481007 = {
+	name = "Nabu-Kudurri-Usur" # Nebuchadnezzar I
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481006 # Ilu-Bani
+	mother = 481003 # Tabi-Anu
+	
+	86.1.1 = {
+		birth="yes" # 690 BC Made Up
+	}
+	141.1.1 = {
+		death="yes" # 635 BC Made Up
+	}
+}
+481008 = {
+	name = "Bel-Ibni" # Bel-Ibni II
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481007 # Nebuchadnezzar I
+	
+	102.1.1 = {
+		birth="yes" # 674 BC Made Up
+	}
+	155.1.1 = {
+		death="yes" # 621 BC Made Up
+	}
+}
+481009 = {
+	name =  "Bel-Uballit"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481008 # Bel-Ibni II
+	
+	138.1.1 = {
+		birth="yes" # 638 BC Made Up
+	}
+	233.1.1 = {
+		death="yes" # 543 BC Made Up
+	}
+}
+481010 = {
+	name =  "Nabu-Ushabshi"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481008 # Bel-Ibni II
+	
+	146.1.1 = {
+		birth="yes" # 630 BC Made Up
+	}
+	231.1.1 = {
+		death="yes" # 545 BC Made Up
+	}
+}
+481011 = {
+	name =  "Nabu-Sumu-Ukin"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481008 # Bel-Ibni II
+	
+	129.1.1 = {
+		birth="yes" # 647 BC Made Up
+	}
+	169.1.1 = {
+		death="yes" # 607 BC Made Up
+	}
+}
+481012 = {
+	name = "Nabu-Aplu-Usur" # Nabopolassar
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481008 # Bel-Ibni II
+	
+	118.1.1 = {
+		birth="yes" # 658 BC
+	}
+	134.1.1 = {
+		add_spouse = 489004 # Shamash-iddina
+	}
+	142.1.1 = {
+		add_spouse = 480038 # Shamash-Damqu
+	}
+	171.1.1 = {
+		death="yes" # 605 BC
+	}
+}
+481013 = {
+	name = "Nabu-Kudurri-Usur" # Nebuchadnezzar II
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481012 # Nabopolassar
+	mother = 489004 # Shamash-iddina
+	
+	134.1.1 = {
+		birth="yes" # 642 BC
+		create_bloodline = {
+			type = bloodline_nebuchadnezzar
+			has_dlc = "Holy Fury"
+		}
+	}
+	150.1.1 = {
+		add_spouse = 350040 # Nitiqret
+	}
+	152.1.1 = {
+		add_spouse = 480041 # Sheru-etirat
+	}
+	214.1.1 = {
+		death="yes" # 562 BC
+	}
+}
+481014 = {
+	name = "Nabu-Shum-Lishir"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481012 # Nabopolassar
+	mother = 480038 # Shamash-Damqu
+	
+	135.1.1 = {
+		birth="yes" # 641 BC Made Up
+	}
+	171.1.1 = {
+		death="yes" # 605 BC
+	}
+}
+481015 = {
+	name = "Nabu-Zer-Ushabshi"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481012 # Nabopolassar
+	mother = 480038 # Shamash-Damqu
+	
+	136.1.1 = {
+		birth="yes" # 640 BC Made Up
+	}
+	152.1.1 = {
+		add_spouse = 480039 # Shamash-Damqu
+	}
+	225.1.1 = {
+		death="yes" # 551 BC  Made Up
+	}
+}
+481016 = {
+	name = "Gaubaruv" # Gobryas I
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481014 # Nabu-shum-lishir
+	
+	171.1.1 = {
+		birth="yes" # 605 BC Made Up
+	}
+	197.1.1 = {
+		add_spouse = 481020 # Ninshar
+	}
+	251.1.1 = {
+		death="yes" # 525 BC Made Up
+	}
+}
+481017 = {
+	name = "Nabu-Balatsu-Iqbi"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481015 # Nabu-zer-ushabshi
+	mother = 480039 # Shamash-Damqu
+	
+	150.1.1 = {
+		birth="yes" # 626 BC Made Up
+	}
+	164.1.1 = {
+		add_spouse = 480040 # Adad-Guppi
+	}
+	220.1.1 = {
+		death="yes" # 556 BC Made Up
+	}
+}
+481018 = {
+	name = "Nabu-Balatsu-Iqbi"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481015 # Nabu-Zer-Ushabshi
+	mother = 480039 # Shamash-Damqu
+	
+	150.1.1 = {
+		birth="yes" # 626 BC Made Up
+	}
+	164.1.1 = {
+		add_spouse = 480040 # Adad-Guppi
+	}
+	220.1.1 = {
+		death="yes" # 556 BC Made Up
+	}
+}
+481019 = {
+	name = "Nabu-Na'id" # Nabonidus
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481018 # Nabu-Balatsu-Iqbi
+	mother = 480040 # Adad-Guppi
+	
+	166.1.1 = {
+		birth="yes" # 610 BC
+	}
+	185.1.1 = {
+		add_spouse = 481036 # Nitocris
+	}
+	254.1.1 = {
+		death="yes" # 522 BC Made Up
+	}
+}
+481020 = {
+	name = "Ninshar"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	female = yes
+	
+	father = 481018 # Nabu-Balatsu-Iqbi
+	mother = 480040 # Adad-Guppi
+	
+	183.1.1 = {
+		birth="yes" # 593 BC Made Up
+	}
+	197.1.1 = {
+		add_spouse = 481016 # Gobryas I
+	}
+	262.1.1 = {
+		death="yes" # 514 BC Made Up
+	}
+}
+481021 = {
+	name = "Rhodah"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	female = yes
+	
+	father = 481016 # Gobryas I
+	mother = 481020 # Adad-Ninshar
+	
+	208.1.1 = {
+		birth="yes" # 568 BC Made Up
+	}
+	222.1.1 = {
+		add_spouse = 90304 # Hystaspes
+	}
+	266.1.1 = {
+		death="yes" # 510 BC Made Up
+	}
+}
+481022 = {
+	name = "Mordonos"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481016 # Gobryas I
+	mother = 481020 # Adad-Ninshar
+	
+	198.1.1 = {
+		birth="yes" # 578 BC Made Up
+	}
+	230.1.1 = {
+		death="yes" # 546 BC Made Up
+	}
+}
+481023 = {
+	name = "Gaubaruv" # Gobryas II
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481022 # Mordonos
+	
+	217.1.1 = {
+		birth="yes" # 559 BC Made Up
+	}
+	244.1.1 = {
+		add_spouse = 90365 # Radusdukda
+	}
+	291.1.1 = {
+		death="yes" # 485 BC Made Up
+	}
+}
+481024 = {
+	name = "Vahyanama" # Tushnamatay
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	female = yes
+	
+	father = 481023 # Gobryas II
+	mother = 90365 # Radusdukda
+	
+	256.1.1 = {
+		birth="yes" # 520 BC Made Up
+	}
+	270.1.1 = {
+		add_spouse = 90305 # Darius the Great
+	}
+	306.1.1 = {
+		death="yes" # 470 BC Made Up
+	}
+}
+481025 = {
+	name = "Martiya"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481023 # Gobryas II
+	mother = 90365 # Radusdukda
+	
+	249.1.1 = {
+		birth="yes" # 527 BC Made Up
+	}
+	###add_spouse = Artazauštrī
+	302.1.1 = {
+		death="yes" # 474 BC Made Up
+	}
+}
+481026 = {
+	name = "Mordonos"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481023 # Gobryas II
+	mother = 90365 # Radusdukda
+	
+	250.1.1 = {
+		birth="yes" # 526 BC Made Up
+	}
+	342.1.1 = {
+		death="yes" # 434 BC Made Up
+	}
+}
+481027 = {
+	name = "Amel-Marduk"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481013 # Nebuchadnezzar II
+	mother = 350040 # Nitiqret
+	
+	172.1.1 = {
+		birth="yes" # 604 BC Made Up
+	}
+	216.1.1 = {
+		death="yes" # 560 BC
+	}
+}
+481028 = {
+	name = "Ba'u-asitu"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	female = yes
+	
+	father = 481013 # Nebuchadnezzar II
+	
+	193.1.1 = {
+		birth="yes" # 583 BC Made Up
+	}
+	248.1.1 = {
+		death="yes" # 528 BC Made Up
+	}
+}
+481029 = {
+	name = "Eanna-Sharra-Usur"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	female = yes
+	
+	father = 481013 # Nebuchadnezzar II
+	
+	214.1.1 = {
+		birth="yes" # 562 BC Made Up
+	}
+	237.1.1 = {
+		death="yes" # 539 BC Made Up
+	}
+}
+481030 = {
+	name = "Innin-Etirat"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	female = yes
+	
+	father = 481013 # Nebuchadnezzar II
+	
+	211.1.1 = {
+		birth="yes" # 565 BC Made Up
+	}
+	257.1.1 = {
+		death="yes" # 519 BC Made Up
+	}
+}
+481031 = {
+	name = "Kashshaya"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	female = yes
+	
+	father = 481013 # Nebuchadnezzar II
+	
+	192.1.1 = {
+		birth="yes" # 584 BC Made Up
+	}
+	204.1.1 = {
+		add_spouse = 490003 # Neriglissar
+	}
+	222.1.1 = {
+		death="yes" # 554 BC Made Up
+	}
+}
+481032 = {
+	name = "Marduk-Nadin-Ahi"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481013 # Nebuchadnezzar II
+	mother = 350040 # Nitiqret
+	
+	166.1.1 = {
+		birth="yes" # 610 BC Made Up
+	}
+	184.1.1 = {
+		death="yes" # 592 BC Made Up
+	}
+}
+481033 = {
+	name = "Marduk-Nadin-Shumi"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481013 # Nebuchadnezzar II
+	mother = 480041 # Sheru-etirat
+	
+	173.1.1 = {
+		birth="yes" # 603 BC Made Up
+	}
+	207.1.1 = {
+		death="yes" # 569 BC Made Up
+	}
+}
+481034 = {
+	name = "Marduk-Shum-Usur"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481013 # Nebuchadnezzar II
+	mother = 480041 # Sheru-etirat
+	
+	174.1.1 = {
+		birth="yes" # 602 BC Made Up
+	}
+	245.1.1 = {
+		death="yes" # 531 BC Made Up
+	}
+}
+481035 = {
+	name = "Mushezib-Marduk"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481013 # Nebuchadnezzar II
+	mother = 480041 # Sheru-etirat
+	
+	188.1.1 = {
+		birth="yes" # 588 BC Made Up
+	}
+	251.1.1 = {
+		death="yes" # 525 BC Made Up
+	}
+}
+481036 = {
+	name = "Nitu-ukurti"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	female = yes
+	
+	father = 481013 # Nebuchadnezzar II
+	mother = 350040 # Nitiqret
+	
+	171.1.1 = {
+		birth="yes" # 605 BC Made Up
+	}
+	185.1.1 = {
+		add_spouse = 481019 # Nabonidas
+	}
+	253.1.1 = {
+		death="yes" # 523 BC Made Up
+	}
+}
+481037 = {
+	name = "Amitus"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	female = yes
+	
+	father = 481027 # Amel-Marduk
+	
+	193.1.1 = {
+		birth="yes" # 583 BC Made Up
+	}
+	232.1.1 = {
+		death="yes" # 544 BC Made Up
+	}
+}
+481038 = {
+	name = "Indu"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481027 # Amel-Marduk
+	
+	210.1.1 = {
+		birth="yes" # 566 BC Made Up
+	}
+	255.1.1 = {
+		death="yes" # 521 BC Made Up
+	}
+}
+481039 = {
+	name = "Bel-Shar-Usur" # Belshazzar
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481019 # Nabonidas
+	mother = 481036 # Nitu-Ukurti
+	
+	203.1.1 = {
+		birth="yes" # 573 BC Made Up
+	}
+	250.1.1 = {
+		death="yes" # 526 BC Made Up
+	}
+}
+481040 = {
+	name = "Akkabu'unma"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	female = yes
+	
+	father = 481019 # Nabonidas
+	mother = 481036 # Nitu-Ukurti
+	
+	217.1.1 = {
+		birth="yes" # 605 BC Made Up
+	}
+	256.1.1 = {
+		death="yes" # 520 BC Made Up
+	}
+}
+481041 = {
+	name = "Ennigaldi-Nanna"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	female = yes
+	
+	father = 481013 # Nebuchadnezzar II
+	mother = 350040 # Nitiqret
+	
+	227.1.1 = {
+		birth="yes" # 605 BC Made Up
+	}
+	272.1.1 = {
+		death="yes" # 504 BC Made Up
+	}
+}
+481042 = {
+	name = "Ina-Esagila-Remat"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	female = yes
+	
+	father = 481013 # Nebuchadnezzar II
+	mother = 350040 # Nitiqret
+	
+	233.1.1 = {
+		birth="yes" # 605 BC Made Up
+	}
+	297.1.1 = {
+		death="yes" # 479 BC Made Up
+	}
+}
+481043 = {
+	name = "Vashti"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	female = yes
+	
+	father = 481039 # Belshazzar
+	
+	250.1.1 = {
+		birth="yes" # 526 BC Made Up
+	}
+	272.1.1 = {
+		add_spouse = 90306 # Xerxes the Great
+	}
+	279.1.1 = {
+		death="yes" # 497 BC Made Up
+	}
+}
+481044 = {
+	name = "Nabu-Kudurri-Usur" # Nebuchadnezzar III
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481039 # Belshazzar
+	
+	221.1.1 = {
+		birth="yes" # 555 BC Made Up
+	}
+	236.1.1 = {
+		add_spouse = 490005 # Gigitum
+	}
+	256.1.1 = {
+		death="yes" # 520 BC
+	}
+}
+481045 = {
+	name = "Nabu-Kudurri-Usur" # Nebuchadnezzar IV
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481044 # Nebuchadnezzar III
+	mother = 489005 # Gigitum
+	
+	236.1.1 = {
+		birth="yes" # 540 BC Made Up
+	}
+	258.1.1 = {
+		death="yes" # 518 BC
+	}
+}
+481046 = {
+	name = "Andia"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	female = yes
+	
+	father = 481044 # Nebuchadnezzar III
+	mother = 489005 # Gigitum
+	
+	255.1.1 = {
+		birth="yes" # 521 BC Made Up
+	}
+	284.1.1 = {
+		add_spouse = 90307 # Artaxerxes I
+	}
+	319.1.1 = {
+		death="yes" # 457 BC
+	}
+}
+481047 = {
+	name = "Nebu-Zer-Marduk"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481035 # Mushezib-Marduk
+	
+	203.1.1 = {
+		birth="yes" # 573 BC Made Up
+	}
+	283.1.1 = {
+		death="yes" # 493 BC Made Up
+	}
+}
+481048 = {
+	name = "Marduk-Apal-Nebu"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481047 # Nebu-Zer-Marduk
+	
+	275.1.1 = {
+		birth="yes" # 501 BC Made Up
+	}
+	347.1.1 = {
+		death="yes" # 429 BC Made Up
+	}
+}
+481049 = {
+	name = "Nebu-Nadin-Shamash"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481048 # Marduk-Apal-Nebu
+	
+	332.1.1 = {
+		birth="yes" # 444 BC Made Up
+	}
+	357.1.1 = {
+		death="yes" # 419 BC Made Up
+	}
+}
+481050 = {
+	name = "Zer-Bel-Nasir"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481049 # Nebu-Nadin-Shamash
+	
+	354.1.1 = {
+		birth="yes" # 422 BC Made Up
+	}
+	419.1.1 = {
+		death="yes" # 357 BC Made Up
+	}
+}
+481051 = {
+	name = "Nezer-El-Marduk"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481050 # Zer-Bel-Nasir
+	
+	379.1.1 = {
+		birth="yes" # 392 BC Made Up
+	}
+	452.1.1 = {
+		death="yes" # 324 BC Made Up
+	}
+}
+481052 = {
+	name = "Shamash-Balatu-Nebu"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481051 # Nezer-El-Marduk
+	
+	403.1.1 = {
+		birth="yes" # 373 BC Made Up
+	}
+	465.1.1 = {
+		death="yes" # 311 BC Made Up
+	}
+}
+481053 = {
+	name = "Marduk-Zerush-Nasir"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481052 # Shamash-Balatu-Nebu
+	
+	425.1.1 = {
+		birth="yes" # 351 BC Made Up
+	}
+	466.1.1 = {
+		death="yes" # 310 BC Made Up
+	}
+}
+481054 = {
+	name = "Bel-Tab-Apli"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481053 # Marduk-Zerush-Nasir
+	
+	441.1.1 = {
+		birth="yes" # 335 BC Made Up
+	}
+	469.1.1 = {
+		death="yes" # 307 BC Made Up
+	}
+}
+481055 = {
+	name = "Nebu-Mutu-Zer"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481054 # Bel-Tab-Apli
+	
+	463.1.1 = {
+		birth="yes" # 314 BC Made Up
+	}
+	540.1.1 = {
+		death="yes" # 236 BC Made Up
+	}
+}
+481056 = {
+	name = "Nezer-Shamash-Bel"
+	dynasty = 53002
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 481055 # Nebu-Mutu-Zer
+	
+	480.1.1 = {
+		birth="yes" # 296 BC Made Up
+	}
+	526.1.1 = {
+		death="yes" # 250 BC Made Up
+	}
+}

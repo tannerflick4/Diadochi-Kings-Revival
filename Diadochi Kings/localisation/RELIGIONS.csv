@@ -119,6 +119,7 @@ GOD_NINURTA;Ninurta;;;;;;;;;;;;;x
 GOD_ZABABA;Zababa;;;;;;;;;;;;;x
 mesopotamian_religion;Mesopotamian;;;;;;;;;;;;;x
 marduk_cult;Mesopotamian;;;;;;;;;;;;;x
+ENUMA_ELISH;Enuma Elish;;;;;;;;;;;;;x
 GOD_HUBAL;Hubal;;;;;;;;;;;;;x
 GOD_AL_LAT;Al-Lat;;;;;;;;;;;;;x
 GOD_AL_UZZA;Al-Uzza;;;;;;;;;;;;;x
@@ -246,6 +247,6 @@ GOD_SERAPIS;Serapis;;;;;;;;;;;;;x
 GOD_ALEXANDROS;Alexandros;;;;;;;;;;;;;x
 GOD_HARPOCRATES;Harpocrates;;;;;;;;;;;;;x
 GOD_HERMANUBIS;Hermanubis;;;;;;;;;;;;;x
-ENAREI;Enarei;Enarée;;;Enarei;;;;;;;x
-temple_baron_scythian_main;Enarei;Enarée;;;Enarei;;;;;;;x
-job_spiritual_scythian_main;Grand Enarei;Grand Enarée;;;Gran Enarei;;;;;;;x
+ENAREI;Enarei;EnarÃ©e;;;Enarei;;;;;;;x
+temple_baron_scythian_main;Enarei;EnarÃ©e;;;Enarei;;;;;;;x
+job_spiritual_scythian_main;Grand Enarei;Grand EnarÃ©e;;;Gran Enarei;;;;;;;x

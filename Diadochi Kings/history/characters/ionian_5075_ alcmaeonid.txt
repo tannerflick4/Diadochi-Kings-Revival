@@ -7,10 +7,6 @@
 
 	8.1.1 = { # 768 BC
 		birth="yes"
-		create_bloodline = {
-			type = bloodline_alcmaeonidae 
-			has_dlc = "Holy Fury"
-		}
 	}
 	86.1.1 = { # 690 BC
 		death="yes"
@@ -21,7 +17,7 @@
 	dynasty = 5075
 	religion = greek_main
 	culture = ionian
-	father = 56901
+	father = 56901 # Alcmaeon
 
 	72.1.1 = { # 704 BC
 		birth="yes"
@@ -35,7 +31,7 @@
 	dynasty = 5075
 	religion = greek_main
 	culture = ionian
-	father = 56902
+	father = 56902 # Megakles
 
 	126.1.1 = { # 656 BC
 		birth="yes"
@@ -49,7 +45,7 @@
 	dynasty = 5075
 	religion = greek_main
 	culture = ionian
-	father = 56903
+	father = 56903 # Alcmaeon
 
 	183.1.1 = { # 593 BC
 		birth="yes"
@@ -63,7 +59,7 @@
 	dynasty = 5075
 	religion = greek_main
 	culture = ionian
-	father = 56904
+	father = 56904 # Megakles
 
 	206.1.1 = { # 570 BC
 		birth="yes"
@@ -77,7 +73,7 @@
 	dynasty = 5075
 	religion = greek_main
 	culture = ionian
-	father = 56904
+	father = 56904 # Megakles
 
 	246.1.1 = { # 530 BC
 		birth="yes"
@@ -91,7 +87,7 @@
 	dynasty = 5075
 	religion = greek_main
 	culture = ionian
-	father = 56906
+	father = 56906 # Hippokrates
 
 	262.1.1 = { # 514 BC
 		birth="yes"
@@ -106,7 +102,7 @@
 	female = yes
 	religion = greek_main
 	culture = ionian
-	father = 56906
+	father = 56906 # Hippokrates
 
 	263.1.1 = { # 515 BC
 		birth="yes"
@@ -120,7 +116,7 @@
 	dynasty = 5075
 	religion = greek_main
 	culture = ionian
-	mother = 56908
+	mother = 56908 # Agariste
 
 	279.1.1 = { # 497 BC
 		birth="yes"
@@ -134,7 +130,7 @@
 	dynasty = 5075
 	religion = greek_main
 	culture = ionian
-	mother = 56908
+	mother = 56908 # Agariste
 
 	281.1.1 = { # 495 BC
 		birth="yes"
@@ -154,7 +150,7 @@
 	dynasty = 5075
 	religion = greek_main
 	culture = ionian
-	father = 56910
+	father = 56910 # Perikles
 
 	324.1.1 = { # 452 BC
 		birth="yes"
@@ -170,7 +166,7 @@
 	dynasty = 5075
 	religion = greek_main
 	culture = ionian
-	father = 56910
+	father = 56910 # Perikles
 
 	329.1.1 = { # 447 BC
 		birth="yes"
@@ -182,48 +178,48 @@
 	}
 }
 56913 = {
-	name = "Alcibiades"
+	name = "Thallo"
 	dynasty = 5075
 	religion = greek_main
 	culture = ionian
+	female = yes
 	
-	father = 56905
+	father = 56910 # Perikles
 
-	238.1.1 = { # 538 BC
+	304.1.1 = { # 472 BC
 		birth="yes"
 	}
-	295.1.1 = { # 481 BC
+	378.1.1 = { # 398 BC
 		death="yes"
 	}
 }
 56914 = {
-	name = "Axiochus"
+	name = "Eukleides"
 	dynasty = 5075
 	religion = greek_main
 	culture = ionian
-	father = 56913
+	
+	mother = 56913 # Thallo
 
-	263.1.1 = { # 513 BC
+	363.1.1 = { # 413 BC
 		birth="yes"
 	}
-	338.1.1 = { # 438 BC
+	430.1.1 = { # 346 BC
 		death="yes"
 	}
 }
 56915 = {
-	name = "Cleinias"
+	name = "Themistokles"
 	dynasty = 5075
 	religion = greek_main
 	culture = ionian
-	father = 56913
+	
+	father = 56914 # Eukleides
 
-	291.1.1 = { # 485 BC
+	420.1.1 = { # 356 BC
 		birth="yes"
 	}
-	310.1.1 = {
-		add_matrilineal_spouse = 56916
-	}
-	329.1.1 = { # 447 BC
+	466.1.1 = { # 310 BC
 		death="yes"
 	}
 }
@@ -233,22 +229,27 @@
 	female = yes
 	religion = greek_main
 	culture = ionian
-	father = 56907
+	
+	father = 56907 # Megakles
 
 	292.1.1 = { # 484 BC
 		birth="yes"
+	}
+	310.1.1 = {
+		add_matrilineal_spouse = 57913 # Kleinias
 	}
 	339.1.1 = { # 437 BC
 		death="yes"
 	}
 }
 56917 = {
-	name = "Alcibiades"
+	name = "Alkibiades" # The Great
 	dynasty = 5075
 	religion = greek_main
 	culture = ionian
-	father = 56915
-	mother = 56916
+	
+	father = 57913 # Kleinias
+	mother = 56916 # Deinomache
 
 	326.1.1 = { # 450 BC
 		birth="yes"
@@ -258,12 +259,13 @@
 	}
 }
 56918 = {
-	name = "Cleinias"
+	name = "Kleinias"
 	dynasty = 5075
 	religion = greek_main
 	culture = ionian
-	father = 56915
-	mother = 56916
+	
+	father = 57913 # Kleinias
+	mother = 56916 # Deinomache
 
 	328.1.1 = { # 448 BC
 		birth="yes"
@@ -277,12 +279,133 @@
 	dynasty = 5075
 	religion = greek_main
 	culture = ionian
-	father = 56907
+	
+	father = 56907 # Megakles
 
 	295.1.1 = { # 481 BC
 		birth="yes"
 	}
 	332.1.1 = { # 444 BC
+		death="yes"
+	}
+}
+56920 = {
+	name = "Kimon"
+	dynasty = 5075
+	religion = greek_main
+	culture = ionian
+	
+	father = 56915 # Themistokles
+
+	461.1.1 = { # 315 BC
+		birth="yes"
+	}
+	531.1.1 = { # 245 BC
+		death="yes"
+	}
+}
+56921 = {
+	name = "Philokrates"
+	dynasty = 5075
+	religion = greek_main
+	culture = ionian
+	
+	father = 56920 # Kimon
+
+	475.1.1 = { # 301 BC
+		birth="yes"
+	}
+	493.1.1 = { # 283 BC
+		death="yes"
+	}
+}
+56922 = {
+	name = "Lykourgos"
+	dynasty = 5075
+	religion = greek_main
+	culture = ionian
+	
+	father = 56920 # Kimon
+
+	476.1.1 = { # 300 BC
+		birth="yes"
+	}
+	548.1.1 = { # 228 BC
+		death="yes"
+	}
+}
+56923 = {
+	name = "Alkibiades" # The Younger
+	dynasty = 5075
+	religion = greek_main
+	culture = ionian
+	
+	father = 56917 # Alkibiades
+
+	356.1.1 = { # 420 BC
+		birth="yes"
+	}
+	425.1.1 = { # 351 BC
+		death="yes"
+	}
+}
+56924 = {
+	name = "Hipponicus"
+	dynasty = 5075
+	religion = greek_main
+	culture = ionian
+	
+	father = 56923 # Alkibiades
+
+	401.1.1 = { # 375 BC
+		birth="yes"
+	}
+	474.1.1 = { # 301 BC
+		death="yes"
+	}
+}
+56925 = {
+	name = "Ephialtes"
+	dynasty = 5075
+	religion = greek_main
+	culture = ionian
+	
+	father = 56924 # Hipponicus
+
+	420.1.1 = { # 356 BC
+		birth="yes"
+	}
+	455.1.1 = { # 321 BC
+		death="yes"
+	}
+}
+56926 = {
+	name = "Dionysios"
+	dynasty = 5075
+	religion = greek_main
+	culture = ionian
+	
+	father = 56925 # Ephialtes
+
+	455.1.1 = { # 321 BC
+		birth="yes"
+	}
+	529.1.1 = { # 247 BC
+		death="yes"
+	}
+}
+56927 = {
+	name = "Demosthenes"
+	dynasty = 5075
+	religion = greek_main
+	culture = ionian
+	
+	father = 56926 # Dionysios
+
+	469.1.1 = { # 307 BC
+		birth="yes"
+	}
+	539.1.1 = { # 237 BC
 		death="yes"
 	}
 }

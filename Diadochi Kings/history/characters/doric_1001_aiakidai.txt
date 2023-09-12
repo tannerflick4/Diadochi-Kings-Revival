@@ -216,15 +216,26 @@
 			has_dlc = "Holy Fury"
 		}
 	}
+	476.1.1 = {
+		add_spouse = 23 # Antigone
+	}
 	481.1.1 = { # 295 BC
 		add_spouse = 22702 # Lanassa
 		add_trait = dynastic_kinslayer ## Neoptolemus
 	}
+	484.1.1 = { # 292 BC
+		add_spouse = 140007 # Birkenna
+	}
 	485.1.1 = { # 291 BC
 		remove_spouse = 22702 # Lanassa married Demetrius
 	}
+	496.1.1 = { # 280 BC
+		add_spouse = 609 # Eurydike
+	}
 	504.1.1 = {
-		death="yes" # 272 BC
+		death = { 
+			death_reason = death_battle # died in battle against Antigonus Gonatas
+		}
 	}
 }
 10011 = {
@@ -283,10 +294,6 @@
 	
 	336.1.1 = {
 		birth="yes" # 440 BC made up
-		create_bloodline = {
-			type = bloodline_aeacidae 
-			has_dlc = "Holy Fury"
-		}
 	}
 	384.1.1 = {
 		death ="yes" # 392 BC made up
@@ -374,9 +381,9 @@
 	459.1.1 = {
 		birth="yes" # 317 BC
 	}
-	#473.1.1 = { # 303 BC
-	#	add_spouse = macedonian00102 # Demetrios
-	#}
+	473.1.1 = { # 303 BC
+		add_spouse = 402 # Demetrius Poliorcetes
+	}
 	476.1.1 = {
 		trait = ill
 		death = { 
@@ -461,5 +468,132 @@
 		death = { 
 			death_reason = death_rabble # murdered by resentful Epirotes
 		}
+	}
+}
+10023 = {
+	name = "Alexandros" # fictional
+	dynasty = 1001 # Aiakidai
+	religion = greek_main
+	culture = doric
+	father = 10009 # Neoptolemos II
+	478.1.1 = { # made up
+		birth = yes # 298 BC
+	}
+	535.1.1 = { # made up
+		death = yes # 241 BC
+	}
+}
+10024 = {
+	name = "Neoptolemos" # mentioned in a 2nd century BC funerary epigram from Pydna
+	dynasty = 1001 # Aiakidai
+	religion = greek_main
+	culture = doric
+	father = 10023 # Alexandros
+	504.1.1 = { # made up
+		birth = yes # 272 BC
+	}
+	551.1.1 = { # made up
+		death = yes # 225 BC
+	}
+}
+10025 = {
+	name = "Helenos" # possibly mentioned in a 2nd century BC funerary epigram from Pydna
+	dynasty = 1001 # Aiakidai
+	religion = greek_main
+	culture = doric
+	father = 10024 # Neoptolemos
+	539.1.1 = { # made up
+		birth = yes # 237 BC
+	}
+	606.1.1 = { # made up
+		death = yes # 170 BC
+	}
+}
+10026 = {
+	name = "Ptolemaios"
+	dynasty = 1001 # Aiakidai
+	religion = greek_main
+	culture = doric
+	
+	diplomacy = 7
+	martial = 8
+	stewardship = 6
+	intrigue = 2
+	learning = 4
+	
+	add_trait = skilled_tactician
+	add_trait = organizer
+	add_trait = brave
+	add_trait = trusting
+	add_trait = diligent
+	
+	father = 10010 # Pyrrhos
+	mother = 23 # Antigone
+	
+	481.1.1 = {
+		birth = yes # 295 BC
+	}
+	504.7.1 = { # 272 BC
+		death = { 
+			death_reason = death_battle # slain by Oroissus of Aptera during a battle against the Spartan Eualcus
+		}
+	}
+}
+10027 = {
+	name = "Alexandros" # Alexander II
+	dynasty = 1001 # Aiakidai
+	religion = greek_main
+	culture = doric
+	
+	diplomacy = 5
+	martial = 7
+	stewardship = 4
+	intrigue = 8
+	learning = 3
+	
+	add_trait = tough_soldier
+	add_trait = organizer
+	add_trait = ambitious
+	add_trait = cynical
+	add_trait = kind
+	
+	father = 10010 # Pyrrhos
+	mother = 22702 # Lanassa
+	
+	483.1.1 = { # approximate
+		birth = yes # 293 BC
+	}
+	#505.1.1 = { # 271 BC, made up
+		###add_spouse =  # Olympias
+	#}
+	537.1.1 = {
+		death = yes # 239 BC, speculative
+	}
+}
+10028 = {
+	name = "Helenos"
+	dynasty = 1001 # Aiakidai
+	religion = greek_main
+	culture = doric
+	
+	diplomacy = 6
+	martial = 4
+	stewardship = 7
+	intrigue = 3
+	learning = 5
+	
+	add_trait = misguided_warrior
+	add_trait = wroth
+	add_trait = content
+	add_trait = just
+	
+	father = 10010 # Pyrrhos
+	mother = 140007 # Birkenna
+	
+	485.1.1 = {
+		birth = yes # 291 BC
+	}
+	512.1.1 = { # made up
+		death = yes # 264 BC
 	}
 }
