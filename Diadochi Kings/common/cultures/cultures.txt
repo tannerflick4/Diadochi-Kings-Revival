@@ -190,7 +190,7 @@ celtic = {
 		dynasty_title_names = yes
 	}
 	gallaecian = {
-		graphical_cultures = { newiberiangfx frankishgfx }
+		graphical_cultures = { newiberiangfx celticgfx }
   
 		color = { 0.5 0.9 0.5 }
   

@@ -51,23 +51,23 @@ character_event = {
 	immediate = {
 		event_target:rank_up_target = { letter_event = { id = MNM.10001 } }
 
-		FROM = {
-			if = {
-				limit = {
-					society_rank == 2
-					is_christian_monastic_member_trigger = yes
-				}
+		# FROM = {
+			# if = {
+				# limit = {
+					# society_rank == 2
+					# is_christian_monastic_member_trigger = yes
+				# }
 				
-				random = {
-					chance = 20
-					modifier = {
-						ai = no
-						factor = 5
-					}
-					letter_event = { id = MNM.4431 days = 30 random = 15 } #Gives saint's fingerbone
-				}
-			}
-		}
+				# random = {
+					# chance = 20
+					# modifier = {
+						# ai = no
+						# factor = 5
+					# }
+					# letter_event = { id = MNM.4431 days = 30 random = 15 } #Gives saint's fingerbone
+				# }
+			# }
+		# }
 	}
 }
 

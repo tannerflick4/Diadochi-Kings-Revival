@@ -31,31 +31,31 @@ laws = {
 			factor = 0.1
 		modifier = {
 			factor = 0
-			trait = greedy
+			holder_scope = { trait = greedy }
 		}
 		modifier = {
 			factor = 0
-			trait = envious
+			holder_scope = { trait = envious }
 		}
 		modifier = {
 			factor = 0
-			trait = proud
+			holder_scope = { trait = proud}
 		}
 		modifier = {
 			factor = 0
-			trait = ambitious
+			holder_scope = { trait = ambitious }
 		}
 		modifier = {
 			factor = 3
-			trait = content
+			holder_scope = { trait = content }
 		}	
 		modifier = {
 			factor = 3
-			trait = humble
+			holder_scope = { trait = humble }
 		}	
 		modifier = {
 			factor = 3
-			trait = just
+			holder_scope = { trait = just }
 		}			
 		modifier = {
 			factor = 1
@@ -85,27 +85,27 @@ laws = {
 			factor = 0.1
 		modifier = {
 			factor = 3
-			trait = greedy
+			holder_scope = { trait = greedy }
 		}
 		modifier = {
 			factor = 3
-			trait = envious
+			holder_scope = { trait = envious }
 		}
 		modifier = {
 			factor = 3
-			trait = proud
+			holder_scope = { trait = proud}
 		}
 		modifier = {
 			factor = 3
-			trait = ambitious
+			holder_scope = { trait = ambitious }
 		}
 		modifier = {
 			factor = 0
-			trait = content
+			holder_scope = { trait = content }
 		}
 		modifier = {
 			factor = 0
-			trait = humble
+			holder_scope = { trait = humble }
 		}
 		modifier = {
 			factor = 0.05
@@ -136,27 +136,27 @@ laws = {
 			factor = 0.1
 		modifier = {
 			factor = 3
-			trait = greedy
+			holder_scope = { trait = greedy }
 		}
 		modifier = {
 			factor = 3
-			trait = envious
+			holder_scope = { trait = envious }
 		}
 		modifier = {
 			factor = 3
-			trait = proud
+			holder_scope = { trait = proud}
 		}
 		modifier = {
 			factor = 3
-			trait = ambitious
+			holder_scope = { trait = ambitious }
 		}
 		modifier = {
 			factor = 0
-			trait = content
+			holder_scope = { trait = content }
 		}
 		modifier = {
 			factor = 0
-			trait = humble
+			holder_scope = { trait = humble }
 		}
 		modifier = {
 			factor = 1

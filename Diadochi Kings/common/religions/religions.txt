@@ -847,11 +847,23 @@ indo_iranian_religion = {
 		crusade_name = GREAT_HOLY_WAR
 		scripture_name = THE_LEGENDS
 		priest_title = ENAREI
-
 		high_god_name = GOD_TABITI
 		god_names = {
-			GOD_TABITI GOD_PAPAIOS GOD_API GOD_OITOSYROS GOD_ARGIMPASA GOD_THAGIMASIDAS GOD_ARES
+			GOD_AGIN GOD_TABITI GOD_PAPAIOS GOD_API GOD_OITOSYROS GOD_ARGIMPASA GOD_THAGIMASIDAS GOD_AHURA_MAZDA
 		}
+		evil_god_names = {
+			THE_DARK_SPIRITS 
+		}
+		
+		unit_modifier = {
+			levy_size = 0.3
+			
+			light_cavalry_offensive = 0.3
+			light_cavalry_defensive = 0.3
+			
+			key = "tengri_pagan"
+		}
+		
 		can_grant_divorce = yes
 		can_call_crusade = no
 		priests_can_marry = no

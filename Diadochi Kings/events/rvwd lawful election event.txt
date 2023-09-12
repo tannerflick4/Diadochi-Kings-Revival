@@ -54,12 +54,7 @@ narrative_event = {
 		trigger = {
 			government = merchant_republic_government
 		}
-		if = {
-			trigger = {
-			has_character_modifier = tribal_mayor
-			}
-			remove_character_modifier = tribal_mayor
-		}
+		remove_character_modifier = tribal_mayor
 		if = {
 			limit = {
 			NOT = { has_law = term_limit_6 }
