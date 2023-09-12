@@ -206,6 +206,10 @@
 	
 	134.1.1 = {
 		birth="yes" # 642 BC
+		create_bloodline = {
+			type = bloodline_nebuchadnezzar
+			has_dlc = "Holy Fury"
+		}
 	}
 	150.1.1 = {
 		add_spouse = 350040 # Nitiqret

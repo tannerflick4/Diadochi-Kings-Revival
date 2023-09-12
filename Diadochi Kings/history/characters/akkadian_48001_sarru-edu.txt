@@ -36,6 +36,10 @@
 	
 	1.1.1 = {
 		birth="yes" # 776 BC Made Up
+		create_bloodline = {
+			type = bloodline_pileser
+			has_dlc = "Holy Fury"
+		}
 	}
 	27.1.1 = {
 		add_spouse = 381003 # Yabaa
