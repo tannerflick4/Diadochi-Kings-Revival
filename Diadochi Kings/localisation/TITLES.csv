@@ -188,3 +188,38 @@ temple_county_hellenic;Naos;;;;;;;;;;;;;x
 temple_county_of_hellenic;Naos;;;;;;;;;;;;;x
 temple_barony_hellenic;Naos;;;;;;;;;;;;;x
 temple_barony_of_hellenic;Naos;;;;;;;;;;;;;x
+
+# Akkadian Special Rank Titles
+emperor_akkadian;Shar-Sharrani;;;;;;;;;;;;;x
+emperor_female_akkadian;Sharratu-Sharratani;;;;;;;;;;;;;x
+king_akkadian;Sharru;;;;;;;;;;;;;x
+king_female_akkadian;Sharratu;;;;;;;;;;;;;x
+duke_akkadian;Qadu-Rabbu;;;;;;;;;;;;;x
+duke_female_akkadian;Qaditu-Rabbatu;;;;;;;;;;;;;x
+count_akkadian;Temu-Rabbu;;;;;;;;;;;;;x
+count_female_akkadian;Temitu-Rabbatu;;;;;;;;;;;;;x
+baron_akkadian;Bitu-Shaknu;;;;;;;;;;;;;x
+baron_female_akkadian;Bititu-Shaknatu;;;;;;;;;;;;;x
+emperor_title_prince_akkadian;Mār-Sharri;;;;;;;;;;;;;x
+emperor_title_prince_female_akkadian;Mārtu-Sharri;;;;;;;;;;;;;x
+king_title_prince_akkadian;Mar-Sharri;;;;;;;;;;;;;x
+king_title_prince_female_akkadian;Maratu-Sharri;;;;;;;;;;;;;x
+
+# Jewish Special Rank Titles
+emperor_isrealite;Melekh HaMelakhim;;;;;;;;;;;;;x
+emperor_female_israelite;Malkah HaMelakhim;;;;;;;;;;;;;x
+king_israelite;Melekh;;;;;;;;;;;;;x
+king_female_israelite;Malkah;;;;;;;;;;;;;x
+duke_israelite;Nasi;;;;;;;;;;;;;x
+duke_female_israelite;Nasi'ah;;;;;;;;;;;;;x
+count_israelite;Sar;;;;;;;;;;;;;x
+count_female_israelite;Sar'ah;;;;;;;;;;;;;x
+baron_israelite;Eved;;;;;;;;;;;;;x
+baron_female_israelite;Amah;;;;;;;;;;;;;x
+emperor_title_prince_israelite;Ben-HaMelekh;;;;;;;;;;;;;x
+emperor_title_prince_female_israelite;Bat-HaMelekh;;;;;;;;;;;;;x
+king_title_prince_israelite;Ben-Melekh;;;;;;;;;;;;;x
+king_title_prince_female_israelite;Bat-Melekh;;;;;;;;;;;;;x
+
+create_assyria;Reform the Assyrian Empire;;;;;;;;;;;;;x
+create_babylonia;Reform the Babylonian Empire;;;;;;;;;;;;;x

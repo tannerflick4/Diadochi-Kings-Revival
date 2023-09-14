@@ -328,16 +328,17 @@ levantine_group = {
 		color = { 0 0.2 0.9 }
 
 		male_names = {
-			Adad-Nerari Adad-Salulu Adasi Ahur-Apla-Idi Ashur-Bel-Kala Ashur-Bel-Nisheshu Ashur-Dan Ashur-Dugul 
-			Ashur-Etel-Ilani Ashur-Nadin-Ahhe Ashur-Nirari Ashur-Rabi Ashur-Resh-Ishi Ashur-Rim-Nisheshu Ashur-Shaduni Ashur-Uballit 
-			Ashurbanipal Asinum Assur-Ah-Iddin Bazaya Bel-Bani Bel-Nerari Enlil-Nasir Erishum 
-			Igurkapkapu Ilkunum Ilushumma Ipqi-Ishtar Iptar-Sin Ishme-Dagan Libaya Lullaya 
-			Marduk-Nadin-Akhe Mut-Ashkur Naram-Suen Nasir-Sin Nur-Ili Pudi-Ilu Puzur-Ashur Rimush 
-			Shalmaneser Shamash-Shum-Ukin Shamshi-Adad Sharma-Adad Sharrukin Shu-Ninua Sin-Ah-Eriba Sin-Namir 
-			Tukulti-Apal-Esharra Tukulti-Ninib Tukulti-Ninurta       
+			Adad-Nerari Adad-Salulu Adasi Ahur-Apla-Idi Arda-Mulissu Ashur-Aha-Iddina Ashur-Bani-Apli Ashur-Ah-Iddin Ashur-Bel-Kala Ashur-Bel-Nisheshu
+			Ashur-Dan Ashur-Dain-Aplu Ashur-Dugul Ashur-Etel-Ilani Ashur-Etel-Shame-Erseti-Muballissu Ashur-Etel-Ilani Ashur-Malku Ashur-Ili-Muballissu Ashur-Mukin-Palea
+			Ashur-Nadin-Ahhe Ashur-Nadin-Apli Ashur-Nadin-Shumi Ashur-Nirari Ashur-Rabi Ashur-Resh-Ishi Ashur-Rim-Nisheshu 
+			Ashur-Sarrani-Muballissu Ashur-Shaduni  Ashur-Sharratu Ashur-Shumu-Ushabshi Ashur-Uballit Ashur-Taqisha-Liblut Asinum Bazaya Bel-Bani Bel-Nerari Enlil-Nasir Erishum 
+			Igurkapkapu Ilkunum Ilushumma Ipqi-Ishtar Iptar-Sin Ishme-Dagan Libaya Lullaya Marduk-Nadin-Akhe Mut-Ashkur 
+			Nabu-Sharru-Usur Naram-Suen Nasir-Sin Nergal-Shar-Usur Nergal-Shumu-Ibni Ninurta-Sharru-Usur Nur-Ili Pudi-Ilu Puzur-Ashur Rimush 
+			Shalmanu-Asaredu Shamash-Metu-Uballit Shamash-Shum-Ukin Shamshi-Adad Sharma-Adad Sharru-ken Shu-Ninua Sin-Ahhe-Eriba  Sin-Ahu-Usur Sin-Nadin-Apli Sin-Namir 
+			Sin-Peru-Ukin Sin-Sarru-Iskun Tukulti-Apal-Esharra Tukulti-Ninib Tukulti-Ninurta  
 		}
  		female_names = {
-			Naqiya-Zakutu Anat Asherah Ereshkigal Inanna Ishtar Lilith Nanaya Nina Tanith Tiamat
+			Ahata-Abi-Sheru Anat Asherah Ashur-Sharratu Ereshkigal Esharra-Hammat Inanna-Tallu Ishtar Lilith Nanaya Naqiya-Zakutu Nina Seru-Etiru Shadditu Tanith Tiamat
 		}
   
 		from_dynasty_prefix = "of "
@@ -1316,36 +1317,36 @@ hellenic = {
 		color = { 0.4 0.8 0.8 }
 
 		male_names = {
-			Achaios Adeimantos Agapetos Agathon Ainesidemos Aischines Aischylos Aisopos Akakios Akron Alexandros 
-			Alexis Alkaios Alkiphron Ambrosios Ampelios Amyntas 
-			Anaxagoras Anaxilas Anaximenes Androkles Andronikos Androtion Antiphon Aphrodisios Apollodoros Apollonios
-			Araros Archelaos Archimedes Archippos Argyros Aristarchos Aristeides Aristogeiton Aristokles 
-			Ariston Aristophanes Aristoteles Arkadios Arkesilas Arkesios Arsenios Artemidoros Asklepiades 
-			Atrtemisios Basileios Bion Chariton Chrysanthos Damasias Dareios 
+			Achaios Adeimantos Agapetos Agathokles Agathon Ainesidemos Aischines Aischylos Aisopos Akakios Akron Aleuas Alexandros 
+			Alexidamos Alexis Alkaios Alkiphron Ambrosios Ampelios Amyntas 
+			Anaxagoras Anaxilas Anaximenes Androkles Andronikos Androtion Antipater Antiochos Antiphon Aphrodisios Apollodoros Apollonios
+			Araros Archelaos Archimedes Archippos Argeadas Argyros Aristarchos Aristeides Aristogeiton Aristokles 
+			Ariston Aristophanes Aristippos Aristoteles Arkadios Arkesilas Arkesios Arsenios Artemidoros Asklepiades 
+			Atrtemisios Basileios Bion Chariton Chrysanthos Damasias Damostheneis Dareios 
 			Demetrios Demokritos Demosthenes Dexippos Diodoros Diodotos Diogenes Diokles Dionysodoros 
-			Drakon Eirenaios Ekphantos Epaminondas Epaphroditos Epikouros Epiktetos Epilykos Erasistratos Eratosthenes Euaristos Euboulos Eudoxos
-			Eukleides Euktemon Eumenes Euphemios Euphranor Euripides Eusebios Eustathios 
-			Eutychios Eutychos Galenos Gelon Glaukon Harmodios Heliodoros Herakleitos 
-			Hermias Hermogenes Hermokrates Hermolaos Herodes Herodotus Heron Hesiod 
-			Hiketas Hieron Hieronymos Hippalos Hipparchos Hippokrates Hippolytos Hipponax Homeros Hyakinthos Hypsikles 
+			Drakon Echekratidas Eirenaios Ekphantos Epaminondas Epaphroditos Epigonos Epikouros Epiktetos Epilykos Erasistratos Eratosthenes Euaristos Euboulos Eudikos Eudoxos
+			Eukleides Euktemon Eumenes Eunomos Euphemios Euphranor Euripides Eurylochos Eurypylos Eusebios Eustathios 
+			Eutychios Eutychos Galenos Gelon Glaukon Harmodios Heliodoros Hellanokrates Herakleitos 
+			Hermias Hermodoros Hermogenes Hermokrates Hermolaos Herodes Herodotus Heron Hesiod 
+			Hieron Hieronymos Hiketas Hippalos Hipparchos Hippokrates Hippolytos Hipponax Hippostratos Homeros Hyakinthos Hypsikles 
 			Hypatos Iason Ion Iphikrates Isagoras Isidoros Isokrates Kallias Kallikrates Kallisthenes Kallistos Karneades 
-			Kassandros Kephalos Kleisthenes Kleitos Kleon Konon Kylon Kyros Laomedon 
-			Leon Leukon Linos Loukianos Lykourgos Lysandros Lysimachos Mantitheos Megakles Menexenos Menon Metrodoros Miltiades 
-			Myron Neophytos Nikandros Nikanor Nikephoros Nikias Nikolaos Nikomachos Nikomedes Nikokreon 
-			Olympiodoros Ophellas Pankratios Pantaleon Parmenion Pausanias Periandros Perikles Pheidias Philandros Philokrates Phokion
-			Platon Ploutarchos Praxiteles Prodikos Sokrates Solon Sosigenes Stilpon 
-			Straton Themistokles Theodoros Theodosios Theodotos Theophanes Theron Thrasyboulos
+			Kassandros Kephalos Kleisthenes Kleitos Kleon Konon Kylon Kyros Laomedon Lattamyas
+			Leon Leukon Linos Loukianos Lykourgos Lysandros Lysimachos Mantitheos Medeios Megakles Menexenos Menon Metrodoros Miltiades 
+			Molouros Myron Neophytos Nikandros Nikanor Nikephoros Nikias Nikolaos Nikomachos Nikomedes Nikonidas Nikokreon 
+			Olympiodoros Ophellas Orestas Oxythemis Pankratios Pantaleon Parmenion Pausanias Periandros Perikles Pheidias Philandros Philippos Philokrates Phokion
+			Platon Ploutarchos Polykleitos Praxiteles Prodikos Ptolemaios Simos Sokrates Solon Sosigenes Stilpon 
+			Straton Themistokles Theodoros Theodosios Theodotos Theophanes Therodamas Theron Thorax Thoukydidas Thrasyboulos Thrasydaios Thrasyllos Thrasymachos
 			Tychon Xenon Xenophon Zephyros Zeuxidamas		
 		}
 		female_names = {
 			Adrasteia Agathe Aglaia Alexandra Alkippe Amastris Anthousa Antigone Aphrodisia 
 			Apollonia Aristomache Arsinoe Artemisia Aspasia Athanasia Athenais Berenike Charis 
-			Charmion Chloe Chrysanthe Demetria Demostrate Eirene Elpis Euanthe 
+			Charmion Chloe Chrysanthe Demetria Demostrate Echekrateia Eirene Elpis Euanthe 
 			Eudokia Eudoxia Eugeneia Eulalia Eumelia Eunike Euphemia Euphrasia 
 			Eupraxia Eurydike Euthalia Euthymia Eutropia Eutychia Gaiane Galene Hagne 
 			Helene Hypatia Isidora Kallisto Kallistrate Kassandra Korinna Laodike Ligeia 
 			Lysandra Lysistrate Melissa Metrodora Myrrine Nikaia Nike Olympias Pelagia 
-			Phila Phoibe Photine Ptolemais Rhode Roxane Sappho Sophia 
+			Phila Philinna Phoibe Photine Phthia Ptolemais Rhode Roxane Sappho Sophia 
 			Sostrate Stratonike Syntyche Thais Theodora Theodosia Theokleia Theophania Thessalonike
 			Timo Timothea Tryphaina Tryphosa Xanthe Xanthippe Xenia Xeno 
 			Zenais Zenobia Zoe Zosime				

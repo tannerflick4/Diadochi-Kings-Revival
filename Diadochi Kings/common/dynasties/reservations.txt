@@ -51,3 +51,5 @@
 # 50001-51000 for Dahae dynasties
 # 51001-52000 for Alan dynasties
 # 52001-53000 for Arian dynasties
+# 53001-54000 for Akkadian dynasties
+# 54001-55000 for Aramaic dynasties

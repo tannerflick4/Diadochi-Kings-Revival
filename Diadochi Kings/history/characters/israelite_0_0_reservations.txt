@@ -1,2 +1,3 @@
 # 380001-390000 for Israelite characters -- Split
-	# 380001-380100 for the Aaron dynasty
+	# 380001-381000 for the Line of Aaron
+	# 381001-382000 for the Line of David

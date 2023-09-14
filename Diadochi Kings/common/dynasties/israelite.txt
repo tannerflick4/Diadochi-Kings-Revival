@@ -1,5 +1,9 @@
 # 38001-39000 for Israelite dynasties
 38001 = {
-	name = "Aaron"
+	name = "Bayit Aaron"
+	culture = israelite
+}
+38002 = {
+	name = "Bayit David"
 	culture = israelite
 }

@@ -1,0 +1,9 @@
+# 53001-54000 for Akkadian dynasties
+53001 = {
+	name = "Sarru-edu"
+	culture = akkadian
+}
+53002 = {
+	name = "Chaldes"
+	culture = akkadian
+}

@@ -1,19 +1,27 @@
 # 1001-1100 for the Seleukidai dynasty
 1001 = {
-	name = "Seleukos"
+	name = "Seleukos" #  Seleucus I
 	dynasty = 11 # Seleukidai
 	religion = greek_main
 	culture = macedonian
-	#employer = 801 # Philip III
-	father = 1004 # Antiochos
+	###employer = 801 # Philip III
 	
-	add_trait = brilliant_strategist
+	father = 1004 # Antiochos
+	mother = 3703 # Laodike
+	
+	diplomacy = 8
+	martial = 8
+	stewardship = 7
+	intrigue = 4
+	learning = 6
+	
+	add_trait = brilliant_strategist # The babylonian war was a great manifestation of Seleucus' tactical prowess.
 	add_trait = charitable
 	add_trait = patient
-	add_trait = trusting
+	add_trait = trusting # He trusted the lightning bolt.
 	add_trait = ambitious
 	add_trait = diligent
-	add_trait = kind
+	add_trait = kind # Took in political refugees and was the only greek that kept his persian wife.
 	
 	418.1.1 = { # 358 BC
 		birth="yes"
@@ -40,20 +48,32 @@
 	495.8.1 = { # 281 BC
 		death = {
 			death_reason = death_murder
+			killer = 604 # Ptolemaios Keraunos
 		}
 	}
 }
 1002 = {
-	name = "Antiochos" # Antiochus, son of Seleucus
+	name = "Antiochos" # Antiochus I 'Soter'
 	dynasty = 11 # Seleukidai
 	religion = greek_main
 	culture = macedonian
+	
 	father = 1001
 	mother = 240001
 	
-	add_trait = charitable
+	diplomacy = 5
+	martial = 4
+	stewardship = 5
+	intrigue = 4
+	learning = 5
 	
-	453.1.1 = { # 323 BC Made up
+	add_trait = administrator # Spent a long time ruling the east during the reign of his father.
+	add_trait = gregarious # Was pretty decent diplomatically. Forged alliances with Cyrene and kept in contact with the Maurya.
+	add_trait = lustful # Historically dubious, but he did become lovesick with Stratonike and had many kids with her.
+	add_trait = charitable # Gave a lot of money and effort to revitalizing religious institutions in Mesopotamia.
+	add_trait = thrifty_clerk # Mainly seems to be concerned with consolidating Seleucus' empire, but was unable to prevent the loss of influence in Anatolia.
+	
+	452.1.1 = { # 324 BC Made up
 		birth="yes"
 	}
 	453.6.10 = {
@@ -87,15 +107,19 @@
 	dynasty = 11 # Seleukidai
 	religion = greek_main
 	culture = macedonian
+	
 	father = 1003
 	
-	add_trait = tough_soldier
+	add_trait = tough_soldier # Seems to have been a minor general under Philip II.
 	
 	393.1.1 = { # Made up
 		birth="yes" # 383 BC
 	}
-	433.1.1 = { # Made up
-		death="yes" # 343 BC
+	408.1.1 = { # 462 BC made up
+		add_spouse = 3703 # Laodike
+	}
+	438.1.1 = { #  Made up. It seems likely that he died before the conquest of Persia since we only hear about him in Philip II's time.
+		death="yes" # 338 BC
 	}
 }
 1005 = {
@@ -124,15 +148,16 @@
 	culture = macedonian
 	female = yes
 	father = 1004
+	mother = 3703 # Laodike
 	423.1.1 = { # Made up
 		birth="yes" # 353 BC
 	}
-	468.1.1 = { # Made up
-		death="yes" # 308 BC
+	469.1.1 = { # Made up
+		death="yes" # 307 BC
 	}
 }
 1007 = {
-	name = "Achaios" # Son of Seleucus I
+	name = "Achaios" # 'the Elder'
 	dynasty = 11 # Seleukidai
 	religion = greek_main
 	culture = macedonian
@@ -144,6 +169,9 @@
 		
 	463.1.1 = { # Made up
 		birth="yes" # 313 BC
+	}
+	479.1.1 = { # Made up
+		add_spouse = 1009 # Laodike
 	}
 	518.1.1 = { # Made up
 		death="yes" # 258 BC
@@ -157,11 +185,11 @@
 	father = 1001
 	mother = 240001
 	female = yes
-	459.1.1 = { # Made up
-		birth="yes" # 317 BC
+	454.1.1 = { # Made up
+		birth="yes" # 322 BC
 	}
-	499.1.1 = { # Made up
-		death="yes" # 277 BC
+	506.1.1 = { # Made up
+		death="yes" # 270 BC
 	}
 }
 1009 = {
@@ -172,8 +200,11 @@
 	father = 1001
 	mother = 240001
 	female = yes
-	460.1.1 = { # Made up
-		birth="yes" # 316 BC
+	457.1.1 = { # Made up
+		birth="yes" # 319 BC
+	}
+	479.1.1 = { # Made up
+		add_spouse = 1007 # Achaios
 	}
 	523.1.1 = { # Made up
 		death="yes" # 253 BC
@@ -190,6 +221,9 @@
 	480.1.1 = { # Made up
 		birth="yes" # 296 BC
 	}
+	498.1.1 = { # 276 BC, approximate
+		add_spouse = 408 # Antigonos Gonatas
+	}
 	541.1.1 = { # Made up
 		death="yes" # 235 BC 
 	}
@@ -204,11 +238,12 @@
 	
 	add_trait = diadochi_king
 	add_trait = deceitful
+	add_trait = administrator # Spent a some time ruling the east during the reign of his father.
 	
 	484.1.1 = { # Made up
 		birth="yes" # 292 BC
 	}
-	508.1.1 = { # 268 BC
+	509.1.1 = { # 267 BC
 		death = {
 			death_reason = death_execution
 			killer = 1002 # Antiochus I
@@ -216,7 +251,7 @@
 	}
 }
 1012 = {
-	name = "Antiochos" # Antiochus II
+	name = "Antiochos" # Antiochus II 'Theos'
 	dynasty = 11 # Seleukidai
 	religion = greek_main
 	culture = macedonian
@@ -227,10 +262,28 @@
 	add_trait = hedonist
 	add_trait = drunkard
 	add_trait = lustful	
+	add_trait = underhanded_rogue # Seems to have allied with Macedonia and Rhodes. His reign saw the start of the declining Seleucid authority in the east though.
+	add_trait = content # Doesn't seem to have been too interested in expansion.
+	add_trait = charitable # Continued funding temples.
 	
-	490.1.1 = {
-		birth="yes" # 286 BC
+	489.1.1 = {
+		birth="yes" # 287 BC
 	}
+	509.1.1 = { # 267 BC, approximate
+		add_spouse = 1024 # Laodike
+		effect = {
+			add_lover = 1024 # Antiochus seems to have had a deeper relationship with Laodike since he came back to her after divorcing her. He also gave her much land after the divorce.
+		}
+	}
+	#518.1.1 = { # 258 BC after killing Timarchus of Miletus.
+		###give_nickname = Theos
+	#}
+	523.1.1 = { # 253 BC, he divorces Laodike in order to marry Berenike (daughter of Ptolemy II).
+		remove_spouse = 1024 # Laodike
+	}
+	#524.6.1 = { # summer 252 BC
+		###add_spouse = macedonian03216 # Berenike
+	#}
 	530.1.1 = {
 		death="yes" # 246 BC
 	}
@@ -259,18 +312,24 @@
 	mother = 410 # Stratonike
 	female = yes
 	
-	add_trait = lustful
+	add_trait = lustful # Cheating on your daughter with her husband speaks for itself.
 	add_trait = deceitful
 	
-	486.1.1 = { # Made up
-		birth="yes" # 290 BC
+	488.1.1 = { # Made up
+		birth="yes" # 292 BC
 	}
+	501.1.1 = {
+		add_spouse = 22 # Magas of Cyrene
+	}
+	#528.1.1 = { # 248 BC
+		###add_lover = # begins an affair with her son-in-law Demetrius the Fair
+	#}
 	551.1.1 = { # Made up
 		death="yes" # 225 BC
 	}
 }
 1015 = {
-	name = "Stratonike" # Daughter of Antiochus I
+	name = "Stratonike" # Stratonike 'II' married to Demetrius II of Macedon
 	dynasty = 11 # Seleukidai
 	religion = greek_main
 	culture = macedonian
@@ -278,13 +337,258 @@
 	mother = 410 # Stratonike
 	female = yes
 	
-	add_trait = envious
+	add_trait = envious # She, according to some accounts, wanted to have her brother invade Macedonia
 	add_trait = deceitful
+	add_trait = ambitious # If we take the 'Rebellion' account seriously, she was quite ambitious!
+	add_trait = proud # She seems to have had a decent amount of self-esteem, if anything too much if you ask Demetrius.
 	
 	494.1.1 = { # Made up
 		birth="yes" # 282 BC
 	}
-	553.1.1 = { # Made up
+	523.1.1 = { # Marries Demetrius II in 253 BC
+		add_spouse = 421 # Demetrius II Aetolicus
+	}
+	537.1.1 = { # Divorces Demetrius II in 239 BC
+		remove_spouse = 421 # Demetrius II Aetolicus
+	}
+	553.1.1 = { # Made up # Stratonike may have raised a rebellion against Seleucus II at Antioch, but this is without much evidence. She seems to disappear from history after her divorce of Demetrius.
+		death="yes" # 223 BC
+	}
+}
+1016 = {
+	name = "Seleukos" # II Callinicus
+	dynasty = 11 # Seleukidai
+	religion = greek_main
+	culture = macedonian
+	father = 1012 # Antiochus II
+	mother = 1024 # Laodike
+	
+	511.1.1 = {
+		birth="yes" # 265 BC
+	}
+	529.1.1 = { # 247 BC, approximate
+		add_spouse = 1026 # Laodike
+	}
+	552.1.1 = {
+		death="yes" # 224 BC
+	}
+}
+1017 = {
+	name = "Apama"
+	dynasty = 11 # Seleukidai
+	religion = greek_main
+	culture = macedonian
+	female = yes
+	father = 1012 # Antiochus II
+	mother = 1024 # Laodike
+	
+	520.1.1 = { # made up
+		birth="yes" # 256 BC
+	}
+	572.1.1 = { # made up
+		death="yes" # 204 BC
+	}
+}
+1018 = {
+	name = "Laodike"
+	dynasty = 11 # Seleukidai
+	religion = greek_main
+	culture = macedonian
+	female = yes
+	father = 1012 # Antiochus II
+	mother = 1024 # Laodike
+	
+	523.1.1 = { # made up
+		birth="yes" # 253 BC
+	}
+	539.1.1 = {
+		add_spouse = 130004 # Mithridates II
+	}
+	598.1.1 = { # made up
+		death="yes" # 178 BC
+	}
+}
+1019 = {
+	name = "Stratonike"
+	dynasty = 11 # Seleukidai
+	religion = greek_main
+	culture = macedonian
+	female = yes
+	father = 1012 # Antiochus II
+	mother = 1024 # Laodike
+	
+	514.1.1 = { # made up
+		birth="yes" # 262 BC
+	}
+	560.1.1 = { # made up
+		death="yes" # 216 BC
+	}
+}
+1020 = {
+	name = "Antiochos" # Hierax
+	dynasty = 11 # Seleukidai
+	religion = greek_main
+	culture = macedonian
+	father = 1012 # Antiochus II
+	mother = 1024 # Laodike
+	
+	517.1.1 = {
+		birth="yes" # 259 BC
+	}
+	550.1.1 = {
+		death="yes" # 226 BC
+	}
+}
+1021 = {
+	name = "Antiochos"
+	dynasty = 11 # Seleukidai
+	religion = greek_main
+	culture = macedonian
+	father = 1012 # Antiochus II
+	###mother = Berenike
+	
+	531.1.1 = {
+		birth="yes" # 245 BC
+	}
+	533.1.1 = {
+		death="yes" # 247 BC
+	}
+}
+1022 = {
+	name = "Antiochis"
+	dynasty = 11 # Seleukidai
+	religion = greek_main
+	culture = macedonian
+	female = yes
+	father = 1007 # Achaios
+	mother = 1009 # Laodike
+	
+	509.1.1 = { # Made up
+		birth="yes" # 267 BC
+	}
+	#married Attalus
+	598.1.1 = { # Made up
+		death="yes" # 178 BC
+	}
+}
+1023 = {
+	name = "Alexandros"
+	dynasty = 11 # Seleukidai
+	religion = greek_main
+	culture = macedonian
+	father = 1007 # Achaios
+	mother = 1009 # Laodike
+	
+	484.1.1 = { # Made up
+		birth="yes" # 292 BC
+	}
+	562.1.1 = { # Made up
+		death="yes" # 214 BC
+	}
+}
+1024 = {
+	name = "Laodike" # I
+	dynasty = 11 # Seleukidai
+	religion = greek_main
+	culture = macedonian
+	female = yes
+	father = 1007 # Achaios
+	mother = 1009 # Laodike
+	
+	493.1.1 = { # Made up
+		birth="yes" # 283 BC
+	}
+	509.1.1 = { # 267 BC, approximate
+		add_spouse = 1012 # Antiochus II 'Theos'
+		effect = {
+			add_lover = 1012 # Antiochus II 'Theos'
+		}
+	}
+	535.1.1 = { # Made up
+		death="yes" # 241 BC
+	}
+}
+1025 = {
+	name = "Andromachus"
+	dynasty = 11 # Seleukidai
+	religion = greek_main
+	culture = macedonian
+	father = 1007 # Achaios
+	mother = 1009 # Laodike
+	
+	490.1.1 = { # Made up
+		birth="yes" # 286 BC
+	}
+	572.1.1 = { # Made up
+		death="yes" # 204 BC
+	}
+}
+1026 = {
+	name = "Laodike" # II
+	dynasty = 11 # Seleukidai
+	religion = greek_main
+	culture = macedonian
+	female = yes
+	father = 1007 # Achaios
+	mother = 1009 # Laodike
+	
+	513.1.1 = { # Made up
+		birth="yes" # 263 BC
+	}
+	529.1.1 = { # 247 BC, approximate
+		add_spouse = 1016 # Seleukos II Callinicus
+	}
+	580.1.1 = { # Made up
+		death="yes" # 196 BC
+	}
+}
+1027 = {
+	name = "Achaios"
+	dynasty = 11 # Seleukidai
+	religion = greek_main
+	culture = macedonian
+	father = 1025 # Andromachus
+	
+	520.1.1 = { # Made up
+		birth="yes" # 256 BC
+	}
+	556.1.1 = {
+		add_spouse = 130006 # Laodike Mithridates
+	}
+	563.1.1 = { # Made up
+		death="yes" # 213 BC
+	}
+}
+1028 = {
+	name = "Antiochos" # III the Great
+	dynasty = 11 # Seleukidai
+	religion = greek_main
+	culture = macedonian
+	father = 1016 # Seleukos II Callinicus
+	mother = 1026 # Laodike II
+	
+	535.1.1 = {
+		birth="yes" # 241 BC
+	}
+	554.1.1 = { # 222 BC, approximate
+		add_spouse = 130005 # Laodike Mithridates
+	}
+	589.1.1 = {
+		death="yes" # 197 BC
+	}
+}
+1029 = {
+	name = "Seleukos" # III Ceraunus
+	dynasty = 11 # Seleukidai
+	religion = greek_main
+	culture = macedonian
+	father = 1016 # Seleukos II Callinicus
+	mother = 1026 # Laodike II
+	
+	532.1.1 = {
+		birth="yes" # 243 BC
+	}
+	553.1.1 = {
 		death="yes" # 223 BC
 	}
 }

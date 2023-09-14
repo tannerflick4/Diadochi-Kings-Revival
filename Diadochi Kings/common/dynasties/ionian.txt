@@ -287,6 +287,10 @@
 	culture = ionian
 }
 5075 = {
-	name = "Alcmaeonidae"
+	name = "Alcmaeonidai"
+	culture = ionian
+}
+5076 = {
+	name = "Eupatridai"
 	culture = ionian
 }

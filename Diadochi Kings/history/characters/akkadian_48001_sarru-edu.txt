@@ -1,0 +1,869 @@
+# 480001-481000 for the Sarru-edu dynasty
+480001 = {
+	name = "Sharru-Ken" # Sargon II The Great
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	add_trait = quick
+	add_trait = architect
+	
+	father = 480002 # Tiglath-Pileser III
+	mother = 381003 # Yabaa
+	
+	27.1.1 = {
+		birth="yes" # 749 BC Made Up
+	}
+	41.1.1 = {
+		add_spouse = 381005 # Atalya
+	}
+	69.1.1 = {
+		add_spouse = 480007 # Atalia
+		add_spouse = 480008 # Naqi a-Zakutu
+	}
+	71.1.1 = {
+		death="yes" # 705 BC
+	}
+}
+480002 = {
+	name = "Tukulti-Apal-Esharra" # Tiglath-Pileser III
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	add_trait = cruel
+	add_trait = just
+	
+	1.1.1 = {
+		birth="yes" # 776 BC Made Up
+		create_bloodline = {
+			type = bloodline_pileser
+			has_dlc = "Holy Fury"
+		}
+	}
+	27.1.1 = {
+		add_spouse = 381003 # Yabaa
+	}
+	49.1.1 = {
+		death="yes" # 727 BC
+	}
+}
+480003 = {
+	name = "Assur-Sharratu" # Ashursharrat
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	female = yes
+	
+	father = 480002 # Tiglath-Pileser III
+	
+	46.1.1 = {
+		birth="yes" # 730 BC Made Up
+	}
+	124.1.1 = {
+		death="yes" # 652 BC Made Up
+	}
+}
+480004 = {
+	name = "Shalmanu-Asaredu" # Shalmaneser V
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480002 # Tiglath-Pileser III
+	
+	26.1.1 = {
+		birth="yes" # 750 BC Made Up
+	}
+	42.1.1 = {
+		add_spouse = 489001 # Banitu
+	}
+	54.1.1 = {
+		death="yes" # 722 BC
+	}
+}
+480005 = {
+	name = "Sin-Ahu-Usur"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480002 # Tiglath-Pileser III
+	
+	38.1.1 = {
+		birth="yes" # 738 BC Made Up
+	}
+	82.1.1 = {
+		death="yes" # 694  BC Made Up
+	}
+}
+480006 = {
+	name = "Ashur-Dain-Aplu"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480004 # Shalmaneser V
+	mother = 489001 # Banitu
+	
+	46.1.1 = {
+		birth="yes" # 730 BC Made Up
+	}
+	111.1.1 = {
+		death="yes" # 665 BC Made Up
+	}
+}
+480007 = {
+	name = "Inanna-Tallu" # Atalia
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	female = yes
+	
+	father = 480004 # Shalmaneser V
+	mother = 489001 # Banitu
+	
+	51.1.1 = {
+		birth="yes" # 725 BC Made Up
+	}
+	69.1.1 = {
+		add_spouse = 480001 # Sargon II The Great
+	}
+	101.1.1 = {
+		death="yes" # 675 BC Made Up
+	}
+}
+480008 = {
+	name = "Naqi'A-Zakutu"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	female = yes
+	
+	father = 480004 # Shalmaneser V
+	mother = 489001 # Banitu
+	
+	54.1.1 = {
+		birth="yes" # 722 BC Made Up
+	}
+	67.1.1 = {
+		add_spouse = 480009 # Sennacherib
+	}
+	126.1.1 = {
+		death="yes" # 650 BC Made Up
+	}
+}
+480009 = {
+	name = "Sin-Ahhe-Eriba" # Sennacherib
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	add_trait = cruel
+	
+	father = 480001 # Sargon II The Great
+	mother = 381005 # Atalya
+	
+	41.1.1 = {
+		birth="yes" # 735 BC Made Up
+	}
+	67.1.1 = {
+		add_spouse = 480008 # Naqi a-Zakutu
+	}
+	78.1.1 = {
+		add_spouse = 481004 # Tashmetum-Sharratu
+	}
+	95.1.1 = { # 681 BC
+		death = {
+			death_reason = death_murder
+        	killer = 480014 # Arda-mulissu
+        }
+	}
+}
+480010 = {
+	name = "Ahata-Abi-Sheru"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	female = yes
+	
+	father = 480001 # Sargon II The Great
+	mother = 381005 # Atalya
+	
+	59.1.1 = {
+		birth="yes" # 717 BC Made Up
+	}
+	151.1.1 = {
+		death="yes" # 625 BC Made Up
+	}
+}
+480011 = {
+	name = "Ashur-Nadin-Apli"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480001 # Sargon II The Great
+	mother = 480007 # Atalia
+	
+	70.1.1 = {
+		birth="yes" # 706 BC Made Up
+	}
+	121.1.1 = {
+		death="yes" # 655 BC
+	}
+}
+480012 = {
+	name = "Ashur-Aha-Iddina" # Esarhaddon
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	add_trait = quick
+	
+	father = 480009 # Sennacherib
+	mother = 480008 # Naqi a-Zakutu
+	
+	63.1.1 = {
+		birth="yes" # 713 BC Made Up
+	}
+	79.1.1 = {
+		add_spouse = 489003 # Esharra-Hammat
+	}
+	107.1.1 = {
+		death="yes" # 669 BC
+	}
+}
+480013 = {
+	name = "Ashur-Bani-Apli" # Ashurbanipal
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480012 # Esarhaddon
+	mother = 489003 # Esharra-Hammat
+	
+	91.1.1 = {
+		birth="yes" # 685 BC
+	}
+	107.1.1 {
+		add_spouse = 480033 # Ashursharrat
+	}
+	145.1.1 = {
+		death="yes" # 631 BC
+	}
+}
+480014 = {
+	name = "Arda-Mulissu"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480009 # Sennacherib
+	mother = 480008 # Naqi a-Zakutu
+	
+	67.1.1 = {
+		birth="yes" # 709 BC Made Up
+	}
+	110.1.1 = {
+		death="yes" # 666 BC Made Up
+	}
+}
+480015 = {
+	name = "Ashur-Ili-Muballissu"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480009 # Sennacherib
+	
+	66.1.1 = {
+		birth="yes" # 710 BC Made Up
+	}
+	84.1.1 = {
+		death="yes" # 692 BC Made Up
+	}
+}
+480016 = {
+	name = "Ashur-Shumu-Ushabshi"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480009 # Sennacherib
+	mother = 481004 # Tashmetum-Sharratu
+	
+	85.1.1 = {
+		birth="yes" # 691 BC Made Up
+	}
+	110.1.1 = {
+		death="yes" # 666 BC Made Up
+	}
+}
+480017 = {
+	name = "Ashur-Malku"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480009 # Sennacherib
+	mother = 480008 # Naqi a-Zakutu
+	
+	75.1.1 = {
+		birth="yes" # 701 BC Made Up
+	}
+	141.1.1 = {
+		death="yes" # 635 BC Made Up
+	}
+}
+480018 = {
+	name = "Nergal-Shar-Usur"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480009 # Sennacherib
+	mother = 480008 # Naqi a-Zakutu
+	
+	68.1.1 = {
+		birth="yes" # 708 BC Made Up
+	}
+	151.1.1 = {
+		death="yes" # 625 BC Made Up
+	}
+}
+480019 = {
+	name = "Ashur-Nadin-Shumi"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480009 # Sennacherib
+	
+	57.1.1 = {
+		birth="yes" # 719 BC Made Up
+	}
+	82.1.1 = {
+		death="yes" # 694 BC
+	}
+}
+480020 = {
+	name = "Nergal-Shumu-Ibni"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480009 # Sennacherib
+	mother = 480008 # Naqi a-Zakutu
+	
+	70.1.1 = {
+		birth="yes" # 706 BC Made Up
+	}
+	86.1.1 = {
+		death="yes" # 690 BC Made Up
+	}
+}
+480021 = {
+	name = "Shadditu"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	female = yes
+	
+	father = 480009 # Sennacherib
+	mother = 481004 # Tashmetum-Sharratu
+	
+	78.1.1 = {
+		birth="yes" # 698 BC Made Up
+	}
+	106.1.1 = {
+		death="yes" # 670 BC Made Up
+	}
+}
+480022 = {
+	name = "Nabu-Sharru-Usur"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480009 # Sennacherib
+	mother = 481004 # Tashmetum-Sharratu
+	
+	80.1.1 = {
+		birth="yes" # 696 BC Made Up
+	}
+	159.1.1 = {
+		death="yes" # 617 BC Made Up
+	}
+}
+480023 = {
+	name = "Ashur-Mukin-Palea"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480012 # Esarhaddon
+	mother = 489003 # Esharra-Hammat
+	
+	95.1.1 = {
+		birth="yes" # 681 BC Made Up
+	}
+	134.1.1 = {
+		death="yes" # 642 BC Made Up
+	}
+}
+480024 = {
+	name = "Ashur-Taqisha-Liblut"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480012 # Esarhaddon
+	mother = 489003 # Esharra-Hammat
+	
+	93.1.1 = {
+		birth="yes" # 683 BC Made Up
+	}
+	136.1.1 = {
+		death="yes" # 640 BC Made Up
+	}
+}
+480025 = {
+	name = "Ashur-Etel-Shame-Erseti-Muballissu"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480012 # Esarhaddon
+	mother = 489003 # Esharra-Hammat
+	
+	97.1.1 = {
+		birth="yes" # 679 BC Made Up
+	}
+	157.1.1 = {
+		death="yes" # 619 BC Made Up
+	}
+}
+480026 = {
+	name = "Seru-Etiru"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	female = yes
+	
+	father = 480012 # Esarhaddon
+	mother = 489003 # Esharra-Hammat
+	
+	79.1.1 = {
+		birth="yes" # 697 BC Made Up
+	}
+	169.1.1 = {
+		death="yes" # 607 BC Made Up
+	}
+}
+480027 = {
+	name = "Sin-Nadin-Apli"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480012 # Esarhaddon
+	mother = 489003 # Esharra-Hammat
+	
+	80.1.1 = {
+		birth="yes" # 696 BC Made Up
+	}
+	104.1.1 = {
+		death="yes" # 672 BC
+	}
+}
+480028 = {
+	name = "Esharra-Hammat"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	female = yes
+	
+	father = 480012 # Esarhaddon
+	mother = 489003 # Esharra-Hammat
+	
+	94.1.1 = {
+		birth="yes" # 682 BC Made Up
+	}
+	145.1.1 = {
+		death="yes" # 631 BC Made Up
+	}
+}
+480029 = {
+	name = "Shamash-Metu-Uballit"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480012 # Esarhaddon
+	mother = 489003 # Esharra-Hammat
+	
+	89.1.1 = {
+		birth="yes" # 687 BC Made Up
+	}
+	161.1.1 = {
+		death="yes" # 615 BC Made Up
+	}
+}
+480030 = {
+	name = "Shamash-Shum-Ukin"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480012 # Esarhaddon
+	mother = 489003 # Esharra-Hammat
+	
+	85.1.1 = {
+		birth="yes" # 691 BC Made Up
+	}
+	128.1.1 = {
+		death="yes" # 648 BC Made Up
+	}
+}
+480031 = {
+	name = "Sin-Peru-Ukin"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480012 # Esarhaddon
+	mother = 489003 # Esharra-Hammat
+	
+	88.1.1 = {
+		birth="yes" # 688 BC Made Up
+	}
+	156.1.1 = {
+		death="yes" # 620 BC Made Up
+	}
+}
+480032 = {
+	name = "Ashur-Sarrani-Muballissu"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480012 # Esarhaddon
+	mother = 489003 # Esharra-Hammat
+	
+	106.1.1 = {
+		birth="yes" # 670 BC Made Up
+	}
+	190.1.1 = {
+		death="yes" # 586 BC Made Up
+	}
+}
+480033 = {
+	name = "Ashur-Sharratu" # Ashursharrat
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	female = yes
+	
+	father = 480020 # Nergal-shumu-ibni
+	
+	86.1.1 = {
+		birth="yes" # 690 BC Made Up
+	}
+	107.1.1 {
+		add_spouse = 480013 # Ashurbanipal
+	}
+	150.1.1 = {
+		death="yes" # 626 BC Made Up
+	}
+}
+480034 = {
+	name = "Ashur-Etel-Ilani" # Ashuretillilani I
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480013 # Ashurbanipal
+	mother = 480033 # Ashursharrat
+	
+	107.1.1 = {
+		birth="yes" # 669 BC Made Up
+	}
+	149.1.1 = {
+		death="yes" # 627 BC
+	}
+}
+480035 = {
+	name = "Sin-Sarru-Iskun"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480013 # Ashurbanipal
+	mother = 480033 # Ashursharrat
+	
+	115.1.1 = {
+		birth="yes" # 661 BC  Made Up
+	}
+	164.1.1 = {
+		death="yes" # 612 BC
+	}
+}
+480036 = {
+	name = "Ashur-Etel-Ilani" # Ashuretillilani II
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480035 # Sin-sarru-iskun
+	
+	116.1.1 = {
+		birth="yes" # 645 BC
+	}
+	170.1.1 = {
+		death="yes" # 606 BC
+	}
+}
+480037 = {
+	name = "Ninurta-Sharru-Usur"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480013 # Ashurbanipal
+	mother = 480033 # Ashursharrat
+	
+	121.1.1 = {
+		birth="yes" # 655 BC  Made Up
+	}
+	178.1.1 = {
+		death="yes" # 598 BC Made Up
+	}
+}
+480038 = {
+	name = "Shamash-Damqu"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	female = yes
+	
+	father = 480030 # Shamash-Shum-Ukin
+	
+	128.1.1 = {
+		birth="yes" # 648 BC  Made Up
+	}
+	142.1.1 = {
+		add_spouse = 481012 # Nabopolassar
+	}
+	172.1.1 = {
+		death="yes" # 604 BC Made Up
+	}
+}
+480039 = {
+	name = "Shamash-Damqu"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	female = yes
+	
+	father = 480025 # Ashur-Etel-Shame-Erseti-Muballissu
+	
+	136.1.1 = {
+		birth="yes" # 640 BC Made Up
+	}
+	152.1.1 = {
+		add_spouse = 481015 # Nabu-zer-ushabshi
+	}
+	188.1.1 = {
+		death="yes" # 588 BC Made Up
+	}
+}
+480040 = {
+	name = "Adad-Guppi"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	female = yes
+	
+	father = 480013 # Ashurbanipal
+	mother = 480033 # Ashursharrat
+	
+	145.1.1 = {
+		birth="yes" # 631 BC Made Up
+	}
+	164.1.1 = {
+		add_spouse = 481017 # Nabu-Balatsu-Iqbi
+	}
+	232.1.1 = {
+		death="yes" # 544 BC
+	}
+}
+480041 = {
+	name = "Sheru-Etirat"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	female = yes
+	
+	father = 480034 # Ashuretillilani I
+	
+	134.1.1 = {
+		birth="yes" # 642 BC Made up
+	}
+	152.1.1 = {
+		add_spouse = 481013 # Nebuchadnezzar II
+	}
+	165.1.1 = {
+		death="yes" # 611 BC Made Up
+	}
+}
+480042 = {
+	name = "Ashur-Bel-Nasir"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480037 # Ninurta-Sharru-Usur
+	
+	176.1.1 = {
+		birth="yes" # 600 BC  Made Up
+	}
+	208.1.1 = {
+		death="yes" # 568 BC Made Up
+	}
+}
+480043 = {
+	name = "Ninua-Apal-El"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480042 # Ashur-Bel-Nasir
+	
+	199.1.1 = {
+		birth="yes" # 577 BC  Made Up
+	}
+	272.1.1 = {
+		death="yes" # 503 BC Made Up
+	}
+}
+480044 = {
+	name = "Ashur-Tab-Ninu"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480043 # Ninua-Apal-El
+	
+	271.1.1 = {
+		birth="yes" # 504 BC  Made Up
+	}
+	320.1.1 = {
+		death="yes" # 456 BC Made Up
+	}
+}
+480045 = {
+	name = "Shamash-Zer-Ashur"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480044 # Ashur-Tab-Ninu
+	
+	317.1.1 = {
+		birth="yes" # 459 BC  Made Up
+	}
+	387.1.1 = {
+		death="yes" # 389 BC Made Up
+	}
+}
+480046 = {
+	name = "Ashur-Nadin-Bel"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480045 # Shamash-Zer-Ashur
+	
+	358.1.1 = {
+		birth="yes" # 418 BC  Made Up
+	}
+	418.1.1 = {
+		death="yes" # 358 BC Made Up
+	}
+}
+480047 = {
+	name = "Sin-Sharru-Usur"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480046 # Ashur-Nadin-Bel
+	
+	390.1.1 = {
+		birth="yes" # 386 BC  Made Up
+	}
+	429.1.1 = {
+		death="yes" # 347 BC Made Up
+	}
+}
+480048 = {
+	name = "Ninua-Sharri-Bel"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480047 # Sin-Sharru-Usur
+	
+	427.1.1 = {
+		birth="yes" # 348 BC  Made Up
+	}
+	479.1.1 = {
+		death="yes" # 297 BC Made Up
+	}
+}
+480049 = {
+	name = "Ashur-Balatu-Apli"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480048 # Ninua-Sharri-Bel
+	
+	454.1.1 = {
+		birth="yes" # 322 BC  Made Up
+	}
+	483.1.1 = {
+		death="yes" # 293 BC Made Up
+	}
+}
+480050 = {
+	name = "Ashur-Uballit-Ninu"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480049 # Ashur-Balatu-Apli
+	
+	468.1.1 = {
+		birth="yes" # 308 BC  Made Up
+	}
+	527.1.1 = {
+		death="yes" # 243 BC Made Up
+	}
+}
+480051 = {
+	name = "Ashur-Uballit-Ninu"
+	dynasty = 53001
+	culture = akkadian
+	religion = marduk_cult
+	
+	father = 480050 # Ashur-Uballit-Ninu
+	
+	482.1.1 = {
+		birth="yes" # 308 BC  Made Up
+	}
+	523.1.1 = {
+		death="yes" # 247 BC Made Up
+	}
+}

@@ -1,74 +1,423 @@
-# 380001-380100 for the Aaron dynasty
+# 380001-381000 for the Line of Aaron
 380001 = {
-	name = "Jaddua" # High priest during Alexander's invasion
+	name = "Amariah"
 	dynasty = 38001
 	culture = israelite
 	religion = judaism_main
 	
-	380.1.1 = { # 396 BC, Made up
+	father = 380027
+	
+	37.1.1.1 = { # 737 BC, Made up
 		birth="yes"
 	}
-	456.1.1 = { # 320 BC
+	87.1.1 = { # 689 BC, Made up
 		death="yes"
 	}
 }
 380002 = {
-	name = "Onias" # High priest after Jaddua
+	name = "Uriah"
 	dynasty = 38001
 	culture = israelite
 	religion = judaism_main
 	
 	father = 380001
 	
-	424.1.1 = { # 352 BC, Made up
+	60.1.1 = { # 716 BC, Made up
 		birth="yes"
 	}
-	496.1.1 = { # 280 BC, Made up
+	119.1.1 = { # 657 BC, Made up
 		death="yes"
 	}
 }
 380003 = {
-	name = "Manasseh" # Son of Jaddua, High priest after Eleazar
+	name = "Azariah" # II
 	dynasty = 38001
 	culture = israelite
 	religion = judaism_main
 	
-	father = 380001
+	father = 380002
 	
-	433.1.1 = { # 343 BC, Made up
+	94.1.1 = { # 682 BC, Made up
 		birth="yes"
 	}
-	536.1.1 = { # 240 BC
+	141.1.1 = { # 635 BC, Made up
 		death="yes"
 	}
 }
 380004 = {
-	name = "Simon" # High Priest after Onias
+	name = "Zadok" # II
 	dynasty = 38001
 	culture = israelite
 	religion = judaism_main
 	
-	father = 380002
+	father = 380003
 	
-	441.1.1 = { # 335 BC, Made up
+	117.1.1 = { # 659 BC, Made up
 		birth="yes"
 	}
-	516.1.1 = { # 260 BC
+	170.1.1 = { # 606 BC, Made up
 		death="yes"
 	}
 }
 380005 = {
-	name = "Eleazar" # High Priest after Simon
+	name = "Meshullam"
 	dynasty = 38001
 	culture = israelite
 	religion = judaism_main
 	
-	father = 380002
+	father = 380004
 	
-	445.1.1 = { # 331 BC, Made up
+	155.1.1 = { # 621 BC, Made up
 		birth="yes"
 	}
-	531.1.1 = { # 245 BC
+	201.1.1 = { # 575 BC, Made up
+		death="yes"
+	}
+}
+380006 = {
+	name = "Azariah" # III
+	dynasty = 38001
+	culture = israelite
+	religion = judaism_main
+	
+	father = 380004
+	
+	161.1.1 = { # 615 BC, Made up
+		birth="yes"
+	}
+	222.1.1 = { # 554 BC, Made up
+		death="yes"
+	}
+}
+380007 = {
+	name = "Jeremiah" # The Weeping Prophet
+	dynasty = 38001
+	culture = israelite
+	religion = judaism_main
+	
+	father = 380008
+	
+	210.1.1 = { # 566 BC, Made up
+		birth="yes"
+	}
+	289.1.1 = { # 487 BC, Made up
+		death="yes"
+	}
+}
+380008 = {
+	name = "Hilkial"
+	dynasty = 38001
+	culture = israelite
+	religion = judaism_main
+	
+	father = 380006
+	
+	193.1.1 = { # 583 BC, Made up
+		birth="yes"
+	}
+	240.1.1 = { # 536 BC, Made up
+		death="yes"
+	}
+}
+380009 = {
+	name = "Azariah" # IV
+	dynasty = 38001
+	culture = israelite
+	religion = judaism_main
+	
+	father = 380008
+	
+	207.1.1 = { # 569 BC, Made up
+		birth="yes"
+	}
+	248.1.1 = { # 528 BC, Made up
+		death="yes"
+	}
+}
+380010 = {
+	name = "Seraiah"
+	dynasty = 38001
+	culture = israelite
+	religion = judaism_main
+	
+	father = 380009
+	
+	221.1.1 = { # 555 BC, Made up
+		birth="yes"
+	}
+	255.1.1 = { # 521 BC, Made up
+		death="yes"
+	}
+}
+380011 = {
+	name = "Jehozadak"
+	dynasty = 38001
+	culture = israelite
+	religion = judaism_main
+	
+	father = 380010
+	
+	235.1.1 = { # 541 BC, Made up
+		birth="yes"
+	}
+	261.1.1 = { # 515 BC, Made up
+		death="yes"
+	}
+}
+380012 = {
+	name = "Joshua"
+	dynasty = 38001
+	culture = israelite
+	religion = judaism_main
+	
+	father = 380011
+	
+	245.1.1 = { # 531 BC, Made up
+		birth="yes"
+	}
+	286.1.1 = { # 490 BC, Made up
+		death="yes"
+	}
+}
+380013 = {
+	name = "Joiakim"
+	dynasty = 38001
+	culture = israelite
+	religion = judaism_main
+	
+	father = 380012
+	
+	259.1.1 = { # 517 BC, Made up
+		birth="yes"
+	}
+	306.1.1 = { # 470 BC, Made up
+		death="yes"
+	}
+}
+380014 = {
+	name = "Eliashib"
+	dynasty = 38001
+	culture = israelite
+	religion = judaism_main
+	
+	father = 380013
+	
+	275.1.1 = { # 501 BC, Made up
+		birth="yes"
+	}
+	326.1.1 = { # 450 BC, Made up
+		death="yes"
+	}
+}
+380015 = {
+	name = "Joiada"
+	dynasty = 38001
+	culture = israelite
+	religion = judaism_main
+	
+	father = 380014
+	
+	316.1.1 = { # 460 BC, Made up
+		birth="yes"
+	}
+	368.1.1 = { # 408 BC, Made up
+		death="yes"
+	}
+}
+380016 = {
+	name = "Jehosheba"
+	dynasty = 38001
+	culture = israelite
+	religion = judaism_main
+	
+	father = 380015
+	
+	330.1.1 = { # 446 BC, Made up
+		birth="yes"
+	}
+	403.1.1 = { # 373 BC, Made up
+		death="yes"
+	}
+}
+380017 = {
+	name = "Johanan"
+	dynasty = 38001
+	culture = israelite
+	religion = judaism_main
+	
+	father = 380016
+	
+	370.1.1 = { # 406 BC, Made up
+		birth="yes"
+	}
+	419.1.1 = { # 357 BC, Made up
+		death="yes"
+	}
+}
+380018 = {
+	name = "Jaddua"
+	dynasty = 38001
+	culture = israelite
+	religion = judaism_main
+	
+	father = 380017
+	
+	396.1.1 = { # 380 BC, Made up
+		birth="yes"
+	}
+	456.1.1 = { # 320 BC, Made up
+		death="yes"
+	}
+}
+380019 = {
+	name = "Onias" # I
+	dynasty = 38001
+	culture = israelite
+	religion = judaism_main
+	
+	father = 380018
+	
+	415.1.1 = { # 361 BC, Made up
+		birth="yes"
+	}
+	486.1.1 = { # 290 BC, Made up
+		death="yes"
+	}
+}
+380020 = {
+	name = "Simon" # The Just
+	dynasty = 38001
+	culture = israelite
+	religion = judaism_main
+	
+	father = 380019
+	
+	471.1.1 = { # 305 BC, Made up
+		birth="yes"
+	}
+	511.1.1 = { # 265 BC, Made up
+		death="yes"
+	}
+}
+380021 = {
+	name = "Manasseh"
+	dynasty = 38001
+	culture = israelite
+	religion = judaism_main
+	
+	father = 380018
+	
+	456.1.1 = { # 320 BC, Made up
+		birth="yes"
+	}
+	525.1.1 = { # 251 BC, Made up
+		death="yes"
+	}
+}
+380022 = {
+	name = "Eleazer"
+	dynasty = 38001
+	culture = israelite
+	religion = judaism_main
+	
+	father = 380019
+	
+	509.1.1 = { # 267 BC, Made up
+		birth="yes"
+	}
+	526.1.1 = { # 250 BC, Made up
+		death="yes"
+	}
+}
+380023 = {
+	name = "Onias" # II
+	dynasty = 38001
+	culture = israelite
+	religion = judaism_main
+	
+	father = 380020
+	
+	512.1.1 = { # 264 BC, Made up
+		birth="yes"
+	}
+	536.1.1 = { # 240 BC, Made up
+		death="yes"
+	}
+}
+380024 = {
+	name = "Simon" # II
+	dynasty = 38001
+	culture = israelite
+	religion = judaism_main
+	
+	father = 380023
+	
+	526.1.1 = { # 250 BC, Made up
+		birth="yes"
+	}
+	556.1.1 = { # 220 BC, Made up
+		death="yes"
+	}
+}
+380025 = {
+	name = "Onias" # III
+	dynasty = 38001
+	culture = israelite
+	religion = judaism_main
+	
+	father = 380024
+	
+	533.1.1 = { # 243 BC, Made up
+		birth="yes"
+	}
+	601.1.1 = { # 175 BC, Made up
+		death="yes"
+	}
+}
+380026 = {
+	name = "Baruch"
+	dynasty = 38001
+	culture = israelite
+	religion = judaism_main
+	
+	father = 380008
+	
+	215.1.1 = { # 561 BC, Made up
+		birth="yes"
+	}
+	245.1.1 = { # 531 BC, Made up
+		death="yes"
+	}
+}
+380027 = {
+	name = "Azariah"
+	dynasty = 38001
+	culture = israelite
+	religion = judaism_main
+	
+	1.1.1 = { # 775 BC, Made up
+		birth= "yes"
+		create_bloodline = {
+			type = bloodline_zadok
+			has_dlc = "Holy Fury"
+		}
+	}
+	68.1.1 = { # 708 BC, Made up
+		death="yes"
+	}
+}
+380028 = {
+	name = "Ezra" # The Scribe
+	dynasty = 38001
+	culture = israelite
+	religion = judaism_main
+	
+	father = 380009
+	
+	300.1.1 = { # 476 BC, Made up
+		birth="yes"
+	}
+	337.1.1 = { # 439 BC, Made up
 		death="yes"
 	}
 }

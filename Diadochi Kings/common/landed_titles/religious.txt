@@ -13,6 +13,8 @@ d_kohen_gadol = {
 	
 	religion = judaism_main
 	
+	landless = yes
+	
 	# Cannot be held as a secondary title
 	primary = yes
 	

@@ -1,0 +1,18 @@
+71.1.1 = {
+	holder = 480009 # Sennacherib
+}
+95.1.1 = {
+	holder = 480012 # Esarhaddon
+}
+107.1.1 = {
+	holder = 480013 # Ashurbanipal
+}
+145.1.1 = {
+	holder = 480034 # Ashuretillilani I
+}
+149.1.1 = {
+	holder = 480035 # Sinsharishkun
+}
+150.1.1 = {
+	holder = 0
+}

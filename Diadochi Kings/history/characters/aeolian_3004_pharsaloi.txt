@@ -79,8 +79,8 @@
 	religion = greek_main
 	culture = aeolian
 	father = 30304 # Menon II
-	378.1.1 = {
-		birth = yes # 402 BC made up
+	375.1.1 = {
+		birth = yes # 405 BC made up
 	}
 	429.1.1 = {
 		death = yes # 347 BC made up

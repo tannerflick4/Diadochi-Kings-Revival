@@ -121,6 +121,34 @@ e_thracia = {
 		culture = thracian
 	}
 }
+e_assyria = {
+	color= { 250 100 100 }
+	color2 = { 255 255 255 }
+	
+	dignity = 10
+	
+	capital = 187 # Ashur
+	
+	allow = {
+		e_assyria = {
+			is_titular = no
+		}
+	}
+}
+e_babylonia = {
+	color= { 153 255 255 }
+	color2= { 255 255 255 }
+	
+	dignity = 10
+	
+	capital = 195 # Babylon
+	
+	allow = {
+		e_babylonia = {
+			is_titular = no
+		}
+	}
+}
 
 # Kingdoms
 k_israel = {
@@ -136,6 +164,17 @@ k_israel = {
 			NOT = { has_landed_title = e_macedonia }
 		}
 	}
+}
+k_judah = {
+	color= { 150 175 255 }
+	color2= { 255 255 255 }
+	
+	capital = 130 # Jerusalem
+	
+	allow = {
+		always = no
+	}
+
 }
 # Persian satrapies
 k_p_egypt = {
@@ -1570,7 +1609,7 @@ b_hyperidai = {
 	culture = ionian
 	religion = greek_main
 }
-b_aischinidai = {
+b_alcmaeonidai = {
 	culture = ionian
 	religion = greek_main
 }

@@ -1,0 +1,84 @@
+# 490001-500000 for the Puqudu dynasty
+
+490001 = {
+	name = "Nabu-Epir-La'a"
+	culture = aramaic
+	religion = marduk_cult
+	dynasty = 54001
+	
+	44.1.1 = {
+		birth="yes" # 750 BC Made Up
+	}
+	133.1.1 = {
+		death="yes" # 722 BC Made up
+	}
+}
+490002 = {
+	name = "Bel-Shum-Ishkun"
+	culture = aramaic
+	religion = marduk_cult
+	dynasty = 54001
+	
+	father = 490001 # Nabu-Epir-La'a
+	
+	99.1.1 = {
+		birth="yes" # 750 BC Made Up
+	}
+	165.1.1 = {
+		death="yes" # 722 BC Made up
+	}
+}
+490003 = {
+	name = "Nergal-Shar-Usur" # Neriglissar
+	culture = aramaic
+	religion = marduk_cult
+	dynasty = 54001
+	
+	father = 490002 # Bel-Shum-Ishkun
+	
+	165.1.1 = {
+		birth="yes" # 750 BC Made Up
+	}
+	204.1.1 = {
+		add_spouse = 481031 # Kashshaya
+	}
+	220.1.1 = {
+		death="yes" # 556 BC Made up
+	}
+}
+490004 = {
+	name = "Labashi-Marduk"
+	culture = aramaic
+	religion = marduk_cult
+	dynasty = 54001
+	
+	father = 490003 # Neriglissar
+	mother = 481031 # Kashshaya
+	
+	204.1.1 = {
+		birth="yes" # 750 BC Made Up
+	}
+	221.1.1 = {
+		death="yes" # 555 BC Made up
+	}
+}
+490005 = {
+	name = "Gigitum"
+	culture = aramaic
+	religion = marduk_cult
+	dynasty = 54001
+	female = yes
+	
+	father = 490003 # Neriglissar
+	mother = 481031 # Kashshaya
+	
+	220.1.1 = {
+		birth="yes" # 556 BC Made Up
+	}
+	236.1.1 = {
+		add_spouse = 481044 # Nebuchadnezzar III
+	}
+	248.1.1 = {
+		death="yes" # 528 BC Made up
+	}
+}

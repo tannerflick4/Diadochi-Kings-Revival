@@ -1,28 +1,94 @@
+1.1.1 = {
+	holder = 480002 # Tiglath-Pileser III
+}
+49.1.1 = {
+	holder = 480004 # Shalmaneser V
+}
+54.1.1 = {
+	holder = 481001 # Merodach-Baladan
+}
+66.1.1 = {
+	holder = 480001 # Sargon II The Great
+}
+71.1.1 = {
+	holder = 480009 # Sennacherib
+}
+73.1.1 = {
+	holder = 481001 # Merodach-Baladan
+}
+74.1.1 = {
+	holder = 481005 # Bel-Ibni I
+}
+76.1.1 = {
+	holder = 480019 # Assur-nadin-shumi
+}
+82.1.1 = {
+	holder = 480009 # Sennacherib
+}
+95.1.1 = {
+	holder = 480012 # Esarhaddon
+}
+107.1.1 = {
+	holder = 480030 # Shamash-shum-ukin
+}
+128.1.1 = {
+	holder = 480013 # Ashurbanipal
+}
+145.1.1 = {
+	holder = 480034 # Ashuretillilani I
+}
+149.1.1 = {
+	holder = 480035 # Sinsharishkun
+}
+150.1.1 = {
+	holder = 481012 # Nabopolassar
+}
+171.1.1 = {
+	holder = 481013 # Nebuchadnezzar II
+}
+214.1.1 = {
+	holder = 481035 # Mushezib-Marduk
+}
+251.1.1 = {
+	holder = 481047 # Nebu-Zer-Marduk
+}
+283.1.1 = {
+	holder = 481048 # Marduk-Apal-Nebu
+}
+347.1.1 = {
+	holder = 481049 # Nebu-Nadin-Shamash
+}
+357.1.1 = {
+	holder = 481050 # Zer-Bel-Nasir
+}
 417.1.1 = {
-	holder = 90324
 	liege = k_p_babylon
 }
-446.1.1 = { # 330 BC
-	holder = 701 # Archon of Babylonia
+419.1.1 = {
+	holder = 481051 # Nezer-El-Marduk
+}
+446.1.1 = {
 	liege = k_s_babylonia
 }
-455.1.1 = {
-	holder = 2801 # Antigonos Dokimos
-}
-456.10.1 = {
-	holder = 1001 # Seleukos
+452.1.1 = {
+	holder = 481052 # Shamash-Balatu-Nebu
 }
 461.1.1 = {
-	holder = 401
 	liege = k_s_phrygia
 }
 465.1.1 = {
-	holder = 1001 # Seleukos
+	holder = 481053 # Marduk-Zerush-Nasir
 	liege = k_s_babylonia
+}
+466.1.1 = {
+	holder = 481054 # Bel-Tab-Apli
 }
 467.1.1 = {
 	liege = e_syria
 }
-495.8.1 = {
-	holder = 1002 # Antiochos I
+469.1.1 = {
+	holder = 481055 # Nebu-Mutu-Zer
+}
+540.1.1 = {
+	holder = 0
 }

@@ -1,0 +1,204 @@
+# 57901-58000 for the Eupatrid Dynasty
+57901 = {
+	name = "Execestides"
+	dynasty = 5076
+	religion = greek_main
+	culture = ionian
+
+	106.1.1 = { # 670 BC
+		birth="yes"
+	}
+	174.1.1 = { # 602 BC
+		death="yes"
+	}
+}
+57902 = {
+	name = "Solon" # The Lawgiver
+	dynasty = 5076
+	religion = greek_main
+	culture = ionian
+	
+	father = 57901 # Execestides
+
+	146.1.1 = { # 630 BC
+		birth="yes"
+		create_bloodline = {
+			type = bloodline_solon 
+			has_dlc = "Holy Fury"
+		}
+	}
+	216.1.1 = { # 560 BC
+		death="yes"
+	}
+}
+57903 = {
+	name = "Dropides"
+	dynasty = 5076
+	religion = greek_main
+	culture = ionian
+	
+	father = 57901 # Execestides
+
+	160.1.1 = { # 616 BC
+		birth="yes"
+	}
+	225.1.1 = { # 551 BC
+		death="yes"
+	}
+}
+57904 = {
+	name = "Kritias"
+	dynasty = 5076
+	religion = greek_main
+	culture = ionian
+	
+	father = 57903 # Dropides
+
+	219.1.1 = { # 557 BC
+		birth="yes"
+	}
+	242.1.2 = { # 534 BC
+		death="yes"
+	}
+}
+57905 = {
+	name = "Kallaeschrus"
+	dynasty = 5076
+	religion = greek_main
+	culture = ionian
+	
+	father = 57904 # Kritias
+
+	242.1.1 = { # 534 BC
+		birth="yes"
+	}
+	275.1.1 = { # 501 BC
+		death="yes"
+	}
+}
+57906 = {
+	name = "Kritias"
+	dynasty = 5076
+	religion = greek_main
+	culture = ionian
+	
+	father = 57905 # Kallaeschrus
+
+	268.1.1 = { # 508 BC
+		birth="yes"
+	}
+	295.1.1 = { # 481 BC
+		death="yes"
+	}
+}
+57907 = {
+	name = "Glaucon"
+	dynasty = 5076
+	religion = greek_main
+	culture = ionian
+	
+	father = 57906 # Kritias
+
+	289.1.1 = { # 487 BC
+		birth="yes"
+	}
+	366.1.1 = { # 410 BC
+		death="yes"
+	}
+}
+57908 = {
+	name = "Perictione"
+	dynasty = 5076
+	female = yes
+	religion = greek_main
+	culture = ionian
+	female = yes
+	
+	father = 57907 # Glaucon
+
+	331.1.1 = { # 445 BC
+		birth="yes"
+	}
+	395.1.1 = { # 381 BC
+		death="yes"
+	}
+}
+57909 = {
+	name = "Potone"
+	dynasty = 5076
+	religion = greek_main
+	culture = ionian
+	female = yes
+	
+	mother = 57908 # Perictione
+
+	382.1.1 = { # 394 BC
+		birth="yes"
+	}
+	438.1.1 = { # 338 BC
+		death="yes"
+	}
+}
+57910 = {
+	name = "Platon"
+	dynasty = 5076
+	religion = greek_main
+	culture = ionian
+	
+	mother = 57908 # Perictione
+
+	353.1.1 = { # 423 BC
+		birth="yes"
+	}
+	428.1.1 = { # 348 BC
+		death="yes"
+	}
+}
+57911 = {
+	name = "Alkibiades"
+	dynasty = 5076
+	religion = greek_main
+	culture = ionian
+	
+	father = 57902 # Solon
+
+	216.1.1 = { # 560 BC
+		birth="yes"
+	}
+	295.1.1 = { # 481 BC
+		death="yes"
+	}
+}
+57912 = {
+	name = "Axiochus"
+	dynasty = 5076
+	religion = greek_main
+	culture = ionian
+	
+	father = 57911 # Alcibiades
+
+	263.1.1 = { # 513 BC
+		birth="yes"
+	}
+	338.1.1 = { # 438 BC
+		death="yes"
+	}
+}
+57913 = {
+	name = "Kleinias"
+	dynasty = 5076
+	religion = greek_main
+	culture = ionian
+	
+	father = 57911 # Alcibiades
+
+	291.1.1 = { # 485 BC
+		birth="yes"
+	}
+	310.1.1 = {
+		add_matrilineal_spouse = 56916 # Deinomache
+	}
+	329.1.1 = { # 447 BC
+		death="yes"
+	}
+}

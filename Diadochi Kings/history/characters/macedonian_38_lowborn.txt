@@ -41,3 +41,81 @@
 		death = yes
 	}
 }
+3703 = {
+	name = "Laodike" # Wife of Antiochos
+	female = yes
+	religion = greek_main
+	culture = macedonian
+	
+	388.1.1 = { # made up
+		birth = yes # 388 BC
+	}
+	408.1.1 = { # 462 BC made up
+		add_spouse = 1004 # Antiochos Father of Seleucus I
+	}
+	444.1.1 = { # 332 BC
+		death = yes
+	}
+}
+3704 = {
+	name = "Magas" # Father of Berenike I of Egypt
+	religion = greek_main
+	culture = macedonian
+	
+	406.1.1 = { # made up
+		birth = yes # 370 BC
+	}
+	427.1.1 = { # 349 BC made up
+		add_matrilineal_spouse = 17 # Antigone
+	}
+	471.1.1 = { # 305 BC made up
+		death = yes
+	}
+}
+3705 = {
+	name = "Philipos" # Husband of Berenike I of Egypt
+	religion = greek_main
+	culture = macedonian
+	
+	431.1.1 = { # made up
+		birth = yes # 345 BC made up
+	}
+	451.1.1 = { # 325 BC
+		add_matrilineal_spouse = 21 # Berenike
+	}
+	457.1.1 = { # 319 BC made up
+		death = yes
+	}
+}
+3706 = {
+	name = "Nikea" # Wife of Kraterus
+	female = yes
+	religion = greek_main
+	culture = macedonian
+	
+	470.1.1 = { # Made up
+		birth="yes" # 306 BC
+	}
+	486.1.1 = {
+		add_spouse = 420 # Kraterus
+	}
+	552.1.1 = { # 224 BC
+		death = yes
+	}
+}
+3707 = {
+	name = "Nikea" # Wife of Demetrius II Aetolicus
+	female = yes
+	religion = greek_main
+	culture = macedonian
+	
+	501.1.1 = { # Made up
+		birth="yes" # 275 BC
+	}
+	517.1.1 = {
+		add_spouse = 421 # Demetrius II Aetolicus
+	}
+	560.1.1 = { # 216 BC
+		death = yes
+	}
+}

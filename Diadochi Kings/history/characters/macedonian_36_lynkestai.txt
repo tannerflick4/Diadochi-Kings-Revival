@@ -56,7 +56,7 @@
 
     father = 3505
 	
-	400.1.1 = { # 376 BC Made up
+	395.1.1 = { # 381 BC Made up
 		birth="yes"
 	}
 	446.1.1 = { # 343 BC Made up

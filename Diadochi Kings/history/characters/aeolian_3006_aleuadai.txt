@@ -400,8 +400,8 @@
 	
 	add_trait = deceitful
 	
-	370.1.1 = { # made up
-		birth = yes # 404 BC
+	360.1.1 = { # made up
+		birth = yes # 414 BC
 	}
 	410.1.1 = { # 366 BC, approximate
 		death = { 
@@ -823,10 +823,7 @@
 	}
 	###367.1.1 = { # 407 BC, made up
 	#	effect = {
-	#		set_relation_lover = { # enters a relationship with Menon, whom he makes a commander
-	#			target = character:thessalian00108 # Menon
-	#			reason = lover_history
-	#		}
+	#		add_lover = # enters a relationship with Menon, whom he makes a commander
 	#	}
 	#}
 	378.1.1 = { # made up
@@ -929,9 +926,9 @@
 	495.1.1 = { # made up
 		birth = yes # 281 BC
 	}
-	#512.1.1 = { # 264 BC, made up
-	###	add_spouse = macedonian00106 # Demetrios
-	#}
+	512.1.1 = { # 264 BC, made up
+		add_spouse = 418 # Demetrios the Fair
+	}
 	522.1.1 = { # made up
 		death = yes # 254 BC
 	}

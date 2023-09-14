@@ -5,6 +5,8 @@
 	religion = greek_main
 	culture = doric
 	
+	father = 22703 # Carcinus
+	
 	health = 3 # Plagued by ill-health
 	
 	add_trait = cruel
@@ -17,6 +19,15 @@
 			has_dlc = "Holy Fury"
 		}
 	}
+	435.1.1 = {
+		add_spouse = 29909 # Kallista
+	}
+	466.1.1 = {
+		add_spouse = 29910 # Alcia
+	}
+	476.1.1 = {
+		add_spouse = 24 # Theoxena
+	}
 	487.1.1 = { # Made up
 		death="yes" # 289 BC
 	}
@@ -27,11 +38,155 @@
 	religion = greek_main
 	culture = doric
 	female = yes
-	father = 22701
-	451.1.1 = { # Made up
+	
+	father = 22701 # Agathokles
+	mother = 29910 # Alcia
+	
+	466.1.1 = { # Made up
 		birth="yes" # 325 BC
+	}
+	481.1.1 = { # 295 BC
+		add_spouse = 10010 # Pyrrhus of Epirus
+	}
+	485.1.1 = { # 291 BC
+		remove_spouse = 10010 # Pyrrhus of Epirus
+		add_spouse = 402 # Demetrius Poliorcetes
 	}
 	507.1.1 = { # Made up
 		death="yes" # 269 BC
+	}
+}
+22703 = {
+	name = "Carcinus" # Father of Agathocles
+	dynasty = 2028 # Agathoklidai
+	religion = greek_main
+	culture = doric
+
+	390.1.1 = { # Made up
+		birth="yes" # 386 BC
+	}
+	455.1.1 = { # Made up
+		death="yes" # 321 BC
+	}
+}
+22704 = {
+	name = "Archagathus"
+	dynasty = 2028 # Agathoklidai
+	religion = greek_main
+	culture = doric
+	
+	father = 22701 # Agathokles
+	mother = 29909 # Kallista
+
+	440.1.1 = { # Made up
+		birth="yes" # 336 BC
+	}
+	466.1.1 = {
+		add_spouse = 29912 # Theoxena
+		effect = {
+			add_lover = 29910 # Alcia
+		}
+	}
+	469.1.1 = { # Made up
+		death="yes" # 307 BC
+	}
+}
+22705 = {
+	name = "Heracleides"
+	dynasty = 2028 # Agathoklidai
+	religion = greek_main
+	culture = doric
+	
+	father = 22701 # Agathokles
+	mother = 29909 # Kallista
+
+	445.1.1 = { # Made up
+		birth="yes" # 331 BC
+	}
+	469.1.1 = { # Made up
+		death="yes" # 307 BC
+	}
+}
+22706 = {
+	name = "Agathokles"
+	dynasty = 2028 # Agathoklidai
+	religion = greek_main
+	culture = doric
+	
+	father = 22701 # Agathokles
+	mother = 29910 # Alcia
+
+	467.1.1 = { # Made up
+		birth="yes" # 309 BC
+	}
+	469.1.1 = { # Made up
+		death="yes" # 307 BC
+	}
+}
+22707 = {
+	name = "Archagathus"
+	dynasty = 2028 # Agathoklidai
+	religion = greek_main
+	culture = doric
+	
+	father = 22701 # Agathokles
+	mother = 24 # Theoxena
+
+	476.1.1 = { # Made up
+		birth="yes" # 300 BC
+	}
+	490.1.1 = {
+		add_spouse = 416 # Stratonike
+	}
+	506.1.1 = { # Made up
+		death="yes" # 270 BC
+	}
+}
+22708 = {
+	name = "Theoxena"
+	dynasty = 2028 # Agathoklidai
+	religion = greek_main
+	culture = doric
+	
+	female = yes
+	
+	father = 22701 # Agathokles
+	mother = 24 # Theoxena
+
+	477.1.1 = { # Made up
+		birth="yes" # 299 BC
+	}
+	545.1.1 = { # Made up
+		death="yes" # 231 BC
+	}
+}
+22709 = {
+	name = "Agathokles"
+	dynasty = 2028 # Agathoklidai
+	religion = greek_main
+	culture = doric
+
+	mother = 22708 # Theoxena
+
+	493.1.1 = { # Made up
+		birth="yes" # 283 BC
+	}
+	579.1.1 = { # Made up
+		death="yes" # 197 BC
+	}
+}
+22710 = {
+	name = "Archagathus"
+	dynasty = 2028 # Agathoklidai
+	religion = greek_main
+	culture = doric
+	
+	father = 22704 # Archagathus
+
+	457.1.1 = { # Made up
+		birth="yes" # 319 BC
+	}
+	487.1.1 = { # Made up
+		death="yes" # 349 BC
 	}
 }
