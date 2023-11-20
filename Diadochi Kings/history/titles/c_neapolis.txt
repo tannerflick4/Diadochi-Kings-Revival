@@ -8,7 +8,7 @@
 	holder = 22903 # Gelon of the Neapoloi
 }
 472.1.1 = { # 304 BC
-	holder = 171401 # Publius Sempronius Sophus
+	holder = 170020 # Publius Sulpicius Saverrio
 }
 473.1.1 = { # 303 BC
 	holder = 171525 # Servius Cornelius Lentulus
@@ -67,6 +67,9 @@
 492.1.1 = { # 284 BC
 	holder = 171901 # Gaius Servilius Tucca
 }
+493.1.1 = { # 283 BC
+	holder = 171544 # Publius Cornelius Dolabella Maximus
+}
 494.1.1 = { # 282 BC
 	holder = 172001 # Gaius Fabricius Luscinus
 }
@@ -77,7 +80,7 @@
 	holder = 170902 # Publius Valerius Laevinus
 }
 497.1.1 = { # 279 BC
-	holder = 170004 # Publius Sulpicius Saverrio
+	holder = 170021 # Publius Sulpicius Saverrio
 }
 499.1.1 = { # 277 BC
 	holder = 171532 # Publius Cornelius Rufinus
@@ -91,8 +94,14 @@
 517.1.1 = { # 259 BC
 	holder = 171542 # Lucius Cornelius Scipio
 }
+518.1.1 = { # 258 BC
+	holder = 170024 # Gaius Sulpicius Paterculus
+}
 522.1.1 = { # 254 BC
 	holder = 171540 # Gnaeus Cornelius Scipio Asina
+}
+531.1.1 = { # 243 BC
+	holder = 170027 # Gaius Sulpicius Gallus
 }
 539.1.1 = { # 237 BC
 	holder = 171528 # Lucius Cornelius Lentulus Caudinus

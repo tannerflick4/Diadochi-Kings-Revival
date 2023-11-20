@@ -2,10 +2,19 @@
 	active = no
 	holder = 0
 }
-291.1.1 = { # 485 BC
+276.1.1 = { # 500 BC
 	government = merchant_republic_government
 	law = succ_patrician_elective
+	holder = 170002 # Servius Sulpicius Camerinus Cornutus
+}
+286.1.1 = { # 490 BC
+	holder = 170003 # Quintus Sulpicius Camerinus Cornutus
+}
+291.1.1 = { # 485 BC
 	holder = 171502 # Servius Cornelius Maluginensis Tricostus
+}
+315.1.1 = { # 461 BC
+	holder = 170004 # Servius Sulpicius Camerinus Cornutus
 }
 317.1.1 = { # 459 BC
 	holder = 171503 # Lucius Cornelius Maluginensis Uritinus
@@ -23,31 +32,37 @@
 	holder = 171511 # Aulus Cornelius Cossus
 }
 361.1.1 = { # 415 BC
-	holder = 171514 # Gnaeus Cornelius Cossus
-}
-361.1.1 = { # 413 BC
-	holder = 171515 # Aulus Cornelius Cossus
-}
-365.1.1 = { # 409 BC
-	holder = 171514 # Gnaeus Cornelius Cossus
-}
-366.1.1 = { # 408 BC
 	holder = 171513 # Publius Cornelius Cossus
 }
-367.1.1 = { # 407 BC
+363.1.1 = { # 413 BC
+	holder = 171515 # Aulus Cornelius Cossus
+}
+367.1.1 = { # 409 BC
+	holder = 171514 # Gnaeus Cornelius Cossus
+}
+368.1.1 = { # 408 BC
+	holder = 171513 # Publius Cornelius Cossus
+}
+369.1.1 = { # 407 BC
 	holder = 171512 # Publius Cornelius Cossus Rutilus
 }
-368.1.1 = { # 406 BC
+370.1.1 = { # 406 BC
 	holder = 171518 # Gnaeus Cornelius Cossus
 }
-369.1.1 = { # 405 BC
+371.1.1 = { # 405 BC
 	holder = 171512 # Publius Cornelius Cossus Rutilus
 }
 372.1.1 = { # 404 BC
 	holder = 171506 # Publius Cornelius Maluginensis
 }
+374.1.1 = { # 402 BC
+	holder = 170005 # Quintus Sulpicius Camerinus Cornutus
+}
 375.1.1 = { # 401 BC
 	holder = 171518 # Gnaeus Cornelius Cossus
+}
+378.1.1 = { # 398 BC
+	holder = 170005 # Quintus Sulpicius Camerinus Cornutus
 }
 379.1.1 = { # 397 BC
 	holder = 171534 # Publius Cornelius Scipio
@@ -55,17 +70,50 @@
 381.1.1 = { # 395 BC
 	holder = 171517 # Publius Cornelius Cossus
 }
+382.1.1 = { # 394 BC
+	holder = 171534 # Publius Cornelius Scipio
+}
+383.1.1 = { # 393 BC
+	holder = 170006 # Servius Sulpicius Camerinus
+}
+386.1.1 = { # 390 BC
+	holder = 170012 # Quintus Sulpicius Longus
+}
+388.1.1 = { # 388 BC
+	holder = 170008 # Servius Sulpicius Camerinus Rufus
+}
 390.1.1 = { # 386 BC
 	holder = 171508 # Servius Cornelius Maluginensis
 }
 391.1.1 = { # 385 BC
 	holder = 171520 # Aulus Cornelius Cossus
 }
+392.1.1 = { # 384 BC
+	holder = 170008 # Servius Sulpicius Camerinus Rufus
+}
+394.1.1 = { # 382 BC
+	holder = 170007 # Gaius Sulpicius Camerinus
+}
+396.1.1 = { # 380 BC
+	holder = 171508 # Servius Cornelius Maluginensis
+}
+399.1.1 = { # 377 BC
+	holder = 170011 # Servius Sulpicius Praetextatus
+}
+400.1.1 = { # 376 BC
+	holder = 171508 # Servius Cornelius Maluginensis
+}
 407.1.1 = { # 369 BC
 	holder = 171509 # Marcus Cornelius Maluginensis
 }
+408.1.1 = { # 368 BC
+	holder = 170011 # Servius Sulpicius Praetextatus
+}
 409.1.1 = { # 367 BC
-	holder = 171519 # Marcus Cornelius Maluginensis
+	holder = 171520 # Aulus Cornelius Cossus
+}
+412.1.1 = { # 364 BC
+	holder = 170017 # Gaius Sulpicius Peticus
 }
 416.1.1 = { # 360 BC
 	holder = 170303 # Marcus Fabius Ambustus
@@ -83,19 +131,19 @@
 	holder = 170303 # Marcus Fabius Ambustus
 }
 421.1.1 = { # 355 BC
-	holder = 170001 # Gaius Sulpicius Peticus
+	holder = 170017 # Gaius Sulpicius Peticus
 }
 422.1.1 = { # 354 BC
 	holder = 170303 # Marcus Fabius Ambustus
 }
 423.1.1 = { # 353 BC
-	holder = 170001 # Gaius Sulpicius Peticus
+	holder = 170017 # Gaius Sulpicius Peticus
 }
 424.1.1 = { # 352 BC
 	holder = 171202 # Gaius Marcius Rutilus
 }
 425.1.1 = { # 351 BC
-	holder = 170003 # Gaius Sulpicius Peticus
+	holder = 170017 # Gaius Sulpicius Peticus
 }
 426.1.1 = { # 350 BC
 	holder = 171536 # Lucius Cornelius Scipio
@@ -113,13 +161,13 @@
 	holder = 170901 # Marcus Valerius Corvus
 }
 431.1.1 = { # 345 BC
-	holder = 170001 # Servius Sulpicius Camerinus Rufus
+	holder = 170009 # Servius Sulpicius Camerinus Rufus
 }
 432.1.1 = { # 344 BC
 	holder = 171202 # Gaius Marcius Rutilus
 }
 433.1.1 = { # 343 BC
-	holder = 170901 # Marcus Valerius Corvus
+	holder = 171521 # Aulus Cornelius Cossus Arvina
 }
 434.1.1 = { # 342 BC
 	holder = 171202 # Gaius Marcius Rutilus
@@ -137,7 +185,7 @@
 	holder = 172401 # Gaius Maenius
 }
 439.1.1 = { # 337 BC
-	holder = 170002 # Gaius Sulpicius Longus
+	holder = 170014 # Gaius Sulpicius Longus
 }
 440.1.1 = { # 336 BC
 	holder = 170102 # Lucius Papirius Crassus
@@ -179,7 +227,7 @@
 	holder = 170102 # Lucius Papirius Cursor
 }
 453.1.1 = { # 323 BC
-	holder = 170002 # Gaius Sulpicius Longus
+	holder = 170014 # Gaius Sulpicius Longus
 }
 454.1.1 = { # 322 BC
 	holder = 170304 # Quintus Fabius Maximus Rullianus
@@ -203,7 +251,7 @@
 	holder = 170102 # Lucius Papirius Cursor
 }
 462.1.1 = { # 314 BC
-	holder = 170402 # Marcus Poetelius Libo
+	holder = 170014 # Gaius Sulpicius Longus
 }
 463.1.1 = { # 313 BC
 	holder = 170102 # Lucius Papirius Cursor
@@ -227,13 +275,13 @@
 	holder = 171101 # Appius Claudius Caecus
 } 
 470.1.1 = { # 306 BC
-	holder = 171202 # Quintus Marcius Tremulus
+	holder = 171522 # Publius Cornelius Cossus Arvina
 }
 471.1.1 = { # 305 BC
 	holder = 171301 # Lucius Postumius Megellus
 }
 472.1.1 = { # 304 BC
-	holder = 171401 # Publius Sempronius Sophus
+	holder = 170020 # Publius Sulpicius Saverrio
 }
 473.1.1 = { # 303 BC
 	holder = 171525 # Servius Cornelius Lentulus
@@ -292,6 +340,9 @@
 492.1.1 = { # 284 BC
 	holder = 171901 # Gaius Servilius Tucca
 }
+493.1.1 = { # 283 BC
+	holder = 171544 # Publius Cornelius Dolabella Maximus
+}
 494.1.1 = { # 282 BC
 	holder = 172001 # Gaius Fabricius Luscinus
 }
@@ -302,7 +353,7 @@
 	holder = 170902 # Publius Valerius Laevinus
 }
 497.1.1 = { # 279 BC
-	holder = 170004 # Publius Sulpicius Saverrio
+	holder = 170021 # Publius Sulpicius Saverrio
 }
 499.1.1 = { # 277 BC
 	holder = 171532 # Publius Cornelius Rufinus
@@ -310,14 +361,26 @@
 501.1.1 = { # 275 BC
 	holder = 171527 # Lucius Cornelius Lentulus Caudinus
 }
+506.1.1 = { # 270 BC
+	holder = 171549 # Gnaeus Cornelius Blassio
+}
 516.1.1 = { # 260 BC
 	holder = 171540 # Gnaeus Cornelius Scipio Asina
 }
 517.1.1 = { # 259 BC
 	holder = 171542 # Lucius Cornelius Scipio
 }
+518.1.1 = { # 258 BC
+	holder = 170024 # Gaius Sulpicius Paterculus
+}
+519.1.1 = { # 257 BC
+	holder = 171549 # Gnaeus Cornelius Blassio
+}
 522.1.1 = { # 254 BC
 	holder = 171540 # Gnaeus Cornelius Scipio Asina
+}
+531.1.1 = { # 243 BC
+	holder = 170027 # Gaius Sulpicius Gallus
 }
 539.1.1 = { # 237 BC
 	holder = 171528 # Lucius Cornelius Lentulus Caudinus

@@ -1,6 +1,7 @@
-#Echoes Family - Sulpicii
 185.1.1 = {
+	liege = e_rome
 	holder = 170001
+	holding_dynasty = 17001
 }
 275.1.1 = {
 	holder = 170002
@@ -40,7 +41,4 @@
 }
 472.1.1 = {
 	holder = 170020
-}
-399.1.1 = {
-	holder = 170011
 }

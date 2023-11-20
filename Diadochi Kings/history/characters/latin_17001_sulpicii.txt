@@ -1,61 +1,424 @@
 # 170001-170100 for the Sulpicii dynasty
+
+# Sulpicius Camerinus
+
 170001 = {
-	name = "Gaius" # Sulpicius Peticus
-	dynasty = 17001 # Sulpicii
+	name = "Publius" # Publius Sulpicius Camerinus Cornutus
+	dynasty = 17001 # Sulpicius Camerinus
 	religion = roman_main
 	culture = latin
-	355.1.1 = { # 421 BC Made Up
+	185.1.1 = { # 591 BC Made Up
 		birth="yes"
 	}
-	434.1.1 = { # 342 BC Made Up
+	275.1.1 = { # 501 BC Made Up
 		death="yes"
 	}
 }
 170002 = {
-	name = "Servius" # Sulpicius Camerinus Rufus
-	dynasty = 17001 # Sulpicii
+	name = "Servius" # Servius Sulpicius Camerinus Cornutus
+	dynasty = 17001 # Sulpicius Camerinus
 	religion = roman_main
 	culture = latin
-	370.1.1 = { # 406 BC Made Up
+	
+	father = 170001 # Publius Sulpicius Camerinus Cornutus
+	
+	240.1.1 = { # 536 BC Made Up
 		birth="yes"
 	}
-	462.1.1 = { # 314 BC Made Up
+	313.1.1 = { # 463 BC
 		death="yes"
 	}
 }
 170003 = {
-	name = "Gaius" # Sulpicius Longus
-	dynasty = 17001 # Sulpicii
+	name = "Quintus" # Quintus Sulpicius Camerinus Cornutus
+	dynasty = 17001 # Sulpicius Camerinus
 	religion = roman_main
 	culture = latin
-	423.1.1 = { # 353 BC Made up
+	
+	father = 170002 # Servius Sulpicius Camerinus Cornutus
+	
+	257.1.1 = { # 519 BC Made up
+		birth="yes"
+	}
+	334.1.1 = { # 442 BC Made up
+		death="yes"
+	}
+}
+170004 = {
+	name = "Servius" # Servius Sulpicius Camerinus Cornutus
+	dynasty = 17001 # Sulpicius Camerinus
+	religion = roman_main
+	culture = latin
+	
+	father = 170003 # Quintus Sulpicius Camerinus Cornutus
+	
+	279.1.1 = { # 497 BC Made up
+		birth="yes"
+	}
+	362.1.1 = { # 414 BC Made up
+		death="yes"
+	}
+}
+170005 = {
+	name = "Quintus" # Quintus Sulpicius Camerinus Cornutus
+	dynasty = 17001 # Sulpicius Camerinus
+	religion = roman_main
+	culture = latin
+	
+	father = 170004 # Servius Sulpicius Camerinus Cornutus
+	
+	337.1.1 = { # 439 BC Made up
+		birth="yes"
+	}
+	425.1.1 = { # 351 BC Made up
+		death="yes"
+	}
+}
+170006 = {
+	name = "Servius" # Servius Sulpicius Camerinus
+	dynasty = 17001 # Sulpicius Camerinus
+	religion = roman_main
+	culture = latin
+	
+	father = 170005 # Quintus Sulpicius Camerinus Cornutus
+	
+	351.1.1 = { # 425 BC Made up
+		birth="yes"
+	}
+	401.1.1 = { # 375 BC Made up
+		death="yes"
+	}
+}
+170007 = {
+	name = "Gaius" # Gaius Sulpicius Camerinus
+	dynasty = 17001 # Sulpicius Camerinus
+	religion = roman_main
+	culture = latin
+	
+	father = 170006 # Servius Sulpicius Camerinus
+	
+	366.1.1 = { # 410 BC Made up
+		birth="yes"
+	}
+	460.1.1 = { # 316 BC Made up
+		death="yes"
+	}
+}
+170008 = {
+	name = "Servius" # Servius Sulpicius Camerinus Rufus
+	dynasty = 17001 # Sulpicius Camerinus
+	religion = roman_main
+	culture = latin
+	
+	father = 170006 # Servius Sulpicius Camerinus
+	
+	365.1.1 = { # 411 BC Made up
+		birth="yes"
+	}
+	445.1.1 = { # 331 BC Made up
+		death="yes"
+	}
+}
+170009 = {
+	name = "Servius" # Servius Sulpicius Camerinus Rufus
+	dynasty = 17001 # Sulpicius Camerinus
+	religion = roman_main
+	culture = latin
+	
+	father = 170008 # Servius Sulpicius Camerinus Rufus
+	
+	397.1.1 = { # 379 BC Made up
+		birth="yes"
+	}
+	484.1.1 = { # 292 BC Made up
+		death="yes"
+	}
+}
+
+# Sulpicius Praetextatus
+
+170010 = {
+	name = "Quintus" # Quintus Sulpicius Praetextatus
+	dynasty = 17001 # Sulpicius Praetextatus
+	religion = roman_main
+	culture = latin
+	
+	father = 170002 # Servius Sulpicius Camerinus Cornutus
+	
+	263.1.1 = { # 513 BC Made up
+		birth="yes"
+	}
+	346.1.1 = { # 430 BC Made up
+		death="yes"
+	}
+}
+170011 = {
+	name = "Servius" # Servius Sulpicius Praetextatus
+	dynasty = 17001 # Sulpicius Praetextatus
+	religion = roman_main
+	culture = latin
+	
+	father = 170010 # Quintus Sulpicius Praetextatus
+	
+	319.1.1 = { # 457 BC Made up
+		birth="yes"
+	}
+	409.1.1 = { # 367 BC Made up
+		death="yes"
+	}
+}
+
+# Sulpicius Longus
+
+170012 = {
+	name = "Quintus" # Quintus Sulpicius Longus
+	dynasty = 17001 # Sulpicius Longus
+	religion = roman_main
+	culture = latin
+	
+	father = 170003 # Quintus Sulpicius Camerinus Cornutus
+	
+	313.1.1 = { # 463 BC Made up
+		birth="yes"
+	}
+	389.1.1 = { # 387 BC Made up
+		death="yes"
+	}
+}
+170013 = {
+	name = "Servius" # Servius Sulpicius Longus
+	dynasty = 17001 # Sulpicius Longus
+	religion = roman_main
+	culture = latin
+	
+	father = 170012 # Quintus Sulpicius Longus
+	
+	374.1.1 = { # 402 BC Made up
+		birth="yes"
+	}
+	414.1.1 = { # 362 BC Made up
+		death="yes"
+	}
+}
+170014 = {
+	name = "Gaius" # Gaius Sulpicius Longus
+	dynasty = 17001 # Sulpicius Longus
+	religion = roman_main
+	culture = latin
+	
+	father = 170013 # Servius Sulpicius Longus
+	
+	393.1.1 = { # 383 BC Made up
+		birth="yes"
+	}
+	481.1.1 = { # 295 BC Made up
+		death="yes"
+	}
+}
+
+# Sulpicius Peticus
+
+170015 = {
+	name = "Quintus" # Quintus Sulpicius Peticus
+	dynasty = 17001 # Sulpicius Peticus
+	religion = roman_main
+	culture = latin
+	
+	father = 170003 # Quintus Sulpicius Camerinus Cornutus
+	
+	317.1.1 = { # 459 BC Made up
+		birth="yes"
+	}
+	396.1.1 = { # 380 BC Made up
+		death="yes"
+	}
+}
+170016 = {
+	name = "Marcus" # Marcus Sulpicius Peticus
+	dynasty = 17001 # Sulpicius Peticus
+	religion = roman_main
+	culture = latin
+	
+	father = 170015 # Quintus Sulpicius Peticus
+	
+	368.1.1 = { # 408 BC Made up
+		birth="yes"
+	}
+	434.1.1 = { # 342 BC Made up
+		death="yes"
+	}
+}
+170017 = {
+	name = "Gaius" # Gaius Sulpicius Peticus
+	dynasty = 17001 # Sulpicius Peticus
+	religion = roman_main
+	culture = latin
+	
+	father = 170016 # Marcus Sulpicius Peticus
+	
+	384.1.1 = { # 392 BC Made up
 		birth="yes"
 	}
 	473.1.1 = { # 303 BC Made up
 		death="yes"
 	}
 }
-170004 = {
-	name = "Publius" # Sulpicius Saverrio
-	dynasty = 17001 # Sulpicii
+
+# Sulpicius Saverrio
+
+170018 = {
+	name = "Publius" # Publius Sulpicius Saverrio
+	dynasty = 17001 # Sulpicius Saverrio
 	religion = roman_main
 	culture = latin
-	443.1.1 = { # 333 BC Made up
+	
+	father = 170007 # Gaius Sulpicius Camerinus
+	
+	395.1.1 = { # 381 BC Made up
 		birth="yes"
 	}
-	509.1.1 = { # 267 BC Made up
+	447.1.1 = { # 329 BC Made up
 		death="yes"
 	}
 }
-170005 = {
-	name = "Publius" # Sulpicius Saverrio
-	dynasty = 17001 # Sulpicii
+170019 = {
+	name = "Servius" # Servius Sulpicius Saverrio
+	dynasty = 17001 # Sulpicius Saverrio
 	religion = roman_main
 	culture = latin
-	474.1.1 = { # 333 BC Made up
+	
+	father = 170018 # Publius Sulpicius Saverrio
+	
+	412.1.1 = { # 364 BC Made up
 		birth="yes"
 	}
-	559.1.1 = { # 267 BC Made up
+	487.1.1 = { # 289 BC Made up
+		death="yes"
+	}
+}
+170020 = {
+	name = "Publius" # Publius Sulpicius Saverrio
+	dynasty = 17001 # Sulpicius Saverrio
+	religion = roman_main
+	culture = latin
+	
+	father = 170019 # Servius Sulpicius Saverrio
+	
+	443.1.1 = { # 333 BC Made up
+		birth="yes"
+	}
+	528.1.1 = { # 248 BC Made up
+		death="yes"
+	}
+}
+170021 = {
+	name = "Publius" # Publius Sulpicius Saverrio
+	dynasty = 17001 # Sulpicius Saverrio
+	religion = roman_main
+	culture = latin
+	
+	father = 170020 # Publius Sulpicius Saverrio
+	
+	465.1.1 = { # 311 BC Made up
+		birth="yes"
+	}
+	540.1.1 = { # 236 BC Made up
+		death="yes"
+	}
+}
+
+# Sulpicius Paterculus
+
+170022 = {
+	name = "Quintus" # Quintus Sulpicius Paterculus
+	dynasty = 17001 # Sulpicius Paterculus
+	religion = roman_main
+	culture = latin
+	
+	father = 170008 # Servius Sulpicius Camerinus Rufus
+	
+	442.1.1 = { # 334 BC Made up
+		birth="yes"
+	}
+	479.1.1 = { # 297 BC Made up
+		death="yes"
+	}
+}
+170023 = {
+	name = "Quintus" # Quintus Sulpicius Paterculus
+	dynasty = 17001 # Sulpicius Paterculus
+	religion = roman_main
+	culture = latin
+	
+	father = 170022 # Quintus Sulpicius Paterculus
+	
+	469.1.1 = { # 307 BC Made up
+		birth="yes"
+	}
+	549.1.1 = { # 227 BC Made up
+		death="yes"
+	}
+}
+170024 = {
+	name = "Gaius" # Gaius Sulpicius Paterculus
+	dynasty = 17001 # Sulpicius Paterculus
+	religion = roman_main
+	culture = latin
+	
+	father = 170023 # Quintus Sulpicius Paterculus
+	
+	486.1.1 = { # 290 BC Made up
+		birth="yes"
+	}
+	519.1.1 = { # 257 BC Made up
+		death="yes"
+	}
+}
+
+# Sulpicius Gallus
+
+170025 = {
+	name = "Servius" # Servius Sulpicius Gallus
+	dynasty = 17001 # Sulpicius Gallus
+	religion = roman_main
+	culture = latin
+	
+	father = 170009 # Servius Sulpicius Camerinus Rufus
+	
+	452.1.1 = { # 324 BC Made up
+		birth="yes"
+	}
+	516.1.1 = { # 260 BC Made up
+		death="yes"
+	}
+}
+170026 = {
+	name = "Gaius" # Gaius Sulpicius Gallus
+	dynasty = 17001 # Sulpicius Gallus
+	religion = roman_main
+	culture = latin
+	
+	father = 170025 # Servius Sulpicius Gallus
+	
+	466.1.1 = { # 310 BC Made up
+		birth="yes"
+	}
+	538.1.1 = { # 238 BC Made up
+		death="yes"
+	}
+}
+170027 = {
+	name = "Gaius" # Gaius Sulpicius Gallus
+	dynasty = 17001 # Sulpicius Gallus
+	religion = roman_main
+	culture = latin
+	
+	father = 170026 # Gaius Sulpicius Gallus
+	
+	481.1.1 = { # 295 BC Made up
+		birth="yes"
+	}
+	551.1.1 = { # 225 BC Made up
 		death="yes"
 	}
 }
