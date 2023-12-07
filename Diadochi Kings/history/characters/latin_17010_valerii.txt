@@ -513,7 +513,7 @@
 	}
 }
 170939 = {
-	name = "Marcus" # Marcus Valerius Maximus Corvus
+	name = "Marcus" # Marcus Valerius Maximus Corvus Calenus
 	dynasty = 17010 # Valerii
 	religion = roman_main
 	culture = latin

@@ -1,37 +1,470 @@
 # 171101-171200 for the Claudii dynasty
 171101 = {
-	name = "Appius" # Claudius Caecus
+	name = "Marcus" # Marcus Clausus
 	dynasty = 17012 # Claudii
 	religion = roman_main
 	culture = latin
-	436.1.1 = { # 340 BC Made up
+	236.1.1 = { # 540 BC Made up
 		birth="yes"
 	}
-	503.1.1 = { # 273 BC Made up
+	273.1.1 = { # 470 BC Made up
 		death="yes"
 	}
 }
 171102 = {
-	name = "Marcus" # Claudius Marcellus
+	name = "Appius" # Appius Claudius Sabinus Regillensis
 	dynasty = 17012 # Claudii
 	religion = roman_main
 	culture = latin
-	443.1.1 = { # 333 BC Made up
+	father = 171101
+	256.1.1 = { # 520 BC Made up
 		birth="yes"
 	}
-	509.1.1 = { # 267 BC Made up
+	326.1.1 = { # 450 BC Made up
 		death="yes"
 	}
 }
 171103 = {
-	name = "Gaius" # Claudius Marcellus
+	name = "Gaius" # Gaius Claudius Sabinus Regillensis
 	dynasty = 17012 # Claudii
 	religion = roman_main
 	culture = latin
-	478.1.1 = { # 333 BC Made up
+	father = 171101
+	258.1.1 = { # 518 BC Made up
 		birth="yes"
 	}
-	542.1.1 = { # 267 BC Made up
+	341.1.1 = { # 435 BC Made up
+		death="yes"
+	}
+}
+171104 = {
+	name = "Appius" # Appius Claudius Crassinus Regillensis
+	dynasty = 17012 # Claudii
+	religion = roman_main
+	culture = latin
+	father = 171102
+	276.1.1 = { # 500 BC Made up
+		birth="yes"
+	}
+	346.1.1 = { # 430 BC Made up
+		death="yes"
+	}
+}
+171105 = {
+	name = "Appius" # Appius Claudius Crassinus Regillensis
+	dynasty = 17012 # Claudii
+	religion = roman_main
+	culture = latin
+	father = 171104
+	296.1.1 = { # 480 BC Made up
+		birth="yes"
+	}
+	356.1.1 = { # 420 BC Made up
+		death="yes"
+	}
+}
+171106 = {
+	name = "Titus" # Titus Claudius Crassus
+	dynasty = 17012 # Claudii
+	religion = roman_main
+	culture = latin
+	father = 171105
+	314.1.1 = { # 462 BC Made up
+		birth="yes"
+	}
+	376.1.1 = { # 400 BC Made up
+		death="yes"
+	}
+}
+171107 = {
+	name = "Publius" # Publius Claudius Crassus
+	dynasty = 17012 # Claudii
+	religion = roman_main
+	culture = latin
+	father = 171105
+	316.1.1 = { # 460 BC Made up
+		birth="yes"
+	}
+	366.1.1 = { # 410 BC Made up
+		death="yes"
+	}
+}
+171108 = {
+	name = "Appius" # Appius Claudius Crassus
+	dynasty = 17012 # Claudii
+	religion = roman_main
+	culture = latin
+	father = 171106
+	336.1.1 = { # 440 BC Made up
+		birth="yes"
+	}
+	396.1.1 = { # 380 BC Made up
+		death="yes"
+	}
+}
+171109 = {
+	name = "Appius" # Appius Claudius Crassus
+	dynasty = 17012 # Claudii
+	religion = roman_main
+	culture = latin
+	father = 171108
+	356.1.1 = { # 420 BC Made up
+		birth="yes"
+	}
+	437.1.1 = { # 339 BC Made up
+		death="yes"
+	}
+}
+171110 = {
+	name = "Gaius" # Gaius Claudius
+	dynasty = 17012 # Claudii
+	religion = roman_main
+	culture = latin
+	father = 171109
+	376.1.1 = { # 400 BC Made up
+		birth="yes"
+	}
+	436.1.1 = { # 340 BC Made up
+		death="yes"
+	}
+}
+171111 = {
+	name = "Appius" # Appius Claudius Caecus
+	dynasty = 17012 # Claudii
+	religion = roman_main
+	culture = latin
+	father = 171110
+	400.1.1 = { # 376 BC Made up
+		birth="yes"
+	}
+	492.1.1 = { # 284 BC Made up
+		death="yes"
+	}
+}
+171112 = {
+	name = "Appius" # Appius Claudius Caudex
+	dynasty = 17012 # Claudii
+	religion = roman_main
+	culture = latin
+	father = 171110
+	435.1.1 = { # 341 BC Made up
+		birth="yes"
+	}
+	516.1.1 = { # 260 BC Made up
+		death="yes"
+	}
+}
+171113 = {
+	name = "Appius" # Appius Claudius Russus
+	dynasty = 17012 # Claudii
+	religion = roman_main
+	culture = latin
+	father = 171111
+	416.1.1 = { # 360 BC Made up
+		birth="yes"
+	}
+	476.1.1 = { # 300 BC Made up
+		death="yes"
+	}
+}
+171114 = {
+	name = "Claudia" # Claudia Claudius
+	dynasty = 17012 # Claudii
+	religion = roman_main
+	female = yes
+	culture = latin
+	father = 171111
+	414.1.1 = { # 362 BC Made up
+		birth="yes"
+	}
+	444.1.1 = { # 332 BC Made up
+		death="yes"
+	}
+}
+171115 = {
+	name = "Publius" # Publius Claudius Pulcher
+	dynasty = 17012 # Claudii
+	religion = roman_main
+	culture = latin
+	father = 171111
+	432.1.1 = { # 344 BC Made up
+		birth="yes"
+	}
+	530.1.1 = { # 246 BC Made up
+		death="yes"
+	}
+}
+171116 = {
+	name = "Appius" # Appius Claudius Pulcher
+	dynasty = 17012 # Claudii
+	religion = roman_main
+	culture = latin
+	father = 171115
+	466.1.1 = { # 310 BC Made up
+		birth="yes"
+	}
+	565.1.1 = { # 211 BC Made up
+		death="yes"
+	}
+}
+171117 = {
+	name = "Quinta" # Quinta Claudia
+	dynasty = 17012 # Claudii
+	religion = roman_main
+	female = yes
+	culture = latin
+	father = 171115
+	454.1.1 = { # 322 BC Made up
+		birth="yes"
+	}
+	506.1.1 = { # 270 BC Made up
+		death="yes"
+	}
+}
+171118 = {
+	name = "Gaius" #  Gaius Claudius Centho
+	dynasty = 17012 # Claudii
+	religion = roman_main
+	culture = latin
+	father = 171111
+	466.1.1 = { # 310 BC Made up
+		birth="yes"
+	}
+	564.1.1 = { # 212 BC Made up
+		death="yes"
+	}
+}
+171119 = {
+	name = "Gaius" #  Gaius Claudius Centho
+	dynasty = 17012 # Claudii
+	religion = roman_main
+	culture = latin
+	father = 171118
+	480.1.1 = { # 296 BC Made up
+		birth="yes"
+	}
+	506.1.1 = { # 270 BC Made up
+		death="yes"
+	}
+}
+171120 = {
+	name = "Appius" # Appius Claudius Centho
+	dynasty = 17012 # Claudii
+	religion = roman_main
+	culture = latin
+	father = 171118
+	482.1.1 = { # 294 BC Made up
+		birth="yes"
+	}
+	516.1.1 = { # 260 BC Made up
+		death="yes"
+	}
+}
+171121 = {
+	name = "Tiberius" # Tiberius Cladius Nero
+	dynasty = 17012 # Claudii
+	religion = roman_main
+	culture = latin
+	father = 171111
+	458.1.1 = { # 318 BC Made up
+		birth="yes"
+	}
+	486.1.1 = { # 290 BC Made up
+		death="yes"
+	}
+}
+171122 = {
+	name = "Tiberius" # Tiberius Cladius Nero
+	dynasty = 17012 # Claudii
+	religion = roman_main
+	culture = latin
+	father = 171121
+	482.1.1 = { # 294 BC Made up
+		birth="yes"
+	}
+	501.1.1 = { # 275 BC Made up
+		death="yes"
+	}
+}
+171123 = {
+	name = "Publius" # Publius Cladius Nero
+	dynasty = 17012 # Claudii
+	religion = roman_main
+	culture = latin
+	father = 171121
+	480.1.1 = { # 296 BC Made up
+		birth="yes"
+	}
+	511.1.1 = { # 265 BC Made up
+		death="yes"
+	}
+}
+171124 = {
+	name = "Gaius" # Gaius Cladius Nero
+	dynasty = 17012 # Claudii
+	religion = roman_main
+	culture = latin
+	father = 171122
+	501.1.1 = { # 275 BC Made up
+		birth="yes"
+	}
+	596.1.1 = { # 180 BC Made up
+		death="yes"
+	}
+}
+171125 = {
+	name = "Tiberius" # Tiberius Claudius Nero
+	dynasty = 17012 # Claudii
+	religion = roman_main
+	culture = latin
+	father = 171123
+	506.1.1 = { # 270 BC Made up
+		birth="yes"
+	}
+	576.1.1 = { # 200 BC Made up
+		death="yes"
+	}
+}
+171126 = {
+	name = "Gaius" # Gaius Claudius
+	dynasty = 17012 # Claudii
+	religion = roman_main
+	culture = latin
+	father = 171105
+	317.1.1 = { # 459 BC Made up
+		birth="yes"
+	}
+	376.1.1 = { # 400 BC Made up
+		death="yes"
+	}
+}
+171127 = {
+	name = "Gaius" # Gaius Claudius
+	dynasty = 17012 # Claudii
+	religion = roman_main
+	culture = latin
+	father = 171126
+	341.1.1 = { # 435 BC Made up
+		birth="yes"
+	}
+	396.1.1 = { # 380 BC Made up
+		death="yes"
+	}
+}
+171128 = {
+	name = "Marcus" # Marcus Claudius Marcellus
+	dynasty = 17012 # Claudii
+	religion = roman_main
+	culture = latin
+	father = 171127
+	376.1.1 = { # 400 BC Made up
+		birth="yes"
+	}
+	455.1.1 = { # 321 BC Made up
+		death="yes"
+	}
+}
+171129 = {
+	name = "Marcus" # Marcus Claudius Marcellus
+	dynasty = 17012 # Claudii
+	religion = roman_main
+	culture = latin
+	father = 171128
+	411.1.1 = { # 365 BC Made up
+		birth="yes"
+	}
+	499.1.1 = { # 277 BC Made up
+		death="yes"
+	}
+}
+171130 = {
+	name = "Marcus" # Marcus Claudius Marcellus
+	dynasty = 17012 # Claudii
+	religion = roman_main
+	culture = latin
+	father = 171129
+	456.1.1 = { # 320 BC Made up
+		birth="yes"
+	}
+	516.1.1 = { # 260 BC Made up
+		death="yes"
+	}
+}
+171131 = {
+	name = "Marcus" # Marcus Claudius Marcellus
+	dynasty = 17012 # Claudii
+	religion = roman_main
+	culture = latin
+	father = 171130
+	507.1.1 = { # 269 BC Made up
+		birth="yes"
+	}
+	576.1.1 = { # 200 BC Made up
+		death="yes"
+	}
+}
+171132 = {
+	name = "Gaius" # Gaius Claudius
+	dynasty = 17012 # Claudii
+	religion = roman_main
+	culture = latin
+	father = 171106
+	341.1.1 = { # 435 BC Made up
+		birth="yes"
+	}
+	386.1.1 = { # 390 BC Made up
+		death="yes"
+	}
+}
+171133 = {
+	name = "Marcus" # Marcus Claudius
+	dynasty = 17012 # Claudii
+	religion = roman_main
+	culture = latin
+	father = 171132
+	366.1.1 = { # 410 BC Made up
+		birth="yes"
+	}
+	436.1.1 = { # 340 BC Made up
+		death="yes"
+	}
+}
+171134 = {
+	name = "Gaius" # Gaius Claudius Canina
+	dynasty = 17012 # Claudii
+	religion = roman_main
+	culture = latin
+	father = 171133
+	426.1.1 = { # 350 BC Made up
+		birth="yes"
+	}
+	506.1.1 = { # 270 BC Made up
+		death="yes"
+	}
+}
+171135 = {
+	name = "Gaius" # Gaius Claudius Calvius
+	dynasty = 17012 # Claudii
+	religion = roman_main
+	culture = latin
+	father = 171103
+	286.1.1 = { # 490 BC Made up
+		birth="yes"
+	}
+	346.1.1 = { # 430 BC Made up
+		death="yes"
+	}
+}
+171136 = {
+	name = "Gaius" # Gaius Claudius Hortator
+	dynasty = 17012 # Claudii
+	religion = roman_main
+	culture = latin
+	father = 171108
+	374.1.1 = { # 402 BC Made up
+		birth="yes"
+	}
+	446.1.1 = { # 330 BC Made up
 		death="yes"
 	}
 }

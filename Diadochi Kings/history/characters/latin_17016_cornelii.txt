@@ -332,7 +332,7 @@
 	400.1.1 = { # 376 BC Made up
 		birth="yes"
 	}
-	447.1.1 = { # 329 BC Made up
+	461.1.1 = { # 315 BC Made up
 		death="yes"
 	}
 }
