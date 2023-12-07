@@ -1,21 +1,523 @@
 # 170901-171000 for the Valerii dynasty
+
+# Valerius
+
 170901 = {
-	name = "Gaius" # Valerius Potitus
+	name = "Volesus" #  Volesus Valerius
 	dynasty = 17010 # Valerii
 	religion = roman_main
 	culture = latin
-	399.1.1 = { # 377 BC Made Up
+	1.1.1 = { # 776 BC Made Up
 		birth="yes"
 	}
-	463.1.1 = { # 313 BC Made Up
+	76.1.1 = { # 700 BC Made Up
 		death="yes"
 	}
 }
 170902 = {
-	name = "Marcus" # Valerius Maximus Corvus
+	name = "Marcus" # Marcus Valerius
 	dynasty = 17010 # Valerii
 	religion = roman_main
 	culture = latin
+	father = 170901
+	75.1.1 = { # 701 BC Made up
+		birth="yes"
+	}
+	136.1.1 = { # 640 BC Made up
+		death="yes"
+	}
+}
+170903 = {
+	name = "Decimus" # Decimus Valerius
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170902
+	134.1.1 = { # 642 BC Made up
+		birth="yes"
+	}
+	196.1.1 = { # 580 BC Made up
+		death="yes"
+	}
+}
+170904 = {
+	name = "Volesus" # Volesus Valerius
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170903
+	195.1.1 = { # 581 BC Made up
+		birth="yes"
+	}
+	246.1.1 = { # 530 BC Made up
+		death="yes"
+	}
+}
+
+# Valerius Poplicola
+
+170905 = {
+	name = "Publius" # Publius Valerius Poplicola
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170904
+	242.1.1 = { # 534 BC Made up
+		birth="yes"
+	}
+	273.1.1 = { # 503 BC Made up
+		death="yes"
+	}
+}
+170906 = {
+	name = "Marcus" # Marcus Valerius Poplicola
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170905
+	264.1.1 = { # 512 BC Made up
+		birth="yes"
+	}
+	306.1.1 = { # 470 BC Made up
+		death="yes"
+	}
+}
+170907 = {
+	name = "Publius" # Publius Valerius Poplicola
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170905
+	266.1.1 = { # 510 BC Made up
+		birth="yes"
+	}
+	317.1.1 = { # 459 BC Made up
+		death="yes"
+	}
+}
+170908 = {
+	name = "Valeria" # Valeria Valerius Poplicola
+	dynasty = 17010 # Valerii
+	female = yes
+	religion = roman_main
+	culture = latin
+	father = 170905
+	268.1.1 = { # 508 BC Made up
+		birth="yes"
+	}
+	316.1.1 = { # 460 BC Made up
+		death="yes"
+	}
+}
+170909 = {
+	name = "Lucius" # Lucius Valerius Poplicola
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170907
+	291.1.1 = { # 485 BC Made up
+		birth="yes"
+	}
+	336.1.1 = { # 440 BC Made up
+		death="yes"
+	}
+}
+170910 = {
+	name = "Lucius" # Lucius Valerius Poplicola
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170909
+	315.1.1 = { # 461 BC Made up
+		birth="yes"
+	}
+	401.1.1 = { # 375 BC Made up
+		death="yes"
+	}
+}
+170911 = {
+	name = "Publius" # Publius Valerius Poplicola
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170910
+	336.1.1 = { # 440 BC Made up
+		birth="yes"
+	}
+	386.1.1 = { # 390 BC Made up
+		death="yes"
+	}
+}
+170912 = {
+	name = "Marcus" # Marcus Valerius Poplicola
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170911
+	361.1.1 = { # 415 BC Made up
+		birth="yes"
+	}
+	426.1.1 = { # 350 BC Made up
+		death="yes"
+	}
+}
+170913 = {
+	name = "Publius" # Publius Valerius Poplicola
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170911
+	363.1.1 = { # 413 BC Made up
+		birth="yes"
+	}
+	446.1.1 = { # 330 BC Made up
+		death="yes"
+	}
+}
+
+# Valerius Falto 
+
+170914 = {
+	name = "Publius" # Publius Valerius Falto 
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170913
+	401.1.1 = { # 375 BC Made up
+		birth="yes"
+	}
+	456.1.1 = { # 320 BC Made up
+		death="yes"
+	}
+}
+170915 = {
+	name = "Quintus" # Quintus Valerius Falto
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170914
+	427.1.1 = { # 350 BC Made up
+		birth="yes"
+	}
+	476.1.1 = { # 300 BC Made up
+		death="yes"
+	}
+}
+170916 = {
+	name = "Quintus" # Quintus Valerius Falto
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170915
+	451.1.1 = { # 325 BC Made up
+		birth="yes"
+	}
+	546.1.1 = { # 230 BC Made up
+		death="yes"
+	}
+}
+170917 = {
+	name = "Publius" # Publius Valerius Falto
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170915
+	456.1.1 = { # 320 BC Made up
+		birth="yes"
+	}
+	566.1.1 = { # 210 BC Made up
+		death="yes"
+	}
+}
+170918 = {
+	name = "Marcus" # Marcus Valerius Falto
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170917
+	476.1.1 = { # 300 BC Made up
+		birth="yes"
+	}
+	586.1.1 = { # 190 BC Made up
+		death="yes"
+	}
+}
+
+# Valerius Flaccus
+
+ 
+170919 = {
+	name = "Lucius" # Lucius Valerius Flaccus
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170933
+	426.1.1 = { # 350 BC Made up
+		birth="yes"
+	}
+	476.1.1 = { # 300 BC Made up
+		death="yes"
+	}
+}
+170920 = {
+	name = "Marcus" # Marcus Valerius Flaccus
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170919
+	451.1.1 = { # 325 BC Made up
+		birth="yes"
+	}
+	506.1.1 = { # 270 BC Made up
+		death="yes"
+	}
+}
+170921 = {
+	name = "Lucius" # Lucius Valerius Flaccus
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170920
+	476.1.1 = { # 300 BC Made up
+		birth="yes"
+	}
+	526.1.1 = { # 250 BC Made up
+		death="yes"
+	}
+}
+170922 = {
+	name = "Publius" # Publius Valerius Flaccus
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170921
+	491.1.1 = { # 285 BC Made up
+		birth="yes"
+	}
+	566.1.1 = { # 210 BC Made up
+		death="yes"
+	}
+}
+
+# Valerius Pottitus
+
+170923 = {
+	name = "Marcus" # Marcus Valerius Volesus
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170904
+	226.1.1 = { # 550 BC Made up
+		birth="yes"
+	}
+	277.1.1 = { # 499 BC Made up
+		death="yes"
+	}
+}
+170924 = {
+	name = "Lucius" # Lucius Valerius Potitus
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170923
+	271.1.1 = { # 505 BC Made up
+		birth="yes"
+	}
+	316.1.1 = { # 460 BC Made up
+		death="yes"
+	}
+}
+170925 = {
+	name = "Volesus" # Volesus Valerius Potitus
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170924
+	296.1.1 = { # 480 BC Made up
+		birth="yes"
+	}
+	340.1.1 = { # 430 BC Made up
+		death="yes"
+	}
+}
+170926 = {
+	name = "Publius" # Publius Valerius Potitus
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170924
+	299.1.1 = { # 477 BC Made up
+		birth="yes"
+	}
+	356.1.1 = { # 420 BC Made up
+		death="yes"
+	}
+}
+170927 = {
+	name = "Lucius" # Lucius Valerius Potitus
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170925
+	321.1.1 = { # 455 BC Made up
+		birth="yes"
+	}
+	376.1.1 = { # 400 BC Made up
+		death="yes"
+	}
+}
+170928 = {
+	name = "Lucius" # Lucius Valerius Potitus
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170926
+	324.1.1 = { # 452 BC Made up
+		birth="yes"
+	}
+	386.1.1 = { # 390 BC Made up
+		death="yes"
+	}
+}
+170929 = {
+	name = "Gaius" # Gaius Valerius Potitus Volesus
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170927
+	341.1.1 = { # 435 BC Made up
+		birth="yes"
+	}
+	396.1.1 = { # 380 BC Made up
+		death="yes"
+	}
+}
+170930 = {
+	name = "Lucius" # Lucius Valerius Potitus
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170928
+	346.1.1 = { # 430 BC Made up
+		birth="yes"
+	}
+	406.1.1 = { # 370 BC Made up
+		death="yes"
+	}
+}
+170931 = {
+	name = "Publius" # Publius Valerius Potitus
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170929
+	366.1.1 = { # 410 BC Made up
+		birth="yes"
+	}
+	426.1.1 = { # 350 BC Made up
+		death="yes"
+	}
+}
+170932 = {
+	name = "Gaius" # Gaius Valerius Potitus
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170930
+	371.1.1 = { # 405 BC Made up
+		birth="yes"
+	}
+	436.1.1 = { # 340 BC Made up
+		death="yes"
+	}
+}
+170933 = {
+	name = "Gaius" # Gaius Valerius Potitus
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170931
+	396.1.1 = { # 380 BC Made up
+		birth="yes"
+	}
+	446.1.1 = { # 330 BC Made up
+		death="yes"
+	}
+}
+170934 = {
+	name = "Lucius" # Lucius Valerius Potitus
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170931
+	399.1.1 = { # 377 BC Made up
+		birth="yes"
+	}
+	456.1.1 = { # 320 BC Made up
+		death="yes"
+	}
+}
+
+# Valerius Maximus
+
+170935 = {
+	name = "Manius" # Manius Valerius Volusus Maximus
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170904
+	232.1.1 = { # 544 BC Made up
+		birth="yes"
+	}
+	313.1.1 = { # 463 BC Made up
+		death="yes"
+	}
+}
+170936 = {
+	name = "Marcus" # Marcus Valerius Maximus Lactuca
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170935
+	306.1.1 = { # 470 BC Made up
+		birth="yes"
+	}
+	346.1.1 = { # 430 BC Made up
+		death="yes"
+	}
+}
+170937 = {
+	name = "Marcus" # Marcus Valerius Lactuca Maximus
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170936
+	326.1.1 = { # 450 BC Made up
+		birth="yes"
+	}
+	366.1.1 = { # 410 BC Made up
+		death="yes"
+	}
+}
+170938 = {
+	name = "Marcus" # Marcus Valerius Lactuca Maximus
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170937
+	351.1.1 = { # 425 BC Made up
+		birth="yes"
+	}
+	416.1.1 = { # 360 BC Made up
+		death="yes"
+	}
+}
+170939 = {
+	name = "Marcus" # Marcus Valerius Maximus Corvus
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170938
 	406.1.1 = { # 370 BC Made up
 		birth="yes"
 	}
@@ -23,15 +525,126 @@
 		death="yes"
 	}
 }
-170903 = {
-	name = "Publius" # Valerius Laevinus
+170940 = {
+	name = "Marcus" # Marcus Valerius Maximus
 	dynasty = 17010 # Valerii
 	religion = roman_main
 	culture = latin
-	443.1.1 = { # 333 BC Made up
+	father = 170939
+	421.1.1 = { # 355 BC Made up
 		birth="yes"
 	}
-	529.1.1 = { # 267 BC Made up
+	486.1.1 = { # 290 BC Made up
+		death="yes"
+	}
+}
+170941 = {
+	name = "Marcus" # Marcus Valerius Maximus
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170940
+	441.1.1 = { # 335 BC Made up
+		birth="yes"
+	}
+	516.1.1 = { # 260 BC Made up
+		death="yes"
+	}
+}
+170942 = {
+	name = "Marcus" # Marcus Valerius Maximus Potitus
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170941
+	466.1.1 = { # 310 BC Made up
+		birth="yes"
+	}
+	536.1.1 = { # 240 BC Made up
+		death="yes"
+	}
+}
+
+# Valerius Messalla
+
+170943 = {
+	name = "Manius" # Manius Valerius Maximus Messalla
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170941
+	489.1.1 = { # 287 BC Made up
+		birth="yes"
+	}
+	556.1.1 = { # 220 BC Made up
+		death="yes"
+	}
+}
+170944 = {
+	name = "Marcus" # Marcus Valerius Maximus Messalla
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170943
+	516.1.1 = { # 260 BC Made up
+		birth="yes"
+	}
+	566.1.1 = { # 210 BC Made up
+		death="yes"
+	}
+}
+170945 = {
+	name = "Marcus" # Marcus Valerius Messalla
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170944
+	541.1.1 = { # 235 BC Made up
+		birth="yes"
+	}
+	596.1.1 = { # 180 BC Made up
+		death="yes"
+	}
+}
+
+# Valerius Laevinus
+
+170946 = {
+	name = "Publius" # Publius Valerius Laevinus
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170934
+	446.1.1 = { # 330 BC Made up
+		birth="yes"
+	}
+	516.1.1 = { # 260 BC Made up
+		death="yes"
+	}
+}
+170947 = {
+	name = "Publius" # Publius Valerius Laevinus
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170946
+	471.1.1 = { # 305 BC Made up
+		birth="yes"
+	}
+	536.1.1 = { # 240 BC Made up
+		death="yes"
+	}
+}
+170948 = {
+	name = "Marcus" # Marcus Valerius Laevinus
+	dynasty = 17010 # Valerii
+	religion = roman_main
+	culture = latin
+	father = 170947
+	496.1.1 = { # 280 BC Made up
+		birth="yes"
+	}
+	576.1.1 = { # 200 BC Made up
 		death="yes"
 	}
 }
