@@ -138,6 +138,21 @@
 		death="yes"
 	}
 }
+171547 = {
+	name = "Aulus" # Aulus Cornelius
+	dynasty = 17016 # Cornelius Maluginensis
+	religion = roman_main
+	culture = latin
+	
+	father = 171502 # Servius Cornelius Maluginensis Tricostus
+	
+	287.1.1 = { # 489 BC Made up
+		birth="yes"
+	}
+	331.1.1 = { # 445 BC Made up
+		death="yes"
+	}
+}
 
 # Cornelius Cossus
 
@@ -317,7 +332,7 @@
 	400.1.1 = { # 376 BC Made up
 		birth="yes"
 	}
-	437.1.1 = { # 339 BC Made up
+	461.1.1 = { # 315 BC Made up
 		death="yes"
 	}
 }
@@ -660,6 +675,87 @@
 		birth="yes"
 	}
 	567.1.1 = { # 209 BC Made Up
+		death="yes"
+	}
+}
+
+# Cornelius Dolabella
+
+171544 = {
+	name = "Publius" # Publius Cornelius Dolabella Maximus
+	dynasty = 17016 # Cornelius Dolabella
+	religion = roman_main
+	culture = latin
+	
+	father = 171509 # Marcus Cornelius Maluginensis
+	
+	443.1.1 = { # 333 BC Made Up
+		birth="yes"
+	}
+	494.1.1 = { # 282 BC Made Up
+		death="yes"
+	}
+}
+171545 = {
+	name = "Gnaeus" # Gnaeus Cornelius Dolabella
+	dynasty = 17016 # Cornelius Dolabella
+	religion = roman_main
+	culture = latin
+	
+	father = 171544 # Publius Cornelius Dolabella Maximus
+	
+	485.1.1 = { # 291 BC Made Up
+		birth="yes"
+	}
+	575.1.1 = { # 201 BC Made Up
+		death="yes"
+	}
+}
+171546 = {
+	name = "Marcus" # Marcus Cornelius Dolabella
+	dynasty = 17016 # Cornelius Dolabella
+	religion = roman_main
+	culture = latin
+	
+	father = 171544 # Publius Cornelius Dolabella Maximus
+	
+	488.1.1 = { # 288 BC Made Up
+		birth="yes"
+	}
+	576.1.1 = { # 200 BC Made Up
+		death="yes"
+	}
+}
+
+# Other
+
+171548 = {
+	name = "Publius" # Publius Cornelius Calussa
+	dynasty = 17016 # Cornelius Calussa
+	religion = roman_main
+	culture = latin
+	
+	father = 171511 # Aulus Cornelius Cossus
+	
+	404.1.1 = { # 372 BC Made up
+		birth="yes"
+	}
+	454.1.1 = { # 322 BC Made up
+		death="yes"
+	}
+}
+171549 = {
+	name = "Gnaeus" # Gnaeus Cornelius Blassio
+	dynasty = 17016 # Cornelius Blassio
+	religion = roman_main
+	culture = latin
+	
+	father = 171539 # Lucius Cornelius Scipio Barbatos
+	
+	472.1.1 = { # 300 BC Made Up
+		birth="yes"
+	}
+	530.1.1 = { # 240 BC Made Up
 		death="yes"
 	}
 }

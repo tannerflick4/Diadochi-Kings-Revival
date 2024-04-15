@@ -1,69 +1,471 @@
 # 170301-170400 for the Fabii dynasty
+
+# Fabius Vibulanus
+
 170301 = {
-	name = "Hortensius" # Fabius Ambustus, made up to connect Gaius to the other members
+	name = "Caeso" # Caeso Fabius Vibulanus
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin
-	348.1.1 = { # 428 BC Made Up
+	224.1.1 = { # 552 BC Made Up
 		birth="yes"
 		create_bloodline = {
 			type = bloodline_fabii
 			has_dlc = "Holy Fury"
 		}
 	}
-	432.1.1 = { # 344 BC Made Up
+	299.1.1 = { # 477 BC Made Up
 		death="yes"
 	}
 }
 170302 = {
-	name = "Gaius" # Fabius Ambustus
+	name = "Quintus" # Quintus Fabius Vibulanus
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin
-	368.1.1 = { # 408 BC Made Up
+	father = 170301
+	251.1.1 = { # 525 BC Made Up
 		birth="yes"
 	}
-	452.1.1 = { # 324 BC Made Up
+	296.1.1 = { # 480 BC Made Up
 		death="yes"
 	}
 }
 170303 = {
-	name = "Marcus" # Fabius Ambustus
+	name = "Caeso" # Caeso Fabius Vibulanus
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin
-	add_trait = tough_soldier
-	371.1.1 = { # 405 BC Made up
+	father = 170301
+	252.1.1 = { # 524 BC Made up
 		birth="yes"
 	}
-	445.1.1 = { # 321 BC Made up
+	299.1.1 = { # 477 BC Made up
 		death="yes"
 	}
 }
 170304 = {
-	name = "Quintus" # Fabius Maximus Rullianus
+	name = "Marcus" # Marcus Fabius Vibulanus
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin
-
-	add_trait = wroth
-
-	423.1.1 = { # 353 BC Made up
+	father = 170301
+	253.1.1 = { # 523 BC Made up
 		birth="yes"
 	}
-	482.1.1 = { # 294 BC Made up
+	299.1.1 = { # 477 BC Made up
 		death="yes"
 	}
 }
 170305 = {
-	name = "Quintus" # Fabius Maximus Gurges
+	name = "Quintus" # Quintus Fabius Vibulanus
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin
-	443.1.1 = { # 333 BC Made up
+	father = 170304
+	282.1.1 = { # 494 BC Made up
 		birth="yes"
 	}
-	509.1.1 = { # 267 BC Made up
+	353.1.1 = { # 424 BC Made up
+		death="yes"
+	}
+}
+170306 = {
+	name = "Marcus" # Marcus Fabius Vibulanus
+	dynasty = 17004 # Fabii
+	religion = roman_main
+	culture = latin
+	father = 170305
+	314.1.1 = { # 462 BC Made up
+		birth="yes"
+	}
+	373.1.1 = { # 403 BC Made up
+		death="yes"
+	}
+}
+
+170307 = {
+	name = "Numerius" # Numerius Fabius Vibulanus
+	dynasty = 17004 # Fabii
+	religion = roman_main
+	culture = latin
+	father = 170306
+	332.1.1 = { # 444 BC Made up
+		birth="yes"
+	}
+	399.1.1 = { # 377 BC Made up
+		death="yes"
+	}
+}
+170308 = {
+	name = "Quintus" # Quintus Fabius Vibulanus
+	dynasty = 17004 # Fabii
+	religion = roman_main
+	culture = latin
+	father = 170305
+	322.1.1 = { # 454 BC Made up
+		birth="yes"
+	}
+	394.1.1 = { # 382 BC Made up
+		death="yes"
+	}
+}
+
+#Fabius Ambustus
+
+170309 = {
+	name = "Marcus" # Marcus Fabius Ambustus
+	dynasty = 17004 # Fabii
+	religion = roman_main
+	culture = latin
+	father = 170308
+	338.1.1 = { # 438 BC Made up
+		birth="yes"
+	}
+	418.1.1 = { # 358 BC Made up
+		death="yes"
+	}
+}
+170310 = {
+	name = "Caeso" # Caeso Fabius Ambustus
+	dynasty = 17004 # Fabii
+	religion = roman_main
+	culture = latin
+	father = 170309
+	352.1.1 = { # 424 BC Made up
+		birth="yes"
+	}
+	414.1.1 = { # 362 BC Made up
+		death="yes"
+	}
+}
+170311 = {
+	name = "Numerius" # Numerius Fabius Ambustus
+	dynasty = 17004 # Fabii
+	religion = roman_main
+	culture = latin
+	father = 170309
+	356.1.1 = { # 420 BC Made up
+		birth="yes"
+	}
+	417.1.1 = { # 359 BC Made up
+		death="yes"
+	}
+}
+170312 = {
+	name = "Quintus" # Quintus Fabius Ambustus
+	dynasty = 17004 # Fabii
+	religion = roman_main
+	culture = latin
+	father = 170309
+	366.1.1 = { # 410 BC Made up
+		birth="yes"
+	}
+	412.1.1 = { # 364 BC Made up
+		death="yes"
+	}
+}
+170313 = {
+	name = "Marcus" # Marcus Fabius Ambustus
+	dynasty = 17004 # Fabii
+	religion = roman_main
+	culture = latin
+	father = 170310
+	370.1.1 = { # 406 BC Made up
+		birth="yes"
+	}
+	448.1.1 = { # 328 BC Made up
+		death="yes"
+	}
+}
+170314 = {
+	name = "Fabia" # Fabia Fabius Ambustus
+	dynasty = 17004 # Fabii
+	religion = roman_main
+	culture = latin
+	female = yes
+	father = 170313
+	386.1.1 = { # 390 BC Made up
+		birth="yes"
+	}
+	434.1.1 = { # 342 BC Made up
+		death="yes"
+	}
+}
+170315 = {
+	name = "Fabia" # Fabia Fabius Ambustus
+	dynasty = 17004 # Fabii
+	religion = roman_main
+	culture = latin
+	female = yes
+	father = 170313
+	397.1.1 = { # 379 BC Made up
+		birth="yes"
+	}
+	459.1.1 = { # 317 BC Made up
+		death="yes"
+	}
+}
+170316 = {
+	name = "Marcus" # Marcus Fabius Ambustus
+	dynasty = 17004 # Fabii
+	religion = roman_main
+	culture = latin
+	father = 170311
+	414.1.1 = { # 362 BC Made up
+		birth="yes"
+	}
+	481.1.1 = { # 295 BC Made up
+		death="yes"
+	}
+}
+170317 = {
+	name = "Gaius" # Gaius Fabius Ambustus
+	dynasty = 17004 # Fabii
+	religion = roman_main
+	culture = latin
+	father = 170311
+	399.1.1 = { # 377 BC Made up
+		birth="yes"
+	}
+	449.1.1 = { # 327 BC Made up
+		death="yes"
+	}
+}
+170318 = {
+	name = "Marcus" # Marcus Fabius Ambustus
+	dynasty = 17004 # Fabii
+	religion = roman_main
+	culture = latin
+	father = 170316
+	438.1.1 = { # 338 BC Made up
+		birth="yes"
+	}
+	489.1.1 = { # 287 BC Made up
+		death="yes"
+	}
+}
+170319 = {
+	name = "Quintus" # Quintus Fabius Ambustus
+	dynasty = 17004 # Fabii
+	religion = roman_main
+	culture = latin
+	father = 170317
+	434.1.1 = { # 342 BC Made up
+		birth="yes"
+	}
+	490.1.1 = { # 286 BC Made up
+		death="yes"
+	}
+}
+170320 = {
+	name = "Gaius" # Gaius Fabius Ambustus
+	dynasty = 17004 # Fabii
+	religion = roman_main
+	culture = latin
+	father = 170316
+	430.1.1 = { # 346 BC Made up
+		birth="yes"
+	}
+	489.1.1 = { # 287 BC Made up
+		death="yes"
+	}
+}
+
+# Fabius Dorsuo
+
+170321 = {
+	name = "Gaius" # Gaius Fabius Dorsuo
+	dynasty = 17004 # Fabii
+	religion = roman_main
+	culture = latin
+	father = 170312
+	384.1.1 = { # 392 BC Made up
+		birth="yes"
+	}
+	398.1.1 = { # 378 BC Made up
+		death="yes"
+	}
+}
+170322 = {
+	name = "Marcus" # Marcus Fabius Dorsuo
+	dynasty = 17004 # Fabii
+	religion = roman_main
+	culture = latin
+	father = 170321
+	398.1.1 = { # 378 BC Made up
+		birth="yes"
+	}
+	462.1.1 = { # 314 BC Made up
+		death="yes"
+	}
+}
+170323 = {
+	name = "Gaius" # Gaius Fabius Dorsuo Licinus
+	dynasty = 17004 # Fabii
+	religion = roman_main
+	culture = latin
+	father = 170322
+	452.1.1 = { # 324 BC Made up
+		birth="yes"
+	}
+	533.1.1 = { # 243 BC Made up
+		death="yes"
+	}
+}
+
+
+# Fabius Maximus
+
+170324 = {
+	name = "Quintus" # Quintus Fabius Maximus Rullianus
+	dynasty = 17004 # Fabii
+	religion = roman_main
+	culture = latin
+	father = 170316
+	434.1.1 = { # 342 BC Made up
+		birth="yes"
+	}
+	511.1.1 = { # 265 BC Made up
+		death="yes"
+	}
+}
+170325 = {
+	name = "Quintus" # Quintus Fabius Maximus Gurges
+	dynasty = 17004 # Fabii
+	religion = roman_main
+	culture = latin
+	father = 170324
+	461.1.1 = { # 315 BC Made up
+		birth="yes"
+	}
+	541.1.1 = { # 235 BC Made up
+		death="yes"
+	}
+}
+170326 = {
+	name = "Quintus" # Quintus Fabius Maximus Verrucosus
+	dynasty = 17004 # Fabii
+	religion = roman_main
+	culture = latin
+	father = 170325
+	496.1.1 = { # 280 BC Made up
+		birth="yes"
+	}
+	573.1.1 = { # 203 BC Made up
+		death="yes"
+	}
+}
+170327 = {
+	name = "Quintus" # Quintus Fabius Maximus
+	dynasty = 17004 # Fabii
+	religion = roman_main
+	culture = latin
+	father = 170326
+	535.1.1 = { # 241 BC Made up
+		birth="yes"
+	}
+	603.1.1 = { # 173 BC Made up
+		death="yes"
+	}
+}
+
+# Fabius Pictor
+
+170328 = {
+	name = "Gaius" # Gaius Fabius Pictor
+	dynasty = 17004 # Fabii
+	religion = roman_main
+	culture = latin
+	father = 170322
+	437.1.1 = { # 339 BC Made up
+		birth="yes"
+	}
+	507.1.1 = { # 269 BC Made up
+		death="yes"
+	}
+}
+170329 = {
+	name = "Gaius" # Gaius Fabius Pictor
+	dynasty = 17004 # Fabii
+	religion = roman_main
+	culture = latin
+	father = 170328
+	484.1.1 = { # 292 BC Made up
+		birth="yes"
+	}
+	536.1.1 = { # 240 BC Made up
+		death="yes"
+	}
+}
+170330 = {
+	name = "Numerius" # Numerius Fabius Pictor
+	dynasty = 17004 # Fabii
+	religion = roman_main
+	culture = latin
+	father = 170328
+	473.1.1 = { # 303 BC Made up
+		birth="yes"
+	}
+	536.1.1 = { # 240 BC Made up
+		death="yes"
+	}
+}
+170331 = {
+	name = "Quintus" # Quintus Fabius Pictor
+	dynasty = 17004 # Fabii
+	religion = roman_main
+	culture = latin
+	father = 170329
+	506.1.1 = { # 270 BC Made up
+		birth="yes"
+	}
+	576.1.1 = { # 200 BC Made up
+		death="yes"
+	}
+}
+
+# Fabius Buteo
+
+170332 = {
+	name = "Numerius" # Numerius Fabius Buteo
+	dynasty = 17004 # Fabii
+	religion = roman_main
+	culture = latin
+	father = 170323
+	488.1.1 = { # 288 BC Made up
+		birth="yes"
+	}
+	563.1.1 = { # 213 BC Made up
+		death="yes"
+	}
+}
+170333 = {
+	name = "Marcus" # Marcus Fabius Buteo
+	dynasty = 17004 # Fabii
+	religion = roman_main
+	culture = latin
+	father = 170332
+	502.1.1 = { # 274 BC Made up
+		birth="yes"
+	}
+	567.1.1 = { # 209 BC Made up
+		death="yes"
+	}
+}
+
+# Extra
+
+170334 = {
+	name = "Marcus" # Marcus Fabius Dorsuo Licinus
+	dynasty = 17004 # Fabii
+	religion = roman_main
+	culture = latin
+	father = 170323
+	476.1.1 = { # 300 BC Made up
+		birth="yes"
+	}
+	557.1.1 = { # 219 BC Made up
 		death="yes"
 	}
 }

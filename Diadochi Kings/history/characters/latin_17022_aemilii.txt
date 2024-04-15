@@ -1,376 +1,438 @@
 # 172101-172200 for the Aemilii dynasty
 172101 = {
-	name = "Lucius" # Aemilius Mamercinus Privernas
+	name = "Mnesarchus"
 	dynasty = 17022 # Aemilii
-	religion = roman_main
+	religion = greek_main
 	culture = latin
-	add_trait = tough_soldier
-	father=172106	#Publius
-    mother=172131   #Eustathia
-	378.1.1 = { # 398 BC Made Up
-		birth="yes"
+	father = 59904
+	mother = 59906
+	
+	245.1.1 = { # 531 BC
+		birth = yes
 	}
-	450.1.1 = { # 326 BC Made Up
-		death="yes"
+	341.1.1 = { # 435 BC
+		death = yes
 	}
 }
+
+# Aemilius Mamercus et Mamercinus 
+
 172102 = {
-	name = "Tiberius" # Aemilius Mamercinus
+	name = "Lucius" # Lucius Aemilius Mamercus
 	dynasty = 17022 # Aemilii
 	religion = roman_main
 	culture = latin
-	father=172106	#Publius
-    mother=172131   #Eustathia
-	381.1.1 = { # 395 BC Made Up
-		birth="yes"
+	father = 172101
+	
+	266.1.1 = { # 510 BC
+		birth = yes
 	}
-	463.1.1 = { # 313 BC Made Up
-		death="yes"
+	325.1.1 = { # 451 BC
+		death = yes
 	}
 }
 172103 = {
-	name = "Lucius" # Aemilius Barbula
+	name = "Tiberius" # Tiberius Aemilius Mamercus
 	dynasty = 17022 # Aemilii
 	religion = roman_main
 	culture = latin
-	add_trait = skilled_tactician
-	add_trait = proud
-	father=172121	#Caecilius
-	mother=172134   #Naevia
-	443.1.1 = { # 333 BC Made up
-		birth="yes"
+	father = 172102
+	
+	281.1.1 = { # 495 BC
+		birth = yes
 	}
-	509.1.1 = { # 267 BC Made up
-		death="yes"
+	336.1.1 = { # 440 BC
+		death = yes
 	}
 }
-172104={
-	name=Apollodorus
-	dynasty=17022
-	culture=latin 
-	religion=roman_main
-	318.1.26={ birth=yes }
-	338.1.1={ add_spouse=172130 }
-	370.5.25={ death=yes }
+172104 = {
+	name = "Gaius" # Gaius Aemilius Mamercus
+	dynasty = 17022 # Aemilii
+	religion = roman_main
+	culture = latin
+	father = 172102
+	
+	286.1.1 = { # 490 BC
+		birth = yes
+	}
+	351.1.1 = { # 425 BC
+		death = yes
+	}
 }
-172105={
-	name=Drusilla
-	female=yes
-	dynasty=17022
-	culture=latin 
-	religion=roman_main
-	father=172104	#Apollodorus
-	mother=172130	#Drusilla
-	342.4.14={ birth=yes }
-	397.1.12={ death=yes }
+172105 = {
+	name = "Mamercus" # Mamercus Aemilius Mamercinus
+	dynasty = 17022 # Aemilii
+	religion = roman_main
+	culture = latin
+	father = 172103
+	
+	301.1.1 = { # 475 BC
+		birth = yes
+	}
+	376.1.1 = { # 400 BC
+		death = yes
+	}
 }
-172106={
-	name=Publius
-	dynasty=17022
-	culture=latin 
-	religion=roman_main 
-	father=172104	#Apollodorus
-	mother=172130	#Drusilla
-	343.12.25={ birth=yes }
-    363.1.1={ add_spouse=172131 }
-	390.3.21={ death=yes }
+172106 = {
+	name = "Manius" # Manius Aemilius Mamercinus
+	dynasty = 17022 # Aemilii
+	religion = roman_main
+	culture = latin
+	father = 172105
+	
+	331.1.1 = { # 445 BC
+		birth = yes
+	}
+	384.1.1 = { # 392 BC
+		death = yes
+	}
 }
-172107={
-	name=Micio
-	dynasty=17022
-	culture=latin 
-	religion=roman_main
-	father=172104	#Apollodorus
-	mother=172130	#Drusilla
-	346.10.4={ birth=yes }
-	395.10.4={ death=yes }
+172107 = {
+	name = "Gaius" # Gaius Aemilius Mamercinus
+	dynasty = 17022 # Aemilii
+	religion = roman_main
+	culture = latin
+	father = 172105
+	
+	351.1.1 = { # 425 BC
+		birth = yes
+	}
+	406.1.1 = { # 370 BC
+		death = yes
+	}
 }
-172108={
-	name=Eustathia
-	female=yes
-	dynasty=17022
-	culture=latin 
-	religion=roman_main
-	father=172104	#Apollodorus
-    mother=172130	#Drusilla
-	349.1.11={ birth=yes }
-	405.7.15={ death=yes }
+172108 = {
+	name = "Lucius" # Lucius Aemilius Mamercinus
+	dynasty = 17022 # Aemilii
+	religion = roman_main
+	culture = latin
+	father = 172105
+	
+	356.1.1 = { # 420 BC
+		birth = yes
+	}
+	400.1.1 = { # 376 BC
+		death = yes
+	}
 }
-172109={
-	name=Plautus
-	dynasty=17022
-	culture=latin 
-	religion=roman_main
-	father=172104	#Apollodorus
-    mother=172130	#Drusilla
-	354.10.10={ birth=yes }
-	423.8.7={ death=yes }
+172109 = {
+	name = "Lucius" # Lucius Aemilius Mamercinus
+	dynasty = 17022 # Aemilii
+	religion = roman_main
+	culture = latin
+	father = 172108
+	
+	376.1.1 = { # 400 BC
+		birth = yes
+	}
+	421.1.1 = { # 355 BC
+		death = yes
+	}
 }
-172110={
-	name=Colunella
-	dynasty=17022
-	culture=latin 
-	religion=roman_main
-	father=172106	#Publius
-    mother=172131   #Eustathia
-	367.6.15={ birth=yes }
-    387.1.1={ add_spouse=172132 }
-	414.9.28={ death=yes }
+172110 = {
+	name = "Lucius" # Lucius Aemilius Mamercinus Privernas
+	dynasty = 17022 # Aemilii
+	religion = roman_main
+	culture = latin
+	father = 172109
+	
+	406.1.1 = { # 370 BC
+		birth = yes
+	}
+	468.1.1 = { # 308 BC
+		death = yes
+	}
 }
-172111={
-	name=Annius
-	dynasty=17022
-	culture=latin 
-	religion=roman_main
-	father=172106	#Publius
-    mother=172131   #Eustathia
-	371.8.13={ birth=yes }
-	425.12.22={ death=yes }
+172111 = {
+	name = "Tiberius" # Tiberius Aemilius Mamercinus
+	dynasty = 17022 # Aemilii
+	religion = roman_main
+	culture = latin
+	father = 172109
+	
+	401.1.1 = { # 375 BC
+		birth = yes
+	}
+	451.1.1 = { # 325 BC
+		death = yes
+	}
 }
-172112={
-	name=Caecilius
-	dynasty=17022
-	culture=latin 
-	religion=roman_main
-	father=172106	#Publius
-    mother=172131   #Eustathia
-	374.5.22={ birth=yes }
-	446.7.20={ death=yes }
+
+# Aemilius Papus
+
+172112 = {
+	name = "Marcus" # Marcus Aemilius Papus
+	dynasty = 17022 # Aemilii
+	religion = roman_main
+	culture = latin
+	father = 172110
+	
+	419.1.1 = { # 357 BC
+		birth = yes
+	}
+	466.1.1 = { # 310 BC
+		death = yes
+	}
 }
-172113={
-	name=Maxima
-	female=yes
-	dynasty=17022
-	culture=latin 
-	religion=roman_main
-	father=172106	#Publius
-    mother=172131   #Eustathia
-	376.7.12={ birth=yes }
-	448.7.25={ death=yes }
+172113 = {
+	name = "Quintus" # Quintus Aemilius Papus
+	dynasty = 17022 # Aemilii
+	religion = roman_main
+	culture = latin
+	father = 172112
+	
+	456.1.1 = { # 320 BC
+		birth = yes
+	}
+	504.1.1 = { # 272 BC
+		death = yes
+	}
 }
-172114={
-	name=Publius
-	dynasty=17022
-	culture=latin 
-	religion=roman_main
-	father=172110	#Colunella
-    mother=172132   #Maxima
-	394.6.4={ birth=yes }
-    414.1.1={ add_spouse=172133 }
-	443.12.28={ death=yes }
+172114 = {
+	name = "Marcus" # Marcus Aemilius Papus
+	dynasty = 17022 # Aemilii
+	religion = roman_main
+	culture = latin
+	father = 172113
+	
+	481.1.1 = { # 295 BC
+		birth = yes
+	}
+	536.1.1 = { # 240 BC
+		death = yes
+	}
 }
-172115={
-	name=Marcellinus
-	dynasty=17022
-	culture=latin 
-	religion=roman_main
-	father=172110	#Colunella
-    mother=172132   #Maxima
-	397.7.4={ birth=yes }
-	446.5.4={ death=yes }
+172115 = {
+	name = "Lucius" # Lucius Aemilius Papus
+	dynasty = 17022 # Aemilii
+	religion = roman_main
+	culture = latin
+	father = 172114
+	
+	511.1.1 = { # 265 BC
+		birth = yes
+	}
+	561.1.1 = { # 215 BC
+		death = yes
+	}
 }
-172116={
-	name=Paulina
-	female=yes
-	dynasty=17022
-	culture=latin 
-	religion=roman_main
-	father=172110	#Colunella
-    mother=172132   #Maxima
-	400.11.11={ birth=yes }
-	478.7.23={ death=yes }
+172116 = {
+	name = "Marcus" # Marcus Aemilius Papus
+	dynasty = 17022 # Aemilii
+	religion = roman_main
+	culture = latin
+	father = 172114
+	
+	506.1.1 = { # 270 BC
+		birth = yes
+	}
+	566.1.1 = { # 210 BC
+		death = yes
+	}
 }
-172117={
-	name=Traianus
-	dynasty=17022
-	culture=latin 
-	religion=roman_main
-	father=172110	#Colunella
-    mother=172132   #Maxima
-	403.1.18={ birth=yes }
-	464.9.14={ death=yes }
+
+# Aemilius Barbula
+
+172117 = {
+	name = "Quintus" # Quintus Aemilius Barbula
+	dynasty = 17022 # Aemilii
+	religion = roman_main
+	culture = latin
+	father = 172110
+	
+	431.1.1 = { # 345 BC
+		birth = yes
+	}
+	476.1.1 = { # 300 BC
+		death = yes
+	}
 }
-172118={
-	name=Paulinus
-	dynasty=17022
-	culture=latin 
-	religion=roman_main
-	father=172110	#Colunella
-    mother=172132   #Maxima
-	407.7.16={ birth=yes }
-	464.5.29={ death=yes }
+172118 = {
+	name = "Marcus" # Marcus Aemilius Barbula
+	dynasty = 17022 # Aemilii
+	religion = roman_main
+	culture = latin
+	father = 172117
+	
+	456.1.1 = { # 320 BC
+		birth = yes
+	}
+	506.1.1 = { # 270 BC
+		death = yes
+	}
 }
-172119={
-	name=Naevia
-	female=yes
-	dynasty=17022
-	culture=latin 
-	religion=roman_main
-	father=172110	#Colunella
-    mother=172132   #Maxima
-	410.2.18={ birth=yes }
-	476.2.14={ death=yes }
+172119 = {
+	name = "Lucius" # Lucius Aemilius Barbula
+	dynasty = 17022 # Aemilii
+	religion = roman_main
+	culture = latin
+	father = 172117
+	
+	466.1.1 = { # 310 BC
+		birth = yes
+	}
+	506.1.1 = { # 270 BC
+		death = yes
+	}
 }
-172120={
-	name=Appius
-	dynasty=17022
-	culture=latin 
-	religion=roman_main
-	father=172110	#Colunella
-    mother=172132   #Maxima
-	413.8.24={ birth=yes }
-	469.5.2={ death=yes }
+172120 = {
+	name = "Marcus" # Marcus Aemilius Barbula
+	dynasty = 17022 # Aemilii
+	religion = roman_main
+	culture = latin
+	father = 172119
+	
+	496.1.1 = { # 280 BC
+		birth = yes
+	}
+	556.1.1 = { # 220 BC
+		death = yes
+	}
 }
-172121={
-	name=Caecilius
-	dynasty=17022
-	culture=latin 
-	religion=roman_main
-	father=172114	#Publius
-    mother=172133   #Paulina
-	416.4.10={ birth=yes }
-    436.1.1={ add_spouse=172134 }
-	486.12.21={ death=yes }
+
+# Aemilius Paullus
+
+172121 = {
+	name = "Marcus" # Marcus Aemilius Paullus
+	dynasty = 17022 # Aemilii
+	religion = roman_main
+	culture = latin
+	father = 172110
+	
+	446.1.1 = { # 330 BC
+		birth = yes
+	}
+	501.1.1 = { # 275 BC
+		death = yes
+	}
 }
-172122={
-	name=Turpia
-	female=yes
-	dynasty=17022
-	culture=latin 
-	religion=roman_main
-	father=172114	#Publius
-    mother=172133   #Paulina
-	421.1.1={ birth=yes }
-	481.8.10={ death=yes }
+172122 = {
+	name = "Marcus" # Marcus Aemilius Paullus
+	dynasty = 17022 # Aemilii
+	religion = roman_main
+	culture = latin
+	father = 172121
+	
+	486.1.1 = { # 290 BC
+		birth = yes
+	}
+	546.1.1 = { # 230 BC
+		death = yes
+	}
 }
-172123={
-	name=Paetus
-	dynasty=17022
-	culture=latin 
-	religion=roman_main
-	father=172121	#Caecilius
-    mother=172134   #Naevia
-	439.8.19={ birth=yes }
-    459.1.1={ add_spouse=172135 }
-	485.11.21={ death=yes }
+172123 = {
+	name = "Lucius" # Lucius Aemilius Paullus
+	dynasty = 17022 # Aemilii
+	religion = roman_main
+	culture = latin
+	father = 172122
+	
+	516.1.1 = { # 260 BC
+		birth = yes
+	}
+	560.1.1 = { # 216 BC
+		death = yes
+	}
 }
-172124={
-	name=Atilius
-	dynasty=17022
-	culture=latin 
-	religion=roman_main
-	father=172121	#Caecilius
-    mother=172134   #Naevia
-	444.3.24={ birth=yes }
-	512.7.19={ death=yes }
+172124 = {
+	name = "Lucius" # Marcus Aemilius Paullus Macedonicus
+	dynasty = 17022 # Aemilii
+	religion = roman_main
+	culture = latin
+	father = 172123
+	
+	535.1.1 = { # 241 BC
+		birth = yes
+	}
+	616.1.1 = { # 160 BC
+		death = yes
+	}
 }
-172125={
-	name=Eugenius
-	dynasty=17022
-	culture=latin 
-	religion=roman_main
-	father=172123	#Paetus
-    mother=172135   #Turpia
-	463.1.16={ birth=yes }
-    483.1.1={ add_spouse=172136 }
-	522.4.6={ death=yes }
+172125 = {
+	name = "Tertia" # Tertia Aemilia
+	dynasty = 17022 # Aemilii
+	religion = roman_main
+	culture = latin
+	father = 172123
+	female = yes
+	
+	536.1.1 = { # 240 BC
+		birth = yes
+	}
+	614.1.1 = { # 162 BC
+		death = yes
+	}
 }
-172126={
-	name=Julia
-	female=yes
-	dynasty=17022
-	culture=latin 
-	religion=roman_main
-	father=172123	#Paetus
-    mother=172135   #Turpia
-	465.3.27={ birth=yes }
-	509.7.5={ death=yes }
+
+# Aemilius Lepidus
+
+172126 = {
+	name = "Marcus" # Marcus Aemilius Lepidus
+	dynasty = 17022 # Aemilii
+	religion = roman_main
+	culture = latin
+	father = 172110
+	
+	456.1.1 = { # 320 BC
+		birth = yes
+	}
+	516.1.1 = { # 260 BC
+		death = yes
+	}
 }
-172127={
-	name=Annius
-	dynasty=17022
-	culture=latin 
-	religion=roman_main
-	father=172125	#Eugenius
-    mother=172136   #Julia
-	485.11.27={ birth=yes }
-	528.4.21={ death=yes }
+172127 = {
+	name = "Marcus" # Marcus Aemilius Lepidus
+	dynasty = 17022 # Aemilii
+	religion = roman_main
+	culture = latin
+	father = 172126
+	
+	501.1.1 = { # 275 BC
+		birth = yes
+	}
+	560.1.1 = { # 216 BC
+		death = yes
+	}
 }
-172128={
-	name=Ambivia
-	female=yes
-	dynasty=17022
-	culture=latin 
-	religion=roman_main
-	father=172125	#Eugenius
-    mother=172136   #Julia
-	488.3.16={ birth=yes }
-	540.4.19={ death=yes }
+172128 = {
+	name = "Marcus" # Marcus Aemilius Lepidus
+	dynasty = 17022 # Aemilii
+	religion = roman_main
+	culture = latin
+	father = 172127
+	
+	541.1.1 = { # 245 BC
+		birth = yes
+	}
+	586.1.1 = { # 190 BC
+		death = yes
+	}
 }
-172129={
-	name=Messalina
-	female=yes
-	dynasty=17022
-	culture=latin 
-	religion=roman_main
-	father=172125	#Eugenius
-    mother=172136   #Julia
-	491.9.13={ birth=yes }
-	538.11.11={ death=yes }
+172129 = {
+	name = "Lucius" # Lucius Aemilius Lepidus
+	dynasty = 17022 # Aemilii
+	religion = roman_main
+	culture = latin
+	father = 172127
+	
+	546.1.1 = { # 240 BC
+		birth = yes
+	}
+	591.1.1 = { # 185 BC
+		death = yes
+	}
 }
-172130={
-	name=Drusilla
-	female=yes
-	culture=latin 
-	religion=roman_main
-	318.1.26={ birth=yes }
-	370.5.25={ death=yes }
-}
-172131={
-	name=Eustathia
-	female=yes
-	culture=latin 
-	religion=roman_main
-	343.1.26={ birth=yes }
-	390.5.25={ death=yes }
-}
-172132={
-	name=Maxima
-	female=yes
-	culture=latin 
-	religion=roman_main
-	367.1.26={ birth=yes }
-	414.5.25={ death=yes }
-}
-172133={
-	name=Paulina
-	female=yes
-	culture=latin 
-	religion=roman_main
-	394.1.26={ birth=yes }
-	443.5.25={ death=yes }
-}
-172134={
-	name=Naevia
-	female=yes
-	culture=latin 
-	religion=roman_main
-	416.1.26={ birth=yes }
-	486.5.25={ death=yes }
-}
-172135={
-	name=Turpia
-	female=yes
-	culture=latin 
-	religion=roman_main
-	439.1.26={ birth=yes }
-	485.5.25={ death=yes }
-}
-172136={
-	name=Julia
-	female=yes
-	culture=latin 
-	religion=roman_main
-	463.1.26={ birth=yes }
-	522.5.25={ death=yes }
+172130 = {
+	name = "Quintus" # Quintus Aemilius Lepidus
+	dynasty = 17022 # Aemilii
+	religion = roman_main
+	culture = latin
+	father = 172127
+	
+	551.1.1 = { # 235 BC
+		birth = yes
+	}
+	596.1.1 = { # 180 BC
+		death = yes
+	}
 }

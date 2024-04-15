@@ -196,7 +196,7 @@
 	}
 }
 481013 = {
-	name = "Nabu-Kudurri-Usur" # Nebuchadnezzar II
+	name = "Nabu-Kudurri-Usur" # Nebuchadnezzar The Great
 	dynasty = 53002
 	culture = akkadian
 	religion = marduk_cult
@@ -218,6 +218,7 @@
 		add_spouse = 480041 # Sheru-etirat
 	}
 	214.1.1 = {
+		give_nickname = nick_rabu
 		death="yes" # 562 BC
 	}
 }

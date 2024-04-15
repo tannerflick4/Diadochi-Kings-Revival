@@ -44,3 +44,76 @@
 		death = yes
 	}
 }
+59904 = {
+	name = "Pythagoras"
+	religion = greek_main
+	culture = ionain
+	
+	206.1.1 = { # 570 BC
+		birth = yes
+	}
+	242.1.1 = {
+		add_spouse = 59906
+	}
+	281.1.1 = { # 495 BC
+		death = yes
+	}
+}
+59905 = {
+	name = "Brontinus"
+	religion = greek_main
+	culture = ionain
+	
+	196.1.1 = { # 580 BC
+		birth = yes
+	}
+	265.1.1 = { # 511 BC
+		death = yes
+	}
+}
+59906 = {
+	name = "Theano"
+	religion = greek_main
+	culture = ionain
+	female = yes
+	father = 59905
+	
+	226.1.1 = { # 550 BC
+		birth = yes
+	}
+	242.1.1 = {
+		add_spouse = 59904
+	}
+	265.1.1 = { # 511 BC
+		death = yes
+	}
+}
+59907 = {
+	name = "Telauges"
+	religion = greek_main
+	culture = ionain
+	father = 59904
+	mother = 59906
+	
+	243.1.1 = { # 533 BC
+		birth = yes
+	}
+	304.1.1 = { # 472 BC
+		death = yes
+	}
+}
+59908 = {
+	name = "Myia"
+	religion = greek_main
+	culture = ionain
+	female = yes
+	father = 59904
+	mother = 59906
+	
+	250.1.1 = { # 526 BC
+		birth = yes
+	}
+	299.1.1 = { # 477 BC
+		death = yes
+	}
+}

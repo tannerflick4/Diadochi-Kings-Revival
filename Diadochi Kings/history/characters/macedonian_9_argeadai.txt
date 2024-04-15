@@ -1195,7 +1195,7 @@
 		trait = ill # his health started to rapidly decline around 11-14 days before his death
 	}
 	453.6.11 = { # 11 June 323 BC
-		give_nickname = nick_the_great # his epithet 'the Great' is only attested after his death, first appearing in Plautus' play Mostellaria
+		give_nickname = nick_megas # his epithet 'the Great' is only attested after his death, first appearing in Plautus' play Mostellaria
 		death = { 
 			death_reason = death_poor_health # his death has been variously attributed to poisoning, disease or a combination of heavy drinking and severe wounds
 		}

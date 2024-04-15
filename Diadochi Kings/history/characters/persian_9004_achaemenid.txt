@@ -1,6 +1,6 @@
 # 90301-90400 for the Achaemenid dynasty
 90301 = {
-	name = "Kuru" # Cyrus the Great, Persian emperor
+	name = "Kurush" # Cyrus the Great, Persian emperor
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
@@ -31,6 +31,7 @@
 		###add_spouse = # Amytis of Media
 	#}
 	246.12.1 = { # 530 BC
+		give_nickname = nick_bozorg
 		death = {
 			death_reason = death_battle
 		}
@@ -109,7 +110,7 @@
 	}
 }
 90305 = {
-	name = "Darayavahu" # Darius the Great, Persian emperor
+	name = "Daryavahush" # Darius the Great, Persian emperor
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
@@ -145,11 +146,12 @@
 		add_spouse = 481024 # Tushnamatay
 	}
 	290.10.1 = { # 486 BC
+		give_nickname = nick_bozorg
 		death="yes"
 	}
 }
 90306 = {
-	name = "Xshayarshan" # Xerxes the Great, Persian emperor
+	name = "Xshayarsha" # Xerxes the Great, Persian emperor
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
@@ -172,13 +174,14 @@
 		add_spouse = 90353 # Amestris
 	}
 	311.1.1 = { # 465 BC
+		give_nickname = nick_bozorg
 		death = {
 			death_reason = death_murder
 		}
 	}
 }
 90307 = {
-	name = "Artaxshasa" # Artaxerxes I, Persian emperor
+	name = "Artaxsacha" # Artaxerxes the Long-handed, Persian emperor
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
@@ -195,11 +198,12 @@
 		add_spouse = 481046 # Andia
 	}
 	352.12.25 = { # 424 BC
+		give_nickname = nick_deraz_dast
 		death="yes"
 	}
 }
 90308 = {
-	name = "Xshayarshan" # Xerxes II, Persian emperor
+	name = "Xshayarsha" # Xerxes II, Persian emperor
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
@@ -217,7 +221,7 @@
 	}
 }
 90309 = {
-	name = "Sogdianus" # Sogdianus, Persian emperor
+	name = "Sakudana" # Sogdianus, Persian emperor
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
@@ -234,7 +238,7 @@
 	}
 }
 90310 = {
-	name = "Darayavahu" # Darius II, Persian emperor
+	name = "Daryavahush" # Darius II, Persian emperor
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
@@ -252,7 +256,7 @@
 	}
 }
 90311 = {
-	name = "Artaxshasa" # Artaxerxes II, Persian emperor
+	name = "Artaxsacha" # Artaxerxes the Mindful, Persian emperor
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
@@ -269,11 +273,12 @@
 		add_spouse = 80016
 	}
 	418.1.1 = { # 358 BC
+		give_nickname = nick_zehn_dar
 		death="yes"
 	}
 }
 90312 = {
-	name = "Artaxshasa" # Artaxerxes III, Persian emperor
+	name = "Artaxsacha" # Artaxerxes III, Persian emperor
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
@@ -299,7 +304,7 @@
 	}
 }
 90313 = {
-	name = "Artaxshasa" # Artaxerxes IV, Persian emperor
+	name = "Artaxsacha" # Artaxerxes IV, Persian emperor
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
@@ -318,7 +323,7 @@
 	}
 }
 90314 = {
-	name = "Darayavahu" # Darius III, last Persian emperor
+	name = "Daryavahush" # Darius III, last Persian emperor
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
@@ -355,7 +360,7 @@
 	}
 }
 90316 = {
-	name = "Kuru" # Cyrus, King of Anshan
+	name = "Kurush" # Cyrus, King of Anshan
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
@@ -421,7 +426,7 @@
 	}
 }
 90320 = {
-	name = "Artaxshasa" # Artaxerxes V Bessus
+	name = "Artaxsacha" # Artaxerxes V Bessus
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian
@@ -502,7 +507,7 @@
 	}
 }
 90326 = {
-	name = "Kuru" # Cyrus the Younger, Satrap of Asia Minor after 408 BC
+	name = "Kurush" # Cyrus the Younger, Satrap of Asia Minor after 408 BC
 	dynasty = 9004 # Achaemenid
 	religion = zoroastrian_main
 	culture = persian

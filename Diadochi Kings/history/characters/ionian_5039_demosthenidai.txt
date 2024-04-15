@@ -28,6 +28,7 @@
 		}
 	}
 	454.1.1 = { # 322 BC
+		give_nickname = nick_rhetor
 		death = {
 			death_reason = death_suicide
 		}
