@@ -126,7 +126,7 @@
 	}
 }
 56910 = {
-	name = "Perikles"
+	name = "Perikles" #Pericles the Olympian
 	dynasty = 5075
 	religion = greek_main
 	culture = ionian
@@ -140,6 +140,7 @@
 		}
 	}
 	347.1.1 = { # 429 BC
+		give_nickname = nick_olympios
 		death = {
 			death_reason = has_bubonic_plague
 		}

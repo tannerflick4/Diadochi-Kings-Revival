@@ -13,7 +13,7 @@
 	}
 }
 57902 = {
-	name = "Solon" # The Lawgiver
+	name = "Solon" # Solon The Lawgiver
 	dynasty = 5076
 	religion = greek_main
 	culture = ionian
@@ -28,6 +28,7 @@
 		}
 	}
 	216.1.1 = { # 560 BC
+		give_nickname = nick_nomothetes
 		death="yes"
 	}
 }

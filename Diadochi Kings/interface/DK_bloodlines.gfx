@@ -80,6 +80,10 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\bloodlines\\bloodline_ptolemy_soter.tga"
 	}
 	spriteType = {
+		name = "GFX_bloodline_aeacidae"
+		texturefile = "gfx\\interface\\bloodlines\\bloodline_aeacidae.tga"
+	}
+	spriteType = {
 		name = "GFX_bloodline_seleucid"
 		texturefile = "gfx\\interface\\bloodlines\\bloodline_seleucid.tga"
 	}
