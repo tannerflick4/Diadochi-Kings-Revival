@@ -1,11 +1,11 @@
-345.1.1 = {
-	liege = e_rome
-	holder = 172601
-	holding_dynasty = 17027
-}
-371.06.22={holder=172602} #Aesopus[17027]
-404.07.29={holder=172609} #Regillus[17027]
-412.06.15={holder=172617} #Aesopus[17027]
-447.12.11={holder=172619} #Ennius[17027]
-484.07.30={holder=172625} #Turpilius[17027]
-507.04.08={holder=172627} #Volusius[17027]
+#345.1.1 = {
+#	liege = e_rome
+#	holder = 172601
+#	holding_dynasty = 17027
+#}
+#371.06.22={holder=172602} #Aesopus[17027]
+#404.07.29={holder=172609} #Regillus[17027]
+#412.06.15={holder=172617} #Aesopus[17027]
+#447.12.11={holder=172619} #Ennius[17027]
+#484.07.30={holder=172625} #Turpilius[17027]
+#507.04.08={holder=172627} #Volusius[17027]
