@@ -1,6 +1,16 @@
 # Exclusives
 nick_gonatas = { # Of Gonnoi ( Antigonus II Gonatas )
 }
+nick_philhellene = { # The Greece-Loving (Alexander I )
+}
+nick_rhetor = { # The Orator ( Demosthenes of Athens )
+}
+nick_olympios = { # The Olympian ( Pericles of Athens )
+}
+nick_nomothetes = { # The Lawgiver ( Solon of Athens )
+}
+nick_aetos = { # The Eagle ( Pyrrhus I of Epirus )
+}
 # Assigned by event
 nick_ktistes = { # The Builder (  Mithridates I of Pontus )
 }
@@ -23,6 +33,8 @@ nick_euergetes = { # The Benefactor ( Ptolemy III )
 }
 nick_keraunos = { # The Lightning Bolt ( Ptolemy Keraunos )
 	
+}
+nick_megas = { # The Great ( Alexander II, Antiochus III )
 }
 nick_monophthalmos = { # The One Eyed ( Antigonus I )
 	allow = {

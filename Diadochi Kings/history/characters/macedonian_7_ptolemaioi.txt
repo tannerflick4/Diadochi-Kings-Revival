@@ -1,6 +1,6 @@
 # 601-700 for the Ptolemaioi dynasty
 601 = {
-	name = "Ptolemaios" # Ptolemy, Satrap of Egypt and founder of the Ptolemaic empire/dynasty
+	name = "Ptolemaios" # Ptolemy Soter, Satrap of Egypt and founder of the Ptolemaic empire/dynasty
 	dynasty = 7 # Ptolemaioi
 	religion = greek_main
 	culture = macedonian
@@ -51,7 +51,7 @@
 	}
 }
 602 = {
-	name = "Ptolemaios" # Ptolemaios II
+	name = "Ptolemaios" # Ptolemy II Philadelphos
 	dynasty = 7 # Ptolemaioi
 	religion = greek_main
 	culture = macedonian
@@ -98,7 +98,7 @@
 	}
 }
 604 = {
-	name = "Ptolemaios" # Keraunos
+	name = "Ptolemaios" # Ptolemy Keraunos
 	dynasty = 7 # Ptolemaioi
 	religion = greek_main
 	culture = macedonian

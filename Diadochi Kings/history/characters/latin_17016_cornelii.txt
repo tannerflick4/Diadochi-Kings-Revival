@@ -11,11 +11,12 @@
 		birth="yes" 
 	}
 	278.1.1 = { # 498 BC Made Up
+		give_nickname = nick_maluginensis
 		death="yes"
 	}
 }
 171502 = {
-	name = "Servius" # Servius Cornelius Maluginensis Tricostus
+	name = "Servius Maluginensis" # Servius Cornelius Maluginensis Tricostus
 	dynasty = 17016 # Cornelius Maluginensis
 	religion = roman_main
 	culture = latin
@@ -26,11 +27,12 @@
 		birth="yes"
 	}
 	323.1.1 = { # 453 BC Made up
+		give_nickname = nick_tricostus
 		death="yes"
 	}
 }
 171503 = {
-	name = "Lucius" # Lucius Cornelius Maluginensis Uritinus
+	name = "Lucius Maluginensis" # Lucius Cornelius Maluginensis Uritinus
 	dynasty = 17016 # Cornelius Maluginensis
 	religion = roman_main
 	culture = latin
@@ -41,11 +43,12 @@
 		birth="yes"
 	}
 	329.1.1 = { # 447 BC Made up
+		give_nickname = nick_uritinus
 		death="yes"
 	}
 }
 171504 = {
-	name = "Marcus" # Marcus Cornelius Maluginensis
+	name = "Marcus Maluginensis" # Marcus Cornelius Maluginensis
 	dynasty = 17016 # Cornelius Maluginensis
 	religion = roman_main
 	culture = latin
@@ -60,7 +63,7 @@
 	}
 }
 171505 = {
-	name = "Marcus" # Marcus Cornelius Maluginensis
+	name = "Marcus Maluginensis" # Marcus Cornelius Maluginensis
 	dynasty = 17016 # Cornelius Maluginensis
 	religion = roman_main
 	culture = latin
@@ -75,7 +78,7 @@
 	}
 }
 171506 = {
-	name = "Publius" # Publius Cornelius Maluginensis
+	name = "Publius Maluginensis" # Publius Cornelius Maluginensis
 	dynasty = 17016 # Cornelius Maluginensis
 	religion = roman_main
 	culture = latin
@@ -90,7 +93,7 @@
 	}
 }
 171507 = {
-	name = "Marcus" # Marcus Cornelius Maluginensis
+	name = "Marcus Maluginensis" # Marcus Cornelius Maluginensis
 	dynasty = 17016 # Cornelius Maluginensis
 	religion = roman_main
 	culture = latin
@@ -105,7 +108,7 @@
 	}
 }
 171508 = {
-	name = "Servius" # Servius Cornelius Maluginensis
+	name = "Servius Maluginensis" # Servius Cornelius Maluginensis
 	dynasty = 17016 # Cornelius Maluginensis
 	religion = roman_main
 	culture = latin
@@ -120,7 +123,7 @@
 	}
 }
 171509 = {
-	name = "Marcus" # Marcus Cornelius Maluginensis
+	name = "Marcus Maluginensis" # Marcus Cornelius Maluginensis
 	dynasty = 17016 # Cornelius Maluginensis
 	religion = roman_main
 	culture = latin
@@ -162,13 +165,14 @@
 	
 	311.1.1 = { # 465 BC Made up
 		birth="yes"
+		give_nickname = nick_cossus
 	}
 	384.1.1 = { # 392 BC Made up
 		death="yes"
 	}
 }
 171511 = {
-	name = "Aulus" # Aulus Cornelius Cossus
+	name = "Aulus Cossus" # Aulus Cornelius Cossus
 	dynasty = 17016 # Cornelius Cossus
 	religion = roman_main
 	culture = latin
@@ -183,7 +187,7 @@
 	}
 }
 171512 = {
-	name = "Publius" # Publius Cornelius Cossus Rutilus
+	name = "Publius Cossus" # Publius Cornelius Cossus Rutilus
 	dynasty = 17016 # Cornelius Cossus
 	religion = roman_main
 	culture = latin
@@ -198,7 +202,7 @@
 	}
 }
 171513 = {
-	name = "Publius" # Publius Cornelius Cossus
+	name = "Publius Cossus" # Publius Cornelius Cossus
 	dynasty = 17016 # Cornelius Cossus
 	religion = roman_main
 	culture = latin
@@ -213,7 +217,7 @@
 	}
 }
 171514 = {
-	name = "Gnaeus" # Gnaeus Cornelius Cossus
+	name = "Gnaeus Cossus" # Gnaeus Cornelius Cossus
 	dynasty = 17016 # Cornelius Cossus
 	religion = roman_main
 	culture = latin
@@ -228,7 +232,7 @@
 	}
 }
 171515 = {
-	name = "Aulus" # Aulus Cornelius Cossus
+	name = "Aulus Cossus" # Aulus Cornelius Cossus
 	dynasty = 17016 # Cornelius Cossus
 	religion = roman_main
 	culture = latin
@@ -243,7 +247,7 @@
 	}
 }
 171516 = {
-	name = "Marcus" # Marcus Cornelius Cossus
+	name = "Marcus Cossus" # Marcus Cornelius Cossus
 	dynasty = 17016 # Cornelius Cossus
 	religion = roman_main
 	culture = latin
@@ -258,7 +262,7 @@
 	}
 }
 171517 = {
-	name = "Publius" # Publius Cornelius Cossus
+	name = "Publius Cossus" # Publius Cornelius Cossus
 	dynasty = 17016 # Cornelius Cossus
 	religion = roman_main
 	culture = latin
@@ -273,7 +277,7 @@
 	}
 }
 171518 = {
-	name = "Gnaeus" # Gnaeus Cornelius Cossus
+	name = "Gnaeus Cossus" # Gnaeus Cornelius Cossus
 	dynasty = 17016 # Cornelius Cossus
 	religion = roman_main
 	culture = latin
@@ -288,7 +292,7 @@
 	}
 }
 171519 = {
-	name = "Aulus" # Aulus Cornelius Cossus
+	name = "Aulus Cossus" # Aulus Cornelius Cossus
 	dynasty = 17016 # Cornelius Cossus
 	religion = roman_main
 	culture = latin
@@ -303,7 +307,7 @@
 	}
 }
 171520 = {
-	name = "Aulus" # Aulus Cornelius Cossus
+	name = "Aulus Cossus" # Aulus Cornelius Cossus
 	dynasty = 17016 # Cornelius Cossus
 	religion = roman_main
 	culture = latin
@@ -318,7 +322,7 @@
 	}
 }
 171521 = {
-	name = "Aulus" # Aulus Cornelius Cossus Arvina
+	name = "Aulus Cossus" # Aulus Cornelius Cossus Arvina
 	dynasty = 17016 # Cornelius Cossus
 	religion = roman_main
 	culture = latin
@@ -327,13 +331,14 @@
 	
 	400.1.1 = { # 376 BC Made up
 		birth="yes"
+		give_nickname = nick_arvina
 	}
 	461.1.1 = { # 315 BC Made up
 		death="yes"
 	}
 }
 171522 = {
-	name = "Publius" # Publius Cornelius Cossus Arvina
+	name = "Publius Arvina" # Publius Cornelius Arvina
 	dynasty = 17016 # Cornelius Cossus
 	religion = roman_main
 	culture = latin
@@ -360,13 +365,14 @@
 	
 	367.1.1 = { # 409 BC Made up
 		birth="yes"
+		give_nickname = nick_lentulus
 	}
 	407.1.1 = { # 369 BC Made up
 		death="yes"
 	}
 }
 171524 = {
-	name = "Lucius" # Lucius Cornelius Lentulus
+	name = "Lucius Lentulus" # Lucius Cornelius Lentulus
 	dynasty = 17016 # Cornelius Lentulus
 	religion = roman_main
 	culture = latin
@@ -381,7 +387,7 @@
 	}
 }
 171525 = {
-	name = "Servius" # Servius Cornelius Lentulus
+	name = "Servius Lentulus" # Servius Cornelius Lentulus
 	dynasty = 17016 # Cornelius Lentulus
 	religion = roman_main
 	culture = latin
@@ -396,7 +402,7 @@
 	}
 }
 171526 = {
-	name = "Tiberius" # Tiberius Cornelius Lentulus
+	name = "Tiberius Lentulus" # Tiberius Cornelius Lentulus
 	dynasty = 17016 # Cornelius Lentulus
 	religion = roman_main
 	culture = latin
@@ -411,7 +417,7 @@
 	}
 }
 171527 = {
-	name = "Lucius" # Lucius Cornelius Lentulus Caudinus
+	name = "Lucius Lentulus" # Lucius Cornelius Lentulus Caudinus
 	dynasty = 17016 # Cornelius Lentulus
 	religion = roman_main
 	culture = latin
@@ -420,13 +426,14 @@
 	
 	469.1.1 = { # 307 BC Made up
 		birth="yes"
+		give_nickname = nick_caudinus
 	}
 	528.1.1 = { # 248 BC Made up
 		death="yes"
 	}
 }
 171528 = {
-	name = "Lucius" # Lucius Cornelius Lentulus Caudinus
+	name = "Lucius Lentulus Caudinus" # Lucius Cornelius Lentulus Caudinus
 	dynasty = 17016 # Cornelius Lentulus
 	religion = roman_main
 	culture = latin
@@ -441,7 +448,7 @@
 	}
 }
 171529 = {
-	name = "Publius" # Publius Cornelius Lentulus Caudinus
+	name = "Publius Lentulus Caudinus" # Publius Cornelius Lentulus Caudinus
 	dynasty = 17016 # Cornelius Lentulus
 	religion = roman_main
 	culture = latin
@@ -468,13 +475,14 @@
 	
 	412.1.1 = { # 364 BC Made Up
 		birth="yes"
+		give_nickname = nick_rufinus
 	}
 	492.1.1 = { # 284 BC Made Up
 		death="yes"
 	}
 }
 171531 = {
-	name = "Gnaeus" # Gnaeus Cornelius Rufinus
+	name = "Gnaeus Rufinus" # Gnaeus Cornelius Rufinus
 	dynasty = 17016 # Cornelius Rufinus
 	religion = roman_main
 	culture = latin
@@ -489,7 +497,7 @@
 	}
 }
 171532 = {
-	name = "Publius" # Publius Cornelius Rufinus
+	name = "Publius Rufinus" # Publius Cornelius Rufinus
 	dynasty = 17016 # Cornelius Rufinus
 	religion = roman_main
 	culture = latin
@@ -516,6 +524,7 @@
 	
 	471.1.1 = { # 305 BC Made Up
 		birth="yes"
+		give_nickname = nick_sulla
 	}
 	533.1.1 = { # 243 BC Made Up
 		death="yes"
@@ -534,13 +543,14 @@
 	
 	364.1.1 = { # 412 BC Made Up
 		birth="yes"
+		give_nickname = nick_scipio
 	}
 	416.1.1 = { # 360 BC Made Up
 		death="yes"
 	}
 }
 171535 = {
-	name = "Publius" # Publius Cornelius Scipio
+	name = "Publius Scipio" # Publius Cornelius Scipio
 	dynasty = 17016 # Cornelius Scipio
 	religion = roman_main
 	culture = latin
@@ -555,7 +565,7 @@
 	}
 }
 171536 = {
-	name = "Lucius" # Lucius Cornelius Scipio
+	name = "Lucius Scipio" # Lucius Cornelius Scipio
 	dynasty = 17016 # Cornelius Scipio
 	religion = roman_main
 	culture = latin
@@ -570,7 +580,7 @@
 	}
 }
 171537 = {
-	name = "Publius" # Publius Cornelius Scipio Scapula
+	name = "Publius Scipio" # Publius Cornelius Scipio Scapula
 	dynasty = 17016 # Cornelius Scipio
 	religion = roman_main
 	culture = latin
@@ -579,13 +589,14 @@
 	
 	428.1.1 = { # 348 BC Made Up
 		birth="yes"
+		give_nickname = nick_scapula
 	}
 	485.1.1 = { # 291 BC Made Up
 		death="yes"
 	}
 }
 171538 = {
-	name = "Gnaeus" # Gnaeus Cornelius Scipio
+	name = "Gnaeus Scipio" # Gnaeus Cornelius Scipio
 	dynasty = 17016 # Cornelius Scipio
 	religion = roman_main
 	culture = latin
@@ -600,7 +611,7 @@
 	}
 }
 171539 = {
-	name = "Lucius" # Lucius Cornelius Scipio Barbatos
+	name = "Lucius Scipio" # Lucius Cornelius Scipio Barbatos
 	dynasty = 17016 # Cornelius Scipio
 	religion = roman_main
 	culture = latin
@@ -609,13 +620,14 @@
 	
 	456.1.1 = { # 320 BC Made Up
 		birth="yes"
+		give_nickname = nick_barbatus
 	}
 	509.1.1 = { # 267 BC Made Up
 		death="yes"
 	}
 }
 171540 = {
-	name = "Gnaeus" # Gnaeus Cornelius Scipio Asina
+	name = "Gnaeus Scipio" # Gnaeus Cornelius Scipio Asina
 	dynasty = 17016 # Cornelius Scipio
 	religion = roman_main
 	culture = latin
@@ -624,13 +636,14 @@
 	
 	472.1.1 = { # 304 BC Made Up
 		birth="yes"
+		give_nickname = nick_asina
 	}
 	530.1.1 = { # 246 BC Made Up
 		death="yes"
 	}
 }
 171541 = {
-	name = "Publius" # Publius Cornelius Scipio Asina
+	name = "Publius Scipio Asina" # Publius Cornelius Scipio Asina
 	dynasty = 17016 # Cornelius Scipio
 	religion = roman_main
 	culture = latin
@@ -645,7 +658,7 @@
 	}
 }
 171542 = {
-	name = "Lucius" # Lucius Cornelius Scipio
+	name = "Lucius Scipio" # Lucius Cornelius Scipio
 	dynasty = 17016 # Cornelius Scipio
 	religion = roman_main
 	culture = latin
@@ -660,7 +673,7 @@
 	}
 }
 171543 = {
-	name = "Gnaeus" # Gnaeus Cornelius Scipio Calvus
+	name = "Gnaeus Scipio" # Gnaeus Cornelius Scipio Calvus
 	dynasty = 17016 # Cornelius Scipio
 	religion = roman_main
 	culture = latin
@@ -669,6 +682,7 @@
 	
 	487.1.1 = { # 289 BC Made Up
 		birth="yes"
+		give_nickname = nick_calvus
 	}
 	567.1.1 = { # 209 BC Made Up
 		death="yes"
@@ -678,7 +692,7 @@
 # Cornelius Dolabella
 
 171544 = {
-	name = "Publius" # Publius Cornelius Dolabella Maximus
+	name = "Publius Dolabella" # Publius Cornelius Dolabella Maximus
 	dynasty = 17016 # Cornelius Dolabella
 	religion = roman_main
 	culture = latin
@@ -687,13 +701,14 @@
 	
 	443.1.1 = { # 333 BC Made Up
 		birth="yes"
+		give_nickname = nick_maximus
 	}
 	494.1.1 = { # 282 BC Made Up
 		death="yes"
 	}
 }
 171545 = {
-	name = "Gnaeus" # Gnaeus Cornelius Dolabella
+	name = "Gnaeus Dolabella" # Gnaeus Cornelius Dolabella
 	dynasty = 17016 # Cornelius Dolabella
 	religion = roman_main
 	culture = latin
@@ -708,7 +723,7 @@
 	}
 }
 171546 = {
-	name = "Marcus" # Marcus Cornelius Dolabella
+	name = "Marcus Dolabella" # Marcus Cornelius Dolabella
 	dynasty = 17016 # Cornelius Dolabella
 	religion = roman_main
 	culture = latin
@@ -735,6 +750,7 @@
 	
 	404.1.1 = { # 372 BC Made up
 		birth="yes"
+		give_nickname = nick_calussa
 	}
 	454.1.1 = { # 322 BC Made up
 		death="yes"
@@ -750,6 +766,7 @@
 	
 	472.1.1 = { # 300 BC Made Up
 		birth="yes"
+		give_nickname = nick_blasio
 	}
 	530.1.1 = { # 240 BC Made Up
 		death="yes"

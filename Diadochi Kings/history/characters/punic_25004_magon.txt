@@ -19,7 +19,7 @@
 	}
 }
 250302 = {
-	name = "Menahilim" # Magon
+	name = "Magon" # Magon
 	dynasty = 25004 # Magon
 	religion = punic_main
 	culture = punic
@@ -32,7 +32,7 @@
 	}
 }
 250303 = {
-	name = "Hanno" # The III
+	name = "Hannu" # The III
 	dynasty = 25004 # Magon
 	religion = punic_main
 	culture = punic
@@ -46,7 +46,7 @@
 	}
 }
 250304 = {
-	name = "Magon" # The III
+	name = "Magon" # Magon The III
 	dynasty = 25004 # Magon
 	religion = punic_main
 	culture = punic
@@ -59,7 +59,7 @@
 	}
 }
 250305 = {
-	name = "Magon" # The I
+	name = "Magon" # Magon The I
 	dynasty = 25004 # Magon
 	religion = punic_main
 	culture = punic
@@ -88,7 +88,7 @@
 	}
 }
 250307 = {
-	name = "Hamilket" # The I
+	name = "Hamilqart" # The I
 	dynasty = 25004 # Magon
 	religion = punic_main
 	culture = punic
@@ -101,7 +101,7 @@
 	}
 }
 250308 = {
-	name = "Hanno" # The Navigator
+	name = "Hannu" # Hanno The Navigator
 	dynasty = 25004 # Magon
 	religion = punic_main
 	culture = punic
@@ -114,11 +114,12 @@
 		}
 	}
 	336.1.1 = { # 440 BC
+		give_nickname = nick_baal_sefinim
 		death="yes"
 	}
 }
 250309 = {
-	name = "Gisco"
+	name = "Gisgu"
 	dynasty = 25004 # Magon
 	religion = punic_main
 	culture = punic
@@ -131,7 +132,7 @@
 	}
 }
 250310 = {
-	name = "Chimilkat" # Himilco I
+	name = "Himilqo" # Himilco I
 	dynasty = 25004 # Magon
 	religion = punic_main
 	culture = punic
@@ -157,7 +158,7 @@
 	}
 }
 250312 = {
-	name = "Chimilkat" # Himilco II
+	name = "Himilqo" # Himilco II
 	dynasty = 25004 # Magon
 	religion = punic_main
 	culture = punic
@@ -170,7 +171,7 @@
 	}
 }
 250313 = {
-	name = "Magon" # The II
+	name = "Magon" Magon # The II
 	dynasty = 25004 # Magon
 	religion = punic_main
 	culture = punic

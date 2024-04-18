@@ -47,6 +47,7 @@ nick_bibulus = { # drunkard = drunkaed trait
 }
 nick_blaesus = { # speech impediment = stutterer trait
 }
+nick_blasio = {}
 nick_brocchus = { # toothy
 }
 nick_brutus = { # stupid, dull-witted = slow trait OR imbecile trait
@@ -71,6 +72,7 @@ nick_calvinus = { # bald
 }
 nick_calvus = { # bald
 }
+nick_calussa = {}
 nick_camillus = { # a child who helps during sacrifices
 }
 nick_caninus = { # dog-like
@@ -85,6 +87,7 @@ nick_cato = { # shrewd, prudent
 }
 nick_catulus = { # puppy, whelp
 }
+nick_caudinus = {}
 nick_celer = { # quick = quick trait
 }
 nick_celsus = { # tall = tall trait
@@ -106,6 +109,8 @@ nick_cornutus = { # horned
 nick_corvinus = { # crow-like
 }
 nick_corvus = { # crow
+}
+nick_cossus = { # Beetle Larva?
 }
 nick_costa = { # a rib
 }
@@ -189,7 +194,11 @@ nick_macer = { # thin
 }
 nick_macula = { # a spot or blemish
 }
+nick_maluginensis = { # from Malugin
+}
 nick_malleolus = { # hammer
+}
+nick_maximus = { # Greatest
 }
 nick_merenda = { # light afternoon meal = temperate trait ?
 }
@@ -257,3 +266,15 @@ nick_proculus = { # born during father's absence = bastard?
 }
 nick_publicola = { # friend of the people
 }
+nick_rufinus = { # Also means reddish
+}
+nick_rutilus = { # Reddish
+}
+nick_scapula = { # Shoulder Blade
+}
+nick_scipio = { # Staff
+}
+nick_sulla = { # Prominent Calves
+}
+nick_tricostus = {}
+nick_uritinus = {}

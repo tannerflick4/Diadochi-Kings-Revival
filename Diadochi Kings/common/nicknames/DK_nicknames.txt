@@ -1,15 +1,11 @@
 nick_chakravartin = {}
-nick_philhellene = {}
 nick_the_small = {}
-nick_the_red = {}
 nick_bozorg = {}
 nick_rabu = {}
 nick_deraz_dast = {}
 nick_zehn_dar = {}
-nick_megas = {}
-nick_rhetor = {}
-nick_olympios = {}
-nick_nomothetes = {}
+nick_baal_sefinim = {}
+nick_rab = {}
 nick_the_animal_protector = {
 	allow = {
 		OR = {
