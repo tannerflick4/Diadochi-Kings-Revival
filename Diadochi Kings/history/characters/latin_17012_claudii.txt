@@ -136,6 +136,10 @@
 	father = 171110
 	400.1.1 = { # 376 BC Made up
 		birth="yes"
+		#create_bloodline = {
+		#	type = bloodline_caecus
+		#	has_dlc = "Holy Fury"
+		#}
 	}
 	492.1.1 = { # 284 BC Made up
 		death="yes"

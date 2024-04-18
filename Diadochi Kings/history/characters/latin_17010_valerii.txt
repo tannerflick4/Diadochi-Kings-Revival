@@ -520,6 +520,10 @@
 	father = 170938
 	406.1.1 = { # 370 BC Made up
 		birth="yes"
+		create_bloodline = {
+			type = bloodline_corvinus
+			has_dlc = "Holy Fury"
+		}
 	}
 	506.1.1 = { # 270 BC Made up
 		death="yes"

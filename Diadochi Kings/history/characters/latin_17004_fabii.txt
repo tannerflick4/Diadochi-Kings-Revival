@@ -9,10 +9,6 @@
 	culture = latin
 	224.1.1 = { # 552 BC Made Up
 		birth="yes"
-		create_bloodline = {
-			type = bloodline_fabii
-			has_dlc = "Holy Fury"
-		}
 	}
 	299.1.1 = { # 477 BC Made Up
 		death="yes"
@@ -349,8 +345,12 @@
 	religion = roman_main
 	culture = latin
 	father = 170325
-	496.1.1 = { # 280 BC Made up
+	493.1.1 = { # 283 BC Made up
 		birth="yes"
+		create_bloodline = {
+			type = bloodline_cunctator
+			has_dlc = "Holy Fury"
+		}
 	}
 	573.1.1 = { # 203 BC Made up
 		death="yes"
