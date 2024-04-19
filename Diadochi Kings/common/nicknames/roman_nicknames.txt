@@ -37,6 +37,8 @@ nick_barba = { # a beard
 }
 nick_barbatus = { # bearded
 }
+nick_barbula = { # little beard
+}
 nick_bassus = { # plump = gluttonous trait ?
 }
 nick_bestia = { # like an animal
@@ -75,6 +77,8 @@ nick_calvus = { # bald
 nick_calussa = {}
 nick_camillus = { # a child who helps during sacrifices
 }
+nick_canina = { # dog-like
+}
 nick_caninus = { # dog-like
 }
 nick_canus = { # golden-haired or grey-haired
@@ -87,10 +91,14 @@ nick_cato = { # shrewd, prudent
 }
 nick_catulus = { # puppy, whelp
 }
+nick_caudex = { # Wooden Log
+}
 nick_caudinus = {}
 nick_celer = { # quick = quick trait
 }
 nick_celsus = { # tall = tall trait
+}
+nick_centho = { # Patchwork
 }
 nick_cicero = { # chick pea
 }
@@ -114,6 +122,8 @@ nick_cossus = { # Beetle Larva?
 }
 nick_costa = { # a rib
 }
+nick_crassus = { # thick or solid
+}
 nick_crassipes = { # club-footed = club-footed trait
 }
 nick_crispinus = { # curly-haired
@@ -121,6 +131,8 @@ nick_crispinus = { # curly-haired
 nick_crispus = { # curly-haired
 }
 nick_culleo = { # leather sack for carrying liquid
+}
+nick_cunctator = { # the delayer
 }
 nick_curio = { # priest of a curia = holds a temple holding
 }
@@ -156,6 +168,8 @@ nick_fullo = { # a fuller or launderer
 }
 nick_galeo = { # helmet
 }
+nick_gallus = { # A chicken or a Gaul
+}
 nick_gemellus = { # a twin = twin obviously
 }
 nick_gurges = { # greedy, prodigal = greedy trait
@@ -163,6 +177,8 @@ nick_gurges = { # greedy, prodigal = greedy trait
 nick_habitus = { # in good physical condition
 }
 nick_helva = { # dun-coloured hair
+}
+nick_hortator = { # to encourage
 }
 nick_imperiosus = { # domineering, dictatorial
 }
@@ -190,6 +206,8 @@ nick_lupus = { # wolf
 }
 nick_lurco = { # gluttonous, greedy = gluttonous trait AND greedy trait ?
 }
+nick_macedonicus = { # Conquerer of Macedon
+}
 nick_macer = { # thin
 }
 nick_macula = { # a spot or blemish
@@ -197,6 +215,12 @@ nick_macula = { # a spot or blemish
 nick_maluginensis = { # from Malugin
 }
 nick_malleolus = { # hammer
+}
+nick_mamercus = { # little Marcus
+}
+nick_marcellus = { # little Marcus
+}
+nick_mamercinus = { # little Marcus
 }
 nick_maximus = { # Greatest
 }
@@ -236,14 +260,19 @@ nick_paetus = { # squinty or blinking
 }
 nick_pansa = { # splay-footed
 }
+nick_papus = { # the elderly
+}
 nick_paterculus = { # little father
 }
 nick_paullus = { # small
 }
 nick_pavo = { # peacock
 }
+nick_paterculus = { # daddy's boy?
+}
 nick_pera = { # shoulder-bag
 }
+nick_peticus = {}
 nick_pictor = { # painter = painter trait
 }
 nick_piso = { # mortar
@@ -262,14 +291,27 @@ nick_praetextatus = { # young = young ruler ?
 }
 nick_priscus = { # very ancient = very old
 }
+nick_privernas = { # Conquerer of Privernum
+}
 nick_proculus = { # born during father's absence = bastard?
 }
 nick_publicola = { # friend of the people
 }
-nick_rufinus = { # Also means reddish
+nick_pulcher = { # Handsome
 }
-nick_rutilus = { # Reddish
+nick_regillensis = { # of Regillum
 }
+nick_rufinus = { # Reddish
+}
+nick_rufus = { # Red
+}
+nick_rullianus = { # Boorish
+}
+nick_russus = { # Reddish
+}
+nick_rutilus = { # Also means reddish
+}
+nick_saverrio = {}
 nick_scapula = { # Shoulder Blade
 }
 nick_scipio = { # Staff
@@ -278,3 +320,5 @@ nick_sulla = { # Prominent Calves
 }
 nick_tricostus = {}
 nick_uritinus = {}
+nick_vibulanus = { # from Vibula?
+}

@@ -12,10 +12,11 @@
 	}
 	299.1.1 = { # 477 BC Made Up
 		death="yes"
+		give_nickname = nick_vibulanus
 	}
 }
 170302 = {
-	name = "Quintus" # Quintus Fabius Vibulanus
+	name = "Quintus Vibulanus" # Quintus Fabius Vibulanus
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin
@@ -28,7 +29,7 @@
 	}
 }
 170303 = {
-	name = "Caeso" # Caeso Fabius Vibulanus
+	name = "Caeso Vibulanus" # Caeso Fabius Vibulanus
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin
@@ -41,7 +42,7 @@
 	}
 }
 170304 = {
-	name = "Marcus" # Marcus Fabius Vibulanus
+	name = "Marcus Vibulanus" # Marcus Fabius Vibulanus
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin
@@ -54,7 +55,7 @@
 	}
 }
 170305 = {
-	name = "Quintus" # Quintus Fabius Vibulanus
+	name = "Quintus Vibulanus" # Quintus Fabius Vibulanus
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin
@@ -67,7 +68,7 @@
 	}
 }
 170306 = {
-	name = "Marcus" # Marcus Fabius Vibulanus
+	name = "Marcus Vibulanus" # Marcus Fabius Vibulanus
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin
@@ -81,7 +82,7 @@
 }
 
 170307 = {
-	name = "Numerius" # Numerius Fabius Vibulanus
+	name = "Numerius Vibulanus" # Numerius Fabius Vibulanus
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin
@@ -94,7 +95,7 @@
 	}
 }
 170308 = {
-	name = "Quintus" # Quintus Fabius Vibulanus
+	name = "Quintus Vibulanus" # Quintus Fabius Vibulanus
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin
@@ -117,13 +118,14 @@
 	father = 170308
 	338.1.1 = { # 438 BC Made up
 		birth="yes"
+		give_nickname = nick_ambustus
 	}
 	418.1.1 = { # 358 BC Made up
 		death="yes"
 	}
 }
 170310 = {
-	name = "Caeso" # Caeso Fabius Ambustus
+	name = "Caeso Ambustus" # Caeso Fabius Ambustus
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin
@@ -136,7 +138,7 @@
 	}
 }
 170311 = {
-	name = "Numerius" # Numerius Fabius Ambustus
+	name = "Numerius Ambustus" # Numerius Fabius Ambustus
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin
@@ -149,7 +151,7 @@
 	}
 }
 170312 = {
-	name = "Quintus" # Quintus Fabius Ambustus
+	name = "Quintus Ambustus" # Quintus Fabius Ambustus
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin
@@ -162,7 +164,7 @@
 	}
 }
 170313 = {
-	name = "Marcus" # Marcus Fabius Ambustus
+	name = "Marcus Ambustus" # Marcus Fabius Ambustus
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin
@@ -203,7 +205,7 @@
 	}
 }
 170316 = {
-	name = "Marcus" # Marcus Fabius Ambustus
+	name = "Marcus Ambustus" # Marcus Fabius Ambustus
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin
@@ -216,7 +218,7 @@
 	}
 }
 170317 = {
-	name = "Gaius" # Gaius Fabius Ambustus
+	name = "Gaius Ambustus" # Gaius Fabius Ambustus
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin
@@ -229,7 +231,7 @@
 	}
 }
 170318 = {
-	name = "Marcus" # Marcus Fabius Ambustus
+	name = "Marcus Ambustus" # Marcus Fabius Ambustus
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin
@@ -242,7 +244,7 @@
 	}
 }
 170319 = {
-	name = "Quintus" # Quintus Fabius Ambustus
+	name = "Quintus Ambustus" # Quintus Fabius Ambustus
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin
@@ -255,7 +257,7 @@
 	}
 }
 170320 = {
-	name = "Gaius" # Gaius Fabius Ambustus
+	name = "Gaius Ambustus" # Gaius Fabius Ambustus
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin
@@ -278,13 +280,14 @@
 	father = 170312
 	384.1.1 = { # 392 BC Made up
 		birth="yes"
+		give_nickname = nick_dorsuo
 	}
 	398.1.1 = { # 378 BC Made up
 		death="yes"
 	}
 }
 170322 = {
-	name = "Marcus" # Marcus Fabius Dorsuo
+	name = "Marcus Dorsuo" # Marcus Fabius Dorsuo
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin
@@ -297,13 +300,14 @@
 	}
 }
 170323 = {
-	name = "Gaius" # Gaius Fabius Dorsuo Licinus
+	name = "Gaius Dorsuo" # Gaius Fabius Dorsuo Licinus
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin
 	father = 170322
 	452.1.1 = { # 324 BC Made up
 		birth="yes"
+		give_nickname = nick_licinus
 	}
 	533.1.1 = { # 243 BC Made up
 		death="yes"
@@ -314,33 +318,35 @@
 # Fabius Maximus
 
 170324 = {
-	name = "Quintus" # Quintus Fabius Maximus Rullianus
+	name = "Quintus Maximus" # Quintus Fabius Maximus Rullianus
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin
 	father = 170316
 	434.1.1 = { # 342 BC Made up
 		birth="yes"
+		give_nickname = nick_rullianus
 	}
 	511.1.1 = { # 265 BC Made up
 		death="yes"
 	}
 }
 170325 = {
-	name = "Quintus" # Quintus Fabius Maximus Gurges
+	name = "Quintus Maximus" # Quintus Fabius Maximus Gurges
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin
 	father = 170324
 	461.1.1 = { # 315 BC Made up
 		birth="yes"
+		give_nickname = nick_gurges
 	}
 	541.1.1 = { # 235 BC Made up
 		death="yes"
 	}
 }
 170326 = {
-	name = "Quintus" # Quintus Fabius Maximus Verrucosus
+	name = "Quintus Maximus Verrucosus" # Quintus Fabius Maximus Verrucosus
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin
@@ -354,10 +360,11 @@
 	}
 	573.1.1 = { # 203 BC Made up
 		death="yes"
+		give_nickname = nick_cunctator
 	}
 }
 170327 = {
-	name = "Quintus" # Quintus Fabius Maximus
+	name = "Quintus Maximus" # Quintus Fabius Maximus
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin
@@ -380,13 +387,14 @@
 	father = 170322
 	437.1.1 = { # 339 BC Made up
 		birth="yes"
+		give_nickname = nick_pictor
 	}
 	507.1.1 = { # 269 BC Made up
 		death="yes"
 	}
 }
 170329 = {
-	name = "Gaius" # Gaius Fabius Pictor
+	name = "Gaius Pictor" # Gaius Fabius Pictor
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin
@@ -399,7 +407,7 @@
 	}
 }
 170330 = {
-	name = "Numerius" # Numerius Fabius Pictor
+	name = "Numerius Pictor" # Numerius Fabius Pictor
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin
@@ -412,7 +420,7 @@
 	}
 }
 170331 = {
-	name = "Quintus" # Quintus Fabius Pictor
+	name = "Quintus Pictor" # Quintus Fabius Pictor
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin
@@ -435,13 +443,14 @@
 	father = 170323
 	488.1.1 = { # 288 BC Made up
 		birth="yes"
+		give_nickname = nick_buteo
 	}
 	563.1.1 = { # 213 BC Made up
 		death="yes"
 	}
 }
 170333 = {
-	name = "Marcus" # Marcus Fabius Buteo
+	name = "Marcus Buteo" # Marcus Fabius Buteo
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin
@@ -457,7 +466,7 @@
 # Extra
 
 170334 = {
-	name = "Marcus" # Marcus Fabius Dorsuo Licinus
+	name = "Marcus Dorsuo Licinus" # Marcus Fabius Dorsuo Licinus
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin

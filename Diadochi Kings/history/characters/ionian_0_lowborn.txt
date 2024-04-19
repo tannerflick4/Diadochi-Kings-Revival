@@ -56,6 +56,10 @@
 		add_spouse = 59906
 	}
 	281.1.1 = { # 495 BC
+		create_bloodline = {
+			type = bloodline_pythagoras
+			has_dlc = "Holy Fury"
+		}
 		death = yes
 	}
 }

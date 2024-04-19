@@ -29,10 +29,11 @@
 	}
 	325.1.1 = { # 451 BC
 		death = yes
+		give_nickname = nick_mamercus
 	}
 }
 172103 = {
-	name = "Tiberius" # Tiberius Aemilius Mamercus
+	name = "Tiberius Mamercus" # Tiberius Aemilius Mamercus
 	dynasty = 17022 # Aemilii
 	religion = roman_main
 	culture = latin
@@ -46,7 +47,7 @@
 	}
 }
 172104 = {
-	name = "Gaius" # Gaius Aemilius Mamercus
+	name = "Gaius Mamercus" # Gaius Aemilius Mamercus
 	dynasty = 17022 # Aemilii
 	religion = roman_main
 	culture = latin
@@ -71,10 +72,11 @@
 	}
 	376.1.1 = { # 400 BC
 		death = yes
+		give_nickname = nick_mamercinus
 	}
 }
 172106 = {
-	name = "Manius" # Manius Aemilius Mamercinus
+	name = "Manius Mamercinus" # Manius Aemilius Mamercinus
 	dynasty = 17022 # Aemilii
 	religion = roman_main
 	culture = latin
@@ -88,7 +90,7 @@
 	}
 }
 172107 = {
-	name = "Gaius" # Gaius Aemilius Mamercinus
+	name = "Gaius Mamercinus" # Gaius Aemilius Mamercinus
 	dynasty = 17022 # Aemilii
 	religion = roman_main
 	culture = latin
@@ -102,7 +104,7 @@
 	}
 }
 172108 = {
-	name = "Lucius" # Lucius Aemilius Mamercinus
+	name = "Lucius Mamercinus" # Lucius Aemilius Mamercinus
 	dynasty = 17022 # Aemilii
 	religion = roman_main
 	culture = latin
@@ -116,7 +118,7 @@
 	}
 }
 172109 = {
-	name = "Lucius" # Lucius Aemilius Mamercinus
+	name = "Lucius Mamercinus" # Lucius Aemilius Mamercinus
 	dynasty = 17022 # Aemilii
 	religion = roman_main
 	culture = latin
@@ -130,7 +132,7 @@
 	}
 }
 172110 = {
-	name = "Lucius" # Lucius Aemilius Mamercinus Privernas
+	name = "Lucius Mamercinus" # Lucius Aemilius Mamercinus Privernas
 	dynasty = 17022 # Aemilii
 	religion = roman_main
 	culture = latin
@@ -138,13 +140,14 @@
 	
 	406.1.1 = { # 370 BC
 		birth = yes
+		give_nickname = nick_privernas
 	}
 	468.1.1 = { # 308 BC
 		death = yes
 	}
 }
 172111 = {
-	name = "Tiberius" # Tiberius Aemilius Mamercinus
+	name = "Tiberius Mamercinus" # Tiberius Aemilius Mamercinus
 	dynasty = 17022 # Aemilii
 	religion = roman_main
 	culture = latin
@@ -169,13 +172,14 @@
 	
 	419.1.1 = { # 357 BC
 		birth = yes
+		give_nickname = nick_papus
 	}
 	466.1.1 = { # 310 BC
 		death = yes
 	}
 }
 172113 = {
-	name = "Quintus" # Quintus Aemilius Papus
+	name = "Quintus Papus" # Quintus Aemilius Papus
 	dynasty = 17022 # Aemilii
 	religion = roman_main
 	culture = latin
@@ -189,7 +193,7 @@
 	}
 }
 172114 = {
-	name = "Marcus" # Marcus Aemilius Papus
+	name = "Marcus Papus" # Marcus Aemilius Papus
 	dynasty = 17022 # Aemilii
 	religion = roman_main
 	culture = latin
@@ -203,7 +207,7 @@
 	}
 }
 172115 = {
-	name = "Lucius" # Lucius Aemilius Papus
+	name = "Lucius Papus" # Lucius Aemilius Papus
 	dynasty = 17022 # Aemilii
 	religion = roman_main
 	culture = latin
@@ -217,7 +221,7 @@
 	}
 }
 172116 = {
-	name = "Marcus" # Marcus Aemilius Papus
+	name = "Marcus Papus" # Marcus Aemilius Papus
 	dynasty = 17022 # Aemilii
 	religion = roman_main
 	culture = latin
@@ -242,13 +246,14 @@
 	
 	431.1.1 = { # 345 BC
 		birth = yes
+		give_nickname = nick_barbula
 	}
 	476.1.1 = { # 300 BC
 		death = yes
 	}
 }
 172118 = {
-	name = "Marcus" # Marcus Aemilius Barbula
+	name = "Marcus Barbula" # Marcus Aemilius Barbula
 	dynasty = 17022 # Aemilii
 	religion = roman_main
 	culture = latin
@@ -262,7 +267,7 @@
 	}
 }
 172119 = {
-	name = "Lucius" # Lucius Aemilius Barbula
+	name = "Lucius Barbula" # Lucius Aemilius Barbula
 	dynasty = 17022 # Aemilii
 	religion = roman_main
 	culture = latin
@@ -276,7 +281,7 @@
 	}
 }
 172120 = {
-	name = "Marcus" # Marcus Aemilius Barbula
+	name = "Marcus Barbula" # Marcus Aemilius Barbula
 	dynasty = 17022 # Aemilii
 	religion = roman_main
 	culture = latin
@@ -301,13 +306,14 @@
 	
 	446.1.1 = { # 330 BC
 		birth = yes
+		give_nickname = nick_paullus
 	}
 	501.1.1 = { # 275 BC
 		death = yes
 	}
 }
 172122 = {
-	name = "Marcus" # Marcus Aemilius Paullus
+	name = "Marcus Paullus" # Marcus Aemilius Paullus
 	dynasty = 17022 # Aemilii
 	religion = roman_main
 	culture = latin
@@ -321,7 +327,7 @@
 	}
 }
 172123 = {
-	name = "Lucius" # Lucius Aemilius Paullus
+	name = "Lucius Paullus" # Lucius Aemilius Paullus
 	dynasty = 17022 # Aemilii
 	religion = roman_main
 	culture = latin
@@ -335,7 +341,7 @@
 	}
 }
 172124 = {
-	name = "Lucius" # Marcus Aemilius Paullus Macedonicus
+	name = "Lucius Paullus" # Marcus Aemilius Paullus Macedonicus
 	dynasty = 17022 # Aemilii
 	religion = roman_main
 	culture = latin
@@ -343,6 +349,7 @@
 	
 	535.1.1 = { # 241 BC
 		birth = yes
+		give_nickname = nick_macedonicus
 	}
 	616.1.1 = { # 160 BC
 		death = yes
@@ -375,13 +382,14 @@
 	
 	456.1.1 = { # 320 BC
 		birth = yes
+		give_nickname = nick_lepidus
 	}
 	516.1.1 = { # 260 BC
 		death = yes
 	}
 }
 172127 = {
-	name = "Marcus" # Marcus Aemilius Lepidus
+	name = "Marcus Lepidus" # Marcus Aemilius Lepidus
 	dynasty = 17022 # Aemilii
 	religion = roman_main
 	culture = latin
@@ -395,7 +403,7 @@
 	}
 }
 172128 = {
-	name = "Marcus" # Marcus Aemilius Lepidus
+	name = "Marcus Lepidus" # Marcus Aemilius Lepidus
 	dynasty = 17022 # Aemilii
 	religion = roman_main
 	culture = latin
@@ -409,7 +417,7 @@
 	}
 }
 172129 = {
-	name = "Lucius" # Lucius Aemilius Lepidus
+	name = "Lucius Lepidus" # Lucius Aemilius Lepidus
 	dynasty = 17022 # Aemilii
 	religion = roman_main
 	culture = latin
@@ -423,7 +431,7 @@
 	}
 }
 172130 = {
-	name = "Quintus" # Quintus Aemilius Lepidus
+	name = "Quintus Lepidus" # Quintus Aemilius Lepidus
 	dynasty = 17022 # Aemilii
 	religion = roman_main
 	culture = latin
