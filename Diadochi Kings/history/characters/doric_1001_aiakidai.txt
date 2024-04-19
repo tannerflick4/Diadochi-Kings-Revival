@@ -218,6 +218,7 @@
 	}
 	476.1.1 = {
 		add_spouse = 23 # Antigone
+		give_nickname = nick_aetos
 	}
 	481.1.1 = { # 295 BC
 		add_spouse = 22702 # Lanassa

@@ -2,7 +2,6 @@
 nick_gonatas;Gonatas;;;;;;;;;;;;x
 nick_philhellene;Philhellene;;;;;;;;;;;;x
 nick_the_small;the Little;;;;;;;;;;;;x
-nick_the_red;the Red;;;;;;;;;;;;x
 nick_bozorg;Bozorg;;;;;;;;;;;;x 
 nick_rabu;Rabu;;;;;;;;;;;;x
 nick_deraz_dast;Deraz Dast;;;;;;;;;;;;x
@@ -11,6 +10,66 @@ nick_megas;Megas;;;;;;;;;;;;x
 nick_rhetor;Rhetor;;;;;;;;;;;;x
 nick_olympios;Olympios;;;;;;;;;;;;x
 nick_nomothetes;Nomothetes;;;;;;;;;;;;x
+nick_baal_sefinim;Ba'al Sefinim;;;;;;;;;;;;x
+nick_rab;Rab;;;;;;;;;;;;x
+nick_aetos;Aetos;;;;;;;;;;;;x
+# Roman
+nick_ambustus;Ambustus;;;;;;;;;;;;x
+nick_arvina;Arvina;;;;;;;;;;;;x
+nick_asina;Asina;;;;;;;;;;;;x
+nick_barbatus;Barbatus;;;;;;;;;;;;x
+nick_barbula;Barbula;;;;;;;;;;;;x
+nick_blasio;Blasio;;;;;;;;;;;;x
+nick_buteo;Buteo;;;;;;;;;;;;x
+nick_caecus;Caecus;;;;;;;;;;;;x
+nick_calussa;Calussa;;;;;;;;;;;;x
+nick_calvus;Calvus;;;;;;;;;;;;x
+nick_canina;Canina;;;;;;;;;;;;x
+nick_caudex;Caudex;;;;;;;;;;;;x
+nick_caudinus;Caudinus;;;;;;;;;;;;x
+nick_centho;Centho;;;;;;;;;;;;x
+nick_cicero;Cicero;;;;;;;;;;;;x
+nick_cornutus;Cornutus;;;;;;;;;;;;x
+nick_cossus;Cossus;;;;;;;;;;;;x
+nick_crassus;Crassus;;;;;;;;;;;;x
+nick_cunctator;Cuncator;;;;;;;;;;;;x
+nick_dolabella;Dolabella;;;;;;;;;;;;x
+nick_dorsuo;Dorsuo;;;;;;;;;;;;x
+nick_gallus;Gallus;;;;;;;;;;;;x
+nick_gurges;Gurges;;;;;;;;;;;;x
+nick_hortator;Hortator;;;;;;;;;;;;x
+nick_lepidus;Lepidus;;;;;;;;;;;;x
+nick_lentulus;Lentulus;;;;;;;;;;;;x
+nick_licinus;Licinus;;;;;;;;;;;;x
+nick_longus;Longus;;;;;;;;;;;;x
+nick_macedonicus;Macedonicus;;;;;;;;;;;;x
+nick_maluginensis;Maluginensis;;;;;;;;;;;;x
+nick_mamercinus;Mamercinus;;;;;;;;;;;;x
+nick_mamercus;Mamercus;;;;;;;;;;;;x
+nick_marcellus;Marcellus;;;;;;;;;;;;x
+nick_maximus;Maximus;;;;;;;;;;;;x
+nick_nero;Nero;;;;;;;;;;;;x
+nick_papus;Papus;;;;;;;;;;;;x
+nick_paterculus;Paterculus;;;;;;;;;;;;x
+nick_paullus;Paullus;;;;;;;;;;;;x
+nick_peticus;Peticus;;;;;;;;;;;;x
+nick_pictor;Pictor;;;;;;;;;;;;x
+nick_praetextatus;Praetextatus;;;;;;;;;;;;x
+nick_privernas;Privernas;;;;;;;;;;;;x
+nick_pulcher;Pulcher;;;;;;;;;;;;x
+nick_regillensis;Regillensis;;;;;;;;;;;;x
+nick_rufinus;Ruffinus;;;;;;;;;;;;x
+nick_rufus;Rufus;;;;;;;;;;;;x
+nick_rullianus;Rullianus;;;;;;;;;;;;x
+nick_rutilus;Rutilus;;;;;;;;;;;;x
+nick_russus;Russus;;;;;;;;;;;;x
+nick_saverrio;Saverrio;;;;;;;;;;;;x
+nick_scapula;Scapula;;;;;;;;;;;;x
+nick_scipio;Scipio;;;;;;;;;;;;x
+nick_sulla;Sulla;;;;;;;;;;;;x
+nick_tricostus;Tricostus;;;;;;;;;;;;x
+nick_uritinus;Uritinus;;;;;;;;;;;;x
+nick_vibulanus;Vibulanus;;;;;;;;;;;;x
 # Assigned by event
 nick_ktistes;Ktistes;;;;;;;;;;;;x
 nick_nikator;Nikator;;;;;;;;;;;;x

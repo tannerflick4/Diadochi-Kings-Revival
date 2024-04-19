@@ -13,7 +13,7 @@
 	}
 }
 250002 = {
-	name = "Baalhanno" # Barca
+	name = "Baalhannu" # Barca
 	dynasty = 25001 # Barca
 	religion = punic_main
 	culture = punic
@@ -26,7 +26,7 @@
 	}
 }
 250003 = { # Made up
-	name = "Baalhanno"
+	name = "Baalhannu"
 	dynasty = 25001 # Barca
 	religion = punic_main
 	culture = punic

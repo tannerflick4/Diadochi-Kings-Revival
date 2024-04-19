@@ -315,9 +315,9 @@
 	491.1.1 = { # Made up
 		birth="yes" # 285 BC
 	}
-	#503.1.1 = {
-		###give_nickname = nick_fair
-	#}
+	503.1.1 = {
+		give_nickname = nick_the_handsome
+	}
 	512.1.1 = { # 264 BC, made up
 		add_spouse = 30553 # Olympias
 	}
