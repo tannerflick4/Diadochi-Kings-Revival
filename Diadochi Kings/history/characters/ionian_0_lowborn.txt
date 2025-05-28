@@ -47,7 +47,7 @@
 59904 = {
 	name = "Pythagoras"
 	religion = greek_main
-	culture = ionain
+	culture = ionian
 	
 	206.1.1 = { # 570 BC
 		birth = yes
@@ -66,7 +66,7 @@
 59905 = {
 	name = "Brontinus"
 	religion = greek_main
-	culture = ionain
+	culture = ionian
 	
 	196.1.1 = { # 580 BC
 		birth = yes
@@ -78,7 +78,7 @@
 59906 = {
 	name = "Theano"
 	religion = greek_main
-	culture = ionain
+	culture = ionian
 	female = yes
 	father = 59905
 	
@@ -95,7 +95,7 @@
 59907 = {
 	name = "Telauges"
 	religion = greek_main
-	culture = ionain
+	culture = ionian
 	father = 59904
 	mother = 59906
 	
@@ -109,7 +109,7 @@
 59908 = {
 	name = "Myia"
 	religion = greek_main
-	culture = ionain
+	culture = ionian
 	female = yes
 	father = 59904
 	mother = 59906

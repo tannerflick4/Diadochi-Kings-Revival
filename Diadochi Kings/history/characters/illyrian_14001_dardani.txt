@@ -1,6 +1,6 @@
 # 140001-140100 for the Dardani dynasty
 140001 = {
-	name = "kleitos" # Cleitus, King of Dardania
+	name = "Kleitos" # Cleitus, King of Dardania
 	dynasty = 14001 # Dardani
 	religion = illyrian_main
 	culture = illyrian

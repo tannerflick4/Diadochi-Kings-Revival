@@ -1097,7 +1097,7 @@ character_event = {
 	trigger = {
 		OR = {
 			# TODO: Add more?
-			FROM = { title = b_roma_roma }
+			FROM = { title = b_esquiline_hill }
 		}
 	}
 
@@ -1132,7 +1132,7 @@ character_event = {
 	trigger = {
 		OR = {
 			# TODO: Add others?
-			FROM = { title = b_roma_roma }
+			FROM = { title = b_esquiline_hill }
 		}
 	}
 
