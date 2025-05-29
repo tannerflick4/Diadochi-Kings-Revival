@@ -1059,7 +1059,7 @@ feudal_elective = {
 			localisation_key = tooltip_feudal_elector_vote_drunkard
 			NOT = { character = FROM } #Do not judge yourself.
 			NOT = { 
-				religion_group = muslim
+				religion_group = arabic_religion
 			}
 			FROM = { 
 				trait = drunkard
@@ -1069,7 +1069,7 @@ feudal_elective = {
 			value = -15
 			localisation_key = tooltip_feudal_elector_vote_drunkard_muslim
 			NOT = { character = FROM } #Do not judge yourself.
-			religion_group = muslim
+			religion_group = arabic_religion
 			FROM = { 
 				trait = drunkard
 			}
@@ -1859,7 +1859,7 @@ feudal_elective = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian 
-				religion_group = muslim
+				religion_group = arabic_religion
 				religion_group = jewish_group
 				religion_group = indian_group 
 				religion_group = dravidian_group
@@ -1898,7 +1898,7 @@ feudal_elective = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian 
-				religion_group = muslim
+				religion_group = arabic_religion
 			}
 			NOT = { trait = greedy }
 			FROM = { 
@@ -1980,7 +1980,7 @@ feudal_elective = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian
-				religion_group = muslim
+				religion_group = arabic_religion
 				religion_group = jewish_group
 				religion_group = indian_group 
 				religion_group = dravidian_group
@@ -2039,7 +2039,7 @@ feudal_elective = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian
-				religion_group = muslim
+				religion_group = arabic_religion
 				religion_group = jewish_group
 			}
 			OR = { 
@@ -2078,7 +2078,7 @@ feudal_elective = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian
-				religion_group = muslim
+				religion_group = arabic_religion
 				religion_group = jewish_group
 			}
 			OR = { 
@@ -2114,7 +2114,7 @@ feudal_elective = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian
-				religion_group = muslim
+				religion_group = arabic_religion
 				religion_group = indian_group 
 				religion_group = dravidian_group
 			}
@@ -2197,7 +2197,7 @@ feudal_elective = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian
-				religion_group = muslim
+				religion_group = arabic_religion
 				religion_group = indian_group 
 				religion_group = dravidian_group
 				religion_group = jewish_group
@@ -2234,7 +2234,7 @@ feudal_elective = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian
-				religion_group = muslim
+				religion_group = arabic_religion
 				religion_group = jewish_group
 				religion_group = indian_group 
 				religion_group = dravidian_group
@@ -2543,36 +2543,36 @@ feudal_elective = {
 				# }
 			# }
 		# }
-		additive_modifier = { #Praised for being Seaking/Sea_queen
-			value = 15
-			localisation_key = tooltip_feudal_elector_vote_seaking_positive
-			NOT = { character = FROM } #Do not judge yourself.
-			OR = { 
-				this_is_warrior_culture_trigger = yes
-				has_religion_feature = religion_seafaring
-			}
-			FROM = { 
-				OR = { 
-					trait = seaking
-					trait = sea_queen
-				}
-			}
-		}
-		additive_modifier = { #Shunned for being Seaking/Sea_queen
-			value = -15
-			localisation_key = tooltip_feudal_elector_vote_seaking_negative
-			NOT = { character = FROM } #Do not judge yourself.
-			NOR = { 
-				this_is_warrior_culture_trigger = yes
-				has_religion_feature = religion_seafaring
-			}
-			FROM = { 
-				OR = { 
-					trait = seaking
-					trait = sea_queen
-				}
-			}
-		}
+		# additive_modifier = { #Praised for being Seaking/Sea_queen
+			# value = 15
+			# localisation_key = tooltip_feudal_elector_vote_seaking_positive
+			# NOT = { character = FROM } #Do not judge yourself.
+			# OR = { 
+				# this_is_warrior_culture_trigger = yes
+				# has_religion_feature = religion_seafaring
+			# }
+			# FROM = { 
+				# OR = { 
+					# trait = seaking
+					# trait = sea_queen
+				# }
+			# }
+		# }
+		# additive_modifier = { #Shunned for being Seaking/Sea_queen
+			# value = -15
+			# localisation_key = tooltip_feudal_elector_vote_seaking_negative
+			# NOT = { character = FROM } #Do not judge yourself.
+			# NOR = { 
+				# this_is_warrior_culture_trigger = yes
+				# has_religion_feature = religion_seafaring
+			# }
+			# FROM = { 
+				# OR = { 
+					# trait = seaking
+					# trait = sea_queen
+				# }
+			# }
+		# }
 		additive_modifier = { #Praised for being Shieldmaiden
 			value = 10
 			localisation_key = tooltip_feudal_elector_vote_shieldmaiden_positive
@@ -2603,15 +2603,15 @@ feudal_elective = {
 				trait = shieldmaiden
 			}
 		}
-		additive_modifier = { #Praised for being a saoshyant_descendant 
-			value = 10
-			localisation_key = tooltip_feudal_elector_vote_saoshyant_descendant_positive
-			NOT = { character = FROM } #Do not judge yourself.
-			religion_group = zoroastrian_group
-			FROM = { 
-				trait = saoshyant_descendant 
-			}
-		}
+		# additive_modifier = { #Praised for being a saoshyant_descendant 
+			# value = 10
+			# localisation_key = tooltip_feudal_elector_vote_saoshyant_descendant_positive
+			# NOT = { character = FROM } #Do not judge yourself.
+			# religion_group = zoroastrian_group
+			# FROM = { 
+				# trait = saoshyant_descendant 
+			# }
+		# }
 		additive_modifier = { #Praised for being Adventurer
 			value = 10
 			localisation_key = tooltip_feudal_elector_vote_adventurer_positive
@@ -2630,24 +2630,24 @@ feudal_elective = {
 				trait = adventurer
 			}
 		}
-		additive_modifier = { #Praised for being Berserker
-			value = 5
-			localisation_key = tooltip_feudal_elector_vote_berserker_positive
-			NOT = { character = FROM } #Do not judge yourself.
-			this_is_warrior_culture_trigger = yes
-			FROM = { 
-				trait = berserker
-			}
-		}
-		additive_modifier = { #Shunned for being Berserker
-			value = -20
-			localisation_key = tooltip_feudal_elector_vote_berserker_negative
-			NOT = { character = FROM } #Do not judge yourself.
-			this_is_warrior_culture_trigger = no
-			FROM = { 
-				trait = berserker
-			}
-		}
+		# additive_modifier = { #Praised for being Berserker
+			# value = 5
+			# localisation_key = tooltip_feudal_elector_vote_berserker_positive
+			# NOT = { character = FROM } #Do not judge yourself.
+			# this_is_warrior_culture_trigger = yes
+			# FROM = { 
+				# trait = berserker
+			# }
+		# }
+		# additive_modifier = { #Shunned for being Berserker
+			# value = -20
+			# localisation_key = tooltip_feudal_elector_vote_berserker_negative
+			# NOT = { character = FROM } #Do not judge yourself.
+			# this_is_warrior_culture_trigger = no
+			# FROM = { 
+				# trait = berserker
+			# }
+		# }
 		additive_modifier = { #Shunned for being blind
 			value = -10
 			localisation_key = tooltip_feudal_elector_vote_blinded_negative
@@ -2688,7 +2688,7 @@ feudal_elective = {
 			this_is_warrior_culture_trigger = no
 			NOR = { 
 				culture_group = hellenic
-				religion_group = muslim
+				religion_group = arabic_religion
 			}
 			FROM = { 
 				trait = eunuch
@@ -2701,7 +2701,7 @@ feudal_elective = {
 			this_is_warrior_culture_trigger = yes
 			NOR = { 
 				culture_group = hellenic
-				religion_group = muslim
+				religion_group = arabic_religion
 			}
 			FROM = { 
 				trait = eunuch
@@ -2713,7 +2713,7 @@ feudal_elective = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				culture_group = hellenic
-				religion_group = muslim
+				religion_group = arabic_religion
 			}
 			FROM = { 
 				trait = eunuch
@@ -2959,7 +2959,7 @@ feudal_elective = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian
-				religion_group = muslim
+				religion_group = arabic_religion
 			}
 			FROM = { 
 				trait = lefthanded
@@ -3408,12 +3408,12 @@ feudal_elective = {
 	#ROOT = Current Title holder, FROM = Candidate, FROMFROM = Title, FROMFROMFROM = Null
 	candidate_trigger = {
 		NOT = { character = FROM } #Not the current ruler.
-		FROM = { 
-			NOR = { 
-				trait = crusader_king 
-				trait = crusader_queen
-			} 
-		} 
+		# FROM = { 
+			# NOR = { 
+				# trait = crusader_king 
+				# trait = crusader_queen
+			# } 
+		# } 
 		FROM = { #Either the candidate is in the realm, or is landless, or the title is independent, or the realm of the title does NOT have protected inheritance.
 			OR = { 
 				any_liege = { 
@@ -4389,7 +4389,7 @@ tanistry = {
 			localisation_key = tooltip_feudal_elector_vote_drunkard
 			NOT = { character = FROM } #Do not judge yourself.
 			NOT = { 
-				religion_group = muslim
+				religion_group = arabic_religion
 			}
 			FROM = { 
 				trait = drunkard
@@ -4399,7 +4399,7 @@ tanistry = {
 			value = -15
 			localisation_key = tooltip_feudal_elector_vote_drunkard_muslim
 			NOT = { character = FROM } #Do not judge yourself.
-			religion_group = muslim
+			religion_group = arabic_religion
 			FROM = { 
 				trait = drunkard
 			}
@@ -5189,7 +5189,7 @@ tanistry = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian 
-				religion_group = muslim
+				religion_group = arabic_religion
 				religion_group = jewish_group
 				religion_group = indian_group 
 				religion_group = dravidian_group
@@ -5228,7 +5228,7 @@ tanistry = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian 
-				religion_group = muslim
+				religion_group = arabic_religion
 			}
 			NOT = { trait = greedy }
 			FROM = { 
@@ -5310,7 +5310,7 @@ tanistry = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian
-				religion_group = muslim
+				religion_group = arabic_religion
 				religion_group = jewish_group
 				religion_group = indian_group 
 				religion_group = dravidian_group
@@ -5369,7 +5369,7 @@ tanistry = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian
-				religion_group = muslim
+				religion_group = arabic_religion
 				religion_group = jewish_group
 			}
 			OR = { 
@@ -5408,7 +5408,7 @@ tanistry = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian
-				religion_group = muslim
+				religion_group = arabic_religion
 				religion_group = jewish_group
 			}
 			OR = { 
@@ -5444,7 +5444,7 @@ tanistry = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian
-				religion_group = muslim
+				religion_group = arabic_religion
 				religion_group = indian_group 
 				religion_group = dravidian_group
 			}
@@ -5527,7 +5527,7 @@ tanistry = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian
-				religion_group = muslim
+				religion_group = arabic_religion
 				religion_group = indian_group 
 				religion_group = dravidian_group
 				religion_group = jewish_group
@@ -5564,7 +5564,7 @@ tanistry = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian
-				religion_group = muslim
+				religion_group = arabic_religion
 				religion_group = jewish_group
 				religion_group = indian_group 
 				religion_group = dravidian_group
@@ -5859,50 +5859,50 @@ tanistry = {
 				trait = zealous
 			}
 		}
-		additive_modifier = { #Praised for being Pilgrim
-			value = 10
-			localisation_key = tooltip_feudal_elector_vote_pilgrim_positive
-			NOT = { character = FROM } #Do not judge yourself.
-			religion = FROM
-			trait = zealous
-			FROM = { 
-				OR = { 
-					trait = pilgrim
-					trait = indian_pilgrim
-					trait = hajjaj
-				}
-			}
-		}
-		additive_modifier = { #Praised for being Seaking/Sea_queen
-			value = 15
-			localisation_key = tooltip_feudal_elector_vote_seaking_positive
-			NOT = { character = FROM } #Do not judge yourself.
-			OR = { 
-				this_is_warrior_culture_trigger = yes
-				has_religion_feature = religion_seafaring
-			}
-			FROM = { 
-				OR = { 
-					trait = seaking
-					trait = sea_queen
-				}
-			}
-		}
-		additive_modifier = { #Shunned for being Seaking/Sea_queen
-			value = -15
-			localisation_key = tooltip_feudal_elector_vote_seaking_negative
-			NOT = { character = FROM } #Do not judge yourself.
-			NOR = { 
-				this_is_warrior_culture_trigger = yes
-				has_religion_feature = religion_seafaring
-			}
-			FROM = { 
-				OR = { 
-					trait = seaking
-					trait = sea_queen
-				}
-			}
-		}
+		# additive_modifier = { #Praised for being Pilgrim
+			# value = 10
+			# localisation_key = tooltip_feudal_elector_vote_pilgrim_positive
+			# NOT = { character = FROM } #Do not judge yourself.
+			# religion = FROM
+			# trait = zealous
+			# FROM = { 
+				# OR = { 
+					# trait = pilgrim
+					# trait = indian_pilgrim
+					# trait = hajjaj
+				# }
+			# }
+		# }
+		# additive_modifier = { #Praised for being Seaking/Sea_queen
+			# value = 15
+			# localisation_key = tooltip_feudal_elector_vote_seaking_positive
+			# NOT = { character = FROM } #Do not judge yourself.
+			# OR = { 
+				# this_is_warrior_culture_trigger = yes
+				# has_religion_feature = religion_seafaring
+			# }
+			# FROM = { 
+				# OR = { 
+					# trait = seaking
+					# trait = sea_queen
+				# }
+			# }
+		# }
+		# additive_modifier = { #Shunned for being Seaking/Sea_queen
+			# value = -15
+			# localisation_key = tooltip_feudal_elector_vote_seaking_negative
+			# NOT = { character = FROM } #Do not judge yourself.
+			# NOR = { 
+				# this_is_warrior_culture_trigger = yes
+				# has_religion_feature = religion_seafaring
+			# }
+			# FROM = { 
+				# OR = { 
+					# trait = seaking
+					# trait = sea_queen
+				# }
+			# }
+		# }
 		additive_modifier = { #Praised for being Shieldmaiden
 			value = 10
 			localisation_key = tooltip_feudal_elector_vote_shieldmaiden_positive
@@ -5933,15 +5933,15 @@ tanistry = {
 				trait = shieldmaiden
 			}
 		}
-		additive_modifier = { #Praised for being a saoshyant_descendant 
-			value = 10
-			localisation_key = tooltip_feudal_elector_vote_saoshyant_descendant_positive
-			NOT = { character = FROM } #Do not judge yourself.
-			religion_group = zoroastrian_group
-			FROM = { 
-				trait = saoshyant_descendant 
-			}
-		}
+		# additive_modifier = { #Praised for being a saoshyant_descendant 
+			# value = 10
+			# localisation_key = tooltip_feudal_elector_vote_saoshyant_descendant_positive
+			# NOT = { character = FROM } #Do not judge yourself.
+			# religion_group = zoroastrian_group
+			# FROM = { 
+				# trait = saoshyant_descendant 
+			# }
+		# }
 		additive_modifier = { #Praised for being Adventurer
 			value = 10
 			localisation_key = tooltip_feudal_elector_vote_adventurer_positive
@@ -5960,24 +5960,24 @@ tanistry = {
 				trait = adventurer
 			}
 		}
-		additive_modifier = { #Praised for being Berserker
-			value = 5
-			localisation_key = tooltip_feudal_elector_vote_berserker_positive
-			NOT = { character = FROM } #Do not judge yourself.
-			this_is_warrior_culture_trigger = yes
-			FROM = { 
-				trait = berserker
-			}
-		}
-		additive_modifier = { #Shunned for being Berserker
-			value = -20
-			localisation_key = tooltip_feudal_elector_vote_berserker_negative
-			NOT = { character = FROM } #Do not judge yourself.
-			this_is_warrior_culture_trigger = no
-			FROM = { 
-				trait = berserker
-			}
-		}
+		# additive_modifier = { #Praised for being Berserker
+			# value = 5
+			# localisation_key = tooltip_feudal_elector_vote_berserker_positive
+			# NOT = { character = FROM } #Do not judge yourself.
+			# this_is_warrior_culture_trigger = yes
+			# FROM = { 
+				# trait = berserker
+			# }
+		# }
+		# additive_modifier = { #Shunned for being Berserker
+			# value = -20
+			# localisation_key = tooltip_feudal_elector_vote_berserker_negative
+			# NOT = { character = FROM } #Do not judge yourself.
+			# this_is_warrior_culture_trigger = no
+			# FROM = { 
+				# trait = berserker
+			# }
+		# }
 		additive_modifier = { #Shunned for being blind
 			value = -10
 			localisation_key = tooltip_feudal_elector_vote_blinded_negative
@@ -6018,7 +6018,7 @@ tanistry = {
 			this_is_warrior_culture_trigger = no
 			NOR = { 
 				culture_group = hellenic
-				religion_group = muslim
+				religion_group = arabic_religion
 			}
 			FROM = { 
 				trait = eunuch
@@ -6031,7 +6031,7 @@ tanistry = {
 			this_is_warrior_culture_trigger = yes
 			NOR = { 
 				culture_group = hellenic
-				religion_group = muslim
+				religion_group = arabic_religion
 			}
 			FROM = { 
 				trait = eunuch
@@ -6043,7 +6043,7 @@ tanistry = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				culture_group = hellenic
-				religion_group = muslim
+				religion_group = arabic_religion
 			}
 			FROM = { 
 				trait = eunuch
@@ -6266,7 +6266,7 @@ tanistry = {
 				OR = { 
 					trait = sympathy_egyptian_religion
 					trait = sympathy_north_african_religion
-					trait = illyrian_religion
+					trait = sympathy_illyrian_religion
 				}
 			}
 		}
@@ -6294,7 +6294,7 @@ tanistry = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian
-				religion_group = muslim
+				religion_group = arabic_religion
 			}
 			FROM = { 
 				trait = lefthanded
@@ -7705,7 +7705,7 @@ elective_gavelkind = {
 			localisation_key = tooltip_feudal_elector_vote_drunkard
 			NOT = { character = FROM } #Do not judge yourself.
 			NOT = { 
-				religion_group = muslim
+				religion_group = arabic_religion
 			}
 			FROM = { 
 				trait = drunkard
@@ -7715,7 +7715,7 @@ elective_gavelkind = {
 			value = -15
 			localisation_key = tooltip_feudal_elector_vote_drunkard_muslim
 			NOT = { character = FROM } #Do not judge yourself.
-			religion_group = muslim
+			religion_group = arabic_religion
 			FROM = { 
 				trait = drunkard
 			}
@@ -8505,7 +8505,7 @@ elective_gavelkind = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian 
-				religion_group = muslim
+				religion_group = arabic_religion
 				religion_group = jewish_group
 				religion_group = indian_group
 				religion = hellenic_pagan
@@ -8543,7 +8543,7 @@ elective_gavelkind = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian 
-				religion_group = muslim
+				religion_group = arabic_religion
 			}
 			NOT = { trait = greedy }
 			FROM = { 
@@ -8625,7 +8625,7 @@ elective_gavelkind = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian
-				religion_group = muslim
+				religion_group = arabic_religion
 				religion_group = jewish_group
 				religion_group = indian_group
 				religion = bon
@@ -8683,7 +8683,7 @@ elective_gavelkind = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian
-				religion_group = muslim
+				religion_group = arabic_religion
 				religion_group = jewish_group
 			}
 			OR = { 
@@ -8722,7 +8722,7 @@ elective_gavelkind = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian
-				religion_group = muslim
+				religion_group = arabic_religion
 				religion_group = jewish_group
 			}
 			OR = { 
@@ -8758,7 +8758,7 @@ elective_gavelkind = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian
-				religion_group = muslim
+				religion_group = arabic_religion
 				religion_group = indian_group
 			}
 			OR = { 
@@ -8840,7 +8840,7 @@ elective_gavelkind = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian
-				religion_group = muslim
+				religion_group = arabic_religion
 				religion_group = indian_group
 				religion_group = jewish_group
 			}
@@ -8876,7 +8876,7 @@ elective_gavelkind = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian
-				religion_group = muslim
+				religion_group = arabic_religion
 				religion_group = jewish_group
 				religion_group = indian_group
 				religion = bon
@@ -9170,50 +9170,50 @@ elective_gavelkind = {
 				trait = zealous
 			}
 		}
-		additive_modifier = { #Praised for being Pilgrim
-			value = 10
-			localisation_key = tooltip_feudal_elector_vote_pilgrim_positive
-			NOT = { character = FROM } #Do not judge yourself.
-			religion = FROM
-			trait = zealous
-			FROM = { 
-				OR = { 
-					trait = pilgrim
-					trait = indian_pilgrim
-					trait = hajjaj
-				}
-			}
-		}
-		additive_modifier = { #Praised for being Seaking/Sea_queen - Boosted for Elective Gavelkind
-			value = 25
-			localisation_key = tooltip_feudal_elector_vote_seaking_positive
-			NOT = { character = FROM } #Do not judge yourself.
-			OR = { 
-				this_is_warrior_culture_trigger = yes
-				has_religion_feature = religion_seafaring
-			}
-			FROM = { 
-				OR = { 
-					trait = seaking
-					trait = sea_queen
-				}
-			}
-		}
-		additive_modifier = { #Shunned for being Seaking/Sea_queen - Reduced for Elective Gavelkind
-			value = -5
-			localisation_key = tooltip_feudal_elector_vote_seaking_negative
-			NOT = { character = FROM } #Do not judge yourself.
-			NOR = { 
-				this_is_warrior_culture_trigger = yes
-				has_religion_feature = religion_seafaring
-			}
-			FROM = { 
-				OR = { 
-					trait = seaking
-					trait = sea_queen
-				}
-			}
-		}
+		# additive_modifier = { #Praised for being Pilgrim
+			# value = 10
+			# localisation_key = tooltip_feudal_elector_vote_pilgrim_positive
+			# NOT = { character = FROM } #Do not judge yourself.
+			# religion = FROM
+			# trait = zealous
+			# FROM = { 
+				# OR = { 
+					# trait = pilgrim
+					# trait = indian_pilgrim
+					# trait = hajjaj
+				# }
+			# }
+		# }
+		# additive_modifier = { #Praised for being Seaking/Sea_queen - Boosted for Elective Gavelkind
+			# value = 25
+			# localisation_key = tooltip_feudal_elector_vote_seaking_positive
+			# NOT = { character = FROM } #Do not judge yourself.
+			# OR = { 
+				# this_is_warrior_culture_trigger = yes
+				# has_religion_feature = religion_seafaring
+			# }
+			# FROM = { 
+				# OR = { 
+					# trait = seaking
+					# trait = sea_queen
+				# }
+			# }
+		# }
+		# additive_modifier = { #Shunned for being Seaking/Sea_queen - Reduced for Elective Gavelkind
+			# value = -5
+			# localisation_key = tooltip_feudal_elector_vote_seaking_negative
+			# NOT = { character = FROM } #Do not judge yourself.
+			# NOR = { 
+				# this_is_warrior_culture_trigger = yes
+				# has_religion_feature = religion_seafaring
+			# }
+			# FROM = { 
+				# OR = { 
+					# trait = seaking
+					# trait = sea_queen
+				# }
+			# }
+		# }
 		additive_modifier = { #Praised for being Shieldmaiden
 			value = 10
 			localisation_key = tooltip_feudal_elector_vote_shieldmaiden_positive
@@ -9244,15 +9244,15 @@ elective_gavelkind = {
 				trait = shieldmaiden
 			}
 		}
-		additive_modifier = { #Praised for being a saoshyant_descendant 
-			value = 10
-			localisation_key = tooltip_feudal_elector_vote_saoshyant_descendant_positive
-			NOT = { character = FROM } #Do not judge yourself.
-			religion_group = zoroastrian_group
-			FROM = { 
-				trait = saoshyant_descendant 
-			}
-		}
+		# additive_modifier = { #Praised for being a saoshyant_descendant 
+			# value = 10
+			# localisation_key = tooltip_feudal_elector_vote_saoshyant_descendant_positive
+			# NOT = { character = FROM } #Do not judge yourself.
+			# religion_group = zoroastrian_group
+			# FROM = { 
+				# trait = saoshyant_descendant 
+			# }
+		# }
 		additive_modifier = { #Praised for being Adventurer - Boosted for Elective Gavelkind
 			value = 20
 			localisation_key = tooltip_feudal_elector_vote_adventurer_positive
@@ -9271,24 +9271,24 @@ elective_gavelkind = {
 				trait = adventurer
 			}
 		}
-		additive_modifier = { #Praised for being Berserker - Boosted for Elective Gavelkind
-			value = 10
-			localisation_key = tooltip_feudal_elector_vote_berserker_positive
-			NOT = { character = FROM } #Do not judge yourself.
-			this_is_warrior_culture_trigger = yes
-			FROM = { 
-				trait = berserker
-			}
-		}
-		additive_modifier = { #Shunned for being Berserker
-			value = -20
-			localisation_key = tooltip_feudal_elector_vote_berserker_negative
-			NOT = { character = FROM } #Do not judge yourself.
-			this_is_warrior_culture_trigger = no
-			FROM = { 
-				trait = berserker
-			}
-		}
+		# additive_modifier = { #Praised for being Berserker - Boosted for Elective Gavelkind
+			# value = 10
+			# localisation_key = tooltip_feudal_elector_vote_berserker_positive
+			# NOT = { character = FROM } #Do not judge yourself.
+			# this_is_warrior_culture_trigger = yes
+			# FROM = { 
+				# trait = berserker
+			# }
+		# }
+		# additive_modifier = { #Shunned for being Berserker
+			# value = -20
+			# localisation_key = tooltip_feudal_elector_vote_berserker_negative
+			# NOT = { character = FROM } #Do not judge yourself.
+			# this_is_warrior_culture_trigger = no
+			# FROM = { 
+				# trait = berserker
+			# }
+		# }
 		additive_modifier = { #Shunned for being blind
 			value = -10
 			localisation_key = tooltip_feudal_elector_vote_blinded_negative
@@ -9329,7 +9329,7 @@ elective_gavelkind = {
 			this_is_warrior_culture_trigger = no
 			NOR = { 
 				culture_group = hellenic
-				religion_group = muslim
+				religion_group = arabic_religion
 			}
 			FROM = { 
 				trait = eunuch
@@ -9342,7 +9342,7 @@ elective_gavelkind = {
 			this_is_warrior_culture_trigger = yes
 			NOR = { 
 				culture_group = hellenic
-				religion_group = muslim
+				religion_group = arabic_religion
 			}
 			FROM = { 
 				trait = eunuch
@@ -9354,7 +9354,7 @@ elective_gavelkind = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				culture_group = hellenic
-				religion_group = muslim
+				religion_group = arabic_religion
 			}
 			FROM = { 
 				trait = eunuch
@@ -9605,7 +9605,7 @@ elective_gavelkind = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian
-				religion_group = muslim
+				religion_group = arabic_religion
 			}
 			FROM = { 
 				trait = lefthanded
@@ -10055,12 +10055,12 @@ elective_gavelkind = {
 	#ROOT = Current Title holder, FROM = Candidate, FROMFROM = Title, FROMFROMFROM = Null
 	candidate_trigger = {
 		NOT = { character = FROM } #Not the current ruler.
-		FROM = { 
-			NOR = { 
-				trait = crusader_king 
-				trait = crusader_queen
-			} 
-		} 
+		# FROM = { 
+			# NOR = { 
+				# trait = crusader_king 
+				# trait = crusader_queen
+			# } 
+		# } 
 		FROM = { #Either the candidate is in the realm, or is landless, or the title is independent, or the realm of the title does NOT have protected inheritance.
 			OR = { 
 				any_liege = { 
@@ -11007,7 +11007,7 @@ eldership_rules = {
 			localisation_key = tooltip_feudal_elector_vote_drunkard
 			NOT = { character = FROM } #Do not judge yourself.
 			NOT = { 
-				religion_group = muslim
+				religion_group = arabic_religion
 			}
 			FROM = { 
 				trait = drunkard
@@ -11020,7 +11020,7 @@ eldership_rules = {
 			value = -15
 			localisation_key = tooltip_feudal_elector_vote_drunkard_muslim
 			NOT = { character = FROM } #Do not judge yourself.
-			religion_group = muslim
+			religion_group = arabic_religion
 			FROM = { 
 				trait = drunkard
 			}
@@ -11910,7 +11910,7 @@ eldership_rules = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian 
-				religion_group = muslim
+				religion_group = arabic_religion
 				religion_group = jewish_group
 				religion_group = indian_group
 				religion = hellenic_pagan
@@ -11954,7 +11954,7 @@ eldership_rules = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian 
-				religion_group = muslim
+				religion_group = arabic_religion
 			}
 			NOT = { trait = greedy }
 			FROM = { 
@@ -12060,7 +12060,7 @@ eldership_rules = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian
-				religion_group = muslim
+				religion_group = arabic_religion
 				religion_group = jewish_group
 				religion_group = indian_group
 				religion = bon
@@ -12127,7 +12127,7 @@ eldership_rules = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian
-				religion_group = muslim
+				religion_group = arabic_religion
 				religion_group = jewish_group
 			}
 			OR = { 
@@ -12172,7 +12172,7 @@ eldership_rules = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian
-				religion_group = muslim
+				religion_group = arabic_religion
 				religion_group = jewish_group
 			}
 			OR = { 
@@ -12214,7 +12214,7 @@ eldership_rules = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian
-				religion_group = muslim
+				religion_group = arabic_religion
 				religion_group = indian_group
 			}
 			OR = { 
@@ -12317,7 +12317,7 @@ eldership_rules = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian
-				religion_group = muslim
+				religion_group = arabic_religion
 				religion_group = indian_group
 				religion_group = jewish_group
 			}
@@ -12359,7 +12359,7 @@ eldership_rules = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian
-				religion_group = muslim
+				religion_group = arabic_religion
 				religion_group = jewish_group
 				religion_group = indian_group
 				religion = bon
@@ -12722,59 +12722,59 @@ eldership_rules = {
 				holder_scope = { character = ROOT } 
 			}
 		}
-		additive_modifier = { #Praised for being Pilgrim
-			value = 10
-			localisation_key = tooltip_feudal_elector_vote_pilgrim_positive
-			NOT = { character = FROM } #Do not judge yourself.
-			religion = FROM
-			trait = zealous
-			FROM = { 
-				OR = { 
-					trait = pilgrim
-					trait = indian_pilgrim
-					trait = hajjaj
-				}
-			}
-			FROMFROM = { 
-				holder_scope = { character = ROOT } 
-			}
-		}
-		additive_modifier = { #Praised for being Seaking/Sea_queen - Boosted for Eldership
-			value = 25
-			localisation_key = tooltip_feudal_elector_vote_seaking_positive
-			NOT = { character = FROM } #Do not judge yourself.
-			OR = { 
-				this_is_warrior_culture_trigger = yes
-				has_religion_feature = religion_seafaring
-			}
-			FROM = { 
-				OR = { 
-					trait = seaking
-					trait = sea_queen
-				}
-			}
-			FROMFROM = { 
-				holder_scope = { character = ROOT } 
-			}
-		}
-		additive_modifier = { #Shunned for being Seaking/Sea_queen - Reduced for Eldership
-			value = -5
-			localisation_key = tooltip_feudal_elector_vote_seaking_negative
-			NOT = { character = FROM } #Do not judge yourself.
-			NOR = { 
-				this_is_warrior_culture_trigger = yes
-				has_religion_feature = religion_seafaring
-			}
-			FROM = { 
-				OR = { 
-					trait = seaking
-					trait = sea_queen
-				}
-			}
-			FROMFROM = { 
-				holder_scope = { character = ROOT } 
-			}
-		}
+		# additive_modifier = { #Praised for being Pilgrim
+			# value = 10
+			# localisation_key = tooltip_feudal_elector_vote_pilgrim_positive
+			# NOT = { character = FROM } #Do not judge yourself.
+			# religion = FROM
+			# trait = zealous
+			# FROM = { 
+				# OR = { 
+					# trait = pilgrim
+					# trait = indian_pilgrim
+					# trait = hajjaj
+				# }
+			# }
+			# FROMFROM = { 
+				# holder_scope = { character = ROOT } 
+			# }
+		# }
+		# additive_modifier = { #Praised for being Seaking/Sea_queen - Boosted for Eldership
+			# value = 25
+			# localisation_key = tooltip_feudal_elector_vote_seaking_positive
+			# NOT = { character = FROM } #Do not judge yourself.
+			# OR = { 
+				# this_is_warrior_culture_trigger = yes
+				# has_religion_feature = religion_seafaring
+			# }
+			# FROM = { 
+				# OR = { 
+					# trait = seaking
+					# trait = sea_queen
+				# }
+			# }
+			# FROMFROM = { 
+				# holder_scope = { character = ROOT } 
+			# }
+		# }
+		# additive_modifier = { #Shunned for being Seaking/Sea_queen - Reduced for Eldership
+			# value = -5
+			# localisation_key = tooltip_feudal_elector_vote_seaking_negative
+			# NOT = { character = FROM } #Do not judge yourself.
+			# NOR = { 
+				# this_is_warrior_culture_trigger = yes
+				# has_religion_feature = religion_seafaring
+			# }
+			# FROM = { 
+				# OR = { 
+					# trait = seaking
+					# trait = sea_queen
+				# }
+			# }
+			# FROMFROM = { 
+				# holder_scope = { character = ROOT } 
+			# }
+		# }
 		additive_modifier = { #Praised for being Shieldmaiden
 			value = 10
 			localisation_key = tooltip_feudal_elector_vote_shieldmaiden_positive
@@ -12814,18 +12814,18 @@ eldership_rules = {
 				holder_scope = { character = ROOT } 
 			}
 		}
-		additive_modifier = { #Praised for being a saoshyant_descendant 
-			value = 10
-			localisation_key = tooltip_feudal_elector_vote_saoshyant_descendant_positive
-			NOT = { character = FROM } #Do not judge yourself.
-			religion_group = zoroastrian_group
-			FROM = { 
-				trait = saoshyant_descendant 
-			}
-			FROMFROM = { 
-				holder_scope = { character = ROOT } 
-			}
-		}
+		# additive_modifier = { #Praised for being a saoshyant_descendant 
+			# value = 10
+			# localisation_key = tooltip_feudal_elector_vote_saoshyant_descendant_positive
+			# NOT = { character = FROM } #Do not judge yourself.
+			# religion_group = zoroastrian_group
+			# FROM = { 
+				# trait = saoshyant_descendant 
+			# }
+			# FROMFROM = { 
+				# holder_scope = { character = ROOT } 
+			# }
+		# }
 		additive_modifier = { #Praised for being Adventurer 
 			value = 10
 			localisation_key = tooltip_feudal_elector_vote_adventurer_positive
@@ -12850,30 +12850,30 @@ eldership_rules = {
 				holder_scope = { character = ROOT } 
 			}
 		}
-		additive_modifier = { #Praised for being Berserker
-			value = 5
-			localisation_key = tooltip_feudal_elector_vote_berserker_positive
-			NOT = { character = FROM } #Do not judge yourself.
-			this_is_warrior_culture_trigger = yes
-			FROM = { 
-				trait = berserker
-			}
-			FROMFROM = { 
-				holder_scope = { character = ROOT } 
-			}
-		}
-		additive_modifier = { #Shunned for being Berserker
-			value = -20
-			localisation_key = tooltip_feudal_elector_vote_berserker_negative
-			NOT = { character = FROM } #Do not judge yourself.
-			this_is_warrior_culture_trigger = no
-			FROM = { 
-				trait = berserker
-			}
-			FROMFROM = { 
-				holder_scope = { character = ROOT } 
-			}
-		}
+		# additive_modifier = { #Praised for being Berserker
+			# value = 5
+			# localisation_key = tooltip_feudal_elector_vote_berserker_positive
+			# NOT = { character = FROM } #Do not judge yourself.
+			# this_is_warrior_culture_trigger = yes
+			# FROM = { 
+				# trait = berserker
+			# }
+			# FROMFROM = { 
+				# holder_scope = { character = ROOT } 
+			# }
+		# }
+		# additive_modifier = { #Shunned for being Berserker
+			# value = -20
+			# localisation_key = tooltip_feudal_elector_vote_berserker_negative
+			# NOT = { character = FROM } #Do not judge yourself.
+			# this_is_warrior_culture_trigger = no
+			# FROM = { 
+				# trait = berserker
+			# }
+			# FROMFROM = { 
+				# holder_scope = { character = ROOT } 
+			# }
+		# }
 		additive_modifier = { #Shunned for being blind
 			value = -10
 			localisation_key = tooltip_feudal_elector_vote_blinded_negative
@@ -12923,7 +12923,7 @@ eldership_rules = {
 			this_is_warrior_culture_trigger = no
 			NOR = { 
 				culture_group = hellenic
-				religion_group = muslim
+				religion_group = arabic_religion
 			}
 			FROM = { 
 				trait = eunuch
@@ -12939,7 +12939,7 @@ eldership_rules = {
 			this_is_warrior_culture_trigger = yes
 			NOR = { 
 				culture_group = hellenic
-				religion_group = muslim
+				religion_group = arabic_religion
 			}
 			FROM = { 
 				trait = eunuch
@@ -12954,7 +12954,7 @@ eldership_rules = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				culture_group = hellenic
-				religion_group = muslim
+				religion_group = arabic_religion
 			}
 			FROM = { 
 				trait = eunuch
@@ -13250,7 +13250,7 @@ eldership_rules = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian
-				religion_group = muslim
+				religion_group = arabic_religion
 			}
 			FROM = { 
 				trait = lefthanded
@@ -14223,7 +14223,7 @@ eldership_rules = {
 			# localisation_key = tooltip_feudal_elector_vote_drunkard
 			# NOT = { character = FROM } #Do not judge yourself.
 			# NOT = { 
-				# religion_group = muslim
+				# religion_group = arabic_religion
 			# }
 			# FROM = { 
 				# trait = drunkard
@@ -14234,7 +14234,7 @@ eldership_rules = {
 			# value = -15
 			# localisation_key = tooltip_feudal_elector_vote_drunkard_muslim
 			# NOT = { character = FROM } #Do not judge yourself.
-			# religion_group = muslim
+			# religion_group = arabic_religion
 			# FROM = { 
 				# trait = drunkard
 			# }
@@ -14976,7 +14976,7 @@ eldership_rules = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian 
-				religion_group = muslim
+				religion_group = arabic_religion
 				religion_group = jewish_group
 				religion_group = indian_group
 				religion = hellenic_pagan
@@ -15016,7 +15016,7 @@ eldership_rules = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian 
-				religion_group = muslim
+				religion_group = arabic_religion
 			}
 			NOT = { trait = greedy }
 			FROM = { 
@@ -15106,7 +15106,7 @@ eldership_rules = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian
-				religion_group = muslim
+				religion_group = arabic_religion
 				religion_group = jewish_group
 				religion_group = indian_group
 				religion = bon
@@ -15167,7 +15167,7 @@ eldership_rules = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian
-				religion_group = muslim
+				religion_group = arabic_religion
 				religion_group = jewish_group
 			}
 			OR = { 
@@ -15208,7 +15208,7 @@ eldership_rules = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian
-				religion_group = muslim
+				religion_group = arabic_religion
 				religion_group = jewish_group
 			}
 			OR = { 
@@ -15246,7 +15246,7 @@ eldership_rules = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian
-				religion_group = muslim
+				religion_group = arabic_religion
 				religion_group = indian_group
 			}
 			OR = { 
@@ -15337,7 +15337,7 @@ eldership_rules = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian
-				religion_group = muslim
+				religion_group = arabic_religion
 				religion_group = indian_group
 				religion_group = jewish_group
 			}
@@ -15375,7 +15375,7 @@ eldership_rules = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian
-				religion_group = muslim
+				religion_group = arabic_religion
 				religion_group = jewish_group
 				religion_group = indian_group
 				religion = bon
@@ -15692,53 +15692,51 @@ eldership_rules = {
 			}
 			has_elector_stance = { stance = elder_pleased title = FROMFROM }
 		}
-		additive_modifier = { #Praised for being Pilgrim
-			value = 10
-			localisation_key = tooltip_feudal_elector_vote_pilgrim_positive
-			NOT = { character = FROM } #Do not judge yourself.
-			religion = FROM
-			trait = zealous
-			FROM = { 
-				OR = { 
-					trait = pilgrim
-					trait = indian_pilgrim
-					trait = hajjaj
-				}
-			}
-			has_elector_stance = { stance = elder_pleased title = FROMFROM }
-		}
-		additive_modifier = { #Praised for being Seaking/Sea_queen - Boosted for Eldership
-			value = 25
-			localisation_key = tooltip_feudal_elector_vote_seaking_positive
-			NOT = { character = FROM } #Do not judge yourself.
-			OR = { 
-				this_is_warrior_culture_trigger = yes
-				has_religion_feature = religion_seafaring
-			}
-			FROM = { 
-				OR = { 
-					trait = seaking
-					trait = sea_queen
-				}
-			}
-			has_elector_stance = { stance = elder_pleased title = FROMFROM }
-		}
-		additive_modifier = { #Shunned for being Seaking/Sea_queen - Reduced for Eldership
-			value = -5
-			localisation_key = tooltip_feudal_elector_vote_seaking_negative
-			NOT = { character = FROM } #Do not judge yourself.
-			NOR = { 
-				this_is_warrior_culture_trigger = yes
-				has_religion_feature = religion_seafaring
-			}
-			FROM = { 
-				OR = { 
-					trait = seaking
-					trait = sea_queen
-				}
-			}
-			has_elector_stance = { stance = elder_pleased title = FROMFROM }
-		}
+		# additive_modifier = { #Praised for being Pilgrim
+			# value = 10
+			# localisation_key = tooltip_feudal_elector_vote_pilgrim_positive
+			# NOT = { character = FROM } #Do not judge yourself.
+			# religion = FROM
+			# trait = zealous
+			# FROM = { 
+				# trait = indian_pilgrim
+					# trait = hajjaj
+				# }
+			# }
+			# has_elector_stance = { stance = elder_pleased title = FROMFROM }
+		# }
+		# additive_modifier = { #Praised for being Seaking/Sea_queen - Boosted for Eldership
+			# value = 25
+			# localisation_key = tooltip_feudal_elector_vote_seaking_positive
+			# NOT = { character = FROM } #Do not judge yourself.
+			# OR = { 
+				# this_is_warrior_culture_trigger = yes
+				# has_religion_feature = religion_seafaring
+			# }
+			# FROM = { 
+				# OR = { 
+					# trait = seaking
+					# trait = sea_queen
+				# }
+			# }
+			# has_elector_stance = { stance = elder_pleased title = FROMFROM }
+		# }
+		# additive_modifier = { #Shunned for being Seaking/Sea_queen - Reduced for Eldership
+			# value = -5
+			# localisation_key = tooltip_feudal_elector_vote_seaking_negative
+			# NOT = { character = FROM } #Do not judge yourself.
+			# NOR = { 
+				# this_is_warrior_culture_trigger = yes
+				# has_religion_feature = religion_seafaring
+			# }
+			# FROM = { 
+				# OR = { 
+					# trait = seaking
+					# trait = sea_queen
+				# }
+			# }
+			# has_elector_stance = { stance = elder_pleased title = FROMFROM }
+		# }
 		additive_modifier = { #Praised for being Shieldmaiden
 			value = 10
 			localisation_key = tooltip_feudal_elector_vote_shieldmaiden_positive
@@ -15772,16 +15770,16 @@ eldership_rules = {
 			}
 			has_elector_stance = { stance = elder_pleased title = FROMFROM }
 		}
-		additive_modifier = { #Praised for being a saoshyant_descendant 
-			value = 10
-			localisation_key = tooltip_feudal_elector_vote_saoshyant_descendant_positive
-			NOT = { character = FROM } #Do not judge yourself.
-			religion_group = zoroastrian_group
-			FROM = { 
-				trait = saoshyant_descendant 
-			}
-			has_elector_stance = { stance = elder_pleased title = FROMFROM }
-		}
+		# additive_modifier = { #Praised for being a saoshyant_descendant 
+			# value = 10
+			# localisation_key = tooltip_feudal_elector_vote_saoshyant_descendant_positive
+			# NOT = { character = FROM } #Do not judge yourself.
+			# religion_group = zoroastrian_group
+			# FROM = { 
+				# trait = saoshyant_descendant 
+			# }
+			# has_elector_stance = { stance = elder_pleased title = FROMFROM }
+		# }
 		additive_modifier = { #Praised for being Adventurer - Boosted for Elective Gavelkind
 			value = 20
 			localisation_key = tooltip_feudal_elector_vote_adventurer_positive
@@ -15802,26 +15800,26 @@ eldership_rules = {
 			}
 			has_elector_stance = { stance = elder_pleased title = FROMFROM }
 		}
-		additive_modifier = { #Praised for being Berserker - Boosted for Elective Gavelkind
-			value = 10
-			localisation_key = tooltip_feudal_elector_vote_berserker_positive
-			NOT = { character = FROM } #Do not judge yourself.
-			this_is_warrior_culture_trigger = yes
-			FROM = { 
-				trait = berserker
-			}
-			has_elector_stance = { stance = elder_pleased title = FROMFROM }
-		}
-		additive_modifier = { #Shunned for being Berserker
-			value = -20
-			localisation_key = tooltip_feudal_elector_vote_berserker_negative
-			NOT = { character = FROM } #Do not judge yourself.
-			this_is_warrior_culture_trigger = no
-			FROM = { 
-				trait = berserker
-			}
-			has_elector_stance = { stance = elder_pleased title = FROMFROM }
-		}
+		# additive_modifier = { #Praised for being Berserker - Boosted for Elective Gavelkind
+			# value = 10
+			# localisation_key = tooltip_feudal_elector_vote_berserker_positive
+			# NOT = { character = FROM } #Do not judge yourself.
+			# this_is_warrior_culture_trigger = yes
+			# FROM = { 
+				# trait = berserker
+			# }
+			# has_elector_stance = { stance = elder_pleased title = FROMFROM }
+		# }
+		# additive_modifier = { #Shunned for being Berserker
+			# value = -20
+			# localisation_key = tooltip_feudal_elector_vote_berserker_negative
+			# NOT = { character = FROM } #Do not judge yourself.
+			# this_is_warrior_culture_trigger = no
+			# FROM = { 
+				# trait = berserker
+			# }
+			# has_elector_stance = { stance = elder_pleased title = FROMFROM }
+		# }
 		additive_modifier = { #Shunned for being blind
 			value = -10
 			localisation_key = tooltip_feudal_elector_vote_blinded_negative
@@ -15865,7 +15863,7 @@ eldership_rules = {
 			this_is_warrior_culture_trigger = no
 			NOR = { 
 				culture_group = hellenic
-				religion_group = muslim
+				religion_group = arabic_religion
 			}
 			FROM = { 
 				trait = eunuch
@@ -15879,7 +15877,7 @@ eldership_rules = {
 			this_is_warrior_culture_trigger = yes
 			NOR = { 
 				culture_group = hellenic
-				religion_group = muslim
+				religion_group = arabic_religion
 			}
 			FROM = { 
 				trait = eunuch
@@ -15892,7 +15890,7 @@ eldership_rules = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				culture_group = hellenic
-				religion_group = muslim
+				religion_group = arabic_religion
 			}
 			FROM = { 
 				trait = eunuch
@@ -16158,7 +16156,7 @@ eldership_rules = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian
-				religion_group = muslim
+				religion_group = arabic_religion
 			}
 			FROM = { 
 				trait = lefthanded
@@ -16856,12 +16854,12 @@ eldership_rules = {
 	#ROOT = Current Title holder, FROM = Candidate, FROMFROM = Title, FROMFROMFROM = Null
 	candidate_trigger = {
 		NOT = { character = FROM } #Not the current ruler.
-		FROM = { 
-			NOR = { 
-				trait = crusader_king 
-				trait = crusader_queen
-			} 
-		} 
+		# FROM = { 
+			# NOR = { 
+				# trait = crusader_king 
+				# trait = crusader_queen
+			# } 
+		# } 
 		FROM = { #Either the candidate is in the realm, or is landless, or the title is independent, or the realm of the title does NOT have protected inheritance.
 			OR = { 
 				any_liege = { 

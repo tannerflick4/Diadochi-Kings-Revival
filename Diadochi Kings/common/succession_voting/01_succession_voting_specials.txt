@@ -47,7 +47,7 @@ byzantine_elective = {
 			localisation_key = tooltip_imperial_vote_strength_emperor_unpurpled
 			FROMFROM = { 
 				holder_scope = { character = ROOT }
-				title = e_byzantium
+				#title = e_byzantium
 			}
 			NOT = { trait = born_in_the_purple }
 		}
@@ -56,7 +56,7 @@ byzantine_elective = {
 			localisation_key = tooltip_imperial_vote_strength_emperor_deformed
 			FROMFROM = { 
 				holder_scope = { character = ROOT }
-				title = e_byzantium
+				#title = e_byzantium
 			}
 			is_adult = yes
 			OR = { 
@@ -79,7 +79,7 @@ byzantine_elective = {
 			localisation_key = tooltip_imperial_vote_strength_emperor_child
 			FROMFROM = { 
 				holder_scope = { character = ROOT }
-				title = e_byzantium
+				#title = e_byzantium
 			}
 			NOT = { is_adult = yes }
 		}
@@ -1139,7 +1139,7 @@ byzantine_elective = {
 			}
 			intrigue = 8
 			NOT = { intrigue = 10 }
-			culture = greek
+			culture_group = hellenic_group
 		}
 		additive_modifier = { #Those crafty Byzantines...
 			value = 15
@@ -1152,7 +1152,7 @@ byzantine_elective = {
 			}
 			intrigue = 10
 			NOT = { intrigue = 12 }
-			culture = greek
+			culture_group = hellenic_group
 		}
 		additive_modifier = { #Those crafty Byzantines...
 			value = 20
@@ -1165,7 +1165,7 @@ byzantine_elective = {
 			}
 			intrigue = 12
 			NOT = { intrigue = 14 }
-			culture = greek
+			culture_group = hellenic_group
 		}
 		additive_modifier = { #Those crafty Byzantines...
 			value = 25
@@ -1178,7 +1178,7 @@ byzantine_elective = {
 			}
 			intrigue = 14
 			NOT = { intrigue = 16 }
-			culture = greek
+			culture_group = hellenic_group
 		}
 		additive_modifier = { #Those crafty Byzantines...
 			value = 30
@@ -1191,7 +1191,7 @@ byzantine_elective = {
 			}
 			intrigue = 16
 			NOT = { intrigue = 18 }
-			culture = greek
+			culture_group = hellenic_group
 		}
 		additive_modifier = { #Those crafty Byzantines...
 			value = 35
@@ -1204,7 +1204,7 @@ byzantine_elective = {
 			}
 			intrigue = 18
 			NOT = { intrigue = 20 }
-			culture = greek
+			culture_group = hellenic_group
 		}
 		additive_modifier = { #Those crafty Byzantines...
 			value = 40
@@ -1217,7 +1217,7 @@ byzantine_elective = {
 			}
 			intrigue = 20
 			NOT = { intrigue = 25 }
-			culture = greek
+			culture_group = hellenic_group
 		}
 		additive_modifier = { #Those crafty Byzantines...
 			value = 50
@@ -1230,7 +1230,7 @@ byzantine_elective = {
 			}
 			intrigue = 25
 			NOT = { intrigue = 30 }
-			culture = greek
+			culture_group = hellenic_group
 		}
 		additive_modifier = { #Those crafty Byzantines...
 			value = 65
@@ -1242,7 +1242,7 @@ byzantine_elective = {
 				}
 			}
 			intrigue = 30
-			culture = greek
+			culture_group = hellenic_group
 		}
 		################################################################################
 
@@ -2145,7 +2145,7 @@ byzantine_elective = {
 		additive_modifier = { # Sneaky Byzantines
 			value = 5
 			localisation_key = tooltip_feudal_elector_vote_councilor_intrigue
-			culture = greek
+			culture_group = hellenic_group
 			FROM = { 
 				ere_elective_politician_titles_trigger = yes
 				intrigue = 10
@@ -2157,7 +2157,7 @@ byzantine_elective = {
 		additive_modifier = { # Sneaky Byzantines
 			value = 10
 			localisation_key = tooltip_feudal_elector_vote_councilor_intrigue
-			culture = greek
+			culture_group = hellenic_group
 			FROM = { 
 				ere_elective_politician_titles_trigger = yes
 				intrigue = 12
@@ -2169,7 +2169,7 @@ byzantine_elective = {
 		additive_modifier = { # Sneaky Byzantines
 			value = 15
 			localisation_key = tooltip_feudal_elector_vote_councilor_intrigue
-			culture = greek
+			culture_group = hellenic_group
 			FROM = { 
 				ere_elective_politician_titles_trigger = yes
 				intrigue = 16
@@ -2181,7 +2181,7 @@ byzantine_elective = {
 		additive_modifier = { # Sneaky Byzantines
 			value = 20
 			localisation_key = tooltip_feudal_elector_vote_councilor_intrigue
-			culture = greek
+			culture_group = hellenic_group
 			FROM = { 
 				ere_elective_politician_titles_trigger = yes
 				intrigue = 18
@@ -2193,7 +2193,7 @@ byzantine_elective = {
 		additive_modifier = { # Sneaky Byzantines
 			value = 25
 			localisation_key = tooltip_feudal_elector_vote_councilor_intrigue
-			culture = greek
+			culture_group = hellenic_group
 			FROM = { 
 				ere_elective_politician_titles_trigger = yes
 				intrigue = 20
@@ -2205,7 +2205,7 @@ byzantine_elective = {
 		additive_modifier = { # Sneaky Byzantines
 			value = 30
 			localisation_key = tooltip_feudal_elector_vote_councilor_intrigue
-			culture = greek
+			culture_group = hellenic_group
 			FROM = { 
 				ere_elective_politician_titles_trigger = yes
 				intrigue = 30
@@ -2346,7 +2346,7 @@ byzantine_elective = {
 			localisation_key = tooltip_feudal_elector_vote_drunkard
 			NOT = { character = FROM } #Do not judge yourself.
 			NOT = { 
-				religion_group = muslim
+				religion_group = arabic_religion
 			}
 			FROM = { 
 				trait = drunkard
@@ -2356,7 +2356,7 @@ byzantine_elective = {
 			value = -15
 			localisation_key = tooltip_feudal_elector_vote_drunkard_muslim
 			NOT = { character = FROM } #Do not judge yourself.
-			religion_group = muslim
+			religion_group = arabic_religion
 			FROM = { 
 				trait = drunkard
 			}
@@ -2741,7 +2741,7 @@ byzantine_elective = {
 			value = 25
 			localisation_key = tooltip_feudal_elector_vote_born_in_the_purple
 			NOT = { character = FROM } #Do not judge yourself.
-			FROMFROM = { title = e_byzantium }
+			#FROMFROM = { title = e_byzantium }
 			culture_group = byzantine
 			FROM = { 
 				trait = born_in_the_purple
@@ -3157,7 +3157,7 @@ byzantine_elective = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian 
-				religion_group = muslim
+				religion_group = arabic_religion
 				religion_group = jewish_group
 				religion_group = indian_group
 				religion = hellenic_pagan
@@ -3195,7 +3195,7 @@ byzantine_elective = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian 
-				religion_group = muslim
+				religion_group = arabic_religion
 			}
 			NOT = { trait = greedy }
 			FROM = { 
@@ -3277,7 +3277,7 @@ byzantine_elective = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian
-				religion_group = muslim
+				religion_group = arabic_religion
 				religion_group = jewish_group
 				religion_group = indian_group
 				religion = bon
@@ -3335,7 +3335,7 @@ byzantine_elective = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian
-				religion_group = muslim
+				religion_group = arabic_religion
 				religion_group = jewish_group
 			}
 			OR = { 
@@ -3374,7 +3374,7 @@ byzantine_elective = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian
-				religion_group = muslim
+				religion_group = arabic_religion
 				religion_group = jewish_group
 			}
 			OR = { 
@@ -3410,7 +3410,7 @@ byzantine_elective = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian
-				religion_group = muslim
+				religion_group = arabic_religion
 				religion_group = indian_group
 			}
 			OR = { 
@@ -3492,7 +3492,7 @@ byzantine_elective = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian
-				religion_group = muslim
+				religion_group = arabic_religion
 				religion_group = indian_group
 				religion_group = jewish_group
 			}
@@ -3528,7 +3528,7 @@ byzantine_elective = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian
-				religion_group = muslim
+				religion_group = arabic_religion
 				religion_group = jewish_group
 				religion_group = indian_group
 				religion = bon
@@ -3981,7 +3981,7 @@ byzantine_elective = {
 			this_is_warrior_culture_trigger = no
 			NOR = { 
 				culture_group = byzantine
-				religion_group = muslim
+				religion_group = arabic_religion
 			}
 			FROM = { 
 				trait = eunuch
@@ -3994,7 +3994,7 @@ byzantine_elective = {
 			this_is_warrior_culture_trigger = yes
 			NOR = { 
 				culture_group = byzantine
-				religion_group = muslim
+				religion_group = arabic_religion
 			}
 			FROM = { 
 				trait = eunuch
@@ -4006,7 +4006,7 @@ byzantine_elective = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				culture_group = byzantine
-				religion_group = muslim
+				religion_group = arabic_religion
 			}
 			FROM = { 
 				trait = eunuch
@@ -4257,7 +4257,7 @@ byzantine_elective = {
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
 				religion_group = christian
-				religion_group = muslim
+				religion_group = arabic_religion
 			}
 			FROM = { 
 				trait = lefthanded
@@ -4706,12 +4706,12 @@ byzantine_elective = {
 	#ROOT = Current Title holder, FROM = Candidate, FROMFROM = Title, FROMFROMFROM = Null
 	candidate_trigger = { #Close relatives, claimants, marshals. No mutilations (if byzantine)
 		NOT = { character = FROM } #Not the current ruler.
-		FROM = { 
-			NOR = { 
-				trait = crusader_king 
-				trait = crusader_queen
-			} 
-		} 
+		# FROM = { 
+			# NOR = { 
+				# trait = crusader_king 
+				# trait = crusader_queen
+			# } 
+		# } 
 		FROM = { #Either the candidate is in the realm, or is landless, or the title is independent, or the realm of the title does NOT have protected inheritance.
 			OR = { 
 				any_liege = { 
@@ -5806,7 +5806,7 @@ byzantine_elective = {
 			# localisation_key = tooltip_feudal_elector_vote_drunkard
 			# NOT = { character = FROM } #Do not judge yourself.
 			# NOT = { 
-				# religion_group = muslim
+				# religion_group = arabic_religion
 			# }
 			# FROM = { 
 				# trait = drunkard
@@ -5816,7 +5816,7 @@ byzantine_elective = {
 			# value = -15
 			# localisation_key = tooltip_feudal_elector_vote_drunkard_muslim
 			# NOT = { character = FROM } #Do not judge yourself.
-			# religion_group = muslim
+			# religion_group = arabic_religion
 			# FROM = { 
 				# trait = drunkard
 			# }
@@ -6606,7 +6606,7 @@ byzantine_elective = {
 			# NOT = { character = FROM } #Do not judge yourself.
 			# OR = { 
 				# religion_group = christian 
-				# religion_group = muslim
+				# religion_group = arabic_religion
 				# religion_group = jewish_group
 				# religion_group = indian_group
 				# religion = hellenic_pagan
@@ -6644,7 +6644,7 @@ byzantine_elective = {
 			# NOT = { character = FROM } #Do not judge yourself.
 			# OR = { 
 				# religion_group = christian 
-				# religion_group = muslim
+				# religion_group = arabic_religion
 			# }
 			# NOT = { trait = greedy }
 			# FROM = { 
@@ -6726,7 +6726,7 @@ byzantine_elective = {
 			# NOT = { character = FROM } #Do not judge yourself.
 			# OR = { 
 				# religion_group = christian
-				# religion_group = muslim
+				# religion_group = arabic_religion
 				# religion_group = jewish_group
 				# religion_group = indian_group
 				# religion = bon
@@ -6784,7 +6784,7 @@ byzantine_elective = {
 			# NOT = { character = FROM } #Do not judge yourself.
 			# OR = { 
 				# religion_group = christian
-				# religion_group = muslim
+				# religion_group = arabic_religion
 				# religion_group = jewish_group
 			# }
 			# OR = { 
@@ -6823,7 +6823,7 @@ byzantine_elective = {
 			# NOT = { character = FROM } #Do not judge yourself.
 			# OR = { 
 				# religion_group = christian
-				# religion_group = muslim
+				# religion_group = arabic_religion
 				# religion_group = jewish_group
 			# }
 			# OR = { 
@@ -6859,7 +6859,7 @@ byzantine_elective = {
 			# NOT = { character = FROM } #Do not judge yourself.
 			# OR = { 
 				# religion_group = christian
-				# religion_group = muslim
+				# religion_group = arabic_religion
 				# religion_group = indian_group
 			# }
 			# OR = { 
@@ -6941,7 +6941,7 @@ byzantine_elective = {
 			# NOT = { character = FROM } #Do not judge yourself.
 			# OR = { 
 				# religion_group = christian
-				# religion_group = muslim
+				# religion_group = arabic_religion
 				# religion_group = indian_group
 				# religion_group = jewish_group
 			# }
@@ -6977,7 +6977,7 @@ byzantine_elective = {
 			# NOT = { character = FROM } #Do not judge yourself.
 			# OR = { 
 				# religion_group = christian
-				# religion_group = muslim
+				# religion_group = arabic_religion
 				# religion_group = jewish_group
 				# religion_group = indian_group
 				# religion = bon
@@ -7430,7 +7430,7 @@ byzantine_elective = {
 			# this_is_warrior_culture_trigger = no
 			# NOR = { 
 				# culture_group = byzantine
-				# religion_group = muslim
+				# religion_group = arabic_religion
 			# }
 			# FROM = { 
 				# trait = eunuch
@@ -7443,7 +7443,7 @@ byzantine_elective = {
 			# this_is_warrior_culture_trigger = yes
 			# NOR = { 
 				# culture_group = byzantine
-				# religion_group = muslim
+				# religion_group = arabic_religion
 			# }
 			# FROM = { 
 				# trait = eunuch
@@ -7455,7 +7455,7 @@ byzantine_elective = {
 			# NOT = { character = FROM } #Do not judge yourself.
 			# OR = { 
 				# culture_group = byzantine
-				# religion_group = muslim
+				# religion_group = arabic_religion
 			# }
 			# FROM = { 
 				# trait = eunuch
@@ -7706,7 +7706,7 @@ byzantine_elective = {
 			# NOT = { character = FROM } #Do not judge yourself.
 			# OR = { 
 				# religion_group = christian
-				# religion_group = muslim
+				# religion_group = arabic_religion
 			# }
 			# FROM = { 
 				# trait = lefthanded
