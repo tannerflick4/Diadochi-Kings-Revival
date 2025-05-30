@@ -510,15 +510,15 @@ character_event = {
 			50 = {  } 
 		}
 
-		if = { 
-			limit = { #The Papal orgy bears fruits.
-				mother = { has_character_flag = flag_vatican_prince } 
-			} 
-			mother = { 
-				clr_character_flag = flag_vatican_prince 
-				character_event = { id = HFP.20598 days = 7 random = 7 } #Notify mother.
-			} 
-		}
+		# if = { 
+			# limit = { #The Papal orgy bears fruits.
+				# mother = { has_character_flag = flag_vatican_prince } 
+			# } 
+			# mother = { 
+				# clr_character_flag = flag_vatican_prince 
+				# character_event = { id = HFP.20598 days = 7 random = 7 } #Notify mother.
+			# } 
+		# }
 		if = { 
 			limit = { 
 				mother = { trait = troubled_pregnancy } 
@@ -12694,6 +12694,524 @@ character_event = {
 		name = EVTOPTAHFP20017
 		add_friend = FROM
 		ai_chance = { factor = 100 }
+	}
+}
+
+#Dark rest. Fires for female rulers, or, if unlanded, for their spouse.
+character_event = {
+	id = HFP.20030
+	desc = {
+		text = EVTDESCHFPA20030
+		trigger = {
+			trait = pregnant
+		}
+	}
+	desc = {
+		text = EVTDESCHFPB20030
+		trigger = {
+			NOT = { trait = pregnant }
+		}
+	}
+	picture = GFX_evt_woman_praying_hf
+
+	trigger = { 
+		FROM = {
+			trait = pregnant
+			is_alive = yes
+			OR = {
+				is_married = ROOT
+				character = ROOT
+			}
+			NOR = {
+				trait = incapable
+				trait = troubled_pregnancy
+				#trait = on_hajj
+				#trait = on_pilgrimage
+				trait = on_indian_pilgrimage
+				trait = kow_tow_travels
+				trait = travelling
+			}
+		}
+	}
+
+	is_triggered_only = yes
+	
+	option = { #Resting in the dark
+		name = {
+			text = EVTOPTAHFP20030_A
+			trigger = {
+				trait = pregnant
+			}
+		}
+		name = {
+			text = EVTOPTAHFP20030_B
+			trigger = {
+				NOT = { trait = pregnant }
+			}
+		}
+		if = {
+			limit = {
+				NOT = { trait = pregnant }
+			}
+			FROM = { #Wife scope
+				add_character_modifier = {
+					modifier = mother_dark_rest
+					months = 5
+				}
+				set_character_flag = flag_mother_dark_rest #Reduces chance of child being born sickly.
+				hidden_tooltip = { 
+					random_list = { 
+						25 = { character_event = { id = HFP.20031 days = 10 random = 10 } #Becomes learned
+						} 
+						25 = { 
+							modifier = {
+								factor = 0.5
+								trait = shy
+							}
+							character_event = { id = HFP.20033 days = 10 random = 10 } #Becomes paranoid
+						} 
+						25 = { 
+							modifier = {
+								factor = 0.5
+								trait = gregarious
+							}
+							character_event = { id = HFP.20035 days = 10 random = 10 } #Becomes calmer
+						} 
+						25 = { #Nothing 
+						} 
+					} 
+				}
+			}
+		}
+		if = {
+			limit = {
+				trait = pregnant
+			}
+			add_character_modifier = {
+				modifier = mother_dark_rest
+				months = 5
+			}
+			set_character_flag = flag_mother_dark_rest
+			hidden_tooltip = { 
+				random_list = { 
+					25 = { character_event = { id = HFP.20031 days = 10 random = 10 } #Becomes learned
+					} 
+					25 = { 
+						modifier = {
+							factor = 0.5
+							trait = shy
+						}
+						character_event = { id = HFP.20033 days = 10 random = 10 } #Becomes paranoid
+					} 
+					25 = { 
+						modifier = {
+							factor = 0.5
+							trait = gregarious
+						}
+						character_event = { id = HFP.20035 days = 10 random = 10 } #Becomes calmer
+					} 
+					25 = { #Nothing 
+					} 
+				} 
+			}
+		}
+		ai_chance = { 
+			factor = 30
+			modifier =  {
+				factor = 0.1
+				trait = gregarious 
+			} 
+			modifier =  {
+				factor = 0.1
+				trait = wroth 
+			} 
+		}
+	}
+	option = { #Talking 
+		name = {
+			text = EVTOPTBHFP20030_A
+			trigger = {
+				trait = pregnant
+			}
+		}
+		name = {
+			text = EVTOPTBHFP20030_B
+			trigger = {
+				NOT = { trait = pregnant }
+			}
+		}
+		if = {
+			limit = {
+				NOT = { trait = pregnant }
+			}
+			FROM = { #Wife scope
+				add_character_modifier = {
+					modifier = mother_chatting
+					months = 5
+				}
+				hidden_tooltip = { 
+					random_list = { 
+						35 = { character_event = { id = HFP.20037 days = 10 random = 10 } #Becomes more gregarious
+						} 
+						35 = { character_event = { id = HFP.20039 days = 10 random = 10 } #Becomes more popular
+						} 
+						5 = { 
+							modifier = {
+								factor = 0 
+								NOR = { 
+									trait = kind
+									has_focus = focus_family
+									trait = socializer
+									trait = gregarious 
+								}
+							}
+							modifier = {
+								factor = 0 
+								ROOT = { 
+									NOR = { 
+										trait = kind
+										has_focus = focus_family
+										trait = socializer
+										trait = gregarious 
+									}
+								}
+							}
+							modifier = {
+								factor = 0 
+								ROOT = { 
+									num_of_lovers = 1 
+								}
+							}
+							modifier = {
+								factor = 0 
+								prefers_men_trigger = yes
+							}
+							modifier = {
+								factor = 0
+								ROOT = { prefers_men_trigger = no }
+							}
+							modifier = {
+								factor = 0 
+								is_main_spouse = no
+							}
+							modifier = {
+								factor = 0 
+								num_of_lovers = 1 
+							}
+							character_event = { id = HFP.20041 days = 10 random = 10 } #Falls in love with husband
+						} 
+						25 = { #Nothing 
+						} 
+					} 
+				}
+			}
+		}
+		if = {
+			limit = {
+				trait = pregnant
+			}
+			add_character_modifier = {
+				modifier = mother_chatting
+				months = 5
+			}
+			hidden_tooltip = { 
+				random_list = { 
+					35 = { character_event = { id = HFP.20037 days = 10 random = 10 } #Becomes more gregarious
+					} 
+					35 = { character_event = { id = HFP.20039 days = 10 random = 10 } #Becomes more popular
+					} 
+					5 = { 
+						modifier = {
+							factor = 0 
+							NOR = { 
+								trait = kind
+								has_focus = focus_family
+								trait = socializer
+								trait = gregarious 
+							}
+						}
+						modifier = {
+							factor = 0 
+							spouse = { 
+								NOR = { 
+									trait = kind
+									has_focus = focus_family
+									trait = socializer
+									trait = gregarious 
+								}
+							}
+						}
+						modifier = {
+							factor = 0 
+							prefers_men_trigger = no
+						}
+						modifier = {
+							factor = 0
+							spouse = { prefers_men_trigger = yes }
+						}
+						modifier = {
+							factor = 0 
+							is_main_spouse = no
+						}
+						modifier = {
+							factor = 0 
+							spouse = { 
+								num_of_lovers = 1 
+							}
+						}
+						modifier = {
+							factor = 0 
+							num_of_lovers = 1 
+						}
+						character_event = { id = HFP.20041 days = 10 random = 10 } #Falls in love with husband
+					} 
+					25 = { #Nothing 
+					} 
+				} 
+			}
+		}
+		ai_chance = { 
+			factor = 30
+			modifier =  {
+				factor = 0.1
+				trait = shy 
+			} 
+			modifier =  {
+				factor = 0.1
+				trait = paranoid 
+			} 
+		}
+	}
+	option = { #Keep working
+		trigger = {
+			trait = pregnant
+		}
+		name = EVTOPTCHFP20030
+		ai_chance = { factor = 0 }
+	}
+}
+
+#Dark rest: mother's learning increases.
+character_event = {
+	id = HFP.20031
+	desc = EVTDESCHFPA20031
+	picture = GFX_evt_woman_praying_hf
+
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAHFP20031
+		change_learning = 1
+		hidden_tooltip = { spouse = { character_event = { id = HFP.20032 } } }
+	}
+}
+
+#Dark rest: mother's learning increases. - Spouse notified.
+character_event = {
+	id = HFP.20032
+	desc = EVTDESCHFPA20032
+	picture = GFX_evt_woman_praying_hf
+
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAHFP20032
+	}
+}
+#Dark rest: mother becomes paranoid due to seclusion.
+character_event = {
+	id = HFP.20033
+	desc = EVTDESCHFPA20033
+	picture = GFX_evt_woman_praying_hf
+
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAHFP20033
+		if = { 
+			limit = { trait = paranoid } 
+			custom_tooltip = { text = tooltip_health_deteriorates }
+			hidden_tooltip = { health = -0.25 }
+		}
+		if = { 
+			limit = { 
+				NOR = { 
+					trait = trusting
+					trait = paranoid 
+				} 
+			}
+			add_trait = paranoid 
+		}
+		if = { 
+			limit = { 
+				trait = trusting
+			}
+			remove_trait = trusting 
+		}
+		hidden_tooltip = { spouse = { character_event = { id = HFP.20034 } } }
+	}
+}
+
+#Dark rest: mother becomes paranoid due to seclusion. - Spouse notified.
+character_event = {
+	id = HFP.20034
+	desc = EVTDESCHFPA20034
+	picture = GFX_evt_woman_praying_hf
+
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAHFP20034
+	}
+}
+
+#Dark rest: mother becomes calmer due to seclusion.
+character_event = {
+	id = HFP.20035
+	desc = EVTDESCHFPA20035
+	picture = GFX_evt_recovery
+
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAHFP20035
+		if = { 
+			limit = { NOT = { trait = stressed } } 
+			custom_tooltip = { text = tooltip_health_improves }
+			hidden_tooltip = { health = 0.25 } 
+		} 
+		if = { 
+			limit = { trait = stressed } 
+			remove_trait = stressed
+		} 
+		hidden_tooltip = { spouse = { character_event = { id = HFP.20036 } } }
+	}
+}
+
+#Dark rest: mother becomes calmer due to seclusion. - Spouse notified.
+character_event = {
+	id = HFP.20036
+	desc = EVTDESCHFPA20036
+	picture = GFX_evt_recovery
+
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAHFP20036
+	}
+}
+
+#Dark rest: mother becomes more gregarious.
+character_event = {
+	id = HFP.20037
+	desc = EVTDESCHFPA20037
+	picture = GFX_evt_state_diplomacy
+
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAHFP20037
+		if = { 
+			limit = { trait = gregarious } 
+			change_diplomacy = 1
+		}
+		if = { 
+			limit = { 
+				NOR = { 
+					trait = shy
+					trait = gregarious 
+				} 
+			}
+			add_trait = gregarious 
+		}
+		if = { 
+			limit = { 
+				trait = shy
+			}
+			remove_trait = shy 
+		}
+		hidden_tooltip = { spouse = { character_event = { id = HFP.20038 } } }
+	}
+}
+
+#Dark rest:  mother becomes more gregarious. - Spouse notified.
+character_event = {
+	id = HFP.20038
+	desc = EVTDESCHFPA20038
+	picture = GFX_evt_state_diplomacy
+
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAHFP20038
+	}
+}
+
+#Dark rest: mother becomes more popular.
+character_event = {
+	id = HFP.20039
+	desc = EVTDESCHFPA20039
+	picture = GFX_evt_homage_hf
+
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAHFP20039
+		add_character_modifier = {
+			modifier = mother_popular
+			years = 5
+		}
+		hidden_tooltip = { spouse = { character_event = { id = HFP.20040 } } }
+	}
+}
+
+#Dark rest:  mother becomes more popular. - Spouse notified.
+character_event = {
+	id = HFP.20040
+	desc = EVTDESCHFPA20040
+	picture = GFX_evt_homage_hf
+
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAHFP20040
+	}
+}
+
+#Dark rest: mother falls in love with husband.
+character_event = {
+	id = HFP.20041
+	desc = EVTDESCHFPA20041
+	picture = GFX_evt_lovers
+
+	is_triggered_only = yes
+	
+	immediate = {
+		spouse = { save_event_target_as = scoped_spouse }
+	}
+	option = {
+		name = EVTOPTAHFP20041
+		add_lover = event_target:scoped_spouse	
+		hidden_tooltip = { spouse = { character_event = { id = HFP.20042 } } }
+	}
+}
+
+#Dark rest: mother falls in love with husband. - Spouse notified.
+character_event = {
+	id = HFP.20042
+	desc = EVTDESCHFPA20042
+	picture = GFX_evt_lovers
+
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAHFP20042
+		add_lover = FROM
+	}
+	option = {
+		name = EVTOPTBHFP20042
+		trigger = { ai = no }
+		FROM = { remove_lover = ROOT }
 	}
 }
 

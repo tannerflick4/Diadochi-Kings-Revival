@@ -7981,7 +7981,7 @@ character_event = {
 		NOT = { is_inaccessible_trigger = yes }
 		NOT = { trait = incapable }
 		NOT = { has_character_flag = do_not_disturb }
-		NOT = { society_member_of = warrior_lodge_bon }
+		#NOT = { society_member_of = warrior_lodge_bon }
 		is_member_of_any_warrior_lodge_trigger = yes
 		any_society_member = { #Make sure there are enough contenders to join in.
 			same_society_as = ROOT

@@ -3882,283 +3882,283 @@ character_event = {
 #####################################################
 #Create Fetish Lodge Power for West-Africans.
 #Decide whether you want a mask or an idol.
-character_event = {
-	id = HF.25040
-	desc = EVTDESCHF25040
-	picture = GFX_evt_west_african_ruler
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = HF.25040
+	# desc = EVTDESCHF25040
+	# picture = GFX_evt_west_african_ruler
+	# border = GFX_event_normal_frame_religion
 
-	is_triggered_only = yes
+	# is_triggered_only = yes
 
-	option = { 
-		name = EVTOPTAHF25040
-		trigger = {
-			NOT = { 
-   				any_artifact = {
-   					has_artifact_flag = mask 
-   				}
-			} 
-		}
-		hidden_tooltip = { character_event = { id = HF.25041 days = 35 random = 45 } } #Pick Mask Quality.
-		ai_chance = {
-			factor = 70 #More visible to other players.
-		}
-	}
-	option = { 
-		name = EVTOPTBHF25040
-		trigger = {
-			NOT = { 
-   				any_artifact = {
-   					has_artifact_flag = totem 
-   				}
-			} 
-		}
-		hidden_tooltip = { character_event = { id = HF.25042 days = 65 random = 45 } } #Pick Fetish Type.
-		ai_chance = {
-			factor = 30
-		}
-	}
-}
+	# option = { 
+		# name = EVTOPTAHF25040
+		# trigger = {
+			# NOT = { 
+   				# any_artifact = {
+   					# has_artifact_flag = mask 
+   				# }
+			# } 
+		# }
+		# hidden_tooltip = { character_event = { id = HF.25041 days = 35 random = 45 } } #Pick Mask Quality.
+		# ai_chance = {
+			# factor = 70 #More visible to other players.
+		# }
+	# }
+	# option = { 
+		# name = EVTOPTBHF25040
+		# trigger = {
+			# NOT = { 
+   				# any_artifact = {
+   					# has_artifact_flag = totem 
+   				# }
+			# } 
+		# }
+		# hidden_tooltip = { character_event = { id = HF.25042 days = 65 random = 45 } } #Pick Fetish Type.
+		# ai_chance = {
+			# factor = 30
+		# }
+	# }
+# }
 
-#Mask: Pick quality.
-character_event = {
-	id = HF.25041
-	desc = EVTDESCHF25041
-	picture = GFX_evt_west_african_ruler
-	border = GFX_event_normal_frame_religion
+# #Mask: Pick quality.
+# character_event = {
+	# id = HF.25041
+	# desc = EVTDESCHF25041
+	# picture = GFX_evt_west_african_ruler
+	# border = GFX_event_normal_frame_religion
 
-	is_triggered_only = yes
+	# is_triggered_only = yes
 
-	option = { #Good
-		name = EVTOPTAHF25041
-		custom_tooltip = { text = TOOLTIP_EVTOPTAHF25041 } 
-		if = {
-			limit = { 
-   				ai = no
-   			}
-			scaled_wealth = { value = -1 min = -150 max = -500 }
-		}
-		hidden_tooltip = { character_event = { id = HF.25043 days = 35 random = 25 } } #Pick Top Tier Mask Type.
-		ai_chance = {
-			factor = 30
-		}
-	}
-	option = { #Mid
-		name = EVTOPTBHF25041
-		custom_tooltip = { text = TOOLTIP_EVTOPTBHF25041 } 
-		if = {
-			limit = { 
-   				ai = no
-   			}
-			scaled_wealth = { value = -0.5 min = -25 max = -100 }
-		}
-		hidden_tooltip = { character_event = { id = HF.25044 days = 35 random = 25 } } #Pick Mid-Tier Mask Type.
-		ai_chance = {
-			factor = 40
-		}
-	}
-	option = { #Low quality
-		name = EVTOPTCHF25041
-		custom_tooltip = { text = TOOLTIP_EVTOPTCHF25041 } 
-		hidden_tooltip = { character_event = { id = HF.25045 days = 35 random = 25 } } #Pick Low Tier Mask Type.
-		ai_chance = {
-			factor = 30
-		}
-	}
-}
+	# option = { #Good
+		# name = EVTOPTAHF25041
+		# custom_tooltip = { text = TOOLTIP_EVTOPTAHF25041 } 
+		# if = {
+			# limit = { 
+   				# ai = no
+   			# }
+			# scaled_wealth = { value = -1 min = -150 max = -500 }
+		# }
+		# hidden_tooltip = { character_event = { id = HF.25043 days = 35 random = 25 } } #Pick Top Tier Mask Type.
+		# ai_chance = {
+			# factor = 30
+		# }
+	# }
+	# option = { #Mid
+		# name = EVTOPTBHF25041
+		# custom_tooltip = { text = TOOLTIP_EVTOPTBHF25041 } 
+		# if = {
+			# limit = { 
+   				# ai = no
+   			# }
+			# scaled_wealth = { value = -0.5 min = -25 max = -100 }
+		# }
+		# hidden_tooltip = { character_event = { id = HF.25044 days = 35 random = 25 } } #Pick Mid-Tier Mask Type.
+		# ai_chance = {
+			# factor = 40
+		# }
+	# }
+	# option = { #Low quality
+		# name = EVTOPTCHF25041
+		# custom_tooltip = { text = TOOLTIP_EVTOPTCHF25041 } 
+		# hidden_tooltip = { character_event = { id = HF.25045 days = 35 random = 25 } } #Pick Low Tier Mask Type.
+		# ai_chance = {
+			# factor = 30
+		# }
+	# }
+# }
 
-#Idol: Pick type.
-character_event = {
-	id = HF.25042
-	desc = EVTDESCHF25042
-	picture = GFX_evt_west_african_ruler
-	border = GFX_event_normal_frame_religion
+# #Idol: Pick type.
+# character_event = {
+	# id = HF.25042
+	# desc = EVTDESCHF25042
+	# picture = GFX_evt_west_african_ruler
+	# border = GFX_event_normal_frame_religion
 
-	is_triggered_only = yes
+	# is_triggered_only = yes
 
-	option = { #Carved Totem
-		name = EVTOPTAHF25042
-		custom_tooltip = { text = TOOLTIP_EVTOPTAHF25042 } 
-		if = {
-			limit = { 
-   				ai = no
-   			}
-			scaled_wealth = { value = -0.75 min = -50 max = -200 }
-		}
-		hidden_tooltip = { character_event = { id = HF.25046 } }
-		ai_chance = {
-			factor = 30
-		}
-	}
-	option = { #Ivory Idol
-		name = EVTOPTBHF25042
-		custom_tooltip = { text = TOOLTIP_EVTOPTBHF25042 } 
-		if = {
-			limit = { 
-   				ai = no
-   			}
-			scaled_wealth = { value = -0.75 min = -50 max = -200 }
-		}
-		hidden_tooltip = { character_event = { id = HF.25047 } }
-		ai_chance = {
-			factor = 30
-		}
-	}
-	option = { #Rainstick
-		name = EVTOPTCHF25042
-		custom_tooltip = { text = TOOLTIP_EVTOPTCHF25042 } 
-		hidden_tooltip = { character_event = { id = HF.25048 } } 
-		ai_chance = {
-			factor = 30
-		}
-	}
-}
+	# option = { #Carved Totem
+		# name = EVTOPTAHF25042
+		# custom_tooltip = { text = TOOLTIP_EVTOPTAHF25042 } 
+		# if = {
+			# limit = { 
+   				# ai = no
+   			# }
+			# scaled_wealth = { value = -0.75 min = -50 max = -200 }
+		# }
+		# hidden_tooltip = { character_event = { id = HF.25046 } }
+		# ai_chance = {
+			# factor = 30
+		# }
+	# }
+	# option = { #Ivory Idol
+		# name = EVTOPTBHF25042
+		# custom_tooltip = { text = TOOLTIP_EVTOPTBHF25042 } 
+		# if = {
+			# limit = { 
+   				# ai = no
+   			# }
+			# scaled_wealth = { value = -0.75 min = -50 max = -200 }
+		# }
+		# hidden_tooltip = { character_event = { id = HF.25047 } }
+		# ai_chance = {
+			# factor = 30
+		# }
+	# }
+	# option = { #Rainstick
+		# name = EVTOPTCHF25042
+		# custom_tooltip = { text = TOOLTIP_EVTOPTCHF25042 } 
+		# hidden_tooltip = { character_event = { id = HF.25048 } } 
+		# ai_chance = {
+			# factor = 30
+		# }
+	# }
+# }
 
-#Top Tier Mask: Pick spirit to inhabit it with.
-character_event = {
-	id = HF.25043
-	desc = EVTDESCHF25043
-	picture = GFX_evt_west_african_ruler
-	border = GFX_event_normal_frame_religion
+# #Top Tier Mask: Pick spirit to inhabit it with.
+# character_event = {
+	# id = HF.25043
+	# desc = EVTDESCHF25043
+	# picture = GFX_evt_west_african_ruler
+	# border = GFX_event_normal_frame_religion
 
-	is_triggered_only = yes
+	# is_triggered_only = yes
 
-	option = { #Inspiring
-		name = EVTOPTAHF25043
-		custom_tooltip = { text = TOOLTIP_EVTOPTAHF25043 } 
-		hidden_tooltip = { character_event = { id = HF.25049 } }
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 2
-				has_pleasant_trait_trigger = yes
-			}
-		}
-	}
-	option = { #Terrifying
-		name = EVTOPTBHF25043
-		custom_tooltip = { text = TOOLTIP_EVTOPTBHF25043 } 
-		hidden_tooltip = { character_event = { id = HF.25050 } }
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 2
-				has_unpleasant_trait_trigger = yes
-			}
-		}
-	}
-}
-#Mid Tier Mask: Pick spirit to inhabit it with.
-character_event = {
-	id = HF.25044
-	desc = EVTDESCHF25044
-	picture = GFX_evt_west_african_ruler
-	border = GFX_event_normal_frame_religion
+	# option = { #Inspiring
+		# name = EVTOPTAHF25043
+		# custom_tooltip = { text = TOOLTIP_EVTOPTAHF25043 } 
+		# hidden_tooltip = { character_event = { id = HF.25049 } }
+		# ai_chance = {
+			# factor = 50
+			# modifier = {
+				# factor = 2
+				# has_pleasant_trait_trigger = yes
+			# }
+		# }
+	# }
+	# option = { #Terrifying
+		# name = EVTOPTBHF25043
+		# custom_tooltip = { text = TOOLTIP_EVTOPTBHF25043 } 
+		# hidden_tooltip = { character_event = { id = HF.25050 } }
+		# ai_chance = {
+			# factor = 50
+			# modifier = {
+				# factor = 2
+				# has_unpleasant_trait_trigger = yes
+			# }
+		# }
+	# }
+# }
+# #Mid Tier Mask: Pick spirit to inhabit it with.
+# character_event = {
+	# id = HF.25044
+	# desc = EVTDESCHF25044
+	# picture = GFX_evt_west_african_ruler
+	# border = GFX_event_normal_frame_religion
 
-	is_triggered_only = yes
+	# is_triggered_only = yes
 
-	option = { #Unyielding
-		name = EVTOPTAHF25044
-		custom_tooltip = { text = TOOLTIP_EVTOPTAHF25044 } 
-		hidden_tooltip = { character_event = { id = HF.25051 } }
-		ai_chance = {
-			factor = 30
-			modifier = {
-				factor = 1.75
-				OR = {
-					trait = stubborn
-					trait = brave
-				}
-			}
-		}
-	}
-	option = { #Ruthless
-		name = EVTOPTBHF25044
-		custom_tooltip = { text = TOOLTIP_EVTOPTBHF25044 } 
-		hidden_tooltip = { character_event = { id = HF.25052 } }
-		ai_chance = {
-			factor = 30
-			modifier = {
-				factor = 1.75
-				OR = {
-					trait = impaler
-					trait = cruel
-				}
-			}
-		}
-	}
-	option = { #Trickster
-		name = EVTOPTCHF25044
-		custom_tooltip = { text = TOOLTIP_EVTOPTCHF25044 } 
-		hidden_tooltip = { character_event = { id = HF.25053 } }
-		ai_chance = {
-			factor = 30
-			modifier = {
-				factor = 1.75
-				OR = {
-					trait = deceitful
-					trait = shy
-				}
-			}
-		}
-	}
-}
+	# option = { #Unyielding
+		# name = EVTOPTAHF25044
+		# custom_tooltip = { text = TOOLTIP_EVTOPTAHF25044 } 
+		# hidden_tooltip = { character_event = { id = HF.25051 } }
+		# ai_chance = {
+			# factor = 30
+			# modifier = {
+				# factor = 1.75
+				# OR = {
+					# trait = stubborn
+					# trait = brave
+				# }
+			# }
+		# }
+	# }
+	# option = { #Ruthless
+		# name = EVTOPTBHF25044
+		# custom_tooltip = { text = TOOLTIP_EVTOPTBHF25044 } 
+		# hidden_tooltip = { character_event = { id = HF.25052 } }
+		# ai_chance = {
+			# factor = 30
+			# modifier = {
+				# factor = 1.75
+				# OR = {
+					# trait = impaler
+					# trait = cruel
+				# }
+			# }
+		# }
+	# }
+	# option = { #Trickster
+		# name = EVTOPTCHF25044
+		# custom_tooltip = { text = TOOLTIP_EVTOPTCHF25044 } 
+		# hidden_tooltip = { character_event = { id = HF.25053 } }
+		# ai_chance = {
+			# factor = 30
+			# modifier = {
+				# factor = 1.75
+				# OR = {
+					# trait = deceitful
+					# trait = shy
+				# }
+			# }
+		# }
+	# }
+# }
 
-#Low Tier Mask: Pick spirit to inhabit it with.
-character_event = {
-	id = HF.25045
-	desc = EVTDESCHF25045
-	picture = GFX_evt_west_african_ruler
-	border = GFX_event_normal_frame_religion
+# #Low Tier Mask: Pick spirit to inhabit it with.
+# character_event = {
+	# id = HF.25045
+	# desc = EVTDESCHF25045
+	# picture = GFX_evt_west_african_ruler
+	# border = GFX_event_normal_frame_religion
 
-	is_triggered_only = yes
+	# is_triggered_only = yes
 
-	option = { #Angry
-		name = EVTOPTAHF25045
-		custom_tooltip = { text = TOOLTIP_EVTOPTAHF25045 } 
-		hidden_tooltip = { character_event = { id = HF.25054 } }
-		ai_chance = {
-			factor = 30
-			modifier = {
-				factor = 1.75
-				OR = {
-					trait = wroth
-					trait = stubborn
-				}
-			}
-		}
-	}
-	option = { #Staunch
-		name = EVTOPTBHF25045
-		custom_tooltip = { text = TOOLTIP_EVTOPTBHF25045 } 
-		hidden_tooltip = { character_event = { id = HF.25055 } }
-		ai_chance = {
-			factor = 30
-			modifier = {
-				factor = 1.75
-				OR = {
-					trait = brave
-					trait = zealous
-				}
-			}
-		}
-	}
-	option = { #Fleeting
-		name = EVTOPTCHF25045
-		custom_tooltip = { text = TOOLTIP_EVTOPTCHF25045 } 
-		hidden_tooltip = { character_event = { id = HF.25056 } }
-		ai_chance = {
-			factor = 30
-			modifier = {
-				factor = 1.75
-				OR = {
-					trait = craven
-					trait = shy
-				}
-			}
-		}
-	}
-}
+	# option = { #Angry
+		# name = EVTOPTAHF25045
+		# custom_tooltip = { text = TOOLTIP_EVTOPTAHF25045 } 
+		# hidden_tooltip = { character_event = { id = HF.25054 } }
+		# ai_chance = {
+			# factor = 30
+			# modifier = {
+				# factor = 1.75
+				# OR = {
+					# trait = wroth
+					# trait = stubborn
+				# }
+			# }
+		# }
+	# }
+	# option = { #Staunch
+		# name = EVTOPTBHF25045
+		# custom_tooltip = { text = TOOLTIP_EVTOPTBHF25045 } 
+		# hidden_tooltip = { character_event = { id = HF.25055 } }
+		# ai_chance = {
+			# factor = 30
+			# modifier = {
+				# factor = 1.75
+				# OR = {
+					# trait = brave
+					# trait = zealous
+				# }
+			# }
+		# }
+	# }
+	# option = { #Fleeting
+		# name = EVTOPTCHF25045
+		# custom_tooltip = { text = TOOLTIP_EVTOPTCHF25045 } 
+		# hidden_tooltip = { character_event = { id = HF.25056 } }
+		# ai_chance = {
+			# factor = 30
+			# modifier = {
+				# factor = 1.75
+				# OR = {
+					# trait = craven
+					# trait = shy
+				# }
+			# }
+		# }
+	# }
+# }
 
 #Notifications for Baltic Holds Power.
 #tb_defensive_fortifications_1
