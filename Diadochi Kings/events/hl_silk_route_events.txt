@@ -420,16 +420,16 @@ character_event = {
 				}
 				event_target:chinese_envoy = { character_event = { id = HL.5015 } }
 			}
-			30 = { # trade an artifact
-				trigger = { 
-					has_dlc = "Jade Dragon"
-				}
-				modifier = {
-					factor = 0.1
-					any_artifact = { has_artifact_flag = chinese }
-				}
-				event_target:chinese_envoy = { character_event = { id = JD.60001 } }
-			}
+			# 30 = { # trade an artifact
+				# trigger = { 
+					# has_dlc = "Jade Dragon"
+				# }
+				# modifier = {
+					# factor = 0.1
+					# any_artifact = { has_artifact_flag = chinese }
+				# }
+				# event_target:chinese_envoy = { character_event = { id = JD.60001 } }
+			# }
 			10 = { # resignation
 				modifier = {
 					factor = 0

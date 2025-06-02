@@ -665,12 +665,12 @@ character_event = {
 			}
 			character_event = { id = RoI.120 } # Assign Indian religion branch
 		}
-		if = {
-			limit = {
-				character = FROM
-			}
-			character_event = { id = MNM.3949 days = 3 random = 10 }
-		}
+		# if = {
+			# limit = {
+				# character = FROM
+			# }
+			# character_event = { id = MNM.3949 days = 3 random = 10 }
+		# }
 	}
 	
 	option = { # Sympathy for the old religion
@@ -717,12 +717,12 @@ character_event = {
 			}
 			character_event = { id = RoI.120 } # Assign Indian religion branch
 		}
-		if = {
-			limit = {
-				character = FROM
-			}
-			character_event = { id = MNM.3949 days = 3 random = 10 }
-		}
+		# if = {
+			# limit = {
+				# character = FROM
+			# }
+			# character_event = { id = MNM.3949 days = 3 random = 10 }
+		# }
 	}
 }
 

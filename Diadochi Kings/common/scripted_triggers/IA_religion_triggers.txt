@@ -2,3 +2,13 @@ has_reformed_religion_trigger = {
 	# TODO: NOT unreformed religions
     always = yes
 }
+
+has_pagan_features = {
+	religion = illyrian_main
+	religion = thracian_main
+	religion = celtic_main
+	religion = georgian_main
+	religion = lusitanian_main
+	religion = iberian_main
+	religion = aquitanian_main
+}

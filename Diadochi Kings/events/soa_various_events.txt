@@ -1044,67 +1044,67 @@ character_event = {
 		}
 	
 		# Trigger the Sunset Invasion?
-		if = {
-			limit = {
-				prisoner = no
-				is_incapable = no
-				OR = {
-					is_ruler = no
-					primary_title = {
-						lower_tier_than = duke
-					}
-				}
-				war = no
-				has_dlc = "Sunset Invasion"
-				NOR = {
-					has_global_flag = aztec_explorers
-					has_global_flag = aztec_arrival
-					has_game_rule = {
-						name = aztec_invasion
-						value = off
-					}
-				}
-				OR = {
-					AND = {
-						has_game_rule = {
-							name = aztec_invasion
-							value = historical
-						}
-						year = 1250
-					}
-					AND = {
-						has_game_rule = {
-							name = aztec_invasion
-							value = random
-						}
-						total_years_played = 50
-					}
-					AND = {
-						has_game_rule = {
-							name = aztec_invasion
-							value = delayed_random
-						}
-						year = 1000
-						total_years_played = 50
-					}
-				}
-				mother = {
-					OR = {
-						is_alive = no
-						is_playable = no
-					}
-				}
-				father = {
-					OR = {
-						is_alive = no
-						is_playable = no
-					}
-				}
-				random = 50
-			}
-			character_event = { id = SoA.3080 }
-			break = yes
-		}
+		# if = {
+			# limit = {
+				# prisoner = no
+				# is_incapable = no
+				# OR = {
+					# is_ruler = no
+					# primary_title = {
+						# lower_tier_than = duke
+					# }
+				# }
+				# war = no
+				# has_dlc = "Sunset Invasion"
+				# NOR = {
+					# has_global_flag = aztec_explorers
+					# has_global_flag = aztec_arrival
+					# has_game_rule = {
+						# name = aztec_invasion
+						# value = off
+					# }
+				# }
+				# OR = {
+					# AND = {
+						# has_game_rule = {
+							# name = aztec_invasion
+							# value = historical
+						# }
+						# year = 1250
+					# }
+					# AND = {
+						# has_game_rule = {
+							# name = aztec_invasion
+							# value = random
+						# }
+						# total_years_played = 50
+					# }
+					# AND = {
+						# has_game_rule = {
+							# name = aztec_invasion
+							# value = delayed_random
+						# }
+						# year = 1000
+						# total_years_played = 50
+					# }
+				# }
+				# mother = {
+					# OR = {
+						# is_alive = no
+						# is_playable = no
+					# }
+				# }
+				# father = {
+					# OR = {
+						# is_alive = no
+						# is_playable = no
+					# }
+				# }
+				# random = 50
+			# }
+			# character_event = { id = SoA.3080 }
+			# break = yes
+		# }
 	}
 	
 }
@@ -1280,12 +1280,12 @@ character_event = {
 			add_society_currency_massive_effect = yes
 			set_society_grandmaster = yes
 			
-			society = {
-				any_society_member = {
-					limit = { NOT = { character = ROOT } }
-					narrative_event = { id = SoA.3090 days = 3 }
-				}
-			}
+			# society = {
+				# any_society_member = {
+					# limit = { NOT = { character = ROOT } }
+					# narrative_event = { id = SoA.3090 days = 3 }
+				# }
+			# }
 		}
 		
 		add_character_modifier = {
