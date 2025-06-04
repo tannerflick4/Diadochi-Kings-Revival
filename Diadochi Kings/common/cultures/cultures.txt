@@ -1800,8 +1800,8 @@ lusitanian = {
 	
 	color = { 0.85 0.4 0.15 }
 	
-	male_names = {
-		Ambatos_Ambatos Arauos_Arauos Bibablos_Bibalos Bouiani_Bouiani Bouati_Bouati Bouaulos_Bouaulos Bouios_Bouios Buanos_Buanos Kailobrigos_Kailobrigos Kankilos_Kankilos Kankilios_Kankilios Kasapos_Kasapos Kasabios_Kasabios Kilenos_Kilenos Koporos_Koporos Kumelios_Kumelios Kundigos_Kundigos Kuntinos_Kuntinos Kuntios_Kuntios Equaisos_Equaisos Ikkauos_Ikkauos Ikkalos_Ikkalos Ikkianos_Ikkianos Ikkonios_Ikkonios Leoni_Leoni Matugenos_Matugenos Melmandos_Melmandos Pekunios_Pekunios Seuros_Seuros Taporos_Taporos Taurilios_Taurilios Taurokos_Taurokos Uendikos_Uendikos 
+		male_names = {
+			Ambatos_Ambatos Arauos_Arauos Bibablos_Bibalos Bouiani_Bouiani Bouati_Bouati Bouaulos_Bouaulos Bouios_Bouios Buanos_Buanos Kailobrigos_Kailobrigos Kankilos_Kankilos Kankilios_Kankilios Kasapos_Kasapos Kasabios_Kasabios Kilenos_Kilenos Koporos_Koporos Kumelios_Kumelios Kundigos_Kundigos Kuntinos_Kuntinos Kuntios_Kuntios Equaisos_Equaisos Ikkauos_Ikkauos Ikkalos_Ikkalos Ikkianos_Ikkianos Ikkonios_Ikkonios Leoni_Leoni Matugenos_Matugenos Melmandos_Melmandos Pekunios_Pekunios Seuros_Seuros Taporos_Taporos Taurilios_Taurilios Taurokos_Taurokos Uendikos_Uendikos 
 		}
 		female_names = {
 			Ama_Ama Amena_Amena Amia_Amia Ana_Ana Apirka_Apirka Aunia_Aunia Birkita_Birkita  Bouana_Bouana Bouia_Bouia Kilena_Kilena Genouefa_Genouefa Kara_Kara Kyna_Kyna Mauis_Mauis Nunn_Nunn Sikounin_Sikounin Stena_Stena Treua_Treua Ueuila_Ueuila  

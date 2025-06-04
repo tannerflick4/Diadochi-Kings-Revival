@@ -27,3 +27,15 @@
 	name = "Leantini" 
 	culture = arabic
 }
+32008 = {
+	name = "Huddid" 
+	culture = arabic
+}
+32009 = {
+	name = "Dhunnunid" 
+	culture = arabic
+}
+32010 = {
+	name = "Khamisis" 
+	culture = arabic
+}

@@ -7,3 +7,35 @@
 	name = "Chaldes"
 	culture = akkadian
 }
+53003 = {
+	name = "of Akkad"
+	culture = akkadian
+}
+53004 = {
+	name = "Sunak-pum"
+	culture = akkadian
+}
+53005 = {
+	name = "Subitum"
+	culture = akkadian
+}
+53006 = {
+	name = "Sin-muda"
+	culture = akkadian
+}
+53007 = {
+	name = "Samas-bitum"
+	culture = akkadian
+}
+53008 = {
+	name = "Su-Ilshara"
+	culture = akkadian
+}
+53009 = {
+	name = "Mabalu-Dagan"
+	culture = akkadian
+}
+53010 = {
+	name = "Ikunum"
+	culture = akkadian
+}

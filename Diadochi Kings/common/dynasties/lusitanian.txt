@@ -3,95 +3,95 @@
 # Lusitanian
 43001 = {
 	name = "Lusitani"
-	culture = celtiberian
+	culture = lusitanian
 }
 43002 = {
 	name = "Elbocori"
-	culture = celtiberian
+	culture = lusitanian
 }
 43003 = {
 	name = "Paesuri"
-	culture = celtiberian
+	culture = lusitanian
 }
 43005 = {
 	name = "Arabrigenses"
-	culture = celtiberian
+	culture = lusitanian
 }
 43006 = {
 	name = "Aravi"
-	culture = celtiberian
+	culture = lusitanian
 }
 43007 = {
 	name = "Coelarni"
-	culture = celtiberian
+	culture = lusitanian
 }
 43008 = {
 	name = "Interamnienses"
-	culture = celtiberian
+	culture = lusitanian
 }
 43009 = {
 	name = "Lancienses"
-	culture = celtiberian
+	culture = lusitanian
 }
 43010 = {
 	name = "Lancienses Oppidani"
-	culture = celtiberian
+	culture = lusitanian
 }
 43011 = {
 	name = "Lancienses Transcudani"
-	culture = celtiberian
+	culture = lusitanian
 }
 43012 = {
 	name = "Ocelenses Lancienses"
-	culture = celtiberian
+	culture = lusitanian
 }
 43013 = {
 	name = "Meidubrigenses"
-	culture = celtiberian
+	culture = lusitanian
 }
 43014 = {
 	name = "Palanti"
-	culture = celtiberian
+	culture = lusitanian
 }
 43015 = {
 	name = "Tangi"
-	culture = celtiberian
+	culture = lusitanian
 }
 43016 = {
 	name = "Igaeditani"
-	culture = celtiberian
+	culture = lusitanian
 }
 43017 = {
 	name = "Tapori"
-	culture = celtiberian
+	culture = lusitanian
 }
 43018 = {
 	name = "Talures"
-	culture = celtiberian
+	culture = lusitanian
 }
 43019 = {
 	name = "Veaminicori"
-	culture = celtiberian
+	culture = lusitanian
 }
 
 # Vettones
 43004 = {
 	name = "Vettones"
-	culture = celtiberian
+	culture = lusitanian
 }
 43020 = {
 	name = "Bletonesii"
-	culture = celtiberian
+	culture = lusitanian
 }
 43021 = {
 	name = "Calontienses"
-	culture = celtiberian
+	culture = lusitanian
 }
 43022 = {
 	name = "Caluri"
-	culture = celtiberian
+	culture = lusitanian
 }
 43023 = {
 	name = "Coerenses"
-	culture = celtiberian
+	culture = lusitanian
 }

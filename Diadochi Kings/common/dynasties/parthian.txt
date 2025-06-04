@@ -1,0 +1,123 @@
+# 52060-52089 for Parthian dynasties
+# Parthian names taken from I:R persian family names
+
+52060 = {
+	name = "Aramid"
+	culture = parthian
+}
+52061 = {
+	name = "Arid"
+	culture = parthian
+}
+52062 = {
+	name = "Arkhid"
+	culture = parthian
+}
+52063 = {
+	name = "Asinid"
+	culture = parthian
+}
+52064 = {
+	name = "Arsacid"
+	culture = parthian
+}
+52065 = {
+	name = "Deiocid"
+	culture = parthian
+}
+52066 = {
+	name = "Menid"
+	culture = parthian
+}
+52067 = {
+	name = "Pacorid"
+	culture = parthian
+}
+52068 = {
+	name = "Savacid"
+	culture = parthian
+}
+52069 = {
+	name = "Vardanid"
+	culture = parthian
+}
+52070 = {
+	name = "Suren"
+	culture = parthian
+}
+52071 = {
+	name = "Karin"
+	culture = parthian
+}
+52072 = {
+	name = "Gaumatid"
+	culture = parthian
+}
+52073 = {
+	name = "Gobryasid"
+	culture = parthian
+}
+52074 = {
+	name = "Hydarnid"
+	culture = parthian
+}
+52075 = {
+	name = "Smerdid"
+	culture = parthian
+}
+52076 = {
+	name = "Vivanid"
+	culture = parthian
+}
+52077 = {
+	name = "Xerxid"
+	culture = parthian
+}
+52078 = {
+	name = "Abadanid"
+	culture = parthian
+}
+52079 = {
+	name = "Orontid"
+	culture = parthian
+}
+52080 = {
+	name = "Atropatid"
+	culture = parthian
+}
+52081 = {
+	name = "Mithridatid"
+	culture = parthian
+}
+52082 = {
+	name = "Artashid"
+	culture = parthian
+}
+52083 = {
+	name = "Artiaxid"
+	culture = parthian
+}
+52084 = {
+	name = "Sassanid"
+	culture = parthian
+}
+52085 = {
+	name = "Mihranid"
+	culture = parthian
+}
+52086 = {
+	name = "Chosroid"
+	culture = parthian
+}
+52087 = {
+	name = "Bagabignid"
+	culture = parthian
+}
+52088 = {
+	name = "Cambysid"
+	culture = parthian
+}
+52089 = {
+	name = "Frataraka"
+	culture = parthian
+}

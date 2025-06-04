@@ -1,0 +1,123 @@
+# 52030-53000 for Arian dynasties
+# Arian names taken from I:R persian family names
+
+52030 = {
+	name = "Aramid"
+	culture = arian
+}
+52031 = {
+	name = "Arid"
+	culture = arian
+}
+52032 = {
+	name = "Arkhid"
+	culture = arian
+}
+52033 = {
+	name = "Asinid"
+	culture = arian
+}
+52034 = {
+	name = "Arsacid"
+	culture = arian
+}
+52035 = {
+	name = "Deiocid"
+	culture = arian
+}
+52036 = {
+	name = "Menid"
+	culture = arian
+}
+52037 = {
+	name = "Pacorid"
+	culture = arian
+}
+52038 = {
+	name = "Savacid"
+	culture = arian
+}
+52039 = {
+	name = "Vardanid"
+	culture = arian
+}
+52040 = {
+	name = "Suren"
+	culture = arian
+}
+52041 = {
+	name = "Karin"
+	culture = arian
+}
+52042 = {
+	name = "Gaumatid"
+	culture = arian
+}
+52043 = {
+	name = "Gobryasid"
+	culture = arian
+}
+52044 = {
+	name = "Hydarnid"
+	culture = arian
+}
+52045 = {
+	name = "Smerdid"
+	culture = arian
+}
+52046 = {
+	name = "Vivanid"
+	culture = arian
+}
+52047 = {
+	name = "Xerxid"
+	culture = arian
+}
+52048 = {
+	name = "Abadanid"
+	culture = arian
+}
+52049 = {
+	name = "Orontid"
+	culture = arian
+}
+52050 = {
+	name = "Atropatid"
+	culture = arian
+}
+52051 = {
+	name = "Mithridatid"
+	culture = arian
+}
+52052 = {
+	name = "Artashid"
+	culture = arian
+}
+52053 = {
+	name = "Artiaxid"
+	culture = arian
+}
+52054 = {
+	name = "Sassanid"
+	culture = arian
+}
+52055 = {
+	name = "Mihranid"
+	culture = arian
+}
+52056 = {
+	name = "Chosroid"
+	culture = arian
+}
+52057 = {
+	name = "Bagabignid"
+	culture = arian
+}
+52058 = {
+	name = "Cambysid"
+	culture = arian
+}
+52059 = {
+	name = "Frataraka"
+	culture = arian
+}

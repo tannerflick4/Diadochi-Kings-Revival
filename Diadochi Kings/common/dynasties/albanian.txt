@@ -3,3 +3,39 @@
 	name = "Albani"
 	culture = albanian
 }
+36002 = {
+	name = "Ropsean"
+	culture = albanian
+}
+36003 = {
+	name = "Manawazean"
+	culture = albanian
+}
+36004 = {
+	name = "Gabeghean"
+	culture = albanian
+}
+36005 = {
+	name = "Andzevatsi"
+	culture = albanian
+}
+36006 = {
+	name = "Gntuni"
+	culture = albanian
+}
+36007 = {
+	name = "Sghkuni"
+	culture = albanian
+}
+36008 = {
+	name = "Kamsarakan"
+	culture = albanian
+}
+36009 = {
+	name = "Paluni"
+	culture = albanian
+}
+36010 = {
+	name = "Sruanjit"
+	culture = albanian
+}

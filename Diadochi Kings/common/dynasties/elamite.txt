@@ -1,0 +1,123 @@
+# 52120-52149 for Elamite dynasties
+# Elamite names taken from I:R persian family names
+
+52120 = {
+	name = "Aramid"
+	culture = elamite
+}
+52121 = {
+	name = "Arid"
+	culture = elamite
+}
+52122 = {
+	name = "Arkhid"
+	culture = elamite
+}
+52123 = {
+	name = "Asinid"
+	culture = elamite
+}
+52124 = {
+	name = "Arsacid"
+	culture = elamite
+}
+52125 = {
+	name = "Deiocid"
+	culture = elamite
+}
+52126 = {
+	name = "Menid"
+	culture = elamite
+}
+52127 = {
+	name = "Pacorid"
+	culture = elamite
+}
+52128 = {
+	name = "Savacid"
+	culture = elamite
+}
+52129 = {
+	name = "Vardanid"
+	culture = elamite
+}
+52130 = {
+	name = "Suren"
+	culture = elamite
+}
+52131 = {
+	name = "Karin"
+	culture = elamite
+}
+52132 = {
+	name = "Gaumatid"
+	culture = elamite
+}
+52133 = {
+	name = "Gobryasid"
+	culture = elamite
+}
+52134 = {
+	name = "Hydarnid"
+	culture = elamite
+}
+52135 = {
+	name = "Smerdid"
+	culture = elamite
+}
+52136 = {
+	name = "Vivanid"
+	culture = elamite
+}
+52137 = {
+	name = "Xerxid"
+	culture = elamite
+}
+52138 = {
+	name = "Abadanid"
+	culture = elamite
+}
+52139 = {
+	name = "Orontid"
+	culture = elamite
+}
+52140 = {
+	name = "Atropatid"
+	culture = elamite
+}
+52141 = {
+	name = "Mithridatid"
+	culture = elamite
+}
+52142 = {
+	name = "Artashid"
+	culture = elamite
+}
+52143 = {
+	name = "Artiaxid"
+	culture = elamite
+}
+52144 = {
+	name = "Sassanid"
+	culture = elamite
+}
+52145 = {
+	name = "Mihranid"
+	culture = elamite
+}
+52146 = {
+	name = "Chosroid"
+	culture = elamite
+}
+52147 = {
+	name = "Bagabignid"
+	culture = elamite
+}
+52148 = {
+	name = "Cambysid"
+	culture = elamite
+}
+52149 = {
+	name = "Frataraka"
+	culture = elamite
+}

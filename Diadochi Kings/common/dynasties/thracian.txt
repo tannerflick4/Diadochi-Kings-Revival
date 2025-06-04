@@ -1,4 +1,6 @@
 # 4001-5000 for thracian dynasties
+# a few phrygian are mixed in to give them some dynasties
+
 4001 = {
 	name = "Bithyni"
 	culture = thracian
@@ -133,7 +135,7 @@
 }
 4034 = {
 	name = "Pieres"
-	culture = thracian
+	culture = phrygian
 }
 4035 = {
 	name = "Sapaei"
@@ -141,11 +143,11 @@
 }
 4036 = {
 	name = "Satrae"
-	culture = thracian
+	culture = phrygian
 }
 4037 = {
 	name = "Sycaeboae"
-	culture = thracian
+	culture = phrygian
 }
 4038 = {
 	name = "Scyrmiadae"
@@ -153,15 +155,15 @@
 }
 4039 = {
 	name = "Sinti"
-	culture = thracian
+	culture = phrygian
 }
 4040 = {
 	name = "Sithones"
-	culture = thracian
+	culture = phrygian
 }
 4041 = {
 	name = "Thyni"
-	culture = thracian
+	culture = phrygian
 }
 4042 = {
 	name = "Tilataei"
@@ -169,27 +171,27 @@
 }
 4043 = {
 	name = "Tralles"
-	culture = thracian
+	culture = phrygian
 }
 4044 = {
 	name = "Tranipsae"
-	culture = thracian
+	culture = phrygian
 }
 4045 = {
 	name = "Trausi"
-	culture = thracian
+	culture = phrygian
 }
 4046 = {
 	name = "Treres"
-	culture = thracian
+	culture = phrygian
 }
 4047 = {
 	name = "Artakii"
-	culture = thracian
+	culture = phrygian
 }
 4048 = {
 	name = "Moesi"
-	culture = thracian
+	culture = phrygian
 }
 4049 = {
 	name = "Bistones"

@@ -1,0 +1,123 @@
+# 52090-52119 for Median dynasties
+# Median names taken from I:R persian family names
+
+52090 = {
+	name = "Aramid"
+	culture = median
+}
+52091 = {
+	name = "Arid"
+	culture = median
+}
+52092 = {
+	name = "Arkhid"
+	culture = median
+}
+52093 = {
+	name = "Asinid"
+	culture = median
+}
+52094 = {
+	name = "Arsacid"
+	culture = median
+}
+52095 = {
+	name = "Deiocid"
+	culture = median
+}
+52096 = {
+	name = "Menid"
+	culture = median
+}
+52097 = {
+	name = "Pacorid"
+	culture = median
+}
+52098 = {
+	name = "Savacid"
+	culture = median
+}
+52099 = {
+	name = "Vardanid"
+	culture = median
+}
+52100 = {
+	name = "Suren"
+	culture = median
+}
+52101 = {
+	name = "Karin"
+	culture = median
+}
+52102 = {
+	name = "Gaumatid"
+	culture = median
+}
+52103 = {
+	name = "Gobryasid"
+	culture = median
+}
+52104 = {
+	name = "Hydarnid"
+	culture = median
+}
+52105 = {
+	name = "Smerdid"
+	culture = median
+}
+52106 = {
+	name = "Vivanid"
+	culture = median
+}
+52107 = {
+	name = "Xerxid"
+	culture = median
+}
+52108 = {
+	name = "Abadanid"
+	culture = median
+}
+52109 = {
+	name = "Orontid"
+	culture = median
+}
+52110 = {
+	name = "Atropatid"
+	culture = median
+}
+52111 = {
+	name = "Mithridatid"
+	culture = median
+}
+52112 = {
+	name = "Artashid"
+	culture = median
+}
+52113 = {
+	name = "Artiaxid"
+	culture = median
+}
+52114 = {
+	name = "Sassanid"
+	culture = median
+}
+52115 = {
+	name = "Mihranid"
+	culture = median
+}
+52116 = {
+	name = "Chosroid"
+	culture = median
+}
+52117 = {
+	name = "Bagabignid"
+	culture = median
+}
+52118 = {
+	name = "Cambysid"
+	culture = median
+}
+52119 = {
+	name = "Frataraka"
+	culture = median
+}
