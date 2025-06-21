@@ -323,7 +323,7 @@ illyrian_religion = {
 			archers_defensive = 0.4
 			horse_archers_defensive = 0.4
 			camel_cavalry_defensive = 0.4
-			war_elephants_defensive = 0.8
+			war_elephants_defensive = 0.4
 			
 			garrison_size = 0.2
 			
