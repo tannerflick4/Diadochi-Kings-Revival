@@ -17,10 +17,6 @@ GOD_GURZIL;Gurzil;;;;;;;;;;;;;x
 GOD_IFRI;Ifri;;;;;;;;;;;;;x
 north_african_religion;North African;;;;;;;;;;;;;x
 berber_main;Berber;;;;;;;;;;;;;x
-GOD_IRIA;Iria;Iria;;;;;;;;;;;;x
-GOD_BORIA;Boria;Boria;;;;;;;;;;;;x
-GOD_MALESOCUS;Malesocus;Malesocus;;;;;;;;;;;;x
-GOD_EIA;Eia;Eia;;;;;;;;;;;;x
 illyrian_religion;Illyrian;Illyrian;;;;;;;;;;;;x
 illyrian_main;Illyrian;Illyrian;;;;;;;;;;;;x
 GOD_SABAZIOS;Sabazios;;;;;;;;;;;;x;
@@ -250,3 +246,19 @@ GOD_HERMANUBIS;Hermanubis;;;;;;;;;;;;;x
 ENAREI;Enarei;Enarée;;;Enarei;;;;;;;x
 temple_baron_scythian_main;Enarei;Enarée;;;Enarei;;;;;;;x
 job_spiritual_scythian_main;Grand Enarei;Grand Enarée;;;Gran Enarei;;;;;;;x
+temple_baron_illyran_pagan;Volhv;Volhv;Volhv;;Volhv;;;;;;;x
+GOD_EIA;Eia;Eia;;;;;;;;;;x
+GOD_MALESOCUS;Malesocus;Malesocus;;;;;;;;;;x
+GOD_BORIA;Boria;Boria;;;;;;;;;;x
+GOD_IRIA;Iria;Iria;;;;;;;;;;x
+GOD_ANZOTICA;Anzotica;Anzotica;;;;;;;;;;x
+GOD_LATRA;Latra;Latra;;;;;;;;;;x
+GOD_SENTONA;Sentona;Sentona;;;;;;;;;;x
+GOD_ICA;Ica;Ica;;;;;;;;;;x
+GOD_BINDUS;Bindus;Bindus;;;;;;;;;;x
+GOD_JAPODES;Japodes;Japodes;;;;;;;;;;x
+GOD_VIDASUS;Vidasus;Vidasus;;;;;;;;;;x
+GOD_THANA;Thana;Thana;;;;;;;;;;x
+GOD_MEDAURUS;Medaurus;Medaurus;;;;;;;;;;x
+GOD_VELNIAS;Velnias;;;;;;;;;;;x
+THE_LEGENDS;The Legends;;;;;;;;;;;x

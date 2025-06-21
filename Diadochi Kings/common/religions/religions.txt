@@ -298,10 +298,36 @@ illyrian_religion = {
 		icon = 23
 		color = { 0.9 0.7 0 }
 		
-		crusade_name = "CRUSADE"
-		scripture_name = PLACEHOLDER
+		crusade_name = "GREAT_HOLY_WAR"
+		scripture_name = THE_LEGENDS
 		god_names = {
-			GOD_EIA GOD_MALESOCUS GOD_BORIA GOD_IRIA
+			GOD_EIA GOD_MALESOCUS GOD_BORIA GOD_IRIA GOD_ANZOTICA GOD_LATRA GOD_SENTONA GOD_ICA GOD_BINDUS GOD_JAPODES GOD_VIDASUS GOD_THANA GOD_MEDAURUS
+		}
+		evil_god_names = {
+			GOD_VELNIAS
+		}
+		
+		unit_modifier = {
+			garrison_size = 0.15
+			levy_size = 0.05
+			
+			key = "DEF_RELIGION"
+		}
+		unit_home_modifier = {
+			land_morale = 0.4
+			light_infantry_defensive = 0.4
+			heavy_infantry_defensive = 0.4
+			pikemen_defensive = 0.4
+			light_cavalry_defensive = 0.4
+			knights_defensive = 0.4
+			archers_defensive = 0.4
+			horse_archers_defensive = 0.4
+			camel_cavalry_defensive = 0.4
+			war_elephants_defensive = 0.8
+			
+			garrison_size = 0.2
+			
+			key = "DEF_RELIGION_HOME_TERRITORY"
 		}
 		
 		can_grant_divorce = yes
@@ -310,8 +336,13 @@ illyrian_religion = {
 		#allow_looting = yes
 		#peace_prestige_loss = yes # Lose Prestige while at peace
 		raised_vassal_opinion_loss = no
+		priests_can_marry = yes
+		female_temple_holders = yes
+		defensive_attrition = yes
 		
 		max_consorts = 3
+		
+		dislike_tribal_organization = yes
 		
 		intermarry = kemetic	
 		intermarry = atenist
