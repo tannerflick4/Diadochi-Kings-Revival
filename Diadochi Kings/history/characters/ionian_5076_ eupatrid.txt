@@ -113,7 +113,6 @@
 	female = yes
 	religion = greek_main
 	culture = ionian
-	female = yes
 	
 	father = 57907 # Glaucon
 

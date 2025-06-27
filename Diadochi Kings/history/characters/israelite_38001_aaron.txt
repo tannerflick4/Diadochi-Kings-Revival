@@ -7,7 +7,7 @@
 	
 	father = 380027
 	
-	37.1.1.1 = { # 737 BC, Made up
+	37.1.1 = { # 737 BC, Made up
 		birth="yes"
 	}
 	87.1.1 = { # 689 BC, Made up
