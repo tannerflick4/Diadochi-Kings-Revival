@@ -9,9 +9,9 @@
 	culture = latin
 	244.1.1 = { # 532 BC Made Up
 		birth="yes" 
+		give_nickname = nick_maluginensis
 	}
 	278.1.1 = { # 498 BC Made Up
-		give_nickname = nick_maluginensis
 		death="yes"
 	}
 }
@@ -25,9 +25,9 @@
 	
 	270.1.1 = { # 506 BC Made up
 		birth="yes"
+		give_nickname = nick_tricostus
 	}
 	323.1.1 = { # 453 BC Made up
-		give_nickname = nick_tricostus
 		death="yes"
 	}
 }
@@ -41,9 +41,9 @@
 	
 	283.1.1 = { # 493 BC Made up
 		birth="yes"
+		give_nickname = nick_uritinus
 	}
 	329.1.1 = { # 447 BC Made up
-		give_nickname = nick_uritinus
 		death="yes"
 	}
 }
@@ -684,8 +684,10 @@
 		birth="yes"
 		give_nickname = nick_calvus
 	}
-	567.1.1 = { # 209 BC Made Up
-		death="yes"
+	567.1.1 = { # 211 BC
+		death = { # 2nd Punic War
+			death_reason = death_battle
+		}
 	}
 }
 

@@ -29,6 +29,8 @@ nick_asina = { # female donkey
 }
 nick_atelius = { # dark-haired or dark-skinned
 }
+nick_atticus = { # of Attica
+}
 nick_avitus = { # grandfatherly = kind trait? OR old?
 }
 nick_balbus = { # stutterer = stutterer trait
@@ -68,6 +70,8 @@ nick_caepio = { # onion-seller
 }
 nick_caesar = { # hairy
 }
+nick_calenus = { # From Cales
+}
 nick_calidus = { # hot-headed, rash = wroth trait
 }
 nick_calvinus = { # bald
@@ -84,6 +88,8 @@ nick_caninus = { # dog-like
 nick_canus = { # golden-haired or grey-haired
 }
 nick_capito = { # big-headed
+}
+nick_capitolinus = { # from or saviors of capitoline hill
 }
 nick_carbo = { # charcoal
 }
@@ -152,6 +158,8 @@ nick_dolabella = { # hatchet
 }
 nick_dorsuo = { # large back
 }
+nick_falto = { # Falcon
+}
 nick_figulus = { # potter
 }
 nick_fimbria = { # edge of clothing, fringes
@@ -187,6 +195,8 @@ nick_labeo = { # prominent lips
 nick_lactuca = { # lettuce
 }
 nick_laenas = { # a wooly cloak
+}
+nick_laevinus = { # Left-handed
 }
 nick_lanatus = { # wearing wool
 }
@@ -230,6 +240,8 @@ nick_mergus = { # sea-gull
 }
 nick_merula = { # blackbird
 }
+nick_messalla = { # savior of Messana
+}
 nick_metellus = { # army follower
 }
 nick_murena = { # eel
@@ -272,6 +284,8 @@ nick_paterculus = { # daddy's boy?
 }
 nick_pera = { # shoulder-bag
 }
+nick_pennus = { # Sharp
+}
 nick_peticus = {}
 nick_pictor = { # painter = painter trait
 }
@@ -284,6 +298,8 @@ nick_plautus = { # flat-footed
 nick_poplicola = { # friend of the people
 }
 nick_postumus = { # born after the father's death
+}
+nick_potitus = { # Leader
 }
 nick_praeconinus = { # a relative of a herald
 }
@@ -299,6 +315,8 @@ nick_publicola = { # friend of the people
 }
 nick_pulcher = { # Handsome
 }
+nick_pullus = { # Dark-colored
+}
 nick_regillensis = { # of Regillum
 }
 nick_rufinus = { # Reddish
@@ -312,13 +330,21 @@ nick_russus = { # Reddish
 nick_rutilus = { # Also means reddish
 }
 nick_saverrio = {}
+nick_scaeva = { # Left-handed
+}
 nick_scapula = { # Shoulder Blade
 }
 nick_scipio = { # Staff
 }
+nick_silanus = { # Snub-nosed
+}
 nick_sulla = { # Prominent Calves
+}
+nick_torquatus = { # Adorned with neck chain
 }
 nick_tricostus = {}
 nick_uritinus = {}
 nick_vibulanus = { # from Vibula?
+}
+nick_vulso = { # plucked hair
 }

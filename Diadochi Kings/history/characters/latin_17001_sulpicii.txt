@@ -9,10 +9,10 @@
 	culture = latin
 	185.1.1 = { # 591 BC Made Up
 		birth="yes"
+		give_nickname = nick_cornutus
 	}
 	275.1.1 = { # 501 BC Made Up
 		death="yes"
-		give_nickname = nick_cornutus
 	}
 }
 170002 = {

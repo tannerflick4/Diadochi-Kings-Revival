@@ -250,67 +250,167 @@
 	617.8.23={ death=yes }
 }
 172324 = {
-	name = "Titus" # Manlius Torquatus
+	name = "Publius Capitolinus" # Publius Manlius Capitolinus
+	dynasty = 17024
+	culture = latin 
+	religion = roman_main
+	father = 172319	# Titus Manlius Vulso Capitolinus
+	359.1.1 = { # 417 BC Made Up
+		birth="yes" 
+	}
+	431.1.1 = { # 345 BC Made Up
+		death="yes" 
+	}
+}
+
+# Manlius Capitolinus Imperiosus
+
+172325 = {
+	name = "Lucius Capitolinus" # Lucius Manlius Capitolinus Imperiosus
 	dynasty = 17024 # Manlii
 	religion = roman_main
 	culture = latin
-	father=172301	# Titus
-	mother=172325	# Drusilla
-	402.1.1 = { # 382 BC Made Up
+	father = 172320	# Quintus Manlius Vulso Capitolinus
+	376.1.1 = { # 400 BC Made Up
 		birth="yes"
+		give_nickname = nick_imperiosus
 	}
-	436.1.1 = { # 334 BC Made Up
-		death = {
-			death_reason = death_murder
-			killer = 172301 # his father
-		}
+	437.1.1 = { # 339 BC Made Up
+		death="yes"
 	}
 }
-172325={
-	name = "Drusilla"
-	female=yes
-	culture=latin 
-	religion=roman_main
-	382.1.1={ birth=yes }
-	454.1.1={ death=yes }
+172326 = {
+	name = "Gnaeus Capitolinus Imperiosus" # Gnaeus Manlius Capitolinus Imperiosus
+	dynasty = 17024 # Manlii
+	culture = latin 
+	religion = roman_main
+	father = 172325	# Lucius Manlius Capitolinus Imperiosus
+	392.1.1 = { # 382 BC Made Up
+		birth="yes" 
+	}
+	446.1.1 = { # 330 BC Made Up
+		death="yes" 
+	}
 }
-172326={
-	name=Quintia
-	female=yes
-	culture=latin 
-	religion=roman_main
-	405.1.1={ birth=yes }
-	451.1.1={ death=yes }
+
+# Manlius Imperiosus Torquatus
+
+172327 = {
+	name = "Titus Imperiosus" # Titus Manlius Imperiosus Torquatus
+	dynasty = 17024 # Manlii
+	culture = latin 
+	religion = roman_main
+	father = 172325	# Lucius Manlius Capitolinus Imperiosus
+	393.1.1 = { # 383 BC Made Up
+		birth="yes" 
+		give_nickname = nick_torquatus
+	}
+	480.1.1 = { # 297 BC Made Up
+		death="yes" 
+	}
 }
-172327={
-	name=Crassia
-	female=yes
-	culture=latin 
-	religion=roman_main
-	436.1.1={ birth=yes }
-	495.1.1={ death=yes }
+172328 = {
+	name = "Titus Torquatus" # Titus Manlius Torquatus
+	dynasty = 17024 # Manlii
+	culture = latin 
+	religion = roman_main
+	father = 172327	# Titus Manlius Imperiosus Torquatus
+	414.1.1 = { # 362 BC Made Up
+		birth="yes" 
+	}
+	469.1.1 = { # 307 BC Made Up
+		death="yes" 
+	}
 }
-172328={
-	name=Domitia
-	female=yes
-	culture=latin 
-	religion=roman_main
-	464.1.1={ birth=yes }
-	528.1.1={ death=yes }
+172329 = {
+	name = "Titus Torquatus" # Titus Manlius Torquatus
+	dynasty = 17024 # Manlii
+	culture = latin 
+	religion = roman_main
+	father = 172328	# Titus Manlius Torquatus
+	436.1.1 = { # 340 BC Made Up
+		birth="yes" 
+	}
+	500.1.1 = { # 277 BC Made Up
+		death="yes" 
+	}
 }
-172329={
-	name=Varia
-	female=yes
-	culture=latin 
-	religion=roman_main
-	493.1.1={ birth=yes }
-	573.1.1={ death=yes }
+172330 = {
+	name = "Lucius Torquatus" # Lucius Manlius Torquatus
+	dynasty = 17024 # Manlii
+	culture = latin 
+	religion = roman_main
+	father = 172328	# Titus Manlius Torquatus
+	434.1.1 = { # 342 BC Made Up
+		birth="yes" 
+	}
+	490.1.1 = { # 286 BC Made Up
+		death="yes" 
+	}
 }
-172330={
-	name=Annia
-	female=yes
-	culture=latin 
-	religion=roman_main
-	518.1.1={ birth=yes }
-	573.1.1={ death=yes }
+172331 = {
+	name = "Titus Torquatus" # Titus Manlius Torquatus
+	dynasty = 17024 # Manlii
+	culture = latin 
+	religion = roman_main
+	father = 172329	# Titus Manlius Torquatus
+	459.1.1 = { # 317 BC Made Up
+		birth="yes" 
+	}
+	516.1.1 = { # 260 BC Made Up
+		death="yes" 
+	}
+}
+172332 = {
+	name = "Titus Torquatus" # Titus Manlius Torquatus
+	dynasty = 17024 # Manlii
+	culture = latin 
+	religion = roman_main
+	father = 172331	# Titus Manlius Torquatus
+	481.1.1= { # 295 BC Made Up
+		birth="yes" 
+	}
+	545.1.1 = { # 231 BC Made Up
+		death="yes" 
+	}
+}
+172333 = {
+	name = "Aulus Torquatus" # Aulus Manlius Torquatus Atticus
+	dynasty = 17024 # Manlii
+	culture = latin 
+	religion = roman_main
+	father = 172331	# Titus Manlius Torquatus
+	489.1.1= { # 287 BC Made Up
+		birth="yes" 
+		give_nickname = nick_atticus
+	}
+	560.1.1 = { # 216 BC Made Up
+		death="yes" 
+	}
+}
+172334 = {
+	name = "Titus Torquatus" # Titus Manlius Torquatus
+	dynasty = 17024 # Manlii
+	culture = latin 
+	religion = roman_main
+	father = 172332	# Titus Manlius Torquatus
+	497.1.1 = { # 279 BC Made Up
+		birth="yes" 
+	}
+	574.1.1 = { # 202 BC Made Up
+		death="yes" 
+	}
+}
+172335 = {
+	name = "Aulus Torquatus" # Aulus Manlius Torquatus
+	dynasty = 17024 # Manlii
+	culture = latin 
+	religion = roman_main
+	father = 172334	# Titus Manlius Torquatus
+	521.1.1 = { # 255 BC Made Up
+		birth="yes" 
+	}
+	579.1.1 = { # 197 BC Made Up
+		death="yes" 
+	}
 }

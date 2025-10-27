@@ -9,10 +9,12 @@
 	culture = latin
 	224.1.1 = { # 552 BC Made Up
 		birth="yes"
-	}
-	299.1.1 = { # 477 BC Made Up
-		death="yes"
 		give_nickname = nick_vibulanus
+	}
+	299.1.1 = { # 477 BC
+		death = { # killed at Cremera
+			death_reason = death_battle
+		}
 	}
 }
 170302 = {
@@ -24,8 +26,10 @@
 	251.1.1 = { # 525 BC Made Up
 		birth="yes"
 	}
-	296.1.1 = { # 480 BC Made Up
-		death="yes"
+	296.1.1 = { # 480 BC
+		death = { # died in combat vs Etruscans/Veii
+			death_reason = death_battle
+		}
 	}
 }
 170303 = {
@@ -50,8 +54,10 @@
 	253.1.1 = { # 523 BC Made up
 		birth="yes"
 	}
-	299.1.1 = { # 477 BC Made up
-		death="yes"
+	299.1.1 = { # 477 BC
+		death = { # killed at Cremera
+			death_reason = death_battle
+		}
 	}
 }
 170305 = {
@@ -63,7 +69,7 @@
 	282.1.1 = { # 494 BC Made up
 		birth="yes"
 	}
-	353.1.1 = { # 424 BC Made up
+	352.1.1 = { # 424 BC Made up
 		death="yes"
 	}
 }
@@ -282,7 +288,7 @@
 		birth="yes"
 		give_nickname = nick_dorsuo
 	}
-	398.1.1 = { # 378 BC Made up
+	421.1.1 = { # 355 BC Made up
 		death="yes"
 	}
 }
@@ -322,8 +328,8 @@
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin
-	father = 170316
-	434.1.1 = { # 342 BC Made up
+	father = 170313
+	416.1.1 = { # 360 BC Made up
 		birth="yes"
 		give_nickname = nick_rullianus
 	}
@@ -337,7 +343,7 @@
 	religion = roman_main
 	culture = latin
 	father = 170324
-	461.1.1 = { # 315 BC Made up
+	449.1.1 = { # 327 BC Made up
 		birth="yes"
 		give_nickname = nick_gurges
 	}
@@ -353,14 +359,14 @@
 	father = 170325
 	493.1.1 = { # 283 BC Made up
 		birth="yes"
+		give_nickname = nick_cunctator
 		create_bloodline = {
 			type = bloodline_cunctator
 			has_dlc = "Holy Fury"
 		}
 	}
-	573.1.1 = { # 203 BC Made up
+	573.1.1 = { # 203 BC
 		death="yes"
-		give_nickname = nick_cunctator
 	}
 }
 170327 = {

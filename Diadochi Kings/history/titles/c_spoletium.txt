@@ -59,7 +59,7 @@
 	holder = 171134 # Gaius Claudius Canina
 }
 506.1.1 = { # 270 BC
-	holder = 171549 # Gnaeus Cornelius Blassio
+	holder = 171549 # Gnaeus Cornelius Blasio
 }
 507.1.1 = { # 269 BC
 	holder = 170329 # Gaius Fabius Pictor
@@ -92,7 +92,10 @@
 	holder = 170024 # Gaius Sulpicius Paterculus
 }
 519.1.1 = { # 257 BC
-	holder = 171549 # Gnaeus Cornelius Blassio
+	holder = 171549 # Gnaeus Cornelius Blasio
+}
+520.1.1 = { # 256 BC
+	holder = 172313 # Lucius Manlius Vulso Longus
 }
 521.1.1 = { # 255 BC
 	holder = 172122 # Marcus Aemilius Paullus
@@ -100,8 +103,8 @@
 522.1.1 = { # 254 BC
 	holder = 171540 # Gnaeus Cornelius Scipio Asina
 }
-527.1.1 = { # 249 BC
-	holder = 171115 # Publius Claudius Pulcher
+526.1.1 = { # 250 BC
+	holder = 172313 # Lucius Manlius Vulso Longus
 }
 527.1.1 = { # 249 BC
 	holder = 171115 # Publius Claudius Pulcher
@@ -115,8 +118,14 @@
 531.1.1 = { # 245 BC
 	holder = 170333 # Marcus Fabius Buteo
 }
+532.1.1 = { # 244 BC
+	holder = 172333 # Aulus Manlius Torquatus Atticus
+}
 533.1.1 = { # 243 BC
 	holder = 170027 # Gaius Sulpicius Gallus
+}
+535.1.1 = { # 241 BC
+	holder = 172333 # Aulus Manlius Torquatus Atticus
 }
 536.1.1 = { # 240 BC
 	holder = 171118 # Gaius Claudius Centho
@@ -132,6 +141,9 @@
 }
 540.1.1 = { # 236 BC
 	holder = 171529 # Publius Cornelius Lentulus Caudinus
+}
+541.1.1 = { # 235 BC
+	holder = 172334 # Titus Manlius Torquatus
 }
 543.1.1 = { # 233 BC
 	holder = 170326 # Quintus Fabius Maximus Verrucosus
@@ -150,6 +162,9 @@
 }
 551.1.1 = { # 225 BC
 	holder = 172115 # Lucius Aemilius Papus
+}
+552.1.1 = { # 224 BC
+	holder = 172334 # Titus Manlius Torquatus
 }
 554.1.1 = { # 222 BC
 	holder = 171543 # Gnaeus Cornelius Scipio Calvus
@@ -187,8 +202,11 @@
 567.1.1 = { # 209 BC
 	holder = 170326 # Quintus Fabius Maximus Verrucosus
 }
+568.1.1 = { # 208 BC
+	holder = 172334 # Titus Manlius Torquatus
+}
 569.1.1 = { # 207 BC
-	holder = 171124 # Gaius Cladius Nero
+	holder = 171124 # Gaius Claudius Nero
 }
 574.1.1 = { # 202 BC
 	holder = 171125 # Tiberius Claudius Nero

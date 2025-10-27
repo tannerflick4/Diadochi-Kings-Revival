@@ -46,10 +46,10 @@
 	father = 171102
 	276.1.1 = { # 500 BC Made up
 		birth="yes"
+		give_nickname = nick_crassus
 	}
 	346.1.1 = { # 430 BC Made up
 		death="yes"
-		give_nickname = nick_crassus
 	}
 }
 171105 = {
@@ -286,7 +286,7 @@
 	}
 }
 171122 = {
-	name = "Tiberius Nero" # Tiberius Cladius Nero
+	name = "Tiberius Nero" # Tiberius Claudius Nero
 	dynasty = 17012 # Claudii
 	religion = roman_main
 	culture = latin
@@ -299,7 +299,7 @@
 	}
 }
 171123 = {
-	name = "Publius Nero" # Publius Cladius Nero
+	name = "Publius Nero" # Publius Claudius Nero
 	dynasty = 17012 # Claudii
 	religion = roman_main
 	culture = latin
@@ -312,7 +312,7 @@
 	}
 }
 171124 = {
-	name = "Gaius Nero" # Gaius Cladius Nero
+	name = "Gaius Nero" # Gaius Claudius Nero
 	dynasty = 17012 # Claudii
 	religion = roman_main
 	culture = latin
