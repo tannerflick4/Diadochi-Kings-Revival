@@ -691,7 +691,7 @@
 	religion = roman_main
 	culture = latin
 	father = 170947
-	trait = skillled_tactician # commanded fleets and armies against Philip V
+	trait = skilled_tactician # commanded fleets and armies against Philip V
 	trait = ambitious
 	trait = proud
 	trait = zealous

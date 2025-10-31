@@ -140,7 +140,7 @@
 	trait = ambitious # Broke sacred class boundaries and expanded Senate rolls with outsiders
 	trait = brave # He stood and spoke blind against a peace deal with Pyrrhus
 	trait = stubborn
-	trait = erudite Systematically put laws into writing and public view
+	trait = erudite # Systematically put laws into writing and public view
 	trait = scholar # credited with the first Latin literary prose
 	trait = architect # Built Appian Way & first aquaduct in Rome
 	trait = organizer
@@ -152,7 +152,7 @@
 		}
 	}
 	491.1.1 = {
-		add_trait = blind
+		add_trait = blinded
 		give_nickname = nick_caecus
 	}
 	497.1.1 = { # 279 BC Made up

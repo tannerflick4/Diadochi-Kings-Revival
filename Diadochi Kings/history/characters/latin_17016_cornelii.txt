@@ -183,7 +183,7 @@
 	trait = brave # went into single combat against a king
 	trait = duelist # one of 3 romans ever to be rewarded the spoila opima
 	trait = aggressive_leader
-	trait = direct_leader
+	trait = experimenter
 	trait = inspiring_leader
 	
 	324.1.1 = { # 477 BC Made up
