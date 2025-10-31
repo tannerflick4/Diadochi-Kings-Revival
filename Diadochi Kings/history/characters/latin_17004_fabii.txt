@@ -7,6 +7,8 @@
 	dynasty = 17004 # Fabii
 	religion = roman_main
 	culture = latin
+	trait = tough_soldier
+	trait = brave # offered to take responsibility for the war against the etruscans
 	224.1.1 = { # 552 BC Made Up
 		birth="yes"
 		give_nickname = nick_vibulanus
@@ -23,6 +25,7 @@
 	religion = roman_main
 	culture = latin
 	father = 170301
+	trait = skilled_tactician # Defeated the Volsci and Aequi
 	251.1.1 = { # 525 BC Made Up
 		birth="yes"
 	}
@@ -38,11 +41,14 @@
 	religion = roman_main
 	culture = latin
 	father = 170301
+	trait = tough_soldier
 	252.1.1 = { # 524 BC Made up
 		birth="yes"
 	}
-	299.1.1 = { # 477 BC Made up
-		death="yes"
+	299.1.1 = { # 477 BC
+		death = { # killed at Cremera
+			death_reason = death_battle
+		}
 	}
 }
 170304 = {
@@ -51,6 +57,7 @@
 	religion = roman_main
 	culture = latin
 	father = 170301
+	trait = tough_soldier
 	253.1.1 = { # 523 BC Made up
 		birth="yes"
 	}
@@ -284,6 +291,8 @@
 	religion = roman_main
 	culture = latin
 	father = 170312
+	trait = brave # walked through hostile Gauls to perform a sacrifice during the sack of Rome
+	trait = zealous
 	384.1.1 = { # 392 BC Made up
 		birth="yes"
 		give_nickname = nick_dorsuo
@@ -329,6 +338,13 @@
 	religion = roman_main
 	culture = latin
 	father = 170313
+	trait = brilliant_strategist # legendary general who fought in the 2nd and 3rd Samnite wars
+	trait = diligent # 5 consulships
+	trait = ambitious # 5 consulships
+	trait = proud
+	trait = brave
+	trait = experimenter
+	trait = aggressive_leader
 	416.1.1 = { # 360 BC Made up
 		birth="yes"
 		give_nickname = nick_rullianus
@@ -343,6 +359,8 @@
 	religion = roman_main
 	culture = latin
 	father = 170324
+	trait = skilled_tactician # celebrated general
+	trait = wroth
 	449.1.1 = { # 327 BC Made up
 		birth="yes"
 		give_nickname = nick_gurges
@@ -357,6 +375,14 @@
 	religion = roman_main
 	culture = latin
 	father = 170325
+	trait = brilliant_strategist # invented a new counter-doctrine
+	trait = patient # became leader to stop rash commanders from charging into Hannibals traps
+	trait = diligent # relentless campaigning and administrative reforms to stop Hannibal
+	trait = proud
+	trait = stubborn
+	trait = strategist
+	trait = unyielding_leader
+	trait = organizer
 	493.1.1 = { # 283 BC Made up
 		birth="yes"
 		give_nickname = nick_cunctator
@@ -391,6 +417,7 @@
 	religion = roman_main
 	culture = latin
 	father = 170322
+	trait = scholarly_theologian # Famous painter
 	437.1.1 = { # 339 BC Made up
 		birth="yes"
 		give_nickname = nick_pictor
@@ -431,6 +458,12 @@
 	religion = roman_main
 	culture = latin
 	father = 170329
+	trait = mastermind_theologian # Earliest known roman historian
+	trait = scholar
+	trait = erudite # Prose historian, consciously framed Roman history for a Greek audience
+	trait = cynical # He wrote against Roman mythic genealogies and tried to present things in a format foreigners respected
+	trait = diligent # Produced foundational Roman history while active in public life
+	
 	506.1.1 = { # 270 BC Made up
 		birth="yes"
 	}
@@ -461,6 +494,11 @@
 	religion = roman_main
 	culture = latin
 	father = 170332
+	trait = midas_touched # special dictatorship entirely to restructure the Senate
+	trait = just # picked replacements senators “from all orders,” aiming at a fair, broadly acceptable roll
+	trait = humble # denounced extraordinary power and resigned as soon as the job was done
+	trait = diligent # executed a massive, sensitive task fast and by the book in a national crisis
+	trait = administrator # enrolled 177 senators
 	502.1.1 = { # 274 BC Made up
 		birth="yes"
 	}

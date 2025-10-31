@@ -66,6 +66,7 @@
 	trait = charitable # reputed for generosity 
 	trait = brave # fought in the early wars of the Republic
 	trait = diligent # active builder of the Republic’s political framework
+	trait = humble # lived simply and died poor
 	242.1.1 = { # 534 BC Made up
 		birth="yes"
 		give_nickname = nick_poplicola
@@ -327,6 +328,8 @@
 	religion = roman_main
 	culture = latin
 	father = 170923
+	trait = diligent # consul in 483 & 470
+	trait = brave # fought against the Volsci/Aequians
 	271.1.1 = { # 505 BC Made up
 		birth="yes"
 		give_nickname = nick_potitus
@@ -658,7 +661,9 @@
 	father = 170934
 	trait = brave
 	trait = stubborn # refused to concede after losses to Pyrrhus
+	trait = proud
 	trait = strategist
+	trait = aggressive_leader # charged into Pyrrhus’ formations
 	446.1.1 = { # 330 BC Made up
 		birth="yes"
 		give_nickname = nick_laevinus

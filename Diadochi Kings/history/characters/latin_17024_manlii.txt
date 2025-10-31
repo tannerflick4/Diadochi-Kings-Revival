@@ -1,253 +1,320 @@
 # 172301-172400 for the Manlii dynasty
-172301={
-	name = "Titus" # Manlius Torquatus
-	dynasty=17024
-	culture=latin 
-	religion=roman_main
-	382.7.17={ birth=yes }
-	402.1.1={ add_spouse=172325 }
-	436.1.1 = { # 340 BC
-		add_trait = kinslayer # Killed his own son
+
+172301 = {
+	name = "Publius" # Publius Manlius
+	dynasty = 17024
+	culture = latin 
+	religion = roman_main
+	222.1.1 = { # 554 BC Made Up
+		birth ="yes"
 	}
-	454.12.10={ death=yes }
+	317.1.1 = { # 459 BC Made Up
+		death ="yes"
+	}
 }
-172302={
-	name=Clodius
-	dynasty=17024
-	culture=latin 
-	religion=roman_main
-	father=172301	#Titus
-	mother=172325	#Drusilla
-	405.7.17={ birth=yes }
-	425.1.1={ add_spouse=172326 }
-	451.4.24={ death=yes }
+172302 = {
+	name = "Gnaeus" # Gnaeus Manlius Cincinnatus
+	dynasty = 17024
+	culture = latin 
+	religion = roman_main
+	father = 172301	# Publius Manlius
+	256.1.1 = { # 520 BC Made Up
+		birth ="yes"
+		give_nickname = nick_cincinnatus
+	}
+	298.1.1 = { # 478 BC Made Up
+		death ="yes"
+	}
 }
-172303={
-	name=Drusilla
-	female=yes
-	dynasty=17024
-	culture=latin 
-	religion=roman_main
-	father=172301	#Titus
-	mother=172325	#Drusilla
-	410.9.22={ birth=yes }
-	476.11.29={ death=yes }
+
+# Manlius Vulso
+
+172303 = {
+	name = "Gnaeus" # Gnaeus Manlius Vulso
+	dynasty = 17024
+	culture = latin 
+	religion = roman_main
+	father = 172302 # Gnaeus Manlius Cincinnatus
+	280.1.1 = { # 496 BC Made Up
+		birth="yes"
+		give_nickname = nick_vulso
+	}
+	330.1.1 = { # 446 BC Made Up
+		death="yes" 
+	}
 }
-172304={
-	name=Quintia
-	female=yes
-	dynasty=17024
-	culture=latin 
-	religion=roman_main
-	father=172302	#Clodius
-	mother=172326	#Quintia
-	432.12.22={ birth=yes }
-	521.5.27={ death=yes }
+172304 = {
+	name = "Aulus Vulso" # Aulus Manlius Vulso
+	dynasty = 17024
+	culture = latin 
+	religion = roman_main
+	father = 172303 # Gnaeus Manlius Vulso
+	296.1.1 = { # 480 BC Made Up
+		birth="yes" 
+	}
+	366.1.1 = { # 410 BC Made Up
+		death="yes" 
+	}
 }
-172305={
-	name=Crassia
-	female=yes
-	dynasty=17024
-	culture=latin 
-	religion=roman_main
-	father=172302	#Clodius
-	mother=172326	#Quintia
-	434.12.17={ birth=yes }
-	504.8.21={ death=yes }
+172305 = {
+	name = "Marcus Vulso" # Marcus Manlius Vulso
+	dynasty = 17024
+	culture = latin 
+	religion = roman_main
+	father = 172303	# Gnaeus Manlius Vulso
+	316.1.1 = { # 460 BC Made Up
+		birth="yes" 
+	}
+	410.1.1 = { # 366 BC Made Up
+		death="yes" 
+	}
 }
-172306={
-	name=Gouneus
-	dynasty=17024
-	culture=latin 
-	religion=roman_main
-	father=172302	#Clodius
-	mother=172326	#Quintia
-	436.6.6={ birth=yes }
-	456.1.1={ add_spouse=172327 }
-	495.12.10={ death=yes }
+172306 = {
+	name = "Publius Vulso" # Publius Manlius Vulso
+	dynasty = 17024
+	culture = latin 
+	religion = roman_main
+	father = 172305 # Marcus Manlius Vulso
+	350.1.1 = { # 426 BC Made Up
+		birth="yes" 
+	}
+	455.1.1 = { # 331 BC Made Up
+		death="yes" 
+	}
 }
-172307={
-	name=Arrius
-	dynasty=17024
-	culture=latin 
-	religion=roman_main
-	father=172302	#Clodius
-	mother=172326	#Quintia
-	440.2.19={ birth=yes }
-	486.5.25={ death=yes }
+172307 = {
+	name = "Gnaeus Vulso" # Gnaeus Manlius Vulso
+	dynasty = 17024
+	culture = latin 
+	religion = roman_main
+	father = 172306	# Publius Manlius Vulso
+	370.1.1 = { # 406 BC Made Up
+		birth="yes" 
+	}
+	421.1.1 = { # 355 BC Made Up
+		death="yes" 
+	}
 }
-172308={
-	name=Domitia
-	female=yes
-	dynasty=17024
-	culture=latin 
-	religion=roman_main
-	father=172306	#Gouneus
-	mother=172327	#Crassia
-	460.10.22={ birth=yes }
-	526.10.31={ death=yes }
+172308 = {
+	name = "Titus Vulso" # Titus Manlius Vulso
+	dynasty = 17024
+	culture = latin 
+	religion = roman_main
+	father = 172307	# Gnaeus Manlius Vulso
+	391.1.1 = { # 385 BC Made Up
+		birth="yes" 
+	}
+	446.1.1 = { # 330 BC Made Up
+		death="yes" 
+	}
 }
-172309={
-	name=Eustathius
-	dynasty=17024
-	culture=latin 
-	religion=roman_main
-	father=172306	#Gouneus
-	mother=172327	#Crassia
-	464.6.22={ birth=yes }
-	484.1.1={ add_spouse=172328 }
-	528.9.20={ death=yes }
+172309 = {
+	name = "Publius Vulso" # Publius Manlius Vulso
+	dynasty = 17024
+	culture = latin 
+	religion = roman_main
+	father = 172308	# Titus Manlius Vulso
+	416.1.1 = { # 360 BC Made Up
+		birth="yes" 
+	}
+	471.1.1 = { # 305 BC Made Up
+		death="yes" 
+	}
 }
-172310={
-	name=Varia
-	female=yes
-	dynasty=17024
-	culture=latin 
-	religion=roman_main
-	father=172306	#Gouneus
-	mother=172327	#Crassia
-	467.9.2={ birth=yes }
-	544.11.21={ death=yes }
+172310 = {
+	name = "Aulus Vulso" # Aulus Manlius Vulso
+	dynasty = 17024
+	culture = latin 
+	religion = roman_main
+	father = 172309 # Publius Manlius Vulso
+	441.1.1 = { # 335 BC Made Up
+		birth="yes" 
+	}
+	498.1.1 = { # 278 BC Made Up
+		death="yes" 
+	}
 }
-172311={
-	name=Annia
-	female=yes
-	dynasty=17024
-	culture=latin 
-	religion=roman_main
-	father=172309	#Eustathius
-	mother=172328	#Domitia
-	491.12.10={ birth=yes }
-	559.4.21={ death=yes }
+172311 = {
+	name = "Gnaeus Vulso" # Gnaeus Manlius Vulso
+	dynasty = 17024
+	culture = latin 
+	religion = roman_main
+	father = 172310	# Aulus Manlius Vulso
+	466.1.1 = { # 310 BC Made Up
+		birth="yes" 
+	}
+	548.1.1 = { # 228 BC Made Up
+		death="yes" 
+	}
 }
-172312={
-	name=Eusebius
-	dynasty=17024
-	culture=latin 
-	religion=roman_main
-	father=172309	#Eustathius
-	mother=172328	#Domitia
-	493.5.5={ birth=yes }
-	513.1.1={ add_spouse=172329 }
-	573.10.26={ death=yes }
+172312 = {
+	name = "Quintus Vulso" # Quintus Manlius Vulso
+	dynasty = 17024
+	culture = latin 
+	religion = roman_main
+	father = 172310	# Aulus Manlius Vulso
+	491.1.1 = { # 285 BC Made Up
+		birth="yes" 
+	}
+	548.1.1 = { # 228 BC Made Up
+		death="yes" 
+	}
 }
-172313={
-	name=Syncellia
-	female=yes
-	dynasty=17024
-	culture=latin 
-	religion=roman_main
-	father=172309	#Eustathius
-	mother=172328	#Domitia
-	497.3.5={ birth=yes }
-	559.5.31={ death=yes }
+172313 = {
+	name = "Lucius Vulso" # Lucius Manlius Vulso Longus
+	dynasty = 17024
+	culture = latin 
+	religion = roman_main
+	father = 172310	# Aulus Manlius Vulso
+	476.1.1 = { # 300 BC Made Up
+		birth="yes" 
+		give_nickname = nick_longus
+	}
+	560.1.1 = { # 216 BC Made Up
+		death="yes" 
+	}
 }
-172314={
-	name=Maxentia
-	female=yes
-	dynasty=17024
-	culture=latin 
-	religion=roman_main
-	father=172309	#Eustathius
-	mother=172328	#Domitia
-	501.12.8={ birth=yes }
-	561.12.1={ death=yes }
+172314 = {
+	name = "Lucius Vulso" # Lucius Manlius Vulso
+	dynasty = 17024
+	culture = latin 
+	religion = roman_main
+	father = 172312	# Quintus Manlius Vulso
+	522.1.1 = { # 254 BC Made Up
+		birth="yes" 
+	}
+	572.1.1 = { # 204 BC Made Up
+		death="yes" 
+	}
 }
-172315={
-	name=Aetia
-	female=yes
-	dynasty=17024
-	culture=latin 
-	religion=roman_main
-	father=172309	#Eustathius
-	mother=172328	#Domitia
-	504.1.15={ birth=yes }
-	548.8.12={ death=yes }
+172315 = {
+	name = "Publius Vulso" # Publius Manlius Vulso
+	dynasty = 17024
+	culture = latin 
+	religion = roman_main
+	father = 172314	# Lucius Manlius Vulso
+	540.1.1 = { # 236 BC Made Up
+		birth="yes" 
+	}
+	639.1.1 = { # 137 BC Made Up
+		death="yes" 
+	}
 }
-172316={
-	name=Gratian
-	dynasty=17024
-	culture=latin 
-	religion=roman_main
-	father=172309	#Eustathius
-	mother=172328	#Domitia
-	506.4.8={ birth=yes }
-	560.3.27={ death=yes }
+
+# Manlius Vulso Capitolinus
+
+172316 = {
+	name = "Marcus Vulso" # Marcus Manlius Vulso Capitolinus
+	dynasty = 17024
+	culture = latin 
+	religion = roman_main
+	father = 172303	# Gnaeus Manlius Vulso
+	302.1.1 = { # 474 BC Made Up
+		birth="yes"
+		give_nickname = nick_capitolinus 
+	}
+	347.1.1 = { # 429 BC Made Up
+		death="yes" 
+	}
 }
-172317={
-	name=Livilla
-	female=yes
-	dynasty=17024
-	culture=latin 
-	religion=roman_main
-	father=172309	#Eustathius
-	mother=172328	#Domitia
-	510.5.3={ birth=yes }
-	552.2.16={ death=yes }
+172317 = {
+	name = "Lucius Vulso Capitolinus" # Lucius Manlius Vulso Capitolinus
+	dynasty = 17024
+	culture = latin 
+	religion = roman_main
+	father = 172316	# Marcus Manlius Vulso Capitolinus
+	321.1.1 = { # 455 BC Made Up
+		birth="yes" 
+	}
+	381.1.1 = { # 395 BC Made Up
+		death="yes" 
+	}
 }
-172318={
-	name=Plautus
-	dynasty=17024
-	culture=latin 
-	religion=roman_main
-	father=172312	#Eusebius
-	mother=172329	#Varia
-	518.6.9={ birth=yes }
-	538.1.1={ add_spouse=172330 }
-	573.2.17={ death=yes }
+172318 = {
+	name = "Aulus Vulso Capitolinus" # Aulus Manlius Vulso Capitolinus
+	dynasty = 17024
+	culture = latin 
+	religion = roman_main
+	father = 172316	# Marcus Manlius Vulso Capitolinus
+	331.1.1 = { # 445 BC Made Up
+		birth="yes" 
+	}
+	399.1.1 = { # 377 BC Made Up
+		death="yes" 
+	}
 }
-172319={
-	name=Arrianilla
-	female=yes
-	dynasty=17024
-	culture=latin 
-	religion=roman_main
-	father=172312	#Eusebius
-	mother=172329	#Varia
-	521.4.18={ birth=yes }
-	588.7.6={ death=yes }
+172319 = {
+	name = "Titus Vulso Capitolinus" # Titus Manlius Vulso Capitolinus
+	dynasty = 17024
+	culture = latin 
+	religion = roman_main
+	father = 172317	# Lucius Manlius Vulso Capitolinus
+	340.1.1 = { # 436 BC Made Up
+		birth="yes" 
+	}
+	416.1.1 = { # 360 BC Made Up
+		death="yes" 
+	}
 }
-172320={
-	name=Theodosia
-	female=yes
-	dynasty=17024
-	culture=latin 
-	religion=roman_main
-	father=172312	#Eusebius
-	mother=172329	#Varia
-	525.6.26={ birth=yes }
-	574.12.6={ death=yes }
+172320 = {
+	name = "Quintus Vulso Capitolinus" # Quintus Manlius Vulso Capitolinus
+	dynasty = 17024
+	culture = latin 
+	religion = roman_main
+	father = 172318	# Aulus Manlius Vulso Capitolinus
+	350.1.1 = { # 426 BC Made Up
+		birth="yes" 
+	}
+	406.1.1 = { # 370 BC Made Up
+		death="yes" 
+	}
 }
-172321={
-	name=Clodius
-	dynasty=17024
-	culture=latin 
-	religion=roman_main
-	father=172318	#Plautus
-	mother=172330	#Annia
-	537.1.20={ birth=yes }
-	587.2.27={ death=yes }
+172321 = {
+	name = "Marcus Capitolinus" # Marcus Manlius Capitolinus
+	dynasty = 17024
+	culture = latin 
+	religion = roman_main
+	father = 172319	# Titus Manlius Vulso Capitolinus
+	trait = skilled_tactician # famous for his defense of the capital
+	trait = brave
+	trait = gregarious # courted the masses and won popular support
+	trait = ambitious # Senate accused him because he pushed political limits
+	trait = proud # a patrician stepping beyond his station
+	trait = inspiring_leader
+	356.1.1 = { # 420 BC Made Up
+		birth="yes" 
+	}
+	392.1.1 = { # 384 BC
+		death = { # thrown from the Tarpeian Rock for aspiring to kingship
+			death_reason = death_execution
+		}
+	}
 }
-172322={
-	name=Photia
-	female=yes
-	dynasty=17024
-	culture=latin 
-	religion=roman_main
-	father=172318	#Plautus
-	mother=172330	#Annia
-	541.3.21={ birth=yes }
-	586.12.3={ death=yes }
+172322 = {
+	name = "Aulus Capitolinus" # Aulus Manlius Capitolinus
+	dynasty = 17024
+	culture = latin 
+	religion = roman_main
+	father = 172319	# Titus Manlius Vulso Capitolinus
+	357.1.1 = { # 419 BC Made Up
+		birth="yes" 
+	}
+	408.1.1 = { # 368 BC Made Up
+		death="yes" 
+	}
 }
-172323={
-	name=Accius
-	dynasty=17024
-	culture=latin 
-	religion=roman_main
-	father=172318	#Plautus
-	mother=172330	#Annia
-	544.6.16={ birth=yes }
-	617.8.23={ death=yes }
+172323 = {
+	name = "Titus Capitolinus" # Titus Manlius Capitolinus
+	dynasty = 17024
+	culture = latin 
+	religion = roman_main
+	father = 172319	# Titus Manlius Vulso Capitolinus
+	358.1.1 = { # 418 BC Made Up
+		birth="yes" 
+	}
+	421.1.1 = { # 355 BC Made Up
+		death="yes" 
+	}
 }
 172324 = {
 	name = "Publius Capitolinus" # Publius Manlius Capitolinus
@@ -271,6 +338,8 @@
 	religion = roman_main
 	culture = latin
 	father = 172320	# Quintus Manlius Vulso Capitolinus
+	trait = cruel # prosecuted for harshness
+	
 	376.1.1 = { # 400 BC Made Up
 		birth="yes"
 		give_nickname = nick_imperiosus
@@ -301,9 +370,22 @@
 	culture = latin 
 	religion = roman_main
 	father = 172325	# Lucius Manlius Capitolinus Imperiosus
+	trait = brilliant_strategist
+	trait = strong
+	trait = brave
+	trait = just
+	trait = cruel # executed his own son for disobeying orders
+	trait = stubborn
+	trait = duelist # earned the torque in single combat vs. a Gaul
+	trait = unyielding_leader
+	trait = aggressive_leader
 	393.1.1 = { # 383 BC Made Up
 		birth="yes" 
 		give_nickname = nick_torquatus
+		create_bloodline = {
+			type = bloodline_torquatus
+			has_dlc = "Holy Fury"
+		}
 	}
 	480.1.1 = { # 297 BC Made Up
 		death="yes" 
@@ -384,7 +466,7 @@
 		birth="yes" 
 		give_nickname = nick_atticus
 	}
-	560.1.1 = { # 216 BC Made Up
+	560.1.1 = { # 216 BC
 		death="yes" 
 	}
 }

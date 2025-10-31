@@ -39,11 +39,16 @@
 	culture = latin
 	religion = roman_main
 	father = 170701
+	trait = brilliant_strategist
 	trait = brave # Faced the tyrant king and overthrew the monarchy
 	trait = just # executed his own sons for breaking the law
 	211.1.1 = { # 565 BC Made Up
 		birth = "yes"
 		give_nickname = nick_brutus
+		create_bloodline = {
+			type = bloodline_brutus
+			has_dlc = "Holy Fury"
+		}
 	}
 	268.1.1 = { # 508 BC
 		death = { # Slain in the battle of Silva Arsia
@@ -59,6 +64,8 @@
 	religion = roman_main
 	father = 170703
 	trait = flamboyant_schemer
+	trait = deceitful
+	trait = ambitious
 	236.1.1 = { # 540 BC Made Up
 		birth="yes"
 	}
@@ -77,6 +84,8 @@
 	religion = roman_main
 	father = 170703
 	trait = flamboyant_schemer
+	trait = deceitful
+	trait = ambitious
 	238.1.1 = { # 538 BC Made Up
 		birth="yes"
 	}
@@ -125,6 +134,7 @@
 	female = yes
 	trait = celibate # vestal virgin
 	trait = lustful
+	trait = zealous
 	264.1.1 = { # 512 BC Made Up
 		birth="yes"
 	}
@@ -213,6 +223,12 @@
 	religion = roman_main
 	father = 170711
 	trait = skilled_tactician # consul 3 times, dictator twice
+	trait = just # enrolled replacements fairly when censor
+	trait = diligent
+	trait = ambitious # consul 3 times, dictator twice
+	trait = architect # built Temple of Salus on the Quirinal Hill
+	trait = heavy_infantry_leader # Roman manipular infantry advantage
+	trait = rough_terrain_leader # fought in Apennine uplands
 	404.1.1 = { # 372 BC Made Up
 		birth="yes"
 		give_nickname = nick_bubulcus 
@@ -317,6 +333,7 @@
 	culture = latin
 	religion = roman_main
 	father = 170716
+	trait = diligent # Dictator after Cannae, responsible for rebuilding manpower
 	466.1.1 = { # 310 BC Made Up
 		birth = "yes" 
 		give_nickname = nick_pera

@@ -66,6 +66,8 @@
 	religion = roman_main
 	culture = latin
 	father = 172103
+	trait = just # passed a law to reduce the censor’s term
+	trait = skilled_tactician # successful against Veii/Fidenae
 	
 	301.1.1 = { # 475 BC
 		birth = yes
@@ -332,12 +334,15 @@
 	religion = roman_main
 	culture = latin
 	father = 172122
+	trait = brave # refused to flee at Cannae
 	
 	516.1.1 = { # 260 BC
 		birth = yes
 	}
 	560.1.1 = { # 216 BC
-		death = yes
+		death = { # killed at Cannae
+			death_reason = death_battle
+		}
 	}
 }
 172124 = {
