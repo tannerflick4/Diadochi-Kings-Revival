@@ -107,6 +107,19 @@ bloodline_brennus = {
 		duelist_bloodline
 	}
 }
+bloodline_brutus = {
+	monthly_character_prestige = 0.2
+	stewardship = 1
+	fertility = 0.1
+	latin_opinion = 5
+	combat_rating = 5
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodline_rome
+	flags = {
+		historical_bloodline
+	}
+}
 bloodline_caecus = {
 	monthly_character_prestige = 0.2
 	stewardship = 1

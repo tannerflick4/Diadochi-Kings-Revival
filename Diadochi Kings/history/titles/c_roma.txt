@@ -1,4 +1,7 @@
 267.1.1 = { # 509 BC
+	holder = 170703 # Lucius Junius Brutus
+}
+268.1.1 = { # 508 BC
 	holder = 170905 # Publius Valerius Poplicola
 }
 271.1.1 = { # 505 BC
@@ -26,7 +29,7 @@
 	holder = 170303 # Caeso Fabius Vibulanus
 }
 293.1.1 = { # 483 BC
-	holder = 170924 # Lucius Valerius Potitus
+	holder = 170304 # Marcus Fabius Vibulanus
 }
 294.1.1 = { # 482 BC
 	holder = 170302 # Quintus Fabius Vibulanus
@@ -37,11 +40,17 @@
 296.1.1 = { # 480 BC
 	holder = 170304 # Marcus Fabius Vibulanus
 }
+297.1.1 = { # 479 BC
+	holder = 170303 # Caeso Fabius Vibulanus
+}
 298.1.1 = { # 478 BC
 	holder = 172102 # Lucius Aemilius Mamercus
 }
 301.1.1 = { # 475 BC
 	holder = 170907 # Publius Valerius Poplicola
+}
+302.1.1 = { # 474 BC
+	holder = 172303 # Gnaeus Manlius Vulso
 }
 303.1.1 = { # 473 BC
 	holder = 172102 # Lucius Aemilius Mamercus
@@ -52,7 +61,7 @@
 306.1.1 = { # 470 BC
 	holder = 170924 # Lucius Valerius Potitus
 }
-309.1.1 = { # 467 BC
+309.1.1 = { # 467 BC & 465 BC
 	holder = 170305 # Quintus Fabius Vibulanus
 }
 313.1.1 = { # 463 BC
@@ -82,7 +91,7 @@
 334.1.1 = { # 442 BC
 	holder = 170306 # Marcus Fabius Vibulanus
 }
-338.1.1 = { # 438 BC
+338.1.1 = { # 438 BC & 437 BC
 	holder = 172105 # Mamercus Aemilius Mamercinus
 }
 340.1.1 = { # 436 BC
@@ -106,8 +115,14 @@
 353.1.1 = { # 423 BC
 	holder = 170308 # Quintus Fabius Vibulanus
 }
+354.1.1 = { # 422 BC
+	holder = 172317 # Lucius Manlius Vulso Capitolinus
+}
 355.1.1 = { # 421 BC
 	holder = 170307 # Numerius Fabius Vibulanus
+}
+356.1.1 = { # 420 BC
+	holder = 172305 # Marcus Manlius Vulso
 }
 360.1.1 = { # 416 BC
 	holder = 170308 # Quintus Fabius Vibulanus
@@ -116,10 +131,13 @@
 	holder = 171513 # Publius Cornelius Cossus
 }
 362.1.1 = { # 414 BC
-	holder = 170930 # Lucius Valerius Potitus
+	holder = 171514 # Gnaeus Cornelius Cossus
 }
 363.1.1 = { # 413 BC
 	holder = 171515 # Aulus Cornelius Cossus
+}
+364.1.1 = { # 412 BC
+	holder = 170308 # Quintus Fabius Vibulanus
 }
 366.1.1 = { # 410 BC
 	holder = 170929 # Gaius Valerius Potitus Volesus
@@ -151,11 +169,17 @@
 375.1.1 = { # 401 BC
 	holder = 171518 # Gnaeus Cornelius Cossus
 }
+376.1.1 = { # 400 BC
+	holder = 172306 # Publius Manlius Vulso
+}
 378.1.1 = { # 398 BC
-	holder = 170005 # Quintus Sulpicius Camerinus Cornutus
+	holder = 170930 # Lucius Valerius Potitus
 }
 379.1.1 = { # 397 BC
-	holder = 171534 # Publius Cornelius Scipio
+	holder = 171506 # Publius Cornelius Maluginensis
+}
+380.1.1 = { # 396 BC
+	holder = 172320 # Quintus Manlius Vulso Capitolinus
 }
 381.1.1 = { # 395 BC
 	holder = 171517 # Publius Cornelius Cossus
@@ -173,16 +197,16 @@
 	holder = 172108 # Lucius Aemilius Mamercinus
 }
 386.1.1 = { # 390 BC
-	holder = 170310 # Caeso Fabius Ambustus
+	holder = 171506 # Publius Cornelius Maluginensis
 }
 387.1.1 = { # 389 BC
-	holder = 172108 # Lucius Aemilius Mamercinus
+	holder = 170910 # Lucius Valerius Poplicola
 }
 388.1.1 = { # 388 BC
 	holder = 170008 # Servius Sulpicius Camerinus Rufus
 }
 389.1.1 = { # 387 BC
-	holder = 172108 # Lucius Aemilius Mamercinus
+	holder = 170910 # Lucius Valerius Poplicola
 }
 390.1.1 = { # 386 BC
 	holder = 171508 # Servius Cornelius Maluginensis
@@ -191,13 +215,13 @@
 	holder = 171520 # Aulus Cornelius Cossus
 }
 392.1.1 = { # 384 BC
-	holder = 170008 # Servius Sulpicius Camerinus Rufus
+	holder = 171508 # Servius Cornelius Maluginensis
 }
 393.1.1 = { # 383 BC
-	holder = 172108 # Lucius Aemilius Mamercinus
+	holder = 170910 # Lucius Valerius Poplicola
 }
 394.1.1 = { # 382 BC
-	holder = 170007 # Gaius Sulpicius Camerinus
+	holder = 171508 # Servius Cornelius Maluginensis
 }
 395.1.1 = { # 381 BC
 	holder = 170313 # Marcus Fabius Ambustus
@@ -205,8 +229,11 @@
 396.1.1 = { # 380 BC
 	holder = 171508 # Servius Cornelius Maluginensis
 }
+397.1.1 = { # 379 BC
+	holder = 172324 # Publius Manlius Capitolinus
+}
 399.1.1 = { # 377 BC
-	holder = 172109 # Lucius Aemilius Mamercinus
+	holder = 170931 # Publius Valerius Potitus
 }
 400.1.1 = { # 376 BC
 	holder = 171508 # Servius Cornelius Maluginensis
@@ -215,7 +242,7 @@
 	holder = 171509 # Marcus Cornelius Maluginensis
 }
 408.1.1 = { # 368 BC
-	holder = 170011 # Servius Sulpicius Praetextatus
+	holder = 172324 # Publius Manlius Capitolinus
 }
 409.1.1 = { # 367 BC
 	holder = 171520 # Aulus Cornelius Cossus
@@ -227,34 +254,37 @@
 	holder = 170017 # Gaius Sulpicius Peticus
 }
 413.1.1 = { # 363 BC
-	holder = 172109 # Lucius Aemilius Mamercinus
+	holder = 172325 # Lucius Manlius Capitolinus Imperiosus
 }
 414.1.1 = { # 362 BC
 	holder = 171109 # Appius Claudius Crassus
+}
+415.1.1 = { # 361 BC
+	holder = 170017 # Gaius Sulpicius Peticus
 }
 416.1.1 = { # 360 BC
 	holder = 170316 # Marcus Fabius Ambustus
 }
 417.1.1 = { # 359 BC
-	holder = 172201 # Marcus Popillius Laenas
+	holder = 172326 # Gnaeus Manlius Capitolinus Imperiosus
 }
 418.1.1 = { # 358 BC
-	holder = 170317 # Gaius Fabius Ambustus
+	holder = 170017 # Gaius Sulpicius Peticus
 }
 419.1.1 = { # 357 BC
-	holder = 171201 # Gaius Marcius Rutilus
+	holder = 172326 # Gnaeus Manlius Capitolinus Imperiosus
 }
 420.1.1 = { # 356 BC
 	holder = 170316 # Marcus Fabius Ambustus
 }
 421.1.1 = { # 355 BC
-	holder = 170017 # Gaius Sulpicius Peticus
+	holder = 170912 # Marcus Valerius Poplicola
 }
 422.1.1 = { # 354 BC
 	holder = 170316 # Marcus Fabius Ambustus
 }
 423.1.1 = { # 353 BC
-	holder = 170017 # Gaius Sulpicius Peticus
+	holder = 172327 # Titus Manlius Imperiosus Torquatus
 }
 424.1.1 = { # 352 BC
 	holder = 170913 # Publius Valerius Poplicola
@@ -266,13 +296,13 @@
 	holder = 171536 # Lucius Cornelius Scipio
 }
 427.1.1 = { # 349 BC
-	holder = 171109 # Appius Claudius Crassus
+	holder = 172327 # Titus Manlius Imperiosus Torquatus
 }
 428.1.1 = { # 348 BC
 	holder = 170939 # Marcus Valerius Corvus
 }
 429.1.1 = { # 347 BC
-	holder = 172301 # Titus Manlius Torquatus
+	holder = 172327 # Titus Manlius Imperiosus Torquatus
 }
 430.1.1 = { # 346 BC
 	holder = 170939 # Marcus Valerius Corvus
@@ -293,7 +323,7 @@
 	holder = 172110 # Lucius Aemilius Mamercinus Privernas
 }
 436.1.1 = { # 340 BC
-	holder = 172301 # Titus Manlius Torquatus
+	holder = 172327 # Titus Manlius Imperiosus Torquatus
 }
 437.1.1 = { # 339 BC
 	holder = 172111 # Tiberius Aemilius Mamercinus
@@ -332,13 +362,13 @@
 	holder = 171537 # Publius Cornelius Scipio Scapula
 }
 449.1.1 = { # 327 BC
-	holder = 171524 # Lucius Cornelius Lentulus
+	holder = 171128 # Marcus Claudius Marcellus
 }
 450.1.1 = { # 326 BC
 	holder = 170401 # Gaius Poetelius Libo Visolus
 }
 451.1.1 = { # 325 BC
-	holder = 170201 # Lucius Furius Camillus
+	holder = 170713 # Decimus Junius Brutus Scaeva
 }
 452.1.1 = { # 324 BC
 	holder = 170102 # Lucius Papirius Cursor
@@ -356,7 +386,10 @@
 	holder = 172112 # Marcus Aemilius Papus
 }
 456.1.1 = { # 320 BC
-	holder = 170102 # Lucius Papirius Cursor
+	holder = 171524 # Lucius Cornelius Lentulus
+}
+456.6.1 = { # 320 BC
+	holder = 172327 # Titus Manlius Imperiosus Torquatus
 }
 458.1.1 = { # 318 BC
 	holder = 170601 # Marcus Folius Flaccinator
@@ -407,13 +440,13 @@
 	holder = 171525 # Servius Cornelius Lentulus
 }
 474.1.1 = { # 302 BC
-	holder = 172121 # Marcus Aemilius Paullus
+	holder = 170714 # Gaius Junius Bubulcus Brutus
 }
 475.1.1 = { # 301 BC
 	holder = 170939 # Marcus Valerius Maximus Corvus
 }
 478.1.1 = { # 298 BC
-	holder = 171539 # Lucius Cornelius Scipio Barbatos
+	holder = 171539 # Lucius Cornelius Scipio Barbatus
 }
 479.1.1 = { # 297 BC
 	holder = 170324 # Quintus Fabius Maximus Rullianus
@@ -434,7 +467,7 @@
 	holder = 170325 # Quintus Fabius Maximus Gurges
 }
 485.1.1 = { # 291 BC
-	holder = 172118 # Marcus Aemilius Barbula
+	holder = 170715 # Gaius Junius Bubulcus Brutus
 }
 486.1.1 = { # 290 BC
 	holder = 171532 # Publius Cornelius Rufinus
@@ -488,7 +521,7 @@
 	holder = 171134 # Gaius Claudius Canina
 }
 506.1.1 = { # 270 BC
-	holder = 171549 # Gnaeus Cornelius Blassio
+	holder = 171549 # Gnaeus Cornelius Blasio
 }
 507.1.1 = { # 269 BC
 	holder = 170329 # Gaius Fabius Pictor
@@ -521,7 +554,10 @@
 	holder = 170024 # Gaius Sulpicius Paterculus
 }
 519.1.1 = { # 257 BC
-	holder = 171549 # Gnaeus Cornelius Blassio
+	holder = 171549 # Gnaeus Cornelius Blasio
+}
+520.1.1 = { # 256 BC
+	holder = 172313 # Lucius Manlius Vulso Longus
 }
 521.1.1 = { # 255 BC
 	holder = 172122 # Marcus Aemilius Paullus
@@ -529,8 +565,8 @@
 522.1.1 = { # 254 BC
 	holder = 171540 # Gnaeus Cornelius Scipio Asina
 }
-527.1.1 = { # 249 BC
-	holder = 171115 # Publius Claudius Pulcher
+526.1.1 = { # 250 BC
+	holder = 172313 # Lucius Manlius Vulso Longus
 }
 527.1.1 = { # 249 BC
 	holder = 171115 # Publius Claudius Pulcher
@@ -544,8 +580,14 @@
 531.1.1 = { # 245 BC
 	holder = 170333 # Marcus Fabius Buteo
 }
+532.1.1 = { # 244 BC
+	holder = 172333 # Aulus Manlius Torquatus Atticus
+}
 533.1.1 = { # 243 BC
 	holder = 170027 # Gaius Sulpicius Gallus
+}
+535.1.1 = { # 241 BC
+	holder = 172333 # Aulus Manlius Torquatus Atticus
 }
 536.1.1 = { # 240 BC
 	holder = 171118 # Gaius Claudius Centho
@@ -561,6 +603,9 @@
 }
 540.1.1 = { # 236 BC
 	holder = 171529 # Publius Cornelius Lentulus Caudinus
+}
+541.1.1 = { # 235 BC
+	holder = 172334 # Titus Manlius Torquatus
 }
 543.1.1 = { # 233 BC
 	holder = 170326 # Quintus Fabius Maximus Verrucosus
@@ -579,6 +624,9 @@
 }
 551.1.1 = { # 225 BC
 	holder = 172115 # Lucius Aemilius Papus
+}
+552.1.1 = { # 224 BC
+	holder = 172334 # Titus Manlius Torquatus
 }
 554.1.1 = { # 222 BC
 	holder = 171543 # Gnaeus Cornelius Scipio Calvus
@@ -616,8 +664,11 @@
 567.1.1 = { # 209 BC
 	holder = 170326 # Quintus Fabius Maximus Verrucosus
 }
+568.1.1 = { # 208 BC
+	holder = 172334 # Titus Manlius Torquatus
+}
 569.1.1 = { # 207 BC
-	holder = 171124 # Gaius Cladius Nero
+	holder = 171124 # Gaius Claudius Nero
 }
 574.1.1 = { # 202 BC
 	holder = 171125 # Tiberius Claudius Nero

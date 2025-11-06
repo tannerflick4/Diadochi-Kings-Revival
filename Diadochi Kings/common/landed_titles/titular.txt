@@ -1768,3 +1768,7 @@ b_publilii = {
 	culture = latin
 	religion = roman_main
 }
+b_iunii = {
+	culture = latin
+	religion = roman_main
+}

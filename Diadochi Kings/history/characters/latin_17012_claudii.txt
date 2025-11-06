@@ -46,10 +46,10 @@
 	father = 171102
 	276.1.1 = { # 500 BC Made up
 		birth="yes"
+		give_nickname = nick_crassus
 	}
 	346.1.1 = { # 430 BC Made up
 		death="yes"
-		give_nickname = nick_crassus
 	}
 }
 171105 = {
@@ -136,15 +136,26 @@
 	religion = roman_main
 	culture = latin
 	father = 171110
+	trait = midas_touched
+	trait = ambitious # Broke sacred class boundaries and expanded Senate rolls with outsiders
+	trait = brave # He stood and spoke blind against a peace deal with Pyrrhus
+	trait = stubborn
+	trait = erudite # Systematically put laws into writing and public view
+	trait = scholar # credited with the first Latin literary prose
+	trait = architect # Built Appian Way & first aquaduct in Rome
+	trait = organizer
 	400.1.1 = { # 376 BC Made up
 		birth="yes"
-		#create_bloodline = {
-		#	type = bloodline_caecus
-		#	has_dlc = "Holy Fury"
-		#}
+		create_bloodline = {
+			type = bloodline_caecus
+			has_dlc = "Holy Fury"
+		}
+	}
+	491.1.1 = {
+		add_trait = blinded
 		give_nickname = nick_caecus
 	}
-	492.1.1 = { # 284 BC Made up
+	497.1.1 = { # 279 BC Made up
 		death="yes"
 	}
 }
@@ -154,6 +165,9 @@
 	religion = roman_main
 	culture = latin
 	father = 171110
+	trait = skilled_tactician
+	trait = brave # took a small force into Sicily against Carthage
+	trait = ambitious # wanted prestige and pushed Rome into major war
 	435.1.1 = { # 341 BC Made up
 		birth="yes"
 		give_nickname = nick_caudex
@@ -168,6 +182,8 @@
 	religion = roman_main
 	culture = latin
 	father = 171111
+	trait = ambitious # tried to proclaim himself king
+	trait = proud
 	416.1.1 = { # 360 BC Made up
 		birth="yes"
 		give_nickname = nick_russus
@@ -196,12 +212,18 @@
 	religion = roman_main
 	culture = latin
 	father = 171111
+	trait = tough_soldier
+	trait = proud # refused to delay battle despite every sign telling him not to
+	trait = cruel # Threw sacred chickens overboard saying “If they won’t eat, let them drink.”
+	trait = wroth # reacted out of impatience and anger when omens said not to fight
 	432.1.1 = { # 344 BC Made up
 		birth="yes"
 		give_nickname = nick_pulcher
 	}
 	530.1.1 = { # 246 BC Made up
-		death="yes"
+		death = { # suicide after being prosecuted for the naval disaster at Drepana
+			death_reason = death_suicide 
+		}
 	}
 }
 171116 = {
@@ -286,7 +308,7 @@
 	}
 }
 171122 = {
-	name = "Tiberius Nero" # Tiberius Cladius Nero
+	name = "Tiberius Nero" # Tiberius Claudius Nero
 	dynasty = 17012 # Claudii
 	religion = roman_main
 	culture = latin
@@ -299,7 +321,7 @@
 	}
 }
 171123 = {
-	name = "Publius Nero" # Publius Cladius Nero
+	name = "Publius Nero" # Publius Claudius Nero
 	dynasty = 17012 # Claudii
 	religion = roman_main
 	culture = latin
@@ -312,7 +334,7 @@
 	}
 }
 171124 = {
-	name = "Gaius Nero" # Gaius Cladius Nero
+	name = "Gaius Nero" # Gaius Claudius Nero
 	dynasty = 17012 # Claudii
 	religion = roman_main
 	culture = latin

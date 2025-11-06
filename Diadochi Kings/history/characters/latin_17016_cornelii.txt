@@ -9,9 +9,9 @@
 	culture = latin
 	244.1.1 = { # 532 BC Made Up
 		birth="yes" 
+		give_nickname = nick_maluginensis
 	}
 	278.1.1 = { # 498 BC Made Up
-		give_nickname = nick_maluginensis
 		death="yes"
 	}
 }
@@ -25,9 +25,9 @@
 	
 	270.1.1 = { # 506 BC Made up
 		birth="yes"
+		give_nickname = nick_tricostus
 	}
 	323.1.1 = { # 453 BC Made up
-		give_nickname = nick_tricostus
 		death="yes"
 	}
 }
@@ -41,9 +41,9 @@
 	
 	283.1.1 = { # 493 BC Made up
 		birth="yes"
+		give_nickname = nick_uritinus
 	}
 	329.1.1 = { # 447 BC Made up
-		give_nickname = nick_uritinus
 		death="yes"
 	}
 }
@@ -176,8 +176,15 @@
 	dynasty = 17016 # Cornelius Cossus
 	religion = roman_main
 	culture = latin
-	
 	father = 171510 # Servius Cornelius Cossus
+	trait = brilliant_strategist
+	trait = strong
+	trait = fair # described as "remarkably handsome"
+	trait = brave # went into single combat against a king
+	trait = duelist # one of 3 romans ever to be rewarded the spoila opima
+	trait = aggressive_leader
+	trait = experimenter
+	trait = inspiring_leader
 	
 	324.1.1 = { # 477 BC Made up
 		birth="yes"
@@ -501,8 +508,10 @@
 	dynasty = 17016 # Cornelius Rufinus
 	religion = roman_main
 	culture = latin
-	
 	father = 171531 # Gnaeus Cornelius Rufinus
+	trait = skilled_tactician 
+	trait = greedy # expelled for having to much silver
+	trait = ambitious # 2x consul & dictator
 	
 	457.1.1 = { # 319 BC Made Up
 		birth="yes"
@@ -631,9 +640,9 @@
 	dynasty = 17016 # Cornelius Scipio
 	religion = roman_main
 	culture = latin
-	
 	father = 171539 # Lucius Cornelius Scipio Barbatos
-	
+	trait = misguided_warrior # Captured at Lipara by the Carthaginians
+	trait = ambitious # returned to politics after humiliation
 	472.1.1 = { # 304 BC Made Up
 		birth="yes"
 		give_nickname = nick_asina
@@ -677,15 +686,17 @@
 	dynasty = 17016 # Cornelius Scipio
 	religion = roman_main
 	culture = latin
-	
 	father = 171542 # Lucius Cornelius Scipio
+	trait = skilled_tactician
 	
 	487.1.1 = { # 289 BC Made Up
 		birth="yes"
 		give_nickname = nick_calvus
 	}
-	567.1.1 = { # 209 BC Made Up
-		death="yes"
+	567.1.1 = { # 211 BC
+		death = { # 2nd Punic War
+			death_reason = death_battle
+		}
 	}
 }
 
@@ -696,15 +707,18 @@
 	dynasty = 17016 # Cornelius Dolabella
 	religion = roman_main
 	culture = latin
-	
 	father = 171509 # Marcus Cornelius Maluginensis
+	trait = tough_soldier
+	trait = brave
 	
 	443.1.1 = { # 333 BC Made Up
 		birth="yes"
 		give_nickname = nick_maximus
 	}
-	494.1.1 = { # 282 BC Made Up
-		death="yes"
+	494.1.1 = { # 282 BCE
+		death = { # Killed during the Tarentine naval incident
+			death_reason = death_battle
+		}
 	}
 }
 171545 = {

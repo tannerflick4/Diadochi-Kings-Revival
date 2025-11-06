@@ -1,7 +1,6 @@
 # 170901-171000 for the Valerii dynasty
 
 # Valerius
-
 170901 = {
 	name = "Volesus" #  Volesus Valerius
 	dynasty = 17010 # Valerii
@@ -62,15 +61,22 @@
 	religion = roman_main
 	culture = latin
 	father = 170904
+	trait = grey_eminence
+	trait = just # helped establish the republic & laws protecting citizens rights
+	trait = charitable # reputed for generosity 
+	trait = brave # fought in the early wars of the Republic
+	trait = diligent # active builder of the Republic’s political framework
+	trait = humble # lived simply and died poor
 	242.1.1 = { # 534 BC Made up
 		birth="yes"
+		give_nickname = nick_poplicola
 	}
-	273.1.1 = { # 503 BC Made up
+	273.1.1 = { # 503
 		death="yes"
 	}
 }
 170906 = {
-	name = "Marcus" # Marcus Valerius Poplicola
+	name = "Marcus Poplicola" # Marcus Valerius Poplicola
 	dynasty = 17010 # Valerii
 	religion = roman_main
 	culture = latin
@@ -83,7 +89,7 @@
 	}
 }
 170907 = {
-	name = "Publius" # Publius Valerius Poplicola
+	name = "Publius Poplicola" # Publius Valerius Poplicola
 	dynasty = 17010 # Valerii
 	religion = roman_main
 	culture = latin
@@ -96,7 +102,7 @@
 	}
 }
 170908 = {
-	name = "Valeria" # Valeria Valerius Poplicola
+	name = "Valeria Poplicola" # Valeria Valerius Poplicola
 	dynasty = 17010 # Valerii
 	female = yes
 	religion = roman_main
@@ -110,7 +116,7 @@
 	}
 }
 170909 = {
-	name = "Lucius" # Lucius Valerius Poplicola
+	name = "Lucius Poplicola" # Lucius Valerius Poplicola
 	dynasty = 17010 # Valerii
 	religion = roman_main
 	culture = latin
@@ -123,7 +129,7 @@
 	}
 }
 170910 = {
-	name = "Lucius" # Lucius Valerius Poplicola
+	name = "Lucius Poplicola" # Lucius Valerius Poplicola
 	dynasty = 17010 # Valerii
 	religion = roman_main
 	culture = latin
@@ -136,7 +142,7 @@
 	}
 }
 170911 = {
-	name = "Publius" # Publius Valerius Poplicola
+	name = "Publius Poplicola" # Publius Valerius Poplicola
 	dynasty = 17010 # Valerii
 	religion = roman_main
 	culture = latin
@@ -149,7 +155,7 @@
 	}
 }
 170912 = {
-	name = "Marcus" # Marcus Valerius Poplicola
+	name = "Marcus Poplicola" # Marcus Valerius Poplicola
 	dynasty = 17010 # Valerii
 	religion = roman_main
 	culture = latin
@@ -162,7 +168,7 @@
 	}
 }
 170913 = {
-	name = "Publius" # Publius Valerius Poplicola
+	name = "Publius Poplicola" # Publius Valerius Poplicola
 	dynasty = 17010 # Valerii
 	religion = roman_main
 	culture = latin
@@ -185,13 +191,14 @@
 	father = 170913
 	401.1.1 = { # 375 BC Made up
 		birth="yes"
+		give_nickname = nick_falto
 	}
 	456.1.1 = { # 320 BC Made up
 		death="yes"
 	}
 }
 170915 = {
-	name = "Quintus" # Quintus Valerius Falto
+	name = "Quintus Falto" # Quintus Valerius Falto
 	dynasty = 17010 # Valerii
 	religion = roman_main
 	culture = latin
@@ -204,7 +211,7 @@
 	}
 }
 170916 = {
-	name = "Quintus" # Quintus Valerius Falto
+	name = "Quintus Falto" # Quintus Valerius Falto
 	dynasty = 17010 # Valerii
 	religion = roman_main
 	culture = latin
@@ -217,7 +224,7 @@
 	}
 }
 170917 = {
-	name = "Publius" # Publius Valerius Falto
+	name = "Publius Falto" # Publius Valerius Falto
 	dynasty = 17010 # Valerii
 	religion = roman_main
 	culture = latin
@@ -230,7 +237,7 @@
 	}
 }
 170918 = {
-	name = "Marcus" # Marcus Valerius Falto
+	name = "Marcus Falto" # Marcus Valerius Falto
 	dynasty = 17010 # Valerii
 	religion = roman_main
 	culture = latin
@@ -254,13 +261,14 @@
 	father = 170933
 	426.1.1 = { # 350 BC Made up
 		birth="yes"
+		give_nickname = nick_flaccus
 	}
 	476.1.1 = { # 300 BC Made up
 		death="yes"
 	}
 }
 170920 = {
-	name = "Marcus" # Marcus Valerius Flaccus
+	name = "Marcus Flaccus" # Marcus Valerius Flaccus
 	dynasty = 17010 # Valerii
 	religion = roman_main
 	culture = latin
@@ -273,7 +281,7 @@
 	}
 }
 170921 = {
-	name = "Lucius" # Lucius Valerius Flaccus
+	name = "Lucius Flaccus" # Lucius Valerius Flaccus
 	dynasty = 17010 # Valerii
 	religion = roman_main
 	culture = latin
@@ -286,7 +294,7 @@
 	}
 }
 170922 = {
-	name = "Publius" # Publius Valerius Flaccus
+	name = "Publius Flaccus" # Publius Valerius Flaccus
 	dynasty = 17010 # Valerii
 	religion = roman_main
 	culture = latin
@@ -302,7 +310,7 @@
 # Valerius Pottitus
 
 170923 = {
-	name = "Marcus" # Marcus Valerius Volesus
+	name = "Marcus Volesus" # Marcus Valerius Volesus
 	dynasty = 17010 # Valerii
 	religion = roman_main
 	culture = latin
@@ -320,15 +328,18 @@
 	religion = roman_main
 	culture = latin
 	father = 170923
+	trait = diligent # consul in 483 & 470
+	trait = brave # fought against the Volsci/Aequians
 	271.1.1 = { # 505 BC Made up
 		birth="yes"
+		give_nickname = nick_potitus
 	}
 	316.1.1 = { # 460 BC Made up
 		death="yes"
 	}
 }
 170925 = {
-	name = "Volesus" # Volesus Valerius Potitus
+	name = "Volesus Potitus" # Volesus Valerius Potitus
 	dynasty = 17010 # Valerii
 	religion = roman_main
 	culture = latin
@@ -341,7 +352,7 @@
 	}
 }
 170926 = {
-	name = "Publius" # Publius Valerius Potitus
+	name = "Publius Potitus" # Publius Valerius Potitus
 	dynasty = 17010 # Valerii
 	religion = roman_main
 	culture = latin
@@ -354,7 +365,7 @@
 	}
 }
 170927 = {
-	name = "Lucius" # Lucius Valerius Potitus
+	name = "Lucius Potitus" # Lucius Valerius Potitus
 	dynasty = 17010 # Valerii
 	religion = roman_main
 	culture = latin
@@ -367,7 +378,7 @@
 	}
 }
 170928 = {
-	name = "Lucius" # Lucius Valerius Potitus
+	name = "Lucius Potitus" # Lucius Valerius Potitus
 	dynasty = 17010 # Valerii
 	religion = roman_main
 	culture = latin
@@ -380,7 +391,7 @@
 	}
 }
 170929 = {
-	name = "Gaius" # Gaius Valerius Potitus Volesus
+	name = "Gaius Potitus Volesus" # Gaius Valerius Potitus Volesus
 	dynasty = 17010 # Valerii
 	religion = roman_main
 	culture = latin
@@ -393,7 +404,7 @@
 	}
 }
 170930 = {
-	name = "Lucius" # Lucius Valerius Potitus
+	name = "Lucius Potitus" # Lucius Valerius Potitus
 	dynasty = 17010 # Valerii
 	religion = roman_main
 	culture = latin
@@ -406,7 +417,7 @@
 	}
 }
 170931 = {
-	name = "Publius" # Publius Valerius Potitus
+	name = "Publius Potitus" # Publius Valerius Potitus
 	dynasty = 17010 # Valerii
 	religion = roman_main
 	culture = latin
@@ -419,7 +430,7 @@
 	}
 }
 170932 = {
-	name = "Gaius" # Gaius Valerius Potitus
+	name = "Gaius Potitus" # Gaius Valerius Potitus
 	dynasty = 17010 # Valerii
 	religion = roman_main
 	culture = latin
@@ -432,7 +443,7 @@
 	}
 }
 170933 = {
-	name = "Gaius" # Gaius Valerius Potitus
+	name = "Gaius Potitus" # Gaius Valerius Potitus
 	dynasty = 17010 # Valerii
 	religion = roman_main
 	culture = latin
@@ -445,7 +456,7 @@
 	}
 }
 170934 = {
-	name = "Lucius" # Lucius Valerius Potitus
+	name = "Lucius Potitus" # Lucius Valerius Potitus
 	dynasty = 17010 # Valerii
 	religion = roman_main
 	culture = latin
@@ -461,33 +472,41 @@
 # Valerius Maximus
 
 170935 = {
-	name = "Manius" # Manius Valerius Volusus Maximus
+	name = "Manius Volusus" # Manius Valerius Volusus Maximus
 	dynasty = 17010 # Valerii
 	religion = roman_main
 	culture = latin
 	father = 170904
+	trait = brilliant_strategist
+	trait = brave # served as dictator during war with the Sabines and led troops personally
+	trait = wroth # known to punish mutiny harshly
+	trait = proud
+	trait = unyielding_leader
+	trait = inspiring_leader
 	232.1.1 = { # 544 BC Made up
 		birth="yes"
+		give_nickname = nick_maximus
 	}
-	313.1.1 = { # 463 BC Made up
+	313.1.1 = { # 463 BC
 		death="yes"
 	}
 }
 170936 = {
-	name = "Marcus" # Marcus Valerius Maximus Lactuca
+	name = "Marcus Maximus" # Marcus Valerius Maximus Lactuca
 	dynasty = 17010 # Valerii
 	religion = roman_main
 	culture = latin
 	father = 170935
 	306.1.1 = { # 470 BC Made up
 		birth="yes"
+		give_nickname = nick_lactuca
 	}
 	346.1.1 = { # 430 BC Made up
 		death="yes"
 	}
 }
 170937 = {
-	name = "Marcus" # Marcus Valerius Lactuca Maximus
+	name = "Marcus Lactuca Maximus" # Marcus Valerius Lactuca Maximus
 	dynasty = 17010 # Valerii
 	religion = roman_main
 	culture = latin
@@ -500,7 +519,7 @@
 	}
 }
 170938 = {
-	name = "Marcus" # Marcus Valerius Lactuca Maximus
+	name = "Marcus Lactuca Maximus" # Marcus Valerius Lactuca Maximus
 	dynasty = 17010 # Valerii
 	religion = roman_main
 	culture = latin
@@ -513,13 +532,27 @@
 	}
 }
 170939 = {
-	name = "Marcus" # Marcus Valerius Maximus Corvus Calenus
+	name = "Marcus Maximus Calenus" # Marcus Valerius Maximus Corvus Calenus
 	dynasty = 17010 # Valerii
 	religion = roman_main
 	culture = latin
 	father = 170938
+	health = 6 # lived to 100
+	trait = brilliant_strategist # renowned general who led Rome through multiple Samnite Wars
+	trait = strong # reputedly athletic, vigorous, and commanding well into old age
+	trait = brave # fought a giant Gaul in single combat at a young age, earning the cognomen Corvus
+	trait = diligent # served as consul six times and dictator twice
+	trait = just # described as fair and merciful to citizens and allies alike
+	trait = ambitious # six consulships and two dictatorships...
+	trait = shrewd # politically adept at maintaining power without alienating rivals
+	trait = strategist # recognized for tactical creativity during the early Republic’s military reforms
+	trait = organizer
+	trait = unyielding_leader
+	trait = inspiring_leader
 	406.1.1 = { # 370 BC Made up
 		birth="yes"
+		give_nickname = nick_corvus
+		#give_nickname = nick_calenus
 		create_bloodline = {
 			type = bloodline_corvinus
 			has_dlc = "Holy Fury"
@@ -530,7 +563,7 @@
 	}
 }
 170940 = {
-	name = "Marcus" # Marcus Valerius Maximus
+	name = "Marcus Maximus" # Marcus Valerius Maximus
 	dynasty = 17010 # Valerii
 	religion = roman_main
 	culture = latin
@@ -543,7 +576,7 @@
 	}
 }
 170941 = {
-	name = "Marcus" # Marcus Valerius Maximus
+	name = "Marcus Maximus" # Marcus Valerius Maximus
 	dynasty = 17010 # Valerii
 	religion = roman_main
 	culture = latin
@@ -556,7 +589,7 @@
 	}
 }
 170942 = {
-	name = "Marcus" # Marcus Valerius Maximus Potitus
+	name = "Marcus Maximus" # Marcus Valerius Maximus
 	dynasty = 17010 # Valerii
 	religion = roman_main
 	culture = latin
@@ -572,20 +605,27 @@
 # Valerius Messalla
 
 170943 = {
-	name = "Manius" # Manius Valerius Maximus Messalla
+	name = "Manius Maximus" # Manius Valerius Maximus Messalla
 	dynasty = 17010 # Valerii
 	religion = roman_main
 	culture = latin
 	father = 170941
+	trait = brilliant_strategist
+	trait = brave
+	trait = ambitious
+	trait = proud
+	trait = organizer
+	trait = inspiring_leader
 	489.1.1 = { # 287 BC Made up
 		birth="yes"
+		give_nickname = nick_messalla
 	}
 	556.1.1 = { # 220 BC Made up
 		death="yes"
 	}
 }
 170944 = {
-	name = "Marcus" # Marcus Valerius Maximus Messalla
+	name = "Marcus Maximus Messalla" # Marcus Valerius Maximus Messalla
 	dynasty = 17010 # Valerii
 	religion = roman_main
 	culture = latin
@@ -598,7 +638,7 @@
 	}
 }
 170945 = {
-	name = "Marcus" # Marcus Valerius Messalla
+	name = "Marcus Messalla" # Marcus Valerius Messalla
 	dynasty = 17010 # Valerii
 	religion = roman_main
 	culture = latin
@@ -619,15 +659,21 @@
 	religion = roman_main
 	culture = latin
 	father = 170934
+	trait = brave
+	trait = stubborn # refused to concede after losses to Pyrrhus
+	trait = proud
+	trait = strategist
+	trait = aggressive_leader # charged into Pyrrhus’ formations
 	446.1.1 = { # 330 BC Made up
 		birth="yes"
+		give_nickname = nick_laevinus
 	}
 	516.1.1 = { # 260 BC Made up
 		death="yes"
 	}
 }
 170947 = {
-	name = "Publius" # Publius Valerius Laevinus
+	name = "Publius Laevinus" # Publius Valerius Laevinus
 	dynasty = 17010 # Valerii
 	religion = roman_main
 	culture = latin
@@ -640,15 +686,19 @@
 	}
 }
 170948 = {
-	name = "Marcus" # Marcus Valerius Laevinus
+	name = "Marcus Laevinus" # Marcus Valerius Laevinus
 	dynasty = 17010 # Valerii
 	religion = roman_main
 	culture = latin
 	father = 170947
+	trait = skilled_tactician # commanded fleets and armies against Philip V
+	trait = ambitious
+	trait = proud
+	trait = zealous
 	496.1.1 = { # 280 BC Made up
 		birth="yes"
 	}
-	576.1.1 = { # 200 BC Made up
+	576.1.1 = { # 200 BC
 		death="yes"
 	}
 }
