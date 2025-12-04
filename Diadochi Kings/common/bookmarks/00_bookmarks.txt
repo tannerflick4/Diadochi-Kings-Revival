@@ -91,3 +91,113 @@ bm_2nd_war = {
 		}
 	}
 }
+bm_rise_of_macedon = {
+	name = "BM_RISE_OF_MACEDON"
+	desc = "BM_RISE_OF_MACEDON_DESC"
+	picture = GFX_pick_era_image_1
+	era = yes						## Will be shown on Era screen.
+	date = 417.4.1
+	custom_start = no				## Choosing "Custom Start" will open this bookmark
+
+	selectable_character = {
+		id = 841 # Philip II
+		age = 23
+		name = ERA_CHAR_NAME_841
+		title = k_macedon
+		title_name = k_macedon
+		
+		character = {
+			dna = swiuralipis
+			properties = ac00ab00000
+			religion = greek_main
+			culture = macedonian
+			government = feudal_government
+			dynasty = 9
+		}
+	}
+
+	selectable_character = {
+		id = 350001 # Nectanebo II
+		age = 21
+		name = ERA_CHAR_NAME_350001
+		title = e_egypt
+		title_name = e_egypt
+		
+		character = {
+			dna = vehxsjeaeev
+			properties = aj00k00000
+			religion = kemetic
+			culture = egyptian
+			government = priesthood_governemnt
+			dynasty = 35001
+		}
+	}
+
+	selectable_character = {
+		id = 140003 # Bardylis
+		age = 89
+		name = ERA_CHAR_NAME_140003
+		title = d_dardania
+		title_name = d_dardania
+		
+		character = {
+			dna = njzjnjjuvxc
+			properties = mb0cbd00000
+			religion = illyrian_main
+			culture= illyrian
+			government = tribal_government
+			dynasty = 14001
+		}
+	}
+	
+	selectable_character = {
+		id = 21201 # Archytas
+		age = 76
+		name = ERA_CHAR_NAME_21201
+		title = k_r_tarentum
+		title_name = k_r_tarentum
+		
+		character = {
+			dna = evdzuoqlrlv
+			properties = nh00kk00000
+			religion = greek_main
+			culture = doric
+			government = merchant_republic_government
+			dynasty = 2013
+		}
+	}
+	
+	selectable_character = {
+		id = 24002 # Dionysioss II
+		age = 38
+		name = ERA_CHAR_NAME_24002
+		title = k_syracuse
+		title_name = k_syracuse
+		
+		character = {
+			dna = vjjdnxusdrg
+			properties = no00fb00000
+			religion = greek_main
+			culture = doric
+			government = feudal_government
+			dynasty = 2041
+		}
+	}
+	
+	selectable_character = {
+		id = 40114 # Cotys
+		age = 44
+		name = ERA_CHAR_NAME_40114
+		title = k_odrysia
+		title_name = k_odrysia
+		
+		character = {
+			dna = suredlexfpa
+			properties = wl00da00000
+			religion = thracian_main
+			culture = thracian
+			government = tribal_government
+			dynasty = 4002
+		}
+	}
+}

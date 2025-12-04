@@ -9,10 +9,10 @@
 	add_trait = zealous
 	add_trait = tough_soldier
 	stewardship = 8
-	396.1.1 = { # 380 BC
+	376.1.1 = { # 400 BC
 		birth="yes"
 	}
-	413.1.1 = {
+	406.1.1 = {
 		add_spouse = 350005
 	}
 	440.1.1 = { # 336 BC, made up
@@ -26,7 +26,7 @@
 	religion = kemetic
 	father = 350003
 	
-	372.1.1 = { # 404 BC, made up
+	360.1.1 = { # 416 BC, made up
 		birth="yes"
 	}
 	406.1.1 = { # 370 BC, made up
@@ -41,7 +41,7 @@
 	add_trait = just
 	add_trait = tough_soldier
 	stewardship = 12
-	356.1.1 = { # 420 BC, made up
+	344.1.1 = { # 432 BC, made up
 		birth="yes"
 	}
 	374.1.1 = { # 402 BC, made up
@@ -80,10 +80,10 @@
 	religion = kemetic
 	female = yes
 	father = 350004
-	397.1.1 = { # 379 BC, made up
+	390.1.1 = { # 385 BC, made up
 		birth="yes"
 	}
-	413.1.1 = { # 
+	406.1.1 = { # 
 		add_spouse = 350001
 	}
 	446.1.1 = { # 330 BC, made up

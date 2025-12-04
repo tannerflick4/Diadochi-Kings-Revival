@@ -452,3 +452,31 @@
 		death="yes" # 260 BC
 	}
 }
+40133 = {
+	name = "Theraike" # Daughter of Kotys I
+	female = yes
+	dynasty = 4002 # Odrysae
+	religion = thracian_main
+	culture = thracian
+	father = 40114 # Kotys I
+	386.1.1 = { # 390 BC Made up
+		birth="yes" # 376 BC
+	}
+	436.1.1 = { # 340 Made up
+		death="yes" # 351 BC
+	}
+}
+40134 = {
+	name = "Brygaina" # Daughter of Kotys I
+	female = yes
+	dynasty = 4002 # Odrysae
+	religion = thracian_main
+	culture = thracian
+	father = 40114 # Kotys I
+	396.1.1 = { # 380 BC Made up
+		birth="yes" # 376 BC
+	}
+	446.1.1 = { # 330 Made up
+		death="yes" # 351 BC
+	}
+}

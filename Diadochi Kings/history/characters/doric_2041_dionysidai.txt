@@ -88,6 +88,9 @@
 	348.1.1 = { 
 		birth="yes" # 428 BC Made Up
 	}
+	382.1.1 = {
+		add_spouse = 24012 # Dicaeosyne
+	}
 	401.1.1 = { # 375 BC
 		death = {
 			death_reason = death_battle
@@ -103,6 +106,7 @@
 	add_trait = tough_soldier
 	
 	father = 24005
+	mother = 24012 # Dicaeosyne
 	382.1.1 = {
 		birth="yes" # 394 BC Made Up
 	}
@@ -145,17 +149,17 @@
 	}
 }
 24009 = {
-	name = "Thearides" # Son of Dionysius the Elder
+	name = "Thearides" # Brother of Dionysius the Elder
 	# Source: Plutarch, Life of Dion
 	dynasty = 2041 # Dionysidai
 	religion = greek_main
 	culture = doric
-	father = 24001 # Dionysius the Elder
-	mother = 29901 # Doris
-	382.1.1 = { # 394 BC Made Up
+	father = 24004
+
+	340.1.1 = { # 436 BC Made Up
 		birth="yes"
 	}
-	398.1.1 = { # 378 BC Made Up
+	397.1.1 = { # 379 BC Made Up
 		add_spouse = 24008 # Arete
 	}
 	399.1.1 = { # 377 BC Made Up
@@ -178,5 +182,35 @@
 	}
 	446.1.1 = {
 		death="yes" # 330 BC Made Up
+	}
+}
+24011 = {
+	name = "Nysaios" # Son of Dionysius the Elder
+	dynasty = 2041 # Dionysidai
+	religion = greek_main
+	culture = doric
+	father = 24001 # Dionysius the Elder
+	mother = 24104 # Aristomache
+
+	386.1.1 = { 
+		birth="yes" # 390 BC Made Up
+	}
+	427.1.1 = {
+		death="yes" # 349 BC Made Up
+	}
+}
+24012 = {
+	name = "Dicaeosyne" # Daughter of Dionysius the Elder
+	dynasty = 2041 # Dionysidai
+	religion = greek_main
+	culture = doric
+	female = yes
+	father = 24001 # Dionysius the Elder
+	mother = 24104 # Aristomache
+	366.1.1 = { # 415 BC Made Up
+		birth="yes"
+	}
+	411.1.1 = {
+		death="yes" # 365 BC Made Up
 	}
 }

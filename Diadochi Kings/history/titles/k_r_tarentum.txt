@@ -2,6 +2,6 @@
 	holder = 21201
 	law = succ_patrician_elective
 }
-458.1.1 = {
+426.1.1 = {
 	holder = 21202
 }
