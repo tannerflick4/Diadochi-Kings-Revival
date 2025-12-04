@@ -477,7 +477,7 @@
 		birth="yes" # 399 BC Made up
 	}
 	405.1.1 = { # 371 BC
-		add_spouse = 3604 # Eurynoa
+		add_spouse = 839 # Eurynoa
 	}
 	409.1.1 = { # 367 BC
 		add_spouse = 3604 # Eurydike
@@ -887,6 +887,7 @@
 	416.8.1 = { # August 360 BC, approximate
 		death = { 
 			death_reason = death_battle # died in battle against the Illyrians
+			killer = 140003
 		}
 	}
 }
